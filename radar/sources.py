@@ -489,10 +489,7 @@ def is_fresh(it: Item, now: datetime, max_age_days: int = 1) -> bool:
         return any(s.name in ("HF Daily Papers", "Hacker News") or s.signal in ("官方", "个人博客") for s in it.sources)
     bj = timezone(timedelta(hours=8))
     start = (now.astimezone(bj) - timedelta(days=max_age_days)).replace(hour=0, minute=0, second=0, microsecond=0)
-    if pub >= start:
-        return True
-    # HF daily features papers a few days after submission; being featured today/yesterday is the news
-    return any(s.name == "HF Daily Papers" for s in it.sources)
+    return pub >= start   # strict for every source, papers included: readers want T / T-1 only
 
 
 def popularity(metric: float, scale: float) -> float:

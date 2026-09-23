@@ -222,7 +222,7 @@ class TechAndFreshnessTests(unittest.TestCase):
         self.assertFalse(sources.is_fresh(it("2026-09-21T23:30:00+08:00"), NOW))   # T-2
         self.assertFalse(sources.is_fresh(it(""), NOW), "undated media item")
         self.assertTrue(sources.is_fresh(it("", "Hacker News"), NOW))
-        self.assertTrue(sources.is_fresh(it("2026-09-10T00:00:00Z", "HF Daily Papers"), NOW), "featured today")
+        self.assertFalse(sources.is_fresh(it("2026-09-10T00:00:00Z", "HF Daily Papers"), NOW), "old paper, even if trending")
 
     def test_rss_skips_undated_entries(self):
         feed = ('<?xml version="1.0"?><rss><channel><item><title>AI 新闻</title><link>https://a.cn/1</link></item>'
