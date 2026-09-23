@@ -17,7 +17,18 @@ done
 echo "== zone lookup"
 ZONE=$(curl -sS -H "$AUTH" "$API/zones?name=$DOMAIN" | jq -r '.result[0].id // empty')
 if [ -z "$ZONE" ]; then
-  echo "zone $DOMAIN not visible to this token (not added to Cloudflare yet, or token lacks Zone read)"; 
+  echo "== zone not in Cloudflare yet: creating it (free plan, full setup)"
+  CREATED=$(curl -sS -X POST -H "$AUTH" -H "Content-Type: application/json" "$API/zones" \
+    -d "{\"name\":\"$DOMAIN\",\"account\":{\"id\":\"$ACC\"},\"type\":\"full\"}")
+  echo "$CREATED" | jq -c '{success, errors, status: .result.status}'
+  ZONE=$(echo "$CREATED" | jq -r '.result.id // empty')
+fi
+if [ -n "$ZONE" ]; then
+  echo "== zone status + nameservers (set these at the registrar)"
+  curl -sS -H "$AUTH" "$API/zones/$ZONE" | jq -c '{status: .result.status, name_servers: .result.name_servers, original: .result.original_name_servers}'
+fi
+if [ -z "$ZONE" ]; then
+  echo "zone $DOMAIN not visible and could not be created (token lacks Zone permissions)";
 else
   for NAME in "$DOMAIN" "www.$DOMAIN"; do
     EXIST=$(curl -sS -H "$AUTH" "$API/zones/$ZONE/dns_records?name=$NAME" | jq -r '.result[0].id // empty')
