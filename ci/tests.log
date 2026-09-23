@@ -1,6 +1,6 @@
-test_days_radar_theme_more (tests.test_e2e.E2E.test_days_radar_theme_more) ... FAIL
+test_days_radar_theme_more (tests.test_e2e.E2E.test_days_radar_theme_more) ... ok
 test_deep_link_to_item (tests.test_e2e.E2E.test_deep_link_to_item) ... ok
-test_empty_site (tests.test_e2e.E2E.test_empty_site) ... /opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/unittest/case.py:579: ResourceWarning: unclosed <socket.socket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 33507)>
+test_empty_site (tests.test_e2e.E2E.test_empty_site) ... /opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/unittest/case.py:579: ResourceWarning: unclosed <socket.socket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 46045)>
   if method() is not None:
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
 ok
@@ -35,16 +35,8 @@ test_html_list_bootstrap_then_incremental (tests.test_unit.SourceTests.test_html
 test_rss_lookback (tests.test_unit.SourceTests.test_rss_lookback) ... ok
 test_source_failure_is_isolated (tests.test_unit.SourceTests.test_source_failure_is_isolated) ... ok
 
-======================================================================
-FAIL: test_days_radar_theme_more (tests.test_e2e.E2E.test_days_radar_theme_more)
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/home/runner/work/ai-paper-daily/ai-paper-daily/tests/test_e2e.py", line 122, in test_days_radar_theme_more
-    self.assertIn("22日", page.locator("#issue-line").inner_text())
-AssertionError: '22日' not found in '第 2 期 · 2026年9月23日 周三 · 已出晨间刊'
+Ran 33 tests in 6.119s
 
-----------------------------------------------------------------------
-Ran 33 tests in 5.670s
-
-FAILED (failures=1)
-sys:1: ResourceWarning: unclosed <socket.socket fd=3, family=2, type=1, proto=0, laddr=('127.0.0.1', 43465)>
+OK
+sys:1: ResourceWarning: unclosed <socket.socket fd=3, family=2, type=1, proto=0, laddr=('127.0.0.1', 46073)>
