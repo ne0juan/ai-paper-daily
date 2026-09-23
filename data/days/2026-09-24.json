@@ -26,7 +26,7 @@
      "authority": 0.9,
      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
      "signal": "官方",
-     "metric": 0.0
+     "metric": 0
     }
    ],
    "category": "资讯",
@@ -46,7 +46,7 @@
    ],
    "relevant": true,
    "score_rule": 0.8792,
-   "score_llm": 9.0,
+   "score_llm": 9,
    "score": 0.8917,
    "date": "2026-09-24",
    "slot": "morning",
@@ -61,274 +61,6 @@
     {
      "label": "Hacker News 讨论",
      "url": "https://news.ycombinator.com/item?id=49820134"
-    }
-   ],
-   "mt": false
-  },
-  {
-   "id": "arxiv-2609.25804",
-   "kind": "paper",
-   "title": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
-   "url": "https://arxiv.org/abs/2609.25804",
-   "pdf_url": "https://arxiv.org/pdf/2609.25804",
-   "abstract": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run. Making these decisions well is becoming a key capability for both engineering and research agents. We refer to the ability to make good long-horizon decisions as the taste of an agent. While existing benchmarks measure the end-to-end success of agents on long-horizon tasks, none of them measures the taste of an agent. To address this problem, we build Taste-Bench, a benchmark of taste questions constructed automatically from trajectories that agents produced in engineering and research tasks. Each question presents a decision fork, a point in a trajectory where multiple directions are available and one of them leads to a better outcome, and the evaluated model chooses among these directions without seeing what happens after the fork. We mine these forks automatically from parallel attempts at the same task and from detours inside a single trajectory, without needing human annotation. We evaluate frontier models on Taste-Bench and find that the best model answers only 59.7% of the questions correctly. We further find that forks whose deciding evidence appears later in the trajectory are much harder for every model, and that a larger reasoning budget does not improve the accuracy. Finally, we show that taste can be trained. We distill the judgment of a teacher that has seen the outcome into a student model, and the student makes better decisions on unseen tasks and improves end-to-end success on held-out SWE-bench Pro tasks.",
-   "authors": [
-    "Wenbo Pan",
-    "Zhichao Liu",
-    "Shujie Liu",
-    "Jingying Zeng",
-    "Chin-Yew Lin",
-    "Xianfeng Tang",
-    "Yan Lu",
-    "Qi He",
-    "Xiaohua Jia"
-   ],
-   "orgs": [
-    "Microsoft"
-   ],
-   "published": "2026-09-22T00:00:00.000Z",
-   "sources": [
-    {
-     "name": "HF Daily Papers",
-     "authority": 0.7,
-     "url": "https://huggingface.co/papers/2609.25804",
-     "signal": "▲ 111",
-     "metric": 111
-    }
-   ],
-   "category": "技术",
-   "lang": "en",
-   "who": "",
-   "title_zh": "品味智能体：长程任务中决策品味的度量与提升",
-   "summary_zh": "微软提出Taste-Bench基准，从智能体轨迹中自动挖掘决策分叉点，评估模型在长程任务中的决策品味。最强模型仅答对59.7%，且推理预算增加无法提升准确率。",
-   "highlights_zh": [
-    "首次定义并量化智能体的'品味'——长程决策能力",
-    "从并行尝试和轨迹绕路中自动挖掘决策分叉点，无需人工标注",
-    "前沿模型在Taste-Bench上最高仅59.7%准确率，证据出现越晚越难"
-   ],
-   "why_zh": "揭示当前智能体在长程决策上的根本短板，为智能体能力评估提供新维度。",
-   "tags": [
-    "智能体",
-    "数据与评测"
-   ],
-   "relevant": true,
-   "score_rule": 0.7421,
-   "score_llm": 8.0,
-   "score": 0.7768,
-   "date": "2026-09-24",
-   "slot": "morning",
-   "selected_at": "2026-09-23T22:49:03+00:00",
-   "mirror_pdf": "pdf/arxiv-2609.25804.pdf",
-   "mirror_kind": "pdf",
-   "links": [
-    {
-     "label": "中文全文（幻觉翻译）",
-     "url": "https://hjfy.top/arxiv/2609.25804"
-    },
-    {
-     "label": "中文解读（Cool Papers）",
-     "url": "https://papers.cool/arxiv/2609.25804"
-    },
-    {
-     "label": "arXiv",
-     "url": "https://arxiv.org/abs/2609.25804"
-    },
-    {
-     "label": "arXiv PDF",
-     "url": "https://arxiv.org/pdf/2609.25804"
-    },
-    {
-     "label": "alphaXiv 讨论",
-     "url": "https://www.alphaxiv.org/abs/2609.25804"
-    },
-    {
-     "label": "HF Papers",
-     "url": "https://huggingface.co/papers/2609.25804"
-    },
-    {
-     "label": "GitHub",
-     "url": "https://github.com/wbopan/tastebench"
-    }
-   ],
-   "mt": false
-  },
-  {
-   "id": "arxiv-2609.24972",
-   "kind": "paper",
-   "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
-   "url": "https://arxiv.org/abs/2609.24972",
-   "pdf_url": "https://arxiv.org/pdf/2609.24972",
-   "abstract": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level. However, such recursive evolution may overfit by memorizing the training tasks, showing large in-distribution gains that shrink or even vanish on out-of-distribution benchmarks. We introduce Regularized Recursive Self-Improvement of Agent Harnesses (RRSI), which incorporates the principles of regularizations into harness self-improvement by constraining the evolution candidate proposal and selection. The proposer operates with a temporally annealed budget, limiting how many edits a candidate can bundle, and it encourages unexplored trajectories based on evolution history. The selector is equipped with a critic and a pruner: the critic screens benchmark-specific proposals, while the pruner, removes changes that are too small, too expensive, or no longer useful. Together these constraints favor reusable agent mechanisms over benchmark-specific ones or even noises. Across eight benchmarks spanning coding, agentic workspace and engineering design tasks, RRSI gains up to 14.1 points on the split it evolves against and up to 4.7 points on the five out-of-distribution benchmarks, while producing a harness that runs on 30% fewer policy tokens than the unregularized evolution. Code is available at https://github.com/google-research/rrsi and project page is https://regularized-rsi.com/.",
-   "authors": [
-    "Peng Xia",
-    "Rujun Han",
-    "Zifeng Wang",
-    "Yanfei Chen",
-    "Yufan Zhang",
-    "Yoonho Lee",
-    "Chengsong Huang",
-    "Han Yu",
-    "Zhongying CuiZhu",
-    "Yifei Ming",
-    "Huaxiu Yao",
-    "Burak Gokturk",
-    "Tomas Pfister",
-    "Chen-Yu Lee"
-   ],
-   "orgs": [
-    "Google"
-   ],
-   "published": "2026-09-21T00:00:00.000Z",
-   "sources": [
-    {
-     "name": "HF Daily Papers",
-     "authority": 0.7,
-     "url": "https://huggingface.co/papers/2609.24972",
-     "signal": "▲ 176",
-     "metric": 176
-    }
-   ],
-   "category": "技术",
-   "lang": "en",
-   "who": "",
-   "title_zh": "RRSI：智能体脚手架的正则化递归自改进",
-   "summary_zh": "谷歌提出RRSI方法，通过时间退火预算、批评器和剪枝器约束智能体脚手架的递归自改进，防止过拟合训练任务。在八个基准上最高提升14.1分。",
-   "highlights_zh": [
-    "针对智能体脚手架递归自改进中的过拟合问题",
-    "引入时间退火预算限制候选编辑数量，鼓励探索未走过的路径",
-    "批评器过滤基准特定提案，剪枝器移除过小、过贵或无效改动"
-   ],
-   "why_zh": "解决智能体系统级递归自改进的泛化瓶颈，推动自动化脚手架设计走向实用。",
-   "tags": [
-    "智能体",
-    "效率与系统"
-   ],
-   "relevant": true,
-   "score_rule": 0.741,
-   "score_llm": 8.0,
-   "score": 0.7764,
-   "date": "2026-09-24",
-   "slot": "morning",
-   "selected_at": "2026-09-23T22:49:03+00:00",
-   "mirror_pdf": "pdf/arxiv-2609.24972.pdf",
-   "mirror_kind": "pdf",
-   "links": [
-    {
-     "label": "中文全文（幻觉翻译）",
-     "url": "https://hjfy.top/arxiv/2609.24972"
-    },
-    {
-     "label": "中文解读（Cool Papers）",
-     "url": "https://papers.cool/arxiv/2609.24972"
-    },
-    {
-     "label": "arXiv",
-     "url": "https://arxiv.org/abs/2609.24972"
-    },
-    {
-     "label": "arXiv PDF",
-     "url": "https://arxiv.org/pdf/2609.24972"
-    },
-    {
-     "label": "alphaXiv 讨论",
-     "url": "https://www.alphaxiv.org/abs/2609.24972"
-    },
-    {
-     "label": "HF Papers",
-     "url": "https://huggingface.co/papers/2609.24972"
-    },
-    {
-     "label": "GitHub",
-     "url": "https://github.com/google-research/rrsi"
-    }
-   ],
-   "mt": false
-  },
-  {
-   "id": "arxiv-2609.24984",
-   "kind": "paper",
-   "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
-   "url": "https://arxiv.org/abs/2609.24984",
-   "pdf_url": "https://arxiv.org/pdf/2609.24984",
-   "abstract": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to let the requested viewpoint shape how multi-view evidence is compressed into the video generator's limited token budget. Trained jointly with the video generator, a memory encoder and pose-conditioned readout module integrate historical observations into a fixed set of target view-specific tokens before denoising, without explicit depth-based correspondences. By combining this memory with recent temporal context and few-step distillation, WorldCrafter enables streaming scene exploration from a single input image or text prompt. Experiments across static and dynamic scenes show substantial gains in long-horizon consistency and camera-control accuracy while preserving visual quality during minute-scale exploration.",
-   "authors": [
-    "Wangbo Yu",
-    "Kunhao Liu",
-    "Wenbo Hu",
-    "Shenghai Yuan",
-    "Chaoran Feng",
-    "Haiyang Zhou",
-    "Yukun Huang",
-    "Yiran Wang",
-    "Wang Zhao",
-    "Yingmin Luo",
-    "Ying Shan"
-   ],
-   "orgs": [
-    "ARC Lab, Tencent"
-   ],
-   "published": "2026-09-21T00:00:00.000Z",
-   "sources": [
-    {
-     "name": "HF Daily Papers",
-     "authority": 0.7,
-     "url": "https://huggingface.co/papers/2609.24984",
-     "signal": "▲ 125",
-     "metric": 125
-    }
-   ],
-   "category": "技术",
-   "lang": "en",
-   "who": "",
-   "title_zh": "WorldCrafter：隐式3D感知记忆的一致视频世界模型",
-   "summary_zh": "腾讯ARC Lab提出WorldCrafter，学习可相机查询的隐式3D感知记忆，让请求视角决定多视角证据如何压缩进视频生成器的token预算，实现分钟级一致场景探索。",
-   "highlights_zh": [
-    "隐式3D感知记忆编码器与姿态条件读出模块，无需显式深度对应",
-    "记忆与近期时序上下文结合，支持流式场景探索",
-    "在长程一致性和相机控制精度上显著提升，保持视觉质量"
-   ],
-   "why_zh": "视频世界模型在长程一致性和视角控制上的关键突破，推动交互式环境模拟。",
-   "tags": [
-    "多模态",
-    "视觉"
-   ],
-   "relevant": true,
-   "score_rule": 0.7302,
-   "score_llm": 8.0,
-   "score": 0.7721,
-   "date": "2026-09-24",
-   "slot": "morning",
-   "selected_at": "2026-09-23T22:49:03+00:00",
-   "mirror_pdf": "pdf/arxiv-2609.24984.pdf",
-   "mirror_kind": "pdf",
-   "links": [
-    {
-     "label": "中文全文（幻觉翻译）",
-     "url": "https://hjfy.top/arxiv/2609.24984"
-    },
-    {
-     "label": "中文解读（Cool Papers）",
-     "url": "https://papers.cool/arxiv/2609.24984"
-    },
-    {
-     "label": "arXiv",
-     "url": "https://arxiv.org/abs/2609.24984"
-    },
-    {
-     "label": "arXiv PDF",
-     "url": "https://arxiv.org/pdf/2609.24984"
-    },
-    {
-     "label": "alphaXiv 讨论",
-     "url": "https://www.alphaxiv.org/abs/2609.24984"
-    },
-    {
-     "label": "HF Papers",
-     "url": "https://huggingface.co/papers/2609.24984"
-    },
-    {
-     "label": "GitHub",
-     "url": "https://github.com/TencentARC/WorldCrafter"
     }
    ],
    "mt": false
@@ -353,7 +85,7 @@
      "authority": 0.8,
      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
      "signal": "个人博客",
-     "metric": 0.0
+     "metric": 0
     }
    ],
    "category": "观点",
@@ -373,7 +105,7 @@
    ],
    "relevant": true,
    "score_rule": 0.42,
-   "score_llm": 9.0,
+   "score_llm": 9,
    "score": 0.768,
    "date": "2026-09-24",
    "slot": "morning",
@@ -426,7 +158,7 @@
    ],
    "relevant": true,
    "score_rule": 0.72,
-   "score_llm": 8.0,
+   "score_llm": 8,
    "score": 0.768,
    "date": "2026-09-24",
    "slot": "morning",
@@ -437,93 +169,6 @@
     {
      "label": "原文",
      "url": "https://github.com/google/ax"
-    }
-   ],
-   "mt": false
-  },
-  {
-   "id": "arxiv-2609.24997",
-   "kind": "paper",
-   "title": "VideoGen-Agent: Reinforcing Video Generation Agents",
-   "url": "https://arxiv.org/abs/2609.24997",
-   "pdf_url": "https://arxiv.org/pdf/2609.24997",
-   "abstract": "Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation. However, these models often struggle to satisfy prompts requiring specialized knowledge, specific identities, physical consistency, or ordered events. In this paper, we present VideoGen-Agent, a multimodal agent trained through multitask agentic reinforcement learning to use external tools for video generation. The agent coordinates augmentation, generation, and verification tools through multi-turn interactions, using the prompt and intermediate observations to guide its decisions. We train a shared policy on a category-balanced dataset spanning six tasks. Supervised fine-tuning on teacher-generated trajectories establishes tool-use behavior, which is then refined through reinforcement learning. A category-aware hybrid reward evaluates tool-call validity, task-appropriate tool use, and generated video quality. We further introduce VABench, a held-out benchmark of 600 prompts covering procedural knowledge, single- and multi-entity identity preservation, physical consistency, scene composition, and multi-shot temporal structure. On VABench, VideoGen-Agent improves over its base text-to-video generator by 19.1 points, from 56.5 to 75.6. Upgrading the generation tools further raises the score to 86.1 without additional agent training. Human raters prefer the upgraded configuration over the strongest standalone baseline in 84.3% of comparisons. These results support learning tool use across video-generation tasks and show that the trained agent can benefit from subsequent advances in generation tools.",
-   "authors": [
-    "Binxu Li",
-    "Haoyi Duan",
-    "Yuhui Zhang",
-    "Yaohui Zhang",
-    "Zihao Lin",
-    "Kaituo Feng",
-    "Suozhi Huang",
-    "Xiangyi Li",
-    "Yu Li",
-    "Chunyuan Li",
-    "Shilong Liu",
-    "Mengdi Wang"
-   ],
-   "orgs": [
-    "Princeton University"
-   ],
-   "published": "2026-09-21T00:00:00.000Z",
-   "sources": [
-    {
-     "name": "HF Daily Papers",
-     "authority": 0.7,
-     "url": "https://huggingface.co/papers/2609.24997",
-     "signal": "▲ 40",
-     "metric": 40
-    }
-   ],
-   "category": "技术",
-   "lang": "en",
-   "who": "",
-   "title_zh": "VideoGen-Agent：用强化学习训练视频生成智能体",
-   "summary_zh": "普林斯顿提出 VideoGen-Agent，通过多任务智能体强化学习让模型自主调用增强、生成、验证工具，并发布 VABench 基准；在 600 条提示上把基础文生视频模型从 56.5 提升到 75.6 分，换更强生成工具后可达 86.1。",
-   "highlights_zh": [
-    "多轮工具调用：增强、生成、验证三类工具协同，用提示与中间观察指导决策",
-    "类别感知混合奖励：评估工具调用有效性、任务适配度与生成视频质量",
-    "VABench 覆盖程序性知识、身份保持、物理一致性、多镜头时序等六类任务"
-   ],
-   "why_zh": "展示智能体范式如何系统性补足视频生成模型在专业知识和一致性上的短板。",
-   "tags": [
-    "智能体",
-    "多模态",
-    "强化学习"
-   ],
-   "relevant": true,
-   "score_rule": 0.663,
-   "score_llm": 8.0,
-   "score": 0.7452,
-   "date": "2026-09-24",
-   "slot": "morning",
-   "selected_at": "2026-09-23T22:49:03+00:00",
-   "mirror_pdf": "pdf/arxiv-2609.24997.pdf",
-   "mirror_kind": "pdf",
-   "links": [
-    {
-     "label": "中文全文（幻觉翻译）",
-     "url": "https://hjfy.top/arxiv/2609.24997"
-    },
-    {
-     "label": "中文解读（Cool Papers）",
-     "url": "https://papers.cool/arxiv/2609.24997"
-    },
-    {
-     "label": "arXiv",
-     "url": "https://arxiv.org/abs/2609.24997"
-    },
-    {
-     "label": "arXiv PDF",
-     "url": "https://arxiv.org/pdf/2609.24997"
-    },
-    {
-     "label": "alphaXiv 讨论",
-     "url": "https://www.alphaxiv.org/abs/2609.24997"
-    },
-    {
-     "label": "HF Papers",
-     "url": "https://huggingface.co/papers/2609.24997"
     }
    ],
    "mt": false
@@ -566,7 +211,7 @@
    ],
    "relevant": true,
    "score_rule": 0.6867,
-   "score_llm": 7.0,
+   "score_llm": 7,
    "score": 0.6947,
    "date": "2026-09-24",
    "slot": "morning",
@@ -619,7 +264,7 @@
    ],
    "relevant": true,
    "score_rule": 0.64,
-   "score_llm": 7.0,
+   "score_llm": 7,
    "score": 0.676,
    "date": "2026-09-24",
    "slot": "morning",
@@ -670,7 +315,7 @@
    ],
    "relevant": true,
    "score_rule": 0.5919,
-   "score_llm": 7.0,
+   "score_llm": 7,
    "score": 0.6568,
    "date": "2026-09-24",
    "slot": "morning",
@@ -709,7 +354,7 @@
      "authority": 0.8,
      "url": "https://newsletter.semianalysis.com/p/clustermax-30-the-industry-standard",
      "signal": "个人博客",
-     "metric": 0.0
+     "metric": 0
     }
    ],
    "category": "观点",
@@ -729,7 +374,7 @@
    ],
    "relevant": true,
    "score_rule": 0.42,
-   "score_llm": 7.0,
+   "score_llm": 7,
    "score": 0.648,
    "date": "2026-09-24",
    "slot": "morning",
@@ -762,7 +407,7 @@
      "authority": 0.8,
      "url": "http://www.geekpark.net/news/370864",
      "signal": "媒体",
-     "metric": 0.0
+     "metric": 0
     }
    ],
    "category": "资讯",
@@ -782,7 +427,7 @@
    ],
    "relevant": true,
    "score_rule": 0.42,
-   "score_llm": 8.0,
+   "score_llm": 8,
    "score": 0.648,
    "date": "2026-09-24",
    "slot": "morning",
@@ -815,7 +460,7 @@
      "authority": 0.9,
      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
      "signal": "官方发布",
-     "metric": 0.0
+     "metric": 0
     }
    ],
    "category": "资讯",
@@ -835,7 +480,7 @@
    ],
    "relevant": true,
    "score_rule": 0.54,
-   "score_llm": 7.0,
+   "score_llm": 7,
    "score": 0.636,
    "date": "2026-09-24",
    "slot": "morning",
@@ -868,7 +513,7 @@
      "authority": 0.9,
      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
      "signal": "官方发布",
-     "metric": 0.0
+     "metric": 0
     }
    ],
    "category": "资讯",
@@ -888,7 +533,7 @@
    ],
    "relevant": true,
    "score_rule": 0.54,
-   "score_llm": 7.0,
+   "score_llm": 7,
    "score": 0.636,
    "date": "2026-09-24",
    "slot": "morning",
@@ -939,7 +584,7 @@
    ],
    "relevant": true,
    "score_rule": 0.5737,
-   "score_llm": 6.0,
+   "score_llm": 6,
    "score": 0.5895,
    "date": "2026-09-24",
    "slot": "morning",
@@ -976,7 +621,7 @@
      "authority": 0.8,
      "url": "http://www.geekpark.net/news/370883",
      "signal": "媒体",
-     "metric": 0.0
+     "metric": 0
     }
    ],
    "category": "资讯",
@@ -996,7 +641,7 @@
    ],
    "relevant": true,
    "score_rule": 0.42,
-   "score_llm": 7.0,
+   "score_llm": 7,
    "score": 0.588,
    "date": "2026-09-24",
    "slot": "morning",
@@ -1046,7 +691,7 @@
    ],
    "relevant": true,
    "score_rule": 0.56,
-   "score_llm": 6.0,
+   "score_llm": 6,
    "score": 0.584,
    "date": "2026-09-24",
    "slot": "morning",
@@ -1085,7 +730,7 @@
      "authority": 0.85,
      "url": "https://www.qbitai.com/2026/09/496384.html",
      "signal": "媒体",
-     "metric": 0.0
+     "metric": 0
     }
    ],
    "category": "资讯",
@@ -1105,7 +750,7 @@
    ],
    "relevant": true,
    "score_rule": 0.44,
-   "score_llm": 6.0,
+   "score_llm": 6,
    "score": 0.536,
    "date": "2026-09-24",
    "slot": "morning",
@@ -1140,7 +785,7 @@
      "authority": 0.55,
      "url": "https://arxiv.org/abs/2609.26631",
      "signal": "arXiv",
-     "metric": 0.0
+     "metric": 0
     }
    ],
    "category": "论文",
@@ -1160,7 +805,7 @@
    ],
    "relevant": true,
    "score_rule": 0.32,
-   "score_llm": 6.0,
+   "score_llm": 6,
    "score": 0.488,
    "date": "2026-09-24",
    "slot": "morning",
@@ -1215,7 +860,7 @@
      "authority": 0.85,
      "url": "https://www.qbitai.com/2026/09/496352.html",
      "signal": "媒体",
-     "metric": 0.0
+     "metric": 0
     }
    ],
    "category": "资讯",
@@ -1235,7 +880,7 @@
    ],
    "relevant": true,
    "score_rule": 0.44,
-   "score_llm": 5.0,
+   "score_llm": 5,
    "score": 0.476,
    "date": "2026-09-24",
    "slot": "morning",
@@ -1270,7 +915,7 @@
      "authority": 0.85,
      "url": "https://www.qbitai.com/2026/09/496329.html",
      "signal": "媒体",
-     "metric": 0.0
+     "metric": 0
     }
    ],
    "category": "资讯",
@@ -1290,7 +935,7 @@
    ],
    "relevant": true,
    "score_rule": 0.44,
-   "score_llm": 5.0,
+   "score_llm": 5,
    "score": 0.476,
    "date": "2026-09-24",
    "slot": "morning",
@@ -1325,7 +970,7 @@
      "authority": 0.85,
      "url": "https://www.qbitai.com/2026/09/496493.html",
      "signal": "媒体",
-     "metric": 0.0
+     "metric": 0
     }
    ],
    "category": "资讯",
@@ -1345,7 +990,7 @@
    ],
    "relevant": true,
    "score_rule": 0.44,
-   "score_llm": 4.0,
+   "score_llm": 4,
    "score": 0.416,
    "date": "2026-09-24",
    "slot": "morning",
