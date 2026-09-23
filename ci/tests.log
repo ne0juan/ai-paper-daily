@@ -1,6 +1,6 @@
 test_days_radar_theme_more (tests.test_e2e.E2E.test_days_radar_theme_more) ... ok
 test_deep_link_to_item (tests.test_e2e.E2E.test_deep_link_to_item) ... ok
-test_empty_site (tests.test_e2e.E2E.test_empty_site) ... /opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/unittest/case.py:579: ResourceWarning: unclosed <socket.socket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 46045)>
+test_empty_site (tests.test_e2e.E2E.test_empty_site) ... /opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/unittest/case.py:579: ResourceWarning: unclosed <socket.socket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 35291)>
   if method() is not None:
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
 ok
@@ -34,9 +34,11 @@ test_hn_filters_non_ai (tests.test_unit.SourceTests.test_hn_filters_non_ai) ... 
 test_html_list_bootstrap_then_incremental (tests.test_unit.SourceTests.test_html_list_bootstrap_then_incremental) ... ok
 test_rss_lookback (tests.test_unit.SourceTests.test_rss_lookback) ... ok
 test_source_failure_is_isolated (tests.test_unit.SourceTests.test_source_failure_is_isolated) ... ok
+test_machine_translate_skips_llm_items_and_survives_outage (tests.test_unit.TranslateTests.test_machine_translate_skips_llm_items_and_survives_outage) ... ok
+test_translate_joins_segments_and_skips_chinese (tests.test_unit.TranslateTests.test_translate_joins_segments_and_skips_chinese) ... ok
 
 ----------------------------------------------------------------------
-Ran 33 tests in 6.119s
+Ran 35 tests in 6.191s
 
 OK
-sys:1: ResourceWarning: unclosed <socket.socket fd=3, family=2, type=1, proto=0, laddr=('127.0.0.1', 46073)>
+sys:1: ResourceWarning: unclosed <socket.socket fd=3, family=2, type=1, proto=0, laddr=('127.0.0.1', 45105)>
