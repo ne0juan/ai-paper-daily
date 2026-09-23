@@ -67,7 +67,7 @@ def parse_feed(xml_text: str) -> list[dict]:
                     link = l.get("href", "")
                     break
             entries.append({
-                "title": strip_html(_text(e, f"{ATOM}title")),
+                "title": strip_html(_text(e, f"{ATOM}title")).strip("*# "),
                 "link": link,
                 "summary": strip_html(_text(e, f"{ATOM}summary", f"{ATOM}content")),
                 "published": parse_date(_text(e, f"{ATOM}published", f"{ATOM}updated")),
@@ -78,7 +78,7 @@ def parse_feed(xml_text: str) -> list[dict]:
         items = (channel if channel is not None else root).iter("item")
         for e in items:
             entries.append({
-                "title": strip_html(_text(e, "title")),
+                "title": strip_html(_text(e, "title")).strip("*# "),
                 "link": _text(e, "link", "guid"),
                 "summary": strip_html(_text(e, "description", f"{CONTENT}encoded")),
                 "published": parse_date(_text(e, "pubDate", f"{DC}date")),

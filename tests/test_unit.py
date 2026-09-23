@@ -37,6 +37,11 @@ class ModelTests(unittest.TestCase):
         hn.merge(hf)
         self.assertEqual(len(hn.sources), 2, "merge must be idempotent")
 
+    def test_merge_keeps_strongest_hit_per_source(self):
+        a = Item("web-1", "article", "t", "u", sources=[SourceHit("Hacker News", .5, "u1", "273 pts", 273)])
+        a.merge(Item("web-1", "article", "t", "u", sources=[SourceHit("Hacker News", .5, "u2", "1647 pts", 1647)]))
+        self.assertEqual([(s.url, s.metric) for s in a.sources], [("u2", 1647)])
+
     def test_roundtrip(self):
         it = Item("a", "paper", "t", "u", sources=[SourceHit("s", .5)])
         self.assertEqual(Item.from_dict(json.loads(json.dumps(it.to_dict()))).sources[0].name, "s")

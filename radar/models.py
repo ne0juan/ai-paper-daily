@@ -84,10 +84,12 @@ class Item:
 
     def merge(self, other: "Item") -> None:
         """Merge another hit of the same item (seen from another source)."""
-        known = {(s.name, s.url) for s in self.sources}
-        for s in other.sources:
-            if (s.name, s.url) not in known:
+        for s in other.sources:   # one hit per source name; keep the strongest signal
+            same = next((i for i, x in enumerate(self.sources) if x.name == s.name), None)
+            if same is None:
                 self.sources.append(s)
+            elif s.metric > self.sources[same].metric:
+                self.sources[same] = s
         for attr in ("abstract", "pdf_url", "published"):
             if not getattr(self, attr) and getattr(other, attr):
                 setattr(self, attr, getattr(other, attr))
