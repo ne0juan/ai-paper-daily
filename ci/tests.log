@@ -1,0 +1,49 @@
+test_days_radar_theme_more (tests.test_e2e.E2E.test_days_radar_theme_more) ... FAIL
+test_deep_link_to_item (tests.test_e2e.E2E.test_deep_link_to_item) ... ok
+test_empty_site (tests.test_e2e.E2E.test_empty_site) ... /opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/unittest/case.py:579: ResourceWarning: unclosed <socket.socket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 45897)>
+  if method() is not None:
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_mobile_layout_no_horizontal_scroll (tests.test_e2e.E2E.test_mobile_layout_no_horizontal_scroll) ... ok
+test_new_since_last_visit (tests.test_e2e.E2E.test_new_since_last_visit) ... ok
+test_renders_must_read_then_newest_issue_first (tests.test_e2e.E2E.test_renders_must_read_then_newest_issue_first) ... ok
+test_all_sources_down (tests.test_pipeline.PipelineTests.test_all_sources_down) ... ok
+test_expired_pdfs_are_unlinked (tests.test_pipeline.PipelineTests.test_expired_pdfs_are_unlinked) ... ok
+test_full_run_then_no_repeats_then_build (tests.test_pipeline.PipelineTests.test_full_run_then_no_repeats_then_build) ... ok
+test_slots (tests.test_pipeline.PipelineTests.test_slots) ... ok
+test_verify_catches_broken_mirror (tests.test_pipeline.PipelineTests.test_verify_catches_broken_mirror) ... ok
+test_without_llm_uses_rules_and_heuristics (tests.test_pipeline.PipelineTests.test_without_llm_uses_rules_and_heuristics) ... ok
+test_atom (tests.test_unit.FeedTests.test_atom) ... ok
+test_dates_and_html (tests.test_unit.FeedTests.test_dates_and_html) ... ok
+test_rss (tests.test_unit.FeedTests.test_rss) ... ok
+test_extract_json_variants (tests.test_unit.LLMTests.test_extract_json_variants) ... ok
+test_judge_enriches_and_sanitises (tests.test_unit.LLMTests.test_judge_enriches_and_sanitises) ... ok
+test_judge_survives_garbage (tests.test_unit.LLMTests.test_judge_survives_garbage) ... ok
+test_provider_detection (tests.test_unit.LLMTests.test_provider_detection) ... ok
+test_arxiv_id (tests.test_unit.ModelTests.test_arxiv_id) ... ok
+test_canonical_and_id (tests.test_unit.ModelTests.test_canonical_and_id) ... ok
+test_merge_prefers_paper_and_keeps_sources (tests.test_unit.ModelTests.test_merge_prefers_paper_and_keeps_sources) ... ok
+test_roundtrip (tests.test_unit.ModelTests.test_roundtrip) ... ok
+test_final_and_select (tests.test_unit.ScoringTests.test_final_and_select) ... ok
+test_rule_score_orders_sensibly (tests.test_unit.ScoringTests.test_rule_score_orders_sensibly) ... ok
+test_arxiv_enrich (tests.test_unit.SourceTests.test_arxiv_enrich) ... ok
+test_collect_merges_duplicates (tests.test_unit.SourceTests.test_collect_merges_duplicates) ... ok
+test_hf_daily (tests.test_unit.SourceTests.test_hf_daily) ... ok
+test_hn_filters_non_ai (tests.test_unit.SourceTests.test_hn_filters_non_ai) ... ok
+test_html_list_bootstrap_then_incremental (tests.test_unit.SourceTests.test_html_list_bootstrap_then_incremental) ... ok
+test_rss_lookback (tests.test_unit.SourceTests.test_rss_lookback) ... ok
+test_source_failure_is_isolated (tests.test_unit.SourceTests.test_source_failure_is_isolated) ... ok
+
+======================================================================
+FAIL: test_days_radar_theme_more (tests.test_e2e.E2E.test_days_radar_theme_more)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/runner/work/ai-paper-daily/ai-paper-daily/tests/test_e2e.py", line 122, in test_days_radar_theme_more
+    self.assertIn("22日", page.locator("#issue-line").inner_text())
+AssertionError: '22日' not found in '第 1 期 · 2026年9月21日 周一 · 已出午间刊'
+
+----------------------------------------------------------------------
+Ran 32 tests in 7.051s
+
+FAILED (failures=1)
+sys:1: ResourceWarning: unclosed <socket.socket fd=3, family=2, type=1, proto=0, laddr=('127.0.0.1', 35069)>
