@@ -7,16 +7,14 @@
     "body_line_height": 1.8,
     "chars_per_line": 40,
     "italic_cjk_elements": 0,
-    "pangu_violations": 1,
-    "pangu_samples": [
-     "要D"
-    ],
+    "pangu_violations": 0,
+    "pangu_samples": [],
     "contrast_body": 12.37,
     "contrast_title": 15.85,
     "contrast_meta": 6.24,
     "font_size_steps": 7,
     "min_tap_target_px": 36,
-    "first_headline_top": 1142,
+    "first_headline_top": 370,
     "viewport_h": 800,
     "overflow_x": 0,
     "cards": 11,
@@ -46,8 +44,8 @@
     },
     {
      "check": "中英文之间留空",
-     "value": 1,
-     "pass": false
+     "value": 0,
+     "pass": true
     },
     {
      "check": "正文对比度 ≥ 7:1",
@@ -71,8 +69,8 @@
     },
     {
      "check": "首屏可见第一条标题",
-     "value": 1142,
-     "pass": false
+     "value": 370,
+     "pass": true
     },
     {
      "check": "无横向滚动",
@@ -97,16 +95,14 @@
     "body_line_height": 1.8,
     "chars_per_line": 20,
     "italic_cjk_elements": 0,
-    "pangu_violations": 1,
-    "pangu_samples": [
-     "要D"
-    ],
+    "pangu_violations": 0,
+    "pangu_samples": [],
     "contrast_body": 12.37,
     "contrast_title": 15.85,
     "contrast_meta": 6.24,
     "font_size_steps": 7,
     "min_tap_target_px": 44,
-    "first_headline_top": 1565,
+    "first_headline_top": 356,
     "viewport_h": 812,
     "overflow_x": 0,
     "cards": 11,
@@ -131,8 +127,8 @@
     },
     {
      "check": "首屏可见第一条标题",
-     "value": 1565,
-     "pass": false
+     "value": 356,
+     "pass": true
     },
     {
      "check": "无横向滚动",
@@ -157,16 +153,14 @@
     "body_line_height": 1.8,
     "chars_per_line": 40,
     "italic_cjk_elements": 0,
-    "pangu_violations": 1,
-    "pangu_samples": [
-     "要D"
-    ],
+    "pangu_violations": 0,
+    "pangu_samples": [],
     "contrast_body": 12.07,
     "contrast_title": 15.59,
     "contrast_meta": 7.25,
     "font_size_steps": 7,
     "min_tap_target_px": 36,
-    "first_headline_top": 1142,
+    "first_headline_top": 370,
     "viewport_h": 800,
     "overflow_x": 0,
     "cards": 11,
@@ -187,10 +181,6 @@
    ]
   }
  },
- "failed": [
-  "[desktop] 中英文之间留空: 1",
-  "[desktop] 首屏可见第一条标题: 1142",
-  "[mobile] 首屏可见第一条标题: 1565"
- ],
- "score": "19/22"
+ "failed": [],
+ "score": "22/22"
 }
