@@ -1,0 +1,92 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Apple Machine Learning Research</title>
+      <link>https://machinelearning.apple.com</link>
+      <description>Apple machine learning teams are engaged in state of the art research in machine learning and artificial intelligence. Learn about the latest advancements.</description>
+      <language>en</language>
+      <lastBuildDate>Fri, 18 Sep 2026 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://machinelearning.apple.com/rss.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>dynamically-scaled-activation-steering</guid>
+    <title>Dynamically Scaled Activation Steering</title>
+    <link>https://machinelearning.apple.com/research/dynamically-scaled-activation-steering</link>
+    <description>Activation steering has emerged as a powerful method for guiding the behavior of generative models towards desired outcomes such as toxicity mitigation. However, most existing methods apply interventions uniformly across all inputs, degrading model performance when steering is unnecessary. We introduce Dynamically Scaled Activation Steering (DSAS), a method-agnostic steering framework that decouples when to steer from how to steer. DSAS adaptively modulates the strength of existing steering transformations across layers and inputs, intervening strongly only when undesired behavior is detectedâ¦</description>
+    <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>reversal-bench-rl-cliff</guid>
+    <title>REVERSAL-BENCH: A Reversibility Axis and Reset Oracle for Measuring the Reset-Free RL Cliff</title>
+    <link>https://machinelearning.apple.com/research/reversal-bench-rl-cliff</link>
+    <description>A central goal of autonomous reinforcement learning is continuous policy training without external resets. However, existing paradigms largely depend on underlying environmental reversibility, a property absent in real world manipulation, where events such as pushing objects off tables or spilling granular substances cannot be undone. We introduce REVERSAL-BENCH, a benchmark that controls reversibility via a continuous parameter Ïâ [0, 1] and provides a reset oracle, a ground-truth verification mechanism to test state recoverability across eight manipulation settings in five physics enginesâ¦</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>shared-selective-persistent-memory</guid>
+    <title>Shared Selective Persistent Memory for Agentic LLM Systems</title>
+    <link>https://machinelearning.apple.com/research/shared-selective-persistent-memory</link>
+    <description>Agentic LLM systems that generate code through multi-turn tool use face a fundamental context problem: each session starts from zero, discarding the configuration choices, domain constraints, data schemas, and tool-use patterns that made previous sessions productive. Naively persisting entire conversation histories is both token-inefficient and counterproductiveâirrelevant context degrades generation quality. We introduce shared selective persistent memory, a memory architecture for agentic systems that identifies and retains four categories of reusable contextâtask specifications, dataâ¦</description>
+    <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>glyph-column-description-tagging</guid>
+    <title>Glyph: A Multi-Strategy Agentic System for Column Description and Sensitivity-Ontology Tagging of Enterprise Data Catalogs</title>
+    <link>https://machinelearning.apple.com/research/glyph-column-description-tagging</link>
+    <description>Enterprise data lakes accumulate tables faster than human stewards can document or classify them, leaving columns with missing descriptions and unassigned governance labels. This documentation debt undermines data discovery, access control, and regulatory compliance. We present Glyph, a production system that frames two coupled problems, column description generation and column type annotation for data classification, as cooperating LLM agents orchestrated as stateful graphs. The Descriptor grounds generation in the pipeline source code that produces each column, retrieved on demand from anâ¦</description>
+    <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>denoising-aware-credit-assignment</guid>
+    <title>DACA-GRPO: Denoising-Aware Credit Assignment for Reinforcement Learning in Diffusion Language Models</title>
+    <link>https://machinelearning.apple.com/research/denoising-aware-credit-assignment</link>
+    <description>Diffusion large language models are a compelling alternative to autoregressive models, yet existing RL methods for diffusion treat all denoising steps as equally important and rely on biased, high-variance likelihood estimates. We identify two fundamental weaknesses: the absence of temporal credit assignment across the denoising trajectory, and the systematic bias of mean-field likelihood estimates used for policy optimization. To address these, we propose Denoising-Aware Credit Assignment for GRPO (DACA-GRPO), a lightweight, plug-and-play enhancement for any GRPO-style trainer. DACA-GRPOâ¦</description>
+    <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>trajectory-teacher-flow-matching</guid>
+    <title>Trajectory as the Teacher: Few-Step Discrete Flow Matching via Energy-Navigated Distillation</title>
+    <link>https://machinelearning.apple.com/research/trajectory-teacher-flow-matching</link>
+    <description>Discrete flow matching generates text by iteratively transforming noise tokens into coherent language, but may require hundreds of forward passes. Distillation uses the multi-step trajectory to train a student to reproduce the process in a few steps. When the student underperforms, the usual explanation is insufficient capacity. We argue the opposite: the trajectory is the bottleneck, not the student. Each training trajectory is built through a chain of blind stochastic jumps with no evaluation of sequence quality; a single bad decision at an early midpoint propagates through subsequent stepsâ¦</description>
+    <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>value-induction-llm-behaviour</guid>
+    <title>How Value Induction Reshapes LLM Behaviour</title>
+    <link>https://machinelearning.apple.com/research/value-induction-llm-behaviour</link>
+    <description>Conversational Large Language Models are post-trained on language that expresses specific behavioural traits, such as curiosity, open-mindedness, and empathy, and values, such as helpfulness, harmlessness, and honesty. This is done to increase utility, ensure safety, and improve the experience of the people interacting with the model. However, values are complex and inter-related â inducing one could modify behaviour on another. Further, inducing certain values can make models more addictive or sycophantic through language used in the generations, with a potential detrimental effect on theâ¦</description>
+    <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>discosign-gloss-translation</guid>
+    <title>DiscoSign: Discourse-Aware Text to Sign Language Gloss Translation</title>
+    <link>https://machinelearning.apple.com/research/discosign-gloss-translation</link>
+    <description>Sign language processing systems have traditionally operated at the sentence level, ignoring critical discourse phenomena fundamental to sign language comprehension. We introduce DiscoSign, a computational approach for discourse-aware text to sign language gloss translation grounded in linguistic research. We address three key phenomena within our modular Large Language Model (LLM)-based translation framework: (i) spatial coreference resolution, where entities maintain consistent spatial locations throughout discourse; (ii) Question-Answer Clauses (QACs), pseudocleft structures servingâ¦</description>
+    <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>video-caption-quality</guid>
+    <title>Putting Captions to the Test: Evaluating Video Caption Quality through Multiple-Choice Question Answering</title>
+    <link>https://machinelearning.apple.com/research/video-caption-quality</link>
+    <description>Evaluating video captioning remains a critical challenge for Visual Large Language Models (VLLMs). Existing metrics primarily rely on matching generated text against ground-truth references. This paradigm suffers from the âone-to-manyâ nature of video description, where high-quality captions are often penalized for lexical mismatches or valid shifts in visual focus. Furthermore, such assessments are typically one-dimensional, failing to provide a fine-grained analysis of caption quality. To address this, we redefine caption quality via information fidelity: A caption must maximize the coverageâ¦</description>
+    <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>simpledesign-protein-codesign</guid>
+    <title>SimpleDesign: A Joint Model for Protein Sequence and Structure Codesign</title>
+    <link>https://machinelearning.apple.com/research/simpledesign-protein-codesign</link>
+    <description>Proteins are fundamental to biological processes, with their function determined by the complex interplay between the amino acid sequence and the three-dimensional structure. Developing generative models capable of understanding this intrinsically multi-modal relationship is crucial for fields like drug discovery and protein engineering. Existing models often rely on a multi-stage training process where autoencoders that tokenize data into latent representations are trained in a first stage. Secondly, a generative model is trained on the latent representation of the autoencoder(s), i.eâ¦</description>
+    <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+
+    </channel>
+  </rss>
