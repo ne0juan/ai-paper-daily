@@ -142,6 +142,27 @@ class ScoringTests(unittest.TestCase):
         self.assertEqual([i.id for i in picked], ["a"])
 
 
+class TranslateTests(unittest.TestCase):
+    def test_translate_joins_segments_and_skips_chinese(self):
+        from radar.translate import translate, lead
+        http = FakeHttp({"translate.googleapis.com": '[[["你好，",null],["世界。",null]],null,"en"]'})
+        self.assertEqual(translate(http, "Hello, world."), "你好，世界。")
+        self.assertEqual(translate(http, "已经是中文"), "已经是中文")
+        self.assertEqual(len(http.calls), 1)
+        self.assertEqual(lead("A b. C d! E f? G h."), "A b. C d!")
+
+    def test_machine_translate_skips_llm_items_and_survives_outage(self):
+        from radar.translate import machine_translate
+        a = Item("a", "paper", "Title", "u", abstract="One. Two. Three.")
+        b = Item("b", "paper", "Title", "u", score_llm=8, title_zh="大模型写的")
+        self.assertEqual(machine_translate(fake_http(), [a, b]), 1)
+        self.assertEqual((a.title_zh, a.summary_zh, a.mt), ("机器译文", "机器译文", True))
+        self.assertEqual(b.title_zh, "大模型写的")
+        c = Item("c", "paper", "Title", "u")
+        self.assertEqual(machine_translate(FakeHttp({}), [c]), 0)
+        self.assertEqual(c.title_zh, "")
+
+
 class LLMTests(unittest.TestCase):
     def test_extract_json_variants(self):
         self.assertEqual(extract_json('```json\n[{"a":1}]\n```'), [{"a": 1}])

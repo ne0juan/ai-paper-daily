@@ -71,6 +71,10 @@ class PipelineTests(unittest.TestCase):
         day = json.loads((self.data / "days" / "2026-09-23.json").read_text())
         self.assertTrue(all(i["tags"] for i in day["items"]))
         self.assertTrue(all(i["summary_zh"] for i in day["items"] if i["kind"] == "paper"))
+        self.assertTrue(all(i["title_zh"] == "机器译文" and i["mt"] for i in day["items"]), "MT fills Chinese")
+        self.assertEqual(info["translated"], len(day["items"]))
+        paper = next(i for i in day["items"] if i["kind"] == "paper")
+        self.assertEqual(paper["links"][0]["url"], "https://hjfy.top/arxiv/" + paper["id"].removeprefix("arxiv-"))
 
     def test_all_sources_down(self):
         from radar.http import FakeHttp

@@ -132,6 +132,11 @@ figcaption { text-align: center; font: 11px var(--mono); color: var(--faint); ma
 .primary { background: var(--ink); color: var(--bg); border-radius: 999px; padding: 8px 16px; text-decoration: none; font-size: 14px;
   transition: background .15s, transform .15s; white-space: nowrap; }
 .primary:hover { background: var(--accent); color: var(--accent-ink); transform: translateY(-1px); }
+.secondary { border: 1px solid var(--ink); color: var(--ink); border-radius: 999px; padding: 7px 14px; text-decoration: none;
+  font-size: 14px; white-space: nowrap; transition: border-color .15s, color .15s; }
+.secondary:hover { border-color: var(--accent); color: var(--accent); }
+.mt { margin-left: 8px; font: 11px var(--mono); color: var(--faint); border: 1px solid var(--rule); border-radius: 4px; padding: 0 5px;
+  vertical-align: 2px; }
 .more { font-size: 13.5px; color: var(--muted); padding-top: 7px; flex: 1; min-width: 200px; }
 .more summary { cursor: pointer; list-style: none; width: max-content; }
 .more summary::-webkit-details-marker { display: none; }

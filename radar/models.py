@@ -77,6 +77,7 @@ class Item:
     mirror_pdf: str = ""      # site-relative path to our mirrored PDF
     mirror_kind: str = ""     # "pdf" (original) | "snapshot" (rendered page)
     links: list[dict[str, str]] = field(default_factory=list)
+    mt: bool = False          # title_zh/summary_zh came from machine translation
 
     @property
     def arxiv_id(self) -> str | None:

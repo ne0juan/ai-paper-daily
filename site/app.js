@@ -114,7 +114,8 @@
     const pdf = pdfLink(it);
     const who = [...(it.orgs || []).slice(0, 2), ...(it.authors || []).slice(0, 3)].filter(Boolean);
     const signals = (it.sources || []).map((s) => `<span class="src">${esc(s.name)}${s.signal ? " " + esc(s.signal) : ""}</span>`).join("");
-    const more = (it.links || []).filter((l) => l.url !== pdf.url);
+    const zh = (it.links || []).find((l) => l.label.startsWith("中文全文"));
+    const more = (it.links || []).filter((l) => l.url !== pdf.url && l !== zh);
     return `<article class="card ${big ? "big" : ""}" id="c-${esc(it.id)}" data-id="${esc(it.id)}" style="--i:${i}">
       <div class="meta">
         ${isNew(it) ? `<span class="new">新</span>` : ""}
@@ -124,10 +125,11 @@
       </div>
       <h3><a href="${esc(safeUrl(pdf.url))}" target="_blank" rel="noopener">${esc(it.title_zh || it.title)}</a></h3>
       ${it.title_zh ? `<p class="orig">${esc(it.title)}</p>` : ""}
-      ${it.summary_zh ? `<p class="summary">${esc(it.summary_zh)}</p>` : ""}
+      ${it.summary_zh ? `<p class="summary">${esc(it.summary_zh)}${it.mt ? `<span class="mt" title="暂由机器翻译，接入大模型后改为编辑式中文摘要">机翻</span>` : ""}</p>` : ""}
       ${it.why_zh ? `<p class="why"><b>为什么值得读</b>${esc(it.why_zh)}</p>` : ""}
       <div class="actions">
         <a class="primary" href="${esc(safeUrl(pdf.url))}" target="_blank" rel="noopener">${esc(pdf.label)} ↗</a>
+        ${zh ? `<a class="secondary" href="${esc(safeUrl(zh.url))}" target="_blank" rel="noopener" title="基于 LaTeX 源码的中英对照全文翻译">中文全文 ↗</a>` : ""}
         ${more.length || who.length ? `<details class="more"><summary>更多</summary>
           ${who.length ? `<p class="who">${esc(who.join(" · "))}${(it.authors || []).length > 3 ? " 等" : ""}</p>` : ""}
           ${(it.highlights_zh || []).length ? `<ul class="hl">${it.highlights_zh.map((h) => `<li>${esc(h)}</li>`).join("")}</ul>` : ""}

@@ -25,6 +25,7 @@ def fake_http(**overrides) -> FakeHttp:
             "Tracing the thoughts of a model", "Constitutional Classifiers v2"),
         "www.anthropic.com/research": fx("anthropic_list.html"),
         "arxiv.org/pdf/": fx("tiny.pdf", "rb"),
+        "translate.googleapis.com": '[[["机器译文",null,null]],null,"en"]',
     }
     routes.update(overrides)
     return FakeHttp(routes)

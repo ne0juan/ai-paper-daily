@@ -31,6 +31,7 @@ jobs:
         with: {python-version: "3.11", cache: pip}
       - run: pip install -r requirements.txt
       - run: python -m playwright install --with-deps chromium
+      - run: mkdir -p run-report
       - name: Restore mirrored PDFs
         uses: actions/cache/restore@v4
         with:
@@ -47,10 +48,11 @@ jobs:
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
         run: |
           set -o pipefail
-          mkdir -p run-report
           python -m radar.pipeline ${{ inputs.slot && format('--slot {0}', inputs.slot) || '' }} 2>&1 | tee run-report/scan.log
       - name: Re-mirror PDFs lost from cache
         run: python scripts/remirror.py
+      - name: Backfill Chinese titles/summaries
+        run: python scripts/backfill_zh.py
       - name: Build + verify site
         run: |
           python scripts/build_site.py | tee -a run-report/build.json

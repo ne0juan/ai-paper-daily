@@ -19,6 +19,7 @@ from . import sources
 from .http import Http
 from .llm import LLM
 from .mirror import mirror_all
+from .translate import machine_translate
 from .models import Item
 from .scoring import final_score, rule_score, select
 
@@ -69,7 +70,9 @@ def build_links(it: Item) -> list[dict]:
     links = []
     if it.arxiv_id:
         a = it.arxiv_id
-        links += [{"label": "arXiv", "url": f"https://arxiv.org/abs/{a}"},
+        links += [{"label": "中文全文（幻觉翻译）", "url": f"https://hjfy.top/arxiv/{a}"},
+                  {"label": "中文解读（Cool Papers）", "url": f"https://papers.cool/arxiv/{a}"},
+                  {"label": "arXiv", "url": f"https://arxiv.org/abs/{a}"},
                   {"label": "arXiv PDF", "url": f"https://arxiv.org/pdf/{a}"},
                   {"label": "alphaXiv 讨论", "url": f"https://www.alphaxiv.org/abs/{a}"},
                   {"label": "HF Papers", "url": f"https://huggingface.co/papers/{a}"}]
@@ -100,7 +103,7 @@ def update_index(data_dir: Path, now: datetime, run_info: dict) -> dict:
 
 def run(*, now: datetime | None = None, slot: str | None = None, data_dir: Path = ROOT / "data",
         cache_dir: Path = ROOT / ".cache" / "pdf", config: Path = ROOT / "config" / "sources.yaml",
-        http=None, llm: LLM | None = None, snapshots: bool = True) -> dict:
+        http=None, llm: LLM | None = None, snapshots: bool = True, translate: bool = True) -> dict:
     now = now or datetime.now(timezone.utc)
     slot = slot or slot_for(now)
     cfg = yaml.safe_load(config.read_text("utf-8"))
@@ -137,10 +140,13 @@ def run(*, now: datetime | None = None, slot: str | None = None, data_dir: Path 
         it.selected_at = now.isoformat(timespec="seconds")
         it.links = build_links(it)
 
-    # 5. mirror originals
+    # 5. Chinese for Chinese readers: machine translation where the LLM didn't write it
+    translated = machine_translate(http, picked) if translate else 0
+
+    # 6. mirror originals
     mirror_all(http, picked, cache_dir, snapshots=snapshots)
 
-    # 6. store
+    # 7. store
     day_file = data_dir / "days" / f"{bj_date}.json"
     day = load_json(day_file, {"date": bj_date, "items": []})
     have = {i["id"] for i in day["items"]}
@@ -156,7 +162,7 @@ def run(*, now: datetime | None = None, slot: str | None = None, data_dir: Path 
     run_info = {"at": now.isoformat(timespec="seconds"), "slot": slot, "candidates": len(items),
                 "new": len(fresh), "judged": judged, "selected": len(picked),
                 "mirrored": sum(1 for i in picked if i.mirror_pdf), "by_source": dict(by_source),
-                "llm": llm.enabled}
+                "llm": llm.enabled, "translated": translated}
     state["runs"] = (state.get("runs", []) + [run_info])[-60:]
     dump_json(data_dir / "state.json", state)
     update_index(data_dir, now, run_info)

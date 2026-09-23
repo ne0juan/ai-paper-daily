@@ -89,6 +89,9 @@ class E2E(unittest.TestCase):
         must = page.eval_on_selector_all(".must .score", "els => els.map(e => +e.textContent)")
         rest = page.eval_on_selector_all(".section:not(.must) .score", "els => els.map(e => +e.textContent)")
         self.assertGreaterEqual(min(must), max(rest))
+        # every paper offers a one-click Chinese full text
+        self.assertEqual(page.locator(".card:has(.kind:not(.article)) .secondary").count(),
+                         page.locator(".card:has(.kind:not(.article))").count())
         # the primary button serves our mirrored PDF
         href = page.locator(".primary[href^='pdf/']").first.get_attribute("href")
         resp = page.request.get(self.url + href)
