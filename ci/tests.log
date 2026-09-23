@@ -1,6 +1,6 @@
 test_days_radar_theme_more (tests.test_e2e.E2E.test_days_radar_theme_more) ... FAIL
 test_deep_link_to_item (tests.test_e2e.E2E.test_deep_link_to_item) ... ok
-test_empty_site (tests.test_e2e.E2E.test_empty_site) ... /opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/unittest/case.py:579: ResourceWarning: unclosed <socket.socket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 37977)>
+test_empty_site (tests.test_e2e.E2E.test_empty_site) ... /opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/unittest/case.py:579: ResourceWarning: unclosed <socket.socket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 33507)>
   if method() is not None:
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
 ok
@@ -22,6 +22,7 @@ test_judge_survives_garbage (tests.test_unit.LLMTests.test_judge_survives_garbag
 test_provider_detection (tests.test_unit.LLMTests.test_provider_detection) ... ok
 test_arxiv_id (tests.test_unit.ModelTests.test_arxiv_id) ... ok
 test_canonical_and_id (tests.test_unit.ModelTests.test_canonical_and_id) ... ok
+test_merge_keeps_strongest_hit_per_source (tests.test_unit.ModelTests.test_merge_keeps_strongest_hit_per_source) ... ok
 test_merge_prefers_paper_and_keeps_sources (tests.test_unit.ModelTests.test_merge_prefers_paper_and_keeps_sources) ... ok
 test_roundtrip (tests.test_unit.ModelTests.test_roundtrip) ... ok
 test_final_and_select (tests.test_unit.ScoringTests.test_final_and_select) ... ok
@@ -43,7 +44,7 @@ Traceback (most recent call last):
 AssertionError: '22日' not found in '第 2 期 · 2026年9月23日 周三 · 已出晨间刊'
 
 ----------------------------------------------------------------------
-Ran 32 tests in 5.364s
+Ran 33 tests in 5.670s
 
 FAILED (failures=1)
-sys:1: ResourceWarning: unclosed <socket.socket fd=3, family=2, type=1, proto=0, laddr=('127.0.0.1', 36913)>
+sys:1: ResourceWarning: unclosed <socket.socket fd=3, family=2, type=1, proto=0, laddr=('127.0.0.1', 43465)>
