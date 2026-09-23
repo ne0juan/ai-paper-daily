@@ -1,8 +1,8 @@
 {
- "at": "2026-09-23T15:41:18.658697+00:00",
+ "at": "2026-09-23T22:37:47.039257+00:00",
  "sources": {
   "hf_daily": {
-   "n": 15,
+   "n": 25,
    "secs": 0.4,
    "sample": [
     "arxiv-2609.25804 | The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
@@ -12,18 +12,18 @@
    ]
   },
   "hackernews": {
-   "n": 12,
+   "n": 11,
    "secs": 0.3,
    "sample": [
-    "web-dfd20da099fc | Claude Opus 5.5",
     "web-3d48e529ad7a | GPT-6 Sol and Luna",
     "web-0c1f08af0fbd | Pentagon says overreliance on AI contributed to missile strike on Iran school",
-    "web-48d8b4b4e766 | OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005"
+    "web-a877a4ca2131 | Claude Code reads AGENTS.md only when telemetry is on [fixed]",
+    "web-8c50fe1c6153 | Claude discovers a novel enzyme system with CRISPR-like repeats"
    ]
   },
   "rss:量子位": {
    "n": 10,
-   "secs": 1.5,
+   "secs": 1.7,
    "sample": [
     "web-ca364bf56e37 | 联想亮相阿里云栖大会：联想天禧AI把超级组织落地到端侧",
     "web-5a1e54d9b0b6 | 让Token生产更高效：异构混推的关键技术演进与创新实践",
@@ -31,19 +31,9 @@
     "web-62ee947c12aa | 达卯科技完成新一轮融资，算电协同核心软件层“稀缺标的”"
    ]
   },
-  "rss:机器之心": {
-   "n": 0,
-   "secs": 0.9,
-   "sample": []
-  },
-  "rss:36氪": {
-   "n": 0,
-   "secs": 1.6,
-   "sample": []
-  },
   "rss:极客公园": {
    "n": 27,
-   "secs": 4.3,
+   "secs": 2.1,
    "sample": [
     "web-16df79bd32f5 | 剪映，杀入 AI 互动影游",
     "web-f81c3d19b1b1 | 拆解下阿里的 AI 经济学，与它的下注",
@@ -51,14 +41,19 @@
     "web-57de11bffece | OpenAI 发布 GPT-6 Sol 和 Luna；传字节跳动豆包收缩对话团队；千问发布 AI 手机全栈解决方案 | 极客早知道"
    ]
   },
-  "rss:虎嗅": {
-   "n": 0,
-   "secs": 108.6,
-   "sample": []
+  "rss:IT之家": {
+   "n": 15,
+   "secs": 1.7,
+   "sample": [
+    "web-327976a4a111 | 黄仁勋对 AI 公司放话：要求监管就不应获得反垄断豁免",
+    "web-ed7161bddeac | 谷歌推出 Gemini 3.8 Flash / Flash-Lite 文本转语音模型，每一行台词都能精确控制",
+    "web-a6592257cf7f | Anthropic 工程师解释为何 Claude 写作变差：模型被训练成写给 AI 看而非写给人看",
+    "web-69e8e990fee9 | YouTube 推出全新 AI 智能体，能帮创作者“翻红”老视频"
+   ]
   },
   "rss:爱范儿": {
    "n": 10,
-   "secs": 1.0,
+   "secs": 0.7,
    "sample": [
     "web-e41e34ef1fc5 | WorkBuddy 把办公 Agent，做成了人人可搭的「赛博乐高」",
     "web-b8ccf7754178 | Claude 5.5 发布，性能直逼 Fable，还要卷价格",
@@ -68,15 +63,15 @@
   },
   "rss:少数派": {
    "n": 2,
-   "secs": 1.1,
+   "secs": 1.3,
    "sample": [
     "web-fcabb209b223 | 派早报：OPPO Find X10 系列发布、Beats 360 头戴式耳机发布等",
     "web-cdf1ccbc1658 | 一台主机，多重角色：新款 Mac mini 首发体验"
    ]
   },
   "rss:雷峰网": {
-   "n": 14,
-   "secs": 2.9,
+   "n": 13,
+   "secs": 3.0,
    "sample": [
     "web-eb781c3c723f | GPT-6 Sol 降价 50% 的秘密：消失的 Terra，一场模型梯队平移",
     "web-e93411439279 | 星驿付与慧徕店亮相2026云栖大会，AI生成数字商业无限可能",
@@ -86,7 +81,7 @@
   },
   "rss:钛媒体": {
    "n": 5,
-   "secs": 11.7,
+   "secs": 2.6,
    "sample": [
     "web-c53c07171459 | 杀猪盘最贵的一道工序，AI 接手了",
     "web-5feb27e59800 | 企业数据太多，AI知道得太少：千问办公的上下文生意",
@@ -96,7 +91,7 @@
   },
   "rss:InfoQ 中文": {
    "n": 14,
-   "secs": 1.3,
+   "secs": 1.5,
    "sample": [
     "web-cc4eeeb5b4a2 | Claude Opus 5.5 发布：一天内迁移 68 万行代码，单任务成本比 GPT-6 Astra 便宜 80%",
     "web-22bedd28c1f9 | 人人都在造世界模型，HappyWorld‑Bench 试着给出一张统一考卷",
@@ -106,7 +101,7 @@
   },
   "rss:宝玉": {
    "n": 4,
-   "secs": 0.3,
+   "secs": 0.5,
    "sample": [
     "web-f01d5df2c85e | 我用 GPT 6 Astra 做了一个 3D 版的《桃花源记》（文中含提示词）",
     "web-0a920e0082ff | 高效电商 AI 智能体解剖指南 | 选自 Anthropic 的 Claude 博客",
@@ -116,7 +111,7 @@
   },
   "rss:阮一峰": {
    "n": 3,
-   "secs": 0.1,
+   "secs": 0.2,
    "sample": [
     "web-b79493674bd2 | 科技爱好者周刊（第 413 期）：再见了，React Native",
     "web-cb1df6cddbde | 科技爱好者周刊（第 412 期）：禁止 issue，只用 PR",
@@ -125,7 +120,7 @@
   },
   "rss:Sam Altman": {
    "n": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "sample": []
   },
   "rss:Andrej Karpathy": {
@@ -135,7 +130,7 @@
   },
   "rss:Ethan Mollick": {
    "n": 2,
-   "secs": 0.3,
+   "secs": 0.2,
    "sample": [
     "web-a84fff8827c5 | The Overhang",
     "web-43c454f4aa35 | Agency and Agents"
@@ -143,7 +138,7 @@
   },
   "rss:Simon Willison": {
    "n": 10,
-   "secs": 0.1,
+   "secs": 0.2,
    "sample": [
     "web-4a34b417a079 | Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
     "web-82b7c1ad7628 | Jev introduces a new shape of LLM - System One, aka Decision Models",
@@ -153,7 +148,7 @@
   },
   "rss:Nathan Lambert": {
    "n": 7,
-   "secs": 0.1,
+   "secs": 0.2,
    "sample": [
     "web-0647ffff84a0 | Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
     "web-9b44d7e44f1c | The current balance of power in open models",
@@ -163,7 +158,7 @@
   },
   "rss:Dwarkesh Patel": {
    "n": 7,
-   "secs": 0.2,
+   "secs": 0.3,
    "sample": [
     "web-a357b00b9cf8 | Noam Brown – Agent swarms, alignment, & recursive self-improvement",
     "web-3d98c72f4ee4 | AI researchers debate how close we are to recursive self-improvement",
@@ -173,7 +168,7 @@
   },
   "rss:Latent Space": {
    "n": 20,
-   "secs": 0.1,
+   "secs": 0.2,
    "sample": [
     "web-c22650ec4f43 | 🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
     "web-5e9e5737b35b | [AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-",
@@ -212,37 +207,124 @@
    "secs": 0.1,
    "sample": []
   },
+  "rss:科学空间": {
+   "n": 4,
+   "secs": 1.3,
+   "sample": [
+    "web-83571f49d0c7 | 排序不等式及其推广",
+    "web-a22c268a9649 | 让炼丹更科学一些（十）：单调性假设的拆与补",
+    "web-2e24d1371868 | 让炼丹更科学一些（九）：经典自适应梯度算法",
+    "web-3e0e8d194616 | 让炼丹更科学一些（八）：多阶段训练的学习率"
+   ]
+  },
+  "rss:Lilian Weng": {
+   "n": 0,
+   "secs": 0.1,
+   "sample": []
+  },
+  "rss:Sebastian Raschka": {
+   "n": 1,
+   "secs": 0.3,
+   "sample": [
+    "web-44084287147f | GPT-6 Astra, Looped Transformers, and Hidden Reasoning"
+   ]
+  },
+  "rss:Hugging Face Blog": {
+   "n": 20,
+   "secs": 0.2,
+   "sample": [
+    "web-a70f8ac64edf | How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+    "web-2960c64a019e | How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+    "web-98acfe91fd30 | Transformers now runs llama.cpp quants",
+    "web-fb8ad85c459c | Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community"
+   ]
+  },
+  "rss:Google Research": {
+   "n": 11,
+   "secs": 0.4,
+   "sample": [
+    "web-c2855615ec11 | MilleMiglia: A realistic instance generator for middle-mile logistics",
+    "web-6173cb1f2790 | The future of practice: Enabling teachers to create learning interactives with generative ",
+    "web-883ac55269fa | Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
+    "web-822d4f35b50f | ToolGrad: Efficient tool-use dataset generation with textual \"gradients\""
+   ]
+  },
+  "rss:Epoch AI": {
+   "n": 0,
+   "secs": 0.1,
+   "sample": []
+  },
+  "rss:METR": {
+   "n": 5,
+   "secs": 0.6,
+   "sample": [
+    "web-773b150785b4 | Summary of METR's predeployment evaluation of Claude Opus 5.5",
+    "web-e05b7b2e9592 | Update on Security at METR",
+    "web-caa11c50acdf | 对 OpenAI / Hugging Face 入侵事件中智能体行为、推理与协作的简要独立调查",
+    "web-0cf31eadd10a | Breve investigación independiente sobre el comportamiento, el razonamiento y la colaboraci"
+   ]
+  },
+  "rss:LMArena": {
+   "n": 0,
+   "secs": 0.7,
+   "sample": []
+  },
+  "rss:Hamel Husain": {
+   "n": 1,
+   "secs": 0.2,
+   "sample": [
+    "web-b8fcb7456281 | AI Evals: Everything You Need to Know"
+   ]
+  },
+  "rss:Eugene Yan": {
+   "n": 0,
+   "secs": 0.1,
+   "sample": []
+  },
+  "rss:LangChain": {
+   "n": 0,
+   "secs": 0.6,
+   "sample": []
+  },
   "rss:OpenAI": {
    "n": 40,
-   "secs": 0.1,
+   "secs": 0.2,
    "sample": [
     "web-9d02eeb8cef1 | Two years of OpenAI Academy",
     "web-1d77064cbebb | OpenAI extends cyber access to Ukraine for civilian defense",
-    "web-09a0c6dbf1c6 | Grab and OpenAI bring practical AI skills to Southeast Asia",
-    "web-b6b1e4118cdb | Better prompt caching for GPT-6"
+    "web-01d4e543c941 | Sam Altman’s remarks at the United Nations Security Council",
+    "web-f7558dc5c9de | Harvey turns legal context into stronger drafts with GPT-6 Astra"
    ]
   },
   "rss:Google DeepMind": {
-   "n": 10,
-   "secs": 0.4,
+   "n": 11,
+   "secs": 0.1,
    "sample": [
+    "web-cd8117c6d35f | Advancing Private AI Compute with secure, server-side memory",
     "web-914ed32ad555 | Gemini 3.8 text-to-speech says hello",
     "web-2f92a8ca47fb | Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-    "web-f7dd334d631a | AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genom",
-    "web-d75554c78e0f | Introducing WeatherNext 3, our most advanced and accurate global weather AI model"
+    "web-f7dd334d631a | AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genom"
    ]
   },
   "list:https://www.anthropic.com/news": {
    "n": 2,
-   "secs": 0.7,
+   "secs": 0.8,
    "sample": [
-    "web-879ba832b5d6 | Partnering with Accenture on embedded evaluation",
-    "web-819f22112f1b | Introducing the Life Sciences Verification Program"
+    "web-8c50fe1c6153 | Claude discovers a novel enzyme system",
+    "web-879ba832b5d6 | Partnering with Accenture on embedded evaluation"
+   ]
+  },
+  "list:https://www.anthropic.com/engineering": {
+   "n": 2,
+   "secs": 1.6,
+   "sample": [
+    "web-1387c0d4a74e | How we contain Claude across products",
+    "web-8fa6dfbed917 | An update on recent Claude Code quality reports"
    ]
   },
   "arxiv_enrich": {
    "n": 1,
-   "secs": 0.1,
+   "secs": 0.2,
    "sample": [
     "arxiv-1706.03762 | Attention Is All You Need"
    ]
