@@ -69,6 +69,15 @@ class FeedTests(unittest.TestCase):
         self.assertEqual(e[0]["authors"], ["Lilian Weng"])
         self.assertIn("test-time compute", e[0]["summary"])
 
+    def test_malformed_feed_falls_back_and_strips_invisible_chars(self):
+        bad = ('<?xml version="1.0"?><rss><channel><item><title><![CDATA[OpenAI & 微软\u200b\u2063 新合作]]></title>'
+               '<link>https://www.jiqizhixin.com/articles/1?a=1&b=2</link><description>一段 & 摘要</description>'
+               '<pubDate>Tue, 22 Sep 2026 17:00:00 GMT</pubDate></item></channel></rss>')
+        e = parse_feed(bad)
+        self.assertEqual(e[0]["title"], "OpenAI & 微软 新合作")
+        self.assertEqual(e[0]["link"], "https://www.jiqizhixin.com/articles/1?a=1&b=2")
+        self.assertIsNotNone(e[0]["published"])
+
     def test_dates_and_html(self):
         self.assertIsNotNone(parse_date("2026-09-22"))
         self.assertIsNone(parse_date("not a date"))
