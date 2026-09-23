@@ -1,0 +1,46 @@
+{
+ "updated": "2026-09-23T15:22:27+00:00",
+ "days": [
+  {
+   "date": "2026-09-23",
+   "count": 11,
+   "slots": {
+    "evening": 11
+   }
+  }
+ ],
+ "total": 11,
+ "last_run": {
+  "at": "2026-09-23T15:22:27+00:00",
+  "slot": "evening",
+  "candidates": 101,
+  "new": 101,
+  "judged": 50,
+  "selected": 11,
+  "mirrored": 11,
+  "by_source": {
+   "HF Daily Papers": 15,
+   "Hacker News": 11,
+   "OpenAI": 7,
+   "量子位": 10,
+   "极客公园": 6,
+   "爱范儿": 7,
+   "少数派": 1,
+   "雷峰网": 14,
+   "钛媒体": 6,
+   "InfoQ 中文": 14,
+   "Simon Willison": 2,
+   "Nathan Lambert": 1,
+   "Latent Space": 5,
+   "Stratechery": 1,
+   "Anthropic": 2
+  },
+  "llm": true,
+  "translated": 0
+ },
+ "slots": {
+  "morning": "晨间",
+  "noon": "午间",
+  "evening": "晚间"
+ }
+}
