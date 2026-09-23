@@ -1,0 +1,651 @@
+{
+ "date": "2026-09-23",
+ "items": [
+  {
+   "id": "web-3d48e529ad7a",
+   "kind": "article",
+   "title": "GPT-6 Sol and Luna",
+   "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+   "pdf_url": "",
+   "abstract": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-09-22T18:00:34Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49805509",
+     "signal": "1637 pts",
+     "metric": 1637
+    },
+    {
+     "name": "OpenAI",
+     "authority": 0.95,
+     "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+     "signal": "官方博客",
+     "metric": 0.0
+    }
+   ],
+   "title_zh": "",
+   "summary_zh": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.92,
+   "score_llm": null,
+   "score": 0.92,
+   "date": "2026-09-23",
+   "slot": "evening",
+   "selected_at": "2026-09-23T14:14:07+00:00",
+   "mirror_pdf": "pdf/web-3d48e529ad7a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49805509"
+    }
+   ]
+  },
+  {
+   "id": "arxiv-2609.24972",
+   "kind": "paper",
+   "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+   "url": "https://arxiv.org/abs/2609.24972",
+   "pdf_url": "https://arxiv.org/pdf/2609.24972",
+   "abstract": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level. However, such recursive evolution may overfit by memorizing the training tasks, showing large in-distribution gains that shrink or even vanish on out-of-distribution benchmarks. We introduce Regularized Recursive Self-Improvement of Agent Harnesses (RRSI), which incorporates the principles of regularizations into harness self-improvement by constraining the evolution candidate proposal and selection. The proposer operates with a temporally annealed budget, limiting how many edits a candidate can bundle, and it encourages unexplored trajectories based on evolution history. The selector is equipped with a critic and a pruner: the critic screens benchmark-specific proposals, while the pruner, removes changes that are too small, too expensive, or no longer useful. Together these constraints favor reusable agent mechanisms over benchmark-specific ones or even noises. Across eight benchmarks spanning coding, agentic workspace and engineering design tasks, RRSI gains up to 14.1 points on the split it evolves against and up to 4.7 points on the five out-of-distribution benchmarks, while producing a harness that runs on 30% fewer policy tokens than the unregularized evolution. Code is available at https://github.com/google-research/rrsi and project page is https://regularized-rsi.com/.",
+   "authors": [
+    "Peng Xia",
+    "Rujun Han",
+    "Zifeng Wang",
+    "Yanfei Chen",
+    "Yufan Zhang",
+    "Yoonho Lee",
+    "Chengsong Huang",
+    "Han Yu",
+    "Zhongying CuiZhu",
+    "Yifei Ming",
+    "Huaxiu Yao",
+    "Burak Gokturk",
+    "Tomas Pfister",
+    "Chen-Yu Lee"
+   ],
+   "orgs": [
+    "Google"
+   ],
+   "published": "2026-09-21T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.8,
+     "url": "https://huggingface.co/papers/2609.24972",
+     "signal": "▲ 174",
+     "metric": 174
+    }
+   ],
+   "title_zh": "",
+   "summary_zh": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model.",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "智能体",
+    "代码",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.7881,
+   "score_llm": null,
+   "score": 0.7881,
+   "date": "2026-09-23",
+   "slot": "evening",
+   "selected_at": "2026-09-23T14:14:07+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.24972.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.24972"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.24972"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.24972"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.24972"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/google-research/rrsi"
+    }
+   ]
+  },
+  {
+   "id": "arxiv-2609.24984",
+   "kind": "paper",
+   "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
+   "url": "https://arxiv.org/abs/2609.24984",
+   "pdf_url": "https://arxiv.org/pdf/2609.24984",
+   "abstract": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to let the requested viewpoint shape how multi-view evidence is compressed into the video generator's limited token budget. Trained jointly with the video generator, a memory encoder and pose-conditioned readout module integrate historical observations into a fixed set of target view-specific tokens before denoising, without explicit depth-based correspondences. By combining this memory with recent temporal context and few-step distillation, WorldCrafter enables streaming scene exploration from a single input image or text prompt. Experiments across static and dynamic scenes show substantial gains in long-horizon consistency and camera-control accuracy while preserving visual quality during minute-scale exploration.",
+   "authors": [
+    "Wangbo Yu",
+    "Kunhao Liu",
+    "Wenbo Hu",
+    "Shenghai Yuan",
+    "Chaoran Feng",
+    "Haiyang Zhou",
+    "Yukun Huang",
+    "Yiran Wang",
+    "Wang Zhao",
+    "Yingmin Luo",
+    "Ying Shan"
+   ],
+   "orgs": [
+    "ARC Lab, Tencent"
+   ],
+   "published": "2026-09-21T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.8,
+     "url": "https://huggingface.co/papers/2609.24984",
+     "signal": "▲ 124",
+     "metric": 124
+    }
+   ],
+   "title_zh": "",
+   "summary_zh": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints.",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "多模态",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.7768,
+   "score_llm": null,
+   "score": 0.7768,
+   "date": "2026-09-23",
+   "slot": "evening",
+   "selected_at": "2026-09-23T14:14:07+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.24984.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.24984"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.24984"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.24984"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.24984"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/TencentARC/WorldCrafter"
+    }
+   ]
+  },
+  {
+   "id": "arxiv-2609.25001",
+   "kind": "paper",
+   "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
+   "url": "https://arxiv.org/abs/2609.25001",
+   "pdf_url": "https://arxiv.org/pdf/2609.25001",
+   "abstract": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons. Existing datasets and benchmarks, however, either cover a narrow range of games, lack language instructions, or rely on high-variance online rollouts. To address these challenges, we introduce GameHorizon, a unified data and evaluation suite that measures gameplay capabilities at different horizons for diverse model families. GameHorizon Suite consists of three components. First, GameHorizon-Annotator is a scalable and automated annotation pipeline for multi-horizon instructions. Second, utilizing the pipeline, we construct GameHorizon-Data, the first large-scale AAA gameplay dataset with temporally aligned videos, player actions, and multi-horizon instructions. It comprises 5,000 hours of recordings from 21 games, collected by 100 human expert players. Third, we build GameHorizon-Bench with reproducible offline and stepwise online testing. The offline track enables reproducible evaluation using thousands of standardized questions organized into three primary tasks and a series of diagnostic variants, while the online track tests whether offline scores reflect actual gameplay capabilities and localizes failures to specific steps within long-horizon gameplay. Based on our GameHorizon Suite, we evaluate 47 models through more than one million model invocations, revealing a meaningful hierarchy of task difficulty and pronounced differences in model capabilities. Our work can provide a standardized yardstick for evaluating gameplay capabilities across horizons and model families. We will release our dataset, annotator, and benchmark to facilitate future research.",
+   "authors": [
+    "Yiran Wang",
+    "Xingyilang Yin",
+    "Junfu Pu",
+    "Guangzhi Wang",
+    "Kaifeng Li",
+    "Mingyu Ouyang",
+    "Huiqiang Sun",
+    "Lingen Li",
+    "Cheng Cheng",
+    "Wangbo Yu",
+    "Honghao Chen",
+    "Xiaodong Cun",
+    "Chi-Man Pun",
+    "Zhiguo Cao",
+    "Ying Shan"
+   ],
+   "orgs": [
+    "Tencent"
+   ],
+   "published": "2026-09-21T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.8,
+     "url": "https://huggingface.co/papers/2609.25001",
+     "signal": "▲ 115",
+     "metric": 115
+    }
+   ],
+   "title_zh": "",
+   "summary_zh": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons.",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "多模态",
+    "对齐与安全",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.7724,
+   "score_llm": null,
+   "score": 0.7724,
+   "date": "2026-09-23",
+   "slot": "evening",
+   "selected_at": "2026-09-23T14:14:07+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.25001"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.25001"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.25001"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.25001"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/TencentARC/GameHorizon"
+    }
+   ]
+  },
+  {
+   "id": "arxiv-2609.25804",
+   "kind": "paper",
+   "title": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
+   "url": "https://arxiv.org/abs/2609.25804",
+   "pdf_url": "https://arxiv.org/pdf/2609.25804",
+   "abstract": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run. Making these decisions well is becoming a key capability for both engineering and research agents. We refer to the ability to make good long-horizon decisions as the taste of an agent. While existing benchmarks measure the end-to-end success of agents on long-horizon tasks, none of them measures the taste of an agent. To address this problem, we build Taste-Bench, a benchmark of taste questions constructed automatically from trajectories that agents produced in engineering and research tasks. Each question presents a decision fork, a point in a trajectory where multiple directions are available and one of them leads to a better outcome, and the evaluated model chooses among these directions without seeing what happens after the fork. We mine these forks automatically from parallel attempts at the same task and from detours inside a single trajectory, without needing human annotation. We evaluate frontier models on Taste-Bench and find that the best model answers only 59.7% of the questions correctly. We further find that forks whose deciding evidence appears later in the trajectory are much harder for every model, and that a larger reasoning budget does not improve the accuracy. Finally, we show that taste can be trained. We distill the judgment of a teacher that has seen the outcome into a student model, and the student makes better decisions on unseen tasks and improves end-to-end success on held-out SWE-bench Pro tasks.",
+   "authors": [
+    "Wenbo Pan",
+    "Zhichao Liu",
+    "Shujie Liu",
+    "Jingying Zeng",
+    "Chin-Yew Lin",
+    "Xianfeng Tang",
+    "Yan Lu",
+    "Qi He",
+    "Xiaohua Jia"
+   ],
+   "orgs": [
+    "Microsoft"
+   ],
+   "published": "2026-09-22T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.8,
+     "url": "https://huggingface.co/papers/2609.25804",
+     "signal": "▲ 89",
+     "metric": 89
+    }
+   ],
+   "title_zh": "",
+   "summary_zh": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run.",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "智能体",
+    "推理",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.7691,
+   "score_llm": null,
+   "score": 0.7691,
+   "date": "2026-09-23",
+   "slot": "evening",
+   "selected_at": "2026-09-23T14:14:07+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.25804.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.25804"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.25804"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.25804"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.25804"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/wbopan/tastebench"
+    }
+   ]
+  },
+  {
+   "id": "arxiv-2609.23088",
+   "kind": "paper",
+   "title": "OmniEdu: Open Foundation Models for Learning and Teaching",
+   "url": "https://arxiv.org/abs/2609.23088",
+   "pdf_url": "https://arxiv.org/pdf/2609.23088",
+   "abstract": "Educational foundation models must solve problems, understand curriculum structure, diagnose learner difficulties, and provide appropriate instructional support. Existing educational language models often focus on either problem solving or tutoring, with training mixtures organized by source or task rather than capability. We present OmniEdu, an open family of foundation models for K-12 learning and teaching. Its instruction-tuning corpus combines over 100 educational resources and general instruction sources, organized around four capabilities: subject competence, curriculum grounding, diagnostic reasoning, and pedagogical action and scaffolding. Our pipeline integrates deterministic cleaning, semantic auditing and rewriting, task-specific quality scoring, token-budgeted diversity selection, and pedagogical instruction assignment. It yields 69,999 examples and 15.96M supervised response tokens, including 60,951 education-specific examples. We fine-tune 4B, 9B, and 27B models and evaluate curriculum grounding, K-12 problem solving, and pedagogical tutoring, alongside general capability. Education-oriented tuning consistently improves all three educational benchmark groups across model scales. OmniEdu-27B achieves 63.12% EM and 76.69% F1 on K12-Bench, 85.89% on MathFish, 86.95% on EDUMATH, and 78.74% in MathTutorBench's Scaffold setting. It also achieves the highest Teaching average on LongTutor among the evaluated models, at 3.02. These results demonstrate the value of curated, capability-balanced supervision for adapting general language models to educational tasks spanning problem solving, curriculum understanding, and instructional support.",
+   "authors": [
+    "Hao Liang",
+    "Qihan Lin",
+    "Meiyi Qiang",
+    "Linzhuang Sun",
+    "Hengyi Feng",
+    "Mingrui Chen",
+    "Sizhe Qiu",
+    "Wentao Zhang"
+   ],
+   "orgs": [
+    "Peking University"
+   ],
+   "published": "2026-09-19T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.8,
+     "url": "https://huggingface.co/papers/2609.23088",
+     "signal": "▲ 141",
+     "metric": 141
+    }
+   ],
+   "title_zh": "",
+   "summary_zh": "Educational foundation models must solve problems, understand curriculum structure, diagnose learner difficulties, and provide appropriate instructional support.",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "推理",
+    "数据与评测",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.7445,
+   "score_llm": null,
+   "score": 0.7445,
+   "date": "2026-09-23",
+   "slot": "evening",
+   "selected_at": "2026-09-23T14:14:07+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.23088.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.23088"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.23088"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.23088"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.23088"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/haolpku/Omni-Edu"
+    }
+   ]
+  },
+  {
+   "id": "arxiv-2609.24997",
+   "kind": "paper",
+   "title": "VideoGen-Agent: Reinforcing Video Generation Agents",
+   "url": "https://arxiv.org/abs/2609.24997",
+   "pdf_url": "https://arxiv.org/pdf/2609.24997",
+   "abstract": "Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation. However, these models often struggle to satisfy prompts requiring specialized knowledge, specific identities, physical consistency, or ordered events. In this paper, we present VideoGen-Agent, a multimodal agent trained through multitask agentic reinforcement learning to use external tools for video generation. The agent coordinates augmentation, generation, and verification tools through multi-turn interactions, using the prompt and intermediate observations to guide its decisions. We train a shared policy on a category-balanced dataset spanning six tasks. Supervised fine-tuning on teacher-generated trajectories establishes tool-use behavior, which is then refined through reinforcement learning. A category-aware hybrid reward evaluates tool-call validity, task-appropriate tool use, and generated video quality. We further introduce VABench, a held-out benchmark of 600 prompts covering procedural knowledge, single- and multi-entity identity preservation, physical consistency, scene composition, and multi-shot temporal structure. On VABench, VideoGen-Agent improves over its base text-to-video generator by 19.1 points, from 56.5 to 75.6. Upgrading the generation tools further raises the score to 86.1 without additional agent training. Human raters prefer the upgraded configuration over the strongest standalone baseline in 84.3% of comparisons. These results support learning tool use across video-generation tasks and show that the trained agent can benefit from subsequent advances in generation tools.",
+   "authors": [
+    "Binxu Li",
+    "Haoyi Duan",
+    "Yuhui Zhang",
+    "Yaohui Zhang",
+    "Zihao Lin",
+    "Kaituo Feng",
+    "Suozhi Huang",
+    "Xiangyi Li",
+    "Yu Li",
+    "Chunyuan Li",
+    "Shilong Liu",
+    "Mengdi Wang"
+   ],
+   "orgs": [
+    "Princeton University"
+   ],
+   "published": "2026-09-21T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.8,
+     "url": "https://huggingface.co/papers/2609.24997",
+     "signal": "▲ 40",
+     "metric": 40
+    }
+   ],
+   "title_zh": "",
+   "summary_zh": "Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation.",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "智能体",
+    "多模态",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.7102,
+   "score_llm": null,
+   "score": 0.7102,
+   "date": "2026-09-23",
+   "slot": "evening",
+   "selected_at": "2026-09-23T14:14:07+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.24997.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.24997"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.24997"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.24997"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.24997"
+    }
+   ]
+  },
+  {
+   "id": "web-dfd20da099fc",
+   "kind": "article",
+   "title": "Claude Opus 5.5",
+   "url": "https://www.anthropic.com/claude-opus-5-5",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-09-22T16:29:05Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49803892",
+     "signal": "1647 pts",
+     "metric": 1647
+    },
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49803863",
+     "signal": "273 pts",
+     "metric": 273
+    }
+   ],
+   "title_zh": "",
+   "summary_zh": "",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.62,
+   "score_llm": null,
+   "score": 0.62,
+   "date": "2026-09-23",
+   "slot": "evening",
+   "selected_at": "2026-09-23T14:14:07+00:00",
+   "mirror_pdf": "pdf/web-dfd20da099fc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.anthropic.com/claude-opus-5-5"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49803892"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49803863"
+    }
+   ]
+  },
+  {
+   "id": "web-0c1f08af0fbd",
+   "kind": "article",
+   "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+   "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-09-22T19:03:38Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49806430",
+     "signal": "759 pts",
+     "metric": 759
+    }
+   ],
+   "title_zh": "",
+   "summary_zh": "",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.62,
+   "score_llm": null,
+   "score": 0.62,
+   "date": "2026-09-23",
+   "slot": "evening",
+   "selected_at": "2026-09-23T14:14:07+00:00",
+   "mirror_pdf": "pdf/web-0c1f08af0fbd.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49806430"
+    }
+   ]
+  },
+  {
+   "id": "web-48d8b4b4e766",
+   "kind": "article",
+   "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+   "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-09-22T13:52:15Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49801324",
+     "signal": "699 pts",
+     "metric": 699
+    }
+   ],
+   "title_zh": "",
+   "summary_zh": "",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.62,
+   "score_llm": null,
+   "score": 0.62,
+   "date": "2026-09-23",
+   "slot": "evening",
+   "selected_at": "2026-09-23T14:14:07+00:00",
+   "mirror_pdf": "pdf/web-48d8b4b4e766.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49801324"
+    }
+   ]
+  }
+ ]
+}
