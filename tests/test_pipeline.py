@@ -9,7 +9,7 @@ from pathlib import Path
 
 from radar.llm import LLM
 from radar.pipeline import run, slot_for
-from tests.helpers import NOW, fake_http, fake_llm_transport
+from tests.helpers import TEST_CONFIG, NOW, fake_http, fake_llm_transport
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -27,7 +27,7 @@ class PipelineTests(unittest.TestCase):
 
     def _run(self, now=NOW, llm=None, http=None):
         return run(now=now, data_dir=self.data, cache_dir=self.cache, http=http or fake_http(),
-                   llm=llm or LLM(transport=fake_llm_transport), snapshots=False)
+                   llm=llm or LLM(transport=fake_llm_transport), snapshots=False, config=TEST_CONFIG)
 
     def test_slots(self):
         self.assertEqual(slot_for(NOW), "noon")                       # 11:00 BJ
@@ -75,6 +75,17 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(info["translated"], len(day["items"]))
         paper = next(i for i in day["items"] if i["kind"] == "paper")
         self.assertEqual(paper["links"][0]["url"], "https://hjfy.top/arxiv/" + paper["id"].removeprefix("arxiv-"))
+
+    def test_three_issues_cap_papers_per_day(self):
+        for h in (0, 5, 11):   # 08:00 / 13:00 / 19:00 Beijing
+            self._run(now=NOW.replace(hour=h))
+        day = json.loads((self.data / "days" / "2026-09-23.json").read_text())
+        papers = [i for i in day["items"] if i["category"] == "论文"]
+        self.assertLessEqual(len(papers), 2)
+        self.assertGreaterEqual(len(papers), 1)
+        self.assertEqual({i["slot"] for i in day["items"]} >= {"morning"}, True)
+        hot = max(papers, key=lambda i: max(s["metric"] for s in i["sources"]))
+        self.assertEqual(hot["id"], "arxiv-2609.01234", "the most-discussed paper wins")
 
     def test_all_sources_down(self):
         from radar.http import FakeHttp

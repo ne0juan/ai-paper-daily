@@ -58,6 +58,9 @@ class Item:
     published: str = ""       # ISO date-time (UTC) if known
     sources: list[SourceHit] = field(default_factory=list)
     extra: dict[str, Any] = field(default_factory=dict)
+    category: str = "资讯"     # 观点 | 资讯 | 论文
+    lang: str = "en"          # zh | en (language of the original)
+    who: str = ""             # identity line for opinion pieces, e.g. "OpenAI CEO"
 
     # enrichment
     title_zh: str = ""
@@ -103,7 +106,7 @@ class Item:
                 self.orgs.append(o)
         # prefer arxiv-style title from paper sources over HN headline
         if other.kind == "paper" and self.kind != "paper":
-            self.kind, self.title, self.url = "paper", other.title, other.url
+            self.kind, self.title, self.url, self.category = "paper", other.title, other.url, "论文"
         self.extra.update({k: v for k, v in other.extra.items() if k not in self.extra})
 
     def to_dict(self) -> dict[str, Any]:

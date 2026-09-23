@@ -89,6 +89,14 @@ class Http:
     def json(self, url: str, **kw):
         return json.loads(self.text(url, **kw))
 
+    def post_json(self, url: str, *, body, params: dict | None = None, headers: dict | None = None):
+        host = urlsplit(url).netloc
+        self._wait(host)
+        r = self.s.post(url, json=body, params=params, headers=headers, timeout=self.timeout)
+        if r.status_code >= 400:
+            raise HttpError(f"{r.status_code} for {url}")
+        return r.json()
+
     def download(self, url: str, dest: Path, max_bytes: int, **kw) -> int:
         """Stream a file to disk; abort if larger than max_bytes. Returns size."""
         r = self.get(url, stream=True, **kw)
@@ -130,6 +138,10 @@ class FakeHttp:
 
     def json(self, url: str, **kw):
         return json.loads(self.text(url, **kw))
+
+    def post_json(self, url: str, *, body, params: dict | None = None, headers: dict | None = None):
+        val = self._match(url)
+        return val(body) if callable(val) else json.loads(val)
 
     def download(self, url: str, dest: Path, max_bytes: int, **kw) -> int:
         val = self._match(url)

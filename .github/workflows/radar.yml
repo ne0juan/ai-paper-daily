@@ -42,9 +42,9 @@ jobs:
         if: ${{ !inputs.deploy_only }}
         env:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-          LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
-          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
-          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'openai' }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL || 'https://api.deepseek.com/v1' }}
+          LLM_MODEL: ${{ vars.LLM_MODEL || 'deepseek-chat' }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
         run: |
           set -o pipefail
@@ -79,6 +79,9 @@ jobs:
         run: |
           echo "${{ steps.deploy.outputs.site }}" > run-report/site.txt
           python scripts/smoke.py "${{ steps.deploy.outputs.site }}" dist | tee run-report/smoke.json
+      - name: Design QA on the live site (report only)
+        continue-on-error: true
+        run: python scripts/design_qa.py "${{ steps.deploy.outputs.site }}" run-report/qa | tail -5
       - name: Publish run report
         if: always()
         run: |

@@ -1,29 +1,21 @@
-# Paper Radar · AI 论文雷达
+# AI 风向 · Daily AI Bot
 
-每天北京时间 **08:00 / 13:00 / 19:00** 自动扫描，精选最权威、最有价值的 AI 论文与文章，并把原文**镜像成 PDF 托管在本站**，不同网络环境下都能打开。
+每天北京时间 **08:00 / 13:00 / 19:00** 自动更新：前沿人物说了什么、AI 行业发生了什么，**中文为主（约 7 成）**；论文每天只留讨论度最高的 1–2 篇，并附白话解读。原文存档为 PDF 托管在本站，国内网络也能打开。
 
 ```
 GitHub Actions (cron ×3/天)
-  ├─ radar/sources.py   HF Daily Papers · Hacker News · 13 个实验室/专家博客 RSS · Anthropic/Meta 列表页 · (X，可选)
+  ├─ radar/sources.py   中文媒体（量子位/机器之心/36氪/极客公园…）· 人物博客（Altman/Karpathy/宝玉…）· 官方发布 · HN/HF 热度
   ├─ radar/scoring.py   规则分：来源权威度 40% + 热度 30% + 多源交叉 12% + 机构 8% + 新鲜度 10%
-  ├─ radar/llm.py       大模型审稿（可选）：相关性、质量 1-10、中文标题/摘要/要点/标签；最终分 = 0.4 规则 + 0.6 LLM
-  ├─ radar/mirror.py    论文下载原 PDF；博客文章用无头 Chromium 渲染成 PDF 快照
+  ├─ radar/llm.py       DeepSeek 审稿：质量 1-10、中文标题/观点提炼/论文白话解读、「今日风向」趋势归纳
+  ├─ radar/mirror.py    原文存档：论文下载 PDF，文章用无头 Chromium 渲染成 PDF
   ├─ data/              每日精选 JSON（提交回仓库，天然就是历史档案）
   └─ scripts/build_site.py → dist/ → Cloudflare Pages（wrangler）→ scripts/smoke.py 线上冒烟测试
 ```
 
-## 启用大模型（功能位已预留，无需改代码）
+## 大模型（DeepSeek，已配置）
 
-仓库 Settings → Secrets and variables → Actions：
-
-| 类型 | 名称 | 示例 |
-|---|---|---|
-| Secret | `LLM_API_KEY` | `sk-...` |
-| Variable | `LLM_PROVIDER` | `anthropic` 或 `openai`（OpenAI 兼容接口都选这个：DeepSeek、Kimi、通义、智谱…） |
-| Variable | `LLM_BASE_URL` | 例 `https://api.deepseek.com/v1`（Anthropic/OpenAI 官方可留空） |
-| Variable | `LLM_MODEL` | 例 `deepseek-chat`、`claude-sonnet-4-5` |
-
-没有 `LLM_API_KEY` 时自动退回纯规则打分，站点照常更新。每次运行最多送 40 条候选、每批 8 条（约 5 次调用）。
+Secret `LLM_API_KEY` 已设置；默认走 DeepSeek `deepseek-chat`（OpenAI 兼容接口）。要换模型：在仓库 Variables 里设 `LLM_PROVIDER` / `LLM_BASE_URL` / `LLM_MODEL`（Anthropic、OpenAI、Kimi、通义等均可）。
+没有 Key 时自动退回：规则打分 + 免费机器翻译（标「机翻」）。
 
 ## 其他可选配置
 
@@ -41,8 +33,8 @@ python -m unittest discover -s tests -t . -v
 ```
 
 - `tests/test_unit.py`：解析器、去重合并、打分、LLM 输出容错（离线 fixtures）
-- `tests/test_pipeline.py`：完整跑两期 → 不重复入选 → 构建站点 → `verify_dist` 校验
-- `tests/test_e2e.py`：Chromium 驱动真实页面：今日必读=全天最高分、时段从新到旧且不重复、「新」标记、日期切换、雷达点击跳转、PDF 可下载、手机无横向滚动、零 console 报错，并截图
+- `tests/test_pipeline.py`：完整跑三期 → 不重复入选、论文每天 ≤2 篇且取最热 → 构建站点 → `verify_dist` 校验
+- `tests/test_e2e.py`：Chromium 驱动真实页面：阅读顺序（风向→必读→三刊→论文）、不重复、「新」标记、往期切换、雷达跳转、PDF 可下载、设计质检全部通过，并截图
 - `scripts/verify_dist.py`：部署前闸门（文件数/大小限制、坏 PDF、数据一致性）
 - `scripts/smoke.py`：部署后线上冒烟（新版本已生效、PDF 以 application/pdf 可下载）
 - `Probe sources` 工作流：每周体检所有数据源，原始响应可用于刷新 fixtures
@@ -53,11 +45,16 @@ CI 日志、截图、每次扫描报告都会发布到 `reports` 分支。
 
 Actions → *Radar scan & deploy* → Run workflow（可指定时段，或只重新部署）。
 
-## 阅读逻辑（MVP）
+## 阅读逻辑
 
-- 打开即「今天」：顶部 **今日必读** 3 篇（全天得分最高），下面按 **晚间刊 → 午间刊 → 晨间刊** 从新到旧排列，同一篇只出现一次。
-- 浏览器记住上次访问时间，之后新入选的内容标 **新**，并提示「你上次来之后新增 N 篇」。
-- 每张卡片：一句话讲了什么 · 为什么值得读 · 来源信号 · 一个「读 PDF」主按钮（本站镜像），其他链接收在「更多」里。
-- 日期条切换往期；雷达图光点 = 当天文章，越靠近圆心得分越高，点击跳到对应卡片；明暗主题；RSS `feed.xml`。
+- **今日风向**：大模型把当天内容归纳成 3–5 条趋势判断，每条附出处。
+- **今日必读**：全天最值得读的 3 条（不含论文）。
+- **晚间刊 → 午间刊 → 晨间刊**：从新到旧，同一条只出现一次；上次访问后新增的标「新」。
+- **论文**：每天只留讨论度最高的 1–2 篇，附白话解读和「中文全文」（幻觉翻译）。
+- 观点类卡片以人物为先（姓名｜身份）；「读原文」默认打开本站存档 PDF。
+
+## 设计质检
+
+`scripts/design_qa.py` 以端传媒、FT中文网、少数派的正文排版与 W3C《中文排版需求》为标准，自动测量：正文 ≥16px、行高 1.7–1.95、每行 28–42 字、中文不斜体、中英文间留空、对比度（正文 ≥7:1、辅助 ≥4.5:1，含暗色）、字号阶梯 ≤8、手机触控 ≥44px、首屏可见头条、无横向滚动、卡片信息不重复。CI 中不达标即失败；每次部署后对线上站点再测一次，报告在 `reports` 分支。
 
 镜像 PDF 版权归原作者所有，仅供内部学习交流。

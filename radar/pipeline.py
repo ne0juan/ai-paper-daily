@@ -19,7 +19,7 @@ from . import sources
 from .http import Http
 from .llm import LLM
 from .mirror import mirror_all
-from .translate import machine_translate
+from .translate import lead, machine_translate
 from .models import Item
 from .scoring import final_score, rule_score, select
 
@@ -62,8 +62,7 @@ def heuristic_enrich(it: Item) -> None:
     if not it.tags:
         it.tags = [t for t, pat in KEYWORD_TAGS if re.search(pat, text)][:3] or ["大模型"]
     if not it.summary_zh and it.abstract:
-        first = re.split(r"(?<=[.!?])\s", it.abstract, maxsplit=1)[0]
-        it.summary_zh = first[:220]
+        it.summary_zh = lead(it.abstract, 2, 160 if it.lang == "zh" else 360)
 
 
 def build_links(it: Item) -> list[dict]:
@@ -132,9 +131,14 @@ def run(*, now: datetime | None = None, slot: str | None = None, data_dir: Path 
         it.score = final_score(it)
         heuristic_enrich(it)
 
-    # 4. select
-    picked = select(top, sel.get("per_run", 10), sel.get("min_score", 0.35), sel.get("max_per_source", 6))
+    # 4. select (Chinese quota; papers: only the hottest, ≤ papers_per_day per day, ≤ 1 per issue)
     bj_date = now.astimezone(BJ).strftime("%Y-%m-%d")
+    day_file = data_dir / "days" / f"{bj_date}.json"
+    day = load_json(day_file, {"date": bj_date, "items": []})
+    papers_today = sum(1 for i in day["items"] if i.get("category") == "论文" or i.get("kind") == "paper")
+    papers_left = min(1, max(0, sel.get("papers_per_day", 2) - papers_today))
+    picked = select(top, sel.get("per_run", 10), sel.get("min_score", 0.35), sel.get("max_per_source", 3),
+                    zh_ratio=sel.get("zh_ratio"), papers_left=papers_left)
     for it in picked:
         it.date, it.slot = bj_date, slot
         it.selected_at = now.isoformat(timespec="seconds")
@@ -147,11 +151,14 @@ def run(*, now: datetime | None = None, slot: str | None = None, data_dir: Path 
     mirror_all(http, picked, cache_dir, snapshots=snapshots)
 
     # 7. store
-    day_file = data_dir / "days" / f"{bj_date}.json"
-    day = load_json(day_file, {"date": bj_date, "items": []})
     have = {i["id"] for i in day["items"]}
     day["items"] += [it.to_dict() for it in picked if it.id not in have]
     day["items"].sort(key=lambda i: ({"morning": 0, "noon": 1, "evening": 2}.get(i["slot"], 3), -i["score"]))
+    if picked and llm.enabled:
+        try:
+            day["brief"] = llm.daily_brief(day["items"])
+        except Exception as e:  # noqa: BLE001
+            log.warning("daily brief failed: %s", e)
     if picked:
         dump_json(day_file, day)
     for it in picked:

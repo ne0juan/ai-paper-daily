@@ -8,10 +8,18 @@ from radar.feeds import parse_date, parse_feed, strip_html
 from radar.llm import LLM, extract_json
 from radar.models import Item, SourceHit, arxiv_id_from, canonical_url, make_id
 from radar.scoring import final_score, rule_score, select
-from tests.helpers import FIX, NOW, fake_http, fake_llm_transport, fx
+from tests.helpers import TEST_CONFIG, FIX, NOW, fake_http, fake_llm_transport, fx
 from radar.http import FakeHttp, HttpError
 
 CFG = yaml.safe_load((FIX.parent.parent / "config" / "sources.yaml").read_text("utf-8"))
+TEST_FEEDS = [{"name": "OpenAI", "url": "https://openai.com/news/rss.xml", "authority": .9, "kind": "official"},
+              {"name": "Lil'Log", "url": "https://lilianweng.github.io/index.xml", "authority": .9, "kind": "opinion",
+               "who": "OpenAI 研究员", "who_name": "Lilian Weng"}]
+TEST_LIST = {"name": "Anthropic", "url": "https://www.anthropic.com/research", "base": "https://www.anthropic.com",
+             "pattern": "^/(research|news)/[a-z0-9-]{6,}$", "authority": .9}
+
+
+TEST_CFG = yaml.safe_load(TEST_CONFIG.read_text("utf-8"))
 
 
 class ModelTests(unittest.TestCase):
@@ -69,7 +77,7 @@ class FeedTests(unittest.TestCase):
 
 class SourceTests(unittest.TestCase):
     def test_hf_daily(self):
-        items = sources.fetch_hf_daily(fake_http(), CFG["hf_daily"], NOW)
+        items = sources.fetch_hf_daily(fake_http(), TEST_CFG["hf_daily"], NOW)
         ids = {i.id for i in items}
         self.assertIn("arxiv-2609.01234", ids)
         self.assertNotIn("arxiv-2609.05678", ids, "below min_upvotes")
@@ -79,23 +87,32 @@ class SourceTests(unittest.TestCase):
         self.assertEqual(top.sources[0].metric, 212)
 
     def test_hn_filters_non_ai(self):
-        items = sources.fetch_hackernews(fake_http(), CFG["hackernews"], NOW)
+        items = sources.fetch_hackernews(fake_http(), TEST_CFG["hackernews"], NOW)
         titles = [i.title for i in items]
         self.assertFalse(any("sourdough" in t for t in titles))
         self.assertTrue(any(i.kind == "article" and "agents" in i.title for i in items))
         self.assertTrue(any(i.id == "arxiv-2609.09999" for i in items))
 
     def test_rss_lookback(self):
-        feeds = [f for f in CFG["rss"] if f["name"] in ("OpenAI", "Lil'Log")]
-        items = sources.fetch_rss(fake_http(), feeds, NOW, 72)
+        items = sources.fetch_rss(fake_http(), TEST_FEEDS, NOW, 72)
         titles = [i.title for i in items]
         self.assertIn("Introducing a new reasoning model", titles)
         self.assertNotIn("Old announcement", titles)
         self.assertIn("Why We Think", titles)
+        lil = next(i for i in items if i.title == "Why We Think")
+        self.assertEqual((lil.category, lil.who), ("观点", "OpenAI 研究员"))
+
+    def test_ai_filter_for_general_media(self):
+        feed = [{"name": "36氪", "url": "https://36kr.com/feed", "lang": "zh", "kind": "news", "filter": "ai"}]
+        xml = ('<rss><channel><item><title>OpenAI 发布新模型</title><link>https://36kr.com/p/1</link>'
+               '<pubDate>Tue, 22 Sep 2026 17:00:00 GMT</pubDate></item><item><title>咖啡连锁开出第一万家店</title>'
+               '<link>https://36kr.com/p/2</link><pubDate>Tue, 22 Sep 2026 17:00:00 GMT</pubDate></item></channel></rss>')
+        items = sources.fetch_rss(FakeHttp({"36kr.com": xml}), feed, NOW, 72)
+        self.assertEqual([(i.title, i.lang, i.category) for i in items], [("OpenAI 发布新模型", "zh", "资讯")])
 
     def test_html_list_bootstrap_then_incremental(self):
         state = {}
-        lists = [CFG["html_lists"][0]]
+        lists = [TEST_LIST]
         first = sources.fetch_html_lists(fake_http(), lists, state, NOW)
         self.assertEqual(len(first), 2, "bootstrap only takes the top 2 links")
         self.assertEqual(first[0].title, "Tracing the thoughts of a model")
@@ -116,7 +133,7 @@ class SourceTests(unittest.TestCase):
         self.assertEqual(sources.fetch_hackernews(http, CFG["hackernews"], NOW), [])
 
     def test_collect_merges_duplicates(self):
-        items = sources.collect(fake_http(), CFG, {}, NOW)
+        items = sources.collect(fake_http(), TEST_CFG, {}, NOW)
         ids = [i.id for i in items]
         self.assertEqual(len(ids), len(set(ids)))
         top = next(i for i in items if i.id == "arxiv-2609.01234")
@@ -125,7 +142,7 @@ class SourceTests(unittest.TestCase):
 
 class ScoringTests(unittest.TestCase):
     def test_rule_score_orders_sensibly(self):
-        items = {i.id: i for i in sources.collect(fake_http(), CFG, {}, NOW)}
+        items = {i.id: i for i in sources.collect(fake_http(), TEST_CFG, {}, NOW)}
         big = rule_score(items["arxiv-2609.01234"], NOW)      # HF 212 + HN 420 + DeepMind
         small = rule_score(items["arxiv-2609.04567"], NOW)    # HF 35
         self.assertGreater(big, small)
@@ -143,13 +160,17 @@ class ScoringTests(unittest.TestCase):
 
 
 class TranslateTests(unittest.TestCase):
-    def test_translate_joins_segments_and_skips_chinese(self):
-        from radar.translate import translate, lead
-        http = FakeHttp({"translate.googleapis.com": '[[["你好，",null],["世界。",null]],null,"en"]'})
-        self.assertEqual(translate(http, "Hello, world."), "你好，世界。")
-        self.assertEqual(translate(http, "已经是中文"), "已经是中文")
-        self.assertEqual(len(http.calls), 1)
+    def test_edge_batch_passthrough_chinese(self):
+        from radar.translate import translate_many, lead
+        http = fake_http()
+        self.assertEqual(translate_many(http, ["Hello", "已经是中文", ""]), ["机器译文", "已经是中文", ""])
         self.assertEqual(lead("A b. C d! E f? G h."), "A b. C d!")
+
+    def test_falls_back_to_google_when_edge_down(self):
+        from radar.translate import translate_many
+        http = FakeHttp({"edge.microsoft.com": HttpError("403"),
+                         "translate.googleapis.com": '[[["你好，",null],["世界。",null]],null,"en"]'})
+        self.assertEqual(translate_many(http, ["Hello, world."]), ["你好，世界。"])
 
     def test_machine_translate_skips_llm_items_and_survives_outage(self):
         from radar.translate import machine_translate
@@ -169,7 +190,7 @@ class LLMTests(unittest.TestCase):
         self.assertEqual(extract_json('Sure! Here: [{"a":2}] hope it helps'), [{"a": 2}])
 
     def test_judge_enriches_and_sanitises(self):
-        items = sources.collect(fake_http(), CFG, {}, NOW)
+        items = sources.collect(fake_http(), TEST_CFG, {}, NOW)
         llm = LLM(transport=fake_llm_transport)
         n = llm.judge(items, batch=3)
         self.assertEqual(n, len(items))

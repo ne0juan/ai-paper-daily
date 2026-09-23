@@ -42,19 +42,38 @@ def final_score(it: Item) -> float:
     return round(0.4 * it.score_rule + 0.6 * (it.score_llm / 10), 4)
 
 
-def select(items: list[Item], per_run: int, min_score: float, max_per_source: int) -> list[Item]:
+def select(items: list[Item], per_run: int, min_score: float, max_per_source: int,
+           zh_ratio: float | None = None, papers_left: int = 0) -> list[Item]:
+    """Pick the issue: best non-paper items with a Chinese quota, plus at most
+    ``papers_left`` papers (the hottest), with a per-source cap for diversity."""
     ranked = sorted((i for i in items if i.relevant and i.score >= min_score),
                     key=lambda i: i.score, reverse=True)
-    picked, per_src = [], {}
-    for it in ranked:
-        primary = it.sources[0].name if it.sources else "?"
-        if per_src.get(primary, 0) >= max_per_source:
-            continue
-        picked.append(it)
-        per_src[primary] = per_src.get(primary, 0) + 1
-        if len(picked) >= per_run:
-            break
-    return picked
+    per_src: dict[str, int] = {}
+
+    def take(pool, limit, out):
+        for it in pool:
+            if len(out) >= limit:
+                break
+            src = it.sources[0].name if it.sources else "?"
+            if it in out or per_src.get(src, 0) >= max_per_source:
+                continue
+            out.append(it)
+            per_src[src] = per_src.get(src, 0) + 1
+        return out
+
+    papers = [i for i in ranked if i.category == "论文"]
+    rest = [i for i in ranked if i.category != "论文"]
+    picked: list[Item] = []
+    if zh_ratio is None:
+        take(rest, per_run, picked)
+    else:
+        zh_quota = round(per_run * zh_ratio)
+        take([i for i in rest if i.lang == "zh"], zh_quota, picked)
+        take([i for i in rest if i.lang != "zh"], per_run, picked)
+        take(rest, per_run, picked)          # top up if one language is short
+    papers = sorted(papers, key=lambda i: max((s.metric for s in i.sources), default=0), reverse=True)
+    take(papers, len(picked) + max(0, papers_left), picked)
+    return sorted(picked, key=lambda i: i.score, reverse=True)
 
 
 def now_utc() -> datetime:

@@ -1,60 +1,71 @@
-# 数据源配置。authority: 0~1，来源权威度（参与规则打分）。
-# 新增 RSS 源只需在 rss 列表里加一行。
+# 数据源配置 —— 定位：前沿人物说了什么 + 中文 AI 资讯，论文每天只留最热 1–2 篇。
+# authority: 0~1 来源权威度；lang: zh/en；kind: opinion(个人观点) / news(媒体) / official(官方发布)
+# filter: ai → 综合科技媒体只保留 AI 相关内容；who: 人物身份（卡片上展示）
 selection:
-  per_run: 10            # 每个时段最多精选多少篇
-  min_score: 0.35        # 最终得分阈值（0~1）
-  max_per_source: 6      # 单一来源在一次精选中的上限，保证多样性
-  llm_candidates: 40     # 每次送给大模型评估的候选上限（控制成本）
-  retain_pdf_days: 21    # 本站镜像 PDF 保留天数
+  per_run: 10            # 每个时段最多精选多少条（不含论文）
+  zh_ratio: 0.7          # 目标中文占比
+  papers_per_day: 2      # 每天论文上限（取热度最高的）
+  min_score: 0.35
+  max_per_source: 3      # 单一来源每期上限，保证多样性
+  llm_candidates: 50
+  retain_pdf_days: 21
 
 hf_daily:
   enabled: true
-  authority: 0.8
-  min_upvotes: 3
+  authority: 0.7
+  min_upvotes: 30        # 只看热度够高的论文
 
 hackernews:
   enabled: true
   authority: 0.55
-  min_points: 60
-  lookback_hours: 36
-  # 标题或链接命中其一才算 AI 相关（之后还会经大模型复核）
-  keywords: [" ai ", "a.i.", "llm", "gpt", "claude", "gemini", "llama", "qwen", "deepseek", "mistral",
-             "transformer", "neural", "diffusion", "machine learning", "deep learning", "reinforcement",
-             "agent", "language model", "openai", "anthropic", "deepmind", "inference", "fine-tun",
-             "rlhf", "embedding", "multimodal", "reasoning", "benchmark", "arxiv"]
-  domains: ["arxiv.org", "openai.com", "anthropic.com", "deepmind.google", "research.google", "ai.meta.com",
-            "huggingface.co", "lilianweng.github.io", "bair.berkeley.edu", "microsoft.com/en-us/research",
-            "machinelearning.apple.com", "qwenlm.github.io", "transformer-circuits.pub", "distill.pub"]
+  min_points: 150
+  lookback_hours: 30
+  keywords: [" ai ", "a.i.", "llm", "gpt", "claude", "gemini", "llama", "qwen", "deepseek", "mistral", "openai",
+             "anthropic", "deepmind", "agent", "agi", "altman", "musk", "grok", "nvidia", "chatbot", "language model"]
+  domains: ["arxiv.org", "openai.com", "anthropic.com", "deepmind.google", "ai.meta.com", "blog.samaltman.com", "x.ai"]
 
 rss:
-  - {name: OpenAI, url: "https://openai.com/news/rss.xml", authority: 0.95}
-  - {name: Google DeepMind, url: "https://deepmind.google/blog/rss.xml", authority: 0.95}
-  - {name: Google Research, url: "https://research.google/blog/rss/", authority: 0.85}
-  - {name: Microsoft Research, url: "https://www.microsoft.com/en-us/research/feed/", authority: 0.75}
-  - {name: Apple ML Research, url: "https://machinelearning.apple.com/rss.xml", authority: 0.8}
-  - {name: Hugging Face Blog, url: "https://huggingface.co/blog/feed.xml", authority: 0.7}
-  - {name: BAIR, url: "https://bair.berkeley.edu/blog/feed.xml", authority: 0.8}
-  - {name: Lil'Log, url: "https://lilianweng.github.io/index.xml", authority: 0.9}
-  - {name: Qwen, url: "https://qwenlm.github.io/blog/index.xml", authority: 0.8}
-  - {name: Interconnects, url: "https://www.interconnects.ai/feed", authority: 0.7}
-  - {name: Sebastian Raschka, url: "https://magazine.sebastianraschka.com/feed", authority: 0.7}
-  - {name: Simon Willison, url: "https://simonwillison.net/atom/entries/", authority: 0.6}
-  - {name: Chip Huyen, url: "https://huyenchip.com/feed.xml", authority: 0.7}
+  # ---- 中文媒体（官网 RSS，覆盖对应公众号的主要内容）
+  - {name: 量子位, url: "https://www.qbitai.com/feed", lang: zh, kind: news, authority: 0.85}
+  - {name: 机器之心, url: "https://www.jiqizhixin.com/rss", lang: zh, kind: news, authority: 0.85}
+  - {name: 36氪, url: "https://36kr.com/feed", lang: zh, kind: news, authority: 0.75, filter: ai}
+  - {name: 极客公园, url: "https://www.geekpark.net/rss", lang: zh, kind: news, authority: 0.8, filter: ai}
+  - {name: 虎嗅, url: "https://www.huxiu.com/rss/0.xml", lang: zh, kind: news, authority: 0.7, filter: ai}
+  - {name: 爱范儿, url: "https://www.ifanr.com/feed", lang: zh, kind: news, authority: 0.7, filter: ai}
+  - {name: 少数派, url: "https://sspai.com/feed", lang: zh, kind: news, authority: 0.7, filter: ai}
+  - {name: 雷峰网, url: "https://www.leiphone.com/feed", lang: zh, kind: news, authority: 0.7, filter: ai}
+  - {name: 钛媒体, url: "https://www.tmtpost.com/rss.xml", lang: zh, kind: news, authority: 0.65, filter: ai}
+  - {name: InfoQ 中文, url: "https://www.infoq.cn/feed", lang: zh, kind: news, authority: 0.7, filter: ai}
+  # ---- 中文个人
+  - {name: 宝玉, url: "https://baoyu.io/feed.xml", lang: zh, kind: opinion, authority: 0.9, who: "AI 布道者，前微软工程师", who_name: 宝玉}
+  - {name: 阮一峰, url: "https://www.ruanyifeng.com/blog/atom.xml", lang: zh, kind: opinion, authority: 0.8, filter: ai, who: "《科技爱好者周刊》作者", who_name: 阮一峰}
+  # ---- 英文个人（前沿从业者 / 投资人 / 学者）
+  - {name: Sam Altman, url: "https://blog.samaltman.com/posts.atom", lang: en, kind: opinion, authority: 1.0, who: "OpenAI CEO", who_name: Sam Altman}
+  - {name: Andrej Karpathy, url: "https://karpathy.bearblog.dev/feed/", lang: en, kind: opinion, authority: 0.95, who: "前 OpenAI / 特斯拉 AI 负责人", who_name: Andrej Karpathy}
+  - {name: Dario Amodei, url: "https://www.darioamodei.com/feed.xml", lang: en, kind: opinion, authority: 0.95, who: "Anthropic CEO", who_name: Dario Amodei}
+  - {name: Ethan Mollick, url: "https://www.oneusefulthing.org/feed", lang: en, kind: opinion, authority: 0.85, who: "沃顿商学院教授", who_name: Ethan Mollick}
+  - {name: Simon Willison, url: "https://simonwillison.net/atom/entries/", lang: en, kind: opinion, authority: 0.8, who: "Django 联合创始人，LLM 实践者", who_name: Simon Willison}
+  - {name: Nathan Lambert, url: "https://www.interconnects.ai/feed", lang: en, kind: opinion, authority: 0.8, who: "Ai2 研究员", who_name: Nathan Lambert}
+  - {name: Dwarkesh Patel, url: "https://www.dwarkesh.com/feed", lang: en, kind: opinion, authority: 0.85, who: "科技播客主持人", who_name: Dwarkesh Patel}
+  - {name: Latent Space, url: "https://www.latent.space/feed", lang: en, kind: opinion, authority: 0.75, who: "AI 工程师社区", who_name: swyx}
+  - {name: Jack Clark, url: "https://importai.substack.com/feed", lang: en, kind: opinion, authority: 0.85, who: "Anthropic 联合创始人", who_name: Jack Clark}
+  - {name: Gary Marcus, url: "https://garymarcus.substack.com/feed", lang: en, kind: opinion, authority: 0.7, who: "纽约大学名誉教授，AI 怀疑派", who_name: Gary Marcus}
+  - {name: Benedict Evans, url: "https://www.ben-evans.com/benedictevans?format=rss", lang: en, kind: opinion, authority: 0.8, who: "科技行业分析师", who_name: Benedict Evans}
+  - {name: Stratechery, url: "https://stratechery.com/feed/", lang: en, kind: opinion, authority: 0.8, filter: ai, who: "Ben Thompson，科技战略分析", who_name: Ben Thompson}
+  - {name: SemiAnalysis, url: "https://semianalysis.com/feed/", lang: en, kind: opinion, authority: 0.8, who: "半导体与算力分析", who_name: Dylan Patel}
+  - {name: a16z, url: "https://a16z.com/feed/", lang: en, kind: opinion, authority: 0.75, filter: ai, who: "硅谷顶级风投", who_name: a16z}
+  # ---- 官方发布
+  - {name: OpenAI, url: "https://openai.com/news/rss.xml", lang: en, kind: official, authority: 0.9}
+  - {name: Google DeepMind, url: "https://deepmind.google/blog/rss.xml", lang: en, kind: official, authority: 0.85}
 
-# 没有 RSS 的重要站点：从列表页抓取链接（正则匹配文章路径）
 html_lists:
-  - {name: Anthropic, url: "https://www.anthropic.com/research", base: "https://www.anthropic.com",
-     pattern: '^/(research|news)/[a-z0-9-]{6,}$', authority: 0.95}
   - {name: Anthropic, url: "https://www.anthropic.com/news", base: "https://www.anthropic.com",
-     pattern: '^/(research|news)/[a-z0-9-]{6,}$', authority: 0.95}
-  - {name: Meta AI, url: "https://ai.meta.com/blog/", base: "https://ai.meta.com",
-     pattern: '^/blog/[a-z0-9-]{6,}/?$', authority: 0.9}
+     pattern: '^/(research|news)/[a-z0-9-]{6,}$', authority: 0.9}
 
-rss_lookback_hours: 72
+rss_lookback_hours: 48
 
-# X（Twitter）：配置 X_BEARER_TOKEN 后自动启用，抓取以下账号推文中的论文/文章链接
+# X（Twitter）：暂未启用。配置 X_BEARER_TOKEN 后自动启用
 x:
-  authority: 0.75
-  min_likes: 200
-  accounts: [karpathy, OpenAI, AnthropicAI, GoogleDeepMind, AIatMeta, _akhaliq, arankomatsuzaki,
-             ylecun, drjimfan, sama, jeffdean, hardmaru, rasbt, Alibaba_Qwen, deepseek_ai]
+  authority: 0.9
+  min_likes: 300
+  accounts: [sama, elonmusk, karpathy, AndrewYNg, ylecun, DrJimFan, gdb, emollick, dotey, op7418, vista8]

@@ -44,6 +44,7 @@ def paper_item(aid: str, title: str, abstract: str = "", authors=None, published
         url=f"https://arxiv.org/abs/{aid}", pdf_url=f"https://arxiv.org/pdf/{aid}",
         abstract=" ".join((abstract or "").split()), authors=list(authors or []),
         orgs=list(orgs or []), published=published, sources=[hit] if hit else [],
+        category="论文", lang="en",
     )
 
 
@@ -111,7 +112,7 @@ def fetch_hackernews(http, cfg: dict, now: datetime) -> list[Item]:
             it.extra["needs_arxiv_meta"] = True
         else:
             if url.lower().split("?")[0].endswith(".pdf"):
-                it = Item(make_id(url), "paper", title, url, pdf_url=url, sources=[hit],
+                it = Item(make_id(url), "paper", title, url, pdf_url=url, sources=[hit], category="论文",
                           published=h.get("created_at", ""))
             else:
                 it = Item(make_id(url), "article", title, url, sources=[hit], published=h.get("created_at", ""))
@@ -120,6 +121,17 @@ def fetch_hackernews(http, cfg: dict, now: datetime) -> list[Item]:
 
 
 # --------------------------------------------------------------- RSS feeds
+AI_WORDS = re.compile(
+    r"\bAI\b|AGI|LLM|GPT|Claude|Gemini|Llama|DeepSeek|OpenAI|Anthropic|DeepMind|Grok|Copilot|Agent|智能体|"
+    r"人工智能|大模型|模型|生成式|算力|英伟达|NVIDIA|机器人|具身|推理|Kimi|通义|千问|豆包|文心|智谱|月之暗面|MiniMax|Sora|"
+    r"agent|chatbot|machine learning|neural|transformer|reasoning model", re.I)
+KIND_ZH = {"opinion": "观点", "news": "资讯", "official": "资讯", "paper": "论文"}
+
+
+def is_ai(text: str) -> bool:
+    return bool(AI_WORDS.search(text or ""))
+
+
 @_safe("rss")
 def fetch_rss(http, feeds: list[dict], now: datetime, lookback_hours: int = 72) -> list[Item]:
     items = []
@@ -131,18 +143,28 @@ def fetch_rss(http, feeds: list[dict], now: datetime, lookback_hours: int = 72) 
             log.warning("rss %s failed: %s", f["name"], e)
             continue
         n = 0
-        for e in entries:
+        kind = f.get("kind", "news")
+        for e in entries[: f.get("max_entries", 40)]:
             pub = e["published"]
             if pub and pub < cutoff:
                 continue
             if not pub and n >= 3:   # undated feeds: only consider the top few
                 continue
+            if f.get("filter") == "ai" and not is_ai(e["title"] + " " + e["summary"][:400]):
+                continue
             link = e["link"]
-            hit = SourceHit(f["name"], f.get("authority", 0.7), link, "官方博客" if f.get("authority", 0) >= .9 else "博客")
+            signal = {"opinion": "个人博客", "official": "官方发布", "news": "媒体"}.get(kind, "")
+            hit = SourceHit(f["name"], f.get("authority", 0.7), link, signal)
             aid = arxiv_id_from(link)
-            it = (paper_item(aid, e["title"], e["summary"], e["authors"], _iso(pub), hit) if aid else
-                  Item(make_id(link), "article", e["title"], link, abstract=e["summary"][:1500],
-                       authors=e["authors"], orgs=[f["name"]], published=_iso(pub), sources=[hit]))
+            if aid:
+                it = paper_item(aid, e["title"], e["summary"], e["authors"], _iso(pub), hit)
+            else:
+                it = Item(make_id(link), "article", e["title"], link, abstract=e["summary"][:1500],
+                          authors=e["authors"] or ([f["who_name"]] if f.get("who_name") else []),
+                          orgs=[f["name"]], published=_iso(pub), sources=[hit])
+                it.category = KIND_ZH.get(kind, "资讯")
+                it.lang = f.get("lang", "en")
+                it.who = f.get("who", "")
             items.append(it)
             n += 1
     return items
@@ -203,7 +225,8 @@ def fetch_html_lists(http, lists: list[dict], state: dict, now: datetime, max_ne
             hit = SourceHit(L["name"], L.get("authority", 0.8), url, "官方")
             items.append(Item(make_id(url), "article", title.split(" \\ ")[0].strip(), url,
                               abstract=meta.get("og:description") or meta.get("description", ""),
-                              orgs=[L["name"]], published=_iso(pub), sources=[hit]))
+                              orgs=[L["name"]], published=_iso(pub), sources=[hit], category="资讯",
+                              lang=L.get("lang", "en")))
     return items
 
 

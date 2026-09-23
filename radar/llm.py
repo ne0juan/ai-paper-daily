@@ -24,14 +24,18 @@ log = logging.getLogger(__name__)
 TAGS = ["大模型", "多模态", "智能体", "推理", "对齐与安全", "视觉", "语音", "机器人", "强化学习",
         "效率与系统", "理论", "数据与评测", "代码", "科学AI", "产品与行业"]
 
-SYSTEM = f"""你是一家科技公司 AI 研究情报编辑，负责从候选中挑出最权威、最有价值的 AI 论文和文章，并为中文读者撰写精炼摘要。
+SYSTEM = f"""你是一家科技媒体的 AI 行业主编，为中文读者从候选中挑出最能反映 AI 行业趋势与市场方向的内容，并撰写精炼中文摘要。
 评分标准（quality 1-10）：
-- 9-10：领域里程碑/顶级实验室重要发布/可能改变实践的方法，证据扎实
-- 7-8：扎实的新方法或重要实证发现，来源可靠，工程师值得读
-- 5-6：有一定价值但增量、或偏窄
-- 1-4：营销软文、观点水文、与 AI 研究关系弱、标题党
+- 9-10：重量级人物的明确判断、头部公司的重大发布或战略变化、可能改变行业格局的事件
+- 7-8：有信息增量的行业动态、深度分析、扎实的新技术进展
+- 5-6：常规新闻、增量信息
+- 1-4：营销软文、融资通稿、标题党、与 AI 关系弱、重复报道
 relevant：是否属于 AI/机器学习的研究、工程或重要行业进展（纯商业八卦/政治/非 AI 为 false）。
 tags 只能从以下选择 1-3 个：{"、".join(TAGS)}
+读者是中文科技从业者，目的是把握 AI 行业趋势与市场方向：
+- 观点类（个人博客/访谈）：summary_zh 写成「某某认为……」，提炼其核心判断，而不是复述文章结构；
+- 资讯类：summary_zh 讲清发生了什么、影响谁；
+- 论文类：summary_zh 用通俗语言解释「解决什么问题、怎么做、结果说明了什么」，避免术语堆砌（≤120字）。
 输出严格 JSON 数组，不要任何多余文字。每个元素：
 {{"id": "...", "relevant": true, "quality": 7, "title_zh": "中文标题（信达雅，≤30字）",
  "summary_zh": "一句话说清做了什么、结果如何（≤70字）", "highlights_zh": ["要点1","要点2","要点3"],
@@ -41,7 +45,7 @@ tags 只能从以下选择 1-3 个：{"、".join(TAGS)}
 def _fmt(it: Item) -> str:
     srcs = "; ".join(f"{s.name} {s.signal}".strip() for s in it.sources)
     return (f"id: {it.id}\n类型: {'论文' if it.kind == 'paper' else '文章'}\n标题: {it.title}\n"
-            f"作者/机构: {', '.join((it.orgs + it.authors)[:6])}\n来源与热度: {srcs}\n"
+            f"分类: {it.category}\n作者/机构: {', '.join((it.orgs + it.authors)[:6])} {it.who}\n来源与热度: {srcs}\n"
             f"摘要: {it.abstract[:1400]}")
 
 
@@ -93,6 +97,18 @@ class LLM:
                   "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]})
         r.raise_for_status()
         return r.json()["choices"][0]["message"]["content"]
+
+    def daily_brief(self, items: list[dict]) -> list[dict]:
+        """3–5 trend takeaways for the day, each citing item ids."""
+        lines = [f"[{d['id']}] {d.get('category','')} {d.get('title_zh') or d['title']} —— {d.get('summary_zh','')[:160]}"
+                 for d in items[:40]]
+        system = ("你是 AI 行业主编。根据今天精选的内容，写 3–5 条「今日风向」：每条一句话判断（≤40字）+ 一句依据（≤60字），"
+                  "聚焦市场方向、竞争格局、技术拐点，不要罗列新闻。输出严格 JSON 数组："
+                  '[{"trend": "...", "why": "...", "refs": ["条目id", ...]}]')
+        rows = extract_json(self.complete(system, "\n".join(lines)))
+        ids = {d["id"] for d in items}
+        return [{"trend": str(r.get("trend", ""))[:80], "why": str(r.get("why", ""))[:140],
+                 "refs": [x for x in r.get("refs", []) if x in ids][:4]} for r in rows if isinstance(r, dict)][:5]
 
     def judge(self, items: list[Item], batch: int = 8) -> int:
         """Enrich items in place. Returns number of items successfully judged."""

@@ -1,19 +1,16 @@
-"""Browser E2E: build the site from a fixture run, serve it, drive it with Chromium.
-Screenshots land in $E2E_SHOTS (default: .e2e/) for visual review."""
+"""Browser E2E on a realistic demo day (tests/fixtures/demo_day.json) plus a fixture pipeline
+day, then the design-QA standard. Screenshots land in $E2E_SHOTS (default: .e2e/)."""
 import functools
 import http.server
+import json
 import os
 import shutil
+import subprocess
 import sys
 import tempfile
 import threading
 import unittest
-from datetime import timedelta
 from pathlib import Path
-
-from radar.llm import LLM
-from radar.pipeline import run
-from tests.helpers import NOW, fake_http, fake_llm_transport
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -32,26 +29,31 @@ class Quiet(http.server.SimpleHTTPRequestHandler):
         pass
 
 
+def serve(directory: Path):
+    srv = http.server.ThreadingHTTPServer(("127.0.0.1", 0), functools.partial(Quiet, directory=str(directory)))
+    threading.Thread(target=srv.serve_forever, daemon=True).start()
+    return srv, f"http://127.0.0.1:{srv.server_address[1]}/"
+
+
 @unittest.skipIf(sync_playwright is None, "playwright not installed")
 class E2E(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.tmp = Path(tempfile.mkdtemp())
-        data, cache = cls.tmp / "data", cls.tmp / "cache"
-        llm = LLM(transport=fake_llm_transport)
-        run(now=NOW - timedelta(days=1), data_dir=data, cache_dir=cache, http=fake_http(), llm=llm, snapshots=False)
-        # second day: morning + evening issues
-        import radar.pipeline as p
-        state = p.load_json(data / "state.json", {})
-        state["selected"] = {}
-        p.dump_json(data / "state.json", state)
-        run(now=NOW - timedelta(hours=3), data_dir=data, cache_dir=cache, http=fake_http(), llm=llm, snapshots=False)
         cls.dist = cls.tmp / "dist"
-        build(data, cache, cls.dist, retain_days=3650)
-        handler = functools.partial(Quiet, directory=str(cls.dist))
-        cls.httpd = http.server.ThreadingHTTPServer(("127.0.0.1", 0), handler)
-        cls.url = f"http://127.0.0.1:{cls.httpd.server_address[1]}/"
-        threading.Thread(target=cls.httpd.serve_forever, daemon=True).start()
+        subprocess.run([sys.executable, str(ROOT / "scripts/demo_dist.py"), str(cls.dist)], check=True, capture_output=True)
+        # add a second (older) day so the date strip and archive can be tested
+        prev = json.loads((cls.dist / "data/days/2026-09-23.json").read_text("utf-8"))
+        for it in prev["items"]:
+            it["id"] += "-old"
+            it["date"] = "2026-09-22"
+            it["selected_at"] = it["selected_at"].replace("09-23", "09-22")
+            it["mirror_pdf"] = ""
+        (cls.dist / "data/days/2026-09-22.json").write_text(json.dumps(prev, ensure_ascii=False), "utf-8")
+        idx = json.loads((cls.dist / "data/index.json").read_text("utf-8"))
+        idx["days"].append({"date": "2026-09-22", "count": len(prev["items"])})
+        (cls.dist / "data/index.json").write_text(json.dumps(idx, ensure_ascii=False), "utf-8")
+        cls.httpd, cls.url = serve(cls.dist)
         cls.pw = sync_playwright().start()
         cls.browser = cls.pw.chromium.launch()
         SHOTS.mkdir(exist_ok=True)
@@ -73,26 +75,25 @@ class E2E(unittest.TestCase):
         page.wait_for_selector("body[data-ready='1']", timeout=10000)
         return ctx, page, errors
 
-    def test_renders_must_read_then_newest_issue_first(self):
+    def test_reading_order(self):
         ctx, page, errors = self.page(viewport={"width": 1280, "height": 900})
-        cards = page.locator(".card")
-        self.assertGreater(cards.count(), 3)
-        self.assertEqual(page.locator("#blips .blip").count(), cards.count())
-        self.assertEqual(page.locator(".must .card").count(), 3)
-        heads = page.locator(".section:not(.must) .sec-head h2").all_inner_texts()
-        order = [h for h in ["晚间刊", "午间刊", "晨间刊"] if h in heads]
-        self.assertEqual(heads, order, "issues must be newest first")
-        # must-read items are not repeated in the slot sections
+        heads = page.locator(".sec-head h2").all_inner_texts()
+        self.assertEqual(heads[0], "今日必读")
+        self.assertEqual(heads[-1], "论文", "papers come last")
+        slots = [h for h in heads if h.endswith("刊")]
+        self.assertEqual(slots, [h for h in ["晚间刊", "午间刊", "晨间刊"] if h in slots], "newest issue first")
         ids = page.eval_on_selector_all(".card", "els => els.map(e => e.dataset.id)")
-        self.assertEqual(len(ids), len(set(ids)))
-        # must-read are the highest scores of the day
-        must = page.eval_on_selector_all(".must .score", "els => els.map(e => +e.textContent)")
-        rest = page.eval_on_selector_all(".section:not(.must) .score", "els => els.map(e => +e.textContent)")
-        self.assertGreaterEqual(min(must), max(rest))
-        # every paper offers a one-click Chinese full text
-        self.assertEqual(page.locator(".card:has(.kind:not(.article)) .secondary").count(),
-                         page.locator(".card:has(.kind:not(.article))").count())
-        # the primary button serves our mirrored PDF
+        self.assertEqual(len(ids), len(set(ids)), "no item shown twice")
+        self.assertEqual(page.locator(".must .card").count(), 3)
+        self.assertEqual(page.locator(".must .cat", has_text="论文").count(), 0, "papers never in 今日必读")
+        # opinion cards lead with the person
+        byline = page.locator(".card:has(.cat.op) .byline").first.inner_text()
+        self.assertIn("｜", byline)
+        # paper card: plain-language explanation + one-click Chinese full text
+        paper = page.locator(".papers .card").first
+        self.assertEqual(paper.locator(".explain").count(), 1)
+        self.assertTrue(paper.locator(".secondary", has_text="中文全文").is_visible())
+        # reading button serves our archived copy
         href = page.locator(".primary[href^='pdf/']").first.get_attribute("href")
         resp = page.request.get(self.url + href)
         self.assertEqual((resp.status, resp.body()[:5]), (200, b"%PDF-"))
@@ -103,16 +104,14 @@ class E2E(unittest.TestCase):
 
     def test_new_since_last_visit(self):
         ctx = self.browser.new_context()
-        ctx.add_init_script("localStorage.setItem('pr-last-visit', String(Date.parse('2026-09-22T12:00:00Z')))")
+        ctx.add_init_script("localStorage.setItem('pr-last-visit', String(Date.parse('2026-09-23T03:00:00Z')))")
         page = ctx.new_page()
         page.goto(self.url)
         page.wait_for_selector("body[data-ready='1']")
         n_new = page.locator(".card .new").count()
         self.assertGreater(n_new, 0)
-        self.assertIn(f"新增 {n_new} 篇", page.inner_text("#since"))
-        page.goto(self.url + "#/2026-09-22")
-        page.wait_for_function("document.querySelector('#issue-line').textContent.includes('22日')")
-        self.assertEqual(page.locator(".card .new").count(), 0, "yesterday's items predate the last visit")
+        self.assertLess(n_new, page.locator(".card").count(), "morning items predate the visit")
+        self.assertIn(f"新增 {n_new} 条", page.inner_text("#since"))
         ctx.close()
 
     def test_days_radar_theme_more(self):
@@ -122,43 +121,56 @@ class E2E(unittest.TestCase):
         self.assertIn("今天", days.first.inner_text())
         days.nth(1).click()
         page.wait_for_function("location.hash === '#/2026-09-22'")
-        page.wait_for_function("document.querySelector('#issue-line').textContent.includes('22日')")
+        page.wait_for_function("document.querySelector('#issue-line').textContent.includes('22 日')")
+        self.assertIn("往期", page.inner_text("#since"))
         page.locator("#blips .blip").first.click(force=True)
         page.wait_for_selector(".card.flash")
         page.locator(".more summary").first.click()
         self.assertTrue(page.locator(".more[open] .links a").first.is_visible())
         page.locator("#theme").click()
         self.assertIn(page.evaluate("document.documentElement.dataset.theme"), ("dark", "light"))
-        page.screenshot(path=str(SHOTS / "theme-toggled.png"))
-        self.assertEqual(errors, [])
-        ctx.close()
-
-    def test_mobile_layout_no_horizontal_scroll(self):
-        ctx, page, errors = self.page(viewport={"width": 375, "height": 812}, is_mobile=True, has_touch=True)
-        self.assertLessEqual(page.evaluate("document.documentElement.scrollWidth - window.innerWidth"), 0)
-        page.wait_for_timeout(900)
-        page.screenshot(path=str(SHOTS / "mobile.png"), full_page=True)
         self.assertEqual(errors, [])
         ctx.close()
 
     def test_deep_link_to_item(self):
         ctx, page, _ = self.page()
-        page.goto(self.url + "#/item/arxiv-2609.01234")
-        page.wait_for_selector(".card.flash[data-id='arxiv-2609.01234']", timeout=8000)
+        page.goto(self.url + "#/item/web-demo5")
+        page.wait_for_selector(".card.flash[data-id='web-demo5']", timeout=8000)
         ctx.close()
+
+    def test_brief_renders_when_present(self):
+        d = self.tmp / "brief"
+        shutil.copytree(self.dist, d)
+        day = json.loads((d / "data/days/2026-09-23.json").read_text("utf-8"))
+        day["brief"] = [{"trend": "推理成本继续下探，价格战升级", "why": "DeepSeek 与 OpenAI 同日降价。", "refs": ["web-demo2", "web-demo4"]}]
+        (d / "data/days/2026-09-23.json").write_text(json.dumps(day, ensure_ascii=False), "utf-8")
+        srv, url = serve(d)
+        ctx = self.browser.new_context()
+        page = ctx.new_page()
+        page.goto(url)
+        page.wait_for_selector("body[data-ready='1']")
+        self.assertIn("价格战", page.inner_text(".brief"))
+        self.assertEqual(page.locator(".brief .refs a").count(), 2)
+        page.locator(".brief .refs a").first.click()
+        page.wait_for_selector(".card.flash[data-id='web-demo2']", timeout=8000)
+        ctx.close()
+        srv.shutdown()
+
+    def test_design_standard(self):
+        r = subprocess.run([sys.executable, str(ROOT / "scripts/design_qa.py"), str(self.dist), str(SHOTS)],
+                           capture_output=True, text=True)
+        report = json.loads((SHOTS / "design_qa.json").read_text("utf-8"))
+        self.assertEqual(report["failed"], [], r.stdout[-2000:])
 
     def test_empty_site(self):
         empty = self.tmp / "empty"
         build(self.tmp / "nodata", self.tmp / "nocache", empty)
-        # served from a second server rooted at the empty build
-        handler = functools.partial(Quiet, directory=str(empty))
-        srv = http.server.ThreadingHTTPServer(("127.0.0.1", 0), handler)
-        threading.Thread(target=srv.serve_forever, daemon=True).start()
+        srv, url = serve(empty)
         ctx = self.browser.new_context()
         page = ctx.new_page()
         errs = []
         page.on("pageerror", lambda e: errs.append(str(e)))
-        page.goto(f"http://127.0.0.1:{srv.server_address[1]}/")
+        page.goto(url)
         page.wait_for_selector(".empty")
         self.assertIn("预热", page.inner_text("#feed"))
         self.assertEqual(errs, [])

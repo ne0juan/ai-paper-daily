@@ -22,13 +22,16 @@ for f in sorted((ROOT / "data" / "days").glob("*.json"))[-7:]:
         if d["id"].startswith("arxiv-") and not any("hjfy.top" in l["url"] for l in d.get("links", [])):
             d["links"] = build_links(Item.from_dict(d))
             changed = True
-        if d.get("title_zh") or d.get("score_llm") is not None:
-            continue
-        it = Item.from_dict(d)
+    need = [d for d in day["items"] if not d.get("title_zh") and d.get("score_llm") is None]
+    items = [Item.from_dict(d) for d in need]
+    for it in items:
         it.summary_zh = ""
-        if machine_translate(http, [it]) and it.title_zh:
-            d.update(title_zh=it.title_zh, summary_zh=it.summary_zh or d.get("summary_zh", ""), mt=True)
-            changed, done = True, done + 1
+    if items and machine_translate(http, items):
+        for d, it in zip(need, items):
+            if it.title_zh:
+                d.update(title_zh=it.title_zh, summary_zh=it.summary_zh or d.get("summary_zh", ""), mt=True)
+                done += 1
+                changed = True
     if changed:
         f.write_text(json.dumps(day, ensure_ascii=False, indent=1), "utf-8")
 print(f"backfill_zh: translated {done}")
