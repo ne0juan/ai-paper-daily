@@ -1,20 +1,26 @@
-# 数据源配置 —— 定位：前沿人物说了什么 + 中文 AI 资讯，论文每天只留最热 1–2 篇。
+# 数据源配置 —— 定位：前沿人物说了什么 + 中文 AI 资讯 + 「架构·评测」技术专栏，论文每天只留最热 1–2 篇。
+# 时效：只收北京时间今天或昨天（T / T-1）发布的内容；没有发布时间的条目不收。
 # authority: 0~1 来源权威度；lang: zh/en；kind: opinion(个人观点) / news(媒体) / official(官方发布)
 # filter: ai → 综合科技媒体只保留 AI 相关内容；who: 人物身份（卡片上展示）
 selection:
-  per_run: 10            # 每个时段最多精选多少条（不含论文）
+  per_run: 14            # 每个时段最多精选多少条资讯/观点（不含技术专栏和论文）
+  tech_per_run: 4        # 每个时段「架构·评测」专栏条数（模型架构、harness、评测方法、新基准）
+  tech_min_score: 0.3
+  tech_llm_candidates: 20
+  max_age_days: 1        # 1 = 只要今天和昨天（T-1）的内容
   zh_ratio: 0.7          # 目标中文占比
   papers_per_day: 2      # 每天论文上限（取热度最高的）
   min_score: 0.35
   max_per_source: 4      # 单一来源每期上限，保证多样性
-  min_opinions: 2        # 每期至少保留几条「人物观点」（有合格候选时）
-  llm_candidates: 50
+  min_opinions: 3        # 每期至少保留几条「人物观点」（有合格候选时）
+  llm_candidates: 80
   retain_pdf_days: 21
 
 hf_daily:
   enabled: true
   authority: 0.7
   min_upvotes: 30        # 只看热度够高的论文
+  tech_min_upvotes: 8    # 架构/评测类论文门槛放低，由 LLM 把关质量
 
 hackernews:
   enabled: true
@@ -51,6 +57,18 @@ rss:
   - {name: Benedict Evans, url: "https://www.ben-evans.com/benedictevans?format=rss", lang: en, kind: opinion, authority: 0.8, who: "科技行业分析师", who_name: Benedict Evans}
   - {name: Stratechery, url: "https://stratechery.com/feed/", lang: en, kind: opinion, authority: 0.8, filter: ai, who: "Ben Thompson，科技战略分析", who_name: Ben Thompson}
   - {name: SemiAnalysis, url: "https://semianalysis.com/feed/", lang: en, kind: opinion, authority: 0.8, who: "半导体与算力分析", who_name: Dylan Patel}
+  # ---- 架构 · 评测（技术专栏）
+  - {name: 科学空间, url: "https://kexue.fm/feed", lang: zh, kind: tech, authority: 0.85, who: "RoPE 提出者，科学空间博主", who_name: 苏剑林}
+  - {name: Lilian Weng, url: "https://lilianweng.github.io/index.xml", lang: en, kind: tech, authority: 0.9, who: "Thinking Machines 联合创始人，前 OpenAI", who_name: Lilian Weng}
+  - {name: Sebastian Raschka, url: "https://magazine.sebastianraschka.com/feed", lang: en, kind: tech, authority: 0.85, who: "LLM 研究者，架构解读", who_name: Sebastian Raschka}
+  - {name: Hugging Face Blog, url: "https://huggingface.co/blog/feed.xml", lang: en, kind: tech, authority: 0.75}
+  - {name: Google Research, url: "https://research.google/blog/rss/", lang: en, kind: tech, authority: 0.8}
+  - {name: Epoch AI, url: "https://epochai.substack.com/feed", lang: en, kind: tech, authority: 0.85, who: "AI 算力与评测研究机构", who_name: Epoch AI}
+  - {name: METR, url: "https://metr.org/feed.xml", lang: en, kind: tech, authority: 0.85, who: "前沿模型能力评测机构", who_name: METR}
+  - {name: LMArena, url: "https://news.lmarena.ai/rss/", lang: en, kind: tech, authority: 0.75}
+  - {name: Hamel Husain, url: "https://hamel.dev/index.xml", lang: en, kind: tech, authority: 0.75, who: "LLM 评测实践者", who_name: Hamel Husain}
+  - {name: Eugene Yan, url: "https://eugeneyan.com/rss/", lang: en, kind: tech, authority: 0.75, who: "应用 ML 工程师，LLM 评测实践", who_name: Eugene Yan}
+  - {name: LangChain, url: "https://blog.langchain.com/rss/", lang: en, kind: tech, authority: 0.65, filter: ai}
   # ---- 官方发布
   - {name: OpenAI, url: "https://openai.com/news/rss.xml", lang: en, kind: official, authority: 0.9}
   - {name: Google DeepMind, url: "https://deepmind.google/blog/rss.xml", lang: en, kind: official, authority: 0.85}
@@ -58,6 +76,19 @@ rss:
 html_lists:
   - {name: Anthropic, url: "https://www.anthropic.com/news", base: "https://www.anthropic.com",
      pattern: '^/(research|news)/[a-z0-9-]{6,}$', authority: 0.9}
+  - {name: Anthropic Engineering, url: "https://www.anthropic.com/engineering", base: "https://www.anthropic.com",
+     pattern: '^/engineering/[a-z0-9-]{6,}$', authority: 0.9, category: 技术}
+
+# arXiv 新论文检索（架构 · 评测主题；无热度信号，由 LLM 判断质量）
+arxiv_search:
+  enabled: true
+  authority: 0.55
+  lookback_hours: 48
+  max_results: 60
+  categories: [cs.CL, cs.LG, cs.AI]
+  terms: [JEPA, "world model", "mixture of experts", "state space", "linear attention", "sparse attention",
+          "diffusion language model", "test-time", "scaling law", benchmark, evaluation, harness, scaffold,
+          "agent framework", "context engineering", "latent reasoning", tokenizer, "long context"]
 
 rss_lookback_hours: 48
 

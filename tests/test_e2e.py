@@ -80,6 +80,12 @@ class E2E(unittest.TestCase):
         heads = page.locator(".sec-head h2").all_inner_texts()
         self.assertEqual(heads[0], "今日必读")
         self.assertEqual(heads[-1], "论文", "papers come last")
+        self.assertEqual(heads[-2], "架构 · 评测", "architecture/evaluation column right before papers")
+        self.assertEqual(page.locator(".tech .card").count(), 3)
+        self.assertEqual(page.locator(".must .cat", has_text="架构").count(), 0)
+        self.assertEqual(page.locator(".tech .card .explain").count(), 1, "tech papers get the plain-language box")
+        self.assertIn("苏剑林", page.locator(".tech .byline").first.inner_text())
+        self.assertEqual(page.locator("#blips .blip.tech").count(), 3)
         slots = [h for h in heads if h.endswith("刊")]
         self.assertEqual(slots, [h for h in ["晚间刊", "午间刊", "晨间刊"] if h in slots], "newest issue first")
         ids = page.eval_on_selector_all(".card", "els => els.map(e => e.dataset.id)")

@@ -48,6 +48,23 @@ def paper_item(aid: str, title: str, abstract: str = "", authors=None, published
     )
 
 
+# --------------------------------------------------------------- 架构 · 评测 track
+# Model architecture, training recipes, agent harnesses and evaluation methodology.
+TECH_RE = re.compile(
+    r"JEPA|world model|世界模型|architecture|架构|mixture[- ]of[- ]experts|\bMoE\b|state[- ]space|\bSSMs?\b|Mamba|"
+    r"linear attention|sparse attention|线性注意力|稀疏注意力|注意力机制|attention (mechanism|variant)|diffusion (language|LLM)|"
+    r"扩散语言模型|tokeni[sz]|long[- ]context|长上下文|test[- ]time (compute|scaling|training)|scaling law|缩放定律|"
+    r"benchmark|基准测试|评测(方法|基准|体系|集)|模型评测|大模型评测|evaluat|\bevals?\b|leaderboard|排行榜|LMArena|"
+    r"SWE-bench|ARC-AGI|Humanity'?s Last Exam|harness|scaffold|agent (framework|architecture|loop)|智能体(框架|架构)|"
+    r"context engineering|上下文工程|RL environment|post-training|后训练|pre-?training|预训练|distillation|蒸馏|"
+    r"positional (encoding|embedding)|RoPE|residual|normali[sz]ation|optimizer|Muon|recurren|looped|latent reasoning",
+    re.I)
+
+
+def is_tech(text: str) -> bool:
+    return bool(TECH_RE.search(text or ""))
+
+
 # --------------------------------------------------------------- HF Daily Papers
 @_safe("hf_daily")
 def fetch_hf_daily(http, cfg: dict, now: datetime) -> list[Item]:
@@ -65,7 +82,8 @@ def fetch_hf_daily(http, cfg: dict, now: datetime) -> list[Item]:
             if not aid:
                 continue
             up = int(p.get("upvotes") or row.get("upvotes") or 0)
-            if up < cfg.get("min_upvotes", 0):
+            tech = is_tech(p.get("title") or row.get("title", ""))   # title only: every abstract says "evaluate"
+            if up < cfg.get("tech_min_upvotes" if tech else "min_upvotes", cfg.get("min_upvotes", 0)):
                 continue
             org = (row.get("organization") or p.get("organization") or {})
             orgs = [org.get("fullname") or org.get("name")] if isinstance(org, dict) and org else []
@@ -74,6 +92,8 @@ def fetch_hf_daily(http, cfg: dict, now: datetime) -> list[Item]:
             it = paper_item(aid, p.get("title") or row.get("title", ""), p.get("summary", ""),
                             [a.get("name", "") for a in p.get("authors", []) if isinstance(a, dict)],
                             p.get("publishedAt", ""), hit, [o for o in orgs if o])
+            if tech:
+                it.category = "技术"
             if p.get("githubRepo"):
                 it.extra["github"] = p["githubRepo"]
             if p.get("ai_keywords"):
@@ -125,7 +145,7 @@ AI_WORDS = re.compile(
     r"\bAI\b|AGI|LLM|GPT|Claude|Gemini|Llama|DeepSeek|OpenAI|Anthropic|DeepMind|Grok|Copilot|Agent|智能体|"
     r"人工智能|大模型|模型|生成式|算力|英伟达|NVIDIA|机器人|具身|推理|Kimi|通义|千问|豆包|文心|智谱|月之暗面|MiniMax|Sora|"
     r"agent|chatbot|machine learning|neural|transformer|reasoning model", re.I)
-KIND_ZH = {"opinion": "观点", "news": "资讯", "official": "资讯", "paper": "论文"}
+KIND_ZH = {"opinion": "观点", "news": "资讯", "official": "资讯", "paper": "论文", "tech": "技术"}
 
 
 def is_ai(text: str) -> bool:
@@ -148,12 +168,12 @@ def fetch_rss(http, feeds: list[dict], now: datetime, lookback_hours: int = 72) 
             pub = e["published"]
             if pub and pub < cutoff:
                 continue
-            if not pub and n >= 3:   # undated feeds: only consider the top few
+            if not pub:   # freshness first: an undated entry can't prove it is new
                 continue
             if f.get("filter") == "ai" and not is_ai(e["title"] + " " + e["summary"][:400]):
                 continue
             link = e["link"]
-            signal = {"opinion": "个人博客", "official": "官方发布", "news": "媒体"}.get(kind, "")
+            signal = {"opinion": "个人博客", "official": "官方发布", "news": "媒体", "tech": "技术博客"}.get(kind, "")
             hit = SourceHit(f["name"], f.get("authority", 0.7), link, signal)
             aid = arxiv_id_from(link)
             if aid:
@@ -225,8 +245,8 @@ def fetch_html_lists(http, lists: list[dict], state: dict, now: datetime, max_ne
             hit = SourceHit(L["name"], L.get("authority", 0.8), url, "官方")
             items.append(Item(make_id(url), "article", title.split(" \\ ")[0].strip(), url,
                               abstract=meta.get("og:description") or meta.get("description", ""),
-                              orgs=[L["name"]], published=_iso(pub), sources=[hit], category="资讯",
-                              lang=L.get("lang", "en")))
+                              orgs=[L["name"]], published=_iso(pub), sources=[hit],
+                              category=L.get("category", "资讯"), lang=L.get("lang", "en")))
     return items
 
 
@@ -318,6 +338,33 @@ def enrich_arxiv(http, items: list[Item]) -> None:
             it.extra.pop("needs_arxiv_meta", None)
 
 
+@_safe("arxiv_search")
+def fetch_arxiv_search(http, cfg: dict, now: datetime) -> list[Item]:
+    """Fresh arXiv papers on architecture / evaluation topics (e.g. JEPA, world models,
+    harnesses, new benchmarks). No popularity signal — the LLM judge decides."""
+    terms = cfg.get("terms", [])
+    if not terms:
+        return []
+    q = " OR ".join(f'ti:"{t}"' if " " in t else f"ti:{t}" for t in terms)
+    cats = cfg.get("categories", ["cs.CL", "cs.LG", "cs.AI"])
+    query = f"({q}) AND ({' OR '.join('cat:' + c for c in cats)})"
+    meta = parse_arxiv_atom(http.text("https://export.arxiv.org/api/query", params={
+        "search_query": query, "sortBy": "submittedDate", "sortOrder": "descending",
+        "max_results": cfg.get("max_results", 40)}))
+    cutoff = now - timedelta(hours=cfg.get("lookback_hours", 48))
+    items = []
+    for aid, m in meta.items():
+        pub = parse_date(m["published"])
+        if not pub or pub < cutoff:
+            continue
+        hit = SourceHit("arXiv 新论文", cfg.get("authority", 0.55), f"https://arxiv.org/abs/{aid}", "arXiv")
+        it = paper_item(aid, m["title"], m["abstract"], m["authors"], m["published"], hit, m["orgs"])
+        it.category = "技术"
+        it.extra["categories"] = m["categories"]
+        items.append(it)
+    return items
+
+
 def collect(http, cfg: dict, state: dict, now: datetime) -> list[Item]:
     """Run all sources and merge duplicates (same arXiv id / canonical URL)."""
     raw: list[Item] = []
@@ -328,6 +375,8 @@ def collect(http, cfg: dict, state: dict, now: datetime) -> list[Item]:
     raw += fetch_rss(http, cfg.get("rss", []), now, cfg.get("rss_lookback_hours", 72))
     raw += fetch_html_lists(http, cfg.get("html_lists", []), state, now)
     raw += fetch_x(http, cfg.get("x", {}), now)
+    if cfg.get("arxiv_search", {}).get("enabled", False):
+        raw += fetch_arxiv_search(http, cfg["arxiv_search"], now)
     merged: dict[str, Item] = {}
     for it in raw:
         if it.id in merged:
@@ -336,7 +385,25 @@ def collect(http, cfg: dict, state: dict, now: datetime) -> list[Item]:
             merged[it.id] = it
     items = list(merged.values())
     enrich_arxiv(http, items)
+    for it in items:   # hot papers about architecture / evaluation join the 架构·评测 track
+        if it.category == "论文" and is_tech(it.title):
+            it.category = "技术"
     return items
+
+
+def is_fresh(it: Item, now: datetime, max_age_days: int = 1) -> bool:
+    """Freshness rule: published today or yesterday (Beijing calendar, i.e. T or T-1).
+    Items without a date are kept only when they come from a signal that is itself
+    recent (HF daily list of today/yesterday, HN front page, newly discovered links)."""
+    pub = parse_date(it.published)
+    if pub is None:
+        return any(s.name in ("HF Daily Papers", "Hacker News") or s.signal == "官方" for s in it.sources)
+    bj = timezone(timedelta(hours=8))
+    start = (now.astimezone(bj) - timedelta(days=max_age_days)).replace(hour=0, minute=0, second=0, microsecond=0)
+    if pub >= start:
+        return True
+    # HF daily features papers a few days after submission; being featured today/yesterday is the news
+    return any(s.name == "HF Daily Papers" for s in it.sources)
 
 
 def popularity(metric: float, scale: float) -> float:

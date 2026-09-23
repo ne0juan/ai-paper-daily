@@ -36,10 +36,13 @@ tags 只能从以下选择 1-3 个：{"、".join(TAGS)}
 - 观点类（个人博客/访谈）：summary_zh 写成「某某认为……」，提炼其核心判断，而不是复述文章结构；
 - 资讯类：summary_zh 讲清发生了什么、影响谁；
 - 论文类：summary_zh 用通俗语言解释「解决什么问题、怎么做、结果说明了什么」，避免术语堆砌（≤120字）。
+- 架构·评测类（模型架构如 JEPA/世界模型/MoE/线性注意力、训练方法、智能体 harness/脚手架设计、评测基准与评测方法）：
+  summary_zh 用通俗语言讲清「新在哪里、和现有做法比有什么不同、对行业意味着什么」（≤120字），并把 tech 设为 true。
+tech：内容的核心是否是模型架构、训练/推理方法、智能体 harness 工程、评测方法或新基准（行业新闻、产品发布、融资为 false）。
 输出严格 JSON 数组，不要任何多余文字。每个元素：
 {{"id": "...", "relevant": true, "quality": 7, "title_zh": "中文标题（信达雅，≤30字）",
  "summary_zh": "一句话说清做了什么、结果如何（≤70字）", "highlights_zh": ["要点1","要点2","要点3"],
- "why_zh": "为什么值得读（≤40字）", "tags": ["大模型"]}}"""
+ "why_zh": "为什么值得读（≤40字）", "tags": ["大模型"], "tech": false}}"""
 
 
 def _fmt(it: Item) -> str:
@@ -103,7 +106,7 @@ class LLM:
         lines = [f"[{d['id']}] {d.get('category','')} {d.get('title_zh') or d['title']} —— {d.get('summary_zh','')[:160]}"
                  for d in items[:40]]
         system = ("你是 AI 行业主编。根据今天精选的内容，写 3–5 条「今日风向」：每条一句话判断（≤40字）+ 一句依据（≤60字），"
-                  "聚焦市场方向、竞争格局、技术拐点，不要罗列新闻。输出严格 JSON 数组："
+                  "聚焦市场方向、竞争格局、技术拐点（架构、评测方法的新变化也算），不要罗列新闻。输出严格 JSON 数组："
                   '[{"trend": "...", "why": "...", "refs": ["条目id", ...]}]')
         rows = extract_json(self.complete(system, "\n".join(lines)))
         ids = {d["id"] for d in items}
@@ -138,5 +141,7 @@ class LLM:
                 it.highlights_zh = [str(h)[:120] for h in (r.get("highlights_zh") or [])][:4]
                 it.why_zh = str(r.get("why_zh", ""))[:120]
                 it.tags = [t for t in (r.get("tags") or []) if t in TAGS][:3]
+                if "tech" in r and it.category in ("资讯", "论文", "技术"):
+                    it.category = "技术" if r.get("tech") is True else ("论文" if it.kind == "paper" else "资讯")
                 ok += 1
         return ok

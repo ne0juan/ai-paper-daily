@@ -47,10 +47,13 @@ def final_score(it: Item) -> float:
 
 
 def select(items: list[Item], per_run: int, min_score: float, max_per_source: int,
-           zh_ratio: float | None = None, papers_left: int = 0, min_opinions: int = 0) -> list[Item]:
-    """Pick the issue: best non-paper items with a Chinese quota, plus at most
-    ``papers_left`` papers (the hottest), with a per-source cap for diversity."""
-    ranked = sorted((i for i in items if i.relevant and i.score >= min_score),
+           zh_ratio: float | None = None, papers_left: int = 0, min_opinions: int = 0,
+           tech_per_run: int = 0, tech_min_score: float | None = None) -> list[Item]:
+    """Pick the issue: best news/opinion items with a Chinese quota, plus up to
+    ``tech_per_run`` 架构·评测 items (own column, own threshold) and at most
+    ``papers_left`` general papers (the hottest), with a per-source cap for diversity."""
+    tmin = min_score if tech_min_score is None else tech_min_score
+    ranked = sorted((i for i in items if i.relevant and i.score >= (tmin if i.category == "技术" else min_score)),
                     key=lambda i: i.score, reverse=True)
     per_src: dict[str, int] = {}
 
@@ -66,7 +69,8 @@ def select(items: list[Item], per_run: int, min_score: float, max_per_source: in
         return out
 
     papers = [i for i in ranked if i.category == "论文"]
-    rest = [i for i in ranked if i.category != "论文"]
+    tech = [i for i in ranked if i.category == "技术"]
+    rest = [i for i in ranked if i.category not in ("论文", "技术")]
     picked: list[Item] = []
     take([i for i in rest if i.category == "观点"], min_opinions, picked)   # guaranteed voices
     if zh_ratio is None:
@@ -76,6 +80,7 @@ def select(items: list[Item], per_run: int, min_score: float, max_per_source: in
         take([i for i in rest if i.lang == "zh"], zh_quota, picked)
         take([i for i in rest if i.lang != "zh"], per_run, picked)
         take(rest, per_run, picked)          # top up if one language is short
+    take(tech, len(picked) + max(0, tech_per_run), picked)
     papers = sorted(papers, key=lambda i: max((s.metric for s in i.sources), default=0), reverse=True)
     take(papers, len(picked) + max(0, papers_left), picked)
     return sorted(picked, key=lambda i: i.score, reverse=True)

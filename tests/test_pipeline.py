@@ -84,8 +84,12 @@ class PipelineTests(unittest.TestCase):
         self.assertLessEqual(len(papers), 2)
         self.assertGreaterEqual(len(papers), 1)
         self.assertEqual({i["slot"] for i in day["items"]} >= {"morning"}, True)
-        hot = max(papers, key=lambda i: max(s["metric"] for s in i["sources"]))
-        self.assertEqual(hot["id"], "arxiv-2609.01234", "the most-discussed paper wins")
+        self.assertNotIn("arxiv-2609.01234", [i["id"] for i in papers], "test-time compute belongs to 架构·评测")
+        tech = [i for i in day["items"] if i["category"] == "技术"]
+        self.assertIn("arxiv-2609.01234", [i["id"] for i in tech])
+        self.assertIn("arxiv-2609.03456", [i["id"] for i in tech], "MoE kernels paper is architecture")
+        for slot in ("morning", "noon", "evening"):
+            self.assertLessEqual(sum(1 for i in tech if i["slot"] == slot), 4)
 
     def test_all_sources_down(self):
         from radar.http import FakeHttp

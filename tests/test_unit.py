@@ -191,6 +191,64 @@ class SelectionTests(unittest.TestCase):
         self.assertGreaterEqual(sum(i.lang == "zh" for i in news) / len(news), .6)
 
 
+    def test_tech_column_has_its_own_quota_and_threshold(self):
+        items = [self.mk(i, "资讯", "zh", .9, f"Z{i}") for i in range(12)]
+        items += [self.mk(30 + i, "技术", "en", .32, f"T{i}") for i in range(6)]
+        picked = select(items, per_run=10, min_score=.35, max_per_source=4, zh_ratio=.7,
+                        tech_per_run=4, tech_min_score=.3)
+        self.assertEqual(sum(i.category == "技术" for i in picked), 4, "tech column filled despite lower scores")
+        self.assertEqual(sum(i.category == "资讯" for i in picked), 10, "tech doesn't eat news slots")
+
+
+class TechAndFreshnessTests(unittest.TestCase):
+    def test_is_tech(self):
+        for t in ["V-JEPA 2: world models for planning", "Scaling Test-Time Compute", "A new benchmark for agents",
+                  "Sparse Mixture-of-Experts Kernels", "线性注意力的遗忘门", "Building an agent harness"]:
+            self.assertTrue(sources.is_tech(t), t)
+        for t in ["OpenAI raises $40B", "英伟达财报超预期", "OmniAgent: A Generalist Multimodal Agent for Computer Use"]:
+            self.assertFalse(sources.is_tech(t), t)
+
+    def test_hf_tech_papers_use_lower_threshold(self):
+        its = sources.fetch_hf_daily(fake_http(), {"min_upvotes": 100, "tech_min_upvotes": 50}, NOW)
+        ids = {i.id: i.category for i in its}
+        self.assertEqual(ids.get("arxiv-2609.03456"), "技术", "MoE paper with 64 upvotes passes the tech bar")
+        self.assertEqual(ids.get("arxiv-2609.02345"), "论文")
+        self.assertNotIn("arxiv-2609.04567", ids, "non-tech paper with 35 upvotes is below the general bar")
+
+    def test_freshness_is_today_or_yesterday_beijing(self):
+        def it(pub, src="量子位"):
+            return Item("x", "article", "t", "u", published=pub, sources=[SourceHit(src, .8)])
+        self.assertTrue(sources.is_fresh(it("2026-09-22T00:30:00+08:00"), NOW))    # T-1 morning
+        self.assertFalse(sources.is_fresh(it("2026-09-21T23:30:00+08:00"), NOW))   # T-2
+        self.assertFalse(sources.is_fresh(it(""), NOW), "undated media item")
+        self.assertTrue(sources.is_fresh(it("", "Hacker News"), NOW))
+        self.assertTrue(sources.is_fresh(it("2026-09-10T00:00:00Z", "HF Daily Papers"), NOW), "featured today")
+
+    def test_rss_skips_undated_entries(self):
+        feed = ('<?xml version="1.0"?><rss><channel><item><title>AI 新闻</title><link>https://a.cn/1</link></item>'
+                '<item><title>AI 新闻 2</title><link>https://a.cn/2</link><pubDate>Wed, 23 Sep 2026 01:00:00 GMT</pubDate>'
+                '</item></channel></rss>')
+        its = sources.fetch_rss(FakeHttp({"a.cn/feed": feed}), [{"name": "A", "url": "https://a.cn/feed", "lang": "zh"}], NOW, 48)
+        self.assertEqual([i.url for i in its], ["https://a.cn/2"])
+
+    def test_arxiv_search(self):
+        xml = fx("arxiv_api.xml")
+        its = sources.fetch_arxiv_search(FakeHttp({"export.arxiv.org": xml}),
+                                         {"terms": ["JEPA", "world model"], "lookback_hours": 24 * 3650}, NOW)
+        self.assertTrue(its)
+        self.assertTrue(all(i.category == "技术" and i.kind == "paper" for i in its))
+        self.assertEqual(sources.fetch_arxiv_search(FakeHttp({}), {"terms": ["JEPA"]}, NOW), [])
+
+    def test_llm_can_move_items_into_tech(self):
+        a = Item("a", "article", "How we built our agent harness", "u", category="资讯", sources=[SourceHit("X", .8)])
+        b = Item("b", "article", "Launch day", "u", category="技术", sources=[SourceHit("HF Blog", .8)])
+        c = Item("c", "article", "Altman on AGI", "u", category="观点", sources=[SourceHit("Sam", 1)])
+        reply = json.dumps([{"id": "a", "quality": 8, "tech": True}, {"id": "b", "quality": 6, "tech": False},
+                            {"id": "c", "quality": 9, "tech": True}])
+        LLM(transport=lambda s, u: reply).judge([a, b, c])
+        self.assertEqual([a.category, b.category, c.category], ["技术", "资讯", "观点"])
+
+
 class TranslateTests(unittest.TestCase):
     def test_edge_batch_passthrough_chinese(self):
         from radar.translate import translate_many, lead

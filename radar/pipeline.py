@@ -114,8 +114,10 @@ def run(*, now: datetime | None = None, slot: str | None = None, data_dir: Path 
     # 1. collect
     items = sources.collect(http, cfg, state, now)
     by_source = Counter(s.name.split(" @")[0] for it in items for s in it.sources)
-    fresh = [it for it in items if it.id not in state["selected"]]
-    log.info("candidates: %d (new %d)", len(items), len(fresh))
+    max_age = sel.get("max_age_days", 1)
+    stale = {it.id for it in items if not sources.is_fresh(it, now, max_age)}
+    fresh = [it for it in items if it.id not in state["selected"] and it.id not in stale]
+    log.info("candidates: %d (stale dropped %d, new %d)", len(items), len(stale), len(fresh))
 
     # 2. rule score, 3. LLM judge on the top slice
     for it in fresh:
@@ -123,6 +125,8 @@ def run(*, now: datetime | None = None, slot: str | None = None, data_dir: Path 
         it.score = it.score_rule
     fresh.sort(key=lambda i: i.score_rule, reverse=True)
     top = fresh[: sel.get("llm_candidates", 40)]
+    # the 架构·评测 track has weaker popularity signals: make sure its best candidates get judged too
+    top += [i for i in fresh if i.category == "技术" and i not in top][: sel.get("tech_llm_candidates", 15)]
     judged = 0
     if llm.enabled and top:
         judged = llm.judge(top)
@@ -138,7 +142,8 @@ def run(*, now: datetime | None = None, slot: str | None = None, data_dir: Path 
     papers_today = sum(1 for i in day["items"] if i.get("category") == "论文" or i.get("kind") == "paper")
     papers_left = min(1, max(0, sel.get("papers_per_day", 2) - papers_today))
     picked = select(top, sel.get("per_run", 10), sel.get("min_score", 0.35), sel.get("max_per_source", 3),
-                    zh_ratio=sel.get("zh_ratio"), papers_left=papers_left, min_opinions=sel.get("min_opinions", 0))
+                    zh_ratio=sel.get("zh_ratio"), papers_left=papers_left, min_opinions=sel.get("min_opinions", 0),
+                    tech_per_run=sel.get("tech_per_run", 0), tech_min_score=sel.get("tech_min_score"))
     for it in picked:
         it.date, it.slot = bj_date, slot
         it.selected_at = now.isoformat(timespec="seconds")
@@ -167,8 +172,9 @@ def run(*, now: datetime | None = None, slot: str | None = None, data_dir: Path 
     cutoff = (now - timedelta(days=60)).astimezone(BJ).strftime("%Y-%m-%d")
     state["selected"] = {k: v for k, v in state["selected"].items() if v >= cutoff}
     run_info = {"at": now.isoformat(timespec="seconds"), "slot": slot, "candidates": len(items),
-                "new": len(fresh), "judged": judged, "selected": len(picked),
-                "mirrored": sum(1 for i in picked if i.mirror_pdf), "by_source": dict(by_source),
+                "new": len(fresh), "stale": len(stale), "judged": judged, "selected": len(picked),
+                "mirrored": sum(1 for i in picked if i.mirror_pdf),
+                "by_category": dict(Counter(i.category for i in picked)), "by_source": dict(by_source),
                 "llm": llm.enabled, "translated": translated}
     state["runs"] = (state.get("runs", []) + [run_info])[-60:]
     dump_json(data_dir / "state.json", state)

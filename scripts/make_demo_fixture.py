@@ -9,8 +9,9 @@ def src(name, signal="", metric=0, auth=.8):
     return {"name": name, "authority": auth, "url": "https://example.com", "signal": signal, "metric": metric}
 
 
-def item(i, cat, lang, title, summ, slot, score, at, source, title_zh="", who="", author="", mirror=True, mt=False, links=None):
-    kind = "paper" if cat == "论文" else "article"
+def item(i, cat, lang, title, summ, slot, score, at, source, title_zh="", who="", author="", mirror=True, mt=False, links=None,
+         kind=None):
+    kind = kind or ("paper" if cat == "论文" else "article")
     iid = f"arxiv-2609.2{i:04d}" if kind == "paper" else f"web-demo{i}"
     url = f"https://arxiv.org/abs/2609.2{i:04d}" if kind == "paper" else f"https://example.com/{i}"
     return {"id": iid, "kind": kind, "category": cat, "lang": lang, "who": who, "title": title, "url": url,
@@ -51,6 +52,15 @@ items = [
     item(9, "论文", "en", "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
          "这篇论文想解决的问题是：让 AI 智能体自己改进自己时，怎么避免越改越偏。作者给「自我改写」加了约束，结果在多个任务上持续变强且更稳定——说明自我进化的智能体离实用又近了一步。",
          "evening", .79, E, src("HF Daily Papers", "▲ 174", 174, .7), title_zh="RRSI：让智能体安全地「自我进化」", mt=True),
+    item(10, "技术", "en", "V-JEPA 3: Self-Supervised World Models Scale to Planning",
+         "这篇论文把「预测表征而不是像素」的 JEPA 思路扩大到视频世界模型：不生成画面，只预测下一刻的抽象状态，结果在机器人规划任务上用更少数据超过生成式模型——说明世界模型未必要走「生成视频」这条路。",
+         "evening", .72, E, src("HF Daily Papers", "▲ 96", 96, .7), title_zh="V-JEPA 3：不画像素的世界模型开始能做规划", kind="paper"),
+    item(11, "技术", "zh", "线性注意力的「遗忘门」到底在做什么",
+         "苏剑林从数学上拆解线性注意力里的遗忘门：它本质是给历史信息加上可学习的衰减，这解释了为什么新一代线性架构在长上下文上能追平标准注意力。",
+         "noon", .7, N, src("科学空间", "技术博客", 0, .85), who="RoPE 提出者，科学空间博主", author="苏剑林"),
+    item(12, "技术", "en", "Demystifying evals for AI agents",
+         "Anthropic 工程团队分享智能体评测方法：不只看最终答案，而是给整条执行轨迹打分，并用多次运行的通过率衡量稳定性。",
+         "morning", .69, M, src("Anthropic Engineering", "官方", 0, .9), title_zh="智能体评测怎么做：看轨迹，不只看答案", mt=True),
 ]
 Path(__file__).resolve().parent.parent.joinpath("tests/fixtures/demo_day.json").write_text(
     json.dumps({"date": "2026-09-23", "items": items}, ensure_ascii=False, indent=1), "utf-8")
