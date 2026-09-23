@@ -34,6 +34,13 @@ def main(out: Path) -> int:
         probe("rss:" + f["name"], lambda f=f: sources.fetch_rss(http, [f], now, 24 * 30))
     for L in cfg["html_lists"]:
         probe("list:" + L["url"], lambda L=L: sources.fetch_html_lists(http, [L], {}, now))
+    probe("arxiv_search", lambda: sources.fetch_arxiv_search(http, cfg.get("arxiv_search", {}), now))
+    cand_file = ROOT / "config/candidates.yaml"
+    cand = yaml.safe_load(cand_file.read_text("utf-8")) if cand_file.exists() else {}
+    for f in (cand or {}).get("rss", []):
+        probe("cand:" + f["name"], lambda f=f: sources.fetch_rss(http, [f], now, 24 * 60))
+    for L in (cand or {}).get("html_lists", []):
+        probe("cand-list:" + L["name"], lambda L=L: sources.fetch_html_lists(http, [L], {}, now))
     probe("arxiv_enrich", lambda: (lambda it: (sources.enrich_arxiv(http, [it]), [it] if it.abstract else [])[1])(
         (lambda i: (i.extra.__setitem__("needs_arxiv_meta", True), i)[1])(sources.paper_item("1706.03762", "x"))))
     for raw in (out / "raw").glob("*"):

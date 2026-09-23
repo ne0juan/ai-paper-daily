@@ -1,0 +1,36 @@
+# 候选数据源：只被 scripts/probe.py 探测，不参与抓取。探测通过后再移入 sources.yaml。
+rss:
+  - {name: Zvi Mowshowitz, url: "https://thezvi.substack.com/feed"}
+  - {name: Zvi (wp), url: "https://thezvi.wordpress.com/feed/"}
+  - {name: Elad Gil, url: "https://blog.eladgil.com/feed"}
+  - {name: Tomasz Tunguz, url: "https://tomtunguz.com/index.xml"}
+  - {name: Paul Graham, url: "http://www.aaronsw.com/2002/feeds/pgessays.rss"}
+  - {name: The Batch, url: "https://www.deeplearning.ai/the-batch/feed/"}
+  - {name: DeepLearning.AI, url: "https://www.deeplearning.ai/feed/"}
+  - {name: Chip Huyen, url: "https://huyenchip.com/feed.xml"}
+  - {name: Marc Andreessen, url: "https://pmarca.substack.com/feed"}
+  - {name: Arvind Narayanan, url: "https://www.normaltech.ai/feed"}
+  - {name: Helen Toner, url: "https://helentoner.substack.com/feed"}
+  - {name: Miles Brundage, url: "https://milesbrundage.substack.com/feed"}
+  - {name: Dean Ball, url: "https://www.hyperdimensional.co/feed"}
+  - {name: Azeem Azhar, url: "https://www.exponentialview.co/feed"}
+  - {name: Timothy B Lee, url: "https://www.understandingai.org/feed"}
+  - {name: Nathan Benaich, url: "https://press.airstreet.com/feed"}
+  - {name: Packy McCormick, url: "https://www.notboring.co/feed"}
+  - {name: Gary Marcus, url: "https://garymarcus.substack.com/feed"}
+  - {name: Mustafa Suleyman, url: "https://mustafa-suleyman.ai/feed"}
+  - {name: NVIDIA Blog, url: "https://blogs.nvidia.com/feed/"}
+  - {name: Microsoft Blog, url: "https://blogs.microsoft.com/feed/"}
+  - {name: Qwen, url: "https://qwenlm.github.io/index.xml"}
+  - {name: Epoch (blog), url: "https://epoch.ai/blog/rss.xml"}
+  - {name: Epoch (feed), url: "https://epoch.ai/feed.xml"}
+  - {name: Epoch (gu), url: "https://epoch.ai/gradient-updates/rss.xml"}
+  - {name: SemiAnalysis (ss), url: "https://newsletter.semianalysis.com/feed"}
+  - {name: LMSYS, url: "https://lmsys.org/rss.xml"}
+  - {name: LMArena blog, url: "https://blog.lmarena.ai/rss.xml"}
+html_lists:
+  - {name: Dario Amodei, url: "https://www.darioamodei.com", base: "https://www.darioamodei.com", pattern: '^/(essay|post)/[a-z0-9-]{4,}$'}
+  - {name: Meta AI, url: "https://ai.meta.com/blog/", base: "https://ai.meta.com", pattern: '^/blog/[a-z0-9-]{6,}/?$'}
+  - {name: Mistral, url: "https://mistral.ai/news", base: "https://mistral.ai", pattern: '^/news/[a-z0-9-]{6,}/?$'}
+  - {name: DeepSeek, url: "https://api-docs.deepseek.com/", base: "https://api-docs.deepseek.com", pattern: '^/(zh-cn/)?news/news\d+$'}
+  - {name: xAI, url: "https://x.ai/news", base: "https://x.ai", pattern: '^/news/[a-z0-9-]{4,}$'}

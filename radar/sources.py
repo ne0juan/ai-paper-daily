@@ -242,11 +242,14 @@ def fetch_html_lists(http, lists: list[dict], state: dict, now: datetime, max_ne
             pub = parse_date(meta.get("article:published_time") or meta.get("date"))
             if pub and pub < now - timedelta(days=7):
                 continue
-            hit = SourceHit(L["name"], L.get("authority", 0.8), url, "官方")
-            items.append(Item(make_id(url), "article", title.split(" \\ ")[0].strip(), url,
-                              abstract=meta.get("og:description") or meta.get("description", ""),
-                              orgs=[L["name"]], published=_iso(pub), sources=[hit],
-                              category=L.get("category", "资讯"), lang=L.get("lang", "en")))
+            hit = SourceHit(L["name"], L.get("authority", 0.8), url, "个人博客" if L.get("who") else "官方")
+            it = Item(make_id(url), "article", title.split(" \\ ")[0].strip(), url,
+                      abstract=meta.get("og:description") or meta.get("description", ""),
+                      authors=[L["who_name"]] if L.get("who_name") else [],
+                      orgs=[L["name"]], published=_iso(pub), sources=[hit],
+                      category=L.get("category", "观点" if L.get("who") else "资讯"), lang=L.get("lang", "en"))
+            it.who = L.get("who", "")
+            items.append(it)
     return items
 
 
@@ -397,7 +400,7 @@ def is_fresh(it: Item, now: datetime, max_age_days: int = 1) -> bool:
     recent (HF daily list of today/yesterday, HN front page, newly discovered links)."""
     pub = parse_date(it.published)
     if pub is None:
-        return any(s.name in ("HF Daily Papers", "Hacker News") or s.signal == "官方" for s in it.sources)
+        return any(s.name in ("HF Daily Papers", "Hacker News") or s.signal in ("官方", "个人博客") for s in it.sources)
     bj = timezone(timedelta(hours=8))
     start = (now.astimezone(bj) - timedelta(days=max_age_days)).replace(hour=0, minute=0, second=0, microsecond=0)
     if pub >= start:
