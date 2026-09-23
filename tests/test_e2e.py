@@ -119,7 +119,7 @@ class E2E(unittest.TestCase):
         self.assertIn("今天", days.first.inner_text())
         days.nth(1).click()
         page.wait_for_function("location.hash === '#/2026-09-22'")
-        self.assertIn("22日", page.locator("#issue-line").inner_text())
+        page.wait_for_function("document.querySelector('#issue-line').textContent.includes('22日')")
         page.locator("#blips .blip").first.click(force=True)
         page.wait_for_selector(".card.flash")
         page.locator(".more summary").first.click()
