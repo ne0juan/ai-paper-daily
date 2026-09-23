@@ -1,6 +1,6 @@
 test_days_radar_theme_more (tests.test_e2e.E2E.test_days_radar_theme_more) ... FAIL
 test_deep_link_to_item (tests.test_e2e.E2E.test_deep_link_to_item) ... ok
-test_empty_site (tests.test_e2e.E2E.test_empty_site) ... /opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/unittest/case.py:579: ResourceWarning: unclosed <socket.socket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 45897)>
+test_empty_site (tests.test_e2e.E2E.test_empty_site) ... /opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/unittest/case.py:579: ResourceWarning: unclosed <socket.socket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 37977)>
   if method() is not None:
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
 ok
@@ -40,10 +40,10 @@ FAIL: test_days_radar_theme_more (tests.test_e2e.E2E.test_days_radar_theme_more)
 Traceback (most recent call last):
   File "/home/runner/work/ai-paper-daily/ai-paper-daily/tests/test_e2e.py", line 122, in test_days_radar_theme_more
     self.assertIn("22日", page.locator("#issue-line").inner_text())
-AssertionError: '22日' not found in '第 1 期 · 2026年9月21日 周一 · 已出午间刊'
+AssertionError: '22日' not found in '第 2 期 · 2026年9月23日 周三 · 已出晨间刊'
 
 ----------------------------------------------------------------------
-Ran 32 tests in 7.051s
+Ran 32 tests in 5.364s
 
 FAILED (failures=1)
-sys:1: ResourceWarning: unclosed <socket.socket fd=3, family=2, type=1, proto=0, laddr=('127.0.0.1', 35069)>
+sys:1: ResourceWarning: unclosed <socket.socket fd=3, family=2, type=1, proto=0, laddr=('127.0.0.1', 36913)>
