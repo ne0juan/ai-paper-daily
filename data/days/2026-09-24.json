@@ -174,6 +174,225 @@
    "mt": false
   },
   {
+   "id": "web-0c1f08af0fbd",
+   "kind": "article",
+   "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+   "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-09-22T19:03:38Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49806430",
+     "signal": "885 pts",
+     "metric": 885
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "五角大楼承认过度依赖 AI 致伊朗学校遭误击",
+   "summary_zh": "五角大楼表示，对 AI 的过度依赖是导致对伊朗一所学校发动导弹打击的原因之一，凸显军事 AI 决策风险。",
+   "highlights_zh": [
+    "官方承认 AI 过度依赖与误击相关",
+    "涉及军事目标识别与决策链条",
+    "引发对 AI 在高风险场景可靠性的讨论"
+   ],
+   "why_zh": "AI 安全与责任在高风险场景的标志性案例",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.62,
+   "score_llm": 8.0,
+   "score": 0.728,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T23:07:13+00:00",
+   "mirror_pdf": "pdf/web-0c1f08af0fbd.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49806430"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d8f89cac2cc1",
+   "kind": "article",
+   "title": "agent-substrate/substrate",
+   "url": "https://github.com/agent-substrate/substrate",
+   "pdf_url": "",
+   "abstract": "Star agent-substrate / substrate Agent Substrate: the core system\nREADME: # Agent Substrate [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) NOTE: This is not an officially supported Google product. This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security). ## What is Agent Substrate? Agent Substrate is a secure-by-default agent execution runtime engineered to run millions of sandboxes with 10x higher density than standard container runtimes. Purpose-built for the era of autonomous agents, Substrate delivers sub-500ms resume operations at over 500 suspend/resume activations per second with native zero-trust kernel and network isolation. It supports multiple sandbox technologies including microVMs and gVisor, enabling consistent lifecycle operations for all sandbox types. At its core, Agent Substrate maps a larger set of “actors” (applications such as agents) onto a smaller set of ready “workers”, relying on the fact that agent-like applications tend to be idle most of the time to achieve heavy multiplexing. It provides functionality to manage an actor’s lifecycle (e.g. create/destroy, suspend/resume), to assign actors to workers in real time, and to route incoming traffic to them. Agent Substrate is intended to be a low-opinion system. The workloads it manages don't have to be literal AI agents, but those are the best example of the kind of applications it is designed for. It is not an SDK for",
+   "authors": [],
+   "orgs": [
+    "agent-substrate"
+   ],
+   "published": "2026-09-23T23:07:13+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/agent-substrate/substrate",
+     "signal": "★ 今日 +560 · Go",
+     "metric": 560
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Agent Substrate：面向智能体的高密度安全运行时",
+   "summary_zh": "Google 相关团队开源 Agent Substrate，用 actor-worker 多路复用让沙箱密度提升 10 倍，支持微虚拟机与 gVisor，亚 500ms 恢复、每秒 500+ 次挂起/恢复，并内置零信任内核与网络隔离。",
+   "highlights_zh": [
+    "利用智能体大部分时间空闲的特性，将大量 actor 映射到少量 worker 实现高密度复用",
+    "支持 microVM 与 gVisor 等多种沙箱技术，统一生命周期管理",
+    "亚 500ms 恢复、每秒 500+ 次挂起/恢复，默认零信任隔离"
+   ],
+   "why_zh": "大规模智能体部署的基础设施底座，关注沙箱密度与安全隔离的团队必读。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5996,
+   "score_llm": 8.0,
+   "score": 0.7198,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T23:07:13+00:00",
+   "mirror_pdf": "pdf/web-d8f89cac2cc1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/agent-substrate/substrate"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0bc84f8dffce",
+   "kind": "article",
+   "title": "The Most Important Market in AI is the Middle",
+   "url": "https://tomtunguz.com/the-most-important-market-in-ai-is-the-middle/",
+   "pdf_url": "",
+   "abstract": "AI prices are collapsing, but the competition is not at the frontier. Anthropic held the Opus line at $5 & $25 across five releases while OpenAI cut Luna 80% then 50% again, & open models now run a majority of token volume at an 86% discount to closed models. The most capable model, Fable 5.1, commanded only 3.7% of gateway spending in its first twelve days. Demand is a normal distribution with a fat middle, & as intelligence per dollar explodes the tokens may shift to commodity. Whether that happens will determine the economics of the AI market.",
+   "authors": [
+    "Tomasz Tunguz"
+   ],
+   "orgs": [
+    "Tomasz Tunguz"
+   ],
+   "published": "2026-09-23T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Tomasz Tunguz",
+     "authority": 0.75,
+     "url": "https://tomtunguz.com/the-most-important-market-in-ai-is-the-middle/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Theory Ventures 创始人，AI 投资",
+   "title_zh": "AI 最重要的市场在中间地带",
+   "summary_zh": "Tomasz Tunguz 认为 AI 竞争不在前沿而在中端：Anthropic 维持 Opus 定价，OpenAI 大幅降价，开源模型以 86% 折扣占据多数 token 量，最强模型仅占 3.7% 网关支出。",
+   "highlights_zh": [
+    "Anthropic 五次发布维持 Opus 定价不变",
+    "OpenAI 先降 80% 再降 50%",
+    "开源模型以 86% 折扣占据多数 token 量",
+    "最强模型 Fable 5.1 仅占网关支出 3.7%"
+   ],
+   "why_zh": "从定价与用量数据看 AI 市场真实需求分布。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T23:07:13+00:00",
+   "mirror_pdf": "pdf/web-0bc84f8dffce.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://tomtunguz.com/the-most-important-market-in-ai-is-the-middle/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-896c5908658e",
+   "kind": "article",
+   "title": "Claude Opus 5.5: The System Card",
+   "url": "https://thezvi.wordpress.com/2026/09/23/claude-opus-5-5-the-system-card/",
+   "pdf_url": "",
+   "abstract": "Introducing the world’s most powerful model, at least by some measures like Artificial Analysis or any standard benchmark list, which is now Claude Opus 5.5. Anthropic is claiming Opus 5.5 is outright as good or better than Fable 5.1, while … Continue reading →",
+   "authors": [
+    "TheZvi"
+   ],
+   "orgs": [
+    "Zvi Mowshowitz"
+   ],
+   "published": "2026-09-23T21:09:04+00:00",
+   "sources": [
+    {
+     "name": "Zvi Mowshowitz",
+     "authority": 0.75,
+     "url": "https://thezvi.wordpress.com/2026/09/23/claude-opus-5-5-the-system-card/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 趋势评论员，每周 AI 综述",
+   "title_zh": "Claude Opus 5.5 系统卡解读",
+   "summary_zh": "Zvi Mowshowitz 解读 Claude Opus 5.5 系统卡，Anthropic 声称该模型在多项基准上达到或超越 Fable 5.1，成为当前最强模型之一。",
+   "highlights_zh": [
+    "Anthropic 声称 Opus 5.5 全面对标 Fable 5.1",
+    "在 Artificial Analysis 等基准上表现领先",
+    "系统卡披露安全与能力评估细节"
+   ],
+   "why_zh": "深入了解头部模型能力与安全评估的第一手解读。",
+   "tags": [
+    "大模型",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T23:07:13+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://thezvi.wordpress.com/2026/09/23/claude-opus-5-5-the-system-card/"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-6e9a00bdff8c",
    "kind": "article",
    "title": "anthropics/financial-services",
@@ -275,6 +494,112 @@
     {
      "label": "原文",
      "url": "https://github.com/tamaratran/fast-jev-compaction"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7f309519de9e",
+   "kind": "article",
+   "title": "jaredpalmer/kev",
+   "url": "https://github.com/jaredpalmer/kev",
+   "pdf_url": "",
+   "abstract": "tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own\nREADME: # Kev Small Jev-like decision models you can train and run yourself. Kev is a family of small decision models built on Qwen3.5 and based on the architecture described in [Jev's Architecture Unmasked](https://archerhume.com/posts/jevs-architecture-unmasked). You can use the pretrained weights or train your own. The API matches TypeSafe's [System One](https://docs.typesafe.ai/api), so you can point their Python SDK at your local server. ## Highlights - 0.8B, 4B, and 9B models, with training code and evaluation data. - Yes/no (`noul`), multiple-choice (`choice`), and rating (`score`) questions in the same request. - Questions share the input text but can't read each other. - Runs on CUDA, ROCm, and Apple Silicon (MLX). The 4B and 9B models fit a 32 GB Mac; see [Serving Performance](#serving-performance) for what to expect. - A web playground for trying your own inputs and checking how option order affects the answers. Or try Kev-4B and Kev-0.8B in the browser at [huggingface.co/spaces/jaredpalmer/kev](https://huggingface.co/spaces/jaredpalmer/kev), no install needed. ![Kev playground](docs/playground.png) ## Quick Start You'll need Python 3.12 or 3.13 and [uv](https://docs.astral.sh/uv/). The repo's `.python-version` makes `uv sync` use 3.13; torch has no wheels for 3.14 yet. ```bash git clone https://github.com/jaredpalmer/kev.git && cd kev uv sync --extra serve uv run --extra serve python -m kev.serve --run jaredpalmer/kev-4b --port 8009 ``` This starts Kev-4B locally in bf16",
+   "authors": [],
+   "orgs": [
+    "jaredpalmer"
+   ],
+   "published": "2026-09-23T23:07:13+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/jaredpalmer/kev",
+     "signal": "★ 5,950（新项目） · Python",
+     "metric": 5950
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Kev：可自训练的轻量决策模型家族",
+   "summary_zh": "基于 Qwen3.5 的 0.8B/4B/9B 决策模型，支持是/否、多选、评分问题，可本地训练与运行，API 兼容 System One。",
+   "highlights_zh": [
+    "提供预训练权重、训练代码与评测数据",
+    "支持 CUDA、ROCm 与 Apple Silicon（MLX）",
+    "4B/9B 可在 32GB Mac 上运行，附网页 playground"
+   ],
+   "why_zh": "小模型做结构化决策的落地范例，可本地部署",
+   "tags": [
+    "大模型",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.64,
+   "score_llm": 7.0,
+   "score": 0.676,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T23:07:13+00:00",
+   "mirror_pdf": "pdf/web-7f309519de9e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/jaredpalmer/kev"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-404dff4b1cea",
+   "kind": "article",
+   "title": "dream-num/univer",
+   "url": "https://github.com/dream-num/univer",
+   "pdf_url": "",
+   "abstract": "Star dream-num / univer The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.\nREADME: **The Office Harness for AI Agents** Spreadsheets · Documents · Presentations · Bases · Boards · PDFs (coming soon) High-performance, fully customizable Office SDK Build embeddable productivity experiences with a plugin architecture, Canvas-based rendering, a formula engine, and one Facade API that works in the browser and on Node.js. English | [简体中文](./docs/readme/zh-CN.md) | [繁體中文](./docs/readme/zh-TW.md) | [日本語](./docs/readme/ja-JP.md) | [한국어](./docs/readme/ko-KR.md) | [Español](./docs/readme/es-ES.md) [🌐 Website](https://univer.ai/) | [📖 Documentation](https://docs.univer.ai) | [✨ Showcase](https://docs.univer.ai/showcase) | [📘 API Reference](https://docs.univer.ai/reference/classes/univer) | [📝 Blog](https://docs.univer.ai/blog) [![Release](https://img.shields.io/github/v/release/dream-num/univer?style=flat-square)](https://github.com/dream-num/univer/releases) [![License](https://img.shields.io/github/license/dream-num/univer?style=flat-square)](./LICENSE) [![Build](https://img.shields.io/github/actions/workflow/status/dream-num/univer/build-packages.yml?style=flat-square)](https://github.com/dream-num/univer/actions/workflows/build-packages.yml) [![CodeFactor](https://www.codefactor.io/repository/github/dream-num/univer/badge/dev?style=flat-square)](https://www.codefactor.io/repository/github/dream-num/univer/overview/dev) [![Codecov](https://img.shields.io/codecov/c/gh/dream-num/univer?token=aPfyW2pIMN&style=flat-square)](https://codecov.io/gh/dream-num/univer) [![Sta",
+   "authors": [],
+   "orgs": [
+    "dream-num"
+   ],
+   "published": "2026-09-23T23:07:13+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/dream-num/univer",
+     "signal": "★ 今日 +1,140 · TypeScript",
+     "metric": 1140
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Univer：面向 AI 智能体的 Office 运行时",
+   "summary_zh": "开源 Office SDK，将表格、文档、幻灯片、画布、关系表与 PDF 统一到一个运行时，定位为 AI 智能体的办公套件底座。",
+   "highlights_zh": [
+    "插件架构 + Canvas 渲染 + 公式引擎",
+    "同一 Facade API 支持浏览器与 Node.js",
+    "覆盖表格、文档、演示、Base、看板等多形态"
+   ],
+   "why_zh": "为智能体提供可编程办公环境的关键基础设施",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6288,
+   "score_llm": 7.0,
+   "score": 0.6715,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T23:07:13+00:00",
+   "mirror_pdf": "pdf/web-404dff4b1cea.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/dream-num/univer"
     }
    ],
    "mt": false
@@ -443,6 +768,62 @@
    "mt": false
   },
   {
+   "id": "web-c22650ec4f43",
+   "kind": "article",
+   "title": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+   "url": "https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric",
+   "pdf_url": "",
+   "abstract": "Radical Numerics is using biological chain-of-thought and multimodal perception to keep up with the bio-defense arms race, design new genomes and gain insights into biology itself.",
+   "authors": [
+    "RJ Honicky"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-09-23T13:27:18+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Radical Numerics CEO：生物安全是一场 AI 军备竞赛",
+   "summary_zh": "Eric Nguyen 认为生物安全正演变为 AI 军备竞赛，Radical Numerics 用生物链式思维与多模态感知设计新基因组并理解生物学。",
+   "highlights_zh": [
+    "生物防御与 AI 能力形成对抗性竞赛",
+    "采用生物链式思维与多模态感知",
+    "目标包括设计新基因组与生物学洞察"
+   ],
+   "why_zh": "了解 AI 在生物安全与科学发现交叉领域的前沿判断。",
+   "tags": [
+    "科学AI",
+    "多模态",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T23:07:13+00:00",
+   "mirror_pdf": "pdf/web-c22650ec4f43.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-01d4e543c941",
    "kind": "article",
    "title": "Sam Altman’s remarks at the United Nations Security Council",
@@ -544,6 +925,296 @@
     {
      "label": "原文",
      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1d5a9cc2d950",
+   "kind": "article",
+   "title": "Introducing MentalHealthBench",
+   "url": "https://openai.com/index/introducing-mentalhealthbench",
+   "pdf_url": "",
+   "abstract": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-09-23T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/introducing-mentalhealthbench",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 发布心理健康评测基准",
+   "summary_zh": "OpenAI 推出 MentalHealthBench，用专家标注的真实心理健康对话场景，评估 AI 回复是否有帮助且安全。",
+   "highlights_zh": [
+    "面向真实心理健康对话场景",
+    "由专家参与构建评测标准",
+    "同时衡量有用性与安全性"
+   ],
+   "why_zh": "心理健康是高敏感应用场景，该基准有参考价值。",
+   "tags": [
+    "对齐与安全",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 7.0,
+   "score": 0.636,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T23:07:13+00:00",
+   "mirror_pdf": "pdf/web-1d5a9cc2d950.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/introducing-mentalhealthbench"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-eb781c3c723f",
+   "kind": "article",
+   "title": "GPT-6 Sol 降价 50% 的秘密：消失的 Terra，一场模型梯队平移",
+   "url": "https://www.leiphone.com/category/yanxishe/gnzWAPK52Igo0DSk.html",
+   "pdf_url": "",
+   "abstract": "奥圣上台，梁圣危机了么？ 作者丨 高允毅 编辑丨岑 峰 OpenAI 也走性价比路线了？别被它的“偷梁换柱”给骗了。 今早，硅谷又热闹了，迎来双雄对决。Anthropic 推出 Claude Opus 5.5，OpenAI 紧接着推出 GPT-6 Sol 与 Luna。和以往模型更新不同的是，行业的讨论点聚焦到了 “大家怎么都变便宜了”。 Claude Opus 5.5 较上一代 Opus 5，成本降低 40% ，拥有 Fable 级性能。 而 GPT-6 Sol 降得更狠，性能持平 GPT-5.6 Sol，价格直接腰斩，每百万 Token，输入 2 美元，输出 10 美元，性价比看似要一步踩进 DeepSeek 的腹地。 但如果仔细对照，就会发现 OpenAI 所谓腰斩，是抹掉了一个型号 Terra。 我们都知道，OpenAI之前的模型档位是：旗舰 Sol、中端 Terra、轻量 Luna。现在变成了 Astra、Sol、 Luna。Terra 哪去了？网友戏称变成 Sol了，把整个梯队往上提了一格。 再重新对比一下 GPT-5.6 Terra，每百万 Token 输入 2 美元、输出 12 美元，和 GPT-6 Sol 对照看，几乎没什么变化。这波降价潮的真相，也就不言自明了。 01 三家账本摊开看，谁在真降价？ 当下AI赛道价格战白热化，各大厂商纷纷下调模型定价，但降价的成色、逻辑和含金量天差地别。 Anthropic 降价最有诚意，DeepSeek 仍有绝对的成本优势，但差距在缩小，OpenAI 更像是商业定价叙事为主，工程优化为辅的策略型降价。 先说 Anthropic。 Anthropic 走的是 “强模型，真降价” 。 Claude Fable 5.1 本来定位就是模型天花板，专攻高价值复杂推理场景。而 Claude Opus 5.5在大多数日常任务，性能与之相当，仅在极深度逻辑推导、超大规模代码工程等高难度场景存在差距。 相当于用 40% 价格保留 80% 核心能力。 Claude Opus 5.5真正厉害的是，它解决了长任务里最烧钱的隐形开销—— 思维链 。 在大厂的不少工作场景中，像处理长文档分析、多轮工具调用等任务，会让模型会在自我纠错和深度推导中烧掉预算。Opus 5.5 不只把基础价格降了，更将核心的‘缓存读取’费用降了 60%。 这样一来，长任务里“深度思考”的总成本少了近六成，开发者敢频繁调用高阶推理了。 而 DeepSeek 的绝对成本优势仍在。在闲时，还能减半。 如果把 DeepSeek 与 OpenAI 的中端模型进行对比的话，可以看出 OpenAI 已经在努力向DeepSeek靠拢了。 再看轻量级战场，不少人会困惑，似乎账面上看，OpenAI 好像是更便宜的那个。 单看高峰时段标价，DeepSeek-V4.1-Flash 的输入费是 GPT-6 Luna 的 1.5 到 3 倍，输出费是 1.2 到 2.4 倍。 不过这两者在性能和体量是不能放一起比较的。GPT-6 Luna 是一个真正意义上的“小模型”，体积可能只有十几 B 参数，专门用来处理极其简单的短文本过滤、分类。DeepSeek-V4.1-Flash 表面上叫 Flash，但它的底层是一个总参数高达 552B 的重型混合专家模型，它在编程、长文本推理、多步逻辑上的智商，相当于前沿的中端大模型。 在这样的智商碾压下，它只比 Luna 贵一点点，这本身就是技术上的奇迹。 DeepSeek 之所以敢把一个 552B 的模型卖到三毛钱，完全是靠它的非对称因",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-09-23T12:47:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/yanxishe/gnzWAPK52Igo0DSk.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "GPT-6 Sol 降价 50% 的真相：模型梯队平移",
+   "summary_zh": "OpenAI 将旗舰/中端/轻量三档改为 Astra/Sol/Luna，砍掉 Terra 档位，GPT-6 Sol 实为原中端 Terra 平移，价格几乎未变，属定价叙事而非真降价。",
+   "highlights_zh": [
+    "OpenAI 所谓降价 50% 实为抹掉 Terra 档位，整个梯队上移一格",
+    "Anthropic Opus 5.5 降价 40% 且缓存读取费降 60%，长任务成本大降",
+    "DeepSeek 仍保持绝对成本优势，OpenAI 中端模型在向其靠拢"
+   ],
+   "why_zh": "看清大模型价格战背后的定价策略与真实成本差异。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T23:07:13+00:00",
+   "mirror_pdf": "pdf/web-eb781c3c723f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/yanxishe/gnzWAPK52Igo0DSk.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cd8117c6d35f",
+   "kind": "article",
+   "title": "Advancing Private AI Compute with secure, server-side memory",
+   "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+   "pdf_url": "",
+   "abstract": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+   "authors": [],
+   "orgs": [
+    "Google DeepMind"
+   ],
+   "published": "2026-09-23T16:00:57+00:00",
+   "sources": [
+    {
+     "name": "Google DeepMind",
+     "authority": 0.85,
+     "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "DeepMind 为私有 AI 计算引入服务端安全内存",
+   "summary_zh": "Google DeepMind 为 Private AI Compute 引入私有服务端内存，让个人 AI 在云端处理敏感数据时保持隐私。",
+   "highlights_zh": [
+    "服务端内存对用户私有",
+    "面向个人 AI 的隐私计算",
+    "平衡云端算力与数据隐私"
+   ],
+   "why_zh": "隐私计算是个人 AI 落地的关键基础设施方向。",
+   "tags": [
+    "对齐与安全",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.52,
+   "score_llm": 7.0,
+   "score": 0.628,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T23:07:13+00:00",
+   "mirror_pdf": "pdf/web-cd8117c6d35f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a70f8ac64edf",
+   "kind": "article",
+   "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+   "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-09-23T18:41:40+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "用 NVIDIA Warp 与 MjWarp 加速机器人仿真",
+   "summary_zh": "Hugging Face 博客介绍如何用 NVIDIA Warp 和 MjWarp 加速机器人仿真与学习工作流。",
+   "highlights_zh": [
+    "Warp 提供 GPU 加速的仿真计算",
+    "MjWarp 将 MuJoCo 物理引擎移植到 Warp",
+    "适用于机器人强化学习训练流程"
+   ],
+   "why_zh": "做机器人仿真与强化学习的工程师可参考具体加速方案。",
+   "tags": [
+    "机器人",
+    "强化学习",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 7.0,
+   "score": 0.612,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T23:07:13+00:00",
+   "mirror_pdf": "pdf/web-a70f8ac64edf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.26777",
+   "kind": "paper",
+   "title": "SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving",
+   "url": "https://arxiv.org/abs/2609.26777",
+   "pdf_url": "https://arxiv.org/pdf/2609.26777",
+   "abstract": "We introduce SWE-Serve, a benchmark for evaluating agents on production inference engineering tasks. Implementing an inference feature can require coordinating multiple changes across the serving stack, including model support, runtime execution, and public APIs. Existing benchmarks provide limited coverage of production inference engineering: repository-level software engineering benchmarks do not target inference, while general terminal-agent benchmarks include only a few inference tasks. Dedicated inference benchmarks, meanwhile, focus primarily on isolated kernel generation or performance optimization rather than repository-scale production feature implementation. SWE-Serve provides 53 repository-grounded tasks derived from recent production changes to SGLang, spanning six inference engineering families. Each task executes on either CPU or a single GPU (H100) and is evaluated with hidden functional and regression tests, including, where applicable, end-to-end (E2E) serving tests and calibrated performance gates. Executable no-op and oracle controls, adversarial verifier review, and closed-book execution support task validity and evaluation integrity. Across 11 models and 31 model-effort configurations, the best-performing configuration achieves 75% mean pass@1. SWE-Serve exposes a substantial gap between completing tasks locally and achieving production correctness. On 19 tasks with end-to-end coverage, model-serving E2E tests reject roughly one-third of patches that pass every other test (45.9% under the verifier versus 69.4% with E2E tests excluded from scoring), with pass rate increasing for each model's best-performing configuration. By making the production correctness gap directly measurable, SWE-Serve enables the field to track whether future agents move beyond completing tasks locally to achieving production correctness.",
+   "authors": [
+    "Jennifer Williams",
+    "Dave Farris",
+    "Jeff Farris",
+    "Jiantao Jiao"
+   ],
+   "orgs": [],
+   "published": "2026-09-22T17:54:59Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2609.26777",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "SWE-Serve：生产级推理服务工程智能体评测基准",
+   "summary_zh": "新基准 SWE-Serve 用 53 个源自 SGLang 真实生产变更的仓库级任务，评测智能体实现推理服务特性的能力，最佳配置仅 75% pass@1，暴露本地跑通与生产正确性间的巨大差距。",
+   "highlights_zh": [
+    "53 个任务覆盖六大推理工程族，需在 CPU 或单张 H100 上通过隐藏功能与回归测试",
+    "引入 no-op/oracle 对照、对抗式验证审查与闭卷执行保证评测有效性",
+    "跨 11 个模型 31 种配置，最佳仅 75% pass@1，生产正确性仍是瓶颈"
+   ],
+   "why_zh": "做推理服务或智能体编码评测的团队，可据此定位真实工程能力的短板。",
+   "tags": [
+    "智能体",
+    "效率与系统",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T23:07:13+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.26777.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.26777"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.26777"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.26777"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.26777"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.26777"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.26777"
     }
    ],
    "mt": false
@@ -711,6 +1382,334 @@
    "mt": false
   },
   {
+   "id": "web-df1b69fb5715",
+   "kind": "article",
+   "title": "Jev 的「百亿补贴」迷局：既然「极省」为何还要狂送 1.2 亿 Token？",
+   "url": "https://www.leiphone.com/category/ai/CC2fOX5Nj0OQ06t1.html",
+   "pdf_url": "",
+   "abstract": "先压低判断成本，再用 Calibration 提升可靠性，最终借 Agent 放大调用量。 作者丨 郑佳美 编辑丨岑 峰 昨天，大家还在惊叹 Jev 的速度和低成本，今天它又做了一件更夸张的事：给申请到的用户直接发放 1.2 亿 Token 额度。 消息出来以后，大家没有先觉得赚到了，更多冒出的念头反而是： 这不对劲。 因为 Jev 本身就极其省 Token。它主要处理分类、路由、评分和概率判断，不需要像通用大模型那样生成大段内容，一条短文本输入可能只有几十个 Token。按照这种消耗方式，1.2 亿 Token 足够普通应用跑几百万次判断，在输入足够短的情况下，调用规模甚至还能继续往上走。 问题也就来了：一个已经靠低价获得大量讨论的模型，为什么还要继续往外送这么大的额度？ 答案可能藏在 Jev 想做的那门生意里。它要卖的从来都不是一段生成内容，而是一次判断，而 1.2 亿 Token 正在把这种判断推向一个过去很少出现的状态—— 便宜到开发者几乎不用考虑次数 。 01 1.2 亿 Token 到底意味着什么？ 从技术上看，这相当于给一个应用塞进了数百万次低成本决策机会。雷峰网 传统大模型通常围绕一项完整任务工作，读入上下文、完成推理、生成结果，一次调用本身就比较重。Jev 的任务颗粒度小得多，它可以只回答一个问题：这段内容属于哪一类，这几个工具该选哪一个，这个结果应该保留还是丢弃，当前任务应该继续还是结束。 这意味着 Jev 的 Token 消耗方式天然适合高频调用。一个 Agent 跑完整条任务链，可以在用户意图识别、工具选择、结果筛选、异常处理和状态检查等多个位置调用它，而每一次消耗都很小，因此 1.2 亿 Token 放到这里，代表的已经不是体验几个 Demo，而是一段很长的真实运行周期。 商业上看，这种赠送也很反常。即便 Jev 自己的单价已经非常低，大规模发放 1.2 亿 Token 依然意味着平台主动承担大量免费推理；如果按照市面上的通用小模型价格去换算，同样规模的 Token 也对应着一笔不低的使用价值。 所以这里真正值得算的不是单个用户拿到了多少美元，而是 Jev 一次性送出了多少次判断机会。一个开发者手里只有少量额度时，会优先挑关键场景测试；当额度大到短时间很难用完，测试范围会自然扩大，很多过去根本没有考虑过用模型处理的节点，也会被拿出来试一遍。 这就进入了 Jev 后面真正想做的事情。 02 为什么 Jev 要反常地烧钱？ Agent 运行过程中存在两类工作，一类需要复杂规划和长推理，另一类只是大量连续的小决策。前者适合交给能力更强的大模型，后者更像一种持续运行的快思考系统，而 Jev 押的正是这一层。 一个 Agent 接到任务以后，要不断判断下一步该做什么：该用搜索还是代码工具，返回结果是否可用，失败之后该重试还是换路径，什么时候需要升级给更强模型，什么时候任务可以结束。这些节点单独看都不复杂，却会密集地出现在执行链里。 过去，这部分工作大量依赖 if else、关键词、阈值和状态机，因为调用一次大模型处理这种小问题并不划算。Jev 把成本和延迟压下来以后，就有机会进入这些原来属于规则代码的位置。 这也是它为什么需要如此夸张的赠送额度。开发者只有经过大量真实尝试，才会慢慢确定哪些节点适合交给 Jev。一旦分类、路由、结果筛选和状态判断围绕 Jev 搭好之后，后续工作流、回退策略和阈值也会跟着围绕它建立起来。 Jev 想要的，就是这种默认位置。 未来开发者搭 Agent 时，如果遇到复杂推理想到大型模型，遇到快速判断自然想",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-09-23T04:10:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/CC2fOX5Nj0OQ06t1.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Jev 的百亿补贴迷局：为何狂送 1.2 亿 Token",
+   "summary_zh": "Jev 向申请用户发放 1.2 亿 Token，其定位是分类、路由、评分等高频小决策模型，意在让开发者把 Agent 中原本用规则代码处理的节点交给它。",
+   "highlights_zh": [
+    "Jev 单次调用 Token 消耗极小，1.2 亿额度可支撑数百万次判断",
+    "瞄准 Agent 执行链中的快思考层：意图识别、工具选择、结果筛选",
+    "通过大额赠送推动开发者扩大测试范围，抢占规则代码的位置"
+   ],
+   "why_zh": "理解小模型在 Agent 链路中替代规则代码的商业逻辑。",
+   "tags": [
+    "智能体",
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T23:07:13+00:00",
+   "mirror_pdf": "pdf/web-df1b69fb5715.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/CC2fOX5Nj0OQ06t1.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d7091dd6b728",
+   "kind": "article",
+   "title": "豆包工作功能更新，新增“目标模式”与“计划模式”",
+   "url": "https://www.leiphone.com/category/industrynews/jmNv5Ekjl1OJHgA5.html",
+   "pdf_url": "",
+   "abstract": "近期，豆包工作升级了任务模式功能，新增“目标”与“计划”两种模式，以满足用户更细分的生产力需求。 据了解，“目标模式”面向有明确验收要求的复杂任务，AI 会在交付前逐项核查，直至达到验收目标，有效避免交付不达标、执行“跑偏”等问题。“计划模式”适合长程、资源消耗大、需求模糊的任务，输入提示词后，AI 会先产出一份可审阅、可编辑的计划文档，供用户审阅修改。待用户确认计划后，AI 才开启执行操作，使执行过程更可控，计算资源消耗更合理。 除了“目标”和“计划”模式外，豆包工作还同步更新了多个功能点和交互优化，包括新增任务队列、支持Markdown文件编辑、添加深色模式等。目前，“目标”与“计划”两种任务模式及上述相关功能均已在豆包工作电脑版上线，用户可直接体验相关功能。 豆包工作是豆包面向生产力场景推出的全新 Agent产品与品牌，于8月25日正式发布。在发布后近一个月内，豆包工作密集迭代，先后更新并支持多 Agents并行、GUI操作电脑、本地 Office 文件编辑、任务执行环境自由切换等功能。近期，豆包2.1 Pro模型也完成了一次小版本升级，在多模态编程方面表现突出，Agent专业任务交付更可靠，赋予豆包工作更高的生产力场景价值。 雷峰网 雷峰网",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-09-23T03:22:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/jmNv5Ekjl1OJHgA5.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "豆包工作新增目标与计划模式",
+   "summary_zh": "字节豆包工作Agent产品上线「目标模式」与「计划模式」，前者交付前逐项核查验收，后者先生成可编辑计划再执行，并新增任务队列、Markdown编辑等。",
+   "highlights_zh": [
+    "目标模式面向有明确验收标准的复杂任务，AI交付前逐项核查",
+    "计划模式适合长程模糊任务，先出可审阅计划再执行，控制资源消耗",
+    "豆包工作近一个月密集迭代，已支持多Agent并行、GUI操作电脑等"
+   ],
+   "why_zh": "反映国内头部Agent产品在任务规划与交付可靠性上的工程思路。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T23:07:13+00:00",
+   "mirror_pdf": "pdf/web-d7091dd6b728.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/jmNv5Ekjl1OJHgA5.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cc4eeeb5b4a2",
+   "kind": "article",
+   "title": "Claude Opus 5.5 发布：一天内迁移 68 万行代码，单任务成本比 GPT-6 Astra 便宜 80%",
+   "url": "https://www.infoq.cn/article/jG9ksSRvpkfP20Qif8Ov?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "李冬梅"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-09-23T22:41:27+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/jG9ksSRvpkfP20Qif8Ov?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Claude Opus 5.5发布：一天迁移68万行代码",
+   "summary_zh": "Anthropic发布Claude Opus 5.5，宣称可在一天内迁移68万行代码，单任务成本比GPT-6 Astra便宜80%，主打大规模代码迁移与成本优势。",
+   "highlights_zh": [
+    "宣称一天内完成68万行代码迁移",
+    "单任务成本比GPT-6 Astra低80%",
+    "面向大规模代码重构与迁移场景"
+   ],
+   "why_zh": "头部模型在代码能力与成本上的正面竞争，影响开发者选型。",
+   "tags": [
+    "大模型",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T23:07:13+00:00",
+   "mirror_pdf": "pdf/web-cc4eeeb5b4a2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/jG9ksSRvpkfP20Qif8Ov?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c7ba0c67a149",
+   "kind": "article",
+   "title": "2026 年的云栖，阿里给 AI 行业递了一把新尺子",
+   "url": "https://www.infoq.cn/article/zSPQbRwmS0AGpeTAhu9r?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "王一鹏"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-09-23T19:51:33+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/zSPQbRwmS0AGpeTAhu9r?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "云栖2026：阿里为AI行业递上新标尺",
+   "summary_zh": "InfoQ 报道 2026 云栖大会，阿里发布面向 AI 行业的新标准/评测体系，试图为模型能力与落地效果提供统一衡量尺度。",
+   "highlights_zh": [
+    "阿里在云栖大会提出新的 AI 行业衡量标准",
+    "聚焦模型能力与落地效果的统一评估",
+    "对国内 AI 生态的基准话语权有影响"
+   ],
+   "why_zh": "了解阿里在 AI 标准与评测上的布局，把握行业话语权走向。",
+   "tags": [
+    "数据与评测",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T23:07:13+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/zSPQbRwmS0AGpeTAhu9r?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a8bfbbc8192c",
+   "kind": "article",
+   "title": "智谱把 ZCode 开源了，然后呢？",
+   "url": "https://www.infoq.cn/article/qEHi6k5ycwXUiasvfNKH?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "蔡芳芳"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-09-23T14:43:22+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/qEHi6k5ycwXUiasvfNKH?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "智谱开源 ZCode，然后呢？",
+   "summary_zh": "智谱将 ZCode 开源，InfoQ 分析其开源动机、生态影响及后续挑战。",
+   "highlights_zh": [
+    "智谱开源 ZCode 代码相关能力",
+    "探讨开源后的生态与商业化路径",
+    "对国内大模型开源格局有参考价值"
+   ],
+   "why_zh": "理解国产大模型厂商开源策略与生态博弈。",
+   "tags": [
+    "大模型",
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T23:07:13+00:00",
+   "mirror_pdf": "pdf/web-a8bfbbc8192c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/qEHi6k5ycwXUiasvfNKH?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-aaa65208d8cd",
+   "kind": "article",
+   "title": "Agents成新一代造王者，开发者正在快速失去技术决定权",
+   "url": "https://www.infoq.cn/article/bakwHvI7PTqZr4Mh45xi?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "Stephen O'Grady"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-09-23T12:03:21+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/bakwHvI7PTqZr4Mh45xi?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Agents 成造王者，开发者正失去决定权",
+   "summary_zh": "Stephen O'Grady 认为智能体正成为新一代「造王者」，开发者的技术决定权正被快速削弱。",
+   "highlights_zh": [
+    "智能体主导技术选型与调用路径",
+    "开发者角色从决策者转向监督者",
+    "对工程组织与技能结构有深远影响"
+   ],
+   "why_zh": "重量级分析师对智能体时代开发者角色的判断，值得关注。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T23:07:13+00:00",
+   "mirror_pdf": "pdf/web-aaa65208d8cd.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/bakwHvI7PTqZr4Mh45xi?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-a52d77b9c806",
    "kind": "article",
    "title": "Qwen一号位定了！刘大一恒接棒",
@@ -761,6 +1760,169 @@
     {
      "label": "原文",
      "url": "https://www.qbitai.com/2026/09/496384.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4dd5ba5d090e",
+   "kind": "article",
+   "title": "蚂蚁密算发布企业级可信智能云服务平台“密算一号”，启动首批定向邀测",
+   "url": "https://www.leiphone.com/category/industrynews/vcFXR69YQUTL9k43.html",
+   "pdf_url": "",
+   "abstract": "2026云栖大会在杭州召开，在蚂蚁密算与阿里云共同承办的“密算织域 融数成智”专题论坛上，蚂蚁密算发布企业级可信智能云服务平台“密算一号”，并启动首批定向邀测。 平台以密态计算为基础，同时连接云上大模型、智能体与算力，核心能力是让企业数据在“可用不可见、可控可计量”的前提下，安全地参与跨机构合作和云上AI应用。企业可通过密算一号按需申请数据、模型和计算能力，由平台完成参与方接入、权限管理、密态计算环境配置和结果交付，减少自行对接和集成的工作。 密算一号正式发布 蚂蚁密算总裁刘前伟介绍，密算一号提供三个核心能力：跨机构数据合作、云上AI安全使用，以及业务经验的持续沉淀与复用。 在跨机构数据合作方面，不同机构可按约定用途开展联合分析、联合建模与数据加工，无需向合作方交付完整原始数据。企业获得的结果可以是报告、标签、模型，也可以是供业务系统直接调用的数据服务。 在云上AI使用方面，企业可将业务数据、文档和知识库用于云上大模型和智能体服务。借助密态计算，数据在AI处理全程保持“可用不可见”，即模型能够使用数据完成推理，但云平台和模型服务商无法查看、留存或挪用原始内容，企业对数据的使用范围和流向始终可控、可审计。 在服务沉淀方面，对于需要长期开展的业务，平台将已验证的数据、规则、模型和流程沉淀为可复用服务，供后续直接申请和调用。例如一次建成的理赔核验模型，可持续服务于同类业务，减少重复实施。 这三方面服务通过治数、问数、用数三项产品能力落地，分别覆盖数据治理、自然语言查询和分析建模，并进一步支持行业应用。目前平台已连接国家数据基础设施，同时对接云上的模型、算力和智能能力。 据悉，蚂蚁密算已参与多项数据流通基础设施和行业项目建设。在基础设施层面，蚂蚁密算建成全国首个密态计算中心，并承建覆盖省、市、县三级的江西省数据汇聚流通基础设施平台。在医疗领域，密态计算技术已用于“医保+商保”清分结算中心，支持医保数据在受保护的条件下参与商保理赔核验，并为国家人工智能应用中试基地（医疗）·浙江提供数据可信流通支撑。在三农普惠金融领域，蚂蚁密算、网商银行与农业农村部大数据发展中心联合建设密态时空计算平台，将农业数据用于信贷评估。刘前伟表示，这些实践为密算一号的产品化提供了基础。 此次定向邀测主要面向有跨机构数据合作、敏感数据调用云上AI，以及数据服务持续运营需求的企业和机构。蚂蚁密算将结合业务目标、数据条件和合作方需求，推进平台接入与场景验证。 雷峰网 雷峰网",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-09-23T09:23:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/vcFXR69YQUTL9k43.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "蚂蚁密算发布企业级可信智能云平台「密算一号」",
+   "summary_zh": "蚂蚁密算在云栖大会发布「密算一号」，以密态计算连接云上大模型、智能体与算力，让企业数据在可用不可见前提下参与跨机构合作与云上 AI 应用，已启动定向邀测。",
+   "highlights_zh": [
+    "提供跨机构数据合作、云上 AI 安全使用、业务经验沉淀三项能力",
+    "数据在 AI 处理全程可用不可见，平台与模型服务商无法查看原始内容",
+    "已落地医保+商保清分、三农信贷评估等场景"
+   ],
+   "why_zh": "关注企业敏感数据接入大模型与智能体的合规路径。",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T23:07:13+00:00",
+   "mirror_pdf": "pdf/web-4dd5ba5d090e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/vcFXR69YQUTL9k43.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5feb27e59800",
+   "kind": "article",
+   "title": "企业数据太多，AI知道得太少：千问办公的上下文生意",
+   "url": "https://www.tmtpost.com/8151019.html",
+   "pdf_url": "",
+   "abstract": "一家中大型企业内部的数据规模平均约为150PB，而目前最强模型的上下文窗口多为 100 万token左右。",
+   "authors": [
+    "TechPulse"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-09-23T11:34:32+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8151019.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "企业数据太多，AI 知道得太少：千问办公的上下文生意",
+   "summary_zh": "文章指出企业内部数据规模远超模型上下文窗口，讨论千问办公如何切入企业上下文管理这一需求。",
+   "highlights_zh": [
+    "企业数据规模与模型上下文窗口的鸿沟",
+    "上下文管理成为企业 AI 落地关键",
+    "以千问办公为案例"
+   ],
+   "why_zh": "理解企业级 AI 上下文工程与落地痛点的切入点。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T23:07:13+00:00",
+   "mirror_pdf": "pdf/web-5feb27e59800.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8151019.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d88fb85d853a",
+   "kind": "article",
+   "title": "具身智能的转机和出清，哪个先来？",
+   "url": "https://www.tmtpost.com/8149233.html",
+   "pdf_url": "",
+   "abstract": "具身智能的囚徒困境。",
+   "authors": [
+    "智械岛"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-09-23T10:35:41+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8149233.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "具身智能的转机和出清，哪个先来？",
+   "summary_zh": "文章分析具身智能行业面临的囚徒困境，探讨行业转机与出清哪个会先到来。",
+   "highlights_zh": [
+    "剖析具身智能行业的囚徒困境",
+    "讨论商业化与出清节奏",
+    "偏行业趋势判断"
+   ],
+   "why_zh": "关注具身智能赛道走向者可参考其行业判断。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T23:07:13+00:00",
+   "mirror_pdf": "pdf/web-d88fb85d853a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8149233.html"
     }
    ],
    "mt": false
@@ -1008,40 +2170,46 @@
  ],
  "brief": [
   {
-   "trend": "大模型价格战进入白热化，性价比取代绝对能力成为竞争主轴",
-   "why": "Claude Opus 5.5与GPT-6同日发布，GPT-6价格腰斩，模型定价开始主导市场选择。",
+   "trend": "模型价格战实为梯队重排，中端市场才是真正战场",
+   "why": "GPT-6 Sol降价实为原中端Terra平移，最强模型仅占网关支出3.7%，开源模型以86%折扣吃下多数token。",
    "refs": [
-    "web-4a34b417a079",
-    "web-cdb477377ba3"
+    "web-eb781c3c723f",
+    "web-0bc84f8dffce",
+    "web-4a34b417a079"
    ]
   },
   {
-   "trend": "智能体竞争从能力堆叠转向脚手架工程化，递归自改进与编排运行时成新战场",
-   "why": "谷歌RRSI约束脚手架自改进、Google开源AX编排运行时，基础设施层竞争加速。",
+   "trend": "智能体运行时成新基础设施战场，沙箱密度与编排能力定胜负",
+   "why": "Google同日开源AX编排运行时与Agent Substrate高密度沙箱，密度提升10倍、亚500ms恢复，竞争从模型转向执行底座。",
    "refs": [
-    "arxiv-2609.24972",
-    "web-dd09a96a5899"
+    "web-dd09a96a5899",
+    "web-d8f89cac2cc1"
    ]
   },
   {
-   "trend": "长程任务评测暴露推理预算瓶颈，决策品味成为区分模型的新维度",
-   "why": "Taste-Bench显示最强模型仅59.7%正确率，且增加推理预算无法提升准确率。",
+   "trend": "评测基准从跑通转向生产正确性，暴露智能体真实能力差距",
+   "why": "SWE-Serve用真实生产变更评测，最佳配置仅75% pass@1；OpenAI同步推出心理健康专项基准，评测维度细分。",
    "refs": [
-    "arxiv-2609.25804"
+    "arxiv-2609.26777",
+    "web-1d5a9cc2d950"
    ]
   },
   {
-   "trend": "上下文管理从摘要压缩转向决策驱动，信息保真度成为工程焦点",
-   "why": "fast-jev-compaction用决策模型逐条打分替代摘要，避免丢失文件路径与报错等关键信息。",
+   "trend": "上下文管理从摘要压缩转向决策模型逐条筛选",
+   "why": "fast-jev-compaction用决策模型逐条打分替代摘要，Jev以1.2亿Token补贴抢占Agent中规则节点，小决策模型成新赛道。",
    "refs": [
-    "web-5d1053d9f00a"
+    "web-5d1053d9f00a",
+    "web-df1b69fb5715",
+    "web-7f309519de9e"
    ]
   },
   {
-   "trend": "AI智能体开始产出基础科学发现，从工具角色迈向科研参与者",
-   "why": "Anthropic的Claude智能体发现新型类CRISPR酶系统，标志AI在基础科学发现上的早期突破。",
+   "trend": "AI安全风险从理论走向实战事故，治理压力陡增",
+   "why": "五角大楼承认过度依赖AI致伊朗学校误击，Altman在联合国安理会呼吁全球协调治理，军事与生物安全成焦点。",
    "refs": [
-    "web-8c50fe1c6153"
+    "web-0c1f08af0fbd",
+    "web-01d4e543c941",
+    "web-c22650ec4f43"
    ]
   }
  ]
