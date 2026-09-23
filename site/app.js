@@ -30,8 +30,9 @@
   }
 
   function fmtDate(d) {
-    const dt = new Date(d + "T00:00:00+08:00");
-    return { md: `${dt.getMonth() + 1}/${dt.getDate()}`, full: `${dt.getFullYear()}年${dt.getMonth() + 1}月${dt.getDate()}日`, wk: `周${WEEK[dt.getDay()]}` };
+    const [y, m, dd] = d.split("-").map(Number);   // calendar date in Beijing; independent of viewer's timezone
+    const wd = new Date(Date.UTC(y, m - 1, dd)).getUTCDay();
+    return { md: `${m}/${dd}`, full: `${y}年${m}月${dd}日`, wk: `周${WEEK[wd]}` };
   }
   function ago(iso) {
     if (!iso) return "—";
