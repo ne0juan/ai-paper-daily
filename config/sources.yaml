@@ -1,0 +1,60 @@
+# 数据源配置。authority: 0~1，来源权威度（参与规则打分）。
+# 新增 RSS 源只需在 rss 列表里加一行。
+selection:
+  per_run: 10            # 每个时段最多精选多少篇
+  min_score: 0.35        # 最终得分阈值（0~1）
+  max_per_source: 6      # 单一来源在一次精选中的上限，保证多样性
+  llm_candidates: 40     # 每次送给大模型评估的候选上限（控制成本）
+  retain_pdf_days: 21    # 本站镜像 PDF 保留天数
+
+hf_daily:
+  enabled: true
+  authority: 0.8
+  min_upvotes: 3
+
+hackernews:
+  enabled: true
+  authority: 0.55
+  min_points: 60
+  lookback_hours: 36
+  # 标题或链接命中其一才算 AI 相关（之后还会经大模型复核）
+  keywords: [" ai ", "a.i.", "llm", "gpt", "claude", "gemini", "llama", "qwen", "deepseek", "mistral",
+             "transformer", "neural", "diffusion", "machine learning", "deep learning", "reinforcement",
+             "agent", "language model", "openai", "anthropic", "deepmind", "inference", "fine-tun",
+             "rlhf", "embedding", "multimodal", "reasoning", "benchmark", "arxiv"]
+  domains: ["arxiv.org", "openai.com", "anthropic.com", "deepmind.google", "research.google", "ai.meta.com",
+            "huggingface.co", "lilianweng.github.io", "bair.berkeley.edu", "microsoft.com/en-us/research",
+            "machinelearning.apple.com", "qwenlm.github.io", "transformer-circuits.pub", "distill.pub"]
+
+rss:
+  - {name: OpenAI, url: "https://openai.com/news/rss.xml", authority: 0.95}
+  - {name: Google DeepMind, url: "https://deepmind.google/blog/rss.xml", authority: 0.95}
+  - {name: Google Research, url: "https://research.google/blog/rss/", authority: 0.85}
+  - {name: Microsoft Research, url: "https://www.microsoft.com/en-us/research/feed/", authority: 0.75}
+  - {name: Apple ML Research, url: "https://machinelearning.apple.com/rss.xml", authority: 0.8}
+  - {name: Hugging Face Blog, url: "https://huggingface.co/blog/feed.xml", authority: 0.7}
+  - {name: BAIR, url: "https://bair.berkeley.edu/blog/feed.xml", authority: 0.8}
+  - {name: Lil'Log, url: "https://lilianweng.github.io/index.xml", authority: 0.9}
+  - {name: Qwen, url: "https://qwenlm.github.io/blog/index.xml", authority: 0.8}
+  - {name: Interconnects, url: "https://www.interconnects.ai/feed", authority: 0.7}
+  - {name: Sebastian Raschka, url: "https://magazine.sebastianraschka.com/feed", authority: 0.7}
+  - {name: Simon Willison, url: "https://simonwillison.net/atom/entries/", authority: 0.6}
+  - {name: Chip Huyen, url: "https://huyenchip.com/feed.xml", authority: 0.7}
+
+# 没有 RSS 的重要站点：从列表页抓取链接（正则匹配文章路径）
+html_lists:
+  - {name: Anthropic, url: "https://www.anthropic.com/research", base: "https://www.anthropic.com",
+     pattern: '^/(research|news)/[a-z0-9-]{6,}$', authority: 0.95}
+  - {name: Anthropic, url: "https://www.anthropic.com/news", base: "https://www.anthropic.com",
+     pattern: '^/(research|news)/[a-z0-9-]{6,}$', authority: 0.95}
+  - {name: Meta AI, url: "https://ai.meta.com/blog/", base: "https://ai.meta.com",
+     pattern: '^/blog/[a-z0-9-]{6,}/?$', authority: 0.9}
+
+rss_lookback_hours: 72
+
+# X（Twitter）：配置 X_BEARER_TOKEN 后自动启用，抓取以下账号推文中的论文/文章链接
+x:
+  authority: 0.75
+  min_likes: 200
+  accounts: [karpathy, OpenAI, AnthropicAI, GoogleDeepMind, AIatMeta, _akhaliq, arankomatsuzaki,
+             ylecun, drjimfan, sama, jeffdean, hardmaru, rasbt, Alibaba_Qwen, deepseek_ai]

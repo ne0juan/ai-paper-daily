@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Paper Radar · AI 论文雷达</title>
+<meta name="description" content="每天 10 分钟，只读最值得读的 AI 论文与文章。">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="Paper Radar" href="feed.xml">
+<link rel="stylesheet" href="style.css">
+<script>try{var t=localStorage.getItem('pr-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body>
+<header class="masthead">
+  <div class="mast-left">
+    <div class="kicker"><span class="dot"></span><span id="issue-line">正在调频…</span></div>
+    <h1 class="wordmark"><span class="wm-en">Paper Radar</span><span class="wm-zh">AI 论文雷达</span></h1>
+    <p class="dek">每天 10 分钟，只读最值得读的 AI 论文与文章。</p>
+    <p class="since" id="since"></p>
+  </div>
+  <figure class="radar-wrap" aria-label="今日雷达：越靠近圆心得分越高，点击光点跳到对应文章">
+    <svg id="radar" viewBox="-160 -160 320 320" role="img">
+      <defs>
+        <radialGradient id="sweep-g" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="150">
+          <stop offset="0" stop-color="var(--accent)" stop-opacity="0"/>
+          <stop offset="1" stop-color="var(--accent)" stop-opacity=".28"/>
+        </radialGradient>
+      </defs>
+      <g class="rings">
+        <circle r="150"/><circle r="112"/><circle r="75"/><circle r="38"/>
+        <line x1="-150" y1="0" x2="150" y2="0"/><line x1="0" y1="-150" x2="0" y2="150"/>
+      </g>
+      <g class="sweep"><path d="M0 0 L150 0 A150 150 0 0 1 106 106 Z" fill="url(#sweep-g)"/><line x1="0" y1="0" x2="150" y2="0"/></g>
+      <g id="blips"></g>
+      <circle r="3" class="core"/>
+    </svg>
+    <figcaption>越靠近圆心 · 越值得读</figcaption>
+    <div class="radar-tip" id="radar-tip" hidden></div>
+  </figure>
+</header>
+
+<nav class="toolbar" aria-label="日期">
+  <div class="days" id="days" role="tablist"></div>
+  <button class="btn icon" id="theme" title="切换明暗" aria-label="切换明暗">◐</button>
+</nav>
+
+<main id="feed" tabindex="-1" aria-live="polite"></main>
+
+<footer class="colophon" id="colophon"></footer>
+<script src="app.js" defer></script>
+</body>
+</html>

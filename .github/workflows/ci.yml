@@ -1,0 +1,29 @@
+name: CI
+on:
+  push:
+    branches: [main]
+    paths-ignore: ["data/**"]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11", cache: pip}
+      - run: pip install -r requirements.txt
+      - run: python -m playwright install --with-deps chromium
+      - name: Unit + integration + browser E2E
+        run: |
+          set -o pipefail
+          mkdir -p ci-report
+          E2E_SHOTS=ci-report python -m unittest discover -s tests -t . -v 2>&1 | tee ci-report/tests.log
+      - name: Publish report (logs + screenshots) to `reports` branch
+        if: always() && github.event_name != 'pull_request'
+        run: |
+          echo "${{ job.status }} ${{ github.sha }}" > ci-report/status.txt
+          scripts/push_report.sh ci-report ci

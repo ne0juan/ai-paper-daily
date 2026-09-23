@@ -1,0 +1,85 @@
+name: Radar scan & deploy
+on:
+  schedule:
+    - cron: "0 0 * * *"    # 08:00 Beijing
+    - cron: "0 5 * * *"    # 13:00 Beijing
+    - cron: "0 11 * * *"   # 19:00 Beijing
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: "force slot (morning/noon/evening), empty = by clock"
+        required: false
+        default: ""
+      deploy_only:
+        description: "skip scanning, just rebuild + deploy"
+        type: boolean
+        default: false
+concurrency:
+  group: radar
+  cancel-in-progress: false
+permissions:
+  contents: write
+env:
+  PAGES_PROJECT: ${{ vars.PAGES_PROJECT || 'ai-paper-radar' }}
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11", cache: pip}
+      - run: pip install -r requirements.txt
+      - run: python -m playwright install --with-deps chromium
+      - name: Restore mirrored PDFs
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache/pdf
+          key: pdf-${{ github.run_id }}
+          restore-keys: pdf-
+      - name: Scan sources, score, mirror
+        if: ${{ !inputs.deploy_only }}
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+        run: |
+          set -o pipefail
+          mkdir -p run-report
+          python -m radar.pipeline ${{ inputs.slot && format('--slot {0}', inputs.slot) || '' }} 2>&1 | tee run-report/scan.log
+      - name: Re-mirror PDFs lost from cache
+        run: python scripts/remirror.py
+      - name: Build + verify site
+        run: |
+          python scripts/build_site.py | tee -a run-report/build.json
+          python scripts/verify_dist.py dist
+      - name: Commit data
+        run: |
+          git config user.name "paper-radar-bot"; git config user.email "paper-radar-bot@users.noreply.github.com"
+          git add data
+          git commit -qm "data: scan $(date -u +%FT%H:%MZ) [skip ci]" || echo "nothing new"
+          for i in 1 2 3; do git push -q && break; sleep 5; git pull -q --rebase; done
+      - name: Save mirrored PDFs
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .cache/pdf
+          key: pdf-${{ github.run_id }}
+      - name: Deploy to Cloudflare Pages
+        id: deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: scripts/deploy_pages.sh 2>&1 | tee run-report/deploy.log; test ${PIPESTATUS[0]} -eq 0
+      - name: Smoke test live site
+        run: |
+          echo "${{ steps.deploy.outputs.site }}" > run-report/site.txt
+          python scripts/smoke.py "${{ steps.deploy.outputs.site }}" dist | tee run-report/smoke.json
+      - name: Publish run report
+        if: always()
+        run: |
+          echo "${{ job.status }}" > run-report/status.txt
+          cp data/index.json run-report/ 2>/dev/null || true
+          scripts/push_report.sh run-report radar
