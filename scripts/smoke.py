@@ -24,7 +24,7 @@ def main(base: str, dist: Path) -> int:
         return 1
     ok["index"] = True
     html = requests.get(base + "/", timeout=20).text
-    ok["shell"] = "Paper Radar" in html and "app.js" in html
+    ok["shell"] = "AI 风向" in html and "app.js" in html
     js = requests.get(base + "/app.js", timeout=20)
     ok["appjs"] = js.status_code == 200 and "boot" in js.text
     pdf_path = None

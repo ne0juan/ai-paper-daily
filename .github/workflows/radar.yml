@@ -77,6 +77,7 @@ jobs:
         run: scripts/deploy_pages.sh 2>&1 | tee run-report/deploy.log; test ${PIPESTATUS[0]} -eq 0
       - name: Smoke test live site
         run: |
+          set -o pipefail
           echo "${{ steps.deploy.outputs.site }}" > run-report/site.txt
           python scripts/smoke.py "${{ steps.deploy.outputs.site }}" dist | tee run-report/smoke.json
       - name: Design QA on the live site (report only)
