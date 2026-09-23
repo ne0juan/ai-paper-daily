@@ -58,7 +58,7 @@ MEASURE_JS = r"""
     const words = parts.join(" ").split(/[\s｜·]+/).filter((w) => w.length > 2);
     if (new Set(words).size < words.length) dupMeta++; }
   const minTarget = targets.length ? Math.min(...targets.map((e) => e.getBoundingClientRect().height)) : 0;
-  const firstH = q(".card h3")[0];
+  const firstH = q(".brief h2, .card h3")[0];   // the top story: trend brief or first headline
   return {
     body_font_px: fs, body_line_height: +lh.toFixed(2), chars_per_line: Math.round(cpl),
     italic_cjk_elements: italicCJK, pangu_violations: pangu, pangu_samples: samples,

@@ -6,7 +6,8 @@ selection:
   zh_ratio: 0.7          # 目标中文占比
   papers_per_day: 2      # 每天论文上限（取热度最高的）
   min_score: 0.35
-  max_per_source: 3      # 单一来源每期上限，保证多样性
+  max_per_source: 4      # 单一来源每期上限，保证多样性
+  min_opinions: 2        # 每期至少保留几条「人物观点」（有合格候选时）
   llm_candidates: 50
   retain_pdf_days: 21
 

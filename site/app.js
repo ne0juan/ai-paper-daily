@@ -130,7 +130,7 @@
       <h3><a href="${esc(safeUrl(read.url))}" target="_blank" rel="noopener">${t(title)}</a></h3>
       ${showOrig ? `<p class="orig" lang="en">${esc(it.title)}</p>` : ""}
       ${it.summary_zh ? `<p class="${isPaper(it) ? "summary explain" : "summary"}">${t(it.summary_zh)}${it.mt ? `<span class="mt" title="暂由机器翻译">机翻</span>` : ""}</p>` : ""}
-      ${it.why_zh ? `<p class="why"><b>为什么重要</b>${t(it.why_zh)}</p>` : ""}
+      ${it.why_zh ? `<p class="why"><b>为什么重要</b> ${t(it.why_zh)}</p>` : ""}
       <div class="actions">
         <a class="primary" href="${esc(safeUrl(read.url))}" target="_blank" rel="noopener">${read.label} ↗</a>
         ${zhFull ? `<a class="secondary" href="${esc(safeUrl(zhFull.url))}" target="_blank" rel="noopener">中文全文 ↗</a>` : ""}

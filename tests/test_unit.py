@@ -159,6 +159,29 @@ class ScoringTests(unittest.TestCase):
         self.assertEqual([i.id for i in picked], ["a"])
 
 
+class SelectionTests(unittest.TestCase):
+    def mk(self, i, cat, lang, score, src):
+        it = Item(f"i{i}", "article", f"t{i}", "u", sources=[SourceHit(src, .8)], category=cat, lang=lang, score_rule=score)
+        it.score = final_score(it)
+        return it
+
+    def test_quotas(self):
+        items = [self.mk(i, "资讯", "en", .9, f"E{i}") for i in range(6)]
+        items += [self.mk(10 + i, "资讯", "zh", .6, f"Z{i}") for i in range(8)]
+        items += [self.mk(20, "观点", "en", .4, "Altman"), self.mk(21, "观点", "zh", .4, "宝玉")]
+        items += [Item("p1", "paper", "p", "u", sources=[SourceHit("HF", .7, metric=50)], category="论文", score_rule=.9),
+                  Item("p2", "paper", "p", "u", sources=[SourceHit("HF2", .7, metric=300)], category="论文", score_rule=.5)]
+        for p in items[-2:]:
+            p.score = final_score(p)
+        picked = select(items, per_run=10, min_score=.35, max_per_source=4, zh_ratio=.7, papers_left=1, min_opinions=2)
+        cats = [i.category for i in picked]
+        self.assertEqual(cats.count("观点"), 2, "opinions are guaranteed")
+        self.assertEqual([i.id for i in picked if i.category == "论文"], ["p2"], "hottest paper, one per issue")
+        news = [i for i in picked if i.category != "论文"]
+        self.assertEqual(len(news), 10)
+        self.assertGreaterEqual(sum(i.lang == "zh" for i in news) / len(news), .6)
+
+
 class TranslateTests(unittest.TestCase):
     def test_edge_batch_passthrough_chinese(self):
         from radar.translate import translate_many, lead

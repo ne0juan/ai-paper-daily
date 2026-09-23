@@ -36,14 +36,18 @@ def rule_score(it: Item, now: datetime) -> float:
     return round(min(1.0, s), 4)
 
 
+OPINION_BONUS = 0.06   # readers come for what leading people think
+
+
 def final_score(it: Item) -> float:
-    if it.score_llm is None:
-        return it.score_rule
-    return round(0.4 * it.score_rule + 0.6 * (it.score_llm / 10), 4)
+    base = it.score_rule if it.score_llm is None else 0.4 * it.score_rule + 0.6 * (it.score_llm / 10)
+    if it.category == "观点":
+        base += OPINION_BONUS
+    return round(min(1.0, base), 4)
 
 
 def select(items: list[Item], per_run: int, min_score: float, max_per_source: int,
-           zh_ratio: float | None = None, papers_left: int = 0) -> list[Item]:
+           zh_ratio: float | None = None, papers_left: int = 0, min_opinions: int = 0) -> list[Item]:
     """Pick the issue: best non-paper items with a Chinese quota, plus at most
     ``papers_left`` papers (the hottest), with a per-source cap for diversity."""
     ranked = sorted((i for i in items if i.relevant and i.score >= min_score),
@@ -64,10 +68,11 @@ def select(items: list[Item], per_run: int, min_score: float, max_per_source: in
     papers = [i for i in ranked if i.category == "论文"]
     rest = [i for i in ranked if i.category != "论文"]
     picked: list[Item] = []
+    take([i for i in rest if i.category == "观点"], min_opinions, picked)   # guaranteed voices
     if zh_ratio is None:
         take(rest, per_run, picked)
     else:
-        zh_quota = round(per_run * zh_ratio)
+        zh_quota = round(per_run * zh_ratio) + sum(1 for i in picked if i.lang != "zh")
         take([i for i in rest if i.lang == "zh"], zh_quota, picked)
         take([i for i in rest if i.lang != "zh"], per_run, picked)
         take(rest, per_run, picked)          # top up if one language is short

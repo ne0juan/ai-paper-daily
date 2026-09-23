@@ -138,7 +138,7 @@ def run(*, now: datetime | None = None, slot: str | None = None, data_dir: Path 
     papers_today = sum(1 for i in day["items"] if i.get("category") == "论文" or i.get("kind") == "paper")
     papers_left = min(1, max(0, sel.get("papers_per_day", 2) - papers_today))
     picked = select(top, sel.get("per_run", 10), sel.get("min_score", 0.35), sel.get("max_per_source", 3),
-                    zh_ratio=sel.get("zh_ratio"), papers_left=papers_left)
+                    zh_ratio=sel.get("zh_ratio"), papers_left=papers_left, min_opinions=sel.get("min_opinions", 0))
     for it in picked:
         it.date, it.slot = bj_date, slot
         it.selected_at = now.isoformat(timespec="seconds")
