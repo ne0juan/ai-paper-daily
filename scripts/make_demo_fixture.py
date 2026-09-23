@@ -10,14 +10,14 @@ def src(name, signal="", metric=0, auth=.8):
 
 
 def item(i, cat, lang, title, summ, slot, score, at, source, title_zh="", who="", author="", mirror=True, mt=False, links=None,
-         kind=None):
+         kind=None, why=""):
     kind = kind or ("paper" if cat == "论文" else "article")
     iid = f"arxiv-2609.2{i:04d}" if kind == "paper" else f"web-demo{i}"
     url = f"https://arxiv.org/abs/2609.2{i:04d}" if kind == "paper" else f"https://example.com/{i}"
     return {"id": iid, "kind": kind, "category": cat, "lang": lang, "who": who, "title": title, "url": url,
             "pdf_url": url.replace("abs", "pdf") if kind == "paper" else "", "abstract": "",
             "authors": [author] if author else [], "orgs": [], "published": at, "sources": [source],
-            "title_zh": title_zh, "summary_zh": summ, "highlights_zh": [], "why_zh": "", "tags": [],
+            "title_zh": title_zh, "summary_zh": summ, "highlights_zh": [], "why_zh": why, "tags": [],
             "relevant": True, "score_rule": score, "score_llm": None, "score": score, "date": "2026-09-23",
             "slot": slot, "selected_at": at, "mirror_pdf": f"pdf/{iid}.pdf" if mirror else "",
             "mirror_kind": ("pdf" if kind == "paper" else "snapshot") if mirror else "",
@@ -61,6 +61,14 @@ items = [
     item(12, "技术", "en", "Demystifying evals for AI agents",
          "Anthropic 工程团队分享智能体评测方法：不只看最终答案，而是给整条执行轨迹打分，并用多次运行的通过率衡量稳定性。",
          "morning", .69, M, src("Anthropic Engineering", "官方", 0, .9), title_zh="智能体评测怎么做：看轨迹，不只看答案", mt=True),
+    item(13, "项目", "en", "anthropics/skills",
+         "Anthropic 官方的 Agent Skills 合集：把做 PPT、处理表格、写前端等能力打包成 Claude 可按需加载的技能包。",
+         "evening", .74, E, src("GitHub Trending", "★ 今日 +2,114 · Python", 2114, .6),
+         why="把团队常用流程写成一个 SKILL.md，Claude 就能按你的规范干活。"),
+    item(14, "项目", "en", "acme/mcp-browser",
+         "让 AI 智能体通过 MCP 协议操控真实浏览器，适合做网页自动化、表单填写和数据抓取。",
+         "noon", .66, N, src("GitHub 新项目", "★ 3,400（新项目）· TypeScript", 3400, .6),
+         why="接入 Claude Desktop 或 Cursor 后，一句话让 AI 帮你完成网页上的重复操作。"),
 ]
 Path(__file__).resolve().parent.parent.joinpath("tests/fixtures/demo_day.json").write_text(
     json.dumps({"date": "2026-09-23", "items": items}, ensure_ascii=False, indent=1), "utf-8")

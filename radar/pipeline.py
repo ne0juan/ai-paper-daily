@@ -79,7 +79,7 @@ def build_links(it: Item) -> list[dict]:
         links.append({"label": "原文", "url": it.url})
         if it.pdf_url and it.pdf_url != it.url:
             links.append({"label": "原站 PDF", "url": it.pdf_url})
-    if it.extra.get("github"):
+    if it.extra.get("github") and it.extra["github"] != it.url:
         links.append({"label": "GitHub", "url": it.extra["github"]})
     for s in it.sources:
         if s.name == "Hacker News" or s.name.startswith("X @"):
@@ -127,6 +127,7 @@ def run(*, now: datetime | None = None, slot: str | None = None, data_dir: Path 
     top = fresh[: sel.get("llm_candidates", 40)]
     # the 架构·评测 track has weaker popularity signals: make sure its best candidates get judged too
     top += [i for i in fresh if i.category == "技术" and i not in top][: sel.get("tech_llm_candidates", 15)]
+    top += [i for i in fresh if i.category == "项目" and i not in top][:12]
     judged = 0
     if llm.enabled and top:
         judged = llm.judge(top)
@@ -143,7 +144,8 @@ def run(*, now: datetime | None = None, slot: str | None = None, data_dir: Path 
     papers_left = min(1, max(0, sel.get("papers_per_day", 2) - papers_today))
     picked = select(top, sel.get("per_run", 10), sel.get("min_score", 0.35), sel.get("max_per_source", 3),
                     zh_ratio=sel.get("zh_ratio"), papers_left=papers_left, min_opinions=sel.get("min_opinions", 0),
-                    tech_per_run=sel.get("tech_per_run", 0), tech_min_score=sel.get("tech_min_score"))
+                    tech_per_run=sel.get("tech_per_run", 0), tech_min_score=sel.get("tech_min_score"),
+                    projects_per_run=sel.get("projects_per_run", 0))
     for it in picked:
         it.date, it.slot = bj_date, slot
         it.selected_at = now.isoformat(timespec="seconds")

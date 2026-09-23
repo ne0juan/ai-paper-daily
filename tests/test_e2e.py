@@ -86,6 +86,10 @@ class E2E(unittest.TestCase):
         self.assertEqual(page.locator(".tech .card .explain").count(), 1, "tech papers get the plain-language box")
         self.assertIn("苏剑林", page.locator(".tech .byline").first.inner_text())
         self.assertEqual(page.locator("#blips .blip.tech").count(), 3)
+        self.assertEqual(heads[-3], "热门项目", "hot projects column before 架构·评测")
+        self.assertEqual(page.locator(".projects .card").count(), 2)
+        self.assertIn("上手提示", page.locator(".projects .why").first.inner_text())
+        self.assertIn("今日 +2,114", page.locator(".projects .meta").first.inner_text())
         slots = [h for h in heads if h.endswith("刊")]
         self.assertEqual(slots, [h for h in ["晚间刊", "午间刊", "晨间刊"] if h in slots], "newest issue first")
         ids = page.eval_on_selector_all(".card", "els => els.map(e => e.dataset.id)")

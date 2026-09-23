@@ -22,6 +22,7 @@ def _write_test_config() -> None:
     c["html_lists"] = [{"name": "Anthropic", "url": "https://www.anthropic.com/research", "base": "https://www.anthropic.com",
                         "pattern": "^/(research|news)/[a-z0-9-]{6,}$", "authority": .9}]
     c["rss_lookback_hours"] = 72
+    c["github"]["trending_paths"] = [""]
     TEST_CONFIG.write_text(yaml.safe_dump(c, allow_unicode=True, sort_keys=False), "utf-8")
 
 
@@ -46,6 +47,8 @@ def fake_http(**overrides) -> FakeHttp:
             "Tracing the thoughts of a model", "Constitutional Classifiers v2"),
         "www.anthropic.com/research": fx("anthropic_list.html"),
         "arxiv.org/pdf/": fx("tiny.pdf", "rb"),
+        "github.com/trending": fx("gh_trending.html"),
+        "api.github.com/search": fx("gh_search.json"),
         "edge.microsoft.com/translate/auth": "fake-jwt",
         "api-edge.cognitivetranslator.com": lambda body: [{"translations": [{"text": "机器译文", "to": "zh-Hans"}]} for _ in body],
     }

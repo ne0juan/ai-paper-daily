@@ -67,6 +67,7 @@ a { color: inherit; }
 .blip.opinion circle.b { fill: var(--accent); }
 .blip.paper circle.b { fill: none; stroke: var(--ink); stroke-width: 2.5; }
 .blip.tech circle.b { fill: var(--surface); stroke: var(--accent); stroke-width: 2.5; }
+.blip.project circle.b { fill: var(--muted); }
 .blip circle.halo { fill: var(--accent); opacity: 0; }
 .blip.lit circle.halo { animation: halo 1.2s ease-out; }
 .blip:hover circle.b, .blip.active circle.b { fill: var(--accent); stroke: var(--accent); }
@@ -121,6 +122,7 @@ a { color: inherit; }
 .cat.op { color: var(--accent); }
 .cat.tech { color: var(--ink-2); letter-spacing: .02em; }
 .tech .sec-head h2::before { content: "⌬ "; color: var(--accent); font-weight: 400; }
+.projects .sec-head h2::before { content: "★ "; color: var(--accent); font-weight: 400; }
 .new { font: 700 var(--f-xs)/1.6 var(--sans); padding: 0 6px; border-radius: 3px; background: var(--accent); color: var(--accent-ink); }
 .byline { display: block; margin: 8px 0 2px; font-size: var(--f-m); color: var(--ink-2); }
 .byline b { color: var(--accent); }

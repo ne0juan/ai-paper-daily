@@ -1,6 +1,6 @@
 /* AI 风向 — front-end. Vanilla JS, no dependencies, same-origin requests only.
    Reading logic: 今日风向 (LLM trend brief, when available) → 今日必读 (top 3 non-paper of the day)
-   → newest issue first (晚间 → 午间 → 晨间) → 架构·评测 (architecture / harness / evaluation column)
+   → newest issue first (晚间 → 午间 → 晨间) → 热门项目 (hot AI repos on GitHub, with usage tips) → 架构·评测 (architecture / harness / evaluation column)
    → 论文 (only the 1–2 hottest, explained).
    Items added since your last visit are marked 新. */
 (() => {
@@ -54,7 +54,8 @@
   const cat = (it) => it.category || (it.kind === "paper" ? "论文" : "资讯");
   const isPaper = (it) => cat(it) === "论文";
   const isTech = (it) => cat(it) === "技术";
-  const CAT_LABEL = { 技术: "架构·评测" };
+  const isProject = (it) => cat(it) === "项目";
+  const CAT_LABEL = { 技术: "架构·评测", 项目: "开源项目" };
 
   function readLink(it) {
     if (it.mirror_pdf) return { url: it.mirror_pdf, label: isPaper(it) ? "读 PDF" : "读原文" };
@@ -90,7 +91,7 @@
   function renderRadar(items) {
     $("#blips").innerHTML = items.map((it) => {
       const a = hash(it.id) * 2 * Math.PI, r = 18 + (1 - Math.min(1, it.score || 0)) * 122;
-      const cls = isPaper(it) ? "paper" : isTech(it) ? "tech" : cat(it) === "观点" ? "opinion" : "";
+      const cls = isPaper(it) ? "paper" : isTech(it) ? "tech" : isProject(it) ? "project" : cat(it) === "观点" ? "opinion" : "";
       return `<g class="blip ${cls}" data-id="${esc(it.id)}" transform="translate(${(r * Math.cos(a)).toFixed(1)} ${(r * Math.sin(a)).toFixed(1)})"><circle class="halo" r="4"/><circle class="b" r="${(5 + (it.score || 0) * 4).toFixed(1)}"/></g>`;
     }).join("");
     clearInterval(renderRadar.timer);
@@ -124,7 +125,7 @@
     return `<article class="card" id="c-${esc(it.id)}" data-id="${esc(it.id)}" style="--i:${i}">
       <div class="meta">
         ${isNew(it) ? `<span class="new">新</span>` : ""}
-        <span class="cat ${c === "观点" ? "op" : c === "技术" ? "tech" : ""}">${CAT_LABEL[c] || c}</span>
+        <span class="cat ${c === "观点" ? "op" : c === "技术" || c === "项目" ? "tech" : ""}">${CAT_LABEL[c] || c}</span>
         ${person ? "" : `<span>${t(src.name)}</span>`}
         ${heat ? `<span>${t(heat)}</span>` : ""}
         ${it.published ? `<span>${ago(it.published)}</span>` : ""}
@@ -133,7 +134,7 @@
       <h3><a href="${esc(safeUrl(read.url))}" target="_blank" rel="noopener">${t(title)}</a></h3>
       ${showOrig ? `<p class="orig" lang="en">${esc(it.title)}</p>` : ""}
       ${it.summary_zh ? `<p class="${isPaper(it) || (isTech(it) && it.kind === "paper") ? "summary explain" : "summary"}">${t(it.summary_zh)}${it.mt ? `<span class="mt" title="暂由机器翻译">机翻</span>` : ""}</p>` : ""}
-      ${it.why_zh ? `<p class="why"><b>为什么重要</b> ${t(it.why_zh)}</p>` : ""}
+      ${it.why_zh ? `<p class="why"><b>${isProject(it) ? "上手提示" : "为什么重要"}</b> ${t(it.why_zh)}</p>` : ""}
       <div class="actions">
         <a class="primary" href="${esc(safeUrl(read.url))}" target="_blank" rel="noopener">${read.label} ↗</a>
         ${zhFull ? `<a class="secondary" href="${esc(safeUrl(zhFull.url))}" target="_blank" rel="noopener">中文全文 ↗</a>` : ""}
@@ -160,7 +161,8 @@
       return;
     }
     const byScore = [...items].sort((a, b) => b.score - a.score);
-    const news = byScore.filter((i) => !isPaper(i) && !isTech(i));
+    const news = byScore.filter((i) => !isPaper(i) && !isTech(i) && !isProject(i));
+    const projects = byScore.filter(isProject);
     const papers = byScore.filter(isPaper);
     const tech = byScore.filter(isTech);
     const must = news.slice(0, news.length >= 6 ? 3 : 1);
@@ -173,6 +175,9 @@
       if (!group.length) continue;
       const at = new Date(group[0].selected_at).toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit", timeZone: "Asia/Shanghai" });
       html += `<section class="section" data-slot="${s}"><div class="sec-head"><h2>${SLOT_ZH[s]}</h2><span>${group.length} 条 · ${at} 更新</span></div>${group.map((it) => card(it, i++)).join("")}</section>`;
+    }
+    if (projects.length) {
+      html += `<section class="section projects"><div class="sec-head"><h2>热门项目</h2><span>GitHub 上正在走红的 AI 开源项目，附上手提示 · ${projects.length} 个</span></div>${projects.map((it) => card(it, i++)).join("")}</section>`;
     }
     if (tech.length) {
       html += `<section class="section tech"><div class="sec-head"><h2>架构 · 评测</h2><span>模型架构、智能体 harness、评测方法的新进展 · ${tech.length} 条</span></div>${tech.map((it) => card(it, i++)).join("")}</section>`;
@@ -249,7 +254,7 @@
   function renderColophon() {
     const r = S.index.last_run || {};
     $("#colophon").innerHTML = `
-      <p>每天北京时间 08:00 / 13:00 / 19:00 自动更新。只收今天和昨天发布的内容。来源：量子位、极客公园、IT 之家等中文媒体，Sam Altman、Karpathy、宝玉等人的博客，OpenAI、Anthropic、Google DeepMind 官方发布；「架构 · 评测」来自科学空间、Lilian Weng、Sebastian Raschka、Epoch AI、METR、Anthropic Engineering 与 arXiv。</p>
+      <p>每天北京时间 08:00 / 13:00 / 19:00 自动更新。只收今天和昨天发布的内容。来源：量子位、极客公园、IT 之家等中文媒体，Sam Altman、Dario Amodei、Karpathy、Paul Graham、宝玉等 30 余位业内人物的博客，OpenAI、Anthropic、Google DeepMind、DeepSeek、xAI 等官方发布；「热门项目」来自 GitHub Trending；「架构 · 评测」来自科学空间、Lilian Weng、Sebastian Raschka、METR、Anthropic Engineering 与 arXiv。</p>
       <p>「读原文」默认打开本站存档的 PDF，国内网络也能访问（保留约 3 周，版权归原作者，仅供学习交流）。 · <a href="feed.xml">RSS 订阅</a></p>
       <p>上次扫描 ${esc(ago(r.at) || "—")} · 候选 ${r.candidates ?? "—"} 条 · 入选 ${r.selected ?? "—"} 条</p>`;
   }

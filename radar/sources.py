@@ -242,6 +242,8 @@ def fetch_html_lists(http, lists: list[dict], state: dict, now: datetime, max_ne
             pub = parse_date(meta.get("article:published_time") or meta.get("date"))
             if pub and pub < now - timedelta(days=7):
                 continue
+            if first_time and not pub:   # bootstrap: an undated old post must not pass as news
+                continue
             hit = SourceHit(L["name"], L.get("authority", 0.8), url, "个人博客" if L.get("who") else "官方")
             it = Item(make_id(url), "article", title.split(" \\ ")[0].strip(), url,
                       abstract=meta.get("og:description") or meta.get("description", ""),
@@ -368,6 +370,88 @@ def fetch_arxiv_search(http, cfg: dict, now: datetime) -> list[Item]:
     return items
 
 
+# --------------------------------------------------------------- GitHub: hot AI projects (应用侧)
+GH_AI_RE = re.compile(
+    r"\bAI\b|LLM|GPT|Claude|Gemini|Llama|Qwen|DeepSeek|agent|MCP|\bskills?\b|prompt|RAG\b|embedding|"
+    r"chatbot|copilot|cursor|codex|openai|anthropic|ollama|vllm|diffusion|comfyui|stable diffusion|"
+    r"transformer|inference|fine-?tun|LoRA|machine learning|deep learning|neural|speech|TTS|ASR|"
+    r"multimodal|vision-language|text-to|智能体|大模型|人工智能", re.I)
+TRENDING_ROW = re.compile(r'<article class="Box-row">(.*?)</article>', re.S)
+
+
+def _gh_item(repo: str, desc: str, lang: str, stars: int, signal: str, metric: int, source: str,
+             authority: float, now: datetime) -> Item:
+    url = f"https://github.com/{repo}"
+    hit = SourceHit(source, authority, url, f"{signal} · {lang}" if lang else signal, metric)
+    it = Item(make_id(url), "article", repo, url, abstract=desc, orgs=[repo.split("/")[0]],
+              published=_iso(now), sources=[hit], category="项目", lang="en")
+    it.extra.update({"repo": repo, "stars": stars, "language": lang})
+    return it
+
+
+@_safe("github")
+def fetch_github(http, cfg: dict, now: datetime) -> list[Item]:
+    """Two signals: (1) GitHub Trending (stars gained today) for AI-related repos,
+    (2) brand-new repos (created in the last few days) that are already taking off.
+    Top candidates get a README excerpt so the LLM can write practical usage tips."""
+    items: dict[str, Item] = {}
+    for path in cfg.get("trending_paths", ["", "python", "typescript"]):
+        try:
+            page = http.text(f"https://github.com/trending/{path}".rstrip("/"), params={"since": "daily"})
+        except Exception as e:  # noqa: BLE001
+            log.info("trending %s: %s", path, e)
+            continue
+        for row in TRENDING_ROW.findall(page):
+            m = re.search(r'<h2[^>]*>\s*<a[^>]*href="/([^"/]+/[^"/]+)"', row)
+            if not m:
+                continue
+            repo = m.group(1)
+            desc = strip_html((re.search(r"<p[^>]*>(.*?)</p>", row, re.S) or [None, ""])[1])
+            lang = strip_html((re.search(r'itemprop="programmingLanguage">(.*?)<', row) or [None, ""])[1])
+            total = re.search(r'href="/[^"]+/stargazers"[^>]*>(.*?)</a>', row, re.S)
+            today = re.search(r"([\d,]+)\s+stars (today|this week)", row)
+            if not today or not GH_AI_RE.search(f"{repo} {desc}"):
+                continue
+            n_today = int(today.group(1).replace(",", ""))
+            if n_today < cfg.get("min_stars_today", 100):
+                continue
+            n_total = int(re.sub(r"\D", "", strip_html(total.group(1))) or 0) if total else 0
+            it = _gh_item(repo, desc, lang, n_total, f"★ 今日 +{n_today:,}", n_today, "GitHub Trending",
+                          cfg.get("authority", 0.6), now)
+            if it.id not in items:
+                items[it.id] = it
+    # brand-new repos gaining traction fast (search API; GITHUB_TOKEN raises the rate limit when present)
+    since = (now - timedelta(days=cfg.get("new_repo_days", 7))).strftime("%Y-%m-%d")
+    headers = {"Accept": "application/vnd.github+json"}
+    if os.environ.get("GITHUB_TOKEN"):
+        headers["Authorization"] = f"Bearer {os.environ['GITHUB_TOKEN']}"
+    try:
+        data = http.json("https://api.github.com/search/repositories", headers=headers, params={
+            "q": f"created:>{since} stars:>={cfg.get('new_repo_min_stars', 300)}", "sort": "stars", "per_page": 50})
+        for r in data.get("items", []):
+            text = f"{r.get('full_name', '')} {r.get('description') or ''} {' '.join(r.get('topics') or [])}"
+            if not GH_AI_RE.search(text):
+                continue
+            it = _gh_item(r["full_name"], r.get("description") or "", r.get("language") or "",
+                          r.get("stargazers_count", 0), f"★ {r.get('stargazers_count', 0):,}（新项目）",
+                          r.get("stargazers_count", 0), "GitHub 新项目", cfg.get("authority", 0.6), now)
+            it.extra["topics"] = (r.get("topics") or [])[:8]
+            if it.id not in items:
+                items[it.id] = it
+    except Exception as e:  # noqa: BLE001
+        log.info("github search: %s", e)
+    scale = {"GitHub Trending": 1500, "GitHub 新项目": 5000}   # same scales as scoring.POP_SCALE
+    ranked = sorted(items.values(), key=lambda i: popularity(i.sources[0].metric, scale[i.sources[0].name]),
+                    reverse=True)[: cfg.get("max_items", 20)]
+    for it in ranked[: cfg.get("readme_for_top", 12)]:
+        try:
+            readme = http.text(f"https://raw.githubusercontent.com/{it.extra['repo']}/HEAD/README.md")
+            it.abstract = (it.abstract + "\nREADME: " + strip_html(readme)[:1500]).strip()
+        except Exception:  # noqa: BLE001
+            pass
+    return ranked
+
+
 def collect(http, cfg: dict, state: dict, now: datetime) -> list[Item]:
     """Run all sources and merge duplicates (same arXiv id / canonical URL)."""
     raw: list[Item] = []
@@ -380,6 +464,8 @@ def collect(http, cfg: dict, state: dict, now: datetime) -> list[Item]:
     raw += fetch_x(http, cfg.get("x", {}), now)
     if cfg.get("arxiv_search", {}).get("enabled", False):
         raw += fetch_arxiv_search(http, cfg["arxiv_search"], now)
+    if cfg.get("github", {}).get("enabled", False):
+        raw += fetch_github(http, cfg["github"], now)
     merged: dict[str, Item] = {}
     for it in raw:
         if it.id in merged:

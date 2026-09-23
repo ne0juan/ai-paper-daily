@@ -90,6 +90,9 @@ class PipelineTests(unittest.TestCase):
         self.assertIn("arxiv-2609.03456", [i["id"] for i in tech], "MoE kernels paper is architecture")
         for slot in ("morning", "noon", "evening"):
             self.assertLessEqual(sum(1 for i in tech if i["slot"] == slot), 4)
+        projects = [i["id"] for i in day["items"] if i["category"] == "项目"]
+        self.assertEqual(len(projects), len(set(projects)), "a trending repo is shown once, not every issue")
+        self.assertTrue(projects, "hot GitHub AI projects make it in")
 
     def test_all_sources_down(self):
         from radar.http import FakeHttp

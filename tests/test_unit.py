@@ -239,6 +239,26 @@ class TechAndFreshnessTests(unittest.TestCase):
         self.assertTrue(all(i.category == "技术" and i.kind == "paper" for i in its))
         self.assertEqual(sources.fetch_arxiv_search(FakeHttp({}), {"terms": ["JEPA"]}, NOW), [])
 
+    def test_github_hot_ai_projects(self):
+        http = FakeHttp({"github.com/trending": fx("gh_trending.html"), "api.github.com/search": fx("gh_search.json"),
+                         "raw.githubusercontent.com/anthropics/skills": "# Skills\nInstall with `/plugin install`"})
+        its = sources.fetch_github(http, {"trending_paths": [""], "min_stars_today": 100}, NOW)
+        repos = [i.extra["repo"] for i in its]
+        self.assertEqual(repos, ["anthropics/skills", "acme/mcp-browser"], "AI only, ranked by momentum")
+        top = its[0]
+        self.assertEqual((top.category, top.url, top.sources[0].metric), ("项目", "https://github.com/anthropics/skills", 2114))
+        self.assertIn("今日 +2,114", top.sources[0].signal)
+        self.assertIn("/plugin install", top.abstract, "README excerpt feeds the usage tips")
+        self.assertTrue(sources.is_fresh(top, NOW))
+
+    def test_projects_column_quota(self):
+        mk = SelectionTests.mk
+        items = [mk(self, i, "资讯", "zh", .9, f"Z{i}") for i in range(12)]
+        items += [mk(self, 40 + i, "项目", "en", .33, f"G{i}") for i in range(5)]
+        picked = select(items, per_run=10, min_score=.35, max_per_source=4, zh_ratio=.7,
+                        tech_min_score=.3, projects_per_run=3)
+        self.assertEqual(sum(i.category == "项目" for i in picked), 3)
+
     def test_llm_can_move_items_into_tech(self):
         a = Item("a", "article", "How we built our agent harness", "u", category="资讯", sources=[SourceHit("X", .8)])
         b = Item("b", "article", "Launch day", "u", category="技术", sources=[SourceHit("HF Blog", .8)])

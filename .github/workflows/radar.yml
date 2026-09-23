@@ -46,6 +46,7 @@ jobs:
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL || 'https://api.deepseek.com/v1' }}
           LLM_MODEL: ${{ vars.LLM_MODEL || 'deepseek-chat' }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           set -o pipefail
           python -m radar.pipeline ${{ inputs.slot && format('--slot {0}', inputs.slot) || '' }} 2>&1 | tee run-report/scan.log

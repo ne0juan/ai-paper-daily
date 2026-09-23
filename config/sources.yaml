@@ -1,4 +1,4 @@
-# 数据源配置 —— 定位：前沿人物说了什么 + 中文 AI 资讯 + 「架构·评测」技术专栏，论文每天只留最热 1–2 篇。
+# 数据源配置 —— 定位：前沿人物说了什么 + 中文 AI 资讯 + 「热门项目」「架构·评测」两个专栏，论文每天只留最热 1–2 篇。
 # 时效：只收北京时间今天或昨天（T / T-1）发布的内容；没有发布时间的条目不收。
 # authority: 0~1 来源权威度；lang: zh/en；kind: opinion(个人观点) / news(媒体) / official(官方发布)
 # filter: ai → 综合科技媒体只保留 AI 相关内容；who: 人物身份（卡片上展示）
@@ -7,6 +7,7 @@ selection:
   tech_per_run: 4        # 每个时段「架构·评测」专栏条数（模型架构、harness、评测方法、新基准）
   tech_min_score: 0.3
   tech_llm_candidates: 20
+  projects_per_run: 3    # 每个时段「热门项目」条数（GitHub 上最火的 AI 开源项目，附上手提示）
   max_age_days: 1        # 1 = 只要今天和昨天（T-1）的内容
   zh_ratio: 0.7          # 目标中文占比
   papers_per_day: 2      # 每天论文上限（取热度最高的）
@@ -56,28 +57,43 @@ rss:
   - {name: Jack Clark, url: "https://jack-clark.net/feed/", lang: en, kind: opinion, authority: 0.85, who: "Anthropic 联合创始人", who_name: Jack Clark}
   - {name: Benedict Evans, url: "https://www.ben-evans.com/benedictevans?format=rss", lang: en, kind: opinion, authority: 0.8, who: "科技行业分析师", who_name: Benedict Evans}
   - {name: Stratechery, url: "https://stratechery.com/feed/", lang: en, kind: opinion, authority: 0.8, filter: ai, who: "Ben Thompson，科技战略分析", who_name: Ben Thompson}
-  - {name: SemiAnalysis, url: "https://semianalysis.com/feed/", lang: en, kind: opinion, authority: 0.8, who: "半导体与算力分析", who_name: Dylan Patel}
+  - {name: SemiAnalysis, url: "https://newsletter.semianalysis.com/feed", lang: en, kind: opinion, authority: 0.8, who: "半导体与算力分析", who_name: Dylan Patel}
+  - {name: Paul Graham, url: "http://www.aaronsw.com/2002/feeds/pgessays.rss", lang: en, kind: opinion, authority: 0.9, filter: ai, who: "Y Combinator 联合创始人", who_name: Paul Graham}
+  - {name: Arvind Narayanan, url: "https://www.normaltech.ai/feed", lang: en, kind: opinion, authority: 0.85, who: "普林斯顿教授，《AI 万金油》作者", who_name: Arvind Narayanan}
+  - {name: Azeem Azhar, url: "https://www.exponentialview.co/feed", lang: en, kind: opinion, authority: 0.8, filter: ai, who: "Exponential View 创始人", who_name: Azeem Azhar}
+  - {name: Nathan Benaich, url: "https://press.airstreet.com/feed", lang: en, kind: opinion, authority: 0.8, who: "Air Street Capital，《State of AI》报告作者", who_name: Nathan Benaich}
+  - {name: Tomasz Tunguz, url: "https://tomtunguz.com/index.xml", lang: en, kind: opinion, authority: 0.75, filter: ai, who: "Theory Ventures 创始人，AI 投资", who_name: Tomasz Tunguz}
+  - {name: Zvi Mowshowitz, url: "https://thezvi.wordpress.com/feed/", lang: en, kind: opinion, authority: 0.75, who: "AI 趋势评论员，每周 AI 综述", who_name: Zvi Mowshowitz}
+  - {name: Timothy B. Lee, url: "https://www.understandingai.org/feed", lang: en, kind: opinion, authority: 0.75, who: "科技记者，《Understanding AI》作者", who_name: Timothy B. Lee}
+  - {name: Dean Ball, url: "https://www.hyperdimensional.co/feed", lang: en, kind: opinion, authority: 0.75, who: "AI 政策研究者", who_name: Dean Ball}
+  - {name: Packy McCormick, url: "https://www.notboring.co/feed", lang: en, kind: opinion, authority: 0.7, filter: ai, who: "Not Boring 作者，投资人", who_name: Packy McCormick}
   # ---- 架构 · 评测（技术专栏）
   - {name: 科学空间, url: "https://kexue.fm/feed", lang: zh, kind: tech, authority: 0.85, who: "RoPE 提出者，科学空间博主", who_name: 苏剑林}
   - {name: Lilian Weng, url: "https://lilianweng.github.io/index.xml", lang: en, kind: tech, authority: 0.9, who: "Thinking Machines 联合创始人，前 OpenAI", who_name: Lilian Weng}
   - {name: Sebastian Raschka, url: "https://magazine.sebastianraschka.com/feed", lang: en, kind: tech, authority: 0.85, who: "LLM 研究者，架构解读", who_name: Sebastian Raschka}
   - {name: Hugging Face Blog, url: "https://huggingface.co/blog/feed.xml", lang: en, kind: tech, authority: 0.75}
   - {name: Google Research, url: "https://research.google/blog/rss/", lang: en, kind: tech, authority: 0.8}
-  - {name: Epoch AI, url: "https://epochai.substack.com/feed", lang: en, kind: tech, authority: 0.85, who: "AI 算力与评测研究机构", who_name: Epoch AI}
   - {name: METR, url: "https://metr.org/feed.xml", lang: en, kind: tech, authority: 0.85, who: "前沿模型能力评测机构", who_name: METR}
-  - {name: LMArena, url: "https://news.lmarena.ai/rss/", lang: en, kind: tech, authority: 0.75}
+  - {name: Chip Huyen, url: "https://huyenchip.com/feed.xml", lang: en, kind: tech, authority: 0.8, who: "《AI Engineering》作者", who_name: Chip Huyen}
   - {name: Hamel Husain, url: "https://hamel.dev/index.xml", lang: en, kind: tech, authority: 0.75, who: "LLM 评测实践者", who_name: Hamel Husain}
   - {name: Eugene Yan, url: "https://eugeneyan.com/rss/", lang: en, kind: tech, authority: 0.75, who: "应用 ML 工程师，LLM 评测实践", who_name: Eugene Yan}
-  - {name: LangChain, url: "https://blog.langchain.com/rss/", lang: en, kind: tech, authority: 0.65, filter: ai}
   # ---- 官方发布
   - {name: OpenAI, url: "https://openai.com/news/rss.xml", lang: en, kind: official, authority: 0.9}
   - {name: Google DeepMind, url: "https://deepmind.google/blog/rss.xml", lang: en, kind: official, authority: 0.85}
+  - {name: NVIDIA, url: "https://blogs.nvidia.com/feed/", lang: en, kind: official, authority: 0.75, filter: ai}
+  - {name: Microsoft, url: "https://blogs.microsoft.com/feed/", lang: en, kind: official, authority: 0.75, filter: ai}
 
 html_lists:
   - {name: Anthropic, url: "https://www.anthropic.com/news", base: "https://www.anthropic.com",
      pattern: '^/(research|news)/[a-z0-9-]{6,}$', authority: 0.9}
   - {name: Anthropic Engineering, url: "https://www.anthropic.com/engineering", base: "https://www.anthropic.com",
      pattern: '^/engineering/[a-z0-9-]{6,}$', authority: 0.9, category: 技术}
+  - {name: Dario Amodei, url: "https://www.darioamodei.com", base: "https://www.darioamodei.com",
+     pattern: '^/(essay|post)/[a-z0-9-]{4,}$', authority: 1.0, who: "Anthropic CEO", who_name: Dario Amodei}
+  - {name: DeepSeek, url: "https://api-docs.deepseek.com/", base: "https://api-docs.deepseek.com",
+     pattern: '^/(zh-cn/)?news/news\d+$', authority: 0.9}
+  - {name: Mistral, url: "https://mistral.ai/news", base: "https://mistral.ai", pattern: '^/news/[a-z0-9-]{6,}/?$', authority: 0.8}
+  - {name: xAI, url: "https://x.ai/news", base: "https://x.ai", pattern: '^/news/[a-z0-9-]{4,}$', authority: 0.85}
 
 # arXiv 新论文检索（架构 · 评测主题；无热度信号，由 LLM 判断质量）
 arxiv_search:
@@ -90,10 +106,23 @@ arxiv_search:
           "diffusion language model", "test-time", "scaling law", benchmark, evaluation, harness, scaffold,
           "agent framework", "context engineering", "latent reasoning", tokenizer, "long context"]
 
+# GitHub 热门 AI 项目（应用侧）：Trending 今日新增星标 + 近 7 天新建且快速走红的仓库
+github:
+  enabled: true
+  authority: 0.6
+  trending_paths: ["", python, typescript, jupyter-notebook]
+  min_stars_today: 100
+  new_repo_days: 7
+  new_repo_min_stars: 300
+  max_items: 20
+  readme_for_top: 12
+
 rss_lookback_hours: 48
 
 # X（Twitter）：暂未启用。配置 X_BEARER_TOKEN 后自动启用
 x:
   authority: 0.9
   min_likes: 300
-  accounts: [sama, elonmusk, karpathy, AndrewYNg, ylecun, DrJimFan, gdb, emollick, dotey, op7418, vista8]
+  accounts: [sama, elonmusk, karpathy, AndrewYNg, ylecun, DrJimFan, gdb, emollick, dotey, op7418, vista8,
+             DarioAmodei, demishassabis, sundarpichai, satyanadella, JeffDean, fchollet, drfeifei, polynoamial,
+             _jasonwei, mustafasuleyman, jeremyphoward, rasbt, swyx, simonw, lilianweng, ilyasut, npew, OriolVinyalsML]
