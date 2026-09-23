@@ -1,0 +1,1403 @@
+{
+ "date": "2026-09-24",
+ "items": [
+  {
+   "id": "web-8c50fe1c6153",
+   "kind": "article",
+   "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+   "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+   "pdf_url": "",
+   "abstract": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
+   "authors": [],
+   "orgs": [
+    "Anthropic"
+   ],
+   "published": "2026-09-23T18:06:47Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49820134",
+     "signal": "385 pts",
+     "metric": 385
+    },
+    {
+     "name": "Anthropic",
+     "authority": 0.9,
+     "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+     "signal": "官方",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Claude智能体发现新型类CRISPR酶系统",
+   "summary_zh": "Anthropic生命科学实验室的Claude智能体发现了一种功能未知的酶系统，其基因结构类似CRISPR重复序列，这是AI智能体在基础科学发现上的早期成果。",
+   "highlights_zh": [
+    "Anthropic新成立的生命科学实验室首批成果",
+    "Claude智能体自主发现未知功能的酶系统",
+    "该酶系统具有类似CRISPR的重复序列结构"
+   ],
+   "why_zh": "AI智能体首次在生命科学领域做出原创性发现，标志AI从工具向科研参与者转变。",
+   "tags": [
+    "智能体",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.8792,
+   "score_llm": 9.0,
+   "score": 0.8917,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T22:49:03+00:00",
+   "mirror_pdf": "pdf/web-8c50fe1c6153.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49820134"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.25804",
+   "kind": "paper",
+   "title": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
+   "url": "https://arxiv.org/abs/2609.25804",
+   "pdf_url": "https://arxiv.org/pdf/2609.25804",
+   "abstract": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run. Making these decisions well is becoming a key capability for both engineering and research agents. We refer to the ability to make good long-horizon decisions as the taste of an agent. While existing benchmarks measure the end-to-end success of agents on long-horizon tasks, none of them measures the taste of an agent. To address this problem, we build Taste-Bench, a benchmark of taste questions constructed automatically from trajectories that agents produced in engineering and research tasks. Each question presents a decision fork, a point in a trajectory where multiple directions are available and one of them leads to a better outcome, and the evaluated model chooses among these directions without seeing what happens after the fork. We mine these forks automatically from parallel attempts at the same task and from detours inside a single trajectory, without needing human annotation. We evaluate frontier models on Taste-Bench and find that the best model answers only 59.7% of the questions correctly. We further find that forks whose deciding evidence appears later in the trajectory are much harder for every model, and that a larger reasoning budget does not improve the accuracy. Finally, we show that taste can be trained. We distill the judgment of a teacher that has seen the outcome into a student model, and the student makes better decisions on unseen tasks and improves end-to-end success on held-out SWE-bench Pro tasks.",
+   "authors": [
+    "Wenbo Pan",
+    "Zhichao Liu",
+    "Shujie Liu",
+    "Jingying Zeng",
+    "Chin-Yew Lin",
+    "Xianfeng Tang",
+    "Yan Lu",
+    "Qi He",
+    "Xiaohua Jia"
+   ],
+   "orgs": [
+    "Microsoft"
+   ],
+   "published": "2026-09-22T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2609.25804",
+     "signal": "▲ 111",
+     "metric": 111
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "品味智能体：长程任务中决策品味的度量与提升",
+   "summary_zh": "微软提出Taste-Bench基准，从智能体轨迹中自动挖掘决策分叉点，评估模型在长程任务中的决策品味。最强模型仅答对59.7%，且推理预算增加无法提升准确率。",
+   "highlights_zh": [
+    "首次定义并量化智能体的'品味'——长程决策能力",
+    "从并行尝试和轨迹绕路中自动挖掘决策分叉点，无需人工标注",
+    "前沿模型在Taste-Bench上最高仅59.7%准确率，证据出现越晚越难"
+   ],
+   "why_zh": "揭示当前智能体在长程决策上的根本短板，为智能体能力评估提供新维度。",
+   "tags": [
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.7421,
+   "score_llm": 8.0,
+   "score": 0.7768,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T22:49:03+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.25804.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.25804"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.25804"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.25804"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.25804"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.25804"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.25804"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/wbopan/tastebench"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.24972",
+   "kind": "paper",
+   "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+   "url": "https://arxiv.org/abs/2609.24972",
+   "pdf_url": "https://arxiv.org/pdf/2609.24972",
+   "abstract": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level. However, such recursive evolution may overfit by memorizing the training tasks, showing large in-distribution gains that shrink or even vanish on out-of-distribution benchmarks. We introduce Regularized Recursive Self-Improvement of Agent Harnesses (RRSI), which incorporates the principles of regularizations into harness self-improvement by constraining the evolution candidate proposal and selection. The proposer operates with a temporally annealed budget, limiting how many edits a candidate can bundle, and it encourages unexplored trajectories based on evolution history. The selector is equipped with a critic and a pruner: the critic screens benchmark-specific proposals, while the pruner, removes changes that are too small, too expensive, or no longer useful. Together these constraints favor reusable agent mechanisms over benchmark-specific ones or even noises. Across eight benchmarks spanning coding, agentic workspace and engineering design tasks, RRSI gains up to 14.1 points on the split it evolves against and up to 4.7 points on the five out-of-distribution benchmarks, while producing a harness that runs on 30% fewer policy tokens than the unregularized evolution. Code is available at https://github.com/google-research/rrsi and project page is https://regularized-rsi.com/.",
+   "authors": [
+    "Peng Xia",
+    "Rujun Han",
+    "Zifeng Wang",
+    "Yanfei Chen",
+    "Yufan Zhang",
+    "Yoonho Lee",
+    "Chengsong Huang",
+    "Han Yu",
+    "Zhongying CuiZhu",
+    "Yifei Ming",
+    "Huaxiu Yao",
+    "Burak Gokturk",
+    "Tomas Pfister",
+    "Chen-Yu Lee"
+   ],
+   "orgs": [
+    "Google"
+   ],
+   "published": "2026-09-21T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2609.24972",
+     "signal": "▲ 176",
+     "metric": 176
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "RRSI：智能体脚手架的正则化递归自改进",
+   "summary_zh": "谷歌提出RRSI方法，通过时间退火预算、批评器和剪枝器约束智能体脚手架的递归自改进，防止过拟合训练任务。在八个基准上最高提升14.1分。",
+   "highlights_zh": [
+    "针对智能体脚手架递归自改进中的过拟合问题",
+    "引入时间退火预算限制候选编辑数量，鼓励探索未走过的路径",
+    "批评器过滤基准特定提案，剪枝器移除过小、过贵或无效改动"
+   ],
+   "why_zh": "解决智能体系统级递归自改进的泛化瓶颈，推动自动化脚手架设计走向实用。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.741,
+   "score_llm": 8.0,
+   "score": 0.7764,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T22:49:03+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.24972.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.24972"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.24972"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.24972"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.24972"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.24972"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.24972"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/google-research/rrsi"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.24984",
+   "kind": "paper",
+   "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
+   "url": "https://arxiv.org/abs/2609.24984",
+   "pdf_url": "https://arxiv.org/pdf/2609.24984",
+   "abstract": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to let the requested viewpoint shape how multi-view evidence is compressed into the video generator's limited token budget. Trained jointly with the video generator, a memory encoder and pose-conditioned readout module integrate historical observations into a fixed set of target view-specific tokens before denoising, without explicit depth-based correspondences. By combining this memory with recent temporal context and few-step distillation, WorldCrafter enables streaming scene exploration from a single input image or text prompt. Experiments across static and dynamic scenes show substantial gains in long-horizon consistency and camera-control accuracy while preserving visual quality during minute-scale exploration.",
+   "authors": [
+    "Wangbo Yu",
+    "Kunhao Liu",
+    "Wenbo Hu",
+    "Shenghai Yuan",
+    "Chaoran Feng",
+    "Haiyang Zhou",
+    "Yukun Huang",
+    "Yiran Wang",
+    "Wang Zhao",
+    "Yingmin Luo",
+    "Ying Shan"
+   ],
+   "orgs": [
+    "ARC Lab, Tencent"
+   ],
+   "published": "2026-09-21T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2609.24984",
+     "signal": "▲ 125",
+     "metric": 125
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "WorldCrafter：隐式3D感知记忆的一致视频世界模型",
+   "summary_zh": "腾讯ARC Lab提出WorldCrafter，学习可相机查询的隐式3D感知记忆，让请求视角决定多视角证据如何压缩进视频生成器的token预算，实现分钟级一致场景探索。",
+   "highlights_zh": [
+    "隐式3D感知记忆编码器与姿态条件读出模块，无需显式深度对应",
+    "记忆与近期时序上下文结合，支持流式场景探索",
+    "在长程一致性和相机控制精度上显著提升，保持视觉质量"
+   ],
+   "why_zh": "视频世界模型在长程一致性和视角控制上的关键突破，推动交互式环境模拟。",
+   "tags": [
+    "多模态",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.7302,
+   "score_llm": 8.0,
+   "score": 0.7721,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T22:49:03+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.24984.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.24984"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.24984"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.24984"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.24984"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.24984"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.24984"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/TencentARC/WorldCrafter"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4a34b417a079",
+   "kind": "article",
+   "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+   "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+   "pdf_url": "",
+   "abstract": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to get a good read on all of these new models, but here are my impressions so far. GPT-6 Sol and Luna are half the price of their GPT-5.6 equivalents GPT-5.6 Luna was already my favorite model for building applications against, because it combined excellent performance with being really cheap . Somehow GPT-6 Luna is half the price of that again - and GPT-6 Sol had a similar reduction compared to GPT-5.6 Sol. Here's what the pricing landscape looks like today: Model Input Cached input Output GPT-6 Luna $0.10/M $0.01/M $0.50/M GPT-5.6 Luna $0.20/M $0.02/M $1.20/M Grok 4.7 $2/M $0.50/M $6/M GPT-6 Sol $2/M $0.20/M $10/M GPT-5.6 Terra $2/M $0.20/M $12/M Claude Opus 5.5 $4/M $0.20/M $20/M GPT-5.6 Sol $4/M $0.40/M $20/M Claude Fable 5.1 $10/M $0.25/M $50/M GPT-6 Astra $10/M $1/M $50/M Note that GPT-5.6 has a scheduled 25% price increase for November, so GPT-6 is half the price of the promotional pricing for those models. (With GPT-5.6 Terra priced the same as GPT-6 Sol, any remaining reasons to use Terra just evaporated.) It's hard to overstate how competitive this pricing is. Grok 4.7 priced itself at $2/$6, less than half the price of GPT-5.6 Sol, but is now equally priced to GPT-6 Sol on input and closer on output. At $0.10/$0.50 GPT-6 Luna is one of the cheapest mod",
+   "authors": [
+    "Simon Willison"
+   ],
+   "orgs": [
+    "Simon Willison"
+   ],
+   "published": "2026-09-22T23:46:41+00:00",
+   "sources": [
+    {
+     "name": "Simon Willison",
+     "authority": 0.8,
+     "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Django 联合创始人，LLM 实践者",
+   "title_zh": "Claude Opus 5.5 与 GPT-6 同日发布，价格战再起",
+   "summary_zh": "Simon Willison 认为，Anthropic 与 OpenAI 同日发布新模型，GPT-6 Luna 价格仅为 GPT-5.6 Luna 一半，模型价格战进入白热化。",
+   "highlights_zh": [
+    "GPT-6 Sol 与 Luna 定价为 GPT-5.6 同级的一半",
+    "GPT-6 Luna 输入仅 $0.10/M，成最便宜高性能模型",
+    "Grok 4.7 与 Claude Opus 5.5 同周发布，竞争空前激烈"
+   ],
+   "why_zh": "头部模型价格腰斩，直接影响应用选型与成本结构。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 9.0,
+   "score": 0.768,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T22:49:03+00:00",
+   "mirror_pdf": "pdf/web-4a34b417a079.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-dd09a96a5899",
+   "kind": "article",
+   "title": "google/ax",
+   "url": "https://github.com/google/ax",
+   "pdf_url": "",
+   "abstract": "Star google / ax Google's open agentic orchestration runtime\nREADME: AX > [!WARNING] > We are still actively refining our core concepts, protocols, > and specifications. We will likely to introduce major breaking > changes prior to a stable release. **Declare an agentic task with workspaces and gateway specifications. AX sandboxes it, wires up its workspace, fences its network, and helps running it at scale.** AX is a high-throughput, declarative orchestrator to run billions of autonomous agent workloads in a cluster. It runs on top of [Agent Substrate](https://github.com/agent-substrate/substrate) for sandboxed execution and is built to run billions of tasks per cluster. If you have used Kubernetes, `ax` will feel similar. ```yaml # task.yaml apiVersion: ax.io/v1alpha1 kind: Workspace metadata: name: golang spec: git: - repo: https://github.com/golang/go.git branch: \"my-fix\" --- apiVersion: ax.io/v1alpha1 kind: Task metadata: name: test spec: workspaces: - name: golang goal: \"Ensure that Go tool chain is available and is built from source\" debug: true # lets you `ax ssh` into the sandbox ``` Then apply it, watch it come up, and look over the agent's shoulder: ```bash ax apply -f task.yaml ax watch task test ax ssh test -- ls -al /workspace ``` ## Why? Agents are a new kind of workload. They are neither stateless microservices nor run-to-completion batch jobs. They accumulate state, need strict isolation, call out to model APIs and tool servers, and can burn money in a loop if nobody is watching. AX gives you four small primitives that handle",
+   "authors": [],
+   "orgs": [
+    "google"
+   ],
+   "published": "2026-09-23T22:49:03+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/google/ax",
+     "signal": "★ 今日 +1,542 · Go",
+     "metric": 1542
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Google开源智能体编排运行时AX",
+   "summary_zh": "Google开源AX，一个声明式智能体编排运行时，类似Kubernetes但面向智能体工作负载，支持沙箱执行、工作区配置和网络隔离，可集群运行数十亿任务。",
+   "highlights_zh": [
+    "声明式YAML定义工作区和任务，ax apply/watch/ssh管理",
+    "基于Agent Substrate实现沙箱化执行和网络围栏",
+    "面向数十亿级自主智能体工作负载的集群调度"
+   ],
+   "why_zh": "Google入局智能体基础设施，为大规模智能体部署提供K8s式编排标准。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.72,
+   "score_llm": 8.0,
+   "score": 0.768,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T22:49:03+00:00",
+   "mirror_pdf": "pdf/web-dd09a96a5899.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/google/ax"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.24997",
+   "kind": "paper",
+   "title": "VideoGen-Agent: Reinforcing Video Generation Agents",
+   "url": "https://arxiv.org/abs/2609.24997",
+   "pdf_url": "https://arxiv.org/pdf/2609.24997",
+   "abstract": "Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation. However, these models often struggle to satisfy prompts requiring specialized knowledge, specific identities, physical consistency, or ordered events. In this paper, we present VideoGen-Agent, a multimodal agent trained through multitask agentic reinforcement learning to use external tools for video generation. The agent coordinates augmentation, generation, and verification tools through multi-turn interactions, using the prompt and intermediate observations to guide its decisions. We train a shared policy on a category-balanced dataset spanning six tasks. Supervised fine-tuning on teacher-generated trajectories establishes tool-use behavior, which is then refined through reinforcement learning. A category-aware hybrid reward evaluates tool-call validity, task-appropriate tool use, and generated video quality. We further introduce VABench, a held-out benchmark of 600 prompts covering procedural knowledge, single- and multi-entity identity preservation, physical consistency, scene composition, and multi-shot temporal structure. On VABench, VideoGen-Agent improves over its base text-to-video generator by 19.1 points, from 56.5 to 75.6. Upgrading the generation tools further raises the score to 86.1 without additional agent training. Human raters prefer the upgraded configuration over the strongest standalone baseline in 84.3% of comparisons. These results support learning tool use across video-generation tasks and show that the trained agent can benefit from subsequent advances in generation tools.",
+   "authors": [
+    "Binxu Li",
+    "Haoyi Duan",
+    "Yuhui Zhang",
+    "Yaohui Zhang",
+    "Zihao Lin",
+    "Kaituo Feng",
+    "Suozhi Huang",
+    "Xiangyi Li",
+    "Yu Li",
+    "Chunyuan Li",
+    "Shilong Liu",
+    "Mengdi Wang"
+   ],
+   "orgs": [
+    "Princeton University"
+   ],
+   "published": "2026-09-21T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2609.24997",
+     "signal": "▲ 40",
+     "metric": 40
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "VideoGen-Agent：用强化学习训练视频生成智能体",
+   "summary_zh": "普林斯顿提出 VideoGen-Agent，通过多任务智能体强化学习让模型自主调用增强、生成、验证工具，并发布 VABench 基准；在 600 条提示上把基础文生视频模型从 56.5 提升到 75.6 分，换更强生成工具后可达 86.1。",
+   "highlights_zh": [
+    "多轮工具调用：增强、生成、验证三类工具协同，用提示与中间观察指导决策",
+    "类别感知混合奖励：评估工具调用有效性、任务适配度与生成视频质量",
+    "VABench 覆盖程序性知识、身份保持、物理一致性、多镜头时序等六类任务"
+   ],
+   "why_zh": "展示智能体范式如何系统性补足视频生成模型在专业知识和一致性上的短板。",
+   "tags": [
+    "智能体",
+    "多模态",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.663,
+   "score_llm": 8.0,
+   "score": 0.7452,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T22:49:03+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.24997.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.24997"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.24997"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.24997"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.24997"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.24997"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.24997"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6e9a00bdff8c",
+   "kind": "article",
+   "title": "anthropics/financial-services",
+   "url": "https://github.com/anthropics/financial-services",
+   "pdf_url": "",
+   "abstract": "README: # Claude for Financial Services Reference agents, skills, and data connectors for the financial-services workflows we see most — investment banking, equity research, private equity, and wealth management. Everything here is available **two ways from one source**: install it as a [Claude Cowork](https://claude.com/product/cowork) plugin, or deploy it through the [Claude Managed Agents API](https://docs.claude.com/en/api/managed-agents) behind your own workflow engine. Same system prompt, same skills — you choose where it runs. > [!IMPORTANT] > Nothing in this repository constitutes investment, legal, tax, or accounting advice. These agents draft analyst work product — models, memos, research notes, reconciliations — for review by a qualified professional. They do not make investment recommendations, execute transactions, bind risk, post to a ledger, or approve onboarding; every output is staged for human sign-off. You are responsible for verifying outputs and for compliance with the laws and regulations that apply to your firm. What's in the repo: - **[Agents](#agents)** — named, end-to-end workflow agents (Pitch Agent, Market Researcher, GL Reconciler, …). Each ships as a Cowork plugin **and** as a [Claude Managed Agent template](./managed-agent-cookbooks) you deploy via `/v1/agents`. - **[Vertical plugins](#vertical-plugins)** — the underlying skills, slash commands, and data connectors, bundled by FSI vertical. Install these on their own if you just want `/comps`, `/dcf`, `",
+   "authors": [],
+   "orgs": [
+    "anthropics"
+   ],
+   "published": "2026-09-23T22:49:03+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/anthropics/financial-services",
+     "signal": "★ 今日 +665 · Python",
+     "metric": 665
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Anthropic开源金融服务参考智能体与技能",
+   "summary_zh": "Anthropic开源金融服务参考智能体、技能和数据连接器，覆盖投行、股票研究、私募和财富管理，可作为Claude Cowork插件或通过Managed Agents API部署。",
+   "highlights_zh": [
+    "同一套系统提示和技能，支持插件和API两种部署方式",
+    "包含Pitch Agent、Market Researcher、GL Reconciler等端到端工作流智能体",
+    "所有输出需人工审核，不构成投资建议"
+   ],
+   "why_zh": "Anthropic向垂直行业输出智能体模板，展示企业级智能体落地路径。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6867,
+   "score_llm": 7.0,
+   "score": 0.6947,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T22:49:03+00:00",
+   "mirror_pdf": "pdf/web-6e9a00bdff8c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/anthropics/financial-services"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5d1053d9f00a",
+   "kind": "article",
+   "title": "tamaratran/fast-jev-compaction",
+   "url": "https://github.com/tamaratran/fast-jev-compaction",
+   "pdf_url": "",
+   "abstract": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.\nREADME: # fast-jev-compaction Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. Also usable as an npm library. ## What and why Most context compaction asks an LLM to summarize old turns. A summary is lossy: a file path, exact error, constraint, or command can disappear even when it matters later. This library never rewrites anything. It only deletes tool calls and tool results Jev says are no longer needed, and it asks Jev while showing it the whole conversation. User and assistant text stays verbatim and in order. The repository is both an npm package (`src/`) and a Claude Code plugin (`hooks/`, `.claude-plugin/`) that uses the package to replace Claude Code's built-in compaction summary with the original messages. ## How it works 1. Every `tool_use` is paired with its `tool_result` by `tool_use_id`. Calls in the first message or in the newest `preserveRecentMessages` messages are pinned and never touched. 2. The **state** sent to Jev is the whole conversation so far, oldest first, with every tool result replaced by a short note (`ok, 4213 chars (omitted)`). Tool inputs are included, texts are included, nothing is summarized. 3. The state is fitted into `maxStateTokens` (25k by default) in stages, each applied only if the previous one was not enough: tool inputs truncated to 1000, then 200, then 60 characters; long texts abridged to",
+   "authors": [],
+   "orgs": [
+    "tamaratran"
+   ],
+   "published": "2026-09-23T22:49:03+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/tamaratran/fast-jev-compaction",
+     "signal": "★ 6,562（新项目） · TypeScript",
+     "metric": 6562
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "fast-jev-compaction：用决策模型替代上下文摘要压缩",
+   "summary_zh": "Claude Code 插件，用快速决策模型逐条打分工具调用与结果，丢弃或截断过时内容，保留部分逐字不改，避免摘要压缩丢失文件路径、报错等关键信息。",
+   "highlights_zh": [
+    "不做摘要改写，只删除判定为不再需要的工具调用与结果",
+    "用户与助手文本保持逐字、按原顺序保留",
+    "同时提供 npm 库与 Claude Code 插件两种用法"
+   ],
+   "why_zh": "长会话智能体的上下文管理痛点，提供无损压缩的替代方案。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.64,
+   "score_llm": 7.0,
+   "score": 0.676,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T22:49:03+00:00",
+   "mirror_pdf": "pdf/web-5d1053d9f00a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/tamaratran/fast-jev-compaction"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cdb477377ba3",
+   "kind": "article",
+   "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+   "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-09-22T16:51:31Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49804316",
+     "signal": "329 pts",
+     "metric": 329
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Claude Opus 5.5 智能、性能与价格分析",
+   "summary_zh": "对 Claude Opus 5.5 的智能水平、性能表现与定价进行横向分析，评估其在当前模型市场中的性价比定位。",
+   "highlights_zh": [
+    "覆盖智能、性能、价格三个维度的对比",
+    "Hacker News 329 分，社区关注度高",
+    "为模型选型提供参考依据"
+   ],
+   "why_zh": "帮助从业者判断 Claude Opus 5.5 的性价比与适用场景。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5919,
+   "score_llm": 7.0,
+   "score": 0.6568,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T22:49:03+00:00",
+   "mirror_pdf": "pdf/web-cdb477377ba3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://artificialanalysis.ai/models/claude-opus-5-5"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49804316"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-064a94516eac",
+   "kind": "article",
+   "title": "ClusterMAX 3.0: The Industry Standard GPU Cloud Rating System Returns",
+   "url": "https://newsletter.semianalysis.com/p/clustermax-30-the-industry-standard",
+   "pdf_url": "",
+   "abstract": "In gory detail: reliability, performance, support, pricing—and, of course, security—in our most thorough analysis of GPU cloud providers globally.",
+   "authors": [
+    "Jordan Nanos"
+   ],
+   "orgs": [
+    "SemiAnalysis"
+   ],
+   "published": "2026-09-23T21:20:29+00:00",
+   "sources": [
+    {
+     "name": "SemiAnalysis",
+     "authority": 0.8,
+     "url": "https://newsletter.semianalysis.com/p/clustermax-30-the-industry-standard",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "半导体与算力分析",
+   "title_zh": "ClusterMAX 3.0：GPU 云评级体系回归",
+   "summary_zh": "SemiAnalysis 发布第三版 GPU 云评级，从可靠性、性能、支持、定价与安全维度全面评估全球 GPU 云厂商。",
+   "highlights_zh": [
+    "覆盖可靠性、性能、支持、定价、安全五大维度",
+    "号称最全面的全球 GPU 云厂商分析",
+    "为算力采购提供横向对比参考"
+   ],
+   "why_zh": "GPU 云选型是 AI 团队核心成本决策，评级体系提供实用参考。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.648,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T22:49:03+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://newsletter.semianalysis.com/p/clustermax-30-the-industry-standard"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-674646bcfcf0",
+   "kind": "article",
+   "title": "从单卡到千卡互联，平头哥真武 V900 背后的 AI 算力变局",
+   "url": "http://www.geekpark.net/news/370864",
+   "pdf_url": "",
+   "abstract": "作者｜Cynthia 编辑｜郑玄 9 月 22 日的 2026 杭州云栖大会，平头哥少见地被完整推到了主论坛台前。 当天上午，吴泳铭完成主旨演讲后，千问大模型、多模态模型负责人依次登场，随后就是平头哥副总裁高慧。她的演讲题目是「Agentic 时代卓越算力基石」。 平头哥带来的产品，则从一颗最新得真武 V900 芯片，一直延伸到 ICN Switch 互联芯片、磐脉智能网卡、镇岳 SSD 主控、倚天 CPU 路线图，以及下一步的算、存、网全栈协同的超节点服务器。 发布「产品全家桶」地背后，是 Agentic 时代的负载变化：算力需求已经从训练为主进一步走向推理增长，应用从单轮请求变成连续的多步任务， 硬件的竞争也从一颗芯片的指标扩展到整个计算系统的协同。 01 真武V900，平头哥最新一代AI训推芯片 这次发布里，平头哥新一代训推一体 AI 芯片真武 V900 仍然是分量最重的产品。 这颗芯片搭载 216GB 显存，片间互联带宽达到 1200GB/s，单芯片性能是上一代真武 M890 的 3 倍， 是目前中国算力性能最强的 AI 芯片。精度上， 该芯片原生支持 FP8 和 FP4，可覆盖高精度训练以及低精度、超低精度推理。 按照平头哥公布的计划，V900 将在 2027 年第一季度进入量产销售。此后，2028 年 Q3，真武 J900 也将正式推出。 而此时，离上一代真武发布，其实只过去了几个月。2026 年 5 月，平头哥 M890 首次亮相。这颗芯片拥有 144GB 显存和 800GB/s 片间互联带宽，性能达到上一代 810E 的 3 倍，并支持从 FP32 到 FP4 的多种数据精度。到了 V900，性能再次提升 3 倍，显存从 144GB 增加到 216GB，互联带宽也从 800GB/s 提高到 1200GB/s。 再向前看一代，2024 年的真武 810E 也已经从早期的单一推理芯片走向训推一体，采用自研并行计算架构和互联技术，并配套 SAIL 软件栈。 810E、M890、V900 连续三代产品里，平头哥一直在同时提高训练、推理、显存和低精度计算等核心能力。 而背后的关键词，则始终围绕 AI 时代工作负载的变化。 举个简单的例子，模型进入万亿参数以后，MoE 几乎成为了默认的架构选择。 如果一个几万亿参数的模型每次推理都让全部参数参与计算，算力消耗和推理成本都会迅速上升。因此，MoE 会把模型拆成大量专家，每个 Token 只调用其中一部分，在继续扩大模型容量的同时，把一次实际参与计算的参数量压下来。 这种架构缓解了计算量，却同时把硬件压力推向了三个方向。 首先是算力。 MoE 减少了每次参与计算的参数量，但每个子专家的参数量仍在几十万级别，Token 也依然要在很短时间内完成大量矩阵运算；进入训练阶段以后，还有反向传播、梯度更新等更重的计算。大模型参数扩张后，AI 芯片的计算性能必须同步增加。这也是平头哥过去几代真武芯片一直在提升的能力 算力之外，模型进入万亿参数规模后，显存也会成为新的重点。 单颗 M890 有 144GB 显存，真武 V900 则进一步提升至 216GB。如此一来，只需 10 多张真武 V900，即可部署一个万亿规模的大模型。 据悉，基于真武 M890 的超节点已大规模应用，并跑通了 Qwen3.8、Kimi K3 等超 2 万亿参数规模模型，让数万亿参数模型的专家并行尽量在一个超节点内部完成。 但只有算力与显存还不够， 面对数万亿参数规模的模型，任何一颗单芯片的显存容量都显然不够。因此，模型在部署实际时，必须",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-09-23T05:55:58+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/370864",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "平头哥真武 V900 发布，算力竞争转向全栈协同",
+   "summary_zh": "平头哥发布真武 V900 训推一体芯片，216GB 显存、1200GB/s 互联，性能为 M890 三倍，并推出互联芯片、网卡、SSD 主控等全栈产品。",
+   "highlights_zh": [
+    "V900 单芯片性能为上一代 M890 的三倍",
+    "原生支持 FP8/FP4，覆盖训练与超低精度推理",
+    "算力竞争从单芯片扩展到算存网全栈协同"
+   ],
+   "why_zh": "Agentic 时代推理负载上升，国产算力全栈布局值得关注。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T22:49:03+00:00",
+   "mirror_pdf": "pdf/web-674646bcfcf0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/370864"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-01d4e543c941",
+   "kind": "article",
+   "title": "Sam Altman’s remarks at the United Nations Security Council",
+   "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+   "pdf_url": "",
+   "abstract": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-09-23T12:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Sam Altman 在联合国安理会谈 AI 安全",
+   "summary_zh": "Altman 在联合国安理会发言，主张 AI 安全、人类控制权与国际合作，呼吁全球协调治理。",
+   "highlights_zh": [
+    "头部 AI 公司 CEO 在最高国际安全场合表态",
+    "强调人类对 AI 的控制与国际协作",
+    "反映 AI 治理议题进入全球安全议程"
+   ],
+   "why_zh": "把握头部公司对 AI 全球治理的官方立场与话语方向。",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 7.0,
+   "score": 0.636,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T22:49:03+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/sam-altman-un-security-council-remarks"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b6b1e4118cdb",
+   "kind": "article",
+   "title": "Better prompt caching for GPT-6",
+   "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+   "pdf_url": "",
+   "abstract": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-09-22T21:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "GPT-6 提示缓存升级：更高命中率与显式断点",
+   "summary_zh": "OpenAI 为 GPT-6 推出改进的提示缓存，提升缓存命中率，新增诊断工具、显式断点与延迟成本控制。",
+   "highlights_zh": [
+    "缓存命中率提升，降低延迟与成本",
+    "新增诊断工具与显式断点控制",
+    "面向开发者的缓存管理能力增强"
+   ],
+   "why_zh": "直接影响 API 成本与延迟，开发者需关注缓存策略调整。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 7.0,
+   "score": 0.636,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T22:49:03+00:00",
+   "mirror_pdf": "pdf/web-b6b1e4118cdb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/better-prompt-caching-for-gpt-6"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f6fab29d9844",
+   "kind": "article",
+   "title": "Gemini 3.8 text-to-speech",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-09-23T15:29:23Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49817615",
+     "signal": "223 pts",
+     "metric": 223
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Gemini 3.8 文本转语音",
+   "summary_zh": "Google 发布 Gemini 3.8 文本转语音能力，在 Hacker News 引发关注，具体细节尚待官方说明。",
+   "highlights_zh": [
+    "Gemini 3.8 新增文本转语音功能",
+    "HN 223 分热度，社区关注度较高",
+    "语音合成能力进一步整合进 Gemini 生态"
+   ],
+   "why_zh": "关注 Google 多模态语音能力的最新进展。",
+   "tags": [
+    "语音",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.5737,
+   "score_llm": 6.0,
+   "score": 0.5895,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T22:49:03+00:00",
+   "mirror_pdf": "pdf/web-f6fab29d9844.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49817615"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-16df79bd32f5",
+   "kind": "article",
+   "title": "剪映，杀入 AI 互动影游",
+   "url": "http://www.geekpark.net/news/370883",
+   "pdf_url": "",
+   "abstract": "头图来源：剪映 9 月 20 日，剪映在「AI 新创作发布会」上，集中更新了专业版、移动端和创作者生态。 专业版新增一站式创作工作台「剪映 Hub」，由无限画布和多轨编辑器组成。用户可以从一句话、一个参考视频或者一份文档开始，在画布上整理思路、生成脚本和分镜，调用即梦、小云雀等平台生成图片、视频和声音，再把初剪结果送入时间线继续修改。 智能创作 Agent「剪映助手」进入了具体的剪辑工程，可以整理素材、删减口播、纠正字幕、检索补充画面和包装视频。在手机上，这个助手被称为「小映」，面向生活记录、内容创作和商品营销等场景。 剪映还调整了模板和会员体系。模板可以用自然语言改写内容，成熟创作者可以把自己的工作流沉淀为 Skill。新的 AI Ultra 会员每月包含 22100 点 AI 积分和剪映 SVIP 权益，连续包月定价 199 元，首发期为 99 元。 这些产品放在一起，反映出剪映对自身位置的一次调整。它并没有再做一个独立的 AI 视频生成平台，生成仍然由即梦、小云雀等产品完成，剪映想做的是接住这些模型产生的素材，把此前分散的构思、素材管理和后期编辑放进一套创作工程。 发布会上还有一个出人意料的产品。剪映首次展示了 AI 互动影游创作平台 ICG Studio，希望让创作者从一份剧本出发，做出能够观看、选择和探索的互动故事。 Hub 是在补齐视频创作的流程，ICG Studio 则把剪映的边界向外推了一步。 AI 生成之后，剪映要把素材变成作品 过去两年，AI 视频模型的进步主要体现在生成效果上。人物能否保持一致，动作是否自然，镜头可以生成多长，声音和口型能不能对上，这些能力决定了一段画面有没有观看价值。 但对做过 AI 视频的人而言，一段能看的素材，距离一条能发布的作品还有不短的距离。 人物神态可能对了，背景质感却不够；构图和动作都不错，镜头却短了两秒；几个片段单独看都能用，连在一起之后，人物位置、情绪和光线又接不上。创作者要在多个平台之间反复生成、下载和导入，版本越来越多，最后连自己也记不清哪一次生成最接近想要的结果。 剪映 Hub 处理的就是这一段流程。 用户在画布上展开脚本、参考图和素材，剪映助手帮助生成、整理和粗剪，多轨编辑器继续完成字幕、声音、节奏和包装。已经做对的画面可以保留下来，不满意的部分再局部修改或者延长，不用整段重新「抽卡」。 这也是剪映强调自己与 AI 生成平台定位不同的原因。即梦、小云雀负责生产资产，剪映负责把资产组织成项目。Hub 的价值不取决于它接入多少模型，而在于生成结果能不能自然地进入一条可继续修改的时间线。 发布会上，受邀创作者演示了一次口播粗剪。6 分钟原始素材剪成 3 分钟，人工耗时 32 分钟，剪映助手用了 10 分钟，积分成本约 2 元。剪映官方还以两小时电影制作解说视频为例，称原本需要约两个半小时的流程，可以缩短到 40 分钟。 这些数字来自发布会演示环节，适合作为产品能力的说明，还不能当成普遍的效率结论。去停顿、删口头禅属于边界相对清楚的任务，视频 Agent 真正难处理的是创作判断。某句重复的话是否应该保留，一段停顿是不是人物情绪的一部分，往往没有唯一答案。 AI 完成初剪之后，用户需要花多少时间检查和返工，同样影响效率。面对几百段素材，Agent 能不能持续理解人物和情节；一次修改会不会破坏已经确认的部分；操作是否可检查、可回退，这些才是严肃工作流真正关心的问题。 不过，剪映在这里有一项现成优势。它原本就有多轨时间线、字幕、音频、调色、包装和大量用户草稿。其他产品需要从生成向下补编辑能力，剪映",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-09-23T07:32:36+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/370883",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "剪映发布 Hub 与 AI 互动影游平台，卡位创作工程",
+   "summary_zh": "剪映推出无限画布工作台 Hub、剪辑 Agent 剪映助手及互动影游平台 ICG Studio，定位从生成平台转向组织素材的创作工程。",
+   "highlights_zh": [
+    "Hub 整合脚本、生成、粗剪到多轨编辑全流程",
+    "剪映助手可整理素材、删减口播、纠正字幕",
+    "ICG Studio 让创作者从剧本生成互动故事"
+   ],
+   "why_zh": "AI 视频竞争从生成效果转向工作流整合，剪映选择卡位后期。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T22:49:03+00:00",
+   "mirror_pdf": "pdf/web-16df79bd32f5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/370883"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3186e672f1e7",
+   "kind": "article",
+   "title": "Stripe's Knowledge AI Platform",
+   "url": "https://stripe.dev/blog/meet-stripes-knowledge-ai-platform",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-09-23T13:38:00Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49815982",
+     "signal": "166 pts",
+     "metric": 166
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Stripe 的知识 AI 平台",
+   "summary_zh": "Stripe 分享其内部知识 AI 平台的构建经验，HN 166 分，具体细节待补充。",
+   "highlights_zh": [
+    "Stripe 内部知识 AI 平台实践",
+    "HN 166 分热度",
+    "企业级知识检索与问答场景"
+   ],
+   "why_zh": "了解头部支付公司如何落地企业知识 AI。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.56,
+   "score_llm": 6.0,
+   "score": 0.584,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T22:49:03+00:00",
+   "mirror_pdf": "pdf/web-3186e672f1e7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://stripe.dev/blog/meet-stripes-knowledge-ai-platform"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49815982"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a52d77b9c806",
+   "kind": "article",
+   "title": "Qwen一号位定了！刘大一恒接棒",
+   "url": "https://www.qbitai.com/2026/09/496384.html",
+   "pdf_url": "",
+   "abstract": "与稚晖君同届天才少年",
+   "authors": [
+    "鹭羽"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-09-23T07:27:49+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/09/496384.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Qwen 一号位确定：刘大一恒接棒",
+   "summary_zh": "报道称阿里 Qwen 团队负责人确定由刘大一恒接任，其背景为与稚晖君同届的「天才少年」。",
+   "highlights_zh": [
+    "Qwen 团队负责人变动",
+    "刘大一恒接棒",
+    "涉及国内头部大模型团队组织调整"
+   ],
+   "why_zh": "关注 Qwen 后续路线与团队稳定性的从业者可留意。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T22:49:03+00:00",
+   "mirror_pdf": "pdf/web-a52d77b9c806.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/09/496384.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.26631",
+   "kind": "paper",
+   "title": "Label-Efficient Learning for Ground-Based Sky-Image Classification: A Benchmark of Transfer Learning, Active Learning, and Pseudo-Labeling on GCD",
+   "url": "https://arxiv.org/abs/2609.26631",
+   "pdf_url": "https://arxiv.org/pdf/2609.26631",
+   "abstract": "Accurate ground-based cloud classification is important for atmospheric monitoring, solar-energy forecasting, aviation weather assessment, and climate observation systems. However, reliable sky-image annotation is time-consuming, especially when cloud types are visually similar or mixed. We study the label efficiency of deep learning for ground-based cloud classification using the Ground-based Cloud Dataset (GCD). Rather than proposing a new architecture, we benchmark three practical strategies under limited annotation budgets: supervised transfer learning, uncertainty-based active learning, and high-confidence pseudo-labeling. An ImageNet-pretrained ResNet50 is used as a common frozen backbone, with experiments repeated over five random seeds for label budgets from $1\\%$ to $100\\%$ of the training labels. Supervised transfer learning is already highly label-efficient: test accuracy increases from $0.635 \\pm 0.018$ with $1\\%$ labels to $0.730 \\pm 0.002$ with $40\\%$ labels, approaching the full-label result of $0.735 \\pm 0.003$. Active learning and pseudo-labeling are competitive with supervised sampling and provide small improvements for some metrics and budgets, but neither gives a large or consistent aggregate gain. Diagnostic analyses show that accepted pseudo-labels are reliable, with accuracy from $0.946$ to $0.977$, but biased toward easier high-confidence sky-type groups. In contrast, uncertainty sampling preferentially queries visually challenging groups, including Mixed and the confusable Stratocumulus and Cumulonimbus groups, but these targeted acquisitions yield only modest gains. Overall, transfer learning substantially reduces annotation requirements for GCD, while simple active and semi-supervised strategies provide limited additional benefit over a strong supervised baseline.",
+   "authors": [
+    "Esther Bou Dagher",
+    "Viktoriya Bu-Dager",
+    "Boguslaw Zegarlinski"
+   ],
+   "orgs": [],
+   "published": "2026-09-22T16:06:22Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2609.26631",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "论文",
+   "lang": "en",
+   "who": "",
+   "title_zh": "地基天空图像分类的标签高效学习基准",
+   "summary_zh": "在 GCD 数据集上对比迁移学习、主动学习与伪标注三种策略，发现 ImageNet 预训练 ResNet50 的监督迁移学习已高度标签高效，1% 标签达 0.635、40% 达 0.730，接近全标签 0.735，主动学习与伪标注仅带来小幅且不一致的增益。",
+   "highlights_zh": [
+    "统一冻结骨干、五个随机种子，覆盖 1%–100% 标签预算",
+    "伪标注接受样本准确率 0.946–0.977，但偏向易分的高置信类别",
+    "结论：该任务上简单迁移学习已足够，复杂标签高效策略收益有限"
+   ],
+   "why_zh": "为标签稀缺的视觉分类任务提供务实基准，避免过度设计标注策略。",
+   "tags": [
+    "视觉",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 6.0,
+   "score": 0.488,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T22:49:03+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.26631.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.26631"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.26631"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.26631"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.26631"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.26631"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.26631"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4775fab02610",
+   "kind": "article",
+   "title": "Jev vs Decitron：同为决策AI，为什么不是一回事？",
+   "url": "https://www.qbitai.com/2026/09/496352.html",
+   "pdf_url": "",
+   "abstract": "对复杂现实进行推演与决策",
+   "authors": [
+    "思邈"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-09-23T06:38:07+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/09/496352.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Jev 与 Decitron：同为决策 AI，为何不同？",
+   "summary_zh": "量子位文章对比 Jev 与 Decitron 两款决策 AI 产品，讨论其在复杂现实推演与决策上的差异。",
+   "highlights_zh": [
+    "对比两款决策 AI 的定位差异",
+    "聚焦复杂现实场景的推演与决策",
+    "信息增量有限，偏产品介绍"
+   ],
+   "why_zh": "决策 AI 赛道产品对比，但深度有限，适合快速了解。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 5.0,
+   "score": 0.476,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T22:49:03+00:00",
+   "mirror_pdf": "pdf/web-4775fab02610.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/09/496352.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-05631a95ca8b",
+   "kind": "article",
+   "title": "实时世界模型进入“全科生”阶段，PixVerse R2先交卷！",
+   "url": "https://www.qbitai.com/2026/09/496329.html",
+   "pdf_url": "",
+   "abstract": "实时性和通用能力，世界模型可以全都要",
+   "authors": [
+    "梦瑶"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-09-23T06:08:50+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/09/496329.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "PixVerse R2：实时世界模型进入全科生阶段",
+   "summary_zh": "量子位报道 PixVerse R2 世界模型，强调其兼顾实时性与通用能力，标志实时世界模型进入新阶段。",
+   "highlights_zh": [
+    "主打实时性与通用能力兼得",
+    "世界模型从专用走向全科生",
+    "偏产品宣传，技术细节有限"
+   ],
+   "why_zh": "世界模型是热门方向，但本文信息增量有限。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 5.0,
+   "score": 0.476,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T22:49:03+00:00",
+   "mirror_pdf": "pdf/web-05631a95ca8b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/09/496329.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4d6061f010ba",
+   "kind": "article",
+   "title": "汇智智能发布Hellome：国内首个FDE直连智能体服务平台，把AI交付周期压进“周”",
+   "url": "https://www.qbitai.com/2026/09/496493.html",
+   "pdf_url": "",
+   "abstract": "企业AI服务迎来平台化交付时代",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-09-23T09:50:26+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/09/496493.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "汇智智能发布 Hellome 智能体服务平台",
+   "summary_zh": "汇智智能发布号称国内首个 FDE 直连智能体服务平台 Hellome，宣称将企业 AI 交付周期压缩到以周计。",
+   "highlights_zh": [
+    "定位企业 AI 服务平台化交付",
+    "主打 FDE 直连智能体模式",
+    "宣称大幅缩短交付周期"
+   ],
+   "why_zh": "企业智能体交付赛道动态，但为发布通稿，需谨慎看待宣传口径。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 4.0,
+   "score": 0.416,
+   "date": "2026-09-24",
+   "slot": "morning",
+   "selected_at": "2026-09-23T22:49:03+00:00",
+   "mirror_pdf": "pdf/web-4d6061f010ba.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/09/496493.html"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "大模型价格战进入白热化，性价比取代绝对能力成为竞争主轴",
+   "why": "Claude Opus 5.5与GPT-6同日发布，GPT-6价格腰斩，模型定价开始主导市场选择。",
+   "refs": [
+    "web-4a34b417a079",
+    "web-cdb477377ba3"
+   ]
+  },
+  {
+   "trend": "智能体竞争从能力堆叠转向脚手架工程化，递归自改进与编排运行时成新战场",
+   "why": "谷歌RRSI约束脚手架自改进、Google开源AX编排运行时，基础设施层竞争加速。",
+   "refs": [
+    "arxiv-2609.24972",
+    "web-dd09a96a5899"
+   ]
+  },
+  {
+   "trend": "长程任务评测暴露推理预算瓶颈，决策品味成为区分模型的新维度",
+   "why": "Taste-Bench显示最强模型仅59.7%正确率，且增加推理预算无法提升准确率。",
+   "refs": [
+    "arxiv-2609.25804"
+   ]
+  },
+  {
+   "trend": "上下文管理从摘要压缩转向决策驱动，信息保真度成为工程焦点",
+   "why": "fast-jev-compaction用决策模型逐条打分替代摘要，避免丢失文件路径与报错等关键信息。",
+   "refs": [
+    "web-5d1053d9f00a"
+   ]
+  },
+  {
+   "trend": "AI智能体开始产出基础科学发现，从工具角色迈向科研参与者",
+   "why": "Anthropic的Claude智能体发现新型类CRISPR酶系统，标志AI在基础科学发现上的早期突破。",
+   "refs": [
+    "web-8c50fe1c6153"
+   ]
+  }
+ ]
+}
