@@ -1,6 +1,13 @@
 {
- "updated": "2026-09-23T15:22:27+00:00",
+ "updated": "2026-09-23T22:49:03+00:00",
  "days": [
+  {
+   "date": "2026-09-24",
+   "count": 22,
+   "slots": {
+    "morning": 22
+   }
+  },
   {
    "date": "2026-09-23",
    "count": 11,
@@ -9,31 +16,50 @@
    }
   }
  ],
- "total": 11,
+ "total": 33,
  "last_run": {
-  "at": "2026-09-23T15:22:27+00:00",
-  "slot": "evening",
-  "candidates": 101,
-  "new": 101,
-  "judged": 50,
-  "selected": 11,
-  "mirrored": 11,
+  "at": "2026-09-23T22:49:03+00:00",
+  "slot": "morning",
+  "candidates": 199,
+  "new": 141,
+  "stale": 51,
+  "judged": 85,
+  "selected": 22,
+  "mirrored": 20,
+  "by_category": {
+   "资讯": 12,
+   "技术": 4,
+   "观点": 2,
+   "项目": 3,
+   "论文": 1
+  },
   "by_source": {
-   "HF Daily Papers": 15,
+   "HF Daily Papers": 25,
    "Hacker News": 11,
-   "OpenAI": 7,
+   "OpenAI": 13,
+   "Anthropic": 1,
    "量子位": 10,
    "极客公园": 6,
+   "IT之家": 16,
    "爱范儿": 7,
    "少数派": 1,
-   "雷峰网": 14,
-   "钛媒体": 6,
+   "雷峰网": 13,
+   "钛媒体": 5,
    "InfoQ 中文": 14,
    "Simon Willison": 2,
    "Nathan Lambert": 1,
-   "Latent Space": 5,
+   "Latent Space": 4,
    "Stratechery": 1,
-   "Anthropic": 2
+   "SemiAnalysis": 1,
+   "Tomasz Tunguz": 1,
+   "Zvi Mowshowitz": 2,
+   "Hugging Face Blog": 4,
+   "METR": 1,
+   "Google DeepMind": 2,
+   "NVIDIA": 3,
+   "arXiv 新论文": 37,
+   "GitHub Trending": 11,
+   "GitHub 新项目": 9
   },
   "llm": true,
   "translated": 0
