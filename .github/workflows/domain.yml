@@ -1,0 +1,29 @@
+name: Bind custom domain
+on:
+  workflow_dispatch:
+    inputs:
+      domain:
+        description: "apex domain, e.g. dailyaibot.com"
+        required: true
+permissions:
+  contents: write
+jobs:
+  bind:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Attach domain + DNS
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          PAGES_PROJECT: ${{ vars.PAGES_PROJECT || 'ai-paper-radar' }}
+        run: |
+          mkdir -p domain-report
+          scripts/bind_domain.sh "${{ inputs.domain }}" 2>&1 | tee domain-report/bind.log
+      - name: Probe domain over HTTPS
+        run: |
+          for u in "https://${{ inputs.domain }}/" "https://www.${{ inputs.domain }}/"; do
+            echo "$u -> $(curl -s -o /dev/null -w '%{http_code}' --max-time 20 "$u")" | tee -a domain-report/probe.txt
+          done
+      - if: always()
+        run: scripts/push_report.sh domain-report domain
