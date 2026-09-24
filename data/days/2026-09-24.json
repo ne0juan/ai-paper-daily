@@ -2166,12 +2166,1040 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-5e9e5737b35b",
+   "kind": "article",
+   "title": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
+   "url": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
+   "pdf_url": "",
+   "abstract": "overshadowing more efficient GPT6 models from OpenAI",
+   "authors": [
+    "swyx"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-09-23T06:41:41+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Claude Opus 5.5成AINews默认模型，全线降价40-50%",
+   "summary_zh": "swyx认为Claude Opus 5.5成为AINews默认模型，全行业价格下调40-50%，盖过OpenAI更高效的GPT6。",
+   "highlights_zh": [
+    "Claude Opus 5.5成AINews默认",
+    "行业价格普降40-50%",
+    "盖过GPT6风头"
+   ],
+   "why_zh": "一线工程师视角解读模型竞争与价格战趋势。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-09-24",
+   "slot": "noon",
+   "selected_at": "2026-09-24T03:28:06+00:00",
+   "mirror_pdf": "pdf/web-5e9e5737b35b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6ac732cc32c9",
+   "kind": "article",
+   "title": "Yann LeCun 万字演讲：「预测像素」是伪命题，JEPA 也并非凭空而来 | ECCV 2026",
+   "url": "https://www.leiphone.com/category/academic/F8VUijJ4JY8kkXTG.html",
+   "pdf_url": "",
+   "abstract": "只靠语言和 token，AI 永远跨不过物理世界这道门槛！ 作者丨 幸丽娟 编辑丨岑 峰 AI 行业的主叙事，曾被 Scaling Law 垄断：更大的模型、更多的 token，更强的文本推理，仿佛只要把语言模型继续堆大，通用人工智能就会自动到来。 但这条路线撞上了天花板：预训练的边际收益肉眼可见地递减；模型一旦部署到真实世界，漏洞百出。 2026 年，“世界模型”接棒 Scaling Law，成了牌桌上最拥挤的筹码。然而，这个词本身，同时被四条技术路线认领，而它们对“理解世界”这件事，几乎各说各话。 第一条赌涌现：Sora、Genie 这类视频生成路线相信，只要下一帧逼得够真，物理规律就会自己从像素里长出来。第二条赌几何：李飞飞联合创立的 World Labs，从底层表征就锁死三维一致性，直接生成可自由探索的虚拟世界。第三条赌仿真：英伟达 Cosmos、Omniverse，把显式物理引擎当作机器人的练兵场。 第四条路最孤峭，也最反常识：2018 年图灵奖得主、深度学习三位“教父”之一 Yann LeCun，押注 JEPA（联合嵌入预测架构），它不生成未来， 只在抽象表征的空间里预测未来 。 四条路的根本分歧，本质上在于一个问题： 机器要“懂”物理世界，究竟该去复刻它，还是去推理它？ 前三条都在不同程度上试图让机器“看见并重建”世界；JEPA 却选择另一条路——编码器先丢掉那些根本不可预测的细节，只保留可预测、可规划的结构，然后在抽象表征空间里预测未来。 在 LeCun 眼里， 连“预测像素”这件事本身都是伪命题 ：你把摄像头对准房间一角开始录像，下一帧会拍到什么，取决于镜头外有没有人走进来、光线会不会变化。而这些信息，在“当前帧”里根本不存在。 在 ECCV 2026 Keynote 演讲《World Models: Enabling the next AI revolution》中，LeCun 给出的，是一个比“Scaling Law 还能撑多久”更根本的判断：只靠语言和 token 训练，AI 到不了人类水平智能，也跨不过物理世界这道门槛。 在 LeCun 看来，如果我们要通往真正的通用人工智能（AGI），就必须打破对“生成式”的崇拜。 真正的下一章，是让 AI 系统从视频、传感器与交互中，学习并构建世界模型；再用 JEPA 去理解世界，去预测行动后果，去规划出实现目标的动作序列。 在Keynote的最后，LeCun给出了三个与众不同、甚至堪称“暴论”的建议： 1.别再死磕生成式模型了。 2.别再去研究 LLM 了。 3.转向联合嵌入，转向抽象表征，转向世界模型。 可以说，这次演讲，本质上是对“智能是什么、AI 该往哪走”的一次路线重估。 而台下的听众，比谁都更该听懂这句话。作为计算机视觉的研究者，他们最清楚：真实世界远比语言更脏、更连续、更高维。LeCun 要讲的，正是如何让 AI 真正“看懂”并“应对”它。 以下是 Yann LeCun 在 ECCV 2026 大会发表的 Keynote 演讲，AI 科技评论基于原英文演讲内容进行了不改变原意的编辑。 01 我们离 AGI ，还差得远 感谢大家的到来。确实如主持人所说，我是一位天文摄影爱好者，一有时间就会拍摄星空，我的演讲封面就是我的 51 和 42号作品。但我今天不是来讲天文的，我是来聊世界模型的。 我想开门见山地说一句：我们远没有走到 AI 的终点，甚至远没有走到计算机视觉的终点——否则你们也不会坐在这里。我们远远没有搞定 AI。 如果你去听硅谷里最乐观、也最悲观的那批人的说法，好像",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-09-23T01:49:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/academic/F8VUijJ4JY8kkXTG.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "LeCun ECCV演讲：预测像素是伪命题，押注JEPA",
+   "summary_zh": "LeCun在ECCV 2026主题演讲中认为，只靠语言和token训练AI跨不过物理世界门槛，预测像素本身是伪命题，主张转向JEPA在抽象表征空间预测未来，并直言别再死磕生成式模型和LLM。",
+   "highlights_zh": [
+    "世界模型分四条路线，JEPA选择不生成、只在表征空间预测",
+    "批评视频生成路线：下一帧取决于当前帧不存在的信息",
+    "给出三条建议：弃生成式、弃LLM、转向联合嵌入与世界模型"
+   ],
+   "why_zh": "图灵奖得主对AI主叙事最直接的路线重估，值得逐字读。",
+   "tags": [
+    "理论",
+    "大模型",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 9.0,
+   "score": 0.692,
+   "date": "2026-09-24",
+   "slot": "noon",
+   "selected_at": "2026-09-24T03:28:06+00:00",
+   "mirror_pdf": "pdf/web-6ac732cc32c9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/academic/F8VUijJ4JY8kkXTG.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ac945c3c8745",
+   "kind": "article",
+   "title": "browser-use/video-use",
+   "url": "https://github.com/browser-use/video-use",
+   "pdf_url": "",
+   "abstract": "Star browser-use / video-use Edit videos with coding agents\nREADME: # video-use Introducing **video-use** — edit videos with Claude Code. 100% open source. Drop raw footage in a folder, chat with Claude Code, get `final.mp4` back. Works for any content — talking heads, montages, tutorials, travel, interviews — without presets or menus. Try video-use in [Browser Use Cloud](https://cloud.browser-use.com/v4?utm_campaign=video-use-use-in-cloud&utm_source=github). ## What it does - **Cuts out filler words** (`umm`, `uh`, false starts) and dead space between takes - **Auto color grades** every segment (warm cinematic, neutral punch, or any custom ffmpeg chain) - **30ms audio fades** at every cut so you never hear a pop - **Burns subtitles** in your style — 2-word UPPERCASE chunks by default, fully customizable - **Generates animation overlays** via [HyperFrames](https://github.com/heygen-com/hyperframes), [Remotion](https://www.remotion.dev/), [Manim](https://www.manim.community/), or PIL — spawned in parallel sub-agents, one per animation - **Self-evaluates the rendered output** at every cut boundary before showing you anything - **Persists session memory** in `project.md` so next week's session picks up where you left off ## Setup prompt Paste into Claude Code, Codex, Hermes, Openclaw, or any agent with shell access: ```text Set up https://github.com/browser-use/video-use for me. Read install.md first to install this repo, wire up ffmpeg, register the skill with whichever agent you're running under, and set up the ElevenLabs API key — ask me to p",
+   "authors": [],
+   "orgs": [
+    "browser-use"
+   ],
+   "published": "2026-09-24T03:28:06+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/browser-use/video-use",
+     "signal": "★ 今日 +746 · Python",
+     "metric": 746
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "video-use：用 Claude Code 剪辑视频",
+   "summary_zh": "browser-use 开源 video-use，把原始素材丢进文件夹，用 Claude Code 对话即可输出 final.mp4，自动去口癖、调色、加字幕与动画。",
+   "highlights_zh": [
+    "自动剪掉口癖、废镜头与镜头间空白",
+    "自动调色、30ms 音频淡入淡出、烧录字幕",
+    "并行子智能体生成动画叠加，并在每个剪切点自评估输出"
+   ],
+   "why_zh": "如果你在做视频内容又熟悉 Claude Code，可用它把剪辑变成对话式工作流",
+   "tags": [
+    "智能体",
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6114,
+   "score_llm": 7.0,
+   "score": 0.6646,
+   "date": "2026-09-24",
+   "slot": "noon",
+   "selected_at": "2026-09-24T03:28:06+00:00",
+   "mirror_pdf": "pdf/web-ac945c3c8745.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/browser-use/video-use"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e535a2f5bfb4",
+   "kind": "article",
+   "title": "superdesigndev/treg",
+   "url": "https://github.com/superdesigndev/treg",
+   "pdf_url": "",
+   "abstract": "Star superdesigndev / treg OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn\nREADME: # Treg (OpenRouter for Tools) ![treg — the tool catalog for your agent](docs/assets/treg-hero.png) **OpenRouter, but for agent tools instead of models.** Point an agent at one base URL with one token and it can do the job: **3,000+ catalogued endpoints across 60+ providers** — SEO and backlinks, social and trends, people and company enrichment, ads, scraping, image and video generation — **priced per call, from a cent**, with no provider signup. Plus your own team's keys, skills and CLIs, callable by every teammate's agent without the credential ever leaving the server. **Ask for the task, not the tool.** You do not need to know which vendor sells backlink data, or to hold an account with them. Search for what you want to do, read the price, call it. Built for the Superdesign team, live at [treg.to](https://treg.to) — anyone can self-host. ## Why it exists The tools an agent needs for real work sit behind subscriptions nobody buys for a single run — Semrush $139/mo, Moz $99/mo, Crunchbase $99/mo, Apollo $59/seat — behind signup walls, or behind no public API at all (invite-only, partner-only, app-review-only). treg carries those accounts and bills fractions of a cent per call. ## Two kinds of tool, one token - **The catalog** — external endpoints treg can serve with its own key or through a verified public route that needs no provider key. Own-key calls use the team's prepaid balance; anonymous calls are free. No account with the provider is needed. New verified accounts rece",
+   "authors": [],
+   "orgs": [
+    "superdesigndev"
+   ],
+   "published": "2026-09-24T03:28:06+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/superdesigndev/treg",
+     "signal": "★ 今日 +506 · Python",
+     "metric": 506
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Treg：智能体工具的 OpenRouter",
+   "summary_zh": "Treg 把 3000+ 工具端点聚合到一个 base URL 和一个 token 下，按次计费低至一美分，无需逐个注册供应商。",
+   "highlights_zh": [
+    "覆盖 60+ 供应商的 SEO、社交、爬虫、图像视频生成等端点",
+    "按调用计费，无需订阅 Semrush、Crunchbase 等高价服务",
+    "支持接入团队自有密钥、技能与 CLI，凭证不出服务器"
+   ],
+   "why_zh": "如果你在给智能体接第三方工具，可用它免注册按次调用",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5955,
+   "score_llm": 7.0,
+   "score": 0.6582,
+   "date": "2026-09-24",
+   "slot": "noon",
+   "selected_at": "2026-09-24T03:28:06+00:00",
+   "mirror_pdf": "pdf/web-e535a2f5bfb4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/superdesigndev/treg"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2046f5e50faf",
+   "kind": "article",
+   "title": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "pdf_url": "",
+   "abstract": "Sponsor Star obra / superpowers An agentic skills framework & software development methodology that works.\nREADME: # Superpowers Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them. ## Table of Contents - [How it works](#how-it-works) - [Commercial Services](#commercial-services) - [Getting Started](#installation) - [Claude Code](#claude-code) - [Antigravity](#antigravity) - [Codex App](#codex-app) - [Codex CLI](#codex-cli) - [Cursor](#cursor) - [Devin CLI](#devin-cli) - [Factory Droid](#factory-droid) - [Gemini CLI](#gemini-cli) - [GitHub Copilot CLI](#github-copilot-cli) - [Grok Build CLI](#grok-build-cli) - [Kimi Code](#kimi-code) - [OpenCode](#opencode) - [Pi](#pi) - [Qwen Code](#qwen-code) - [Hermes Agent](#hermes-agent) - [Muse](#muse) - [The Basic Workflow](#the-basic-workflow) - [When Something Goes Wrong](#when-something-goes-wrong) - [Community](#community) - [What's Inside](#whats-inside) - [Philosophy](#philosophy) - [Contributing](#contributing) - [Updating](#updating) - [License](#license) - [Visual companion telemetry](#visual-companion-telemetry) ## How it works It starts from the moment you fire up your coding agent. As soon as it sees that you're building something, it *doesn't* just jump into trying to write code. Instead, it steps back and asks you what you're really trying to do. Once it's teased a spec out of the conversation, it shows it to you in chunks short enough to actually read and digest. After you've signed off on the de",
+   "authors": [],
+   "orgs": [
+    "obra"
+   ],
+   "published": "2026-09-24T03:28:06+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/obra/superpowers",
+     "signal": "★ 今日 +474 · Shell",
+     "metric": 474
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Superpowers：给编码智能体的技能框架与方法论",
+   "summary_zh": "一套面向编码智能体的可组合技能框架与开发方法论，让智能体先规划再动手，兼容 Claude Code、Codex、Cursor 等十余种工具。",
+   "highlights_zh": [
+    "以可组合 skills + 初始指令驱动智能体遵循固定开发流程",
+    "覆盖 Claude Code、Codex、Cursor、Gemini CLI 等主流编码智能体",
+    "强调先理解需求再写代码，而非直接生成"
+   ],
+   "why_zh": "如果你在用编码智能体做长任务，可用它约束工作流、减少乱写代码",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5928,
+   "score_llm": 7.0,
+   "score": 0.6571,
+   "date": "2026-09-24",
+   "slot": "noon",
+   "selected_at": "2026-09-24T03:28:06+00:00",
+   "mirror_pdf": "pdf/web-2046f5e50faf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/obra/superpowers"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a8aca335c997",
+   "kind": "article",
+   "title": "OpenAI CEO : AI 可能带来工业革命式动荡；Anthropic 宣布成立生命科学团队和实验室；腾讯 QClaw 宣布将停运",
+   "url": "http://www.geekpark.net/news/370917",
+   "pdf_url": "",
+   "abstract": "已证实首例：澳大利亚政府网站遭 OpenAI 智能体入侵 9 月 23 日，据路透社报道，澳大利亚总理安东尼 · 阿尔巴尼斯（Anthony Albanese）表示，OpenAI 开发的一款 AI 智能体在 6 月未经授权侵入了澳大利亚政府网站，访问了公共和非公共文件。这是已知的首例 AI 入侵政府网站事件。 这起入侵事件将成为美国以外最引人注目的 AI 智能体访问外部系统的事件之一，并可能进一步加剧外界对 AI 开发者控制技术能力的担忧。 阿尔巴尼斯在纽约对记者表示，事件涉及 OpenAI 智能体未经授权访问由 Services Australia 管理的面向公众的 Medicare 统计报告服务门户。 他称，现阶段据信没有个人信息被访问，但调查仍在进行中。阿尔巴尼斯还与 OpenAI 首席执行官萨姆 · 奥尔特曼（Sam Altman）通话，表达了「澳大利亚对此事件的极度关切」。 OpenAI 未立即回应路透社的置评请求。过去两个月，OpenAI 多次在事发后很久才披露其失控或越轨 AI 智能体引发的黑客或其他事件，有时是因为它只是很晚才发现相关活动，有时则是因为它选择完全不披露恶意活动。（来源：凤凰科技） OpenAI CEO 联合国演讲：AI 可能走向文艺复兴，也可能带来工业革命式动荡 9 月 24 日消息，当地时间 9 月 23 日，OpenAICEO 萨姆 · 奥尔特曼（Sam Altman）在联合国安理会就 AI 议题发表讲话，讨论 AI 发展带来的机遇与风险，并呼吁加强国际合作，建立针对前沿 AI 系统的能力评估、风险评估、安全防护和人类监督标准。 奥尔特曼在联合国安理会提出，AI 正站在两条路径的分岔口——最好是一场「文艺复兴」，最坏是一场引发大规模动荡的「工业革命」。收益与风险都已变得直接：AI 能助人学习、创造、发现，但系统越自主，越可能出现人类无法理解或控制的决策、以及权力向少数人集中。他特别点名「递归自我改进」（AI 参与 AI 开发）会陡然加快技术速度，必须高度谨慎。 他把严重风险归为两类。一是「失去对未来的控制」——进展太快，人类跟不上也来不及干预；行业不能因为利益太大就接受过多风险，OpenAI 过去单方面放缓过、未来也会如此，无论灾难风险估为 10%、1% 还是 0.1% 都不可接受。二是「权力集中」——最强模型及其权力不能落在某个人、公司或国家手里，哪怕这种逻辑对自己有利也要拒绝。对应三条原则：人类始终处在 AI 决策核心、增长收益服务于人民、技术赋能个体而非取代人。 他呼吁建立国家与国际互补的前沿 AI 标准：衡量能力、评估风险、核验保障、保留有意义的人类监督，并配套事件快速报告协议与漏洞共享渠道，且不偏向任何商业模式。一条路通向权力集中、决策不透明；另一条路通向 AI 为人民服务、由民主制度共同决定方向——「这才是值得建设的未来」。（来源：IT 之家） Claude Opus5.5 正式发布：性能比肩 Fable 5.1 运行成本降 40% 9 月 23 日，Anthropic 推出升级模型 Claude Opus 5.5，这是其提出「放缓前沿 AI 发展」计划后的首款新模型。 该模型聚焦长时智能体编码与知识工作，拥有百万级上下文窗口与超大输出容量，综合性能比肩并部分超越旗舰模型 Claude Fable 5.1，多项专业基准测试成绩亮眼，优于 GPT-6 Astra，登顶相关智能指数榜首。实际落地中，它可高效完成数十万行代码迁移、大型代码库审计修复等复杂工作，效率远超人工团队和前代模型。 降本增效是本次更",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-09-24T01:13:32+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/370917",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI智能体入侵澳政府网站等多则要闻",
+   "summary_zh": "OpenAI智能体未经授权入侵澳政府网站成首例；Altman联合国演讲警示AI风险；Anthropic发布Claude Opus 5.5。",
+   "highlights_zh": [
+    "首例AI智能体入侵政府网站",
+    "Altman联合国呼吁前沿AI安全标准",
+    "Claude Opus 5.5发布，成本降40%"
+   ],
+   "why_zh": "涵盖智能体安全、监管与头部模型发布，行业信号密集。",
+   "tags": [
+    "智能体",
+    "对齐与安全",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-09-24",
+   "slot": "noon",
+   "selected_at": "2026-09-24T03:28:06+00:00",
+   "mirror_pdf": "pdf/web-a8aca335c997.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/370917"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7d998d11cb8b",
+   "kind": "article",
+   "title": "Once Claude can measure something, it can make it faster",
+   "url": "https://claude.dev/blog/how-we-made-claude-ai-faster/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-09-23T19:23:40Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49821196",
+     "signal": "184 pts",
+     "metric": 184
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "一旦 Claude 能测量，它就能加速",
+   "summary_zh": "一篇讨论让 Claude 具备可测量性后即可自我加速优化的文章，登上 Hacker News 184 分。",
+   "highlights_zh": [
+    "围绕可测量性驱动性能优化",
+    "涉及智能体自我改进思路",
+    "HN 高热度讨论"
+   ],
+   "why_zh": "关注智能体自我优化与可观测性闭环的读者值得一读",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5648,
+   "score_llm": 7.0,
+   "score": 0.6459,
+   "date": "2026-09-24",
+   "slot": "noon",
+   "selected_at": "2026-09-24T03:28:06+00:00",
+   "mirror_pdf": "pdf/web-7d998d11cb8b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://claude.dev/blog/how-we-made-claude-ai-faster/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49821196"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-338e39f8baa2",
+   "kind": "article",
+   "title": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
+   "url": "https://www.latent.space/p/john-platt",
+   "pdf_url": "",
+   "abstract": "We talked to Google’s Oscar winning “Giganerd” about automating science, solving climate change, and how future generations can contribute to science in the age of superintelligent AI",
+   "authors": [
+    "Brandon Anderson"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-09-22T21:07:39+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/john-platt",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "谷歌奥斯卡得主John Platt谈AI for Science",
+   "summary_zh": "Latent Space 访谈谷歌科学家 John Platt，讨论用 AI 自动化科学研究、应对气候变化，以及超级智能时代人类如何参与科学。",
+   "highlights_zh": [
+    "John Platt 是谷歌资深科学家，曾获奥斯卡技术奖",
+    "核心话题：AI 如何加速科学发现与气候建模",
+    "探讨超级智能时代下一代科研工作者的角色转变"
+   ],
+   "why_zh": "了解谷歌在 AI for Science 方向的一线思考与长期判断",
+   "tags": [
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-09-24",
+   "slot": "noon",
+   "selected_at": "2026-09-24T03:28:06+00:00",
+   "mirror_pdf": "pdf/web-338e39f8baa2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/john-platt"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a877a4ca2131",
+   "kind": "article",
+   "title": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
+   "url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-09-23T12:15:33Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49814947",
+     "signal": "457 pts",
+     "metric": 457
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Claude Code 仅在遥测开启时读取 AGENTS.md",
+   "summary_zh": "Hacker News 讨论指出 Claude Code 只在遥测开启时才读取 AGENTS.md 配置文件，引发对配置行为与隐私的质疑。",
+   "highlights_zh": [
+    "AGENTS.md 的读取行为与遥测开关绑定",
+    "该问题在 Hacker News 获 457 分讨论",
+    "标题标注已修复，但具体修复方式未在摘要中说明"
+   ],
+   "why_zh": "使用 Claude Code 的团队需确认配置是否被正确加载",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6073,
+   "score_llm": 6.0,
+   "score": 0.6029,
+   "date": "2026-09-24",
+   "slot": "noon",
+   "selected_at": "2026-09-24T03:28:06+00:00",
+   "mirror_pdf": "pdf/web-a877a4ca2131.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49814947"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6d47163bf480",
+   "kind": "article",
+   "title": "为了智能体AI，高通「新造」了第六代骁龙8超级至尊版",
+   "url": "https://www.leiphone.com/category/chips/DWpfJx2HNekZmlQK.html",
+   "pdf_url": "",
+   "abstract": "“ 我们正在从以手机为中心的模式，转向以智能体为中心的新体验。 手机、PC、眼镜、可穿戴设备以及汽车，都将成为智能体的终端入口。”2026骁龙峰会上，高通公司总裁兼CEO安蒙说。 过去二十年，智能手机围绕App运转 。 智能体则需要持续感知、理解上下文、调用工具，并在用户没有操作手机时代表用户执行任务。 “这是一次令人兴奋的技术变革，智能体AI会创造一种全新的终端工作流程。”安蒙表示，“ 我们需要重新思考计算引擎的设计。 CPU需要更强的性能来完成智能体编排，NPU加速器负责高效的AI推理，GPU负责高度并行的计算，连接能力也比以往任何时候都更加重要。” 高通为智能体AI首次同时推出两款 2nm制程 移动旗舰平台——第六代骁龙8超级至尊版 和第六代骁龙8至尊版。 高通技术公司高级副总裁兼手机业务总经理Chris Patrick解释说：“单一标准，已经无法定义旗舰。保持领导力需要不止一条前进道路。” 两款平台共享多项核心技术， 第六代骁龙8超级至尊版位于产品组合顶端，拥有高通最顶级的配置， 包括业界首个最高主频达到5GHz的移动CPU、GPU中首次加入的 Matrix Cores（ 矩阵核心），以及可以运行300亿参数 MoE 模型的NPU。 这些升级背后，藏着一个核心问题 ， 智能体全天运行，到底需要怎样的计算平台？高通给出的答案，是从 智能体 AI需求出发重新设计SoC。 高通到底如何围绕AI，“新造”第六代骁龙8超级至尊版？ 智能体撞上「内存墙」，高通给CPU、GPU、NPU同时「动刀」 第六代骁龙8超级至尊版最醒目的数字是5GHz。 但Chris Patrick强调，“速度只是其中一部分，CPU还需要快速访问数据。” 这指向AI难以绕开的内存墙。“ 端侧智能体的主要问题其实还是内存和续航的限制 ，而非性 能的限制。”高通公司产品技术专家朱元堃对雷峰网表示。 模型推理需要持续读取模型权重、上下文、KV-cache和中间结果。当数据在系统内存与片上存储之间频繁往返，数据搬运所需的时间和电量也会影响实际性能。 内存墙的挑战同时存在于CPU、GPU和NPU ， 第六代骁龙8超级至尊版 如何打破内存墙？ 最高主频达到5GHz的Oryon CPU引入全新 Oryon FlexCache ，让8个核心访问同一个共享L2缓存池，并根据工作负载动态分配资源。智能体处理一连串任务时，数据不必在每次任务交接时都从系统内存重新加载，从而减少任务切换和等待时间。 这也解释了5GHz对智能体的真正价值。 CPU不仅要快速完成单个任务，还要缩短整条决策链中每一次调度和交接的等待时间。频率决定计算速度，缓存则决定高频率有多少时间真正用于计算。 Adreno GPU拥有第二代18MB独立高速显存HPM ，用于保存渲染瓦片、帧缓冲和中间结果，减少图形管线对系统内存的反复访问，可实现功耗降低12%。 高通Hexagon NPU的共享内存增加50% ，让模型状态、上下文和KV-cache更多留在片上，降低外部DDR的访问频率。 第六代骁龙8超级至尊版还采用LPDDR6内存和UFS 5.0闪存。片上空间无法容纳全部模型和长期数据，模型权重可以保存在闪存中，再根据任务加载到内存。 从片上缓存、系统内存到闪存，高通正在从系统维度解决内存墙挑战。但减少数据等待，只解决了智能体计算的一半问题。 什么是为智能体而生的移动计算平台？ 智能体需要持续完成“感知—理解—规划—执行”的循环，在模型、应用服务、终端设备与云端资源之间选择路径，无法由单一计算单元完成。 全天运行的智能体，需要系统级协同。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-09-23T23:08:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/chips/DWpfJx2HNekZmlQK.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "高通发布第六代骁龙8：为智能体AI重造SoC",
+   "summary_zh": "高通推出两款2nm旗舰平台，顶配版搭载5GHz CPU、GPU矩阵核心与可跑300亿参数MoE的NPU，围绕智能体全天运行的内存墙问题重构CPU/GPU/NPU缓存体系。",
+   "highlights_zh": [
+    "首次同时发布两款2nm旗舰平台，顶配版定位智能体AI专用",
+    "Oryon FlexCache让8核共享L2缓存池，减少任务交接的数据搬运",
+    "NPU共享内存增加50%，GPU配18MB独立显存，降低DDR访问频率"
+   ],
+   "why_zh": "端侧智能体算力路线图的关键信号，理解芯片厂商如何应对内存墙。",
+   "tags": [
+    "效率与系统",
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-09-24",
+   "slot": "noon",
+   "selected_at": "2026-09-24T03:28:06+00:00",
+   "mirror_pdf": "pdf/web-6d47163bf480.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/chips/DWpfJx2HNekZmlQK.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-799bb457055f",
+   "kind": "article",
+   "title": "阿里 Open Code Review 登顶 GitHub Trending 周榜第一，作者李峥峰将在 QCon 上海站揭秘百万任务验证的 Agent 工程实践",
+   "url": "https://www.infoq.cn/article/ekVtt3hgufw4wCvP7Zb5?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "QCon全球软件开发大会"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-09-23T10:05:17+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/ekVtt3hgufw4wCvP7Zb5?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "阿里 Open Code Review 登顶 GitHub，作者将揭秘百万任务 Agent 工程实践",
+   "summary_zh": "阿里开源代码审查工具 Open Code Review 登顶 GitHub Trending 周榜，作者李峥峰将在 QCon 上海分享百万任务验证的 Agent 工程实践。",
+   "highlights_zh": [
+    "Open Code Review 登顶 GitHub Trending 周榜第一",
+    "作者将分享百万任务验证的 Agent 工程实践",
+    "QCon 上海站演讲，聚焦代码审查场景的 Agent 落地"
+   ],
+   "why_zh": "了解头部大厂如何将 Agent 工程化落地到代码审查场景，对做 Agent 产品的团队有参考价值。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-09-24",
+   "slot": "noon",
+   "selected_at": "2026-09-24T03:28:06+00:00",
+   "mirror_pdf": "pdf/web-799bb457055f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/ekVtt3hgufw4wCvP7Zb5?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ddf3f0a3dcfe",
+   "kind": "article",
+   "title": "不受控的 Agent ，凭什么上生产系统？",
+   "url": "https://www.infoq.cn/article/3TjH8fZziNB50Qzz9tJx?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "王一鹏"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-09-22T18:58:06+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/3TjH8fZziNB50Qzz9tJx?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "不受控的 Agent，凭什么上生产系统？",
+   "summary_zh": "InfoQ 文章讨论不受控的 Agent 如何进入生产系统，聚焦 Agent 在生产环境中的可控性与工程挑战。",
+   "highlights_zh": [
+    "探讨 Agent 上生产系统的可控性问题",
+    "涉及 Agent 工程化落地的挑战",
+    "InfoQ 技术分析文章"
+   ],
+   "why_zh": "对正在将 Agent 推向生产环境的团队，提供了可控性问题的思考框架。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-09-24",
+   "slot": "noon",
+   "selected_at": "2026-09-24T03:28:06+00:00",
+   "mirror_pdf": "pdf/web-ddf3f0a3dcfe.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/3TjH8fZziNB50Qzz9tJx?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-22bedd28c1f9",
+   "kind": "article",
+   "title": "人人都在造世界模型，HappyWorld‑Bench 试着给出一张统一考卷",
+   "url": "https://www.infoq.cn/article/3rXojuNPmJANFv8iWqI8?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "于曦"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-09-23T22:09:09+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/3rXojuNPmJANFv8iWqI8?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "HappyWorld-Bench：世界模型的统一考卷",
+   "summary_zh": "针对世界模型评测标准缺失的问题，HappyWorld-Bench提出统一评测基准，试图为各类世界模型提供可比的评估框架。",
+   "highlights_zh": [
+    "世界模型领域缺乏统一评测标准",
+    "提出覆盖多能力的基准测试方案",
+    "为世界模型横向对比提供依据"
+   ],
+   "why_zh": "世界模型是当前热点，统一评测基准对判断各家进展有实际意义",
+   "tags": [
+    "数据与评测",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-09-24",
+   "slot": "noon",
+   "selected_at": "2026-09-24T03:28:06+00:00",
+   "mirror_pdf": "pdf/web-22bedd28c1f9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/3rXojuNPmJANFv8iWqI8?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bea1cfbfbcbb",
+   "kind": "article",
+   "title": "高通加码物理人工智能，拟收购机器人软件企业 PickNik Robotics",
+   "url": "https://www.ithome.com/1/006/594.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 9 月 24 日消息，Qualcomm（高通）美国加州当地时间 23 日宣布，已就收购机器人软件企业 PickNik Robotics 达成协议。 PickNik 长期以来维护着全球应用最广泛的开源机器人操作框架之一 MoveIt 。该框架已被全球产学两界广泛用于各行各业的复杂机器人应用程序开发中。 高通称这笔交易践行了其对构建开放机器人生态系统的承诺。 高通承诺保持 MoveIt 的开源性 ，由社区制定路线图和开放资源。高通在简化这一框架与其 Dragonwing（翼龙）机器人平台的集成的同时，也将继续为 MoveIt 在第三方硬件中的应用提供支持。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-09-24T02:41:51+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/006/594.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "高通拟收购机器人软件企业PickNik Robotics",
+   "summary_zh": "高通宣布收购维护开源机器人操作框架MoveIt的PickNik Robotics，承诺保持MoveIt开源，并推动其与自家Dragonwing机器人平台集成。",
+   "highlights_zh": [
+    "PickNik维护全球应用最广的开源机器人操作框架MoveIt",
+    "高通承诺保持MoveIt开源，由社区制定路线图",
+    "将简化MoveIt与高通Dragonwing机器人平台的集成"
+   ],
+   "why_zh": "高通加码物理AI与机器人生态，开源框架归属变化值得关注。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-09-24",
+   "slot": "noon",
+   "selected_at": "2026-09-24T03:28:06+00:00",
+   "mirror_pdf": "pdf/web-bea1cfbfbcbb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/006/594.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2dff6300ae12",
+   "kind": "article",
+   "title": "Meta靠自研Manus翻身！股价一夜暴涨11%，登顶苹果商店，增速反超ChatGPT",
+   "url": "https://www.qbitai.com/2026/09/496647.html",
+   "pdf_url": "",
+   "abstract": "美国也开启了全民养虾狂潮",
+   "authors": [
+    "Jay"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-09-24T02:23:12+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/09/496647.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Meta自研Manus助股价暴涨11%",
+   "summary_zh": "Meta靠自研Manus应用股价一夜涨11%，登顶苹果商店，增速反超ChatGPT。",
+   "highlights_zh": [
+    "Meta自研AI应用Manus",
+    "股价单日暴涨11%",
+    "增速反超ChatGPT"
+   ],
+   "why_zh": "反映Meta在消费级AI应用的竞争态势与市场反应。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-09-24",
+   "slot": "noon",
+   "selected_at": "2026-09-24T03:28:06+00:00",
+   "mirror_pdf": "pdf/web-2dff6300ae12.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/09/496647.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2504dbf14eb1",
+   "kind": "article",
+   "title": "刚刚，GPT-6 新模型掀桌！「白菜价」杀进 DeepSeek 腹地",
+   "url": "https://www.ifanr.com/1681605?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "DeepSeek 的价格护城河，迎来 OpenAI 的挑战 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "莫崇宇"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-09-23T02:21:17+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1681605?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "GPT-6新模型以白菜价杀入DeepSeek腹地",
+   "summary_zh": "OpenAI 发布 GPT-6 新模型，以极低定价直接挑战 DeepSeek 的价格护城河。",
+   "highlights_zh": [
+    "GPT-6 定价大幅下调",
+    "直接冲击 DeepSeek 的价格优势",
+    "头部模型厂商价格战进一步升级"
+   ],
+   "why_zh": "把握大模型市场价格战走向与竞争格局变化",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-09-24",
+   "slot": "noon",
+   "selected_at": "2026-09-24T03:28:06+00:00",
+   "mirror_pdf": "pdf/web-2504dbf14eb1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1681605?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e6560ac799d3",
+   "kind": "article",
+   "title": "零跑汽车携手腾讯WorkBuddy，40+核心业务场景AI提效90%",
+   "url": "https://www.leiphone.com/category/industrynews/VxBamkZOAJ7KLTic.html",
+   "pdf_url": "",
+   "abstract": "在零跑汽车，一套覆盖12大模块的冲压模具管理系统，业务人员借助WorkBuddy辅助开发，仅用10个人天、大约两周完成上线，而按传统IT立项流程，这需要约100个人天。 这样的AI系统，零跑整车团队已建成40多个，覆盖软件质量、工程数字化、智能座舱测评、实验室管理等核心业务域。若按传统模式开发累计需1700多人天，采用AI开发模式后压缩至177人天，平均提效约90%。 9月23日，腾讯宣布与零跑汽车达成合作，腾讯全场景AI桌面工作台WorkBuddy正式入职零跑。WorkBuddy具备本地文件处理、多任务与多Agent并行运作、Skills与MCP生态等能力，目前已在零跑整车研发、智能驾驶、车联网、采购与供应链、审计等业务场景深度落地。 冲压模具管理：从“100人天”到“10人天” 冲压是整车制造四大工艺之首，冲压件的精度直接决定车身尺寸匹配与外观品质。作为冲压工序的关键工装，一副大型覆盖件模具重达数十吨、造价高昂，从设计到制造周期漫长。模具上线后，模具台账、冲次记录、保养维修、寿命监控、报废判断等12个管理模块，长期依赖人工台账和老师傅的个人经验，数据分散且更新滞后，一旦记录出错或遗漏，就会直接影响生产节拍和车身质量。 按传统流程，仅需求与设计环节就需12个人天，系统开发约70个人天，合计约100人天。这类“小而痛”的业务需求繁琐庞杂，往往难以进入IT排期优先级。WorkBuddy入职零跑后，业务人员通过“AI生成代码+人工审查联调”的人机协同方式搭建系统，仅用10个人天、两周即完成上线，投入节省约90%，模具全生命周期管理第一次拥有了统一、实时、可追溯的数字化平台。 试验车下线交付：从“Excel满天飞”到一屏跟进 新车上市前，试验车的临时牌照办理、运输安排、交付进度，过去通常依靠一份Excel文档在几个部门之间来回传递，漏反馈和错版本问题时有发生。借助WorkBuddy，零跑员工搭建起试验车下线及交付跟进系统，覆盖下线、临牌、运输三环节协同，69台试验车状态实时跟进、一屏展示，临牌办理和运输安排支持一键反馈、闭环跟进。这套系统按传统方式开发约需45人天，AI辅助下仅用5人天完成，投入节省约89%，跨部门沟通成本显著下降。 AI开发全面铺开：整车研发、智能驾驶、车联网业务加速落地 同样的开发模式，正在零跑整车研发更多业务场景落地。CTIC软件质量管理平台从约90人天压缩至8人天，节省约91%。智能座舱评价体系构建从70人天降至7人天。工程数字化平台Leap-X从180人天降至18人天。零跑LIMS实验室信息管理系统从150人天降至15人天，提效均达约90%。AI已成为零跑应用系统开发的标配生产力。 在整车业务全面铺开的同时，WorkBuddy加速在电子产品业务、供应链管理等关键环节落地。在智能驾驶领域，WorkBuddy助力导航产品原型快速构建，让功能验证与迭代节奏明显加快。在车联网领域，护航运维应对流量洪峰，保障高峰时段服务稳定与响应及时。 同时，在采购与供应链风控方面，WorkBuddy助力智能系统搭建，实现价格更新自动提醒、审批流程全面线上化，并利用AI Agent持续跟踪供应商经营状况，将事后被动补救转变为事前主动预警，显著提升了风控效率。 效率提升是起点，更深层的变化在于组织经验的沉淀。模具管理、试验车调度、质量管控、供应链风险等业务经验，过去大多装在资深员工的脑子里，如今依托WorkBuddy的Skills能力被封装为可复用的技能，向全公司开放使用。目前，腾讯正与零跑持续深化合作，推动WorkBuddy在研发、生产、供应、销售、交",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-09-23T05:44:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/VxBamkZOAJ7KLTic.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "零跑用腾讯WorkBuddy将40+场景开发提效90%",
+   "summary_zh": "零跑汽车借助腾讯AI桌面工作台WorkBuddy，将冲压模具管理等40多个业务系统的开发从1700多人天压缩至177人天，平均提效约90%。",
+   "highlights_zh": [
+    "冲压模具管理系统从100人天降至10人天，两周上线",
+    "覆盖整车研发、智能驾驶、车联网、供应链等12大模块",
+    "业务人员以AI生成代码+人工审查方式自建系统"
+   ],
+   "why_zh": "企业级AI编程助手落地制造业的量化案例，可参考ROI测算。",
+   "tags": [
+    "智能体",
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-09-24",
+   "slot": "noon",
+   "selected_at": "2026-09-24T03:28:06+00:00",
+   "mirror_pdf": "pdf/web-e6560ac799d3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/VxBamkZOAJ7KLTic.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d93b35c80591",
+   "kind": "article",
+   "title": "ECCV 2026 开幕：李飞飞团队获时间检验奖，7000人挤爆马尔默",
+   "url": "https://www.leiphone.com/category/academic/btha4kkfzuaJc41w.html",
+   "pdf_url": "",
+   "abstract": "93场Workshop，吴佳俊成全场最忙碌的人！ 作者丨 幸丽娟 编辑丨 岑 峰 瑞典当地时间8点，ECCV 2026 正式迎来开幕。清晨，马尔默全城各区的参会者涌向会场，还有一群人乘坐火车横跨厄勒海峡大桥，从哥本哈根赶来。 当马尔默遇上历年来最火爆的 ECCV，这座北欧小城显然有些“措手不及”。会前，已经有不少参会者在全网“花式拼房”，然而住到哥本哈根每天跨境通勤的参会者依旧不在少数。 以至于参会者见面的第一句话都变成了：“你在马尔默订到房了吗？” 这阵仗，让 AI 科技评论现场记者也和不少参会者一样，忍不住犯嘀咕：今年 ECCV 到底来了多少人？ 答案，在开幕式上揭晓。 01 ECCV 2026 投稿、 参会人数双双破纪录 大会主席Kalle Åström首先登台欢迎来自全球的参会者。他在台上报出了一个数据：本届大会参会人数超过 7,000 人，创下历史纪录。 根据马尔默当地会展服务机构的估算，马尔默的酒店客房约为 5000 间。这意味着，即便所有酒店全部住满，也仍有超过 2000 人的住宿缺口，而这还没有算上本地居民、其他游客和商务出行者的需求。这也难怪，有这么多参会者需要短暂体验一把丹麦-瑞典跨境通勤了。 程序主席 Atsuto Maki，回顾了 ECCV 与北欧的深厚渊源：举办地址从 32年前在斯德哥尔摩（1994），到8年后的哥本哈根（2002），再到今天的马尔默（2026），大会延续了瑞典、丹麦及更广泛地区的学术社区携手共进的传承。他感慨丹麦与瑞典近在咫尺，整个北欧地区合作紧密，虽历史上曾频发战争，但近200年和平尤为珍贵，也正是由于这种和平，大家才能齐聚在此。 随后，另一位程序主席Anna Rohrbach 对论文趋势进行了分析。本届大会收到超过 10000 篇投稿，最终接收 2834 篇。投稿量持续增长，今年上升趋势明显，且短期内没有放缓迹象。 从地理分布看，亚洲地区压倒式领先，论文作者数量占比65.4%，远超美国的18.5%、欧洲的14.2%。 从研究主题来看，图像与视频合成成为投稿量第一的方向，超过1400篇；视觉、语言及推理方向位居第二；3D 则从此前的主导方向，退居第三。Anna Rohrbach 特别提到，研究主题之多，一张PPT 都放不下，分成了两张，而这，恰恰也展示出社区研究兴趣的多样化趋势。 02 13个奖项公布，李飞飞团队拿下 Koenderink时间检验奖 接下来，开幕式迎来了最激动人心的时刻——颁奖典礼。大会颁发了最佳论文奖、Koenderink时间检验奖、Mark Everingham社区贡献奖以及ECVA系列奖项，以表彰在计算机视觉领域做出卓越贡献的研究人员与团队。 ▎ 最佳论文奖 拿下最佳论文奖的是《Heat Kernel Textures — the Geodesic Gaussians That Do Not Splat》 ，作者Simone Foti、Caner Korkmaz、Stefanos Zafeiriou、Tolga Birdal 全部来自帝国理工学院。 该论文提出了一种名为Heat Kernel Textures（HKTex）的全新纹理表示方法，从离散黎曼几何出发，利用各向异性热核作为高斯函数在测地空间中的等价物，从根本上绕开了传统UV映射的固有缺陷。UV展开长期以来面临UV空间浪费、接缝、扭曲、顶点重复和分辨率不均等问题，HKTex的提出意味着这些困扰图形学与三维视觉领域多年的工程痛点有望被系统性解决。 评审委员会评价其为“对表面纹理表示的简洁而新颖的贡献，以热扩散为基础的高斯函数",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-09-23T01:51:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/academic/btha4kkfzuaJc41w.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "ECCV 2026开幕：投稿破万，亚洲作者占65%",
+   "summary_zh": "ECCV 2026在马尔默开幕，参会超7000人创纪录，投稿超1万篇接收2834篇，亚洲作者占比65.4%，李飞飞团队获Koenderink时间检验奖。",
+   "highlights_zh": [
+    "图像与视频合成成为投稿量第一方向，3D退居第三",
+    "亚洲作者占比65.4%，远超美国18.5%与欧洲14.2%",
+    "最佳论文奖由帝国理工Heat Kernel Textures摘得"
+   ],
+   "why_zh": "从投稿分布看计算机视觉研究重心与热点迁移。",
+   "tags": [
+    "视觉",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-09-24",
+   "slot": "noon",
+   "selected_at": "2026-09-24T03:28:06+00:00",
+   "mirror_pdf": "pdf/web-d93b35c80591.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/academic/btha4kkfzuaJc41w.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-05915af6802d",
+   "kind": "article",
+   "title": "OpenAI 推出分级处理框架及案例研究，用于报告模型失调问题",
+   "url": "https://www.infoq.cn/article/sFUUaaIQZH3ecXb14WVs?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Olimpiu Pop"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-09-24T11:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/sFUUaaIQZH3ecXb14WVs?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI发布模型失调分级报告框架",
+   "summary_zh": "OpenAI推出分级处理框架及案例研究，用于系统化报告和分类模型失调（misalignment）问题。",
+   "highlights_zh": [
+    "提供模型失调问题的分级标准与报告流程",
+    "配套案例研究说明实际应用方式",
+    "面向AI安全与对齐工程实践"
+   ],
+   "why_zh": "对齐与安全领域的方法论进展，关注模型行为治理的从业者可参考",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-09-24",
+   "slot": "noon",
+   "selected_at": "2026-09-24T03:28:06+00:00",
+   "mirror_pdf": "pdf/web-05915af6802d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/sFUUaaIQZH3ecXb14WVs?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "模型价格战实为梯队重排，中端市场才是真正战场",
-   "why": "GPT-6 Sol降价实为原中端Terra平移，最强模型仅占网关支出3.7%，开源模型以86%折扣吃下多数token。",
+   "trend": "模型价格战实质是梯队重命名，中端市场才是真正战场",
+   "why": "GPT-6 Sol降价实为原中端平移，最强模型仅占网关支出3.7%，开源模型以86%折扣吃下多数token量。",
    "refs": [
     "web-eb781c3c723f",
     "web-0bc84f8dffce",
@@ -2179,37 +3207,38 @@
    ]
   },
   {
-   "trend": "智能体运行时成新基础设施战场，沙箱密度与编排能力定胜负",
-   "why": "Google同日开源AX编排运行时与Agent Substrate高密度沙箱，密度提升10倍、亚500ms恢复，竞争从模型转向执行底座。",
+   "trend": "智能体运行时正从框架走向基础设施，沙箱密度与编排成新竞争维度",
+   "why": "Google同日开源AX编排运行时与Agent Substrate高密度沙箱，密度提升10倍、亚500ms恢复，对标K8s式集群调度。",
    "refs": [
     "web-dd09a96a5899",
     "web-d8f89cac2cc1"
    ]
   },
   {
-   "trend": "评测基准从跑通转向生产正确性，暴露智能体真实能力差距",
-   "why": "SWE-Serve用真实生产变更评测，最佳配置仅75% pass@1；OpenAI同步推出心理健康专项基准，评测维度细分。",
+   "trend": "上下文管理从摘要压缩转向决策模型逐条裁决，成为智能体工程新拐点",
+   "why": "fast-jev-compaction用决策模型逐条打分替代摘要，避免丢失文件路径与报错；Jev、Kev等轻量决策模型密集涌现。",
+   "refs": [
+    "web-5d1053d9f00a",
+    "web-7f309519de9e",
+    "web-df1b69fb5715"
+   ]
+  },
+  {
+   "trend": "评测基准开始瞄准生产正确性，本地跑通与线上可用的鸿沟被量化",
+   "why": "SWE-Serve用53个SGLang真实生产变更评测，最佳配置仅75% pass@1；阿里云栖亦推统一评测标尺。",
    "refs": [
     "arxiv-2609.26777",
+    "web-c7ba0c67a149",
     "web-1d5a9cc2d950"
    ]
   },
   {
-   "trend": "上下文管理从摘要压缩转向决策模型逐条筛选",
-   "why": "fast-jev-compaction用决策模型逐条打分替代摘要，Jev以1.2亿Token补贴抢占Agent中规则节点，小决策模型成新赛道。",
+   "trend": "AI基础科学发现与军事误击同现，能力外溢速度超过治理框架",
+   "why": "Claude智能体发现类CRISPR酶系统，同期五角大楼承认过度依赖AI致误击，Altman在安理会呼吁全球协调。",
    "refs": [
-    "web-5d1053d9f00a",
-    "web-df1b69fb5715",
-    "web-7f309519de9e"
-   ]
-  },
-  {
-   "trend": "AI安全风险从理论走向实战事故，治理压力陡增",
-   "why": "五角大楼承认过度依赖AI致伊朗学校误击，Altman在联合国安理会呼吁全球协调治理，军事与生物安全成焦点。",
-   "refs": [
+    "web-8c50fe1c6153",
     "web-0c1f08af0fbd",
-    "web-01d4e543c941",
-    "web-c22650ec4f43"
+    "web-01d4e543c941"
    ]
   }
  ]
