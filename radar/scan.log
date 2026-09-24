@@ -1,10 +1,12 @@
-2026-09-24 03:28:06,872 INFO source hf_daily           -> 9 items
-2026-09-24 03:28:07,105 INFO source hackernews         -> 8 items
-2026-09-24 03:28:33,764 INFO source rss                -> 101 items
-2026-09-24 03:28:34,866 INFO source html_lists         -> 0 items
-2026-09-24 03:28:34,866 INFO source x                  -> 0 items
-2026-09-24 03:29:17,111 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
-2026-09-24 03:29:25,432 INFO source github             -> 20 items
-2026-09-24 03:29:25,433 INFO candidates: 138 (stale dropped 19, new 83)
-2026-09-24 03:30:26,116 INFO llm judged 80/80 (calls=10)
-2026-09-24 03:33:48,419 INFO run done: {"at": "2026-09-24T03:28:06+00:00", "slot": "noon", "candidates": 138, "new": 83, "stale": 19, "judged": 80, "selected": 19, "mirrored": 19, "by_category": {"观点": 2, "技术": 2, "项目": 3, "资讯": 12}, "by_source": {"HF Daily Papers": 9, "Hacker News": 8, "量子位": 10, "极客公园": 6, "IT之家": 12, "爱范儿": 8, "少数派": 1, "雷峰网": 13, "钛媒体": 5, "InfoQ 中文": 15, "Simon Willison": 1, "Nathan Lambert": 1, "Latent Space": 4, "Stratechery": 1, "SemiAnalysis": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 1, "METR": 1, "OpenAI": 13, "Google DeepMind": 2, "NVIDIA": 3, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
+2026-09-24 09:51:46,183 INFO source hf_daily           -> 14 items
+2026-09-24 09:51:46,467 INFO source hackernews         -> 11 items
+2026-09-24 09:52:08,757 INFO source rss                -> 98 items
+2026-09-24 09:52:10,388 INFO source html_lists         -> 0 items
+2026-09-24 09:52:10,389 INFO source x                  -> 0 items
+2026-09-24 09:52:10,883 INFO source arxiv_search       -> 60 items
+2026-09-24 09:52:19,898 INFO source github             -> 20 items
+2026-09-24 09:52:19,900 INFO candidates: 202 (stale dropped 25, new 130)
+2026-09-24 09:53:36,164 INFO llm judged 93/100 (calls=13)
+2026-09-24 09:54:31,766 WARNING snapshot https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/: blocked or empty page
+2026-09-24 09:54:35,830 WARNING snapshot https://openai.com/index/harvey-from-context-to-confidence-with-astra: blocked or empty page
+2026-09-24 09:56:38,502 INFO run done: {"at": "2026-09-24T09:51:45+00:00", "slot": "evening", "candidates": 202, "new": 130, "stale": 25, "judged": 93, "selected": 21, "mirrored": 18, "by_category": {"技术": 4, "资讯": 13, "项目": 3, "观点": 1}, "by_source": {"HF Daily Papers": 14, "arXiv 新论文": 60, "Hacker News": 11, "量子位": 10, "极客公园": 6, "IT之家": 11, "爱范儿": 9, "少数派": 1, "雷峰网": 14, "钛媒体": 2, "InfoQ 中文": 15, "Simon Willison": 1, "Nathan Lambert": 1, "Latent Space": 4, "Stratechery": 1, "SemiAnalysis": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 1, "OpenAI": 13, "Google DeepMind": 2, "NVIDIA": 3, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
