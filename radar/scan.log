@@ -1,11 +1,10 @@
-2026-09-23 23:07:14,401 INFO source hf_daily           -> 25 items
-2026-09-23 23:07:14,735 INFO source hackernews         -> 10 items
-2026-09-23 23:07:46,779 INFO source rss                -> 108 items
-2026-09-23 23:07:48,820 INFO source html_lists         -> 0 items
-2026-09-23 23:07:48,820 INFO source x                  -> 0 items
-2026-09-23 23:07:49,331 INFO source arxiv_search       -> 37 items
-2026-09-23 23:07:58,782 INFO source github             -> 20 items
-2026-09-23 23:07:58,783 INFO candidates: 199 (stale dropped 76, new 100)
-2026-09-23 23:09:01,411 INFO llm judged 84/84 (calls=11)
-2026-09-23 23:09:13,687 WARNING snapshot https://thezvi.wordpress.com/2026/09/23/claude-opus-5-5-the-system-card/: blocked or empty page
-2026-09-23 23:12:00,423 INFO run done: {"at": "2026-09-23T23:07:13+00:00", "slot": "morning", "candidates": 199, "new": 100, "stale": 76, "judged": 84, "selected": 21, "mirrored": 19, "by_category": {"资讯": 11, "项目": 3, "观点": 3, "技术": 4}, "by_source": {"HF Daily Papers": 25, "Hacker News": 10, "OpenAI": 13, "量子位": 10, "极客公园": 6, "IT之家": 16, "爱范儿": 7, "少数派": 1, "雷峰网": 13, "钛媒体": 6, "InfoQ 中文": 14, "Simon Willison": 2, "Nathan Lambert": 1, "Latent Space": 4, "Stratechery": 1, "SemiAnalysis": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 4, "METR": 1, "Google DeepMind": 2, "NVIDIA": 3, "arXiv 新论文": 37, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
+2026-09-24 03:28:06,872 INFO source hf_daily           -> 9 items
+2026-09-24 03:28:07,105 INFO source hackernews         -> 8 items
+2026-09-24 03:28:33,764 INFO source rss                -> 101 items
+2026-09-24 03:28:34,866 INFO source html_lists         -> 0 items
+2026-09-24 03:28:34,866 INFO source x                  -> 0 items
+2026-09-24 03:29:17,111 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
+2026-09-24 03:29:25,432 INFO source github             -> 20 items
+2026-09-24 03:29:25,433 INFO candidates: 138 (stale dropped 19, new 83)
+2026-09-24 03:30:26,116 INFO llm judged 80/80 (calls=10)
+2026-09-24 03:33:48,419 INFO run done: {"at": "2026-09-24T03:28:06+00:00", "slot": "noon", "candidates": 138, "new": 83, "stale": 19, "judged": 80, "selected": 19, "mirrored": 19, "by_category": {"观点": 2, "技术": 2, "项目": 3, "资讯": 12}, "by_source": {"HF Daily Papers": 9, "Hacker News": 8, "量子位": 10, "极客公园": 6, "IT之家": 12, "爱范儿": 8, "少数派": 1, "雷峰网": 13, "钛媒体": 5, "InfoQ 中文": 15, "Simon Willison": 1, "Nathan Lambert": 1, "Latent Space": 4, "Stratechery": 1, "SemiAnalysis": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 1, "METR": 1, "OpenAI": 13, "Google DeepMind": 2, "NVIDIA": 3, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
