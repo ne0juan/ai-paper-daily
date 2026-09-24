@@ -1,13 +1,13 @@
 {
- "updated": "2026-09-24T09:51:45+00:00",
+ "updated": "2026-09-24T15:47:30+00:00",
  "days": [
   {
    "date": "2026-09-24",
-   "count": 79,
+   "count": 100,
    "slots": {
     "morning": 39,
     "noon": 19,
-    "evening": 21
+    "evening": 42
    }
   },
   {
@@ -18,47 +18,45 @@
    }
   }
  ],
- "total": 90,
+ "total": 111,
  "last_run": {
-  "at": "2026-09-24T09:51:45+00:00",
+  "at": "2026-09-24T15:47:30+00:00",
   "slot": "evening",
-  "candidates": 202,
-  "new": 130,
-  "stale": 25,
-  "judged": 93,
+  "candidates": 204,
+  "new": 134,
+  "stale": 13,
+  "judged": 100,
   "selected": 21,
-  "mirrored": 18,
+  "mirrored": 19,
   "by_category": {
-   "技术": 4,
-   "资讯": 13,
+   "观点": 3,
    "项目": 3,
-   "观点": 1
+   "资讯": 11,
+   "技术": 4
   },
   "by_source": {
-   "HF Daily Papers": 14,
-   "arXiv 新论文": 60,
-   "Hacker News": 11,
+   "HF Daily Papers": 16,
+   "arXiv 新论文": 52,
+   "Hacker News": 14,
    "量子位": 10,
-   "极客公园": 6,
-   "IT之家": 11,
+   "极客公园": 8,
+   "IT之家": 13,
    "爱范儿": 9,
    "少数派": 1,
-   "雷峰网": 14,
-   "钛媒体": 2,
-   "InfoQ 中文": 15,
+   "雷峰网": 13,
+   "钛媒体": 5,
+   "InfoQ 中文": 14,
    "Simon Willison": 1,
-   "Nathan Lambert": 1,
-   "Latent Space": 4,
-   "Stratechery": 1,
+   "Latent Space": 5,
    "SemiAnalysis": 1,
-   "Tomasz Tunguz": 1,
+   "Tomasz Tunguz": 2,
    "Zvi Mowshowitz": 2,
-   "Hugging Face Blog": 1,
-   "OpenAI": 13,
+   "Hugging Face Blog": 2,
+   "OpenAI": 12,
    "Google DeepMind": 2,
    "NVIDIA": 3,
-   "GitHub Trending": 10,
-   "GitHub 新项目": 10
+   "GitHub Trending": 12,
+   "GitHub 新项目": 8
   },
   "llm": true,
   "translated": 0
