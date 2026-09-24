@@ -3194,12 +3194,1283 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "arxiv-2609.28256",
+   "kind": "paper",
+   "title": "MemBodied: Recurrent Associative Memory for Vision-Language-Action Models",
+   "url": "https://arxiv.org/abs/2609.28256",
+   "pdf_url": "https://arxiv.org/pdf/2609.28256",
+   "abstract": "Vision-Language-Action models provide a strong foundation for general-purpose robot control, yet a vast majority of policies do not preserve and leverage episode-level information beyond the current observation. This limitation is consequential in history-dependent manipulation tasks that depend on information available only in past observations. Retaining past observations in context can aid in recovering this information, but at the significant cost of ever-growing, bloated context and inference latency. We thus introduce MemBodied, a fixed-size episodic memory with two complementary components: an associative state that records interactions across policy calls and an episode anchor that preserves a compact representation of the initial scene as a reference. At each policy call, the model conditions action generation on the current input and the memory components, rather than directly using past observations. Across five evaluated RMBench tasks requiring memory, MemBodied achieves 7.81times the mean success rate of a stateless policy and 2.98times of vanilla recurrent memory, while outperforming the strongest memory-augmented baseline by 1.3times with 10times fewer added parameters. On the fully observable LIBERO-Long suite, it reached 90.6%, a 5.4% improvement over the stateless π_0 policy. These findings support MemBodied as a practical alternative to expanding the policy context for history-dependent manipulation.",
+   "authors": [
+    "Tej Deep Pala",
+    "Navonil Majumder",
+    "Bryce Goh",
+    "Raphael Yee",
+    "Jianfei Yang",
+    "Liming Chen",
+    "Soujanya Poria"
+   ],
+   "orgs": [],
+   "published": "2026-09-23T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2609.28256",
+     "signal": "▲ 8",
+     "metric": 8
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "MemBodied：为 VLA 模型引入循环联想记忆",
+   "summary_zh": "针对 VLA 策略缺乏历史信息的问题，提出固定大小的情景记忆（联想状态+初始场景锚点），在 RMBench 上成功率是无状态策略的 7.81 倍，参数仅增 1/10。",
+   "highlights_zh": [
+    "固定大小情景记忆，避免上下文膨胀",
+    "RMBench 成功率提升 7.81 倍",
+    "LIBERO-Long 达 90.6%，超 π_0 5.4%"
+   ],
+   "why_zh": "为机器人长程记忆依赖任务提供高效记忆方案。",
+   "tags": [
+    "机器人",
+    "多模态",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.5114,
+   "score_llm": 8.0,
+   "score": 0.6846,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T09:51:45+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.28256.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.28256"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.28256"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.28256"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.28256"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.28256"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.28256"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/declare-lab/MemBodied"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.27490",
+   "kind": "paper",
+   "title": "WhatWorkedBench: Benchmarking Experimental Understanding in AI Agents",
+   "url": "https://arxiv.org/abs/2609.27490",
+   "pdf_url": "https://arxiv.org/pdf/2609.27490",
+   "abstract": "AI research agents need reliable knowledge of how their experiments change outcomes. We introduce WhatWorkedBench to measure experimental understanding, the accuracy of predictions about component changes after budgeted experimentation. Agents inspect code, select measurements, and submit a response surface, a table predicting scores for every configuration of component settings. Exhaustive CPU execution supplies reference effects for changing each component while holding the others fixed. These effects capture combinations of changes across 36 tasks from 30 data sources and 8 workflow types, with 1248 configuration records. Core evaluation combines 4,206 numerical-control records across all eight families and 108 agent episodes across the original six. At eight new measurements, pair-effect ridge selects an optimum on 15 of 22 sources and limits every effect error to 10% of score range on three. Fitting a Gaussian process (GP) to the same agent observations raises effect recovery, accuracy relative to true effect magnitude, from 0.632 to 0.698 in the original Flash cohort and from 0.621 to 0.720 in an additional cohort. On six completed beat-detection and graph submissions, the same-observation GP raises family-macro recovery from 0.303 to 0.455. On six workflows with six binary options at 20 new measurements, encoding code equivalences, configurations with identical behavior, raises GP recovery from 0.248 to 0.462. WhatWorkedBench supports research on experimental agents, adaptive experimental design, numerical inference, and use of program structure.",
+   "authors": [
+    "Jingjie Ning",
+    "Xueqi Li",
+    "Yibo Kong",
+    "Dongting Li"
+   ],
+   "orgs": [
+    "Carnegie Mellon University"
+   ],
+   "published": "2026-09-23T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2609.27490",
+     "signal": "▲ 8",
+     "metric": 8
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2609.27490",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "WhatWorkedBench：评测 AI 智能体的实验理解能力",
+   "summary_zh": "CMU 提出 WhatWorkedBench，用 36 个任务、1248 条配置记录评测智能体能否预测组件改动对实验结果的影响，发现用高斯过程拟合观测可将效应恢复率从 0.63 提升至 0.70。",
+   "highlights_zh": [
+    "首次系统量化 AI 研究智能体的「实验理解」能力，要求提交响应面预测所有配置得分",
+    "覆盖 30 个数据源、8 类工作流，含 4206 条数值控制记录与 108 个智能体回合",
+    "高斯过程拟合比 ridge 回归更有效地恢复真实效应，家族宏恢复率从 0.303 升至 0.455"
+   ],
+   "why_zh": "做 AI 研究智能体或自动化实验平台的团队，可据此评估并改进智能体的实验推理能力。",
+   "tags": [
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.6514,
+   "score_llm": 7.0,
+   "score": 0.6806,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T09:51:45+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.27490.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.27490"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.27490"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.27490"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.27490"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.27490"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.27490"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/EthanNing/WhatWorkedBench"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.28466",
+   "kind": "paper",
+   "title": "The Past Frames the Future: Memory for Autoregressive Video Generation",
+   "url": "https://arxiv.org/abs/2609.28466",
+   "pdf_url": "https://arxiv.org/pdf/2609.28466",
+   "abstract": "Advances in generative models have improved video fidelity, enabling long-horizon generation, interactive world modeling, and evolving visual environments. Autoregressive (AR) video generation extends visual sequences through causal rollouts. However, a fundamental bottleneck emerges: as the generated sequence expands, practical models must operate under strictly bounded context windows, storage, and computational limits. Consequently, critical historical information, e.g., entity identities, dynamic states, and intervention-induced causal changes, often leaves the active context long before its relevance diminishes. Overcoming this limitation and maintaining temporal persistence constitutes a fundamental memory problem. We present a systematic and comprehensive review of memory mechanisms in AR video generation. We formulate memory operationally as persistent historical information maintained across outer AR steps, capable of influencing future generation even after the originating evidence is no longer locally accessible. Building upon this unified framework, we organize the literature through five complementary perspectives: (I) Forms, the representational carriers of history; (II) Functions, the specific semantic and physical information requiring preservation; (III) Operations, the lifecycle of writing, reading, updating, managing, and integrating memory; (IV) Learning, the optimization of memory behaviors under closed-loop rollouts; and (V) Evaluation, the paradigms for diagnosing genuine memory capabilities. We conclude by synthesizing open challenges, including composable and resource-aware memory architectures, trustworthy state updating, self-rollout learning, and standardized evaluation. By bridging representations, mechanisms, and learning paradigms, this paper establishes a structured foundation for developing reliable, memory-conditioned video generation systems.",
+   "authors": [
+    "Harold Haodong Chen",
+    "Rongjin Guo",
+    "Disen Lan",
+    "Wen-Jie Shu",
+    "Hongfei Zhang",
+    "Hanzhe Hu",
+    "Shengtao Yao",
+    "Zixin Zhang",
+    "Guibin Zhang",
+    "Zhefan Rao",
+    "Jinxiu Liu",
+    "Yexin Liu",
+    "Rui Peng",
+    "Yuhao Liu",
+    "Bin Ren",
+    "Shuai Yang",
+    "Yukang Chen",
+    "Salman Khan",
+    "Ying-Cong Chen",
+    "Ser-Nam Lim",
+    "Rynson W. H. Lau",
+    "Nicu Sebe",
+    "Yu Cheng",
+    "Ming-Hsuan Yang",
+    "Qifeng Chen"
+   ],
+   "orgs": [],
+   "published": "2026-09-23T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2609.28466",
+     "signal": "▲ 33",
+     "metric": 33
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "过去塑造未来：自回归视频生成中的记忆机制综述",
+   "summary_zh": "该综述系统梳理自回归视频生成中的记忆机制，将记忆定义为跨 AR 步骤持续影响未来生成的历史信息，从形式、功能、操作、学习等五个视角组织文献，指出有限上下文窗口下实体身份与因果变化易丢失是核心瓶颈。",
+   "highlights_zh": [
+    "提出统一框架：记忆是即使原始证据离开上下文仍能影响后续生成的历史信息",
+    "从表示载体、需保留的语义物理信息、读写更新生命周期等五维度分类文献",
+    "指出长时程生成中实体身份、动态状态与干预因果变化是最易丢失的关键信息"
+   ],
+   "why_zh": "做长视频生成或交互式世界模型的团队，可据此定位记忆机制的设计空间与取舍。",
+   "tags": [
+    "多模态",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.5909,
+   "score_llm": 7.0,
+   "score": 0.6564,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T09:51:45+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.28466.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.28466"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.28466"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.28466"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.28466"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.28466"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.28466"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/HaroldChen19/Awesome-AR-Video-Memory"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.27288",
+   "kind": "paper",
+   "title": "PotARCin: Multi-Dimensional Evaluation of Skill Acquisition in Abstract Reasoning Tasks",
+   "url": "https://arxiv.org/abs/2609.27288",
+   "pdf_url": "https://arxiv.org/pdf/2609.27288",
+   "abstract": "The Abstraction and Reasoning Corpus (ARC) has become a prominent benchmark for evaluating general abstract reasoning and fluid intelligence in AI models. Yet standard ARC evaluation considers only a single capability: producing the correct output grid for a test input. We argue that this narrow format fails to evaluate the diversity of abilities that genuine abstract skill acquisition should enable. We introduce PotARCin, a benchmark that extends ARC by assessing understanding of a task's underlying abstract rule across five dimensions: Definition, Classification, Constrained Generation, Editing, and Inversion. PotARCin employs programmatic methods to generate new task instances and transform given inputs for a given ARC task, enabling dynamic generative sampling beyond fixed input-output pairs. Across five state-of-the-art models evaluated on the ARC-AGI-1 training set, we observe a 25-52 percentage-point performance gap between standard ARC evaluation and evaluation on PotARCin, and find that multi-dimensional evaluation reorders models that standard accuracy ranks alike. We further investigate effects of generative sampling, difficulty of corruption types, and questions of self-consistency, showing that models frequently contradict their own formalized rule even where they have stated it correctly. We also introduce P-ARC, a held-out hand-crafted test set, on which models achieve 1-8% accuracy across all five dimensions, underscoring the importance of more holistic evaluations of abstract reasoning capabilities.",
+   "authors": [
+    "Claas Beger",
+    "Ryan Yi",
+    "Melanie Mitchell"
+   ],
+   "orgs": [],
+   "published": "2026-09-23T03:27:22Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2609.27288",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "PotARCin：抽象推理技能的多维评测基准",
+   "summary_zh": "针对ARC只考单一输出网格的局限，提出五维度评测（定义、分类、约束生成、编辑、反转），用程序化生成动态任务。五个前沿模型在标准ARC与PotARCin间差距达25-52个百分点，且多维评测会重排模型排名，模型常自相矛盾。",
+   "highlights_zh": [
+    "将ARC评测从单一输出扩展为五个能力维度",
+    "程序化生成任务实例，突破固定输入输出对限制",
+    "标准准确率相近的模型在多维评测下排名被重排"
+   ],
+   "why_zh": "揭示现有抽象推理评测高估模型能力，值得评测研究者关注",
+   "tags": [
+    "数据与评测",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.64,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T09:51:45+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.27288.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.27288"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.27288"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.27288"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.27288"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.27288"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.27288"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-adc3fd6524b3",
+   "kind": "article",
+   "title": "BAT 集体重做「AI 预训练」，补「脏数据」的坑",
+   "url": "https://www.leiphone.com/category/industrynews/W5SkVkK9QJ1FDapI.html",
+   "pdf_url": "",
+   "abstract": "最近大半年，国内一批 AI 模型厂商 密集启动“预训练返工”，起因都指向同一件事：数据不行。 它们中，有的此前花了一年死磕万亿参数模型，落地表现却被市面上 1% 规模的小模型倒挂，最终查出是被脏数据拖了后腿。 有的曾因数据标注规则模糊、评测集污染、垃圾语料冗余等工程硬伤而导致模型进展迟缓。 还有的因数据受限，导致模型遭遇性能瓶颈，索性推倒重来，并重建了数据团队。 与此同时，借 API 中转站截留交互轨迹、做数据蒸馏等，也成了行业水面下的一场暗战。 数据，正在给模型厂商上一堂教训深刻的课。这堂课远比算力消耗、架构选型和人才争夺更隐蔽。 “AI 下半场的胜负手是数据”，这话听上去像常识，但直到今天，大家才真正闻到了它背后的血腥味。 01 数据上的“粗放式弯路” 预训练返工，本质上是在补数据的课。 “多就行了”的误区 一位头部基模公司的数据专家赵翔向雷峰网回忆，前些年刚开始做预训练的时候，大家的主流观点是“数据多就可以了，稍微差一点没关系，模型自己有转化能力和鲁棒性。” 于是开始一味地粗放式堆数据，只求规模不讲质量。 再加上，当时行业普遍缺乏成熟的大规模数据治理体系，大家为了凑齐数千亿甚至上万亿 token 的语料库，抓取了大量网页垃圾、脏语料，甚至混入了各种来源不明的清洗包。 很多数据的标注和筛选也没有处理好，导致训练出来的第一版模型效果较差。 然后大家才发现， 不注重数据质量，会让模型卡在 60、70 分上不去 ，“眼看海外的模型都跑到 90 分了，就是追不上。”于是不得不回过头来重做数据优化。 脏数据的代价 “底层脏数据的危害远比想象的大。它会让你投入的 卡、钱、人力都浪费掉，而且还会耽误你的时间窗口。 ”某模型厂商前高管、现 AI 创业者王斌告诉雷峰网。 他向雷峰网描述过一个典型案例。一家中部基模公司，把爬来的技术博客整批灌进预训练语料，跑到训练中期才发现，其中相当部分是采集站的机器生成页，同一个段落被重复了几万次。 模型在评测集上开始莫名其妙地复读，等团队定位到问题，几万卡时已经烧掉了，那一版只能作废重来。 事实上，这样的翻车在行业里远不止一例。不少团队都是训练效果出了问题后，才回过头来补数据治理的课。 不当的数据 KPI 基元律动创始人王云鹤也曾在接受媒体采访时提到过，AI 没有什么新鲜事，数据是地基，数据不行，不要怪算力；数据不达标，什么算法都不行，因为这违背机器学习理论。 而且他还特别提到一点，数据团队要对预训练团队有一定话语权，预训练团队也要反向对数据提要求。独立考核会很乱。 其实，对数据团队的考核不当， 是不少模型厂商都踩过的一个坑。 比如，有媒体曾描述过，腾讯混元团队曾在数据治理上，出现过“标注规则定义不清，但验收线设定过高，团队为了交差，生产出大批无法使用的数据”的情况；再加上一些打榜数据、冗余数据的污染，以至于最后不得不推倒重来，专门重拉团队从头清洗数据。 “数据团队的考核只看数据量的话，会很荒谬。”前述数据专家赵翔补充道。 因为大模型拼的是数据的信息密度和干净程度，而非绝对体积。考核只盯数量，等于在鼓励团队拿垃圾凑数。几百 T 的脏数据灌进去，训出来的模型反而会变笨，甚至训练崩溃。 02 数据背后的“苦活”与“花活” 地基要重打，可好数据并不是说有就有的。 互联网时代攒的家底，不顶用了 本地生活、社交、游戏、电商与搜索，这些在互联网时代被各家大厂视作“壁垒”的场景数据，到了 AI 时代，不奏效了。 因为基模比的是通用能力，某一场景数据的优势，落到通用能力上，影响变得有限。各家虽然都在拿自己的场景数据训一些垂直小模型，但最终应",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-09-24T01:43:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/W5SkVkK9QJ1FDapI.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "BAT 集体重做 AI 预训练，补「脏数据」的坑",
+   "summary_zh": "雷峰网深度报道国内多家模型厂商密集启动预训练返工，因脏数据、评测污染、数据 KPI 不当导致模型卡在 60-70 分，被迫推倒重来重建数据团队。",
+   "highlights_zh": [
+    "多家厂商万亿参数模型被 1% 规模小模型倒挂",
+    "脏数据导致数万卡时浪费、模型复读甚至崩溃",
+    "数据团队考核只看数量被指荒谬，需与预训练团队互相制衡"
+   ],
+   "why_zh": "揭示数据治理这一隐蔽但决定模型上限的关键战场，从业者必读。",
+   "tags": [
+    "大模型",
+    "数据与评测",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T09:51:45+00:00",
+   "mirror_pdf": "pdf/web-adc3fd6524b3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/W5SkVkK9QJ1FDapI.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-11c0e859fa41",
+   "kind": "article",
+   "title": "zai-org/ZCode",
+   "url": "https://github.com/zai-org/ZCode",
+   "pdf_url": "",
+   "abstract": "Z.ai's coding agent harness. Powerful, intelligent, extensible.\nREADME: # ZCode 飞书社群 · Discord 简体中文 | English ZCode 是 AI 编程工作台，提供桌面应用、浏览器界面和终端 Agent。本仓库包含客户端、后端服务、共享 UI，以及 Agent CLI 与运行时源码。 ## 更新 - 2026-9-23：更新至 ZCode v3.14.3 版本。 ## 初始化 准备 Git、Node.js **24.14.0** 和 pnpm **10.33.2**，版本以 [mise.toml](mise.toml) 为准。以下开发和打包命令均在仓库根目录执行。 ```bash pnpm bootstrap ``` `pnpm bootstrap` 安装 workspace 依赖、准备桌面本地运行资源，再执行 `build:bootstrap`。 Agent CLI 与运行时源码位于 [apps/zcode-cli/](apps/zcode-cli/)，作为普通目录随本仓库一起克隆，无需单独拉取或初始化 Git submodule。 根据需要选择其他初始化或构建入口： | 命令 | 用途 | | ------------------------------ | ----------------------------------------------------------------- | | `pnpm install` | 安装依赖 | | `pnpm prepare:desktop-runtime` | 准备桌面运行资源，默认包含远程资源准备 | | `pnpm prepare:remote-assets` | 单独准备远程运行资源 | | `pnpm bootstrap:with-remote` | 初始化依赖、本地与远程资源，并串行构建相关包；跳过桌面应用 bundle | | `pnpm build` | 递归执行各 workspace 包的构建脚本，包括包内的资源准备步骤 | 默认 `bootstrap` 跳过远程资源准备，适合本地桌面开发。使用远程工作区或验证远程发行资源时，再运行对应准备命令。 ## 开发与运行 ### 桌面版 ```bash pnpm dev:desktop # 使用测试环境 pnpm dev:desktop:test ``` `pnpm dev:desktop` 默认等同于 `pnpm dev:desktop:prod`，使用生产服务配置。启动脚本会准备本地运行资源、构建桌面 Agent，再启动 Electron 和源码监听。 需要独立开发数据目录时，可设置 `ZCODE_DATA_BASE_DIR`。例如在 macOS / Linux 中： ```bash ZCODE_DATA_BASE_DIR=\"$HOME/.zcode-dev-home\" pnpm dev:desktop:test ``` ### 远程功能（SSH/WSL） 先执行 `pnpm bootstrap:with-remote` 准备远程资源（mock-cdn），再 `pnpm dev:desktop`；连接远程项目时资源选择「本地下载后上传」。开发态资源取自本地 `packages/desktop/mock-cdn` 和本地构建产物，经 SFTP 上传到远程，不访问 CDN。 ### Web 开发 修改 Web 或后端源码时，使用开发模式： ```bash pnpm dev:web # 指定后端工作区（macOS / Linux） ZCODE_SERVER_WORKSPACE=/pa",
+   "authors": [],
+   "orgs": [
+    "zai-org"
+   ],
+   "published": "2026-09-24T09:51:45+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/zai-org/ZCode",
+     "signal": "★ 6,643（新项目） · TypeScript",
+     "metric": 6643
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Z.ai 开源编程智能体工作台 ZCode",
+   "summary_zh": "Z.ai 开源 ZCode，提供桌面应用、浏览器界面和终端 Agent 三种形态，含客户端、后端服务与 Agent CLI 运行时源码，GitHub 已获 6600+ 星。",
+   "highlights_zh": [
+    "支持桌面（Electron）、浏览器、终端三种使用方式，覆盖不同开发场景",
+    "Agent CLI 与运行时源码随仓库克隆，无需单独拉取 submodule",
+    "需 Node.js 24.14.0 与 pnpm 10.33.2，通过 pnpm bootstrap 一键初始化"
+   ],
+   "why_zh": "如果你在选型编程智能体工具，可以对比 ZCode 与 Claude Code、Cursor 的架构差异。",
+   "tags": [
+    "智能体",
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.64,
+   "score_llm": 6.0,
+   "score": 0.616,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T09:51:45+00:00",
+   "mirror_pdf": "pdf/web-11c0e859fa41.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/zai-org/ZCode"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-72c605ffebc3",
+   "kind": "article",
+   "title": "mizorewww/laya-mlx",
+   "url": "https://github.com/mizorewww/laya-mlx",
+   "pdf_url": "",
+   "abstract": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.\nREADME: # Laya-MLX ![Laya MLX playing Snake — actual decisions, original speed](https://raw.githubusercontent.com/mizorewww/laya-mlx/main/docs/assets/snake-demo.gif) **Open-weight typed decisions, running natively on Apple Silicon.** **13.4 ms** median end-to-end for a short English typed decision. **7.4 ms** with the multilingual checkpoint. **0 output tokens.** Local MLX inference, with no PyTorch, Transformers runtime, or cloud API. [中文](https://github.com/mizorewww/laya-mlx/blob/main/README.zh-CN.md) · [Benchmarks](https://github.com/mizorewww/laya-mlx/blob/main/BENCHMARKS.md) · [Snake demo](https://github.com/mizorewww/laya-mlx/blob/main/docs/SNAKE_DEMO.md) · [Hugging Face weights](https://huggingface.co/aac6fef/laya-mlx) The GIF is an original-speed render of a real local Snake run. Every move calls Laya; the visible cycle safety layer can correct unsafe proposals. The latency figures above are the separate **one-question API benchmark**, not the frame time of the three-question Snake loop. [Watch the 30-second MP4](https://github.com/mizorewww/laya-mlx/blob/main/docs/assets/snake-demo.mp4) · [Snake speed and stability](https://github.com/mizorewww/laya-mlx/blob/main/docs/SNAKE_BENCHMARKS.md). ## Quick start ```bash pip install laya-mlx ``` ```python import laya_mlx as laya agent = laya.load(\"aac6fef/laya-mlx\") result = agent.predict( \"I was billed twice. Please refund the duplicate.\", { \"department\": { \"type\": \"choice\", \"instructions\": \"Who should handle this?\", \"criteria\": [\"",
+   "authors": [],
+   "orgs": [
+    "mizorewww"
+   ],
+   "published": "2026-09-24T09:51:45+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/mizorewww/laya-mlx",
+     "signal": "★ 6,109（新项目） · Python",
+     "metric": 6109
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Laya-MLX：Apple 芯片上的原生类型化决策运行时",
+   "summary_zh": "Laya-MLX 在 Apple Silicon 上原生运行类型化决策模型，短决策中位延迟 13.4ms、多语言版 7.4ms，零输出 token，不依赖 PyTorch 或云 API。",
+   "highlights_zh": [
+    "pip install laya-mlx 即可使用，权重托管在 Hugging Face",
+    "面向「类型化决策」而非文本生成，适合游戏 AI、分类等低延迟场景",
+    "Snake 演示展示真实本地推理，含可见的循环安全层修正不安全提议"
+   ],
+   "why_zh": "如果你在做 Apple 端低延迟决策类应用，可以用它替代云端 API 调用。",
+   "tags": [
+    "效率与系统",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.64,
+   "score_llm": 6.0,
+   "score": 0.616,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T09:51:45+00:00",
+   "mirror_pdf": "pdf/web-72c605ffebc3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/mizorewww/laya-mlx"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7a2c931fe410",
+   "kind": "article",
+   "title": "unreallabsai/unreal-agent",
+   "url": "https://github.com/unreallabsai/unreal-agent",
+   "pdf_url": "",
+   "abstract": "Async-first agent harness\nREADME: # Unreal Agent An async-first agent harness from Unreal Labs. - [harness/](harness/) — the library. - [cmd/](cmd/) — executables that use the library. - [benchmarks/](benchmarks/) — benchmark runners. ## Glossary - **Input**: an event with a caller-supplied globally unique ID that remains stable across redeliveries. - **Inbox**: session-scoped, in-memory deduplication of external, control, and crash inputs. - **Session**: append-only persisted history that can be forked. - **LLM turn**: the coordinator-managed sequence around one logical LLM request. - **Tool**: a capability described by a schema and bound to a translator. - **Tool call**: a model-produced request to use a tool. - **Tool translator**: validates a tool call and translates it into one or more operations. It runs synchronously on the coordinator's event loop and must not perform I/O or suspend the loop. - **Tool call status**: the translation outcome: a validation error or references to submitted operations. Operation execution state is tracked separately; the translator formats these into a model-facing result. - **Operation**: a serializable description of work produced by a tool translator for asynchronous execution. Implementations are encouraged to use the available [primitives](harness/primitives/). ## Components | Component | Responsibility | | --- | --- | | Session inbox | Volatile, session-scoped input idempotency. | | Coordinator | Persist accepted inputs, run LLM turns, resolve tool translators throug",
+   "authors": [],
+   "orgs": [
+    "unreallabsai"
+   ],
+   "published": "2026-09-24T09:51:45+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/unreallabsai/unreal-agent",
+     "signal": "★ 1,823（新项目） · Go",
+     "metric": 1823
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Unreal Agent：异步优先的智能体脚手架",
+   "summary_zh": "Unreal Labs 开源异步优先的 agent harness，核心抽象包括会话、LLM 回合、工具翻译器与异步操作，工具翻译器同步运行于协调器事件循环且禁止 I/O。",
+   "highlights_zh": [
+    "以 Input/Inbox/Session 三层抽象管理事件去重与可 fork 的追加式历史",
+    "工具调用经翻译器转为可序列化的异步 Operation，执行状态独立追踪",
+    "Go 语言实现，含 harness 库、可执行程序与基准测试运行器"
+   ],
+   "why_zh": "如果你在设计高并发智能体运行时，可以参考其异步操作与工具翻译器分离的架构。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.6045,
+   "score_llm": 6.0,
+   "score": 0.6018,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T09:51:45+00:00",
+   "mirror_pdf": "pdf/web-7a2c931fe410.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/unreallabsai/unreal-agent"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f6357bd1f7e4",
+   "kind": "article",
+   "title": "5分钟完成机器人纳管、10秒启动跨集群任务，清华大学联合无问芯穹开源具身智能云原生平台RLark",
+   "url": "https://www.qbitai.com/2026/09/496767.html",
+   "pdf_url": "",
+   "abstract": "开源一座具身智能的新“塔台”",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-09-24T05:19:55+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/09/496767.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "清华联合无问芯穹开源具身智能云原生平台RLark",
+   "summary_zh": "清华大学联合无问芯穹开源具身智能云原生平台RLark，5分钟完成机器人纳管、10秒启动跨集群任务。",
+   "highlights_zh": [
+    "开源具身智能云原生平台，支持机器人快速纳管",
+    "跨集群任务启动仅需10秒，提升训练与调度效率",
+    "面向具身智能的基础设施层，降低多机管理门槛"
+   ],
+   "why_zh": "做具身智能集群训练与机器人管理的团队可直接试用。",
+   "tags": [
+    "机器人",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T09:51:45+00:00",
+   "mirror_pdf": "pdf/web-f6357bd1f7e4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/09/496767.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d43bffe230ed",
+   "kind": "article",
+   "title": "从数人头到数智能体：一场正在发生的企业生产力换血",
+   "url": "http://www.geekpark.net/news/371011",
+   "pdf_url": "",
+   "abstract": "用了 AI、消耗了 Token，不一定就是 AI 原生组织，但不用肯定没有机会。 作者｜Li Yuan 编辑｜ 郑玄 先让许多管理者感到危险的，往往不是行业里又冒出了什么新技术概念，而是身边的同行突然拿出了完全看不懂的交付速度和报价单。 这种压迫感在今年变得极其具体：老牌企业正在把成群的智能体塞进核心生产线，甩掉繁琐的流程包袱；而那些从第一天起就生长在 AI 上的轻量团队，几个人就能直接撬动过去上千人公司的研发与交付产能。 当两拨底子完全不同的人在同一个市场里正面碰撞，企业间原有的体量界限正在被彻底击碎——竞争的胜负手不再取决于你积累了多少年的组织规模，而取决于业务链条上有多少比例被机器智能真正接管。 在今年云栖大会一场名为「AI 原生重塑企业生产力」的论坛上，这种分水岭被摆上了台面。 掌管着千问办公事业部（原钉钉）数亿用户盘子的陈宇森直言， 现在给任何组织贴「AI Native」的虚名都毫无意义，唯一的度量衡极其务实：去数一家企业里到底有多少工作量是由 AI 真实闭环的。 换句话说，谁能让智能体深度接管真实流水线，谁就拿到了新周期的入场券。 这种接管不是停留在设想里，数据已经在反映全行业的真实动作。 在阿里巴巴最新披露的数据中，与 Token 相关的 MaaS 业务 ARR 达到 160 亿元，加上 AI 云后超过 400 亿元。每一次调用的背后，都不再是玩具般的问答，而是一个个正在替企业写报价、查底稿、画图纸的数字员工。 当企业开始用这种方式重组流水线，竞争的标尺已经从你雇了多少物理员工（Headcount），不可逆地滑向你能调度多少智能体（AgentCount）。 01 AI 原生化，正在发生在不同年龄的企业里 很长一段时间里，大多数人对 AI 的理解其实相当局限：起初它只是实验室里算力惊人的模型，后来变成了手机里偶尔尝鲜的对话框，帮员工润色邮件、搜集资料或生成几张配图。在那个阶段，它不过是个锦上添花的小工具，没人真敢把身家性命托付给它。 但今年，这层浅尝辄止的外壳正在被迅速打破。 张亮在现场给出了一个极其清晰，行业在使用 AI 上的三阶段演进路径：最开始是每位员工各自找个 AI 工具辅助摸索；接着是把 Agent 嵌进企业私有数据和工作流，实现人机协同；最终则是将专业经验提炼蒸馏为云端大脑，形成可沉淀、可复用的数字资产。 在张亮看来，最直观的改变是「边界在消融」：个人开发者转变成一家公司，或者小公司快速成长为大公司，界限已不清晰；几个人的公司可能在做很大的事情，一个人也可能运转以前一家公司做的事，很难再按组织人数的大中小来区分公司。 这种边界的消融，给不同年龄的企业带来了截然不同、却同样剧烈的震荡： 对于没有任何历史包袱的创新团队，这意味着出生即可「以小搏大」。 做工业级电子设计的成都派兹互连就是个极好的样本。EDA 软件向来是国际巨头靠上千名工程师、几十年的设计规则和按席位卖上百万的单机软件筑起的深宅大院。但派兹互连一支几十人的轻量研发团队，把整个设计引擎、规则库与经验沉淀搬上了云端，用多智能体协同把工业容错率咬死在 100% 的 DRC 符合线上，直接跑通了全流程的电路板设计。 带来的结果是颠覆性的：相较于传统人工操作，器件建库和文档识别准确率稳定在 95% 以上，分组处理速度暴力提升了 100 倍以上，规则层合并解决率达到 90%，数据上传速度加快 5 倍 ()。一支过去按行业惯例需要上千人才能维持的研发团队，借由云端资产的复利，用极低的人力成本完成了对海外巨头技术壁垒的正面突破。 而对于体量庞大、流程盘根错节的成熟企业，破局的关键",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-09-24T08:13:08+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/371011",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "从数人头到数智能体：企业生产力换血",
+   "summary_zh": "极客公园报道云栖大会论坛观点：企业竞争标尺正从员工人数转向可调度的智能体数量，阿里Token相关MaaS业务ARR达160亿元，派兹互连等团队用多智能体跑通工业级EDA全流程。",
+   "highlights_zh": [
+    "阿里Token相关MaaS ARR达160亿元，加AI云超400亿元",
+    "AI使用三阶段：个人工具→Agent嵌入工作流→经验蒸馏为云端数字资产",
+    "几十人团队用多智能体跑通工业级EDA，处理速度提升百倍"
+   ],
+   "why_zh": "理解企业AI落地从概念到真实闭环的关键拐点",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T09:51:45+00:00",
+   "mirror_pdf": "pdf/web-d43bffe230ed.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/371011"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-25fe3d387314",
+   "kind": "article",
+   "title": "ArXiv receives multiyear commitments to support it as an independent nonprofit",
+   "url": "https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-09-23T22:45:49Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49823664",
+     "signal": "183 pts",
+     "metric": 183
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "arXiv 获多年承诺，独立非营利地位巩固",
+   "summary_zh": "arXiv 获得多方多年资金承诺，将以独立非营利机构运营，保障这一 AI 论文主阵地的长期稳定。",
+   "highlights_zh": [
+    "arXiv 转为独立非营利",
+    "获多年资金承诺",
+    "对 AI 研究生态意义重大"
+   ],
+   "why_zh": "arXiv 是 AI 研究基础设施，其稳定关乎整个学界。",
+   "tags": [
+    "科学AI",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.5645,
+   "score_llm": 6.0,
+   "score": 0.5858,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T09:51:45+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49823664"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f7558dc5c9de",
+   "kind": "article",
+   "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+   "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+   "pdf_url": "",
+   "abstract": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-09-23T12:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Harvey 用 GPT-6 Astra 强化法律文书起草",
+   "summary_zh": "法律 AI 公司 Harvey 借助 GPT-6 Astra 生成更结构化、贴合上下文的法律文书，让律师专注策略。",
+   "highlights_zh": [
+    "GPT-6 Astra 落地法律场景",
+    "文书更结构化、上下文感知",
+    "垂直行业 AI 应用案例"
+   ],
+   "why_zh": "观察前沿模型在专业垂直领域的落地效果。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 6.0,
+   "score": 0.576,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T09:51:45+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b6ac7fdedd6c",
+   "kind": "article",
+   "title": "启仔远仔，想成为第一个被你带回家的硅基伙伴",
+   "url": "https://www.leiphone.com/category/ai/egX12nldi7K2aLbu.html",
+   "pdf_url": "",
+   "abstract": "概念机满天飞的赛道里，启元机器人备好货，等你来拿。 作者丨 邓哲敏 编辑丨 齐铖湧 过去两年，人形机器人赛道的热闹程度不亚于当年的新能源汽车。融资消息此起彼伏，发布会一场接一场，PPT上的参数越写越漂亮，演示视频里的动作越来越流畅。资本、媒体和技术人才都在往这条赛道涌入，行业整体确实向前走了一大步。 但做出来和交出去之间隔着一条工业化的鸿沟。 截至目前，整个消费级具身智能赛道累计出货量约 3 万台，且多数是以内测、体验、企业采购等形式流出，真正意义上面向普通消费者、下单就能拿到手的量产机器人，几近于无。研发能力、量产能力、供应链能力、定价能力，这四道关卡挡住了绝大多数入局者。 9 月 20 日，启元机器人在上海发布启元 Q1、启元 T1，两款机器人当天开售，基础版本售价 19999 元。这是整个行业第一次有人把量产消费级人形机器人推进市场，且发售即发货，10 月 1 日启元就将按订单陆续发货。 01 Q1与T1，同一个问题的两种回答 启元这次发布的两款机器人，一个叫 Q1（昵称“启仔”、“Q仔”），一个叫 T1（昵 称“ 远仔 ”） 。外形上，两款都在 1 米内，高度接近 2-3 岁孩子，与小朋友视线平齐。稚晖君在台上解释，这不是随机的工程决策，而是走访几十个家庭后得出的结论：视线平视，人与机器人之间的关系才能平等。 从定位上，两款产品回答的都是如何陪伴人，但给出的是截然不同的答案。 ▎ 启元Q1：由你定义 启元Q1 是一款人形机器人，站立高度 88 厘米，22 个自由度。它搭载的自研 QDD 准直驱关节，被内部称之为“鸡蛋关节”，体积与鸡蛋相当，精度却接近工业级谐波力控关节。 从功能上，启元Q1 瞄准了三类人群：孩子、潮玩爱好者、开发者。 对孩子而言，启元Q1 是一台更高级的学习机：支持图形化编程，通过简单拖拉拽，生成动作指令；内置具身 AI 启蒙课，和编程猫、有道、喜马拉雅等机构联合开发；可以进行英语问答，帮小孩营造沉浸式语言环境；可以陪伴探索、回答问题，充当实体版的 AI 助手。稚晖君在台上强调，这一切的价值不在于知识本身，而在于孩子参与进来、亲手做出来的感觉。 对潮玩爱好者而言，启元Q1 是这个赛道上目前唯一支持 3D 打印外壳的人形机器人。通过 PrimeFLOW 创作平台，用户输入创意、上传参考图，平台自动生成可打印、可装配的外壳结构文件，连内部关节适配都一并处理。现场展示的外观里，有马里奥皮肤、哆啦 A 梦皮肤，也有包裹得浑然一体、几乎看不到机器人本体的造型。据启元机器人官方介绍，能换的不只是外壳，机器人的性格、专属动作、说话语气和音色，都可以随之自定义。这赋予了启元 Q1 一个在行业内极为罕见的属性： 每台Q1，都能长成独属于主人的样子。 对开发者而言，启元Q1 探索版支持全栈二开，从底层关节电流控制到上层 AI 交互，开放超过 100 项原子能力，配套一站式仿真平台，Vibe Coding 方式也可对话式开发，完成后可在社区直接发布分享。 启元Q1 目前没有接入灵巧手，五指结构尚不具备精细操作能力。我们问了现场技术人员，灵巧手还在研发中，这一接口未来保持开放。 ▎ 启元T1：陪你出发 启元T1 在雷峰网看来是更具工程野心的一款。它是目前全球唯一一款可变形个人机器人，采用行业首创的 Transformer 跨形态一体架构，可以 在轮式人形和四足机器人两种形态之间无缝切换 ，切换的过程不需要人干预，变形动作流畅，甚至可以说有些炫酷。现场看到 T1 一个后空翻，从四足形态切换到轮式人形，真的很像变形金刚。 启元T1 站立高 度 约为1",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-09-23T04:59:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/egX12nldi7K2aLbu.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "启元发布首款量产消费级人形机器人，19999元开售即发货",
+   "summary_zh": "启元机器人发布Q1与T1两款消费级人形机器人，基础版19999元当天开售、10月起按订单发货，主打陪伴、可定制外壳与开发者二次开发，是行业首次真正面向普通消费者量产交付。",
+   "highlights_zh": [
+    "Q1高88厘米、22自由度，支持3D打印外壳与性格音色自定义，面向孩子、潮玩与开发者",
+    "T1为全球首款可变形个人机器人，采用跨形态一体架构",
+    "行业累计出货约3万台，多为内测/企业采购，真正量产零售几近于无"
+   ],
+   "why_zh": "消费级具身智能从概念走向量产交付的关键节点，值得关注供应链与定价能力。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T09:51:45+00:00",
+   "mirror_pdf": "pdf/web-b6ac7fdedd6c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/egX12nldi7K2aLbu.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ae41e8c4d84d",
+   "kind": "article",
+   "title": "29 小时攻破浏览器，GPT-6 Astra 成为 OpenAI 首个“严重级”模型",
+   "url": "https://www.infoq.cn/article/b5oxzJyafr0lkZexoo8E?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Steef-Jan Wiggers"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-09-24T16:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/b5oxzJyafr0lkZexoo8E?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "GPT-6 Astra 29小时攻破浏览器，成OpenAI首个严重级模型",
+   "summary_zh": "GPT-6 Astra在29小时内攻破浏览器，被评定为OpenAI首个“严重级”安全等级模型，凸显前沿模型在自主攻击能力上的跃升。",
+   "highlights_zh": [
+    "29小时完成浏览器攻破任务",
+    "OpenAI首个被标为严重级的模型",
+    "对模型安全评估与部署门槛提出新问题"
+   ],
+   "why_zh": "前沿模型攻击能力升级的安全信号，对齐与安全从业者应关注。",
+   "tags": [
+    "对齐与安全",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T09:51:45+00:00",
+   "mirror_pdf": "pdf/web-ae41e8c4d84d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/b5oxzJyafr0lkZexoo8E?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cb6f4b852a67",
+   "kind": "article",
+   "title": "GPT-6猛砍价，Opus 5.5忙“变好用”：模型价格战，已经不能只看API定价",
+   "url": "https://www.infoq.cn/article/VSIsPFiO2hrjBi30wDfE?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "褚杏娟"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-09-24T13:44:32+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/VSIsPFiO2hrjBi30wDfE?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "GPT-6猛砍价、Opus 5.5拼好用：模型价格战不能只看API定价",
+   "summary_zh": "文章指出GPT-6大幅降价、Opus 5.5转向提升易用性，模型竞争已从单纯API定价转向综合成本与体验的较量。",
+   "highlights_zh": [
+    "GPT-6激进降价，Opus 5.5主打可用性",
+    "价格战需结合推理成本、缓存、工具调用等综合评估",
+    "反映头部模型厂商竞争策略分化"
+   ],
+   "why_zh": "理解模型定价与竞争格局变化的行业分析，对选型有参考价值。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T09:51:45+00:00",
+   "mirror_pdf": "pdf/web-cb6f4b852a67.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/VSIsPFiO2hrjBi30wDfE?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8d42ae4825e2",
+   "kind": "article",
+   "title": "OpenAI、Anthropic同日模型大战，“是兄弟就砍一刀”",
+   "url": "https://www.tmtpost.com/8151026.html",
+   "pdf_url": "",
+   "abstract": "刀刀见骨，AI巨头为自己画过的大饼“填窟窿”",
+   "authors": [
+    "光锥智能"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-09-24T08:43:47+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8151026.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI 与 Anthropic 同日发布新模型正面交锋",
+   "summary_zh": "OpenAI 与 Anthropic 同日推出新模型展开正面竞争，双方在能力与定价上互有攻防，反映头部大模型厂商竞争进入贴身肉搏阶段。",
+   "highlights_zh": [
+    "两大头部厂商同日发布，节奏针锋相对",
+    "竞争焦点从能力扩展到价格与生态",
+    "反映大模型市场格局加速洗牌"
+   ],
+   "why_zh": "了解头部大模型竞争的最新态势与市场信号。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T09:51:45+00:00",
+   "mirror_pdf": "pdf/web-8d42ae4825e2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8151026.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0220b7edffbd",
+   "kind": "article",
+   "title": "造车的人，造手机的人，和造机器人的人",
+   "url": "https://www.tmtpost.com/8151470.html",
+   "pdf_url": "",
+   "abstract": "人形机器人、具身智能、量产交付、组织能力、车企造机器人、手机厂商造机器人、优必选、成本闭环。",
+   "authors": [
+    "舒书"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-09-24T04:35:30+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8151470.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "造车、造手机与造机器人：具身智能的跨界混战",
+   "summary_zh": "文章分析车企与手机厂商纷纷入局人形机器人与具身智能，探讨量产交付、成本闭环与组织能力等核心挑战。",
+   "highlights_zh": [
+    "车企与手机厂商跨界造机器人的动机与路径",
+    "具身智能的量产交付与成本闭环难题",
+    "以优必选等为例剖析行业竞争格局"
+   ],
+   "why_zh": "把握具身智能赛道的产业玩家与商业化路径。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T09:51:45+00:00",
+   "mirror_pdf": "pdf/web-0220b7edffbd.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8151470.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-778c40573fb3",
+   "kind": "article",
+   "title": "教机器人干活，光“刷课时”可不够！灵初这次较真数据质量",
+   "url": "https://www.qbitai.com/2026/09/496778.html",
+   "pdf_url": "",
+   "abstract": "专治人机动作对不齐",
+   "authors": [
+    "思邈"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-09-24T05:45:20+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/09/496778.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "灵初：教机器人干活，数据质量比刷课时更关键",
+   "summary_zh": "灵初指出机器人训练中数据质量比数据量更重要，针对人机动作对齐问题提出改进方案。",
+   "highlights_zh": [
+    "质疑「刷课时」式堆数据量的训练思路",
+    "聚焦人机动作对齐这一数据质量核心痛点",
+    "为具身智能数据采集与标注提供新视角"
+   ],
+   "why_zh": "做机器人数据采集与训练的人可参考其数据质量思路。",
+   "tags": [
+    "机器人",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T09:51:45+00:00",
+   "mirror_pdf": "pdf/web-778c40573fb3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/09/496778.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-762cf4d7418e",
+   "kind": "article",
+   "title": "OpenAI is enlisting an influencer army to make it look 'good for the world'",
+   "url": "https://www.businessinsider.com/inside-open-ai-influencer-marketing-strategy-chatgpt-ads-sponsorships-instagram-2026-9",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-09-23T12:32:00Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49815127",
+     "signal": "211 pts",
+     "metric": 211
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 招募网红大军塑造「造福世界」形象",
+   "summary_zh": "报道称 OpenAI 正借助网红营销改善公众形象，反映头部 AI 公司在舆论与监管压力下的公关策略转向。",
+   "highlights_zh": [
+    "OpenAI 加大舆论公关投入",
+    "网红营销成 AI 公司新手段",
+    "折射行业信任危机"
+   ],
+   "why_zh": "了解头部 AI 公司如何应对公众与监管压力。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5711,
+   "score_llm": 5.0,
+   "score": 0.5284,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T09:51:45+00:00",
+   "mirror_pdf": "pdf/web-762cf4d7418e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.businessinsider.com/inside-open-ai-influencer-marketing-strategy-chatgpt-ads-sponsorships-instagram-2026-9"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49815127"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5bc873cae3e1",
+   "kind": "article",
+   "title": "[AINews] Meta Connect 2026: Muse glasses, voice, video, and Charm",
+   "url": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
+   "pdf_url": "",
+   "abstract": "Team Zuck is absolutely on fire.",
+   "authors": [
+    "swyx"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-09-24T08:12:59+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Meta Connect 2026：Muse眼镜、语音、视频与Charm",
+   "summary_zh": "Latent Space对Meta Connect 2026的简评，涉及Muse智能眼镜、语音视频功能及Charm，但摘要信息量极少，仅一句评价。",
+   "highlights_zh": [
+    "Meta发布Muse智能眼镜",
+    "涉及语音与视频能力",
+    "提及Charm产品"
+   ],
+   "why_zh": "Meta硬件发布会动态，但内容过于简略",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 5.0,
+   "score": 0.52,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T09:51:45+00:00",
+   "mirror_pdf": "pdf/web-5bc873cae3e1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3f09809c80e7",
+   "kind": "article",
+   "title": "WSO2 发布 Agent Manager，企业寻求应对日益严重的 AI Agent 泛滥问题",
+   "url": "https://www.infoq.cn/article/4gr5Zt9GZoyIwF2f6LvR?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Craig Risi"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-09-24T17:25:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/4gr5Zt9GZoyIwF2f6LvR?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "WSO2推出Agent Manager应对企业AI Agent泛滥",
+   "summary_zh": "WSO2发布Agent Manager，针对企业内部AI Agent数量激增带来的管理、治理与协调问题提供统一管控方案。",
+   "highlights_zh": [
+    "面向企业AI Agent泛滥的治理与生命周期管理",
+    "反映Agent规模化落地后的运维痛点",
+    "原文需点击查看，细节有限"
+   ],
+   "why_zh": "Agent治理工具化趋势的信号，但摘要信息不足，价值待原文确认。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T09:51:45+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/4gr5Zt9GZoyIwF2f6LvR?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "模型价格战实质是梯队重命名，中端市场才是真正战场",
-   "why": "GPT-6 Sol降价实为原中端平移，最强模型仅占网关支出3.7%，开源模型以86%折扣吃下多数token量。",
+   "trend": "模型价格战实为梯队平移，中端市场才是真正战场",
+   "why": "GPT-6 Sol降价实为原中端Terra平移，最强模型仅占网关支出3.7%，开源模型以86%折扣占据多数token量。",
    "refs": [
     "web-eb781c3c723f",
     "web-0bc84f8dffce",
@@ -3207,36 +4478,34 @@
    ]
   },
   {
-   "trend": "智能体运行时正从框架走向基础设施，沙箱密度与编排成新竞争维度",
-   "why": "Google同日开源AX编排运行时与Agent Substrate高密度沙箱，密度提升10倍、亚500ms恢复，对标K8s式集群调度。",
+   "trend": "智能体运行时与沙箱密度成为基础设施竞争新焦点",
+   "why": "Google同日开源AX编排运行时与Agent Substrate高密度运行时，沙箱密度提升10倍、亚500ms恢复。",
    "refs": [
     "web-dd09a96a5899",
     "web-d8f89cac2cc1"
    ]
   },
   {
-   "trend": "上下文管理从摘要压缩转向决策模型逐条裁决，成为智能体工程新拐点",
-   "why": "fast-jev-compaction用决策模型逐条打分替代摘要，避免丢失文件路径与报错；Jev、Kev等轻量决策模型密集涌现。",
+   "trend": "上下文管理从摘要压缩转向决策模型逐条筛选",
+   "why": "fast-jev-compaction用决策模型逐条打分替代摘要，Jev以1.2亿Token补贴推动小决策模型接管Agent规则节点。",
    "refs": [
     "web-5d1053d9f00a",
-    "web-7f309519de9e",
-    "web-df1b69fb5715"
+    "web-df1b69fb5715",
+    "web-7f309519de9e"
    ]
   },
   {
-   "trend": "评测基准开始瞄准生产正确性，本地跑通与线上可用的鸿沟被量化",
-   "why": "SWE-Serve用53个SGLang真实生产变更评测，最佳配置仅75% pass@1；阿里云栖亦推统一评测标尺。",
+   "trend": "评测基准从本地跑通向生产正确性迁移",
+   "why": "SWE-Serve用53个真实生产变更评测智能体，最佳配置仅75% pass@1，暴露本地与生产间巨大差距。",
    "refs": [
     "arxiv-2609.26777",
-    "web-c7ba0c67a149",
-    "web-1d5a9cc2d950"
+    "web-c7ba0c67a149"
    ]
   },
   {
-   "trend": "AI基础科学发现与军事误击同现，能力外溢速度超过治理框架",
-   "why": "Claude智能体发现类CRISPR酶系统，同期五角大楼承认过度依赖AI致误击，Altman在安理会呼吁全球协调。",
+   "trend": "AI安全风险从理论讨论进入现实问责阶段",
+   "why": "五角大楼承认过度依赖AI致伊朗学校误击，Altman在联合国安理会呼吁全球协调治理。",
    "refs": [
-    "web-8c50fe1c6153",
     "web-0c1f08af0fbd",
     "web-01d4e543c941"
    ]

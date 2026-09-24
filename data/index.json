@@ -1,12 +1,13 @@
 {
- "updated": "2026-09-24T03:28:06+00:00",
+ "updated": "2026-09-24T09:51:45+00:00",
  "days": [
   {
    "date": "2026-09-24",
-   "count": 58,
+   "count": 79,
    "slots": {
     "morning": 39,
-    "noon": 19
+    "noon": 19,
+    "evening": 21
    }
   },
   {
@@ -17,32 +18,33 @@
    }
   }
  ],
- "total": 69,
+ "total": 90,
  "last_run": {
-  "at": "2026-09-24T03:28:06+00:00",
-  "slot": "noon",
-  "candidates": 138,
-  "new": 83,
-  "stale": 19,
-  "judged": 80,
-  "selected": 19,
-  "mirrored": 19,
+  "at": "2026-09-24T09:51:45+00:00",
+  "slot": "evening",
+  "candidates": 202,
+  "new": 130,
+  "stale": 25,
+  "judged": 93,
+  "selected": 21,
+  "mirrored": 18,
   "by_category": {
-   "观点": 2,
-   "技术": 2,
+   "技术": 4,
+   "资讯": 13,
    "项目": 3,
-   "资讯": 12
+   "观点": 1
   },
   "by_source": {
-   "HF Daily Papers": 9,
-   "Hacker News": 8,
+   "HF Daily Papers": 14,
+   "arXiv 新论文": 60,
+   "Hacker News": 11,
    "量子位": 10,
    "极客公园": 6,
-   "IT之家": 12,
-   "爱范儿": 8,
+   "IT之家": 11,
+   "爱范儿": 9,
    "少数派": 1,
-   "雷峰网": 13,
-   "钛媒体": 5,
+   "雷峰网": 14,
+   "钛媒体": 2,
    "InfoQ 中文": 15,
    "Simon Willison": 1,
    "Nathan Lambert": 1,
@@ -52,7 +54,6 @@
    "Tomasz Tunguz": 1,
    "Zvi Mowshowitz": 2,
    "Hugging Face Blog": 1,
-   "METR": 1,
    "OpenAI": 13,
    "Google DeepMind": 2,
    "NVIDIA": 3,
