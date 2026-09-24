@@ -1,12 +1,12 @@
 == token permissions check
 {"id":"8316f0ee63132f4056f30b6fc086a8d2","status":"active"}
 == attach dailyaibot.com to Pages project
-{"success":true,"errors":[],"status":"initializing"}
+{"success":false,"errors":[{"code":8000018,"message":"You have already added this custom domain. Select another custom domain or check your project configuration."}],"status":null}
 == attach www.dailyaibot.com to Pages project
-{"success":true,"errors":[],"status":"initializing"}
+{"success":false,"errors":[{"code":8000018,"message":"You have already added this custom domain. Select another custom domain or check your project configuration."}],"status":null}
 == zone lookup
 == zone not in Cloudflare yet: creating it (free plan, full setup)
 {"success":false,"errors":[{"code":0,"message":"Requires permission \"com.cloudflare.api.account.zone.create\" to create zones for the selected account"}],"status":null}
 zone dailyaibot.com not visible and could not be created (token lacks Zone permissions)
 == domain status
-[{"name":"dailyaibot.com","status":"initializing","verification":"pending","validation":"initializing"},{"name":"www.dailyaibot.com","status":"initializing","verification":"pending","validation":"initializing"}]
+[{"name":"dailyaibot.com","status":"pending","verification":"pending","validation":"pending"},{"name":"www.dailyaibot.com","status":"pending","verification":"pending","validation":"pending"}]
