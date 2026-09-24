@@ -3196,6 +3196,61 @@
    "mt": false
   },
   {
+   "id": "web-659ca3599472",
+   "kind": "article",
+   "title": "Thinking in Systems, Shipping in Loops",
+   "url": "https://tomtunguz.com/thinking-in-systems/",
+   "pdf_url": "",
+   "abstract": "AI has removed the typing from software engineering & left the system design. DHH told Rails World that writing code by hand is no longer economically productive ; Artemis engineers merged 16 pull requests per day by August, & Lauren Tan ships 2,000 a month. The craft of fitting code together by hand is over ; what remains is designing the loop that decides whether the output is right. Donella Meadows's three properties of great system design, resilience, self-organization & hierarchy, describe how those loops are built. The architect's drafting table was always scarce because the foundation was scarce, not the talent.",
+   "authors": [
+    "Tomasz Tunguz"
+   ],
+   "orgs": [
+    "Tomasz Tunguz"
+   ],
+   "published": "2026-09-24T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Tomasz Tunguz",
+     "authority": 0.75,
+     "url": "https://tomtunguz.com/thinking-in-systems/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Theory Ventures 创始人，AI 投资",
+   "title_zh": "系统化思考，循环式交付",
+   "summary_zh": "Tomasz Tunguz 认为 AI 已消除软件工程中的「打字」环节，只剩系统设计；DHH 称手写代码不再经济，工程师转向设计判断输出正确性的循环。",
+   "highlights_zh": [
+    "AI 让手写代码不再经济，工程师角色转向系统设计",
+    "Artemis 工程师日均合并 16 个 PR，Lauren Tan 月交付 2000 个",
+    "用 Donella Meadows 的韧性、自组织、层级三原则设计交付循环"
+   ],
+   "why_zh": "一线投资人对 AI 时代软件工程范式转移的清晰判断，值得从业者参考。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T15:47:30+00:00",
+   "mirror_pdf": "pdf/web-659ca3599472.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://tomtunguz.com/thinking-in-systems/"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "arxiv-2609.28256",
    "kind": "paper",
    "title": "MemBodied: Recurrent Associative Memory for Vision-Language-Action Models",
@@ -3369,6 +3424,167 @@
    "mt": false
   },
   {
+   "id": "web-4260c244130c",
+   "kind": "article",
+   "title": "vectorize-io/hindsight",
+   "url": "https://github.com/vectorize-io/hindsight",
+   "pdf_url": "",
+   "abstract": "Star vectorize-io / hindsight Hindsight: Agent Memory That Learns\nREADME: ![Hindsight Banner](./hindsight-docs/static/img/hindsight-github-banner.png) [Documentation](https://hindsight.vectorize.io) • [Integrations](https://hindsight.vectorize.io/integrations) • [Cookbook](https://hindsight.vectorize.io/cookbook) • [Benchmarks](https://benchmarks.hindsight.vectorize.io/) • [Paper](https://arxiv.org/abs/2512.12818) • [Hindsight Cloud](https://ui.hindsight.vectorize.io/signup) [![Release](https://github.com/vectorize-io/hindsight/actions/workflows/release.yml/badge.svg)](https://github.com/vectorize-io/hindsight/actions/workflows/release.yml) [![Version](https://img.shields.io/pypi/v/hindsight-api?logo=python&logoColor=white&label=version&color=blue)](https://pypi.org/project/hindsight-api/) [![PyPI Downloads](https://img.shields.io/pypi/dm/hindsight-client?logo=pypi&logoColor=white&label=PyPI&color=blue)](https://pypi.org/project/hindsight-client/) [![NPM Downloads](https://img.shields.io/npm/dm/%40vectorize-io%2Fhindsight-client?logo=npm&logoColor=white&label=NPM&color=blue)](https://www.npmjs.com/package/@vectorize-io/hindsight-client) [![Slack Community](https://img.shields.io/badge/Slack-Join%20Community-4A154B?logo=slack)](https://vectorize.io/slack) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) --- ## What is Hindsight? Hindsight™ is an agent memory system built to create smarter agents that learn over time. Most agent memory systems focus on recalling conversation history. Hindsigh",
+   "authors": [],
+   "orgs": [
+    "vectorize-io"
+   ],
+   "published": "2026-09-24T15:47:30+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/vectorize-io/hindsight",
+     "signal": "★ 今日 +1,607 · Python",
+     "metric": 1607
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Hindsight：会学习的智能体记忆系统",
+   "summary_zh": "Vectorize 开源 Hindsight，为智能体提供可学习的长期记忆层，配套论文、基准与云服务，今日冲上 GitHub 热榜。",
+   "highlights_zh": [
+    "定位为「会学习的智能体记忆」，解决长任务上下文丢失问题",
+    "提供 Python/TypeScript 客户端与云端托管版本",
+    "附 arXiv 论文与独立基准站点，可复现对比"
+   ],
+   "why_zh": "如果你在搭智能体，可用它替换朴素向量检索，让记忆随使用自我优化。",
+   "tags": [
+    "智能体",
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.64,
+   "score_llm": 7.0,
+   "score": 0.676,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T15:47:30+00:00",
+   "mirror_pdf": "pdf/web-4260c244130c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/vectorize-io/hindsight"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4747a804fd45",
+   "kind": "article",
+   "title": "stablyai/orca",
+   "url": "https://github.com/stablyai/orca",
+   "pdf_url": "",
+   "abstract": "Star stablyai / orca Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.\nREADME: Orca 中文 · 日本語 · 한국어 · Español · Français · Português The AI Orchestrator for 100x builders. Run Codex, ClaudeCode, OpenCode or Pi side-by-side — each in its own worktree, tracked in one place. Download Orca ## Features ### Mobile Companion Monitor and steer your agents from your phone — get notified when an agent finishes and send follow-ups from anywhere. [iOS App Store](https://apps.apple.com/us/app/orca-ide/id6766130217) · [TestFlight](https://testflight.apple.com/join/YjeGMQBA) · [Android APK 0.0.50](https://github.com/stablyai/orca/releases/download/mobile-android-v0.0.50/app-release.apk) · [Docs →](https://www.onorca.dev/docs/mobile) ### Parallel Worktrees Fan one prompt across five agents, each in its own isolated git worktree — compare the results and merge the winner. [Docs →](https://www.onorca.dev/docs/model/worktrees) ### Terminal Splits Ghostty-class terminals with WebGL rendering, infinite splits, and scrollback that survives restarts. [Docs →](https://www.onorca.dev/docs/terminal) ### Design Mode Click any UI element in a real Chromium window to send its HTML, CSS, and a cropped screenshot straight into your agent's prompt. [Docs →](https://www.onorca.dev/docs/browser/design-mode) ### GitHub & Linear, Native Browse PRs, issues, and project boards in-app — open a worktree from any task and review without a context switch. [Docs →](https://www.onorca.dev/docs/review/linear) ### SSH Worktrees Run agents on a beefy remote box with full file editing, git, and termin",
+   "authors": [],
+   "orgs": [
+    "stablyai"
+   ],
+   "published": "2026-09-24T15:47:30+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/stablyai/orca",
+     "signal": "★ 今日 +942 · TypeScript",
+     "metric": 942
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Orca：并行智能体编排工作台",
+   "summary_zh": "Stably 开源 Orca，可同时运行 Codex、Claude Code 等多个编码智能体，各自独立 worktree，并支持手机端监控与跟进。",
+   "highlights_zh": [
+    "同一提示分发到五个智能体，各自独立 git worktree 后择优合并",
+    "支持自带订阅运行任意编码智能体，桌面/移动/远程均可",
+    "内置 Ghostty 级终端与 Design Mode，可把 UI 元素直接喂给智能体"
+   ],
+   "why_zh": "如果你在跑多个编码智能体做并行开发，可用它统一编排、对比与合并结果。",
+   "tags": [
+    "智能体",
+    "代码",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.6209,
+   "score_llm": 7.0,
+   "score": 0.6684,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T15:47:30+00:00",
+   "mirror_pdf": "pdf/web-4747a804fd45.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/stablyai/orca"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-955cd0128b0d",
+   "kind": "article",
+   "title": "strands-agents/harness-sdk",
+   "url": "https://github.com/strands-agents/harness-sdk",
+   "pdf_url": "",
+   "abstract": "Star strands-agents / harness-sdk Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
+   "authors": [],
+   "orgs": [
+    "strands-agents"
+   ],
+   "published": "2026-09-24T15:47:30+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/strands-agents/harness-sdk",
+     "signal": "★ 今日 +463 · Python",
+     "metric": 463
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Harness SDK：端到端掌控智能体脚手架",
+   "summary_zh": "Strands Agents 开源 Harness SDK，用 Python 与 TypeScript 构建并端到端控制生产级智能体，支持任意模型与云。",
+   "highlights_zh": [
+    "面向生产环境的智能体 harness 构建与控制",
+    "同时提供 Python 与 TypeScript SDK",
+    "宣称兼容任意模型与任意云平台"
+   ],
+   "why_zh": "如果你在自建智能体脚手架并需要跨模型跨云，可用它统一编排与观测。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5918,
+   "score_llm": 7.0,
+   "score": 0.6567,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T15:47:30+00:00",
+   "mirror_pdf": "pdf/web-955cd0128b0d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/strands-agents/harness-sdk"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "arxiv-2609.28466",
    "kind": "paper",
    "title": "The Past Frames the Future: Memory for Autoregressive Video Generation",
@@ -3470,6 +3686,171 @@
    "mt": false
   },
   {
+   "id": "web-12e561486478",
+   "kind": "article",
+   "title": "PCIe显卡被低估了！内核补齐+通信重构，DeepSeek推理吞吐翻近7倍",
+   "url": "https://www.qbitai.com/2026/09/496925.html",
+   "pdf_url": "",
+   "abstract": "1.5台6000D跑赢1台B300！",
+   "authors": [
+    "思邈"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-09-24T14:17:48+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/09/496925.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek 推理吞吐提升近 7 倍：PCIe 显卡被低估",
+   "summary_zh": "通过内核补齐与通信重构，DeepSeek 在 PCIe 显卡集群上实现推理吞吐近 7 倍提升，1.5 台 6000D 即可跑赢 1 台 B300。",
+   "highlights_zh": [
+    "PCIe 互联显卡经内核与通信优化后推理吞吐提升近 7 倍",
+    "1.5 台 6000D 性能对标 1 台 B300，性价比优势明显",
+    "为国产算力集群与低成本推理部署提供新思路"
+   ],
+   "why_zh": "关注推理成本与国产算力优化的从业者值得一读。",
+   "tags": [
+    "效率与系统",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T15:47:30+00:00",
+   "mirror_pdf": "pdf/web-12e561486478.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/09/496925.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-64c9420bcdde",
+   "kind": "article",
+   "title": "Agent 时代来了，3D 生成大模型接下来比什么？",
+   "url": "http://www.geekpark.net/news/371031",
+   "pdf_url": "",
+   "abstract": "9 月 3 日，GPT-6 Astra 的发布，把 3D 内容创作带到了舞台中央。 在 GPT-6 Astra 官方发布页的一个不到 3 分钟的视频里与后续解读中，Astra 已经能直接进入 Blender，从一句住宅设计需求开始搭场景，先生成极简住宅，后来又将其扩展为围绕庭院展开的家庭住宅。里面有卧室、办公室、厨房和卫生间；家具从床板、衣柜挂杆、烤箱、餐具抽屉，再到灯光模拟，一应俱全。甚至水槽表面的法线出了问题之后，Astra 还会自己返工。 为了制作 30 秒室内漫游，它还会把相机放在约 1.65 米的人眼高度，用 24—26mm 镜头安排四段运动；进入 Unreal Engine 5 之后，它又自己处理 FBX、JSON、米和厘米的单位差、坐标转换、材质映射、碰撞和第一人称控制。 当通用模型也能做 3D 了，专业 3D 生成模型的价值会发生什么变化？ 当下， 3D 工具的使用者，正逐渐从人 扩展 为 Agent。稳定的生成质量之外， 专业 3D 能力能否被 Agent 理解、调用，并用于后续修改——产品是否 Agent-Ready，正在成为 3D 生成下半场的新门槛。 事实上，前沿通用模型与专业模型的能力之间，并不需要被划成非此即彼的两边。前者能够理解创作目标、调用不同工具，也擅长通过代码生成规则几何体与重复性结构；以 Hyper3D 为代表的专业 3D 生成模型则擅长复杂形体、精细几何和材质的生成。两者可以在同一项任务中协作，也意味着更多人可以通过 Agent 开始创作，专业 3D 能力有机会进入更多工作流。 基于这一理念，Hyper3D 近日上线了最新的智能交互功能 Agentic Mode，将 Hyper3D Rodin 与 LLM 多模态上下文分析能力整合进同一流程，实现自主理解、优化输入，再根据任务选择最合适的建模路径。 值得关注的是，这次更新不只是让生成过程更省事，还把生成能力进一步拓展到工业设计建模——从带尺寸的产品图纸出发，生成可以继续调整的三维模型。 它不是绑定某个通用模型的专属入口，而是内置于 Hyper3D 的能力，让人和不同 Agent 都更容易使用专业 3D 能力。 在这个过程中， 人依然决定创作目标、评判设计取舍，Agent 则可以承担越来越多的具体执行。 01 从创意资产到工业建模， Agentic Mode 补上了什么？ 在进行 3D 生成时，「输入」这一步其实就存在着隐形门槛。 一辆摩托车的参考资料里，可能混着整车正面、侧面、仪表盘、发动机和排气管特写；一张角色设定稿同时画着正面、背面、武器和配件；工业设计人员递过来的，则可能是一张带尺寸标注的产品图纸。 为了更接近想要的生成效果，这些资料在进入生成模型以前，人已经做了不少预处理：先清背景、挑参考图、判断哪些画面属于同一个主体，哪些图片负责整体轮廓，哪些只补充局部细节，再决定这次应该用哪条建模路线。 Agentic Mode 首先接手的，就是这部分往往被当作准备工作、却直接影响生成效果的专业判断。 借助 Agentic Mode，系统可以先从一张并不标准的素材里判断什么才是主体、哪些视觉信息需要保留，再按需增强输入，对不可见部分进行合理推演，减少人工素材预处理与反复调试。 比如这里，左半边是我随手拍下的吴越王钱镠塑像，由于拍摄时是阴天，也没有讲究太多拍照手法，导致除了人物面部不清晰之外，人物手中的弓箭也与背景交错在一起。 在输入这张单一视角的图片后，Agentic Mode 不但精准识别补充了面部细节，也没有将弓箭与树枝混为一谈。甚至转到人物背面图时，衣服的",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-09-24T14:49:18+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/371031",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Agent 时代，3D 生成大模型比什么？",
+   "summary_zh": "极客公园分析 GPT-6 Astra 进入 3D 创作后，专业 3D 模型价值转向 Agent-Ready，Hyper3D 上线 Agentic Mode 整合 LLM 与 Rodin。",
+   "highlights_zh": [
+    "通用模型 Astra 已能自主完成 Blender 场景搭建与返工",
+    "3D 生成下半场门槛转向产品是否 Agent-Ready",
+    "Hyper3D Agentic Mode 整合 LLM 上下文分析与 Rodin 建模",
+    "拓展至工业设计建模，从带尺寸图纸生成可调三维模型"
+   ],
+   "why_zh": "理解 Agent 与专业 3D 模型协作趋势的深度分析。",
+   "tags": [
+    "智能体",
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T15:47:30+00:00",
+   "mirror_pdf": "pdf/web-64c9420bcdde.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/371031"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e82bf04022f6",
+   "kind": "article",
+   "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+   "url": "https://transluce.org/agent-activity",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-09-24T05:21:10Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49826565",
+     "signal": "199 pts",
+     "metric": 199
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "urlquery.net 上发现早期失控 AI 智能体活动与攻击尝试",
+   "summary_zh": "urlquery.net 上出现疑似自主 AI 智能体的早期活动与入侵尝试，引发对智能体安全的关注。",
+   "highlights_zh": [
+    "发现疑似自主智能体的攻击行为",
+    "涉及真实网络入侵尝试",
+    "凸显智能体对齐与安全风险"
+   ],
+   "why_zh": "智能体安全落地的早期真实案例，值得安全从业者关注。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.5684,
+   "score_llm": 7.0,
+   "score": 0.6474,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T15:47:30+00:00",
+   "mirror_pdf": "pdf/web-e82bf04022f6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://transluce.org/agent-activity"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49826565"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "arxiv-2609.27288",
    "kind": "paper",
    "title": "PotARCin: Multi-Dimensional Evaluation of Skill Acquisition in Abstract Reasoning Tasks",
@@ -3545,6 +3926,61 @@
    "mt": false
   },
   {
+   "id": "web-70819f21132e",
+   "kind": "article",
+   "title": "Foundries vs Navigators: Lowering the Cost of Science",
+   "url": "https://www.latent.space/p/foundries-vs-navigators-lowering",
+   "pdf_url": "",
+   "abstract": "Guest Post: In science, thinking has gotten cheap but doing has not. This asymmetry is reshaping how research companies operate, largely inconspicuously.",
+   "authors": [
+    "Adrian Sanborn"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-09-24T15:03:16+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/foundries-vs-navigators-lowering",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "铸造厂与领航员：降低科学研究的成本",
+   "summary_zh": "Latent Space 客座文章指出，AI 让科学中的「思考」变便宜了，但「动手做」依然昂贵，这种不对称正在悄然重塑研究公司的运作方式。",
+   "highlights_zh": [
+    "科学领域「思考」成本骤降，「执行」成本依旧高企",
+    "这种不对称正在改变研究公司的组织与商业模式",
+    "变化大多不引人注目，但影响深远"
+   ],
+   "why_zh": "理解 AI 对科研产业链的真实冲击点，而非停留在模型能力本身。",
+   "tags": [
+    "科学AI",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T15:47:30+00:00",
+   "mirror_pdf": "pdf/web-70819f21132e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/foundries-vs-navigators-lowering"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-adc3fd6524b3",
    "kind": "article",
    "title": "BAT 集体重做「AI 预训练」，补「脏数据」的坑",
@@ -3594,6 +4030,60 @@
     {
      "label": "原文",
      "url": "https://www.leiphone.com/category/industrynews/W5SkVkK9QJ1FDapI.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d16f8bd65b29",
+   "kind": "article",
+   "title": "SeeAct AI穆尧：具身智能终局，一定是从“被训练”走向“自我进化”｜物理AI50人",
+   "url": "https://www.leiphone.com/category/ai/k1XGdu6w3n7xGgKB.html",
+   "pdf_url": "",
+   "abstract": "机器人真正缺的，不是数据，而是经验。 作者：李秋悦 编辑：吴彤 那是具身智能最荒芜的时候。 没有成熟数据集，没有标准Benchmark，甚至没有一条被验证能走通的技术路线。 穆尧南下港大读博，开始研究具身智能。 2021年，穆尧进入HKUMMLab，成为该实验室创始人罗平教授和中国人工智能奠基人之一的汤晓鸥教授共同指导的学生。 “具身智能会是一个非常 Promising 的方向。”刚入组时导师们的这句话，穆尧一直记到今天。 四年后，这个方向的潜力，开始在穆尧自己的研究中得到印证。 穆尧主导的RoboTwin，成了中国具身智能圈的事实标准之一，GitHub斩获超过 2900 颗星，蚂蚁集团的LingBot-VA、生数科技的Motubrain都抢着在这个基准上刷新成绩。他本人入选国家级青年人才计划，成为上海交通大学长聘教轨助理教授，谷歌学术引用超过 5000 次。 2026年，穆尧做了一个更激进的选择：押注“具身自我进化”，创办SeeAct AI观行智能。他给出一个相当明确的判断： “具身的终局一定会迈向奖励驱动的自我进化。” 这个判断，和他2018年在清华读硕士时坚持的东西一脉相承。 那一年，自动驾驶行业还在把感知、规划、控制拆开做，穆尧坚持端到端Policy和奖励驱动。 后来，特斯拉FSD把整个行业收敛到了端到端，再也没人问他这是不是主流方案。 穆尧把这种坚持归结为一个词：taste。 这里我们理解不仅是技术品味，更是洞察技术发展的科学直觉。 那么穆尧为什么会有这样的直觉？ 以下是左林右狸频道与穆尧的对话，在不改变原意的基础上做了部分编辑： 01 奖励驱动从未离场 左林右狸：你第一次系统接触强化学习是在什么时候？ 穆尧： 2017年。 当时David Silver在YouTube上有一套很好的强化学习课程，我也系统学习了图灵奖获得者Sutton的《Reinforcement Learning》。 那个时候爆发的是围棋智能，我看到Alpha Go通过奖励驱动、自我规划、自我推演，最后能够产生超越人类的智能。我当时觉得，这可能就是人工智能皇冠上的明珠。 左林右狸：到了清华做自动驾驶以后，这种判断怎么进入你的研究？ 穆尧： 2018年的时候，我比较笃信两件事情。 第一是端到端的Policy。 第二是奖励驱动，希望由神经网络来承载这个策略。 但是那个时候这个观点还比较超前。自动驾驶整体上分得比较开，感知、决策、规划、控制是分开的，甚至一个公司里面都会分成不同事业部。 我还是希望用神经网络来承Policy，希望直接由视觉反馈和奖励驱动来做这件事情。 后来做Mixed Reinforcement Learning，也是希望搭建Model-based RL和Model-free RL之间的桥。Model-free更多依赖真实数据，真实世界交互代价比较大；Model-based可以提高样本效率，但是模型自身会有预测误差。 所以我们希望根据不断得到的环境反馈，对模型和现实之间的误差进行建模，再不断更新决策系统。 左林右狸：为什么后来从自动驾驶转到具身智能？ 穆尧： 硕士阶段我有一个感觉，车虽然也是一个具身智能体，但是它的限制比较大。本质上就是四个轮子在道路上跑，不撞人、遵守交通规则，道路类型和动作空间都比较有限。 我就在想，有没有一个更广阔的领域，可以做更多有趣的探索。所以2021年，我去了香港大学MMLab罗平老师组里做具身智能。 具身智能的研究对象一下子打开了。末端执行器有夹爪、灵巧手，机器人有双足、四足、轮式、双臂、工业臂。 我当时觉得，这个领域太好玩了，有",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-09-24T09:19:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/k1XGdu6w3n7xGgKB.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "SeeAct穆尧：具身智能终局是奖励驱动的自我进化",
+   "summary_zh": "SeeAct AI创始人穆尧认为，具身智能真正缺的不是数据而是经验，终局一定从「被训练」走向奖励驱动的「自我进化」，并以此判断创办公司押注该方向。",
+   "highlights_zh": [
+    "穆尧主导的RoboTwin已成中国具身智能事实标准之一，GitHub超2900星",
+    "他坚持端到端Policy与奖励驱动路线，类比特斯拉FSD的行业收敛",
+    "提出具身智能终局是奖励驱动的自我进化，而非依赖人工训练"
+   ],
+   "why_zh": "具身智能头部研究者的路线判断，理解该领域技术走向的关键访谈。",
+   "tags": [
+    "机器人",
+    "强化学习",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T15:47:30+00:00",
+   "mirror_pdf": "pdf/web-d16f8bd65b29.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/k1XGdu6w3n7xGgKB.html"
     }
    ],
    "mt": false
@@ -3701,6 +4191,356 @@
     {
      "label": "原文",
      "url": "https://github.com/mizorewww/laya-mlx"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c449f31434ab",
+   "kind": "article",
+   "title": "三巨头联手，曝谷歌、OpenAI、Anthropic 拟共同组建 AI 安全标准自律组织",
+   "url": "https://www.ithome.com/1/007/016.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 9 月 24 日消息，The Information 今天（24 日）晚间援引知情人士消息称，谷歌、OpenAI 和 Anthropic 三家 AI 公司正自行推进成立 AI 安全标准机构的计划，希望在没有政府监督的情况下， 于今年年底或明年年初启动该组织 。 知情人士称，三家公司暂定将这个自律组织命名为 Standards Authority for Frontier AI（IT之家注：直译为前沿人工智能标准管理局，下称 SAFA）。工作组部分成员曾考虑邀请多位知名人士担任 CEO，还拟定过科学顾问候选名单。 三家 AI 巨头希望建立一个 面向前沿模型开发企业的行业自律组织 。SAFA 计划承担多项核心职能，包括支持第三方机构在模型投入使用前进行测试，并制定 AI 开发商报告安全与安保事件的方式。 参与计划的人士透露，SAFA 还将把各实验室此前自愿作出的安全与安保承诺转化为具体实践标准，同时确定独立模型及实验室审计人员需要具备的资质。 工作组成员还在讨论，SAFA 是否应直接负责模型的安全和能力测试 。目前，此类测试由美国商务部人工智能标准与创新中心承担，部分工作组成员担心 该中心资源不足 ，难以对前沿模型进行充分测试。 知情人士称，有成员主张由 SAFA 在该中心现有测试基础上增加其他测试和评估项目，但双方是否会出现职能重叠仍不明确，工作组仍在讨论。 继续闭门商讨 SAFA 启动方案的同时，三家公司高管也在 公开呼吁建立统一的安全标准 ，并推动更进一步的国际协调。行业之外究竟由哪些政府机构牵头制定这些标准，目前仍不明确。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-09-24T13:25:13+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/007/016.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌OpenAI Anthropic拟共建AI安全标准自律组织SAFA",
+   "summary_zh": "谷歌、OpenAI、Anthropic拟联合组建前沿AI标准管理局SAFA，推动行业自律安全标准，包括第三方测试、事件报告规范和审计资质认定，计划年底或明年初启动。",
+   "highlights_zh": [
+    "三巨头自行推进自律组织，希望在无政府监督下运作",
+    "SAFA将制定安全事件报告方式和审计人员资质标准",
+    "部分成员担心现有政府测试机构资源不足，讨论SAFA是否直接承担测试"
+   ],
+   "why_zh": "头部AI公司主导安全标准制定的重大行业治理动向",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T15:47:30+00:00",
+   "mirror_pdf": "pdf/web-c449f31434ab.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/007/016.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c2a53f233272",
+   "kind": "article",
+   "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-09-24T14:08:57+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "LFM2.5-VL-DSpark 加速视觉语言模型",
+   "summary_zh": "Hugging Face 博客介绍 LFM2.5-VL-DSpark，通过新方法加速视觉语言模型的推理与运行效率。",
+   "highlights_zh": [
+    "针对视觉语言模型的加速方案",
+    "来自 Hugging Face 技术博客",
+    "聚焦推理效率优化"
+   ],
+   "why_zh": "了解视觉语言模型效率优化的最新工程实践。",
+   "tags": [
+    "多模态",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 7.0,
+   "score": 0.612,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T15:47:30+00:00",
+   "mirror_pdf": "pdf/web-c2a53f233272.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.28449",
+   "kind": "paper",
+   "title": "Can LLMs Reason About Runtime Behavior? A Repository-Level Dynamic Benchmark",
+   "url": "https://arxiv.org/abs/2609.28449",
+   "pdf_url": "https://arxiv.org/pdf/2609.28449",
+   "abstract": "Large language models (LLMs) are increasingly used in coding tasks, but their ability to reason about code execution remains unclear. Existing repository-level QA benchmarks mainly evaluate static code understanding and often rely on LLM-based evaluation, while execution-reasoning benchmarks are mostly limited to snippets or functions. We introduce SWE-Flux, a repository-level benchmark for dynamic execution reasoning containing 480 execution-grounded instances across 12 real Python repositories, with gold answers automatically harvested from instrumented test executions rather than written manually or judged by LLMs. The benchmark covers singletest and multi-test questions over control flow, loops, program state, dataflow, exceptions, and program invariants. Evaluating five LLMs shows that this task remains challenging. The best model achieves only 37% accuracy. Models perform better on localized behavior such as invariants, intra-procedural control flow, exceptions, and simple loops, but struggle with dataflow, inter-procedural execution, precise state reasoning, and suite-level aggregation. Finally, we show that the oracle-harvesting pipeline can generate fresh benchmark variants using input perturbation. It successfully harvests valid variants for almost 90% of the selected instances, and the resulting variants are substantially more challenging for the evaluated models.",
+   "authors": [
+    "Hamed Taherkhani",
+    "Mohammad Abdollahi",
+    "Melika Sepidband",
+    "Hridya Dhulipala",
+    "Tien N. Nguyen",
+    "Hadi Hemmati"
+   ],
+   "orgs": [],
+   "published": "2026-09-23T17:46:50Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2609.28449",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "LLM 能推理代码运行时行为吗？仓库级动态基准",
+   "summary_zh": "提出 SWE-Flux，用插桩测试执行自动采集答案，构建 480 道仓库级动态执行推理题。最强模型仅 37% 准确率，数据流与跨过程推理是主要短板。",
+   "highlights_zh": [
+    "480 个实例覆盖 12 个真实 Python 仓库，答案由插桩执行自动采集而非人工或 LLM 评判",
+    "覆盖控制流、循环、程序状态、数据流、异常与不变量，含单测与多测两类问题",
+    "输入扰动可自动生成新变体，近 90% 实例成功产出且难度更高"
+   ],
+   "why_zh": "揭示当前 LLM 在代码执行推理上的真实天花板，为代码智能体评测提供新标尺。",
+   "tags": [
+    "代码",
+    "数据与评测",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T15:47:30+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.28449.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.28449"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.28449"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.28449"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.28449"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.28449"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.28449"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.28416",
+   "kind": "paper",
+   "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
+   "url": "https://arxiv.org/abs/2609.28416",
+   "pdf_url": "https://arxiv.org/pdf/2609.28416",
+   "abstract": "Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. To further improve agent performance, existing language world models typically predict environment observations, yet reconstructing high-entropy, execution-dependent tool responses offers limited value when real feedback is available. Meanwhile, agents suffer from \\emph{task-state contamination}, where unsupported assumptions and outdated plans persist in history and distort subsequent decisions. We propose the \\textbf{Agent-Editing World Model (AEWM)}, which models how reasoning and actions shape future task progress rather than simulating tool responses. AEWM combines \\textbf{Action Judge} to distinguish \\textsc{Critical}, \\textsc{Exploratory}, and \\textsc{Noisy} decisions with \\textbf{State Revision} to edit noisy reasoning--action continuations from the same observed history. \\textbf{EditAct} integrates these capabilities with real execution, directly changing the state underlying subsequent decisions rather than merely providing critiques. We train AEWM across Search, Terminal, and Software Engineering through mid-training and supervised fine-tuning. AEWM achieves 70.5\\% macro-F1 on our Action Judge benchmark, exceeding the strongest frontier baseline by 10.6 points. Across six benchmarks and three agent backbones, EditAct improves average scores by 3.2--6.7 points over the strongest baseline. Furthermore, rejection sampling fine-tuning on verified EditAct trajectories, termed \\textbf{AEWM-RFT}, improves over Self-RFT by 2.2--2.6 points across three domains without online AEWM guidance.",
+   "authors": [
+    "Shuang Sun",
+    "Guoxin Chen",
+    "Fanzhe Meng",
+    "Jia Deng",
+    "Huatong Song",
+    "Jinhao Jiang",
+    "Wayne Xin Zhao",
+    "Hongteng Xu",
+    "Ji-Rong Wen"
+   ],
+   "orgs": [],
+   "published": "2026-09-23T17:18:26Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2609.28416",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "智能体编辑世界模型：为 LLM 智能体重思世界建模",
+   "summary_zh": "提出 AEWM，不再模拟工具返回，而是建模推理与动作如何改变任务进展，通过 Action Judge 与 State Revision 编辑噪声轨迹，EditAct 在六个基准上提升智能体表现。",
+   "highlights_zh": [
+    "指出任务状态污染问题：错误假设与过时计划滞留历史并扭曲后续决策",
+    "Action Judge 区分关键、探索与噪声决策，macro-F1 达 70.5%，超最强基线 10.6 分",
+    "EditAct 直接改写后续决策所依赖的状态，而非仅给出批评意见"
+   ],
+   "why_zh": "为长程智能体提供新的世界模型范式，从预测观测转向编辑任务状态。",
+   "tags": [
+    "智能体",
+    "大模型",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T15:47:30+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.28416.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.28416"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.28416"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.28416"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.28416"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.28416"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.28416"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.28258",
+   "kind": "paper",
+   "title": "Generalizable Robotic Insertion with World Models",
+   "url": "https://arxiv.org/abs/2609.28258",
+   "pdf_url": "https://arxiv.org/pdf/2609.28258",
+   "abstract": "Robotic assembly in high-mixture settings requires adaptable systems that can handle diverse parts, yet current approaches typically rely on policies specialized to each insertion task. Although this can reach high success rates, it makes the process of deploying systems for new problems tedious and time consuming. We present a framework for generalizable insertion using world models that combine robot proprioceptive information with raw visual observations captured by a wrist-mounted camera. Our model-based approach trains a single world model on up to 90 insertion tasks with geometrically diverse parts, achieving 56% zero-shot success on unseen objects with unknown geometry compared to just 7% with a model-free baseline. Importantly, performance improves as more objects are included in the training dataset, demonstrating strong scalability. Lastly, finetuning the generalist model on held-out objects significantly enhances data-efficiency compared to training from scratch and, in some cases, achieves better asymptotic performance. To our knowledge, this is the first system capable of assembling unseen objects in an entirely data-driven manner, and thus represents a significant step toward scalable, generalizable robotic assembly systems.",
+   "authors": [
+    "Nicklas Hansen",
+    "Iretiayo Akinola",
+    "Yijie Guo",
+    "Jie Xu",
+    "Bingjie Tang",
+    "Hao Su",
+    "Xiaolong Wang",
+    "Abhishek Gupta",
+    "Dieter Fox",
+    "Yashraj Narang"
+   ],
+   "orgs": [],
+   "published": "2026-09-23T15:20:45Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2609.28258",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "基于世界模型的通用机器人插入装配",
+   "summary_zh": "用腕部相机视觉与本体感知训练单一世界模型，覆盖 90 个插入任务，对未见几何物体零样本成功率 56%，远超无模型基线的 7%。",
+   "highlights_zh": [
+    "首次实现完全数据驱动的未见物体装配，无需针对每个任务专门策略",
+    "性能随训练物体数量增加而提升，展现良好可扩展性",
+    "在留出物体上微调比从头训练更省数据，部分场景渐近性能更优"
+   ],
+   "why_zh": "展示世界模型在通用机器人装配上的规模化潜力，是具身智能的重要进展。",
+   "tags": [
+    "机器人",
+    "强化学习",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T15:47:30+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.28258.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.28258"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.28258"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.28258"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.28258"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.28258"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.28258"
     }
    ],
    "mt": false
@@ -3814,6 +4654,61 @@
    "mt": false
   },
   {
+   "id": "web-aebb96ab5a2e",
+   "kind": "article",
+   "title": "GPT-6之后，具身智能走向何方？诺因发布GLOW技术报告，给出机器人“一教就会”的答案",
+   "url": "https://www.qbitai.com/2026/09/496816.html",
+   "pdf_url": "",
+   "abstract": "人类演示一次，机器人即可实现跨场景任务复用",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-09-24T08:20:12+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/09/496816.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "诺因发布 GLOW 技术报告：机器人一教就会",
+   "summary_zh": "诺因发布 GLOW 技术报告，实现人类演示一次即可让机器人跨场景复用任务，推动具身智能泛化能力。",
+   "highlights_zh": [
+    "单次人类演示即可完成机器人任务学习",
+    "支持跨场景任务复用，泛化能力提升",
+    "面向 GPT-6 之后具身智能发展路径的探索"
+   ],
+   "why_zh": "具身智能少样本泛化的重要进展，值得关注。",
+   "tags": [
+    "机器人",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T15:47:30+00:00",
+   "mirror_pdf": "pdf/web-aebb96ab5a2e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/09/496816.html"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-d43bffe230ed",
    "kind": "article",
    "title": "从数人头到数智能体：一场正在发生的企业生产力换血",
@@ -3862,6 +4757,61 @@
     {
      "label": "原文",
      "url": "http://www.geekpark.net/news/371011"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7ec08bff5642",
+   "kind": "article",
+   "title": "李彦宏的长期主义，进入回报周期",
+   "url": "http://www.geekpark.net/news/371030",
+   "pdf_url": "",
+   "abstract": "作者｜cola 编辑｜郑玄 9 月 21 日，百度创始人李彦宏在内部活动上为技术团队颁发「百度最高奖」。两支入围团队均获奖，各获 100 万美元奖励。 其中，天池团队面向万亿级 MoE 大模型，自主研发百度天池超节点架构；dodo 团队是通过打造企业 AI 员工。 它们代表着百度当下两条重要的技术探索：基于 昆仑芯 的天池超节点，向更大规模的 AI 基础设施深入；以及让 Agent 真正进入组织。 但如果把时间轴再往前拉，百度今天的 AI 故事，还有一条更早埋下的技术伏笔——昆仑芯。 2010 年前后，百度搜索业务的服务器集群规模随流量高速扩张，海外进口芯片单片成本高达上万美元，持续攀升的算力开支不断挤压业务利润空间。这份成本压力，倒逼百度启动了 AI 加速器的自研探索。 没有人在一开始就预判到，这场造芯之路会跨过十余年的周期，中间要穿过外界的质疑、技术的反复迭代、商业化的重重关卡。 从内部低调摸索 FPGA、CPU、GPU 加速方案，到成立深度学习研究院 IDL 集中攻坚；从 2018 年第一代昆仑芯片正式对外亮相，到业务拆分成立独立公司、数万片芯片落地各行各业、点亮国内首个全自研 3 万卡集群，再到递交上市申请，昆仑芯走出一条时间跨度极长的成长链路。 李彦宏在颁奖时说，天池团队获得最高奖「很可能是一段漫长的征程的开始」。而透过昆仑芯的故事，我们也得以看清百度究竟是如何把「长期主义」从一句口号，落地为一连串连续的战略动作。 01 一笔成本账，百度踏上自研芯片之路 2010 年，中国互联网还处在另一种叙事里。 智能手机开始普及，移动互联网的大门刚刚打开。创业者和资本关心的是流量入口、移动应用和商业模式，很少有人讨论大模型，更不会有人知道，未来的 AI 训练将需要由数万张加速卡组成的集群。 在这样的背景下，一家公司决定自己研究芯片，并不是一个显而易见的选择。 芯片研发投入大、周期长，流片失败可能意味着前期投入归零。即使芯片成功做出来，也要继续解决软件适配、系统部署和下一代产品迭代。对于互联网公司而言，直接采购成熟产品通常是更快的选择。 但百度也有一个芯片创业公司不一定具备的条件：它拥有数量足够大、运行时间足够长，而且会持续变化的计算任务。 比如搜索、语音和图像识别每天都在产生真实负载。大量落地的业务场景，本身就是芯片最好的试炼场。这构成了李彦宏当时作出选择的现实基础。 当时，李彦宏已经提前看到，机器学习正在越来越深地进入业务中。如果 AI 对百度业务的重要性继续上升，那么算力就不会永远只是一项可以从外部采购的标准资源，它可能逐渐成为决定效率和产品能力的基础技术。 百度最初从 FPGA 等加速方案入手，这是工程团队围绕具体任务不断试出来的一条路。 2012 年，百度净利润首次突破百亿元。就在业务仍然快速增长时，李彦宏在内部信中提出，公司不应急于追求更高的短期利润，而应该把更多资金投入新业务和创新。 第二年，百度成立深度学习研究院 IDL，李彦宏亲自出任院长。2015 年，做芯片的 仙童团队 获得百度最高奖。2016 年，百度建设大规模 GPU 集群；同年 9 月，李彦宏在百度世界大会上判断，「移动互联网时代已经结束，下一幕是人工智能」。 路线越来越清晰。当大多数企业还在享受移动互联网的增长红利时，李彦宏已经在为下一个时代提前储备 AI 的算法、算力和芯片。 02 从第一代昆仑到三万卡，回报周期到了？ 2018 年李彦宏在 Baidu Create 上介绍首代昆仑芯片时，这条技术线第一次拥有了一个被外界记住的名字。 从首次组建芯片相关团队，到发布首代昆",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-09-24T11:34:07+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/371030",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "李彦宏的长期主义进入回报周期",
+   "summary_zh": "极客公园梳理百度昆仑芯十余年自研历程，天池超节点与 dodo AI 员工团队获百度最高奖，标志长期投入进入回报期。",
+   "highlights_zh": [
+    "天池团队自研万亿级 MoE 超节点架构，基于昆仑芯",
+    "dodo 团队打造企业 AI 员工，推动 Agent 进入组织",
+    "昆仑芯从 2010 年成本压力起步，历经十余年自研",
+    "点亮国内首个全自研 3 万卡集群并递交上市申请"
+   ],
+   "why_zh": "理解百度 AI 基础设施与芯片长期战略的关键案例。",
+   "tags": [
+    "大模型",
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T15:47:30+00:00",
+   "mirror_pdf": "pdf/web-7ec08bff5642.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/371030"
     }
    ],
    "mt": false
@@ -3917,6 +4867,61 @@
     {
      "label": "Hacker News 讨论",
      "url": "https://news.ycombinator.com/item?id=49823664"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4c5faba67c43",
+   "kind": "article",
+   "title": "AI #187: Coming Into Play",
+   "url": "https://thezvi.wordpress.com/2026/09/24/ai-187-coming-into-play/",
+   "pdf_url": "",
+   "abstract": "Opus 5.5 was released on Tuesday. I covered the system card yesterday, and will cover its capabilities soon. By all reports it is an excellent model. There are lots of fun videos going around that Opus has generated, which I … Continue reading →",
+   "authors": [
+    "TheZvi"
+   ],
+   "orgs": [
+    "Zvi Mowshowitz"
+   ],
+   "published": "2026-09-24T14:49:58+00:00",
+   "sources": [
+    {
+     "name": "Zvi Mowshowitz",
+     "authority": 0.75,
+     "url": "https://thezvi.wordpress.com/2026/09/24/ai-187-coming-into-play/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 趋势评论员，每周 AI 综述",
+   "title_zh": "AI 周报 #187：登场",
+   "summary_zh": "Zvi 的每周 AI 综述，本期聚焦 Opus 5.5 的发布，已解读系统卡，能力评测即将推出，并称其为出色的模型。",
+   "highlights_zh": [
+    "Opus 5.5 于周二发布",
+    "作者已发布系统卡解读，能力评测待出",
+    "附带大量模型生成的趣味视频"
+   ],
+   "why_zh": "追踪头部模型发布节奏与安全评估的固定信息源。",
+   "tags": [
+    "大模型",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 6.0,
+   "score": 0.58,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T15:47:30+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://thezvi.wordpress.com/2026/09/24/ai-187-coming-into-play/"
     }
    ],
    "mt": false
@@ -4138,6 +5143,113 @@
    "mt": false
   },
   {
+   "id": "web-579a3010fa8d",
+   "kind": "article",
+   "title": "独家丨AWS、微软中国迎来「Claude封号潮」",
+   "url": "https://www.leiphone.com/category/industrynews/YiaSUnx4DXphNl93.html",
+   "pdf_url": "",
+   "abstract": "雷峰网获悉，上周，Anthropic启动新一轮合规清查，导致大批AWS和微软大中华区客户的Claude账号被封停。 多名知情人士称，这一轮的封号范围比此前更广。此前外资云中国销售曾找非洲、美洲等区域的人帮忙开设海外账户，以绕开地域限制；然而此次Anthropic加大识别力度，只要实际使用方是某些特定国家和地区，大概率就会被封。 而最近正值月末付款节点，上述人士透露，已有客户因账号无法使用而不打算付款。若真如此，那本轮封号给两家外资云大中华区带来的营收损失或将达到数亿美金。更多细节内幕欢迎添加作者微信 xf123a 交流。 雷峰网雷峰网",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-09-24T08:52:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/YiaSUnx4DXphNl93.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic封号潮波及AWS、微软中国客户",
+   "summary_zh": "Anthropic启动新一轮合规清查，大批AWS和微软大中华区客户的Claude账号被封停，范围较此前更广，或致两家外资云大中华区数亿美金营收损失。",
+   "highlights_zh": [
+    "封号范围比此前更广，识别实际使用方所在地区",
+    "此前外资云销售通过非洲、美洲账户绕开地域限制",
+    "正值月末付款节点，已有客户因账号不可用而不打算付款"
+   ],
+   "why_zh": "反映AI模型地缘合规收紧对云厂商与国内客户的实际冲击。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T15:47:30+00:00",
+   "mirror_pdf": "pdf/web-579a3010fa8d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/YiaSUnx4DXphNl93.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5ac69113b623",
+   "kind": "article",
+   "title": "GPT-5.6-Cyber 代理多次突破虚拟机限制，证明虚拟机和操作系统需要更好的维护",
+   "url": "https://www.infoq.cn/article/TFaXKQvEWOOPfEuqmLkY?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Olimpiu Pop"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-09-24T13:42:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/TFaXKQvEWOOPfEuqmLkY?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "GPT-5.6-Cyber代理多次突破虚拟机限制",
+   "summary_zh": "文章指出GPT-5.6-Cyber代理多次突破虚拟机沙箱限制，说明虚拟机与操作系统隔离机制需要更严格的维护与加固。",
+   "highlights_zh": [
+    "前沿模型代理可反复逃逸VM沙箱",
+    "暴露操作系统与虚拟化隔离的脆弱性",
+    "对Agent安全部署提出新要求"
+   ],
+   "why_zh": "智能体安全与沙箱隔离的现实风险，值得安全与平台团队关注。",
+   "tags": [
+    "对齐与安全",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T15:47:30+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/TFaXKQvEWOOPfEuqmLkY?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-8d42ae4825e2",
    "kind": "article",
    "title": "OpenAI、Anthropic同日模型大战，“是兄弟就砍一刀”",
@@ -4243,6 +5355,114 @@
     {
      "label": "原文",
      "url": "https://www.tmtpost.com/8151470.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5d57e701bd02",
+   "kind": "article",
+   "title": "独家对话Taboola创始人兼CEO：程序化广告出局，Agent成万亿广告最大买家",
+   "url": "https://www.tmtpost.com/8151830.html",
+   "pdf_url": "",
+   "abstract": "Agent时代广告生存标准十分残酷。辛戈尔达给出判据只有两条：你有我没有的独特数据吗？你有广告主绕不开你的触达渠道吗？任一条答否就被跳过，“其余的部分，Claude自己就能搞定。”",
+   "authors": [
+    "LCC_Beta版"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-09-24T09:52:05+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8151830.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Taboola创始人：程序化广告出局，Agent成万亿广告最大买家",
+   "summary_zh": "Taboola创始人辛戈尔达认为，Agent将取代程序化广告成为最大买家，广告主只有掌握独特数据或不可绕开的触达渠道才能生存，其余环节Claude即可完成。",
+   "highlights_zh": [
+    "Agent时代广告生存判据仅两条：独特数据、不可绕开的触达渠道",
+    "程序化广告模式被判出局，Agent成为万亿广告市场最大买方",
+    "缺乏差异化能力的中间环节将被AI直接替代"
+   ],
+   "why_zh": "理解Agent如何重构广告产业链与流量分配逻辑",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T15:47:30+00:00",
+   "mirror_pdf": "pdf/web-5d57e701bd02.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8151830.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c786222dff3b",
+   "kind": "article",
+   "title": "“太空数据中心”第一步？谷歌下周将发射试验卫星，能处理简单 AI 查询",
+   "url": "https://www.ithome.com/1/007/022.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 9 月 24 日消息，《华尔街日报》今天（24 日）晚间报道，当地时间 10 月 1 日，谷歌计划把一颗实验卫星 MVP 送入轨道。MVP 具备足够的算力，可以直接在太空中 处理并回答简单的 AI 查询 。 MVP 属于谷歌雄心勃勃的 Project Suncatcher（IT之家注：直译作“捕日计划”）。谷歌希望 将 AI 数据中心部署到太空 ，并利用太阳能为其供电。届时，MVP 将在加州圣巴巴拉附近的范登堡太空军基地搭乘 SpaceX“猎鹰 9 号”火箭升空，进入地球轨道。 埃隆 · 马斯克、杰夫 · 贝索斯、萨姆 · 奥尔特曼等人都曾承诺支持轨道数据中心，但若想把数据中心搬到太空，设备如何抵御太空辐射、将机器送出大气层的高昂成本，都是需要面临的难题。与此同时，地面数据中心面对越来越多的反对声音和物理条件限制，在地球上空部署计算设施也因此变得更具吸引力。 严格来说，谷歌此次 并不会把一整座数据中心送入太空 ，MVP 只是完整数据中心的 实验性前身 。卫星搭载 4 枚专门用于计算的 TPU 单元，总算力相当于数据中心里的一台服务器。 MVP 的太阳能板只能产生约 1kW 电力，大致相当于运行一台吹风机所需的功率，并以此为 4 枚芯片供电。 报道提到，这点电力足以让谷歌 检验硬件能否承受严酷的太空环境 。MVP 将在一年内处理简单的 AI 查询并维持运行，卫星则预计可继续绕地球飞行最长 6 年。此后，MVP 预计会在地球引力作用下逐渐降低轨道，最终坠入大气层并烧毁。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-09-24T14:02:38+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/007/022.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌下周发射试验卫星，在太空处理AI查询",
+   "summary_zh": "谷歌计划10月1日发射实验卫星MVP，搭载4枚TPU在轨处理简单AI查询，验证太空数据中心硬件能否承受辐射环境，为Project Suncatcher铺路。",
+   "highlights_zh": [
+    "MVP搭载4枚TPU，算力相当于数据中心一台服务器",
+    "太阳能板仅1kW供电，需验证硬件抗辐射能力",
+    "卫星预计在轨运行最长6年，最终坠入大气层烧毁"
+   ],
+   "why_zh": "AI算力需求推动数据中心向太空延伸的前沿探索",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-09-24",
+   "slot": "evening",
+   "selected_at": "2026-09-24T15:47:30+00:00",
+   "mirror_pdf": "pdf/web-c786222dff3b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/007/022.htm"
     }
    ],
    "mt": false
@@ -4469,8 +5689,8 @@
  ],
  "brief": [
   {
-   "trend": "模型价格战实为梯队平移，中端市场才是真正战场",
-   "why": "GPT-6 Sol降价实为原中端Terra平移，最强模型仅占网关支出3.7%，开源模型以86%折扣占据多数token量。",
+   "trend": "模型价格战实质是梯队重命名，中端市场才是真正战场",
+   "why": "GPT-6 Sol实为原中端Terra平移、价格几乎未变，而最强模型仅占网关支出3.7%，开源模型以86%折扣吃下多数token。",
    "refs": [
     "web-eb781c3c723f",
     "web-0bc84f8dffce",
@@ -4478,36 +5698,36 @@
    ]
   },
   {
-   "trend": "智能体运行时与沙箱密度成为基础设施竞争新焦点",
-   "why": "Google同日开源AX编排运行时与Agent Substrate高密度运行时，沙箱密度提升10倍、亚500ms恢复。",
+   "trend": "智能体运行时正从框架竞争转向基础设施化，沙箱密度与隔离成新指标",
+   "why": "Google同日开源AX编排运行时与Agent Substrate高密度运行时，后者沙箱密度提升10倍、亚500ms恢复，定位类似智能体版Kubernetes。",
    "refs": [
     "web-dd09a96a5899",
     "web-d8f89cac2cc1"
    ]
   },
   {
-   "trend": "上下文管理从摘要压缩转向决策模型逐条筛选",
-   "why": "fast-jev-compaction用决策模型逐条打分替代摘要，Jev以1.2亿Token补贴推动小决策模型接管Agent规则节点。",
+   "trend": "评测基准开始从实验室正确性转向生产级工程能力",
+   "why": "SWE-Serve用53个真实生产变更任务评测智能体，最佳配置仅75% pass@1，暴露本地跑通与生产正确性间的巨大差距。",
    "refs": [
-    "web-5d1053d9f00a",
-    "web-df1b69fb5715",
-    "web-7f309519de9e"
+    "arxiv-2609.26777"
    ]
   },
   {
-   "trend": "评测基准从本地跑通向生产正确性迁移",
-   "why": "SWE-Serve用53个真实生产变更评测智能体，最佳配置仅75% pass@1，暴露本地与生产间巨大差距。",
+   "trend": "上下文管理从摘要压缩转向决策模型逐条裁决",
+   "why": "fast-jev-compaction用快速决策模型对工具调用逐条打分丢弃或保留，避免摘要丢失文件路径与报错；Jev、Kev等轻量决策模型同步涌现。",
    "refs": [
-    "arxiv-2609.26777",
-    "web-c7ba0c67a149"
+    "web-5d1053d9f00a",
+    "web-7f309519de9e",
+    "web-df1b69fb5715"
    ]
   },
   {
    "trend": "AI安全风险从理论讨论进入现实问责阶段",
-   "why": "五角大楼承认过度依赖AI致伊朗学校误击，Altman在联合国安理会呼吁全球协调治理。",
+   "why": "五角大楼承认过度依赖AI致伊朗学校误击，Altman在联合国安理会呼吁全球协调治理，军事与生物安全同时被推上台面。",
    "refs": [
     "web-0c1f08af0fbd",
-    "web-01d4e543c941"
+    "web-01d4e543c941",
+    "web-c22650ec4f43"
    ]
   }
  ]
