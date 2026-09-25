@@ -1,11 +1,12 @@
 {
- "updated": "2026-09-25T03:45:25+00:00",
+ "updated": "2026-09-25T10:07:18+00:00",
  "days": [
   {
    "date": "2026-09-25",
-   "count": 21,
+   "count": 42,
    "slots": {
-    "noon": 21
+    "noon": 21,
+    "evening": 21
    }
   },
   {
@@ -25,39 +26,41 @@
    }
   }
  ],
- "total": 132,
+ "total": 153,
  "last_run": {
-  "at": "2026-09-25T03:45:25+00:00",
-  "slot": "noon",
-  "candidates": 129,
-  "new": 60,
-  "stale": 28,
-  "judged": 60,
+  "at": "2026-09-25T10:07:18+00:00",
+  "slot": "evening",
+  "candidates": 180,
+  "new": 102,
+  "stale": 24,
+  "judged": 98,
   "selected": 21,
-  "mirrored": 19,
+  "mirrored": 21,
   "by_category": {
    "资讯": 13,
-   "项目": 3,
    "技术": 4,
+   "项目": 3,
    "观点": 1
   },
   "by_source": {
-   "HF Daily Papers": 11,
-   "Hacker News": 8,
+   "HF Daily Papers": 12,
+   "arXiv 新论文": 60,
+   "Hacker News": 5,
    "量子位": 10,
-   "极客公园": 8,
-   "IT之家": 12,
-   "爱范儿": 6,
+   "极客公园": 5,
+   "IT之家": 14,
+   "爱范儿": 5,
    "少数派": 1,
-   "雷峰网": 13,
-   "钛媒体": 5,
-   "InfoQ 中文": 13,
+   "雷峰网": 12,
+   "钛媒体": 3,
+   "InfoQ 中文": 12,
    "Latent Space": 5,
    "SemiAnalysis": 1,
    "Tomasz Tunguz": 1,
    "Zvi Mowshowitz": 2,
+   "Hugging Face Blog": 2,
    "Google Research": 1,
-   "OpenAI": 7,
+   "OpenAI": 6,
    "Google DeepMind": 3,
    "NVIDIA": 2,
    "GitHub Trending": 12,

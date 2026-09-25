@@ -1,15 +1,10 @@
-2026-09-25 03:45:25,720 INFO source hf_daily           -> 11 items
-2026-09-25 03:45:26,031 INFO source hackernews         -> 8 items
-2026-09-25 03:46:03,241 WARNING rss Hugging Face Blog failed: 429 for https://huggingface.co/blog/feed.xml
-2026-09-25 03:46:06,188 INFO source rss                -> 90 items
-2026-09-25 03:46:08,028 INFO source html_lists         -> 0 items
-2026-09-25 03:46:08,028 INFO source x                  -> 0 items
-2026-09-25 03:46:51,309 WARNING source arxiv_search failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=30)
-2026-09-25 03:47:00,054 INFO source github             -> 20 items
-2026-09-25 03:47:00,056 INFO candidates: 129 (stale dropped 28, new 60)
-2026-09-25 03:47:41,928 INFO llm judged 60/60 (calls=8)
-2026-09-25 03:49:10,976 WARNING snapshot https://contrastive-lm.notion.site/: Page.goto: Timeout 45000ms exceeded.
-Call log:
-  - navigating to "https://contrastive-lm.notion.site/", waiting until "domcontentloaded"
-
-2026-09-25 03:52:08,871 INFO run done: {"at": "2026-09-25T03:45:25+00:00", "slot": "noon", "candidates": 129, "new": 60, "stale": 28, "judged": 60, "selected": 21, "mirrored": 19, "by_category": {"资讯": 13, "项目": 3, "技术": 4, "观点": 1}, "by_source": {"HF Daily Papers": 11, "Hacker News": 8, "量子位": 10, "极客公园": 8, "IT之家": 12, "爱范儿": 6, "少数派": 1, "雷峰网": 13, "钛媒体": 5, "InfoQ 中文": 13, "Latent Space": 5, "SemiAnalysis": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Google Research": 1, "OpenAI": 7, "Google DeepMind": 3, "NVIDIA": 2, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
+2026-09-25 10:07:19,248 INFO source hf_daily           -> 12 items
+2026-09-25 10:07:19,529 INFO source hackernews         -> 5 items
+2026-09-25 10:07:46,494 INFO source rss                -> 85 items
+2026-09-25 10:07:48,539 INFO source html_lists         -> 0 items
+2026-09-25 10:07:48,539 INFO source x                  -> 0 items
+2026-09-25 10:07:49,198 INFO source arxiv_search       -> 60 items
+2026-09-25 10:07:58,262 INFO source github             -> 20 items
+2026-09-25 10:07:58,264 INFO candidates: 180 (stale dropped 24, new 102)
+2026-09-25 10:09:28,969 INFO llm judged 98/100 (calls=13)
+2026-09-25 10:11:43,173 INFO run done: {"at": "2026-09-25T10:07:18+00:00", "slot": "evening", "candidates": 180, "new": 102, "stale": 24, "judged": 98, "selected": 21, "mirrored": 21, "by_category": {"资讯": 13, "技术": 4, "项目": 3, "观点": 1}, "by_source": {"HF Daily Papers": 12, "arXiv 新论文": 60, "Hacker News": 5, "量子位": 10, "极客公园": 5, "IT之家": 14, "爱范儿": 5, "少数派": 1, "雷峰网": 12, "钛媒体": 3, "InfoQ 中文": 12, "Latent Space": 5, "SemiAnalysis": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 2, "Google Research": 1, "OpenAI": 6, "Google DeepMind": 3, "NVIDIA": 2, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
