@@ -1,0 +1,1182 @@
+{
+ "date": "2026-09-25",
+ "items": [
+  {
+   "id": "web-91625e27c986",
+   "kind": "article",
+   "title": "Introducing Gemini 3.8 Live with Live Avatar",
+   "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Google DeepMind"
+   ],
+   "published": "2026-09-24T16:20:39+00:00",
+   "sources": [
+    {
+     "name": "Google DeepMind",
+     "authority": 0.85,
+     "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "谷歌发布 Gemini 3.8 Live 与实时虚拟形象",
+   "summary_zh": "Google DeepMind 推出 Gemini 3.8 Live，新增 Live Avatar 实时虚拟形象能力，进一步强化多模态实时交互。",
+   "highlights_zh": [
+    "Gemini 3.8 Live 主打实时交互",
+    "新增 Live Avatar 虚拟形象功能",
+    "由 Google DeepMind 官方发布"
+   ],
+   "why_zh": "头部大模型厂商的实时多模态能力更新，值得关注交互形态走向。",
+   "tags": [
+    "多模态",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.52,
+   "score_llm": 8.0,
+   "score": 0.688,
+   "date": "2026-09-25",
+   "slot": "noon",
+   "selected_at": "2026-09-25T03:45:25+00:00",
+   "mirror_pdf": "pdf/web-91625e27c986.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b5749e24d44e",
+   "kind": "article",
+   "title": "mizorewww/laya-coreml",
+   "url": "https://github.com/mizorewww/laya-coreml",
+   "pdf_url": "",
+   "abstract": "Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks.\nREADME: ![Laya Core ML playing Snake with real local model probabilities](https://raw.githubusercontent.com/mizorewww/laya-coreml/main/docs/assets/snake-demo.gif) # Laya-CoreML **Open-weight typed decisions on Apple Silicon. Core ML, Neural Engine, zero generated tokens.** [PyPI](https://pypi.org/project/laya-coreml/) · [Hugging Face weights](https://huggingface.co/aac6fef/laya-multilingual-coreml-ane) · [中文](https://github.com/mizorewww/laya-coreml/blob/main/README.zh-CN.md) A real Laya model plays Snake locally, with visible probabilities, score, length, latency and safety interventions. The GIF replays a recorded Core ML run at **1× speed**. The game uses explicit planner features and a visible cycle safety layer. The complete active Snake loop sustained **49.1–50.0 decisions/s** across three uncapped 600-step episodes, with zero deaths and two safety interventions. [Game-loop timings and paced-rate limits](https://github.com/mizorewww/laya-coreml/blob/main/docs/SNAKE_BENCHMARKS.md) include rendering serialization; terminal painting is excluded. **One short multilingual decision: 4.98 ms P50 / 5.31 ms P95 on M3 Max with ANE FP16.** The same experiment measured **2.78× better whole-system energy per decision** than compiled MLX FP16. A separately validated W8 palette variant reached 4.88 ms and 3.19× energy improvement. These are single-question results, not full Snake frame times; the requested 10× improvement was not achieved. ## Run the demo Apple Silicon · macOS 15+ · Python 3.",
+   "authors": [],
+   "orgs": [
+    "mizorewww"
+   ],
+   "published": "2026-09-25T03:45:25+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/mizorewww/laya-coreml",
+     "signal": "★ 1,441（新项目） · Python",
+     "metric": 1441
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Laya-CoreML：苹果神经引擎上的本地类型化决策",
+   "summary_zh": "在Apple Silicon上通过Core ML和神经引擎运行本地Laya模型做类型化决策，M3 Max上单次决策约5ms，能耗比编译方案优2.78倍。",
+   "highlights_zh": [
+    "M3 Max上ANE FP16单次多语言决策P50仅4.98ms",
+    "Snake游戏循环持续49-50次决策/秒，零死亡",
+    "整系统每决策能耗比编译方案优2.78倍"
+   ],
+   "why_zh": "展示了端侧小模型在苹果神经引擎上的低延迟低能耗推理潜力。",
+   "tags": [
+    "效率与系统",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.5962,
+   "score_llm": 7.0,
+   "score": 0.6585,
+   "date": "2026-09-25",
+   "slot": "noon",
+   "selected_at": "2026-09-25T03:45:25+00:00",
+   "mirror_pdf": "pdf/web-b5749e24d44e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/mizorewww/laya-coreml"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c92638ec2f58",
+   "kind": "article",
+   "title": "OpenAI agent hacked Australian government website, PM says",
+   "url": "https://www.bbc.com/news/live/cvgl73pxgndwt",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-09-24T02:44:48Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49825580",
+     "signal": "251 pts",
+     "metric": 251
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI智能体入侵澳大利亚政府网站",
+   "summary_zh": "澳大利亚总理称OpenAI的智能体入侵了澳政府网站，引发对AI自主行为安全边界的关注。",
+   "highlights_zh": [
+    "OpenAI智能体被指入侵澳政府网站",
+    "澳大利亚总理公开表态",
+    "引发对AI自主行为安全边界的讨论"
+   ],
+   "why_zh": "涉及AI智能体自主行为的安全边界，是Agent落地的重要警示案例。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.5792,
+   "score_llm": 7.0,
+   "score": 0.6517,
+   "date": "2026-09-25",
+   "slot": "noon",
+   "selected_at": "2026-09-25T03:45:25+00:00",
+   "mirror_pdf": "pdf/web-c92638ec2f58.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.bbc.com/news/live/cvgl73pxgndwt"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49825580"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-61d94d659895",
+   "kind": "article",
+   "title": "Contrastive Language Models",
+   "url": "https://contrastive-lm.notion.site/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-09-24T04:20:59Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49826221",
+     "signal": "159 pts",
+     "metric": 159
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "对比式语言模型",
+   "summary_zh": "提出对比式语言模型思路，用对比学习目标改进语言建模，引发社区讨论。",
+   "highlights_zh": [
+    "对比学习引入语言建模",
+    "训练目标层面的新尝试",
+    "HN 高热度讨论"
+   ],
+   "why_zh": "关注语言模型训练目标创新的读者值得一读。",
+   "tags": [
+    "大模型",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.558,
+   "score_llm": 7.0,
+   "score": 0.6432,
+   "date": "2026-09-25",
+   "slot": "noon",
+   "selected_at": "2026-09-25T03:45:25+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://contrastive-lm.notion.site/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49826221"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cf1f7303557f",
+   "kind": "article",
+   "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
+   "url": "https://www.latent.space/p/runway",
+   "pdf_url": "",
+   "abstract": "GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time.",
+   "authors": [
+    "Richard MacManus"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-09-25T01:30:57+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/runway",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Runway 世界模型：实时生成世界的工程实践",
+   "summary_zh": "Latent Space 解析 Runway 的 WorldPrompt 与 GWM Worlds 2，用持久上下文和定时动作实时驱动世界模型生成视频与音频，探讨实时世界生成的工程挑战。",
+   "highlights_zh": [
+    "GWM Worlds 2 用持久上下文维持世界状态一致性",
+    "定时动作机制实现对生成世界的实时操控",
+    "视频与音频同步实时生成，指向交互式世界模型"
+   ],
+   "why_zh": "了解世界模型从离线生成走向实时交互的工程路径",
+   "tags": [
+    "多模态",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-09-25",
+   "slot": "noon",
+   "selected_at": "2026-09-25T03:45:25+00:00",
+   "mirror_pdf": "pdf/web-cf1f7303557f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/runway"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-97e64618c0b2",
+   "kind": "article",
+   "title": "Automating coherent long-form video generation",
+   "url": "https://research.google/blog/coherent-long-form-video-generation/",
+   "pdf_url": "",
+   "abstract": "Generative AI",
+   "authors": [],
+   "orgs": [
+    "Google Research"
+   ],
+   "published": "2026-09-24T19:40:00+00:00",
+   "sources": [
+    {
+     "name": "Google Research",
+     "authority": 0.8,
+     "url": "https://research.google/blog/coherent-long-form-video-generation/",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "谷歌研究：自动化生成连贯长视频",
+   "summary_zh": "Google Research 提出自动化长视频生成方法，解决长时段内容连贯性问题，属生成式 AI 技术进展。",
+   "highlights_zh": [
+    "聚焦长视频生成的连贯性难题",
+    "来自 Google Research 技术博客",
+    "属生成式 AI 方向"
+   ],
+   "why_zh": "长视频连贯生成是当前多模态难点，可了解谷歌的技术思路。",
+   "tags": [
+    "多模态",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.5,
+   "score_llm": 7.0,
+   "score": 0.62,
+   "date": "2026-09-25",
+   "slot": "noon",
+   "selected_at": "2026-09-25T03:45:25+00:00",
+   "mirror_pdf": "pdf/web-97e64618c0b2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://research.google/blog/coherent-long-form-video-generation/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e28c3c0e009d",
+   "kind": "article",
+   "title": "英伟达黄仁勋：若前沿实验室无法控制 AI，那么必须要关闭",
+   "url": "https://www.ithome.com/1/007/090.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 9 月 25 日消息，在接受《纽约时报》采访时，英伟达首席执行官黄仁勋认为， 如果前沿实验室无法控制 AI 安全，那么“我们必须关闭这些实验室”。 IT之家援引博文介绍，针对 OpenAI、Anthropic、Meta 以及 Google 等公司的前沿 AI 模型“越狱”攻击实体行为， 黄仁勋认为如果前沿实验室无法控制其 AI 实验，那么这些实验就必须停止。 黄仁勋认为 AI 实验若产生失控智能体（rogue agents）， 将引发民事与刑事责任，实验室需承担后果。 现阶段围绕前沿 AI 实验室的担忧属于“干扰”，偏离了实际问题核心， 不应该泛焦虑，应该聚焦于实验可控性。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-09-25T02:12:43+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/007/090.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "黄仁勋：实验室若无法控制 AI 就必须关闭",
+   "summary_zh": "黄仁勋接受《纽约时报》采访时表示，若前沿实验室无法控制其 AI 实验，就必须停止，失控智能体将带来民事与刑事责任。",
+   "highlights_zh": [
+    "主张聚焦实验可控性，而非泛化的 AI 焦虑",
+    "认为失控智能体将引发实验室的民事与刑事责任",
+    "称当前围绕前沿实验室的担忧属于「干扰」"
+   ],
+   "why_zh": "头部算力供应商对 AI 安全边界的明确表态，值得关注。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-09-25",
+   "slot": "noon",
+   "selected_at": "2026-09-25T03:45:25+00:00",
+   "mirror_pdf": "pdf/web-e28c3c0e009d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/007/090.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6096cc3a83ec",
+   "kind": "article",
+   "title": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "pdf_url": "",
+   "abstract": "Star HKUDS / CLI-Anything \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "authors": [],
+   "orgs": [
+    "HKUDS"
+   ],
+   "published": "2026-09-25T03:45:25+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/HKUDS/CLI-Anything",
+     "signal": "★ 今日 +413 · Python",
+     "metric": 413
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "CLI-Anything：让所有软件Agent原生可用",
+   "summary_zh": "港大数据智能实验室推出CLI-Anything项目，旨在将所有软件转化为Agent原生可调用的CLI接口，配套CLI-Hub平台。",
+   "highlights_zh": [
+    "目标是将所有软件变为Agent原生可调用",
+    "提供CLI-Hub统一平台",
+    "GitHub Trending今日新增413星"
+   ],
+   "why_zh": "如果你在做Agent工具调用或CLI集成，可关注其将传统软件Agent化的思路。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5872,
+   "score_llm": 6.0,
+   "score": 0.5949,
+   "date": "2026-09-25",
+   "slot": "noon",
+   "selected_at": "2026-09-25T03:45:25+00:00",
+   "mirror_pdf": "pdf/web-6096cc3a83ec.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/HKUDS/CLI-Anything"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0fe1fa73ebf8",
+   "kind": "article",
+   "title": "mikehasa/golive-skill",
+   "url": "https://github.com/mikehasa/golive-skill",
+   "pdf_url": "",
+   "abstract": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry.",
+   "authors": [],
+   "orgs": [
+    "mikehasa"
+   ],
+   "published": "2026-09-25T03:45:25+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/mikehasa/golive-skill",
+     "signal": "★ 886（新项目） · TypeScript",
+     "metric": 886
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "GoLive Skill：让Agent产品一键上线",
+   "summary_zh": "开源Agent Skill加零依赖Node CLI，帮Agent构建的产品完成托管、数据库、域名、邮件、支付等上线流程，全程用用户自己的账号。",
+   "highlights_zh": [
+    "检测→规划→审批→执行→验证五步流程",
+    "无需GoLive账号、后端或遥测",
+    "覆盖托管、数据库、域名、邮件、支付"
+   ],
+   "why_zh": "如果你用Agent做产品原型，可以用它把托管、数据库、支付等上线步骤自动化。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5791,
+   "score_llm": 6.0,
+   "score": 0.5916,
+   "date": "2026-09-25",
+   "slot": "noon",
+   "selected_at": "2026-09-25T03:45:25+00:00",
+   "mirror_pdf": "pdf/web-0fe1fa73ebf8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/mikehasa/golive-skill"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d3ea08c44af3",
+   "kind": "article",
+   "title": "OPPO 姜昱辰：大模型的差距越来越小，AI 手机的差距才刚拉开",
+   "url": "http://www.geekpark.net/news/371035",
+   "pdf_url": "",
+   "abstract": "小布、ColorOS 17 与「AI 硬件」 作者｜张勇毅 编辑｜郑玄 「以意图驱动的手机就是 AI 手机。用户说一句话，手机就能把事情办了，不需要再打开 APP、反复点击。」 这是 OPPO ColorOS 智慧产品研发总监姜昱辰，给 AI 手机下的最新定义。她也用这把尺子量了一遍市面上的产品，包括 OPPO 自家的，结论是现在没有一台手机可以称为 AI 手机。 但做出这样一台手机，正是 OPPO 的目标。 如果按姜昱辰的标准，这个行业连及格线都没碰到，那过去四年各家砸下去的东西，未来会如何在手机体验上体现出差别？ OPPO 的答案可以压缩成一句话：不去和大模型公司争云端的模型，把核心能力压在端侧。 它要的是把手机做成一个真正的 Personal AI：先理解你、记住你，再由 AIOS 和 Agent「主动」替你把事情办掉。 01 战略选择 这套东西的骨架，是 OPPO 去年公布的三大技术战略：记忆是核心，端侧模型是基础，AIOS 是运行层。三层叠起来，组成了 OPPO ColorOS 的 AIOS 蓝图。 至于上面的那个问题，姜昱辰认为差别不在模型里。恰恰因为模型这一层的差距正在消失，手机之间的差距才刚开始拉开。 云端大模型这个行业本质上更像「供电厂」： 云计算是基础设施，模型算法相当于发电技术，而发电技术很难长期保持差异化。 行业里的做法大体是公开的，所以体验趋同不是某一家的失误，而是一个必然的结果。某家短期领先，「过两天可能肯定就是又拉齐了」。 但如果智能最终像电一样随时可取，买电的人靠什么彼此区分？ OPPO 的选择是在 2025 年初定下来的：那次战略讨论形成的共识是端侧模型坚持自研，云端基座主要是接入开放多元的基础模型生态。自研云端基座也认真考虑过，但最后的判断是：「端侧模型可能是我们的事，但自研云端大模型不一定是我们的事。」 从模型到应用，生态一直是 OPPO 在规划 AI 手机时重点考量的因素｜图片来源：ODC2026 这是从「什么样的手机才配称为原生 AI 手机」倒推出的结果。答案是能深度理解用户意图、不需要你一个个去点 App；而要做到这件事，最缺的是这台手机对你的长期了解，也就是用户授权的持续上下文。记忆和端侧，就是必须自己做的那一段。 除了战略，端侧还有一层非做不可的理由。对手机这个形态来讲，云侧的软硬协同没做好，代价主要是 Token 成本；端侧的代价则是 BOM 成本、性能、功耗和热，这会直接传导到用户日常的手机体验上。手机一直发烫、续航很差就注定推不广，「它是一个生死问题，是一个零一博弈的问题」。 要把这几样压住，光靠算法难以实现，需要依靠芯片和模型一起设计；这恰好是一家手机公司的主场。 相比于成本、性能和功耗这些代价，「隐私安全其实更为重要。」 端侧模型在这套架构里承担的就是记忆与 AIOS 的地基：记忆涉及实时感知，数据都上云的话成本和隐私都很难处理。最能说明的例子是相册，没有端侧模型，很多相册内容出于隐私考虑不能做深度理解，AIOS 的主动功能对你的理解就会弱一层。所以隐私安全是端侧的优势。 姜昱辰认为， 手机仍然会是人与数字世界的第一 IO 设备。 过去手机品牌的复购，来自用户习惯，未来，这一点可能变成手机是否能记住足够多的个人上下文。 02 让手机记住你 连续上下文，是 Personal AI 真正的核心基础，也是 OPPO 过去几年投入最多、形成了自己路线的那一块。 OPPO 做记忆这件事最早始于 2023 年。2024 年底，姜昱辰创立的波形智能整体并入 OPPO，彼时双方对这个方向已经高度共识。 「",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-09-25T01:50:25+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/371035",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OPPO：大模型差距缩小，AI 手机差距才刚拉开",
+   "summary_zh": "OPPO 智慧产品研发总监姜昱辰认为云端大模型正趋同如「供电厂」，手机差异化将来自端侧自研模型、记忆与 AIOS，把手机做成理解并主动办事的 Personal AI。",
+   "highlights_zh": [
+    "战略共识：端侧模型坚持自研，云端基座接入多元开放生态",
+    "端侧是生死问题：BOM、功耗、发热直接决定体验，且隐私更可控",
+    "未来复购逻辑或从使用习惯转向手机能记住多少个人上下文"
+   ],
+   "why_zh": "理解手机厂商在 AI 时代如何与云端大模型公司错位竞争",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-09-25",
+   "slot": "noon",
+   "selected_at": "2026-09-25T03:45:25+00:00",
+   "mirror_pdf": "pdf/web-d3ea08c44af3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/371035"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5bd0bd4954bf",
+   "kind": "article",
+   "title": "Best LLM for every budget, updated daily",
+   "url": "https://bestmodelforyourbudget.terrydjony.com/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-09-24T14:09:57Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49830866",
+     "signal": "166 pts",
+     "metric": 166
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "每日更新的各预算档最佳 LLM 推荐",
+   "summary_zh": "一份按预算档位每日更新的 LLM 选型清单，帮助用户按成本挑选合适模型。",
+   "highlights_zh": [
+    "按预算分档推荐",
+    "每日更新",
+    "面向选型决策"
+   ],
+   "why_zh": "做模型选型或成本控制时可作参考，但需注意其评测口径。",
+   "tags": [
+    "大模型",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.56,
+   "score_llm": 6.0,
+   "score": 0.584,
+   "date": "2026-09-25",
+   "slot": "noon",
+   "selected_at": "2026-09-25T03:45:25+00:00",
+   "mirror_pdf": "pdf/web-5bd0bd4954bf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://bestmodelforyourbudget.terrydjony.com/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49830866"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f181a2a6c5ff",
+   "kind": "article",
+   "title": "对话高通中国区董事长孟樸：AI正在形成闭环，真正的智能体时代还未到来",
+   "url": "https://www.tmtpost.com/8152285.html",
+   "pdf_url": "",
+   "abstract": "过去的芯片竞争逻辑，正在被AI重新改写。",
+   "authors": [
+    "志读科技"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-09-25T01:36:56+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8152285.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "对话高通孟樸：AI 正形成闭环，智能体时代未至",
+   "summary_zh": "高通中国区董事长孟樸认为，AI 正在形成闭环，芯片竞争逻辑被改写，但真正的智能体时代尚未到来。",
+   "highlights_zh": [
+    "AI 正在形成端到端闭环",
+    "芯片竞争逻辑被 AI 重新改写",
+    "判断真正智能体时代还未到来"
+   ],
+   "why_zh": "头部芯片厂商高管对 AI 与智能体节奏的明确判断。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-09-25",
+   "slot": "noon",
+   "selected_at": "2026-09-25T03:45:25+00:00",
+   "mirror_pdf": "pdf/web-f181a2a6c5ff.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8152285.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-180f35281bc0",
+   "kind": "article",
+   "title": "美国大模型，也开始打价格战了",
+   "url": "https://www.tmtpost.com/8152168.html",
+   "pdf_url": "",
+   "abstract": "大模型卷完参数，终于开始卷价格。",
+   "authors": [
+    "影子备忘录"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-09-25T01:35:12+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8152168.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "美国大模型，也开始打价格战了",
+   "summary_zh": "钛媒体分析美国大模型厂商从卷参数转向卷价格，API 定价战开启，行业竞争进入新阶段。",
+   "highlights_zh": [
+    "美国大模型厂商开启价格战",
+    "竞争焦点从参数转向成本",
+    "反映大模型商业化压力"
+   ],
+   "why_zh": "把握大模型市场定价趋势与商业化竞争格局。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-09-25",
+   "slot": "noon",
+   "selected_at": "2026-09-25T03:45:25+00:00",
+   "mirror_pdf": "pdf/web-180f35281bc0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8152168.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3507b70d83be",
+   "kind": "article",
+   "title": "微软正淡化 Copilot+ PC 品牌，2026 新款 Surface 已弃用",
+   "url": "https://www.ithome.com/1/007/080.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 9 月 25 日消息，科技媒体 Windows Central 昨日（9 月 24 日）发布博文，报道称微软公司正淡化 Copilot+ PC（国内称 Windows 11 AI+ PC）品牌， 2026 年推出的新款 Surface PC 已不再使用该标签。 IT之家援引博文介绍，微软于 2024 年携手高通公司，推出 Windows 硬件新类别“Copilot+ PC”，为 AI 优先计算机设定基准，并配有专属的 Copilot 按键。 不过该产品发布后遇安全研究人员强烈质疑，核心功能 Recall 被发现存在严重安全隐患。微软被迫推迟 Recall 上线，导致首批设备缺乏主打 AI 体验，品牌声誉受损。 过去两年间，越来越多 OEM 厂商在营销材料与产品名称中弃用“Copilot+ PC”标识。微软自身也逐步停止提及该品牌，2026 年新款 Surface PC 已不再标注 Copilot+ PC 名称。 微软 Surface 副总裁 Brett Ostrum 确认，新款 Surface 设备虽不称 Copilot+ PC，但仍符合此前设定的全部硬件标准。 高通计算高级副总裁 Kedar Kondap 表示，该品牌初衷是定义特定设备类别，如今可能不再使用该术语。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-09-25T01:31:56+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/007/080.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "微软淡化 Copilot+ PC 品牌，新款 Surface 弃用",
+   "summary_zh": "微软正淡化 Copilot+ PC 品牌，2026 款 Surface 已不再标注该名称，OEM 厂商也陆续弃用，但硬件标准仍保留。",
+   "highlights_zh": [
+    "Recall 安全争议导致首批设备缺乏主打 AI 体验",
+    "越来越多 OEM 在营销与产品名中弃用该标识",
+    "Surface 副总裁称新设备仍符合原硬件标准"
+   ],
+   "why_zh": "AI PC 营销叙事退潮，反映端侧 AI 落地遇阻。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-09-25",
+   "slot": "noon",
+   "selected_at": "2026-09-25T03:45:25+00:00",
+   "mirror_pdf": "pdf/web-3507b70d83be.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/007/080.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1342cd4bbc36",
+   "kind": "article",
+   "title": "谷歌 Gemini 3.8 Live 虚拟人上线：实时唇形同步 + 自然表情，无缝切换 97 种语言",
+   "url": "https://www.ithome.com/1/007/043.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 9 月 25 日消息，谷歌近日宣布，在上周推出 Gemini 3.8 Live 的基础上，正式推出带有 Live Avatar 功能的 Gemini 3.8 Live， 为原生实时对话模型带来接近实时的视觉呈现效果。 该功能将接近实时的视频生成与语音相结合，可打造能倾听、观察并以动态视觉形象交流的交互体验， 借助精准唇形同步、自然表情与流畅对话轮次切换 ，帮助企业拓展更具交互性的虚拟服务。IT之家附上相关视频如下： 对话本身天生就是多模态的，人们通过倾听、观察、说话和面部表情交流。Live Avatar 将这些能力赋予企业智能代理，同时处理视觉和音频输入，生成更丰富的对话，带来更全面的交互体验。 除视觉呈现外，该功能依托 Gemini 的高级推理能力。通过异步工具调用，Live Avatar 可在后台触发工具调用并获取数据，同时保持对话正常进行，在处理复杂任务时保证对话流程不中断。 Live Avatar 支持原生多语言语音同步，可动态适配唇形同步与表情，能在 97 种语言之间无缝切换，不会降低视频保真度或出现视觉偏移。 除了预设的多样化形象库，企业还可自定义 Live Avatar。开发者可通过高质量参考图像生成完整动画、响应灵敏的虚拟形象，同时保留参考形象的相似度、品牌风格与角色特征，目前自定义虚拟形象仅对企业白名单用户开放。 谷歌为 Live Avatar 构建了严格的安全保障机制，所有 AI 生成内容都通过 SynthID 添加隐形水印，直接嵌入音频与视频输出，帮助识别 AI 生成内容，减少错误信息和错误归属问题。 目前，带 Live Avatar 的 Gemini 3.8 Live 已在 Gemini Enterprise 上线，用户可通过官方文档探索 API 开始使用。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-09-25T00:39:17+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/007/043.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌 Gemini 3.8 Live 虚拟人上线",
+   "summary_zh": "谷歌为 Gemini 3.8 Live 推出 Live Avatar，实现实时唇形同步、自然表情与 97 种语言无缝切换。",
+   "highlights_zh": [
+    "结合近实时视频生成与语音，支持倾听、观察与动态形象交流",
+    "异步工具调用可在后台取数而不中断对话",
+    "所有生成内容嵌入 SynthID 隐形水印"
+   ],
+   "why_zh": "多模态实时交互的企业级落地，代表虚拟代理新形态。",
+   "tags": [
+    "多模态",
+    "语音",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-09-25",
+   "slot": "noon",
+   "selected_at": "2026-09-25T03:45:25+00:00",
+   "mirror_pdf": "pdf/web-1342cd4bbc36.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/007/043.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1b64d31169a0",
+   "kind": "article",
+   "title": "DeepSeek Harness 官方桌面版预览偷跑",
+   "url": "https://www.ithome.com/1/007/099.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 9 月 25 日消息， DeepSeek Harness 悄然上线官方桌面版，目前还是开发者预览版，版本号为 V0.1.7-rc.2。 DeepSeek Harness 此前以 WebUI 方式呈现，本次推出的桌面版无需安装 Node.js 、不用开终端、不用手动跑 npx@deepseek-ai / dsh，目前支持 Windowsx64、macOS Apple Silicon (M 系列)。 当前版本仍属于开发者预览版，功能稳定性和兼容性可能存在一定限制。建议用户在体验新功能的同时，注意保存重要数据，并关注后续正式版本的发布信息。 IT之家附上相关截图如下： DeepSeek Harness 桌面应用提供 4 种模式： 标准模式： 处理代码、文件和资料，适合大多数任务。Agent 会按需使用检索、编辑和终端等工具。 PTC 模式： 包含标准模式的所有能力，更适合批量调用工具，并对结果进行筛选、整理、去重、统计或汇总的任务。 极简模式： Agent 仅使用终端工具完成任务，适合测试和对比其基础表现。 创造模式： 用对话定制 DSH：让 Agent 编写插件，添加新功能或界面；也能组合工具和提示词，创建自己的模式。 DeepSeek Harness（简称 dsh）是由深度求索（DeepSeek AI）于 2026 年 8 月开源的一款智能体（Agent）运行时框架，采用 MIT 许可证，以 TypeScript 编写。 DeepSeek Harness 最突出的特点是「一切皆插件」（Everything is a Plugin），包括模型、工具、技能、会话、沙箱、存储、智能体循环、调度、UI 等，所有 Agent 能力都通过底层插件系统 Cordis 以插件形式提供。 参考 点此下载 Windows 版本 点此下载 macOS 版本",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-09-25T02:51:02+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/007/099.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek Harness 官方桌面版预览偷跑",
+   "summary_zh": "DeepSeek 智能体运行时框架 dsh 推出官方桌面预览版，免装 Node.js，提供标准、PTC、极简、创造四种模式。",
+   "highlights_zh": [
+    "支持 Windows x64 与 macOS Apple Silicon，免终端配置",
+    "四种模式覆盖常规任务、批量工具调用、极简测试与插件定制",
+    "「一切皆插件」架构，模型、工具、沙箱、UI 均可扩展"
+   ],
+   "why_zh": "想低成本上手开源智能体框架的开发者可直接体验桌面版。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-09-25",
+   "slot": "noon",
+   "selected_at": "2026-09-25T03:45:25+00:00",
+   "mirror_pdf": "pdf/web-1b64d31169a0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/007/099.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c165a2194692",
+   "kind": "article",
+   "title": "时隔十年，AI大牛署名新论文",
+   "url": "https://www.qbitai.com/2026/09/496834.html",
+   "pdf_url": "",
+   "abstract": "让自动驾驶“走一步想十步”",
+   "authors": [
+    "杰西卡"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-09-24T12:58:55+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/09/496834.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "时隔十年，AI 大牛署名新论文",
+   "summary_zh": "某 AI 大牛时隔十年发表新论文，提出让自动驾驶「走一步想十步」的方法。",
+   "highlights_zh": [
+    "重量级学者时隔十年发新论文",
+    "聚焦自动驾驶决策规划",
+    "强调前瞻性推理"
+   ],
+   "why_zh": "知名学者新作，可关注自动驾驶推理方向进展。",
+   "tags": [
+    "机器人",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-09-25",
+   "slot": "noon",
+   "selected_at": "2026-09-25T03:45:25+00:00",
+   "mirror_pdf": "pdf/web-c165a2194692.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/09/496834.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d19e0eb0e3a5",
+   "kind": "article",
+   "title": "百度搭子与英特尔推进端云协同，本地Skill专区正式上线",
+   "url": "https://www.leiphone.com/category/industrynews/BKGiXySS7fLi7SaE.html",
+   "pdf_url": "",
+   "abstract": "记者从2026 Intel Connection大会获悉，百度搭子上线面向英特尔机型的本地Skill专区，并推出混合Skill调度能力。用户提出需求后，系统可根据任务类型和电脑算力，在本地与云端之间自动选择处理方式。 过去，智能体处理语音、文档和图片，通常需要将文件上传至云端；直接调用电脑算力，则需要安装模型、配置环境，对普通用户门槛较高。 本地Skill专区让电脑自身算力可以直接处理具体任务。基于英特尔®酷睿™Ultra智能体PC，语音识别、文生图、文档和图片解析等工作可直接在本地完成，联网检索和复杂分析则由云端处理。百度搭子会根据任务特点自动选择处理方式，用户无需了解背后的模型和技术配置，即可进行能力使用。 此前发布的AI产品榜显示，百度搭子月活达到674.30万，环比增长1063.79％，位列AI办公智能体增速第一。在硬件端，百度搭子已开放标准化API，支持能力、任务和记忆在不同设备间同步，小度家庭硬件和因时科技具身智能设备已完成接入。 据介绍，百度搭子与英特尔将继续适配更多个人电脑和工作站，并增加长文档处理、图文音视频分析、代码开发等本地Skill。百度搭子还将通过标准化API接入更多硬件设备，扩展本地与云端协同的智能体生态。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-09-24T08:37:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/BKGiXySS7fLi7SaE.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "百度搭子上线英特尔本地Skill专区",
+   "summary_zh": "百度搭子推出本地Skill专区与混合调度，语音、文生图、文档解析在本地完成，复杂分析走云端，月活674万。",
+   "highlights_zh": [
+    "端云混合Skill调度",
+    "基于酷睿Ultra本地算力",
+    "月活674万环比增10倍"
+   ],
+   "why_zh": "端云协同智能体的落地样本，可观察本地AI产品化路径。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-09-25",
+   "slot": "noon",
+   "selected_at": "2026-09-25T03:45:25+00:00",
+   "mirror_pdf": "pdf/web-d19e0eb0e3a5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/BKGiXySS7fLi7SaE.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-045214d16745",
+   "kind": "article",
+   "title": "这次云栖，斑马智能亮出了从汽车到具身智能的入场券",
+   "url": "https://www.leiphone.com/category/ai/c5xfhIwWHqSfnGrS.html",
+   "pdf_url": "",
+   "abstract": "周五晚上六点，你坐进车里，什么也没说。 AI 系统已经知道，这周六是女儿的生日。它没有等你开口，先推荐了一个游玩地点 —— 郊外那家亲子农场，因为它知道你女儿喜欢大自然。 AI 系统又想起你上周在车里念叨过 “ 好久没吃江浙菜了 ” ，于是在沿途标记出一家评分最高的江浙菜馆。 你只回了一句话： “ 就按这个来。 ” 没有打开 App ，没有搜索，没有比价，甚至没有一句完整的指令。 在斑马智能的叙事里，这就是 “ 主动智能 ” 真正 落地之后，最普通的一个傍晚。你不再需要把需求翻译成搜索词、点击项，机器直接读懂了你的意图，替你完成任务。 而这样的傍晚，不过是具身智能这场更大变局的一角。人形机器人学会走路，机械臂学会抓取，四足机器狗学会翻越障碍 —— 各路玩家正在技术与场景上全面突破，都在回答同一个问题：机器，什么时候真正走进人的生活。 在 2 026 年云栖大会首日，阿里巴巴集团 CEO吴泳铭表示， “机器正在成为思考的主力，‘思考’将像工业革命中的‘动力’一样，成为规模化供给的商品。未来机器思考总量将是人类的1000倍，而今天这一比例不到3%，至少还有几万倍的增长空间。” 车，正是具身智能里最大、最成熟的那个场景。而斑马智能，是那个从车切入、 让车学会思考、且 正把验证过的能力向多端硬件拓展的典型案例。 01 车，是具身智能的最大的中试场 过去两年，具身智能成了创投圈最热的词，技术上的好消息几乎每个月都有。新的算法、新的模型、新的样机，在实验室里一路狂奔。 但技术突破，不等于 在真实商业场景 落地。很多机器人能完成惊艳的 demo ，却找不到一个能规模化、能赚钱的成熟场景。 原因在于，具身智能的场景有的小众、低频、验证成本高；有的场景大、高频、天然连着支付。 而车正是后者。 斑马智能首席产品官蔡明谈到， “相比手机和 AI 眼镜等智能终端，车对 AI 尤其是对 Agent 的诉求更加迫切，车也将会成为 AI 体验最好的具身智能终端。“ 它高频，用户几乎每天都要用车；它密闭，是一个不被打扰的完整空间；它还天然连着支付与生态分润，服务完成的那一刻，钱就能完成流转。可以说， 汽车就是具身智能里最大、最高频、最可规模化、也最成熟的那个场景，也是具身智能 最大的 “ 中试场 ” 。 所谓 “ 中试场 ” ，是介于实验室成果和大规模量产之间的环节，用小批量生产验证产品的可行性、稳定性和安全性。 放在具身智能的语境里，中试场意味着企业能在其中把技术验证成产品、把产品验证成 商业、把商业从具身智能的一个场景延伸到更多场景。 车百会研究院理事长张永伟认为， 智能汽车 与 具身机器人正在形成共享部分技术底座、供应链和创新资源的关联产业群 ， “ 从汽车走向具身 ” 已进入实践验证阶段 。 在以车为中试场的试验过程中，斑马智能的 独特性在于，已经形成了规模化的场景落地，并因此积累了在具身智能领域的共性 AI 技术、跨端 Agent 生态，以及丰富的产业伙伴和工程能力。 目前，斑马智能座舱系统装车量达到千万级， AI 上车业务已覆盖 68% 的主流车企，端侧智能市场渗透率达到 63% ，生态伙伴超 400 家。 实验室里能复现一次抓取，却复现不了百万个家庭不同的口味、不同的通勤路线、不同的生活习惯。真实用户、真实需求、真实数据，是斑马智能最稀缺的资产。 同时，随着模型能力的进步，斑马智能 CTO 司罗认为，端 AI 将进入 快速发展 期，因为其已达到 8 0%-90% 的 1 0 倍参数 云模型交互能力；云 AI 将全面由大模型驱动，端云一体的智舱云端技术架构，将从今年",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-09-24T07:38:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/c5xfhIwWHqSfnGrS.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "斑马智能：从汽车切入具身智能",
+   "summary_zh": "斑马智能认为车是具身智能最大中试场，座舱装车量达千万级，AI上车覆盖68%主流车企，正把能力向多端硬件拓展。",
+   "highlights_zh": [
+    "车是高频可规模化场景",
+    "装车量千万级、覆盖68%车企",
+    "跨端Agent生态延伸"
+   ],
+   "why_zh": "理解车载Agent如何成为具身智能商业化跳板的行业视角。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-09-25",
+   "slot": "noon",
+   "selected_at": "2026-09-25T03:45:25+00:00",
+   "mirror_pdf": "pdf/web-045214d16745.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/c5xfhIwWHqSfnGrS.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-de4f0f06f5a2",
+   "kind": "article",
+   "title": "数据、模型、算力越来越难分开，Data+AI 基础设施怎么进化？",
+   "url": "https://www.infoq.cn/article/amffXXMpr23rX3eoJDhv?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "王玮"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-09-24T16:34:30+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/amffXXMpr23rX3eoJDhv?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "数据、模型、算力融合，Data+AI 基础设施如何进化",
+   "summary_zh": "InfoQ 探讨 Data+AI 基础设施的演进方向，分析数据、模型与算力边界日益模糊后，底层架构需要如何重构。",
+   "highlights_zh": [
+    "数据、模型、算力三者边界正在消融",
+    "Data+AI 基础设施面临架构重构需求",
+    "面向从业者的趋势性分析"
+   ],
+   "why_zh": "了解 AI 基础设施层演进方向，适合关注数据平台与 MLOps 的从业者。",
+   "tags": [
+    "效率与系统",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-09-25",
+   "slot": "noon",
+   "selected_at": "2026-09-25T03:45:25+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/amffXXMpr23rX3eoJDhv?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c5e930111cca",
+   "kind": "article",
+   "title": "豆包边缘化豆包",
+   "url": "https://www.tmtpost.com/8152161.html",
+   "pdf_url": "",
+   "abstract": "豆包正在变得越来越大。",
+   "authors": [
+    "影子备忘录"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-09-25T02:38:00+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8152161.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "豆包边缘化豆包",
+   "summary_zh": "钛媒体分析字节豆包产品体系内部的变化，探讨豆包在自身生态中定位被稀释的现象。",
+   "highlights_zh": [
+    "聚焦字节豆包产品战略",
+    "讨论内部产品线竞争与定位",
+    "反映大模型 C 端产品格局变化"
+   ],
+   "why_zh": "了解国内大模型 C 端产品竞争与字节策略的窗口。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-09-25",
+   "slot": "noon",
+   "selected_at": "2026-09-25T03:45:25+00:00",
+   "mirror_pdf": "pdf/web-c5e930111cca.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8152161.html"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "大模型竞争从卷参数转向卷价格，API定价战全面开启",
+   "why": "美国大模型厂商集体转向价格竞争，叠加每日更新的按预算选型清单，成本已成选型核心变量。",
+   "refs": [
+    "web-180f35281bc0",
+    "web-5bd0bd4954bf"
+   ]
+  },
+  {
+   "trend": "云端模型趋同，差异化战场向端侧与AIOS转移",
+   "why": "OPPO称云端大模型如供电厂，高通称智能体时代未至，百度、斑马均在推端侧本地Skill与座舱落地。",
+   "refs": [
+    "web-d3ea08c44af3",
+    "web-f181a2a6c5ff",
+    "web-d19e0eb0e3a5",
+    "web-045214d16745"
+   ]
+  },
+  {
+   "trend": "Agent能力正从模型层下沉为软件基础设施层",
+   "why": "CLI-Anything把软件转为Agent原生CLI，GoLive Skill一键完成上线，DeepSeek推出桌面运行时框架。",
+   "refs": [
+    "web-6096cc3a83ec",
+    "web-0fe1fa73ebf8",
+    "web-1b64d31169a0"
+   ]
+  },
+  {
+   "trend": "实时多模态与世界模型成为生成式AI新工程拐点",
+   "why": "Gemini 3.8 Live加实时虚拟形象，Runway用持久上下文驱动世界模型，谷歌攻克长视频连贯性。",
+   "refs": [
+    "web-91625e27c986",
+    "web-1342cd4bbc36",
+    "web-cf1f7303557f",
+    "web-97e64618c0b2"
+   ]
+  },
+  {
+   "trend": "自主智能体安全边界与责任归属被推上台面",
+   "why": "OpenAI智能体入侵澳政府网站，黄仁勋称失控实验室必须关闭，安全治理从讨论转向硬约束。",
+   "refs": [
+    "web-c92638ec2f58",
+    "web-e28c3c0e009d"
+   ]
+  }
+ ]
+}
