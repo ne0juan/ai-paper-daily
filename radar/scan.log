@@ -1,10 +1,12 @@
-2026-09-25 10:07:19,248 INFO source hf_daily           -> 12 items
-2026-09-25 10:07:19,529 INFO source hackernews         -> 5 items
-2026-09-25 10:07:46,494 INFO source rss                -> 85 items
-2026-09-25 10:07:48,539 INFO source html_lists         -> 0 items
-2026-09-25 10:07:48,539 INFO source x                  -> 0 items
-2026-09-25 10:07:49,198 INFO source arxiv_search       -> 60 items
-2026-09-25 10:07:58,262 INFO source github             -> 20 items
-2026-09-25 10:07:58,264 INFO candidates: 180 (stale dropped 24, new 102)
-2026-09-25 10:09:28,969 INFO llm judged 98/100 (calls=13)
-2026-09-25 10:11:43,173 INFO run done: {"at": "2026-09-25T10:07:18+00:00", "slot": "evening", "candidates": 180, "new": 102, "stale": 24, "judged": 98, "selected": 21, "mirrored": 21, "by_category": {"资讯": 13, "技术": 4, "项目": 3, "观点": 1}, "by_source": {"HF Daily Papers": 12, "arXiv 新论文": 60, "Hacker News": 5, "量子位": 10, "极客公园": 5, "IT之家": 14, "爱范儿": 5, "少数派": 1, "雷峰网": 12, "钛媒体": 3, "InfoQ 中文": 12, "Latent Space": 5, "SemiAnalysis": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 2, "Google Research": 1, "OpenAI": 6, "Google DeepMind": 3, "NVIDIA": 2, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
+2026-09-25 15:47:05,360 INFO source hf_daily           -> 13 items
+2026-09-25 15:47:05,704 INFO source hackernews         -> 3 items
+2026-09-25 15:47:33,274 INFO source rss                -> 80 items
+2026-09-25 15:47:35,277 INFO source html_lists         -> 0 items
+2026-09-25 15:47:35,277 INFO source x                  -> 0 items
+2026-09-25 15:47:35,799 INFO source arxiv_search       -> 58 items
+2026-09-25 15:47:45,368 INFO source github             -> 20 items
+2026-09-25 15:47:45,370 INFO candidates: 172 (stale dropped 12, new 93)
+2026-09-25 15:49:10,370 INFO llm judged 93/93 (calls=12)
+2026-09-25 15:49:25,879 WARNING snapshot https://thezvi.wordpress.com/2026/09/25/on-ezra-kleins-podcast-with-jensen-huang/: blocked or empty page
+2026-09-25 15:51:09,431 WARNING snapshot https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical: blocked or empty page
+2026-09-25 15:52:26,340 INFO run done: {"at": "2026-09-25T15:47:04+00:00", "slot": "evening", "candidates": 172, "new": 93, "stale": 12, "judged": 93, "selected": 21, "mirrored": 17, "by_category": {"技术": 4, "项目": 3, "观点": 2, "资讯": 12}, "by_source": {"HF Daily Papers": 13, "arXiv 新论文": 58, "Hacker News": 3, "量子位": 10, "极客公园": 5, "IT之家": 14, "爱范儿": 5, "少数派": 1, "雷峰网": 11, "钛媒体": 4, "InfoQ 中文": 12, "Latent Space": 4, "SemiAnalysis": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 3, "Hugging Face Blog": 2, "Google Research": 1, "OpenAI": 1, "Google DeepMind": 2, "NVIDIA": 1, "Microsoft": 1, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
