@@ -1,11 +1,12 @@
 {
- "updated": "2026-09-26T03:52:01+00:00",
+ "updated": "2026-09-26T09:48:05+00:00",
  "days": [
   {
    "date": "2026-09-26",
-   "count": 17,
+   "count": 36,
    "slots": {
-    "noon": 17
+    "noon": 17,
+    "evening": 19
    }
   },
   {
@@ -33,34 +34,35 @@
    }
   }
  ],
- "total": 191,
+ "total": 210,
  "last_run": {
-  "at": "2026-09-26T03:52:01+00:00",
-  "slot": "noon",
-  "candidates": 97,
-  "new": 32,
-  "stale": 29,
-  "judged": 32,
-  "selected": 17,
-  "mirrored": 17,
+  "at": "2026-09-26T09:48:05+00:00",
+  "slot": "evening",
+  "candidates": 113,
+  "new": 33,
+  "stale": 28,
+  "judged": 33,
+  "selected": 19,
+  "mirrored": 18,
   "by_category": {
-   "观点": 2,
-   "资讯": 12,
-   "项目": 3
+   "观点": 1,
+   "资讯": 13,
+   "项目": 1,
+   "技术": 4
   },
   "by_source": {
-   "HF Daily Papers": 3,
+   "HF Daily Papers": 5,
    "Hacker News": 4,
    "量子位": 10,
-   "极客公园": 5,
-   "IT之家": 9,
-   "爱范儿": 3,
-   "雷峰网": 9,
+   "极客公园": 4,
+   "IT之家": 10,
+   "爱范儿": 1,
+   "雷峰网": 4,
    "钛媒体": 7,
    "InfoQ 中文": 12,
-   "Latent Space": 5,
+   "Latent Space": 4,
    "SemiAnalysis": 1,
-   "Azeem Azhar": 1,
+   "Azeem Azhar": 2,
    "Zvi Mowshowitz": 2,
    "Hugging Face Blog": 1,
    "Google Research": 1,
@@ -68,8 +70,9 @@
    "Google DeepMind": 1,
    "NVIDIA": 1,
    "Microsoft": 1,
-   "GitHub Trending": 13,
-   "GitHub 新项目": 7
+   "arXiv 新论文": 21,
+   "GitHub Trending": 12,
+   "GitHub 新项目": 8
   },
   "llm": true,
   "translated": 0
