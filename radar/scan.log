@@ -1,11 +1,11 @@
-2026-09-26 09:48:06,172 INFO source hf_daily           -> 5 items
-2026-09-26 09:48:06,546 INFO source hackernews         -> 4 items
-2026-09-26 09:48:37,058 INFO source rss                -> 63 items
-2026-09-26 09:48:38,362 INFO source html_lists         -> 0 items
-2026-09-26 09:48:38,362 INFO source x                  -> 0 items
-2026-09-26 09:48:38,733 INFO source arxiv_search       -> 21 items
-2026-09-26 09:48:47,852 INFO source github             -> 20 items
-2026-09-26 09:48:47,854 INFO candidates: 113 (stale dropped 28, new 33)
-2026-09-26 09:49:14,398 INFO llm judged 33/33 (calls=5)
-2026-09-26 09:51:58,645 WARNING snapshot https://openai.com/index/proaction: blocked or empty page
-2026-09-26 09:52:01,642 INFO run done: {"at": "2026-09-26T09:48:05+00:00", "slot": "evening", "candidates": 113, "new": 33, "stale": 28, "judged": 33, "selected": 19, "mirrored": 18, "by_category": {"观点": 1, "资讯": 13, "项目": 1, "技术": 4}, "by_source": {"HF Daily Papers": 5, "Hacker News": 4, "量子位": 10, "极客公园": 4, "IT之家": 10, "爱范儿": 1, "雷峰网": 4, "钛媒体": 7, "InfoQ 中文": 12, "Latent Space": 4, "SemiAnalysis": 1, "Azeem Azhar": 2, "Zvi Mowshowitz": 2, "Hugging Face Blog": 1, "Google Research": 1, "OpenAI": 1, "Google DeepMind": 1, "NVIDIA": 1, "Microsoft": 1, "arXiv 新论文": 21, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
+2026-09-26 14:56:42,864 INFO source hf_daily           -> 5 items
+2026-09-26 14:56:43,156 INFO source hackernews         -> 4 items
+2026-09-26 14:57:03,949 INFO source rss                -> 58 items
+2026-09-26 14:57:05,768 INFO source html_lists         -> 0 items
+2026-09-26 14:57:05,768 INFO source x                  -> 0 items
+2026-09-26 14:57:06,212 INFO source arxiv_search       -> 13 items
+2026-09-26 14:57:15,530 INFO source github             -> 20 items
+2026-09-26 14:57:15,531 INFO candidates: 100 (stale dropped 8, new 31)
+2026-09-26 14:57:40,512 INFO llm judged 31/31 (calls=4)
+2026-09-26 14:57:54,665 WARNING snapshot https://thezvi.wordpress.com/2026/09/26/claude-opus-5-5-should-raise-your-ambitions/: blocked or empty page
+2026-09-26 14:59:23,932 INFO run done: {"at": "2026-09-26T14:56:42+00:00", "slot": "evening", "candidates": 100, "new": 31, "stale": 8, "judged": 31, "selected": 13, "mirrored": 12, "by_category": {"项目": 3, "观点": 1, "资讯": 8, "技术": 1}, "by_source": {"HF Daily Papers": 5, "Hacker News": 4, "量子位": 10, "极客公园": 2, "IT之家": 15, "雷峰网": 2, "钛媒体": 7, "InfoQ 中文": 8, "Latent Space": 4, "SemiAnalysis": 2, "Azeem Azhar": 2, "Zvi Mowshowitz": 2, "Google Research": 1, "OpenAI": 1, "Google DeepMind": 1, "Microsoft": 1, "arXiv 新论文": 13, "GitHub Trending": 9, "GitHub 新项目": 11}, "llm": true, "translated": 0}
