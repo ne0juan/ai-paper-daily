@@ -1,6 +1,13 @@
 {
- "updated": "2026-09-26T14:56:42+00:00",
+ "updated": "2026-09-27T04:00:24+00:00",
  "days": [
+  {
+   "date": "2026-09-27",
+   "count": 12,
+   "slots": {
+    "noon": 12
+   }
+  },
   {
    "date": "2026-09-26",
    "count": 49,
@@ -34,42 +41,37 @@
    }
   }
  ],
- "total": 223,
+ "total": 235,
  "last_run": {
-  "at": "2026-09-26T14:56:42+00:00",
-  "slot": "evening",
-  "candidates": 100,
-  "new": 31,
-  "stale": 8,
-  "judged": 31,
-  "selected": 13,
-  "mirrored": 12,
+  "at": "2026-09-27T04:00:24+00:00",
+  "slot": "noon",
+  "candidates": 73,
+  "new": 33,
+  "stale": 11,
+  "judged": 33,
+  "selected": 12,
+  "mirrored": 11,
   "by_category": {
-   "项目": 3,
-   "观点": 1,
+   "技术": 1,
    "资讯": 8,
-   "技术": 1
+   "项目": 3
   },
   "by_source": {
-   "HF Daily Papers": 5,
-   "Hacker News": 4,
+   "Hacker News": 3,
    "量子位": 10,
    "极客公园": 2,
-   "IT之家": 15,
-   "雷峰网": 2,
-   "钛媒体": 7,
-   "InfoQ 中文": 8,
-   "Latent Space": 4,
+   "IT之家": 16,
+   "雷峰网": 3,
+   "钛媒体": 3,
+   "InfoQ 中文": 6,
+   "Latent Space": 2,
    "SemiAnalysis": 2,
    "Azeem Azhar": 2,
    "Zvi Mowshowitz": 2,
-   "Google Research": 1,
    "OpenAI": 1,
-   "Google DeepMind": 1,
    "Microsoft": 1,
-   "arXiv 新论文": 13,
-   "GitHub Trending": 9,
-   "GitHub 新项目": 11
+   "GitHub Trending": 8,
+   "GitHub 新项目": 12
   },
   "llm": true,
   "translated": 0
