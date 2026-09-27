@@ -1,12 +1,12 @@
 {
- "updated": "2026-09-27T10:29:24+00:00",
+ "updated": "2026-09-27T15:35:18+00:00",
  "days": [
   {
    "date": "2026-09-27",
-   "count": 29,
+   "count": 38,
    "slots": {
     "noon": 12,
-    "evening": 17
+    "evening": 26
    }
   },
   {
@@ -42,35 +42,33 @@
    }
   }
  ],
- "total": 252,
+ "total": 261,
  "last_run": {
-  "at": "2026-09-27T10:29:24+00:00",
+  "at": "2026-09-27T15:35:18+00:00",
   "slot": "evening",
-  "candidates": 69,
-  "new": 26,
-  "stale": 7,
-  "judged": 26,
-  "selected": 17,
-  "mirrored": 16,
+  "candidates": 63,
+  "new": 14,
+  "stale": 1,
+  "judged": 14,
+  "selected": 9,
+  "mirrored": 9,
   "by_category": {
-   "观点": 2,
-   "资讯": 12,
-   "项目": 3
+   "项目": 3,
+   "资讯": 6
   },
   "by_source": {
    "Hacker News": 5,
-   "量子位": 9,
+   "量子位": 10,
    "极客公园": 3,
-   "IT之家": 9,
-   "雷峰网": 3,
+   "IT之家": 6,
+   "雷峰网": 2,
    "钛媒体": 5,
    "InfoQ 中文": 5,
    "Latent Space": 1,
    "SemiAnalysis": 2,
-   "Azeem Azhar": 3,
-   "Zvi Mowshowitz": 2,
+   "Azeem Azhar": 2,
+   "Zvi Mowshowitz": 1,
    "OpenAI": 1,
-   "Microsoft": 1,
    "GitHub Trending": 8,
    "GitHub 新项目": 12
   },
