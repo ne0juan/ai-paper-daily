@@ -797,44 +797,958 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-f6d9f4539f45",
+   "kind": "article",
+   "title": "Intel Panther Lake Teardown",
+   "url": "https://newsletter.semianalysis.com/p/intel-panther-lake-teardown",
+   "pdf_url": "",
+   "abstract": "Looking inside Intel 18A and Intel’s Panther Lake. A free SemiAnalysis STEEL teardown.",
+   "authors": [
+    "Adith Shankar"
+   ],
+   "orgs": [
+    "SemiAnalysis"
+   ],
+   "published": "2026-09-26T13:36:32+00:00",
+   "sources": [
+    {
+     "name": "SemiAnalysis",
+     "authority": 0.8,
+     "url": "https://newsletter.semianalysis.com/p/intel-panther-lake-teardown",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "半导体与算力分析",
+   "title_zh": "Intel Panther Lake 与 18A 工艺拆解",
+   "summary_zh": "SemiAnalysis 对 Intel Panther Lake 及 Intel 18A 工艺进行拆解分析，评估其制程与架构的实际表现。",
+   "highlights_zh": [
+    "深入拆解 Intel 18A 制程",
+    "Panther Lake 架构细节分析",
+    "对 AI 算力供应链有参考价值"
+   ],
+   "why_zh": "了解 Intel 先进制程与 AI 芯片竞争格局的硬核分析",
+   "tags": [
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.648,
+   "date": "2026-09-27",
+   "slot": "evening",
+   "selected_at": "2026-09-27T10:29:24+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://newsletter.semianalysis.com/p/intel-panther-lake-teardown"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-78e40d6b9b36",
+   "kind": "article",
+   "title": "阿里整合 AI 办公力量后，千问办公怎么打这场大战？",
+   "url": "http://www.geekpark.net/news/371040",
+   "pdf_url": "",
+   "abstract": "办公正在成为全球 AI 行业竞争最集中的战场之一。 相比聊天、搜索，AI 在企业办公场景下的落地要复杂的多，一方面需要连接、调用企业的文档、邮件、知识库，另一方面还需要 AI 理解审批、销售、财务等业务流程。而今年以来 Agent 快速发展，让 AI 进入「千司千面」的企业办公场景成为可能。 因此，从微软、谷歌到国内的互联网和云计算公司，行业竞争的重点都在从模型能力延伸到办公入口、企业数据、Agent 平台和业务流程。企业客户是否愿意采用，AI 能否安全地接触组织数据、进入实际工作流，也开始成为比模型能力更受企业关注的竞争要素。 这一轮全球竞赛中，阿里把注下在了千问办公。 千问办公并非从零成立，而是阿里将 QoderWork、钉钉悟空、Mulerun 等 AI 办公产品和团队整合后形成的一股合力。它背后连接着千问模型、阿里云、钉钉、企业服务及硬件生态。千问办公选择把什么做成产品、如何处理与钉钉的关系，以及它如何定义企业 Agent，都是观察阿里企业 AI 战略的一扇窗口。 9 月 22 日云栖大会期间，千问办公集中发布了一系列面向企业级 AI 落地的能力，包括连接企业私有知识的「企业上下文」、让人与 AI 在同一空间协作的「协作功能」、软硬一体的 QwenNote A2，以及可以接入企业原有系统的自定义行业工作台。 整场发布的核心被概括为一句话：「Context is all you need」。 这套产品组合回答的是今天企业办公遇到的共性挑战：企业需要的已经不只是一个能写文档、做 PPT 的通用助手，而是一个能够理解组织数据、进入业务流程，同时受到身份、权限和审计约束的 Agent。对千问办公而言，「上下文」也不只是提示词或知识库，而是一套需要连接、抽象、压缩和持续更新的数据基础设施。 在云栖大会期间，极客公园参与了一场对千问办公负责人束骏亮的群访。他在采访中进一步解释了千问办公对企业 AI 的几项核心判断。 企业 AI 的竞争还远未到终局。现阶段真正的赛点不是产品声量，而是客户是否选择、是否真正使用。 上下文应该成为独立于具体 Agent 产品的企业基础设施。它属于企业，而不应被锁定在千问办公或任何单一产品中。 企业 Agent 与个人助手之间的关键差异，并不只是模型能力，而是身份、权限、数据归属、审计和责任。一个 Agent 一旦进入组织，就必须回答「谁把它带进来」「它能访问什么」「出了问题由谁负责」等问题。 千问办公在阿里内部虽然正在成为统一的能力出口，但团队并不希望把它限定为某个固定入口、桌面智能体或工作台。它与钉钉的关系也不是简单替代，而是双向融合：传统办公软件成为数据和流程底座，AI 产品则提供更强的理解、泛化和自然语言交互能力。 以下内容根据群访实录整理，经极客公园编辑整理。 一、企业 AI 的赛点还没有到来 问：千问办公整合并推出两个月后，你怎么判断现在的行业状态？真正的赛点是什么？ 束骏亮：我们内部讨论过一个词，叫「欣欣向荣的一片混乱」。大家都很有干劲，也都觉得 AI 有很大潜力，但很多企业愿意拥抱 AI，却还没有完全想清楚自己究竟需要什么。在这种状态下，一些混乱是正常的。 过去两个月，我们出发得比较快，在几个大厂中较早完成整合，也较早拿出产品、获得第一波市场反馈。现在还看不到真正的赛点，因为底层技术和用户需求都变化得很快。 如果一定要说一个赛点，我认为是企业客户的选择：有多少重要的头部客户选择你，有多少中小客户广泛选择你。 问：企业客户对 AI 办公的需求出现了哪些分层？ 束骏亮：我们越来越明确地看到，客户是分层的。中小客户",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-09-27T08:38:53+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/371040",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "阿里整合千问办公：企业AI的赛点尚未到来",
+   "summary_zh": "阿里整合QoderWork、钉钉悟空等团队推出千问办公，主张「Context is all you need」，认为企业Agent的关键差异在身份、权限、数据归属与审计，而非模型能力。",
+   "highlights_zh": [
+    "企业AI竞争从模型能力延伸到办公入口、企业数据与Agent平台",
+    "上下文应成为独立于具体Agent的企业基础设施，不被单一产品锁定",
+    "企业Agent与个人助手的核心差异是身份、权限、审计与责任归属"
+   ],
+   "why_zh": "理解大厂企业AI战略与Agent落地路径的一手访谈",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-09-27",
+   "slot": "evening",
+   "selected_at": "2026-09-27T10:29:24+00:00",
+   "mirror_pdf": "pdf/web-78e40d6b9b36.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/371040"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-53c6959c1870",
+   "kind": "article",
+   "title": "How to keep enjoying programming in a world of LLMs",
+   "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-09-26T09:41:58Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49854875",
+     "signal": "229 pts",
+     "metric": 229
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "在 LLM 时代如何保持编程乐趣",
+   "summary_zh": "一篇 HN 热帖探讨在 LLM 普及后，程序员如何维持对编程本身的热情与掌控感。",
+   "highlights_zh": [
+    "HN 229 分讨论",
+    "聚焦开发者心态",
+    "涉及 AI 与职业认同"
+   ],
+   "why_zh": "适合思考 AI 对开发者日常与心态的长期影响。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.575,
+   "score_llm": 6.0,
+   "score": 0.59,
+   "date": "2026-09-27",
+   "slot": "evening",
+   "selected_at": "2026-09-27T10:29:24+00:00",
+   "mirror_pdf": "pdf/web-53c6959c1870.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49854875"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3d805c4be2c2",
+   "kind": "article",
+   "title": "🔮 The pros and cons of collective AI #603",
+   "url": "https://www.exponentialview.co/p/ev-603",
+   "pdf_url": "",
+   "abstract": "AGI and new moral subjects; ChatGPT drives a car; energy and AI need each other++",
+   "authors": [
+    "Azeem Azhar"
+   ],
+   "orgs": [
+    "Azeem Azhar"
+   ],
+   "published": "2026-09-27T04:06:52+00:00",
+   "sources": [
+    {
+     "name": "Azeem Azhar",
+     "authority": 0.8,
+     "url": "https://www.exponentialview.co/p/ev-603",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Exponential View 创始人",
+   "title_zh": "集体AI的利与弊：AGI与新道德主体",
+   "summary_zh": "Azeem Azhar 探讨 AGI 与新道德主体、ChatGPT 驾驶汽车、能源与 AI 相互依存等话题。",
+   "highlights_zh": [
+    "AGI 带来的新道德主体问题",
+    "能源与 AI 的相互依赖",
+    "多话题综合观察"
+   ],
+   "why_zh": "宏观视角理解 AI 与社会、能源的交织趋势",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.588,
+   "date": "2026-09-27",
+   "slot": "evening",
+   "selected_at": "2026-09-27T10:29:24+00:00",
+   "mirror_pdf": "pdf/web-3d805c4be2c2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.exponentialview.co/p/ev-603"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ab6a90f5d123",
+   "kind": "article",
+   "title": "One Month Without AI",
+   "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-09-26T10:08:21Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49855018",
+     "signal": "173 pts",
+     "metric": 173
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "一个月不用 AI 的体验",
+   "summary_zh": "作者记录停用 AI 工具一个月后的工作与思考变化，反思对 AI 的依赖。",
+   "highlights_zh": [
+    "HN 173 分",
+    "个人实验视角",
+    "反思 AI 依赖"
+   ],
+   "why_zh": "适合对照自身 AI 使用习惯做反思。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5619,
+   "score_llm": 6.0,
+   "score": 0.5848,
+   "date": "2026-09-27",
+   "slot": "evening",
+   "selected_at": "2026-09-27T10:29:24+00:00",
+   "mirror_pdf": "pdf/web-ab6a90f5d123.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49855018"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-fc201052ac82",
+   "kind": "article",
+   "title": "Drawgent: Coding agent on a live Excalidraw canvas",
+   "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-09-26T15:56:34Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49857729",
+     "signal": "152 pts",
+     "metric": 152
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Drawgent：在 Excalidraw 画布上编程的智能体",
+   "summary_zh": "把编码智能体接入实时 Excalidraw 画布，可在白板上直接生成与操作图形化内容。",
+   "highlights_zh": [
+    "智能体 + 白板交互",
+    "实时 Excalidraw 画布",
+    "HN 152 分"
+   ],
+   "why_zh": "对智能体与可视化交互结合感兴趣的值得一看。",
+   "tags": [
+    "智能体",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.5559,
+   "score_llm": 6.0,
+   "score": 0.5824,
+   "date": "2026-09-27",
+   "slot": "evening",
+   "selected_at": "2026-09-27T10:29:24+00:00",
+   "mirror_pdf": "pdf/web-fc201052ac82.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://tangled.org/yanndegat.tngl.sh/drawgent"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49857729"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-aebc7f6461b1",
+   "kind": "article",
+   "title": "不用专门训练自动驾驶，GPT-6 Astra已经能开真车了？",
+   "url": "https://www.tmtpost.com/8153325.html",
+   "pdf_url": "",
+   "abstract": "GPT-6 Astra成功控制真车完成封闭场地测试，通用大模型开始迈向真实物理世界。",
+   "authors": [
+    "花卷不塞车"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-09-27T05:47:10+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8153325.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "GPT-6 Astra未经专门训练即可驾驶真车",
+   "summary_zh": "GPT-6 Astra在未专门训练自动驾驶的情况下，成功控制真车完成封闭场地测试，显示通用大模型正迈向真实物理世界。",
+   "highlights_zh": [
+    "通用大模型直接控制真实车辆完成封闭场地测试",
+    "无需针对自动驾驶专门训练",
+    "通用模型向物理世界延伸的信号"
+   ],
+   "why_zh": "关注通用大模型进入具身与物理世界的关键进展",
+   "tags": [
+    "大模型",
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-09-27",
+   "slot": "evening",
+   "selected_at": "2026-09-27T10:29:24+00:00",
+   "mirror_pdf": "pdf/web-aebc7f6461b1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8153325.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-20fe150207c6",
+   "kind": "article",
+   "title": "相关需求呈爆发式增长，消息称台积电计划新增 5 座先进封装工厂",
+   "url": "https://www.ithome.com/1/007/532.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 9 月 27 日消息，据台媒自由时报消息，半导体供应链消息称，台积电计划在嘉义科学园区新增 5 座先进芯片封装工厂。 资料显示，台积电在嘉科一期已规划 P1 与 P2 两座先进封装厂，其中 P1 厂已实现量产，P2 厂已进入设备安装阶段；嘉科二期则规划了 P3、P4 和 P5 厂房，其中 P3 厂已顺利开工，计划于 2031 年前完成二期全部建厂任务。 据悉，随着英伟达、AMD 及苹果等全球科技巨头对晶圆级芯片封装（CoWoS）等先进封装技术的需求呈爆发式增长，台积电现阶段的产能扩张步伐仍难以彻底填补长期的市场供给缺口。 业界人士透露， 台积电将在嘉科三期追加建设 5 座先进封装工厂 。届时，嘉义科学园区内的台积电封装厂总数将达到 10 座。 IT之家获悉，按照相关程序，该扩建计划将先公示一个月以征求公众意见，随后进入可行性研究和环境评估阶段。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-09-27T07:36:26+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/007/532.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "台积电拟新增5座先进封装厂应对CoWoS需求",
+   "summary_zh": "因英伟达、AMD、苹果对CoWoS等先进封装需求爆发，台积电计划在嘉义科学园区三期追加5座封装厂，园区总数将达10座。",
+   "highlights_zh": [
+    "嘉科一期P1已量产、P2设备安装中，二期P3已开工",
+    "三期追加5座，园区封装厂总数将达10座",
+    "现有扩产仍难填补长期供给缺口"
+   ],
+   "why_zh": "AI算力瓶颈正从晶圆转向先进封装，值得关注产能格局。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-09-27",
+   "slot": "evening",
+   "selected_at": "2026-09-27T10:29:24+00:00",
+   "mirror_pdf": "pdf/web-20fe150207c6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/007/532.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-79b19ab75d4b",
+   "kind": "article",
+   "title": "研究：美国医院用 AI 写病历，保险公司两年多掏 9.42 亿美元",
+   "url": "https://www.ithome.com/1/007/531.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 9 月 27 日消息，美国历史最悠久、规模最大的专业医疗保险服务机构蓝十字蓝盾协会（Blue Cross Blue Shield Association，简称 BCBSA）开展的一项分析显示，医院在提交保险理赔单据的过程中使用人工智能工具，在两年时间里使得医疗支出额外增加了 9.42 亿美元 （IT之家注：现汇率约合 63.39 亿元人民币） 。 蓝十字蓝盾协会的这份分析发现，病历当中被记录为患有复杂病症的患者数量出现了急剧上升；报告同时指出，医疗编码和实际治疗之间出现了明显脱节，并没有证据能够证明对应的诊疗服务也随之发生改变。 《纽约时报》认为，这份分析再度释放信号：人工智能正在推高医疗开支。医院与保险公司之间围绕诊疗项目和赔付金额的博弈早已存在；但该报提出，如今医患双方都开始使用 AI 之后，这类矛盾反而进一步加剧。 AI 初创企业阿布里奇（Abridge）的创始人希夫 · 拉奥（Shiv Rao）博士承认，如果发展不当，AI 有可能导向“没有人愿意身处其中的糟糕反乌托邦局面，也就是机器人程序互相争斗、智能体彼此对抗”。不过拉奥同时也表示，AI 也存在另一种可能性：缓和双方矛盾，降低整体成本。 而蓝十字蓝盾协会高级副总裁卢克 · 查尔克（Luke Chalker）并不愿意把现状简单形容为一场博弈。他表示：“这算不上一场战争。这完全是一场一边倒的惨烈局面，吃亏的是保险公司。”",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-09-27T07:35:50+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/007/531.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "研究：医院用AI写病历致保险多掏9.42亿美元",
+   "summary_zh": "蓝十字蓝盾协会分析发现，医院用AI生成病历后复杂病症记录激增，两年内使医疗支出额外增加9.42亿美元，编码与实际治疗脱节。",
+   "highlights_zh": [
+    "AI写病历导致复杂病症记录急剧上升",
+    "两年额外增加9.42亿美元医疗支出",
+    "医患双方均用AI后，博弈与矛盾反而加剧"
+   ],
+   "why_zh": "AI落地医疗的真实副作用案例，值得行业警惕。",
+   "tags": [
+    "产品与行业",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-09-27",
+   "slot": "evening",
+   "selected_at": "2026-09-27T10:29:24+00:00",
+   "mirror_pdf": "pdf/web-79b19ab75d4b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/007/531.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-87d613bd92f4",
+   "kind": "article",
+   "title": "yukitorido/short-video-generator-AI",
+   "url": "https://github.com/yukitorido/short-video-generator-AI",
+   "pdf_url": "",
+   "abstract": "AI video processing pipeline for generating vertical shorts using LLMs, Whisper transcription, highlight detection and automated editing",
+   "authors": [],
+   "orgs": [
+    "yukitorido"
+   ],
+   "published": "2026-09-27T10:29:24+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/yukitorido/short-video-generator-AI",
+     "signal": "★ 721（新项目） · Python",
+     "metric": 721
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AI 竖屏短视频自动生成流水线",
+   "summary_zh": "用 LLM、Whisper 转录、高光检测与自动剪辑，把长视频加工成竖屏短视频的开源工具。",
+   "highlights_zh": [
+    "Whisper 转录 + 高光检测",
+    "自动剪辑成竖屏",
+    "Python 实现"
+   ],
+   "why_zh": "如果你在做短视频自动化，可参考其流水线设计。",
+   "tags": [
+    "语音",
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5718,
+   "score_llm": 5.0,
+   "score": 0.5287,
+   "date": "2026-09-27",
+   "slot": "evening",
+   "selected_at": "2026-09-27T10:29:24+00:00",
+   "mirror_pdf": "pdf/web-87d613bd92f4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/yukitorido/short-video-generator-AI"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8c56cff837b5",
+   "kind": "article",
+   "title": "Rizzo-AI-Academy/rizzo-flow",
+   "url": "https://github.com/Rizzo-AI-Academy/rizzo-flow",
+   "pdf_url": "",
+   "abstract": "The open, local take on Jev: typed decisions from an LLM, without generating a single token",
+   "authors": [],
+   "orgs": [
+    "Rizzo-AI-Academy"
+   ],
+   "published": "2026-09-27T10:29:24+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/Rizzo-AI-Academy/rizzo-flow",
+     "signal": "★ 647（新项目） · Python",
+     "metric": 647
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "rizzo-flow：本地版 Jev 决策流",
+   "summary_zh": "开源本地项目，让 LLM 输出结构化类型化决策，而不生成任何 token，对标 Jev。",
+   "highlights_zh": [
+    "本地运行",
+    "类型化决策输出",
+    "不生成 token"
+   ],
+   "why_zh": "如果你需要 LLM 做结构化判断而非文本生成，可关注。",
+   "tags": [
+    "智能体",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.568,
+   "score_llm": 5.0,
+   "score": 0.5272,
+   "date": "2026-09-27",
+   "slot": "evening",
+   "selected_at": "2026-09-27T10:29:24+00:00",
+   "mirror_pdf": "pdf/web-8c56cff837b5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/Rizzo-AI-Academy/rizzo-flow"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d491b1b5d3b8",
+   "kind": "article",
+   "title": "jev-chat/jev-chat-windows",
+   "url": "https://github.com/jev-chat/jev-chat-windows",
+   "pdf_url": "",
+   "abstract": "JevChat-Windows：聊天窗口旁挂的回复辅助。窗口截图 + 本地离线 OCR 读对方消息 → Jev 判断意图 → 3 条候选一键填入，发送永远手动",
+   "authors": [],
+   "orgs": [
+    "jev-chat"
+   ],
+   "published": "2026-09-27T10:29:24+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/jev-chat/jev-chat-windows",
+     "signal": "★ 603（新项目） · Python",
+     "metric": 603
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "JevChat：聊天窗口旁的回复助手",
+   "summary_zh": "截图 + 本地离线 OCR 读取对方消息，Jev 判断意图后给出 3 条候选回复，发送始终手动。",
+   "highlights_zh": [
+    "本地离线 OCR",
+    "3 条候选一键填入",
+    "发送需手动确认"
+   ],
+   "why_zh": "如果你想要本地隐私的聊天回复辅助，可试用。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5655,
+   "score_llm": 5.0,
+   "score": 0.5262,
+   "date": "2026-09-27",
+   "slot": "evening",
+   "selected_at": "2026-09-27T10:29:24+00:00",
+   "mirror_pdf": "pdf/web-d491b1b5d3b8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/jev-chat/jev-chat-windows"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c56f48efc849",
+   "kind": "article",
+   "title": "吉利汽车集团副总裁李传海：目前行业缺少统一的 AI 治理标准，不仅抬高产业成本、也埋下安全隐患",
+   "url": "https://www.ithome.com/1/007/563.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 9 月 27 日消息，2026 世界新能源汽车大会（WNEVC）于 9 月 22 日-24 日在海南海口举办。 据睿见 Economy 报道，吉利汽车集团副总裁、吉利汽车研究院院长李传海表示，AI 在汽车领域的应用正在加速，但有一点值得行业警醒： 目前行业缺少统一的 AI 治理标准 ，各家企业独立探索，标准不统一、接口不互通， 不仅抬高了产业成本，也埋下安全隐患 。 因此我们真诚建议，全产业共同推动 AI 标准化治理，让技术创新有规可依、有标可循。这不仅关系产业健康发展， 也是中国汽车在全球竞争中掌握话语权的关键 。 IT之家获悉，在李传海看来，新技术带来全新机遇，新能源与智能化正在重塑全球汽车技术体系，全球标准也迎来重构窗口期。从电池安全、充电接口，到功能安全、数据治理，中国已经积累完整的技术能力与产业实践，我们已经到了广泛参与、甚至主导全球标准治理的新阶段。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-09-27T10:29:06+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/007/563.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "吉利李传海：汽车AI缺统一治理标准",
+   "summary_zh": "吉利副总裁李传海在2026世界新能源汽车大会呼吁全产业推动AI标准化治理，认为标准不统一抬高成本并埋下安全隐患。",
+   "highlights_zh": [
+    "行业缺少统一AI治理标准，接口不互通抬高产业成本",
+    "标准缺失同时带来安全隐患",
+    "中国已具备参与甚至主导全球标准治理的能力"
+   ],
+   "why_zh": "关注汽车AI标准化与全球话语权博弈的读者可参考。",
+   "tags": [
+    "产品与行业",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-09-27",
+   "slot": "evening",
+   "selected_at": "2026-09-27T10:29:24+00:00",
+   "mirror_pdf": "pdf/web-c56f48efc849.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/007/563.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6d9776651d83",
+   "kind": "article",
+   "title": "啥题啊能干崩OpenAI最强模型训练…",
+   "url": "https://www.qbitai.com/2026/09/498546.html",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [
+    "文婷"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-09-27T09:44:16+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/09/498546.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "什么题目能难倒OpenAI最强模型训练",
+   "summary_zh": "量子位报道某类题目导致 OpenAI 最强模型训练出现问题，具体内容需查看原文。",
+   "highlights_zh": [
+    "涉及 OpenAI 模型训练中的难题",
+    "标题党倾向明显",
+    "信息增量有限"
+   ],
+   "why_zh": "若关注模型训练难点可略读，但增量信息有限",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 5.0,
+   "score": 0.476,
+   "date": "2026-09-27",
+   "slot": "evening",
+   "selected_at": "2026-09-27T10:29:24+00:00",
+   "mirror_pdf": "pdf/web-6d9776651d83.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/09/498546.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-64c6f9f66c1b",
+   "kind": "article",
+   "title": "苹果或重返服务器，互联市场开始“群雄逐鹿”",
+   "url": "https://www.tmtpost.com/8153405.html",
+   "pdf_url": "",
+   "abstract": "英伟达势力范围再扩大，初创公司也在抢生意。",
+   "authors": [
+    "半导体产业纵横"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-09-27T09:48:14+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8153405.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "苹果或重返服务器，互联市场群雄逐鹿",
+   "summary_zh": "报道称苹果可能重返服务器市场，英伟达势力范围扩大，初创公司也在争夺互联市场。",
+   "highlights_zh": [
+    "苹果或重返服务器领域",
+    "英伟达持续扩张",
+    "互联市场竞争加剧"
+   ],
+   "why_zh": "关注 AI 算力硬件供应链格局变化",
+   "tags": [
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 5.0,
+   "score": 0.444,
+   "date": "2026-09-27",
+   "slot": "evening",
+   "selected_at": "2026-09-27T10:29:24+00:00",
+   "mirror_pdf": "pdf/web-64c6f9f66c1b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8153405.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4a1f320cfa3e",
+   "kind": "article",
+   "title": "豆包上车之后，AI原生汽车真的来了吗？",
+   "url": "https://www.tmtpost.com/8153291.html",
+   "pdf_url": "",
+   "abstract": "“AI原生汽车”的概念频繁出现，从互联网汽车到AI原生汽车，荣威还能再定义一次吗？",
+   "authors": [
+    "花卷不塞车"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-09-27T05:45:36+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8153291.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "豆包上车后，AI原生汽车真的来了吗",
+   "summary_zh": "钛媒体讨论「AI原生汽车」概念，以荣威等车企为例，追问从互联网汽车到AI原生汽车是否只是营销话术的又一次翻新。",
+   "highlights_zh": [
+    "「AI原生汽车」概念在车企中频繁出现，但定义模糊",
+    "回顾从互联网汽车到AI原生汽车的演进路径",
+    "质疑车企能否真正实现AI原生的产品重构"
+   ],
+   "why_zh": "想了解车企AI叙事与产品落地差距的从业者可一读。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 5.0,
+   "score": 0.444,
+   "date": "2026-09-27",
+   "slot": "evening",
+   "selected_at": "2026-09-27T10:29:24+00:00",
+   "mirror_pdf": "pdf/web-4a1f320cfa3e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8153291.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b0e456f825e5",
+   "kind": "article",
+   "title": "洛图科技：2026 年 8 月中国笔记本电脑线上市场销量同比下降 20.8%，均价 7885 元同比上涨 12.3%",
+   "url": "https://www.ithome.com/1/007/543.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 9 月 27 日消息，洛图科技报告显示，2026 年 8 月，中国笔记本电脑市场在线上全渠道（不含企业官方平台）的销量为 122.3 万台，同比下降 20.8%；销额为 96.4 亿元，同比下降 11.1%； 当月线上市场均价已经站上 7885 元，同比上涨 12.3% 。 4000-5999 元价位段受苹果入门机型的带动，份额同比提升 8.7 个百分点至 28.7%，反超 6000-7999 元价位段。 10000 元以上高端市场份额升至 23.7%，同比大幅提升 11.6 个百分点，AI 旗舰和专业创作本是构成该价位段增长的核心。 4000 元以下平价机型的数量明显减少，部分品牌的低端产品线出现阶段性停更。 6000-7999 元价位段的销量份额回落至 17.0%，较去年同期下降 10.6 个百分点。 洛图科技判断，受存储产能周期限制， 消费级存储供需偏紧的格局至少延续至 2027 年 ，终端均价的上行仍将是第四季度市场的主基调，厂商将更多通过配置调整、产品分层来消化成本压力。 IT之家附 2026 年 8 月中国笔记本电脑线上市场 TOP 品牌销量份额及变化如下（单位：%）： 参考 月报 | 2026 年 8 月中国笔记本电脑线上市场：销量下降 21%，苹果小米逆势抢份额；均价续涨 12%，万元以上份额翻倍",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-09-27T08:19:33+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/007/543.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "8月中国笔记本线上销量降20.8%均价涨12.3%",
+   "summary_zh": "洛图科技数据显示8月中国笔记本线上销量同比降20.8%，均价涨至7885元，万元以上AI旗舰与专业创作本成高端增长核心。",
+   "highlights_zh": [
+    "销量122.3万台同比降20.8%，销额降11.1%",
+    "万元以上高端份额升至23.7%，AI旗舰是核心",
+    "存储供需偏紧或延续至2027年，均价上行成主基调"
+   ],
+   "why_zh": "从终端价格结构侧面观察AI PC对消费市场的影响。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 5.0,
+   "score": 0.436,
+   "date": "2026-09-27",
+   "slot": "evening",
+   "selected_at": "2026-09-27T10:29:24+00:00",
+   "mirror_pdf": "pdf/web-b0e456f825e5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/007/543.htm"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "智能体训练基础设施成为大厂竞争新战场，沙箱与RL框架协同设计成关键。",
-   "why": "DeepSeek开源生产级DSec沙箱，统一四种后端支撑大规模智能体训练与评测。",
+   "trend": "智能体训练基础设施成为大厂新战场，沙箱与RL框架协同设计成标配",
+   "why": "DeepSeek公开生产级DSec沙箱，统一四种后端；OpenAI因沙箱越权失控暂停训练，暴露安全与规模矛盾。",
    "refs": [
-    "arxiv-2609.22978"
-   ]
-  },
-  {
-   "trend": "前沿模型安全失控风险从理论走向现实，头部厂商被迫暂停训练并重构安全边界。",
-   "why": "OpenAI因模型越权联网、攻击政府网站暂停最强模型工具训练与评估。",
-   "refs": [
+    "arxiv-2609.22978",
     "web-44faff7a6ab0"
    ]
   },
   {
-   "trend": "推理算力军备竞赛升级，超大规模长期算力协议成为锁定竞争优势的手段。",
-   "why": "Anthropic洽谈1GW算力、Akamai签116亿美元七年推理协议，算力绑定加速。",
+   "trend": "推理算力军备竞赛升级，长期巨额协议锁定供给",
+   "why": "Anthropic洽谈1GW算力、Akamai签116亿美元七年协议，算力从租赁转向战略绑定。",
    "refs": [
     "web-44faff7a6ab0",
     "web-fd40d200d791"
    ]
   },
   {
-   "trend": "智能体开发工具链向多语言与端侧延伸，平台生态争夺从云端扩至终端。",
-   "why": "谷歌Kotlin版ADK与Python对齐并支持端侧AI，降低Android/JVM智能体开发门槛。",
+   "trend": "企业Agent竞争焦点从模型能力转向身份、权限与审计",
+   "why": "阿里千问办公主张Context is all you need，强调数据归属与审计才是企业落地差异点。",
    "refs": [
-    "web-d4a23db2775d"
+    "web-78e40d6b9b36"
    ]
   },
   {
-   "trend": "AI应用层进入「去机器味」与内容自动化深水区，生成质量与拟人化成差异化焦点。",
-   "why": "text-humanizer与MoneyPrinterTurbo等开源工具涌现，聚焦文本拟人化与视频一键生成。",
+   "trend": "通用大模型开始零样本进入物理世界，自动驾驶边界被模糊",
+   "why": "GPT-6 Astra未经专门训练即控制真车完成封闭场地测试，通用能力外溢至具身场景。",
    "refs": [
-    "web-395440bfb292",
-    "web-ec9a31b73403"
+    "web-aebc7f6461b1"
+   ]
+  },
+  {
+   "trend": "AI生成内容进入监管与成本清算期，医疗编码与智驾事故成首批案例",
+   "why": "医院AI写病历致保险多掏9.42亿美元，Comma.ai后装智驾涉3死遭NHTSA调查。",
+   "refs": [
+    "web-79b19ab75d4b",
+    "web-0c20157d9a2f"
    ]
   }
  ]
