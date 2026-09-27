@@ -1,10 +1,10 @@
-2026-09-27 10:29:24,583 INFO source hf_daily           -> 0 items
-2026-09-27 10:29:24,828 INFO source hackernews         -> 5 items
-2026-09-27 10:29:51,558 INFO source rss                -> 44 items
-2026-09-27 10:29:52,746 INFO source html_lists         -> 0 items
-2026-09-27 10:29:52,746 INFO source x                  -> 0 items
-2026-09-27 10:29:53,251 INFO source arxiv_search       -> 0 items
-2026-09-27 10:30:02,044 INFO source github             -> 20 items
-2026-09-27 10:30:02,056 INFO candidates: 69 (stale dropped 7, new 26)
-2026-09-27 10:30:21,793 INFO llm judged 26/26 (calls=4)
-2026-09-27 10:33:53,869 INFO run done: {"at": "2026-09-27T10:29:24+00:00", "slot": "evening", "candidates": 69, "new": 26, "stale": 7, "judged": 26, "selected": 17, "mirrored": 16, "by_category": {"观点": 2, "资讯": 12, "项目": 3}, "by_source": {"Hacker News": 5, "量子位": 9, "极客公园": 3, "IT之家": 9, "雷峰网": 3, "钛媒体": 5, "InfoQ 中文": 5, "Latent Space": 1, "SemiAnalysis": 2, "Azeem Azhar": 3, "Zvi Mowshowitz": 2, "OpenAI": 1, "Microsoft": 1, "GitHub Trending": 8, "GitHub 新项目": 12}, "llm": true, "translated": 0}
+2026-09-27 15:35:19,132 INFO source hf_daily           -> 0 items
+2026-09-27 15:35:19,522 INFO source hackernews         -> 5 items
+2026-09-27 15:36:03,962 INFO source rss                -> 38 items
+2026-09-27 15:36:06,386 INFO source html_lists         -> 0 items
+2026-09-27 15:36:06,386 INFO source x                  -> 0 items
+2026-09-27 15:36:06,938 INFO source arxiv_search       -> 0 items
+2026-09-27 15:36:15,507 INFO source github             -> 20 items
+2026-09-27 15:36:15,538 INFO candidates: 63 (stale dropped 1, new 14)
+2026-09-27 15:36:26,576 INFO llm judged 14/14 (calls=2)
+2026-09-27 15:37:45,749 INFO run done: {"at": "2026-09-27T15:35:18+00:00", "slot": "evening", "candidates": 63, "new": 14, "stale": 1, "judged": 14, "selected": 9, "mirrored": 9, "by_category": {"项目": 3, "资讯": 6}, "by_source": {"Hacker News": 5, "量子位": 10, "极客公园": 3, "IT之家": 6, "雷峰网": 2, "钛媒体": 5, "InfoQ 中文": 5, "Latent Space": 1, "SemiAnalysis": 2, "Azeem Azhar": 2, "Zvi Mowshowitz": 1, "OpenAI": 1, "GitHub Trending": 8, "GitHub 新项目": 12}, "llm": true, "translated": 0}
