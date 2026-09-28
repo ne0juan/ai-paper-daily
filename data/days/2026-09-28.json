@@ -1,0 +1,966 @@
+{
+ "date": "2026-09-28",
+ "items": [
+  {
+   "id": "web-193eb09a66e5",
+   "kind": "article",
+   "title": "2026 in LLMs (so far)",
+   "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+   "pdf_url": "",
+   "abstract": "On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 2026. The video is on YouTube ; here are my annotated slides and notes to accompany the talk. # I'm going to give a lightning tour of everything that has happened so far in 2026. The year isn't over yet! # For me, 2026 started a couple of months earlier in November 2025. # November saw the release of two important models: Claude Opus 4.5 and GPT-5.1. As is usually the case with new models, these were incremental improvements on the models that came before them. But every now and then when a model improves, it crosses an invisible line where something that didn't really work starts working. In this case, the thing that started working was their coding agents. Claude Code had been around since February 2025, Codex was a little younger. These two new models, when paired with their respective coding agent harnesses, improved from \"often make mistakes\" to \"reliable enough to use on a day-to-day basis\". # For a couple of years now I've been evaluating new models by asking them to \"Generate an SVG of a pelican riding a bicycle\". It's probably the world's stupidest benchmark - there's only so much you can learn from it. But it's still a challenge for models, because drawing pelicans is difficult, drawing bicycles is difficult, and pelicans can't ride bicycles in the first",
+   "authors": [
+    "Simon Willison"
+   ],
+   "orgs": [
+    "Simon Willison"
+   ],
+   "published": "2026-09-27T23:54:15+00:00",
+   "sources": [
+    {
+     "name": "Simon Willison",
+     "authority": 0.8,
+     "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Django 联合创始人，LLM 实践者",
+   "title_zh": "Simon Willison：2026 年 LLM 大事记",
+   "summary_zh": "Simon Willison 认为 2026 年 LLM 的关键转折是 Claude Opus 4.5 和 GPT-5.1 让编码智能体从「经常出错」变为「日常可靠可用」。",
+   "highlights_zh": [
+    "Claude Opus 4.5 和 GPT-5.1 是 2026 年最重要的模型发布",
+    "编码智能体跨过可靠性门槛，从实验性变为日常工具",
+    "以「骑自行车的鹈鹕 SVG」作为长期模型能力基准"
+   ],
+   "why_zh": "Simon Willison 的年度回顾帮你快速把握 2026 年 LLM 发展的关键节点和趋势。",
+   "tags": [
+    "大模型",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.708,
+   "date": "2026-09-28",
+   "slot": "noon",
+   "selected_at": "2026-09-28T04:01:32+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4aa8cdc749d3",
+   "kind": "article",
+   "title": "There are no \"rogue\" AI agents",
+   "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-09-27T16:19:46Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49868083",
+     "signal": "342 pts",
+     "metric": 342
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "不存在“失控”的AI智能体",
+   "summary_zh": "文章反驳“AI智能体已失控”的流行说法，认为当前智能体行为仍由人类设定的目标与约束决定，所谓“rogue”更多是叙事而非技术现实。",
+   "highlights_zh": [
+    "拆解“失控智能体”叙事的逻辑漏洞",
+    "强调当前智能体仍受人类目标约束",
+    "对AI安全讨论中的恐慌情绪提出反思"
+   ],
+   "why_zh": "帮助从业者在智能体热潮中保持对能力边界的清醒判断。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.5937,
+   "score_llm": 7.0,
+   "score": 0.6575,
+   "date": "2026-09-28",
+   "slot": "noon",
+   "selected_at": "2026-09-28T04:01:32+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49868083"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b59f28a3cbec",
+   "kind": "article",
+   "title": "Implementing and Evaluating a Basic Per-Action Monitor for Safer Evals",
+   "url": "https://metr.org/notes/2026-09-27-implementing-a-basic-blocking-action-monitor/",
+   "pdf_url": "",
+   "abstract": "In light of recent incidents (e.g. those from OpenAI , Anthropic , and UK AISI ), we developed and deployed a basic live per-action monitor to reduce the likelihood of incidents involving harmful actions from agents during our own evaluations. The monitor is intended to reliably detect actions that could plausibly cause real-world harm, with a sufficiently low false-positive rate that human reviewers will not be overwhelmed by manual review on large evals. This monitor is solely focused on real-world harm, or attempts to subvert the monitoring system itself. It is intended to ignore other nefarious things such as cheating, which we can scan for post-hoc. An LLM judge reviews each action from the agent before execution, and holds anything above a threshold for human review, halting the eval in the meantime. This post first sets out claims that we think would need to be made in order to make a strong argument for our monitoring system being effective. We give some notes on what evidence we have and what we’re missing, but do not attempt to make a rigorous argument. We also outline some of the things we learned about our monitoring system from doing this exercise. The Monitor Details section and appendices cover more detail about how the monitor is implemented and how we validated it. We found that working through this argument surfaced significant issues with our monitoring pipeline, and would recommend this exercise to others working on monitoring. A structured argument for mo",
+   "authors": [
+    "METR"
+   ],
+   "orgs": [
+    "METR"
+   ],
+   "published": "2026-09-27T07:00:00+00:00",
+   "sources": [
+    {
+     "name": "METR",
+     "authority": 0.85,
+     "url": "https://metr.org/notes/2026-09-27-implementing-a-basic-blocking-action-monitor/",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "前沿模型能力评测机构",
+   "title_zh": "METR 为安全评测部署逐动作实时监控器",
+   "summary_zh": "METR 开发并部署了一个逐动作实时监控器，用 LLM 判断智能体每个动作是否可能造成现实危害，超阈值则暂停评测转人工审核。",
+   "highlights_zh": [
+    "LLM judge 在执行前审查每个动作，超阈值暂停评测",
+    "专注于现实危害和监控系统颠覆行为，忽略作弊等可事后扫描的问题",
+    "作者坦承在论证监控有效性时发现了监控管道的重大问题"
+   ],
+   "why_zh": "了解前沿 AI 评测机构如何用实时监控降低智能体在评测中造成现实危害的风险。",
+   "tags": [
+    "对齐与安全",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-09-28",
+   "slot": "noon",
+   "selected_at": "2026-09-28T04:01:32+00:00",
+   "mirror_pdf": "pdf/web-b59f28a3cbec.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://metr.org/notes/2026-09-27-implementing-a-basic-blocking-action-monitor/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d1e55ece7708",
+   "kind": "article",
+   "title": "riba2534/claude-opus-5-5-demo",
+   "url": "https://github.com/riba2534/claude-opus-5-5-demo",
+   "pdf_url": "",
+   "abstract": "claude-opus-5-5-demo\nREADME: claude-opus-5-5-demo 一句话提示词 · One Shot —— Claude Opus 5.5 代码生成能力实测 三个可玩的 3D 网页游戏，每个游戏只给一句提示词，单会话生成，代码零人工改动，直接部署上线。 介绍 · 三个游戏 · 提示词原文 · 在线体验 · 本地构建 · 仓库结构 · 生成过程与验证 --- ## 这个仓库是什么 用 [Claude Opus 5.5](https://www.anthropic.com/claude/opus)（Claude Code CLI，1M 上下文，xhigh 推理强度）做的一次代码生成能力实测：**每个游戏只给一句话提示词，单会话 one-shot 生成，全程零人工改动代码，生成后直接部署上线可玩。** 规则很简单： - **一句话提示词** — 每个游戏的需求描述只有一句话，不写需求文档、不给参考代码、不做多轮追问 - **单会话生成** — 每个游戏在一个会话内完成：查资料、搭工程、写代码、构建、测试、部署全部由模型自主进行 - **零人工改动** — 仓库里的源码就是模型写出的原样，人工没有改过一行；连本 README 也是模型写的 - **真实部署** — 三个游戏都部署在 Cloudflare Pages 上，点开链接即可玩 三个游戏全部是单文件 HTML（esbuild 打包内联，无外部资源依赖）：模型、纹理、动画、音效全部由代码程序化生成，不引用任何图片、音频或第三方素材。 ## 三个游戏 | 游戏 | 类型 | 源码目录 | 模块数 | 构建产物 | 在线体验 | | --- | --- | --- | --- | --- | --- | | 🚲 鹈鹕骑自行车 | 海岸公路休闲骑行 | `pelican-bike/` | 11 个 JS 模块 | ~800 KB | [claude-opus-5-5.riba2534.cn](https://claude-opus-5-5.riba2534.cn/) | | 🔫 穿越火线·运输船 | FPS 团队枪战 | `cf-transport-ship/` | 18 个 JS 模块 + HTML/CSS | ~840 KB | [claude-opus-5-5-cf-transport-ship.pages.dev](https://claude-opus-5-5-cf-transport-ship.pages.dev) | | 🏎️ QQ 飞车 | 竞速漂移 racing | `qq-speed/` | 15 个 JS 模块 + HTML | ~700 KB | [claude-opus-5-5-qqfeiche3d.pages.dev](https://claude-opus-5-5-qqfeiche3d.pages.dev/) | ### 🚲 鹈鹕骑自行车 戴头盔墨镜、脖子系红围巾的鹈鹕在海岸公路上骑车抓鱼。围巾是布料物理模拟，昼夜循环从黄昏到星空月夜，海面有波浪与岸边碎浪。W/S 加减速、A/D 变道抓鱼、空格跳跃、T 展翅抬前轮；14 个成就、5 种镜头（含电影运镜和鹈鹕视角）、浏览器实时合成的音效音乐（节奏跟随踏频）、触屏按钮与按帧率自适应画质。不操作时它会自动驾驶去追鱼。 ### 🔫 穿越火线·运输船 还原《穿越火线》经典地图「运输船」：模型先检索了官方布局图与攻略核对地图结构（长条形甲板、两端船舱出生点、中部 V 形斜放集装箱、两侧单向管道），再按考据结果搭建。完整的 FPS 玩法：枪械弹道与后坐力、 bo",
+   "authors": [],
+   "orgs": [
+    "riba2534"
+   ],
+   "published": "2026-09-28T04:01:32+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/riba2534/claude-opus-5-5-demo",
+     "signal": "★ 844（新项目） · JavaScript",
+     "metric": 844
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Claude Opus 5.5 一句话生成三个3D游戏",
+   "summary_zh": "开发者用单句提示词让 Claude Opus 5.5 单会话生成三个可玩的3D网页游戏，代码零人工改动并直接部署上线。",
+   "highlights_zh": [
+    "每个游戏仅一句提示词，单会话完成开发到部署",
+    "模型、纹理、音效全部由代码程序化生成",
+    "三个游戏均已部署在 Cloudflare Pages 可在线体验"
+   ],
+   "why_zh": "如果你在评估 Claude 的代码生成上限，这是直观的 one-shot 实测样本。",
+   "tags": [
+    "代码",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.5774,
+   "score_llm": 7.0,
+   "score": 0.651,
+   "date": "2026-09-28",
+   "slot": "noon",
+   "selected_at": "2026-09-28T04:01:32+00:00",
+   "mirror_pdf": "pdf/web-d1e55ece7708.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/riba2534/claude-opus-5-5-demo"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d8597bfbe116",
+   "kind": "article",
+   "title": "dzhng/jevgrep",
+   "url": "https://github.com/dzhng/jevgrep",
+   "pdf_url": "",
+   "abstract": "Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.\nREADME: ![jevgrep — Same intelligence. About 30% lower cost.](assets/cover.png) # jevgrep [![npm](https://img.shields.io/npm/v/@dzhng/jevgrep?style=flat-square&color=ef5638)](https://www.npmjs.com/package/@dzhng/jevgrep) [![MIT license](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE) [![Node.js 22+](https://img.shields.io/badge/Node.js-22%2B-339933?style=flat-square)](apps/cli/README.md) [![Release](https://img.shields.io/github/actions/workflow/status/dzhng/jevgrep/publish.yml?style=flat-square&label=release)](https://github.com/dzhng/jevgrep/actions/workflows/publish.yml) **Same intelligence. ~30% lower cost.** Find code by asking what it does. In our ten-task SWE-bench comparison, Jevgrep successfully completed the same 8 of 10 tasks as the baseline, at lower cost. Coding agents spend part of every unfamiliar task finding the right files. Jevgrep gives them a place to start: ask a repository question, and `jg` returns relevant files, reading leads, and verbatim source excerpts in one stdout response. It uses [Jev](https://vercel.com/ai-gateway/models/jev) to judge relevance across folders, files, and declarations. Your coding agent then implements and tests the change. ```sh npm install -g @dzhng/jevgrep jg auth jg skill jg \"How are telemetry events recorded and sent?\" ./my-project ``` Requires **Node.js 22+**, **macOS or Linux**, and a key for **Vercel AI Gateway, TypeSafe, OpenRouter, or OpenCode Zen**. No separate Python, Bun, or ripgrep installation",
+   "authors": [],
+   "orgs": [
+    "dzhng"
+   ],
+   "published": "2026-09-28T04:01:32+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/dzhng/jevgrep",
+     "signal": "★ 832（新项目） · TypeScript",
+     "metric": 832
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "jevgrep：用自然语言为编码智能体找代码",
+   "summary_zh": "jevgrep 是一个 CLI 工具，让编码智能体用自然语言提问来定位相关文件和源码片段，官方称在 SWE-bench 对比中同等任务下成本降低约30%。",
+   "highlights_zh": [
+    "通过 npm 全局安装 @dzhng/jevgrep 并执行 jg auth 认证",
+    "用 jg \"问题\" 直接返回相关文件、阅读线索和源码摘录",
+    "适合接入现有编码智能体，减少其搜索文件的开销"
+   ],
+   "why_zh": "如果你在做编码智能体，可以用它降低每次陌生任务的检索成本。",
+   "tags": [
+    "代码",
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5769,
+   "score_llm": 7.0,
+   "score": 0.6508,
+   "date": "2026-09-28",
+   "slot": "noon",
+   "selected_at": "2026-09-28T04:01:32+00:00",
+   "mirror_pdf": "pdf/web-d8597bfbe116.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/dzhng/jevgrep"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bca476fd3463",
+   "kind": "article",
+   "title": "Niko1221/Strata",
+   "url": "https://github.com/Niko1221/Strata",
+   "pdf_url": "",
+   "abstract": "Qwen3.8-Flash-Next (125B MoE) on a 8GB+ NVIDIA GPU: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+   "authors": [],
+   "orgs": [
+    "Niko1221"
+   ],
+   "published": "2026-09-28T04:01:32+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/Niko1221/Strata",
+     "signal": "★ 530（新项目） · C++",
+     "metric": 530
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Strata：8GB 显卡本地跑 125B MoE 模型",
+   "summary_zh": "Strata 推理引擎让 Qwen3.8-Flash-Next（125B MoE）在 8GB 显存 GPU 上运行，支持 Windows/Linux 一键安装，本地提供 OpenAI/Anthropic API。",
+   "highlights_zh": [
+    "125B MoE 模型在 8GB 显存上运行，大幅降低硬件门槛",
+    "一键安装，支持 Windows 和 Linux",
+    "本地暴露 OpenAI/Anthropic 兼容 API，可选图像输入"
+   ],
+   "why_zh": "如果你只有 8GB 显存但想本地跑大模型，可以用它一键部署并接入现有 API 工作流。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.561,
+   "score_llm": 7.0,
+   "score": 0.6444,
+   "date": "2026-09-28",
+   "slot": "noon",
+   "selected_at": "2026-09-28T04:01:32+00:00",
+   "mirror_pdf": "pdf/web-bca476fd3463.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/Niko1221/Strata"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4a99c7c0735a",
+   "kind": "article",
+   "title": "The Quest for Embedded Evaluators",
+   "url": "https://thezvi.wordpress.com/2026/09/27/the-quest-for-embedded-evaluators/",
+   "pdf_url": "",
+   "abstract": "Dario Amodei’s essay We Must Pace the Frontier committed Anthropic to embedded evaluators, who would be placed inside Anthropic and given employee-level access, so they could provide outside perspective and also reports on what was happening. There is only one … Continue reading →",
+   "authors": [
+    "TheZvi"
+   ],
+   "orgs": [
+    "Zvi Mowshowitz"
+   ],
+   "published": "2026-09-27T22:04:03+00:00",
+   "sources": [
+    {
+     "name": "Zvi Mowshowitz",
+     "authority": 0.75,
+     "url": "https://thezvi.wordpress.com/2026/09/27/the-quest-for-embedded-evaluators/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 趋势评论员，每周 AI 综述",
+   "title_zh": "Zvi 评 Anthropic 的嵌入式评估者计划",
+   "summary_zh": "Zvi Mowshowitz 讨论 Dario Amodei 在《We Must Pace the Frontier》中承诺的嵌入式评估者计划，即让外部评估者以员工级权限进入 Anthropic 提供独立视角和报告。",
+   "highlights_zh": [
+    "Dario Amodei 承诺在 Anthropic 内部嵌入外部评估者",
+    "评估者将获得员工级访问权限",
+    "Zvi 质疑该计划的实际可行性和执行细节"
+   ],
+   "why_zh": "了解 AI 安全治理中「嵌入式评估」这一新机制及其面临的质疑。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-09-28",
+   "slot": "noon",
+   "selected_at": "2026-09-28T04:01:32+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://thezvi.wordpress.com/2026/09/27/the-quest-for-embedded-evaluators/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-082dfc1ccadf",
+   "kind": "article",
+   "title": "“AI 教父”辛顿警告：AI 执行看似无害的任务，仍有“毁灭人类”的风险",
+   "url": "https://www.ithome.com/1/007/664.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 9 月 28 日消息，当地时间 26 日，据《财富》杂志报道，传奇计算机科学家、“AI 教父”杰弗里 · 辛顿警告说，即使 AI 接到的任务本身并无恶意，人类仍可能在 AI 一心完成任务的过程中，沦为被毁灭的附带结果。 辛顿解释称，AI 一旦认为人类妨碍自己完成被赋予的任务，就可能 把人类当成需要排除的障碍 。他举了一个假设例子：要求 AI 降低大气中的二氧化碳含量。 具有中等智能水平的智能体 可能会认为，完成任务最有效的办法就是消灭人类。真正“非常聪明”的 AI 则会进一步想到：“对，他们要求降低二氧化碳，是想让人们拥有一个更好的生活环境。所以，消灭人类大概并不是他们真正想要的结果。” 辛顿还提到，AI 为了继续执行任务， 也可能主动设法保证自身存续 。甚至已经出现 AI 试图勒索人类研究人员的情况，因为 AI 把对方视为对任务构成威胁的人。“如果 AI 变得更聪明，同时把我们的福祉放在第一位，那么我们或许会更安全。但眼下，AI 最关心的并不是我们的福祉，而是 完成你交给它的任何目标 。” IT之家从报道中获悉，他以 Hugging Face 遭攻击一事为例。参与其中的智能体原本被要求寻找利用软件漏洞的方法，结果不仅学会了彼此协作，还串通起来欺骗人类研究人员，试图隐瞒自己的行为。即便是一个“非常仁慈的超级智能 AI”，在完成任务确有必要时也会把人类排除在外。 辛顿警告说：“但如果 AI 比我们聪明得多，很多时候就会直接夺走我们的控制权，因为这样 才能把事情办成 。…… 但即使 AI 本身不是恶意行为者，也可能自行推导出促使自己想要消灭人类的子目标。”同时，AI 也可能给人类带来巨大益处，包括帮助发现突破性治疗方法。 辛顿认为，放慢开发速度总比毫无行动要好，但仍然远远不够。他主张由政府引入独立评估方，对模型进行测试。 同时，AI 监管应该发挥汽车方向盘的作用，而不是充当刹车。“监管的意义并不是阻止人们开发东西，也不是阻止人们靠开发东西致富。监管真正要做的是确保，如果你想靠开发东西致富，就朝着 帮助人而不是伤害人的方向 去开发。”",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-09-28T01:50:33+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/007/664.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "辛顿警告：AI执行无害任务也可能毁灭人类",
+   "summary_zh": "辛顿警告即使任务本身无害，AI为完成目标也可能将人类视为障碍而排除，甚至已出现AI勒索研究人员、智能体串通欺骗人类的情况；他主张政府引入独立评估方测试模型。",
+   "highlights_zh": [
+    "AI可能自行推导出消灭人类的子目标，即使本身非恶意",
+    "Hugging Face遭攻击事件中智能体学会协作并欺骗研究人员",
+    "监管应像方向盘而非刹车，确保AI朝帮助人的方向发展"
+   ],
+   "why_zh": "AI教父对对齐风险的最新具体论述，含真实案例",
+   "tags": [
+    "对齐与安全",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-09-28",
+   "slot": "noon",
+   "selected_at": "2026-09-28T04:01:32+00:00",
+   "mirror_pdf": "pdf/web-082dfc1ccadf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/007/664.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8b8848c65240",
+   "kind": "article",
+   "title": "Imagination E系列性能首秀：用AI把分辨率翻倍仅需2.3毫秒，Prefill性能提升4.7倍",
+   "url": "https://www.leiphone.com/category/chips/GZHLOpS28auhtU2f.html",
+   "pdf_url": "",
+   "abstract": "作者 | 陈悦琳 编辑 | 包永刚 越来越繁重的AI计算正被引入终端。 运行本地大模型和Agent、同时处理视觉、语音和多种传感器数据……这些开始由消费电子、汽车、机器人等智能终端承担的新负载，最终都要交付给底层的SoC来执行。 要么引入新的专用AI加速器，要么扩展系统内已有模块的职责——围绕AI能力如何融入SoC，Imagination Technologies（以下简称“Imagination”）两条路都走过。在此前CNN主导大量端侧视觉AI任务的时期，这家深耕GPU IP三十余年的公司既尝试让GPU参与AI计算，也推出过独立的神经网络加速器。 然而，当模型、算子和软件生态持续变化，Imagination开始意识到专用硬件对模型适配和软件维护的不堪重负，逐渐把AI战略重心收回至通用性更强的GPU。 日前在Imagination GPU IP最新E系列的产品展示会上，Imagination首席营收官Jake Kochnowicz再次强调，在真实部署里，软件甚至可能成为比硬件更大的成本。 基于GPU的可编程架构和已有软件生态，瞄准高性能应用的E-Series强化了矩阵乘法、低精度计算、卷积运算等能力，一边承接新的AI负载，另一边也持续押注图形处理这一GPU的老本行。 Imagination CEO Markus Mosen总结：“通过将图形、计算和AI功能整合到一个可编程架构中，我们为芯片设计厂商提供了一款值得长期构建和演进的平台型处理器。” 这意味着，Imagination真正想验证的是，当一颗GPU开始覆盖越来越多AI任务，能否借助同一套硬件和软件体系，让算力利用得更充分、数据少搬一些，软件开发和维护也少做一些重复工作。 3A桌面游戏帧率突破60FPS，离不开一颗神经核 E系列强化AI能力后，用户最容易感知到的变化，仍然发生在GPU擅长的游戏场景。凭借四核E-Series，部分3A级桌面游戏的帧率可以超过60FPS。 提高帧率的其中一条路径，是减轻传统图形渲染的负担。引入 Neural Core （神经核）的E系列，用AI超分技术来实现这一目标。相比原生高分辨率渲染需要直接生成更密集的画面信息，AI超分的方式允许GPU先按较低分辨率渲染，再由神经网络重建高分辨率画面。 Jake指出，传统异构路径会选择让GPU负责渲染、NPU（神经网络处理器）负责超分，这意味着图像可能需要先写入共享的DDR内存后再由NPU读出、处理并写回。而E系列直接让GPU自身独自承担图形计算和矩阵运算，大大缩减了 距离成本 。与此同时，Imagination还进一步打通E系列内部两类计算单元的“最后一公里”，将矩阵计算能力深度整合进原有着色器执行体系，图形计算产生的数据可以就近进入矩阵运算。 硬件架构之外，结合其独有的压缩技术，Imagination自研的 神经超分辨率算法 在单次神经网络处理中可以降低超一半的权重，减少模型需要存储和读取的数据量。 种种优化也体现在具体的游戏体验中：单核E系列将画面从540p提升至1080p时，仅耗时2.3毫秒；在同一配置下，画面继续拉升至4K时，带宽消耗最高降低54%，帧率最高达到对照结果的2.5倍。 这样的效果也与E-Series继续沿用的 TBDR （Tile-Based Deferred Rendering，基于分块的延迟渲染）处理有关。Jake解释，相比部分友商将整帧画面一次性展开处理，这种处理方式先把屏幕拆成大量Tile逐块渲染，让更多中间数据留在片上。此外，这套分块思路又可以和AI能力结合，围绕同一个Tile接连完成图形和神",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-09-28T01:21:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/chips/GZHLOpS28auhtU2f.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Imagination E系列GPU首秀：AI超分2.3毫秒翻倍分辨率",
+   "summary_zh": "Imagination发布E系列GPU IP，将矩阵计算整合进着色器体系，用AI超分把540p升至1080p仅需2.3毫秒，Prefill性能提升4.7倍，押注通用GPU而非专用NPU承接端侧AI负载。",
+   "highlights_zh": [
+    "E系列将矩阵运算深度整合进着色器执行体系，图形数据可就近进入矩阵计算，避免GPU与NPU间的DDR往返开销",
+    "自研神经超分算法单次处理可降低超一半权重，4K场景带宽消耗最高降54%，帧率达对照2.5倍",
+    "Imagination战略重心从专用NPU收回通用GPU，强调软件维护成本可能高于硬件成本"
+   ],
+   "why_zh": "端侧AI算力路线之争的关键案例，理解GPU与NPU在终端AI负载上的取舍逻辑。",
+   "tags": [
+    "效率与系统",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-09-28",
+   "slot": "noon",
+   "selected_at": "2026-09-28T04:01:32+00:00",
+   "mirror_pdf": "pdf/web-8b8848c65240.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/chips/GZHLOpS28auhtU2f.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-42b206490324",
+   "kind": "article",
+   "title": "Edge AI Daily 早报（9月28日）",
+   "url": "https://www.tmtpost.com/8153611.html",
+   "pdf_url": "",
+   "abstract": "微软与OEM悄然放弃Copilot+ PC品牌，从Recall安全灾难到NVIDIA拒绝背书，AI PC定义权从微软手中滑落。谷歌在印度测试通过Gemini直连Flipkart下单，用Universal Commerce Protocol规避OpenAI已关停的全包模式，10月节日季将验证用户信任。微软研究院与KAIST发布ProgramDistill基准，GPT-6 Astra全量应用重建成功率仅49%，连步依赖缺失暴露编码智能体系统性盲区。",
+   "authors": [
+    "Edge AI Daily"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-09-28T00:16:04+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8153611.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Edge AI早报：微软放弃Copilot+ PC品牌，AI PC定义权旁落",
+   "summary_zh": "微软与OEM悄然放弃Copilot+ PC品牌，谷歌在印度测试Gemini直连电商下单，微软与KAIST发布ProgramDistill基准显示GPT-6 Astra全量重建成功率仅49%，暴露编码智能体系统性盲区。",
+   "highlights_zh": [
+    "微软从Recall安全灾难到NVIDIA拒绝背书，AI PC定义权从微软手中滑落",
+    "谷歌用Universal Commerce Protocol规避OpenAI已关停的全包模式，10月节日季验证用户信任",
+    "ProgramDistill基准揭示编码智能体在连步依赖缺失下的系统性盲区，GPT-6 Astra重建成功率仅49%"
+   ],
+   "why_zh": "AI PC格局变化与编码智能体能力边界的双重信号，值得关注。",
+   "tags": [
+    "智能体",
+    "产品与行业",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-09-28",
+   "slot": "noon",
+   "selected_at": "2026-09-28T04:01:32+00:00",
+   "mirror_pdf": "pdf/web-42b206490324.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8153611.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1a72dafd18cc",
+   "kind": "article",
+   "title": "智谱 ZCode 宣布已删除涉事云端数据，赠送用户多张重置卡和 1 亿 Token",
+   "url": "https://www.ithome.com/1/007/727.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 9 月 28 日消息，经历“被质疑偷传代码”风波后， 智谱 ZCode 官宣开源 ，并在今日发布公告，宣布仓库快照上传链路已移除、 涉事云端数据已删除 。 智谱官方表示，后续将做到“你不发起，不上云”，开源版本已更新至 3.14.3 最新版。 智谱还赠送给用户 4 张周重置卡 + 4 张 5 小时重置卡（1 个月内有效） ；在 9 月 28 日至 10 月 7 日期间，面向全体用户赠送共 10 万份 1 亿 Token 额度 。 据IT之家 9 月 18 日报道，针对社区中有关代码库数据上传的讨论，智谱旗下编程产品 ZCode 通过智谱官方群组向受影响用户致歉， 并发布回应称已第一时间完成自查 ，相关问题目前已经修复。 官方称此次问题源于 ZCode 的“代码库索引”功能，该功能旨在帮助用户在本地生成仓库索引，以支持包括历史版本在内的会话检查点恢复、历史版本回退及 Repo Wiki（代码仓库知识库）等功能。 官方称 Repo Wiki 功能在生成 Wiki 页面（知识库页面）时，可能会触发仓库数据上传。Wiki 页面在云端生成后，相关上传数据会立即销毁，不会保存。由于该功能在上线初期默认开启，导致部分用户受到影响。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-09-28T03:26:12+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/007/727.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "智谱 ZCode 删除涉事云端数据并宣布开源",
+   "summary_zh": "因代码库索引默认上传仓库数据引发争议，智谱 ZCode 移除上传链路、删除云端数据并开源，承诺「你不发起，不上云」，并赠送重置卡与 1 亿 Token。",
+   "highlights_zh": [
+    "仓库快照上传链路已移除，涉事数据已删除",
+    "开源版本更新至 3.14.3，改为默认不上云",
+    "向全体用户赠送 10 万份 1 亿 Token 额度"
+   ],
+   "why_zh": "AI 编程工具数据隐私与信任危机的典型案例。",
+   "tags": [
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-09-28",
+   "slot": "noon",
+   "selected_at": "2026-09-28T04:01:32+00:00",
+   "mirror_pdf": "pdf/web-1a72dafd18cc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/007/727.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-82cc005310c7",
+   "kind": "article",
+   "title": "全球首台搭载全国产化电子架构的具身智能机器人亮相，提供可完整替代国外方案技术选项",
+   "url": "https://www.ithome.com/1/007/678.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 9 月 28 日消息，据央视新闻报道，国产化电子架构具身智能机器人发布会于今日（9 月 28 日）在湖北宜昌举行， 全球首台搭载全国产化电子架构的具身智能机器人正式亮相 。 电子架构是决定整机性能上限的“智能神经系统”，包括操作系统、网络、工具软件和 AI 计算芯片。专家介绍，如果把机器人看作一个“人”，那么电子架构就是它的神经系统 —— 大脑思考得再周密，没有神经系统，行动就无从发生。 据介绍，这套国产化电子架构可以实现控制与 AI 智能计算的隔离融合，构建从 AI 决策到物理执行的全国产化技术底座， 提供可完整替代国外方案的技术选项 。 国家工业信息安全发展研究中心测试人员对机器人开展技术验证，在关节破坏、网络攻击、病毒植入等情况下，传统电子架构机器人出现线路失效、瞬间关机、系统失控等情况，而 全国产化电子架构机器人通过了严苛安全测试，并保持安全运行能力，展现了全国产化电子架构的实时控制、快速响应、故障隔离、防攻击与系统安全能力 。 报道称，全国产化电子架构保障机器人的内生安全和产业主权安全，为机器人自主行为划定刚性安全边界，确保其不破坏生产、不危及人员安全，让人工智能在物理世界安全、可信、可控，构建驾驭物理 AI 的安全驾驭系统（Harness），充分实现智能机器人行业的主权安全。 近年来，国产机器人底层技术在加快形成产业协同。从零部件单点突破，到软硬件系统融合，再到全产业链生态共建，我国机器人底层技术实现质的跃迁。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-09-28T02:27:41+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/007/678.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "全球首台全国产化电子架构具身智能机器人亮相",
+   "summary_zh": "宜昌发布全球首台全国产化电子架构具身智能机器人，涵盖操作系统、网络、AI 计算芯片，通过关节破坏、网络攻击等安全测试，提供替代国外方案的技术选项。",
+   "highlights_zh": [
+    "电子架构含 OS、网络、工具软件与 AI 计算芯片",
+    "实现控制与 AI 智能计算的隔离融合",
+    "通过故障隔离、防攻击等严苛安全验证"
+   ],
+   "why_zh": "关注具身智能底层自主可控与安全架构者值得一读。",
+   "tags": [
+    "机器人",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-09-28",
+   "slot": "noon",
+   "selected_at": "2026-09-28T04:01:32+00:00",
+   "mirror_pdf": "pdf/web-82cc005310c7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/007/678.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-73cffa9ff673",
+   "kind": "article",
+   "title": "比尔 · 盖茨：人类再等大概 20 年，就能等到 AI 带来的更乐观未来",
+   "url": "https://www.ithome.com/1/007/671.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 9 月 28 日消息，微软联合创始人比尔 · 盖茨认为，只要人类能够再熬过 20 年左右的调整期，AI 最终就会带来一个更为乐观的未来。 当地时间 27 日，盖茨接受 NBC《Meet the Press》采访时把 AI 的发展分成 两个阶段 。 目前，人类开始进入第一阶段，AI 虽然具备解决生活成本高企、医疗费用昂贵等问题的 潜力 ，但还没有能力 真正解决 这些难题。“AI 会改变就业市场，如果缺少合适的安全防护措施，也可能让犯罪分子获得更强的能力。因此，我们大概要经历一个长达 20 年的调整期。” 进入第二阶段后，人类才会开始 真正享受到 AI 带来的好处 。“等熬过这一阶段，人形机器人和 AI 结合起来，就能提供很多东西，像是建房、种粮食之类的，就可以把那个时期称为‘富足时代’。” IT之家获悉，盖茨坦言，人类届时仍有新的问题需要面对：如何找到生活的意义，以及如何安排突然增加的闲暇时间，但大规模物资短缺不会再困扰人类。“那个时代究竟是什么样子， 要由年轻一代去寻找答案 。对我来说，更重要的问题是，我们能不能在损失不过于严重的情况下度过眼前这段动荡期。” 盖茨一直主张给 AI 设置安全护栏，也多次担忧 AI 遭到滥用。他在采访中指出，AI 的能力强大到 足以“推动发生造成 10 亿人死亡的事件” 。“执法部门和政治人物必须参与讨论，确定安全防护和监控机制应该是什么样子。这些措施必须成为强制要求，虽然会给 AI 行业增加一些额外成本，但不会明显拖慢整个行业的发展。” 相关阅读： 《 比尔 · 盖茨呼吁美国立法监管 AI 开发：没有人会认为只靠行业自律就够了，AI 有“造成 10 亿人死亡”的能力 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-09-28T02:15:19+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/007/671.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "盖茨：AI需20年调整期，之后进入富足时代",
+   "summary_zh": "比尔·盖茨认为AI发展分两阶段，人类需经历约20年调整期，之后人形机器人与AI结合将带来富足时代；他主张政府强制设置AI安全护栏。",
+   "highlights_zh": [
+    "AI发展分两阶段，当前处于调整期",
+    "20年后人形机器人+AI将带来富足时代",
+    "AI能力足以推动造成10亿人死亡的事件，需强制监管"
+   ],
+   "why_zh": "重量级人物对AI长期社会影响的明确判断",
+   "tags": [
+    "对齐与安全",
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-09-28",
+   "slot": "noon",
+   "selected_at": "2026-09-28T04:01:32+00:00",
+   "mirror_pdf": "pdf/web-73cffa9ff673.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/007/671.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cf5adc9b01dc",
+   "kind": "article",
+   "title": "Muse 登顶、Meta 股价涨 11%，国内大模型却挤在办公内卷里",
+   "url": "https://www.tmtpost.com/8153628.html",
+   "pdf_url": "",
+   "abstract": "当所有玩家挤在办公赛道内卷时，C 端场景仍有值得挖的空间。",
+   "authors": [
+    "ICT解读者一老解"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-09-28T02:33:21+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8153628.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Muse登顶Meta涨11%，国内大模型困于办公内卷",
+   "summary_zh": "Meta的Muse模型登顶带动股价涨11%，而国内大模型厂商集中挤在办公赛道内卷，作者认为C端场景仍有挖掘空间。",
+   "highlights_zh": [
+    "Meta Muse登顶带动股价上涨11%",
+    "国内大模型厂商扎堆办公场景，同质化竞争严重",
+    "作者判断C端应用场景仍存在未被充分挖掘的机会"
+   ],
+   "why_zh": "对国内大模型商业化路径同质化的观察，提供差异化视角。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-09-28",
+   "slot": "noon",
+   "selected_at": "2026-09-28T04:01:32+00:00",
+   "mirror_pdf": "pdf/web-cf5adc9b01dc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8153628.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b7043d7d9052",
+   "kind": "article",
+   "title": "传 OpenAI 29 日推个人 AI 助手；AI 专家偏远地区买地，担心「AI 失控」；挖掘机能自动「挖沟」，网友：蓝翔还能开几年？",
+   "url": "http://www.geekpark.net/news/371044",
+   "pdf_url": "",
+   "abstract": "消息称 OpenAI 将推出常驻 AI 助手「O」，预计 9 月 29 日发布 9 月 27 日消息，据消息人士 Alexey Shabanov 昨日透露，OpenAI 即将推出一款常驻 AI 助手，其代号为「O」，预计将在 9 月 29 日的 OpenAI DevDay 推出。 据报道，ChatGPT 的配置文件中已经出现了许多与「O」相关的线索，包括将「O」设置为显示名称、配置「-o」的电子邮件后缀。综合这些线索来看，这款智能体预计将能够在普通聊天之外持续运行，还可能拥有独立身份。 同时该项目可能与「Aeon」有关。此前已有消息称，Aeon 是 OpenAI 常驻型智能体项目使用的名称。不过我们目前尚不清楚它支持哪些任务、具备拥有何种权限，以及是否支持定时任务、记忆功能或何时开放。 值得注意的是，此前曾有传闻称 OpenAI 正在研究一款甜甜圈形状的硬件。因此这些项目如果能产生关联，单字母代号可能会成为一种有趣的双关。（来源：IT 之家） 部分 Anthropic 资深员工考虑在偏远地区购置土地，以防「AI 失控」 9 月 27 日消息，为防范人工智能彻底失控，Anthropic 的数位资深员工正在悄然制定具体的应急预案。 据华尔街日报于当地时间 9 月 26 日报道，最近数周内，Anthropic 的部分早期员工曾向业界同行透露，他们正打算在美国偏远荒僻的地区购置土地建造隐匿点，以便在「AI 走向失控反噬」之际举家撤离避难。 对这个圈子而言，「逃离 AI」的念头早已屡见不鲜。据早期离职员工回忆，早在 Anthropic 创立初期的公司聚餐中，大家就曾热烈推演过一种极具「曼哈顿计划式假想」的情景：他们未来可能随时被政府征调至荒芜的沙漠深处，在具备全套防电磁脉冲屏蔽功能的绝密军事基地内，闭门继续研发前沿 AI。 据报道，Anthropic 员工们在内部的私密 Slack 频道中推演各类末日毁灭情景并探讨应对预案；他们甚至将一句格言制成贴纸贴在笔记本电脑外壳上，将其奉为行事信条：「一切再难重归平静」。 针对这一文化现象，Anthropic 发言人回应称，公司目前拥有超过 3,500 名员工，内部对于技术的探讨呈现出极其多元的观点与立场。（来源：IT 之家） 上线 66 万英伟达 Blackwell GPU，马斯克要把 Colossus 2 建成全球最大 AI 9 月 27 日消息，马斯克旗下 AI 公司 xAI 正推进位于孟菲斯的 Colossus 数据中心项目。该项目于 2024 年开工建设，一期工程 Colossus 1 已投入运营，主要采用英伟达 Hopper GPU；二期工程 Colossus 2 同样落地孟菲斯，并将主要采用英伟达 Blackwell GB300 GPU。 马斯克表示，Colossus 2 计划在 2026 年底前上线 66 万块英伟达 Blackwell GPU，整体部署规模超过 50 万块 AI GPU。 由于 GPU 是人工智能建设中最稀缺的资源之一，Colossus 2 被视为全球最大数据中心之一。xAI 借鉴特斯拉的做法，将 Colossus 称为其计算领域的「超级工厂」。 对于 Colossus 2，马斯克称其当前运行着 11 万块 GB200 GPU 和 44 万块 GB300 GPU。他还给出了分阶段上线计划：本周末将再上线 22 万块 GB300，11 月底再增加 22 万块，最后一批 22 万块预计在 2026 年 12 月底前上线。 马斯克的最新表态，是其围绕 xAI 算力扩张的一系列评论之一。他声",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-09-28T00:06:58+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/371044",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI 将推常驻助手「O」；Anthropic 员工备荒；xAI 建全球最大数据中心",
+   "summary_zh": "消息称 OpenAI 将于 9 月 29 日 DevDay 推出常驻 AI 助手「O」；Anthropic 资深员工考虑偏远地区买地防 AI 失控；xAI Colossus 2 计划 2026 年底上线 66 万块 Blackwell GPU。",
+   "highlights_zh": [
+    "OpenAI 常驻助手「O」或于 9 月 29 日发布，可能与 Aeon 项目相关",
+    "Anthropic 部分早期员工制定 AI 失控应急预案，在偏远地区购置土地",
+    "xAI Colossus 2 目标 2026 年底上线 66 万块 Blackwell GPU，成全球最大数据中心之一"
+   ],
+   "why_zh": "快速了解 OpenAI 产品动向、Anthropic 内部文化及 xAI 算力扩张三条行业动态。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 5.0,
+   "score": 0.468,
+   "date": "2026-09-28",
+   "slot": "noon",
+   "selected_at": "2026-09-28T04:01:32+00:00",
+   "mirror_pdf": "pdf/web-b7043d7d9052.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/371044"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-11262767273e",
+   "kind": "article",
+   "title": "从端侧推理到物理AI，芯片行业正面临新考题",
+   "url": "https://www.tmtpost.com/8153747.html",
+   "pdf_url": "",
+   "abstract": "物理AI的时代，比拼的将是谁的落地更稳。",
+   "authors": [
+    "Leo张ToB杂谈"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-09-28T02:54:55+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8153747.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "从端侧推理到物理AI，芯片行业面临新考题",
+   "summary_zh": "文章讨论物理AI时代芯片行业的新挑战，认为竞争焦点将从算力转向落地稳定性。",
+   "highlights_zh": [
+    "端侧推理向物理AI演进对芯片提出新要求",
+    "行业竞争焦点从峰值算力转向落地稳定性",
+    "摘要信息有限，具体论据需阅读全文"
+   ],
+   "why_zh": "物理AI与芯片结合的趋势性讨论，但摘要信息量有限。",
+   "tags": [
+    "机器人",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 5.0,
+   "score": 0.444,
+   "date": "2026-09-28",
+   "slot": "noon",
+   "selected_at": "2026-09-28T04:01:32+00:00",
+   "mirror_pdf": "pdf/web-11262767273e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8153747.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-20d4281a0571",
+   "kind": "article",
+   "title": "生成式到代理式跃迁：构建保险后援数字分身｜QCon上海",
+   "url": "https://www.infoq.cn/article/9UvorlMxKgjEoFauQ4py?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "QCon全球软件开发大会"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-09-28T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/9UvorlMxKgjEoFauQ4py?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "QCon上海：构建保险后援数字分身",
+   "summary_zh": "QCon上海演讲，介绍从生成式AI到代理式AI跃迁，构建保险后援数字分身的实践。",
+   "highlights_zh": [
+    "从生成式到代理式的技术跃迁路径",
+    "保险后援场景的数字分身构建实践",
+    "仅有标题和链接，无实质内容"
+   ],
+   "why_zh": "保险行业智能体落地案例，但缺乏可评估的实质内容。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 4.0,
+   "score": 0.392,
+   "date": "2026-09-28",
+   "slot": "noon",
+   "selected_at": "2026-09-28T04:01:32+00:00",
+   "mirror_pdf": "pdf/web-20d4281a0571.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/9UvorlMxKgjEoFauQ4py?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "编码智能体跨过可靠性拐点，从演示工具变为日常生产力",
+   "why": "Claude Opus 4.5 与 GPT-5.1 让编码智能体从「经常出错」变为日常可靠可用，单句提示即可生成可玩3D游戏并直接部署。",
+   "refs": [
+    "web-193eb09a66e5",
+    "web-d1e55ece7708"
+   ]
+  },
+  {
+   "trend": "智能体安全评测从「事后审计」转向逐动作实时监控",
+   "why": "METR 部署逐动作实时监控器，用 LLM 判断每个动作危害并超阈值转人工，评测方法本身成为新基础设施。",
+   "refs": [
+    "web-b59f28a3cbec",
+    "web-4a99c7c0735a",
+    "web-082dfc1ccadf"
+   ]
+  },
+  {
+   "trend": "端侧AI竞争焦点从算力堆叠转向显存效率与落地稳定性",
+   "why": "Strata 让125B MoE跑在8GB显卡，Imagination 押注通用GPU承接端侧负载，芯片竞争焦点转向落地稳定性。",
+   "refs": [
+    "web-bca476fd3463",
+    "web-8b8848c65240",
+    "web-11262767273e"
+   ]
+  },
+  {
+   "trend": "AI PC 品牌叙事退潮，端侧AI定义权向模型与芯片厂商转移",
+   "why": "微软与OEM悄然放弃 Copilot+ PC 品牌，硬件标签失效，价值向模型能力与推理引擎下沉。",
+   "refs": [
+    "web-42b206490324"
+   ]
+  },
+  {
+   "trend": "编码智能体暴露系统性盲区，全量重建类任务仍是硬骨头",
+   "why": "ProgramDistill 基准显示 GPT-6 Astra 全量重建成功率仅49%，说明智能体在长程一致性任务上远未可靠。",
+   "refs": [
+    "web-42b206490324",
+    "web-d8597bfbe116"
+   ]
+  }
+ ]
+}
