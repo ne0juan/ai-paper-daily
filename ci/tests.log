@@ -1,11 +1,11 @@
-test_brief_renders_when_present (tests.test_e2e.E2E.test_brief_renders_when_present) ... /opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/unittest/case.py:579: ResourceWarning: unclosed <socket.socket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 37105)>
+test_brief_renders_when_present (tests.test_e2e.E2E.test_brief_renders_when_present) ... /opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/unittest/case.py:579: ResourceWarning: unclosed <socket.socket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 41423)>
   if method() is not None:
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
 ok
 test_days_radar_theme_more (tests.test_e2e.E2E.test_days_radar_theme_more) ... ok
 test_deep_link_to_item (tests.test_e2e.E2E.test_deep_link_to_item) ... ok
 test_design_standard (tests.test_e2e.E2E.test_design_standard) ... ok
-test_empty_site (tests.test_e2e.E2E.test_empty_site) ... /opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/unittest/case.py:579: ResourceWarning: unclosed <socket.socket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 37897)>
+test_empty_site (tests.test_e2e.E2E.test_empty_site) ... /opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/unittest/case.py:579: ResourceWarning: unclosed <socket.socket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 45099)>
   if method() is not None:
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
 ok
@@ -56,7 +56,7 @@ test_falls_back_to_google_when_edge_down (tests.test_unit.TranslateTests.test_fa
 test_machine_translate_skips_llm_items_and_survives_outage (tests.test_unit.TranslateTests.test_machine_translate_skips_llm_items_and_survives_outage) ... ok
 
 ----------------------------------------------------------------------
-Ran 50 tests in 11.556s
+Ran 50 tests in 13.257s
 
 OK
-sys:1: ResourceWarning: unclosed <socket.socket fd=3, family=2, type=1, proto=0, laddr=('127.0.0.1', 45911)>
+sys:1: ResourceWarning: unclosed <socket.socket fd=3, family=2, type=1, proto=0, laddr=('127.0.0.1', 37943)>
