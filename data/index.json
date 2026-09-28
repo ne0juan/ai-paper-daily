@@ -1,11 +1,12 @@
 {
- "updated": "2026-09-28T04:01:32+00:00",
+ "updated": "2026-09-28T11:37:16+00:00",
  "days": [
   {
    "date": "2026-09-28",
-   "count": 17,
+   "count": 36,
    "slots": {
-    "noon": 17
+    "noon": 17,
+    "evening": 19
    }
   },
   {
@@ -49,39 +50,44 @@
    }
   }
  ],
- "total": 278,
+ "total": 297,
  "last_run": {
-  "at": "2026-09-28T04:01:32+00:00",
-  "slot": "noon",
-  "candidates": 73,
-  "new": 36,
-  "stale": 12,
-  "judged": 34,
-  "selected": 17,
-  "mirrored": 14,
+  "at": "2026-09-28T11:37:16+00:00",
+  "slot": "evening",
+  "candidates": 87,
+  "new": 48,
+  "stale": 6,
+  "judged": 48,
+  "selected": 19,
+  "mirrored": 17,
   "by_category": {
    "观点": 2,
-   "资讯": 12,
-   "项目": 3
+   "技术": 2,
+   "项目": 3,
+   "资讯": 12
   },
   "by_source": {
-   "HF Daily Papers": 1,
-   "Hacker News": 4,
-   "量子位": 10,
-   "极客公园": 3,
-   "IT之家": 12,
-   "爱范儿": 2,
-   "少数派": 1,
-   "雷峰网": 2,
-   "钛媒体": 5,
-   "InfoQ 中文": 6,
+   "HF Daily Papers": 4,
+   "Hacker News": 5,
+   "量子位": 5,
+   "极客公园": 5,
+   "IT之家": 14,
+   "爱范儿": 3,
+   "少数派": 2,
+   "雷峰网": 9,
+   "钛媒体": 6,
+   "InfoQ 中文": 5,
    "Simon Willison": 1,
+   "Stratechery": 1,
    "SemiAnalysis": 1,
-   "Azeem Azhar": 2,
-   "Zvi Mowshowitz": 2,
+   "Arvind Narayanan": 1,
+   "Azeem Azhar": 1,
+   "Zvi Mowshowitz": 1,
+   "科学空间": 1,
+   "Hugging Face Blog": 1,
    "METR": 1,
-   "GitHub Trending": 8,
-   "GitHub 新项目": 12
+   "GitHub Trending": 7,
+   "GitHub 新项目": 13
   },
   "llm": true,
   "translated": 0
