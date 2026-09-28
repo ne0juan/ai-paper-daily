@@ -1,6 +1,13 @@
 {
- "updated": "2026-09-27T15:35:18+00:00",
+ "updated": "2026-09-28T04:01:32+00:00",
  "days": [
+  {
+   "date": "2026-09-28",
+   "count": 17,
+   "slots": {
+    "noon": 17
+   }
+  },
   {
    "date": "2026-09-27",
    "count": 38,
@@ -42,33 +49,37 @@
    }
   }
  ],
- "total": 261,
+ "total": 278,
  "last_run": {
-  "at": "2026-09-27T15:35:18+00:00",
-  "slot": "evening",
-  "candidates": 63,
-  "new": 14,
-  "stale": 1,
-  "judged": 14,
-  "selected": 9,
-  "mirrored": 9,
+  "at": "2026-09-28T04:01:32+00:00",
+  "slot": "noon",
+  "candidates": 73,
+  "new": 36,
+  "stale": 12,
+  "judged": 34,
+  "selected": 17,
+  "mirrored": 14,
   "by_category": {
-   "项目": 3,
-   "资讯": 6
+   "观点": 2,
+   "资讯": 12,
+   "项目": 3
   },
   "by_source": {
-   "Hacker News": 5,
+   "HF Daily Papers": 1,
+   "Hacker News": 4,
    "量子位": 10,
    "极客公园": 3,
-   "IT之家": 6,
+   "IT之家": 12,
+   "爱范儿": 2,
+   "少数派": 1,
    "雷峰网": 2,
    "钛媒体": 5,
-   "InfoQ 中文": 5,
-   "Latent Space": 1,
-   "SemiAnalysis": 2,
+   "InfoQ 中文": 6,
+   "Simon Willison": 1,
+   "SemiAnalysis": 1,
    "Azeem Azhar": 2,
-   "Zvi Mowshowitz": 1,
-   "OpenAI": 1,
+   "Zvi Mowshowitz": 2,
+   "METR": 1,
    "GitHub Trending": 8,
    "GitHub 新项目": 12
   },
