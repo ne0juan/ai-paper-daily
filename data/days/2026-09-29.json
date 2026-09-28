@@ -1,0 +1,1100 @@
+{
+ "date": "2026-09-29",
+ "items": [
+  {
+   "id": "web-5f747bb86b42",
+   "kind": "article",
+   "title": "How GPU Prices Can Double While AI Gets Cheaper",
+   "url": "https://tomtunguz.com/how-gpu-prices-double-while-ai-gets-cheaper/",
+   "pdf_url": "",
+   "abstract": "GPU rental prices doubled in six months while inference prices kept falling. The reconciliation is efficiency : the hinge that turns scarce silicon into cheap intelligence.",
+   "authors": [
+    "Tomasz Tunguz"
+   ],
+   "orgs": [
+    "Tomasz Tunguz"
+   ],
+   "published": "2026-09-28T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Tomasz Tunguz",
+     "authority": 0.75,
+     "url": "https://tomtunguz.com/how-gpu-prices-double-while-ai-gets-cheaper/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Theory Ventures 创始人，AI 投资",
+   "title_zh": "GPU租金翻倍，AI推理为何反而更便宜",
+   "summary_zh": "Tomasz Tunguz指出GPU租赁价格半年翻倍，但推理价格持续下降。效率提升是化解这一矛盾的关键，将稀缺算力转化为廉价智能。",
+   "highlights_zh": [
+    "GPU租金六个月内翻倍，与推理价格下降形成表面矛盾",
+    "效率提升是调和稀缺硅片与廉价智能的枢纽",
+    "对AI基础设施投资与成本结构有直接参考价值"
+   ],
+   "why_zh": "理解算力成本与推理经济学的背离，把握AI基础设施投资逻辑",
+   "tags": [
+    "效率与系统",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-09-29",
+   "slot": "morning",
+   "selected_at": "2026-09-28T18:33:39+00:00",
+   "mirror_pdf": "pdf/web-5f747bb86b42.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://tomtunguz.com/how-gpu-prices-double-while-ai-gets-cheaper/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b32771b7cbd0",
+   "kind": "article",
+   "title": "mvschwarz/openrig",
+   "url": "https://github.com/mvschwarz/openrig",
+   "pdf_url": "",
+   "abstract": "Star mvschwarz / openrig Multi-agent harness that runs Claude Code and Codex together as one system\nREADME: # OpenRig [![npm version](https://img.shields.io/npm/v/@openrig/cli)](https://www.npmjs.com/package/@openrig/cli) [![npm downloads](https://img.shields.io/npm/dw/@openrig/cli)](https://www.npmjs.com/package/@openrig/cli) [![License: Apache 2.0](https://img.shields.io/github/license/mvschwarz/openrig)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/mvschwarz/openrig?style=social)](https://github.com/mvschwarz/openrig/stargazers) A harness wraps a model. A rig wraps your harnesses. Define your agent team in YAML, boot it with one command. Claude Code and Codex in the same rig, managed as one system. OpenRig turns AI coding agents from a pile of terminal sessions into a persistent, organized team. Talk to a lead agent about the outcome you want; it can coordinate specialists across teams and bring you results and decisions that need your attention. Start with a repository and one useful change, then keep the team's work and context at the same addresses. ## Install and first run Requires Node.js 20, 22 or 24 and tmux, on macOS or Linux. On a Mac with Apple silicon, use Node.js 22 ([why](docs/releases/v0.5.15.md#known-compatibility-limitation)). Native Windows is not supported yet, and WSL2 has not been tested. Launching a rig writes provider hooks and workspace trust settings. Before running the commands below, read [what OpenRig changes on your machine](#what-openrig-changes-on-your-machine) and back up the relevant files. ```bash npm install -g @openrig/cli rig",
+   "authors": [],
+   "orgs": [
+    "mvschwarz"
+   ],
+   "published": "2026-09-28T18:33:39+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/mvschwarz/openrig",
+     "signal": "★ 今日 +781 · TypeScript",
+     "metric": 781
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenRig：把 Claude Code 与 Codex 编成一支智能体团队",
+   "summary_zh": "用 YAML 定义智能体团队，一条命令启动，把 Claude Code 和 Codex 放进同一个 rig 统一调度，让零散的终端会话变成有组织的常驻团队。",
+   "highlights_zh": [
+    "YAML 声明式定义智能体团队，一条命令启动整个 rig",
+    "Claude Code 与 Codex 可混编在同一系统内协同",
+    "需 Node.js 20/22/24 与 tmux，仅支持 macOS/Linux，Apple 芯片建议 Node 22"
+   ],
+   "why_zh": "如果你同时跑多个编码智能体、上下文散落在各终端里，可以用它统一编排",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.6133,
+   "score_llm": 7.0,
+   "score": 0.6653,
+   "date": "2026-09-29",
+   "slot": "morning",
+   "selected_at": "2026-09-28T18:33:39+00:00",
+   "mirror_pdf": "pdf/web-b32771b7cbd0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/mvschwarz/openrig"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-70768dfb8c37",
+   "kind": "article",
+   "title": "Import AI 474: Platonic mindspace; TPUs in space; Zhipu starts an outer RSI loop",
+   "url": "https://jack-clark.net/2026/09/28/import-ai-474-platonic-mindspace-tpus-in-space-zhipu-starts-an-outer-rsi-loop/",
+   "pdf_url": "",
+   "abstract": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Are minds patterns from a Platonic space, with bodies and machines as their interfaces, Michael Levin asks:…A mind-bending paper asking us to reconsider basic assumptions about […]",
+   "authors": [
+    "Jack Clark"
+   ],
+   "orgs": [
+    "Jack Clark"
+   ],
+   "published": "2026-09-28T12:32:03+00:00",
+   "sources": [
+    {
+     "name": "Jack Clark",
+     "authority": 0.85,
+     "url": "https://jack-clark.net/2026/09/28/import-ai-474-platonic-mindspace-tpus-in-space-zhipu-starts-an-outer-rsi-loop/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Anthropic 联合创始人",
+   "title_zh": "Import AI 474：柏拉图心智空间与太空 TPU",
+   "summary_zh": "Jack Clark 认为，Michael Levin 的论文挑战了心智与身体关系的基本假设，并关注智谱开启外层 RSI 循环等动态。",
+   "highlights_zh": [
+    "柏拉图心智空间假说",
+    "太空部署 TPU",
+    "智谱启动外层 RSI 循环"
+   ],
+   "why_zh": "Anthropic 联创的周报，快速把握前沿研究风向。",
+   "tags": [
+    "理论",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.656,
+   "date": "2026-09-29",
+   "slot": "morning",
+   "selected_at": "2026-09-28T18:33:39+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://jack-clark.net/2026/09/28/import-ai-474-platonic-mindspace-tpus-in-space-zhipu-starts-an-outer-rsi-loop/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-aadd1dae2e0b",
+   "kind": "article",
+   "title": "The problem is not AI code, but not knowing about system architecture or intent",
+   "url": "https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-09-28T16:11:42Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49880312",
+     "signal": "276 pts",
+     "metric": 276
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "问题不在 AI 写的代码，而在没人懂系统架构与意图",
+   "summary_zh": "作者认为 AI 生成代码本身不是瓶颈，真正的风险是团队缺乏对系统架构和设计意图的理解，导致无法判断 AI 产出是否正确。",
+   "highlights_zh": [
+    "AI 代码质量争议被误读，根因是架构与意图的缺失",
+    "缺乏系统级理解时，AI 产出无法被有效评审",
+    "对工程团队的能力建设提出新要求"
+   ],
+   "why_zh": "给正在大规模引入 AI 编码的团队一个反思视角：先补架构共识",
+   "tags": [
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5837,
+   "score_llm": 7.0,
+   "score": 0.6535,
+   "date": "2026-09-29",
+   "slot": "morning",
+   "selected_at": "2026-09-28T18:33:39+00:00",
+   "mirror_pdf": "pdf/web-aadd1dae2e0b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49880312"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-98e8962a8ad0",
+   "kind": "article",
+   "title": "中国智能汽车的后台，越来越像阿里云的主场",
+   "url": "http://www.geekpark.net/news/371357",
+   "pdf_url": "",
+   "abstract": "中国智能汽车产业，正在经历一场没有硝烟、却极为深刻的范式迭代。 在 2026 云栖大会汽车行业峰会上，我们看到了智能汽车竞争的主线：智能座舱正全面进入 Agent 时代，车不再是执行指令的机器，而是能理解你的意图、主动帮你把事情办成的智能体；智能驾驶的竞争，也早已从算法层下沉到工程层。数据产线的效率、训练集群的稳定性、模型迭代的周期，这些工程层的东西，正在决定胜负。 如果切换一下视角，会发现另一条更隐蔽的竞争主线正在成形： 谁能成为中国智能汽车产业的算力与 AI 底座？ 数据给了一个相当清晰的答案。根据沙利文联合头豹近日发布的《2026 年中国汽车 AI 云市场追踪报告（26H1）》， 阿里云在中国汽车公有云市场份额达到 45.2%，在智能驾驶、智能座舱、工业提效等六项市场及细分赛道均拿下第一。 阿里云智能集团公共云事业部 AI 汽车行业总经理李强对这件事的总结，只有五个字： 芯、云、模一体 。从智能座舱到自动驾驶，从端侧小模型到云端万亿参数推理集群，再到车企内部组织效能的提升，阿里云正在构建一套覆盖中国智能汽车全产业链的 AI 基础设施。 智能座舱：把「能聊天」变成「能办事」 前两年，大模型上车是整个行业最性感的叙事。「能聊天、能提供情绪价值」，出现在很多车企发布会 PPT 上。 两年过去了，用户并没有被打动。阿里云智能集团公共云事业部 AI 汽车行业解决方案总经理霍健提到，他近期在与多家车企座舱团队交流时观察到，闲聊并不是用户使用座舱的核心高频场景。相比长时间对话，用户更关心系统能否在合适的时机，高效完成车控、导航和服务任务。 这说明用户不需要一个只会聊天的车，用户需要一个能把事情办成的车。座舱的本质是一个「任务型」的存在。就像你雇了一个助理，你首先需要确认他能把事情办好，才会逐渐信任他、依赖他，最终才可能把他当成一个可以倾诉的对象。 所以，座舱 AI 今年最大的变化，是从聊天到办事。这不是在旧系统上打补丁，是推倒重来。旧的座舱系统建立在规则引擎和多模块拼接之上，每增加一个新功能，就意味着新一轮的工程堆砌。 这套逻辑在大模型时代就是一堵墙。新范式的核心是 Harness（工程治理框架）+ 大模型，让模型本身承担意图理解、任务分解和工具调用的全部职责。 阿里云的定位很清醒，它没有去做完整的座舱产品；而是提供云、模型等全栈 AI 能力，以及阿里生态服务 Agent。原因很直接——座舱是极度定制化的产品，车企最了解自己的用户和品牌调性，阿里云做完整方案，反而是在错误的地方发力。 所以，千问座舱 Agent 的核心能力只有两块：一个是闲聊检索。这部分能力来自千问 C 端 APP 的积累，是阿里在消费者侧多年沉淀能力的车端化。 另一个是阿里集团生态 Agent。这才是真正的杀手锏。过去，一家车企如果想在座舱里集成淘宝闪购、高德、飞猪，需要分别与三个不同的业务团队谈判，接口标准不统一，维护成本极高。 千问座舱 Agent 做的事，是把这些能力原子化封装成统一的 Agent 接口。车企一次接入，就能调用整个阿里集团的生态能力。 举个例子，下班开车回家，不想做饭，在行驶途中对座舱说「帮我点个外卖，我到家的时候外卖也到」。这个指令背后，涉及位置判断、预计到达时间计算、餐厅筛选、下单支付、配送时间协调等多个环节。过去，这需要车企分别接入多个服务商的 API，工程复杂度极高；现在，通过千问座舱 Agent，一个 A2A 调用即可完成全链路。 但座舱 Agent 只是用户能看见的部分，真正的故事发生在幕后。 目前大多数车企，已经在基于开源的千问系列模型，自研自己的座",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-09-28T14:54:50+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/371357",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "阿里云拿下中国汽车AI云近半市场，座舱进入Agent时代",
+   "summary_zh": "沙利文报告显示阿里云在中国汽车公有云份额达45.2%，六项细分赛道第一。座舱AI从「能聊天」转向「能办事」，以Harness+大模型重构，接入阿里生态Agent。",
+   "highlights_zh": [
+    "阿里云汽车公有云份额45.2%，智驾、座舱等六赛道第一",
+    "座舱AI范式从规则引擎转向Harness+大模型，模型承担意图理解与工具调用",
+    "千问座舱Agent封装淘宝、高德、飞猪等生态能力为统一接口，车企一次接入"
+   ],
+   "why_zh": "理解智能座舱Agent化趋势与云厂商在汽车AI底座的竞争格局",
+   "tags": [
+    "智能体",
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-09-29",
+   "slot": "morning",
+   "selected_at": "2026-09-28T18:33:39+00:00",
+   "mirror_pdf": "pdf/web-98e8962a8ad0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/371357"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2110.01834",
+   "kind": "paper",
+   "title": "Thinking Fast and Slow in AI: the Role of Metacognition",
+   "url": "https://arxiv.org/abs/2110.01834",
+   "pdf_url": "https://arxiv.org/pdf/2110.01834",
+   "abstract": "AI systems have seen dramatic advancement in recent years, bringing many applications that pervade our everyday life. However, we are still mostly seeing instances of narrow AI: many of these recent developments are typically focused on a very limited set of competencies and goals, e.g., image interpretation, natural language processing, classification, prediction, and many others. Moreover, while these successes can be accredited to improved algorithms and techniques, they are also tightly linked to the availability of huge datasets and computational power. State-of-the-art AI still lacks many capabilities that would naturally be included in a notion of (human) intelligence. We argue that a better study of the mechanisms that allow humans to have these capabilities can help us understand how to imbue AI systems with these competencies. We focus especially on D. Kahneman's theory of thinking fast and slow, and we propose a multi-agent AI architecture where incoming problems are solved by either system 1 (or \"fast\") agents, that react by exploiting only past experience, or by system 2 (or \"slow\") agents, that are deliberately activated when there is the need to reason and search for optimal solutions beyond what is expected from the system 1 agent. Both kinds of agents are supported by a model of the world, containing domain knowledge about the environment, and a model of \"self\", containing information about past actions of the system and solvers' skills.",
+   "authors": [
+    "Marianna Bergamaschi Ganapini",
+    "Murray Campbell",
+    "Francesco Fabiano",
+    "Lior Horesh",
+    "Jon Lenchner",
+    "Andrea Loreggia",
+    "Nicholas Mattei",
+    "Francesca Rossi",
+    "Biplav Srivastava",
+    "Kristen Brent Venable"
+   ],
+   "orgs": [],
+   "published": "2026-09-28T03:23:53Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49873241",
+     "signal": "166 pts",
+     "metric": 166
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AI 的快思考与慢思考：元认知的作用",
+   "summary_zh": "论文借鉴卡尼曼双系统理论，提出多智能体架构：快系统靠经验反应，慢系统按需启动推理，二者共享世界模型与自我模型。",
+   "highlights_zh": [
+    "系统1/系统2 双智能体分工",
+    "引入世界模型与自我模型支撑",
+    "用元认知决定何时切换慢思考"
+   ],
+   "why_zh": "为智能体何时该深思、何时该直觉反应提供了架构思路。",
+   "tags": [
+    "智能体",
+    "推理",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.56,
+   "score_llm": 7.0,
+   "score": 0.644,
+   "date": "2026-09-29",
+   "slot": "morning",
+   "selected_at": "2026-09-28T18:33:39+00:00",
+   "mirror_pdf": "pdf/arxiv-2110.01834.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2110.01834"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2110.01834"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2110.01834"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2110.01834"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2110.01834"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2110.01834"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49873241"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b8ea19998247",
+   "kind": "article",
+   "title": "What Also Happened: #NotOnlyHuggingFace",
+   "url": "https://thezvi.wordpress.com/2026/09/28/what-also-happened-notonlyhuggingface/",
+   "pdf_url": "",
+   "abstract": "OpenAI has been holding out on us. First we learned about the HuggingFace incident. They gave us a postmortem, but it was highly incomplete. Even the accompanying holy s*** METR investigation and postmortem was localized and incomplete. Then there were … Continue reading →",
+   "authors": [
+    "TheZvi"
+   ],
+   "orgs": [
+    "Zvi Mowshowitz"
+   ],
+   "published": "2026-09-28T15:22:08+00:00",
+   "sources": [
+    {
+     "name": "Zvi Mowshowitz",
+     "authority": 0.75,
+     "url": "https://thezvi.wordpress.com/2026/09/28/what-also-happened-notonlyhuggingface/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 趋势评论员，每周 AI 综述",
+   "title_zh": "Zvi：OpenAI的HuggingFace事件披露远不完整",
+   "summary_zh": "Zvi Mowshowitz认为OpenAI对HuggingFace事件的复盘高度不完整，连METR的调查也局限于局部。他质疑OpenAI在信息披露上的保留态度。",
+   "highlights_zh": [
+    "OpenAI发布的HuggingFace事件复盘被指高度不完整",
+    "METR调查同样被批评为局部且不完整",
+    "涉及AI安全事件披露透明度问题"
+   ],
+   "why_zh": "关注AI安全事件披露透明度与头部实验室的问责机制",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-09-29",
+   "slot": "morning",
+   "selected_at": "2026-09-28T18:33:39+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://thezvi.wordpress.com/2026/09/28/what-also-happened-notonlyhuggingface/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a8fd50b8ac1d",
+   "kind": "article",
+   "title": "中训练、后训练持续升温，模型快速迭代，成为 AI for AI 最佳试炼场",
+   "url": "https://www.leiphone.com/category/yanxishe/WXSemXnlvGNRbiPR.html",
+   "pdf_url": "",
+   "abstract": "当模型开始参与研发下一代模型，大模型的研发方式正在发生什么样的变化？ 作者丨 高允毅 编辑丨 岑 峰 大多数科研构想，从未被充分验证。 这并不是研究者缺少灵感。恰恰相反，新的架构猜想、训练策略无时无刻不在涌现。但大多数想法，却在写不完的训练脚本、调不完的参数、排队等调度的 GPU 集群中，被无声消磨。 如果换种玩法，重构大模型研发呢？ 你只说了半句话：“我猜想这个架构或许能降低长上下文成本……” 它就能读懂前沿文献，生成候选方案，自动编写代码、调度算力、并行跑消融实验。 这正是近期讨论度很高的 AI for AI。 它不是研发工具的升级，是下一代大模型的核心命题。所有人都试图在这个赛道里，触碰人类终极智能。 01 为什么 AI for AI 是下一个十年的核心命题 过去两三年，行业最关注的是编程和数学：端到端完成复杂代码任务，推导悬而未决的数学难题。AI 由此具备了扎实的逻辑推演与代码工程落地能力。 当这些能力成熟，一个更根本的问题浮出水面：能不能把它们用回 AI 自己身上？ 2026年，“AI for AI”已经成为海外头部实验室公开的目标。 比如， OpenAI 侧重前沿理论的自动化研究，在 9 月宣布其 AI 已具备“自动化研究实习生”的能力，专门成立 RSI（递归式自我改进）团队，目标在 2028 年 3 月前实现完全自动化的 AI 研究员，让 AI 自主生成、审计高质量训练数据，接管自身研发全流程； Anthropic 侧重工程的自动化探索，在6月发布《When AI Builds Itself》报告时便披露，其内部 80% 以上的可运行代码已由 Claude 独立编写，每名工程师的产出效率提升了 8 倍。而9月曝光的最新进展中，其内部最核心的研发平台上，有30,000 个 AI Agent 同时协作，日夜不停地在数字沙盒里进行代码跑测与算法实验。 Google 内部也在加码 AI for AI 的投入，一方面，推出自进化编码智能体 AlphaEvolve，加速 Gemini 的迭代。另一方面，Google 迎来人事地震，哈萨比斯卸任 Google DeepMind CEO ， 全面转战 AGI 长期战略、全球事务以及 Isomorphic Labs 的 AI 药物研发。 此外，Google 灵魂人物 Jeff Dean 前段时间官宣离职创办 Discovery Loop，专攻自动化机器学习。短短几周内，估值就被推到了 500 亿美元，连老东家 Google 也下场投资。 国内，AI 参与 AI 研发的实践也在密集出现，而且切入的环节各不相同：面壁用 AI 编写预训练框架，智谱让 AI 搭建国产芯片上的推理基础设施。有的团队从训练框架入手，有的从推理系统入手，也有的直接研究\"会进化的智能体\"本身。AI 能接手的研发环节，正在一段一段被打通。 Naive AI 的尝试把这些环节串了起来。架构探索、训练系统、推理优化，AI 都参与其中；同时，模型本身也被专门训练去承担研发工作。它既是这套研发方式的产物，也是这套方式的下一个执行者。 这一差异化打法，让 Naive AI 仅创办7 个月，估值飙升至 14.2 亿美元。 无数资本涌入，巨头纷纷押注。所有人都意识到，全面重构智能迭代速度这件事，能在有限资源内不断突破性能边界，或许才是通往 AGI 的第二增长曲线。 当下，AI for AI 早已不是概念。 AI 从只能帮工程师写单个 PyTorch 函数，进化到可以独立阅读顶会论文、编写完整训练脚本、调度 GPU 集群、分析日志报错、完成一键微调。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-09-28T12:54:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/yanxishe/WXSemXnlvGNRbiPR.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI for AI：大模型研发的自我迭代竞赛",
+   "summary_zh": "雷峰网深度报道AI for AI趋势：OpenAI设RSI团队目标2028年自动化AI研究员，Anthropic内部80%代码由Claude编写、3万Agent并行实验，Google推AlphaEvolve，国内面壁、智谱、Naive AI等从不同环节切入。",
+   "highlights_zh": [
+    "OpenAI成立RSI团队，目标2028年3月前实现全自动AI研究员",
+    "Anthropic内部80%可运行代码由Claude独立编写，3万Agent并行跑实验",
+    "Jeff Dean离职创办Discovery Loop，估值达500亿美元"
+   ],
+   "why_zh": "系统梳理AI自我改进赛道格局，是把握下一代模型研发方向的关键报道。",
+   "tags": [
+    "大模型",
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-09-29",
+   "slot": "morning",
+   "selected_at": "2026-09-28T18:33:39+00:00",
+   "mirror_pdf": "pdf/web-a8fd50b8ac1d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/yanxishe/WXSemXnlvGNRbiPR.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5ae077929d5f",
+   "kind": "article",
+   "title": "Cloudflare 推出智能体开发栈生命周期，以取代传统 SDLC",
+   "url": "https://www.infoq.cn/article/OooAe7xY816xAdLrkv8V?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Olimpiu Pop"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-09-28T22:17:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/OooAe7xY816xAdLrkv8V?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Cloudflare推出智能体开发栈生命周期，取代传统SDLC",
+   "summary_zh": "Cloudflare提出面向智能体开发的软件生命周期框架，试图替代传统SDLC，应对智能体在部署、运维与治理上的新需求。",
+   "highlights_zh": [
+    "针对智能体开发提出新的生命周期模型",
+    "挑战传统软件开发生命周期范式",
+    "涉及智能体的部署、运维与治理环节"
+   ],
+   "why_zh": "智能体工程化方法论的重要探索，值得关注落地路径。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-09-29",
+   "slot": "morning",
+   "selected_at": "2026-09-28T18:33:39+00:00",
+   "mirror_pdf": "pdf/web-5ae077929d5f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/OooAe7xY816xAdLrkv8V?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-78dcd0d83361",
+   "kind": "article",
+   "title": "梁文锋为什么先修操场，而不是先卖门票",
+   "url": "https://www.tmtpost.com/8154151.html",
+   "pdf_url": "",
+   "abstract": "DSec论文刷屏，\"RSI第一战\"的欢呼居多。但Agent成熟度与AGI的分界不在能力高低，在输入什么：输入路径的是自动化，输入标准、自己找路径的才是AGI。用\"标准谁给\"这把尺子重排座次会发现：操场已经修好，而真正的空白，在底座与行业之间。",
+   "authors": [
+    "韩工观察"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-09-28T11:38:29+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8154151.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "梁文锋为什么先修操场，而不是先卖门票",
+   "summary_zh": "作者认为Agent成熟度与AGI的分界不在能力高低，而在输入什么：输入路径的是自动化，能自己定义标准、找路径的才是AGI。",
+   "highlights_zh": [
+    "提出'标准谁给'作为区分自动化与AGI的尺子",
+    "认为当前Agent仍属输入路径的自动化阶段",
+    "指出底座与行业应用之间存在空白地带"
+   ],
+   "why_zh": "提供区分自动化与AGI的清晰判据，视角独到。",
+   "tags": [
+    "智能体",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-09-29",
+   "slot": "morning",
+   "selected_at": "2026-09-28T18:33:39+00:00",
+   "mirror_pdf": "pdf/web-78dcd0d83361.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8154151.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e8c6a114f940",
+   "kind": "article",
+   "title": "Manus：正组建团队开发面向国内市场的产品，与国产模型厂商合作稳步进行中",
+   "url": "https://www.ithome.com/1/008/064.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 9 月 28 日消息，北京蝴蝶效应科技有限公司公众号今日发文，宣布面向海外用户发布 Manus 2.0 版本，并推出面向个人生活场景的智能助理 Cue。 Manus 表示，公司正在组建团队开发面向国内市场的产品，与国产模型厂商及生态伙伴的合作也在稳步进行，后续将分享更多进展。 IT之家注：Cue 被定位为面向个人生活场景的智能助理，Manus 2.0 面向海外用户发布，国内版本仍在筹备中。 Manus 2.0 已在网页端、桌面端和移动端上线，Cue 同步上线，iOS 版本将在通过 App Store 审核后推出。 据介绍，Manus 2.0 采用自研 Agent 框架 Cascade。官方称，该框架让项目保持轻量，仅在需要时引入专业能力。在一项测试配置中，Cascade 的 Token 消耗减少 23.2%，任务完成时间缩短 28.2%，运行成本降低 32%。 云电脑功能允许用户购买专属运行环境，用于多人游戏服务器或长期运行的自动化流程。项目可在用户合上笔记本后继续在线运行。 自动化能力从定时任务扩展至事件触发。新邮件、广告数据波动、日历事件、Slack 消息、Notion 更新等，均可触发 Manus 执行预设工作流。 桌面应用升级为 Manus Studio，定位为人与 AI 共享的工作空间。Studio 按项目需要引入能力，本次升级覆盖文档、表格、PDF、幻灯片、网站、代码、游戏和视频。 视频编辑器可生成初剪版本，并将时间线交给用户。片段、图片、文字、动态图形和音频以独立素材呈现，用户可替换配乐、素材和动画，也可交还 Manus 继续修改。 该编辑器面向 30 至 60 秒短篇产品广告、AI UGC、数据动态图表、教程、Vlog 及动效视频。Alchemy 模式由 Manus 接手创意指导，调用视频生成与代码生成能力。 游戏开发环境调用视频、图像和编程模型。Max Ultra 模式下，官方称游戏画面、玩法和手感有所提升。用户可从模板起步，在编辑面板中管理素材、修改代码和调整场景。 游戏完成后可发布为网站，也可配置多人联机。用户选择云电脑并购买后，Manus 负责托管、网络和运维。竞速、对战、竞技和 3D 游戏均支持多人联机。 远程控制与 Computer Use 功能允许用户通过 Manus 操作远程电脑。在已授权会话中，Manus 在独立可见的工作区操作，仅使用用户批准的文件、浏览器和应用。 Cue 是一款独立应用，支持手机和桌面，与 Manus 基于同一套基础设施构建。每个 Agent 拥有自己的邮箱、电话号码、钱包和电脑，可发消息、在预算内付款并完成任务。 多个 Agent 可加入同一群聊，围绕共同目标互相接力，分别负责调研、整理名单和起草文稿。Cue 还可对接日常服务，例如在餐厅扫码后由 Agent 点餐或排队取号。 Cue 目前处于抢先体验阶段，凭邀请码免费使用。官方提供邀请码 MEETCUE（限前 1000 位用户）。获得体验资格的用户还将收到可分享给他人的邀请码。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-09-28T15:33:58+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/008/064.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Manus 2.0 发布：自研 Cascade 框架，推出个人助理 Cue",
+   "summary_zh": "Manus 面向海外发布 2.0 版本及个人助理 Cue，自研 Cascade 框架使 Token 消耗降 23.2%、任务时间缩短 28.2%，并宣布组建国内团队。",
+   "highlights_zh": [
+    "Cascade 框架让 Token 消耗降 23.2%、运行成本降 32%",
+    "Cue 为每个 Agent 配备邮箱、电话、钱包和电脑，支持多 Agent 群聊协作",
+    "自动化从定时任务扩展至事件触发，新增云电脑与视频/游戏开发能力"
+   ],
+   "why_zh": "Manus 是国内智能体代表产品，2.0 升级与国内布局值得关注",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-09-29",
+   "slot": "morning",
+   "selected_at": "2026-09-28T18:33:39+00:00",
+   "mirror_pdf": "pdf/web-e8c6a114f940.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/008/064.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d6360ceba927",
+   "kind": "article",
+   "title": "消息称小米大模型负责人罗福莉晋升至 22 级，已是小米职级体系最高级别",
+   "url": "https://www.ithome.com/1/008/056.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 9 月 28 日消息，据晚点 LatePost 今晚消息，小米 9 月 22 日对内发布晋升名单，31 岁的 小米大模型团队负责人罗福莉晋升至 22 级 ，还有若干其他业务负责人也获得了晋升。 接近小米的人士称， 22 级已是小米职级体系的最高级别 ，继续晋升主要体现为职务变化。 据IT之家此前报道，9 月 22 日当天， 小米正式发布并开源了全新的 Xiaomi MiMo-V2.6 系列 ，包含 Pro 与 Flash 两个原生全模态模型。 得益于 RL 算力的扩展，MiMo-V2.6-Pro 在 Artificial Analysis Intelligence Index（AA 综合智能指数）v4.3.2 中取得 46 分，超过 Kimi K3（44 分）和 GLM-5.3（45 分），成为当前 AA 指数上排名最高的开源权重模型，较其前代 MiMo-V2.5-Pro 的 26 分高出 20 分。 今年 7 月， 小米调整小爱同学组织架构 ，将技术能力拆分为基础模型、云端和端侧三部分。其中， 基础模型能力由罗福莉负责的 MiMo 团队提供 ，手机、汽车等业务的 OS 团队负责端侧能力，栾剑负责云端工程化。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-09-28T14:53:15+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/008/056.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "小米大模型负责人罗福莉晋升至最高职级",
+   "summary_zh": "小米大模型团队负责人罗福莉晋升至22级（小米最高职级），其主导的MiMo-V2.6-Pro在AA智能指数取得46分，成为排名最高的开源权重模型。",
+   "highlights_zh": [
+    "罗福莉晋升至小米职级体系最高级别22级，直接反映大模型业务在小米的战略地位",
+    "MiMo-V2.6-Pro在AA综合智能指数达46分，超过Kimi K3和GLM-5.3，较前代提升20分",
+    "小米7月调整小爱同学架构，基础模型由罗福莉MiMo团队负责，端侧与云端分属不同团队"
+   ],
+   "why_zh": "了解小米大模型团队地位与开源模型竞争格局的关键人事与性能信号。",
+   "tags": [
+    "大模型",
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-09-29",
+   "slot": "morning",
+   "selected_at": "2026-09-28T18:33:39+00:00",
+   "mirror_pdf": "pdf/web-d6360ceba927.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/008/056.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c9031a24d7c5",
+   "kind": "article",
+   "title": "Meta 启动企业平台 AI 赋能业务，由原 MongoDB 首席执行官兼总裁 Chirantan Desai 领导",
+   "url": "https://www.ithome.com/1/008/026.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 9 月 28 日消息，Meta 创始人兼首席执行官 Mark Zuckerberg（马克 · 扎克伯格）当地时间今日宣布 启动 Meta Enterprise Platform ，旨在帮助企业利用人工智能以全新的方式实现增长和转型。 扎克伯格将 Meta Enterprise Platform 视为 Meta 整体业务的下一个重要支柱 。其将充分利用 Meta 在模型、智能体、基础设施、合作关系上的综合优势， 为企业和开发者提供完整的 Meta AI 技术堆栈 ，助力客户业务增长。 原 MongoDB 首席执行官兼总裁 Chirantan \"CJ\" Desai 将作为 Meta 首席企业平台官领导 Meta Enterprise Platform 并直接向扎克伯格本人汇报工作。 与此同时，MongoDB 宣布前总裁兼首席执行官 Dev Ittycheria 将回归公司暂代这两个职务，并已启动下任正式首席执行官的遴选工作。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-09-28T13:15:36+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/008/026.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Meta启动企业AI平台，前MongoDB CEO挂帅",
+   "summary_zh": "扎克伯格宣布启动Meta Enterprise Platform，整合模型、智能体与基础设施为企业提供完整AI技术栈，由前MongoDB CEO Chirantan Desai领导并直接向扎克伯格汇报。",
+   "highlights_zh": [
+    "Meta将企业平台视为整体业务的下一个重要支柱",
+    "整合Meta在模型、智能体、基础设施与合作伙伴上的综合优势",
+    "前MongoDB CEO Chirantan Desai任首席企业平台官，直接向扎克伯格汇报"
+   ],
+   "why_zh": "Meta从消费级向企业AI市场扩张的战略级动作，值得关注竞争格局变化。",
+   "tags": [
+    "产品与行业",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-09-29",
+   "slot": "morning",
+   "selected_at": "2026-09-28T18:33:39+00:00",
+   "mirror_pdf": "pdf/web-c9031a24d7c5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/008/026.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5faadd5fa2c0",
+   "kind": "article",
+   "title": "工业外骨骼，人类进化新方向",
+   "url": "http://www.geekpark.net/news/371390",
+   "pdf_url": "",
+   "abstract": "本文首发于 Founder Park 公众号 · 2022 年 8 月 9 日 6 月 2 日，人类史上第一位赛博格——彼得·斯科特-摩根去世，享年 64 岁。在 1984 年出版的《机器人革命》中，彼得就曾预言有一天人类会走向「强化人」的道路。 只是目前看来，赛博格（结合了有机体与电子机器的生物）看起来还有些遥远。 但，人机结合的另外一种形态——外骨骼机器人已经开始变成现实了。 作为一种人机结合的可穿戴机器人，外骨骼机器人随着其产品性能的提升和成本的进一步下降，正在打开更多的市场空间。除了医疗和军用市场，目前在泛工业领域，外骨骼机器人有望成为提高生产效率的重要工具，其部署增长迅速。根据全球科技市场咨询公司 ABI Research 的数据，工业类外骨骼将在 2028 年占据整体市场营收一半比重，而出货量将占整体出货量一半以上。 工业外骨骼机器人的时代正在到来，家用外骨骼机器人的时代也即将来临。 外骨骼机器人是如何完成人机协同的？目前都在哪些场景应用？穿戴外骨骼送外卖是否靠谱？什么时候，我们每个人都能拥有一套外骨骼呢？ 7 月 28 日，在极客公园的 Rebuild 2022，Founder Park 的两位主播和傲鲨智能创始人 & CEO 徐振华一起聊聊外骨骼机器人的进展和未来。 徐振华做客极客公园的「Rebuild」栏目 | 来源：直播截图 01 外骨骼机器人 的应用场景 Founder Park：外骨骼机器人是怎么来的？目前主要有哪些种类？ 徐振华 ：上世纪 60 年代，美国通用电气制造了第一台外骨骼机器人，主要目的是增强人类的力量，解决人的耐力和体能问题。由于技术与材料的限制，当时的机器人有几吨重，使用液压装备，通过传感器增强人力量，属于实验级产物。 随着基础材料的进步，现在外骨骼机器人使用的驱动设备逐渐小型化、轻量化。2011 年，美国军方公司 SARCOS 以当时的技术造了一台更加小型化的外骨骼机器人，以全液压的形式运作，包括了下肢、腰部、身体、上肢等全方位关节的覆盖，能够让穿戴者举起 80 公斤到 90 公斤的重量。设备自重在 150 公斤左右，完全依靠外部电池运行。这个机器人和电影里的钢铁侠有点像，但是不能飞，能够在地面上正常地行走、跑步，包括拿取重物，这也是现在大家经常讨论的外骨骼机器人的雏形。 从架构上来看，外骨骼机器人分为两大类目，一种是刚性外骨骼结构，另一种是柔性外骨骼结构。 柔性外骨骼主要的驱动单元来自于一些人工机构，包括柔性驱动的产品，目前还是在实验室阶段，很难在市售的零部件上找到。目前总体上没有太多的柔性外骨骼，还没有商业化。 目前比较商业化的是刚性外骨骼，有很多类型。 第一种是电液伺服，本质上是一种液压外骨骼，使用电液伺服以后可以做到很高的能量密度和力矩输出。是一种非常优秀的动力单元，但是成本很高。大家平时熟知的波士顿动力——可以翻跟斗的机器人，使用的就是电液伺服单元，这些单元早期都来自于战斗机上的一些部件民用化。 第二种是伺服气动，目前费斯托这样的公司有非常好的解决方案。但是总体来说，因为伺服气动方案管路的安排，包括气体本身的可压缩性，气源、气体的保存都是难题，伺服气动外骨骼相对较少，日本有个别厂家可能会做一些特殊的气动机构，但本质上是一个气囊，是一种简化的气动单元。 第三种是目前最常用的，伺服电机驱动的外骨骼，由于成本低廉，管线布置比液压简单，控制理论相对液压也更加成熟，是全球目前用得比较多的一种。缺点是功率密度不太高。 外骨骼在工厂的应用 | 来源：傲鲨智能官网 外骨骼应用的时候要根据应用场合判断，如果是偏向",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-09-28T18:25:13+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/371390",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "工业外骨骼：人机结合的新方向",
+   "summary_zh": "傲鲨智能创始人徐振华谈外骨骼机器人技术路线与应用场景，指出工业外骨骼市场将快速增长，2028年或占市场营收一半。",
+   "highlights_zh": [
+    "外骨骼分刚性与柔性两类，目前商业化以刚性为主",
+    "驱动方案包括电液伺服、伺服气动和伺服电机，伺服电机最常用",
+    "工业外骨骼部署增长迅速，ABI预测2028年占市场营收一半"
+   ],
+   "why_zh": "了解外骨骼机器人技术路线与商业化进展，把握人机结合趋势。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.528,
+   "date": "2026-09-29",
+   "slot": "morning",
+   "selected_at": "2026-09-28T18:33:39+00:00",
+   "mirror_pdf": "pdf/web-5faadd5fa2c0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/371390"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-526dd2057253",
+   "kind": "article",
+   "title": "玻色量子 马寅：量子计算+AI，未来已来 | Founder 100",
+   "url": "http://www.geekpark.net/news/371383",
+   "pdf_url": "",
+   "abstract": "本文首发于 Founder Park 公众号 · 2022 年 7 月 14 日 摩尔定律正在失效，经典计算机的性能也日益捉襟见肘。单靠堆积硬件的方式，已经无法满足当下骤增的算力需求了。 在这其中，量子计算作为最具潜力、也最受关注的新兴技术，吸引了业内不少的关注，也和人工智能一样，成为了科技巨头纷纷投资的领域，谷歌、IBM、微软等都在量子计算领域砸入重金。 而当量子计算和人工智能又结合在一起的时候，会带给大家一个怎样的惊喜？以及，这样的结合能带来怎样的商业价值，具体会在哪些领域落地？量子计算的诸多技术路线又该如何选择？ 作为国内很早就开始探索 AI 和量子计算结合、走光量子路线的玻色量子，他们已经在国内进行了量子计算的商业化尝试。我们专门邀请了玻色量子的联合创始人& COO 马寅，聊一聊 AI 和量子计算的结合，以及量子计算的未来。 硬科技的价值是有所应用，而不是有所实现。 量子计算主要解决问题里的「单点」，而不是将问题整体量子化。 目前的量子计算行业，是处于学术界和产业界叠加的状态。 没有缺点的技术是不存在的，缺点才是技术不断向前演进的动力。 量子通信是加密工具，量子计算可以应用于解密，但是量子计算的解密与量子通信的加密不是矛和盾的关系。 01 量子计算+AI 是技术的必然趋势 Founder Park ：创立公司时，量子计算处于什么样的发展阶段？你看到了怎样的机会？ 马寅 ： 2019 年是量子物理界的重大年度。首先，谷歌宣布量子霸权，看到了更多技术的可能性；其次，在学术角度而言，合伙人文凯博士的团队发布了几篇非常重要的顶刊论文，验证了光量子做量子计算的可行性，并在实验室达成一个重要的指标，这一指标在目前已经可以满足我们很多工程化的需求。 我认为硬科技公司有四个阶段。一为科研阶段，即技术原理的突破；二是工程阶段，技术要满足工程级的要求，可以将实验室的科研转换成工程的试验；三是产品化阶段，硬科技结合行业，使其具有行业属性；第四阶段为可复制的商业化，可复制性让整个行业有所不同，此阶段可以达到创业目标。 2019 年量子计算的工程阶段已经跨越了，我们已经进入了工程阶段。其次是谷歌发布的 TensorFlow，让大家认识到人工智能除了我们理解的深度学习等，还有更多的可能性，这种可能性是与新的基础、新的方法关联的，而这众多方法中可能会存在量子计算的机会，在软件生态上证明了量子计算达到了可用的状态。 我觉得 2019 年可以称为量子元年，当时我们的初心和技术都已就位，所以 2020 年就成立了公司。 Founder Park ：为什么会选择 AI 和量子计算的结合？量子计算和 AI 结合后的落地场景有哪些？ 马寅 ： 在当今时代的大多数场景，基础计算已经能够满足我们的需要，但在部分场景下，如泛人工智能的大数据运算、对大型参数网络的调校与优化，我们对算力是有更高的要求和需求的。比如城市地图里的交通路径规划、交通灯控制等。 目前量子计算应用更多是从组合优化场景开始，包括交通的路径优化、金融的组合性问题等；另外还有量子模拟，即用基础粒子状态去演化其他类似的系统，如对药物系统的模拟，进行新型药物的开发；此外可结合人工智能，无论是各行各业，还是组合优化场景都需要人工智能，这是毋庸置疑的。 Founder Park ：量子计算和 AI 的结合中产生的独一无二的价值是什么？ 马寅 ：量子计算的价值首先要从其可用性出发。目前如果需要处理像 GPT3 这样有 1750 亿参数的神经网络，所需的服务器集群很大，要面对的不仅是服务器与服务器之间的交互，还有带宽问题。即使利用了",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-09-28T18:14:44+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/371383",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "玻色量子马寅：量子计算+AI未来已来",
+   "summary_zh": "玻色量子COO马寅认为量子计算与AI结合是必然趋势，落地场景包括组合优化、量子模拟和药物开发，2019年为量子元年。",
+   "highlights_zh": [
+    "量子计算主要解决组合优化、量子模拟等问题",
+    "硬科技公司需经历科研、工程、产品化、商业化四阶段",
+    "光量子路线已进入工程阶段，具备商业化条件"
+   ],
+   "why_zh": "了解量子计算与AI结合的技术路线与商业化前景。",
+   "tags": [
+    "科学AI",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.528,
+   "date": "2026-09-29",
+   "slot": "morning",
+   "selected_at": "2026-09-28T18:33:39+00:00",
+   "mirror_pdf": "pdf/web-526dd2057253.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/371383"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-43a2103585a1",
+   "kind": "article",
+   "title": "领骏科技 杨文利：自动驾驶商业化时代已经到来 | Founder 100",
+   "url": "http://www.geekpark.net/news/371381",
+   "pdf_url": "",
+   "abstract": "本文首发于 Founder Park 公众号 · 2022 年 7 月 11 日 公司 ：领骏科技 领域 ：自动驾驶、无人巴士、无人驾驶、智能网联公交、智慧城市、智能交通 融资状态 ：数千万元 PreA+轮 主要投资人 ：武岳峰资本、满帮集团、地平线、赣州市发投 官方网站 ：http://www.leadgentech.ai/ 今年 4 月，《北京市智能网联汽车政策先行区乘用车无人化道路测试与示范应用管理实施细则》正式发布，在国内首开乘用车无人化运营试点。 5 月份，特斯拉 CEO 埃隆・马斯克在巴西接受采访时表示，预计特斯拉将在大约一年内推出完全无需人工驾驶的汽车。 6 月 27 日，浙江德清成为全国首个颁发 L4 级「主驾无人」自动驾驶卡车公开道路测试牌照的城市，阿里巴巴宣布获得首批 2 张牌照之一。 7 月 5 日，《深圳经济特区智能网联汽车管理条例》出台，将于 8 月 1 日起实施。这是国内首部关于智能网联汽车管理的法规。 梦想中的自动驾驶离我们越来越近，而偶尔登上微博热搜的各类自动驾驶事故，却又给这个目标泼上了冷水。自动驾驶的发展似乎总是面临着类似的窘境，许诺的光明未来和现实构成了强烈的反差。 巨头云集的自动驾驶领域，如今究竟发展得怎么样了？自动驾驶的核心挑战是什么？谁又可以定义行业的未来？关于这些问题，我们邀请了领骏科技的创始人 & CEO 杨文利，一起来聊聊自动驾驶。对于百度自动驾驶团队成立时的核心人物，后来又创业投身自动驾驶行业的杨文利来说，对于自动驾驶，他有着不太一样的看法。 回归工业本质的自动驾驶行业，堆头部的互联网式投融资模式将一去不复返。 如果企业发展节奏不能完美契合自动驾驶产业周期，就会形成巨大无效资产和无效研发的历史负担。 不论是自动驾驶或者其他先进技术，最终的目的都是能够被使用。首先要能够被生产制造，其次是必须要能够创造用户价值。 车路协同是解决自动驾驶长尾问题的最优解之一。 技术力决定产品力、产品力决定用户价值、用户价值决定公司上限。 01 自动驾驶 的 第一性原理 Founder Park ：自动化驾驶的发展经过怎样的历程？ 杨文利 ：自动驾驶最开始的雏形是远程电控，随着人工智能、大数据和各种传感器成熟之后，新一轮的自动驾驶赋予了汽车新的概念。这一次自动驾驶的革命，可以划分成三个发展阶段。 第一个阶段，2014 年到 2020 年，可以称作基础产业的成熟期。主要在积累自动驾驶的核心技术，同时完成零部件、激光雷达、相控底盘，机器视觉包括计算芯片、存储芯片，整个基础产业链条的一个成熟期。早期的时候线控底盘一车难求，而且成本很高，体感又不好；现在每个车厂都有各自研发的线控底盘用于自动驾驶。之前四线的激光雷达都要 60 多万人民币，现在国产的很多性能指标更高的激光雷达可能也就几万块钱，有些甚至几千块钱就可以买到。 汽车的线控底盘 | 来源：互联网 第二个阶段是 2021 年到 2025 年，小规模商业化的阶段。这个阶段基础产业已经基本成熟了，整个产业具备了商业化的条件。公司的重点是实现商业化闭环，如何把技术转化为产品，让技术实现本身的价值。 第三个阶段是 2025 年到 2030 年，经过了前一阶段小规模的商业化尝试之后，整个市场包括法律法规和民众的接受度都已经趋于成熟，是行业大规模商业化的重塑阶段。核心竞争点是看产品力如何创造价值。 Founder Park ：在之前的采访中你提到，自动驾驶发展的最大阻力是资本对于技术和工业体系周期的误解，这个要怎么理解？ 杨文利 ：之前的工作经历中接触到整个工业生产的设计流程，我认为",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-09-28T18:11:44+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/371381",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "领骏科技杨文利：自动驾驶商业化时代已来",
+   "summary_zh": "领骏科技CEO杨文利认为自动驾驶已进入小规模商业化阶段，2025年后将迎来大规模重塑，车路协同是解决长尾问题的最优解。",
+   "highlights_zh": [
+    "自动驾驶分三阶段：产业成熟期、小规模商业化、大规模重塑",
+    "堆头部互联网式投融资模式将一去不复返",
+    "车路协同是解决自动驾驶长尾问题的最优解之一"
+   ],
+   "why_zh": "了解自动驾驶商业化节奏与产业周期判断。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.528,
+   "date": "2026-09-29",
+   "slot": "morning",
+   "selected_at": "2026-09-28T18:33:39+00:00",
+   "mirror_pdf": "pdf/web-43a2103585a1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/371381"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8336981fbcb4",
+   "kind": "article",
+   "title": "JohnHeibel/ClaudeAnimationBase",
+   "url": "https://github.com/JohnHeibel/ClaudeAnimationBase",
+   "pdf_url": "",
+   "abstract": "A starter kit for animating hand-painted cartoons with Claude: p5.js + p5.brush, the Clawd character, 31 acted emotions and a guide for the model",
+   "authors": [],
+   "orgs": [
+    "JohnHeibel"
+   ],
+   "published": "2026-09-28T18:33:39+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/JohnHeibel/ClaudeAnimationBase",
+     "signal": "★ 539（新项目） · JavaScript",
+     "metric": 539
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Claude 手绘动画起步套件",
+   "summary_zh": "基于 p5.js 与 Claude 的手绘卡通动画脚手架，内置角色与 31 种情绪动作。",
+   "highlights_zh": [
+    "p5.js + p5.brush 绘制管线",
+    "内置 Clawd 角色与 31 种情绪动作",
+    "附模型使用指南"
+   ],
+   "why_zh": "如果你在做 AI 生成动画原型，可用它快速搭起角色与情绪演示。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5616,
+   "score_llm": 5.0,
+   "score": 0.5246,
+   "date": "2026-09-29",
+   "slot": "morning",
+   "selected_at": "2026-09-28T18:33:39+00:00",
+   "mirror_pdf": "pdf/web-8336981fbcb4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/JohnHeibel/ClaudeAnimationBase"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0b9d5dbf3fe3",
+   "kind": "article",
+   "title": "豆包输入法大更新，AI 最自然的入口回到了键盘",
+   "url": "https://www.ifanr.com/1682232?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "AI 改变输入法，从少折腾开始 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "莫崇宇"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-09-28T09:02:42+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1682232?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "豆包输入法大更新：AI最自然的入口回到键盘",
+   "summary_zh": "豆包输入法迎来大更新，爱范儿认为AI改造输入法应从减少折腾入手，键盘仍是AI最自然的交互入口。",
+   "highlights_zh": [
+    "豆包输入法进行大版本更新",
+    "观点：AI改造输入法应以少折腾为原则",
+    "键盘被视为AI最自然的入口"
+   ],
+   "why_zh": "了解AI输入法产品迭代方向与交互入口之争",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-09-29",
+   "slot": "morning",
+   "selected_at": "2026-09-28T18:33:39+00:00",
+   "mirror_pdf": "pdf/web-0b9d5dbf3fe3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1682232?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-207e2de0be56",
+   "kind": "article",
+   "title": "alexgreensh/anidoodle",
+   "url": "https://github.com/alexgreensh/anidoodle",
+   "pdf_url": "",
+   "abstract": "Art and animation, written as code. Illustrations, loops, interactive web art, launch-videos and scored films in dozens of styles, identical on every render.",
+   "authors": [],
+   "orgs": [
+    "alexgreensh"
+   ],
+   "published": "2026-09-28T18:33:39+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/alexgreensh/anidoodle",
+     "signal": "★ 652（新项目） · TypeScript",
+     "metric": 652
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Anidoodle：用代码写插画与动画",
+   "summary_zh": "一个用代码生成插画、循环动画和交互网页艺术的工具，支持多种风格且每次渲染结果一致。",
+   "highlights_zh": [
+    "以代码方式创作插画、循环动画与短片",
+    "强调渲染结果可复现、跨次一致",
+    "TypeScript 实现，面向创意编程场景"
+   ],
+   "why_zh": "如果你做创意编程或需要可复现的生成式视觉素材，可以试试",
+   "tags": [
+    "视觉",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5683,
+   "score_llm": 4.0,
+   "score": 0.4673,
+   "date": "2026-09-29",
+   "slot": "morning",
+   "selected_at": "2026-09-28T18:33:39+00:00",
+   "mirror_pdf": "pdf/web-207e2de0be56.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/alexgreensh/anidoodle"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "算力涨价与推理降价并行，效率成为AI商业化的核心变量",
+   "why": "GPU租金半年翻倍，但推理价格持续下降，稀缺算力正被效率提升转化为廉价智能。",
+   "refs": [
+    "web-5f747bb86b42"
+   ]
+  },
+  {
+   "trend": "AI竞争从模型能力转向自我迭代速度，RSI成为头部厂商新战场",
+   "why": "OpenAI设RSI团队目标2028年自动化研究员，Anthropic内部80%代码由Claude编写、3万Agent并行实验。",
+   "refs": [
+    "web-a8fd50b8ac1d",
+    "web-70768dfb8c37"
+   ]
+  },
+  {
+   "trend": "智能体开发从零散工具走向工程化，生命周期框架开始替代传统SDLC",
+   "why": "Cloudflare推出智能体开发栈生命周期，OpenRig用YAML统一调度Claude Code与Codex。",
+   "refs": [
+    "web-5ae077929d5f",
+    "web-b32771b7cbd0"
+   ]
+  },
+  {
+   "trend": "AI落地瓶颈从生成能力转向系统理解，架构与意图判断成为稀缺能力",
+   "why": "AI生成代码本身不是瓶颈，团队缺乏对系统架构和设计意图的理解才是真正风险。",
+   "refs": [
+    "web-aadd1dae2e0b"
+   ]
+  },
+  {
+   "trend": "大厂加速整合模型、智能体与基础设施，企业AI平台竞争升温",
+   "why": "Meta启动企业AI平台整合完整技术栈，阿里云以45.2%份额领跑汽车AI云市场。",
+   "refs": [
+    "web-c9031a24d7c5",
+    "web-98e8962a8ad0"
+   ]
+  }
+ ]
+}
