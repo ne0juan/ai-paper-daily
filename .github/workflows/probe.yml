@@ -15,4 +15,5 @@ jobs:
         with: {python-version: "3.11", cache: pip}
       - run: pip install -r requirements.txt
       - run: python scripts/probe.py probe
+      - run: rm -rf probe/raw   # raw third-party responses stay out of the public reports branch
       - run: scripts/push_report.sh probe probe
