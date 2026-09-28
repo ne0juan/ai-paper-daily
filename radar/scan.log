@@ -1,12 +1,15 @@
-2026-09-28 04:01:32,647 INFO source hf_daily           -> 1 items
-2026-09-28 04:01:34,751 INFO source hackernews         -> 4 items
-2026-09-28 04:02:11,766 INFO source rss                -> 48 items
-2026-09-28 04:02:13,621 INFO source html_lists         -> 0 items
-2026-09-28 04:02:13,621 INFO source x                  -> 0 items
-2026-09-28 04:02:28,333 INFO source arxiv_search       -> 0 items
-2026-09-28 04:02:36,684 INFO source github             -> 20 items
-2026-09-28 04:02:36,685 INFO candidates: 73 (stale dropped 12, new 36)
-2026-09-28 04:03:04,394 INFO llm judged 34/36 (calls=5)
-2026-09-28 04:03:34,285 WARNING snapshot https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents: blocked or empty page
-2026-09-28 04:03:55,604 WARNING snapshot https://thezvi.wordpress.com/2026/09/27/the-quest-for-embedded-evaluators/: blocked or empty page
-2026-09-28 04:05:45,319 INFO run done: {"at": "2026-09-28T04:01:32+00:00", "slot": "noon", "candidates": 73, "new": 36, "stale": 12, "judged": 34, "selected": 17, "mirrored": 14, "by_category": {"观点": 2, "资讯": 12, "项目": 3}, "by_source": {"HF Daily Papers": 1, "Hacker News": 4, "量子位": 10, "极客公园": 3, "IT之家": 12, "爱范儿": 2, "少数派": 1, "雷峰网": 2, "钛媒体": 5, "InfoQ 中文": 6, "Simon Willison": 1, "SemiAnalysis": 1, "Azeem Azhar": 2, "Zvi Mowshowitz": 2, "METR": 1, "GitHub Trending": 8, "GitHub 新项目": 12}, "llm": true, "translated": 0}
+2026-09-28 11:37:16,680 INFO source hf_daily           -> 4 items
+2026-09-28 11:37:16,969 INFO source hackernews         -> 5 items
+2026-09-28 11:37:51,202 INFO source rss                -> 58 items
+2026-09-28 11:37:53,007 INFO source html_lists         -> 0 items
+2026-09-28 11:37:53,007 INFO source x                  -> 0 items
+2026-09-28 11:37:53,453 INFO source arxiv_search       -> 0 items
+2026-09-28 11:38:01,392 INFO source github             -> 20 items
+2026-09-28 11:38:01,393 INFO candidates: 87 (stale dropped 6, new 48)
+2026-09-28 11:38:37,936 INFO llm judged 48/48 (calls=6)
+2026-09-28 11:38:45,476 WARNING snapshot https://stratechery.com/2026/apps-agents-and-aggregation/: blocked or empty page
+2026-09-28 11:40:23,791 WARNING snapshot http://www.geekpark.net/news/371113: Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "http://www.geekpark.net/news/371113", waiting until "domcontentloaded"
+
+2026-09-28 11:43:21,493 INFO run done: {"at": "2026-09-28T11:37:16+00:00", "slot": "evening", "candidates": 87, "new": 48, "stale": 6, "judged": 48, "selected": 19, "mirrored": 17, "by_category": {"观点": 2, "技术": 2, "项目": 3, "资讯": 12}, "by_source": {"HF Daily Papers": 4, "Hacker News": 5, "量子位": 5, "极客公园": 5, "IT之家": 14, "爱范儿": 3, "少数派": 2, "雷峰网": 9, "钛媒体": 6, "InfoQ 中文": 5, "Simon Willison": 1, "Stratechery": 1, "SemiAnalysis": 1, "Arvind Narayanan": 1, "Azeem Azhar": 1, "Zvi Mowshowitz": 1, "科学空间": 1, "Hugging Face Blog": 1, "METR": 1, "GitHub Trending": 7, "GitHub 新项目": 13}, "llm": true, "translated": 0}
