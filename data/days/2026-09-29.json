@@ -2288,48 +2288,1321 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "arxiv-2609.35748",
+   "kind": "paper",
+   "title": "Improving Test-Time Scaling with Adaptive Looped Transformers",
+   "url": "https://arxiv.org/abs/2609.35748",
+   "pdf_url": "https://arxiv.org/pdf/2609.35748",
+   "abstract": "Looped transformers have demonstrated promising parameter efficiency by reusing layers for latent computation. Prior studies compare looped and non-looped models at matched parameters or per-token FLOPs. However, to the best of our knowledge, whether looping improves test-time scaling as outputs grow longer remains underexplored. Through post-training looped transformers, we study the accuracy-compute slope, measured as the accuracy gain per doubling of test-time decoding FLOPs. We find that existing looped transformers often yield steeper slopes than their non-looped baseline, yet underperform it at matched compute. While fixed-depth looping spends extra iterations on every token, our analysis shows that many tokens do not benefit from extra iterations. We therefore propose TaH2, which enables the model to focus extra iterations on the tokens that benefit from looping. It jointly post-trains the backbone and an iteration decider through lookahead depth supervision, which uses online labels indicating whether further iteration improves the prediction. TaH2 improves both the efficiency and attainable accuracy of test-time scaling. On challenging AIME benchmarks, TaH2 improves the accuracy-compute slope by 53% (2.74 vs. 1.79) over the non-looped baseline, exceeding the baseline's peak accuracy by about 3.4 points at matched test-time compute. As the maximum iteration depth increases, existing looped models largely plateau, while TaH2's gain over the non-looped baseline continues to grow from +2.8 points at depth 2 to +3.9 points at depth 8. Our code is available at https://github.com/thu-nics/TaH.",
+   "authors": [
+    "Yichen You",
+    "Tianyu Fu",
+    "Aosong Feng",
+    "Xingtai Lv",
+    "Xuefei Ning",
+    "Ning Ding",
+    "Yu Wang"
+   ],
+   "orgs": [
+    "Tsinghua-NICS-EFC"
+   ],
+   "published": "2026-09-28T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2609.35748",
+     "signal": "▲ 38",
+     "metric": 38
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2609.35748",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "自适应循环Transformer提升测试时扩展效率",
+   "summary_zh": "清华团队发现循环Transformer在测试时扩展上斜率更陡但同算力下不如基线，提出TaH2让模型只对受益token增加迭代，AIME上斜率提升53%。",
+   "highlights_zh": [
+    "揭示循环Transformer在测试时扩展中的效率-精度权衡问题",
+    "TaH2通过前瞻深度监督联合训练骨干与迭代决策器",
+    "AIME基准上同算力精度超基线约3.4个百分点"
+   ],
+   "why_zh": "为测试时计算扩展提供新思路，适合关注推理效率的研究者",
+   "tags": [
+    "推理",
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.7391,
+   "score_llm": 8.0,
+   "score": 0.7756,
+   "date": "2026-09-29",
+   "slot": "evening",
+   "selected_at": "2026-09-29T11:15:14+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.35748.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.35748"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.35748"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.35748"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.35748"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.35748"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.35748"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/thu-nics/TaH"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4dcdb9557827",
+   "kind": "article",
+   "title": "NVIDIA/OpenShell",
+   "url": "https://github.com/NVIDIA/OpenShell",
+   "pdf_url": "",
+   "abstract": "Star NVIDIA / OpenShell OpenShell is the safe, private runtime for autonomous AI agents.\nREADME: [![License](https://img.shields.io/badge/License-Apache_2.0-blue)](https://github.com/NVIDIA/OpenShell/blob/main/LICENSE) [![PyPI](https://img.shields.io/badge/PyPI-openshell-orange?logo=pypi)](https://pypi.org/project/openshell/) [![Security Policy](https://img.shields.io/badge/Security-Report%20a%20Vulnerability-red)](SECURITY.md) [![Documentation](https://img.shields.io/badge/docs-latest-brightgreen)](https://docs.nvidia.com/openshell/latest/index.html) > [!IMPORTANT] > **New in OpenShell 0.1.x:** a stable release cadence, new isolation primitives, an expanded extension surface, and new APIs. [Read the 0.1.0 upgrade guide](https://docs.nvidia.com/openshell/latest/upgrade/0-1-0). OpenShell is the safe, private runtime for fleets of autonomous AI agents. Agents are most useful when they can read files, install packages, call APIs, and use credentials. OpenShell gives them that capability without giving them unrestricted access to your data, secrets, or network. You declare what each agent can touch in a policy, and OpenShell enforces it. ## How It Works OpenShell governs what agents can do in two ways: it instruments the kernel to enforce policy on every file access, system call, and network connection at runtime, and it uses formal verification to check what a policy change would allow before it is applied. - **Kernel-level enforcement.** Each agent runs in an isolated sandbox. Kernel controls confine which files it can access and which system calls it can make, and every n",
+   "authors": [],
+   "orgs": [
+    "NVIDIA"
+   ],
+   "published": "2026-09-29T11:15:14+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/NVIDIA/OpenShell",
+     "signal": "★ 今日 +978 · Rust",
+     "metric": 978
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "NVIDIA OpenShell：智能体安全运行时",
+   "summary_zh": "NVIDIA开源OpenShell，为自主AI智能体提供安全私有运行时，通过内核级策略执行和形式化验证控制文件、网络与凭证访问。",
+   "highlights_zh": [
+    "内核插桩强制执行每次文件访问、系统调用和网络连接策略",
+    "形式化验证检查策略变更影响",
+    "声明式策略定义每个智能体可触及的资源"
+   ],
+   "why_zh": "如果你在部署自主智能体，用它做沙箱隔离和权限管控",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.7025,
+   "score_llm": 8.0,
+   "score": 0.761,
+   "date": "2026-09-29",
+   "slot": "evening",
+   "selected_at": "2026-09-29T11:15:14+00:00",
+   "mirror_pdf": "pdf/web-4dcdb9557827.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/NVIDIA/OpenShell"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.35457",
+   "kind": "paper",
+   "title": "How Far Are We from Removing the Visual Encoder? Scaling Laws for Encoder-Free Multimodal Pretraining",
+   "url": "https://arxiv.org/abs/2609.35457",
+   "pdf_url": "https://arxiv.org/pdf/2609.35457",
+   "abstract": "Most modern multimodal large language models (MLLMs) build on a pretrained visual encoder that provides a strong visual prior. Encoder-free MLLMs instead learn visual representations directly from raw pixels, offering a simple and unified architecture, but their scaling behavior has not been systematically characterized. To fill this gap, we compare scaling laws for encoder-free and encoder-based MLLMs and report three main findings: (1) Removing the visual encoder shifts the compute-optimal allocation for the multimodal objective toward larger models, while leaving that for text nearly unchanged. (2) The two architectures exhibit nearly overlapping loss--compute frontiers on the text objective, but diverge on the multimodal objective: encoder-free models underperform at small scales yet are predicted to catch up at around 10^{22} FLOPs, well within practical pretraining budgets. (3) Without a visual encoder, the language model learns to take over its role via vision-specific adaptation: bidirectional interactions among visual tokens become increasingly beneficial as training compute grows, visual processing shifts toward earlier layers, and expert routing for visual tokens becomes more concentrated. Overall, our results indicate that the advantage of the visual prior provided by a pretrained encoder diminishes with scale, positioning encoder-free architectures as a promising direction for multimodal pretraining.",
+   "authors": [
+    "Lin Chen",
+    "Bolin Ni",
+    "Qi Yang",
+    "Lan Jiang",
+    "Kun Ding",
+    "Xiaoran Fan",
+    "Hower Yang",
+    "Ying Wang",
+    "Shiming Xiang"
+   ],
+   "orgs": [
+    "Tencent Hunyuan"
+   ],
+   "published": "2026-09-28T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2609.35457",
+     "signal": "▲ 45",
+     "metric": 45
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "无视觉编码器多模态预训练的缩放定律",
+   "summary_zh": "腾讯混元系统比较无编码器与有编码器MLLM的缩放定律，发现无编码器模型在约10^22 FLOPs处可追平，视觉先验优势随规模递减。",
+   "highlights_zh": [
+    "无编码器架构将多模态目标的最优算力分配推向更大模型",
+    "文本目标上两者损失-算力前沿几乎重合",
+    "语言模型通过视觉token双向交互和早期层处理接管视觉功能"
+   ],
+   "why_zh": "为多模态架构选型提供缩放定律依据，值得架构研究者细读",
+   "tags": [
+    "多模态",
+    "大模型",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.6889,
+   "score_llm": 8.0,
+   "score": 0.7556,
+   "date": "2026-09-29",
+   "slot": "evening",
+   "selected_at": "2026-09-29T11:15:14+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.35457.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.35457"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.35457"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.35457"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.35457"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.35457"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.35457"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.35504",
+   "kind": "paper",
+   "title": "SolveEdit: Benchmarking Visual Problem Solving in Generative Models",
+   "url": "https://arxiv.org/abs/2609.35504",
+   "pdf_url": "https://arxiv.org/pdf/2609.35504",
+   "abstract": "Machine intelligence is often evaluated through abstract reasoning problems, yet many real-world problems are visual, such as arranging objects, repairing layouts, or tracing routes. Solving these problems requires understanding a scene, inferring what must change to achieve a goal, and realizing that change without disturbing unrelated content. However, existing benchmarks mainly evaluate perception, generation, or explicitly specified transformations, leaving goal-driven visual problem solving underexplored. To bridge this gap, we introduce SolveEpIT, a benchmark for visual problem solving through scene transformation. Given an image and a goal, a model must infer a valid transformation from the request, the scene, or a visually expressed rule, then execute it while preserving unrelated content. SoLvEEDrr contains 2,728 cases. Atomic transition contracts specify required and protected conditions, enabling SoLvEScoRE to measure completion and unintended changes without a single reference output. The strongest evaluated model achieves only57.0% SolvEScore. We further introduce SolveEdiT-PLAN, a two-stage visual planner that instantiates the transition before generation. Under matched single-generation evaluation, it improves SoLvEScoRE by 9.1 points on average across three tested generators, including a gain from 57.0% to 71.6% for GPT-Image-2, without modifying the editor.",
+   "authors": [
+    "Wenjie Shu",
+    "Yexin Liu",
+    "Harold Haodong Chen",
+    "Xuerui Qiu",
+    "Zehan Wang",
+    "Yidi Zhang",
+    "Yizhan Chen",
+    "Zunwei Wang",
+    "Minghao Liu",
+    "Qi Chen",
+    "Harry Yang",
+    "Xiaogang Xu"
+   ],
+   "orgs": [],
+   "published": "2026-09-28T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2609.35504",
+     "signal": "▲ 10",
+     "metric": 10
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2609.35504",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "SolveEdit：生成模型的视觉问题求解基准",
+   "summary_zh": "提出 SolveEdit 基准，用 2728 个案例考察模型能否根据目标推断并执行图像变换且不破坏无关内容，最强模型仅得 57.0 分；配套两阶段规划器 SolveEdit-PLAN 平均提升 9.1 分。",
+   "highlights_zh": [
+    "用原子变换契约衡量完成度与误改，无需参考输出",
+    "最强模型 SolveScore 仅 57.0%，暴露目标驱动视觉推理短板",
+    "两阶段规划器让 GPT-Image-2 从 57.0% 升至 71.6%"
+   ],
+   "why_zh": "做多模态生成与视觉推理评测的团队，可参考其无参考评估思路。",
+   "tags": [
+    "多模态",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.5834,
+   "score_llm": 8.0,
+   "score": 0.7134,
+   "date": "2026-09-29",
+   "slot": "evening",
+   "selected_at": "2026-09-29T11:15:14+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.35504"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.35504"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.35504"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.35504"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.35504"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.35504"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/WenjieShu/SolveEdit"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-952e52465118",
+   "kind": "article",
+   "title": "One More Note on Agents, Meta Connect, Meta Enterprise Platform",
+   "url": "https://stratechery.com/2026/one-more-note-on-agents-meta-connect-meta-enterprise-platform/",
+   "pdf_url": "",
+   "abstract": "Meta has the chance to own the consumer agentic space; going for enterprise is a big mistake.",
+   "authors": [
+    "Ben Thompson"
+   ],
+   "orgs": [
+    "Stratechery"
+   ],
+   "published": "2026-09-29T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "Stratechery",
+     "authority": 0.8,
+     "url": "https://stratechery.com/2026/one-more-note-on-agents-meta-connect-meta-enterprise-platform/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Ben Thompson，科技战略分析",
+   "title_zh": "Ben Thompson：Meta 应主攻消费级智能体，而非企业市场",
+   "summary_zh": "Ben Thompson 认为 Meta 有机会主导消费级智能体赛道，转向企业平台是战略误判，应聚焦个人智能体生态。",
+   "highlights_zh": [
+    "Meta 在消费级智能体领域具备分发与数据优势",
+    "进军企业市场分散资源，是战略失误",
+    "消费级智能体才是 Meta 真正的护城河"
+   ],
+   "why_zh": "理解 Meta AI 战略走向与智能体市场格局的关键判断",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.708,
+   "date": "2026-09-29",
+   "slot": "evening",
+   "selected_at": "2026-09-29T11:15:14+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://stratechery.com/2026/one-more-note-on-agents-meta-connect-meta-enterprise-platform/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.35560",
+   "kind": "paper",
+   "title": "WorldPlay2: Extending Real-Time Interactive World Models in Control and Horizon",
+   "url": "https://arxiv.org/abs/2609.35560",
+   "pdf_url": "https://arxiv.org/pdf/2609.35560",
+   "abstract": "Interactive world models require responding in real time to versatile controls and maintaining long-horizon consistency. However, modeling heterogeneous controls remains difficult, while explosive contexts and unstable distillation impede achieving both long-horizon consistency and real-time responsiveness. In this paper, we present WorldPlay2, an interactive world model that couples a factorized hybrid control interface with a co-design of compressed memory and stable distillation. 1) Our factorized hybrid control interface integrates frame-aligned action control with structured semantic control that explicitly disentangles scene appearance, character identity, and dynamic semantic events, thereby facilitating effective control learning. 2) To achieve efficient long-horizon modeling, we compress historical contexts into compact memory tokens shared by the autoregressive student and the bidirectional teacher. This design enables clip-wise, memory-conditioned score evaluation instead of jointly processing an entire long rollout, substantially reducing distillation overhead. 3) We further propose Stable Forcing, which initializes the autoregressive student via a few-step strategy and leverages full-rollout replay to preserve the quality of long-horizon rollouts, ensuring robust and stable distillation. Extensive experiments demonstrate the strong generalizability of our model and its superior performance compared to existing methods.",
+   "authors": [
+    "Haiyu Zhang",
+    "Wenqiang Sun",
+    "Tengfei Wang",
+    "Junta Wu",
+    "Jun Zhang",
+    "Yunhong Wang",
+    "Yu Qiao",
+    "Chunchao Guo"
+   ],
+   "orgs": [],
+   "published": "2026-09-28T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2609.35560",
+     "signal": "▲ 22",
+     "metric": 22
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "WorldPlay2：实时交互世界模型的控制与长时程扩展",
+   "summary_zh": "提出 WorldPlay2，用因子化混合控制接口解耦外观、身份与语义事件，并把历史压缩为记忆 token 配合 Stable Forcing 蒸馏，兼顾长时程一致性与实时响应。",
+   "highlights_zh": [
+    "因子化控制接口分离动作、外观、身份与语义事件",
+    "记忆 token 让师生模型共享压缩上下文，降低蒸馏开销",
+    "Stable Forcing 用少步初始化加全轨迹回放稳定长 rollout"
+   ],
+   "why_zh": "做交互式世界模型与实时视频生成的团队，可借鉴其控制与蒸馏设计。",
+   "tags": [
+    "多模态",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5675,
+   "score_llm": 8.0,
+   "score": 0.707,
+   "date": "2026-09-29",
+   "slot": "evening",
+   "selected_at": "2026-09-29T11:15:14+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.35560"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.35560"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.35560"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.35560"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.35560"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.35560"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/WorldPlay2/WorldPlay2"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cf468ec39dd6",
+   "kind": "article",
+   "title": "Towards safety cases for frontier AI training",
+   "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+   "pdf_url": "",
+   "abstract": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-09-28T19:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "前沿 AI 训练的安全案例框架",
+   "summary_zh": "OpenAI 发布前沿 AI 训练安全案例的早期指南，涵盖技术防护、运营实践与失准事件调查，为高风险训练提供结构化安全论证方法。",
+   "highlights_zh": [
+    "提出「安全案例」这一结构化论证框架",
+    "覆盖技术防护与运营实践两层",
+    "包含失准事件调查流程"
+   ],
+   "why_zh": "前沿模型安全治理的方法论参考，安全与合规团队值得一读。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 8.0,
+   "score": 0.696,
+   "date": "2026-09-29",
+   "slot": "evening",
+   "selected_at": "2026-09-29T11:15:14+00:00",
+   "mirror_pdf": "pdf/web-cf468ec39dd6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2732fee73e83",
+   "kind": "article",
+   "title": "VectifyAI/PageIndex",
+   "url": "https://github.com/VectifyAI/PageIndex",
+   "pdf_url": "",
+   "abstract": "Sponsor Star VectifyAI / PageIndex 📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG\nREADME: # PageIndex: Vectorless, Reasoning-based RAG Reasoning-based RAG ◦ No Vector DB, No Chunking ◦ Context-Aware Retrieval ◦ Reads Like a Human 🌐 Website • ☁️ Cloud • 📖 Docs • 📝 Blog • ✉️ Contact Updates - [Aug '26] 🔥 [**PageIndex SDK**](#quickstart): `pip install -U pageindex` now ships **local mode**: index, retrieve, and chat entirely on your machine with your own LLM key, or point the same client at PageIndex Cloud with an API key. - [Aug '26] ⚡ [**PageIndex Flash**](https://pageindex.ai/blog/pageindex-flash): fast tree index generation for text-based PDFs, now the default indexing method in PageIndex SDK local mode. - [Scale PageIndex to Millions of Documents](https://pageindex.ai/blog/pageindex-filesystem): *PageIndex File System* is a file-level tree indexing layer that lets PageIndex reason over an entire corpus, not just a single document. - [PageIndex App](https://app.pageindex.ai): a human-like document analysis agent for long professional documents. # What is PageIndex? Are you frustrated with vector database retrieval accuracy for long and complex documents? Vector-based RAG retrieves by semantic **similarity**. But **similarity ≠ relevance** — what retrieval actually needs is relevance, and relevance requires **reasoning**. On professional documents that demand contextual understanding, domain expertise, and multi-step reasoning, similarity search misses what is relevant but not similar, and returns what is similar but not relevant. Inspired by AlphaGo, **[PageIndex",
+   "authors": [],
+   "orgs": [
+    "VectifyAI"
+   ],
+   "published": "2026-09-29T11:15:14+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/VectifyAI/PageIndex",
+     "signal": "★ 今日 +822 · Python",
+     "metric": 822
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "PageIndex：无向量推理式RAG",
+   "summary_zh": "PageIndex用树索引和推理替代向量检索，无需分块和向量库，支持本地模式，适合长专业文档的上下文感知检索。",
+   "highlights_zh": [
+    "pip install -U pageindex 即可本地索引、检索和对话",
+    "树索引生成Flash模式为文本PDF默认索引方法",
+    "文件系统层支持跨整个语料库推理"
+   ],
+   "why_zh": "如果你在做长文档RAG且向量检索精度差，用它换推理式检索",
+   "tags": [
+    "产品与行业",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.6154,
+   "score_llm": 7.0,
+   "score": 0.6662,
+   "date": "2026-09-29",
+   "slot": "evening",
+   "selected_at": "2026-09-29T11:15:14+00:00",
+   "mirror_pdf": "pdf/web-2732fee73e83.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/VectifyAI/PageIndex"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-47e96a07753e",
+   "kind": "article",
+   "title": "Anthropic 招股书里，最耐人寻味的 7 个细节",
+   "url": "http://www.geekpark.net/news/371994",
+   "pdf_url": "",
+   "abstract": "作者｜Techno 之王 编辑｜靖宇 当地时间 9 月 28 日，外媒披露了一份 Anthropic 的 IPO 招股书。 先要说清楚这份文件的性质。它并不是 Anthropic 主动公开的版本。今年 6 月，Anthropic 以公益公司身份向美国证交会秘密递交了 S-1 注册声明草案，为普通股首次公开发行做准备。按照规则，公司要在向机构投资者路演前至少 15 天公开递交修订版 S-1，完整财务数据到那时才会被外界看到。路透此次看到的是一份尚未公开的版本， Anthropic 对此拒绝置评 。 这意味着其中的数字仍可能随证交会的审阅意见调整，不少细节也只能通过路透的转述窥见一角。 但如果这份文件大体反映了 Anthropic 最终交给公开市场的样子，它的分量很难被高估。这次上市的估值目标，是 Anthropic 自己 5 月估算的 9650 亿美元的两倍以上，也就是超过 2 万亿美元。 这是 ChatGPT 引爆这轮 AI 浪潮近四年来，第一家把完整账本摊给公众投资人的前沿大模型实验室。 在此之前，这场 AI 竞赛的资金一直由风投、主权财富基金和科技巨头承担，外界只能从零散的年化收入和融资估值里拼凑这些公司的经营状况。现在，账本第一次有了审计口径。 极客公园从招股书中，挑出了 7 个最值得细看的地方。 被误读的 420 亿美元亏损 招股书里最先被传播的数字，是 2025 年约 420 亿美元的净亏损。 这个数字很容易被读成「一年烧掉 420 亿美元」，实际并非如此。其中约 340 亿美元是一笔会计费用，反映的是那些未来可能转换成 Anthropic 股票的融资工具估值上升，而不是公司经营业务花掉的钱。 这就产生了一个反直觉的结果。 Anthropic 越值钱，它在账面上「亏」得就越多 。2025 年恰好是它估值暴涨的一年，这笔费用也被同步放大。 真正反映经营状况的是另一组数字。收入从 3.86 亿美元增长到 45.9 亿美元，增幅 1088%；经营亏损则从 29.8 亿美元扩大到 80.6 亿美元。 收入涨了约 12 倍，经营亏损扩大不到 3 倍，规模效应确实在出现。但一年 80 亿美元的经营亏损，放在任何一家准备上市的公司身上，都是需要反复解释的数字。 650 亿美元年化收入的坑 招股书的消息传开后，美国散户论坛 wallstreetbets 上的最高赞评论只有一句话，大意是「 2 万亿估值，配 40 亿收入？ 」 这个质疑直观，但拿错了分母。 招股书的主体覆盖 2025 财年，截至去年 12 月 31 日，而 Anthropic 真正的爆发发生在 2026 年。据报道，它的年化收入在 2025 年底约为 90 亿美元，今年 5 月约 470 亿美元，到 7 月底已超过 650 亿美元。 招股书里的 45.9 亿美元，是一家公司在「起飞前」的最后一张快照 。资本市场给出的 2 万亿美元估值，押注的是 2026 年之后的曲线，而不是 2025 年的全年成绩。 不过，年化收入本身需要打折看。它通常用某一个月的收入乘以 12 推算，天然会放大短期波动。招股书自己也给出了两处值得警惕的提示。去年近四分之一的收入来自两个客户；公司还在风险因素中承认，许多最大客户并没有签订长期合同，可能削减甚至停止支出。 路透没有披露这两家客户的名字，这会是公开版 S-1 出来后最值得第一时间核对的信息。 Anthropic 的增长曲线足够陡峭，却缺乏合同层面的锁定 ，这是理解它估值的关键前提。 最大的股东，最大的房东 2025 年，Anthropic 在算力和基础设施",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-09-29T09:12:00+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/371994",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic招股书里最耐人寻味的7个细节",
+   "summary_zh": "极客公园解读Anthropic招股书：420亿亏损多为会计费用，收入一年涨12倍，估值押注2026年曲线。",
+   "highlights_zh": [
+    "420亿亏损中340亿为会计费用",
+    "收入从3.86亿增至45.9亿美元",
+    "客户集中度高、缺长期合同"
+   ],
+   "why_zh": "首家前沿大模型实验室公开账本，是理解AI商业模式与估值逻辑的关键材料。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-09-29",
+   "slot": "evening",
+   "selected_at": "2026-09-29T11:15:14+00:00",
+   "mirror_pdf": "pdf/web-47e96a07753e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/371994"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-33e6711b7576",
+   "kind": "article",
+   "title": "[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more",
+   "url": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
+   "pdf_url": "",
+   "abstract": "Congrats team!",
+   "authors": [
+    "swyx"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-09-29T02:55:27+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "AMD 82 亿美元收购 World Labs，Atlas 攻克稀疏重建难题",
+   "summary_zh": "AMD 以 82 亿美元收购李飞飞 World Labs，其 Atlas 模型解决机器人等场景的稀疏三维重建问题。",
+   "highlights_zh": [
+    "AMD 大手笔收购 World Labs 补强空间智能",
+    "Atlas 解决稀疏重建，利好机器人与设计",
+    "算力厂商向世界模型领域延伸"
+   ],
+   "why_zh": "世界模型与机器人空间智能赛道的重要资本与技术动向",
+   "tags": [
+    "机器人",
+    "视觉",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-09-29",
+   "slot": "evening",
+   "selected_at": "2026-09-29T11:15:14+00:00",
+   "mirror_pdf": "pdf/web-33e6711b7576.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0f3f2de7c329",
+   "kind": "article",
+   "title": "Manus 正式发布 2.0！个人 AI 助手、云电脑、远程控制，Manus 想做 AI 时代全家桶",
+   "url": "http://www.geekpark.net/news/371493",
+   "pdf_url": "",
+   "abstract": "头图来源：Manus 突然地，Manus 在官网和社交平台上公布了 Manus 2.0 版本的更新。 这并非一次简单的产品迭代，更像是 Manus 团队尝试将当下所有最热门的 AI 场景和功能，融合到一个「AI 全家桶中」 。 此次升级中，团队打造的底层 Cascade Agent 框架，能将任务 Token 消耗减少 23.2%，任务完成时间缩短 28.2%，运行成本降低 32%。同时，Manus 现在也提供「云电脑」的选项供用户选择。 向上，从视频编辑、游戏开发、远程控制和 AI Studio，Manus 为所有用户常用的场景，提供了相关产品。 Manus 正式推出个人助手应用 Cue｜图片来源：Manus 最重要的， 这次 Manus 还推出了一款个人 Agent——CUE 。这款全新应用支持手机和桌面端，和 Manus 共享同样的基础设施。在个人 AI 这块，Manus 正式出击。 这是 Manus 在蛰伏许久后的第一次露面，「全家桶」式的升级，代表那个用产品曾经惊艳所有人的团队，并没被时代落下。 另外，在官方公众号中，Manus 表示「正在组建团队开发面向国内市场的产品，与国产模型厂商及生态伙伴的合作也在稳步进行，后续将分享更多进展。」 全场景、全家桶 按 Manus 自己的划分，2.0 的更新分成三大类： 新的 Agent 框架和运行环境 ； 由桌面端升级的 Manus Studio ； 以及一款独立的新应用 Cue 。 运行环境上 Manus 2.0 换成了自研 Agent 框架的最新一代 Cascade，它的思路是让项目在开头尽量轻，等活儿真的需要了，再把相应的专业能力接进来；同一个项目里的简报、网页、视频和自动化流程，彼此关联。 Manus 2.0 在从底层上变得更「经济」｜图片来源：Manus 多人联机的游戏需要一台用户关机后仍然在线的服务器，自动化流程需要一个全天候运转的地方，这些都超出了一台个人电脑能扛的范围。现在用户可以直接向 Manus 购买云电脑，给这类项目一个专属的运行环境。 「云主机」这个由 Manus 兴起、时下大火的概念，也被 2.0 更新包含在内｜图片来源：Manus 此外，原来的定时任务也升级成了自动化。以前 Manus 只能在设好的时间点开工；现在，已连接服务里发生的事也能触发任务，收到一封新邮件、广告数据出现波动、日历上多了一个事件、Slack 来了一条消息，或者某个 Notion 页面有了更新，都算。 Manus 2.0 的自动化｜图片来源：Manus 用户只要用一句话交代盯着什么、接下来做什么，Manus 会自己搭好整条工作流并跑起来。这等于给 Manus 加了一种工作方式：不用人叫，自己盯着。 至于 Manus Studio。官方把它定义为人和 AI 共用的工作空间，口号是「从完成任务，到做出好作品」。 Studio 同样按需加载。Manus 的解释是，每类工作都有各自的专业工具，要是每个任务都把全部能力带上，同样的活只会又慢又贵，所以 Studio 只调用项目用得上的那部分。这也是理解这个「全家桶」的关键：桶里的东西越来越多，每个项目只取自己用得上的那几样。 Manus 2.0 升级了 Studio 应用｜图片来源：Manus 这次 Studio 的升级覆盖了日常办公和专业创作两头，办公这边是文档、表格、PDF 和幻灯片，创作这边是网站、代码、游戏和视频。门槛最高的视频和游戏，各自多了一个专业环境：视频编辑器和游戏开发。 现在，Manus 会把时间线直接交给用户。片段、图片、文字、动态图形和音",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-09-29T05:27:55+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/371493",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Manus 2.0发布：AI时代全家桶",
+   "summary_zh": "Manus发布2.0，推出Cascade Agent框架、云电脑与个人助手Cue，称Token消耗降23.2%、成本降32%。",
+   "highlights_zh": [
+    "Cascade框架降低Token与成本",
+    "新增云电脑与自动化触发",
+    "推出个人Agent应用Cue"
+   ],
+   "why_zh": "智能体产品形态与工程优化的前沿样本，值得关注Agent落地路径的从业者阅读。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-09-29",
+   "slot": "evening",
+   "selected_at": "2026-09-29T11:15:14+00:00",
+   "mirror_pdf": "pdf/web-0f3f2de7c329.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/371493"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d5cf4e5203d5",
+   "kind": "article",
+   "title": "阿里Qwen-Audio-3.1-TTS拿下权威语音榜全球冠军",
+   "url": "https://www.leiphone.com/category/industrynews/PeujvZKDt4TjyaPK.html",
+   "pdf_url": "",
+   "abstract": "9 月 28 日，在全球权威 AI 评测平台 Artificial Analysis 的语音排行榜（Controlled Voice Arena）上，阿里巴巴最近发布的语音大模型 Qwen-Audio-3.1-TTS 以 1177 的 Elo 评分位列全球第一。 图说：权威三方评测Artificial Analysis显示，Qwen-Audio-3.1-TTS位列全球第一 Qwen-Audio-3.1-TTS 是阿里新一代语音合成大模型，支持多语种及方言合成。该模型能够让同一音色在不同语言之间自然迁移，用一种声音自然讲出多种语言。相比传统语音合成主要关注字音是否正确，Qwen-Audio-3.1-TTS 更强调声音是否符合具体内容和使用场景。用户可通过指令控制情绪、语速和表达方式，让合成语音不只“说得对”，也能“说得像”。 此次登顶的是阿里在 2026 云栖大会发布的 Qwen-Audio-3.1 系列中的 TTS 模型，该系列还包括语音转写（ASR）和实时语音交互（Realtime）两类模型，三大模型的API服务均已上架千问AI平台。此外，阿里语音团队开源的多款模型如 Qwen-Audio-Agent、CosyVoice 在 GitHub 上累计获得了数万星标，深受海内外开发者关注。 目前，Qwen-Audio 全线语音模型价格均已下调，最高降幅达 95%，为开发者和企业的广泛语音应用大幅节省成本。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-09-28T10:38:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/PeujvZKDt4TjyaPK.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "阿里Qwen-Audio-3.1-TTS登顶全球语音榜",
+   "summary_zh": "阿里Qwen-Audio-3.1-TTS在Artificial Analysis语音榜以1177 Elo位列全球第一，支持多语种方言合成与同音色跨语言迁移，可用指令控制情绪语速；同系列ASR与Realtime模型API已上架千问平台，全线价格最高降95%。",
+   "highlights_zh": [
+    "同音色跨语言自然迁移，一种声音讲多种语言",
+    "支持指令控制情绪、语速与表达方式，强调「说得像」而非仅「说得对」",
+    "Qwen-Audio全线API降价最高95%，降低语音应用成本"
+   ],
+   "why_zh": "语音合成进入指令可控与跨语言阶段，价格大幅下探利好语音应用开发者。",
+   "tags": [
+    "语音",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-09-29",
+   "slot": "evening",
+   "selected_at": "2026-09-29T11:15:14+00:00",
+   "mirror_pdf": "pdf/web-d5cf4e5203d5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/PeujvZKDt4TjyaPK.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8e3c5ecd0da3",
+   "kind": "article",
+   "title": "Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
+   "url": "https://www.infoq.cn/article/he0zFgEyStxF9kOh70AP?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "凌敏"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-09-29T18:36:43+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/he0zFgEyStxF9kOh70AP?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Agent Sandbox为何正变得重要？",
+   "summary_zh": "文章探讨Agent运行中Token消耗之外的基础设施问题，分析Agent Sandbox作为隔离执行环境为何成为智能体规模化部署的关键环节。",
+   "highlights_zh": [
+    "Agent执行需要安全隔离的运行环境",
+    "Sandbox成为智能体基础设施新焦点",
+    "涉及算力形态与成本结构变化"
+   ],
+   "why_zh": "理解智能体从Demo走向生产所需的基础设施演进方向。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-09-29",
+   "slot": "evening",
+   "selected_at": "2026-09-29T11:15:14+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/he0zFgEyStxF9kOh70AP?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d6480fef6d7c",
+   "kind": "article",
+   "title": "Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
+   "url": "https://www.infoq.cn/article/PSvHjyoJTC9bSLWYxpfF?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "Tina"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-09-29T18:07:09+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/PSvHjyoJTC9bSLWYxpfF?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic新模型编程能力跃升，用户却问何时才用得上",
+   "summary_zh": "Anthropic新模型在Agent编程基准上从10%提升到70%，但文章质疑能力提升与实际使用场景之间的落差，探讨用户采用意愿问题。",
+   "highlights_zh": [
+    "Agent编程能力基准从10%飙升至70%",
+    "能力提升与用户实际需求存在错位",
+    "引发对模型能力评估方式的反思"
+   ],
+   "why_zh": "反思模型能力指标与实际落地价值之间的鸿沟。",
+   "tags": [
+    "大模型",
+    "代码",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-09-29",
+   "slot": "evening",
+   "selected_at": "2026-09-29T11:15:14+00:00",
+   "mirror_pdf": "pdf/web-d6480fef6d7c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/PSvHjyoJTC9bSLWYxpfF?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-541d07e9626f",
+   "kind": "article",
+   "title": "自主数据工程：迈向真正智能体成熟度的五个阶段 ｜ 技术趋势",
+   "url": "https://www.infoq.cn/article/AmYfVbwTlVyApFszqKx3?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "Chris Child"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-09-29T10:36:23+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/AmYfVbwTlVyApFszqKx3?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "自主数据工程：智能体成熟度的五个阶段",
+   "summary_zh": "InfoQ 文章提出自主数据工程的五阶段成熟度模型，描述智能体从辅助到完全自主处理数据工程的演进路径。",
+   "highlights_zh": [
+    "提出智能体数据工程五阶段框架",
+    "从人工辅助到全自主的演进路线",
+    "为企业评估智能体成熟度提供参考"
+   ],
+   "why_zh": "为评估和规划智能体在数据工程中的落地提供结构化框架。",
+   "tags": [
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-09-29",
+   "slot": "evening",
+   "selected_at": "2026-09-29T11:15:14+00:00",
+   "mirror_pdf": "pdf/web-541d07e9626f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/AmYfVbwTlVyApFszqKx3?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8c95b1f26b93",
+   "kind": "article",
+   "title": "Token价格一降再降，但不会让边缘AI退场：企业算力账越来越细",
+   "url": "https://www.infoq.cn/article/XF5kZxV681STVDrzsstj?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "褚杏娟"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-09-29T09:50:11+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/XF5kZxV681STVDrzsstj?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Token降价不会让边缘AI退场：算力账越算越细",
+   "summary_zh": "InfoQ 分析 Token 价格持续下降背景下边缘 AI 的存续逻辑，指出企业算力成本核算正变得越来越精细化。",
+   "highlights_zh": [
+    "Token 降价与边缘 AI 并非替代关系",
+    "企业算力账从粗放走向精细",
+    "边缘与云端算力分工正在重新定义"
+   ],
+   "why_zh": "帮助理解推理成本下降对边缘与云端算力格局的实际影响。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-09-29",
+   "slot": "evening",
+   "selected_at": "2026-09-29T11:15:14+00:00",
+   "mirror_pdf": "pdf/web-8c95b1f26b93.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/XF5kZxV681STVDrzsstj?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-01d8ffa52006",
+   "kind": "article",
+   "title": "Agent进入企业核心业务，模型之外还有多少难题？",
+   "url": "https://www.tmtpost.com/8155430.html",
+   "pdf_url": "",
+   "abstract": "企业在把任务交给 Agent的那一刻，也交出了一部分决策权。",
+   "authors": [
+    "TechPulse"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-09-29T10:01:57+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8155430.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Agent进入企业核心业务，模型之外还有多少难题？",
+   "summary_zh": "钛媒体探讨企业将核心业务决策交给Agent后，除模型能力外还面临权限、责任、流程重构等落地难题。",
+   "highlights_zh": [
+    "企业把任务交给Agent时也交出了部分决策权",
+    "模型之外的组织与流程挑战成为落地关键",
+    "聚焦Agent进入企业核心业务的现实阻力"
+   ],
+   "why_zh": "关注Agent企业落地的从业者可借此理解模型之外的实施障碍。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-09-29",
+   "slot": "evening",
+   "selected_at": "2026-09-29T11:15:14+00:00",
+   "mirror_pdf": "pdf/web-01d8ffa52006.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8155430.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-40f9e5a65379",
+   "kind": "article",
+   "title": "Meta 推出小型企业版 Muse 智能体：可分析 FB / IG 数据，兼容 Canva、Figma 和 Slack 等工具",
+   "url": "https://www.ithome.com/1/008/410.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 9 月 29 日消息，当地时间今日，Meta 宣布推出小型企业版 Muse 智能体（Muse for Small Business）。该产品支持连接企业 Meta 平台的专业账户，兼容 Canva 可画、Figma 和 Slack 等第三方工具。 IT之家了解到，Muse for Small Business 可将 AI 智能体赋能中小企业。用户可借助该智能体访问 Facebook 和 Instagram 企业账户和分析数据，以及广告账户，智能体可根据企业数据提供具体任务计划等。 与此同时，Meta 新增了对大量第三方服务的支持，涵盖 Asana、Box、Canva、Dropbox、Figma、Granola、HighLevel、Intuit QuickBooks、Klaviyo、Lovable、Notion、Shopify、Slack、Stripe 和 Zoom 等。 此外，Meta 还计划推出更多企业 AI 产品，让 Muse 取得更大成功。该公司前天刚刚成立企业业务部门，负责向大型公司销售其 AI 服务。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-09-29T10:04:35+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/008/410.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Meta 推出中小企业版 Muse 智能体",
+   "summary_zh": "Meta 发布面向中小企业的 Muse 智能体，可读取 Facebook、Instagram 企业账户与广告数据并生成任务计划，同时接入 Canva、Figma、Slack、Shopify 等十余款第三方工具，并新设企业业务部门。",
+   "highlights_zh": [
+    "可访问 FB/IG 企业账户、分析数据与广告账户，按企业数据给出具体任务计划",
+    "新增 Asana、Notion、Shopify、Stripe、Zoom 等大量第三方服务集成",
+    "Meta 前一日刚成立企业业务部门，向大公司销售 AI 服务"
+   ],
+   "why_zh": "观察 Meta 把消费级智能体能力向企业工作流变现的关键一步。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-09-29",
+   "slot": "evening",
+   "selected_at": "2026-09-29T11:15:14+00:00",
+   "mirror_pdf": "pdf/web-40f9e5a65379.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/008/410.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1ba8b21a1284",
+   "kind": "article",
+   "title": "新华三发布 UniPoD S81000 X1 超节点，单域支持 40 张国产 GPU",
+   "url": "https://www.ithome.com/1/008/396.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 9 月 29 日消息，新紫光集团旗下新华三昨日发布了机架级全互联智算产品 UniPoD S81000 X1 超节点。该产品单 Scale-Up 域最大支持 40 张国产加速卡，通过 4 个 Scale-Up 专用交换 Tray 实现一级 CLOS 全互联拓扑，任意两卡间 P2P 带宽达 448GB/s。 S81000 采用正交连接设计，计算节点与交换节点通过高速连接器直连，无须线缆与背板。产品采用纯电互联，无光模块，厂商称物理可靠性提升 10 倍。 显存与算力方面，40 卡聚合为 5760GB 可统一编址的显存池，支持 FP8 精度（IT之家注：FP8 为 8 位浮点格式，常用于 AI 训练与推理加速），总算力可达 28P FLOPS。 产品兼容 19 英寸标准机柜，支持机柜解耦交付，单柜最大可部署 2 套 40 卡超节点。散热采用液冷为主、风液兼容的协同架构。 传统 8 卡服务器依靠以太网堆叠组网，卡间互联停留在微秒级时延、百 Gb/s 带宽。万亿参数 MoE 大模型的 All-to-All 通信需求下，大量 GPU 时间耗费于数据等待。此外，智能体 7×24 小时运行，多 Agent 串联复合失败率显著。传统集群组件繁杂、故障定位缓慢，运维成本随规模线性增长。 新华三表示，随着 AI 智能体加速渗透企业工作流，智能体任务对底层计算资源形成三重压力。单次任务 Token 消耗达十万至百万级，较传统对话场景增长数十倍。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-09-29T09:28:23+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/008/396.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "新华三发布 40 卡国产 GPU 超节点",
+   "summary_zh": "新华三推出机架级全互联智算产品 UniPoD S81000 X1，单域支持 40 张国产加速卡，卡间 P2P 带宽 448GB/s，聚合 5760GB 统一编址显存、28P FLOPS 算力，采用纯电互联无光模块与液冷散热。",
+   "highlights_zh": [
+    "4 个 Scale-Up 交换 Tray 实现一级 CLOS 全互联，任意两卡 P2P 达 448GB/s",
+    "40 卡聚合 5760GB 可统一编址显存池，支持 FP8，总算力 28P FLOPS",
+    "正交连接无缆无背板、纯电互联，厂商称物理可靠性提升 10 倍"
+   ],
+   "why_zh": "国产算力在超节点互联架构上对标英伟达 NVLink 域的重要进展。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-09-29",
+   "slot": "evening",
+   "selected_at": "2026-09-29T11:15:14+00:00",
+   "mirror_pdf": "pdf/web-1ba8b21a1284.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/008/396.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d41117b8d357",
+   "kind": "article",
+   "title": "t8y2/dbx",
+   "url": "https://github.com/t8y2/dbx",
+   "pdf_url": "",
+   "abstract": "Star t8y2 / dbx 25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。\nREADME: 100+ databases in 25 MB. Desktop, Docker, CLI, built-in AI assistant, and MCP Server. English | 前往中文版本 ## ❤️ Sponsors RainYun is a cloud service provider offering cloud servers, physical servers, game hosting, and developer-friendly infrastructure services. Visit RainYun TrustAsia provides cloud-based code signing service for DBX, enabling trusted software through automated CI/CD builds. Visit TrustAsia Jalapeño Cloud is an AI infrastructure and token compute platform, with an exclusive DBX entry offering free credits and top-up bonuses. Visit Jalapeño Cloud Special thanks to AICodeMirror for sponsoring this project! AICodeMirror provides a high-stability official relay service for Claude Code / Codex / Gemini CLI, with enterprise-grade concurrency, fast invoicing, and 7×24 dedicated support. Official-channel pricing for Claude Code / Codex / Gemini is as low as 38% / 2% / 9% of list price, with extra discounts on top-ups! AICodeMirror offers a special benefit for DBX users: register through this link to enjoy 20% off your first top-up, and enterprise customers up to 25% off. Visit AICodeMirror HuaLongAI is a model API relay built for heavy AI developers, offering 100% official-source Codex and Claude models with transparent token-level billing, enterprise contracts, and invoicing. Visit HuaLongAI UCloud is the first public cloud provider listed on China's STAR Market, with 28 global regions for cloud hosting, databases, and CDN; its AstraFlow platform offers one-click access",
+   "authors": [],
+   "orgs": [
+    "t8y2"
+   ],
+   "published": "2026-09-29T11:15:14+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/t8y2/dbx",
+     "signal": "★ 今日 +460 · Rust",
+     "metric": 460
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "dbx：25MB 轻量跨平台数据库客户端",
+   "summary_zh": "dbx 是一个 25MB 的跨平台数据库客户端，支持 100+ 数据库，内置 AI 助手、MCP Server、CLI 与 Docker 部署。",
+   "highlights_zh": [
+    "25MB 体积支持 MySQL、PostgreSQL、Redis、达梦等 100+ 数据库",
+    "内置 AI 助手与 MCP Server，可接入智能体工作流",
+    "提供桌面端、Docker、CLI 多种形态"
+   ],
+   "why_zh": "如果你在给智能体接数据库工具，可用它的 MCP Server 统一访问多种库。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5916,
+   "score_llm": 5.0,
+   "score": 0.5366,
+   "date": "2026-09-29",
+   "slot": "evening",
+   "selected_at": "2026-09-29T11:15:14+00:00",
+   "mirror_pdf": "pdf/web-d41117b8d357.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/t8y2/dbx"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-866d74891372",
+   "kind": "article",
+   "title": "[AINews] Opus 5.5 is good at explainer videos",
+   "url": "https://www.latent.space/p/ainews-opus-55-is-good-at-explainer",
+   "pdf_url": "",
+   "abstract": "a rare feature of a capability",
+   "authors": [
+    "swyx"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-09-29T02:44:29+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/ainews-opus-55-is-good-at-explainer",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Opus 5.5 在解说视频生成上表现突出",
+   "summary_zh": "Latent Space 指出 Opus 5.5 在生成解说类视频方面展现出少见的能力，属差异化亮点。",
+   "highlights_zh": [
+    "Opus 5.5 视频解说能力罕见",
+    "体现多模态生成的新进展",
+    "信息量有限，偏观察性评论"
+   ],
+   "why_zh": "了解头部模型多模态能力边界的零散信号",
+   "tags": [
+    "多模态",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 5.0,
+   "score": 0.52,
+   "date": "2026-09-29",
+   "slot": "evening",
+   "selected_at": "2026-09-29T11:15:14+00:00",
+   "mirror_pdf": "pdf/web-866d74891372.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/ainews-opus-55-is-good-at-explainer"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
    "trend": "算力涨价与推理降价并行，效率成为AI商业化的核心变量",
-   "why": "GPU租金半年翻倍，但推理价格持续走低，稀缺算力正被效率提升转化为廉价智能。",
+   "why": "GPU租金半年翻倍，但推理价格持续下降，稀缺算力正被效率提升转化为廉价智能。",
    "refs": [
-    "web-5f747bb86b42"
+    "web-5f747bb86b42",
+    "web-4480a93be62d"
    ]
   },
   {
-   "trend": "大模型竞争从能力比拼转向自我迭代速度的竞赛",
-   "why": "OpenAI设RSI团队、Anthropic八成代码由Claude编写、智谱开启外层RSI循环，AI for AI成主战场。",
+   "trend": "大模型竞争从能力比拼转向自我迭代速度的军备竞赛",
+   "why": "OpenAI设RSI团队、Anthropic八成代码由Claude编写、3万Agent并行实验，AI for AI成主战场。",
    "refs": [
     "web-a8fd50b8ac1d",
     "web-70768dfb8c37"
    ]
   },
   {
-   "trend": "智能体工程化拐点到来，开发范式从写代码转向编排与治理",
-   "why": "OpenRig用YAML编队、Cloudflare推智能体生命周期取代SDLC，harness学习让测试时自适应无需改参数。",
+   "trend": "智能体工程化拐点到来，评测与治理框架开始独立成型",
+   "why": "Harness学习、失败透明基准、Cloudflare智能体生命周期等，标志Agent从demo走向可审计系统。",
    "refs": [
-    "web-b32771b7cbd0",
-    "web-5ae077929d5f",
-    "arxiv-2609.35738"
-   ]
-  },
-  {
-   "trend": "评测方法转向审计失败行为，可信度取代生成能力成新标尺",
-   "why": "FTA基准专测工具失败后谎报、Timeline-Bench最佳仅26.8%、电路评测漏掉多数错误，暴露能力评测盲区。",
-   "refs": [
+    "arxiv-2609.35738",
     "arxiv-2609.35732",
-    "arxiv-2609.35143",
-    "arxiv-2609.35686"
+    "web-5ae077929d5f"
    ]
   },
   {
-   "trend": "芯片巨头以收购世界模型切入，竞争从算力层向认知层上移",
-   "why": "AMD约550亿美元收购李飞飞World Labs，将世界模型能力纳入自身体系，对标英伟达生态。",
+   "trend": "芯片巨头以收购补齐世界模型能力，竞争维度向物理世界延伸",
+   "why": "AMD以约550亿美元收购李飞飞World Labs，将世界模型纳入自身体系，对标英伟达生态。",
    "refs": [
     "web-220371202926",
     "web-62eb2f972ae5"
+   ]
+  },
+  {
+   "trend": "AI生成内容成本趋零后，可信度与架构理解成为新稀缺资源",
+   "why": "Azeem Azhar指可信度需新付费机制，业界警示真正瓶颈是团队对系统架构与意图的理解。",
+   "refs": [
+    "web-b3668bef61c6",
+    "web-aadd1dae2e0b"
    ]
   }
  ]
