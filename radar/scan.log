@@ -1,13 +1,11 @@
-2026-09-29 11:15:14,548 INFO source hf_daily           -> 23 items
-2026-09-29 11:15:15,977 INFO source hackernews         -> 9 items
-2026-09-29 11:15:40,988 INFO source rss                -> 92 items
-2026-09-29 11:15:42,403 INFO source html_lists         -> 0 items
-2026-09-29 11:15:42,403 INFO source x                  -> 0 items
-2026-09-29 11:15:42,856 INFO source arxiv_search       -> 60 items
-2026-09-29 11:15:51,569 INFO source github             -> 20 items
-2026-09-29 11:15:51,571 INFO candidates: 202 (stale dropped 20, new 134)
-2026-09-29 11:17:12,486 INFO llm judged 100/100 (calls=13)
-2026-09-29 11:17:20,871 WARNING pdf arxiv-2609.35504: too large (> 25165824 bytes): https://arxiv.org/pdf/2609.35504
-2026-09-29 11:17:22,974 WARNING snapshot https://stratechery.com/2026/one-more-note-on-agents-meta-connect-meta-enterprise-platform/: blocked or empty page
-2026-09-29 11:17:23,222 WARNING pdf arxiv-2609.35560: too large (> 25165824 bytes): https://arxiv.org/pdf/2609.35560
-2026-09-29 11:19:56,379 INFO run done: {"at": "2026-09-29T11:15:14+00:00", "slot": "evening", "candidates": 202, "new": 134, "stale": 20, "judged": 100, "selected": 21, "mirrored": 17, "by_category": {"技术": 4, "项目": 3, "观点": 3, "资讯": 11}, "by_source": {"HF Daily Papers": 23, "arXiv 新论文": 60, "Hacker News": 9, "量子位": 10, "极客公园": 9, "IT之家": 12, "爱范儿": 7, "少数派": 3, "雷峰网": 11, "钛媒体": 8, "InfoQ 中文": 10, "Simon Willison": 1, "Latent Space": 3, "Jack Clark": 1, "Stratechery": 2, "SemiAnalysis": 1, "Arvind Narayanan": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "科学空间": 1, "Sebastian Raschka": 1, "Hugging Face Blog": 1, "OpenAI": 5, "Microsoft": 1, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
+2026-09-29 16:51:27,976 INFO source hf_daily           -> 31 items
+2026-09-29 16:51:28,243 INFO source hackernews         -> 9 items
+2026-09-29 16:52:01,040 INFO source rss                -> 95 items
+2026-09-29 16:52:02,214 INFO source html_lists         -> 0 items
+2026-09-29 16:52:02,214 INFO source x                  -> 0 items
+2026-09-29 16:53:11,878 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
+2026-09-29 16:53:20,763 INFO source github             -> 20 items
+2026-09-29 16:53:20,764 INFO candidates: 155 (stale dropped 65, new 54)
+2026-09-29 16:54:01,714 INFO llm judged 50/54 (calls=7)
+2026-09-29 16:54:34,572 WARNING snapshot https://thezvi.wordpress.com/2026/09/29/astra-6-1-pulled-as-insufficiently-aligned/: blocked or empty page
+2026-09-29 16:56:57,177 INFO run done: {"at": "2026-09-29T16:51:27+00:00", "slot": "morning", "candidates": 155, "new": 54, "stale": 65, "judged": 50, "selected": 21, "mirrored": 20, "by_category": {"观点": 3, "论文": 1, "资讯": 11, "技术": 4, "项目": 2}, "by_source": {"HF Daily Papers": 31, "Hacker News": 9, "量子位": 7, "极客公园": 10, "IT之家": 13, "爱范儿": 8, "少数派": 3, "雷峰网": 11, "钛媒体": 6, "InfoQ 中文": 10, "Simon Willison": 1, "Latent Space": 3, "Jack Clark": 1, "Stratechery": 2, "SemiAnalysis": 1, "Arvind Narayanan": 1, "Azeem Azhar": 2, "Tomasz Tunguz": 2, "Zvi Mowshowitz": 3, "科学空间": 1, "Sebastian Raschka": 1, "Hugging Face Blog": 3, "OpenAI": 5, "Microsoft": 1, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
