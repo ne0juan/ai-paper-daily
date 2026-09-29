@@ -1,15 +1,13 @@
-2026-09-29 04:35:03,426 INFO source hf_daily           -> 9 items
-2026-09-29 04:35:03,742 INFO source hackernews         -> 9 items
-2026-09-29 04:35:29,316 INFO source rss                -> 76 items
-2026-09-29 04:35:31,553 INFO source html_lists         -> 1 items
-2026-09-29 04:35:31,553 INFO source x                  -> 0 items
-2026-09-29 04:36:15,046 INFO source arxiv_search       -> 60 items
-2026-09-29 04:36:23,682 INFO source github             -> 20 items
-2026-09-29 04:37:21,446 WARNING arxiv enrich failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=30)
-2026-09-29 04:37:21,448 INFO candidates: 175 (stale dropped 17, new 121)
-2026-09-29 04:38:46,667 INFO llm judged 100/100 (calls=13)
-2026-09-29 04:40:20,487 WARNING snapshot http://www.geekpark.net/news/371126: Page.goto: Timeout 45000ms exceeded.
-Call log:
-  - navigating to "http://www.geekpark.net/news/371126", waiting until "domcontentloaded"
-
-2026-09-29 04:42:10,002 INFO run done: {"at": "2026-09-29T04:35:03+00:00", "slot": "noon", "candidates": 175, "new": 121, "stale": 17, "judged": 100, "selected": 21, "mirrored": 20, "by_category": {"资讯": 11, "观点": 3, "项目": 3, "技术": 4}, "by_source": {"HF Daily Papers": 9, "Hacker News": 9, "量子位": 7, "极客公园": 8, "IT之家": 10, "爱范儿": 5, "少数派": 3, "雷峰网": 12, "钛媒体": 3, "InfoQ 中文": 9, "Simon Willison": 1, "Latent Space": 3, "Jack Clark": 1, "Stratechery": 1, "SemiAnalysis": 1, "Arvind Narayanan": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "科学空间": 1, "Hugging Face Blog": 1, "METR": 1, "OpenAI": 4, "xAI": 1, "arXiv 新论文": 60, "GitHub Trending": 7, "GitHub 新项目": 13}, "llm": true, "translated": 0}
+2026-09-29 11:15:14,548 INFO source hf_daily           -> 23 items
+2026-09-29 11:15:15,977 INFO source hackernews         -> 9 items
+2026-09-29 11:15:40,988 INFO source rss                -> 92 items
+2026-09-29 11:15:42,403 INFO source html_lists         -> 0 items
+2026-09-29 11:15:42,403 INFO source x                  -> 0 items
+2026-09-29 11:15:42,856 INFO source arxiv_search       -> 60 items
+2026-09-29 11:15:51,569 INFO source github             -> 20 items
+2026-09-29 11:15:51,571 INFO candidates: 202 (stale dropped 20, new 134)
+2026-09-29 11:17:12,486 INFO llm judged 100/100 (calls=13)
+2026-09-29 11:17:20,871 WARNING pdf arxiv-2609.35504: too large (> 25165824 bytes): https://arxiv.org/pdf/2609.35504
+2026-09-29 11:17:22,974 WARNING snapshot https://stratechery.com/2026/one-more-note-on-agents-meta-connect-meta-enterprise-platform/: blocked or empty page
+2026-09-29 11:17:23,222 WARNING pdf arxiv-2609.35560: too large (> 25165824 bytes): https://arxiv.org/pdf/2609.35560
+2026-09-29 11:19:56,379 INFO run done: {"at": "2026-09-29T11:15:14+00:00", "slot": "evening", "candidates": 202, "new": 134, "stale": 20, "judged": 100, "selected": 21, "mirrored": 17, "by_category": {"技术": 4, "项目": 3, "观点": 3, "资讯": 11}, "by_source": {"HF Daily Papers": 23, "arXiv 新论文": 60, "Hacker News": 9, "量子位": 10, "极客公园": 9, "IT之家": 12, "爱范儿": 7, "少数派": 3, "雷峰网": 11, "钛媒体": 8, "InfoQ 中文": 10, "Simon Willison": 1, "Latent Space": 3, "Jack Clark": 1, "Stratechery": 2, "SemiAnalysis": 1, "Arvind Narayanan": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "科学空间": 1, "Sebastian Raschka": 1, "Hugging Face Blog": 1, "OpenAI": 5, "Microsoft": 1, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
