@@ -1,12 +1,15 @@
-2026-09-28 18:33:39,633 INFO source hf_daily           -> 4 items
-2026-09-28 18:33:39,902 INFO source hackernews         -> 8 items
-2026-09-28 18:34:10,023 INFO source rss                -> 71 items
-2026-09-28 18:34:12,118 INFO source html_lists         -> 2 items
-2026-09-28 18:34:12,118 INFO source x                  -> 0 items
-2026-09-28 18:34:12,616 INFO source arxiv_search       -> 0 items
-2026-09-28 18:34:20,548 INFO source github             -> 20 items
-2026-09-28 18:34:20,712 INFO candidates: 104 (stale dropped 12, new 62)
-2026-09-28 18:35:07,033 INFO llm judged 62/62 (calls=8)
-2026-09-28 18:35:19,348 WARNING snapshot https://jack-clark.net/2026/09/28/import-ai-474-platonic-mindspace-tpus-in-space-zhipu-starts-an-outer-rsi-loop/: blocked or empty page
-2026-09-28 18:35:36,505 WARNING snapshot https://thezvi.wordpress.com/2026/09/28/what-also-happened-notonlyhuggingface/: blocked or empty page
-2026-09-28 18:37:42,777 INFO run done: {"at": "2026-09-28T18:33:39+00:00", "slot": "morning", "candidates": 104, "new": 62, "stale": 12, "judged": 62, "selected": 19, "mirrored": 17, "by_category": {"观点": 3, "项目": 3, "资讯": 11, "技术": 2}, "by_source": {"HF Daily Papers": 4, "Hacker News": 8, "量子位": 6, "极客公园": 12, "IT之家": 13, "爱范儿": 3, "少数派": 2, "雷峰网": 12, "钛媒体": 5, "InfoQ 中文": 5, "Simon Willison": 1, "Jack Clark": 1, "Stratechery": 1, "Arvind Narayanan": 1, "Azeem Azhar": 2, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "科学空间": 1, "Hugging Face Blog": 1, "METR": 1, "OpenAI": 1, "Mistral": 1, "GitHub Trending": 7, "GitHub 新项目": 13}, "llm": true, "translated": 0}
+2026-09-29 04:35:03,426 INFO source hf_daily           -> 9 items
+2026-09-29 04:35:03,742 INFO source hackernews         -> 9 items
+2026-09-29 04:35:29,316 INFO source rss                -> 76 items
+2026-09-29 04:35:31,553 INFO source html_lists         -> 1 items
+2026-09-29 04:35:31,553 INFO source x                  -> 0 items
+2026-09-29 04:36:15,046 INFO source arxiv_search       -> 60 items
+2026-09-29 04:36:23,682 INFO source github             -> 20 items
+2026-09-29 04:37:21,446 WARNING arxiv enrich failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=30)
+2026-09-29 04:37:21,448 INFO candidates: 175 (stale dropped 17, new 121)
+2026-09-29 04:38:46,667 INFO llm judged 100/100 (calls=13)
+2026-09-29 04:40:20,487 WARNING snapshot http://www.geekpark.net/news/371126: Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "http://www.geekpark.net/news/371126", waiting until "domcontentloaded"
+
+2026-09-29 04:42:10,002 INFO run done: {"at": "2026-09-29T04:35:03+00:00", "slot": "noon", "candidates": 175, "new": 121, "stale": 17, "judged": 100, "selected": 21, "mirrored": 20, "by_category": {"资讯": 11, "观点": 3, "项目": 3, "技术": 4}, "by_source": {"HF Daily Papers": 9, "Hacker News": 9, "量子位": 7, "极客公园": 8, "IT之家": 10, "爱范儿": 5, "少数派": 3, "雷峰网": 12, "钛媒体": 3, "InfoQ 中文": 9, "Simon Willison": 1, "Latent Space": 3, "Jack Clark": 1, "Stratechery": 1, "SemiAnalysis": 1, "Arvind Narayanan": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "科学空间": 1, "Hugging Face Blog": 1, "METR": 1, "OpenAI": 4, "xAI": 1, "arXiv 新论文": 60, "GitHub Trending": 7, "GitHub 新项目": 13}, "llm": true, "translated": 0}

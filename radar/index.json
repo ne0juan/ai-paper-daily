@@ -1,11 +1,12 @@
 {
- "updated": "2026-09-28T18:33:39+00:00",
+ "updated": "2026-09-29T04:35:03+00:00",
  "days": [
   {
    "date": "2026-09-29",
-   "count": 19,
+   "count": 40,
    "slots": {
-    "morning": 19
+    "morning": 19,
+    "noon": 21
    }
   },
   {
@@ -57,45 +58,48 @@
    }
   }
  ],
- "total": 316,
+ "total": 337,
  "last_run": {
-  "at": "2026-09-28T18:33:39+00:00",
-  "slot": "morning",
-  "candidates": 104,
-  "new": 62,
-  "stale": 12,
-  "judged": 62,
-  "selected": 19,
-  "mirrored": 17,
+  "at": "2026-09-29T04:35:03+00:00",
+  "slot": "noon",
+  "candidates": 175,
+  "new": 121,
+  "stale": 17,
+  "judged": 100,
+  "selected": 21,
+  "mirrored": 20,
   "by_category": {
+   "资讯": 11,
    "观点": 3,
    "项目": 3,
-   "资讯": 11,
-   "技术": 2
+   "技术": 4
   },
   "by_source": {
-   "HF Daily Papers": 4,
-   "Hacker News": 8,
-   "量子位": 6,
-   "极客公园": 12,
-   "IT之家": 13,
-   "爱范儿": 3,
-   "少数派": 2,
+   "HF Daily Papers": 9,
+   "Hacker News": 9,
+   "量子位": 7,
+   "极客公园": 8,
+   "IT之家": 10,
+   "爱范儿": 5,
+   "少数派": 3,
    "雷峰网": 12,
-   "钛媒体": 5,
-   "InfoQ 中文": 5,
+   "钛媒体": 3,
+   "InfoQ 中文": 9,
    "Simon Willison": 1,
+   "Latent Space": 3,
    "Jack Clark": 1,
    "Stratechery": 1,
+   "SemiAnalysis": 1,
    "Arvind Narayanan": 1,
-   "Azeem Azhar": 2,
+   "Azeem Azhar": 1,
    "Tomasz Tunguz": 1,
    "Zvi Mowshowitz": 2,
    "科学空间": 1,
    "Hugging Face Blog": 1,
    "METR": 1,
-   "OpenAI": 1,
-   "Mistral": 1,
+   "OpenAI": 4,
+   "xAI": 1,
+   "arXiv 新论文": 60,
    "GitHub Trending": 7,
    "GitHub 新项目": 13
   },
