@@ -1,11 +1,13 @@
-2026-09-29 16:51:27,976 INFO source hf_daily           -> 31 items
-2026-09-29 16:51:28,243 INFO source hackernews         -> 9 items
-2026-09-29 16:52:01,040 INFO source rss                -> 95 items
-2026-09-29 16:52:02,214 INFO source html_lists         -> 0 items
-2026-09-29 16:52:02,214 INFO source x                  -> 0 items
-2026-09-29 16:53:11,878 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
-2026-09-29 16:53:20,763 INFO source github             -> 20 items
-2026-09-29 16:53:20,764 INFO candidates: 155 (stale dropped 65, new 54)
-2026-09-29 16:54:01,714 INFO llm judged 50/54 (calls=7)
-2026-09-29 16:54:34,572 WARNING snapshot https://thezvi.wordpress.com/2026/09/29/astra-6-1-pulled-as-insufficiently-aligned/: blocked or empty page
-2026-09-29 16:56:57,177 INFO run done: {"at": "2026-09-29T16:51:27+00:00", "slot": "morning", "candidates": 155, "new": 54, "stale": 65, "judged": 50, "selected": 21, "mirrored": 20, "by_category": {"观点": 3, "论文": 1, "资讯": 11, "技术": 4, "项目": 2}, "by_source": {"HF Daily Papers": 31, "Hacker News": 9, "量子位": 7, "极客公园": 10, "IT之家": 13, "爱范儿": 8, "少数派": 3, "雷峰网": 11, "钛媒体": 6, "InfoQ 中文": 10, "Simon Willison": 1, "Latent Space": 3, "Jack Clark": 1, "Stratechery": 2, "SemiAnalysis": 1, "Arvind Narayanan": 1, "Azeem Azhar": 2, "Tomasz Tunguz": 2, "Zvi Mowshowitz": 3, "科学空间": 1, "Sebastian Raschka": 1, "Hugging Face Blog": 3, "OpenAI": 5, "Microsoft": 1, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
+2026-09-30 04:18:11,273 INFO source hf_daily           -> 31 items
+2026-09-30 04:18:11,544 INFO source hackernews         -> 9 items
+2026-09-30 04:18:46,780 WARNING rss Paul Graham failed: HTTPConnectionPool(host='www.aaronsw.com', port=80): Max retries exceeded with url: /2002/feeds/pgessays.rss (Caused by NameResolutionError("HTTPConnection(host='www.aaronsw.com', port=80): Failed to resolve 'www.aaronsw.com' ([Errno -2] Name or service not known)"))
+2026-09-30 04:18:52,101 INFO source rss                -> 97 items
+2026-09-30 04:18:53,635 INFO source html_lists         -> 0 items
+2026-09-30 04:18:53,635 INFO source x                  -> 0 items
+2026-09-30 04:18:54,226 INFO source arxiv_search       -> 60 items
+2026-09-30 04:19:03,340 INFO source github             -> 20 items
+2026-09-30 04:19:03,343 INFO candidates: 215 (stale dropped 46, new 124)
+2026-09-30 04:20:29,799 INFO llm judged 100/100 (calls=13)
+2026-09-30 04:20:40,387 WARNING snapshot https://openai.com/index/introducing-dots/: blocked or empty page
+2026-09-30 04:20:47,479 WARNING snapshot https://openai.com/index/devday-2026-recap: blocked or empty page
+2026-09-30 04:23:18,252 INFO run done: {"at": "2026-09-30T04:18:10+00:00", "slot": "noon", "candidates": 215, "new": 124, "stale": 46, "judged": 100, "selected": 21, "mirrored": 18, "by_category": {"资讯": 13, "技术": 4, "项目": 2, "论文": 1, "观点": 1}, "by_source": {"HF Daily Papers": 31, "Hacker News": 9, "OpenAI": 6, "量子位": 9, "极客公园": 11, "IT之家": 12, "爱范儿": 9, "少数派": 4, "雷峰网": 11, "钛媒体": 5, "InfoQ 中文": 9, "Simon Willison": 1, "Latent Space": 3, "Jack Clark": 1, "Stratechery": 2, "SemiAnalysis": 1, "Arvind Narayanan": 1, "Azeem Azhar": 2, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "科学空间": 1, "Sebastian Raschka": 1, "Hugging Face Blog": 3, "Google Research": 1, "Microsoft": 1, "arXiv 新论文": 60, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
