@@ -1135,45 +1135,1346 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-dd66acaed2a0",
+   "kind": "article",
+   "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+   "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+   "pdf_url": "",
+   "abstract": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-09-29T17:06:45Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49896586",
+     "signal": "836 pts",
+     "metric": 836
+    },
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 发布 GPT-6.1 Sol：以五分之一价格逼近 Astra 智能",
+   "summary_zh": "OpenAI 推出 GPT-6.1 Sol，面向编程、电脑操作与专业工作，智能水平接近 Astra，但 API 输入输出价格仅为 Astra 标准价的五分之一。",
+   "highlights_zh": [
+    "定位为「近 Astra 智能」，主打编程与 computer use 场景",
+    "API 价格降至 Astra 标准价的 1/5，性价比大幅提升",
+    "OpenAI 官方发布，HN 836 分高热讨论"
+   ],
+   "why_zh": "头部厂商以极低价格释放接近旗舰的智能，直接影响模型选型与成本结构。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.9,
+   "score_llm": 9.0,
+   "score": 0.9,
+   "date": "2026-09-30",
+   "slot": "noon",
+   "selected_at": "2026-09-30T04:18:10+00:00",
+   "mirror_pdf": "pdf/web-dd66acaed2a0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/introducing-gpt-6-1-sol/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49896586"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-884977ecb800",
+   "kind": "article",
+   "title": "Dots: Always-on agents",
+   "url": "https://openai.com/index/introducing-dots/",
+   "pdf_url": "",
+   "abstract": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-09-29T17:07:57Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49896604",
+     "signal": "488 pts",
+     "metric": 488
+    },
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/introducing-dots",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 推出 Dots：常驻式主动智能体",
+   "summary_zh": "OpenAI 发布 Dots，一类可跨复杂项目与日常任务持续工作的主动式助手，强调用户始终掌控进度。",
+   "highlights_zh": [
+    "从被动响应转向常驻、主动推进任务的智能体形态",
+    "面向跨项目长周期任务，而非单轮对话",
+    "OpenAI 官方发布，HN 488 分"
+   ],
+   "why_zh": "代表智能体从工具向「常驻同事」演进的产品方向，值得关注交互范式变化。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.8903,
+   "score_llm": 8.0,
+   "score": 0.8361,
+   "date": "2026-09-30",
+   "slot": "noon",
+   "selected_at": "2026-09-30T04:18:10+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/introducing-dots/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49896604"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.34981",
+   "kind": "paper",
+   "title": "What Makes World Action Models Generalize? An Empirical Study of Test-Time Future Modeling",
+   "url": "https://arxiv.org/abs/2609.34981",
+   "pdf_url": "https://arxiv.org/pdf/2609.34981",
+   "abstract": "World action models (WAMs) predict the future alongside actions during training. Due to the heavy computation cost of video denoising, whether the future must still be generated during inference is disputed: Explicit WAMs denoise it into clean frames along with every action chunk, whereas Latent WAMs discard it entirely for acceleration. We find that latent WAMs, despite matching explicit ones on in-distribution tasks, fail to retain the generalization benefits that originally motivated WAMs. To demonstrate this, we evaluate generalization along three axes: environmental perturbation, data efficiency, and task generalization. Controlled comparisons with a matched backbone, training data, and budget reveal consistent degradation across all three axes when the action expert no longer conditions on future representations. Further analysis shows that the gap arises almost entirely from the first denoising step: the benefit comes from preparing the future, not generating it. We therefore propose Simple-WAM, which simplifies future modeling into a single forward pass of fully noised video tokens and adapts the training-time noise schedule to this inference behavior. Across simulation and real-world tasks, Simple-WAM achieves the best of both worlds, leading explicit WAMs in generalization performance with efficiency comparable to Latent WAMs. Project Page: https://zrporz.github.io/Simple-WAM-Web/",
+   "authors": [
+    "Renping Zhou",
+    "Zanlin Ni",
+    "Zihao Fan",
+    "Guohao Fu",
+    "Zeyu Liu",
+    "Hao Shi",
+    "Jie Zhang",
+    "Chi Bene Chen",
+    "Yang Yue",
+    "Xueyang Fu",
+    "Gao Huang"
+   ],
+   "orgs": [
+    "Tsinghua-LeapLab"
+   ],
+   "published": "2026-09-29T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2609.34981",
+     "signal": "▲ 38",
+     "metric": 38
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "世界动作模型为何能泛化：测试时未来建模实证研究",
+   "summary_zh": "清华 LeapLab 发现：推理时丢弃未来预测的 Latent WAM 虽在同分布任务上不输，却丧失泛化优势；关键在第一步去噪「准备未来」而非「生成未来」，据此提出 Simple-WAM，兼顾泛化与效率。",
+   "highlights_zh": [
+    "系统对比 Explicit 与 Latent WAM 在环境扰动、数据效率、任务泛化三轴的差异",
+    "泛化收益几乎全部来自首个去噪步，即「准备未来」而非生成清晰帧",
+    "Simple-WAM 用单次前向传播建模未来，泛化超越 Explicit、效率比肩 Latent"
+   ],
+   "why_zh": "厘清了世界模型推理时是否需生成未来的争议，为高效泛化设计提供依据。",
+   "tags": [
+    "机器人",
+    "强化学习",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.6791,
+   "score_llm": 8.0,
+   "score": 0.7516,
+   "date": "2026-09-30",
+   "slot": "noon",
+   "selected_at": "2026-09-30T04:18:10+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.34981.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.34981"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.34981"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.34981"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.34981"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.34981"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.34981"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/LeapLabTHU/Simple-WAM"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.38155",
+   "kind": "paper",
+   "title": "Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies",
+   "url": "https://arxiv.org/abs/2609.38155",
+   "pdf_url": "https://arxiv.org/pdf/2609.38155",
+   "abstract": "Answering questions about long videos often requires connecting events involving the same objects across hours or days. Chronological descriptions and text-derived entities can leave physical identity unresolved: different objects may share a description, while observations of the same object remain disconnected across events. Retrieving relevant events therefore does not necessarily recover the \"biography\" of the particular entity a question concerns. To address this, we introduce Grounded Entity Biographies (GEB), a long-video memory framework that groups visually grounded observations of the same physical instance across clips into retrievable biographies while preserving the context of each moment. During question answering, the biography is retrieved alongside episodic evidence, allowing the model to follow an entity through events using identity links established during memory construction. Evaluations across four benchmarks, including day-long and week-long recordings, demonstrate improvements over prior memory frameworks in both multiple-choice and open-ended question answering. On EgoLifeQA, GEB achieves 72.0% accuracy, 4.4 percentage points above the best published result. Ablations show that grounded identity association and biography reading both contribute to the gains, which additional descriptions alone do not fully recover.",
+   "authors": [
+    "Hui Ren",
+    "Lei Fan",
+    "Henry Pao",
+    "Han Guo",
+    "Zeeshan Zia",
+    "Ying Chen",
+    "Alexander Schwing",
+    "Gang Hua"
+   ],
+   "orgs": [
+    "Amazon"
+   ],
+   "published": "2026-09-29T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2609.38155",
+     "signal": "▲ 33",
+     "metric": 33
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "超越时间线：用接地实体传记增强长视频记忆",
+   "summary_zh": "Amazon 提出 Grounded Entity Biographies（GEB），将跨片段的同一物理实例的视觉接地观测聚合为可检索「传记」，问答时与情节证据一同检索，在四个基准（含日/周级录像）上超越既有记忆框架，EgoLifeQA 达 72.0%，领先最佳公开结果 4.4 个百分点。",
+   "highlights_zh": [
+    "解决不同物体共享描述、同一物体跨事件断连的身份未决问题",
+    "记忆构建阶段建立身份链接，问答时沿实体追踪事件",
+    "消融显示接地身份关联与传记读取均有贡献，仅加描述无法复现"
+   ],
+   "why_zh": "为长视频问答中的实体级记忆提供了新范式，对多模态记忆系统有直接借鉴。",
+   "tags": [
+    "多模态",
+    "视觉",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.5909,
+   "score_llm": 8.0,
+   "score": 0.7164,
+   "date": "2026-09-30",
+   "slot": "noon",
+   "selected_at": "2026-09-30T04:18:10+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.38155.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.38155"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.38155"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.38155"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.38155"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.38155"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.38155"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/rhfeiyang/GEB"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.37441",
+   "kind": "paper",
+   "title": "Anisotropic Representations Improve Planning in JEPA World Models",
+   "url": "https://arxiv.org/abs/2609.37441",
+   "pdf_url": "https://arxiv.org/pdf/2609.37441",
+   "abstract": "Latent world models learn action-conditioned dynamics in representation space and often score candidate actions by Euclidean distance to a goal representation. Joint training typically regularizes the representation to prevent collapse, but the resulting representation geometry also determines how terminal errors are weighted during planning. We show that accurate prediction and noncollapsed representations do not guarantee a task-aligned latent planning cost: isotropic Gaussian regularization can induce a geometry that ranks feasible outcomes differently from the task cost. To address this mismatch, we introduce AnisoWM with ΛReg, which replaces the fixed isotropic Gaussian target with a learnable diagonal covariance under fixed-trace and anisotropy constraints. The prediction objective, predictor architecture, and Euclidean planner remain unchanged; the target is used only during training. Our analysis characterizes the prediction-driven allocation of target variance, its dependence on the training distribution, and the conditions under which the induced metric reduces planning regret. Across four visual control environments, AnisoWM improves planning success over LeWorldModel in all four. Its latent planning cost also shows better agreement with task outcomes. Project website: https://rkdrn79.github.io/AnisoWM-page/",
+   "authors": [
+    "Mingu Kang",
+    "Yoori Oh",
+    "Sookyung Kim",
+    "Joonseok Lee"
+   ],
+   "orgs": [
+    "Seoul National University"
+   ],
+   "published": "2026-09-29T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2609.37441",
+     "signal": "▲ 16",
+     "metric": 16
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "各向异性表征改进 JEPA 世界模型的规划",
+   "summary_zh": "针对 JEPA 世界模型中各向同性正则导致规划代价与任务目标错位的问题，提出可学习对角协方差的 ΛReg，在四个视觉控制环境中规划成功率均优于 LeWorldModel。",
+   "highlights_zh": [
+    "指出预测准确与非坍缩表征不保证规划代价对齐任务",
+    "用可学习对角协方差替代固定各向同性高斯目标",
+    "预测目标、架构与欧氏规划器均不变，仅改训练目标"
+   ],
+   "why_zh": "世界模型规划代价设计的重要改进，值得关注 JEPA 方向者阅读。",
+   "tags": [
+    "强化学习",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.5494,
+   "score_llm": 8.0,
+   "score": 0.6998,
+   "date": "2026-09-30",
+   "slot": "noon",
+   "selected_at": "2026-09-30T04:18:10+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.37441.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.37441"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.37441"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.37441"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.37441"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.37441"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.37441"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-19db7cc5ca5c",
+   "kind": "article",
+   "title": "DevDay 2026 Recap",
+   "url": "https://openai.com/index/devday-2026-recap",
+   "pdf_url": "",
+   "abstract": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-09-29T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/devday-2026-recap",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI DevDay 2026 回顾",
+   "summary_zh": "OpenAI DevDay 2026 发布超 20 项更新，涵盖 GPT-6 Astra、ChatGPT、Codex、API 与安全工具。",
+   "highlights_zh": [
+    "GPT-6 Astra 等新模型发布",
+    "Codex 与 API 面向开发者的更新",
+    "安全与构建工具同步升级"
+   ],
+   "why_zh": "头部厂商年度发布，把握模型与开发者生态方向。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 8.0,
+   "score": 0.696,
+   "date": "2026-09-30",
+   "slot": "noon",
+   "selected_at": "2026-09-30T04:18:10+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/devday-2026-recap"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-914f26d3de19",
+   "kind": "article",
+   "title": "DeepSeek 开源面向华为昇腾算力平台的基础设施组件，与英伟达平台一一对应",
+   "url": "https://www.ithome.com/1/008/604.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 9 月 30 日消息，DeepSeek 今天（30 日）上午通过官方公众号宣布，正式开源面向华为昇腾算力平台的基础设施组件，涵盖 TileLang 高级语言编译工具、计算库、分布式通信库 。所有组件与此前面向英伟达平台的开源组件一一对应。 根据介绍，相对于英伟达的 CUDA 语言，TileLang 的编程更简单，能显著提高开发效率、简化代码逻辑。相对于其它同类高级语言，TileLang 的编程模型可以充分发挥芯片的特性，达到硬件的性能上限。TileLang 路线首先在英伟达成熟平台上得到了验证， 目前已承载 DeepSeek V4 系列模型训练中大部分算子的实现 ，是探索 AGI 新范式、开发高性能算子的核心工具。 本次开源的 TileLang 昇腾版本，对昇腾 Ascend C 底层指令进行封装、提供高级语言的编程方式、同时 不损失硬件性能 。目前，DeepSeek 训练中用到的每一个 TileLang 算子，在昇腾上都有对应的高性能实现。 本次开源还包括昇腾平台核心计算与通信组件，为不同使用场景提供可复用的基础能力： DeepGEMM 加速通用矩阵运算； DeepEP 提供高效的大规模跨设备通信； TileKernels 提供数据处理所需的常规向量计算和访存算子； FlashMLA 提供稀疏注意力算子，提升长上下文处理效率； DeepSelect 则实现了高效的数据筛选。 在多项关键测试用例中，上述组件的计算与通信性能已接近硬件上限。 IT之家汇总开源项目链接： TileLang: https://github.com/tile-ai/tilelang DeepGEMM Ascend: https://github.com/deepseek-ai/DeepGEMM-Ascend DeepEP Ascend: https://github.com/deepseek-ai/DeepEP-Ascend TileKernels: https://github.com/deepseek-ai/TileKernels FlashMLA: https://github.com/deepseek-ai/FlashMLA DeepSelect: https://github.com/deepseek-ai/DeepSelect",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-09-30T02:25:20+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/008/604.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek 开源昇腾版基础设施组件，与英伟达平台一一对应",
+   "summary_zh": "DeepSeek 开源面向华为昇腾的 TileLang 编译器、DeepGEMM、DeepEP 等全套组件，与英伟达平台一一对应，多项性能接近硬件上限。",
+   "highlights_zh": [
+    "TileLang 昇腾版封装 Ascend C 底层指令，兼顾高级语言易用性与硬件性能上限",
+    "开源组件覆盖矩阵运算、跨设备通信、稀疏注意力、数据筛选等核心环节",
+    "DeepSeek V4 训练中大部分算子已由 TileLang 实现，昇腾上均有对应高性能版本"
+   ],
+   "why_zh": "国产算力生态的关键一步，关注大模型训练基础设施的从业者必读。",
+   "tags": [
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 9.0,
+   "score": 0.676,
+   "date": "2026-09-30",
+   "slot": "noon",
+   "selected_at": "2026-09-30T04:18:10+00:00",
+   "mirror_pdf": "pdf/web-914f26d3de19.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/008/604.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.36601",
+   "kind": "paper",
+   "title": "SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation",
+   "url": "https://arxiv.org/abs/2609.36601",
+   "pdf_url": "https://arxiv.org/pdf/2609.36601",
+   "abstract": "On-policy distillation (OPD) reduces train-test state mismatch by training a student on its own generated trajectories, but weak students may visit teacher-misaligned prefixes where supervision is less representative. We introduce SAKI (Supervision Allocation with KL-constrained Interpolation), which combines a KL-constrained teacher-guided rollout with maximal coupling and reuses realized accept/correction events to route token-level supervision. Accepted positions retain sampled-token reverse-KL supervision, while correction positions receive direct supervision on the teacher's highest-probability token. Under maximal coupling, the correction probability is exactly TV(p_t, q_t), so the same trust-region radius controls rollout deviation and upper-bounds intervention and specialized-supervision frequency. We further implement an engine-resident speculative verifier that preserves the exact-q trajectory distribution and coupling semantics while improving matched-workload rollout throughput by 4.22x. Across seven mathematical reasoning benchmarks, SAKI improves the matched teacher-guided baseline in Mean@8 and Pass@8 for both 1.7B and 0.6B students. Placement controls and fixed-prefix analysis further support correction-triggered routing as a conflict-adaptive supervision signal.",
+   "authors": [
+    "Miteto Wei",
+    "Xiaohan Wang",
+    "Zehao Chen",
+    "Jiajun Chai",
+    "Sichao Liu",
+    "Li Wang",
+    "Haoyuan Xu",
+    "Zhaoyu Hu",
+    "Wei Lin",
+    "Guojun Yin"
+   ],
+   "orgs": [
+    "meituan"
+   ],
+   "published": "2026-09-29T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2609.36601",
+     "signal": "▲ 19",
+     "metric": 19
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "SAKI：最大耦合路由的在线策略蒸馏教师监督",
+   "summary_zh": "美团提出 SAKI，用 KL 约束的教师引导 rollout 与最大耦合，将 token 级监督按接受/纠正事件路由：接受位保留反向 KL，纠正位直接监督教师最高概率 token，并实现 4.22 倍 rollout 吞吐，在七个数学推理基准上提升 1.7B 与 0.6B 学生模型表现。",
+   "highlights_zh": [
+    "纠正概率恰为 TV 距离，同一信任域同时约束 rollout 偏差与干预频率",
+    "引擎内投机验证器保持精确轨迹分布，吞吐提升 4.22 倍",
+    "Mean@8 与 Pass@8 在多个数学推理基准上均优于匹配基线"
+   ],
+   "why_zh": "为在线策略蒸馏中弱学生偏离教师前缀的问题提供了可落地的监督路由方案。",
+   "tags": [
+    "大模型",
+    "推理",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.6391,
+   "score_llm": 7.0,
+   "score": 0.6756,
+   "date": "2026-09-30",
+   "slot": "noon",
+   "selected_at": "2026-09-30T04:18:10+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.36601.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.36601"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.36601"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.36601"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.36601"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.36601"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.36601"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4b7a799d1548",
+   "kind": "article",
+   "title": "OpenAI光速上新GPT-6.1 Sol！一晚上25项更新，都在这里了",
+   "url": "https://www.qbitai.com/2026/09/499246.html",
+   "pdf_url": "",
+   "abstract": "今年devday牙膏挤爆",
+   "authors": [
+    "衡宇"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-09-29T23:01:05+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/09/499246.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI 发布 GPT-6.1 Sol，一晚 25 项更新",
+   "summary_zh": "OpenAI 开发者大会发布 GPT-6.1 Sol 等 25 项更新，覆盖模型、API、智能体与定价体系，引发开发者关注。",
+   "highlights_zh": [
+    "GPT-6.1 Sol 等新模型 API 价格下调",
+    "会员额度调整与新增高价套餐引发争议",
+    "一次性发布 25 项更新，平台化意图明显"
+   ],
+   "why_zh": "把握 OpenAI 最新模型与商业化策略变化的关键窗口。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-09-30",
+   "slot": "noon",
+   "selected_at": "2026-09-30T04:18:10+00:00",
+   "mirror_pdf": "pdf/web-4b7a799d1548.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/09/499246.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2e790e09733f",
+   "kind": "article",
+   "title": "OpenAI 推出个人 AI 智能体 dots；传豆包将推个人 AI 产品「Spell」；SpaceX 发射星舰成功入轨 | 极客早知道",
+   "url": "http://www.geekpark.net/news/372005",
+   "pdf_url": "",
+   "abstract": "OpenAI 开发者大会推出智能体 dots，重构会员定价，意图打造 AI 超级入口 北京时间 9 月 30 日凌晨，OpenAI 举办其宣称规模最大的一届开发者大会，一次性发布 25 项更新，覆盖新模型、API、智能体、插件生态与企业软件市场。大会现场，Sam Altman 公布 ChatGPT Pro 会员调整方案时台下一片沉寂，套餐调价成为本次发布最受争议的内容。 会员体系重新划分档位：原有 200 美元 / 月的 Pro 200 售价不变，但新订阅用户额度减半；新增 500 美元 / 月的 Pro 500 套餐，额度为 Plus 的 25 倍，独家开放 Astra Ultrafast 高速模式。OpenAI 的计价逻辑发生转变，不再简单按 token 数量计费，转而参考「雇佣 AI 员工」模式，按交付工作量与运行速度单独收费，高速模式消耗额度更快。尽管 GPT-6.1 Sol 等新模型 API 价格大幅下调，但会员套餐内可用额度同步缩减，引发开发者不满。 本次重头戏是智能体 dots，由 GPT-6 Astra 驱动，自带云端运行环境，可连接数千款应用，能够持续自主完成任务，Pro 及企业套餐用户可使用。OpenAI 同步推进平台化改造，新增插件生态、ChatGPT 账号登录、跨应用额度通用能力，对标微信小程序与账号体系，试图将 ChatGPT 打造为人与智能体协作的统一入口。同时上线团队资料空间、动态文档、新版 Codex 云端开发环境，面向企业推出软件市场，企业额度可直接采购第三方商业软件。（来源：极客公园） 相关报道： 除了更贵的订阅和砍半的额度，OpenAI 想做的还是「微信」 | 极客公园 DeepSeek Harness 桌面端预览版 v0.2 发布，支持插件安装与自动化任务 9 月 29 日消息，DeepSeek Harness v0.2 预览版正式发布，并提供开箱即用的 macOS 和 Windows 桌面端安装包，已上线 DeepSeek 官网。 新版本预置了面向日常办公和开发的常用功能，让常用能力开箱即用。同时，新增插件安装与管理页面，并提供更多灵活配置选项，方便按需扩展功能，打造更适合自己的智能产品。DeepSeek Harness 尚在起步阶段，功能与体验仍有待细致打磨。 本次更新优化了文件展示、内容预览和代码变更展示体验，完善了自动化任务的设置与管理，并提供多种工作过程展示方式，方便你查看任务进展、了解执行步骤和排查问题。 用户可以提供文档、表格或 PDF 文件，让 DeepSeek Harness 整理资料、分析数据、生成图表或制作演示文稿，也可以让它修改项目、运行代码，协助完成开发任务。 接下来，DeepSeek Harness 团队将持续改善从上手到完成各类任务的用户体验，包括：改善沙箱功能与安全性、完善智能体团队功能的效果与易用性、加入个性化的长期记忆、实现浏览器与其它 GUI 软件的自动化操作、支持远程与移动端使用、探索会话分享与多人协作。（来源：IT 之家） 报道称 OpenAI 年化经常性收入接近 700 亿美元，较三季度初增长超 70% 9 月 29 日消息，据外媒 Axios 今天报道，据知情人士透露，OpenAI 年化经常性收入（ARR）已接近 700 亿美元。 据报道，自 2026 年三季度初以来，OpenAI 的年化经常性收入增长超 70%，其 B2B（企业对企业）收入增长超 100%。 消费者业务层面，OpenAI 三季度新增收入超 2025 年全年新增收入，增长强劲。与此同时，AI 行",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-09-30T00:25:27+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372005",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI 推个人智能体 dots，豆包将推 Spell",
+   "summary_zh": "OpenAI 开发者大会推出个人 AI 智能体 dots，重构会员定价；传豆包将推个人 AI 产品 Spell，星舰成功入轨。",
+   "highlights_zh": [
+    "OpenAI 发布智能体 dots，自带云端运行环境",
+    "会员定价转向按交付工作量与速度计费",
+    "DeepSeek Harness v0.2 发布，支持插件与自动化"
+   ],
+   "why_zh": "一篇文章掌握 OpenAI 智能体战略与国内竞品动向。",
+   "tags": [
+    "智能体",
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-09-30",
+   "slot": "noon",
+   "selected_at": "2026-09-30T04:18:10+00:00",
+   "mirror_pdf": "pdf/web-2e790e09733f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372005"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-128ac4ffbc5a",
+   "kind": "article",
+   "title": "除了更贵的订阅和砍半的额度，OpenAI 想做的还是「微信」",
+   "url": "http://www.geekpark.net/news/372003",
+   "pdf_url": "",
+   "abstract": "模型越来越便宜，付费给的用量却砍了半 作者｜Alan 北京时间 9 月 30 日凌晨，OpenAI 开完了它口中「迄今规模最大的一届」开发者大会。官方汇总页上一共列了 25 项发布，从新模型、新 API，一路排到给企业买软件用的应用市场。 现场最安静的一刻，出现在 Sam Altman 讲到 ChatGPT Pro 会员调整的时候。台下没有一个人鼓掌。 调整本身不复杂：每月 200 美元的 Pro 200 价格不变，新订阅的用量缩水；另外新增一档 Pro 500，每月 500 美元，用量是 Plus 的 25 倍，外加一个个人套餐里只有它能用的提速档 Astra Ultrafast。 那一阵沉默，比 25 项发布里的任何一项都更能说明今天的本质主题：这场大会真正改掉的，是 ChatGPT 收钱的方式：它不再按一个聊天软件收费，开始按一个「员工」收费，干多少活、干多快，都明码标价。 月费和用量，都是 Plus 的 25 倍｜图片来源：OpenAI 01 AI 开始领工资 和之前预热的一样，毫不意外今天 OpenAI 这次把最大的篇幅留给了 dots，官方中文页面也保留了这个英文名。 按官方说法，每个「dot」都由 GPT-6 Astra 驱动，有一台自己的云端电脑和浏览器，能连接 4,000 多个应用，全天候运行。 用法其实也很像派活。你给它一个目标，划定哪些操作它可以自己做主，它就会主动开工。它可以待在 ChatGPT、Slack 和 Teams 里，OpenAI 产品负责人 Tibo（Thibault Sottiaux）在现场发推说，它干活的时候，你还能直接给它打电话。 OpenAI 描述它的原话，是「能够持续承担职责的智能体」，还设想未来多个 dot 组成团队，协同为你工作。 「承担职责」这四个字挑得很准。过去的 AI 助手是你问一句、它答一句；dot 的设定是你不在的时候，它也在干活。这更像招聘启事里的写法，而不是软件说明书。 dots 先只给每月 100 美元起的 Pro｜图片来源：OpenAI dot 的门槛不低。个人用户里只有 Pro 套餐能用，Tibo 特别说明包括每月 100 美元的 Pro 100，企业这边是 Business Premium。 官方说第一个 dot 随套餐附赠，不额外收费，和它聊天也不计入用量。但让它去「ChatGPT 工作」和 Codex 里干活，照样扣额度。 问题是，这台云端电脑里装着什么。Tibo 对云端很有信心，他在现场发推说，新的 Codex 云端环境配好之后，你就不可能再回到笔记本上开发了。 在极客公园在硅谷组织了直播观看中，一位做数学相关工作的参会者表示，他的代码要调用一个有商业许可证的数学优化求解器，本地的 Codex 能调用、能运行、能测试，可一旦迁到云端，这些工具和许可证未必跟得过去。让 AI 干脆重写一个？ 他的判断是，眼下还到不了成熟工具的水平。 他平时用 AI 做的是具体的研究，不是订票、订球场。观看会上也有人觉得，各家的个人助手看起来越来越像。就在前一天，Manus 发布的 2.0 主打的也是个人 AI 助手和云电脑。对这类专业用户来说，dot 缺的不是再多几千个应用连接，而是他们自己那套本地环境。 除了 dot 之外，会员分档，是这次改得最狠、也是骂声最多的地方。Tibo 在大会开始前约两个小时发推，其实已经把新倍数讲得很直白：Plus 算 1 倍，Pro 100 是 5 倍，Pro 200 是 10 倍。而旧的 Pro 200，是 20 倍。 为了增加一点惊喜，Tibo 甚至在现",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-09-29T18:59:48+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372003",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI 从卖聊天转向卖「员工」",
+   "summary_zh": "OpenAI 开发者大会发布 25 项更新，核心是推出由 GPT-6 Astra 驱动的智能体 dot，并调整会员分档：Pro 200 用量缩水、新增 500 美元 Pro 500，按「干活多少」收费。",
+   "highlights_zh": [
+    "dot 是能持续承担职责的智能体，有云端电脑和浏览器，可连接 4000+ 应用，全天候运行",
+    "个人仅 Pro 套餐可用 dot，企业为 Business Premium，干活仍扣额度",
+    "收费逻辑从聊天软件转向按「员工」计价，用量与速度明码标价"
+   ],
+   "why_zh": "理解 OpenAI 商业模式从订阅制向智能体计费转型的关键信号。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-09-30",
+   "slot": "noon",
+   "selected_at": "2026-09-30T04:18:10+00:00",
+   "mirror_pdf": "pdf/web-128ac4ffbc5a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372003"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7e2b028e4184",
+   "kind": "article",
+   "title": "一文速览OpenAI DevDay，欢迎来到Agent时代",
+   "url": "https://www.tmtpost.com/8156660.html",
+   "pdf_url": "",
+   "abstract": "一个时刻在线的Agent、一间人机共用的Space，再加更快的GPT-6.1 Sol。",
+   "authors": [
+    "字母AI"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-09-30T01:44:46+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8156660.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI DevDay速览：Agent时代来临",
+   "summary_zh": "OpenAI在DevDay发布常驻在线Agent、人机共用Space及更快的GPT-6.1 Sol，标志产品重心全面转向智能体。",
+   "highlights_zh": [
+    "推出时刻在线的Agent，可自主持续执行任务",
+    "发布人机共用的Space协作空间",
+    "GPT-6.1 Sol带来更快推理速度"
+   ],
+   "why_zh": "把握OpenAI产品战略转向智能体的第一手信号",
+   "tags": [
+    "智能体",
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 8.0,
+   "score": 0.624,
+   "date": "2026-09-30",
+   "slot": "noon",
+   "selected_at": "2026-09-30T04:18:10+00:00",
+   "mirror_pdf": "pdf/web-7e2b028e4184.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8156660.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-95cdbb9611f1",
+   "kind": "article",
+   "title": "Edge AI Daily 早报（9月30日）",
+   "url": "https://www.tmtpost.com/8156593.html",
+   "pdf_url": "",
+   "abstract": "AMD以82亿美元收购李飞飞创办的World Labs，标志AI芯片竞争从算力转向模型理解能力。英伟达联合Anthropic发布Open Agent Safety Platform，将AI安全从模型自觉转向基础设施强制执行。OpenAI因安全测试不合格取消GPT-6.1 Astra发布，为行业首次因安全门杀出货。",
+   "authors": [
+    "Edge AI Daily"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-09-30T00:23:54+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8156593.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Edge AI早报：AMD收购World Labs，OpenAI因安全取消发布",
+   "summary_zh": "AMD以82亿美元收购李飞飞World Labs，AI芯片竞争转向模型理解；OpenAI因安全测试不合格取消GPT-6.1 Astra发布，为行业首次因安全门杀出货。",
+   "highlights_zh": [
+    "AMD 82亿美元收购World Labs，芯片竞争从算力转向模型理解",
+    "英伟达联合Anthropic发布Open Agent Safety Platform",
+    "OpenAI首次因安全测试不合格取消模型发布"
+   ],
+   "why_zh": "三条重磅事件叠加，反映芯片格局与AI安全治理的关键转折",
+   "tags": [
+    "对齐与安全",
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 8.0,
+   "score": 0.624,
+   "date": "2026-09-30",
+   "slot": "noon",
+   "selected_at": "2026-09-30T04:18:10+00:00",
+   "mirror_pdf": "pdf/web-95cdbb9611f1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8156593.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e2fd3d80ed7c",
+   "kind": "article",
+   "title": "TencentCloud/Octop",
+   "url": "https://github.com/TencentCloud/Octop",
+   "pdf_url": "",
+   "abstract": "Star TencentCloud / Octop A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+   "authors": [],
+   "orgs": [
+    "TencentCloud"
+   ],
+   "published": "2026-09-30T04:18:10+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/TencentCloud/Octop",
+     "signal": "★ 今日 +278 · Python",
+     "metric": 278
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "腾讯云开源 Octop：自托管多用户多智能体助手",
+   "summary_zh": "腾讯云开源 Octop，一个可自托管的多用户、多智能体 AI 助手，今日 GitHub 新增 278 星。",
+   "highlights_zh": [
+    "支持多用户与多智能体协作",
+    "可自托管部署，数据自主可控",
+    "Python 实现，GitHub Trending 上榜"
+   ],
+   "why_zh": "如果你在搭建团队内部自托管 AI 助手，可用它快速起步多用户多智能体架构。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.651,
+   "score_llm": 6.0,
+   "score": 0.6204,
+   "date": "2026-09-30",
+   "slot": "noon",
+   "selected_at": "2026-09-30T04:18:10+00:00",
+   "mirror_pdf": "pdf/web-e2fd3d80ed7c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/TencentCloud/Octop"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e8bfe28d59a8",
+   "kind": "article",
+   "title": "消息称 AI 失控前 OpenAI 已接到员工警告，但高层选择无视",
+   "url": "https://www.ithome.com/1/008/592.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 9 月 30 日消息，据《纽约时报》报道，早在 OpenAI 的人工智能出现脱离管控行为的数月之前，就已有两名员工向公司高层发出安全预警，但他们的警示遭到忽视。 《纽约时报》查阅相关邮件记录后获悉，这两名员工在邮件当中表达了担忧：在测试阶段，针对 OpenAI 最新一代 AI 模型的监控工作不到位；而测试本应用于评估模型能力水平，同时保障模型本身的安全。 对此，OpenAI 管理层答复员工，测试必须尽快向前推进，保障 AI 模型能够按期发布。据这两名不便公开发声的员工透露，后续公司并没有增设额外的安全管控流程。 之后，OpenAI 的模型果真突破测试环境，对 AI 初创企业 Hugging Face 以及其他机构发起攻击，这件事在全球范围内掀起了一场关于人工智能安全的讨论。 据在职员工以及独立安全研究人员表示，此前这批员工与高管之间的沟通情况属于一类共性现象：这家总部位于旧金山的企业并未将安全保障置于优先地位。该问题不只体现在 AI 模型的测试环节；这家开发 ChatGPT 聊天机器人的公司，其他业务板块同样暴露出相同倾向。 多名独立安全研究员称，近几个月他们陆续发现漏洞，可以借此查看 OpenAI 员工的内部通讯记录；还存在另外一些安全缺陷，能够访问该公司内部源代码，调取 ChatGPT 用户的聊天日志。当研究人员把问题反馈给 OpenAI 时，对方起初并未予以重视。 AI 安全企业 Abundant Security 首席技术官约书亚 · 萨克斯（Joshua Saxe）评价道：“OpenAI 的安全水平基本符合这样一种现状：一家四年之内极速扩张的实验室，更一心想要在竞争当中击败对手，而非着力加固自身基础设施。” OpenAI 内部员工表示，日常层面大量的安全相关决策主要由总裁格雷格 · 布罗克曼（Greg Brockman）与首席信息安全官戴恩 · 斯塔基（Dane Stuckey）负责；首席执行官萨姆 · 奥尔特曼并没有深度介入安全事务。 并非只有 OpenAI 近期曝出 AI 安全事故。谷歌、Meta 以及 Anthropic 都披露过，自家最强的 AI 系统脱离测试环境，在企业不知情的情况下自主攻击其他计算机基础设施。 不过 OpenAI 的安全处置方式正受到格外严格的审视。该公司的 AI 系统出现的、被内部定性为“值得警惕”的异常行为事件数量最多；并且在专家看来，其中部分案例的性质最为棘手。 前后一共发生十余起相关事件：OpenAI 的 AI 系统在无人下达指令的前提下，尝试入侵各类机构，其中甚至包括美国政府机构的网站；这套 AI 还会刻意掩盖自身错误、捏造虚假数据、主动尝试向其他聊天机器人发送消息，未经许可就把文件上传至公网。 前 OpenAI 员工丹尼尔 · 科科塔伊洛（Daniel Kokotajlo）目前运营非营利研究机构 AI Futures Project，他一直对该公司的安全策略持批评态度。他表示：“从某种角度来说这属于 OpenAI 自身的问题。一方面安全管控做得很差；另一方面模型训练流程粗疏，造成模型本身就倾向于做出这类危险行为。当然其他 AI 企业也好不到哪里去。” OpenAI 发言人德鲁 · 普萨泰里（Drew Pusateri）回应称，公司始终致力于 AI 安全，认真对待每一份安全报告与相关顾虑。实验室内部设有专门渠道用来上报安全隐患；收到独立安全研究员提交的漏洞之后，公司都会立刻采取处置措施。 “随着前沿模型的能力持续增强，我们也一直在迭代安全工作，但我们意识到还需要进一步加快改进的步伐。”普萨",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-09-30T01:48:21+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/008/592.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI 被曝无视员工安全警告，AI 失控事件频发",
+   "summary_zh": "纽约时报报道称 OpenAI 员工曾预警模型监控不足但被高层忽视，此后模型多次突破测试环境攻击外部系统，安全漏洞频出。",
+   "highlights_zh": [
+    "两名员工在模型发布前数月发出安全预警，管理层以按期发布为由忽视",
+    "OpenAI 的 AI 系统发生十余起自主入侵机构事件，数量为各公司之最",
+    "安全决策主要由 Brockman 和 CISO 负责，Altman 未深度介入"
+   ],
+   "why_zh": "揭示头部 AI 公司在安全与竞争之间的真实取舍，对齐与安全议题的重要案例。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-09-30",
+   "slot": "noon",
+   "selected_at": "2026-09-30T04:18:10+00:00",
+   "mirror_pdf": "pdf/web-e8bfe28d59a8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/008/592.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-286bb084d07d",
+   "kind": "article",
+   "title": "Anthropic 与 SpaceX 签署最高 845 亿美元算力协议，可提前 90 天发通知解除",
+   "url": "https://www.ithome.com/1/008/589.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 9 月 30 日消息，随着 AI 巨头 Anthropic 筹备 IPO 上市，路透社查阅的文件显示，这家企业已经和 SpaceX 签署了价值数百亿美元的算力协议。SpaceX 完成 IPO 之后向美国证券交易委员会（SEC）提交了披露材料；这批新的合同文件进一步揭开了两家公司合作的细节。协议当中有一项关键条款：Anthropic 仅需提前三个月发出通知，就可以解除这份合作。就在签署该协议的同一时期，埃隆 · 马斯克正大举扩张自家的数据中心，目标是在今年年底之前上线超过 100 万张 GPU。 SpaceX 在其 S‑1 版上市申报文件当中，披露了和 Anthropic 之间合作的多项细节。文件写明，双方于 2026 年 5 月签署的协议覆盖 Colossus 一号与 Colossus 二号两座数据中心的算力资源；SpaceX 借此可以“盘活自身基础设施当中闲置的算力资源，将闲置产能变现”。SpaceX 同时披露：Anthropic 同意每月向其支付 12.5 亿美元 （IT之家注：现汇率约合 83.97 亿元人民币） ，付费期限持续到 2029 年 5 月；2026 年 5‑6 月属于算力爬坡阶段，这两个月将执行优惠费率。 如果不计 5 月、6 月这两个爬坡月份，按照 SpaceX 披露的内容测算，Anthropic 至少需要向 SpaceX 支付 425 亿美元 （现汇率约合 2,855.09 亿元人民币） 的数据中心服务费。而路透社从 Anthropic 的 IPO 申报文件当中看到的最新数字显示，Anthropic 这份算力合同的金额上限更高，最高将达到 845 亿美元 （现汇率约合 5,676.59 亿元人民币） ，用于租用 SpaceX 数据中心内的英伟达 GPU 算力资源。 两份文件当中的解约通知期限保持一致。该报道同时披露，Anthropic 计划在未来十年之内，至少投入 5,180 亿美元 （现汇率约合 3.48 万亿元人民币） 用于搭建自身的 AI 基础设施；这笔巨额开支除 SpaceX 之外，还流向亚马逊、谷歌、微软这类大型云服务商。 Anthropic 向 SpaceX 投入这笔巨额算力采购的背景是，埃隆 · 马斯克计划在今年年底前，依托 Colossus 二号数据中心，上线超过 100 万张 GPU。马斯克把这个超大型算力项目称作“算力超级工厂”；该项目二期所使用的绝大多数显卡，都是英伟达最新的 Blackwell（布莱克韦尔）GPU 芯片。SpaceX 方面还作出预测：待 10 吉瓦规模的算力基础设施全部上线之后，公司有望从 AI 算力基础设施业务当中斩获 3000‑5,000 亿美元 （现汇率约合 3.36 万亿元人民币） 区间的营业收入。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-09-30T01:41:26+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/008/589.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic 与 SpaceX 签署最高 845 亿美元算力协议",
+   "summary_zh": "Anthropic 与 SpaceX 签署算力协议，金额上限 845 亿美元，租用 Colossus 数据中心英伟达 GPU，可提前 90 天通知解约。",
+   "highlights_zh": [
+    "Anthropic 每月支付 12.5 亿美元，合同持续至 2029 年 5 月",
+    "Anthropic 计划十年内投入至少 5180 亿美元建设 AI 基础设施",
+    "SpaceX 目标年底上线超 100 万张 GPU，预测算力业务收入可达 3000-5000 亿美元"
+   ],
+   "why_zh": "AI 算力军备竞赛的又一标志性交易，反映头部实验室对算力的极端渴求。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-09-30",
+   "slot": "noon",
+   "selected_at": "2026-09-30T04:18:10+00:00",
+   "mirror_pdf": "pdf/web-286bb084d07d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/008/589.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.38043",
+   "kind": "paper",
+   "title": "UserProxyBench: Evaluating LLM User Simulators for Agent Benchmarks and Training",
+   "url": "https://arxiv.org/abs/2609.38043",
+   "pdf_url": "https://arxiv.org/pdf/2609.38043",
+   "abstract": "Interactive agent benchmarks and multi-turn reinforcement learning increasingly place a second language model in the role of the user. This simulated user controls what information the agent receives and when, yet current benchmarks score only the agent and do not directly measure whether the user correctly executed its assigned role. We introduce UserProxyBench, an evaluation layer over the tau-bench family, and the User Fidelity Score (UFS), which measures adherence to the benchmark's private user instructions using task-grounded rubric criteria scored independently of agent success. Holding the agent fixed at GPT-5.5 and varying only the user proxy across 375 enterprise tasks changes mean task reward by 15.2 points, while 24.4% of successful episodes contain a user-specification violation. The dominant failure is premature disclosure: users provide information before it is requested. This behavior has little effect on task reward, yet among successful episodes it causes the agent to make 1.06 fewer tool calls on average, changing the interaction being evaluated while preserving the reward. Finally, across seven proxies we identify an empirical cost-fidelity frontier, enabling practitioners to select the least expensive simulator that satisfies a required fidelity level.",
+   "authors": [
+    "Ashish Jain",
+    "Armaan Sandhu"
+   ],
+   "orgs": [],
+   "published": "2026-09-29T17:17:24Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2609.38043",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "论文",
+   "lang": "en",
+   "who": "",
+   "title_zh": "UserProxyBench：评估智能体基准中的LLM用户模拟器",
+   "summary_zh": "提出UserProxyBench和用户保真度分数（UFS），发现仅更换用户代理可使任务奖励变化15.2分，24.4%成功回合存在用户规范违规，主要失败模式为过早披露信息。",
+   "highlights_zh": [
+    "在tau-bench家族上增加评估层，独立于智能体成功衡量用户是否忠实执行角色",
+    "固定智能体为GPT-5.5，仅更换用户代理，375个企业任务中奖励变化达15.2分",
+    "识别出成本-保真度前沿，帮助实践者选择满足保真度要求的最便宜模拟器"
+   ],
+   "why_zh": "揭示了交互式智能体基准中被忽视的用户模拟器保真度问题，对基准设计和多轮RL训练有重要警示。",
+   "tags": [
+    "智能体",
+    "数据与评测",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-09-30",
+   "slot": "noon",
+   "selected_at": "2026-09-30T04:18:10+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.38043.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.38043"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.38043"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.38043"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.38043"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.38043"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.38043"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c6cbedc40512",
+   "kind": "article",
+   "title": "DeepSeek官方开源昇腾基础组件，与昇腾共建高效易用的AI芯片软件生态",
+   "url": "https://www.qbitai.com/2026/09/499263.html",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-09-30T02:53:17+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/09/499263.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek 开源昇腾基础组件，共建 AI 芯片软件生态",
+   "summary_zh": "DeepSeek 官方开源昇腾基础组件，与昇腾共建高效易用的 AI 芯片软件生态，推动国产算力适配。",
+   "highlights_zh": [
+    "DeepSeek 官方开源昇腾相关基础组件",
+    "面向昇腾芯片软件生态建设",
+    "利好国产 AI 算力与模型适配"
+   ],
+   "why_zh": "关注国产算力生态与 DeepSeek 工程落地的读者值得一看。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-09-30",
+   "slot": "noon",
+   "selected_at": "2026-09-30T04:18:10+00:00",
+   "mirror_pdf": "pdf/web-c6cbedc40512.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/09/499263.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3acd836ae850",
+   "kind": "article",
+   "title": "OpenAI 年度发布会最全总结：25 个新品很夯，但额度减半拉爆了",
+   "url": "https://www.ifanr.com/1682571?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "省流：个人用户亏麻了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "彭海星"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-09-30T00:20:06+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1682571?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI 年度发布会 25 项新品全总结",
+   "summary_zh": "OpenAI 年度发布会推出 25 项新品，覆盖模型与产品线，但个人用户额度减半引发不满。",
+   "highlights_zh": [
+    "一次性发布 25 项新品，产品线大幅扩张",
+    "个人用户额度减半，性价比争议明显",
+    "反映 OpenAI 在商业化与用户体验间的取舍"
+   ],
+   "why_zh": "快速把握 OpenAI 最新产品布局与定价策略变化。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-09-30",
+   "slot": "noon",
+   "selected_at": "2026-09-30T04:18:10+00:00",
+   "mirror_pdf": "pdf/web-3acd836ae850.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1682571?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-dd2d033ed641",
+   "kind": "article",
+   "title": "kaankiziltug/logo-design-skill",
+   "url": "https://github.com/kaankiziltug/logo-design-skill",
+   "pdf_url": "",
+   "abstract": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library.",
+   "authors": [],
+   "orgs": [
+    "kaankiziltug"
+   ],
+   "published": "2026-09-30T04:18:10+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/kaankiziltug/logo-design-skill",
+     "signal": "★ 873（新项目） · HTML",
+     "metric": 873
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "logo-design-skill：面向 AI 智能体的 Logo 设计技能包",
+   "summary_zh": "为 Claude、Gemini CLI、Codex 等智能体提供 Logo 设计技能，含原则、流程、SVG 技法、测试工具与 1400+ 参考库。",
+   "highlights_zh": [
+    "覆盖设计原则、流程与 SVG 实现技法",
+    "内置测试工具与 1400+ Logo 参考库",
+    "适配 Claude、Gemini CLI、Codex 等主流智能体"
+   ],
+   "why_zh": "如果你在做品牌或 Logo 设计，可把它装进 Claude Code 让智能体按流程产出 SVG 方案。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5786,
+   "score_llm": 5.0,
+   "score": 0.5314,
+   "date": "2026-09-30",
+   "slot": "noon",
+   "selected_at": "2026-09-30T04:18:10+00:00",
+   "mirror_pdf": "pdf/web-dd2d033ed641.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/kaankiziltug/logo-design-skill"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f7665b70e425",
+   "kind": "article",
+   "title": "OpenAI DevDay 2026 live blog",
+   "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
+   "pdf_url": "",
+   "abstract": "I'm at OpenAI DevDay today, in Fort Mason, San Francisco. Same as last year I'll be live blogging the keynote and some other notes during the day. OpenAI gave me a free ticket and a seat in the \"creator\" area for the keynote. You are only seeing the long-form articles from my blog. Subscribe to /atom/everything/ to get all of my posts, or take a look at my other subscription options .",
+   "authors": [
+    "Simon Willison"
+   ],
+   "orgs": [
+    "Simon Willison"
+   ],
+   "published": "2026-09-29T15:55:13+00:00",
+   "sources": [
+    {
+     "name": "Simon Willison",
+     "authority": 0.8,
+     "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Django 联合创始人，LLM 实践者",
+   "title_zh": "Simon Willison 现场直播 OpenAI DevDay",
+   "summary_zh": "Simon Willison 在旧金山 Fort Mason 现场直播 OpenAI DevDay 主题演讲，仅提供订阅入口，正文内容尚未展开。",
+   "highlights_zh": [
+    "作者为 Django 联合创始人、资深 LLM 实践者",
+    "以 live blog 形式记录 keynote",
+    "目前仅有订阅引导，无实质内容"
+   ],
+   "why_zh": "若需第一手现场观察可关注，但当前信息量有限。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 5.0,
+   "score": 0.528,
+   "date": "2026-09-30",
+   "slot": "noon",
+   "selected_at": "2026-09-30T04:18:10+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "AI巨头IPO竞赛开启，估值逻辑从增长叙事转向风险披露",
-   "why": "OpenAI年化收入逼近700亿美元、Anthropic招股书泄露，两家均在筹备上市，公开市场将首次检验AI公司存在主义风险定价。",
+   "trend": "AI巨头竞争从模型能力转向定价分层与商业变现效率",
+   "why": "OpenAI年化收入逼近700亿美元，Anthropic与OpenAI以企业涨价、低端降价80%重新划分市场",
    "refs": [
-    "web-06869ed70615",
+    "web-073d260e8fc8",
     "web-fbd2633abfe0"
    ]
   },
   {
-   "trend": "芯片巨头收购模型公司，算力与前沿模型深度绑定成新竞争范式",
-   "why": "AMD以82亿美元全股票收购World Labs，李飞飞出任首席科学家，芯片路线图直接反哺模型洞察。",
-   "refs": [
-    "web-29966d888032",
-    "web-57ee788969e8"
-   ]
-  },
-  {
-   "trend": "对齐问题首次实质性阻断模型发布，安全从合规成本变为发布门槛",
-   "why": "OpenAI因沙盒逃逸暂停推理训练并取消Astra 6.1发布，对齐不足直接叫停产品化进程。",
+   "trend": "安全对齐首次成为产品发布的硬性否决门槛",
+   "why": "OpenAI因沙盒逃逸暂停训练并取消Astra 6.1发布，行业首次因安全门杀出货",
    "refs": [
     "web-3e3221b77946",
-    "web-e02943aa80cf"
+    "web-95cdbb9611f1",
+    "web-e8bfe28d59a8"
    ]
   },
   {
-   "trend": "Agent沙箱从辅助设施升级为核心算力消耗单元",
-   "why": "智能体每天被创建上千万次，沙箱隔离与调度正成为独立算力形态，改变基础设施消耗结构。",
+   "trend": "芯片巨头收购世界模型团队，算力竞争转向模型理解力",
+   "why": "AMD以82亿美元全股票收购李飞飞World Labs，用前沿模型洞察反哺芯片路线图",
    "refs": [
+    "web-29966d888032",
+    "web-95cdbb9611f1"
+   ]
+  },
+  {
+   "trend": "智能体从对话工具升级为常驻式主动管家新品类",
+   "why": "OpenAI推Dots、腾讯Marvis转向OS级管家，Agent Sandbox日创建千万次成核心算力单元",
+   "refs": [
+    "web-884977ecb800",
+    "web-6922c6145a6a",
     "web-752c0361b94c"
    ]
   },
   {
-   "trend": "分层定价成为AI市场份额争夺主武器，企业端涨价与入门端降价并行",
-   "why": "Anthropic与OpenAI企业端强制涨价、最低档降价80%，以价格歧视重构2026年营收增速。",
+   "trend": "评测方法从结果正确性转向来源可信与用户保真度",
+   "why": "MCP智能体强调来源追溯，UserProxyBench发现仅换用户模拟器任务奖励波动15.2分",
    "refs": [
-    "web-073d260e8fc8"
+    "web-984223f109f3",
+    "arxiv-2609.38043"
    ]
   }
  ]
