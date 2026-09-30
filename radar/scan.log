@@ -1,13 +1,12 @@
-2026-09-30 11:03:52,032 INFO source hf_daily           -> 41 items
-2026-09-30 11:03:52,388 INFO source hackernews         -> 9 items
-2026-09-30 11:04:41,245 WARNING rss Paul Graham failed: HTTPConnectionPool(host='www.aaronsw.com', port=80): Max retries exceeded with url: /2002/feeds/pgessays.rss (Caused by NameResolutionError("HTTPConnection(host='www.aaronsw.com', port=80): Failed to resolve 'www.aaronsw.com' ([Errno -2] Name or service not known)"))
-2026-09-30 11:04:47,071 INFO source rss                -> 100 items
-2026-09-30 11:04:48,563 INFO source html_lists         -> 0 items
-2026-09-30 11:04:48,563 INFO source x                  -> 0 items
-2026-09-30 11:04:49,169 INFO source arxiv_search       -> 60 items
-2026-09-30 11:04:57,916 INFO source github             -> 20 items
-2026-09-30 11:04:57,918 INFO candidates: 228 (stale dropped 37, new 135)
-2026-09-30 11:06:25,936 INFO llm judged 100/100 (calls=13)
-2026-09-30 11:06:26,212 WARNING pdf arxiv-2609.38154: too large (> 25165824 bytes): https://arxiv.org/pdf/2609.38154
-2026-09-30 11:06:32,140 WARNING snapshot https://stratechery.com/2026/openai-dev-day-dot-and-openais-product-transition-sign-in-with-chatgpt/: blocked or empty page
-2026-09-30 11:09:24,620 INFO run done: {"at": "2026-09-30T11:03:51+00:00", "slot": "evening", "candidates": 228, "new": 135, "stale": 37, "judged": 100, "selected": 19, "mirrored": 17, "by_category": {"技术": 4, "观点": 2, "资讯": 12, "项目": 1}, "by_source": {"HF Daily Papers": 41, "Hacker News": 9, "OpenAI": 5, "量子位": 10, "极客公园": 7, "IT之家": 15, "爱范儿": 8, "少数派": 3, "雷峰网": 17, "钛媒体": 5, "InfoQ 中文": 10, "Simon Willison": 1, "Latent Space": 4, "Jack Clark": 1, "Stratechery": 2, "SemiAnalysis": 1, "Arvind Narayanan": 1, "Azeem Azhar": 2, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Sebastian Raschka": 1, "Hugging Face Blog": 2, "Google Research": 1, "Microsoft": 1, "arXiv 新论文": 60, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
+2026-09-30 16:46:12,933 INFO source hf_daily           -> 49 items
+2026-09-30 16:46:13,243 INFO source hackernews         -> 11 items
+2026-09-30 16:46:49,856 WARNING rss Paul Graham failed: HTTPConnectionPool(host='www.aaronsw.com', port=80): Max retries exceeded with url: /2002/feeds/pgessays.rss (Caused by NameResolutionError("HTTPConnection(host='www.aaronsw.com', port=80): Failed to resolve 'www.aaronsw.com' ([Errno -2] Name or service not known)"))
+2026-09-30 16:46:56,117 INFO source rss                -> 101 items
+2026-09-30 16:46:57,992 INFO source html_lists         -> 0 items
+2026-09-30 16:46:57,992 INFO source x                  -> 0 items
+2026-09-30 16:46:58,506 INFO source arxiv_search       -> 60 items
+2026-09-30 16:47:08,812 INFO source github             -> 20 items
+2026-09-30 16:47:08,814 INFO candidates: 238 (stale dropped 120, new 76)
+2026-09-30 16:48:15,026 INFO llm judged 76/76 (calls=10)
+2026-09-30 16:48:55,643 WARNING snapshot https://thezvi.wordpress.com/2026/09/30/a-morally-binding-white-house-accord-on-ai-safety/: blocked or empty page
+2026-09-30 16:51:04,419 INFO run done: {"at": "2026-09-30T16:46:12+00:00", "slot": "morning", "candidates": 238, "new": 76, "stale": 120, "judged": 76, "selected": 21, "mirrored": 19, "by_category": {"项目": 2, "资讯": 13, "观点": 1, "技术": 4, "论文": 1}, "by_source": {"HF Daily Papers": 49, "Hacker News": 11, "OpenAI": 6, "Sebastian Raschka": 1, "量子位": 10, "极客公园": 6, "IT之家": 12, "爱范儿": 9, "少数派": 3, "雷峰网": 16, "钛媒体": 6, "InfoQ 中文": 13, "Simon Willison": 1, "Latent Space": 4, "Stratechery": 2, "SemiAnalysis": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 3, "Google Research": 1, "Google DeepMind": 1, "NVIDIA": 1, "Microsoft": 1, "arXiv 新论文": 60, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
