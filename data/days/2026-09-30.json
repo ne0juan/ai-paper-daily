@@ -2432,48 +2432,1236 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "arxiv-2609.38154",
+   "kind": "paper",
+   "title": "LongLive-Plug: Once-for-All Distillation for Video Generation",
+   "url": "https://arxiv.org/abs/2609.38154",
+   "pdf_url": "https://arxiv.org/pdf/2609.38154",
+   "abstract": "Video diffusion models are increasingly developed into specialized models for diverse downstream tasks, and this development often includes a distillation stage, for example to accelerate sampling or to improve long-video generation. This stage is typically repeated for every specialized model. We introduce LongLive-Plug, a once-for-all distillation framework that learns reusable capabilities as LoRAs on a base model for training-free, plug-and-play deployment to compatible downstream models. These capabilities include single-pass classifier-free guidance, few-step sampling, and long-context error correction for autoregressive generation. The adapters remain reusable even when downstream models add conditioning branches, expand output channels. Despite training at a fixed guidance scale, our dedicated CFG LoRA provides text guidance control through its inference weight. Combining it with a few-step LoRA simultaneously preserves few-step generation and CFG controllability on downstream tasks. We verify training-free deployment on 54 downstream models across three backbone families and eight task categories, including world modeling, robotics, editing, and multimodal generation. The approach may support additional compatible models. Each capability can thus be distilled once per backbone family and reused without per-target retraining.",
+   "authors": [
+    "Shuai Yang",
+    "Luozhou Wang",
+    "Wei Huang",
+    "ZhiFei Chen",
+    "Bohan Zhang",
+    "Xiao Fu",
+    "Qianli Ma",
+    "Chen-Hsuan Lin",
+    "Weian Mao",
+    "Bryan Chu",
+    "Song Han",
+    "Yukang Chen"
+   ],
+   "orgs": [
+    "NVIDIA"
+   ],
+   "published": "2026-09-29T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2609.38154",
+     "signal": "▲ 13",
+     "metric": 13
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "LongLive-Plug：一次蒸馏，处处插拔",
+   "summary_zh": "NVIDIA 提出一次性蒸馏框架，把 CFG、少步采样、长上下文纠错等能力学成可复用 LoRA，免训练插到 54 个下游视频生成模型上。",
+   "highlights_zh": [
+    "能力以 LoRA 形式挂在基座模型上，下游模型免重训即可复用",
+    "下游新增条件分支或扩展输出通道时适配器仍有效",
+    "覆盖三大骨干家族、八类任务，含世界模型、机器人、编辑与多模态生成"
+   ],
+   "why_zh": "视频生成蒸馏从「一模型一蒸馏」转向可复用适配器，显著降低下游部署成本。",
+   "tags": [
+    "效率与系统",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.6178,
+   "score_llm": 8.0,
+   "score": 0.7271,
+   "date": "2026-09-30",
+   "slot": "evening",
+   "selected_at": "2026-09-30T11:03:51+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.38154"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.38154"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.38154"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.38154"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.38154"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.38154"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/NVlabs/LongLive"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.37372",
+   "kind": "paper",
+   "title": "Think Before You Score: Thinking Reward Model for Visual Generation",
+   "url": "https://arxiv.org/abs/2609.37372",
+   "pdf_url": "https://arxiv.org/pdf/2609.37372",
+   "abstract": "Visual reward models are essential for evaluating and improving visual generation models, yet existing approaches typically map task conditions and candidate outputs directly to scalar rewards, leaving implicit what should be evaluated for each individual case. We introduce Think Before You Score, a paradigm that explicitly determines what matters for each case before judging how well the candidate performs. Following this principle, we propose the Thinking Reward Model (TRM), which formulates case-adaptive rubrics, performs rubric-guided assessment, and produces fine-grained pointwise rewards. We further observe that conventional pairwise preference optimization can induce score polarization, and introduce Pairwise Dual-Group Relative Policy Optimization (PD-GRPO), which leverages pairwise supervision to improve reward discrimination while preserving fine-grained pointwise scoring. Extensive experiments on image generation and editing reward-modeling benchmarks demonstrate that TRM achieves state-of-the-art performance among open-source reward models while remaining highly competitive with proprietary alternatives. Moreover, using TRM as a reward for reinforcement learning consistently improves diverse visual generation models, demonstrating that its fine-grained, case-adaptive rewards translate into effective optimization signals for visual generation.",
+   "authors": [
+    "Xuehai Bai",
+    "Zhenchen Tang",
+    "Yang Shi",
+    "Dianyi Wang",
+    "Tengfei Liu",
+    "Wanshun Su",
+    "Xuanyu Zhu",
+    "Ruohui Wang",
+    "Haiwen Diao",
+    "Haotian Wang",
+    "Xiaoling Gu",
+    "Yuanxing Zhang"
+   ],
+   "orgs": [],
+   "published": "2026-09-29T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2609.37372",
+     "signal": "▲ 46",
+     "metric": 46
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "先想再打分：视觉生成的思考型奖励模型",
+   "summary_zh": "提出 TRM，先为每个样本生成自适应评分标准再打分，并配 PD-GRPO 缓解分数极化，在开源奖励模型中达 SOTA。",
+   "highlights_zh": [
+    "把「评什么」显式化，按案例生成评分细则再评估",
+    "PD-GRPO 用成对监督提升区分度，同时保留细粒度打分",
+    "作为 RL 奖励可稳定提升多种视觉生成模型"
+   ],
+   "why_zh": "奖励模型从直接打分转向先推理评分标准，为视觉生成 RL 提供更可靠信号。",
+   "tags": [
+    "多模态",
+    "强化学习",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.6102,
+   "score_llm": 8.0,
+   "score": 0.7241,
+   "date": "2026-09-30",
+   "slot": "evening",
+   "selected_at": "2026-09-30T11:03:51+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.37372.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.37372"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.37372"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.37372"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.37372"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.37372"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.37372"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/bxhsort/Thinking_Reward_Model"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.37686",
+   "kind": "paper",
+   "title": "EngiWorld: What Can Frontier Agents Deliver in Professional Engineering Environments?",
+   "url": "https://arxiv.org/abs/2609.37686",
+   "pdf_url": "https://arxiv.org/pdf/2609.37686",
+   "abstract": "Autonomous agents have made rapid progress in general-purpose computer use, but reliable automation of professional industrial engineering remains out of reach, as engineering workflows demand reasoning over geometric and physical constraints and dependencies preserved across software and design stages. We present EngiWorld, the first benchmark structured around the complete design loop: 1,301 expert-curated tasks spanning 6 engineering domains (CAD, CAE, CAM, BIM, EDA, and 3D visualization) and 26 professional software platforms, with both GUI and CLI interfaces and 6 task types ranging from software-selection to open-ended tasks. We further introduce an artifact-centric evaluation methodology built on a unified domain-verifier suite, which programmatically checks the geometric validity, physical feasibility, and rule compliance of final and intermediate artifacts, and scores quantitative design tasks continuously by specification attainment rather than binary success. Evaluation of seven frontier models reveals a substantial capability gap: the strongest model achieves an EngiScore of only 44.3, and just 3.6% of multi-software attempts succeed. EngiWorld provides the first rigorous foundation for measuring progress toward agents that operate professional engineering software end to end.",
+   "authors": [
+    "Hongcheng Gao",
+    "Hailong Qu",
+    "Yu Lei",
+    "Henghui Sun",
+    "Haoyang Li",
+    "Yipeng Wei",
+    "Naihao Xue",
+    "Xiaohan Yu",
+    "Zhuo Tao",
+    "Yihe Zang",
+    "Yajiao Wang",
+    "Jingyi Tang",
+    "Yi Li",
+    "Jingjing Zhou",
+    "Jie Luo",
+    "Bohan Zeng",
+    "Chengyu Shen",
+    "Hao Jiang",
+    "Chong Chen",
+    "Bowen Qu",
+    "Olive Huang",
+    "Zeqiang Wang"
+   ],
+   "orgs": [
+    "Zhiman AI"
+   ],
+   "published": "2026-09-29T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2609.37686",
+     "signal": "▲ 31",
+     "metric": 31
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "EngiWorld：前沿智能体能否胜任专业工程环境",
+   "summary_zh": "首个覆盖完整工程设计闭环的基准，1301 个任务横跨 6 大工程域与 26 个专业软件，最强模型仅得 44.3 分。",
+   "highlights_zh": [
+    "以产物为中心评测，程序化校验几何有效性、物理可行性与规则合规",
+    "覆盖 CAD/CAE/CAM/BIM/EDA 与 3D 可视化，含 GUI 与 CLI 接口",
+    "多软件协同任务成功率仅 3.6%，暴露明显能力缺口"
+   ],
+   "why_zh": "为智能体进入专业工程软件给出首个严格评测标尺，缺口数据很有参考价值。",
+   "tags": [
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.5872,
+   "score_llm": 8.0,
+   "score": 0.7149,
+   "date": "2026-09-30",
+   "slot": "evening",
+   "selected_at": "2026-09-30T11:03:51+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.37686.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.37686"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.37686"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.37686"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.37686"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.37686"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.37686"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/Hongcheng-Gao/EngiWorld"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7910e80df825",
+   "kind": "article",
+   "title": "OpenAI Dev Day, Dot and OpenAI’s Product Transition, Sign In With ChatGPT",
+   "url": "https://stratechery.com/2026/openai-dev-day-dot-and-openais-product-transition-sign-in-with-chatgpt/",
+   "pdf_url": "",
+   "abstract": "OpenAI's Dev Day showcased a product that is, frankly, pretty confusing. However, there is more vision here than it might seem.",
+   "authors": [
+    "Ben Thompson"
+   ],
+   "orgs": [
+    "Stratechery"
+   ],
+   "published": "2026-09-30T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "Stratechery",
+     "authority": 0.8,
+     "url": "https://stratechery.com/2026/openai-dev-day-dot-and-openais-product-transition-sign-in-with-chatgpt/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Ben Thompson，科技战略分析",
+   "title_zh": "Ben Thompson：OpenAI Dev Day 产品混乱，但愿景更清晰",
+   "summary_zh": "Ben Thompson 认为 OpenAI Dev Day 展示的产品令人困惑，但背后蕴含的愿景比表面看起来更清晰，指向产品形态的战略转型。",
+   "highlights_zh": [
+    "批评 Dev Day 产品呈现混乱、难以理解",
+    "认为背后战略愿景比表面更清晰",
+    "聚焦 OpenAI 的产品转型与生态布局"
+   ],
+   "why_zh": "顶级科技战略分析师对 OpenAI 产品路线的深度解读。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.708,
+   "date": "2026-09-30",
+   "slot": "evening",
+   "selected_at": "2026-09-30T11:03:51+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://stratechery.com/2026/openai-dev-day-dot-and-openais-product-transition-sign-in-with-chatgpt/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3fc2aadd4860",
+   "kind": "article",
+   "title": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
+   "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
+   "pdf_url": "",
+   "abstract": "the most confident DevDay yet.",
+   "authors": [
+    "swyx"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-09-30T05:53:10+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "OpenAI DevDay 2026 全览：Dots、6.1 Sol、Agents API 与 12 亿周活",
+   "summary_zh": "Latent Space 总结 OpenAI DevDay 2026 发布，涵盖 Dots、6.1 Sol、Ultrafast、Decisions/Agents API、Spaces、Marketplace，并披露 ChatGPT 周活达 12 亿。",
+   "highlights_zh": [
+    "发布 Agents API、Decisions API 等开发者能力",
+    "推出 Dots、6.1 Sol、Ultrafast 等新模型/产品",
+    "ChatGPT 周活跃用户达 12 亿"
+   ],
+   "why_zh": "一站式掌握 OpenAI 最新产品矩阵与生态动向。",
+   "tags": [
+    "大模型",
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-09-30",
+   "slot": "evening",
+   "selected_at": "2026-09-30T11:03:51+00:00",
+   "mirror_pdf": "pdf/web-3fc2aadd4860.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.37559",
+   "kind": "paper",
+   "title": "APM-Bench: Benchmarking Cross-session Persistent Memory for Egocentric Streaming Video Assistants",
+   "url": "https://arxiv.org/abs/2609.37559",
+   "pdf_url": "https://arxiv.org/pdf/2609.37559",
+   "abstract": "To serve as real-world personal assistants, streaming video models need persistent memory that retains past experiences for later use. Yet existing streaming benchmarks and methods often focus on individual continuous videos or short clips, overlooking that real-world interactions are often intermittent and require memory to persist across interruptions. To fill this gap, we introduce APM-Bench, which reformulates real-world streaming interaction as multi-session life trajectories. It contains 549 sessions, 104 trajectories, and 2,719 candidates, spanning both objective and open-ended questions. Each session is a video with fine-grained annotations, and sessions within a trajectory revolve around related activities. Models then use persistent memory to answer questions about past sessions and provide proactive responses while maintaining real-time interaction. This raises challenges: persistent memory must be storable, selectively retain information, be injected at the right time, and remain efficient. Moreover, finite storage may leave required evidence unavailable, so assistants should recognize missing evidence. Therefore, we systematically evaluate general video models under different memory protocols and diverse specialized streaming memory systems, and test whether models acknowledge insufficient evidence. Our evaluation reveals a clear utility--latency--storage trade-off: existing methods still struggle to simultaneously achieve reliable long-term recall, low overhead, and effective proactive assistance across sessions. APM-Bench provides a comprehensive testbed for developing and comparing persistent memory systems under realistic streaming conditions. We hope it encourages future work that jointly considers utility, latency, and storage toward more practical persistent memory for real-world streaming assistants.",
+   "authors": [
+    "Jianguo Huang",
+    "Jinming Liu",
+    "Qiyao Wang",
+    "Liang Xu",
+    "Jianhang Li",
+    "Zhimian Wen",
+    "Mingda Li",
+    "Shule Lu",
+    "Zhicheng Wang",
+    "Yuhan Guo",
+    "Xin Jin",
+    "Wenjun Zeng"
+   ],
+   "orgs": [],
+   "published": "2026-09-29T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2609.37559",
+     "signal": "▲ 10",
+     "metric": 10
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "APM-Bench：跨会话持久记忆的视频助手评测",
+   "summary_zh": "针对流式视频助手缺乏跨会话记忆的问题，提出含 549 会话、104 轨迹的 APM-Bench，评测显示模型在效用、延迟与存储间存在明显权衡。",
+   "highlights_zh": [
+    "将真实交互重构为多会话生活轨迹",
+    "覆盖客观与开放式问题",
+    "揭示效用-延迟-存储权衡"
+   ],
+   "why_zh": "为视频助手的持久记忆能力提供首个系统评测基准。",
+   "tags": [
+    "多模态",
+    "数据与评测",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5234,
+   "score_llm": 8.0,
+   "score": 0.6894,
+   "date": "2026-09-30",
+   "slot": "evening",
+   "selected_at": "2026-09-30T11:03:51+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.37559.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.37559"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.37559"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.37559"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.37559"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.37559"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.37559"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/Jianguo-Huang11/APM-Bench"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-74d1f7499cf2",
+   "kind": "article",
+   "title": "DeepSeek知乎独家发文，首次公开V4.1 Agent训练“大本营”DSec",
+   "url": "https://www.qbitai.com/2026/09/499308.html",
+   "pdf_url": "",
+   "abstract": "DeepSeek在知乎独家发布技术长文，首次系统阐释了DeepSeek弹性计算（DeepSeek Elastic Compute，DSec）",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-09-30T05:18:05+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/09/499308.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek 知乎独家发文，首公开 V4.1 Agent 训练底座 DSec",
+   "summary_zh": "DeepSeek 在知乎发布技术长文，首次系统阐释弹性计算平台 DSec，作为 V4.1 Agent 训练的底层基础设施。",
+   "highlights_zh": [
+    "首次公开 Agent 训练所用弹性计算底座 DSec",
+    "面向 V4.1 Agent 训练的系统级设计",
+    "头部厂商罕见披露训练基础设施细节"
+   ],
+   "why_zh": "想了解头部大模型 Agent 训练工程体系的必读。",
+   "tags": [
+    "智能体",
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-09-30",
+   "slot": "evening",
+   "selected_at": "2026-09-30T11:03:51+00:00",
+   "mirror_pdf": "pdf/web-74d1f7499cf2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/09/499308.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5d0568f91b9f",
+   "kind": "article",
+   "title": "AI needs $6T in annual revenue to justify data centre boom",
+   "url": "https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-09-29T19:21:25Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49898952",
+     "signal": "205 pts",
+     "metric": 205
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AI 需年入 6 万亿美元才能撑起数据中心热潮",
+   "summary_zh": "分析指出，当前数据中心投资规模需要 AI 年收入达约 6 万亿美元才能回本，引发对泡沫的质疑。",
+   "highlights_zh": [
+    "测算 AI 收入需达约 6 万亿美元/年才能匹配资本开支",
+    "直指算力投资与商业回报之间的巨大缺口",
+    "HN 高热度，反映市场对 AI 泡沫的普遍焦虑"
+   ],
+   "why_zh": "理解算力投资与收入预期的落差，是判断 AI 市场周期的重要视角。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5698,
+   "score_llm": 7.0,
+   "score": 0.6479,
+   "date": "2026-09-30",
+   "slot": "evening",
+   "selected_at": "2026-09-30T11:03:51+00:00",
+   "mirror_pdf": "pdf/web-5d0568f91b9f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49898952"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8d6999b31d11",
+   "kind": "article",
+   "title": "Muse爆火，dots入场：Personal Agent开始和互联网平台抢入口",
+   "url": "https://www.leiphone.com/category/yanxishe/Zqcw9XvSO2Ht6FIQ.html",
+   "pdf_url": "",
+   "abstract": "Personal Agent，正在成为这一轮 AI 产品竞争里最热的新概念之一。 9 月 29 日，OpenAI 发布了可以长期在线的个人 Agent 产品 dots，提出“always-on agents”。更早把这个词推到台前的是 Meta 发布的个人 Agent 产品 Muse，截至 9 月下旬下载量突破 300 万，一度将 ChatGPT 从美国 App Store 免费榜第一的位置上挤下。（雷峰网） Muse 运行在一台独立的云端虚拟电脑里，有自己的浏览器，可以替用户打开网页、填写表格、发邮件、预订旅行；一些耗时更长的任务，即使用户退出 App，它也可以继续在后台执行。扎克伯格举过用 Muse 爬山预约的例子： 任务可以跨几天甚至几周持续存在。 Muse 之后，这条路线很快开始变得拥挤。9 月 28 日，Manus 推出一款名为 Cue 的独立应用。 国内大厂也开始往同一个方向靠拢。 千问宣布加速打造 Personal Agent；豆包早在今年 4 月就启动了代号 Spell 的 Personal Agent 项目，Muse 走红后字节进一步加速推进，计划 9 月底完成体验版测试。腾讯也被曝正在内测代号 Handy Bot 的 Personal Agent，并计划推出独立 App。 不到一个月，Muse、Cue、千问，以及更多正在跟进的产品，把 Personal Agent 从一个产品概念推成了新的竞争方向。问题也随之出现：过去两年 Agent 已经火过很多轮， 为什么现在 Personal Agent 突然集中出现？以及这些公司想竞争的到底是什么？ 01 Personal Agent 围绕“人”建立 Context Personal Agent 为什么在这个时间点集中爆发？我们可以从以下三个方面理解。 首先，是场景成熟度。 过去一段时间，Codex、WorkBuddy 这类办公 Agent 已经把“AI 能真正替用户做事”推向了主流。用户愿意交给 Agent 的任务正在变得越来越重。 其次，是用户需求的变化。 Assistant Benchmark 创始人 David Pawlan 指出，市场上已有 122 款不同类型的 Agent 产品，日常高频场景集中在邮件归类、表单填写和代理协作事项上。这些需求有一个共同特征：用户希望产品长期记住自己的状态、习惯和偏好，替自己长期管理某件事。 最后，是技术可行性。 支撑长期记忆和后台执行的技术，在这半年里集中走向工程可用。过去 Agent 一旦跨天、跨周，容易出现信息衰减、关键上下文丢失和任务跑偏；现在这些问题开始被长期 Memory、云端执行环境和后台任务机制逐步缓解。 但长期理解一个人，和完成一个明确任务，是两种不同的工作方式。 办公 Agent 通常围绕 任务 工作。任务很明确，比如要修一个项目 Bug，就读取相关代码、报错和测试文件，这是它工作的上下文，一项任务结束，这组 Context 的作用也基本结束。 办公 Agent 主要管理任务状态，Personal Agent 则试图长期管理一个人的状态。 很多时候，用户的想法还比较模糊，告诉它的可能只是“下个月想出去玩几天”“最近想把生活规律一点”“这笔花费是不是还能更便宜”。 正在做 Personal Agent 的创业者林周告诉雷峰网，他们早期的产品更像“一句话生成一个小应用”，但很快发现，只要用户没有明确想法，Agent 就很难继续提供价值。后来产品开始转向长期记住用户状态、习惯和偏好，再判断下一步需要什么。 这也决定了Persona",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-09-30T08:35:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/yanxishe/Zqcw9XvSO2Ht6FIQ.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Personal Agent 混战：OpenAI、Meta、字节争抢新入口",
+   "summary_zh": "Meta Muse 下载破 300 万，OpenAI dots、Manus Cue 及国内大厂密集入场，Personal Agent 从概念变成新竞争方向，核心是长期管理用户状态而非完成单次任务。",
+   "highlights_zh": [
+    "Muse 运行在独立云端虚拟电脑，可跨天跨周后台执行任务",
+    "办公 Agent 围绕任务，Personal Agent 围绕人建立长期 Context",
+    "长期记忆与云端执行环境技术走向工程可用，是集中爆发的前提"
+   ],
+   "why_zh": "理解 Agent 竞争从任务型转向个人入口型的关键拐点",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-09-30",
+   "slot": "evening",
+   "selected_at": "2026-09-30T11:03:51+00:00",
+   "mirror_pdf": "pdf/web-8d6999b31d11.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/yanxishe/Zqcw9XvSO2Ht6FIQ.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a7847b1c73e8",
+   "kind": "article",
+   "title": "拆解 WorkBuddy、千问办公和豆包工作，它们其实不是同一种产品",
+   "url": "https://www.leiphone.com/category/yanxishe/d4mykzxmMYWWwHNk.html",
+   "pdf_url": "",
+   "abstract": "活是 AI 干的，锅是人背的。 作者丨Reah 编辑丨李娜 岑峰 我们以职场牛马的身份，把同一份脏活同时交给了三家办公 Agent：WorkBuddy、千问办公和豆包工作。本来想试试能不能为自己省出半天时间，结果半天没省出来，先被三个总额问住了。 这份脏活是一张销售流水表，混着不同日期格式、退款、跨季度订单、部门缺失和异常金额，平时谁看了都头疼。 同一份 脏销售流水 和同一句提示词，交给 WorkBuddy、千问办公、豆包工作。 三家都交了 Excel、PPT 和摘要，算出的三个季度总额，最高比最低却多出 57.7%。 除了脏流水，我们还让它们核查五项近期公开信息，又给了一份实际不存在的内部文件；随后拆开三个 macOS 安装包，看它们为 Agent 准备了什么执行环境。 彼得·德鲁克 1999 年谈知识工作者生产力，说这是 21 世纪管理最重要的挑战，同时强调知识工作的质量至少和数量同等重要。 问题恰恰在这儿：数量容易统计，质量依赖判断。职场没法量化产出，自然也量化不了减负。 AI 帮你省了多少时间，你证明不了；老板觉得你还能再快，你也反驳不了。 管理学之父彼得·德鲁克 腾讯、阿里、字节都开始让 AI 进办公室干活了。三款产品都能处理表格、找资料、生成 PPT、调用工具，甚至操作电脑。但用下来最大的感受是：AI 确实能干活，干完之后的核对、判断和背锅，一样没少。Agent 完成任务，不等于人获得减负。省下的时间，可能只是被新的任务迅速填满。 说到底，我们想弄清楚的是：AI 把执行接走之后，判断、核对和背锅到底落在谁头上？省下来的时间又还给了谁？ 01 三家三条路线，但没人帮你背锅 三家横向对比：同一个品类名下 押注的分别 是平 台、入口和企业上下文 把三家放在一起看大概能发现虽然都是办公 Agent，但还是有略微侧重。 腾讯想把 WorkBuddy 做成 Agent 时代的平台底座，它开放 Skill、Expert 和 Connector，To B 路线最重；阿里把千问办公嵌进钉钉，用组织入口和多模型供给建立优势；字节的豆包工作则依托飞书企业上下文，以独立客户端和手机远程操控电脑形成差异。表面上都是办公 Agent，背后押注的其实分别是平台、入口与企业上下文。至于计费是否透明、权限是否可控、真实任务能不能完成，则要留到后续实测里回答。 对了，这张表里真正值得看的，其实不只是横向差异，还有它出现的时间。 2026 年夏天前后，三家公司先后对内部办公 AI 做了一轮“组织手术”。阿里将钉钉、MuleRun、CoderWork 与千问办公纳入同一负责人体系，并从多个团队抽取能力搭建千问办公；字节把分散在飞书、TRAE Work、扣子中的相关能力向豆包体系集中，最终推出豆包工作；腾讯则在 9 月 2 日上线开放平台，把 WorkBuddy 从桌面工具推向更完整的平台底座。 三家公司做的第一件大事，都不只是换模型、加功能，而是先重新划定团队、产品和生态的边界。 原因并不难理解。办公 Agent 要接住的不是一次聊天，而是一个人的文件、账号、权限、记忆和任务状态。如果同一家公司内部同时有四个产品在争夺同一个用户，就会出现四份上下文、四套授权和四个互不相认的“你”。 谁不能先整合自己内部的山头，谁就很难承诺替用户整合工作流。 很多人把办公 Agent 理解成 coding Agent 向白领市场的自然下沉。但腾讯保留 CodeBuddy 与 WorkBuddy，阿里分开 Qoder 与千问办公，字节也把 TRAE 编程线与豆包工作线区分开来。三家公司共同做出",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-09-30T07:37:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/yanxishe/d4mykzxmMYWWwHNk.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "拆解三大办公Agent：腾讯、阿里、字节押注各不同",
+   "summary_zh": "雷峰网实测WorkBuddy、千问办公、豆包工作三款办公Agent，同一脏数据任务算出总额相差57.7%，揭示三家分别押注平台、入口与企业上下文三条路线。",
+   "highlights_zh": [
+    "同一份脏销售流水交给三家，季度总额最高比最低多出57.7%，核对与背锅仍由人承担",
+    "腾讯WorkBuddy走开放平台底座路线，阿里千问办公嵌入钉钉靠组织入口，字节豆包工作依托飞书企业上下文",
+    "三家公司先做内部组织整合再推产品，避免多产品争夺同一用户导致上下文割裂"
+   ],
+   "why_zh": "看清办公Agent三条路线差异与真实落地短板，判断大厂To B布局方向。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-09-30",
+   "slot": "evening",
+   "selected_at": "2026-09-30T11:03:51+00:00",
+   "mirror_pdf": "pdf/web-a7847b1c73e8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/yanxishe/d4mykzxmMYWWwHNk.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-eff77665f0c6",
+   "kind": "article",
+   "title": "从三维视觉到世界模型：空间智能为何成为 AI 走向物理世界的共同主线？| ECCV 2026复盘",
+   "url": "https://www.leiphone.com/category/academic/hxpVB01n8UMq6NDS.html",
+   "pdf_url": "",
+   "abstract": "AI 正从看懂画面，走向理解空间、预测变化、执行动作。 作者丨 张岂萍 编辑丨 幸丽娟 AI 已经越来越会生成一个“看起来真实”的世界，却依然很难真正理解并行动于这个世界。 物体在哪里、彼此是什么空间关系，遮挡之后还剩下什么；一个动作发生后，世界会怎样变化。这些问题的解法，共同指向空间智能。 而近两年具身智能与世界模型的爆火，进一步推动空间智能成为 AI 走向物理世界的核心能力基座。 回看 ECCV 2026，这趋势尤其明显。 大会程序主席 Anna Rohrbach 公布的数据显示，本届 ECCV 共收到 10473 篇投稿，最终接收 2834 篇。 按研究主题划分，图像与视频合成以超过 1400 篇位居第一，视觉、语言与推理第二， 3D 则从此前的主导方向退居第三。 但 3D 主题排名的后退，不等于3D 退潮。相反，过去主要集中在 3D 视觉和图形学中的三维表示、几何与物理一致性、动态建模、可交互生成与空间推理等基础问题，正在向视频生成、机器人、具身智能、世界模型等方向扩散，成为 AI 走向物理世界时共同面对的问题集。 从大会 Workshop 也能看到这种变化。93 场 Workshop 中，约 10 场与 3D 直接相关，11 场涉及空间智能，9 场指向物理AI，还有 5 场以世界模型为主题。 尤其是在世界模型和物理 AI 相关 Workshop 中，不少演讲都在围绕三维空间理解、动态场景建模、预测以及进一步的执行能力展开探讨。 香港科技大学教授谭平 围绕可扩展的 3D 场景重建与生成展开，从场景表示切入三维空间理解； 斯坦福大学助理 教授 吴佳俊 从二维视觉进一步走向随时间变化的三维点云轨迹，用时空表示理解物体状态及空间关系 ； 中山大学教授梁小丹 把重点放在未来预测上，强调世界模型要能够推演接下来真正可能发生的状态变化 ； 哈佛大学助理教授杜逸伦 则从生成式 AI 和世界模型出发，让模型先“想象”不同动作可能带来的未来，再通过搜索这些未来结果完成规划。 如果说投稿和 Workshop 反映的是热度，奖项则更能说明风向。 今年的 Koenderink 时间检验奖中，有一项颁给了空间智能旗帜人物李飞飞及其团队。 最佳论文 重新讨论 三维表面的表示方式 ；两篇 最佳论文荣誉提名 也分别落在 物体三维重建和几何感知上 。 这些信号放在一起看，3D 相关研究依然保持高热度。几何重建、场景表示和渲染等老问题继续深化，研究也在向动态场景、4D 表示和交互式环境延伸。三维视觉开始承担更多空间理解的任务，并进一步支撑状态预测和行动。 空间智能正在成为串起这些问题的一条主线。 01 三维视觉：从静态几何、重建与渲染， 走向动态 4D 与交互场景 今年几项主要论文奖中，三维表示、重建和几何感知反复出现。 最佳论文《Heat Kernel Textures — the Geodesic Gaussians That Do Not Splat》 由帝国理工学院的 Simone Foti、Caner Korkmaz、Stefanos Zafeiriou 和 Tolga Birdal 完成。它重新回答了一个很基础的问题： 三维曲面的纹理到底该怎么表示。 论文链接： https://arxiv.org/pd f/2609.07 557 传统网格纹理大多依靠 UV 映射，把三维曲面摊到二维平面上贴图。这套方法成熟好用，但一直摆脱不了几个老毛病： 纹理接缝、曲面拉伸、UV 空间浪费、顶点重复、不同区域分辨率参差不齐。 Heat Kernel Textures 换了一条路",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-09-30T06:24:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/academic/hxpVB01n8UMq6NDS.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "从三维视觉到世界模型：空间智能成AI物理世界主线",
+   "summary_zh": "ECCV 2026复盘显示，3D主题虽退居第三但向视频生成、机器人、世界模型扩散，93场Workshop中约10场与3D直接相关，空间智能正成为AI走向物理世界的共同主线。",
+   "highlights_zh": [
+    "本届ECCV收到10473篇投稿接收2834篇，图像与视频合成超1400篇居首",
+    "李飞飞团队获Koenderink时间检验奖，最佳论文聚焦三维表面表示",
+    "谭平、吴佳俊、梁小丹、杜逸伦等分享从重建、时空表示到世界模型预测与规划"
+   ],
+   "why_zh": "把握空间智能与世界模型成为AI走向物理世界核心基座的趋势信号。",
+   "tags": [
+    "视觉",
+    "多模态",
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-09-30",
+   "slot": "evening",
+   "selected_at": "2026-09-30T11:03:51+00:00",
+   "mirror_pdf": "pdf/web-eff77665f0c6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/academic/hxpVB01n8UMq6NDS.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b6261dc95d5d",
+   "kind": "article",
+   "title": "中国大模型首次进入 OpenAI 企业付费结算体系，Kimi K3 接入 Codex 企业通道",
+   "url": "https://www.ithome.com/1/008/864.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 9 月 30 日消息，美国 AI 基础设施公司 Baseten 今天宣布与 OpenAI 达成合作，成为 OpenAI B2B 市场首批开源模型推理服务提供商之一。企业用户可通过 Codex 使用 Kimi K3 和 GLM 5.3 等开源模型，意味着中国开源模型首次进入 OpenAI 企业采购体系。 IT之家了解到，Kimi K3 是月之暗面开发的大模型。官方宣称其是首个参数规模达 2.8 万亿的开源模型。该模型原生支持视觉能力， 拥有 100 万 Token 的上下文窗口 ，非常适合执行长时间编程、多文档分析等工作。 如今，OpenAI 企业用户可通过 Codex 或 Responses API 调用 Kimi K3 等开源模型，以相同的预算获得更多 AI 能力。Baseten 承诺其提供的所有模型均运行在美国服务器，针对所有提示词实行零数据保留（ZDR）。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-09-30T10:19:18+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/008/864.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "中国大模型首次进入 OpenAI 企业付费结算体系",
+   "summary_zh": "Baseten 与 OpenAI 合作，企业用户可通过 Codex 调用 Kimi K3、GLM 5.3 等开源模型，中国开源模型首次进入 OpenAI 企业采购体系。",
+   "highlights_zh": [
+    "Kimi K3 参数规模达 2.8 万亿，原生支持视觉",
+    "100 万 Token 上下文，适合长编程与多文档分析",
+    "Baseten 承诺美国服务器运行、零数据保留"
+   ],
+   "why_zh": "中国开源模型进入美国企业采购通道，是模型生态格局的重要信号。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-09-30",
+   "slot": "evening",
+   "selected_at": "2026-09-30T11:03:51+00:00",
+   "mirror_pdf": "pdf/web-b6261dc95d5d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/008/864.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a6e5f3e643a1",
+   "kind": "article",
+   "title": "Manus 2.0回来了！给AI配手机号和钱包，还能拉群干活",
+   "url": "https://www.qbitai.com/2026/09/499592.html",
+   "pdf_url": "",
+   "abstract": "给Agent配上手机号，再拉个群",
+   "authors": [
+    "henry"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-09-30T07:58:37+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/09/499592.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Manus 2.0 回归：给 AI 配手机号与钱包，还能拉群协作",
+   "summary_zh": "Manus 发布 2.0 版本，为 Agent 配备手机号与支付钱包，并支持多 Agent 拉群协同干活，向更自主的通用智能体形态演进。",
+   "highlights_zh": [
+    "为 Agent 分配手机号与钱包，打通真实世界的通信与支付",
+    "支持多 Agent 拉群协作，任务可分工执行",
+    "标志通用 Agent 从单机工具向可交易、可协作主体演进"
+   ],
+   "why_zh": "关注 Agent 商业化与自主执行能力边界的从业者值得一看。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-09-30",
+   "slot": "evening",
+   "selected_at": "2026-09-30T11:03:51+00:00",
+   "mirror_pdf": "pdf/web-a6e5f3e643a1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/09/499592.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cbbad0b5ff60",
+   "kind": "article",
+   "title": "刚刚，GPT-6 Astra接上宇树G1，把厨房收拾了！",
+   "url": "https://www.qbitai.com/2026/09/499493.html",
+   "pdf_url": "",
+   "abstract": "让GPT把机器人技能当工具调用",
+   "authors": [
+    "henry"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-09-30T07:54:54+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/09/499493.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "GPT-6 Astra 接入宇树 G1，把厨房收拾了",
+   "summary_zh": "演示将 GPT 作为大脑，把机器人技能当作工具调用，驱动宇树 G1 完成收拾厨房等长程家务任务。",
+   "highlights_zh": [
+    "大模型以工具调用方式编排机器人底层技能",
+    "宇树 G1 完成厨房整理等真实场景长程任务",
+    "体现具身智能中「大模型当大脑」的路线"
+   ],
+   "why_zh": "了解大模型与机器人本体结合的最新落地形态。",
+   "tags": [
+    "机器人",
+    "智能体",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-09-30",
+   "slot": "evening",
+   "selected_at": "2026-09-30T11:03:51+00:00",
+   "mirror_pdf": "pdf/web-cbbad0b5ff60.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/09/499493.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6d5b4f414ec8",
+   "kind": "article",
+   "title": "36家敲钟的机器人公司：赚钱能力差距巨大，商业化也不玩花架子了",
+   "url": "https://www.qbitai.com/2026/09/499280.html",
+   "pdf_url": "",
+   "abstract": "机器人上市，风向有变",
+   "authors": [
+    "杰西卡"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-09-30T04:42:22+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/09/499280.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "36 家机器人公司敲钟：赚钱能力差距悬殊，商业化不再玩花架子",
+   "summary_zh": "梳理 36 家已上市机器人公司，指出其盈利能力差距巨大，行业商业化正从概念转向务实落地。",
+   "highlights_zh": [
+    "36 家机器人上市公司盈利分化明显",
+    "行业从讲故事转向真实商业化",
+    "为判断机器人赛道投资价值提供参照"
+   ],
+   "why_zh": "把握机器人赛道商业化与资本风向的行业盘点。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-09-30",
+   "slot": "evening",
+   "selected_at": "2026-09-30T11:03:51+00:00",
+   "mirror_pdf": "pdf/web-6d5b4f414ec8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/09/499280.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ee711ecd9dde",
+   "kind": "article",
+   "title": "GLM-5.3 and the spread of advanced cyber capabilities",
+   "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-09-29T17:31:26Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49897075",
+     "signal": "227 pts",
+     "metric": 227
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "GLM-5.3 与先进网络攻击能力的扩散",
+   "summary_zh": "讨论 GLM-5.3 等模型在网络攻击能力上的表现，以及这类能力扩散带来的安全担忧。",
+   "highlights_zh": [
+    "聚焦大模型被用于网络攻击的风险",
+    "涉及能力扩散与开源模型安全讨论",
+    "缺少摘要，具体结论需读原文"
+   ],
+   "why_zh": "模型攻防能力边界是安全与对齐议题的重要风向标。",
+   "tags": [
+    "对齐与安全",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.5746,
+   "score_llm": 6.0,
+   "score": 0.5898,
+   "date": "2026-09-30",
+   "slot": "evening",
+   "selected_at": "2026-09-30T11:03:51+00:00",
+   "mirror_pdf": "pdf/web-ee711ecd9dde.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49897075"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-24ea0e7e0385",
+   "kind": "article",
+   "title": "实测 Qwen-3.8 与 GLM-5.3 的 Flash 版：谁能让我提前下班半小时？",
+   "url": "https://www.leiphone.com/category/yanxishe/Dp2FW4Pb6iLUvdhf.html",
+   "pdf_url": "",
+   "abstract": "2026 年 8 月 26 日，同一天，Qwen 发布 Qwen3.8-Flash-Next/Qwen3.8-Flash，Z.AI 发布 GLM-5.3-Flash。从名字看，“Flash 模型”代表低价、快速、负责高频调用，更多是旗舰模型的补位产品，但这次两家官方给出的宣传重点，其实已经不再停留在 便宜聊天 上。（雷峰网） 千问云对 Qwen3.8-Flash 的定位直指 1M 长上下文、长文档、完整代码库、复杂对话、编程辅助、工作流编排和视觉理解 ，并强调它能够接入开发者工具；而智谱对 GLM-5.3-Flash 的描述则更进一步 把视觉编程、办公任务、金融研究、文档处理，以及 PPTX、PDF、DOCX、XLSX 这类交付成果写进核心卖点。 因此，两款模型都传递出一个新的信号：Flash 并非只是旗舰模型的低价补位，而是正在进入办公、开发和交付物生成这些真实生产力场景的底层基座。 那么，一个更实际的问题是：如果 Flash 模型是为了应对用户每天的高频任务而生，首先应该证明什么？我们的判断是： 模型首先要证明自己懂办公 。 结合模型超强的综合能力，我们认为懂办公，应该能理解用户在办公场景中的真实痛处：对多数办公用户来说，办公任务常常是一组持续发生的上下文切换，今天要做什么，哪些事项最紧急，哪些会议会挤占时间，哪些项目已经延期，哪些笔记需要沉淀成行动项，哪些零散信息要在需要时被重新找到，而真正消耗人的，往往不是某一个任务本身，而是任务、日程、项目、笔记和资料彼此分散之后带来的管理成本。 因此，我们要求模型完成一组包含任务管理、日程管理、笔记管理、工作概览和全局搜索等功能的工作台开发任务，从而看清模型能否把办公痛点转译成一套合理的工作流：帮助用户规划任务优先级，安排日程节奏，追踪项目状态，沉淀工作笔记，并通过一个统一入口降低来回切换工具的成本。 从结果来看，两个 Flash 模型都已经迈过了“能不能做”的门槛：它们都能把自然语言需求拆成前后端、数据持久化、页面交互和测试文档，并交付出一个可运行的个人工作台。但真正有意思的差异也在这里出现：GLM-5.3-Flash 更像一个工程交付型模型，先把登录、模块、CRUD、统计和测试补完整；Qwen3.8-Flash 更像一个个人工作流设计型模型，更早把优先级、截止日期、7 天内安排、全局搜索和 Markdown 笔记放到办公体验核心。 这也构成了本文的核心结论：Flash 模型的价值，已经从“更便宜地回答问题”转向“以更低成本进入真实高频工作流”，两款模型都能胜任基础办公应用开发，但 GLM 胜在系统完整度和工程感，Qwen 胜在对个人办公节奏的捕捉 ；前者把办公做成一套管理系统，后者则更像在尝试替用户整理一天的工作。再结合 GLM-5.3 的成本对比来看，一个更值得关注的产业趋势正在浮现： 未来大多数办公任务未必都需要旗舰模型出手，Flash 模型将成为承接日常生产力需求的主力模型 。 01 实测：从零开发个人工作台，谁更懂日常办公？ 我们分别调用 Qwen3.8-Flash 和 GLM-5.3-Flash，在 Claude Code 中完成一个“网页版个人工作台”开发任务，采用同一任务、同一环境进行实测。 测试任务如下： # 任务：开发一个完整可运行的个人工作台 / 办公网站 本次测试要求模型从零开发一个可独立运行的个人工作台 Web 应用，面向个人日常办公场景，支持任务管理、日程管理、笔记管理、Dashboard 工作概览和全局搜索等核心功能。 项目必须同时包含前端与后端，后端负责业务逻辑、数据",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-09-30T08:28:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/yanxishe/Dp2FW4Pb6iLUvdhf.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Qwen3.8 与 GLM-5.3 Flash 实测：谁更懂办公？",
+   "summary_zh": "同题实测两款 Flash 模型开发个人工作台，GLM 胜在工程完整度，Qwen 胜在对个人办公节奏的捕捉，Flash 正从低价补位转向日常生产力主力。",
+   "highlights_zh": [
+    "两款模型均能拆解需求并交付可运行的前后端工作台",
+    "GLM-5.3-Flash 偏工程交付，Qwen3.8-Flash 偏工作流设计",
+    "结论：多数办公任务未必需要旗舰模型出手"
+   ],
+   "why_zh": "为选型 Flash 级模型承接高频办公任务提供实测依据",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-09-30",
+   "slot": "evening",
+   "selected_at": "2026-09-30T11:03:51+00:00",
+   "mirror_pdf": "pdf/web-24ea0e7e0385.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/yanxishe/Dp2FW4Pb6iLUvdhf.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2070acb56111",
+   "kind": "article",
+   "title": "大模型下沉车规芯片：超六成的车企座舱，为何选中了同一个“端侧大脑”？",
+   "url": "https://www.infoq.cn/article/O5pKYU5hfR2DgrXP6zRE?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "青和"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-09-29T15:49:30+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/O5pKYU5hfR2DgrXP6zRE?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "大模型下沉车规芯片：端侧大脑的座舱之争",
+   "summary_zh": "报道超六成车企座舱选择同一端侧大模型方案，反映大模型向车规芯片下沉的趋势。",
+   "highlights_zh": [
+    "端侧大模型进入车规芯片",
+    "超六成车企座舱采用同一方案",
+    "座舱成为端侧 AI 落地关键场景"
+   ],
+   "why_zh": "了解端侧大模型在汽车座舱落地的市场格局。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-09-30",
+   "slot": "evening",
+   "selected_at": "2026-09-30T11:03:51+00:00",
+   "mirror_pdf": "pdf/web-2070acb56111.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/O5pKYU5hfR2DgrXP6zRE?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4dccba3801ca",
+   "kind": "article",
+   "title": "feder-cr/dots",
+   "url": "https://github.com/feder-cr/dots",
+   "pdf_url": "",
+   "abstract": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
+   "authors": [],
+   "orgs": [
+    "feder-cr"
+   ],
+   "published": "2026-09-30T11:03:51+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/feder-cr/dots",
+     "signal": "★ 890（新项目） · Python",
+     "metric": 890
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "dots：自带浏览器、不易被封的网页智能体",
+   "summary_zh": "开源网页智能体，自带浏览器环境，主打不易被反爬与风控拦截。",
+   "highlights_zh": [
+    "自带浏览器，无需额外配置即可跑网页任务",
+    "强调规避反爬与封禁，适合抓取与自动化操作",
+    "Python 项目，GitHub 新项目已获约 890 星"
+   ],
+   "why_zh": "如果你在做网页自动化或数据采集，可用它替代易被封的爬虫方案。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5792,
+   "score_llm": 5.0,
+   "score": 0.5317,
+   "date": "2026-09-30",
+   "slot": "evening",
+   "selected_at": "2026-09-30T11:03:51+00:00",
+   "mirror_pdf": "pdf/web-4dccba3801ca.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/feder-cr/dots"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "AI巨头竞争从模型能力转向定价分层与商业变现效率",
-   "why": "OpenAI年化收入逼近700亿美元，Anthropic与OpenAI以企业涨价、低端降价80%重新划分市场",
+   "trend": "AI巨头IPO竞赛开启，估值逻辑从技术叙事转向收入验证",
+   "why": "OpenAI年化收入逼近700亿美元且B2B翻倍，Anthropic招股书泄露，两家均在筹备上市。",
    "refs": [
-    "web-073d260e8fc8",
+    "web-06869ed70615",
     "web-fbd2633abfe0"
    ]
   },
   {
-   "trend": "安全对齐首次成为产品发布的硬性否决门槛",
-   "why": "OpenAI因沙盒逃逸暂停训练并取消Astra 6.1发布，行业首次因安全门杀出货",
+   "trend": "芯片巨头收购模型公司，算力竞争升级为对模型架构的理解权争夺",
+   "why": "AMD以82亿美元收购World Labs，李飞飞出任首席科学家，前沿模型洞察直接反哺芯片路线图。",
+   "refs": [
+    "web-29966d888032",
+    "web-57ee788969e8",
+    "web-95cdbb9611f1"
+   ]
+  },
+  {
+   "trend": "安全对齐首次成为出货硬门槛，行业被迫从竞速回归理性",
+   "why": "OpenAI因沙盒逃逸暂停训练并取消Astra 6.1发布，系行业首次因安全门杀出货。",
    "refs": [
     "web-3e3221b77946",
+    "web-e02943aa80cf",
     "web-95cdbb9611f1",
     "web-e8bfe28d59a8"
    ]
   },
   {
-   "trend": "芯片巨头收购世界模型团队，算力竞争转向模型理解力",
-   "why": "AMD以82亿美元全股票收购李飞飞World Labs，用前沿模型洞察反哺芯片路线图",
+   "trend": "智能体从辅助工具变为核心算力形态，沙箱调度成基础设施主战场",
+   "why": "Agent Sandbox每天被创建上千万次，OpenAI DevDay全面转向常驻智能体与按工作量定价。",
    "refs": [
-    "web-29966d888032",
-    "web-95cdbb9611f1"
+    "web-752c0361b94c",
+    "web-7e2b028e4184",
+    "web-128ac4ffbc5a",
+    "web-884977ecb800"
    ]
   },
   {
-   "trend": "智能体从对话工具升级为常驻式主动管家新品类",
-   "why": "OpenAI推Dots、腾讯Marvis转向OS级管家，Agent Sandbox日创建千万次成核心算力单元",
+   "trend": "世界模型研究转向推理时机制设计，泛化能力成新评测焦点",
+   "why": "清华发现丢弃未来预测丧失泛化优势，JEPA规划与用户模拟器保真度成为新评测维度。",
    "refs": [
-    "web-884977ecb800",
-    "web-6922c6145a6a",
-    "web-752c0361b94c"
-   ]
-  },
-  {
-   "trend": "评测方法从结果正确性转向来源可信与用户保真度",
-   "why": "MCP智能体强调来源追溯，UserProxyBench发现仅换用户模拟器任务奖励波动15.2分",
-   "refs": [
-    "web-984223f109f3",
+    "arxiv-2609.34981",
+    "arxiv-2609.37441",
     "arxiv-2609.38043"
    ]
   }
