@@ -1,12 +1,11 @@
-2026-09-30 16:46:12,933 INFO source hf_daily           -> 49 items
-2026-09-30 16:46:13,243 INFO source hackernews         -> 11 items
-2026-09-30 16:46:49,856 WARNING rss Paul Graham failed: HTTPConnectionPool(host='www.aaronsw.com', port=80): Max retries exceeded with url: /2002/feeds/pgessays.rss (Caused by NameResolutionError("HTTPConnection(host='www.aaronsw.com', port=80): Failed to resolve 'www.aaronsw.com' ([Errno -2] Name or service not known)"))
-2026-09-30 16:46:56,117 INFO source rss                -> 101 items
-2026-09-30 16:46:57,992 INFO source html_lists         -> 0 items
-2026-09-30 16:46:57,992 INFO source x                  -> 0 items
-2026-09-30 16:46:58,506 INFO source arxiv_search       -> 60 items
-2026-09-30 16:47:08,812 INFO source github             -> 20 items
-2026-09-30 16:47:08,814 INFO candidates: 238 (stale dropped 120, new 76)
-2026-09-30 16:48:15,026 INFO llm judged 76/76 (calls=10)
-2026-09-30 16:48:55,643 WARNING snapshot https://thezvi.wordpress.com/2026/09/30/a-morally-binding-white-house-accord-on-ai-safety/: blocked or empty page
-2026-09-30 16:51:04,419 INFO run done: {"at": "2026-09-30T16:46:12+00:00", "slot": "morning", "candidates": 238, "new": 76, "stale": 120, "judged": 76, "selected": 21, "mirrored": 19, "by_category": {"项目": 2, "资讯": 13, "观点": 1, "技术": 4, "论文": 1}, "by_source": {"HF Daily Papers": 49, "Hacker News": 11, "OpenAI": 6, "Sebastian Raschka": 1, "量子位": 10, "极客公园": 6, "IT之家": 12, "爱范儿": 9, "少数派": 3, "雷峰网": 16, "钛媒体": 6, "InfoQ 中文": 13, "Simon Willison": 1, "Latent Space": 4, "Stratechery": 2, "SemiAnalysis": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 3, "Google Research": 1, "Google DeepMind": 1, "NVIDIA": 1, "Microsoft": 1, "arXiv 新论文": 60, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
+2026-10-01 04:31:14,457 INFO source hf_daily           -> 36 items
+2026-10-01 04:31:14,766 INFO source hackernews         -> 3 items
+2026-10-01 04:31:55,612 WARNING rss Paul Graham failed: HTTPConnectionPool(host='www.aaronsw.com', port=80): Max retries exceeded with url: /2002/feeds/pgessays.rss (Caused by NameResolutionError("HTTPConnection(host='www.aaronsw.com', port=80): Failed to resolve 'www.aaronsw.com' ([Errno -2] Name or service not known)"))
+2026-10-01 04:32:03,207 INFO source rss                -> 94 items
+2026-10-01 04:32:05,391 INFO source html_lists         -> 0 items
+2026-10-01 04:32:05,392 INFO source x                  -> 0 items
+2026-10-01 04:32:06,056 INFO source arxiv_search       -> 60 items
+2026-10-01 04:32:15,518 INFO source github             -> 20 items
+2026-10-01 04:32:15,520 INFO candidates: 213 (stale dropped 50, new 116)
+2026-10-01 04:33:43,325 INFO llm judged 100/100 (calls=13)
+2026-10-01 04:36:21,417 INFO run done: {"at": "2026-10-01T04:31:13+00:00", "slot": "noon", "candidates": 213, "new": 116, "stale": 50, "judged": 100, "selected": 21, "mirrored": 21, "by_category": {"资讯": 13, "技术": 4, "观点": 1, "项目": 3}, "by_source": {"HF Daily Papers": 36, "Hacker News": 3, "量子位": 10, "极客公园": 7, "IT之家": 7, "爱范儿": 9, "少数派": 2, "雷峰网": 16, "钛媒体": 5, "InfoQ 中文": 14, "Simon Willison": 1, "Latent Space": 2, "Stratechery": 2, "Azeem Azhar": 1, "Zvi Mowshowitz": 2, "Sebastian Raschka": 1, "Hugging Face Blog": 3, "Google Research": 1, "METR": 1, "Hamel Husain": 1, "OpenAI": 4, "Google DeepMind": 2, "NVIDIA": 2, "Microsoft": 1, "arXiv 新论文": 60, "GitHub 新项目": 9, "GitHub Trending": 11}, "llm": true, "translated": 0}
