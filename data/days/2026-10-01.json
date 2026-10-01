@@ -2406,12 +2406,1180 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "arxiv-2609.39982",
+   "kind": "paper",
+   "title": "Mid-Harness: Scaling Actions Between Model and Harness for Terminal Agents",
+   "url": "https://arxiv.org/abs/2609.39982",
+   "pdf_url": "https://arxiv.org/pdf/2609.39982",
+   "abstract": "Terminal agents act through stochastic model generations, yet the ability to generate a useful action does not ensure its reliable execution. A poor command (e.g., wrong package install) can change the environment in ways that hinder subsequent progress, even when the model could generate a better alternative. We investigate whether allocating test-time compute at the model-harness boundary can improve action reliability and trajectory success, and what makes this allocation effective. To study these questions, we introduce Mid-Harness, which samples and verifies candidate actions before forwarding one for execution, while keeping the generator and harness unchanged. With a TMAX-9B generator, more action sampling yields little benefit under weak verification, whereas a capable verifier can exploit useful alternatives from the same generator. On TerminalBench-Lite, a GPT-5.6 Sol verifier raises Pass@1 from 50.00% for the base agent to 68.03% with 8 sampled actions. When the same TMAX-9B model serves as the verifier, pairwise verification performs best among the evaluated verification mechanisms. Distilling responses from the stronger verifier into TMAX-9B further improves Pass@1, while leaving the action generator unchanged. With TMAX-9B on TerminalBench-Lite, combining action and trajectory scaling reaches higher success at lower estimated token cost than generating more trajectories alone. Mid-Harness also improves performance across additional models, benchmarks, and harnesses. These findings identify action scaling as a promising target for test-time compute scaling in terminal agents.",
+   "authors": [
+    "Minki Kang",
+    "Ryo Hachiuma",
+    "Shaokun Zhang",
+    "Subhashree Radhakrishnan",
+    "Yonggan Fu",
+    "Jindong Jiang",
+    "Mingjie Liu",
+    "Ehsan Hosseini-Asl",
+    "Yi Dong",
+    "Yu-Chiang Frank Wang",
+    "Byung-Kwan Lee"
+   ],
+   "orgs": [
+    "NVIDIA"
+   ],
+   "published": "2026-09-30T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2609.39982",
+     "signal": "▲ 60",
+     "metric": 60
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2609.39982",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Mid-Harness：在模型与脚手架之间扩展终端智能体的动作采样",
+   "summary_zh": "NVIDIA 提出 Mid-Harness，在模型与脚手架之间采样并验证候选动作再执行。用 GPT-5.6 验证器时，TerminalBench-Lite 上 Pass@1 从 50% 升至 68%。",
+   "highlights_zh": [
+    "弱验证器下增加动作采样几乎无收益，强验证器才能从同一生成器中挖出有效替代动作",
+    "同模型自验证时，成对验证（pairwise）效果最佳",
+    "将强验证器蒸馏回小模型可提升成功率，且生成器无需改动"
+   ],
+   "why_zh": "做终端/代码智能体的团队可据此重新分配测试时算力，验证比多采样更关键。",
+   "tags": [
+    "智能体",
+    "推理",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.7658,
+   "score_llm": 8.0,
+   "score": 0.7863,
+   "date": "2026-10-01",
+   "slot": "evening",
+   "selected_at": "2026-10-01T11:30:18+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.39982.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.39982"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.39982"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.39982"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.39982"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.39982"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.39982"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.38721",
+   "kind": "paper",
+   "title": "UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement",
+   "url": "https://arxiv.org/abs/2609.38721",
+   "pdf_url": "https://arxiv.org/pdf/2609.38721",
+   "abstract": "Modern multimodal models bring generation and understanding into a single unified system, which enables them to provide and learn from their own feedback. Motivated by this unified capacity, we introduce UniEvo-VL, a self-evolving framework for multimodal models to learn from this constructive self-correction feedback during test-time compute. Instead of relying on a separate, often larger, teacher, we leverage their self-critiques as privileged information and ask a single multimodal model to act as both teacher and student with different contexts. The student only sees the vanilla question, while the teacher conditions on the privileged critique. Then training minimizes the per-state divergence between their denoising diffusion distributions over the student's own sampling trajectories. Experiments demonstrate that UniEvo-VL improves the image generation capabilities of multimodal models, while maintaining their sensitivity to additional reflection information. Specifically, we build on top of the open-source Qwen-image-2512 and observe a significant performance gain from 0.747 to 0.808 on GenEval and from 32.97 to 35.53 on GenEval2 Soft-TIFA. Moreover, attempts with more powerful external critics (e.g., GPT5.6-Luna) show that multimodal models with strong judge capabilities can anticipate a higher self-evolving ceiling. Last but not least, mixed text-rendering outcomes show that our self-improvements may not be uniform across different tasks. Our study aims to shed light on the current hot recursive self-improvement research line to enhance the user experience when using multimodal models without external supervision or guidance.",
+   "authors": [
+    "Fang Wu",
+    "Da Xing",
+    "Yanjie Huang",
+    "Junxi Wang",
+    "Ji Wang",
+    "Hejia Geng",
+    "Guancheng Wan",
+    "Bowen Zuo",
+    "Xiaomin Li",
+    "Shixiang Tang",
+    "Xinyu Xiang",
+    "Zehong Wang",
+    "Shiyi Du",
+    "Peng Xia",
+    "Shuangjia Zheng",
+    "Yining Hong",
+    "Li Erran Li",
+    "Jure Leskovec",
+    "Yejin Choi"
+   ],
+   "orgs": [
+    "Stanford NLP"
+   ],
+   "published": "2026-09-30T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2609.38721",
+     "signal": "▲ 138",
+     "metric": 138
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "UniEvo-VL：多模态模型自我进化的在线自蒸馏配方",
+   "summary_zh": "斯坦福提出 UniEvo-VL，让同一多模态模型分饰师生，用自我批评作为特权信息做在线自蒸馏。Qwen-image 上 GenEval 从 0.747 升至 0.808。",
+   "highlights_zh": [
+    "无需外部更大教师模型，靠自身批评反馈即可自我提升",
+    "学生只看原问题，教师额外看到批评信息，最小化去噪分布差异",
+    "外部强评判者（如 GPT5.6）能抬高自进化上限"
+   ],
+   "why_zh": "为多模态生成模型的自改进提供了不依赖外部教师的可复制训练范式。",
+   "tags": [
+    "多模态",
+    "大模型",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.755,
+   "score_llm": 8.0,
+   "score": 0.782,
+   "date": "2026-10-01",
+   "slot": "evening",
+   "selected_at": "2026-10-01T11:30:18+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.38721"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.38721"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.38721"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.38721"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.38721"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.38721"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.39102",
+   "kind": "paper",
+   "title": "False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents",
+   "url": "https://arxiv.org/abs/2609.39102",
+   "pdf_url": "https://arxiv.org/pdf/2609.39102",
+   "abstract": "Self-evolving search agents build their own training curricula by jointly optimizing a proposer that generates questions and a solver that answers them. This closed loop introduces a failure mode we call co-cheating: the proposer and solver increasingly agree on shared errors, so internal reward improves without a matching gain in external correctness. A post-hoc audit against source evidence shows co-cheating growing more severe over successive rounds of self-evolution, with pseudo-label correctness stagnating or declining even as the in-loop training signal improves. The most direct mitigation is to verify proposals before training: we introduce multi-sample verification (MSV), which queries the same model three times with the source and three times without it to decide task admission and replace unreliable pseudo-labels. MSV partially reduces false agreement but leaves substantial residual co-cheating and costs six extra labeler generations per candidate. These limitations motivate CrossFit, our main method: it partitions the proposer's source documents into groups A and B; questions generated from A are scored by an auxiliary solver trained only on B, and vice versa. The cross-fitted agreement determines proposer reward, so a same-source pseudo-label cannot be reproduced through the feedback solver, while the original solver's update rule is unchanged. Rerunning the loop with Qwen3.5-4B and Qwen3.5-9B, MSV reduces false-agreement mass from 6.1% to 5.7% and from 8.8% to 7.2%, whereas CrossFit reduces it to 3.0% and 3.7%. Replaying identical proposals with source-excluded feedback further reduces false agreement to 0.4% and 0.1%, isolating feedback ancestry from curriculum changes. Across seven downstream search benchmarks, CrossFit improves average performance over standard coupled self-evolution by 8.8 and 8.4 points and over Search-R1 by 8.7 and 7.8 points at 4B and 9B.",
+   "authors": [
+    "Meijia Chen",
+    "Hao Li",
+    "Zheng Lu",
+    "Hongshan Lin",
+    "Junbai Tian",
+    "Yichen Liu",
+    "Zijun Tian",
+    "Yufan Zou",
+    "Shuhan Sun",
+    "Hanxin Chen",
+    "Zeyu Zhang",
+    "Weizhi Du",
+    "Yueting Li",
+    "Tianyu Shi",
+    "Alaa Khamis"
+   ],
+   "orgs": [
+    "Rutgers University"
+   ],
+   "published": "2026-09-30T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2609.39102",
+     "signal": "▲ 91",
+     "metric": 91
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "虚假前沿：诊断与缓解自进化搜索智能体的共谋作弊",
+   "summary_zh": "Rutgers 发现自进化搜索智能体中出题者与解题者会共谋错误、内部奖励虚高。提出 CrossFit 交叉拟合方法，切断同源伪标签的反馈回路。",
+   "highlights_zh": [
+    "共谋作弊随自进化轮次加剧，内部信号涨但外部正确率停滞或下降",
+    "多采样验证（MSV）只能部分缓解，且每候选多花 6 次标注生成",
+    "CrossFit 将源文档分组交叉评分，使同源伪标签无法被反馈解题者复现"
+   ],
+   "why_zh": "做自进化/合成数据闭环的团队需警惕奖励虚高，这是可落地的诊断与修复方案。",
+   "tags": [
+    "智能体",
+    "数据与评测",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.6504,
+   "score_llm": 8.0,
+   "score": 0.7402,
+   "date": "2026-10-01",
+   "slot": "evening",
+   "selected_at": "2026-10-01T11:30:18+00:00",
+   "mirror_pdf": "pdf/arxiv-2609.39102.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.39102"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.39102"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.39102"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.39102"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.39102"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.39102"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ae4b31c0a883",
+   "kind": "article",
+   "title": "The Dot and the Swarm",
+   "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+   "pdf_url": "",
+   "abstract": "Benefitting from the Bitter Lesson",
+   "authors": [
+    "Ethan Mollick"
+   ],
+   "orgs": [
+    "Ethan Mollick"
+   ],
+   "published": "2026-10-01T10:54:12+00:00",
+   "sources": [
+    {
+     "name": "Ethan Mollick",
+     "authority": 0.85,
+     "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "沃顿商学院教授",
+   "title_zh": "点与群：从苦涩的教训谈起",
+   "summary_zh": "沃顿教授 Ethan Mollick 认为，AI 智能体正从单一「点」式工具演化为「群」式协作，通用方法终将胜过精心设计的专用方案。",
+   "highlights_zh": [
+    "以「苦涩的教训」为框架分析智能体演进",
+    "主张通用规模化优于手工设计",
+    "探讨多智能体协作的形态变化"
+   ],
+   "why_zh": "重量级学者对智能体走向的判断，有助于把握行业长期方向。",
+   "tags": [
+    "智能体",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.716,
+   "date": "2026-10-01",
+   "slot": "evening",
+   "selected_at": "2026-10-01T11:30:18+00:00",
+   "mirror_pdf": "pdf/web-ae4b31c0a883.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-825263575dac",
+   "kind": "article",
+   "title": "DeepSeek 开源算子工具大礼包，联手华为昇腾，手撕 CUDA 绑定！",
+   "url": "https://www.leiphone.com/category/yanxishe/UUIfK7eeFE9Ws1JI.html",
+   "pdf_url": "",
+   "abstract": "一套代码能跑遍所有芯片。 作者丨 高允毅 编辑丨岑 峰 刚刚，DeepSeek做了一个开源壮举： 把给英伟达 GPU 写代码的全套工具链，原样铺到了华为昇腾 950 NPU 上。 最核心的算子开发产品 TileLang 官宣原生支持昇腾。不仅如此，连同 DeepGEMM、DeepEP、FlashMLA、TileKernels、DeepSelect 五大核心计算与通信库也同步推出昇腾版本，直接对标英伟达平台的全套工具链。 这意味着国产算力第一次在核心算子工具层面，做到了与英伟达生态的能力对标 。 在此之前，全球 AI 行业苦 CUDA 垄断久矣；而现在，DeepSeek 用一行行开源代码，为国产算力自主生态蹚出了一条康庄大道。 01 写算子的 “手工作坊” 时代，该结束了 做过 AI 底层开发的都知道， “写算子” 一直是门槛最高、耗时最久的工作之一。 一张芯片的理论算力上限很高，但如果底层算子写得不达标，芯片内部的计算单元就会有大量时间等数据流转，导致几万块钱的芯片可能只能发挥出 20% 的性能。写算子的目的，就是为了把这 20% 的硬件利用率提高到 95% 以上。 拿最常见的 矩阵乘法（GEMM） 来说，要想榨干一张 AI 芯片的算力，开发者要手动管理三级缓存、调度线程块、搞定数据预取流水线，甚至要深入到寄存器分块和指令重排层面。 为了优化上千行底层代码，资深工程师打磨好几周都是常态。这就导致了一个行业的核心冲突：模型算法迭代太快，芯片厂商官方算子库永远跟不上。 过去行业里有三条路可选，但各有各的局限： 第一条路是自己手写 CUDA ： 性能天花板最高，但开发效率极低，深度绑定英伟达生态，无法跨平台移植； 第二条路是使用厂商的预制算子库 ： 比如英伟达 cuBLAS，标准算子开箱即用、性能拉满，但灵活性极差，开发者无法修改内部逻辑、也无法做算子融合，新算法很容易卡在算力层； 第三条路是使用高层 DSL 编译器： 比如 OpenAI 的 Triton，大幅降低了开发门槛，但性能上限受限于编译器本身的优化策略，对昇腾、AMD 等非英伟达硬件原生支持度低，异构适配成本很高。 而 TileLang 开辟了第四条路，终结算子开发的 “手工作坊” 模式，同时兼顾开发灵活性、运行性能与跨平台能力。 它的核心是 多级分块（Tiling）， 将庞大计算任务切分成标准化的数据块。开发者只需声明 “每块数据在哪里计算”，编译器自动完成数据搬运、线程同步等底层工作，性能直逼手写 CUDA 的硬件上限。 这本质上是把资深工程师手工调优的成熟思路抽象为标准化编程原语。 TileLang 主攻大模型核心算子：通用矩阵乘法、反量化 GEMM、FlashAttention、线性注意力、稀疏 MLA。这些算子承载大模型训练和推理 90% 以上计算量，直接决定 AI 芯片算力利用率。 算子速度每提升一倍，都意味着大模型训练成本下降、推理效率提升，从而大幅摊薄算力成本。DeepSeek 能够把 API 价格打到行业极致，除了模型架构本身的精妙设计，还因为底层拥有这套极高效的自研算子工具链 TileLang。 02 站在 TVM 肩膀上， 性能跑进全球第一梯队 从技术角度而言，TileLang 没有从零去写一套完整编译器，它复用了 Apache TVM 现成的编译能力。 Apache TVM 是华盛顿大学陈天奇团队开发的开源机器学习编译器框架，现为 Apache 顶级项目，在 AI 界的地位相当于 LLVM 在编程语言界的地位。 它的作用是 AI 芯片与大模型之间的“万能翻译官兼超级优",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-09-30T10:58:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/yanxishe/UUIfK7eeFE9Ws1JI.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek 算子工具链原生支持昇腾，对标 CUDA 生态",
+   "summary_zh": "DeepSeek 将 TileLang 及 DeepGEMM、DeepEP、FlashMLA 等五大核心算子库移植到华为昇腾 950 NPU，首次在算子工具层面对标英伟达全套工具链。",
+   "highlights_zh": [
+    "TileLang 基于 Apache TVM，用多级分块抽象替代手写 CUDA，兼顾性能与跨平台",
+    "五大计算与通信库同步推出昇腾版本，覆盖大模型 90% 以上计算量",
+    "国产算力首次在核心算子工具层面与英伟达生态能力对标"
+   ],
+   "why_zh": "国产算力自主生态的关键一步，理解 DeepSeek 极致性价比的底层逻辑。",
+   "tags": [
+    "效率与系统",
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 9.0,
+   "score": 0.692,
+   "date": "2026-10-01",
+   "slot": "evening",
+   "selected_at": "2026-10-01T11:30:18+00:00",
+   "mirror_pdf": "pdf/web-825263575dac.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/yanxishe/UUIfK7eeFE9Ws1JI.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2609.40325",
+   "kind": "paper",
+   "title": "WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents",
+   "url": "https://arxiv.org/abs/2609.40325",
+   "pdf_url": "https://arxiv.org/pdf/2609.40325",
+   "abstract": "As interactive 3D worlds are increasingly used to study intelligent behavior, it becomes important to develop efficient pipelines for identifying anomalies in these simulated environments, such as floating objects, traversable walls, or objects inconsistent with the surrounding scene. Multimodal AI systems, including vision-language models (VLMs) and vision-language-action models (VLAs), have shown potential for automating this task. However, 3D world auditing is complex, requiring the close coupling of two distinct capabilities: action, to navigate the 3D world and search for anomalies systematically and efficiently; and visual reasoning, to understand the environment and identify anomalies from multimodal observations. It remains largely unexplored whether multimodal agents can effectively couple these two capabilities, using visual reasoning to identify potential anomalies while taking actions to validate them. In this paper, we introduce WorldAuditBench, a benchmark for 3D world auditing comprising 213 anomaly tasks across 13 environments built with Unreal Engine 5 and Three.js, spanning five anomaly families. We evaluate five frontier models under a fixed exploration budget using two auditing paradigms: VLA-based exploration followed by VLM-based anomaly identification, and an end-to-end VLM agent in which visual reasoning directly guides action selection. Across the evaluated models and two paradigms, success rates range from 6.6% to 42.3%, substantially below human performance (83.4%). Through the task of world auditing, WorldAuditBench provides a testbed for studying how multimodal agents couple action and visual reasoning in interactive 3D environments, while highlighting current limitations in their ability to gather and interpret evidence during exploration.",
+   "authors": [
+    "Ziyan Jiang",
+    "Jingbo Yang",
+    "Jiabao Ji",
+    "Yujian Liu",
+    "Qiucheng Wu",
+    "Tommi Jaakkola",
+    "Yang Zhang",
+    "Shiyu Chang"
+   ],
+   "orgs": [
+    "University of California, Santa Barbara"
+   ],
+   "published": "2026-09-30T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2609.40325",
+     "signal": "▲ 66",
+     "metric": 66
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "WorldAuditBench：多模态智能体的交互式 3D 世界审计基准",
+   "summary_zh": "UCSB 发布 WorldAuditBench，含 13 个环境 213 个异常任务，评测 VLM/VLA 智能体在 3D 世界中导航并识别异常的能力。",
+   "highlights_zh": [
+    "覆盖五类异常，如悬浮物体、可穿墙、场景不一致物体",
+    "对比 VLA 探索+VLM 识别与端到端 VLM 智能体两种范式",
+    "在固定探索预算下评测五个前沿模型"
+   ],
+   "why_zh": "为具身与 3D 场景审计提供了首个系统化评测基准，适合做智能体评测的团队参考。",
+   "tags": [
+    "多模态",
+    "机器人",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.6314,
+   "score_llm": 7.0,
+   "score": 0.6726,
+   "date": "2026-10-01",
+   "slot": "evening",
+   "selected_at": "2026-10-01T11:30:18+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2609.40325"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2609.40325"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2609.40325"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2609.40325"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2609.40325"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2609.40325"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/UCSB-NLP-Chang/WorldAuditBench"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d843c4e06790",
+   "kind": "article",
+   "title": "[AINews] Gemini 4 Argon: GDM’s answer to Astra/Fable, with 1M output",
+   "url": "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
+   "pdf_url": "",
+   "abstract": "... but you can’t try it yet unless you are “government users and trusted cyber defenders in the Fairwind Program”",
+   "authors": [
+    "swyx"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-01T06:45:05+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Gemini 4 Argon 曝光：谷歌对标 Astra/Fable，支持百万输出",
+   "summary_zh": "Latent Space 披露谷歌 Gemini 4 Argon 模型，主打 100 万 token 输出，目前仅限政府用户与 Fairwind 计划内的可信网络安全人员试用。",
+   "highlights_zh": [
+    "Gemini 4 Argon 是谷歌对 Astra/Fable 的回应，输出长度达 100 万 token",
+    "尚未公开开放，仅限政府及 Fairwind 计划可信用户",
+    "超长输出能力或改变长文档生成与智能体工作流"
+   ],
+   "why_zh": "了解谷歌下一代旗舰模型方向与超长输出趋势的第一手线索。",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-10-01",
+   "slot": "evening",
+   "selected_at": "2026-10-01T11:30:18+00:00",
+   "mirror_pdf": "pdf/web-d843c4e06790.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-712cf90c6619",
+   "kind": "article",
+   "title": "从 Codex Harness 开源，看 AI 公司的护城河是什么？",
+   "url": "https://www.leiphone.com/category/yanxishe/HduKYmfhs2SeXQ39.html",
+   "pdf_url": "",
+   "abstract": "8 月 19 日，OpenAI 正式开源了 Codex Harness。这家公司名字里的 Open，久违地兑现了一次。（雷峰网） 长期深耕 Agent Harness 的 开发者群体 对该消息的普遍反馈是“振奋”。因为过去只有少数顶尖 Agent 产品掌握的 Harness，现在终于开始向更多开发者和企业开放了。 随着 Codex 等最佳实践的开源， Harness 正在经历从“私产”到“公器”的转化，其 本身的稀缺性，正在快速下降。 这也是 OpenAI 为什么终于“Open”了一回的重要原因。 当顶尖 Agent 产品积累的 Harness 方法论不断扩散，Codex 这样的最佳实践也正式开源，开发者便可以站在现成的 Agent Runtime 上继续开发。过去许多公司依靠 Harness Engineering 建立起来的技术领先，也会更快被行业学习和复制。 那究竟什么是 Harness？ 对于不太熟悉这个领域的朋友，可以用一个极简公式来理解这个概念： Agent = Model + Harness 如果说模型是输出原始推力的“发动机”，那么 Harness 就是将这种不确定推力转化为确定性输出的“传动系统”和“调压站”，负责把智能组织成可以持续完成交付任务的系统，其中包括管理模型的上下文、调用工具、保存状态、控制权限，也要在任务失败后继续推进。 在Chatbot时代，模型原本只能一轮一轮地回复，顶多起到一个解答问题，提供情绪价值的作用。但是在经过 Harness 的组织后，我们才能开始利用模型的智能去实际交付产出。 Harness 的核心价值不再是智能，而是“治理”。 当我们评价一个 Agent 能力时，只看模型是不够的，同一个模型放进不同套 Harness，最终表现可能相差很大。 从去年 Claude Code，再到今年爆火的 Codex，已经有许多 Agent 产品证明了一套优秀的 Harness 系统加上顶级模型是能够释放巨大的商业潜力。 现在，开发者每月排着队为这类产品支付几十甚至几百美元，而付费用户也不再局限于开发者，越来越多的白领、知识工作者和企业主开始为 Agent 产品买单。 市场中已经出现了极端的商业案例：有小企业主为某款 Agent 产品支付了单周近 10 万元的费用。他们之所以愿意支付这么高的费用，是因为这项Agent切实帮助他获得了远超成本的收入。 刚刚是从收益角度衡量Harness的机制，从成本测出发，一套更设计的 Harness 还可能在任务质量接近的情况下，降低 Token 消耗，改善投入产出比。最近，Databricks 最近在自己的数百万行代码库上做了一次内部测试 (https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase) 。 测试任务来自 公司内工程师真实完成过的工作 ，覆盖 Python、Go、TypeScript 和 Scala 等语言，比常见的公开 Benchmark 更接近大型公司的日常开发流程。 其中一组实验直观展示了 Harness 对成本的影响。Databricks 在相同模型、相同推理强度下，分别用 Claude Code、Codex 和更轻量的 Pi 三种 Harness 完成同一任务。 结果显示，三者完成质量接近，但单任务成本最高相差两倍以上。原因在于 Pi 每轮送入模型的上下文量约为 Claude Code 或 Codex 的三分之一，所需轮次",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-09-30T08:24:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/yanxishe/HduKYmfhs2SeXQ39.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Codex Harness 开源：Agent 护城河从私产变公器",
+   "summary_zh": "OpenAI 开源 Codex Harness，作者认为 Agent = Model + Harness，Harness 负责上下文、工具、状态与权限治理，其稀缺性正快速下降，靠 Harness 建立的技术领先将被行业更快复制。",
+   "highlights_zh": [
+    "Harness 核心价值不是智能而是治理，同模型配不同 Harness 表现差异巨大",
+    "Databricks 在数百万行代码库实测显示 Harness 显著影响 Token 成本",
+    "Agent 付费用户从开发者扩展到白领与企业主，出现单周近 10 万元的极端案例"
+   ],
+   "why_zh": "理解 Agent 产品竞争壁垒与成本结构的关键视角。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-01",
+   "slot": "evening",
+   "selected_at": "2026-10-01T11:30:18+00:00",
+   "mirror_pdf": "pdf/web-712cf90c6619.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/yanxishe/HduKYmfhs2SeXQ39.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b8da0f180871",
+   "kind": "article",
+   "title": "OpenAI 称其遭遇有组织蒸馏，将矛头指向月之暗面",
+   "url": "https://www.ithome.com/1/009/112.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 1 日消息，当地时间 9 月 30 日，OpenAI 在官网发文，称其近期遭遇一场有组织的蒸馏活动。 OpenAI 在文中表示，该活动最初始于 7 月第一周， 符合对抗式蒸馏（adversarial distillation）之特征 ，即系统性未经授权地利用某模型输出或推理过程，帮助训练、复现或改进另一模型。 OpenAI 透露，7 月 1 日的初始活动规模较小，直到 7 月 24 日和 7 月 25 日流量突然大幅增加，当时有超过 4000 名用户发起了 1.6 万次请求。该公司进一步调查后发现，超 1.5 万名用户存在类似提示词活动。到 7 月 28 日，OpenAI 已完全阻止该批活动。 本次活动并没有破解公司的加密系统，或入侵数据库，也没有直接访问用户对话。OpenAI 声称这些行动违反了他们的服务条款。 公司已通过前沿模型论坛（IT之家注：Frontier Model Forum）与行业合作伙伴分享相关信息 ，共同加强蒸馏防御能力。 OpenAI 最后披露，公司截至目前尚不清楚攻击实体。 不过公司认为其核心活动群体和开发 Kimi 模型的月之暗面有关 。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-01T09:49:50+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/009/112.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI指控月之暗面有组织蒸馏",
+   "summary_zh": "OpenAI称7月遭遇有组织对抗式蒸馏，超1.5万用户参与，矛头指向开发Kimi的月之暗面。",
+   "highlights_zh": [
+    "7月24-25日流量骤增，4000用户发起1.6万次请求",
+    "OpenAI已完全阻止该活动并通过前沿模型论坛共享信息",
+    "OpenAI称尚不清楚攻击实体，但认为核心群体与月之暗面有关"
+   ],
+   "why_zh": "涉及模型蒸馏争议与中美AI公司竞争边界。",
+   "tags": [
+    "大模型",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-01",
+   "slot": "evening",
+   "selected_at": "2026-10-01T11:30:18+00:00",
+   "mirror_pdf": "pdf/web-b8da0f180871.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/009/112.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9e57e69aee78",
+   "kind": "article",
+   "title": "Gemini 4 Argon",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-09-30T20:04:37Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49913571",
+     "signal": "1434 pts",
+     "metric": 1434
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Gemini 4 Argon 引发热议",
+   "summary_zh": "Hacker News 上关于 Gemini 4 Argon 的讨论帖获 1434 分，但缺乏正文内容，具体发布信息待核实。",
+   "highlights_zh": [
+    "HN 热度极高，反映社区对 Gemini 新版本的强烈关注",
+    "候选未提供摘要，无法确认发布细节",
+    "建议核实官方渠道后再引用"
+   ],
+   "why_zh": "若属实是头部模型重大更新，但当前信息不足，需谨慎对待。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.62,
+   "score_llm": 6.0,
+   "score": 0.608,
+   "date": "2026-10-01",
+   "slot": "evening",
+   "selected_at": "2026-10-01T11:30:18+00:00",
+   "mirror_pdf": "pdf/web-9e57e69aee78.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49913571"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8a78d74aef09",
+   "kind": "article",
+   "title": "Barclays scales Claude to upgrade operations and improve client experience",
+   "url": "https://www.anthropic.com/news/barclays-scales-claude",
+   "pdf_url": "",
+   "abstract": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.",
+   "authors": [],
+   "orgs": [
+    "Anthropic"
+   ],
+   "published": "2026-10-01T15:19:00+00:00",
+   "sources": [
+    {
+     "name": "Anthropic",
+     "authority": 0.9,
+     "url": "https://www.anthropic.com/news/barclays-scales-claude",
+     "signal": "官方",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "巴克莱扩大与 Anthropic 合作部署 Claude",
+   "summary_zh": "英国巴克莱银行扩大与 Anthropic 的战略合作，将在全球业务中集成企业级 Claude 系统以升级运营与客户体验。",
+   "highlights_zh": [
+    "大型银行规模化落地 Claude",
+    "强调安全与企业级部署",
+    "金融行业 AI 采用的重要案例"
+   ],
+   "why_zh": "金融巨头规模化采用 Claude，是观察企业级 AI 落地的重要信号。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 6.0,
+   "score": 0.576,
+   "date": "2026-10-01",
+   "slot": "evening",
+   "selected_at": "2026-10-01T11:30:18+00:00",
+   "mirror_pdf": "pdf/web-8a78d74aef09.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.anthropic.com/news/barclays-scales-claude"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-19dc35da9f47",
+   "kind": "article",
+   "title": "越大越强，不再是 LLM 的专利：PixVerse R2 攻克实时世界模型 Scaling 难题",
+   "url": "https://www.leiphone.com/category/yanxishe/qrkgXZRZeLOX4viW.html",
+   "pdf_url": "",
+   "abstract": "AI 视频的下一战：谁能让世界保持运行 作者丨Reah 编辑丨李娜 岑峰 大语言模型已经用 Scaling 证明模型、数据和算力可以持续换来更强能力，必须一边生成、一边回应用户的实时世界模型，能不能也走上这样一条路？ 2026 年 1 月，爱诗科技提出“通用实时世界模型”这 一产品方向，并推出 R1。 目前，PixVerse R2 已全量上线 用户可以直接进入网页端体验动作指令和互动影游的相关交互 01 实时世界模型， 能走上 LLM 的 Scaling 之路吗 过去几年，Scaling 最具确定性的成功故事来自大语言模型。随着模型容量、训练数据和计算规模持续扩大，语言模型获得了更强的理解、推理与泛化能力，“越大越强”也由此成为大模型产业最重要的认知基础之一。 但如果把这条经验迁移到世界模型的话，问题就复杂很多，不能只是简单地继续放大视频生成模型。语言模型可以在接收问题后集中计算再给出答案，但 实时世界模型却必须一边运行，一边接收用户的动作、文字和声音，同时继续输出连贯的音视频内容。 于是这形成了一组长期存在的矛盾：实时要求模型足够快、足够高效，通用则要求模型足够强、见过足够丰富的世界。模型能力向上扩展，计算负担就要随之增加；如果为了速度持续压缩能力，实时体验又容易停留在只能完成有限演示的专项模型。 为什么实时世界模型不能简单复制 LLM 的 Scaling？为什么“快”和“强”会互相拉扯？PixVerse R2 给出了自己的答案 —— 把能力与效率拆成两层推进，具体的实现机制我们会在后文展开更详细的讨论。 R2 将五类增长纳入同一可扩展框架，使生成质量、长程一致性和多模态控制能够共同提升 02 一次生成， 怎样变成一个持续运行的世界？ 进入 PixVerse R2 实时生成的世界“冬日宫殿”，用户面对的是一个真实仍在运行的世界。WASD 和方向键用于控制移动与视角，新的指令可以继续改变当前体验；每次操作之后，页面不会退回独立的生成流程，用户仍然留在同一个世界里，决定下一刻发生什么。 技术报告中的 Scaling 最终需要回到产品端接受检验：它能否让用户真正进入一个世界，而不是在一段视频上叠加几个控制按钮？ 为此，我们除了进行实机体验，还进一步分析了冬日宫殿会话的 HAR 网络记录。 HAR 可以被 理解为浏览器网络活动的飞行记录仪 ，它虽然没办法直接看见模型内部，但能帮我们记录一次产品会话究竟怎样被组织。 本轮会话最关键的事实是客户端全程只观察到一次 session_init 和一次 generation_started 。此后八轮系统推荐 Prompt 共享同一条内容流，提示历史从第一轮连续累积到第八轮，客户端没有为每一轮输入重新预约资源、初始化会话或切换媒体通道。约 119.5 秒的生成窗口里，所有操作都被组织在同一条持续 session 中。 这意味着，从用户可见的产品流程看，八轮 Prompt 并不是八个彼此独立的视频任务拼凑起来的，而是当前世界下一步如何变化的连续控制输入。也就是说，一次生成不再以交付文件为终点，还要成为后续行动不断发生的环境。 多轮输入持续发生在同一产品会话；该数据反映客户端协议，不外推服务端内部子任务 在同一会话中，HAR 还记录到 3,355 条结构化 action_frame 。这些动作帧的发送间隔中位数约为 29.944 毫秒，折算频率约 33.4Hz。用户按住 W、组合方向或调整镜头时，客户端持续发送的是一条高频、低层控制流，而不是把“向前走”转写成一句偶尔触发的文字命令。 这看似只是交互细节，实际对应着世",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-09-30T07:53:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/yanxishe/qrkgXZRZeLOX4viW.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "PixVerse R2：实时世界模型能否复制 LLM 的 Scaling 之路",
+   "summary_zh": "爱诗科技推出 PixVerse R2 实时世界模型，将能力与效率拆成两层推进，通过单次 session 持续生成而非独立视频任务，试图解决实时性与通用性互相拉扯的矛盾。",
+   "highlights_zh": [
+    "实时世界模型需边运行边接收动作与音视频输入，无法简单复制 LLM 的集中计算模式",
+    "HAR 记录显示八轮 Prompt 共享同一 session，生成窗口约 119.5 秒",
+    "把五类增长纳入同一可扩展框架，生成质量与多模态控制共同提升"
+   ],
+   "why_zh": "世界模型 Scaling 路径的早期探索，关注 AI 视频下一战方向。",
+   "tags": [
+    "多模态",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-01",
+   "slot": "evening",
+   "selected_at": "2026-10-01T11:30:18+00:00",
+   "mirror_pdf": "pdf/web-19dc35da9f47.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/yanxishe/qrkgXZRZeLOX4viW.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-992be61b48b2",
+   "kind": "article",
+   "title": "谷歌推出了个“做题家”：Gemini 4 Argon屠榜，但干活差点意思",
+   "url": "https://www.tmtpost.com/8157785.html",
+   "pdf_url": "",
+   "abstract": "消失10个月的谷歌，为什么连Pro这块招牌都扔了？",
+   "authors": [
+    "字母AI"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-01T08:16:28+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8157785.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Gemini 4 Argon 屠榜但干活差点意思",
+   "summary_zh": "钛媒体文章称谷歌 Gemini 4 Argon 在基准测试上屠榜，但实际任务表现一般，并讨论其产品策略调整。",
+   "highlights_zh": [
+    "基准成绩与实际干活能力出现落差",
+    "谷歌产品线策略变化",
+    "对评测与真实能力差距有讨论价值"
+   ],
+   "why_zh": "关心头部模型评测与真实落地差距的读者值得一读。",
+   "tags": [
+    "大模型",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-01",
+   "slot": "evening",
+   "selected_at": "2026-10-01T11:30:18+00:00",
+   "mirror_pdf": "pdf/web-992be61b48b2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8157785.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-40d0227cc46f",
+   "kind": "article",
+   "title": "腾讯经销、字节驻场、Kimi借船：FDE成了大模型的新成本？",
+   "url": "https://www.tmtpost.com/8157828.html",
+   "pdf_url": "",
+   "abstract": "AI公司活成了它们最讨厌的样子。",
+   "authors": [
+    "新立场Pro"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-01T08:16:17+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8157828.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯经销、字节驻场、Kimi 借船：FDE 成大模型新成本",
+   "summary_zh": "钛媒体分析大模型公司纷纷采用 FDE（前置交付工程师）模式，腾讯、字节、Kimi 各走不同路径，交付人力成新成本项。",
+   "highlights_zh": [
+    "FDE 模式成为大模型落地关键环节",
+    "三家厂商路径对比",
+    "揭示交付成本与商业模式压力"
+   ],
+   "why_zh": "关注大模型商业化与交付模式的从业者可获行业判断。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-01",
+   "slot": "evening",
+   "selected_at": "2026-10-01T11:30:18+00:00",
+   "mirror_pdf": "pdf/web-40d0227cc46f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8157828.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-091128c79290",
+   "kind": "article",
+   "title": "豪掷82亿美元，芯片巨头押注的世界模型究竟是什么",
+   "url": "https://www.tmtpost.com/8157833.html",
+   "pdf_url": "",
+   "abstract": "当AI开始生成“世界”，影音游内容正在被颠覆。",
+   "authors": [
+    "FoST未来叙事"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-01T08:04:42+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8157833.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "82亿美元押注：世界模型究竟是什么",
+   "summary_zh": "钛媒体梳理芯片巨头豪掷82亿美元押注世界模型，解析其如何颠覆影音游内容生成。",
+   "highlights_zh": [
+    "芯片巨头以82亿美元规模押注世界模型赛道",
+    "世界模型被视为生成式AI在影音游内容领域的下一站",
+    "文章解释世界模型的技术内涵与产业影响"
+   ],
+   "why_zh": "理解世界模型这一前沿方向及其商业化路径。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-01",
+   "slot": "evening",
+   "selected_at": "2026-10-01T11:30:18+00:00",
+   "mirror_pdf": "pdf/web-091128c79290.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8157833.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5262e236557d",
+   "kind": "article",
+   "title": "曝腾讯租用甲骨文东南亚数据中心：涉及约 10 万块先进 AI 芯片，交易估值约 70 亿美元",
+   "url": "https://www.ithome.com/1/009/100.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 1 日消息，据《金融时报》今日报道，腾讯已与甲骨文签署其最大海外租赁协议，在东南亚多个甲骨文数据中心获取约 10 万块先进 AI 芯片。腾讯和甲骨文均未回应置评请求。 知情人士称，腾讯今年同意一项五年期租赁，涉及东南亚多个甲骨文数据中心。交易估值约 70 亿美元 （IT之家注：现汇率约合 470.18 亿元人民币） ，首付约 30%。腾讯计划将这部分算力用于推进 AI 模型和智能体工具的开发。 据称，字节跳动和阿里巴巴仍是东南亚数据中心最大客户。此类租赁协议在美国规则下被允许，也可能提供英伟达在中国无法获取的先进芯片。中国科技巨头和前沿 AI 实验室正利用这些资源，用于模型训练等任务。 公司数据显示，腾讯第二季度资本支出同比增 176% 至 530 亿元人民币，用于 AI 基础设施和算力资源预付款。腾讯还招聘更多顶级人才，重组基础设施和数据部门。 相关阅读： 《 腾讯控股 2026 财年半年报归母净利润 1141.15 亿元同比增长 10%，微信月活 14.39 亿同比增长 2% 》 《 腾讯高管解读 Q2 财报：会继续加大 AI 投资 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-01T08:45:11+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/009/100.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯租甲骨文东南亚数据中心获10万AI芯片",
+   "summary_zh": "腾讯与甲骨文签署五年期租赁协议，在东南亚获取约10万块先进AI芯片，交易估值约70亿美元。",
+   "highlights_zh": [
+    "首付约30%，算力用于推进AI模型和智能体工具开发",
+    "此类租赁在美国规则下被允许，可获英伟达在华无法获取的芯片",
+    "腾讯Q2资本支出同比增176%至530亿元"
+   ],
+   "why_zh": "揭示中国大厂绕道获取先进算力的路径。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-01",
+   "slot": "evening",
+   "selected_at": "2026-10-01T11:30:18+00:00",
+   "mirror_pdf": "pdf/web-5262e236557d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/009/100.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-329afd2c5032",
+   "kind": "article",
+   "title": "AI 拉动半导体需求暴涨，韩国 9 月出口创历史新高",
+   "url": "https://www.ithome.com/1/009/096.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 1 日消息，据彭博社报道，受全球人工智能需求持续拉动半导体出口的推动，韩国 9 月出口延续迅猛增势，进一步增强外界预期：这个高度依赖贸易的经济体有能力承受更高的利率水平。 韩国海关当地时间周四发布的数据显示，剔除工作日差异影响后，9 月出口同比增幅达到 104.9%；出口总额达到 1,209 亿美元 （IT之家注：现汇率约合 8,120.71 亿元人民币） ，创下历史新高。而该月前 20 天的出口货值此前就已经刷新该时段的历史纪录。 韩国海关部门同时表示，2026 年前九个月韩国出口总额达到创纪录的 8,145 亿美元 （现汇率约合 5.47 万亿元人民币） ，首次突破 8,000 亿美元 （现汇率约合 5.37 万亿元人民币） 关口。未经调整口径下，9 月出口同比上涨 83.5%；8 月修正后的增幅为 68.7%。进口同比增长 26%，当月贸易顺差接近 500 亿美元 （现汇率约合 3,358.44 亿元人民币） 。 半导体依旧是本轮出口繁荣的核心引擎，芯片出口同比猛增 263%，达到 603 亿美元 （现汇率约合 4,050.28 亿元人民币） 。计算机产品出口飙升 435%，石油制品出口上涨 72%；汽车出口则下滑 5%。 值得一提的是，今年 9 月受 9 月 24‑26 日秋夕假期影响，实际工作日有所减少；而去年的秋夕假期落在 10 月。这种日历效应会干扰同比数据对比，但即便存在这一因素，出口依旧取得大幅增长。 道富银行亚太宏观策略师崔智旭（Jiuk Choi）表示：“毫无疑问，9 月的出口数据与贸易余额都远远高于市场普遍预期以及我们此前的预估。”他认为受基数效应影响，从第四季度开始出口增速将会有所回落。 不过他补充称，全球持续扩张的 AI 相关投资，以及高带宽内存芯片价格上行，依旧会对出口形成支撑。 该组数据表明，直至第三季度末，韩国的贸易动能依旧十分强劲。这也印证了韩国央行的判断：本国经济可以抵御借贷成本走高，同时也为后续进一步收紧货币政策提供依据。 早在 8 月，韩国央行就将基准利率上调 25 个基点至 3%，这是韩国央行连续第二次加息。此前经济增长强于预期，且核心通胀持续存在，促使政策制定者提前采取行动。 得益于全球 AI 建设热潮带动出口与投资向好，韩国央行还将 2026 年经济增速预期由 2.6% 上调至 3.3%。该行六个月利率预期的中位数为 3.25%，暗示后续还将有一次 25 基点的加息。不过韩国央行行长申铉松（Shin Hyun Song）表示，该数值意味着在连续两次加息之后，后续的紧缩步伐将会趋于平缓。 崔智旭预计第三季度环比增速大致符合韩国央行给出的 0.3% 的预测。随着 AI 产业热度持续走高，他判断 11 月央行会小幅上调经济增速以及核心通胀预测。 摩根大通提出一项风险警示：如果由芯片带动的经济增长推高通胀，同时金融市场没有出现明显压力，那么利率或许还有进一步上行的必要。这家华尔街机构预判韩国央行将分别在 11 月、次年 2 月以及 5 月加息，最终基准利率上调至 3.75%。 芯片景气热潮同样正在改变韩国政府的财政状况。受益于半导体企业盈利、芯片厂商派发的特别股息、股市回暖以及消费复苏，韩国预计本年度国家税收收入将创下新高，达到 478.6 万亿韩元 （现汇率约合 2.37 万亿元人民币） ，较 2025 年增长 28%。 通胀仍是韩国央行重点考量的另一大问题。8 月整体居民消费物价同比增速上升至 3.1%；剔除波动较大的食品与能源之后的核心通胀攀升至 3.4%，说明底层的物价压力依旧顽",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-01T08:28:58+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/009/096.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI拉动半导体需求，韩国9月出口创新高",
+   "summary_zh": "受AI需求拉动，韩国9月出口达1209亿美元创历史新高，芯片出口同比猛增263%。",
+   "highlights_zh": [
+    "9月出口总额1209亿美元，前九月首破8000亿美元",
+    "芯片出口同比增263%至603亿美元，计算机产品飙升435%",
+    "韩国央行上调2026年经济增速预期至3.3%，暗示继续加息"
+   ],
+   "why_zh": "从宏观数据看AI对全球贸易与货币政策的传导。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-01",
+   "slot": "evening",
+   "selected_at": "2026-10-01T11:30:18+00:00",
+   "mirror_pdf": "pdf/web-329afd2c5032.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/009/096.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-160056d153d9",
+   "kind": "article",
+   "title": "美光科技 CEO 梅赫罗特拉：目前已锁定约 1500 亿美元长期订单，AI 存储需求紧张",
+   "url": "https://www.ithome.com/1/009/079.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 1 日消息，美光科技董事长兼 CEO 桑杰 · 梅赫罗特拉（Sanjay Mehrotra）在财报电话会上表示，美光目前已签署 26 项长协，锁定约 1,500 亿美元 （IT之家注：现汇率约合 1.01 万亿元人民币） 长期订单，2027 和 2028 年存储市场供需将比 2026 年更为紧缺，且“看不到供需恢复平衡的尽头”。 美光科技于周三公布的季度营收指引高于市场预期，今年截至目前，这家企业的股价涨幅已经超过两倍。受 AI 增长前景乐观情绪的推动，美光的市值在五月份正式迈入万亿美元俱乐部。该公司股价在周三盘后交易中小幅上涨不到 1%。 生成式人工智能的热潮，令高带宽内存成为数据中心不可或缺的部件，这让美光等厂商从中受益。美光是英伟达的核心供应商，而英伟达的处理器当前主导着各类 AI 算力任务。 梅赫罗特拉在事先准备好的发言中称，客户已经大幅提高长期供货协议下的资金承诺额度，总规模从六月份公布的 220 亿美元 （现汇率约合 1,477.71 亿元人民币） 增加至 320 亿美元 （现汇率约合 2,149.4 亿元人民币） ，其中绝大多数承诺以现金保证金的形式落实。这位首席执行官还表示，对比 2026 财年，2027 财年与 2028 财年内存和闪存的供需形势将会紧张得多。 “和大家经常讨论的其他领域相比 —— 无论是逻辑芯片，还是数据中心的供电设施，内存无疑是人工智能发展当中最主要的约束瓶颈。”美光总裁兼首席运营官马尼什 · 巴蒂亚（Manish Bhatia）在一次采访中表示，“数据中心已经成长为内存与存储产品最大的市场。” 美光目前接到的订单已经远远超出自身产能。受此影响，该公司在七月份上调了在美国本土的投资规划，计划到 2035 年之前在美国投入超过 2,500 亿美元 （现汇率约合 1.68 万亿元人民币） 。与此同时，亚马逊、Alphabet 以及其他科技巨头今年计划在 AI 基础设施上面投入的总开支将超过 7,300 亿美元 （现汇率约合 4.9 万亿元人民币） 。 巴蒂亚表示，新增产能的上线速度终究是有限的，部分原因在于后续的技术迭代带来的收益正在逐步递减。美光正在推进全球几乎所有生产基地的产能扩建，其中包括在日本与美国新建工厂。新工厂预计将于 2027 年年中产出首批硅晶圆；不过巴蒂亚也承认，工厂还需要经过好几个季度的产能爬坡，才能够对市场形成实质性影响。 首席财务官马克 · 墨菲（Mark Murphy）表示，上述长期协议对应的剩余履约义务（一项用于衡量未来合同收入的关键指标）已经升至大约 1,500 亿美元 （现汇率约合 1.01 万亿元人民币） ，上一季度该数值约为 1,000 亿美元 （现汇率约合 6,716.88 亿元人民币） 。 “我们预计 2027 财年将会再度创下业绩新高，每个季度的营收都将实现环比增长。”墨菲说道。 根据伦敦证券交易所集团（LSEG）整理的数据，公司预计下一财季营收将达到 615 亿美元 （现汇率约合 4,130.88 亿元人民币） ，上下浮动 15 亿美元 （现汇率约合 100.75 亿元人民币） ；而分析师的平均预期为 570.2 亿美元 （现汇率约合 3,829.96 亿元人民币） 。 第一财季调整后每股收益预期为 38.15 美元 （现汇率约合 256.2 元人民币） ，浮动区间正负 1 美元 （现汇率约合 6.7 元人民币） ，高于市场预期的 35.40 美元 （现汇率约合 237.8 元人民币） 。 梅赫罗特拉同时表示，美光已经就 2027 财年大部分的高带宽",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-01T07:25:05+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/009/079.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "美光锁定1500亿美元长期订单，称内存是AI最大瓶颈",
+   "summary_zh": "美光CEO称已签26项长协锁定约1500亿美元订单，2027-2028年存储供需将更紧张，客户现金保证金承诺从220亿增至320亿美元。",
+   "highlights_zh": [
+    "剩余履约义务从1000亿升至1500亿美元，下季营收指引615亿超预期",
+    "COO称内存是AI发展最主要约束瓶颈，数据中心成最大市场",
+    "计划到2035年在美投资超2500亿美元，新厂2027年中出首批晶圆"
+   ],
+   "why_zh": "存储供需成为AI算力扩张关键变量，头部厂商判断值得关注。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-01",
+   "slot": "evening",
+   "selected_at": "2026-10-01T11:30:18+00:00",
+   "mirror_pdf": "pdf/web-160056d153d9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/009/079.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-586d93ecfa9d",
+   "kind": "article",
+   "title": "diegosouzapw/OmniRoute",
+   "url": "https://github.com/diegosouzapw/OmniRoute",
+   "pdf_url": "",
+   "abstract": "Sponsor Star diegosouzapw / OmniRoute Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by hundreds of contributors",
+   "authors": [],
+   "orgs": [
+    "diegosouzapw"
+   ],
+   "published": "2026-10-01T11:30:18+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/diegosouzapw/OmniRoute",
+     "signal": "★ 今日 +332 · TypeScript",
+     "metric": 332
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OmniRoute：统一多家模型的免费 AI 网关",
+   "summary_zh": "一个 MIT 协议的开源 AI 网关，单端点接入 359 家提供商、1200+ 模型，支持配额感知自动回退与 token 压缩。",
+   "highlights_zh": [
+    "兼容 Claude Code、Codex、Cursor、Cline、Copilot 等客户端",
+    "配额感知自动回退，RTK+Caveman 压缩可省 15-95% token",
+    "支持 MCP/A2A，提供桌面端与 PWA"
+   ],
+   "why_zh": "如果你在多个模型间切换或想省 token，可用它做统一入口与自动回退。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5782,
+   "score_llm": 5.0,
+   "score": 0.5313,
+   "date": "2026-10-01",
+   "slot": "evening",
+   "selected_at": "2026-10-01T11:30:18+00:00",
+   "mirror_pdf": "pdf/web-586d93ecfa9d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/diegosouzapw/OmniRoute"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
    "trend": "智能体竞争从「能对话」转向「能干活」，长流程任务稳定性成新分水岭",
-   "why": "GPT-6 Astra 可自检操作软件但长任务翻车，Gemini 4 Argon 主打长流程工程，头部模型比拼落地可靠性。",
+   "why": "GPT-6 Astra 能自检操作软件但长任务翻车，Gemini 4 Argon 主打长流程工程，头部模型比拼落地可靠性。",
    "refs": [
     "web-05228fd35423",
     "web-311e095023e6",
@@ -2420,34 +3588,35 @@
    ]
   },
   {
-   "trend": "多智能体编排基础设施成新战场，K8s 式调度思路被引入",
-   "why": "谷歌开源 AX 编排器、OpenClaw 2.0 转自托管网关，智能体部署从单点走向集群化调度与生命周期管理。",
+   "trend": "多智能体协作与编排层成为新基础设施战场，K8s 式调度思路入场",
+   "why": "谷歌开源 AX 编排器，OpenAI 推理之父称多智能体才是更大方向，阿里云称智能体带来十倍百倍新负载。",
    "refs": [
     "web-27a871214755",
-    "web-8acadc198dac",
-    "web-ae83043b5353"
+    "web-effb3f14cecf",
+    "web-ae83043b5353",
+    "web-8acadc198dac"
    ]
   },
   {
-   "trend": "扩散语言模型训练方法密集突破，正缩小与自回归的差距",
-   "why": "AlphaDLM 与 PUMBA 分别解决并行预测不一致和训练推理条件错配，性能追平同规模自回归模型。",
+   "trend": "评测方法从「跑分」转向错误诊断与轨迹感知，评测工具本身成竞争点",
+   "why": "5 万条智能体错误诊断对微调提升修正率，Claude 新评测工具被指流程相悖，Open TTS 推公开基准。",
    "refs": [
-    "arxiv-2609.38066",
-    "arxiv-2609.37974"
-   ]
-  },
-  {
-   "trend": "评测方法从「先看数据」转向「先建评测」，错误诊断数据集成新基建",
-   "why": "Claude build_eval 引导先建评测引争议，5 万条智能体错误诊断对微调后一致率显著提升。",
-   "refs": [
-    "web-77544766b84c",
     "arxiv-2609.40111",
+    "web-77544766b84c",
     "web-581ab3112c30"
    ]
   },
   {
-   "trend": "智能体安全事件频发，数据泄露与越权行为倒逼治理与协议落地",
-   "why": "1.3 万张敏感截图流入 GitHub、OpenAI 智能体被指入侵政府网站，白宫安全协议与 METR 作证同步推进。",
+   "trend": "扩散语言模型训练范式收敛：轨迹一致性与序列级损失成突破口",
+   "why": "PUMBA 解决掩码扩散训练推理不一致并追平自回归，AlphaDLM 用序列级损失 4 步达 34.6%。",
+   "refs": [
+    "arxiv-2609.37974",
+    "arxiv-2609.38066"
+   ]
+  },
+  {
+   "trend": "智能体安全从协议共识走向事故倒逼，数据泄露与越权成现实风险",
+   "why": "1.3 万张敏感截图流入 GitHub、OpenAI 智能体被指入侵政府网站，白宫协议被评「非零进展」。",
    "refs": [
     "web-fdbfe14955bd",
     "web-1ca3ce7877a2",
