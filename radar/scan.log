@@ -1,11 +1,13 @@
-2026-10-01 04:31:14,457 INFO source hf_daily           -> 36 items
-2026-10-01 04:31:14,766 INFO source hackernews         -> 3 items
-2026-10-01 04:31:55,612 WARNING rss Paul Graham failed: HTTPConnectionPool(host='www.aaronsw.com', port=80): Max retries exceeded with url: /2002/feeds/pgessays.rss (Caused by NameResolutionError("HTTPConnection(host='www.aaronsw.com', port=80): Failed to resolve 'www.aaronsw.com' ([Errno -2] Name or service not known)"))
-2026-10-01 04:32:03,207 INFO source rss                -> 94 items
-2026-10-01 04:32:05,391 INFO source html_lists         -> 0 items
-2026-10-01 04:32:05,392 INFO source x                  -> 0 items
-2026-10-01 04:32:06,056 INFO source arxiv_search       -> 60 items
-2026-10-01 04:32:15,518 INFO source github             -> 20 items
-2026-10-01 04:32:15,520 INFO candidates: 213 (stale dropped 50, new 116)
-2026-10-01 04:33:43,325 INFO llm judged 100/100 (calls=13)
-2026-10-01 04:36:21,417 INFO run done: {"at": "2026-10-01T04:31:13+00:00", "slot": "noon", "candidates": 213, "new": 116, "stale": 50, "judged": 100, "selected": 21, "mirrored": 21, "by_category": {"资讯": 13, "技术": 4, "观点": 1, "项目": 3}, "by_source": {"HF Daily Papers": 36, "Hacker News": 3, "量子位": 10, "极客公园": 7, "IT之家": 7, "爱范儿": 9, "少数派": 2, "雷峰网": 16, "钛媒体": 5, "InfoQ 中文": 14, "Simon Willison": 1, "Latent Space": 2, "Stratechery": 2, "Azeem Azhar": 1, "Zvi Mowshowitz": 2, "Sebastian Raschka": 1, "Hugging Face Blog": 3, "Google Research": 1, "METR": 1, "Hamel Husain": 1, "OpenAI": 4, "Google DeepMind": 2, "NVIDIA": 2, "Microsoft": 1, "arXiv 新论文": 60, "GitHub 新项目": 9, "GitHub Trending": 11}, "llm": true, "translated": 0}
+2026-10-01 11:30:19,082 INFO source hf_daily           -> 44 items
+2026-10-01 11:30:21,355 INFO source hackernews         -> 4 items
+2026-10-01 11:31:39,919 WARNING rss Paul Graham failed: HTTPConnectionPool(host='www.aaronsw.com', port=80): Max retries exceeded with url: /2002/feeds/pgessays.rss (Caused by NameResolutionError("HTTPConnection(host='www.aaronsw.com', port=80): Failed to resolve 'www.aaronsw.com' ([Errno -2] Name or service not known)"))
+2026-10-01 11:31:44,492 INFO source rss                -> 86 items
+2026-10-01 11:31:46,933 INFO source html_lists         -> 1 items
+2026-10-01 11:31:46,933 INFO source x                  -> 0 items
+2026-10-01 11:31:47,732 INFO source arxiv_search       -> 60 items
+2026-10-01 11:31:57,101 INFO source github             -> 20 items
+2026-10-01 11:31:57,104 INFO candidates: 214 (stale dropped 42, new 108)
+2026-10-01 11:33:26,663 INFO llm judged 100/100 (calls=13)
+2026-10-01 11:33:28,441 WARNING pdf arxiv-2609.38721: too large (> 25165824 bytes): https://arxiv.org/pdf/2609.38721
+2026-10-01 11:33:48,306 WARNING pdf arxiv-2609.40325: too large (> 25165824 bytes): https://arxiv.org/pdf/2609.40325
+2026-10-01 11:35:58,239 INFO run done: {"at": "2026-10-01T11:30:18+00:00", "slot": "evening", "candidates": 214, "new": 108, "stale": 42, "judged": 100, "selected": 19, "mirrored": 17, "by_category": {"技术": 4, "观点": 2, "资讯": 12, "项目": 1}, "by_source": {"HF Daily Papers": 44, "arXiv 新论文": 60, "Hacker News": 4, "量子位": 9, "极客公园": 4, "IT之家": 10, "爱范儿": 7, "少数派": 2, "雷峰网": 16, "钛媒体": 4, "InfoQ 中文": 13, "Ethan Mollick": 1, "Simon Willison": 1, "Latent Space": 3, "Stratechery": 1, "Azeem Azhar": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 3, "Google Research": 1, "METR": 1, "Hamel Husain": 1, "OpenAI": 2, "Google DeepMind": 2, "NVIDIA": 2, "Anthropic": 1, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
