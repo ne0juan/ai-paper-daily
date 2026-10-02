@@ -1,12 +1,14 @@
-2026-10-02 04:22:57,539 INFO source hf_daily           -> 40 items
-2026-10-02 04:22:57,786 INFO source hackernews         -> 3 items
-2026-10-02 04:23:28,372 WARNING rss Paul Graham failed: HTTPConnectionPool(host='www.aaronsw.com', port=80): Max retries exceeded with url: /2002/feeds/pgessays.rss (Caused by NameResolutionError("HTTPConnection(host='www.aaronsw.com', port=80): Failed to resolve 'www.aaronsw.com' ([Errno -2] Name or service not known)"))
-2026-10-02 04:23:33,450 INFO source rss                -> 85 items
-2026-10-02 04:23:34,587 INFO source html_lists         -> 0 items
-2026-10-02 04:23:34,587 INFO source x                  -> 0 items
-2026-10-02 04:24:03,513 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
-2026-10-02 04:24:11,902 INFO source github             -> 20 items
-2026-10-02 04:24:11,904 INFO candidates: 148 (stale dropped 69, new 36)
-2026-10-02 04:24:42,913 INFO llm judged 36/36 (calls=5)
-2026-10-02 04:24:43,237 WARNING pdf arxiv-2610.01215: too large (> 25165824 bytes): https://arxiv.org/pdf/2610.01215
-2026-10-02 04:26:47,784 INFO run done: {"at": "2026-10-02T04:22:57+00:00", "slot": "noon", "candidates": 148, "new": 36, "stale": 69, "judged": 36, "selected": 19, "mirrored": 18, "by_category": {"技术": 4, "资讯": 13, "观点": 1, "项目": 1}, "by_source": {"HF Daily Papers": 40, "Hacker News": 3, "量子位": 9, "极客公园": 3, "IT之家": 12, "爱范儿": 3, "雷峰网": 15, "钛媒体": 6, "InfoQ 中文": 12, "Ethan Mollick": 1, "Dwarkesh Patel": 1, "Latent Space": 4, "Stratechery": 1, "Arvind Narayanan": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 2, "METR": 1, "Hamel Husain": 1, "OpenAI": 5, "Google DeepMind": 2, "NVIDIA": 4, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
+2026-10-02 10:59:45,471 INFO source hf_daily           -> 44 items
+2026-10-02 10:59:45,742 INFO source hackernews         -> 4 items
+2026-10-02 11:00:17,978 WARNING rss Paul Graham failed: HTTPConnectionPool(host='www.aaronsw.com', port=80): Max retries exceeded with url: /2002/feeds/pgessays.rss (Caused by NameResolutionError("HTTPConnection(host='www.aaronsw.com', port=80): Failed to resolve 'www.aaronsw.com' ([Errno -2] Name or service not known)"))
+2026-10-02 11:00:23,943 INFO source rss                -> 59 items
+2026-10-02 11:00:25,332 INFO source html_lists         -> 0 items
+2026-10-02 11:00:25,333 INFO source x                  -> 0 items
+2026-10-02 11:00:27,721 INFO source arxiv_search       -> 60 items
+2026-10-02 11:00:36,542 INFO source github             -> 20 items
+2026-10-02 11:00:36,545 INFO candidates: 185 (stale dropped 46, new 86)
+2026-10-02 11:02:00,591 INFO llm judged 84/86 (calls=11)
+2026-10-02 11:02:00,638 WARNING mt provider edge failed: 404 for https://edge.microsoft.com/translate/auth
+2026-10-02 11:02:13,607 WARNING mt provider google failed: 429 for https://translate.googleapis.com/translate_a/single
+2026-10-02 11:02:13,607 WARNING mt failed: all translation providers failed
+2026-10-02 11:04:33,063 INFO run done: {"at": "2026-10-02T10:59:45+00:00", "slot": "evening", "candidates": 185, "new": 86, "stale": 46, "judged": 84, "selected": 19, "mirrored": 19, "by_category": {"技术": 4, "资讯": 12, "项目": 1, "观点": 2}, "by_source": {"HF Daily Papers": 44, "arXiv 新论文": 60, "Hacker News": 4, "量子位": 7, "极客公园": 3, "IT之家": 10, "爱范儿": 4, "雷峰网": 1, "钛媒体": 2, "InfoQ 中文": 12, "Ethan Mollick": 1, "Dwarkesh Patel": 1, "Latent Space": 4, "Arvind Narayanan": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 2, "OpenAI": 3, "Google DeepMind": 2, "NVIDIA": 4, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
