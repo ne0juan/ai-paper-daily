@@ -1,6 +1,13 @@
 {
- "updated": "2026-10-02T10:59:45+00:00",
+ "updated": "2026-10-02T16:34:50+00:00",
  "days": [
+  {
+   "date": "2026-10-03",
+   "count": 13,
+   "slots": {
+    "morning": 13
+   }
+  },
   {
    "date": "2026-10-02",
    "count": 55,
@@ -86,44 +93,44 @@
    }
   }
  ],
- "total": 535,
+ "total": 548,
  "last_run": {
-  "at": "2026-10-02T10:59:45+00:00",
-  "slot": "evening",
-  "candidates": 185,
-  "new": 86,
-  "stale": 46,
-  "judged": 84,
-  "selected": 19,
-  "mirrored": 19,
+  "at": "2026-10-02T16:34:50+00:00",
+  "slot": "morning",
+  "candidates": 184,
+  "new": 30,
+  "stale": 117,
+  "judged": 30,
+  "selected": 13,
+  "mirrored": 12,
   "by_category": {
+   "资讯": 7,
+   "观点": 1,
    "技术": 4,
-   "资讯": 12,
-   "项目": 1,
-   "观点": 2
+   "项目": 1
   },
   "by_source": {
-   "HF Daily Papers": 44,
+   "HF Daily Papers": 47,
    "arXiv 新论文": 60,
-   "Hacker News": 4,
-   "量子位": 7,
+   "Hacker News": 5,
+   "量子位": 5,
    "极客公园": 3,
-   "IT之家": 10,
-   "爱范儿": 4,
-   "雷峰网": 1,
+   "IT之家": 11,
+   "爱范儿": 3,
    "钛媒体": 2,
-   "InfoQ 中文": 12,
+   "InfoQ 中文": 9,
    "Ethan Mollick": 1,
    "Dwarkesh Patel": 1,
-   "Latent Space": 4,
+   "Latent Space": 5,
    "Arvind Narayanan": 1,
-   "Zvi Mowshowitz": 2,
+   "Zvi Mowshowitz": 1,
    "Hugging Face Blog": 2,
-   "OpenAI": 3,
-   "Google DeepMind": 2,
+   "Google Research": 1,
+   "OpenAI": 4,
+   "Google DeepMind": 1,
    "NVIDIA": 4,
-   "GitHub Trending": 10,
-   "GitHub 新项目": 10
+   "GitHub 新项目": 11,
+   "GitHub Trending": 9
   },
   "llm": true,
   "translated": 0
