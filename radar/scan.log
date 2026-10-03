@@ -1,13 +1,11 @@
-2026-10-03 10:20:07,901 INFO source hf_daily           -> 34 items
-2026-10-03 10:20:08,371 INFO source hackernews         -> 3 items
-2026-10-03 10:20:27,363 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-03 10:20:36,649 INFO source rss                -> 46 items
-2026-10-03 10:20:39,057 INFO source html_lists         -> 0 items
-2026-10-03 10:20:39,057 INFO source x                  -> 0 items
-2026-10-03 10:20:39,458 INFO source arxiv_search       -> 44 items
-2026-10-03 10:20:48,301 INFO source github             -> 20 items
-2026-10-03 10:20:48,303 INFO candidates: 144 (stale dropped 70, new 23)
-2026-10-03 10:21:07,817 INFO llm judged 21/23 (calls=3)
-2026-10-03 10:21:07,868 WARNING mt provider edge failed: 404 for https://edge.microsoft.com/translate/auth
-2026-10-03 10:21:09,120 INFO mt: 3 strings via google
-2026-10-03 10:22:23,119 INFO run done: {"at": "2026-10-03T10:20:05+00:00", "slot": "evening", "candidates": 144, "new": 23, "stale": 70, "judged": 21, "selected": 13, "mirrored": 13, "by_category": {"技术": 4, "资讯": 8, "观点": 1}, "by_source": {"HF Daily Papers": 34, "arXiv 新论文": 44, "Hacker News": 3, "量子位": 8, "极客公园": 2, "IT之家": 8, "爱范儿": 2, "钛媒体": 3, "InfoQ 中文": 4, "Ethan Mollick": 1, "Dwarkesh Patel": 1, "Latent Space": 4, "Stratechery": 1, "Arvind Narayanan": 1, "Zvi Mowshowitz": 1, "Hugging Face Blog": 2, "Google Research": 1, "OpenAI": 4, "NVIDIA": 3, "GitHub 新项目": 11, "GitHub Trending": 9}, "llm": true, "translated": 2}
+2026-10-03 15:06:53,183 INFO source hf_daily           -> 43 items
+2026-10-03 15:06:53,472 INFO source hackernews         -> 4 items
+2026-10-03 15:07:10,945 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-03 15:07:19,059 INFO source rss                -> 40 items
+2026-10-03 15:07:20,517 INFO source html_lists         -> 0 items
+2026-10-03 15:07:20,517 INFO source x                  -> 0 items
+2026-10-03 15:07:21,064 INFO source arxiv_search       -> 16 items
+2026-10-03 15:07:28,974 INFO source github             -> 20 items
+2026-10-03 15:07:28,976 INFO candidates: 119 (stale dropped 46, new 15)
+2026-10-03 15:07:42,700 INFO llm judged 15/15 (calls=2)
+2026-10-03 15:08:33,025 INFO run done: {"at": "2026-10-03T15:06:52+00:00", "slot": "evening", "candidates": 119, "new": 15, "stale": 46, "judged": 15, "selected": 10, "mirrored": 9, "by_category": {"项目": 3, "技术": 4, "资讯": 2, "观点": 1}, "by_source": {"HF Daily Papers": 43, "arXiv 新论文": 16, "Hacker News": 4, "量子位": 6, "极客公园": 2, "IT之家": 6, "爱范儿": 2, "钛媒体": 3, "InfoQ 中文": 3, "Dwarkesh Patel": 1, "Latent Space": 4, "Stratechery": 1, "Arvind Narayanan": 1, "Azeem Azhar": 1, "科学空间": 1, "Hugging Face Blog": 2, "Google Research": 1, "OpenAI": 4, "NVIDIA": 2, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
