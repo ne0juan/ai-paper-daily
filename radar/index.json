@@ -1,12 +1,13 @@
 {
- "updated": "2026-10-03T04:05:13+00:00",
+ "updated": "2026-10-03T10:20:05+00:00",
  "days": [
   {
    "date": "2026-10-03",
-   "count": 30,
+   "count": 43,
    "slots": {
     "morning": 13,
-    "noon": 17
+    "noon": 17,
+    "evening": 13
    }
   },
   {
@@ -94,30 +95,31 @@
    }
   }
  ],
- "total": 565,
+ "total": 578,
  "last_run": {
-  "at": "2026-10-03T04:05:13+00:00",
-  "slot": "noon",
-  "candidates": 105,
-  "new": 25,
-  "stale": 41,
-  "judged": 25,
-  "selected": 17,
-  "mirrored": 16,
+  "at": "2026-10-03T10:20:05+00:00",
+  "slot": "evening",
+  "candidates": 144,
+  "new": 23,
+  "stale": 70,
+  "judged": 21,
+  "selected": 13,
+  "mirrored": 13,
   "by_category": {
-   "项目": 3,
-   "资讯": 13,
+   "技术": 4,
+   "资讯": 8,
    "观点": 1
   },
   "by_source": {
-   "HF Daily Papers": 32,
-   "Hacker News": 6,
-   "量子位": 6,
+   "HF Daily Papers": 34,
+   "arXiv 新论文": 44,
+   "Hacker News": 3,
+   "量子位": 8,
    "极客公园": 2,
-   "IT之家": 9,
-   "爱范儿": 1,
-   "钛媒体": 4,
-   "InfoQ 中文": 5,
+   "IT之家": 8,
+   "爱范儿": 2,
+   "钛媒体": 3,
+   "InfoQ 中文": 4,
    "Ethan Mollick": 1,
    "Dwarkesh Patel": 1,
    "Latent Space": 4,
@@ -128,12 +130,11 @@
    "Google Research": 1,
    "OpenAI": 4,
    "NVIDIA": 3,
-   "Anthropic": 1,
    "GitHub 新项目": 11,
    "GitHub Trending": 9
   },
   "llm": true,
-  "translated": 0
+  "translated": 2
  },
  "slots": {
   "morning": "晨间",
