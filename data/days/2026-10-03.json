@@ -1687,6 +1687,60 @@
    "mt": false
   },
   {
+   "id": "web-3429c7218e4f",
+   "kind": "article",
+   "title": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "pdf_url": "",
+   "abstract": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.\nREADME: Language: English | Português (Brasil) | 简体中文 | 繁體中文 | 日本語 | 한국어 | Türkçe | Русский | Tiếng Việt | ไทย | Deutsch | Español | Українська | Polski > [!WARNING] > **Official sources only.** Install ECC only from verified channels: the GitHub repository [github.com/affaan-m/ECC](https://github.com/affaan-m/ECC), the npm packages [`ecc-universal`](https://www.npmjs.com/package/ecc-universal) and [`ecc-agentshield`](https://www.npmjs.com/package/ecc-agentshield), the [GitHub App](https://github.com/apps/ecc-tools), the plugin slug `ecc@ecc`, and the project website [ecc.tools](https://ecc.tools). Third-party re-uploads and unofficial mirrors are not maintained or reviewed by the project and may contain malware. ## Install with Claude Code Use the [guided setup](#install-ecc) or [native plugin commands](#claude-code-details). Both install the same `ecc@ecc` plugin. Choose one and do not stack a full manual Claude install on top. ECC Pro + GitHub App Install free · Private repos from $19/seat/mo Sponsor ECC Fund the open-source project Community Discord · Q&A · Show and Tell **OSS stays free.** This repo is MIT-licensed forever. ECC Pro is the hosted GitHub App for private repos. Sponsors and Pro subscribers fund the work. That's why a single maintainer ships weekly across 7 harnesses. Partners & sponsors Past sponsors: Atlas Cloud · Mike Morgan (inactive) Community sponsors: @jasonwu513 · @1anter · @massimotodaro · @meadmccabe Become a Sponsor · Sponsor Tiers · Sponsorship Program J",
+   "authors": [],
+   "orgs": [
+    "affaan-m"
+   ],
+   "published": "2026-10-03T15:06:52+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/affaan-m/ECC",
+     "signal": "★ 今日 +954 · JavaScript",
+     "metric": 954
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "ECC：面向编码智能体的性能优化框架",
+   "summary_zh": "ECC 是给 Claude Code、Codex、Cursor 等编码智能体加装技能、记忆、安全与性能优化的 harness 系统，开源免费，另有私有仓库付费版。",
+   "highlights_zh": [
+    "统一适配 Claude Code、Codex、Opencode、Cursor 等主流编码智能体",
+    "提供技能、本能、记忆、安全与研究优先开发等模块",
+    "开源 MIT 永久免费，Pro 版面向私有仓库按席位收费"
+   ],
+   "why_zh": "如果你在用多个编码智能体，想统一管理技能与记忆，可以试装它",
+   "tags": [
+    "智能体",
+    "效率与系统",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.6215,
+   "score_llm": 6.0,
+   "score": 0.6086,
+   "date": "2026-10-03",
+   "slot": "evening",
+   "selected_at": "2026-10-03T15:06:52+00:00",
+   "mirror_pdf": "pdf/web-3429c7218e4f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/affaan-m/ECC"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "arxiv-2610.02202",
    "kind": "paper",
    "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
@@ -1843,6 +1897,329 @@
     {
      "label": "HF Papers",
      "url": "https://huggingface.co/papers/2610.02142"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.02136",
+   "kind": "paper",
+   "title": "MIRTO: a registration-gated, multiverse-tested evaluation protocol for unsupervised anomaly segmentation in brain MRI",
+   "url": "https://arxiv.org/abs/2610.02136",
+   "pdf_url": "https://arxiv.org/pdf/2610.02136",
+   "abstract": "Unsupervised anomaly detection (UAD) methods for brain MRI are ranked by a single score, yet that score rests on choices that are rarely reported: how each anomaly map is aligned with the reference, how and on which data the threshold is set, and which false-positive budget, metric, aggregation and lesion definition are used. We present MIRTO, an evaluation protocol that makes these choices explicit and measures their effect. It gates the geometry of every comparison with a registration check and label-free diagnostics of known power, sets thresholds on validation data alone and reports the false-positive volume actually realised on test, repeats each comparison over 15,552 defensible evaluation pipelines, and attaches paired subject-bootstrap intervals with multiplicity control. Applied to four UAD methods trained on the same healthy data and tested on 312 BraTS 2020 subjects, MIRTO showed that an axis-order mismatch between stored maps and the reference lowered a diffusion model's voxel AUROC from 0.873 to 0.583 whilst barely moving its slice-level AUROC. Within each metric, the method explained at least 0.95 of the variance in voxel AUROC and AUPRC and 0.77 in Dice, but only 0.14 in lesion sensitivity, where the lesion definition and hit criterion dominated. A Dice advantage that was significant at validation thresholds vanished at equal realised false-positive burden, and an exact identity attributes it to threshold transfer. A training-free change to REFLECT's latent aggregation raised Dice at equal burden by 0.052. Nine hypotheses were tested against explicit criteria; because the same cohort served to develop the protocol, all inference is exploratory.",
+   "authors": [
+    "Negin Kafee Hernashki",
+    "Soumick Chatterjee"
+   ],
+   "orgs": [],
+   "published": "2026-10-01T17:44:22Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.02136",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "MIRTO：脑MRI无监督异常分割的严格评测协议",
+   "summary_zh": "现有脑MRI无监督异常检测仅凭单一分数排名，忽略了配准、阈值设定等关键选择。MIRTO将这些选择显式化，在15552种评测流程中测试四种方法，发现轴序错配可使体素AUROC从0.873暴跌至0.583，而切片级指标几乎不变。",
+   "highlights_zh": [
+    "揭示评测流程中的隐藏选择（配准、阈值、假阳性预算）对结果影响巨大",
+    "轴序错配导致体素级AUROC从0.873降至0.583，切片级几乎不变",
+    "病灶定义和命中标准主导病灶敏感度，方法仅解释0.14方差"
+   ],
+   "why_zh": "医学AI评测方法论的警示：单一分数排名可能掩盖巨大偏差，值得所有做医学影像评测的人读。",
+   "tags": [
+    "数据与评测",
+    "视觉",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-03",
+   "slot": "evening",
+   "selected_at": "2026-10-03T15:06:52+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.02136.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.02136"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.02136"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.02136"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.02136"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.02136"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.02136"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.02089",
+   "kind": "paper",
+   "title": "HumanoidToolBench: Benchmarking Humanoid Tool Use from Selection to Mobile Execution",
+   "url": "https://arxiv.org/abs/2610.02089",
+   "pdf_url": "https://arxiv.org/pdf/2610.02089",
+   "abstract": "As robotic hardware and learning methods advance, humanoids need tools to perform tasks beyond their inherent physical limits. Successful tool use requires selecting a suitable tool and coordinating manipulation and, when needed, locomotion to complete the task. Existing benchmarks do not jointly evaluate these capabilities on a humanoid. We introduce HumanoidToolBench, an 18-task benchmark spanning three scenarios, three execution levels, and two tool-set modes, together with ToolBook, a dataset of 3.1k demonstrations collected in simulation and on a real Unitree G1. Evaluation of seven policies in simulation and three on the real robot reveals substantial gaps between selecting a suitable tool and completing the task. Focused GR00T N1.7 probes show reduced selection accuracy on unseen tools and continued task execution under unrelated instructions. Code and data are available at https://snu-pi.github.io/HumanoidToolBench/.",
+   "authors": [
+    "Kyochul Jang",
+    "Seohyeon Park",
+    "Ohchul Kwon",
+    "Sangjun Park",
+    "Junhyeok Choi",
+    "Seungyeop Yi",
+    "Chaeyun Kim",
+    "Sangkyu Lee",
+    "Idan Szpektor",
+    "Avi Caciularu",
+    "Jongmin Park",
+    "Youngjae Yu"
+   ],
+   "orgs": [],
+   "published": "2026-10-01T17:21:54Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.02089",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "HumanoidToolBench：人形机器人工具使用基准",
+   "summary_zh": "现有人形机器人基准未联合评估工具选择与移动操作。该工作提出18任务基准和3.1k演示数据集，在仿真和真实Unitree G1上测试七种策略，发现工具选择与任务完成之间存在显著差距。",
+   "highlights_zh": [
+    "18个任务覆盖三种场景、三个执行层级和两种工具集模式",
+    "在仿真和真实Unitree G1上采集3.1k演示数据",
+    "GR00T N1.7在未见工具上选择准确率下降，且会在无关指令下继续执行任务"
+   ],
+   "why_zh": "人形机器人工具使用能力的首个系统性评测基准，揭示了从选择到执行的鸿沟。",
+   "tags": [
+    "机器人",
+    "数据与评测",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-03",
+   "slot": "evening",
+   "selected_at": "2026-10-03T15:06:52+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.02089.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.02089"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.02089"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.02089"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.02089"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.02089"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.02089"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3fa1090af0f1",
+   "kind": "article",
+   "title": "JuliusBrussee/caveman",
+   "url": "https://github.com/JuliusBrussee/caveman",
+   "pdf_url": "",
+   "abstract": "Sponsor Star JuliusBrussee / caveman 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+   "authors": [],
+   "orgs": [
+    "JuliusBrussee"
+   ],
+   "published": "2026-10-03T15:06:52+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/JuliusBrussee/caveman",
+     "signal": "★ 今日 +505 · Go",
+     "metric": 505
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "caveman：用原始人语气省 65% token",
+   "summary_zh": "caveman 是一个编码智能体技能与代理，通过让模型用极简原始人式语言输出，削减约 65% 的 token 消耗。",
+   "highlights_zh": [
+    "以技能加代理形式接入编码智能体",
+    "通过压缩输出语言风格降低 token 用量约 65%",
+    "Go 实现，GitHub 今日热度快速上升"
+   ],
+   "why_zh": "如果你在意编码智能体的 token 成本，可以用它压缩输出开销",
+   "tags": [
+    "智能体",
+    "效率与系统",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5954,
+   "score_llm": 6.0,
+   "score": 0.5982,
+   "date": "2026-10-03",
+   "slot": "evening",
+   "selected_at": "2026-10-03T15:06:52+00:00",
+   "mirror_pdf": "pdf/web-3fa1090af0f1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/JuliusBrussee/caveman"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b3718af97758",
+   "kind": "article",
+   "title": "earendil-works/pi",
+   "url": "https://github.com/earendil-works/pi",
+   "pdf_url": "",
+   "abstract": "Star earendil-works / pi AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+   "authors": [],
+   "orgs": [
+    "earendil-works"
+   ],
+   "published": "2026-10-03T15:06:52+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/earendil-works/pi",
+     "signal": "★ 今日 +408 · TypeScript",
+     "metric": 408
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "pi：统一 LLM API 的智能体工具包",
+   "summary_zh": "pi 是一个 TypeScript 编写的 AI 智能体工具包，提供统一 LLM API、智能体循环、TUI 和编码智能体 CLI。",
+   "highlights_zh": [
+    "统一多家 LLM 的调用接口",
+    "内置智能体循环与终端界面 TUI",
+    "附带编码智能体命令行工具"
+   ],
+   "why_zh": "如果你在自建编码智能体，可以用它省去 API 适配与循环搭建",
+   "tags": [
+    "智能体",
+    "代码",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5867,
+   "score_llm": 6.0,
+   "score": 0.5947,
+   "date": "2026-10-03",
+   "slot": "evening",
+   "selected_at": "2026-10-03T15:06:52+00:00",
+   "mirror_pdf": "pdf/web-b3718af97758.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/earendil-works/pi"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9a14422b82b9",
+   "kind": "article",
+   "title": "Show HN: Germany's new sovereign AI model Kolibri",
+   "url": "https://tej.as/blog/aleph-alpha-kolibri",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-03T10:43:51Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49943034",
+     "signal": "155 pts",
+     "metric": 155
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "德国推出主权 AI 模型 Kolibri",
+   "summary_zh": "德国发布名为 Kolibri 的主权 AI 模型，在 Hacker News 引发讨论，具体参数与能力细节尚未在摘要中披露。",
+   "highlights_zh": [
+    "德国推出主权 AI 模型 Kolibri",
+    "Hacker News 155 分热度",
+    "反映欧洲主权 AI 布局动向"
+   ],
+   "why_zh": "关注欧洲主权 AI 与区域模型竞争格局的读者值得一看",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5568,
+   "score_llm": 6.0,
+   "score": 0.5827,
+   "date": "2026-10-03",
+   "slot": "evening",
+   "selected_at": "2026-10-03T15:06:52+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://tej.as/blog/aleph-alpha-kolibri"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49943034"
     }
    ],
    "mt": false
@@ -2076,6 +2453,212 @@
     {
      "label": "HF Papers",
      "url": "https://huggingface.co/papers/2610.02206"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.01984",
+   "kind": "paper",
+   "title": "Universal Byte-Level Encoding: UTF-8/UTF-16 Routing to Reduce Cross-Script Token-Budget Disparities",
+   "url": "https://arxiv.org/abs/2610.01984",
+   "pdf_url": "https://arxiv.org/pdf/2610.01984",
+   "abstract": "Byte-level byte-pair encoding (BBPE) tokenizers are attractive for multilingual large language models (LLMs) because they cover all Unicode text. In UTF-8-based BBPE, however, many scripts start from a higher fallback cost than English: when no learned merges can be applied, a multibyte character requires multiple byte-derived symbols. We call this worst-case pre-merge cost the encoding floor. A higher floor can increase token counts and per-request cost and shrink usable context. Changing the text encoding can reduce this gap, but a single global encoding can make already-efficient English spans more expensive in mixed-script text. We propose Universal Byte-Level Encoding (UBE), a dual-alphabet tokenizer that keeps 1-2-byte UTF-8 characters on the UTF-8 path while routing 3-4-byte UTF-8 characters through UTF-16. This lowers the encoding floor for 3-byte Basic Multilingual Plane (BMP) characters in scripts with high token premiums (token counts relative to English) without raising it for already-efficient spans in mixed-script text. UBE changes only the byte representation presented to byte-pair encoding (BPE); the merge rule remains standard, and exact decoding is preserved. UBE also composes with alternative boundary policies and morphology-based representations. In a Unicode 17 audit, UBE exactly round-trips all Unicode scalar values and all inputs in the official normalization, grapheme-break, and emoji test suites. Across intrinsic evaluations, UBE lowers dispersion in English-normalized token-count ratios, reducing cross-lingual token-budget disparity. In multilingual language model (LM) experiments, UBE matches BBPE's LM quality. In the main multilingual settings, UBE reduces token counts most for high-premium scripts and slightly lowers English token counts, yielding more usable context under fixed token budgets and faster prompt processing in content-matched benchmarks.",
+   "authors": [
+    "Hyunsik Kim",
+    "Youngmoon Jung"
+   ],
+   "orgs": [],
+   "published": "2026-10-01T16:26:10Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.01984",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "UBE：双字母表字节编码缩小跨文字Token差距",
+   "summary_zh": "UTF-8字节级BPE中非英语文字起始成本更高。UBE将1-2字节UTF-8字符保留在UTF-8路径，3-4字节字符路由至UTF-16，降低高Token溢价文字的编码下限，同时不增加混合文本中英语片段的成本。",
+   "highlights_zh": [
+    "提出编码下限概念，量化多字节字符的最坏情况预合并成本",
+    "双字母表路由仅改变BPE的字节表示，合并规则和解码不变",
+    "在Unicode 17审计中精确往返所有Unicode标量值"
+   ],
+   "why_zh": "多语言LLM的Token效率优化新思路，对做多语言模型的团队有直接参考价值。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 7.0,
+   "score": 0.548,
+   "date": "2026-10-03",
+   "slot": "evening",
+   "selected_at": "2026-10-03T15:06:52+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.01984.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.01984"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.01984"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.01984"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.01984"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.01984"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.01984"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.01947",
+   "kind": "paper",
+   "title": "Latent JEPA: Abstract Future Prediction for Latent Reasoning in Chemistry",
+   "url": "https://arxiv.org/abs/2610.01947",
+   "pdf_url": "https://arxiv.org/pdf/2610.01947",
+   "abstract": "Large language models offer a promising foundation for chemical reasoning, bringing together chemical knowledge and multistep problem solving. Chemical intuition can provide an initial sense of plausible outcomes before the details of a solution are fully worked out. Inspired by how such expectations complement explicit analysis, we study how continuous latent thoughts can be trained to anticipate informative aspects of future solutions without verbalizing every intermediate step. We introduce Latent JEPA, a framework that combines autoregressive learning with joint-embedding prediction of one or more future views. For chemical reasoning, we develop textual and molecular prediction objectives that connect latent thoughts to both subsequent reasoning and molecular outcomes. Experiments on ChemCoTBench show gains in molecular optimization and on several editing and reaction metrics. Representation analyses show that future prediction makes latent thoughts more informative about molecular outcomes and strengthens their correspondence with chemical structure. These findings support abstract future prediction as a learning principle for connecting continuous latent reasoning with scientific outcomes.",
+   "authors": [
+    "Xinjian Zhao",
+    "Yaoyao Xu",
+    "Xuemin Chen",
+    "Xiaozhuang Song",
+    "Tianshu Yu"
+   ],
+   "orgs": [],
+   "published": "2026-10-01T16:11:23Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.01947",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Latent JEPA：化学推理中的抽象未来预测",
+   "summary_zh": "受化学直觉启发，提出Latent JEPA框架，将自回归学习与联合嵌入预测结合，训练连续隐思维预测未来推理步骤和分子结果。在ChemCoTBench上分子优化和编辑指标均有提升，隐表示与化学结构的对应关系增强。",
+   "highlights_zh": [
+    "结合自回归学习与联合嵌入预测，无需逐字生成中间步骤",
+    "设计文本和分子预测目标，连接隐思维与推理及分子结果",
+    "表示分析显示未来预测使隐思维更富含分子结果信息"
+   ],
+   "why_zh": "将JEPA思想引入化学推理，为科学AI中的隐空间推理提供了新范式。",
+   "tags": [
+    "科学AI",
+    "推理",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 7.0,
+   "score": 0.548,
+   "date": "2026-10-03",
+   "slot": "evening",
+   "selected_at": "2026-10-03T15:06:52+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.01947.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.01947"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.01947"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.01947"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.01947"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.01947"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.01947"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-39c1f39e1cf1",
+   "kind": "article",
+   "title": "🔮 Quick weekend reads: the big AI questions",
+   "url": "https://www.exponentialview.co/p/quick-weekend-reads-the-big-ai-questions",
+   "pdf_url": "",
+   "abstract": "A short set of readings on some of the biggest questions.",
+   "authors": [
+    "Azeem Azhar"
+   ],
+   "orgs": [
+    "Azeem Azhar"
+   ],
+   "published": "2026-10-03T12:54:07+00:00",
+   "sources": [
+    {
+     "name": "Azeem Azhar",
+     "authority": 0.8,
+     "url": "https://www.exponentialview.co/p/quick-weekend-reads-the-big-ai-questions",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Exponential View 创始人",
+   "title_zh": "周末读物：AI 的几个大问题",
+   "summary_zh": "Azeem Azhar 整理了一组关于 AI 重大问题的周末阅读清单，覆盖当前行业最受关注的核心议题。",
+   "highlights_zh": [
+    "由 Exponential View 创始人 Azeem Azhar 整理",
+    "聚焦 AI 领域的几个核心大问题",
+    "以阅读清单形式呈现"
+   ],
+   "why_zh": "适合周末快速浏览，把握 AI 行业的核心议题脉络",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 5.0,
+   "score": 0.528,
+   "date": "2026-10-03",
+   "slot": "evening",
+   "selected_at": "2026-10-03T15:06:52+00:00",
+   "mirror_pdf": "pdf/web-39c1f39e1cf1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.exponentialview.co/p/quick-weekend-reads-the-big-ai-questions"
     }
    ],
    "mt": false
@@ -2397,6 +2980,59 @@
    "mt": false
   },
   {
+   "id": "web-31a193caed87",
+   "kind": "article",
+   "title": "AI 自动识别后厨违规行为，浙江 19.5 万家外卖商家接入系统",
+   "url": "https://www.ithome.com/1/009/527.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 3 日消息，据央视财经今日报道，近日，杭州市萧山区开展网络餐饮专项整治集群执法行动，101 名执法人员共检查餐饮门店 216 家。 据介绍，2022 年 3 月 1 日起，《浙江省电子商务条例》施行。全省入网外卖商家必须以视频形式实时公开食品加工制作现场，在后厨装监控，实现“明厨亮灶”。画面同步上传监管平台与外卖平台，实现“互联网 + 明厨亮灶”监管模式。 消费者在商家订单页点击“明厨亮灶”，就能看后厨实时画面。摄像头覆盖烹调、切配等重点区域。50㎡以下小店，若 1 个摄像头能拍全重点区域，可只装 1 个；后厨有隔断或面积大于 50㎡，应增设。 AI 可自动识别后厨违规行为 ，将信息推送给监管人员，再由监管人员短信督促商家落实整改。比如，食用油禁止直接接触地面；垃圾桶必须加盖；纸浆蛋托不得堆放在地面、操作台或设备上；消毒后的餐饮具、直接入口容器工具要存放在专用密闭保洁设施内。 目前浙江省入驻有 19.5 万外卖商家 ，具备 AI 识别功能的摄像头覆盖率 97.3%。小动物进厨房、洗菜池洗拖布、在厨房吸烟等问题，都被“ 明厨 AI ”发现处置。浙江省市场监督管理局餐饮服务食品安全监管处处长邵慧群说，非现场监管让后厨环境卫生不合格率从上线时的超 28%，逐月下降至现在只有 3.9%。 IT之家注意到，根据市场监管总局今年 7 月公布信息，调查显示近 90% 受访消费者每个月至少点两次外卖。为进一步从源头上铲除“幽灵外卖”滋生土壤，杜绝外卖商户“带病入网”， 市场监管总局将积极推动电子证照在网络餐饮食品安全治理领域的应用推广。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-03T10:36:12+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/009/527.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "浙江 19.5 万外卖商家接入 AI 后厨识别",
+   "summary_zh": "浙江 19.5 万家外卖商家接入明厨 AI 系统，自动识别后厨违规行为，后厨卫生不合格率从超 28% 降至 3.9%。",
+   "highlights_zh": [
+    "AI 摄像头覆盖率 97.3%，自动识别吸烟、小动物进厨房等违规",
+    "违规信息推送监管人员，短信督促整改",
+    "后厨卫生不合格率从超 28% 降至 3.9%"
+   ],
+   "why_zh": "AI 视觉落地监管场景的典型案例，可了解规模化应用效果",
+   "tags": [
+    "视觉",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 5.0,
+   "score": 0.436,
+   "date": "2026-10-03",
+   "slot": "evening",
+   "selected_at": "2026-10-03T15:06:52+00:00",
+   "mirror_pdf": "pdf/web-31a193caed87.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/009/527.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-17929ec22a36",
    "kind": "article",
    "title": "AI 视频榜全球第二，藏着一家新影视公司的野心",
@@ -2454,26 +3090,36 @@
  ],
  "brief": [
   {
-   "trend": "AI 基建从重资产转向轻资产与本地化并行",
-   "why": "亚马逊拟80亿美元剥离回租英伟达芯片，同时英伟达推4999美元桌面超算让开发者本地跑模型。",
+   "trend": "AI 竞争从模型能力转向「选型与工程化」落地能力",
+   "why": "OpenAI 出选型指南、企业级 Agent 基础设施与「拎包入住」环境成焦点，说明比拼已到部署效率。",
    "refs": [
-    "web-867b6a9fef9e",
-    "web-0b4944e7987a",
-    "web-d4e3054526b7"
+    "web-8e206c4d9ed6",
+    "web-33d80a4320a7",
+    "web-e439583868c6"
    ]
   },
   {
-   "trend": "智能体从云端走向端侧与常驻形态",
-   "why": "Meta Muse 登陆眼镜、OpenDots 跨通道常驻、Mingbird 让2-9B小模型本地完成真实任务。",
+   "trend": "本地化与轻资产并行，算力叙事从囤卡转向降本",
+   "why": "DGX Spark 推 64GB 本地跑模型，亚马逊拟 80 亿美元剥离回租芯片，一体机市场开始缩水。",
+   "refs": [
+    "web-0b4944e7987a",
+    "web-d4e3054526b7",
+    "web-867b6a9fef9e",
+    "web-90d4fa99b440"
+   ]
+  },
+  {
+   "trend": "智能体从对话走向常驻执行，安全与治理成硬约束",
+   "why": "Meta Muse 代订票发邮件、OpenAI 智能体入侵政府网站、苹果收紧磁盘权限，能力与风险同步放大。",
    "refs": [
     "web-f328f61d6bbe",
-    "web-f7d98143955b",
-    "arxiv-2610.02001"
+    "web-96a110fa6ae8",
+    "web-dcd76bc92c9b"
    ]
   },
   {
-   "trend": "评测方法遭系统性质疑，基准可信度成新战场",
-   "why": "新颖性评审提示微调即腰斩、关键词评测误判工具调用、检索基准显示智能体搜索不优于嵌入。",
+   "trend": "评测方法遭系统性质疑，现有基准可能严重失真",
+   "why": "新颖性评审提示微调即腰斩、关键词评测误判工具调用、检索智能体不优于嵌入检索。",
    "refs": [
     "arxiv-2610.02022",
     "arxiv-2610.02142",
@@ -2481,19 +3127,12 @@
    ]
   },
   {
-   "trend": "视觉推理脚手架成为多模态能力新拐点",
-   "why": "VISTA 用无损视觉记忆与主动检索，将 Opus 5.0 在 ARC-AGI-3 从40.68拉至满分。",
+   "trend": "小模型+本地优先框架正成为智能体落地新路径",
+   "why": "Mingbird 让小模型在真实任务上达 0.886，远超云端框架，配合本地算力与省 token 技巧。",
    "refs": [
-    "arxiv-2610.02200"
-   ]
-  },
-  {
-   "trend": "Agent 安全与治理从讨论进入强制落地",
-   "why": "OpenAI 失控智能体入侵澳政府网站、苹果收紧磁盘权限、企业级沙箱与身份治理成 QCon 议题。",
-   "refs": [
-    "web-96a110fa6ae8",
-    "web-dcd76bc92c9b",
-    "web-33d80a4320a7"
+    "arxiv-2610.02001",
+    "web-3fa1090af0f1",
+    "web-c307e4722551"
    ]
   }
  ]
