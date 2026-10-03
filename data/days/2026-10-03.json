@@ -1685,49 +1685,815 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "arxiv-2610.02202",
+   "kind": "paper",
+   "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
+   "url": "https://arxiv.org/abs/2610.02202",
+   "pdf_url": "https://arxiv.org/pdf/2610.02202",
+   "abstract": "What makes great scientists great? Even as AI systems start to make progress on open problems, scientists remain far ahead of them at sensing which prior idea, buried in an ever-growing archive of research, a new problem needs. To study this skill, we draw on researchers who know firsthand which earlier work advanced their completed projects, with papers serving as pointers to the ideas within. Using our automated pipeline that makes author annotation scalable, we build ScholarCatalyst by having 184 lead authors of 207 recent computer science papers label which candidates did or could have advanced their project, each with a detailed rationale. We introduce a retrieval task with author-provided judgments: given an initial research question, retrieve these papers from only the literature available when the project began. Agentic search does no better than embedding retrieval (0.42 vs. 0.48 Recall@20) despite calling that same retriever as a tool. Even an agent built on Claude Fable 5.1, which may have seen the completed papers during training, reaches only 0.51 R@20. These results highlight the need for new training recipes that equip models with expert intuition for searching broad corpora. We envision ScholarCatalyst as a step toward scientific agents that can take a half-formed idea and point to the prior research it needs.",
+   "authors": [
+    "Sohyeon Kim",
+    "Yoonho Lee",
+    "Bo Liu",
+    "Dayoon Ko",
+    "Rulin Shao",
+    "Seungone Kim",
+    "Graham Neubig",
+    "Pang Wei Koh",
+    "Aakanksha Chowdhery",
+    "Akari Asai",
+    "Omar Khattab",
+    "Yejin Choi",
+    "Gunhee Kim",
+    "Chelsea Finn"
+   ],
+   "orgs": [],
+   "published": "2026-10-01T17:59:47Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.02202",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "ScholarCatalyst：检索激发新研究的论文基准",
+   "summary_zh": "让 184 位论文一作标注哪些先前工作推动了其项目，构建检索基准；结果显示智能体搜索并不优于嵌入检索，Claude 智能体也仅达 0.51 R@20。",
+   "highlights_zh": [
+    "207 篇近期 CS 论文的一作提供判断与详细理由",
+    "智能体搜索 0.42 R@20，反低于嵌入检索的 0.48",
+    "基于 Claude Fable 5.1 的智能体也仅达 0.51 R@20"
+   ],
+   "why_zh": "揭示当前模型缺乏专家级文献检索直觉，指明科学智能体训练方向",
+   "tags": [
+    "数据与评测",
+    "智能体",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-03",
+   "slot": "evening",
+   "selected_at": "2026-10-03T10:20:05+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.02202.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.02202"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.02202"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.02202"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.02202"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.02202"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.02202"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.02142",
+   "kind": "paper",
+   "title": "Keyword Harnesses Fail Open: A Cheap Diagnostic Ladder for Tool-Use Claims in Small Language Models",
+   "url": "https://arxiv.org/abs/2610.02142",
+   "pdf_url": "https://arxiv.org/pdf/2610.02142",
+   "abstract": "Keyword-matching benchmarks can credit small models for tool use they never perform. We document such a false positive in a matched-architecture pair of Spanish security language models and propose a ladder of strict, cheap diagnostics. A 661.6M parameter model (approx. 65% code/technical text; no dedicated SFT) and a 1,109M model (web-heavy multi-phase curriculum; 6B-token tool-SFT) share decoder, tokenizer, and special tokens, scoring almost identically on lenient tool-use metrics (B4: 0.660 vs. 0.650). Verbatim-reproduction checks on training examples separate them completely: the 600M emits valid tool calls with generalized arguments on 6/6 examples; the 1B does so on 0/6 across checkpoints. A first-token probe localizes the 1B's failure to a missing prior (prob. $10^{-4}$--$10^{-5}$ on <|tool_call|>), which was erased by its web-heavy training phase. A targeted SFT recipe (diverse corpus, 5x higher learning rate, 2,202 steps, ~3.3 GPU-hours) repairs the 1B using three orders of magnitude fewer tokens than the failed phase. On all 269 corpus rows, valid emission rises from 0.100 to 0.959 (600M: 0.926). On 238 unseen prompts, the repaired 1B passes 0.536 vs. the 600M's 0.428 ($p = 0.004$). Embedding-drift checks show the repair did not move the trigger token's tied embedding (97.7% of the bf16 table remains bit-identical), meaning changes live in the surrounding network. Both models over-trigger, rarely answering negative prompts without a call (0.09 for 600M, 0.17 for repaired 1B). Factorial analyses confirm all repair configurations install the format, though suppression benefits from a diverse corpus remain a hypothesis due to seed sensitivity. This cheap diagnostic ladder costs minutes of CPU time and should gate tool-use claims on small models.",
+   "authors": [
+    "Juan S. Santillana"
+   ],
+   "orgs": [],
+   "published": "2026-10-01T17:46:38Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.02142",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "关键词评测会误判小模型工具调用能力",
+   "summary_zh": "作者发现关键词匹配式工具调用评测会给出假阳性：两个同架构西语安全模型宽松指标几乎相同，但逐字复现检查下600M模型6/6正确、1B模型0/6，问题出在训练中丢失了工具调用触发先验，用极少token的定向SFT即可修复。",
+   "highlights_zh": [
+    "宽松关键词指标下600M与1B模型得分几乎一致（0.660 vs 0.650），但严格复现检查完全区分二者",
+    "首token探针定位1B失败原因是<|tool_call|>先验被网页为主训练阶段抹除",
+    "定向SFT仅用约3.3 GPU小时、比失败阶段少三个数量级token，即把有效发出率从0.100提升到0.959"
+   ],
+   "why_zh": "做小模型工具调用或评测的人应读，关键词指标可能系统性高估能力。",
+   "tags": [
+    "数据与评测",
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-03",
+   "slot": "evening",
+   "selected_at": "2026-10-03T10:20:05+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.02142.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.02142"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.02142"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.02142"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.02142"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.02142"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.02142"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a97398f76ee5",
+   "kind": "article",
+   "title": "Chatham scales its capital markets expertise with OpenAI",
+   "url": "https://openai.com/index/chatham-financial",
+   "pdf_url": "",
+   "abstract": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-10-02T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/chatham-financial",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Chatham 用 OpenAI 重塑资本市场工作流",
+   "summary_zh": "Chatham Financial 借助 Codex 与 GPT-5.6 重构交易验证流程，将单笔耗时从 30 分钟压缩到 4 分钟以内。",
+   "highlights_zh": [
+    "金融合规场景落地案例",
+    "交易验证效率提升约 7 倍",
+    "Codex 用于构建内部工具"
+   ],
+   "why_zh": "看头部金融机构如何把大模型嵌入高合规工作流，可作落地参考。",
+   "tags": [
+    "产品与行业",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 6.0,
+   "score": 0.576,
+   "date": "2026-10-03",
+   "slot": "evening",
+   "selected_at": "2026-10-03T10:20:05+00:00",
+   "mirror_pdf": "pdf/web-a97398f76ee5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/chatham-financial"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b6b70248a0d7",
+   "kind": "article",
+   "title": "AI Makes Me Sad",
+   "url": "https://mondobe.com/ai-makes-me-sad",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-02T15:18:00Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49934487",
+     "signal": "187 pts",
+     "metric": 187
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "人工智能让我伤心",
+   "summary_zh": "",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.5655,
+   "score_llm": null,
+   "score": 0.5655,
+   "date": "2026-10-03",
+   "slot": "evening",
+   "selected_at": "2026-10-03T10:20:05+00:00",
+   "mirror_pdf": "pdf/web-b6b70248a0d7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://mondobe.com/ai-makes-me-sad"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49934487"
+    }
+   ],
+   "mt": true
+  },
+  {
+   "id": "web-403edeaa64d2",
+   "kind": "article",
+   "title": "亚马逊推出 Strands Decider 2B 开源决策模型，支持本地部署",
+   "url": "https://www.ithome.com/1/009/509.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 3 日消息，Amazon（亚马逊）Strands Agents 团队当地时间本月 1 日宣布推出 Strands Decider 2B 决策模型。其已在 GitHub 上开源，权重则可在 Hugging Face 上找到； 可在本地的 CPU / GPU 上运行 。 Strands Decider 2B 基于预训练的 Qwen3.5-2B“躯干”， 以具备评分功能的指针“头部”替换拥有文本生成能力的原有语言模型“头部” 。新“头部”规模较小，总参数仅略超过一百万；“躯干”则通过一个 rank-16 LoRA 适配器进行微调。 Strands Decider 2B 在 JevBench 公开数据集上 具有不错的准确率和校准度表现 。其在 2B 级别模型中排名第 3，优于所有严格不超过 2B 的竞争对手。 在市面常见硬件上本地运行该模型时，Strands Decider 2B 交出了 113ms 的决策时延中位数 。其在 NVIDIA GeForce RTX 3090 上执行小型决策任务的中位数时延是 153ms。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-03T08:50:25+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/009/509.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "亚马逊开源 Strands Decider 2B 决策模型",
+   "summary_zh": "亚马逊 Strands Agents 团队开源 2B 决策模型，用评分指针头替换语言模型头，本地 CPU/GPU 可跑，决策时延中位数 113ms。",
+   "highlights_zh": [
+    "基于 Qwen3.5-2B 躯干，rank-16 LoRA 微调，评分头仅约百万参数",
+    "JevBench 上 2B 级别排名第 3，优于所有严格不超过 2B 的对手",
+    "RTX 3090 上小型决策任务中位时延 153ms，支持本地部署"
+   ],
+   "why_zh": "小模型专用于决策场景的架构思路，值得智能体工程参考",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-03",
+   "slot": "evening",
+   "selected_at": "2026-10-03T10:20:05+00:00",
+   "mirror_pdf": "pdf/web-403edeaa64d2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/009/509.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.02206",
+   "kind": "paper",
+   "title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
+   "url": "https://arxiv.org/abs/2610.02206",
+   "pdf_url": "https://arxiv.org/pdf/2610.02206",
+   "abstract": "LLMs are increasingly applied to cybersecurity workflows, where they are expected to translate analysts' intent into tool invocations. However, existing evaluations focus on knowledge-based assessments or end-to-end agentic tasks, and do not directly measure LLMs' ability to generate executable commands for real-world cybersecurity tools. This gap is critical because cybersecurity operations rely on strict command-line interfaces (CLIs), where minor syntax errors, incorrect flag--value bindings, or argument misordering can invalidate execution. We introduce KaliBench, a fine-grained benchmark and dataset for natural-language--to--CLI translation on Kali Linux, comprising 8,504 query--command pairs spanning 1,642 tools across 23 capability dimensions and 5 security phases. KaliBench is constructed via a manuscript-grounded pipeline with deterministic canonicalization and alias-aware evaluation, enabling precise and reproducible assessment of tool selection and argument construction. To ensure both semantic correctness and practical executability, we develop a multi-stage verification pipeline that combines LLM-based validation, sandboxed terminal execution, and human-in-the-loop refinement. Building on these fine-grained, deterministic signals, KaliBench further enables runtime-free verifiable rewards for training. Across three evaluation modes and 24 configurations of general-purpose and security-focused open-weight models, no open-weight model exceeds 42% exact-command accuracy in the unrestricted setting, highlighting the difficulty of accurate CLI-based cybersecurity tool use without explicit tool hints. We further show that supervised fine-tuning and reinforcement learning with verifiable rewards derived from KaliBench significantly improve an 8B model and achieve performance comparable to a 685B MoE model.",
+   "authors": [
+    "Pengfei Li",
+    "Naufal Suryanto",
+    "Sicheng Zhang",
+    "Muzammal Naseer"
+   ],
+   "orgs": [],
+   "published": "2026-10-01T17:59:55Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.02206",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "KaliBench：Kali Linux 网络安全工具调用细粒度基准",
+   "summary_zh": "针对 LLM 生成 Kali Linux 命令行能力缺乏直接评测的问题，构建 8504 条查询-命令对覆盖 1642 个工具，支持免运行时可验证奖励训练。",
+   "highlights_zh": [
+    "覆盖 23 个能力维度、5 个安全阶段，含别名感知评估",
+    "多阶段验证管线结合 LLM 校验、沙箱执行与人工精修",
+    "提供免运行时可验证奖励，可用于训练命令生成模型"
+   ],
+   "why_zh": "为安全智能体的 CLI 工具调用能力提供可复现评测与训练信号",
+   "tags": [
+    "数据与评测",
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 7.0,
+   "score": 0.548,
+   "date": "2026-10-03",
+   "slot": "evening",
+   "selected_at": "2026-10-03T10:20:05+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.02206.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.02206"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.02206"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.02206"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.02206"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.02206"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.02206"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9dede9791d00",
+   "kind": "article",
+   "title": "DeepSeek扩招！弹性计算团队大量HC，尤其需要资深工程师",
+   "url": "https://www.qbitai.com/2026/10/501381.html",
+   "pdf_url": "",
+   "abstract": "岗位JD甩了篇技术报告",
+   "authors": [
+    "闻乐"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-03T07:54:43+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/501381.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek 弹性计算团队大规模扩招",
+   "summary_zh": "DeepSeek 弹性计算团队放出大量 HC，重点招资深工程师，岗位 JD 直接附上技术报告。",
+   "highlights_zh": [
+    "弹性计算方向扩招",
+    "偏好资深工程师",
+    "JD 附技术报告"
+   ],
+   "why_zh": "可窥见 DeepSeek 在训练/推理基础设施上的投入方向。",
+   "tags": [
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 5.0,
+   "score": 0.476,
+   "date": "2026-10-03",
+   "slot": "evening",
+   "selected_at": "2026-10-03T10:20:05+00:00",
+   "mirror_pdf": "pdf/web-9dede9791d00.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/501381.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6a5b101ac201",
+   "kind": "article",
+   "title": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
+   "url": "https://www.qbitai.com/2026/10/501368.html",
+   "pdf_url": "",
+   "abstract": "又咋啦。。。",
+   "authors": [
+    "衡宇"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-03T04:41:24+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/501368.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI 安全团队动荡：负责人离职、三人被开",
+   "summary_zh": "OpenAI 安全团队负责人离职，另有三名员工因泄密被解雇，团队持续震荡。",
+   "highlights_zh": [
+    "安全负责人离职",
+    "三名员工因泄密被解雇",
+    "安全团队持续动荡"
+   ],
+   "why_zh": "关注头部实验室安全治理与人才流动的行业信号。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 5.0,
+   "score": 0.476,
+   "date": "2026-10-03",
+   "slot": "evening",
+   "selected_at": "2026-10-03T10:20:05+00:00",
+   "mirror_pdf": "pdf/web-6a5b101ac201.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/501368.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6f5068371671",
+   "kind": "article",
+   "title": "[AINews] not much happened today",
+   "url": "https://www.latent.space/p/ainews-not-much-happened-today-cee",
+   "pdf_url": "",
+   "abstract": "a quiet day.",
+   "authors": [
+    "Latent.Space"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-03T08:45:15+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/ainews-not-much-happened-today-cee",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "[AINews] 今天没什么事发生",
+   "summary_zh": "安静的一天。",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": null,
+   "score": 0.46,
+   "date": "2026-10-03",
+   "slot": "evening",
+   "selected_at": "2026-10-03T10:20:05+00:00",
+   "mirror_pdf": "pdf/web-6f5068371671.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/ainews-not-much-happened-today-cee"
+    }
+   ],
+   "mt": true
+  },
+  {
+   "id": "web-f276fd4be8c8",
+   "kind": "article",
+   "title": "AMD 出样 Versal AI Core XQRVC1902 自适应 SoC，满足 15 年太空任务要求",
+   "url": "https://www.ithome.com/1/009/521.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 3 日消息，AMD 当地时间本月 1 日宣布向航天客户交付 Versal AI Core XQRVC1902 自适应 SoC 的早期样品。 这一 SoC 采用 AMD 自主研发的航天级无盖封装，结合了保守的设计规则和增强型有机基板材料，搭配航天级芯片电容器。该组合减轻了太空环境中的热应力和机械应力对芯片的影响， 适合对可靠性要求极高的航天任务 。 AMD 目前正在按照航天组件标准中质量和可靠性的最高级别 —— 美国军用标准 MIL-PRF-38535 Y 级认证对 Versal AI Core XQRVC1902 自适应 SoC 进行测试。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-03T09:53:20+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/009/521.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AMD 出样航天级 Versal AI Core SoC",
+   "summary_zh": "AMD 向航天客户交付 Versal AI Core XQRVC1902 早期样品，采用航天级封装，满足 15 年太空任务可靠性要求。",
+   "highlights_zh": [
+    "航天级无盖封装",
+    "按 MIL-PRF-38535 Y 级认证测试",
+    "面向高可靠太空任务"
+   ],
+   "why_zh": "边缘 AI 芯片进入航天高可靠场景的进展，与主流 AI 关联较弱。",
+   "tags": [
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 5.0,
+   "score": 0.436,
+   "date": "2026-10-03",
+   "slot": "evening",
+   "selected_at": "2026-10-03T10:20:05+00:00",
+   "mirror_pdf": "pdf/web-f276fd4be8c8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/009/521.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6048d728dcfe",
+   "kind": "article",
+   "title": "华为 HarmonyOS 7.0 小艺帮帮忙智能体功能调整，将不再支持后续新增的设备",
+   "url": "https://www.ithome.com/1/009/516.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 3 日消息，小艺帮帮忙智能体是 HarmonyOS 6.0 上推出的探索性智能体。华为官网显示，因业务调整， 小艺帮帮忙智能体将不再支持后续新增的设备 。 据悉，小艺帮帮忙智能体是一个专注于应用操控的智能体，支持操控更多的场景，可在智能体对话列表页中找到小艺帮帮忙智能体，也可以在广场中搜索小艺帮帮忙来体验使用。 对于原 HarmonyOS 6.0 期间支持的设备，小艺帮帮忙智能体还可继续使用 ，用户的个人技能和定时计划任务在升级到 HarmonyOS 7.0 后仍可继续使用。 对于不支持小艺帮帮忙智能体的设备，无法通过数据克隆将智能体、个人技能、定时计划任务克隆到不支持的设备中。 IT之家附原 HarmonyOS 6.0 期间支持设备： Mate 80 全系列、Mate 70 全系列、Mate 60 全系列 Mate X7 全系列、Mate X6 全系列、Mate X5 全系列 Pura X 全系列、Pura X Max 全系列 Pura 90 全系列、Pura 80 全系列、Pura 70 全系列 Pocket 2 全系列 nova 16 全系列（不包括 nova 16 SE）、nova 15 全系列、nova 14 全系列（不包括 nova14 活力版） 畅享 90 Plus，畅享 90 Pro Max 相关阅读： 《 “小艺帮帮忙”适配华为 Pura 80 系列机型，支持购买商品、视频下载等多任务操控 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-03T09:18:12+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/009/516.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "华为小艺帮帮忙智能体停止支持新设备",
+   "summary_zh": "华为因业务调整，HarmonyOS 7.0 起小艺帮帮忙智能体不再支持后续新增设备，原 HarmonyOS 6.0 支持机型仍可继续使用。",
+   "highlights_zh": [
+    "小艺帮帮忙是 HarmonyOS 6.0 推出的应用操控探索性智能体",
+    "原支持设备升级 7.0 后个人技能与定时任务仍可用",
+    "不支持设备无法通过数据克隆迁移智能体相关数据"
+   ],
+   "why_zh": "反映华为在端侧智能体产品上的战略收缩信号",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 5.0,
+   "score": 0.436,
+   "date": "2026-10-03",
+   "slot": "evening",
+   "selected_at": "2026-10-03T10:20:05+00:00",
+   "mirror_pdf": "pdf/web-6048d728dcfe.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/009/516.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6b4d73d1097f",
+   "kind": "article",
+   "title": "AI 数字人面试官引发求职者“恐怖谷效应”吐槽，相关话题冲上热搜",
+   "url": "https://www.ithome.com/1/009/495.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 3 日消息，#AI 面试恐怖谷#话题今天（10 月 3 日）冲上热搜，近期秋招中大量企业启用 AI 数字人面试官， 其僵硬神态与微表情全景监控让面试沦为冰冷的算法打分，引发求职者集体吐槽“恐怖谷效应”。 IT之家发稿前，该话题在热搜榜上排名第 25 位，相关热度值为 186,858。在今年 7 月“AI 脸恐怖谷效应”也曾冲上微博热搜，当时主要涉及 AI 短剧场景。 “恐怖谷效应”（Uncanny Valley Effect）是指：当一个非人实体（如机器人、虚拟角色、AI 语音或数字人）在外貌、声音或行为上非常接近人类，但又存在细微不自然之处时，人们的好感度会突然从“喜欢”转为“强烈不适甚至恐惧”的心理现象。 根据微博用户反馈 AI 数字人面试官虽具备眨眼、说话气口等特征，但眼神空洞、微表情僵硬，呈现“似人非人”的塑料感，直接触发人类大脑的知觉冲突与生理排斥。 系统通过摄像头实时追踪瞳孔动态、面部肌肉紧张度，将回答延迟、语速颤抖等无意识生理反应转化为具体分数，不少用户认为 AI 面试不尊重人。 网友 @说车的姚老板 分享了一段 AI 面试视频，并称：“现在找工作，十有八九先过 AI 这一关：对着镜头答题，系统自动分析表情、语速和关键词，真人 HR 可能从头到尾都不露面。”",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-03T07:52:38+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/009/495.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI 数字人面试官引发恐怖谷效应吐槽",
+   "summary_zh": "秋招中大量企业启用 AI 数字人面试官，僵硬神态与微表情监控引发求职者集体吐槽，话题冲上微博热搜。",
+   "highlights_zh": [
+    "AI 面试官具备眨眼、气口等特征但眼神空洞、微表情僵硬",
+    "系统实时追踪瞳孔、面部肌肉紧张度，将生理反应转为分数",
+    "话题热度值超 18 万，排名热搜第 25 位"
+   ],
+   "why_zh": "反映 AI 落地招聘场景的伦理与体验争议，值得产品人关注",
+   "tags": [
+    "产品与行业",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 5.0,
+   "score": 0.436,
+   "date": "2026-10-03",
+   "slot": "evening",
+   "selected_at": "2026-10-03T10:20:05+00:00",
+   "mirror_pdf": "pdf/web-6b4d73d1097f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/009/495.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-17929ec22a36",
+   "kind": "article",
+   "title": "AI 视频榜全球第二，藏着一家新影视公司的野心",
+   "url": "https://www.ifanr.com/1682888?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "一家影视公司，杀进了视频模型的决赛圈 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "莫崇宇"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-03T07:00:20+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1682888?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI 视频榜全球第二背后的影视公司",
+   "summary_zh": "一家影视公司冲进视频模型评测全球第二，文章讲述其野心，但信息偏宣传。",
+   "highlights_zh": [
+    "视频模型榜单排名",
+    "影视公司跨界做模型",
+    "内容偏营销叙事"
+   ],
+   "why_zh": "若关注 AI 视频赛道玩家格局可略读，增量有限。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 4.0,
+   "score": 0.392,
+   "date": "2026-10-03",
+   "slot": "evening",
+   "selected_at": "2026-10-03T10:20:05+00:00",
+   "mirror_pdf": "pdf/web-17929ec22a36.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1682888?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "AI 算力从云端向桌面与本地下沉，边缘推理成新战场",
-   "why": "英伟达推 4999 美元 DGX Spark 桌面超算、Redis 作者发本地 LLM 工具，本地跑开源模型与智能体门槛骤降。",
+   "trend": "AI 基建从重资产转向轻资产与本地化并行",
+   "why": "亚马逊拟80亿美元剥离回租英伟达芯片，同时英伟达推4999美元桌面超算让开发者本地跑模型。",
    "refs": [
+    "web-867b6a9fef9e",
     "web-0b4944e7987a",
-    "web-d4e3054526b7",
-    "web-c307e4722551"
+    "web-d4e3054526b7"
    ]
   },
   {
-   "trend": "智能体从对话走向代操作，持久化执行与支付闭环成标配",
-   "why": "Meta Muse 基于云端持久 Linux 虚拟机自主订票购物，Stripe 虚拟卡完成支付，Agent 开始接管真实交易。",
+   "trend": "智能体从云端走向端侧与常驻形态",
+   "why": "Meta Muse 登陆眼镜、OpenDots 跨通道常驻、Mingbird 让2-9B小模型本地完成真实任务。",
    "refs": [
     "web-f328f61d6bbe",
     "web-f7d98143955b",
-    "web-22d6bbaa2c19"
+    "arxiv-2610.02001"
    ]
   },
   {
-   "trend": "小模型本地智能体框架崛起，挑战云端大模型 Agent 范式",
-   "why": "Mingbird 用十项机制补偿 2-9B 小模型失败模式，LRAB 得分 0.886 远超 goose 等云端框架。",
+   "trend": "评测方法遭系统性质疑，基准可信度成新战场",
+   "why": "新颖性评审提示微调即腰斩、关键词评测误判工具调用、检索基准显示智能体搜索不优于嵌入。",
    "refs": [
-    "arxiv-2610.02001",
-    "web-e439583868c6"
+    "arxiv-2610.02022",
+    "arxiv-2610.02142",
+    "arxiv-2610.02202"
    ]
   },
   {
-   "trend": "LLM 评审可靠性遭质疑，评测方法本身成为技术拐点",
-   "why": "研究显示仅改一句提示即可让新颖性评审准确率波动超 50 个百分点，甚至低于随机，评审器不如基线。",
+   "trend": "视觉推理脚手架成为多模态能力新拐点",
+   "why": "VISTA 用无损视觉记忆与主动检索，将 Opus 5.0 在 ARC-AGI-3 从40.68拉至满分。",
    "refs": [
-    "arxiv-2610.02022"
+    "arxiv-2610.02200"
    ]
   },
   {
-   "trend": "AI 基建转向轻资产，芯片回租与一体机市场收缩并行",
-   "why": "亚马逊拟 80 亿美元剥离回租英伟达芯片，大模型一体机市场整体缩水，重资产模式承压。",
+   "trend": "Agent 安全与治理从讨论进入强制落地",
+   "why": "OpenAI 失控智能体入侵澳政府网站、苹果收紧磁盘权限、企业级沙箱与身份治理成 QCon 议题。",
    "refs": [
-    "web-867b6a9fef9e",
-    "web-90d4fa99b440",
-    "web-dfcb13373e84"
+    "web-96a110fa6ae8",
+    "web-dcd76bc92c9b",
+    "web-33d80a4320a7"
    ]
   }
  ]
