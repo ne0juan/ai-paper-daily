@@ -17,8 +17,8 @@
     "first_headline_top": 370,
     "viewport_h": 800,
     "overflow_x": 0,
-    "cards": 53,
-    "duplicated_meta_cards": 1,
+    "cards": 16,
+    "duplicated_meta_cards": 0,
     "console_errors": 0
    },
    "checks": [
@@ -84,8 +84,8 @@
     },
     {
      "check": "卡片信息不重复",
-     "value": 1,
-     "pass": false
+     "value": 0,
+     "pass": true
     }
    ]
   },
@@ -105,8 +105,8 @@
     "first_headline_top": 356,
     "viewport_h": 812,
     "overflow_x": 0,
-    "cards": 53,
-    "duplicated_meta_cards": 1,
+    "cards": 16,
+    "duplicated_meta_cards": 0,
     "console_errors": 0
    },
    "checks": [
@@ -155,7 +155,7 @@
     "italic_cjk_elements": 0,
     "pangu_violations": 0,
     "pangu_samples": [],
-    "contrast_body": 12.07,
+    "contrast_body": 13.05,
     "contrast_title": 15.59,
     "contrast_meta": 7.25,
     "font_size_steps": 7,
@@ -163,14 +163,14 @@
     "first_headline_top": 370,
     "viewport_h": 800,
     "overflow_x": 0,
-    "cards": 53,
-    "duplicated_meta_cards": 1,
+    "cards": 16,
+    "duplicated_meta_cards": 0,
     "console_errors": 0
    },
    "checks": [
     {
      "check": "暗色正文对比度 ≥ 7:1",
-     "value": 12.07,
+     "value": 13.05,
      "pass": true
     },
     {
@@ -181,8 +181,6 @@
    ]
   }
  },
- "failed": [
-  "[desktop] 卡片信息不重复: 1"
- ],
- "score": "21/22"
+ "failed": [],
+ "score": "22/22"
 }
