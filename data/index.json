@@ -1,6 +1,13 @@
 {
- "updated": "2026-10-03T15:06:52+00:00",
+ "updated": "2026-10-04T04:38:22+00:00",
  "days": [
+  {
+   "date": "2026-10-04",
+   "count": 16,
+   "slots": {
+    "noon": 16
+   }
+  },
   {
    "date": "2026-10-03",
    "count": 53,
@@ -95,44 +102,40 @@
    }
   }
  ],
- "total": 588,
+ "total": 604,
  "last_run": {
-  "at": "2026-10-03T15:06:52+00:00",
-  "slot": "evening",
-  "candidates": 119,
-  "new": 15,
-  "stale": 46,
-  "judged": 15,
-  "selected": 10,
-  "mirrored": 9,
+  "at": "2026-10-04T04:38:22+00:00",
+  "slot": "noon",
+  "candidates": 68,
+  "new": 26,
+  "stale": 11,
+  "judged": 26,
+  "selected": 16,
+  "mirrored": 16,
   "by_category": {
-   "项目": 3,
-   "技术": 4,
-   "资讯": 2,
-   "观点": 1
+   "资讯": 12,
+   "观点": 2,
+   "项目": 2
   },
   "by_source": {
-   "HF Daily Papers": 43,
-   "arXiv 新论文": 16,
-   "Hacker News": 4,
-   "量子位": 6,
+   "Hacker News": 3,
+   "量子位": 7,
    "极客公园": 2,
-   "IT之家": 6,
+   "IT之家": 11,
    "爱范儿": 2,
-   "钛媒体": 3,
-   "InfoQ 中文": 3,
-   "Dwarkesh Patel": 1,
-   "Latent Space": 4,
+   "钛媒体": 6,
+   "InfoQ 中文": 4,
+   "Simon Willison": 1,
+   "Latent Space": 3,
    "Stratechery": 1,
-   "Arvind Narayanan": 1,
-   "Azeem Azhar": 1,
+   "Azeem Azhar": 2,
    "科学空间": 1,
    "Hugging Face Blog": 2,
    "Google Research": 1,
-   "OpenAI": 4,
-   "NVIDIA": 2,
-   "GitHub Trending": 10,
-   "GitHub 新项目": 10
+   "OpenAI": 1,
+   "NVIDIA": 1,
+   "GitHub Trending": 11,
+   "GitHub 新项目": 9
   },
   "llm": true,
   "translated": 0
