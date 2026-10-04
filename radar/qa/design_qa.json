@@ -7,8 +7,10 @@
     "body_line_height": 1.8,
     "chars_per_line": 40,
     "italic_cjk_elements": 0,
-    "pangu_violations": 0,
-    "pangu_samples": [],
+    "pangu_violations": 1,
+    "pangu_samples": [
+     "r机"
+    ],
     "contrast_body": 12.37,
     "contrast_title": 15.85,
     "contrast_meta": 6.24,
@@ -17,7 +19,7 @@
     "first_headline_top": 370,
     "viewport_h": 800,
     "overflow_x": 0,
-    "cards": 16,
+    "cards": 30,
     "duplicated_meta_cards": 0,
     "console_errors": 0
    },
@@ -44,8 +46,8 @@
     },
     {
      "check": "中英文之间留空",
-     "value": 0,
-     "pass": true
+     "value": 1,
+     "pass": false
     },
     {
      "check": "正文对比度 ≥ 7:1",
@@ -95,8 +97,10 @@
     "body_line_height": 1.8,
     "chars_per_line": 20,
     "italic_cjk_elements": 0,
-    "pangu_violations": 0,
-    "pangu_samples": [],
+    "pangu_violations": 1,
+    "pangu_samples": [
+     "r机"
+    ],
     "contrast_body": 12.37,
     "contrast_title": 15.85,
     "contrast_meta": 6.24,
@@ -105,7 +109,7 @@
     "first_headline_top": 356,
     "viewport_h": 812,
     "overflow_x": 0,
-    "cards": 16,
+    "cards": 30,
     "duplicated_meta_cards": 0,
     "console_errors": 0
    },
@@ -153,8 +157,10 @@
     "body_line_height": 1.8,
     "chars_per_line": 40,
     "italic_cjk_elements": 0,
-    "pangu_violations": 0,
-    "pangu_samples": [],
+    "pangu_violations": 1,
+    "pangu_samples": [
+     "r机"
+    ],
     "contrast_body": 13.05,
     "contrast_title": 15.59,
     "contrast_meta": 7.25,
@@ -163,7 +169,7 @@
     "first_headline_top": 370,
     "viewport_h": 800,
     "overflow_x": 0,
-    "cards": 16,
+    "cards": 30,
     "duplicated_meta_cards": 0,
     "console_errors": 0
    },
@@ -181,6 +187,8 @@
    ]
   }
  },
- "failed": [],
- "score": "22/22"
+ "failed": [
+  "[desktop] 中英文之间留空: 1"
+ ],
+ "score": "21/22"
 }

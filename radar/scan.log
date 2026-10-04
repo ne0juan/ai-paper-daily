@@ -1,11 +1,17 @@
-2026-10-04 04:38:22,848 INFO source hf_daily           -> 0 items
-2026-10-04 04:38:23,180 INFO source hackernews         -> 3 items
-2026-10-04 04:38:38,812 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-04 04:38:49,750 INFO source rss                -> 45 items
-2026-10-04 04:38:51,244 INFO source html_lists         -> 0 items
-2026-10-04 04:38:51,245 INFO source x                  -> 0 items
-2026-10-04 04:40:12,626 INFO source arxiv_search       -> 0 items
-2026-10-04 04:40:21,731 INFO source github             -> 20 items
-2026-10-04 04:40:21,732 INFO candidates: 68 (stale dropped 11, new 26)
-2026-10-04 04:40:43,586 INFO llm judged 26/26 (calls=4)
-2026-10-04 04:43:40,448 INFO run done: {"at": "2026-10-04T04:38:22+00:00", "slot": "noon", "candidates": 68, "new": 26, "stale": 11, "judged": 26, "selected": 16, "mirrored": 16, "by_category": {"资讯": 12, "观点": 2, "项目": 2}, "by_source": {"Hacker News": 3, "量子位": 7, "极客公园": 2, "IT之家": 11, "爱范儿": 2, "钛媒体": 6, "InfoQ 中文": 4, "Simon Willison": 1, "Latent Space": 3, "Stratechery": 1, "Azeem Azhar": 2, "科学空间": 1, "Hugging Face Blog": 2, "Google Research": 1, "OpenAI": 1, "NVIDIA": 1, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
+2026-10-04 11:03:15,150 INFO source hf_daily           -> 0 items
+2026-10-04 11:03:25,193 INFO source hackernews         -> 5 items
+2026-10-04 11:04:32,953 WARNING rss 钛媒体 failed: 502 for https://www.tmtpost.com/rss.xml
+2026-10-04 11:04:35,033 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-04 11:04:41,936 INFO source rss                -> 35 items
+2026-10-04 11:04:43,586 INFO source html_lists         -> 0 items
+2026-10-04 11:04:43,586 INFO source x                  -> 0 items
+2026-10-04 11:04:43,940 INFO source arxiv_search       -> 0 items
+2026-10-04 11:04:53,222 INFO source github             -> 20 items
+2026-10-04 11:04:53,222 INFO candidates: 60 (stale dropped 5, new 19)
+2026-10-04 11:04:53,633 WARNING llm batch 0 attempt 0 failed: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+2026-10-04 11:04:54,015 WARNING llm batch 0 attempt 1 failed: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+2026-10-04 11:05:04,582 INFO llm judged 11/19 (calls=4)
+2026-10-04 11:05:04,633 WARNING mt provider edge failed: 404 for https://edge.microsoft.com/translate/auth
+2026-10-04 11:05:07,696 INFO mt: 6 strings via google
+2026-10-04 11:06:19,051 WARNING snapshot https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA: blocked or empty page
+2026-10-04 11:07:26,511 INFO run done: {"at": "2026-10-04T11:03:14+00:00", "slot": "evening", "candidates": 60, "new": 19, "stale": 5, "judged": 11, "selected": 14, "mirrored": 13, "by_category": {"资讯": 9, "技术": 3, "项目": 2}, "by_source": {"Hacker News": 5, "量子位": 6, "极客公园": 4, "IT之家": 8, "爱范儿": 2, "InfoQ 中文": 3, "Simon Willison": 1, "Latent Space": 2, "Stratechery": 1, "Azeem Azhar": 2, "科学空间": 1, "Hugging Face Blog": 2, "Google Research": 1, "OpenAI": 1, "NVIDIA": 1, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 8}
