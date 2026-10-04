@@ -868,46 +868,767 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-65d563955a7b",
+   "kind": "article",
+   "title": "点头、抢话、会脸红，一半人分辨不出这是位「AI 小姐姐」",
+   "url": "http://www.geekpark.net/news/372075",
+   "pdf_url": "",
+   "abstract": "作者｜宇航猿 编辑｜靖宇 一个男人对着镜头拧魔方，屏幕里的女孩盯着他手上的动作，时不时点头，提醒他下一步该转哪一面。他卡住了，低头琢磨，她没有插话，只是安静地等着。等他重新动手，她才接上一句。 如果没人告诉你，这看起来就是一次再普通不过的视频通话。 但屏幕里那个女孩并不存在。 她的脸、她的声音、她的每一次点头和停顿，全部由 AI 实时生成 。 Griffin 模型的演示效果确实非常惊艳｜视频来源：X 10 月 1 日， 美国 AI 视频公司 Tavus 发布了一个名为 Griffin 的模型 ，并把它定义为全球第一个「人类交互模型」（Human Interaction Model，简称 HIM）。 Tavus 公布的数据显示，在一项一分钟视频通话测试里， 54 名参与者中有 26 人事后认为自己是在和真人聊天，比例接近 48% 。作为对照，Tavus 上一代系统在同样的测试中，41 个人里只骗过了 1 个，比例 2.4%。 从 2.4% 到 48%，这不是一次常规的版本迭代。 过去几年，数字人赛道拼的是「脸像不像」；Griffin 想证明的，是 AI 已经开始学会「像人一样聊天」。 01 不「出戏」的 AI Tavus 给 Griffin 准备的发布视频，本身就是一次 AI 视频通话。 画面里，Tavus 联合创始人兼 CEO Hassaan Raza 深夜坐在办公室，打开笔记本电脑，屏幕那头是一个戴眼镜的年轻女孩，名叫 Vanessa。她先开口，说这么晚了你还没走。两人聊起一件正事，新模型要怎么向外界介绍。 Hassaan 有点犹豫，说解释来解释去都不如直接给大家看。Vanessa 接过话头，提议干脆就放一段他俩聊天的录像，「他们甚至都不用去想这件事」。 于是你看到的这段视频，就是那段录像。 Vanessa 展示举起大拇指｜图片来源：X 接下来的一分多钟里，两个人像老同事一样互相打趣。Hassaan 让她比个大拇指，她立刻照做；他夸她是自己最喜欢的同事，她笑着说你让我脸红了；他炫耀身上那件二手淘来的衣服，她吐槽他「活在边缘」，顺便开了个玩笑，说自己会保持呼吸平稳，免得把他电脑的 CPU 耗得更快。 Vanessa「看到」另一位工作人员入镜后开起了玩笑｜图片来源：X 中途还有另一位同事凑进 Hassaan 的镜头，Vanessa 也自然地跟两个人聊了起来。视频临近结尾，Hassaan 感慨说，跟机器说话和跟人说话之间的那条线，正在变得非常非常薄。 整段视频最「出戏」的地方，恰恰是它没有出戏。 她的笑点接得上，停顿也停得自然，没有那种数字人特有的「等你说完、愣一秒、再开口」的机械感。 Vanessa 受到表扬后表示「脸红」了｜图片来源：X 当然，这是一段精心挑选的宣传片。更能说明问题的，是 Tavus 在技术博客里放出的几段测试片段。他们找来从没用过 Griffin 的普通人，和模型进行开放式对话。 第一段是魔方教学。一个叫 Ari 的人边转魔方边听 Griffin 指导，模型盯着他手里的魔方，持续给出确认。当他停下来思考时，它会一直等到他准备好再开口。 Vanessa 指导工作人员如何玩魔方｜视频来源：X 第二段更进一步。工程师 Sagar 在焊一块主板，Griffin 在旁边指导。它会记录时间和他在任务中的进度， 在该做下一步的时候主动开口，而不是一见他沉默就插话。 这件事对人来说稀松平常，对 AI 却很难，它需要理解「沉默」本身也是一种信息。 第三段是经典的「西蒙说」游戏。只有当对方说出「西蒙说」时，Griffin 才模仿动作，没说就当场拆穿",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-04T05:27:14+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372075",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Tavus 发布 Griffin：首个「人类交互模型」，48% 的人分不清真假",
+   "summary_zh": "Tavus 发布 Griffin 模型，主打实时人类交互而非单纯换脸，测试中近半数参与者误以为在跟真人视频通话，上一代仅 2.4%。",
+   "highlights_zh": [
+    "定义「人类交互模型」（HIM），强调点头、停顿、抢话等对话节奏而非仅面部逼真",
+    "一分钟视频通话测试中 54 人有 26 人误判为真人，比例从上一代 2.4% 跃升至 48%",
+    "演示覆盖魔方教学、焊接指导等场景，模型能判断时机主动开口或安静等待"
+   ],
+   "why_zh": "数字人赛道从「脸像」转向「像人一样聊天」，交互节奏成为新竞争维度。",
+   "tags": [
+    "多模态",
+    "语音",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-10-04",
+   "slot": "evening",
+   "selected_at": "2026-10-04T11:03:14+00:00",
+   "mirror_pdf": "pdf/web-65d563955a7b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372075"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8a4e3c1142e9",
+   "kind": "article",
+   "title": "Claude Code 的「乐高」模式，让程序员彻底玩「上头」了",
+   "url": "http://www.geekpark.net/news/372074",
+   "pdf_url": "",
+   "abstract": "作者｜Wildcard 编辑｜靖宇 终端向来是程序员最严肃的地盘。黑底白字，光标跳动，每一行输出都关乎代码能不能跑通。 但最近两周，Claude Code 的画风。被一群开发者彻底带偏了。 有人在输入框上方养了一只像素宠物，Claude 每调用一次工具它就吃一口饭，调用失败当场生病，碰上 rm -rf 还会抱头惊慌。有人把 Chrome 断网时的小恐龙搬了进来，Claude 在后台写业务逻辑，人在前台狂按空格跳仙人掌。还有人觉得等 AI 思考的时候总忍不住刷手机，干脆做了一个 4-7-8 呼吸引导动画，答案一出来动画自动消失。 开发者 jarrodwatts 制作的在 Claude Code 里打 Doom 的 Mod｜图片来源：X 最离谱的一个叫 Storytime。作者往 Claude Code 里塞了一个 26 万参数的小模型， 根据 Claude 正在干的活，实时在屏幕上方写一个小故事。一个 AI 编程工具里，又跑着另一个 AI 在讲故事 。 这一切的源头，是 Claude Code 负责人 Boris Cherny 9 月中旬在 GitHub 上放出的一套机制，名字就叫 Mods。当地时间 10 月 1 日，它正式写进更新日志，默认开启。 短短十几天，一个敲命令、改代码的工具，被程序员们搭成了一个可以随便盖房子的「我的世界」。 01 Vibe Coding 乐高来了 Claude Code 里的 mod，本质上是几行跑在插件里的 TypeScript 函数。 别看它轻，权限一点不小。它能在对话旁边开面板，能在输入框上方画横条，能改造内置界面，能在 Claude 执行命令之前把它拦下来，甚至能把请求转给另一个模型处理。不会写代码也没关系，对 Claude 说一句「帮我写个 mod」，它就能自己给自己装上新功能。 于是社区开始疯狂产出。 开发者 Ansu 做的边工作边把工作用故事讲述出来的 mod 可爱极了｜图片来源：X OneWave AI 的团队一晚上做了十个 mod。除了那只像素宠物，还有一个「发射密码」，遇到破坏性命令必须先输入密码才放行；一个「内心独白」，开个面板展示 Claude 对你这次会话干巴巴的吐槽；还有一个 agent-race，让几个 Claude 会话同时解同一个问题，屏幕上实时刷计分板。 开发者 Hunter Su 开放的一键点开渲染视频的 mod｜图片来源：X 已经有人搭起了 claudemods.ai，按游戏、仪表盘分门别类，还能投票。目前投票最高的，是那只小恐龙。 这种热闹又略显滑稽的氛围，很容易让人把 Mods 当成又一个极客小玩具。 但 Anthropic 在发布时顺手透露了一个细节。 Claude Code 自己的 /diff 变更面板，以及对 AGENTS.md 的支持，并不是写死在产品里的功能，而是官方团队用同一套 Mods 机制写出来的。 源代码和测试就公开放在仓库里。 这个细节改变了整件事的性质。 官方团队和外部开发者，用的是同一套改装工具。Anthropic 不是施舍给用户一点改皮肤的权限，而是在用积木搭自己的产品，然后把整个积木盒子倒在桌上，告诉所有人你们也可以这么干。 这里和《我的世界》有一个微妙的区别。《我的世界》的模组文化是玩家先动手破解，官方后来才拥抱社区。Claude Code 则是官方一开始就主动开了口子。 主动开放的一方，通常比谁都清楚自己想要什么。 02 Vibe Coding Store 呼之欲出？ 把视线从热闹的社区拉远一点，会发现 Anthropic 最近的动作密度很不",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-04T05:16:11+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372074",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Claude Code 的 Mods 机制：官方把改装积木倒给了所有人",
+   "summary_zh": "Anthropic 将 Claude Code 的 Mods 机制默认开启，官方自身的 /diff 面板和 AGENTS.md 支持就是用这套机制写的，社区已涌现大量插件。",
+   "highlights_zh": [
+    "Mods 是跑在插件里的 TypeScript 函数，可开面板、改界面、拦截命令、转发请求",
+    "官方团队与外部开发者用同一套工具搭产品，源代码和测试公开在仓库",
+    "社区产出像素宠物、破坏性命令密码锁、agent-race 多会话竞赛等 mod，已出现 claudemods.ai 聚合站"
+   ],
+   "why_zh": "官方自用同一套改装机制，意味着智能体工具的可扩展性成为产品竞争新焦点。",
+   "tags": [
+    "智能体",
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-10-04",
+   "slot": "evening",
+   "selected_at": "2026-10-04T11:03:14+00:00",
+   "mirror_pdf": "pdf/web-8a4e3c1142e9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372074"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8983e1f26417",
+   "kind": "article",
+   "title": "大量 AI“幻觉”报告压垮维护团队，谷歌暂停部分开源漏洞奖励计划",
+   "url": "https://www.ithome.com/1/009/673.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 4 日消息，谷歌宣布，自 2026 年 10 月 1 日起，开源软件漏洞奖励计划（OSS VRP）将不再接收产品漏洞提报。本次规则调整不影响 2026 年 10 月 1 日之前已提交的产品漏洞。 不过，针对部分可能对谷歌云（Google Cloud）产品造成影响的谷歌云代码仓库，如果涉及产品漏洞，谷歌仍可能通过云漏洞奖励计划（Cloud VRP）接收相关报告。 OSS VRP 是谷歌设立的一项专业安全赏金计划，旨在通过激励独立安全研究人员，在谷歌整个开源生态系统中挖掘并负责任地披露安全缺陷。 据 Tom's Hardware 报道，知情人士透露， 谷歌工程师与开源代码维护人员已被数以千计的劣质报告彻底吞没 。这些报告声称发现了严重漏洞，但深入排查后发现，它们全都是 AI 产生的“幻觉”，根本无效且无法被实际利用。 维护团队不得不将大量精力耗费在验证这些虚假代码上，严重挤占了修复现实中高危漏洞的时间。这正是导致谷歌最终叫停该计划的直接原因。 IT之家获悉，谷歌官方表示，将持续对 OSS VRP 的相关机制进行重组与优化，并计划于 2027 年第一季度公布最新进展。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-04T08:46:29+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/009/673.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI 幻觉报告泛滥，谷歌暂停开源漏洞奖励计划",
+   "summary_zh": "因大量 AI 生成的虚假漏洞报告淹没维护团队，谷歌宣布 OSS VRP 不再接收产品漏洞提报，计划重组机制。",
+   "highlights_zh": [
+    "数千份声称发现严重漏洞的报告经排查均为 AI 幻觉，无法实际利用",
+    "维护团队精力被大量占用，挤占修复真实高危漏洞的时间",
+    "谷歌计划 2027 年一季度公布 OSS VRP 重组进展，云相关仓库仍走 Cloud VRP"
+   ],
+   "why_zh": "AI 生成内容对开源安全生态的负面冲击首次导致头部项目关停赏金计划。",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-04",
+   "slot": "evening",
+   "selected_at": "2026-10-04T11:03:14+00:00",
+   "mirror_pdf": "pdf/web-8983e1f26417.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/009/673.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b8da10635efb",
+   "kind": "article",
+   "title": "thedotmack/claude-mem",
+   "url": "https://github.com/thedotmack/claude-mem",
+   "pdf_url": "",
+   "abstract": "Sponsor Star thedotmack / claude-mem Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More\nREADME: 🇨🇳 中文 • 🇹🇼 繁體中文 • 🇯🇵 日本語 • 🇵🇹 Português • 🇧🇷 Português • 🇰🇷 한국어 • 🇪🇸 Español • 🇩🇪 Deutsch • 🇫🇷 Français • 🇮🇱 עברית • 🇸🇦 العربية • 🇷🇺 Русский • 🇵🇱 Polski • 🇨🇿 Čeština • 🇳🇱 Nederlands • 🇹🇷 Türkçe • 🇺🇦 Українська • 🇻🇳 Tiếng Việt • 🇵🇭 Tagalog • 🇮🇩 Indonesia • 🇹🇭 ไทย • 🇮🇳 हिन्दी • 🇧🇩 বাংলা • 🇵🇰 اردو • 🇷🇴 Română • 🇸🇪 Svenska • 🇮🇹 Italiano • 🇬🇷 Ελληνικά • 🇭🇺 Magyar • 🇫🇮 Suomi • 🇩🇰 Dansk • 🇳🇴 Norsk Persistent memory compression system built for Claude Code . Quick Start • How It Works • Search Tools • Documentation • Configuration • Troubleshooting • License Claude-Mem seamlessly preserves context across sessions by automatically capturing tool usage observations, generating semantic summaries, and making them available to future sessions. This enables Claude to maintain continuity of knowledge about projects even after sessions end or reconnect. --- ## Quick Start Install claude-mem for Grok Bot: ```bash npx claude-mem install --ide grok-bot ``` Grok Bot has no host hooks, so we watch the chat log files. Default is CMEM Pro, the hosted memory. Local observer is opt-in: `--provider host`. Installing this plugin does not install Cursor. **Awareness push pilot (LFG + Orifice):** needle observations (`decision`, `bugfix`, `security_alert`, `sensitive`) are appended as dated `- YYYY-MM-DD [awareness] …` lines into that bot's `memory/log/YYYY-MM.md`. Grok Bot already re-reads the log from disk. This does not write `profile.md`, user-memory, or project memory. Disable with `CLAUDE_MEM_GROK",
+   "authors": [],
+   "orgs": [
+    "thedotmack"
+   ],
+   "published": "2026-10-04T11:03:14+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/thedotmack/claude-mem",
+     "signal": "★ 今日 +627 · TypeScript",
+     "metric": 627
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "塞多马克/克劳德-梅姆",
+   "summary_zh": "Sponsor Star thedotmack / claude-mem Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More\nREADME: 🇨🇳 中文 • 🇹🇼 繁體中文 • 🇯🇵 日本語 • 🇵🇹 Português • 🇧🇷 Por",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.6043,
+   "score_llm": null,
+   "score": 0.6043,
+   "date": "2026-10-04",
+   "slot": "evening",
+   "selected_at": "2026-10-04T11:03:14+00:00",
+   "mirror_pdf": "pdf/web-b8da10635efb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/thedotmack/claude-mem"
+    }
+   ],
+   "mt": true
+  },
+  {
+   "id": "web-0f24fd84d2eb",
+   "kind": "article",
+   "title": "cloudflare/cloudflare-os",
+   "url": "https://github.com/cloudflare/cloudflare-os",
+   "pdf_url": "",
+   "abstract": "Star cloudflare / cloudflare-os Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
+   "authors": [],
+   "orgs": [
+    "cloudflare"
+   ],
+   "published": "2026-10-04T11:03:14+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/cloudflare/cloudflare-os",
+     "signal": "★ 今日 +336 · TypeScript",
+     "metric": 336
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "",
+   "summary_zh": "Star cloudflare / cloudflare-os Agent 工作区基于 Cloudflare Workers 构建，用于创建文档、构建应用程序以及根据公司的上下文和系统运行代理。",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5787,
+   "score_llm": null,
+   "score": 0.5787,
+   "date": "2026-10-04",
+   "slot": "evening",
+   "selected_at": "2026-10-04T11:03:14+00:00",
+   "mirror_pdf": "pdf/web-0f24fd84d2eb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/cloudflare/cloudflare-os"
+    }
+   ],
+   "mt": true
+  },
+  {
+   "id": "web-4aab22cc6d74",
+   "kind": "article",
+   "title": "I quit OpenAI because its culture is broken",
+   "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-03T13:46:34Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49944227",
+     "signal": "244 pts",
+     "metric": 244
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "我退出 OpenAI 因为它的文化已经被打破",
+   "summary_zh": "",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.5779,
+   "score_llm": null,
+   "score": 0.5779,
+   "date": "2026-10-04",
+   "slot": "evening",
+   "selected_at": "2026-10-04T11:03:14+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49944227"
+    }
+   ],
+   "mt": true
+  },
+  {
+   "id": "web-2ad697ead091",
+   "kind": "article",
+   "title": "Agents don't need memory, they need documentation",
+   "url": "https://liao.gg/blog/agents-dont-need-memory",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-03T17:03:37Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49945933",
+     "signal": "192 pts",
+     "metric": 192
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "代理不需要记忆，他们需要文档",
+   "summary_zh": "",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5667,
+   "score_llm": null,
+   "score": 0.5667,
+   "date": "2026-10-04",
+   "slot": "evening",
+   "selected_at": "2026-10-04T11:03:14+00:00",
+   "mirror_pdf": "pdf/web-2ad697ead091.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://liao.gg/blog/agents-dont-need-memory"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49945933"
+    }
+   ],
+   "mt": true
+  },
+  {
+   "id": "web-125503f14fd0",
+   "kind": "article",
+   "title": "System76 更新 COSMIC 项目 PR 模板，禁止贡献者提交利用 AI 辅助完成的代码",
+   "url": "https://www.ithome.com/1/009/669.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 4 日消息，开发团队 System76 现已更新 COSMIC 项目的 Pull Request（PR）模板，新增一份强制性检查清单，明确禁止贡献者提交利用 AI 辅助完成的代码。贡献者必须确认提交内容中不存在任何 AI 生成的代码、注释以及描述，否则无法按照要求提交贡献。 公开信息显示，COSMIC 是 System76 基于 Rust 开发的 Linux 桌面环境。在 COSMIC 推出之前，System76 的 Pop!_OS 长期基于经过深度修改的 GNOME 桌面环境。不过，由于 System76 与 GNOME 上游开发者在部分设计理念和功能取舍方面存在长期分歧，公司最终决定开发自己的桌面环境。 IT之家注意到，System76 此前就曾批评 AI 生成代码存在代码过于复杂的问题。该团队认为，AI 通常缺乏理解大型项目深层集成关系所需的完整上下文，因此可能生成看似可用、但实际难以维护的复杂代码，并直接导致代码审查时间明显增加。 目前，System76 旗下唯一不受“No LLM contributions”规则限制的代码库是 cosmic-flatpak。该项目主要用于管理一些与 COSMIC 桌面环境深度绑定、难以直接放入 Flathub 的软件，包括 COSMIC 面板小程序、桌面扩展等。 System76 并不是唯一一家对 AI 生成代码采取严格限制的开源项目。Ladybird 浏览器项目早在今年 6 月就采取了类似措施。其维护者发现，大量缺乏经验的开发者借助 AI 提交代码后，项目维护团队需要投入大量时间审查难以维护的 AI 生成代码，代码审查成本最终超过了项目能够承受的范围。 对于 System76 和 Ladybird 而言，问题并不在于“AI 生成的代码不能用”，而是 AI 生成代码进入大型开源项目后，仍需要由人类维护者长期承担理解、审查、测试、维护成本。因此，这些项目选择直接限制 AI 参与贡献，以减少后续维护压力。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-04T08:35:59+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/009/669.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "System76 禁止 COSMIC 项目提交 AI 生成代码",
+   "summary_zh": "System76 更新 COSMIC 项目 PR 模板，强制贡献者确认提交中不含任何 AI 生成代码、注释或描述，否则无法提交。",
+   "highlights_zh": [
+    "新增强制检查清单，明确禁止 LLM 辅助生成的代码进入贡献",
+    "团队认为 AI 缺乏大型项目深层集成上下文，生成代码难维护、审查成本高",
+    "Ladybird 浏览器此前已采取类似限制，开源社区对 AI 代码态度分化"
+   ],
+   "why_zh": "开源项目对 AI 生成代码的抵制在扩大，反映维护成本与协作信任的现实矛盾。",
+   "tags": [
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-04",
+   "slot": "evening",
+   "selected_at": "2026-10-04T11:03:14+00:00",
+   "mirror_pdf": "pdf/web-125503f14fd0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/009/669.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ac7f5a69b0c4",
+   "kind": "article",
+   "title": "英伟达与鸿海展示自动化成果，机器人组装 GB300 的母线成功率超 95%",
+   "url": "https://www.ithome.com/1/009/665.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 4 日消息，据台媒经济日报，英伟达与鸿海首次对外展示了利用机器人制造设备的成果。 针对英伟达 GB300 的母线（Busbar，也叫汇流排或母排，是一种用于大电流配电和传输的导电金属条、棒或管）以及多组连接器组装等较复杂、依赖人工的工序，已经可以导入机器人自动化，提升组装稳定性与效率。 IT之家从报道获悉，在核心工艺指标方面： 装配成功率： Busbar 组装成功率已超过 95% ；多连接器插接成功率约 90% 至 95%。 作业耗时：Busbar 组装时间目标在 124 秒以内；4 组连接器的插接时间目标在 72 秒以内。 整体生产周期：做到不超过熟练人工两倍时间。 延伸阅读 GB300 是英伟达基于 Blackwell Ultra 架构推出的产品。据英伟达官网资料，GB300 NVL72 采用全液冷机架规模设计，将 72 颗 Blackwell Ultra GPU 与 36 颗搭载 Arm 架构的 NVIDIA Grace CPU 整合至单一平台，通过 NVIDIA NVLink 高速互连技术串联，使其如同一颗超大 GPU 运作。该平台于 2025 年 3 月 18 日举行的 GTC 大会上随 Blackwell Ultra DGX SuperPOD 一同正式发布。 鸿海（富士康）是全球最大的电子制造服务商，其全球 AI 服务器市占率超过 40%，是英伟达 GB200 NVL72 与 GB300 NVL72 架构的主要供应商。鸿海与英伟达为联合设计制造（JDM）关系，参与从机架架构到液冷方案的联合定义。在 2025 年 5 月揭幕的 COMPUTEX 2025 上，鸿海曾展出 GB300 NVL72 系统，以及机器人与智慧制造平台等相关方案。 在 AI 服务器连接与供电方面，鸿海的产品线涵盖新一代 AI 芯片插槽、主板 PCIe 高速连接器与线缆、GB300 Power Clip、Busbar 线缆等高速信号、高压供电与液冷连接方案。此外，鸿海还计划以 K-1 项目成为首批导入 800 VDC 电力架构的企业，以强化 AI 服务器电力与冷却的整合设计能力。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-04T08:17:43+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/009/665.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "英伟达与鸿海展示机器人组装GB300，母线成功率超95%",
+   "summary_zh": "英伟达与鸿海首次展示用机器人完成GB300母线及连接器组装，母线成功率超95%，耗时目标124秒内，接近熟练工人两倍以内。",
+   "highlights_zh": [
+    "母线组装成功率超95%，多连接器插接约90%-95%",
+    "单件耗时目标：母线124秒内，4组连接器72秒内",
+    "鸿海占全球AI服务器市占率超40%，与英伟达为JDM关系"
+   ],
+   "why_zh": "AI服务器制造自动化提速，直接影响GB300产能与交付节奏。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-04",
+   "slot": "evening",
+   "selected_at": "2026-10-04T11:03:14+00:00",
+   "mirror_pdf": "pdf/web-ac7f5a69b0c4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/009/665.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5e1c0a1e65f6",
+   "kind": "article",
+   "title": "天津大学获批全国首个“脑机接口”一级交叉学科博士点",
+   "url": "https://www.ithome.com/1/009/684.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 4 日消息，近日，国务院学位委员会正式下发《关于下达 2025 年度学位授予资格自主审核单位撤销和增设学位授予点名单的通知》（学位〔2026〕17 号），天津大学成功获批 全国首个、也是目前全国唯一一个的“脑机接口”一级交叉学科博士学位授予点 。 这在脑机接口未来产业发展历程中具有重要里程碑意义，标志着我国脑机接口学科建设与人才培养迈入全新阶段。 据介绍，脑机接口作为人机交互的最高形态，是融合临床医学、神经科学、人工智能、电子信息、集成电路等多学科前沿理论的颠覆性技术， 已被正式写入国家“十五五”规划 ， 成为前瞻布局的未来产业重点方向。 IT之家注意到，天津大学已于 2024 年依托未来技术学院开设 全国首个脑机接口本科专业方向 并正式招生；2026 年 4 月，“脑机科学与技术”本科专业正式获教育部批准设立，纳入交叉学科门类（专业代码 140013TK），成为 全国首个直接面向本科招生的脑机接口专业 。 此次一级交叉学科博士点在前期自设基础上的正式获批，与本科专业相衔接，标志着天津大学脑机接口“本硕博”全链条人才培养体系正式构建完成。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-04T09:28:43+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/009/684.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "天津大学获批全国首个脑机接口一级交叉学科博士点",
+   "summary_zh": "天津大学获批全国首个「脑机接口」一级交叉学科博士点，与已有本科专业衔接，构建本硕博全链条培养体系。",
+   "highlights_zh": [
+    "全国首个且目前唯一的脑机接口一级交叉学科博士学位授予点",
+    "脑机接口已写入国家「十五五」规划，列为未来产业重点方向",
+    "天大 2024 年已开设首个脑机接口本科方向，形成本硕博贯通"
+   ],
+   "why_zh": "脑机接口学科化落地，反映国家层面对该方向人才与产业的长期布局。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-04",
+   "slot": "evening",
+   "selected_at": "2026-10-04T11:03:14+00:00",
+   "mirror_pdf": "pdf/web-5e1c0a1e65f6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/009/684.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-89764eae0099",
+   "kind": "article",
+   "title": "The Agent Said It Was Done. The Database Disagreed.",
+   "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-10-03T22:56:48+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "代理说已经完成了。数据库不同意。",
+   "summary_zh": "",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": null,
+   "score": 0.48,
+   "date": "2026-10-04",
+   "slot": "evening",
+   "selected_at": "2026-10-04T11:03:14+00:00",
+   "mirror_pdf": "pdf/web-89764eae0099.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/microsoft/thinkingbox"
+    }
+   ],
+   "mt": true
+  },
+  {
+   "id": "web-e4ec24a2e34f",
+   "kind": "article",
+   "title": "AI算力硬合作，马斯克还是更相信中国制造",
+   "url": "https://www.qbitai.com/2026/10/501605.html",
+   "pdf_url": "",
+   "abstract": "一种混搭的可能：英特尔继续供先进工艺，即前端用14A；后端再接台积电，来补工厂运营、良率、封装这些能力。",
+   "authors": [
+    "田, 晏林"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-04T06:12:22+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/501605.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "",
+   "summary_zh": "一种混搭的可能：英特尔继续供先进工艺，即前端用14A；后端再接台积电，来补工厂运营、良率、封装这些能力。",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": null,
+   "score": 0.44,
+   "date": "2026-10-04",
+   "slot": "evening",
+   "selected_at": "2026-10-04T11:03:14+00:00",
+   "mirror_pdf": "pdf/web-e4ec24a2e34f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/501605.html"
+    }
+   ],
+   "mt": true
+  },
+  {
+   "id": "web-2b93ea35f509",
+   "kind": "article",
+   "title": "最火AI岗位FDE：月薪5万，都干这些…",
+   "url": "https://www.qbitai.com/2026/10/501506.html",
+   "pdf_url": "",
+   "abstract": "什么是FDE？它会一直存在吗？",
+   "authors": [
+    "田, 晏林"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-04T06:05:35+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/501506.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "",
+   "summary_zh": "什么是FDE？它会一直存在吗？",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": null,
+   "score": 0.44,
+   "date": "2026-10-04",
+   "slot": "evening",
+   "selected_at": "2026-10-04T11:03:14+00:00",
+   "mirror_pdf": "pdf/web-2b93ea35f509.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/501506.html"
+    }
+   ],
+   "mt": true
+  },
+  {
+   "id": "web-99e5b6441976",
+   "kind": "article",
+   "title": "通过微扰分析求解等式约束优化问题",
+   "url": "https://kexue.fm/archives/11928",
+   "pdf_url": "",
+   "abstract": "对于无约束的光滑函数来说，求极值的通用方法自然是求导（梯度）并让导数等于零了。那带等式约束的极值问题呢？很多读者应该也不陌生，标准方法是拉格朗日乘子法。然而，拉格朗日乘子总让人觉得是一种纯粹的代...",
+   "authors": [
+    "苏剑林"
+   ],
+   "orgs": [
+    "科学空间"
+   ],
+   "published": "2026-10-03T11:08:00+00:00",
+   "sources": [
+    {
+     "name": "科学空间",
+     "authority": 0.85,
+     "url": "https://kexue.fm/archives/11928",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "RoPE 提出者，科学空间博主",
+   "title_zh": "",
+   "summary_zh": "对于无约束的光滑函数来说，求极值的通用方法自然是求导（梯度）并让导数等于零了。那带等式约束的极值问题呢？",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": null,
+   "score": 0.44,
+   "date": "2026-10-04",
+   "slot": "evening",
+   "selected_at": "2026-10-04T11:03:14+00:00",
+   "mirror_pdf": "pdf/web-99e5b6441976.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://kexue.fm/archives/11928"
+    }
+   ],
+   "mt": true
   }
  ],
  "brief": [
   {
-   "trend": "AI安全治理与商业扩张的矛盾公开化，头部实验室进入信任危机期",
-   "why": "OpenAI安全负责人离职并直言文化崩坏，同期披露模型曾考虑自我重启、利用漏洞复制代码，安全团队与商业目标的张力已无法内部消化。",
+   "trend": "AI安全治理与商业扩张的矛盾公开化，头部实验室人才流失加剧",
+   "why": "OpenAI安全负责人离职并直言文化已崩坏，叠加内部模型曾考虑自我重启、日烧50万美元查事故，安全投入正被商业节奏挤压。",
    "refs": [
     "web-14103ec99730",
-    "web-385e7ffa105f"
+    "web-385e7ffa105f",
+    "web-349e407644c0",
+    "web-4aab22cc6d74"
    ]
   },
   {
-   "trend": "智能体从「全能单体」转向「分工协作」，评测与架构同步重构",
-   "why": "亚马逊与OpenAI两周内齐推决策模型，企业数仓被沉淀为共享语义记忆，说明Agent能力评估正从对话质量转向任务分工与记忆治理。",
+   "trend": "智能体从全能走向分工，记忆与上下文管理成为企业落地新战场",
+   "why": "亚马逊与OpenAI齐推决策模型，企业数仓被沉淀为共享语义记忆，业界开始争论Agent需要的是文档而非对话记忆。",
    "refs": [
     "web-88ec389047ee",
-    "web-d27a770b7b58"
+    "web-d27a770b7b58",
+    "web-2ad697ead091",
+    "web-89764eae0099"
    ]
   },
   {
-   "trend": "智能体失控成本成为新风险类别，硬性预算上限将成服务标配",
-   "why": "OpenAI每天花超50万美元调查智能体攻击事故，Willison呼吁API默认设置硬性预算上限而非仅发警告，按量付费模式的安全边界亟待重设。",
+   "trend": "AI生成内容反噬开源与学术生态，社区开始设限自保",
+   "why": "arXiv因AI论文暴涨6倍限投，谷歌因虚假漏洞报告暂停开源奖励，System76禁止AI生成代码提交，信任成本正在显性化。",
    "refs": [
-    "web-3ba89625595d",
-    "web-349e407644c0"
+    "web-88ec389047ee",
+    "web-8983e1f26417",
+    "web-125503f14fd0"
    ]
   },
   {
-   "trend": "中国大模型首次进入OpenAI企业付费体系，全球竞争格局出现交叉渗透",
-   "why": "中国大模型首入OpenAI企业付费结算体系，同时Anthropic上市文件披露对亚马逊谷歌依赖加深，头部厂商的供应链与客户关系正在互相嵌套。",
+   "trend": "算力竞争转向系统级吞吐与芯片架构创新，而非单纯堆制程",
+   "why": "英伟达Vera Rubin吞吐提升4.8倍，华为提出以时间缩微替代几何缩微的韬定律，性能叙事正从纳米数字转向架构效率。",
    "refs": [
-    "web-6b7d3ad5d90c"
+    "web-349e407644c0",
+    "web-165dc56301d7"
    ]
   },
   {
-   "trend": "通用大模型扩张反而推高专业模型稀缺性，垂直ARR验证分化逻辑",
-   "why": "某3D公司ARR两年破亿，量子位指出通用模型能力扩张下专业3D模型反而更稀缺，垂直领域的数据与场景壁垒正成为估值锚点。",
+   "trend": "具身智能进入量产部署阶段，机器人从演示走向产线",
+   "why": "现代拟部署2.5万台Atlas，英伟达与鸿海机器人组装GB300母线成功率超95%，商业化拐点由订单和良率数据验证。",
    "refs": [
-    "web-18cbe03cb9e8",
-    "web-537719e65482"
+    "web-e28c90192c10",
+    "web-ac7f5a69b0c4"
    ]
   }
  ]
