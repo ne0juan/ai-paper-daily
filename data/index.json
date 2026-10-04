@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-04T11:03:14+00:00",
+ "updated": "2026-10-04T15:43:52+00:00",
  "days": [
   {
    "date": "2026-10-04",
-   "count": 30,
+   "count": 39,
    "slots": {
     "noon": 16,
-    "evening": 14
+    "evening": 23
    }
   },
   {
@@ -103,42 +103,40 @@
    }
   }
  ],
- "total": 618,
+ "total": 627,
  "last_run": {
-  "at": "2026-10-04T11:03:14+00:00",
+  "at": "2026-10-04T15:43:52+00:00",
   "slot": "evening",
-  "candidates": 60,
-  "new": 19,
-  "stale": 5,
-  "judged": 11,
-  "selected": 14,
-  "mirrored": 13,
+  "candidates": 59,
+  "new": 13,
+  "stale": 0,
+  "judged": 13,
+  "selected": 9,
+  "mirrored": 9,
   "by_category": {
-   "资讯": 9,
-   "技术": 3,
-   "项目": 2
+   "资讯": 5,
+   "项目": 3,
+   "技术": 1
   },
   "by_source": {
-   "Hacker News": 5,
+   "Hacker News": 7,
    "量子位": 6,
-   "极客公园": 4,
-   "IT之家": 8,
+   "极客公园": 5,
+   "IT之家": 9,
    "爱范儿": 2,
-   "InfoQ 中文": 3,
+   "InfoQ 中文": 2,
    "Simon Willison": 1,
-   "Latent Space": 2,
+   "Latent Space": 1,
    "Stratechery": 1,
    "Azeem Azhar": 2,
    "科学空间": 1,
-   "Hugging Face Blog": 2,
-   "Google Research": 1,
+   "Hugging Face Blog": 1,
    "OpenAI": 1,
-   "NVIDIA": 1,
-   "GitHub Trending": 13,
-   "GitHub 新项目": 7
+   "GitHub Trending": 11,
+   "GitHub 新项目": 9
   },
   "llm": true,
-  "translated": 8
+  "translated": 0
  },
  "slots": {
   "morning": "晨间",

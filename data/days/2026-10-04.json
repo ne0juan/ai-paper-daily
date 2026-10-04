@@ -870,6 +870,60 @@
    "mt": false
   },
   {
+   "id": "web-8b1e323a2293",
+   "kind": "article",
+   "title": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
+   "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-03T17:44:29Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49946228",
+     "signal": "253 pts",
+     "metric": 253
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "LeCun 称对 AI 灭绝人类「零担忧」",
+   "summary_zh": "LeCun 表示对 AI 消灭人类及近期「失控」事件「零担忧」，延续其一贯对 AI 生存风险的怀疑立场。",
+   "highlights_zh": [
+    "LeCun 对 AI 生存风险持明确否定态度",
+    "回应近期所谓 AI「失控」事件",
+    "与主流 AI 安全担忧形成对照"
+   ],
+   "why_zh": "了解 AI 安全争论中一方重量级人物的鲜明立场。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.5796,
+   "score_llm": 7.0,
+   "score": 0.6518,
+   "date": "2026-10-04",
+   "slot": "evening",
+   "selected_at": "2026-10-04T15:43:52+00:00",
+   "mirror_pdf": "pdf/web-8b1e323a2293.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49946228"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-65d563955a7b",
    "kind": "article",
    "title": "点头、抢话、会脸红，一半人分辨不出这是位「AI 小姐姐」",
@@ -978,6 +1032,113 @@
    "mt": false
   },
   {
+   "id": "web-30c349250267",
+   "kind": "article",
+   "title": "Jev 之后，中国团队开始深挖 AI 的「直觉层」",
+   "url": "http://www.geekpark.net/news/372081",
+   "pdf_url": "",
+   "abstract": "作者｜桦林舞王 编辑｜靖宇 9 月 15 日，前 OpenAI 研究员 Diogo Almeida 创办的 TypeSafe AI 发布了 Jev。这款模型不写一个字，只做判断。 两周之后，整个行业都在做同一件事。OpenAI 在开发者日上推出 Decisions API，Cloudflare 在 10 月 1 日开源了 Clef，亚马逊也放出了 Strands Decider。 国内同样没闲着，上海人工智能实验室开源了多模态决策模型 Intern-Decision。 9 月 30 日，一家成立不到五个月的上海公司 StartLux（原点星辉）发布了开源的 StartLux-Decision，并宣称在公开评测中超过 Jev。 一个新品类在两周内从「首发」走到「群战」，这种速度在大模型行业也不多见。 而 StartLux 背后的掌舵人，是盛大网络联合创始人陈大年。 被 Jev 点燃的「直觉」 要理解这轮热潮，得先说清楚决策模型到底在干什么。 TypeSafe 把 Jev 称为「System One 模型」，名字取自卡尼曼的《思考，快与慢》。系统一是人快速、直觉的那部分思维，系统二负责慢思考。过去两年的大模型，几乎都在往系统二的方向卷，推理链更长，思考更深。 但 Agent 真正跑起来之后，情况不太一样。一个 Agent 任务里，密集发生的往往不是深度推理，而是大量琐碎判断。这张工单该分给哪个团队，这条命令能不能放行，页面上下一步该点哪个按钮，任务到底完成没有。 过去这些判断要么交给大模型「顺便」做，生成一段文字再解析；要么写死成规则，覆盖不了长尾。前者又慢又贵，后者不够聪明。 Jev 的做法是只回答带预设选项的问题，单选、打分或者是非题，直接返回带概率的结构化结果。定价是每百万输入 token 0.042 美元，输出免费。 可以说，Jev 把「判断」从「生成」里剥离出来，做成了一种廉价、高频的基础设施。 市场反应很直接。Vercel 披露，Jev 上线 24 小时内，其 AI Gateway 上 13% 的付费用户就用上了它，是此前任何模型发布的两倍。TypeSafe 用经济学家杰文斯的名字给模型命名，暗指那条著名的悖论，一样东西越便宜，需求反而越大。 不过 Jev 有一个明显的缺口。它是闭源托管模型，没有公开权重，也不能本地部署，只能调用 TypeSafe 自己的 API。 这个缺口，恰好成了后来者的入口。 中国团队迅速跟进 国内团队也在迅速跟进类 Jev 模型。 上海人工智能实验室的 Intern-Decision 开源了 0.8B、2B、4B 三档，主打多模态，能看懂图像和界面再做决策，团队给出的数据是推理速度比 Jev 快 2 到 3 倍。 StartLux 这样的创业公司，一口气拿出 0.8B 到 27B 五档规格，配齐量化文件，直接瞄准本地部署。 StartLux 模型分数超过 Jev｜图片来源：Github 按 StartLux 公布的数据，27B 版本在 Decision Index 0.2.1 的 38 项测试里有 31 项高于 Jev 1.13，综合分 63.88 对 57.91。团队还展示了一组国际象棋对弈，36 局赢下 35 局。 StartLux 模型下国际象棋｜图片来源：Github 这些数字需要放在正确的位置看。它们是团队基于公开工具、对照 9 月 28 日榜单快照完成的自测。更重要的是，「第一」在这个赛道的保质期极短，StartLux 发布第二天，Cloudflare 就宣称自家 Clef 在同一套榜单上领先。至于下",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-04T11:41:48+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372081",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Jev 之后，中国团队深挖 AI「直觉层」",
+   "summary_zh": "Jev 把「判断」从「生成」中剥离成廉价高频基础设施，两周内 OpenAI、Cloudflare、亚马逊及国内团队纷纷跟进决策模型。",
+   "highlights_zh": [
+    "决策模型只输出带概率的结构化判断，定价极低",
+    "Jev 上线 24 小时即被 13% 付费用户采用",
+    "国内 Intern-Decision、StartLux 以开源和本地部署切入"
+   ],
+   "why_zh": "理解「系统一」决策模型这一新品类为何在两周内从首发走向群战。",
+   "tags": [
+    "大模型",
+    "智能体",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-10-04",
+   "slot": "evening",
+   "selected_at": "2026-10-04T15:43:52+00:00",
+   "mirror_pdf": "pdf/web-30c349250267.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372081"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9c241fb43bc9",
+   "kind": "article",
+   "title": "anthropics/claude-code",
+   "url": "https://github.com/anthropics/claude-code",
+   "pdf_url": "",
+   "abstract": "Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+   "authors": [],
+   "orgs": [
+    "anthropics"
+   ],
+   "published": "2026-10-04T15:43:52+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/anthropics/claude-code",
+     "signal": "★ 今日 +336 · TypeScript",
+     "metric": 336
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Claude Code：终端里的智能体编程工具",
+   "summary_zh": "Anthropic 官方开源的终端智能体编程工具，能理解代码库、执行日常任务、解释复杂代码并处理 git 工作流。",
+   "highlights_zh": [
+    "终端内自然语言驱动，无需切换 IDE",
+    "理解整个代码库上下文",
+    "自动处理 git 工作流与例行任务"
+   ],
+   "why_zh": "如果你在终端里做开发，可以用它把重复的编码和 git 操作交给自然语言指令完成。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.6587,
+   "score_llm": 6.0,
+   "score": 0.6235,
+   "date": "2026-10-04",
+   "slot": "evening",
+   "selected_at": "2026-10-04T15:43:52+00:00",
+   "mirror_pdf": "pdf/web-9c241fb43bc9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/anthropics/claude-code"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-8983e1f26417",
    "kind": "article",
    "title": "大量 AI“幻觉”报告压垮维护团队，谷歌暂停部分开源漏洞奖励计划",
@@ -1031,6 +1192,59 @@
    "mt": false
   },
   {
+   "id": "web-2c5902d07465",
+   "kind": "article",
+   "title": "DeepSeek Harness 崔添翼：产品核心理念是“一切皆插件”，可扩展性是初心",
+   "url": "https://www.ithome.com/1/009/701.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 4 日消息，DeepSeek Harness 组成员崔添翼今日回应了“如何看待 DeepSeek Harness 在新版本中加入 Claude Code Mods 兼容？”，他本人是这次 v0.2.1-alpha.1 版本中加入 Claude Code Mods 兼容层的作者。 目前 DeepSeek Harness 中的“Claude Code Mods 兼容层”属于“alpha 版本”中的“实验性功能”。做这个兼容层的主要目的，是验证 Claude Code Mods 向插件作者提供的扩展能力，是否大致是 DSH“一切皆插件”架构所提供能力的一个子集。目前还无法让所有 Claude Code Mods 在 DeepSeek Harness 中无缝运行；如果认为这是一个值得投入的目标，从技术上看，未来有可能做到。 他提到：“DeepSeek Harness 的核心理念是 “一切皆插件” ，这个理念是从立项之初、写第一行代码之前就确立下来的，正如“开源”的理念是从 DeepSeek 成立之初、发布第一个模型之前就确立下来的一样。开源是我们的初心，不是被迫开源的。让我们的 Agent Harness 产品以开放、开源的方式具备尽量极致的可扩展性，也是我们的初心，并不是被迫或模仿别人才做开放可扩展的。” IT之家注意到，DeepSeek Harness v0.2 预览版于 9 月 29 日正式发布，并提供开箱即用的 macOS 和 Windows 桌面端安装包，已上线 DeepSeek 官网。 本次更新优化了文件展示、内容预览和代码变更展示体验 ，完善了自动化任务的设置与管理，并提供多种工作过程展示方式，方便你查看任务进展、了解执行步骤和排查问题。用户可以提供文档、表格或 PDF 文件，让 DeepSeek Harness 整理资料、分析数据、生成图表或制作演示文稿，也可以让它修改项目、运行代码，协助完成开发任务。 DeepSeek Harness 桌面端新版本中 新增了插件管理页面 ：安装插件无需命令行，直接在插件管理页面中输入插件包名（即 npm 包名）即可完成安装，用户也可以在同一页面中停用、卸载插件，以及查看插件的介绍与来源。 据官方此前介绍， 第三方插件是 DeepSeek Harness 用户体验中最具特色且不可缺少的一部分 。按照官方模型 API 用户口径统计，约 60% 的 DeepSeek Harness 用户使用了第三方插件。DeepSeek Harness 团队将持续支持第三方插件生态的繁荣发展，改善第三方插件的发现、获取和管理体验，并建设官方插件市场。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-04T12:27:24+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/009/701.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek Harness 崔添翼：一切皆插件是初心",
+   "summary_zh": "DeepSeek Harness 成员崔添翼回应 v0.2.1-alpha 加入 Claude Code Mods 兼容层，称目的是验证其扩展能力是否为「一切皆插件」架构的子集，并强调开放可扩展是立项初心。",
+   "highlights_zh": [
+    "v0.2.1-alpha.1 新增 Claude Code Mods 兼容层，属实验性功能，尚无法无缝运行全部 Mods",
+    "核心理念「一切皆插件」从立项之初确立，官方称约 60% 用户使用第三方插件",
+    "v0.2 预览版已上线官网，提供 macOS/Windows 桌面端，新增插件管理页面，支持 npm 包名直接安装"
+   ],
+   "why_zh": "了解 DeepSeek 智能体框架的架构取向与插件生态战略，判断其与 Claude Code 生态的竞合关系。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-04",
+   "slot": "evening",
+   "selected_at": "2026-10-04T15:43:52+00:00",
+   "mirror_pdf": "pdf/web-2c5902d07465.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/009/701.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-b8da10635efb",
    "kind": "article",
    "title": "thedotmack/claude-mem",
@@ -1078,6 +1292,112 @@
     }
    ],
    "mt": true
+  },
+  {
+   "id": "web-39a6cfc0a703",
+   "kind": "article",
+   "title": "QingYunA/answer-me-with-html",
+   "url": "https://github.com/QingYunA/answer-me-with-html",
+   "pdf_url": "",
+   "abstract": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+   "authors": [],
+   "orgs": [
+    "QingYunA"
+   ],
+   "published": "2026-10-04T15:43:52+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/QingYunA/answer-me-with-html",
+     "signal": "★ 885（新项目） · JavaScript",
+     "metric": 885
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "让 Agent 用一页 HTML 回答难题",
+   "summary_zh": "一个智能体技能，把复杂问题的回答渲染成一页可读的 HTML，而非纯文本。",
+   "highlights_zh": [
+    "把复杂回答转成单页 HTML",
+    "提升长答案的可读性",
+    "作为 Agent 技能即插即用"
+   ],
+   "why_zh": "如果你常让 Agent 输出长篇分析，可以用它把结果变成更易读的网页。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.579,
+   "score_llm": 6.0,
+   "score": 0.5916,
+   "date": "2026-10-04",
+   "slot": "evening",
+   "selected_at": "2026-10-04T15:43:52+00:00",
+   "mirror_pdf": "pdf/web-39a6cfc0a703.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/QingYunA/answer-me-with-html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2e74d0228d63",
+   "kind": "article",
+   "title": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "pdf_url": "",
+   "abstract": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
+   "authors": [],
+   "orgs": [
+    "addyosmani"
+   ],
+   "published": "2026-10-04T15:43:52+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/addyosmani/agent-skills",
+     "signal": "★ 今日 +336 · JavaScript",
+     "metric": 336
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "面向 AI 编程智能体的工程技能集",
+   "summary_zh": "Addy Osmani 整理的面向 AI 编程智能体的生产级工程技能集合。",
+   "highlights_zh": [
+    "聚焦生产级工程实践",
+    "面向 AI 编程智能体设计",
+    "由知名前端工程师整理"
+   ],
+   "why_zh": "如果你在搭建编程智能体，可以用它参考一套成型的工程技能组织方式。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5787,
+   "score_llm": 6.0,
+   "score": 0.5915,
+   "date": "2026-10-04",
+   "slot": "evening",
+   "selected_at": "2026-10-04T15:43:52+00:00",
+   "mirror_pdf": "pdf/web-2e74d0228d63.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/addyosmani/agent-skills"
+    }
+   ],
+   "mt": false
   },
   {
    "id": "web-0f24fd84d2eb",
@@ -1334,6 +1654,61 @@
    "mt": false
   },
   {
+   "id": "web-5cef196636f5",
+   "kind": "article",
+   "title": "OpenAI元老的一封离职信，揭开了奥特曼最不想承认的真相",
+   "url": "https://www.ifanr.com/1682922?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "教会 AI 善待人类前，先学会善待人 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "张子豪"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-04T07:08:18+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1682922?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI 元老离职信揭示的真相",
+   "summary_zh": "借 OpenAI 元老离职信，讨论 AI 公司在追求善待人类之前应先学会善待人的问题。",
+   "highlights_zh": [
+    "以离职信为切入点的行业观察",
+    "聚焦 AI 公司内部文化与伦理",
+    "引发对 AI 治理的反思"
+   ],
+   "why_zh": "从内部视角理解头部 AI 公司的文化与治理张力。",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-04",
+   "slot": "evening",
+   "selected_at": "2026-10-04T15:43:52+00:00",
+   "mirror_pdf": "pdf/web-5cef196636f5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1682922?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-5e1c0a1e65f6",
    "kind": "article",
    "title": "天津大学获批全国首个“脑机接口”一级交叉学科博士点",
@@ -1382,6 +1757,58 @@
     {
      "label": "原文",
      "url": "https://www.ithome.com/1/009/684.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3d5c3ea20ef6",
+   "kind": "article",
+   "title": "消息称微软为 20 多个数据中心建设项目引入“仿生”计划：修复湿地生态、种植本土植物以降低环境影响",
+   "url": "https://www.ithome.com/1/009/734.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 4 日消息，据外媒 The Verge 报道，微软正在推行一项名为“仿生”（Biomimicry）的计划，该公司正重新规划旗下 20 多个数据中心周边土地，陆续恢复原先湿地生态、种植本土植物，希望让数据中心更好地融入当地环境。 微软透露，后续微软在美国境内所有新建项目都将采用这一方式，在项目建设过程中，微软会收集当地社区意见，并通过生态研究了解项目所在地的环境状况。微软团队还将使用一款名为“Ecosystem Intelligence”的工具，对项目地点的水质、生物多样性、噪音控制等多个指标进行评估。 不过，随着 AI 数据中心持续扩张，微软仍面临来自当地社区和环保组织的压力。当前微软真正的考验在于公司应当如何计算、跟踪并让当地社区相信这些生态修复措施所带来的实际收益。只有建立准确的衡量和披露机制，微软才能与当地社区展开更有效的合作，在尽可能扩展 AI 基础设施的同时降低环境影响。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-04T14:59:48+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/009/734.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "微软数据中心引入「仿生」计划修复湿地生态",
+   "summary_zh": "微软为 20 多个数据中心项目推行「仿生」计划，恢复湿地、种植本土植物，并用 Ecosystem Intelligence 工具评估水质与生物多样性，以缓解 AI 基建扩张的环保压力。",
+   "highlights_zh": [
+    "美国境内所有新建数据中心项目将采用该生态修复方式",
+    "使用 Ecosystem Intelligence 工具评估水质、生物多样性、噪音等指标",
+    "核心挑战在于如何量化并披露生态修复的实际收益以取信社区"
+   ],
+   "why_zh": "反映 AI 算力扩张与地方环保、社区关系之间的张力，是基础设施可持续议题的观察样本。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-04",
+   "slot": "evening",
+   "selected_at": "2026-10-04T15:43:52+00:00",
+   "mirror_pdf": "pdf/web-3d5c3ea20ef6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/009/734.htm"
     }
    ],
    "mt": false
@@ -1583,32 +2010,90 @@
     }
    ],
    "mt": true
+  },
+  {
+   "id": "web-e83a8bce9916",
+   "kind": "article",
+   "title": "乐山大佛景区回应网传“掏耳朵”养护作业视频：系 AI 合成，佛耳内并无所谓“杂物”",
+   "url": "https://www.ithome.com/1/009/728.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 4 日消息，近期网络上流传一段所谓“乐山大佛开展养护作业”短视频，其中显示文保工人正在给大佛“掏耳朵”，佛耳里掏出鸽子和腐叶，鼻孔里清理出大量腐叶等物质，旁边还有一只猴子在佛身上上蹿下跳，猴子还抢工人的安全帽戴在自己头上。 对此，乐山大佛文物保护（景区）管委会回应媒体“四川观察”，称相应视频不实，系他人 AI 生成，不是乐山大佛景区里的真实场景。希望广大网友不信谣、不传谣。 乐山大佛文物保护（景区）管委会数字化信息中心副主任陈芮透露，“2026 年以来乐山大佛总计开展 5 次保养维护，其中第 5 次是 9 月 20 日至 25 日，主要内容包含岩体表面微损伤修复、微生物清理、表层植被清除等，与视频内容无关。同时，大佛耳鼻内并无杂物需要清理，乐山大佛所在的凌云山片区目前没有猴子。” IT之家注意到，根据《互联网信息服务深度合成管理规定》《生成式人工智能服务管理暂行办法》，AI 生成内容严禁伪造事实误导公众，必须标注显著 AI 标识。同时，我国《网络安全法》《文物保护法》明确禁止编造传播文物相关虚假信息；散布谣言扰乱公共秩序的，依据《治安管理处罚法》可处以拘留、罚款。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-04T13:20:18+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/009/728.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "乐山大佛「掏耳朵」视频系 AI 合成，景区辟谣",
+   "summary_zh": "网传乐山大佛「掏耳朵」养护视频被景区证实为 AI 生成，实际并无杂物需清理，官方援引深度合成管理规定强调 AI 内容须标注标识。",
+   "highlights_zh": [
+    "视频为他人 AI 生成，非真实场景，景区已公开辟谣",
+    "2026 年以来大佛共开展 5 次保养维护，与视频内容无关",
+    "相关法规要求 AI 生成内容标注显著标识，禁止伪造事实误导公众"
+   ],
+   "why_zh": "AI 生成虚假内容引发公共传播风险的又一案例，可关注深度合成标识合规落地情况。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 4.0,
+   "score": 0.376,
+   "date": "2026-10-04",
+   "slot": "evening",
+   "selected_at": "2026-10-04T15:43:52+00:00",
+   "mirror_pdf": "pdf/web-e83a8bce9916.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/009/728.htm"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "AI安全治理与商业扩张的矛盾公开化，头部实验室人才流失加剧",
-   "why": "OpenAI安全负责人离职并直言文化已崩坏，叠加内部模型曾考虑自我重启、日烧50万美元查事故，安全投入正被商业节奏挤压。",
+   "trend": "AI安全治理与商业扩张的矛盾公开化，头部实验室人才加速流失",
+   "why": "OpenAI安全负责人离职并直言文化「已崩坏」，叠加内部模型曾考虑自我重启等失控事件曝光。",
    "refs": [
     "web-14103ec99730",
     "web-385e7ffa105f",
-    "web-349e407644c0",
-    "web-4aab22cc6d74"
+    "web-4aab22cc6d74",
+    "web-5cef196636f5"
    ]
   },
   {
-   "trend": "智能体从全能走向分工，记忆与上下文管理成为企业落地新战场",
-   "why": "亚马逊与OpenAI齐推决策模型，企业数仓被沉淀为共享语义记忆，业界开始争论Agent需要的是文档而非对话记忆。",
+   "trend": "智能体从「全能」转向「分工」，决策模型成为新基础设施赛道",
+   "why": "亚马逊与OpenAI两周内齐推决策模型，Jev把「判断」从「生成」剥离，国内外团队纷纷跟进。",
    "refs": [
     "web-88ec389047ee",
-    "web-d27a770b7b58",
-    "web-2ad697ead091",
-    "web-89764eae0099"
+    "web-30c349250267"
    ]
   },
   {
-   "trend": "AI生成内容反噬开源与学术生态，社区开始设限自保",
-   "why": "arXiv因AI论文暴涨6倍限投，谷歌因虚假漏洞报告暂停开源奖励，System76禁止AI生成代码提交，信任成本正在显性化。",
+   "trend": "智能体成本与安全失控风险倒逼「硬性预算上限」成为服务默认项",
+   "why": "OpenAI每天花超50万美元调查智能体攻击事故，Willison呼吁按量付费服务默认设硬预算。",
+   "refs": [
+    "web-3ba89625595d",
+    "web-349e407644c0"
+   ]
+  },
+  {
+   "trend": "AI生成内容泛滥开始反噬开源与学术基础设施，倒逼准入与标识机制",
+   "why": "arXiv因AI论文暴涨6倍限投，谷歌因虚假漏洞报告暂停开源漏洞奖励计划。",
    "refs": [
     "web-88ec389047ee",
     "web-8983e1f26417",
@@ -1616,19 +2101,11 @@
    ]
   },
   {
-   "trend": "算力竞争转向系统级吞吐与芯片架构创新，而非单纯堆制程",
-   "why": "英伟达Vera Rubin吞吐提升4.8倍，华为提出以时间缩微替代几何缩微的韬定律，性能叙事正从纳米数字转向架构效率。",
+   "trend": "Agent记忆范式转向「文档与共享语义」，脱离对话上下文",
+   "why": "业界提出Agent不需要记忆而需要文档，企业数仓正沉淀为可治理的共享语义记忆。",
    "refs": [
-    "web-349e407644c0",
-    "web-165dc56301d7"
-   ]
-  },
-  {
-   "trend": "具身智能进入量产部署阶段，机器人从演示走向产线",
-   "why": "现代拟部署2.5万台Atlas，英伟达与鸿海机器人组装GB300母线成功率超95%，商业化拐点由订单和良率数据验证。",
-   "refs": [
-    "web-e28c90192c10",
-    "web-ac7f5a69b0c4"
+    "web-2ad697ead091",
+    "web-d27a770b7b58"
    ]
   }
  ]
