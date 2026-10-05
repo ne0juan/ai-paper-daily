@@ -1,12 +1,12 @@
-2026-10-04 15:43:52,841 INFO source hf_daily           -> 0 items
-2026-10-04 15:43:53,132 INFO source hackernews         -> 7 items
-2026-10-04 15:44:55,770 WARNING rss 钛媒体 failed: 502 for https://www.tmtpost.com/rss.xml
-2026-10-04 15:44:57,433 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-04 15:45:03,778 INFO source rss                -> 32 items
-2026-10-04 15:45:05,281 INFO source html_lists         -> 0 items
-2026-10-04 15:45:05,282 INFO source x                  -> 0 items
-2026-10-04 15:45:05,759 INFO source arxiv_search       -> 0 items
-2026-10-04 15:45:14,779 INFO source github             -> 20 items
-2026-10-04 15:45:14,780 INFO candidates: 59 (stale dropped 0, new 13)
-2026-10-04 15:45:26,013 INFO llm judged 13/13 (calls=2)
-2026-10-04 15:46:32,140 INFO run done: {"at": "2026-10-04T15:43:52+00:00", "slot": "evening", "candidates": 59, "new": 13, "stale": 0, "judged": 13, "selected": 9, "mirrored": 9, "by_category": {"资讯": 5, "项目": 3, "技术": 1}, "by_source": {"Hacker News": 7, "量子位": 6, "极客公园": 5, "IT之家": 9, "爱范儿": 2, "InfoQ 中文": 2, "Simon Willison": 1, "Latent Space": 1, "Stratechery": 1, "Azeem Azhar": 2, "科学空间": 1, "Hugging Face Blog": 1, "OpenAI": 1, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
+2026-10-05 04:24:48,966 INFO source hf_daily           -> 1 items
+2026-10-05 04:24:49,229 INFO source hackernews         -> 2 items
+2026-10-05 04:25:01,956 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-05 04:25:09,278 INFO source rss                -> 46 items
+2026-10-05 04:25:10,782 INFO source html_lists         -> 0 items
+2026-10-05 04:25:10,782 INFO source x                  -> 0 items
+2026-10-05 04:25:11,389 INFO source arxiv_search       -> 0 items
+2026-10-05 04:25:20,096 INFO source github             -> 20 items
+2026-10-05 04:25:20,096 INFO candidates: 69 (stale dropped 8, new 29)
+2026-10-05 04:25:43,556 INFO llm judged 29/29 (calls=4)
+2026-10-05 04:26:19,176 WARNING snapshot https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html: blocked or empty page
+2026-10-05 04:27:49,932 INFO run done: {"at": "2026-10-05T04:24:48+00:00", "slot": "noon", "candidates": 69, "new": 29, "stale": 8, "judged": 29, "selected": 13, "mirrored": 11, "by_category": {"资讯": 11, "项目": 2}, "by_source": {"HF Daily Papers": 1, "Hacker News": 2, "量子位": 6, "极客公园": 5, "IT之家": 17, "爱范儿": 2, "钛媒体": 7, "InfoQ 中文": 3, "Simon Willison": 1, "Latent Space": 1, "Azeem Azhar": 2, "科学空间": 1, "Hugging Face Blog": 1, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
