@@ -1,12 +1,12 @@
-2026-10-05 04:24:48,966 INFO source hf_daily           -> 1 items
-2026-10-05 04:24:49,229 INFO source hackernews         -> 2 items
-2026-10-05 04:25:01,956 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-05 04:25:09,278 INFO source rss                -> 46 items
-2026-10-05 04:25:10,782 INFO source html_lists         -> 0 items
-2026-10-05 04:25:10,782 INFO source x                  -> 0 items
-2026-10-05 04:25:11,389 INFO source arxiv_search       -> 0 items
-2026-10-05 04:25:20,096 INFO source github             -> 20 items
-2026-10-05 04:25:20,096 INFO candidates: 69 (stale dropped 8, new 29)
-2026-10-05 04:25:43,556 INFO llm judged 29/29 (calls=4)
-2026-10-05 04:26:19,176 WARNING snapshot https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html: blocked or empty page
-2026-10-05 04:27:49,932 INFO run done: {"at": "2026-10-05T04:24:48+00:00", "slot": "noon", "candidates": 69, "new": 29, "stale": 8, "judged": 29, "selected": 13, "mirrored": 11, "by_category": {"资讯": 11, "项目": 2}, "by_source": {"HF Daily Papers": 1, "Hacker News": 2, "量子位": 6, "极客公园": 5, "IT之家": 17, "爱范儿": 2, "钛媒体": 7, "InfoQ 中文": 3, "Simon Willison": 1, "Latent Space": 1, "Azeem Azhar": 2, "科学空间": 1, "Hugging Face Blog": 1, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
+2026-10-05 12:11:53,723 INFO source hf_daily           -> 12 items
+2026-10-05 12:11:54,075 INFO source hackernews         -> 2 items
+2026-10-05 12:12:14,033 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-05 12:12:22,261 INFO source rss                -> 35 items
+2026-10-05 12:12:23,860 INFO source html_lists         -> 0 items
+2026-10-05 12:12:23,860 INFO source x                  -> 0 items
+2026-10-05 12:12:24,389 INFO source arxiv_search       -> 0 items
+2026-10-05 12:12:33,230 INFO source github             -> 20 items
+2026-10-05 12:12:33,231 INFO candidates: 69 (stale dropped 13, new 27)
+2026-10-05 12:12:55,017 INFO llm judged 27/27 (calls=4)
+2026-10-05 12:12:58,936 WARNING snapshot https://stratechery.com/2026/apple-and-a-hackers-future/: blocked or empty page
+2026-10-05 12:15:34,842 INFO run done: {"at": "2026-10-05T12:11:53+00:00", "slot": "evening", "candidates": 69, "new": 27, "stale": 13, "judged": 27, "selected": 14, "mirrored": 13, "by_category": {"观点": 1, "资讯": 10, "项目": 3}, "by_source": {"HF Daily Papers": 12, "Hacker News": 2, "量子位": 5, "极客公园": 6, "IT之家": 9, "爱范儿": 1, "钛媒体": 6, "InfoQ 中文": 2, "Simon Willison": 1, "Stratechery": 1, "Azeem Azhar": 2, "Hugging Face Blog": 1, "OpenAI": 1, "GitHub Trending": 7, "GitHub 新项目": 13}, "llm": true, "translated": 0}

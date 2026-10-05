@@ -1,11 +1,12 @@
 {
- "updated": "2026-10-05T04:24:48+00:00",
+ "updated": "2026-10-05T12:11:53+00:00",
  "days": [
   {
    "date": "2026-10-05",
-   "count": 13,
+   "count": 27,
    "slots": {
-    "noon": 13
+    "noon": 13,
+    "evening": 14
    }
   },
   {
@@ -110,36 +111,37 @@
    }
   }
  ],
- "total": 640,
+ "total": 654,
  "last_run": {
-  "at": "2026-10-05T04:24:48+00:00",
-  "slot": "noon",
+  "at": "2026-10-05T12:11:53+00:00",
+  "slot": "evening",
   "candidates": 69,
-  "new": 29,
-  "stale": 8,
-  "judged": 29,
-  "selected": 13,
-  "mirrored": 11,
+  "new": 27,
+  "stale": 13,
+  "judged": 27,
+  "selected": 14,
+  "mirrored": 13,
   "by_category": {
-   "资讯": 11,
-   "项目": 2
+   "观点": 1,
+   "资讯": 10,
+   "项目": 3
   },
   "by_source": {
-   "HF Daily Papers": 1,
+   "HF Daily Papers": 12,
    "Hacker News": 2,
-   "量子位": 6,
-   "极客公园": 5,
-   "IT之家": 17,
-   "爱范儿": 2,
-   "钛媒体": 7,
-   "InfoQ 中文": 3,
+   "量子位": 5,
+   "极客公园": 6,
+   "IT之家": 9,
+   "爱范儿": 1,
+   "钛媒体": 6,
+   "InfoQ 中文": 2,
    "Simon Willison": 1,
-   "Latent Space": 1,
+   "Stratechery": 1,
    "Azeem Azhar": 2,
-   "科学空间": 1,
    "Hugging Face Blog": 1,
-   "GitHub Trending": 12,
-   "GitHub 新项目": 8
+   "OpenAI": 1,
+   "GitHub Trending": 7,
+   "GitHub 新项目": 13
   },
   "llm": true,
   "translated": 0
