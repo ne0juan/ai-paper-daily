@@ -1,12 +1,11 @@
-2026-10-06 11:55:20,002 INFO source hf_daily           -> 45 items
-2026-10-06 11:55:20,257 INFO source hackernews         -> 3 items
-2026-10-06 11:55:38,817 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-06 11:55:45,982 INFO source rss                -> 45 items
-2026-10-06 11:55:47,471 INFO source html_lists         -> 0 items
-2026-10-06 11:55:47,471 INFO source x                  -> 0 items
-2026-10-06 11:55:48,199 INFO source arxiv_search       -> 60 items
-2026-10-06 11:55:58,027 INFO source github             -> 20 items
-2026-10-06 11:55:58,030 INFO candidates: 172 (stale dropped 42, new 93)
-2026-10-06 11:57:26,177 INFO llm judged 93/93 (calls=12)
-2026-10-06 11:58:02,232 WARNING pdf arxiv-2610.06844: too large (> 25165824 bytes): https://arxiv.org/pdf/2610.06844
-2026-10-06 11:59:31,167 INFO run done: {"at": "2026-10-06T11:55:19+00:00", "slot": "evening", "candidates": 172, "new": 93, "stale": 42, "judged": 93, "selected": 21, "mirrored": 20, "by_category": {"技术": 4, "项目": 3, "资讯": 11, "观点": 3}, "by_source": {"HF Daily Papers": 45, "arXiv 新论文": 60, "Hacker News": 3, "量子位": 5, "极客公园": 3, "IT之家": 14, "钛媒体": 8, "InfoQ 中文": 2, "Latent Space": 1, "Jack Clark": 1, "Stratechery": 1, "SemiAnalysis": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Timothy B. Lee": 2, "Hugging Face Blog": 1, "Google Research": 1, "OpenAI": 2, "NVIDIA": 1, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
+2026-10-06 17:07:22,776 INFO source hf_daily           -> 49 items
+2026-10-06 17:07:23,282 INFO source hackernews         -> 5 items
+2026-10-06 17:07:41,972 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-06 17:07:51,869 INFO source rss                -> 50 items
+2026-10-06 17:07:54,206 INFO source html_lists         -> 1 items
+2026-10-06 17:07:54,206 INFO source x                  -> 0 items
+2026-10-06 17:08:47,032 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
+2026-10-06 17:08:56,459 INFO source github             -> 20 items
+2026-10-06 17:08:56,461 INFO candidates: 124 (stale dropped 64, new 27)
+2026-10-06 17:09:18,897 INFO llm judged 27/27 (calls=4)
+2026-10-06 17:11:18,438 INFO run done: {"at": "2026-10-06T17:07:22+00:00", "slot": "morning", "candidates": 124, "new": 27, "stale": 64, "judged": 27, "selected": 17, "mirrored": 17, "by_category": {"资讯": 12, "观点": 2, "项目": 3}, "by_source": {"HF Daily Papers": 49, "Hacker News": 5, "Mistral": 1, "量子位": 6, "极客公园": 3, "IT之家": 12, "钛媒体": 9, "InfoQ 中文": 2, "Nathan Lambert": 1, "Latent Space": 1, "Jack Clark": 1, "Stratechery": 1, "SemiAnalysis": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 2, "Timothy B. Lee": 2, "Hugging Face Blog": 1, "Google Research": 2, "OpenAI": 3, "NVIDIA": 2, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
