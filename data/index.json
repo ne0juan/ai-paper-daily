@@ -1,6 +1,13 @@
 {
- "updated": "2026-10-05T12:11:53+00:00",
+ "updated": "2026-10-06T05:12:02+00:00",
  "days": [
+  {
+   "date": "2026-10-06",
+   "count": 21,
+   "slots": {
+    "noon": 21
+   }
+  },
   {
    "date": "2026-10-05",
    "count": 27,
@@ -111,37 +118,43 @@
    }
   }
  ],
- "total": 654,
+ "total": 675,
  "last_run": {
-  "at": "2026-10-05T12:11:53+00:00",
-  "slot": "evening",
-  "candidates": 69,
-  "new": 27,
-  "stale": 13,
-  "judged": 27,
-  "selected": 14,
-  "mirrored": 13,
+  "at": "2026-10-06T05:12:02+00:00",
+  "slot": "noon",
+  "candidates": 176,
+  "new": 111,
+  "stale": 45,
+  "judged": 98,
+  "selected": 21,
+  "mirrored": 20,
   "by_category": {
-   "观点": 1,
-   "资讯": 10,
-   "项目": 3
+   "资讯": 11,
+   "观点": 3,
+   "项目": 3,
+   "技术": 4
   },
   "by_source": {
-   "HF Daily Papers": 12,
-   "Hacker News": 2,
+   "HF Daily Papers": 38,
+   "Hacker News": 4,
    "量子位": 5,
    "极客公园": 6,
-   "IT之家": 9,
+   "IT之家": 20,
    "爱范儿": 1,
-   "钛媒体": 6,
-   "InfoQ 中文": 2,
-   "Simon Willison": 1,
+   "钛媒体": 8,
+   "InfoQ 中文": 3,
+   "Jack Clark": 1,
    "Stratechery": 1,
-   "Azeem Azhar": 2,
-   "Hugging Face Blog": 1,
-   "OpenAI": 1,
-   "GitHub Trending": 7,
-   "GitHub 新项目": 13
+   "SemiAnalysis": 1,
+   "Azeem Azhar": 1,
+   "Tomasz Tunguz": 1,
+   "Timothy B. Lee": 2,
+   "Google Research": 1,
+   "OpenAI": 2,
+   "NVIDIA": 1,
+   "arXiv 新论文": 60,
+   "GitHub 新项目": 12,
+   "GitHub Trending": 8
   },
   "llm": true,
   "translated": 0

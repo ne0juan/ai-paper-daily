@@ -1,0 +1,1274 @@
+{
+ "date": "2026-10-06",
+ "items": [
+  {
+   "id": "web-e124c286dd2b",
+   "kind": "article",
+   "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+   "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-05T21:00:21Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49970667",
+     "signal": "266 pts",
+     "metric": 266
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Opus 5.5 智能体发现两种室温磁性半导体候选材料",
+   "summary_zh": "Anthropic 的 Opus 5.5 智能体在材料科学任务中自主发现两种室温磁性半导体候选材料，展示 AI 驱动科学发现的潜力。",
+   "highlights_zh": [
+    "AI 智能体独立完成材料筛选与发现流程",
+    "室温磁性半导体是长期未解的凝聚态物理难题",
+    "标志 AI for Science 从辅助工具走向自主发现"
+   ],
+   "why_zh": "AI 自主科学发现的重要里程碑，值得关注其对科研范式的冲击。",
+   "tags": [
+    "科学AI",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.582,
+   "score_llm": 9.0,
+   "score": 0.7728,
+   "date": "2026-10-06",
+   "slot": "noon",
+   "selected_at": "2026-10-06T05:12:02+00:00",
+   "mirror_pdf": "pdf/web-e124c286dd2b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49970667"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ece62f0713c1",
+   "kind": "article",
+   "title": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy",
+   "url": "https://jack-clark.net/2026/10/05/import-ai-475-swarm-scaling-google-deepmind-watermarks-biology-and-the-ai-science-economy/",
+   "pdf_url": "",
+   "abstract": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now When should you use swarms? When you are in a hurry:…How does swarm scaling work?…Toby Ord has a nice, short post about how to think about […]",
+   "authors": [
+    "Jack Clark"
+   ],
+   "orgs": [
+    "Jack Clark"
+   ],
+   "published": "2026-10-05T12:32:30+00:00",
+   "sources": [
+    {
+     "name": "Jack Clark",
+     "authority": 0.85,
+     "url": "https://jack-clark.net/2026/10/05/import-ai-475-swarm-scaling-google-deepmind-watermarks-biology-and-the-ai-science-economy/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Anthropic 联合创始人",
+   "title_zh": "Import AI 475：群体扩展、生物水印与AI科学经济",
+   "summary_zh": "Jack Clark认为，智能体群体（swarm）扩展可能成为新的scaling law，并讨论了DeepMind为生物序列加水印、AI驱动的科学经济等议题。",
+   "highlights_zh": [
+    "群体扩展（swarm scaling）或成继推理模型后的下一个能力跃升方向",
+    "Google DeepMind为生物序列嵌入水印，防止AI生成的生物数据被滥用",
+    "AI科学经济正在形成，科研产出与验证机制面临重构"
+   ],
+   "why_zh": "Anthropic联合创始人对前沿趋势的一手判断，信息密度高",
+   "tags": [
+    "智能体",
+    "对齐与安全",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.716,
+   "date": "2026-10-06",
+   "slot": "noon",
+   "selected_at": "2026-10-06T05:12:02+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://jack-clark.net/2026/10/05/import-ai-475-swarm-scaling-google-deepmind-watermarks-biology-and-the-ai-science-economy/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b22ad9f6b573",
+   "kind": "article",
+   "title": "garrytan/gstack",
+   "url": "https://github.com/garrytan/gstack",
+   "pdf_url": "",
+   "abstract": "Star garrytan / gstack Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA\nREADME: # gstack > \"I don't think I've typed like a line of code probably since December, basically, which is an extremely large change.\" — [Andrej Karpathy](https://fortune.com/2026/03/21/andrej-karpathy-openai-cofounder-ai-agents-coding-state-of-psychosis-openclaw/), No Priors podcast, March 2026 When I heard Karpathy say this, I wanted to find out how. How does one person ship like a team of twenty? Peter Steinberger built [OpenClaw](https://github.com/openclaw/openclaw) — 247K GitHub stars — essentially solo with AI agents. The revolution is here. A single builder with the right tooling can move faster than a traditional team. I'm [Garry Tan](https://x.com/garrytan), President & CEO of [Y Combinator](https://www.ycombinator.com/). I've worked with thousands of startups — Coinbase, Instacart, Rippling — when they were one or two people in a garage. Before YC, I was one of the first eng/PM/designers at Palantir, cofounded Posterous (sold to Twitter), and built Bookface, YC's internal social network. **gstack is my answer.** I've been building products for twenty years, and right now I'm shipping more products than I ever have. In the last 60 days: 3 production services, 40+ shipped features, part-time, while running YC full-time. On logical code change — not raw LOC, which AI inflates — my 2026 run rate is **~810× my 2013 pace** (11,417 vs 14 logical lines/day). Year-to-date (through April 18), 2026 has already produced **240× the entire 2013 year**. Measured across 40 public + pri",
+   "authors": [],
+   "orgs": [
+    "garrytan"
+   ],
+   "published": "2026-10-06T05:12:02+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/garrytan/gstack",
+     "signal": "★ 今日 +286 · TypeScript",
+     "metric": 286
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "YC 总裁 Garry Tan 开源其 Claude Code 全套配置",
+   "summary_zh": "Y Combinator 总裁 Garry Tan 开源 gstack，包含 23 个 Claude Code 工具，覆盖 CEO、设计、工程管理、QA 等角色。",
+   "highlights_zh": [
+    "23 个角色化智能体工具覆盖完整研发流程",
+    "来自 YC 总裁的真实生产环境配置",
+    "反映单人+AI 智能体替代团队的新工作范式"
+   ],
+   "why_zh": "如果你在用 Claude Code 做产品开发，可直接借鉴这套角色化工具链。",
+   "tags": [
+    "智能体",
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5721,
+   "score_llm": 8.0,
+   "score": 0.7088,
+   "date": "2026-10-06",
+   "slot": "noon",
+   "selected_at": "2026-10-06T05:12:02+00:00",
+   "mirror_pdf": "pdf/web-b22ad9f6b573.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/garrytan/gstack"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-831e38535171",
+   "kind": "article",
+   "title": "Inference Is the Most Important Market in Software",
+   "url": "https://tomtunguz.com/inference-is-the-most-important-market-in-software/",
+   "pdf_url": "",
+   "abstract": "AI inference is set to surpass the database market to become the most important market in software, reaching ~$350b by 2027. This shifts software unit economics: usage dwarfs platform fees, gross margins compress below classic SaaS norms, and infrastructure becomes the dominant component of COGS.",
+   "authors": [
+    "Tomasz Tunguz"
+   ],
+   "orgs": [
+    "Tomasz Tunguz"
+   ],
+   "published": "2026-10-05T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Tomasz Tunguz",
+     "authority": 0.75,
+     "url": "https://tomtunguz.com/inference-is-the-most-important-market-in-software/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Theory Ventures 创始人，AI 投资",
+   "title_zh": "推理是软件行业最重要的市场",
+   "summary_zh": "Tomasz Tunguz认为AI推理市场将在2027年达到约3500亿美元，超越数据库成为软件行业最大市场，软件商业模式将从平台费转向按用量计费，毛利率压缩，基础设施成为COGS主体。",
+   "highlights_zh": [
+    "推理市场预计2027年达~$3500亿，超越数据库",
+    "软件单位经济学剧变：用量收入远超平台费",
+    "毛利率低于传统SaaS，基础设施主导成本结构"
+   ],
+   "why_zh": "对AI软件商业模式和投资逻辑的前瞻性判断",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-10-06",
+   "slot": "noon",
+   "selected_at": "2026-10-06T05:12:02+00:00",
+   "mirror_pdf": "pdf/web-831e38535171.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://tomtunguz.com/inference-is-the-most-important-market-in-software/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2de94d25b72d",
+   "kind": "article",
+   "title": "Why agent swarms could be the next “scaling law”",
+   "url": "https://www.understandingai.org/p/why-agent-swarms-could-be-the-next",
+   "pdf_url": "",
+   "abstract": "An OpenAI researcher called it “the most ‘feel the AGI’ moment that I had since reasoning models.”",
+   "authors": [
+    "Dan Kagan-Kans"
+   ],
+   "orgs": [
+    "Timothy B. Lee"
+   ],
+   "published": "2026-10-05T17:19:00+00:00",
+   "sources": [
+    {
+     "name": "Timothy B. Lee",
+     "authority": 0.75,
+     "url": "https://www.understandingai.org/p/why-agent-swarms-could-be-the-next",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "科技记者，《Understanding AI》作者",
+   "title_zh": "智能体群体或成下一个「缩放定律」",
+   "summary_zh": "Timothy B. Lee和Dan Kagan-Kans认为，智能体群体（agent swarms）的协同扩展可能成为继推理模型之后的下一个scaling law，一位OpenAI研究员称其为「自推理模型以来最强烈的AGI感受」。",
+   "highlights_zh": [
+    "多智能体协同扩展被视为新的能力增长范式",
+    "OpenAI研究员称其为推理模型后最「feel the AGI」的时刻",
+    "探讨swarm scaling的工作原理与适用场景"
+   ],
+   "why_zh": "理解智能体扩展为何可能成为下一个能力跃升拐点",
+   "tags": [
+    "智能体",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-10-06",
+   "slot": "noon",
+   "selected_at": "2026-10-06T05:12:02+00:00",
+   "mirror_pdf": "pdf/web-2de94d25b72d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.understandingai.org/p/why-agent-swarms-could-be-the-next"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-dc7a66cb784f",
+   "kind": "article",
+   "title": "tashfeenahmed/freellmapi",
+   "url": "https://github.com/tashfeenahmed/freellmapi",
+   "pdf_url": "",
+   "abstract": "Star tashfeenahmed / freellmapi 7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.\nREADME: # FreeLLMAPI **7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. One OpenAI-compatible endpoint.** Aggregate free tiers from dozens of providers, plus custom OpenAI-compatible chat, embedding, image, and audio endpoints, behind a single `/v1` API. Keys are stored encrypted. A router picks the best available model for each request, falls over to the next provider when one is rate-limited, and tracks per-key usage so you stay under every free-tier cap. [![CI](https://github.com/tashfeenahmed/freellmapi/actions/workflows/ci.yml/badge.svg)](https://github.com/tashfeenahmed/freellmapi/actions/workflows/ci.yml) [![GitHub stars](https://img.shields.io/github/stars/tashfeenahmed/freellmapi?style=flat&logo=github&color=yellow)](https://github.com/tashfeenahmed/freellmapi/stargazers) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing) [![Docker image](https://img.shields.io/badge/ghcr.io-freellmapi-2496ED?logo=docker&logoColor=white)](https://github.com/tashfeenahmed/freellmapi/pkgs/container/freellmapi) [![Ask DeepWiki](https://img.shields.io/badge/DeepWiki-Ask-blue)](https://deepwiki.com/tashfeenahmed/freellmapi) **[freellmapi.co](https://freellmapi.co/?utm_source=github&utm_medium=readme&utm_campaign=repository&utm_content=readme_top)** · browse the full catalog: 474 model families, 635 free endpoints **English** · [简体中文](README.zh-cn.md",
+   "authors": [],
+   "orgs": [
+    "tashfeenahmed"
+   ],
+   "published": "2026-10-06T05:12:02+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/tashfeenahmed/freellmapi",
+     "signal": "★ 今日 +321 · TypeScript",
+     "metric": 321
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "FreeLLMAPI：聚合 34 家免费 LLM 的统一接口",
+   "summary_zh": "FreeLLMAPI 将 34 家提供商的 635 个免费模型端点聚合到单一 OpenAI 兼容接口，支持智能路由与自动故障转移。",
+   "highlights_zh": [
+    "月可用 74 亿 token，覆盖 635 个免费端点",
+    "智能路由+自动故障转移+密钥加密",
+    "仅限个人实验用途"
+   ],
+   "why_zh": "如果你在做原型验证或成本敏感的实验，可以用它统一调用多家免费模型。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5769,
+   "score_llm": 7.0,
+   "score": 0.6508,
+   "date": "2026-10-06",
+   "slot": "noon",
+   "selected_at": "2026-10-06T05:12:02+00:00",
+   "mirror_pdf": "pdf/web-dc7a66cb784f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/tashfeenahmed/freellmapi"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-87190df43a2a",
+   "kind": "article",
+   "title": "消息称月之暗面完成上市前最后一轮融资：估值约 500 亿美元，计划明年一季度赴港 IPO",
+   "url": "https://www.ithome.com/1/009/971.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 6 日消息，据彭博社报道，知情人士消息，月之暗面（Moonshot AI）已经完成上市前最后一轮私募融资，估值约 500 亿美元 （IT之家注：现汇率约合 3,357.23 亿元人民币） ；该公司计划于明年第一季度在香港进行首次公开募股（IPO）。 部分知情人士称，这家国内头部人工智能企业已经开始筹备投资者摸底沟通，最早将于本月就开展先期意向会议，以此评估资本市场态度。 月之暗面是中国 AI 赛道当中最受瞩目的企业之一。今年 7 月，Kimi K3 开源大模型正式发布，一举站上全球舞台；在多项评测指标上，该模型几乎可以同 OpenAI、Anthropic 的头部模型相抗衡。其 IPO 也成为港股市场最受期待的交易项目之一。眼下 AI 驱动的新股融资活动正在香港接连刷新纪录。知情人士表示，本次 IPO 计划的募资上限为 50 亿美元。 《The Information》指出，监管机构已经针对深度求索（DeepSeek）与月之暗面启动数据安全调查，国内 AI 行业随之迎来更严格的监管。尚不清楚监管环境的变化会对公司估值以及 IPO 时间进度造成何种影响，市场对于企业治理与安全层面的担忧也有所上升。 知情人士表示，各项工作仍处在磋商阶段，IPO 时间表依然存在变数。 经过多轮融资，这家公司的估值持续走高。今年夏天上一轮融资完成时，估值为 315 亿美元。知情人士透露，公司的年度经常性收入（ARR，用来衡量未来营收规模）当前为 10 亿美元，预计到 12 月将攀升至 20 亿美元。此前彭博社曾报道，在今年 6 月，该公司的 ARR 为 3 亿美元。 此前知情人士就曾透露，这家总部位于北京的 AI 实验室已经委任美国银行担任本次 IPO 的整体协调人；保荐银行则包括中金公司、德意志银行以及高盛集团。该公司已经以保密方式向港交所递交 IPO 申请。 月之暗面于 2023 年初成立，创始人杨植麟原为清华大学教授，此前曾先后任职于 Meta Platforms 以及谷歌（Alphabet）。阿里巴巴、腾讯以及五源资本（5Y Capital）都是该公司的投资方。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-06T03:38:47+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/009/971.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "月之暗面完成Pre-IPO融资，估值500亿美元拟赴港上市",
+   "summary_zh": "月之暗面完成上市前最后一轮融资，估值约500亿美元，计划明年一季度赴港IPO，募资上限50亿美元。ARR从6月3亿增至当前10亿美元。",
+   "highlights_zh": [
+    "估值从今夏315亿美元跃升至500亿美元，ARR预计年底达20亿美元",
+    "Kimi K3开源模型多项评测接近OpenAI、Anthropic头部模型",
+    "监管机构已对DeepSeek与月之暗面启动数据安全调查，或影响IPO进度"
+   ],
+   "why_zh": "国内头部大模型公司冲刺IPO，估值与ARR增速反映资本市场对国产大模型的定价逻辑。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-06",
+   "slot": "noon",
+   "selected_at": "2026-10-06T05:12:02+00:00",
+   "mirror_pdf": "pdf/web-87190df43a2a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/009/971.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3cc8c140c267",
+   "kind": "article",
+   "title": "消息称 OpenAI 洽谈 300 亿美元融资，阿联酋基金、贝莱德入局磋商",
+   "url": "https://www.ithome.com/1/009/961.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 6 日消息，据彭博社报道，知情人士透露，OpenAI 正在与来自阿联酋的多家投资基金（总部位于阿布扎比的 MGX 也在其中）展开磋商，希望由这些基金作为基石投资方，助力这家 ChatGPT 开发商完成一轮规模 300 亿美元 （IT之家注：现汇率约合 2,014.34 亿元人民币） 的融资。 其中一位知情人士称，这些阿联酋基金将会组建投资财团参与本轮融资。另有消息表示，几家阿联酋基金合计的出资规模最高可能达到 100 亿美元 （现汇率约合 671.45 亿元人民币） 。 知情人士还称，贝莱德集团（BlackRock Inc.）也正在洽谈，计划随同该财团一同参与本轮融资。知情人士同时表示，本轮融资仍在推进过程中，各项细节仍有可能发生变动。 据彭博社此前报道，OpenAI 计划至少募资 300 亿美元 （现汇率约合 2,014.34 亿元人民币） ， 投前估值约 1.4 万亿美元 （现汇率约合 9.4 万亿元人民币） 。该公司表示现阶段重心放在人工智能安全相关工作上，因此已经将首次公开募股（IPO）计划推迟至至少明年。OpenAI 上一轮融资发生在今年 3 月，融资总额 1,220 亿美元 （现汇率约合 8,191.65 亿元人民币） ，估值为 8,520 亿美元 （现汇率约合 5.72 万亿元人民币） 。 OpenAI、Anthropic PBC 等头部 AI 企业此前就已经向资金雄厚的中东投资者寻求资金，以此满足前沿 AI 软件研发与运维所带来的巨额资本需求。 MGX 此前就已经参与过 OpenAI 以及 Anthropic 的融资轮次。彭博社消息显示，这家投资机构今年早些时候完成接近 500 亿美元 （现汇率约合 3,357.23 亿元人民币） 的募资，用于加快布局 AI 基础设施与相关技术。 知情人士透露，OpenAI 也已经和现有投资方加州大学捐赠基金展开沟通，邀约对方参与本轮融资。老股东 Thrive Capital 以及安德森‑霍洛维茨基金（Andreessen Horowitz）同样在商讨追加投资。 知情人士表示，和常规的风险融资不同，虽然目前尚未敲定领投方，但 OpenAI 已经直接向投资者给出 1.4 万亿美元 （现汇率约合 9.4 万亿元人民币） 这一投前固定估值。通常情况下，各家投资机构会提交投资条款，再与企业协商由谁来担任本轮领投方。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-06T02:29:06+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/009/961.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI洽谈300亿美元融资，阿联酋基金与贝莱德入局",
+   "summary_zh": "OpenAI正与阿联酋多家投资基金磋商300亿美元融资，阿联酋基金合计出资或达100亿美元，贝莱德也在洽谈参与。投前估值约1.4万亿美元。",
+   "highlights_zh": [
+    "OpenAI直接给出1.4万亿美元投前固定估值，不同于常规风险融资流程",
+    "阿联酋MGX此前已参与OpenAI和Anthropic融资，今年完成近500亿美元募资",
+    "OpenAI已将IPO推迟至至少明年，重心放在AI安全工作上"
+   ],
+   "why_zh": "全球最大AI公司的最新融资动态，反映中东资本在前沿AI领域的深度布局。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-06",
+   "slot": "noon",
+   "selected_at": "2026-10-06T05:12:02+00:00",
+   "mirror_pdf": "pdf/web-3cc8c140c267.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/009/961.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.06805",
+   "kind": "paper",
+   "title": "H-JEPA: End-to-End Learning of Hierarchical World Models for Visual Planning",
+   "url": "https://arxiv.org/abs/2610.06805",
+   "pdf_url": "https://arxiv.org/pdf/2610.06805",
+   "abstract": "Long-horizon planning with latent world models requires reasoning across timescales and levels of abstraction. Existing task-agnostic JEPA world models predict and plan at a single timescale or with multiple horizons in one shared latent space. We introduce H-JEPA, an end-to-end recipe for training a hierarchy of action-conditioned JEPAs in which each level predicts farther ahead in its own learned latent space. Planning proceeds top-down: the top level optimizes progress toward the goal, and each level's predictions become subgoals for the planner below it. When factors in the data evolve at separated timescales, higher levels discard fast, unpredictable detail and retain slower task-relevant state. Across four simulated navigation and manipulation environments, hierarchical planning improves over a flat JEPA; on Visual AntMaze, a three-level hierarchy raises success from 18% to 73% using less planner compute. Ablations attribute these gains to both temporal decomposition and higher-level goal representations. With inverse-dynamics supervision, the approach extends to diverse real-robot videos from DROID, where hierarchy improves offline planning fidelity at lower planner compute.",
+   "authors": [
+    "Wancong Zhang",
+    "Basile Terver",
+    "Michael Rabbat",
+    "Yann LeCun",
+    "Randall Balestriero"
+   ],
+   "orgs": [],
+   "published": "2026-10-05T17:53:34Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.06805",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "H-JEPA：端到端分层世界模型用于视觉规划",
+   "summary_zh": "LeCun 团队提出 H-JEPA，用多层 JEPA 在不同时间尺度上各自预测，高层输出作为低层子目标；Visual AntMaze 成功率从 18% 升至 73%，规划算力更省。",
+   "highlights_zh": [
+    "每层在自身潜空间预测更远未来，实现时间尺度分解",
+    "分层规划在四个导航与操作环境中均优于扁平 JEPA",
+    "结合逆动力学监督可扩展到 DROID 真实机器人视频"
+   ],
+   "why_zh": "世界模型分层规划的关键进展，直接关系具身智能路线选择。",
+   "tags": [
+    "机器人",
+    "强化学习",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-06",
+   "slot": "noon",
+   "selected_at": "2026-10-06T05:12:02+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.06805.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.06805"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.06805"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.06805"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.06805"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.06805"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.06805"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.06666",
+   "kind": "paper",
+   "title": "What Matters for Latent Reasoning with Flow Matching",
+   "url": "https://arxiv.org/abs/2610.06666",
+   "pdf_url": "https://arxiv.org/pdf/2610.06666",
+   "abstract": "Latent reasoning lets a large language model (LLM) think in a continuous space and verbalize only the answer. We argue that an effective latent thought must meet five requirements: it should be useful, helping produce the correct answer rather than merely changing it, diverse, so that resampling yields different reasoning trajectories, explainable, so that a decoded chain of thought (CoT) reflects reasoning the answer actually follows, refinable with more inference compute, and efficient, costing less than an explicit CoT at comparable accuracy. Current methods rarely meet these requirements: they learn shortcuts from the question, distill the explicit CoT into their weights, or imitate it one token at a time. We focus on flow matching in a learned latent space, the family we argue is best placed to meet them, and identify the training choices that make it work. The result is Flow-based Latent Reasoning (FLaRe), a simple recipe covering what the latent space encodes and how to shape it, where to train the flow, how to read out the answer, and a final stage of training on the model's own verified thoughts. A probe for each requirement shows that FLaRe improves on prior latent methods in all five. It also compares favorably with them on arithmetic benchmarks, while reaching 97% of the accuracy of explicit CoT at a quarter of its latency.",
+   "authors": [
+    "Yassine Ouali",
+    "Adrian Bulat",
+    "Georgios Tzimiropoulos"
+   ],
+   "orgs": [],
+   "published": "2026-10-05T16:42:40Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.06666",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "流匹配隐空间推理：FLaRe 五准则配方",
+   "summary_zh": "提出隐空间推理应满足有用、多样、可解释、可精炼、高效五准则，并给出基于流匹配的 FLaRe 训练配方，在算术基准上以四分之一延迟达到显式 CoT 97% 的准确率。",
+   "highlights_zh": [
+    "提出隐空间推理的五项评价准则，并设计对应探针逐项验证",
+    "FLaRe 覆盖隐空间编码、流训练位置、答案读出与自验证微调",
+    "算术任务上以 1/4 延迟达到显式 CoT 97% 准确率"
+   ],
+   "why_zh": "想压缩 CoT 推理成本、做隐空间思考的研究者值得细读其训练选择。",
+   "tags": [
+    "推理",
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-06",
+   "slot": "noon",
+   "selected_at": "2026-10-06T05:12:02+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.06666.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.06666"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.06666"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.06666"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.06666"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.06666"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.06666"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.06597",
+   "kind": "paper",
+   "title": "Can Agent Harnesses and Inference Engines Hear Each Other? The HEAR Protocol for Agentic LLM Serving",
+   "url": "https://arxiv.org/abs/2610.06597",
+   "pdf_url": "https://arxiv.org/pdf/2610.06597",
+   "abstract": "LLM agents increasingly execute complex workflows involving multi-turn reasoning, tool use, and parallel agents. Efficient serving requires decisions that span two layers with complementary information: the agent harness understands workflow dependencies, context lifecycles, and execution objectives, whereas the inference engine observes request queues, KV-cache state, resource pressure, and execution capabilities. Existing interfaces do not systematically connect these views, limiting workflow-aware execution. HEAR, a bidirectional Harness--Engine Pairing protocol for agentic LLM serving. HEAR standardizes how the harness communicates workflow intent and execution requirements and how the engine returns runtime state, capabilities, and outcomes. By separating protocol semantics from optimization policies, HEAR supports diverse coordination strategies without changing workflow or model semantics. We instantiate HEAR for online cache-aware runtime coordination and workload-aware execution-mode selection for agent roles. Across four conversational and research-agent benchmarks under memory-constrained, concurrent serving, HEAR achieves a $1.61\\times$ batch speedup and reduces median time-to-first-token by $2.23\\times$ on SCBench. Mooncake shows that workflow intent and live engine state provide complementary benefits across load regimes. On BrowseComp-Plus and DeepResearchBench, workload-specific configurations yield $1.23\\times$ and $2.45\\times$ end-to-end speedups, respectively, without observed task-quality degradation. These results establish HEAR as a reusable coordination substrate for efficient agentic LLM serving.",
+   "authors": [
+    "Jiaqi Zhao",
+    "Haodong Chen",
+    "Jitai Hao",
+    "Wei Zhao",
+    "Jinghao Pang",
+    "Qiang Huang",
+    "Jun Yu"
+   ],
+   "orgs": [],
+   "published": "2026-10-05T16:07:33Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.06597",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "HEAR：智能体 harness 与推理引擎的双向协议",
+   "summary_zh": "提出 HEAR 双向协议，标准化智能体 harness 向推理引擎传达工作流意图、引擎回传运行时状态与能力，在内存受限并发服务下实现 1.61 倍批处理加速、首 token 中位延迟降低 2.23 倍。",
+   "highlights_zh": [
+    "分离协议语义与优化策略，不改工作流与模型语义",
+    "实例化在线缓存感知协调与工作负载感知执行模式选择",
+    "在 SCBench、Mooncake、BrowseComp-Plus 等基准验证"
+   ],
+   "why_zh": "做智能体服务基础设施的团队可据此设计 harness 与引擎的协作接口。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-06",
+   "slot": "noon",
+   "selected_at": "2026-10-06T05:12:02+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.06597.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.06597"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.06597"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.06597"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.06597"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.06597"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.06597"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.06563",
+   "kind": "paper",
+   "title": "HERA: Harness-Environment Co-Evolution for Reliable Agentic Abstention",
+   "url": "https://arxiv.org/abs/2610.06563",
+   "pdf_url": "https://arxiv.org/pdf/2610.06563",
+   "abstract": "Large language model (LLM) agents are increasingly capable of acting in complex tool-use environments, yet they often fail to recognize when tasks are infeasible and no valid solution exists. Recent work has formalized this reliability gap as the problem of agentic abstention, and existing approaches typically optimize a model or agent harness against a fixed set of tasks, leading to limited generalization to unseen failure modes. We introduce HERA, a framework for harness-environment co-evolution for agentic abstention. HERA consists of (i) a pipeline to automatically construct verifiable pairs of feasible and infeasible tasks by applying controlled environment mutations that transform solvable tasks into cases requiring abstention, and (ii) a co-evolution procedure in which performance failures on previous tasks are used to drive harness adaptation and generate new execution environments and tasks geared towards previous weaknesses. On held-out evaluation tasks, an evolved harness from HERA improves abstention accuracy from 61.7% to 83.3% while improving feasible-task completion from 68.3% to 76.7%, achieving the highest abstention and feasible-task completion among the compared methods. The resulting best harness transfers across 19 other LLMs, improving abstention accuracy by 15.3 percentage points on average without any model-specific optimization, and enabling smaller models to match the performance of more powerful models at an estimated 85% lower cost.",
+   "authors": [
+    "Han Luo",
+    "Bingbing Wen",
+    "Guang Yang",
+    "Zora Zhiruo Wang",
+    "Pan Lu",
+    "Lucy Lu Wang"
+   ],
+   "orgs": [],
+   "published": "2026-10-05T15:49:12Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.06563",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "HERA：智能体「拒答」能力的协同进化框架",
+   "summary_zh": "针对智能体无法识别不可行任务的问题，HERA 通过自动构造可行/不可行任务对，并让智能体脚手架与环境协同进化，将拒答准确率从 61.7% 提升至 83.3%，且可跨 19 个模型迁移。",
+   "highlights_zh": [
+    "自动生成可验证的可行/不可行任务对，通过受控环境变异制造需拒答的场景",
+    "用历史失败驱动脚手架适配并生成新环境，形成协同进化循环",
+    "进化后的脚手架无需模型特定优化即可跨 19 个 LLM 迁移，平均提升拒答准确率 15.3 个百分点"
+   ],
+   "why_zh": "智能体可靠性是落地关键，拒答能力与脚手架设计思路值得关注。",
+   "tags": [
+    "智能体",
+    "对齐与安全",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-06",
+   "slot": "noon",
+   "selected_at": "2026-10-06T05:12:02+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.06563.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.06563"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.06563"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.06563"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.06563"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.06563"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.06563"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-628a3a6811f5",
+   "kind": "article",
+   "title": "ythx-101/live-panel-skill",
+   "url": "https://github.com/ythx-101/live-panel-skill",
+   "pdf_url": "",
+   "abstract": "Config-driven animated architecture diagrams: turn one JSON file into a terminal-style, always-running diagram or a light-theme infographic that moves. Outputs H.264 mp4 or a live web page; also a Claude Code style skill (SKILL.md).",
+   "authors": [],
+   "orgs": [
+    "ythx-101"
+   ],
+   "published": "2026-10-06T05:12:02+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/ythx-101/live-panel-skill",
+     "signal": "★ 597（新项目） · HTML",
+     "metric": 597
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "live-panel-skill：JSON 驱动的动态架构图",
+   "summary_zh": "用一份 JSON 配置生成终端风格或浅色主题的动态架构图，输出 mp4 或实时网页，同时提供 Claude Code 风格的 SKILL.md。",
+   "highlights_zh": [
+    "一份 JSON 即可生成动态架构图",
+    "支持 H.264 mp4 与实时网页两种输出",
+    "附带 Claude Code 风格 skill 文件"
+   ],
+   "why_zh": "如果你需要快速产出会动的架构示意图，可以用它替代手工绘图。",
+   "tags": [
+    "产品与行业",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5652,
+   "score_llm": 6.0,
+   "score": 0.5861,
+   "date": "2026-10-06",
+   "slot": "noon",
+   "selected_at": "2026-10-06T05:12:02+00:00",
+   "mirror_pdf": "pdf/web-628a3a6811f5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/ythx-101/live-panel-skill"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9d263a54dcb3",
+   "kind": "article",
+   "title": "卖铲人不灵了：AI资本开支的4%回报比，正在重定价整个算力链",
+   "url": "https://www.tmtpost.com/8159557.html",
+   "pdf_url": "",
+   "abstract": "四大科技巨头今年砸下7300亿美元建AI，直接收入却只有250亿，当股价与芯片股彻底脱钩、1.65万亿表外债务浮出水面，市场终于开始追问：花掉的钱，什么时候赚得回来？",
+   "authors": [
+    "硅谷Tech news"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-06T01:31:00+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8159557.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "卖铲人不灵了：AI资本开支的4%回报比",
+   "summary_zh": "四大科技巨头今年砸7300亿美元建AI，直接收入仅250亿，回报比约4%，市场开始重定价算力链与芯片股。",
+   "highlights_zh": [
+    "巨头AI资本开支7300亿美元",
+    "直接收入仅250亿，回报比4%",
+    "1.65万亿表外债务引发担忧"
+   ],
+   "why_zh": "理解AI资本开支与回报错配，把握算力链重定价逻辑",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-06",
+   "slot": "noon",
+   "selected_at": "2026-10-06T05:12:02+00:00",
+   "mirror_pdf": "pdf/web-9d263a54dcb3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8159557.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-555ec40107d0",
+   "kind": "article",
+   "title": "消息称希捷与东芝竞购 TDK 硬盘磁头业务，争夺 AI 存储供应链关键环节",
+   "url": "https://www.ithome.com/1/009/975.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 6 日消息，据彭博社报道，希捷科技控股以及东芝公司正在争夺 TDK 的硬盘磁头业务。两家竞争对手都希望借此跟上 AI 数据中心存储设备的旺盛需求。 知情人士称，东芝于今年春季率先同 TDK 开启收购谈判；随后希捷在夏季提出了更高的报价。由于相关磋商仍处于保密阶段，消息人士要求匿名，并表示这笔收购交易的价值最高可达数十亿美元。 如果有一方成功竞得该项业务，就将掌控硬盘供应链当中的关键一环。目前机械硬盘市场由三家厂商把持，而独立磁头供应商的存在，对维持行业竞争格局至关重要。TDK 是全球唯一一家独立生产硬盘磁记录磁头制造商；磁头是硬盘内部实际完成数据读写的零部件。TDK 同时向本次的两家竞购方，还有西部数据供货。 希捷和西部数据虽然可以自行生产一部分磁头，但每当市场需求激增时，依旧需要依靠 TDK 的供货。而东芝则完全依赖这家日本企业供应该微小核心部件；东芝计划大规模量产热辅助磁记录（HAMR）大容量硬盘，以此缩小与头部竞品之间的差距，该计划的实现离不开 TDK 的相关技术支持。 倘若这笔收购落地，将会搅动 AI 数据中心领域当中这块愈发重要的存储细分市场。随着越来越多通用算力任务交由 AI 承接，市场需要大批量、可以长期存放数据的低成本存储介质，机械硬盘的销量正迎来一轮爆发。在这场磁头业务的竞标大战当中，最终胜出的企业将获得更强的定价话语权，同时还有能力限制竞争对手扩大硬盘产能。 知情人士表示，两家竞购方都十分担忧，如果本次收购失利，自己将会失去这一家独立磁头供货来源。消息称，上周三家企业的高管已经在东京会面，就如何保障这一关键零部件的持续供应展开讨论，其中也探讨了设立合资公司的可能性。相关谈判目前仍然处在初步阶段，交易依然存在破裂的可能性。 无论最终哪一方完成收购，该交易都将要接受监管机构的反垄断审查；如今监管部门愈发将数据中心存储能力视作经济安全的重要组成部分。根据集邦咨询（TrendForce）的数据，如果以存储容量口径统计硬盘市场份额，希捷与西部数据各自占据大约 45%，东芝约占 10%。 AI 相关硬件的整体需求暴涨，让 TDK 从中受益。但这家总部位于东京的企业正在考虑出售硬盘磁头业务；这块业务本身盈利水平长期偏低，同时还需要持续投入研发资金，才能跟上磁记录技术迭代的脚步。 知情人士称，TDK 正在调配更多内部资源，巩固自身在电池、无源元器件以及传感器业务上的领先地位；该公司看好智能眼镜这类可穿戴设备所带来的 AI 相关需求增长。倘若现在出售硬盘磁头业务，TDK 将可以回笼充裕现金，进而加快对上述新兴业务方向的投资布局。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-06T04:23:39+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/009/975.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "希捷与东芝竞购TDK磁头业务，争夺AI存储供应链",
+   "summary_zh": "希捷与东芝竞购TDK硬盘磁头业务，交易或达数十亿美元。TDK是全球唯一独立磁头供应商，收购将重塑AI数据中心存储供应链格局。",
+   "highlights_zh": [
+    "TDK是全球唯一独立生产硬盘磁头的厂商，同时向希捷、东芝、西数供货",
+    "东芝完全依赖TDK供应磁头，其HAMR大容量硬盘量产计划离不开TDK技术",
+    "交易需通过反垄断审查，监管机构日益将数据中心存储视为经济安全要素"
+   ],
+   "why_zh": "AI数据中心存储需求爆发下，硬盘供应链关键环节的整合将影响行业定价权与产能格局。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-06",
+   "slot": "noon",
+   "selected_at": "2026-10-06T05:12:02+00:00",
+   "mirror_pdf": "pdf/web-555ec40107d0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/009/975.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-66a2cf462db2",
+   "kind": "article",
+   "title": "消息称快手旗下可灵 AI 已选定投行筹备赴港 IPO，拟募资至少 10 亿美元",
+   "url": "https://www.ithome.com/1/009/964.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 6 日消息，据彭博社报道，知情人士透露，快手科技旗下的可灵 AI（Kling AI）已经选定承销银行，筹备赴香港开展首次公开募股，此次 IPO 募资规模至少可达 10 亿美元 （IT之家注：现汇率约合 67.14 亿元人民币） 。 知情人士称，这家人工智能视频服务提供商目前正与中金公司、高盛集团以及瑞银集团合作推进潜在的股票发行事宜。可灵 AI 的目标是最早于明年完成上市。 相关人士补充称，目前相关商讨仍在进行当中，融资规模、上市时间等细节仍有可能发生变动。 可灵 AI 成立于 2024 年。作为国内 AI 生成式视频赛道的一员，正积极寻求商业化；在 OpenAI 终止 Sora 项目之后，可灵 AI 也希望借此填补市场空白。今年 7 月，可灵 AI 完成一轮 28 亿美元 （现汇率约合 188.01 亿元人民币） 融资，投资方包括阿里巴巴、腾讯以及百度等科技巨头；该轮融资完成之后，可灵 AI 的投前估值约为 150 亿美元 （现汇率约合 1,007.17 亿元人民币） 。 可灵 AI 当前的竞争对手包括字节跳动旗下的 Seedance，还有生数科技、PixVerse 这两家初创企业，后两家公司同样都计划在香港 IPO。 尽管香港本地股市行情走弱，但 AI 相关交易正在带动港股 IPO 市场回暖，推动第三季度的新股募资总额创下新高。快手自身在港上市的股价也未能幸免，今年以来市值已经缩水过半。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-06T02:41:41+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/009/964.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "可灵AI选定投行筹备赴港IPO，拟募资至少10亿美元",
+   "summary_zh": "快手旗下可灵AI选定中金、高盛、瑞银筹备赴港IPO，拟募资至少10亿美元，目标最早明年上市。7月完成28亿美元融资，投前估值约150亿美元。",
+   "highlights_zh": [
+    "可灵AI成立于2024年，投资方包括阿里、腾讯、百度",
+    "竞争对手包括字节Seedance、生数科技、PixVerse，后两家也计划赴港IPO",
+    "OpenAI终止Sora项目后，可灵AI寻求填补AI视频生成市场空白"
+   ],
+   "why_zh": "AI视频生成赛道商业化加速，多家公司竞相IPO，反映资本市场对该赛道的关注。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-06",
+   "slot": "noon",
+   "selected_at": "2026-10-06T05:12:02+00:00",
+   "mirror_pdf": "pdf/web-66a2cf462db2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/009/964.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2ae4b33eea97",
+   "kind": "article",
+   "title": "OpenAI 宣布「28 天计划」，持续改进 Codex、Work；TikTok 上线一系列 AI 电商功能；蓝色起源公布月球「动力塔计划」",
+   "url": "http://www.geekpark.net/news/372086",
+   "pdf_url": "",
+   "abstract": "2026 诺贝尔奖生理学或医学奖揭晓：三学者凭借「光控离子通道和光遗传学」领域发现获表彰 10 月 5 日消息，诺贝尔奖基金会宣布将 2026 年诺贝尔生理学或医学奖授予以下三人，以表彰他们在「光控离子通道和光遗传学」领域的发现：美国霍华德 · 休斯医学研究所及斯坦福大学的 Karl Deisseroth、德国柏林洪堡大学的 Peter Hegemann、德国维尔茨堡大学的 Georg Nagel。 诺贝尔奖评选机构表示，三位科学家的研究推动了光遗传学（Optogenetics）的发展。这项技术能够利用光信号精确控制神经细胞活动，使研究人员得以观察活体大脑中的神经细胞如何影响记忆、情绪和行为，并为神经科学研究开启了新的方向。 这项研究最初源于对单细胞藻类的探索。Peter Hegemann 一直对莱茵衣藻（Chlamydomonas）如何向光源游动感到好奇。21 世纪初，他与 Georg Nagel 发现了一种具有特殊功能的蛋白质「通道视紫红质」（Channelrhodopsin）。这种蛋白质位于藻类细胞表面，当受到蓝光照射时，蛋白质会打开离子通道，使带电离子进入细胞，从而产生电信号。 OpenAI 宣布「28 天计划」：Codex、Work 日进一步或「重置」 10 月 5 日消息，OpenAI 核心产品与平台负责人 Thibault Sottiaux 在 X 上发文，透露团队将在未来 28 天持续推进 Codex 和 ChatGPT Work 相关改进。 他表示，OpenAI 接下来每天都会发布一项「对大多数 Codex / Work 用户而言有明显改善且具备实际意义」的功能更新，否则就提供一次「重置」。 根据其发布时间计算，这一周期预计至少从 10 月 5 日持续至 11 月 2 日。不过，Sottiaux 并未说明会如何进行重置，也没有确认其「重置」将覆盖哪些用户或额度。IT 之家后续将保持关注。 前一天，Sottiaux 还表示团队已经「锁定方向」，当前正在推进的工作主要集中于简化产品、提高使用效率以支持更多使用量、推出突破性功能以及开发新模型。 他同时提到，虽然有时需要提前进行技术投入，但用户反馈已经明确表明，希望相关产品变得更加简单，团队正在对此进行调整。（来源：IT 之家） OpenAI 将在 ChatGPT 生成图片时测试视觉广告 不会影响生成结果 OpenAI 宣布，将在 ChatGPT 中测试一种新的视觉广告形式。用户生成图片时，界面可能出现展示商品灵感、产品使用方式或服务体验的广告。OpenAI 称，广告会明确标注，并与正在生成的图片分开，不会直接嵌入或改变用户创作的图像；公司也重申，广告不会影响 ChatGPT 给出的回答。 这项测试预计于 10 月下旬在美国启动，初期只面向一批广告商。OpenAI 没有在公告中说明具体哪些用户或订阅层级会看到视觉广告。此次推出的是 ChatGPT 现有广告业务的新广告格式，并非广告首次进入 ChatGPT。OpenAI 表示，ChatGPT 目前每周触达 12 亿人，广告业务将帮助其覆盖仅靠订阅服务难以触及的更大用户群体。 除视觉广告外，OpenAI 还将扩展广告效果衡量工具及合作伙伴网络，让广告商通过 Hightouch、Tealium 和 LiveRamp 等服务接入转化数据，并利用 AppsFlyer、Adjust、Branch 等伙伴开展网站或应用归因。公司也与 DoubleVerify 和 Integral Ad Science 合作评估广告展示环境是否符合品牌安全要求。Op",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-06T01:16:53+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372086",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI推28天Codex更新计划，ChatGPT测试视觉广告",
+   "summary_zh": "OpenAI宣布未来28天每日为Codex和ChatGPT Work发布功能更新，并将在ChatGPT图片生成界面测试视觉广告，10月下旬美国启动。",
+   "highlights_zh": [
+    "Codex/Work每日更新或重置，持续28天至11月初",
+    "ChatGPT周触达12亿人，广告业务扩展至视觉形式",
+    "广告与生成图片分离，不影响回答结果"
+   ],
+   "why_zh": "了解OpenAI产品节奏与商业化路径的关键信号",
+   "tags": [
+    "产品与行业",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.528,
+   "date": "2026-10-06",
+   "slot": "noon",
+   "selected_at": "2026-10-06T05:12:02+00:00",
+   "mirror_pdf": "pdf/web-2ae4b33eea97.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372086"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ab380e131c83",
+   "kind": "article",
+   "title": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
+   "url": "https://www.infoq.cn/article/u70P77XPmsXmRBciu6fL?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "QCon全球软件开发大会"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-06T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/u70P77XPmsXmRBciu6fL?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI 如何真正进入生产运维闭环",
+   "summary_zh": "QCon上海分享指出，AI+SRE不等于AISRE，AI要真正落地生产运维，需嵌入告警、根因分析、修复的完整闭环，而非仅做辅助问答。",
+   "highlights_zh": [
+    "AI与SRE结合不能停留在聊天助手层面",
+    "落地关键在于嵌入运维闭环流程",
+    "QCon实战经验分享"
+   ],
+   "why_zh": "做SRE或AIOps的从业者可了解AI落地运维的真实路径与坑",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-06",
+   "slot": "noon",
+   "selected_at": "2026-10-06T05:12:02+00:00",
+   "mirror_pdf": "pdf/web-ab380e131c83.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/u70P77XPmsXmRBciu6fL?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-39869c5e1cf4",
+   "kind": "article",
+   "title": "世界模型赛道：谁在收编，谁在突围？",
+   "url": "https://www.tmtpost.com/8159876.html",
+   "pdf_url": "",
+   "abstract": "芯片巨头们开抢模型",
+   "authors": [
+    "智械岛"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-06T04:31:56+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8159876.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "世界模型赛道：谁在收编，谁在突围",
+   "summary_zh": "钛媒体梳理世界模型赛道格局，芯片巨头加速收编相关团队与模型，创业公司面临被整合或突围的抉择。",
+   "highlights_zh": [
+    "芯片巨头争抢世界模型能力",
+    "赛道整合与突围并存",
+    "世界模型成具身智能关键"
+   ],
+   "why_zh": "关注具身智能与世界模型方向的从业者可把握赛道格局变化",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-06",
+   "slot": "noon",
+   "selected_at": "2026-10-06T05:12:02+00:00",
+   "mirror_pdf": "pdf/web-39869c5e1cf4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8159876.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9ed34bc9c284",
+   "kind": "article",
+   "title": "想改造工厂的机器人，先被工厂改造了",
+   "url": "https://www.tmtpost.com/8159783.html",
+   "pdf_url": "",
+   "abstract": "Figure 02跳进芬兰熔炉，其在宝马工厂产线留下的故障记录却进入了下一代设计。",
+   "authors": [
+    "具身志"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-06T03:56:44+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8159783.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "想改造工厂的机器人，先被工厂改造了",
+   "summary_zh": "Figure 02在宝马工厂产线的故障记录被反馈进下一代设计，说明机器人落地工厂需先适应真实产线约束。",
+   "highlights_zh": [
+    "Figure 02进入宝马工厂实测",
+    "产线故障数据反哺下一代设计",
+    "具身智能落地需适配真实场景"
+   ],
+   "why_zh": "关注人形机器人工业落地的读者可了解真实产线挑战",
+   "tags": [
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-06",
+   "slot": "noon",
+   "selected_at": "2026-10-06T05:12:02+00:00",
+   "mirror_pdf": "pdf/web-9ed34bc9c284.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8159783.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9eceb2cd3ac5",
+   "kind": "article",
+   "title": "Manus重新独立，Agent之战换了打法",
+   "url": "https://www.tmtpost.com/8159743.html",
+   "pdf_url": "",
+   "abstract": "如何重新估值？",
+   "authors": [
+    "市值榜"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-06T03:06:40+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8159743.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Manus重新独立，Agent之战换了打法",
+   "summary_zh": "Manus重新独立运营，钛媒体分析Agent赛道竞争逻辑转变，从功能比拼转向估值与商业模式重构。",
+   "highlights_zh": [
+    "Manus重新独立",
+    "Agent赛道打法转变",
+    "估值逻辑面临重构"
+   ],
+   "why_zh": "关注Agent创业与商业化的从业者可了解赛道动向",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-06",
+   "slot": "noon",
+   "selected_at": "2026-10-06T05:12:02+00:00",
+   "mirror_pdf": "pdf/web-9eceb2cd3ac5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8159743.html"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "智能体群体协同扩展被押注为下一个scaling law，竞争焦点从单模型转向多智能体编排",
+   "why": "多位研究者称其为自推理模型以来最强AGI信号，OpenAI内部亦有同感",
+   "refs": [
+    "web-ece62f0713c1",
+    "web-2de94d25b72d"
+   ]
+  },
+  {
+   "trend": "推理取代平台成为软件最大市场，商业模式被迫转向按用量计费",
+   "why": "2027年推理市场或达3500亿美元，毛利率压缩、基础设施成为COGS主体",
+   "refs": [
+    "web-831e38535171"
+   ]
+  },
+  {
+   "trend": "AI资本开支与收入严重失衡，算力链估值面临重定价",
+   "why": "四大巨头年投7300亿美元仅换回250亿直接收入，回报比约4%",
+   "refs": [
+    "web-9d263a54dcb3"
+   ]
+  },
+  {
+   "trend": "AI科学发现从演示走向产出，智能体开始自主提出可验证的新材料候选",
+   "why": "Opus 5.5智能体独立发现两种室温磁性半导体候选材料",
+   "refs": [
+    "web-e124c286dd2b"
+   ]
+  },
+  {
+   "trend": "智能体评测重心从能力上限转向可靠性边界，拒答与运行时协议成新指标",
+   "why": "HERA将拒答准确率提至83.3%，HEAR标准化harness与推理引擎交互",
+   "refs": [
+    "arxiv-2610.06563",
+    "arxiv-2610.06597"
+   ]
+  }
+ ]
+}
