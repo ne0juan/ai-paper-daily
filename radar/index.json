@@ -1,11 +1,12 @@
 {
- "updated": "2026-10-06T05:12:02+00:00",
+ "updated": "2026-10-06T11:55:19+00:00",
  "days": [
   {
    "date": "2026-10-06",
-   "count": 21,
+   "count": 42,
    "slots": {
-    "noon": 21
+    "noon": 21,
+    "evening": 21
    }
   },
   {
@@ -118,43 +119,44 @@
    }
   }
  ],
- "total": 675,
+ "total": 696,
  "last_run": {
-  "at": "2026-10-06T05:12:02+00:00",
-  "slot": "noon",
-  "candidates": 176,
-  "new": 111,
-  "stale": 45,
-  "judged": 98,
+  "at": "2026-10-06T11:55:19+00:00",
+  "slot": "evening",
+  "candidates": 172,
+  "new": 93,
+  "stale": 42,
+  "judged": 93,
   "selected": 21,
   "mirrored": 20,
   "by_category": {
-   "资讯": 11,
-   "观点": 3,
+   "技术": 4,
    "项目": 3,
-   "技术": 4
+   "资讯": 11,
+   "观点": 3
   },
   "by_source": {
-   "HF Daily Papers": 38,
-   "Hacker News": 4,
+   "HF Daily Papers": 45,
+   "arXiv 新论文": 60,
+   "Hacker News": 3,
    "量子位": 5,
-   "极客公园": 6,
-   "IT之家": 20,
-   "爱范儿": 1,
+   "极客公园": 3,
+   "IT之家": 14,
    "钛媒体": 8,
-   "InfoQ 中文": 3,
+   "InfoQ 中文": 2,
+   "Latent Space": 1,
    "Jack Clark": 1,
    "Stratechery": 1,
    "SemiAnalysis": 1,
    "Azeem Azhar": 1,
    "Tomasz Tunguz": 1,
    "Timothy B. Lee": 2,
+   "Hugging Face Blog": 1,
    "Google Research": 1,
    "OpenAI": 2,
    "NVIDIA": 1,
-   "arXiv 新论文": 60,
-   "GitHub 新项目": 12,
-   "GitHub Trending": 8
+   "GitHub Trending": 13,
+   "GitHub 新项目": 7
   },
   "llm": true,
   "translated": 0
