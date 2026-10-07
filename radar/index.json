@@ -1,12 +1,13 @@
 {
- "updated": "2026-10-07T04:39:21+00:00",
+ "updated": "2026-10-07T11:40:24+00:00",
  "days": [
   {
    "date": "2026-10-07",
-   "count": 34,
+   "count": 56,
    "slots": {
     "morning": 17,
-    "noon": 17
+    "noon": 17,
+    "evening": 22
    }
   },
   {
@@ -127,31 +128,37 @@
    }
   }
  ],
- "total": 730,
+ "total": 752,
  "last_run": {
-  "at": "2026-10-07T04:39:21+00:00",
-  "slot": "noon",
-  "candidates": 101,
-  "new": 35,
-  "stale": 28,
-  "judged": 35,
-  "selected": 17,
-  "mirrored": 15,
+  "at": "2026-10-07T11:40:24+00:00",
+  "slot": "evening",
+  "candidates": 160,
+  "new": 92,
+  "stale": 26,
+  "judged": 89,
+  "selected": 22,
+  "mirrored": 20,
   "by_category": {
-   "资讯": 14,
-   "项目": 3
+   "技术": 4,
+   "观点": 2,
+   "项目": 3,
+   "论文": 1,
+   "资讯": 12
   },
   "by_source": {
-   "HF Daily Papers": 18,
-   "Hacker News": 7,
-   "OpenAI": 6,
+   "HF Daily Papers": 25,
+   "arXiv 新论文": 60,
+   "Hacker News": 8,
+   "OpenAI": 5,
    "量子位": 6,
-   "极客公园": 3,
-   "IT之家": 13,
-   "钛媒体": 9,
-   "InfoQ 中文": 2,
+   "极客公园": 2,
+   "IT之家": 8,
+   "爱范儿": 2,
+   "雷峰网": 1,
+   "钛媒体": 7,
+   "InfoQ 中文": 1,
    "Nathan Lambert": 1,
-   "Latent Space": 1,
+   "Latent Space": 2,
    "Jack Clark": 1,
    "Stratechery": 1,
    "SemiAnalysis": 1,
@@ -164,12 +171,11 @@
    "METR": 1,
    "Google DeepMind": 1,
    "NVIDIA": 2,
-   "Anthropic": 1,
-   "GitHub Trending": 12,
-   "GitHub 新项目": 8
+   "GitHub Trending": 10,
+   "GitHub 新项目": 10
   },
   "llm": true,
-  "translated": 0
+  "translated": 2
  },
  "slots": {
   "morning": "晨间",
