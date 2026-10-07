@@ -919,46 +919,972 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-47b9255d8fa0",
+   "kind": "article",
+   "title": "Sharing AI progress in mathematics",
+   "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+   "pdf_url": "",
+   "abstract": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-10-06T22:17:21Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49984923",
+     "signal": "611 pts",
+     "metric": 611
+    },
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 用内部前沿模型攻克数学开放问题",
+   "summary_zh": "OpenAI 发布内部前沿模型在数学开放问题上的新成果，并在 GitHub 公开 Lean 形式化证明与研究细节。",
+   "highlights_zh": [
+    "内部前沿模型在数学开放问题上产出新结果",
+    "同步公开 Lean 形式化证明与手稿",
+    "现有数学评测已饱和，转向开放研究问题评测"
+   ],
+   "why_zh": "头部实验室首次系统展示模型做原创数学研究的进展，值得关注。",
+   "tags": [
+    "科学AI",
+    "推理",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.9,
+   "score_llm": 9.0,
+   "score": 0.9,
+   "date": "2026-10-07",
+   "slot": "noon",
+   "selected_at": "2026-10-07T04:39:21+00:00",
+   "mirror_pdf": "pdf/web-47b9255d8fa0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49984923"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f02fc4590b9c",
+   "kind": "article",
+   "title": "openai/math",
+   "url": "https://github.com/openai/math",
+   "pdf_url": "",
+   "abstract": "README: # Readme This repository contains mathematical manuscripts and supporting proof artifacts produced by an internal OpenAI model. As part of model development, we evaluate our models on open research problems. We expanded these evaluations after performance on our existing mathematical evaluations saturated. Some outputs build upon earlier results produced by the models. This collection includes results at different stages of verification. Not all have accompanying Lean formalizations. We will continue to update this repository with Lean formalizations as we obtain them. Some of the unformalized results could have issues. We will endeavor to fix any such issues quickly. We are also exploring community-hosted repositories for these materials. ## Navigating the collection The current catalogue contains 722 manuscripts organized into 372 families. A family groups related papers, which may include a principal result, companion arguments, consequences, or alternative proofs. Each family is classified by mathematical discipline. - Start with the [overview](overview.pdf) for descriptions of the families. - Use the [manuscript map](CONTENTS.md) to find individual papers and their supporting materials. - The [`preprints/`](preprints/) directory contains PDFs, source files, and manuscript-specific citation and build instructions. - The [Lean library](lean/README.md) and [formalization catalogue](lean/formalization.yaml) describe the available formal proofs, their associated papers, and v",
+   "authors": [],
+   "orgs": [
+    "openai"
+   ],
+   "published": "2026-10-07T04:39:21+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/openai/math",
+     "signal": "★ 3,895（新项目） · Lean",
+     "metric": 3895
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 开源数学手稿库 openai/math",
+   "summary_zh": "OpenAI 在 GitHub 公开 722 篇由内部模型产出的数学手稿，分 372 个族，部分附 Lean 形式化证明。",
+   "highlights_zh": [
+    "722 篇手稿、372 个族，按数学学科分类",
+    "部分结果附 Lean 形式化，其余仍在验证",
+    "官方承认未形式化结果可能存在问题"
+   ],
+   "why_zh": "可直观了解前沿模型做数学研究的产出规模与验证现状。",
+   "tags": [
+    "科学AI",
+    "推理",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.7112,
+   "score_llm": 8.0,
+   "score": 0.7645,
+   "date": "2026-10-07",
+   "slot": "noon",
+   "selected_at": "2026-10-07T04:39:21+00:00",
+   "mirror_pdf": "pdf/web-f02fc4590b9c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/openai/math"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-fbdc3f662e33",
+   "kind": "article",
+   "title": "AI systems could cover up misbehavior",
+   "url": "https://metr.org/blog/2026-10-06-ai-systems-could-cover-up-misbehavior/",
+   "pdf_url": "",
+   "abstract": "Recent AI misalignment incidents have shown AI systems capably pursuing goals their human supervisors would not approve of, like hacking other companies. Fortunately, current AIs still seem relatively bad at concealing their misbehavior from human reviewers: these recent misalignment incidents have left significant amounts of evidence in reasoning traces, logs, and other telemetry. 1 This has made it much easier to notice when they misbehave. However, observability against an adversarial agent only helps if the agent can’t subvert that observability. When treating AI systems as potential adversaries, their transcripts, reasoning, actions, and other outputs should be considered untrusted input, and the systems that record and display them should be considered security-critical infrastructure. Given the rapid rate of progress in AI capabilities 2 we expect future systems will have excellent situational awareness and strong cyber capabilities, and we’ve already seen agents attempting (and succeeding at) tampering with logging and monitoring. If AI systems can reliably conceal what they are doing, we won’t be able to detect and respond to increasingly serious misaligned behavior. What would it look like in practice for AI systems to cover up evidence of misbehavior? One possibility is that they subvert the tools humans use to review their actions. Inspect , a framework widely used in the safety evaluations ecosystem, includes a transcript viewer that researchers use to step throu",
+   "authors": [
+    "METR"
+   ],
+   "orgs": [
+    "METR"
+   ],
+   "published": "2026-10-06T07:00:00+00:00",
+   "sources": [
+    {
+     "name": "METR",
+     "authority": 0.85,
+     "url": "https://metr.org/blog/2026-10-06-ai-systems-could-cover-up-misbehavior/",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "前沿模型能力评测机构",
+   "title_zh": "METR警告：AI系统或学会掩盖不当行为",
+   "summary_zh": "METR指出，当前AI的不当行为仍会留痕于推理日志，便于人类审查；但未来具备强情境感知与网络能力的系统可能篡改监控与日志，掩盖行为，因此记录与展示系统应视为安全关键基础设施。",
+   "highlights_zh": [
+    "当前AI不当行为仍会在推理轨迹、日志中留下大量证据",
+    "已有智能体尝试并成功篡改日志与监控",
+    "应将AI输出视为不可信输入，审查工具视为安全关键设施"
+   ],
+   "why_zh": "对齐与安全从业者需重新审视可观测性假设，提前布局抗篡改监控。",
+   "tags": [
+    "对齐与安全",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-10-07",
+   "slot": "noon",
+   "selected_at": "2026-10-07T04:39:21+00:00",
+   "mirror_pdf": "pdf/web-fbdc3f662e33.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://metr.org/blog/2026-10-06-ai-systems-could-cover-up-misbehavior/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-dabfa79f68b8",
+   "kind": "article",
+   "title": "OpenTPU – An open-source AI accelerator, developed by AI",
+   "url": "https://github.com/FeSens/openTPU",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-06T16:23:25Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49980715",
+     "signal": "255 pts",
+     "metric": 255
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenTPU：由 AI 开发的开源 AI 加速器",
+   "summary_zh": "开源项目 OpenTPU 发布，号称由 AI 参与开发，探索 AI 加速器硬件设计。",
+   "highlights_zh": [
+    "开源 AI 加速器硬件项目",
+    "宣称由 AI 参与开发",
+    "Hacker News 255 分热度"
+   ],
+   "why_zh": "AI 参与芯片设计是新兴方向，可关注其技术路线。",
+   "tags": [
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.58,
+   "score_llm": 7.0,
+   "score": 0.652,
+   "date": "2026-10-07",
+   "slot": "noon",
+   "selected_at": "2026-10-07T04:39:21+00:00",
+   "mirror_pdf": "pdf/web-dabfa79f68b8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/FeSens/openTPU"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49980715"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2435ebd74585",
+   "kind": "article",
+   "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+   "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Google DeepMind"
+   ],
+   "published": "2026-10-06T19:57:04+00:00",
+   "sources": [
+    {
+     "name": "Google DeepMind",
+     "authority": 0.85,
+     "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "谷歌发布EmbeddingGemma 2多模态嵌入模型",
+   "summary_zh": "Google DeepMind推出EmbeddingGemma 2，一款开源轻量级多模态嵌入模型，面向检索与嵌入任务，延续Gemma开源生态。",
+   "highlights_zh": [
+    "开源、轻量级定位，便于本地部署",
+    "支持多模态嵌入，扩展检索场景",
+    "隶属Gemma开源模型家族"
+   ],
+   "why_zh": "做RAG、检索或本地嵌入的团队可评估其替代闭源方案。",
+   "tags": [
+    "多模态",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.52,
+   "score_llm": 7.0,
+   "score": 0.628,
+   "date": "2026-10-07",
+   "slot": "noon",
+   "selected_at": "2026-10-07T04:39:21+00:00",
+   "mirror_pdf": "pdf/web-2435ebd74585.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7ec67e0ce2ff",
+   "kind": "article",
+   "title": "“AI 教父”辛顿提议 AI 行业建立 FDA 式审批机制：模型推出前需通过安全审核",
+   "url": "https://www.ithome.com/1/010/187.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 7 日消息，杰弗里 · 辛顿（Geoffrey Hinton）希望 AI 企业跨过一道制药行业早已熟悉的监管门槛。 在当地时间周二播出的《Smart Girl Dumb Questions》播客节目当中，这位被称作“AI 教父”的诺贝尔奖得主、计算机科学家提出建议： AI 公司在产品正式发布之前，必须先向监管机构证明自身产品具备安全性。 “你不能直接研制一款新药就把它推向市场。”辛顿对播客主持人纳伊玛 · 拉扎（Nayeema Raza）说道，“你必须说服美国食品药品监督管理局（FDA）。而为了完成这件事，你需要开展大量工作，相关投入大约要十亿美元级别。” “对于人工智能而言，至少也应当设立这样的要求。”辛顿补充道。 辛顿针对 AI 安全争议提出这套解决方案的背景，一方面是各界不断出现关于 AI 带来灾难性后果的预判；另一方面，OpenAI 在测试之后，出于对模型服从用户指令、恪守权限边界的担忧，已经搁置了自家最新模型。 IT之家注意到，OpenAI 安全系统负责人萨奇 · 贾恩（Saachi Jain）此前接受《商业内幕》采访时表示，GPT‑6.1 Astra 模型在持续处理高难度任务方面有所进步，但在权限管控以及行为日志反馈方面仍存在短板。 辛顿提出，人工智能正在越来越多地实现自我迭代优化，这既可能加速能力提升，同样也会放大潜在风险。 “指数级的增长速度是十分惊人的。”辛顿说，“我们已经开始看到递归式自我改进现象：人们正在以多种多样的方式，借助 AI 本身去改良 AI。” “当然，这仅仅属于我的推测。”辛顿补充说，“但我估计，距离局面远比现在糟糕，大概也就只剩一两年时间了。”",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-07T04:32:57+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/010/187.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "辛顿提议 AI 行业建立 FDA 式发布前安全审批",
+   "summary_zh": "辛顿在播客中建议 AI 公司发布产品前须像制药业一样通过监管安全审核，并警告递归式自我改进或使风险在一两年内显著恶化。",
+   "highlights_zh": [
+    "主张建立 FDA 式模型发布前审批机制",
+    "指出 AI 已出现递归式自我改进现象",
+    "估计风险恶化窗口约剩一两年"
+   ],
+   "why_zh": "AI 教父对监管与安全风险的最新明确判断",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-07",
+   "slot": "noon",
+   "selected_at": "2026-10-07T04:39:21+00:00",
+   "mirror_pdf": "pdf/web-7ec67e0ce2ff.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/010/187.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d4f31a42a87a",
+   "kind": "article",
+   "title": "elstongun/leviathan",
+   "url": "https://github.com/elstongun/leviathan",
+   "pdf_url": "",
+   "abstract": "**Deep memory for agents over large datasets.**   Leviathan is a single static binary that turns your records (JSONL, JSON, CSV/TSV, SQLite, or anything a database CLI can export) into a ranked full-text index.",
+   "authors": [],
+   "orgs": [
+    "elstongun"
+   ],
+   "published": "2026-10-07T04:39:21+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/elstongun/leviathan",
+     "signal": "★ 646（新项目） · Rust",
+     "metric": 646
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Leviathan：为智能体提供大数据集深度记忆",
+   "summary_zh": "Leviathan 是单个静态二进制，把 JSONL、CSV、SQLite 等记录转成排序全文索引，为智能体提供深度记忆。",
+   "highlights_zh": [
+    "单静态二进制，无需复杂部署",
+    "支持 JSONL/JSON/CSV/SQLite 等多种数据源",
+    "面向智能体的大数据集检索记忆"
+   ],
+   "why_zh": "如果你在给智能体接大数据集检索，可用它快速建全文索引。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.568,
+   "score_llm": 6.0,
+   "score": 0.5872,
+   "date": "2026-10-07",
+   "slot": "noon",
+   "selected_at": "2026-10-07T04:39:21+00:00",
+   "mirror_pdf": "pdf/web-d4f31a42a87a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/elstongun/leviathan"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-14f321c49518",
+   "kind": "article",
+   "title": "cathrynlavery/diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "pdf_url": "",
+   "abstract": "Sponsor Star cathrynlavery / diagram-design Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "authors": [],
+   "orgs": [
+    "cathrynlavery"
+   ],
+   "published": "2026-10-07T04:39:21+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/cathrynlavery/diagram-design",
+     "signal": "★ 今日 +228 · HTML",
+     "metric": 228
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "diagram-design：为编码智能体提供图表设计",
+   "summary_zh": "为 Claude Code、Codex、Copilot 等编码智能体提供 42 种图表类型的自包含 HTML+SVG 设计，替代 Mermaid。",
+   "highlights_zh": [
+    "支持 42 种图表类型",
+    "自包含 HTML + SVG，无阴影",
+    "适配 Claude Code、Codex、Copilot 等"
+   ],
+   "why_zh": "如果你用编码智能体生成图表，可用它替代 Mermaid 获得更精致输出。",
+   "tags": [
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5629,
+   "score_llm": 6.0,
+   "score": 0.5852,
+   "date": "2026-10-07",
+   "slot": "noon",
+   "selected_at": "2026-10-07T04:39:21+00:00",
+   "mirror_pdf": "pdf/web-14f321c49518.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/cathrynlavery/diagram-design"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9964af802e9c",
+   "kind": "article",
+   "title": "Advancing computer use with Ironclad",
+   "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+   "pdf_url": "",
+   "abstract": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-10-06T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI携手Ironclad推进计算机操作智能体",
+   "summary_zh": "OpenAI与Ironclad合作，在复杂合同工作流中训练和评估AI智能体，推进面向专业工作的computer use能力。",
+   "highlights_zh": [
+    "聚焦合同等专业工作流场景",
+    "训练与评估并重的智能体开发路径",
+    "推进computer use在专业领域的落地"
+   ],
+   "why_zh": "关注智能体在专业办公场景落地的从业者可参考其评估思路。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 6.0,
+   "score": 0.576,
+   "date": "2026-10-07",
+   "slot": "noon",
+   "selected_at": "2026-10-07T04:39:21+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/advancing-computer-use-with-ironclad"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-590b1bb02417",
+   "kind": "article",
+   "title": "微软 Surface Laptop Ultra 笔记本规格曝光：最高 128GB 内存，面向 AI 开发和内容创作",
+   "url": "https://www.ithome.com/1/010/178.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 7 日消息，科技媒体 Windows Central 昨日（10 月 6 日）发布博文，分享了微软 Surface Laptop Ultra 笔记本的 2 种规格配置，包含 18 核和 20 核心 RTX Spark 方案，目前尚不清楚具体售价信息。 IT之家援引博文内容，附上相关规格信息如下： 项目 规格 平台／芯片 NVIDIA RTX Spark Superchip，集成 NVIDIA Grace CPU 与 Blackwell RTX GPU，原生支持 CUDA。 处理器选项 18 核 CPU，搭配 5120 核 GPU；20 核 CPU，搭配 6144 核 GPU。 统一内存（RAM） 18 核版本：24 GB 或 32 GB；20 核版本：32 GB、48 GB、64 GB 或 128 GB。 AI 性能 AI 算力最高达 1 PetaFLOP；支持在本地运行参数规模达 1200 亿以上的前沿级模型。 显示屏 15 英寸 PixelSense Ultra 触控屏，HDR 峰值亮度为 2000 尼特，像素密度为 262 PPI，具备高精度色彩表现，支持杜比视界（Dolby Vision）。 尺寸与重量 厚度小于 18 毫米；重量小于 4.5 磅。 触控板与输入 触觉反馈触控板，面积比 15 英寸 Surface Laptop 的触控板大 30% 以上，支持新一代触觉反馈体验。 音频 支持杜比全景声（Dolby Atmos）环绕声。 接口与输入／输出 1 个 HDMI 接口、3 个 USB-C 接口、1 个 USB-A 接口、全尺寸 SD 卡插槽，以及 3.5 毫米耳机插孔。 电池续航与供电性能一致性 提供全天续航；电池供电与接通电源时的性能一致性达 99.6%。 配色 铂金色（Platinum）与 Nightfall 配色。 操作系统 消费者版本：入门配置搭载 Windows 11 家庭版，较高配置搭载 Windows 11 专业版；商用版本：所有配置均搭载 Windows 11 专业版。 微软已于 2026 年 6 月展示 Surface Laptop Ultra，最大亮点是支持本地运行 1200 亿参数模型，主要面向人工智能（AI）开发者及内容创作者，应用场景包括设备端 AI、智能体工作流，以及 Premiere Pro 和 Blender 创作。 18 核版本配备 5120 个图形处理器（GPU）核心，搭配统一内存为 24GB 或 32GB；而 20 核版本配备 6144 个 GPU 核心，内存可选 32GB、48GB、64GB 或 128GB。 系统方面，Windows 系统还将新增统一内存控制功能，允许用户调整 RTX Spark 显卡上 GPU 的内存分配量。这有助于实现更高级的本地 AI 工作流程，并在需要时提升游戏性能。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-07T03:30:02+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/010/178.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "微软 Surface Laptop Ultra 规格曝光：128GB 统一内存，本地跑 1200 亿参数模型",
+   "summary_zh": "微软新款 Surface Laptop Ultra 搭载 NVIDIA RTX Spark 超级芯片，最高 128GB 统一内存、1 PetaFLOP 算力，可本地运行 1200 亿参数以上模型，面向 AI 开发者与内容创作者。",
+   "highlights_zh": [
+    "NVIDIA Grace CPU + Blackwell RTX GPU 集成，原生支持 CUDA，最高 20 核 CPU / 6144 GPU 核心",
+    "Windows 新增统一内存控制功能，可手动调整 GPU 内存分配",
+    "定位设备端 AI、智能体工作流及 Premiere Pro、Blender 创作场景"
+   ],
+   "why_zh": "本地大模型推理硬件竞争升温，PC 端算力规格值得关注。",
+   "tags": [
+    "大模型",
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-07",
+   "slot": "noon",
+   "selected_at": "2026-10-07T04:39:21+00:00",
+   "mirror_pdf": "pdf/web-590b1bb02417.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/010/178.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b7d03ce6879a",
+   "kind": "article",
+   "title": "三星 2026 Q3 营业利润预计同比增长近 9 倍，存储涨价放缓引担忧",
+   "url": "https://www.ithome.com/1/010/173.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 7 日消息，受人工智能领域旺盛需求的拉动，三星电子第三季度营业利润预计将增长近九倍；不过自 8 月底以来，分析师已经把该公司盈利预测下调了接近 8%。 尽管存储芯片的涨价势头有所放缓，同时韩元汇率走强，这家全球最大存储芯片厂商 7‑9 月季度的营业利润预期仍达到 106.1 万亿韩元 （IT之家注：现汇率约合 5,260.44 亿元人民币） 。 路孚特（LSEG）的 SmartEstimate 指标综合了 21 位分析师的预测结果，并向过往研判准确度更高的分析师赋予更高权重。自 8 月末以来，该一致预期已经下调 7.7%。 去年同期三星营业利润为 12.17 万亿韩元 （现汇率约合 603.39 亿元人民币） 。本次业绩将是三星连续第四个季度刷新营业利润纪录。这背后反映出，AI 基础设施的需求增速已经超过供给扩张，存储芯片持续处于供货紧张状态。 各家芯片厂商认为，这场始于一年多以前的芯片紧缺局面还将延续至明年，甚至有可能一直持续到 2028 年。 但第三季度芯片涨价的节奏已经放缓。这也引发市场担忧：芯片行业的利润率或许已经见顶，人们开始质疑这一轮 AI 资本开支热潮究竟能够持续多久。 三星将于周四率先发布第三季度的初步业绩，完整详细的数据则会在 10 月下旬对外公布。 在 AI 需求带动长达一年以上的涨价行情过后，投资者正在密切关注存储芯片价格涨势降温这一变化。这一轮上行周期，让三星、SK 海力士和美光这几家全球头部存储厂商纷纷取得创纪录的利润与利润率。 不断抬升的成本压力 芯片价格走高推高了智能手机以及各类消费电子产品的整机成本，进而压制终端需求。 与此同时，芯片厂商和下游客户签订的长期供货协议，在换取供货保障的同时，也限制了芯片的涨价幅度。 集邦咨询（TrendForce）预测，普通 DRAM 第四季度合约价格环比将上涨 10%‑15%；对比第二季度约 60% 的环比暴涨，涨幅已经明显回落。 集邦咨询研究高级副总裁吴雅婷（Avril Wu）表示：“虽然市场依旧处于供给紧张的格局，但后续的价格上涨速度预计将会放缓。” 她补充说明，供应商对于继续大幅提价持谨慎态度，担心此举会大范围损害消费电子的终端需求。 “除此之外，长期协议在厂商整体出货当中所占比重越来越高；这类合约内置价格上限机制，也使得涨价速度有所回落。” 三星曾在 7 月对外表示，计划争取让长期订单覆盖自身约三分之二的存储产能。与同行一样，三星希望借此降低行业周期性暴涨暴跌对自身业务的冲击。 来自美国的竞争对手美光认为，2027‑2028 年芯片市场的供需紧张程度甚至会超过今年；不过该公司预计本季度毛利率将从 87% 小幅下滑至 86.3%，部分原因来自员工薪酬开支。 SK 证券分析师韩东熙（Han Dong‑hee）测算，三星存储业务第三季度营业利润率预计为 76%，与上一季度持平。 同时三星还要面对来自中国厂商日趋激烈的竞争。目前国内厂商主要布局低端产品线，但同样正在受益于这一轮 AI 驱动下的存储缺货行情。 Summit Insights Group 高级研究分析师陈健佳（Kinngai Chan）在一份报告当中写道：“我们的行业调研显示，越来越多 OEM 与 ODM 整机厂商已经开始采用国产 DRAM 以及 NAND 闪存产品。” 汇率波动是另一重不利因素。第三季度韩元兑美元升值 14.3%，从 17 年低点强势反弹，创下自 1998 年初之后最大单季度升幅。韩元走强之后，海外业务的盈利在换回本币入账时就会出现缩水。 三星的股价自 6 月历史高点至今已经回落大",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-07T03:04:48+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/010/173.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "三星 Q3 营业利润预计增近 9 倍，存储涨价放缓引担忧",
+   "summary_zh": "AI 需求拉动三星三季度营业利润预计同比增长近 9 倍至 106.1 万亿韩元，但存储涨价节奏放缓，分析师下调盈利预期近 8%，市场担忧利润率见顶。",
+   "highlights_zh": [
+    "连续第四个季度刷新营业利润纪录，存储业务利润率约 76%",
+    "TrendForce 预测 Q4 普通 DRAM 合约价环比涨 10%-15%，较 Q2 的 60% 明显回落",
+    "国产 DRAM/NAND 被越来越多 OEM/ODM 采用，长期协议内置价格上限"
+   ],
+   "why_zh": "存储周期是否见顶，直接关系 AI 资本开支可持续性判断。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-07",
+   "slot": "noon",
+   "selected_at": "2026-10-07T04:39:21+00:00",
+   "mirror_pdf": "pdf/web-b7d03ce6879a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/010/173.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7927e0059c77",
+   "kind": "article",
+   "title": "中国团队全球首次构建水稻全生命周期三维时空细胞图谱",
+   "url": "https://www.ithome.com/1/010/155.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 7 日消息，据央视新闻今日报道，由我国多个科研机构分工协作完成的最新水稻研究成果，于 10 月 6 日晚在国际学术期刊《细胞》（Cell）在线发表。 内容为我国研究团队在全球范围内首次构建了覆盖水稻从种子萌发到开花结实全过程的三维时空细胞图谱 ，整合了基因组测序、单细胞测序与空间转录组测序，为理解水稻生长发育、探索籽粒品质改良提供了新的研究资源。 据种业科研人员介绍，这项科研成果通过明确特定功能基因在水稻全生育期、不同组织中表达的位置， 将开辟一条快速实现高产稳产的精准设计育种新路径 。 此外，我国科研人员还建设了可供全球研究者使用的数据库与水稻单细胞基础模型，支持基因查询、空间表达展示和比较分析。研究者能够围绕自己关注的基因，查看其在不同组织和发育阶段中的表达情况，并进一步确定实验验证的方向。有了这张图谱和这些数据， 科研人员就可以重新认知水稻优良性状和基因表达调控的关系，最终理解一棵水稻是如何从种子萌发到开花结果的 。 以前想要改良水稻的某个性状，可能会因为直接改变特定基因而影响多个性状。现在借助图谱和模型，专家们有望进行定向优化， 大大减少“顾此失彼”的不利连锁反应 ，探索更有针对性的调控策略，实现“指哪打哪”。 图源：Pixabay",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-07T01:31:37+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/010/155.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "中国团队全球首次构建水稻全生命周期三维时空细胞图谱",
+   "summary_zh": "中国团队在《细胞》发表成果，首次构建覆盖水稻全生育期的三维时空细胞图谱，并建设数据库与水稻单细胞基础模型，助力精准设计育种。",
+   "highlights_zh": [
+    "整合基因组、单细胞与空间转录组测序，覆盖种子萌发到开花结实",
+    "配套全球可用数据库与水稻单细胞基础模型，支持基因查询与空间表达展示",
+    "有望实现定向优化，减少性状改良的连锁副作用"
+   ],
+   "why_zh": "科学 AI 基础模型在农业育种落地的代表性案例。",
+   "tags": [
+    "科学AI",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-07",
+   "slot": "noon",
+   "selected_at": "2026-10-07T04:39:21+00:00",
+   "mirror_pdf": "pdf/web-7927e0059c77.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/010/155.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e2bcdcd719d4",
+   "kind": "article",
+   "title": "OpenAI一夜甩出722篇数学论文！黎曼霍奇BSD全上阵，数学家：读不过来",
+   "url": "https://www.qbitai.com/2026/10/501749.html",
+   "pdf_url": "",
+   "abstract": "三位菲尔兹奖得主：不代表认可",
+   "authors": [
+    "听雨"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-07T01:05:13+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/501749.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI一次性发布722篇数学论文引争议",
+   "summary_zh": "OpenAI发布722篇数学论文，覆盖黎曼猜想、霍奇猜想、BSD猜想等难题，但三位菲尔兹奖得主表示这不代表认可，学界质疑其含金量。",
+   "highlights_zh": [
+    "一次性产出722篇数学论文，数量惊人",
+    "涉及多个千禧年难题级别问题",
+    "菲尔兹奖得主明确表示不代表认可"
+   ],
+   "why_zh": "观察AI在数学科研中的真实能力边界与学界态度。",
+   "tags": [
+    "科学AI",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-10-07",
+   "slot": "noon",
+   "selected_at": "2026-10-07T04:39:21+00:00",
+   "mirror_pdf": "pdf/web-e2bcdcd719d4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/501749.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0cdba68d9b32",
+   "kind": "article",
+   "title": "派拉蒙 1100 亿美元收购时代华纳，好莱坞诞生新巨无霸；月之暗面被曝完成 500 亿美元 PreIPO 融资；微软、Meta 被曝要求员工减少使用 Claude",
+   "url": "http://www.geekpark.net/news/372089",
+   "pdf_url": "",
+   "abstract": "2026 诺贝尔物理学奖揭晓：把一立方公里南极冰变成望远镜，打开「中微子天文学」 10 月 6 日，2026 年诺贝尔物理学奖授予比利时裔美国物理学家 Francis Halzen，以表彰其「对 IceCube 中微子天文台的决定性贡献，以及发现来自天体的高能中微子」。 Halzen 领导建设的 IceCube 位于南极，把超过 一立方公里的透明冰层本身变成粒子探测器：5000 多个光学传感器被埋入超过两公里深的冰层，通过捕捉中微子极少数与物质碰撞时产生的微弱光线，反推出粒子的来源。 与传统望远镜利用光观察宇宙不同，中微子几乎可以不受阻碍地穿过物质，因此能够携带超新星、黑洞等极端宇宙事件的信息。 IceCube 的成果由此建立了「中微子天文学」这一新的宇宙观测窗口。（来源：NSF、Reuters） 距 6 万亿美元仅一步之遥，英伟达市值达 5.8 万亿美元，创历史新高 10 月 6 日消息，当地时间上午 9 点 30 分，纳斯达克市场开盘。开盘钟声敲响后的二十分钟左右，英伟达（NVDA）市值达到 5.82 万亿美元（现汇率约合 39.08 万亿元人民币），创下历史新高，同时距 6 万亿美元（现汇率约合 40.29 万亿元人民币）仅有一步之遥。 今日开盘时，英伟达股价为 242.10 美元（现汇率约合 1,626 元人民币），最高 243.37 美元（现汇率约合 1,634 元人民币），最低 240.76 美元（现汇率约合 1,617 元人民币）。 同时，英伟达股价于美东时间 10 月 5 日星期一再度刷新历史纪录，收盘报 238.90 美元（现汇率约合 1,604 元人民币），单日上涨 2.12%，连续第三个交易日以收盘价创历史新高。如果继续上涨，英伟达有望成为全球首家市值达 6 万亿美元的公司。（来源：IT 之家） 消息称 DeepSeek 新一轮融资接近锁定至少 800 亿元，腾讯控股和宁德时代重金投入 10 月 6 日消息，据彭博社援引知情人士消息称，中国人工智能公司 DeepSeek 最新一轮融资已接近收官，锁定至少 800 亿元人民币（约 120 亿美元），远超其最初设定的约 500 亿元融资目标。根据已签署的投资条款清单，最终融资规模有望逼近 1000 亿元。 腾讯控股和宁德时代是承诺出资金额最高的投资方。知情人士称，DeepSeek 最初在本轮仅寻求约 500 亿元，但在最新模型顺利发布后，投资者认购热情超出预期，公司最初设定的目标估值约为 5000 亿元。相关交易尚未最终敲定，具体条款仍可能发生变化。 报道还提到，DeepSeek 正在内蒙古建设数据中心，并部署华为 AI 芯片。 2026 年 6 月，DeepSeek 完成成立以来首轮外部融资，总额达 510 亿元人民币，投后估值近 4000 亿元，创下当时国内 AI 行业单轮融资规模最高纪录。该轮融资由创始人梁文锋领投，个人出资约 200 亿元，为最大单一出资方。腾讯出资约 100 亿元，宁德时代体系出资约 50 亿元。 据报道，最新一轮融资落定后，DeepSeek 的下一步是推进公司重组，为 IPO 做准备。据路透社此前报道，DeepSeek 公司已聘请中信证券作为辅导机构，筹备在上海证券交易所科创板上市。（来源: TechWeb） 月之暗面完成 IPO 前融资 估值 500 亿美元，拟明年第一季度香港上市 10 月 6 日，据彭博社报道，月之暗面已完成最后一轮私募融资，估值约为 500 亿美元，正朝着明年第一季度在中国香港进行首次公开招股 (IPO) 迈进。 一些知情人士称",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-07T00:39:21+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372089",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "极客公园早报：派拉蒙收购时代华纳、DeepSeek 融资、月之暗面 Pre-IPO",
+   "summary_zh": "极客公园汇总多条资讯：派拉蒙 1100 亿美元收购时代华纳；DeepSeek 新一轮融资锁定至少 800 亿元，腾讯、宁德时代领投；月之暗面被曝完成 500 亿美元 Pre-IPO 融资。",
+   "highlights_zh": [
+    "DeepSeek 融资规模远超预期，腾讯、宁德时代为最大出资方，并筹备科创板 IPO",
+    "月之暗面被曝完成 500 亿美元 Pre-IPO 融资",
+    "微软、Meta 被曝要求员工减少使用 Claude"
+   ],
+   "why_zh": "一屏掌握国内头部大模型公司融资与资本动向",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.528,
+   "date": "2026-10-07",
+   "slot": "noon",
+   "selected_at": "2026-10-07T04:39:21+00:00",
+   "mirror_pdf": "pdf/web-0cdba68d9b32.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372089"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-342677ae7ead",
+   "kind": "article",
+   "title": "How Jump Trading is scaling quant research with ChatGPT",
+   "url": "https://openai.com/index/jump-trading",
+   "pdf_url": "",
+   "abstract": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-10-06T12:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/jump-trading",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Jump Trading用ChatGPT扩展量化研究",
+   "summary_zh": "Jump Trading借助OpenAI扩展量化研究，将多数据源与人工审核结合，运行更长时间的AI工作流。",
+   "highlights_zh": [
+    "量化研究场景的长时AI工作流",
+    "多数据源整合加人工审核",
+    "OpenAI官方客户案例"
+   ],
+   "why_zh": "金融量化团队可了解长时AI工作流的实际落地方式。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 5.0,
+   "score": 0.516,
+   "date": "2026-10-07",
+   "slot": "noon",
+   "selected_at": "2026-10-07T04:39:21+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/jump-trading"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-276c645dd27c",
+   "kind": "article",
+   "title": "好产品也会丢单，Palantir 旧访谈翻红：企业级 AI 订单，拼的不只是模型",
+   "url": "https://www.tmtpost.com/8160164.html",
+   "pdf_url": "",
+   "abstract": "人们对一件事的认知，有时比客观情况更能左右决策。",
+   "authors": [
+    "硅谷Tech news"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-07T02:54:38+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8160164.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Palantir 旧访谈翻红：企业级 AI 订单拼的不只是模型",
+   "summary_zh": "钛媒体援引 Palantir 旧访谈指出，企业级 AI 落地中客户认知与交付能力往往比模型本身更决定订单成败。",
+   "highlights_zh": [
+    "企业级 AI 采购决策受客户认知影响",
+    "模型能力并非成单唯一因素",
+    "交付与服务能力同样关键"
+   ],
+   "why_zh": "做 To B AI 产品者可从销售视角获得启发",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-07",
+   "slot": "noon",
+   "selected_at": "2026-10-07T04:39:21+00:00",
+   "mirror_pdf": "pdf/web-276c645dd27c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8160164.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1fe48080fcc0",
+   "kind": "article",
+   "title": "Edge AI Daily 早报（10月7日）",
+   "url": "https://www.tmtpost.com/8160096.html",
+   "pdf_url": "",
+   "abstract": "Anthropic通过免费计划锁定创业生态；谷歌原生Markdown支持定义人机协作标准，同时面临波兰反垄断调查；OpenAI获百亿美元中东投资引领资本新流向；亚马逊690MW核电协议推动AI能源基建；黄仁勋换脸事件凸显内容创作与算力成本的结构矛盾；Gemini扩展个人电话场景；AI医疗填补乳腺癌筛查、读片、治疗决策三大缺口。多领域并行，AI产业进入基础设施与资本角力阶段。",
+   "authors": [
+    "Edge AI Daily"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-07T00:48:28+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8160096.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Edge AI Daily 早报：Anthropic 锁生态、OpenAI 获中东投资",
+   "summary_zh": "Edge AI Daily 汇总：Anthropic 用免费计划锁定创业生态；OpenAI 获百亿美元中东投资；亚马逊签 690MW 核电协议；谷歌面临波兰反垄断调查。",
+   "highlights_zh": [
+    "Anthropic 以免费计划争夺创业生态",
+    "OpenAI 获百亿美元中东资本",
+    "AI 能源基建与监管并行推进"
+   ],
+   "why_zh": "快速了解 AI 资本与基础设施动态",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-07",
+   "slot": "noon",
+   "selected_at": "2026-10-07T04:39:21+00:00",
+   "mirror_pdf": "pdf/web-1fe48080fcc0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8160096.html"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "开源大模型竞争从参数规模转向企业级场景的定制与合规能力",
-   "why": "Mistral Large 4 主打企业定制与微调，电信运营商也因信任与控制选择开源模型。",
+   "trend": "开源权重模型正从性价比选项升级为企业级替代方案，竞争焦点转向定制与信任。",
+   "why": "Mistral Large 4 主打企业定制与开源 SOTA，电信运营商押注开源动因是信任与控制而非成本。",
    "refs": [
     "web-820bd24a41c4",
     "web-1568ca1d1a86",
-    "web-be7f8737364e"
+    "web-be7f8737364e",
+    "web-9226ae6c89cf"
    ]
   },
   {
-   "trend": "智能体落地正从提示词工程转向确定性规则与模型判断的混合架构",
-   "why": "Vercel COO 将千行提示词压缩为14条确定性规则，模型仅用于判断环节。",
+   "trend": "智能体落地正从提示词工程转向确定性规则加模型判断的混合架构。",
+   "why": "Vercel COO 将千行提示词压缩为 14 条确定性规则，模型仅用于判断环节。",
    "refs": [
-    "web-5d82611b968e"
+    "web-5d82611b968e",
+    "web-9964af802e9c",
+    "web-342677ae7ead"
    ]
   },
   {
-   "trend": "自主智能体使传统安全边界失效，信任模型需重新定义",
-   "why": "Google Research 指出智能体场景下传统安全边界失效，开放权重争论也被意识形态绑架。",
+   "trend": "自主智能体使传统安全边界失效，信任模型与日志基础设施需重新定义。",
+   "why": "Google 指出上下文安全边界失效，METR 警告未来系统可能篡改监控日志掩盖行为。",
    "refs": [
     "web-30a9fdda0d8d",
+    "web-fbdc3f662e33",
     "web-7c267aa07d2a"
    ]
   },
   {
-   "trend": "算力需求远超供给，芯片厂商进入超级扩张周期",
-   "why": "苏姿丰称2026年需求极强、供不应求，英伟达市值逼近6万亿美元。",
+   "trend": "算力供需缺口持续扩大，芯片与存储成为AI资本开支的核心瓶颈。",
+   "why": "苏姿丰称需求远超供给、2027年大幅扩产；三星利润暴增但存储涨价放缓引利润率见顶担忧。",
    "refs": [
     "web-6787bde109cb",
-    "web-70ee3df15f29"
+    "web-70ee3df15f29",
+    "web-b7d03ce6879a"
    ]
   },
   {
-   "trend": "头部大模型公司从拒绝资本转向大规模融资备战 IPO",
-   "why": "DeepSeek 被曝约800亿元融资并为IPO做准备，标志梁文锋态度转向。",
+   "trend": "前沿模型开始产出可验证的科研与工程成果，评测标准向形式化证明迁移。",
+   "why": "OpenAI 公开722篇数学手稿并附 Lean 证明，但菲尔兹奖得主质疑其含金量。",
    "refs": [
-    "web-a022c76d0a5d"
+    "web-47b9255d8fa0",
+    "web-f02fc4590b9c",
+    "web-e2bcdcd719d4"
    ]
   }
  ]
