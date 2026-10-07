@@ -1,11 +1,13 @@
-2026-10-06 17:07:22,776 INFO source hf_daily           -> 49 items
-2026-10-06 17:07:23,282 INFO source hackernews         -> 5 items
-2026-10-06 17:07:41,972 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-06 17:07:51,869 INFO source rss                -> 50 items
-2026-10-06 17:07:54,206 INFO source html_lists         -> 1 items
-2026-10-06 17:07:54,206 INFO source x                  -> 0 items
-2026-10-06 17:08:47,032 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
-2026-10-06 17:08:56,459 INFO source github             -> 20 items
-2026-10-06 17:08:56,461 INFO candidates: 124 (stale dropped 64, new 27)
-2026-10-06 17:09:18,897 INFO llm judged 27/27 (calls=4)
-2026-10-06 17:11:18,438 INFO run done: {"at": "2026-10-06T17:07:22+00:00", "slot": "morning", "candidates": 124, "new": 27, "stale": 64, "judged": 27, "selected": 17, "mirrored": 17, "by_category": {"资讯": 12, "观点": 2, "项目": 3}, "by_source": {"HF Daily Papers": 49, "Hacker News": 5, "Mistral": 1, "量子位": 6, "极客公园": 3, "IT之家": 12, "钛媒体": 9, "InfoQ 中文": 2, "Nathan Lambert": 1, "Latent Space": 1, "Jack Clark": 1, "Stratechery": 1, "SemiAnalysis": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 2, "Timothy B. Lee": 2, "Hugging Face Blog": 1, "Google Research": 2, "OpenAI": 3, "NVIDIA": 2, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
+2026-10-07 04:39:22,184 INFO source hf_daily           -> 18 items
+2026-10-07 04:39:22,531 INFO source hackernews         -> 7 items
+2026-10-07 04:39:38,518 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-07 04:39:45,811 INFO source rss                -> 56 items
+2026-10-07 04:39:47,803 INFO source html_lists         -> 1 items
+2026-10-07 04:39:47,803 INFO source x                  -> 0 items
+2026-10-07 04:41:30,075 WARNING source arxiv_search failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=30)
+2026-10-07 04:41:38,938 INFO source github             -> 20 items
+2026-10-07 04:41:38,939 INFO candidates: 101 (stale dropped 28, new 35)
+2026-10-07 04:42:05,824 INFO llm judged 35/35 (calls=5)
+2026-10-07 04:43:05,521 WARNING snapshot https://openai.com/index/advancing-computer-use-with-ironclad: blocked or empty page
+2026-10-07 04:43:55,784 WARNING snapshot https://openai.com/index/jump-trading: blocked or empty page
+2026-10-07 04:44:36,140 INFO run done: {"at": "2026-10-07T04:39:21+00:00", "slot": "noon", "candidates": 101, "new": 35, "stale": 28, "judged": 35, "selected": 17, "mirrored": 15, "by_category": {"资讯": 14, "项目": 3}, "by_source": {"HF Daily Papers": 18, "Hacker News": 7, "OpenAI": 6, "量子位": 6, "极客公园": 3, "IT之家": 13, "钛媒体": 9, "InfoQ 中文": 2, "Nathan Lambert": 1, "Latent Space": 1, "Jack Clark": 1, "Stratechery": 1, "SemiAnalysis": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "Timothy B. Lee": 2, "Hugging Face Blog": 1, "Google Research": 2, "METR": 1, "Google DeepMind": 1, "NVIDIA": 2, "Anthropic": 1, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}

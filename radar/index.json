@@ -1,11 +1,12 @@
 {
- "updated": "2026-10-06T17:07:22+00:00",
+ "updated": "2026-10-07T04:39:21+00:00",
  "days": [
   {
    "date": "2026-10-07",
-   "count": 17,
+   "count": 34,
    "slots": {
-    "morning": 17
+    "morning": 17,
+    "noon": 17
    }
   },
   {
@@ -126,28 +127,27 @@
    }
   }
  ],
- "total": 713,
+ "total": 730,
  "last_run": {
-  "at": "2026-10-06T17:07:22+00:00",
-  "slot": "morning",
-  "candidates": 124,
-  "new": 27,
-  "stale": 64,
-  "judged": 27,
+  "at": "2026-10-07T04:39:21+00:00",
+  "slot": "noon",
+  "candidates": 101,
+  "new": 35,
+  "stale": 28,
+  "judged": 35,
   "selected": 17,
-  "mirrored": 17,
+  "mirrored": 15,
   "by_category": {
-   "资讯": 12,
-   "观点": 2,
+   "资讯": 14,
    "项目": 3
   },
   "by_source": {
-   "HF Daily Papers": 49,
-   "Hacker News": 5,
-   "Mistral": 1,
+   "HF Daily Papers": 18,
+   "Hacker News": 7,
+   "OpenAI": 6,
    "量子位": 6,
    "极客公园": 3,
-   "IT之家": 12,
+   "IT之家": 13,
    "钛媒体": 9,
    "InfoQ 中文": 2,
    "Nathan Lambert": 1,
@@ -156,12 +156,15 @@
    "Stratechery": 1,
    "SemiAnalysis": 1,
    "Azeem Azhar": 1,
-   "Tomasz Tunguz": 2,
+   "Tomasz Tunguz": 1,
+   "Zvi Mowshowitz": 1,
    "Timothy B. Lee": 2,
    "Hugging Face Blog": 1,
    "Google Research": 2,
-   "OpenAI": 3,
+   "METR": 1,
+   "Google DeepMind": 1,
    "NVIDIA": 2,
+   "Anthropic": 1,
    "GitHub Trending": 12,
    "GitHub 新项目": 8
   },
