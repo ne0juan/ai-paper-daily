@@ -17,8 +17,8 @@
     "first_headline_top": 370,
     "viewport_h": 800,
     "overflow_x": 0,
-    "cards": 56,
-    "duplicated_meta_cards": 1,
+    "cards": 19,
+    "duplicated_meta_cards": 0,
     "console_errors": 0
    },
    "checks": [
@@ -84,8 +84,8 @@
     },
     {
      "check": "卡片信息不重复",
-     "value": 1,
-     "pass": false
+     "value": 0,
+     "pass": true
     }
    ]
   },
@@ -105,8 +105,8 @@
     "first_headline_top": 356,
     "viewport_h": 812,
     "overflow_x": 0,
-    "cards": 56,
-    "duplicated_meta_cards": 1,
+    "cards": 19,
+    "duplicated_meta_cards": 0,
     "console_errors": 0
    },
    "checks": [
@@ -163,8 +163,8 @@
     "first_headline_top": 370,
     "viewport_h": 800,
     "overflow_x": 0,
-    "cards": 56,
-    "duplicated_meta_cards": 1,
+    "cards": 19,
+    "duplicated_meta_cards": 0,
     "console_errors": 0
    },
    "checks": [
@@ -181,8 +181,6 @@
    ]
   }
  },
- "failed": [
-  "[desktop] 卡片信息不重复: 1"
- ],
- "score": "21/22"
+ "failed": [],
+ "score": "22/22"
 }

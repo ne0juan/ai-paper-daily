@@ -1,15 +1,12 @@
-2026-10-07 11:40:25,453 INFO source hf_daily           -> 25 items
-2026-10-07 11:40:25,752 INFO source hackernews         -> 8 items
-2026-10-07 11:40:42,755 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-07 11:40:53,159 INFO source rss                -> 50 items
-2026-10-07 11:40:54,750 INFO source html_lists         -> 0 items
-2026-10-07 11:40:54,750 INFO source x                  -> 0 items
-2026-10-07 11:40:55,534 INFO source arxiv_search       -> 60 items
-2026-10-07 11:41:04,590 INFO source github             -> 20 items
-2026-10-07 11:41:04,592 INFO candidates: 160 (stale dropped 26, new 92)
-2026-10-07 11:42:28,305 INFO llm judged 89/92 (calls=12)
-2026-10-07 11:42:28,363 WARNING mt provider edge failed: 404 for https://edge.microsoft.com/translate/auth
-2026-10-07 11:42:28,464 INFO mt: 1 strings via google
-2026-10-07 11:42:41,894 WARNING snapshot https://stratechery.com/2026/apple-and-lg-the-house-for-everyone-else-agent-standards-and-amazon/: blocked or empty page
-2026-10-07 11:42:42,060 WARNING pdf arxiv-2610.08780: too large (> 25165824 bytes): https://arxiv.org/pdf/2610.08780
-2026-10-07 11:45:07,088 INFO run done: {"at": "2026-10-07T11:40:24+00:00", "slot": "evening", "candidates": 160, "new": 92, "stale": 26, "judged": 89, "selected": 22, "mirrored": 20, "by_category": {"技术": 4, "观点": 2, "项目": 3, "论文": 1, "资讯": 12}, "by_source": {"HF Daily Papers": 25, "arXiv 新论文": 60, "Hacker News": 8, "OpenAI": 5, "量子位": 6, "极客公园": 2, "IT之家": 8, "爱范儿": 2, "雷峰网": 1, "钛媒体": 7, "InfoQ 中文": 1, "Nathan Lambert": 1, "Latent Space": 2, "Jack Clark": 1, "Stratechery": 1, "SemiAnalysis": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "Timothy B. Lee": 2, "Hugging Face Blog": 1, "Google Research": 2, "METR": 1, "Google DeepMind": 1, "NVIDIA": 2, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 2}
+2026-10-07 17:44:24,370 INFO source hf_daily           -> 31 items
+2026-10-07 17:44:25,020 INFO source hackernews         -> 7 items
+2026-10-07 17:44:37,662 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-07 17:44:45,990 INFO source rss                -> 68 items
+2026-10-07 17:44:48,034 INFO source html_lists         -> 0 items
+2026-10-07 17:44:48,034 INFO source x                  -> 0 items
+2026-10-07 17:44:48,988 INFO source arxiv_search       -> 60 items
+2026-10-07 17:44:59,358 INFO source github             -> 20 items
+2026-10-07 17:44:59,360 INFO candidates: 183 (stale dropped 99, new 47)
+2026-10-07 17:45:36,853 INFO llm judged 47/47 (calls=6)
+2026-10-07 17:45:58,663 WARNING snapshot https://openai.com/index/teens-learn-and-plan: blocked or empty page
+2026-10-07 17:47:05,255 INFO run done: {"at": "2026-10-07T17:44:23+00:00", "slot": "morning", "candidates": 183, "new": 47, "stale": 99, "judged": 47, "selected": 19, "mirrored": 18, "by_category": {"项目": 3, "观点": 2, "技术": 4, "资讯": 9, "论文": 1}, "by_source": {"HF Daily Papers": 31, "arXiv 新论文": 60, "Hacker News": 7, "OpenAI": 6, "量子位": 8, "极客公园": 2, "IT之家": 21, "爱范儿": 2, "雷峰网": 4, "钛媒体": 7, "InfoQ 中文": 1, "Nathan Lambert": 1, "Latent Space": 3, "Stratechery": 1, "SemiAnalysis": 1, "Tomasz Tunguz": 2, "Zvi Mowshowitz": 1, "Timothy B. Lee": 1, "Hugging Face Blog": 2, "Google Research": 2, "METR": 1, "Google DeepMind": 1, "NVIDIA": 1, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
