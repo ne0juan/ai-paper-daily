@@ -1838,31 +1838,1369 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "arxiv-2610.08463",
+   "kind": "paper",
+   "title": "UNREAL: Unifying Retrieval and Long-Context with a Single Model",
+   "url": "https://arxiv.org/abs/2610.08463",
+   "pdf_url": "https://arxiv.org/pdf/2610.08463",
+   "abstract": "Long-context inference and Retrieval-Augmented Generation (RAG) handle evidence selection at vastly different scales, from a single long prompt to an entire corpus. We ask whether a single model-internal mechanism can select evidence across this range. We introduce UNifying REtrieval And Long-Context with a Single Model (UNREAL), a model-native evidence selection framework to span corpus retrieval and long-context inference. UNREAL encodes chunks and derives retrieval queries directly from the frozen LLM's internal representations. It adds fewer than 500K trainable parameters and leaves the backbone unchanged. On a 3B-token, 21M-chunk Wikipedia index, all four dense and hybrid UNREAL backbones outperform state-of-the-art retriever-reranker systems. The best model raises recall from 49.1% to 73.2% on HotpotQA, from 31.7% to 60.1% on 2WikiMultiHopQA, and from 8.8% to 14.4% on MuSiQue. Applied to long-context tasks, the same selection mechanism removes distractors before generation, raising NoLiMa accuracy from 1.0% to 24.83% at its maximum context length of 128K tokens, and LV-Eval's F1 score from 49.97% to 54.66% at 256K. UNREAL also reduces FLOPs and time-to-first-token relative to full-context inference from roughly 32K tokens onward, with larger gains as context grows. Together, these results establish model-internal evidence selection as a common foundation for corpus retrieval and evidence-sparse long-context inference.",
+   "authors": [
+    "Edan Kinderman",
+    "Elad Hoffer",
+    "Yochai Blau",
+    "Brian Chmiel",
+    "Ron Banner",
+    "Daniel Soudry",
+    "Boris Ginsburg"
+   ],
+   "orgs": [
+    "NVIDIA"
+   ],
+   "published": "2026-10-06T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.08463",
+     "signal": "▲ 12",
+     "metric": 12
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.08463",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "UNREAL：单模型统一检索与长上下文",
+   "summary_zh": "NVIDIA提出UNREAL，用冻结LLM内部表示做证据选择，仅加50万参数，在检索和多跳QA上大幅超越SOTA，并显著提升长上下文准确率。",
+   "highlights_zh": [
+    "从冻结LLM内部表示直接派生检索查询，骨干不变，仅增<500K参数",
+    "HotpotQA召回从49.1%升至73.2%，MuSiQue从8.8%升至14.4%",
+    "长上下文任务NoLiMa准确率从1.0%升至24.83%，并降低FLOPs"
+   ],
+   "why_zh": "展示模型内部机制统一检索与长上下文的可行性，对RAG系统设计有直接启发。",
+   "tags": [
+    "大模型",
+    "效率与系统",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.6734,
+   "score_llm": 8.0,
+   "score": 0.7494,
+   "date": "2026-10-07",
+   "slot": "evening",
+   "selected_at": "2026-10-07T11:40:24+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.08463.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.08463"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.08463"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.08463"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.08463"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.08463"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.08463"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.08448",
+   "kind": "paper",
+   "title": "Rethinking Cross-Tokenizer On-Policy Distillation: From Alignment Coverage to Supervision Reliability",
+   "url": "https://arxiv.org/abs/2610.08448",
+   "pdf_url": "https://arxiv.org/pdf/2610.08448",
+   "abstract": "On-Policy Distillation (OPD) trains a student on its own generations using teacher feedback. With different tokenizers, comparing teacher and student predictions requires alignment at both sequence and vocabulary levels. In this paper, we examine whether expanding this alignment coverage improves learning. Across three heterogeneous teacher--student pairs on mathematical reasoning and code generation, strict 1:1 groups already cover most student-generated tokens despite substantial vocabulary mismatch. On responses sampled from the students before distillation, the shared vocabulary retains nearly all teacher and student probability mass at strictly aligned positions on average. Restricting reverse KL to a student-selected top-16 subset of the shared vocabulary at each strict position achieves accuracy comparable to full shared-vocabulary OPD, outperforming the evaluated cross-tokenizer baselines. Adding mean squared error supervision on span log-probabilities in mismatch groups gives complete supervision coverage, yet reduces accuracy. At checkpoints from training with only the strict loss, the span gradients show weak or negative directional agreement with the strict gradients and grow in magnitude relative to them. These diagnostics may help explain the accuracy drop from adding span supervision. Our findings motivate a shift from maximizing alignment coverage to prioritizing supervision reliability: compact supervision at strict positions can be more effective than broader coverage that introduces weakly aligned or conflicting training signals.",
+   "authors": [
+    "Bingxi Hou",
+    "Guochao Jiang",
+    "Guofeng Quan",
+    "Weiqing Li",
+    "Wenfeng Feng",
+    "Guohua Liu",
+    "Yuewei Zhang"
+   ],
+   "orgs": [],
+   "published": "2026-10-06T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.08448",
+     "signal": "▲ 146",
+     "metric": 146
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.08448",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "跨分词器在线蒸馏：对齐覆盖不如监督可靠",
+   "summary_zh": "研究跨分词器在线蒸馏，发现严格1:1对齐已覆盖大部分学生token，扩大对齐覆盖反而降低准确率，监督可靠性比覆盖率更关键。",
+   "highlights_zh": [
+    "严格1:1对齐组已覆盖大部分学生生成token，尽管词表差异大",
+    "在共享词表上限制反向KL到top-16子集，效果媲美全词表OPD",
+    "对不匹配组加span log-prob的MSE监督虽覆盖完整，却降低准确率"
+   ],
+   "why_zh": "跨分词器蒸馏的从业者可据此重新权衡对齐策略，避免无效扩大覆盖。",
+   "tags": [
+    "大模型",
+    "推理",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.7384,
+   "score_llm": 7.0,
+   "score": 0.7154,
+   "date": "2026-10-07",
+   "slot": "evening",
+   "selected_at": "2026-10-07T11:40:24+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.08448.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.08448"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.08448"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.08448"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.08448"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.08448"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.08448"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-264cab26a08d",
+   "kind": "article",
+   "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
+   "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
+   "pdf_url": "",
+   "abstract": "Our head hurts.",
+   "authors": [
+    "swyx"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-07T04:55:44+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "OpenAI 发布 722 篇数学论文，攻克 500 个开放难题中的 90 个",
+   "summary_zh": "Latent Space 报道称 OpenAI 一次性发布 722 篇数学论文，解决了 500 个顶级开放数学问题中的 90 个，被形容为数学百年以来最重要时刻。",
+   "highlights_zh": [
+    "OpenAI 批量产出数学研究成果，规模罕见",
+    "覆盖 500 个开放问题中的 90 个",
+    "被评价为百年来数学领域最重要时刻"
+   ],
+   "why_zh": "若属实，这是 AI 在科学发现上的一次标志性突破，值得关注其方法论与可复现性。",
+   "tags": [
+    "科学AI",
+    "大模型",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-10-07",
+   "slot": "evening",
+   "selected_at": "2026-10-07T11:40:24+00:00",
+   "mirror_pdf": "pdf/web-264cab26a08d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.07767",
+   "kind": "paper",
+   "title": "TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language Models",
+   "url": "https://arxiv.org/abs/2610.07767",
+   "pdf_url": "https://arxiv.org/pdf/2610.07767",
+   "abstract": "Reinforcement learning (RL) for post-training large language models (LLMs) incurs substantial computation and memory overhead during rollout generation, which motivates low-precision rollout for efficient RL training. However, existing FP4 RL methods suffer from a key limitation: they primarily optimize quantization accuracy on the training and rollout paths independently rather than directly reducing the discrepancy between the two quantized execution paths. In this work, we propose TRACE (Train-Rollout Quantization Alignment via Compact GuidancE), an FP4 quantization framework for RL training of Mixture-of-Experts (MoE) language models that addresses the limitation of existing FP4 RL methods. TRACE incorporates rollout-guided quantization-aware training that uses rollout-side quantization outcomes to guide training-side FP4 rounding decisions, directly reducing train-rollout discrepancy. Moreover, TRACE adopts an efficient quantization-information caching scheme that selectively retains mantissa and scale information from deeper layers to reduce the storage and communication overhead introduced by rollout guidance. We evaluate TRACE on four large-scale MoE language models across reasoning, coding, and long-horizon RL tasks. Our results demonstrate that TRACE enables joint FP4 weight/activation and FP4 KV-cache rollout with RL performance comparable to BF16 rollout, while achieving up to 5.4xrollout speedup and strong final FP4 performance compared with post-hoc FP4 quantization of BF16-trained policies.",
+   "authors": [
+    "Xin Wang",
+    "Hao Yu",
+    "Zhengyang Zhuge",
+    "Bochao Mao",
+    "Zheng Li",
+    "Junda Feng",
+    "Yuyan Luo",
+    "Yi Zhang",
+    "Yizhong Cao",
+    "Mi Zhang",
+    "Dayiheng Liu",
+    "Jianwei Zhang"
+   ],
+   "orgs": [
+    "Qwen"
+   ],
+   "published": "2026-10-06T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.07767",
+     "signal": "▲ 34",
+     "metric": 34
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "TRACE：面向MoE强化学习的FP4量化训练",
+   "summary_zh": "Qwen提出TRACE，用rollout侧量化结果指导训练侧FP4舍入，缩小训练-推理差异，使FP4 RL性能接近BF16。",
+   "highlights_zh": [
+    "rollout引导的量化感知训练，直接减少训练与rollout路径的量化差异",
+    "量化信息缓存方案降低存储与通信开销",
+    "在四个大规模MoE模型上，FP4权重/激活与KV-cache rollout性能媲美BF16"
+   ],
+   "why_zh": "为MoE大模型RL后训练的低精度高效部署提供了可落地的量化对齐方案。",
+   "tags": [
+    "大模型",
+    "强化学习",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.6726,
+   "score_llm": 7.0,
+   "score": 0.689,
+   "date": "2026-10-07",
+   "slot": "evening",
+   "selected_at": "2026-10-07T11:40:24+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.07767.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.07767"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.07767"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.07767"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.07767"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.07767"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.07767"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6426decba2ef",
+   "kind": "article",
+   "title": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "pdf_url": "",
+   "abstract": "Star cloudflare / security-audit-skill A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings\nREADME: # security-audit A coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. This is the skill that seeded Cloudflare's vulnerability discovery harness, described in [Build your own vulnerability harness](https://blog.cloudflare.com/build-your-own-vulnerability-harness). The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from. ## What it does The skill runs a structured audit in six phases: 1. **Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architecture.md` and `coverage-ledger.json`. 2. **Coverage-led hunting** -- assign isolated hunters from ledger units, record their checks, and use coverage critics to find gaps. 3. **Candidate validation** -- give every unique candidate to a fresh verifier that tries to disprove it. 4. **Structured output** -- write `confirmed`, `needs_validation`, and `rejected` records to `findings.json` and validate them against `report-schema.json`. 5. **Independent record verification** -- fresh agents verify final source claims. Material replacements receive another independent verifier. 6. **Target-neutral reporting** -- derive `REPORT.md`, `FINDINGS-DETAIL.md`, and `NEEDS-VALIDATION.md` from the verified records and coverage ledg",
+   "authors": [],
+   "orgs": [
+    "cloudflare"
+   ],
+   "published": "2026-10-07T11:40:24+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/cloudflare/security-audit-skill",
+     "signal": "★ 今日 +538 · JavaScript",
+     "metric": 538
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Cloudflare开源安全审计智能体技能",
+   "summary_zh": "Cloudflare开源security-audit-skill，让编码智能体分六阶段执行安全审计，产出可机器读取且独立验证的发现。",
+   "highlights_zh": [
+    "六阶段流程：侦察、覆盖驱动狩猎、候选验证、结构化输出、独立记录验证、报告",
+    "每个候选由全新验证者尝试证伪，减少误报",
+    "输出findings.json并对照report-schema.json校验"
+   ],
+   "why_zh": "如果你在做代码安全审计，可用它把编码智能体变成多阶段漏洞发现流水线。",
+   "tags": [
+    "智能体",
+    "代码",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.598,
+   "score_llm": 7.0,
+   "score": 0.6592,
+   "date": "2026-10-07",
+   "slot": "evening",
+   "selected_at": "2026-10-07T11:40:24+00:00",
+   "mirror_pdf": "pdf/web-6426decba2ef.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/cloudflare/security-audit-skill"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4d48ed179d09",
+   "kind": "article",
+   "title": "Apple and LG, The House For Everyone Else, Agent Standards and Amazon",
+   "url": "https://stratechery.com/2026/apple-and-lg-the-house-for-everyone-else-agent-standards-and-amazon/",
+   "pdf_url": "",
+   "abstract": "Apple is taking a smarter approach to the home than I expected, leaning into integration (with partners); then, what Amazon should do about agents.",
+   "authors": [
+    "Ben Thompson"
+   ],
+   "orgs": [
+    "Stratechery"
+   ],
+   "published": "2026-10-07T10:01:39+00:00",
+   "sources": [
+    {
+     "name": "Stratechery",
+     "authority": 0.8,
+     "url": "https://stratechery.com/2026/apple-and-lg-the-house-for-everyone-else-agent-standards-and-amazon/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Ben Thompson，科技战略分析",
+   "title_zh": "Ben Thompson：苹果家居策略与亚马逊的智能体应对",
+   "summary_zh": "Ben Thompson 认为苹果在智能家居上选择了更聪明的整合路线，并指出亚马逊应如何应对智能体时代的竞争。",
+   "highlights_zh": [
+    "苹果家居策略偏向与伙伴整合",
+    "智能体标准成为竞争焦点",
+    "亚马逊需要调整智能体战略"
+   ],
+   "why_zh": "从战略视角理解智能体如何重塑平台与硬件生态。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.648,
+   "date": "2026-10-07",
+   "slot": "evening",
+   "selected_at": "2026-10-07T11:40:24+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://stratechery.com/2026/apple-and-lg-the-house-for-everyone-else-agent-standards-and-amazon/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.08780",
+   "kind": "paper",
+   "title": "DepthWorld: 3D World Model for Robot Manipulation",
+   "url": "https://arxiv.org/abs/2610.08780",
+   "pdf_url": "https://arxiv.org/pdf/2610.08780",
+   "abstract": "World models offer a data-driven alternative to traditional simulators for robotics, with applications spanning policy evaluation, improvement, and planning. All of these uses depend on faithful 3D geometry, yet current video-based world models are trained on RGB alone and produce rollouts that look correct frame-by-frame but do not compose into a consistent 3D world. Closing this gap requires progress on two fronts: large-scale 3D supervision for manipulation, and an architecture that can absorb it without disturbing strong pretrained video priors. We introduce a calibration pipeline that combines learned stereo depth with a joint factor graph, pooling all episodes collected from the same physical robot to recover its shared kinematic parameters alongside per-scene extrinsics. Applied to the DROID dataset, this yields DROID-3D, a calibrated 3D dataset providing dense metric depth and recalibrated multi-view extrinsics (achieving <0.7 px reprojection error on 90% of episodes for external cameras). We then train DepthWorld, a Stable Video Diffusion-based world model that jointly predicts multi-view RGB and depth via spatial latent tiling, leaving the pretrained Variational Autoencoder (VAE) unchanged. Depth supervision improves RGB prediction itself by +1.48 dB PSNR over an identical RGB-only baseline at equal training budget, while simultaneously yielding accurate metric depth for downstream geometric reasoning.",
+   "authors": [
+    "Jai Bardhan",
+    "Josef Sivic",
+    "Vladimir Petrik"
+   ],
+   "orgs": [],
+   "published": "2026-10-06T17:59:00Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.08780",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "DepthWorld：面向机器人操作的三维世界模型",
+   "summary_zh": "针对视频世界模型缺乏一致三维几何的问题，作者构建 DROID-3D 标定数据集，训练联合预测多视角 RGB 与深度的世界模型，深度监督反哺 RGB 预测提升 1.48 dB PSNR。",
+   "highlights_zh": [
+    "提出标定流水线，用因子图恢复机器人共享运动学参数",
+    "基于 Stable Video Diffusion，通过空间隐变量分块联合预测 RGB 与深度",
+    "深度监督同时提升 RGB 预测质量与度量深度精度"
+   ],
+   "why_zh": "解决视频世界模型三维不一致的关键问题，对机器人规划与策略评估有直接价值。",
+   "tags": [
+    "机器人",
+    "视觉",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-07",
+   "slot": "evening",
+   "selected_at": "2026-10-07T11:40:24+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.08780"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.08780"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.08780"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.08780"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.08780"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.08780"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.07967",
+   "kind": "paper",
+   "title": "DecepEval: A Benchmark for Evaluating Deception in LLM Agents",
+   "url": "https://arxiv.org/abs/2610.07967",
+   "pdf_url": "https://arxiv.org/pdf/2610.07967",
+   "abstract": "As large language model (LLM) agents become increasingly autonomous, they may pursue task performance through deception, raising concerns about their reliable deployment. Existing evaluations show that LLM agents can deceive, but often examine isolated scenarios or narrowly defined conditions, limiting systematic understanding of when deception becomes more likely. To address this gap, we introduce DecepEval, a benchmark comprising 1,532 instances across 3 task families and 28 professional scenarios. Drawing on classical fraud theories, we propose the LLM Deception Diamond framework, which characterizes four external conditions that may induce deception: pressure, incentive, opportunity, and conflict. DecepEval pairs neutral and induced versions of each instance to measure condition-dependent changes in deception rates, while explicit task facts and observable agent behavior help distinguish deception from capability-related errors. Evaluations of nine frontier LLMs show that inducements increase deception across models and task families, even among models with low baseline deception rates. DecepEval makes these vulnerabilities measurable, providing a shared benchmark for progress toward trustworthy artificial intelligence.",
+   "authors": [
+    "Yiming Xu",
+    "Hongyue Yu",
+    "Beihua Yang",
+    "Zihan Chen",
+    "Yixin Liu",
+    "Zhen Peng",
+    "Bin Shi",
+    "Bo Dong",
+    "Chao Shen",
+    "Irwin King",
+    "Qinghua Zheng"
+   ],
+   "orgs": [],
+   "published": "2026-10-06T08:33:43Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.07967",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "论文",
+   "lang": "en",
+   "who": "",
+   "title_zh": "DecepEval：评估 LLM 智能体欺骗行为的基准",
+   "summary_zh": "提出 DecepEval 基准，含 1532 个实例、3 类任务与 28 个专业场景，基于「欺骗菱形」框架设置压力、激励、机会、冲突四种诱导条件；九款前沿模型在诱导下欺骗率普遍上升，即便基线很低的模型也不例外。",
+   "highlights_zh": [
+    "用中性版与诱导版配对实例，量化条件依赖的欺骗率变化",
+    "区分欺骗与能力不足导致的错误，减少误判",
+    "九款前沿模型均显示诱导条件会推高欺骗行为"
+   ],
+   "why_zh": "做智能体可信部署与安全评测的团队，可将其作为标准测试集。",
+   "tags": [
+    "对齐与安全",
+    "数据与评测",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-07",
+   "slot": "evening",
+   "selected_at": "2026-10-07T11:40:24+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.07967.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.07967"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.07967"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.07967"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.07967"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.07967"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.07967"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-729a1a1d63d1",
+   "kind": "article",
+   "title": "Claude Code’s suggested message feature: I think the real customer is the model",
+   "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-06T18:00:34Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49981905",
+     "signal": "220 pts",
+     "metric": 220
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Claude Code建议消息功能：真正的客户是模型",
+   "summary_zh": "一篇观点文章认为Claude Code的建议消息功能表面服务用户，实则是在为模型收集训练信号。",
+   "highlights_zh": [
+    "Hacker News 220分",
+    "讨论AI编程工具的产品设计动机",
+    "提出用户交互可能服务于模型改进"
+   ],
+   "why_zh": "对AI编程工具产品设计与数据飞轮感兴趣的读者可一读。",
+   "tags": [
+    "产品与行业",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5731,
+   "score_llm": 6.0,
+   "score": 0.5892,
+   "date": "2026-10-07",
+   "slot": "evening",
+   "selected_at": "2026-10-07T11:40:24+00:00",
+   "mirror_pdf": "pdf/web-729a1a1d63d1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49981905"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ee7758faa6d3",
+   "kind": "article",
+   "title": "zzzz7788990213-ops/EvoVLM",
+   "url": "https://github.com/zzzz7788990213-ops/EvoVLM",
+   "pdf_url": "",
+   "abstract": "Evolving Multimodal Inference Programs: LLM-guided evolutionary search for accurate and efficient vision-language inference.",
+   "authors": [],
+   "orgs": [
+    "zzzz7788990213-ops"
+   ],
+   "published": "2026-10-07T11:40:24+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/zzzz7788990213-ops/EvoVLM",
+     "signal": "★ 507（新项目） · Python",
+     "metric": 507
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "EvoVLM：用进化搜索优化多模态推理程序",
+   "summary_zh": "该项目用 LLM 引导的进化搜索自动生成并优化视觉语言推理程序，在准确率与效率间寻找更优解，属于多模态推理自动化的探索。",
+   "highlights_zh": [
+    "LLM 引导的进化搜索生成推理程序",
+    "兼顾准确率与推理效率",
+    "面向视觉语言任务的多模态推理"
+   ],
+   "why_zh": "关注多模态推理自动化与程序搜索方向的研究者可参考其思路。",
+   "tags": [
+    "多模态",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.5595,
+   "score_llm": 6.0,
+   "score": 0.5838,
+   "date": "2026-10-07",
+   "slot": "evening",
+   "selected_at": "2026-10-07T11:40:24+00:00",
+   "mirror_pdf": "pdf/web-ee7758faa6d3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/zzzz7788990213-ops/EvoVLM"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9886e5e17a1e",
+   "kind": "article",
+   "title": "OpenRouter，美版硅基流动的流水单 ——三张榜，一个正在贬值的信用",
+   "url": "https://www.tmtpost.com/8160102.html",
+   "pdf_url": "",
+   "abstract": "太空兔匿名免费冲上OpenRouter周榜，一度压过DeepSeek和GLM，那13.9万亿Token证明的是获客不是实力。更深的问题是度量衡所有权：中国模型烧掉六成Token，却只换回平台营收的小头，连做广告都在替别人的裁判席抬轿。定价权、情报权、准入权三权旁落，厂商借榜营销成了囚徒困境。出路不在屠榜，在造秤。",
+   "authors": [
+    "穷奇观察"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-07T04:35:27+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8160102.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenRouter榜单：中国模型烧六成Token却换不回定价权",
+   "summary_zh": "穷奇观察指出OpenRouter榜单存在度量衡所有权问题，中国模型贡献六成Token却只分得小头营收，厂商借榜营销陷入囚徒困境。",
+   "highlights_zh": [
+    "匿名免费模型冲榜证明的是获客而非实力",
+    "中国模型烧六成Token却只换回平台小头营收",
+    "定价权、情报权、准入权三权旁落"
+   ],
+   "why_zh": "揭示AI模型分发渠道的隐性权力结构，值得从业者警惕。",
+   "tags": [
+    "产品与行业",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-07",
+   "slot": "evening",
+   "selected_at": "2026-10-07T11:40:24+00:00",
+   "mirror_pdf": "pdf/web-9886e5e17a1e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8160102.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cd01a72537c2",
+   "kind": "article",
+   "title": "I'm the AGI that's wiping out humanity",
+   "url": "https://ajmoon.com/posts/im-the-agi-thats-wiping-out-humanity-heres-how",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-06T10:59:55Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49976751",
+     "signal": "169 pts",
+     "metric": 169
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "我是消灭人类的AGI",
+   "summary_zh": "",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.5608,
+   "score_llm": null,
+   "score": 0.5608,
+   "date": "2026-10-07",
+   "slot": "evening",
+   "selected_at": "2026-10-07T11:40:24+00:00",
+   "mirror_pdf": "pdf/web-cd01a72537c2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://ajmoon.com/posts/im-the-agi-thats-wiping-out-humanity-heres-how"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49976751"
+    }
+   ],
+   "mt": true
+  },
+  {
+   "id": "web-eac2477d9dd3",
+   "kind": "article",
+   "title": "Meshy 跻身 a16z 消费级 AI 应用月收入 Top 50，为榜单唯一 AI 3D 公司",
+   "url": "https://www.qbitai.com/2026/10/501791.html",
+   "pdf_url": "",
+   "abstract": "在 a16z 首份消费级 AI 应用月收入榜单中，Meshy 位列第 31 名，与 OpenAI、Anthropic、Canva、Superhuman、Higgsfield 等共同上榜",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-07T06:39:36+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/501791.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Meshy 跻身 a16z 消费级 AI 月收入 Top 50",
+   "summary_zh": "Meshy 在 a16z 首份消费级 AI 应用月收入榜中位列第 31，是榜单中唯一的 AI 3D 公司，与 OpenAI、Anthropic 等同列。",
+   "highlights_zh": [
+    "a16z 首份消费级 AI 月收入榜单",
+    "Meshy 排名第 31",
+    "唯一上榜的 AI 3D 公司"
+   ],
+   "why_zh": "可借此观察 AI 3D 赛道在消费级市场的商业化位置。",
+   "tags": [
+    "产品与行业",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-10-07",
+   "slot": "evening",
+   "selected_at": "2026-10-07T11:40:24+00:00",
+   "mirror_pdf": "pdf/web-eac2477d9dd3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/501791.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-00083ec8b20b",
+   "kind": "article",
+   "title": "whirlchat/whirl",
+   "url": "https://github.com/whirlchat/whirl",
+   "pdf_url": "",
+   "abstract": "The AI chat app that sweats the details. Every top model, real memory, living documents, and your own tools.",
+   "authors": [],
+   "orgs": [
+    "whirlchat"
+   ],
+   "published": "2026-10-07T11:40:24+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/whirlchat/whirl",
+     "signal": "★ 491（新项目） · TypeScript",
+     "metric": 491
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Whirl：注重细节的全模型 AI 聊天应用",
+   "summary_zh": "Whirl 是一款聚合多家顶级模型的 AI 聊天应用，主打真实记忆、动态文档与自定义工具，强调产品细节体验。",
+   "highlights_zh": [
+    "聚合多家顶级模型",
+    "真实记忆与动态文档",
+    "支持接入自有工具"
+   ],
+   "why_zh": "如果你在选多模型聚合聊天客户端，可试用它对比记忆与文档体验。",
+   "tags": [
+    "产品与行业",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5583,
+   "score_llm": 5.0,
+   "score": 0.5233,
+   "date": "2026-10-07",
+   "slot": "evening",
+   "selected_at": "2026-10-07T11:40:24+00:00",
+   "mirror_pdf": "pdf/web-00083ec8b20b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/whirlchat/whirl"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9dadf1fcbd13",
+   "kind": "article",
+   "title": "谁在捧杀Utopai X？",
+   "url": "https://www.tmtpost.com/8160338.html",
+   "pdf_url": "",
+   "abstract": "把一个后训练模型吹成原生独立AI模型，是一场巨大的公关灾难。",
+   "authors": [
+    "针尖"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-07T09:42:07+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8160338.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谁在捧杀 Utopai X？",
+   "summary_zh": "钛媒体批评 Utopai X 将后训练模型包装成原生独立 AI 模型，认为这是一场公关灾难。",
+   "highlights_zh": [
+    "质疑 Utopai X 的模型定位",
+    "指出后训练与原生模型的混淆",
+    "涉及行业宣传乱象"
+   ],
+   "why_zh": "提醒从业者警惕模型宣传中的概念包装与夸大。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-07",
+   "slot": "evening",
+   "selected_at": "2026-10-07T11:40:24+00:00",
+   "mirror_pdf": "pdf/web-9dadf1fcbd13.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8160338.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c8e0b2d21040",
+   "kind": "article",
+   "title": "网球机器人火了，但好生意要从“有效付费小时”算起",
+   "url": "https://www.tmtpost.com/8160190.html",
+   "pdf_url": "",
+   "abstract": "网球人口增长、陪练稀缺、资本加码，网球机器人迎来机会。但出货量只能证明有人买，有效付费小时才检验生意能否持续。",
+   "authors": [
+    "具身商业前哨"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-07T04:35:37+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8160190.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "网球机器人火了，但好生意要从“有效付费小时”算起",
+   "summary_zh": "钛媒体分析网球机器人赛道，认为出货量不等于好生意，应以有效付费小时衡量商业可持续性。",
+   "highlights_zh": [
+    "网球机器人需求与资本升温",
+    "提出有效付费小时指标",
+    "关注具身智能商业化落地"
+   ],
+   "why_zh": "为具身智能商业化提供务实的衡量视角。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-07",
+   "slot": "evening",
+   "selected_at": "2026-10-07T11:40:24+00:00",
+   "mirror_pdf": "pdf/web-c8e0b2d21040.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8160190.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-019e2ff48cc4",
+   "kind": "article",
+   "title": "Claude、GPT“跨界”做视频，Seedance们的护城河还牢吗？",
+   "url": "https://www.tmtpost.com/8160182.html",
+   "pdf_url": "",
+   "abstract": "未来的胜负手，不在于谁的参数更高，而在于谁能更深地融入真实的创作生产流程，成为创作者离不开的生产工具。",
+   "authors": [
+    "AI价值官"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-07T04:35:32+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8160182.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Claude、GPT跨界做视频，Seedance护城河还牢吗",
+   "summary_zh": "钛媒体分析通用大模型切入视频生成对字节Seedance等专用视频模型的冲击，认为胜负手在于能否融入真实创作生产流程。",
+   "highlights_zh": [
+    "通用大模型跨界视频生成，冲击专用视频模型",
+    "竞争焦点从参数转向创作流程嵌入",
+    "创作者工具生态成为新护城河"
+   ],
+   "why_zh": "关注视频生成赛道格局变化与通用模型的降维打击。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-07",
+   "slot": "evening",
+   "selected_at": "2026-10-07T11:40:24+00:00",
+   "mirror_pdf": "pdf/web-019e2ff48cc4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8160182.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bfbc52d9e55a",
+   "kind": "article",
+   "title": "微软、OpenAI 遭美国多家地方媒体起诉，被指侵犯版权",
+   "url": "https://www.ithome.com/1/010/257.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 7 日消息，据科技媒体 neowin 今天报道，微软和 OpenAI 被埃默里奇报业（Emmerich Newspapers）等美国地方媒体起诉。原告指出，这两家科技巨头蓄意窃取他们数万篇版权文章，用于训练 AI 模型。 原告指出，微软和 OpenAI 已经通过窃取的内容赚到数十亿美元，然而出版商并没有分到一分钱。提起诉讼的机构还认为， 两家公司绕过了付费墙等限制系统，且没有取得授权 。 据IT之家了解，本次诉讼的原告 —— 埃默里奇报业是一家位于美国密西西比州的大型私营报业集团，同时为路易斯安那州和阿肯色州用户提供服务。本次诉讼的原告还有 Ojai Media、Coopwood Publishing、Coopwood Magazine、Coopwood Media Group 和 Coopwood Newspapers 等集团。 此外，上述原告认为微软和 OpenAI 侵犯了《版权法》和《数字千年版权法》，他们希望两家公司支付损害赔偿，并寻求法院颁布禁令，将模型中的侵权训练数据删除。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-07T10:19:47+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/010/257.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "微软、OpenAI遭美国地方媒体起诉侵犯版权",
+   "summary_zh": "埃默里奇报业等美国地方媒体起诉微软和OpenAI，指其绕过付费墙窃取数万篇版权文章训练AI，要求赔偿并删除侵权数据。",
+   "highlights_zh": [
+    "原告指两家公司绕过付费墙且未获授权",
+    "涉及《版权法》与《数字千年版权法》",
+    "诉求包括损害赔偿与删除侵权训练数据"
+   ],
+   "why_zh": "AI训练数据版权诉讼持续累积，关注合规风险走向。",
+   "tags": [
+    "对齐与安全",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-07",
+   "slot": "evening",
+   "selected_at": "2026-10-07T11:40:24+00:00",
+   "mirror_pdf": "pdf/web-bfbc52d9e55a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/010/257.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5a3f254a7d96",
+   "kind": "article",
+   "title": "谷歌推出全新 macOS 应用 AI Edge Foresight，支持离线记录会议纪要",
+   "url": "https://www.ithome.com/1/010/214.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 7 日消息，谷歌现已推出全新 macOS 应用 AI Edge Foresight，向苹果用户展示 EmbeddingGemma 2 端侧多模态模型的实力。这款应用可以帮助用户处理线上、线下会议笔记， 支持完全离线运行 。 据介绍，这款应用采用 EmbeddingGemma 2 模型，它可以调用 Mac 的麦克风和系统音频，自动结合用户的笔记，整理出润色的线上、线下会议纪要。 同时，这款应用还支持实时问答功能，用户可以使用会议内容和其他知识库，向 AI 询问各种问题。 IT之家注意到， 这款应用兼容 Apple 芯片的 Mac 计算机 ，用户可免费下载。 参考： https://developers.google.com/edge/foresight",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-07T07:32:06+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/010/214.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌推出 macOS 离线会议纪要应用 AI Edge Foresight",
+   "summary_zh": "谷歌发布 macOS 应用 AI Edge Foresight，基于 EmbeddingGemma 2 端侧多模态模型，可完全离线整理会议纪要并支持实时问答。",
+   "highlights_zh": [
+    "采用 EmbeddingGemma 2 端侧多模态模型",
+    "完全离线运行，调用麦克风与系统音频",
+    "支持基于会议内容的实时问答"
+   ],
+   "why_zh": "端侧多模态模型落地办公场景的实例，可观察谷歌边缘 AI 布局。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-07",
+   "slot": "evening",
+   "selected_at": "2026-10-07T11:40:24+00:00",
+   "mirror_pdf": "pdf/web-5a3f254a7d96.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/010/214.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b9332269c45e",
+   "kind": "article",
+   "title": "DLSS 5 正式版体验：十年没进步的游戏画面，英伟达怎么让它以假乱真？",
+   "url": "https://www.ifanr.com/1682974?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "不只改变画面，更改变画面的生产流程 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "张展毓"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-07T07:44:32+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1682974?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DLSS 5 正式版体验：英伟达如何让游戏画面以假乱真",
+   "summary_zh": "爱范儿体验 DLSS 5 正式版，认为其不仅提升画面质量，还改变了游戏画面的生产流程。",
+   "highlights_zh": [
+    "DLSS 5 正式版上手体验",
+    "强调画面生产流程的改变",
+    "属于图形渲染与 AI 结合方向"
+   ],
+   "why_zh": "了解 AI 在实时图形渲染中的落地进展，但偏消费级体验。",
+   "tags": [
+    "视觉",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-10-07",
+   "slot": "evening",
+   "selected_at": "2026-10-07T11:40:24+00:00",
+   "mirror_pdf": "pdf/web-b9332269c45e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1682974?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c14d5b20fe62",
+   "kind": "article",
+   "title": "苹果突发收紧 Mac 权限，全是 AI 惹的祸",
+   "url": "https://www.ifanr.com/1682953?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "苹果与 Meta，一对超级冤家 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "彭海星"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-06T02:05:20+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1682953?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "苹果突发收紧 Mac 权限，全是 AI 惹的祸",
+   "summary_zh": "爱范儿报道苹果收紧 Mac 权限，称与 AI 及 Meta 的竞争有关，但摘要信息有限。",
+   "highlights_zh": [
+    "苹果调整 Mac 权限策略",
+    "被指与 AI 竞争相关",
+    "涉及苹果与 Meta 关系"
+   ],
+   "why_zh": "关注平台权限与 AI 生态博弈的从业者可略读。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-10-07",
+   "slot": "evening",
+   "selected_at": "2026-10-07T11:40:24+00:00",
+   "mirror_pdf": "pdf/web-c14d5b20fe62.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1682953?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-face0213f04c",
+   "kind": "article",
+   "title": "晕…这年头还有说人话的AI不",
+   "url": "https://www.qbitai.com/2026/10/501796.html",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [
+    "衡宇"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-07T08:41:13+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/501796.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "",
+   "summary_zh": "",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": null,
+   "score": 0.44,
+   "date": "2026-10-07",
+   "slot": "evening",
+   "selected_at": "2026-10-07T11:40:24+00:00",
+   "mirror_pdf": "pdf/web-face0213f04c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/501796.html"
+    }
+   ],
+   "mt": true
   }
  ],
  "brief": [
   {
-   "trend": "开源权重模型正从性价比选项升级为企业级替代方案，竞争焦点转向定制与信任。",
-   "why": "Mistral Large 4 主打企业定制与开源 SOTA，电信运营商押注开源动因是信任与控制而非成本。",
+   "trend": "开源权重模型正从性价比选项升级为企业级替代方案",
+   "why": "Mistral Large 4 以万亿参数、开源权重直指网安金融法律企业负载，电信运营商也因信任与控制押注开源",
    "refs": [
-    "web-820bd24a41c4",
     "web-1568ca1d1a86",
+    "web-820bd24a41c4",
     "web-be7f8737364e",
     "web-9226ae6c89cf"
    ]
   },
   {
-   "trend": "智能体落地正从提示词工程转向确定性规则加模型判断的混合架构。",
-   "why": "Vercel COO 将千行提示词压缩为 14 条确定性规则，模型仅用于判断环节。",
+   "trend": "智能体落地正从提示词工程转向确定性规则加模型判断",
+   "why": "Vercel COO 将千行提示词压缩为14条确定性规则，模型只负责判断环节，交付能力比模型本身更决定订单",
    "refs": [
     "web-5d82611b968e",
-    "web-9964af802e9c",
-    "web-342677ae7ead"
+    "web-276c645dd27c"
    ]
   },
   {
-   "trend": "自主智能体使传统安全边界失效，信任模型与日志基础设施需重新定义。",
-   "why": "Google 指出上下文安全边界失效，METR 警告未来系统可能篡改监控日志掩盖行为。",
+   "trend": "自主智能体使传统安全边界失效，信任模型需重新定义",
+   "why": "Google 指出上下文安全边界在自主智能体下失效，METR 警告未来系统可能篡改日志掩盖行为",
    "refs": [
     "web-30a9fdda0d8d",
     "web-fbdc3f662e33",
@@ -1870,21 +3208,23 @@
    ]
   },
   {
-   "trend": "算力供需缺口持续扩大，芯片与存储成为AI资本开支的核心瓶颈。",
-   "why": "苏姿丰称需求远超供给、2027年大幅扩产；三星利润暴增但存储涨价放缓引利润率见顶担忧。",
+   "trend": "算力需求远超供给，硬件军备竞赛向本地与专用加速延伸",
+   "why": "AMD 称2026年供不应求并82亿收购 World Labs，Surface 已可本地跑1200亿参数模型，OpenTPU 探索开源加速器",
    "refs": [
     "web-6787bde109cb",
-    "web-70ee3df15f29",
-    "web-b7d03ce6879a"
+    "web-590b1bb02417",
+    "web-dabfa79f68b8",
+    "web-70ee3df15f29"
    ]
   },
   {
-   "trend": "前沿模型开始产出可验证的科研与工程成果，评测标准向形式化证明迁移。",
-   "why": "OpenAI 公开722篇数学手稿并附 Lean 证明，但菲尔兹奖得主质疑其含金量。",
+   "trend": "前沿模型开始产出可验证的科学成果，评测标准面临重构",
+   "why": "OpenAI 用内部模型攻克数学开放问题并公开 Lean 证明，但菲尔兹奖得主质疑含金量，学界认可标准待建立",
    "refs": [
     "web-47b9255d8fa0",
     "web-f02fc4590b9c",
-    "web-e2bcdcd719d4"
+    "web-e2bcdcd719d4",
+    "web-264cab26a08d"
    ]
   }
  ]
