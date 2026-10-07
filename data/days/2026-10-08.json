@@ -1,0 +1,1132 @@
+{
+ "date": "2026-10-08",
+ "items": [
+  {
+   "id": "web-618e8fb74c6c",
+   "kind": "article",
+   "title": "anthropics/knowledge-work-plugins",
+   "url": "https://github.com/anthropics/knowledge-work-plugins",
+   "pdf_url": "",
+   "abstract": "Star anthropics / knowledge-work-plugins Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork\nREADME: # Knowledge Work Plugins Plugins that turn Claude into a specialist for your role, team, and company. Built for [Claude Cowork](https://claude.com/product/cowork), also compatible with [Claude Code](https://claude.com/product/claude-code). ## Why Plugins Cowork lets you set the goal and Claude delivers finished, professional work. Plugins let you go further: tell Claude how you like work done, which tools and data to pull from, how to handle critical workflows, and what slash commands to expose — so your team gets better and more consistent outcomes. Each plugin bundles the skills, connectors, slash commands, and sub-agents for a specific job function. Out of the box, they give Claude a strong starting point for helping anyone in that role. The real power comes when you customize them for your company — your tools, your terminology, your processes — so Claude works like it was built for your team. ## Plugin Marketplace We're open-sourcing 11 plugins built and inspired by our own work: | Plugin | How it helps | Connectors | |--------|-------------|------------| | **[productivity](./productivity)** | Manage tasks, calendars, daily workflows, and personal context so you spend less time repeating yourself. | Slack, Notion, Asana, Linear, Jira, Monday, ClickUp, Microsoft 365 | | **[sales](./sales)** | Research prospects, prep for calls, review your pipeline, draft outreach, and build competitive battlecards. | Slack, HubSpot, Close, Clay, ZoomInfo, Notion, Jira, Fireflies, Microso",
+   "authors": [],
+   "orgs": [
+    "anthropics"
+   ],
+   "published": "2026-10-07T17:44:23+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/anthropics/knowledge-work-plugins",
+     "signal": "★ 今日 +764 · Python",
+     "metric": 764
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Anthropic 开源知识工作插件集",
+   "summary_zh": "Anthropic 开源 11 个面向知识工作者的 Claude 插件，打包技能、连接器、斜杠命令与子智能体，适配 Cowork 与 Claude Code。",
+   "highlights_zh": [
+    "覆盖生产力、产品、财务等 11 个职能角色",
+    "每个插件内置 Slack、Notion、Asana 等连接器",
+    "支持按公司术语与流程二次定制"
+   ],
+   "why_zh": "如果你在用 Claude 做知识工作，可直接复用官方插件模板快速搭建团队工作流。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6924,
+   "score_llm": 8.0,
+   "score": 0.757,
+   "date": "2026-10-08",
+   "slot": "morning",
+   "selected_at": "2026-10-07T17:44:23+00:00",
+   "mirror_pdf": "pdf/web-618e8fb74c6c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/anthropics/knowledge-work-plugins"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-827104ba5a57",
+   "kind": "article",
+   "title": "A Change in AI Strategy",
+   "url": "https://tomtunguz.com/what-if-the-models-are-commoditized/",
+   "pdf_url": "",
+   "abstract": "AI models have reached commodity status as prices fall 41% while token usage surges 50%. To win relative share, labs should partner & resell models, control the user interface where distribution becomes the moat, & capture routing data to reduce the cost of training future models.",
+   "authors": [
+    "Tomasz Tunguz"
+   ],
+   "orgs": [
+    "Tomasz Tunguz"
+   ],
+   "published": "2026-10-07T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Tomasz Tunguz",
+     "authority": 0.75,
+     "url": "https://tomtunguz.com/what-if-the-models-are-commoditized/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Theory Ventures 创始人，AI 投资",
+   "title_zh": "AI战略转向：模型商品化后的竞争新逻辑",
+   "summary_zh": "Tomasz Tunguz认为AI模型已商品化，价格下降41%而token用量增长50%，实验室应转向合作转售模型、控制用户界面、捕获路由数据以降低未来训练成本。",
+   "highlights_zh": [
+    "模型价格下降41%，token用量增长50%，商品化趋势明确",
+    "竞争壁垒从模型本身转向用户界面与分发渠道",
+    "路由数据成为降低未来训练成本的关键资产"
+   ],
+   "why_zh": "对AI商业模式与竞争格局判断有直接参考价值。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-10-08",
+   "slot": "morning",
+   "selected_at": "2026-10-07T17:44:23+00:00",
+   "mirror_pdf": "pdf/web-827104ba5a57.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://tomtunguz.com/what-if-the-models-are-commoditized/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-10c96a2b3658",
+   "kind": "article",
+   "title": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
+   "url": "https://www.latent.space/p/stacklok",
+   "pdf_url": "",
+   "abstract": "Kubernetes co-creators Craig McLuckie and Joe Beda aim to bring agent harnesses fully into the cloud.",
+   "authors": [
+    "Richard MacManus"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-07T14:10:45+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/stacklok",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "云原生Harness能否让智能体走出桌面？",
+   "summary_zh": "Latent Space报道Kubernetes联合创始人Craig McLuckie和Joe Beda正尝试将智能体harness完全带入云端，探索云原生架构下智能体的可靠性问题。",
+   "highlights_zh": [
+    "K8s联合创始人入局智能体基础设施",
+    "核心问题：智能体harness如何从桌面走向云端",
+    "云原生架构或成智能体可靠运行的关键路径"
+   ],
+   "why_zh": "关注智能体基础设施与云原生结合的从业者值得一读。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-10-08",
+   "slot": "morning",
+   "selected_at": "2026-10-07T17:44:23+00:00",
+   "mirror_pdf": "pdf/web-10c96a2b3658.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/stacklok"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5bdd694c6290",
+   "kind": "article",
+   "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+   "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-10-07T12:45:31+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "一个模型家族，两块金牌：微调Nemotron攻克IOI与IMO",
+   "summary_zh": "Hugging Face博客介绍如何微调Nemotron模型家族，使其在IOI信息学奥赛和IMO数学奥赛中均取得金牌级成绩，展示开源模型在复杂推理任务上的潜力。",
+   "highlights_zh": [
+    "同一模型家族在IOI和IMO两个高难度推理基准上均达金牌水平",
+    "展示了针对竞赛级推理任务的微调方法论",
+    "为开源模型在数学与编程推理方向提供可复现路径"
+   ],
+   "why_zh": "关注开源模型推理能力上限与竞赛级微调方法的读者值得一读。",
+   "tags": [
+    "大模型",
+    "推理",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 7.0,
+   "score": 0.612,
+   "date": "2026-10-08",
+   "slot": "morning",
+   "selected_at": "2026-10-07T17:44:23+00:00",
+   "mirror_pdf": "pdf/web-5bdd694c6290.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.08773",
+   "kind": "paper",
+   "title": "AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model",
+   "url": "https://arxiv.org/abs/2610.08773",
+   "pdf_url": "https://arxiv.org/pdf/2610.08773",
+   "abstract": "Web agents complete user requests by reading and acting on pages that third parties write, so an instruction planted on a page can redirect the agent away from the user's goal. The agent cannot simply ignore the page, because the page also holds the values and controls the task requires. Current defenses fine-tune the agent on injections fixed before training, and attackers that adapt to the trained model bypass them. Adversarial training lets the attacker adapt but keeps the tasks fixed, so a task stops teaching once the agent solves it. We introduce AdvSim2Real, which co-evolves a task curriculum, an injection adversary, and the agent inside a frozen web world model. The curriculum is rewarded for tasks the agent solves about half of the time, and the adversary only for a success flip, an injection that turns a judged success into a failure. Training in the simulator makes a 4B agent both more capable and more robust: its completion rises with and without attacks, holds against a frontier-model adversary it never trained against, and its capability gain carries over to a real browser. On 150 web tasks, AdvSim2Real raises completion under this unseen adversary by 33.6\\% relative to the base agent.",
+   "authors": [
+    "Sarim Hashmi",
+    "Mukul Ranjan",
+    "Kshitij Mishra",
+    "Mikhail Kuznetsov",
+    "Praneeth Vepakomma",
+    "Nils Lukas"
+   ],
+   "orgs": [],
+   "published": "2026-10-06T17:56:43Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.08773",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AdvSim2Real：在Web世界模型中对抗自适应提示注入训练Web智能体",
+   "summary_zh": "针对网页提示注入攻击，提出在冻结的Web世界模型中协同进化任务课程、注入攻击者与智能体，让4B智能体在真实浏览器上对未见过的前沿模型攻击完成率相对提升33.6%。",
+   "highlights_zh": [
+    "任务课程奖励「约一半成功率」的难度，避免任务过早失效",
+    "攻击者仅因「成功翻转为失败」获得奖励，实现自适应对抗",
+    "能力提升可迁移到真实浏览器，且对未见攻击者保持鲁棒"
+   ],
+   "why_zh": "为Web Agent安全训练提供了可扩展的对抗仿真范式。",
+   "tags": [
+    "智能体",
+    "对齐与安全",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-08",
+   "slot": "morning",
+   "selected_at": "2026-10-07T17:44:23+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.08773.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.08773"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.08773"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.08773"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.08773"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.08773"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.08773"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ad4e14640e35",
+   "kind": "article",
+   "title": "Helping teens learn, plan, and shape the future of AI",
+   "url": "https://openai.com/index/teens-learn-and-plan",
+   "pdf_url": "",
+   "abstract": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-10-07T12:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/teens-learn-and-plan",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 为青少年推出学习工具",
+   "summary_zh": "OpenAI 在 ChatGPT for Teens 中上线 College Planner，并推出闪卡、测验及青少年 AI 委员会。",
+   "highlights_zh": [
+    "面向青少年的大学申请规划",
+    "新增闪卡与测验功能",
+    "成立青少年 AI 委员会"
+   ],
+   "why_zh": "反映 OpenAI 在教育场景与青少年安全治理上的产品布局。",
+   "tags": [
+    "产品与行业",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 6.0,
+   "score": 0.576,
+   "date": "2026-10-08",
+   "slot": "morning",
+   "selected_at": "2026-10-07T17:44:23+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/teens-learn-and-plan"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a3c3e0339f9e",
+   "kind": "article",
+   "title": "微软提出“混合智能”新路线，协同本地 / 云端 AI 灵活处理 Win11 用户任务",
+   "url": "https://www.ithome.com/1/010/309.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 8 日消息，太平洋时间 10 月 7 日上午 10 点（北京时间 10 月 8 日凌晨 1 点）在美国旧金山举办的发布会上，微软提出“混合智能”（hybrid intelligence）理念，强调通过混合架构，结合云端 AI 与本地计算能力， 在 Windows 11 系统上实际处理用户任务。 IT之家援引博文介绍，Windows AI 不再局限于单一的云端调用或设备端运行，会根据任务类型、设备性能和安全需求，在本地与云端之间进行协同：对隐私敏感、需要快速响应的任务，可更多依靠本地处理；对于复杂模型和高算力需求，则交由云端完成。 Windows 可能成为这一模式的重要入口：用户提出目标后，Copilot 和 AI 智能体负责理解上下文、调用相关工具并推进任务，同时保留用户对关键步骤、权限和最终结果的控制。 这一理念与微软此前提出的“前沿生态系统”相互呼应。微软首席执行官萨蒂亚 · 纳德拉将信任、智能以及“融入人类抱负的 AI”视为三大支柱，并把 Agent 365、Microsoft IQ 和 Copilot 称为微软的“关键支点”。 在这一框架下，混合智能强调重新设计人与 Windows、应用和智能体之间的协作方式。微软还提到混合架构和本地 — 云端协同的重要性：设备端可承担需要低延迟、隐私保护的任务，云端则提供更强的模型和计算能力。结合 Execution Containers 等受控运行环境，AI 智能体有望在获得必要权限的情况下执行更复杂的操作。 在本次活动中，微软高级技术项目经理凯拉 · 辛纳蒙演示 GitHub Copilot，它会自动选择本地模型，并非一股脑地调用云端模型处理。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-07T17:42:01+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/010/309.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "微软提出“混合智能”路线，本地与云端协同处理Win11任务",
+   "summary_zh": "微软发布“混合智能”理念，Windows 11根据任务类型、隐私与算力需求在本地和云端间协同调度AI，Copilot与智能体负责编排。",
+   "highlights_zh": [
+    "隐私敏感、低延迟任务走本地，复杂模型走云端",
+    "Copilot与AI智能体理解上下文并调用工具推进任务",
+    "GitHub Copilot演示自动选择本地模型而非全走云端"
+   ],
+   "why_zh": "端云协同成为操作系统级AI架构方向，影响智能体部署形态。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-08",
+   "slot": "morning",
+   "selected_at": "2026-10-07T17:44:23+00:00",
+   "mirror_pdf": "pdf/web-a3c3e0339f9e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/010/309.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e3fed6539df2",
+   "kind": "article",
+   "title": "MAI Code 1.1 Flash 模型将整合到微软 Win11：上下文窗口 256K、130B 参数",
+   "url": "https://www.ithome.com/1/010/308.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 8 日消息，太平洋时间 10 月 7 日上午 10 点（北京时间 10 月 8 日凌晨 1 点）在美国旧金山举办的活动中，微软表示正计划将 MAI Code 1.1 Flash 模型（包含 1300 亿个参数）引入 Windows 11 设备。 作为 6 月发布的 MAI-Code-1-Flash 的升级版，MAI Code 1.1 Flash 现已集成到 GitHub Copilot 与 VS Code 等开发环境中，用于日常编码、仓库问答、重构、工具调用等场景。 微软计划进一步将其整合到 Windows 系统中，该模型采用 3-bit 量化，已缩小 80%，上下文窗口大小为 256K。IT之家附上相关图片如下： 定位方面，该模型主要是在 Copilot 里高频、低成本、低延迟地帮你把活干完，在真实开发流程中规划、推理并执行任务，同时尽量用更少的 token、更低的成本完成。 性能方面，相比 6 月版本，MAI-Code 1.1-Flash 在 GitHub Copilot CLI 的 Terminal-Bench 2.1 上提升约 22%，在 .NET 任务上提升约 15%；同时输出 token 流速度提升约 25%，完成任务所需 token 减少约 25%。 多模态方面，新增“看图写代码 / 理解图”的能力，可直接读取截图、架构图、UI 草图等图像输入，加速从设计到实现的流程（6 月版为纯文本）。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-07T17:29:16+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/010/308.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "微软MAI Code 1.1 Flash将整合进Win11：130B参数、256K上下文",
+   "summary_zh": "微软计划将130B参数的MAI Code 1.1 Flash引入Windows 11，3-bit量化缩小80%，Terminal-Bench提升22%，新增看图写代码能力。",
+   "highlights_zh": [
+    "3-bit量化压缩80%，256K上下文窗口",
+    "Terminal-Bench 2.1提升约22%，.NET任务提升15%",
+    "输出速度提升25%，token消耗减少25%，新增多模态图像输入"
+   ],
+   "why_zh": "微软自研编码模型下沉到操作系统，端侧AI能力边界再扩展。",
+   "tags": [
+    "大模型",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-08",
+   "slot": "morning",
+   "selected_at": "2026-10-07T17:44:23+00:00",
+   "mirror_pdf": "pdf/web-e3fed6539df2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/010/308.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ff0a499da073",
+   "kind": "article",
+   "title": "“iPod 之父”法德尔分析 Rabbit R1 等初代 AI 设备为何失败：没能真正满足任何需求",
+   "url": "https://www.ithome.com/1/010/299.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 7 日消息，被誉为“iPod 之父”的托尼 · 法德尔最近在首届麻省理工未来节发表演讲。他上台时展示了三款曾经备受追捧的第一代 AI 设备：Rabbit R1、Humane AI Pin 和 Limitless Pendant，并说道：“这些产品背后的公司都找过我，希望我能给些建议，然而我都拒绝了。” 托尼 · 法德尔表示：“这些设备失败的原因很简单， 它们没能真正满足任何实际需求 。极客看到这些小玩意可能觉得很有意思，但普通用户只会觉得，它们确实很酷，但和我的生活并没什么关系。所以你必须真正理解自己想做什么，以及需要解决什么痛点。” 据IT之家了解，这些 AI 设备宣称能够提供个人助理一样的体验，但实际体验并不理想。即使它们真有厂商吹得那么天花乱坠， 大多数人也从未拥有过秘书或助理 ， 不知道如何使用这些“机器人助理” ，更不清楚如何跟一个 AI 建立信任关系。 法德尔解释道：“我最初花了好几年时间，才真正弄懂如何用好助理，然后才会将最敏感的数据交给他们，让他们真正充当代理人，比如帮我安排会议、处理银行事务。我理解那些创业人拥有宏大愿景，但想让普通消费者接受这些，还有很长的路要走。” 如今，与 AI 助理建立信任似乎比真人更加困难。Meta 最近推出了 Muse 智能体，但安全专家发现了严重安全漏洞。 “当我们把某种智能交给它来处理事务时，信任和安全将成为最重要的问题。”法德尔说，“就目前而言，我认为唯一可能做到这一点的公司，也许还有另一家，就是苹果。苹果拥有所有硬件、芯片以及所需的一切，但它没有完整的 AI 能力。”",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-07T15:19:07+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/010/299.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "iPod之父法德尔：初代AI硬件为何失败",
+   "summary_zh": "法德尔在MIT未来节分析Rabbit R1、Humane AI Pin等初代AI设备失败原因：未满足真实需求，用户不知如何与AI建立信任，并认为苹果最有条件做成AI助理。",
+   "highlights_zh": [
+    "初代AI硬件失败核心：酷但和普通人生活无关，未解决实际痛点",
+    "用户缺乏使用助理的经验，与AI建立信任比与真人更难",
+    "法德尔认为苹果硬件生态最完整，但AI能力仍欠缺"
+   ],
+   "why_zh": "理解AI硬件产品化的真实门槛，避免重蹈初代AI设备覆辙。",
+   "tags": [
+    "产品与行业",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-08",
+   "slot": "morning",
+   "selected_at": "2026-10-07T17:44:23+00:00",
+   "mirror_pdf": "pdf/web-ff0a499da073.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/010/299.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4b747264582f",
+   "kind": "article",
+   "title": "华为余承东：极紫外光刻（EUV）设备是制造先进芯片的关键，国内目前正在研发",
+   "url": "https://www.ithome.com/1/010/286.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 7 日消息，华为海外 X 账号昨日发布了 9 月 29 日的国际媒体圆桌会议摘要。华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东与多家国际媒体的记者就华为消费者业务及 HarmonyOS 生态系统进行了交流。 在被问及关于 AI、硬件与 EUV 的问题时，余承东表示，极紫外光刻（EUV）设备当然是制造先进芯片的关键。 中国目前正在研发这些设备 ，但现阶段国内仍然依靠深紫外光刻（DUV）。 逻辑折叠（LogicFolding）技术，是在获取某些技术受到限制的情况下，用来提升能力的一种方法 。 另外，手机的主处理器需要先进制程，但手机中的许多其他部件并没有那么高的制程要求。因此，华为采用系统工程的方法，持续优化整体性能，弥补无法获得更先进制程的不足。 据IT之家此前报道，在 10 月 1 日的华为 Mate 90 系列及全场景新品发布会上，华为年度旗舰 ——Mate 90 系列手机正式发布，全系搭载了韬定律芯片。 旗舰 τ 芯片：麒麟 9030（Mate 90）、麒麟 9035（Mate 90 Pro）； 逻辑折叠 τ 芯片：麒麟 9050（Mate 90 Pro Max）、麒麟 9050 Pro（Mate 90 Pro Max / RS 非凡大师）。 根据华为官方介绍，韬定律提出了以“时间 (τ) 缩微”替代“几何缩微”作为半导体与电子系统演进的新指导原则 —— 通过逻辑折叠等创新技术，持续压缩信号传播时延，不断提升晶体管密度，从而实现半导体与电子系统的持续演进。 “逻辑折叠 (LogicFolding)”等核心技术构建了贯穿器件、电路、芯片到系统层面的多层级协同优化体系。该体系以系统性降低时间常数 τ 为目标，旨在驱动各层级性能、能效、晶体管密度的持续提升： 器件层面：通过优化晶体管和互连电阻及寄生电容，从物理底层最大限度缩微器件级时间常数 τ； 电路层面：通过逻辑折叠技术突破传统平面布局的物理边界，显著缩短关键路径的走线长度并有效降低信号传播的电阻和电容负载，实现晶体管密度和电路性能大幅提升； 芯片层面：通过“软件、架构、芯片”的全栈软硬芯协同设计，基于实际工作负载实现指令流和数据流的细粒度控制，提高系统级并行度和效率，大幅降低端到端执行时间； 系统层面：定义灵衢总线，重构计算系统互联协议，实现超节点的统一内存编址和原生内存语义，大幅降低系统通信时延。 值得一提的是，预计到 2031 年， 基于韬 (τ) 定律的高端芯片晶体管密度将达到 1.4 纳米制程的同等水平 。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-07T13:32:21+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/010/286.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "余承东谈EUV与华为韬定律芯片路线",
+   "summary_zh": "余承东表示EUV是制造先进芯片的关键，中国正在研发但现阶段仍依赖DUV，华为以逻辑折叠等韬定律技术通过系统工程弥补制程限制，目标2031年达1.4纳米同等密度。",
+   "highlights_zh": [
+    "国内EUV正在研发，当前仍依靠DUV光刻",
+    "逻辑折叠技术通过压缩信号时延提升晶体管密度",
+    "韬定律目标2031年高端芯片达1.4纳米同等水平"
+   ],
+   "why_zh": "理解中国在先进制程受限下的替代性芯片演进路径。",
+   "tags": [
+    "效率与系统",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-08",
+   "slot": "morning",
+   "selected_at": "2026-10-07T17:44:23+00:00",
+   "mirror_pdf": "pdf/web-4b747264582f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/010/286.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0825a4897dea",
+   "kind": "article",
+   "title": "Multimodal open d1 decision models for the edge",
+   "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-10-07T16:54:33+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "面向边缘的多模态决策模型",
+   "summary_zh": "Hugging Face 博客介绍面向边缘设备的多模态开放决策模型，但摘要信息有限。",
+   "highlights_zh": [
+    "面向边缘部署",
+    "多模态决策模型",
+    "Hugging Face 技术博客"
+   ],
+   "why_zh": "关注边缘端多模态决策模型落地的读者可参考。",
+   "tags": [
+    "多模态",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 6.0,
+   "score": 0.552,
+   "date": "2026-10-08",
+   "slot": "morning",
+   "selected_at": "2026-10-07T17:44:23+00:00",
+   "mirror_pdf": "pdf/web-0825a4897dea.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/LiquidAI/open-d1"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.08747",
+   "kind": "paper",
+   "title": "The Missing Minimal Pair: Stereotype Evaluation in LLMs",
+   "url": "https://arxiv.org/abs/2610.08747",
+   "pdf_url": "https://arxiv.org/pdf/2610.08747",
+   "abstract": "A common approach to measuring bias in Large Language Models is to compare the log-likelihoods of two contrastive stereotype sentences. We argue that such single-pair comparisons are often unreliable: simply rewriting the same stereotype with an alternative attribute can yield logically inconsistent preferences. To address this, we propose a dual minimal pair setup that introduces two axes of comparison for robust stereotype evaluation. First, we present a data-augmentation framework that fills critical gaps in existing stereotype datasets by generating paraphrases and alternate attributes. We apply our framework on a set of English, Russian, Spanish and Chinese stereotypes. Second, we introduce two evaluation metrics tailored to the dual minimal pair setup. One of these metrics provides a new perspective on bias by modeling the mutual information (MI) between social groups and stereotyped attributes. This MI-based metric is better suited for aggregation and enables more robust comparisons of stereotype strength across different languages and models. Our code is available at https://github.com/stepanat/missing-minimal-pair/.",
+   "authors": [
+    "Nataliya Stepanova",
+    "Ivan Titov",
+    "Emily Allaway",
+    "Björn Ross"
+   ],
+   "orgs": [],
+   "published": "2026-10-06T17:41:44Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.08747",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "缺失的最小对：大模型刻板印象评测方法改进",
+   "summary_zh": "指出单对反事实句比较不可靠，提出双最小对评测框架，通过数据增强生成改写与替换属性，并引入基于互信息的指标，在英俄西中四语种上实现更稳健的刻板印象强度比较。",
+   "highlights_zh": [
+    "单对比较会因改写产生逻辑不一致的偏好",
+    "双最小对引入两个比较轴提升评测稳健性",
+    "互信息指标更适合跨语言、跨模型聚合比较"
+   ],
+   "why_zh": "做LLM偏见评测与安全对齐的研究者值得参考。",
+   "tags": [
+    "对齐与安全",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 7.0,
+   "score": 0.548,
+   "date": "2026-10-08",
+   "slot": "morning",
+   "selected_at": "2026-10-07T17:44:23+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.08747.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.08747"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.08747"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.08747"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.08747"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.08747"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.08747"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-455499dd8d4c",
+   "kind": "article",
+   "title": "Penguin Mail – open-source Rust email client for Linux with AI",
+   "url": "https://penguin-mail.com/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-06T21:59:43Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49984716",
+     "signal": "229 pts",
+     "metric": 229
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Penguin Mail：带 AI 的 Rust 邮件客户端",
+   "summary_zh": "一款面向 Linux 的开源 Rust 邮件客户端，集成 AI 功能，登上 Hacker News。",
+   "highlights_zh": [
+    "Rust 编写，开源",
+    "Linux 桌面端",
+    "内置 AI 辅助"
+   ],
+   "why_zh": "关注开源 AI 桌面工具与本地化邮件助手的读者可一看。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.575,
+   "score_llm": 5.0,
+   "score": 0.53,
+   "date": "2026-10-08",
+   "slot": "morning",
+   "selected_at": "2026-10-07T17:44:23+00:00",
+   "mirror_pdf": "pdf/web-455499dd8d4c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://penguin-mail.com/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49984716"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2be993c9a7e6",
+   "kind": "article",
+   "title": "AgentMemoryRepo/agentmemoryrepo",
+   "url": "https://github.com/AgentMemoryRepo/agentmemoryrepo",
+   "pdf_url": "",
+   "abstract": "Spec for Agent Memory Repo",
+   "authors": [],
+   "orgs": [
+    "AgentMemoryRepo"
+   ],
+   "published": "2026-10-07T17:44:23+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/AgentMemoryRepo/agentmemoryrepo",
+     "signal": "★ 608（新项目）",
+     "metric": 608
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Agent Memory Repo 规范",
+   "summary_zh": "一个新项目提出智能体记忆仓库的规范草案，试图标准化智能体的长期记忆存储。",
+   "highlights_zh": [
+    "智能体记忆规范",
+    "新项目热度较高",
+    "尚处早期草案阶段"
+   ],
+   "why_zh": "如果你在做智能体长期记忆，可关注其规范思路。",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5658,
+   "score_llm": 5.0,
+   "score": 0.5263,
+   "date": "2026-10-08",
+   "slot": "morning",
+   "selected_at": "2026-10-07T17:44:23+00:00",
+   "mirror_pdf": "pdf/web-2be993c9a7e6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/AgentMemoryRepo/agentmemoryrepo"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-475fd729df90",
+   "kind": "article",
+   "title": "DozenTwelve/Papermorph",
+   "url": "https://github.com/DozenTwelve/Papermorph",
+   "pdf_url": "",
+   "abstract": "An AI skill that turns books into animated, narrated, interactive web experiences",
+   "authors": [],
+   "orgs": [
+    "DozenTwelve"
+   ],
+   "published": "2026-10-07T17:44:23+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/DozenTwelve/Papermorph",
+     "signal": "★ 509（新项目） · HTML",
+     "metric": 509
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Papermorph：把书变成互动网页",
+   "summary_zh": "一个 AI 技能，可将书籍转化为带动画、旁白和交互的网页体验。",
+   "highlights_zh": [
+    "书籍转互动网页",
+    "含动画与旁白",
+    "HTML 实现"
+   ],
+   "why_zh": "如果你在做内容再创作或教育类 AI 应用，可参考其交互形态。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5596,
+   "score_llm": 5.0,
+   "score": 0.5238,
+   "date": "2026-10-08",
+   "slot": "morning",
+   "selected_at": "2026-10-07T17:44:23+00:00",
+   "mirror_pdf": "pdf/web-475fd729df90.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/DozenTwelve/Papermorph"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-04e9dc3828b5",
+   "kind": "article",
+   "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+   "url": "https://openai.com/index/radisson",
+   "pdf_url": "",
+   "abstract": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-10-07T07:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/radisson",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "丽笙酒店接入 ChatGPT 预订",
+   "summary_zh": "丽笙酒店集团与埃森哲合作，用 OpenAI 技术打造 ChatGPT 插件，支持旅客搜索、比较和预订酒店。",
+   "highlights_zh": [
+    "酒店预订进入 ChatGPT",
+    "埃森哲参与建设",
+    "对话式旅行规划"
+   ],
+   "why_zh": "展示 ChatGPT 插件在旅游行业的商业化落地案例。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 5.0,
+   "score": 0.516,
+   "date": "2026-10-08",
+   "slot": "morning",
+   "selected_at": "2026-10-07T17:44:23+00:00",
+   "mirror_pdf": "pdf/web-04e9dc3828b5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/radisson"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-379b6de9e5eb",
+   "kind": "article",
+   "title": "Meshy 跻身 a16z 消费级 AI 应用月收入 Top 50，为榜单唯一 AI 3D 公司",
+   "url": "https://www.leiphone.com/category/industrynews/ZKXlV8iIwXaBOpzO.html",
+   "pdf_url": "",
+   "abstract": "在 a16z 首份消费级 AI 应用月收入榜单中， Meshy 位列第 31 名，与 OpenAI 、 Anthropic 、 Canva 、 Superhuman 、 Higgsfield 等共同上榜 加州硅谷， 2026 年 10 月 5 日 —— 全球领先的 AI 3D 多模态模型公司 Meshy 今日宣布，公司入选由硅谷风险投资机构 Andreessen Horowitz （ a16z ）发布的 “ 消费级 AI 应用月收入 Top 50” 榜单。 Meshy 位列第 31 名，是榜单上唯一一家 AI 3D 公司，与 OpenAI 、 Anthropic 、 Canva 、 Superhuman 、 Higgsfield 等企业共同上榜。 a16z 在报告中指出，收入榜单上多款头部创意类产品均建立在自研模型之上；即便通用模型在图像和视频生成方面不断进步，消费者仍持续为专业化创意工具付费。 Meshy 自主研发面向 3D 生成的多模态模型，此次上榜标志着 AI 3D 已经和语言、图像、视频、音乐一样，成为一个独立的付费品类。 “ 很荣幸 Meshy 成为该榜单上唯一的 AI 3D 公司，这说明 3D 已经成为用户愿意付费的品类。 ”Meshy 增长副总裁潘菲表示， “ 每天，都有大量艺术家、工作室和创作者借助 Meshy ，在几分钟内把创意变成 3D 作品。我们相信， 3D 将是下一个伟大的创作媒介，而我们的使命，就是让每个人都能轻松用 3D 进行创作。 ” 此次入选，是 Meshy 一段快速增长期的缩影。公司近期宣布，其年度经常性收入（ ARR ）已突破 1 亿美元； 2026 年 7 月，公司完成近 4 亿美元 B 轮融资，投后估值超 100 亿元。 关于 Meshy Meshy 构建用于 AI 驱动 3D 生成的多模态基础模型，将文本和图像转化为可用于游戏、电影和 3D 打印的生产级 3D 资产。 Meshy 由拥有麻省理工学院博士学位的胡渊鸣（ Ethan Hu ）创立，目前在全球拥有超过 1500 万注册用户。 2026 年 7 月，该公司完成了近 4 亿美元的 B 轮融资，估值达 15 亿美元，这是迄今为止 AI 3D 领域最大的融资轮次。了解更多信息，请访问 meshy.ai 。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-07T04:19:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/ZKXlV8iIwXaBOpzO.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Meshy入选a16z消费级AI月收入Top50，为唯一AI 3D公司",
+   "summary_zh": "Meshy位列a16z消费级AI应用月收入榜第31名，是唯一AI 3D公司，ARR已破1亿美元，估值15亿美元。",
+   "highlights_zh": [
+    "a16z榜单中唯一AI 3D公司，与OpenAI、Anthropic同列",
+    "ARR突破1亿美元，B轮融资近4亿美元",
+    "a16z指出消费者持续为专业化创意工具付费"
+   ],
+   "why_zh": "AI 3D成为独立付费品类的信号，值得关注多模态商业化路径。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-08",
+   "slot": "morning",
+   "selected_at": "2026-10-07T17:44:23+00:00",
+   "mirror_pdf": "pdf/web-379b6de9e5eb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/ZKXlV8iIwXaBOpzO.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.08642",
+   "kind": "paper",
+   "title": "HygieneRoboBench: Benchmarking Hygiene-Aware Planning for Household Robots",
+   "url": "https://arxiv.org/abs/2610.08642",
+   "pdf_url": "https://arxiv.org/pdf/2610.08642",
+   "abstract": "Contact with contaminated objects can spread hazards through a household robot's grippers, tools, and shared surfaces, while new contacts can make an existing plan unsafe. Existing benchmarks do not jointly assess how planners identify hygiene risks from contact history and plan safe continuations after new contact events. Planners must do so within time and resource limits while respecting user priorities. We introduce HygieneRoboBench, with 624 instances across 134 task families, to evaluate safe resolution of household tasks from a given execution history. Tasks capture contamination through two grippers and shared objects, treatment costs, and user priorities. We combine controlled history, profile, and event comparisons with independent plan evaluation. These assess safe resolution, cost efficiency under user priorities, and responses to contact events. Evaluation of LLM-based and symbolic planners shows that safely completing a task does not guarantee the lowest execution costs under the user's priorities. To address this problem, we introduce Hygiene-NSP. It combines LLM-based grounding, contact-history reconstruction, and CP-SAT to jointly plan hygiene treatment and task execution under user priorities. Hygiene-NSP achieves safe resolution and optimal safe resolution rates of 94.4% and 90.4%, respectively. Both rates are higher than those of the evaluated baseline planners on the full dataset. Project page: https://euron-zc.github.io/HygieneRoboBench/.",
+   "authors": [
+    "Yurun Chen",
+    "Josh Qixuan Sun",
+    "Jason Qin",
+    "Chengtai Li",
+    "Tianyi Wang",
+    "Mark Crowley",
+    "Wentao Zhu"
+   ],
+   "orgs": [],
+   "published": "2026-10-06T16:33:44Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.08642",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "论文",
+   "lang": "en",
+   "who": "",
+   "title_zh": "HygieneRoboBench：家用机器人卫生感知规划基准",
+   "summary_zh": "提出624个实例的卫生感知规划基准，评估机器人从接触历史识别污染风险并规划安全后续动作，同时提出Hygiene-NSP方法达到94.4%安全解决率。",
+   "highlights_zh": [
+    "覆盖双夹爪、共享物体污染与用户优先级",
+    "结合LLM接地、接触历史重建与CP-SAT联合规划",
+    "安全解决率94.4%，最优安全解决率90.4%"
+   ],
+   "why_zh": "做家用机器人任务规划、关注接触污染传播建模的研究者可参考。",
+   "tags": [
+    "机器人",
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 6.0,
+   "score": 0.488,
+   "date": "2026-10-08",
+   "slot": "morning",
+   "selected_at": "2026-10-07T17:44:23+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.08642.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.08642"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.08642"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.08642"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.08642"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.08642"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.08642"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-df30330fca88",
+   "kind": "article",
+   "title": "《怪物史莱克》编剧也来了！这家AI影视公司，视频模型全球第二！",
+   "url": "https://www.qbitai.com/2026/10/501803.html",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-07T11:34:47+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/501803.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "《怪物史莱克》编剧加盟，这家AI影视公司视频模型全球第二",
+   "summary_zh": "量子位报道一家AI影视公司获《怪物史莱克》编剧加盟，其视频模型号称全球第二，属公司宣传性质资讯。",
+   "highlights_zh": [
+    "AI视频生成公司获知名编剧加盟",
+    "宣称视频模型排名全球第二",
+    "内容偏公司宣传，信息增量有限"
+   ],
+   "why_zh": "若关注AI视频生成赛道可快速浏览，但实质信息有限。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 4.0,
+   "score": 0.416,
+   "date": "2026-10-08",
+   "slot": "morning",
+   "selected_at": "2026-10-07T17:44:23+00:00",
+   "mirror_pdf": "pdf/web-df30330fca88.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/501803.html"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "模型商品化倒逼AI实验室从卖模型转向抢用户界面与路由数据",
+   "why": "价格降41%而token用量增50%，Tunguz判断竞争逻辑已从模型能力转向分发与数据闭环。",
+   "refs": [
+    "web-827104ba5a57"
+   ]
+  },
+  {
+   "trend": "智能体架构正从桌面单机走向云原生harness，可靠性成新战场",
+   "why": "Kubernetes两位创始人亲自下场，试图用云原生范式解决智能体运行可靠性问题。",
+   "refs": [
+    "web-10c96a2b3658"
+   ]
+  },
+  {
+   "trend": "端云混合调度成为大厂落地智能体的默认架构选择",
+   "why": "微软同日发布混合智能理念与130B端侧代码模型，按隐私与算力动态分配任务。",
+   "refs": [
+    "web-a3c3e0339f9e",
+    "web-e3fed6539df2"
+   ]
+  },
+  {
+   "trend": "智能体安全从静态防御转向对抗式协同进化训练",
+   "why": "AdvSim2Real让攻击者与智能体在世界模型中共同进化，4B模型对未知攻击完成率提升33.6%。",
+   "refs": [
+    "arxiv-2610.08773"
+   ]
+  },
+  {
+   "trend": "评测方法论开始自我修正，单点对比让位于更稳健的统计框架",
+   "why": "双最小对框架指出单对反事实句不可靠，用互信息指标在四语种上实现更稳比较。",
+   "refs": [
+    "arxiv-2610.08747"
+   ]
+  }
+ ]
+}
