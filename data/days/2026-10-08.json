@@ -1089,43 +1089,1221 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-0ca1450969b5",
+   "kind": "article",
+   "title": "GPT‑6 and Intelligent UI for everyone",
+   "url": "https://openai.com/index/gpt-6-for-everyone/",
+   "pdf_url": "",
+   "abstract": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-10-07T18:00:58Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49996425",
+     "signal": "554 pts",
+     "metric": 554
+    },
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/gpt-6-for-everyone",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 全球发布 GPT-6 与智能 UI",
+   "summary_zh": "OpenAI 在全球范围向 ChatGPT 用户推送 GPT-6，并同步上线 Intelligent UI，主打更快响应、可视化与可直接交互的体验。",
+   "highlights_zh": [
+    "GPT-6 面向全球 ChatGPT 用户滚动上线",
+    "新增 Intelligent UI，强调可视化与交互式体验",
+    "官方称响应速度更快，可直接在对话中探索和使用"
+   ],
+   "why_zh": "头部厂商旗舰模型换代，直接决定未来半年应用层的能力上限与产品形态。",
+   "tags": [
+    "大模型",
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.8963,
+   "score_llm": 9.0,
+   "score": 0.8985,
+   "date": "2026-10-08",
+   "slot": "noon",
+   "selected_at": "2026-10-08T04:50:14+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/gpt-6-for-everyone/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49996425"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.10528",
+   "kind": "paper",
+   "title": "Long-WAM: Scaling the Context of World-Action Models",
+   "url": "https://arxiv.org/abs/2610.10528",
+   "pdf_url": "https://arxiv.org/pdf/2610.10528",
+   "abstract": "Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints. Our central finding is that access to history is not the same as using it: longer histories pay off far more when the video foundation is pretrained autoregressively (AR). We first learn causal prediction from robot and egocentric videos without action labels, then preserve this history-to-future structure during world-action adaptation. On RoboCasa GR-1, increasing context from 0.0 to 19.2 seconds raises success from 63.3% to 78.7%, whereas a bidirectionally pretrained initialization shows no net gain; robot-domain AR pretraining further raises peak success on GR-1 and LIBERO-Long. Long-WAM also achieves the best results among compared methods on LIBERO-Long, RoboTwin 2.0, and DOMINO. Streaming observation encoding, asynchronous execution, and hardware-specific acceleration enable deployment on RTX 5090, DGX Spark, and Jetson AGX Thor without dropping future prediction; on RTX 5090, each action chunk, including future-video latent prediction, takes 107.4 ms. Real-time deployment on Unitree G1 and YAM supports dynamic and long-horizon manipulation, including 95% success on dynamic cup stacking, where Pi0.5 and Fast-WAM succeed in none of 20 trials. As a memory-informed executor, Long-WAM also complements higher-level planning in composite tasks.",
+   "authors": [
+    "Wei Huang",
+    "Bohan Zhang",
+    "Chenzhi Liu",
+    "Isabella Liu",
+    "Shuai Yang",
+    "Weian Mao",
+    "Luozhou Wang",
+    "Yicheng Xiao",
+    "Weifeng Lin",
+    "Qixin Hu",
+    "Bryan Chu",
+    "Sifei Liu",
+    "Linxi Fan",
+    "Xiaojuan Qi",
+    "Song Han",
+    "Yukang Chen"
+   ],
+   "orgs": [
+    "NVIDIA"
+   ],
+   "published": "2026-10-07T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.10528",
+     "signal": "▲ 50",
+     "metric": 50
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Long-WAM：扩展世界-动作模型的上下文",
+   "summary_zh": "NVIDIA 提出 Long-WAM，用自回归预训练让机器人真正用上长视觉历史：上下文从 0 拉到 19.2 秒，GR-1 成功率由 63.3% 升至 78.7%，双向预训练则无净收益。",
+   "highlights_zh": [
+    "关键发现：有历史≠会用历史，自回归预训练才能兑现长上下文收益",
+    "流式观测编码+异步执行，RTX 5090 上每动作块仅 107.4ms",
+    "Unitree G1 与 YAM 实机部署，动态叠杯成功率 95%"
+   ],
+   "why_zh": "揭示机器人长上下文的关键前提，为实时长程操作提供可复现的系统方案。",
+   "tags": [
+    "机器人",
+    "多模态",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.6951,
+   "score_llm": 8.0,
+   "score": 0.758,
+   "date": "2026-10-08",
+   "slot": "noon",
+   "selected_at": "2026-10-08T04:50:14+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.10528.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.10528"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.10528"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.10528"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.10528"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.10528"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.10528"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/NVlabs/LongLive"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.10114",
+   "kind": "paper",
+   "title": "Mechanics of Long-Context Hybrid Models Part 1.1: From Hybrid Attention to Hybrid Position",
+   "url": "https://arxiv.org/abs/2610.10114",
+   "pdf_url": "https://arxiv.org/pdf/2610.10114",
+   "abstract": "The architectural design of Large Language Models (LLMs) is shifting from traditional full-attention-only models to hybrid models, which combine different attention modules to improve long-context efficiency and performance in length extrapolation and context extension. To explain why hybrid models work and how to design them better, we propose Mechanics of Long-Context Hybrid Models. As Part 1.1 of this series, we begin with hybrids of full attention and either sliding-window attention (SWA) or gated variants of linear attention (LA), represented by GLA and GDN. We first observe a Seesaw Effect in Context Extension: LA hybrids benefit more from long-context continual pretraining, whereas SWA hybrids perform better under length extrapolation. We attribute this behavior to differences in the positional inductive biases induced by these attention mechanisms. We find that SWA hybrids suffer from a Short-Context Learning Trap, Short-Window Weariness, and Long-Window Laziness, and require extended windows to enhance performance in continual long-context pretraining. For LA hybrids, we summarize the Matthew Effect of Hybrid Position Extrapolation and propose Sliding-Window Linear Attention, achieving 16$\\times$ training-free length extrapolation while maintaining 100\\% accuracy on NIAH-SK1 in 64k context length.",
+   "authors": [
+    "Xiaoran Liu",
+    "Ziwei He",
+    "Xipeng Qiu"
+   ],
+   "orgs": [
+    "OpenMOSS"
+   ],
+   "published": "2026-10-07T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.10114",
+     "signal": "▲ 17",
+     "metric": 17
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.10114",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "长上下文混合模型机理：从混合注意力到混合位置",
+   "summary_zh": "OpenMOSS 系统剖析全注意力与 SWA/线性注意力混合的机理：发现上下文扩展的跷跷板效应，SWA 混合存在短上下文学习陷阱，线性注意力混合则呈马太效应，并提出滑动窗口线性注意力实现 16 倍免训练长度外推。",
+   "highlights_zh": [
+    "跷跷板效应：LA 混合受益于长上下文继续预训练，SWA 混合更擅长长度外推",
+    "归纳 SWA 的短上下文学习陷阱、短窗疲劳与长窗惰性",
+    "滑动窗口线性注意力在 64k NIAH-SK1 保持 100% 准确率"
+   ],
+   "why_zh": "为长上下文架构选型提供可操作的机理级指导，而非经验性调参。",
+   "tags": [
+    "大模型",
+    "效率与系统",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.6128,
+   "score_llm": 8.0,
+   "score": 0.7251,
+   "date": "2026-10-08",
+   "slot": "noon",
+   "selected_at": "2026-10-08T04:50:14+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.10114.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.10114"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.10114"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.10114"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.10114"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.10114"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.10114"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/OpenMOSS/Hybrid-Mechanics"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a343c9786e70",
+   "kind": "article",
+   "title": "Claude Haiku 5.5",
+   "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+   "pdf_url": "",
+   "abstract": "As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI's GPT-6 Luna , released last month. The new Haiku exactly matches the price of GPT-6 Luna - $0.10/$0.50 - up to 100,000 tokens. Beyond 100,000 tokens the price increases 5x to $0.50/$2.50. Luna itself has a price increase at 272,000 tokens but only to $0.20/$0.75. Haiku 5.5 also uses a new, less generous tokenizer. My Claude Token Counter tool shows that the same long prompt uses around 1.25x as many tokens with Haiku 5.5 compared to Haiku 4.5, so there's a hidden price increase there. If your workloads fit in 100,000 tokens, Haiku is the same price as Luna and reports higher benchmark scores. Above 100,000 tokens, Luna looks like a much better deal. The most recent release of llm-anthropic finally fixed it so I don't need to ship a new version of that plugin for every new model. I tested the new model like this: llm install -U llm-anthropic llm anthropic refresh llm -m claude-haiku-5.5 \"Generate an SVG of a pelican riding a bicycle\" -o thinking_effort low Pelicans Here are pelicans for low, medium, high, xhigh, and max . The new Haiku doesn't let you disable reasoning, and defaults to medium . I got a good bicycle frame for everything beyond low . The low effor",
+   "authors": [
+    "Simon Willison"
+   ],
+   "orgs": [
+    "Simon Willison"
+   ],
+   "published": "2026-10-07T20:56:21+00:00",
+   "sources": [
+    {
+     "name": "Simon Willison",
+     "authority": 0.8,
+     "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Django 联合创始人，LLM 实践者",
+   "title_zh": "Claude Haiku 5.5 实测：价格对齐 Luna，长上下文更贵",
+   "summary_zh": "Simon Willison 认为 Haiku 5.5 定价与 GPT-6 Luna 持平、跑分更高，但新分词器使 token 数增加约 1.25 倍，超 10 万 token 后价格翻 5 倍，长上下文场景 Luna 更划算。",
+   "highlights_zh": [
+    "10 万 token 内与 Luna 同价且跑分更高",
+    "新分词器带来隐性涨价约 25%",
+    "超 10 万 token 价格涨 5 倍，Luna 更优"
+   ],
+   "why_zh": "选型时需按上下文长度算真实成本，别只看标价。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.708,
+   "date": "2026-10-08",
+   "slot": "noon",
+   "selected_at": "2026-10-08T04:50:14+00:00",
+   "mirror_pdf": "pdf/web-a343c9786e70.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.10497",
+   "kind": "paper",
+   "title": "QuadTok: Quadtree Visual Tokenizer for Autoregressive Image Generation",
+   "url": "https://arxiv.org/abs/2610.10497",
+   "pdf_url": "https://arxiv.org/pdf/2610.10497",
+   "abstract": "We introduce QuadTok, a novel framework for visual tokenization and autoregressive image generation. Compared to traditional approaches using 2D grids or 1D token sequences, we propose a hierarchical quadtree structure, bridging the gap between 2D spatial binding and 1D sequence-level flexibility. The QuadTok tokenizer dynamically allocates representational capacity to visually intricate areas while leaving homogeneous regions at a coarse resolution. Compared with a fixed 256-token grid, our ImageNet-trained tokenizer saves approximately 10% of tokens on ImageNet and 9% when transferred zero-shot to the COCO dataset, while maintaining comparable reconstruction fidelity. Furthermore, the natural causality introduced by the tree structure seamlessly enables autoregressive image generation. Conditioned on a quadtree topology supplied before generation, our 947M GPT-style generative model achieves a 2.08 gFID on the ImageNet 256 times 256 benchmark. Additionally, leveraging the strong spatial correlation preserved by the quadtree structure, the QuadTok generator enables zero-shot spatially controlled image generation capabilities. Code: https://github.com/myc634/QuadTok.",
+   "authors": [
+    "Yucheng Mao",
+    "Zeyuan Chen",
+    "Xiaojun Shan",
+    "Xiang Zhang",
+    "Divyansh Srivastava",
+    "Bingnan Li",
+    "Zhuowen Tu"
+   ],
+   "orgs": [],
+   "published": "2026-10-07T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.10497",
+     "signal": "▲ 8",
+     "metric": 8
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "QuadTok：四叉树视觉分词器用于自回归图像生成",
+   "summary_zh": "提出四叉树结构的视觉分词器 QuadTok，按视觉复杂度动态分配表征容量，均匀区域用粗分辨率，相比固定 256 token 网格在 ImageNet 省约 10% token、零样本迁移 COCO 省 9% 且重建质量相当；其树结构天然带来因果性，947M GPT 式生成模型在 ImageNet 256×256 上达 2.08 gFID，并支持零样本空间可控生成。",
+   "highlights_zh": [
+    "四叉树层级结构兼顾 2D 空间绑定与 1D 序列灵活性",
+    "动态分配 token，复杂区域细、均匀区域粗，节省约 10% token",
+    "树结构自带因果顺序，可直接自回归生成并支持空间可控生成"
+   ],
+   "why_zh": "做自回归图像生成或视觉 tokenizer 的研究者，这是架构层面的新思路。",
+   "tags": [
+    "视觉",
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.5114,
+   "score_llm": 8.0,
+   "score": 0.6846,
+   "date": "2026-10-08",
+   "slot": "noon",
+   "selected_at": "2026-10-08T04:50:14+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.10497.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.10497"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.10497"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.10497"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.10497"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.10497"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.10497"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/myc634/QuadTok"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.10524",
+   "kind": "paper",
+   "title": "GRACE: Generation-aware latent compression for efficient video generation",
+   "url": "https://arxiv.org/abs/2610.10524",
+   "pdf_url": "https://arxiv.org/pdf/2610.10524",
+   "abstract": "Highly compressed video autoencoders offer an effective way to accelerate video diffusion models, as the Diffusion Transformer (DiT) operates on far fewer tokens. However, such autoencoders are challenging to train, since a higher compression ratio degrades reconstruction quality and recovering it requires more channels, which is known to slow the convergence of the DiT. The compressed latent also differs from the one the DiT was trained on, so the pretrained DiT must be either retrained from scratch or adapted at considerable cost. Compressing the autoencoder the DiT was trained with appears to preserve compatibility, yet optimizing it for reconstruction alone still shifts the latent away from the distribution the DiT has learned. To address this, we propose Generation-Aware Latent Compression for Efficient Video Generation (GRACE), a two-stage framework that compresses a pretrained video autoencoder while keeping it compatible with the pretrained DiT. Specifically, we keep a frozen base latent from the pretrained encoder and learn a residual latent for the information lost under stronger compression, while aligning the compressed latent with the pretrained latent in the feature space of the frozen DiT so that the autoencoder is optimized for generation. We then adapt the DiT with lightweight fine-tuning and asymmetric denoising, where the base is denoised ahead of the residual. GRACE reduces the token count of Wan2.1-I2V-14B by 8x and its latency by 11.1x at 480x832x81, while matching the generation quality of the pretrained pipeline before compression on VBench.",
+   "authors": [
+    "Jiyoung Kim",
+    "Paul Hyunbin Cho",
+    "Jisu Nam",
+    "Donghoon Lee",
+    "Hyunsung Go",
+    "Yeonkyeong Lee",
+    "Hansaem Kim",
+    "Seungryong Kim"
+   ],
+   "orgs": [
+    "KAIST AI"
+   ],
+   "published": "2026-10-07T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.10524",
+     "signal": "▲ 50",
+     "metric": 50
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "GRACE：面向生成感知的视频隐空间压缩",
+   "summary_zh": "KAIST 提出 GRACE，两阶段压缩预训练视频自编码器：冻结基础隐变量、学习残差补偿，并在 DiT 特征空间对齐，使高压缩比下无需重训即可加速视频扩散生成。",
+   "highlights_zh": [
+    "解决高压缩比导致重建质量下降与 DiT 收敛变慢的矛盾",
+    "残差隐变量+特征对齐，保持与预训练 DiT 的兼容性",
+    "轻量微调与非对称去噪完成适配"
+   ],
+   "why_zh": "为视频生成降本提供兼容既有 DiT 的压缩路径，工程落地价值明确。",
+   "tags": [
+    "视觉",
+    "效率与系统",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.6151,
+   "score_llm": 7.0,
+   "score": 0.666,
+   "date": "2026-10-08",
+   "slot": "noon",
+   "selected_at": "2026-10-08T04:50:14+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.10524"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.10524"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.10524"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.10524"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.10524"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.10524"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/cvlab-kaist/GRACE"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-898744e97ee3",
+   "kind": "article",
+   "title": "GPT-6今起免费用！拒答变少，话变多了",
+   "url": "https://www.qbitai.com/2026/10/501834.html",
+   "pdf_url": "",
+   "abstract": "ChatGPT聊天框长出界面",
+   "authors": [
+    "听雨"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-08T01:07:19+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/501834.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "GPT-6 免费开放，ChatGPT 推出智能交互界面",
+   "summary_zh": "OpenAI 将 GPT-6 免费开放给 ChatGPT 用户，并推出 Intelligent UI：模型不再只输出文字，而是自动生成图表、按钮、表单等可操作界面。",
+   "highlights_zh": [
+    "GPT-6 面向更广泛用户免费开放",
+    "新 IUI 可按问题自动组合文字、图表、按钮、表单",
+    "交互范式从纯对话转向可操作界面生成"
+   ],
+   "why_zh": "对话式 AI 向可操作界面演进，是产品形态的重要拐点。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-10-08",
+   "slot": "noon",
+   "selected_at": "2026-10-08T04:50:14+00:00",
+   "mirror_pdf": "pdf/web-898744e97ee3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/501834.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-26c9309c17eb",
+   "kind": "article",
+   "title": "The Curve Bends You",
+   "url": "https://thezvi.wordpress.com/2026/10/07/the-curve-bends-you/",
+   "pdf_url": "",
+   "abstract": "The plan is no plan. That is not the worst possible plan. But it is close. Since before the transformer, we have warned that the most suicidal thing you could do would be to ask your AI to do your … Continue reading →",
+   "authors": [
+    "TheZvi"
+   ],
+   "orgs": [
+    "Zvi Mowshowitz"
+   ],
+   "published": "2026-10-07T20:31:33+00:00",
+   "sources": [
+    {
+     "name": "Zvi Mowshowitz",
+     "authority": 0.75,
+     "url": "https://thezvi.wordpress.com/2026/10/07/the-curve-bends-you/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 趋势评论员，每周 AI 综述",
+   "title_zh": "Zvi：把决策外包给 AI 是最危险的做法",
+   "summary_zh": "Zvi Mowshowitz 认为，让 AI 替你做决策是近乎自杀的行为，当前「没有计划」本身就是最接近灾难的计划。",
+   "highlights_zh": [
+    "警告将决策权外包给 AI 的风险",
+    "批评行业缺乏应对计划",
+    "强调人类保留判断权的重要性"
+   ],
+   "why_zh": "对 AI 依赖与对齐风险的尖锐提醒，值得从业者反思。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-10-08",
+   "slot": "noon",
+   "selected_at": "2026-10-08T04:50:14+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://thezvi.wordpress.com/2026/10/07/the-curve-bends-you/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-85385f43f3cb",
+   "kind": "article",
+   "title": "研究了1933篇 IROS 论文，我们看到了机器人学的六项新变化",
+   "url": "https://www.leiphone.com/category/private/wEpCJ4T8v9cJFgCn.html",
+   "pdf_url": "",
+   "abstract": "大模型并没有“吃掉”机器人学。 作者丨 马晓宁 编辑丨岑 峰 9月27日，IROS 2026 将在匹兹堡开幕。重隔31年后，IROS 重回这座钢铁之城。 作为全球规模最大的机器人学术会议之一，今年进入正式议程的论文达到 1933 篇。把这近两千篇论文铺开来看，它更像是一张 2026 年机器人研究的横截面：从强化学习、模仿学习，到路径规划、视觉感知、运动控制、灵巧操作，再到人形机器人、触觉和大模型，过去几年机器人领域几乎所有重要技术路线，都同时出现在这张图谱里。 但真正值得注意的，并不是 Humanoid、VLA 或 World Model 这些更容易获得产业和媒体关注的关键词。 对 1933 篇论文进行多标签梳理后可以看到，Robot Learning / Embodied AI 相关论文约有 809 篇，Navigation / Planning 564 篇，Perception / Vision 556 篇，Control / Dynamics 546 篇，Manipulation 520 篇，而 Humanoid / Legged 相关论文约为 213 篇。 由于一篇论文可能同时涉及多个方向，这些数字不能简单相加，但它们说明了一件事：机器人研究并没有因为大模型进入，而被重新归并成一个单一的“AI 问题”。 相反，学习、感知、规划、控制和操作正在以前所未有的密度交织在一起。 在万众瞩目的 AGI 狂热大背景下，这近两千篇论文却释放了一个信号： 大模型并没有 “ 吃掉 ” 机器人学。 恰恰相反，在经历了两年的端到端狂奔后，机器人研究正通过三维几何、符号推理和底层控制的‘中间层复兴’，试图在匹兹堡找回那个被像素和 Token 掩盖的物理灵魂。” IROS 2026 真正值得追问的，也许不是“大模型是否正在取代传统机器人学”，而是机器人研究是否正在进入一个更复杂的系统阶段。 01 AI 没有取代传统机器人学， 而是在重新嵌进去 如果进一步观察这些论文之间的交叉关系，大模型进入机器人之后真正发生的变化会更加清楚。 Robot Learning 与 Manipulation 同时出现的论文约有 276 篇，与 Perception 交叉的有 269 篇，与 Navigation / Planning 交叉的有 225 篇，与 Control / Dynamics 交叉的也有 221 篇。 学习方法没有简单挤压掉机器人原有的技术模块，反而越来越深地嵌入这些传统问题之中。 这种变化首先体现在规划上。 来自石溪大学的 Jorge Mendez-Mendez 在 《A Systematic Study of Large Language Models for Task and Motion Planning with PDDLStream》 中，系统测试了大语言模型嵌入传统 Task and Motion Planning 框架之后的表现。研究并没有指向“大模型可以直接取代规划器”，反而显示，几何约束、运动可行性和执行逻辑仍需要传统规划体系参与。 这很有代表性。LLM 可以理解“把杯子拿到桌子的另一边”是什么意思，但机器人真正执行时，还必须回答机械臂会不会碰撞、关节是否可达、路径能否执行，以及当前环境有没有发生变化。 问题因此从“LLM 能不能替代 Planner”，变成了两者应该如何分工。 类似现象也出现在 VLA 的感知端。 入围 IROS 2026 Cognitive Robotics 最佳论文候选的 GeoVLA: Empowering 3D Repr",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-08T02:46:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/private/wEpCJ4T8v9cJFgCn.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "1933篇IROS论文揭示机器人学六大新变化",
+   "summary_zh": "雷峰网梳理IROS 2026的1933篇论文发现，大模型并未取代传统机器人学，而是深度嵌入规划、感知与控制，机器人研究正走向「中间层复兴」的复杂系统阶段。",
+   "highlights_zh": [
+    "Robot Learning/具身智能论文约809篇，与操作、感知、规划、控制交叉均超200篇",
+    "LLM嵌入传统Task and Motion Planning框架，几何约束与运动可行性仍不可替代",
+    "人形/足式论文仅约213篇，热度低于产业关注度"
+   ],
+   "why_zh": "想了解大模型时代机器人研究真实走向的从业者，这份量化图谱比新闻标题更可靠。",
+   "tags": [
+    "机器人",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-08",
+   "slot": "noon",
+   "selected_at": "2026-10-08T04:50:14+00:00",
+   "mirror_pdf": "pdf/web-85385f43f3cb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/private/wEpCJ4T8v9cJFgCn.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2d0230158b8e",
+   "kind": "article",
+   "title": "吴佳俊 IROS 2026 演讲：结构化表征不是答案， 是机器人学会推理的脚手架 | IROS 2026",
+   "url": "https://www.leiphone.com/category/private/Hd5ntJGqUoFVY1PJ.html",
+   "pdf_url": "",
+   "abstract": "从结构化表征到无演示学习之路。 作者丨 吴思梦 编辑丨岑 峰 一个盘子，一只水龙头，一小团蓝色的洗洁精。 吴佳俊用这样一个几乎没有技术含量的厨房场景，开始了他在 IROS 2026 的演讲。 一个学生挤了洗洁精，打开水龙头，洗了一半，临时离开。现在，换成机器人接手。第一眼看过去，任务直接明确：把盘子洗干净，再放回去。但机器人真正需要处理的，并不是“洗盘子”这三个字。 它得先知道，眼前哪个东西是盘子；得知道这个盘子到底脏不脏；得注意到盘子上有没有那一小团蓝色的洗洁精。它还得知道水龙头现在是不是已经开着，盘子是不是已经被洗过，以及当它把盘子拿起来以后，桌面上是不是又暴露出了一个新的问题。 同一个任务，换一个初始状态，答案就可能完全不同。盘子已经洗过了，就不用再洗。没有洗洁精，就得先挤一点。盘子下面如果压着脏东西，“把盘子洗干净”也就不再等于把盘子放上架子。 人面对这些变化时，往往不会觉得自己做了什么复杂的推理。我们只是看一眼，然后继续做。 但对机器人来说，每一次“看一眼然后继续”，背后都藏着一个问题：它究竟把眼前的世界理解成了什么？ 9 月 27 日，IROS 2026 开幕当天，斯坦福大学计算机科学系助理教授吴佳俊在 RoBoWoMo 研讨会上发表了题为《Building Physical Agents via Structured Representations》的受邀报告。 过去几年，他一直在研究如何从图像里恢复出藏在视觉背后的世界：几何、材质、物理属性，以及物体之间的关系。现在，当这些问题被放进机器人真正生活的物理世界里，另一些问题随之出现。 机器人该用什么方式描述一个任务？这些描述能不能自己学出来？面对训练数据里从未出现过的物体，模型什么时候需要后训练？如果规划本身也可以学习，那么传统的规划器还是否必要？ 最后，问题甚至不再是“机器人有没有看过人怎么做”。 如果没有演示，没有遥操作数据，甚至面对的是一个从来没见过的水龙头，机器人还能不能自己想出：它可能怎样被使用？ 以下是吴佳俊在 IROS 2026 发表的演讲精编稿。雷峰网·AI 科技评论基于现场英文演讲进行了编辑，在不改变原意的基础上，对口语表达和技术术语进行了重新梳理。 ▎ Building Physical Agents via Structured Representations 主讲人：吴佳俊，斯坦福大学计算机科学系助理教授（兼任心理学系助理教授） 01 一只盘子，为什么会让机器人犯难 今天我想讲的是，我们怎么用结构化的表征，构建出能在物理世界里做事的智能体。 先从视觉讲起。说到底，你只看得见图像，而图像背后站着一整个世界：几何、材质、不同的物理属性。我们的研究主线一直是，这些东西能在多大程度上被还原出来；而一旦你把它们还原出来了，你就可以重新创造这个世界。 这几年还有一个很热闹的方向，是数字空间里的智能体。它们接收指令，和整个世界交互。这自然让人想到另一个问题：物理世界有没有同样的结构？在数字世界里，你有目录，目录里有文件，文件有它的属性；在物理世界里，你有场景，场景里有物体，物体也有它的属性。那么，我们能不能利用这种结构，把那些智能体从数字空间带到物理空间来。这就是今天这场报告的主题。 一旦你真的要让机器人和人待在同一个世界里，事情就变难了。这个世界很复杂，它是动态的，也是多样的，你要处理大量不同的任务。当然要用基础模型，它们现在越来越强，强大到让你觉得不拿来用简直说不过去。但你用它们的方式可以很不一样：要不要做后训练，要不要引入更多结构，要不要把一些额外的知识接进来，接进来",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-08T02:29:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/private/Hd5ntJGqUoFVY1PJ.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "吴佳俊：结构化表征是机器人推理的脚手架",
+   "summary_zh": "斯坦福吴佳俊在IROS 2026演讲中认为，结构化表征不是机器人推理的最终答案，而是帮助物理智能体理解几何、材质与物体关系的脚手架，并探讨无演示学习之路。",
+   "highlights_zh": [
+    "从图像恢复几何、材质、物理属性与物体关系，重建视觉背后的世界",
+    "类比数字智能体的目录-文件结构，将结构化思路带入物理空间",
+    "追问无演示、无遥操作数据下机器人能否自主推理物体用法"
+   ],
+   "why_zh": "吴佳俊是具身智能与视觉推理领域重要学者，其判断对理解物理智能体路线有参考价值。",
+   "tags": [
+    "机器人",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-08",
+   "slot": "noon",
+   "selected_at": "2026-10-08T04:50:14+00:00",
+   "mirror_pdf": "pdf/web-2d0230158b8e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/private/Hd5ntJGqUoFVY1PJ.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ffd2756d6c4e",
+   "kind": "article",
+   "title": "警告“AI 或灭绝人类”的前 Anthropic 研究员：某种意义上，我曾研究让 AI 取代自己",
+   "url": "https://www.ithome.com/1/010/394.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 8 日消息，据《商业内幕》报道，曾在 Anthropic 和 OpenAI 任职的研究员雅各布 · 考克森警告，AI 很快就能自主开展研究，人类可能完全无法掌控此后的发展。 27 岁的考克森曾在 Anthropic 从事模型能力研究，上个月公开宣布辞职。当地时间 5 日，他向纽约市议员发出警告，称 AI 可能威胁人类生存。 考克森在纽约市议会有关 AI 风险的听证会上作证称，顶尖前沿 AI 实验室的首要目标， 是让 AI 研究实现自动化 。“我在上一份工作中，某种意义上就是在研究 怎么让 AI 取代自己 。我在 OpenAI 时，我们为自动化 AI 研究员设定了 2027 年、2028 年前后的阶段性目标，研发进度符合预期，甚至超过预期。距离那个时候只有几个月，不是几十年，连五年都不是。” 一旦 AI 能自行开展研究，人类参与和干预研究的程度会比今天低得多，而今天的情况就不太理想。以他的亲身经历来看，大部分代码都由 AI 编写，“人们也不再那么仔细地检查代码。” 考克森向议员们作证称，在 Anthropic 和 OpenAI 的工作经历令自己确信，两家公司没有充分的安全保障， 却仍在推进研发 。“人类失去控制权、让 AI 掌握控制权的概率超过一半，最终可能导致人类灭绝。根据我的经历，后果如此重大，两家公司的做法却极其鲁莽。” 考克森在 X 上宣布辞去 Anthropic 职务时，发帖指控 Anthropic 和 OpenAI 都没有负责任地行事， 拿人们的生命作赌注 。帖子随后广泛传播。 听证会上，考克森呼吁 AI 实验室提高透明度，放慢技术飞速发展的步伐。“这些公司用的是初创企业那套思路： 先快速推进，出了问题以后再修 。做照片分享应用可以这么干，开发有史以来最强大的技术可不行。” 据IT之家此前报道，今年 9 月，考克森在辞职时发出警告：“研发 AI 的人确实相信，AI 可能在本世纪 20 年代结束前杀死我们所有人。 这不是营销噱头 。” 相关阅读： 《 曾任职 OpenAI 的 Anthropic 预训练研究员离职并警告：两家公司正拿人类生命赌博 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-08T02:15:30+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/010/394.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "前Anthropic研究员警告AI或灭绝人类",
+   "summary_zh": "前Anthropic和OpenAI研究员考克森在纽约市议会作证，警告顶尖实验室正推进AI研究自动化，人类失去控制权概率超过一半，呼吁提高透明度并放慢研发步伐。",
+   "highlights_zh": [
+    "OpenAI曾为自动化AI研究员设定2027-2028年阶段性目标，进度超预期",
+    "考克森称大部分代码已由AI编写，人们不再仔细检查",
+    "指控两家公司安全保障不足却仍在推进研发，拿人类生命赌博"
+   ],
+   "why_zh": "内部研究员对AI安全风险的罕见公开警告，引发行业对齐与安全反思",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-08",
+   "slot": "noon",
+   "selected_at": "2026-10-08T04:50:14+00:00",
+   "mirror_pdf": "pdf/web-ffd2756d6c4e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/010/394.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-64b3a0b4ee84",
+   "kind": "article",
+   "title": "黄仁勋焦虑 AI 需求降温，曝英伟达拟再投 10 亿美元加码人形机器人企业 Figure",
+   "url": "https://www.ithome.com/1/010/387.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 8 日消息，当地时间 7 日，据 The Information 援引一名知情人士消息称，英伟达曾讨论向人形机器人制造商 Figure 再投资 10 亿美元 （IT之家注：现汇率约合 67.12 亿元人民币） ，此前尚无报道披露这笔投资计划。Figure 寻求更多融资，投前估值约为 380 亿美元 （现汇率约合 2,550.73 亿元人民币） 。 据悉，英伟达本就是 Figure 的投资者；一年前，Figure 按同样估值融资超过 10 亿美元 （现汇率约合 67.12 亿元人民币） 。 上述知情人士称，英伟达还可能投资两类初创企业：帮助公司 开发旗下 Nemotron 开源模型的企业 ，以及 开发其他 AI 应用的企业 。英伟达同意花费 60 亿美元 （现汇率约合 402.75 亿元人民币） 取得 Poolside 的软件许可并聘用其员工，部分原因就是希望推动 Nemotron 的开发。Poolside 员工今年推出了开放权重的 Laguna AI 模型。 主导投资布局的英伟达 CEO 黄仁勋，始终对公司的全球市场地位感到不安。他此前坦言， 担心 AI 需求降温，或出现足以替代英伟达芯片的产品 ，使公司失去主导地位，为此深感焦虑。 英伟达持有 990 亿美元 （现汇率约合 6,645.33 亿元人民币） 现金和证券，现金流也十分充沛。黄仁勋希望借助公司的财力，推动数千个 AI 模型蓬勃发展，避免未来只有少数模型兴旺。如此一来，英伟达的财务表现就有望减少对 OpenAI 及其他少数大客户的依赖。英伟达披露，截至 7 月的六个月内，三家客户贡献了总销售额的 44%。 一名了解英伟达交易情况、投资 AI 基础设施和应用的投资者说：“如果我参与黄仁勋的战略决策，我会尽一切努力，推动数千个模型服务数千种不同的应用场景。” 相关阅读： 《 紧随 OpenAI 步伐，贝索斯、英伟达为人形机器人公司 Figure AI 提供大额资金支持 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-08T01:49:20+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/010/387.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "英伟达拟再投10亿美元加码人形机器人Figure",
+   "summary_zh": "英伟达讨论向人形机器人公司Figure再投资10亿美元，投前估值约380亿美元，黄仁勋担忧AI需求降温，希望通过投资推动数千个AI模型繁荣以减少对大客户依赖。",
+   "highlights_zh": [
+    "Figure投前估值约380亿美元，一年前已按同估值融资超10亿美元",
+    "英伟达还计划投资开发Nemotron开源模型及AI应用的企业",
+    "截至7月六个月内三家客户贡献总销售额44%，黄仁勋深感焦虑"
+   ],
+   "why_zh": "揭示英伟达分散客户依赖、布局机器人与开源模型的战略焦虑",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-08",
+   "slot": "noon",
+   "selected_at": "2026-10-08T04:50:14+00:00",
+   "mirror_pdf": "pdf/web-64b3a0b4ee84.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/010/387.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6f02344687c4",
+   "kind": "article",
+   "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
+   "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+   "pdf_url": "",
+   "abstract": "At a Microsoft event in San Francisco on Wednesday, NVIDIA founder and CEO Jensen Huang and Microsoft CEO Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because of Windows, Huang said. Now AI agents are coming to Windows. “If you […]",
+   "authors": [
+    "Gerardo Delgado"
+   ],
+   "orgs": [
+    "NVIDIA"
+   ],
+   "published": "2026-10-07T18:45:28+00:00",
+   "sources": [
+    {
+     "name": "NVIDIA",
+     "authority": 0.75,
+     "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "英伟达与微软为 Windows PC 带来 RTX Spark 与 AI 智能体",
+   "summary_zh": "在旧金山微软活动上，黄仁勋与纳德拉宣布英伟达与微软联合设计软硬件，让 AI 智能体在 Windows PC 上本地运行，推出 RTX Spark，标志智能体从云端走向个人电脑。",
+   "highlights_zh": [
+    "英伟达与微软联合为 Windows PC 上的 AI 智能体做软硬件协同设计",
+    "发布 RTX Spark，主打本地运行智能体",
+    "黄仁勋称英伟达因 Windows 而生，如今智能体来到 Windows"
+   ],
+   "why_zh": "关注端侧 AI 与智能体落地路径的从业者，这是平台级信号。",
+   "tags": [
+    "智能体",
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 7.0,
+   "score": 0.612,
+   "date": "2026-10-08",
+   "slot": "noon",
+   "selected_at": "2026-10-08T04:50:14+00:00",
+   "mirror_pdf": "pdf/web-6f02344687c4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9330f10ae0c6",
+   "kind": "article",
+   "title": "Claude新模型发布！跑分暴击GPT-6 Luna，价格比梁文谷还便宜，OpenAI只能送重置卡挽尊",
+   "url": "https://www.qbitai.com/2026/10/501832.html",
+   "pdf_url": "",
+   "abstract": "小模型新守门员",
+   "authors": [
+    "梦晨"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-08T01:04:00+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/501832.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Claude 新小模型发布，跑分超 GPT-6 Luna 且更便宜",
+   "summary_zh": "Anthropic 发布小模型，基准跑分超过 GPT-6 Luna，定价更低，OpenAI 以赠送重置卡应对，小模型赛道竞争加剧。",
+   "highlights_zh": [
+    "新模型定位小模型守门员",
+    "跑分超越 GPT-6 Luna",
+    "价格战进一步压低推理成本"
+   ],
+   "why_zh": "小模型性价比之争直接影响应用层成本与选型。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-08",
+   "slot": "noon",
+   "selected_at": "2026-10-08T04:50:14+00:00",
+   "mirror_pdf": "pdf/web-9330f10ae0c6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/501832.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1af7ae935f49",
+   "kind": "article",
+   "title": "银河通用&清华 LATENT：用「不完美人类数据」让机器人学会网球对打 | IROS 2026",
+   "url": "https://www.leiphone.com/category/private/HkC1hSwn255e7hL9.html",
+   "pdf_url": "",
+   "abstract": "5小时动作碎片，最后变成了机器人的身体直觉。 作者丨 吴思梦 编辑丨 岑 峰 马晓宁 如果你玩过《Mario Tennis》或者《TopSpin》，大概不会觉得打网球是一件特别复杂的事。 球飞过来，移动人物，判断落点，在合适的时机按下击球键。 尤其在《Mario Tennis Aces》里，游戏甚至把网球进一步拆成了一套很直观的动作语言：正手、反手、上旋、切削、吊高球，甚至还有需要精确卡点才能完成的特殊击球。 Mario Ten nis Ac es 游戏画面 现实里的网球当然远比这些复杂，游戏做的事情是 “动作映射” （action mapping），本质上是把玩家一个非常抽象的“按键操作”，映射成角色一整套复杂的身体动作。玩家不需要知道这个动作是怎么完成的，因为中间的运动控制被游戏系统接管了。 球什么时候落地、身体什么时候转腰、脚要往哪边迈、手臂应该以多大的速度挥出去，这些事情在游戏里几乎都被隐藏。玩家看到的只是一个简单的输入，游戏引擎负责把它翻译成一连串完整的身体动作。哪怕球飞得再快，角色也不会因为来不及调整重心而站不稳，更不会因为脚下慢了一步，整个人失去平衡。 但如果把这个“按一下就能挥拍”的角色换成一台真正的人形机器人，“具身性”将会使事情变得完全不一样。 具身智能则要求机器人重新承担这个被游戏隐藏起来的身体过程，即从意图到动作的鸿沟。 它首先得判断球从哪里来，再决定什么时候移动、移动多少；接近击球点时，双腿、腰部、躯干、肩膀、手臂和手腕必须协调起来。球拍碰到网球的时间可能只有很短的一息，而就在这段时间里，机器人还必须处理自身姿态、关节速度、摩擦力、球拍重量和来球速度等一系列变化。 网球因此成了一个很有意思的机器人问题。 它不像在实验室里抓取一个静止的杯子。球一直在飞，击球点一直在变，机器人不能只把一个动作做对一次，而是要在不断变化的状态里重复做对。它需要的也不再只是“知道该做什么”，而是让整个身体在几百毫秒甚至更短的时间里形成一个协调的反应。 这也是 IROS 2026 上一项来自银河通用 GaLbot 团队、清华大学、北京大学、上海启智研究院和上海人工智能实验室研究团队的工作—— LATENT ，试图回答的问题。 论文题目本身就很有意思： Learning Athletic Humanoid Tennis Skills from Imperfect Human Motion Data 。关键词不是“perfect”，反而是“imperfect”。 研究团队没有给机器人准备一套经过精心筛选、完整、准确的人类职业网球比赛数据。相反，他们有意从并不完美的人类动作数据出发，让机器人学习网球运动中最基本的身体能力，再通过强化学习和仿真，把这些能力组合成能够真正击球的策略。 换句话说，他们想解决的不是“怎样把人类动作完整复制给机器人”，而是一个更接近现实的问题： 如果人类给机器人的示范本来就不完整、不够精确，它还能从里面学到什么？ 01 五个小时的不完美数据 如果真的想让机器人学习一个人类网球运动员，最直觉的办法，是把这个运动员完整地记录下来。 从准备姿势开始，到移动、挥拍、击球、回位，再到下一次击球。最好还有大量不同来球、不同落点、不同身体姿态，甚至完整的比赛过程。这样机器人看到的就不只是“手应该怎么挥”，而是一套完整的网球行为。 问题是，这样的数据非常难采。 更不用说如果目标是人形机器人，人体和机器人本身的身体结构并不一样。人的手臂长度、关节范围、身体重量、肌肉力量都与机器人不同，即使动作捕捉系统准确地记录下一个人的动作，也不能保证机器人能够",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-08T02:40:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/private/HkC1hSwn255e7hL9.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "银河通用LATENT：用不完美人类数据教机器人打网球",
+   "summary_zh": "银河通用联合清华等提出LATENT，仅用5小时不完整人类动作数据，通过强化学习与仿真组合出人形机器人网球对打策略，探索从「不完美示范」中学习身体技能。",
+   "highlights_zh": [
+    "关键词是imperfect：不追求完整复制人类职业动作，而是学习基本身体能力",
+    "用强化学习在仿真中把碎片化动作组合成可击球策略",
+    "面向具身智能中「意图到动作」的鸿沟问题"
+   ],
+   "why_zh": "具身智能如何利用低质量人类数据，是当前机器人学习的关键工程问题。",
+   "tags": [
+    "机器人",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-08",
+   "slot": "noon",
+   "selected_at": "2026-10-08T04:50:14+00:00",
+   "mirror_pdf": "pdf/web-1af7ae935f49.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/private/HkC1hSwn255e7hL9.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0196cd73e609",
+   "kind": "article",
+   "title": "对话如祺出行COO韩锋：世界模型越强，真实数据才是真壁垒",
+   "url": "https://www.leiphone.com/category/transportation/ESCXNijR4DVx6uDl.html",
+   "pdf_url": "",
+   "abstract": "过去一年，“物理AI”几乎成了自动驾驶、车企共同争夺的下一张船票。 世界模型、具身大模型、机器人数据……众多公司从不同切入口布局物理AI，试图成为新风口之下的主角，相比之下，如祺出行选择了一条不那么显眼的路径，不自己训练大模型，而是尝试成为模型背后的数据基础设施。 实际上，如祺出行在2023年就开始思考，除了提供包括Robotaxi等出行服务，一家出行平台还能在AI产业里扮演什么角色。随后两年，如祺出行逐步完成数据闭环，一端连接驾驶员、Robotaxi和城市道路，另一端服务自动驾驶模型的训练与迭代。 而具身智能的兴起，让这套能力有了新的用武之地。 在如祺出行COO韩锋看来，自动驾驶与智能机器人需要的数据并不完全相同，因为前者主要在二维道路空间中完成感知、决策和运动，机器人则要进入三维空间，处理抓取、搬运和精细操作。但两者背后的数据处理流程高度相似，从采集、预处理到标注、质检和导出，底层工具链可以复用。 然而，由于真实数据采集成本高昂，且周期漫长，越来越多智驾和具身智能公司借助世界模型和仿真平台生成合成数据，补充真实数据不足，以提升模型训练效率。 但在韩锋看来，世界模型能力越强，真实数据的重要性并不会因此降低。合成数据能够以真实长尾案例为基础，扩展难以反复采集的危险、临界和复杂交通场景；真实场景数据则能持续记录交通参与者不可预设的行为、道路环境的变化和传感器的物理响应，帮助发现尚未被识别的问题，并为合成结果提供校准和验证依据。两者共同形成“真实数据发现与验证、合成数据定向扩展”的互补闭环。 目前，如祺出行试图依靠投入常态化出行服务的数据采集车、Robotaxi和线下运维网络，以较低成本持续获得真实、连续且规模化的数据，再通过已经搭建的数据闭环，将其转化为自动驾驶、世界模型和具身智能公司可以直接使用的训练材料。 这可能不是物理AI浪潮中最性感的故事，却更接近产业落地。当今并不稀缺模型公司，而是缺少能长期通过真实场景稳定获得数据，并把原始数据加工成可用资产的组织能力。 如果这套能力能够持续扩展，如祺出行在AI产业中的角色也会随之发生变化，正如当下许多公司撕下原有标签，强调“物理AI”属性。 但韩锋表示，三年后，他希望外界仍然把如祺出行看作一家出行服务公司，但同时也把它视为AI数据生态中的重要基础设施。 以下是新智驾与如祺出行COO韩锋的对话，内容经编辑整理： 数据服务没有神秘技术，门槛来自长期沉淀的体系化能力 新智驾：如祺的数据业务是什么时候开始搭起来的？当时为什么会选择这个方向？ 韩锋： 2023年，我们推出智驾数据工具链，算是布局AI数据服务的开始，把日常运营产生的驾驶员驾驶行为、道路路况、路网信息等数据回流，用来支持自动驾驶算法迭代。 过去几年，我们主要在搭一整套数据闭环，从数据采集、清洗处理、标注加工，到模型效果评测，把整条工具链逐渐建立起来。 到了2026年，具身智能发展很快。我们再看这套体系，发现底层工具其实具有很强的通用性。 不管是自动驾驶还是具身智能，都离不开数据导入、处理、标注、质检、评测这些环节，变化的是具体的数据形态和任务，但底层的数据工程体系有很多可以复用。 所以我们不是突然转去做具身，而是把过去在智驾里面建立的数据能力继续往外延伸。 新智驾：现在大模型、世界模型都很热，为什么如祺出行不自己做模型？ 韩锋： 因为这不是我们的核心优势。 我们的优势还是场景和数据。如祺出行有可以直接投入到出行服务的数据采集车、Robotaxi，也有线下服务和运维网络。大量车辆每天就在真实社会环境里运行，可以持续产生真实数据。 所以我们更愿意围绕数据",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-08T02:27:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/transportation/ESCXNijR4DVx6uDl.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "如祺出行韩锋：世界模型越强，真实数据越是壁垒",
+   "summary_zh": "如祺出行COO韩锋认为，世界模型与合成数据无法取代真实数据，前者定向扩展长尾场景，后者负责发现与验证问题，两者形成互补闭环。如祺选择不训练模型，转而做物理AI的数据基础设施。",
+   "highlights_zh": [
+    "如祺2023年起搭建智驾数据工具链，形成采集到评测的完整数据闭环",
+    "自动驾驶与具身智能数据形态不同，但底层数据工程体系可高度复用",
+    "韩锋判断合成数据与真实数据是互补关系，而非替代关系"
+   ],
+   "why_zh": "理解物理AI浪潮中数据基础设施这一被低估的产业角色与商业逻辑。",
+   "tags": [
+    "数据与评测",
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-08",
+   "slot": "noon",
+   "selected_at": "2026-10-08T04:50:14+00:00",
+   "mirror_pdf": "pdf/web-0196cd73e609.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/transportation/ESCXNijR4DVx6uDl.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0f8b5e1a5bb4",
+   "kind": "article",
+   "title": "海外开源模型重新提速：“美版 DeepSeek”第一次交卷，Mistral同时亮牌",
+   "url": "https://www.infoq.cn/article/0wk4G4cZwbHgYdeNoQPV?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "褚杏娟"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-08T10:35:29+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/0wk4G4cZwbHgYdeNoQPV?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "海外开源模型重新提速：美版DeepSeek交卷，Mistral同时亮牌",
+   "summary_zh": "海外开源模型迎来新一轮提速，被称为美版DeepSeek的模型首次交卷，Mistral同期发布新模型，开源大模型竞争格局出现新变化。",
+   "highlights_zh": [],
+   "why_zh": "开源大模型竞争格局的最新变化，关注模型生态的从业者值得跟进。",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-08",
+   "slot": "noon",
+   "selected_at": "2026-10-08T04:50:14+00:00",
+   "mirror_pdf": "pdf/web-0f8b5e1a5bb4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/0wk4G4cZwbHgYdeNoQPV?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bfd9d99724b9",
+   "kind": "article",
+   "title": "数据中心，正在拆掉Token时代的旧围墙",
+   "url": "https://www.tmtpost.com/8160868.html",
+   "pdf_url": "",
+   "abstract": "AI算力竞争开始告别堆硬件，从比拼训练爆发力转向Token产出效率。",
+   "authors": [
+    "硅碳变量"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-08T04:17:36+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8160868.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "数据中心告别堆硬件，转向Token产出效率",
+   "summary_zh": "钛媒体分析称，AI算力竞争正从比拼训练爆发力转向Token产出效率，数据中心架构与评价标准随之重构。",
+   "highlights_zh": [
+    "算力竞争重心从训练转向推理与Token效率",
+    "数据中心旧有架构面临拆解与重构",
+    "行业评价标准从硬件规模转向产出效率"
+   ],
+   "why_zh": "理解算力投资逻辑从堆硬件转向效率的关键转向。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-08",
+   "slot": "noon",
+   "selected_at": "2026-10-08T04:50:14+00:00",
+   "mirror_pdf": "pdf/web-bfd9d99724b9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8160868.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cfb966891a18",
+   "kind": "article",
+   "title": "blendi-remade/agentcraft",
+   "url": "https://github.com/blendi-remade/agentcraft",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "blendi-remade"
+   ],
+   "published": "2026-10-08T04:50:14+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/blendi-remade/agentcraft",
+     "signal": "★ 503（新项目） · Java",
+     "metric": 503
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AgentCraft：Java 智能体项目",
+   "summary_zh": "GitHub 新项目 AgentCraft，Java 编写，503 星，但缺少描述与文档，无法判断实际功能与成熟度。",
+   "highlights_zh": [
+    "Java 技术栈的智能体项目，在 Python 主导的生态中较少见",
+    "新项目即获 503 星，关注度不低",
+    "无摘要与说明，需自行查看仓库确认可用性"
+   ],
+   "why_zh": "如果你用 Java 做智能体，可先看仓库 README 再决定是否试用。",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5592,
+   "score_llm": 4.0,
+   "score": 0.4637,
+   "date": "2026-10-08",
+   "slot": "noon",
+   "selected_at": "2026-10-08T04:50:14+00:00",
+   "mirror_pdf": "pdf/web-cfb966891a18.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/blendi-remade/agentcraft"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "模型商品化倒逼AI实验室从卖模型转向抢用户界面与路由数据",
-   "why": "价格降41%而token用量增50%，Tunguz判断竞争逻辑已从模型能力转向分发与数据闭环。",
+   "trend": "模型商品化加速，竞争焦点从模型能力转向用户界面与路由数据",
+   "why": "价格降41%而token用量增50%，实验室转向合作转售、控制UI、捕获路由数据",
    "refs": [
-    "web-827104ba5a57"
+    "web-827104ba5a57",
+    "web-0ca1450969b5",
+    "web-898744e97ee3"
    ]
   },
   {
-   "trend": "智能体架构正从桌面单机走向云原生harness，可靠性成新战场",
-   "why": "Kubernetes两位创始人亲自下场，试图用云原生范式解决智能体运行可靠性问题。",
+   "trend": "小模型价格战白热化，长上下文成本成为新分水岭",
+   "why": "Claude小模型跑分超GPT-6 Luna且更便宜，但新分词器使长上下文价格翻5倍",
    "refs": [
-    "web-10c96a2b3658"
+    "web-9330f10ae0c6",
+    "web-a343c9786e70"
    ]
   },
   {
-   "trend": "端云混合调度成为大厂落地智能体的默认架构选择",
-   "why": "微软同日发布混合智能理念与130B端侧代码模型，按隐私与算力动态分配任务。",
+   "trend": "智能体从云端走向本地PC，混合调度架构成主流路线",
+   "why": "微软推混合智能本地云端协同，英伟达与微软联合让智能体在Windows PC本地运行",
    "refs": [
     "web-a3c3e0339f9e",
+    "web-6f02344687c4",
     "web-e3fed6539df2"
    ]
   },
   {
-   "trend": "智能体安全从静态防御转向对抗式协同进化训练",
-   "why": "AdvSim2Real让攻击者与智能体在世界模型中共同进化，4B模型对未知攻击完成率提升33.6%。",
+   "trend": "机器人研究进入中间层复兴，大模型嵌入而非取代传统方法",
+   "why": "IROS 1933篇论文显示大模型深度嵌入规划感知控制，结构化表征充当推理脚手架",
    "refs": [
-    "arxiv-2610.08773"
+    "web-85385f43f3cb",
+    "web-2d0230158b8e",
+    "arxiv-2610.10528"
    ]
   },
   {
-   "trend": "评测方法论开始自我修正，单点对比让位于更稳健的统计框架",
-   "why": "双最小对框架指出单对反事实句不可靠，用互信息指标在四语种上实现更稳比较。",
+   "trend": "评测方法从单点对比转向多对框架与安全基准",
+   "why": "双最小对框架改进刻板印象评测，HygieneRoboBench引入卫生感知规划安全基准",
    "refs": [
-    "arxiv-2610.08747"
+    "arxiv-2610.08747",
+    "arxiv-2610.08642",
+    "arxiv-2610.08773"
    ]
   }
  ]
