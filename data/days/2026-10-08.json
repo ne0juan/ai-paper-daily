@@ -2259,51 +2259,1303 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-9658a84c85d1",
+   "kind": "article",
+   "title": "The State of AI Report 2026",
+   "url": "https://press.airstreet.com/p/state-of-ai-2026",
+   "pdf_url": "",
+   "abstract": "AI building AI, physical AI, booming inference, and escalating cyber risks.",
+   "authors": [
+    "Air Street Press"
+   ],
+   "orgs": [
+    "Nathan Benaich"
+   ],
+   "published": "2026-10-08T07:39:39+00:00",
+   "sources": [
+    {
+     "name": "Nathan Benaich",
+     "authority": 0.8,
+     "url": "https://press.airstreet.com/p/state-of-ai-2026",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Air Street Capital，《State of AI》报告作者",
+   "title_zh": "State of AI 2026 年度报告发布",
+   "summary_zh": "Nathan Benaich 发布年度《State of AI》报告，聚焦 AI 自我构建、物理 AI、推理需求爆发与网络安全风险升级四大主线。",
+   "highlights_zh": [
+    "AI building AI：模型开始参与自身研发与迭代",
+    "物理 AI 与推理算力需求同步爆发",
+    "网络安全风险随能力提升而加剧"
+   ],
+   "why_zh": "行业年度风向标，快速把握 2026 年 AI 主线与资本关注点。",
+   "tags": [
+    "大模型",
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 9.0,
+   "score": 0.768,
+   "date": "2026-10-08",
+   "slot": "evening",
+   "selected_at": "2026-10-08T11:55:18+00:00",
+   "mirror_pdf": "pdf/web-9658a84c85d1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://press.airstreet.com/p/state-of-ai-2026"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.10409",
+   "kind": "paper",
+   "title": "RobotWorld: Benchmarking Multimodal Agents for Robot Use Across Diverse Tasks and Embodiments",
+   "url": "https://arxiv.org/abs/2610.10409",
+   "pdf_url": "https://arxiv.org/pdf/2610.10409",
+   "abstract": "General-purpose agents increasingly write code, use tools, and complete complex digital tasks, raising the question of how far these capabilities carry into the physical world. To investigate this, we introduce RobotWorld, a challenging simulation testbed for robot use: turning instructions and observations into physical task execution through robot interfaces. Its 84 tasks span manipulation, mobile manipulation, locomotion, driving, and aerial control, with explicit interaction budgets and executable success checks. By analysing task outcomes alongside execution traces, we identify both the capabilities that transfer and the gaps that prevent reliable completion. Furthermore, we find that current agents can construct sophisticated perception and control workflows, including image segmentation, camera calibration, spatial estimation, and dynamics-based computation. These capabilities, however, do not consistently compose into successful behaviour: agents lose task-relevant object states despite reaching commanded poses, fail to correct ineffective actions, recover too late, or mistake unfinished tasks for completion. This uneven transfer also differs across models: Astra succeeds more often on spatial and constrained-contact goals, whereas Opus 5.5 succeeds more often on continuous-balance and timed-interaction goals. By linking these outcomes to execution behaviour, RobotWorld provides both a rigorous proving ground and an empirical account of the remaining capability gaps, thereby establishing concrete targets for training and designing more reliable physical-world agents.",
+   "authors": [
+    "Zhiqin Yang",
+    "Chenxin Li",
+    "Xiaomeng Hu",
+    "Yibin Liu",
+    "Weidong Huang",
+    "Jiankai Sun",
+    "Haitao Li",
+    "Zijian Wu",
+    "Yuzhi Huang",
+    "Fanding Huang",
+    "Hanwen Sun",
+    "Jiashun Liu",
+    "Jingqi Tong",
+    "Mingxin Huang",
+    "Shaoli Hu",
+    "Shijue Huang",
+    "Tianyi Bai",
+    "Xinyuan Wang",
+    "Yunlong Lin",
+    "Zhengyang Tang",
+    "Zhexin Zhang",
+    "Zhuo Chen",
+    "Xierui Song",
+    "Juntao Dai",
+    "Boyuan Chen",
+    "Jiaming Ji",
+    "Fangneng Zhan",
+    "Mengkang Hu",
+    "Wei Xue",
+    "Yonggang Zhang",
+    "Han Hu",
+    "Tsung-Yi Ho",
+    "Yike Guo"
+   ],
+   "orgs": [],
+   "published": "2026-10-07T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.10409",
+     "signal": "▲ 25",
+     "metric": 25
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.10409",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "RobotWorld：多模态智能体机器人操作基准",
+   "summary_zh": "提出 RobotWorld 仿真基准，含 84 项操作/移动/驾驶/飞行任务，发现当前智能体能搭建感知控制流程，却难以稳定组合成可靠行为，且不同模型各有擅长。",
+   "highlights_zh": [
+    "84 项任务覆盖操作、移动操作、运动、驾驶与空中控制，带交互预算与可执行成功校验",
+    "智能体能构建分割、标定、空间估计等复杂流程，但常丢失物体状态、无法纠错、误判完成",
+    "Astra 擅长空间与受限接触任务，Opus 5.5 擅长连续平衡与定时交互任务"
+   ],
+   "why_zh": "想了解多模态智能体从数字世界迁移到物理世界的真实能力边界，这份基准给出系统证据。",
+   "tags": [
+    "智能体",
+    "多模态",
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.6348,
+   "score_llm": 8.0,
+   "score": 0.7339,
+   "date": "2026-10-08",
+   "slot": "evening",
+   "selected_at": "2026-10-08T11:55:18+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.10409.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.10409"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.10409"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.10409"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.10409"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.10409"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.10409"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/robotworldai/robotworld"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.10429",
+   "kind": "paper",
+   "title": "SGF+: Decoupling Gradient Flows for Autoregressive Video Generation",
+   "url": "https://arxiv.org/abs/2610.10429",
+   "pdf_url": "https://arxiv.org/pdf/2610.10429",
+   "abstract": "Autoregressive video generation requires denoising the current frames while writing their key-value representations as context for future predictions. However, these two roles typically share parameters, and we find that their gradients exhibit distinct patterns and systematic negative alignment, hindering the joint optimization of visual quality and temporal consistency. We introduce Self Gradient Forcing Plus (SGF+), which assigns separate parameters to context writing and denoising while preserving their interaction through causal attention. Both roles are jointly optimized using the original generation objective without auxiliary losses, with context writing supervised through its contribution to future predictions. This simple change improves visual quality and long-horizon consistency over the evaluated baselines in both framewise and chunkwise generation, without additional video training data or a longer training horizon. Trained on only 5s rollouts, SGF+ supports continuous generation for up to 24 hours without long-video fine-tuning. These results highlight role-specific parameterization as an effective design principle for high-quality autoregressive video generation and native long-horizon extrapolation.",
+   "authors": [
+    "Zihan Su",
+    "Junhao Zhuang",
+    "Yaowei Li",
+    "Siwen Lu",
+    "Haoran Li",
+    "Lingen Li",
+    "Haoyu Wu",
+    "Weiyang Jin",
+    "Songchun Zhang",
+    "Haoyang Huang",
+    "Chun Yuan",
+    "Zeyue Xue",
+    "Nan Duan"
+   ],
+   "orgs": [],
+   "published": "2026-10-07T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.10429",
+     "signal": "▲ 46",
+     "metric": 46
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "SGF+：解耦梯度流实现自回归视频生成",
+   "summary_zh": "发现自回归视频生成中「写上下文」与「去噪」两角色梯度存在系统性负对齐，提出分离参数但保留因果注意力交互的 SGF+，仅用 5 秒片段训练即可连续生成 24 小时视频。",
+   "highlights_zh": [
+    "识别出上下文写入与去噪两角色的梯度模式不同且负对齐，阻碍联合优化",
+    "分离参数、保留因果注意力交互，无需辅助损失即可联合优化",
+    "仅 5 秒 rollout 训练，支持 24 小时连续生成，无需长视频微调"
+   ],
+   "why_zh": "为自回归视频生成的长时程一致性提供简洁有效的架构设计原则。",
+   "tags": [
+    "多模态",
+    "效率与系统",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.6102,
+   "score_llm": 8.0,
+   "score": 0.7241,
+   "date": "2026-10-08",
+   "slot": "evening",
+   "selected_at": "2026-10-08T11:55:18+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.10429.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.10429"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.10429"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.10429"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.10429"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.10429"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.10429"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/Zihan-Su/Self_Gradient_Forcing_Plus"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.10444",
+   "kind": "paper",
+   "title": "RunningTab: Direct Workspace Interaction with Environment-Side Tabs",
+   "url": "https://arxiv.org/abs/2610.10444",
+   "pdf_url": "https://arxiv.org/pdf/2610.10444",
+   "abstract": "Much knowledge work produces new deliverables from files a workspace already holds, and LLM agents are beginning to take such work over. Through direct corpus interaction, an agent can search and read any of those files from a terminal with no indexing, and producing a deliverable from many of them in this way is what we call direct workspace interaction (DWI). Reaching the files, however, is only half the task: nothing keeps track of what the task asks for, what has been read, and what was listed but never opened, all of which slip through the context window without leaving a trace, so an agent may extract a figure and still deliver a report without it. To address this, we present RunningTab, a framework that equips direct workspace interaction with an environment-side tab: a per-task record of what the task still owes, kept by the environment alongside the agent. Specifically, the agent adds its requirements, while the environment records every file read as an excerpt with its provenance and every listed but unopened file as a candidate; the agent can then see each requirement beside its best-matching excerpts and top unopened candidates, resolve it against matching content or set it aside with a reason, and, should it try to finish with requirements still open, receive them in a finish check. We validate RunningTab on three benchmarks with three LLMs, where it consistently outperforms plain DWI and baselines that keep the record in the model, while its tab usually holds the values a deliverable needs once seen.",
+   "authors": [
+    "Jinheon Baek",
+    "Soyeong Jeong",
+    "Yumin Choi",
+    "Dongsu Han",
+    "Sung Ju Hwang"
+   ],
+   "orgs": [
+    "KAIST AI"
+   ],
+   "published": "2026-10-07T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.10444",
+     "signal": "▲ 32",
+     "metric": 32
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "RunningTab：为智能体装上环境侧任务清单",
+   "summary_zh": "针对LLM智能体直接操作工作区文件时易遗漏需求的问题，提出环境侧标签机制，记录任务待办、已读摘录与未打开候选，并在收尾时校验，三个基准上稳定提升。",
+   "highlights_zh": [
+    "提出直接工作区交互（DWI）概念：智能体无需索引即可搜索读取文件并产出交付物",
+    "环境侧标签记录每条需求对应的最佳摘录与未打开候选，避免上下文窗口丢失信息",
+    "收尾检查机制在需求未完成时提醒智能体，三个基准三种模型上一致提升"
+   ],
+   "why_zh": "做长任务智能体或文件处理Agent的团队，可借鉴其环境侧状态追踪思路。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5891,
+   "score_llm": 8.0,
+   "score": 0.7156,
+   "date": "2026-10-08",
+   "slot": "evening",
+   "selected_at": "2026-10-08T11:55:18+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.10444.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.10444"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.10444"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.10444"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.10444"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.10444"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.10444"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.09823",
+   "kind": "paper",
+   "title": "UltraText Bench: A Comprehensive Bilingual Benchmark for Evaluating Visual Text Rendering in Image Generation",
+   "url": "https://arxiv.org/abs/2610.09823",
+   "pdf_url": "https://arxiv.org/pdf/2610.09823",
+   "abstract": "Dense visual text requires image generators to reproduce long strings across multiple regions with correct placement and legibility. As short-string rendering improves, evaluation must test sustained performance across more demanding scenes. We introduce UltraText Bench, a bilingual benchmark for prompt-only generation of dense visual text. It contains 432 prompts spanning 24 real-world scene categories and three difficulty levels, split equally between English and Chinese. Each human-reviewed prompt supplies exact strings for four to twelve text regions, paired with structured references for their content, placement, and visual attributes. We use the Q-Judger vision-language model to assess each image against the complete reference, reporting text fidelity, text clarity, spatial quality, and scene quality. Across 24 model configurations, these dimensions reveal different strengths: Z-Image-Turbo gains 3.81 clarity points over Z-Image-Base while losing 14.76 fidelity points under the reported settings. Performance also varies with workload; Qwen-Image-2512's English composite falls from 86.50 at L1 to 42.86 at L3. Ten participants took part in human evaluation of the automatic scores. Repository: https://github.com/LINs-lab/UltraText_Bench.",
+   "authors": [
+    "Deyuan Liu",
+    "Yihao Hu",
+    "Jingxuan Zhang",
+    "Xingying Li",
+    "Jun Xie",
+    "Jiacheng Liu",
+    "Jungang Li",
+    "Yu Huang",
+    "Xuanyi Liu",
+    "Yue Ding",
+    "Zecheng Wang",
+    "Lei Zhao",
+    "Mingda Wang",
+    "Zhenglin Cheng",
+    "Peng Sun",
+    "Tao Lin"
+   ],
+   "orgs": [
+    "Westlake University"
+   ],
+   "published": "2026-10-07T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.09823",
+     "signal": "▲ 23",
+     "metric": 23
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.09823",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "UltraText Bench：图像生成密集文本双语基准",
+   "summary_zh": "推出中英双语密集视觉文本生成基准，含 432 条提示、24 类场景、三级难度，用 Q-Judger 从保真度、清晰度、空间与场景质量四维评测，揭示模型在清晰度与保真度间的权衡。",
+   "highlights_zh": [
+    "432 条人工审核提示，每条含 4–12 个文本区域的内容、位置与视觉属性参考",
+    "Z-Image-Turbo 清晰度比 Base 高 3.81 分，但保真度低 14.76 分",
+    "Qwen-Image-2512 英文综合分从 L1 的 86.50 降至 L3 的 42.86"
+   ],
+   "why_zh": "图像生成中长文本渲染仍是短板，该基准为评测与改进提供可复现标准。",
+   "tags": [
+    "多模态",
+    "数据与评测",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.63,
+   "score_llm": 7.0,
+   "score": 0.672,
+   "date": "2026-10-08",
+   "slot": "evening",
+   "selected_at": "2026-10-08T11:55:18+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.09823"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.09823"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.09823"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.09823"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.09823"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.09823"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/LINs-lab/UltraText_Bench"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3082116296fa",
+   "kind": "article",
+   "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+   "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-07T18:49:40Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49997161",
+     "signal": "345 pts",
+     "metric": 345
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Meta 与微软限制员工使用 Claude",
+   "summary_zh": "Meta 与微软采取措施减少员工对 Claude AI 的使用，反映大厂在内部 AI 工具选型上的竞争与管控，HN 热度 345 点。",
+   "highlights_zh": [
+    "Meta 与微软限制内部员工使用 Claude",
+    "反映大厂自研模型与外部工具间的竞争",
+    "HN 345 点，社区关注企业 AI 工具管控"
+   ],
+   "why_zh": "头部公司内部 AI 工具策略变化，是观察大模型竞争格局的侧面信号。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.5941,
+   "score_llm": 7.0,
+   "score": 0.6576,
+   "date": "2026-10-08",
+   "slot": "evening",
+   "selected_at": "2026-10-08T11:55:18+00:00",
+   "mirror_pdf": "pdf/web-3082116296fa.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49997161"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-15674fb790b6",
+   "kind": "article",
+   "title": "CursorTouch/Windows-MCP",
+   "url": "https://github.com/CursorTouch/Windows-MCP",
+   "pdf_url": "",
+   "abstract": "Sponsor Star CursorTouch / Windows-MCP MCP Server for Computer Use in Windows\nREADME: 🪟 Windows-MCP **Windows-MCP** is a lightweight, open-source project that enables seamless integration between AI agents and the Windows operating system. Acting as an MCP server bridges the gap between LLMs and the Windows operating system, allowing agents to perform tasks such as **file navigation, application control, UI interaction, QA testing,** and more. mcp-name: io.github.CursorTouch/Windows-MCP ## Updates - Windows-MCP reached `2M+ Users` in [Claude Desktop Extensiosn](https://claude.ai/directory). - Try out [🪟Windows-Use](https://pypi.org/project/windows-use/), an agent built using Windows-MCP. - Windows-MCP is now available on [PyPI](https://pypi.org/project/windows-mcp/) (thus supports `uvx windows-mcp`) - Windows-MCP is added to [MCP Registry](https://github.com/modelcontextprotocol/registry) ### Supported Operating Systems - Windows 7 - Windows 8, 8.1 - Windows 10 - Windows 11 ## 🎥 Demos ## ✨ Key Features - **Seamless Windows Integration** Interacts natively with Windows UI elements, opens apps, controls windows, simulates user input, and more. - **Use Any LLM (Vision Optional)** Unlike many automation tools, Windows-MCP doesn't rely on any traditional computer vision techniques or specific fine-tuned models; it works with any LLMs, reducing complexity and setup time. - **Rich Toolset for UI Automation** Includes tools for basic keyboard, mouse operation and capturing window/UI state. - **Lightweight & Open-Source** Minimal dependencies and easy setup with full s",
+   "authors": [],
+   "orgs": [
+    "CursorTouch"
+   ],
+   "published": "2026-10-08T11:55:18+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/CursorTouch/Windows-MCP",
+     "signal": "★ 今日 +411 · Python",
+     "metric": 411
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Windows-MCP：让AI智能体操控Windows",
+   "summary_zh": "开源MCP服务器，让任意LLM智能体原生操作Windows界面，完成文件导航、应用控制、UI交互与QA测试，无需视觉模型，已上架PyPI与MCP注册表。",
+   "highlights_zh": [
+    "支持Windows 7至11，原生交互UI元素、开应用、控窗口、模拟输入",
+    "不依赖传统计算机视觉或微调模型，任意LLM即可用，降低部署复杂度",
+    "已上架PyPI（uvx windows-mcp）与MCP Registry，Claude Desktop扩展用户超200万"
+   ],
+   "why_zh": "如果你在做Windows端自动化或桌面Agent，可用它快速接入MCP生态。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.587,
+   "score_llm": 7.0,
+   "score": 0.6548,
+   "date": "2026-10-08",
+   "slot": "evening",
+   "selected_at": "2026-10-08T11:55:18+00:00",
+   "mirror_pdf": "pdf/web-15674fb790b6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/CursorTouch/Windows-MCP"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4487ec5c9076",
+   "kind": "article",
+   "title": "云栖大会观察：阿里怎么打下一阶段模型战?",
+   "url": "https://www.leiphone.com/category/industrynews/SqijXlMpyTf0xSst.html",
+   "pdf_url": "",
+   "abstract": "云栖大会，解开市场对阿里大模型的三个疑惑。 作者丨胡敏 编辑丨刘伟 今年云栖大会，变化格外明显。参加过多年的人，打开主论坛议程就能感受到，和往年很不一样。 在吴泳铭发言之后，第一个登台分享的是千问大语言模型负责人刘大一恒；紧随其后的是 ATH 技术副总裁郑波，他负责视听等多模态模型。接在两场模型演讲之后，是平头哥高慧，与阿里云 CTO 李飞飞。 云栖大会，芯片和云当然重要，阿里对云的投入不会减少，芯片也依然是它绕不开的底牌。但重要的不止是芯片和云，现在站在市场聚光灯下的是 AI ，大家关心的自然也包括阿里的模型。阿里的模型往哪走、做多大、能不能打，是眼下真正牵动市场神经的问题。 那么，在云栖大会上，这些大模型负责人们究竟回答了哪些市场最为关注的问题？ 01 Qwen下一代模型，规模有多大？ 这是市场最直接的悬念。 此前一年多，业内对 Scaling 的质疑没停过。但到 2026 年年中，业界风向已明显调转。 Anthropic CEO Dario Amodei 在摩根士丹利会上直接定调： Scaling 没有撞墙， 2026 年还会迎来一轮激进加速。 而从各家行动来看，也的确如此。 Fable 5 被行业估算为约 4.5- 5 万亿参数， Kimi K3 总参数达到 2.8 万亿。这些数字接连落地，已经实实在在说明：各家 Scaling 不仅没有停，反而在以比过去更激进的方式加速。 回到 Qwen 本身。今年 8 月， Qwen3.8 发布，模型的参数已经达到了 2.4T 参数。这次雷峰网在云栖大会演讲上看到，刘大一恒再次给出了一张模型规划的路线图： Qwen4 系列即将到来， Qwen4 之后的 Qwen4.5 和 Qwen5 ，计划进一步迈向 5T—10T 参数。 从 72B 到 10T ，千问的 Scaling 曲线正在明显变陡。 两年前， Qwen2.5 旗舰模型的参数量还是 72B ；到 Qwen3.8 ，模型已经扩大至 2.4T ，增长了 33 倍。如果 Qwen4.5 和 Qwen5 继续迈向 5T—10T ，千问的参数规模还将在现有基础上再扩大一倍至三倍以上。 刘大一恒也再次明确了阿里的判断：基础模型的智能上限，依然离不开算力、数据和模型规模的持续投入。阿里还会继续扩大预训练计算量，沿着 Scaling Law 向上走。 但模型越大，训练和推理的账单也越高。阿里给出的解法，是一边扩大规模，一边重新设计模型架构。 Qwen3.8-Flash 已经展示了这条路线：通过稀疏注意力、线性注意力和外接记忆等新架构，它每次推理只激活 6B 参数；相比上一代，训练成本降至九分之一，百万 Token 的输入价格降至四分之一，超长上下文的预填充吞吐量提高 8.6 倍，模型能力反而继续上涨。 这意味着，阿里下一阶段的 Scaling 并不只是把模型做得更大，而是要用更低的成本，支撑更大的模型继续向前。 02 Qwen5还要等多久？ 关心完规模，下一个问题自然就来了： Qwen4 、 Qwen5 还要等多久？ 当下模型竞争的节奏越来越快。今天登上榜首的模型，几周或几个月后就可能被追平。对模型公司来说，一个版本领先已经很难形成长期优势。真正重要的问题变成：谁能更快地产生下一代模型。 而要提升迭代速度，一个越来越被认真对待的方向是：让模型参与造模型。 一旦模型能帮助研究人员设计实验、分析结果、改进训练方法，那么下一代模型的研发就有机会更快。再让更强的新模型接着做这些工作，便可能形成一轮轮加速的循环。这也是 RSI （ Recursive Self-Impr",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-08T07:20:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/SqijXlMpyTf0xSst.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "云栖大会观察：阿里下一阶段模型战怎么打",
+   "summary_zh": "阿里在云栖大会给出Qwen路线图：Qwen4将至，Qwen4.5与Qwen5迈向5T-10T参数，同时用稀疏/线性注意力等新架构把训练成本降至九分之一。",
+   "highlights_zh": [
+    "Qwen从72B扩至2.4T，两年增长33倍，未来目标5T-10T",
+    "Qwen3.8-Flash每次推理仅激活6B参数，训练成本降至九分之一",
+    "阿里判断Scaling未撞墙，继续扩大预训练算力并重设计架构"
+   ],
+   "why_zh": "头部厂商对Scaling路线的明确表态与架构降本思路。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-08",
+   "slot": "evening",
+   "selected_at": "2026-10-08T11:55:18+00:00",
+   "mirror_pdf": "pdf/web-4487ec5c9076.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/SqijXlMpyTf0xSst.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-24e2811d9cc5",
+   "kind": "article",
+   "title": "华为已为KV Cache单独做存储，专用SSD规格却还没定下来",
+   "url": "https://www.leiphone.com/category/chips/JidbQuKCNUBEEV6Z.html",
+   "pdf_url": "",
+   "abstract": "推理的KV Cache，已经大到需要单独管理了。 这已经成为行业内越来越明确的共识。近日，华为全联接大会上推出了华为OceanStor M900，英伟达也已经推出了CMX Context Memory Storage。 这类AI记忆存储产品，会将推理过程中已经产生、可能再次复用的KV Cache进行分层管理和存储，在后续请求命中时减少相应的重复计算，这将直接节省有关算力开销。 有业者明确表示，即使缓存的命中率越来越高，继续从90%向95%提升依然很有价值。 但是，对于存储价格“比金子还贵”的当下，单独存储一些可能复用的推理缓存，究竟是一笔什么样的账单？ 01 从DRAM到SSD，换算不是1比1 “KV Cache外置的核心逻辑就是‘以存换算’。”长期研究存储的 学者章衡 告 诉雷峰网。 以存换算，本质上是在计算成本和存储成本之间找一个平衡点。 已经算过的历史KV，是直接丢掉、下次重新计算，还是保存下来，在后续请求命中时直接复用？现在行业给出的答案，显然是后者。 章衡举例，假设KV Cache命中率从90%提高到95%，需要重新计算的部分就会从10%降到5%。“相当于重新计算的那部分算力开销减少了一半。”章衡说。 但命中率继续提高，也意味着需要保存更多历史KV。尤其到了高命中率区间，为了再覆盖最后几个百分点的长尾数据，所需存储容量可能明显增加。 要算的第一笔账，是这些KV Cache值不值得存。 在 某头部存储厂商负责人李辉 看 来，不同应用的数据生命周期差异很大。有些消费端应用中的KV Cache可能几分钟或一两个小时后就被清理。 而 部分企业端应用更看重上下文的持续性，KV Cache的数据生命周期也可能更长 。对这类业务来说，让历史KV跨请求保留更久、供后续复用的价值也更高。 第二笔账则是存在哪里。李辉认为，如果DRAM足够便宜、供应也充足，全部放在DRAM里当然最省事，性能也最好——但现实是DRAM既贵又缺，这给SSD留下了空间。 但这种替换不是简单的把1TB DRAM简单换成1TB SSD。一方面，李辉表示，从整体成本来看，DRAM和SSD之间不是1:1的替换，而是“1:N”，在一些方案中甚至可能达到一比五、一比十。 另一方面， 按相同容量计算，李辉估算DRAM与企业级SSD的成本可以相差数十倍 。 正是这种价差，让内存卸载从过去资源不足时的“兜底手段”，逐渐进入新系统的初始设计。（关于DRAM、SSD的实际应用，欢迎添加作者微信 treelog10 分享、交流） 企业虽然能用更便宜的SSD替代部分DRAM容量，但需要增加的SSD规模也会更大，最终仍要同时计算容量、性能和采购成本。 章衡则告诉雷峰网， 现阶段多数推理场景还没有到必须增加独立KV存储设备才能运行的程度。 企业通常会先利用已有的DRAM、内存池和本地SSD，再逐步考虑外部存储。“肯定是先把服务器内已有的资源用满。”章衡说。 华为M900和英伟达CMX的出现，则说明这种原本更多发生在服务器内部的KV分层，已经开始进一步走向独立的共享存储层。 02 KV需求冒头，SSD标准却没跟上 独立KV存储设备已经出现，但真正承接这些KV Cache的SSD，还没有形成一个成熟、统一的产品品类。 李辉告诉雷峰网，现在行业已经开始讨论面向AI推理、尤其是KV Cache负载优化的SSD，但真正落到采购端，大多数客户买的仍然是普通企业级SSD。 “现在业内都在聊这个趋势，但还没有一个标准化、大规模上量的产品。”李辉说。目前市场上更多还是三星、闪迪、美光等厂商的传统企业级SSD。 原因并不是SSD",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-08T03:55:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/chips/JidbQuKCNUBEEV6Z.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "KV Cache外置成共识，专用SSD标准仍缺位",
+   "summary_zh": "华为、英伟达相继推出KV Cache分层存储产品，行业以存换算降低推理算力开销，但专用SSD品类与标准尚未成型。",
+   "highlights_zh": [
+    "命中率从90%提到95%可使重算算力开销减半",
+    "DRAM与SSD非1:1替换，成本可差数十倍",
+    "多数场景仍优先用满服务器内已有资源"
+   ],
+   "why_zh": "推理成本优化的关键战场，存储与算力协同的新趋势",
+   "tags": [
+    "推理",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-08",
+   "slot": "evening",
+   "selected_at": "2026-10-08T11:55:18+00:00",
+   "mirror_pdf": "pdf/web-24e2811d9cc5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/chips/JidbQuKCNUBEEV6Z.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2301f6ae5ab8",
+   "kind": "article",
+   "title": "OpenAI刚把多Agent做成产品，o1奠基人却说：1万个Agent解出世界级难题，多Agent贡献不到10%",
+   "url": "https://www.infoq.cn/article/3MSU3CcJuh0XjHDyjhXj?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "林绮蓓"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-08T14:11:21+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/3MSU3CcJuh0XjHDyjhXj?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "o1奠基人：多Agent贡献不足10%",
+   "summary_zh": "OpenAI将多Agent做成产品之际，o1奠基人指出1万个Agent解世界级难题时多Agent贡献不到10%，质疑其实际价值。",
+   "highlights_zh": [
+    "多Agent协作在复杂任务中贡献被高估",
+    "单Agent能力提升仍是主要增益来源",
+    "与OpenAI产品化方向形成观点张力"
+   ],
+   "why_zh": "对当下多Agent热潮的重要反方判断，值得从业者警惕",
+   "tags": [
+    "智能体",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-08",
+   "slot": "evening",
+   "selected_at": "2026-10-08T11:55:18+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/3MSU3CcJuh0XjHDyjhXj?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6f77fb63c16e",
+   "kind": "article",
+   "title": "2万亿美元估值靠什么撑？Anthropic 核心技术负责人：蒸馏会毁掉前沿研发，中美 AI 竞赛不会单边暂停",
+   "url": "https://www.infoq.cn/article/dS754RhjExrwFP6tWD9d?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "褚杏娟"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-08T14:10:29+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/dS754RhjExrwFP6tWD9d?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic技术负责人：蒸馏会毁掉前沿研发",
+   "summary_zh": "Anthropic核心技术负责人认为蒸馏会损害前沿研发能力，并判断中美AI竞赛不会出现单边暂停。",
+   "highlights_zh": [
+    "蒸馏被指侵蚀前沿模型研发根基",
+    "2万亿美元估值需靠持续前沿突破支撑",
+    "中美AI竞赛不会单边暂停"
+   ],
+   "why_zh": "头部实验室对模型训练路线与竞争格局的关键判断",
+   "tags": [
+    "大模型",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-08",
+   "slot": "evening",
+   "selected_at": "2026-10-08T11:55:18+00:00",
+   "mirror_pdf": "pdf/web-6f77fb63c16e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/dS754RhjExrwFP6tWD9d?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1d78f09c640d",
+   "kind": "article",
+   "title": "Claude Haiku 5.5",
+   "url": "https://www.anthropic.com/claude-haiku-5-5",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-07T18:01:32Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=49996437",
+     "signal": "922 pts",
+     "metric": 922
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Claude Haiku 5.5 发布",
+   "summary_zh": "Anthropic 发布 Claude Haiku 5.5，在 Hacker News 引发 922 点热议，属小模型迭代更新。",
+   "highlights_zh": [
+    "Anthropic 更新 Haiku 系列小模型",
+    "HN 热度 922 点，社区关注度高",
+    "具体能力与定价信息需查阅官方发布"
+   ],
+   "why_zh": "小模型迭代影响成本敏感场景的选型，值得关注其能力与定价变化。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.62,
+   "score_llm": 6.0,
+   "score": 0.608,
+   "date": "2026-10-08",
+   "slot": "evening",
+   "selected_at": "2026-10-08T11:55:18+00:00",
+   "mirror_pdf": "pdf/web-1d78f09c640d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.anthropic.com/claude-haiku-5-5"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=49996437"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b94c0fdd1bc7",
+   "kind": "article",
+   "title": "ChatGPT 推出全新 IUI 智能用户界面；谷歌推出试验性 AI 游戏平台 Playground；苹果被曝联合 LG 开发门锁、摄像头等智能家居配件｜极客早知道",
+   "url": "http://www.geekpark.net/news/372090",
+   "pdf_url": "",
+   "abstract": "2026 年诺贝尔化学奖公布：二人因解开不对称有机合成难题获奖，其中一位 96 岁高龄 10 月 7 日，2026 年诺贝尔化学奖正式公布，瑞典皇家科学院决定将 2026 年诺贝尔化学奖授予亨利 ·B· 卡甘（Henri B. Kagan）和硖合宪三（Kenso Soai），「表彰他们在不对称有机合成中发现非线性效应和自催化现象。」 有些分子，例如氨基酸，以两种变体形式存在，互为镜像。然而，生物体只包含这些镜像之一。像这样的化学不对称性是如何出现的，长期以来对化学家来说一直是个谜。 亨利 ·B· 卡甘和硖合宪三因发现这一难题的解决方案而荣获 2026 年诺贝尔化学奖。 亨利 ·B· 卡甘（1930 年出生于法国，当前 96 岁，隶属法国奥尔赛省巴黎南大学）发现了一种操纵化学反应的新方法，可以创建比之前假设的更多的镜像。他的发现对于化学家来说是革命性的，可以帮助开发用于制造药物、香料、香味和新材料的反应。 硖合宪三（1950 年出生于日本广岛，当前 76 岁，隶属东京理科大学）设计了首个仅形成其中一个潜在镜像的化学反应。除了生命本身，没有人曾实现过这样的壮举。诺贝尔奖官方表示，Soai 反应是有史以来最壮观的化学实验之一。（来源：IT 之家） 黄仁勋：英伟达当初正是因 Windows 而诞生 10 月 8 日，在美国旧金山举办的发布会中，英伟达首席执行官黄仁勋表示：「英伟达当初正是因 Windows 而诞生」。 在本次活动中，微软首席执行官萨蒂亚 · 纳德拉、英伟达首席执行官黄仁勋和白宫前人工智能高级政策顾问斯里拉姆 · 克里希南三人展开了一场对话。 黄仁勋在开场时表示：「英伟达的创立是因为 Windows 系统。Windows 95 系统让 GPU 连接到 PC 成为可能，DirectX 对 PC 图形技术的早期发展至关重要。」这基本上就是英伟达并行计算平台 CUDA 的起源故事。 黄仁勋表示：「我们想要世界上最好的 Blender、世界上最好的 Omniverse、世界上最好的 CUDA…… 所有这些都要和 AI 一起运行在同一台电脑上。」 黄仁勋强调，AI 计算不应只存在于大型数据中心，也将逐步进入开发者和企业用户的桌面环境。随着模型规模扩大以及对隐私、低延迟和本地处理的需求增加，个人设备需要具备更强的 AI 推理和开发能力。 黄仁勋的讲话也显示，英伟达希望进一步加强与微软 Windows 生态的结合。通过将高性能 GPU、统一内存和 AI 软件栈带到 Windows 设备，开发者可以在熟悉的操作系统环境中构建和运行 AI 应用。（来源：IT 之家） OpenAI 推出 ChatGPT 全新交互界面：AI 不只回答问题，还能直接生成可操作的工具 10 月 7 日，OpenAI 宣布将 GPT-6 推向更广泛的 ChatGPT 用户，并同步推出全新的 Intelligent UI（智能用户界面）功能。与此前以文字对话为主的交互方式不同，ChatGPT 现在可以根据用户的问题，自动组合文字、图表、按钮、表单等元素，生成可直接操作的交互界面。 例如，用户可以让 ChatGPT 直接生成计算器、账单分摊工具或小游戏，也可以通过交互式图表理解复杂概念。 ChatGPT 会根据问题自动选择最合适的呈现形式，而不再局限于输出一段文字。此外，GPT-6 还支持在继续推理或调用工具的同时逐步呈现回答，让用户不必等待整个任务完成。 需要注意的是，GPT-6 并非首次发布。 OpenAI 此前已推出 GPT-6 系列模型，此次更新的重点是将其引入更广泛的 Chat",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-08T00:49:27+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372090",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "ChatGPT推出IUI智能界面，谷歌发布AI游戏平台",
+   "summary_zh": "OpenAI为ChatGPT推出Intelligent UI，可自动生成图表、按钮、表单等可操作界面；谷歌发布试验性AI游戏平台Playground；苹果被曝联合LG开发智能家居配件。",
+   "highlights_zh": [
+    "ChatGPT IUI可生成可操作交互界面",
+    "GPT-6向更广泛用户推送",
+    "谷歌推出AI游戏平台Playground"
+   ],
+   "why_zh": "ChatGPT交互范式升级，值得关注产品方向变化。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-10-08",
+   "slot": "evening",
+   "selected_at": "2026-10-08T11:55:18+00:00",
+   "mirror_pdf": "pdf/web-b94c0fdd1bc7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372090"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-998b1a58955d",
+   "kind": "article",
+   "title": "Vincentwei1021/video-shotcraft",
+   "url": "https://github.com/Vincentwei1021/video-shotcraft",
+   "pdf_url": "",
+   "abstract": "Star Vincentwei1021 / video-shotcraft AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
+   "authors": [],
+   "orgs": [
+    "Vincentwei1021"
+   ],
+   "published": "2026-10-08T11:55:18+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/Vincentwei1021/video-shotcraft",
+     "signal": "★ 今日 +264 · TypeScript",
+     "metric": 264
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "video-shotcraft：Claude Code的电影级视频技能",
+   "summary_zh": "为Claude Code与Codex提供AI视频生成技能，基于Remotion制作电影感产品视频，内置152张分镜配方卡与209个动效预览及生产模板。",
+   "highlights_zh": [
+    "面向Claude Code与Codex的视频生成技能包",
+    "含152张分镜配方卡与209个动效预览",
+    "提供基于Remotion的生产级模板"
+   ],
+   "why_zh": "如果你用Claude Code做产品视频，可直接套用其分镜配方与模板。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5689,
+   "score_llm": 6.0,
+   "score": 0.5876,
+   "date": "2026-10-08",
+   "slot": "evening",
+   "selected_at": "2026-10-08T11:55:18+00:00",
+   "mirror_pdf": "pdf/web-998b1a58955d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/Vincentwei1021/video-shotcraft"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9fa009655eac",
+   "kind": "article",
+   "title": "[AINews] Claude Haiku 5.5 — better than GPT-6 Luna at the same pricing",
+   "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
+   "pdf_url": "",
+   "abstract": "yay small models",
+   "authors": [
+    "swyx"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-08T07:27:51+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Claude Haiku 5.5 同价超越 GPT-6 Luna",
+   "summary_zh": "Latent Space 报道小模型竞争加剧：Claude Haiku 5.5 在同价位上表现优于 GPT-6 Luna，小模型性价比战升温。",
+   "highlights_zh": [
+    "小模型同价位性能对比成为新战场",
+    "Haiku 5.5 主打低成本高性价比",
+    "反映推理成本与部署效率的行业趋势"
+   ],
+   "why_zh": "关注小模型性价比竞争与部署选型的一手观察。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 6.0,
+   "score": 0.58,
+   "date": "2026-10-08",
+   "slot": "evening",
+   "selected_at": "2026-10-08T11:55:18+00:00",
+   "mirror_pdf": "pdf/web-9fa009655eac.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0a5aec42c600",
+   "kind": "article",
+   "title": "独家丨前腾讯混元技术骨干胡瀚创业新进展：目标估值数亿美金",
+   "url": "https://www.leiphone.com/category/ai/rMAfd0hlFnaS8F3t.html",
+   "pdf_url": "",
+   "abstract": "据雷峰网多方获悉，腾讯混元原视觉大模型算法中心负责人胡瀚创业项目已取得新进展：方向仍聚焦多模态，计划融资数千万美元，目标估值达数亿美金，远识资本担任本轮融资 FA。 多位了解该项目的投资人告诉雷峰网，过去一个月，已有多家投资机构与胡瀚接触。 商业化是机构与胡瀚沟通时反复追问的问题。大模型创业的融资窗口已不如前两年，仅凭技术团队和模型能力，越来越难打动投资人。在未来商业化上，胡瀚给出的答案也与多数创业团队不同，据一些投资人转述，他认为其模型未来可以出售给大型科技公司，例如DeepSeek。 胡瀚此前负责腾讯混元视觉大模型算法中心。今年 3-4 月，其负责的业务线从薄列峰体系划入姚顺雨体系。今年 7 月，市场曾传出胡瀚计划离职创业的消息。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-08T07:26:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/rMAfd0hlFnaS8F3t.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "前腾讯混元视觉负责人胡瀚创业，押注多模态",
+   "summary_zh": "前腾讯混元视觉大模型负责人胡瀚离职创业，方向聚焦多模态，计划融资数千万美元、目标估值数亿美金，并称模型未来可卖给DeepSeek等大厂。",
+   "highlights_zh": [
+    "胡瀚原负责腾讯混元视觉大模型算法中心，今年7月传出离职",
+    "创业方向仍为多模态，远识资本担任本轮FA",
+    "商业化路径设想为向大型科技公司出售模型"
+   ],
+   "why_zh": "反映大模型人才流动与多模态创业融资风向的变化。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-08",
+   "slot": "evening",
+   "selected_at": "2026-10-08T11:55:18+00:00",
+   "mirror_pdf": "pdf/web-0a5aec42c600.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/rMAfd0hlFnaS8F3t.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-92f85f3e282b",
+   "kind": "article",
+   "title": "独家 | 清华 AIR 首届博士李健雄创立本溯智能：五源资本领投，押注动作原生具身模型",
+   "url": "https://www.leiphone.com/category/ai/WbD0Tf6P1oA2WDdq.html",
+   "pdf_url": "",
+   "abstract": "常春藤、线性、华山资本跟投，AIR副教授詹仙园任首席科学家。 作者丨 邓哲敏 编辑丨 齐铖湧 雷峰网·鲸犀独家获悉，清华大学智能产业研究院（AIR）首届博士生李健雄已毕业，并创立具身智能公司 本溯智能 （BASAL Intelligence，简称 BASAL）。目前，本溯智能已获得五源资本领投，常春藤资本、线性资本、华山资本 WestSummit Capital 参与投资。 团队核心成员包括首席科学家、清华 AIR 副教授詹仙园，以及 7 名长期合作的年轻研究者。据本溯智能称，创始团队组建前，核心成员分别拿到字节跳动 Top Seed、英伟达、小米等企业的高薪 offer 和海外高校博士录取机会，合计放弃的年薪总包接近 4000 万元，其中李健雄个人放弃的最高年薪总包接近千万元。 本溯智能官方资料显示，公司不会追随市面上已成主流的“预训练基模＋后训练部署”范式，而是选择押注动作原生的 In-Context 具身基础模型，试图让机器人在更换场景后无需重新训练，在现场完成学习与适应。 01 环境一变，一切推倒重来 当前具身智能的主流路线，是先预训练一个基础模型，再针对每个任务做后训练部署交付。 这套范式在工厂标准化场景下已经跑通，但一旦环境、物体或作业流程发生变化，机器人往往需要重新采集数据、重新训练。面对现实世界中无穷无尽的长尾场景和长尾任务，这条路的规模化天花板显而易见。 本溯智能对此有一个直接的判断：这 本质上还是工业自动化的延伸，并不是真正意义上的具身智能 。 在团队看来，真实世界中与物理环境交互的动作信息，很难通过语言被完整、准确地描述；现有以语言为中心的 VLA 路线，也因此在精细操作和跨场景泛化上存在先天局限。 本溯智能的目标，是让机器人具备现场学习的能力：当面对训练阶段从未见过的新场景、新任务或新本体时，无需重新训练模型，只需通过少量人类示范和自主尝试，在几分钟内完成快速学习与适应。 02 弃语言、押动作，一条非主流的具身路线 本溯智能将其方法论归结为智能决策的第一性原理，提出“动作原生的 In-Context 具身基础模型”技术路线。 区别于现有方案以语言为中心，本溯智能将动作作为模型的核心表达方式，让模型直接学习与世界交互的动作、任务反馈、失败纠正以及人类示范之间的关系。模型的大部分容量用于动作生成，并通过长上下文组织机器人的连续物理交互，使机器人能够根据此前的动作、结果、失败和反馈，持续调整后续决策。 本溯智能认为， 动作比语言更接近机器人与物理世界交互的本质 ，而 In-Context Learning 则让模型具备在部署后持续学习的能力。 据雷峰网·鲸犀观察，走一条人迹罕至的小路，意味着必须和行业主流叙事正面交锋。以多模态大模型、自然语言指令为中心的 VLA 路线，仍是资本与产业界最熟悉的语境，客户也更习惯让机器人听懂人话的产品叙事。弃用语言中心、强调动作原生，短期内会显著抬高落地沟通成本。本溯智能得向客户解释清楚，动作原生模型交互并不比语言指令更难集成进现有产线。 支撑上述路线的，是团队自 2024 年起持续研发的两项核心技术——跨具身模型 X-VLA 与高效隐空间世界模型 ODEWorld。 X-VLA 聚焦跨本体动作表达。仅使用不足 1000 小时的预训练数据，便在多项第三方评测中取得领先结果；其团队基于该模型，从 400 多支参赛队伍中脱颖而出，获得 IROS 2025 智元机器人挑战赛总冠军。ODEWorld 则通过连续物理时间的隐空间建模，为长时序物理信息表达和机器人的 In-Context Learning 提",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-08T06:39:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/WbD0Tf6P1oA2WDdq.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "清华AIR博士李健雄创立本溯智能，押注动作原生具身模型",
+   "summary_zh": "清华AIR首届博士李健雄创立本溯智能，五源资本领投，主张弃语言中心、以动作原生In-Context具身基础模型实现机器人现场学习，无需重训即可换场景。",
+   "highlights_zh": [
+    "团队放弃近4000万年薪总包创业，詹仙园任首席科学家",
+    "路线区别于主流VLA，强调动作比语言更接近物理交互本质",
+    "自研跨具身模型X-VLA与隐空间世界模型ODEWorld"
+   ],
+   "why_zh": "具身智能非主流技术路线的一次明确下注，值得跟踪。",
+   "tags": [
+    "机器人",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-08",
+   "slot": "evening",
+   "selected_at": "2026-10-08T11:55:18+00:00",
+   "mirror_pdf": "pdf/web-92f85f3e282b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/WbD0Tf6P1oA2WDdq.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-07354b7fac05",
+   "kind": "article",
+   "title": "Kling’s Path to a Separate Listing Leaves Kuaishou Shareholders With a Harder Choice",
+   "url": "https://www.tmtpost.com/8160989.html",
+   "pdf_url": "",
+   "abstract": "Kuaishou’s AI video unit Kling has selected banks for a Hong Kong IPO that could raise at least $1 billion as early as 2027. The move would let pure AI-video investors buy the growth story directly, while holders of the parent must still underwrite advertising, e-commerce and live-streaming performance.",
+   "authors": [
+    "Chelsea_Sun"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-08T06:02:03+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8160989.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "可灵拟独立赴港上市，快手股东面临两难",
+   "summary_zh": "快手AI视频业务可灵已选定投行，最早2027年在港IPO，募资或超10亿美元，投资者可直接押注纯AI视频增长，而母公司股东仍需承担广告、电商与直播业务表现。",
+   "highlights_zh": [
+    "可灵已选定承销银行，最早2027年赴港上市，募资至少10亿美元",
+    "分拆让纯AI视频投资者直接买入增长故事",
+    "快手母公司股东仍需为广告、电商、直播业绩买单"
+   ],
+   "why_zh": "AI视频赛道首个独立IPO信号，反映资本市场对AI业务单独估值的诉求。",
+   "tags": [
+    "产品与行业",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-08",
+   "slot": "evening",
+   "selected_at": "2026-10-08T11:55:18+00:00",
+   "mirror_pdf": "pdf/web-07354b7fac05.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8160989.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5707fd705223",
+   "kind": "article",
+   "title": "谁在给大模型出题、卖题、判卷？聊聊AI数据行业的野蛮生长",
+   "url": "https://www.tmtpost.com/8160841.html",
+   "pdf_url": "",
+   "abstract": "这个行业究竟在卖什么？",
+   "authors": [
+    "硅谷101"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-08T03:24:52+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8160841.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谁在给大模型出题、卖题、判卷？AI数据行业野蛮生长",
+   "summary_zh": "硅谷101梳理AI数据产业链：谁在生产训练与评测数据、如何定价售卖、判卷环节如何运作，揭示这一快速膨胀却缺乏规范的行业生态。",
+   "highlights_zh": [
+    "拆解大模型数据供应链：出题、卖题、判卷三方角色",
+    "揭示数据标注与评测行业的定价与商业模式",
+    "讨论行业野蛮生长背后的质量与规范问题"
+   ],
+   "why_zh": "理解大模型背后数据生意的真实运作，对判断AI产业链价值分布有帮助。",
+   "tags": [
+    "数据与评测",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-08",
+   "slot": "evening",
+   "selected_at": "2026-10-08T11:55:18+00:00",
+   "mirror_pdf": "pdf/web-5707fd705223.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8160841.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e701481e4c0a",
+   "kind": "article",
+   "title": "浪子回头！Manus重启北京办公室大举招聘",
+   "url": "https://www.qbitai.com/2026/10/502009.html",
+   "pdf_url": "",
+   "abstract": "开始和国产Agent抢人，还拿到5亿美元新融资",
+   "authors": [
+    "衡宇"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-08T09:30:17+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/502009.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Manus重启北京办公室并大举招聘",
+   "summary_zh": "Manus重启北京办公室并大举招聘，开始与国产Agent厂商抢人，同时拿到5亿美元新融资。",
+   "highlights_zh": [
+    "Manus重启北京办公室，转向国内扩张",
+    "与国产Agent厂商争夺人才",
+    "新获5亿美元融资"
+   ],
+   "why_zh": "反映Agent赛道竞争加剧与资本持续加注。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-10-08",
+   "slot": "evening",
+   "selected_at": "2026-10-08T11:55:18+00:00",
+   "mirror_pdf": "pdf/web-e701481e4c0a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/502009.html"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
    "trend": "模型商品化加速，竞争焦点从模型能力转向用户界面与路由数据",
-   "why": "价格降41%而token用量增50%，实验室转向合作转售、控制UI、捕获路由数据",
+   "why": "价格降41%而token用量增50%，实验室转向合作转售、控制UI、捕获路由数据以降低训练成本",
    "refs": [
-    "web-827104ba5a57",
-    "web-0ca1450969b5",
-    "web-898744e97ee3"
+    "web-827104ba5a57"
    ]
   },
   {
-   "trend": "小模型价格战白热化，长上下文成本成为新分水岭",
-   "why": "Claude小模型跑分超GPT-6 Luna且更便宜，但新分词器使长上下文价格翻5倍",
+   "trend": "智能体架构正从桌面走向云端与PC本地双线并行",
+   "why": "K8s创始人探索云原生harness，英伟达微软联合让智能体在Windows PC本地运行",
+   "refs": [
+    "web-10c96a2b3658",
+    "web-6f02344687c4",
+    "web-a3c3e0339f9e"
+   ]
+  },
+  {
+   "trend": "小模型赛道白热化，定价与分词效率成新竞争维度",
+   "why": "Claude小模型跑分超GPT-6 Luna且更便宜，但新分词器使长上下文成本翻5倍",
    "refs": [
     "web-9330f10ae0c6",
     "web-a343c9786e70"
    ]
   },
   {
-   "trend": "智能体从云端走向本地PC，混合调度架构成主流路线",
-   "why": "微软推混合智能本地云端协同，英伟达与微软联合让智能体在Windows PC本地运行",
-   "refs": [
-    "web-a3c3e0339f9e",
-    "web-6f02344687c4",
-    "web-e3fed6539df2"
-   ]
-  },
-  {
-   "trend": "机器人研究进入中间层复兴，大模型嵌入而非取代传统方法",
-   "why": "IROS 1933篇论文显示大模型深度嵌入规划感知控制，结构化表征充当推理脚手架",
-   "refs": [
-    "web-85385f43f3cb",
-    "web-2d0230158b8e",
-    "arxiv-2610.10528"
-   ]
-  },
-  {
    "trend": "评测方法从单点对比转向多对框架与安全基准",
-   "why": "双最小对框架改进刻板印象评测，HygieneRoboBench引入卫生感知规划安全基准",
+   "why": "双最小对框架改进刻板印象评测，HygieneRoboBench与RobotWorld揭示智能体组合可靠性短板",
    "refs": [
     "arxiv-2610.08747",
     "arxiv-2610.08642",
-    "arxiv-2610.08773"
+    "arxiv-2610.10409"
+   ]
+  },
+  {
+   "trend": "长上下文架构出现跷跷板效应，混合注意力成关键突破口",
+   "why": "SWA混合存短上下文学习陷阱，线性注意力混合呈马太效应，滑动窗口线性注意力实现16倍外推",
+   "refs": [
+    "arxiv-2610.10114",
+    "arxiv-2610.10528"
    ]
   }
  ]
