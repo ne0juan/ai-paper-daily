@@ -1,12 +1,13 @@
-2026-10-08 11:55:19,160 INFO source hf_daily           -> 41 items
-2026-10-08 11:55:19,475 INFO source hackernews         -> 5 items
-2026-10-08 11:55:34,234 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-08 11:55:41,430 INFO source rss                -> 70 items
-2026-10-08 11:55:42,940 INFO source html_lists         -> 0 items
-2026-10-08 11:55:42,940 INFO source x                  -> 0 items
-2026-10-08 11:55:43,435 INFO source arxiv_search       -> 60 items
-2026-10-08 11:55:52,182 INFO source github             -> 20 items
-2026-10-08 11:55:52,255 INFO candidates: 191 (stale dropped 35, new 112)
-2026-10-08 11:57:25,837 INFO llm judged 100/100 (calls=13)
-2026-10-08 11:57:39,590 WARNING pdf arxiv-2610.09823: too large (> 25165824 bytes): https://arxiv.org/pdf/2610.09823
-2026-10-08 12:00:37,602 INFO run done: {"at": "2026-10-08T11:55:18+00:00", "slot": "evening", "candidates": 191, "new": 112, "stale": 35, "judged": 100, "selected": 20, "mirrored": 18, "by_category": {"观点": 2, "技术": 4, "资讯": 12, "项目": 2}, "by_source": {"HF Daily Papers": 41, "arXiv 新论文": 60, "Hacker News": 5, "OpenAI": 6, "量子位": 10, "极客公园": 3, "IT之家": 6, "爱范儿": 3, "少数派": 1, "雷峰网": 14, "钛媒体": 4, "InfoQ 中文": 6, "Simon Willison": 1, "Nathan Lambert": 1, "Latent Space": 3, "Stratechery": 1, "Nathan Benaich": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 2, "Google Research": 2, "Google DeepMind": 1, "NVIDIA": 2, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
+2026-10-08 17:48:39,549 INFO source hf_daily           -> 44 items
+2026-10-08 17:48:39,871 INFO source hackernews         -> 7 items
+2026-10-08 17:48:53,205 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-08 17:49:02,653 INFO source rss                -> 72 items
+2026-10-08 17:49:04,905 INFO source html_lists         -> 2 items
+2026-10-08 17:49:04,905 INFO source x                  -> 0 items
+2026-10-08 17:49:05,466 INFO source arxiv_search       -> 60 items
+2026-10-08 17:49:14,536 INFO source github             -> 20 items
+2026-10-08 17:49:14,552 INFO candidates: 200 (stale dropped 103, new 59)
+2026-10-08 17:50:01,533 INFO llm judged 59/59 (calls=8)
+2026-10-08 17:50:05,030 WARNING snapshot https://thezvi.wordpress.com/2026/10/08/ai-189-new-math/: blocked or empty page
+2026-10-08 17:50:54,848 WARNING pdf arxiv-2610.10515: too large (> 25165824 bytes): https://arxiv.org/pdf/2610.10515
+2026-10-08 17:53:24,212 INFO run done: {"at": "2026-10-08T17:48:39+00:00", "slot": "morning", "candidates": 200, "new": 59, "stale": 103, "judged": 59, "selected": 20, "mirrored": 17, "by_category": {"观点": 3, "资讯": 11, "技术": 4, "项目": 2}, "by_source": {"HF Daily Papers": 44, "arXiv 新论文": 60, "Hacker News": 7, "OpenAI": 6, "量子位": 10, "极客公园": 3, "IT之家": 8, "爱范儿": 3, "少数派": 1, "雷峰网": 14, "钛媒体": 2, "InfoQ 中文": 6, "Simon Willison": 1, "Latent Space": 4, "Stratechery": 1, "SemiAnalysis": 1, "Nathan Benaich": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 3, "Timothy B. Lee": 1, "Hugging Face Blog": 3, "Google Research": 1, "Google DeepMind": 1, "NVIDIA": 1, "Anthropic": 2, "GitHub Trending": 9, "GitHub 新项目": 11}, "llm": true, "translated": 0}
