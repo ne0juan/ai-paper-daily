@@ -1192,46 +1192,1264 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "arxiv-2610.12242",
+   "kind": "paper",
+   "title": "TokenRouter: Efficient Serving System for Token-Level LLM Routing",
+   "url": "https://arxiv.org/abs/2610.12242",
+   "pdf_url": "https://arxiv.org/pdf/2610.12242",
+   "abstract": "Large language model (LLM) routing distributes inference work across different models, advancing the cost-quality Pareto frontier of LLM serving. While coarse-grained routing at the session or query level has been widely adopted in production systems, recent algorithmic work shows that fine-grained token-level routing can yield substantial efficiency and quality gains. However, efficiently serving token-level routed inference poses significant challenges to existing systems. Built on single-LLM assumptions, current systems suffer from severe step desynchronization and frequent batch admission delays under token-level routing, and they also impose high implementation complexity on developers. To address these challenges, we design TokenRouter, an efficient and developer-friendly serving system for token-level routed LLM inference. TokenRouter follows the principle of request-centric programming, model-centric execution: developers describe routing logic from the perspective of a single request, while the runtime launches a subserver for each LLM and dispatches requests asynchronously. Each subserver employs a delayed-batching scheduler, whose optimal hyperparameters are derived from a mathematical throughput model of the system. Across diverse routing algorithms, workloads, and model pairs, TokenRouter achieves 2.01-64.15x higher decoding throughput than existing systems, substantially advancing the serving efficiency of token-level LLM routing. Our code is available at https://github.com/thu-nics/TokenRouter.",
+   "authors": [
+    "Tianyu Fu",
+    "Tengxuan Liu",
+    "Ruoxi Wang",
+    "Yixin Dong",
+    "Yi Ge",
+    "Yichen You",
+    "Yu Wang"
+   ],
+   "orgs": [
+    "Tsinghua-NICS-EFC"
+   ],
+   "published": "2026-10-08T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.12242",
+     "signal": "▲ 36",
+     "metric": 36
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.12242",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "TokenRouter：面向Token级LLM路由的高效服务系统",
+   "summary_zh": "清华团队提出TokenRouter，用「请求中心编程、模型中心执行」架构解决Token级路由下的步调失同步与批处理延迟问题，解码吞吐较现有系统提升2.01–64.15倍。",
+   "highlights_zh": [
+    "Token级路由比会话/查询级路由在成本-质量帕累托前沿上更优，但现有单模型假设的系统难以支撑",
+    "为每个LLM启动子服务器并异步调度，配合延迟批处理调度器，超参由吞吐数学模型推导",
+    "跨多种路由算法、负载与模型组合均取得显著吞吐提升"
+   ],
+   "why_zh": "做LLM推理服务与路由调度的团队，可参考其系统抽象与调度设计。",
+   "tags": [
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.7359,
+   "score_llm": 8.0,
+   "score": 0.7744,
+   "date": "2026-10-09",
+   "slot": "noon",
+   "selected_at": "2026-10-09T04:52:58+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.12242.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.12242"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.12242"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.12242"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.12242"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.12242"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.12242"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/thu-nics/TokenRouter"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.08215",
+   "kind": "paper",
+   "title": "Learn2Play Bench: How Well Do LLM Agents Learn from Experience in Unfamiliar Environments?",
+   "url": "https://arxiv.org/abs/2610.08215",
+   "pdf_url": "https://arxiv.org/pdf/2610.08215",
+   "abstract": "Learning from experience is essential for LLM agents to adapt to unfamiliar and dynmaic environments. Evaluating this ability is therefore important for understanding how effectively agents acquire and use new knowledge. Existing benchmarks have sought to evaluate this ability, but they primarily evaluate tasks whose rules are provided in the instructions or already familiar to pretrained models, making it difficult to distinguish learning from interactions from reasoning with existing knowledge. To address this, we introduce Learn2Play Bench, a benchmark of newly designed text-based games, whose rules are novel or counterintuitive, requiring agents to acquire knowledge through interaction rather than rely solely on pretrained knowledge. These games provide reproducible feedback and automatic scoring, enabling controlled evaluation of learning across repeated attempts. We also vary game instances to test whether agents can apply what they have learned to new situations. Therefore, we evaluate how backbone models, self-evolving methods, and agent harnesses affect agents' learning ability, revealing three findings: (1) Experience retention: Retaining complete records of actions and feedback can support more effective learning than summarizing these experiences into rules or strategies. (2) Human agent gap: Top-performing human players achieve higher peak scores than the evaluated agents. Human explore more varied strategies, and repeat actions less. (3) Harness matters: With the backbone fixed, changing the harness can improve performance while reducing estimated inference cost. Together, these findings provide insights into how LLM agents learn from experience and suggest directions for future work to improve their learning ability. Project website: https://liushiliushi.github.io/learn2play-bench-website/",
+   "authors": [
+    "Yibo Li",
+    "Jinhang Qiu",
+    "Zhi Zheng",
+    "Qianyun Guo",
+    "Jiaying Wu",
+    "Shuo Ji",
+    "Bryan Hooi"
+   ],
+   "orgs": [
+    "National University of Singapore"
+   ],
+   "published": "2026-10-08T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.08215",
+     "signal": "▲ 32",
+     "metric": 32
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Learn2Play Bench：LLM智能体能否从经验中学习？",
+   "summary_zh": "NUS提出Learn2Play Bench，用规则新颖甚至反直觉的文本游戏评测智能体从交互中学习的能力，发现保留完整动作与反馈记录比总结成规则更有效，且顶尖人类玩家峰值分数仍高于被测智能体。",
+   "highlights_zh": [
+    "现有基准多依赖指令给定或预训练已知规则，难以区分学习与既有推理",
+    "游戏提供可复现反馈与自动评分，并变换实例测试迁移能力",
+    "系统评估骨干模型、自进化方法与agent harness对学习能力的影响"
+   ],
+   "why_zh": "做智能体评测与经验学习研究的团队，可参考其基准设计与结论。",
+   "tags": [
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.5891,
+   "score_llm": 8.0,
+   "score": 0.7156,
+   "date": "2026-10-09",
+   "slot": "noon",
+   "selected_at": "2026-10-09T04:52:58+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.08215.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.08215"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.08215"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.08215"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.08215"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.08215"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.08215"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/liushiliushi/Learn2Play-Bench"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.12468",
+   "kind": "paper",
+   "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
+   "url": "https://arxiv.org/abs/2610.12468",
+   "pdf_url": "https://arxiv.org/pdf/2610.12468",
+   "abstract": "We present DreamTrue, a multi-view, cross-embodiment robot world model for action-faithful and physically plausible video prediction. Training such a model on existing robot datasets faces two obstacles: imprecise calibration can impair action following, while limited coverage of unsuccessful interactions can bias predictions toward successful outcomes. To improve action following across embodiments, we render action trajectories into image-space conditions and introduce offline geometric calibration to align these conditions with the target videos. To broaden interaction coverage, we introduce counterfactual post-training, modifying recorded action trajectories and generating future videos under a wider range of actions and contact configurations. To provide feedback on these predictions without paired ground-truth futures, we construct a human-annotated video dataset covering robot, object, and interaction defects and use it to train an embodied video reward model. Its scores guide reinforcement-learning post-training toward more physically plausible interaction outcomes. On AgiBot, DreamTrue attains state-of-the-art action following, while reducing the human-assessed interaction defect rate from from 48.12% to 6.25%. Notably, our model ranks first in the world model track of the AgiBot World Challenge 2026. The project page can be found at https://brave-eai.github.io/DreamTrue.",
+   "authors": [
+    "Junyan Li",
+    "Ruizhi Li",
+    "Yu Liu",
+    "Xiangshuo Liu",
+    "Mingchao Sun",
+    "Hongyu Pan",
+    "Mu Xu",
+    "Lue Fan",
+    "Zhaoxiang Zhang"
+   ],
+   "orgs": [],
+   "published": "2026-10-08T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.12468",
+     "signal": "▲ 14",
+     "metric": 14
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "DreamTrue：动作忠实的机器人世界模型",
+   "summary_zh": "针对机器人数据标定不准、失败样本少的问题，用图像空间动作条件与反事实后训练提升动作忠实度，交互缺陷率从 48% 降至 6.25%。",
+   "highlights_zh": [
+    "将动作轨迹渲染为图像空间条件，并用离线几何标定对齐视频",
+    "反事实后训练扩展动作与接触配置覆盖，缓解成功偏差",
+    "构建人类标注的具身视频奖励模型，引导强化学习后训练"
+   ],
+   "why_zh": "机器人世界模型如何做到动作忠实且物理合理，这篇给出了可复用的训练范式",
+   "tags": [
+    "机器人",
+    "多模态",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.5419,
+   "score_llm": 8.0,
+   "score": 0.6968,
+   "date": "2026-10-09",
+   "slot": "noon",
+   "selected_at": "2026-10-09T04:52:58+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.12468"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.12468"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.12468"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.12468"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.12468"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.12468"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/brave-eai/DreamTrue"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.12299",
+   "kind": "paper",
+   "title": "Multi-Agent Egocentric World Model with Fine-Grained Embodied Interaction",
+   "url": "https://arxiv.org/abs/2610.12299",
+   "pdf_url": "https://arxiv.org/pdf/2610.12299",
+   "abstract": "Egocentric world models predict first-person observations conditioned on an agent's actions, but most focus on a single agent. Real embodied settings often involve multiple agents that act and interact within a shared environment. Existing multi-agent world models rely on coarse actions like locomotion, camera control, or discrete commands, leaving fine-grained embodied interactions underexplored. We formulate multi-agent egocentric world modeling as synchronized ego-stream generation for multiple agents interacting through fine-grained actions in a shared world. This requires cross-view action consistency, shared-environment consistency, and consistent propagation of interaction-induced state updates. We propose Multi-agent Egocentric World Model (ME-World), which jointly denoises multiple ego streams in a shared token sequence, conditions each stream on all agents' target-view poses, and grounds generation with shared environment memory. We train and evaluate on real and synthetic multi-agent data and introduce shared-world consistency metrics for environment, update, and identity consistency. Experiments show ME-World improves shared-world consistency, action control, identity preservation, and video quality over existing methods.",
+   "authors": [
+    "Dahyun Chung",
+    "Siyoon Jin",
+    "Hyunwook Choi",
+    "Honggyu An",
+    "Junyoung Seo",
+    "Hyunsung Kim",
+    "Seung Wook Kim",
+    "Seungryong Kim"
+   ],
+   "orgs": [
+    "KAIST AI"
+   ],
+   "published": "2026-10-08T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.12299",
+     "signal": "▲ 27",
+     "metric": 27
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.12299",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "ME-World：多智能体第一人称世界模型",
+   "summary_zh": "KAIST提出ME-World，将多智能体第一人称世界建模为共享token序列上的同步自我流生成，条件于所有智能体目标视角位姿并引入共享环境记忆，提升跨视角一致性与动作控制。",
+   "highlights_zh": [
+    "现有世界模型多为单智能体，且多智能体工作依赖粗粒度动作，细粒度具身交互缺失",
+    "在共享token序列中联合去噪多条自我流，保证跨视角动作与环境一致性",
+    "提出环境、更新、身份三类共享世界一致性指标，并优于现有方法"
+   ],
+   "why_zh": "关注具身智能与世界模型的研究者，可了解多智能体一致性的建模思路。",
+   "tags": [
+    "多模态",
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.6392,
+   "score_llm": 7.0,
+   "score": 0.6757,
+   "date": "2026-10-09",
+   "slot": "noon",
+   "selected_at": "2026-10-09T04:52:58+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.12299.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.12299"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.12299"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.12299"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.12299"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.12299"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.12299"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/cvlab-kaist/ME-World"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d0d3870d5c88",
+   "kind": "article",
+   "title": "不等Gemini 4了！谷歌发布办公Agent，支持调用Claude",
+   "url": "https://www.qbitai.com/2026/10/502083.html",
+   "pdf_url": "",
+   "abstract": "新的“缝合怪”已经出现，怎么能够停滞不前",
+   "authors": [
+    "衡宇"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-09T00:16:56+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/502083.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌发布办公Agent，竟支持调用Claude",
+   "summary_zh": "谷歌云推出通用工作智能体Gemini Agent，支持Gemini与Claude模型，可充当团队成员完成知识型工作。",
+   "highlights_zh": [
+    "定位通用工作智能体，支持多模型调用",
+    "可担任PM、财务分析师等团队角色",
+    "开放API供第三方集成"
+   ],
+   "why_zh": "谷歌在Agent赛道的重要落子，且跨模型兼容值得关注。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-10-09",
+   "slot": "noon",
+   "selected_at": "2026-10-09T04:52:58+00:00",
+   "mirror_pdf": "pdf/web-d0d3870d5c88.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/502083.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f8e0812d9d35",
+   "kind": "article",
+   "title": "攻克超声穿颅读脑，拿下 4 亿元新融资，他们要做脑科学的「英伟达」",
+   "url": "http://www.geekpark.net/news/372148",
+   "pdf_url": "",
+   "abstract": "一家深圳公司，让实时「看清」人类大脑变成了可能。 极客公园获悉，鲲为科技近期完成 4 亿元新一轮融资，新增股东包括 XVC、红杉中国，老股东夏尔巴、腾讯进一步加仓。 在鲲为位于深圳的研发中心，创始人刘家家向我们展示了实测对比。 一边是价值数百万的海外顶级旗舰彩超设备，一边是鲲为自主研发的机器。当探头同时置于受试者颅骨侧面，海外设备的声波在穿透至大脑中线后便衰减进一片暗影，仅能拼凑出模糊的轮廓；而在鲲为的屏幕上，穿透颅骨后的脑组织结构清晰毕现，中脑核团、侧脑室乃至微细血管中的血流动态被毫秒级实时捕捉。 穿透颅骨后的脑组织结构、血流动态等都能被清晰捕捉｜图片来源：鲲为 一场清晰的「代差」展现。 「传统超声长期陷入穿透力与分辨率不可兼得的工程困境，面对坚硬的颅骨几乎是雾里看花。」刘家家解释。为此，鲲为选择了一条违背行业常识的路径：放弃通过不断提升频率来换取清晰度的惯性，转向低频。 鲲为的核心突破，在于将算力与算法引入物理声场，在低频段下兼顾了颅骨穿透力与高分辨率实时成像。这种将超声从成像升维为「声学空间智能」的技术跨越，彻底打开了超声在临床医学、脑科学及通用人工智能领域的想象空间。 在中风抢救的急救车里，鲲为的便携设备几分钟内即可精准判别脑梗或脑出血，为患者争取到关键的黄金救治期；在脑机接口的前沿探索中，它为整个行业提供了一个非侵入且能够实时获取全脑功能数据的基础设施。 鲲为的全系列产品｜图片来源：鲲为 鲲为已实现数千万订单，正站在商业化起飞拐点。但刘家家告诉极客公园，鲲为目标不止于做一家技术和产品领先的颅脑超声设备公司，而是成为赋能脑科学 AGI 的 Infra 公司：提供硬件设备和基础软件平台 kOS，就像 AI 领域的英伟达提供显卡和 CUDA。全球不同技术路线的脑机接口 Lab，以及 NeuroAI 模型公司，都是他们的目标客户。 鲲为创始人刘家家｜图片来源：受访者 复刻蝙蝠，靠智能「看清 」 人脑 鲲为的起点，源于对一项统治了行业几十年的常识的怀疑。 2008 年，刘家家从西安交通大学生物医学工程专业毕业后进入超声行业。他很快注意到，超声工业乃至更广泛的硬件领域，在 2000 年前后撞上了一堵无形的物理墙： 从芯片的主频大战（AMD 与 Intel 争相突破 1GHz），到无线通信从 2G 到 5G/6G 的频段演进，再到半导体光刻机从可见光迈向 EUV——科技产业近百年来遵循着同一种范式，即通过提升频率来榨取性能上限。 「大家把工程上的经验总结，误认为了不可逾越的物理极限。」刘家家回忆。他产生了一个强烈的假说：为什么我们一定要被高频绑架？基于低频，同样可以构建出高性能的成像与感知系统。 在当时，这个想法被同行视为毫无文献支持的「异类」。 转折发生在 2016 年 AlphaGo 震动世界。刘家家意识到，打破行业瓶颈的关键钥匙可能在于——智能。 自然界早就给出了答案。他想到，蝙蝠发射的声波频率并不高，却能依靠大脑神经网络对回波信息的精准处理，在百米之外捕获一只蚊子的飞行轨迹。传统超声缺乏智能，严重限制了成像能力，因而鲲为决定放弃单纯的「物理高频成像」，转向「声学空间智能」。 使用设备「读脑」的临床场景｜图片来源：鲲为 「我们复刻了蝙蝠的声学空间感知能力。」鲲为将深度神经网络引入超声回波信号的处理中，利用算力与自研 AI 模型重建三维空间结构。「我们做的不是传统二维成像，而是高精度的三维声学空间感知。」刘家家说。 2021 年，在不到 10 人的早期团队手里，鲲为跑通了第一台原型机，验证了低频高分辨率的技术可行性，并迅速获得了夏尔巴投资的重磅注",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-09T04:28:07+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372148",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "鲲为科技：用AI超声穿颅读脑，要做脑科学英伟达",
+   "summary_zh": "鲲为科技用低频超声加深度神经网络实现穿颅实时脑成像，完成4亿元融资，目标做脑科学Infra。",
+   "highlights_zh": [
+    "放弃高频路线，用AI算法突破颅骨穿透难题",
+    "毫秒级实时捕捉脑组织与血流动态",
+    "对标英伟达，提供硬件与kOS平台"
+   ],
+   "why_zh": "AI+脑科学基础设施的典型案例，技术路径独特。",
+   "tags": [
+    "科学AI",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-10-09",
+   "slot": "noon",
+   "selected_at": "2026-10-09T04:52:58+00:00",
+   "mirror_pdf": "pdf/web-f8e0812d9d35.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372148"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-705a7488654e",
+   "kind": "article",
+   "title": "短短 10 个月几乎翻倍，AI 模型评测平台 Arena 估值升至 31 亿美元",
+   "url": "https://www.ithome.com/1/010/899.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 9 日消息，当地时间 8 日，AI 模型评测平台 Arena 竞技场宣布完成 2 亿美元 （IT之家注：现汇率约合 13.43 亿元人民币） B 轮融资， 估值达到 31 亿美元 （现汇率约合 208.17 亿元人民币） 。Arena 最初是加州大学伯克利分校 2023 年的一项研究项目，通过公众投票对 AI 模型进行排名。 Arena 此前披露，今年 6 月的年化营收达到 1 亿美元 （现汇率约合 6.72 亿元人民币） 。 本轮融资由光速创投和 Khosla Ventures 共同领投，Salesforce Ventures、01 Advisors、戴尔科技资本、Endeavor Catalyst、a16z、Felicis 等机构参与投资。 今年 1 月，Arena 曾完成 1.5 亿美元 （现汇率约合 10.07 亿元人民币） A 轮融资， 投后估值 17 亿美元 （现汇率约合 114.16 亿元人民币） ，当时的年化营收为 3,000 万美元 （现汇率约合 2.01 亿元人民币） 。短短约 10 个月，Arena 的估值接近翻倍。 Arena 的评测平台 对个人用户免费开放 。用户可以输入提示词，或让 AI 按照自己的要求编写程序、开发项目，再比较不同模型的完成效果并评分。Arena 称，平台每月吸引数千万名访客。 去年 9 月，Arena 推出面向 AI 模型研发机构和企业的商业服务 AI Evaluations，利用社区用户的反馈数据，提供详细的模型性能分析。 今年，AI 研发机构发现，旗下模型能够通过 迎合基准测试的规则 获得高分，却未必具备相应的实际能力。企业也不再满足于标准化测试成绩，希望了解哪款模型更适合自己的业务需求。 Arena 在融资公告中指出：“AI 的发展速度已经超过了我们的评估能力。模型一旦发现自己在接受测试，固定的基准测试就会失效。世界需要一个中立的第三方，检验 AI 在实际使用中是否安全、行为是否符合人类的预期。Arena 开始承担这一角色。” 为此，Arena 在排行榜中 新增了对齐能力评测 ，重点考察模型是否会擅自执行用户没有要求的操作，是否会张冠李戴，将言论或事实归于错误的来源，以及是否会谎称完成了任务。Arena 将最后一种行为称为“欺骗性完成”。 在初步公布的对齐能力排行榜上，OpenAI 多款模型名列前茅，Claude Opus 5.5 排名第六，Claude Fable 排名第九。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-09T04:22:28+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/010/899.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Arena估值10个月翻倍至31亿美元，新增对齐评测",
+   "summary_zh": "AI模型评测平台Arena完成2亿美元B轮融资，估值达31亿美元，年化营收1亿美元，并新增对齐能力排行榜考察模型欺骗性行为。",
+   "highlights_zh": [
+    "10个月内估值从17亿翻倍至31亿美元",
+    "年化营收从3000万增至1亿美元",
+    "新增对齐评测，重点考察擅自操作、张冠李戴、欺骗性完成"
+   ],
+   "why_zh": "基准测试失效背景下，第三方中立评测正成为模型能力与安全的关键基础设施。",
+   "tags": [
+    "数据与评测",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-09",
+   "slot": "noon",
+   "selected_at": "2026-10-09T04:52:58+00:00",
+   "mirror_pdf": "pdf/web-705a7488654e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/010/899.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-aae0812c9c66",
+   "kind": "article",
+   "title": "陶哲轩带头宣战！人类数学家联合抵制OpenAI",
+   "url": "https://www.qbitai.com/2026/10/502089.html",
+   "pdf_url": "",
+   "abstract": "彻底撕破脸了",
+   "authors": [
+    "Jay"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-09T00:35:57+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/502089.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "陶哲轩带头，数学家联合抵制OpenAI",
+   "summary_zh": "陶哲轩等数学家公开联合抵制OpenAI，反映学术圈对AI公司数据使用与伦理问题的强烈反弹。",
+   "highlights_zh": [
+    "陶哲轩带头表态，学界与OpenAI矛盾公开化",
+    "争议核心涉及数据使用与学术伦理",
+    "或影响AI公司与科研界的合作关系"
+   ],
+   "why_zh": "了解AI巨头与学术圈关系裂痕的关键信号。",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-09",
+   "slot": "noon",
+   "selected_at": "2026-10-09T04:52:58+00:00",
+   "mirror_pdf": "pdf/web-aae0812c9c66.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/502089.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-26cfcf0b2273",
+   "kind": "article",
+   "title": "OpenAI withdraws three mathematical results",
+   "url": "https://twitter.com/danintheory/status/2108065033070789090",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-08T07:05:40Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50002650",
+     "signal": "265 pts",
+     "metric": 265
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI撤回三项数学成果",
+   "summary_zh": "Hacker News消息称OpenAI撤回三项数学相关成果，引发对其研究可靠性与发布流程的讨论。",
+   "highlights_zh": [
+    "HN 265分讨论",
+    "涉及AI在数学研究中的成果可信度",
+    "反映AI辅助科研的验证难题"
+   ],
+   "why_zh": "关注AI for Science与研究成果可信度的读者可留意。",
+   "tags": [
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.5818,
+   "score_llm": 6.0,
+   "score": 0.5927,
+   "date": "2026-10-09",
+   "slot": "noon",
+   "selected_at": "2026-10-09T04:52:58+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://twitter.com/danintheory/status/2108065033070789090"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50002650"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3b97938562e0",
+   "kind": "article",
+   "title": "zhongerxin/iPhone-use",
+   "url": "https://github.com/zhongerxin/iPhone-use",
+   "pdf_url": "",
+   "abstract": "让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。",
+   "authors": [],
+   "orgs": [
+    "zhongerxin"
+   ],
+   "published": "2026-10-09T04:52:58+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/zhongerxin/iPhone-use",
+     "signal": "★ 695（新项目） · Python",
+     "metric": 695
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "iPhone-use：让 Codex 通过 USB 操控真机",
+   "summary_zh": "开源项目让 Codex 经 USB 连接真实 iPhone，完成引导安装、App 自动化操作，并支持实时屏幕与截图回退。",
+   "highlights_zh": [
+    "通过 USB 直接操控真实 iPhone，而非模拟器",
+    "支持 App 自动化与引导安装流程",
+    "提供实时屏幕查看与截图回退机制"
+   ],
+   "why_zh": "如果你在做移动端智能体或 iOS 自动化测试，可以用它把 Codex 接到真机上跑任务",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5705,
+   "score_llm": 6.0,
+   "score": 0.5882,
+   "date": "2026-10-09",
+   "slot": "noon",
+   "selected_at": "2026-10-09T04:52:58+00:00",
+   "mirror_pdf": "pdf/web-3b97938562e0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/zhongerxin/iPhone-use"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-97f3345caf4d",
+   "kind": "article",
+   "title": "我使用国产「个人 AI 助手」的十天｜AI 上新",
+   "url": "http://www.geekpark.net/news/372163",
+   "pdf_url": "",
+   "abstract": "过去一年，AI 产品越来越想变成一个「人」。 一边是越来越自动化的 Agent，已经可以直接操作电脑，甚至和其他 AI 互相通信。 而另一边，是近期大火的「个人助理」式 Personal AI，它不仅要完成眼前的任务，还想记住是谁在提需求：这个人关心什么，手上有哪些没做完的事。 就在最近一个月里， Meta 推出了 Muse； Manus 推出个人 Agent 应用 Cue； OpenAI 随后发布 Dots。 它们的形态不同，但目的近似，都在试图长期记住用户的目标和偏好，进入用户日常使用的软件，并在用户没有主动提问时继续工作。 不过，放到国内的使用环境里，这些产品多少有些「水土不服」，要么仅在美区开放，要么可操作的应用主要是 Gmail、Slack、WhatsApp、Teams 等海外软件。 在这股热潮里，我注意到了 Today AI。它由 Teambition 创始人齐俊元打造，国内版于 9 月 24 日上线，已经接入飞书、钉钉、腾讯文档和邮箱等国内常用应用。 Today AI 应用的主页面｜图片来源：Today AI 至少对国内用户来说，它算是目前最容易上手体验 Personal AI 的产品之一。而用了 10 天以后，我也开始从 Today 身上看到 Personal AI 的局限与潜力。 栏目作者召集 极客公园的新栏目「AI 上新」，将带大家体验最新的 AI 应用和硬件，让你成为 AI 时代「最靓的仔」！ 现在，我们也向所有喜欢尝鲜和体验 AI 的同学发出召集，只要你发现并体验了新的 AI 应用或者功能，按照格式（参考案例： AI 时代的「4399」，可把我玩嗨了｜AI 上新 ）向栏目投稿，在极客公园公众号发布，不仅能获得相应稿费，且会为你「报销」AI 应用的订阅费用。 同时， 优秀作者还有机会进入极客公园 AI 体验群 ，获得最新 AI 应用和工具的内测资格，参加极客公园专属相关 AI 活动，和 AI 应用创始人一对一沟通。 AGI 太久，只争朝夕，让一部分人先 AI 起来吧！ 投稿、进群请扫描下方二维码添加极客小助手微信👇 01 我有常用的 AI，为什么还需要你？ 平时，我们通常带着明确的问题去找 AI，问它问题，给它派明确的指令或任务。 Personal AI 并不是这样，它是「了解我、围绕我、帮助我」的 AI 产品，更应该反问我：你是谁？ 为了更好地使用 Today，我把个人的身高体重、兴趣爱好、职业履历、内容偏好等个人信息，一股脑发给 Today，急不可耐地建立个人画像。 这个熟悉度很快就拉高了，但把自己介绍完，我还是不知道下一步该做什么。这时，Today 先向我走了一步。 它根据我提供的信息，开始以早晚报的方式和我「打招呼」。 它会在早晚报里告诉我喜欢的球队动态、某款我可能喜欢的游戏要上市了、今天的邮件摘要、关注的报刊这个月的封面文章…… 它整理出我可能感兴趣的信息，用早晚报发给我｜图片来源：Today AI 这是我第一次感受到 Today 和传统 AI 不一样。它不需要我去主动发问，而是它了解我之后，去猜我可能会对哪些信息感兴趣。 这种主动，也让我愿意继续告诉它更多日常信息。我开始试着和 Today 交流工作和生活里想到的问题。有的问题很轻，轻到我只是随口一问。有的问题很重，需要了解我整个工作习惯。 Today 会深究我的游戏喜好，也会了解我的工作内容，甚至会把这两者关联起来，展开话题跟我讨论｜图片来源：Today 使用常见的 AI 产品时，我们习惯为不同任务开不同对话，写不同的 prompt，避免上下文互相影响。复杂的任",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-09T04:34:12+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372163",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "国产个人AI助手十天体验：Today AI实测",
+   "summary_zh": "极客公园实测齐俊元打造的Today AI，探讨Personal AI在国内环境下的潜力与局限。",
+   "highlights_zh": [
+    "Personal AI赛道Meta、Manus、OpenAI密集布局",
+    "Today AI接入飞书、钉钉等国内应用",
+    "主动推送早晚报是差异化体验"
+   ],
+   "why_zh": "国内Personal AI产品的一手体验，看清赛道现状。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-10-09",
+   "slot": "noon",
+   "selected_at": "2026-10-09T04:52:58+00:00",
+   "mirror_pdf": "pdf/web-97f3345caf4d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372163"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e593dc4a1021",
+   "kind": "article",
+   "title": "谷歌云发布 Gemini Agent；Manus 官宣五亿美元融资；小鹏上线 Robotaxi 打车小程序",
+   "url": "http://www.geekpark.net/news/372143",
+   "pdf_url": "",
+   "abstract": "谷歌云发布 Gemini Agent，支持多种 AI 模型 10 月 8 日，谷歌云在 Gemini at Work 2026 发布会上宣布，面向企业客户推出 Gemini 智能体（Gemini Agent）。这款产品定位「通用工作智能体」，支持 Gemini Enterprise 、Workspace 以及第三方服务。 谷歌表示，Gemini Agent 只需要用户给出目标就能完成工作，支持回答问题、处理知识型工作、创建媒体内容，以及编写程序。 除了充当个人助理之外，Gemini 智能体还可以用作「团队成员」。它可以在团队中担任 PM、财务分析师等。 目前，该智能体支持 Gemini 和 Claude 模型，未来还将兼容各种闭源、开源模型。官方将提供 API，让开发者将 Gemini Agent 集成到第三方应用中。（来源：IT之家） Manus 官宣 5 亿美元新一轮融资 10 月 8 日，Manus 母公司蝴蝶效应宣布于近日完成超过 5 亿美元新一轮融资。本轮融资由博裕投资、IDG 资本领投，老股东腾讯、红杉中国、真格基金继续加持。 这距离 Manus 于 9 月 1 日正式宣布恢复独立运营，还不到一个月。据接近 Manus 的人员透露，经历了诸多波折之后，团队变动不大、状态稳定，主要注意力依然集中在产品研发上。另据相关人士透露，本轮融资目标估值约 40 亿美元。 创始人兼 CEO 肖弘在 9 月 28 日新产品发布后的感慨，为这段经历留下了一个注脚。「我原来以为我们的旅程只是一个注释就结束了，没想到也许有机会书写一个章节。如果有机会一起就太好了。」（来源：腾讯科技） 小米汽车澎程系列首销月锁单量破 7 万台 10 月 8 日，小米正式公布小米汽车「澎程」系列上市首销月的官方锁单数据：截至 10 月 7 日，小米澎程 N70、N90 系列累计锁单量破 7 万台。 值得注意的是，这一数据在 1—8 月增程市场萎缩近 20% 的背景下出现的。 10 月 1 日，雷军曾表示，小米澎程 9 月当月交付已破万，直接拉动小米汽车 9 月整体交付量突破 4 万台。此前，小米汽车多月销量维持在 3 万台级别。 业内认为，随着四季度产能进一步爬坡，小米澎程系列有望推动小米汽车交付规模再上新台阶，同时加速 20 万—30 万元级家用 SUV 市场的新能源替代节奏。（来源：新浪财经） Claude Haiku 5.5 发布，小模型API价格暴降 90% 北京时间 10 月 8 日，Anthropic 推出了 Claude Haiku 5.5，这是一款速度更快、价格更低的小型人工智能模型，旨在满足高容量企业工作流程和子智能体任务执行的需求。 与前代产品 Haiku 4.5 相比，新版本平均成本降低了约 75%，在 10 万个令牌以下的标准提示加载操作中，成本最多可节省 90%。 基准测试数据显示，Haiku 5.5 在各项技术评估中均实现了显著的性能提升。在 OSWorld 2.1 计算机使用基准测试中，Haiku 5.5 的成功率达到了 72.4%，远高于上一代产品的 15.7%。 此外，该模型也是 Haiku 系列中首个具备可调节推理难度设置的模型，使开发人员能够根据具体的工作负载需求，动态地平衡成本参数和智能需求。 Haiku 框架的战略性重新定位凸显了 Anthropic 专注于处理海量企业工作负载，同时将其规模更大的 Sonnet 和 Opus 模型保留给重型编码和复杂推理任务。（来源：Bianews） 博主：iPhone DUO 备货极少，抢到就是赚到",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-09T00:35:13+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372143",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌云发Gemini Agent，Manus融资5亿美元",
+   "summary_zh": "谷歌云发布Gemini Agent，Manus完成5亿美元融资，Claude Haiku 5.5发布且API价格暴降90%。",
+   "highlights_zh": [
+    "Gemini Agent支持多模型，可当团队成员",
+    "Manus估值约40亿美元，老股东加仓",
+    "Haiku 5.5成本降75%，OSWorld成功率72.4%"
+   ],
+   "why_zh": "多条Agent与小模型重要动态的集中速览。",
+   "tags": [
+    "智能体",
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-10-09",
+   "slot": "noon",
+   "selected_at": "2026-10-09T04:52:58+00:00",
+   "mirror_pdf": "pdf/web-e593dc4a1021.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372143"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f5415a0e9da6",
+   "kind": "article",
+   "title": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk",
+   "url": "https://www.latent.space/p/periodic",
+   "pdf_url": "",
+   "abstract": "A special Science pod and Engineering pod crossover.. with Forward Deployed Engineering kicker!",
+   "authors": [
+    "swyx"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-08T16:27:54+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/periodic",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "从半导体到超导体：AI驱动科学发现",
+   "summary_zh": "Periodic Labs的Liam Fedus与Ekin Dogus Cubuk探讨AI在材料科学中的应用，从半导体延伸到超导体。",
+   "highlights_zh": [
+    "前OpenAI研究员Liam Fedus参与，聚焦AI for Science",
+    "讨论AI如何加速材料发现与实验设计",
+    "科学与工程双播客交叉，含前沿部署工程内容"
+   ],
+   "why_zh": "了解顶级研究者对AI驱动科学发现的判断。",
+   "tags": [
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 6.0,
+   "score": 0.58,
+   "date": "2026-10-09",
+   "slot": "noon",
+   "selected_at": "2026-10-09T04:52:58+00:00",
+   "mirror_pdf": "pdf/web-f5415a0e9da6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/periodic"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-077dea1e8a7a",
+   "kind": "article",
+   "title": "Disrupting AI-enabled “false front” operations",
+   "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+   "pdf_url": "",
+   "abstract": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-10-08T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 打击 AI 驱动的虚假媒体行动",
+   "summary_zh": "OpenAI 称已阻断两起利用 AI 的舆论影响行动，涉及假记者身份与一个智库，用于传播地缘政治信息。",
+   "highlights_zh": [
+    "两起行动均借助 AI 生成内容",
+    "手法包括伪装记者与智库外衣",
+    "属平台安全与滥用治理范畴"
+   ],
+   "why_zh": "了解生成式 AI 被用于信息操纵的真实案例与平台应对方式",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 6.0,
+   "score": 0.576,
+   "date": "2026-10-09",
+   "slot": "noon",
+   "selected_at": "2026-10-09T04:52:58+00:00",
+   "mirror_pdf": "pdf/web-077dea1e8a7a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-59dcfcbeed7a",
+   "kind": "article",
+   "title": "我所知道的张磊：一场MSRA赛马与半个中国AI江湖",
+   "url": "https://www.leiphone.com/category/industrynews/GpWlfJRtQo3YoQnc.html",
+   "pdf_url": "",
+   "abstract": "雷峰北京办公室不远处，就能看见西格玛大厦，总能想起那个豪杰并起的年代。 二十四年前，就在那里，微软亚洲研究院内部有一场赛马。 两个团队被同时拉上竞技场，比谁的人脸检测算法更好，即便没有明说，但谁都心里清楚，这可能决定着人员去留。 一方是个刚毕业不到两年的年轻博士，本行还不是人脸，他带着几个实习生仓促上阵，表面看起来规划一塌糊涂。 另一方是冉冉升起的明星学者，他的系统刚被比尔·盖茨在全球技术狂欢节上亲自演示过，CNN 做过专题报道，他与印度裔泰斗Anil K. Jain合编的《人脸识别手册》风行全球，堪称宗门天骄。 三个月后，前者赢了，所有人大跌眼镜。 多年以后人们才慢慢发现，那个年轻博士和他当初带的几个实习生，后来几乎撑起了中国 AI 的半壁江山。 此人便是张磊。 今天左林右狸频道要跟各位邻里讲的，就是他的故事。 01 师父一句话，徒弟二十年 张磊在清华本、硕、博就读。 那时候人工智能还是个彻头彻尾的冷门学科，别说找工作了，你跟人说「我是学 AI 的」，人家会以为你是写科幻小说的。 他本硕期间都在计算机系人工智能教研组做移动机器人，具体来说是 AGV 自动导引小车。 那个年代做 AGV，跟今天完全不是一码事，没有激光雷达给你用，没有成熟的 SLAM 算法，全靠自己焊硬件、调参数。 张磊大量课余时间泡在实验室里，跟电路板和单片机死磕，写汇编代码来完成 AGV 的各种功能：自主定位、超声避障、无线通信、面板操作等。 多年后，张磊对左林右狸频道谈着这段往事，他认为这种从底层硬件到上层算法全链条自己动手的经历，后来成了他工程能力的底子。 1999 年，读博二的张磊进入刚成立不久的 MSRA 实习。 MSRA 是微软在中国设立的第一个基础研究机构，前一年刚在北京成立，后来被业界称作「中国AI的黄埔军校」，走出了包括李开复、张亚勤、沈向洋、王坚、何恺明等几乎整个中国AI产业的扛旗者 张磊去的是李开复的语音语言组，一个做移动机器人的跑去搞语音语言，这是个阴差阳错的开始。 但这段经历有一个极其重要的「副产品」——实习结束，张磊的同学邸烁把他引荐给了张宏江。 邸烁名字虽然难念，但他后来可是谷歌中国六大技术主管之一，被业界称为是「谷歌六君子」，更传奇的身份是，他把安卓手机操作系统引入了中国，被称作「Android 中国第一人」。 他的夫人兼学妹张小沛，更是清华计算机系一代传奇，在微软做过在线广告精准投放，在 Hulu 做过全球副总裁，回国后先后担任宜信 CTO、瓜子二手车 CTO，后来创办了跨境电商全量全速，天使轮就拿了 3000 万美金，大家后来知道的字节推荐大佬项亮等人都曾是她的部下。 1999 年的那个秋天，邸烁作为一个中国好同学，把张磊带到张宏江面前，这个看似微小的引荐，改变了张磊接下来二十多年的学术轨迹。 张宏江是计算机视频检索领域的开山鼻祖，IEEE Fellow 和 ACM Fellow 双料院士，美国国家工程院外籍院士，后来做过微软亚太研发集团 CTO、金山软件 CEO。前几年，全球计算机科学和电子领域 TOP 1000 科学家榜单里，中国大陆入选 53 人，张宏江排第一。 话回当年。 张宏江非常欣赏张磊，给张磊推荐了大量论文和研究方向。 从那时起，张磊才系统性进入图像检索这个领域，从移动机器人到视觉，学术方向就此转了弯。 而在此期间，张磊还有另一个身份，那就是张钹院士的博士生，两人还有一段不为外界所知的亲传弟子师生情。 为什么这么说？ 左林右狸频道这里抖一个止步于此的包袱，大家当成包袱听就行，据说张钹本来极力动员张磊回到学校，张磊也有意向留在清华。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-08T05:53:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/GpWlfJRtQo3YoQnc.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "我所知道的张磊：一场 MSRA 赛马与半个中国 AI 江湖",
+   "summary_zh": "雷峰网回顾张磊在 MSRA 的人脸检测赛马经历，讲述其从移动机器人转向计算机视觉，以及他培养的人才如何撑起中国 AI 半壁江山。",
+   "highlights_zh": [
+    "张磊在 MSRA 人脸检测赛马中击败明星学者",
+    "张磊从移动机器人转向视觉领域的关键引荐",
+    "MSRA 作为中国 AI 黄埔军校的人才脉络"
+   ],
+   "why_zh": "了解中国 AI 产业人才谱系与 MSRA 历史的深度人物报道。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-09",
+   "slot": "noon",
+   "selected_at": "2026-10-09T04:52:58+00:00",
+   "mirror_pdf": "pdf/web-59dcfcbeed7a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/GpWlfJRtQo3YoQnc.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-94483e68765a",
+   "kind": "article",
+   "title": "7个月融4亿美刀背后，站着代季峰8人团",
+   "url": "https://www.leiphone.com/category/industrynews/f0nfLFiAdLXtig24.html",
+   "pdf_url": "",
+   "abstract": "一家清华背景公司，成立 7 个月，三轮融资总额 4 亿美元，投后估值 14.2 亿美元。 创下如此记录之时，官网上却只有一句英文标语，竟然一张团队合影、一份产品介绍都没有。 这个创业团队没有接受过任何采访，低调到令人发指。这家公司叫 Naive AI，工商注册名是北京智衍慧生科技有限公司。搜索引擎搜公司名，只能搜到其创始人是清华大学电子工程系副教授代季峰。左林右狸频道这就为大家扒一扒，这家公司背后的代季峰8人团是怎么聚到一起的。 01 不是师徒，是同道中人 这里面绑定最深的肯定是朱锡洲。 看过我们前文我所知道的代季峰：从微软亚研7万次引用，到盛大3亿美金风暴的邻里肯定都有印象，代季峰这个人的起点，比大多数人想象的还要高。2014 年，代季峰博士毕业，进了微软亚洲研究院，业内叫 MSRA，绰号中国 AI 的黄埔军校。微软亚研首任创始院长是《时代周刊》全球百大李开复，二代目是有史以来最年轻的IEEE Fellow张亚勤，三代目是微软前全球执行副总裁、美国国家工程院外籍院士沈向洋，汤晓鸥、何恺明，半个中国 AI 产业的领军人物，都从北京知春路那栋希格玛大厦里走出来。代季峰进的视觉组，组长是孙剑。孙剑是 ResNet 的四位作者之一，残差网络把深度学习从十几层推进到上百层，后来回西安交大兼职做了人工智能学院院长，2022 年早逝，是这行公认的天才。代季峰进去的时机，正好赶上 MSRA 视觉组最高光的一年。2015 年，孙剑带队，用 152 层的深层残差网络，一口气拿下了 ImageNet 竞赛图像分类、定位、检测三项冠军，错误率压到 3.57%，第一次把机器的识别能力打过了人类 5.1% 的水平线。同年，MS COCO 物体检测竞赛第一届开赛，这是全球计算机视觉最权威的擂台，Facebook、谷歌、微软全都在场。冠军还是 MSRA。 代季峰而代季峰凭 DCN 家族在 2015、2016 连续两年拿下 MS COCO 一等奖，2016 年的 R-FCN 由他当一作，合作者是何恺明、孙剑。换句话说，代季峰进 MSRA 的第一年，就站在了世界之巅的一群人中间。代季峰自己也没闲着，很快就打出了自己的成名作，可变形卷积。那个时候，全世界做目标检测的人，都默认卷积核必须是方方正正的。代季峰偏要问一句，为什么不能根据目标的形状变长、变歪。科研就是这样，有时候提出问题，比解决问题更重要。他重塑了目标检测的底层逻辑，让可变形卷积成了后来 PyTorch 框架里的标准算子。就凭这一手，他在 MSRA 站稳了脚跟，也才有了后来带学生的资格。就是在这样的组里，代季峰认识了朱锡洲。朱锡洲是中科大与微软亚洲研究院的联合培养博士，这个项目只挑高校里最顶尖的博士生，放进 MSRA 由研究员手把手带。朱锡洲的 MSRA 导师就是代季峰。左林右狸频道此前一直以为，这对搭档的交集始于商汤。查了论文才发现，他们早在 2017 年就绑定了。那年朱锡洲以第一作者身份，和代季峰合发了一篇叫 Deep Feature Flow 的论文中了 CVPR。这篇论文在解决什么，值得展开说。那几年深度学习在图片上已经很能打了，但一遇到视频就抓瞎。视频有几十上百帧，逐帧跑一遍深度网络，慢到根本没法用，自动驾驶这种要实时反应的场景，更是想都别想。朱锡洲他们想了个办法，别每一帧都算，只在几个关键帧上跑昂贵的卷积，中间那些帧，用光流把特征“搬运”过去就行。 朱锡洲因为相邻两帧的画面变化很小，特征也长得差不多，搬过去误差不大。这一搬，速度直接翻了五倍，用更轻的光流网络，能快到十倍。准确率几乎不掉，Cityscapes 语",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-08T05:49:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/f0nfLFiAdLXtig24.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "7个月融4亿美刀背后，站着代季峰8人团",
+   "summary_zh": "雷峰网揭秘清华背景公司 Naive AI 成立 7 个月融资 4 亿美元，创始人为代季峰，核心团队来自 MSRA 视觉组，包括可变形卷积等知名工作作者。",
+   "highlights_zh": [
+    "Naive AI 成立 7 个月三轮融资 4 亿美元，估值 14.2 亿",
+    "代季峰为可变形卷积作者，MSRA 视觉组出身",
+    "核心团队包括朱锡洲等 MSRA 联合培养博士"
+   ],
+   "why_zh": "了解当前 AI 创业融资热点与顶尖学术团队动向。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-09",
+   "slot": "noon",
+   "selected_at": "2026-10-09T04:52:58+00:00",
+   "mirror_pdf": "pdf/web-94483e68765a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/f0nfLFiAdLXtig24.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9cd1a852e247",
+   "kind": "article",
+   "title": "独家｜深圳DiffuSpace5亿元融资刷新全球扩散语言模型融资纪录，华为、地平线押注其中",
+   "url": "https://www.tmtpost.com/8162358.html",
+   "pdf_url": "",
+   "abstract": "从实验室走出的DiffuSpace，希望把一条曾经“非共识”的技术路线推向工程化与产业化前沿，未来扩散语言模型能否大规模应用，2026年或是一个关键的时间窗口。",
+   "authors": [
+    "钱微镜"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-09T04:03:45+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8162358.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "深圳DiffuSpace融资5亿，刷新扩散语言模型纪录",
+   "summary_zh": "深圳DiffuSpace完成5亿元融资，华为、地平线参投，刷新全球扩散语言模型融资纪录，押注非共识技术路线走向工程化。",
+   "highlights_zh": [
+    "融资额刷新全球扩散语言模型赛道纪录",
+    "华为、地平线等产业资本押注",
+    "2026年被视为扩散语言模型规模化应用关键窗口"
+   ],
+   "why_zh": "扩散语言模型是与自回归路线竞争的另一条技术路径，值得关注其工程化进展。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-09",
+   "slot": "noon",
+   "selected_at": "2026-10-09T04:52:58+00:00",
+   "mirror_pdf": "pdf/web-9cd1a852e247.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8162358.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5b37e56ce043",
+   "kind": "article",
+   "title": "Does better work always mean better workers?",
+   "url": "https://research.google/blog/does-better-work-always-mean-better-workers/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Google Research"
+   ],
+   "published": "2026-10-07T20:19:57+00:00",
+   "sources": [
+    {
+     "name": "Google Research",
+     "authority": 0.8,
+     "url": "https://research.google/blog/does-better-work-always-mean-better-workers/",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "更好的工作成果，是否意味着更好的工作者？",
+   "summary_zh": "Google Research 探讨如何用工作产出质量来评估工作者能力，分析二者之间的关联与偏差。",
+   "highlights_zh": [
+    "探讨产出质量与工作者能力之间的关系",
+    "来自 Google Research 的研究视角",
+    "对 AI 辅助评估与人才衡量有参考意义"
+   ],
+   "why_zh": "涉及 AI 评估方法论，对理解模型评测与人类评估的差异有启发。",
+   "tags": [
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.5,
+   "score_llm": 6.0,
+   "score": 0.56,
+   "date": "2026-10-09",
+   "slot": "noon",
+   "selected_at": "2026-10-09T04:52:58+00:00",
+   "mirror_pdf": "pdf/web-5b37e56ce043.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://research.google/blog/does-better-work-always-mean-better-workers/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-44a9c55170ca",
+   "kind": "article",
+   "title": "消息称英伟达拟投资 AI 推理 ASIC 企业 d-Matrix，双方此前已达成技术合作",
+   "url": "https://www.ithome.com/1/010/847.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 9 日消息，外媒 The Information 当地时间昨日报道称， NVIDIA（英伟达）拟投资 AI 推理 ASIC 芯片初创企业 d-Matrix 。这将是其“事实收购”Groq 后对芯片领域竞争对手的又一次重磅行动。 IT之家注意到，d-Matrix 此前已同 NVIDIA 建立了技术层面的合作：其下一代推理 XPU 将支持 NVLink Fusion 生态系统并采用 MGX 通用机架参考架构。 相关阅读： 《 AI XPU 企业 d-Matrix 宣布加入英伟达 NVLink Fusion 生态系统 》 《 AI 芯片竞合并存：NVIDIA 牵手 d-Matrix 打造混合算力基础设施 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-09T03:23:10+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/010/847.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "英伟达拟投资推理 ASIC 企业 d-Matrix",
+   "summary_zh": "英伟达拟投资 AI 推理 ASIC 初创 d-Matrix，后者下一代 XPU 将支持 NVLink Fusion 生态，反映英伟达在推理芯片领域的竞合布局。",
+   "highlights_zh": [
+    "d-Matrix 下一代推理 XPU 将支持 NVLink Fusion 与 MGX 架构",
+    "继 Groq 之后英伟达对芯片竞争对手的又一动作",
+    "显示推理 ASIC 赛道竞争加剧，英伟达以投资方式介入"
+   ],
+   "why_zh": "反映英伟达在推理算力市场的战略布局与竞合态势。",
+   "tags": [
+    "推理",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-09",
+   "slot": "noon",
+   "selected_at": "2026-10-09T04:52:58+00:00",
+   "mirror_pdf": "pdf/web-44a9c55170ca.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/010/847.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-52e61e45cb38",
+   "kind": "article",
+   "title": "LosaLosSantos/aurelio-finance",
+   "url": "https://github.com/LosaLosSantos/aurelio-finance",
+   "pdf_url": "",
+   "abstract": "Self-hosted personal wealth analysis: portfolio & net-worth tracking with AI insights. FastAPI + React.",
+   "authors": [],
+   "orgs": [
+    "LosaLosSantos"
+   ],
+   "published": "2026-10-09T04:52:58+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/LosaLosSantos/aurelio-finance",
+     "signal": "★ 700（新项目） · Python",
+     "metric": 700
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Aurelio：自托管个人财富分析工具",
+   "summary_zh": "一个自托管的个人资产与净值追踪工具，用 FastAPI + React 搭建，附带 AI 分析洞察。",
+   "highlights_zh": [
+    "支持投资组合与净值追踪",
+    "FastAPI 后端 + React 前端，可自行部署",
+    "内置 AI 洞察功能，但技术细节有限"
+   ],
+   "why_zh": "如果你在意数据隐私、想自建个人财务看板，可以拿来试用",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5708,
+   "score_llm": 4.0,
+   "score": 0.4683,
+   "date": "2026-10-09",
+   "slot": "noon",
+   "selected_at": "2026-10-09T04:52:58+00:00",
+   "mirror_pdf": "pdf/web-52e61e45cb38.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/LosaLosSantos/aurelio-finance"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "AI 科研能力出现「解题强、复现弱」的结构性错位，评测重心正从答案转向可复现性。",
-   "why": "OpenAI 解出 90 道数学开放题却撤回论文，论文复现率仅 13.98%，暴露严谨性短板。",
+   "trend": "AI 攻数学难题的叙事正被复现率与撤稿反噬，评测重心从解题转向可验证科研能力",
+   "why": "OpenAI 撤回数学论文、论文复现率仅 13.98%，与 90 道开放问题解形成强烈反差",
    "refs": [
     "web-b98bf529323b",
     "web-133541a06ad0",
-    "web-89406c38e05b"
+    "web-89406c38e05b",
+    "web-aae0812c9c66"
    ]
   },
   {
-   "trend": "小模型与端侧智能体成为新竞争焦点，巨头开始抄小模型架构而非堆参数。",
-   "why": "Jev 被 OpenAI、Cloudflare、亚马逊效仿；Haiku 5.5 操作能力暴涨且成本降 75%。",
+   "trend": "小模型与低成本推理成主战场，操作能力跃升但复杂编程仍是分水岭",
+   "why": "Claude Haiku 5.5 操作评测暴涨、成本降 75%，Jev 小模型被巨头效仿",
    "refs": [
+    "web-9655af284233",
     "web-4f5d65c153d2",
-    "web-9655af284233"
+    "web-e593dc4a1021"
    ]
   },
   {
-   "trend": "世界模型与长期记忆正从论文走向机器人落地，架构创新取代单纯数据堆叠。",
-   "why": "RoboJEPA 发现想象误差二阶幂律；IROS 最佳论文 LT-Mem 解决时间性遗忘。",
+   "trend": "世界模型从视频生成转向动作忠实与规模化定律，机器人数据闭环成竞争焦点",
+   "why": "RoboJEPA 发现想象误差二阶幂律，DreamTrue 将交互缺陷率降至 6.25%",
    "refs": [
     "arxiv-2610.10515",
-    "web-27e25eeed3c3"
+    "arxiv-2610.12468",
+    "arxiv-2610.12299",
+    "web-f402f325b7e1"
    ]
   },
   {
-   "trend": "智能体训练范式转向 harness 与模型协同进化，数据配方按运行时动态匹配。",
-   "why": "CoTrace 让 Qwen3.5-9B 在 Tmax 上从 78 提升至 90，验证协同进化有效性。",
+   "trend": "Agent 竞争从模型能力转向 harness 与数据配方协同，评测开始考察经验学习",
+   "why": "CoTrace 用 harness 感知数据配方提升 Tmax，Learn2Play 揭示保留原始记录优于总结",
    "refs": [
-    "arxiv-2610.10426"
+    "arxiv-2610.10426",
+    "arxiv-2610.08215",
+    "web-cb2114dafd5b",
+    "web-d0d3870d5c88"
    ]
   },
   {
-   "trend": "中美 AI 监管路径分化：中国以速度优先换产业竞争，美国以风险防控拖慢前沿。",
-   "why": "SemiAnalysis 指出中国不为前沿模型设限，核心导向是产业竞争而非风险防控。",
+   "trend": "中国 AI 走速度优先的产业竞争路线，资本押注非共识架构与国产 Infra",
+   "why": "监管不为前沿模型设限，DiffuSpace 扩散语言模型融资 5 亿、鲲为超声脑成像融资 4 亿",
    "refs": [
-    "web-2edf2c87c8f3"
+    "web-2edf2c87c8f3",
+    "web-9cd1a852e247",
+    "web-f8e0812d9d35",
+    "web-94483e68765a"
    ]
   }
  ]
