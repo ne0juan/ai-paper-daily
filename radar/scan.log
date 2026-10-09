@@ -1,14 +1,12 @@
-2026-10-09 11:46:58,541 INFO source hf_daily           -> 44 items
-2026-10-09 11:46:58,916 INFO source hackernews         -> 4 items
-2026-10-09 11:47:13,831 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-09 11:47:22,596 INFO source rss                -> 82 items
-2026-10-09 11:47:24,327 INFO source html_lists         -> 0 items
-2026-10-09 11:47:24,327 INFO source x                  -> 0 items
-2026-10-09 11:47:24,900 INFO source arxiv_search       -> 60 items
-2026-10-09 11:47:33,767 INFO source github             -> 20 items
-2026-10-09 11:47:33,768 INFO candidates: 207 (stale dropped 38, new 123)
-2026-10-09 11:49:01,891 INFO llm judged 97/100 (calls=13)
-2026-10-09 11:49:01,948 WARNING mt provider edge failed: 404 for https://edge.microsoft.com/translate/auth
-2026-10-09 11:49:02,285 INFO mt: 2 strings via google
-2026-10-09 11:49:50,142 WARNING snapshot https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9: blocked or empty page
-2026-10-09 11:51:28,492 INFO run done: {"at": "2026-10-09T11:46:58+00:00", "slot": "evening", "candidates": 207, "new": 123, "stale": 38, "judged": 97, "selected": 20, "mirrored": 17, "by_category": {"技术": 4, "项目": 2, "资讯": 13, "观点": 1}, "by_source": {"HF Daily Papers": 44, "arXiv 新论文": 60, "Hacker News": 4, "量子位": 10, "极客公园": 5, "IT之家": 11, "爱范儿": 4, "少数派": 2, "雷峰网": 9, "钛媒体": 3, "InfoQ 中文": 14, "Simon Willison": 1, "Latent Space": 4, "SemiAnalysis": 1, "Nathan Benaich": 1, "Zvi Mowshowitz": 2, "Timothy B. Lee": 1, "科学空间": 1, "Hugging Face Blog": 4, "Google Research": 1, "OpenAI": 6, "NVIDIA": 2, "GitHub Trending": 9, "GitHub 新项目": 11}, "llm": true, "translated": 1}
+2026-10-09 17:24:32,949 INFO source hf_daily           -> 45 items
+2026-10-09 17:24:34,172 INFO source hackernews         -> 4 items
+2026-10-09 17:24:50,650 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-09 17:24:58,097 INFO source rss                -> 80 items
+2026-10-09 17:24:59,697 INFO source html_lists         -> 0 items
+2026-10-09 17:24:59,697 INFO source x                  -> 0 items
+2026-10-09 17:25:00,380 INFO source arxiv_search       -> 60 items
+2026-10-09 17:25:09,176 INFO source github             -> 20 items
+2026-10-09 17:25:09,178 INFO candidates: 206 (stale dropped 117, new 52)
+2026-10-09 17:25:51,746 INFO llm judged 52/52 (calls=7)
+2026-10-09 17:25:56,065 WARNING snapshot https://thezvi.wordpress.com/2026/10/09/new-math-from-openai/: blocked or empty page
+2026-10-09 17:29:37,535 INFO run done: {"at": "2026-10-09T17:24:32+00:00", "slot": "morning", "candidates": 206, "new": 52, "stale": 117, "judged": 52, "selected": 19, "mirrored": 17, "by_category": {"观点": 2, "资讯": 12, "技术": 4, "项目": 1}, "by_source": {"HF Daily Papers": 45, "arXiv 新论文": 60, "Hacker News": 4, "量子位": 10, "极客公园": 5, "IT之家": 10, "爱范儿": 4, "少数派": 2, "雷峰网": 10, "钛媒体": 3, "InfoQ 中文": 14, "Simon Willison": 2, "Latent Space": 3, "SemiAnalysis": 1, "Nathan Benaich": 1, "Zvi Mowshowitz": 3, "Timothy B. Lee": 1, "科学空间": 1, "Hugging Face Blog": 2, "Google Research": 1, "OpenAI": 5, "NVIDIA": 2, "GitHub Trending": 9, "GitHub 新项目": 11}, "llm": true, "translated": 0}
