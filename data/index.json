@@ -1,12 +1,13 @@
 {
- "updated": "2026-10-09T04:52:58+00:00",
+ "updated": "2026-10-09T11:46:58+00:00",
  "days": [
   {
    "date": "2026-10-09",
-   "count": 40,
+   "count": 60,
    "slots": {
     "morning": 20,
-    "noon": 20
+    "noon": 20,
+    "evening": 20
    }
   },
   {
@@ -145,24 +146,24 @@
    }
   }
  ],
- "total": 850,
+ "total": 870,
  "last_run": {
-  "at": "2026-10-09T04:52:58+00:00",
-  "slot": "noon",
-  "candidates": 203,
-  "new": 121,
-  "stale": 41,
-  "judged": 100,
+  "at": "2026-10-09T11:46:58+00:00",
+  "slot": "evening",
+  "candidates": 207,
+  "new": 123,
+  "stale": 38,
+  "judged": 97,
   "selected": 20,
-  "mirrored": 18,
+  "mirrored": 17,
   "by_category": {
    "技术": 4,
-   "资讯": 13,
    "项目": 2,
+   "资讯": 13,
    "观点": 1
   },
   "by_source": {
-   "HF Daily Papers": 38,
+   "HF Daily Papers": 44,
    "arXiv 新论文": 60,
    "Hacker News": 4,
    "量子位": 10,
@@ -170,26 +171,25 @@
    "IT之家": 11,
    "爱范儿": 4,
    "少数派": 2,
-   "雷峰网": 14,
-   "钛媒体": 2,
-   "InfoQ 中文": 9,
+   "雷峰网": 9,
+   "钛媒体": 3,
+   "InfoQ 中文": 14,
    "Simon Willison": 1,
-   "Latent Space": 5,
-   "Stratechery": 1,
+   "Latent Space": 4,
    "SemiAnalysis": 1,
    "Nathan Benaich": 1,
    "Zvi Mowshowitz": 2,
    "Timothy B. Lee": 1,
+   "科学空间": 1,
    "Hugging Face Blog": 4,
    "Google Research": 1,
    "OpenAI": 6,
    "NVIDIA": 2,
-   "Anthropic": 1,
    "GitHub Trending": 9,
    "GitHub 新项目": 11
   },
   "llm": true,
-  "translated": 0
+  "translated": 1
  },
  "slots": {
   "morning": "晨间",

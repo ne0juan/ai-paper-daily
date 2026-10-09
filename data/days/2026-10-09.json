@@ -2400,12 +2400,1368 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "arxiv-2610.11959",
+   "kind": "paper",
+   "title": "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
+   "url": "https://arxiv.org/abs/2610.11959",
+   "pdf_url": "https://arxiv.org/pdf/2610.11959",
+   "abstract": "Reinforcement learning (RL) is the central training paradigm for advancing large foundation models towards self-improvement. This report introduces the MiMo-V2.6 series, an omni-modal family that pushes the frontier of model intelligence by scaling RL compute. Prior to RL, we conduct mid-training on a broad multimodal corpus to provide ample exploration space, and build a solid infrastructure on the pretrained hybrid-SWA architecture to support subsequent scale-up. We scale RL compute along three dimensions: (1) larger batches and higher throughput, with an asynchronous training that consumes 1,568 samples and 2.7-3.7B tokens per step at context lengths of up to 1M; (2) more diverse and complex environments, spanning code, general, visual, and cyber domains under a mixture of agent harnesses; and (3) more grader compute, via groupwise agentic grading that yields more accurate reward signals for long-horizon tasks and steers the model towards shorter, more token-efficient solutions. To keep training stable at scale, we freeze the MoE router and establish a multi-layer defense against reward hacking. We further build infrastructure for mixed-task agentic RL, including a unified trajectory representation, high-concurrency multi-framework rollout, decoupled control and data planes, and training-inference consistency. We open-source the training dynamics, RL environments, and RL framework to facilitate reproduction and further research on scaled RL and model self-improvement.",
+   "authors": [
+    "Core Team",
+    "Zongming Qiao",
+    "Ziyue Hua",
+    "Zirui Ou",
+    "Zihao Yue",
+    "Zihan Jiang",
+    "Zhuo Huang",
+    "Zhiyang Chen",
+    "Zhixian Zheng",
+    "Zhipeng Xu",
+    "Zhengrui Ma",
+    "Yuyang Hu",
+    "Yuhang Dong",
+    "Yuechen Zhang",
+    "Yudong Wang",
+    "Yuanxin Liu",
+    "Yixin Yang",
+    "Yishuo Cai",
+    "Yikai Zhao",
+    "Yihan Yan",
+    "Yifan Zhang",
+    "Yifan Song",
+    "Xiyu Wei",
+    "Xing Zhang",
+    "Xin Zhang",
+    "Xiaoqian Liu",
+    "Xiaodong Ji",
+    "Xiangwei Deng",
+    "Xueyu Guo",
+    "Wenhan Ma",
+    "Weimin Xiong",
+    "Weikun Wang",
+    "Weiji Zhuang",
+    "Shuo Liu",
+    "Shuhuai Ren",
+    "Shuhao Gu",
+    "Shimao Chen",
+    "Shijie Cao",
+    "Shihua Yu",
+    "Shicheng Li",
+    "Shengjie Zhou",
+    "Shaolei Zhang",
+    "Rang Li",
+    "Qiying Wang",
+    "Qingkai Fang",
+    "Qianli Chen",
+    "Minzheng Wang",
+    "Liwen Wang",
+    "Linli Yao",
+    "Linghao Zhang",
+    "Liangyu Cheng",
+    "Liang Zhao",
+    "Lei Li",
+    "Jinhao Dong",
+    "Jinyu Xiang",
+    "Jianyu Wei",
+    "Jiangshan Duo",
+    "Huaqiu Liu",
+    "Huanjie Fan",
+    "Hongyi Guan",
+    "Hongshen Xu",
+    "Hao Tian",
+    "Hanyu Li",
+    "Hailin Zhang",
+    "Gang Wang",
+    "Fuli Luo",
+    "Feng Wei",
+    "Dong Zhang",
+    "Dawei Zhu",
+    "Chiheng Lou",
+    "Chenhong He",
+    "Chenhao He",
+    "Chenghua Liu",
+    "Bowen Ye",
+    "Bowen Shen",
+    "Boshen Xu",
+    "Bo Yang",
+    "Bingquan Xia",
+    "Bangjun Xiao",
+    "Baixuan Xu",
+    "Zhouxiang Mao",
+    "Zhiyang Zhang",
+    "Zhixiang Xu",
+    "Zhenru Lin",
+    "Zhengju Tang",
+    "Zhaojun Huang",
+    "Yuzhe Weng",
+    "Yuxing Xiang",
+    "Yuxiao Li",
+    "Yuheng Yang",
+    "Yuhang Wang",
+    "Yuchen Liu",
+    "Yuanyuan Tian",
+    "Yuanliang Dong",
+    "Yu Cheng",
+    "Yongzhe He",
+    "Yongshun Liang",
+    "Yong Wang",
+    "Yiyan Wang",
+    "Yitian Gong",
+    "Yijie Zhang",
+    "Yanshu Xin",
+    "Xun Zhang",
+    "Xingjian Zhao",
+    "Wenyu Yang",
+    "Wenshan Huang",
+    "Wenhao Li",
+    "Tingwei Huang",
+    "Tianyu Yu",
+    "Tianyang Lu",
+    "Taoyu Yang",
+    "Sinan Du",
+    "Shutong Tian",
+    "Shulin Du",
+    "Shengfan Wang",
+    "Shanchuan Fang",
+    "Qihao Zhang",
+    "Qibin Yang",
+    "Qian Yu",
+    "Qian Tu",
+    "Pengrong Xie",
+    "Peipei Wang",
+    "Peidian Li",
+    "Minkun Guo",
+    "Mingchen Shao",
+    "Luohan Gao",
+    "Lijie Wang",
+    "Liang Shi",
+    "Kaiqi Chen",
+    "Kaiming Liu",
+    "Kaifei Wang",
+    "Kai Yang",
+    "Jinlong Xue",
+    "Jiechen Zhang",
+    "Jiaxuan Liu",
+    "Hongxu An",
+    "Hao Peng",
+    "Hanglong Lü",
+    "Guonan Wang",
+    "Feiyu Yang",
+    "Fanyu Cao",
+    "Fangyue Liu",
+    "Fan Cui",
+    "Cong Wang",
+    "Chun Chen",
+    "Chenxu Bai",
+    "Chengxuan Zhu",
+    "Chenghua Wang",
+    "Boyi Zeng"
+   ],
+   "orgs": [
+    "Xiaomi MiMo"
+   ],
+   "published": "2026-10-08T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.11959",
+     "signal": "▲ 49",
+     "metric": 49
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "小米MiMo-V2.6：扩展强化学习迈向自我改进",
+   "summary_zh": "小米发布全模态MiMo-V2.6系列，从批次吞吐、环境多样性、评分算力三维度扩展RL，开源训练动态与RL环境。",
+   "highlights_zh": [
+    "异步训练每步消耗1568样本、2.7-3.7B token，上下文达1M",
+    "冻结MoE路由器并建立多层防御对抗奖励黑客",
+    "组级智能体评分提供更准确奖励信号，引导更简洁高效的解"
+   ],
+   "why_zh": "头部厂商系统性公开RL扩展方法论与基础设施，对训练大模型极具参考价值",
+   "tags": [
+    "大模型",
+    "强化学习",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.6139,
+   "score_llm": 9.0,
+   "score": 0.7856,
+   "date": "2026-10-09",
+   "slot": "evening",
+   "selected_at": "2026-10-09T11:46:58+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.11959.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.11959"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.11959"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.11959"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.11959"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.11959"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.11959"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.12374",
+   "kind": "paper",
+   "title": "AgentGarten: Code Worlds for Evolving Agents",
+   "url": "https://arxiv.org/abs/2610.12374",
+   "pdf_url": "https://arxiv.org/pdf/2610.12374",
+   "abstract": "Interactive virtual worlds allow agents to learn through exploration and interaction. What agents can learn is bounded by the environments they practice in, which must be faithful, with consistent state, rules, and dynamics, and realistic, with observations that follow the real-world visual distributions. Achieving both across diverse worlds remains a bottleneck. We introduce AgentGarten, a framework that couples simulators and game engines with a shared neural renderer to build real-time interactive environments. Its simulation backends maintain persistent world state and execute program-defined interaction rules, while the renderer generates visual observations from structured conditions exported through a common interface. To build the neural renderer, we adapt a pretrained video model to geometry conditions, distill it with our proposed Adversarial Forcing, and optimize inference for real-time interaction. Adversarial Forcing makes history prefilling differentiable through exact replay, so that losses on later predictions update how the renderer encodes prior observations, and adds real-data adversarial supervision to improve its visual quality. In AgentGarten, agents perceive the world through visual observations, interact with it in real time, and improve by distilling each round of experience into playbooks that subsequent agents inherit and refine. Our empirical study demonstrates a substantial gain in learning efficiency, with agents learning from just 4 rounds compared with millions for a conventional reinforcement learning counterpart. As new worlds can be written as code and rendered through the same interface, environments can scale in both number and difficulty alongside their agents, a step toward agents that keep evolving through interactive experience.",
+   "authors": [
+    "Jiawei Chi",
+    "Shangchen Miao",
+    "Zhiyuan Shi",
+    "Kailu Wu",
+    "Hanyang Wang",
+    "Weiliang Chen",
+    "Qiyu Dai",
+    "Jinshan Ren",
+    "Jun Gao",
+    "Mingsheng Long",
+    "Yueqi Duan",
+    "Jiangran Lyu",
+    "Jialong Wu",
+    "Fangfu Liu"
+   ],
+   "orgs": [
+    "MirroS"
+   ],
+   "published": "2026-10-08T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.12374",
+     "signal": "▲ 126",
+     "metric": 126
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AgentGarten：用神经渲染器构建可进化的智能体世界",
+   "summary_zh": "将模拟器与游戏引擎耦合共享神经渲染器，构建实时交互环境，智能体通过视觉观察交互并将经验蒸馏为可继承的playbook。",
+   "highlights_zh": [
+    "提出Adversarial Forcing使历史预填充可微，提升渲染视觉质量",
+    "模拟后端维护持久世界状态并执行程序定义的交互规则",
+    "智能体每轮经验蒸馏为playbook供后续智能体继承优化"
+   ],
+   "why_zh": "为智能体训练提供兼具真实感与一致性的可扩展交互环境，值得关注",
+   "tags": [
+    "智能体",
+    "强化学习",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.6697,
+   "score_llm": 8.0,
+   "score": 0.7479,
+   "date": "2026-10-09",
+   "slot": "evening",
+   "selected_at": "2026-10-09T11:46:58+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.12374.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.12374"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.12374"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.12374"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.12374"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.12374"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.12374"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/MirroS-Lab/AgentGarten"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.12126",
+   "kind": "paper",
+   "title": "SuperNav: An Agentic Navigation System for Any Task in Any Scene",
+   "url": "https://arxiv.org/abs/2610.12126",
+   "pdf_url": "https://arxiv.org/pdf/2610.12126",
+   "abstract": "General-purpose service robots need navigation systems that can handle diverse human requests in unfamiliar environments, combining task generality with scene generality. Some existing methods fine-tune multimodal large language models (MLLMs) to predict navigation actions, making their behavior dependent on the coverage of navigation training data and potentially limiting generalization to new requests and environments. Our key insight is to let the MLLM focus on interpreting requests, understanding scenes, and making decisions while preserving its general-purpose capabilities and delegating motion execution to navigation tools. To realize this idea, we introduce SuperNav, which equips a pretrained MLLM with a specialized agent harness without navigation-specific fine-tuning of the MLLM. Our harness supports these decisions with Navigation Skills, agent-oriented Tools for physical interaction, and task-progress and context management. A unified visual-point interface connects decision-making to motion by allowing the model to specify destinations directly in images and revise its decisions from execution feedback. Together, these components support sustained navigation across different task requirements and environments. SuperNav outperforms four evaluated baselines on instance-level, multi-object, and demand-driven tasks. Category-level evaluation on HM3D and deployment on a real quadruped robot further demonstrate its applicability across environments. Project Page: https://zju3dv.github.io/SuperNav/",
+   "authors": [
+    "Jinkai Zhang",
+    "Jingyi Xu",
+    "Yuanhong Yu",
+    "Jiarui Guo",
+    "Ruizhen Hu",
+    "Hujun Bao",
+    "Xiaowei Zhou",
+    "Sida Peng"
+   ],
+   "orgs": [
+    "zju3dv"
+   ],
+   "published": "2026-10-08T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.12126",
+     "signal": "▲ 60",
+     "metric": 60
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "SuperNav：任意场景任意任务的智能体导航系统",
+   "summary_zh": "让预训练MLLM专注理解请求与场景决策，将运动执行委托给导航工具，无需导航微调即在多类任务上超越四个基线。",
+   "highlights_zh": [
+    "不微调MLLM，通过智能体harness保留其通用能力",
+    "统一视觉点接口让模型直接在图像中指定目的地",
+    "支持实例级、多目标和需求驱动任务，在HM3D上完成类别级评估"
+   ],
+   "why_zh": "展示了不牺牲通用能力即可实现通用导航的智能体设计范式",
+   "tags": [
+    "智能体",
+    "机器人",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.6258,
+   "score_llm": 8.0,
+   "score": 0.7303,
+   "date": "2026-10-09",
+   "slot": "evening",
+   "selected_at": "2026-10-09T11:46:58+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.12126.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.12126"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.12126"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.12126"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.12126"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.12126"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.12126"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/zju3dv/SuperNav"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.12289",
+   "kind": "paper",
+   "title": "TestPrism: Rethinking Test Evaluation Beyond a Single Reference",
+   "url": "https://arxiv.org/abs/2610.12289",
+   "pdf_url": "https://arxiv.org/pdf/2610.12289",
+   "abstract": "Large language model (LLM) coding agents have advanced test generation across diverse programming tasks. However, the common practice of evaluating tests against a single reference solution overlooks alternative valid implementations and can overstate test quality. We introduce TestPrism, comprising 300 test tasks from 17 sources and 3000 candidate implementations, evenly split between valid and invalid solutions. Its primary metric, Joint Success Function, requires the generated tests to fail on the initial program state, accept every valid candidate, and reject every invalid candidate. Across fourteen baseline coding agent configurations, Joint Success Function reaches only 28.00%, whereas single reference success reaches 59.67%. Our analysis reveals missed behaviors, unsupported assertions, and faulty test construction. To address these weaknesses, we introduce TestHelix, which combines heterogeneous synthesis of test and repair pairs with peer cross validation and recursive self improvement (RSI). Across two models, TestHelix improves Joint Success Function by 8.67 to 9.00 percentage points over the native harness comparators in the TestHelix evaluation",
+   "authors": [
+    "Han Li",
+    "Lingxiang Hu",
+    "Jiacheng Huang",
+    "Ziqian Jiang",
+    "Jingkai Luo",
+    "Wei Gao",
+    "Yunfan Tan",
+    "Zun Wang",
+    "Jiaheng Liu"
+   ],
+   "orgs": [
+    "NJU-LINK Lab"
+   ],
+   "published": "2026-10-08T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.12289",
+     "signal": "▲ 23",
+     "metric": 23
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "TestPrism：超越单一参考解的测试评测",
+   "summary_zh": "指出用单一参考解评测LLM生成测试会高估质量，构建含300任务、3000个候选实现的基准TestPrism，提出联合成功函数要求测试同时拒绝初始程序、接受所有有效解、拒绝所有无效解；14种编码智能体配置仅28%达标，配套方法TestHelix提升约9个百分点。",
+   "highlights_zh": [
+    "单一参考解成功率59.67%，联合成功函数仅28%，暴露评测虚高",
+    "300任务来自17个来源，候选实现有效/无效各半",
+    "TestHelix结合异构合成、同行交叉验证与递归自我改进提升测试质量"
+   ],
+   "why_zh": "做代码智能体与测试生成评测的研究者必读，基准设计思路可迁移。",
+   "tags": [
+    "代码",
+    "数据与评测",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.57,
+   "score_llm": 8.0,
+   "score": 0.708,
+   "date": "2026-10-09",
+   "slot": "evening",
+   "selected_at": "2026-10-09T11:46:58+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.12289.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.12289"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.12289"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.12289"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.12289"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.12289"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.12289"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f7cfdfd7bcc3",
+   "kind": "article",
+   "title": "alibaba/open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "pdf_url": "",
+   "abstract": "Star alibaba / open-code-review Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+   "authors": [],
+   "orgs": [
+    "alibaba"
+   ],
+   "published": "2026-10-09T11:46:58+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/alibaba/open-code-review",
+     "signal": "★ 今日 +323 · Go",
+     "metric": 323
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "阿里开源代码审查工具：确定性流水线+LLM智能体",
+   "summary_zh": "阿里开源混合架构代码审查工具，结合确定性流水线与LLM智能体，提供精确行级评论和内置多语言安全规则集。",
+   "highlights_zh": [
+    "混合架构：确定性流水线负责规则检查，LLM智能体处理语义审查",
+    "内置NPE、线程安全、XSS、SQL注入等多语言规则集",
+    "兼容OpenAI与Anthropic接口，经阿里规模实战验证"
+   ],
+   "why_zh": "如果你在搭建代码审查流程，可用它结合规则引擎与LLM做行级精准审查",
+   "tags": [
+    "代码",
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6571,
+   "score_llm": 7.0,
+   "score": 0.6828,
+   "date": "2026-10-09",
+   "slot": "evening",
+   "selected_at": "2026-10-09T11:46:58+00:00",
+   "mirror_pdf": "pdf/web-f7cfdfd7bcc3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/alibaba/open-code-review"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a075fd6c3ac1",
+   "kind": "article",
+   "title": "联想天禧自研代码智能体TianxiCode斩获SWE-bench-Live全球第一",
+   "url": "https://www.qbitai.com/2026/10/502422.html",
+   "pdf_url": "",
+   "abstract": "联想天禧AI自主研发的专业代码智能体框架TianxiCode 以71%的问题解决率登顶全球第一名",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-09T08:53:08+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/502422.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "联想天禧TianxiCode登顶SWE-bench-Live全球第一",
+   "summary_zh": "联想天禧自研代码智能体框架TianxiCode以71%问题解决率登顶SWE-bench-Live榜首，展示国产代码智能体在真实软件工程任务上的竞争力。",
+   "highlights_zh": [
+    "71%问题解决率位列全球第一",
+    "基于SWE-bench-Live真实任务评测",
+    "自研智能体框架而非套壳方案"
+   ],
+   "why_zh": "国产代码智能体在权威基准上的实力验证",
+   "tags": [
+    "代码",
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-09",
+   "slot": "evening",
+   "selected_at": "2026-10-09T11:46:58+00:00",
+   "mirror_pdf": "pdf/web-a075fd6c3ac1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/502422.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6d6ad58f0bc4",
+   "kind": "article",
+   "title": "0.2秒急停、秒级重规划！因果智能走进真实世界",
+   "url": "https://www.qbitai.com/2026/10/502411.html",
+   "pdf_url": "",
+   "abstract": "这是一台机器人正在关闭微波炉门时，因人手突然插进来而紧急悬停的时间",
+   "authors": [
+    "Jay"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-09T08:47:34+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/502411.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "因果智能让机器人0.2秒急停、秒级重规划",
+   "summary_zh": "因果智能技术让机器人在关微波炉门时遇人手突然介入可0.2秒悬停，并实现秒级重规划，展示真实环境下的实时安全响应能力。",
+   "highlights_zh": [
+    "0.2秒急停响应人手突然介入",
+    "秒级完成动作重规划",
+    "从Demo走向真实场景的安全交互"
+   ],
+   "why_zh": "机器人实时安全交互的关键进展案例",
+   "tags": [
+    "机器人",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-09",
+   "slot": "evening",
+   "selected_at": "2026-10-09T11:46:58+00:00",
+   "mirror_pdf": "pdf/web-6d6ad58f0bc4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/502411.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b10f0c4ea02c",
+   "kind": "article",
+   "title": "《柳叶刀》研究表明：AI 有望改善医患关系",
+   "url": "https://www.qbitai.com/2026/10/502359.html",
+   "pdf_url": "",
+   "abstract": "Google 研究成果首次登上《柳叶刀》主刊",
+   "authors": [
+    "梦晨"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-09T06:28:55+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/502359.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "《柳叶刀》研究：AI有望改善医患关系",
+   "summary_zh": "Google研究成果首次登上《柳叶刀》主刊，研究表明AI在医疗场景中有望改善医患沟通与关系。",
+   "highlights_zh": [
+    "Google研究首登《柳叶刀》主刊",
+    "聚焦AI对医患关系的影响",
+    "顶级医学期刊背书提升可信度"
+   ],
+   "why_zh": "AI医疗应用获顶级医学期刊认可的信号",
+   "tags": [
+    "科学AI",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-09",
+   "slot": "evening",
+   "selected_at": "2026-10-09T11:46:58+00:00",
+   "mirror_pdf": "pdf/web-b10f0c4ea02c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/502359.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-254437d8db4e",
+   "kind": "article",
+   "title": "openJiuwen发布并开源企业级AgentOS，加速智能体规模落地企业",
+   "url": "https://www.qbitai.com/2026/10/502106.html",
+   "pdf_url": "",
+   "abstract": "多Agent协同还能自我进化",
+   "authors": [
+    "思邈"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-09T02:37:22+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/502106.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "openJiuwen开源企业级AgentOS，推动智能体规模化落地",
+   "summary_zh": "openJiuwen发布并开源企业级AgentOS，支持多Agent协同与自我进化，旨在加速智能体在企业场景的规模化部署。",
+   "highlights_zh": [
+    "开源企业级智能体操作系统AgentOS",
+    "支持多Agent协同与自我进化能力",
+    "面向企业规模化落地场景"
+   ],
+   "why_zh": "关注智能体基础设施与开源生态的从业者可了解企业级AgentOS的落地路径。",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-09",
+   "slot": "evening",
+   "selected_at": "2026-10-09T11:46:58+00:00",
+   "mirror_pdf": "pdf/web-254437d8db4e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/502106.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-94ee2482679f",
+   "kind": "article",
+   "title": "hugohe3/ppt-master",
+   "url": "https://github.com/hugohe3/ppt-master",
+   "pdf_url": "",
+   "abstract": "Star hugohe3 / ppt-master AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+   "authors": [],
+   "orgs": [
+    "hugohe3"
+   ],
+   "published": "2026-10-09T11:46:58+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/hugohe3/ppt-master",
+     "signal": "★ 今日 +308 · Python",
+     "metric": 308
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "ppt-master：AI将文档一键转为原生PPT",
+   "summary_zh": "AI将文档或主题转为原生PowerPoint，含原生形状、转场动画、数据图表、语音旁白，支持自定义模板。",
+   "highlights_zh": [
+    "生成原生PPT形状、转场与动画，非图片堆叠",
+    "支持数据驱动的图表表格和演讲者备注音频旁白",
+    "可导入自己的.pptx模板"
+   ],
+   "why_zh": "如果你需要快速把文档或主题转成可编辑的原生PPT，可以用它省去排版时间",
+   "tags": [
+    "产品与行业",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.5752,
+   "score_llm": 6.0,
+   "score": 0.5901,
+   "date": "2026-10-09",
+   "slot": "evening",
+   "selected_at": "2026-10-09T11:46:58+00:00",
+   "mirror_pdf": "pdf/web-94ee2482679f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/hugohe3/ppt-master"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-410738e99318",
+   "kind": "article",
+   "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
+   "url": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-08T07:07:34Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50002665",
+     "signal": "204 pts",
+     "metric": 204
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "用Claude Code发现一颗未知行星",
+   "summary_zh": "一位开发者称借助Claude Code分析天文数据，发现了一颗此前未知的行星，引发Hacker News热议。",
+   "highlights_zh": [
+    "展示AI编码智能体在科研数据分析中的实际应用",
+    "HN 204分热度，社区关注AI辅助科学发现的可信度",
+    "缺乏同行评审，结论待专业验证"
+   ],
+   "why_zh": "了解AI智能体进入科研工作流的真实案例与争议。",
+   "tags": [
+    "科学AI",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5696,
+   "score_llm": 6.0,
+   "score": 0.5878,
+   "date": "2026-10-09",
+   "slot": "evening",
+   "selected_at": "2026-10-09T11:46:58+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50002665"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-aa79e68886a4",
+   "kind": "article",
+   "title": "陶哲轩转发抵制声明，数学界和OpenAI彻底撕破脸",
+   "url": "https://www.ifanr.com/1683401?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "数学家该怎么证明自己真的不需要 AI #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "张子豪"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-09T10:21:04+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1683401?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "陶哲轩转发抵制声明，数学界与OpenAI矛盾公开化",
+   "summary_zh": "陶哲轩转发抵制声明，数学界与OpenAI就AI在数学证明中的角色产生公开分歧，核心争议在于数学家是否需要借助AI证明自身能力。",
+   "highlights_zh": [
+    "陶哲轩转发抵制声明引发关注",
+    "数学界与OpenAI就AI辅助证明的边界产生冲突",
+    "争议焦点：数学家如何证明自己不需要AI"
+   ],
+   "why_zh": "反映AI与基础科学社区在方法论与信任上的张力，值得关注行业影响。",
+   "tags": [
+    "科学AI",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-09",
+   "slot": "evening",
+   "selected_at": "2026-10-09T11:46:58+00:00",
+   "mirror_pdf": "pdf/web-aa79e68886a4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1683401?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-00a2a41b8f18",
+   "kind": "article",
+   "title": "Codex 和 Claude Code 都跑偏了，前 OpenAI 研究员称 Jev 出现前 AI 世界是个悲剧",
+   "url": "https://www.infoq.cn/article/e0iQfJNgepz7VigRdD61?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "林绮蓓,蔡芳芳"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-09T17:39:38+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/e0iQfJNgepz7VigRdD61?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "前OpenAI研究员：Codex与Claude Code都跑偏了",
+   "summary_zh": "前OpenAI研究员认为当前编码Agent方向有误，称在Jev出现前AI世界是悲剧，观点涉及Agent设计路线之争。",
+   "highlights_zh": [
+    "批评Codex与Claude Code的现有路线",
+    "提出Jev作为理想形态的参照",
+    "涉及编码Agent的架构与方向判断"
+   ],
+   "why_zh": "来自一线研究者的路线批评，有助于理解编码Agent的设计分歧。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-09",
+   "slot": "evening",
+   "selected_at": "2026-10-09T11:46:58+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/e0iQfJNgepz7VigRdD61?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-014b49dcd792",
+   "kind": "article",
+   "title": "@ 一下就能派活？谷歌推出办公 Agent，拥有独立账号、能够创建子 Agent，还能调用 Claude",
+   "url": "https://www.infoq.cn/article/490gIS9Bk0NmylN7GIt1?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "林绮蓓"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-09T17:15:07+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/490gIS9Bk0NmylN7GIt1?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌推出办公Agent：独立账号、可创建子Agent",
+   "summary_zh": "谷歌发布办公场景Agent，拥有独立账号、能创建子Agent并调用Claude，标志大厂Agent产品化推进。",
+   "highlights_zh": [
+    "Agent拥有独立账号身份",
+    "支持创建子Agent实现任务分解",
+    "可跨厂商调用Claude等外部模型"
+   ],
+   "why_zh": "头部厂商Agent产品化的重要动作，反映多Agent协作与跨模型调用趋势。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-09",
+   "slot": "evening",
+   "selected_at": "2026-10-09T11:46:58+00:00",
+   "mirror_pdf": "pdf/web-014b49dcd792.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/490gIS9Bk0NmylN7GIt1?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-93f4b03fb323",
+   "kind": "article",
+   "title": "从 Demo 到生产：AI Agent 缺的到底是什么？",
+   "url": "https://www.infoq.cn/article/PLEWse6sEviMN99iLE93?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Trista Pan"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-09T11:13:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/PLEWse6sEviMN99iLE93?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "从 Demo 到生产：AI Agent 缺的到底是什么？",
+   "summary_zh": "InfoQ 文章探讨 AI Agent 从演示走向生产环境的核心瓶颈，指出工程化、可靠性与可观测性等落地能力才是关键缺口。",
+   "highlights_zh": [
+    "聚焦 Agent 从 Demo 到生产的落地鸿沟",
+    "强调工程化与可靠性而非模型能力",
+    "面向企业级 Agent 部署的实践视角"
+   ],
+   "why_zh": "正在做 Agent 产品化落地的团队可借此梳理工程化短板。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-09",
+   "slot": "evening",
+   "selected_at": "2026-10-09T11:46:58+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/PLEWse6sEviMN99iLE93?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1112027d5901",
+   "kind": "article",
+   "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+   "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+   "pdf_url": "",
+   "abstract": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through […]",
+   "authors": [
+    "NVIDIA Writers"
+   ],
+   "orgs": [
+    "NVIDIA"
+   ],
+   "published": "2026-10-08T21:06:35+00:00",
+   "sources": [
+    {
+     "name": "NVIDIA",
+     "authority": 0.75,
+     "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "英伟达展示AI智能体驱动Omniverse仿真开发",
+   "summary_zh": "英伟达介绍开发者如何用前沿AI模型配合Omniverse库，让智能体自动完成资产组装、物理渲染连接与场景校验，加速仿真应用构建。",
+   "highlights_zh": [
+    "AI智能体可承担仿真开发中的重复性工程工作",
+    "Omniverse库提供物理与渲染的底层能力",
+    "面向场景探索、故障排查与设计优化等应用"
+   ],
+   "why_zh": "了解英伟达在仿真+智能体方向的产品化思路",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 6.0,
+   "score": 0.552,
+   "date": "2026-10-09",
+   "slot": "evening",
+   "selected_at": "2026-10-09T11:46:58+00:00",
+   "mirror_pdf": "pdf/web-1112027d5901.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-33508f1f8d42",
+   "kind": "article",
+   "title": "再裁员5000人！保时捷明确回归燃油车，高端车型计划涨价20%；腾讯拟发行50亿美元离岸债券，或筹钱加码AI；OpenAI全面上线GPT-6",
+   "url": "https://www.leiphone.com/category/zaobao/GGmq1RiBgXY2GSVL.html",
+   "pdf_url": "",
+   "abstract": "要闻提示 再裁员5000人！保时捷明确回归燃油车，高端车型计划涨价20% 阿里巴巴蔡崇信：开源是欧洲发展 AI 的最佳选择 腾讯拟发行50亿美元离岸债券，或筹钱加码AI 超33亿元！Manus拿下国内Agent创企最大单笔融资，腾讯投了 7万人排队掏钱！小米公布澎程上市首月战报：30天锁单超70000台 字节跳动前争议实习生开发世界模型：融资近3000万美元 OpenAI面向全球所有ChatGPT用户全面上线GPT-6 曝英伟达拟再投 10 亿美元加码人形机器人企业 Figure 今日头条 再裁员5000人！保时捷明确回归燃油车，高端车型计划涨价20% 10月8日消息，德国豪华车巨头保时捷7日发布面向2035年的经营战略。受中国市场销量下滑影响，保时捷业绩持续低迷，此次计划最多裁员30%以缩减组织规模、累计裁员约9000人，同时将增加中大型跑车的投放，明确回归燃油车，意在改善盈利。 保时捷表示，将在祖文豪森和魏斯阿赫两大工厂投资21亿欧元（约158亿元），同时再裁减5000个工作岗位，就业和厂址保护期延长至2035年底。这是保时捷继此前4000人裁员计划后的第二轮大规模人员缩减，累计裁员总数将达到9000人。 此外，保时捷披露，将优化车型衍生版本数量，使产品组合更聚焦于有吸引力的高端细分市场。公司计划将车型衍生版本数量减少约20%，以降低产品组合的复杂性。预计中期内，每个车型衍生版本的平均销量将提升约30%。 据披露，保时捷计划将其高端车型售价平均提高20%，并将推出一款911衍生车型。（快科技） 国内资讯 阿里巴巴蔡崇信：开源是欧洲发展 AI 的最佳选择 10 月 8 日消息，据外媒报道，阿里巴巴集团董事会主席蔡崇信认为，欧洲要在技术上摆脱对中美的依赖，最佳选择是开源 AI。他呼吁欧洲建设自己的算力基础设施，用于训练和运行 AI 模型。 当地时间 7 日，蔡崇信在意大利都灵的 Wave by Vento 大会上指出：“没有哪个国家愿意完全依赖另一个国家的技术。一旦政府换届、形势发生变化，对方就能直接切断技术供应。欧洲必须认真投入算力基础设施建设，让模型能够运行，把模型训练和推理放在欧洲本地的基础设施上进行。” 蔡崇信还阐述了以阿里为代表的中国公司的AI开源路径。“就像一所顶尖大学会向全世界开放、为学生提供助学金一样，AI也应该把进展开源，让更多人受益。这也源于中国公司在哲学层面的选择。”相比之下，OpenAI、Anthropic 等美国企业主要提供专有模型。蔡崇信直言不讳：“美国那些闭源实验室不再写论文，因为他们不想分享。他们想保持封闭。”（IT之家、快科技） 腾讯拟发行50亿美元离岸债券，或筹钱加码AI 10 月 8 日消息，据知情人士透露，腾讯控股正考虑发行规模最高达50亿美元的离岸债券。本次债券或将采用美元、离岸人民币双币种计价，最快于本月完成发行，本轮融资的具体用途尚不清楚。腾讯方面暂未就此置评。 值得注意的是，这也是腾讯继今年6月大额发债后，再度启动离岸市场大规模融资。今年6月，腾讯已顺利发行长期美元及离岸人民币债券，合计募资近47亿美元，创下其2020年以来最大单次发债规模。本轮募资所得资金主要用于企业债务再融资，同时支撑公司一般性经营，重点投向AI产品与服务研发布局。 数据显示，腾讯尚未偿还的境外债券约为 220 亿美元（约合 1,476.74 亿元），今年没有公开发行的债券到期，一笔美元债券将于 2028 年到期。为追赶字节跳动和阿里巴巴等竞争对手，腾讯加大 AI 投入。截至 6 月的季度，用于 AI 项目和算力的资本支出增长 ",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-09T05:45:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/zaobao/GGmq1RiBgXY2GSVL.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI全面上线GPT-6，Manus获超33亿元融资，腾讯拟发债加码AI",
+   "summary_zh": "OpenAI面向全球ChatGPT用户全面上线GPT-6；Manus拿下国内Agent创企最大单笔融资超33亿元，腾讯拟发50亿美元离岸债券加码AI。",
+   "highlights_zh": [
+    "OpenAI面向全球所有ChatGPT用户全面上线GPT-6",
+    "Manus获超33亿元融资，为国内Agent创企最大单笔",
+    "腾讯拟发行50亿美元离岸债券，资金重点投向AI",
+    "蔡崇信称开源是欧洲发展AI的最佳选择"
+   ],
+   "why_zh": "集中呈现模型发布、Agent融资与巨头资本动向三条主线。",
+   "tags": [
+    "大模型",
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-09",
+   "slot": "evening",
+   "selected_at": "2026-10-09T11:46:58+00:00",
+   "mirror_pdf": "pdf/web-33508f1f8d42.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/zaobao/GGmq1RiBgXY2GSVL.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6b33d923fcfb",
+   "kind": "article",
+   "title": "TRAE全面升级：双端融合，打造全链路开发平台",
+   "url": "https://www.leiphone.com/category/industrynews/wmndjzo2jLJzOY0Z.html",
+   "pdf_url": "",
+   "abstract": "10 月 9 日，TRAE宣布全面升级：TraeWork与TraeCode双端融合，统一连接Agent与IDE两种模式，覆盖从任务推进到深度编码的开发流程。 过去，TraeWork更偏向办公、任务和内容生成，TraeCode更专注专业开发者的编码需求。双端融合后，全新TRAE 用一个统一入口承接连续任务，支持Agent模式与IDE模式无缝切换，覆盖从任务推进到深度编码的不同开发场景。 Agent模式适合从想法拆解到交付结果，新手可以一步步做出Demo，专业开发者也可以跨项目调度多个Agent并行推进任务；IDE模式保留完整的智能开发环境，适合单项目深度代码编辑与精细调试。 升级后的TRAE定位于“全链路开发平台”，从需求拆解、方案生成到产物交付，让 AI 更深入地参与开发流程。自动化任务、模板库、我的助理和项目产物等功能模块统一进入全新TRAE的工作流，与Agent、IDE双模式一起组成从任务发起、过程推进到结果沉淀的完整链路。 其中，自动化任务把定期整理进度、运行固定检查、汇总测试结果、生成报告等重复流程交给Agent持续执行；模板库让产品方案、页面搭建、数据分析、技术文档等高频场景快速启动；我的助理把文档、汇报、协同等非编码环节接入同一条任务链路；代码变更、HTML、PPT、Word 文档、图片、视频、报告等产物统一进入「项目产物」集中管理，让每一次 AI 协作沉淀为可回看、可展示、可继续迭代的资产。 同时，全新TRAE覆盖桌面端、Web端和移动端。用户可以在电脑上启动任务，在移动端查看进度、补充要求，再回到桌面继续深入开发。项目、任务和产物围绕同一套工作流持续推进，不因设备切换而中断。 雷峰网 雷峰网",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-09T03:40:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/wmndjzo2jLJzOY0Z.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "TRAE全面升级：双端融合打造全链路开发平台",
+   "summary_zh": "TRAE将TraeWork与TraeCode融合为统一入口，支持Agent与IDE模式无缝切换，覆盖需求拆解到产物交付全流程。",
+   "highlights_zh": [
+    "Agent模式与IDE模式统一入口、无缝切换",
+    "自动化任务、模板库、我的助理、项目产物整合进同一工作流",
+    "覆盖桌面端、Web端与移动端，任务跨设备连续推进"
+   ],
+   "why_zh": "观察AI编程工具从单点补全走向全链路开发平台的路径。",
+   "tags": [
+    "智能体",
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-09",
+   "slot": "evening",
+   "selected_at": "2026-10-09T11:46:58+00:00",
+   "mirror_pdf": "pdf/web-6b33d923fcfb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/wmndjzo2jLJzOY0Z.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0f05fd4155a4",
+   "kind": "article",
+   "title": "The model that didn't exist, so you made it yourself",
+   "url": "https://huggingface.co/blog/building-with-ml-intern",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-10-08T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/building-with-ml-intern",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "不存在的模型，就自己造一个",
+   "summary_zh": "Hugging Face博客文章，讲述当所需模型不存在时如何自行构建，具体内容摘要缺失。",
+   "highlights_zh": [
+    "来自Hugging Face官方技术博客",
+    "主题涉及自建模型的工作流",
+    "摘要信息不足，难以评估深度"
+   ],
+   "why_zh": "信息不完整，暂难判断价值。",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 5.0,
+   "score": 0.492,
+   "date": "2026-10-09",
+   "slot": "evening",
+   "selected_at": "2026-10-09T11:46:58+00:00",
+   "mirror_pdf": "pdf/web-0f05fd4155a4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/building-with-ml-intern"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2d2415fa4281",
+   "kind": "article",
+   "title": "[AINews] not much happened today",
+   "url": "https://www.latent.space/p/ainews-not-much-happened-today-60f",
+   "pdf_url": "",
+   "abstract": "a quiet day.",
+   "authors": [
+    "swyx"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-08T23:29:43+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/ainews-not-much-happened-today-60f",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "[AINews] 今天没什么事发生",
+   "summary_zh": "安静的一天。",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": null,
+   "score": 0.46,
+   "date": "2026-10-09",
+   "slot": "evening",
+   "selected_at": "2026-10-09T11:46:58+00:00",
+   "mirror_pdf": "pdf/web-2d2415fa4281.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/ainews-not-much-happened-today-60f"
+    }
+   ],
+   "mt": true
   }
  ],
  "brief": [
   {
-   "trend": "AI 攻数学难题的叙事正被复现率与撤稿反噬，评测重心从解题转向可验证科研能力",
-   "why": "OpenAI 撤回数学论文、论文复现率仅 13.98%，与 90 道开放问题解形成强烈反差",
+   "trend": "AI 攻顶数学与科研复现能力严重脱节，评测重心正从解题转向可复现性",
+   "why": "OpenAI 解出 90 道开放数学题却撤回论文，论文复现率仅 13.98%，暴露能力与可信度断层。",
    "refs": [
     "web-b98bf529323b",
     "web-133541a06ad0",
@@ -2414,8 +3770,8 @@
    ]
   },
   {
-   "trend": "小模型与低成本推理成主战场，操作能力跃升但复杂编程仍是分水岭",
-   "why": "Claude Haiku 5.5 操作评测暴涨、成本降 75%，Jev 小模型被巨头效仿",
+   "trend": "小模型与低成本推理成为竞争主战场，价格战向端侧与操作层蔓延",
+   "why": "Claude Haiku 5.5 操作能力暴涨且成本降 75%，Jev 小模型被巨头效仿，API 价格暴降。",
    "refs": [
     "web-9655af284233",
     "web-4f5d65c153d2",
@@ -2423,33 +3779,30 @@
    ]
   },
   {
-   "trend": "世界模型从视频生成转向动作忠实与规模化定律，机器人数据闭环成竞争焦点",
-   "why": "RoboJEPA 发现想象误差二阶幂律，DreamTrue 将交互缺陷率降至 6.25%",
+   "trend": "世界模型从视频生成转向动作忠实与多智能体一致性，规模化定律初现",
+   "why": "RoboJEPA 发现想象误差二阶幂律，DreamTrue 缺陷率降至 6.25%，ME-World 提升跨视角一致性。",
    "refs": [
     "arxiv-2610.10515",
     "arxiv-2610.12468",
-    "arxiv-2610.12299",
-    "web-f402f325b7e1"
+    "arxiv-2610.12299"
    ]
   },
   {
-   "trend": "Agent 竞争从模型能力转向 harness 与数据配方协同，评测开始考察经验学习",
-   "why": "CoTrace 用 harness 感知数据配方提升 Tmax，Learn2Play 揭示保留原始记录优于总结",
+   "trend": "智能体评测转向经验学习与幻觉后推理，harness 与数据配方成新变量",
+   "why": "Learn2Play 测交互学习，PHRBench 测错误前提恢复，CoTrace 用 harness 感知配方提升 12 分。",
    "refs": [
-    "arxiv-2610.10426",
     "arxiv-2610.08215",
-    "web-cb2114dafd5b",
-    "web-d0d3870d5c88"
+    "arxiv-2610.10455",
+    "arxiv-2610.10426"
    ]
   },
   {
-   "trend": "中国 AI 走速度优先的产业竞争路线，资本押注非共识架构与国产 Infra",
-   "why": "监管不为前沿模型设限，DiffuSpace 扩散语言模型融资 5 亿、鲲为超声脑成像融资 4 亿",
+   "trend": "中国 AI 走速度优先的非共识路线，资本押注扩散模型与脑科学 Infra",
+   "why": "监管以产业竞争为导向，DiffuSpace 融 5 亿刷新扩散语言模型纪录，鲲为科技做脑科学 Infra。",
    "refs": [
     "web-2edf2c87c8f3",
     "web-9cd1a852e247",
-    "web-f8e0812d9d35",
-    "web-94483e68765a"
+    "web-f8e0812d9d35"
    ]
   }
  ]
