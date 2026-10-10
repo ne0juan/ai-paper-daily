@@ -1,12 +1,12 @@
-2026-10-09 17:24:32,949 INFO source hf_daily           -> 45 items
-2026-10-09 17:24:34,172 INFO source hackernews         -> 4 items
-2026-10-09 17:24:50,650 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-09 17:24:58,097 INFO source rss                -> 80 items
-2026-10-09 17:24:59,697 INFO source html_lists         -> 0 items
-2026-10-09 17:24:59,697 INFO source x                  -> 0 items
-2026-10-09 17:25:00,380 INFO source arxiv_search       -> 60 items
-2026-10-09 17:25:09,176 INFO source github             -> 20 items
-2026-10-09 17:25:09,178 INFO candidates: 206 (stale dropped 117, new 52)
-2026-10-09 17:25:51,746 INFO llm judged 52/52 (calls=7)
-2026-10-09 17:25:56,065 WARNING snapshot https://thezvi.wordpress.com/2026/10/09/new-math-from-openai/: blocked or empty page
-2026-10-09 17:29:37,535 INFO run done: {"at": "2026-10-09T17:24:32+00:00", "slot": "morning", "candidates": 206, "new": 52, "stale": 117, "judged": 52, "selected": 19, "mirrored": 17, "by_category": {"观点": 2, "资讯": 12, "技术": 4, "项目": 1}, "by_source": {"HF Daily Papers": 45, "arXiv 新论文": 60, "Hacker News": 4, "量子位": 10, "极客公园": 5, "IT之家": 10, "爱范儿": 4, "少数派": 2, "雷峰网": 10, "钛媒体": 3, "InfoQ 中文": 14, "Simon Willison": 2, "Latent Space": 3, "SemiAnalysis": 1, "Nathan Benaich": 1, "Zvi Mowshowitz": 3, "Timothy B. Lee": 1, "科学空间": 1, "Hugging Face Blog": 2, "Google Research": 1, "OpenAI": 5, "NVIDIA": 2, "GitHub Trending": 9, "GitHub 新项目": 11}, "llm": true, "translated": 0}
+2026-10-10 04:38:42,087 INFO source hf_daily           -> 18 items
+2026-10-10 04:38:42,440 INFO source hackernews         -> 5 items
+2026-10-10 04:38:55,996 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-10 04:39:04,921 INFO source rss                -> 82 items
+2026-10-10 04:39:07,558 INFO source html_lists         -> 0 items
+2026-10-10 04:39:07,559 INFO source x                  -> 0 items
+2026-10-10 04:39:08,006 INFO source arxiv_search       -> 58 items
+2026-10-10 04:39:16,634 INFO source github             -> 20 items
+2026-10-10 04:39:16,636 INFO candidates: 180 (stale dropped 76, new 56)
+2026-10-10 04:39:46,120 WARNING llm batch 4 attempt 0 failed: Expecting ',' delimiter: line 22 column 48 (char 587)
+2026-10-10 04:40:06,319 INFO llm judged 56/56 (calls=8)
+2026-10-10 04:43:11,015 INFO run done: {"at": "2026-10-10T04:38:41+00:00", "slot": "noon", "candidates": 180, "new": 56, "stale": 76, "judged": 56, "selected": 21, "mirrored": 20, "by_category": {"观点": 2, "项目": 3, "资讯": 12, "技术": 4}, "by_source": {"HF Daily Papers": 18, "arXiv 新论文": 58, "Hacker News": 5, "量子位": 10, "极客公园": 4, "IT之家": 11, "爱范儿": 5, "少数派": 1, "雷峰网": 10, "钛媒体": 8, "InfoQ 中文": 14, "Simon Willison": 1, "Nathan Lambert": 1, "Latent Space": 4, "SemiAnalysis": 1, "Nathan Benaich": 1, "Zvi Mowshowitz": 2, "Timothy B. Lee": 1, "科学空间": 1, "Hugging Face Blog": 1, "OpenAI": 5, "NVIDIA": 1, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}

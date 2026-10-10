@@ -1,11 +1,12 @@
 {
- "updated": "2026-10-09T17:24:32+00:00",
+ "updated": "2026-10-10T04:38:41+00:00",
  "days": [
   {
    "date": "2026-10-10",
-   "count": 19,
+   "count": 40,
    "slots": {
-    "morning": 19
+    "morning": 19,
+    "noon": 21
    }
   },
   {
@@ -153,47 +154,47 @@
    }
   }
  ],
- "total": 889,
+ "total": 910,
  "last_run": {
-  "at": "2026-10-09T17:24:32+00:00",
-  "slot": "morning",
-  "candidates": 206,
-  "new": 52,
-  "stale": 117,
-  "judged": 52,
-  "selected": 19,
-  "mirrored": 17,
+  "at": "2026-10-10T04:38:41+00:00",
+  "slot": "noon",
+  "candidates": 180,
+  "new": 56,
+  "stale": 76,
+  "judged": 56,
+  "selected": 21,
+  "mirrored": 20,
   "by_category": {
    "观点": 2,
+   "项目": 3,
    "资讯": 12,
-   "技术": 4,
-   "项目": 1
+   "技术": 4
   },
   "by_source": {
-   "HF Daily Papers": 45,
-   "arXiv 新论文": 60,
-   "Hacker News": 4,
+   "HF Daily Papers": 18,
+   "arXiv 新论文": 58,
+   "Hacker News": 5,
    "量子位": 10,
-   "极客公园": 5,
-   "IT之家": 10,
-   "爱范儿": 4,
-   "少数派": 2,
+   "极客公园": 4,
+   "IT之家": 11,
+   "爱范儿": 5,
+   "少数派": 1,
    "雷峰网": 10,
-   "钛媒体": 3,
+   "钛媒体": 8,
    "InfoQ 中文": 14,
-   "Simon Willison": 2,
-   "Latent Space": 3,
+   "Simon Willison": 1,
+   "Nathan Lambert": 1,
+   "Latent Space": 4,
    "SemiAnalysis": 1,
    "Nathan Benaich": 1,
-   "Zvi Mowshowitz": 3,
+   "Zvi Mowshowitz": 2,
    "Timothy B. Lee": 1,
    "科学空间": 1,
-   "Hugging Face Blog": 2,
-   "Google Research": 1,
+   "Hugging Face Blog": 1,
    "OpenAI": 5,
-   "NVIDIA": 2,
-   "GitHub Trending": 9,
-   "GitHub 新项目": 11
+   "NVIDIA": 1,
+   "GitHub Trending": 10,
+   "GitHub 新项目": 10
   },
   "llm": true,
   "translated": 0

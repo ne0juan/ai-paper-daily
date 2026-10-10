@@ -1,0 +1,186 @@
+{
+ "url": "https://ai-paper-radar.pages.dev",
+ "views": {
+  "desktop": {
+   "metrics": {
+    "body_font_px": 17,
+    "body_line_height": 1.8,
+    "chars_per_line": 40,
+    "italic_cjk_elements": 0,
+    "pangu_violations": 0,
+    "pangu_samples": [],
+    "contrast_body": 12.37,
+    "contrast_title": 15.85,
+    "contrast_meta": 6.24,
+    "font_size_steps": 7,
+    "min_tap_target_px": 36,
+    "first_headline_top": 370,
+    "viewport_h": 800,
+    "overflow_x": 0,
+    "cards": 40,
+    "duplicated_meta_cards": 0,
+    "console_errors": 0
+   },
+   "checks": [
+    {
+     "check": "正文字号 ≥ 16px",
+     "value": 17,
+     "pass": true
+    },
+    {
+     "check": "正文行高 1.7–1.95",
+     "value": 1.8,
+     "pass": true
+    },
+    {
+     "check": "每行 28–42 字",
+     "value": 40,
+     "pass": true
+    },
+    {
+     "check": "中文不用斜体",
+     "value": 0,
+     "pass": true
+    },
+    {
+     "check": "中英文之间留空",
+     "value": 0,
+     "pass": true
+    },
+    {
+     "check": "正文对比度 ≥ 7:1",
+     "value": 12.37,
+     "pass": true
+    },
+    {
+     "check": "标题对比度 ≥ 7:1",
+     "value": 15.85,
+     "pass": true
+    },
+    {
+     "check": "辅助文字对比度 ≥ 4.5:1",
+     "value": 6.24,
+     "pass": true
+    },
+    {
+     "check": "字号阶梯 ≤ 8 种",
+     "value": 7,
+     "pass": true
+    },
+    {
+     "check": "首屏可见第一条标题",
+     "value": 370,
+     "pass": true
+    },
+    {
+     "check": "无横向滚动",
+     "value": 0,
+     "pass": true
+    },
+    {
+     "check": "无脚本错误",
+     "value": 0,
+     "pass": true
+    },
+    {
+     "check": "卡片信息不重复",
+     "value": 0,
+     "pass": true
+    }
+   ]
+  },
+  "mobile": {
+   "metrics": {
+    "body_font_px": 17,
+    "body_line_height": 1.8,
+    "chars_per_line": 20,
+    "italic_cjk_elements": 0,
+    "pangu_violations": 0,
+    "pangu_samples": [],
+    "contrast_body": 12.37,
+    "contrast_title": 15.85,
+    "contrast_meta": 6.24,
+    "font_size_steps": 7,
+    "min_tap_target_px": 44,
+    "first_headline_top": 356,
+    "viewport_h": 812,
+    "overflow_x": 0,
+    "cards": 40,
+    "duplicated_meta_cards": 0,
+    "console_errors": 0
+   },
+   "checks": [
+    {
+     "check": "正文字号 ≥ 16px",
+     "value": 17,
+     "pass": true
+    },
+    {
+     "check": "每行 16–24 字",
+     "value": 20,
+     "pass": true
+    },
+    {
+     "check": "触控目标 ≥ 44px",
+     "value": 44,
+     "pass": true
+    },
+    {
+     "check": "首屏可见第一条标题",
+     "value": 356,
+     "pass": true
+    },
+    {
+     "check": "无横向滚动",
+     "value": 0,
+     "pass": true
+    },
+    {
+     "check": "辅助文字对比度 ≥ 4.5:1",
+     "value": 6.24,
+     "pass": true
+    },
+    {
+     "check": "无脚本错误",
+     "value": 0,
+     "pass": true
+    }
+   ]
+  },
+  "dark": {
+   "metrics": {
+    "body_font_px": 17,
+    "body_line_height": 1.8,
+    "chars_per_line": 40,
+    "italic_cjk_elements": 0,
+    "pangu_violations": 0,
+    "pangu_samples": [],
+    "contrast_body": 12.07,
+    "contrast_title": 15.59,
+    "contrast_meta": 7.25,
+    "font_size_steps": 7,
+    "min_tap_target_px": 36,
+    "first_headline_top": 370,
+    "viewport_h": 800,
+    "overflow_x": 0,
+    "cards": 40,
+    "duplicated_meta_cards": 0,
+    "console_errors": 0
+   },
+   "checks": [
+    {
+     "check": "暗色正文对比度 ≥ 7:1",
+     "value": 12.07,
+     "pass": true
+    },
+    {
+     "check": "暗色辅助文字对比度 ≥ 4.5:1",
+     "value": 7.25,
+     "pass": true
+    }
+   ]
+  }
+ },
+ "failed": [],
+ "score": "22/22"
+}
