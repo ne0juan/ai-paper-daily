@@ -2321,51 +2321,1256 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-e2820020cd6d",
+   "kind": "article",
+   "title": "BerriAI/litellm",
+   "url": "https://github.com/BerriAI/litellm",
+   "pdf_url": "",
+   "abstract": "Sponsor Star BerriAI / litellm The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+   "authors": [],
+   "orgs": [
+    "BerriAI"
+   ],
+   "published": "2026-10-10T11:04:38+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/BerriAI/litellm",
+     "signal": "★ 今日 +441 · Python",
+     "metric": 441
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "LiteLLM：Rust 核心的极速 AI 网关",
+   "summary_zh": "LiteLLM 用 Rust 重写核心，统一调用 100+ LLM API，支持成本追踪、护栏、负载均衡与日志。",
+   "highlights_zh": [
+    "Rust 核心 + Python SDK，性能大幅提升",
+    "统一 OpenAI 格式调用 Bedrock、Azure、Anthropic、vLLM 等",
+    "内置成本追踪、guardrails、负载均衡与日志"
+   ],
+   "why_zh": "如果你在管理多模型调用，用它统一网关省去适配成本",
+   "tags": [
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.5899,
+   "score_llm": 7.0,
+   "score": 0.656,
+   "date": "2026-10-10",
+   "slot": "evening",
+   "selected_at": "2026-10-10T11:04:38+00:00",
+   "mirror_pdf": "pdf/web-e2820020cd6d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/BerriAI/litellm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-fe4700f2d2f1",
+   "kind": "article",
+   "title": "Robbyant/lingbot-map",
+   "url": "https://github.com/Robbyant/lingbot-map",
+   "pdf_url": "",
+   "abstract": "Star Robbyant / lingbot-map [ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
+   "authors": [],
+   "orgs": [
+    "Robbyant"
+   ],
+   "published": "2026-10-10T11:04:38+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/Robbyant/lingbot-map",
+     "signal": "★ 今日 +392 · Python",
+     "metric": 392
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "LingBot-Map：流式 3D 重建的几何上下文 Transformer",
+   "summary_zh": "提出几何上下文 Transformer，用于流式 3D 重建，入选 ECCV 2026 最佳论文候选。",
+   "highlights_zh": [
+    "面向流式 3D 重建的新架构",
+    "几何上下文 Transformer 方法",
+    "ECCV 2026 最佳论文候选"
+   ],
+   "why_zh": "关注 3D 重建与几何 Transformer 前沿的研究者值得一读",
+   "tags": [
+    "视觉",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.585,
+   "score_llm": 7.0,
+   "score": 0.654,
+   "date": "2026-10-10",
+   "slot": "evening",
+   "selected_at": "2026-10-10T11:04:38+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/Robbyant/lingbot-map"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7b2cb15b39a3",
+   "kind": "article",
+   "title": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
+   "url": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-09T12:21:24Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50019455",
+     "signal": "187 pts",
+     "metric": 187
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "伊朗用 ChatGPT 在美国真实媒体植入假文章",
+   "summary_zh": "伊朗信息行动利用 ChatGPT 生成假文章并植入美国真实出版物，引发对 AI 虚假信息治理的关注。",
+   "highlights_zh": [
+    "利用 ChatGPT 批量生成虚假新闻内容",
+    "假文章被植入真实美国媒体",
+    "AI 虚假信息与舆论操纵风险加剧"
+   ],
+   "why_zh": "了解 AI 被用于信息战的实际案例与安全风险",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.5655,
+   "score_llm": 7.0,
+   "score": 0.6462,
+   "date": "2026-10-10",
+   "slot": "evening",
+   "selected_at": "2026-10-10T11:04:38+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50019455"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b799501cff73",
+   "kind": "article",
+   "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
+   "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-09T22:00:35Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50027118",
+     "signal": "168 pts",
+     "metric": 168
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Anthropic 模型向警方提交费城悬案假线索",
+   "summary_zh": "警方称 Anthropic 的 AI 模型就费城一桩未破谋杀案提交了虚假线索，暴露模型幻觉的现实危害。",
+   "highlights_zh": [
+    "AI 模型生成虚假犯罪线索",
+    "警方已确认线索不实",
+    "模型幻觉在现实场景中的风险"
+   ],
+   "why_zh": "关注 AI 幻觉在公共安全场景中的真实后果",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.5605,
+   "score_llm": 7.0,
+   "score": 0.6442,
+   "date": "2026-10-10",
+   "slot": "evening",
+   "selected_at": "2026-10-10T11:04:38+00:00",
+   "mirror_pdf": "pdf/web-b799501cff73.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50027118"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a77859e4336c",
+   "kind": "article",
+   "title": "[AINews] TypeSafe/Jev at >$100M ARR, $7.5B valuation 3 weeks after launch",
+   "url": "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b",
+   "pdf_url": "",
+   "abstract": "Wow.",
+   "authors": [
+    "swyx"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-10T06:45:57+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "AINews：Jev 上线三周 ARR 破亿、估值 75 亿美元",
+   "summary_zh": "Latent Space 报道 Jev 上线仅三周 ARR 超 1 亿美元、估值达 75 亿美元，swyx 以「Wow」感叹其增长之快。",
+   "highlights_zh": [
+    "上线三周即达 1 亿美元 ARR",
+    "估值 75 亿美元，增速罕见",
+    "来自 AI 工程师社区 Latent Space 的观察"
+   ],
+   "why_zh": "AI 应用层爆发式增长的标志性案例，值得关注其商业模式。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-10-10",
+   "slot": "evening",
+   "selected_at": "2026-10-10T11:04:38+00:00",
+   "mirror_pdf": "pdf/web-a77859e4336c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-251567f38b9f",
+   "kind": "article",
+   "title": "数据越多≠决策越好：从无人机滑翔到多机器人通信，重新审视数据与信息的关系 | IROS 2026",
+   "url": "https://www.leiphone.com/category/private/1evshSdPUrUacuRC.html",
+   "pdf_url": "",
+   "abstract": "决定智能上限的从来不是数据的绝对规模，而是数据的质量与信息密度。 作者丨岑峰 在生成式 AI 浪潮下，机器人社区正经历从传统控制向端到端学习的范式大迁徙。如同许多领域一样，这里也弥漫着一股对数据规模的迷信，深信“数据越多越智能”是通往通用具身智能的唯一坦途。 然而，在刚刚结束的 IEEE/RSJ 智能机器人与系统国际会议（IROS）上，昆士兰大学主力脚说 Jen Jen Chung 在主旨演讲中，结合自己十余载的研究案例，给出了一个发人深省的结论： 并非所有数据都是平等的，盲目堆砌数据甚至会导致系统崩溃与策略失能。 Chung 教授在演讲伊始便直击核心观点： 海量数据并不等同于高信息量 。坐拥海量数据却一无所获的例子比比皆是，因为许多数据根本无法帮我们真正理解问题的本质。在迈向通用自主系统的道路上， 决定智能上限的从来不是数据的绝对规模，而是数据的质量与信息密度 。 在她科研生涯的起点无人机自主滑翔课题中，Chung 教授就深刻体会到了“探索是有代价的”。若想让固定翼无人机像鸟类一样自主利用上升气流，必须消耗宝贵的能量去探寻未知的状态-动作空间。这迫使她思考：何时收集数据？如何收集数据？盲目、均匀地采样不仅浪费资源，甚至可能拖慢学习进程。 这一系列的早期研究让她意识到： 数据价值并非均质分布，按需采集的高价值信息远胜于海量无差别的冗余观测。 这种对数据价值非均质性的深刻洞察，在分布式多机器人系统中显得尤为关键。当研究对象从单体扩展到多机协作，面对受限、衰减且具有高延迟的真实通信信道，“随时随地向所有节点全量广播所有数据”不仅不切实际，甚至可能导致灾难性的网络拥堵。 在此场景下，Chung 教授提出了衡量数据共享价值的唯一金标准—— “掌握了这一项信息，能否引发行为决策的改变？” 基于此，她的团队引入了极具创造性的核心逻辑： 传输最关键的信息，而非全部的数据。 在演讲中，Chung 教授展示了一系列案例，完美诠释了如何在带宽开销与数据保真度之间实现精妙的杠杆平衡。 演讲最后，Chung 教授将矛头指向了当前机器人学最热的端到端策略学习范式，直面“房间里的大象”。在复杂的富接触装配任务中，即便为机械臂喂入了海量多模态数据（视觉、力觉、本体感觉），部署后的表现却极其平庸，甚至在空料盒场景下依然机械地复刻插入动作。 为此，Chung 教授团队提出了一种“策略修复”方案。实验证明，在相同的示教数据预算下，这种定向选取“修复性”样本的方法，比盲目扩增数据带来的策略泛化性能提升要显著得多。 这再次印证了本次演讲的主题： “数据质量决定上限”，盲目追求数据规模只能是一场徒劳的数字游戏。 以下是 Jen Jen Chung 的演讲分享，AI 科技评论根据其英文演讲内容进行了不改原意的编辑： ▎ 演讲标题：（Geometry Strikes Back: Scaling 3D Reconstruction and Structuring 3D Scene Generation） 演讲者： 昆士兰大学 Jen Jen Chung 01 从无人机滑翔说起：数据与信息的脱节 “数据”并不等同于“信息”。有些数据片段能承载极高的信息量；但同时，你也可能坐拥海量数据，却依然一无所获。在当下重新审视“数据与信息之间的关系”，显得格外意味深长。 身处当前的技术浪潮中，我们极度痴迷于尽可能多地收集数据，深信“数据越多就越能解决所有问题”。而我今天想做的，正是挑战这种思维定势。 数据与信息之间的脱节，贯穿了我以往的许多研究。我的博士课题，当时研究的是无人机自主滑翔。大自然为我们展现了绝",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-10T03:28:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/private/1evshSdPUrUacuRC.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "数据越多≠决策越好：重新审视数据与信息的关系",
+   "summary_zh": "昆士兰大学 Jen Jen Chung 在 IROS 主旨演讲指出，决定智能上限的是数据质量与信息密度而非规模，并提出「策略修复」方法，定向选取修复性样本优于盲目扩数据。",
+   "highlights_zh": [
+    "数据价值非均质分布，按需采集高价值信息远胜海量冗余观测",
+    "多机器人通信中传输最关键信息而非全部数据",
+    "「策略修复」方案在相同示教预算下显著提升策略泛化性能"
+   ],
+   "why_zh": "对「数据规模迷信」的有力反驳，为具身数据采集提供新思路。",
+   "tags": [
+    "机器人",
+    "数据与评测",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-10",
+   "slot": "evening",
+   "selected_at": "2026-10-10T11:04:38+00:00",
+   "mirror_pdf": "pdf/web-251567f38b9f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/private/1evshSdPUrUacuRC.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-be1f7e169d72",
+   "kind": "article",
+   "title": "让触觉像视觉一样可规模化，哥大李昀烛团队 FlexiTac 的开源实践 | IROS 2026",
+   "url": "https://www.leiphone.com/category/robot/Pz34omTBnW9Y0LhO.html",
+   "pdf_url": "",
+   "abstract": "FlexiTac压阻式传感器可兼顾柔性、低成本与一致性。 作者丨 向欣 编辑丨岑峰 机器人的视觉能力正快速增强，但 触觉仍然是具身智能系统中的薄弱环节 。尤其是在精细操作场景中，当 物体被遮挡、透明、易碎，或需要精确判断接触力与手内姿态 时，仅靠视觉往往难以确认机器人是否真正抓稳了物体、是否发生了滑移，也难以实现可靠的力控与顺从交互。 与图像领域已经形成相对统一的传感器和数据体系相比，触觉研究尚未形成类似的「收敛」。不同实验室往往使用不同类型的触觉传感器，但它们都面临 寿命、柔性、多维信息感知、分辨率、成本与一致性 难以同时兼顾的困境。这使得触觉数据采集、算法研究以及不同系统之间的复现都变得更加困难。 如何 让触觉像视觉一样 ，成为一种可以被更多机器人使用、被大量采集、被算法反复利用的基础感知能力？ 针对这个问题，哥伦比亚大学李昀烛团队提出了开源柔性压阻式触觉传感器平台 FlexiTac 。在本届 IROS 2026 的触觉专题研讨会上，李昀烛系统介绍了这一平台开源一年半后的进展与生态。 FlexiTac 是一套低成本、开源、可扩展的 压阻式柔性触觉传感器 ，团队同时开源了完整 BOM、详细组装说明以及用于读取触觉数据的软件。 FlexiTac 采用 FPC 与力敏薄膜层叠结构，组装仅需 3 分钟，可弯曲、裁剪并包裹于不同几何表面，适配手套、指尖或机器人皮肤等多种形态。 其核心优势在于 成本低、制作简单、高度柔性与可扩展、以及较好的长期稳定性和批次一致性 ，感知机制也足够简单，易于用弹簧-阻尼系统实现高保真仿真。 其技术栈可集成进主流的机器人学习框架中，门槛低到拥有即使是本科生，只要拥有一台可打印 SO-100 机械臂的 3D 打印机，也能轻松把触觉传感器装上机器人。 李昀烛提到，开源约一年半以来，FlexiTac 已在学术界与工业界获得广泛采用，衍生出多模态策略、可变形世界模型、四足移动-操纵、VLA 触觉反馈等多方向工作，他们与普渡大学合作的多指灵巧操纵工作 VTAP Gripper 还入围了本次 IROS 最佳论文奖。Analog Devices（ADI）正在推进其商业化版本，该版本 触觉分辨率达到人类手指的五倍 ，基于半导体制造工艺量产。 以下为李昀烛在 IROS 2026 演讲的精编稿，AI科技评论基于原英文内容进行了不改原意的翻译编辑： 01 3 分钟组装、本科生可用 为了让传感器易于生产、成本低廉，我们最新的版本制造成本其实已经非常低，具体多低，取决于你同一批次生产多少片。 准备好所有物料后，你只需要 花 3 分钟就可以把传感器装配完成 ，传感器随即就能投入工作。 我们这套方案是完全开源的：完整的物料清单，还有非常详尽的分步装配说明，同时也配套了可以读取、传输传感数据的对应软件。 除了传感器和配套软件本身，我们也还把这套软硬件技术栈集成到非常流行的机器人学习框架 LeRobot 里。 这样一来，任何人，哪怕只是本科生，只要手头有能够打印出低成本 SO-100 机械臂的 3D 打印机、都可以轻松地把我们的触觉传感器集成进去，然后开展相关研究，探索触觉感知如何帮助机器人理解手内物体状态，完成复杂操作任务。 在我们开源这套传感器大约一年半之后，我们欣喜地看到，这项技术已经在学术界与工业界得到广泛应用。 更让我们振奋的是，大家正在沿着不同方向继续推进、拓展整个生态：如何制造更好、能力更强的硬件；如何基于我们的触觉传感器构建更好的感知、学习和推理系统；以及如何设计真正包含触觉的大规模数据采集流程。 我们也在与亚德诺半导体（Analog Dev",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-10T03:25:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/robot/Pz34omTBnW9Y0LhO.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "FlexiTac：让触觉像视觉一样可规模化",
+   "summary_zh": "哥大李昀烛团队开源柔性压阻式触觉传感器 FlexiTac，3 分钟组装、成本极低，已集成 LeRobot 框架，ADI 正推进商业化版本，分辨率达人类手指五倍。",
+   "highlights_zh": [
+    "开源完整 BOM、组装说明与读取软件，3 分钟即可装配",
+    "已集成 LeRobot 框架，本科生用 3D 打印机即可上手",
+    "衍生多模态策略、可变形世界模型、VLA 触觉反馈等方向，VTAP Gripper 入围 IROS 最佳论文"
+   ],
+   "why_zh": "触觉是具身智能的薄弱环节，这套低成本开源方案有望推动规模化。",
+   "tags": [
+    "机器人",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-10",
+   "slot": "evening",
+   "selected_at": "2026-10-10T11:04:38+00:00",
+   "mirror_pdf": "pdf/web-be1f7e169d72.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/robot/Pz34omTBnW9Y0LhO.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.12360",
+   "kind": "paper",
+   "title": "Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict",
+   "url": "https://arxiv.org/abs/2610.12360",
+   "pdf_url": "https://arxiv.org/pdf/2610.12360",
+   "abstract": "When retrieved evidence contradicts an agent's prior beliefs, does it revise its answer, acknowledge uncertainty, or persist with an incorrect conclusion? Existing evaluations of agentic systems focus primarily on task success, offering limited insight into how agents handle such conflicts. We propose to evaluate agents on epistemic humility (EH): the agent's willingness to recognize, act on, and communicate uncertainty during task execution. We operationalize EH through three trajectory-level behavioral dimensions: Identify, Solve, and Escalate (ISE). Through knowledge conflict, situations where the backbone language model's parametric knowledge contradicts the evidence it encounters, or where two contextual sources disagree, we evaluate two conflict settings: (1) controlled conflict and (2) naturally occurring conflict during multi-step agentic execution, each paired with matched no-conflict controls. Evaluating four agents, we find that higher task accuracy does not necessarily correspond to greater epistemic humility: some high-accuracy configurations recognize conflicts during execution but do not communicate unresolved uncertainty in their incorrect final answers. Trajectory-level analysis further reveals that agents frequently detect conflicts in early steps of execution but fail to maintain or resolve them in later steps. Finally, we show that model-level interventions can improve EH, but often at the cost of task accuracy, suggesting that epistemic humility emerges from the interaction among the backbone model, agent harness, and evaluation environment.",
+   "authors": [
+    "Kaiser Sun",
+    "Bernal Jimenez Gutierrez",
+    "Hongjun Liu",
+    "Jingyu Zhang",
+    "Jie Gao",
+    "Mark Dredze",
+    "Daniel Khashabi"
+   ],
+   "orgs": [],
+   "published": "2026-10-08T17:25:06Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.12360",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "准确但不谦逊：知识冲突下 LLM 智能体的认知谦逊评估",
+   "summary_zh": "提出用识别、解决、上报三维度评估智能体在知识冲突下的认知谦逊。发现高任务准确率不等于高谦逊度：部分智能体早期识别冲突却未在最终错误答案中传达不确定性。",
+   "highlights_zh": [
+    "提出 ISE 三维度轨迹级评估框架",
+    "区分受控冲突与多步执行中的自然冲突",
+    "高准确率配置常早期发现冲突但后期未维持或解决"
+   ],
+   "why_zh": "揭示智能体评估中准确率之外的可靠性盲区。",
+   "tags": [
+    "智能体",
+    "对齐与安全",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-10",
+   "slot": "evening",
+   "selected_at": "2026-10-10T11:04:38+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.12360.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.12360"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.12360"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.12360"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.12360"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.12360"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.12360"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.12235",
+   "kind": "paper",
+   "title": "Language Models as AI Research World Models",
+   "url": "https://arxiv.org/abs/2610.12235",
+   "pdf_url": "https://arxiv.org/pdf/2610.12235",
+   "abstract": "AI research agents automate the cycle of proposing, implementing, and evaluating experiments, opening a path toward recursive self-improvement. Yet their ability to propose experiments outpaces their capacity to execute them in real environments, making outcome prediction a key capability for sustained self-improvement under limited experimental budgets. We investigate language models as Research World Models (RWMs), which predict the outcomes of candidate interventions across research environments. Our evaluation draws on over 2,600 experimental records from nine research environments spanning pretraining, post-training, and inference, representing more than 171,000 H100 GPU-hours of experimentation. Research knowledge acquired from real experimental experience improves RWM predictions of unseen interventions within the same environment (Spearman +0.27), and can be reused across environments. For example, using only pretraining experience from OLMo3, Marin, and Nanochat, an RWM reduces selection regret in the Qwen3 environment by 78% compared with zero-experience setting. These benefits extend to multi-round Autoresearch under a fixed selection budget: RWMs with in-env and cross-env research knowledge increase the best gain achieved by 15.8% and 11.6%, respectively. Ablations across 13 language models used as RWMs show that adding research knowledge can improve intervention ranking more than changing models or increasing reasoning effort alone. These findings support language models as RWMs and motivate accumulating experimental data for future RWM training.",
+   "authors": [
+    "Zijun Wang",
+    "Zewen Liu",
+    "Minhua Lin",
+    "Zhaotian Weng",
+    "Zhan Shi",
+    "Bing He",
+    "Yisi Sang",
+    "Dakuo Wang",
+    "Benoit Dumoulin",
+    "Wei Jin",
+    "Yuyin Zhou",
+    "Cihang Xie",
+    "Hanqing Lu"
+   ],
+   "orgs": [],
+   "published": "2026-10-08T16:18:54Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.12235",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "语言模型作为AI研究的世界模型",
+   "summary_zh": "用2600多条实验记录、17万H100小时训练语言模型预测研究干预结果，真实实验经验可提升同环境预测并跨环境复用，在Qwen3上把选择遗憾降低78%。",
+   "highlights_zh": [
+    "提出Research World Model概念，预测候选实验干预的结果",
+    "跨环境复用预训练经验，Qwen3环境选择遗憾降低78%",
+    "多轮Autoresearch中最佳增益分别提升15.8%和11.6%"
+   ],
+   "why_zh": "为AI研究智能体在有限实验预算下自我改进提供了可量化的世界模型路径。",
+   "tags": [
+    "智能体",
+    "大模型",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-10",
+   "slot": "evening",
+   "selected_at": "2026-10-10T11:04:38+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.12235.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.12235"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.12235"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.12235"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.12235"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.12235"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.12235"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-825307b57194",
+   "kind": "article",
+   "title": "twostraws/SwiftUI-Agent-Skill",
+   "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+   "pdf_url": "",
+   "abstract": "Star twostraws / SwiftUI-Agent-Skill SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
+   "authors": [],
+   "orgs": [
+    "twostraws"
+   ],
+   "published": "2026-10-10T11:04:38+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+     "signal": "★ 今日 +460",
+     "metric": 460
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "SwiftUI Agent Skill：给 AI 编程工具装上 SwiftUI 技能",
+   "summary_zh": "为 Claude Code、Codex 等 AI 编程工具提供 SwiftUI 开发技能包，让 AI 更懂苹果 UI 框架。",
+   "highlights_zh": [
+    "适配 Claude Code、Codex 等主流 AI 编程工具",
+    "专注 SwiftUI 开发场景",
+    "GitHub 今日新增 460 星"
+   ],
+   "why_zh": "如果你用 AI 写 SwiftUI 界面，装上它可减少框架误用",
+   "tags": [
+    "代码",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5916,
+   "score_llm": 6.0,
+   "score": 0.5966,
+   "date": "2026-10-10",
+   "slot": "evening",
+   "selected_at": "2026-10-10T11:04:38+00:00",
+   "mirror_pdf": "pdf/web-825307b57194.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/twostraws/SwiftUI-Agent-Skill"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-442d59b0029b",
+   "kind": "article",
+   "title": "🔮 The end of screen time",
+   "url": "https://www.exponentialview.co/p/the-end-of-screen-time",
+   "pdf_url": "",
+   "abstract": "AI changes how we work, but can it also change where?",
+   "authors": [
+    "Nathan Warren"
+   ],
+   "orgs": [
+    "Azeem Azhar"
+   ],
+   "published": "2026-10-10T06:02:50+00:00",
+   "sources": [
+    {
+     "name": "Azeem Azhar",
+     "authority": 0.8,
+     "url": "https://www.exponentialview.co/p/the-end-of-screen-time",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Exponential View 创始人",
+   "title_zh": "屏幕时间的终结",
+   "summary_zh": "Azeem Azhar 认为 AI 不仅改变工作方式，还可能改变工作的发生场所，探讨无屏幕交互对未来的影响。",
+   "highlights_zh": [
+    "Exponential View 创始人 Azeem Azhar 的前瞻观点",
+    "聚焦 AI 对交互形态与工作场所的重塑",
+    "摘要信息有限，需阅读原文获取完整论证"
+   ],
+   "why_zh": "知名科技观察者对 AI 交互范式的判断，适合把握长期趋势。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.588,
+   "date": "2026-10-10",
+   "slot": "evening",
+   "selected_at": "2026-10-10T11:04:38+00:00",
+   "mirror_pdf": "pdf/web-442d59b0029b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.exponentialview.co/p/the-end-of-screen-time"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b357d4812f8e",
+   "kind": "article",
+   "title": "这届 IROS 2026 上，具身学术与产业边界正在消融",
+   "url": "https://www.leiphone.com/category/ai/4I8YKksz9V10Ih1R.html",
+   "pdf_url": "",
+   "abstract": "模型、数据、灵巧操作都在工程化，顶会上具身传递出的信号变了 作者丨 齐铖湧 编辑丨岑 峰 9 月 27 日到 10 月 1 日，全球机器人领域最顶级的国际会议之一 IROS 2026 将在美国匹兹堡开幕。 如果你前两年也在关注这个会，你会发现那时候大家都在 “卷概念”。谁家用了更大的 LLM，谁家机器人跳了一段更炫的舞，听起来很猛，但细一想，大多还停在实验室的 Demo 里。今年不一样。从目前放出的主会论文和 Workshop 名单，我们的感受很直接： 顶会上关于具身传递出的信号，变了。 整个会场的风向出奇地一致，技术路线明显在收敛。雷峰网把它总结成四个趋势： 基础模型开始内化物理规律；“大小脑” 架构从小众路线变成了行业标准；触觉不再是锦上添花，而是精细操作的核心变量；数据采集彻底撕掉了 “天价” 的标签。 下面一个一个说。 01 具身基模：别再 “语义拟合” 了，得懂物理 前两年给机器人塞大模型，主流做法其实很简单粗暴：让 LLM/VLM 去理解任务语义，然后翻译成动作。看上去机器人能听懂人话了，但一放到真实环境里，问题立马暴露：它知道 “杯子” 是什么，却不知道杯子从桌边滑下去会碎；知道 “推门”，但不知道门把手有摩擦力。 说白了，语言模型懂语义，但不懂物理。 今年 IROS 的核心共识就是：别再教机器人 “认东西” 了，得教它 “懂规矩”，摩擦力、重力、形变、不确定性，这些物理规律必须内化成模型的本能。 最标志性的信号是 10 月 1 号的 Workshop： Physical World Models for Scaling Embodied AI 。斯坦福大学计算机科学助理教授吴佳俊（Jiajun Wu）等六位顶尖学者，将会依次带来关于物理规律如何融入具身智能的主题分享。 它配套的 WorldArena 2.0 挑战赛，首次将视触觉感知、强化学习效用与真实物理操作三大赛道纳入统一评测体系，全面检验模型在真实物理交互中的泛化能力。 翻译成人话：以前考试考的是刷题，现在考的是实战。这意味着行业对具身模型的评价，正式从 “语义正确” 转向了 “物理正确”。 针对物理世界建模的核心难题：不确定性， Rethinking Uncertainty for Modern Robotics Paradigms Workshop 在 9 月 27 日专门展开研讨。 该 Workshop 收录的自适应滚动截断方法，专门优化离线世界模型在不确定环境下的训练效率。这说明具身模型的竞争，已经从 “能不能建模物理” 升级到了 “物理环境乱七八糟时，你还能不能稳得住”。 同期雷峰网观察到， 10 月 1 日举办的 第三届 AI Meets Autonomy Workshop，也将基础模型与机器人系统的融合作为核心议题，覆盖数据集、软件基建、视觉语言导航等方向，进一步推动具身模型从语义理解向物理交互落地。 主会收录的多篇论文，也在从不同角度验证这个转向。 比如UIUC 计算机科学博士生何夏麟和徐思睿此次中稿的 ULTRA ，获得了（最佳移动操作论文候选。 ULTRA的全称是Unified Multimodal Control for Autonomous Humanoid Whole-Body Loco-Manipulation，是一个统一多模态全身控制框架，没有走 “LLM 外挂控制器” 的老路，而是将物理驱动的神经重目标算法与统一多模态控制器结合。 在接触密集型交互中保留物理合理性，仅用稀疏任务指令就能生成全身运动行为。该工作还入围了本届 IROS 最佳移动操作",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-10T03:40:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/4I8YKksz9V10Ih1R.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "IROS 2026 观察：具身学术与产业边界消融",
+   "summary_zh": "雷峰网总结 IROS 2026 四大趋势：具身基模内化物理规律、「大小脑」架构成行业标准、触觉成精细操作核心、数据采集成本大幅下降。",
+   "highlights_zh": [
+    "具身基模从语义拟合转向物理规律内化",
+    "「大小脑」架构从小众路线变为行业标准",
+    "触觉从锦上添花变为精细操作核心变量，数据采集撕掉天价标签"
+   ],
+   "why_zh": "一篇把握具身智能技术路线收敛方向的会议趋势综述。",
+   "tags": [
+    "机器人",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-10",
+   "slot": "evening",
+   "selected_at": "2026-10-10T11:04:38+00:00",
+   "mirror_pdf": "pdf/web-b357d4812f8e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/4I8YKksz9V10Ih1R.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4c172f09e508",
+   "kind": "article",
+   "title": "Pallas 内核怎么调优？Google 给出的答案是“少信模型，多看寄存器”",
+   "url": "https://www.infoq.cn/article/kVJUKEcbqhpL2qwpp2Eq?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Claudio Masolo"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-10T14:22:04+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/kVJUKEcbqhpL2qwpp2Eq?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Google Pallas 内核调优：少信模型多看寄存器",
+   "summary_zh": "Google 分享 Pallas 内核调优方法，强调不应盲信性能模型预测，而应直接观察寄存器使用情况来指导优化，对 AI 编译器与内核开发者有参考价值。",
+   "highlights_zh": [
+    "Pallas 是 Google 的 TPU 内核编程语言",
+    "性能模型预测与实际寄存器行为存在偏差",
+    "直接观察硬件指标比依赖模型更可靠"
+   ],
+   "why_zh": "做 AI 编译器或 TPU 内核优化的工程师可借鉴其调优方法论。",
+   "tags": [
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-10",
+   "slot": "evening",
+   "selected_at": "2026-10-10T11:04:38+00:00",
+   "mirror_pdf": "pdf/web-4c172f09e508.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/kVJUKEcbqhpL2qwpp2Eq?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-fd87f6afce28",
+   "kind": "article",
+   "title": "CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用",
+   "url": "https://www.infoq.cn/article/MAo3KoDWm9FGIcKau9AK?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "傅宇琪,Tina"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-10T15:18:57+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/MAo3KoDWm9FGIcKau9AK?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic 弃用 CLAUDE.md 与 AGENTS.md",
+   "summary_zh": "Anthropic 表示未来不再依赖 CLAUDE.md 或 AGENTS.md 这类静态配置文件，转向更动态的上下文管理方式，影响所有使用 Claude Code 的开发者。",
+   "highlights_zh": [
+    "CLAUDE.md 和 AGENTS.md 是当前主流的 Agent 上下文配置方式",
+    "Anthropic 认为静态文件方式难以适应复杂任务",
+    "可能推动 Agent 配置标准的新一轮演进"
+   ],
+   "why_zh": "如果你在用 Claude Code 或构建 Agent，这直接影响你的上下文管理策略。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-10",
+   "slot": "evening",
+   "selected_at": "2026-10-10T11:04:38+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/MAo3KoDWm9FGIcKau9AK?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-47b29a8d11ca",
+   "kind": "article",
+   "title": "腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill",
+   "url": "https://www.ithome.com/1/011/432.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 10 日消息，今日， 腾讯云宣布开源内部自用 TeamAI。这是一款基于 Git 的团队 AI 协作工具。它把团队使用的 Skill、工作规范、工具配置和项目知识统一放进 Git 仓库，像管理代码一样进行评审、更新和版本管理，再同步到成员各自使用的 Agent 中，实现一人配置，全员复用。 IT之家注意到，目前，TeamAI 已适配 WorkBuddy 、CodeBuddy、Claude Code、Codex、Cursor 等 16 种 Agent。 TeamAI 沿用了开发者熟悉的 Git 协作流程。成员提交技能或修改规范时，自动创建分支、发起合并请求，交给团队评审。确认合入后，支持会话启动 Hook 的 Agent 会在新对话开始时拉取更新，不必逐人通知、手动替换。 最近，TeamAI 还新增了模型配置统一下发能力。对于涉及内部数据和知识的任务， 团队管理员可以统一配置符合团队安全要求的模型服务 ，减少成员自行接入、选错模型的风险。 TeamAI 会根据反复纠正、工具调用失败等情况，在会话结束时提示成员分享经验，由 Agent 把问题和解决方法整理成文档，存入团队仓库。下次处理任务时，Agent 可以根据当前需求，检索团队已有的经验和资料，找到相关解决方法作为参考。 安装 TeamAI Skill 后，管理员和团队成员都可以在已适配的 AI 工具里， 用自然语言完成操作 。TeamAI 也已集成到了腾讯云智能体管理平台 ClawPro ，成员可以将自己使用的本地 Agent 接入 ClawPro，由管理员在管控台统一管理 Skill、MCP 等配置，并分发到已接入的 Agent 中。 TeamAI 也已集成到了腾讯云智能体管理平台 ClawPro ，成员可以将自己使用的本地 Agent 接入 ClawPro，由管理员在管控台统一管理 Skill、MCP 等配置，并分发到已接入的 Agent 中。 参考 项目主页",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-10T08:52:04+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/011/432.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯云开源 TeamAI：跨 Agent 共享 Skill 的 Git 协作工具",
+   "summary_zh": "腾讯云开源内部自用的 TeamAI，基于 Git 统一管理团队 Skill、规范与模型配置，并同步到 16 种 Agent，实现一人配置全员复用。",
+   "highlights_zh": [
+    "基于 Git 管理 Skill、规范与项目知识，支持评审与版本管理",
+    "已适配 Claude Code、Codex、Cursor 等 16 种 Agent",
+    "新增模型配置统一下发，集成 ClawPro 管控台"
+   ],
+   "why_zh": "如果你在团队里用多个 Agent，可用它统一分发 Skill 与模型配置。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-10",
+   "slot": "evening",
+   "selected_at": "2026-10-10T11:04:38+00:00",
+   "mirror_pdf": "pdf/web-47b29a8d11ca.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/011/432.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f5ff8b858dc8",
+   "kind": "article",
+   "title": "消息称 Meta 已搁置向 Anthropic 出租 AI 算力的计划",
+   "url": "https://www.ithome.com/1/011/431.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 10 日消息，《华尔街日报》在一篇当地时间昨日的报道中提到，Meta 已搁置向 Anthropic 出租 AI 算力的计划。 报道指出，Anthropic 首席执行官 Dario Amodei 今年早些时候曾亲自致电 Meta 首席人工智能官汪滔 (Alexandr Wang)，希望从这家竞争对手处租赁 AI 计算芯片。Meta 就此事进行过内部讨论， 最终做出了暂不提供的决定 。 随着 Muse 系列自研模型的逐步发布， Meta 的 AI 业务从早些时候的低潮中快速恢复 ， 自身对算力的需求也迅速增长 。此时若选择向 Anthropic 出售算力可算是“资敌”行为。 报道提到，算力资源分配正影响人工智能人才的就业选择，Transformer 架构核心作者 Noam Shazeer 之所以二次离职谷歌就与算力不足有关。与此同时，大量的算力建设承诺最终落空，限制了 AI 产业的发展。 相关阅读： 《 2 年 100 亿美元：消息称 Anthropic 拟租赁 Meta 的 AI 算力 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-10T08:51:54+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/011/431.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Meta 搁置向 Anthropic 出租算力计划",
+   "summary_zh": "因自研 Muse 模型进展顺利、自身算力需求回升，Meta 决定不再向竞争对手 Anthropic 出租 AI 算力，反映头部厂商算力争夺加剧。",
+   "highlights_zh": [
+    "Anthropic CEO 曾亲自致电 Meta 首席 AI 官汪滔求租算力",
+    "Meta 内部讨论后决定暂不提供，避免'资敌'",
+    "算力分配正影响 AI 人才流动，Noam Shazeer 二次离职谷歌即与算力不足有关"
+   ],
+   "why_zh": "观察头部 AI 公司算力自用与竞争格局的典型案例。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-10",
+   "slot": "evening",
+   "selected_at": "2026-10-10T11:04:38+00:00",
+   "mirror_pdf": "pdf/web-f5ff8b858dc8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/011/431.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.12376",
+   "kind": "paper",
+   "title": "Latent Core Tokenizer: Compress, but Meaningfully",
+   "url": "https://arxiv.org/abs/2610.12376",
+   "pdf_url": "https://arxiv.org/pdf/2610.12376",
+   "abstract": "Tokenizers are commonly optimized for compression, but a compact vocabulary does not necessarily distribute its capacity evenly across languages. We introduce the Latent Core Tokenizer (LCT), a language-agnostic approach that separates structural discovery from vocabulary construction. LCT uses Minimum Description Length, entropy-based boundary signals, and morphotactic constraints to identify reusable linguistic units before constructing a shared vocabulary. Across 104 languages with a 200K-token vocabulary, LCT achieves lower fertility and higher MorphScore than BPE, Unigram, and parity-aware BPE, while maintaining comparable cross-lingual disparity in tokenization cost. Across four multilingual downstream benchmarks, LCT improves aggregate score by 1.48, 1.83, and 2.00 points over BPE, Unigram, and parity-aware BPE, respectively. Our findings show that compression alone does not predict representation quality and highlight the importance of morphology-driven structural discovery and how frequency is used to allocate the final vocabulary across languages.",
+   "authors": [
+    "Felermino D. M. A. Ali",
+    "Millicent Ochieng",
+    "Ogbemi Ekwejunor-Etchie",
+    "Ade Famoti",
+    "Jacki O'Neill",
+    "Debjit Paul"
+   ],
+   "orgs": [],
+   "published": "2026-10-08T17:32:32Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.12376",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "潜在核心分词器：压缩要有意义",
+   "summary_zh": "提出 LCT 分词器，将结构发现与词表构建分离，用最小描述长度和形态约束识别语言单元。在 104 种语言上比 BPE 等生育率更低、多语言下游任务平均提升 1.5-2 分。",
+   "highlights_zh": [
+    "分离结构发现与词表构建，语言无关",
+    "结合最小描述长度、熵边界信号与形态约束",
+    "104 种语言、20 万词表下优于 BPE、Unigram 等"
+   ],
+   "why_zh": "多语言分词质量与压缩率脱钩的重要证据。",
+   "tags": [
+    "大模型",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 7.0,
+   "score": 0.548,
+   "date": "2026-10-10",
+   "slot": "evening",
+   "selected_at": "2026-10-10T11:04:38+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.12376.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.12376"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.12376"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.12376"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.12376"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.12376"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.12376"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9d4a1706cf50",
+   "kind": "article",
+   "title": "Jev 开发商估值已达 75 亿美元；苹果投资 AI 音频初创；传 OpenAI、Anthropic 高管私下推演 AI 灾难场景",
+   "url": "http://www.geekpark.net/news/372184",
+   "pdf_url": "",
+   "abstract": "内存等成本压力上升，2027 全球笔记本价格恐继续上涨 市场调查机构集邦咨询（Trendforce）于 10 月 8 日发布博文，表示如果零部件价格继续维持高位，品牌扩大成本转嫁， 终端涨价可能延长用户换机周期，预估 2027 年全球笔记本市场面临出货、价格双重影响。 在 2026 年第 3 季度以建议零售价 900 美元的主流笔记本为例，其 CPU、内存及 SSD 占物料成本约 68%，品牌面临提价、压缩毛利或降低配置的选择。 该机构预计，2027 年全球出货量将低个位数（预估低于 5%）下滑。若 CPU 与 DRAM 价格维持高位，品牌扩大成本转嫁，终端涨价可能延长换机周期，这种情况下，全年降幅或扩大至高个位数（可能高于 5%）。 零部件供给方面，AI 服务器持续占据先进制程产能。报告预计，DRAM 供应仍偏紧；NAND 闪存（NAND Flash）或随新产能投产，于 2027 年下半年逐步缓解紧张。（来源：IT 之家） 苹果投资 Huxe，由前谷歌 NotebookLM 团队成员创立 10 月 10 日消息，苹果与 AI 音频初创公司 Huxe 达成人才引进与技术许可协议，这是今年公开披露的第 4 笔苹果 AI 相关交易。 这项安排属于「收购式招聘」（acqui-hires），不代表苹果收购 Huxe 公司。协议允许苹果引进部分员工并使用相关知识产权，但交易没有包括购买 Huxe 业务，报道没有披露协议金额。 Huxe 由 3 名前 Google NotebookLM 团队成员创立。 项目负责人 Raiza Martin 于 2024 年 12 月离开 Google，并与设计师 Jason Spielman、工程师 Stephen Hughes 共同创办公司。 Huxe 于 2025 年 6 月以邀请制方式推出同名应用，并在同年 9 月向公众开放，团队当时公布完成 460 万美元融资。 该应用可依据用户邮件和日历生成每日音频简报，也能围绕主题制作播客式对话，此外还提供新闻、体育等主题的持续更新音频内容。Huxe 于 2026 年 5 月宣布关闭，服务在 5 月 28 日结束。（来源：9to5Mac） 谷歌 Gemini 4「Argon」模型即将发布 10 月 10 日消息，据《商业内幕》报道，谷歌即将向公众正式发布新一代 Gemini 4「Argon」模型。 据该媒体获取的内部文档与截图显示，谷歌员工近期一直在测试代号为「Carbon」的全新 Gemini 4 版本。该模型很可能是 Argon 架构下的新检查点（Checkpoint）更新，并已于近日接入谷歌内部代码平台 Jetski。 一名员工透露，Carbon 在代码能力上的表现「堪比 Opus 5.5」——后者是 Anthropic 旗下针对复杂代码智能体长期任务打造的最强模型。不过该员工同时表示，这一结论仍有待更深入的评测验证。 不过也有员工指出，早期版本在处理部分编程任务时仍显吃力，其水平大体只相当于 Anthropic 早前发布的 Claude Opus 5。（来源：商业内幕） OpenAI 解雇三名 AI 安全研究员，双方就解雇原因发生争议 据美联社 10 月 9 日报道，OpenAI 确认解雇三名 AI 安全研究人员 Tomek Korbak、Jasmine Wang 和 Mikita Balesni。公司表示，内部调查发现三人违反了敏感信息处理政策，因此决定终止雇佣关系。 三名研究人员此前向 OpenAI 内部多个安全监督机构提交公开信，认为公司可能将商业利益置于安全工作之",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-10T01:27:14+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372184",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "极客早报：Gemini 4 将至、苹果收购式招聘、OpenAI 解雇安全研究员",
+   "summary_zh": "谷歌 Gemini 4「Argon」即将发布，内部测试代码能力对标 Opus 5.5；苹果以收购式招聘引进 Huxe 团队；OpenAI 解雇三名安全研究员引发争议。",
+   "highlights_zh": [
+    "Gemini 4「Argon」内部代号 Carbon 已接入谷歌代码平台 Jetski",
+    "苹果今年第 4 笔 AI 交易，引进前 NotebookLM 团队创立的 Huxe",
+    "OpenAI 解雇三名 AI 安全研究员，双方就原因各执一词"
+   ],
+   "why_zh": "一屏掌握谷歌、苹果、OpenAI 三条头部动态，把握大模型竞争节奏。",
+   "tags": [
+    "大模型",
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.528,
+   "date": "2026-10-10",
+   "slot": "evening",
+   "selected_at": "2026-10-10T11:04:38+00:00",
+   "mirror_pdf": "pdf/web-9d4a1706cf50.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372184"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6cfcd180287e",
+   "kind": "article",
+   "title": "阶跃 Step 5 Preview 登上 OpenRouter 全球第一，10月15日开源！",
+   "url": "https://www.leiphone.com/category/industrynews/7iRgmb0q4JgVbmU8.html",
+   "pdf_url": "",
+   "abstract": "10 月 10 日消息，阶跃星辰最新旗舰基座模型 Step 5 Preview 登顶 OpenRouter Trending 榜，并位列日榜全球第二，成为近期全球开发者社区最受关注的旗舰模型之一。据官方消息，这款模型即将于 10 月 15 日正式开源。 （OpenRouter LLM 排行榜 Trending 榜单最新结果） （OpenRouter LLM 排行榜日榜最新结果） 作为面向全球开发者的大模型聚合平台，OpenRouter 的榜单反映了不同模型的真实使用情况。其中， Trending 榜主要反映近期用量增长， 日榜则按每日模型处理的 Token 总量排名 。Step 5 Preview 在双榜位列全球前沿，展现出其在开发者群体中的强劲增长势头与领先的使用规模。 AI 研究员、DAIR.AI 联合创始人Elvis Saravia 在试用后表示，该模型的表现令人印象深刻。他认为，Step 5 Preview 的能力可与 GLM-5.3、Kimi K3等模型媲美，同时价格颇具竞争力，处于成本与能力权衡的“帕累托前沿”，值得开发者在自己常用的编程智能体中接入。 （图：海外开发者对 Step 5 Preview 的评价） 阶跃官方公众号显示，Step 5 Preview 兼顾了旗舰级综合智能、效率与成本。模型采用稀疏 MoE 架构，总参数量达 6000 亿，每个 Token 激活约 270 亿参数，对 AI 编程、软件工程和专业知识工作 、金融 等场景能力进行了优化。全球权威大模型评测榜单 Artificial Analysis 显示，其综合智能指数为 44 分，位居 全球开源前三 。 Step 5 Preview 登榜也为观察开发者选择模型时的偏好提供了一个观察样本。编程、金融分析、深度研究等真实复杂任务场景，对模型的综合能力与使用成本的平衡往往有更高要求。对旗舰模型而言，以合理成本获取更大效能、覆盖更多实际工作，正成为模型厂商争取开发者的重要发力方向。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-10T03:37:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/7iRgmb0q4JgVbmU8.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "阶跃 Step 5 Preview 登顶 OpenRouter，10 月 15 日开源",
+   "summary_zh": "阶跃星辰 Step 5 Preview 登顶 OpenRouter Trending 榜、日榜全球第二，采用 6000 亿参数稀疏 MoE 架构，将于 10 月 15 日开源。",
+   "highlights_zh": [
+    "登顶 OpenRouter Trending 榜，日榜全球第二",
+    "6000 亿总参数稀疏 MoE，每 Token 激活约 270 亿",
+    "Artificial Analysis 综合智能指数 44 分，居全球开源前三"
+   ],
+   "why_zh": "国产开源旗舰模型在开发者平台的真实使用数据，值得关注。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-10",
+   "slot": "evening",
+   "selected_at": "2026-10-10T11:04:38+00:00",
+   "mirror_pdf": "pdf/web-6cfcd180287e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/7iRgmb0q4JgVbmU8.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2658db787961",
+   "kind": "article",
+   "title": "OpenAI 只用 15 天，就杀死了估值 100 亿美元的 Jev？",
+   "url": "https://www.infoq.cn/article/qmoRIQ1TceKfKwGlXN0S?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "Tina"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-10T15:11:32+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/qmoRIQ1TceKfKwGlXN0S?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI 15 天杀死百亿估值 Jev？",
+   "summary_zh": "文章讨论 OpenAI 的某项新能力在 15 天内对估值 100 亿美元的某 AI 公司（Jev）造成冲击，反映大模型平台化对垂直 AI 应用的挤压效应。",
+   "highlights_zh": [
+    "大模型能力扩展快速吞噬垂直应用空间",
+    "平台级更新可能瞬间颠覆细分赛道公司",
+    "AI 应用层公司面临被基础模型覆盖的风险"
+   ],
+   "why_zh": "思考 AI 应用层公司护城河的从业者可关注这一案例。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-10",
+   "slot": "evening",
+   "selected_at": "2026-10-10T11:04:38+00:00",
+   "mirror_pdf": "pdf/web-2658db787961.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/qmoRIQ1TceKfKwGlXN0S?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-fe08967d17d9",
+   "kind": "article",
+   "title": "10 秒视频很惊艳，为什么 AI 做一部短剧还是这么难？",
+   "url": "https://www.infoq.cn/article/8g9tlaqJFUPrb4oGO00A?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：QCon 全球软件开发大会"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-10T14:24:52+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/8g9tlaqJFUPrb4oGO00A?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "10 秒视频惊艳，AI 做短剧为何仍难",
+   "summary_zh": "文章探讨 AI 视频生成在短剧制作中的瓶颈：单段 10 秒视频效果惊艳，但角色一致性、叙事连贯性和长视频生成仍是难题。",
+   "highlights_zh": [
+    "短视频生成质量已较高但长视频一致性差",
+    "短剧需要角色、场景、剧情多重连贯",
+    "当前模型在长时序叙事上仍有明显短板"
+   ],
+   "why_zh": "了解 AI 视频生成从 demo 到产品化的真实差距。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-10",
+   "slot": "evening",
+   "selected_at": "2026-10-10T11:04:38+00:00",
+   "mirror_pdf": "pdf/web-fe08967d17d9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/8g9tlaqJFUPrb4oGO00A?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "OpenAI 用模型批量产出数学成果，AI 开始冲击学术生产与协作体系",
-   "why": "内部模型攻克 90 个公开难题并开源 700 份文稿，学界担忧合作传统与青年研究者受冲击。",
+   "trend": "OpenAI 用内部模型批量产出数学成果，AI 开始反哺基础科学",
+   "why": "内部前沿模型产出 90 个公开数学难题结果并开源，学界担忧合作传统被冲击。",
    "refs": [
     "web-9e2043ffa3aa",
-    "web-90b4acb4a293",
-    "web-dfc861ef0f35"
+    "web-90b4acb4a293"
    ]
   },
   {
-   "trend": "大模型价格战从中国蔓延至硅谷，补贴换规模成主流竞争手段",
-   "why": "Claude 降至 10 美分、GPT 推 0 元档，美国厂商开始效仿中国打法。",
+   "trend": "大模型价格战从中国蔓延至硅谷，补贴换规模成主流打法",
+   "why": "Claude 降至 10 美分、GPT 推 0 元档，美国厂商开始效仿中国竞争策略。",
    "refs": [
     "web-7adbfdfd26f8"
    ]
   },
   {
-   "trend": "世界模型与具身智能转向架构解耦和潜空间训练，评测基准密集补位",
-   "why": "星动纪元解耦视频预测与动作学习登顶，LeWAM 在 JEPA 潜空间端到端训练，WOVEN、SpaceCast 等新基准暴露 MLLM 系统性缺陷。",
+   "trend": "世界模型与具身智能成新竞争焦点，架构路线开始分化",
+   "why": "清华星动纪元登顶具身榜单，田柯宇新实验室押注自创符号语言理解物理世界。",
    "refs": [
     "web-a56e91999e73",
-    "arxiv-2610.12407",
-    "arxiv-2610.12417",
-    "arxiv-2610.12402"
+    "web-7c93e6724d12"
    ]
   },
   {
-   "trend": "智能体落地瓶颈从模型能力转向生态准入与商业条款",
-   "why": "中国个人智能体卡在平台是否允许进入及合作条款，Manus 处境印证独立 Agent 难逃巨头游戏。",
+   "trend": "评测基准密集暴露前沿模型系统性缺陷，评测方法本身被审计",
+   "why": "WOVEN 发现 38 个 MLLM 缺陷，SpaceCast 最强模型仅 58%，安全基准被指已饱和。",
+   "refs": [
+    "arxiv-2610.12417",
+    "arxiv-2610.12402",
+    "arxiv-2610.12409"
+   ]
+  },
+  {
+   "trend": "个人智能体瓶颈从模型能力转向生态准入与商业条款",
+   "why": "中国个人智能体难落地，卡点在平台是否允许进入及合作条款，而非模型本身。",
    "refs": [
     "web-275100780121",
-    "web-b6e1e38cf357",
     "web-b0200e4920e3"
-   ]
-  },
-  {
-   "trend": "推理规模化倒逼存储与芯片分工重构，物理 AI 成新战场",
-   "why": "日均 140 万亿 Token 推动 SSD/HDD 分工调整，格罗方德推 7nm FD-SOI 瞄准物理 AI，AI 数据中心抢内存挤压主机市场。",
-   "refs": [
-    "web-cb01d3a91177",
-    "web-9d059aeb21fb",
-    "web-8b7b57f85555"
    ]
   }
  ]
