@@ -1,0 +1,1119 @@
+{
+ "date": "2026-10-11",
+ "items": [
+  {
+   "id": "web-b6773085f128",
+   "kind": "article",
+   "title": "multica-ai/andrej-karpathy-skills",
+   "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+   "pdf_url": "",
+   "abstract": "Star multica-ai / andrej-karpathy-skills A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+   "authors": [],
+   "orgs": [
+    "multica-ai"
+   ],
+   "published": "2026-10-10T16:10:11+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+     "signal": "★ 今日 +279",
+     "metric": 279
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Karpathy 编程经验凝练成单个 CLAUDE.md",
+   "summary_zh": "multica-ai 将 Andrej Karpathy 关于 LLM 编程陷阱的观察整理成单个 CLAUDE.md 文件，用于改善 Claude Code 行为，登上 GitHub Trending。",
+   "highlights_zh": [
+    "单文件即可接入 Claude Code",
+    "源自 Karpathy 对 LLM 编程陷阱的总结",
+    "今日新增 279 星"
+   ],
+   "why_zh": "如果你用 Claude Code 写代码，把它放进项目根目录可减少常见 LLM 编码错误",
+   "tags": [
+    "代码",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5711,
+   "score_llm": 7.0,
+   "score": 0.6484,
+   "date": "2026-10-11",
+   "slot": "morning",
+   "selected_at": "2026-10-10T16:10:11+00:00",
+   "mirror_pdf": "pdf/web-b6773085f128.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/multica-ai/andrej-karpathy-skills"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4d5a1b14f287",
+   "kind": "article",
+   "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
+   "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-09T17:42:12Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50024090",
+     "signal": "165 pts",
+     "metric": 165
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "数学家应了解的 Lean 定理证明器：可靠性与 AI",
+   "summary_zh": "一篇面向数学家的科普文章，讨论 Lean 定理证明器的可靠性问题以及 AI 在形式化数学中的角色，HN 165 分。",
+   "highlights_zh": [
+    "聚焦 Lean 证明器的可靠性",
+    "探讨 AI 与形式化数学结合",
+    "面向数学家的入门视角"
+   ],
+   "why_zh": "理解 AI 辅助形式化数学的现状与信任边界",
+   "tags": [
+    "科学AI",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.5597,
+   "score_llm": 7.0,
+   "score": 0.6439,
+   "date": "2026-10-11",
+   "slot": "morning",
+   "selected_at": "2026-10-10T16:10:11+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50024090"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-06d39cf072ff",
+   "kind": "article",
+   "title": "Building AI for Reliable Execution: Lessons From Industrial Robotics",
+   "url": "https://www.latent.space/p/standard-bots",
+   "pdf_url": "",
+   "abstract": "Inside Standard Bots’ AI stack, pretrained models learn factory tasks from demonstrations and improve through corrections from real deployments.",
+   "authors": [
+    "Richard MacManus"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-10T14:04:11+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/standard-bots",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "工业机器人如何实现可靠执行：Standard Bots 的 AI 栈",
+   "summary_zh": "Standard Bots 用预训练模型从演示中学习工厂任务，并通过真实部署中的纠错持续改进，探索工业机器人的可靠执行路径。",
+   "highlights_zh": [
+    "预训练模型从人类演示中学习工厂任务",
+    "通过真实部署中的纠错反馈持续改进",
+    "聚焦工业场景下 AI 的可靠执行问题"
+   ],
+   "why_zh": "了解工业机器人如何用 AI 实现可靠执行，对具身智能落地有参考价值。",
+   "tags": [
+    "机器人",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-10-11",
+   "slot": "morning",
+   "selected_at": "2026-10-10T16:10:11+00:00",
+   "mirror_pdf": "pdf/web-06d39cf072ff.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/standard-bots"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-526d2eb1f383",
+   "kind": "article",
+   "title": "字节发现 DeepSeek 隐藏 Bug，加点空格，模型翻车",
+   "url": "https://www.leiphone.com/category/yanxishe/zm33Zeu88CNbEPMx.html",
+   "pdf_url": "",
+   "abstract": "DeepSeek 的省钱杀手锏，为何成了致命盲区？ 作者丨 高允毅 编辑丨岑 峰 同一个问题问 DeepSeek 两次，只是多敲了几个空格，给出的答案居然一个像“天才”，一个像“智障”。 9月底，字节团队的最新论文 《Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression》 ，直接点名了 DeepSeek V4 系列模型的 “神鬼二象性 ”问题。 图注：论文链接 https://arxiv.org/pdf/2609.36322 这本质上是底层算法偷懒导致的“周期性失忆”， 分块 KV Cache 压缩技术 把长上下文切块压缩处理，这就带来一个问题： “位置决定命运” 。如果你的核心词不巧落在了切块交界的“信息盲区”里，那模型只能胡言乱语。 想象一下，如果让大模型审阅几十页合同，而关键条款刚好卡在“信息盲区”，模型直接无视这条信息，给出相反的结论。而这个错误可能是你不小心加了点空白字符，模型直接翻了车，你还根本不知道问题出在哪。 而这种“神鬼二象性”的先天短板，绝非 DeepSeek 一家独有。在当下这个高喊“把长文本成本打下来”的时代，只要采用了这类分块压缩或稀疏化技术的模型，或多或少都有类似问题，比如开源的 Llama 3 系列。 01 字节论文抓住 DeepSeek 小辫子 字节最初的发现，源于让 DeepSeek-V4-Flash-Base 补全一段代码。 任务是补全一段 FP8 量化函数的最后一个 Token。按照代码逻辑，正确结果应该是8，但因为研究人员在代码最前面加了一串纯装饰用的等号，模型输出了32。 更奇怪的是，这种错误不是随机的，而是和等号的数量直接挂钩： 当把等号数量除以 4，如果余数是 0 或 1，模型大概率答错，错误率高达 71.3%；如果余数是 2 或 3，模型又能答对了，正确率高达 91.5%。 字节团队顺藤摸瓜，发现这是大模型采用 分块 KV Cache 压缩技术后 ，留下的一道先天短板。 分块 KV Cache 压缩技术，是DeepSeek用来解决长上下文显存压力问题的杀手锏，它把连续的 Token 按固定长度切割，每一段里的Token可以通过一个可学习的门控层，压缩成“小摘要”，这样长上下文的显存压力一下子就减轻了。 这解决了显存问题，但引入了新问题。 标准 Transformer 的注意力只依赖 Token 之间的相对距离，不关心绝对位置。一句话不管放在哪里，只要词序不变，意思就不变。 但 DeepSeek 采用分块 KV Cache 压缩之后，每个 Token 在压缩段的位置就变重要了，这个位置叫“相位”。门控层会给不同位置的Token分配不同权重，这个权重叫槽位增益因子。 排到强势槽位的 Token 会被加权保留，模型能精准答对；排到盲点槽位的 Token 几乎被忽略，模型就答错。 这种对排位敏感的现象，叫相位敏感性。 进一步解模型内部，研究人员还发现注意力头形成了自然分工。有的专门处理段内靠前的位置，有的专门处理靠后的位置。这种相位专门化，让某些排位成了薄弱环节。 为了验证这不是巧合，字节团队又做了一个“大海捞针”的测试。 研究人员构造了一段长达 128K Token的上下文，里面包含约 1.6 万个键值对，每个 Key 都对应一个 Value。在键值关系不变，问题不变，上下文总长度也保持一致情况下，如果把其中一个键值对放在不同的位置，那模型还能正确回答出对应的 Value 吗？ 结果发现，DeepSeek-V4-F",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-10T11:40:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/yanxishe/zm33Zeu88CNbEPMx.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "字节发现 DeepSeek 隐藏 Bug：分块 KV Cache 压缩的相位敏感性",
+   "summary_zh": "字节团队发现 DeepSeek 等采用分块 KV Cache 压缩的模型存在相位敏感性：关键信息落在压缩块交界处时错误率高达 71%，加点空格就能让模型翻车。",
+   "highlights_zh": [
+    "分块 KV Cache 压缩导致位置决定命运，核心词落在信息盲区模型就胡言乱语",
+    "错误与等号数量呈周期性关系，余数为 0 或 1 时错误率 71.3%",
+    "该问题并非 DeepSeek 独有，Llama 3 等采用类似技术的模型同样存在"
+   ],
+   "why_zh": "揭示长上下文压缩技术的先天短板，对做长文本和推理优化的团队有警示意义。",
+   "tags": [
+    "大模型",
+    "效率与系统",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-11",
+   "slot": "morning",
+   "selected_at": "2026-10-10T16:10:11+00:00",
+   "mirror_pdf": "pdf/web-526d2eb1f383.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/yanxishe/zm33Zeu88CNbEPMx.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8fa6b3d73987",
+   "kind": "article",
+   "title": "JEPA、空间智能路线正面交锋：WorldArena 2.0 挑战赛开考「能不能被机器人真正用起来」| IROS 2026",
+   "url": "https://www.leiphone.com/category/private/A0uKolgD2esWoUfT.html",
+   "pdf_url": "",
+   "abstract": "JEPA 路线先下一城：视启未来 Track 1 第一，晨昏线 Track 2 第二。 作者丨 张岂萍 幸丽娟 编辑丨 幸丽娟 世界模型的竞争，正在从“生成未来”，走向“能不能被机器人真正用起来”。 视频可以生成得越来越逼真，但进入机器人系统后，世界模型还要回答更具体的问题：它能否预测动作执行后的状态变化，能否支持策略训练，最终能否在真实机器人上完成任务。 WorldArena 把世界模型拉进了同一个“考场”。这套评测体系由清华大学团队联合多所海内外高校推出，是世界模型领域最权威的评测榜单之一。 WorldArena 1.0 已经将世界模型评测从单纯的视频生成，初步延伸到数据生成、策略评估和动作规划等具身任务。但整体仍主要集中在视觉输入、离线任务和仿真环境。 真实机器人执行、在线强化学习闭环、视触觉多模态感知，以及真实部署中的噪声、延迟和误差累积，还缺少系统性的评测。 针对这些缺口，WorldArena 2.0 进一步升级了评测体系。 模态从纯视觉扩展到视触觉，功能从离线任务扩展到在线强化学习，平台从仿真环境延伸到真实机器人。 IROS 作为机器人领域最具影响力的国际顶级会议之一，WorldArena 2.0 Challenge 在这场盛会上搭起了真机闭环的竞技场，三条赛道分别指向视频质量、在线强化学习环境和真实机器人操作。 几大世界模型流派争鸣这么久，不同技术路线下的模型，也终于在这个竞技场上真刀真枪地一较高下。 明确走 JEPA 路线的视启未来 拿下 Track 1 冠军， 空间智能路线 的同济大学 BWM-Turbo 模型则以 0.84 分之差位列第二；另有同属 JEPA 路线的晨昏线科技 ，在 Track 2 总分第二。 此外，一个值得注意的细节是：三条赛道的前两名，学院派与产业派都各占一席。世界模型赛道的竞争，已经迎来学术与工程能力的正面对撞。 围绕赛事定位、多机构协作、赛道设置与榜单结果，AI 科技评论还采访到了 WorldArena 2.0 Challenge 主办方清华团队。他们的回答，也进一步说明了这套评测在走向在线交互和真机执行时，如何设计、如何协作，又有哪些边界。 01 WorldArena 2.0， 新一轮“大考”难在哪 WorldArena 2.0 把世界模型评测进一步推进到了在线交互和真实机器人。 WorldArena 1.0 主要检查两类能力：一类是世界模型生成的未来视频质量，15 项指标覆盖视觉质量（Visual Quality）、运动质量（Motion Quality）、内容一致性（Content Consistency）、物理遵循性（Physics Adherence）、3D 准确性（3D Accuracy）和可控性（Controllability）；另一类看这些预测对机器人有没有实际用处，包括数据生成、策略评估和动作规划。 对 14 个代表性模型的评测显示，视频质量和具身任务表现并不总能对应。画面生成得更加清晰、流畅，并不意味着模型在数据生成、策略评估和动作规划中一定表现更好。 WorldArena 1.0 的覆盖范围也相对有限： 模态上只处理视觉信息，功能上以数据生成、策略评估和动作规划等离线任务为主，平台上也主要停留在仿真环境。触觉反馈、在线交互以及真实机器人中的执行表现，没有进入这套评测。 WorldArena 2.0 的升级，则沿着 模态（Modality）、功能（Functionality）和平台（Platform） 三个方向展开。 模态上，从纯视觉扩展到视触觉。 考察模型能否同时处理画面和接触信息",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-10T05:30:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/private/A0uKolgD2esWoUfT.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "WorldArena 2.0 开考：世界模型从生成视频走向真机闭环",
+   "summary_zh": "清华团队联合多校推出 WorldArena 2.0 评测，将世界模型评测从纯视觉、离线仿真扩展到视触觉多模态、在线强化学习与真实机器人操作，JEPA 路线视启未来拿下 Track 1 冠军。",
+   "highlights_zh": [
+    "评测从视频生成延伸到在线强化学习与真机执行，新增视触觉模态",
+    "JEPA 路线视启未来 Track 1 第一，空间智能路线同济 BWM-Turbo 以 0.84 分之差第二",
+    "三条赛道前两名学院派与产业派各占一席，学术与工程正面对撞"
+   ],
+   "why_zh": "世界模型评测标准的风向标，决定具身智能技术路线的竞争格局。",
+   "tags": [
+    "机器人",
+    "数据与评测",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-11",
+   "slot": "morning",
+   "selected_at": "2026-10-10T16:10:11+00:00",
+   "mirror_pdf": "pdf/web-8fa6b3d73987.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/private/A0uKolgD2esWoUfT.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-fa4b2cd534d0",
+   "kind": "article",
+   "title": "anthropics/oss-scanner",
+   "url": "https://github.com/anthropics/oss-scanner",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "anthropics"
+   ],
+   "published": "2026-10-10T16:10:11+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/anthropics/oss-scanner",
+     "signal": "★ 585（新项目） · Python",
+     "metric": 585
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Anthropic 开源 oss-scanner 安全扫描工具",
+   "summary_zh": "Anthropic 在 GitHub 发布开源安全扫描项目 oss-scanner，用于检测开源代码中的安全风险，上线即获 585 星。",
+   "highlights_zh": [
+    "Anthropic 官方开源，Python 实现",
+    "面向开源项目的安全扫描",
+    "新项目即获 585 星关注"
+   ],
+   "why_zh": "关注 Anthropic 在 AI 安全工具链上的开源布局",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.6445,
+   "score_llm": 6.0,
+   "score": 0.6178,
+   "date": "2026-10-11",
+   "slot": "morning",
+   "selected_at": "2026-10-10T16:10:11+00:00",
+   "mirror_pdf": "pdf/web-fa4b2cd534d0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/anthropics/oss-scanner"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-04902b83f5b9",
+   "kind": "article",
+   "title": "Typesafe AI raises $870M at $7.5B",
+   "url": "https://typesafe.ai/blog/series-ai",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-09T17:02:31Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50023450",
+     "signal": "412 pts",
+     "metric": 412
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Typesafe AI 以 75 亿美元估值融资 8.7 亿美元",
+   "summary_zh": "AI 公司 Typesafe AI 完成 8.7 亿美元融资，估值达 75 亿美元，登上 Hacker News 热榜。",
+   "highlights_zh": [
+    "融资金额 8.7 亿美元",
+    "投后估值 75 亿美元",
+    "HN 412 分热度"
+   ],
+   "why_zh": "反映 AI 一级市场高估值融资热度",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6024,
+   "score_llm": 6.0,
+   "score": 0.601,
+   "date": "2026-10-11",
+   "slot": "morning",
+   "selected_at": "2026-10-10T16:10:11+00:00",
+   "mirror_pdf": "pdf/web-04902b83f5b9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://typesafe.ai/blog/series-ai"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50023450"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f8669131317c",
+   "kind": "article",
+   "title": "GTKottman/mortiflix-oss",
+   "url": "https://github.com/GTKottman/mortiflix-oss",
+   "pdf_url": "",
+   "abstract": "A motion design studio on your own machine: Claude makes the video step by step, you approve every stage. Bring your own Claude Code or API key.",
+   "authors": [],
+   "orgs": [
+    "GTKottman"
+   ],
+   "published": "2026-10-10T16:10:11+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/GTKottman/mortiflix-oss",
+     "signal": "★ 516（新项目） · JavaScript",
+     "metric": 516
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "mortiflix-oss：本地 AI 动效工作室",
+   "summary_zh": "一个本地运行的动效设计工具，由 Claude 分步生成视频、用户逐阶段确认，需自备 Claude Code 或 API Key。",
+   "highlights_zh": [
+    "Claude 分步生成视频",
+    "每阶段人工确认",
+    "需自备 Claude Code 或 API Key"
+   ],
+   "why_zh": "如果你做视频动效，可用它在本地让 Claude 分步产出并逐段审核",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5601,
+   "score_llm": 6.0,
+   "score": 0.584,
+   "date": "2026-10-11",
+   "slot": "morning",
+   "selected_at": "2026-10-10T16:10:11+00:00",
+   "mirror_pdf": "pdf/web-f8669131317c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/GTKottman/mortiflix-oss"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a304edd1472b",
+   "kind": "article",
+   "title": "金融监管领域的 Harness 实践：让知识与数据驱动 Agent 稳定运行",
+   "url": "https://www.infoq.cn/article/SuqGY4FQ95AVzs1S0KSV?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：于浩军，中软融鑫总工程师"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-10T14:27:56+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/SuqGY4FQ95AVzs1S0KSV?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "金融监管领域的 Harness 实践：知识与数据驱动 Agent 稳定运行",
+   "summary_zh": "中软融鑫总工程师分享金融监管场景下 Agent Harness 的工程实践，探讨如何通过知识与数据驱动让智能体在合规场景中稳定运行。",
+   "highlights_zh": [
+    "金融监管场景对 Agent 稳定性和可解释性的特殊要求",
+    "知识与数据双驱动的 Harness 设计思路",
+    "来自一线总工程师的落地经验"
+   ],
+   "why_zh": "Agent 在高合规要求行业的落地实践，对做企业级 Agent 的团队有借鉴意义。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-11",
+   "slot": "morning",
+   "selected_at": "2026-10-10T16:10:11+00:00",
+   "mirror_pdf": "pdf/web-a304edd1472b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/SuqGY4FQ95AVzs1S0KSV?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0e38640af9f8",
+   "kind": "article",
+   "title": "特斯拉FSD，在欧洲被打回原形",
+   "url": "https://www.qbitai.com/2026/10/502467.html",
+   "pdf_url": "",
+   "abstract": "马斯克反而发文道谢？",
+   "authors": [
+    "杰西卡"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-10T06:59:02+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/502467.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "特斯拉 FSD 在欧洲被打回原形",
+   "summary_zh": "量子位报道特斯拉 FSD 在欧洲的落地表现不及预期，马斯克却发文致谢，反映自动驾驶监管与实测差距。",
+   "highlights_zh": [
+    "FSD 欧洲实测表现不佳",
+    "监管与落地存在差距",
+    "马斯克公开回应"
+   ],
+   "why_zh": "了解自动驾驶出海面临的监管与实测挑战",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-10-11",
+   "slot": "morning",
+   "selected_at": "2026-10-10T16:10:11+00:00",
+   "mirror_pdf": "pdf/web-0e38640af9f8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/502467.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ea9035a39ee5",
+   "kind": "article",
+   "title": "GKE Pod 快照可缩短模型加载时间",
+   "url": "https://www.infoq.cn/article/IAvNgDyPz2NpvfZLoDo0?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Steef-Jan Wiggers"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-10T15:31:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/IAvNgDyPz2NpvfZLoDo0?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "GKE Pod 快照可缩短模型加载时间",
+   "summary_zh": "Google Kubernetes Engine 推出 Pod 快照功能，通过缓存已加载的模型状态来缩短 AI 模型在容器中的启动加载时间。",
+   "highlights_zh": [
+    "GKE 新增 Pod 快照能力，加速模型加载",
+    "面向 AI 推理场景的基础设施优化"
+   ],
+   "why_zh": "对在 GKE 上部署大模型的团队有直接参考价值。",
+   "tags": [
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-11",
+   "slot": "morning",
+   "selected_at": "2026-10-10T16:10:11+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/IAvNgDyPz2NpvfZLoDo0?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-878d14e5b5ac",
+   "kind": "article",
+   "title": "模型还在加速，世界如何跟上？｜北美AI交流手记",
+   "url": "https://www.tmtpost.com/8163636.html",
+   "pdf_url": "",
+   "abstract": "北美手记：15天，5座城，101人",
+   "authors": [
+    "划重点KeyPoints"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-10T15:28:17+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8163636.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "北美AI交流手记：模型加速，世界如何跟上",
+   "summary_zh": "作者走访北美5座城市、访谈101人，记录AI模型能力快速迭代与产业、社会适应节奏之间的落差。",
+   "highlights_zh": [
+    "15天走访5座城市、对话101位从业者",
+    "聚焦模型加速与产业落地之间的张力",
+    "一手访谈视角观察北美AI生态"
+   ],
+   "why_zh": "想了解北美AI一线从业者真实心态与落地节奏的读者可读。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-11",
+   "slot": "morning",
+   "selected_at": "2026-10-10T16:10:11+00:00",
+   "mirror_pdf": "pdf/web-878d14e5b5ac.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8163636.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-64fc3156f596",
+   "kind": "article",
+   "title": "【数智周报】特朗普政府要求AI公司在发生安全事件后立即上报；华为与高通宣布达成广泛专利许可协议；月之暗面据悉即将完成IPO前融资，估值将达500亿美元",
+   "url": "https://www.tmtpost.com/8163752.html",
+   "pdf_url": "",
+   "abstract": "（10月5日-10日）Manus完成超5亿美元新一轮融资；博通据悉计划为OpenAI定制芯片项目融资逾500亿美元；Anthropic发布最新AI模型Claude Haiku 5.5，运行成本较4.5低约75%；OpenAI宣布面向全球所有ChatGPT用户上线GPT-6",
+   "authors": [
+    "ITValue"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-10T09:57:43+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8163752.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "数智周报：Claude新模型、GPT-6上线与融资动态",
+   "summary_zh": "一周AI要闻汇总：Anthropic发布Claude Haiku 5.5成本降约75%，OpenAI向全球ChatGPT用户上线GPT-6，Manus融资超5亿美元。",
+   "highlights_zh": [
+    "Anthropic发布Claude Haiku 5.5，运行成本较上代降约75%",
+    "OpenAI面向全球ChatGPT用户上线GPT-6",
+    "Manus完成超5亿美元融资，博通为OpenAI定制芯片融资逾500亿美元"
+   ],
+   "why_zh": "快速扫一遍本周头部模型发布与资本动向。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-11",
+   "slot": "morning",
+   "selected_at": "2026-10-10T16:10:11+00:00",
+   "mirror_pdf": "pdf/web-64fc3156f596.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8163752.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9a60d88517b5",
+   "kind": "article",
+   "title": "腾讯元器将于 11 月 9 日停止服务，所创建智能体将不再可用",
+   "url": "https://www.ithome.com/1/011/530.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 10 日消息，腾讯元器 10 月 8 日发布《关于元器平台停止服务通知》，因业务调整，元器平台将于 2026 年 11 月 9 日停止服务。在正式停止服务前，用户仍可正常登录并使用现有智能体；停服生效后，所创建智能体将不再可用，建议用户尽快完成数据导出与业务迁移。 从 2026 年 10 月 29 日起，停止创建新的智能体、API key 分发功能。现有存量智能体在正式停止服务前，仍可继续正常使用。 正式停止服务时间： 2026 年 11 月 9 日。届时， 元器平台将关闭应用访问、数据读写、API 调用、控制台使用等所有面向公众的服务 ，元器平台将不支持用户访问，元器智能体页面将不支持显示。通过元器平台发布到其他渠道（包括公众号、服务号、微信客服等）的智能体将不支持响应用户对话。 自公告发布期至产品停服，用户可通过元器平台的导出工具，将智能体配置、工作流、对话记录等数据备份至本地，除此之外，为便于用户完成数据导出相关事宜办理，将为用户设置一段数据保留过渡期，过渡期截至【2027 年 1 月 9 日】。 具体安排如下： 停服前（即日起至 2026 年 11 月 9 日）：元器平台数据导出功能可正常使用，用户可随时导出并下载备份； 停服后（ 2026 年 11 月 9 日至 2027 年 1 月 9 日）：平台功能停止使用，用户仍可登录元器数据导出控制台下载备份数据； 数据删除：2027 年 1 月 9 日起，除法律法规规定须留存的日志等记录外，平台将依法删除全部用户数据，请用户在此前完成备份。 IT之家注意到，在 2024 年 5 月 17 日举办的腾讯云生成式 AI 产业应用峰会上，腾讯发布了新推出的智能体产品“腾讯元器”，腾讯称之为“一站式智能体创造与分发平台”。 据腾讯官方介绍，腾讯元器有如下特点： 具有智能体商店：可以在商店中选择并使用自己需要的智能体，以满足不同的需求 低门槛创建智能体：通过提示词、插件、工作流、AI 辅助创建等能力，无需代码，低门槛创建智能体 丰富的插件与知识库：预集成腾讯生态特色插件、知识库资源，将开放第三方能力，为创作者提供开箱即用的工具。 腾讯全域分发：率先支持腾讯全域分发渠道，如 QQ、微信客服、腾讯云、搜索等。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-10T14:42:35+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/011/530.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯元器将于2026年11月9日停止服务",
+   "summary_zh": "腾讯智能体平台元器宣布因业务调整将于2026年11月9日停服，用户需在此之前导出智能体配置与数据。",
+   "highlights_zh": [
+    "2026年10月29日起停止创建新智能体与API key分发",
+    "2026年11月9日正式停服，所有对外服务关闭",
+    "数据保留过渡期至2027年1月9日，之后删除用户数据"
+   ],
+   "why_zh": "使用腾讯元器搭建智能体的团队需尽快迁移与备份。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-11",
+   "slot": "morning",
+   "selected_at": "2026-10-10T16:10:11+00:00",
+   "mirror_pdf": "pdf/web-9a60d88517b5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/011/530.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-551dec3b6b01",
+   "kind": "article",
+   "title": "消息称英伟达计划以 24GB 显存 GeForce RTX 5080 显卡取代现有 16GB 版本",
+   "url": "https://www.ithome.com/1/011/513.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 10 日消息，综合台媒 BenchLife.info 报道、消息人士 @hongxing2020 分享的内容，NVIDIA（英伟达）在 停产 GeForce RTX 5090 / 5090 D v2 的同时，也将调整 GeForce RTX 5080 显卡。 NVIDIA 计划停产配备 16GB 显存的现有 GeForce RTX 5080，转而推出 24GB 显存版本 。新型号预计将在 2027 年第 1 季度面世 ，AIC 合作伙伴预计将在近期收到相应的开发资料。 不出意外的话，GeForce RTX 5080 24GB 将配备 8 颗 24Gb (3GB) GDDR7 DRAM Die ，尚不清楚其是否会像此前泄露的 SUPER 变体那样提升显存等效速率和整卡功耗。 参考 https://x.com/hongxing2020/status/2108780640368017543 https://benchlife.info/nvidia-geforce-rtx-5090-gb202-will-stop-allocation-to-aic-partners/",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-10T13:41:24+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/011/513.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "英伟达拟以 24GB 版 RTX 5080 取代 16GB 版本",
+   "summary_zh": "消息称英伟达计划停产 16GB 版 RTX 5080，转而推出 24GB 显存版本，预计 2027 年 Q1 面世，AIC 伙伴将收到开发资料。",
+   "highlights_zh": [
+    "24GB 版预计采用 8 颗 24Gb GDDR7 显存颗粒",
+    "现有 16GB 版 RTX 5080 将停产",
+    "同期 RTX 5090 / 5090 D v2 也已停产"
+   ],
+   "why_zh": "显存扩容对本地大模型推理影响直接，值得关注硬件走向。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-11",
+   "slot": "morning",
+   "selected_at": "2026-10-10T16:10:11+00:00",
+   "mirror_pdf": "pdf/web-551dec3b6b01.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/011/513.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ae644f3c0a1e",
+   "kind": "article",
+   "title": "因违反生成式 AI 使用规定：清华大学徐宁博士被撤销尼康 2026 显微视频竞赛冠军资格",
+   "url": "https://www.ithome.com/1/011/504.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 10 日消息，综合 BBC 报道，尼康宣布原本获得 2026 年 Small World in Motion 显微视频竞赛一等奖的作品因“不符合赛事关于生成式 AI 的相关规定”，因此取消其获奖资格。根据更新后的比赛排名，越南参赛者阮南日（Nguyen Nam Nhat）的作品现已升至第一名。 IT之家获悉，原获奖视频由来自中国清华大学的徐宁博士（Dr. Ning Xu）提交，相应视频号称采用超分辨率显微成像技术，展示了一名原发性纤毛运动障碍（PCD）患儿呼吸道内纤毛的异常运动。 然而后续多名显微成像及纤毛研究领域的专家在社交平台提出质疑，认为视频中的结构与真实 PCD 样本并不吻合。 视频中部分紫色结构会突然出现或消失，一些绿色纤毛看起来像是凭空出现，相关结构的尺寸也与已知生物结构不符 。 面对质疑，徐宁博士承认在视频制作过程中使用了 AI 技术。他解释称，AI 被用于区分和可视化原始灰度显微图像中的特征，并且此前认为相关做法符合比赛规则。不过，他否认使用 AI 生成实验视频本身、纤毛结构或纤毛运动。尼康在重新调查后，最终认定徐宁的作品不符合比赛有关生成式 AI 的规则，决定撤销其冠军资格。 随着徐宁博士的作品被取消资格，原本排名第二、来自越南的阮南日如今成为 2026 年 Nikon Small World in Motion 冠军。他的作品记录了一条微小线虫与单细胞生物 Dileptus 在显微世界中的互动，其他入围作品的名次也随之顺延。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-10T12:33:49+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/011/504.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "清华博士因违规使用生成式 AI 被撤销尼康显微视频竞赛冠军",
+   "summary_zh": "清华大学徐宁博士的显微视频作品因违反尼康竞赛生成式 AI 规定被撤销冠军资格，专家质疑视频结构与真实样本不符。",
+   "highlights_zh": [
+    "视频中部分结构凭空出现，尺寸与已知生物结构不符",
+    "作者承认使用 AI 区分和可视化原始灰度图像",
+    "越南参赛者阮南日递补成为冠军"
+   ],
+   "why_zh": "反映科研领域 AI 使用规范与学术诚信的边界争议。",
+   "tags": [
+    "科学AI",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-11",
+   "slot": "morning",
+   "selected_at": "2026-10-10T16:10:11+00:00",
+   "mirror_pdf": "pdf/web-ae644f3c0a1e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/011/504.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-36cd30fa9fc9",
+   "kind": "article",
+   "title": "模型开放之后，AI能力为什么仍难以复用？",
+   "url": "https://www.infoq.cn/article/rKRPT18fGxtjipPAeaLa?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "世界人工智能开源大赛"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-10T17:10:50+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/rKRPT18fGxtjipPAeaLa?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "模型开放之后，AI 能力为什么仍难以复用？",
+   "summary_zh": "文章探讨模型开源后 AI 能力复用困难的现状，涉及开源生态与工程化落地之间的差距。",
+   "highlights_zh": [
+    "讨论模型开放与能力复用之间的鸿沟",
+    "涉及开源 AI 生态的工程化挑战"
+   ],
+   "why_zh": "话题有价值但摘要信息不足，需阅读原文判断深度。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-10-11",
+   "slot": "morning",
+   "selected_at": "2026-10-10T16:10:11+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/rKRPT18fGxtjipPAeaLa?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b76f5215212a",
+   "kind": "article",
+   "title": "比 Astra 还贵！GPT-6.1 Sol 极速版上线，社区吐槽：“500 美元套餐都撑不过一天”",
+   "url": "https://www.infoq.cn/article/soBOt9TSckGlJlBS519y?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "李冬梅"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-10T13:15:26+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/soBOt9TSckGlJlBS519y?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "GPT-6.1 Sol 极速版上线，定价引发社区吐槽",
+   "summary_zh": "GPT-6.1 Sol 极速版上线，定价高于 Astra，社区反馈 500 美元套餐难以支撑一天使用，引发对高端模型定价策略的讨论。",
+   "highlights_zh": [
+    "GPT-6.1 Sol 极速版定价高于 Astra",
+    "社区吐槽 500 美元套餐撑不过一天",
+    "反映高端推理模型的成本压力"
+   ],
+   "why_zh": "反映前沿模型推理成本与定价策略的市场信号。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-10-11",
+   "slot": "morning",
+   "selected_at": "2026-10-10T16:10:11+00:00",
+   "mirror_pdf": "pdf/web-b76f5215212a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/soBOt9TSckGlJlBS519y?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7ab8e1fba55a",
+   "kind": "article",
+   "title": "AI Labels Multiply on Appliances as Overall Demand Stays Soft",
+   "url": "https://www.tmtpost.com/8163749.html",
+   "pdf_url": "",
+   "abstract": "Traditional home-appliance sales remained weak through China’s peak autumn window, while retailers reported sharp gains for AI-branded models. The surge raises a sharper question: how much of the new intelligence solves real household friction, and how much is packaging layered onto a market that still lacks buyers.",
+   "authors": [
+    "Chelsea_Sun"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-10T08:10:03+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8163749.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "家电AI标签泛滥，需求依旧疲软",
+   "summary_zh": "中国家电秋季销售旺季整体疲软，但AI标签机型销量大增，引发对“真智能”还是“贴标签”的质疑。",
+   "highlights_zh": [
+    "传统家电旺季销售持续走弱",
+    "AI标签机型零售端明显增长",
+    "质疑AI功能是否解决真实家务痛点"
+   ],
+   "why_zh": "观察AI概念在家电消费端落地成色的一个切面。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 5.0,
+   "score": 0.444,
+   "date": "2026-10-11",
+   "slot": "morning",
+   "selected_at": "2026-10-10T16:10:11+00:00",
+   "mirror_pdf": "pdf/web-7ab8e1fba55a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8163749.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9cedd8f70b7d",
+   "kind": "article",
+   "title": "还是别太期待国产Muse了",
+   "url": "https://www.tmtpost.com/8162951.html",
+   "pdf_url": "",
+   "abstract": "豆包手机的难题还在。",
+   "authors": [
+    "象先志"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-10T01:11:21+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8162951.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "别太期待国产Muse：豆包手机难题仍在",
+   "summary_zh": "作者认为国产AI手机助手（如豆包手机）落地仍面临诸多难题，短期内不宜过度期待。",
+   "highlights_zh": [
+    "对国产AI手机助手前景持谨慎态度",
+    "指出豆包手机仍存落地难题",
+    "观点类评论，非技术细节"
+   ],
+   "why_zh": "对AI手机助手商业化节奏感兴趣的读者可参考其观点。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 5.0,
+   "score": 0.444,
+   "date": "2026-10-11",
+   "slot": "morning",
+   "selected_at": "2026-10-10T16:10:11+00:00",
+   "mirror_pdf": "pdf/web-9cedd8f70b7d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8162951.html"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "大模型竞争从拼参数转向拼工程细节，KV Cache 等底层实现缺陷成新风险点",
+   "why": "字节发现 DeepSeek 分块 KV Cache 压缩存在相位敏感性，关键信息落在块交界处错误率高达 71%。",
+   "refs": [
+    "web-526d2eb1f383"
+   ]
+  },
+  {
+   "trend": "世界模型评测标准从生成视频转向真机闭环，视触觉与在线强化学习成新门槛",
+   "why": "WorldArena 2.0 将评测扩展到视触觉多模态、在线 RL 与真实机器人操作，JEPA 路线夺冠。",
+   "refs": [
+    "web-8fa6b3d73987"
+   ]
+  },
+  {
+   "trend": "AI 编程助手进入「经验封装」阶段，单文件提示工程开始被系统化沉淀",
+   "why": "Karpathy 编程经验被凝练成单个 CLAUDE.md 改善 Claude Code 行为，登上 GitHub Trending。",
+   "refs": [
+    "web-b6773085f128"
+   ]
+  },
+  {
+   "trend": "Agent 落地重心从能力演示转向合规与稳定运行，Harness 工程实践成关键",
+   "why": "金融监管场景分享 Agent Harness 实践，强调知识与数据驱动让智能体在合规场景稳定运行。",
+   "refs": [
+    "web-a304edd1472b"
+   ]
+  },
+  {
+   "trend": "AI 能力复用困境凸显，开源与工程化落地之间的鸿沟成为行业瓶颈",
+   "why": "文章指出模型开放后 AI 能力仍难复用，开源生态与工程化落地存在明显差距。",
+   "refs": [
+    "web-36cd30fa9fc9"
+   ]
+  }
+ ]
+}
