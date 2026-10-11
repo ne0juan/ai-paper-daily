@@ -1940,45 +1940,966 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-26149269af1e",
+   "kind": "article",
+   "title": "lyogavin/airllm",
+   "url": "https://github.com/lyogavin/airllm",
+   "pdf_url": "",
+   "abstract": "Sponsor Star lyogavin / airllm AirLLM 70B inference with single 4GB GPU\nREADME: ![airllm_logo](https://github.com/lyogavin/airllm/blob/main/assets/airllm_logo_sm.png?v=3&raw=true) [**Quickstart**](#quickstart) | [**Configurations**](#configurations) | [**MacOS**](#macos) | [**Example notebooks**](#example-python-notebook) | [**FAQ**](#faq) **AirLLM** dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning. You can even run **Kimi K3 (2.8T)** — the largest open-source model released to date — on **under 4GB**, **Qwen3.8-Flash-Next (125B)** on **6GB**, and **DeepSeek-V3 (671B)** on **~12GB**. We now also support training huge models on small VRAM: **Qwen3.8-Flash-Next (125B)** under **6GB**. ![GitHub Repo stars](https://img.shields.io/github/stars/lyogavin/airllm?style=social) [![Downloads](https://static.pepy.tech/personalized-badge/airllm?period=total&units=international_system&left_color=grey&right_color=blue&left_text=downloads)](https://pepy.tech/project/airllm) [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/LianjiaTech/BELLE/blob/main/LICENSE) [![Generic badge](https://img.shields.io/badge/wechat-Anima-brightgreen?logo=wechat)](https://static.aicompose.cn/static/wecom_barcode.png?t=1671918938) [![Discord](https://img.shields.io/discord/1175437549783760896?logo=discord&color=7289da )](https://discord.gg/2xffU5sn) [![PyPI - AirLLM](https://img.shields.io/pypi/format/airllm?logo=pypi&color=3571a3) ]",
+   "authors": [],
+   "orgs": [
+    "lyogavin"
+   ],
+   "published": "2026-10-11T11:21:13+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/lyogavin/airllm",
+     "signal": "★ 今日 +541 · Jupyter Notebook",
+     "metric": 541
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AirLLM：单张 4GB 显卡跑 70B 大模型",
+   "summary_zh": "AirLLM 通过分层加载把推理显存压到极低，无需量化、蒸馏或剪枝，单张 4GB 显卡即可跑 70B 模型，甚至能在 4GB 以下跑 2.8T 的 Kimi K3。",
+   "highlights_zh": [
+    "无需量化/蒸馏/剪枝，靠分层加载降低显存占用",
+    "70B 仅需 4GB 显存，671B DeepSeek-V3 约 12GB",
+    "新增小显存训练支持，125B 模型可在 6GB 下训练"
+   ],
+   "why_zh": "如果你显存有限又想本地跑大模型，可以用它把 70B 塞进单张 4GB 卡",
+   "tags": [
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.5982,
+   "score_llm": 8.0,
+   "score": 0.7193,
+   "date": "2026-10-11",
+   "slot": "evening",
+   "selected_at": "2026-10-11T11:21:13+00:00",
+   "mirror_pdf": "pdf/web-26149269af1e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/lyogavin/airllm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-66fb4e26786c",
+   "kind": "article",
+   "title": "陶哲轩：数学2.0时代已至！",
+   "url": "https://www.qbitai.com/2026/10/502594.html",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [
+    "文婷"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-11T07:52:16+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/502594.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "陶哲轩：数学2.0时代已至",
+   "summary_zh": "陶哲轩认为AI正推动数学进入「数学2.0」时代，人机协作将重塑数学研究的方式与边界。",
+   "highlights_zh": [
+    "重量级数学家对AI改变数学研究的明确判断",
+    "人机协作成为数学研究新范式",
+    "对科学AI方向有风向标意义"
+   ],
+   "why_zh": "顶级学者对AI+数学的定性判断，把握科学AI趋势必读。",
+   "tags": [
+    "科学AI",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-10-11",
+   "slot": "evening",
+   "selected_at": "2026-10-11T11:21:13+00:00",
+   "mirror_pdf": "pdf/web-66fb4e26786c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/502594.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-83b3ab4d460b",
+   "kind": "article",
+   "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+   "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-10T18:48:35Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50035886",
+     "signal": "165 pts",
+     "metric": 165
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "英伟达洽谈收购开源模型初创 Reflection AI",
+   "summary_zh": "据 Hacker News 消息，英伟达正洽谈收购美国开源模型初创公司 Reflection AI，若成行将强化其在开源大模型领域的布局。",
+   "highlights_zh": [
+    "英伟达洽谈收购 Reflection AI",
+    "Reflection AI 主打开源模型",
+    "反映英伟达向模型层延伸的战略意图"
+   ],
+   "why_zh": "头部芯片厂商收购开源模型公司，可能改变开源大模型格局",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5597,
+   "score_llm": 7.0,
+   "score": 0.6439,
+   "date": "2026-10-11",
+   "slot": "evening",
+   "selected_at": "2026-10-11T11:21:13+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50035886"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9a589f3bdb96",
+   "kind": "article",
+   "title": "huggingface/transformers",
+   "url": "https://github.com/huggingface/transformers",
+   "pdf_url": "",
+   "abstract": "Star huggingface / transformers 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.\nREADME: English | 简体中文 | 繁體中文 | 한국어 | Español | 日本語 | हिन्दी | Русский | Português | తెలుగు | Français | Deutsch | Italiano | Tiếng Việt | العربية | اردو | বাংলা | فارسی | Română | Türkçe State-of-the-art pretrained models for inference and training Transformers acts as the model-definition framework for state-of-the-art machine learning with text, computer vision, audio, video, and multimodal models, for both inference and training. It centralizes the model definition so that this definition is agreed upon across the ecosystem. `transformers` is the pivot across frameworks: if a model definition is supported, it will be compatible with the majority of training frameworks (Axolotl, Unsloth, DeepSpeed, FSDP, PyTorch-Lightning, ...), inference engines (vLLM, SGLang, TGI, ...), and adjacent modeling libraries (llama.cpp, mlx, ...) which leverage the model definition from `transformers`. We pledge to help support new state-of-the-art models and democratize their usage by having their model definition be simple, customizable, and efficient. There are over 1M+ Transformers [model checkpoints](https://huggingface.co/models?library=transformers&sort=trending) on the [Hugging Face Hub](https://huggingface.co/models) you can use. Explore the [Hub](https://huggingface.co/) today to find a model and use Transformers to help you get started right away. ## Installation Transformers works with Python 3.10+, and [PyTorch](https://pytorch.org/get-started/locally/) 2.6+. Create and activate a virtual",
+   "authors": [],
+   "orgs": [
+    "huggingface"
+   ],
+   "published": "2026-10-11T11:21:13+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/huggingface/transformers",
+     "signal": "★ 今日 +536 · Python",
+     "metric": 536
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Hugging Face Transformers：模型定义中枢",
+   "summary_zh": "Transformers 定位为跨框架的模型定义中枢，统一文本、视觉、音频、多模态模型的推理与训练接口，兼容主流训练框架与推理引擎。",
+   "highlights_zh": [
+    "统一模型定义，兼容 Axolotl、vLLM、SGLang 等生态",
+    "覆盖文本、视觉、音频、视频与多模态",
+    "Hub 上已有超 100 万个 Transformers 模型检查点"
+   ],
+   "why_zh": "了解主流模型定义标准与生态兼容现状的入口",
+   "tags": [
+    "大模型",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.5978,
+   "score_llm": 6.0,
+   "score": 0.5991,
+   "date": "2026-10-11",
+   "slot": "evening",
+   "selected_at": "2026-10-11T11:21:13+00:00",
+   "mirror_pdf": "pdf/web-9a589f3bdb96.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/huggingface/transformers"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9b75bda91938",
+   "kind": "article",
+   "title": "MadsLorentzen/ai-job-search",
+   "url": "https://github.com/MadsLorentzen/ai-job-search",
+   "pdf_url": "",
+   "abstract": "Sponsor Star MadsLorentzen / ai-job-search The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.\nREADME: # AI Job Search *The job search that runs on your machine.* [![CI](https://github.com/MadsLorentzen/ai-job-search/actions/workflows/ci.yml/badge.svg)](https://github.com/MadsLorentzen/ai-job-search/actions/workflows/ci.yml) An AI-powered job application framework built on [Claude Code](https://claude.com/claude-code). Fork it, fill in your profile, and let Claude evaluate job postings, tailor your CV, write cover letters, and prepare you for interviews. > Note: This is an independent open-source project and is not affiliated with, endorsed by, sponsored by, or maintained by Anthropic. Anthropic and Claude Code are referenced only to describe the toolchain this workflow uses. > > This project has **no affiliated cryptocurrency, token, or paid sponsorship program**. Anything claiming otherwise is unauthorized and should be treated as a scam. The only ways to support the project are the Ko-fi link below and contributing on GitHub. ## Does it actually work? I'm a geophysicist by training. When my position was cut in late 2025, I built this framework to run my own job search - the same `/scrape`, `/apply`, and `/interview` workflow in this repo, used weekly, on my own career. I was upfront about it with every employer I spoke to, and instead of counting against me, it usually sparked a genuine technical conversation. Sixty-nine tailored applications, twenty first interviews, and one signed contract later, I started as an AI engineer in June 2026. People kept asking whether this ac",
+   "authors": [],
+   "orgs": [
+    "MadsLorentzen"
+   ],
+   "published": "2026-10-11T11:21:13+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/MadsLorentzen/ai-job-search",
+     "signal": "★ 今日 +511 · Python",
+     "metric": 511
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "ai-job-search：本地求职智能体框架",
+   "summary_zh": "基于 Claude Code 的求职框架，可评估职位、定制简历、撰写求职信并准备面试，全部在本地运行，可 fork 自用。",
+   "highlights_zh": [
+    "基于 Claude Code 的 /scrape、/apply、/interview 工作流",
+    "本地运行，数据不出本机",
+    "作者本人用它完成真实求职"
+   ],
+   "why_zh": "如果你在找工作，可以用它自动评估职位并定制简历与求职信",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5959,
+   "score_llm": 6.0,
+   "score": 0.5984,
+   "date": "2026-10-11",
+   "slot": "evening",
+   "selected_at": "2026-10-11T11:21:13+00:00",
+   "mirror_pdf": "pdf/web-9b75bda91938.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/MadsLorentzen/ai-job-search"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ddff3a90e8ee",
+   "kind": "article",
+   "title": "硅谷AI现状：谁有算力谁是爹",
+   "url": "https://www.qbitai.com/2026/10/502585.html",
+   "pdf_url": "",
+   "abstract": "马斯克连横A社，硅谷VC开始囤GPU",
+   "authors": [
+    "鹭羽"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-11T05:22:38+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/502585.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "硅谷AI现状：谁有算力谁是爹",
+   "summary_zh": "报道硅谷AI算力争夺现状：马斯克与Anthropic结盟，VC开始囤积GPU，算力成为核心筹码。",
+   "highlights_zh": [
+    "算力取代模型成为硅谷核心资源",
+    "马斯克与Anthropic的连横动作",
+    "VC囤GPU反映资本风向变化"
+   ],
+   "why_zh": "算力供需与资本动向是判断AI市场格局的关键信号。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-11",
+   "slot": "evening",
+   "selected_at": "2026-10-11T11:21:13+00:00",
+   "mirror_pdf": "pdf/web-ddff3a90e8ee.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/502585.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ec375bc871f5",
+   "kind": "article",
+   "title": "🔮 AI & Math 2.0, Pakistan’s solar hedge & who controls computing++",
+   "url": "https://www.exponentialview.co/p/ev-605",
+   "pdf_url": "",
+   "abstract": "An essential weekly reading on AI.",
+   "authors": [
+    "Azeem Azhar"
+   ],
+   "orgs": [
+    "Azeem Azhar"
+   ],
+   "published": "2026-10-11T04:44:15+00:00",
+   "sources": [
+    {
+     "name": "Azeem Azhar",
+     "authority": 0.8,
+     "url": "https://www.exponentialview.co/p/ev-605",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Exponential View 创始人",
+   "title_zh": "AI与数学2.0、巴基斯坦太阳能对冲与算力控制权",
+   "summary_zh": "Azeem Azhar周报讨论AI与数学结合、能源对冲及算力控制权等议题，摘要信息过少难以评估。",
+   "highlights_zh": [
+    "AI与数学2.0",
+    "算力控制权议题",
+    "能源与地缘视角"
+   ],
+   "why_zh": "作者为知名科技评论人，但摘要过简，价值待确认。",
+   "tags": [
+    "理论",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.588,
+   "date": "2026-10-11",
+   "slot": "evening",
+   "selected_at": "2026-10-11T11:21:13+00:00",
+   "mirror_pdf": "pdf/web-ec375bc871f5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.exponentialview.co/p/ev-605"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-23fa56e794bf",
+   "kind": "article",
+   "title": "跻身全球第一梯队：华为 × 华东师大联合研发时序预测基础模型，登顶国际权威时序测评双榜单",
+   "url": "https://www.ithome.com/1/011/631.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 11 日消息，据华为云官方消息，近日，华为公司 (华为云行业大模型团队 + 2012 应用场景创新实验室 + 小巧灵突击队) 与华东师范大学联合团队研发的昇腾原生时序预训练模型取得重磅突破， 成功登顶国际权威时序评测榜单 TIME-leaderboard 和 GIFT-Eval（Pretrained 类目） 。 ▲ TIME 评测榜单 ▲ GIFT-Eval 榜单（Pretrained 类目） 据介绍，时序基础模型作为人工智能赋能气象预测、能源调度、工业运维、金融分析等核心场景的关键技术底座， 是当下 AI 基础研究与产业落地的核心赛道 。研发团队基于华为昇腾生态，完成了模型的训练推理的深度优化，最终打造出高精度、高鲁棒性、高通用性、易工程化的通用时序基模型底座。 华为云官方表示，在顶级模型扎堆的 TIME-leaderboard 和 GIFT-Eval 榜单中，七曜模型脱颖而出，成功登顶， 标志着国内时序基础模型正式跻身全球第一梯队，完成从跟跑到赶超的跨越式突破 。 IT之家从华为云官方获悉， 模型既可直接用于各类零样本时序预测任务 ，适配电网负荷研判、工业设备异常时序检测、金融趋势分析等核心场景， 也支持低成本二次微调，快速适配各垂直行业定制化需求 ，兼顾算力、高自主模型知识产权。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-11T08:30:53+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/011/631.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "华为与华东师大联合研发时序基础模型登顶国际双榜单",
+   "summary_zh": "华为云与华东师大联合研发的昇腾原生时序预训练模型登顶 TIME-leaderboard 和 GIFT-Eval 双榜，标志国内时序基础模型跻身全球第一梯队。",
+   "highlights_zh": [
+    "模型基于昇腾生态完成训练推理深度优化，登顶两大权威时序评测榜单",
+    "可直接用于零样本时序预测，适配电网、工业、金融等场景",
+    "支持低成本二次微调，兼顾算力自主与知识产权"
+   ],
+   "why_zh": "时序基础模型是 AI 赋能产业的关键底座，国产模型登顶具标志意义。",
+   "tags": [
+    "大模型",
+    "数据与评测",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-11",
+   "slot": "evening",
+   "selected_at": "2026-10-11T11:21:13+00:00",
+   "mirror_pdf": "pdf/web-23fa56e794bf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/011/631.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d7ea725cd428",
+   "kind": "article",
+   "title": "Qwen-Image-2.1 Pro 和 Turbo API 上线千问 AI 平台，将图像生成与编辑能力接入应用",
+   "url": "https://www.ithome.com/1/011/622.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 11 日消息，千问 AI 平台今日宣布，Qwen-Image-2.1 Pro 和 Turbo API 现已正式上线千问 AI 平台。开发者可以通过 API 将 图像生成与编辑能力接入应用 ，无需自行部署模型、管理推理环境，即可围绕设计、电商、内容创作等场景搭建自己的工作流。与此同时，Qwen-Image-2.1-Turbo 模型权重同步开放。 现在，用户可以在千问 AI 平台查看 Qwen-Image-2.1 Pro 和 Turbo 的模型信息与接入说明，根据业务需求选择、测试和集成。 对于创作工具，API 可以成为从文字构思到视觉呈现的入口；对于电商和营销应用，可以围绕商品素材、场景创作和海报设计组织工作流；对于已有图片的精修与再创作，则可以通过编辑指令继续调整内容。从生成到编辑，开发者可以把这些能力融入自己的产品，让用户在熟悉的界面中完成创作。 Qwen-Image-2.1 模型最多支持 10 张参考图输入，支持通过圈选、涂抹和独立掩码明确编辑区域。与此同时，2.1 加强了人像和商品编辑中的一致性表现：在人像编辑中更好地保留面部身份特征，在商品编辑中尽可能保持文字、纹理与形态。此外，Qwen-Image-2.1-Turbo 支持 2K 图像生成与图像编辑 。 Qwen-Image-2.1-Turbo 基于 Qwen-Image-2.1 的 7B 视觉生成架构，将图像生成与编辑的去噪过程缩短至 8 步，同时保留 2K 图像创作能力。 API 上线之后，图像生成与编辑可以嵌入用户已经在使用的工具中。开发者可以围绕具体需求，把素材输入、生成、预览和修改连接起来。 电商与品牌内容：围绕商品参考图和场景描述制作展示素材，再根据投放主题调整背景、构图和视觉风格。 营销与平面设计：从活动主题与文案出发探索海报方案，将文字和画面一同纳入创作，再逐步打磨细节。 人物与穿搭创作：结合人物和服饰参考素材探索搭配效果，通过编辑指令持续调整造型与场景。 内容创作与视觉叙事：围绕人物设定、情节描述和已有画面组织创作，将生成与编辑嵌入分镜、信息图等内容制作流程。 参考 官方博客 GitHub",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-11T08:06:48+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/011/622.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Qwen-Image-2.1 Pro 与 Turbo API 上线千问 AI 平台",
+   "summary_zh": "千问 AI 平台上线 Qwen-Image-2.1 Pro 和 Turbo API，开发者可接入图像生成与编辑能力，Turbo 权重同步开源，支持 2K 图像与 8 步去噪。",
+   "highlights_zh": [
+    "支持最多 10 张参考图输入，可通过圈选、涂抹和掩码明确编辑区域",
+    "加强人像与商品编辑一致性，保留面部特征与商品文字纹理",
+    "Turbo 基于 7B 架构，去噪缩短至 8 步，支持 2K 生成与编辑"
+   ],
+   "why_zh": "图像生成编辑能力 API 化，降低开发者接入门槛，利好电商与内容创作场景。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-11",
+   "slot": "evening",
+   "selected_at": "2026-10-11T11:21:13+00:00",
+   "mirror_pdf": "pdf/web-d7ea725cd428.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/011/622.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f9dfde6c15f0",
+   "kind": "article",
+   "title": "24天！Jev估值翻至75亿美元，年度硅谷最爽逆袭了吧",
+   "url": "https://www.qbitai.com/2026/10/502492.html",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [
+    "文婷"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-10T08:54:08+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/502492.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Jev估值24天翻至75亿美元",
+   "summary_zh": "某AI公司Jev在24天内估值暴涨至75亿美元，被称为年度硅谷最戏剧性逆袭，但摘要信息不足。",
+   "highlights_zh": [
+    "24天估值暴涨",
+    "估值达75亿美元",
+    "硅谷年度逆袭案例"
+   ],
+   "why_zh": "反映AI赛道资本热度，但信息量有限，需谨慎看待。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-10-11",
+   "slot": "evening",
+   "selected_at": "2026-10-11T11:21:13+00:00",
+   "mirror_pdf": "pdf/web-f9dfde6c15f0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/502492.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0047cb85630d",
+   "kind": "article",
+   "title": "24 天估值暴涨 37 倍，这就是 AI 圈年度爽文",
+   "url": "https://www.ifanr.com/1683674?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "LLM 给人用，这个决策模型给代码用 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "张子豪"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-10T09:11:54+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1683674?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "24天估值暴涨37倍，AI圈年度爽文",
+   "summary_zh": "某公司24天估值暴涨37倍，主打面向代码的决策模型而非给人用的LLM，但摘要信息不足。",
+   "highlights_zh": [
+    "24天估值暴涨37倍",
+    "决策模型面向代码",
+    "区别于通用LLM定位"
+   ],
+   "why_zh": "反映AI细分赛道资本热度，但信息量有限。",
+   "tags": [
+    "大模型",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-11",
+   "slot": "evening",
+   "selected_at": "2026-10-11T11:21:13+00:00",
+   "mirror_pdf": "pdf/web-0047cb85630d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1683674?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bcf123c5bef0",
+   "kind": "article",
+   "title": "请来Claude老祖，谷歌能借Agent翻身吗？",
+   "url": "https://www.tmtpost.com/8164268.html",
+   "pdf_url": "",
+   "abstract": "agent底座之争，OpenAI又被针对了。",
+   "authors": [
+    "字母AI"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-11T04:50:00+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8164268.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌请来 Claude 之父，能否借 Agent 翻身",
+   "summary_zh": "钛媒体分析谷歌引入 Claude 相关人才布局 Agent，指出智能体底座之争中 OpenAI 再度成为被针对对象。",
+   "highlights_zh": [
+    "谷歌加码 Agent 赛道人才布局",
+    "智能体底座竞争白热化",
+    "OpenAI 成为主要竞争靶心"
+   ],
+   "why_zh": "把握大厂智能体竞争格局的最新动向。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-11",
+   "slot": "evening",
+   "selected_at": "2026-10-11T11:21:13+00:00",
+   "mirror_pdf": "pdf/web-bcf123c5bef0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8164268.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f36532cd46ff",
+   "kind": "article",
+   "title": "中国AI，开始为算力算账",
+   "url": "https://www.tmtpost.com/8164264.html",
+   "pdf_url": "",
+   "abstract": "模型越卖越便宜，算力投资却越烧越猛。",
+   "authors": [
+    "奇帆商业"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-11T04:21:41+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8164264.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "中国 AI 开始为算力算账",
+   "summary_zh": "钛媒体分析中国 AI 行业困境：模型售价持续走低，算力投资却不断攀升，行业开始重新审视投入产出账。",
+   "highlights_zh": [
+    "模型价格战持续压低收入",
+    "算力投资规模居高不下",
+    "行业进入成本收益再平衡阶段"
+   ],
+   "why_zh": "理解中国 AI 商业化与算力成本的核心矛盾。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-11",
+   "slot": "evening",
+   "selected_at": "2026-10-11T11:21:13+00:00",
+   "mirror_pdf": "pdf/web-f36532cd46ff.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8164264.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-73855b435891",
+   "kind": "article",
+   "title": "CUDA 生态优势推动 RTX Spark 笔记本热销，微软 128GB 内存版 Surface Laptop Ultra 开始在美国缺货",
+   "url": "https://www.ithome.com/1/011/677.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 11 日消息，微软美国官网显示，Surface Laptop Ultra 笔记本 128GB 统一内存、1TB SSD 配置已经缺货，该产品定价 5,899.99 美元 （IT之家注：现汇率约合 39,570 元人民币） ，其他较低配置机型仍可购买。 结合科技媒体 Wccftech 报道，这款笔记本迅速售罄的原因可能与早期供应有限有关，但由于微软没有公布详细数据，我们无法验证这种说法的真实性。另一方面， 这款笔记本能够支持 CUDA 生态 ，因此只要仔细考虑这类笔记本面向的客户群体，就不难理解其快速售罄的缘由。 对 AI 开发者和创作者来说，Surface Laptop Ultra 这类支持 CUDA 生态的超大内存笔记本显得非常实用。 大多数 AI 框架 、 推理引擎和创意工具都优先针对 CUDA 开发 ，因此用户购买设备后可以直接运行现有工具，无需费力寻找替代方案。 当然，目前市面上也有 AMD 锐龙 AI Max 400 等竞品能提供 192GB 超大统一内存。问题在于，英伟达的 CUDA 生态已经是一座壁垒，很少有平台能够在软件兼容性方面与 NVIDIA 相提并论。 截至IT之家发稿，微软暂未回应 128GB 内存版 Surface Laptop Ultra 何时补货。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-11T10:38:04+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/011/677.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "CUDA 生态壁垒助推 RTX Spark 笔记本热销，微软 128GB Surface Laptop Ultra 缺货",
+   "summary_zh": "微软 128GB 内存版 Surface Laptop Ultra 在美国缺货，其支持 CUDA 生态，对 AI 开发者实用性强，凸显英伟达软件壁垒优势。",
+   "highlights_zh": [
+    "128GB 统一内存版 Surface Laptop Ultra 定价 5899 美元，已在美国缺货",
+    "支持 CUDA 生态，可直接运行主流 AI 框架与推理引擎",
+    "AMD 锐龙 AI Max 400 虽提供 192GB 内存，但软件兼容性难敌 CUDA"
+   ],
+   "why_zh": "反映大内存+CUDA 组合对 AI 开发者的吸引力，以及生态壁垒的市场价值。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-11",
+   "slot": "evening",
+   "selected_at": "2026-10-11T11:21:13+00:00",
+   "mirror_pdf": "pdf/web-73855b435891.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/011/677.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-97f4499a1163",
+   "kind": "article",
+   "title": "用不着Ctrl+F了！全新AI论文工具，帮你在原文献里海里捞针",
+   "url": "https://www.qbitai.com/2026/10/502644.html",
+   "pdf_url": "",
+   "abstract": "一套生成论文初稿的多智能体工作流",
+   "authors": [
+    "henry"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-11T09:04:31+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/502644.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI论文工具：多智能体工作流生成初稿",
+   "summary_zh": "量子位介绍一款多智能体论文写作工具，可在原文献中检索并生成论文初稿，替代手动Ctrl+F查找。",
+   "highlights_zh": [
+    "多智能体协作完成文献检索与初稿生成",
+    "面向学术写作场景的效率工具",
+    "定位为论文写作辅助而非通用AI"
+   ],
+   "why_zh": "了解AI在学术写作场景的落地尝试，但信息增量有限。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 5.0,
+   "score": 0.476,
+   "date": "2026-10-11",
+   "slot": "evening",
+   "selected_at": "2026-10-11T11:21:13+00:00",
+   "mirror_pdf": "pdf/web-97f4499a1163.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/502644.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-eeb842f89202",
+   "kind": "article",
+   "title": "早报｜曝苹果iPhone Duo加单30%/四部门拟禁全隐藏式车门把手/长鑫首款服务器产品或年底推出",
+   "url": "https://www.ifanr.com/1683829?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "· 苹果第二期中国清洁能源基金扩容至 2.12 亿美元 · Netflix 称约 300 部作品已使用 AI，导演谈降本与创作取舍 · 长鑫披露 4F² 内存架构进展，首款服务器产品预计年底推出 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "郑廷旭"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-11T00:53:42+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1683829?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "早报：苹果加单、车门把手新规、长鑫服务器芯片",
+   "summary_zh": "爱范儿早报汇总：苹果iPhone Duo加单30%、四部门拟禁全隐藏式车门把手、Netflix约300部作品用AI、长鑫首款服务器产品年底推出。",
+   "highlights_zh": [
+    "Netflix约300部作品已用AI",
+    "苹果iPhone Duo加单30%",
+    "长鑫首款服务器产品年底推出"
+   ],
+   "why_zh": "常规科技早报，AI相关条目仅Netflix使用AI一项。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-10-11",
+   "slot": "evening",
+   "selected_at": "2026-10-11T11:21:13+00:00",
+   "mirror_pdf": "pdf/web-eeb842f89202.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1683829?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f1fa08553169",
+   "kind": "article",
+   "title": "这届 AI PC，太烧心了",
+   "url": "https://www.ifanr.com/1683688?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "AI PC 还没火，先被 AI 背刺了。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "莫崇宇"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-10T08:28:39+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1683688?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI PC 为何让用户烧心",
+   "summary_zh": "爱范儿分析 AI PC 落地困境：厂商强推 AI 卖点，但实际体验与用户预期落差大，反成负担。",
+   "highlights_zh": [
+    "AI PC 概念火热但实际使用体验不佳",
+    "厂商营销与用户真实需求存在错位",
+    "反映端侧 AI 落地面临的现实挑战"
+   ],
+   "why_zh": "了解 AI 硬件落地真实反馈，避免被营销话术误导。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-10-11",
+   "slot": "evening",
+   "selected_at": "2026-10-11T11:21:13+00:00",
+   "mirror_pdf": "pdf/web-f1fa08553169.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1683688?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "世界模型评测从刷视频转向真机闭环，具身智能进入可验证阶段",
-   "why": "WorldArena 2.0 将评测扩展到视触觉、在线强化学习与真实机器人操作，纯视觉生成不再够用。",
+   "trend": "世界模型评测从看视频转向真机闭环，具身智能进入可验证阶段",
+   "why": "WorldArena 2.0 将评测扩展到视触觉、在线强化学习与真实机器人操作，JEPA 路线夺冠",
    "refs": [
     "web-8fa6b3d73987"
    ]
   },
   {
-   "trend": "KV Cache 压缩被曝相位敏感，长上下文推理的可靠性根基受质疑",
-   "why": "字节发现关键信息落在压缩块交界处时错误率高达 71%，加点空格即可让模型翻车。",
+   "trend": "大模型推理效率竞争转向显存压缩与调度，而非单纯堆算力",
+   "why": "AirLLM 单张 4GB 显卡跑 70B，GKE Pod 快照缓存模型状态缩短加载，均指向推理成本工程化",
+   "refs": [
+    "web-26149269af1e",
+    "web-ea9035a39ee5"
+   ]
+  },
+  {
+   "trend": "KV Cache 压缩存在结构性缺陷，长上下文可靠性被高估",
+   "why": "字节发现分块压缩交界处错误率高达 71%，加空格即可让模型翻车，暴露评测盲区",
    "refs": [
     "web-526d2eb1f383"
    ]
   },
   {
-   "trend": "个人智能体成巨头新战场，字节腾讯集体追赶 Meta Muse",
-   "why": "字节 Spell 结合豆包、腾讯上线 LightVela，行动型智能体从概念进入产品竞速。",
+   "trend": "个人 AI 智能体成巨头新战场，字节腾讯集体押注行动型助手",
+   "why": "Meta Muse 发布后，字节 Spell、腾讯 LightVela 加速跟进，竞争从对话转向执行",
    "refs": [
     "web-ac5b0404e212",
     "web-ee114c9f98fa"
    ]
   },
   {
-   "trend": "AI 安全从对齐叙事转向遏制架构，默认模型已被攻破成新共识",
-   "why": "纳德拉主张围绕可观测性、独立审计与强制中断设计，Anthropic 同步开源 oss-scanner。",
+   "trend": "AI 安全范式从对齐转向遏制，默认模型已被攻破成为工程前提",
+   "why": "纳德拉主张围绕可观测性、独立审计与强制中断设计架构，Anthropic 开源扫描工具呼应",
    "refs": [
     "web-a41354a5fe71",
     "web-fa4b2cd534d0"
-   ]
-  },
-  {
-   "trend": "AI 资源争夺挤压硬件成本，车企与消费级 GPU 同时承压",
-   "why": "李斌称 AI 抢内存致车企规模不经济，英伟达拟以 24GB 版 RTX 5080 取代 16GB。",
-   "refs": [
-    "web-7e6d07f8344a",
-    "web-551dec3b6b01"
    ]
   }
  ]
