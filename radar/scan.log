@@ -1,12 +1,11 @@
-2026-10-10 16:10:11,808 INFO source hf_daily           -> 19 items
-2026-10-10 16:10:12,114 INFO source hackernews         -> 6 items
-2026-10-10 16:10:29,847 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-10 16:10:41,615 INFO source rss                -> 77 items
-2026-10-10 16:10:43,774 INFO source html_lists         -> 0 items
-2026-10-10 16:10:43,774 INFO source x                  -> 0 items
-2026-10-10 16:10:44,239 INFO source arxiv_search       -> 14 items
-2026-10-10 16:10:53,665 INFO source github             -> 20 items
-2026-10-10 16:10:53,667 INFO candidates: 133 (stale dropped 59, new 39)
-2026-10-10 16:11:18,471 INFO llm judged 33/39 (calls=5)
-2026-10-10 16:11:40,539 WARNING snapshot https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/: blocked or empty page
-2026-10-10 16:15:01,589 INFO run done: {"at": "2026-10-10T16:10:11+00:00", "slot": "morning", "candidates": 133, "new": 39, "stale": 59, "judged": 33, "selected": 20, "mirrored": 17, "by_category": {"项目": 3, "资讯": 13, "观点": 1, "技术": 3}, "by_source": {"HF Daily Papers": 19, "arXiv 新论文": 14, "Hacker News": 6, "GitHub 新项目": 13, "量子位": 10, "极客公园": 6, "IT之家": 10, "爱范儿": 6, "少数派": 1, "雷峰网": 9, "钛媒体": 6, "InfoQ 中文": 14, "Simon Willison": 1, "Nathan Lambert": 1, "Latent Space": 5, "SemiAnalysis": 1, "Azeem Azhar": 1, "Zvi Mowshowitz": 1, "科学空间": 1, "Hugging Face Blog": 1, "OpenAI": 2, "NVIDIA": 1, "GitHub Trending": 7}, "llm": true, "translated": 0}
+2026-10-11 04:23:53,817 INFO source hf_daily           -> 0 items
+2026-10-11 04:23:54,107 INFO source hackernews         -> 1 items
+2026-10-11 04:24:09,280 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-11 04:24:16,353 INFO source rss                -> 71 items
+2026-10-11 04:24:18,105 INFO source html_lists         -> 0 items
+2026-10-11 04:24:18,105 INFO source x                  -> 0 items
+2026-10-11 04:24:18,580 INFO source arxiv_search       -> 0 items
+2026-10-11 04:24:31,486 INFO source github             -> 20 items
+2026-10-11 04:24:31,487 INFO candidates: 92 (stale dropped 14, new 37)
+2026-10-11 04:24:59,335 INFO llm judged 37/37 (calls=5)
+2026-10-11 04:28:14,540 INFO run done: {"at": "2026-10-11T04:23:53+00:00", "slot": "noon", "candidates": 92, "new": 37, "stale": 14, "judged": 37, "selected": 16, "mirrored": 14, "by_category": {"资讯": 14, "项目": 2}, "by_source": {"Hacker News": 1, "量子位": 6, "极客公园": 6, "IT之家": 10, "爱范儿": 6, "雷峰网": 9, "钛媒体": 8, "InfoQ 中文": 14, "Simon Willison": 1, "Nathan Lambert": 1, "Latent Space": 4, "Azeem Azhar": 1, "Zvi Mowshowitz": 1, "科学空间": 1, "Hugging Face Blog": 1, "OpenAI": 2, "GitHub Trending": 8, "GitHub 新项目": 12}, "llm": true, "translated": 0}
