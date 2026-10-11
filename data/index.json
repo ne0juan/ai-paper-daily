@@ -1,6 +1,13 @@
 {
- "updated": "2026-10-11T11:21:13+00:00",
+ "updated": "2026-10-11T16:36:52+00:00",
  "days": [
+  {
+   "date": "2026-10-12",
+   "count": 10,
+   "slots": {
+    "morning": 10
+   }
+  },
   {
    "date": "2026-10-11",
    "count": 53,
@@ -164,37 +171,33 @@
    }
   }
  ],
- "total": 984,
+ "total": 994,
  "last_run": {
-  "at": "2026-10-11T11:21:13+00:00",
-  "slot": "evening",
-  "candidates": 86,
-  "new": 39,
-  "stale": 4,
-  "judged": 39,
-  "selected": 17,
-  "mirrored": 16,
+  "at": "2026-10-11T16:36:52+00:00",
+  "slot": "morning",
+  "candidates": 78,
+  "new": 15,
+  "stale": 37,
+  "judged": 12,
+  "selected": 10,
+  "mirrored": 10,
   "by_category": {
    "项目": 3,
-   "资讯": 13,
+   "资讯": 6,
    "观点": 1
   },
   "by_source": {
    "Hacker News": 2,
-   "量子位": 10,
+   "量子位": 9,
    "极客公园": 4,
-   "IT之家": 9,
+   "IT之家": 6,
    "爱范儿": 5,
    "雷峰网": 9,
    "钛媒体": 3,
    "InfoQ 中文": 13,
-   "Simon Willison": 1,
    "Nathan Lambert": 1,
    "Latent Space": 4,
    "Azeem Azhar": 2,
-   "Zvi Mowshowitz": 1,
-   "科学空间": 1,
-   "Hugging Face Blog": 1,
    "GitHub Trending": 11,
    "GitHub 新项目": 9
   },

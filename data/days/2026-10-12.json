@@ -1,0 +1,574 @@
+{
+ "date": "2026-10-12",
+ "items": [
+  {
+   "id": "web-673796e09e73",
+   "kind": "article",
+   "title": "wheresryan22/anatomy",
+   "url": "https://github.com/wheresryan22/anatomy",
+   "pdf_url": "",
+   "abstract": "A Claude Code skill that turns a technical idea into a detailed, interactive isometric figure of a real machine. It makes SVG with optional WebGL shaders and 3D, for docs, articles and landing pages.\nREADME: Anatomy A Claude skill that explains an idea by building it as a real, working object. Crafted, interactive isometric figures with many small precise parts, in SVG, WebGL and 3D. Quick start · Gallery · What it makes · Install · Usage · Examples · How it works · Limits examples/raptor-engine , light theme, firing. The engine and stand are SVG; the plume is a WebGL shader in the same isometric camera. --- Ask Claude for a figure that explains a technical idea, and Anatomy has it invent a physical thing whose working *is* the concept. A cache key that skips work when nothing changed becomes a pin-tumbler lock that only turns when every pin matches. One GPU context serving many canvases becomes a gantry plotter whose single print head visits 16 wells. Then Claude builds that thing out of dozens of small, solid, shaded parts, puts it in a framed card with a title, a hint and a live readout, makes it move calmly under the pointer and the keyboard, and checks its own work by zooming in on every joint. Every number the figure shows comes from the same small model that moves its parts. ## Quick start ```sh npx skills add wheresryan22/anatomy -g -a claude-code ``` Then, in Claude Code: ```text /anatomy explain how a token bucket rate limiter works, interactive ``` That's it. No API keys and nothing to `npm install`: the kit uses only Node's built-in modules. ## Gallery raptor-engine : hover to take it apart into 11 assemblies. An audit proves that no pipe passes through anything, at r",
+   "authors": [],
+   "orgs": [
+    "wheresryan22"
+   ],
+   "published": "2026-10-11T16:36:52+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/wheresryan22/anatomy",
+     "signal": "★ 2,059（新项目） · JavaScript",
+     "metric": 2059
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Anatomy：把技术概念变成可交互的等距机械图",
+   "summary_zh": "一个 Claude Code 技能，能把抽象技术概念（如缓存键）具象成一台可运转的等距机械装置，用 SVG/WebGL 生成可交互图表，适合文档与落地页。",
+   "highlights_zh": [
+    "让 Claude 为概念发明一个『工作原理即概念本身』的物理装置",
+    "输出 SVG + WebGL 着色器 + 3D 的交互式等距图卡",
+    "自带自检：放大每个关节核对图形与数值一致性"
+   ],
+   "why_zh": "如果你在做技术文档或落地页，可用它把抽象概念变成可交互机械图",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6088,
+   "score_llm": 7.0,
+   "score": 0.6635,
+   "date": "2026-10-12",
+   "slot": "morning",
+   "selected_at": "2026-10-11T16:36:52+00:00",
+   "mirror_pdf": "pdf/web-673796e09e73.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/wheresryan22/anatomy"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f1438fb9ae7b",
+   "kind": "article",
+   "title": "下架8个月，GPT-4o的拯救行动居然还在继续",
+   "url": "https://www.qbitai.com/2026/10/502550.html",
+   "pdf_url": "",
+   "abstract": "初代4o的API快照进入停用倒计时",
+   "authors": [
+    "听雨"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-11T05:18:04+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/502550.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "GPT-4o 下架八个月，拯救行动仍在继续",
+   "summary_zh": "初代 GPT-4o 的 API 快照进入停用倒计时，用户仍在发起保留行动，反映模型退役与用户依赖的张力。",
+   "highlights_zh": [
+    "初代 4o API 快照即将停用",
+    "用户社区持续呼吁保留",
+    "折射模型生命周期管理问题"
+   ],
+   "why_zh": "了解模型退役对存量应用与用户的影响",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-10-12",
+   "slot": "morning",
+   "selected_at": "2026-10-11T16:36:52+00:00",
+   "mirror_pdf": "pdf/web-f1438fb9ae7b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/502550.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-dde33426df93",
+   "kind": "article",
+   "title": "CopilotKit/OpenIntelligentUI",
+   "url": "https://github.com/CopilotKit/OpenIntelligentUI",
+   "pdf_url": "",
+   "abstract": "Star CopilotKit / OpenIntelligentUI Open-Source Generative UI Framework",
+   "authors": [],
+   "orgs": [
+    "CopilotKit"
+   ],
+   "published": "2026-10-11T16:36:52+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/CopilotKit/OpenIntelligentUI",
+     "signal": "★ 今日 +309 · TypeScript",
+     "metric": 309
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "CopilotKit 开源生成式 UI 框架",
+   "summary_zh": "CopilotKit 推出开源生成式 UI 框架 OpenIntelligentUI，让应用界面可由模型动态生成。",
+   "highlights_zh": [
+    "面向生成式 UI 的开源框架",
+    "与 Copilot 生态衔接",
+    "TypeScript 实现"
+   ],
+   "why_zh": "关注生成式 UI 与智能体前端集成的开发者可一看",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5753,
+   "score_llm": 5.0,
+   "score": 0.5301,
+   "date": "2026-10-12",
+   "slot": "morning",
+   "selected_at": "2026-10-11T16:36:52+00:00",
+   "mirror_pdf": "pdf/web-dde33426df93.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/CopilotKit/OpenIntelligentUI"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e3794bc9322c",
+   "kind": "article",
+   "title": "FeiZhuLulu/DeepSeek-Bot",
+   "url": "https://github.com/FeiZhuLulu/DeepSeek-Bot",
+   "pdf_url": "",
+   "abstract": "A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.",
+   "authors": [],
+   "orgs": [
+    "FeiZhuLulu"
+   ],
+   "published": "2026-10-11T16:36:52+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/FeiZhuLulu/DeepSeek-Bot",
+     "signal": "★ 769（新项目） · JavaScript",
+     "metric": 769
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "DeepSeek-Bot：DSH 上的常驻机器人团队",
+   "summary_zh": "为 DeepSeek Harness 打造的常驻机器人团队，支持主机器人、机器人间消息与群聊。",
+   "highlights_zh": [
+    "多机器人协作与群聊",
+    "机器人间可互发消息",
+    "面向 DeepSeek Harness 的插件式方案"
+   ],
+   "why_zh": "如果你在玩 DeepSeek Harness，可试装这个多机器人插件",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5741,
+   "score_llm": 5.0,
+   "score": 0.5296,
+   "date": "2026-10-12",
+   "slot": "morning",
+   "selected_at": "2026-10-11T16:36:52+00:00",
+   "mirror_pdf": "pdf/web-e3794bc9322c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/FeiZhuLulu/DeepSeek-Bot"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5c9a629921f1",
+   "kind": "article",
+   "title": "本末科技，还没吃上具身智能这碗饭",
+   "url": "https://www.tmtpost.com/8164407.html",
+   "pdf_url": "",
+   "abstract": "具身智能业务营收占比5%。",
+   "authors": [
+    "蓝媒汇"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-11T13:08:08+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8164407.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "本末科技：具身智能营收仅占5%",
+   "summary_zh": "本末科技具身智能业务营收占比仅5%，反映具身智能商业化落地仍处早期，多数相关企业尚未真正吃到这波红利。",
+   "highlights_zh": [
+    "具身智能业务营收占比仅5%",
+    "反映具身智能商业化落地困难",
+    "行业热度与营收贡献严重不匹配"
+   ],
+   "why_zh": "了解具身智能赛道真实商业化进度，避免被概念热度误导。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-12",
+   "slot": "morning",
+   "selected_at": "2026-10-11T16:36:52+00:00",
+   "mirror_pdf": "pdf/web-5c9a629921f1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8164407.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-24189d03a1d4",
+   "kind": "article",
+   "title": "古尔曼：苹果首款智能家庭中枢定名 HomeView，搭载 A18 芯片、四种配色可选",
+   "url": "https://www.ithome.com/1/011/709.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 11 日消息，彭博社记者马克 · 古尔曼今日在新一期《Power On》通讯中透露，苹果首款智能家庭中枢名为“HomeView”，预计将在 10 月 13 日的“欢迎回家”活动正式发布，11 月出货。 据介绍，这款产品的外观设计类似 iMac G4“台灯电脑”，采用悬浮式屏幕，下方配有扬声器底座。 该设备将搭载 A18 芯片 ，官方还将推出壁挂安装版本。 IT之家从原报道获悉， 这款新产品将提供深空灰、银色、星光色和粉色四种配色 ，壁挂版仅有深空灰、银色两种配色。 古尔曼表示，这款产品主要使用语音交互， 以 AI Siri 为核心 。用户可以在房间另一端查看设备显示内容，并且该产品将运行苹果自家 App，但不支持 App Store。用户或许可以使用 iPhone，将第三方应用的小组件投射到设备上。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-11T14:36:10+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/011/709.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "苹果首款智能家庭中枢定名HomeView",
+   "summary_zh": "苹果首款智能家庭中枢定名HomeView，搭载A18芯片，以AI Siri为核心交互，预计10月13日发布、11月出货。",
+   "highlights_zh": [
+    "搭载A18芯片，悬浮式屏幕设计",
+    "以AI Siri为核心语音交互",
+    "不支持App Store，可投射iPhone小组件"
+   ],
+   "why_zh": "苹果AI硬件落地的重要信号，关注AI Siri实际能力表现。",
+   "tags": [
+    "产品与行业",
+    "语音"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-12",
+   "slot": "morning",
+   "selected_at": "2026-10-11T16:36:52+00:00",
+   "mirror_pdf": "pdf/web-24189d03a1d4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/011/709.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-372dadf45a82",
+   "kind": "article",
+   "title": "海外投资者持续减持，三星电子外资持股比例跌至 17 年最低",
+   "url": "https://www.ithome.com/1/011/687.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 11 日消息，海外投资者过去一年来不断减持三星电子股票，当前外资持股比例已降至 17 年来最低水平。 韩国交易所最新数据显示，外资持有三星电子股票比例已降至 46% 左右， 处于 2009 年 7 月以来的最低水平 。今年年初韩国股市处于上涨行情时，外资持股比例还高达 52.4%。3 月，该比例跌破 50%，到 5 月进一步降至 48%。 IT之家注意到，三星电子股价近期屡次创下新高，得益于半导体部门的强劲表现，该公司近期业绩出色。目前我们尚不清楚外资为何持续减持三星电子股票， 今年早些时候韩国股市出现的大幅波动 ， 以及市场对 AI 投资进行广泛再配置 ，都可能是减持的原因。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-11T11:49:50+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/011/687.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "三星电子外资持股比例跌至17年最低",
+   "summary_zh": "海外投资者持续减持三星电子，外资持股比例降至46%左右，为2009年7月以来最低，或与AI投资再配置有关。",
+   "highlights_zh": [
+    "外资持股从年初52.4%降至46%",
+    "创2009年7月以来最低水平",
+    "市场猜测与AI投资广泛再配置相关"
+   ],
+   "why_zh": "反映全球资本在AI浪潮下的资产再配置动向。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-12",
+   "slot": "morning",
+   "selected_at": "2026-10-11T16:36:52+00:00",
+   "mirror_pdf": "pdf/web-372dadf45a82.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/011/687.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6466ce7ebb85",
+   "kind": "article",
+   "title": "《VRChat》更新创作者指南：禁止使用 AI 生成误导性地图 / 角色缩略图，尚未决定上线“AI 标签”声明",
+   "url": "https://www.ithome.com/1/011/678.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 11 日消息，《VRChat》开发商 VRChat Inc. 于 10 月 7 日公布了针对 AI 生成内容的应对方针，同步更新创作者指南。官方明确禁止使用 AI 生成误导性地图 / 角色缩略图，避免创作者利用与实际内容完全不符的缩略图吸引玩家点击。 《VRChat》指出，平台一直将“自由表达”“人类无限的创造力”以及“人与人之间的联系”视为核心价值，尽管 AI 技术提升了开发人员的效率，然而其也催生了大量低质量内容，事实上在 AI 普及之前，平台上就已经存在一批低质量地图 / 角色，而 AI 的出现进一步降低了批量制作和发布内容的门槛，使大量低劣作品涌入平台，优质内容也更容易被淹没。 《VRChat》还透露，内部团队对于 AI 的看法同样存在分歧。部分员工会利用 AI 自动化工作流程或弥补自身知识短板，另一些员工则对 AI 持有较深的疑虑。近期，VRChat 网站便发生了一起意外事件：原本用于页面布局的 AI 占位符美术素材被错误地放到了正式上线的网页中，导致平台口碑声誉下降。 针对玩家关注的“AI 标签”声明内容，VRChat 认为，尽管此类声明内容能够帮助玩家快速辨别哪些项目利用了 AI，但目前内部团队尚未达成明确共识。因此， VRChat 对推出 AI 标签制度持开放态度，但尚未承诺一定会实施 。 除了 AI 政策外，后续 VRChat 还计划在游戏内加入更加便捷的内容反馈机制，让用户能够直接表达自己喜欢或不喜欢某项内容。便于官方筛选出低质量内容，并逐步改善推荐系统。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-11T10:54:55+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/011/678.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "VRChat禁止AI生成误导性缩略图",
+   "summary_zh": "VRChat更新创作者指南，禁止使用AI生成误导性地图/角色缩略图，对是否上线AI标签制度持开放态度但尚未决定。",
+   "highlights_zh": [
+    "禁止AI生成与实际内容不符的缩略图",
+    "内部对AI态度存在分歧",
+    "AI标签制度尚未达成共识"
+   ],
+   "why_zh": "观察内容平台如何应对AI生成内容泛滥的治理难题。",
+   "tags": [
+    "产品与行业",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-12",
+   "slot": "morning",
+   "selected_at": "2026-10-11T16:36:52+00:00",
+   "mirror_pdf": "pdf/web-6466ce7ebb85.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/011/678.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-750596818255",
+   "kind": "article",
+   "title": "DeepSeek Bot来了！民间版，DSH装个插件就能用",
+   "url": "https://www.qbitai.com/2026/10/502544.html",
+   "pdf_url": "",
+   "abstract": "Grok Bot我养不起，ds bot不得高低尝尝咸淡？",
+   "authors": [
+    "鱼羊"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-11T03:27:08+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/502544.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "民间版 DeepSeek Bot 上线，DSH 装插件即用",
+   "summary_zh": "量子位报道民间开发者推出 DeepSeek Bot，在 DeepSeek Harness 上装插件即可使用，对标 Grok Bot。",
+   "highlights_zh": [
+    "民间版 DeepSeek Bot 发布",
+    "以插件形式接入 DSH",
+    "对标 Grok Bot 的机器人体验"
+   ],
+   "why_zh": "关注 DeepSeek 生态与机器人玩法的读者可速览",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 5.0,
+   "score": 0.476,
+   "date": "2026-10-12",
+   "slot": "morning",
+   "selected_at": "2026-10-11T16:36:52+00:00",
+   "mirror_pdf": "pdf/web-750596818255.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/502544.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-45bc2fccc930",
+   "kind": "article",
+   "title": "[Subscriber Exclusive] NYC Subscriber Meetups!",
+   "url": "https://www.latent.space/p/nyc2026",
+   "pdf_url": "",
+   "abstract": "Tomorrow and Tuesday. If you see this you’re in!",
+   "authors": [
+    "swyx"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-10T22:07:17+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/nyc2026",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "",
+   "summary_zh": "Tomorrow and Tuesday. If you see this you’re in!",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": null,
+   "score": 0.46,
+   "date": "2026-10-12",
+   "slot": "morning",
+   "selected_at": "2026-10-11T16:36:52+00:00",
+   "mirror_pdf": "pdf/web-45bc2fccc930.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/nyc2026"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "模型退役正成为用户留存的新战场，厂商需为旧模型设计过渡方案",
+   "why": "GPT-4o 下架八个月后用户仍在发起拯救行动，说明模型依赖已形成迁移成本",
+   "refs": [
+    "web-f1438fb9ae7b"
+   ]
+  },
+  {
+   "trend": "生成式 UI 从概念走向开源框架，界面动态化成为应用层新竞争点",
+   "why": "CopilotKit 开源 OpenIntelligentUI，让界面由模型动态生成，降低接入门槛",
+   "refs": [
+    "web-dde33426df93"
+   ]
+  },
+  {
+   "trend": "具身智能商业化仍处早期，营收占比暴露落地与叙事之间的落差",
+   "why": "本末科技具身智能营收仅占5%，说明多数企业尚未真正吃到这波红利",
+   "refs": [
+    "web-5c9a629921f1"
+   ]
+  },
+  {
+   "trend": "AI 交互入口向家庭中枢与常驻机器人延伸，平台化竞争加剧",
+   "why": "苹果 HomeView 以 AI Siri 为核心，DeepSeek Bot 在 DSH 上装插件即用",
+   "refs": [
+    "web-24189d03a1d4",
+    "web-750596818255",
+    "web-e3794bc9322c"
+   ]
+  },
+  {
+   "trend": "AI 生成内容治理从平台规则切入，标签制度仍悬而未决",
+   "why": "VRChat 禁止 AI 生成误导性缩略图，但对是否上线 AI 标签持开放态度",
+   "refs": [
+    "web-6466ce7ebb85"
+   ]
+  }
+ ]
+}
