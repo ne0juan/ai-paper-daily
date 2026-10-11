@@ -1,12 +1,14 @@
-2026-10-11 11:21:13,630 INFO source hf_daily           -> 0 items
-2026-10-11 11:21:13,862 INFO source hackernews         -> 2 items
-2026-10-11 11:21:32,218 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-11 11:21:38,836 INFO source rss                -> 64 items
-2026-10-11 11:21:40,107 INFO source html_lists         -> 0 items
-2026-10-11 11:21:40,107 INFO source x                  -> 0 items
-2026-10-11 11:21:40,596 INFO source arxiv_search       -> 0 items
-2026-10-11 11:21:49,004 INFO source github             -> 20 items
-2026-10-11 11:21:49,005 INFO candidates: 86 (stale dropped 4, new 39)
-2026-10-11 11:22:19,420 INFO llm judged 39/39 (calls=5)
-2026-10-11 11:22:53,058 WARNING snapshot https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a: blocked or empty page
-2026-10-11 11:25:00,692 INFO run done: {"at": "2026-10-11T11:21:13+00:00", "slot": "evening", "candidates": 86, "new": 39, "stale": 4, "judged": 39, "selected": 17, "mirrored": 16, "by_category": {"项目": 3, "资讯": 13, "观点": 1}, "by_source": {"Hacker News": 2, "量子位": 10, "极客公园": 4, "IT之家": 9, "爱范儿": 5, "雷峰网": 9, "钛媒体": 3, "InfoQ 中文": 13, "Simon Willison": 1, "Nathan Lambert": 1, "Latent Space": 4, "Azeem Azhar": 2, "Zvi Mowshowitz": 1, "科学空间": 1, "Hugging Face Blog": 1, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
+2026-10-11 16:36:52,439 INFO source hf_daily           -> 0 items
+2026-10-11 16:36:53,140 INFO source hackernews         -> 2 items
+2026-10-11 16:37:12,202 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-11 16:37:18,500 INFO source rss                -> 56 items
+2026-10-11 16:37:19,858 INFO source html_lists         -> 0 items
+2026-10-11 16:37:19,858 INFO source x                  -> 0 items
+2026-10-11 16:37:20,171 INFO source arxiv_search       -> 0 items
+2026-10-11 16:37:28,830 INFO source github             -> 20 items
+2026-10-11 16:37:28,831 INFO candidates: 78 (stale dropped 37, new 15)
+2026-10-11 16:37:39,179 INFO llm judged 12/15 (calls=2)
+2026-10-11 16:37:39,225 WARNING mt provider edge failed: 404 for https://edge.microsoft.com/translate/auth
+2026-10-11 16:37:52,656 WARNING mt provider google failed: 429 for https://translate.googleapis.com/translate_a/single
+2026-10-11 16:37:52,656 WARNING mt failed: all translation providers failed
+2026-10-11 16:39:21,036 INFO run done: {"at": "2026-10-11T16:36:52+00:00", "slot": "morning", "candidates": 78, "new": 15, "stale": 37, "judged": 12, "selected": 10, "mirrored": 10, "by_category": {"项目": 3, "资讯": 6, "观点": 1}, "by_source": {"Hacker News": 2, "量子位": 9, "极客公园": 4, "IT之家": 6, "爱范儿": 5, "雷峰网": 9, "钛媒体": 3, "InfoQ 中文": 13, "Nathan Lambert": 1, "Latent Space": 4, "Azeem Azhar": 2, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
