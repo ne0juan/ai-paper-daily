@@ -1,11 +1,12 @@
 {
- "updated": "2026-10-11T16:36:52+00:00",
+ "updated": "2026-10-12T04:39:20+00:00",
  "days": [
   {
    "date": "2026-10-12",
-   "count": 10,
+   "count": 22,
    "slots": {
-    "morning": 10
+    "morning": 10,
+    "noon": 12
    }
   },
   {
@@ -171,35 +172,35 @@
    }
   }
  ],
- "total": 994,
+ "total": 1006,
  "last_run": {
-  "at": "2026-10-11T16:36:52+00:00",
-  "slot": "morning",
-  "candidates": 78,
-  "new": 15,
-  "stale": 37,
-  "judged": 12,
-  "selected": 10,
-  "mirrored": 10,
+  "at": "2026-10-12T04:39:20+00:00",
+  "slot": "noon",
+  "candidates": 77,
+  "new": 24,
+  "stale": 26,
+  "judged": 24,
+  "selected": 12,
+  "mirrored": 11,
   "by_category": {
-   "项目": 3,
-   "资讯": 6,
-   "观点": 1
+   "资讯": 9,
+   "项目": 3
   },
   "by_source": {
+   "HF Daily Papers": 3,
    "Hacker News": 2,
    "量子位": 9,
    "极客公园": 4,
-   "IT之家": 6,
-   "爱范儿": 5,
-   "雷峰网": 9,
+   "IT之家": 11,
+   "爱范儿": 4,
+   "少数派": 1,
+   "雷峰网": 3,
    "钛媒体": 3,
-   "InfoQ 中文": 13,
-   "Nathan Lambert": 1,
-   "Latent Space": 4,
+   "InfoQ 中文": 12,
+   "Latent Space": 3,
    "Azeem Azhar": 2,
-   "GitHub Trending": 11,
-   "GitHub 新项目": 9
+   "GitHub Trending": 10,
+   "GitHub 新项目": 10
   },
   "llm": true,
   "translated": 0

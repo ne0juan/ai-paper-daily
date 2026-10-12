@@ -507,8 +507,8 @@
    "category": "观点",
    "lang": "en",
    "who": "AI 工程师社区",
-   "title_zh": "",
-   "summary_zh": "Tomorrow and Tuesday. If you see this you’re in!",
+   "title_zh": "[订阅者独家] 纽约订阅者聚会！",
+   "summary_zh": "明天和周二。如果你看到这个，你就进来了！",
    "highlights_zh": [],
    "why_zh": "",
    "tags": [
@@ -529,45 +529,690 @@
      "url": "https://www.latent.space/p/nyc2026"
     }
    ],
+   "mt": true
+  },
+  {
+   "id": "web-44c65736f8dd",
+   "kind": "article",
+   "title": "The gap in shared understanding of LLM capability is widening",
+   "url": "https://twitter.com/karpathy/status/2109361546505966046",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-11T20:20:52Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50047422",
+     "signal": "331 pts",
+     "metric": 331
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "对 LLM 能力的认知鸿沟正在扩大",
+   "summary_zh": "一篇引发热议的文章指出，不同人群对 LLM 实际能力的理解差距正在拉大，导致预期与落地效果严重错位。",
+   "highlights_zh": [
+    "Hacker News 331 分，讨论热度高",
+    "聚焦能力认知分歧而非单一模型进展",
+    "对评估与预期管理有参考价值"
+   ],
+   "why_zh": "帮你理解为何业界对模型能力判断分歧越来越大。",
+   "tags": [
+    "数据与评测",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5922,
+   "score_llm": 7.0,
+   "score": 0.6569,
+   "date": "2026-10-12",
+   "slot": "noon",
+   "selected_at": "2026-10-12T04:39:20+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://twitter.com/karpathy/status/2109361546505966046"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50047422"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-821afa65ec96",
+   "kind": "article",
+   "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
+   "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-11T02:02:38Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50039092",
+     "signal": "186 pts",
+     "metric": 186
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "消耗 5000 亿 token 后：让 AI 智能体反编译一款 FPS 游戏",
+   "summary_zh": "一篇实践记录，讲述用 AI 智能体在消耗 5000 亿 token 后完成一款第一人称射击游戏的反编译，展示智能体在复杂逆向工程任务上的能力与成本。",
+   "highlights_zh": [
+    "Hacker News 186 分",
+    "展示智能体处理大型逆向工程任务的可行性",
+    "揭示此类任务的 token 消耗量级"
+   ],
+   "why_zh": "想了解智能体在真实复杂工程任务中的能力边界与成本，值得一读。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5653,
+   "score_llm": 7.0,
+   "score": 0.6461,
+   "date": "2026-10-12",
+   "slot": "noon",
+   "selected_at": "2026-10-12T04:39:20+00:00",
+   "mirror_pdf": "pdf/web-821afa65ec96.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50039092"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c204ab3254d8",
+   "kind": "article",
+   "title": "丘成桐数学与人工智能实验室联盟在清华大学成立，推动 AI 与数学深度融合",
+   "url": "https://www.ithome.com/1/011/814.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 12 日消息，据北京日报报道，10 月 11 日，丘成桐数学与人工智能实验室联盟在清华大学成立，将向数学科学专用大模型研发、AI 辅助数学形式化证明与猜想发现、可解释人工智能及交叉领域智能计算等领域发起攻关，推动 AI 与数学深度融合。 据IT之家此前报道，OpenAI 本月初一次性公开了 722 篇数学研究手稿 ，内容涵盖数论、代数几何、理论计算机科学、流体力学与统计物理等前沿领域，解决了多项长期存在的数学难题，给数学界带来了巨大的冲击。 联盟牵头人、清华求真书院院长丘成桐在联盟成立仪式上谈及了对 AI 时代数学学科发展的看法，“这倒逼我们重新思考数学的本质价值， 也要求我们必须在 AI 浪潮中冲浪 ，而不是躲起来。” 据介绍，联盟发布了 10 余项“AI+ 数学”重点成果和研究方向，围绕几何、量子计算、生命科学等方向，涉及退化阿诺德猜想问题、极小修改的有界性、7 维同伦球面等科学问题。 其中，在清华大学丘成桐数学科学中心、上海数学与交叉学科研究院开展的“7 维同伦球面：所有光滑结构均可以承载处处为正的截面曲”研究中，AI 用于辅助探索证明策略、简化计算；计算代数系统用于核验精确恒等式、区间界、生成可复现的计算证书；数学家负责构思与证明，核验结果、完成数学论证和论文。此外，AI 还在其他科学问题的解决中为科学家提供思路启发，辅助科学家开展早期实验性计算等。 丘成桐表示， 联盟已集结超 1000 位数学家和科研工作者的力量 ，联合清华大学求真书院、丘成桐数学科学中心以及北京雁栖湖应用数学研究院、中国科学院晨兴数学中心、上海数学与交叉学科研究院、东南大学丘成桐中心、河套数学与交叉学科研究院（深圳）、香港中文大学致真交叉数学科学院等机构，将为年轻学者和学生提供前沿指导，并会积极推动资源整合，探索属于中国自己的数学大模型建设路径。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-12T03:15:31+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/011/814.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "丘成桐数学与AI实验室联盟在清华成立",
+   "summary_zh": "丘成桐牵头在清华成立数学与AI实验室联盟，集结超千名学者，攻关数学专用大模型、AI辅助形式化证明与猜想发现。",
+   "highlights_zh": [
+    "联盟发布10余项AI+数学重点成果，涉及几何、量子计算等",
+    "AI辅助探索证明策略、简化计算，数学家负责构思与核验",
+    "探索中国自己的数学大模型建设路径"
+   ],
+   "why_zh": "顶级数学家牵头推动AI与数学深度融合，可能催生科学AI新范式。",
+   "tags": [
+    "科学AI",
+    "大模型",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-12",
+   "slot": "noon",
+   "selected_at": "2026-10-12T04:39:20+00:00",
+   "mirror_pdf": "pdf/web-c204ab3254d8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/011/814.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d64099a3dfb2",
+   "kind": "article",
+   "title": "马化腾带 28 岁青年与广东省委书记黄坤明座谈：腾讯首席 AI 科学家姚顺雨露面",
+   "url": "https://www.ithome.com/1/011/765.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 12 日消息，据中国新闻网“三里河”公众号报道，10 月 8 日，国庆假期后首个工作日，广东省委书记黄坤明到深圳调研，走进腾讯总部。在座谈交流环节，腾讯董事会主席兼首席执行官马化腾发言， 在他旁边还坐着一个仅 28 岁的年轻人，此人是腾讯首席 AI 科学家姚顺雨 。 报道称，省委书记走进腾讯总部，马化腾带着集团“AI 一号位”并排坐， 这背后是广东和腾讯押注人工智能的决心 。 2025 年广东全省人工智能核心产业规模突破 3000 亿元， 约占全国四分之一 。10 月 9 日，广东召开全省先进制造业大会，其中提到“大力推动人工智能全方位、深层次、高水平赋能先进制造业发展”。 综合IT之家此前报道，姚顺雨 本科毕业于清华大学姚班，获普林斯顿大学计算机科学博士学位，2024 年加入 OpenAI 并参与智能体产品 operator 与 deep research 开发 。其研究聚焦语言智能体与现实世界交互，提出 ReAct 方法首创“推理 — 行动”结合的智能体范式，被学术界与工业界广泛采纳。 2025 年 12 月，腾讯升级大模型研发架构，新成立 AI Infra 部、AI Data 部、数据计算平台部，全面强化其大模型的研发体系与核心能力。 姚顺雨（Vinces Yao）出任“CEO / 总裁办公室”首席 AI 科学家 ，向腾讯总裁刘炽平汇报；同时兼任 AI Infra 部、大语言模型部负责人，向技术工程事业群总裁卢山汇报。 在今年 5 月的腾讯股东大会上 ，马化腾表示，腾讯早期在 AI 领域的基础能力并非突出，近年通过人才建设、团队管理与内部培训持续补全短板， 如今正逐步驶入发展轨道 。 马化腾坦言，腾讯不一定是业界最快抓住机遇的，但坚持走正确的道路，结合自身独有优势稳扎稳打，“不能看着别人在那边做就随便跨过去，抢别人的地盘，过去我们也抢过但后来基本失败了”。 对于腾讯 AI 是否落后的问题，马化腾表示，“原来一年前我们以为上了船，后来发现那个船漏水了，现在感觉站上去了，还坐不下去，还是希望船速能快一点”。 在今年 6 月的 2026 腾讯云 AI 产业应用大会现场，针对外界“腾讯慢了”的批评， 腾讯集团高级执行副总裁、云与智慧产业事业群 CEO 汤道生作出回应 ，其承认在复杂组织中不同业务线速度不一，有快有慢，也有失败与探索，对外界批评与提醒持开放态度并接受建议。 据新浪科技今年 7 月报道 ，腾讯宣布混元多模态模型部门与大语言模型部门合并，成立基础模型部， 统一由腾讯首席 AI 科学家姚顺雨管理 ，以进一步提升模型研发和协同效率，探索全模态模型的智能上限。 据财新 10 月 11 日报道 ，Meta 发布个人智能体 Muse 后，引起国内科技巨头迅速跟进。腾讯在 9 月底上线了一款个人智能体产品 LightVela，将其称之为“云端个人助理”，可通过微信接入，全天在线帮用户处理各类日常诉求。不过该产品还处于开发者体验阶段。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-12T01:46:22+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/011/765.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "马化腾带腾讯首席AI科学家姚顺雨与广东省委书记座谈",
+   "summary_zh": "腾讯首席AI科学家姚顺雨随马化腾与广东省委书记座谈，凸显广东与腾讯押注AI决心，姚顺雨负责混元大模型研发。",
+   "highlights_zh": [
+    "姚顺雨为ReAct智能体范式提出者，曾任OpenAI operator与deep research开发",
+    "腾讯成立AI Infra部、AI Data部，姚顺雨任首席AI科学家",
+    "混元多模态与大语言模型部门合并为基础模型部，由姚顺雨统一管理"
+   ],
+   "why_zh": "腾讯AI一号位公开亮相，反映其大模型战略升级与人才布局。",
+   "tags": [
+    "大模型",
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-12",
+   "slot": "noon",
+   "selected_at": "2026-10-12T04:39:20+00:00",
+   "mirror_pdf": "pdf/web-d64099a3dfb2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/011/765.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-015cdf3f396e",
+   "kind": "article",
+   "title": "ARahim3/DigUp",
+   "url": "https://github.com/ARahim3/DigUp",
+   "pdf_url": "",
+   "abstract": "Search your Mac by what's in your files: photos, PDFs, recordings, videos and code. On-device, built on Google DeepMind's EmbeddingGemma 2.",
+   "authors": [],
+   "orgs": [
+    "ARahim3"
+   ],
+   "published": "2026-10-12T04:39:20+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/ARahim3/DigUp",
+     "signal": "★ 1,228（新项目） · Swift",
+     "metric": 1228
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "DigUp：用内容搜索你的 Mac 文件",
+   "summary_zh": "一款 Swift 编写的 Mac 本地搜索工具，基于 Google DeepMind 的 EmbeddingGemma 2，可按照片、PDF、录音、视频和代码的内容进行检索。",
+   "highlights_zh": [
+    "完全本地运行，基于 EmbeddingGemma 2 嵌入模型",
+    "支持照片、PDF、录音、视频、代码多模态内容",
+    "Swift 原生 Mac 应用"
+   ],
+   "why_zh": "如果你在 Mac 上管理大量文件，可用它按内容而非文件名搜索。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5906,
+   "score_llm": 6.0,
+   "score": 0.5962,
+   "date": "2026-10-12",
+   "slot": "noon",
+   "selected_at": "2026-10-12T04:39:20+00:00",
+   "mirror_pdf": "pdf/web-015cdf3f396e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/ARahim3/DigUp"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1598fb010ee1",
+   "kind": "article",
+   "title": "阶跃 Step 5 Preview 模型上线腾讯 WorkBuddy，10 月 12 至 25 日独家限免",
+   "url": "https://www.ithome.com/1/011/852.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 12 日消息，阶跃 StepFun 今日宣布，阶跃 Step 5 Preview 模型上线腾讯 WorkBuddy。2026 年 10 月 12 日至 10 月 25 日， 在 WorkBuddy 开启独家限免 。 据IT之家此前报道，9 月 20 日， 阶跃推出旗舰模型 Step 5 Preview ，面向 AI 编程、软件工程、专业知识工作、金融等场景，提升模型执行真实世界 Agentic 任务表现，10 月 15 日开源完整权重。 该模型采用稀疏 MoE 混合专家架构， 总参数量 600B 、激活参数 27B，支持 100 万 Token 上下文窗口，原生支持文本与视觉输入。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-12T04:34:29+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/011/852.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "阶跃 Step 5 Preview 上线腾讯 WorkBuddy 限免",
+   "summary_zh": "阶跃 Step 5 Preview 上线腾讯 WorkBuddy 并限免两周，该 600B 总参、27B 激活的稀疏 MoE 模型支持百万 Token 上下文与视觉输入，主打 Agentic 任务。",
+   "highlights_zh": [
+    "600B 总参 / 27B 激活的稀疏 MoE 架构，支持 100 万 Token 上下文",
+    "原生支持文本与视觉输入，面向编程、金融等 Agentic 场景",
+    "10 月 15 日开源完整权重，10 月 12-25 日在 WorkBuddy 独家限免"
+   ],
+   "why_zh": "关注国产开源大模型在 Agent 场景的落地与生态合作动向。",
+   "tags": [
+    "大模型",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-12",
+   "slot": "noon",
+   "selected_at": "2026-10-12T04:39:20+00:00",
+   "mirror_pdf": "pdf/web-1598fb010ee1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/011/852.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3086c8bfa541",
+   "kind": "article",
+   "title": "宇树科技王兴兴：过去十几年我犯的最大错误就是对 AI 还不够相信",
+   "url": "https://www.ithome.com/1/011/850.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 12 日消息，第二十六届中国国际工业博览会于 2026 年 10 月 12 日至 16 日在国家会展中心（上海）举办。 据第一财经报道，在开幕式上的深度对话环节中，宇树科技创始人王兴兴分享称，前段时间 GPT-6 的发布对具身智能行业的认知影响很大，公司团队也将其部署至机器人做任务进行测试，效果表现还不错。在他看来， 具身智能行业临界点的到来还是会比较快的，相对快的话甚至可能是一两年 。 王兴兴表示，要让机器人实现大规模应用，还要解决泛化性和效率的问题，但未来几年这些问题将得以解决。 王兴兴还提到，“现在我个人对 AI 的信仰反而与日俱增， 过去十几年我犯的最大错误就是对 AI 还不够相信 。到现在可能很多人还没有充分使用或者拥抱 AI。” IT之家注意到， 王兴兴今年 9 月曾表示 ，当机器人可在 80% 的陌生场景中，通过语音具身能力完成 80% 的任务时，就意味着行业抵达爆发临界点。届时全球企业与各国资源将集中涌入赛道，这一产业拐点有望在未来几年落地。 相关阅读： 《 宇树王兴兴：谁能把机器人用的大模型做出来，谁就是全世界最厉害的 AI 和机器人公司，足够拿诺贝尔奖 》 《 宇树科技王兴兴：未来十年 AI 将赋予机器人真正理解世界的能力，场景将推动机器人真正“融入生活” 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-12T04:15:58+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/011/850.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "王兴兴：我最大的错误是对 AI 还不够相信",
+   "summary_zh": "宇树王兴兴认为 GPT-6 发布对具身智能认知冲击很大，团队已将其部署到机器人测试且效果不错，判断行业临界点可能一两年内到来，并称过去十几年最大错误是对 AI 不够相信。",
+   "highlights_zh": [
+    "GPT-6 发布显著改变具身智能行业认知，宇树已部署测试",
+    "判断具身智能临界点可能一两年内到来",
+    "大规模应用仍需解决泛化性与效率问题"
+   ],
+   "why_zh": "头部机器人公司创始人对具身智能时间表与 AI 信仰的明确表态。",
+   "tags": [
+    "机器人",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-12",
+   "slot": "noon",
+   "selected_at": "2026-10-12T04:39:20+00:00",
+   "mirror_pdf": "pdf/web-3086c8bfa541.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/011/850.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d1aa340a6435",
+   "kind": "article",
+   "title": "Alishahryar1/free-claude-code",
+   "url": "https://github.com/Alishahryar1/free-claude-code",
+   "pdf_url": "",
+   "abstract": "Star Alishahryar1 / free-claude-code Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)\nREADME: [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-2e7d32.svg?style=for-the-badge)](https://github.com/Alishahryar1/free-claude-code/blob/main/LICENSE) [![Python 3.14](https://img.shields.io/badge/python-3.14-3776ab.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/) [![Package Manager: uv](assets/package-manager-uv.svg)](https://github.com/astral-sh/uv) [![Testing: Pytest](https://img.shields.io/badge/Testing-Pytest-ad1457.svg?style=for-the-badge)](https://github.com/Alishahryar1/free-claude-code/actions/workflows/tests.yml) [![Type Checker: Ty](https://img.shields.io/badge/Type%20Checker-ty-fdd835.svg?style=for-the-badge)](https://pypi.org/project/ty/) [![Formatter: Ruff](https://img.shields.io/badge/Formatter-ruff-bf4b00.svg?style=for-the-badge)](https://github.com/astral-sh/ruff) [![Logging: Loguru](https://img.shields.io/badge/logging-loguru-00695c.svg?style=for-the-badge)](https://github.com/Delgan/loguru) [Quick Start](#quick-start) · [Providers](#choose-a-provider) · [Clients](#connect-your-client) · [Integrations](#optional-integrations) · [Manage](#manage-your-installation) Independent open-source project. Not affiliated with or endorsed by Anthropic. Claude and Claude Code are trademarks of Anthropic. ## What You Get - **61 ToS-friendly providers. 1.3B+ free tokens every month.** Use free, paid, subscription, and local models from one searchable UI without putting your account at risk. FCC follows provider terms a",
+   "authors": [],
+   "orgs": [
+    "Alishahryar1"
+   ],
+   "published": "2026-10-12T04:39:20+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/Alishahryar1/free-claude-code",
+     "signal": "★ 今日 +506 · Python",
+     "metric": 506
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "free-claude-code：多harness免费接入Claude Code",
+   "summary_zh": "一个开源项目，让你在终端、IDE、浏览器或手机上免费使用 Claude Code、Codex 等十余种编码 harness，号称提供 13 亿+免费 token。",
+   "highlights_zh": [
+    "支持 Claude Code、Codex、VSCode、OpenCode 等 10+ harness 与多模型",
+    "覆盖终端、App、IDE、手机及浏览器原生会话",
+    "基于 Python 3.14，用 uv 管理依赖，AGPL v3 协议"
+   ],
+   "why_zh": "如果你想零成本体验多种编码 harness，可用它快速接入并对比效果。",
+   "tags": [
+    "代码",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5955,
+   "score_llm": 5.0,
+   "score": 0.5382,
+   "date": "2026-10-12",
+   "slot": "noon",
+   "selected_at": "2026-10-12T04:39:20+00:00",
+   "mirror_pdf": "pdf/web-d1aa340a6435.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/Alishahryar1/free-claude-code"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9c629fb90401",
+   "kind": "article",
+   "title": "王的猜想，刚刚扩展到四维",
+   "url": "https://www.qbitai.com/2026/10/502584.html",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [
+    "听雨"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-11T05:23:47+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/502584.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "王的猜想被扩展到四维",
+   "summary_zh": "量子位报道，数学领域「王的猜想」被研究者扩展到四维空间，属于数学进展报道。",
+   "highlights_zh": [
+    "数学猜想向四维扩展",
+    "量子位媒体报道",
+    "与 AI 关联较弱"
+   ],
+   "why_zh": "纯数学进展，与 AI 行业趋势关系不大。",
+   "tags": [
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-10-12",
+   "slot": "noon",
+   "selected_at": "2026-10-12T04:39:20+00:00",
+   "mirror_pdf": "pdf/web-9c629fb90401.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/502584.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5ae611567420",
+   "kind": "article",
+   "title": "Fei2411/DeepSeek-Bot",
+   "url": "https://github.com/Fei2411/DeepSeek-Bot",
+   "pdf_url": "",
+   "abstract": "A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.",
+   "authors": [],
+   "orgs": [
+    "Fei2411"
+   ],
+   "published": "2026-10-12T04:39:20+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/Fei2411/DeepSeek-Bot",
+     "signal": "★ 995（新项目） · JavaScript",
+     "metric": 995
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "DeepSeek-Bot：DeepSeek Harness 的多智能体机器人",
+   "summary_zh": "一个 JavaScript 项目，为 DeepSeek Harness 构建长期存活的机器人团队，支持主机器人、机器人间消息与群聊。",
+   "highlights_zh": [
+    "支持多机器人协作与机器人间通信",
+    "包含群聊机制",
+    "基于 DeepSeek Harness"
+   ],
+   "why_zh": "如果你在搭 DeepSeek 多智能体实验，可参考它的机器人协作设计。",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5832,
+   "score_llm": 5.0,
+   "score": 0.5333,
+   "date": "2026-10-12",
+   "slot": "noon",
+   "selected_at": "2026-10-12T04:39:20+00:00",
+   "mirror_pdf": "pdf/web-5ae611567420.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/Fei2411/DeepSeek-Bot"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a876ffe84ca5",
+   "kind": "article",
+   "title": "尊界：11 月起陆续升级踏板；iPhone 折叠屏国内预约超 200 万；6 个月，超千万 Claude 账户被封杀｜极客早知道",
+   "url": "http://www.geekpark.net/news/372218",
+   "pdf_url": "",
+   "abstract": "陶哲轩提出「数学 2.0」：AI 解题之外，还要帮助人理解证明 10 月 11 日，数学家陶哲轩公开了在加州理工学院的演讲《数学 2.0》。他认为，AI 正在降低部分数学问题的求解成本，使数学研究逐渐从「证明稀缺」走向「证明富足」。但目前多数前沿问题仍未解决，不能只凭公开传播的成功案例判断 AI 的整体能力。 陶哲轩指出，得到正确证明，并不意味着研究者理解了证明为何成立，或掌握了可用于其他问题的新方法。他主张用 AI 寻找更易理解的证明、整理分散的研究成果，并对大量数学问题开展系统分析。例如，等式理论项目通过人类与自动化工具协作，对超过 2200 万个命题作出了判定。 对于 AI 解题能力的评估，他还呼吁公开计算资源消耗、失败尝试等信息。在陶哲轩看来，未来数学研究既要利用 AI 扩展探索范围，也要保留人类对证明及其现实应用的理解和判断。（来源：机器之心） Claude 爆发大规模封号潮：半年封杀 1140 万个账号申诉后仅 4.2 万翻案 10 月 11 日，据媒体报道，近期 Claude 账号封禁问题引发开发者讨论。受到关注的一项数据来自 Anthropic 今年 7 月发布的报告：2026 年上半年，平台累计封禁约 1140 万个账号；收到约 39.8 万次申诉，其中约 4.2 万次申诉成功。报告未披露完整的封禁原因分布，仅凭这些数字也无法判断近期封号是否增加，但申诉结果使平台的封禁标准和复核机制受到关注。 Anthropic 列出的违规情形包括利用服务从事违法活动、侵犯隐私，以及违反地区使用限制等。今年上半年，Anthropic 还向相关儿童安全组织提交了超过 1.5 万起报告。 此外，Anthropic 近期修订了 Claude 使用政策，计划自 11 月 12 日起禁止用户在没有明显目的的情况下，反复对模型实施极端残忍行为。公司称，新规针对的是极端情形；用户表达不满、反驳模型、创作黑暗题材内容，以及开展模型测试与研究，不属于该项禁令的范围。（来源：快科技） 英伟达洽谈收购 Reflection AI，已投资 8 亿美元，后者估值达 250 亿美元 10 月 11 日，据媒体报道，英伟达正与美国人工智能初创企业 Reflection AI 就潜在收购或进一步扩大投资展开初步谈判，交易可能采取全面收购、追加股权投资、提供更多芯片及算力支持，或通过聘用员工并获得技术授权等多种形式。英伟达此前已向 Reflection AI 投资 8 亿美元，是其最大股东之一。 知情人士透露，双方可能在未来数周内达成协议。Reflection AI 今年 3 月融资时的估值达到 250 亿美元，其开发的开放权重 AI 模型被美国政府视为抗衡 DeepSeek 等低成本竞争对手的重要技术资源。（来源：新浪科技） 消息称 OLED 屏新款 iPad mini 售价将大幅上涨，或接近 799 美元 10 月 11 日，彭博社记者马克 · 古尔曼表示，苹果计划本月晚些时候推出新款 iPad mini。新机的起步存储空间可能会有所提升，但有意换机的用户得提前做好涨价的准备。 古尔曼透露，新款 iPad mini 售价相比现款机型将大幅上涨，预计将接近 799 美元（IT 之家注：现汇率约合 5,359 元人民币）。作为对比，现款 iPad mini 7 价格为 599 美元（现汇率约合 4,017 元人民币）/4,799 元人民币。 据悉，新款 iPad mini 将首次采用 OLED 屏幕，配备重新设计的机身。预计将拥有全新扬声器系统，搭载性能更强的芯片。（来源：IT",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-12T00:02:38+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372218",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "极客早知道：陶哲轩提数学2.0、Claude封号潮、英伟达洽谈收购Reflection AI",
+   "summary_zh": "极客公园早报汇总：陶哲轩提出「数学 2.0」主张用 AI 辅助理解证明；Anthropic 半年封禁约 1140 万账号；英伟达洽谈收购 Reflection AI，后者估值 250 亿美元。",
+   "highlights_zh": [
+    "陶哲轩呼吁公开 AI 解题的算力消耗与失败信息",
+    "Anthropic 半年封号 1140 万，申诉成功率约 10%",
+    "英伟达已投 8 亿美元，或进一步收购 Reflection AI"
+   ],
+   "why_zh": "一篇文章覆盖数学 AI、平台治理与算力巨头并购三条行业线索。",
+   "tags": [
+    "产品与行业",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.528,
+   "date": "2026-10-12",
+   "slot": "noon",
+   "selected_at": "2026-10-12T04:39:20+00:00",
+   "mirror_pdf": "pdf/web-a876ffe84ca5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372218"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e3274a164282",
+   "kind": "article",
+   "title": "Edge AI Daily 早报（10月12日）",
+   "url": "https://www.tmtpost.com/8164715.html",
+   "pdf_url": "",
+   "abstract": "亚马逊与微软相继放弃数据中心谈判NDA，回应逾300个市镇限制令与1300亿美元项目搁置，社区信任成为AI扩张的新约束。微软在10亿用户规模的Windows维持开始菜单与AI搜索双轨并行。Meta为2027年1299美元VR眼镜铺设虚拟影院内容入口。英伟达就开放权重模型商Reflection AI展开收购或增资谈判，于Beam发布6天后锁定250亿美元估值标的，意在构筑西方开放权重堡垒。Grok信用卡拍照购物功能因隐私条款与AI伪造卡图遭质疑，亚马逊屏蔽其访问，暴露AI智能体支付监管空白。Google Labs发布自然语言生成游戏平台Playground，实测显现可玩与好玩的落差。尼古拉斯·凯奇拒签亚马逊AI豁免协议，或终止《暗影蜘蛛侠》合作。亚马逊云科技联合姚基金投入100万美元启动云上篮图，以体育×AI切入中国基层教育布局。",
+   "authors": [
+    "Edge AI Daily"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-12T00:42:38+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8164715.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Edge AI Daily 早报：英伟达洽谈收购 Reflection AI",
+   "summary_zh": "英伟达就开放权重模型商 Reflection AI 展开收购或增资谈判，估值 250 亿美元；同时亚马逊微软因社区反对放弃数据中心 NDA，Grok 拍照购物引发隐私与支付监管争议。",
+   "highlights_zh": [
+    "英伟达洽谈收购或增资 Reflection AI，估值达 250 亿美元",
+    "数据中心扩张遭遇社区信任约束，逾 300 市镇限制令",
+    "Grok 信用卡拍照购物暴露 AI 智能体支付监管空白"
+   ],
+   "why_zh": "一揽 AI 基础设施、开放权重与智能体支付的多条行业动向。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-12",
+   "slot": "noon",
+   "selected_at": "2026-10-12T04:39:20+00:00",
+   "mirror_pdf": "pdf/web-e3274a164282.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8164715.html"
+    }
+   ],
    "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "模型退役正成为用户留存的新战场，厂商需为旧模型设计过渡方案",
-   "why": "GPT-4o 下架八个月后用户仍在发起拯救行动，说明模型依赖已形成迁移成本",
+   "trend": "模型退役正成为用户资产风险，API快照生命周期管理将成企业刚需",
+   "why": "GPT-4o初代快照停用引发用户自发拯救行动，暴露模型依赖与退役节奏的深层矛盾。",
    "refs": [
     "web-f1438fb9ae7b"
    ]
   },
   {
-   "trend": "生成式 UI 从概念走向开源框架，界面动态化成为应用层新竞争点",
-   "why": "CopilotKit 开源 OpenIntelligentUI，让界面由模型动态生成，降低接入门槛",
+   "trend": "具身智能商业化远未兑现，行业临界点判断与营收现实严重脱节",
+   "why": "本末科技具身智能营收仅占5%，而王兴兴却称临界点一两年内到来，预期与落地错位明显。",
+   "refs": [
+    "web-5c9a629921f1",
+    "web-3086c8bfa541"
+   ]
+  },
+  {
+   "trend": "AI编码工具进入多harness混战，免费token补贴成获客主武器",
+   "why": "free-claude-code等项目以13亿免费token聚合十余种编码harness，降低开发者切换成本。",
+   "refs": [
+    "web-d1aa340a6435",
+    "web-750596818255"
+   ]
+  },
+  {
+   "trend": "生成式UI框架开源，界面从静态开发转向模型动态生成的新范式",
+   "why": "CopilotKit推出OpenIntelligentUI，让应用界面可由模型实时生成，交互层架构面临重构。",
    "refs": [
     "web-dde33426df93"
    ]
   },
   {
-   "trend": "具身智能商业化仍处早期，营收占比暴露落地与叙事之间的落差",
-   "why": "本末科技具身智能营收仅占5%，说明多数企业尚未真正吃到这波红利",
+   "trend": "数学与AI深度融合加速，专用大模型和形式化证明成新攻关方向",
+   "why": "丘成桐在清华成立数学与AI实验室联盟，集结超千名学者攻关数学专用大模型。",
    "refs": [
-    "web-5c9a629921f1"
-   ]
-  },
-  {
-   "trend": "AI 交互入口向家庭中枢与常驻机器人延伸，平台化竞争加剧",
-   "why": "苹果 HomeView 以 AI Siri 为核心，DeepSeek Bot 在 DSH 上装插件即用",
-   "refs": [
-    "web-24189d03a1d4",
-    "web-750596818255",
-    "web-e3794bc9322c"
-   ]
-  },
-  {
-   "trend": "AI 生成内容治理从平台规则切入，标签制度仍悬而未决",
-   "why": "VRChat 禁止 AI 生成误导性缩略图，但对是否上线 AI 标签持开放态度",
-   "refs": [
-    "web-6466ce7ebb85"
+    "web-c204ab3254d8",
+    "web-a876ffe84ca5"
    ]
   }
  ]
