@@ -1,12 +1,12 @@
-2026-10-12 04:39:21,192 INFO source hf_daily           -> 3 items
-2026-10-12 04:39:21,437 INFO source hackernews         -> 2 items
-2026-10-12 04:39:46,008 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-12 04:39:51,833 INFO source rss                -> 52 items
-2026-10-12 04:39:53,103 INFO source html_lists         -> 0 items
-2026-10-12 04:39:53,103 INFO source x                  -> 0 items
-2026-10-12 04:39:53,544 INFO source arxiv_search       -> 0 items
-2026-10-12 04:40:01,980 INFO source github             -> 20 items
-2026-10-12 04:40:01,980 INFO candidates: 77 (stale dropped 26, new 24)
-2026-10-12 04:40:24,735 INFO llm judged 24/24 (calls=3)
-2026-10-12 04:40:28,008 WARNING snapshot https://twitter.com/karpathy/status/2109361546505966046: blocked or empty page
-2026-10-12 04:42:06,704 INFO run done: {"at": "2026-10-12T04:39:20+00:00", "slot": "noon", "candidates": 77, "new": 24, "stale": 26, "judged": 24, "selected": 12, "mirrored": 11, "by_category": {"资讯": 9, "项目": 3}, "by_source": {"HF Daily Papers": 3, "Hacker News": 2, "量子位": 9, "极客公园": 4, "IT之家": 11, "爱范儿": 4, "少数派": 1, "雷峰网": 3, "钛媒体": 3, "InfoQ 中文": 12, "Latent Space": 3, "Azeem Azhar": 2, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
+2026-10-12 12:58:38,666 INFO source hf_daily           -> 21 items
+2026-10-12 12:58:39,105 INFO source hackernews         -> 2 items
+2026-10-12 12:58:54,823 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-12 12:59:05,965 INFO source rss                -> 52 items
+2026-10-12 12:59:07,691 INFO source html_lists         -> 0 items
+2026-10-12 12:59:07,691 INFO source x                  -> 0 items
+2026-10-12 12:59:08,105 INFO source arxiv_search       -> 0 items
+2026-10-12 12:59:17,911 INFO source github             -> 20 items
+2026-10-12 12:59:17,912 INFO candidates: 95 (stale dropped 26, new 35)
+2026-10-12 12:59:53,919 INFO llm judged 35/35 (calls=5)
+2026-10-12 12:59:56,723 WARNING snapshot https://jack-clark.net/2026/10/12/import-ai-476-creativity-and-rsi-worse-than-china-open-weight-models-ai-goes-to-space/: blocked or empty page
+2026-10-12 13:03:53,111 INFO run done: {"at": "2026-10-12T12:58:38+00:00", "slot": "evening", "candidates": 95, "new": 35, "stale": 26, "judged": 35, "selected": 18, "mirrored": 17, "by_category": {"观点": 1, "资讯": 13, "技术": 3, "项目": 1}, "by_source": {"HF Daily Papers": 21, "Hacker News": 2, "量子位": 9, "极客公园": 3, "IT之家": 8, "爱范儿": 2, "少数派": 1, "雷峰网": 7, "钛媒体": 7, "InfoQ 中文": 10, "Latent Space": 2, "Jack Clark": 1, "Azeem Azhar": 2, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
