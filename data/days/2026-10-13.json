@@ -1,0 +1,853 @@
+{
+ "date": "2026-10-13",
+ "items": [
+  {
+   "id": "web-13b0230e9df6",
+   "kind": "article",
+   "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
+   "url": "https://www.latent.space/p/claude-dynamic-workflows",
+   "pdf_url": "",
+   "abstract": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers.",
+   "authors": [
+    "Richard MacManus"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-12T18:18:17+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/claude-dynamic-workflows",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Anthropic 借鉴 Unix 设计多智能体动态工作流",
+   "summary_zh": "Anthropic 在 AI Engineer New York 分享如何借鉴 Unix/Linux 经验设计动态工作流，让多个 Claude 智能体协作完成更大项目而不压垮开发者。",
+   "highlights_zh": [
+    "借鉴 Unix 模块化与管道思想协调多智能体",
+    "目标是让智能体承接更大规模项目",
+    "强调避免开发者被复杂度淹没"
+   ],
+   "why_zh": "理解头部公司如何设计多智能体协作架构，把握智能体工程化方向。",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-10-13",
+   "slot": "morning",
+   "selected_at": "2026-10-12T20:12:50+00:00",
+   "mirror_pdf": "pdf/web-13b0230e9df6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/claude-dynamic-workflows"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0d88eaa1830b",
+   "kind": "article",
+   "title": "OpenBMB/VoxCPM",
+   "url": "https://github.com/OpenBMB/VoxCPM",
+   "pdf_url": "",
+   "abstract": "Star OpenBMB / VoxCPM VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+   "authors": [],
+   "orgs": [
+    "OpenBMB"
+   ],
+   "published": "2026-10-12T20:12:50+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/OpenBMB/VoxCPM",
+     "signal": "★ 今日 +370 · Python",
+     "metric": 370
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenBMB 发布 VoxCPM2：无分词器多语言 TTS",
+   "summary_zh": "OpenBMB 开源 VoxCPM2，采用无分词器架构实现多语言语音生成、创意音色设计与高保真声音克隆，登上 GitHub Trending。",
+   "highlights_zh": [
+    "无 tokenizer 的 TTS 架构，简化语音生成流程",
+    "支持多语言、创意音色设计与逼真克隆",
+    "OpenBMB 出品，GitHub 今日新增 370 星"
+   ],
+   "why_zh": "语音合成方向的新开源方案，适合关注 TTS 与多模态的开发者评估试用。",
+   "tags": [
+    "语音",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.5827,
+   "score_llm": 7.0,
+   "score": 0.6531,
+   "date": "2026-10-13",
+   "slot": "morning",
+   "selected_at": "2026-10-12T20:12:50+00:00",
+   "mirror_pdf": "pdf/web-0d88eaa1830b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/OpenBMB/VoxCPM"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-048fcb30e5f3",
+   "kind": "article",
+   "title": "AI coding agents generate more code, but not more software",
+   "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-12T17:14:01Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50059523",
+     "signal": "181 pts",
+     "metric": 181
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AI 编程智能体产出更多代码，却未产出更多软件",
+   "summary_zh": "文章指出 AI 编程智能体虽大幅提升代码生成量，但并未带来等量的可用软件产出，揭示生成量与工程价值之间的落差。",
+   "highlights_zh": [
+    "AI 编程智能体让代码产出量激增",
+    "但软件交付与工程质量并未同步提升",
+    "引发对 AI 编程实际生产力的反思"
+   ],
+   "why_zh": "帮助从业者理性评估 AI 编程工具的真实 ROI，避免被代码量指标误导。",
+   "tags": [
+    "智能体",
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.564,
+   "score_llm": 7.0,
+   "score": 0.6456,
+   "date": "2026-10-13",
+   "slot": "morning",
+   "selected_at": "2026-10-12T20:12:50+00:00",
+   "mirror_pdf": "pdf/web-048fcb30e5f3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50059523"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-68185f838dbf",
+   "kind": "article",
+   "title": "bherbruck/solidcraft",
+   "url": "https://github.com/bherbruck/solidcraft",
+   "pdf_url": "",
+   "abstract": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+   "authors": [],
+   "orgs": [
+    "bherbruck"
+   ],
+   "published": "2026-10-12T20:12:50+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/bherbruck/solidcraft",
+     "signal": "★ 1,007（新项目） · Rust",
+     "metric": 1007
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "SolidCraft：纯 Rust 开源参数化 3D CAD",
+   "summary_zh": "SolidCraft 是用纯 Rust 编写的开源参数化 3D CAD 应用，支持桌面、Web 端，并通过 MCP 提供自动化能力。",
+   "highlights_zh": [
+    "纯 Rust 实现，跨桌面与 Web",
+    "参数化 3D CAD，面向工程建模",
+    "通过 MCP 暴露自动化接口，可被 AI 智能体调用"
+   ],
+   "why_zh": "如果你在做 CAD 或 MCP 工具链集成，可用它把建模能力接入 AI 智能体。",
+   "tags": [
+    "产品与行业",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5836,
+   "score_llm": 6.0,
+   "score": 0.5934,
+   "date": "2026-10-13",
+   "slot": "morning",
+   "selected_at": "2026-10-12T20:12:50+00:00",
+   "mirror_pdf": "pdf/web-68185f838dbf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/bherbruck/solidcraft"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a5e2a22d4d42",
+   "kind": "article",
+   "title": "阶跃 Step 5 Preview 接入腾讯 WorkBuddy，独家限免 2 周！",
+   "url": "https://www.leiphone.com/category/industrynews/J5Gvtdeng3EAvjmF.html",
+   "pdf_url": "",
+   "abstract": "10 月 12 日消息，腾讯旗下全场景 AI 办公工作台 WorkBuddy 已接入阶跃最新旗舰模型 Step 5 Preview。即日起，该模型在 WorkBuddy 独家限时免费开放两周。凭借推理与 Agent 能力，Step 5 Preview 将助力 WorkBuddy 用户处理深度研究、信息检索、数据分析、文档与 PPT 生成等办公任务，并支持多步骤复杂任务的持续执行。 Step 5 Preview 是阶跃发布的新一代旗舰基座模型，面向 AI 编程、软件工程、专业知识工作及金融等场景进行了优化，并在旗舰级综合智能、效率与成本间实现了最佳平衡。模型采用稀疏 MoE 架构，总参数量达 6000 亿，每个 Token 激活约 270 亿参数。 第三方评测与平台使用数据进一步展现了其竞争力。全球权威大模型评测榜单 Artificial Analysis 显示，其综合智能指数为 44 分，位居全球开源前三。此外，上周 Step 5 Preview 登顶 OpenRouter Trending 榜首，并在按 Token 使用量统计的日榜中排名全球第二，体现出强大的模型性能和快速攀升的开发者使用热度。 复杂办公任务需要模型贯通检索、分析到交付的完整流程。此次合作将阶跃旗舰模型 Step 5 Preview 与腾讯 WorkBuddy 的 Agent 产品相结合，既有助于提升任务执行效率与交付质量，也为阶跃拓展真实办公场景应用提供了新的入口。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-12T06:16:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/J5Gvtdeng3EAvjmF.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "阶跃 Step 5 Preview 接入腾讯 WorkBuddy 限免两周",
+   "summary_zh": "阶跃旗舰模型 Step 5 Preview 接入腾讯 AI 办公工作台 WorkBuddy，独家限免两周，主打推理与 Agent 能力处理深度研究与文档生成等办公任务。",
+   "highlights_zh": [
+    "6000 亿参数稀疏 MoE，每 Token 激活约 270 亿",
+    "Artificial Analysis 综合智能指数 44 分，居全球开源前三",
+    "登顶 OpenRouter Trending，Token 用量日榜全球第二"
+   ],
+   "why_zh": "国产旗舰模型与办公 Agent 产品结合，观察大模型落地办公场景的进展。",
+   "tags": [
+    "大模型",
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-13",
+   "slot": "morning",
+   "selected_at": "2026-10-12T20:12:50+00:00",
+   "mirror_pdf": "pdf/web-a5e2a22d4d42.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/J5Gvtdeng3EAvjmF.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-91964fd9205c",
+   "kind": "article",
+   "title": "华人“接管”全球AI核心圈，已到了什么程度？",
+   "url": "https://www.tmtpost.com/8164740.html",
+   "pdf_url": "",
+   "abstract": "黄仁勋讲\"五层蛋糕\"，本意是讲英伟达的全栈布局。但它同时提供了一把意外的尺子。沿这五层逐层看下去，会发现华人掌控了四层的半壁江山。只是每一层\"掌控\"的含义不同，五层之间还隔着一道看不见的墙。",
+   "authors": [
+    "高见pro"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-12T07:35:40+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8164740.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "华人“接管”全球 AI 核心圈，已到什么程度？",
+   "summary_zh": "钛媒体借黄仁勋“五层蛋糕”框架逐层分析，指出华人在 AI 产业链四层占据半壁江山，但各层掌控含义不同且存在隐形壁垒。",
+   "highlights_zh": [
+    "以英伟达五层蛋糕为分析框架",
+    "华人掌控四层半壁江山",
+    "各层掌控含义不同且存在隐形墙"
+   ],
+   "why_zh": "提供观察全球 AI 人才与产业链格局的独特视角。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-13",
+   "slot": "morning",
+   "selected_at": "2026-10-12T20:12:50+00:00",
+   "mirror_pdf": "pdf/web-91964fd9205c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8164740.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-000564da0966",
+   "kind": "article",
+   "title": "微软 Maia 300 AI 芯片发布：台积电 N2P 工艺，288GB HBM4 内存、带宽 18TB/s",
+   "url": "https://www.ithome.com/1/012/115.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 12 日消息，微软今天正式发布 Maia 300 人工智能芯片。这款产品配备 288GB HBM4 内存，带宽达到 18TB/s，FP4 算力可达 13.8 PFLOPS，基于台积电 N2P 制程工艺打造，计划 2027 年部署。 IT之家注意到，Maia 300 采用多芯粒设计， 主要计算部分采用台积电 N2P 2 纳米制程 ，集成独立内存芯粒和 I/O 芯粒。 FP4 算力最高可达 13.8 PFLOPS ，FP8 算力为 6.9 PFLOPS。其 SoC 功耗额定值为 950W，明显高于 Maia 200 的 750W。 同时，该产品配备 8 组 HBM4 内存， 总容量可达 288GB ，带宽为 18TB/s，更适合对内存要求较高的 AI 推理任务。双向扩展互连带宽达到 3.2TB/s，采用基于以太网的双层网络架构。单个机架可容纳 96 颗 Maia 300，最多可组建包含 12000 颗加速器的集群。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-12T14:45:30+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/012/115.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "微软 Maia 300 发布：台积电 N2P、288GB HBM4",
+   "summary_zh": "微软发布 Maia 300 AI 芯片，采用台积电 N2P 工艺与 288GB HBM4 内存，带宽 18TB/s，FP4 算力 13.8 PFLOPS，计划 2027 年部署。",
+   "highlights_zh": [
+    "台积电 N2P 2nm 制程，多芯粒设计",
+    "288GB HBM4 内存，带宽 18TB/s",
+    "单机架可容纳 96 颗，集群达 12000 颗"
+   ],
+   "why_zh": "微软自研 AI 芯片迭代，反映云厂商算力自主化趋势。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-13",
+   "slot": "morning",
+   "selected_at": "2026-10-12T20:12:50+00:00",
+   "mirror_pdf": "pdf/web-000564da0966.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/012/115.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3e9fe091879f",
+   "kind": "article",
+   "title": "AMD 发布智能体 AI 计算机架 Helion，纯 CPU 版本可扩展至 32,768 核心",
+   "url": "https://www.ithome.com/1/012/103.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 12 日消息，AMD 当地时间今日宣布推出 面向代理式人工智能计算负载 的 Helion 机架解决方案。 这一机架基于 OCP 设计规范和 AMD Helios 机架式解决方案的开放平台理念， 合作伙伴和客户可根据自身需求灵活组合多样化的 CPU 和 GPU 计算资源 ，其中基于第六代 EPYC（霄龙）处理器的纯 CPU 版本可扩展至 32,768 核心。 AMD 计划将 AMD Helion 规范贡献给 OCP，使其可供社区进一步开发和采用。AMD 正与生态系统合作伙伴共同开发 Helion 机架，计划于 2026 年 11 月正式推出。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-12T14:17:31+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/012/103.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AMD 发布智能体 AI 机架 Helion，纯 CPU 版可扩至 32768 核",
+   "summary_zh": "AMD 推出面向智能体负载的 Helion 机架方案，基于 OCP 开放规范，可灵活组合 CPU/GPU，纯 CPU 版扩展至 32768 核，2026 年 11 月推出。",
+   "highlights_zh": [
+    "面向代理式 AI 计算负载的机架级方案，基于 OCP 设计规范",
+    "纯 CPU 版本可扩展至 32768 核心，支持灵活组合 CPU 与 GPU",
+    "规范将贡献给 OCP 社区，计划 2026 年 11 月正式推出"
+   ],
+   "why_zh": "关注智能体推理基础设施走向与 AMD 在数据中心市场的布局",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-13",
+   "slot": "morning",
+   "selected_at": "2026-10-12T20:12:50+00:00",
+   "mirror_pdf": "pdf/web-3e9fe091879f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/012/103.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-64b8fb1d42bf",
+   "kind": "article",
+   "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+   "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+   "pdf_url": "",
+   "abstract": "As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open Compute Project (OCP) Global Summit, taking place in the San Jose McEnery Convention Center, NVIDIA announced new partnerships and contributions aimed at […]",
+   "authors": [
+    "NVIDIA Writers"
+   ],
+   "orgs": [
+    "NVIDIA"
+   ],
+   "published": "2026-10-12T15:00:25+00:00",
+   "sources": [
+    {
+     "name": "NVIDIA",
+     "authority": 0.75,
+     "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "英伟达开放 Vera Rubin 架构，加速 AI 工厂规模化",
+   "summary_zh": "在 OCP 全球峰会上，英伟达宣布开放 Vera Rubin 架构并公布新合作，旨在通过开放标准帮助行业更快、更高效地扩展 AI 基础设施。",
+   "highlights_zh": [
+    "Vera Rubin 架构向生态开放",
+    "面向从兆瓦到吉瓦级 AI 工厂的扩展需求",
+    "强调开放标准以提升部署效率与可靠性"
+   ],
+   "why_zh": "了解英伟达在 AI 基础设施开放化上的最新战略动向。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 6.0,
+   "score": 0.552,
+   "date": "2026-10-13",
+   "slot": "morning",
+   "selected_at": "2026-10-12T20:12:50+00:00",
+   "mirror_pdf": "pdf/web-64b8fb1d42bf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-824961a5eb7a",
+   "kind": "article",
+   "title": "百度世界2026将于11月12日在北京举办，主题为「下一幕，智能组织」",
+   "url": "https://www.leiphone.com/category/industrynews/ukm5yjK3oT5X29yV.html",
+   "pdf_url": "",
+   "abstract": "10月12日，百度官方宣布，百度世界2026将于11月12日在北京·国家会议中心二期举办。目前，大会官网已开启售票通道（https://baiduworld2026.events.net.cn/tickets）。 本届大会以「下一幕，智能组织」为主题。十年前，百度创始人李彦宏在百度世界2016上提出“互联网的下一幕，是人工智能”。十年后，「下一幕，智能组织」的大会主题与这一判断形成呼应，将关注点进一步引向AI驱动的组织重构。自去年百度世界以来，李彦宏多次谈及AI在组织中的应用，从企业内化AI能力到组织自我进化，持续探讨AI推动组织变革的可能性。今年百度世界再次以“下一幕”为题，李彦宏将如何进一步阐释AI与组织进化的关系，也成为外界关注的看点。 官方信息显示，百度世界2026将设置1场主论坛、12场分论坛、30+AI公开课及6000平展区。大会或将发布百度全栈AI布局下的多项产品进展，探讨AI如何重塑生产关系、推动组织持续进化，为企业和开发者探索智能化转型提供实践参考。 其中，12场分论坛将聚焦AI驱动组织跃迁，涵盖组织进化、AI办公激发组织动能、企业推进智能体规模化落地、数字人跨场景应用等方向，并探讨RSI、具身智能、AI4S等前沿议题；30+AI公开课将邀请行业专家分享AI应用新思路和实战经验；现场6000平AI展区则将集中展示百度“芯-云-模-体”全栈AI能力，并场景化推演展示智能组织进化的实践案例，为参会观众带来兼具技术前瞻性与应用参考价值的观展体验。 近期，百度围绕智能组织持续推进内部实践与对外赋能。今年9月，百度最高奖颁发给dodo团队和昆仑芯天池团队。前者探索将AI能力融入企业内部工作流程，后者为企业提供AI算力基础设施，分别从应用和底层技术层面支撑AI在组织中的落地。在AI办公领域，百度已形成百度搭子、库库AI、秒哒等为代表的产品矩阵。数据显示，百度搭子7月MAU环比增速1063.79%，居增速榜第一，9月用户规模环比增长9倍；库库AI办公MAU已超2500万，位居AI办公赛道行业第一。 百度世界是百度一年一度最重要的技术和产品发布会，自2006年以来已连续举办20届，曾发布过框计算、深度学习平台、无人驾驶、大模型、智能体等对行业产生深远影响的前沿技术成果。伴随着AI应用从个人提效工具延伸至组织级应用，本届大会进一步聚焦“智能组织”，探索以AI提升组织效能、推动企业发展的新路径。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-12T07:42:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/ukm5yjK3oT5X29yV.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "百度世界2026定档11月12日，主题「下一幕，智能组织」",
+   "summary_zh": "百度宣布百度世界2026于11月12日在北京举办，主题聚焦 AI 驱动的组织重构，将设主论坛、12场分论坛及全栈 AI 展区。",
+   "highlights_zh": [
+    "主题呼应李彦宏十年前「互联网下一幕是 AI」判断",
+    "分论坛覆盖智能体规模化落地、具身智能、AI4S 等",
+    "百度搭子、库库 AI 等办公产品数据披露"
+   ],
+   "why_zh": "了解百度全栈 AI 布局与「智能组织」战略方向。",
+   "tags": [
+    "产品与行业",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-13",
+   "slot": "morning",
+   "selected_at": "2026-10-12T20:12:50+00:00",
+   "mirror_pdf": "pdf/web-824961a5eb7a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/ukm5yjK3oT5X29yV.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7f05d79cf56b",
+   "kind": "article",
+   "title": "人形机器人出货暴增4倍，钱被谁赚走了？",
+   "url": "https://www.tmtpost.com/8164863.html",
+   "pdf_url": "",
+   "abstract": "便宜机型贡献7成销量，贵机器撑起8成收入。",
+   "authors": [
+    "白马商评"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-12T08:46:05+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8164863.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "人形机器人出货暴增4倍，钱被谁赚走了？",
+   "summary_zh": "钛媒体分析人形机器人出货量暴增4倍背后的收入结构：便宜机型贡献7成销量，贵机型撑起8成收入，揭示行业盈利分布。",
+   "highlights_zh": [
+    "人形机器人出货量同比增长4倍",
+    "低价机型占销量七成",
+    "高价机型贡献八成收入"
+   ],
+   "why_zh": "从销量与收入结构切入，帮助理解人形机器人商业化现状。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-13",
+   "slot": "morning",
+   "selected_at": "2026-10-12T20:12:50+00:00",
+   "mirror_pdf": "pdf/web-7f05d79cf56b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8164863.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-948701a558f5",
+   "kind": "article",
+   "title": "AMD 发布新一代锐龙 AI Halo 开发者平台，升级 Max+ PRO 495 与至高 192GB 内存",
+   "url": "https://www.ithome.com/1/012/104.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 12 日消息，AMD 当地时间今日正式发布了基于锐龙 AI Max+ PRO 495 处理器的新一代锐龙 AI Halo 开发者平台。 相比初代设备，新产品 CPU、GPU、NPU 性能均有改进。而最为关键的是， 其支持至高 192GB 的 LPDDR5X-8533 内存 ，可将 160GB 分配为共享显存，让本地运行超 300B 大型人工智能模型成为可能。 AMD 新一代锐龙 AI Halo 开发者平台的 Linux 版本定价 7,299.99 美元 （IT之家注：现汇率约合 48,912 元人民币） ，预装微软 Project Zenith 的 Windows 版本将在后续推出。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-12T14:27:12+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/012/104.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AMD 发布锐龙 AI Halo 开发者平台，支持 192GB 内存",
+   "summary_zh": "AMD 发布基于锐龙 AI Max+ PRO 495 的新一代 AI Halo 开发者平台，支持至高 192GB 内存，可分配 160GB 为共享显存，本地运行超 300B 大模型。",
+   "highlights_zh": [
+    "至高 192GB LPDDR5X-8533 内存",
+    "160GB 可分配为共享显存",
+    "本地可运行超 300B 参数模型"
+   ],
+   "why_zh": "本地大模型推理硬件门槛进一步降低，值得开发者关注。",
+   "tags": [
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-13",
+   "slot": "morning",
+   "selected_at": "2026-10-12T20:12:50+00:00",
+   "mirror_pdf": "pdf/web-948701a558f5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/012/104.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1417c85d6a57",
+   "kind": "article",
+   "title": "小鹏今年底实现人形机器人量产，2027 年上半年开启交付",
+   "url": "https://www.ithome.com/1/012/094.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 12 日消息，小鹏汽车今日亮相巴黎车展，除了推出小鹏 G9L 车型，小鹏还公布了自动驾驶、人形机器人等消息。 在人形机器人领域，近期，小鹏机器人生产线正式启用，全球首位高阶通用人形机器人完成自动化总装，自主走下产线亮相，标志着小鹏机器人完成从研发试制到产线制造的关键跨越，向规模量产迈出重要一步。 据介绍，小鹏 IRON 可以说是“社交天花板”，自带多模态交互能力：认得出不同人的脸，记得住对话上下文， 中、英、德三国语言随意切换 。 根据计划，小鹏将在 2026 年底实现人形机器人量产， 2027 年上半年开启交付 ，率先落地门店、商场等商业场景，并逐步拓展至工业及家庭场景。 在自动驾驶领域，小鹏第二代 VLA 实现从 L2 到 L4 的能力贯通，同一模型已部署于 L4 级自动驾驶的小鹏 Robotaxi 上。近期， 小鹏 Robotaxi 正式启用中文名“小鹏悠游” ，英文名为“XPENG YOYO”。打车小程序同步上线，将逐步开放给公众体验，正式迈入用户开放运营和商业化探索新阶段。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-12T13:29:11+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/012/094.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "小鹏人形机器人年底量产，2027 上半年交付",
+   "summary_zh": "小鹏机器人产线启用，首台高阶通用人形机器人完成自动化总装下线，计划 2026 年底量产、2027 上半年交付，率先落地门店商场场景。",
+   "highlights_zh": [
+    "IRON 机器人具备多模态交互，支持中英德三语与对话上下文记忆",
+    "第二代 VLA 实现 L2 到 L4 能力贯通，已部署于 Robotaxi",
+    "Robotaxi 启用中文名“小鹏悠游”，打车小程序上线开放体验"
+   ],
+   "why_zh": "了解人形机器人量产节奏与车企自动驾驶商业化进展",
+   "tags": [
+    "机器人",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-13",
+   "slot": "morning",
+   "selected_at": "2026-10-12T20:12:50+00:00",
+   "mirror_pdf": "pdf/web-1417c85d6a57.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/012/094.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e6033264d491",
+   "kind": "article",
+   "title": "产业出题，科技答题：2026 IEIC国际具身智能技能大赛，用真实岗位任务考核机器人落地能力",
+   "url": "https://www.leiphone.com/category/industrynews/ZFAMCctM7KUw5gr3.html",
+   "pdf_url": "",
+   "abstract": "实景比拼赋能科创，助力人形机器人技术规模化落地！ 编辑丨李希 为深入贯彻落实工业和信息化部、国务院国资委《 2026年度人形机器人与具身智能实景实训专项行动》部署，加快推动我国机器人与具身智能技术创新突破与规模化落地，国际具身智能技能大赛检阅赛将于2026年10月23日至25日在上海举行。大赛以「劳动最光荣，选最能干活的机器劳模」为口号，坚持产业出题、科技答题，着力打造全国具身智能领域实景实战示范平台，形成可复制、可推广的上海实景实训示范样板。 本次 大会 坚持以赛带会、 以会促 研 、 以会促产，突出实景实训、真抓实干定位，构建「训 —赛—产—融」产业闭环。基于工信部面向全国征集的千余条具身智能应用场景数据，大赛设置 生产制造、检测分析、维修维护、仓储物流、餐饮零售、医疗康养、安全生产、应急救援、文旅宣教 9大赛道、23个赛项， 计划 汇聚竞赛队伍 千 余支。 大赛坚持「真实场景为赛场、真实岗位任务为赛题、真实作业数据为成绩依据」，统一采用「任务执行、具身数据采集与回流、自主智能、创新能力」四模块百分制测评框架，按人形、四足、轮式 等 本体形态及自主、遥操两种作业模式设置差异化折算系数，确保不同技术路线队伍横向可比、公平竞技。评审方面，组建具身智能科学家评审团、人工智能技术专家团、技能大师 /实景场景代表 评审团三元交叉评审体系，从严守牢安全底线，确保评审权威公正。 大赛设置一、二、三等奖及单项奖。 23个赛项每项设 一等奖1名（奖金10000元）、二等奖2名（奖金各5000元）、三等奖3名（奖金各3000元） ，另设单项奖若干，重点奖励在技术创新、场景落地等方面表现突出的赛队。大赛同步强化产融联动，重点邀请世界知名学府研究团队及海外具身智能创新创业团队参赛，获奖团队可获千万级意向投资额及全程专业融资辅导，实现「以赛促产、以赛促融、以赛促引」。赛队一次参赛即可贯通10月GDPS秋季大会、12月迪拜中东人工智能展、2027年7月世界人工智能大会（WAIC）三大节点，形成「亮相—出海—落地」完整闭环。 赛事采用分阶段推进机制： ▪ 9月30日 前（ 第一阶段 ）： 完成场景赛题共建，推动企业真实痛点转化为赛题方向； ▪ 10月1 0 日前（第二阶段）： 模拟产线落地搭建，并开展场景测试与训练； ▪ 10月23至10月25日（第三阶段）： 正式比赛期，真实检验机器人泛化能力与场景解决方案落地价值。 赛后，赛事将转入常态化运营，陆续开展实景实训全国仿真赛（2026年11月—2027年2月）、全国实景实训赛（2027年3月—6月），遴选优秀赛队及解决方案推荐至2027年7月WAIC具身展，形成「线上仿真校验、线 下实训 转化、订单落地见效、展览展示推广」的长效机制。 大赛由世界人工智能大会组委会 指导 ，上海市人工智能行业协会、中国电子技术标准化研究院主办，上海张江（集团）有限公司、上海陆家嘴（集团）有限公司联合主办。目前，大赛报名 仍 在 进行中 ， 欢迎 全球 赛队 踊跃 报名 。 官方 报名 网站 ： https://ieic.gdps.org.cn/ 公众号： 全球开发者先锋大会（ GDPS） ▎ 请意向报名赛队的精英们快速浏览详细赛题！ 点击查看 点击查看 点击查看 点击查看 点击查看 点击查看 点击查看 点击查看 点击查看 点击查看 点击查看 点击查看 WAIC“看见未来”，GDPS“做出未来”——征集火热开启，即刻扫码出题！10月，上海，敬请期待！",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-12T14:13:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/ZFAMCctM7KUw5gr3.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "2026 IEIC 国际具身智能技能大赛启动报名",
+   "summary_zh": "2026 IEIC 国际具身智能技能大赛将于10月在上海举行，设9大赛道23个赛项，以真实岗位任务考核机器人落地能力。",
+   "highlights_zh": [
+    "基于工信部千余条具身智能应用场景数据",
+    "四模块百分制测评框架，三元交叉评审",
+    "获奖团队可获千万级意向投资"
+   ],
+   "why_zh": "赛事宣传通稿，信息增量有限。",
+   "tags": [
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 4.0,
+   "score": 0.392,
+   "date": "2026-10-13",
+   "slot": "morning",
+   "selected_at": "2026-10-12T20:12:50+00:00",
+   "mirror_pdf": "pdf/web-e6033264d491.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/ZFAMCctM7KUw5gr3.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d86fce7f2ce1",
+   "kind": "article",
+   "title": "从 Agent 到 Loop：AI 正如何重构软件工程？｜QCon 上海 2026 即将开幕",
+   "url": "https://www.infoq.cn/article/DpieQJ598YdxQC8Ymjso?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "QCon全球软件开发大会"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-12T17:19:27+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/DpieQJ598YdxQC8Ymjso?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "从 Agent 到 Loop：AI 重构软件工程？QCon 上海 2026 预告",
+   "summary_zh": "InfoQ 发布 QCon 上海 2026 大会预告，主题聚焦 AI 如何从 Agent 演进到 Loop 并重构软件工程，属会议宣传性质。",
+   "highlights_zh": [
+    "QCon 上海 2026 即将开幕",
+    "主题为 AI 重构软件工程",
+    "从 Agent 到 Loop 的演进方向"
+   ],
+   "why_zh": "仅为大会预告，无实质技术内容，可关注后续演讲实录。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 4.0,
+   "score": 0.392,
+   "date": "2026-10-13",
+   "slot": "morning",
+   "selected_at": "2026-10-12T20:12:50+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/DpieQJ598YdxQC8Ymjso?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "多智能体从演示走向工程化，Unix 式协作范式成新共识",
+   "why": "Anthropic 借鉴 Unix 设计动态工作流，让多 Claude 智能体协作不压垮开发者。",
+   "refs": [
+    "web-13b0230e9df6"
+   ]
+  },
+  {
+   "trend": "AI 编程进入「量增质不增」瓶颈期，评测重心转向工程价值",
+   "why": "智能体代码产出大增却未带来等量可用软件，生成量与工程价值出现落差。",
+   "refs": [
+    "web-048fcb30e5f3",
+    "web-d86fce7f2ce1"
+   ]
+  },
+  {
+   "trend": "AI 基础设施竞争转向开放架构与机架级系统集成",
+   "why": "英伟达开放 Vera Rubin、AMD 推 Helion 机架、微软发 Maia 300，均押注规模化。",
+   "refs": [
+    "web-64b8fb1d42bf",
+    "web-3e9fe091879f",
+    "web-000564da0966"
+   ]
+  },
+  {
+   "trend": "本地大模型算力门槛下探，端侧与开发者平台成新战场",
+   "why": "AMD AI Halo 支持 192GB 内存、160GB 共享显存，可本地跑超 300B 模型。",
+   "refs": [
+    "web-948701a558f5"
+   ]
+  },
+  {
+   "trend": "具身智能从出货竞赛转向岗位化落地能力验证",
+   "why": "人形机器人出货暴增但收入集中高端，IEIC 大赛以真实岗位任务考核落地。",
+   "refs": [
+    "web-7f05d79cf56b",
+    "web-e6033264d491",
+    "web-1417c85d6a57"
+   ]
+  }
+ ]
+}
