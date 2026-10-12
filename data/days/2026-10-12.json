@@ -1174,45 +1174,1023 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-8635d0995c1d",
+   "kind": "article",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "url": "https://jack-clark.net/2026/10/12/import-ai-476-creativity-and-rsi-worse-than-china-open-weight-models-ai-goes-to-space/",
+   "pdf_url": "",
+   "abstract": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now New benchmark shows how AI models lack intuitive visual reasoning:…Humanity’s Sixth Sense highlights some shortcomings of current AI systems…AI startups Elorian and Scale AI have built […]",
+   "authors": [
+    "Jack Clark"
+   ],
+   "orgs": [
+    "Jack Clark"
+   ],
+   "published": "2026-10-12T12:30:39+00:00",
+   "sources": [
+    {
+     "name": "Jack Clark",
+     "authority": 0.85,
+     "url": "https://jack-clark.net/2026/10/12/import-ai-476-creativity-and-rsi-worse-than-china-open-weight-models-ai-goes-to-space/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Anthropic 联合创始人",
+   "title_zh": "Import AI 476：创造力与 RSI、开源权重模型落后于中国、AI 上太空",
+   "summary_zh": "Jack Clark 认为，新基准显示 AI 缺乏直觉视觉推理能力，同时开源权重模型正被中国拉开差距，AI 开始进入太空场景。",
+   "highlights_zh": [
+    "新基准揭示 AI 视觉推理短板",
+    "开源权重模型落后于中国",
+    "AI 应用拓展至太空领域"
+   ],
+   "why_zh": "Anthropic 联合创始人的周报，对行业趋势有明确判断，信息密度高。",
+   "tags": [
+    "大模型",
+    "数据与评测",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.716,
+   "date": "2026-10-12",
+   "slot": "evening",
+   "selected_at": "2026-10-12T12:58:38+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://jack-clark.net/2026/10/12/import-ai-476-creativity-and-rsi-worse-than-china-open-weight-models-ai-goes-to-space/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a1de09b96425",
+   "kind": "article",
+   "title": "微软用阿里Qwen打造决策模型，或将推广至所有领域",
+   "url": "https://www.leiphone.com/category/industrynews/LApMolUCs9YwwXHn.html",
+   "pdf_url": "",
+   "abstract": "10月12日，微软基于阿里Qwen，推出全新决策模型Microsoft-Decision-1。微软官方透露称，该模型基于Qwen3.5-9B后训练而成，在结构化决策任务中，该模型在时延和准确性等方面均超过了LLM及Jev 1.13.0等热门决策模型。微软Xbox研究团队已用它处理超过1万条玩家反馈，微软CEO纳德拉也在社交媒体上透露称，基于新模型的优异表现，微软正在所有领域测试应用新模型，包括事件响应、质量控制、科学发现等。 据了解，9月Jev模型爆火带起了一股决策模型浪潮。这种模型不生成自然语言，而是输出预测值、概率和置信度，比大语言模型LLM尺寸小得多，响应速度也更快，恰好能满足AI任务中的频繁作判断的大量需求。有数据统计显示，在HuggingFace 129 个开源决策模型项目中，基于阿里Qwen开发的就有84个，占比超65%，包括微软、Perplexity、Cloudflare、H2O.ai等公司推出的知名决策模型均采用阿里Qwen。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-12T05:36:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/LApMolUCs9YwwXHn.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "微软基于阿里Qwen打造决策模型，拟全面推广",
+   "summary_zh": "微软基于阿里Qwen3.5-9B后训练出决策模型Microsoft-Decision-1，在时延和准确性上超越LLM及Jev等热门决策模型，纳德拉称正于全领域测试应用。",
+   "highlights_zh": [
+    "决策模型不生成自然语言，只输出预测值、概率与置信度，尺寸小、响应快",
+    "HuggingFace 129个开源决策模型中84个基于Qwen，占比超65%",
+    "微软Xbox团队已用它处理超1万条玩家反馈，并计划扩展至事件响应、质量控制、科学发现"
+   ],
+   "why_zh": "决策模型成新赛道，Qwen成事实底座，值得关注其生态位与落地路径。",
+   "tags": [
+    "大模型",
+    "推理",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-12",
+   "slot": "evening",
+   "selected_at": "2026-10-12T12:58:38+00:00",
+   "mirror_pdf": "pdf/web-a1de09b96425.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/LApMolUCs9YwwXHn.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d8e686734908",
+   "kind": "article",
+   "title": "反对Agent，反对RSI，杨立昆新模型反对当下一切AI叙事",
+   "url": "https://www.tmtpost.com/8165030.html",
+   "pdf_url": "",
+   "abstract": "Agent和RSI全错了？杨立昆：分层推理才是下一代",
+   "authors": [
+    "字母AI"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-12T08:13:00+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8165030.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "杨立昆开炮：Agent与RSI皆错，分层推理才是下一代",
+   "summary_zh": "杨立昆公开反对当下Agent与RSI叙事，主张以分层推理（世界模型）作为通往下一代AI的路径，引发行业路线之争。",
+   "highlights_zh": [
+    "杨立昆否定当前主流Agent与递归自我改进（RSI）路线",
+    "提出分层推理/世界模型作为替代方向",
+    "代表Meta系与OpenAI式路线的公开分歧"
+   ],
+   "why_zh": "理解顶级学者对主流AI叙事的分歧，把握路线之争。",
+   "tags": [
+    "大模型",
+    "推理",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 8.0,
+   "score": 0.624,
+   "date": "2026-10-12",
+   "slot": "evening",
+   "selected_at": "2026-10-12T12:58:38+00:00",
+   "mirror_pdf": "pdf/web-d8e686734908.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8165030.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0d35cbd6acf2",
+   "kind": "article",
+   "title": "阿里千问发布 QwenGyre，面向超长程智能体任务的在线强化学习框架",
+   "url": "https://www.ithome.com/1/012/066.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 12 日消息，阿里千问今日正式发布 QwenGyre，这是一款面向长程智能体任务的在线强化学习框架。 据官方介绍，当智能体承担复杂工作，一次执行往往持续数小时，模型与环境之间有数百轮相互依赖的交互，累计处理百万级 token。QwenGyre 通过弹性调度与轨迹处理， 让这类超长程任务成为有效的训练来源 ， 同时带来能力与效率提升 。 QwenGyre 能够把 GPU 分成若干计算单元，任务每结束一批，空出的单元就转入训练，就像项目组里谁先交差、谁先加入复盘。还在跑的任务完全不受打扰，进度和状态原地保留，连之前算过的缓存都整体搬走，不必重头再来。新空出的单元直接加入本轮训练，谁算得快谁多干，最后由核心单元汇总结果，完成一次参数更新。 IT之家注意到，QwenGyre 可通过 Token-in Token-out 记录每段输出生成时的真实上下文，按共享前缀组织成轨迹树，只把被选中的路径展开为训练样本。同时，超时但部分完成的任务也能通过 Partial Scoring 提供有用反馈，不浪费任何一步努力。 跑分方面，官方在 NL2RepoBench 在线强化学习实验中，以每次 rollout 约 70 万 token 的任务开展训练，48 步训练后模型通过率从 52.5% 提升至 58.5%。相同 GPU 预算下，QwenGyre 相对 Async 实现 1.78× 的端到端加速，训练分数与 Async、Colocate 接近。在 Qwen3.6-122B 上的跨任务验证中，NL2RepoBench、DeepSWE、TerminalBench 三类任务均获得端到端提速。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-12T11:20:43+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/012/066.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "阿里千问发布QwenGyre：超长程智能体在线强化学习框架",
+   "summary_zh": "阿里千问发布面向长程智能体任务的在线强化学习框架QwenGyre，通过弹性调度与轨迹树处理百万级token任务，NL2RepoBench通过率从52.5%升至58.5%，同预算下较Async提速1.78倍。",
+   "highlights_zh": [
+    "弹性调度：任务结束即释放GPU转入训练，不打断在跑任务",
+    "Token-in Token-out按共享前缀组织轨迹树，仅展开选中路径",
+    "Partial Scoring让超时任务的部分完成也能提供反馈"
+   ],
+   "why_zh": "长程智能体训练的效率与工程方案，值得做Agent训练的团队参考。",
+   "tags": [
+    "智能体",
+    "强化学习",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-12",
+   "slot": "evening",
+   "selected_at": "2026-10-12T12:58:38+00:00",
+   "mirror_pdf": "pdf/web-0d35cbd6acf2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/012/066.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d41c97e4a1cd",
+   "kind": "article",
+   "title": "何恺明团队发布多模态Harness框架",
+   "url": "https://www.qbitai.com/2026/10/502628.html",
+   "pdf_url": "",
+   "abstract": "多模态模型的视觉原生Harness，来了！",
+   "authors": [
+    "henry"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-11T08:59:06+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/502628.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "何恺明团队发布多模态 Harness 框架",
+   "summary_zh": "何恺明团队提出视觉原生 Harness 框架，为多模态模型提供统一的视觉任务编排与评测方式。",
+   "highlights_zh": [
+    "视觉原生 Harness 设计",
+    "面向多模态模型的统一框架",
+    "何恺明团队出品"
+   ],
+   "why_zh": "多模态 harness 是评测与工程化的关键环节，值得关注其设计思路。",
+   "tags": [
+    "多模态",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-12",
+   "slot": "evening",
+   "selected_at": "2026-10-12T12:58:38+00:00",
+   "mirror_pdf": "pdf/web-d41c97e4a1cd.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/502628.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-821e3334b540",
+   "kind": "article",
+   "title": "一周 10 万星，AI「逆向一切」，但大家不要过于兴奋",
+   "url": "http://www.geekpark.net/news/372263",
+   "pdf_url": "",
+   "abstract": "头图图片来源：REA 头图来源：CyberSecurityNews 「在应用里看到一个想加入自己产品的功能？让智能体去帮你调查它。」 这是 REA 项目主页第一屏的话。后半句更直接：即使没有源代码，智能体也可以检查应用、解释功能怎么工作、展示证据，「并为你的项目实现类似功能」。 REA 全名 Reverse Engineer Anything，即「逆向一切」。 上周它在 AI 开发者圈刷了屏：10 月 6 日还不到 1 万星，到 10 月 12 日已经超过 11 万 。 6 天涨了 10 万星，平均每天约 1.7 万｜图片来源：Star History 真正让普通人看到这件事的，是游戏。10 月初，一批老游戏突然能在浏览器里直接玩了：《光环：战斗进化》《半条命》《暗黑破坏神》，还有真正意义上的 3A 大作《GTA5》和《使命召唤：现代战争 2》。 其中最出圈的一份复盘，来自逆向开发者 Maurice Heumann：他让十几个 Claude Code 和 Codex 智能体并行干活，把一款射击游戏 99% 的函数还原成了 C++ 源码，其中 83% 编译出来和原程序逐字节一致。他用的是 Hex-Rays 的官方 MCP，不是 REA。 也就是说，REA 只是这波浪潮里名字最响的那一个。 同一个星期，整个 AI 逆向圈都在加速。 似乎，人人都有免费软件用、免费游戏玩的日子到来了。 旧工具，新用户 逆向工程，就是手里没有源代码，从编译好的程序往回推，搞清楚它是怎么写的。这原本是安全研究员和破解者的手艺：在反编译器、反汇编器、调试器之间来回切，一个功能拆上几天是常事。 REA 干的事，是把这套工具接到 AI 编程智能体上。接口用的是 MCP，一种让 Claude Code、Codex、Cursor 这类智能体调用外部工具的通用协议。 装好之后，你对智能体说一句「弄清这个应用的搜索功能怎么工作」，它会自己去调 Ghidra、IDA 或 Hopper 等对应的工具，帮你翻二进制，调 JADX 拆安卓安装包，或者直接读 Electron 应用里打包的 JavaScript，最后把结论和证据一起交回来。 智能体负责提问，REA 负责取证｜图片来源：REA 听上去像个新物种。但放在专业圈里看，它其实更像一次重新包装：毕竟让 AI 接上逆向工具，GhidraMCP、IDA Pro MCP 这些开源项目去年就在做了。 REA 走红前不久，IDA Pro MCP 的作者、调试器 x64dbg 的开发者 Duncan Ogilvie 在 X 上说，他用 IDA 的 MCP 插件，大约一小时解完了今年 Flare-On 的全部题目。 Flare-On 是谷歌旗下 FLARE 团队每年办的逆向挑战赛，题目大多取材自真实的恶意软件分析。 这并非个例，逆向领域的专家们其实普遍对今天这波新兴起的浪潮不是很看得上眼：Elias Bachaalany 是逆向工程教材《Practical Reverse Engineering》的合著者，早年在 IDA 的开发商 Hex-Rays 工作过。 REA 被各路人马转发刷屏时，他也转了其中一条推介，开头就一个词：炒作。接着他列了几个早就存在的同类工具，意思是这些人只是没见过。 逆向教材合著者的评价，开头就一个词｜图片来源：X AI 能拆程序是真的，只是不从 REA 开始。能拆到什么程度，圈内说法也不一致。 安全领域博主轩辕之风认为，没加壳的程序 AI 轻松拿下，轻度加壳也行，VMP 这类高强度虚拟化保护目前还啃不动；他还批评 REA 连动态调",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-12T12:15:30+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372263",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "一周 10 万星，AI「逆向一切」但别太兴奋",
+   "summary_zh": "REA 项目 6 天涨 10 万星，用 MCP 把逆向工具接给 AI 智能体，但专家指出同类工具早已存在，热度有炒作成分。",
+   "highlights_zh": [
+    "REA 6 天涨 10 万星",
+    "通过 MCP 连接 AI 智能体与逆向工具",
+    "专家认为只是重新包装，非新物种"
+   ],
+   "why_zh": "冷静剖析 AI 逆向工程热潮，帮助读者区分真实进展与炒作。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-10-12",
+   "slot": "evening",
+   "selected_at": "2026-10-12T12:58:38+00:00",
+   "mirror_pdf": "pdf/web-821e3334b540.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372263"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-dd1a0efd8750",
+   "kind": "article",
+   "title": "安踏×火山引擎：下单缩至10分钟、月均建单1000+，Agent跑进全球电商业务",
+   "url": "https://www.leiphone.com/category/industrynews/LYPLgiUOHfVfcFBv.html",
+   "pdf_url": "",
+   "abstract": "Agent，正在成为安踏全球化业务中的“数字同事”。 作为全球前三的体育用品集团，安踏集团多品牌、跨市场经营的背后，是大量商品、内容、订单和售后流程。如今，Agent 正在进入内容生产、海外订货和跨境退货等具体业务环节，并把跑通的能力复制到更多品牌和市场。 这些 Agent 来自一线业务的真实需求。通过火山杯 Agent 创新大赛，业务团队提出问题，FDE 协助拆解流程和开发调试，再借助火山引擎模型和智能体等能力，把 Agent 放回实际工作中验证。 “企业看 Agent 建设进展，真正看三个指标：第一，有多少业务每天离不开 Agent，这是人的维度；第二，有多少业务流程已经默认 Agent 参与，这是流程维度；第三，有多少 Agent 开始跨国家复制，这是区域维度。”安踏全球IT交付与支持部总监吴永良表示。 Agent进入跨境电商业务一线 安踏选择先从一线真实问题出发，把重复、耗时、规则不明的环节做成 Agent。过程中不只看 Agent 能回答什么，还要看它能不能真正接手一段工作。 吴永良表示：“判断一个 Agent 是否真正进入生产，不是看它回答得多聪明，而是看它能否替代完整流程中的某一环节。过去AI回答一个问题，未来AI完成一件事情。Agent 竞争的终点不是聊天，而是工作流。” 带货视频Agent：新人半天上手多站点内容生产 东南亚电商业务商品上新快，带货内容也要及时跟上。过去，短视频运营要找热点、拆视频、生成提示词，再发布到不同站点，多个环节都依赖人工重复操作。 AI带货视频 Agent 把这条链路串了起来：ArkClaw 采集热点和对标视频，完成视频拆解和提示词生成，Seedance 2.0生成商品短片，再衔接多站点发布。 实习新人借助 Agent，半天即可独立产出合格的带货视频。同等 Token 消耗下，每天还能多产出约15条，运营也能把更多时间留给选题和创意。 安踏东南亚电商部短视频运营李晗表示：“东南亚站点每天上新商品特别多，人工剪辑视频完全跟不上备货节奏，靠AI批量做视频是提升店铺销量的关键方向。” 海外订货Agent：下单决策由半天缩短至10分钟 安踏国际事业部每次订货都要处理四套不同模板。底层数据重合度约90%，但货号、品类、翻译、公式和格式仍需人工逐项处理。 商品规划团队利用 ArkClaw 把四套模板封装成 Skill，自动完成货号转换、品类筛选、格式对齐等标准化输出。 目前，海外订单工具自动化 Agent 完整下单决策由过去的半天缩短至10—20分钟，手工录入减少约90%，数据准确率超过99%。这套 Agent 已覆盖鞋、服两条产品线，后续计划用于产品线规划、竞品价格带分析等场景。 安踏国际事业部商品规划人员王洁仪表示：“四套模板的底层数据约90%重叠，但每次都要人工逐一搬运、翻译并对齐公式和格式。商品规划中的 Excel 重复操作很多，技术方案可以复用。” 退货单据Agent：月均自动建单1000+ 跨境退货环节存在一个典型的流程断点，电商平台订单退货后，平台信息不能直接回到安踏系统，客服需要把信息搬到 ERP 创建退货单，再逐单跟进状态，退货量增加时会产生大量跨系统重复操作。 退货单据自动化 Agent 补上了这段流程，Agent 自动从电商平台抓取退货数据，按照 ERP 模板生成单据，并定期汇总退货状态，进行状态提示。 目前，这套 Agent 已经进入企业生产系统，在安踏品牌的 TikTok 跨境业务中，每月自动创建超1000张退货单。人工建单和逐单跟进显著减少，仓库入库效率也随之提升。下一步，这套流程还计划",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-12T09:48:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/LYPLgiUOHfVfcFBv.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "安踏用火山引擎Agent跑进全球电商业务",
+   "summary_zh": "安踏通过火山引擎Agent改造带货视频、海外订货、跨境退货等流程，下单决策从半天缩至10分钟，月均自动建单1000+，手工录入减少约90%。",
+   "highlights_zh": [
+    "带货视频Agent让实习新人半天上手，同等Token下每天多产出约15条",
+    "海外订货Agent将四套模板封装为Skill，数据准确率超99%",
+    "退货单据Agent自动抓取平台数据生成ERP单据，月均建单1000+"
+   ],
+   "why_zh": "企业级Agent落地真实案例，展示从问答到工作流的价值跃迁。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-12",
+   "slot": "evening",
+   "selected_at": "2026-10-12T12:58:38+00:00",
+   "mirror_pdf": "pdf/web-dd1a0efd8750.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/LYPLgiUOHfVfcFBv.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a2419293dd39",
+   "kind": "article",
+   "title": "费莫一刘念邱：智驾无图的经验，也能迁移到机器人 | 物理AI 50人",
+   "url": "https://www.leiphone.com/category/transportation/Y6GLcnioywVn3u7K.html",
+   "pdf_url": "",
+   "abstract": "刘念邱很难被归进典型的具身创业者模板里。 他不是从机器人实验室出来的学者，也不是过去两年才进入 Physical AI 的连续创业者。他曾在英特尔做过新工艺和设备研发，创业做过物联网和工业智能化。2018年加入自动驾驶公司元戎启行，他又从硬件一路做到Robotaxi运营、产品、数据、量产和售后。 2026年，刘念邱又多了一个身份——费莫一科技创始人。 事实上，从2024年开始，他就一直密切关注具身智能的发展，翻看大量论文，也持续研究上游供应链和技术路线。到2025年底，他判断创业的时机开始成熟：一方面，机器人供应链已经足够完善，创业公司不必再把大量精力花在补齐本体和硬件短板上；另一方面，AI驱动的技术和数据范式逐渐清晰，可以开始形成真正有长期价值的技术积累。 决定创业后，刘念邱与多位元戎联合创始人沟通，大家都支持他出去再做一次从0到1。 甫一创业，费莫一科技就获得IDG资本领投、云启资本、滴滴出行、复星锐正、耀途资本、禾赛科技等头部资本的近亿美元种子轮融资，而在早期接触投资人时，刘念邱甚至没来得及准备商业计划书。 刘念邱更愿意把费莫一的机器人称为“Physical Agent”，他认为机器人最终要进入开放的生活环境，在不同时间、不同地点替不同的人完成任务。 过去两年，具身智能最常见的落地路径，是先找到一个边界足够清晰的场景。工厂拧螺丝、酒店送东西、仓库搬运，先把任务定义清楚，再通过工程和模型把成功率做上去。 刘念邱并不认为这些场景没有商业价值，但他的疑问是，如果机器人长期只在一个被高度定义过的环境里工作，它积累下来的能力，究竟有多少能够迁移到另一个场景？ 所以费莫一选择了一条边界更模糊的路线——开放动态场景。 商业区、写字楼、住宅、活动区域，都是刘念邱希望机器人逐步进入的“生活圈”。它可能帮人取东西、买咖啡、丢垃圾，也可能在快递员忙的时候替他完成部分任务。机器人不被提前固定成某一种职业，而是根据环境和需求不断变化自己的任务。 费莫一把这种角色叫做“伙伴”。机器人进入越丰富的环境，遇到越多的人、物体和任务，才越可能形成跨场景迁移的能力。 费莫一今年很重要的一项工作就是初始数据采集，并计划在明年开始多点部署，让 Physical Agent 逐渐形成落地—数据—训练—再落地的闭环。 再往后则是行业现在都还没有解决的问题：开放世界的复杂度几乎没有上限，一个机器人在Demo里完成10次任务中的1次，和用户任何时候叫它都能完成任务，是两套完全不同的标准。 以下是雷峰网左林右狸频道与费莫一科技创始人刘念邱的对话，在不改变原意的基础上做了部分编辑： 元戎启行的关键转向：停运Robotaxi，押注无图 左林右狸频道： 元戎当时在深圳运营过一段时间Robotaxi，有了核心客户群，为什么把它停掉了？ 刘念邱： 运营了一年多。我们其实最早就在市中心CBD这种繁华区域做无人出租车运营。后面我们认为，基于高精地图的那套方案没有未来，准备走无图路线。作为创业公司，不可能两条线都走好，也没有那么充足的资源，所以决定把Robotaxi停下来，全力以赴做无图。这也是为什么后来我们率先推出无高精地图方案，刚推出来的时候很多人还不信，直到我们拿到定点。 左林右狸频道：你最早什么时候觉得高精地图路线走不下去？在停掉Robotaxi、转向无图的决策里，你具体做了什么？ 刘念邱： 2021年，我开始思考当时这套业务继续发展下去的可行性。因为我直接负责运营，所以对实际运营成本比较清楚，也会持续看这套业务未来怎么发展、规模扩大之后能不能成立。基于这些实际情况，我开始在团队里提出调整方向的想法",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-12T02:51:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/transportation/Y6GLcnioywVn3u7K.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "费莫一刘念邱：智驾无图经验迁移至机器人",
+   "summary_zh": "元戎启行前高管刘念邱创办费莫一科技，主张将自动驾驶无图经验迁移到具身智能，走开放动态场景路线，做跨场景可迁移的「Physical Agent」。",
+   "highlights_zh": [
+    "费莫一获IDG领投近亿美元种子轮，滴滴、禾赛等参投",
+    "主张机器人不做固定职业，进入商业区、住宅等开放生活圈积累迁移能力",
+    "今年重点做初始数据采集，明年多点部署形成落地—数据—训练闭环"
+   ],
+   "why_zh": "了解具身智能「开放场景 vs 边界清晰场景」路线之争的一手判断。",
+   "tags": [
+    "机器人",
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-12",
+   "slot": "evening",
+   "selected_at": "2026-10-12T12:58:38+00:00",
+   "mirror_pdf": "pdf/web-a2419293dd39.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/transportation/Y6GLcnioywVn3u7K.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5e9684f296a7",
+   "kind": "article",
+   "title": "China’s AI Boom Moves From Model Prices to Power Bills and Depreciation",
+   "url": "https://www.tmtpost.com/8165235.html",
+   "pdf_url": "",
+   "abstract": "As model APIs get cheaper, Chinese tech groups keep pouring capital into data centers in power-rich regions such as Ulanqab. The next contest is not only who trains the strongest model, but who can keep servers utilized and recover multi-year infrastructure bets.",
+   "authors": [
+    "Chelsea_Sun"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-12T08:09:03+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8165235.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "中国AI竞赛转向：从模型价格战到电费与折旧",
+   "summary_zh": "随着模型API价格走低，中国科技公司转向在乌兰察布等电力富集区大建数据中心，竞争焦点变为服务器利用率与多年基建投资回收。",
+   "highlights_zh": [
+    "模型API价格持续下降，利润空间被压缩",
+    "资本涌向电力富集地区的数据中心",
+    "下一阶段竞争核心是利用率与投资回收"
+   ],
+   "why_zh": "揭示中国AI竞争从模型转向基础设施经济性的趋势。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-12",
+   "slot": "evening",
+   "selected_at": "2026-10-12T12:58:38+00:00",
+   "mirror_pdf": "pdf/web-5e9684f296a7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8165235.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-68f0c2385c7c",
+   "kind": "article",
+   "title": "王鹏伟：当下的世界模型都只学到了片面的世界",
+   "url": "https://www.tmtpost.com/8041489.html",
+   "pdf_url": "",
+   "abstract": "王鹏伟终于带着他的悟界·RoboBrain Orca世界模型正式走上了牌桌。",
+   "authors": [
+    "科技不焦虑"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-12T09:34:14+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8041489.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "王鹏伟：当下世界模型只学到片面的世界",
+   "summary_zh": "王鹏伟认为当前世界模型只学到片面的世界，并推出悟界·RoboBrain Orca世界模型，主张更完整地建模物理世界。",
+   "highlights_zh": [
+    "批评现有世界模型只捕捉片面世界",
+    "发布悟界·RoboBrain Orca世界模型",
+    "聚焦机器人对物理世界的完整建模"
+   ],
+   "why_zh": "了解世界模型路线批评与机器人建模新思路。",
+   "tags": [
+    "机器人",
+    "多模态",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-12",
+   "slot": "evening",
+   "selected_at": "2026-10-12T12:58:38+00:00",
+   "mirror_pdf": "pdf/web-68f0c2385c7c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8041489.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-17b1cf02446b",
+   "kind": "article",
+   "title": "英特尔、博通 CEO 齐发预警：资金短缺可能成为 AI 发展最大瓶颈",
+   "url": "https://www.ithome.com/1/012/061.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 12 日消息，据科技媒体 CNBC 今天报道，英特尔 CEO 陈立武、博通 CEO 陈福阳警告称，尽管计算基础设施需求持续超过供应能力， 但资金可能成为 AI 发展的最大瓶颈 。 陈福阳表示，随着整个行业竞相建设基础设施，融资相比半导体、存储和电力更可能成为 AI 扩张的主要障碍。 IT之家从原报道获悉，英特尔 CEO 陈立武也表达了类似担忧，他认为 AI 成本正在不断上升，且企业巨额投资 AI 后，最终能否获得足够回报仍存在疑问。 两位高管的言论凸显了 AI 行业正在面临的一项新挑战。为了应对计算能力需求的激增， 各大人工智能企业已投入巨额资金建设数据中心 、 采购先进芯片和完善电力基础设施 。 尽管担忧融资问题，两位高管仍看好短期内 AI 计算基础设施的需求。陈福阳表示：“市场对计算基础设施的需求超过了我们的供应能力。”他补充说，这种供需失衡可能持续到 2029 年，甚至延续至 2030 年。 陈立武同样表示，未来两到三年，整个行业不太可能出现明显放缓。他指出，AI 应用的普及以及对计算能力不断增长的需求，将继续推动行业发展。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-12T11:12:41+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/012/061.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "英特尔、博通CEO预警：资金或成AI最大瓶颈",
+   "summary_zh": "英特尔CEO陈立武与博通CEO陈福阳警告，融资可能比芯片、存储和电力更成为AI扩张的主要障碍，但两人仍看好未来两三年需求，供需失衡或持续至2030年。",
+   "highlights_zh": [
+    "陈福阳称融资比半导体、存储、电力更可能成为瓶颈",
+    "陈立武质疑巨额AI投资能否获得足够回报",
+    "两人仍看好短期需求，失衡或延续至2029-2030年"
+   ],
+   "why_zh": "头部芯片高管对AI资本开支可持续性的关键判断。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-12",
+   "slot": "evening",
+   "selected_at": "2026-10-12T12:58:38+00:00",
+   "mirror_pdf": "pdf/web-17b1cf02446b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/012/061.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2454d533cfc0",
+   "kind": "article",
+   "title": "南亚科技：2026Q3 DRAM 平均售价环比增长超 60%，企业毛利率 85.7%",
+   "url": "https://www.ithome.com/1/012/052.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 12 日消息，内存制造商南亚科技 (Nanya) 今日公布 2026 年第 3 季度合并财务报告。该企业在上一季度实现 1,336.49 亿新台币 （IT之家注：现汇率约合 280.53 亿元人民币） 营业收入， 环比增长 61.9% 、同比增长 611.7%。 南亚科技的 DRAM ASP（平均销售价格）在 2026Q3 环比增长超 60%，出货容量则有小幅下降。其 企业毛利率达 85.7% ，单季提升 6.2 个百分点；营业利润率 80.0%，提升 6.3 个百分点；净利率 65.6%，提升 4.8 个百分点。 AI 基础设施已占到南亚科技整体营收的 20% 以上 ，其未来扩建皆以客户长期合约的 AI 专案为主要目标。 南亚科技新晶圆厂 2027Q1 装机，2028 年底月投片量 3 万片、2030 年底月投片量 5 万片； 新后端设施 将在 2028 年内导入 TSV、晶圆堆叠等 3DIC 技术；第 3 代 10nm 级工艺预计 2027Q1 启动送样，后续工艺均持续按计划推进。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-12T10:53:32+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/012/052.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "南亚科技Q3 DRAM均价暴涨60%，AI占营收超两成",
+   "summary_zh": "南亚科技2026Q3营收环比增61.9%，DRAM均价环比涨超60%，毛利率达85.7%，AI基础设施已占其营收20%以上，扩产以AI长约为主。",
+   "highlights_zh": [
+    "DRAM平均售价环比增长超60%，出货容量小幅下降，涨价驱动营收暴增",
+    "毛利率85.7%、营业利润率80.0%，单季分别提升6.2和6.3个百分点",
+    "AI基础设施占整体营收超20%，新厂2027Q1装机、2030年底月投片5万片"
+   ],
+   "why_zh": "AI算力需求推高存储价格与利润的直接证据，反映上游供应链景气度。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-12",
+   "slot": "evening",
+   "selected_at": "2026-10-12T12:58:38+00:00",
+   "mirror_pdf": "pdf/web-2454d533cfc0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/012/052.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-926f0b593a8b",
+   "kind": "article",
+   "title": "华为AI靠RSI通关25款游戏！操作次数比人类少56%",
+   "url": "https://www.qbitai.com/2026/10/502654.html",
+   "pdf_url": "",
+   "abstract": "游戏打到21:0，AI甚至不用再调用大模型了",
+   "authors": [
+    "一水"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-12T05:48:36+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/502654.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "华为 AI 靠 RSI 通关 25 款游戏，操作次数比人类少 56%",
+   "summary_zh": "华为 AI 通过递归自我改进（RSI）在 25 款游戏中通关，操作次数比人类少 56%，部分场景无需调用大模型。",
+   "highlights_zh": [
+    "RSI 方法实现游戏通关",
+    "操作效率比人类高 56%",
+    "部分场景无需调用大模型"
+   ],
+   "why_zh": "展示 RSI 在游戏场景的落地效果，但细节有限，需进一步验证。",
+   "tags": [
+    "强化学习",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-10-12",
+   "slot": "evening",
+   "selected_at": "2026-10-12T12:58:38+00:00",
+   "mirror_pdf": "pdf/web-926f0b593a8b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/502654.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-25e01d716c31",
+   "kind": "article",
+   "title": "智谱新模型，490 tokens/s！",
+   "url": "https://www.qbitai.com/2026/10/502649.html",
+   "pdf_url": "",
+   "abstract": "GLM「速度仙人」来了？",
+   "authors": [
+    "听雨"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-12T02:37:04+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/502649.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "智谱新模型推理速度达 490 tokens/s",
+   "summary_zh": "智谱发布新模型，推理速度达 490 tokens/s，被称为「速度仙人」。",
+   "highlights_zh": [
+    "推理速度 490 tokens/s",
+    "智谱 GLM 系列新模型",
+    "主打高速推理"
+   ],
+   "why_zh": "速度提升对推理成本有直接影响，但缺乏模型能力细节。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-10-12",
+   "slot": "evening",
+   "selected_at": "2026-10-12T12:58:38+00:00",
+   "mirror_pdf": "pdf/web-25e01d716c31.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/502649.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-37e9d86f60b9",
+   "kind": "article",
+   "title": "独家丨奥比中光砍掉割草机器人ODM业务，千台级出货难撑整机梦",
+   "url": "https://www.leiphone.com/category/robot/GUx09tTTDB6WVdTN.html",
+   "pdf_url": "",
+   "abstract": "雷峰网独家获悉，3D视觉感知企业奥比中光已于9月中旬内部决定，砍掉割草机器人ODM业务。但视觉模组产品线不受影响，面向户外机器人的感知模组仍正常推进。 回顾其入局路径，割草机ODM业务原本被寄予厚望。该项目由机器人业务前任销售负责人力推，奥比中光曾为此投入整机研发资源，并获得了上海某客户的订单。但实际出货累计仅数千台，远低于预期。 知情人士透露，砍掉ODM业务是多重因素叠加下的及时止损，原因有三。 一是FCC新规。今年7月28日，美国联邦通信委员会（FCC）将“境外生产的先进机器人设备”列入受管制清单，割草机器人恰好落入定义边界；9月11日，FCC又发布新的设备授权规则，进一步收紧相关设备的授权路径。北美准入门槛骤然抬高。 二是赛道过度拥挤。割草机本是庭院机器人中增长最快的品类，但这也吸引了大量扫地机、泳池机器人厂商纷纷下场做割草机，行业内卷加剧。 三是大客户逻辑未能跑通。“没抱住好大腿”，ODM模式能否跑通，不仅取决于技术能力，更取决于下游品牌的销量和渠道能力。客户出货体量撑不起一条ODM产品线。 裁撤割草机ODM，意味着奥比中光在割草机赛道的角色，从“下场造整机”退回“上游供感知方案”。这同时也是奥比中光资源向感知主业回缩的缩影。 目前，奥比中光主要有机器人、扫描与创新、生物识别三大产品线。其中机器人是绝对重心，割草机ODM此前即划归机器人产品线，此后全销售体系协同推进。随着公司“全员具身”战略的推进，客户几乎全部为机器人厂商，仅行业场景不同，产品线之间的界限已不如以往清晰。 相比继续投入割草机器人整机ODM，奥比中光接下来将更加聚焦具身智能数据采集设备，这比整机代工更贴合奥比中光的能力边界。 割草机ODM的退场，为上游传感公司下场造整机再添一例注脚。感知方案商与整机品牌之间，隔着客户、渠道与合规的三重门槛，不是每家都迈得过去。 本文作者长期关注智能硬件、消费级机器人，欢迎添加作者微信 MOON_ERS 交流。雷峰网",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-12T07:21:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/robot/GUx09tTTDB6WVdTN.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "奥比中光砍掉割草机器人ODM业务",
+   "summary_zh": "奥比中光因FCC新规、赛道拥挤、大客户逻辑未跑通，决定砍掉割草机器人ODM业务，退回上游感知方案，聚焦具身智能数据采集设备。",
+   "highlights_zh": [
+    "FCC将境外生产先进机器人设备列入管制清单，北美准入门槛抬高",
+    "割草机赛道吸引扫地机、泳池机器人厂商涌入，内卷加剧",
+    "奥比中光转向聚焦具身智能数据采集设备，更贴合能力边界"
+   ],
+   "why_zh": "上游感知公司下场造整机的典型失败案例，揭示三重门槛。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-12",
+   "slot": "evening",
+   "selected_at": "2026-10-12T12:58:38+00:00",
+   "mirror_pdf": "pdf/web-37e9d86f60b9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/robot/GUx09tTTDB6WVdTN.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f3069ee54c2e",
+   "kind": "article",
+   "title": "AI 智能体三周重构 30 万行代码，Code Health 从 5.6 升至 10.0：代码真的变好了吗？",
+   "url": "https://www.infoq.cn/article/Qk7CzmLpDCvfYpAiU6Tf?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Steef-Jan Wiggers"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-12T16:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/Qk7CzmLpDCvfYpAiU6Tf?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI智能体三周重构30万行代码，代码真变好了吗",
+   "summary_zh": "报道称AI智能体用三周重构30万行代码，Code Health评分从5.6升至10.0，但文章质疑代码质量是否真的提升。",
+   "highlights_zh": [
+    "AI智能体完成30万行代码重构",
+    "Code Health指标从5.6升至10.0",
+    "对指标提升与实际质量提出质疑"
+   ],
+   "why_zh": "关注AI编程实际效果与评测指标可信度的案例。",
+   "tags": [
+    "代码",
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-12",
+   "slot": "evening",
+   "selected_at": "2026-10-12T12:58:38+00:00",
+   "mirror_pdf": "pdf/web-f3069ee54c2e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/Qk7CzmLpDCvfYpAiU6Tf?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-74e7d8653bdd",
+   "kind": "article",
+   "title": "AI 办公大战，盯上了企业的人力预算",
+   "url": "https://www.tmtpost.com/8165026.html",
+   "pdf_url": "",
+   "abstract": "过去，企业招人再买软件；现在，企业可能先买 AI，再决定还要不要招人。",
+   "authors": [
+    "wiwi"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-12T09:45:21+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8165026.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI办公大战盯上企业人力预算",
+   "summary_zh": "文章指出AI办公工具正从软件预算切入企业人力预算，企业逻辑从「先招人再买软件」转向「先买AI再决定是否招人」。",
+   "highlights_zh": [
+    "AI办公工具争夺企业人力预算而非软件预算",
+    "企业采购逻辑发生转变",
+    "反映AI对用工结构的直接冲击"
+   ],
+   "why_zh": "观察AI办公商业化路径与人力市场联动趋势。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-12",
+   "slot": "evening",
+   "selected_at": "2026-10-12T12:58:38+00:00",
+   "mirror_pdf": "pdf/web-74e7d8653bdd.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8165026.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2150853287a4",
+   "kind": "article",
+   "title": "pytorch/pytorch",
+   "url": "https://github.com/pytorch/pytorch",
+   "pdf_url": "",
+   "abstract": "Star pytorch / pytorch Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+   "authors": [],
+   "orgs": [
+    "pytorch"
+   ],
+   "published": "2026-10-12T12:58:38+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/pytorch/pytorch",
+     "signal": "★ 今日 +529 · Python",
+     "metric": 529
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "PyTorch 登顶 GitHub Trending",
+   "summary_zh": "PyTorch 官方仓库今日新增 529 星，作为主流深度学习框架持续保持高热度。",
+   "highlights_zh": [
+    "GitHub Trending 今日 +529 星",
+    "Python 深度学习框架",
+    "支持动态神经网络与 GPU 加速"
+   ],
+   "why_zh": "框架本身无新动态，仅反映其长期基础地位，无增量信息。",
+   "tags": [
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5973,
+   "score_llm": 3.0,
+   "score": 0.4189,
+   "date": "2026-10-12",
+   "slot": "evening",
+   "selected_at": "2026-10-12T12:58:38+00:00",
+   "mirror_pdf": "pdf/web-2150853287a4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/pytorch/pytorch"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "模型退役正成为用户资产风险，API快照生命周期管理将成企业刚需",
-   "why": "GPT-4o初代快照停用引发用户自发拯救行动，暴露模型依赖与退役节奏的深层矛盾。",
+   "trend": "开源权重模型竞争格局向中国倾斜，微软已反向采用阿里Qwen做底座",
+   "why": "微软基于Qwen3.5-9B后训练出决策模型并全领域测试，同时基准显示开源权重模型中国领先",
    "refs": [
-    "web-f1438fb9ae7b"
+    "web-a1de09b96425",
+    "web-8635d0995c1d"
    ]
   },
   {
-   "trend": "具身智能商业化远未兑现，行业临界点判断与营收现实严重脱节",
-   "why": "本末科技具身智能营收仅占5%，而王兴兴却称临界点一两年内到来，预期与落地错位明显。",
+   "trend": "智能体训练从单轮调用转向超长程在线强化学习，评测基准同步升级",
+   "why": "QwenGyre以轨迹树处理百万级token任务，NL2RepoBench通过率提升6个百分点",
+   "refs": [
+    "web-0d35cbd6acf2",
+    "web-d41c97e4a1cd"
+   ]
+  },
+  {
+   "trend": "AI扩张瓶颈从算力转向资金与电力，竞争焦点变为基建回收效率",
+   "why": "英特尔与博通CEO预警融资成最大障碍，中国厂商转向电力富集区拼服务器利用率",
+   "refs": [
+    "web-17b1cf02446b",
+    "web-5e9684f296a7"
+   ]
+  },
+  {
+   "trend": "具身智能商业化仍处早期，多数企业尚未真正吃到红利",
+   "why": "本末科技具身智能营收占比仅5%，奥比中光砍掉割草机器人ODM退回上游",
    "refs": [
     "web-5c9a629921f1",
-    "web-3086c8bfa541"
+    "web-37e9d86f60b9"
    ]
   },
   {
-   "trend": "AI编码工具进入多harness混战，免费token补贴成获客主武器",
-   "why": "free-claude-code等项目以13亿免费token聚合十余种编码harness，降低开发者切换成本。",
+   "trend": "下一代AI路线之争公开化，Agent与RSI叙事遭头部学者质疑",
+   "why": "杨立昆主张分层推理才是下一代路径，与华为RSI通关游戏的实践形成对立",
    "refs": [
-    "web-d1aa340a6435",
-    "web-750596818255"
-   ]
-  },
-  {
-   "trend": "生成式UI框架开源，界面从静态开发转向模型动态生成的新范式",
-   "why": "CopilotKit推出OpenIntelligentUI，让应用界面可由模型实时生成，交互层架构面临重构。",
-   "refs": [
-    "web-dde33426df93"
-   ]
-  },
-  {
-   "trend": "数学与AI深度融合加速，专用大模型和形式化证明成新攻关方向",
-   "why": "丘成桐在清华成立数学与AI实验室联盟，集结超千名学者攻关数学专用大模型。",
-   "refs": [
-    "web-c204ab3254d8",
-    "web-a876ffe84ca5"
+    "web-d8e686734908",
+    "web-926f0b593a8b"
    ]
   }
  ]
