@@ -1,11 +1,12 @@
-2026-10-13 12:35:24,902 INFO source hf_daily           -> 31 items
-2026-10-13 12:35:25,297 INFO source hackernews         -> 10 items
-2026-10-13 12:35:39,095 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-13 12:35:46,145 INFO source rss                -> 75 items
-2026-10-13 12:35:48,037 INFO source html_lists         -> 0 items
-2026-10-13 12:35:48,037 INFO source x                  -> 0 items
-2026-10-13 12:35:50,061 INFO source arxiv_search       -> 0 items
-2026-10-13 12:36:02,192 INFO source github             -> 20 items
-2026-10-13 12:36:02,265 INFO candidates: 136 (stale dropped 31, new 64)
-2026-10-13 12:37:04,908 INFO llm judged 64/64 (calls=8)
-2026-10-13 12:40:07,111 INFO run done: {"at": "2026-10-13T12:35:24+00:00", "slot": "evening", "candidates": 136, "new": 64, "stale": 31, "judged": 64, "selected": 18, "mirrored": 16, "by_category": {"技术": 2, "观点": 1, "资讯": 13, "项目": 2}, "by_source": {"HF Daily Papers": 31, "Hacker News": 10, "量子位": 10, "极客公园": 5, "IT之家": 16, "爱范儿": 4, "少数派": 1, "雷峰网": 14, "钛媒体": 4, "InfoQ 中文": 11, "Simon Willison": 1, "Latent Space": 2, "Jack Clark": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "NVIDIA": 3, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
+2026-10-13 18:05:13,501 INFO source hf_daily           -> 32 items
+2026-10-13 18:05:13,825 INFO source hackernews         -> 10 items
+2026-10-13 18:05:36,208 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-13 18:06:08,152 INFO source rss                -> 78 items
+2026-10-13 18:06:13,787 INFO source html_lists         -> 1 items
+2026-10-13 18:06:13,788 INFO source x                  -> 0 items
+2026-10-13 18:06:17,830 INFO source arxiv_search       -> 0 items
+2026-10-13 18:06:27,436 INFO source github             -> 20 items
+2026-10-13 18:06:27,585 INFO candidates: 141 (stale dropped 49, new 46)
+2026-10-13 18:07:08,169 INFO llm judged 46/46 (calls=6)
+2026-10-13 18:08:04,224 WARNING snapshot https://thezvi.wordpress.com/2026/10/13/arguments-about-ai-consciousness-remain-highly-motivated-and-at-best-overconfident/: blocked or empty page
+2026-10-13 18:09:37,200 INFO run done: {"at": "2026-10-13T18:05:13+00:00", "slot": "morning", "candidates": 141, "new": 46, "stale": 49, "judged": 46, "selected": 16, "mirrored": 14, "by_category": {"资讯": 13, "技术": 2, "观点": 1}, "by_source": {"HF Daily Papers": 32, "Hacker News": 10, "量子位": 10, "极客公园": 6, "IT之家": 14, "爱范儿": 5, "少数派": 1, "雷峰网": 14, "钛媒体": 3, "InfoQ 中文": 11, "Simon Willison": 1, "Latent Space": 2, "Jack Clark": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 1, "Google DeepMind": 2, "NVIDIA": 3, "Anthropic Engineering": 1, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
