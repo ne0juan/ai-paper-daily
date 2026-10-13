@@ -1057,7 +1057,25 @@
   "web-0d58dd98a68d": "2026-10-13",
   "web-1414f76f2238": "2026-10-13",
   "web-8f872270b5d9": "2026-10-13",
-  "web-f869ceb5043b": "2026-10-13"
+  "web-f869ceb5043b": "2026-10-13",
+  "arxiv-2610.13928": "2026-10-13",
+  "web-a2c304623a61": "2026-10-13",
+  "web-9ca2bcd34e54": "2026-10-13",
+  "web-004216d83853": "2026-10-13",
+  "web-af1cefc3c7f7": "2026-10-13",
+  "web-2bd91dcdfa9d": "2026-10-13",
+  "web-18cd9a16bb86": "2026-10-13",
+  "web-9202dbf6eedd": "2026-10-13",
+  "web-ca6386ee6162": "2026-10-13",
+  "web-cc635528c3a0": "2026-10-13",
+  "web-ae5ade16e095": "2026-10-13",
+  "web-4bf3b36690d7": "2026-10-13",
+  "web-aa7c4a70b583": "2026-10-13",
+  "web-c40e8a0c325c": "2026-10-13",
+  "web-faf0794818f1": "2026-10-13",
+  "web-af8841c754bc": "2026-10-13",
+  "web-5bbf33695150": "2026-10-13",
+  "web-aa9d8407021a": "2026-10-13"
  },
  "known_links": {
   "https://www.anthropic.com/news": [
@@ -1297,34 +1315,6 @@
   ]
  },
  "runs": [
-  {
-   "at": "2026-09-23T15:22:27+00:00",
-   "slot": "evening",
-   "candidates": 101,
-   "new": 101,
-   "judged": 50,
-   "selected": 11,
-   "mirrored": 11,
-   "by_source": {
-    "HF Daily Papers": 15,
-    "Hacker News": 11,
-    "OpenAI": 7,
-    "量子位": 10,
-    "极客公园": 6,
-    "爱范儿": 7,
-    "少数派": 1,
-    "雷峰网": 14,
-    "钛媒体": 6,
-    "InfoQ 中文": 14,
-    "Simon Willison": 2,
-    "Nathan Lambert": 1,
-    "Latent Space": 5,
-    "Stratechery": 1,
-    "Anthropic": 2
-   },
-   "llm": true,
-   "translated": 0
-  },
   {
    "at": "2026-09-23T22:49:03+00:00",
    "slot": "morning",
@@ -3759,6 +3749,45 @@
     "Zvi Mowshowitz": 1,
     "NVIDIA": 2,
     "xAI": 1,
+    "GitHub Trending": 10,
+    "GitHub 新项目": 10
+   },
+   "llm": true,
+   "translated": 0
+  },
+  {
+   "at": "2026-10-13T12:35:24+00:00",
+   "slot": "evening",
+   "candidates": 136,
+   "new": 64,
+   "stale": 31,
+   "judged": 64,
+   "selected": 18,
+   "mirrored": 16,
+   "by_category": {
+    "技术": 2,
+    "观点": 1,
+    "资讯": 13,
+    "项目": 2
+   },
+   "by_source": {
+    "HF Daily Papers": 31,
+    "Hacker News": 10,
+    "量子位": 10,
+    "极客公园": 5,
+    "IT之家": 16,
+    "爱范儿": 4,
+    "少数派": 1,
+    "雷峰网": 14,
+    "钛媒体": 4,
+    "InfoQ 中文": 11,
+    "Simon Willison": 1,
+    "Latent Space": 2,
+    "Jack Clark": 1,
+    "Azeem Azhar": 1,
+    "Tomasz Tunguz": 1,
+    "Zvi Mowshowitz": 1,
+    "NVIDIA": 3,
     "GitHub Trending": 10,
     "GitHub 新项目": 10
    },

@@ -1,12 +1,13 @@
 {
- "updated": "2026-10-13T05:45:00+00:00",
+ "updated": "2026-10-13T12:35:24+00:00",
  "days": [
   {
    "date": "2026-10-13",
-   "count": 30,
+   "count": 48,
    "slots": {
     "morning": 15,
-    "noon": 15
+    "noon": 15,
+    "evening": 18
    }
   },
   {
@@ -181,40 +182,40 @@
    }
   }
  ],
- "total": 1054,
+ "total": 1072,
  "last_run": {
-  "at": "2026-10-13T05:45:00+00:00",
-  "slot": "noon",
-  "candidates": 111,
-  "new": 43,
-  "stale": 32,
-  "judged": 43,
-  "selected": 15,
-  "mirrored": 14,
+  "at": "2026-10-13T12:35:24+00:00",
+  "slot": "evening",
+  "candidates": 136,
+  "new": 64,
+  "stale": 31,
+  "judged": 64,
+  "selected": 18,
+  "mirrored": 16,
   "by_category": {
-   "项目": 1,
+   "技术": 2,
+   "观点": 1,
    "资讯": 13,
-   "观点": 1
+   "项目": 2
   },
   "by_source": {
-   "HF Daily Papers": 27,
-   "Hacker News": 7,
-   "量子位": 5,
-   "极客公园": 4,
-   "IT之家": 13,
-   "爱范儿": 2,
+   "HF Daily Papers": 31,
+   "Hacker News": 10,
+   "量子位": 10,
+   "极客公园": 5,
+   "IT之家": 16,
+   "爱范儿": 4,
    "少数派": 1,
-   "雷峰网": 10,
-   "钛媒体": 5,
-   "InfoQ 中文": 8,
+   "雷峰网": 14,
+   "钛媒体": 4,
+   "InfoQ 中文": 11,
    "Simon Willison": 1,
-   "Latent Space": 1,
+   "Latent Space": 2,
    "Jack Clark": 1,
    "Azeem Azhar": 1,
    "Tomasz Tunguz": 1,
    "Zvi Mowshowitz": 1,
-   "NVIDIA": 2,
-   "xAI": 1,
+   "NVIDIA": 3,
    "GitHub Trending": 10,
    "GitHub 新项目": 10
   },
