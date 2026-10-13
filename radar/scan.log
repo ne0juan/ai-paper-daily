@@ -1,13 +1,11 @@
-2026-10-13 05:45:00,908 INFO source hf_daily           -> 27 items
-2026-10-13 05:45:01,274 INFO source hackernews         -> 7 items
-2026-10-13 05:45:18,459 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-13 05:45:29,331 INFO source rss                -> 56 items
-2026-10-13 05:45:31,795 INFO source html_lists         -> 1 items
-2026-10-13 05:45:31,795 INFO source x                  -> 0 items
-2026-10-13 05:45:45,186 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
-2026-10-13 05:45:54,794 INFO source github             -> 20 items
-2026-10-13 05:45:54,795 INFO candidates: 111 (stale dropped 32, new 43)
-2026-10-13 05:46:39,476 WARNING llm batch 5 attempt 0 failed: Expecting ',' delimiter: line 6 column 25 (char 100)
-2026-10-13 05:46:43,486 INFO llm judged 43/43 (calls=7)
-2026-10-13 05:47:04,089 WARNING snapshot https://thezvi.wordpress.com/2026/10/12/openai-fires-three-safety-researchers/: blocked or empty page
-2026-10-13 05:49:03,302 INFO run done: {"at": "2026-10-13T05:45:00+00:00", "slot": "noon", "candidates": 111, "new": 43, "stale": 32, "judged": 43, "selected": 15, "mirrored": 14, "by_category": {"项目": 1, "资讯": 13, "观点": 1}, "by_source": {"HF Daily Papers": 27, "Hacker News": 7, "量子位": 5, "极客公园": 4, "IT之家": 13, "爱范儿": 2, "少数派": 1, "雷峰网": 10, "钛媒体": 5, "InfoQ 中文": 8, "Simon Willison": 1, "Latent Space": 1, "Jack Clark": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "NVIDIA": 2, "xAI": 1, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
+2026-10-13 12:35:24,902 INFO source hf_daily           -> 31 items
+2026-10-13 12:35:25,297 INFO source hackernews         -> 10 items
+2026-10-13 12:35:39,095 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-13 12:35:46,145 INFO source rss                -> 75 items
+2026-10-13 12:35:48,037 INFO source html_lists         -> 0 items
+2026-10-13 12:35:48,037 INFO source x                  -> 0 items
+2026-10-13 12:35:50,061 INFO source arxiv_search       -> 0 items
+2026-10-13 12:36:02,192 INFO source github             -> 20 items
+2026-10-13 12:36:02,265 INFO candidates: 136 (stale dropped 31, new 64)
+2026-10-13 12:37:04,908 INFO llm judged 64/64 (calls=8)
+2026-10-13 12:40:07,111 INFO run done: {"at": "2026-10-13T12:35:24+00:00", "slot": "evening", "candidates": 136, "new": 64, "stale": 31, "judged": 64, "selected": 18, "mirrored": 16, "by_category": {"技术": 2, "观点": 1, "资讯": 13, "项目": 2}, "by_source": {"HF Daily Papers": 31, "Hacker News": 10, "量子位": 10, "极客公园": 5, "IT之家": 16, "爱范儿": 4, "少数派": 1, "雷峰网": 14, "钛媒体": 4, "InfoQ 中文": 11, "Simon Willison": 1, "Latent Space": 2, "Jack Clark": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "NVIDIA": 3, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
