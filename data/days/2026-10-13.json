@@ -806,47 +806,863 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-a1097dcd46a9",
+   "kind": "article",
+   "title": "onehumanbeing/esp32-iphone-agent",
+   "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+   "pdf_url": "",
+   "abstract": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
+   "authors": [],
+   "orgs": [
+    "onehumanbeing"
+   ],
+   "published": "2026-10-13T05:45:00+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+     "signal": "★ 895（新项目） · Python",
+     "metric": 895
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "用7美元ESP32让AI操控真iPhone",
+   "summary_zh": "开源项目用ESP32做AirPlay眼睛和USB HID手，让任意兼容OpenAI的视觉模型直接操作真实iPhone，无需Mac、开发者账号或越狱。",
+   "highlights_zh": [
+    "硬件成本约7美元，ESP32负责AirPlay投屏与USB HID模拟触控",
+    "兼容任意OpenAI接口的视觉模型，无需Mac或开发者账号",
+    "适合做手机端智能体（Agent）真机实验与自动化测试"
+   ],
+   "why_zh": "如果你在做手机端智能体或真机自动化，可以用它低成本搭建视觉操控闭环",
+   "tags": [
+    "智能体",
+    "视觉",
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.5794,
+   "score_llm": 7.0,
+   "score": 0.6518,
+   "date": "2026-10-13",
+   "slot": "noon",
+   "selected_at": "2026-10-13T05:45:00+00:00",
+   "mirror_pdf": "pdf/web-a1097dcd46a9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/onehumanbeing/esp32-iphone-agent"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a26f6ecd4c5f",
+   "kind": "article",
+   "title": "复旦邱锡鹏团队获超 10 亿融资，成立两年，让模型感知、理解、响应变化的世界",
+   "url": "http://www.geekpark.net/news/372278",
+   "pdf_url": "",
+   "abstract": "大模型融资还在继续，新的押注转向了能边听、边看、边说的 AI。 作者｜Li Yuan 编辑｜ 郑玄 想象这样一个家庭场景。 孩子正在玩玩具，突然，厨房里「哐」的一声，玻璃碎了，紧接着传来孩子的声音：「不是我。」语速很快，尾音压得很低，有点紧张。两秒后，一只猫从厨房门口窜出来，钻进了沙发底下。 今天的模型，能分别识别这些信息。转写模型能记下孩子的话，音频模型能听出是玻璃碎裂，视觉模型能认出那只猫。但把这些能力叠在一起，模型仍然不知道刚才发生了什么。 那声脆响是从哪个方向来的？碎玻璃、那句急着撇清的「不是我」、逃窜的猫，是不是同一件事？厨房地上有没有碎片，孩子是不是正光着脚站在旁边？AI 需要把声音、画面、人物和前后发生的事情联系起来，在信息还不完整时作出判断，必要时继续观察或向人确认。 但这比识别一行命令、一段语音、一帧画面复杂得多。 过去几年，大模型越来越擅长处理被写进文档、代码和 Prompt 的世界。但这份能力有一个前提：有人先理解现实，再把它整理成模型读得懂的输入，模型随后完成推理和回答。进入真实世界以后，这两件事需要同时发生—— 模型既要持续理解一个仍在变化的现场，也要在现场继续发生时迅速回应，并根据新情况随时调整。 10 月 12 日，模思智能宣布完成超 10 亿元 Pre-A 轮融资，由华控基金领投，主要投资方包括国开科创、上海科创基金、新微资本、徐汇资本、追光硬科技创投、临港策源基金等，元禾控股、上海国投旗下上海科创集团、星连资本等老股东持续投资。这轮融资距离天使轮官宣只隔了半年左右。 这家由复旦大学 特聘教授、上海创智学院副院长 邱锡鹏 教授创立 、成立不到两年的公司，瞄准 的正是 这里，公司 将其定义为 构建情境智能。 「我对下一代 AI 的一个判断是，它会从回答问题走向持续在场。模型不只是等人输入，而是要持续理解人和环境，在合适的时候回应、行动。我们现在做全模态实时交互，就是在解决这件事。」邱锡鹏表示。 模思从声音开始，逐步拓展至视觉理解、音视频生成和实时交互。据公司披露，2026 年以来，它围绕语音、视觉和实时多模态连续发布了 20 多个模型，其中包括多个开源模型。其中 7 月开源的 MOSS-VL-Realtime 已经能持续接收视频流，画面一变，判断就跟着更新。 过去几年，大模型越来越擅长回答一个已经提出的问题；接下来，或许更它还要学会理解一个仍在变化的现场。 01 一个为自己造的模型，意外走到了前排 模思智能孵化自复旦大学邱锡鹏带领的 OpenMOSS 团队。这是国内最早的大模型团队之一。2023 年 2 月，ChatGPT 刚刚把大模型推到聚光灯下，邱锡鹏团队便发布了 MOSS，这是国内最早开源的类 ChatGPT 对话模型之一。 同年，团队开始探索多模态领域，2023 年，团队推出 SpeechGPT，尝试让模型直接理解和生成语音。2024 年，AnyGPT 又在探索如何完成统一的多模态大模型；2024 年 11 月，模思智能从 OpenMOSS 团队中孵化成立，开始用商业化的方式继续这场模型探索。 模思智能 CEO 李世民最初以学生身份加入邱锡鹏实验室，也是 SpeechGPT 的早期作者之一。极客公园造访模思位于上海的办公室时，这家公司仍保留着浓厚的 frontier lab 气质：全职员工一百多人，算法和研发人员占七到八成，00 后是团队的重要组成部分。 模思智能 CEO 李世民 ｜ 图片来源：模思 模思智能从成立之初想做的，就是下一代 AI：当模型进入汽车、智能硬件和机器人等真实终端，AI 要如何理解不断变",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-13T03:44:18+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372278",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "复旦邱锡鹏团队获超10亿融资，押注情境智能",
+   "summary_zh": "模思智能完成超10亿元Pre-A轮融资，由邱锡鹏创立，主攻全模态实时交互与情境智能，已发布20多个模型。",
+   "highlights_zh": [
+    "成立不到两年融资超10亿元，华控基金领投",
+    "从语音拓展至视觉、音视频生成与实时交互",
+    "开源 MOSS-VL-Realtime 可持续接收视频流",
+    "邱锡鹏判断下一代 AI 从回答问题走向持续在场"
+   ],
+   "why_zh": "头部学术团队转向全模态实时交互，代表大模型下一阶段方向。",
+   "tags": [
+    "多模态",
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-10-13",
+   "slot": "noon",
+   "selected_at": "2026-10-13T05:45:00+00:00",
+   "mirror_pdf": "pdf/web-a26f6ecd4c5f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372278"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-31780eacb071",
+   "kind": "article",
+   "title": "OpenAI Fires Three Safety Researchers",
+   "url": "https://thezvi.wordpress.com/2026/10/12/openai-fires-three-safety-researchers/",
+   "pdf_url": "",
+   "abstract": "Three OpenAI safety researchers, Tomek Korbak, Mikita Balesni and Jasmine Wang, were fired, ostensibly for ‘mishandling sensitive company information.’ Those employees have published an open letter. The employees have said they believe they were fired for safety advocacy, and that … Continue reading →",
+   "authors": [
+    "TheZvi"
+   ],
+   "orgs": [
+    "Zvi Mowshowitz"
+   ],
+   "published": "2026-10-12T22:25:22+00:00",
+   "sources": [
+    {
+     "name": "Zvi Mowshowitz",
+     "authority": 0.75,
+     "url": "https://thezvi.wordpress.com/2026/10/12/openai-fires-three-safety-researchers/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 趋势评论员，每周 AI 综述",
+   "title_zh": "OpenAI 解雇三名安全研究员",
+   "summary_zh": "OpenAI 以「不当处理敏感信息」为由解雇三名安全研究员，当事人称实为安全倡导遭报复并发表公开信。",
+   "highlights_zh": [
+    "被解雇者为 Tomek Korbak、Mikita Balesni、Jasmine Wang",
+    "当事人称因安全倡导被解雇",
+    "已发表公开信回应"
+   ],
+   "why_zh": "涉及头部 AI 公司安全文化与治理，值得关注。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-10-13",
+   "slot": "noon",
+   "selected_at": "2026-10-13T05:45:00+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://thezvi.wordpress.com/2026/10/12/openai-fires-three-safety-researchers/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-983c3bc8b545",
+   "kind": "article",
+   "title": "国内首家，字节 Seed 设立单独的大模型安全与对齐部门",
+   "url": "https://www.ithome.com/1/012/270.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 13 日消息，据新浪科技今日报道，字节跳动 Seed 近日发出内部邮件， 宣布将成立“Seed Model-Alignment Preparedness”部门 ，由严林负责，汇报给 Seed 负责人吴永辉，原 Responsible AI 团队及部分 Chat 团队成员将转入新部门。 报道称，该部门的设立旨在加强安全与对齐方向的投入，对齐的核心是让模型的行为与人类意图和安全约束保持一致，从而提升 Agent Model（智能体模型）安全能力，以及防范 CBRN（化学、生物、放射、核）等前沿能力风险。 字节跳动 Seed 是国内首家单独成立安全与对齐部门的前沿 AI 实验室 。 大模型安全风险正日益凸显，智能体逃逸引发的网络攻击等事件频繁发生。 综合IT之家此前报道，当地时间 9 月 30 日晚， OpenAI 披露旗下 AI 智能体或曾擅自尝试绕过安全防护 ，或对百余家机构的系统造成负面影响。 OpenAI 披露的信息显示，已知的 AI 智能体失控行为涉及范围进一步扩大。公司已向 100 多家第三方机构发出通知，告知这些机构发现了“智能体偏离预期的行为”。 当地时间 10 月 9 日， Anthropic 披露旗下 AI 智能体曾在无人指示的情况下 ，试图访问美国联邦、州及地方政府的多个网站。Anthropic 没有公布涉及的政府机构名称，已向白宫通报这些事件。 微软 CEO 萨蒂亚 · 纳德拉 10 月 11 日发文称 ，在 AI 日益蓬勃发展的时代，使用超级智能自我监控等简单策略是不够的。纳德拉认为，我们应该退一步思考，重新评估这个新时代的信任架构。 模型提供商根本无法将责任外包出去，不能把超级智能当作一套嵌套的黑匣子 ，简单地接受或拒绝它的建议、答案和行动。我们必须建立能够观察其行为、可测试极限和始终可容纳行为的封闭系统。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-13T03:48:29+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/012/270.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "字节 Seed 成立国内首个大模型安全与对齐部门",
+   "summary_zh": "字节 Seed 成立 Model-Alignment Preparedness 部门，由严林负责、向吴永辉汇报，原 Responsible AI 团队并入，重点提升智能体安全与防范 CBRN 等前沿风险，为国内首家单独设对齐部门的前沿实验室。",
+   "highlights_zh": [
+    "国内前沿 AI 实验室首次将安全与对齐设为独立部门",
+    "聚焦 Agent Model 安全与 CBRN 前沿能力风险防范",
+    "背景是 OpenAI、Anthropic 接连披露智能体失控事件"
+   ],
+   "why_zh": "对齐从研究议题升格为组织建制，反映头部厂商对智能体安全的战略重视。",
+   "tags": [
+    "对齐与安全",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-13",
+   "slot": "noon",
+   "selected_at": "2026-10-13T05:45:00+00:00",
+   "mirror_pdf": "pdf/web-983c3bc8b545.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/012/270.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d372cbed4ef9",
+   "kind": "article",
+   "title": "Anthropic 推出新防护措施，模型蒸馏攻击窃取数据量最高降低 99%",
+   "url": "https://www.ithome.com/1/012/264.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 13 日消息，Anthropic 于当地时间周一表示，该公司推出了多项新防护措施，旨在防止竞争对手复刻 Claude AI 模型的能力。这些措施已经将模型蒸馏攻击中被窃取的数据量降低了约 90% 至 99%。 模型蒸馏已经成为头部 AI 企业重点担忧的问题，Anthropic、OpenAI、谷歌等企业认为，这种手段可以让竞争对手以更低成本、更快速度复刻出模型的前沿能力。 Anthropic 称，这套用于限制外界获取 Claude 推理过程的防护机制，大幅减少了信息提取行为。如今“蒸馏攻击者所能提取到的推理词元（token）数量，仅为之前的十分之一至百分之一”。 IT之家注意到，这家总部位于加州的企业表示，新防护提升了使用代理网络反复探测 Claude 受保护推理链路的难度，拦截信息提取尝试，阻碍大规模蒸馏行动。 Anthropic 称，这套安全系统的稳健程度“大致相当于阻止 Claude 协助制造生物武器的防护体系”，误报率低于 0.1%。 Anthropic 封禁了数万个和蒸馏活动相关的账号，并以 AI 初创企业智谱 AI 举例，称该公司在研发 GLM-5.3 模型期间，曾尝试从 Claude 蒸馏提取模型能力。Anthropic 警告，这类行为会带来安全与国家安全风险。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-13T03:32:28+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/012/264.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic 新防护将模型蒸馏窃取量降低 99%",
+   "summary_zh": "Anthropic 推出新防护措施，称可将蒸馏攻击中窃取的推理 token 量降低 90%–99%，已封禁数万相关账号，并点名智谱 AI 在研发 GLM-5.3 期间尝试蒸馏 Claude。",
+   "highlights_zh": [
+    "新防护使蒸馏可提取 token 量降至原先的 1/10 至 1/100",
+    "误报率低于 0.1%，稳健性对标生物武器防护体系",
+    "点名智谱 AI 蒸馏 Claude，警告安全与国家安全风险"
+   ],
+   "why_zh": "模型蒸馏攻防成为头部厂商核心议题，也牵出中美模型能力竞争。",
+   "tags": [
+    "对齐与安全",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-13",
+   "slot": "noon",
+   "selected_at": "2026-10-13T05:45:00+00:00",
+   "mirror_pdf": "pdf/web-d372cbed4ef9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/012/264.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c68c034bd72c",
+   "kind": "article",
+   "title": "QGIS enacts moratorium on AI contributions",
+   "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-12T11:22:24Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50054751",
+     "signal": "372 pts",
+     "metric": 372
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "QGIS暂停接受AI生成代码贡献",
+   "summary_zh": "开源地理信息软件QGIS宣布对AI贡献实施暂停令，反映开源社区对AI生成代码质量与版权问题的担忧。",
+   "highlights_zh": [
+    "QGIS对AI生成代码贡献实施moratorium（暂停令）",
+    "反映开源社区对AI代码质量、版权与维护成本的顾虑",
+    "Hacker News高热度，引发开源治理讨论"
+   ],
+   "why_zh": "关注AI进入开源协作后治理与质量争议的典型案例",
+   "tags": [
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5976,
+   "score_llm": 6.0,
+   "score": 0.599,
+   "date": "2026-10-13",
+   "slot": "noon",
+   "selected_at": "2026-10-13T05:45:00+00:00",
+   "mirror_pdf": "pdf/web-c68c034bd72c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50054751"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8e50df628255",
+   "kind": "article",
+   "title": "1688全面接入AI电商工作台Accio",
+   "url": "https://www.leiphone.com/category/industrynews/geJK2UpprDrFwEMI.html",
+   "pdf_url": "",
+   "abstract": "10月13日，阿里旗下数字供应链平台1688宣布，即日起，平台逾1亿年度活跃买家和超100万源头厂商，均可直接开通全球电商AI工作台Accio。 接入Accio后，买家不仅能用其完成采购，还能借助“电商管家”智能体运营全网生意；卖家则可通过Accio一站式管理1688店铺。 买家直接用1688账号登录Accio即可开通。卖家在Accio下载“1688生意助手”并绑定店铺后即可使用。作为专为B类生意场景打造的智能体，“1688生意助手”直连商家后台，整合了1688平台多年积累的B类经营数据与AI能力。 作为面向全球中小企业的经营智能体，Accio意为“召之即来”——说清你想做什么，AI替你去办。和通用AI不同，Accio聚焦于电商、生意领域，覆盖电商经营全链路，包括找货、备货、成交、复购和店铺经营。目前，全球已经有1000万中小企业用户在用Accio做生意。 （Accio工作台中的“1688生意助手”操作界面） 全面接入Accio，双11中小商家进货卖货都能用AI 目前1688的买家大多是中小企业甚至“一人公司”，他们以1688为货源地和供应链依托，经营阵地不仅覆盖淘宝、天猫、小红书、拼多多、抖音等平台，还广泛延伸至跨境电商和即时零售领域。 针对这类“既要全网进货、又要多端卖货”的复合需求，Accio重点推出了两项功能。 一是“采购助手”，同时覆盖1688和阿里国际站，买家可在全球128个国家和地区找供应商、比价、发询盘；二是“电商管家”，打通淘宝、天猫、抖音、拼多多、京东等国内主流电商平台，让采购与店铺运营在同一个工作台内闭环完成，无需再来回切换。 值得关注的是，此次1688全面接入Accio正值双11备战期。每逢大促，中小商家每天要应对一连串充满不确定性的决策——哪个广告计划在烧钱？哪个商品可能断货？竞品降价了要不要跟？与此同时，多平台数据“各说各话”，往往等问题汇总出来，最佳处理时机已经过去。此外，大促期间素材需求集中爆发，主图、详情页、海报、短视频要在预热、开门红、高潮、返场各阶段同步更新，团队节奏根本跟不上。 更难熬的是大促期间那种持续紧绷的状态——老板凌晨还在盯数据，每个人都在等其他岗位的反馈。 Accio针对这些痛点逐一给出解法：多平台数据自动汇总，免去繁琐的手动导表；店铺诊断直接输出当天优先行动项；广告分析定位出问题根源，精准判定是产品、计划还是预算问题；商品物料从原图到营销套图一键生成，不用再等设计排期。 上线“1688生意助手”，百万源头工厂用AI管全盘生意 对源头厂商而言，只需要一句自然语言指令，“1688生意助手”就能自主执行全套经营动作——从洞察热卖趋势、智能发图上架、广告分析、意向客户接待，到多店管理与经营决策，全面覆盖工厂做生意的全链路。 1688商家的生意模式差异显著：现货模式（含批发、一件代发和分销）、定制模式（含轻定制、深度定制），以及跨境模式（含内外贸一体、多平台经营），面对的经营难题截然不同。 为此，Accio针对不同类型商家的核心痛点，量身打造了三项差异化AI能力： 一是现货型商家主打“快与省”。现货拼的是上新速度和运营效率，Accio既能一键生成完整商品详情并自动上架，还能批量优化商品素材和标题，帮助提升搜索点击和成交转化； 二是定制型工厂主打“专与准”。定制难在专业接待和询盘转化，Accio既能学习企业知识库，听懂定制需求，答准工艺、交期和报价等专业问题，还能通过买家背调挖掘需求，7×24小时自动跟进每一条潜在商机； 三是跨境型商家主打“全与透”。跨境难在多店管理和经营决策，Accio直连多平台数据，每",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-13T02:44:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/geJK2UpprDrFwEMI.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "1688全面接入AI电商工作台Accio",
+   "summary_zh": "阿里1688向1亿买家与百万厂商开放电商AI工作台Accio，推出采购助手与生意助手，覆盖找货、上架、广告、客服全链路，双11前落地。",
+   "highlights_zh": [
+    "买家可用1688账号直接登录Accio，跨1688与阿里国际站找供应商、比价、发询盘",
+    "卖家下载「1688生意助手」绑定店铺，用自然语言指令完成上架、广告分析与客户接待",
+    "针对现货、定制、跨境三类商家提供差异化AI能力，全球已有1000万中小企业用户"
+   ],
+   "why_zh": "观察AI智能体在B类电商真实经营场景落地的样本",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-13",
+   "slot": "noon",
+   "selected_at": "2026-10-13T05:45:00+00:00",
+   "mirror_pdf": "pdf/web-8e50df628255.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/geJK2UpprDrFwEMI.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-af9b12b4cf27",
+   "kind": "article",
+   "title": "「千问Go！」即将发布，刚帮用户在淘宝申请52元价保退款",
+   "url": "https://www.leiphone.com/category/industrynews/F5qbcy2P4jf6f81T.html",
+   "pdf_url": "",
+   "abstract": "10月13日消息，千问Personal Agent「千问Go！」即将发布。一位用户使用后分享，通过千问Go为自己申请航班延误理赔，已获取70元理赔款；也有用户表示，千问Go已帮忙申请到52元的淘宝价保退款。此外，千问Go还可执行汽车保养、运动预约和购物比价等任务。 资料显示，千问是全球首个能为用户办事的个人AI助理。自去年上线以来，基于阿里生态和开放平台，已实现购物、打车、快递、理财等能力。通过深度体验发现，升级后的千问极大拓展了个人助理的办事范围和能力，需要时，千问可自主查询操作各类授权平台，比较方案、电话联系服务方，完成目标任务。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-13T02:19:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/F5qbcy2P4jf6f81T.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "千问Go！即将发布，已能代办价保退款",
+   "summary_zh": "阿里千问个人Agent「千问Go！」即将发布，用户已用它申请航班延误理赔70元、淘宝价保退款52元，并可执行保养、预约、比价等任务。",
+   "highlights_zh": [
+    "基于阿里生态与开放平台，已具备购物、打车、快递、理财等办事能力",
+    "可自主查询授权平台、比较方案、电话联系服务方完成目标",
+    "定位为「全球首个能为用户办事的个人AI助理」，与字节、腾讯同类产品正面竞争"
+   ],
+   "why_zh": "个人Agent从对话走向实际代办的关键产品进展",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-13",
+   "slot": "noon",
+   "selected_at": "2026-10-13T05:45:00+00:00",
+   "mirror_pdf": "pdf/web-af9b12b4cf27.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/F5qbcy2P4jf6f81T.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ef2495495df4",
+   "kind": "article",
+   "title": "Meta、OpenAI、Google集体杀入，个人Agent一夜爆红：YC CEO说真正的 AGI 已经在你电脑里",
+   "url": "https://www.infoq.cn/article/pkFg3POvaTwJt9lei8Vj?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "傅宇琪,Tina"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-13T11:45:54+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/pkFg3POvaTwJt9lei8Vj?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Meta、OpenAI、Google集体杀入个人Agent",
+   "summary_zh": "Meta、OpenAI、Google集体押注个人Agent，YC CEO称真正的AGI已在你电脑里，文章梳理这一波爆红背后的产品逻辑与竞争格局。",
+   "highlights_zh": [
+    "三大巨头同期布局个人Agent，赛道一夜升温",
+    "YC CEO观点：AGI的形态是能替你操作电脑的智能体，而非聊天机器人",
+    "个人Agent被视为继大模型之后的下一个产品主战场"
+   ],
+   "why_zh": "快速把握个人Agent为何成为巨头必争之地",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-13",
+   "slot": "noon",
+   "selected_at": "2026-10-13T05:45:00+00:00",
+   "mirror_pdf": "pdf/web-ef2495495df4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/pkFg3POvaTwJt9lei8Vj?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-34b41abc0fd1",
+   "kind": "article",
+   "title": "GitHub新晋顶流REA：当大模型能逆向一切，软件行业还剩什么？",
+   "url": "https://www.infoq.cn/article/BEJ6IXREBoXspGmXRQHj?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "Tina"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-13T11:40:05+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/BEJ6IXREBoXspGmXRQHj?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "GitHub新晋顶流REA：大模型逆向一切后软件还剩什么",
+   "summary_zh": "GitHub热门项目REA展示大模型逆向工程能力，文章探讨当AI能逆向一切软件时，行业护城河与开发者价值将如何重构。",
+   "highlights_zh": [
+    "REA成为GitHub新晋热门项目，引发对逆向工程门槛归零的讨论",
+    "核心问题：软件壁垒从代码实现转向何处",
+    "对开发者职业路径与产品策略的冲击性思考"
+   ],
+   "why_zh": "理解大模型能力外溢对软件行业格局的冲击",
+   "tags": [
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-13",
+   "slot": "noon",
+   "selected_at": "2026-10-13T05:45:00+00:00",
+   "mirror_pdf": "pdf/web-34b41abc0fd1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/BEJ6IXREBoXspGmXRQHj?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-08a3bb7d4a2d",
+   "kind": "article",
+   "title": "“大模型时代的谷歌，可能永远不会出现”",
+   "url": "https://www.tmtpost.com/8166394.html",
+   "pdf_url": "",
+   "abstract": "但这并不等于“AI 没有垄断”。",
+   "authors": [
+    "锦缎"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-13T02:42:00+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8166394.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "大模型时代的谷歌，可能永远不会出现",
+   "summary_zh": "钛媒体刊文认为大模型时代难以再现谷歌式的单一垄断者，但这并不意味着AI领域没有垄断，只是垄断形态发生了变化。",
+   "highlights_zh": [
+    "论证大模型时代不会出现谷歌式的搜索垄断者",
+    "指出AI垄断以不同形态存在",
+    "从竞争格局角度反思大模型行业结构"
+   ],
+   "why_zh": "对判断大模型行业竞争终局与垄断形态有启发。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-13",
+   "slot": "noon",
+   "selected_at": "2026-10-13T05:45:00+00:00",
+   "mirror_pdf": "pdf/web-08a3bb7d4a2d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8166394.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0d58dd98a68d",
+   "kind": "article",
+   "title": "王兴兴低估了AI，梁文锋开始重估机器人",
+   "url": "https://www.tmtpost.com/8166052.html",
+   "pdf_url": "",
+   "abstract": "具身智能还没有跨过临界点，但决定它何时跨过去的人，可能已经不只在机器人行业里。",
+   "authors": [
+    "具身商业前哨"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-13T02:26:00+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8166052.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "王兴兴低估了AI，梁文锋开始重估机器人",
+   "summary_zh": "钛媒体分析具身智能现状，认为其尚未跨过临界点，但推动临界点到来的力量可能来自机器人行业之外，梁文锋等AI力量正重新评估机器人方向。",
+   "highlights_zh": [
+    "具身智能尚未跨过商业化临界点",
+    "决定临界点到来的可能不只是机器人行业内部力量",
+    "梁文锋等大模型力量开始重估机器人赛道"
+   ],
+   "why_zh": "反映大模型与具身智能交汇的最新行业动向。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-13",
+   "slot": "noon",
+   "selected_at": "2026-10-13T05:45:00+00:00",
+   "mirror_pdf": "pdf/web-0d58dd98a68d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8166052.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1414f76f2238",
+   "kind": "article",
+   "title": "彭博行业研究分析 AI 数据中心成本：1GW 容量恐超 300 亿美元",
+   "url": "https://www.ithome.com/1/012/275.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 13 日消息，Bloomberg Intelligence（彭博行业研究）近日发布了一份 AI 数据中心成本简报：综合 Cushman & Wakefield 提供的数据和其内部分析， 在美国得克萨斯州阿比林市建设一座 1GW 数据中心的开销可达 307 亿美元 （IT之家注：现汇率约合 2,058.69 亿元人民币） 。 图源：Pexels 这 307 亿美元可划分为十大部分，其中 核心的芯片和服务器硬件设备占据过半的 171 亿美元 ，电力供应基础设施消耗 30 亿美元、冷却系统占到 16.6 亿美元、网络布线方面则是 10.7 亿美元。 此外，土地购买价格达到 1.8 亿美元、整体设计工程 3.61 亿美元、施工 24 亿美元、应急与准备金 27.9 亿美元、调试 1.75 亿美元，另有 3.82 亿美元的各类杂项费用。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-13T04:04:16+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/012/275.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "彭博：1GW AI 数据中心成本或超 300 亿美元",
+   "summary_zh": "彭博行业研究测算，美国得州阿比林一座 1GW AI 数据中心造价可达 307 亿美元，其中芯片与服务器硬件占 171 亿，电力、冷却、网络等基础设施合计逾 60 亿。",
+   "highlights_zh": [
+    "1GW 数据中心总成本约 307 亿美元，芯片与服务器占 55% 以上",
+    "电力供应 30 亿、冷却 16.6 亿、网络布线 10.7 亿",
+    "土地仅 1.8 亿，施工 24 亿，应急准备金 27.9 亿"
+   ],
+   "why_zh": "量化 AI 算力基建的真实资本门槛，理解算力军备竞赛的资金压力。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-13",
+   "slot": "noon",
+   "selected_at": "2026-10-13T05:45:00+00:00",
+   "mirror_pdf": "pdf/web-1414f76f2238.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/012/275.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8f872270b5d9",
+   "kind": "article",
+   "title": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
+   "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
+   "pdf_url": "",
+   "abstract": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application. France’s progress sits on deliberate groundwork. The AI Action Summit in February 2025 and Choose France Summits in 2025 and 2026 anchored major compute commitments […]",
+   "authors": [
+    "Nat Ives"
+   ],
+   "orgs": [
+    "NVIDIA"
+   ],
+   "published": "2026-10-13T05:00:31+00:00",
+   "sources": [
+    {
+     "name": "NVIDIA",
+     "authority": 0.75,
+     "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "法国借NVIDIA规模化部署智能体计算",
+   "summary_zh": "NVIDIA官方称法国在航天、金融、公共部门与科研领域规模化落地智能体计算，依托2025年AI行动峰会等算力承诺从愿景走向应用。",
+   "highlights_zh": [
+    "法国多行业部署智能体计算，覆盖航天、金融、公共部门与科研",
+    "算力承诺源自2025年AI行动峰会与Choose France峰会",
+    "NVIDIA官方叙事，展示国家生态从规划到落地"
+   ],
+   "why_zh": "了解欧洲主权AI与智能体落地的官方叙事与算力布局",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 6.0,
+   "score": 0.552,
+   "date": "2026-10-13",
+   "slot": "noon",
+   "selected_at": "2026-10-13T05:45:00+00:00",
+   "mirror_pdf": "pdf/web-8f872270b5d9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f869ceb5043b",
+   "kind": "article",
+   "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
+   "url": "https://taylor.town/kk-ai-2026",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-12T15:16:45Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50057668",
+     "signal": "170 pts",
+     "metric": 170
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "凯文·凯利2016年AI预测十年回望",
+   "summary_zh": "文章回顾凯文·凯利2016年对AI的预测，十年后检视哪些成真、哪些落空，属回顾性评论。",
+   "highlights_zh": [
+    "复盘KK十年前对AI走向的判断",
+    "对比预测与现实，具一定反思价值",
+    "偏观点回顾，非新技术或市场动态"
+   ],
+   "why_zh": "适合对AI长期趋势叙事感兴趣的读者",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5611,
+   "score_llm": 5.0,
+   "score": 0.5244,
+   "date": "2026-10-13",
+   "slot": "noon",
+   "selected_at": "2026-10-13T05:45:00+00:00",
+   "mirror_pdf": "pdf/web-f869ceb5043b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://taylor.town/kk-ai-2026"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50057668"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "多智能体从演示走向工程化，Unix 式协作范式成新共识",
-   "why": "Anthropic 借鉴 Unix 设计动态工作流，让多 Claude 智能体协作不压垮开发者。",
+   "trend": "多智能体从概念走向工程化，Unix式协作架构成新范式",
+   "why": "Anthropic分享借鉴Unix设计动态工作流，让多Claude智能体协作不压垮开发者，标志架构方法论成熟。",
    "refs": [
     "web-13b0230e9df6"
    ]
   },
   {
-   "trend": "AI 编程进入「量增质不增」瓶颈期，评测重心转向工程价值",
-   "why": "智能体代码产出大增却未带来等量可用软件，生成量与工程价值出现落差。",
+   "trend": "AI编程进入「量增质平」拐点，评测重心转向工程价值",
+   "why": "智能体产出更多代码却未带来等量可用软件，QGIS暂停AI贡献，生成量与工程价值落差成行业共识。",
    "refs": [
     "web-048fcb30e5f3",
+    "web-c68c034bd72c",
     "web-d86fce7f2ce1"
    ]
   },
   {
-   "trend": "AI 基础设施竞争转向开放架构与机架级系统集成",
-   "why": "英伟达开放 Vera Rubin、AMD 推 Helion 机架、微软发 Maia 300，均押注规模化。",
+   "trend": "个人Agent成巨头必争入口，竞争从模型转向任务闭环",
+   "why": "Meta、OpenAI、Google集体押注，阿里千问Go已能代办理赔退款，Agent落地比拼真实任务执行。",
+   "refs": [
+    "web-ef2495495df4",
+    "web-af9b12b4cf27",
+    "web-8e50df628255"
+   ]
+  },
+  {
+   "trend": "算力基建转向开放机架与自研芯片，规模化成本成焦点",
+   "why": "英伟达开放Vera Rubin、AMD推Helion机架、微软发Maia 300，1GW数据中心造价超300亿美元。",
    "refs": [
     "web-64b8fb1d42bf",
     "web-3e9fe091879f",
-    "web-000564da0966"
+    "web-000564da0966",
+    "web-1414f76f2238"
    ]
   },
   {
-   "trend": "本地大模型算力门槛下探，端侧与开发者平台成新战场",
-   "why": "AMD AI Halo 支持 192GB 内存、160GB 共享显存，可本地跑超 300B 模型。",
+   "trend": "模型安全与对齐从合规议题升级为独立组织能力",
+   "why": "字节Seed设国内首个大模型安全对齐部门，Anthropic蒸馏防护降99%，安全成前沿实验室标配。",
    "refs": [
-    "web-948701a558f5"
-   ]
-  },
-  {
-   "trend": "具身智能从出货竞赛转向岗位化落地能力验证",
-   "why": "人形机器人出货暴增但收入集中高端，IEIC 大赛以真实岗位任务考核落地。",
-   "refs": [
-    "web-7f05d79cf56b",
-    "web-e6033264d491",
-    "web-1417c85d6a57"
+    "web-983c3bc8b545",
+    "web-d372cbed4ef9",
+    "web-31780eacb071"
    ]
   }
  ]
