@@ -1829,49 +1829,1238 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "arxiv-2610.17953",
+   "kind": "paper",
+   "title": "Agent-Reflex: Teaching Language Agents to Act Reflectively",
+   "url": "https://arxiv.org/abs/2610.17953",
+   "pdf_url": "https://arxiv.org/pdf/2610.17953",
+   "abstract": "Large language models have evolved from single-turn chatbots into interactive agents capable of long-horizon reasoning. In real deployments, MCP tool services can return noisy feedback and users may intervene to correct the agent, but existing methods provide limited supervision for reflection learning and failure recovery. To bridge this gap, we propose Agent-Reflex, a general training framework for incentivizing proactive reflection in agents. Specifically, Agent-Reflex comprises three stages. First, Environment Reflection Skill Discovery (RSD) injects grounded tool-feedback perturbations into environment scaling, samples a capability-diverse LLM pool, mines matched success-failure pairs, and summarizes reusable reflection meta-skills. Building on this skill library, we then apply Reflective Supervised Fine-Tuning (ReSFT) that converts each skill into supervision for self-reflection, skill recovery, and user-centric correction, strengthening complementary reflective behaviors. Finally, we propose On-Policy Reflective Policy Optimization (ORPO) to combine agentic reinforcement learning under noisy interactions with reflection-guided on-policy distillation to further elicit proactive reflection. Built on Qwen3-8B, Agent-Reflex reaches 58.6 overall on five long-horizon tool-use benchmarks and 29.1 on AgentNoiseBench, surpassing strong environment-scaling and reflection baselines. Experiments on six challenging agent benchmark suites demonstrate the effectiveness of Agent-Reflex. Further analyses show that Agent-Reflex improves agents' robustness to noise while maintaining stable training dynamics, supporting scalable agent training. Our code is available at https://github.com/RUC-NLPIR/Agent-Reflex.",
+   "authors": [
+    "Guanting Dong",
+    "Xinyu Yang",
+    "Jiajie Jin",
+    "Yuyang Hu",
+    "Xiaoshuai Song",
+    "Yifei Chen",
+    "Xiaoxi Li",
+    "Jiejun Tan",
+    "Yutao Zhu",
+    "Tat-Seng Chua",
+    "Ji-Rong Wen",
+    "Zhicheng Dou"
+   ],
+   "orgs": [
+    "NLPIR Lab @ RUC"
+   ],
+   "published": "2026-10-13T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.17953",
+     "signal": "▲ 84",
+     "metric": 84
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Agent-Reflex：教语言智能体反思行动",
+   "summary_zh": "人大NLPIR提出Agent-Reflex训练框架，通过环境反思技能发现、反思监督微调与在线反思策略优化三阶段，让智能体在噪声工具反馈和用户干预下主动反思与恢复，Qwen3-8B在五个长程工具基准达58.6。",
+   "highlights_zh": [
+    "注入工具反馈扰动并挖掘成功-失败配对，总结反思元技能",
+    "ReSFT将技能转为自反思、技能恢复与用户纠正监督",
+    "ORPO结合噪声下智能体RL与反思引导在线蒸馏"
+   ],
+   "why_zh": "智能体鲁棒性与反思学习的关键训练方法，对做Agent落地很有参考价值。",
+   "tags": [
+    "智能体",
+    "强化学习",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.6456,
+   "score_llm": 8.0,
+   "score": 0.7382,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T10:02:29+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.17953.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.17953"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.17953"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.17953"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.17953"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.17953"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.17953"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/RUC-NLPIR/Agent-Reflex"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.18356",
+   "kind": "paper",
+   "title": "Urbex: Agentic Spatial Grounding for City-Scale 3D Scenes",
+   "url": "https://arxiv.org/abs/2610.18356",
+   "pdf_url": "https://arxiv.org/pdf/2610.18356",
+   "abstract": "City-scale 3D grounding is commonly formulated as candidate ranking, which requires precomputed instance proposals and becomes inefficient in large outdoor scenes. We propose Urbex, an agentic vision-language framework that instead casts grounding as active spatial search. Urbex represents a city-scale 3D scene as an interactive multi-view environment, allowing a VLM agent to query landmarks, zoom into local regions, render oblique views, and commit a grounded bounding box. We optimize this tool-use policy with reinforcement learning on CityRefer, using smooth localization rewards and lightweight shaping rewards for efficient exploration. Experiments show that Urbex achieves the best Hit@1 and IoU on CityRefer, supports candidate-free grounding without ground-truth boxes, and is substantially faster than the strongest city-scale ranking baseline. Zero-shot results on STPLS3D-Refer further indicate improved cross-scene robustness.",
+   "authors": [
+    "Yu Wang",
+    "Rui Dai",
+    "Wei Chen",
+    "Yi Wang",
+    "Bo Dang",
+    "Kaikui Liu",
+    "Xiangxiang Chu",
+    "Yansheng Li"
+   ],
+   "orgs": [
+    "alibaba"
+   ],
+   "published": "2026-10-13T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.18356",
+     "signal": "▲ 75",
+     "metric": 75
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Urbex：城市级3D场景的智能体空间定位",
+   "summary_zh": "阿里提出Urbex，把城市级3D定位从候选排序改为智能体主动空间搜索，VLM可查询地标、放大局部、渲染斜视图并输出框，用强化学习优化工具使用策略，在CityRefer上Hit@1与IoU最优且更快。",
+   "highlights_zh": [
+    "将3D grounding重构为主动搜索，无需预计算候选框",
+    "用平滑定位奖励与轻量塑形奖励做RL训练",
+    "STPLS3D-Refer零样本验证跨场景鲁棒性"
+   ],
+   "why_zh": "城市级3D理解与具身智能体结合的新范式，值得关注空间推理方向。",
+   "tags": [
+    "智能体",
+    "视觉",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.7189,
+   "score_llm": 7.0,
+   "score": 0.7076,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T10:02:29+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.18356.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.18356"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.18356"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.18356"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.18356"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.18356"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.18356"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/AMAP-ML/Urbex"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.18860",
+   "kind": "paper",
+   "title": "AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards",
+   "url": "https://arxiv.org/abs/2610.18860",
+   "pdf_url": "https://arxiv.org/pdf/2610.18860",
+   "abstract": "Generating information-rich visual artifacts such as slides, posters, and dashboards as code is appealing because the outputs are structured, editable, and verifiable. Yet code models cannot see how their choices of layout and color come together on the canvas, often limiting spatial planning and aesthetic quality. Image generators excel at visual design but can misrender requested content, making their outputs unreliable targets for direct reproduction. We therefore introduce AesCode, which generates code grounded in the content prompt while using an image generated from the same prompt as an aesthetic guidance. To do so, AesCode represents the target as a design graph that describes the whole canvas and makes each property attributable. From this graph, we derive complementary cross-modal rewards: deterministic verifiers score properties parsable from code and rendering, while a VLM judge assesses the non-parsable ones with a sample-specific Visual Graph Rubric (VGR) tied to graph elements and relations. We optimize these decoupled rewards through reinforcement learning with per-channel normalization to jointly improve spatial planning, aesthetic quality, and verifiable correctness. To evaluate this setting, we build a benchmark that scores verifiable correctness and visual quality separately, with visual scores highly consistent with human judgments. We find that reference images substantially improve the visual quality of code generated by existing models, and ablations show that AesCode benefits from references both as model input and as a source of visual rewards. Relative to same-scale Qwen3-VL baselines given the same references, AesCode-8B and AesCode-32B improve visual quality by 31.1 and 22.4 percentage points, reaching scores comparable to those of closed-source frontier models such as GPT-5.5 and Claude Opus 4.8.",
+   "authors": [
+    "Xin Gao",
+    "Yifan Yang",
+    "Xin Li",
+    "Pan Wang",
+    "Yan Li",
+    "Muzhao Tian",
+    "Mingxi Cheng",
+    "Bei Liu",
+    "Kai Qiu",
+    "Qi Dai",
+    "Dong Chen",
+    "Yue Dong",
+    "Leandros Tassiulas",
+    "Rex Ying",
+    "Ji Li",
+    "Chong Luo"
+   ],
+   "orgs": [
+    "Microsoft"
+   ],
+   "published": "2026-10-13T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.18860",
+     "signal": "▲ 34",
+     "metric": 34
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AesCode：解耦跨模态奖励的美学代码生成",
+   "summary_zh": "微软提出AesCode，用同一提示生成的图像作美学引导，将目标表示为设计图并派生可解析验证器与VLM评判的互补奖励，通过RL联合提升布局规划、美学与可验证正确性，并构建分离评测基准。",
+   "highlights_zh": [
+    "设计图表示让每个属性可归因、可验证",
+    "确定性验证器与VLM评判解耦奖励，分通道归一化",
+    "新基准分别打分正确性与视觉质量，与人类判断高度一致"
+   ],
+   "why_zh": "代码生成与视觉设计交叉的新任务，奖励设计思路可迁移到多模态生成。",
+   "tags": [
+    "多模态",
+    "代码",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.6726,
+   "score_llm": 7.0,
+   "score": 0.689,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T10:02:29+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.18860.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.18860"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.18860"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.18860"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.18860"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.18860"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.18860"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/microsoft/AesCode"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.18773",
+   "kind": "paper",
+   "title": "Jeva: System One Models from First Principles",
+   "url": "https://arxiv.org/abs/2610.18773",
+   "pdf_url": "https://arxiv.org/pdf/2610.18773",
+   "abstract": "System one models enable direct, low-latency decision-making. Yet recent practice of predicting an answer from serialized text does not, by itself, respect the structure of a decision problem. We argue that current designs underemphasize four important structural requirements. (i) null-aware: Models should distinguish answer absence from uncertainty among candidates; (ii) permutation-invariant: Reordering alternatives should not change the decision; (iii) option-scalable: Growing candidate sets should not require redefining the output space; (iv) cacheable: Request-independent computation over recurring alternatives should be reusable across requests. We introduce Jeva, a decision-native architecture that addresses these requirements jointly. A shared encoder independently represents the request and each option, while a compact decision stack refines only the request state against immutable option memory. Symmetric aggregation yields permutation-equivariant probabilities; shared scoring accommodates variable-size candidate sets. A separate coverage estimate distinguishes answer absence from candidate competition, enabling explicit null outcomes. Request-independent option representations and layer projections support reuse across newly assembled sets. These mechanisms unify Choice, Noul, and Score outputs. Across evaluations, Jeva combines strong typed-decision performance with near-perfect null detection and no decision flips under any tested permutations. It scales to thousands of candidates and substantially reduces latency through cross-request reuse without changing decisions.",
+   "authors": [
+    "Qi Li",
+    "Xinchao Wang"
+   ],
+   "orgs": [
+    "National University of Singapore"
+   ],
+   "published": "2026-10-13T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.18773",
+     "signal": "▲ 62",
+     "metric": 62
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Jeva：从第一性原理构建System One模型",
+   "summary_zh": "新加坡国立大学提出Jeva决策原生架构，满足null感知、置换不变、选项可扩展与可缓存四项结构要求：共享编码器独立表示请求与选项，决策栈仅精炼请求状态，对称聚合输出置换等变概率，并单独估计覆盖度以区分无答案与候选竞争。",
+   "highlights_zh": [
+    "指出序列化文本预测忽视决策问题结构",
+    "选项表示与请求无关，可跨请求复用缓存",
+    "统一Choice、Noul、Score三类输出"
+   ],
+   "why_zh": "对System One决策建模范式的系统性反思，适合关注低延迟推理架构的读者。",
+   "tags": [
+    "推理",
+    "理论",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.6277,
+   "score_llm": 7.0,
+   "score": 0.6711,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T10:02:29+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.18773.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.18773"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.18773"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.18773"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.18773"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.18773"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.18773"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/LiQiiiii/Jeva"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3da3e7bca83e",
+   "kind": "article",
+   "title": "Apple HomeView, The New Apple TV, The App Story",
+   "url": "https://stratechery.com/2026/apple-homeview-the-new-apple-tv-the-app-story/",
+   "pdf_url": "",
+   "abstract": "The Apple Homeview is official, and the question is how big is the addressable market for expensive devices based on subpar AI.",
+   "authors": [
+    "Ben Thompson"
+   ],
+   "orgs": [
+    "Stratechery"
+   ],
+   "published": "2026-10-14T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "Stratechery",
+     "authority": 0.8,
+     "url": "https://stratechery.com/2026/apple-homeview-the-new-apple-tv-the-app-story/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Ben Thompson，科技战略分析",
+   "title_zh": "Ben Thompson：Apple HomeView 与平庸 AI 的市场天花板",
+   "summary_zh": "Ben Thompson 认为 Apple HomeView 已官宣，核心疑问是搭载平庸 AI 的高价设备究竟有多大的可寻址市场。",
+   "highlights_zh": [
+    "质疑高价设备叠加平庸 AI 的市场空间",
+    "关注 Apple 新硬件战略",
+    "从可寻址市场角度切入分析"
+   ],
+   "why_zh": "头部分析师对 Apple AI 硬件战略的冷静判断",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.648,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T10:02:29+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://stratechery.com/2026/apple-homeview-the-new-apple-tv-the-app-story/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-14da101e42fa",
+   "kind": "article",
+   "title": "Claude写代码太快，Git扛不住了：Anthropic仅靠7人，5个月重造版本控制系统",
+   "url": "https://www.infoq.cn/article/6iRATYfkqF7aITPaFR2R?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "蔡芳芳"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-14T11:46:46+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/6iRATYfkqF7aITPaFR2R?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Claude写代码太快Git扛不住，Anthropic七人五月重造版本控制",
+   "summary_zh": "Anthropic仅用7人5个月重造版本控制系统，原因是Claude生成代码速度远超Git处理能力，暴露AI编程工具对基础设施的新需求。",
+   "highlights_zh": [
+    "Claude写代码速度导致Git成为瓶颈，催生新版本控制方案",
+    "Anthropic仅7人团队5个月完成重造",
+    "反映AI编程工具对底层开发基础设施的冲击与重构需求"
+   ],
+   "why_zh": "揭示AI编程工具对开发基础设施的深层冲击，值得关注。",
+   "tags": [
+    "代码",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T10:02:29+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/6iRATYfkqF7aITPaFR2R?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5cb1618c1db5",
+   "kind": "article",
+   "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+   "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+   "pdf_url": "",
+   "abstract": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+   "authors": [],
+   "orgs": [
+    "Google DeepMind"
+   ],
+   "published": "2026-10-14T02:00:14+00:00",
+   "sources": [
+    {
+     "name": "Google DeepMind",
+     "authority": 0.85,
+     "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "DeepMind 与新加坡政府合作打造反诈骗微调模型",
+   "summary_zh": "Google DeepMind 与新加坡 GovTech 用轻量端侧 Gemma 模型拦截私聊中的对话式诈骗，数据不出云端。",
+   "highlights_zh": [
+    "基于端侧 Gemma 做轻量化微调",
+    "针对对话式诈骗这一具体场景",
+    "零云端数据外泄，兼顾隐私"
+   ],
+   "why_zh": "是端侧小模型在公共安全场景落地的典型案例。",
+   "tags": [
+    "效率与系统",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.52,
+   "score_llm": 7.0,
+   "score": 0.628,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T10:02:29+00:00",
+   "mirror_pdf": "pdf/web-5cb1618c1db5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7579ead0822c",
+   "kind": "article",
+   "title": "XBOW 借助 GPT-5.6 Sol 模型攻破 Chrome 浏览器安全沙箱，获谷歌 25 万美元奖励",
+   "url": "https://www.ithome.com/1/012/963.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 14 日消息，安全研究团队 XBOW 近期发现、构建一套 Chrome 浏览器全链路漏洞利用程序，预计影响全球约 10 亿用户。相关漏洞目前已报告给谷歌且已经修复， 谷歌还为团队提供了 25 万美元 （IT之家注：现汇率约合 167.6 万元人民币） 漏洞赏金 。 XBOW 表示，他们借助 OpenAI 的 GPT-5.6 Sol 等模型，以及四名研究人员，仅用 6 天就攻破了 Chrome 漏洞并获得系统完全访问权限。据某业内人士所述，类似的工作如果全部由人类完成，需要大约 6 个月。 该团队在研究漏洞时投入的算力成本约为 4 万美元 （现汇率约合 26.8 万元人民币） ，AI 负责搜索 Chrome 源代码、测试想法、构建概念验证程序，编写漏洞利用程序的初始版本。团队成员则负责制定整体策略、决定研究方向、检查智能体的工作成果，并根据最初的测试结果调整智能体的行动。 XBOW 提醒广大用户， 务必确保 Chrome 浏览器为最新版本 ，他们发现的三个漏洞都已经被谷歌修复。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-14T08:43:00+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/012/963.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "XBOW借助GPT-5.6攻破Chrome沙箱获25万美元赏金",
+   "summary_zh": "安全团队XBOW借助GPT-5.6 Sol等模型，4人6天攻破Chrome安全沙箱获系统完全访问权限，谷歌修复漏洞并支付25万美元赏金。",
+   "highlights_zh": [
+    "AI负责搜索源代码、测试想法、构建概念验证与漏洞利用初版",
+    "算力成本约4万美元，人类完成类似工作约需6个月",
+    "三个漏洞已修复，影响全球约10亿Chrome用户"
+   ],
+   "why_zh": "AI辅助漏洞挖掘效率提升的标杆案例，安全行业信号",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T10:02:29+00:00",
+   "mirror_pdf": "pdf/web-7579ead0822c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/012/963.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d1f8258ec212",
+   "kind": "article",
+   "title": "Gemini 4 Argon",
+   "url": "https://deepmind.google/models/gemini/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-13T16:03:16Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50073879",
+     "signal": "1308 pts",
+     "metric": 1308
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Gemini 4 Argon 引发热议",
+   "summary_zh": "Hacker News 高热度讨论 Gemini 4 Argon，但候选未提供正文摘要，具体发布内容与规格无法确认。",
+   "highlights_zh": [
+    "HN 1308 分，社区关注度极高",
+    "标题指向 Gemini 4 新版本或代号 Argon",
+    "缺乏正文，需查证官方发布信息"
+   ],
+   "why_zh": "若为谷歌新旗舰模型发布，将影响大模型竞争格局，建议核实原文。",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.62,
+   "score_llm": 6.0,
+   "score": 0.608,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T10:02:29+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://deepmind.google/models/gemini/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50073879"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6e23e0f5ea81",
+   "kind": "article",
+   "title": "国内最年轻AI教授创业：要让世界模型走向全身全模态",
+   "url": "https://www.qbitai.com/2026/10/503172.html",
+   "pdf_url": "",
+   "abstract": "给Ego补上缺失的交互信息",
+   "authors": [
+    "思邈"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-14T04:51:32+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/503172.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "国内最年轻AI教授创业：世界模型走向全身全模态",
+   "summary_zh": "国内最年轻AI教授创业，主张为Ego数据补上缺失的交互信息，推动世界模型向全身全模态方向发展。",
+   "highlights_zh": [
+    "聚焦世界模型与全身全模态",
+    "补足Ego数据交互信息缺失",
+    "学术背景创业者切入具身智能"
+   ],
+   "why_zh": "了解世界模型与具身智能前沿方向的新思路。",
+   "tags": [
+    "机器人",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T10:02:29+00:00",
+   "mirror_pdf": "pdf/web-6e23e0f5ea81.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/503172.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-89a4fac1e51f",
+   "kind": "article",
+   "title": "iPhone断网跑35B多模态！国产开源新模型，只占3G内存",
+   "url": "https://www.qbitai.com/2026/10/503109.html",
+   "pdf_url": "",
+   "abstract": "面壁开源MiniCPM-V 4.7",
+   "authors": [
+    "十三"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-13T20:55:15+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/503109.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "面壁开源 MiniCPM-V 4.7：iPhone 断网跑 35B 多模态",
+   "summary_zh": "面壁智能开源 MiniCPM-V 4.7，仅占约 3G 内存即可在 iPhone 断网环境下运行 35B 多模态模型。",
+   "highlights_zh": [
+    "端侧 35B 多模态模型",
+    "内存占用仅约 3G",
+    "支持 iPhone 断网本地推理"
+   ],
+   "why_zh": "端侧多模态能力再进一步，值得关注落地边界",
+   "tags": [
+    "多模态",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T10:02:29+00:00",
+   "mirror_pdf": "pdf/web-89a4fac1e51f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/503109.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2c1c2c493e6e",
+   "kind": "article",
+   "title": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks",
+   "url": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
+   "pdf_url": "",
+   "abstract": "Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench, simply independently confirm their claims.",
+   "authors": [
+    "Latent.Space"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-14T05:40:28+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "AINews：Gemini 4 Argon 正式发布，Vals AI 基准出炉",
+   "summary_zh": "Gemini 4 Argon 正式 GA，多数基准如 CursorBench 独立验证了其宣称的性能表现。",
+   "highlights_zh": [
+    "Gemini 4 Argon 正式 GA",
+    "CursorBench 等基准独立验证",
+    "Vals AI 基准同步发布"
+   ],
+   "why_zh": "快速了解 Gemini 新版本与第三方基准验证",
+   "tags": [
+    "大模型",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 6.0,
+   "score": 0.58,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T10:02:29+00:00",
+   "mirror_pdf": "pdf/web-2c1c2c493e6e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-411399ca2c6b",
+   "kind": "article",
+   "title": "刚刚，Anthropic 宣布弃用Git，统治编程20年的工具顶不住AI了",
+   "url": "https://www.ifanr.com/1684269?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "以 AI 发展速度，一年后我们又该弃用 Scion #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "张子豪"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-14T06:10:14+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1684269?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic 宣布弃用 Git，AI 冲击二十年编程工具",
+   "summary_zh": "Anthropic 宣布弃用 Git，引发对 AI 时代编程工具链变革的讨论，称一年后或将弃用更多传统工具。",
+   "highlights_zh": [
+    "Anthropic 宣布弃用 Git",
+    "AI 冲击传统编程工具链",
+    "预示工具更迭加速"
+   ],
+   "why_zh": "头部 AI 公司对开发工具链态度的风向标",
+   "tags": [
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T10:02:29+00:00",
+   "mirror_pdf": "pdf/web-411399ca2c6b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1684269?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7c2c636eecf3",
+   "kind": "article",
+   "title": "AI 短剧日产 1500 部：一场全员狂飙下的 「无人生还」",
+   "url": "https://www.leiphone.com/category/ai/M7t0xBzr6K3vaFwi.html",
+   "pdf_url": "",
+   "abstract": "“现在整个短剧行业就是一片混乱，每个人都很焦虑、很迷茫。” 这是过去一个月里，雷峰网与多位 AI 短剧从业者交流时，听到最多的一句话。 上个月刚跑通的流程，这个月平台改了分账规则又得重新算账。好不容易摸清了提示词的写法，AI 视频生成工具一更新经验立马作废。甲方的尾款还没到账，下一部剧的制作成本已经垫出去了。 这个行业节奏快到近乎疯狂，但没人说得清终点和方向。 眼下，AI 短剧日上线量已突破 1500 部，制作成本从真人剧的几十上百万压缩到五万以内，大批团队仍在涌入赛道。 可几乎所有受访者传递同一个信号： 除了平台，几乎没人真正赚到钱。 01 一部剧的生死，只有三天 用传统内容生意的逻辑很难理解 AI 短剧，它更像一场高速运转的概率赌局。 今年 8 月底，短剧编剧朱晓冉选择从大厂辞职。在真人短剧时代，编剧花一个月打磨本子是常态，但AI 短剧爆发后，她的工作节奏被彻底改写。 “领导觉得有了 AI 工具，写本效率也该跟着上来。上半年最忙的时候，我一个月交了四个本子。剧本送交承制方后，几天就能产出成片。” 产量快速拉高，质量却很快摸到了天花板。在朱晓冉看来，纯人工打磨的剧本可以做到九十分甚至一百分，AI 辅助创作的剧本上限大多只有八十分。 “老板也很清楚这一点，但他更想要四个八十分，而不是一个一百分。” 朱晓冉表示。 “这个行业现在本质是靠量赌概率，我们统计过 AI 短剧的爆率大概是千分之四，其余的基本都是无效产出。” 朱晓冉解释了一下这个逻辑，就算前面花六百万拍十部都扑了，只要第十一部赚了七百万覆盖全部亏损，这套商业模式就成立。 “真人短剧粗制滥造一点三四十万就能拍出来，精品剧的制作费得一百万到一百五十万左右，但现在一部AI短剧的总投入五万就能搞定。” 分成上，朱晓冉透露通常是编剧几千到一万，制作两三万到三四万，整个环节的总成本被压得极低。 但产出剧集只是开始，拿到曝光才是整个环节的生死关口。 “ 一部剧上线后，三天内没起量基本就凉了，不会有什么长尾效应 。因为曝光最集中的时间就是前三天投流期，如果三天内起不来，大家就会立马放弃投流转投新剧。” 朱晓冉坦言。 拥有九年影视从业经验的短剧导演瑾诺分享，短剧极度依赖投流，纯靠自然流量做火的案例业内确实也有，但概率几乎等于中大乐透。 “投流这个环节大平台有专门的运营部门和投流手，外面也有专门的投流公司，好的投流手甚至能把一个一般的剧本投成大爆款。” 但就算有投流加持，AI 短剧也会遭遇流量瓶颈。 “ 某短剧平台的流量池有个别称叫‘流量黑盒子’，热度到 4000 万推你去下一层，5000 万再推。但 AI 漫剧到 4000 万就上不去了，开始卡流量。 当然，推流机制没人知道，内部是否可以操控，无人知晓。” 瑾诺说。 流量之外，收入也越来越少。 目前在多数平台模式下，制作方收入主要分为两块：平台给剧本的保底金，以及剧集上线后的播放量分成。 瑾诺坦言，“上半年国内 AI 短剧市场还能赚钱的，但现在不行了。因为很多短剧平台调整了分成规则，现在做 AI 漫剧可能横屏能小赚一点，但是整体要求也会相对应更高，不然自制基本亏本。” 规则确实在变，今年4 月，红果率先下调AI 漫剧基础分账系数：AI 仿真人分账系数从 60 下调至 40，3D 漫剧从 50 下调至 40，同时取消中小团队 AI 仿真人剧本普惠保底。 到了9月，红果又在《优质 AI 剧生产活动 2.0》中，取消了行业批量做 IP 续集赖以获利的系列剧规模系数。对靠批量做 IP 续集获利的团队来说，这条路也收窄了。 “能拿到可观分成的只有金字塔尖极少数，大部分项",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-14T07:42:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/M7t0xBzr6K3vaFwi.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI 短剧日产 1500 部：全员狂飙下的无人生还",
+   "summary_zh": "AI 短剧日上线量破 1500 部，成本压至 5 万以内，但爆率仅千分之四，平台下调分账后除平台外几乎无人赚钱。",
+   "highlights_zh": [
+    "AI 短剧日上线量突破 1500 部，制作成本压缩至 5 万以内",
+    "爆率约千分之四，本质是靠量赌概率",
+    "红果等平台下调分账系数，多数团队难盈利"
+   ],
+   "why_zh": "深度揭示 AI 内容生成赛道的真实商业困境与平台规则博弈。",
+   "tags": [
+    "产品与行业",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T10:02:29+00:00",
+   "mirror_pdf": "pdf/web-7c2c636eecf3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/M7t0xBzr6K3vaFwi.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3a984f5cfa2b",
+   "kind": "article",
+   "title": "腾讯AI办公再进一步，企业微信与WorkBuddy深度联合",
+   "url": "https://www.leiphone.com/category/industrynews/7m8YMd1LU7x6aDvM.html",
+   "pdf_url": "",
+   "abstract": "10月14日，腾讯旗下两大用户规模领先的办公产品——企业微信与 WorkBuddy 联合发布新版本，实现双向深度联合。此次升级后，WorkBuddy 正式进入企业微信通讯录，可调用企微的工作上下文，二者共用一套企业微信账号体系。此次更新将腾讯长期积累的连接能力，与智能体的理解和执行能力结合，深入企业实际场景。目前，企业微信已覆盖超过 1400 万真实企业与组织，每日通过企业微信服务的微信用户达 7.5 亿。企业无需更换平台、迁移数据或改变工作习惯，就能在熟悉的工作方式中用上AI实现效率提升。 连接全域上下文，AI进入办公现场成为真实生产力 在全新发布的企业微信 5.0.12版本中，WorkBuddy将以可对话机器人的身份进入企业联系人列表，用户可以随时通过聊天的方式处理任务；同时，最新5.8.0版本的WorkBuddy同步支持企业微信账号登录，在企业授权范围内，获得包括消息、文档、会议、网盘在内的十大能力权限，完成深度分析、复杂文档处理等多种任务。 企业经营的“全域上下文”，不只有文档和会议等内部协同数据，还包括与外部客户相连的需求、服务和业务反馈。基于企业微信连接内外的独特优势，WorkBuddy真正获得了企业全域上下文，参与项目协作、业务流程与客户服务，推动任务流转、发现客户商机，让AI从办公提效走向提升企业经营的组织生产力。 AI从个人提效迈向统一部署，企业数据更加安全可控 对于企业而言，AI 使用不再是分散的个人选择。账号体系的打通意味着在企业微信内，管理员可以统一配置企业的 WorkBuddy 机器人，进行账号分配、用量管理及 AI 算力采购。根据员工的组织身份，设置不同人员的访问权限，并限制 AI 访问高敏感信息，更清晰地界定数据流转路径与责任边界，使信息更加安全可控。 在提供一整套AI办公解决方案同时，腾讯也为企业提供了更开放的AI生态和平台能力。企业微信与 WorkBuddy 支持多模型、多 Agent 的开放选择，企业可按岗位和业务场景组合 AI 能力。此外，基于WorkBuddy企业版办公套件，企业客户还可以一键打通腾讯文档、腾讯乐享、腾讯网盘、安全与效能运营平台、腾讯 AI 设计智能体 Ardot 等协同办公套件帐号，实现办公记忆和数据共享、一个Agent底座实现体验及管理后台同步。 目前，新版本互通能力面向企业微信已认证企业开放，并提供限免体验名额，企业可领取、申请开通或统一采购。欧莱雅、麦当劳、比亚迪等企业正探索落地“企业微信 + WorkBuddy”方案。 雷峰网 雷峰网",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-14T05:57:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/7m8YMd1LU7x6aDvM.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "企业微信与WorkBuddy深度打通，AI办公进入统一部署时代",
+   "summary_zh": "企业微信5.0.12与WorkBuddy 5.8.0实现账号体系与十大能力权限互通，管理员可统一配置AI机器人、分配算力与权限，AI办公从个人提效转向企业级统一部署。",
+   "highlights_zh": [
+    "WorkBuddy以可对话机器人身份进入企业微信通讯录，支持企微账号登录，获得消息、文档、会议、网盘等十大能力权限",
+    "管理员可统一配置机器人、分配账号与算力采购，按组织身份设置访问权限，限制AI访问高敏感信息",
+    "支持多模型、多Agent开放选择，可一键打通腾讯文档、乐享、网盘、Ardot等套件，欧莱雅、麦当劳、比亚迪等正探索落地"
+   ],
+   "why_zh": "观察腾讯AI办公战略如何从工具走向企业级Agent平台的关键案例。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T10:02:29+00:00",
+   "mirror_pdf": "pdf/web-3a984f5cfa2b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/7m8YMd1LU7x6aDvM.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-75d67ea3b64c",
+   "kind": "article",
+   "title": "信仰加速，估值刹车：具身智能最后一道题，王兴兴凭什么交给 GPT-7",
+   "url": "https://www.tmtpost.com/8168230.html",
+   "pdf_url": "",
+   "abstract": "这个行业犯了一个集体性的认知错误",
+   "authors": [
+    "斯马克开源"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-14T09:16:05+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8168230.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "信仰加速，估值刹车：具身智能最后一道题，王兴兴凭什么交给GPT-7",
+   "summary_zh": "文章认为具身智能行业存在集体性认知错误，探讨宇树王兴兴将通用操作难题押注于未来GPT-7级别模型的路径是否可行。",
+   "highlights_zh": [
+    "指出具身智能行业普遍存在认知误区",
+    "讨论机器人通用操作能力与基础模型的关系",
+    "对当前具身智能估值与信仰提出质疑"
+   ],
+   "why_zh": "对具身智能技术路线与泡沫有批判性思考，值得一读。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T10:02:29+00:00",
+   "mirror_pdf": "pdf/web-75d67ea3b64c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8168230.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4246c88a8e74",
+   "kind": "article",
+   "title": "SK 海力士预测：到 2030 年，AI 基础设施性能规模将增长约 20 倍",
+   "url": "https://www.ithome.com/1/012/980.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 14 日消息，据韩联社报道，SK 海力士开发总管安炫（Ahn Hyun）今日在首尔江南区 COEX 举行的“第 28 届韩国半导体大展”(SEDEX 2026) 上发表主旨演讲。他预测称， 2030 年 AI 基础设施性能规模将增长约 20 倍 。 安炫指出，当前 AI 推理市场正同时在三个维度快速扩张：任务复杂度的提升、单次处理信息量（上下文长度）的激增，以及推理请求量的井喷。这些因素相互交织，推动了 AI 算力基础设施需求的迅猛增长。 随着 AI 推理需求的暴增，承担海量数据存储与迁移任务的存储器，其关键地位愈发凸显。特别是用于保存并复用前序处理信息的“键值缓存（KV Cache）”容量持续膨胀，迫使系统必须将数据分摊存储于高带宽内存 HBM、DRAM 以及 SSD 等不同介质中。分析表明，在此过程中产生的数据迁移，正演变为制约性能提升并推高系统能耗的全新瓶颈。 对此，安炫作出了这一预测， 即人工智能基础设施的性能规模到 2030 年将增长约 20 倍。 安炫强调，行业不能仅停留在提升单一存储芯片的性能上，而亟需采取优化整个存储层次结构的全局方案。 为此，SK 海力士在持续优化现有 HBM 性能的同时，正全力推进 3D 堆叠 DRAM 以及高带宽闪存 HBF 等下一代存储技术的研发： 3D 堆叠 DRAM ：通过在 GPU、NPU 等逻辑芯片之上直接堆叠 DRAM，在大幅跃升传输性能的同时显著降低能耗。 高带宽闪存 HBF ：将成熟应用于 HBM 的硅通孔立体堆叠与高速 I/O 接口技术导入 NAND 闪存，旨在 HBM 与 DRAM 之间开辟全新的存储层级。 IT之家从报道获悉，SK 海力士的目标是将 HBF 的带宽做到同代 HBM 的 50% 左右，同时实现约 10 倍的容量扩容。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-14T09:34:06+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/012/980.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "SK海力士预测：2030年AI基础设施性能规模将增长约20倍",
+   "summary_zh": "SK海力士预测2030年AI基础设施性能规模增长约20倍，指出KV Cache膨胀导致数据迁移成为新瓶颈，正研发3D堆叠DRAM与HBF。",
+   "highlights_zh": [
+    "AI推理在任务复杂度、上下文长度、请求量三维度扩张",
+    "KV Cache膨胀使数据迁移成性能与能耗新瓶颈",
+    "推进3D堆叠DRAM与高带宽闪存HBF研发"
+   ],
+   "why_zh": "从存储视角理解AI推理算力瓶颈与下一代内存技术方向。",
+   "tags": [
+    "效率与系统",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T10:02:29+00:00",
+   "mirror_pdf": "pdf/web-4246c88a8e74.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/012/980.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-90b5b83d63ec",
+   "kind": "article",
+   "title": "全球首款 8K 超高清 AI 空间相机：禾赛 Kosmo One 发布，让建模像拍照一样简单",
+   "url": "https://www.ithome.com/1/012/976.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 14 日现场消息，禾赛科技今日发布了“全球首款 8K 超高清 AI 空间相机”—— Kosmo One ，可将真实世界转化为高质量三维空间模型。 禾赛 Kosmo One 搭载 一英寸 CMOS ，最高拍摄分辨率可达 8K，实现 360° 无死角覆盖；15 分钟即可完成 100m² 真实空间重建，宣称“让高质量空间建模像拍照一样简单”。 禾赛 Kosmo One 可将真实世界转化为机器人训练数据，用于机器人进行物理 AI 训练，并且可用于世界模型、影视媒体、文旅文化、数字艺术等领域。 禾赛还一同发布了 Kosmo World ，这是一个 AI 驱动的云平台，搭配 Kosmo One 可进行一站式 3D 内容创作与管理。 IT之家在发布会现场了解到，禾赛 Kosmo 宣布与高德地图合作， 开放首批千个试点 ，覆盖优质商场、零售网点、餐饮、酒店和品牌门店，将门店内部完整扫描重建出高精度 3D 空间模型，不再只是传统二维平面图。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-14T09:21:32+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/012/976.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "禾赛发布8K AI空间相机Kosmo One",
+   "summary_zh": "禾赛发布全球首款8K超高清AI空间相机Kosmo One，15分钟完成100m²空间重建，可将真实世界转化为机器人训练数据与3D模型。",
+   "highlights_zh": [
+    "搭载一英寸CMOS，8K分辨率，360°无死角覆盖",
+    "可将真实空间转化为机器人物理AI训练数据与世界模型素材",
+    "与高德地图合作开放首批千个试点，覆盖商场、零售等场景"
+   ],
+   "why_zh": "空间数据采集与机器人训练数据获取的新工具方向",
+   "tags": [
+    "机器人",
+    "视觉",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T10:02:29+00:00",
+   "mirror_pdf": "pdf/web-90b5b83d63ec.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/012/976.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.18762",
+   "kind": "paper",
+   "title": "Looking Complete Is Not Being Grounded: Evaluating LLM Sitreps Against Human-Authored Situation Reports",
+   "url": "https://arxiv.org/abs/2610.18762",
+   "pdf_url": "https://arxiv.org/pdf/2610.18762",
+   "abstract": "Evaluation for automatic crisis reporting should measure what practitioners need, not what is convenient to compare. Through LLM-assisted, author-approved content analysis, we derive a 15-slot information schema from professional humanitarian situation reports using qualitative content analysis, then evaluate 121 human and 261 LLM-generated reports across five disasters and three hazard types. Under google/gemini-3.7-flash on Cyclone Idai, the best machine arm is nominally above the empirical human ceiling (0.827 vs. 0.821), but the difference is statistically indistinguishable from zero (95\\% bootstrap CI $[-.049,.059]$; permutation $p=.852$), and the ordering does not replicate under openai/gpt-5.6-luna. On a blind 100-item Idai sample, the author agrees with the Gemini judge at 0.910 accuracy and unweighted Cohen's $κ=.799$. All four judges clear the plan's raw-agreement criterion of .7; only Gemini reaches .7 on chance-corrected $κ$. Across the three primary events, machine reports reproduce 5.4-11.0% of same-day official figures. Across those same events, raw exact-number matching links 14.3-19.6% of official figures and 85.4-90.1% of machine figures to the social stream; manual audit confirms 45/50 declared absences, 4/25 official matches, and 24/25 machine matches semantically. The issuing-provenance gap is positive in all 12 observed event-judge cells: report date, organisation, series, and authority were not supplied at professional-report coverage in any cell. On the three primary events, ROUGE-L is uninformative, BERTScore is negatively associated with completeness after multiplicity correction, and a generic LLM judge changes sign.",
+   "authors": [
+    "Sachin Kumar"
+   ],
+   "orgs": [],
+   "published": "2026-10-13T17:23:19Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.18762",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "论文",
+   "lang": "en",
+   "who": "",
+   "title_zh": "看起来完整不等于有据可依：LLM 灾情简报对比人类报告评测",
+   "summary_zh": "作者从专业人道主义简报提炼 15 项信息槽位，评测 121 份人类与 261 份 LLM 灾情报告，发现机器报告表面得分可追平人类，但数字溯源与来源标注存在系统性缺口。",
+   "highlights_zh": [
+    "机器报告仅复现 5.4–11.0% 的当日官方数字",
+    "85.4–90.1% 的机器数字可追溯到社交媒体流，官方数字仅 14.3–19.6%",
+    "不同模型评审下排序不可复现，单一评审结论不稳"
+   ],
+   "why_zh": "做 LLM 评测与高风险领域落地的人，可借此理解「表面完整」与「事实有据」的差距。",
+   "tags": [
+    "数据与评测",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 7.0,
+   "score": 0.548,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T10:02:29+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.18762.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.18762"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.18762"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.18762"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.18762"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.18762"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.18762"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "Gemini 4 以半价策略重划前沿模型性价比基准线",
-   "why": "输出上限100万token，Vals Index多领域登顶，定价仅为对手一半，谷歌借自研TPU打价格战。",
+   "trend": "前沿模型竞争从能力比拼转向性价比与生态卡位",
+   "why": "Gemini 4 以对手半价开放并登顶多项基准，Meta、微软、OpenAI 同步以算力与自研芯片应战。",
    "refs": [
     "web-526fa0b88981",
     "web-5a4d459014a0",
-    "web-1a3826e0f90e"
+    "web-1a3826e0f90e",
+    "web-c4dcdbcb62e2"
    ]
   },
   {
-   "trend": "Agent 编排从固定流程转向模型运行时自编程",
-   "why": "Anthropic让Claude运行时自行写程序管理子Agent，替代静态编排，提升复杂任务灵活性。",
+   "trend": "Agent 架构从固定编排转向运行时自生成与可观测治理",
+   "why": "Anthropic 让 Claude 运行时自写程序编排子 Agent，腾讯同步推出 Agent 可观测中心补治理短板。",
    "refs": [
-    "web-cf12248af09e"
+    "web-cf12248af09e",
+    "web-af0a62bc3ba8",
+    "arxiv-2610.17953"
    ]
   },
   {
-   "trend": "智能体手机成为系统级入口的新竞争品类",
-   "why": "阶跃STEPX Neo以3999元主打解锁即见AI，探索智能体替代App成为手机交互核心。",
+   "trend": "AI 编程速度倒逼底层基础设施重构",
+   "why": "Anthropic 因合并量十倍增长，7 人 5 个月自研版本控制系统替代 Git。",
+   "refs": [
+    "web-d6e89e4381e4",
+    "web-14da101e42fa"
+   ]
+  },
+  {
+   "trend": "智能体入口之争从 App 转向手机系统与硬件终端",
+   "why": "阶跃发布 3999 元智能体手机，苹果推 299 美元带屏 HomeView，端侧模型同步跟进。",
    "refs": [
     "web-6c297c541bb3",
     "web-d9f62447280f",
-    "web-815ebe86250b"
+    "web-ab235465c6bc",
+    "web-550c4c02e9ff"
    ]
   },
   {
-   "trend": "端侧AI芯片与模型同步成熟，边缘推理进入性价比拐点",
-   "why": "爱芯AX8860以DGX Spark一半价格实现更快prefill，LFM2.5支持端侧私有智能体。",
+   "trend": "具身智能与端侧算力同步加速，泡沫警示浮现",
+   "why": "智元估值 500 亿、爱芯边缘芯片对标 DGX Spark，同时尹志尧警示 AI 周期性泡沫风险。",
    "refs": [
+    "web-98878cde0896",
     "web-336ff8c1982a",
-    "web-550c4c02e9ff",
-    "web-91697e0f020a"
-   ]
-  },
-  {
-   "trend": "Agent 规模化落地暴露安全与可观测性缺口",
-   "why": "调查显示43%团队视安全为最大痛点但仅10%认为工具有效，腾讯推出Agent可观测中心。",
-   "refs": [
-    "web-b1ac29421426",
-    "web-af0a62bc3ba8"
+    "web-64825b6638b2",
+    "web-51d4d6755327"
    ]
   }
  ]
