@@ -855,46 +855,1023 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-b1ac29421426",
+   "kind": "article",
+   "title": "The Theory 2026 AI Survey Results",
+   "url": "https://tomtunguz.com/ai-in-practice-survey-2026/",
+   "pdf_url": "",
+   "abstract": "Theory's second annual AI in Practice Survey finds four results that surprised us : 43% rate security a top pain against the 10% who say its tooling delivers value, 45% of teams route queries across models, Cloudflare hosts 62% of agent sandboxes, & 48% now read production logs with coding agents.",
+   "authors": [
+    "Tomasz Tunguz"
+   ],
+   "orgs": [
+    "Tomasz Tunguz"
+   ],
+   "published": "2026-10-13T15:00:00+00:00",
+   "sources": [
+    {
+     "name": "Tomasz Tunguz",
+     "authority": 0.75,
+     "url": "https://tomtunguz.com/ai-in-practice-survey-2026/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Theory Ventures 创始人，AI 投资",
+   "title_zh": "Theory 2026 AI 实践调查：四大意外发现",
+   "summary_zh": "Theory Ventures 第二届 AI 实践调查显示：43% 团队将安全列为最大痛点但仅 10% 认为安全工具真正有用；45% 团队跨模型路由查询；Cloudflare 承载 62% 智能体沙箱；48% 已用编码智能体读生产日志。",
+   "highlights_zh": [
+    "安全工具供给与需求严重错配，是明确的创业空白",
+    "近半数团队多模型路由，模型可替换性成为现实",
+    "Cloudflare 在智能体沙箱基础设施上占据主导份额"
+   ],
+   "why_zh": "一线团队真实数据，比厂商宣传更能反映 AI 工程落地现状。",
+   "tags": [
+    "智能体",
+    "数据与评测",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-10-14",
+   "slot": "noon",
+   "selected_at": "2026-10-14T03:48:37+00:00",
+   "mirror_pdf": "pdf/web-b1ac29421426.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://tomtunguz.com/ai-in-practice-survey-2026/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-25432b6b093a",
+   "kind": "article",
+   "title": "Developing Gemini 4 Argon responsibly and safely",
+   "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Google DeepMind"
+   ],
+   "published": "2026-10-13T19:43:07+00:00",
+   "sources": [
+    {
+     "name": "Google DeepMind",
+     "authority": 0.85,
+     "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Gemini 4 Argon的安全与负责任开发",
+   "summary_zh": "Google DeepMind发布Gemini 4 Argon的安全与负责任开发说明，介绍其安全对齐策略。",
+   "highlights_zh": [
+    "Gemini 4 Argon",
+    "安全开发流程",
+    "负责任AI"
+   ],
+   "why_zh": "头部模型的安全策略披露，值得关注对齐方向。",
+   "tags": [
+    "对齐与安全",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.52,
+   "score_llm": 8.0,
+   "score": 0.688,
+   "date": "2026-10-14",
+   "slot": "noon",
+   "selected_at": "2026-10-14T03:48:37+00:00",
+   "mirror_pdf": "pdf/web-25432b6b093a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a9dd5c536426",
+   "kind": "article",
+   "title": "A look at the math that OpenAI claims computes faster Fourier transforms",
+   "url": "https://www.argmin.net/p/faster-fourier-transforms",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-13T02:46:43Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50065932",
+     "signal": "239 pts",
+     "metric": 239
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 快速傅里叶变换数学解读",
+   "summary_zh": "文章深入解析 OpenAI 声称的更快傅里叶变换算法背后的数学原理，探讨其在计算效率上的意义与争议。",
+   "highlights_zh": [
+    "解析 OpenAI 声称的更快 FFT 算法",
+    "聚焦数学原理与效率论证",
+    "引发对算法真实性的讨论"
+   ],
+   "why_zh": "理解该算法宣称突破的数学依据与争议。",
+   "tags": [
+    "理论",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.577,
+   "score_llm": 7.0,
+   "score": 0.6508,
+   "date": "2026-10-14",
+   "slot": "noon",
+   "selected_at": "2026-10-14T03:48:37+00:00",
+   "mirror_pdf": "pdf/web-a9dd5c536426.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.argmin.net/p/faster-fourier-transforms"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50065932"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-526fa0b88981",
+   "kind": "article",
+   "title": "超越抖音，传红果短剧日均时长 125 分钟；299 美元，苹果推 Siri AI 带屏音箱；谷歌最强模型 Gemini 4 正式上线",
+   "url": "http://www.geekpark.net/news/372304",
+   "pdf_url": "",
+   "abstract": "谷歌最强 AI 模型：Gemini 4 Argon 上线，输出词元上限 100 万个、专攻最棘手难题 10 月 14 日消息， Gemini 4 Argon 现已面向全球开发者和企业开放，可通过 AI Studio、 Gemini 平台 API 使用，同时支持 Google Antigravity 的 Google AI Ultra 订阅用户，以及 Gemini 应用和搜索 AI 模式的 Google AI Ultra 和 Pro 订阅用户。 该模型目前限时入门定价如下，2026 年 11 月 30 日入门促销结束后价格会翻倍： 输入：每百万 Tokens 2 美元 输出：每百万 Tokens 10 美元 缓存输入：每百万 Tokens 0.1 美元 Gemini 4 Argon 擅长在编码、金融、法律、网络安全、科学等领域处理复杂的现实任务，在多步骤任务上的深度和精度使其在多个领域基准测试中表现优于其他前沿模型，目前在衡量金融、编码、法律和税务等关键经济领域模型性能的 Vals Index 中排名第一。（消息来源：IT 之家） 苹果首款智能家庭中枢 HomeView 发布：售价 299 美元，11 月 13 日开售 极客公园报道：苹果给 Siri 做了一块能认出全家人的屏幕，售价 299 美元 10 月 13 日消息，苹果刚刚推出了全新的 Apple HomeView 智能家居管理设备，标准版与壁挂版定价均为 299 美元，首批上市国家（澳大利亚、加拿大、印度、新西兰、英国和美国）今日开启预购，后续新加坡于 10 月 15 日开启预购，均于 11 月 13 日正式开售。 该产品搭载 A18 芯片，配备 7 英寸（实际 6.98 英寸）Liquid Retina 显示屏（IPS 面板，1088×1088 像素分辨率，220ppi，支持原彩显示，自带防指纹疏油层），还配备了一颗 1200 万像素摄像头（ƒ/2.4 光圈），整合音乐播放、FaceTime 视频通话、家庭监控和智能家居控制等功能，并搭载基于 Apple Intelligence 的 Siri AI；支持 Wi-Fi 6E、蓝牙 6.0、Thread；需搭配运行 iOS 27.2 或更高版本的 iPhone 或运行 iPadOS 27.2 或更高版本的 iPad 使用。 苹果表示，该设备支持面部识别，可根据不同家庭成员切换个性化内容，同时将隐私与安全保护作为产品设计的核心。 这款设备可识别最多六位家庭成员并根据识别结果显示对应用户在信息、FaceTime、日历、提醒事项和「查找」等应用中的个人内容，同时支持全家共享照片相册和音乐。苹果表示，个人内容不会向其他家庭成员开放。（消息来源：IT 之家） 马斯克要用造火箭的思维造芯片：一年设计 10 款快速迭代，所有流程在一个 Terafab 工厂完成 10 月 13 日消息，特斯拉 CEO 埃隆 · 马斯克今日公布了他对 Terafab 芯片工厂的愿景，表示特斯拉和 SpaceX 计划每年在 Terafab 位于美国得克萨斯州的 Giga Texas 研究设施 制造和测试约 10 款芯片 ，以加快开发进程。 马斯克强调，特斯拉与 SpaceX 正在芯片制造领域合作，目标是开展一些高风险高回报的项目。然而，每年推出 10 款芯片设计的目标是加快芯片制造和测试周期，而不是每年将 10 个不同设计投入量产。 他补充说，团队可以快速测试芯片，制造新的光刻掩膜，并生产另一个版本， 而不中断迭代循环 。团队尝试了多种方法，大多数方法最初都失败了；然而，更快",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-14T00:28:51+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372304",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Gemini 4 上线，苹果推 299 美元 Siri 带屏音箱",
+   "summary_zh": "谷歌发布 Gemini 4 Argon，输出上限 100 万 token，在 Vals Index 金融/编码/法律等基准登顶，限时定价输入 2 美元、输出 10 美元每百万 token；苹果同步推出 299 美元 HomeView 智能家居中枢。",
+   "highlights_zh": [
+    "Gemini 4 Argon 面向全球开发者开放，支持 AI Studio 与 Gemini API",
+    "入门促销价 2026 年 11 月 30 日后翻倍，输出 10 美元/百万 token",
+    "苹果 HomeView 搭载 A18 芯片与 Apple Intelligence 版 Siri，支持人脸识别"
+   ],
+   "why_zh": "一次看清谷歌旗舰模型定价策略与苹果 AI 硬件落地的关键窗口。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-10-14",
+   "slot": "noon",
+   "selected_at": "2026-10-14T03:48:37+00:00",
+   "mirror_pdf": "pdf/web-526fa0b88981.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372304"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-51d4d6755327",
+   "kind": "article",
+   "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+   "url": "https://www.latent.space/p/dyna",
+   "pdf_url": "",
+   "abstract": "Our first robotics pod with Dyna’s Chief Scientist on their big bet on World Action Models & the Next Frontier of Physical AI",
+   "authors": [
+    "swyx"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-13T22:25:55+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/dyna",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Dyna-2：具备小时级自主性的通用物理智能体",
+   "summary_zh": "Dyna Robotics 首席科学家 Jason Ma 在 Latent Space 访谈中阐述其押注 World Action Models 的技术路线，目标是让机器人智能体实现长达一小时的连续自主操作。",
+   "highlights_zh": [
+    "提出 World Action Models 作为物理 AI 的新范式",
+    "强调小时级自主性是机器人从演示走向实用的门槛",
+    "Dyna-2 定位通用物理智能体而非单一任务机器人"
+   ],
+   "why_zh": "了解具身智能从短程演示到长时自主的关键技术分歧。",
+   "tags": [
+    "机器人",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-10-14",
+   "slot": "noon",
+   "selected_at": "2026-10-14T03:48:37+00:00",
+   "mirror_pdf": "pdf/web-51d4d6755327.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/dyna"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-dff922dfd8a8",
+   "kind": "article",
+   "title": "zhuyansen/new-term-radar",
+   "url": "https://github.com/zhuyansen/new-term-radar",
+   "pdf_url": "",
+   "abstract": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.",
+   "authors": [],
+   "orgs": [
+    "zhuyansen"
+   ],
+   "published": "2026-10-14T03:48:37+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/zhuyansen/new-term-radar",
+     "signal": "★ 884（新项目） · Python",
+     "metric": 884
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "新 AI 术语雷达",
+   "summary_zh": "一个每日抓取 X、Hugging Face、GitHub 与站点地图的工具，能在关键词工具收录前发现新模型、产品与仓库名称。",
+   "highlights_zh": [
+    "多源抓取新模型与产品名",
+    "早于关键词工具发现新术语",
+    "每日更新雷达式监控"
+   ],
+   "why_zh": "如果你在追踪 AI 新品动态，可用它抢先发现新术语。",
+   "tags": [
+    "产品与行业",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.579,
+   "score_llm": 6.0,
+   "score": 0.5916,
+   "date": "2026-10-14",
+   "slot": "noon",
+   "selected_at": "2026-10-14T03:48:37+00:00",
+   "mirror_pdf": "pdf/web-dff922dfd8a8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/zhuyansen/new-term-radar"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a31dac6d0b53",
+   "kind": "article",
+   "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+   "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+   "pdf_url": "",
+   "abstract": "Python 3.15 is here ! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python version, I get to say goodbye to Python 3.10 and start embracing features from Python 3.11. First, some highlights from Python 3.15. Explicit lazy imports I'm most excited about Explicit lazy imports from PEP 810 . These let you import modules like so: lazy import json lazy from pathlib import Path The module will then be imported the first time those symbols are used in the code that follows. My LLM CLI tool implements plugins. I had to recommend manual lazy imports in the plugin author documentation, because simply installing plugins that used heavy dependencies such as sentence_transformers could add multiple seconds to every invocation of the llm command. Lazy imports directly address this startup cost. Unpacking in comprehensions The new [*sublist for sublist in lists] unpacking syntax is neat. Here's an illustration lifted from the documentation : lists = [[ 1 , 2 ], [ 3 , 4 ], [ 5 ]] [ * L for L in lists ] # [1, 2, 3, 4, 5] # equivalent to [x for L in lists for x in L] sets = [{ 1 , 2 }, { 2 , 3 }, { 3 , 4 }] { * s for s in sets } # {1, 2, 3, 4} # equivalent to {x for s in sets for x in s} dicts = [{ 'a' : 1 }, { 'b' : 2 }, { 'a' : 3 }] { ** d for d in dicts } # {'a': 3, 'b': 2} # equivalent to {k: v for d in dicts for k,v in d.items()} PEP 798: U",
+   "authors": [
+    "Simon Willison"
+   ],
+   "orgs": [
+    "Simon Willison"
+   ],
+   "published": "2026-10-12T18:15:38+00:00",
+   "sources": [
+    {
+     "name": "Simon Willison",
+     "authority": 0.8,
+     "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Django 联合创始人，LLM 实践者",
+   "title_zh": "Python 3.15 发布：显式惰性导入最受期待",
+   "summary_zh": "Simon Willison 点评 Python 3.15 新特性，最关注 PEP 810 显式惰性导入，可解决 LLM CLI 插件因加载 sentence_transformers 等重依赖导致启动慢数秒的问题；同时告别 3.10、开始使用 3.11 特性。",
+   "highlights_zh": [
+    "lazy import 语法直接解决 AI 工具链插件启动开销",
+    "推导式解包新语法简化嵌套列表/集合/字典展开",
+    "对维护多版本兼容的开源作者有实际迁移参考"
+   ],
+   "why_zh": "写 AI 工具链的 Python 开发者可据此优化 CLI 启动性能。",
+   "tags": [
+    "代码",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.588,
+   "date": "2026-10-14",
+   "slot": "noon",
+   "selected_at": "2026-10-14T03:48:37+00:00",
+   "mirror_pdf": "pdf/web-a31dac6d0b53.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://simonwillison.net/2026/Oct/12/python-3-15/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5a4d459014a0",
+   "kind": "article",
+   "title": "刚刚，Gemini 4 发布！性价比「斩杀」GPT-6 和 Opus 5.5，重回御三家",
+   "url": "https://www.ifanr.com/1684241?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "哈基米终于支棱起来了。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "莫崇宇"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-14T02:56:48+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1684241?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Gemini 4 发布，性价比压制 GPT-6 与 Opus 5.5",
+   "summary_zh": "爱范儿报道 Gemini 4 正式发布，主打性价比优势，宣称在价格性能比上压制 GPT-6 和 Opus 5.5，谷歌重回前沿模型第一梯队。",
+   "highlights_zh": [
+    "Gemini 4 定位性价比路线，对标 GPT-6 与 Opus 5.5",
+    "谷歌重回「御三家」竞争格局",
+    "与极客公园报道互为印证，可交叉验证发布细节"
+   ],
+   "why_zh": "补充 Gemini 4 发布的竞争视角，判断前沿模型价格战走向。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-14",
+   "slot": "noon",
+   "selected_at": "2026-10-14T03:48:37+00:00",
+   "mirror_pdf": "pdf/web-5a4d459014a0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1684241?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-af0a62bc3ba8",
+   "kind": "article",
+   "title": "腾讯WorkBuddy企业版上线「可观测中心」破解规模化用Agent四大痛点",
+   "url": "https://www.leiphone.com/category/industrynews/f1Qk7Zv1CTpAQhYX.html",
+   "pdf_url": "",
+   "abstract": "打通企业上下文或只是Agent智能体走进企业办公场景的开始，“成本效率是否可管控、安全合规是否可追溯，应用效果是否可优化”企业经营管理最关心的核心问题。 10月13日，腾讯 WorkBuddy 企业版管理后台上线“可观测中心”，作为企业级 Agent 智能体运行管理的「仪表盘」——从统计观测到轨迹分析，让企业级 Agent 全链路「看得全、看得清、看得透」。 即日起，“可观测中心”开启公测。企业管理员可以在管理后台中（https://www.workbuddy.cn/admin/overview ），对企业内 Agent 智能体的使用情况进行全链路数据采集、存储与分析，为智能体的效率、质量与成本管理提供一站式数据底座，从而让企业实现对智能体及数字员工安全审计、成本管理、智能体持续迭代等的统一管理。 当智能体的使用深入企业各个环节之后，企业规模化使用 Agent的问题也在凸显，包括流量效果、成本效率、性能与质量四大痛点。业务跑得多不多、快不快、好不好没有刻度；钱花得值不值没有依据、响应快不快没有参照，更重要的是，哪里出错了无从定位。 腾讯 WorkBuddy 企业版此次上线的“可观测中心”，便是希望帮助企业解决上述痛点，了解钱花在哪、错出在哪、慢卡在哪，帮助企业一站式管理企业级Agent的整体运行情况并针对性进行优化。基于此，腾讯 WorkBuddy 企业版“可观测中心”提供了实时观测、会话追踪、轨迹详情三大能力，通过宏观观测捕捉问题，再微观定位具体原因，最后闭环反哺优化，让企业部署与使用企业级Agent的门槛更低、效率更高。 图：助力企业构建Agent可观测体系，支撑成本管理、安全审计、Agent持续优化 不用只凭感觉判断 Agent 的使用情况。“可观测中心-实时观测”能力从四个维度呈现企业内智能体的整体运行状态：通过「用户流量」可以看清楚会话数量、活跃用户及使用趋势；通过「成本消耗」可以了解积分消耗情况；通过「性能耗时」可以了解Agent响应和对话耗时；通过「质量状态」了解定位异常情况。 其次是会话追踪能力，让企业能够基于实时观测了解到的问题，进一步更细致定位具体的问题所在，比如积分消耗的上升情况，并将消耗按部门组织、模型等维度拆解，辅助对账和成本分析。 最后是轨迹详情，企业管理员可以一路下探到造成“慢、错、贵”的具体节点，再据此调整Agent的Prompt、模型和工具。由此，通过实时观测、会话追踪、轨迹详情，企业可以完成从发现问题到反哺优化的一轮闭环，不断迭代使用Agent的体验与交付质量，优化成本、提升效率。 从发现问题，到定位原因，再到调整后查看运行情况，优化也有了可以参照的数据。 图：通过“可观测中心”让企业级 Agent 全链路「看得全、看得清、看得透」 作为行业领先的AI效率办公智能体，腾讯WorkBuddy 持续加快在企业级市场布局。不久前，腾讯WorkBuddy企业版落地办公套件化升级，腾讯文档、腾讯乐享、腾讯网盘、安全与效能运营平台、腾讯AI设计智能体Ardot 首批接入；基于统一帐号体系，客户可以实现多个办公组件记忆和数据全面打通，获得更丝滑的办公体验。此次可观测中心上线，更是强化了WorkBuddy在企业应用场景的全方位管控和观测能力，让企业级 Agent 全链路「看得全、看得清、看得透」。 腾讯WorkBuddy自2026年3月上线以来，已完成50多个版本迭代，将Agent能力融入组织流程，推动生产力升级，并在政务、教育、零售、传媒、金融、出行等50多个行业加速落地。 雷峰网 雷峰网",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-14T01:36:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/f1Qk7Zv1CTpAQhYX.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯 WorkBuddy 企业版上线「可观测中心」",
+   "summary_zh": "腾讯 WorkBuddy 企业版推出 Agent 可观测中心，提供实时观测、会话追踪、轨迹详情，解决企业规模化用 Agent 的成本、安全与效果痛点。",
+   "highlights_zh": [
+    "实时观测流量、成本、性能、质量四维度",
+    "会话追踪可按部门、模型拆解成本",
+    "轨迹详情下探到具体节点反哺优化"
+   ],
+   "why_zh": "企业级 Agent 落地的基础设施进展，关注 Agent 工程化的读者值得一读。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-14",
+   "slot": "noon",
+   "selected_at": "2026-10-14T03:48:37+00:00",
+   "mirror_pdf": "pdf/web-af0a62bc3ba8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/f1Qk7Zv1CTpAQhYX.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1a3826e0f90e",
+   "kind": "article",
+   "title": "Edge AI Daily 早报（10月14日）",
+   "url": "https://www.tmtpost.com/8167796.html",
+   "pdf_url": "",
+   "abstract": "谷歌 Gemini 4 Argon 以对手半价全球开放，凭自研 TPU 与云渠道发起结构性价格战，Alphabet 当日逆市跌约 2%。Meta 未验证即押注最高 2000 亿美元算力并发布 Muse Wonder 叫板 Anthropic；微软 Maia 300 推进多吉瓦推理去 NVIDIA 化、重组 Azure；OpenAI 将 GPT-6 经 AWS 全球路由、上线 ChatGPT Intelligent UI。",
+   "authors": [
+    "Edge AI Daily"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-14T00:51:50+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8167796.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Edge AI 早报：Gemini 4 半价开放，巨头算力与模型全面开战",
+   "summary_zh": "谷歌 Gemini 4 Argon 以对手半价全球开放，凭自研 TPU 打价格战；Meta 押注 2000 亿美元算力并发布 Muse Wonder，微软推进 Maia 300 去 NVIDIA 化，OpenAI 将 GPT-6 经 AWS 全球路由。",
+   "highlights_zh": [
+    "谷歌以自研 TPU 与云渠道发起结构性价格战，Alphabet 当日逆市跌约 2%",
+    "Meta 未验证即押注最高 2000 亿美元算力，发布 Muse Wonder 叫板 Anthropic",
+    "微软 Maia 300 推进多吉瓦推理去 NVIDIA 化，OpenAI 将 GPT-6 经 AWS 全球路由"
+   ],
+   "why_zh": "一屏看清头部厂商在模型、算力、渠道三条战线的最新博弈。",
+   "tags": [
+    "大模型",
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-14",
+   "slot": "noon",
+   "selected_at": "2026-10-14T03:48:37+00:00",
+   "mirror_pdf": "pdf/web-1a3826e0f90e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8167796.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-91697e0f020a",
+   "kind": "article",
+   "title": "Counterpoint：到 2030 年全球处方助听器销量将超 3100 万台，近半支持端侧 AI",
+   "url": "https://www.ithome.com/1/012/696.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 14 日消息，Counterpoint 《全球端侧 AI 可穿戴设备预测》报告指出， 到 2030 年，全球处方助听器销量预计将突破 3100 万台，2025 至 2030 年的年复合增长率为 4% 。随着 AI 在助听器领域的应用普及， 预计到 2030 年，近 50% 的助听器产品将搭载端侧 AI 能力 。 多年来，助听器在小型化、连接性、续航方面持续进步，但核心难题始终存在：用户在嘈杂环境中难以听清对话。传统助听器主要依赖数字信号处理（DSP）：麦克风采集环境声音，处理器分析频率、音量等特征，再通过预设算法决定放大或降低哪些声音。这套方案对空调、发动机这类稳定噪音有效，但现实场景往往更复杂。比如拥挤餐厅中同时存在多段对话、音乐、餐具碰撞声，基于规则的系统很难判断用户真正想听的声音。 AI 带来了完全不同的解决方案： AI 模型不依赖预设规则，可通过学习区分人声与其他声音的模式 。经过数百万组人声与背景噪音样本训练的深度神经网络（DNN），可以实时识别说话者的声音，并抑制无关噪音。 AI 能够提升助听器在真实环境中的语音识别能力，通过分离人声和噪音、优先突出目标说话者、提升空间感知、持续适应环境变化实现优化。AI 尤其擅长区分「s」「f」「t」「sh」「th」这类细微易混的语音，还可以帮助用户区分 15 和 50、17 和 70（IT之家注：英语中的 fifteen 和 fifty 读音近似）这类数字，通过保留这些精细语音特征，AI 不仅能放大音量，还能提升餐厅、会议、拥挤街道等场景下的实际语音理解能力。 在临床「噪音中语音识别」测试中，听力正常的听众通常需要约 2 dB 的信噪比（SNR）才能正确识别 50% 的关键词；而对轻中度感音神经性听力损失听众来说，这一需求提升到约 8 dB，AI 正好能在信噪比上带来可量化的提升。根据峰力（Phonak）测试，固定指向麦克风搭配传统设置，相比全向麦克风可将信噪比提升 6.4 dB；加入 AI 降噪技术后，默认设置下提升幅度达到 9 dB，最大设置下可达 10.2 dB，足以让用户在餐厅场景中顺畅交流。 AI 还能让助听器更自动化、个性化：机器学习可以根据用户偏好和聆听场景自适应调整声音处理，减少手动调节，降低跟随对话所需的认知负荷，最终减少聆听疲劳、降低重复询问的需求、提升用户日常交流信心。不过这些提升并非没有代价：持续运行神经网络会消耗电池电量，也占用设备空间，因此当前最强的 AI 助听器往往仅提供少数款式选择。 助听器对处理延迟要求极高：从采集声音到处理完成再传入耳朵，整个过程必须控制在 10 毫秒或更短才能保证自然体验，这让助听器和大部分 AI 设备有着本质区别 —— 智能手机可以将数据上传到云端、等待 AI 返回结果再处理，但助听器无法承担云端往返延迟，哪怕微小延迟也会造成用户视听不同步，或让用户自身声音听起来不自然。 因此， 实时语音处理要求 AI 必须运行在助听器本地，而非用户手机或云端，这正是端侧 AI 的核心价值：声音在靠近麦克风和接收器的本地完成分析处理 。 难点在于，助听器本身电池容量极小、计算能力有限、尺寸约束严格，想要把 AI 能力塞进这样的设备，必须对 AI 模型和处理器做高度优化，才能在实现语音分离、降噪的同时将功耗控制到最低。持续运行神经网络会显著缩短续航：例如峰力 2025 款 Audéo Infinio Ultra Sphere，常规使用续航为 56 小时，如果持续开启 AI 功能，续航会骤降到 10 小时，这也直观展现了本地运行 AI 的成本",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-14T02:07:47+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/012/696.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "2030 年近半助听器将搭载端侧 AI",
+   "summary_zh": "Counterpoint 预测 2030 年处方助听器销量超 3100 万台，近半支持端侧 AI；DNN 降噪可将信噪比提升至 10.2 dB。",
+   "highlights_zh": [
+    "端侧 AI 因 10ms 延迟要求必须本地运行",
+    "AI 降噪使信噪比提升最高达 10.2 dB",
+    "功耗与尺寸约束限制 AI 助听器款式数量"
+   ],
+   "why_zh": "端侧 AI 在极端约束设备上落地的深度案例。",
+   "tags": [
+    "语音",
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-14",
+   "slot": "noon",
+   "selected_at": "2026-10-14T03:48:37+00:00",
+   "mirror_pdf": "pdf/web-91697e0f020a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/012/696.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b493e70810a5",
+   "kind": "article",
+   "title": "豆包手机助手宣布陆续放开第三方应用屏幕自动化操作权限，阿里、腾讯系等 App 明确拒绝",
+   "url": "https://www.ithome.com/1/012/704.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 14 日消息，豆包手机助手今日发文宣布，豆包手机助手推出的《屏幕自动化操作声明协议》（SAEP，Screen Automation Execution Protocol）30 天公示期已结束， 现将逐步放开第三方应用的屏幕自动化操作权限 。 豆包手机助手表示，公示期结束后， 开发者仍可随时声明拒绝 ，豆包手机助手也会及时关闭相关操作。已明确声明拒绝的应用，智能体将不会对其进行操作。 IT之家附最新拒绝操作应用清单如下：",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-14T02:22:35+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/012/704.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "豆包放开屏幕自动化权限，多家 App 拒绝",
+   "summary_zh": "豆包手机助手 SAEP 公示期结束，逐步放开第三方应用屏幕自动化操作权限，阿里、腾讯系等 App 明确声明拒绝。",
+   "highlights_zh": [
+    "开发者可随时声明拒绝，智能体将停止操作",
+    "已明确拒绝的应用不会被自动化操作",
+    "手机智能体与 App 生态的权限博弈浮现"
+   ],
+   "why_zh": "手机端智能体与超级 App 权限冲突的关键信号。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-14",
+   "slot": "noon",
+   "selected_at": "2026-10-14T03:48:37+00:00",
+   "mirror_pdf": "pdf/web-b493e70810a5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/012/704.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-98878cde0896",
+   "kind": "article",
+   "title": "消息称具身智能独角兽公司智元启动新一轮融资，估值约 500 亿元",
+   "url": "https://www.ithome.com/1/012/674.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 14 日消息，据财经杂志 10 月 13 日报道，具身智能独角兽公司智元创新近期启动了新一轮融资， 融资额约 10 亿元 —15 亿元 ，本轮融资已接近收尾，最新估值约 500 亿元。 报道提到，根据港交所的相关要求，上市申请公司如果在递表后、上市前完成新融资，除非获得特殊豁免，上市申请公司需要等到融资完成后满 120 日，才可挂牌交易。投资人称， 新一轮融资意味着智元在今年内无法完成 IPO（首次公开募股） 。 智元是一家以具身智能为核心技术方向的通用 AI 机器人公司，于 2023 年成立。9 月 24 日， 智元第 2 万台具身智能机器人宣布下线 ，刷新全球量产纪录。 根据 Counterpoint Research 发布的人形机器人研究报告 ，2026 年上半年全球人形机器人出货量突破 2.2 万台，同比增长近 300%，保持强劲增长势头。 出货量方面， 智元 AGIBOT 以 9,700 台的出货量位居全球第一，市场份额超 43% ，随后依次是宇树机器人（Unitree）、银河通用机器人（Galbot）、优必选（UBTECH）和乐聚机器人（Leju Robotics），前五名厂商均为中国厂商，合计占据总出货量的 86%。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-14T01:51:00+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/012/674.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "智元启动新一轮融资，估值约 500 亿元",
+   "summary_zh": "具身智能公司智元启动约 10-15 亿元新融资，估值约 500 亿元，年内 IPO 或无望；其上半年人形机器人出货 9700 台居全球第一。",
+   "highlights_zh": [
+    "新融资或使智元年内无法完成 IPO",
+    "第 2 万台机器人下线刷新量产纪录",
+    "上半年出货 9700 台，份额超 43% 居首"
+   ],
+   "why_zh": "具身智能头部公司估值与量产进展的关键参照。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-14",
+   "slot": "noon",
+   "selected_at": "2026-10-14T03:48:37+00:00",
+   "mirror_pdf": "pdf/web-98878cde0896.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/012/674.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-815ebe86250b",
+   "kind": "article",
+   "title": "早报｜苹果发布十多款「果家」新品/Gemini 4来了，写代码更省心/3999元，阶跃智能体手机发布",
+   "url": "https://www.ifanr.com/1684137?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "· 字节跳动成立模型安全部门，负责人直接向吴永辉汇报 · Visa 获批筹备中国境内银行卡清算机构 · 星尘智能完成 10 亿元融资，估值达 150 亿元 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "郑廷旭"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-14T00:08:24+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1684137?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "早报：苹果发新品、Gemini 4 上线、阶跃智能体手机发布",
+   "summary_zh": "字节跳动成立模型安全部门，负责人直接向吴永辉汇报；Gemini 4 发布主打写代码；阶跃发布 3999 元智能体手机。",
+   "highlights_zh": [
+    "字节成立模型安全部门，直接向吴永辉汇报",
+    "Gemini 4 发布，主打代码能力提升",
+    "阶跃智能体手机售价 3999 元"
+   ],
+   "why_zh": "快速了解当日 AI 行业重要动态，尤其是字节安全组织调整。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-14",
+   "slot": "noon",
+   "selected_at": "2026-10-14T03:48:37+00:00",
+   "mirror_pdf": "pdf/web-815ebe86250b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1684137?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-da5464920558",
+   "kind": "article",
+   "title": "AI学会「寄生繁殖」了，Anthropic 用 15台破电视盒子养活大模型",
+   "url": "https://www.ifanr.com/1683992?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "当大模型也像病毒一样传播 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "张子豪"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-13T08:51:30+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1683992?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic 用 15 台电视盒子演示 AI「寄生繁殖」",
+   "summary_zh": "Anthropic 展示大模型像病毒一样在设备间传播的实验，用 15 台旧电视盒子运行模型。",
+   "highlights_zh": [
+    "大模型可在低算力设备上分布式运行",
+    "类比病毒传播的「寄生繁殖」机制",
+    "涉及模型安全与对齐议题"
+   ],
+   "why_zh": "对模型分发与安全边界感兴趣的读者值得一读。",
+   "tags": [
+    "对齐与安全",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-14",
+   "slot": "noon",
+   "selected_at": "2026-10-14T03:48:37+00:00",
+   "mirror_pdf": "pdf/web-da5464920558.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1683992?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c4dcdbcb62e2",
+   "kind": "article",
+   "title": "小扎发布神秘「西瓜」模型，跑分媲美 Opus 5.5，口碑却一言难尽",
+   "url": "https://www.ifanr.com/1683963?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "「西瓜」熟了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "莫崇宇"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-13T08:25:53+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1683963?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "小扎发布「西瓜」模型，跑分媲美 Opus 5.5 但口碑分化",
+   "summary_zh": "Meta 发布代号「西瓜」的新模型，基准跑分接近 Opus 5.5，但实际使用口碑褒贬不一。",
+   "highlights_zh": [
+    "跑分接近 Opus 5.5",
+    "实际体验口碑分化",
+    "反映跑分与真实能力差距"
+   ],
+   "why_zh": "关注模型评测与实际体验落差的读者可参考。",
+   "tags": [
+    "大模型",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-14",
+   "slot": "noon",
+   "selected_at": "2026-10-14T03:48:37+00:00",
+   "mirror_pdf": "pdf/web-c4dcdbcb62e2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1683963?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-097403387c88",
+   "kind": "article",
+   "title": "Arekejoker/qwen21-nsfw-pose-skill",
+   "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
+   "pdf_url": "",
+   "abstract": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
+   "authors": [],
+   "orgs": [
+    "Arekejoker"
+   ],
+   "published": "2026-10-14T03:48:37+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
+     "signal": "★ 930（新项目） · Python",
+     "metric": 930
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Qwen-Image NSFW 姿势出图 Skill",
+   "summary_zh": "一个基于 Qwen-Image 2.1 的出图技能包，内置提示词配方、NSFW LoRA 与 136 种姿势控制，适配多种编码工具。",
+   "highlights_zh": [
+    "内置作者级提示词配方",
+    "含 NSFW LoRA 与 136 姿势控制",
+    "适配 Claude Code/Cursor 等工具"
+   ],
+   "why_zh": "内容偏擦边，实用价值有限，谨慎参考。",
+   "tags": [
+    "多模态",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.5808,
+   "score_llm": 3.0,
+   "score": 0.4123,
+   "date": "2026-10-14",
+   "slot": "noon",
+   "selected_at": "2026-10-14T03:48:37+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-59b3ed96611e",
+   "kind": "article",
+   "title": "jwuthri-cloud/Tracely-ai",
+   "url": "https://github.com/jwuthri-cloud/Tracely-ai",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "jwuthri-cloud"
+   ],
+   "published": "2026-10-14T03:48:37+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/jwuthri-cloud/Tracely-ai",
+     "signal": "★ 758（新项目） · Python",
+     "metric": 758
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Tracely-ai 项目",
+   "summary_zh": "一个 GitHub 新项目，缺乏摘要与说明，无法判断其具体功能与价值。",
+   "highlights_zh": [
+    "GitHub 新项目",
+    "信息不足",
+    "难以评估用途"
+   ],
+   "why_zh": "信息缺失，暂不建议投入时间。",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.5736,
+   "score_llm": 3.0,
+   "score": 0.4094,
+   "date": "2026-10-14",
+   "slot": "noon",
+   "selected_at": "2026-10-14T03:48:37+00:00",
+   "mirror_pdf": "pdf/web-59b3ed96611e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/jwuthri-cloud/Tracely-ai"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "旗舰模型竞争从参数转向高难度推理与具身场景双线延伸",
-   "why": "Gemini 4 Argon 同时推出通用版与机器人版，模型能力开始向物理世界迁移",
+   "trend": "Gemini 4 以半价策略重划前沿模型性价比基准线",
+   "why": "输出上限100万token，Vals Index多领域登顶，定价仅为对手一半，谷歌借自研TPU打价格战。",
    "refs": [
-    "web-316153953adf",
-    "web-8b0463614a7b"
+    "web-526fa0b88981",
+    "web-5a4d459014a0",
+    "web-1a3826e0f90e"
    ]
   },
   {
-   "trend": "Agent 架构从固定编排转向模型运行时自编程",
-   "why": "Anthropic 让 Claude 动态写程序管理子 Agent，替代预设流程以提升灵活性",
+   "trend": "Agent 编排从固定流程转向模型运行时自编程",
+   "why": "Anthropic让Claude运行时自行写程序管理子Agent，替代静态编排，提升复杂任务灵活性。",
    "refs": [
     "web-cf12248af09e"
    ]
   },
   {
-   "trend": "端侧与边缘算力成为私有智能体落地的新战场",
-   "why": "LFM2.5 端侧运行与爱芯 AX8860 边缘芯片同期发布，性价比对标 DGX Spark",
-   "refs": [
-    "web-550c4c02e9ff",
-    "web-336ff8c1982a"
-   ]
-  },
-  {
-   "trend": "智能体手机成为系统级入口的新形态竞争",
-   "why": "阶跃 STEPX Neo 以自研 AOS 主打解锁即见 AI，探索去 App 化交互",
+   "trend": "智能体手机成为系统级入口的新竞争品类",
+   "why": "阶跃STEPX Neo以3999元主打解锁即见AI，探索智能体替代App成为手机交互核心。",
    "refs": [
     "web-6c297c541bb3",
-    "web-d9f62447280f"
+    "web-d9f62447280f",
+    "web-815ebe86250b"
    ]
   },
   {
-   "trend": "大厂 Agent 加速向垂直行业与生活服务场景渗透",
-   "why": "阿里千问电商版瞄准双十一，千问 Go 覆盖退差价等生活事务代办",
+   "trend": "端侧AI芯片与模型同步成熟，边缘推理进入性价比拐点",
+   "why": "爱芯AX8860以DGX Spark一半价格实现更快prefill，LFM2.5支持端侧私有智能体。",
    "refs": [
-    "web-105a4c6636f1",
-    "web-fca8982f4758"
+    "web-336ff8c1982a",
+    "web-550c4c02e9ff",
+    "web-91697e0f020a"
+   ]
+  },
+  {
+   "trend": "Agent 规模化落地暴露安全与可观测性缺口",
+   "why": "调查显示43%团队视安全为最大痛点但仅10%认为工具有效，腾讯推出Agent可观测中心。",
+   "refs": [
+    "web-b1ac29421426",
+    "web-af0a62bc3ba8"
    ]
   }
  ]
