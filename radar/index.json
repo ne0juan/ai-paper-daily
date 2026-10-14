@@ -1,11 +1,12 @@
 {
- "updated": "2026-10-13T18:05:13+00:00",
+ "updated": "2026-10-14T03:48:37+00:00",
  "days": [
   {
    "date": "2026-10-14",
-   "count": 16,
+   "count": 34,
    "slots": {
-    "morning": 16
+    "morning": 16,
+    "noon": 18
    }
   },
   {
@@ -189,44 +190,45 @@
    }
   }
  ],
- "total": 1088,
+ "total": 1106,
  "last_run": {
-  "at": "2026-10-13T18:05:13+00:00",
-  "slot": "morning",
-  "candidates": 141,
-  "new": 46,
-  "stale": 49,
-  "judged": 46,
-  "selected": 16,
-  "mirrored": 14,
+  "at": "2026-10-14T03:48:37+00:00",
+  "slot": "noon",
+  "candidates": 125,
+  "new": 50,
+  "stale": 23,
+  "judged": 50,
+  "selected": 18,
+  "mirrored": 17,
   "by_category": {
-   "资讯": 13,
-   "技术": 2,
-   "观点": 1
+   "观点": 3,
+   "资讯": 11,
+   "技术": 1,
+   "项目": 3
   },
   "by_source": {
-   "HF Daily Papers": 32,
-   "Hacker News": 10,
+   "HF Daily Papers": 13,
+   "Hacker News": 9,
    "量子位": 10,
    "极客公园": 6,
-   "IT之家": 14,
-   "爱范儿": 5,
+   "IT之家": 11,
+   "爱范儿": 7,
    "少数派": 1,
    "雷峰网": 14,
-   "钛媒体": 3,
+   "钛媒体": 5,
    "InfoQ 中文": 11,
    "Simon Willison": 1,
-   "Latent Space": 2,
+   "Latent Space": 3,
    "Jack Clark": 1,
    "Azeem Azhar": 1,
    "Tomasz Tunguz": 1,
    "Zvi Mowshowitz": 2,
    "Hugging Face Blog": 1,
-   "Google DeepMind": 2,
+   "OpenAI": 1,
+   "Google DeepMind": 4,
    "NVIDIA": 3,
-   "Anthropic Engineering": 1,
-   "GitHub Trending": 10,
-   "GitHub 新项目": 10
+   "GitHub Trending": 9,
+   "GitHub 新项目": 11
   },
   "llm": true,
   "translated": 0
