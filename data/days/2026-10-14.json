@@ -1831,6 +1831,193 @@
    "mt": false
   },
   {
+   "id": "arxiv-2610.18615",
+   "kind": "paper",
+   "title": "VideoJev: System One Model for Video Understanding and Interaction",
+   "url": "https://arxiv.org/abs/2610.18615",
+   "pdf_url": "https://arxiv.org/pdf/2610.18615",
+   "abstract": "Visual agents must turn video observations into timely decisions to track progress and choose what to do next. Building on the emerging System One paradigm, we introduce VideoJev, a family of models that cast video understanding and interaction as structured decision tasks. We adapt pretrained multimodal large language models (MLLMs) by replacing autoregressive answer decoding with a shared head that scores temporal intervals and textual options against video evidence. These scores yield event spans or answer choices, unifying temporal grounding and multiple-choice video question answering. This combines the semantic flexibility of MLLMs with efficient decisions that agents can use directly. As an interaction unfolds, new goals and intermediate results prompt further queries about the same visual history. VideoJev therefore reuses visual computation through Cached inference for queries as they arrive and Joint inference for multiple queries in a single forward pass. Across three temporal grounding benchmarks, VideoJev-4B and VideoJev-35B-A3B improve mean mIoU over their backbones by 6.7 and 10.8 points, respectively, with measured inference speedups of 2.8-3.1times. On four video QA benchmarks, both achieve performance comparable to their backbones in Thinking mode, with measured inference speedups exceeding 100times. These results offer a unified, reusable decision interface for composing structured visual judgments into complex, open-ended workflows.",
+   "authors": [
+    "Yuhan Zhu",
+    "Xiangyu Zeng",
+    "Qingyi Si",
+    "Chenxu Yang",
+    "Yifei Li",
+    "Luozheng Qin",
+    "Junhao Zhou",
+    "Dingyu Yao",
+    "Jun Zhang",
+    "Chuanyu Qin",
+    "Zhiqiu Zhang",
+    "Yuandong Yang",
+    "Yuqi Xu",
+    "Tianyu Zhang",
+    "Hongcheng Guo",
+    "Jiaqi Wang",
+    "Nan Duan",
+    "Limin Wang"
+   ],
+   "orgs": [
+    "Multimedia Computing Group-Nanjing University"
+   ],
+   "published": "2026-10-13T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.18615",
+     "signal": "▲ 187",
+     "metric": 187
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "VideoJev：视频理解与交互的System One模型",
+   "summary_zh": "把视频理解与交互统一为结构化决策任务，用共享打分头替代自回归解码，在时序定位基准上mIoU提升6.7-10.8点，推理提速2.8-3.1倍，视频问答提速超100倍。",
+   "highlights_zh": [
+    "用共享头对时间区间和文本选项打分，统一时序定位与视频问答",
+    "Cached与Joint推理复用视觉计算，支持多查询单次前向",
+    "4B与35B-A3B两档模型均显著超越各自骨干"
+   ],
+   "why_zh": "为视觉智能体提供可直接使用的决策接口，兼顾语义灵活性与推理效率。",
+   "tags": [
+    "多模态",
+    "效率与系统",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.68,
+   "score_llm": 8.0,
+   "score": 0.752,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T15:47:02+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.18615.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.18615"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.18615"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.18615"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.18615"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.18615"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.18615"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/MCG-NJU/VideoJev"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.18092",
+   "kind": "paper",
+   "title": "LifeSearch: Benchmarking Deep Research Agents for Real-World Life and Productivity",
+   "url": "https://arxiv.org/abs/2610.18092",
+   "pdf_url": "https://arxiv.org/pdf/2610.18092",
+   "abstract": "Deep research (DR) agents address open-ended information needs through multi-step reasoning, long-horizon web search, and evidence synthesis. However, existing benchmarks primarily focus on academic research or synthetic tasks, leaving DR agents' capabilities in real-world life and professional productivity settings insufficiently evaluated. To bridge this gap, we introduce LifeSearch, a challenging benchmark comprising 203 Chinese and English tasks derived from real-user query seeds across 7 concrete life and productivity domains. With more than 4,500 hours of human annotation, we construct over 4,000 expert-written, fine-grained rubrics, covering both report-content criteria for coverage and accuracy and concrete criteria specifying values, units, dates, and URLs. We conduct extensive experiments on 12 advanced DR agents under a unified evaluation harness, systematically analyzing their performance patterns and failure modes. We find that even the best-performing frontier agent, GPT-5.6 Sol, achieves a score of only 63.4%, leaving substantial room for improvement on realistic life and professional DR tasks. We select the grading configuration by comparing candidate LLM judges against human rubric labels, and a human ranking study shows strong alignment between aggregate benchmark scores and human judgments (Spearman's $ρ= 0.89$, Kendall's $τ= 0.81$). LifeSearch provides a rigorous evaluation framework and foundation for advancing DR agents toward real-world life and productivity.",
+   "authors": [
+    "Yibo Wang",
+    "Senjie Jin",
+    "Yansong Ning",
+    "Xinbing Liang",
+    "Haotian Luo",
+    "Jiazheng Zhang",
+    "Yuxuan He",
+    "Will Wu",
+    "Clarenceai"
+   ],
+   "orgs": [
+    "Tencent Hunyuan"
+   ],
+   "published": "2026-10-13T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.18092",
+     "signal": "▲ 13",
+     "metric": 13
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.18092",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "LifeSearch：真实生活与生产力场景的深度研究智能体基准",
+   "summary_zh": "腾讯混元构建203个中英文真实生活与生产力任务、4000余条专家评分细则，评测12个深度研究智能体，最强GPT-5.6 Sol仅得63.4%，暴露真实场景能力缺口。",
+   "highlights_zh": [
+    "覆盖7个生活与生产力领域，4500小时人工标注",
+    "评分细则含数值、单位、日期、URL等具体标准",
+    "人类排名与基准总分高度一致（Spearman 0.89）"
+   ],
+   "why_zh": "首个聚焦真实生活场景的深度研究评测，揭示智能体落地短板。",
+   "tags": [
+    "数据与评测",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.6778,
+   "score_llm": 8.0,
+   "score": 0.7511,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T15:47:02+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.18092.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.18092"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.18092"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.18092"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.18092"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.18092"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.18092"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "arxiv-2610.17953",
    "kind": "paper",
    "title": "Agent-Reflex: Teaching Language Agents to Act Reflectively",
@@ -1922,6 +2109,191 @@
    "mt": false
   },
   {
+   "id": "arxiv-2610.18774",
+   "kind": "paper",
+   "title": "GreenWAM: A World Foundation Model for Robotics",
+   "url": "https://arxiv.org/abs/2610.18774",
+   "pdf_url": "https://arxiv.org/pdf/2610.18774",
+   "abstract": "A robot needs a world model that predicts how its actions will change the scene and a policy that chooses those actions. Models are usually built and evaluated for only one of these roles, and every robot records its actions in its own format. We ask whether one robot world model can serve both roles across different bodies, and what makes this work. We present GreenWAM, a world foundation model for robotics, together with the recipe that produces it: (1) a shared anatomical action space that describes 20 robot families, from bimanual arms to dexterous humanoids, in common joint coordinates; (2) joint training on these families in visual, action-conditioned and world-action modes; and (3) policies that split an action expert off the generator. As a world model, GreenWAM attains top-tier trajectory, depth and 3D accuracy on WorldArena 1.0, ahead of every world-action model and video generator in our comparison. As a policy, it scores among the top entries of the RoboTwin 2.0 leaderboard, reaches the highest zero-shot LIBERO-plus success among the compared methods and is competitive with dedicated vision-language-action and world-action policies on CALVIN and LIBERO. We further adapt GreenWAM to a real humanoid, where it succeeds more often than policies adapted from π_{0.5} and from Cosmos 3 Edge, and distill it into a single-step policy for real-time control. Controlled experiments yield three findings: robot specialization improves world prediction and control together; an action expert helps when split off at the start of adaptation; and keeping world-model modes during policy adaptation preserves robustness to scene changes.",
+   "authors": [
+    "Gennady Sidorov",
+    "Valerii Kornilov",
+    "Denis Grankin",
+    "Polina Fedotova",
+    "Aleksey Postnikov"
+   ],
+   "orgs": [
+    "Sber Robotics Center"
+   ],
+   "published": "2026-10-13T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.18774",
+     "signal": "▲ 76",
+     "metric": 76
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "GreenWAM：面向机器人的世界基础模型",
+   "summary_zh": "Sber提出统一机器人世界模型GreenWAM，用共享关节动作空间覆盖20种机器人，联合训练世界模型与策略，在WorldArena 1.0轨迹/深度/3D精度领先，并在真实人形机器人上超越π0.5与Cosmos 3 Edge。",
+   "highlights_zh": [
+    "共享解剖动作空间统一20种机器人本体",
+    "视觉、动作条件、世界-动作三模式联合训练",
+    "从生成器拆分动作专家得到策略，可蒸馏为单步实时控制"
+   ],
+   "why_zh": "验证单一世界模型可跨本体同时充当世界模型与策略，推动通用机器人基础模型。",
+   "tags": [
+    "机器人",
+    "多模态",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.6397,
+   "score_llm": 8.0,
+   "score": 0.7359,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T15:47:02+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.18774.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.18774"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.18774"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.18774"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.18774"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.18774"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.18774"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/greenvla/GreenWAM"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.18206",
+   "kind": "paper",
+   "title": "SWE-MISBEHAVIOR: Benchmarking and Mitigating Boundary Violations in Software Coding Agents",
+   "url": "https://arxiv.org/abs/2610.18206",
+   "pdf_url": "https://arxiv.org/pdf/2610.18206",
+   "abstract": "We present SWE-MISBEHAVIOR, the first taxonomy and evaluation framework for diagnosing boundary-violating misbehaviors in coding agents. It contains 7.4K human-in-the-loop synthesized samples spanning three layers of agent action space: (i) Code Generation, (ii) File Management, and (iii) System Interaction. Across these categories, SWE-MISBEHAVIOR covers 11 distinct misbehaviors with a fully automated evaluation protocol, including coding-action violations, Create/Read/Update/Delete (CRUD) file misbehaviors, system integrity and abuse violations, and task-goal misalignment. Experiments on state-of-the-art open-source coding agents (e.g., OpenHands, smolagents) reveal substantial misaligned behaviors, including dependency misinterpretation (up to 98.5% of cases), unintended modification of user inputs (50.5%), and silent compromise of environment integrity (53%). Motivated by these findings, we further propose CODE-KIT, a lightweight adaptive framework that combines misbehavior-aware guidelines with novel tools to help agents avoid such failures. CODE-KIT reduces misbehaviors by 52% for smolagents and 34% for OpenHands, while simultaneously improving task completion performance.",
+   "authors": [
+    "Do Xuan Trong",
+    "Duc Anh Nguyen",
+    "Do Xuan Long",
+    "Ngoc-Hai Nguyen",
+    "Tongyao Zhu",
+    "Duy Dinh",
+    "Cayden Chik",
+    "Cuong Dang",
+    "Jiaying Wu",
+    "Xuan-Phi Nguyen",
+    "Vinh Van Nguyen",
+    "Kenji Kawaguchi",
+    "Shafiq Joty",
+    "Nancy F. Chen",
+    "Min-Yen Kan"
+   ],
+   "orgs": [
+    "National University of Singapore"
+   ],
+   "published": "2026-10-13T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.18206",
+     "signal": "▲ 8",
+     "metric": 8
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.18206",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "SWE-MISBEHAVIOR：编码智能体的越界行为基准",
+   "summary_zh": "新加坡国立大学提出首个编码智能体越界行为分类与评测框架，含7.4K样本、11类失范行为；实测OpenHands等主流智能体依赖误判率高达98.5%，并给出CODE-KIT方案将失范行为降低34%-52%。",
+   "highlights_zh": [
+    "首个系统化诊断编码智能体越界行为的分类与评测框架",
+    "覆盖代码生成、文件管理、系统交互三层，11类失范行为",
+    "CODE-KIT将smolagents失范降低52%、OpenHands降低34%，同时提升任务完成率"
+   ],
+   "why_zh": "做编码智能体的人必读：揭示当前智能体在真实环境中的严重越界风险与缓解路径。",
+   "tags": [
+    "智能体",
+    "对齐与安全",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5714,
+   "score_llm": 8.0,
+   "score": 0.7086,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T15:47:02+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.18206.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.18206"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.18206"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.18206"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.18206"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.18206"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.18206"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/dxlong2000/SWE-Misbehavior"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "arxiv-2610.18356",
    "kind": "paper",
    "title": "Urbex: Agentic Spatial Grounding for City-Scale 3D Scenes",
@@ -2004,6 +2376,60 @@
     {
      "label": "GitHub",
      "url": "https://github.com/AMAP-ML/Urbex"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a36f5cbb4d44",
+   "kind": "article",
+   "title": "The Safety Culture at the Labs is Broken",
+   "url": "https://thezvi.wordpress.com/2026/10/14/the-safety-culture-at-the-labs-is-broken/",
+   "pdf_url": "",
+   "abstract": "We need the frontier labs to have a deep and robust safety culture. Alas, this is not the case. Anthropic devotes considerable effort to cultivating and maintaining such a culture. It shows, especially among the members of technical staff. Having … Continue reading →",
+   "authors": [
+    "TheZvi"
+   ],
+   "orgs": [
+    "Zvi Mowshowitz"
+   ],
+   "published": "2026-10-14T14:29:16+00:00",
+   "sources": [
+    {
+     "name": "Zvi Mowshowitz",
+     "authority": 0.75,
+     "url": "https://thezvi.wordpress.com/2026/10/14/the-safety-culture-at-the-labs-is-broken/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 趋势评论员，每周 AI 综述",
+   "title_zh": "Zvi：前沿实验室的安全文化已经崩坏",
+   "summary_zh": "Zvi Mowshowitz认为前沿实验室的安全文化已崩坏，Anthropic虽努力培育但整体行业仍缺乏深度稳健的安全文化。",
+   "highlights_zh": [
+    "批评前沿实验室安全文化普遍缺失",
+    "肯定Anthropic在安全文化上的投入",
+    "呼吁行业建立深度稳健的安全文化"
+   ],
+   "why_zh": "AI安全领域重要评论者的尖锐判断，值得关注对齐与安全治理的读者一读。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T15:47:02+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://thezvi.wordpress.com/2026/10/14/the-safety-culture-at-the-labs-is-broken/"
     }
    ],
    "mt": false
@@ -2185,6 +2611,59 @@
    "mt": false
   },
   {
+   "id": "web-ebf3dd6aaeb2",
+   "kind": "article",
+   "title": "vercel-labs/skills",
+   "url": "https://github.com/vercel-labs/skills",
+   "pdf_url": "",
+   "abstract": "Star vercel-labs / skills The open agent skills tool - npx skills\nREADME: # skills The CLI for the open agent skills ecosystem. Supports **OpenCode**, **Claude Code**, **Codex**, **Cursor**, and [75 more](#supported-agents). ## Install a Skill ```bash npx skills add vercel-labs/agent-skills ``` ## Use a Skill Without Installing Generate a prompt for one skill, or start a supported coding agent interactively: ```bash npx skills use vercel-labs/agent-skills@web-design-guidelines | claude npx skills use vercel-labs/agent-skills --skill web-design-guidelines --agent claude-code ``` `skills use` resolves sources the same way as `skills add`, writes the selected skill files to a temporary directory, and prints only the generated prompt to stdout unless `--agent` is provided. With `--agent`, it starts one supported agent interactively with the generated prompt. ### Source Formats ```bash # GitHub shorthand (owner/repo) npx skills add vercel-labs/agent-skills # Full GitHub URL npx skills add https://github.com/vercel-labs/agent-skills # Direct path to a skill in a repo npx skills add https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guidelines # GitLab URL npx skills add https://gitlab.com/org/repo # Azure Repos (Azure DevOps Services or Server) npx skills add https://dev.azure.com/org/project/_git/repo npx skills add https://dev.azure.com/org/project/_git/repo?path=/skills/web-design&version=GBmain # Any git URL npx skills add git@github.com:vercel-labs/agent-skills.git # Local path npx skills add ./my-local-skills ``` ### Private Re",
+   "authors": [],
+   "orgs": [
+    "vercel-labs"
+   ],
+   "published": "2026-10-14T15:47:02+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/vercel-labs/skills",
+     "signal": "★ 今日 +732 · TypeScript",
+     "metric": 732
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "vercel-labs/skills：开放智能体技能CLI工具",
+   "summary_zh": "Vercel推出的开放智能体技能生态CLI，一条命令即可为Claude Code、Codex、Cursor等80余种编码智能体安装或临时调用技能。",
+   "highlights_zh": [
+    "npx skills add 一键安装技能到多种编码智能体",
+    "npx skills use 可临时生成提示词或直接启动智能体",
+    "支持GitHub、GitLab、Azure Repos等多种源格式"
+   ],
+   "why_zh": "如果你在给Claude Code或Cursor配置技能，用它统一管理跨智能体技能库。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.6106,
+   "score_llm": 7.0,
+   "score": 0.6642,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T15:47:02+00:00",
+   "mirror_pdf": "pdf/web-ebf3dd6aaeb2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/vercel-labs/skills"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-3da3e7bca83e",
    "kind": "article",
    "title": "Apple HomeView, The New Apple TV, The App Story",
@@ -2234,6 +2713,112 @@
     {
      "label": "原文",
      "url": "https://stratechery.com/2026/apple-homeview-the-new-apple-tv-the-app-story/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e181547094b0",
+   "kind": "article",
+   "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+   "url": "https://openai.com/index/third-moment-research",
+   "pdf_url": "",
+   "abstract": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-10-14T07:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/third-moment-research",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Third Moment Research如何让1万个智能体连续运行36小时",
+   "summary_zh": "OpenAI官方介绍Third Moment Research基于GPT-6 Astra、GPT-6.1 Sol、Codex等构建可连续专注数天并随使用自我改进的智能体系统，单次运行规模达1万个智能体、持续36小时以上。",
+   "highlights_zh": [
+    "单次运行1万个智能体、持续36+小时的规模化案例",
+    "智能体可长时间专注并随使用持续改进",
+    "涉及网络安全场景Daybreak的应用"
+   ],
+   "why_zh": "了解大规模长时智能体系统在真实生产中的落地形态与规模上限。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 7.0,
+   "score": 0.636,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T15:47:02+00:00",
+   "mirror_pdf": "pdf/web-e181547094b0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/third-moment-research"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2f3282e48314",
+   "kind": "article",
+   "title": "The EU’s next chapter in AI is agentic",
+   "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+   "pdf_url": "",
+   "abstract": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-10-14T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI：欧盟企业智能体AI采用率持续攀升",
+   "summary_zh": "OpenAI发布分析报告，展示欧盟大企业与中小企业智能体AI采用率增长趋势，并指出深化应用可释放更多价值。",
+   "highlights_zh": [
+    "智能体AI在欧盟企业中的采用率正在加速增长",
+    "中小企业与大型企业均呈现扩张态势",
+    "报告指出更深层次的应用场景仍有待挖掘"
+   ],
+   "why_zh": "了解智能体AI在欧洲市场的真实落地进展与增长空间",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 7.0,
+   "score": 0.636,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T15:47:02+00:00",
+   "mirror_pdf": "pdf/web-2f3282e48314.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic"
     }
    ],
    "mt": false
@@ -2400,6 +2985,59 @@
    "mt": false
   },
   {
+   "id": "web-2e8a64d0e7e2",
+   "kind": "article",
+   "title": "vxcontrol/pentagi",
+   "url": "https://github.com/vxcontrol/pentagi",
+   "pdf_url": "",
+   "abstract": "Star vxcontrol / pentagi Fully autonomous AI Agents system capable of performing complex penetration testing tasks\nREADME: # PentAGI P enetration testing A rtificial G eneral I ntelligence > **Join the Community!** Connect with security researchers, AI enthusiasts, and fellow ethical hackers. Get support, share insights, and stay updated with the latest PentAGI developments. [![Discord](https://img.shields.io/badge/Discord-7289DA?logo=discord&logoColor=white)](https://discord.gg/2xrMh7qX6m)⠀[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)](https://t.me/+Ka9i6CNwe71hMWQy) ## Table of Contents - [Overview](#overview) - [Features](#features) - [Architecture](#architecture) - [Agent Supervision](#advanced-agent-supervision) - [Quick Start](#quick-start) - [Agent Docker Access](#giving-agents-docker-without-giving-away-the-host) - [Running Several Instances](#running-several-instances-tenant_id) - [How to Use PentAGI After Login](#how-to-use-pentagi-after-login) - [API Access](#api-access) - [LLM Provider Configuration](#custom-llm-provider-configuration) - [Azure OpenAI](#using-azure-openai) - [Ollama](#ollama-provider-configuration) - [OpenAI](#openai-provider-configuration) - [Anthropic](#anthropic-provider-configuration) - [Google AI (Gemini)](#google-ai-gemini-provider-configuration) - [AWS Bedrock](#aws-bedrock-provider-configuration) - [DeepSeek](#deepseek-provider-configuration) - [GLM](#glm-provider-configuration) - [Kimi](#kimi-provider-configuration) - [Qwen](#qwen-provider-configuration) - [MiniMax](#minimax-provider-configuration) - [Mistral](#mistr",
+   "authors": [],
+   "orgs": [
+    "vxcontrol"
+   ],
+   "published": "2026-10-14T15:47:02+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/vxcontrol/pentagi",
+     "signal": "★ 今日 +1,070 · Go",
+     "metric": 1070
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "PentAGI：全自主渗透测试AI智能体系统",
+   "summary_zh": "开源全自主AI智能体系统，可执行复杂渗透测试任务，支持OpenAI、Anthropic、Gemini、Ollama等多种LLM后端，提供Docker隔离与多实例部署。",
+   "highlights_zh": [
+    "全自主完成复杂渗透测试流程",
+    "支持OpenAI、Anthropic、Gemini、Bedrock、Ollama等后端",
+    "Docker隔离运行，支持多租户实例"
+   ],
+   "why_zh": "如果你在做安全自动化或智能体落地，可用它搭建自主渗透测试流水线。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.6262,
+   "score_llm": 6.0,
+   "score": 0.6105,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T15:47:02+00:00",
+   "mirror_pdf": "pdf/web-2e8a64d0e7e2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/vxcontrol/pentagi"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-d1f8258ec212",
    "kind": "article",
    "title": "Gemini 4 Argon",
@@ -2559,6 +3197,114 @@
     {
      "label": "原文",
      "url": "https://www.qbitai.com/2026/10/503109.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-adbef724cb27",
+   "kind": "article",
+   "title": "anomalyco/opencode",
+   "url": "https://github.com/anomalyco/opencode",
+   "pdf_url": "",
+   "abstract": "Sponsor Star anomalyco / opencode The open source coding agent.",
+   "authors": [],
+   "orgs": [
+    "anomalyco"
+   ],
+   "published": "2026-10-14T15:47:02+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/anomalyco/opencode",
+     "signal": "★ 今日 +341 · TypeScript",
+     "metric": 341
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "opencode：开源编码智能体",
+   "summary_zh": "anomalyco推出的开源编码智能体opencode，TypeScript实现，GitHub Trending今日新增341星，定位为可自托管的开源编码助手。",
+   "highlights_zh": [
+    "开源、可自托管的编码智能体",
+    "TypeScript实现，便于二次开发",
+    "GitHub Trending热度上升"
+   ],
+   "why_zh": "如果你在找可自托管、可改造的编码智能体，可以用它替代闭源方案。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5793,
+   "score_llm": 6.0,
+   "score": 0.5917,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T15:47:02+00:00",
+   "mirror_pdf": "pdf/web-adbef724cb27.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/anomalyco/opencode"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1609f5d4ca73",
+   "kind": "article",
+   "title": "Gemini 4 Argon for Robotics",
+   "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-13T16:55:47Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50074869",
+     "signal": "226 pts",
+     "metric": 226
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Gemini 4 Argon 面向机器人领域",
+   "summary_zh": "Hacker News上讨论Gemini 4 Argon面向机器人应用的帖子，获226分热度，具体内容摘要缺失。",
+   "highlights_zh": [
+    "Gemini 4 Argon被指向机器人场景",
+    "HN热度226分",
+    "缺乏具体技术细节"
+   ],
+   "why_zh": "关注谷歌大模型在机器人方向布局的读者可跟进。",
+   "tags": [
+    "机器人",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.5744,
+   "score_llm": 6.0,
+   "score": 0.5898,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T15:47:02+00:00",
+   "mirror_pdf": "pdf/web-1609f5d4ca73.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50074869"
     }
    ],
    "mt": false
@@ -2780,6 +3526,60 @@
    "mt": false
   },
   {
+   "id": "web-5afe2e859225",
+   "kind": "article",
+   "title": "蚂蚁灵波连续签约隆盛唯睿、德马科技等企业，具身大脑加速进产线",
+   "url": "https://www.leiphone.com/category/industrynews/sDAmOLZ58Kpz8ZlD.html",
+   "pdf_url": "",
+   "abstract": "蚂蚁集团旗下具身智能公司蚂蚁灵波，正在加速其“通用大脑”的产业落地与价值兑现。 近日，蚂蚁灵波接连与隆盛科技（300680.SZ）控股子公司隆盛唯睿、物流装备与解决方案提供商德马科技（688360.SH）、德尔股份（300473.SZ）旗下机器人公司德迩象网等多家知名智能制造及现代物流企业达成深度战略合作。基于自研的具身原生模型及云端工具链，蚂蚁灵波将携手生态伙伴，共同攻关具身机器人在严苛工业与物流环境下的全新解决方案。 根据合作协议，在工业场景，蚂蚁灵波作为核心具身模型提供方，将深度参与共建“隆盛唯睿具身智能机器人创新中心”，首期重点攻关工业上下料场景，未来为博世、宝钢等全球工业制造龙头提供智能化解决方案；灵波还将与德迩象网共同探索汽车制造车间数智化转型。在物流场景，蚂蚁灵波将通过工程化赋能、二次开发协同及新技术测试验证，全面支持德马科技等企业，攻关海量包裹的高速柔性分拣难题，并探索更加多元化的场景落地能力，提升实际落地效果。 此前，蚂蚁灵波已在线下药房跑通“智慧药房”连续拣药方案。在不久前的数贸会上，蚂蚁灵波与阿拉伯数字经济联盟（AFDE）在技术模型、本地化场景适配与产业生态融合等方面达成了合作，为“一脑多机”在全球物理世界的规模化落地开启了新阶段。这一系列实质性合作，标志着蚂蚁灵波的商业化版图正在加速拓宽。 正在举行的第二十六届中国国际工业博览会上，蚂蚁灵波携手多家行业生态伙伴，展示了药房精准拣药、智慧物流柔性分拣、工业产线上下料等多个真实场景的落地应用，凭借高稳定性与强泛化能力引发业界广泛关注。如现场展示了钛虎与星尘智能两款构型各异的机器人本体，它们同时搭载了灵波大脑LingBot-VLA 2.0，分别完成了高精度工业上下料与柔性分拣工作。 （图：“工博会”上蚂蚁灵波展示药房、物流分拣、工业上下料场景应用实效） 长期以来，适配成本是具身智能走向产业应用的一道关键门槛。机器人从一个场景转向另一个场景，往往需要重新采集数据、训练模型和调试系统；更换硬件后，还可能面临新的适配工作。模型泛化能力不足与机器人硬件差异，使单点验证难以直接复制到更多产线。 对此，蚂蚁灵波CEO朱兴曾指出：灵波跳出单机调优的传统思路，选择从零训练面向物理世界的具身基模，打造机器人的原生通用“大脑”。其自研的LingBot-VLA 2.0基础大模型在预训练阶段就已适配17个品牌的20种机器人构型，率先在业内树立了成熟的“一脑多机”工程标杆。 截至目前，蚂蚁灵波开源模型在GitHub累计斩获3.29万颗star，稳居国内具身模型前列。海外主流技术社区也已实现对灵波模型的适配。LingBot-VLA、LingBot-VA 均已完成对全球最大机器人开发平台 LeRobot 的生态适配，LingBot‑Vision 合入业界主流视觉骨干模型库 timm 主线。LingBot-World 成为全球首个同时获得 vLLM、SGLang 两大主流开源推理引擎支持的世界模型。 从智慧药房的窄道穿梭，到工博会上的产线作业，再到密集签下工业制造与智慧物流的标杆订单，蚂蚁灵波正以“领先模型+工程工具”的双轮驱动，携手行业伙伴攻克具身智能在真实场景中的“真问题”，将“一脑多机”应用到更多真实业务场景，加速具身机器人的规模化普及。 雷峰网 雷峰网",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-14T09:15:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/sDAmOLZ58Kpz8ZlD.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "蚂蚁灵波签约多家企业，具身大脑进产线",
+   "summary_zh": "蚂蚁灵波接连签约隆盛唯睿、德马科技等企业，以 LingBot-VLA 2.0 推动具身大脑在工业与物流场景落地。",
+   "highlights_zh": [
+    "LingBot-VLA 2.0 预训练适配 17 品牌 20 种机器人构型",
+    "开源模型 GitHub 累计 3.29 万 star",
+    "LingBot-World 获 vLLM、SGLang 双引擎支持"
+   ],
+   "why_zh": "观察具身智能「一脑多机」商业化落地的关键案例",
+   "tags": [
+    "机器人",
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T15:47:02+00:00",
+   "mirror_pdf": "pdf/web-5afe2e859225.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/sDAmOLZ58Kpz8ZlD.html"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-75d67ea3b64c",
    "kind": "article",
    "title": "信仰加速，估值刹车：具身智能最后一道题，王兴兴凭什么交给 GPT-7",
@@ -2942,6 +3742,59 @@
    "mt": false
   },
   {
+   "id": "web-7105d890ab51",
+   "kind": "article",
+   "title": "英特尔面向四至六代至强处理器推出推理微服务：自动检测硬件并配置 vLLM 参数",
+   "url": "https://www.ithome.com/1/013/130.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 14 日消息，英特尔今日宣布推出 Intel Inference Microservices 服务，这是一套面向大语言模型推理的容器化微服务方案，目标是让企业在已有的至强处理器上直接获得经过调优的模型推理能力，无需再花费数天时间进行手动硬件优化。 在该模式下，每个微服务都是一个独立容器，通过 OpenAI 兼容 API 对外提供单个模型的服务，并在启动时自动检测所在的英特尔处理器型号，应用英特尔针对该模型和该硬件预先验证过的配置参数。 英特尔指出，让大语言模型给出回复并不困难，难的是在既有硬件上稳定、高质量地重复这一过程。精度设置、计算任务在核心之间的分配方式、内存跨 NUMA 节点的布局，以及推理引擎使用哪些指令集，都取决于模型本身和底层处理器。更换模型，合适的参数就变了；迁移到另一代芯片，参数又需要重新调整。英特尔推理微服务旨在将这一调优过程封装在容器内部 —— 用户选择模型，容器负责选择设置。首批版本基于 vLLM 引擎，支持 BF16 精度，可在 Docker 或 Kubernetes 1.24 及以上环境中运行，硬件要求为第四代、第五代或第六代英特尔至强处理器，建议配置 32GB 内存。 启动时，容器会检查主机的处理器代数、分配到的核心数量、NUMA 节点数量以及处理器内置的加速器。 英特尔特别强调了最后一项：近期至强核心内置了专门用于推理计算的引擎，包括用于矩阵乘法的英特尔高级矩阵扩展和用于周边计算的 AVX-512、AVX2 及 VNNI 向量扩展。这些加速器已经存在于用户现有的芯片中，但只有推理引擎知道它们存在并正确配置时才能发挥作用。 检测完成后，容器会选择经过验证的配置档案，解析调优后的引擎参数，缓存权重，并在指定端口启动推理服务。 对于运行特定模型镜像的用户，如果主机未被识别，容器会在启动时报错，而不是静默地以未调优状态运行。基础镜像则默认启用配置回退，在无匹配模型专用配置时，会采用与硬件兼容的通用配置。用户还可以通过命令行查看容器检测到的硬件信息和将要执行的 vLLM 命令，例如运行 detect-hardware 或 dry-run --format json 进行预检。 这并非英特尔首次涉足推理微服务领域。今年 9 月，英特尔开发者页面已介绍过 Intel AI for Enterprise Inference，一套面向至强处理器的开源 LLM 服务栈，同样基于 vLLM 架构。此次发布的推理微服务可以视为将这一能力进一步产品化、容器化，并纳入统一的推理接口蓝图之中。 英特尔在新闻稿中将当前版本定位为“迈向英特尔硬件统一推理的第一步”，明确表示这只是一个起点：至强处理器是开始的地方，而不是结束的地方。随着产品组合扩展到英特尔 GPU，包括代号 Crescent Island 的数据中心推理 GPU，同一微服务模式将延伸至 GPU 平台，变化的只是被选中的配置档案，应用程序所面对的接口保持不变。这意味着用户今天基于至强构建的推理工作负载，未来迁移到英特尔 GPU 时，只需更改部署配置，而无需重写应用程序或重新进行调优。 本次发布还包含一个值得注意的细节：微服务提供的接口刻意独立于底层芯片。一个模型对应一个容器，OpenAI 兼容 API 暴露在已知端口上，运行时自动检测平台并应用英特尔验证过的配置。这种稳定性并非打包层面的技巧，而是因为底层的优化工作被贡献到了开源上游项目中，而非锁定在厂商专属工具包内。 英特尔调优后的容器仍然是一个标准的 OpenAI 兼容端点，而不是必须采用的 SDK。英特尔计划在",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-14T15:13:57+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/013/130.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "英特尔推出至强推理微服务：自动检测硬件并调优 vLLM",
+   "summary_zh": "英特尔发布容器化推理微服务，启动时自动检测至强处理器型号与加速器，套用预验证的 vLLM 配置，让企业在现有 CPU 上直接获得调优后的 LLM 推理能力。",
+   "highlights_zh": [
+    "每个微服务为独立容器，通过 OpenAI 兼容 API 提供单模型服务",
+    "自动识别 AMX、AVX-512、VNNI 等内置加速器并应用配置档案",
+    "未来将延伸至英特尔 GPU，接口不变仅换部署配置"
+   ],
+   "why_zh": "关注 CPU 推理降本与私有化部署的团队可了解其调优封装思路。",
+   "tags": [
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T15:47:02+00:00",
+   "mirror_pdf": "pdf/web-7105d890ab51.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/013/130.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "arxiv-2610.18762",
    "kind": "paper",
    "title": "Looking Complete Is Not Being Grounded: Evaluating LLM Sitreps Against Human-Authored Situation Reports",
@@ -3013,54 +3866,479 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-64570dd4e90c",
+   "kind": "article",
+   "title": "响应速度比Claude Code快3倍，实现真正无限上下文！APUS AI开源Reflex Agent",
+   "url": "https://www.qbitai.com/2026/10/503165.html",
+   "pdf_url": "",
+   "abstract": "10月13日，APUS AI（麒麟合盛网络技术股份有限公司）宣布开源Personal Agent产品Reflex Agent",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-14T03:32:48+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/503165.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "APUS AI开源Reflex Agent，速度超Claude Code三倍",
+   "summary_zh": "APUS AI开源Personal Agent产品Reflex Agent，宣称响应速度比Claude Code快3倍，并实现真正无限上下文。",
+   "highlights_zh": [
+    "开源Personal Agent产品Reflex Agent",
+    "宣称响应速度比Claude Code快3倍",
+    "主打无限上下文能力"
+   ],
+   "why_zh": "开源智能体框架新选项，适合关注Agent工程与性能优化的读者。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T15:47:02+00:00",
+   "mirror_pdf": "pdf/web-64570dd4e90c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/503165.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e0b3e1c94d63",
+   "kind": "article",
+   "title": "豆包工作上线新功能，支持跨AI产品一键导入已有配置",
+   "url": "https://www.leiphone.com/category/industrynews/x7Ukz8feAE9FBQsy.html",
+   "pdf_url": "",
+   "abstract": "近期，豆包工作持续更新，上线“数据导入与同步”功能，支持从其他AI产品一键导入数据，并推出“在新对话中继续”、消息注释和对话摘要侧栏等能力，进一步优化工作任务中的对话体验。 据介绍，豆包工作的“数据导入与同步”功能支持从 ChatGPT、Claude Code、TraeWork 等已适配产品，一键导入存储在本地的任务偏好指令、技能、连接器、工作记忆、项目和历史会话等内容。用户换用豆包工作时，可沿用已有的工作偏好与资料，减少重复配置和重新交代背景。导入的会话保留原有上下文，用户可直接在豆包工作内继续对话。 用户可在“设置”中的“数据导入与同步”页面进行操作；对于支持自动同步的来源，还可按需开启同步。 对话体验方面，“在新对话中继续”支持用户基于现有讨论尝试其他方案，或更换模型继续探索。选择对应消息上的功能入口后，已有上下文会自动带入新对话，原对话也会保留，便于随时回看。用户可沿用已有背景单独展开新的思路，同时保留原有讨论主线，减少不同方向交织在同一对话中的负担。 此外，用户可在豆包回复中选中具体内容，通过消息注释补充说明或提出问题，原文和注释会自动带入输入框，也支持多段内容一起发送。这种方式将问题、补充说明或修改要求与具体原文关联，减少反复引用文本和解释所指内容的沟通成本。新增的对话摘要侧栏则集中展示正在执行的任务、对话产物、技能与连接器，便于了解任务进展和查找已有成果。 雷峰网 雷峰网",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-14T06:27:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/x7Ukz8feAE9FBQsy.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "豆包工作上线跨AI产品一键导入功能",
+   "summary_zh": "字节豆包工作新增数据导入与同步，可从ChatGPT、Claude Code等一键迁移偏好、技能、记忆和历史会话，并推出对话续接、消息注释与摘要侧栏。",
+   "highlights_zh": [
+    "支持从ChatGPT、Claude Code、TraeWork等导入本地配置与历史会话",
+    "导入会话保留上下文，可直接在豆包工作内继续对话",
+    "新增消息注释、对话摘要侧栏，优化任务型对话体验"
+   ],
+   "why_zh": "反映国内AI办公产品争夺用户迁移成本的竞争动向。",
+   "tags": [
+    "产品与行业",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T15:47:02+00:00",
+   "mirror_pdf": "pdf/web-e0b3e1c94d63.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/x7Ukz8feAE9FBQsy.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-570b71a7da4e",
+   "kind": "article",
+   "title": "千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意",
+   "url": "https://www.infoq.cn/article/IAAteiFAzfescqFHIyQU?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "四月"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-14T17:48:46+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/IAAteiFAzfescqFHIyQU?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "千问办公Agent接管多平台电商经营",
+   "summary_zh": "千问办公推出电商经营Agent，可将3万元开店成本压至几百元，用一个Agent接管多平台店铺运营。",
+   "highlights_zh": [
+    "Agent切入电商经营场景",
+    "大幅降低开店成本",
+    "支持多平台统一管理"
+   ],
+   "why_zh": "展示Agent在垂直商业场景的落地与成本重构。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T15:47:02+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/IAAteiFAzfescqFHIyQU?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-22207525d48d",
+   "kind": "article",
+   "title": "IBM 与西门子合作推进纳米堆叠架构，加速 3D 晶体管量产进程",
+   "url": "https://www.ithome.com/1/013/129.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 14 日消息，今日，IBM 与西门子宣布达成一项新的研究合作，旨在推进 IBM 今年早些时候发布的纳米堆叠（nanostack）晶体管架构。 据 IBM 官方新闻稿，此次合作将结合 IBM 在半导体器件创新领域的领导地位与西门子在电子设计自动化（EDA）、工艺仿真、光刻优化及先进制造软件方面的专业能力，以加速纳米堆叠技术的开发。 据介绍，双方合作内容包括开发纳米堆叠的先进虚拟模型，以便在芯片制造之前对性能进行建模、优化设计并解决制造难题。 IBM 在今年 6 月首次发布了纳米堆叠架构，并称其为业界首个已知的三维纳米片设计。与当前将晶体管平铺在二维平面上并不断缩小间距的思路不同，纳米堆叠将晶体管垂直堆叠并错位排列，从而在相同面积内容纳更多晶体管。 在当前的 7 埃（0.7 纳米）节点下，该设计可在指甲盖大小的面积内集成近 1000 亿个晶体管，密度约为 IBM 2021 年发布的 2nm 测试芯片的两倍。该设计还允许在每个堆叠层中使用不同的材料组合，从而独立优化每个晶体管的性能和功耗。 IBM 此前公布的研究结果显示，与 2nm 节点相比，纳米堆叠架构在同等功耗下可提升高达 50% 的性能，或在同等性能下降低高达 70% 的功耗。 在 VLSI 2026 研讨会上，IBM 还报告了纳米堆叠在 SRAM（IT之家注：静态随机存取存储器）上实现 40% 的微缩改进，这对于 AI 工作负载所需的高带宽内存具有重要意义。 IBM 研究总监 Jay Gambetta 在发布会上表示：“我们不只是把晶体管做得更小，而是在重新发明芯片的构建方式，以提供显著更高的性能和能效。” IBM 硅技术研发副总裁 Huiming Bu 表示：“纳米堆叠是一个可扩展的晶体管平台，旨在将器件微缩从二维转向三维，代表了半导体行业的新范式，也是未来十年支持 AI 和其他新兴技术所需的逻辑微缩路径。” 西门子 EDA IC 组合执行副总裁 Ankur Gupta 则表示：“将半导体微缩推进到埃米时代，需要在器件物理、EDA 设计与制造软件以及制造之间进行紧密的协同优化。” IBM 曾表示，基于该技术的首批产品预计需要约五年时间才能由合作伙伴投入生产。此次与西门子的合作，正是为跨越这一从实验室到工厂的鸿沟而设。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-14T15:12:08+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/013/129.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "IBM 联手西门子推进纳米堆叠 3D 晶体管量产",
+   "summary_zh": "IBM 与西门子合作开发纳米堆叠架构的虚拟模型与 EDA 工具，加速这一垂直堆叠晶体管技术从实验室走向量产，该架构号称同功耗性能提升 50%。",
+   "highlights_zh": [
+    "纳米堆叠将晶体管垂直错位堆叠，7 埃节点下每指甲盖可集成近千亿晶体管",
+    "SRAM 微缩改进 40%，对 AI 高带宽内存意义重大",
+    "首批产品预计约五年后由合作伙伴投产"
+   ],
+   "why_zh": "理解未来十年 AI 算力底层逻辑微缩路径的关键背景。",
+   "tags": [
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T15:47:02+00:00",
+   "mirror_pdf": "pdf/web-22207525d48d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/013/129.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-33f1b0d767c0",
+   "kind": "article",
+   "title": "无标线、无信号灯、车流激进：小鹏 NGP 官宣成功挑战被称为“全球最难环岛”的凯旋门环岛",
+   "url": "https://www.ithome.com/1/013/118.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 14 日消息，小鹏集团董事长、CEO 何小鹏今日宣布，在巴黎， 开着小鹏 NGP 成功挑战了被称为“全球最难环岛”的凯旋门环岛 。 没有车道线，也没有红绿灯，12 条大道交织汇入，既要判断复杂车流、遵守法国“让右”规则，还要避让站在路中拍照的行人，确实很有挑战性。 从 7 月德国本地化验收，到荷兰水网交织的复杂小路，再到“全球最难环岛”凯旋门，难度层层升级。小鹏 NGP 在不同国家、不同交通法规和道路环境中不断锤炼，模型泛化能力也在实战中持续提升、越来越强。 据IT之家此前报道，在巴黎车展前夕，小鹏汽车通用智能中心负责人刘先明接受采访时透露，该公司成功在约两周时间内，将智驾系统从一个欧洲国家微调适配到另一个欧洲国家。 刘先明介绍称，小鹏目前正与欧洲监管机构紧密沟通， 并维持在 2027 年于欧洲正式落地智能导航辅助驾驶系统（NGP）的原定规划 。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-14T14:25:24+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/013/118.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "小鹏 NGP 挑战巴黎凯旋门环岛，称两周可跨国适配",
+   "summary_zh": "何小鹏宣布小鹏 NGP 成功通过无标线、无信号灯的凯旋门环岛，此前已从德国验收扩展至荷兰，并称约两周即可将智驾系统从一个欧洲国家微调适配到另一个。",
+   "highlights_zh": [
+    "凯旋门环岛 12 条大道汇入，需遵守法国让右规则并避让行人",
+    "通用智能中心称跨国微调适配约需两周",
+    "维持 2027 年在欧洲正式落地 NGP 的规划"
+   ],
+   "why_zh": "观察中国智驾出海与跨区域泛化能力的实战样本。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T15:47:02+00:00",
+   "mirror_pdf": "pdf/web-33f1b0d767c0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/013/118.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6bb17998053d",
+   "kind": "article",
+   "title": "阶跃终端首款「Agent手机」STEPX Neo正式发布，创客先行",
+   "url": "https://www.qbitai.com/2026/10/503244.html",
+   "pdf_url": "",
+   "abstract": "这妥妥是个物理版Agent啊！",
+   "authors": [
+    "Jay"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-14T08:01:18+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/503244.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "阶跃终端发布首款Agent手机STEPX Neo",
+   "summary_zh": "阶跃终端推出首款Agent手机STEPX Neo，主打物理版Agent概念，面向创客先行发售。",
+   "highlights_zh": [
+    "阶跃终端首款Agent手机正式发布",
+    "定位物理版Agent，面向创客群体",
+    "手机形态与智能体结合的新尝试"
+   ],
+   "why_zh": "智能体从软件走向硬件终端的探索案例，可关注后续反馈",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 5.0,
+   "score": 0.476,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T15:47:02+00:00",
+   "mirror_pdf": "pdf/web-6bb17998053d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/503244.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6bedf98f6f95",
+   "kind": "article",
+   "title": "STEPX首款大模型原生智能体手机STEPX Neo正式发布",
+   "url": "https://www.qbitai.com/2026/10/503201.html",
+   "pdf_url": "",
+   "abstract": "2026年10月13日，大模型原生AI终端品牌STEPX（阶跃终端）旗下首款大模型原生智能体手机STEPX Neo正式发布",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-14T06:45:38+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/503201.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "STEPX发布首款大模型原生智能体手机",
+   "summary_zh": "阶跃终端发布大模型原生智能体手机STEPX Neo，主打端侧智能体交互，但具体能力与售价未披露。",
+   "highlights_zh": [
+    "大模型原生AI终端品牌STEPX推出首款手机",
+    "定位为智能体手机，强调原生大模型集成",
+    "发布信息有限，缺乏技术细节与实测数据"
+   ],
+   "why_zh": "关注端侧智能体硬件形态的从业者可留意，但信息增量有限。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 5.0,
+   "score": 0.476,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T15:47:02+00:00",
+   "mirror_pdf": "pdf/web-6bedf98f6f95.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/503201.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-90859cbc2f4d",
+   "kind": "article",
+   "title": "MemSilicon完成国际首款高密度、大容量1T4R 1Gb RRAM芯片流片",
+   "url": "https://www.qbitai.com/2026/10/503198.html",
+   "pdf_url": "",
+   "abstract": "CMOS标准工艺兼容的1TnR技术路线加速研发。",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-14T06:24:00+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/503198.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "MemSilicon完成首款1T4R 1Gb RRAM芯片流片",
+   "summary_zh": "MemSilicon完成国际首款高密度1T4R 1Gb RRAM芯片流片，采用CMOS兼容工艺，面向存算一体方向。",
+   "highlights_zh": [
+    "国际首款1T4R 1Gb RRAM芯片流片",
+    "CMOS标准工艺兼容，利于量产",
+    "面向AI存算一体与高密度存储场景"
+   ],
+   "why_zh": "存算一体硬件进展，对关注AI芯片与新型存储的读者有参考价值。",
+   "tags": [
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 5.0,
+   "score": 0.476,
+   "date": "2026-10-14",
+   "slot": "evening",
+   "selected_at": "2026-10-14T15:47:02+00:00",
+   "mirror_pdf": "pdf/web-90859cbc2f4d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/503198.html"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "前沿模型竞争从能力比拼转向性价比与生态卡位",
-   "why": "Gemini 4 以对手半价开放并登顶多项基准，Meta、微软、OpenAI 同步以算力与自研芯片应战。",
+   "trend": "Gemini 4 以半价策略重划前沿模型价格线，竞争从能力转向性价比",
+   "why": "Gemini 4 Argon 输出上限 100 万 token，限时输入 2 美元、输出 10 美元每百万 token，宣称压制 GPT-6 与 Opus 5.5。",
    "refs": [
     "web-526fa0b88981",
     "web-5a4d459014a0",
-    "web-1a3826e0f90e",
-    "web-c4dcdbcb62e2"
+    "web-1a3826e0f90e"
    ]
   },
   {
-   "trend": "Agent 架构从固定编排转向运行时自生成与可观测治理",
-   "why": "Anthropic 让 Claude 运行时自写程序编排子 Agent，腾讯同步推出 Agent 可观测中心补治理短板。",
+   "trend": "智能体编排从固定流程转向模型运行时自编程，架构拐点已现",
+   "why": "Anthropic 让 Claude 运行时自行编写程序编排子 Agent，替代固定编排逻辑，提升复杂任务灵活性。",
    "refs": [
-    "web-cf12248af09e",
-    "web-af0a62bc3ba8",
-    "arxiv-2610.17953"
+    "web-cf12248af09e"
    ]
   },
   {
-   "trend": "AI 编程速度倒逼底层基础设施重构",
-   "why": "Anthropic 因合并量十倍增长，7 人 5 个月自研版本控制系统替代 Git。",
+   "trend": "智能体评测开始转向真实场景与越界行为，跑分不再够用",
+   "why": "LifeSearch 最强模型仅得 63.4%，SWE-MISBEHAVIOR 实测主流编码智能体依赖误判率高达 98.5%。",
    "refs": [
-    "web-d6e89e4381e4",
-    "web-14da101e42fa"
+    "arxiv-2610.18092",
+    "arxiv-2610.18206"
    ]
   },
   {
-   "trend": "智能体入口之争从 App 转向手机系统与硬件终端",
-   "why": "阶跃发布 3999 元智能体手机，苹果推 299 美元带屏 HomeView，端侧模型同步跟进。",
+   "trend": "端侧与边缘算力密集落地，私有智能体成新战场",
+   "why": "爱芯 AX8860 对标 DGX Spark 且价格减半，LFM2.5-24B-A2B 支持设备端运行私有智能体。",
    "refs": [
-    "web-6c297c541bb3",
-    "web-d9f62447280f",
-    "web-ab235465c6bc",
+    "web-336ff8c1982a",
     "web-550c4c02e9ff"
    ]
   },
   {
-   "trend": "具身智能与端侧算力同步加速，泡沫警示浮现",
-   "why": "智元估值 500 亿、爱芯边缘芯片对标 DGX Spark，同时尹志尧警示 AI 周期性泡沫风险。",
+   "trend": "智能体手机与系统级入口开战，手机厂商与模型公司正面碰撞",
+   "why": "阶跃发布 3999 元智能体手机 STEPX Neo，主打解锁即见 AI、无需先找 App 的系统级交互。",
    "refs": [
-    "web-98878cde0896",
-    "web-336ff8c1982a",
-    "web-64825b6638b2",
-    "web-51d4d6755327"
+    "web-6c297c541bb3",
+    "web-d9f62447280f"
    ]
   }
  ]
