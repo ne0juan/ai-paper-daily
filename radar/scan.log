@@ -1,12 +1,12 @@
-2026-10-14 10:02:30,117 INFO source hf_daily           -> 29 items
-2026-10-14 10:02:30,385 INFO source hackernews         -> 7 items
-2026-10-14 10:02:51,546 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-14 10:02:58,954 INFO source rss                -> 95 items
-2026-10-14 10:03:00,759 INFO source html_lists         -> 1 items
-2026-10-14 10:03:00,759 INFO source x                  -> 0 items
-2026-10-14 10:03:01,297 INFO source arxiv_search       -> 60 items
-2026-10-14 10:03:14,998 INFO source github             -> 20 items
-2026-10-14 10:03:15,000 INFO candidates: 212 (stale dropped 29, new 127)
-2026-10-14 10:05:04,544 INFO llm judged 100/100 (calls=13)
-2026-10-14 10:05:11,855 WARNING snapshot https://stratechery.com/2026/apple-homeview-the-new-apple-tv-the-app-story/: blocked or empty page
-2026-10-14 10:07:48,703 INFO run done: {"at": "2026-10-14T10:02:29+00:00", "slot": "evening", "candidates": 212, "new": 127, "stale": 29, "judged": 100, "selected": 19, "mirrored": 16, "by_category": {"技术": 4, "观点": 2, "资讯": 12, "论文": 1}, "by_source": {"HF Daily Papers": 29, "Hacker News": 7, "量子位": 10, "极客公园": 6, "IT之家": 16, "爱范儿": 8, "少数派": 1, "雷峰网": 15, "钛媒体": 3, "InfoQ 中文": 13, "Simon Willison": 1, "Latent Space": 4, "Jack Clark": 1, "Stratechery": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 1, "OpenAI": 2, "Google DeepMind": 4, "NVIDIA": 5, "Anthropic": 1, "arXiv 新论文": 60, "GitHub Trending": 9, "GitHub 新项目": 11}, "llm": true, "translated": 0}
+2026-10-14 15:47:03,036 INFO source hf_daily           -> 40 items
+2026-10-14 15:47:03,418 INFO source hackernews         -> 7 items
+2026-10-14 15:47:16,323 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-14 15:47:23,883 INFO source rss                -> 85 items
+2026-10-14 15:47:25,774 INFO source html_lists         -> 0 items
+2026-10-14 15:47:25,774 INFO source x                  -> 0 items
+2026-10-14 15:47:27,948 INFO source arxiv_search       -> 60 items
+2026-10-14 15:47:37,998 INFO source github             -> 20 items
+2026-10-14 15:47:38,000 INFO candidates: 210 (stale dropped 30, new 115)
+2026-10-14 15:49:30,757 INFO llm judged 100/100 (calls=13)
+2026-10-14 15:49:38,051 WARNING snapshot https://thezvi.wordpress.com/2026/10/14/the-safety-culture-at-the-labs-is-broken/: blocked or empty page
+2026-10-14 15:51:46,408 INFO run done: {"at": "2026-10-14T15:47:02+00:00", "slot": "evening", "candidates": 210, "new": 115, "stale": 30, "judged": 100, "selected": 21, "mirrored": 19, "by_category": {"技术": 4, "观点": 1, "项目": 3, "资讯": 13}, "by_source": {"HF Daily Papers": 40, "arXiv 新论文": 60, "Hacker News": 7, "量子位": 10, "极客公园": 5, "IT之家": 9, "爱范儿": 9, "少数派": 1, "雷峰网": 15, "钛媒体": 2, "InfoQ 中文": 12, "Simon Willison": 1, "Latent Space": 4, "Stratechery": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 3, "Hugging Face Blog": 1, "OpenAI": 3, "Google DeepMind": 4, "NVIDIA": 4, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
