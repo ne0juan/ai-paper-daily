@@ -176,6 +176,95 @@
    "mt": false
   },
   {
+   "id": "arxiv-2610.20571",
+   "kind": "paper",
+   "title": "Any Time, Any Space: A World-State-Centric Framework for Agentic Video Generation",
+   "url": "https://arxiv.org/abs/2610.20571",
+   "pdf_url": "https://arxiv.org/pdf/2610.20571",
+   "abstract": "Long-form agentic video generation must turn a screenplay into shots that remain spatially and temporally consistent across nonconsecutive requests. Passing prompts or recent frames between shots does not provide a shared spatial frame for revisiting a scene or a time-indexed record for replaying an earlier event. We present Any Time, Any Space (ATAS), which compiles a screenplay into shot requests with explicit location, camera, and event-time references. Before generation, it retrieves relevant evidence from a scene memory of registered static geometry and an event memory of dynamic observations indexed by scene, event, and time. After generation, ATAS reconstructs and registers the clip. It updates memory only when review and state checks accept the observation, while film delivery remains independent of memory admission. Across four video generators, ATAS improves all reported cross-shot consistency measures and achieves the highest aggregate benchmark score for each backbone. It also outperforms the compared agents and 3D-guided methods on target-image spatial revisit, leads three event-recapture criteria, and receives the highest human ratings on all six criteria. The video results and code are available on our project page: https://lhmd.top/atas/.",
+   "authors": [
+    "Weijie Wang",
+    "Haomin Zhang",
+    "Ye Li",
+    "Akide Liu",
+    "Zeyu Zhang",
+    "Haoyu Zhao",
+    "Yefei He",
+    "Donny Y. Chen",
+    "Feng Chen",
+    "Bohan Zhuang"
+   ],
+   "orgs": [
+    "Zhejiang University"
+   ],
+   "published": "2026-10-14T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.20571",
+     "signal": "▲ 315",
+     "metric": 315
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "ATAS：以世界状态为中心的智能体视频生成框架",
+   "summary_zh": "浙大提出 ATAS，将剧本编译为带地点、机位与事件时间引用的镜头请求，生成前从场景记忆与事件记忆检索证据，生成后回写记忆，在四种视频生成器上提升跨镜头一致性并取得最高综合分。",
+   "highlights_zh": [
+    "用场景记忆（静态几何）与事件记忆（按场景/事件/时间索引的动态观测）解决非连续镜头的空间与时间一致性",
+    "记忆仅在审查与状态检查通过后更新，影片交付与记忆准入解耦",
+    "在目标图像空间重访、事件重拍等任务上优于对比智能体与 3D 引导方法，六项人类评分均最高"
+   ],
+   "why_zh": "长视频生成从「单镜头质量」转向「跨镜头世界一致性」，这是智能体化视频生成的关键架构方向。",
+   "tags": [
+    "多模态",
+    "智能体",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.68,
+   "score_llm": 8.0,
+   "score": 0.752,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T15:34:10+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.20571.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.20571"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.20571"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.20571"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.20571"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.20571"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.20571"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/ziplab/ATAS"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "arxiv-2610.20344",
    "kind": "paper",
    "title": "Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents",
@@ -268,6 +357,95 @@
     {
      "label": "GitHub",
      "url": "https://github.com/YuyaoGe/doc2harness"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.19789",
+   "kind": "paper",
+   "title": "More Methods, Better Agents? A Reality Check on Self-Distillation in Agentic Reinforcement Learning",
+   "url": "https://arxiv.org/abs/2610.19789",
+   "pdf_url": "https://arxiv.org/pdf/2610.19789",
+   "abstract": "Self-distillation in agentic reinforcement learning has produced a growing number of methods. However, existing evaluations often reuse published baseline scores under differing experimental conditions, provide few direct comparisons among contemporaneous methods, and give limited attention to training stability and computational cost. These limitations obscure the source of reported gains and the practical strengths and weaknesses of competing methods. Costly agent training further motivates a common basis for comparison. To address these gaps, we compare ten representative methods against GRPO on ALFWorld, ScienceWorld, Search-QA, and WebShop across three model sizes. Our study comprises 132 training runs totaling 12,124.4 recorded H800 GPU-hours, with repeated evaluations over eight rollout seeds for the pretrained backbones and all eleven trained methods. Beyond final task performance, we examine training progress, stability, and measured computational cost. Our evaluation yields three key findings. First, gains over GRPO remain limited in scope, with no method consistently outperforming it across settings. Second, strong final performance can mask unstable training. Third, additional training cost does not consistently translate into better performance. We establish this benchmark to support fair, comprehensive comparison and guide future research toward reliable and cost-effective improvements in agent training. Project page: https://aim-uofa.github.io/Self-Distillation-AgentRL/",
+   "authors": [
+    "Linhao Zhong",
+    "Bozhen Fang",
+    "Xuehao Wang",
+    "Duochao Shi",
+    "Zekai Luo",
+    "Guangming Yao",
+    "Yi Yuan",
+    "Hao Chen",
+    "Jingdong Chen",
+    "Chunhua Shen"
+   ],
+   "orgs": [
+    "Zhejiang University"
+   ],
+   "published": "2026-10-14T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.19789",
+     "signal": "▲ 70",
+     "metric": 70
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "更多方法就更好吗？智能体强化学习自蒸馏的现实检验",
+   "summary_zh": "浙大等对十种自蒸馏方法与 GRPO 在四个智能体任务、三种模型规模上做统一对比，共 132 次训练、12124 H800 GPU 小时，发现自蒸馏相对 GRPO 增益有限、无方法全面胜出，且高最终性能常掩盖训练不稳定，额外算力也未稳定换来更好表现。",
+   "highlights_zh": [
+    "统一实验条件下直接对比十种同期自蒸馏方法，而非复用已发表基线分数",
+    "三大结论：增益范围有限、强性能掩盖不稳定、算力投入与收益不成正比",
+    "公开基准与评测流程，为智能体 RL 训练提供公平比较基础"
+   ],
+   "why_zh": "给智能体 RL 的自蒸馏热潮泼冷水，做训练方案选型前值得先看这份成本与稳定性证据。",
+   "tags": [
+    "强化学习",
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.6349,
+   "score_llm": 8.0,
+   "score": 0.734,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T15:34:10+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.19789.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.19789"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.19789"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.19789"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.19789"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.19789"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.19789"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/aim-uofa/Self-Distillation-AgentRL"
     }
    ],
    "mt": false
@@ -422,6 +600,99 @@
    "mt": false
   },
   {
+   "id": "arxiv-2610.20442",
+   "kind": "paper",
+   "title": "Towards Agentic Robots: Model, Data, Environment, and Harness",
+   "url": "https://arxiv.org/abs/2610.20442",
+   "pdf_url": "https://arxiv.org/pdf/2610.20442",
+   "abstract": "Foundation models are driving a paradigm shift in robotic intelligence, moving beyond low-level action prediction to goal-directed orchestration of data collection, model training, task planning, and real-world execution. We characterize this emerging paradigm as an agentic robots, in which agents reason over human instructions, interact with robotic environments, rectify execution errors autonomously, and dynamically adjust operational strategies. Although this field develops fast, current studies are not well connected. Researchers have no consistent view of how to combine different agentic functions into a complete robot system. This paper provides a unified overview of existing research on agentic robots. We first trace the development from robot policies to agentic systems, covering vision-language-action models, world models, and world-action models. We then clarify the definition and scope of agentic robots and organize existing research into seventeen categories across four functional domains: Model, Data, Environment, and Harness. Across these domains, we examine how agents shape model learning and robot decisions, collect and curate robot data, construct worlds, tasks, and tests for learning and evaluation, and organize capabilities for robot use. Finally, we discuss open challenges and outline directions for future research. Looking forward, we hope this work contributes to a clearer understanding of agentic robots and supports new approaches to making them more capable, reliable, and adaptive.",
+   "authors": [
+    "Chonghan Qin",
+    "Dongming Wu",
+    "Kaituo Feng",
+    "Jiaxu Wang",
+    "Xinlei Yu",
+    "Peiwen Sun",
+    "Yijia Fan",
+    "Xilin He",
+    "Bingao Chen",
+    "Weitong Lian",
+    "Ryan Ji",
+    "Wenqi Ren",
+    "Xiaobin Hu",
+    "Dahua Lin",
+    "Yu-Gang Jiang",
+    "Xiangyu Yue"
+   ],
+   "orgs": [],
+   "published": "2026-10-14T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.20442",
+     "signal": "▲ 28",
+     "metric": 28
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "迈向智能体机器人：模型、数据、环境与脚手架",
+   "summary_zh": "综述提出「智能体机器人」范式，把机器人研究从底层动作预测转向目标驱动的编排，按 Model/Data/Environment/Harness 四大域、十七类梳理现有工作，并给出开放挑战。",
+   "highlights_zh": [
+    "梳理从 VLA、世界模型到 world-action model 的演进脉络",
+    "用 Model/Data/Environment/Harness 四域统一组织零散研究",
+    "强调智能体自主纠错与动态调整策略的能力"
+   ],
+   "why_zh": "想系统理解具身智能体全景与 harness 设计的人，这是一份难得的统一地图。",
+   "tags": [
+    "机器人",
+    "智能体",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.5813,
+   "score_llm": 8.0,
+   "score": 0.7125,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T15:34:10+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.20442.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.20442"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.20442"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.20442"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.20442"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.20442"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.20442"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/chonghanqin/Awesome-Agentic-Robots"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-9e83c0fccd83",
    "kind": "article",
    "title": "Price War in the Chip Aisle",
@@ -526,6 +797,149 @@
     {
      "label": "原文",
      "url": "https://www.leiphone.com/category/academic/ChIK9FvwSwlHmfFc.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.20609",
+   "kind": "paper",
+   "title": "SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving",
+   "url": "https://arxiv.org/abs/2610.20609",
+   "pdf_url": "https://arxiv.org/pdf/2610.20609",
+   "abstract": "Vision-Language-Action (VLA) models are gaining attention in autonomous driving, inheriting commonsense priors from large language models (LLMs) and widening the navigation interface from a fixed command set to free-form natural-language instructions. However, this open-ended interface exposes a new vulnerability surface: an inattentive driver may issue instructions that are unsafe given the current scene, and a malicious user may issue dangerous ones on purpose. We present the first benchmark suite that evaluates navigation following and conflict awareness together, along with adversarial robustness. Existing VLAs fall short on both: SimLingo completes no language-instructed lane change in closed loop, and all models degrade sharply under conflicting signals. We propose SafeDriveVLA, the first driving VLA that (1) explicitly predicts a three-level navigation-compliance mode to decouple conflict reasoning from action generation, and (2) uses navigation-conditioned world model dreaming to inform this prediction. Unlike prior world models that roll out expert or planned actions, ours dreams of strictly following the navigation signal, showing when following is safe. SafeDriveVLA reaches 88.16 Driving Score (DS) and 68.64% Success Rate (SR) on Bench2Drive, lifts closed-loop language following by 49.3% and reduces collisions under unsafe instructions from 60 to 38 compared to the best SimLingo variant. Video demonstrations are available on our project page.",
+   "authors": [
+    "Shaoyuan Xie",
+    "Zihan Zhang",
+    "Jingxuan Wang",
+    "Jiashu Qu",
+    "Xiaoqing Liang",
+    "Lingdong Kong",
+    "Junchi Lu",
+    "Henrik I. Christensen",
+    "Qi Alfred Chen"
+   ],
+   "orgs": [
+    "University of California, Irvine "
+   ],
+   "published": "2026-10-14T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.20609",
+     "signal": "▲ 9",
+     "metric": 9
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "SafeDriveVLA：导航条件世界模型驱动的冲突感知自动驾驶",
+   "summary_zh": "针对VLA自动驾驶在冲突或恶意导航指令下的安全隐患，提出首个联合评测基准，并用三级合规模式预测加导航条件世界模型推演，将闭环语言跟随提升49.3%，不安全指令下碰撞从60降至38。",
+   "highlights_zh": [
+    "首个同时评测导航跟随、冲突感知与对抗鲁棒性的基准",
+    "显式预测三级导航合规模式，解耦冲突推理与动作生成",
+    "导航条件世界模型推演严格跟随指令时的安全性",
+    "Bench2Drive达88.16 DS、68.64% SR"
+   ],
+   "why_zh": "自动驾驶VLA安全性的新基准与新方法，值得关注其冲突处理思路。",
+   "tags": [
+    "多模态",
+    "机器人",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.5177,
+   "score_llm": 8.0,
+   "score": 0.6871,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T15:34:10+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.20609.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.20609"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.20609"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.20609"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.20609"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.20609"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.20609"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/ASGuard-UCI/safedrive-vla"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3a11e60ee8cf",
+   "kind": "article",
+   "title": "Timestral: Mistral's time-series foundation models | Mistral",
+   "url": "https://mistral.ai/news/timestral/",
+   "pdf_url": "",
+   "abstract": "State-of-the-art probabilistic forecasting in four sizes (5M–209M params), CPU-efficient, zero-shot ready.",
+   "authors": [],
+   "orgs": [
+    "Mistral"
+   ],
+   "published": "",
+   "sources": [
+    {
+     "name": "Mistral",
+     "authority": 0.8,
+     "url": "https://mistral.ai/news/timestral/",
+     "signal": "官方",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Mistral 发布时序基础模型 Timestral",
+   "summary_zh": "Mistral 推出 Timestral 时序基础模型，提供 5M–209M 四种规模，主打概率预测 SOTA、CPU 高效推理与零样本可用。",
+   "highlights_zh": [
+    "覆盖 5M 到 209M 四种参数规模",
+    "强调 CPU 上高效运行，降低部署门槛",
+    "开箱即用的零样本预测能力"
+   ],
+   "why_zh": "Mistral 从语言模型切入时序预测，值得关注其基础模型版图扩张。",
+   "tags": [
+    "大模型",
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5,
+   "score_llm": 8.0,
+   "score": 0.68,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T15:34:10+00:00",
+   "mirror_pdf": "pdf/web-3a11e60ee8cf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://mistral.ai/news/timestral/"
     }
    ],
    "mt": false
@@ -642,6 +1056,170 @@
    "mt": false
   },
   {
+   "id": "web-7908d899cb3e",
+   "kind": "article",
+   "title": "[AINews] Modal’s $1B ARR, $16B Series D makes it NYC’s newest AI Infra Decacorn, 3x usage and 3x valuation in 5 months, 15x in 1 yr",
+   "url": "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d",
+   "pdf_url": "",
+   "abstract": "Sandboxes are all you need.",
+   "authors": [
+    "swyx"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-15T10:08:08+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Modal 年化收入破 10 亿美元，估值 5 个月翻三倍",
+   "summary_zh": "AI 基础设施公司 Modal 完成 160 亿美元 D 轮融资，5 个月内使用量和估值均增长 3 倍，年化收入达 10 亿美元，成为纽约最新 AI 基础设施独角兽。",
+   "highlights_zh": [
+    "Modal 年化收入达 10 亿美元，5 个月估值和使用量均 3 倍增长",
+    "完成 160 亿美元 D 轮融资，成为纽约最新 AI Infra 十角兽",
+    "Latent Space 评价其核心逻辑：Sandboxes are all you need"
+   ],
+   "why_zh": "了解 AI 基础设施赛道头部玩家的增长速度和资本热度",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T15:34:10+00:00",
+   "mirror_pdf": "pdf/web-7908d899cb3e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b6bc6eaa3915",
+   "kind": "article",
+   "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
+   "url": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
+   "pdf_url": "",
+   "abstract": "How Leash Bio tamed DELs, the assay that traumatizes everyone, and used the data to catch cheating models. And why that same data is perfect for AI agents learning to think like chemists.",
+   "authors": [
+    "Brandon Anderson"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-14T20:35:09+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Leash Bio 用实验室闭环数据训练 AI 化学家",
+   "summary_zh": "Leash Bio 的 Ian Quigley 介绍如何驯服 DEL 检测技术，用实验数据捕捉作弊模型，并说明这些数据为何适合训练 AI 智能体像化学家一样思考。",
+   "highlights_zh": [
+    "DEL 检测是让所有人头疼的实验，Leash Bio 找到了驯服方法",
+    "用实验数据识别和捕捉作弊的 AI 模型",
+    "实验室闭环数据被认为是训练化学推理智能体的理想素材"
+   ],
+   "why_zh": "了解 AI 在药物发现中如何与真实实验数据结合",
+   "tags": [
+    "科学AI",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T15:34:10+00:00",
+   "mirror_pdf": "pdf/web-b6bc6eaa3915.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3f4663540891",
+   "kind": "article",
+   "title": "OpenAI’s ironic credibility problem",
+   "url": "https://www.understandingai.org/p/openais-ironic-credibility-problem",
+   "pdf_url": "",
+   "abstract": "How do we know the company’s stated reasons for firing three safety researchers are its actual reasons?",
+   "authors": [
+    "Dan Kagan-Kans"
+   ],
+   "orgs": [
+    "Timothy B. Lee"
+   ],
+   "published": "2026-10-14T18:41:56+00:00",
+   "sources": [
+    {
+     "name": "Timothy B. Lee",
+     "authority": 0.75,
+     "url": "https://www.understandingai.org/p/openais-ironic-credibility-problem",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "科技记者，《Understanding AI》作者",
+   "title_zh": "OpenAI 解雇安全研究员的信誉困境",
+   "summary_zh": "Timothy B. Lee 质疑 OpenAI 解雇三名安全研究员的官方理由是否可信，认为外界无法验证公司声明的真实动机，这构成 OpenAI 的讽刺性信誉问题。",
+   "highlights_zh": [
+    "OpenAI 解雇三名安全研究员的真实原因存疑",
+    "外界无法验证公司公开声明的动机是否属实",
+    "AI 安全治理透明度问题引发关注"
+   ],
+   "why_zh": "关注 AI 安全治理与公司透明度之间张力的读者值得一读",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T15:34:10+00:00",
+   "mirror_pdf": "pdf/web-3f4663540891.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.understandingai.org/p/openais-ironic-credibility-problem"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-f7ba9bf38573",
    "kind": "article",
    "title": "昆仑万维诞生世界上第一款消费级显卡视频大模型游戏，同步开源",
@@ -691,6 +1269,221 @@
     {
      "label": "原文",
      "url": "https://www.leiphone.com/category/industrynews/OSk0jtFDeBaSizAH.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bd9590f3e812",
+   "kind": "article",
+   "title": "蚂蚁百灵开源 560B 模型 Ling-3.0-flash：0.19 美元搞定复杂工作流",
+   "url": "https://www.infoq.cn/article/SxQO3Aw6JCTgNMTGPPE8?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "李冬梅"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-15T19:33:53+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/SxQO3Aw6JCTgNMTGPPE8?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "蚂蚁百灵开源560B模型Ling-3.0-flash",
+   "summary_zh": "蚂蚁百灵开源560B参数模型Ling-3.0-flash，宣称以0.19美元成本完成复杂工作流，大幅降低大模型推理成本。",
+   "highlights_zh": [
+    "560B参数规模开源",
+    "0.19美元完成复杂工作流",
+    "面向低成本高复杂度任务场景"
+   ],
+   "why_zh": "超大规模模型开源且推理成本极低，值得关注其架构与效率方案",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T15:34:10+00:00",
+   "mirror_pdf": "pdf/web-bd9590f3e812.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/SxQO3Aw6JCTgNMTGPPE8?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-36917ef32b44",
+   "kind": "article",
+   "title": "K-Dense-AI/scientific-agent-skills",
+   "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+   "pdf_url": "",
+   "abstract": "Star K-Dense-AI / scientific-agent-skills Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.\nREADME: # Scientific Agent Skills [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md) [![arXiv](https://img.shields.io/badge/arXiv-2609.00065-b31b1b.svg)](https://arxiv.org/abs/2609.00065) [![Version](https://img.shields.io/badge/Version-2.72.0-blue.svg)](pyproject.toml) [![Skills](https://img.shields.io/badge/Skills-177-brightgreen.svg)](#-whats-included) [![Databases](https://img.shields.io/badge/Databases-100%2B-orange.svg)](#-whats-included) [![Agent Skills](https://img.shields.io/badge/Standard-Agent_Skills-blueviolet.svg)](https://agentskills.io/) [![Agent Plugins](https://img.shields.io/badge/Standard-Agent_Plugins-0A7A72.svg)](https://agent-plugins.org/) [![Security Scan](https://github.com/K-Dense-AI/scientific-agent-skills/actions/workflows/security-scan.yml/badge.svg)](https://github.com/K-Dense-AI/scientific-agent-skills/actions/workflows/security-scan.yml) [![Skill Tests](https://github.com/K-Dense-AI/scientific-agent-skills/actions/workflows/skill-tests.yml/badge.svg)](https://github.com/K-Dense-AI/scientific-agent-skills/actions/workflows/skill-tests.yml) [![Works with](https://img.shields.io/badge/Works_with-Cursor_|_Claude_Code_|_Codex_|_Google_Antigravity-blue.svg)](#-getting-started) [![X](https://img.shields.io/badge/Follow_on_X-%40k__dense__ai-000000?logo=x)](https://x.com/k_dense_ai) [![LinkedIn](https://img.shields.io/badge/LinkedIn-K--Dense_Inc.-0A66C2?logo=linkedin)](https://www.linkedin.com/company/k-dense-inc) [![YouTube](http",
+   "authors": [],
+   "orgs": [
+    "K-Dense-AI"
+   ],
+   "published": "2026-10-15T15:34:10+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+     "signal": "★ 今日 +1,091 · Python",
+     "metric": 1091
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "scientific-agent-skills：把 AI 智能体变成科研助手",
+   "summary_zh": "面向科研的 Agent Skills 库，提供 177 个经验证的技能与 100+ 生物、化学、医学、药物发现数据库，兼容 Cursor、Claude Code、Codex 等，可让通用智能体直接调用科研工具链。",
+   "highlights_zh": [
+    "177 个即用技能 + 100 多个科学数据库，覆盖生物、化学、医学与药物发现",
+    "兼容 Cursor、Claude Code、Codex 及开放 Agent Skills 标准",
+    "MIT 许可，带安全扫描与技能测试 CI"
+   ],
+   "why_zh": "如果你在做科研类智能体，装上它可直接获得现成的领域技能与数据库接入，省去自建工具层。",
+   "tags": [
+    "智能体",
+    "科学AI",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.627,
+   "score_llm": 6.0,
+   "score": 0.6108,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T15:34:10+00:00",
+   "mirror_pdf": "pdf/web-36917ef32b44.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0b6937fb15d2",
+   "kind": "article",
+   "title": "xerj-org/xerj",
+   "url": "https://github.com/xerj-org/xerj",
+   "pdf_url": "",
+   "abstract": "Star xerj-org / xerj XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.\nREADME: # XERJ [English](./README.md) | [简体中文](./README.zh-CN.md) [![CI](https://img.shields.io/github/actions/workflow/status/xerj-org/xerj/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/xerj-org/xerj/actions/workflows/ci.yml) [![Release](https://img.shields.io/github/v/release/xerj-org/xerj?style=flat-square&label=release)](https://github.com/xerj-org/xerj/releases) [![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](./LICENSE) [![Stars](https://img.shields.io/github/stars/xerj-org/xerj?style=flat-square)](https://github.com/xerj-org/xerj/stargazers) [![Rust](https://img.shields.io/badge/built%20with-Rust-000000?style=flat-square&logo=rust)](https://www.rust-lang.org) [![Discussions](https://img.shields.io/github/discussions/xerj-org/xerj?style=flat-square&label=discussions)](https://github.com/xerj-org/xerj/discussions) [![Reference coding](https://img.shields.io/badge/reference%20coding-2.7%C3%97%20fewer%20tokens-ff8c00?style=flat-square)](https://xerj.org/case-studies/reference-coding.html) [![Autoindex](https://img.shields.io/badge/autoindex-zero%20config-ff8c00?style=flat-square)](https://xerj.org/docs/cli.html) [![Search](https://img.shields.io/badge/search-BM25%20%2B%20kNN%20%2B%20hybrid-8957e5?style=flat-square)](https://xerj.org/docs/queries.html) [![Agent memory](https://img.shields.io/badge/agent%20memory-%2F__memory-00b3a4?style=flat-square)](https://xerj.org/docs/recipes/agentic-memory.html) [![MCP](https://img.shie",
+   "authors": [],
+   "orgs": [
+    "xerj-org"
+   ],
+   "published": "2026-10-15T15:34:10+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/xerj-org/xerj",
+     "signal": "★ 今日 +725 · Rust",
+     "metric": 725
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "XERJ：为 AI 智能体打造的低 token 数据检索层",
+   "summary_zh": "Rust 编写的检索工具，一条命令即可索引代码、文档、日志与 PDF，供搜索、RAG、安全审计与智能体记忆使用，宣称比 grep 少用 40 倍 token，并兼容 Elasticsearch 客户端。",
+   "highlights_zh": [
+    "autoindex 自动索引代码、文档、日志与 PDF，无需手工建库",
+    "宣称比 grep/sed 少用约 40 倍 token，降低智能体上下文开销",
+    "兼容 Elasticsearch 协议，现有客户端可直接接入"
+   ],
+   "why_zh": "如果你在给智能体做代码库或文档检索，可用它替代 grep 式扫描，显著压缩上下文 token 消耗。",
+   "tags": [
+    "智能体",
+    "效率与系统",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.6102,
+   "score_llm": 6.0,
+   "score": 0.6041,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T15:34:10+00:00",
+   "mirror_pdf": "pdf/web-0b6937fb15d2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/xerj-org/xerj"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b636538d95f2",
+   "kind": "article",
+   "title": "人形机器人最尴尬的事：长了一双腿，却只能定住干活",
+   "url": "http://www.geekpark.net/news/372420",
+   "pdf_url": "",
+   "abstract": "作者｜Li Yuan 编辑｜ 郑玄 长得像人，但是只能跳舞表演，根本没法真正干活。 这大概是过去几年人形机器人最尴尬的一幕。 人形机器人最初拿到天量关注，底层逻辑其实很直接：现实世界本来就是围绕人类身体设计的。楼梯、橱柜、货架、工位甚至门把手，全都有现成尺寸。理论上，机器人完全可以用下肢越过障碍，直接用上肢拿起工具工作。 逻辑听起来无懈可击，但行业演进了几年，我们看到的却往往是另一副模样。 视频里的人形机器人，主要是在跑跑跳跳、翻跟头；哪怕真有一些干活的演示，也大多老老实实待在平地上——走到某处，定在原地，再小心翼翼地伸手。 如果双腿只负责把机器人送到任务面前，真正动手时它必须先站稳锁定身体，那它们不过是一对成本极高、极其脆弱的机械轮子。那么人形机器人的优势在哪？ 这也很难怪大家苛刻。迈不过这道坎，人形机器人就永远撕不掉「表演道具」的标签。 不过，这一点在近期已经逐渐看到解法。 近期，源策未来发布新模型和演示，以「全身智能」（Whole-Body Intelligence，WBI）为核心技术路线，自采人类全身交互数据，研发能够适配不同本体的人形基础模型系统。 在源策公布的演示中，机器人面对倒在地上的自行车，能够俯身弓腰，全身发力将它扶起；面对电饭煲的启动键，又能完成精细按压。 最能体现人形优势的，是一段搬踏台登高的画面：够不着高处的物品，它自己搬来一张踏台放下，随后踏上平台，抓取目标。这一串动作，把搬运、支撑转换和高位操作连在了一起。 当双腿参与操作，当双手与身体的平衡相互配合，人形这副身体的价值才开始显现：机器人有机会利用为人设计的空间，完成原本由人承担的工作。 01 会走会跳，为什么偏偏不能干活？ 在很多人的直觉里，既然机器人能做出跑跳甚至后空翻这种高难度动作，顺手倒个垃圾、擦个桌子，理应更简单。 这背后最直接的死结，是双足机器人底层的控制系统一直面临两难： 要稳定，手就得跟着晃；要手准，整个人就容易摔。 过去一年，行业里最主流的做法，其实普遍站在英伟达开源的全身控制基准「SONIC」之上。它已经展示了全身动作跟踪、遥操作，以及接入 VLA 的自主操作能力。这套方案代表了此前学术界和工业界的天花板，但进一步走向实际操作，还需要同时兼顾关键末端的跟踪精度、身体稳定性与可稳定触达的范围。 其中一个关键问题，是末端跟踪精度。 在源策的对比测试中，当机器人通过俯身、前伸等全身协调动作向低处或远处伸取时，开源基线手部末端跟踪误差在 10 厘米量级。这种精度走向对于还精细操作并不够用。 全身控制上的不足，还会向前传导，限制后续模型所需的数据采集。 想训练出一个会操作的全身模型，小脑不仅要负责最终的部署执行，在前端还要充当遥操作的驱动底座——人类数采员做出动作，需要靠小脑将其实时转化为机器人的动作。小脑能跟上多少，决定了这些示范有多少能变成有效的真机数据。 其中一道障碍，就出在大幅度动作的映射上。 捡起地上的水瓶、拿到低处的物品，都需要机器人屈膝、俯身，把手的工作范围向下延伸。控制系统既要稳住身体，也要把手送到目标位置。姿态跟上了，手却够不到，示范仍然无法完成。 因为机器人的身体与人的身体并不同构，如果数采员摸到地而机器人的手还悬在半空，人已经弯到了底，机器人却还差一截。它做出了弯腰的动作，却没有完成触地的意图。 这不仅让机器人当下捡不起东西，也让团队难以采到完成这类任务的有效示范。 另一道障碍，是地形变化时，通行与操作能否连续进行。 SONIC 这样的主流方案，整个控制逻辑几乎是完全绑定在平整地面上的。它在算法层面的假设，是脚底接触的是一个连续、平滑的二",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-15T10:20:44+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372420",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "人形机器人最尴尬的事：有腿却只能定住干活",
+   "summary_zh": "极客公园报道源策未来发布「全身智能」人形基础模型，通过全身协调控制实现俯身扶车、搬踏台登高等连续操作，突破双足机器人「站稳才能干活」的瓶颈。",
+   "highlights_zh": [
+    "指出双足机器人稳定性与末端精度的根本矛盾",
+    "源策未来以全身智能路线实现搬运、支撑转换与高位操作连贯",
+    "开源基线SONIC末端跟踪误差达10厘米量级，难以精细操作"
+   ],
+   "why_zh": "人形机器人从表演走向实际作业的关键技术突破，值得关注具身智能的读者阅读。",
+   "tags": [
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T15:34:10+00:00",
+   "mirror_pdf": "pdf/web-b636538d95f2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372420"
     }
    ],
    "mt": false
@@ -852,6 +1645,328 @@
     {
      "label": "原文",
      "url": "https://www.infoq.cn/article/kvzkXDXpKOXILlfirftW?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a658086eea79",
+   "kind": "article",
+   "title": "库克：苹果智能接入阿里千问大模型，10月底在中国发布测试版本",
+   "url": "https://www.leiphone.com/category/industrynews/P1btLjli3z8XoQkz.html",
+   "pdf_url": "",
+   "abstract": "10月15日，苹果董事会执行主席蒂姆·库克在上海走访，接受媒体采访。在谈及Apple Intelligence（苹果智能）相关问题时，库克表示苹果智能及相关阿里千问大模型确已获得批准，将在十月晚些时候发布测试版本，其中包含实时翻译、书写工具、照片清除工具等首批苹果智能功能，但是Siri AI这次不包括在内。“但是我们很高兴，首批核心的苹果智能功能是可以慢慢上线了。”库克说道。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-15T09:28:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/P1btLjli3z8XoQkz.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "库克：苹果智能接入阿里千问，10月底中国测试",
+   "summary_zh": "库克确认苹果智能接入阿里千问大模型获批，10月底在华发布测试版，含实时翻译、书写工具等，Siri AI暂缺席。",
+   "highlights_zh": [
+    "苹果智能中国版接入千问",
+    "10月底发布测试版本",
+    "首批不含Siri AI"
+   ],
+   "why_zh": "苹果在华AI落地关键节点，影响端侧AI格局。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T15:34:10+00:00",
+   "mirror_pdf": "pdf/web-a658086eea79.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/P1btLjli3z8XoQkz.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8face3b32c96",
+   "kind": "article",
+   "title": "大模型「土木系」终翻身：AI Infra 年薪冲到 800 万？",
+   "url": "https://www.leiphone.com/category/industrynews/azREeBbKSJ84PQTK.html",
+   "pdf_url": "",
+   "abstract": "“以前 AI 业内把做 Infra、做工程的叫‘ 计算机里的土木系 ’ ，干着最脏最累的活，拿垫底的钱 。谁能想到他们现在这么值钱？”某大模型独角兽高管刘立向雷峰网感慨道。 他抛出一组薪资行情对比：AI Infra 工程岗以前在大厂，年包基本到不了 300 万；现在，好的 Infra 人有能开到七八百万的。比起算法岗（500~1400 万）还有差距，但已经算打了个漂亮的翻身仗。 上市人力资源服务公司科锐国际华南区 AI 业务资深专家卢炳宁， 也见证了这场狂飙： “ 2024 年在深圳见一个做 Infra 的候选人，他年薪还是 30 万；2025 年涨到 50 万；今年一跳槽，直接 100 万。” 这不是个例。 “Infra 人才从独角兽跳去互联网大厂，薪资翻倍的有；从大厂跳去独角兽创业公司，薪酬包能涨到 3 倍左右，不过期权占大头。3 倍属于个例，2 倍更常见。”他补充道。 这轮涨薪的起爆点，是 DeepSeek R1 的发布。 “2025 年初 R1 爆火，让大家看到了 Infra 提升的价值，AI Infra 人才立马被各家模型厂商疯抢， 这种状态一直持续到现在。 ” 卢炳宁表示。 然而，薪水翻倍从来不是雨露均沾。当市场的真金白银砸向这群人，究竟是什么在为他们定价？又是哪类 Infra 人，吃到了这轮红利里最肥的那块肉？ 01 “土木系” ，凭什么拿高薪？ 什么是 AI Infra 人才？ 简单来说，AI Infra 人才做的是怎么 把昂贵的 GPU 算卡，榨出尽可能高的利用率 ，实打实替公司省钱。 卢炳宁告诉雷峰网，2022 到 2024 这三年，Infra 岗基本是个“配角工种”。 ChatGPT 出来后，国内随即进入“百模大战”和应用尝鲜阶段。资本和团队盯的是两件事：模型效果打平 ChatGPT，尽快跑出 Killer App。关注度也好，高薪也好，都优先给了算法岗和产品岗。 在“先上车再买票”的焦虑下，工程效率的优先级并不高，背后的算力浪费和调度效率问题被暂时掩盖。 “只要集群别崩、账单别炸，就算交差。Infra 工程这类支撑团队的价值， 当时被等同于运维，没人当回事。 ”某大模型实验室算力调度专家张桐坦言。 反转发生在 DeepSeek R1 出来之后。 据卢炳宁回忆，R1 发布后，行业都在琢磨一件事：DeepSeek 就那么点人，却做出了那么好的产品，赚了那么多钱，他们到底是怎么做到的？ 后来答案的一部分，落在了 Infra 降本上。 大家发现，大模型推理烧的是真金白银，而且常常把账单烧穿。这时候做 Infra 降本，省下的每一分都是实打实的利润。 于是各家开始盯着 DeepSeek 挖人，薪酬基本都是敞开了聊。 做好 Infra 降本，算力开支能节省上千万 “Infra 现在的角色，就是给厂商省钱。省钱也是在赚钱。”卢炳宁说。 能省多少？据他估算，做好 Infra 降本，算力开支能省下至少几千万的成本。 落到具体方向上，算子是把单张卡榨到极致，推理是把各类资源调度结合起来，做成本优化、提高有效利用率。其中 PD 分离、专家并行、VLLM、SGlang 这几类优化，降本降得最狠。 要知道，大模型公司最贵的开销，几乎都压在这些卡上。 业内流传过这样一笔预算配比：AI 模型公司每投 100 块到 AI 训练上，40 块花在算力，30 块花在人才，20 块打广告，剩下 10 块买数据。 训练一次大模型、跑一晚推理，GPU 集群的采购、租赁和电费，往往吃掉 AI 业务成本的大头，有的公司甚至占到 6 成以上。 可钱花出去，卡却常常在空转。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-15T07:46:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/azREeBbKSJ84PQTK.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI Infra人才薪资狂飙，年薪冲800万",
+   "summary_zh": "雷峰网报道称DeepSeek R1后AI Infra人才被疯抢，好的人年薪可达七八百万，跳槽涨幅普遍2倍，因降本能省数千万算力成本。",
+   "highlights_zh": [
+    "Infra岗从配角变抢手",
+    "R1成涨薪起爆点",
+    "PD分离、专家并行等降本最狠"
+   ],
+   "why_zh": "揭示AI人才市场结构性变化，从业者必读。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T15:34:10+00:00",
+   "mirror_pdf": "pdf/web-8face3b32c96.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/azREeBbKSJ84PQTK.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4f420863f587",
+   "kind": "article",
+   "title": "首款韬定律逻辑折叠芯片量产，麒麟9050让华为旗舰手机玩出什么新花样？",
+   "url": "https://www.leiphone.com/category/chips/4EHlprZnXovvP0XD.html",
+   "pdf_url": "",
+   "abstract": "电路折起来，旗舰手机的创新空间也被打开。 三年前，麒麟芯片回归。三年后，问题已经变成回来之后，还能走多远？ 全新基于韬定律的麒麟9050系列给出了一个新的工程答案。作为华为首款采用逻辑折叠技术的麒麟芯片，麒麟9050 Pro通过跨层重新设计电路，缩短数据传输距离，寻找芯片持续升级的空间，也为搭载韬定律芯片的华为手机提供了更强大的算力基础。 本周，华为终端创新技术沟通会上，华为终端BG CTO李小龙分享了旗舰产品背后的技术进展。持续迭代的背后，是长期研发投入： 2025年，华为研发投入1923亿元， 研发费用率达21.8%；2016年至2025年，累计研发投入13820亿元。 这些投入在终端侧形成了覆盖影像、屏幕、可靠、定位和声音五大方向的技术体系，包括XMAGE华为睿影、灵珑屏、灵盾防窥屏、昆仑玻璃、玄武架构、天工铰链系统、星迹定位、静谧通话和华为悦彰的代际进展。 支撑旗舰体验持续升级的麒麟芯片，也有了新的进展。在技术沟通会上，华为半导体业务无线终端芯片产品管理部部长徐松余透露， 下一代“麒麟2027”芯片已经在华为手上，迄今测试结果都符合预期。 从逻辑折叠的关键路径，到Mate 90系列的端侧AI、影像和显示，再到下一代芯片的验证进展，华为正在回答同一个问题 ， 新的芯片设计空间，如何变成旗舰手机的新能力，又如何延续到下一代？ 5000万混合键合，麒麟「逻辑折叠」的关键 韬定律指导下的麒麟芯片，是华为Mate系列新旗舰手机功能创新和体验提升的基石，其中最受关注的是 首款 量产的 逻辑折叠芯片麒麟9050 Pro。 逻辑折叠改变的是芯片的布局方式。按照华为的解释，团队从一开始就采用三维视角，将多颗Die作为一个完整芯片协同设计，根据逻辑关系分层布局，再用密集的垂直互连连接起来。原来需要沿平面绕行的数据，可以获得更短的传输路径。 这对应着华为提出的 韬定律，把创新焦点放到时间缩微 ，通过压缩信号传播和计算等待的时间，提升系统效率。对于芯片而言，晶体管的速度和数据抵达计算单元的速度，共同影响最终性能。 不过，电路要有效折起来，层间互连必须足够密。麒麟9050系列的互连规模超过5000万混合键合、超过500万有效信号互连。大量信号连接的价值，在于让跨层布局拥有足够的通信通道。 徐松余介绍，麒麟9050 Pro顶层金属间距为720纳米，这一代混合键合间距做到1.5微米。按照华为的研究， 混合键合间距与顶层金属间距的比例小于3，是实现有效逻辑折叠的重要条件。 这意味着，设计自由度依赖制造能力。键合间距进一步缩小，单位面积可以提供更多连接，才能让更多逻辑模块参与跨层布局。 华为公布的晶体管密度提升53.5%，也是理解这次变化的一个结果指标。但 对于跨层布局带来的密度变化，此次沟通会没有给出对应的等效制程结论。 更需要关注的是，华为韬定律指导下的逻辑折叠，把优化范围从单层电路扩大到跨层布局，也把竞争门槛延伸到互连、设计工具和制造协同。 麒麟9050的量产，说明华为已经把这套方法推进到产品，价值也已经体现。 对于麒麟9050 Pro计算系统而言，逻辑折叠设计可以缩短关键路径距离，改善性能和能效。相比传统二维平面设计，逻辑折叠可以缩短时钟走线、改善时钟偏斜、降低时钟树深度，减少时钟分配开销。关键路径得到改善，又为降低工作电压、节省功耗提供了条件。 根据华为公布的数据，在逻辑折叠与新一代架构等优化下，对比搭载麒麟9030 Pro的Mate 80 Pro Max，搭载麒麟9050 Pro的Mate 90 Pro Max，CPU主频提升12.7% ，性能提升2 5% ，",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-15T02:14:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/chips/4EHlprZnXovvP0XD.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "华为首款逻辑折叠芯片麒麟9050量产",
+   "summary_zh": "华为发布首款采用逻辑折叠技术的麒麟9050 Pro，通过三维跨层布局缩短数据传输路径，晶体管密度提升53.5%，为旗舰手机提供更强算力基础。",
+   "highlights_zh": [
+    "逻辑折叠将多颗Die按逻辑关系分层布局，用超5000万混合键合垂直互连，缩短关键路径距离",
+    "混合键合间距1.5微米、顶层金属间距720纳米，比例小于3是有效逻辑折叠的关键条件",
+    "下一代麒麟2027已在华为手上，测试结果符合预期"
+   ],
+   "why_zh": "了解华为在制程受限下通过架构创新延续芯片升级的工程路径",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T15:34:10+00:00",
+   "mirror_pdf": "pdf/web-4f420863f587.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/chips/4EHlprZnXovvP0XD.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-404f7daa3f87",
+   "kind": "article",
+   "title": "黄仁勋谈中国 AI 公司：算力很缺，但他们就是在拼命把事情做成",
+   "url": "https://www.infoq.cn/article/HC8SAgaZmHc6sfwp9gc9?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "李冬梅"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-15T19:19:06+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/HC8SAgaZmHc6sfwp9gc9?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "黄仁勋谈中国AI：算力缺但拼命做成",
+   "summary_zh": "黄仁勋评价中国AI公司，认为尽管算力严重受限，但中国团队凭借极强的执行力仍在持续推进AI落地。",
+   "highlights_zh": [
+    "黄仁勋指出中国AI公司面临严重算力短缺",
+    "肯定中国团队的执行力与推进速度",
+    "反映全球算力格局对中国AI发展的影响"
+   ],
+   "why_zh": "头部人物对中国AI生态的观察，折射算力约束下的行业韧性",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T15:34:10+00:00",
+   "mirror_pdf": "pdf/web-404f7daa3f87.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/HC8SAgaZmHc6sfwp9gc9?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9b9b91e77841",
+   "kind": "article",
+   "title": "亚马逊云科技推出 CloudWatch Omni：不仅监控系统，还要评估 AI 是否靠谱",
+   "url": "https://www.infoq.cn/article/5GOXqmJaGKbukSIWU4Uf?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Sergio De Simone"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-15T13:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/5GOXqmJaGKbukSIWU4Uf?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AWS 推出 CloudWatch Omni：不只监控系统，还评估 AI 是否靠谱",
+   "summary_zh": "AWS 发布 CloudWatch Omni，将可观测性扩展到 AI 模型质量评估，帮助企业在生产环境中持续监控 AI 输出的可靠性。",
+   "highlights_zh": [
+    "从系统监控延伸到 AI 输出质量评估",
+    "面向生产环境的 AI 可靠性度量",
+    "云厂商竞逐 AI 可观测性赛道"
+   ],
+   "why_zh": "AI 应用上线后的质量监控正成为刚需，值得关注",
+   "tags": [
+    "数据与评测",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T15:34:10+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/5GOXqmJaGKbukSIWU4Uf?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8a8bc39bfbfb",
+   "kind": "article",
+   "title": "算力效率的边界：以体系结构量化与分布式工程破局 AI Infra",
+   "url": "https://www.infoq.cn/article/JbzA5yvzl2BkuTpkfdrU?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：冯嘉"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-15T11:44:05+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/JbzA5yvzl2BkuTpkfdrU?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "算力效率的边界：体系结构量化与分布式工程破局 AI Infra",
+   "summary_zh": "文章从体系结构量化和分布式工程两个角度，探讨 AI 基础设施如何突破算力效率瓶颈，给出工程实践方向。",
+   "highlights_zh": [
+    "体系结构量化提升算力利用效率",
+    "分布式工程是破局关键路径",
+    "面向 AI Infra 的实践分析"
+   ],
+   "why_zh": "AI Infra 工程师可从中获取算力优化的系统性思路",
+   "tags": [
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T15:34:10+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/JbzA5yvzl2BkuTpkfdrU?utm_source=rss&utm_medium=article"
     }
    ],
    "mt": false
@@ -1360,45 +2475,208 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-b695a1d0cc5d",
+   "kind": "article",
+   "title": "微信、淘宝、美团等151款APP拒绝豆包手机助手GUI自动化代操作；对标字节红果，腾讯上线绿泡泡短剧；OpenAI 一工程师被捕，涉嫌窃听机密",
+   "url": "https://www.leiphone.com/category/zaobao/VMod1gHtw3lRoiXd.html",
+   "pdf_url": "",
+   "abstract": "要闻提示 1.上演“窃听风云”？OpenAI 一工程师被捕，高管会议室惊现窃听器 2.微信、淘宝、DeepSeek等在列，151款应用拒绝豆包手机助手GUI自动化代操作 3.对标字节红果，腾讯低调上线绿泡泡短剧 4.小鹏正式宣布：开始对外卖技术 5.“红果短剧降智”冲上热搜，医生回应 6.iPhoneDuo完成大模型备案，涉及Apple智能、通义万象、通义千问 7.被字节开除，田柯宇否认“模型投毒”，称是“以暴制暴” 8.宝马：2030 年在华销售的车辆中，超 95% 将实现本土生产 今日头条 上演“窃听风云”？OpenAI 一工程师被捕，高管会议室惊现窃听器 10月14日消息，在OpenAI担任工程师的沙特籍男子Abdulrahman Alfozan，因涉嫌在该公司旧金山办公室内藏匿一台加密录音设备而被捕，并受到刑事指控。事发后，OpenAI已解雇Alfozan。 美国联邦检察官周二指控称，今年9月下旬，Alfozan将一个黑色小型录音设备裹在厕纸里，随后将其插在OpenAI一间会议室电视机背面的USB接口上，而这间会议室正是高管们进行高度机密的技术、战略及商业磋商的场所。 近两周前，OpenAI在例行安全排查中发现该设备并报案，但未打草惊蛇，而是悄悄在会议室加装了摄像头。10月5日，Alfozan潜入该会议室后，被新装的摄像头拍得一清二楚。OpenAI表示，该小型设备在被发现前，已放置了约两天时间。目前没有迹象表明他曾接触过驱动公司AI工具的模型权重。 据悉，Alfozan在OpenAI产品团队工作一年多，目前被控使用或试图使用设备截取口头通信内容，已于上周被捕。如果罪名成立，最高可能面临五年监禁。（科创板日报、AI普瑞斯） 国内资讯 微信、淘宝、DeepSeek等在列，151款应用拒绝豆包手机助手GUI自动化代操作 10月14日消息，豆包手机助手官方发布的内容显示，《屏幕自动化操作声明协议》（SAEP）30天公示期结束后，将逐步开放第三方应用的GUI自动化操作能力，开放范围限于未声明拒绝的应用。公示期结束后，开发者仍可声明拒绝。对于声明拒绝的应用，豆包手机助手不会进行相关操作。 豆包同步对外披露了一份拒绝操作清单，共计151款应用不允许豆包手机助手对其执行GUI屏幕自动化操作，微信、DeepSeek、淘宝、快手、美团等大众高频应用尽数在列。 需要说明的是，所谓拒绝接入，并非代表这些应用不能在“豆包手机”努比亚M153、努比亚NaviX Ultra手机上安装、登录，用户依旧可以手动打开使用。开发者拒绝的，是豆包手机助手通过GUI图形界面识别、模拟点击滑动的自动化代操作能力。（济南日报） 部分拒绝操作应用清单 对标字节红果，腾讯低调上线绿泡泡短剧 10月14日消息，据媒体报道，近日，腾讯低调上线了“绿泡泡短剧”，主打“免费好剧，一点就看”。另有报道称，腾讯合作方近期正在申请绿泡泡短剧商标。对此，有网友调侃：“小时候看红果果绿泡泡，长大了还是红果果绿泡泡。” 媒体打开绿泡泡短剧小程序了解到，该产品由微信短剧内容中心推出，产品标识为微信品牌绿。用户无需下载独立App，在小程序内即可观看。区别于传统短视频平台的算法推荐逻辑，“绿泡泡短剧”最突出的特征是强社交属性，首页专门设置了“朋友在看”推荐位。 报道称，腾讯此时入局免费短剧，直接对标的正是字节跳动旗下红果短剧。此前，红果短剧凭借免费广告模式快速起量，数据显示，截至2026年7月，红果短剧独立App日活跃用户达1.68亿，同比增长107%，已超过腾讯视频、爱奇艺、优酷、芒果TV四家长视频平台日活之和",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-15T10:40:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/zaobao/VMod1gHtw3lRoiXd.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "151款应用拒绝豆包GUI代操作，OpenAI工程师涉窃听被捕",
+   "summary_zh": "微信、淘宝、DeepSeek 等 151 款应用声明拒绝豆包手机助手 GUI 自动化代操作，暴露智能体接管手机界面的生态阻力。",
+   "highlights_zh": [
+    "151款应用拒绝GUI自动化",
+    "豆包SAEP协议公示后开放",
+    "OpenAI工程师涉窃听被捕"
+   ],
+   "why_zh": "智能体落地手机端的生态博弈，值得关注。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T15:34:10+00:00",
+   "mirror_pdf": "pdf/web-b695a1d0cc5d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/zaobao/VMod1gHtw3lRoiXd.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b8c1fa0ec5c6",
+   "kind": "article",
+   "title": "SegFault42/HeliosGen",
+   "url": "https://github.com/SegFault42/HeliosGen",
+   "pdf_url": "",
+   "abstract": "Star SegFault42 / HeliosGen 🏆 Self Hosted Gen AI desktop app. Free alternative to Higgsfield, OpenArt, Freepik....",
+   "authors": [],
+   "orgs": [
+    "SegFault42"
+   ],
+   "published": "2026-10-15T15:34:10+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/SegFault42/HeliosGen",
+     "signal": "★ 今日 +426 · TypeScript",
+     "metric": 426
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "HeliosGen：自托管生成式 AI 桌面应用",
+   "summary_zh": "HeliosGen 是一个自托管的生成式 AI 桌面应用，定位为 Higgsfield、OpenArt、Freepik 等云端生成工具的免费本地替代。",
+   "highlights_zh": [
+    "TypeScript 编写，主打本地自托管",
+    "对标云端图像/视频生成 SaaS",
+    "GitHub Trending 单日 +426 星"
+   ],
+   "why_zh": "如果你在做本地生成式图像/视频工具，可参考它的自托管产品形态。",
+   "tags": [
+    "产品与行业",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.5884,
+   "score_llm": 4.0,
+   "score": 0.4754,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T15:34:10+00:00",
+   "mirror_pdf": "pdf/web-b8c1fa0ec5c6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/SegFault42/HeliosGen"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ac9da16c7257",
+   "kind": "article",
+   "title": "给现实世界按下复制键，禾赛做了一台「AI 空间相机」",
+   "url": "https://www.ifanr.com/1684538?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "复刻一个「虚拟现实」。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "陈世琛"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-15T14:20:44+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1684538?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "禾赛发布 AI 空间相机，复刻现实世界",
+   "summary_zh": "禾赛推出一款「AI 空间相机」，主打对现实世界进行三维空间复刻，用于构建虚拟现实场景。",
+   "highlights_zh": [
+    "禾赛从激光雷达拓展到 AI 空间相机产品线",
+    "产品定位为复刻现实世界的三维空间数据采集",
+    "面向虚拟现实等应用场景"
+   ],
+   "why_zh": "了解激光雷达厂商向空间智能方向的业务延伸",
+   "tags": [
+    "视觉",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T15:34:10+00:00",
+   "mirror_pdf": "pdf/web-ac9da16c7257.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1684538?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "智能体训练从模仿转向合成经验与动作级蒸馏，后训练范式正在换代。",
-   "why": "Player-1用合成环境PPO提升27.8个点，ActionOPD绕开教师token做动作对齐，均指向新范式。",
+   "trend": "智能体竞争从模型能力转向脚手架工程与训练稳定性",
+   "why": "Doc2Harness直接评测harness工程能力，自蒸馏大规模复现显示增益有限且训练不稳。",
    "refs": [
-    "arxiv-2610.20584",
-    "arxiv-2610.19820"
+    "arxiv-2610.20344",
+    "arxiv-2610.19789"
    ]
   },
   {
-   "trend": "评测重心从模型能力转向脚手架工程与长程harness构建能力。",
-   "why": "Doc2Harness直接考harness工程，最强模型通过率仅53%，暴露智能体落地真实短板。",
+   "trend": "记忆与知识固化成为智能体长程能力的新架构拐点",
+   "why": "Cortex将上下文蒸馏为参数更新，ATAS以场景与事件记忆支撑跨镜头一致性。",
    "refs": [
-    "arxiv-2610.20344"
+    "arxiv-2610.20399",
+    "arxiv-2610.20571"
    ]
   },
   {
-   "trend": "模型智能趋同后，竞争焦点转向单位成本与自研芯片带来的定价权。",
-   "why": "五大前沿模型智能接近但成本差3.8倍，谷歌凭自研芯片定价最低，价格战将延续。",
+   "trend": "模型智能趋同后，单位推理成本成为竞争主战场",
+   "why": "前沿模型智能接近但成本差3.8倍，Ling-3.0-flash以0.19美元完成复杂工作流。",
    "refs": [
-    "web-9e83c0fccd83"
+    "web-9e83c0fccd83",
+    "web-bd9590f3e812"
    ]
   },
   {
-   "trend": "移动端智能体遭遇平台生态封锁，入口权博弈成为落地最大阻力。",
-   "why": "155款应用拒绝豆包自动化操作，腾讯阿里美团在列，跨应用操作被平台利益墙阻断。",
+   "trend": "蒸馏与后训练从token级转向动作级和合成经验",
+   "why": "ActionOPD对齐语义动作，Player-1从合成环境经验做PPO，均绕开教师token依赖。",
+   "refs": [
+    "arxiv-2610.19820",
+    "arxiv-2610.20584"
+   ]
+  },
+  {
+   "trend": "智能体落地遭遇平台生态壁垒，入口权博弈开启",
+   "why": "155款应用拒绝豆包AI自动化操作，跨应用智能体面临平台利益封锁。",
    "refs": [
     "web-4b5aaf210e49",
     "web-f6814365fed2"
-   ]
-  },
-  {
-   "trend": "记忆固化与安全对齐同步建制化，上下文正被压进参数与组织流程。",
-   "why": "Cortex将上下文蒸馏为FFN更新，字节Seed单设大模型安全与对齐部门，能力与风险并管。",
-   "refs": [
-    "arxiv-2610.20399",
-    "web-c63c766bf807"
    ]
   }
  ]
