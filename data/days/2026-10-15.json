@@ -1,0 +1,1405 @@
+{
+ "date": "2026-10-15",
+ "items": [
+  {
+   "id": "arxiv-2610.20584",
+   "kind": "paper",
+   "title": "Player-1: Learning to Play from Synthetic Experience",
+   "url": "https://arxiv.org/abs/2610.20584",
+   "pdf_url": "https://arxiv.org/pdf/2610.20584",
+   "abstract": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. However, games, with their visually rich worlds and diverse mechanics, remain challenging and offer a demanding next step toward general digital control. Current game-agent learning pipelines often rely on large-scale demonstrations with limited coverage of dynamic game states, while scalable environments for interactive training remain difficult to obtain. We introduce Player-1, a post-training framework for learning game control beyond demonstrations through synthetic experience. We extend the computer-use action space with relative pointer motion, sustained inputs, and composite actions. For supervised initialization, we fine-tune computer-use models on 6,044 curated gameplay trajectories that pair recorded actions with task instructions and visual reasoning. We construct Player-1-Gym, sixteen synthetic 2D and 3D environments designed around control demands shared across games. Programmatically verifiable rewards and randomized observations and control dynamics support multi-environment reinforcement learning with PPO. The resulting Player-1-9B and Player-1-35B-A3B improve MineDojo-300 success over their SFT policies by 27.8 and 17.7 percentage points, respectively. Player-1-9B reaches 38.33% success compared with 12.63% for the strongest evaluated baseline, with further gains over SFT on ViZDoom-10 and GameWorld. Further analyses show that broader synthetic environment coverage improves transfer, while the use of composite actions that combine multiple keyboard and mouse inputs increases during RL. We demonstrate that learning from synthetic experience substantially improves game control beyond supervised initialization, with gains that generalize beyond the RL training suite.",
+   "authors": [
+    "Mingyu Ouyang",
+    "Yiran Wang",
+    "Siyuan Hu",
+    "Xingyilang Yin",
+    "Huiqiang Sun",
+    "Guangzhi Wang",
+    "Junfu Pu",
+    "Cheng Cheng",
+    "Honghao Chen",
+    "Ying Shan",
+    "Mike Zheng Shou",
+    "Hwee Tou Ng"
+   ],
+   "orgs": [
+    "ARC Lab, Tencent"
+   ],
+   "published": "2026-10-14T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.20584",
+     "signal": "▲ 121",
+     "metric": 121
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Player-1：从合成经验中学习玩游戏",
+   "summary_zh": "腾讯ARC提出游戏智能体后训练框架，扩展动作空间并构建16个合成环境做PPO强化学习，Player-1-9B在MineDojo-300成功率较SFT提升27.8个百分点。",
+   "highlights_zh": [
+    "扩展计算机使用动作空间：相对指针移动、持续输入、复合动作",
+    "构建Player-1-Gym共16个2D/3D合成环境，支持程序化验证奖励",
+    "Player-1-9B达38.33%成功率，远超最强基线12.63%"
+   ],
+   "why_zh": "游戏是通用数字控制的关键试炼场，合成经验路线值得关注。",
+   "tags": [
+    "智能体",
+    "强化学习",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.7472,
+   "score_llm": 8.0,
+   "score": 0.7789,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T09:44:42+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.20584.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.20584"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.20584"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.20584"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.20584"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.20584"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.20584"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/TencentARC/Player-1"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.20399",
+   "kind": "paper",
+   "title": "Cortex: Consolidating Context into Parametric Memory",
+   "url": "https://arxiv.org/abs/2610.20399",
+   "pdf_url": "https://arxiv.org/pdf/2610.20399",
+   "abstract": "Context can improve large language model performance, but these gains may be lost after context removal. Inspired by biological systems consolidation, we formulate Memory Consolidation (MC) as internalizing these gains while preserving non-target capabilities, connecting context-specified editing, skill learning, and behavioral steering under a common objective. We introduce a five-task-family testbed measuring consolidation and retention under single, batch, and sequential updates. We propose Cortex, which generates prospective queries to anticipate uses of context and distills context-conditioned outputs into mergeable low-rank or structural feed-forward network updates. Across 4B--120B dense and mixture-of-experts backbones, including both text-only and multimodal models, Cortex lies on the empirical consolidation--retention Pareto frontier in most evaluated settings. After 50 sequential factual edits on a 14B model, Cortex-Structural recovers 88.9% of the context-induced gain while retaining 99.8% of original non-target performance.",
+   "authors": [
+    "Jintian Zhang",
+    "Feng He",
+    "Xinnian Liang",
+    "Ziwen Xu",
+    "Haoming Xu",
+    "Haojing Huang",
+    "Shuangzhi Wu",
+    "Ningyu Zhang"
+   ],
+   "orgs": [
+    "ByteDance Seed"
+   ],
+   "published": "2026-10-14T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.20399",
+     "signal": "▲ 49",
+     "metric": 49
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Cortex：将上下文固化进参数化记忆",
+   "summary_zh": "字节Seed提出记忆固化方法Cortex，通过生成前瞻查询将上下文输出蒸馏为可合并的低秩/结构FFN更新，14B模型50次顺序编辑后恢复88.9%增益且保留99.8%原能力。",
+   "highlights_zh": [
+    "将上下文编辑、技能学习、行为引导统一为记忆固化目标",
+    "构建五任务族测试台，衡量固化与保留的权衡",
+    "覆盖4B-120B稠密与MoE、文本与多模态骨干"
+   ],
+   "why_zh": "上下文学习与参数记忆融合的重要探索，解决上下文移除后能力丢失问题。",
+   "tags": [
+    "大模型",
+    "效率与系统",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.6939,
+   "score_llm": 8.0,
+   "score": 0.7576,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T09:44:42+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.20399.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.20399"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.20399"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.20399"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.20399"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.20399"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.20399"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.20344",
+   "kind": "paper",
+   "title": "Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents",
+   "url": "https://arxiv.org/abs/2610.20344",
+   "pdf_url": "https://arxiv.org/pdf/2610.20344",
+   "abstract": "Agents driven by large language models are increasingly deployed on long-horizon tasks, where they use tools and modify real workspaces. How well they perform depends as much on the harness around the model as on the model itself. Existing benchmarks measure downstream task success under a fixed harness, leaving harness engineering itself unexplored. We propose Doc2Harness, a two-stage benchmark that evaluates long-horizon harness engineering directly. In Stage 1, a build model operating inside a fixed builder harness receives an interface-only contract skeleton and a development document that consolidates behavior across twelve frontier harnesses, and then constructs a complete candidate harness in an isolated container. In Stage 2, the frozen candidate harness runs in containers separate from the construction environment, one per test case, and is driven end to end by a scripted mock model. We score each test case using four observable channels, namely the requests sent to the model, the files on disk, the process exit code, and the command output; positive controls rule out vacuous passes. Across nineteen frontier models, each evaluated with three independent builds on 328 test cases, GPT-6 Astra achieves the highest pass rate at 53.05%, while the weakest model reaches 27.44%, a gap of roughly twenty-six percentage points. Even the strongest model fails nearly half of the test cases, and failures cluster around how cross-cutting functionality is split across modules. To our knowledge, Doc2Harness provides the first deterministic benchmark for measuring long-horizon harness engineering.",
+   "authors": [
+    "Yuyao Ge",
+    "Shenghua Liu",
+    "Peizhong Gao",
+    "Chendi Ge",
+    "Chenxu Liu",
+    "Yiwei Wang",
+    "Lingrui Mei",
+    "Baolong Bi",
+    "Jiayu Yao",
+    "Jiafeng Guo",
+    "Xueqi Cheng"
+   ],
+   "orgs": [
+    "Institute of Computing Technology"
+   ],
+   "published": "2026-10-14T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.20344",
+     "signal": "▲ 50",
+     "metric": 50
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.20344",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Doc2Harness：评测LLM长程智能体脚手架工程能力",
+   "summary_zh": "中科院计算所提出两阶段基准，直接评测长程harness工程：模型在固定builder harness内构建候选harness，再由脚本化mock模型端到端驱动，19个前沿模型中GPT-6 Astra通过率最高53.05%。",
+   "highlights_zh": [
+    "首次直接评测harness工程本身而非固定harness下的任务成功率",
+    "四通道评分：模型请求、磁盘文件、进程退出码、命令输出",
+    "328个测试用例、三次独立构建，最强模型仍失败近半"
+   ],
+   "why_zh": "智能体能力一半取决于脚手架，该基准填补了评测空白。",
+   "tags": [
+    "智能体",
+    "代码",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.6751,
+   "score_llm": 8.0,
+   "score": 0.75,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T09:44:42+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.20344.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.20344"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.20344"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.20344"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.20344"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.20344"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.20344"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/YuyaoGe/doc2harness"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.19820",
+   "kind": "paper",
+   "title": "ActionOPD: Distilling Decisions, Not Tokens",
+   "url": "https://arxiv.org/abs/2610.19820",
+   "pdf_url": "https://arxiv.org/pdf/2610.19820",
+   "abstract": "Distilling capable language-model agents into smaller models requires aligning the student's behavior with the teacher's. This raises a fundamental question: at which states and at what granularity should this alignment be performed? Offline imitation provides dense but token-specific supervision and can suffer from state-distribution mismatch. Token-level on-policy distillation (OPD) addresses this mismatch but typically requires teacher token probabilities and compatible tokenization. We argue that semantic actions provide a natural unit of supervision for agent distillation. We introduce ActionOPD, an action-level on-policy distillation method motivated by maximizing expected teacher-action likelihood at student-encountered states. At each such state, ActionOPD samples actions from both the student and a black-box teacher, rewarding student actions according to their semantic agreement with the sampled teacher actions. Through policy optimization, ActionOPD aligns the student's action-level behavior with the teacher's decisions without requiring reproduction of teacher-written reasoning or access to teacher token probabilities. Training Qwen3-4B and Qwen3-8B with two teachers on diverse, curated tool-use tasks yields average gains of 3.3-6.9 percentage points across four out-of-distribution benchmarks. ActionOPD scales favorably with student size and teacher capability, without requiring the teacher and student to share a model family or tokenizer. On $τ^2$-bench, ActionOPD achieves competitive performance against offline distillation and token-level OPD. We further explore Self-ActionOPD with a same-model teacher and privileged context. These results establish ActionOPD as a promising approach to agent distillation.",
+   "authors": [
+    "Huining Yuan",
+    "Xiangmin Yi",
+    "Zelai Xu",
+    "Zixu Wang",
+    "Xinlei Chen",
+    "Xiao-Ping Zhang",
+    "Yu Wang",
+    "Chao Yu"
+   ],
+   "orgs": [
+    "Tsinghua-NICS-EFC"
+   ],
+   "published": "2026-10-14T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.19820",
+     "signal": "▲ 45",
+     "metric": 45
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.19820",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "ActionOPD：蒸馏决策而非Token",
+   "summary_zh": "清华等提出动作级在线策略蒸馏，用语义动作对齐学生与黑盒教师，无需教师token概率，Qwen3-4B/8B在四个OOD基准平均提升3.3-6.9个百分点。",
+   "highlights_zh": [
+    "以语义动作而非token作为监督单元，规避分词不兼容问题",
+    "学生与教师各自采样动作，按语义一致性奖励学生动作",
+    "无需教师token概率或复现教师推理文本"
+   ],
+   "why_zh": "智能体蒸馏新范式，摆脱对教师token概率的依赖，实用性强。",
+   "tags": [
+    "智能体",
+    "大模型",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.7489,
+   "score_llm": 7.0,
+   "score": 0.7196,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T09:44:42+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.19820.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.19820"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.19820"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.19820"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.19820"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.19820"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.19820"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/thu-nics/ActionOPD"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b5bf2a8338b1",
+   "kind": "article",
+   "title": "Steering AI Beyond Automation",
+   "url": "https://www.normaltech.ai/p/steering-ai-beyond-automation",
+   "pdf_url": "",
+   "abstract": "A Research Agenda and Plan for Action",
+   "authors": [
+    "Arvind Narayanan"
+   ],
+   "orgs": [
+    "Arvind Narayanan"
+   ],
+   "published": "2026-10-14T19:56:44+00:00",
+   "sources": [
+    {
+     "name": "Arvind Narayanan",
+     "authority": 0.85,
+     "url": "https://www.normaltech.ai/p/steering-ai-beyond-automation",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "普林斯顿教授，《AI 万金油》作者",
+   "title_zh": "引导AI超越自动化：研究议程与行动方案",
+   "summary_zh": "普林斯顿教授Arvind Narayanan认为，AI不应只被当作自动化工具，而应引导其增强人类能力，并提出相应研究议程与行动方案。",
+   "highlights_zh": [
+    "主张AI定位从自动化转向增强人类",
+    "提出具体研究议程与行动路径",
+    "作者为《AI万金油》作者、知名学者"
+   ],
+   "why_zh": "重量级学者对AI发展方向的系统性判断，值得细读。",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.716,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T09:44:42+00:00",
+   "mirror_pdf": "pdf/web-b5bf2a8338b1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.normaltech.ai/p/steering-ai-beyond-automation"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9e83c0fccd83",
+   "kind": "article",
+   "title": "Price War in the Chip Aisle",
+   "url": "https://tomtunguz.com/intelligence-per-dollar-2026/",
+   "pdf_url": "",
+   "abstract": "Five frontier models now sit within five points of each other in terms of intelligence, but their cost per unit differs by 3.8x. Google, which has built chips alongside its models for more than 15 years, prices lowest; Microsoft & OpenAI are now chasing the same advantage, & pricing should keep deflating even as frontier margins hold.",
+   "authors": [
+    "Tomasz Tunguz"
+   ],
+   "orgs": [
+    "Tomasz Tunguz"
+   ],
+   "published": "2026-10-13T16:00:00+00:00",
+   "sources": [
+    {
+     "name": "Tomasz Tunguz",
+     "authority": 0.75,
+     "url": "https://tomtunguz.com/intelligence-per-dollar-2026/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Theory Ventures 创始人，AI 投资",
+   "title_zh": "芯片过道里的价格战",
+   "summary_zh": "Tomasz Tunguz 指出五大前沿模型智能水平接近，但单位成本相差 3.8 倍，谷歌因自研芯片定价最低，价格战将持续。",
+   "highlights_zh": [
+    "五大前沿模型智能差距仅 5 分以内",
+    "单位成本差距高达 3.8 倍",
+    "自研芯片成为定价优势关键"
+   ],
+   "why_zh": "理解模型成本结构与芯片自研对定价的战略影响。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T09:44:42+00:00",
+   "mirror_pdf": "pdf/web-9e83c0fccd83.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://tomtunguz.com/intelligence-per-dollar-2026/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8c29e4b32f6c",
+   "kind": "article",
+   "title": "上海AI实验室“书生-S2”大模型进入前沿数学研究流程：助力三维Ghys猜想证明并通过形式化验证",
+   "url": "https://www.leiphone.com/category/academic/ChIK9FvwSwlHmfFc.html",
+   "pdf_url": "",
+   "abstract": "上海人工智能实验室（上海AI实验室）访问学者、大湾区大学教授许地生团队依托书生科学多模态大模型S2（书生-S2），基于“通专融合”技术路径，通过人机协同完成了三维Ghys猜想证明。北京大学董彬教授、刘若川院士团队利用其开发的SHEAF框架对本次证明完成形式化验证，验证了这一工作的正确性。有业内人士认为，这标志着中国科学家首次用中国大模型攻克世界级数学难题。 “Ghys猜想”由法国数学家艾蒂安·吉斯（Étienne Ghys）于1995年提出，猜测每一个紧致复流形上的全纯Anosov系统，都双全纯共轭于某个复infra-幂零流形上的全纯仿射自同构。该问题兼具理论难度与学科标志性价值，被动力系统领域数学专家公认为该领域最重要的长期公开问题之一，是检验数学推理能力的一块试金石。 相关论文已在预印本平台（arXiv）发布，其形式化代码也在Github平台公开。 Ghys猜想，为混沌系统寻找“底层代码” 1995年，法国数学家艾蒂安·吉斯（Étienne Ghys）提出Ghys猜想，其核心是： 混沌的动力系统行为的存在是否能决定几何上的分类。 这是复动力系统领域的一个重要难题。如果这一猜想成立，混乱的动力学轨迹的问题就能被“化归”成简洁、规整的标准代数模型。 如何理解Ghys猜想？可以想象在一个封闭有限、没有边界、每一小块都遵守复数运算规则的“世界”。 对Anosov系统，可借助揉面类比：按压、延展、折叠面团，部分方向被拉伸，部分方向被压缩。拉伸效应会让初始紧邻的点快速分离——初始条件微小差异，会带来截然不同的演化结果。 Ghys猜想说，只要存在这样一种“既像揉面又完全规则”的运动，那么这个“世界”就只能是一种由简单规则反复拼接、像晶体格子一样高度规整的形状。例如复环面： 换个视角看，这个运动本质上就是这个“世界”的简单平移、旋转或缩放。也就是说，运动方式太混沌，会反过来决定世界只能长成什么形状。2026年国际数学家大会45分钟报告人，北京大学北京国际数学研究中心谢俊逸教授评价：“Ghys猜想的难点在于其对应的实（数）版本的类似断言仍是著名的完全公开的难题，复数的情形问题变得更加刚性，是复动力系统刚性现象研究中的重要问题，非常困难”。 大湾区大学教授许地生长期深耕该猜想的研究，曾与其导师、菲尔兹奖得主阿图尔·阿维拉（Avila）教授合作研究三维情形，但未形成有效的证明思路；此后他与其学生张洁松博士合作在三维情形下取得Ghys猜想的部分弱相关结果，相关成果刊发于数学顶级期刊《欧洲数学会杂志》（JEMS）。 7批接续推演、389个节点，人机协同取得关键突破 “科学发现是对智能的终极考验。”上海人工智能实验室主任、首席科学家周伯文作出过一个判断：问题越古老、越基础，AI提效的空间越大——AI参与攻关的单克隆抗体、蛋白质折叠，以及至今悬而未决的千禧年难题纳维-斯托克斯方程，都符合这条规律。三维Ghys猜想正是这类基础性难题中的一个。 2026年3月，许地生教授成为上海AI实验室访问学者，他与上海AI实验室的科研协作由此走向更深、更紧密的阶段，双方组建联合团队，并同步搭建了面向数学研究场景的Harness系统。许地生教授结合数学科研经验，精准指出模型与系统的能力短板；依托真实前沿数学研究命题，驱动系统完成多轮迭代打磨。 8月，内部迭代成型的书生-S2及配套系统，具备大规模递归推理能力，同时拥有高灵活性的人机交互能力，在复杂数学命题的处理能力上实现质的跃升。其中，针对三维Ghys猜想的首轮推理，书生-S2就产出了400页的推导报告。 在训练策略层面，科研团队坚持“通专",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-15T07:14:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/academic/ChIK9FvwSwlHmfFc.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "书生-S2 助三维 Ghys 猜想证明并通过形式化验证",
+   "summary_zh": "上海AI实验室联合许地生团队，用书生-S2 多模态大模型人机协同完成三维 Ghys 猜想证明，经 SHEAF 框架形式化验证，论文与代码已公开。",
+   "highlights_zh": [
+    "AI 首次参与攻克世界级数学难题，7 批接续推演、389 个节点",
+    "配套搭建面向数学研究的 Harness 系统，人机协同迭代打磨",
+    "证明经北大董彬、刘若川团队形式化验证，代码已在 GitHub 公开"
+   ],
+   "why_zh": "AI for Math 从辅助计算走向参与前沿证明的关键案例，值得关注其方法论。",
+   "tags": [
+    "科学AI",
+    "大模型",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 9.0,
+   "score": 0.692,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T09:44:42+00:00",
+   "mirror_pdf": "pdf/web-8c29e4b32f6c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/academic/ChIK9FvwSwlHmfFc.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-29033da3205d",
+   "kind": "article",
+   "title": "Our approach to working with AI companies",
+   "url": "https://metr.org/blog/2026-10-14-our-approach-to-risk-assessment/",
+   "pdf_url": "",
+   "abstract": "This blog post explains how we approach working with AI companies on projects that the public might rely on to understand risks. It was published on Oct 14, 2026, and we expect to update it over time. At METR, we gather and publish evidence about whether humans could lose control of AI agents on a large scale. We work with AI companies to conduct evaluations, assessments, and investigations, 1 and to share this evidence publicly. As we have seen increasing expectations for these kinds of voluntary engagements to provide external ‘safety assurance’, we want to explain our perspective. In this post, we clarify our overall goals for this work, our approach , and what our approach looks like in practice . Our motivations Our goal is to give the public accurate, timely, and independent evidence about AI loss-of-control risk, so that they (along with policymakers and developers) can make their own informed decisions . Our primary approach is collecting high-quality, concrete evidence and publishing what we find. Beyond this, we may also work with companies or regulators to share our comments on unpublished sensitive information, 2 to review risk reports, or to provide an independent judgment on claims about risk. However, many of the relevant claims involve open scientific questions so can’t be straightforwardly verified. We see it as our role to collect evidence for the public; we do not intend to decide how companies should develop or deploy their agents. Decisions about frontier",
+   "authors": [
+    "METR"
+   ],
+   "orgs": [
+    "METR"
+   ],
+   "published": "2026-10-14T07:00:00+00:00",
+   "sources": [
+    {
+     "name": "METR",
+     "authority": 0.85,
+     "url": "https://metr.org/blog/2026-10-14-our-approach-to-risk-assessment/",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "前沿模型能力评测机构",
+   "title_zh": "METR谈如何与AI公司合作开展风险评估",
+   "summary_zh": "前沿模型评测机构METR阐述其与AI公司合作的原则：以独立、公开的证据评估AI失控风险，供公众与政策制定者参考。",
+   "highlights_zh": [
+    "目标是提供独立、及时的失控风险证据",
+    "合作形式含评测、评估与调查",
+    "强调公开透明与科学开放性难题"
+   ],
+   "why_zh": "理解前沿AI安全评测机构运作方式与独立性边界的重要文本。",
+   "tags": [
+    "对齐与安全",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T09:44:42+00:00",
+   "mirror_pdf": "pdf/web-29033da3205d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://metr.org/blog/2026-10-14-our-approach-to-risk-assessment/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f992f00e022a",
+   "kind": "article",
+   "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
+   "url": "https://www.latent.space/p/crossing-the-threshold",
+   "pdf_url": "",
+   "abstract": "At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.",
+   "authors": [
+    "Richard MacManus"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-14T21:40:52+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/crossing-the-threshold",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "OpenAI与Anthropic金融智能体的自主性与安全",
+   "summary_zh": "Latent Space报道AI Engineer纽约大会上，前沿实验室与金融机构探讨如何在赋予智能体有用自主性的同时，将关键决策置于可控范围内。",
+   "highlights_zh": [
+    "前沿实验室与金融公司共同探讨智能体自主性边界",
+    "聚焦金融场景下高风险决策的控制机制",
+    "涉及OpenAI和Anthropic的具体实践"
+   ],
+   "why_zh": "了解金融领域智能体自主性与安全平衡的一线实践，适合AI产品与风控从业者",
+   "tags": [
+    "智能体",
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T09:44:42+00:00",
+   "mirror_pdf": "pdf/web-f992f00e022a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/crossing-the-threshold"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f7ba9bf38573",
+   "kind": "article",
+   "title": "昆仑万维诞生世界上第一款消费级显卡视频大模型游戏，同步开源",
+   "url": "https://www.leiphone.com/category/industrynews/OSk0jtFDeBaSizAH.html",
+   "pdf_url": "",
+   "abstract": "从\"看 AI 生成视频\"，到\"亲手玩 AI 生成的世界\"——中间隔着的，其实是一道关于\"实时\"的坎。 2026年10月15日，昆仑万维正式发布世界上第一款运行在单张消费级显卡上的视频大模型游戏——Matrix-Game 4.0。Matrix-Game 4.0 构建起了游戏世界模型的新范式： 由游戏引擎维护世界状态与交互规则，由视频生成模型实时呈现精细画面。 它把 480p、60 FPS 的实时游戏体验，装进了一张 NVIDIA RTX 5090；从你按下按键，到画面做出反应，延迟低于 150 毫秒。Matrix-Game 4.0 首次跑通了\"代码生成游戏逻辑 → 结构画面提供结构约束 → 视频模型实时渲染\"的完整闭环，让游戏原型开发、个性化定制与 UGC 从此拥有了真正可落地的技术路径。项目已同步开源。 开源地址 Huggingface：https://huggingface.co/Skywork/Matrix-Game-4.0 一、从一段代码到一个可玩的世界——Matrix-Game 4.0 的四块基石 1. 单卡实时：让\"可玩的视频模型\"走出实验室 在消费级显卡上实时生成游戏画面，曾是难以兼得的目标——视频生成模型对算力的胃口，长期把它锁在实验室的多卡集群里。 Matrix-Game 4.0 给出的答案是一组硬指标： 单张 NVIDIA RTX 5090，480p 分辨率下游戏以 60 FPS 运行 ；从玩家按键到首帧响应， 端到端延迟低于 150 毫秒 ；单步去噪的稳态生成速度达 83 FPS ， 显存峰值 18.5 GiB 。 这组数字意味着，视频模型驱动的游戏第一次具备了本地部署与实时交互的实际价值——它不再是一段离线渲染的演示视频，而是你能坐在电脑前真正上手操作的游戏。 2.Harness 新范式：让世界状态被真正\"管理\"起来 Matrix-Game 4.0 重新定义了视频模型与世界之间的关系：Coding Agent（编程智能体）通过代码构建轻量游戏， 引擎作为\"裁判\"持续维护世界状态、执行交互规则 ，并输出结构画面与动态语义条件；视频模型作为\"画师\"负责将简单几何转化为丰富画面。 引擎的外部约束与持续校正，让世界状态可以持续维护、游戏规则可以精确定义、玩法可以用自然语言改写——这是 Genie 范式从未真正解决过的\"世界是否在被认真管理\"的问题。 3.贯通数据、训练与运行时：一条可复用的工程链路 从结构画面-精细画面数据对采集、动态语义标注，到可控视频训练、少步自回归蒸馏与实时推理， 统一的几何和语义条件贯穿完整技术链路 。 这套流程为拓展新场景、新交互和新玩法提供了工程基础： 降低对精细 3D 资产制作的依赖，让游戏原型得以快速开发与迭代 ，让\"小团队也能搭世界\"从口号走向现实。 4.发布同步开源：让创作者真正\"玩\"起来 Matrix-Game 4.0 在发布时同步开源，向研究者、开发者和创作者提供 可复用的技术基础与可改编的游戏代码 。结合 Coding Agent，创作者可以通过自然语言调整场景、定制交互、设计玩法——把研究与创作的门槛压到一行 Prompt 的高度，让更多创意成为可以亲自体验、持续迭代的游戏。 二、三个根本卡点：为什么\"能走\"的世界，却\"不好玩\" 回看上一代交互式世界模型，问题从来不在画面质量——它们已经能生成足够好看的场景。真正的卡点藏在更底层的地方。把上一代路线拆开看，有三个问题始终没有被解决。 1. 世界状态缺少独立、可验证的维护机制 在没有外部引擎维护显式状态的情况下，场景与物体的持续存在，主要依赖",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-15T05:43:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/OSk0jtFDeBaSizAH.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "昆仑万维开源单卡实时视频大模型游戏 Matrix-Game 4.0",
+   "summary_zh": "昆仑万维发布 Matrix-Game 4.0，单张 RTX 5090 上以 480p/60FPS 实时运行，端到端延迟低于 150ms，同步开源。",
+   "highlights_zh": [
+    "引擎维护世界状态与规则，视频模型负责实时渲染画面",
+    "打通代码生成逻辑→结构约束→视频渲染的完整闭环",
+    "显存峰值 18.5GiB，单步去噪稳态 83FPS，可本地部署"
+   ],
+   "why_zh": "交互式世界模型首次在消费级显卡实时可玩，游戏与 UGC 落地路径清晰。",
+   "tags": [
+    "多模态",
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T09:44:42+00:00",
+   "mirror_pdf": "pdf/web-f7ba9bf38573.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/OSk0jtFDeBaSizAH.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-41dea1fbfb4b",
+   "kind": "article",
+   "title": "破晓智能联合天珑移动发布 SeePhys Hub，推进全身全模态人类数据采集",
+   "url": "https://www.leiphone.com/category/robot/HYxX8W4aXp8UgmIO.html",
+   "pdf_url": "",
+   "abstract": "机器人数据采集正在经历一条“解绑本体”的演进路线：从遥操作到 UMI再到 Ego，设备越来越轻，采集行为越来越简单。 不过，在不断简化设备的过程中，一些关键交互信息也随之流失——Ego 能记录双手在做什么，却难以完整捕捉全身运动，也感知不到手接触物体时的压力变化。而这些被简化掉的交互信息，往往才是完成任务的核心。 10 月 14 日，破晓智能联合天珑移动发布 全身全模态数据采集系统 SeePhys Hub 。整套系统由 一个四目头环、两个腕部手环、三个腰腿部动作追踪器和一副触觉手套组成 ，可同步采集第一视角视觉（360°环视覆盖）、手部全模态数据（手部位姿追踪、高密度触觉）与全身运动信息（位姿与受力）。 在保留 Ego 便携性的同时，补回关键的身体与接触数据。同时，配套的自研数据处理平台，可将人类数据转化为面向机器人学习的多模态训练数据。 SeePhys Hub 是团队沿着 EgoTouch、TouchAnything、TouchWorld 技术路线推出的首款工程化产品， 将此前在触觉数据与模型上的研究积累，转化为一套融合视觉、双手触觉与全身运动信息的可穿戴采集系统。 采集方式由繁到简，关键交互信息仍需补齐 具身智能究竟需要多少数据？已有研究者提出一亿小时 Ego 数据的估计。 当然，扩大采集规模，为覆盖更多场景与操作提供了可能。但采集时长并不直接等于学习收益，数据质量、与机器人任务的匹配程度，以及训练方式，同样影响最终效果。 破晓希望验证的是： 在视觉之外，同步记录全身运动与触觉，更完整地呈现身体如何协同、手与物体如何接触，能否提高每小时数据的学习价值，让百万小时量级的全模态数据支撑预期的泛化能力？ 日常生活中，许多任务都需要身体移动与双手操作持续配合。以铺床为例，人需要抓住被角、抬臂展开被子，再沿床边移动、拉平褶皱。身体位置决定双手能触及哪里，抓握位置与力度则影响布料如何展开。以视觉为主的 Ego 采集能记录眼前的操作，却难以完整捕捉视野之外的躯干、腿部运动，也无法直接测得抓握和牵引时的接触压力。 补充全身运动与触觉，就是为了保留这些关键状态：人如何移动、调整姿态，双手在哪里接触物体、压力如何变化。与视觉同步采集这些信息，有望让模型更直接地学习身体运动、手部接触与环境变化之间的关系。 在破晓看来，下一步不是回到繁重的采集方式，而是在兼顾便携性与活动自由度的同时，补回关键的交互信息。衡量数据价值，不能只看采集了多少小时，还要看每小时能让机器人学到多少。团队希望通过更完整的操作记录，提高数据效率，让机器人用更少的数据学会真实场景中的复杂操作。 触觉研究走向工程产品，为全身移动灵巧操作奠定数据基础 破晓此前的 Touch 系列，围绕触觉数据“怎么采、怎么扩展、怎么用”展开研究。EgoTouch 同步采集第一视角画面、双手姿态与压力分布，把人看到的操作和实际发生的接触对应起来；TouchAnything 则学习从视觉中估计接触位置与压力分布，为扩展触觉数据提供方法。 到了 TouchWorld，触觉进一步参与机器人的行动：操作前预测接触目标，执行中根据真实反馈修正动作。触觉由此从被记录的信号，逐步成为机器人预测与控制的依据。 SeePhys Hub 将这些研究积累，转化为一套可穿戴的全身采集系统。 头部四目视觉记录场景，腕部视角捕捉近距离操作细节，腰部与双小腿的动作追踪器记录身体运动，触觉手套采集双手的接触压力。环境观察、身体运动与手部交互，被同步纳入同一次操作记录。 采集更多信息，也要兼顾穿戴负担和连续使用。SeePhys Hub 头环重量不超过 ",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-15T07:08:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/robot/HYxX8W4aXp8UgmIO.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "破晓智能发布 SeePhys Hub 全身全模态数据采集系统",
+   "summary_zh": "破晓智能联合天珑移动推出可穿戴采集系统，同步记录第一视角视觉、手部触觉与全身运动，将人类数据转为机器人训练数据。",
+   "highlights_zh": [
+    "四目头环+腕部手环+腰腿追踪器+触觉手套组合",
+    "在保留 Ego 便携性同时补回躯干运动与接触压力信息",
+    "配套平台将人类数据转化为机器人学习多模态训练数据"
+   ],
+   "why_zh": "具身智能数据采集从遥操作走向轻量可穿戴，触觉与全身信息是关键增量。",
+   "tags": [
+    "机器人",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T09:44:42+00:00",
+   "mirror_pdf": "pdf/web-41dea1fbfb4b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/robot/HYxX8W4aXp8UgmIO.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c63c766bf807",
+   "kind": "article",
+   "title": "茶百道涉IPO欺诈，被暂停交易；字节Seed单独设立大模型安全与对齐部门；华为披露下一代麒麟芯片进展，已进入测试阶段丨雷峰早报",
+   "url": "https://www.leiphone.com/category/zaobao/CKsYHgrcdIkO3hvO.html",
+   "pdf_url": "",
+   "abstract": "要闻提示 1.茶百道涉IPO欺诈，被暂停交易 2.字节跳动Seed单独设立大模型安全与对齐部门 3.华为披露下一代麒麟芯片进展，已进入测试阶段 4.中国刻蚀机之父尹志尧：AI可能会出现泡沫，国内半导体设备商500家得倒闭90% 5.DeepSeek融资翻倍至1000亿，新一轮投资方基本确定 6.传华人AI科学家姚顺宇开启RSI创业，估值高达20亿美金 7.阿里千问办公电商版曝光：近百人团队开发中，预计双十一预售前夕发布 8.马斯克谈中国制造：一旦掌握，扩产能力往往能超越全球总和 今日头条 茶百道涉IPO欺诈，被暂停交易 10月13日，香港证监会发文称，茶百道的首次公开招股可能被人为操纵，意图就茶百道的股份需求营造非真实的表象。因此，香港证监会指示联交所，自当日上午9时起暂停茶百道交易。 同时，香港证监会还披露，由于两个可疑团伙涉嫌参与IPO欺诈，就首次公开招股的股份需求营造虚假或非真实的表象，香港证监会已对其采取相关措施。 其中一个可疑团伙参与了茶百道IPO欺诈，香港证监会已向六家经纪行发出限制通知书，禁止它们处置或处理客户账户内最高达43.79亿港元的资产。该金额为历年来同类案件最高限制金额，由孙然及八家相关公司持有。据悉，该团伙还涉嫌参与拨康视云IPO欺诈。 香港证监会表示，可疑团伙涉嫌参与IPO欺诈，上市公司部分IPO募资款项可能已根据上市公司与上述团伙之间未披露的协议，被转出上市公司，用作投资金融产品。借助此类协议，IPO募资款可能被秘密回流至IPO主要配售对象或关联方。由于调查仍在进行中，香港证监会不会作进一步评论。对于上述情况，茶百道方面暂无回应。（上海证券报） 国内资讯 字节跳动Seed单独设立大模型安全与对齐部门 10月13日消息，字节跳动 Seed 近日发出内部邮件，宣布将成立 \"Seed Model-Alignment&Preparedness\" 部门，由严林负责，汇报给 Seed 负责人吴永辉。原 Responsible AI 团队及部分 Chat 团队成员将转入新部门。 据悉，该部门的设立旨在加强安全与对齐方向的投入，对齐的核心是让模型的行为与人类意图和安全约束保持一致，从而提升 Agent Model（智能体模型）安全能力，以及防范 CBRN（化学、生物、放射、核）等前沿能力风险。 此前，国内大模型研究团队的安全与对齐工作大多被纳入到公司整体的安全合规体系中，字节跳动 Seed 则是国内首家单独成立安全与对齐部门的前沿 AI 实验室。 华为披露下一代麒麟芯片进展，已进入测试阶段 10月13日消息，在2026华为终端创新技术沟通会上，华为详细介绍了近期随华为三折叠手机Mate XT 2及直板旗舰Mate90 Pro Max面世的麒麟9050系列芯片。 据华为半导体业务无线终端芯片产品管理部部长徐松余介绍，2023年以来，基于麒麟芯片的终端产品累计发货已经过亿。在中国电子产业的托举下，麒麟9050系列已经成功量产。 徐松余透露，下一代麒麟2027芯片也已经就绪，到目前为止，所有的测试结果都符合预期，因此在未来10年（逻辑折叠）的演进可持续的。至于具体到哪个阶段，每个点需要用什么样的技术，可能需要逐步在开展和讨论。（上证报、财联社） 中国刻蚀机之父尹志尧：AI可能会出现泡沫，国内半导体设备商500家得倒闭90% 10月13日消息，近日，在一活动中，中微公司董事长兼总经理尹志尧对当前AI投资热潮发出警示。中国刻蚀机之父尹志尧表示，现在AI话题非常火热，几乎所有会议都在谈AI，但AI有可能会出现泡沫，这点需要多加留意。 尹志尧称，",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-14T15:48:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/zaobao/CKsYHgrcdIkO3hvO.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "字节 Seed 单独设立大模型安全与对齐部门",
+   "summary_zh": "字节 Seed 成立 Model-Alignment&Preparedness 部门，由严林负责，原 Responsible AI 团队并入，聚焦智能体安全与前沿能力风险防范。",
+   "highlights_zh": [
+    "国内首家单独成立安全与对齐部门的前沿 AI 实验室",
+    "对齐核心是让模型行为与人类意图和安全约束一致",
+    "重点提升 Agent 安全能力并防范 CBRN 等前沿风险"
+   ],
+   "why_zh": "国内大模型安全治理从合规体系走向独立建制，反映对齐投入升级。",
+   "tags": [
+    "对齐与安全",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T09:44:42+00:00",
+   "mirror_pdf": "pdf/web-c63c766bf807.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/zaobao/CKsYHgrcdIkO3hvO.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ec3367c3a59c",
+   "kind": "article",
+   "title": "从 App 到 Agent：字节跳动 Supabase 的 Agent-Native 规模化实践｜QCon上海",
+   "url": "https://www.infoq.cn/article/kvzkXDXpKOXILlfirftW?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "QCon全球软件开发大会"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-15T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/kvzkXDXpKOXILlfirftW?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "字节Supabase的Agent-Native规模化实践",
+   "summary_zh": "字节跳动分享从App到Agent的Agent-Native架构演进与规模化落地经验，涉及如何将传统应用改造为智能体原生形态。",
+   "highlights_zh": [
+    "Agent-Native架构设计思路",
+    "从App到Agent的迁移路径",
+    "规模化落地的工程挑战"
+   ],
+   "why_zh": "一线大厂的Agent工程化实战经验，对做智能体落地有参考价值",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T09:44:42+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/kvzkXDXpKOXILlfirftW?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4b5aaf210e49",
+   "kind": "article",
+   "title": "155款App向豆包手机说“不”，智能体为什么翻不过互联网的围墙？",
+   "url": "https://www.tmtpost.com/8169608.html",
+   "pdf_url": "",
+   "abstract": "协议是体面的，但利益是赤裸的。",
+   "authors": [
+    "光锥智能"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-15T08:32:49+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8169608.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "155款App向豆包手机说不，智能体为何翻不过围墙",
+   "summary_zh": "报道155款App拒绝豆包手机智能体的接入，剖析智能体在跨应用操作时遭遇的平台利益壁垒与生态封锁问题。",
+   "highlights_zh": [
+    "155款App拒绝豆包智能体接入",
+    "揭示智能体跨应用操作的生态壁垒",
+    "平台利益与开放协议的冲突"
+   ],
+   "why_zh": "理解智能体落地面临的核心生态阻力",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T09:44:42+00:00",
+   "mirror_pdf": "pdf/web-4b5aaf210e49.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8169608.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.20472",
+   "kind": "paper",
+   "title": "ChronoCulture: Evaluating Cultural Awareness Across Time in Large Language Models",
+   "url": "https://arxiv.org/abs/2610.20472",
+   "pdf_url": "https://arxiv.org/pdf/2610.20472",
+   "abstract": "Cultural attitudes and social norms evolve over time, yet most cultural benchmarks for large language models (LLMs) treat culture as a static attribute of a country or region. We introduce ChronoCulture, a benchmark of 10,360 temporal pairs built from longitudinal survey data across 72 countries. Each pair contains the same survey question asked in the same country in an older and a newer year, with full population response distributions as ground truth. Across six LLMs, we find that models can often predict a country's attitudes at one point in time but do not reliably capture how those attitudes change. Their predictions for different years tend to stay close together, failing to capture much of the observed change. Specifying the intended year in the prompt also offers little overall improvement in alignment with survey responses. These findings suggest that models often present a largely static picture of cultural attitudes, highlighting the need to evaluate cultural awareness across time.",
+   "authors": [
+    "Rusali Saha",
+    "Nitya Khurana",
+    "Ruihong Huang",
+    "Kuan-Hao Huang"
+   ],
+   "orgs": [],
+   "published": "2026-10-14T16:50:35Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.20472",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "论文",
+   "lang": "en",
+   "who": "",
+   "title_zh": "ChronoCulture：评估大模型跨时间文化意识",
+   "summary_zh": "构建ChronoCulture基准，基于72国纵向调查数据生成10,360个时间对，每个对含同一国家同一问题在新旧年份的完整人口响应分布。测试六个LLM发现，模型能预测某时点的态度，但无法可靠捕捉态度随时间的变化，提示中指定年份也帮助有限。",
+   "highlights_zh": [
+    "用纵向调查数据构建跨时间文化评估基准",
+    "模型对不同年份的预测趋于接近，未能反映实际变化",
+    "揭示LLM呈现静态文化图景的系统性缺陷"
+   ],
+   "why_zh": "文化对齐评测的新维度，对模型社会认知能力评估有方法论意义。",
+   "tags": [
+    "数据与评测",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 7.0,
+   "score": 0.548,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T09:44:42+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.20472.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.20472"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.20472"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.20472"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.20472"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.20472"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.20472"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a8371c1b0f86",
+   "kind": "article",
+   "title": "调度效率提升80%！商汤大装置助力上海量子城市首批智能体落地",
+   "url": "https://www.qbitai.com/2026/10/503173.html",
+   "pdf_url": "",
+   "abstract": "从“懂空间”到“能干活”",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-14T04:09:29+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/503173.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "商汤大装置助上海量子城市首批智能体落地",
+   "summary_zh": "商汤大装置支持上海量子城市首批智能体落地，宣称调度效率提升80%，实现从懂空间到能干活。",
+   "highlights_zh": [
+    "智能体用于城市空间调度",
+    "调度效率提升80%",
+    "商汤大装置提供算力底座"
+   ],
+   "why_zh": "了解国内大模型基础设施在城市治理场景的落地案例。",
+   "tags": [
+    "智能体",
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T09:44:42+00:00",
+   "mirror_pdf": "pdf/web-a8371c1b0f86.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/503173.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2fe62644bfa0",
+   "kind": "article",
+   "title": "marclou/mailcheap",
+   "url": "https://github.com/marclou/mailcheap",
+   "pdf_url": "",
+   "abstract": "The affordable newsletter for the agentic era. Open source: self-host it, or use mailcheap.ai.",
+   "authors": [],
+   "orgs": [
+    "marclou"
+   ],
+   "published": "2026-10-15T09:44:42+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/marclou/mailcheap",
+     "signal": "★ 938（新项目） · JavaScript",
+     "metric": 938
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "mailcheap：面向智能体时代的开源邮件通讯工具",
+   "summary_zh": "一个可自托管的开源邮件通讯工具，主打低成本，面向智能体时代的内容分发场景。",
+   "highlights_zh": [
+    "开源可自托管，也可用官方托管版",
+    "定位为智能体时代的廉价 newsletter 方案",
+    "JavaScript 实现，GitHub 新项目热度较高"
+   ],
+   "why_zh": "如果你在做 AI 内容分发或智能体驱动的邮件触达，可以自托管试用。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5811,
+   "score_llm": 5.0,
+   "score": 0.5324,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T09:44:42+00:00",
+   "mirror_pdf": "pdf/web-2fe62644bfa0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/marclou/mailcheap"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-baffc898b4fc",
+   "kind": "article",
+   "title": "deeplethe/solid-glass",
+   "url": "https://github.com/deeplethe/solid-glass",
+   "pdf_url": "",
+   "abstract": "A design system for AI applications. Material, physical, tactile, technical.",
+   "authors": [],
+   "orgs": [
+    "deeplethe"
+   ],
+   "published": "2026-10-15T09:44:42+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/deeplethe/solid-glass",
+     "signal": "★ 885（新项目） · TypeScript",
+     "metric": 885
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "solid-glass：面向 AI 应用的设计系统",
+   "summary_zh": "一套面向 AI 应用的设计系统，强调材质感、物理感与触觉化的技术美学。",
+   "highlights_zh": [
+    "TypeScript 实现的设计系统",
+    "主打材质、物理、触觉化的视觉语言",
+    "面向 AI 应用界面场景"
+   ],
+   "why_zh": "如果你在做 AI 产品前端，可用它快速统一界面视觉风格。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.579,
+   "score_llm": 5.0,
+   "score": 0.5316,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T09:44:42+00:00",
+   "mirror_pdf": "pdf/web-baffc898b4fc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/deeplethe/solid-glass"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e0793e65a85a",
+   "kind": "article",
+   "title": "outcrawlai/scout",
+   "url": "https://github.com/outcrawlai/scout",
+   "pdf_url": "",
+   "abstract": "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.",
+   "authors": [],
+   "orgs": [
+    "outcrawlai"
+   ],
+   "published": "2026-10-15T09:44:42+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/outcrawlai/scout",
+     "signal": "★ 771（新项目） · TypeScript",
+     "metric": 771
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Scout：开源浏览器智能体",
+   "summary_zh": "Outcrawl 开源浏览器智能体 Scout，用 TypeScript 编写，GitHub 已获 771 星，可自动操作网页完成任务。",
+   "highlights_zh": [
+    "TypeScript 实现，便于前端/Node 生态集成",
+    "浏览器自动化智能体，可执行网页操作任务",
+    "新项目即获 771 星，社区关注度较高"
+   ],
+   "why_zh": "如果你在做网页自动化或浏览器智能体，可以用它作为开源起点参考实现。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5742,
+   "score_llm": 5.0,
+   "score": 0.5297,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T09:44:42+00:00",
+   "mirror_pdf": "pdf/web-e0793e65a85a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/outcrawlai/scout"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f6814365fed2",
+   "kind": "article",
+   "title": "腾讯上线「绿泡泡」短剧，主打免费好看；特斯拉 Roadster 跑车明日发布；豆包工作支持一键导入 GPT、Claude 对话 | 极客早知道",
+   "url": "http://www.geekpark.net/news/372366",
+   "pdf_url": "",
+   "abstract": "155 款应用拒绝豆包助手 AI 自动化操作 10 月 14 日，豆包手机助手《屏幕自动化操作声明协议》（SAEP）30 天公示期结束，官方公布名单显示，已有 155 款第三方应用拒绝 AI 自动化操作，腾讯、阿里、美团、快手旗下多款产品，连同 Kimi、DeepSeek 等 AI 产品均在名单内，堪称互联网头部厂商的集体表态。 SAEP 协议核心是将 AI 屏幕自动操作的选择权交还应用开发者，开发者可自主决定是否允许豆包助手执行屏幕识别、模拟点击等操作。公示期内应用默认不开放权限；公示结束后，未明确拒绝的应用将按风险分级逐步开放，拒绝方后续也可随时调整声明。该自动化权限仅影响 AI 代操作，不影响用户手动使用 App。 此前，努比亚 NaviX Ultra 搭载豆包手机助手发售，就出现过设备触发游戏风控等冲突，这类矛盾过去长期处于隐性博弈状态。本次拒绝名单基本集中在拥有独立流量闭环的平台，安全风险、流量主权是核心考量。SAEP 把隐性冲突转为公开规则协商，标志移动端 AI 入口权博弈正式开启。行业认为，这只是智能体时代生态确权的起点，后续权限细化、责任划分、利益分配仍需多方持续磨合。（来源：极客公园） 相关报道： 第一款 AI 手机，被半个互联网「拒」了 腾讯上线绿泡泡短剧 近日，腾讯低调上线绿泡泡短剧，主打「免费好剧，一点就看」。 绿泡泡的界面分为「免费剧场」「刷一刷」和「我的」三部分。「免费剧场」下设「AI 剧」「真人剧」「每日上新」「动漫剧」「本周必看」「百万播放」等栏目。点开中间入口「刷一刷」，上下滑动即进入沉浸式推荐流。剧集全部免费，但会在剧集之间插入广告。 《短剧小程序用户协议》显示，服务签订主体为深圳市腾讯计算机系统有限公司。协议同时写明，短剧均来自第三方提供方，包括第三方小程序、短剧制作方、授权发行方等，由其授权本服务展示、播放。 和红果短剧相比，绿泡泡的社交印记更重。除了常规排行榜，首页还有「朋友在看」的短剧推荐，以及标注「北京的朋友都在看」的地区热门榜。腾讯方面表示，为提供个性化内容，会收集用户的浏览、观看、分享、点赞、评论、收藏等记录，以及朋友看过的剧目。经过程序分析后，平台会预测用户的偏好，朋友在看什么，直接影响给相关用户推什么。 这并非腾讯首次下场做短剧。2021 年 12 月，腾讯视频发布业内首个微短剧品牌「十分剧场」，当时它只是长视频 App 里的一个频道页。2025 年 1 月，「火星短剧社」在微信上线，后改名「火星观剧」，是腾讯首款独立短剧产品。2025 年 6 月，微信上线名为「短剧」的官方小程序。到 2026 年 10 月，这个小程序已找不到入口，位置让给了绿泡泡。（来源：北京日报） 小鹏发布智能汽车解决方案业务 2026 巴黎国际车展期间，小鹏集团董事长兼 CEO 何小鹏作为巴黎汽车峰会唯一受邀的中国车企 CEO，发表重要演讲。何小鹏向与会的行业高管、全球媒体等，正式介绍其智能汽车解决方案业务：「XPENG AI ENGINEERING」，小鹏将面向全球合作伙伴开放智能汽车技术合作，输出覆盖整车研发、生产到售后的一站式能力。并将开放涵盖机器人、Robotaxi、飞行汽车、图灵 AI 芯片、物理世界基座模型等物理 AI 生态全领域的技术合作方案。 何小鹏表示：「开放已经成为小鹏与全球伙伴深化合作的关键词。我们不仅与合作伙伴共享技术，更与合作伙伴共同成长，全力支持合作伙伴掌握技术、开展自主创新。我们也欢迎全球合作伙伴加入，让我们互通技术、互学共进、携手前行」。（来源：新浪科技） 比亚迪欧洲建厂计划披露：法国候",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-15T00:29:12+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372366",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "155款应用拒绝豆包AI自动化操作",
+   "summary_zh": "豆包手机助手SAEP协议公示期结束，155款第三方应用拒绝AI自动化操作，包括腾讯、阿里、美团等头部厂商，标志移动端AI入口权博弈正式开启。",
+   "highlights_zh": [
+    "155款应用拒绝豆包助手屏幕自动化操作权限",
+    "SAEP协议将隐性冲突转为公开规则协商",
+    "智能体时代生态确权与权限分配成为核心议题"
+   ],
+   "why_zh": "反映AI智能体与移动生态的权限博弈，适合关注AI产品落地的人",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.528,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T09:44:42+00:00",
+   "mirror_pdf": "pdf/web-f6814365fed2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372366"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8aa9b5a00960",
+   "kind": "article",
+   "title": "独家｜库克确认苹果国行 AI，10 月底上线测试版！",
+   "url": "https://www.ifanr.com/1684431?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "终于来了！ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "郑廷旭"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-15T09:09:38+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1684431?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "库克确认苹果国行 AI 十月底测试",
+   "summary_zh": "苹果 CEO 库克确认国行 AI 功能将于 10 月底上线测试版，标志苹果 AI 正式进入中国市场。",
+   "highlights_zh": [
+    "国行 Apple Intelligence 即将上线",
+    "10 月底推出测试版",
+    "苹果 AI 入华迈出关键一步"
+   ],
+   "why_zh": "了解苹果 AI 在中国市场的落地时间与进展。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T09:44:42+00:00",
+   "mirror_pdf": "pdf/web-8aa9b5a00960.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1684431?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b0450d12d28b",
+   "kind": "article",
+   "title": "Archestra 发布 OpenAPPA，用于防范提示词注入或模型幻觉引发的数据外泄",
+   "url": "https://www.infoq.cn/article/LQCqiPUzgZyB3v24rsNO?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Bruno Couriol"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-15T17:22:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/LQCqiPUzgZyB3v24rsNO?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Archestra发布OpenAPPA，防范提示词注入与幻觉导致的数据外泄",
+   "summary_zh": "Archestra推出OpenAPPA方案，针对提示词注入或模型幻觉引发的数据外泄风险提供防护，属于AI应用安全基础设施方向。",
+   "highlights_zh": [
+    "聚焦提示词注入与模型幻觉两类数据外泄风险",
+    "面向AI应用的安全防护方案",
+    "属于对齐与安全方向的工程实践"
+   ],
+   "why_zh": "做AI应用安全与合规的团队可关注其防护思路。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-15",
+   "slot": "evening",
+   "selected_at": "2026-10-15T09:44:42+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/LQCqiPUzgZyB3v24rsNO?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "智能体训练从模仿转向合成经验与动作级蒸馏，后训练范式正在换代。",
+   "why": "Player-1用合成环境PPO提升27.8个点，ActionOPD绕开教师token做动作对齐，均指向新范式。",
+   "refs": [
+    "arxiv-2610.20584",
+    "arxiv-2610.19820"
+   ]
+  },
+  {
+   "trend": "评测重心从模型能力转向脚手架工程与长程harness构建能力。",
+   "why": "Doc2Harness直接考harness工程，最强模型通过率仅53%，暴露智能体落地真实短板。",
+   "refs": [
+    "arxiv-2610.20344"
+   ]
+  },
+  {
+   "trend": "模型智能趋同后，竞争焦点转向单位成本与自研芯片带来的定价权。",
+   "why": "五大前沿模型智能接近但成本差3.8倍，谷歌凭自研芯片定价最低，价格战将延续。",
+   "refs": [
+    "web-9e83c0fccd83"
+   ]
+  },
+  {
+   "trend": "移动端智能体遭遇平台生态封锁，入口权博弈成为落地最大阻力。",
+   "why": "155款应用拒绝豆包自动化操作，腾讯阿里美团在列，跨应用操作被平台利益墙阻断。",
+   "refs": [
+    "web-4b5aaf210e49",
+    "web-f6814365fed2"
+   ]
+  },
+  {
+   "trend": "记忆固化与安全对齐同步建制化，上下文正被压进参数与组织流程。",
+   "why": "Cortex将上下文蒸馏为FFN更新，字节Seed单设大模型安全与对齐部门，能力与风险并管。",
+   "refs": [
+    "arxiv-2610.20399",
+    "web-c63c766bf807"
+   ]
+  }
+ ]
+}
