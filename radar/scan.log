@@ -1,12 +1,11 @@
-2026-10-14 15:47:03,036 INFO source hf_daily           -> 40 items
-2026-10-14 15:47:03,418 INFO source hackernews         -> 7 items
-2026-10-14 15:47:16,323 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-14 15:47:23,883 INFO source rss                -> 85 items
-2026-10-14 15:47:25,774 INFO source html_lists         -> 0 items
-2026-10-14 15:47:25,774 INFO source x                  -> 0 items
-2026-10-14 15:47:27,948 INFO source arxiv_search       -> 60 items
-2026-10-14 15:47:37,998 INFO source github             -> 20 items
-2026-10-14 15:47:38,000 INFO candidates: 210 (stale dropped 30, new 115)
-2026-10-14 15:49:30,757 INFO llm judged 100/100 (calls=13)
-2026-10-14 15:49:38,051 WARNING snapshot https://thezvi.wordpress.com/2026/10/14/the-safety-culture-at-the-labs-is-broken/: blocked or empty page
-2026-10-14 15:51:46,408 INFO run done: {"at": "2026-10-14T15:47:02+00:00", "slot": "evening", "candidates": 210, "new": 115, "stale": 30, "judged": 100, "selected": 21, "mirrored": 19, "by_category": {"技术": 4, "观点": 1, "项目": 3, "资讯": 13}, "by_source": {"HF Daily Papers": 40, "arXiv 新论文": 60, "Hacker News": 7, "量子位": 10, "极客公园": 5, "IT之家": 9, "爱范儿": 9, "少数派": 1, "雷峰网": 15, "钛媒体": 2, "InfoQ 中文": 12, "Simon Willison": 1, "Latent Space": 4, "Stratechery": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 3, "Hugging Face Blog": 1, "OpenAI": 3, "Google DeepMind": 4, "NVIDIA": 4, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
+2026-10-15 03:30:35,746 INFO source hf_daily           -> 41 items
+2026-10-15 03:30:36,712 INFO source hackernews         -> 5 items
+2026-10-15 03:31:16,433 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-15 03:31:28,079 INFO source rss                -> 105 items
+2026-10-15 03:31:31,044 INFO source html_lists         -> 2 items
+2026-10-15 03:31:31,044 INFO source x                  -> 0 items
+2026-10-15 03:31:58,942 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
+2026-10-15 03:32:07,831 INFO source github             -> 20 items
+2026-10-15 03:32:07,833 INFO candidates: 173 (stale dropped 56, new 72)
+2026-10-15 03:47:08,329 WARNING llm batch 0 attempt 0 failed: 'choices'
+2026-10-15 04:02:09,034 WARNING llm batch 0 attempt 1 failed: 'choices'
