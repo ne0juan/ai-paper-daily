@@ -1,11 +1,11 @@
-2026-10-15 03:30:35,746 INFO source hf_daily           -> 41 items
-2026-10-15 03:30:36,712 INFO source hackernews         -> 5 items
-2026-10-15 03:31:16,433 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-15 03:31:28,079 INFO source rss                -> 105 items
-2026-10-15 03:31:31,044 INFO source html_lists         -> 2 items
-2026-10-15 03:31:31,044 INFO source x                  -> 0 items
-2026-10-15 03:31:58,942 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
-2026-10-15 03:32:07,831 INFO source github             -> 20 items
-2026-10-15 03:32:07,833 INFO candidates: 173 (stale dropped 56, new 72)
-2026-10-15 03:47:08,329 WARNING llm batch 0 attempt 0 failed: 'choices'
-2026-10-15 04:02:09,034 WARNING llm batch 0 attempt 1 failed: 'choices'
+2026-10-15 09:44:42,738 INFO source hf_daily           -> 52 items
+2026-10-15 09:44:43,068 INFO source hackernews         -> 6 items
+2026-10-15 09:44:55,781 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-15 09:45:02,578 INFO source rss                -> 107 items
+2026-10-15 09:45:04,878 INFO source html_lists         -> 2 items
+2026-10-15 09:45:04,878 INFO source x                  -> 0 items
+2026-10-15 09:45:05,289 INFO source arxiv_search       -> 60 items
+2026-10-15 09:45:14,796 INFO source github             -> 20 items
+2026-10-15 09:45:14,799 INFO candidates: 244 (stale dropped 48, new 154)
+2026-10-15 09:46:56,093 INFO llm judged 100/100 (calls=13)
+2026-10-15 09:49:52,248 INFO run done: {"at": "2026-10-15T09:44:42+00:00", "slot": "evening", "candidates": 244, "new": 154, "stale": 48, "judged": 100, "selected": 22, "mirrored": 20, "by_category": {"技术": 4, "观点": 3, "资讯": 11, "论文": 1, "项目": 3}, "by_source": {"HF Daily Papers": 52, "arXiv 新论文": 60, "Hacker News": 6, "量子位": 10, "极客公园": 5, "IT之家": 14, "爱范儿": 8, "少数派": 2, "雷峰网": 14, "钛媒体": 6, "InfoQ 中文": 13, "Latent Space": 4, "Stratechery": 1, "Arvind Narayanan": 1, "Tomasz Tunguz": 2, "Zvi Mowshowitz": 2, "Timothy B. Lee": 1, "Hugging Face Blog": 2, "Google Research": 3, "METR": 5, "OpenAI": 6, "Google DeepMind": 4, "NVIDIA": 4, "Anthropic": 1, "xAI": 1, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
