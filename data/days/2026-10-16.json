@@ -1,0 +1,1238 @@
+{
+ "date": "2026-10-16",
+ "items": [
+  {
+   "id": "arxiv-2610.22347",
+   "kind": "paper",
+   "title": "Speculative Forcing for Efficient Autoregressive Video Generation",
+   "url": "https://arxiv.org/abs/2610.22347",
+   "pdf_url": "https://arxiv.org/pdf/2610.22347",
+   "abstract": "Few-step autoregressive video generators enable streaming generation, yet they run every token through the final denoising step, regardless of how much refinement it needs. We find this uniform computation is often unnecessary: many tokens already closely match their eventual full-step outputs in the initial steps, while others require refinement until the end. We introduce Speculative Forcing, a framework that treats intermediate clean estimates as drafts and predicts when individual tokens can be safely accepted early. Once accepted, a token is frozen as its final output and undergoes no further denoising, while its cached keys and values remain available as context for the remaining tokens. We explore two alternative verifier designs: a training-free one based on similarity to clean content and stability across steps, and a learned one that reads the frozen generator's intermediate features to estimate each token's remaining gap to its full-step output. Across short-video, long-video, and world generation, Speculative Forcing preserves the quality of full-step sampling while substantially reducing computation. On LongLive, it matches the four-step generator with ~1.7 denoising steps per token, running over 1.5x faster at 41.7 and 37.8 fps. On Lingbot-World 2.0, where camera motion continually changes the visible content, it maintains quality with ~2.5 denoising steps per token and runs 1.35x faster at 24.5 fps.",
+   "authors": [
+    "Hyunwook Choi",
+    "Seungryong Kim",
+    "Dongyoon Han",
+    "Sangdoo Yun"
+   ],
+   "orgs": [
+    "NAVER AI Lab"
+   ],
+   "published": "2026-10-15T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.22347",
+     "signal": "▲ 39",
+     "metric": 39
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "投机强制：高效自回归视频生成",
+   "summary_zh": "NAVER AI Lab 提出 Speculative Forcing，把中间去噪估计当作草稿，预测哪些 token 可提前冻结为最终输出，从而跳过冗余去噪步骤。在 LongLive 上以约 1.7 步达到四步生成质量，提速超 1.5 倍。",
+   "highlights_zh": [
+    "发现均匀计算冗余：部分 token 早期已接近全步输出，无需继续去噪",
+    "提出免训练与学习式两种验证器，判断 token 何时可安全接受",
+    "在短视频、长视频与世界生成任务上均保持质量并大幅降算力"
+   ],
+   "why_zh": "自回归视频生成提速的关键思路，兼顾流式生成与质量",
+   "tags": [
+    "效率与系统",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.6006,
+   "score_llm": 8.0,
+   "score": 0.7202,
+   "date": "2026-10-16",
+   "slot": "noon",
+   "selected_at": "2026-10-16T03:25:41+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.22347.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.22347"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.22347"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.22347"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.22347"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.22347"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.22347"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/naver-ai/speculative-forcing"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.21412",
+   "kind": "paper",
+   "title": "JevAgentHarness: Benchmarking, Deploying and Training Decision Models That Share Control with LLMs",
+   "url": "https://arxiv.org/abs/2610.21412",
+   "pdf_url": "https://arxiv.org/pdf/2610.21412",
+   "abstract": "Large language model (LLM) agents now fix software, operate computers and serve customers, but their harnesses, the programs that run them, call a large LLM at every step, which makes long tasks slow and costly. Most of these calls end in a multiple-choice decision, such as which tool to call next. Decision models such as Jev answer these questions directly, at a fraction of an LLM call's time and price. We ask how a harness can delegate these decisions to a decision model with little loss of success. To evaluate decision models in agentic tasks, we build AgentDecisionBench, which tests them from isolated questions up to control of a running agent, on public benchmarks and our DecisionGym environment. The decision model most accurate on isolated questions solved only 69.5% of agent tasks, and without a fitted confidence threshold, delegating tool choices lowered success by 19.0 points. Building on these findings, we then design JevAgentHarness, which fits this threshold for each choice on the agent's own trajectories and lets the LLM decide below it. Because existing decision models never see the states an agent reaches after its own mistakes, we train AgentDecision-4B, an open 4B model, on such states with Jev's answers as labels. On tasks unlike its training data, the agent solved 91.5% of them with AgentDecision-4B and 82.0% with Jev. On tasks like their training data, 4B models trained this way made agents 81.1-89.0% cheaper and up to 2.5 times faster, without losing 3 or more points of task success. The models, data, and harness will be released at https://github.com/JevAgentHarness/JevAgentHarness.",
+   "authors": [
+    "Kunlun Zhu",
+    "Tao Feng",
+    "Xu Han",
+    "Heng Wang",
+    "Ling Yang",
+    "Xiangru Tang",
+    "Jiaxuan You",
+    "Heng Ji"
+   ],
+   "orgs": [
+    "University of Illinois at Urbana-Champaign"
+   ],
+   "published": "2026-10-15T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.21412",
+     "signal": "▲ 12",
+     "metric": 12
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.21412",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "JevAgentHarness：让决策模型分担 LLM 智能体控制",
+   "summary_zh": "UIUC 团队发现智能体每步调用大 LLM 做多选决策既慢又贵，于是构建 AgentDecisionBench 评测决策模型，并设计 JevAgentHarness 按轨迹拟合置信阈值委派决策。自训 4B 模型在陌生任务上成功率达 91.5%。",
+   "highlights_zh": [
+    "AgentDecisionBench 从孤立问题到实际控制智能体逐级评测决策模型",
+    "无拟合阈值时委派工具选择会使成功率下降 19 个百分点",
+    "AgentDecision-4B 用 Jev 答案标注智能体犯错后的状态进行训练"
+   ],
+   "why_zh": "为智能体降本增效提供可落地的决策委派与评测方案",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5934,
+   "score_llm": 8.0,
+   "score": 0.7174,
+   "date": "2026-10-16",
+   "slot": "noon",
+   "selected_at": "2026-10-16T03:25:41+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.21412.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.21412"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.21412"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.21412"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.21412"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.21412"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.21412"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/JevAgentHarness/JevAgentHarness"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.22311",
+   "kind": "paper",
+   "title": "Velox: Spatial Memory Makes World Models Efficient",
+   "url": "https://arxiv.org/abs/2610.22311",
+   "pdf_url": "https://arxiv.org/pdf/2610.22311",
+   "abstract": "Video world models turn actions and camera motion into long visual rollouts, making video a natural interface for interactive simulation. Such interaction requires responsive generation, yet coherent rollouts must retain visual memory of what has already been generated. Chunked video diffusion models usually keep this context in growing KV caches, so later chunks become progressively slower. To address this bottleneck, we introduce Velox, a training-free attention router for region-level context selection using frustum slab correspondences from streaming geometry. Velox represents historical blocks as camera frustum slabs with depth intervals and obtains current-block depth through recency-priority multiwarp. For well-covered regions, frustum slab overlap softly modulates each layer's model-derived block importance. Uncovered regions retain the model-derived route without geometric bias. The fixed token-block granularity matches FlashAttention-style tiled execution and reduces the attention term that grows with rollout length. Frustum slab construction runs asynchronously with denoising on the same H200. At chunk 48, Velox accelerates attention by 4.36times and denoising by 2.43times. On the full 158-case WBench navigation split, it remains within 0.15 API-free average points of dense LingBot-Fast-Cam. Please see our project page at https://velox-world.com/velox/ for more details.",
+   "authors": [
+    "Qiuhong Shen",
+    "Shizun Wang",
+    "Xinchao Wang"
+   ],
+   "orgs": [
+    "National University of Singapore"
+   ],
+   "published": "2026-10-15T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.22311",
+     "signal": "▲ 8",
+     "metric": 8
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Velox：空间记忆让世界模型更高效",
+   "summary_zh": "针对视频世界模型 KV 缓存随 rollout 增长变慢的问题，Velox 用相机视锥体空间对应做免训练注意力路由，第 48 块时注意力提速 4.36 倍、去噪 2.43 倍，精度几乎无损。",
+   "highlights_zh": [
+    "免训练的区域级上下文选择注意力路由",
+    "利用视锥体板块几何对应筛选历史块",
+    "固定 token 块粒度匹配 FlashAttention 分块执行"
+   ],
+   "why_zh": "为长视频世界模型推理效率提供新思路",
+   "tags": [
+    "效率与系统",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.5114,
+   "score_llm": 8.0,
+   "score": 0.6846,
+   "date": "2026-10-16",
+   "slot": "noon",
+   "selected_at": "2026-10-16T03:25:41+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.22311.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.22311"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.22311"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.22311"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.22311"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.22311"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.22311"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9d251ac6836a",
+   "kind": "article",
+   "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+   "url": "https://huggingface.co/blog/meta-muse-spark-open",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-10-15T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/meta-muse-spark-open",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Meta 开源 Muse Spark：前沿多模态 MoE 模型",
+   "summary_zh": "Meta 发布开放权重的前沿多模态混合专家模型 Muse Spark，进一步推动开源多模态大模型的能力边界。",
+   "highlights_zh": [
+    "开放权重的前沿多模态模型",
+    "采用混合专家（MoE）架构",
+    "由 Meta 发布，影响开源生态格局"
+   ],
+   "why_zh": "开源多模态前沿模型的重大发布，值得关注其能力与生态影响。",
+   "tags": [
+    "多模态",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 8.0,
+   "score": 0.672,
+   "date": "2026-10-16",
+   "slot": "noon",
+   "selected_at": "2026-10-16T03:25:41+00:00",
+   "mirror_pdf": "pdf/web-9d251ac6836a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/meta-muse-spark-open"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f587a8b810f8",
+   "kind": "article",
+   "title": "库克：苹果智能接入阿里千问大模型，10月底在中国发布测试版本",
+   "url": "https://www.qbitai.com/2026/10/503640.html",
+   "pdf_url": "",
+   "abstract": "Siri AI这次不包括在内",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-15T09:43:29+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/503640.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "库克确认：苹果智能接入阿里千问，10月底中国上线",
+   "summary_zh": "苹果 CEO 库克确认 Apple Intelligence 将接入阿里千问大模型，10 月底在中国发布测试版，但 Siri AI 暂不包含在内。",
+   "highlights_zh": [
+    "苹果在华 AI 合作方确定为阿里千问",
+    "10 月底推出中国区测试版本",
+    "Siri 的 AI 功能此次不在范围内"
+   ],
+   "why_zh": "头部厂商在华 AI 落地的关键合作，影响国内大模型竞争格局。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-10-16",
+   "slot": "noon",
+   "selected_at": "2026-10-16T03:25:41+00:00",
+   "mirror_pdf": "pdf/web-f587a8b810f8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/503640.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cfc3584192a8",
+   "kind": "article",
+   "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+   "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-14T23:59:37Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50097369",
+     "signal": "284 pts",
+     "metric": 284
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "LFM2.5-24B-A2B：为端侧智能体打造",
+   "summary_zh": "Liquid AI 发布 LFM2.5-24B-A2B 模型，主打快速端侧智能体场景，登上 Hacker News 284 分。",
+   "highlights_zh": [
+    "24B 总参数、A2B 激活的稀疏架构",
+    "面向端侧智能体低延迟推理",
+    "Hacker News 高热度讨论"
+   ],
+   "why_zh": "端侧智能体模型选型的重要新选项",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.585,
+   "score_llm": 7.0,
+   "score": 0.654,
+   "date": "2026-10-16",
+   "slot": "noon",
+   "selected_at": "2026-10-16T03:25:41+00:00",
+   "mirror_pdf": "pdf/web-cfc3584192a8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50097369"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-40d196f56a3c",
+   "kind": "article",
+   "title": "巅峰估值 50 亿美元的 AI 独角兽，何以不到 0.1 折贱卖",
+   "url": "http://www.geekpark.net/news/372437",
+   "pdf_url": "",
+   "abstract": "头图来源：Chatgpt 生成 当地时间 10 月 12 日，曾经引爆 AI 陪伴赛道的明星项目 Character.AI，在美国特拉华州法院提交《破产法》第 11 章重组申请，开启法院监督下的资产拍卖流程。 根据披露文件，迪士尼已经与它提前达成了底价竞购协议：2000 万美元，买走部分知识产权的非独占永久许可，外加用一批「前员工」为平台提供过渡期技术服务。 这笔交易不包含公司主体、产品 App 和用户资产。拍卖窗口期预计在今年 11 月底至 12 月初收尾。 在整个出售周期内，Character.AI 平台维持正常运转，现有订阅、对话服务暂时不会改动。但如果最终没有买家愿意接手并持续运营平台，Character.AI 将走向关停。 短短几年，这家由 Transformer 论文核心作者创办、巅峰估值 50 亿美元的 AI 创业公司，走完一轮剧烈的起落。 它的故事，不只是一家创业公司的失败样本，也折射出生成式 AI 消费应用普遍面临的成本、版权与商业化困境。 一、破产拍卖，迪士尼买的是什么 破产申请书｜图片来源：stretto 这份 10 月 12 日的文件显示，Character.AI 列出的资产和负债都在 5000 万到 1 亿美元区间。 破产前，它与迪士尼旗下 Disney Worldwide Services 签了协议：迪士尼担任 stalking horse bidder，也就是底价竞购方，出价 2000 万美元，买下部分知识产权的非独占永久许可和相关债权，还承诺用其雇佣的前员工，为平台提供一段时间的过渡技术服务。 stalking horse 是破产拍卖的常用机制：第一个出价的人定下底价，后面的人可以出更高价，最终价高者得，整个过程由法院监督，走《破产法》第 363 条的程序，预计 11 月底到 12 月初收尾。CEO Colin Adams 的说法是，董事会评估了所有选项，法院监督下的出售是「为所有利益相关方最大化价值」的最佳路径。 这里有一个细节，迪士尼买的是 IP 许可，平台本身不在标的里。也就是说，迪士尼对继续运营 Character.AI 这个 App 兴趣不大，它要的是技术。 这与迪士尼过去一年的 AI 布局完全一致：2025 年 12 月，它曾宣布与 OpenAI 达成角色授权合作，计划把 200 多个迪士尼、漫威、皮克斯、星战角色放进 Sora；2026 年 3 月 OpenAI 关停 Sora，这笔交易最终没有成交、没有资金往来。现在，迪士尼又从破产拍卖里捡走一套角色对话技术。版权方从「禁止你用我的角色」，变成了「买下让你能和我角色互动的技术」。两种做法，同一个目的。 另外一个颇具戏剧性的背景是，就在一年前，迪士尼还向 Character.AI 发送过侵权律师函，指控平台大量用户创建的迪士尼角色，未经许可使用版权形象，甚至提出部分内容对未成年人存在风险。彼时 Character.AI 被迫下架平台上大量迪士尼 IP 角色。如今双方身份反转，迪士尼进入破产拍卖，收购它的技术资产。 而这次拍卖如果没有出现新的接盘者，Character.AI 将按计划关停，数千万用户创建的角色、对话记录，都将面临消失风险，会在某个日期变成无法访问的数据。 二、曾经，硅谷最贵的「情绪生意」 Character.AI 诞生于大模型爆发前夜。 把时间拉回到 2021 年，Noam Shazeer 是 Transformer 奠基论文《Attention Is All You Need》的核心作者，也是谷歌最早对话模型 LaMDA 的开发者之一。",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-16T02:22:17+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372437",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "50亿美元独角兽Character.AI何以0.1折贱卖",
+   "summary_zh": "Character.AI申请破产重组，迪士尼以2000万美元底价竞购部分IP许可，折射AI消费应用的成本、版权与商业化困境。",
+   "highlights_zh": [
+    "巅峰估值50亿美元，如今资产仅5000万至1亿美元",
+    "迪士尼以2000万美元底价竞购IP非独占许可",
+    "反映AI陪伴类应用普遍面临的商业化难题"
+   ],
+   "why_zh": "AI消费应用商业化的警示案例，理解赛道成本与版权困局。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-10-16",
+   "slot": "noon",
+   "selected_at": "2026-10-16T03:25:41+00:00",
+   "mirror_pdf": "pdf/web-40d196f56a3c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372437"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-600bd37d1857",
+   "kind": "article",
+   "title": "第一款 AI 手机，被半个互联网「拒」了",
+   "url": "http://www.geekpark.net/news/372436",
+   "pdf_url": "",
+   "abstract": "头图来源： chatgpt 生成 10 月 14 日，豆包手机助手推出的《屏幕自动化操作声明协议》（SAEP，Screen Automation Execution Protocol）正式结束 30 天公示期。随之公布的拒绝名单显示，已有 155 款第三方应用明确关上了 AI 自动化操作的大门。名单当日经两轮更新，首批发布为 153 款，最终补全长尾应用后共计 155 款。 腾讯旗下 66 款、阿里旗下 23 款、美团 11 款、快手 14 款，几乎覆盖国内互联网半壁江山的主流产品悉数在列，就连 Kimi、DeepSeek 等 AI 赛道的同类产品，也选择了关闭权限。 这份长长的拒绝名单，是超级 App 们在 AI Agent 时代，第一次集体对自身的应用边界和流量主权做出表态。 当 AI 开始能替用户点按屏幕、跨应用完成任务，原本稳固了十几年的移动端流量格局和商业逻辑，正在出现新的裂痕。 SAEP：把规则摆上台面 在 SAEP 出台之前，这件事始终处于行业的灰色地带。 手机 AI 助手能不能操作某款应用、能操作到哪一步，基本由 AI 厂商单方面技术适配决定，应用方没有正式的表态渠道，大多通过风控策略默默拦截；用户则始终面对模糊的功能边界，不知道为什么有的应用能用 AI 操作，有的不能。 SAEP 的核心，是把屏幕自动化操作的选择权交还给第三方开发者。 开发者可以自主声明是否允许豆包手机助手在自身应用内执行屏幕识别、模拟点击、内容填写等操作，也可以细化到具体页面、具体功能的权限边界。 按照豆包公布的运行规则，整个权限开放分为两个阶段： 30 天公示期内，所有第三方应用默认不开放 AI 操作，仅主动声明同意的应用才会被支持； 公示期结束后，未明确提交拒绝声明的应用，将按照风险层级逐步开放操作权限； 已明确拒绝的应用，始终不会被 AI 执行自动化操作，开发者后续也可随时调整声明状态。 从技术实现上，豆包手机助手的自动化能力基于系统级权限，可在后台完成屏幕读取与交互操作，区别于普通无障碍工具需占用前台的特性。同时，该权限仅针对 AI 自动化操作，完全不影响应用本身的正常使用，用户依然可以手动打开、使用所有 App。 从隐性冲突到公开规则 事实上，这套规则的出台，之前已埋下伏笔。 2025 年 12 月，字节跳动联合中兴努比亚推出豆包手机助手技术预览版，搭载于工程样机努比亚 M153，面向行业人士开放体验。 这是豆包屏幕自动化能力首次面向公众落地，但很快便暴露出与第三方应用的适配冲突。当时已有用户反馈，微信、淘宝、闲鱼、大麦等多款主流应用出现登录异常、频繁弹出人机验证、闪退等现象；在竞技类游戏场景中，相关自动化能力也触发了应用方的风控判定。 针对这一情况，豆包官方当时即发布功能调整公告，主动限制了 AI 在刷分激励类、金融类应用以及竞技游戏等场景下的自动操作。矛盾被暂时压下，但并没有形成统一的解决标准。 2026 年 9 月 14 日，豆包手机助手消费者版本正式发布，同步推出《屏幕自动化操作声明协议》（SAEP），启动为期 30 天的公示期。两天后，搭载豆包手机助手消费者版的努比亚 NaviX Ultra 正式发售，标志着这项系统级 AI 自动化能力正式面向普通消费者开放。 然而正式落地后不到两周，冲突再次集中出现。 9 月 24 日起，大量用户反馈在 NaviX Ultra 上登录《王者荣耀》时触发「设备环境异常」判定，账号被强制下线甚至短时封禁，理由是「使用第三方辅助工具」。 豆包官方次日发布说明致歉，称经核查助手未对游戏系统进行任何操作，不存在违规",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-16T02:18:36+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372436",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "首款AI手机被半个互联网拒绝",
+   "summary_zh": "豆包手机助手SAEP协议公示结束，155款第三方应用明确拒绝AI自动化操作，超级App集体划定AI Agent时代的流量主权边界。",
+   "highlights_zh": [
+    "155款应用拒绝AI自动化操作，含腾讯66款、阿里23款",
+    "SAEP将屏幕自动化权限选择权交还开发者",
+    "超级App首次集体对AI Agent划定边界"
+   ],
+   "why_zh": "理解AI Agent与超级App在流量主权上的博弈，判断端侧Agent落地阻力。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-10-16",
+   "slot": "noon",
+   "selected_at": "2026-10-16T03:25:41+00:00",
+   "mirror_pdf": "pdf/web-600bd37d1857.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372436"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-af56277b45b3",
+   "kind": "article",
+   "title": "AI #190: Scion of the Times",
+   "url": "https://thezvi.wordpress.com/2026/10/15/ai-190-scion-of-the-times/",
+   "pdf_url": "",
+   "abstract": "The amount of code being written at Anthropic continues to rise exponentially. It is being managed by Scion, their internal replacement for GitHub that is better suited to the scale and style of the operation, which they created with a … Continue reading →",
+   "authors": [
+    "TheZvi"
+   ],
+   "orgs": [
+    "Zvi Mowshowitz"
+   ],
+   "published": "2026-10-15T21:26:50+00:00",
+   "sources": [
+    {
+     "name": "Zvi Mowshowitz",
+     "authority": 0.75,
+     "url": "https://thezvi.wordpress.com/2026/10/15/ai-190-scion-of-the-times/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 趋势评论员，每周 AI 综述",
+   "title_zh": "Zvi 周评：Anthropic 内部代码量指数级增长与 Scion",
+   "summary_zh": "Zvi 指出 Anthropic 内部代码产出持续指数级增长，并自研 GitHub 替代品 Scion 以适配其规模与工作方式。",
+   "highlights_zh": [
+    "Anthropic 内部代码编写量呈指数级上升",
+    "自研内部工具 Scion 替代 GitHub，适配其规模与风格",
+    "出自 Zvi 每周 AI 综述专栏"
+   ],
+   "why_zh": "窥见头部 AI 实验室内部工程规模与自研基础设施的独特信号。",
+   "tags": [
+    "代码",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-10-16",
+   "slot": "noon",
+   "selected_at": "2026-10-16T03:25:41+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://thezvi.wordpress.com/2026/10/15/ai-190-scion-of-the-times/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-578fa78138a0",
+   "kind": "article",
+   "title": "5 年前的机密文档被泄露：Anthropic 的所有胜利，早在 2021 年就写好了",
+   "url": "https://www.leiphone.com/category/yanxishe/gO1lTcRqFyRtbiFP.html",
+   "pdf_url": "",
+   "abstract": "一张五年前的研发清单，兑现如今 AI 行业大半成果。 作者丨高允毅 编辑丨岑 峰 最近，一场版权官司意外曝光了 Anthropic 一份内部机密文件 《Concise Research Roadmap》 ，这是 Anthropic 五年前的研究路线图。 这个文档由 Anthropic 联创 Jared Kaplan 撰写，只有三四页，却出现了我们今天讨论的Coding Agent、Tool Use、长上下文、RL、自动化反馈，甚至Agent的安全问题...... 这份文档汇集了Anthropic “最强大脑”们密密麻麻的批注。比如，Anthropic 联合创始人Tom Brown 指出“仓库浏览是简单、高价值的切入点”，系统与可解释性研究科学家 Nelson Elhage 则预判“自动查找项目里的类型定义”会是极具用户价值的功能。 面对“最强编程助手”与“工具能力演示”的路线之争，CEO Dario 当场定调： “短期先演示工具使用，长期打造最强编程助手。” 对齐科学家 Amanda Askell 则提出了更深层的担忧：“如果只在自然语言领域做对齐，却在代码领域做能力研究，势必产生脱节。”她强调，安全与能力在任何阶段都必须紧密绑定。 要知道，那一年 Anthropic 刚成立半年，全部融资仅 1.24 亿美元。那时距离 ChatGPT 引爆全球还有 16 个月，距离 Claude 1 发布还有 20 个月。整个行业还在怀疑大模型是不是过渡产品。这群从 OpenAI 出走的人，已经一步步计划着\"实现极高 GPU 利用率\"\"研究长上下文\"\"工具使用的强化学习\"\"对社会影响的评估框架\"...... 之后的五年，他们兑现了路线图上的每一个分支，更是交出了一份惊人的答卷。从Claude 1 到 Opus 5，从宪法 AI（Constitutional AI）到可解释性，再到近期的 Computer Use、MCP 协议、Claude Code、混合推理，都能在 2021 年那条路线图里找到锚点。 01 2021 年的 Anthropic， 究竟看清了什么？ 2021年，ChatGPT 还未问世，整个行业都在摸索大模型落地方向。而 Anthropic 却在内部文档中明确写出 AGI 的核心路径，那就是做 有长记忆能力的大型生成式模型，并通过结合自动化奖励与人类反馈的强化学习（RL）完成微调。 所有的研究项目，都是以这个中心做的探索实验。 他们认为，检验这套路线的第一个载体，就是“对话式软件工程师助手”。它能通过对话完成软件的创建、编辑与讲解，能写函数、找 Bug、设计 API，还能讨论代码风格与工程最佳实践，最终达到一名软件工程师同事的水准。 这正是今天 Claude Code 的具体雏形。 Dario Amodei 为此定下两步走的落地节奏：短期优先完成能力验证，长期打磨深度生产力工具。团队从打印调试、代码仓库浏览这类轻量化工具能力切入，再逐步拓展到代码执行、自然语言文档编辑等更复杂的工具能力。 围绕这个目标，他们把 “规模化” 放在了所有研究方向的最首位，从一开始就为万亿参数规模做准备。 Jared Kaplan 是 Scaling Laws 理论的第一作者，他把这套认知从 OpenAI带到了 Anthropic，早早就在思考如何训练万亿（1T）乃至更大规模的模型。 除了超大参数模型本身，他们还讨论如何拉高 GPU 利用率，提前适配 TPU、Trainium 等下一代硬件；怎么把块稀疏注意力这类复杂工程封装起来，让非专业人员也能轻松配置超参数；怎么给大模",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-15T23:55:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/yanxishe/gO1lTcRqFyRtbiFP.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic五年前机密路线图泄露：Coding Agent早已写定",
+   "summary_zh": "雷峰网报道，Anthropic一份2021年内部研究路线图因版权官司曝光，其中已明确Coding Agent、Tool Use、长上下文、RL、Agent安全等方向，Dario定调短期演示工具使用、长期打造最强编程助手，五年后Claude Code、MCP等均兑现该路线。",
+   "highlights_zh": [],
+   "why_zh": "揭示Anthropic战略定力，理解当前Agent与编程助手路线的源头。",
+   "tags": [
+    "智能体",
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-16",
+   "slot": "noon",
+   "selected_at": "2026-10-16T03:25:41+00:00",
+   "mirror_pdf": "pdf/web-578fa78138a0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/yanxishe/gO1lTcRqFyRtbiFP.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c4e467281bf0",
+   "kind": "article",
+   "title": "量子位智库发布Agent落地报告！拆解企业智能化六大断点，附全链路破局框架",
+   "url": "https://www.qbitai.com/2026/10/503614.html",
+   "pdf_url": "",
+   "abstract": "Agent究竟该如何深入业务毛细血管？",
+   "authors": [
+    "思邈"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-15T08:48:31+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/503614.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "量子位智库发布 Agent 落地报告，拆解企业智能化六大断点",
+   "summary_zh": "量子位智库发布 Agent 落地报告，梳理企业智能化落地的六大断点，并给出全链路破局框架。",
+   "highlights_zh": [
+    "聚焦 Agent 如何深入企业业务",
+    "归纳六大落地断点",
+    "提供全链路破局框架"
+   ],
+   "why_zh": "想在企业内推进 Agent 落地，可对照断点清单排查自身卡点。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-16",
+   "slot": "noon",
+   "selected_at": "2026-10-16T03:25:41+00:00",
+   "mirror_pdf": "pdf/web-c4e467281bf0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/503614.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-630d7f5a8140",
+   "kind": "article",
+   "title": "苹果AI国内上线，阿里百度浮出水面",
+   "url": "https://www.qbitai.com/2026/10/503497.html",
+   "pdf_url": "",
+   "abstract": "苹果 Apple Intelligence（苹果智能）在中国大陆的上线进入最后阶段。",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-15T06:52:45+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/503497.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "苹果AI国行落地在即，阿里百度浮出水面",
+   "summary_zh": "苹果Apple Intelligence在中国大陆上线进入最后阶段，阿里、百度被曝为合作方，将影响国内AI助手市场格局。",
+   "highlights_zh": [
+    "Apple Intelligence国行上线进入最后阶段",
+    "阿里、百度作为合作方浮出水面",
+    "国内AI助手市场竞争格局或将生变"
+   ],
+   "why_zh": "关注苹果AI入华的合作模式与落地节奏，判断国内AI生态走向。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-16",
+   "slot": "noon",
+   "selected_at": "2026-10-16T03:25:41+00:00",
+   "mirror_pdf": "pdf/web-630d7f5a8140.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/503497.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8e986c4bcc65",
+   "kind": "article",
+   "title": "A Conversation With Ari Emanuel About Entertainment and AI",
+   "url": "https://stratechery.com/2026/a-conversation-with-ari-emanuel-about-entertainment-and-ai/",
+   "pdf_url": "",
+   "abstract": "A conversation with Hollywood super-agent Ari Emanuel about his memoir, the impact of AI on Hollywood, and the power of a phone call.",
+   "authors": [
+    "Ben Thompson"
+   ],
+   "orgs": [
+    "Stratechery"
+   ],
+   "published": "2026-10-15T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "Stratechery",
+     "authority": 0.8,
+     "url": "https://stratechery.com/2026/a-conversation-with-ari-emanuel-about-entertainment-and-ai/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Ben Thompson，科技战略分析",
+   "title_zh": "Ari Emanuel 谈娱乐业与 AI 的碰撞",
+   "summary_zh": "好莱坞超级经纪人 Ari Emanuel 与 Ben Thompson 对谈，讨论 AI 对娱乐产业的影响及其回忆录。",
+   "highlights_zh": [
+    "对谈者为好莱坞顶级经纪人 Ari Emanuel",
+    "主题涵盖 AI 对好莱坞的冲击",
+    "发布于 Stratechery 深度分析博客"
+   ],
+   "why_zh": "从娱乐产业视角理解 AI 冲击传统内容行业的判断。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.588,
+   "date": "2026-10-16",
+   "slot": "noon",
+   "selected_at": "2026-10-16T03:25:41+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://stratechery.com/2026/a-conversation-with-ari-emanuel-about-entertainment-and-ai/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b8f667a72845",
+   "kind": "article",
+   "title": "🚨 Anthropic: The agony and the ecstasy",
+   "url": "https://www.exponentialview.co/p/anthropic-the-agony-and-the-ecstasy",
+   "pdf_url": "",
+   "abstract": "Hi, I sent this to members of our AI Investment Brief a couple of hours ago.",
+   "authors": [
+    "Azeem Azhar"
+   ],
+   "orgs": [
+    "Azeem Azhar"
+   ],
+   "published": "2026-10-15T16:29:01+00:00",
+   "sources": [
+    {
+     "name": "Azeem Azhar",
+     "authority": 0.8,
+     "url": "https://www.exponentialview.co/p/anthropic-the-agony-and-the-ecstasy",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Exponential View 创始人",
+   "title_zh": "Anthropic 的痛苦与狂喜",
+   "summary_zh": "Azeem Azhar 面向 AI 投资简报会员分析 Anthropic 的处境，探讨其增长与挑战。",
+   "highlights_zh": [
+    "作者为 Exponential View 创始人 Azeem Azhar",
+    "内容首发于其 AI Investment Brief 会员通讯",
+    "聚焦 Anthropic 的商业与战略处境"
+   ],
+   "why_zh": "从投资视角理解头部大模型公司 Anthropic 的机遇与压力。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.588,
+   "date": "2026-10-16",
+   "slot": "noon",
+   "selected_at": "2026-10-16T03:25:41+00:00",
+   "mirror_pdf": "pdf/web-b8f667a72845.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.exponentialview.co/p/anthropic-the-agony-and-the-ecstasy"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5f626f399d1a",
+   "kind": "article",
+   "title": "张一鸣的世界模型，藏不住了",
+   "url": "https://www.tmtpost.com/8170379.html",
+   "pdf_url": "",
+   "abstract": "造世界、开任意门，字节抢跑世界模型。",
+   "authors": [
+    "新眸"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-16T02:23:20+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8170379.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "张一鸣的世界模型，藏不住了",
+   "summary_zh": "报道称字节跳动在世界模型方向加速布局，试图抢占下一代 AI 的「造世界」能力先机。",
+   "highlights_zh": [
+    "字节在世界模型方向的动作被曝光",
+    "世界模型被视为下一代 AI 竞争焦点",
+    "涉及「造世界、开任意门」等能力方向"
+   ],
+   "why_zh": "了解头部大厂在世界模型赛道布局的重要信号。",
+   "tags": [
+    "多模态",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-16",
+   "slot": "noon",
+   "selected_at": "2026-10-16T03:25:41+00:00",
+   "mirror_pdf": "pdf/web-5f626f399d1a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8170379.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-514b1766c948",
+   "kind": "article",
+   "title": "Edge AI Daily 早报（10月16日）",
+   "url": "https://www.tmtpost.com/8170547.html",
+   "pdf_url": "",
+   "abstract": "AI 竞赛转入资本与融资结构承压期：四大云厂商 2026 年资本开支冲向 7250 亿美元，OpenAI、谷歌同步降价，芯片股六连跌抹去超 1 万亿美元市值，数据中心债券收益率飙升、现金流数年来首度转负。Anthropic 三季度营收 168 亿美元、拟 11 月 9 日启动 IPO 路演，并以订阅额度打通第三方应用确立 BYOS 新规则。",
+   "authors": [
+    "Edge AI Daily"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-16T01:02:08+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8170547.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Edge AI 早报：云厂商资本开支冲向7250亿美元",
+   "summary_zh": "早报汇总：四大云厂商 2026 年资本开支冲向 7250 亿美元，OpenAI、谷歌同步降价，芯片股六连跌抹去超万亿美元市值，Anthropic 拟 11 月启动 IPO 路演。",
+   "highlights_zh": [
+    "四大云厂商 2026 年资本开支冲向 7250 亿美元",
+    "OpenAI、谷歌同步降价，芯片股六连跌抹去超 1 万亿美元市值",
+    "Anthropic 三季度营收 168 亿美元，拟 11 月 9 日启动 IPO 路演"
+   ],
+   "why_zh": "一屏掌握 AI 资本开支、降价与 IPO 等市场关键信号。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-16",
+   "slot": "noon",
+   "selected_at": "2026-10-16T03:25:41+00:00",
+   "mirror_pdf": "pdf/web-514b1766c948.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8170547.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.22314",
+   "kind": "paper",
+   "title": "MindEval2: Clinically Grounded Patients and Rubrics for Evaluating Language Models in Mental Health Support",
+   "url": "https://arxiv.org/abs/2610.22314",
+   "pdf_url": "https://arxiv.org/pdf/2610.22314",
+   "abstract": "With people increasingly turning to AI chatbots for mental health support, the need to evaluate these tools is becoming more pressing. Recent benchmarks attempt to mimic a realistic setting by simulating multi-turn interactions with synthetic patients and evaluating them with an LLM-as-a-judge. However, the usefulness of these methods is limited because simulated patients can be overly forthcoming and self-reflective, and judgments typically involve opaque Likert scales with unclear practical utility. To bridge these gaps, we introduce MindEval2, an evaluation framework that consists of two components: Mental Health Quality Rubrics (MHQR), for evaluation, and MindSim, for patient simulation. For MHQR, we collaborate with PhD-level psychologists to develop a set of rubrics that break down response quality into explicit operational criteria that are more interpretable and actionable than existing evaluation taxonomies. MindSim, in turn, is an LLM harness that combines carefully-designed patient profiles with tools, enabling more varied, challenging, and realistic interactions than existing baselines. The harness also contains a memory component that is updated between each interaction, enabling MindEval2 to model the longitudinal aspect of mental health. We evaluate 18 proprietary and open-weight models on MindEval2, finding that while frontier models have largely improved on issues related to surface level quality and boundaries, guidance calibration remains the dominant failure mode across all models, accounting for most of the quality gap.",
+   "authors": [
+    "John Mendonça",
+    "Daniel Tschernutter",
+    "José Pombal",
+    "Areti Vassilopoulos",
+    "Catarina Botelho",
+    "Ignacio Sarasua",
+    "Maya D'Eon",
+    "Nuno Guerreiro",
+    "Ricardo Rei"
+   ],
+   "orgs": [],
+   "published": "2026-10-15T17:51:01Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.22314",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "论文",
+   "lang": "en",
+   "who": "",
+   "title_zh": "MindEval2：心理健康支持的语言模型临床评估框架",
+   "summary_zh": "与心理学博士合作开发可操作评分标准MHQR和患者模拟器MindSim，评估18个模型发现前沿模型在心理健康支持上仍有明显不足。",
+   "highlights_zh": [
+    "MHQR将回复质量拆解为明确可操作的评分标准",
+    "MindSim结合患者画像与工具，含记忆组件支持纵向交互",
+    "评估18个专有和开源模型，揭示前沿模型仍存在显著缺陷"
+   ],
+   "why_zh": "AI心理健康应用快速增长，该框架提供了更贴近临床的评估方法。",
+   "tags": [
+    "对齐与安全",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 7.0,
+   "score": 0.548,
+   "date": "2026-10-16",
+   "slot": "noon",
+   "selected_at": "2026-10-16T03:25:41+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.22314.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.22314"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.22314"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.22314"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.22314"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.22314"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.22314"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a339d3685ad4",
+   "kind": "article",
+   "title": "前华为小艺大模型负责人创业，押注“主动式物理AI”",
+   "url": "https://www.qbitai.com/2026/10/503446.html",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [
+    "程浅"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-15T06:35:46+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/503446.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "前华为小艺大模型负责人创业，押注主动式物理AI",
+   "summary_zh": "前华为小艺大模型负责人离职创业，方向为「主动式物理AI」，切入具身智能与机器人赛道。",
+   "highlights_zh": [
+    "前华为小艺大模型负责人创业",
+    "押注主动式物理AI方向",
+    "指向具身智能与机器人落地"
+   ],
+   "why_zh": "了解大厂AI负责人创业动向与物理AI这一新兴方向。",
+   "tags": [
+    "机器人",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-10-16",
+   "slot": "noon",
+   "selected_at": "2026-10-16T03:25:41+00:00",
+   "mirror_pdf": "pdf/web-a339d3685ad4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/503446.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-36fe5d216faa",
+   "kind": "article",
+   "title": "chenglou/handwired",
+   "url": "https://github.com/chenglou/handwired",
+   "pdf_url": "",
+   "abstract": "Turn your regular JavaScript code into a neural net.",
+   "authors": [],
+   "orgs": [
+    "chenglou"
+   ],
+   "published": "2026-10-16T03:25:41+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/chenglou/handwired",
+     "signal": "★ 1,139（新项目） · TypeScript",
+     "metric": 1139
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "handwired：把 JS 代码变成神经网络",
+   "summary_zh": "一个 TypeScript 新项目，可将普通 JavaScript 代码转换为神经网络，GitHub 已获 1139 星。",
+   "highlights_zh": [
+    "TypeScript 实现，面向 JS 开发者",
+    "将常规代码映射为神经网络结构",
+    "新项目，社区关注度较高"
+   ],
+   "why_zh": "如果你在探索代码与神经网络结合，可关注其转换思路",
+   "tags": [
+    "理论",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5879,
+   "score_llm": 5.0,
+   "score": 0.5352,
+   "date": "2026-10-16",
+   "slot": "noon",
+   "selected_at": "2026-10-16T03:25:41+00:00",
+   "mirror_pdf": "pdf/web-36fe5d216faa.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/chenglou/handwired"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-93461b4bc021",
+   "kind": "article",
+   "title": "DeepSeek 出现服务故障，官方补偿 1 周 Token 消耗；库克：苹果智能月底在华发测试版；特斯拉、SpaceX 最快年底合并｜极客早知道",
+   "url": "http://www.geekpark.net/news/372430",
+   "pdf_url": "",
+   "abstract": "DeepSeek 服务故障近 5 小时，官方补偿所有 API 用户 7 天内的消耗金额 10 月 15 日消息，DeepSeek 网页 / API 服务今日（10 月 15 日）早间出现服务问题，经过近 5 个小时的修复，终于恢复正常。 对此，DeepSeek 官方开放平台发布服务恢复及补偿通知，将补偿所有 API 用户 7 天内的消耗金额： 北京时间 2026 年 10 月 15 日 8:11 至 13:04 期间，我们的服务系统出现故障，导致该时段内 API 服务无法正常使用。对于此次故障给您带来的不便与困扰，我们深表歉意。 我们已第一时间启动针对服务稳定性的全面排查和彻底整改，全面梳理并剥离单点依赖 ，坚决杜绝同类问题再次发生。 作为补偿， 我们将按您账号 7 日内（10.8-10.14）的消耗金额以赠金形式全额返还 ，赠金自动到账，API 计费扣款先从赠金账户扣除。此次故障对您造成了影响，我们再次致歉，感谢您一直以来的信任与支持。 这是 DeepSeek 本月以来遇到的最大规模服务问题，网友今早在 DeepSeek 中对话提示「服务器暂时不可用」，「DeepSeek 崩了」话题也一度登上微博热搜。（来源： IT 之家） 工信部等三部门联合调查有关车辆刹车踏板支架断裂问题，尊界声明积极响应、完全服从并将全力配合调查组工作 10 月 15 日消息，针对网络反映的「尊界 V800 汽车刹车踏板支架断裂问题」，工业和信息化部、中央网信办、市场监管总局高度重视，在前期调查工作基础上，成立联合调查组开展核查，并依法依规处理。有关情况将及时公布。 据多位博主分享的截图，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东转发了尊界汽车声明，表态称： 正义可能会迟到，但永远不会缺席！ （来源：IT 之家） 库克：苹果智能 Apple Intelligence 月底在华发布测试版本，但不包括 Siri AI 10 月 15 日消息，苹果董事会执行主席蒂姆 · 库克今日在上海接受澎湃新闻、界面新闻等媒体采访时确认，苹果智能（Apple Intelligence）及相关阿里千问大模型已获得批准，将于 10 月晚些时候面向中国用户发布测试版本。 库克表示，首批功能包括实时翻译、书写工具、照片清除工具等，但 Siri AI 不在此次发布范围之内。「我们很高兴，首批核心的苹果智能功能是可以慢慢上线了。」库克说道。 据此前报道，此次获批涉及的阿里系模型包括通义千问和通义万相，前者为大语言模型，后者为图像及视频生成工具。 彭博社古尔曼还曾报道称，苹果计划于 12 月随 iOS 27.3 系统更新为中国用户正式推送 Apple Intelligence，首批功能与 2024 年海外首次发布时的版本基本一致。 同日，商务部部长王文涛会见了库克，双方就中美经贸关系、人工智能发展、苹果公司在华业务等议题进行交流。王文涛表示，中方倡导人工智能发展安全可控、普惠向善、治理合作，希望苹果公司发挥沟通桥梁作用，为推动中美经贸关系持续稳定向好发展贡献力量。库克表示，苹果公司看好中国发展前景，将进一步扩大在华业务。（来源： 腾讯数码） 黄仁勋：英伟达在 AI 安全领域必须与中国企业合作 10 月 15 日消息，黄仁勋今日接受外媒 CNBC 采访时表示， 英伟达「绝对有必要」与中国 AI 企业合作 ， 共同监测这项前沿技术带来的风险 。 英伟达首席执行官黄仁勋认为，AI 具有潜在危险性。他认为自己的公司绝对有必要与中国 AI 企业携手监测这些危险。 黄仁勋对此解释称：「我们绝对应该",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-16T00:15:00+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372430",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek 服务故障近 5 小时，官方全额补偿 API 用户",
+   "summary_zh": "DeepSeek 网页与 API 服务中断近 5 小时，官方按用户 7 日内消耗金额全额返还赠金，并称将剥离单点依赖。",
+   "highlights_zh": [
+    "故障时段为 10 月 15 日 8:11 至 13:04，'DeepSeek 崩了'登上微博热搜",
+    "补偿方式为 10.8-10.14 消耗金额以赠金形式全额返还，自动到账",
+    "官方称已启动稳定性排查，全面梳理并剥离单点依赖"
+   ],
+   "why_zh": "关注头部大模型厂商服务稳定性与用户补偿机制的风向标事件。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.528,
+   "date": "2026-10-16",
+   "slot": "noon",
+   "selected_at": "2026-10-16T03:25:41+00:00",
+   "mirror_pdf": "pdf/web-93461b4bc021.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372430"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "推理效率成为视频与世界模型竞争的新主战场",
+   "why": "Speculative Forcing 与 Velox 分别从去噪步数和注意力路由切入，用免训练或轻量方式大幅提速且精度近无损。",
+   "refs": [
+    "arxiv-2610.22347",
+    "arxiv-2610.22311"
+   ]
+  },
+  {
+   "trend": "智能体架构从「全交给大模型」转向分层委派",
+   "why": "JevAgentHarness 用小决策模型分担每步多选，4B 模型在陌生任务达 91.5%，直指大 LLM 调用慢且贵。",
+   "refs": [
+    "arxiv-2610.21412"
+   ]
+  },
+  {
+   "trend": "端侧与开源多模态模型同步向「可落地」收敛",
+   "why": "Meta 开源前沿多模态 MoE，Liquid AI 推端侧智能体专用模型，模型供给正从拼参数转向拼场景适配。",
+   "refs": [
+    "web-9d251ac6836a",
+    "web-cfc3584192a8"
+   ]
+  },
+  {
+   "trend": "超级 App 开始用协议划定 AI Agent 的流量边界",
+   "why": "155 款应用拒绝豆包助手自动化操作，说明 Agent 落地瓶颈已从技术转向平台生态与流量主权博弈。",
+   "refs": [
+    "web-600bd37d1857"
+   ]
+  },
+  {
+   "trend": "苹果 AI 入华落定，国产大模型成关键供给方",
+   "why": "库克确认接入阿里千问、百度浮出水面，将直接改写国内 AI 助手的分发与竞争格局。",
+   "refs": [
+    "web-f587a8b810f8",
+    "web-630d7f5a8140"
+   ]
+  }
+ ]
+}

@@ -1,6 +1,13 @@
 {
- "updated": "2026-10-15T15:34:10+00:00",
+ "updated": "2026-10-16T03:25:41+00:00",
  "days": [
+  {
+   "date": "2026-10-16",
+   "count": 20,
+   "slots": {
+    "noon": 20
+   }
+  },
   {
    "date": "2026-10-15",
    "count": 43,
@@ -198,50 +205,52 @@
    }
   }
  ],
- "total": 1189,
+ "total": 1209,
  "last_run": {
-  "at": "2026-10-15T15:34:10+00:00",
-  "slot": "evening",
-  "candidates": 258,
-  "new": 152,
+  "at": "2026-10-16T03:25:41+00:00",
+  "slot": "noon",
+  "candidates": 242,
+  "new": 153,
   "stale": 48,
-  "judged": 100,
-  "selected": 21,
-  "mirrored": 19,
+  "judged": 97,
+  "selected": 20,
+  "mirrored": 18,
   "by_category": {
    "技术": 4,
    "资讯": 11,
    "观点": 3,
-   "项目": 3
+   "论文": 1,
+   "项目": 1
   },
   "by_source": {
-   "HF Daily Papers": 61,
+   "HF Daily Papers": 33,
    "arXiv 新论文": 60,
-   "Hacker News": 7,
+   "Hacker News": 4,
    "量子位": 10,
-   "极客公园": 4,
-   "IT之家": 11,
-   "爱范儿": 9,
-   "少数派": 1,
+   "极客公园": 8,
+   "IT之家": 16,
+   "爱范儿": 7,
+   "少数派": 2,
    "雷峰网": 15,
-   "钛媒体": 7,
-   "InfoQ 中文": 15,
-   "Latent Space": 5,
+   "钛媒体": 10,
+   "InfoQ 中文": 16,
+   "Latent Space": 4,
    "Stratechery": 2,
+   "SemiAnalysis": 1,
    "Arvind Narayanan": 1,
-   "Tomasz Tunguz": 1,
-   "Zvi Mowshowitz": 1,
+   "Azeem Azhar": 1,
+   "Zvi Mowshowitz": 2,
    "Timothy B. Lee": 1,
    "科学空间": 1,
-   "Hugging Face Blog": 4,
+   "Hugging Face Blog": 5,
    "Google Research": 3,
    "METR": 5,
-   "OpenAI": 6,
-   "Google DeepMind": 4,
-   "NVIDIA": 6,
-   "Mistral": 1,
-   "GitHub Trending": 17,
-   "GitHub 新项目": 3
+   "OpenAI": 7,
+   "Google DeepMind": 1,
+   "NVIDIA": 7,
+   "Anthropic": 1,
+   "GitHub Trending": 15,
+   "GitHub 新项目": 5
   },
   "llm": true,
   "translated": 0
