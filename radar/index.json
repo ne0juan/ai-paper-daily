@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-16T09:38:22+00:00",
+ "updated": "2026-10-16T15:20:25+00:00",
  "days": [
   {
    "date": "2026-10-16",
-   "count": 38,
+   "count": 57,
    "slots": {
     "noon": 20,
-    "evening": 18
+    "evening": 37
    }
   },
   {
@@ -206,23 +206,24 @@
    }
   }
  ],
- "total": 1227,
+ "total": 1246,
  "last_run": {
-  "at": "2026-10-16T09:38:22+00:00",
+  "at": "2026-10-16T15:20:25+00:00",
   "slot": "evening",
-  "candidates": 236,
-  "new": 139,
-  "stale": 43,
+  "candidates": 241,
+  "new": 134,
+  "stale": 40,
   "judged": 100,
-  "selected": 18,
-  "mirrored": 16,
+  "selected": 19,
+  "mirrored": 15,
   "by_category": {
    "技术": 4,
    "观点": 2,
-   "资讯": 12
+   "资讯": 12,
+   "项目": 1
   },
   "by_source": {
-   "HF Daily Papers": 50,
+   "HF Daily Papers": 55,
    "arXiv 新论文": 60,
    "Hacker News": 4,
    "量子位": 10,
@@ -230,20 +231,21 @@
    "IT之家": 7,
    "爱范儿": 7,
    "少数派": 2,
-   "雷峰网": 15,
-   "钛媒体": 7,
-   "InfoQ 中文": 14,
+   "雷峰网": 14,
+   "钛媒体": 8,
+   "InfoQ 中文": 15,
    "Latent Space": 4,
-   "Stratechery": 2,
+   "Stratechery": 1,
    "SemiAnalysis": 1,
    "Arvind Narayanan": 1,
    "Azeem Azhar": 1,
    "Zvi Mowshowitz": 2,
    "Timothy B. Lee": 1,
+   "Dean Ball": 1,
    "科学空间": 1,
-   "Hugging Face Blog": 5,
+   "Hugging Face Blog": 6,
    "Google Research": 3,
-   "OpenAI": 5,
+   "OpenAI": 3,
    "Google DeepMind": 1,
    "NVIDIA": 5,
    "GitHub Trending": 14,
