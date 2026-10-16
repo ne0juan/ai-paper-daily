@@ -1,11 +1,12 @@
 {
- "updated": "2026-10-16T03:25:41+00:00",
+ "updated": "2026-10-16T09:38:22+00:00",
  "days": [
   {
    "date": "2026-10-16",
-   "count": 20,
+   "count": 38,
    "slots": {
-    "noon": 20
+    "noon": 20,
+    "evening": 18
    }
   },
   {
@@ -205,35 +206,33 @@
    }
   }
  ],
- "total": 1209,
+ "total": 1227,
  "last_run": {
-  "at": "2026-10-16T03:25:41+00:00",
-  "slot": "noon",
-  "candidates": 242,
-  "new": 153,
-  "stale": 48,
-  "judged": 97,
-  "selected": 20,
-  "mirrored": 18,
+  "at": "2026-10-16T09:38:22+00:00",
+  "slot": "evening",
+  "candidates": 236,
+  "new": 139,
+  "stale": 43,
+  "judged": 100,
+  "selected": 18,
+  "mirrored": 16,
   "by_category": {
    "技术": 4,
-   "资讯": 11,
-   "观点": 3,
-   "论文": 1,
-   "项目": 1
+   "观点": 2,
+   "资讯": 12
   },
   "by_source": {
-   "HF Daily Papers": 33,
+   "HF Daily Papers": 50,
    "arXiv 新论文": 60,
    "Hacker News": 4,
    "量子位": 10,
-   "极客公园": 8,
-   "IT之家": 16,
+   "极客公园": 10,
+   "IT之家": 7,
    "爱范儿": 7,
    "少数派": 2,
    "雷峰网": 15,
-   "钛媒体": 10,
-   "InfoQ 中文": 16,
+   "钛媒体": 7,
+   "InfoQ 中文": 14,
    "Latent Space": 4,
    "Stratechery": 2,
    "SemiAnalysis": 1,
@@ -244,13 +243,11 @@
    "科学空间": 1,
    "Hugging Face Blog": 5,
    "Google Research": 3,
-   "METR": 5,
-   "OpenAI": 7,
+   "OpenAI": 5,
    "Google DeepMind": 1,
-   "NVIDIA": 7,
-   "Anthropic": 1,
-   "GitHub Trending": 15,
-   "GitHub 新项目": 5
+   "NVIDIA": 5,
+   "GitHub Trending": 14,
+   "GitHub 新项目": 6
   },
   "llm": true,
   "translated": 0

@@ -1,13 +1,11 @@
-2026-10-16 03:25:41,607 INFO source hf_daily           -> 33 items
-2026-10-16 03:25:41,929 INFO source hackernews         -> 4 items
-2026-10-16 03:25:58,839 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-16 03:26:06,500 INFO source rss                -> 125 items
-2026-10-16 03:26:08,219 INFO source html_lists         -> 1 items
-2026-10-16 03:26:08,219 INFO source x                  -> 0 items
-2026-10-16 03:27:11,462 INFO source arxiv_search       -> 60 items
-2026-10-16 03:27:20,780 INFO source github             -> 20 items
-2026-10-16 03:27:20,782 INFO candidates: 242 (stale dropped 48, new 153)
-2026-10-16 03:29:01,173 INFO llm judged 97/100 (calls=13)
-2026-10-16 03:30:17,996 WARNING snapshot https://thezvi.wordpress.com/2026/10/15/ai-190-scion-of-the-times/: blocked or empty page
-2026-10-16 03:31:08,455 WARNING snapshot https://stratechery.com/2026/a-conversation-with-ari-emanuel-about-entertainment-and-ai/: blocked or empty page
-2026-10-16 03:32:23,777 INFO run done: {"at": "2026-10-16T03:25:41+00:00", "slot": "noon", "candidates": 242, "new": 153, "stale": 48, "judged": 97, "selected": 20, "mirrored": 18, "by_category": {"技术": 4, "资讯": 11, "观点": 3, "论文": 1, "项目": 1}, "by_source": {"HF Daily Papers": 33, "arXiv 新论文": 60, "Hacker News": 4, "量子位": 10, "极客公园": 8, "IT之家": 16, "爱范儿": 7, "少数派": 2, "雷峰网": 15, "钛媒体": 10, "InfoQ 中文": 16, "Latent Space": 4, "Stratechery": 2, "SemiAnalysis": 1, "Arvind Narayanan": 1, "Azeem Azhar": 1, "Zvi Mowshowitz": 2, "Timothy B. Lee": 1, "科学空间": 1, "Hugging Face Blog": 5, "Google Research": 3, "METR": 5, "OpenAI": 7, "Google DeepMind": 1, "NVIDIA": 7, "Anthropic": 1, "GitHub Trending": 15, "GitHub 新项目": 5}, "llm": true, "translated": 0}
+2026-10-16 09:38:22,522 INFO source hf_daily           -> 50 items
+2026-10-16 09:38:22,761 INFO source hackernews         -> 4 items
+2026-10-16 09:38:39,560 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-16 09:38:45,570 INFO source rss                -> 104 items
+2026-10-16 09:38:46,844 INFO source html_lists         -> 0 items
+2026-10-16 09:38:46,844 INFO source x                  -> 0 items
+2026-10-16 09:38:47,182 INFO source arxiv_search       -> 60 items
+2026-10-16 09:38:56,265 INFO source github             -> 20 items
+2026-10-16 09:38:56,267 INFO candidates: 236 (stale dropped 43, new 139)
+2026-10-16 09:40:30,846 INFO llm judged 100/100 (calls=13)
+2026-10-16 09:43:20,378 INFO run done: {"at": "2026-10-16T09:38:22+00:00", "slot": "evening", "candidates": 236, "new": 139, "stale": 43, "judged": 100, "selected": 18, "mirrored": 16, "by_category": {"技术": 4, "观点": 2, "资讯": 12}, "by_source": {"HF Daily Papers": 50, "arXiv 新论文": 60, "Hacker News": 4, "量子位": 10, "极客公园": 10, "IT之家": 7, "爱范儿": 7, "少数派": 2, "雷峰网": 15, "钛媒体": 7, "InfoQ 中文": 14, "Latent Space": 4, "Stratechery": 2, "SemiAnalysis": 1, "Arvind Narayanan": 1, "Azeem Azhar": 1, "Zvi Mowshowitz": 2, "Timothy B. Lee": 1, "科学空间": 1, "Hugging Face Blog": 5, "Google Research": 3, "OpenAI": 5, "Google DeepMind": 1, "NVIDIA": 5, "GitHub Trending": 14, "GitHub 新项目": 6}, "llm": true, "translated": 0}
