@@ -1193,45 +1193,1164 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "arxiv-2610.21055",
+   "kind": "paper",
+   "title": "Athanor: An Agent-Native System for Autonomous Post-Training Research",
+   "url": "https://arxiv.org/abs/2610.21055",
+   "pdf_url": "https://arxiv.org/pdf/2610.21055",
+   "abstract": "Recursive self-improvement, in which AI systems build stronger AI systems, is one promising route to superintelligence. We study a weaker form that can be measured today: frontier agents post-training a small raw base model with public data, as a test of their research potential. We build Athanor, an open agent-native system for autonomous post-training research (AutoPostTrain) on real GPUs. We give the agents full research autonomy, low-friction engineering tools, and efficient starter code. The agents carry out the research themselves: they read datasets and evaluation results, build their training data, write and modify training algorithms, tune hyperparameters, and analyze the results to decide what to try next. They work in a sandbox and cannot use external teacher models. Athanor's services supply frozen evaluation, managed jobs, decontaminated data, a persistent research record, and a held-out suite the agents are unaware of. In a 104-hour campaign, a team of four Claude Opus 5.5 agents, each on an eight-GPU node and given no research advice, improves Qwen3-4B-Base from 15.9 to 67.3 on a six-task development suite and from 9.2 to 48.2 on a held-out suite, against 66.5 and 47.9 for the official Qwen3-4B-Instruct-2507. To our knowledge, this is the first demonstration that a team of frontier agents can autonomously post-train a raw base model into a cross-domain generalist model that matches or surpasses the official instruct version on average. The campaign's full record shows that the agents reach this level by recombining known methods and each other's models: SFT on public reasoning data, RL with a rollout change one agent introduced, weight merges across agents, and rounds of self-distillation. With execution handled, today's agents already have the engineering and research ability to conquer this task. We hope Athanor provides a foundation for scaling autonomous AI research.",
+   "authors": [
+    "Yufa Zhou",
+    "Yichen Wang",
+    "Jiakun Fan",
+    "Ziqi Shu",
+    "Zhichao Liu",
+    "Anru R. Zhang",
+    "Neiwen Ling",
+    "Zijun Wei"
+   ],
+   "orgs": [
+    "ByteDance"
+   ],
+   "published": "2026-10-15T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.21055",
+     "signal": "▲ 8",
+     "metric": 8
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Athanor：智能体自主完成后训练研究",
+   "summary_zh": "字节提出Athanor系统，让四个Claude智能体在104小时内自主完成Qwen3-4B-Base的后训练，开发集从15.9提升至67.3，接近官方Instruct版本，首次证明前沿智能体可自主将原始基座模型训练为跨域通用模型。",
+   "highlights_zh": [
+    "智能体全程自主：读数据、造训练集、改算法、调超参、分析结果并决定下一步",
+    "104小时四智能体团队（各8卡节点）无研究建议，开发集15.9→67.3，留出集9.2→48.2",
+    "对比官方Qwen3-4B-Instruct-2507的66.5/47.9，自主训练已接近官方水平",
+    "系统提供冻结评测、去污染数据、持久研究记录和智能体未知的留出套件"
+   ],
+   "why_zh": "首次实证前沿智能体可自主完成完整后训练研究闭环，是递归自我改进的重要里程碑。",
+   "tags": [
+    "大模型",
+    "智能体",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.5914,
+   "score_llm": 9.0,
+   "score": 0.7766,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T09:38:22+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.21055.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.21055"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.21055"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.21055"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.21055"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.21055"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.21055"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-483d6307e687",
+   "kind": "article",
+   "title": "[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
+   "url": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
+   "pdf_url": "",
+   "abstract": "Nick Cammarata out of nowhere with some major claims!",
+   "authors": [
+    "swyx"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-16T04:16:45+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "智能体推翻多义性假说，可解释性与对齐大幅提升",
+   "summary_zh": "Latent Space 报道 Nick Cammarata 提出重大主张：智能体方法推翻多义性（polysemanticity）假说，并显著提升可解释性与对齐效果。",
+   "highlights_zh": [
+    "多义性假说被智能体方法挑战",
+    "可解释性与对齐取得进展",
+    "来自 Latent Space 社区讨论"
+   ],
+   "why_zh": "可解释性方向可能迎来范式转变，值得关注后续验证。",
+   "tags": [
+    "对齐与安全",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T09:38:22+00:00",
+   "mirror_pdf": "pdf/web-483d6307e687.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.21601",
+   "kind": "paper",
+   "title": "Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gated On-Policy Distillation",
+   "url": "https://arxiv.org/abs/2610.21601",
+   "pdf_url": "https://arxiv.org/pdf/2610.21601",
+   "abstract": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories. However, this endpoint policy shift cannot reveal whether local action preferences evolved consistently during teacher training. The same endpoint shift can result from early and late shifts that reinforce or partially cancel each other. We investigate whether agreement between early and late teacher policy shifts can guide selective transfer. We introduce Waypoint-guided On-Policy Distillation (Waypoint-OPD), which uses an intermediate teacher checkpoint from the same RL run to compare early and late shifts in relative action preferences at student-visited prefixes. We gate the endpoint shift according to the directional agreement between the early and late shifts, suppressing it when they point in opposing directions. Compared with endpoint-only transfer, our method requires only one additional frozen-teacher scoring pass. Using RL-trained Qwen3-4B teachers, we evaluate our method with Qwen3-8B, Qwen3-14B, and Qwen3-30B-A3B as student models in mathematical and code reasoning. In all six domain--student settings, Waypoint-OPD achieves the highest domain-average score among the compared distillation methods. Ablations with the Qwen3-8B student show that removing or shuffling gates reduces mathematical reasoning performance. These results support the use of directional agreement between early and late teacher policy shifts to weight the endpoint shift during student training.",
+   "authors": [
+    "Bingxi Hou",
+    "Guochao Jiang",
+    "Guofeng Quan",
+    "Weiqing Li",
+    "Wenfeng Feng",
+    "Guohua Liu",
+    "Yuewei Zhang"
+   ],
+   "orgs": [],
+   "published": "2026-10-15T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.21601",
+     "signal": "▲ 163",
+     "metric": 163
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Waypoint-OPD：用中间检查点门控策略蒸馏",
+   "summary_zh": "针对RL策略蒸馏只取终点差异、无法判断偏好是否一致演化的问题，用同一RL过程的中间检查点比较早期与晚期策略偏移，方向一致才迁移，在数学与代码推理六个设置中均取得最优。",
+   "highlights_zh": [
+    "发现终点策略偏移可能由方向相反的早期/晚期偏移相互抵消，单看终点会误导蒸馏",
+    "用中间检查点做方向一致性门控，仅增加一次冻结教师打分",
+    "Qwen3-4B教师蒸馏到8B/14B/30B-A3B，六个领域-学生组合全部最优"
+   ],
+   "why_zh": "做RL后训练蒸馏的团队可借鉴：多一次中间检查点打分即可过滤噪声监督。",
+   "tags": [
+    "大模型",
+    "推理",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.68,
+   "score_llm": 7.0,
+   "score": 0.692,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T09:38:22+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.21601.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.21601"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.21601"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.21601"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.21601"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.21601"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.21601"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/hhhbxloveai/WaypointOPD"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.22194",
+   "kind": "paper",
+   "title": "AutoSFT: An Agentic System for Automated Data Research in Supervised Fine-Tuning",
+   "url": "https://arxiv.org/abs/2610.22194",
+   "pdf_url": "https://arxiv.org/pdf/2610.22194",
+   "abstract": "Language model agents increasingly automate post-training, but when given the full training stack they converge on supervised fine-tuning and spend most effort revising training data. Existing systems give the agent one kind of control, selecting rows from a fixed pool or calling a generator, whereas a human data engineer adjusts proportions, prunes, repairs, replaces and synthesizes the data. We design a data action space for these changes and ask whether an automated system can make the full range rather than one of them, and what structure that requires. We first run this loop with a single agent, and it reaches only one action, adjusting category proportions, while its context fills with execution output and is discarded mid-search. We therefore introduce AutoSFT, a multi-agent system where a meta agent separates execution from analysis, gathers proposals from independent angles, and calls a synthesis subagent for capabilities the pool cannot cover, with the model, the trainer, and the budget fixed within each comparison. Adding each component in turn helps: the executor halves context loss, the analysis subagents lift the best IFEval by +6.5, and synthesis adds +3.4 IFEval and +2.9 IFBench. The same loop transfers to code, where analysis adds +3.7 MBPP+ over a single agent that does not improve. Every result comes from runs that retrain from the base model each round, so each component's effect is individually attributable. Our findings suggest that automating SFT data research depends more on covering diverse data actions than on a stronger single action.",
+   "authors": [
+    "Bingxiang He",
+    "Pengqi Sun",
+    "Shihao Peng",
+    "Shaoxuan Li",
+    "Huiyu Xiao",
+    "Hongjian Shi",
+    "Zixuan Fu",
+    "Ziqing Qiao",
+    "Yuxin Zuo",
+    "Cheng Qian",
+    "Xinqiang Yu",
+    "Jiayi Li",
+    "Xiusi Chen",
+    "Yizhen Song",
+    "Xiangyang Wang",
+    "Iofai Lei",
+    "Yudong Wang",
+    "Ning Ding",
+    "Zhiyuan Liu",
+    "Xiaozhi Wang",
+    "Chaojun Xiao"
+   ],
+   "orgs": [
+    "Tsinghua NLP Group"
+   ],
+   "published": "2026-10-15T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.22194",
+     "signal": "▲ 33",
+     "metric": 33
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AutoSFT：自动数据研究的多智能体微调系统",
+   "summary_zh": "清华NLP提出AutoSFT多智能体系统，把数据工程拆成执行、分析、合成三类角色，让智能体自主调整比例、修剪、修复、替换与合成SFT数据，IFEval最高提升6.5分，代码任务同样有效。",
+   "highlights_zh": [
+    "单智能体只能做比例调整且上下文被执行输出淹没，多智能体分工解决",
+    "元智能体分离执行与分析，并从多角度收集提案",
+    "每轮从基座重训，IFEval +6.5、IFBench +2.9、MBPP+ +3.7"
+   ],
+   "why_zh": "做SFT数据管线的团队可参考其数据动作空间与多智能体分工设计。",
+   "tags": [
+    "大模型",
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.6709,
+   "score_llm": 7.0,
+   "score": 0.6884,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T09:38:22+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.22194.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.22194"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.22194"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.22194"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.22194"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.22194"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.22194"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/Thinking-Space/AutoSFT"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.22341",
+   "kind": "paper",
+   "title": "3DCodeVerse: Exploring 3D Worlds as Code",
+   "url": "https://arxiv.org/abs/2610.22341",
+   "pdf_url": "https://arxiv.org/pdf/2610.22341",
+   "abstract": "We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale. 3DCodeVerse comprises large-scale, high-quality datasets of executable 3D code, a coding harness for spatial reasoning and automated verification, and practical guidance for 3D coding. First, we construct 3DCodeVerse-2M, a large-scale curated dataset of standalone 3D executable code. We build this corpus by collecting open-source data, converting specialized representations, and generating new programs with coding agents. Each program is packaged with the source files and associated assets required for execution in its declared environment, along with available descriptions and verification records. Second, we develop the 3DCodeVerse Harness, a multi-agent directed acyclic graph framework for generating and refining 3D content. It uses execution checks, spatial measurements, and visual feedback to automatically evaluate and revise generated programs without human feedback during generation. Third, we conduct systematic empirical studies of 3D coding, establishing baselines with fine-tuned open models and deriving practical guidance through component-level analyses of our harness. Extensive experiments demonstrate that fine-tuning on our dataset significantly improves the 3D coding capabilities of open-source models. Notably, our 3DCodeVerse harness achieves a 90% win rate against Claude Design (3D Object) in pairwise human evaluations, when both are utilized by Claude Opus 5.5.",
+   "authors": [
+    "Yipeng Gao",
+    "Ziyao Zeng",
+    "Jinfa Huang",
+    "Yijiang Li",
+    "Haolin Xiong",
+    "Wang Qin",
+    "Xinlei Yu",
+    "Youheng Yao",
+    "Jie Zhang",
+    "Kun-Yu Lin",
+    "Rong Liu",
+    "Yinyuan Zhao",
+    "Yajie Zhao",
+    "Meiqi Guo",
+    "Jiebo Luo",
+    "Lei Shu",
+    "Yunhao Ge",
+    "Xinyu Hu",
+    "Laurent Itti"
+   ],
+   "orgs": [
+    "University of Southern California"
+   ],
+   "published": "2026-10-15T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.22341",
+     "signal": "▲ 65",
+     "metric": 65
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "3DCodeVerse：把3D世界当作代码来生成",
+   "summary_zh": "南加大发布3DCodeVerse生态，含200万条可执行3D代码数据集、多智能体DAG生成与验证框架，用执行检查、空间测量和视觉反馈自动修正程序，微调后开源模型3D编码能力显著提升。",
+   "highlights_zh": [
+    "3DCodeVerse-2M：带源文件、资产与验证记录的可执行3D代码语料",
+    "Harness用DAG多智能体在生成中自动评估与修订，无需人工反馈",
+    "系统实验给出3D编码的基线、组件级分析与实践指南"
+   ],
+   "why_zh": "做3D生成或代码智能体的团队可复用其数据集与验证harness。",
+   "tags": [
+    "多模态",
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.6305,
+   "score_llm": 7.0,
+   "score": 0.6722,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T09:38:22+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.22341.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.22341"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.22341"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.22341"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.22341"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.22341"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.22341"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/gaoypeng/3dcodeverse"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2cd92b812c13",
+   "kind": "article",
+   "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
+   "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+   "pdf_url": "",
+   "abstract": "NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized […]",
+   "authors": [
+    "Kari Briski"
+   ],
+   "orgs": [
+    "NVIDIA"
+   ],
+   "published": "2026-10-15T15:00:24+00:00",
+   "sources": [
+    {
+     "name": "NVIDIA",
+     "authority": 0.75,
+     "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "英伟达扩展 Nemotron 家族：开源 120B 超级视觉语言模型与端侧 Bolt 系列",
+   "summary_zh": "英伟达发布 Nemotron 3.5 Super VL，1200 亿参数开源模型，主打常驻智能体的最快任务完成与最高精度；同时推出面向本地智能体负载的端侧模型 Bolt 74B-A9B（24GB）与 Bolt E4B（4GB）。",
+   "highlights_zh": [
+    "Super VL 为 120B 开源模型，强调常驻智能体的任务完成速度与准确率",
+    "Bolt 74B-A9B 以 24GB 显存平衡智能与每 GB 速度，面向本地智能体",
+    "Bolt E4B 仅 4GB，进一步压低端侧部署门槛"
+   ],
+   "why_zh": "英伟达以开源大模型切入智能体与端侧市场，值得关注其生态布局。",
+   "tags": [
+    "大模型",
+    "多模态",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 8.0,
+   "score": 0.672,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T09:38:22+00:00",
+   "mirror_pdf": "pdf/web-2cd92b812c13.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0b5169630028",
+   "kind": "article",
+   "title": "ASML Is Building a Hybrid Bonding Tool!",
+   "url": "https://newsletter.semianalysis.com/p/asml-is-building-a-hybrid-bonding",
+   "pdf_url": "",
+   "abstract": "ASML is building a hybrid bonding tool! The company has not announced anything yet, but its patent filings, a news report and its own roadmap all suggest so.",
+   "authors": [
+    "Sherry Zhang"
+   ],
+   "orgs": [
+    "SemiAnalysis"
+   ],
+   "published": "2026-10-15T19:27:20+00:00",
+   "sources": [
+    {
+     "name": "SemiAnalysis",
+     "authority": 0.8,
+     "url": "https://newsletter.semianalysis.com/p/asml-is-building-a-hybrid-bonding",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "半导体与算力分析",
+   "title_zh": "ASML 正在研发混合键合设备",
+   "summary_zh": "SemiAnalysis 根据专利文件、新闻报道及公司路线图推断，ASML 正在研发混合键合（hybrid bonding）设备，尚未正式公布。",
+   "highlights_zh": [
+    "ASML 未官宣但多项证据指向混合键合设备",
+    "专利与路线图均显示布局",
+    "可能影响先进封装与算力芯片供应链"
+   ],
+   "why_zh": "若属实将改变先进封装设备格局，半导体与算力从业者需关注。",
+   "tags": [
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.648,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T09:38:22+00:00",
+   "mirror_pdf": "pdf/web-0b5169630028.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://newsletter.semianalysis.com/p/asml-is-building-a-hybrid-bonding"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a695a6fa6d39",
+   "kind": "article",
+   "title": "为什么 Anthropic 不做 Personal AI",
+   "url": "http://www.geekpark.net/news/372461",
+   "pdf_url": "",
+   "abstract": "不久前，9 月 29 日的 OpenAI DevDay 开发者日，舞台上飘出了几个圆滚滚的小气泡。 它们叫 dots，是 OpenAI 最新的个人 agent。每个 dot 跑在 GPT-6 Astra 上，拥有一台独立的云端电脑和浏览器，用户关掉 ChatGPT 之后，它还在后台继续干活。OpenAI 对它的描述是： 「 built to handle everything 」，什么都能接。 三周前的 9 月 8 日， Meta 推出了 Muse，同样有独立的云端虚拟机，同样能在后台持续工作，同样顶着一个萌萌的卡通形象，而且直接住进了 WhatsApp。市场的反馈相当热烈，Apptopia 的估算显示，Muse 上线 12 天全平台装机量约 280 万，一度冲上美区 App Store 总榜第一。 OpenAI CEO Sam Altman 发布个人助理 dots｜图片来源：PCMag 再算上 Google 的 Gemini Spark 和 SpacexAI 的 Grok Bot， 「always-on 个人 agent」成了 2026 年秋天最拥挤的赛道 。 不过，名单里少了一个名字。 Anthropic，这家靠 Claude Code 把 agent 做到最出圈的公司，至今没有一款能和 dots、Muse 正面对标的消费级产品。 没有可爱的形象，没有「你的专属 AI 分身」，也没在任何发布会上宣布过要做。 这家拥有最好的模型、最懂 agent 的公司，为什么偏偏不做个人 agent？ 01 A 社的分布式个人 AI 其实， 在「always-on agent」这件事上，Anthropic 不但没有缺席，甚至比 OpenAI 更早亮出了底牌。 6 月 23 日，比 dots 早了整整三个月，Anthropic 发布了 Claude Tag。 它是一个住在 Slack 频道里的 Claude，团队成员只要 @ 一下，就能把任务交给它。和普通聊天机器人不同，一个频道里只有一个共享的 Claude，有自己的身份和记忆，谁都能看到它在忙什么，A 同事交代的活，B 同事可以接着往下推。 它也会主动干活。Claude Tag 会在没人提问时给出建议，还会去跟进那些已经沉寂下来的讨论串。Anthropic 自己给出了一个很夸张的数字，公司产品团队 65% 的代码，出自内部版本的 Claude Tag。 早在三个月前 Claude 就推出了 Claude Tag｜图片来源：Anthropic 再往前看，桌面端有 Cowork，能接管用户电脑上的文件和应用；开发者那边有 Claude Code，早已能在云端独立跑完一个编程任务，再把 PR 贴回 Slack。 还有一个从没被官方承认的名字，Conway。 今年 3 月 31 日，Anthropic 因为打包失误，意外公开了约 51.2 万行 Claude Code 源码，里面藏着一个独立于聊天界面的 agent 环境。它能被定时任务和外部事件唤醒，有自己的扩展格式，可以控制浏览器、连接各种工具。之后几个月，iOS 版 Claude 的测试版本里还不断冒出 Conway 标签页的新图标。 把这些拼在一起，答案其实很清楚。 Anthropic 并非不做 always-on agent，它只是没有把这件事包装成一个「个人分身」。 OpenAI 和 Meta 卖的是一个有名字、有形象、能帮你订餐厅和买东西的伙伴；Anthropic 卖的是一个坐在工位旁边、能接住工作的同事。前者面向每一个普通人，后者面向一个团队、一家公",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-16T06:50:02+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372461",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "为什么Anthropic不做Personal AI",
+   "summary_zh": "极客公园分析Anthropic缺席always-on个人agent赛道的原因，指出其通过Claude Tag、Cowork、Claude Code等布局分布式企业级agent，而非消费级个人助理。",
+   "highlights_zh": [
+    "OpenAI dots、Meta Muse等always-on个人agent成2026年最拥挤赛道",
+    "Anthropic以Claude Tag切入团队协作场景，内部65%代码由其生成",
+    "泄露源码中的Conway项目显示Anthropic早有独立agent环境布局"
+   ],
+   "why_zh": "理解头部AI公司在agent产品路线上的战略分歧，把握个人agent与企业agent的赛道分化。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T09:38:22+00:00",
+   "mirror_pdf": "pdf/web-a695a6fa6d39.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372461"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-40e9cdb59ea3",
+   "kind": "article",
+   "title": "苹果和 Meta 和好了，是 AI 逼的",
+   "url": "http://www.geekpark.net/news/372458",
+   "pdf_url": "",
+   "abstract": "没有永远的敌人，只有永远的 AI 焦虑。 10 月 2 日，苹果做了一件很少见的事，因为一个第三方 App，宣布要调整系统规则。 起因是《Inc.》杂志的科技专栏作者 Jason Aten 公开指控，Meta 的 AI 智能体 Muse 在他的 Mac 上读取了私人消息。Muse 是 Meta 力推的「能替你办事」的 Agent，会帮你退订闲置会员，甚至替你砍价。 苹果随即表态， 今后 AI 请求读取 Mac 数据时，系统会主动提示用户 。 这几乎就是苹果和 Meta 过去五年关系的缩影，Meta 想拿数据，苹果出面拦着。 然而仅仅两周后，故事发生了反转。 当地时间 10 月 15 日，Meta 发布开放权重模型 Muse Spark Open，扎克伯格在 X 上发帖，感谢「John Ternus 和苹果」的合作，让这个模型能在新款 Mac Studio 上流畅运行。 苹果 CEO Ternus 本人很快回复，称能在自己桌上如此高效地跑起这种量级的模型： 「鹅妹子嘤」。 Meta 的 AI 负责人 Alexandr Wang 接受 Axios 采访时，说了一句更搞笑但直白的话： 「 很高兴爸爸妈妈又和好了 。」 所以，「爸爸」和「妈妈」，是怎么和好的？以及，Meta 最近连续在模型上发力，终于重回牌桌了吗？ 01 一台桌子，放下 8000 亿参数 先看这次苹果和 Meta 的合作到底做成了什么。 Meta 宣称 Muse Spark Open 总参数 8160 亿，每次推理只激活其中 420 亿，支持 100 万 token 的上下文。Meta 称它是： 「 迄今美国最强的开放权重模型 」。 注意这个措辞里的「美国」两个字。论参数规模，它并不是全球最大的开源模型。 月之暗面的 Kimi K2、蚂蚁的 Ling-1T，早在 2025 年就把开源模型推到了万亿参数级别 。Meta 这次是在追赶，而且对手是中国公司。 真正新鲜的，是它跑在哪里。 苹果的 M5 Ultra Mac Studio 绝对是本地模型利器｜图片来源：Apple 按 Meta 的说法， 两台顶配 M5 Ultra Mac Studio 就能装下整个模型 。每台 Mac Studio 的 GPU 能直接调用最多 512GB 统一内存，两台连起来约 1TB，在 Apple 的 MLX 框架下像一台小型超算一样协同工作。 这件事放在别的 AI 硬件平台上，几乎不可能放在一张书桌上。 道理不复杂。这类「总参数大、激活参数小」的模型，最需要的是超大的内存容量，对带宽的要求反倒没那么极端。每生成一个 token，模型只需要读取 420 亿参数那一小块，M5 Ultra 每秒 1.2TB 的内存带宽足够应付。 换到 NVIDIA 阵营，一张消费级显卡的显存不过几十 GB，想装下 8000 亿参数，得上 8 卡 H100 级别的服务器，那是机房里的设备，不是桌面上的。 也就是说， 苹果统一内存架构这几年被嘲笑「贵」的那部分，恰好成了跑超大模型的护城河 。 Meta 展示的用例也很有针对性。基于 Muse Spark Open 的编程工具 Muse Code，全程在本地完成了两件事。一件是给开源 Mastodon 客户端 Ice Cubes 提交 iOS 代码修改，另一件是操作 DaVinci Resolve 审看素材，把横屏视频裁成竖屏。 写代码、剪视频，两个都是 Mac 用户最典型的工作场景。 当然，门槛也很现实。 256GB 内存版的 M5 Ultra Mac Studio 起售价已经是 10",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-16T06:41:48+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372458",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "苹果和Meta和好了，是AI逼的",
+   "summary_zh": "Meta发布8160亿参数开放权重模型Muse Spark Open，可在两台M5 Ultra Mac Studio上本地运行，苹果与Meta因AI算力需求从对抗转向合作。",
+   "highlights_zh": [
+    "Muse Spark Open总参数8160亿、激活420亿、支持100万token上下文",
+    "苹果统一内存架构成为本地跑超大模型的护城河，两台Mac Studio约1TB内存",
+    "Meta称其为「美国最强开放权重模型」，但参数规模仍落后于Kimi K2等中国开源模型"
+   ],
+   "why_zh": "揭示苹果统一内存架构在本地大模型推理中的独特优势，以及Meta重回开源牌桌的战略意图。",
+   "tags": [
+    "大模型",
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T09:38:22+00:00",
+   "mirror_pdf": "pdf/web-40e9cdb59ea3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372458"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a72d1e4da6b0",
+   "kind": "article",
+   "title": "Bringing GPT-Rosalind to academic research labs",
+   "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+   "pdf_url": "",
+   "abstract": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-10-15T19:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI向学术实验室开放GPT-Rosalind",
+   "summary_zh": "OpenAI推出Rosalind学术计划，为符合条件的学术实验室提供GPT-Rosalind赞助访问，推动生命科学研究。",
+   "highlights_zh": [
+    "学术实验室可获赞助访问",
+    "面向生命科学领域",
+    "OpenAI官方发布"
+   ],
+   "why_zh": "头部AI公司向学术界开放专用模型，加速科学发现。",
+   "tags": [
+    "科学AI",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 7.0,
+   "score": 0.636,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T09:38:22+00:00",
+   "mirror_pdf": "pdf/web-a72d1e4da6b0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/introducing-the-rosalind-academic-plan"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ba704a091736",
+   "kind": "article",
+   "title": "阶跃星辰开放 Step 5 Preview 权重：长程 Agent 的竞争，延伸到上下文管理与训练系统",
+   "url": "https://www.infoq.cn/article/EwqsJX6f03ODRac6Kk4c?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "李冬梅"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-15T20:09:59+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/EwqsJX6f03ODRac6Kk4c?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "阶跃星辰开源Step 5 Preview权重",
+   "summary_zh": "阶跃星辰开放Step 5 Preview权重，将长程Agent竞争焦点引向上下文管理与训练系统，而非单纯模型规模。",
+   "highlights_zh": [
+    "Step 5 Preview权重对外开放",
+    "长程Agent能力依赖上下文管理",
+    "训练系统成为竞争新维度"
+   ],
+   "why_zh": "了解国产大模型在长程Agent方向的最新布局",
+   "tags": [
+    "大模型",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T09:38:22+00:00",
+   "mirror_pdf": "pdf/web-ba704a091736.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/EwqsJX6f03ODRac6Kk4c?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-17e1090e7ed8",
+   "kind": "article",
+   "title": "Kling 4.0正式上线：10-bit HDR、30秒原生直出 刷新视频模型新基准",
+   "url": "https://www.leiphone.com/category/industrynews/1GERVRJ72xJKmsus.html",
+   "pdf_url": "",
+   "abstract": "10月15日，可灵AI新一代视频生成模型 Kling 4.0 正式上线。 真实、可控、专业，是这一代模型升级的核心方向。Kling 4.0 聚焦高动态、强运镜的视频创作场景，在三个方向实现集中突破：大幅度动态表现更稳定，提升高速运动与复杂运镜的连贯性；单次原生生成最长可达30秒，支持长镜头与连续叙事，导演思维全程在线；全能参考支持最多15项参考素材组合，同时支持最多10张关键帧输入，帮助创作者将一个构思转化为完整作品。 与专业创作者建立深度链接，与其共同完成作品创作，尤其是核心镜头的高质量交付，是可灵模型持续迭代的重要方向。 专业创作者需要的不只是偶然生成惊艳画面，更要稳定完成决定作品品质的关键镜头，并让生成素材进入完整制作流程。可灵AI相信，技术的价值，不只是让内容得以生成，更是让每一帧画面背后的‘用心’能被看见。无论是承载情绪的特写，还是决定整部作品质感的关键画面，每一个倾注心血的镜头，都值得被认真呈现。 能“文”更能“武”，大幅动态与复杂运镜更“稳” 一直以来，可灵AI的“文戏”凭借对人物情感细腻生动的演绎，堪称影视工业级水准。在此基础上，Kling 4.0 重点攻克了AI视频的高频痛点，大幅度动态与复杂运镜表现更加稳定流畅：无论是高速运动、连续动作，还是跟拍、环绕等大幅镜头运动，都能保持画面稳定、过程连贯，再激烈的大场面也能从容驾驭，让AI视频生成真正迈向“生产级交付”。 在视听品质方面，Kling 4.0 支持最高10-bit HDR规格的画面输出，呈现更丰富的色彩层次与更平滑的明暗过渡，在逆光、夜景、霓虹等高反差场景中保留更多高光与暗部细节，为后期调色留出更充足的空间；同时，将支持4K、1080p及21:9超宽画幅，进一步拓展视野与构图空间，带来更具沉浸感与电影感的画面表达。对于用心打磨作品的创作者而言，这些能力并不只是参数升级，而是让关键画面拥有更高完成度与更强审美辨识度的基础。 在镜头调度层面，Kling 4.0将单次原生生成时长提升至最长30秒，支持长镜头与连续叙事，让动作过程、场景变化与情绪铺陈得到完整呈现。对推、拉、摇、移、跟拍、环绕等运镜的理解进一步增强，景别切换与画面转场更加流畅自然。模型同时引入导演思维对提示词进行合理扩展与补充，输入文本长度提升至最高8000 tokens，使创意意图得到更充分、精准的传递。 全能参考灵活组合 15项素材、10张灵活关键帧、续拍最长2分钟 如果将2025年视为视频AI生成元年，2026年则见证着行业的“井喷式”爆发。AI视频生成领域的竞争也从早期的“能否生成”走向“能否稳定、可控地生成”。 Kling 4.0 全新升级的全能参考功能，单次任务支持图片、视频、主体与音色灵活组合，合计最多 15 项；其中图片最多10张、视频最多5段、主体最多7个。多种参考维度协同生效，让角色、动作、镜头与声音的呈现更贴近预期——支持参考主体图、三视图、宫格图、故事板、线框图等多种图片形式，也支持通过视频输入参考角色表演、动作、运镜及叙事节奏，白模视频与深度图视频同样可作为参考素材传入。 创意复刻能力同步升级：支持对参考视频的叙事节奏、镜头编排与表达方式进行借鉴，并可替换其中的商品、角色和素材，帮助创作者将成熟创意快速转化为自己的内容，高效完成商品广告、社媒爆款、服装美妆、数码3C等商业视频创作。 多关键帧精准控制支持最多10张关键帧输入，创作者可自由设定关键画面节点，精准指定人物状态、场景变化与情节节点，让内容按预设方向自然推进。后续，视频续拍功能还将支持多次续拍，最长可延展至2分钟，让动作过程、情绪铺陈",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-16T02:37:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/1GERVRJ72xJKmsus.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "可灵 Kling 4.0 上线：10-bit HDR、30 秒原生直出",
+   "summary_zh": "可灵发布 Kling 4.0 视频生成模型，支持 10-bit HDR、单次原生生成最长 30 秒、最多 15 项参考素材组合，大幅动态与复杂运镜更稳定。",
+   "highlights_zh": [
+    "单次原生生成最长 30 秒，支持长镜头与连续叙事",
+    "支持 10-bit HDR、4K/1080p/21:9 画幅输出",
+    "全能参考支持最多 15 项素材、10 张关键帧输入"
+   ],
+   "why_zh": "视频生成迈向生产级交付，关注 AI 视频商业化进展。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T09:38:22+00:00",
+   "mirror_pdf": "pdf/web-17e1090e7ed8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/1GERVRJ72xJKmsus.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f38d06b91184",
+   "kind": "article",
+   "title": "Linus用Claude Code改Linux内核，大神也没兜住代码里的Bug",
+   "url": "https://www.infoq.cn/article/hRw4BZQQUW14sqYMo5F6?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "Tina"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-16T11:47:14+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/hRw4BZQQUW14sqYMo5F6?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Linus用Claude Code改Linux内核，Bug没兜住",
+   "summary_zh": "Linus用Claude Code修改Linux内核，但代码中仍出现Bug，说明AI编码工具在复杂系统上仍需人工把关。",
+   "highlights_zh": [
+    "Linus亲自用Claude Code修改Linux内核",
+    "AI生成代码仍存在未被发现的Bug",
+    "反映AI编码在复杂系统上的能力边界"
+   ],
+   "why_zh": "了解AI编码工具在顶级工程场景中的真实表现与局限。",
+   "tags": [
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T09:38:22+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/hRw4BZQQUW14sqYMo5F6?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d14058688bb7",
+   "kind": "article",
+   "title": "手机大厂开始做穿戴录音，卷的已经不是转写：OPPO 心力球体验",
+   "url": "http://www.geekpark.net/news/372428",
+   "pdf_url": "",
+   "abstract": "头图来源：极客公园 「24 小时全天候录音硬件」这个概念，放到今天其实已经不太新鲜了。 无论是年初的 CES，再到国内今年数次硬件展、再到一个月前 IFA 上，我都密集看了一圈把麦克风塞进手环、戒指甚至项链里的 AI 穿戴硬件。不管是海外创业团队还是国内硬件老兵，大家都在试着把屏幕拆掉，把麦克风戴到身上。 真正新鲜、也是所有人都还在苦苦寻找答案的问题，是如何把录下来的东西自然地融入你自己的日常工作流。甚至直到 2026 年下半年，Personal AI Agent 这个概念大火之后，这个问题在行业里依然没有一个明确的正确答案。 独立硬件创业公司的做法，往往是再造一个硬件，配一个独立的 App，然后按月收你的云端订阅费。而当 OPPO 这样的手机厂商亲自下场，直接把这枚名叫「OPPO AI 心力球」的小硬件，融入你每天最常用的智能手机里，让它成为手机体验的一部分。 OPPO AI 心力球与收纳盒，主机重量仅 9.8 克｜图片来源：极客公园 这枚在今年 9 月 17 日 OPPO 开发者大会（ODC）上首次亮相的小硬件，拿到手里非常轻巧。主机算上背后的夹持 C 桥一共只有 9.8 克；放进不含电池的随身收纳盒里，整体也才 45 克左右。 你可以像别一枚纽扣一样，顺手把它夹在衣领、口袋边缘或者背包带上。它的夹持力做到了 4N 以上，外层还配了增加摩擦力的硅胶套和 IP55 级防尘防水，日常通勤走动基本感觉不到它的存在。 背面采用一体式 C 桥夹持结构，配合硅胶套增加日常佩戴的摩擦力｜图片来源：极客公园 不用掏手机的「重点键」 过去很多人买过 AI 录音卡或者录音笔，无论产品形态如何，最后十有八九都放在抽屉里吃灰了。 原因很简单：无论是吸在手机上还是挂在身上，每次对话发生之前，你得先完成「记得去把设备打开」这样一套机械性的动作，录完之后它又变成一个个孤立的音频文件，躺在文件夹里没人回头翻。 OPPO 心力球把「开机」这个反人性的动作直接取消了。它采用的是类似智能手机一样的全时工作状态：早上从收纳盒里拿出来戴上，系统自动进入聆听和记录状态；晚上摘下来放回收纳盒，自动停止记录。 满电状态下支持 24 小时连续记录，配合 5 米远距收音和区分佩戴者本人声音的声纹识别，从早到晚完全不需要手动开关。 夹在衣领或口袋上，日常几乎没有佩戴存在感｜图片来源：极客公园 用下来这几天，最让我觉得顺手的体验细节，其实是它在日常碎片时间里接住灵感的方式。 平时工作里，经常有那种灵感突然迸发的瞬间，可能是在开车，甚至是在浴室洗漱。那种时候你的手边根本没有纸和笔，而我甚至连手机都懒得掏出来。 现在有了心力球之后，这件事变得自然了很多：你直接开口说就行，或者伸手长按机身正面的 AI 键 0.5 秒唤醒语音输入，按住说话、松开结束，心力球会顺着当时的语境和语义，自动识别你是在记一条灵感，还是在进行即时问答。 更实用的是，如果你说完之后怕这句话混在一整天的对话里找不着，也完全没关系：说完顺手再短按一下 AI 键（机身上的白色呼吸灯会闪烁两次作为回应），就相当于给刚才那段话打了个重点标记。等忙完手头的事打开手机回顾时，就能在时间线里一眼找到刚才摁下按键的地方。 机身正面设有 AI 键与 AI 隐私灯，短按即可标记当下重点｜图片来源：极客公园 到了正式开会或面对面沟通的场景，聊完之后也不用再去回听录音、逐段摘录。沟通一结束，App 的「今日」页面里就会自动生成结构化摘要，把重要观点和待办事项单独拎出来。 沟通结束后，「今日」页会自动提炼摘要与待办，并高亮显示手动标记的重点｜图片来源：极客公园",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-15T17:08:03+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372428",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OPPO AI心力球体验：全天候录音硬件的下一步",
+   "summary_zh": "OPPO推出9.8克AI心力球穿戴录音硬件，全时自动记录、声纹识别、一键标记重点，探索录音硬件与手机工作流的融合。",
+   "highlights_zh": [
+    "全时工作状态，取出即录、放回即停，满电支持24小时连续记录",
+    "AI键短按标记重点，长按语音输入，自动区分灵感记录与即时问答",
+    "手机厂商下场做穿戴录音，将硬件融入手机生态而非独立App"
+   ],
+   "why_zh": "观察手机厂商如何切入AI穿戴硬件赛道，以及全天候录音如何融入个人AI工作流。",
+   "tags": [
+    "语音",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.528,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T09:38:22+00:00",
+   "mirror_pdf": "pdf/web-d14058688bb7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372428"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7d8be4c569af",
+   "kind": "article",
+   "title": "阿里千问上车宝马iX3",
+   "url": "https://www.leiphone.com/category/industrynews/1zjGZ4srbO3kyVEw.html",
+   "pdf_url": "",
+   "abstract": "10月15日消息，在2026宝马集团中国创新日上，宝马宣布新世代BMW iX3将搭载专为中国市场打造的座舱AI能力。该能力由宝马与阿里巴巴联合开发，以阿里千问大模型为AI底座，并由斑马负责座舱应用与车端集成，融入BMW智能个人助理（BMW Intelligent Personal Assistant）。阿里巴巴集团副总裁、阿里云智能集团CTO李飞飞表示，阿里将从用户场景出发，让新世代宝马智能座舱更加聪明、自然。 目前，阿里已经成为车企的全栈AI技术伙伴。IDC数据显示，2025年下半年，阿里云以42%的份额位居中国汽车公共云IaaS市场第一，并连续五年保持首位。目前，近30家车企和智驾方案商在阿里云开展智驾研发，实际使用PPU超过10万卡。在具体业务中，阿里AI已进入智能座舱、模型训练、软件研发和生产制造等环节。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-16T02:36:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/1zjGZ4srbO3kyVEw.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "阿里千问上车宝马 iX3，联合开发座舱 AI",
+   "summary_zh": "宝马宣布新世代 iX3 将搭载与阿里联合开发的座舱 AI，以千问大模型为底座，由斑马负责车端集成，融入 BMW 智能个人助理。",
+   "highlights_zh": [
+    "宝马与阿里联合开发中国市场专属座舱 AI",
+    "以千问大模型为 AI 底座，斑马负责车端集成",
+    "阿里云以 42% 份额居中国汽车公共云 IaaS 市场第一"
+   ],
+   "why_zh": "大模型上车再落一子，关注车企 AI 合作格局。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T09:38:22+00:00",
+   "mirror_pdf": "pdf/web-7d8be4c569af.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/1zjGZ4srbO3kyVEw.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-18998406857b",
+   "kind": "article",
+   "title": "付费用户占比超 20%，电商商家「涌入」千问办公",
+   "url": "https://www.leiphone.com/category/industrynews/csaOBaiXpZZLOOtp.html",
+   "pdf_url": "",
+   "abstract": "一双鞋还没生产出来，商家刘祥龙已经开始琢磨怎么卖了。 准备开一家3D打印鞋店时，他没有急着打样、拍摄、做详情页，而是先让AI帮忙调研市场、制作数字样品，再把商品图和详情页准备好，看看消费者愿不愿意点击、将其加购。 简单说，就是先让市场“投票”，再决定要不要真的把鞋做出来。 过去，开一家新店，从前期调研到商品准备，通常要花上一个月，前期投入超过1万元。如今有千问办公等AI工具搭把手， 他把准备周期压缩到了7天，相关费用也降到了数百元——主要是Token成本。 这不是刘祥龙第一次把AI用进生意里。 他还经营着一家女鞋店铺，约有430款商品，商家分析工具里的经营数据就有43页。在没有AI之前，运营人员需要手动导出报表，再从访客、转化、加购等指标中寻找值得投入的商品。 如今，这些活他慢慢交给了千问办公，部分重复性的运营工作也跑上了自动化流程。 10月14日，千问办公CEO陈宇森在千问办公电商版发布现场，提到一个数据： 千问办公上线两个多月来，电商是使用最深的行业之一， 在目前的付费用户中占比超过20%。 刘祥龙就是其中的典型用户。从还没生产的3D打印鞋，到日常经营中的女鞋店，他琢磨的都是同一件事：怎么把重复劳动交给AI，少交点试错学费，把时间省下来，花在真正影响生意的判断上。 如今，在千问办公的帮助下，刘祥龙每天只需花2到3小时处理运营工作。 电商最磨人的三件事，AI接手了 和刘祥龙一样，不少商家都有类似的感受：电商经营有不少工作，看起来不复杂，却格外磨人。 第一件让商家头疼的事，就是同时运营多个平台，恨不得一人长出八只手。 捌比特咖啡CEO阚欧礼对此感受颇深。团队的规模并不大，却要兼顾十余个电商平台的运营，压力不小。 要生成一份经营报告，第一个难题就是经营数据分散在不同系统：得先登录后台，导出销售和流量数据，再清洗、汇总、分析。 折腾一圈下来，团队拿到的往往已经不是最新的经营情况了。 接入千问办公后，阚欧礼总算不用再为这事头疼了。 尤其到了“双十一”这种打急战的时候，商家对数据时效的要求更高。这类AI工作台就能快速汇总各店铺经营情况，30分钟生成跨平台经营看板，成为多平台作战的“后盾”。 第二件让商家头疼的事，是要人工时刻“盯梢”，一刻都松不了。 小熊电器的运营小余，每天都要反复查询天猫、京东平台上的商品价格。最让他崩溃的是，查一次就得花15到30分钟，还得把优惠券、平台补贴都算进去，才能得出实际到手价，有时候还会遗漏短期降价、商品下架等变化。要是赶上大促，就得查得更勤。 用上千问办公后，小余轻松了不少。系统每天上午8点半和下午6点自动采集两个平台的商品到手价，生成价格日报并发送到他的邮箱。 这份日报里，自家商品和竞品的价格变化、库存状态、近7天走势、价差都汇总在一起。有异常，他也能及时看到。 第三件让商家头疼的事，是商品素材又多又杂，有时还赶不上旺季。 Sandy做了15年电商运营，目前经营着两家天猫内衣旗舰店，但即便她经验丰富，在商品素材上也吃过不少苦头。 内衣是一个很吃视觉表达的品类。她粗略算了一下，秋冬上新季，除了主图和详情页素材，还得覆盖搜索、推荐、种草这些不同场景，两家店加起来，一个上新季需要的种草图差不多要1万张。 传统人工画图模式下，Sandy经常碰到的一个难题就是“时间差”。 一个设计师一天做100张图，基本已经接近产能上限。1万张素材，差不多要100个工作日，前后要花四五个月。 但时间不等人。用她的话说： “慢，就是要错过整个旺季。” 后来，她把千问办公用了起来：不是只把它当生图工具，而是拿来做任务调度——考虑到大规模生图的成本，就",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-16T02:24:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/csaOBaiXpZZLOOtp.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "千问办公电商版发布，付费用户中电商占比超 20%",
+   "summary_zh": "千问办公发布电商版，CEO 陈宇森披露上线两个多月付费用户中电商行业占比超 20%，商家用其压缩选品、比价、素材制作等重复工作。",
+   "highlights_zh": [
+    "电商在千问办公付费用户中占比超 20%",
+    "商家用 AI 将新店准备周期从一个月压缩到 7 天",
+    "30 分钟生成跨平台经营看板，自动采集竞品价格"
+   ],
+   "why_zh": "观察 AI 办公工具在电商垂直行业的落地深度。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T09:38:22+00:00",
+   "mirror_pdf": "pdf/web-18998406857b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/csaOBaiXpZZLOOtp.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-28713fe206e3",
+   "kind": "article",
+   "title": "全球首发：万拿NOVA21灵巧手，拓展灵巧操作研究边界",
+   "url": "https://www.leiphone.com/category/industrynews/ep1fzlxxZTkWwo67.html",
+   "pdf_url": "",
+   "abstract": "10月15日，在2026香港秋季电子产品展上，万拿机器人全球首发NOVA21灵巧手。面向机器人科研与开发团队，万拿NOVA21采用21自由度全主动旋转直驱设计，集灵巧、力量、精准与触觉感知于一体，为多指协同、物品姿态调整与复杂操作策略研究提供执行与感知能力。 21自由度全主动旋转直驱，支持多指协同 NOVA21采用拟人化布局，整手尺寸为195×105×71mm，接近人手大小。拇指拥有5个主动自由度，其余四指各拥有4个主动自由度。NOVA21的21个主动自由度均采用旋转直驱，支持全手各指的主动控制与姿态调整。 拇指指根旋转、对指、手指侧摆与后仰等动作，丰富了抓握姿态与接触方式，为指尖微操作、多指协同及抓取后的物品姿态调整研究提供了更丰富的动作选择。 有力抓持、精准定位，兼顾力量与分寸 NOVA21单指最大指尖力≥20N，四指最大抓握力≥200N，支持力控与反驱，可用于抓握保持、接触后的力度调节和交互实验，帮助研发团队研究不同任务中力量输出与动作配合的关系。 NOVA21四指弯曲空载角速度为520°/s，指尖重复定位精度为±0.2mm，为连续动作衔接、动作序列调试与重复实验提供性能基础。 0.1N触觉分辨率，为接触控制提供感知依据 NOVA21配置16个力传感器，将指尖、指腹三维触觉与掌心法向力阵列相结合，支持获取不同接触位置的受力信息。 其法向Fz感知范围为0-25N，切向Fxy为±10N，触觉分辨率为0.1N。 研发团队可结合触觉数据、手指动作与任务结果，分析接触力的方向及其变化，对比不同力度调节策略的执行效果，研究接触状态与操作结果之间的关系，为多指协同控制与操作策略优化提供数据依据。 自研核心执行器，支撑整手性能优化 NOVA21以万拿机器人自研直驱旋转执行器为技术底座，围绕整手的运动与受力需求，协同设计微型执行器、机械结构与控制系统，在紧凑布局中兼顾力量输出与动作空间。 NOVA21采用双编码器控制，驱动模组角度重复精度为0.2-0.5°。从核心执行器到整手结构与控制的自主研发，使部件性能与整手需求能够协同优化，为产品持续迭代和任务适配提供基础。 便捷接入，把操作策略带进真机 NOVA21的2Pin接口支持RS485或CAN-FD，4Pin接口支持EtherCAT或TCP/IP，便于对接不同控制系统；同时支持OTA在线升级与快换手腕，方便研发团队完成版本更新和整手安装更换。 作为手部执行端，NOVA21可配合外部遥操作、算法与采集系统，开展动作映射与真机验证。研发团队可通过外部采集系统，记录通信接口提供的状态信息与动作过程，并结合触觉受力数据和任务结果，分析动作执行中的接触变化与策略表现，持续优化动作映射与控制策略。 面向具体任务，开展研发与验证 NOVA21面向科研开发、工业验证与服务探索，支持具体任务中的动作设计、策略研究与适配验证。 科研开发： 聚焦多指协同、物品姿态调整与接触受力，探索不同手指分工、动作组合与力度调节方式，通过真机实验比较操作策略的执行表现。 工业验证： 围绕工具拿取、连接器插接等任务，在具体操作流程中验证抓握方式、接触位置与操作步骤的适配性，为后续应用开发积累实验依据。 服务探索： 围绕不同包装和不同摆放姿态的物品，开展取放、递送与连续动作衔接研究，探索物品差异和姿态变化对操作策略的影响。 NOVA21的发布，进一步丰富了万拿机器人面向科研与开发的灵巧手产品布局，也体现了公司从核心部件研发到整手产品设计的技术协同能力。聚焦具身智能灵巧操作核心能力与产业化解决方案，万拿机器人将持续完善涵盖核心执行器、仿生灵巧手、操作",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-15T10:26:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/ep1fzlxxZTkWwo67.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "万拿机器人全球首发 NOVA21 灵巧手",
+   "summary_zh": "万拿机器人在香港秋季电子展首发 NOVA21 灵巧手，21 自由度全主动旋转直驱，单指指尖力≥20N，触觉分辨率 0.1N，面向科研与工业验证。",
+   "highlights_zh": [
+    "21 自由度全主动旋转直驱，接近人手尺寸",
+    "单指指尖力≥20N，四指抓握力≥200N",
+    "16 个力传感器，触觉分辨率 0.1N"
+   ],
+   "why_zh": "灵巧手硬件进展，关注具身智能执行端能力边界。",
+   "tags": [
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T09:38:22+00:00",
+   "mirror_pdf": "pdf/web-28713fe206e3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/ep1fzlxxZTkWwo67.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8f0877214dd6",
+   "kind": "article",
+   "title": "生产级大模型平台工程实战手册",
+   "url": "https://www.infoq.cn/article/xQLd004RGWrzFhwqBOyC?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Aditya Mulik"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-16T17:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/xQLd004RGWrzFhwqBOyC?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "生产级大模型平台工程实战手册",
+   "summary_zh": "InfoQ译文介绍生产级大模型平台的工程实践，涵盖部署、运维与规模化落地的关键环节。",
+   "highlights_zh": [
+    "面向生产环境的大模型平台工程方法论",
+    "涉及部署、运维与规模化落地要点",
+    "适合平台工程与MLOps从业者参考"
+   ],
+   "why_zh": "做企业级大模型平台建设时可参考其工程经验。",
+   "tags": [
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T09:38:22+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/xQLd004RGWrzFhwqBOyC?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "推理效率成为视频与世界模型竞争的新主战场",
-   "why": "Speculative Forcing 与 Velox 分别从去噪步数和注意力路由切入，用免训练或轻量方式大幅提速且精度近无损。",
+   "trend": "视频生成进入「少步数」竞速，推理效率取代画质成为新战场",
+   "why": "Speculative Forcing 以 1.7 步逼近四步质量，Velox 用空间记忆把注意力提速 4.36 倍，效率优化密集出现。",
    "refs": [
     "arxiv-2610.22347",
     "arxiv-2610.22311"
    ]
   },
   {
-   "trend": "智能体架构从「全交给大模型」转向分层委派",
-   "why": "JevAgentHarness 用小决策模型分担每步多选，4B 模型在陌生任务达 91.5%，直指大 LLM 调用慢且贵。",
+   "trend": "智能体开始「自我训练」，后训练与数据工程被自动化接管",
+   "why": "Athanor 让四智能体 104 小时自主完成后训练，AutoSFT 自动调配 SFT 数据，训练环节正被智能体吃掉。",
    "refs": [
-    "arxiv-2610.21412"
+    "arxiv-2610.21055",
+    "arxiv-2610.22194"
    ]
   },
   {
-   "trend": "端侧与开源多模态模型同步向「可落地」收敛",
-   "why": "Meta 开源前沿多模态 MoE，Liquid AI 推端侧智能体专用模型，模型供给正从拼参数转向拼场景适配。",
+   "trend": "端侧与开源模型双向挤压，前沿能力加速下沉到本地",
+   "why": "英伟达 Bolt 4GB 端侧模型、LFM2.5 端侧智能体、Meta 开源 Muse Spark 同周发布，本地部署门槛骤降。",
    "refs": [
-    "web-9d251ac6836a",
-    "web-cfc3584192a8"
+    "web-2cd92b812c13",
+    "web-cfc3584192a8",
+    "web-9d251ac6836a"
    ]
   },
   {
-   "trend": "超级 App 开始用协议划定 AI Agent 的流量边界",
-   "why": "155 款应用拒绝豆包助手自动化操作，说明 Agent 落地瓶颈已从技术转向平台生态与流量主权博弈。",
+   "trend": "超级 App 集体封堵 AI 自动化，Agent 流量主权之争公开化",
+   "why": "155 款第三方应用明确拒绝豆包手机助手自动化操作，Agent 落地遭遇平台侧硬边界。",
    "refs": [
     "web-600bd37d1857"
    ]
   },
   {
-   "trend": "苹果 AI 入华落定，国产大模型成关键供给方",
-   "why": "库克确认接入阿里千问、百度浮出水面，将直接改写国内 AI 助手的分发与竞争格局。",
+   "trend": "大模型竞争焦点从参数规模转向上下文管理与训练系统",
+   "why": "阶跃开源 Step 5 明确把长程 Agent 竞争引向上下文管理，而非单纯堆规模。",
    "refs": [
-    "web-f587a8b810f8",
-    "web-630d7f5a8140"
+    "web-ba704a091736"
    ]
   }
  ]
