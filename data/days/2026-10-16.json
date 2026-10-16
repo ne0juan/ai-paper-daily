@@ -1279,6 +1279,203 @@
    "mt": false
   },
   {
+   "id": "arxiv-2610.22350",
+   "kind": "paper",
+   "title": "FDE-Gym: The Last Mile of AI Delivery",
+   "url": "https://arxiv.org/abs/2610.22350",
+   "pdf_url": "https://arxiv.org/pdf/2610.22350",
+   "abstract": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark of 95 end-to-end delivery tasks from 20 customer scenarios across 18 sectors, each adapted by industry experts from real-world delivery projects. In simulated customer environments with scripted stakeholders and modifiable customer systems, agents interact with stakeholders and operate on production-like systems to deliver working solutions. FDE-Gym scores a delivery by how much it improves the customer's own success metric, normalized between 0 (unchanged system) and 1 (reference solution), with penalties for stakeholder interactions (messages, trial runs, and waiting time). An online platform lets humans practice FDE skills under the same grading criteria. We evaluate 13 model configurations from seven providers. In the realistic setting, where unstated constraints must be discovered, the best configuration achieves a mean FDE-Gym score of 0.56 and resolves only 14 of the 95 tasks (a score of at least 0.8 with no incident). Discovering unstated constraints is the primary bottleneck: performance drops sharply when models must uncover them without explicit guidance. Yet information discovery alone does not account for the gap: even on the 23 tasks where the best configuration obtains every key fact from stakeholders, it reaches a normalized business uplift of 0.8 or above on only 10. These results reveal a substantial gap between solving well-specified tasks and delivering effective AI systems for real customers.",
+   "authors": [
+    "Dongxu Yang",
+    "Hongda Yan",
+    "Renxin Wang",
+    "Baoli Zhang",
+    "Haojia Zuo",
+    "Ying Zhao",
+    "Youmin Chen",
+    "Xiaojian Liao",
+    "Congming Gao",
+    "Tianyang Jiang",
+    "Yixiao Chen",
+    "Qing Wang",
+    "Zhiguo Yu",
+    "Xiaqing Li",
+    "Yuhao Zhang",
+    "Jiawen Sun",
+    "Renzhe Xu",
+    "De Mi",
+    "Tiancheng Wu",
+    "Xianya Fu",
+    "Xuanlu Zhao",
+    "Bo Feng",
+    "Meixuan Ren",
+    "Guanming Lin",
+    "Ziheng Zhou",
+    "Xinhua Wang"
+   ],
+   "orgs": [
+    "DeepLethe"
+   ],
+   "published": "2026-10-15T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.22350",
+     "signal": "▲ 173",
+     "metric": 173
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "FDE-Gym：AI交付的最后一公里基准",
+   "summary_zh": "新基准用95个真实客户交付任务评测智能体，最佳配置仅解决14/95，发现未明说约束是主要瓶颈。",
+   "highlights_zh": [
+    "覆盖18个行业20个客户场景的端到端交付任务",
+    "按客户成功指标提升打分，并对交互成本惩罚",
+    "13个模型配置中最佳仅得0.56分，暴露真实交付差距"
+   ],
+   "why_zh": "揭示智能体从跑分到真实交付之间的巨大鸿沟，值得做Agent落地的人参考。",
+   "tags": [
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.68,
+   "score_llm": 8.0,
+   "score": 0.752,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T15:20:25+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.22350.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.22350"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.22350"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.22350"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.22350"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.22350"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.22350"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/deeplethe/fde-gym"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.22200",
+   "kind": "paper",
+   "title": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
+   "url": "https://arxiv.org/abs/2610.22200",
+   "pdf_url": "https://arxiv.org/pdf/2610.22200",
+   "abstract": "Computer use has reached a turning point: the focus is expanding from GUI-only interaction to systems that complete tasks on users' computers through visual and programmatic interfaces. We define a generalist computer-use agent (GCUA) as a system in which the model chooses how to observe, act, and organize its work across visual and programmatic interfaces. Yet frontier implementations, such as GPT-6 Astra's computer-use system, remain largely closed, limiting systematic study of their design. We introduce Open Generalist CUA (OpenGCUA), an ongoing project to develop and open the full stack for GCUAs with the community. This report presents the first release of OpenGCUA. Code execution is a key feature of our agent design: it lets intermediate results determine subsequent operations and enables models to apply their existing programming capabilities directly to computer interaction. We also propose harness-to-model decision transfer, moving selected observations and task-state decisions from fixed harness rules to the model. On OSWorld-v2, our full configuration improves task scores across all eight evaluated models, including GPT-6 Astra and Claude Opus 5, raising mean partial score by +19.6 points and reducing reported steps per task by an average of 53.0% relative to batched GUI-only execution. We release our implementation and prompts, evaluation trajectories from all eight models, and preliminary versions of a real-device harness and a cross-device SDK. The harness addresses real-device challenges not fully captured by benchmarks, while the SDK provides a common programming interface across computers, mobiles and browsers. Across four real macOS tasks under our real-device harness, selected Qwen3.8-Max runs use 19.4 times as many reported reasoning tokens as GPT-6 Astra, highlighting substantial differences between models in real-device execution efficiency.",
+   "authors": [
+    "Hanzhang Zhou",
+    "Long Li",
+    "Quyu Kong",
+    "Lei Wang",
+    "Panrong Tong",
+    "Long Chen",
+    "Tianyu Xia",
+    "Gongjie Zhang",
+    "Xu Zhang",
+    "Chen Liu",
+    "Jianan Zhang",
+    "Chenglin Cai",
+    "Zhengwen Zeng",
+    "Steven Hoi",
+    "Yue Wang"
+   ],
+   "orgs": [
+    "Tongyi-MAI"
+   ],
+   "published": "2026-10-15T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.22200",
+     "signal": "▲ 166",
+     "metric": 166
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenGCUA：通用计算机使用智能体全栈开源",
+   "summary_zh": "通义开源通用计算机使用智能体全栈，用代码执行替代纯GUI操作，OSWorld-v2平均分提升19.6分、步数减少53%。",
+   "highlights_zh": [
+    "定义GCUA：模型自主选择视觉或程序化接口观察与行动",
+    "提出harness-to-model决策迁移，把固定规则交给模型",
+    "在8个模型上均提升，含GPT-6 Astra与Claude Opus 5"
+   ],
+   "why_zh": "对标闭源前沿CUA系统，开源全栈让计算机使用智能体设计可被系统研究。",
+   "tags": [
+    "智能体",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.68,
+   "score_llm": 8.0,
+   "score": 0.752,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T15:20:25+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.22200.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.22200"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.22200"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.22200"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.22200"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.22200"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.22200"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/Tongyi-MAI/OpenGCUA"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-483d6307e687",
    "kind": "article",
    "title": "[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
@@ -1413,6 +1610,150 @@
     {
      "label": "GitHub",
      "url": "https://github.com/hhhbxloveai/WaypointOPD"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6fe1dfc2efb3",
+   "kind": "article",
+   "title": "推翻一切！Nick Cammarata 万字长文宣告，AI 不是黑箱，99% 神经元清晰可见",
+   "url": "https://www.leiphone.com/category/yanxishe/Vr0JmbkUeZV5D9Qz.html",
+   "pdf_url": "",
+   "abstract": "亲手推翻自己十年前的结论，可解释性大佬 Nick Cammarata 这次读懂 AI 脑回路。 作者丨高允毅 编辑丨岑 峰 “大模型把猫和汽车分为一类，不是弱智。” 在 AI 可解释性领域，有一个十年的经典案例，是 InceptionV1 模型里编号 4e:55 的神经元 。这个神经元在看到“猫脸”和“汽车车头”时，都会被强烈激活。这意味着， 整个神经网络的底层逻辑是不可解释的 。 于是整整十年，整个领域都沿着 “拆” 的思路往前走：既然网络是一团乱麻的黑盒，那就发明工具把它拆开。稀疏自编码器（SAE）分解、特征字典、特征解缠…… 都是先把纠缠的特征拆成一个个独立的、人类能懂的单元，再去理解。 就在昨天， OpenAI早期机制可解释性研究的科学家，也是当年将该案例推向经典的《Zoom In》的共同作者，Nick Cammarata ，亲自推翻了自己当年所下的结论。 “这个神经元根本不认识猫，也不认识车。它检测的是V 字几何形状，不管是狐狸的尖脸、喷射的火焰，都会激活它的正极；而它的负极，是圆形的东西。” 他直言，这个误判的根源，或许是当年的观测工具太低级。 2023 年他在 OpenAI 做第一个大规模自动化神经元解释项目，用现有工具只能解释大约 2% 的神经元。结果三年后，当他带着更先进的算法和 Agent 团队重新研究，发现情况完全不同。 在他们测试的现代视觉模型中，最后一层99%～100%的神经元都能找到相当清晰的解释。就连当年以 “深层混乱” 著称的 InceptionV1 本身，用新工具重新观测，可解释率大幅提升。 因此，Nick Cammarata 发表了一篇需要阅读 65 分钟的长文 《Neural Networks Are Already Clean》 ，并提出了一个惊人之论： 神经网络本身，远比我们想象的要 “干净” 。 这里的 “干净”，不是指“一个神经元只干一件事”，而是说网络内部有着极其连贯、精妙、且完全可以被人类直接阅读的组织结构。它就像一个规整的地图，想看细节就 “双击放大” 。 对此，OpenAI 核心研究员 roon 直接转发并惊呼，这是 “科学史上的重要时刻”，“我们终于可以把 AI 对齐，变成一门‘常规科学’了”。 毕竟，这篇文章一旦成立，等于把过去十年可解释性研究的核心焦虑推翻了。AI 圈过去几年，花大力气搞的稀疏自编码器（SAE）分解、特征字典、特征解缠，可能都走错了路。 或许，可解释性领域也可以用“The Bitter Lesson”来解决，即简单即高效。 01 十年共识的诞生与反转 为什么人们会认为“AI 的大脑”是一团乱麻呢？这一切要从 2014 年的 InceptionV1 视觉模型说起。 作为可解释性研究早期的 “模型生物”，研究者发现，模型的表层神经元还算清晰，但越往深层走，越像一团乱麻。当时人们估计，最后一层能被人类看懂的神经元，学界认为只有区区 5%。 其中最出名的，是 4e:55 的神经元，它让两个八竿子打不着的东西共用一个神经元，怎么看都违背“一个神经元对应一个概念”的朴素预期。 为了解释这种现象，学术界提出了一个核心理论 “叠加假说”（Superposition）。他们认为，当神经元数量不够用时，AI 就会偷偷切换学习策略，把互不相关的概念“折叠”进同一个神经元里。因为它们很少同时激活，所以不会互相干扰。 2020 年，Cammarata 与 Chris Olah 在里程碑级论文《Zoom In》中又给出了更具象的证据：网络竟然把汽车的特征信号藏进了一组“狗神经元”中，这更加实锤了叠加",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-16T11:33:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/yanxishe/Vr0JmbkUeZV5D9Qz.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "可解释性大佬推翻十年结论：神经网络远比想象中干净",
+   "summary_zh": "Nick Cammarata发表长文推翻自己十年前关于神经元不可解释的经典结论，指出现代视觉模型最后一层99%-100%神经元可被清晰解释，过去十年SAE分解等路线可能走错了方向。",
+   "highlights_zh": [
+    "经典案例4e:55神经元并非识别猫和车，而是检测V字几何形状，此前误判源于观测工具太低级",
+    "2023年用旧工具仅能解释约2%神经元，新算法和Agent团队重新研究后可解释率提升至99%-100%",
+    "OpenAI核心研究员roon称这是科学史上的重要时刻，AI对齐有望成为常规科学"
+   ],
+   "why_zh": "可能颠覆可解释性领域十年研究范式，直接影响AI对齐与安全的技术路线选择。",
+   "tags": [
+    "对齐与安全",
+    "理论",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 9.0,
+   "score": 0.692,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T15:20:25+00:00",
+   "mirror_pdf": "pdf/web-6fe1dfc2efb3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/yanxishe/Vr0JmbkUeZV5D9Qz.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.22276",
+   "kind": "paper",
+   "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+   "url": "https://arxiv.org/abs/2610.22276",
+   "pdf_url": "https://arxiv.org/pdf/2610.22276",
+   "abstract": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few options, a scalar, or a 2D point. In light of this, we introduce MJev-Spatial, a System 1 multimodal decision model that tackles all three types of spatial understanding tasks within a unified classification framework. Specifically, MJev-Spatial treats each candidate as a class and scores it using the backbone's pretrained query and key projections, without adding parameters. The candidates are the given options for choice tasks, or value bins and image regions refined through coarse-to-fine classification for numerical and point prediction, respectively. At inference, each classification decision takes a single forward pass and generates no answer tokens. To train on heterogeneous spatial data efficiently, we supervise all coarse-to-fine stages jointly with teacher forcing in one forward pass, and combine this with length-aware global batching and cross-GPU load balancing, raising training throughput by 30.8% over the original batching strategy. Built on Qwen3.5-4B and trained on 12.3M question-answer pairs converted from existing spatial datasets, MJev-Spatial achieves the highest overall score (65.64%) among eight tested models, ranks first on seven of twelve benchmarks, and outperforms its unmodified autoregressive base model on all twelve, while running 2.5 times faster than the fastest autoregressive baseline and 5.6 times faster than the base model.",
+   "authors": [
+    "Luozheng Qin",
+    "Yuhan Zhu",
+    "Changhai Zhou",
+    "Qian Qiao",
+    "Jun Gao",
+    "Yuhua Zhou",
+    "Harry Zhang",
+    "Xiangyu Zeng",
+    "Yuxuan Liu",
+    "Kaijie Chen",
+    "Andrew Chen",
+    "Pony Ma"
+   ],
+   "orgs": [
+    "Mind Lab"
+   ],
+   "published": "2026-10-15T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.22276",
+     "signal": "▲ 136",
+     "metric": 136
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "MJev-Spatial：原生注意力匹配的空间智能",
+   "summary_zh": "把空间判断统一为分类任务，用预训练注意力打分、单次前向出结果，无需生成token，训练吞吐提升30.8%。",
+   "highlights_zh": [
+    "选择、数值、点位三类空间任务统一为分类框架",
+    "复用Qwen3.5-4B的query/key投影，不增参数",
+    "粗到细分类配合长度感知批处理与跨GPU负载均衡"
+   ],
+   "why_zh": "为机器人等需实时响应的空间推理提供低延迟替代方案。",
+   "tags": [
+    "视觉",
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.6742,
+   "score_llm": 7.0,
+   "score": 0.6897,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T15:20:25+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.22276.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.22276"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.22276"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.22276"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.22276"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.22276"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.22276"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/Fr0zenCrane/MJev-Spatial"
     }
    ],
    "mt": false
@@ -1833,6 +2174,60 @@
    "mt": false
   },
   {
+   "id": "web-a4821657039f",
+   "kind": "article",
+   "title": "Monthly Roundup #47: October 2026",
+   "url": "https://thezvi.wordpress.com/2026/10/16/monthly-roundup-47-october-2026/",
+   "pdf_url": "",
+   "abstract": "AI might not yet be eating the physical world. AI is still eating the world of news, and I am finding less and less opportunity to post about other things. My backlog of items grows across most of my secondary … Continue reading →",
+   "authors": [
+    "TheZvi"
+   ],
+   "orgs": [
+    "Zvi Mowshowitz"
+   ],
+   "published": "2026-10-16T13:54:50+00:00",
+   "sources": [
+    {
+     "name": "Zvi Mowshowitz",
+     "authority": 0.75,
+     "url": "https://thezvi.wordpress.com/2026/10/16/monthly-roundup-47-october-2026/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 趋势评论员，每周 AI 综述",
+   "title_zh": "Zvi月度综述#47：2026年10月",
+   "summary_zh": "Zvi Mowshowitz认为AI尚未吞噬物理世界，但已几乎占据全部新闻注意力，其个人待办积压持续增长，反映AI行业信息密度已达空前水平。",
+   "highlights_zh": [
+    "AI正在吞噬新闻领域，其他话题被边缘化",
+    "AI尚未大规模改变物理世界",
+    "月度综述覆盖AI行业多维度动态"
+   ],
+   "why_zh": "Zvi是AI趋势领域最勤奋的评论员之一，月度综述适合快速把握行业全貌。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T15:20:25+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://thezvi.wordpress.com/2026/10/16/monthly-roundup-47-october-2026/"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-a72d1e4da6b0",
    "kind": "article",
    "title": "Bringing GPT-Rosalind to academic research labs",
@@ -1941,6 +2336,164 @@
    "mt": false
   },
   {
+   "id": "web-1d4cff712a9a",
+   "kind": "article",
+   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+   "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+   "pdf_url": "",
+   "abstract": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+   "authors": [],
+   "orgs": [
+    "Google DeepMind"
+   ],
+   "published": "2026-10-15T16:08:03+00:00",
+   "sources": [
+    {
+     "name": "Google DeepMind",
+     "authority": 0.85,
+     "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Google DeepMind 用 Antigravity 加速抗菌肽发现",
+   "summary_zh": "Google DeepMind 利用 Antigravity for Science 加速新型抗菌肽的搜索，推动 AI 在药物发现中的应用。",
+   "highlights_zh": [
+    "AI 加速抗菌肽发现",
+    "DeepMind 科学 AI 工具",
+    "潜在药物研发突破"
+   ],
+   "why_zh": "体现 AI for Science 在生物医药领域的前沿进展。",
+   "tags": [
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.52,
+   "score_llm": 7.0,
+   "score": 0.628,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T15:20:25+00:00",
+   "mirror_pdf": "pdf/web-1d4cff712a9a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-849b423196d1",
+   "kind": "article",
+   "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+   "url": "https://huggingface.co/blog/reflection-beam",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-10-16T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/reflection-beam",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Beam：可自持定制的 501B 开源模型",
+   "summary_zh": "Hugging Face 上线 Beam，一个 501B 参数开源模型，支持用户自行拥有、定制与扩展。",
+   "highlights_zh": [
+    "501B 参数级开源大模型",
+    "强调可拥有与可定制",
+    "面向规模化部署"
+   ],
+   "why_zh": "关注开源大模型规模与可定制化趋势。",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 7.0,
+   "score": 0.612,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T15:20:25+00:00",
+   "mirror_pdf": "pdf/web-849b423196d1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/reflection-beam"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3413707e4dc1",
+   "kind": "article",
+   "title": "The Beauty of Something Grown",
+   "url": "https://www.hyperdimensional.co/p/the-beauty-of-something-grown",
+   "pdf_url": "",
+   "abstract": "On Mechanistic Interpretability",
+   "authors": [
+    "Dean W. Ball"
+   ],
+   "orgs": [
+    "Dean Ball"
+   ],
+   "published": "2026-10-16T15:06:01+00:00",
+   "sources": [
+    {
+     "name": "Dean Ball",
+     "authority": 0.75,
+     "url": "https://www.hyperdimensional.co/p/the-beauty-of-something-grown",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 政策研究者",
+   "title_zh": "生长之物的美：论机制可解释性",
+   "summary_zh": "Dean Ball从机制可解释性角度撰文，探讨AI系统内部机制的理解与美学，属于AI政策研究者对可解释性研究的哲学思考。",
+   "highlights_zh": [
+    "从机制可解释性切入讨论AI系统理解",
+    "AI政策研究者视角的跨学科思考"
+   ],
+   "why_zh": "机制可解释性是AI安全的核心议题，本文提供政策研究者视角的思考。",
+   "tags": [
+    "对齐与安全",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 6.0,
+   "score": 0.58,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T15:20:25+00:00",
+   "mirror_pdf": "pdf/web-3413707e4dc1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.hyperdimensional.co/p/the-beauty-of-something-grown"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-17e1090e7ed8",
    "kind": "article",
    "title": "Kling 4.0正式上线：10-bit HDR、30秒原生直出 刷新视频模型新基准",
@@ -2043,6 +2596,277 @@
     {
      "label": "原文",
      "url": "https://www.infoq.cn/article/hRw4BZQQUW14sqYMo5F6?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-40e7908f98eb",
+   "kind": "article",
+   "title": "AI 生成的代码，怎么才能进得了工程体系？",
+   "url": "https://www.infoq.cn/article/8iKz8xNQvxDfeuxH1QLA?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "于曦"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-16T16:56:30+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/8iKz8xNQvxDfeuxH1QLA?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI 生成的代码如何融入工程体系？",
+   "summary_zh": "InfoQ 文章探讨 AI 生成代码进入正式工程体系所面临的流程、质量与协作挑战，梳理落地路径。",
+   "highlights_zh": [
+    "聚焦 AI 代码进入工程体系的障碍",
+    "涉及流程、质量与协作层面",
+    "面向工程团队的落地思考"
+   ],
+   "why_zh": "正在把 AI 编码引入团队流程的工程负责人可参考。",
+   "tags": [
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T15:20:25+00:00",
+   "mirror_pdf": "pdf/web-40e7908f98eb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/8iKz8xNQvxDfeuxH1QLA?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ac29859f4d7c",
+   "kind": "article",
+   "title": "AI 写完代码，谁来验证？手淘 TEKO “写—验—修”自主闭环的工程实践｜QCon上海",
+   "url": "https://www.infoq.cn/article/t3XbHewuN37fsodaprUC?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "QCon全球软件开发大会"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-16T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/t3XbHewuN37fsodaprUC?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "手淘 TEKO：AI 写码后的“写—验—修”闭环实践",
+   "summary_zh": "手淘 TEKO 分享 AI 生成代码后的验证难题，提出“写—验—修”自主闭环工程实践，解决谁来验证 AI 代码的问题。",
+   "highlights_zh": [
+    "针对 AI 写码后的验证痛点",
+    "提出写—验—修自主闭环",
+    "来自手淘的工程落地经验"
+   ],
+   "why_zh": "关心 AI 编码质量闭环与自动化验证的团队值得参考。",
+   "tags": [
+    "代码",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T15:20:25+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/t3XbHewuN37fsodaprUC?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a300731d2a28",
+   "kind": "article",
+   "title": "微软一口气致谢 23 个漏洞，背后是智谱 GLM 和一位顶级“白帽”",
+   "url": "https://www.infoq.cn/article/JZZ6JSvRBq3R579uy8V3?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "凌敏"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-15T17:50:22+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/JZZ6JSvRBq3R579uy8V3?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "微软致谢 23 个漏洞，智谱 GLM 与白帽立功",
+   "summary_zh": "微软一次性致谢 23 个安全漏洞，其中智谱 GLM 模型与一位顶级白帽参与发现，显示大模型在漏洞挖掘上的实战价值。",
+   "highlights_zh": [
+    "微软致谢 23 个漏洞",
+    "智谱 GLM 参与漏洞发现",
+    "大模型用于安全攻防的实战案例"
+   ],
+   "why_zh": "关注大模型在安全攻防落地价值的读者可读。",
+   "tags": [
+    "对齐与安全",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T15:20:25+00:00",
+   "mirror_pdf": "pdf/web-a300731d2a28.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/JZZ6JSvRBq3R579uy8V3?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-426eaf8a79e1",
+   "kind": "article",
+   "title": "长鑫科技 2026 年前三季度预计归母净利润 1310~1325 亿元，同比扭亏为盈",
+   "url": "https://www.ithome.com/1/014/168.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 16 日消息，长鑫科技今日发布 2026 年前三季度（2026 年 1 月～2026 年 9 月）业绩预告报告： 营业总收入 ：2650 亿元 ~2700 亿元，同比预增 725.96%~741.54% 归母净利润 ：1310 亿元 ~1325 亿元，同比扭亏为盈 AI 解读 本次业绩预告大幅超出市场预期，业绩实现爆发式增长。 公司主营业务与财报亮点 长鑫科技主要从事 DRAM 存储芯片的研发、生产和销售，是国内 DRAM 行业核心企业。 本次 2026 年前三季度预计实现营业收入 2650 亿元至 2700 亿元，同比上年增加 2329.16 亿元至 2379.16 亿元；预计归属于上市公司股东的净利润 1310 亿元至 1325 亿元，同比上年增加 1362.8 亿元至 1377.8 亿元，去年同期归母净利润为净亏损 52.8 亿元。 业绩增长核心原因 2025 年下半年以来 AI 算力需求快速增长，全球 DRAM 行业景气度大幅提升，产品供不应求、价格大幅上涨；公司稳步推进产能建设、产品研发和工艺技术提升，单位晶圆产出和产能利用率持续提高，规模效应逐步显现；同时公司优化运营管理、拓展市场，深化产业链上下游协同，推动业务规模快速扩张，推动整体业绩显著提升。 风险提示与说明 本次业绩预告为财务部门初步测算结果，尚未经注册会计师审计，具体准确财务数据请以公司正式披露的 2026 年第三季度报告为准，投资者请注意投资风险。 相关阅读： 《 德明利 2026 年前三季度预计归母净利润 86.5~89.5 亿元，预计同比增长 32046.52%~33154.49% 》 《 沐曦股份 2026 年三季度归母净利润 5.87 亿元 ~7.17 亿元，同比扭亏为盈 》 《 海光信息 2026 年三季度归母净利润 27.1~29.8 亿元，预计同比增长 38.16%~51.93% 》 《 中科曙光 2026 年三季度归母净利润 17.24 亿元，同比增长 78.48% 》 《 江波龙 2026 年三季度归母净利润 140~149 亿元，预计同比增长 1864.55%~1990.84% 》 《 长鑫科技 2026 年上半年归母净利润 776.05 亿元，同比扭亏为盈 》 风险提示： 本文内容由 AI 自动分析生成，仅供参考，不代表IT之家观点。如有出入请以证监会指定上市公司信息披露平台为准。本文内容不构成投资建议，如有投资者据此操作，风险自担，IT之家对此不承担任何责任。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-16T13:43:35+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/014/168.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "长鑫科技前三季度净利超1300亿，AI算力拉动DRAM暴涨",
+   "summary_zh": "长鑫科技预告2026年前三季度营收2650~2700亿元、归母净利1310~1325亿元，同比扭亏，主因AI算力需求推升DRAM量价齐升。",
+   "highlights_zh": [
+    "营收同比预增约726%~742%，净利由去年同期亏损52.8亿元转为盈利超1300亿元",
+    "核心驱动是2025下半年起AI算力需求爆发，全球DRAM供不应求、价格大涨",
+    "国产存储龙头规模效应显现，产能利用率与单位晶圆产出持续提升"
+   ],
+   "why_zh": "国产存储芯片景气度与AI算力需求联动的最直接财务信号。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T15:20:25+00:00",
+   "mirror_pdf": "pdf/web-426eaf8a79e1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/014/168.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-44a7bb0e75f1",
+   "kind": "article",
+   "title": "三星携手 Reality Defender，面向新加坡企业用户开发端侧 AI 深度伪造检测方案",
+   "url": "https://www.ithome.com/1/014/144.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 16 日消息，三星宣布联合深度伪造检测公司 Reality Defender 合作，开发面向企业用户的端侧 AI 深度伪造检测方案。该方案将直接在三星 Galaxy 设备上运行，帮助企业识别 AI 生成的虚假语音、视频和图像，降低冒充诈骗及其他相关风险，计划率先落地新加坡市场。 IT之家获悉，Reality Defender 专注于企业级深度伪造检测，利用多种 AI 模型实时分析语音、视频和图像内容。例如，该技术能够在实时通话中识别冒充他人的合成语音，也可用于客户身份识别和新用户注册审核，帮助企业发现可疑的虚假内容。 Reality Defender 表示，随着生成式 AI 技术的发展，利用合成语音和视频实施诈骗的情况日益受到关注。有调查显示，2024 年新加坡有 56% 的企业曾遭遇音频深度伪造诈骗，另有 52% 的企业遇到过视频深度伪造相关事件。 个人用户同样面临此类诈骗带来的经济损失。数据显示，2025 年，新加坡受冒充政府官员诈骗影响的受害者至少损失 2.429 亿新元），占当地全年诈骗总损失的 26.6%。 三星电子新加坡公司综合业务部门总监兼负责人 Timothy Tan 表示，三星希望通过此次合作，帮助企业更早发现潜在威胁，双方计划开发实用的端侧深度伪造检测方案，在相关数据需要上传至云端处理之前，就能识别潜在风险。 此次合作的一大重点是将检测过程放在 Galaxy 设备本地完成。与依赖云端分析的方案相比，这种方式有望减少敏感数据向外部服务器传输的需求，从而降低数据泄露风险。三星还计划借助 Knox 安全平台，为相关功能提供保护。Knox 覆盖从芯片底层到应用层的多个安全环节。 目前，三星尚未公布这套方案的具体上线时间，也没有透露哪些 Galaxy 机型将获得支持。目前来看相应项目主要面向新加坡企业用户，未来有望率先帮助当地企业避免 AI 诈骗风险。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-16T11:58:14+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/014/144.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "三星联手Reality Defender推端侧深度伪造检测",
+   "summary_zh": "三星与Reality Defender合作开发端侧AI深度伪造检测方案，在Galaxy设备本地识别合成语音、视频和图像，率先落地新加坡企业市场。",
+   "highlights_zh": [
+    "检测在设备本地完成，减少敏感数据上传云端的泄露风险",
+    "依托三星Knox安全平台，覆盖芯片底层到应用层",
+    "新加坡2024年56%企业遭遇音频深伪诈骗，需求真实"
+   ],
+   "why_zh": "端侧AI安全落地的代表性案例，反映深伪检测从云端走向终端。",
+   "tags": [
+    "对齐与安全",
+    "语音",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T15:20:25+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/014/144.htm"
     }
    ],
    "mt": false
@@ -2311,46 +3135,379 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-59a98c0fa3b0",
+   "kind": "article",
+   "title": "JAECOO × Momenta完成首个无接管凯旋门智驾挑战，联合征服巴黎“最难魔鬼环岛”",
+   "url": "https://www.leiphone.com/category/industrynews/LDt2TEiUf3wgi2Os.html",
+   "pdf_url": "",
+   "abstract": "当地时间10月12日，巴黎车展期间，JAECOO与Momenta共同完成首个无接管的凯旋门智驾挑战。奇瑞欧洲（德国）研发中心总经理侯小红、奇瑞欧洲（德国）研发中心CTO Peter Matkin与Momenta全球解决方案首席架构师饶庆，乘坐搭载Momenta R7世界模型的JAECOO 7测试车，挑战凯旋门“全球最魔鬼环岛”，展示双方共同打造的欧洲智驾体验。 挑战“全球最魔鬼环岛”，迎战智驾“最难考题” 智驾 路线 从拉德芳斯出发，跨越塞纳河，途经塞纳河畔讷伊，进入凯旋门环岛及周边街区，全程约11.38公里。沿途覆盖 无标线道路、12个环岛出口、反常规的“右方优先”、多方向车流汇入、施工绕行，以及行人、骑行者交互 等复杂场景。 其中，凯旋门环岛汇集12条大道，路面没有清晰的车道标线。与常见环岛不同，环岛内车辆还须让行右侧驶入的车辆。周围车流交错，通行空间不断变化，车辆需要准确判断让行与通行时机，并选择通往目标出口的路径。 面对这一挑战 ， JAECOO 7 与Momenta 从容让行、灵活择路，从汇入到驶出，整段通行丝滑流畅，展现出媲美欧洲老司机的驾驶表现 。 进入周边街区后，车辆在施工绕行、窄路通行及与行人、骑行者交互时，转向、减速和避让动作自然平顺，让技术能力转化为可感知的轻松体验。 从欧洲热销到智能体验进阶，JAECOO 7拓展出行体验 此次智驾展示，正值JAECOO 品牌 在欧洲市场持续展现强劲发展势头之际 。今年4月正式进入法国市场以来，仅半年时间，9月新车注册量已达到2,589辆，市场份额升至1.6%。同月，JAECOO 7登顶英国全市场车型销量榜首，展现出欧洲消费者对JAECOO产品的认可。 市场热销的背后，是 OMODA & JAECOO 对新精英用户需求的持续洞察。面向追求品质、注重驾驶体验、热爱户外探索的新精英人群，JAECOO 7融合精致越野的设计格调与高品质驾乘体验，SHS超级混动更兼顾性能与效率，满足用户对高品质出行到精致户外生活的多元需求。随着未来智能驾驶技术的引入，JAECOO 7将进一步拓展智能化产品价值，让精致与从容延伸至每一次驾驶体验。 “我们希望JAECOO 7不仅能陪伴用户探索更广阔的生活，也能在日常驾驶中带来更自然、更从容的体验。”侯小红表示。目前， OMODA & JAECOO 在西班牙、法国、德国设有研发中心，英国研发中心计划于2026年秋末启用，持续围绕欧洲用户需求开展本地化研发。此次与Momenta合作，正是希望将前沿高阶智驾技术与欧洲道路环境、驾驶习惯相结合，持续打磨更贴近当地用户的智能辅助驾驶体验。搭载Momenta R7世界模型的JAECOO 7目前仍处于测试验证阶段，未来将正式与欧洲用户见面。 从“看见世界”到“理解世界”，打造最懂欧洲的智驾 适配欧洲道路，关键在于理解交规与真实交通互动。Momenta R7世界模型通过海量真实驾驶数据学习物理规律、常识与因果关系，提升环境理解、预测和规划能力，支撑更强的交互博弈、更智能的选道及复杂空间中的灵活通行。 世界模型提供理解与推演的基础，本地化积累则让驾驶方式更贴近欧洲。依托多年欧洲研发与道路测试经验，Momenta通过本地数据等积累的先发优势，持续适配当地交规、交通环境与驾驶习惯。从懂技术、懂法规，到懂交通、懂用户，Momenta正将“最懂欧洲的智驾”落实到具体的驾驶判断与体验中。此次巴黎无接管智驾挑战，呈现了 OMODA & JAECOO整车开发与欧洲市场经验同Momenta算法及本地适配能力的结合。未来，双方将继续通过测试验证与体验反馈打",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-16T12:17:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/LDt2TEiUf3wgi2Os.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Momenta与JAECOO完成巴黎凯旋门无接管智驾挑战",
+   "summary_zh": "Momenta与奇瑞JAECOO在巴黎完成11.38公里无接管智驾挑战，穿越凯旋门12出口魔鬼环岛，搭载Momenta R7世界模型，展示欧洲本地化智驾能力。",
+   "highlights_zh": [
+    "全程11.38公里无接管，覆盖无标线道路、12出口环岛、右方优先等欧洲复杂场景",
+    "Momenta R7世界模型通过真实驾驶数据学习物理规律与因果关系，强化交互博弈与选道能力",
+    "JAECOO 7在欧洲市场表现强劲，9月法国注册量2589辆，英国登顶全市场车型销量榜首"
+   ],
+   "why_zh": "了解中国智驾方案出海欧洲的本地化挑战与Momenta世界模型的实际落地进展。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T15:20:25+00:00",
+   "mirror_pdf": "pdf/web-59a98c0fa3b0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/LDt2TEiUf3wgi2Os.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-080930f1b334",
+   "kind": "article",
+   "title": "拍照和翻译救不了AI眼镜？千问2218元起推新硬件，要抢现实世界里的上下文",
+   "url": "https://www.infoq.cn/article/wMMAbsA4UOtYlAl1fH4T?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "青和"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-15T23:06:01+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/wMMAbsA4UOtYlAl1fH4T?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "千问推 2218 元起 AI 眼镜，抢现实上下文",
+   "summary_zh": "千问发布 2218 元起的 AI 眼镜新品，主张拍照翻译之外，核心是抢占现实世界中的上下文入口。",
+   "highlights_zh": [
+    "千问推出 2218 元起 AI 眼镜",
+    "主打现实世界上下文获取",
+    "对拍照翻译路线的反思"
+   ],
+   "why_zh": "关注 AI 硬件与上下文入口之争的读者可浏览。",
+   "tags": [
+    "产品与行业",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T15:20:25+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/wMMAbsA4UOtYlAl1fH4T?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ce0d51b3291c",
+   "kind": "article",
+   "title": "Muse能带火国内个人AI智能体吗？",
+   "url": "https://www.tmtpost.com/8171318.html",
+   "pdf_url": "",
+   "abstract": "穿不透的墙太多了。",
+   "authors": [
+    "海克财经"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-16T09:33:28+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8171318.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Muse能否带火国内个人AI智能体？",
+   "summary_zh": "钛媒体海克财经分析Muse对国内个人AI智能体市场的带动效应，认为国内发展面临多重障碍。",
+   "highlights_zh": [
+    "Muse引发国内个人Agent关注",
+    "国内落地面临生态与政策壁垒",
+    "个人Agent赛道热度与挑战并存"
+   ],
+   "why_zh": "理解国内个人AI智能体赛道的机遇与结构性障碍。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T15:20:25+00:00",
+   "mirror_pdf": "pdf/web-ce0d51b3291c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8171318.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e430ced2b006",
+   "kind": "article",
+   "title": "硅谷AI杀疯了，DeepSeek们的性价比还剩多少？",
+   "url": "https://www.tmtpost.com/8170871.html",
+   "pdf_url": "",
+   "abstract": "硅谷羊毛薅爽了，国产大模型贵得“烧心”？",
+   "authors": [
+    "Tech星球"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-16T08:58:45+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8170871.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "硅谷AI价格战下国产大模型性价比几何",
+   "summary_zh": "钛媒体Tech星球对比硅谷与国产大模型的价格与性能，探讨国产模型在价格战中的性价比优势是否仍在。",
+   "highlights_zh": [
+    "硅谷模型降价冲击国产模型定价",
+    "国产大模型成本压力上升",
+    "性价比成为竞争核心变量"
+   ],
+   "why_zh": "把握大模型价格战格局与国产厂商的竞争处境。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T15:20:25+00:00",
+   "mirror_pdf": "pdf/web-e430ced2b006.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8170871.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-07323ae39fb3",
+   "kind": "article",
+   "title": "被半个互联网拒绝，豆包手机有解吗？",
+   "url": "https://www.tmtpost.com/8170908.html",
+   "pdf_url": "",
+   "abstract": "谁也不想被AI绕过。",
+   "authors": [
+    "定焦One"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-16T08:58:43+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8170908.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "豆包手机遭互联网平台抵制困境",
+   "summary_zh": "钛媒体定焦One报道豆包手机因AI绕过应用被多个互联网平台拒绝，探讨其破局路径。",
+   "highlights_zh": [
+    "AI Agent绕过App引发平台抵制",
+    "超级App与AI入口的利益冲突",
+    "豆包手机面临生态封锁挑战"
+   ],
+   "why_zh": "理解AI入口与平台生态之间的核心利益博弈。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T15:20:25+00:00",
+   "mirror_pdf": "pdf/web-07323ae39fb3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8170908.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c289dc3d991e",
+   "kind": "article",
+   "title": "ruvnet/ruflo",
+   "url": "https://github.com/ruvnet/ruflo",
+   "pdf_url": "",
+   "abstract": "Star ruvnet / ruflo 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+   "authors": [],
+   "orgs": [
+    "ruvnet"
+   ],
+   "published": "2026-10-16T15:20:25+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/ruvnet/ruflo",
+     "signal": "★ 今日 +672 · TypeScript",
+     "metric": 672
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "ruflo：多智能体编排框架",
+   "summary_zh": "一个TypeScript多智能体编排框架，支持自适应记忆、向量RAG与Claude Code/Codex集成。",
+   "highlights_zh": [
+    "宣称支持多智能体swarm与自主工作流编排",
+    "内置自适应记忆、自学习与联邦能力",
+    "原生集成Claude Code、Codex等编码智能体"
+   ],
+   "why_zh": "如果你在搭多智能体编排，可试装它跑通Claude Code协作流程。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6071,
+   "score_llm": 4.0,
+   "score": 0.4828,
+   "date": "2026-10-16",
+   "slot": "evening",
+   "selected_at": "2026-10-16T15:20:25+00:00",
+   "mirror_pdf": "pdf/web-c289dc3d991e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/ruvnet/ruflo"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
    "trend": "视频生成进入「少步数」竞速，推理效率取代画质成为新战场",
-   "why": "Speculative Forcing 以 1.7 步逼近四步质量，Velox 用空间记忆把注意力提速 4.36 倍，效率优化密集出现。",
+   "why": "Speculative Forcing 以 1.7 步逼近四步质量、Velox 用空间记忆砍掉冗余注意力，效率优化密集出现。",
    "refs": [
     "arxiv-2610.22347",
-    "arxiv-2610.22311"
+    "arxiv-2610.22311",
+    "web-17e1090e7ed8"
    ]
   },
   {
-   "trend": "智能体开始「自我训练」，后训练与数据工程被自动化接管",
-   "why": "Athanor 让四智能体 104 小时自主完成后训练，AutoSFT 自动调配 SFT 数据，训练环节正被智能体吃掉。",
+   "trend": "智能体从「单一大模型」转向分层委派与自主后训练",
+   "why": "JevAgentHarness 用小模型接管决策、Athanor 让智能体自主完成后训练，控制权正从大 LLM 下放。",
    "refs": [
+    "arxiv-2610.21412",
     "arxiv-2610.21055",
     "arxiv-2610.22194"
    ]
   },
   {
-   "trend": "端侧与开源模型双向挤压，前沿能力加速下沉到本地",
-   "why": "英伟达 Bolt 4GB 端侧模型、LFM2.5 端侧智能体、Meta 开源 Muse Spark 同周发布，本地部署门槛骤降。",
+   "trend": "评测重心从能力打分转向真实交付与临床级场景",
+   "why": "FDE-Gym 最佳配置仅解 14/95、MindEval2 揭示前沿模型心理健康短板，评测开始逼近落地最后一公里。",
    "refs": [
+    "arxiv-2610.22350",
+    "arxiv-2610.22314",
+    "web-c4e467281bf0"
+   ]
+  },
+  {
+   "trend": "开源权重向超大 MoE 与端侧双线扩张，闭源护城河被压缩",
+   "why": "Meta Muse Spark、英伟达 120B 与 4GB 端侧 Bolt、Beam 501B 同期开源，覆盖云到端全谱系。",
+   "refs": [
+    "web-9d251ac6836a",
     "web-2cd92b812c13",
-    "web-cfc3584192a8",
-    "web-9d251ac6836a"
+    "web-849b423196d1",
+    "web-cfc3584192a8"
    ]
   },
   {
-   "trend": "超级 App 集体封堵 AI 自动化，Agent 流量主权之争公开化",
-   "why": "155 款第三方应用明确拒绝豆包手机助手自动化操作，Agent 落地遭遇平台侧硬边界。",
+   "trend": "可解释性十年共识被推翻，SAE 路线面临重估",
+   "why": "Cammarata 称现代视觉模型末层 99%-100% 神经元可解释，多义性假说与分解路线或走错方向。",
    "refs": [
-    "web-600bd37d1857"
-   ]
-  },
-  {
-   "trend": "大模型竞争焦点从参数规模转向上下文管理与训练系统",
-   "why": "阶跃开源 Step 5 明确把长程 Agent 竞争引向上下文管理，而非单纯堆规模。",
-   "refs": [
-    "web-ba704a091736"
+    "web-6fe1dfc2efb3",
+    "web-483d6307e687",
+    "web-3413707e4dc1"
    ]
   }
  ]
