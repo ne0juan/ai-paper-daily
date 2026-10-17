@@ -1287,7 +1287,28 @@
   "web-be066d0e290e": "2026-10-17",
   "web-6eec363b7239": "2026-10-17",
   "web-7a7462c0e69a": "2026-10-17",
-  "web-5da8aedf3e00": "2026-10-17"
+  "web-5da8aedf3e00": "2026-10-17",
+  "web-1fd6dd971a81": "2026-10-17",
+  "web-2524f385929c": "2026-10-17",
+  "web-9b13d6a721a0": "2026-10-17",
+  "web-2d33aeafc1ee": "2026-10-17",
+  "web-2cf36882626d": "2026-10-17",
+  "web-192d468597fc": "2026-10-17",
+  "arxiv-2610.22273": "2026-10-17",
+  "arxiv-2610.22243": "2026-10-17",
+  "arxiv-2610.22209": "2026-10-17",
+  "web-1fb256ce62b7": "2026-10-17",
+  "web-44e876006a43": "2026-10-17",
+  "web-931c14c747f1": "2026-10-17",
+  "web-9d4bbe8bbb46": "2026-10-17",
+  "web-3a4ad9e5ba46": "2026-10-17",
+  "web-61fb382ae4fe": "2026-10-17",
+  "web-62479b56f009": "2026-10-17",
+  "web-ed6475a5c99a": "2026-10-17",
+  "web-0ddfa159db05": "2026-10-17",
+  "web-237770bb8865": "2026-10-17",
+  "web-40fa6e4ed033": "2026-10-17",
+  "web-dc3d830e0a0d": "2026-10-17"
  },
  "known_links": {
   "https://www.anthropic.com/news": [
@@ -1534,40 +1555,6 @@
   ]
  },
  "runs": [
-  {
-   "at": "2026-09-27T04:00:24+00:00",
-   "slot": "noon",
-   "candidates": 73,
-   "new": 33,
-   "stale": 11,
-   "judged": 33,
-   "selected": 12,
-   "mirrored": 11,
-   "by_category": {
-    "技术": 1,
-    "资讯": 8,
-    "项目": 3
-   },
-   "by_source": {
-    "Hacker News": 3,
-    "量子位": 10,
-    "极客公园": 2,
-    "IT之家": 16,
-    "雷峰网": 3,
-    "钛媒体": 3,
-    "InfoQ 中文": 6,
-    "Latent Space": 2,
-    "SemiAnalysis": 2,
-    "Azeem Azhar": 2,
-    "Zvi Mowshowitz": 2,
-    "OpenAI": 1,
-    "Microsoft": 1,
-    "GitHub Trending": 8,
-    "GitHub 新项目": 12
-   },
-   "llm": true,
-   "translated": 0
-  },
   {
    "at": "2026-09-27T10:29:24+00:00",
    "slot": "evening",
@@ -4035,6 +4022,50 @@
     "DeepSeek": 1,
     "GitHub Trending": 15,
     "GitHub 新项目": 5
+   },
+   "llm": true,
+   "translated": 0
+  },
+  {
+   "at": "2026-10-17T14:08:42+00:00",
+   "slot": "evening",
+   "candidates": 164,
+   "new": 56,
+   "stale": 35,
+   "judged": 56,
+   "selected": 21,
+   "mirrored": 21,
+   "by_category": {
+    "资讯": 12,
+    "观点": 2,
+    "技术": 4,
+    "项目": 3
+   },
+   "by_source": {
+    "HF Daily Papers": 28,
+    "arXiv 新论文": 25,
+    "Hacker News": 10,
+    "量子位": 10,
+    "极客公园": 8,
+    "IT之家": 11,
+    "爱范儿": 5,
+    "少数派": 1,
+    "雷峰网": 9,
+    "钛媒体": 5,
+    "InfoQ 中文": 14,
+    "Nathan Lambert": 1,
+    "Latent Space": 2,
+    "SemiAnalysis": 1,
+    "Azeem Azhar": 1,
+    "Zvi Mowshowitz": 2,
+    "Dean Ball": 1,
+    "Hugging Face Blog": 3,
+    "Google Research": 1,
+    "OpenAI": 4,
+    "Google DeepMind": 1,
+    "NVIDIA": 2,
+    "GitHub Trending": 11,
+    "GitHub 新项目": 9
    },
    "llm": true,
    "translated": 0
