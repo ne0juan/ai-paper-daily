@@ -1,16 +1,12 @@
-2026-10-16 15:20:26,017 INFO source hf_daily           -> 55 items
-2026-10-16 15:20:26,740 INFO source hackernews         -> 4 items
-2026-10-16 15:20:42,623 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-16 15:20:57,475 INFO source rss                -> 104 items
-2026-10-16 15:21:00,243 INFO source html_lists         -> 0 items
-2026-10-16 15:21:00,243 INFO source x                  -> 0 items
-2026-10-16 15:21:01,026 INFO source arxiv_search       -> 60 items
-2026-10-16 15:21:11,524 INFO source github             -> 20 items
-2026-10-16 15:21:11,526 INFO candidates: 241 (stale dropped 40, new 134)
-2026-10-16 15:23:02,402 INFO llm judged 100/100 (calls=13)
-2026-10-16 15:23:24,250 WARNING snapshot https://thezvi.wordpress.com/2026/10/16/monthly-roundup-47-october-2026/: blocked or empty page
-2026-10-16 15:25:18,829 WARNING snapshot https://www.ithome.com/1/014/144.htm: Page.goto: Timeout 45000ms exceeded.
-Call log:
-  - navigating to "https://www.ithome.com/1/014/144.htm", waiting until "domcontentloaded"
-
-2026-10-16 15:27:24,988 INFO run done: {"at": "2026-10-16T15:20:25+00:00", "slot": "evening", "candidates": 241, "new": 134, "stale": 40, "judged": 100, "selected": 19, "mirrored": 15, "by_category": {"技术": 4, "观点": 2, "资讯": 12, "项目": 1}, "by_source": {"HF Daily Papers": 55, "arXiv 新论文": 60, "Hacker News": 4, "量子位": 10, "极客公园": 10, "IT之家": 7, "爱范儿": 7, "少数派": 2, "雷峰网": 14, "钛媒体": 8, "InfoQ 中文": 15, "Latent Space": 4, "Stratechery": 1, "SemiAnalysis": 1, "Arvind Narayanan": 1, "Azeem Azhar": 1, "Zvi Mowshowitz": 2, "Timothy B. Lee": 1, "Dean Ball": 1, "科学空间": 1, "Hugging Face Blog": 6, "Google Research": 3, "OpenAI": 3, "Google DeepMind": 1, "NVIDIA": 5, "GitHub Trending": 14, "GitHub 新项目": 6}, "llm": true, "translated": 0}
+2026-10-17 03:16:42,701 INFO source hf_daily           -> 26 items
+2026-10-17 03:16:43,039 INFO source hackernews         -> 7 items
+2026-10-17 03:17:01,464 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-17 03:17:10,485 INFO source rss                -> 102 items
+2026-10-17 03:17:14,256 INFO source html_lists         -> 0 items
+2026-10-17 03:17:14,256 INFO source x                  -> 0 items
+2026-10-17 03:17:29,118 INFO source arxiv_search       -> 60 items
+2026-10-17 03:17:39,109 INFO source github             -> 20 items
+2026-10-17 03:17:39,111 INFO candidates: 213 (stale dropped 83, new 78)
+2026-10-17 03:18:47,746 INFO llm judged 78/78 (calls=10)
+2026-10-17 03:19:45,155 WARNING pdf arxiv-2610.22364: too large (> 25165824 bytes): https://arxiv.org/pdf/2610.22364
+2026-10-17 03:21:45,742 INFO run done: {"at": "2026-10-17T03:16:42+00:00", "slot": "noon", "candidates": 213, "new": 78, "stale": 83, "judged": 78, "selected": 20, "mirrored": 19, "by_category": {"资讯": 14, "技术": 4, "项目": 1, "论文": 1}, "by_source": {"HF Daily Papers": 26, "arXiv 新论文": 60, "Hacker News": 7, "量子位": 10, "极客公园": 10, "IT之家": 15, "爱范儿": 7, "少数派": 1, "雷峰网": 14, "钛媒体": 8, "InfoQ 中文": 14, "Latent Space": 2, "Stratechery": 1, "SemiAnalysis": 1, "Azeem Azhar": 1, "Zvi Mowshowitz": 2, "Dean Ball": 1, "科学空间": 1, "Hugging Face Blog": 3, "Google Research": 1, "OpenAI": 4, "Google DeepMind": 1, "NVIDIA": 5, "GitHub Trending": 15, "GitHub 新项目": 5}, "llm": true, "translated": 0}
