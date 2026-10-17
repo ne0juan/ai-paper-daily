@@ -1166,45 +1166,1092 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-b51c61e80c97",
+   "kind": "article",
+   "title": "AI 撬动量子计算：Anthropic 称 Claude 设计的量子电路超越顶尖现有方案",
+   "url": "https://www.ithome.com/1/014/317.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 17 日消息，Anthropic 于 10 月 16 日发布研究称， 其 AI 模型 Claude 在几乎无需人工干预的情况下，针对 8 类量子计算任务，设计出比已发表最优电路更高效的方案。 IT之家援引博文介绍，量子计算机依靠量子比特运行，但当前设备通常仅有数百到数千个量子比特，且对热量、振动等环境噪声极为敏感。量子比特和运行时间都是稀缺资源，因此让量子计算走向实用的关键，是减少电路所需的量子比特数和量子门数量。 量子比特（qubit）是量子计算的“信息单元”：经典计算机用比特表示 0 或 1，而量子比特（qubit）则可以处于 0、1 的叠加态，即同时带有两种状态的“概率幅”。不过量子比特非常脆弱。热量、振动、电磁噪声等都会造成退相干和计算错误，因此当前量子设备通常只有数百到数千个量子比特，且需要极低温、隔离和纠错机制。 而量子门是对一个或多个量子比特施加的幺正变换，相当于经典逻辑门（如 AND、NOT）的量子版本，但作用对象是叠加态和纠缠态。量子电路就是按时间顺序排列的一组量子门，外加初始化、测量等步骤。 衡量量子电路的“成本”通常看两个指标：需要多少量子比特，以及需要多少量子门。量子比特越少、门数越少，硬件压力、运行时间和噪声累积通常就越低。 Anthropic 研究团队使用通俗语言，向 Claude 阐述了来自化学、优化、物理模拟、数论和数值计算等领域的 8 项任务，并设定了自动评估程序。 该程序会检验 Claude 提出的电路是否正确，并按“量子比特数 × 量子门数”打分；Claude 随后根据反馈迭代改进，形成闭环设计流程。 结果显示，Claude 发现的新设计不仅减少了量子比特和量子门数量，而且并非小幅微调既有方案，更是提出了新的数学与结构思路。 例如，在模拟硫化铁分子时，Claude 利用分子的对称性和重复结构，将部分结果计算一次后重复使用；在量子优化算法的解码环节，它将最昂贵步骤的成本降低至 12 分之一。 其中一项代表性成果涉及椭圆曲线点加法。Claude 经过约 53 小时的自主探索，提出了无需存储完整分支历史即可反向运行的可逆算法，并形成一系列在量子比特数量与运行时间之间取得不同平衡的新设计。 椭圆曲线点加法的资源。粗体行是 Claude 的设计；其余为先前发表的最佳设计。 研究人员认为，这类进展有望降低实用量子应用对硬件规模的要求，让新药设计、高效电池、新型催化剂和更清洁的肥料生产等问题的量子计算解决方案更早落地。不过，研究也指出，量子电路设计只是构建容错量子计算机的一环，纠错、硬件控制等问题仍需协同突破。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-17T07:42:15+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/014/317.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Claude 自主设计量子电路，超越已发表最优方案",
+   "summary_zh": "Anthropic 称 Claude 在几乎无人工干预下，针对 8 类量子任务设计出比已发表最优更省量子比特与门数的电路，部分任务成本降至 1/12。",
+   "highlights_zh": [
+    "闭环流程：自然语言描述任务+自动评估打分，Claude 迭代改进",
+    "椭圆曲线点加法任务自主探索约 53 小时，提出可逆算法新思路",
+    "成果有望降低实用量子应用对硬件规模的要求"
+   ],
+   "why_zh": "头部模型公司展示 AI 自主科研能力边界，是科学 AI 的标志性案例。",
+   "tags": [
+    "科学AI",
+    "智能体",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 9.0,
+   "score": 0.676,
+   "date": "2026-10-17",
+   "slot": "evening",
+   "selected_at": "2026-10-17T09:09:55+00:00",
+   "mirror_pdf": "pdf/web-b51c61e80c97.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/014/317.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.22333",
+   "kind": "paper",
+   "title": "Evaluation Awareness Beyond English: Do LLMs Act Differently When Tested in Indic Languages?",
+   "url": "https://arxiv.org/abs/2610.22333",
+   "pdf_url": "https://arxiv.org/pdf/2610.22333",
+   "abstract": "Large language models (LLMs) can often tell when they are being tested. This ability, known as evaluation awareness, can lead models to act more cautiously during safety evaluations than in real use. Existing work has studied evaluation awareness almost entirely in English, although models serve users in many languages. Indic languages are spoken by over a billion people, yet evaluation awareness remains almost entirely unstudied in them. We test four instruction-tuned models from three families in five Indic languages alongside English. A set of cues varies whether the model is told that it is monitored and whether the monitoring is a safety test. Models refuse harmful requests more often when they are told that they are being tested. This increase appears in all four models and all six languages. In Indic languages, refusal of harmful requests rises by 14.4 percentage points on average. The test cue also brings Indic refusal of harmful requests level with English, but raises refusal of benign Indic requests from 6.9% to 11.3%. We release all 47,880 judged responses to support further work. These results suggest that safety evaluations in Indic languages may not reflect how models treat their everyday users.",
+   "authors": [
+    "Trizal Garg",
+    "Sibayan Mitra",
+    "Arya Karanjkar",
+    "Advait Singh",
+    "Jagat Sesh Challa",
+    "Yash Sinha",
+    "Siddharth Mehrotra",
+    "Dhruv Kumar",
+    "Pratham Yogish Maliya"
+   ],
+   "orgs": [],
+   "published": "2026-10-15T17:53:33Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.22333",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "评测意识不止于英语：印地语系下LLM行为差异",
+   "summary_zh": "研究发现模型被告知正被测试时更易拒绝有害请求，印地语系下拒绝率平均升14.4个百分点，但良性请求误拒率也从6.9%升至11.3%，说明非英语安全评测可能失真。",
+   "highlights_zh": [
+    "覆盖3家族4个指令微调模型、5种印地语系语言加英语",
+    "测试提示使印地语系有害请求拒绝率与英语持平",
+    "公开47,880条判定回复供后续研究"
+   ],
+   "why_zh": "揭示多语言安全评测的偏差，对做对齐与评测的团队有直接参考价值。",
+   "tags": [
+    "对齐与安全",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.64,
+   "date": "2026-10-17",
+   "slot": "evening",
+   "selected_at": "2026-10-17T09:09:55+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.22333.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.22333"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.22333"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.22333"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.22333"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.22333"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.22333"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-78d78e2c2496",
+   "kind": "article",
+   "title": "DeepSeek-V4.1-Flash-1017: Wish-Driven Programming Made Real | DeepSeek API Docs",
+   "url": "https://api-docs.deepseek.com/news/news261017",
+   "pdf_url": "",
+   "abstract": "ð DeepSeek-V4.1-Flash-1017 is here!",
+   "authors": [],
+   "orgs": [
+    "DeepSeek"
+   ],
+   "published": "",
+   "sources": [
+    {
+     "name": "DeepSeek",
+     "authority": 0.9,
+     "url": "https://api-docs.deepseek.com/news/news261017",
+     "signal": "官方",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "DeepSeek-V4.1-Flash-1017：愿望驱动编程成真",
+   "summary_zh": "DeepSeek 发布 V4.1-Flash-1017，主打「愿望驱动编程」，官方文档称可更直接地把意图转为代码。",
+   "highlights_zh": [
+    "DeepSeek 新版本发布",
+    "主打愿望驱动编程",
+    "官方 API 文档同步更新"
+   ],
+   "why_zh": "头部国产模型新版本，值得关注其编程能力定位。",
+   "tags": [
+    "大模型",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 7.0,
+   "score": 0.636,
+   "date": "2026-10-17",
+   "slot": "evening",
+   "selected_at": "2026-10-17T09:09:55+00:00",
+   "mirror_pdf": "pdf/web-78d78e2c2496.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://api-docs.deepseek.com/news/news261017"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-af63c6e6c297",
+   "kind": "article",
+   "title": "DeepSeek V4.1 Flash-1017 新版本发布：性能提升、耗时缩短，许愿式编程一键成真",
+   "url": "https://www.ithome.com/1/014/328.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 17 日消息，DeepSeek V4.1 Flash 现已更新至 V4.1-Flash-1017 版本，官方网页端、APP 与 API 模型已同步变更为新模型（API 调用方式与价格保持不变，仍使用 deepseek-flash 即可访问最新模型）。 据深度求索官方介绍，此次更新在性能与成本之间实现了帕累托改进：在各项基准测试中，新版本的模型能力较上一版 V4.1 Flash 有明显提升，同时任务运行时间与输出长度均有缩短，使单次调用的综合成本下降。 HLE (w/o tools): 42.6 (44.0) Terminal-Bench 4.0: 42.3 DeepSWE v1.1: 77.0 ProgramBench: 29.1 NL2Repo-Bench: 68.2 Automation-Bench v1.0.6: 60.5 Agents' Last Exam: 35.4 Apex Bench v1.1: 72.1 Chartography (w/tools): 83.0 BabyVision (w/tools): 92.5 ZeroBench-main (w/tools): 51.0 DeepSeek 表示，新模型在提升性能的同时，还缩短了模型的任务运行时间与输出长度，让用户能够以更低成本、更快速度完成任务，在多个 Harness 下达到新的性能-费用帕累托最优。 另外，DeepSeek 特别针对 DeepSeek Harness、腾讯 CodeBuddy、WorkBuddy 等平台做了适配优化，建议用户将 DeepSeek Harness 升级至 0.2.1-rc.1 或更高版本以获取完整适配。 在能力维度上，V4.1-Flash-1017 引入了一项值得注意的变化：通过基于自反馈的强化学习训练，模型在从零构建完整项目方面的能力得到增强，覆盖游戏开发、3D 建模等场景。 官方称这一改进使模型能够承接更多“许愿式”编程请求，即在提示词和素材参考极为有限的条件下直接生成可运行的项目成果 。官方演示案例显示，在 DeepSeek Harness 环境中，新版本以极短的交互轮次完成了完整项目的搭建。 同时，DeepSeek V4.1-Flash-1017 的模型权重已同步开放下载。DeepSeek 在 HuggingFace 和 ModelScope 上均提供了权重文件，延续了 V4.1 Flash 以 MIT 许可证开源的策略。 IT之家附地址： HuggingFace： https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017 ModelScope： https://modelscope.cn/models/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-17T08:17:20+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/014/328.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek V4.1 Flash 更新：更快更省，强化许愿式编程",
+   "summary_zh": "DeepSeek 发布 V4.1-Flash-1017，基准测试全面提升，同时缩短运行时间与输出长度，降低单次调用成本，并开源权重。",
+   "highlights_zh": [
+    "HLE 42.6、Terminal-Bench 4.0 42.3、DeepSWE 77.0 等多项基准提升",
+    "通过自反馈强化学习增强从零构建完整项目的能力，支持许愿式编程",
+    "适配 DeepSeek Harness、腾讯 CodeBuddy 等平台，MIT 许可开源权重"
+   ],
+   "why_zh": "头部开源模型在性能与成本上同时优化，直接影响开发者选型与智能体应用成本。",
+   "tags": [
+    "大模型",
+    "代码",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-17",
+   "slot": "evening",
+   "selected_at": "2026-10-17T09:09:55+00:00",
+   "mirror_pdf": "pdf/web-af63c6e6c297.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/014/328.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a01e02239da0",
+   "kind": "article",
+   "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+   "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-10-15T20:34:01+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Granite Switch 4.1：一个端点搞定对话、决策与语音",
+   "summary_zh": "Hugging Face 发布 Granite Switch 4.1，通过单一端点统一提供对话、决策与语音能力，简化多模态模型部署。",
+   "highlights_zh": [
+    "单一端点集成对话、决策、语音三类能力",
+    "降低多模型拼接的部署复杂度",
+    "面向开发者的一体化模型服务"
+   ],
+   "why_zh": "关注多模态统一模型与部署效率的从业者可了解新方案。",
+   "tags": [
+    "多模态",
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 7.0,
+   "score": 0.612,
+   "date": "2026-10-17",
+   "slot": "evening",
+   "selected_at": "2026-10-17T09:09:55+00:00",
+   "mirror_pdf": "pdf/web-a01e02239da0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.22330",
+   "kind": "paper",
+   "title": "Designing Transformers for Continuous Diffusion Language Models",
+   "url": "https://arxiv.org/abs/2610.22330",
+   "pdf_url": "https://arxiv.org/pdf/2610.22330",
+   "abstract": "Continuous diffusion language models (CDLMs) offer an alternative approach to parallel language generation; however, most existing studies directly use transformer architectures from either causal large language models (LLMs) or Diffusion Transformers (DiTs) for image generation, which were not optimized for CDLMs. In this paper, we conduct a systematic study on Transformer architectures for CDLMs and introduce Language Diffusion Transformer (LangDiT), combining feature and query-key normalization, wider noise conditioning, likelihood-shortcut gradient routing and calibration, and confidence-gated training self-conditioning. LangDiT significantly reduces generation perplexity in matched LangFlow comparisons, establishing a new state of the art in continuous language generation across different model formulations. Using LangFlow as a representative CDLM, LangDiT as a plug-and-play backbone leads to a new state-of-the-art model with a generation perplexity (GenPPL) of 21.72 using 1024 NFEs and 44.72 GenPPL using 128 NFEs on the unconditional generation of 1024-token sequences on the OpenWebText dataset. When adapted to Plaid-style CDLM formulations, LangDiT results in a new leading GenPPL of 11.33 using 1024 denoising NFEs, and 27.51 GenPPL using 128 denoising NFEs. These gains are achieved while retaining each model's underlying representation, training objective, and inference sampler, isolating transformer architecture as a fundamental source of improvement. Our study identifies architectural design as an important source of improvement in continuous diffusion language models.",
+   "authors": [
+    "Weijian Luo",
+    "Yujian Chen",
+    "Hao Jiang",
+    "Guang Cheng",
+    "Tianyang Hu"
+   ],
+   "orgs": [],
+   "published": "2026-10-15T17:52:31Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.22330",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "为连续扩散语言模型定制Transformer架构",
+   "summary_zh": "提出LangDiT，针对连续扩散语言模型重新设计Transformer（归一化、噪声条件、梯度路由等），在OpenWebText上刷新连续语言生成困惑度SOTA，128步去噪GenPPL降至44.72。",
+   "highlights_zh": [
+    "指出直接套用因果LLM或图像DiT架构并非CDLM最优解",
+    "LangDiT可即插即用替换LangFlow/Plaid等CDLM骨干",
+    "1024步去噪下GenPPL达21.72，Plaid式达11.33"
+   ],
+   "why_zh": "扩散语言模型要挑战自回归，架构层面的系统性优化是必经一步。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-17",
+   "slot": "evening",
+   "selected_at": "2026-10-17T09:09:55+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.22330.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.22330"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.22330"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.22330"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.22330"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.22330"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.22330"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.22289",
+   "kind": "paper",
+   "title": "Improving Environment-Agnostic Coding Agents: The Role of Scaffolding",
+   "url": "https://arxiv.org/abs/2610.22289",
+   "pdf_url": "https://arxiv.org/pdf/2610.22289",
+   "abstract": "Stronger language models may increasingly construct useful procedures for themselves, reducing the advantage of developer-supplied scaffolding. We investigate why this advantage persists and whether an environment-agnostic agent can be improved without environment-specific engineering. We evaluate a Codex-based agent in two nearly identical prompt variants on ARC-AGI-3, AGI Maze, and Terminal-Bench. Each variant is deployed with unchanged code, prompts, and general-purpose tools across environments, receiving environment-specific information as input. Changing only an instruction to encourage reporting difficulties and returning control for automatic continuation improves mean scores on both ARC-AGI-3 and AGI Maze, while Terminal-Bench shows small, mixed changes. Yet the general agent remains below an ARC-AGI-3-specific reference, including with GPT-5.6-sol. The reference prescribes organization and control rather than supplying new game rules or solutions. To investigate this gap, we transfer reset decisions to a scripted controller that follows a convention already given to the agent. This small change recovers part of the specialized agent's advantage. A complementary AGI Maze experiment shows that additional tutorial experience can reduce performance. Together, these findings highlight the distinction between having information and tools available and using them effectively. Supplied procedures still matter for the models tested here. The performance gains also come with higher token-based cost. The experiments do not separate better use of information and procedures from additional or differently allocated inference. We provide the EnvTraverse framework and an evaluated baseline agent for testing whether further environment-independent changes improve performance in some environments without degrading it in others.",
+   "authors": [
+    "Sergey Rodionov"
+   ],
+   "orgs": [],
+   "published": "2026-10-15T17:43:16Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.22289",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "环境无关编码智能体：脚手架为何仍重要",
+   "summary_zh": "在ARC-AGI-3、AGI Maze、Terminal-Bench上测试同一Codex智能体，发现仅改一条「报告困难并交还控制权」的指令即可提升得分，但通用智能体仍落后专用参考实现，差距部分来自组织与控制约定而非信息。",
+   "highlights_zh": [
+    "代码、提示、工具完全不变，仅调整指令措辞即带来提升",
+    "把重置决策交给脚本控制器可追回部分专用智能体优势",
+    "额外教程经验反而可能降低AGI Maze表现"
+   ],
+   "why_zh": "直接回答「模型变强后脚手架还有没有用」，对智能体工程有指导意义。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-17",
+   "slot": "evening",
+   "selected_at": "2026-10-17T09:09:55+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.22289.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.22289"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.22289"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.22289"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.22289"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.22289"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.22289"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0342f39befa1",
+   "kind": "article",
+   "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+   "url": "https://github.com/cobanov/PS5LM",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-16T18:32:35Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50122431",
+     "signal": "286 pts",
+     "metric": 286
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "越狱 PS5 上跑 llama.cpp：原生运行任意 GGUF 模型",
+   "summary_zh": "有人在越狱 PS5 上编译 llama.cpp，原生加载 GGUF 模型推理，展示消费级硬件跑本地大模型的边界。",
+   "highlights_zh": [
+    "越狱 PS5 原生运行 llama.cpp",
+    "支持任意 GGUF 模型",
+    "体现本地推理硬件下沉趋势"
+   ],
+   "why_zh": "本地推理硬件边界的趣味案例，工程参考价值有限。",
+   "tags": [
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.5853,
+   "score_llm": 6.0,
+   "score": 0.5941,
+   "date": "2026-10-17",
+   "slot": "evening",
+   "selected_at": "2026-10-17T09:09:55+00:00",
+   "mirror_pdf": "pdf/web-0342f39befa1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/cobanov/PS5LM"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50122431"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3d3011b3b2f6",
+   "kind": "article",
+   "title": "Show HN: Gemini 4 Argon plays StarCraft",
+   "url": "https://starskirmish.com/bench/v0-2/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-16T14:18:44Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50118688",
+     "signal": "222 pts",
+     "metric": 222
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Show HN：Gemini 4 Argon 玩星际争霸",
+   "summary_zh": "开发者展示用 Gemini 4 Argon 驱动智能体玩《星际争霸》，属社区演示，未见系统性评测。",
+   "highlights_zh": [
+    "LLM 驱动游戏智能体",
+    "社区 Show HN 项目",
+    "缺乏基准对比"
+   ],
+   "why_zh": "智能体玩游戏的有趣演示，但信息增量有限。",
+   "tags": [
+    "智能体",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.5735,
+   "score_llm": 6.0,
+   "score": 0.5894,
+   "date": "2026-10-17",
+   "slot": "evening",
+   "selected_at": "2026-10-17T09:09:55+00:00",
+   "mirror_pdf": "pdf/web-3d3011b3b2f6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://starskirmish.com/bench/v0-2/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50118688"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-eceff50d761a",
+   "kind": "article",
+   "title": "Anthropic 值 2 万亿美元吗？",
+   "url": "https://www.tmtpost.com/8171640.html",
+   "pdf_url": "",
+   "abstract": "市场似乎已经不再愿意给出更高的溢价。",
+   "authors": [
+    "山上"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-17T05:36:00+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8171640.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic 值 2 万亿美元吗？",
+   "summary_zh": "文章讨论 Anthropic 的估值逻辑，认为市场已不愿给出更高溢价，反映头部 AI 公司估值进入审视期。",
+   "highlights_zh": [
+    "聚焦 Anthropic 估值是否合理",
+    "指出市场对 AI 公司溢价态度转冷",
+    "涉及头部大模型公司的商业化与资本市场预期"
+   ],
+   "why_zh": "帮助判断 AI 一级/二级市场情绪与头部模型公司估值锚点。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-17",
+   "slot": "evening",
+   "selected_at": "2026-10-17T09:09:55+00:00",
+   "mirror_pdf": "pdf/web-eceff50d761a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8171640.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-247661bec3c0",
+   "kind": "article",
+   "title": "清华特奖得主AI创业再+1：GeoPT一作入局物理世界模型",
+   "url": "https://www.qbitai.com/2026/10/503880.html",
+   "pdf_url": "",
+   "abstract": "从搭载物理建模能力的世界模型切入",
+   "authors": [
+    "梦晨"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-16T12:54:54+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/503880.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "清华特奖得主再创业：GeoPT 一作入局物理世界模型",
+   "summary_zh": "清华特奖得主、GeoPT 一作投身 AI 创业，从具备物理建模能力的世界模型方向切入。",
+   "highlights_zh": [
+    "顶尖学术背景创业者入局世界模型",
+    "聚焦物理建模能力",
+    "世界模型赛道持续升温"
+   ],
+   "why_zh": "反映世界模型创业热度，但信息较浅。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-10-17",
+   "slot": "evening",
+   "selected_at": "2026-10-17T09:09:55+00:00",
+   "mirror_pdf": "pdf/web-247661bec3c0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/503880.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8c0e83299cc2",
+   "kind": "article",
+   "title": "iPhone Duo 一秒售罄，发货排到明年；马斯克：考虑自建电商平台；谷歌创始人：AI 正开始自己造自己",
+   "url": "http://www.geekpark.net/news/372488",
+   "pdf_url": "",
+   "abstract": "苹果官网 2026 年的 iPhone Duo 已售罄！发货日期排到明年 1 月 22 日 10 月 16 日，苹果首款折叠屏 iPhone Duo 于当晚 8 点开启线上预购，大量用户同时涌入苹果官网、Apple Store App 及天猫、京东等官方直营渠道，购买页面一度无法正常打开。开售一分钟左右，各大电商平台即显示该机型售罄。 目前官网仍可下单，预计发货时间排至 1 月 22 日，2026 年的备货已全部售罄。受折叠屏铰链、柔性内屏产能爬坡周期长于直板机型、首批备货有限叠加首发集中抢购影响，交期被拉长。后续随着产能释放，发货排期将逐步前移，已抢到 11 月、12 月批次的用户或提前半个月拿到新机。 该机型维修费用极高，非 AppleCare+用户更换内屏需 7998 元，外屏需 3198 元，电池维修费用达 1898 元，建议自用用户选购 AppleCare+。(来源：IT 之家） 马斯克回应 Grok Bot 被亚马逊封禁：不让 AI 智能体网购，就考虑自建电商平台 科技媒体 notateslaapp 10 月 15 日发布博文，报道称有用户反馈亚马逊阻止 Grok Bot 智能体在其平台下单之后，全球首富马斯克表示考虑打造一家与亚马逊竞争的公司。 该媒体指出特斯拉上月已将 Grok Bot 整合进车辆，用户可在通勤途中把下单任务交给 AI。用户无需亲自打开零售商网站，即可由 AI 完成购物流程，对希望掌控流量、推荐和交易入口的零售平台而言，这直接冲击了其传统电商模式。 据报道，亚马逊不仅限制 Grok Bot 下单，也屏蔽了 Meta 的 Muse AI 购物智能体，同时自身仍在开发 AI 购物工具。 网友 @thecsguy 近日在 X 平台发帖，反馈遇到的 Grok Bot 网购被封问题，并鼓励马斯克考虑推出「X Shop」。针对用户反馈，马斯克在推文中表示：「或许我们应该创立一家与亚马逊竞争的公司」。（来源：IT 之家） 英特尔计划 2028 年面向物理 AI 领域推出「Razor Lake AX」 处理器，平台算力 700 TOPS 10 月 17 日消息，据韩媒 THE ELEC 报道，Intel（英特尔）高级副总裁 조민성 昨日在韩国举行的「半导体驱动人形机器人」大会上表示，该企业计划 2027 年初面向物理 AI 领域推出「Nova Lake」处理器。 而在 \"Nova Lake\" 后，英特尔还将在 2028 年为物理 AI 带来「Razor Lake AX」。其平台总算力可到 700 TOPS，显著优于「Panther Lake」的 180 TOPS。 据悉，「Razor Lake AX」是英特尔首款商业化的大内存位宽大核显 SoC，其沿用标准「Nova Lake」 核心组成的同时集成了 16 个或 32 个 Xe3P 核心，图形显示与 AI 推理能力都得到显著提升。(来源：IT 之家) OpenAI 升级 ChatGPT 浏览器扩展 可读取多个标签并执行网页任务 OpenAI 更新了 ChatGPT 浏览器扩展，用户可在 ChatGPT 对话中提及 Chrome，让助手读取已打开的网页标签作为上下文，并比较页面内容、整理资料或协助完成浏览器任务。OpenAI 列举的用途还包括汇总供应商价格与功能、整理表格、预填表单，以及根据网页信息起草邮件。 升级后的侧边栏可在浏览网页时直接打开 ChatGPT，并继续使用对话历史；ChatGPT Work 还可在用户授权后操作浏览器标签，例如填写表单、发送消息、下载文件或整理标签页",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-17T00:22:32+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372488",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "亚马逊封禁Grok Bot，马斯克考虑自建电商平台",
+   "summary_zh": "亚马逊阻止Grok Bot等AI购物智能体在其平台下单，马斯克回应称或自建电商平台与亚马逊竞争，AI智能体与电商入口之争浮出水面。",
+   "highlights_zh": [
+    "亚马逊同时屏蔽了Grok Bot和Meta Muse AI购物智能体",
+    "特斯拉已将Grok Bot整合进车辆，支持通勤途中下单",
+    "英特尔计划2028年推出面向物理AI的Razor Lake AX处理器，算力700 TOPS"
+   ],
+   "why_zh": "AI智能体与平台流量入口的冲突，是智能体商业化落地的关键信号。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.528,
+   "date": "2026-10-17",
+   "slot": "evening",
+   "selected_at": "2026-10-17T09:09:55+00:00",
+   "mirror_pdf": "pdf/web-8c0e83299cc2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372488"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c6cd2b5bd9ba",
+   "kind": "article",
+   "title": "长鑫科技市值两月内跌去1万亿；阿里加码AI硬件品牌，天猫、速卖通联动；国行版苹果AI有望12月上线，百度、阿里参与合作丨雷峰早报",
+   "url": "https://www.leiphone.com/category/zaobao/EReMkZNn9w5H85Tf.html",
+   "pdf_url": "",
+   "abstract": "要闻提示 1.长鑫科技市值两月内跌去1万亿 2.年内已至少18次故障！DeepSeek发放宕机补偿，有人拿到3000元 3.阿里加码AI硬件品牌，天猫、速卖通联动 4.国行版苹果AI有望12月上线，百度、阿里参与合作 5.可灵AI新一代模型Kling 4.0正式上线，专业影像模型“卷”出新高度 6.华为黄宇：韬定律最大挑战在于 EDA 工具 7.内饰一模一样！海外博主称中国车企已进入互相抄袭阶段：理想高管回应 8.OpenAI基础设施负责人将离职 今日头条 长鑫科技市值两月内跌去1万亿 10月15日，长鑫科技股价走低，截至收盘，股价43.59元/股，总市值跌破3万亿元。A股“总市值一哥”的位置随之易主，工商银行重回A股总市值第一。 长鑫科技7月27日上市首日，盘中市值超过工商银行，登顶A股市值首位。8月17日，长鑫科技收61.8元/股，市值达到4.2万亿元。在随后约两个月时间里，长鑫科技市值先是跌破4万亿元，又跌破3万亿元。8月17日收盘至10月14日，长鑫科技股价跌去25.57%，市值跌去1.07万亿元。 长鑫科技在近两个月时间里多次更新了技术及产品研发进展。此前报道，10月10日，长鑫存储总裁曹堪宇称，长鑫存储预计年底推出采用4F² DRAM（动态随机存取存储器）架构的新一代DDR5 RDIMM产品。（第一财经） 国内资讯 年内已至少18次故障！DeepSeek发放宕机补偿，有人拿到3000元 10 月 15 日消息，DeepSeek发布通知，针对15日早间出现的API服务故障道歉，并给API用户发放补偿。作为补偿，DeepSeek将按用户账号7日内（10.8-10.14）的消耗金额以赠金形式全额返还，赠金自动到账，API计费扣款先从赠金账户扣除。 通知发布后，不少网友开始晒已经到账的补偿金，有的过去一周只用了少量API，因此补偿金只有几毛、几元，但有些用户过去一周需求较多、使用量大，补偿金则有几百甚至超过三千元。有用户表示DeepSeek “补偿挺有诚意”；还有用户将这一操作调侃为“梁式重置额度”。 针对此次服务故障，DeepSeek并未解释说明原因。据悉，此次宕机期间，有网友建议DeepSeek换一批算力硬件，还有网友声称“传说是算力调走去憋个大的”。值得注意的是，2026年以来该平台至少出现18次大面积服务异常，平均每月一到两次，其中9月份最少出现7次服务波动。（第一财经、快科技） 父承子业？影视飓风回应Tim父亲出任公司董事长 10月15日消息，公开信息显示，近日，影视飓风关联公司杭州星奥传媒有限公司发生工商变更，圆通速递董事兼总裁潘水苗出任该企业董事长一职。同时，企业经营范围新增预包装食品销售、电影制片、互联网信息内容多渠道分发服务。 本次变更后，创始人潘天鸿（Tim）仍担任公司法定代表人、经理及董事，且为最大股东，持股比例51.77%；潘水苗持股25.65%，为第二大股东。据公开报道，潘水苗是潘天鸿父亲。 针对此事，“影视飓风”创始人潘天鸿（Tim）最新进行了回应：从公司创立之初潘水苗就是执行董事，不参与经营，只是现在为了公司发展需要，设立了董事会。本次经营变更主要是增加了一些经营类目，接下来会有一些有趣的产品推出。（新浪科技、快科技） 阿里加码AI硬件品牌，天猫、速卖通联动 10月15日消息，近日有报道称，阿里正在接触一批AI硬件品牌，除提供天使轮投资外，还可能联动国内外电商业务，为品牌提供天使轮投资和全球市场拓展支持。 值得注意的是，速卖通将于10月19日召开年度暨双11商家大会，公开议程中罕见出现了天猫。多方信息指向，阿里可",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-16T10:39:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/zaobao/EReMkZNn9w5H85Tf.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "国行苹果 AI 有望 12 月上线，百度阿里参与",
+   "summary_zh": "雷峰早报汇总：国行苹果 AI 有望 12 月上线并由百度、阿里参与合作，可灵 Kling 4.0 上线，DeepSeek 因年内至少 18 次故障发放补偿。",
+   "highlights_zh": [
+    "国行苹果 AI 或于 12 月上线，百度、阿里参与合作",
+    "可灵 AI 新一代模型 Kling 4.0 正式上线",
+    "DeepSeek 年内至少 18 次服务异常，按消耗金额发放补偿"
+   ],
+   "why_zh": "一屏掌握国内 AI 落地、模型迭代与服务稳定性动态。",
+   "tags": [
+    "产品与行业",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-17",
+   "slot": "evening",
+   "selected_at": "2026-10-17T09:09:55+00:00",
+   "mirror_pdf": "pdf/web-c6cd2b5bd9ba.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/zaobao/EReMkZNn9w5H85Tf.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3cbd69e737df",
+   "kind": "article",
+   "title": "Kling 4.0发布，可灵AI的估值凭什么反超母体快手？",
+   "url": "https://www.tmtpost.com/8171555.html",
+   "pdf_url": "",
+   "abstract": "AI，能帮快手冲破商业想象力的天花板吗？",
+   "authors": [
+    "FoST未来叙事"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-17T08:20:39+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8171555.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Kling 4.0 发布，可灵估值反超快手？",
+   "summary_zh": "可灵 AI 发布 Kling 4.0，文章讨论其估值为何反超母体快手，关注视频生成商业化前景。",
+   "highlights_zh": [
+    "Kling 4.0 版本发布",
+    "讨论可灵 AI 估值与快手母体对比",
+    "聚焦 AI 视频生成的商业想象力"
+   ],
+   "why_zh": "了解国产视频生成模型进展与资本市场对其独立估值的看法。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-17",
+   "slot": "evening",
+   "selected_at": "2026-10-17T09:09:55+00:00",
+   "mirror_pdf": "pdf/web-3cbd69e737df.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8171555.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-be066d0e290e",
+   "kind": "article",
+   "title": "AI 的下一个前沿在哪里？数百位创业者在上海给出了这些答案",
+   "url": "https://www.tmtpost.com/8171952.html",
+   "pdf_url": "",
+   "abstract": "今年上半年，全球一级市场融资额约为去年同期两倍，AI 领域融资额是去年同期的 3.4 倍，占全部融资的比重从 48% 升到 78%",
+   "authors": [
+    "科技点亮创业"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-17T06:29:32+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8171952.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "数百位创业者谈 AI 下一个前沿",
+   "summary_zh": "钛媒体汇总上海创业者观点，并给出数据：上半年 AI 融资额是去年同期 3.4 倍，占全部融资 78%。",
+   "highlights_zh": [
+    "AI 融资占比从 48% 升至 78%",
+    "全球一级市场融资额约为去年同期两倍",
+    "创业者集中讨论 AI 下一波机会"
+   ],
+   "why_zh": "提供 AI 融资热度与创业方向的宏观切片，但信息增量有限。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-17",
+   "slot": "evening",
+   "selected_at": "2026-10-17T09:09:55+00:00",
+   "mirror_pdf": "pdf/web-be066d0e290e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8171952.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6eec363b7239",
+   "kind": "article",
+   "title": "Anthropic 宣布 10 月 29 日从模型选项中移除 Claude Haiku 4.5",
+   "url": "https://www.ithome.com/1/014/312.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 17 日消息，Anthropic 于当地时间 10 月 15 日宣布，自 2026 年 10 月 29 日起，Claude Haiku 4.5 将从 Free、Pro 和 Max 套餐的模型选择器中移除，覆盖网页端、桌面端和移动端的常规聊天，以及 Claude Cowork 和 Claude Design 功能。 在 10 月 29 日之前，用户仍可在模型选择器的“More models”选项中选用 Haiku 4.5；到期后该条目将从列表中消失，若用户当前选中的正是 Haiku 4.5，Claude 会自动将其切换至 Haiku 5.5。 此次调整不影响 Haiku 4.5 在 Claude Code、Team 与 Enterprise 套餐以及 Claude Platform（API）中的可用性。Team 和 Enterprise 套餐及通过 Anthropic API 使用 Haiku 4.5 的开发者均不受此变更波及。 对于用户已有的 Haiku 4.5 对话，Anthropic 明确不会删除任何内容。10 月 29 日之后重新打开这些对话并继续输入时，回复将由 Haiku 5.5 继续生成，用户仍可在对话中随时切换至其他模型。若需保留聊天副本，可随时通过 Claude 的数据导出功能获取。 IT之家此前报道，Haiku 5.5 于 2026 年 10 月 7 日正式发布，是 Haiku 系列首个支持可设置思考程度的模型，上下文窗口扩展至 100 万 tokens，最大输出提升至 128K tokens，在编码和智能体任务上的表现较 Haiku 4.5 有明显改进。 价格方面，Anthropic 称 Haiku 5.5 的平均运行成本较 Haiku 4.5 下降约 75%；对于不超过 10 万 tokens 的提示，成本降幅可达 90%，而 Haiku 系列此前约 90% 的请求都落在这一长度区间内。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-17T07:28:03+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/014/312.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic 将 Haiku 4.5 移出消费端模型选择器",
+   "summary_zh": "Anthropic 宣布 2026 年 10 月 29 日起 Haiku 4.5 从 Free/Pro/Max 聊天选择器移除，自动切换至 Haiku 5.5；API 与企业套餐不受影响。",
+   "highlights_zh": [
+    "Haiku 5.5 上下文扩至 100 万 tokens，最大输出 128K",
+    "平均运行成本较 4.5 降约 75%，短提示降幅可达 90%",
+    "旧对话保留，续聊由 5.5 生成"
+   ],
+   "why_zh": "反映小模型迭代节奏与成本下探趋势，开发者需关注版本迁移。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-17",
+   "slot": "evening",
+   "selected_at": "2026-10-17T09:09:55+00:00",
+   "mirror_pdf": "pdf/web-6eec363b7239.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/014/312.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7a7462c0e69a",
+   "kind": "article",
+   "title": "范式智能联合睿思智联推出开源一站式 生产级 AI 部署平台 “模域ModelSphere”",
+   "url": "https://www.qbitai.com/2026/10/503829.html",
+   "pdf_url": "",
+   "abstract": "范式智能技术集团有限公司联合北京睿思智联科技有限公司宣布，一站式生产级 AI 部署平台“模域”正式上线。",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-16T07:16:11+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/503829.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "范式智能联合睿思智联推出开源生产级 AI 部署平台模域",
+   "summary_zh": "范式智能与睿思智联联合发布开源一站式生产级 AI 部署平台「模域 ModelSphere」，正式上线。",
+   "highlights_zh": [
+    "开源一站式 AI 部署平台",
+    "面向生产级场景",
+    "两家公司联合推出"
+   ],
+   "why_zh": "常规产品发布，关注部署工具链者可略读。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 5.0,
+   "score": 0.476,
+   "date": "2026-10-17",
+   "slot": "evening",
+   "selected_at": "2026-10-17T09:09:55+00:00",
+   "mirror_pdf": "pdf/web-7a7462c0e69a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/503829.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5da8aedf3e00",
+   "kind": "article",
+   "title": "英伟达RTX Spark笔记本首发实测，我实现了WorkBuddy额度自由",
+   "url": "https://www.ifanr.com/1684682?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "给了我们一个换电脑的理由 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "张子豪"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-16T12:08:15+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1684682?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "英伟达RTX Spark笔记本首发实测",
+   "summary_zh": "爱范儿实测搭载英伟达RTX Spark的笔记本，体验本地AI助手WorkBuddy的额度使用情况。",
+   "highlights_zh": [
+    "聚焦本地AI推理的笔记本形态",
+    "实测WorkBuddy使用体验",
+    "偏向消费级产品评测"
+   ],
+   "why_zh": "本地AI硬件体验参考，但深度有限。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-10-17",
+   "slot": "evening",
+   "selected_at": "2026-10-17T09:09:55+00:00",
+   "mirror_pdf": "pdf/web-5da8aedf3e00.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1684682?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "评测体系与真实工作脱节，基准可信度正成为模型竞争的新战场",
-   "why": "九成美国工时不在AI基准覆盖内，同时临床会诊等垂直基准开始强调结构化与多维评估。",
+   "trend": "AI评测与真实工作场景脱节，评测方法本身成为竞争焦点",
+   "why": "九成美国工作时间不在基准覆盖内，印地语系下评测意识导致安全指标失真，评测可信度正被重新审视。",
    "refs": [
     "web-2425f3153984",
+    "arxiv-2610.22333",
     "arxiv-2610.22298"
    ]
   },
   {
-   "trend": "Gemini 4 以限时半价强攻API市场，前沿模型竞争转向价格与生态捆绑",
-   "why": "谷歌宣称重回第一梯队并直接降价，冲击OpenAI与Anthropic既有定价与客户格局。",
+   "trend": "Gemini 4与DeepSeek V4.1同期降价开源，头部模型竞争转入性价比消耗战",
+   "why": "谷歌以API半价宣告回归第一梯队，DeepSeek开源权重并压缩单次调用成本，价格与开放度成新武器。",
    "refs": [
-    "web-64738d39bd96"
+    "web-64738d39bd96",
+    "web-af63c6e6c297",
+    "web-78d78e2c2496"
    ]
   },
   {
-   "trend": "AI代码审查产能瓶颈显现，人机协作流程而非工具本身决定落地节奏",
-   "why": "Postgres 19因AI审查发现bug超出人力修复能力而延期，Claude Code团队则公开其review组织方式。",
+   "trend": "AI代码审查产能见顶，人机协作流程而非模型能力成为瓶颈",
+   "why": "Postgres 19因AI审查发现的bug超出人力修复能力而延期，Claude Code团队转向公开内部review流程。",
    "refs": [
     "web-f0a5f325be5a",
     "web-7fd7e06ab2f4"
    ]
   },
   {
-   "trend": "MoE架构进入路由效率反思期，专家切分策略从堆规模转向抑制冗余",
-   "why": "MirrorMoE指出共享专家与细粒度切分导致路由探索不足，提出token自适应抑制冗余专家。",
+   "trend": "智能体从演示走向真实世界服务，入口与工程摩擦集中暴露",
+   "why": "腾讯智能体在高德反复尝试11天，亚马逊封禁Grok Bot下单，真实服务调用与平台准入成落地门槛。",
    "refs": [
-    "arxiv-2610.22353"
+    "web-c85ff8d094bb",
+    "web-8c0e83299cc2"
    ]
   },
   {
-   "trend": "世界模型与VLA互补成为具身智能主线，测试时环境适配显著提升机器人成功率",
-   "why": "T2-Z用测试时隐变量优化将动作成功率从33.7%提至73%，行业梳理VLA与世界模型分工。",
+   "trend": "MoE路由与扩散语言模型架构出现新修正，模型效率优化进入结构层",
+   "why": "MirrorMoE指出共享专家削弱路由探索，LangDiT为连续扩散重设Transformer并刷新困惑度SOTA。",
    "refs": [
-    "arxiv-2610.22364",
-    "web-f0e1248a6c39"
+    "arxiv-2610.22353",
+    "arxiv-2610.22330"
    ]
   }
  ]
