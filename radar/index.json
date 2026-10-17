@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-17T09:09:55+00:00",
+ "updated": "2026-10-17T14:08:42+00:00",
  "days": [
   {
    "date": "2026-10-17",
-   "count": 38,
+   "count": 59,
    "slots": {
     "noon": 20,
-    "evening": 18
+    "evening": 39
    }
   },
   {
@@ -214,47 +214,47 @@
    }
   }
  ],
- "total": 1284,
+ "total": 1305,
  "last_run": {
-  "at": "2026-10-17T09:09:55+00:00",
+  "at": "2026-10-17T14:08:42+00:00",
   "slot": "evening",
-  "candidates": 191,
-  "new": 60,
-  "stale": 66,
-  "judged": 60,
-  "selected": 18,
-  "mirrored": 18,
+  "candidates": 164,
+  "new": 56,
+  "stale": 35,
+  "judged": 56,
+  "selected": 21,
+  "mirrored": 21,
   "by_category": {
-   "资讯": 14,
-   "技术": 4
+   "资讯": 12,
+   "观点": 2,
+   "技术": 4,
+   "项目": 3
   },
   "by_source": {
    "HF Daily Papers": 28,
-   "arXiv 新论文": 44,
-   "Hacker News": 7,
+   "arXiv 新论文": 25,
+   "Hacker News": 10,
    "量子位": 10,
-   "极客公园": 9,
-   "IT之家": 8,
-   "爱范儿": 6,
+   "极客公园": 8,
+   "IT之家": 11,
+   "爱范儿": 5,
    "少数派": 1,
-   "雷峰网": 13,
-   "钛媒体": 7,
+   "雷峰网": 9,
+   "钛媒体": 5,
    "InfoQ 中文": 14,
-   "Latent Space": 3,
-   "Stratechery": 1,
+   "Nathan Lambert": 1,
+   "Latent Space": 2,
    "SemiAnalysis": 1,
    "Azeem Azhar": 1,
    "Zvi Mowshowitz": 2,
    "Dean Ball": 1,
-   "科学空间": 1,
    "Hugging Face Blog": 3,
    "Google Research": 1,
-   "OpenAI": 5,
+   "OpenAI": 4,
    "Google DeepMind": 1,
-   "NVIDIA": 4,
-   "DeepSeek": 1,
-   "GitHub Trending": 15,
-   "GitHub 新项目": 5
+   "NVIDIA": 2,
+   "GitHub Trending": 11,
+   "GitHub 新项目": 9
   },
   "llm": true,
   "translated": 0
