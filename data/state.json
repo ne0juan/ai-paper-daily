@@ -1336,7 +1336,15 @@
   "web-52c1f477f03f": "2026-10-18",
   "web-a3c440cf290b": "2026-10-18",
   "web-55767033a55b": "2026-10-18",
-  "web-38fdd2ec276f": "2026-10-18"
+  "web-38fdd2ec276f": "2026-10-18",
+  "web-dd6a9d14a094": "2026-10-18",
+  "web-9b780e5528de": "2026-10-18",
+  "web-26b52d229f33": "2026-10-18",
+  "web-8b1614668504": "2026-10-18",
+  "web-232115544a1e": "2026-10-18",
+  "web-5614fb0f3326": "2026-10-18",
+  "web-d04f3fcf7d99": "2026-10-18",
+  "web-4868c07702ca": "2026-10-18"
  },
  "known_links": {
   "https://www.anthropic.com/news": [
@@ -1583,42 +1591,6 @@
   ]
  },
  "runs": [
-  {
-   "at": "2026-09-28T04:01:32+00:00",
-   "slot": "noon",
-   "candidates": 73,
-   "new": 36,
-   "stale": 12,
-   "judged": 34,
-   "selected": 17,
-   "mirrored": 14,
-   "by_category": {
-    "观点": 2,
-    "资讯": 12,
-    "项目": 3
-   },
-   "by_source": {
-    "HF Daily Papers": 1,
-    "Hacker News": 4,
-    "量子位": 10,
-    "极客公园": 3,
-    "IT之家": 12,
-    "爱范儿": 2,
-    "少数派": 1,
-    "雷峰网": 2,
-    "钛媒体": 5,
-    "InfoQ 中文": 6,
-    "Simon Willison": 1,
-    "SemiAnalysis": 1,
-    "Azeem Azhar": 2,
-    "Zvi Mowshowitz": 2,
-    "METR": 1,
-    "GitHub Trending": 8,
-    "GitHub 新项目": 12
-   },
-   "llm": true,
-   "translated": 0
-  },
   {
    "at": "2026-09-28T11:37:16+00:00",
    "slot": "evening",
@@ -4102,6 +4074,41 @@
    },
    "llm": true,
    "translated": 1
+  },
+  {
+   "at": "2026-10-18T14:25:59+00:00",
+   "slot": "evening",
+   "candidates": 61,
+   "new": 18,
+   "stale": 1,
+   "judged": 18,
+   "selected": 8,
+   "mirrored": 8,
+   "by_category": {
+    "项目": 3,
+    "资讯": 5
+   },
+   "by_source": {
+    "Hacker News": 4,
+    "量子位": 5,
+    "极客公园": 2,
+    "IT之家": 11,
+    "爱范儿": 1,
+    "雷峰网": 1,
+    "钛媒体": 4,
+    "InfoQ 中文": 6,
+    "Nathan Lambert": 1,
+    "Latent Space": 1,
+    "Zvi Mowshowitz": 1,
+    "Dean Ball": 1,
+    "Google Research": 1,
+    "OpenAI": 1,
+    "NVIDIA": 1,
+    "GitHub Trending": 12,
+    "GitHub 新项目": 8
+   },
+   "llm": true,
+   "translated": 0
   }
  ]
 }
