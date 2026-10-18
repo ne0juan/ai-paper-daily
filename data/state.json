@@ -1326,7 +1326,17 @@
   "web-dc8cec88b45e": "2026-10-18",
   "web-26481043f0cf": "2026-10-18",
   "web-5d08a741c252": "2026-10-18",
-  "web-4ef34288e660": "2026-10-18"
+  "web-4ef34288e660": "2026-10-18",
+  "web-48479cd7194a": "2026-10-18",
+  "web-a1b68d3dccbe": "2026-10-18",
+  "web-438380700e5a": "2026-10-18",
+  "web-e888a054a39e": "2026-10-18",
+  "web-af59b3284175": "2026-10-18",
+  "web-781b5dd43778": "2026-10-18",
+  "web-52c1f477f03f": "2026-10-18",
+  "web-a3c440cf290b": "2026-10-18",
+  "web-55767033a55b": "2026-10-18",
+  "web-38fdd2ec276f": "2026-10-18"
  },
  "known_links": {
   "https://www.anthropic.com/news": [
@@ -1573,38 +1583,6 @@
   ]
  },
  "runs": [
-  {
-   "at": "2026-09-27T15:35:18+00:00",
-   "slot": "evening",
-   "candidates": 63,
-   "new": 14,
-   "stale": 1,
-   "judged": 14,
-   "selected": 9,
-   "mirrored": 9,
-   "by_category": {
-    "项目": 3,
-    "资讯": 6
-   },
-   "by_source": {
-    "Hacker News": 5,
-    "量子位": 10,
-    "极客公园": 3,
-    "IT之家": 6,
-    "雷峰网": 2,
-    "钛媒体": 5,
-    "InfoQ 中文": 5,
-    "Latent Space": 1,
-    "SemiAnalysis": 2,
-    "Azeem Azhar": 2,
-    "Zvi Mowshowitz": 1,
-    "OpenAI": 1,
-    "GitHub Trending": 8,
-    "GitHub 新项目": 12
-   },
-   "llm": true,
-   "translated": 0
-  },
   {
    "at": "2026-09-28T04:01:32+00:00",
    "slot": "noon",
@@ -4090,6 +4068,40 @@
    },
    "llm": true,
    "translated": 0
+  },
+  {
+   "at": "2026-10-18T09:27:23+00:00",
+   "slot": "evening",
+   "candidates": 71,
+   "new": 19,
+   "stale": 12,
+   "judged": 17,
+   "selected": 10,
+   "mirrored": 8,
+   "by_category": {
+    "资讯": 10
+   },
+   "by_source": {
+    "Hacker News": 6,
+    "量子位": 7,
+    "极客公园": 2,
+    "IT之家": 9,
+    "爱范儿": 2,
+    "雷峰网": 4,
+    "钛媒体": 3,
+    "InfoQ 中文": 10,
+    "Nathan Lambert": 1,
+    "Latent Space": 1,
+    "Zvi Mowshowitz": 2,
+    "Dean Ball": 1,
+    "Google Research": 1,
+    "OpenAI": 1,
+    "NVIDIA": 1,
+    "GitHub Trending": 11,
+    "GitHub 新项目": 9
+   },
+   "llm": true,
+   "translated": 1
   }
  ]
 }

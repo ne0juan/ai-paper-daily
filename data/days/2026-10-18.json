@@ -975,44 +975,583 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-48479cd7194a",
+   "kind": "article",
+   "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+   "url": "https://api-docs.deepseek.com/guides/search/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-18T06:50:36Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50138531",
+     "signal": "168 pts",
+     "metric": 168
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "DeepSeek 推出搜索与抓取 API，千次成功请求 0.75 美元",
+   "summary_zh": "DeepSeek 上线搜索与网页抓取接口，按成功请求计费，千次 0.75 美元，为智能体与 RAG 应用提供低成本检索能力。",
+   "highlights_zh": [
+    "按成功请求计费，千次 0.75 美元",
+    "提供搜索与网页抓取两类能力",
+    "面向智能体与 RAG 的检索基础设施"
+   ],
+   "why_zh": "做智能体或 RAG 的团队可据此评估检索成本与替代方案。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5605,
+   "score_llm": 7.0,
+   "score": 0.6442,
+   "date": "2026-10-18",
+   "slot": "evening",
+   "selected_at": "2026-10-18T09:27:23+00:00",
+   "mirror_pdf": "pdf/web-48479cd7194a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://api-docs.deepseek.com/guides/search/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50138531"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a1b68d3dccbe",
+   "kind": "article",
+   "title": "Anthropic 与律所商讨 AI 代理谈判规则：可替用户砍价、处理纠纷或谈薪资",
+   "url": "https://www.ithome.com/1/014/519.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 18 日消息，据《金融时报》今日报道，Anthropic 正与律所等法律机构磋商，以解决一个全新难题：AI 智能体应当如何谈判，为人类使用者争取最优交易结果。例如，替用户砍价、处理纠纷或谈薪资。 消息人士称，该公司正向律所寻求建议，研究律师如何开展谈判， 既能代表客户利益，又兼顾公平结果 。一名熟悉 Anthropic 项目的人士表示，公司正在探索模型交互时的“谈判规范”。随着智能系统持续迭代，AI 智能体将代表用户，去对接目标存在冲突的其他智能体。 该人士补充，公司还在权衡：谈判过程中智能体需要多大程度寻求人类反馈；面对其他 AI 对手，应当保持多高警惕，同时避免陷入多疑、阴谋论式的判断。另一位接近该公司的人士透露，Anthropic 还探讨过一个方案：让用户出具签名文件，向智能体确认委托事项以及需要遵守的全部规则。 IT之家注意到，AI 正在改变人类的用工结构。例如，Anthropic 于当地时间周五发布的一份报告显示，过去一年里，公司员工构成与业务工作形态都发生了显著变化。Anthropic 正在减少初级岗位招聘。自 2025 年初以来，技术部门初级员工占比从 21% 下降至 14%， 初级技术岗新员工占比降幅更大，由 27% 跌至 9% 。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-18T07:43:37+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/014/519.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic 与律所磋商 AI 代理谈判规则",
+   "summary_zh": "Anthropic 正与律所讨论 AI 智能体替用户砍价、处理纠纷、谈薪资时的谈判规范，涉及人类反馈程度、对其他 AI 的警惕度及用户授权文件等设计。",
+   "highlights_zh": [
+    "探索智能体代表用户谈判的行为规范",
+    "权衡人类介入程度与对 AI 对手的警惕",
+    "考虑用签名文件确认委托事项与规则"
+   ],
+   "why_zh": "智能体进入真实交易场景，对齐与授权规则成前沿议题。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-18",
+   "slot": "evening",
+   "selected_at": "2026-10-18T09:27:23+00:00",
+   "mirror_pdf": "pdf/web-a1b68d3dccbe.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/014/519.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-438380700e5a",
+   "kind": "article",
+   "title": "亚马逊云科技 CFO 称 AI 基建的繁荣可持续，AI 服务器投资回报周期不到三年",
+   "url": "https://www.ithome.com/1/014/488.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 18 日消息，据 Axios 于当地时间 10 月 16 日报道，亚马逊云科技（AWS）首席财务官约翰 · 费尔顿（John Felton）表示， 人工智能基础设施与服务支出的繁荣是可持续的 ，因为它正在推动有意义的创新。 随着债务规模膨胀、估值高企以及循环融资交易频现，部分投资者与分析师对“AI 泡沫”愈发焦虑，担忧企业的营收增速能否跟上数额庞大的基建投入。 约翰 · 费尔顿表示，公司的 AI 资本支出正在带来回报，其切身经验也证明，在 AI 领域大举投入能够获得收益。他认为， 看待 AI 的成熟方式是将其视为生产力提升工具 ，而不仅是“降本工具”。 费尔顿表示，截至第二季度，公司拥有近 5,000 亿美元 （IT之家注：现汇率约合 3.35 万亿元人民币） 的在手订单储备，基于此他对当前的资本支出“感到踏实”。这笔储备由庞大客群共同支撑 ——“既涵盖行业巨头、顶级 AI 实验室，也包括中小企业”。 费尔顿透露，AWS 的 AI 服务器投资正在取得丰硕成果，“在这些服务器上， 我们看到的投资回报周期不到三年 。” 数据显示，AWS 第二季度实现营收 422 亿美元 （现汇率约合 2,828.63 亿元人民币） ，同比增长 36.7%；该业务部门的 AI 业务年化营收运行率已突破 250 亿美元 （现汇率约合 1,675.73 亿元人民币） ，且同比增速高达三位数百分比。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-18T05:38:58+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/014/488.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AWS CFO：AI基建繁荣可持续，服务器回报周期不到三年",
+   "summary_zh": "AWS首席财务官费尔顿回应AI泡沫担忧，称AI资本支出正带来回报，AI服务器投资回报周期不到三年，公司手握近5000亿美元订单储备，AI业务年化营收超250亿美元。",
+   "highlights_zh": [
+    "AWS称AI服务器投资回报周期不到三年，为基建投入提供财务背书",
+    "在手订单储备近5000亿美元，覆盖巨头、顶级AI实验室与中小企业",
+    "AI业务年化营收运行率突破250亿美元，同比增速达三位数"
+   ],
+   "why_zh": "头部云厂商对AI泡沫争议的正面回应，是判断基建周期的重要信号。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-18",
+   "slot": "evening",
+   "selected_at": "2026-10-18T09:27:23+00:00",
+   "mirror_pdf": "pdf/web-438380700e5a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/014/488.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e888a054a39e",
+   "kind": "article",
+   "title": "高通中国区董事长孟樸：终端侧 AI 正发挥重要作用，智能体的发展进一步加速这一趋势",
+   "url": "https://www.ithome.com/1/014/522.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 18 日消息，据新浪科技今日报道，2026 东北亚（沈阳）人才交流大会暨人工智能赋能产业发展大会在沈阳开幕。高通公司中国区董事长孟樸出席大会，并以“人工智能赋能产业发展共创智能互联新未来”为主题发表演讲，分享了高通对人工智能如何真正走进产业、转化为现实生产力的一些思考。 孟樸认为，未来人工智能的发展，将会越来越多地走向云端与边缘协同。其中，云端拥有强大的模型和算力，能够处理复杂、资源密集型任务。终端在实时响应、可靠性、个性化体验等方面具有独特的优势，大量的 AI 任务正扩展到 手机、PC、汽车、机器人、工业设备 等各类终端和边缘设备，终端侧 AI 正在发挥越来越重要的作用。 孟樸进一步指出，智能体 AI 的发展进一步加速了这个趋势。过去人们需要学习如何操作设备，如何使用不同的应用软件。未来，AI 可以进一步理解人们的意图和所处的场景，主动调用不同的应用服务和设备来共同完成任务。这意味着，人们正在从以应用为中心的计算体验，逐步迈向以智能体为中心的新阶段，进入智能计算无处不在的时代。 IT之家注意到，高通总裁兼首席执行官安蒙此前表示， 已有人工智能企业要求高通在 2028 年推出支持 100B 参数模型本地运行的智能手机移动平台 。如果 100B 模型端侧模型成为现实，那本地模型体验、多智能体协同的效果都能得到显著提升。 安蒙认为 AI 智能体将推动下一轮智能手机“超级周期”，吸收因价格飙升而迟滞的换机需求；智能眼镜是其最看好的可穿戴 AI 设备；在低功耗领域的技术积累是高通面向数据中心的宝贵财富。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-18T07:51:23+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/014/522.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "高通孟樸：终端侧 AI 与智能体加速云边协同",
+   "summary_zh": "高通中国区董事长孟樸认为 AI 将走向云边协同，智能体推动从以应用为中心转向以智能体为中心；高通 CEO 透露已有客户要求 2028 年手机本地跑 100B 模型。",
+   "highlights_zh": [
+    "云端处理复杂任务，终端负责实时与个性化",
+    "智能体将主动调用应用与设备完成任务",
+    "客户要求 2028 年手机平台本地运行 100B 模型"
+   ],
+   "why_zh": "端侧模型规模与智能体形态的关键产业判断。",
+   "tags": [
+    "智能体",
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-18",
+   "slot": "evening",
+   "selected_at": "2026-10-18T09:27:23+00:00",
+   "mirror_pdf": "pdf/web-e888a054a39e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/014/522.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-af59b3284175",
+   "kind": "article",
+   "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+   "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+   "pdf_url": "",
+   "abstract": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and gaming capabilities to a portable device, with […]",
+   "authors": [
+    "Shreevar Rastogi"
+   ],
+   "orgs": [
+    "NVIDIA"
+   ],
+   "published": "2026-10-17T21:00:13+00:00",
+   "sources": [
+    {
+     "name": "NVIDIA",
+     "authority": 0.75,
+     "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "英伟达 RTX Spark 笔记本上市，主打本地 AI 算力",
+   "summary_zh": "英伟达 Blackwell 架构 RTX Spark 笔记本开售，最高 128GB 统一内存，起价 2399 美元，主打本地 AI 与创作。",
+   "highlights_zh": [
+    "Blackwell 架构，最高 128GB 统一内存",
+    "华硕、戴尔、惠普、联想、微软、微星首批出货",
+    "起售价 2399 美元"
+   ],
+   "why_zh": "本地跑大模型与推理的硬件门槛变化，值得关注端侧 AI 的人一读。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 6.0,
+   "score": 0.552,
+   "date": "2026-10-18",
+   "slot": "evening",
+   "selected_at": "2026-10-18T09:27:23+00:00",
+   "mirror_pdf": "pdf/web-af59b3284175.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-781b5dd43778",
+   "kind": "article",
+   "title": "Huggingface发榜，中国模型StartLux稳居决策模型SOTA",
+   "url": "https://www.tmtpost.com/8172283.html",
+   "pdf_url": "",
+   "abstract": "当 AI 从“生成内容”迈向“执行任务”，一个能够控制计算成本、理解关键细节并准确表达不确定性的决策中枢，将成为智能体和全本地智能系统不可或缺的基础设施。",
+   "authors": [
+    "ITValue"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-18T04:20:06+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8172283.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Hugging Face 发榜：中国模型 StartLux 登顶决策模型 SOTA",
+   "summary_zh": "Hugging Face 榜单显示，中国模型 StartLux 在决策类任务上取得 SOTA，主打控制计算成本、理解关键细节并表达不确定性，定位为智能体的决策中枢。",
+   "highlights_zh": [
+    "StartLux 在 Hugging Face 决策模型榜单登顶",
+    "强调成本控制与不确定性表达，面向智能体场景",
+    "定位为全本地智能系统的基础设施"
+   ],
+   "why_zh": "关注智能体决策层能力与国产模型在垂直榜单上的进展。",
+   "tags": [
+    "智能体",
+    "大模型",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-18",
+   "slot": "evening",
+   "selected_at": "2026-10-18T09:27:23+00:00",
+   "mirror_pdf": "pdf/web-781b5dd43778.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8172283.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-52c1f477f03f",
+   "kind": "article",
+   "title": "消息称“AI 玩具”赛道火热：市场高速增长但投资大幅降温，同质化高、退货问题凸显",
+   "url": "https://www.ithome.com/1/014/540.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 18 日消息，据“Tech 星球”报道，近期“AI 玩具”火热，参考工信部数据，2025 年中国 AI 玩具市场规模达 290 亿元，2026 年市场规模预计达 342 亿元。而淘宝 2025 年度数据显示，AI 玩具类商品成交额同比增长超过 1600%。 但 整个 AI 玩具赛道的投资却在大幅降温，产品高度同质化、退货率居高不下 。 ▲ 电商平台的各类 AI 玩具 一位 AI 玩具从业者透露，一线城市买 AI 玩具，决策逻辑偏向教育投资或科技尝鲜，客单价可以拉到千元甚至万元，家长会研究大模型能力、对话质量、教育内容。下沉市场的决策逻辑更简单：便宜，能陪孩子说话，比普通玩具强。 当前， 送礼已成为“AI 玩具”主要购买场景 。今年“国庆”小长假过后，部分厂商披露的数据里，今年上半年销量已经超过去年全年。尤其在玩具供应链发达的东莞、义乌等地，一些商家已经赚得盆满钵满。 不过大量赚快钱的品牌也正涌入这条赛道， 短期爆发式增长背后，复购与用户体验并未同步跟上 。除了同质化，高退货率也居高不下。在尝鲜需求之后，AI 玩具很快成为“桌面落灰神器”。 行业报告显示，AI 玩具退货率常年保持在 50% 以上。在淘宝、京东、拼多多等电商平台上，部分潮玩企业为了减少退货率，实行有条件退换，即产品联网激活后便不能再退货。但这样也会让销量迎来下滑。 对此，“Tech 星球”表示，从商业模式来看，AI 玩具的壁垒在大模型交互能力、联网与算力成本控制、订阅服务生态。当前“低价战”已成为最直接的信号，而 AI 玩具的最终形态仍在探索之中，行业正需要一个临界点的到来。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-18T08:44:52+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/014/540.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI 玩具市场高增长但投资降温：同质化与高退货率成隐忧",
+   "summary_zh": "2025 年中国 AI 玩具市场规模达 290 亿元，电商成交额同比增超 1600%，但投资大幅降温，退货率常年超 50%，同质化严重，行业壁垒在大模型交互与算力成本。",
+   "highlights_zh": [
+    "2025 年市场规模 290 亿元，2026 年预计 342 亿元",
+    "淘宝成交额同比增超 1600%，但退货率超 50%",
+    "壁垒在大模型交互、联网与算力成本、订阅生态"
+   ],
+   "why_zh": "看清 AI 硬件消费品的真实需求与商业化瓶颈。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-18",
+   "slot": "evening",
+   "selected_at": "2026-10-18T09:27:23+00:00",
+   "mirror_pdf": "pdf/web-52c1f477f03f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/014/540.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a3c440cf290b",
+   "kind": "article",
+   "title": "“AI+终端”时代的萌芽：大模型在终端领域的探索和量产落地｜QCon上海",
+   "url": "https://www.infoq.cn/article/qZPH971CbfHkaCfgG0cb?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "QCon全球软件开发大会"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-18T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/qZPH971CbfHkaCfgG0cb?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "QCon 上海：大模型在终端场景的探索与量产落地",
+   "summary_zh": "QCon 上海设「AI+终端」专题，讨论大模型在终端设备上的探索与量产落地路径。",
+   "highlights_zh": [
+    "聚焦端侧大模型落地",
+    "覆盖从探索到量产的工程实践",
+    "QCon 上海会议议题"
+   ],
+   "why_zh": "关注端侧 AI 工程化的人可留意议题，但信息增量有限。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-10-18",
+   "slot": "evening",
+   "selected_at": "2026-10-18T09:27:23+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/qZPH971CbfHkaCfgG0cb?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-55767033a55b",
+   "kind": "article",
+   "title": "聚焦 AI 场景落地与 FDE 创新，2026 人工智能产业大会专项活动在济南举行",
+   "url": "https://www.infoq.cn/article/1XtKjZ1OCyrYTCmb4Zkb?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "汪竹"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-16T17:45:51+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/1XtKjZ1OCyrYTCmb4Zkb?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "2026 人工智能产业大会济南专场聚焦场景落地",
+   "summary_zh": "InfoQ 报道 2026 人工智能产业大会济南专项活动，主题为 AI 场景落地与 FDE 创新。",
+   "highlights_zh": [
+    "聚焦 AI 场景落地",
+    "讨论 FDE 创新模式",
+    "地方产业会议报道"
+   ],
+   "why_zh": "会议通稿性质，行业信息增量有限。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 4.0,
+   "score": 0.392,
+   "date": "2026-10-18",
+   "slot": "evening",
+   "selected_at": "2026-10-18T09:27:23+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/1XtKjZ1OCyrYTCmb4Zkb?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-38fdd2ec276f",
+   "kind": "article",
+   "title": "“任丘样本”给行业上了一课：全国首批锂+钠示范落地河北，大电芯为何看远景790Ah？",
+   "url": "https://www.tmtpost.com/8172199.html",
+   "pdf_url": "",
+   "abstract": "任丘储能试点彰显：大电芯由电站收益模型决定。",
+   "authors": [
+    "预见能源"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-18T07:55:20+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8172199.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "",
+   "summary_zh": "任丘储能试点彰显：大电芯由电站收益模型决定。",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": null,
+   "score": 0.36,
+   "date": "2026-10-18",
+   "slot": "evening",
+   "selected_at": "2026-10-18T09:27:23+00:00",
+   "mirror_pdf": "pdf/web-38fdd2ec276f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8172199.html"
+    }
+   ],
+   "mt": true
   }
  ],
  "brief": [
   {
-   "trend": "模型竞争从拼参数转向拼性价比与工程效率",
-   "why": "DeepSeek V4.1-Flash主打极致性价比并在多Harness达性能-费用帕累托最优，价格战向推理效率延伸。",
+   "trend": "模型竞争从跑分转向性价比与检索基建，智能体成本曲线被压低",
+   "why": "DeepSeek V4.1-Flash主打帕累托最优并开放低价搜索API，清华智能体OS宣称任务成本降83%。",
    "refs": [
     "web-d7946e829113",
-    "web-0eb503d60f26"
+    "web-0eb503d60f26",
+    "web-48479cd7194a",
+    "web-4fe2ff3673b9"
    ]
   },
   {
-   "trend": "AI深度嵌入开始反噬初级技术岗位结构",
-   "why": "Anthropic自述初级技术岗新员工占比从27%跌至9%，员工转向管理多个Claude实例。",
+   "trend": "AI深度嵌入开始反噬初级岗位，组织形态转向管理智能体",
+   "why": "Anthropic自述初级技术岗新员工占比从27%跌至9%，员工从亲手做事转为管理多个Claude实例。",
    "refs": [
     "web-f63d0f01429f"
    ]
   },
   {
-   "trend": "智能体基础设施走向操作系统化与成本骤降",
-   "why": "清华开源原生支持MCP的智能体OS，宣称任务成本降83%，记忆可查可改。",
-   "refs": [
-    "web-4fe2ff3673b9"
-   ]
-  },
-  {
-   "trend": "具身智能商业化靠政府订单而非纯市场驱动",
-   "why": "地方政府成机器人第一大客户，数采中心本质是补贴从现金改为采购订单。",
+   "trend": "具身智能订单由政府补贴驱动，商业化路径复制新能源车老路",
+   "why": "数采中心本质是政府把现金补贴改为采购订单，地方政府成机器人第一大客户。",
    "refs": [
     "web-0ee13042ae73"
    ]
   },
   {
-   "trend": "评测方法从静态基准转向规格驱动与持续学习",
-   "why": "Akka在65个项目试验spec驱动AI交付，QCon议题主张AI持续从现实反馈学习而非止步数据集。",
+   "trend": "评测方法从静态数据集转向规格驱动与持续现实学习",
+   "why": "Akka在65个开源项目试验spec驱动AI交付，QCon议题主张系统持续从现实反馈学习。",
    "refs": [
     "web-4ef34288e660",
     "web-26481043f0cf"
+   ]
+  },
+  {
+   "trend": "AI治理进入规则制定期，游说、用工监控与代理谈判同步升温",
+   "why": "Anthropic泄露监管草案遭批评、亚马逊用AI监控工会风险、Anthropic与律所磋商代理谈判规则。",
+   "refs": [
+    "web-46ae680087f0",
+    "web-fa796824301f",
+    "web-a1b68d3dccbe"
    ]
   }
  ]
