@@ -1308,7 +1308,25 @@
   "web-0ddfa159db05": "2026-10-17",
   "web-237770bb8865": "2026-10-17",
   "web-40fa6e4ed033": "2026-10-17",
-  "web-dc3d830e0a0d": "2026-10-17"
+  "web-dc3d830e0a0d": "2026-10-17",
+  "web-46ae680087f0": "2026-10-18",
+  "web-d7946e829113": "2026-10-18",
+  "web-65442e708214": "2026-10-18",
+  "web-f63d0f01429f": "2026-10-18",
+  "web-6d6cd58356ed": "2026-10-18",
+  "web-7f98fae22874": "2026-10-18",
+  "web-4fe2ff3673b9": "2026-10-18",
+  "web-0913988ccbed": "2026-10-18",
+  "web-0eb503d60f26": "2026-10-18",
+  "web-fa796824301f": "2026-10-18",
+  "web-0ee13042ae73": "2026-10-18",
+  "web-676178a53981": "2026-10-18",
+  "web-e322952716d8": "2026-10-18",
+  "web-646f744fb164": "2026-10-18",
+  "web-dc8cec88b45e": "2026-10-18",
+  "web-26481043f0cf": "2026-10-18",
+  "web-5d08a741c252": "2026-10-18",
+  "web-4ef34288e660": "2026-10-18"
  },
  "known_links": {
   "https://www.anthropic.com/news": [
@@ -1555,40 +1573,6 @@
   ]
  },
  "runs": [
-  {
-   "at": "2026-09-27T10:29:24+00:00",
-   "slot": "evening",
-   "candidates": 69,
-   "new": 26,
-   "stale": 7,
-   "judged": 26,
-   "selected": 17,
-   "mirrored": 16,
-   "by_category": {
-    "观点": 2,
-    "资讯": 12,
-    "项目": 3
-   },
-   "by_source": {
-    "Hacker News": 5,
-    "量子位": 9,
-    "极客公园": 3,
-    "IT之家": 9,
-    "雷峰网": 3,
-    "钛媒体": 5,
-    "InfoQ 中文": 5,
-    "Latent Space": 1,
-    "SemiAnalysis": 2,
-    "Azeem Azhar": 3,
-    "Zvi Mowshowitz": 2,
-    "OpenAI": 1,
-    "Microsoft": 1,
-    "GitHub Trending": 8,
-    "GitHub 新项目": 12
-   },
-   "llm": true,
-   "translated": 0
-  },
   {
    "at": "2026-09-27T15:35:18+00:00",
    "slot": "evening",
@@ -4064,6 +4048,43 @@
     "OpenAI": 4,
     "Google DeepMind": 1,
     "NVIDIA": 2,
+    "GitHub Trending": 11,
+    "GitHub 新项目": 9
+   },
+   "llm": true,
+   "translated": 0
+  },
+  {
+   "at": "2026-10-18T03:20:42+00:00",
+   "slot": "noon",
+   "candidates": 85,
+   "new": 38,
+   "stale": 20,
+   "judged": 38,
+   "selected": 18,
+   "mirrored": 14,
+   "by_category": {
+    "观点": 1,
+    "资讯": 13,
+    "技术": 3,
+    "项目": 1
+   },
+   "by_source": {
+    "Hacker News": 5,
+    "量子位": 10,
+    "极客公园": 4,
+    "IT之家": 16,
+    "爱范儿": 3,
+    "雷峰网": 5,
+    "钛媒体": 3,
+    "InfoQ 中文": 10,
+    "Nathan Lambert": 1,
+    "Latent Space": 2,
+    "Zvi Mowshowitz": 2,
+    "Dean Ball": 1,
+    "Google Research": 1,
+    "OpenAI": 1,
+    "NVIDIA": 1,
     "GitHub Trending": 11,
     "GitHub 新项目": 9
    },
