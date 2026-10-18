@@ -1,13 +1,11 @@
-2026-10-18 03:20:42,449 INFO source hf_daily           -> 0 items
-2026-10-18 03:20:43,176 INFO source hackernews         -> 5 items
-2026-10-18 03:20:59,492 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-18 03:21:08,753 INFO source rss                -> 60 items
-2026-10-18 03:21:10,581 INFO source html_lists         -> 0 items
-2026-10-18 03:21:10,581 INFO source x                  -> 0 items
-2026-10-18 03:21:11,122 INFO source arxiv_search       -> 0 items
-2026-10-18 03:21:20,292 INFO source github             -> 20 items
-2026-10-18 03:21:20,293 INFO candidates: 85 (stale dropped 20, new 38)
-2026-10-18 03:21:53,578 INFO llm judged 38/38 (calls=5)
-2026-10-18 03:21:57,255 WARNING snapshot https://thezvi.wordpress.com/2026/10/17/leaked-anthropic-draft-ai-regulatory-bill-is-unacceptable-and-troubling/: blocked or empty page
-2026-10-18 03:22:11,164 WARNING snapshot https://openai.com/index/itau-generative-ai: blocked or empty page
-2026-10-18 03:24:25,712 INFO run done: {"at": "2026-10-18T03:20:42+00:00", "slot": "noon", "candidates": 85, "new": 38, "stale": 20, "judged": 38, "selected": 18, "mirrored": 14, "by_category": {"观点": 1, "资讯": 13, "技术": 3, "项目": 1}, "by_source": {"Hacker News": 5, "量子位": 10, "极客公园": 4, "IT之家": 16, "爱范儿": 3, "雷峰网": 5, "钛媒体": 3, "InfoQ 中文": 10, "Nathan Lambert": 1, "Latent Space": 2, "Zvi Mowshowitz": 2, "Dean Ball": 1, "Google Research": 1, "OpenAI": 1, "NVIDIA": 1, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
+2026-10-18 09:27:23,537 INFO source hf_daily           -> 0 items
+2026-10-18 09:27:23,771 INFO source hackernews         -> 6 items
+2026-10-18 09:27:38,527 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-18 09:27:46,712 INFO source rss                -> 45 items
+2026-10-18 09:27:48,662 INFO source html_lists         -> 0 items
+2026-10-18 09:27:48,662 INFO source x                  -> 0 items
+2026-10-18 09:27:49,200 INFO source arxiv_search       -> 0 items
+2026-10-18 09:27:58,390 INFO source github             -> 20 items
+2026-10-18 09:27:58,391 INFO candidates: 71 (stale dropped 12, new 19)
+2026-10-18 09:28:13,031 INFO llm judged 17/19 (calls=3)
+2026-10-18 09:30:04,419 INFO run done: {"at": "2026-10-18T09:27:23+00:00", "slot": "evening", "candidates": 71, "new": 19, "stale": 12, "judged": 17, "selected": 10, "mirrored": 8, "by_category": {"资讯": 10}, "by_source": {"Hacker News": 6, "量子位": 7, "极客公园": 2, "IT之家": 9, "爱范儿": 2, "雷峰网": 4, "钛媒体": 3, "InfoQ 中文": 10, "Nathan Lambert": 1, "Latent Space": 1, "Zvi Mowshowitz": 2, "Dean Ball": 1, "Google Research": 1, "OpenAI": 1, "NVIDIA": 1, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 1}

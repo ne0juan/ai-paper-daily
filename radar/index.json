@@ -1,11 +1,12 @@
 {
- "updated": "2026-10-18T03:20:42+00:00",
+ "updated": "2026-10-18T09:27:23+00:00",
  "days": [
   {
    "date": "2026-10-18",
-   "count": 18,
+   "count": 28,
    "slots": {
-    "noon": 18
+    "noon": 18,
+    "evening": 10
    }
   },
   {
@@ -221,33 +222,30 @@
    }
   }
  ],
- "total": 1323,
+ "total": 1333,
  "last_run": {
-  "at": "2026-10-18T03:20:42+00:00",
-  "slot": "noon",
-  "candidates": 85,
-  "new": 38,
-  "stale": 20,
-  "judged": 38,
-  "selected": 18,
-  "mirrored": 14,
+  "at": "2026-10-18T09:27:23+00:00",
+  "slot": "evening",
+  "candidates": 71,
+  "new": 19,
+  "stale": 12,
+  "judged": 17,
+  "selected": 10,
+  "mirrored": 8,
   "by_category": {
-   "观点": 1,
-   "资讯": 13,
-   "技术": 3,
-   "项目": 1
+   "资讯": 10
   },
   "by_source": {
-   "Hacker News": 5,
-   "量子位": 10,
-   "极客公园": 4,
-   "IT之家": 16,
-   "爱范儿": 3,
-   "雷峰网": 5,
+   "Hacker News": 6,
+   "量子位": 7,
+   "极客公园": 2,
+   "IT之家": 9,
+   "爱范儿": 2,
+   "雷峰网": 4,
    "钛媒体": 3,
    "InfoQ 中文": 10,
    "Nathan Lambert": 1,
-   "Latent Space": 2,
+   "Latent Space": 1,
    "Zvi Mowshowitz": 2,
    "Dean Ball": 1,
    "Google Research": 1,
@@ -257,7 +255,7 @@
    "GitHub 新项目": 9
   },
   "llm": true,
-  "translated": 0
+  "translated": 1
  },
  "slots": {
   "morning": "晨间",
