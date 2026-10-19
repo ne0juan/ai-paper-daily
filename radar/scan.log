@@ -1,11 +1,11 @@
-2026-10-18 14:26:00,181 INFO source hf_daily           -> 0 items
-2026-10-18 14:26:00,618 INFO source hackernews         -> 4 items
-2026-10-18 14:26:19,543 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-18 14:26:37,520 INFO source rss                -> 37 items
-2026-10-18 14:26:39,442 INFO source html_lists         -> 0 items
-2026-10-18 14:26:39,442 INFO source x                  -> 0 items
-2026-10-18 14:26:39,875 INFO source arxiv_search       -> 0 items
-2026-10-18 14:26:49,448 INFO source github             -> 20 items
-2026-10-18 14:26:49,449 INFO candidates: 61 (stale dropped 1, new 18)
-2026-10-18 14:27:06,209 INFO llm judged 18/18 (calls=3)
-2026-10-18 14:28:22,150 INFO run done: {"at": "2026-10-18T14:25:59+00:00", "slot": "evening", "candidates": 61, "new": 18, "stale": 1, "judged": 18, "selected": 8, "mirrored": 8, "by_category": {"项目": 3, "资讯": 5}, "by_source": {"Hacker News": 4, "量子位": 5, "极客公园": 2, "IT之家": 11, "爱范儿": 1, "雷峰网": 1, "钛媒体": 4, "InfoQ 中文": 6, "Nathan Lambert": 1, "Latent Space": 1, "Zvi Mowshowitz": 1, "Dean Ball": 1, "Google Research": 1, "OpenAI": 1, "NVIDIA": 1, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
+2026-10-19 03:33:15,838 INFO source hf_daily           -> 5 items
+2026-10-19 03:33:16,104 INFO source hackernews         -> 3 items
+2026-10-19 03:33:30,898 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-19 03:33:39,410 INFO source rss                -> 38 items
+2026-10-19 03:33:41,843 INFO source html_lists         -> 1 items
+2026-10-19 03:33:41,843 INFO source x                  -> 0 items
+2026-10-19 03:34:55,303 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
+2026-10-19 03:35:04,440 INFO source github             -> 20 items
+2026-10-19 03:35:04,453 INFO candidates: 67 (stale dropped 16, new 28)
+2026-10-19 03:35:31,583 INFO llm judged 28/28 (calls=4)
+2026-10-19 03:37:59,316 INFO run done: {"at": "2026-10-19T03:33:15+00:00", "slot": "noon", "candidates": 67, "new": 28, "stale": 16, "judged": 28, "selected": 13, "mirrored": 12, "by_category": {"技术": 1, "资讯": 12}, "by_source": {"HF Daily Papers": 5, "Hacker News": 3, "量子位": 5, "极客公园": 2, "IT之家": 11, "爱范儿": 2, "雷峰网": 1, "钛媒体": 4, "InfoQ 中文": 8, "Nathan Lambert": 1, "Latent Space": 1, "Nathan Benaich": 1, "Zvi Mowshowitz": 1, "NVIDIA": 1, "Anthropic": 1, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}

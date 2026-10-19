@@ -1,6 +1,13 @@
 {
- "updated": "2026-10-18T14:25:59+00:00",
+ "updated": "2026-10-19T03:33:15+00:00",
  "days": [
+  {
+   "date": "2026-10-19",
+   "count": 13,
+   "slots": {
+    "noon": 13
+   }
+  },
   {
    "date": "2026-10-18",
    "count": 36,
@@ -222,38 +229,38 @@
    }
   }
  ],
- "total": 1341,
+ "total": 1354,
  "last_run": {
-  "at": "2026-10-18T14:25:59+00:00",
-  "slot": "evening",
-  "candidates": 61,
-  "new": 18,
-  "stale": 1,
-  "judged": 18,
-  "selected": 8,
-  "mirrored": 8,
+  "at": "2026-10-19T03:33:15+00:00",
+  "slot": "noon",
+  "candidates": 67,
+  "new": 28,
+  "stale": 16,
+  "judged": 28,
+  "selected": 13,
+  "mirrored": 12,
   "by_category": {
-   "项目": 3,
-   "资讯": 5
+   "技术": 1,
+   "资讯": 12
   },
   "by_source": {
-   "Hacker News": 4,
+   "HF Daily Papers": 5,
+   "Hacker News": 3,
    "量子位": 5,
    "极客公园": 2,
    "IT之家": 11,
-   "爱范儿": 1,
+   "爱范儿": 2,
    "雷峰网": 1,
    "钛媒体": 4,
-   "InfoQ 中文": 6,
+   "InfoQ 中文": 8,
    "Nathan Lambert": 1,
    "Latent Space": 1,
+   "Nathan Benaich": 1,
    "Zvi Mowshowitz": 1,
-   "Dean Ball": 1,
-   "Google Research": 1,
-   "OpenAI": 1,
    "NVIDIA": 1,
-   "GitHub Trending": 12,
-   "GitHub 新项目": 8
+   "Anthropic": 1,
+   "GitHub Trending": 13,
+   "GitHub 新项目": 7
   },
   "llm": true,
   "translated": 0
