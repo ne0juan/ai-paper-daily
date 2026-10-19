@@ -1,11 +1,12 @@
 {
- "updated": "2026-10-19T03:33:15+00:00",
+ "updated": "2026-10-19T10:39:56+00:00",
  "days": [
   {
    "date": "2026-10-19",
-   "count": 13,
+   "count": 29,
    "slots": {
-    "noon": 13
+    "noon": 13,
+    "evening": 16
    }
   },
   {
@@ -229,36 +230,37 @@
    }
   }
  ],
- "total": 1354,
+ "total": 1370,
  "last_run": {
-  "at": "2026-10-19T03:33:15+00:00",
-  "slot": "noon",
-  "candidates": 67,
-  "new": 28,
-  "stale": 16,
-  "judged": 28,
-  "selected": 13,
-  "mirrored": 12,
+  "at": "2026-10-19T10:39:56+00:00",
+  "slot": "evening",
+  "candidates": 96,
+  "new": 43,
+  "stale": 24,
+  "judged": 43,
+  "selected": 16,
+  "mirrored": 15,
   "by_category": {
-   "技术": 1,
+   "项目": 2,
+   "观点": 2,
    "资讯": 12
   },
   "by_source": {
-   "HF Daily Papers": 5,
-   "Hacker News": 3,
+   "HF Daily Papers": 16,
+   "Hacker News": 5,
    "量子位": 5,
-   "极客公园": 2,
-   "IT之家": 11,
-   "爱范儿": 2,
-   "雷峰网": 1,
-   "钛媒体": 4,
-   "InfoQ 中文": 8,
+   "极客公园": 4,
+   "IT之家": 13,
+   "爱范儿": 4,
+   "雷峰网": 7,
+   "钛媒体": 7,
+   "InfoQ 中文": 9,
    "Nathan Lambert": 1,
-   "Latent Space": 1,
+   "Stratechery": 1,
+   "SemiAnalysis": 1,
    "Nathan Benaich": 1,
    "Zvi Mowshowitz": 1,
    "NVIDIA": 1,
-   "Anthropic": 1,
    "GitHub Trending": 13,
    "GitHub 新项目": 7
   },

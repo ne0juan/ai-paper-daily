@@ -1,11 +1,12 @@
-2026-10-19 03:33:15,838 INFO source hf_daily           -> 5 items
-2026-10-19 03:33:16,104 INFO source hackernews         -> 3 items
-2026-10-19 03:33:30,898 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-19 03:33:39,410 INFO source rss                -> 38 items
-2026-10-19 03:33:41,843 INFO source html_lists         -> 1 items
-2026-10-19 03:33:41,843 INFO source x                  -> 0 items
-2026-10-19 03:34:55,303 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
-2026-10-19 03:35:04,440 INFO source github             -> 20 items
-2026-10-19 03:35:04,453 INFO candidates: 67 (stale dropped 16, new 28)
-2026-10-19 03:35:31,583 INFO llm judged 28/28 (calls=4)
-2026-10-19 03:37:59,316 INFO run done: {"at": "2026-10-19T03:33:15+00:00", "slot": "noon", "candidates": 67, "new": 28, "stale": 16, "judged": 28, "selected": 13, "mirrored": 12, "by_category": {"技术": 1, "资讯": 12}, "by_source": {"HF Daily Papers": 5, "Hacker News": 3, "量子位": 5, "极客公园": 2, "IT之家": 11, "爱范儿": 2, "雷峰网": 1, "钛媒体": 4, "InfoQ 中文": 8, "Nathan Lambert": 1, "Latent Space": 1, "Nathan Benaich": 1, "Zvi Mowshowitz": 1, "NVIDIA": 1, "Anthropic": 1, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
+2026-10-19 10:39:57,297 INFO source hf_daily           -> 16 items
+2026-10-19 10:39:57,574 INFO source hackernews         -> 5 items
+2026-10-19 10:40:23,777 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-19 10:40:29,978 INFO source rss                -> 55 items
+2026-10-19 10:40:33,345 INFO source html_lists         -> 0 items
+2026-10-19 10:40:33,345 INFO source x                  -> 0 items
+2026-10-19 10:40:33,676 INFO source arxiv_search       -> 0 items
+2026-10-19 10:40:43,618 INFO source github             -> 20 items
+2026-10-19 10:40:43,630 INFO candidates: 96 (stale dropped 24, new 43)
+2026-10-19 10:41:23,302 INFO llm judged 43/43 (calls=6)
+2026-10-19 10:41:58,354 WARNING snapshot https://stratechery.com/2026/do-you-trust-apple/: blocked or empty page
+2026-10-19 10:45:07,162 INFO run done: {"at": "2026-10-19T10:39:56+00:00", "slot": "evening", "candidates": 96, "new": 43, "stale": 24, "judged": 43, "selected": 16, "mirrored": 15, "by_category": {"项目": 2, "观点": 2, "资讯": 12}, "by_source": {"HF Daily Papers": 16, "Hacker News": 5, "量子位": 5, "极客公园": 4, "IT之家": 13, "爱范儿": 4, "雷峰网": 7, "钛媒体": 7, "InfoQ 中文": 9, "Nathan Lambert": 1, "Stratechery": 1, "SemiAnalysis": 1, "Nathan Benaich": 1, "Zvi Mowshowitz": 1, "NVIDIA": 1, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
