@@ -1,0 +1,776 @@
+{
+ "date": "2026-10-19",
+ "items": [
+  {
+   "id": "arxiv-2610.18861",
+   "kind": "paper",
+   "title": "Hybrid Reasoning Agents",
+   "url": "https://arxiv.org/abs/2610.18861",
+   "pdf_url": "https://arxiv.org/pdf/2610.18861",
+   "abstract": "How can we build an agent that thinks beyond human language, yet still acts through it in the external environment? Modern LLM agents still reason and interact through text, while latent reasoning offers an efficient internal medium but lacks native tool access and reasoning transparency. We bridge these two directions with Hybrid Reasoning Agents (HybridAgents), which dynamically navigate between latent reasoning and text-based interaction throughout a unified generation process. Architecturally, a lightweight HybridLink enables seamless transitions between text and latent modes, while the agent's continuous working memory preserves lossless hybrid context across multiple turns. These designs preserve tool-integrated agentic capabilities while making latent thoughts directly inspectable. Building on this architecture, we further develop dedicated post-training algorithms for hybrid reasoning: HybridSFT stabilizes tool-integrated hybrid generation by teaching the backbone to coordinate with HybridLink, then HybridRL scales reasoning by learning when to think in latent space and when to act through text. We evaluate HybridAgent at 3 model scales across 11 benchmarks covering mathematics, science, medicine, search, and agentic reasoning. Compared with frontier LLM Agents and agentic frameworks spanning both text-based and latent methods, HybridAgent consistently improves performance by 10.4%, while delivering 35.5%-54.7% token reduction, 1.8x-2.6x faster inference, and 2.7x-3.7x cost savings. Code and data are available at https://github.com/togethercomputer/HybridAgent.",
+   "authors": [
+    "Jiaru Zou",
+    "Yunzhe Qi",
+    "Sirui Chen",
+    "Federico Bianchi",
+    "Shang Zhu",
+    "Pan Lu",
+    "Jingrui He",
+    "James Zou"
+   ],
+   "orgs": [],
+   "published": "2026-10-18T20:48:14Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50145337",
+     "signal": "257 pts",
+     "metric": 257
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "混合推理智能体：在隐空间思考、用文本行动",
+   "summary_zh": "提出 HybridAgents，用轻量 HybridLink 在隐空间推理与文本交互间动态切换，保留工具调用能力且隐式思考可检查；配套 HybridSFT/RL 训练，11 个基准上稳定优于纯文本与纯隐式方法。",
+   "highlights_zh": [
+    "HybridLink 实现文本与隐式模式无缝切换，连续工作记忆保留多轮无损混合上下文",
+    "HybridSFT 稳定工具集成的混合生成，HybridRL 学习何时隐式思考、何时文本行动",
+    "3 个模型规模、11 个基准（数学/科学/医学/搜索/智能体推理）一致提升"
+   ],
+   "why_zh": "隐空间推理与工具调用长期割裂，这是把两者统一进单一生成流程的架构级尝试。",
+   "tags": [
+    "智能体",
+    "推理",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.5804,
+   "score_llm": 8.0,
+   "score": 0.7122,
+   "date": "2026-10-19",
+   "slot": "noon",
+   "selected_at": "2026-10-19T03:33:15+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.18861.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.18861"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.18861"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.18861"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.18861"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.18861"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.18861"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50145337"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b9a4c6eaaadf",
+   "kind": "article",
+   "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-18T14:30:27Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50141429",
+     "signal": "157 pts",
+     "metric": 157
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Anthropic 支持的 AI 安全法案：50 人死亡或 10 亿美元损失才触发",
+   "summary_zh": "一项获 Anthropic 支持的 AI 安全法案设定极高触发门槛——需造成 50 人死亡或 10 亿美元损失才生效，引发对监管实际约束力的讨论。",
+   "highlights_zh": [
+    "触发条件为 50 人死亡或 10 亿美元经济损失",
+    "Anthropic 为该法案支持方，与其一贯安全主张形成张力",
+    "HN 热议焦点：门槛过高是否等于实质不监管"
+   ],
+   "why_zh": "头部 AI 公司参与立法的具体条款，直接关系未来合规成本与行业边界。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.5574,
+   "score_llm": 7.0,
+   "score": 0.643,
+   "date": "2026-10-19",
+   "slot": "noon",
+   "selected_at": "2026-10-19T03:33:15+00:00",
+   "mirror_pdf": "pdf/web-b9a4c6eaaadf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50141429"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a4f16018e320",
+   "kind": "article",
+   "title": "OpenAI 三个神秘模型曝光；DeepSeek 开放搜索与网页抓取 API；智界将获独立造车资格，公司计划上市 ｜ 极客早知道",
+   "url": "http://www.geekpark.net/news/372514",
+   "pdf_url": "",
+   "abstract": "OpenAI 三个神秘模型曝光 10 月 18 日，有开发者发现，OpenAI 的 API 模型列表中突然出现了三个陌生名字： aurora-red-alpha、aurora-green-alpha、aurora-blue-alpha。三个模型都以 Aurora（极光）命名，分别对应红、绿、蓝三种颜色。但相关条目很快便从模型列表中消失。 此次发现来自第三方维护的 OpenAI 模型列表镜像，并非官方公告。因此，这些模型究竟是什么、是否会正式发布，目前都还是未知数。 有网友推测，这些模型极有可能是 GPT-6 Astra 后续版本的内部检查点，专门对标 Fable 5.5 的强项，创意编码、长程 agent、视觉 / 3D。也有网友推测：三个模型对应 OpenAI 三个图像模型。（消息来源：机器之心） Anthropic 与法律专家讨论 AI Agent 谈判规则，未来可替用户砍价、处理纠纷 据《金融时报》最新报道，Anthropic 正在与律师事务所及法律专家合作，研究 AI Agent 代表用户进行谈判时应遵循的行为规范。 随着 Agent 逐渐能够独立执行任务，未来可能出现大量 AI 与 AI 之间的商业交互。 例如，消费者让自己的 AI 助手与商家的 AI Agent 讨价还价，员工让 AI 代理参与薪资谈判，或者用户委托 AI 处理服务纠纷。 Anthropic 希望明确几个问题：AI 应该在多大程度上争取用户利益？什么时候需要征求用户确认？面对其他 AI Agent 时，是否应该默认对方存在欺骗或操纵意图？ 公司还讨论过一种授权方式：让用户通过签署文件，明确 AI 的代理权限、目标和行为边界。 目前，这仍属于规则研究和产品探索，尚未推出面向公众的自动谈判服务。（消息来源：金融时报） DeepSeek 正式开放搜索与网页抓取 API，每千次调用收费 5 元 DeepSeek 正式开放 Search 和 Fetch 两项 API，向开发者提供基于自研搜索引擎的网页搜索及内容抓取能力。 其中，Search API 可以根据关键词返回结构化搜索结果，包括网页标题、链接、摘要、发布日期等信息；Fetch API 则可以抓取指定网页，将正文转换为 Markdown 文本。 两项 API 均采用按成功请求次数计费的方式，价格为每千次 5 元。失败、超时或未返回有效结果的请求不收费。 DeepSeek 还为接入其 API 的 Claude Code、Codex 和 DeepSeek Harness 提供了阶段性的免费搜索调用安排。 DeepSeek 表示，其自研搜索引擎目前每天在全球范围内处理数亿次请求。（消息来源：DeepSeek 官方公告） Anthropic 拟设立「公共利益」基金，初始注入 5% 股份 当地时间 10 月 18 日，Anthropic 宣布，在获得股东批准的前提下， 公司计划将 5% 的股份划入新设立的公共利益基金 （Public Benefit Fund）；且随着这家人工智能巨头的估值增长，该基金持有的股份比例未来还可能进一步提升。 该拟议的基金将作为一家全资拥有的有限责任公司设立，经董事会裁量，公司估值每较尚未披露的基准上涨 50%，基金就会获得 Anthropic 额外 2% 的股份。 Anthropic 公共利益基金所支持的项目将涵盖非营利捐赠、向特定群体发放直接资助，以及应对人工智能对就业人员冲击等举措。 该公司表示，该基金所持有的任何股权均不会用于美国国内或海外的政治游说与政治捐赠。 Anthropic 表示，将于未",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-19T01:18:11+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372514",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI 三神秘模型曝光，DeepSeek 开放搜索抓取 API",
+   "summary_zh": "OpenAI API 镜像短暂出现 aurora-red/green/blue-alpha 三个模型后消失；DeepSeek 开放 Search 与 Fetch API，每千次 5 元，并对 Claude Code、Codex 等提供阶段性免费搜索；Anthropic 研究 Agent 谈判规范。",
+   "highlights_zh": [
+    "Aurora 三色模型疑为 GPT-6 Astra 后续检查点，官方未确认",
+    "DeepSeek Search/Fetch 按成功请求计费，失败超时不收费，自研引擎日处理数亿请求",
+    "Anthropic 与律所研究 Agent 代用户谈判的授权、边界与对抗假设"
+   ],
+   "why_zh": "一条早报覆盖模型动向、Agent 基础设施定价与 Agent 治理三条主线。",
+   "tags": [
+    "大模型",
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-10-19",
+   "slot": "noon",
+   "selected_at": "2026-10-19T03:33:15+00:00",
+   "mirror_pdf": "pdf/web-a4f16018e320.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372514"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4ea315f209f6",
+   "kind": "article",
+   "title": "Cloudflare 推出面向 AI 代理的 CLI，并逐步停用 Wrangler",
+   "url": "https://www.infoq.cn/article/Ddda0DF68laqfoqa4Lju?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Renato Losio"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-19T11:27:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/Ddda0DF68laqfoqa4Lju?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Cloudflare 推出 AI 代理专用 CLI，Wrangler 逐步退场",
+   "summary_zh": "Cloudflare 发布面向 AI 代理的新命令行工具，并计划逐步停用 Wrangler，开发者需迁移工作流。",
+   "highlights_zh": [
+    "新 CLI 针对 AI 代理场景设计，替代原有 Wrangler 工作流",
+    "Wrangler 将逐步停用，现有项目面临迁移",
+    "反映云厂商为智能体开发重构工具链的趋势"
+   ],
+   "why_zh": "用 Cloudflare 部署智能体的团队需关注工具链迁移节奏。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-19",
+   "slot": "noon",
+   "selected_at": "2026-10-19T03:33:15+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/Ddda0DF68laqfoqa4Lju?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2009e586e757",
+   "kind": "article",
+   "title": "Meta 联手苹果推出全美最强开源模型，编码基测输给智谱、Kimi",
+   "url": "https://www.infoq.cn/article/EuYOPRUBAeBgBGBu5ktk?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "李冬梅"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-18T23:01:33+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/EuYOPRUBAeBgBGBu5ktk?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Meta 联手苹果发布开源模型，编码基准落后智谱与 Kimi",
+   "summary_zh": "Meta 与苹果合作推出号称全美最强开源模型，但编码基准测试输给智谱和 Kimi，引发对榜单与实力的讨论。",
+   "highlights_zh": [
+    "Meta 与苹果罕见联手发布开源模型",
+    "编码基准上不敌中国开源模型智谱、Kimi",
+    "开源模型竞争格局中美对比再成焦点"
+   ],
+   "why_zh": "开源模型竞争格局变化，中美对比值得关注。",
+   "tags": [
+    "大模型",
+    "代码",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-19",
+   "slot": "noon",
+   "selected_at": "2026-10-19T03:33:15+00:00",
+   "mirror_pdf": "pdf/web-2009e586e757.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/EuYOPRUBAeBgBGBu5ktk?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6b2a1a755d54",
+   "kind": "article",
+   "title": "研究人员开发 AI 系统：可通过 Wi‑Fi 信号识别隐藏手枪",
+   "url": "https://www.ithome.com/1/014/738.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 19 日消息，瑞典国防研究局（FOI）的一组 AI 研究人员开发出一套 AI 系统，能够利用 Wi‑Fi 信号识别隐藏的手枪，可以作为可见光摄像头、笨重金属探测器之外的非侵入式替代方案。相关论文于 10 月 13 日发布在 arXiv 平台，这套名为 WiFireNet 的系统，通过分析物体对环境 Wi‑Fi 信号造成扰动所产生的信道状态信息（CSI）完成识别。整套系统由 Wi‑Fi 发射端、接收端以及 WiFireNet 人工智能模型构成。 普通 Wi‑Fi 信号在传播途中遇到物体时，会根据物体的形状、摆放角度与材质，发生穿透和反射，产生独有的信号特征。这类数据就是信道状态信息，对其分析可以实现较高精度的物体识别。安全领域研究人员此前已经公开过一项技术：普通 Wi‑Fi 路由器识别人体的准确率可达 99.5%。 为搭建 WiFireNet 系统，研究人员首先构建了名为 WiFire Dataset 的数据集。他们同步录制 RGB 视频，同时采集携带各类物品（从手机到手枪）行走的人所反射的 Wi‑Fi 信号。研究人员在这份海量数据集上训练深度学习模型，借助视频片段，把隐藏手枪的视觉特征和它对应的 Wi‑Fi 特征（信道状态信息）建立映射。为保证系统能够把手枪和外形、材质相近的日常物品区分开，训练素材包含塑料手枪、金属水杯、真金属手枪以及手机的采集记录。 训练完成后，WiFireNet 仅依靠 Wi‑Fi 信道状态信息就可以检测隐藏手枪，但精度存在波动。在受控实验环境中，狭小室内空间最多同时追踪四名移动人员，这套系统检测手枪的平均精确率为 72.5%。但如果提出更严格的定位要求，例如精准定位武器在携带者身上的具体位置，精确率会下降至 53.8%。当遇到陌生、未经过测试的室内布局时，神经网络识别效果也会明显变差。 该系统目前仍处于实验阶段，研究团队规划了后续优化路线。原型机采用经过改造的老旧 1999 年 IEEE 802.11a 无线标准来验证原理。下一阶段将采用 Wi‑Fi 7、Wi‑Fi 8 现代无线网络，获取分辨率更高的信道状态信息，提升检测性能。研究团队将项目开源，放出代码、模型和数据集，推动该领域后续研究。 IT之家注意到，基于 Wi‑Fi 感知的监控技术正受到越来越多关注，其无需复杂设备与部署。但批评者认为，这项技术可以广泛部署，同时缺少对应的监管框架，会带来严重的隐私隐患。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-19T03:32:53+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/014/738.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "WiFireNet：用Wi-Fi信号识别隐藏手枪",
+   "summary_zh": "瑞典FOI团队用Wi-Fi信道状态信息训练深度学习模型识别隐藏手枪，受控环境平均精确率72.5%，精确定位降至53.8%，代码模型数据集已开源。",
+   "highlights_zh": [
+    "通过RGB视频与Wi-Fi CSI同步采集构建WiFire Dataset，建立视觉特征到无线信号特征的映射",
+    "用塑料手枪、金属水杯、手机等近似物品做负样本，提升区分能力",
+    "换用Wi-Fi 7/8可获更高分辨率CSI，但陌生室内布局下性能明显下降"
+   ],
+   "why_zh": "Wi-Fi感知作为非侵入式识别范式的实证案例，同时暴露泛化与隐私监管问题。",
+   "tags": [
+    "视觉",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-19",
+   "slot": "noon",
+   "selected_at": "2026-10-19T03:33:15+00:00",
+   "mirror_pdf": "pdf/web-6b2a1a755d54.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/014/738.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-af98c6050a04",
+   "kind": "article",
+   "title": "豆包刘星回应“国内超一半算力在造爽剧”：字节总算力中，只有约 10% 用于视频生成模型的训练和推理",
+   "url": "https://www.ithome.com/1/014/729.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 19 日消息，近日，“国内超一半算力在造爽剧”的话题引发关注。 IT之家注意到，据中文在线在一份“投资者关系活动记录表”中披露，国内 AI Token 消耗 55% 烧在短剧和视频生成，24% 烧在电商广告，真正用于研发的只有 15%。AI 短剧与视频生成的 Token 消耗量已达到软件开发的两倍以上，成为整个 Token 经济学中第一大核心消耗场景。 豆包公关负责人刘星今日发文表示，这个算力数据有些不靠谱， 就字节来说，我们公司的总算力中，只有约 10%，用于视频生成模型的训练和推理 。 相关阅读： 《 AI 短剧爆火：制作成本仅为真人剧 1/10，平均每 36 秒诞生 1 部 》 《 广电总局：全国微短剧用户已超 8 亿，2025 年市场规模突破千亿元 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-19T03:30:25+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/014/729.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "豆包回应算力分配：字节仅约10%用于视频生成",
+   "summary_zh": "针对“国内超一半算力在造爽剧”的说法，豆包公关负责人刘星回应称字节总算力中仅约10%用于视频生成模型训练与推理，直接反驳了第三方披露的Token消耗结构数据。",
+   "highlights_zh": [
+    "中文在线披露国内AI Token消耗55%用于短剧和视频生成，引发算力分配争议",
+    "字节官方口径：视频生成训练与推理仅占公司总算力约10%",
+    "反映视频生成真实算力占比缺乏公开透明数据，行业统计口径混乱"
+   ],
+   "why_zh": "少见的头部大厂对算力分配结构的公开澄清，有助于判断视频生成的真实资源投入量级。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-19",
+   "slot": "noon",
+   "selected_at": "2026-10-19T03:33:15+00:00",
+   "mirror_pdf": "pdf/web-af98c6050a04.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/014/729.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-63726491a1df",
+   "kind": "article",
+   "title": "Gemini 4 Argon：为您解决最棘手的问题",
+   "url": "https://www.infoq.cn/article/LkxBOvOJWmQGMQemUOrX?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "谷歌云"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-19T11:10:27+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/LkxBOvOJWmQGMQemUOrX?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌发布 Gemini 4 Argon",
+   "summary_zh": "谷歌云推出 Gemini 4 Argon，主打解决高难度问题，具体能力与基准数据尚待披露。",
+   "highlights_zh": [
+    "Gemini 系列新版本，定位复杂问题求解",
+    "由谷歌云渠道推广，面向企业客户",
+    "缺少公开评测细节，信息增量有限"
+   ],
+   "why_zh": "关注谷歌大模型迭代节奏可速览，但实质信息偏少。",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-19",
+   "slot": "noon",
+   "selected_at": "2026-10-19T03:33:15+00:00",
+   "mirror_pdf": "pdf/web-63726491a1df.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/LkxBOvOJWmQGMQemUOrX?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a28c03a13af8",
+   "kind": "article",
+   "title": "17岁 Kimi 架构核心参与者离职，确认将赴湾区，下一站引发猜想",
+   "url": "https://www.infoq.cn/article/UdT804ujpGxrv0pQfxv2?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "李冬梅"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-18T22:58:03+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/UdT804ujpGxrv0pQfxv2?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "17 岁 Kimi 架构核心参与者离职赴湾区",
+   "summary_zh": "参与 Kimi 架构的 17 岁核心成员离职并确认赴湾区，去向引发猜测，反映 AI 人才争夺加剧。",
+   "highlights_zh": [
+    "Kimi 架构核心参与者年仅 17 岁",
+    "确认赴湾区，下一站未公开",
+    "折射国内大模型团队人才流动压力"
+   ],
+   "why_zh": "人才流动信号，但信息以传闻为主，增量有限。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-19",
+   "slot": "noon",
+   "selected_at": "2026-10-19T03:33:15+00:00",
+   "mirror_pdf": "pdf/web-a28c03a13af8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/UdT804ujpGxrv0pQfxv2?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-80a7fc07ff21",
+   "kind": "article",
+   "title": "Edge AI Daily 早报（10月19日）",
+   "url": "https://www.tmtpost.com/8172585.html",
+   "pdf_url": "",
+   "abstract": "Anthropic 以捐出5%股份设公共利益基金、并用通胀情境预测美国GDP 2030年或达44万亿美元，同时将律师引入智能体谈判规则；Meta 1300亿美元AI资本支出迎财报压力测试，牵动英伟达、AMD估值链；AWS 以近5000亿美元在手订单论证AI投入三年回本。算力侧，英伟达经CuTe DSL Megakernel 使 Kimi K3 推理提速1.68倍，RTX Spark 以128GB统一内存把大模型下沉至笔记本，并辟谣 RTX 5090 停产。",
+   "authors": [
+    "Edge AI Daily"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-19T00:50:43+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8172585.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Edge AI Daily 早报：Anthropic 设公益基金、Meta 资本支出承压",
+   "summary_zh": "早报汇总：Anthropic 捐 5% 股份设公益基金，Meta 1300 亿美元 AI 支出迎财报考验，英伟达 Megakernel 让 Kimi K3 推理提速 1.68 倍。",
+   "highlights_zh": [
+    "Anthropic 以 5% 股份设公共利益基金",
+    "Meta 1300 亿美元 AI 资本支出面临财报压力测试",
+    "英伟达 CuTe DSL Megakernel 使 Kimi K3 推理提速 1.68 倍"
+   ],
+   "why_zh": "一屏速览当日 AI 资本与算力侧关键动向。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-19",
+   "slot": "noon",
+   "selected_at": "2026-10-19T03:33:15+00:00",
+   "mirror_pdf": "pdf/web-80a7fc07ff21.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8172585.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3080d827bef8",
+   "kind": "article",
+   "title": "沐曦股份 2026 年三季度归母净利润 5.87 亿元 ~7.17 亿元，同比扭亏为盈",
+   "url": "https://www.ithome.com/1/013/627.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 15 日消息，沐曦股份今日发布 2026 年三季度（2026 年 1 月～2026 年 9 月）业绩预告报告： 营业总收入 ：25.41 亿元 ~31.06 亿元，同比 105.6%~151.29% 归母净利润 ：5.87 亿元 ~7.17 亿元，同比扭亏为盈 扣非净利润 ：2.23 亿元 ~3.02 亿元，同比扭亏为盈 AI 解读 本次业绩预告处于市场预期上方，收入和利润均实现超预期增长。 公司主营业务说明 沐曦股份专注于高性能 GPU 芯片研发，聚焦人工智能技术与千行百业的融合，提供高性能 GPU 产品及相关服务，在人工智能算力领域拥有较强的产品竞争力。 本次财报核心业绩亮点 预计 2026 年前三季度实现营业收入 25.41 亿元至 31.06 亿元，同比增长 105.6% 至 151.29%，收入规模较上年同期实现显著增长。 预计实现归属于母公司所有者的净利润 5.87 亿元至 7.17 亿元，同比扭亏为盈，去年同期净亏损 3.46 亿元。 扣除非经常性损益后，预计实现净利润 2.23 亿元至 3.02 亿元，同样实现扭亏为盈，去年同期净亏损 3.93 亿元。 业绩增长原因 报告期内，公司坚持 \" 1+6+X \" 发展战略，加大市场开拓力度，不断提升公司在高性能 GPU 行业的市场地位和影响力，推动人工智能技术与千行百业深度融合。凭借优越的产品性能及完善的软件生态，公司产品及服务获得下游客户的广泛认可与持续采购，推动收入规模大幅增长；同时，收入大幅增加叠加对产业链公司投资增加，最终带动业绩实现扭亏为盈。 风险提示 本次业绩预告数据为初步核算结果，未经注册会计师审计，具体准确的财务数据请以公司正式披露的 2026 年第三季度报告为准。 相关阅读： 《 海光信息 2026 年三季度归母净利润 27.1~29.8 亿元，预计同比增长 38.16%~51.93% 》 《 中科曙光 2026 年三季度归母净利润 17.24 亿元，同比增长 78.48% 》 《 江波龙 2026 年三季度归母净利润 140~149 亿元，预计同比增长 1864.55%~1990.84% 》 《 复旦微电 2026 年三季度归母净利润 9.5 亿元 ~11.5 亿元，同比 187.63%~248.18% 》 《 台积电 2026 财年第三财季归母净利润 7630.64 亿新台币，同比增长 68.7% 》 《 沐曦股份 2026 年上半年归母净利润 6.12 亿元，同比扭亏为盈 》 风险提示： 本文内容由 AI 自动分析生成，仅供参考，不代表IT之家观点。如有出入请以证监会指定上市公司信息披露平台为准。本文内容不构成投资建议，如有投资者据此操作，风险自担，IT之家对此不承担任何责任。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-19T03:19:21+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/013/627.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "沐曦股份前三季度扭亏为盈，营收同比翻倍",
+   "summary_zh": "国产GPU厂商沐曦预告2026年前三季度营收25.41亿至31.06亿元、同比增长105.6%~151.29%，归母净利润5.87亿至7.17亿元，同比扭亏为盈。",
+   "highlights_zh": [
+    "收入与利润均处市场预期上方，扣非净利润同样转正",
+    "增长来自高性能GPU产品放量与产业链投资收益",
+    "数据未经审计，需以正式三季报为准"
+   ],
+   "why_zh": "国产AI算力芯片商业化的关键财务信号，可对照海光、寒武纪等判断国产替代节奏。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-19",
+   "slot": "noon",
+   "selected_at": "2026-10-19T03:33:15+00:00",
+   "mirror_pdf": "pdf/web-3080d827bef8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/013/627.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9ebcb689cc6b",
+   "kind": "article",
+   "title": "Meta：Claude 工具高频访问触发安全机制，No Kings 联盟 Ins 账号遭误封",
+   "url": "https://www.ithome.com/1/014/720.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 19 日消息，Meta 平台公司表示，在美国全国范围内一系列示威活动达到顶峰时，其自动化安全系统错误地封禁了 No Kings Coalition（无国王联盟）的 Instagram 账号。 这家科技企业就此次事件致歉，并给出了更详细的说明。事件发生在该组织为 11 月 3 日中期选举推动提前投票宣传期间。 Meta 传播副总裁安迪 · 斯通（Andy Stone）于周日在社交平台发文称，Instagram 工程团队查明，该账号的“读取”行为触发了安全系统。周六，Anthropic PBC 旗下 Claude 的一款工具在短时间内集中访问个人主页、帖子和话题标签，访问速率约为正常水平的四倍。 斯通说：“短时间内这类突发、大量且连续的访问请求，特征更像自动化机器人流量，而非普通用户浏览平台。” Meta 称，大约一小时后的自动复核判定该账号本不该被封禁，随即恢复账号对外展示，但管理员权限花费了更长时间才恢复。 斯通表示：“我们再次为此失误致以诚挚歉意。” “No Kings Coalition”是一个反特朗普组织。该组织周六称，其 Instagram 主页有约 90 分钟无法访问，即便页面重新对外可见，活动组织者依旧无法登录管理账号。联盟表示，纽约时间周六下午 5 点 33 分，账号完整权限才全部恢复。 组织者批评 Meta 在示威活动期间限制账号，称 Instagram 是他们和支持者沟通的核心平台。 该联盟介绍，全美 50 个州及华盛顿特区举办了近 3000 场活动，数百万人参与，旨在扩大提前投票渠道、维护选举公正性。 斯通周日的声明没有说明具体是哪一款 Claude 工具、由谁操作，以及该工具针对这个账号开展了哪些相关操作。 IT之家注意到，这份说明修正了 Meta 最初对事件的说法。斯通周六曾表示，异常高频的发帖、转发或评论行为触发了公司自动化系统，进而导致“No Kings Coalition”账号被封禁，他当时称这次操作“显然”属于失误。 自特朗普就职以来，“No Kings Coalition”已多次组织反特朗普抗议活动。该组织称，计划在当地时间周三召开全国线上组织会议，重点讨论大选日前的动员拉票工作。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-19T02:54:17+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/014/720.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Claude工具高频访问致Meta误封政治组织账号",
+   "summary_zh": "Meta称Anthropic旗下Claude的一款工具以约正常四倍的速率集中访问Instagram主页与话题标签，触发自动化安全系统误封No Kings联盟账号，约一小时后复核恢复。",
+   "highlights_zh": [
+    "自动化风控将智能体高频读取行为误判为机器人流量",
+    "账号可见性一小时内恢复，但管理员权限恢复耗时更久",
+    "Meta未说明具体是哪款Claude工具及操作方"
+   ],
+   "why_zh": "智能体自动化访问与平台风控冲突的早期真实案例，对做Agent抓取的人有警示意义。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-19",
+   "slot": "noon",
+   "selected_at": "2026-10-19T03:33:15+00:00",
+   "mirror_pdf": "pdf/web-9ebcb689cc6b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/014/720.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-fd4524b1c209",
+   "kind": "article",
+   "title": "实测 Lovart 2.0 ，设计 AI 进入个人助理时代",
+   "url": "https://www.ifanr.com/1684840?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "你下班了，Arti 还能继续工作 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "樊 尔"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-19T02:53:15+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1684840?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "实测 Lovart 2.0：设计 AI 转向个人助理",
+   "summary_zh": "爱范儿实测设计工具 Lovart 2.0，主打 Arti 智能体在用户离线后继续执行设计任务，向个人设计助理形态演进。",
+   "highlights_zh": [
+    "强调异步持续工作能力，下班后仍可推进任务",
+    "定位从生成工具转向设计助理",
+    "属媒体实测体验，缺乏量化对比"
+   ],
+   "why_zh": "可了解设计类 AI 产品向 Agent 化演进的形态，但信息增量有限。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-10-19",
+   "slot": "noon",
+   "selected_at": "2026-10-19T03:33:15+00:00",
+   "mirror_pdf": "pdf/web-fd4524b1c209.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1684840?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "隐空间推理与文本行动融合，成为智能体架构新拐点",
+   "why": "HybridAgents 动态切换隐式思考与工具调用，11 项基准稳定超越纯文本与纯隐式方案。",
+   "refs": [
+    "arxiv-2610.18861"
+   ]
+  },
+  {
+   "trend": "开源模型竞争从参数转向编码实战，榜单公信力受质疑",
+   "why": "Meta 联手苹果号称全美最强开源，编码基准却输给智谱与 Kimi，实力与榜单脱节。",
+   "refs": [
+    "web-2009e586e757"
+   ]
+  },
+  {
+   "trend": "搜索与抓取 API 价格战开启，Agent 数据入口成争夺焦点",
+   "why": "DeepSeek 以每千次 5 元开放 Search/Fetch，并对 Claude Code、Codex 阶段性免费。",
+   "refs": [
+    "web-a4f16018e320"
+   ]
+  },
+  {
+   "trend": "AI 安全监管门槛过高，实际约束力被稀释",
+   "why": "Anthropic 支持的法案需 50 人死亡或 10 亿美元损失才触发，监管形同虚设。",
+   "refs": [
+    "web-b9a4c6eaaadf"
+   ]
+  },
+  {
+   "trend": "国产算力供给改善，GPU 厂商进入盈利兑现期",
+   "why": "沐曦前三季度营收翻倍并扭亏为盈，国产 GPU 从投入期转向规模化收入。",
+   "refs": [
+    "web-3080d827bef8"
+   ]
+  }
+ ]
+}

@@ -1344,7 +1344,20 @@
   "web-232115544a1e": "2026-10-18",
   "web-5614fb0f3326": "2026-10-18",
   "web-d04f3fcf7d99": "2026-10-18",
-  "web-4868c07702ca": "2026-10-18"
+  "web-4868c07702ca": "2026-10-18",
+  "arxiv-2610.18861": "2026-10-19",
+  "web-b9a4c6eaaadf": "2026-10-19",
+  "web-a4f16018e320": "2026-10-19",
+  "web-4ea315f209f6": "2026-10-19",
+  "web-2009e586e757": "2026-10-19",
+  "web-6b2a1a755d54": "2026-10-19",
+  "web-af98c6050a04": "2026-10-19",
+  "web-63726491a1df": "2026-10-19",
+  "web-a28c03a13af8": "2026-10-19",
+  "web-80a7fc07ff21": "2026-10-19",
+  "web-3080d827bef8": "2026-10-19",
+  "web-9ebcb689cc6b": "2026-10-19",
+  "web-fd4524b1c209": "2026-10-19"
  },
  "known_links": {
   "https://www.anthropic.com/news": [
@@ -1366,6 +1379,7 @@
    "/news/improving-fable-5-s-biology-safeguards",
    "/news/life-sciences-verification-program",
    "/news/model-hardware-standard-research-preview",
+   "/news/public-benefit-fund",
    "/news/singapore-office-opening",
    "/news/tino-cuellar",
    "/news/wellbeing-research-grants"
@@ -1591,47 +1605,6 @@
   ]
  },
  "runs": [
-  {
-   "at": "2026-09-28T11:37:16+00:00",
-   "slot": "evening",
-   "candidates": 87,
-   "new": 48,
-   "stale": 6,
-   "judged": 48,
-   "selected": 19,
-   "mirrored": 17,
-   "by_category": {
-    "观点": 2,
-    "技术": 2,
-    "项目": 3,
-    "资讯": 12
-   },
-   "by_source": {
-    "HF Daily Papers": 4,
-    "Hacker News": 5,
-    "量子位": 5,
-    "极客公园": 5,
-    "IT之家": 14,
-    "爱范儿": 3,
-    "少数派": 2,
-    "雷峰网": 9,
-    "钛媒体": 6,
-    "InfoQ 中文": 5,
-    "Simon Willison": 1,
-    "Stratechery": 1,
-    "SemiAnalysis": 1,
-    "Arvind Narayanan": 1,
-    "Azeem Azhar": 1,
-    "Zvi Mowshowitz": 1,
-    "科学空间": 1,
-    "Hugging Face Blog": 1,
-    "METR": 1,
-    "GitHub Trending": 7,
-    "GitHub 新项目": 13
-   },
-   "llm": true,
-   "translated": 0
-  },
   {
    "at": "2026-09-28T18:33:39+00:00",
    "slot": "morning",
@@ -4106,6 +4079,41 @@
     "NVIDIA": 1,
     "GitHub Trending": 12,
     "GitHub 新项目": 8
+   },
+   "llm": true,
+   "translated": 0
+  },
+  {
+   "at": "2026-10-19T03:33:15+00:00",
+   "slot": "noon",
+   "candidates": 67,
+   "new": 28,
+   "stale": 16,
+   "judged": 28,
+   "selected": 13,
+   "mirrored": 12,
+   "by_category": {
+    "技术": 1,
+    "资讯": 12
+   },
+   "by_source": {
+    "HF Daily Papers": 5,
+    "Hacker News": 3,
+    "量子位": 5,
+    "极客公园": 2,
+    "IT之家": 11,
+    "爱范儿": 2,
+    "雷峰网": 1,
+    "钛媒体": 4,
+    "InfoQ 中文": 8,
+    "Nathan Lambert": 1,
+    "Latent Space": 1,
+    "Nathan Benaich": 1,
+    "Zvi Mowshowitz": 1,
+    "NVIDIA": 1,
+    "Anthropic": 1,
+    "GitHub Trending": 13,
+    "GitHub 新项目": 7
    },
    "llm": true,
    "translated": 0
