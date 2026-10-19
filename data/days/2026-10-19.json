@@ -734,42 +734,916 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-563f8ee1c5bf",
+   "kind": "article",
+   "title": "google/artemis",
+   "url": "https://github.com/google/artemis",
+   "pdf_url": "",
+   "abstract": "Star google / artemis ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code. It also achieves 99%+ success rate on AndroidWorld Benchmark.\nREADME: Let AI assistants and test suites use real phones like a human. English • 中文文档 • Workflow Showcase • Quick Start • MCP for IDEs • Benchmarks • Discord Community Live Demo: Setup driving routes and calculate total durations in Google Maps, then open YouTube to play a Coldplay song. ## Key Highlights * **Cross-App Automation**: Executes testing workflows and everyday tasks on Android from natural language instructions. * **Multimodal Targeting**: Uses element indices when available, with coordinate and visual locating fallbacks for custom interfaces. * **IDE Diagnostics**: **Model Context Protocol (MCP)** integration lets **Antigravity, Claude Code, and Windsurf** drive test devices and collect **Logcat** output and screenshots. * **Flash Execution**: A reactive observe-and-act loop with asynchronous history summaries, typically **3–5s per step**. * **Pro Exploration**: Checks targets before individual actions and returns blocked actions to the Operator for recovery. Supports long-running exploratory and stability tests. * **AndroidWorld Results**: **99%+ task completion** on Google Research's **AndroidWorld** benchmark (100+ multi-step tasks). ## Antigravity × ARTEMIS: Autonomous Testing Workflow **Antigravity** uses **ARTEMIS** through MCP to turn a test request into a plan, device execution, and a diagnostic report: 1. Prompt Input (Task Dispatch) Describe your test scenario and target metrics in Antigravity 2. Test Plan Generation Formulates a step-by-step test plan & archi",
+   "authors": [],
+   "orgs": [
+    "google"
+   ],
+   "published": "2026-10-19T10:39:56+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/google/artemis",
+     "signal": "★ 今日 +526 · Python",
+     "metric": 526
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "谷歌开源 Artemis：用自然语言驱动安卓自动化",
+   "summary_zh": "谷歌开源 Artemis，可将自然语言指令转为可靠的安卓自动化操作，支持跨应用工作流、日志捕获，并通过 MCP 接入 Claude Code 等 AI 编程助手，在 AndroidWorld 基准上任务完成率超 99%。",
+   "highlights_zh": [
+    "支持跨应用自动化，用自然语言执行测试与日常任务",
+    "通过 MCP 集成 Antigravity、Claude Code、Windsurf，可驱动真机并回传 Logcat 与截图",
+    "AndroidWorld 基准任务完成率 99%+，单步约 3–5 秒"
+   ],
+   "why_zh": "如果你在做安卓自动化测试或智能体工具链，可用它把真机接入 Claude Code 等助手跑端到端流程。",
+   "tags": [
+    "智能体",
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6771,
+   "score_llm": 8.0,
+   "score": 0.7508,
+   "date": "2026-10-19",
+   "slot": "evening",
+   "selected_at": "2026-10-19T10:39:56+00:00",
+   "mirror_pdf": "pdf/web-563f8ee1c5bf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/google/artemis"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ce421a1bd3e8",
+   "kind": "article",
+   "title": "Datacenters 2027: The Year of Acceleration, +50GW in a Single Year",
+   "url": "https://newsletter.semianalysis.com/p/datacenters-2027-the-year-of-acceleration",
+   "pdf_url": "",
+   "abstract": "60GW Under Construction, SemiAnalysis Leading Indicators, 1.3T of Lease Contracts Signed YTD, The Shortage Could Move to Chips",
+   "authors": [
+    "Jeremie Eliahou Ontiveros"
+   ],
+   "orgs": [
+    "SemiAnalysis"
+   ],
+   "published": "2026-10-19T05:39:38+00:00",
+   "sources": [
+    {
+     "name": "SemiAnalysis",
+     "authority": 0.8,
+     "url": "https://newsletter.semianalysis.com/p/datacenters-2027-the-year-of-acceleration",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "半导体与算力分析",
+   "title_zh": "2027：数据中心加速之年，单年新增50GW",
+   "summary_zh": "SemiAnalysis 指出 2027 年数据中心将单年新增 50GW，在建 60GW、年内已签 1.3 万亿美元租约，瓶颈可能从电力转向芯片。",
+   "highlights_zh": [
+    "2027 年单年新增 50GW，在建规模达 60GW",
+    "年内已签署 1.3 万亿美元租约合同",
+    "短缺瓶颈可能从电力/数据中心转向芯片供应"
+   ],
+   "why_zh": "把握 AI 算力基建的供需拐点与投资节奏。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.708,
+   "date": "2026-10-19",
+   "slot": "evening",
+   "selected_at": "2026-10-19T10:39:56+00:00",
+   "mirror_pdf": "pdf/web-ce421a1bd3e8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://newsletter.semianalysis.com/p/datacenters-2027-the-year-of-acceleration"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5203416b1e16",
+   "kind": "article",
+   "title": "VAST开源实时世界模型EdenLive！单消费级显卡、720P超24FPS",
+   "url": "https://www.qbitai.com/2026/10/504136.html",
+   "pdf_url": "",
+   "abstract": "让人人都能自由创造并体验可交互世界",
+   "authors": [
+    "听雨"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-18T11:49:49+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/504136.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "VAST 开源实时世界模型 EdenLive：单卡 720P 超 24FPS",
+   "summary_zh": "VAST 开源实时世界模型 EdenLive，可在单张消费级显卡上以 720P、超 24FPS 生成可交互世界，降低世界模型创作门槛。",
+   "highlights_zh": [
+    "单消费级显卡即可实时生成 720P 可交互世界",
+    "帧率超过 24FPS，支持实时交互体验",
+    "开源发布，面向内容创作与交互场景"
+   ],
+   "why_zh": "世界模型实时化是重要方向，关注其架构与消费级硬件上的落地能力。",
+   "tags": [
+    "多模态",
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-10-19",
+   "slot": "evening",
+   "selected_at": "2026-10-19T10:39:56+00:00",
+   "mirror_pdf": "pdf/web-5203416b1e16.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/504136.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-631a7d12aeb5",
+   "kind": "article",
+   "title": "Do You Trust Apple?",
+   "url": "https://stratechery.com/2026/do-you-trust-apple/",
+   "pdf_url": "",
+   "abstract": "Apple has a lot of trust in terms of delivering integrated products and preserving privacy; the real trust question is if you think Siri AI will justify investing more in their ecosystem.",
+   "authors": [
+    "Ben Thompson"
+   ],
+   "orgs": [
+    "Stratechery"
+   ],
+   "published": "2026-10-19T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "Stratechery",
+     "authority": 0.8,
+     "url": "https://stratechery.com/2026/do-you-trust-apple/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Ben Thompson，科技战略分析",
+   "title_zh": "你信任苹果吗？",
+   "summary_zh": "Ben Thompson 认为，苹果在整合产品与隐私保护上仍值得信任，但真正的信任考验在于 Siri AI 能否让用户愿意继续加码苹果生态。",
+   "highlights_zh": [
+    "苹果的信任资产在于整合体验与隐私，而非单点 AI 能力",
+    "Siri AI 是检验用户是否继续投资苹果生态的关键",
+    "对苹果 AI 战略持观望态度，信任需用产品兑现"
+   ],
+   "why_zh": "从战略分析视角理解苹果 AI 的信任逻辑与生态护城河。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.648,
+   "date": "2026-10-19",
+   "slot": "evening",
+   "selected_at": "2026-10-19T10:39:56+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://stratechery.com/2026/do-you-trust-apple/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d2e2b582e272",
+   "kind": "article",
+   "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+   "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-18T21:09:12Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50145507",
+     "signal": "173 pts",
+     "metric": 173
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "不自建 LLM 代理，你怎么知道发生了什么？",
+   "summary_zh": "Hacker News 讨论自建 LLM 代理的价值：掌握请求日志、成本与延迟，避免对第三方网关的黑箱依赖。",
+   "highlights_zh": [
+    "自建代理可观测每次模型调用的成本、延迟与失败",
+    "便于做路由、限流、缓存与密钥管理",
+    "第三方网关存在黑箱与供应商锁定风险"
+   ],
+   "why_zh": "如果你在生产环境调用多家模型 API，可参考此文评估自建代理网关的必要性。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5619,
+   "score_llm": 7.0,
+   "score": 0.6448,
+   "date": "2026-10-19",
+   "slot": "evening",
+   "selected_at": "2026-10-19T10:39:56+00:00",
+   "mirror_pdf": "pdf/web-d2e2b582e272.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50145507"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c60a8be61f89",
+   "kind": "article",
+   "title": "Git 被换掉，LLM 被替代：AI 编码开始反噬传统工具链？",
+   "url": "https://www.leiphone.com/category/ai/wHcf2tZUiQkXGM0i.html",
+   "pdf_url": "",
+   "abstract": "Anthropic 代码量暴涨，GitHub 密钥扫描又慢又贵，两家被迫改造系统。 作者丨 郑佳美 编辑丨岑 峰 Git 已经支撑软件开发二十多年，Anthropic 却决定把它换掉。 为了让 Claude 持续生成的代码顺利进入开发流程，7 名工程师花了 5 个月，开发出版本控制系统 Scion，并将核心代码仓库迁移过去。 今年 5 月，Anthropic 每天平均合并约 2500 项代码变更，到 9 月已超过 3 万项，仅 CI 系统每天就要执行约 2500 万次代码检出。写代码的速度上来了，准备仓库、同步对象和查询历史却越来越费机器。 几乎同一时期，GitHub 用微调后的 ModernBERT 替换密钥扫描中的通用 LLM 判断。哥伦比亚大学与 Google DeepMind 等机构则通过 BTTF，把芯片仿真波形转换成 SQLite，让 Agent 使用 SQL 排查异常。 Scion 默认在线，BTTF 将波形变成查询接口，GitHub 把高频判断交给分类器。围绕人类开发节奏设计的系统，开始承受 Agent 带来的另一种负载。 01 Git 的离线能力，为什么成了负担 Git 的分布式设计让工程师克隆仓库后，即使断网也能提交、合并、查看历史。但 Anthropic 大量读取代码的任务是始终联网的 CI 作业和 Agent 沙箱，运行几分钟便销毁，可能只需要几个文件、一份 diff，或确认两个提交的祖先关系。为了这些操作准备本地仓库，重复成本越来越高。 Anthropic 主分支历史接近 100 GB，压缩工作副本超过 25 GB。若每天 2500 万次检出分别获取完整副本，理论流量会超过 600 PB。公司虽用浅克隆、稀疏检出、快照和数百台 Git 镜像，但镜像仍要同步、快照会过期，历史查询还需补齐对象。仓库越活跃，维护成本越高。 Scion 将客户端缩成轻量入口。提交创建、合并、变基与历史查询放到中心服务，本地仅监测文件变化、维护少量缓存，需要工作目录时按需展开。CI 若只想计算 diff，可以直接调用 API，无须完整检出。这牺牲了离线自治，却减少重复初始化。 提交格式也变了。Git commit 指向描述仓库状态的目录树，Scion 的 changeset 则以预写日志条目记录相对首个父提交修改过的文件，通过内容寻址指针引用数据。 创建 changeset 无须生成 Git packfile，也不用立即移动共享分支，只有 main 等引用更新时，系统才对 Spanner 中的单行记录执行 compare-and-swap。Agent 可以并发生成变更，竞争集中到分支引用移动时。 但历史查询仍有难题：增量记录无法直接回答某行是谁改的、文件经历过什么。Scion 为 blame、路径历史与提交图跳表维护 derived data，按父提交关系预计算，或等查询发生后再生成。写入与历史分析可以独立扩展。雷峰网 检出时，scn 客户端从目标目录树开始，只请求缺失的 tree 和 blob。请求依次经过节点上的 scion-daemon、区域 scion-cache，再由 scion-server 回源到 Spanner 或对象存储。 对象写入后不可变，缓存能够跨任务复用，减少协商、压缩及反复传输。Anthropic 称缓存命中率超过 99%，并限制故障时的回源流量。 迁移后，Scion 相较旧 Git 镜像体系的 CPU 和内存需求约缩小 200 倍，检出从分钟级降至秒级，CI 释放约 25% 的 CPU 容量。 200 倍说的是基础设施",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-19T04:27:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/wHcf2tZUiQkXGM0i.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic 弃用 Git：AI 编码倒逼工具链重构",
+   "summary_zh": "Anthropic 因 Claude 日均合并代码从 2500 项增至 3 万项，7 人耗时 5 个月自研版本控制系统 Scion 替代 Git，GitHub 也用微调 ModernBERT 替换密钥扫描中的通用 LLM。",
+   "highlights_zh": [
+    "Scion 将提交、合并、历史查询移至中心服务，客户端仅按需拉取文件，缓存命中率超 99%",
+    "主分支历史近 100GB，2500 万次日检出若全量克隆理论流量超 600PB",
+    "GitHub 用分类器替代 LLM 做高频密钥判断，成本与延迟双降"
+   ],
+   "why_zh": "揭示 Agent 高并发负载正倒逼 Git 等人类节奏工具链重构，工程决策参考价值高。",
+   "tags": [
+    "智能体",
+    "代码",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-19",
+   "slot": "evening",
+   "selected_at": "2026-10-19T10:39:56+00:00",
+   "mirror_pdf": "pdf/web-c60a8be61f89.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/wHcf2tZUiQkXGM0i.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9d0f79dbc945",
+   "kind": "article",
+   "title": "usestrix/strix",
+   "url": "https://github.com/usestrix/strix",
+   "pdf_url": "",
+   "abstract": "Star usestrix / strix Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+   "authors": [],
+   "orgs": [
+    "usestrix"
+   ],
+   "published": "2026-10-19T10:39:56+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/usestrix/strix",
+     "signal": "★ 今日 +476 · Python",
+     "metric": 476
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Strix：开源 AI 渗透测试工具",
+   "summary_zh": "开源 AI 渗透测试工具 Strix，可自动发现并修复应用漏洞，面向安全测试场景。",
+   "highlights_zh": [
+    "用 AI 智能体自动执行渗透测试流程",
+    "定位并辅助修复应用漏洞",
+    "GitHub Trending 单日新增 476 星"
+   ],
+   "why_zh": "如果你在做应用安全测试，可用它把漏洞扫描与修复建议自动化。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.593,
+   "score_llm": 6.0,
+   "score": 0.5972,
+   "date": "2026-10-19",
+   "slot": "evening",
+   "selected_at": "2026-10-19T10:39:56+00:00",
+   "mirror_pdf": "pdf/web-9d0f79dbc945.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/usestrix/strix"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-aece973ff9a8",
+   "kind": "article",
+   "title": "客户为什么愿意为端侧 AI 买单？五位一线操盘手讲透了",
+   "url": "http://www.geekpark.net/news/372578",
+   "pdf_url": "",
+   "abstract": "过去几年，AI 行业热衷于比参数、拼算力、讲融资。但模型一旦离开展台，客户的问题立刻具体起来：数据会不会泄露？设备能不能 24 小时运行？响应够不够快？噪声大不大？ 这些问题，正把端侧 AI 推到产业舞台中央。 10 月 14 日，后摩智能在北京开了一场生态合作伙伴大会。期间，极客公园创始人 & CEO 张鹏主持了一场圆桌，五位来自不同赛道的人坐到了一起：麒麟软件副总经理 / 生态发展中心总经理姚翎、聊趣智能科技创始人兼 CEO 黄隽实、罗格数据 CTO 刘学鹏、寅谱计算 CMO 陈展凌、后摩智能 AI 系统总工程师陈仲铭。 他们分别来自操作系统、应用、数据工程、整机集成和芯片领域，讨论的是同一件事：端侧 AI 什么时候才能真正成为一门生意？ 黄隽实讲了一个养老院里的故事。他们在上海落地了一套「数字家人」，陪老人聊天、提醒用药、辅助防诈骗。老人每天说了什么、身体状况如何，都是极其敏感的信息，不能随意上传云端；系统又要全天值守，设备还不能嗡嗡作响。到了这样的现场，隐私、算力、功耗和噪声都不再是技术指标，而是老人愿不愿意使用的前提。 在企业市场，答案同样清晰。刘学鹏认为，客户最关心的是私域化专属。「AI 未来会成为企业的数字专家或数字员工，这种触及核心业务的『员工』，必须招进公司内部，而不是变成外部的云端服务。」当模型开始读取发票、财报、订单和客户资料，数据边界就不再是附加选项，而是商业落地的前提。 对央企及关键岗位而言，安全门槛更加严格。姚翎表示，只要 AI 工具部署在互联网上，涉密数据就绝对不能碰。大模型甚至可能从不同时段上传的碎片信息中，拼凑出完整内容。「本地安全是重中之重，没有任何商量的余地，安全就是一切的前提。」 不过，需求成立，不等于生意成立。 陈展凌直言，客户未必在意省了多少 Token，他们更关心体验。首字出来要多久，机器是否安静，系统会不会卡顿，能否连续稳定运行，这些看似琐碎的问题，决定了产品是被长期使用，还是演示结束后被塞进柜子。 端侧 AI 的难点，不只是把大模型装进小设备，更是把通用能力变成可持续交付的专业服务。模型发布后能否及时适配，硬件成本能否降到客户可接受的范围，软件伙伴能否低门槛开发，都会影响商业化的速度。 而在底层，端侧算力还要面对算力、带宽与功耗的「不可能三角」。陈仲铭说，后摩要做的，就是不断把这三条边界向外推，并通过开放软件、接口和 API，让更多开发者参与进来。 在对话的最后，刘学鹏给了一个大胆的判断：在中国，AI 真正落地，一定是「端侧为主，云端为辅」。端侧是个人和企业的专属大脑，云端是负责知识流动的社会大脑。 这个判断对不对，日后会见分晓。但有一点已经很确定：AI 从「能聊天」走向「能干活」，就要吃进你最核心、最不愿示人的数据。到那时，算力放在哪里，就不再只是技术选型题，而是一道信任题。 大模型的上半场，人们争相让机器变聪明。下半场，比拼的是如何让智能走出云端，进入千行百业。最后的赢家，未必拥有最大的模型，但一定最早跨过那「最后一百米」。 以下是张鹏和姚翎、黄隽实、刘学鹏、陈展凌、陈仲铭的对话内容，部分有删减。 01 安全、私域、体验：端侧 AI 商业化的三道真实门槛 张鹏：去年大家都在说端侧 AI 元年，今年变成了「商业化元年」。在真实的落地过程中，客户掏钱时最在意的是什么？ 黄隽实： 落地过程中的挑战其实非常多。我们在上海一家养老机构落地了「数字家人」场景，主要为了缓解老年人因孤独引发的各类并发症。 在这个场景里，我们特别关注几个核心诉求：首先是安全隐私。家庭场景的私密信息极度敏感，特别是与公办或民营机",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-19T10:10:03+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372578",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "端侧 AI 商业化：五位一线操盘手谈客户为何买单",
+   "summary_zh": "极客公园圆桌中，五位来自 OS、应用、数据、整机与芯片的一线操盘手认为，隐私、私域化与实时体验是客户为端侧 AI 买单的核心，端侧为主、云端为辅或成中国落地路径。",
+   "highlights_zh": [
+    "养老、企业私域与央企涉密场景对本地安全有硬性要求",
+    "客户更在意首字延迟、噪声与稳定性，而非省 Token",
+    "端侧算力受算力、带宽、功耗「不可能三角」约束"
+   ],
+   "why_zh": "想判断端侧 AI 商业化节奏与客户真实付费逻辑的从业者值得一读。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-10-19",
+   "slot": "evening",
+   "selected_at": "2026-10-19T10:39:56+00:00",
+   "mirror_pdf": "pdf/web-aece973ff9a8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372578"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b17d2dd649c6",
+   "kind": "article",
+   "title": "Muse Wonder 建模大翻车，亚历山大·王辩护遭马斯克无情补刀",
+   "url": "https://www.leiphone.com/category/ai/jKVjygWUe9Aj0QEd.html",
+   "pdf_url": "",
+   "abstract": "官方承认 3D 短板，跨模型测试 Harness 不同。 作者丨 郑佳美 编辑丨岑 峰 Meta 刚发布的 Muse Wonder，没想到因为一盏熔岩灯，在开发者社区引发了一场关于 AI 模型跑分的争论。 10 月 12 日，Meta 推出 Muse Wonder 和 Muse Wonder Full，主打 Coding Agent、工具调用和长任务执行能力。官方公布的成绩相当亮眼，Wonder Full 在 SWE-Marathon 上拿到 57.5 分，DeepSWE 1.1 达到 79.0 分，已经能够与同期的前沿模型展开竞争。 然而，开发者社区 BridgeMind 随后安排了一项 3D 编程测试，要求 Muse Wonder 制作一盏具有透明玻璃外壳、动态熔岩和光照效果的熔岩灯。 结果模型只生成了一个红色圆柱体。 BridgeMind 随即质疑 Muse Wonder 存在严重的 Benchmaxxing，也就是针对 Benchmark 进行大量优化，成绩看着漂亮，碰上陌生任务却露了怯。 连马斯克也忍不住下场，在相关帖子下意味深长地回了一句 Hmm。短短一个词，虽然没有明确表态，却让这场围绕 Meta 新模型的刷分争议又添了几分戏剧性。 Meta 首席 AI 官 Alexandr Wang 很快回应，团队确实没有针对 3D 演示游戏进行显式训练，事后看来或许应该补充相关训练，但他仍然希望开发者实际体验 Muse Wonder 的 Coding 能力。雷峰网 这场争论有一个重要前提：熔岩灯测试针对的是普通版 Muse Wonder，而 Meta 公布的部分突出成绩来自 Wonder Full，两者存在能力差异。同时，Meta 官方 Model Card 已经明确承认，视觉与空间推理，尤其是 3D 任务，属于 Muse Wonder 的已知短板。 但高分模型在陌生任务中遭遇如此明显的失败，依然让人好奇：当前大模型的训练方法究竟在强化哪些能力，Agent Benchmark 又能在多大程度上反映模型的实际水平？ 01 奖励机制， 决定模型擅长解决什么问题 Muse Wonder 的表现，与当前大模型越来越依赖 Post-training 提升任务能力的技术路线有关。 在 Pre-training 阶段，模型通过大规模数据学习语言、代码、空间关系和其他通用知识。进入 Post-training 后，训练会进一步塑造模型的行为策略，尤其是通过强化学习，让它在特定任务环境中形成更稳定的执行能力。 Coding Agent 很适合这类训练。例如，给模型一个存在 Bug 的代码仓库，要求它定位问题、修改文件并运行测试。 整个过程可以通过编译结果、单元测试和功能检查获得相对明确的反馈。强化学习系统据此判断哪些操作有效，持续强化能够提高任务成功率的行为。 训练规模扩大后，模型逐渐学会一套复杂的软件工程策略，包括如何缩小搜索范围、选择工具、处理报错，以及在多轮修改中维护任务状态。 Meta 在官方技术文章中提到，Muse Wonder 接受了多样化长任务训练，并引入 Active Focus，使模型能够在遭遇阻碍后尝试其他方案、恢复执行并继续推进任务。 但这类训练依赖一个关键条件：环境必须能够向模型提供有用的反馈。熔岩灯恰好打破了传统 Coding Agent 熟悉的反馈方式。雷峰网 从程序实现来看，熔岩灯涉及三维几何、透明材质、光照计算和动态形变。如果使用 Three.js，模型需要构造玻璃灯罩，为内部熔岩生成不规则的几何形态，再通过时间变量或噪声函数驱动",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-19T04:23:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/jKVjygWUe9Aj0QEd.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Meta Muse Wonder 熔岩灯翻车：跑分与实战之争",
+   "summary_zh": "Meta 新模型 Muse Wonder 在 SWE-Marathon 等基准高分，却在 3D 熔岩灯测试只生成红色圆柱体，被质疑 Benchmaxxing，亚历山大·王承认 3D 为已知短板。",
+   "highlights_zh": [
+    "争议前提：熔岩灯测的是普通版，高分来自 Wonder Full，能力存在差异",
+    "官方 Model Card 已承认视觉与空间推理是短板",
+    "文章剖析 RL 后训练依赖明确反馈环境，陌生任务易失效"
+   ],
+   "why_zh": "借具体案例讨论 Agent Benchmark 能否反映真实能力，对评测方法有启发。",
+   "tags": [
+    "数据与评测",
+    "智能体",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-19",
+   "slot": "evening",
+   "selected_at": "2026-10-19T10:39:56+00:00",
+   "mirror_pdf": "pdf/web-b17d2dd649c6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/jKVjygWUe9Aj0QEd.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-86cd2cc4cf18",
+   "kind": "article",
+   "title": "复旦贾萧松：VLA、WAM新架构层出不穷，但真正的瓶颈不在模型架构 | 世界模型50人",
+   "url": "https://www.leiphone.com/category/academic/omK9nE62h3kHaQg5.html",
+   "pdf_url": "",
+   "abstract": "严骏驰一通电话，贾萧松五年几次转向。 作者：李秋悦 编辑：吴彤 2021年年底，贾萧松直博上海交通大学没多久，在宿舍里接到一个电话。 电话是贾萧松的博导严骏驰打来的，问他接下来读博想研究什么？ 贾萧松的回答是继续做自动驾驶轨迹预测。 两年前，贾萧松在交大致远学院读大三，参加了加州大学伯克利分校的一个暑研项目，在控制理论学者富塚城义（Masayoshi Tomizuka）团队做研究，从车辆交互与轨迹预测入门自动驾驶领域。贾萧松想继续做老本行的打算，本无可厚非。 2019年，贾萧松到UC Berkeley访学 但严骏驰建议贾萧松换一条路，理由是预测夹在感知与决策之间，上下游都受限制，不如做端到端。 彼时的贾萧松也意识到了轨迹预测研究的尴尬之处，能改进的空间很有限，更多的是小修小补。于是，他在严骏驰和上海人工智能实验室OpenDriveLab创始人李弘扬的指导下，开始研究端到端自动驾驶。 三年后，贾萧松和合作者们研究的Think2Drive在ECCV上一经发表，就引人瞩目。 当时，强化学习在复杂驾驶环境中往往需要极其昂贵的交互成本。Think2Drive让模型在低维潜在空间里模拟交互，大幅降低了策略训练成本。他们在一张NVIDIA A6000 GPU上，用三天左右的时间，就训练出能够完成CARLA Leaderboard 2.0复杂驾驶任务的策略。 此后，贾萧松又转向闭环评测、交互式生成仿真领域。 从传统模块化到端到端，从模仿学习到强化学习，再到世界模型，贾萧松的研究经历恰好穿过了自动驾驶过去几年几次重要的技术路线变化。这些研究并非由他一个人推动，也不是整个行业在同一时间完成的线性转向。 但他的亲历提供了一个观察技术演进的视角：每一次转向发生时，旧方法究竟遇到了什么问题，又为什么需要下一种解法？ 如今，贾萧松在复旦大学可信具身智能研究院担任助理教授，研究灵巧手与Ego数据。而自动驾驶过去几年遇到的问题，正在具身智能领域以不同形式重新出现。 以下是雷峰网左林右狸频道与贾萧松的对话，在不改变原意的基础上有所编辑： 01 端到端最重要的价值是直接优化最终目标 左林右狸频道：怎么理解当时严骏驰老师关于“研究轨迹预测会受到上下游限制”的判断？ 贾萧松： 当时研究轨迹预测，通常是给定过去几帧车辆和行人的坐标，预测它们未来的位置。但问题在于，很多与预测有关的信息，可能在上游就已经丢失了。比如，一个行人招了招手，表示他准备过马路；或者前车踩下刹车，刹车灯亮起，意味着它可能减速。如果上游没有提供这些信息，我作为研究轨迹预测的人，就无法利用它们来判断未来的运动轨迹。 下游同样存在问题。我可能预测出每辆车未来六种可能的轨迹，但到了决策模块，最终可能只使用其中一种，因为下游也不知道该如何利用这么多种预测结果。 所以， 轨迹预测既受到上游信息的限制，研究成果也不一定能被下游充分利用。即使把这个模块做得再好，也未必能改善整个系统的表现。 左林右狸频道：2021年，端到端还不是行业普遍采用的方案。严骏驰和李弘扬为什么看好这条路线？你不担心做不出来吗？ 贾萧松： 严老师研究决策很多年，此前在IBM也有丰富的产业研究经验。当时他已经在研究预测决策一体化，而且取得了不错的效果，所以就进一步想把感知也加进来，让整个自动驾驶系统统一起来。李弘扬老师长期研究计算机视觉，也有自动驾驶方面的积累，从产业界角度思考出了端到端的必要性。 两位老师都观察到，深度学习在视觉等领域的发展，本身就是一个越来越端到端的过程。所以他们觉得，既然神经网络已经表现出这么强的能力，自动驾驶也值得沿着这个方向探索。 我自",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-19T03:06:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/academic/omK9nE62h3kHaQg5.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "复旦贾萧松：VLA 新架构频出，瓶颈不在模型",
+   "summary_zh": "复旦助理教授贾萧松认为，自动驾驶与具身智能的真正瓶颈不在模型架构，而在数据、闭环评测与反馈环境；他回顾从轨迹预测到端到端、世界模型的几次转向。",
+   "highlights_zh": [
+    "轨迹预测受上下游信息丢失限制，端到端可直接优化最终目标",
+    "Think2Drive 在低维潜在空间模拟交互，单卡三天训出复杂驾驶策略",
+    "自动驾驶的老问题正以不同形式在具身智能重现"
+   ],
+   "why_zh": "一线研究者亲历视角，厘清端到端、RL、世界模型的演进逻辑与真实瓶颈。",
+   "tags": [
+    "机器人",
+    "强化学习",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-19",
+   "slot": "evening",
+   "selected_at": "2026-10-19T10:39:56+00:00",
+   "mirror_pdf": "pdf/web-86cd2cc4cf18.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/academic/omK9nE62h3kHaQg5.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1ad028709573",
+   "kind": "article",
+   "title": "China’s AI Push Hits the Hard Part: Showing Returns",
+   "url": "https://www.tmtpost.com/8173542.html",
+   "pdf_url": "",
+   "abstract": "Chinese companies have rolled out models, agents and office tools at speed. Measurable payoff still lags adoption. Into 2027, budgets, workflow redesign and control of data will matter more than the next domestic benchmark win.",
+   "authors": [
+    "Chelsea_Sun"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-19T09:38:36+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8173542.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "中国 AI 进入硬仗：投入如何兑现回报",
+   "summary_zh": "钛媒体报道称中国企业快速铺开模型、Agent 与办公工具，但可量化回报仍落后于采用速度；到 2027 年预算、流程重构与数据控制比基准分数更重要。",
+   "highlights_zh": [
+    "模型与 Agent 采用速度快，但 ROI 难以衡量",
+    "未来竞争焦点转向预算分配与工作流重构",
+    "数据控制权被视为关键变量"
+   ],
+   "why_zh": "从商业化回报角度审视中国 AI 落地，对判断市场方向有参考价值。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-19",
+   "slot": "evening",
+   "selected_at": "2026-10-19T10:39:56+00:00",
+   "mirror_pdf": "pdf/web-1ad028709573.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8173542.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3e6445d6942a",
+   "kind": "article",
+   "title": "Tencent Taps Long Bonds as AI Capex Reshapes Its Balance Sheet",
+   "url": "https://www.tmtpost.com/8173510.html",
+   "pdf_url": "",
+   "abstract": "Tencent has priced another multi-currency bond package even as it holds large cash reserves. Surging spending on AI infrastructure pushed free cash flow negative in a recent quarter. The company is stretching debt maturities to fund compute before those investments fully pay back in revenue.",
+   "authors": [
+    "Chelsea_Sun"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-19T09:18:05+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8173510.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯发长债为AI算力买单，自由现金流转负",
+   "summary_zh": "腾讯在持有大量现金情况下再发多币种债券，因AI基建支出激增导致单季自由现金流转负，选择拉长债务久期以算力投资换未来收入。",
+   "highlights_zh": [
+    "AI基础设施支出激增，单季自由现金流由正转负",
+    "手握充裕现金仍发债，意在拉长债务期限匹配长期投入",
+    "反映头部大厂AI资本开支对资产负债表的实质重塑"
+   ],
+   "why_zh": "从财务视角看大厂AI军备竞赛的真实成本与融资策略变化。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-19",
+   "slot": "evening",
+   "selected_at": "2026-10-19T10:39:56+00:00",
+   "mirror_pdf": "pdf/web-3e6445d6942a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8173510.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b82798e0df69",
+   "kind": "article",
+   "title": "豆包当\"主干\"的两个月：四条Agent线归队，暴露的不是入口野心",
+   "url": "https://www.tmtpost.com/8173176.html",
+   "pdf_url": "",
+   "abstract": "飞书、TRAE、扣子相继并入豆包，个人助理\"小豆\"内测，市场普遍把这轮动作读成\"字节在抢Agent的下一代入口\"。但按时间线重排：酒旅12%的价签早于Muse爆火，组织收编早于产品发布。本文的判断是：这不是入口战争的开场，而是注意力经济收口的延续——Agent不是新入口，是平台收银台的新工装。",
+   "authors": [
+    "韩工观察"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-19T08:55:22+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8173176.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "豆包收编四条Agent线：入口野心还是收银台换装",
+   "summary_zh": "飞书、TRAE、扣子相继并入豆包，个人助理小豆内测；作者按时间线判断这是注意力经济收口，Agent是平台变现的新工装而非新入口。",
+   "highlights_zh": [
+    "飞书、TRAE、扣子三条产品线并入豆包，小豆开启内测",
+    "酒旅12%价签早于Muse爆火，组织收编早于产品发布",
+    "核心判断：Agent不是新入口，而是平台收银台的新工装"
+   ],
+   "why_zh": "对字节Agent战略的非共识解读，帮你看清大厂Agent布局的商业本质。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-19",
+   "slot": "evening",
+   "selected_at": "2026-10-19T10:39:56+00:00",
+   "mirror_pdf": "pdf/web-b82798e0df69.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8173176.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-76e62cdcd658",
+   "kind": "article",
+   "title": "算力基建的“算账时刻”：利息一涨，重资产怎么就成了吞金兽",
+   "url": "https://www.tmtpost.com/8173203.html",
+   "pdf_url": "",
+   "abstract": "AI算力基建、估值重估、“二房东”模式、重资产泡沫。",
+   "authors": [
+    "舒书"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-19T08:30:46+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8173203.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "算力基建的算账时刻：利息一涨，重资产成吞金兽",
+   "summary_zh": "文章剖析AI算力基建的重资产模式：利率上行叠加估值重估，二房东式租赁模式承压，揭示算力泡沫与回报周期的错配风险。",
+   "highlights_zh": [
+    "算力租赁二房东模式在利率上行中利润被侵蚀",
+    "重资产投入与收入回报周期存在明显错配",
+    "提示算力基建估值重估与泡沫风险"
+   ],
+   "why_zh": "给算力投资热潮泼冷水的算账视角，适合关注基建回报的人。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-19",
+   "slot": "evening",
+   "selected_at": "2026-10-19T10:39:56+00:00",
+   "mirror_pdf": "pdf/web-76e62cdcd658.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8173203.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-dd4f87c1cee5",
+   "kind": "article",
+   "title": "阿里达摩院发布车规增强处理器玄铁 E908A，首发车规产品路线图",
+   "url": "https://www.ithome.com/1/014/960.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 19 日消息，据阿里巴巴达摩院，10 月 19 日，RISC-V 中国峰会在深圳举行。作为开源 CPU 指令集架构，RISC-V 正快速追赶 X86 和 Arm，并进入 AI、服务器、车载等高价值领域。 达摩院在会上透露，玄铁 RISC-V 处理器通过架构创新、软件兼容与生态合作，显著提升在 AgenticAI 和服务器等领域的表现，推动高性能 RISC-V 从“可用”到“可靠”，迈向大规模量产落地。同时，发布面向自动驾驶和具身智能的处理器产品路线图，推动 RISC-V 进入全新领域。 据行业机构预测，RISC-V 处理器年出货量正保持 50% 的高速增长， 到 2030 年市场占有率将达到约 25% 。达摩院在今年 3 月发布 玄铁 C950，刷新全球 RISC-V 性能纪录。 达摩院首席科学家孟建熠介绍，玄铁 C950 已成为高性能 RISC-V 技术演进的创新底座。面向服务器级高性能场景，玄铁多核互联产品 XT-LINK 帮助 C950 不断升级多核性能线性度。面向 AI 类应用，玄铁全系列产品加速通用计算、矩阵加速、内存带宽和软件协同一体化，玄铁 C950 在四类 Agentic 工作负载上的表现良好，相比主流传统架构处理器提升 10% 以上。其运行云端 MoE 与端侧 Dense 模型的性能也有了进一步提升。例如，针对今年 8 月发布的 Qwen3.8-Flash-Next，推理速度达到 43token / 秒。 达摩院在峰会上发布了车规增强处理器玄铁 E908A，成为首款同时达到 ASIL-B 和 ASIL-D 标准的 RISC-V CPU IP， 单点安全度量（SPFM）在业内首次超过 90% ，为安全岛、域控、车载网关等场景提供安全可靠的实时计算底座。达摩院还首次发布了自动驾驶和具身智能产品路线图，下一代 C950A 目标性能将达到现有 RISC-V 车规产品的 5 倍。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-19T09:45:11+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/014/960.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "达摩院发布车规 RISC-V 处理器玄铁 E908A",
+   "summary_zh": "达摩院发布首款同时达 ASIL-B/D 的 RISC-V CPU IP，并公布自动驾驶与具身智能路线图。",
+   "highlights_zh": [
+    "E908A 单点安全度量首超 90%",
+    "C950 跑 Qwen3.8-Flash-Next 达 43 token/s",
+    "下一代 C950A 目标性能提升 5 倍"
+   ],
+   "why_zh": "RISC-V 进军车规与具身智能，是 AI 算力底座的重要动向。",
+   "tags": [
+    "效率与系统",
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-19",
+   "slot": "evening",
+   "selected_at": "2026-10-19T10:39:56+00:00",
+   "mirror_pdf": "pdf/web-dd4f87c1cee5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/014/960.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c875e80c9abb",
+   "kind": "article",
+   "title": "DeepSeek V4.1 Flash 1017 (Max)",
+   "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-19T04:41:46Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50148452",
+     "signal": "150 pts",
+     "metric": 150
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "DeepSeek V4.1 Flash 1017（Max）现身",
+   "summary_zh": "Hacker News 出现 DeepSeek V4.1 Flash 1017（Max）相关讨论，具体发布信息尚不明确。",
+   "highlights_zh": [
+    "疑似 DeepSeek 新版本模型曝光",
+    "社区关注其性能与定价",
+    "缺乏官方确认信息"
+   ],
+   "why_zh": "信息量有限且未经证实，建议等待官方发布后再跟进。",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.5552,
+   "score_llm": 5.0,
+   "score": 0.5221,
+   "date": "2026-10-19",
+   "slot": "evening",
+   "selected_at": "2026-10-19T10:39:56+00:00",
+   "mirror_pdf": "pdf/web-c875e80c9abb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50148452"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
    "trend": "隐空间推理与文本行动融合，成为智能体架构新拐点",
-   "why": "HybridAgents 动态切换隐式思考与工具调用，11 项基准稳定超越纯文本与纯隐式方案。",
+   "why": "HybridAgents 在 11 个基准稳定超越纯文本与纯隐式方法，兼顾工具调用与可检查性。",
    "refs": [
     "arxiv-2610.18861"
    ]
   },
   {
-   "trend": "开源模型竞争从参数转向编码实战，榜单公信力受质疑",
-   "why": "Meta 联手苹果号称全美最强开源，编码基准却输给智谱与 Kimi，实力与榜单脱节。",
+   "trend": "基准分数与实战表现脱节，评测方法正被迫重构",
+   "why": "Meta Muse Wonder 高分却在 3D 测试翻车，复旦亦指瓶颈在闭环评测而非模型架构。",
    "refs": [
+    "web-b17d2dd649c6",
+    "web-86cd2cc4cf18",
     "web-2009e586e757"
    ]
   },
   {
-   "trend": "搜索与抓取 API 价格战开启，Agent 数据入口成争夺焦点",
-   "why": "DeepSeek 以每千次 5 元开放 Search/Fetch，并对 Claude Code、Codex 阶段性免费。",
+   "trend": "AI 编码量级倒逼工具链自研重构，Git 等基础设施被替换",
+   "why": "Anthropic 日均合并代码从 2500 增至 3 万项，7 人 5 个月自研 Scion 替代 Git。",
    "refs": [
+    "web-c60a8be61f89",
+    "web-4ea315f209f6"
+   ]
+  },
+  {
+   "trend": "算力重资产进入算账期，融资与回报周期错配风险上升",
+   "why": "腾讯自由现金流转负仍发长债，2027 年单年新增 50GW 且瓶颈或转向芯片。",
+   "refs": [
+    "web-3e6445d6942a",
+    "web-76e62cdcd658",
+    "web-ce421a1bd3e8"
+   ]
+  },
+  {
+   "trend": "Agent 入口争夺转向平台收口与自建可控，黑箱网关受质疑",
+   "why": "豆包收编四条 Agent 线，HN 讨论强调自建代理以掌握日志、成本与延迟。",
+   "refs": [
+    "web-b82798e0df69",
+    "web-d2e2b582e272",
     "web-a4f16018e320"
-   ]
-  },
-  {
-   "trend": "AI 安全监管门槛过高，实际约束力被稀释",
-   "why": "Anthropic 支持的法案需 50 人死亡或 10 亿美元损失才触发，监管形同虚设。",
-   "refs": [
-    "web-b9a4c6eaaadf"
-   ]
-  },
-  {
-   "trend": "国产算力供给改善，GPU 厂商进入盈利兑现期",
-   "why": "沐曦前三季度营收翻倍并扭亏为盈，国产 GPU 从投入期转向规模化收入。",
-   "refs": [
-    "web-3080d827bef8"
    ]
   }
  ]

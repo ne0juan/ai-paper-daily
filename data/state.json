@@ -1357,7 +1357,23 @@
   "web-80a7fc07ff21": "2026-10-19",
   "web-3080d827bef8": "2026-10-19",
   "web-9ebcb689cc6b": "2026-10-19",
-  "web-fd4524b1c209": "2026-10-19"
+  "web-fd4524b1c209": "2026-10-19",
+  "web-563f8ee1c5bf": "2026-10-19",
+  "web-ce421a1bd3e8": "2026-10-19",
+  "web-5203416b1e16": "2026-10-19",
+  "web-631a7d12aeb5": "2026-10-19",
+  "web-d2e2b582e272": "2026-10-19",
+  "web-c60a8be61f89": "2026-10-19",
+  "web-9d0f79dbc945": "2026-10-19",
+  "web-aece973ff9a8": "2026-10-19",
+  "web-b17d2dd649c6": "2026-10-19",
+  "web-86cd2cc4cf18": "2026-10-19",
+  "web-1ad028709573": "2026-10-19",
+  "web-3e6445d6942a": "2026-10-19",
+  "web-b82798e0df69": "2026-10-19",
+  "web-76e62cdcd658": "2026-10-19",
+  "web-dd4f87c1cee5": "2026-10-19",
+  "web-c875e80c9abb": "2026-10-19"
  },
  "known_links": {
   "https://www.anthropic.com/news": [
@@ -1605,50 +1621,6 @@
   ]
  },
  "runs": [
-  {
-   "at": "2026-09-28T18:33:39+00:00",
-   "slot": "morning",
-   "candidates": 104,
-   "new": 62,
-   "stale": 12,
-   "judged": 62,
-   "selected": 19,
-   "mirrored": 17,
-   "by_category": {
-    "观点": 3,
-    "项目": 3,
-    "资讯": 11,
-    "技术": 2
-   },
-   "by_source": {
-    "HF Daily Papers": 4,
-    "Hacker News": 8,
-    "量子位": 6,
-    "极客公园": 12,
-    "IT之家": 13,
-    "爱范儿": 3,
-    "少数派": 2,
-    "雷峰网": 12,
-    "钛媒体": 5,
-    "InfoQ 中文": 5,
-    "Simon Willison": 1,
-    "Jack Clark": 1,
-    "Stratechery": 1,
-    "Arvind Narayanan": 1,
-    "Azeem Azhar": 2,
-    "Tomasz Tunguz": 1,
-    "Zvi Mowshowitz": 2,
-    "科学空间": 1,
-    "Hugging Face Blog": 1,
-    "METR": 1,
-    "OpenAI": 1,
-    "Mistral": 1,
-    "GitHub Trending": 7,
-    "GitHub 新项目": 13
-   },
-   "llm": true,
-   "translated": 0
-  },
   {
    "at": "2026-09-29T04:35:03+00:00",
    "slot": "noon",
@@ -4112,6 +4084,42 @@
     "Zvi Mowshowitz": 1,
     "NVIDIA": 1,
     "Anthropic": 1,
+    "GitHub Trending": 13,
+    "GitHub 新项目": 7
+   },
+   "llm": true,
+   "translated": 0
+  },
+  {
+   "at": "2026-10-19T10:39:56+00:00",
+   "slot": "evening",
+   "candidates": 96,
+   "new": 43,
+   "stale": 24,
+   "judged": 43,
+   "selected": 16,
+   "mirrored": 15,
+   "by_category": {
+    "项目": 2,
+    "观点": 2,
+    "资讯": 12
+   },
+   "by_source": {
+    "HF Daily Papers": 16,
+    "Hacker News": 5,
+    "量子位": 5,
+    "极客公园": 4,
+    "IT之家": 13,
+    "爱范儿": 4,
+    "雷峰网": 7,
+    "钛媒体": 7,
+    "InfoQ 中文": 9,
+    "Nathan Lambert": 1,
+    "Stratechery": 1,
+    "SemiAnalysis": 1,
+    "Nathan Benaich": 1,
+    "Zvi Mowshowitz": 1,
+    "NVIDIA": 1,
     "GitHub Trending": 13,
     "GitHub 新项目": 7
    },
