@@ -1,0 +1,1072 @@
+{
+ "date": "2026-10-20",
+ "items": [
+  {
+   "id": "web-e1ae3822da34",
+   "kind": "article",
+   "title": "Import AI 477: In which I tell the IMF the Singularity has begun",
+   "url": "https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun/",
+   "pdf_url": "",
+   "abstract": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Here’s a speech I gave on Saturday the 17th of October at the IMF meeting in Bangkok. This speech is inspired by the megatrend readers have […]",
+   "authors": [
+    "Jack Clark"
+   ],
+   "orgs": [
+    "Jack Clark"
+   ],
+   "published": "2026-10-19T12:31:37+00:00",
+   "sources": [
+    {
+     "name": "Jack Clark",
+     "authority": 0.85,
+     "url": "https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Anthropic 联合创始人",
+   "title_zh": "Jack Clark 向 IMF 演讲：奇点已经开始",
+   "summary_zh": "Anthropic 联合创始人 Jack Clark 在 IMF 曼谷会议上发表演讲，认为 AI 的「奇点」已经启动，并围绕这一判断阐述对经济与治理的冲击。",
+   "highlights_zh": [
+    "Anthropic 联合创始人、Import AI 主笔 Jack Clark 的公开演讲全文",
+    "核心判断：奇点不是未来事件，而是正在发生的进程",
+    "面向 IMF 这类宏观经济与政策机构，讨论 AI 对经济治理的冲击"
+   ],
+   "why_zh": "头部 AI 公司创始人对行业拐点的明确判断，是把握趋势的一手观点。",
+   "tags": [
+    "大模型",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 9.0,
+   "score": 0.776,
+   "date": "2026-10-20",
+   "slot": "morning",
+   "selected_at": "2026-10-19T17:24:51+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6ae0cbf3a951",
+   "kind": "article",
+   "title": "连续化 Softmax Attention",
+   "url": "https://kexue.fm/archives/11980",
+   "pdf_url": "",
+   "abstract": "Softmax Attention想必大家已经不陌生，它是定义在有限向量集合下的一个加权混合算子。近日，论文《Continuum Attention》提出了一个很有意思的想法——将注意力连续化。...",
+   "authors": [
+    "苏剑林"
+   ],
+   "orgs": [
+    "科学空间"
+   ],
+   "published": "2026-10-19T14:21:00+00:00",
+   "sources": [
+    {
+     "name": "科学空间",
+     "authority": 0.85,
+     "url": "https://kexue.fm/archives/11980",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "RoPE 提出者，科学空间博主",
+   "title_zh": "苏剑林解读连续化 Softmax Attention",
+   "summary_zh": "苏剑林介绍论文《Continuum Attention》：把定义在有限向量集合上的 Softmax 注意力推广到连续情形，并分析其数学性质与潜在意义。",
+   "highlights_zh": [
+    "把注意力从离散 token 集合推广为连续加权混合算子",
+    "由 RoPE 提出者苏剑林亲自解读，数学推导扎实",
+    "属于注意力机制的基础性改进方向，而非工程调参"
+   ],
+   "why_zh": "注意力机制的基础理论探索，适合关注模型架构演进的读者。",
+   "tags": [
+    "大模型",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-10-20",
+   "slot": "morning",
+   "selected_at": "2026-10-19T17:24:51+00:00",
+   "mirror_pdf": "pdf/web-6ae0cbf3a951.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://kexue.fm/archives/11980"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1b356a4c1034",
+   "kind": "article",
+   "title": "四个谷歌 Gemini 4 Argon 智能体成功击败末影龙通关《我的世界》，耗时 27 小时",
+   "url": "https://www.ithome.com/1/015/048.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 19 日消息，谷歌研究人员近日发布论文称，他们使用四个 Gemini 4 Argon 智能体成功通关《我的世界》，仅用 27 小时就成功击败末影龙。 谷歌将 4 个 Gemini 4 放入随机生成的世界中，他们可以通过游戏内的聊天框互相协调。但研究人员没有为他们制定任何策略，只是说了最终目标，所有行为都由智能体自行规划。研究人员可通过仪表板观察他们，下达暂停 / 终止测试指令，但没有权利介入。 游戏开始后，这些智能体很快分担了不同任务：有的建造末影人农场；有的收集食物；有的专注于探索。它们会分享战斗技巧，并在队友死亡后寻回丢失的装备。 整个游戏过程中，4 个智能体发送了 229 条消息、运行 2783 个程序，死亡 605 次。它们花了 13.5 小时才抵达末地，剩下的时间全部用来击败末影龙。整个过程用了 13.5 亿个输入 Token，按照普通用户标准来算，成本约为 1,620 美元 （IT之家注：现汇率约合 10,842 元人民币） 。 研究团队表示：“据我们所知，这是 AI 智能体首次在完全自主的情况下从头到尾通关《我的世界》。整个过程仅使用标准的 Mineflayer 库，没有使用种子地图，也没有人类辅助。”",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-19T15:03:29+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/015/048.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "四个Gemini智能体自主通关《我的世界》",
+   "summary_zh": "谷歌用4个Gemini 4 Argon智能体，仅给最终目标、无人类干预，27小时自主击败末影龙，消耗13.5亿token、成本约1620美元。",
+   "highlights_zh": [
+    "首次AI智能体完全自主从头到尾通关《我的世界》",
+    "智能体通过聊天框自行分工协调，无预设策略",
+    "全程运行2783个程序、死亡605次，展现长程任务鲁棒性"
+   ],
+   "why_zh": "多智能体协作与长程自主规划的标志性实证，值得关注智能体能力边界。",
+   "tags": [
+    "智能体",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-20",
+   "slot": "morning",
+   "selected_at": "2026-10-19T17:24:51+00:00",
+   "mirror_pdf": "pdf/web-1b356a4c1034.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/015/048.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e4711eea60ca",
+   "kind": "article",
+   "title": "MiniMax M3.1 Flash 上线：速度提升 3 倍，价格降低 70%",
+   "url": "https://www.ithome.com/1/015/013.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 19 日消息，稀宇科技今日宣布 MiniMax M3.1 Flash 模型上线，此前以匿名身份处理了超过 200T Token 的 Space Bunny，正是 MiniMax M3.1 Flash 的早期版本。作为新一代 Flash 模型，M3.1 Flash 在 Agentic 任务、编程、Computer Use 及网络安全能力等方面实现了代际的提升，同时线上推理速度提升了近 3 倍， 使用成本降低了 70% 。 据介绍，M3.1 Flash 在多项基准测试中取得了全面进步，在复杂 Agent 任务 (Cowork)、Computer Use、软件开发 (Coding) 及网络安全方面，达到了领先模型水平。 复杂任务与自动化能力： 在 AutomationBench-AA 中位居最前列。在跨 SaaS 系统的真实企业业务工作流中，能完整解决销售、营销、运营、客服、财务、HR 的真实问题。 在 BankerToolBench 中 76.2 分，擅长多步骤规划、跨文档 / 跨文件一致性、金融业务合规、工具链式调用等真实复杂问题。 编程与软件工程能力： 在 DeepSWE v1.1 评测中取得 73.7% 的成绩，达到顶尖模型水平。DeepSWE 聚焦复杂软件任务，要求模型独立完成代码理解、功能开发、问题修复与测试验证。M3.1 Flash 展现出出色的长链路任务执行能力，能够以更低的成本支持复杂的软件开发工作流。 Computer Use 能力： 在衡量 AI 电脑操作与跨应用任务执行能力的 OSWorld V2 中取得 61.7 分 ，在衡量真实并有经济价值场景下电脑操作能力的 Agents' Last Exam (ALE) 中取得 29.6 分，两项得分均位列国产模型第一。 M3.1 Flash 展现出出色的真实环境交互、工具使用与长链路任务执行能力，能够从理解任务进一步走向实际操作与交付。 网络安全能力： 在 CyberGym 基准测试中取得 82% 的高分，展现出领先的漏洞发现与验证能力。 经内部安全专家深度评测，模型在代码审计、漏洞修补、渗透测试、恶意代码分析与逆向工程等场景下均表现出色，能够以低成本、高效率支持复杂的安全体系建设。 在 Agentic 类任务中，模型的综合使用成本较前代模型降低了 70%。 输入价格为每百万 Token 1 元，输出价格为每百万 Token 4 元，缓存读取价格为每百万 Token 0.1 元 。 在衡量复杂 Agent 任务执行能力的 Automation-Bench、衡量真实编程能力的 DeepSWE，以及衡量真实并有经济价值场景下电脑操作能力的 Agents' Last Exam (ALE) 三项基准测试中，M3.1 Flash 以极低的任务成本实现了顶尖模型级别的性能表现，在性能与成本之间建立了极具竞争力的新标杆。 IT之家注意到，M3.1 Flash 现已正式上线 MiniMax API、MPlan 以及 MiniMax Code 中，并将于稍后开放权重。官方介绍称，Flash 是我们对效率与能力平衡的持续探索，而追求智能上限的 Pro 版本也会在稍后与大家见面。 参考 M Plan 订阅入口 API 调用",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-19T12:20:45+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/015/013.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "MiniMax M3.1 Flash 上线：速度提升 3 倍，价格降低 70%",
+   "summary_zh": "MiniMax 发布 M3.1 Flash，推理速度提升近 3 倍、Agent 任务成本降低 70%，在编程、Computer Use 与网络安全基准上达到国产领先水平。",
+   "highlights_zh": [
+    "输入 1 元/百万 Token、输出 4 元/百万 Token，缓存读取 0.1 元",
+    "DeepSWE v1.1 得分 73.7%，OSWorld V2 得分 61.7 分，均为国产第一",
+    "已上线 MiniMax API、MPlan 与 MiniMax Code，稍后开放权重"
+   ],
+   "why_zh": "国产模型在 Agent 与编程场景以极低成本对标顶尖水平，值得关注其定价与能力边界。",
+   "tags": [
+    "大模型",
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-20",
+   "slot": "morning",
+   "selected_at": "2026-10-19T17:24:51+00:00",
+   "mirror_pdf": "pdf/web-e4711eea60ca.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/015/013.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5a9dd192c567",
+   "kind": "article",
+   "title": "Securing the agentic insider",
+   "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
+   "pdf_url": "",
+   "abstract": "In the last few months, concerns have arisen about AI safety as a growing number of incidents were publicly disclosed. These incidents exposed how powerful models have become and how they represent a significant threat if not handled well. And with the global race on innovation, the challenge will compound as models become even more... The post Securing the agentic insider appeared first on The Official Microsoft Blog .",
+   "authors": [
+    "Hayete Gallot"
+   ],
+   "orgs": [
+    "Microsoft"
+   ],
+   "published": "2026-10-19T13:00:02+00:00",
+   "sources": [
+    {
+     "name": "Microsoft",
+     "authority": 0.75,
+     "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "微软谈如何防范「智能体内鬼」",
+   "summary_zh": "微软安全负责人撰文指出，随着模型能力增强，被攻陷或被滥用的智能体正成为企业内部新的威胁来源，并提出相应的防护思路。",
+   "highlights_zh": [
+    "提出「agentic insider」概念：智能体拥有权限后可能成为内部威胁",
+    "结合近期公开披露的 AI 安全事故展开分析",
+    "从平台厂商视角给出企业侧的安全治理建议"
+   ],
+   "why_zh": "智能体大规模进入企业流程后，安全边界问题正成为落地关键。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 7.0,
+   "score": 0.612,
+   "date": "2026-10-20",
+   "slot": "morning",
+   "selected_at": "2026-10-19T17:24:51+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f34c24127709",
+   "kind": "article",
+   "title": "Comfy-Org/ComfyUI",
+   "url": "https://github.com/Comfy-Org/ComfyUI",
+   "pdf_url": "",
+   "abstract": "Star Comfy-Org / ComfyUI The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.\nREADME: # ComfyUI **The most powerful and modular AI engine for content creation.** [![Website][website-shield]][website-url] [![Dynamic JSON Badge][discord-shield]][discord-url] [![Twitter][twitter-shield]][twitter-url] [![Matrix][matrix-shield]][matrix-url] [![][github-release-shield]][github-release-link] [![][github-release-date-shield]][github-release-link] [![][github-downloads-shield]][github-downloads-link] [![][github-downloads-latest-shield]][github-downloads-link] [matrix-shield]: https://img.shields.io/badge/Matrix-000000?style=flat&logo=matrix&logoColor=white [matrix-url]: https://app.element.io/#/room/%23comfyui_space%3Amatrix.org [website-shield]: https://img.shields.io/badge/ComfyOrg-4285F4?style=flat [website-url]: https://www.comfy.org/ [discord-shield]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2Fcomfyorg%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&logo=discord&logoColor=white&label=Discord&color=green&suffix=%20total [discord-url]: https://discord.com/invite/comfyorg [twitter-shield]: https://img.shields.io/twitter/follow/ComfyUI [twitter-url]: https://x.com/ComfyUI [github-release-shield]: https://img.shields.io/github/v/release/comfyanonymous/ComfyUI?style=flat&sort=semver [github-release-link]: https://github.com/comfyanonymous/ComfyUI/releases [github-release-date-shield]: https://img.shields.io/github/release-date/comfyanonymous/ComfyUI?style=flat [github-downloads-shield]: https://img.shields.io/githu",
+   "authors": [],
+   "orgs": [
+    "Comfy-Org"
+   ],
+   "published": "2026-10-19T17:24:51+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/Comfy-Org/ComfyUI",
+     "signal": "★ 今日 +1,011 · Python",
+     "metric": 1011
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "ComfyUI：模块化扩散模型推理引擎",
+   "summary_zh": "ComfyUI 是节点式图界面的扩散模型本地推理引擎与 API 后端，支持灵活搭建生成工作流，长期位居 GitHub 热门。",
+   "highlights_zh": [
+    "节点/图界面编排扩散模型工作流，可导出为 API 调用",
+    "本地推理性能强，社区生态与插件丰富",
+    "适合图像、视频等内容生成流水线的搭建与调试"
+   ],
+   "why_zh": "如果你在做本地图像/视频生成，可用它搭节点工作流并暴露为 API。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6238,
+   "score_llm": 6.0,
+   "score": 0.6095,
+   "date": "2026-10-20",
+   "slot": "morning",
+   "selected_at": "2026-10-19T17:24:51+00:00",
+   "mirror_pdf": "pdf/web-f34c24127709.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/Comfy-Org/ComfyUI"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1724559a6463",
+   "kind": "article",
+   "title": "MemSilicon完成超 4 亿元 A 轮融资，宣布战略升级",
+   "url": "http://www.geekpark.net/news/372545",
+   "pdf_url": "",
+   "abstract": "10 月 19 日，铭芯启睿（MemSilicon）宣布完成超 4 亿元 A 轮融资。本轮融资由博原资本领投，博世创投、创领资本、米哈游、中关村科学城公司、兆易创新等跟投，老股东复容投资、国开科创、恒裕资本、锦秋基金、顺禧基金、小米战投、中科创星持续加注。本轮融资将主要用于 RRAM 的产业化与商业化，以及新产品 LPU 的研发。 MemSilicon 同时宣布， 前 Graphcore 总裁兼大中华区总经理卢涛加入团队，担任 CEO 和联合创始人。 公司战略全面升级：在继续推进阻变存储器（RRAM）产品化的基础上，启动面向大模型推理的第一代 LPU 研发，打造「满血模型、高速 Token、越级性价比」的新一代推理引擎。 随着 Agentic AI 时代的到来，AI 落地已经从问答，转向完成复杂、长程的任务，下一步竞争的关键指标，会从峰值算力转向任务完成效率。 一次任务包含多轮推理、工具调用和上下文复用，还可能启动多个 Agent 并行工作。客户需要的，不只是更多 Token，而是在保证质量的前提下，更快地解码和输出、更多任务能并行，并降低单次任务成本。 这要求推理系统从架构层面进行创新，同时优化计算、存储、互联和调度。因此，存算协同被视为核心破局路径之一。 （图 1｜低延迟已是独立售卖的服务档位。数据来源：OpenAI） （图 2｜高速解码决定 Agent 每一步走多快。在缓存能够有效保留的条件下，输入缓存命中率为 84.6%-99.5%，解码占 LLM 执行时间的 91.0%-98.6%。数据来源：arxiv2605.26297v2, Agentic AI Workload Characterization） 01 为什么是现在：大模型推理进入架构创新关键期 加入 MemSilicon 之前，卢涛已在芯片行业深耕 20 余年。 他历任曦智科技副总裁、Graphcore 总裁兼大中华区总经理、Cavium 中国区总经理，长期聚焦 AI 基础设施核心组件，覆盖 Arm 架构服务器 CPU、DPU、RDMA 网卡、数据中心交换芯片、大 SRAM 架构的 AI 处理器 IPU、基于 3D 堆叠 DRAM 的 NPU，及硅光芯片等多个领域，兼具技术、产品与市场的复合视角。 卢涛对 AI 时代的技术演进、产品逻辑、商业模式和客户需求有深刻洞察。他认为，大模型推理正在进入架构创新的关键期，单纯依赖单一维度的算力提升，已难以满足「低延迟、长上下文、高吞吐」的综合需求，存算协同是破局的核心路径之一。 卢涛表示：「MemSilicon 的定位很明确，不与 GPU 内卷，聚焦满血模型的高速 Token 体验，用越级性价比，服务高端推理市场。大模型推理提出了新课题，既要运行能力完整的模型，又要在可承受的成本下及时响应。这是当前通用 GPU 架构和纯 SRAM 架构的无人区。探索新大陆，就不能依靠单向度增加计算单元、存储密度、通信带宽的老地图，必须重新思考算什么、在哪里算、权重怎么存、数据怎么传的系统级问题。依托中国领先的存储战略纵深，结合我们在 AI 芯片产品定义与产业落地上的积累，MemSilicon 正同步推进 RRAM 产品化和下一代 LPU 研发，加速存算协同落地。」 MemSilicon 团队源自中国科学院刘明院士团队，在材料、器件、工艺、芯片设计等底层技术上，拥有二十多年的深耕积累。从材料与器件物理出发，团队的工作延伸至可靠性、工艺集成、IP 和芯片设计，再推进到流片验证与应用；除 RRAM 外，团队在三维集成、近存计算及混合存算一体架构方面也具备深厚科",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-19T04:00:32+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372545",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "铭芯启睿完成超4亿元A轮融资，启动LPU研发",
+   "summary_zh": "铭芯启睿完成超4亿元A轮融资，前Graphcore大中华区总经理卢涛出任CEO，宣布在RRAM产品化基础上启动面向大模型推理的LPU研发，主打存算协同。",
+   "highlights_zh": [
+    "博原资本领投，米哈游、兆易创新、小米战投等跟投，老股东持续加注",
+    "前Graphcore总裁兼大中华区总经理卢涛加入任CEO，团队源自中科院刘明院士团队",
+    "战略从RRAM存储转向存算协同推理引擎，明确不与GPU正面竞争"
+   ],
+   "why_zh": "存算协同路线能否在推理市场撕开缺口，是观察国产AI芯片差异化竞争的重要样本。",
+   "tags": [
+    "推理",
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-10-20",
+   "slot": "morning",
+   "selected_at": "2026-10-19T17:24:51+00:00",
+   "mirror_pdf": "pdf/web-1724559a6463.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372545"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3ee3b4f0439f",
+   "kind": "article",
+   "title": "I Can See Everything",
+   "url": "https://thezvi.wordpress.com/2026/10/19/i-can-see-everything/",
+   "pdf_url": "",
+   "abstract": "Nick Cammarata of Goodfire makes a bold claim: Neural Networks are Already Clean. This was his follow up after various resulting online discussions. This is clearly good work that tells us new and important things. The question is, how big … Continue reading →",
+   "authors": [
+    "TheZvi"
+   ],
+   "orgs": [
+    "Zvi Mowshowitz"
+   ],
+   "published": "2026-10-19T13:44:48+00:00",
+   "sources": [
+    {
+     "name": "Zvi Mowshowitz",
+     "authority": 0.75,
+     "url": "https://thezvi.wordpress.com/2026/10/19/i-can-see-everything/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 趋势评论员，每周 AI 综述",
+   "title_zh": "Zvi评Goodfire「神经网络已然洁净」之说",
+   "summary_zh": "Zvi Mowshowitz评论Goodfire的Nick Cammarata提出的「神经网络已然洁净」观点，认为这是有价值的新发现，但对其影响范围存疑。",
+   "highlights_zh": [
+    "围绕神经网络可解释性的一项大胆主张展开讨论",
+    "作者认可工作质量但质疑结论的普适性",
+    "属于可解释性领域的观点交锋"
+   ],
+   "why_zh": "可解释性前沿争论的二手解读，适合关注对齐与机制解释的读者。",
+   "tags": [
+    "对齐与安全",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 6.0,
+   "score": 0.58,
+   "date": "2026-10-20",
+   "slot": "morning",
+   "selected_at": "2026-10-19T17:24:51+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://thezvi.wordpress.com/2026/10/19/i-can-see-everything/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8cecdb07d2d3",
+   "kind": "article",
+   "title": "光量子计算，距离真正的产业化还有多远？",
+   "url": "https://www.leiphone.com/category/chips/1LbhTsMb0OyPhsw6.html",
+   "pdf_url": "",
+   "abstract": "导语：产业化落地，光量子计算的新考场 记者：郭思 编辑：包永刚 摩尔定律走到红利尽头，AI、新药研发、新材料探索对算力的需求还在不断扩张。依靠持续堆 GPU 提升算力的老路越来越不划算，存算一体、Chiplet、光互连等技术竞相寻找算力增量，量子计算因此被寄予厚望，光量子路线更是长期收到行业关注与讨论。它在实验室创下震撼的量子优越性记录，其工程化进展与产业化时间表也始终是业界关注的焦点。 光量子计算，会成为下一代算力的破局钥匙，还是一场尚待产业化验证的技术革命？ 2026 年 10 月 14 日深圳湾芯展，图灵量子创始人、上海交大无锡光子芯片研究院院长金贤敏带领团队在同一天三项动作接连落地，光子芯片产业合作签约、先进智算联盟扩容，以及粤港澳大湾区量超智融合算力中心共建签约。 这一连串产业布局，提供了一个跳出纸面参数的视角：量子计算的对手，早已不只是物理，芯片工程、产业链生态、商业落地的大考，已然开场。 量子计算的对手，早就不只是物理指标 量子计算走入大众视野，并非最近一两年才发生的新事。伴随摩尔定律见顶，算力供需矛盾日益凸显，量子计算的价值被重新放到聚光灯下。 数耀量生 CTO 邱迪生，曾对传统深度学习与量子计算的求解逻辑做出形象对比：深度学习常用的随机梯度下降，相当于在局部点位附近小范围试探，摸索迭代前进方向，属于局部搜索，很容易出现震荡徘徊；而量子计算能够一次性扫描完整的解空间地形，直接定位最优解，他将这种核心差异概括为 “量子全局最优性”。 图灵量子首席科学家金贤敏则认为，量子计算之所以能够获得长期关注，并不源于某一项单点应用，它是继牛顿力学体系之后，可以系统性赋能整个科学发展的底层基础方向。 早在上世纪四五十年代，晶体管、激光器、核能等成果，就已经完成了第一波量子技术的产业化应用；而当下，人类对量子体系、物质微观体系的操控能力实现跃升，叠加 AI 算力需求爆发，才推动量子计算走到产业发展的关键窗口。 行业经久不衰的疑问依旧存在：超导、离子阱、光量子、中性原子，多条量子技术路线同台竞技，谁能走到商业化的终点？ 纵观当前行业进展，在众多技术路径里，公开实验中同时达成 “可制造、可扩展、已演示量子优越性” 三大条件的，主要集中在光量子与超导两大路线。 超导路线起步较早。2025年，中国科学技术大学团队构建的105比特超导量子计算原型机“祖冲之三号”，在量子随机线路采样任务上比当时最快超算快15个数量级，刷新了超导体系量子计算优越性纪录。 相比之下，离子阱路线门保真度最高、相干时间长，但系统扩展慢，目前处于高精度模拟和原理演示阶段；中性原子路线阵列规模扩展潜力大，但门保真度和速度仍在追赶，工程化成熟度较低。 光量子路线则在特定问题上展现出更强的算力优势。 2026年，“九章四号”可编程光量子原型机首次操纵和探测3050个光子，在高斯玻色采样任务上比全球最快超算快10⁵⁴倍，建立了国际最强的量子计算优越性。 更重要的是，光量子路线正从“实验室装置”走向“可制造平台”。PsiQuantum发布的Omega光子芯片组，由格罗方德45纳米产线批量制造，单量子比特态制备与测量保真度达99.98%，芯片间互联保真度99.72%，并计划在澳大利亚和美国建设数据中心级量子计算中心。那么图灵量子TuringQ Gen3则将技术重点放在大规模片上集成、空时复用扩展以及量子算力与经典计算体系的融合上。 环境稳定成落地最为关键的突破点 量子计算并不缺“性能故事”。各家机器在特定任务上早已展示量子优越性，超导路线也在不断刷新比特数纪录。但产业客户真正关心的不是实验室峰值，",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-19T06:48:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/chips/1LbhTsMb0OyPhsw6.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "光量子计算产业化：从实验室优越性到芯片工程大考",
+   "summary_zh": "雷峰网梳理光量子计算产业化进展：九章四号操纵3050个光子实现10^54倍量子优越性，PsiQuantum芯片已上45纳米产线，图灵量子推进片上集成与量超智融合中心落地。",
+   "highlights_zh": [
+    "光量子与超导是唯二同时满足可制造、可扩展、已演示量子优越性的路线",
+    "PsiQuantum Omega芯片由格罗方德45纳米产线量产，单比特保真度99.98%",
+    "图灵量子签约光子芯片合作、先进智算联盟与湾区量超智融合算力中心"
+   ],
+   "why_zh": "判断量子计算产业化时间表与路线竞争格局的一手行业观察。",
+   "tags": [
+    "科学AI",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-20",
+   "slot": "morning",
+   "selected_at": "2026-10-19T17:24:51+00:00",
+   "mirror_pdf": "pdf/web-8cecdb07d2d3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/chips/1LbhTsMb0OyPhsw6.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6ba81d116619",
+   "kind": "article",
+   "title": "独家｜前Graphcore总裁卢涛加入铭芯启睿，要把LPU做成「高铁」",
+   "url": "https://www.leiphone.com/category/chips/56PWzwTNdteGx04q.html",
+   "pdf_url": "",
+   "abstract": "铭芯启睿（MemSilicon）CEO兼联合创始人 卢涛 雷峰网独家获悉， 铭芯启睿（MemSilicon）已完成超4亿元A轮融资 ，本轮融资由博原资本领投，博世创投、创领资本、米哈游、中关村科学城公司、兆易创新等跟投，老股东复容投资、国开科创、恒裕资本、锦秋基金、顺禧基金、小米战投、中科创星持续加注。 前Graphcore总裁兼大中华区总经理卢涛也已加入铭芯启睿 ，担任CEO兼联合创始人。 在半导体行业深耕二十余年的卢涛，曾担任Cavium中国区总经理、曦智科技副总裁，经历覆盖Arm服务器CPU、大SRAM架构的AI处理器IPU及硅光等领域。 随着卢涛加入，铭芯启睿将在继续推进阻变存储器（RRAM）产业化与商业化的同时， 启动第一代LPU研发，将业务从存储延伸至计算。 黄仁勋此前提到，“速度就是智能”。卢涛的理解有两个维度：记忆力好、脑瓜子快。对应到AI，前者是上下文能力，后者是推理延迟和生成速度。 这与铭芯启睿押注的存储、计算两条路线形成呼应，既研究数据怎样存，也研究怎样更快地计算和调用，最终在系统层面实现协同。 卢涛的目标非常明确， 要做一款“满血模型、高铁价格”的LPU。 卢涛与铭芯启睿的交集始于公司成立的2024年。彼时，铭芯就曾邀请他担任CEO，但他没有加入。两年后，是什么改变了他的选择？ LPU热潮下，既知道怎么做，也清楚为什么做 今年3月的GTC成为卢涛做决定的一个触发点。看到黄仁勋发布产品时，他强烈地怀念起过去与芯片巨头竞争的日子，在Graphcore挑战英伟达，在Cavium做服务器CPU与英特尔竞争，做交换芯片与博通竞争。 从零创业是一个选项。但他算了一笔时间账：组建团队、确定架构、融资交割，即使资本市场火热，也需要六至九个月。他不确信热度能持续多久。 “速度非常非常重要。”加入铭芯，能让他更快起步。 2024年没有加入铭芯，也与双方所处的阶段有关。当时铭芯优先推动存储技术从实验室走向产品，卢涛觉得自己能够贡献的价值有限。而在此次加入之前，铭芯已决定进入计算领域，他能在这里自主推进想做的产品。 更重要的是， 铭芯团队源自中国科学院刘明院士团队，拥有二十余年存储技术积累。 除RRAM外，团队在SRAM、MRAM、DRAM等领域也有研究基础，能与他的计算架构和产业化经验结合。 加入后，卢涛迅速组建了一支十几人的LPU核心团队，覆盖硬件、编译器和系统软件等核心环节。他尤其看重过去在Graphcore与头部客户在实践中摸索出的经验，新架构如何落地，成功与失败分别因为什么。 “把AI芯片做出来很困难，把它卖出更是不简单。” 卢涛深有感触。 他用know-how（怎么做）与know-why（为什么做）概括团队的能力： 既知道怎样把芯片做出来，也清楚为什么做，以及最终要向用户提供什么价值。在他看来，已有众多GPU、NPU公司的今天，新团队需要从尚未解决的问题出发确定架构。 LPU让高速推理像高铁一样成为主流 铭芯首款LPU的产品目标，是面向数万亿参数的完整模型，不依赖量化、投机解码等手段， 追求每名用户每秒生成1000个Token的速度。 速度之外，还有价格。 卢涛用高铁打比方，用户愿意为更好的速度和体验付费，但如果普通车票200元，高铁票却要2000元，就很难普及。高速推理也一样，可以比普通服务贵，但溢价必须有限。 “它未来不是利基，而是一个主流。”卢涛希望 让铭芯的LPU跑满血模型， 实现 高速Token，越级性价比 。 要实现这个目标，关键在于存储、计算与互联的联合创新。 卢涛曾参与商业化的Graphcore IPU采用大SRAM架",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-19T06:02:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/chips/56PWzwTNdteGx04q.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "前Graphcore总裁卢涛加盟铭芯启睿，要做「高铁价」LPU",
+   "summary_zh": "铭芯启睿完成超4亿元A轮融资，前Graphcore总裁卢涛出任CEO，在RRAM存储业务之外启动第一代LPU研发，目标满血模型每用户每秒1000 Token且溢价有限。",
+   "highlights_zh": [
+    "团队源自中科院刘明院士团队，有二十余年RRAM/SRAM/MRAM存储积累",
+    "LPU面向数万亿参数完整模型，不依赖量化与投机解码追求千Token每秒",
+    "卢涛强调know-how与know-why并重，称芯片做出来难、卖出去更难"
+   ],
+   "why_zh": "观察国产推理专用芯片新玩家路线选择与商业化思路的窗口。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-20",
+   "slot": "morning",
+   "selected_at": "2026-10-19T17:24:51+00:00",
+   "mirror_pdf": "pdf/web-6ba81d116619.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/chips/56PWzwTNdteGx04q.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5a12ec1a06c6",
+   "kind": "article",
+   "title": "Jev迎来中国挑战者：StartLux登顶决策模型榜单，还学会了“拿不准再想”",
+   "url": "https://www.infoq.cn/article/bROfcYFpijQQVBz4NqDi?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "林绮蓓"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-19T20:33:34+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/bROfcYFpijQQVBz4NqDi?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "StartLux登顶决策模型榜单，学会「拿不准再想」",
+   "summary_zh": "StartLux在决策模型榜单上超越Jev登顶，其方法让模型在不确定时再投入推理，兼顾准确率与效率。",
+   "highlights_zh": [
+    "登顶决策模型榜单，对标并超越Jev",
+    "引入「拿不准再想」的自适应推理机制",
+    "在决策类任务上兼顾准确率与推理成本"
+   ],
+   "why_zh": "自适应推理是当前提效主线，该榜单结果值得关注。",
+   "tags": [
+    "推理",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-20",
+   "slot": "morning",
+   "selected_at": "2026-10-19T17:24:51+00:00",
+   "mirror_pdf": "pdf/web-5a12ec1a06c6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/bROfcYFpijQQVBz4NqDi?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-50c4213a40b8",
+   "kind": "article",
+   "title": "DoorDash的Flux在云端智能体上运行130000个工程任务",
+   "url": "https://www.infoq.cn/article/4IPptJpXQqX5Lr77uBFZ?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Leela Kumili"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-19T15:42:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/4IPptJpXQqX5Lr77uBFZ?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DoorDash Flux云端智能体已跑13万个工程任务",
+   "summary_zh": "DoorDash介绍其云端智能体系统Flux，已在生产环境执行约13万个工程任务，展示了大规模智能体落地的工程架构与经验。",
+   "highlights_zh": [
+    "Flux在云端运行，累计处理约13万个工程任务",
+    "覆盖任务调度、执行与验证的完整智能体链路",
+    "提供了大规模智能体生产化的实践参考"
+   ],
+   "why_zh": "大规模智能体上生产的真实案例，工程细节有参考价值。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-20",
+   "slot": "morning",
+   "selected_at": "2026-10-19T17:24:51+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/4IPptJpXQqX5Lr77uBFZ?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f28eaf1dd4cb",
+   "kind": "article",
+   "title": "Kimi和DeepSeek，差异越来越明显",
+   "url": "https://www.tmtpost.com/8172461.html",
+   "pdf_url": "",
+   "abstract": "趋同是表象。分岔，才是正在发生的事实。",
+   "authors": [
+    "影子备忘录"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-19T11:03:13+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8172461.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Kimi与DeepSeek的路线分化",
+   "summary_zh": "文章认为两家国产大模型表面趋同，实则在技术路线与产品定位上分岔日益明显。",
+   "highlights_zh": [
+    "对比Kimi与DeepSeek的战略差异",
+    "指出趋同只是表象",
+    "分析国产大模型分化趋势"
+   ],
+   "why_zh": "帮助判断国产大模型竞争格局与各自护城河。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-20",
+   "slot": "morning",
+   "selected_at": "2026-10-19T17:24:51+00:00",
+   "mirror_pdf": "pdf/web-f28eaf1dd4cb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8172461.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-86ff08ae99e6",
+   "kind": "article",
+   "title": "千次5元、搜不到不收钱：DeepSeek给Agent装上自研搜索，价格只有Tavily的零头",
+   "url": "https://www.tmtpost.com/8173434.html",
+   "pdf_url": "",
+   "abstract": "搜索按次收费，失败不收钱。",
+   "authors": [
+    "AI唱反调"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-19T10:57:17+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8173434.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek自研搜索上线：千次5元、失败免单",
+   "summary_zh": "DeepSeek为Agent推出自研搜索服务，按次计费且搜索失败不收钱，价格远低于Tavily。",
+   "highlights_zh": [
+    "面向Agent场景的搜索API，千次约5元",
+    "失败不计费的定价策略",
+    "价格显著低于海外同类Tavily"
+   ],
+   "why_zh": "Agent基础设施成本结构变化，直接影响智能体产品的经济模型。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-20",
+   "slot": "morning",
+   "selected_at": "2026-10-19T17:24:51+00:00",
+   "mirror_pdf": "pdf/web-86ff08ae99e6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8173434.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-19ebbbc273fe",
+   "kind": "article",
+   "title": "用阿里当基座，腾讯混元实现了“小RSI”",
+   "url": "https://www.tmtpost.com/8173087.html",
+   "pdf_url": "",
+   "abstract": "腾讯发布Terminal-RSI，直接让模型跨物种进化。",
+   "authors": [
+    "字母AI"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-19T11:03:22+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8173087.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯混元借阿里基座实现“小RSI”",
+   "summary_zh": "腾讯发布Terminal-RSI，以阿里模型为基座让模型跨物种进化，探索递归自我改进式训练路径。",
+   "highlights_zh": [
+    "Terminal-RSI主打模型自我进化训练",
+    "以第三方模型为基座，跨模型迁移",
+    "涉及训练方法层面的新尝试"
+   ],
+   "why_zh": "自我改进训练是当前大模型能力跃迁的关键方向，值得跟踪其真实效果。",
+   "tags": [
+    "大模型",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-20",
+   "slot": "morning",
+   "selected_at": "2026-10-19T17:24:51+00:00",
+   "mirror_pdf": "pdf/web-19ebbbc273fe.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8173087.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-433acf3f792b",
+   "kind": "article",
+   "title": "Tenstorrent 完成 15 亿美元 E 轮融资，投后估值 62 亿美元",
+   "url": "https://www.ithome.com/1/015/045.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 19 日消息，RISC-V AI 计算企业 Tenstorrent 美国当地时间今日宣布完成总额达 15 亿美元 （IT之家注：现汇率约合 100.39 亿元人民币） 的 E 轮融资。 该企业投后估值达到 62 亿美元 （现汇率约合 414.95 亿元人民币） 。 Tenstorrent 由知名芯片设计师 Jim Keller 领导，已发布过多款 AI 芯片产品。该企业此前在 2024 年底以约 27 亿美元的投后估值进行了 D 轮融资。 该企业的 E 轮融资由 Trace Capital 和 Innovation X 领投，多家新老投资者参与其中。 这笔资金将用于支持 Tenstorrent 的大规模量产和全球商业扩张 。 Jim Keller 表示： 我们构建了一种统一的架构，并以各种规格进行销售，计算技术的未来是开放的、可扩展的，并且由在其上进行开发的人们所拥有。我们的投资者也认同这一模式，我们非常感谢他们的支持。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-19T14:44:35+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/015/045.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Tenstorrent 完成 15 亿美元 E 轮融资，估值 62 亿美元",
+   "summary_zh": "Jim Keller 领导的 RISC-V AI 芯片公司 Tenstorrent 完成 15 亿美元 E 轮融资，估值较上轮翻倍，资金用于大规模量产与全球扩张。",
+   "highlights_zh": [
+    "投后估值 62 亿美元，较 2024 年底 D 轮的 27 亿美元大幅提升",
+    "由 Trace Capital 与 Innovation X 领投",
+    "主打统一架构、多规格销售的开放可扩展路线"
+   ],
+   "why_zh": "AI 芯片非英伟达阵营的重要融资信号，反映资本对开放架构路线的押注。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-20",
+   "slot": "morning",
+   "selected_at": "2026-10-19T17:24:51+00:00",
+   "mirror_pdf": "pdf/web-433acf3f792b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/015/045.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9da6e0ec3f02",
+   "kind": "article",
+   "title": "今年上半年我国人形机器人产量超 4 万台，预计全年将突破 10 万台",
+   "url": "https://www.ithome.com/1/015/002.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 19 日消息，国务院新闻办公室今日举行新闻发布会，介绍加快推进科技兴商有关情况，并答记者问。 会上介绍，具身智能是人工智能从“数字世界”走进“物理世界”的关键载体，正在成为培育新质生产力的重要抓手。工业和信息化部推动以人形机器人为代表的具身智能产业实现三个“加速”。 一是规模体量加速壮大。今年上半年，我国人形机器人整机产品突破 400 款，产量超 4 万台 ，预计全年将突破 10 万台 。 二是创新能力加速跃升，工信部集聚产学研优势力量，攻关人形机器人和具身智能运动控制、仿真模拟、触觉传感等一批关键技术，带动产品性能不断跃升。 三是产业应用加速落地。工信部实施人形机器人与具身智能实景实训专项行动，推动相关产品在 仓储物流、餐饮零售、家庭服务 等 300 多个重点场景加快验证和部署，整机作业能力、场景适配能力持续提升。 IT之家注意到，IDC 报告显示，市场高速增长的同时，人形机器人产业的供需两端也正在发生积极变化：一方面，工业、物流等应用探索持续加速，头部厂商不断扩充生产能力；另一方面，中国市场开始出现面向个人消费者的小型人形机器人，家庭及个人市场逐步成为新的潜在增长空间。 此外，具身智能大模型快速迭代，机器人对复杂环境的理解、决策和任务执行能力持续提升，为人形机器人拓展更多应用场景提供技术支撑。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-19T11:25:24+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/015/002.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "上半年我国人形机器人产量超 4 万台，全年预计破 10 万",
+   "summary_zh": "工信部披露上半年人形机器人整机产品超 400 款、产量超 4 万台，全年预计突破 10 万台，已在 300 多个场景验证部署。",
+   "highlights_zh": [
+    "上半年产量超 4 万台，全年预计突破 10 万台",
+    "仓储物流、餐饮零售、家庭服务等 300 多个场景加快落地",
+    "具身智能大模型迭代支撑复杂环境理解与任务执行"
+   ],
+   "why_zh": "官方口径的具身智能产业规模数据，是判断机器人赛道节奏的关键参照。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-20",
+   "slot": "morning",
+   "selected_at": "2026-10-19T17:24:51+00:00",
+   "mirror_pdf": "pdf/web-9da6e0ec3f02.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/015/002.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ffd7e32a6b56",
+   "kind": "article",
+   "title": "AI is ushering in an age of personal media",
+   "url": "https://www.understandingai.org/p/ai-is-ushering-in-an-age-personal",
+   "pdf_url": "",
+   "abstract": "It may be AI slop, but it's my AI slop.",
+   "authors": [
+    "Benj Edwards"
+   ],
+   "orgs": [
+    "Timothy B. Lee"
+   ],
+   "published": "2026-10-19T13:33:47+00:00",
+   "sources": [
+    {
+     "name": "Timothy B. Lee",
+     "authority": 0.75,
+     "url": "https://www.understandingai.org/p/ai-is-ushering-in-an-age-personal",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "科技记者，《Understanding AI》作者",
+   "title_zh": "AI正在开启个人媒体时代",
+   "summary_zh": "Timothy B. Lee与Benj Edwards讨论AI生成内容如何让个人媒体生产门槛骤降，即便产出「AI垃圾」也属于个人的表达。",
+   "highlights_zh": [
+    "AI降低内容生产门槛，个人媒体供给激增",
+    "讨论AI生成内容的质量与身份认同问题",
+    "偏文化观察而非技术分析"
+   ],
+   "why_zh": "对内容生态变化的轻量观察，信息增量有限。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 5.0,
+   "score": 0.52,
+   "date": "2026-10-20",
+   "slot": "morning",
+   "selected_at": "2026-10-19T17:24:51+00:00",
+   "mirror_pdf": "pdf/web-ffd7e32a6b56.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.understandingai.org/p/ai-is-ushering-in-an-age-personal"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7d670bb9b339",
+   "kind": "article",
+   "title": "平台做天使投资：速卖通把品牌争夺战，打到了品牌诞生前",
+   "url": "https://www.leiphone.com/category/industrynews/prCErk1x9AsQgxw1.html",
+   "pdf_url": "",
+   "abstract": "平台做天使投资，在电商行业还是头一回。 这两年，AI硬件行业吸引了大量机构的投资资金。从录音设备、智能眼镜到陪伴机器人，创业者进入不同赛道，却有一个相近的目标：做全球企业，到海外赚钱。 出海平台争夺这些品牌的动作，也变得更直接——开始给创业公司“撒钱”。 10月19日，2026阿里速卖通年度峰会暨双11商家大会在深圳举行，超过1.5万名跨境商家到场。会上，速卖通与天猫联合发布“中国品牌全球增长计划”，其中最出人意料的一个，就是参与优秀AI硬件品牌的天使轮融资。 速卖通将拿出专项资金，配套Brand+支持与天猫经营扶持，目标孵化100多个优秀AI硬件品牌。 过去，平台给流量、给补贴，争取的是企业把成熟商品拿过来卖。现在，速卖通准备在产品尚未成熟时先投钱，参与一个品牌更早期的生意。 原因并不难猜，AI硬件行业提供了足够大的增长想象空间。 有投资人向雷峰网透露，就以3D打印创业公司黑格来说，公司毛利非常高，仅高端光固化3D打印这一个方向，今年预计就能做到10亿人民币。同时，另一家头部3D打印公司今年的营收预计能到200～250亿元，海外营收占比接近七成。 一批中国团队正在证明，硬件卖到全球之后，还可以靠用户持续使用和付费，长出新的收入。那些同样希望成为全球企业的创业者，也把海外市场放在自己的第一象限里。 作为出海平台，速卖通争取这些品牌的时间也随之前移。2025年9月，它推出Brand+超级品牌出海计划，重点服务已有海外经营基础的中国品牌。如今，速卖通与天猫联手，既把国内品牌经营与海外增长接起来，也将服务延伸到新品牌的早期孵化。平台不再只等品牌长大后上门招商，它开始更深度地参与下一批品牌的成长。 阿里为AI硬件品牌做风投，图什么？ 过去两年，AI硬件行业一个有意思的现象是，只要一个大厂高P背景的创业者对外放消息说自己在做AI硬件产品，十有八九能拿到顶级投资机构的高额融资。 在资本的狂热助推下，许多AI硬件公司的估值在极短时间内创下新高。 以快造为例，2025年初其估值不到10亿，下半年时直接翻了两～三倍，甚至许多机构拿不到份额。今年7月，快造又完成10亿元的新融资，投后估值接近70亿元。 但阿里下场做风投，除了资本回报，还有电商平台自己的考虑。 当前AI硬件赛道上的创业团队大致有三派：一派是有大厂高P背景的系统派，一派是传统制造的供应链派，另一派是跨境D2C的品牌派。他们的组织基因各有长处，却很难在起步时就同时具备全部的能力。 比如大厂派有成体系的打法，但创业早期最大的难题是资源有限，需要自己从零搭建基础设施，况且硬件研发和供应链协同又天然充满不确定性。 也就是说，大部分创业者即便拿到很多顶级机构的钱，后续的经营也很难得到支持。 阿里是把这两件事，放在一起做。股权投资提供早期资金，天猫和Brand+继续承接投资之后的经营。 在国内，天猫提供新品上市、品牌营销和消费者运营的场景，帮助团队验证产品；在海外，速卖通通过Brand+连接不同国家的营销、流量与履约资源，并提供合规支持。 一位投资人认为，对于AI硬件创业公司来说，产品在市场拓展初期必然面临更长的验证周期，平台下场投资并且提供后续经营支持，某种程度上比单纯拿VC投资人的钱要好得多。 从商业逻辑看，这类“CVC＋平台”的模式是把资本和渠道打包了。创业公司可以省掉融资与铺渠道两道最耗时的环节，平台可以提前参与到下一代硬件品牌的成长，锁定新品未来的销售权。 这种又能提供钱，又能帮助解决产品实际经营难题的模式，或许更接近创业者的现实需要。 过去，品牌把货卖出去，平台收取佣金。现在，速卖通先成为股东，再参与品",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-19T12:04:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/prCErk1x9AsQgxw1.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "速卖通设专项基金，天使轮投AI硬件品牌",
+   "summary_zh": "速卖通与天猫联合推出中国品牌全球增长计划，将拿出专项资金参与优秀AI硬件品牌天使轮融资，目标孵化100多个出海品牌。",
+   "highlights_zh": [
+    "平台首次以CVC方式在品牌诞生前介入投资",
+    "配套天猫经营扶持与速卖通Brand+海外渠道资源",
+    "反映AI硬件出海赛道资本与渠道打包的新模式"
+   ],
+   "why_zh": "观察AI硬件出海生态与平台型资本打法的行业信号。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-20",
+   "slot": "morning",
+   "selected_at": "2026-10-19T17:24:51+00:00",
+   "mirror_pdf": "pdf/web-7d670bb9b339.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/prCErk1x9AsQgxw1.html"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "智能体从演示走向生产，长时自主任务与工程化落地成为竞争焦点",
+   "why": "Gemini四智能体27小时通关《我的世界》，DoorDash Flux已跑13万工程任务，规模化验证开始。",
+   "refs": [
+    "web-1b356a4c1034",
+    "web-50c4213a40b8"
+   ]
+  },
+  {
+   "trend": "推理成本与速度成为国产模型新战场，价格战向Agent场景纵深",
+   "why": "MiniMax M3.1 Flash提速3倍降价70%，DeepSeek自研搜索千次5元，均瞄准Agent高频调用。",
+   "refs": [
+    "web-e4711eea60ca",
+    "web-86ff08ae99e6"
+   ]
+  },
+  {
+   "trend": "推理专用芯片融资升温，LPU与RISC-V路线挑战通用GPU格局",
+   "why": "铭芯启睿超4亿A轮启动LPU，Tenstorrent 15亿美元E轮估值翻倍，资本押注推理侧专用化。",
+   "refs": [
+    "web-1724559a6463",
+    "web-433acf3f792b"
+   ]
+  },
+  {
+   "trend": "评测方法转向效率与不确定性感知，「该想才想」成决策模型新范式",
+   "why": "StartLux凭「拿不准再投入推理」登顶决策榜单，兼顾准确率与算力效率。",
+   "refs": [
+    "web-5a12ec1a06c6"
+   ]
+  },
+  {
+   "trend": "智能体安全从模型对齐扩展到「内鬼」治理，企业防护成新需求",
+   "why": "微软警示被攻陷或被滥用的智能体正成为企业内部新威胁来源，需专门防护思路。",
+   "refs": [
+    "web-5a9dd192c567"
+   ]
+  }
+ ]
+}
