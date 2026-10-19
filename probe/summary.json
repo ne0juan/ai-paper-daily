@@ -1,173 +1,170 @@
 {
- "at": "2026-10-12T07:51:45.122492+00:00",
+ "at": "2026-10-19T06:39:07.236181+00:00",
  "sources": {
   "hf_daily": {
-   "n": 20,
+   "n": 10,
    "secs": 0.4,
    "sample": [
-    "arxiv-2610.12572 | DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models",
-    "arxiv-2610.12772 | Reflex: Visually Grounded Reactive Humanoid Control",
-    "arxiv-2610.12611 | SoftwareGym: Scaling Computer-Use Agent Training with Diverse Synthesized Software Environ",
-    "arxiv-2610.13395 | ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents"
+    "arxiv-2610.18784 | Pack Light, CarryOn: Building Object-Oriented Context for Long-Horizon Agents",
+    "arxiv-2610.22471 | Has GPT-6-Astra Achieved Embodied Intelligence?",
+    "arxiv-2610.19159 | Into the Unknown: Benchmarking AI agents on open scientific research problems",
+    "arxiv-2610.23479 | HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents"
    ]
   },
   "hackernews": {
-   "n": 2,
-   "secs": 0.4,
+   "n": 3,
+   "secs": 0.3,
    "sample": [
-    "web-44c65736f8dd | The gap in shared understanding of LLM capability is widening",
-    "web-821afa65ec96 | 500B tokens later: Letting AI agents decompile a first-person shooter"
+    "web-48479cd7194a | DeepSeek search and fetch – $0.75 per 1000 successful requests",
+    "arxiv-2610.18861 | Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+    "web-b9a4c6eaaadf | Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages"
    ]
   },
   "rss:量子位": {
    "n": 10,
    "secs": 1.5,
    "sample": [
-    "web-9c629fb90401 | 王的猜想，刚刚扩展到四维",
-    "web-ddff3a90e8ee | 硅谷AI现状：谁有算力谁是爹",
-    "web-f1438fb9ae7b | 下架8个月，GPT-4o的拯救行动居然还在继续",
-    "web-750596818255 | DeepSeek Bot来了！民间版，DSH装个插件就能用"
+    "web-5203416b1e16 | VAST开源实时世界模型EdenLive！单消费级显卡、720P超24FPS",
+    "web-d7946e829113 | 突发！DeepSeek新模型发布，超级性价比斩杀一切",
+    "web-646f744fb164 | 智谱新模型，懂法方面全球第一了",
+    "web-4fe2ff3673b9 | 清华开源！智能体操作系统任务成本降83%，AI记忆可查可改"
    ]
   },
   "rss:极客公园": {
    "n": 26,
-   "secs": 3.5,
+   "secs": 2.3,
    "sample": [
-    "web-a876ffe84ca5 | 尊界：11 月起陆续升级踏板；iPhone 折叠屏国内预约超 200 万；6 个月，超千万 Claude 账户被封杀｜极客早知道",
-    "web-ee114c9f98fa | 马斯克豪言 SpaceX 估值将超1000万亿美元，遭拉表打脸；传腾讯字节加速个人智能体研发；四部门拟禁止汽车采用全隐藏式门把手",
-    "web-45bd2e9627a2 | 好产品就是与时代和生活共振｜2026 年度极客最爱好物启动",
-    "web-0ce94fdd2eaf | 记录生生不息的创新力量｜2026 年度「InnoForce 50」启动"
+    "web-1724559a6463 | MemSilicon完成超 4 亿元 A 轮融资，宣布战略升级",
+    "web-a4f16018e320 | OpenAI 三个神秘模型曝光；DeepSeek 开放搜索与网页抓取 API；智界将获独立造车资格，公司计划上市 ｜ 极客早知道",
+    "web-0eb503d60f26 | DeepSeek 新模型上线，价格更低能力更强；传华为将推新品牌「星芒」主打性价比；天文学家发现第一颗绿色恒星｜极客早知道",
+    "web-8c0e83299cc2 | iPhone Duo 一秒售罄，发货排到明年；马斯克：考虑自建电商平台；谷歌创始人：AI 正开始自己造自己"
    ]
   },
   "rss:IT之家": {
-   "n": 5,
-   "secs": 1.2,
+   "n": 13,
+   "secs": 1.5,
    "sample": [
-    "web-0c098fec3a17 | 唯品会自研 AI 助手“AI 小唯”低调上线，灰度试水商品 AI 对比功能",
-    "web-fac19bf3e2a5 | “AI 教父”杨立昆：下一代 AI 须理解现实世界",
-    "web-39e0c7edc836 | 英伟达、谷歌、微软均已下单，消息称三星明年近 80% 的存储芯片产能已被长期供应协议锁定",
-    "web-0557c8497771 | 一汽-大众捷达 M6 纯电轿车 10 月 22 日上市，预售价 8.08 万元起"
+    "web-53b00ba46416 | 大晓机器人发布具身基模型 ACE-Brain-0.6，六项空间感知评测超越 OpenAI GPT-6 Astra",
+    "web-15deebd1ea8e | 字节火山引擎发起 Seedance 精品 AI 剧激励计划，单部作品最高可获 20 万元",
+    "web-7940c52a1b66 | Linux 7.3 内核稳定版更新发布：提高 I/O 性能，进一步支持 AMD Zen 6 架构",
+    "web-a3d036dbbe17 | 阿里达摩院孟建熠：玄铁芯片目前已经稳定出货超 60 亿颗"
    ]
   },
   "rss:爱范儿": {
-   "n": 8,
-   "secs": 1.2,
+   "n": 11,
+   "secs": 1.4,
    "sample": [
-    "web-f84fec97dcc3 | 早报｜我们跟库克聊了聊iPhone Duo/继QClaw后，腾讯再关停一个Agent/SpaceXAI改名SpaceXSI",
-    "web-eeb842f89202 | 早报｜曝苹果iPhone Duo加单30%/四部门拟禁全隐藏式车门把手/长鑫首款服务器产品或年底推出",
-    "web-0047cb85630d | 24 天估值暴涨 37 倍，这就是 AI 圈年度爽文",
-    "web-f1fa08553169 | 这届 AI PC，太烧心了"
+    "web-fd4524b1c209 | 实测 Lovart 2.0 ，设计 AI 进入个人助理时代",
+    "web-e338168ad79e | 早报｜曝苹果机械臂版HomeView正在开发/蔚来三季度销量首次超BBA/英伟达否认RTX 5090停产",
+    "web-5d08a741c252 | 早报｜iPhone Duo开启预购，发货排到明年/特斯拉超跑发布会现场飞了/华为阔直板出货量超71万台",
+    "web-5da8aedf3e00 | 英伟达RTX Spark笔记本首发实测，我实现了WorkBuddy额度自由"
    ]
   },
   "rss:少数派": {
-   "n": 2,
-   "secs": 1.4,
+   "n": 1,
+   "secs": 1.5,
    "sample": [
-    "web-c32bec5ba92e | 派早报：工信部等就进一步加强汽车产品创新设计管理征求意见",
-    "web-901fd4145cd4 | 派早报：英伟达 RTX Spark 新品一览、Anthropic 发布 Claude Haiku 5.5 模型等"
+    "web-237770bb8865 | 派早报：Apple 智能国行 Beta 版本将于本月晚些时候上线测试版本"
    ]
   },
   "rss:雷峰网": {
-   "n": 9,
-   "secs": 14.9,
+   "n": 12,
+   "secs": 2.8,
    "sample": [
-    "web-a1de09b96425 | 微软用阿里Qwen打造决策模型，或将推广至所有领域",
-    "web-a2419293dd39 | 费莫一刘念邱：智驾无图的经验，也能迁移到机器人 | 物理AI 50人",
-    "web-526d2eb1f383 | 字节发现 DeepSeek 隐藏 Bug，加点空格，模型翻车",
-    "web-7e6d07f8344a | 对话蔚来创始人李斌：蔚来单车均价比奥迪贵18万，比宝马贵七八万，比奔驰贵数万"
+    "web-c60a8be61f89 | Git 被换掉，LLM 被替代：AI 编码开始反噬传统工具链？",
+    "web-b17d2dd649c6 | Muse Wonder 建模大翻车，亚历山大·王辩护遭马斯克无情补刀",
+    "web-86cd2cc4cf18 | 复旦贾萧松：VLA、WAM新架构层出不穷，但真正的瓶颈不在模型架构 | 世界模型50人",
+    "web-7fb3beb5d76c | 特斯拉飞行汽车被质疑是噱头！网友：若是国内厂商，分分钟被骂到退市；王自如称「想与罗永浩和解」 ；OpenAI透露人形机器人项目进展"
    ]
   },
   "rss:钛媒体": {
    "n": 3,
-   "secs": 2.6,
+   "secs": 2.0,
    "sample": [
-    "web-91964fd9205c | 华人“接管”全球AI核心圈，已到了什么程度？",
-    "web-bb1df43c79f6 | Chinese Appliance Brands Gain in Europe, But Share Alone Is Fragile",
-    "web-e3274a164282 | Edge AI Daily 早报（10月12日）"
+    "web-7da675e1b15b | 220亿机器人明星项目，打五折卖不出去",
+    "web-b0fd7473dc6a | AI，别欺数学家太甚",
+    "web-707a28e31847 | 脑机接口的2026：医保跑在了商业前面，好事还是麻烦？"
    ]
   },
   "rss:InfoQ 中文": {
-   "n": 10,
-   "secs": 1.3,
+   "n": 11,
+   "secs": 1.5,
    "sample": [
-    "web-9d9055fb8266 | 阿里巴巴中国电商事业群/飞猪CTO陈烨博士已确认出席QCon上海，分享“从 Coding 到消费：AI 的下一场革命”",
-    "web-b2ad59f9e103 | 利用 AI 代码智能体优化软件架构的五种方法",
-    "web-c630f9f066a3 | AI 时代的移动端稳定性保障 —— 柯南 AI Agent 实践｜QCon上海",
-    "web-36cd30fa9fc9 | 模型开放之后，AI能力为什么仍难以复用？"
+    "web-4ea315f209f6 | Cloudflare 推出面向 AI 代理的 CLI，并逐步停用 Wrangler",
+    "web-63726491a1df | Gemini 4 Argon：为您解决最棘手的问题",
+    "web-5fb288460862 | 打造生产级的 Agent｜QCon上海",
+    "web-2009e586e757 | Meta 联手苹果推出全美最强开源模型，编码基测输给智谱、Kimi"
    ]
   },
   "rss:宝玉": {
-   "n": 1,
-   "secs": 1.0,
-   "sample": [
-    "web-f01d5df2c85e | 我用 GPT 6 Astra 做了一个 3D 版的《桃花源记》（文中含提示词）"
-   ]
+   "n": 0,
+   "secs": 0.4,
+   "sample": []
   },
   "rss:阮一峰": {
    "n": 0,
-   "secs": 0.2,
+   "secs": 0.1,
    "sample": []
   },
   "rss:Sam Altman": {
    "n": 0,
-   "secs": 0.5,
+   "secs": 0.4,
    "sample": []
   },
   "rss:Andrej Karpathy": {
    "n": 0,
-   "secs": 0.3,
+   "secs": 0.2,
    "sample": []
   },
   "rss:Ethan Mollick": {
-   "n": 2,
-   "secs": 0.4,
+   "n": 1,
+   "secs": 0.2,
    "sample": [
-    "web-ae4b31c0a883 | The Dot and the Swarm",
-    "web-a84fff8827c5 | The Overhang"
+    "web-ae4b31c0a883 | The Dot and the Swarm"
    ]
   },
   "rss:Simon Willison": {
    "n": 8,
    "secs": 0.1,
    "sample": [
+    "web-a31dac6d0b53 | Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
     "web-19c45cc3b756 | A new feature for my blog, built using my voice",
     "web-a343c9786e70 | Claude Haiku 5.5",
-    "web-3ba89625595d | We're going to need default hard budget caps on pretty much everything",
-    "web-f7665b70e425 | OpenAI DevDay 2026 live blog"
+    "web-3ba89625595d | We're going to need default hard budget caps on pretty much everything"
    ]
   },
   "rss:Nathan Lambert": {
-   "n": 5,
-   "secs": 0.4,
+   "n": 6,
+   "secs": 0.3,
    "sample": [
+    "web-2524f385929c | Meta shakes up the frontiers, open and closed",
     "web-2affe4da8255 | I expect rapid progress but not towards general superintelligence",
     "web-7c267aa07d2a | The Cyber Risk Discourse is Broken",
-    "web-0647ffff84a0 | Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
-    "web-9b44d7e44f1c | The current balance of power in open models"
+    "web-0647ffff84a0 | Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI"
    ]
   },
   "rss:Dwarkesh Patel": {
-   "n": 2,
-   "secs": 1.1,
+   "n": 1,
+   "secs": 0.2,
    "sample": [
-    "web-c721770015ea | Si Sheppard – How did a few hundred Spanish soldiers topple two empires?",
-    "web-a357b00b9cf8 | Noam Brown – Agent swarms, alignment, & recursive self-improvement"
+    "web-c721770015ea | Si Sheppard – How did a few hundred Spanish soldiers topple two empires?"
    ]
   },
   "rss:Latent Space": {
    "n": 20,
-   "secs": 0.5,
+   "secs": 0.2,
    "sample": [
-    "web-45bc2fccc930 | [Subscriber Exclusive] NYC Subscriber Meetups!",
-    "web-06d39cf072ff | Building AI for Reliable Execution: Lessons From Industrial Robotics",
-    "web-a77859e4336c | [AINews] TypeSafe/Jev at >$100M ARR, $7.5B valuation 3 weeks after launch",
-    "web-acc65b95cb51 | Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido"
+    "web-dc3d830e0a0d | [AINews] High Taste Testers Ep. 1",
+    "web-483d6307e687 | [AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
+    "web-7908d899cb3e | [AINews] Modal’s $1B ARR, $16B Series D makes it NYC’s newest AI Infra Decacorn, 3x usage ",
+    "web-f992f00e022a | Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial"
    ]
   },
   "rss:Jack Clark": {
-   "n": 3,
+   "n": 4,
    "secs": 0.1,
    "sample": [
+    "web-8635d0995c1d | Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
     "web-ece62f0713c1 | Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science econo",
     "web-70768dfb8c37 | Import AI 474: Platonic mindspace; TPUs in space; Zhipu starts an outer RSI loop",
     "web-c22910c59b4d | Import AI 473: The US’s superintelligence strategy; human brain in a mouse skull; and mach"
@@ -175,27 +172,27 @@
   },
   "rss:Benedict Evans": {
    "n": 0,
-   "secs": 0.6,
+   "secs": 0.5,
    "sample": []
   },
   "rss:Stratechery": {
-   "n": 6,
+   "n": 5,
    "secs": 0.2,
    "sample": [
+    "web-8e986c4bcc65 | A Conversation With Ari Emanuel About Entertainment and AI",
+    "web-3da3e7bca83e | Apple HomeView, The New Apple TV, The App Story",
     "web-4d48ed179d09 | Apple and LG, The House For Everyone Else, Agent Standards and Amazon",
-    "web-97a929f5a10e | Apple and a Hacker’s Future",
-    "web-dea61f738d0a | 2026.40: Dots and Question Marks",
-    "web-7910e80df825 | OpenAI Dev Day, Dot and OpenAI’s Product Transition, Sign In With ChatGPT"
+    "web-97a929f5a10e | Apple and a Hacker’s Future"
    ]
   },
   "rss:SemiAnalysis": {
-   "n": 12,
-   "secs": 5.7,
+   "n": 9,
+   "secs": 0.1,
    "sample": [
+    "web-ce421a1bd3e8 | Datacenters 2027: The Year of Acceleration, +50GW in a Single Year",
+    "web-0b5169630028 | ASML Is Building a Hybrid Bonding Tool!",
     "web-2edf2c87c8f3 | Beijing Will Not Pace the Frontier: China’s Speed-First AI Safety Regime",
-    "web-ebdbe868a594 | Anthropic Subscriptions Offer 5x+ More Value Than OpenAI",
-    "web-4480a93be62d | How GLM5.3 Sparse Attention Affects HBM Memory Usage",
-    "web-f6d9f4539f45 | Intel Panther Lake Teardown"
+    "web-ebdbe868a594 | Anthropic Subscriptions Offer 5x+ More Value Than OpenAI"
    ]
   },
   "rss:Paul Graham": {
@@ -205,78 +202,80 @@
   },
   "rss:Arvind Narayanan": {
    "n": 3,
-   "secs": 1.1,
+   "secs": 0.2,
    "sample": [
+    "web-b5bf2a8338b1 | Steering AI Beyond Automation",
     "web-bf503d529b33 | A big-tent or small-tent AI safety movement?",
-    "web-75adf5cf0062 | AI existential risk probabilities are (still) too unreliable to inform policy",
-    "web-1b2c816caa29 | The AI-as-Normal-Technology view of loss-of-control incidents"
+    "web-75adf5cf0062 | AI existential risk probabilities are (still) too unreliable to inform policy"
    ]
   },
   "rss:Azeem Azhar": {
-   "n": 15,
-   "secs": 0.3,
+   "n": 14,
+   "secs": 0.4,
    "sample": [
+    "web-b8f667a72845 | 🚨 Anthropic: The agony and the ecstasy",
+    "web-8bf1e3ba83de | 📈 What is bigger than AI?",
     "web-ec375bc871f5 | 🔮 AI & Math 2.0, Pakistan’s solar hedge & who controls computing++",
-    "web-442d59b0029b | 🔮 The end of screen time",
-    "web-afeeb7eadf7f | 📈 Monday data: More AI, more justice?",
-    "web-2728f0429dce | 🔮 The transition is hiding in plain sight #604"
+    "web-442d59b0029b | 🔮 The end of screen time"
    ]
   },
   "rss:Nathan Benaich": {
    "n": 3,
-   "secs": 0.1,
+   "secs": 0.3,
    "sample": [
+    "web-5df24f09cfe4 | Join us 10/27 in NYC for the State of AI 2026 meetup",
     "web-9658a84c85d1 | The State of AI Report 2026",
-    "web-81d3647dbda0 | Join us for the State of AI Report 2026 launch meetups",
-    "web-9a948dea5267 | Our investment in Jack & Jill: a job market that works for you"
+    "web-81d3647dbda0 | Join us for the State of AI Report 2026 launch meetups"
    ]
   },
   "rss:Tomasz Tunguz": {
    "n": 2,
-   "secs": 0.6,
+   "secs": 0.2,
    "sample": [
-    "web-827104ba5a57 | A Change in AI Strategy",
-    "web-5d82611b968e | How to Automate Inbound"
+    "web-9e83c0fccd83 | Price War in the Chip Aisle",
+    "web-b1ac29421426 | The Theory 2026 AI Survey Results"
    ]
   },
   "rss:Zvi Mowshowitz": {
    "n": 10,
-   "secs": 0.1,
+   "secs": 0.2,
    "sample": [
-    "web-9e2043ffa3aa | New Math from OpenAI",
-    "web-b98bf529323b | AI #189: New Math",
-    "web-26c9309c17eb | The Curve Bends You",
-    "web-b9aa0bae3694 | Childhood and Education #21: Grades and Standards"
+    "web-46ae680087f0 | Leaked Anthropic Draft AI Regulatory Bill Is Unacceptable and Troubling",
+    "web-a4821657039f | Monthly Roundup #47: October 2026",
+    "web-af56277b45b3 | AI #190: Scion of the Times",
+    "web-a36f5cbb4d44 | The Safety Culture at the Labs is Broken"
    ]
   },
   "rss:Timothy B. Lee": {
    "n": 4,
-   "secs": 2.2,
+   "secs": 0.3,
    "sample": [
+    "web-3f4663540891 | OpenAI’s ironic credibility problem",
     "web-4f5d65c153d2 | Understanding Jev, the new model everyone is talking about",
     "web-f22cf92242e1 | Introducing Dan Kagan-Kans",
-    "web-2de94d25b72d | Why agent swarms could be the next “scaling law”",
-    "web-7eabfac53070 | How a single tweet transformed the AI safety debate"
+    "web-2de94d25b72d | Why agent swarms could be the next “scaling law”"
    ]
   },
   "rss:Dean Ball": {
-   "n": 0,
-   "secs": 0.4,
-   "sample": []
+   "n": 1,
+   "secs": 0.2,
+   "sample": [
+    "web-3413707e4dc1 | The Beauty of Something Grown"
+   ]
   },
   "rss:Packy McCormick": {
    "n": 0,
-   "secs": 0.1,
+   "secs": 0.2,
    "sample": []
   },
   "rss:科学空间": {
    "n": 5,
    "secs": 1.2,
    "sample": [
+    "web-a13bc70952a5 | 慢即是快：2. Adam的尽头还是Muon？",
     "web-e7636b3ca6f9 | 如何让GDN2更稳定一些？",
     "web-99e5b6441976 | 通过微扰分析求解等式约束优化问题",
-    "web-1e4315d919ea | 慢即是快：1. Shampoo的尽头是Muon？",
-    "web-83571f49d0c7 | 排序不等式及其推广"
+    "web-1e4315d919ea | 慢即是快：1. Shampoo的尽头是Muon？"
    ]
   },
   "rss:Lilian Weng": {
@@ -286,125 +285,123 @@
   },
   "rss:Sebastian Raschka": {
    "n": 1,
-   "secs": 0.2,
+   "secs": 0.1,
    "sample": [
     "web-9ccfb6a68585 | Language Models for Text Classification: From Bag-of-Words to Jev"
    ]
   },
   "rss:Hugging Face Blog": {
-   "n": 16,
+   "n": 19,
    "secs": 0.1,
    "sample": [
-    "web-43ef54e74d27 | Impactful scheduling for GPU clusters",
-    "web-0f05fd4155a4 | The model that didn't exist, so you made it yourself",
-    "web-0825a4897dea | Multimodal open d1 decision models for the edge",
-    "web-91ed3eb235f3 | Introducing Falcon ASR"
+    "web-ba4e7337aba2 | Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+    "web-849b423196d1 | Welcome Beam: a 501B open model you can own, customize, and scale",
+    "web-a01e02239da0 | Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+    "web-9d251ac6836a | Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Met"
    ]
   },
   "rss:Google Research": {
-   "n": 9,
+   "n": 10,
    "secs": 0.3,
    "sample": [
-    "web-5b37e56ce043 | Does better work always mean better workers?",
-    "web-2e0aae10ded8 | Unlocking Earth AI’s planetary geospatial foundation models for global public health",
-    "web-30a9fdda0d8d | Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
-    "web-b7a4cac8ba63 | Toward provably private learning from federated data"
+    "web-081a8c34a658 | Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+    "web-09a39f2629eb | Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
+    "web-09678c4af343 | Analyzing technical documents with Deep Review",
+    "web-18b611693deb | Research@ 2026: 10 ways we're amplifying human ingenuity"
    ]
   },
   "rss:METR": {
-   "n": 4,
-   "secs": 0.9,
+   "n": 9,
+   "secs": 0.7,
    "sample": [
-    "web-fbdc3f662e33 | AI systems could cover up misbehavior",
-    "web-06721c09d8a1 | Chris Painter's testimony to the U.S. Senate on AI agent incidents",
-    "web-b59f28a3cbec | Implementing and Evaluating a Basic Per-Action Monitor for Safer Evals",
-    "web-773b150785b4 | Summary of METR's predeployment evaluation of Claude Opus 5.5"
+    "web-29033da3205d | Our approach to working with AI companies",
+    "web-8ddab547591b | How an assessor could investigate control and monitoring of internal AI agents",
+    "web-c49a0a0f8e15 | A proposal for better informing the public about loss-of-control risks from frontier AI de",
+    "web-f8f227944c47 | How an assessor could investigate alignment of unreleased AI models"
    ]
   },
   "rss:Chip Huyen": {
    "n": 0,
-   "secs": 6.9,
+   "secs": 0.3,
    "sample": []
   },
   "rss:Hamel Husain": {
-   "n": 2,
-   "secs": 0.3,
+   "n": 1,
+   "secs": 0.2,
    "sample": [
-    "web-77544766b84c | Claude’s new auto eval tool",
-    "web-b8fcb7456281 | AI Evals: Everything You Need to Know"
+    "web-77544766b84c | Claude’s new auto eval tool"
    ]
   },
   "rss:Eugene Yan": {
    "n": 0,
-   "secs": 0.4,
+   "secs": 0.1,
    "sample": []
   },
   "rss:OpenAI": {
    "n": 40,
    "secs": 0.2,
    "sample": [
-    "web-edd58468d564 | Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-    "web-90995f7dbc9c | Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-    "web-112b5f00879d | How Oracle turns days of work into minutes with ChatGPT and Codex",
-    "web-ca1ec6c6a1a1 | Pollo AI turns creative ideas into campaigns with OpenAI"
+    "web-65442e708214 | How Itaú is building generative AI for its entire customer base",
+    "web-4a2f3ca18eb9 | Benefit Street Partners answers questions faster with Codex",
+    "web-9db4940a53f8 | Stack Overflow for Agents triples signups with ChatGPT plugin",
+    "web-a72d1e4da6b0 | Bringing GPT-Rosalind to academic research labs"
    ]
   },
   "rss:Google DeepMind": {
-   "n": 7,
-   "secs": 0.1,
+   "n": 11,
+   "secs": 0.4,
    "sample": [
-    "web-2435ebd74585 | EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-    "web-311e095023e6 | Gemini 4 Argon: our next era of frontier intelligence",
-    "web-396b95f3429c | Introducing SynthID Bio",
-    "web-91625e27c986 | Introducing Gemini 3.8 Live with Live Avatar"
+    "web-1d4cff712a9a | Accelerating the search for antimicrobial peptides with Google Antigravity",
+    "web-5cb1618c1db5 | Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam",
+    "web-25432b6b093a | Developing Gemini 4 Argon responsibly and safely",
+    "web-8b0463614a7b | Gemini 4 Argon for Robotics"
    ]
   },
   "rss:NVIDIA": {
-   "n": 15,
-   "secs": 0.1,
+   "n": 17,
+   "secs": 0.2,
    "sample": [
-    "web-1112027d5901 | Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-    "web-6f02344687c4 | NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
-    "web-be7f8737364e | Why Telecom Operators Are Building Their AI Strategy on Open Models",
-    "web-a2beb8a05eac | From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps"
+    "web-af59b3284175 | RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+    "web-a01480253e96 | Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
+    "web-2cd92b812c13 | Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency S",
+    "web-46ec98616fab | Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW"
    ]
   },
   "rss:Microsoft": {
-   "n": 4,
-   "secs": 0.5,
+   "n": 2,
+   "secs": 0.3,
    "sample": [
     "web-1f49227e0e88 | New Microsoft data innovations unlock what only your business knows",
-    "web-c75a43ae6d3d | Introducing the new Copilot with Home, Code and Autopilot",
-    "web-282315cad5df | What we’ve learned from Microsoft’s own AI transformation",
-    "web-5c61363562f7 | Microsoft’s commitment for AI in education: Protecting students, strengthening learning"
+    "web-c75a43ae6d3d | Introducing the new Copilot with Home, Code and Autopilot"
    ]
   },
   "list:https://www.anthropic.com/news": {
-   "n": 2,
-   "secs": 2.6,
+   "n": 1,
+   "secs": 0.8,
    "sample": [
-    "web-eb1569caa0b7 | Expanding the Cyber Verification Program",
-    "web-d40aae393b58 | 2026 Usage Policy update"
+    "web-66d5720ec836 | Investing in the public benefit"
    ]
   },
   "list:https://www.anthropic.com/engineering": {
-   "n": 0,
-   "secs": 1.8,
-   "sample": []
+   "n": 1,
+   "secs": 1.0,
+   "sample": [
+    "web-d6e89e4381e4 | Redesigning source control at Anthropic"
+   ]
   },
   "list:https://www.darioamodei.com": {
    "n": 0,
-   "secs": 1.6,
+   "secs": 0.8,
    "sample": []
   },
   "list:https://api-docs.deepseek.com/": {
    "n": 0,
-   "secs": 1.5,
+   "secs": 2.1,
    "sample": []
   },
   "list:https://mistral.ai/news": {
    "n": 0,
-   "secs": 3.7,
+   "secs": 0.8,
    "sample": []
   },
   "list:https://x.ai/news": {
@@ -414,17 +411,17 @@
   },
   "arxiv_search": {
    "n": 0,
-   "secs": 0.6,
+   "secs": 1.7,
    "sample": []
   },
   "cand:Elad Gil": {
    "n": 0,
-   "secs": 1.4,
+   "secs": 0.2,
    "sample": []
   },
   "cand:The Batch": {
    "n": 0,
-   "secs": 0.1,
+   "secs": 0.2,
    "sample": []
   },
   "cand:Marc Andreessen": {
@@ -434,17 +431,17 @@
   },
   "cand:Helen Toner": {
    "n": 0,
-   "secs": 0.5,
+   "secs": 0.1,
    "sample": []
   },
   "cand:Miles Brundage": {
    "n": 0,
-   "secs": 0.2,
+   "secs": 0.1,
    "sample": []
   },
   "cand:Gary Marcus": {
    "n": 0,
-   "secs": 0.2,
+   "secs": 0.1,
    "sample": []
   },
   "cand:Qwen": {
@@ -454,12 +451,12 @@
   },
   "cand:Epoch AI": {
    "n": 0,
-   "secs": 0.6,
+   "secs": 0.3,
    "sample": []
   },
   "cand:LMArena": {
    "n": 0,
-   "secs": 3.5,
+   "secs": 0.7,
    "sample": []
   },
   "cand-list:Meta AI": {
