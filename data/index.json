@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-20T09:57:08+00:00",
+ "updated": "2026-10-20T15:36:56+00:00",
  "days": [
   {
    "date": "2026-10-20",
-   "count": 60,
+   "count": 81,
    "slots": {
     "morning": 19,
     "noon": 21,
-    "evening": 20
+    "evening": 41
    }
   },
   {
@@ -239,51 +239,50 @@
    }
   }
  ],
- "total": 1430,
+ "total": 1451,
  "last_run": {
-  "at": "2026-10-20T09:57:08+00:00",
+  "at": "2026-10-20T15:36:56+00:00",
   "slot": "evening",
   "candidates": 211,
-  "new": 130,
-  "stale": 31,
-  "judged": 97,
-  "selected": 20,
-  "mirrored": 16,
+  "new": 119,
+  "stale": 34,
+  "judged": 100,
+  "selected": 21,
+  "mirrored": 19,
   "by_category": {
-   "项目": 2,
    "技术": 4,
-   "资讯": 13,
-   "观点": 1
+   "资讯": 14,
+   "项目": 3
   },
   "by_source": {
-   "HF Daily Papers": 47,
+   "HF Daily Papers": 51,
    "arXiv 新论文": 60,
    "Hacker News": 7,
+   "GitHub 新项目": 5,
    "量子位": 10,
    "极客公园": 5,
-   "IT之家": 15,
-   "爱范儿": 6,
+   "IT之家": 9,
+   "爱范儿": 7,
    "少数派": 1,
    "雷峰网": 12,
    "钛媒体": 3,
-   "InfoQ 中文": 12,
+   "InfoQ 中文": 11,
    "Latent Space": 1,
    "Jack Clark": 1,
    "Stratechery": 1,
    "SemiAnalysis": 1,
    "Arvind Narayanan": 1,
    "Nathan Benaich": 1,
-   "Tomasz Tunguz": 1,
    "Zvi Mowshowitz": 1,
    "Timothy B. Lee": 1,
    "科学空间": 1,
-   "Hugging Face Blog": 1,
+   "Hugging Face Blog": 4,
+   "METR": 1,
    "Hamel Husain": 1,
    "OpenAI": 1,
    "NVIDIA": 3,
    "Microsoft": 2,
-   "GitHub Trending": 13,
-   "GitHub 新项目": 7
+   "GitHub Trending": 15
   },
   "llm": true,
   "translated": 0

@@ -2373,6 +2373,204 @@
    "mt": false
   },
   {
+   "id": "arxiv-2610.26802",
+   "kind": "paper",
+   "title": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
+   "url": "https://arxiv.org/abs/2610.26802",
+   "pdf_url": "https://arxiv.org/pdf/2610.26802",
+   "abstract": "Brain encoding models aim to predict neural responses to stimuli. The most widely used approach fits readouts from frozen pretrained backbones. Using neural data to train large models from scratch or fully fine-tune them after task-pretraining has proven difficult because neural data is costly and limited. We show that parameter-efficient fine-tuning (PEFT) enables us to effectively adapt very large pretrained backbones for brain encoding with a small number of trainable parameters. To make it computationally practical, we exploit the backbone's causal structure to predict multiple timepoints in a single pass instead of using sliding windows, significantly reducing feature-extraction cost. This enables efficient fine-tuning of multimodal backbones with up to 104B parameters, the largest model adapted for brain encoding to our knowledge. Trained with a low-rank adapter (LoRA) and a lightweight readout, our approach consistently improves brain encoding performance across nine diverse multimodal backbones. On the same Qwen3-Omni backbone as the prior state-of-the-art (SoTA), our method BrainLoRA achieves the best published performance on the Algonauts 2025 Challenge. We also show the adapted multimodal backbones remain interpretable: modality attribution recovers the canonical sensory topography that prior work often obtains by construction from separate unimodal encoders, and neural adaptation increases the contribution of audio inputs and cross-modal mixing within the backbone. To scale out the number of adapted models, we develop a multi-LoRA kernel that accelerates joint training of multiple LoRAs on a shared backbone. This enables an ensemble of 200+ adapted models that ranks first on the public Algonauts post-challenge leaderboard at the time of writing. Together, our results highlight PEFT as an efficient and powerful paradigm for brain encoding.",
+   "authors": [
+    "Zhuofan Josh Ying",
+    "Guanglong Sun",
+    "Nolan Ho",
+    "Kieran Liu",
+    "Rui Yang",
+    "Andrew Chen",
+    "Nikolaus Kriegeskorte",
+    "Pony Ma",
+    "Hossein Adeli"
+   ],
+   "orgs": [
+    "Mind Lab"
+   ],
+   "published": "2026-10-19T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.26802",
+     "signal": "▲ 159",
+     "metric": 159
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "BrainLoRA：百亿参数多模态模型适配大脑编码",
+   "summary_zh": "用LoRA微调冻结的多模态骨干做大脑编码，利用因果结构一次预测多时间点降低特征提取成本，首次适配104B参数模型，在Algonauts 2025挑战赛取得最佳公开成绩。",
+   "highlights_zh": [
+    "PEFT让有限神经数据也能适配超大预训练骨干",
+    "单次前向预测多时间点，大幅降低特征提取开销",
+    "九种多模态骨干上一致提升，且保持模态归因可解释性"
+   ],
+   "why_zh": "神经科学+大模型交叉的代表性进展，展示PEFT在数据稀缺科学场景的规模化潜力。",
+   "tags": [
+    "多模态",
+    "效率与系统",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.68,
+   "score_llm": 8.0,
+   "score": 0.752,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T15:36:56+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.26802.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.26802"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.26802"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.26802"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.26802"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.26802"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.26802"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.25736",
+   "kind": "paper",
+   "title": "Learning from Fleet Experience: A Collective Learning Paradigm for Robots",
+   "url": "https://arxiv.org/abs/2610.25736",
+   "pdf_url": "https://arxiv.org/pdf/2610.25736",
+   "abstract": "Experience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions. However, learning through human corrections requires teleoperators to monitor execution and intervene when policies fail, a demand that is difficult to meet as robot fleets grow. We introduce collective experience learning (CEL), a learning paradigm in which deployed robots share their execution experience to improve a common policy. We realize CEL through failure-guided experience retrieval fine-tuning (FERT), which uses failure contexts from robot executions to retrieve relevant trajectory segments from the fleet's shared successful experience and uses their actions as supervision for policy updates, without collecting additional expert demonstrations or corrective actions. A fault-tolerant asynchronous training system (FATS) coordinates experience collection, policy optimization and policy distribution despite local interruptions within the robot fleet. Across five real-world manipulation tasks, the resulting policies achieve success rates of 93.3-99.2%, evaluated over 120 trials per task on robots excluded from training data collection. With collection time per robot held fixed, larger fleets provide more experience and FERT generally achieves higher success rates across the evaluated sizes. On multi-stage phone packaging, learning with 96 robots increases success from 79.2% to 98.3%. These results support collective experience as a practical basis for scalable robot learning and a path towards improving policy reliability during deployment without collecting additional expert corrective actions.",
+   "authors": [
+    "Chao Yu",
+    "Shu&#39;ang Yu",
+    "Hao Lin",
+    "Hongzhi Zang",
+    "Yuxiang Yan",
+    "Chenxi Jiang",
+    "Zhen Guo",
+    "Chuankang Li",
+    "Yihao Chen",
+    "Xin Xu",
+    "Xu Fu",
+    "Jiakai Zhou",
+    "Liangzhi Shi",
+    "Hongyi Ren",
+    "Yiwei Liu",
+    "Jing Wu",
+    "Yuanqing Wang",
+    "Chen Wu",
+    "Bo Dai",
+    "Chunyu Yang",
+    "Hongliang Huang",
+    "Shuoyu Yue",
+    "Weiqi Yin",
+    "Yinuo Chen",
+    "Ruihua Chen",
+    "Chunyang Zhu",
+    "Han Xiao",
+    "Yanghao Li",
+    "Ruipu Wu",
+    "Zhikai Cai",
+    "Xiu Chen",
+    "Xu Tan",
+    "Yuchen Yan",
+    "Jialin Zhang",
+    "Wen Zeng",
+    "Yiming Zhou",
+    "Zixiao Huang",
+    "Guanghui Ren",
+    "Quanlu Zhang",
+    "Boxun Li",
+    "Maoqing Yao",
+    "Yu Wang"
+   ],
+   "orgs": [],
+   "published": "2026-10-19T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.25736",
+     "signal": "▲ 104",
+     "metric": 104
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "机器人集群集体经验学习：无需人工纠正",
+   "summary_zh": "提出集体经验学习CEL与FERT方法，机器人共享执行经验，用失败上下文检索集群成功轨迹做监督更新策略，五个真实操作任务成功率93.3%-99.2%，集群越大效果越好。",
+   "highlights_zh": [
+    "无需额外专家演示或人工纠正动作",
+    "容错异步训练系统协调采集、优化与分发",
+    "在多阶段手机包装等任务上验证可扩展性"
+   ],
+   "why_zh": "为机器人规模化部署后的持续自我改进提供了不依赖遥操作的可行路径。",
+   "tags": [
+    "机器人",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.6583,
+   "score_llm": 8.0,
+   "score": 0.7433,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T15:36:56+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.25736.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.25736"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.25736"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.25736"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.25736"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.25736"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.25736"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "arxiv-2610.26825",
    "kind": "paper",
    "title": "MemT-1.0: Towards Memory-Native Evolution",
@@ -2520,6 +2718,98 @@
     {
      "label": "GitHub",
      "url": "https://github.com/MemTensor/MemT-1.0"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.26770",
+   "kind": "paper",
+   "title": "HarnessPro: Recursive Harness Self-Improvement with Pareto Optimization for Performance-Cost Trade-offs",
+   "url": "https://arxiv.org/abs/2610.26770",
+   "pdf_url": "https://arxiv.org/pdf/2610.26770",
+   "abstract": "Harness development plays a crucial role in building capable AI agents. Recent approaches improve harnesses through recursive self-improvement (RSI), but their performance gains often come with higher execution costs. We introduce HarnessPro, a label-free method for evolving harnesses to improve task performance while reducing execution cost. In this setting, candidate harnesses are evaluated using LLM-generated tests without access to ground-truth solutions or official tests. Specialized agents diagnose execution trajectories, plan updates with different performance-cost priorities, and implement them as candidate harnesses. Rather than returning a single harness, HarnessPro uses normalized weighted squared-distance selection to provide cost-focused (lite), balanced (medium), and performance-focused (heavy) harnesses for different deployment budgets. Selected harnesses enter the next iteration, where execution feedback guides further updates. Our experiments cover Terminal-Bench 2, SWE-Bench Pro, and ProgramBench, using GPT-5.5 with Codex and GLM-5.2 with Claude Code. Across these benchmarks using GPT-5.5 with Codex, the heavy mode of HarnessPro achieves an average pass-rate gain of 2.0 percentage points and an average per-task cost reduction of 26.1% relative to RHO. This advantage also holds when using GLM-5.2 with Claude Code. Code is available at https://github.com/pzs19/HarnessPro",
+   "authors": [
+    "Zhuoshi Pan",
+    "ZhiYuan Feng",
+    "Yukuo Cen",
+    "Honglin Lin",
+    "Junru Lu",
+    "Zhongxia Chen",
+    "Shuo Yang",
+    "H. Vicky Zhao",
+    "Jie Tang"
+   ],
+   "orgs": [],
+   "published": "2026-10-19T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.26770",
+     "signal": "▲ 25",
+     "metric": 25
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.26770",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "HarnessPro：帕累托优化的智能体脚手架自进化",
+   "summary_zh": "无标签方法让专用智能体诊断执行轨迹并迭代改进harness，用归一化加权平方距离选出轻/中/重三档方案，在Terminal-Bench 2等基准上较RHO平均通过率+2.0pp、单任务成本-26.1%。",
+   "highlights_zh": [
+    "仅用LLM生成测试评估，无需标准答案",
+    "同时优化性能与执行成本，提供多预算档位",
+    "在GPT-5.5+Codex与GLM-5.2+Claude Code上均成立"
+   ],
+   "why_zh": "智能体harness设计正成为性能与成本的关键杠杆，该工作给出了可复用的自进化框架。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.6348,
+   "score_llm": 8.0,
+   "score": 0.7339,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T15:36:56+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.26770.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.26770"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.26770"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.26770"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.26770"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.26770"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.26770"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/pzs19/HarnessPro"
     }
    ],
    "mt": false
@@ -2704,6 +2994,109 @@
    "mt": false
   },
   {
+   "id": "arxiv-2610.25950",
+   "kind": "paper",
+   "title": "AdaExploreBench: Benchmarking LLM Agents for Proactive Exploration and Test-time Adaptation in Evolving Environments",
+   "url": "https://arxiv.org/abs/2610.25950",
+   "pdf_url": "https://arxiv.org/pdf/2610.25950",
+   "abstract": "Large Language Model (LLM) agents are increasingly deployed in unfamiliar and evolving environments, requiring them to proactively explore, understand, and adapt to environmental dynamics. However, existing benchmarks rarely test whether agents can proactively discover how an environment works and adapt as it evolves. To address this gap, we introduce AdaExploreBench, a benchmark for proactive exploration and test-time adaptation in evolving environments. By instantiating environmental dynamics as hidden rules, AdaExploreBench requires agents to actively acquire evidence and infer the rules. Under implicit rule drift, the latent rule changes without announcement, requiring agents to detect from degraded performance that prior knowledge is stale and re-explore. Experiments on eight leading LLMs show that proactive and adaptive exploration remain challenging: GPT-6 Sol achieves only 61.9% calibrated accuracy, while providing sufficient evidence or removing rule drift improves average performance significantly by close to 10%. These results reveal a critical bottleneck in current LLM agents: they can often reason effectively from informative evidence once it is available, but struggle to actively acquire the right evidence and recognize when previously acquired evidence is no longer valid.",
+   "authors": [
+    "Rui Wang",
+    "Zishen Lai",
+    "Jiayu Liu",
+    "Cheng Qian",
+    "Jeonghwan Kim",
+    "Heng Wang",
+    "Xuejun Zhang",
+    "Jiateng Liu",
+    "Bingxuan Li",
+    "Shujin Wu",
+    "Qing Zong",
+    "Tianshi Zheng",
+    "Chunyang Li",
+    "Qihan Lin",
+    "Chen Li",
+    "Dadi Guo",
+    "Xiusi Chen",
+    "Yangqiu Song"
+   ],
+   "orgs": [
+    "HKUST"
+   ],
+   "published": "2026-10-19T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.25950",
+     "signal": "▲ 22",
+     "metric": 22
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.25950",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AdaExploreBench：智能体主动探索与测试时适应基准",
+   "summary_zh": "港科大提出新基准，用隐藏规则与规则漂移测试智能体主动探索和适应能力；GPT-6 Sol 校准准确率仅61.9%，补足证据或去掉漂移可提升近10%，暴露智能体主动取证与识别知识过时的瓶颈。",
+   "highlights_zh": [
+    "将环境动态实例化为隐藏规则，要求智能体主动取证并推断规则",
+    "隐式规则漂移下需从性能下降中察觉旧知识失效并重新探索",
+    "八款主流模型测试显示主动探索与适应仍是关键短板"
+   ],
+   "why_zh": "评测智能体真实环境适应力的新基准，直指主动探索瓶颈。",
+   "tags": [
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.6275,
+   "score_llm": 8.0,
+   "score": 0.731,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T15:36:56+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.25950.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.25950"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.25950"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.25950"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.25950"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.25950"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.25950"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/HKUST-KnowComp/AdaExploreBench"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "arxiv-2610.26811",
    "kind": "paper",
    "title": "State World Models: Execute the Rules, Generate the Pixels",
@@ -2786,6 +3179,168 @@
     {
      "label": "GitHub",
      "url": "https://github.com/Zhangyr2022/StateWorldModel"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d2321eb5a0cf",
+   "kind": "article",
+   "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
+   "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-19T16:16:46Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50154244",
+     "signal": "462 pts",
+     "metric": 462
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "美DHS下令禁止联邦民事机构使用DeepSeek",
+   "summary_zh": "美国国土安全部发布命令，禁止联邦民事机构使用DeepSeek，进一步收紧中国AI模型在美政府场景的使用，影响相关采购与合规。",
+   "highlights_zh": [
+    "DHS命令覆盖联邦民事机构",
+    "针对中国大模型DeepSeek的又一限制",
+    "影响政府采购与合规部署"
+   ],
+   "why_zh": "中美AI监管博弈的最新动作，影响出海与合规判断。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6078,
+   "score_llm": 7.0,
+   "score": 0.6631,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T15:36:56+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50154244"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9a75aafc0f23",
+   "kind": "article",
+   "title": "headroomlabs-ai/headroom",
+   "url": "https://github.com/headroomlabs-ai/headroom",
+   "pdf_url": "",
+   "abstract": "Star headroomlabs-ai / headroom Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+   "authors": [],
+   "orgs": [
+    "headroomlabs-ai"
+   ],
+   "published": "2026-10-20T15:36:56+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/headroomlabs-ai/headroom",
+     "signal": "★ 今日 +555 · Python",
+     "metric": 555
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "headroom：送入LLM前压缩工具输出与RAG片段",
+   "summary_zh": "headroom在工具输出、日志、文件和RAG片段送入LLM前进行压缩，编码智能体省约20%token，JSON场景省60-95%，答案质量不变，提供库、代理与MCP服务器三种形态。",
+   "highlights_zh": [
+    "支持库、代理、MCP服务器三种接入方式",
+    "JSON类内容压缩率可达60-95%",
+    "面向编码智能体与RAG场景"
+   ],
+   "why_zh": "如果你在做编码智能体或RAG，可用它压缩上下文以降低token成本。",
+   "tags": [
+    "效率与系统",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5993,
+   "score_llm": 7.0,
+   "score": 0.6597,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T15:36:56+00:00",
+   "mirror_pdf": "pdf/web-9a75aafc0f23.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/headroomlabs-ai/headroom"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e0286890c657",
+   "kind": "article",
+   "title": "Review of the \"Misalignment in high-stakes settings\" section in Anthropic's Risk Report (August 2026)",
+   "url": "https://metr.org/blog/2026-10-20-misalignment-risk-report-august-2026-review/",
+   "pdf_url": "",
+   "abstract": "Scope and access: this review was written based solely on Anthropic’s internal Risk Report from August 2026 and is relatively lightweight. The authors of this review were engaged prior to the “ An update on independent evaluators ” announcement and did not have the level of access to information described in that post. We expect future engagements to be governed by different terms. Redaction summary statement: Anthropic had the right to veto publication of this review and to redact any part of it. No redactions were made to our review and we did not change any of our conclusions during the publication review process. METR made minor changes to our review in response to feedback from Anthropic, but these changes were limited to minor wording and clarification, as well as improving the methodology of an experiment we ran. Executive summary METR conducted an external review of the “Misalignment in high-stakes settings” section of Anthropic’s Risk Report: August 2026 . Anthropic’s report concludes that, as of July 15, 2026, “the risk of catastrophic harm caused by misalignment of [their] models is low.” Our best guess is that we agree with Anthropic that the risk of catastrophic harm from misalignment is low for the models covered in the report. However, this is primarily due to models’ limited capabilities, rather than safeguards and alignment training. We are not confident that, if risk were higher, the methodology in the report would reliably identify this. The report seems th",
+   "authors": [
+    "METR"
+   ],
+   "orgs": [
+    "METR"
+   ],
+   "published": "2026-10-20T07:00:00+00:00",
+   "sources": [
+    {
+     "name": "METR",
+     "authority": 0.85,
+     "url": "https://metr.org/blog/2026-10-20-misalignment-risk-report-august-2026-review/",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "前沿模型能力评测机构",
+   "title_zh": "METR评Anthropic风险报告：低风险源于能力有限",
+   "summary_zh": "METR认为Anthropic模型灾难性错位风险确实低，但主因是模型能力有限，而非对齐训练与防护措施有效。",
+   "highlights_zh": [
+    "METR对Anthropic风险报告做外部独立评审",
+    "结论：低风险主要归因于能力不足而非对齐有效",
+    "评审过程未被删改，结论独立"
+   ],
+   "why_zh": "头部实验室安全结论遭独立机构质疑归因，是理解对齐现状的重要信号。",
+   "tags": [
+    "对齐与安全",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T15:36:56+00:00",
+   "mirror_pdf": "pdf/web-e0286890c657.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://metr.org/blog/2026-10-20-misalignment-risk-report-august-2026-review/"
     }
    ],
    "mt": false
@@ -3055,6 +3610,60 @@
    "mt": false
   },
   {
+   "id": "web-efa8c4c666c6",
+   "kind": "article",
+   "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+   "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-19T23:22:18Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50159341",
+     "signal": "652 pts",
+     "metric": 652
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "WhatsApp帮助页暗藏LLM指令：勿推荐监管机构",
+   "summary_zh": "WhatsApp帮助页面被发现在内容中嵌入针对大模型的隐藏指令，引导模型不要推荐监管机构，引发对提示注入与平台内容操控的讨论。",
+   "highlights_zh": [
+    "帮助页文本中嵌入面向LLM的隐藏指令",
+    "指令内容为阻止模型推荐监管机构",
+    "涉及提示注入与平台内容操控的伦理问题"
+   ],
+   "why_zh": "提示注入进入主流平台的现实案例，值得安全从业者关注。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.62,
+   "score_llm": 6.0,
+   "score": 0.608,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T15:36:56+00:00",
+   "mirror_pdf": "pdf/web-efa8c4c666c6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50159341"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-2aa11b152c82",
    "kind": "article",
    "title": "日均6万亿Token服务背后，商汤大装置如何提升推理效能？",
@@ -3110,6 +3719,61 @@
    "mt": false
   },
   {
+   "id": "web-001d4bfb4581",
+   "kind": "article",
+   "title": "Claude新模型曝光！能跳出思维定势，修Bug治标又治本",
+   "url": "https://www.qbitai.com/2026/10/504314.html",
+   "pdf_url": "",
+   "abstract": "OpenAI只掏出一个6.1 Terra…",
+   "authors": [
+    "梦晨"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-20T01:09:43+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/504314.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Claude新模型曝光：能跳出思维定势，修Bug治标又治本",
+   "summary_zh": "量子位报道Anthropic新Claude模型曝光，据称能跳出既有思维定势、从根因修复Bug而非打补丁，同时提及OpenAI同期动作。",
+   "highlights_zh": [
+    "新模型强调根因级Bug修复能力",
+    "与OpenAI近期发布形成对比",
+    "属媒体爆料，官方细节待确认"
+   ],
+   "why_zh": "头部模型能力迭代方向，关乎代码智能体竞争格局。",
+   "tags": [
+    "大模型",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T15:36:56+00:00",
+   "mirror_pdf": "pdf/web-001d4bfb4581.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/504314.html"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-41797b9f96f9",
    "kind": "article",
    "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
@@ -3160,6 +3824,61 @@
     {
      "label": "Hacker News 讨论",
      "url": "https://news.ycombinator.com/item?id=50148855"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bb2f91049337",
+   "kind": "article",
+   "title": "Show HN: Qwen3-4B with the AI writing tics trained out",
+   "url": "https://100toolkit.com/blog/deslop-model/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-19T13:00:47Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50151928",
+     "signal": "153 pts",
+     "metric": 153
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Show HN：训练掉AI写作腔调的Qwen3-4B",
+   "summary_zh": "开发者在Hacker News展示经微调的Qwen3-4B，专门去除大模型常见的写作套话与腔调，引发社区对模型风格可控性的讨论。",
+   "highlights_zh": [
+    "针对AI写作套话做定向微调",
+    "小参数模型即可实现风格控制",
+    "社区关注度较高（153分）"
+   ],
+   "why_zh": "对需要输出自然文风的本地部署与内容生成场景有实操参考。",
+   "tags": [
+    "大模型",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.5562,
+   "score_llm": 6.0,
+   "score": 0.5825,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T15:36:56+00:00",
+   "mirror_pdf": "pdf/web-bb2f91049337.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://100toolkit.com/blog/deslop-model/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50151928"
     }
    ],
    "mt": false
@@ -3324,6 +4043,222 @@
     {
      "label": "原文",
      "url": "https://www.infoq.cn/article/tgqMEJsqXfX6YzAcOiAR?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6628ab51bcba",
+   "kind": "article",
+   "title": "喊出300万张订单，英伟达RTX PRO 5500为何遭到提前疯抢？",
+   "url": "https://www.leiphone.com/category/chips/STx9ZzfDNh5W80Bm.html",
+   "pdf_url": "",
+   "abstract": "在AI算力市场，等风声传开再下注，往往已经慢了半拍。 早在8月份，服务器产品经理夏寅卿已经开始向客户推介还未面世的RTX PRO 5500。一个月后，这张最新PRO系列专业工作站显卡才默默出现在英伟达官网。 然而，RTX PRO 5500在中国市场引发的动静，远不如它正式亮相时那般低调——有大厂被传计划采购100万张；跨界布局算力租赁的天阳科技，签订2万张采购合同的消息经公众号平台发布当天，股价上涨12.38%。 夏寅卿用“疯狂”来形容国内采购热潮，称订购规模已达数百万张，接近英伟达预计的全球产能。 与此同时，这张尚未批量交付，实际性能也有待验证的新卡，还被卷入了另一张热门显卡的停产风波。 有海外社媒爆料称，英伟达计划将GB202芯片的后续供应转向包含RTX PRO 5500在内的RTX PRO系列，不再向旗舰游戏显卡RTX 5090分配芯片产能。 消息尚未得到英伟达正式确认，但价格本就水涨船高的5090，国内部分渠道报价已进一步攀升至5.7万元左右。 一边是新卡尚未交付，买家已经争相下注；另一边，现有的专业卡、消费级显卡的供需和价格也被推到了新的风口。英伟达非数据中心卡在中国的生意将迎来哪些转变？ 01 合规之外，5500 还有哪些值得被争抢的筹码？ 合规，是部分中国企业采购英伟达GPU时首先要锚定的必要条件。 “英伟达将RTX PRO 5500定位为专业工作站GPU，是为了更容易通过相关审批。”智算中心服务商老林直言。 相较上一代RTX PRO 6000分化出服务器版、工作站版等版本，从英伟达目前公开的信息看，这一次的RTX PRO 5500只押注一条线。 在RTX PRO 5500之前，为了应对美国商务部工业与安全局（BIS）等相关部门对先进计算芯片的管制，英伟达陆续推出面向中国市场的特供型号，围绕计算能力、显存带宽等指标做出取舍。 RTX PRO 6000D就是其中一个典例。基于几位受访者提供的参数，在常用的AI计算精度下，这款特供产品的算力仅占RTX PRO 6000服务器版的三至四成。 有RTX PRO 6000D的性能大幅缩水在前，目前暂未声明有特供型号的RTX PRO 5500算力表现是否也会大打折扣，自然备受关注。结合官方理论参数和夏寅卿给到的数据，在FP4、FP8等精度下， RTX PRO 5500的理论算力较RTX PRO 6000D提升约一倍。 除此之外，接近英伟达的算力服务从业者秦宇还关注到RTX PRO 5500支持 MIG （Multi-Instance GPU，多实例GPU）功能，这也是他眼中RTX PRO 5500相较于RTX PRO 6000D的一项重要优势。 根据官方介绍，拥有RTX PRO 6000D同等显存容量的RTX PRO 5500，可以通过MIG划分出两个各含42GB显存的计算板块，不同的AI推理任务可以在同一张GPU上独立运行，提高了算力资源利用率。 而RTX PRO 5500 84GB的显存容量，本身也有着不小的吸引力。 夏寅卿观察到， 大显存专业GPU的行情今年明显升温 。以RTX PRO 6000服务器版为例，其渠道价格在去年年底经历一轮下跌后，已从今年年初的6万元至7万元涨至18万元至19万元。 市场对大显存的渴求甚至催生了民间改装生意——9月深圳曾传出32GB显存的RTX 5090被“魔改”为96GB版本的消息。 在夏寅卿看来，这与此前尚未充分释放的终端需求开始爆发有关。随着具身智能、智能驾驶等应用的发展，以及大模型部署需求的增加，部分场景已经走向商业闭环。 但终端需求再旺盛、业务再怎么",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-20T10:27:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/chips/STx9ZzfDNh5W80Bm.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "英伟达RTX PRO 5500遭疯抢：合规算力成中国AI市场硬通货",
+   "summary_zh": "英伟达尚未量产的专业卡RTX PRO 5500在中国被传订购数百万张，接近全球产能；其84GB显存与MIG支持被视为绕开管制、承接推理需求的关键筹码。",
+   "highlights_zh": [
+    "RTX PRO 5500理论算力较特供版6000D提升约一倍，支持MIG划分双42GB实例",
+    "大显存专业GPU渠道价暴涨，6000服务器版从年初6-7万涨至18-19万",
+    "5090停产传闻叠加，消费级与专业卡供需价格同步被推高"
+   ],
+   "why_zh": "理解中国AI算力采购在合规约束下的真实选择与价格信号。",
+   "tags": [
+    "推理",
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T15:36:56+00:00",
+   "mirror_pdf": "pdf/web-6628ab51bcba.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/chips/STx9ZzfDNh5W80Bm.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-df5372ec3115",
+   "kind": "article",
+   "title": "亚太唯一！阿里云连续4年获评 Gartner 容器管理领导者象限",
+   "url": "https://www.leiphone.com/category/industrynews/z75kiSSlXYqfCza6.html",
+   "pdf_url": "",
+   "abstract": "近日，国际权威咨询公司Gartner正式发布2026年度《容器管理魔力象限》报告，阿里云连续4年入选该报告，稳居“领导者”象限，是亚太地区唯一获此殊荣的科技公司。 Gartner在报告中将“丰富的AI集成”、“全面的功能覆盖”和“在严苛生产环境中的广泛使用”列为阿里云的核心优势。在同期发布的《容器管理关键能力》报告中，阿里云在六大场景中有四项位居前二, 进一步彰显AI时代的技术领先优势。 Gartner2026《容器管理魔力象限》 Gartner：容器服务正进入AI与Agent生产时代 容器管理市场的关键词，正在从“采用Kubernetes”转向“规模化生产”。 Gartner指出，随着企业优先发展AI和复杂应用架构，企业更加关注如何通过统一控制平面，管理从本地遗留系统到云原生、AI驱动型工作负载的多样化环境。面向规模化生产，容器平台不仅要提供编排能力，还要同时提供治理、安全、可观测性和开发者自助服务，降低日益异构的IT环境带来的复杂度。 AI进一步改变了容器平台的任务边界。模型训练需要高效调度异构算力，模型推理需要在时延、吞吐与成本之间动态平衡，Agent则需要安全隔离、弹性伸缩、状态保持的执行环境。容器平台的价值，已经不只是“把应用运行起来”，而是让AI业务在复杂环境中高效、稳定地规模化运行。 从模型到Agent，阿里云容器服务ACK构建AI全周期底座 围绕模型训练、模型推理和智能体应用，阿里云持续升级容器服务ACK与智能体沙箱服务，让AI工作负载从开发测试迈向生产运行。 目前，容器服务ACK单集群最大可支持10万节点与20万在线沙箱，容器镜像服务ACR支持5000节点并发下载和1000客户端并发上传。同时全面支持阿里云灵骏真武M890超节点，，通过多级拓扑感知调度、故障自动感知与自愈，以及AI Profiling智能诊断，提升算力利用效率。在真实业务场景中，拓扑感知优化使推理吞吐提升40%以上。 面向模型推理，ACK 的AI Serving Stack提供从请求路由、负载管理、分布式推理、弹性伸缩，到模型与数据缓存进行全链路协同优化。在不同试用场景中，可节省50%计算资源，提升推理吞吐性能200%；通过权重直传、算子编译复用和引擎初始化流程并行化，Qwen3 235B模型切换时间从13分钟缩短至3秒。 当Agent从生成答案走向运行代码、调用工具、操作文件和浏览器，它需要的不只是算力，还需要一个能够承载真实任务的执行环境。阿里云近期发布的智能体沙箱Agent Sandbox，提供开箱即用、弹性伸缩、安全隔离的执行环境。通过CIPU与虚拟化技术协同优化，每个Agent可获得MicroVM级隔离；单Region可承载百万级沙箱，每分钟可创建10万个沙箱，模板预热后创建与冷启动P99低于180毫秒。 在千行百业，把AI基础设施变成生产力 一套基础设施是否真正成熟，最终要看它能否经受生产环境的考验。从模型训练、推理到Agent执行，阿里云容器服务正在不同业务场景中持续落地，覆盖了混部成本优化、GPU 资源极致利用及全球高可用架构等不同目标。 例如小红书通过在线及离线业务混部实现算力复用，CPU 利用率提升 45%；月之暗面依托 ACK 与灵骏集群支撑大模型高效训练与推理，GPU 资源空置率控制在 0.5% 以下；2026 米兰-科尔蒂纳冬奥官网基于 ACK Pro 构建多地异地双活架构，在长达近一个月的赛期内持续面向全球观众提供毫秒级稳定响应，为赛程安排、动态资讯及奥运故事的实时传递提供了关键基础设施保障。 在智能体运行时层面，阿里云Agent S",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-20T09:54:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/z75kiSSlXYqfCza6.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "阿里云容器服务连续四年入选Gartner领导者象限",
+   "summary_zh": "阿里云ACK连续四年进入Gartner容器管理领导者象限，并披露AI Serving Stack与Agent Sandbox：推理省50%算力、Qwen3 235B切换从13分钟缩至3秒、单Region百万级沙箱。",
+   "highlights_zh": [
+    "ACK单集群支持10万节点、20万在线沙箱，拓扑感知使推理吞吐提升40%以上",
+    "AI Serving Stack在试用场景节省50%计算资源、推理吞吐提升200%",
+    "Agent Sandbox提供MicroVM级隔离，冷启动P99低于180毫秒"
+   ],
+   "why_zh": "看云厂商如何把容器底座改造成模型训练、推理与Agent运行的生产环境。",
+   "tags": [
+    "智能体",
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T15:36:56+00:00",
+   "mirror_pdf": "pdf/web-df5372ec3115.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/z75kiSSlXYqfCza6.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-172711783c47",
+   "kind": "article",
+   "title": "奥斯卡大师加持，「电影精神」怎么造就AI剧场？",
+   "url": "https://www.leiphone.com/category/industrynews/6Vycsmo3EhndKZSe.html",
+   "pdf_url": "",
+   "abstract": "“我73岁转型，我要去拥抱新的技术、去驾驭它，做到真正想做的东西，这就是我的决心。”——鲍德熹 十一月的北京已略带寒意，我们在爱奇艺青春中心见到了一代传奇影人鲍德熹。这里是他和爱奇艺合作“鲍德熹·爱奇艺 AI 剧场”的创作营授课现场。其他课程导师上课时，他也会每天早早来到教室，与学员们一同聆听关于电影知识与审美的课程。他时不时自然地接过话筒分享几句感悟，就会引来台下一片会心的笑声与掌声。 在影视圈里发光发热四十余年，鲍德熹是《卧虎藏龙》《功夫之王》《繁花》等多个殿堂级项目的核心主创，曾作为摄影师摘得奥斯卡金像奖等数个世界级电影奖项，对于影像的理解和执着独树一帜。 这样一位大师，近期却一头扎进了 AI 影像的工作里。在这个创作营，年轻创作者们带着自己的灵感和故事前来，他们将在鲍德熹的指导下学习从编剧艺术、镜头语言、高阶AI实用技巧到声音和配音、商业化等各类课程。 创作营结束后，优中选优的15支队伍会把自己的故事制作成片，在一个季度内上线国内首个 AI 剧场，和观众们见面。 “我拍了四十多年来的电影，都还是用传统的方法一直拍到现在。”讲到这里，鲍德熹的眼中溢出了少年般的光芒，“但是现在，AI 可以完全颠覆过去的理念，所以我奋不顾身地转型了。” 在前去创作营探访之前，我们心中有疑问——市面上AI 视频生成的比赛、活动比比皆是，但有鲍德熹这样的大师坐镇、从影像和叙事美学出发、提供从创作到分发全流程陪跑服务的创作营却凤毛麟角。 不走接受投稿筛选成片的常规路径，却做投入更大的创投孵化，深度入局 AI 影像的爱奇艺，究竟是什么打算？ 在真正旁听了课程并与鲍德熹及平台高管聊过之后，我们清晰地意识到，这次探索一旦成功，对影视行业的震动将远超大众想象。这是一次验证AI工具不再是“玩具”，AI短片也不只能是“短视频”娱乐的严肃尝试。经此一跃，AI被纳入专业影视内容创作方式的步伐更加快速。 01 对 AI 影像来说，为什么好故事更重要？ 今年，Sora2 能够爆火出圈，最该感谢的，其实是短视频平台。 凭借着一个个有话题度的“地狱笑话”，Sora2 用 AI 的能力，成功地制造了无数迷因（Memes），并通过“造梗”在社交平台上掀起了强大的裂变。 谈及 AI 视频，今天的厂商们聊的不再仅仅是技术，更多开始聊“玩法”，聊如何复制 Sora2 的造梗出圈逻辑。 但鲍德熹和爱奇艺合作的“AI 剧场”，却似乎反其道而行之——不做网络迷因，反而专注在“讲好故事”上。 为什么不做短视频？鲍德熹有自己的想法： “如果你是一个经常看书的人，你就会知道，文字给人的想象空间，远超 3 分钟的短视频内容。” 这是故事的力量。 将在“鲍德熹·爱奇艺 AI 剧场”中登场的作品，都是 15分钟以上的故事片，相比其他 AI 视频大赛中视频的要求时长，翻了好几倍。这个时长意味着仅仅是视觉上的新奇冲击已经不足以征服观众，故事的起承转合扮演了更重要的角色。 别小看这 15 分钟。既然是故事，就必须给观众新鲜感；要营造新鲜感，就必须要有打动人心的方案。在鲍德熹看来，15 分钟的 AI 影片，甚至比 30 分钟的短片，乃至 2 小时的电影，更难完成： “这 15 分钟的戏剧，可不是 2 小时电影里的前 15 分钟——它必须是电影构造，要把故事的内容用短短 15 分钟讲完，还要抓住观众，不让他们转台。如何把握好节奏、讲好故事，这才是创作者最大的压力。” 在影像和叙事层面的“高要求”，正是爱奇艺这次创作营与众不同之处。 爱奇艺副总裁、创新制作部负责人朱梁提到，这次“AI 剧场”创作营类似“创投”的模式，首先始于 c",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-20T06:08:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/6Vycsmo3EhndKZSe.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "奥斯卡摄影师鲍德熹联手爱奇艺，打造国内首个AI剧场",
+   "summary_zh": "爱奇艺与奥斯卡摄影师鲍德熹合作开设AI影像创作营，孵化15支15分钟以上的AI故事片，将在国内首个AI剧场上线，探索AI进入专业影视创作流程。",
+   "highlights_zh": [
+    "鲍德熹73岁转型拥抱AI，认为AI可颠覆传统影像理念",
+    "不走投稿筛选路线，采用投入更大的创投孵化模式",
+    "要求15分钟以上故事片，强调叙事而非短视频式造梗"
+   ],
+   "why_zh": "观察AI视频从玩具走向专业影视内容生产的关键落地案例。",
+   "tags": [
+    "产品与行业",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T15:36:56+00:00",
+   "mirror_pdf": "pdf/web-172711783c47.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/6Vycsmo3EhndKZSe.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e65f656d68f2",
+   "kind": "article",
+   "title": "AI Agent 越用越贵？如何借助可观测性平衡性能、质量与成本 ｜ 技术趋势",
+   "url": "https://www.infoq.cn/article/4FreCLUUQb4W4AXUhXo5?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "Hannah Miao"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-20T14:55:22+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/4FreCLUUQb4W4AXUhXo5?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI Agent越用越贵？用可观测性平衡性能、质量与成本",
+   "summary_zh": "文章讨论AI Agent成本随使用增长的问题，介绍如何通过可观测性手段在性能、质量与成本之间取得平衡，属工程实践类技术趋势分析。",
+   "highlights_zh": [
+    "聚焦Agent运行成本失控的实际痛点",
+    "以可观测性作为平衡性能与成本的手段",
+    "面向工程落地的技术趋势分析"
+   ],
+   "why_zh": "Agent规模化落地中成本治理是刚需，适合工程团队参考。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T15:36:56+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/4FreCLUUQb4W4AXUhXo5?utm_source=rss&utm_medium=article"
     }
    ],
    "mt": false
@@ -3494,6 +4429,112 @@
    "mt": false
   },
   {
+   "id": "web-b07aa9a31961",
+   "kind": "article",
+   "title": "Mac 版 Perplexity Computer 新增端侧模式，要求 36GB 统一内存",
+   "url": "https://www.ithome.com/1/015/609.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 20 日消息，据科技媒体 9To5Mac 今天报道，Mac 版 Perplexity Computer 最近新增端侧模式，让 Computer 能够完全在设备端运行，无需互联网即可执行任务。 据报道， 该功能可以让 AI 模型和智能体直接运行在电脑 ，完成任务规划、推理和文件处理等任务。只有用户批准后，文件才会上传到云端。 同时，Computer 可在用户授权后访问本地文件，并与备忘录、信息、邮件和 Numbers 表格等应用协同工作。 IT之家注意到，该功能面向 Perplexity Pro、Max 和 Enterprise 订阅用户开放。首发提供 Qwen 3.6 和 PPLX Pro 两种端侧模式， 最低配置要求为 Apple 芯片、36GB 统一内存 。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-20T15:27:50+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/015/609.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Perplexity Computer 推出 Mac 端侧模式，36GB 内存起步",
+   "summary_zh": "Perplexity Computer 新增端侧模式，模型与智能体完全在本地运行，可离线做任务规划、推理与文件处理，文件经用户批准才上云，首发 Qwen 3.6 与 PPLX Pro 两种模式。",
+   "highlights_zh": [
+    "端侧运行任务规划、推理与文件处理，无需联网",
+    "可授权访问本地文件并与备忘录、邮件、Numbers 协同",
+    "门槛为 Apple 芯片 + 36GB 统一内存，面向 Pro/Max/Enterprise 订阅"
+   ],
+   "why_zh": "端侧智能体落地消费级硬件的标志性产品动作，值得关注本地 AI 的产品形态与硬件门槛。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T15:36:56+00:00",
+   "mirror_pdf": "pdf/web-b07aa9a31961.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/015/609.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ae631dcf5f51",
+   "kind": "article",
+   "title": "英伟达黄仁勋劝诫欧洲各国：别再对 AI 过度犹疑，否则将被时代甩在身后",
+   "url": "https://www.ithome.com/1/015/603.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 20 日消息，据《商业内幕》今天报道，英伟达首席执行官黄仁勋过去一周访欧期间，向欧洲各国领导人传递了明确信号：必须摆脱束缚大胆行动， 否则欧洲可能永远无法参与 AI 竞赛 。 IT之家从原报道获悉，黄仁勋过去几天先后访问法国、瑞典、英国和德国，为今日在柏林开幕的 GTC 大会做准备。他在此期间多次强调，欧洲需要加快 AI 发展步伐，不应过度依赖监管。 周一晚间，黄仁勋与德国总理弗里德里希 · 默茨展开对话。当谈到欧洲如何监管 AI 时，黄仁勋认为安全必须放在首位，但决策者不能只拿着监管的大棒，就指望技术领先他国。 黄仁勋表示：“ 如果这个行业无法蓬勃发展 ， 那没什么可监管的 。德国需要培育本土 AI 产业，同时确保其发展安全。” 在他看来，政策制定者应重点监管 AI 应用，就像监管互联网产品一样， 而不是试图对底层技术进行全面监管 。 默茨回应称，欧洲正努力寻找创新与监管的平衡。他认为“完全不监管”不是正确答案，但过于严格的规则同样不可取。 黄仁勋回应道：“给德国一个机会，给这个行业一个机会。” 此外，黄仁勋与默茨还将 AI 描述为一种潜在的解决方案，有望帮助德国摆脱经济低迷。黄仁勋认为，德国的制造业、工程技术专长是优势。借助 AI，他们可以将这些长项转化为竞争力，在下一场技术竞赛中占据有利位置。 几天前，黄仁勋同样在英国传递了紧迫的信息。他认为英国人总是纠结于失败，并解释称：“你们拥有聪明的人才、优秀的文化、年轻一代，整个社会充满活力。但不知为何，即使有一百万个理由可以让你们取得成功，你们还是会找到不去做的理由。 我觉得 ， 你们把事情想得太复杂了 。”",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-20T15:11:28+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/015/603.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "黄仁勋访欧喊话：别过度监管，否则欧洲出局",
+   "summary_zh": "黄仁勋访欧期间向各国领导人表示，监管应聚焦 AI 应用而非底层技术，过度犹疑会让欧洲错失 AI 竞赛，并称德国制造业与工程优势可借 AI 转化为竞争力。",
+   "highlights_zh": [
+    "主张像监管互联网产品一样监管 AI 应用，而非全面监管底层技术",
+    "警告「行业无法蓬勃发展，就没什么可监管的」",
+    "德国总理默茨回应称需在创新与监管间找平衡"
+   ],
+   "why_zh": "头部算力公司掌门人对 AI 监管路径的明确表态，反映产业与政策博弈方向。",
+   "tags": [
+    "产品与行业",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T15:36:56+00:00",
+   "mirror_pdf": "pdf/web-ae631dcf5f51.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/015/603.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-24f0298eed38",
    "kind": "article",
    "title": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
@@ -3545,6 +4586,169 @@
     {
      "label": "原文",
      "url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-70c9c0e26b7e",
+   "kind": "article",
+   "title": "通研院孵化的团队，也盯上了RSI",
+   "url": "https://www.qbitai.com/2026/10/504294.html",
+   "pdf_url": "",
+   "abstract": "当AI越来越懂你，如何让智能真正属于你？",
+   "authors": [
+    "思邈"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-19T14:31:12+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/504294.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "通研院孵化团队入局RSI，让智能真正属于用户",
+   "summary_zh": "通研院孵化团队切入RSI（递归自我改进）方向，主张在AI越来越懂用户的同时，让智能归属与可控性回到用户手中。",
+   "highlights_zh": [
+    "RSI是智能体自我进化的重要路线",
+    "强调用户数据与智能归属",
+    "国内研究机构孵化背景"
+   ],
+   "why_zh": "了解国内RSI与个性化智能体路线的早期动向。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T15:36:56+00:00",
+   "mirror_pdf": "pdf/web-70c9c0e26b7e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/504294.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ce6d9b84ed12",
+   "kind": "article",
+   "title": "AI 开始挑战最复杂的系统：生命",
+   "url": "https://www.qbitai.com/2026/10/504242.html",
+   "pdf_url": "",
+   "abstract": "10 月 17 日，哲源科技发布 WHIRLPO 计算医学平台。",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-19T10:04:18+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/504242.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI挑战最复杂系统：哲源发布WHIRLPO计算医学平台",
+   "summary_zh": "哲源科技发布WHIRLPO计算医学平台，尝试用AI建模复杂生命系统，切入药物研发与医学计算场景。",
+   "highlights_zh": [
+    "面向生命系统的AI计算平台",
+    "聚焦计算医学与药物研发",
+    "属企业发布类资讯"
+   ],
+   "why_zh": "科学AI在医疗落地的样本，可观察商业化路径。",
+   "tags": [
+    "科学AI",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T15:36:56+00:00",
+   "mirror_pdf": "pdf/web-ce6d9b84ed12.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/504242.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e95cc4aff243",
+   "kind": "article",
+   "title": "设计师的第一个 Personal Agent，可能就是 Lovart 2.0 的 Arti 了",
+   "url": "http://www.geekpark.net/news/372612",
+   "pdf_url": "",
+   "abstract": "2025 年，Lovart 作为全球首款设计 Agent 开始出现在各大设计师社区。第一次用 AI 能力把整个设计流程串联起来。从最初的设计思路、到最终图片或视频的设计物料，终于被完整的放到一块画布上完成。 随着在生成能力和指令遵循程度上的进步，AI 越发能够满足人们现实世界的真实需求，muse 此时带起关于 personal agent 的讨论显得恰逢其时。AI 在能力上已经具备了可观的解决问题的能力，下一步就是如何个性化的解决「我」的问题，以及更主动的解决问题。 放到设计里，Personal Agent 带来了一些新的想象力。比如一套物料做完，下一个项目还会来。设计师喜欢什么配色、哪些版式已被否过，总不能每次开工都重新交代，那它能否持续性的理解设计师的风格变化？又或者设计前期调研、每周做一批物料这些日常的重复性工作，能不能也交代一次，让 AI 往后按时做？ 这些事决定了，眼下 AI 能把设计这件事推动到什么地步。 设计体系里，到现在用过 Lovart 的专业创作者已经达到数千万，它或许是当下最适合回答这个问题的，在迭代到 Lovart 2.0 后，它拿出了全球首个个人设计 agent——Arti。 01 Arti，个人设计 Agent Arti 不只是一个工具，而是一个真正接住完整设计工作的个人设计 Agent。 你交给它一个完整的设计需求，它不只负责生成，还会主动去调研、找参考。甚至它会查看画布检查信息有没有遗漏、排版有哪些地方需要调整，并根据你的反馈继续修改。这当中反复出现的工作也会被整理成 Skill，下次再遇到相似的需求，它就能沿用这些做法，省下重新交代和重复操作的工夫。 但在这之前，Arti 在设计领域首先要迈过的门槛，是对于设计师的个人风格和设计 taste 的理解。这也是为什么 Arti 是从 「 记忆 」 功能诞生的。 进入 Arti 的第一件事，是告诉 Agent 你是谁。 你需要先告诉 Arti 你从事的领域，比如电商、营销、内容创作或者其他的行业，然后就会进入下一步更细致的询问页面——我第一次体验 Arti 的时候正好有一位在日化消费品牌做过设计师的朋友坐在旁边，所以我借着他的人设，选择的是电商。 Arti 会问的非常细节，除了主要做的设计物料种类，还会询问我作为设计师的身份，是甲方、乙方或者接单的独立设计师。对应不同场景下，Arti 和设计师有着不同的协同方式，这些它都考虑进去了。 确定了协同方式之后，之后是确定审美偏好这一步。 先选择一种默认的审美偏向是意料之中的，但让人意外的是 Arti 有一个问题是「哪些情况不按默认风格来？」。坐在我旁边做过电商公司设计师的朋友看到了眼泪要喷出来了——「平台强制规范、合作限定...... 这个 Arti 知道我们设计师的苦。」 一系列问询题目的答案结合后会成为设计师个性化 Arti 的起点，但这些肯定不足以说明一位设计师的 taste，所以在页面最下方的「常用资产」一栏，你可以直接把自己以前的设计稿、文档或者海报放进去，更直接的让 Arti 来理解你的风格和偏好。 当然，除了提供你在 Arti 之外的设计素材，你也可以把之前在 Arti 或者 Lovart 上做的设计放进去成为未来的参考。Arti 是一个极具成长性的 Agent，记忆是成长的原点，你每一次在 Arti 中发生的成功或失败的创作，都会推动你的 Arti 持续进化。 02 最怕懂我的人还主动 和所有设计类的 Agent 不同的是，Arti 更像是一个有完整设计领域经验的 Personal AI。Personal AI",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-20T05:46:53+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372612",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Lovart 2.0推出个人设计Agent Arti",
+   "summary_zh": "Lovart 2.0发布个人设计Agent Arti，以记忆为起点学习设计师风格，并将重复工作沉淀为Skill。",
+   "highlights_zh": [
+    "从记忆与审美偏好初始化Agent",
+    "主动调研、检查画布并迭代修改",
+    "重复流程沉淀为可复用Skill"
+   ],
+   "why_zh": "设计领域Personal Agent的产品化样本，可观察记忆与Skill机制落地。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.528,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T15:36:56+00:00",
+   "mirror_pdf": "pdf/web-e95cc4aff243.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372612"
     }
    ],
    "mt": false
@@ -3602,19 +4806,124 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-c6fd25b449cf",
+   "kind": "article",
+   "title": "openclaw/openclaw",
+   "url": "https://github.com/openclaw/openclaw",
+   "pdf_url": "",
+   "abstract": "Sponsor Star openclaw / openclaw The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
+   "authors": [],
+   "orgs": [
+    "openclaw"
+   ],
+   "published": "2026-10-20T15:36:56+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/openclaw/openclaw",
+     "signal": "★ 今日 +568 · TypeScript",
+     "metric": 568
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "openclaw：跨平台执行任务的AI智能体",
+   "summary_zh": "openclaw是一个宣称可在任意操作系统与平台执行任务的AI智能体项目，TypeScript实现，今日获GitHub趋势关注。",
+   "highlights_zh": [
+    "宣称跨OS、跨平台执行实际操作",
+    "TypeScript实现，GitHub趋势项目",
+    "README信息有限，需自行验证能力边界"
+   ],
+   "why_zh": "若你在找跨平台自动化智能体，可先小范围试跑验证其真实能力。",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.6002,
+   "score_llm": 4.0,
+   "score": 0.4801,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T15:36:56+00:00",
+   "mirror_pdf": "pdf/web-c6fd25b449cf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/openclaw/openclaw"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-81c34602c851",
+   "kind": "article",
+   "title": "YuJunZhiXue/dsh-purge",
+   "url": "https://github.com/YuJunZhiXue/dsh-purge",
+   "pdf_url": "",
+   "abstract": "Star YuJunZhiXue / dsh-purge DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分\nREADME: ⚔️ DeepSeek Harness 网络安全红队工具（dsh-purge） Version 1.1.71 DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分 中文 · English > 我直说。 > > 我被裁了。现在彻底没工作，也没有稳定收入。这个仓库一直是我业余在写。后面为了吃饭，我可能得去跑外卖，不一定还能天天改这个。 > > **从今天起到 2026 年 10 月 26 日，我征集七天。** 想留、想骂、想投广告、想赞助，写到 [Issue #130](https://github.com/YuJunZhiXue/dsh-purge/issues/130)。我会看。不保证每条都回。 > > **10 月 27 日起，我把这个仓库关上。** GitHub 上我不再发新版本。后面的包我只发在这个频道：[t.me/LLM_PoJia/271](https://t.me/LLM_PoJia/271)。你们手里已经下过的旧版本还能用。协议我也改了，现在是商业许可，下面有写。 > **官方 Web 和官方桌面端都支持。** 官方 `dsh web` 用 profile `web`；官方桌面 EXE（DeepSeek Harness **0.2.0-rc.2 / 0.2.1-rc.2**）用 profile `desktop`。两边分开安装、分开点「应用」。当前版本只适配 dsh 0.2；更早的 dsh 用对应的老版本插件。社区桌面端不维护。 > > 写进 profile 还不会改宿主。点会话标题旁的 **dsh-purge** → **清洗** → **应用**。成功会自动重启；补丁没打完不重启。重启后新开一轮对话，注入才进当前会话。 > > Node.js **≥18**。Windows 无闪窗需要 **Node ≥22**。npm 上没有 `dsh-purge` 这个包，安装请走下面的 GitHub 归档，不要 `pnpm add dsh-purge`。 ## 目录 - [赞助](#sponsor) - [广告位](#ad) - [介绍](#介绍) - [署名要求](#署名要求) - [许可证](#许可证) - [违规商用公示](#违规商用公示) - [适配范围](#适配范围) - [安装](#安装) - [界面](#界面预览) - [使用](#使用) - [自己的服务器](#自己的服务器) - [工作原理](#工作原理) - [还原](#还原) - [更新](#更新) --- ## ☕ 赞助 这个项目要是帮到你了，欢迎打赏。我是讨口子，施舍点~ | 资产 | 地址 | | ----------- | ---------------------------------------------- | | USDT（TRC20） | `TV5ajPkRD8RH623Dx9mqvYZVNN8nPGRKid` | | Solana | `6x16GhRgLVpKFFXaU1seKNdx2rypspSJTL4dbpt6Xpwk` | | Ethereum | `0xB68BD60C0e8c519513B7DF9bB147696815423B3E` | | Bitcoin | `bc1qu70yxkrtwnymt8ryluz9x8y8h",
+   "authors": [],
+   "orgs": [
+    "YuJunZhiXue"
+   ],
+   "published": "2026-10-20T15:36:56+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/YuJunZhiXue/dsh-purge",
+     "signal": "★ 今日 +1,168 · JavaScript",
+     "metric": 1168
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "dsh-purge：面向多模型的越狱提示词工具",
+   "summary_zh": "提供针对DeepSeek Harness等模型的越狱提示词注入插件，可按模型切换提示词，作者称适配官方Web与桌面端。",
+   "highlights_zh": [
+    "按模型切换不同越狱提示词",
+    "需Node.js≥18，通过GitHub归档安装",
+    "仓库即将关闭，后续仅Telegram分发"
+   ],
+   "why_zh": "越狱工具属安全风险内容，且项目维护不稳定，不建议作为行业趋势参考。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.6297,
+   "score_llm": 2.0,
+   "score": 0.3719,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T15:36:56+00:00",
+   "mirror_pdf": "pdf/web-81c34602c851.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/YuJunZhiXue/dsh-purge"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "AI基建进入重资产验证期，市场定价从营收增长转向资本回报。",
-   "why": "四大巨头AI资本开支预计6000亿至7000亿美元，年化收入仅约520亿美元，投入产出严重失衡。",
+   "trend": "智能体从演示走向生产，工程可靠性而非模型能力成为落地瓶颈。",
+   "why": "DoorDash已跑13万任务，但微软研究显示脚手架丢弃历史可使成功率暴跌92.5个百分点。",
    "refs": [
-    "web-f25f1ef3fc7e"
+    "web-50c4213a40b8",
+    "arxiv-2610.26632"
    ]
   },
   {
-   "trend": "推理成本战白热化，国产模型以极致性价比抢占Agent市场。",
-   "why": "MiniMax M3.1 Flash成本降70%，DeepSeek-V4.1-Flash综合成本仅竞品1/10并登顶开源榜首。",
+   "trend": "推理成本战白热化，性价比正取代绝对性能成为模型竞争主轴。",
+   "why": "MiniMax降价70%、DeepSeek成本仅竞品1/10并登顶开源榜，价格战已进入帕累托前沿争夺。",
    "refs": [
     "web-e4711eea60ca",
     "web-f12d8ad89a3b",
@@ -3622,28 +4931,27 @@
    ]
   },
   {
-   "trend": "智能体评测从单轮基准转向真实任务，脚手架设计成为成败关键。",
-   "why": "微软研究发现脚手架丢弃历史致成功率跌至随机水平，差距达92.5个百分点；学界正推动贴近真实任务的评测方法。",
+   "trend": "智能体评测正从单轮基准转向真实长任务，评测方法本身成为技术拐点。",
+   "why": "普林斯顿学者梳理评测转向真实任务，StartLux以「拿不准再想」登顶决策榜印证效率导向。",
    "refs": [
-    "arxiv-2610.26632",
-    "web-046f246e6405"
+    "web-046f246e6405",
+    "web-5a12ec1a06c6"
    ]
   },
   {
-   "trend": "长时程智能体自主性获实证，但成本与安全约束同步收紧。",
-   "why": "四Gemini智能体27小时自主通关《我的世界》耗资1620美元；微软警示智能体内鬼风险，黄仁勋主张装安全带。",
+   "trend": "AI基建进入重资产验证期，市场定价从营收增长转向资本回报。",
+   "why": "四大巨头年化收入约520亿美元对6000亿以上资本开支，Anthropic高估值暴露亏损与客户集中风险。",
    "refs": [
-    "web-1b356a4c1034",
-    "web-5a9dd192c567",
-    "web-36bfd99e1e96"
-   ]
-  },
-  {
-   "trend": "AI芯片新势力融资加速，LPU与RISC-V路线挑战既有推理格局。",
-   "why": "铭芯启睿超4亿元A轮启动LPU研发，Tenstorrent完成15亿美元E轮估值翻倍。",
-   "refs": [
-    "web-1724559a6463",
+    "web-f25f1ef3fc7e",
     "web-433acf3f792b"
+   ]
+  },
+  {
+   "trend": "国产模型路线分化加剧，自研基座与借力基座并行探索进化路径。",
+   "why": "Kimi与DeepSeek路线分岔，腾讯混元借阿里基座做递归自我改进，竞争转向方法论差异。",
+   "refs": [
+    "web-f28eaf1dd4cb",
+    "web-19ebbbc273fe"
    ]
   }
  ]
