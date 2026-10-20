@@ -1,11 +1,12 @@
 {
- "updated": "2026-10-19T17:24:51+00:00",
+ "updated": "2026-10-20T03:42:47+00:00",
  "days": [
   {
    "date": "2026-10-20",
-   "count": 19,
+   "count": 40,
    "slots": {
-    "morning": 19
+    "morning": 19,
+    "noon": 21
    }
   },
   {
@@ -237,42 +238,48 @@
    }
   }
  ],
- "total": 1389,
+ "total": 1410,
  "last_run": {
-  "at": "2026-10-19T17:24:51+00:00",
-  "slot": "morning",
-  "candidates": 100,
-  "new": 40,
-  "stale": 26,
-  "judged": 40,
-  "selected": 19,
-  "mirrored": 15,
+  "at": "2026-10-20T03:42:47+00:00",
+  "slot": "noon",
+  "candidates": 181,
+  "new": 112,
+  "stale": 27,
+  "judged": 95,
+  "selected": 21,
+  "mirrored": 20,
   "by_category": {
-   "观点": 3,
+   "观点": 2,
    "技术": 4,
-   "资讯": 11,
-   "项目": 1
+   "资讯": 12,
+   "论文": 1,
+   "项目": 2
   },
   "by_source": {
-   "HF Daily Papers": 19,
-   "Hacker News": 7,
+   "HF Daily Papers": 26,
+   "Hacker News": 5,
    "量子位": 1,
    "极客公园": 5,
-   "IT之家": 9,
-   "爱范儿": 4,
-   "雷峰网": 8,
-   "钛媒体": 7,
-   "InfoQ 中文": 9,
+   "IT之家": 14,
+   "爱范儿": 5,
+   "少数派": 1,
+   "雷峰网": 9,
+   "钛媒体": 9,
+   "InfoQ 中文": 12,
    "Jack Clark": 1,
    "Stratechery": 1,
    "SemiAnalysis": 1,
+   "Arvind Narayanan": 1,
    "Nathan Benaich": 1,
    "Tomasz Tunguz": 1,
    "Zvi Mowshowitz": 1,
    "Timothy B. Lee": 1,
    "科学空间": 1,
+   "Hugging Face Blog": 1,
+   "OpenAI": 1,
    "NVIDIA": 2,
    "Microsoft": 1,
+   "arXiv 新论文": 60,
    "GitHub Trending": 13,
    "GitHub 新项目": 7
   },

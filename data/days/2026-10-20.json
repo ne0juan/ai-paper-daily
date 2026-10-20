@@ -1027,45 +1027,1337 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-046f246e6405",
+   "kind": "article",
+   "title": "New paper: Emerging trends in AI agent evaluation",
+   "url": "https://www.normaltech.ai/p/new-paper-emerging-trends-in-ai-agent",
+   "pdf_url": "",
+   "abstract": "Understanding the methods, questions, and ecosystem for evaluation",
+   "authors": [
+    "Sayash Kapoor"
+   ],
+   "orgs": [
+    "Arvind Narayanan"
+   ],
+   "published": "2026-10-19T20:11:55+00:00",
+   "sources": [
+    {
+     "name": "Arvind Narayanan",
+     "authority": 0.85,
+     "url": "https://www.normaltech.ai/p/new-paper-emerging-trends-in-ai-agent",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "普林斯顿教授，《AI 万金油》作者",
+   "title_zh": "普林斯顿学者新论文：AI 智能体评测的 emerging 趋势",
+   "summary_zh": "Narayanan 与 Kapoor 认为智能体评测正从单轮基准转向更贴近真实任务的方法，并梳理了评测方法、关键问题与生态现状。",
+   "highlights_zh": [
+    "系统梳理智能体评测的方法论与生态",
+    "指出当前基准与真实部署之间的差距",
+    "来自《AI 万金油》作者的批判性视角"
+   ],
+   "why_zh": "智能体落地加速，如何可信评测是行业共同难题，作者判断具参考价值。",
+   "tags": [
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.716,
+   "date": "2026-10-20",
+   "slot": "noon",
+   "selected_at": "2026-10-20T03:42:47+00:00",
+   "mirror_pdf": "pdf/web-046f246e6405.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.normaltech.ai/p/new-paper-emerging-trends-in-ai-agent"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.25690",
+   "kind": "paper",
+   "title": "ScaleNav: Scalable Internet Video Pretraining for Language-Conditioned Local Navigation",
+   "url": "https://arxiv.org/abs/2610.25690",
+   "pdf_url": "https://arxiv.org/pdf/2610.25690",
+   "abstract": "We study language-conditioned local navigation, where a robot must navigate to a text-specified target visible in its initial observation and stop at the described location. End-to-end navigation policies require diverse training data to generalize across scenes, yet real-robot data is costly to collect and simulated data leaves a sim-to-real gap. Internet egocentric videos offer a scalable source of real-world navigation experience. Our key insight is to learn goal-directed visual dynamics from Internet egocentric videos, and use these dynamics to support robot action generation. To this end, we propose ScaleNav, a unified world-action framework with three-stage training. We first perform instruction-conditioned video pretraining on these videos to learn how observations evolve as the camera approaches instructed targets across diverse real-world scenes. Action alignment then uses action-labeled simulated data to train the model to predict executable action chunks. Joint fine-tuning subsequently optimizes all trainable components together for navigation. ScaleNav achieves success rates of 86.5% on a single-view adaptation of Short-Horizon OVON and 94.9% on our HabitatGS-LN benchmark, outperforming the evaluated baselines on both benchmarks. We further deploy and evaluate ScaleNav on a real quadruped robot, with results supporting the model's ability to generalize to real-world navigation. Code and videos are available at https://zju3dv.github.io/ScaleNav/",
+   "authors": [
+    "Yihui Yang",
+    "Yuanhong Yu",
+    "Jiawei Wang",
+    "Zhongrui Yu",
+    "Jia Shi",
+    "Kun Zhan",
+    "Ruizhen Hu",
+    "Xiaowei Zhou",
+    "Yu Liu",
+    "Sida Peng"
+   ],
+   "orgs": [],
+   "published": "2026-10-19T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.25690",
+     "signal": "▲ 16",
+     "metric": 16
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "ScaleNav：用互联网视频预训练导航策略",
+   "summary_zh": "用互联网第一视角视频预训练世界-动作模型学习目标导向视觉动态，再对齐仿真动作数据，在OVON达86.5%、自建基准94.9%，并成功部署于真实四足机器人。",
+   "highlights_zh": [
+    "三阶段训练：视频预训练→动作对齐→联合微调",
+    "单视角OVON成功率86.5%",
+    "HabitatGS-LN基准94.9%",
+    "真实四足机器人验证泛化"
+   ],
+   "why_zh": "展示互联网视频作为机器人导航可扩展数据源的可行性，缓解sim-to-real差距。",
+   "tags": [
+    "机器人",
+    "多模态",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.5494,
+   "score_llm": 8.0,
+   "score": 0.6998,
+   "date": "2026-10-20",
+   "slot": "noon",
+   "selected_at": "2026-10-20T03:42:47+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.25690"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.25690"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.25690"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.25690"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.25690"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.25690"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/MachEmbodied/ScaleNav"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.25666",
+   "kind": "paper",
+   "title": "Frechet Forcing: Training Long-Horizon Streaming World Models from Short Clips",
+   "url": "https://arxiv.org/abs/2610.25666",
+   "pdf_url": "https://arxiv.org/pdf/2610.25666",
+   "abstract": "Streaming video world models generate the future chunk by chunk, conditioned on their own past and a stream of actions. Trained on short clips, they drift once a rollout exceeds the training horizon, as prediction errors re-enter the context and compound. A common remedy is to train the model on its own rollouts via distribution matching distillation (DMD). For action-conditioned world models, the teacher becomes a bottleneck: an external video model is agnostic to the actions, whereas the model's own pretrained network drifts in the same manner as the student. We observe that a long rollout need not match a teacher, provided it remains a realistic continuation of its own scene that follows the commanded actions. Realism and scene fidelity can be measured against real-data statistics, which remain valid at any horizon, while action following is preserved by the model's conditional generation loss. We propose Fréchet Forcing, which fine-tunes a world model together with its deployed multi-step sampler under three constraints. Generative anchoring applies the flow-matching loss after a self-generated history ending on real data. Context fidelity, a Fréchet distance (FD) on latent statistics of the free rollout centred on each clip's own ground truth, keeps every rollout faithful to its scene. Reality matching, an FD to real frames in a frozen perceptual space, keeps the generated frames realistic. Because all three targets are derived from short real clips without comparing a rollout against a long recorded future, training requires no teacher, no online critic and no long videos. Fine-tuning MiniWorld-1B, pretrained on 253-frame clips, for at most 36 GPU-hours on 381-frame clips yields rollouts that remain stable beyond 4,000 frames and continue to follow their actions in both robot manipulation and camera-controlled exploration.",
+   "authors": [
+    "Yian Zhao",
+    "Yu Yan",
+    "Hongcan Guo",
+    "Ruochong Zheng",
+    "Jian Zhang",
+    "Jie Chen"
+   ],
+   "orgs": [],
+   "published": "2026-10-19T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.25666",
+     "signal": "▲ 8",
+     "metric": 8
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Fréchet Forcing：用短视频训练长时程流式世界模型",
+   "summary_zh": "针对流式视频世界模型在超出训练时长后误差累积漂移的问题，提出用真实数据统计约束自回归 rollout 的微调方法，无需外部教师模型即可保持场景真实性与动作跟随。",
+   "highlights_zh": [
+    "指出 DMD 蒸馏在动作条件世界模型中教师本身会漂移的瓶颈",
+    "用 Fréchet 距离约束 rollout 的潜变量统计与真实帧分布",
+    "生成锚定与条件生成损失共同保证动作可控性"
+   ],
+   "why_zh": "世界模型长时程稳定性是视频生成走向可交互应用的关键卡点，方法思路有借鉴价值。",
+   "tags": [
+    "多模态",
+    "视觉",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.5114,
+   "score_llm": 8.0,
+   "score": 0.6846,
+   "date": "2026-10-20",
+   "slot": "noon",
+   "selected_at": "2026-10-20T03:42:47+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.25666.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.25666"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.25666"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.25666"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.25666"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.25666"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.25666"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/zhao-yian/Frechet_Forcing"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-dd8ec3bec8db",
+   "kind": "article",
+   "title": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
+   "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-19T15:28:24Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50153630",
+     "signal": "323 pts",
+     "metric": 323
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "CERN与Mistral签署战略合作意向",
+   "summary_zh": "欧洲核子研究中心与法国AI公司Mistral签署战略合作意向书，探索AI在基础科研中的应用。",
+   "highlights_zh": [
+    "CERN首次与AI公司建立战略合作",
+    "Mistral拓展科学AI场景",
+    "具体合作细节尚未公布"
+   ],
+   "why_zh": "头部AI公司与顶级科研机构的合作，反映科学AI方向动向。",
+   "tags": [
+    "科学AI",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.591,
+   "score_llm": 7.0,
+   "score": 0.6564,
+   "date": "2026-10-20",
+   "slot": "noon",
+   "selected_at": "2026-10-20T03:42:47+00:00",
+   "mirror_pdf": "pdf/web-dd8ec3bec8db.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50153630"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.26632",
+   "kind": "paper",
+   "title": "When the harness decides success: state that cannot be re-observed",
+   "url": "https://arxiv.org/abs/2610.26632",
+   "pdf_url": "https://arxiv.org/pdf/2610.26632",
+   "abstract": "Agent harnesses decide what a language model sees across turns: they drop old turns, summarize them, or replay the model's own earlier reasoning. We ask when these choices change whether an agent succeeds, not only what it costs, and report three findings. First, in a pre-registered synthetic probe, truncating the context window costs a low-cost reasoning model nothing in success when a needed fact can be looked up again (it looks the fact up instead), but drops its success to chance when the fact cannot be re-observed: the two penalties differ by 92.5 percentage points (90% CI [89.5, 95.5]). A pre-registered replication on one model from a second provider showed the same contrast. Once the fact was lost, that model chose no answer rather than guessing. Second, on ARC-AGI-3, where the benchmark's Standard harness trails its Provider Adapter harness by a wide margin, we decompose that gap one component at a time, for one model on four games. Summarizing old turns instead of dropping them, while keeping the Standard harness's invitation to take notes, recovers 86% of a 63-point gap without replaying the model's reasoning. The same harness without the invitation recovers 43%, and adding the provider's native replay of the model's reasoning recovers the remaining 57%. These are point estimates from one counted run per configuration and game, and the replay share depends on a single run. Third, in the benchmark's published runs and in ours, the Adapter's advantage in the probability of clearing a level it has reached is larger at deep levels than at early ones. This largely restates where runs stopped and does not separate a growing advantage from a constant one.",
+   "authors": [
+    "Raimondas Lencevicius"
+   ],
+   "orgs": [
+    "Microsoft"
+   ],
+   "published": "2026-10-19T15:59:13Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.26632",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "智能体脚手架决定成败：不可复现状态的影响",
+   "summary_zh": "微软研究发现，智能体脚手架丢弃或摘要历史轮次时，若关键事实无法重新获取，成功率会从正常跌至随机水平，差距达92.5个百分点；在ARC-AGI-3上，摘要旧轮次可挽回63分差距中的86%。",
+   "highlights_zh": [
+    "上下文截断在事实可重新查找时几乎无损，但事实不可复现时成功率跌至随机",
+    "摘要旧轮次而非直接丢弃，可挽回ARC-AGI-3上63分差距的86%",
+    "保留记笔记邀请与原生推理回放分别贡献43%和57%的差距修复"
+   ],
+   "why_zh": "做智能体脚手架设计的人必读：上下文管理策略直接决定任务成败，而非仅影响成本。",
+   "tags": [
+    "智能体",
+    "推理",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.64,
+   "date": "2026-10-20",
+   "slot": "noon",
+   "selected_at": "2026-10-20T03:42:47+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.26632.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.26632"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.26632"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.26632"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.26632"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.26632"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.26632"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7a364f356aab",
+   "kind": "article",
+   "title": "Advancing coding in low‑resource programming languages",
+   "url": "https://openai.com/index/low-resource-programming-languages",
+   "pdf_url": "",
+   "abstract": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-10-19T12:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/low-resource-programming-languages",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI提升低资源编程语言能力",
+   "summary_zh": "OpenAI发布针对低资源编程语言的新评测，覆盖软件工程、SQLite和COBOL迁移，并据此改进ChatGPT。",
+   "highlights_zh": [
+    "新增低资源语言软件工程评测",
+    "覆盖COBOL迁移等企业场景",
+    "评测驱动模型改进"
+   ],
+   "why_zh": "低资源语言代码能力是企业遗留系统迁移的关键短板，值得关注。",
+   "tags": [
+    "代码",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 7.0,
+   "score": 0.636,
+   "date": "2026-10-20",
+   "slot": "noon",
+   "selected_at": "2026-10-20T03:42:47+00:00",
+   "mirror_pdf": "pdf/web-7a364f356aab.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/low-resource-programming-languages"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c68689202844",
+   "kind": "article",
+   "title": "Werner Vogels谈亚马逊的AI理念：在做与不做之间",
+   "url": "https://www.tmtpost.com/8172565.html",
+   "pdf_url": "",
+   "abstract": "成本必须可控，不必追求最强模型，Agent必须被约束，人类需保留最终判断。",
+   "authors": [
+    "TechHorizon"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-20T02:59:23+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8172565.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Vogels谈亚马逊AI理念：克制与边界",
+   "summary_zh": "亚马逊CTO Vogels认为AI成本必须可控、不必追求最强模型，Agent须被约束、人类保留最终判断，体现其务实的AI落地思路。",
+   "highlights_zh": [
+    "成本可控优先于模型规模竞赛",
+    "Agent需被约束，人类保留最终判断",
+    "头部云厂商对AI落地的务实取舍"
+   ],
+   "why_zh": "重量级技术高管对AI边界与成本的明确判断，值得从业者参考。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 8.0,
+   "score": 0.624,
+   "date": "2026-10-20",
+   "slot": "noon",
+   "selected_at": "2026-10-20T03:42:47+00:00",
+   "mirror_pdf": "pdf/web-c68689202844.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8172565.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f25f1ef3fc7e",
+   "kind": "article",
+   "title": "Edge AI Daily 早报（10月20日）",
+   "url": "https://www.tmtpost.com/8174059.html",
+   "pdf_url": "",
+   "abstract": "AI基础设施进入重资产验证期：微软、Alphabet、亚马逊、Meta四大巨头资本开支预计6000亿至7000亿美元，而AI年化收入合计仅约520亿美元，CoreWeave债券收益率逼近15%，市场定价焦点从营收增长转向资本回报。Anthropic以9650亿美元估值秘交S-1，施密特所持股权账面近96.5亿美元，但420亿美元净亏损、5180亿美元基础设施承诺与客户集中风险同步暴露。",
+   "authors": [
+    "Edge AI Daily"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-20T00:23:13+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8174059.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI基建进入重资产验证期",
+   "summary_zh": "四大巨头AI资本开支预计6000亿至7000亿美元，年化收入仅约520亿美元，市场定价从营收增长转向资本回报；Anthropic高估值下暴露巨额亏损与客户集中风险。",
+   "highlights_zh": [
+    "四大巨头资本开支远超AI收入",
+    "CoreWeave债券收益率逼近15%",
+    "Anthropic 9650亿估值下净亏损420亿"
+   ],
+   "why_zh": "揭示AI基建投入与回报失衡，是判断市场方向的关键信号。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 8.0,
+   "score": 0.624,
+   "date": "2026-10-20",
+   "slot": "noon",
+   "selected_at": "2026-10-20T03:42:47+00:00",
+   "mirror_pdf": "pdf/web-f25f1ef3fc7e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8174059.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-36bfd99e1e96",
+   "kind": "article",
+   "title": "英伟达黄仁勋：AI 发展不能急刹车，但必须装“安全带”",
+   "url": "https://www.ithome.com/1/015/127.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 20 日消息，科技媒体 Android Headline 昨日（10 月 19 日）发布博文，报道称英伟达首席执行官黄仁勋在伦敦表示，反对以“急刹车”或严厉监管来限制 AI 发展， 应该建立“安全带”，通过更智能的安全标准、监测机制和事故防范措施约束。 黄仁勋将 AI 比作电网、供水系统等关键基础设施，反对简单禁止或施加繁重监管方案，主张建立聪明的安全标准。他透露，自己经常与 AI 研究人员交流风险监控和安全协议问题，并提出英国可作为中美等各方开展 AI 安全对话的中立平台。英伟达还承诺在五年内向英国 AI 安全研究投入 2.5 亿美元 （IT之家注：现汇率约合 16.73 亿元人民币） 。 针对近期数据中心建设延期、AI 公司上市推迟等市场担忧，黄仁勋称这是行业快速扩张中的“成长阵痛”。他表示，现代 AI 的核心能力已经确立，初创企业则需要在市场成熟过程中学会承担财务与治理责任。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-20T02:00:38+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/015/127.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "黄仁勋：AI 不能急刹车，但要装安全带",
+   "summary_zh": "黄仁勋在伦敦反对严厉监管限制 AI 发展，主张建立智能安全标准与监测机制，并承诺五年内向英国 AI 安全研究投入 2.5 亿美元。",
+   "highlights_zh": [
+    "将 AI 比作电网、供水等关键基础设施，反对简单禁止或繁重监管",
+    "提出英国可作为中美开展 AI 安全对话的中立平台",
+    "称数据中心延期、AI 公司上市推迟是行业扩张的成长阵痛"
+   ],
+   "why_zh": "头部算力公司掌门人对 AI 监管与市场节奏的明确表态，影响政策与投资预期。",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-20",
+   "slot": "noon",
+   "selected_at": "2026-10-20T03:42:47+00:00",
+   "mirror_pdf": "pdf/web-36bfd99e1e96.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/015/127.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.26834",
+   "kind": "paper",
+   "title": "Kronecker Delta Rule for Long Context Linear Attention",
+   "url": "https://arxiv.org/abs/2610.26834",
+   "pdf_url": "https://arxiv.org/pdf/2610.26834",
+   "abstract": "We propose KronLSTM, a linear attention architecture based on the Kronecker Delta Rule, a novel update rule for associative matrix memories. KronLSTM extends the xLSTM family with a memory-revision mechanism that corrects targeted associations while modifying the memory only along a single direction in matrix space. This minimally invasive memory revision reduces interference with previously stored information compared with delta-rule updates, making it particularly well suited for long-context language modeling. The resulting memory dynamics can be mathematically described as a Markov chain that converges to a steady-state distribution, while the expected norm of the memory matrix remains uniformly bounded throughout the entire input sequence. Hence, KronLSTM ensures stable memory dynamics without requiring additional normalization and stabilization mechanisms for the memory state. Experiments show that KronLSTM is competitive with, and often outperforms, existing linear attention architectures, including models of the (Gated) DeltaNet family, with particularly strong performance on long context benchmarks. These results establish the Kronecker Delta Rule as an effective and analytically tractable foundation for stable associative memory in recurrent linear attention architectures. Our code (https://github.com/NX-AI/KronLSTM) and models (https://huggingface.co/collections/NX-AI/kronlstm) are open-source.",
+   "authors": [
+    "Anamaria-Roberta Hartl",
+    "Levente Zólyomi",
+    "Michael List",
+    "Günter Klambauer",
+    "Sebastian Böck",
+    "Sepp Hochreiter"
+   ],
+   "orgs": [],
+   "published": "2026-10-19T17:56:52Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.26834",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "KronLSTM：用Kronecker Delta规则改造线性注意力",
+   "summary_zh": "提出KronLSTM，用Kronecker Delta规则做关联矩阵记忆的定向修正，减少对旧记忆的干扰，无需额外归一化即可稳定，长上下文基准上优于DeltaNet系列。",
+   "highlights_zh": [
+    "新更新规则只沿矩阵空间单一方向修正目标关联，干扰更小",
+    "记忆动态可证明收敛且范数有界，省去归一化与稳定化模块",
+    "长上下文基准上常优于Gated DeltaNet等线性注意力架构"
+   ],
+   "why_zh": "线性注意力记忆机制的重要改进，关注长上下文效率的团队值得一读。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-20",
+   "slot": "noon",
+   "selected_at": "2026-10-20T03:42:47+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.26834.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.26834"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.26834"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.26834"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.26834"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.26834"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.26834"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.26006",
+   "kind": "paper",
+   "title": "Scaling Synthetic Pre-training Data and Evaluation for Indic LLMs",
+   "url": "https://arxiv.org/abs/2610.26006",
+   "pdf_url": "https://arxiv.org/pdf/2610.26006",
+   "abstract": "Building capable language models for India requires scalable multilingual data and robust evaluation. We introduce Nemotron-Pretraining-Indic-v1, a synthetic pretraining corpus of approximately 2.83 trillion tokens covering all 22 scheduled Indian languages in native script and twelve in romanized form. It is the largest openly released Indic pretraining corpus. Using our GPU-accelerated pipeline, we translate curated English documents, assess translation quality, and repair low-quality outputs while preserving technical content and document structure and maintaining source traceability. Through continued-pretraining experiments across twelve languages, we show that combining our synthetic corpus with natural Indic text improves knowledge and reasoning over a public-corpus baseline. Additional experiments show how data volume, script coverage, and Indic training share affect English performance. We also introduce the Indic-LLM-Eval-Suite, a multilingual benchmark suite for evaluating Indic language models across chat, instruction following, reasoning, knowledge, code, and translation. The suite combines existing Indic benchmarks with task-aware translations of English benchmarks, using automated quality assessment, targeted correction, and native-speaker review in a human-in-the-loop pipeline. We use the suite to comprehensively benchmark contemporary open-weight Indic and multilingual models across capabilities and languages, revealing substantial variation across tasks and languages. Together, these resources provide a scalable foundation for developing and evaluating more capable Indic language models.",
+   "authors": [
+    "Abhinav Khattar",
+    "Aishwarya Chhabra",
+    "Ameya Velingker",
+    "Anusha Kamath",
+    "Brandon Norick",
+    "Kanishk Singla",
+    "Kiran Praveen",
+    "Markus Kliegl",
+    "Mohammad Qazim Bhat",
+    "Mostofa Patwary",
+    "Niket Agarwal",
+    "Rajpreet Thethy",
+    "Ramani Akkati",
+    "Raviraj Joshi",
+    "Sai Nishanth Padala",
+    "Shuoyang Ding",
+    "Sriharsha Niverty",
+    "Utkarsh Vaidya",
+    "Vitaly Lavrukhin",
+    "Yev Meyer",
+    "Anoop Kunchukuttan",
+    "Mitesh Khapra",
+    "Mohammed Safi Ur Rahman Khan",
+    "Rudra Murthy",
+    "Sumanth Doddapaneni",
+    "Thanmay Jayakumar",
+    "Ujjwal Sharma"
+   ],
+   "orgs": [
+    "NVIDIA",
+    "AI4Bharat"
+   ],
+   "published": "2026-10-19T08:30:55Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.26006",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "论文",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Indic大模型合成预训练数据与评测扩展",
+   "summary_zh": "NVIDIA与AI4Bharat发布约2.83万亿token的Indic合成预训练语料，覆盖22种印度语言，并推出Indic-LLM-Eval-Suite评测套件；实验表明合成语料与自然文本结合可提升知识与推理表现。",
+   "highlights_zh": [
+    "迄今最大公开Indic预训练语料，覆盖22种官方语言及12种罗马化形式",
+    "GPU加速翻译流水线含质量评估与修复，保留技术内容与文档结构",
+    "新评测套件覆盖聊天、指令遵循、推理、知识、代码与翻译"
+   ],
+   "why_zh": "关注多语言大模型数据与评测的从业者，可了解低资源语言规模化合成数据的可行路径。",
+   "tags": [
+    "大模型",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.58,
+   "date": "2026-10-20",
+   "slot": "noon",
+   "selected_at": "2026-10-20T03:42:47+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.26006.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.26006"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.26006"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.26006"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.26006"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.26006"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.26006"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9816d99eb7f1",
+   "kind": "article",
+   "title": "调查发现：AI 生成代码会提升调试难度与故障发生率，并造成代码理解鸿沟",
+   "url": "https://www.infoq.cn/article/ywvgVDVLsSU7r47Jk6lq?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Sergio De Simone"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-20T11:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/ywvgVDVLsSU7r47Jk6lq?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "调查：AI生成代码提升调试难度与故障率",
+   "summary_zh": "InfoQ报道一项调查发现，AI生成代码虽提速开发，却增加调试难度与故障发生率，并在团队间造成代码理解鸿沟。",
+   "highlights_zh": [
+    "AI生成代码与更高故障发生率相关",
+    "调试AI代码的难度显著上升",
+    "开发者对AI生成代码的理解存在鸿沟"
+   ],
+   "why_zh": "为AI辅助编程的落地风险提供实证，值得工程团队参考",
+   "tags": [
+    "代码",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-20",
+   "slot": "noon",
+   "selected_at": "2026-10-20T03:42:47+00:00",
+   "mirror_pdf": "pdf/web-9816d99eb7f1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/ywvgVDVLsSU7r47Jk6lq?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-22b6cdac7611",
+   "kind": "article",
+   "title": "China Starts Selling AI by the Token—From Home Soil",
+   "url": "https://www.tmtpost.com/8174164.html",
+   "pdf_url": "",
+   "abstract": "An A-share contractor locked in a $200 million overseas order for large-model inference run entirely inside China. The client pays for usage, with a contractual floor. The experiment will be judged on margin and cash, not on the size of the announcement.",
+   "authors": [
+    "Chelsea_Sun"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-20T01:37:03+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8174164.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "中国按Token卖AI：本土推理出海",
+   "summary_zh": "一家A股公司锁定2亿美元海外大模型推理订单，全部在中国境内运行，按用量计费并设合同保底，成败看毛利与现金流。",
+   "highlights_zh": [
+    "2亿美元海外推理订单全境内运行",
+    "按Token计费加合同保底模式",
+    "以毛利与现金流而非公告规模论成败"
+   ],
+   "why_zh": "中国大模型推理商业化出海的新样本，值得关注其经济模型。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-20",
+   "slot": "noon",
+   "selected_at": "2026-10-20T03:42:47+00:00",
+   "mirror_pdf": "pdf/web-22b6cdac7611.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8174164.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-62db711bd607",
+   "kind": "article",
+   "title": "纽娲机器人杨睿刚：无人配送跑了十年，机器人为何还到不了家门？",
+   "url": "https://www.tmtpost.com/8171183.html",
+   "pdf_url": "",
+   "abstract": "难题集中在几笔容易被低估的事件上：新场地的部署、既有设施的改造，以及异常发生时的人工兜底。",
+   "authors": [
+    "科技异端"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-19T13:02:51+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8171183.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "纽娲杨睿刚：机器人为何到不了家门",
+   "summary_zh": "杨睿刚指出无人配送跑十年仍难进家门，难题集中在新场地部署、既有设施改造与异常时的人工兜底等被低估的环节。",
+   "highlights_zh": [
+    "部署与设施改造成本被低估",
+    "异常兜底依赖人工",
+    "具身落地最后一公里难题"
+   ],
+   "why_zh": "一线创业者对机器人落地真实瓶颈的剖析，务实有料。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-20",
+   "slot": "noon",
+   "selected_at": "2026-10-20T03:42:47+00:00",
+   "mirror_pdf": "pdf/web-62db711bd607.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8171183.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cf14aa4778df",
+   "kind": "article",
+   "title": "AI 降低克隆游戏门槛，独立开发者开始谨慎公开创作内容",
+   "url": "https://www.ithome.com/1/015/126.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 20 日消息，电子游戏行业自诞生之初，就一直存在开发者模仿竞品做“克隆游戏”的现象，作品原创度高低不一，各大游戏平台对这类作品的监管力度也参差不齐。但如今 AI 编程工具大幅降低了克隆游戏的制作门槛，效率极高，导致许多开发者在公开早期作品时变得格外谨慎。 IT之家注意到，上周末，工作室 Alliance Arts 原定配合 Steam 新品节上线、对外公开试玩的恶魔主题俄罗斯轮盘酒局游戏《Drunken Goddess Reflux》宣布延期放出公开 Demo。 工作室在当地时间上周五晚间的社交媒体帖子中写道，除了直播内容管控方面的顾虑，“我们担心 Demo 中的素材会被他人利用 AI 或其他工具，快速模仿、复刻本作的美术风格与游戏玩法，甚至这类仿品会赶在我们正式发售之前抢先推出。” 因此，开发者现在计划仅在封闭试玩专场发放 Demo，参与者必须遵守游戏录像、直播内容发布的相关约定。 不止 Alliance Arts 一家工作室开始采取这种保守的思路保护创意。《请出示证件（Papers, Please）》的制作者卢卡斯 · 波普（Lucas Pope）在 4 月一期播客中谈到，大体而言：“开发阶段我不会轻易对外聊项目，因为我不确定内容会不会被 AI 抓取，或是被人抄袭等等…… 再次聊起手头正在开发的作品，我心里总觉得不踏实。” 游戏到底属于谁？ 近几个月，对于创意被 AI“抓取盗用”的担忧，对不少独立开发者而言早已不是理论上的假想。今年 3 月，开发者芙蕾雅 · 霍尔默（Freya Holmér）分享了一款原型游戏视频：一款围绕中心旋转支点游玩的俄罗斯方块类游戏，在社交平台迅速走红。可短短几天后，霍尔默就发现出现了大量靠 AI 快速克隆的仿作。在她自己的版本上线前，这套基础玩法已经被做成可游玩版本到处传播。 面对抢先出现的大量克隆作品，霍尔默写道：“到处都是这类粗制滥造的抄袭者，不管是靠 AI 还是人工，这会让我不想再分享开发进度。好在这些人没有原创能力，没办法在现有基础上把这个玩法做出新意。” 《McPixel》的开发者索斯 · 索索夫斯基（Sos Sosowski）一直在记录大量独立开发者的吐槽：AI 生成的克隆游戏直接照搬他们的开发成果。索斯认为，这种局面把独立开发者推入两难的推广困境：“不展示游戏 —— 卖不出去；一旦公开，创意就被盗走。”他写道，“在当下的环境里，独立开发者要怎么活下去？这太离谱了。” 今年早些时候发布霍尔默这款旋转俄罗斯方块 AI 仿品的开发者查理 · 格林曼（Charlie Greenman）在接受 404 Media 采访时，并不认为自己的行为有问题。“我觉得这算是全新创作，”格林曼说，“到这个层面，怎么界定抄袭？一首曲子算不算抄袭另一首？一款游戏算不算抄袭另一款？创造 Blox、Jenga 的人，难道是抄袭俄罗斯方块吗？” 一部分人认为，增加作品的复杂度与原创深度，才是在这种环境下抵御克隆的最好办法。Howltide Games 的伊万 · 拉戈（Ivan Lago）在社交平台写道：“如果 AI 一夜之间就能复刻你的游戏，那它本就算不上真正完整的游戏，只是依靠单一玩法快速捞钱的产物，没有内核，没有创作愿景。AI 并不是在复刻真正的游戏，它只是给那些本身就是素材拼凑的作品制作廉价仿品。” 但即便你的游戏创意被 AI 粗制滥造的制作者克隆，也并不代表你无法打磨出你设想中的优质版本。霍尔默今年夏天接受 404 Media 采访时说：“项目刚出来第一周，几乎每天都冒出一款旋转俄罗斯方块的 AI 克隆作",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-20T01:55:43+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/015/126.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI 让克隆游戏变容易，独立开发者不敢公开进度",
+   "summary_zh": "AI 编程工具大幅降低克隆游戏门槛，多款独立游戏原型被快速仿制，开发者转向封闭试玩、减少公开分享以保护创意。",
+   "highlights_zh": [
+    "《Drunken Goddess Reflux》因担心素材被 AI 复刻而延期公开 Demo",
+    "开发者霍尔默的旋转俄罗斯方块原型几天内出现大量 AI 仿作",
+    "部分开发者认为提升复杂度与原创深度才是抵御克隆的办法"
+   ],
+   "why_zh": "反映生成式 AI 对创意产业协作与发布节奏的真实冲击，值得产品与内容从业者关注。",
+   "tags": [
+    "产品与行业",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-20",
+   "slot": "noon",
+   "selected_at": "2026-10-20T03:42:47+00:00",
+   "mirror_pdf": "pdf/web-cf14aa4778df.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/015/126.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ba98e205f50e",
+   "kind": "article",
+   "title": "蚂蚁百灵开源 Ming-3.0 语音系列模型，覆盖语音合成、音频理解与对话、语音识别",
+   "url": "https://www.ithome.com/1/015/117.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 20 日消息，蚂蚁百灵今日宣布开源 Ming-3.0 语音系列，分别提供语音合成、音频理解与对话、语音识别三个系列，共五款模型。开发者可以按任务选择，也可以将不同能力组合进自己的工作流。 Ming-3.0-tts 系列的 Voice Design 可以用文字描述目标音色，同时也支持参考音频的音色设定。更具特色的是，创作者可以用导演模式说明台词的表演方式，描述情绪如何变化、哪些词需要重读，以及节奏应如何处理。 在蚂蚁，从阿福 App 的主对话与语音通话，到医生音色克隆、小虎智能办公，Ming-3.0-tts 已进入多类业务。它既可以独立承担配音，也可以与 Ming-3.0-asr-tiny 组合，连接语音输入和回答播报两个环节。 Ming-3.0-audio-flash / tiny 支持直接对长音频的转写、总结和观点分析等复杂理解，并进行结构化输出。相对传统的先语音识别逐字稿再分析的过程，能保留对话中的情绪、说话人身份、环境信息等，另外还需要模型对长上下文序列的快速推理。 MIng-3.0-asr-tiny 通过构建普通话、英文、方言、领域热词等高质量语料，合理控制分布，再结合语言模型基座强大的上下文理解能力，利用候选热词列表、对话上下文信息，为真实业务场景带来语音识别效果的全面提升。 在蚂蚁，Ming-3.0-asr-tiny 已用于阿福医生助手、支付宝搜索、蚁小保实时语音对话和安全核身等场景。 IT之家附相关链接如下： 在线体验： https://ling.tbox.cn 在线体验：访问 Ling Studio Chat，选择 Ming-3.0-audio-flash，体验音频理解与对话能力 API 调用：Ling Studio 提供 Ming-3.0-tts-0.5B、Ming-3.0-audio-flash 和 Ming-3.0-asr-tiny 的 API 服务 Ming-3.0-tts-0.5B Hugging Face： https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B ModelScope： https://www.modelscope.cn/models/inclusionAI/Ming-3.0-tts-0.5B Ming-3.0-tts-tiny Hugging Face： https://huggingface.co/inclusionAI/Ming-3.0-tts-tiny ModelScope： https://www.modelscope.cn/models/inclusionAI/Ming-3.0-tts-tiny Ming-3.0-audio-flash Hugging Face： https://huggingface.co/inclusionAI/Ming-3.0-audio-flash ModelScope： https://www.modelscope.cn/models/inclusionAI/Ming-3.0-audio-flash Ming-3.0-audio-tiny Hugging Face： https://huggingface.co/inclusionAI/Ming-3.0-audio-tiny ModelScope： https://www.modelscope.cn/models/inclusionAI/Ming-3.0-audio-tiny Ming-3.0-asr-tiny Hugging Face： htt",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-20T01:34:53+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/015/117.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "蚂蚁百灵开源 Ming-3.0 语音系列模型",
+   "summary_zh": "蚂蚁百灵开源 Ming-3.0 语音系列五款模型，覆盖语音合成、音频理解与对话、语音识别，已在支付宝等业务落地。",
+   "highlights_zh": [
+    "TTS 支持文字描述音色与「导演模式」控制情绪、重读与节奏",
+    "audio-flash/tiny 可直接理解长音频并结构化输出，保留情绪与说话人信息",
+    "asr-tiny 结合热词与上下文提升真实场景识别效果，已用于医生助手、安全核身"
+   ],
+   "why_zh": "国内大厂开源完整语音栈，语音智能体与多模态应用可直接选型落地。",
+   "tags": [
+    "语音",
+    "多模态",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-20",
+   "slot": "noon",
+   "selected_at": "2026-10-20T03:42:47+00:00",
+   "mirror_pdf": "pdf/web-ba98e205f50e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/015/117.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1717937cb144",
+   "kind": "article",
+   "title": "aicodeking/leanrea",
+   "url": "https://github.com/aicodeking/leanrea",
+   "pdf_url": "",
+   "abstract": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
+   "authors": [],
+   "orgs": [
+    "aicodeking"
+   ],
+   "published": "2026-10-20T03:42:47+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/aicodeking/leanrea",
+     "signal": "★ 1,005（新项目） · Python",
+     "metric": 1005
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "leanrea：8KB技能替代逆向工程工具",
+   "summary_zh": "一个8KB的Claude技能用纯CLI工具替代MCP方案做逆向工程，宣称快38%、便宜35%。",
+   "highlights_zh": [
+    "无需MCP，纯CLI工具链",
+    "体积仅8KB",
+    "自带基准测试对比"
+   ],
+   "why_zh": "如果你在做智能体工具链精简，可用它替代重型MCP方案跑逆向任务。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5835,
+   "score_llm": 5.0,
+   "score": 0.5334,
+   "date": "2026-10-20",
+   "slot": "noon",
+   "selected_at": "2026-10-20T03:42:47+00:00",
+   "mirror_pdf": "pdf/web-1717937cb144.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/aicodeking/leanrea"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b412447cbc10",
+   "kind": "article",
+   "title": "alchaincyf/huashu-motion",
+   "url": "https://github.com/alchaincyf/huashu-motion",
+   "pdf_url": "",
+   "abstract": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
+   "authors": [],
+   "orgs": [
+    "alchaincyf"
+   ],
+   "published": "2026-10-20T03:42:47+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/alchaincyf/huashu-motion",
+     "signal": "★ 978（新项目） · JavaScript",
+     "metric": 978
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "huashu-motion：Agent直出产品宣传片",
+   "summary_zh": "一个让编码智能体一键生成商业级产品宣传片的工具，支持作曲和指帧修改。",
+   "highlights_zh": [
+    "智能体直接产出宣传片",
+    "支持指画面局部修改",
+    "自动配乐"
+   ],
+   "why_zh": "如果你用编码智能体做营销素材，可用它把产品页直接转成宣传片。",
+   "tags": [
+    "多模态",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5826,
+   "score_llm": 5.0,
+   "score": 0.533,
+   "date": "2026-10-20",
+   "slot": "noon",
+   "selected_at": "2026-10-20T03:42:47+00:00",
+   "mirror_pdf": "pdf/web-b412447cbc10.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/alchaincyf/huashu-motion"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f12d8ad89a3b",
+   "kind": "article",
+   "title": "DeepSeek 新模型登顶开源模型榜首；国内 55% 算力用于视频和短剧？豆包发言人辟谣；微信发起公众号小说改编微短剧激励｜极客早知道",
+   "url": "http://www.geekpark.net/news/372568",
+   "pdf_url": "",
+   "abstract": "DeepSeek 新模型登顶 Code Arena WebDev 开源模型榜首 10 月 19 日，AI 模型评测平台 Arena 宣布，DeepSeek-V4.1-Flash-1017（Max）超过 Kimi K3（Max），成为 Code Arena: WebDev 榜单排名最高的开源模型。 截至目前，DeepSeek-V4.1-Flash-1017 在该榜单上得分为 1670 分，超过了Kimi K3（Max）、Mimo-V2.6 Flash等开源模型，也超过了Muse Spark 1.3（Max）、Claude Opus 5（High）、Grok 4.7（xHigh）等闭源模型，仅落后 GPT-6 Sol（Max）12 分。 该模型于 10 月 17 日推出，在软件工程能力 DeepSWE v1.1 测试中，其得分超GPT-6 Astra、GPT-6.1 Sol、Claude Opus 5等模型，单项任务平均费用较上一版本下降约六成。DeepSeek 称其模型支持「许愿式编程」，可一键生成游戏、3D 建模等。网友实测该模型生成速度比 GPT-6.1 超快模式还要快。 价格方面，DeepSeek-V4.1-Flash-1017 在高峰时段的每百万 Token 输入（缓存未命中）价格为 2 元，输出价格为 8 元；空闲时段的输入（缓存未命中）价格为 1 元，输出价格为 4 元。若输入缓存命中，每百万 Token 输入价格在高峰时段为 0.04 元，空闲时段为 0.02 元，综合成本约为 Kimi K3 的 1/10。 Arena 发布的对比图显示，DeepSeek-V4.1-Flash-1017 进入了 Code Arena 的「帕累托前沿」，即图中的绿色折线，这说明目前没有其他模型能同时做到比它更便宜、且得分更高。 （来源：新智元） 特斯拉声明没有速成车，陶琳称安全稳定可靠、让人安心是最大的豪华 10 月 19 日消息，特斯拉官方发微博，称特斯拉没有「速成车」。特斯拉官方表示，特斯拉拥有完整的直营体系（覆盖买车、提车、用车、修车、换车），没有 4S 店，销售、交付、客服、技师全是自家人，大品牌 + 完整的直营体系正是消费者放心买、安心用的最大底气。 特斯拉公司副总裁陶琳随后转发该博文并表示，「安全稳定可靠，让人安心是最大的豪华。」 特斯拉此前宣布，2026 年第三季度，特斯拉全球生产了超 46.4 万辆电动车，交付了超 48.6 万辆（同比下降 2%）；储能产品装机量达 13.7 吉瓦时。（来源：IT 之家） iPhone 18 Pro 系列国内销量超 408 万，开售三周破 400 万 10 月 19 日，博主 @RD 观测 公布苹果旗舰手机最新销量数据。截至 2026 年第 41 周，也就是 10 月 5 日至 10 月 11 日，iPhone 18 Pro 系列国内累计激活销量（Sell out）约为 408.09 万台。CNMO 科技注意到，该系列于 9 月 18 日正式开售，上市约三周时间累计销量已经突破 400 万台。 这也是 iPhone 18 Pro 系列上市以来销量继续快速增长的最新数据。Counterpoint Research 此前公布的数据也显示，iPhone 18 Pro 系列上市首周在中国市场的销量同比增长 12%，并帮助苹果在第 38 周登上中国智能手机周销量榜首。当时 iPhone 18 Pro 系列仅在该统计周内销售 3 天，因此新品带来的短期拉动较为明显。（来源：手机中国） Claude Code 九成代",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-20T01:01:44+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372568",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek 新模型登顶开源榜首，成本仅竞品十分之一",
+   "summary_zh": "DeepSeek-V4.1-Flash 在 Code Arena WebDev 榜超过 Kimi K3 成为最强开源模型，并进入性价比帕累托前沿，综合成本约为 Kimi K3 的 1/10。",
+   "highlights_zh": [
+    "Code Arena WebDev 得分 1670，仅落后 GPT-6 Sol 12 分",
+    "DeepSWE v1.1 软件工程测试超过多个闭源模型",
+    "缓存命中输入价低至每百万 Token 0.04 元"
+   ],
+   "why_zh": "开源模型在代码能力与成本上同时逼近闭源前沿，是市场格局的重要信号。",
+   "tags": [
+    "大模型",
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.528,
+   "date": "2026-10-20",
+   "slot": "noon",
+   "selected_at": "2026-10-20T03:42:47+00:00",
+   "mirror_pdf": "pdf/web-f12d8ad89a3b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372568"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-89f92fec6e4d",
+   "kind": "article",
+   "title": "AI 引爆 BAT「薪酬倒挂」潮，老员工：人麻了",
+   "url": "https://www.leiphone.com/category/industrynews/uCsyLxONvXeV9qXc.html",
+   "pdf_url": "",
+   "abstract": "大厂正在收紧招聘，但对 AI 人才的争夺并没有停止。 “所有大厂目前都处于 HC（招聘名额）收缩状态，人才招聘是优中选优”。 猎头 Mia 对雷峰网表示，另一个现实局面是：各家依然缺人、抢人，遇到真正想要的人，通常不会卡预算。 “有牛的竞品（比如 OpenAI）的人来，立马腾坑。” 这种抢人逻辑，引发公司的另一种内部矛盾。 一位互联网从业者表示，“现在内部做基础模型的员工即便职级不高，薪酬已经吊打职级更高的同事。”他还提到，公司近期传出可能取消职级的消息。 尽管这一说法尚未得到证实，但当薪资与职级差距越大，薪酬体系的尴尬也由此显现。 这也让企业陷入两难之地：不开出天价，抢不来人；给出高薪，又搅乱了原有的薪酬体系。 事实上，十年之前，就已经出现薪酬倒挂的迹象。 01 老员工忆当年，辛酸泪一把 一位在大厂工作多年的工程师回忆，2017 年前后，“我离开的时候，薪资还没有校招新人拿得多。”他说。 他解释，此前一年，薪资涨幅还有 20% 多，自从核心领导有所调整后，却降到了 5%，导致内部出现严重的薪资倒挂。 当时旁边工位坐着一位晚一年入职的海归应届生，职级比他低一级，月薪却高出一万。那两年，他所在的三十多人团队，“一个月流失 10%，都是成群结队地走”。 他回忆道。据一位资深猎头透露，十年前的阿里、腾讯就已经抢人很猛了，腾讯甚至会给简历上有百度实习经历的学生直接发校招 offer。 当时百度给顶尖校招人才开出的年薪约 20 万到 25 万元，已经不算便宜；同一时期，阿里星的年薪 60 万封顶，已是当时的天花板。 猎头 Mia 告诉雷峰网，今年做基模的应届生，年包“200 万元起步”，小红书、字节 Seed 的顶档可以达到 400 万 — 500 万元，百度去年给基模人才的年包在 200 万 — 300 万元，今年“只多不少”（有关大厂 AI 人才流动的更多内幕消息可加微信 Whho123start 了解更多） 从 25 万到 200 万，“顶尖人才”四个字，十年间贵了近十倍。 这样的说法也得到了其他资深互联网从业者的肯定，那时百度作为互联网大厂的“老前辈”，用人思路是只招最牛的学生，也舍得给钱，而且因为地处北京，招聘可以比硅谷成本低三分之一。之后受到 2008 年金融危机影响，一大批顶尖人才转而留在国内，百度也因此招到了一批优秀的学生，比如戴文渊、张博等。 高薪抢人的另一面，也引发了新老员工的不满情绪。 雷峰网此前了解到，一位华为“天才少年”计划的入选者回忆，当时天才少年的薪酬在内网公开之后，不少老员工觉得自己的学术成果和贡献未必更小，“凭什么工资就比他们少”，甚至有人在工作中给这些天才少年使绊子。 当时华为还有员工在内网实名发帖，逐一质疑“天才少年”的履历，称他们都是“水货”。 不过十年之后，面对薪酬倒挂这样的问题，许多大厂老员工已经非常平和。 “旁边坐个新来的工资比我高，无所谓。”某大厂资深算法师说道。 在他看来，这本身就是正常的市场薪酬机制：老员工觉得该涨没涨、资源没给够，到了时间节点自然会走，“这也符合当前的市场行情”。 Mia 给雷峰网讲了一个好玩的事情，她曾与 Meta 推荐系统 AI 部门的一位员工交流过（该部门与 Meta MSL —— Meta 超级智能实验室属于平行组织）。 该部门薪资偏低，尽管同样做生成式 AI 后训练，薪资却偏低，工作五六年职级薪酬几乎没变，且对方属于早期参与 Meta 基础模型研发的资深成员。 与心态同步发生变化的，还有普通 AI 人才的市场行情。 02 大厂舍得撒钱，但也得看对方办多大事 多位猎头告诉雷峰网，",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-19T08:51:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/uCsyLxONvXeV9qXc.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI人才争夺引发大厂薪酬倒挂",
+   "summary_zh": "雷峰网报道大厂HC收缩但AI人才争夺不止，基模应届生年包200万起步、顶档达400-500万，导致新老员工薪酬倒挂，冲击原有职级体系。",
+   "highlights_zh": [
+    "基模应届生年包200万起步，小红书、字节Seed顶档可达400-500万",
+    "顶尖人才十年间从25万涨至200万，涨幅近十倍",
+    "高薪抢人引发新老员工矛盾，企业陷入薪酬体系两难"
+   ],
+   "why_zh": "从薪酬视角观察AI人才市场的供需失衡与组织冲击",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-20",
+   "slot": "noon",
+   "selected_at": "2026-10-20T03:42:47+00:00",
+   "mirror_pdf": "pdf/web-89f92fec6e4d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/uCsyLxONvXeV9qXc.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5df24f09cfe4",
+   "kind": "article",
+   "title": "Join us 10/27 in NYC for the State of AI 2026 meetup",
+   "url": "https://press.airstreet.com/p/soai-nyc-2026",
+   "pdf_url": "",
+   "abstract": "27 October with Lead Economist at Ramp, Ara Khazarian.",
+   "authors": [
+    "Air Street Press"
+   ],
+   "orgs": [
+    "Nathan Benaich"
+   ],
+   "published": "2026-10-18T22:49:09+00:00",
+   "sources": [
+    {
+     "name": "Nathan Benaich",
+     "authority": 0.8,
+     "url": "https://press.airstreet.com/p/soai-nyc-2026",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Air Street Capital，《State of AI》报告作者",
+   "title_zh": "State of AI 2026 纽约线下见面会报名",
+   "summary_zh": "Air Street Capital 的 Nathan Benaich 宣布 10 月 27 日在纽约举办 State of AI 2026 见面会，嘉宾为 Ramp 首席经济学家。",
+   "highlights_zh": [
+    "活动报名通知",
+    "无报告内容或数据披露",
+    "仅对本地从业者有参会价值"
+   ],
+   "why_zh": "纯活动通知，无信息增量，除非关注该报告后续发布。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 4.0,
+   "score": 0.468,
+   "date": "2026-10-20",
+   "slot": "noon",
+   "selected_at": "2026-10-20T03:42:47+00:00",
+   "mirror_pdf": "pdf/web-5df24f09cfe4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://press.airstreet.com/p/soai-nyc-2026"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "智能体从演示走向生产，长时自主任务与工程化落地成为竞争焦点",
-   "why": "Gemini四智能体27小时通关《我的世界》，DoorDash Flux已跑13万工程任务，规模化验证开始。",
+   "trend": "AI基建进入重资产验证期，市场定价从营收增长转向资本回报",
+   "why": "四大巨头AI资本开支预计6000亿至7000亿美元，年化收入仅约520亿美元，投入产出缺口显著。",
    "refs": [
-    "web-1b356a4c1034",
-    "web-50c4213a40b8"
+    "web-f25f1ef3fc7e"
    ]
   },
   {
-   "trend": "推理成本与速度成为国产模型新战场，价格战向Agent场景纵深",
-   "why": "MiniMax M3.1 Flash提速3倍降价70%，DeepSeek自研搜索千次5元，均瞄准Agent高频调用。",
+   "trend": "推理成本战白热化，性价比成为国产模型竞争主战场",
+   "why": "MiniMax速度提升3倍价格降70%，DeepSeek-V4.1-Flash成本仅竞品1/10并登顶开源榜首。",
    "refs": [
     "web-e4711eea60ca",
-    "web-86ff08ae99e6"
+    "web-f12d8ad89a3b"
    ]
   },
   {
-   "trend": "推理专用芯片融资升温，LPU与RISC-V路线挑战通用GPU格局",
-   "why": "铭芯启睿超4亿A轮启动LPU，Tenstorrent 15亿美元E轮估值翻倍，资本押注推理侧专用化。",
+   "trend": "智能体评测从单轮基准转向真实任务与脚手架可复现性",
+   "why": "普林斯顿梳理评测新趋势；微软发现脚手架丢弃历史致成功率暴跌92.5个百分点。",
    "refs": [
-    "web-1724559a6463",
-    "web-433acf3f792b"
+    "web-046f246e6405",
+    "arxiv-2610.26632"
    ]
   },
   {
-   "trend": "评测方法转向效率与不确定性感知，「该想才想」成决策模型新范式",
-   "why": "StartLux凭「拿不准再投入推理」登顶决策榜单，兼顾准确率与算力效率。",
+   "trend": "智能体自主完成长时程任务，但成本与安全边界成新焦点",
+   "why": "四Gemini智能体27小时通关《我的世界》耗资1620美元；微软警示智能体内鬼威胁。",
    "refs": [
-    "web-5a12ec1a06c6"
-   ]
-  },
-  {
-   "trend": "智能体安全从模型对齐扩展到「内鬼」治理，企业防护成新需求",
-   "why": "微软警示被攻陷或被滥用的智能体正成为企业内部新威胁来源，需专门防护思路。",
-   "refs": [
+    "web-1b356a4c1034",
     "web-5a9dd192c567"
+   ]
+  },
+  {
+   "trend": "注意力架构持续迭代，线性注意力与连续化成为技术拐点",
+   "why": "KronLSTM改造线性注意力长上下文超越DeltaNet；苏剑林解读连续化Softmax Attention。",
+   "refs": [
+    "arxiv-2610.26834",
+    "web-6ae0cbf3a951"
    ]
   }
  ]
