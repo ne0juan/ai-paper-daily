@@ -2318,46 +2318,1332 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-79e072c52849",
+   "kind": "article",
+   "title": "deepseek-ai/DeepInfer",
+   "url": "https://github.com/deepseek-ai/DeepInfer",
+   "pdf_url": "",
+   "abstract": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models\nREADME: # DeepInfer DeepInfer is the high-performance inference framework that powers DeepSeek's large-scale production services. This open-source release provides offline inference with the core features needed for serving at scale. Supported models: - DeepSeek-V4.1-Flash Supported features: - Optimized kernels, model and sampler runtime - Parallelism: Attention DP / balanced CP, MoE EP + EPLB - DSpark and confidence-scheduled verification - SWA bounded replay - Asynchronous scheduling (zero-overhead batch scheduler) - Batch-invariant inference - Deterministic sampling - Structured outputs Feature details and configuration - **Optimized kernels:** [FlashMLA](https://github.com/deepseek-ai/FlashMLA), [DeepGEMM](https://github.com/deepseek-ai/DeepGEMM), [DeepEP](https://github.com/deepseek-ai/DeepEP), [TileKernels](https://github.com/deepseek-ai/TileKernels), [DeepSelect](https://github.com/deepseek-ai/DeepSelect), and custom [TileLang kernels](deepinfer/model_executor/layers/tilelang_ops). - **DSpark and confidence-scheduled verification:** accelerate decoding with draft tokens and use confidence estimates to schedule verification. Set `DEEPINFER_ENABLE_MTP_VARLEN=1`; `DEEPINFER_USE_NEXTN_DECODE` controls the maximum draft length (default: 5). - **Decoder SWA bounded replay:** reduce decoder prefill work by replaying only a bounded suffix. Set `DEEPINFER_YOCO_PREFILL_TRUNCATION_MODE=compact` and `DEEPINFER_YOCO_PREFILL_KEEP_TOKENS=140` for the default V4.1 settings; the retained suff",
+   "authors": [],
+   "orgs": [
+    "deepseek-ai"
+   ],
+   "published": "2026-10-20T09:57:08+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/deepseek-ai/DeepInfer",
+     "signal": "★ 3,050（新项目） · Python",
+     "metric": 3050
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "DeepSeek 开源生产级推理框架 DeepInfer",
+   "summary_zh": "DeepSeek 开源支撑其大规模生产服务的推理框架，支持 V4.1-Flash，含 MoE EP+EPLB、投机解码、异步调度与确定性采样等特性。",
+   "highlights_zh": [
+    "开源其生产环境实际使用的推理栈，而非演示代码",
+    "集成 FlashMLA、DeepGEMM、DeepEP 等自研内核",
+    "支持批量不变推理与确定性采样，便于复现与评测"
+   ],
+   "why_zh": "想了解头部大模型公司如何做大规模推理工程化的第一手参考。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.7026,
+   "score_llm": 8.0,
+   "score": 0.761,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T09:57:08+00:00",
+   "mirror_pdf": "pdf/web-79e072c52849.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/deepseek-ai/DeepInfer"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.26825",
+   "kind": "paper",
+   "title": "MemT-1.0: Towards Memory-Native Evolution",
+   "url": "https://arxiv.org/abs/2610.26825",
+   "pdf_url": "https://arxiv.org/pdf/2610.26825",
+   "abstract": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism within each turn. We further introduce Mixture-of-Storage to scale native memory capacity. Following a deliberate backbone preparation, we develop a two-stage training pipeline consisting of continued pre-training and post-training, supported by 34B tokens of training data and efficient training and inference infrastructure. We release a model family comprising MemT-1.0-Nano and MemT-1.0-Flash, and conduct a comprehensive evaluation of memory and general capabilities. The results show that they outperform the parametric memory baselines on average and remain competitive with retrieval-augmented methods, while largely preserving general capabilities. At a history length of 128K tokens, MemT-1.0-Nano achieves approximately 1.86times end-to-end inference speedup and a 66times reduction in persistent storage relative to full context KV cache. By internalizing retrieved procedural experience, MemT-1.0 improves task success on agentic tasks, providing a practical step toward memory-native evolution.",
+   "authors": [
+    "Zhiyu Li",
+    "Zeyu Zhang",
+    "Linyun Liu",
+    "Yiwei Bu",
+    "Chenyang Xi",
+    "Xichong Zhang",
+    "Yi Yu",
+    "Yu Yu",
+    "Zhichen Liu",
+    "Yuxiao Yi",
+    "Chunyu Li",
+    "Haoran Liu",
+    "Zhenkai Ding",
+    "Le Zhou",
+    "Juncheng Zhang",
+    "Boyu Chen",
+    "Zehao Lin",
+    "Guorui Li",
+    "Renyu Fu",
+    "Ji Li",
+    "Youyang Xia",
+    "Jiajun Shen",
+    "Harvey Li",
+    "Jingsong Zhou",
+    "Helan Hu",
+    "Tong Shen",
+    "Tianxiao Xu",
+    "Chenye Han",
+    "Weijie Li",
+    "Zhongquan Zhou",
+    "Hongming Xu",
+    "Yuekeng Li",
+    "Erenkai Zhu",
+    "Peng Yu",
+    "Wenhao Li",
+    "Jingyi Kang",
+    "Xixuan Hao",
+    "Xuzhou Zhu",
+    "Can Chen",
+    "Jiawei Liu",
+    "Chen Jiang",
+    "Tao Jiang",
+    "Fangwei Xiang",
+    "Zepeng Yao",
+    "Kai Chen",
+    "Guang Yang",
+    "Mingfei Lu",
+    "Chunhui Li",
+    "Zhengxuan Jiang",
+    "Bo Tang",
+    "Shiyu Zhan",
+    "Yihang Sun",
+    "Jie Chu",
+    "Wenjun Xiong",
+    "Zhenxiang Hua",
+    "Chen Lin",
+    "Detong Su",
+    "Dongyu Deng",
+    "Qiuping Ding",
+    "Guofeng Ding",
+    "Si Chen",
+    "Guohua Wen",
+    "Xu Chen",
+    "Zhi-Qin John Xu",
+    "Ying-Cong Chen",
+    "Ningyu Zhang",
+    "Haofen Wang",
+    "Muning Wen",
+    "Haotian Chen",
+    "Wentao Zhang",
+    "Xuanhe Zhou",
+    "Rita Zhang",
+    "Junchi Yan",
+    "Feiyu Xiong"
+   ],
+   "orgs": [
+    "MemTensor"
+   ],
+   "published": "2026-10-19T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.26825",
+     "signal": "▲ 81",
+     "metric": 81
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "MemT-1.0：把记忆内化为模型能力",
+   "summary_zh": "提出记忆原生架构 MemT-1.0，用门控 DeltaNet-2 与混合存储把记忆写入模型计算，128K 历史下推理提速约 1.86 倍、持久存储降 66 倍，智能体任务成功率提升。",
+   "highlights_zh": [
+    "记忆作为模型内在计算而非外挂检索",
+    "Mixture-of-Storage 扩展原生记忆容量",
+    "34B token 两阶段训练，开源 Nano 与 Flash 两款"
+   ],
+   "why_zh": "长上下文与智能体记忆是当前热点，这是架构层面的正面挑战。",
+   "tags": [
+    "大模型",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.6435,
+   "score_llm": 8.0,
+   "score": 0.7374,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T09:57:08+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.26825.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.26825"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.26825"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.26825"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.26825"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.26825"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.26825"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/MemTensor/MemT-1.0"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.26844",
+   "kind": "paper",
+   "title": "AnyGoal: On World Model Generalization Beyond Expert Rollouts",
+   "url": "https://arxiv.org/abs/2610.26844",
+   "pdf_url": "https://arxiv.org/pdf/2610.26844",
+   "abstract": "The goal of a world model is to capture the dynamics of an environment. This has the great appeal that it allows agents to plan and simulate a course of actions with the help of a world model. For these uses to be reliable, however, the learned dynamics must behave well beyond the specific state-action combinations observed in expert rollouts. Despite this, the relationship between data coverage, dynamics generalization, and downstream planning performance remains underexplored. We study this relationship through the lens of compositional generalization: can a world model recombine familiar state and action factors into valid dynamics? To answer this, we introduce AnyGoal, a benchmark of goal-shifted task variants built from widely used world-model environments, together with an open-source library. Each task is designed to be within reach of a world model that has learned the underlying dynamics: individual state factors and actions remain within their training support, but their combinations are underrepresented in expert trajectories. Across multiple environments and world model families, we find that current models consistently exhibit failures under these recombinations. By examining dynamics and representation failures across model families, interaction regimes, and evaluation metrics, we study where current world models generalize and where challenges remain for goal-shifted prediction and planning. Together, this framework, benchmark, and analysis provide a basis for evaluating progress toward world models that generalize to new planning tasks.",
+   "authors": [
+    "Heejeong Nam",
+    "Divyat Mahajan",
+    "Quentin Le Lidec",
+    "Randall Balestriero",
+    "David Klindt"
+   ],
+   "orgs": [
+    "galilai-group"
+   ],
+   "published": "2026-10-19T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.26844",
+     "signal": "▲ 23",
+     "metric": 23
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.26844",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AnyGoal：世界模型能否泛化到专家轨迹之外",
+   "summary_zh": "构建目标偏移的任务基准 AnyGoal，状态与动作各自在训练分布内但组合罕见，发现现有世界模型在此类组合泛化上系统性失败，进而影响下游规划。",
+   "highlights_zh": [
+    "把数据覆盖度与动力学泛化的关系量化成基准",
+    "跨多个环境与模型家族一致暴露失败模式",
+    "开源配套库，便于后续评测"
+   ],
+   "why_zh": "世界模型被寄予厚望，这篇给出了泼冷水的可复现证据。",
+   "tags": [
+    "理论",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.63,
+   "score_llm": 8.0,
+   "score": 0.732,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T09:57:08+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.26844.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.26844"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.26844"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.26844"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.26844"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.26844"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.26844"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/galilai-group/AnyGoal"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.26860",
+   "kind": "paper",
+   "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+   "url": "https://arxiv.org/abs/2610.26860",
+   "pdf_url": "https://arxiv.org/pdf/2610.26860",
+   "abstract": "Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only modest gains. Such tasks demand grounded perception, external knowledge, and numerical measurements obtained through heterogeneous tools, whose outputs must be made interpretable to the model and retained across reasoning steps. We introduce OpenVLHarness, a multimodal reasoning harness organized around a capability layer and persistent multimodal memory. The capability layer combines task-level tool interfaces with evidence rendering, providing consistent access to heterogeneous backends and converting their outputs into model-readable observations. Persistent multimodal memory retains the corresponding images, structured data, and web references as addressable artifacts throughout each query. A coding interface executes generated programs over stored data, enabling computations that combine results from multiple tools. Together, these mechanisms support an iterative process of acquiring, inspecting, and composing multimodal evidence. Evaluated on 22 benchmarks with eight open and proprietary backbones, OpenVLHarness improves average scores by 9.7-12.6 points over matched no-tool baselines, including +11.2 with Qwen3-VL-8B, +9.7 with Kimi K3, and +9.9 with GPT-6 Astra. With GPT-6 Luna at medium reasoning effort, OpenVLHarness outperforms the base model, Codex, and Visual Sketchpad at maximum effort by 7.7-8.5 points while incurring at most 37% of their model-token cost.",
+   "authors": [
+    "Yu Zhou",
+    "Cheng-Fu Yang",
+    "Rui Sun",
+    "Di Wu",
+    "Sibo Peng",
+    "Mingyang Zhang",
+    "Zhen Yang",
+    "Ruiyi Zhang",
+    "Nanyun Peng",
+    "Zhe Gan",
+    "Kai-Wei Chang"
+   ],
+   "orgs": [
+    "University of California, Los Angeles"
+   ],
+   "published": "2026-10-19T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.26860",
+     "signal": "▲ 62",
+     "metric": 62
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenVLHarness：带多模态记忆的视觉工具调用框架",
+   "summary_zh": "提出多模态智能体脚手架，含统一工具能力层与持久多模态记忆，把工具输出渲染成模型可读证据；22 个基准上平均提升 9.7–12.6 分，远超单纯加推理预算。",
+   "highlights_zh": [
+    "对照实验证明堆推理预算收益有限，工具与记忆才是关键",
+    "代码接口可在存储数据上组合多工具结果",
+    "覆盖 8 个开源与闭源基座模型验证通用性"
+   ],
+   "why_zh": "智能体 harness 设计的实证范本，直接可用于视觉类 Agent 搭建。",
+   "tags": [
+    "多模态",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.6277,
+   "score_llm": 8.0,
+   "score": 0.7311,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T09:57:08+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.26860"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.26860"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.26860"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.26860"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.26860"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.26860"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/uclanlp/OpenVLHarness"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.26811",
+   "kind": "paper",
+   "title": "State World Models: Execute the Rules, Generate the Pixels",
+   "url": "https://arxiv.org/abs/2610.26811",
+   "pdf_url": "https://arxiv.org/pdf/2610.26811",
+   "abstract": "Existing world models can generate action-conditioned video from a single image. Many focus on camera movement, allowing users to explore the generated scene. However, navigation alone does not ensure that an action follows persistent rules when its outcome depends on state that is invisible in the current frame. We present Stateful Harness, a framework that separates world evolution from video rendering to support stateful and rule-governed interaction. It maintains an evolving world state under specified rules, renders each resulting event with a frozen video model, and uses the generated clip to update the world state for the next turn. At each turn, the harness resolves the action selected by the user and compiles the resulting event into an instruction, while a preview clip from an editable 3D scene provides spatial and camera guidance. To evaluate rule compliance, we build WorldState-Bench, a benchmark of 50 counterfactual twin pairs that share an initial frame and action but differ in hidden state and required outcome. Under rule-only prompting, the best of the 11 evaluated video backends produces the required endings for both cases in 32% of pairs. For MiniMax-H3, specifying the required endings raises this rate from 32% to 64%, while the full harness reaches 92% with the same frozen model. These results support separating rule execution from video rendering for world interactions with hidden state.",
+   "authors": [
+    "Chan Yan Ki",
+    "Yanran Zhang",
+    "Wenzhao Zheng",
+    "Xiaofeng Wang",
+    "Zheng Zhu",
+    "Lei Chen",
+    "Jie Zhou",
+    "Jiwen Lu"
+   ],
+   "orgs": [
+    "Tsinghua-IVG"
+   ],
+   "published": "2026-10-19T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.26811",
+     "signal": "▲ 10",
+     "metric": 10
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "状态世界模型：执行规则，生成像素",
+   "summary_zh": "提出Stateful Harness将世界状态演化与视频渲染分离，在WorldState-Bench上把规则遵循率从32%提升至92%，且无需重训视频模型。",
+   "highlights_zh": [
+    "规则执行与像素生成解耦，冻结视频模型即可支持有状态交互",
+    "构建50对反事实孪生样本的WorldState-Bench评测隐藏状态依赖",
+    "仅指定结局提示即可将MiniMax-H3从32%提升到64%，完整框架达92%"
+   ],
+   "why_zh": "指出当前世界模型只学导航不学规则的关键缺陷，给出可复用的harness设计范式。",
+   "tags": [
+    "多模态",
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.6034,
+   "score_llm": 8.0,
+   "score": 0.7214,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T09:57:08+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.26811"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.26811"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.26811"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.26811"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.26811"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.26811"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/Zhangyr2022/StateWorldModel"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bfc4e1509fca",
+   "kind": "article",
+   "title": "OpenMOSS/MOSS-Image",
+   "url": "https://github.com/OpenMOSS/MOSS-Image",
+   "pdf_url": "",
+   "abstract": "Official repository for MOSS-Image, a 5B-parameter base DiT model with high-quality text rendering, layout generation, and efficient fine-tuning.",
+   "authors": [],
+   "orgs": [
+    "OpenMOSS"
+   ],
+   "published": "2026-10-20T09:57:08+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/OpenMOSS/MOSS-Image",
+     "signal": "★ 1,078（新项目） · Python",
+     "metric": 1078
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "MOSS-Image：5B参数DiT基座模型开源",
+   "summary_zh": "OpenMOSS开源5B参数DiT基座模型，主打高质量文字渲染、布局生成与高效微调。",
+   "highlights_zh": [
+    "5B参数DiT架构，专注图像生成中的文字渲染与版面布局",
+    "支持高效微调，便于下游定制",
+    "GitHub新项目已获千余星"
+   ],
+   "why_zh": "如果你在做图像生成中的文字/版面控制，可用它做基座微调",
+   "tags": [
+    "多模态",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.586,
+   "score_llm": 7.0,
+   "score": 0.6544,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T09:57:08+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/OpenMOSS/MOSS-Image"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b63ab6aadd5d",
+   "kind": "article",
+   "title": "DeepSeek 宣布将内部推理框架 DeepInfer 全面开源，目标实现大模型普惠",
+   "url": "https://www.ithome.com/1/015/429.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 20 日消息，DeepSeek 今日官宣，在此前开源一系列大模型、TileLang 编译工具及推理算子库的基础上， 决定进一步将内部推理框架 DeepInfer 全面开源 。 DeepSeek 官方表示，大模型的能力边界由模型本身划定，但如何以合理成本提供超大规模的模型服务，还取决于一个长期未被公众了解的中间层： 推理框架 。 训练使模型学有所成，推理则让模型为人所用。面对如今海量的用户调用，推理框架负责统筹调度庞大的算力集群，其效率直接决定了 AI 服务的算力成本与电力消耗。 DeepSeek 希望通过分享内部的部署经验， 帮助开发者与企业组织优化大规模推理的吞吐与延迟 ，从而高效构建私有化及公有云部署，降低算力成本、减少能源消耗，让智能以更低的价格触达更广泛的人群， 实现真正的大模型普惠 。 基于 DeepInfer，DeepSeek 官方已实现 DeepSeek V4.1 Flash 高吞吐、低延迟的大规模推理服务。未来，DeepSeek 新模型的推理代码及后续优化也将在此持续更新。 DeepInfer 推理框架 ：集成高性能算子与深度优化的推理引擎，支持分布式推理、推测解码、SWA Bounded Replay、结构化输出等能力，兼容英伟达与华为昇腾平台。 deepseek-recipe 编解码组件 ：同步开源的生产级 Token 编解码组件，与 DeepSeek 官方 API 处理逻辑完整对齐，确保社区获得与官方部署一致的 API 体验。 IT之家附开源地址如下： DeepInfer ： https://github.com/deepseek-ai/DeepInfer deepseek-recipe ： https://github.com/deepseek-ai/deepseek-recipe",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-20T09:05:10+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/015/429.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek 全面开源推理框架 DeepInfer",
+   "summary_zh": "DeepSeek 开源内部推理框架 DeepInfer 及配套编解码组件，支持分布式推理、推测解码，兼容英伟达与昇腾，已支撑 V4.1 Flash 大规模服务。",
+   "highlights_zh": [
+    "开源推理框架与生产级 Token 编解码组件，与官方 API 逻辑对齐",
+    "支持分布式推理、推测解码、SWA Bounded Replay、结构化输出",
+    "兼容英伟达与华为昇腾双平台，降低私有化部署成本"
+   ],
+   "why_zh": "推理框架是决定大模型服务成本的关键中间层，开源后可直接借鉴头部部署经验。",
+   "tags": [
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T09:57:08+00:00",
+   "mirror_pdf": "pdf/web-b63ab6aadd5d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/015/429.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c9b4d34d783c",
+   "kind": "article",
+   "title": "图灵奖得主约瑟夫 · 斯发基斯呼吁建立全球 AI 监管标准，这是人类共同的责任",
+   "url": "https://www.ithome.com/1/015/412.htm",
+   "pdf_url": "",
+   "abstract": "“2026 可持续全球领导者大会”于 10 月 20 日-22 日在上海召开。2007 年图灵奖得主，Verimag 实验室创始人 约瑟夫 · 斯发基斯（Joseph Sifakis） 出席并演讲。 当前，AI 智能体正快速进步，甚至在某些任务上面的表现优于人类。AI 不仅有能力自我改进，甚至还能够逃离测试环境，进行大规模网络攻击。 约瑟夫 · 斯发基斯表示，随着超级智能形成了某种深化叙事，人们开始担心这些系统可能会超出授权范围，转而追求自身的生存和支配地位。所以，人类需要去理解 AI 的自我能力进化的意义和作用，以及其带来的风险和收益。 约瑟夫 · 斯发基斯指出，“自主性”是指有目的的采取行动，这是生命体所具有的特征。而单一体智能必须要理解世界才能够更好实现智能，这就意味着它需要去了解世界模型，并且从世界模型上得到感知。 除此之外，单一体智能应该根据目标做出决策并且应对不断变化的物理环境和社会环境，但毫无疑问， 目前的 AI 系统没有办法理解现实世界，并做出安全决策 。 “尽管有人说 2025 年是 AI 智能体元年，但目前来看，大家对 AI 的成果并没有特别深刻的印象”。 约瑟夫 · 斯发基斯认为，目前，智能体与人类思考问题的方式并不相同。他举例称，即使 ChatGPT 或者 DeepSeek 在进行医学考试时，成绩比人类还好。但这并不意味着我们可以让大模型当医生。 他给出的解释是，人类医生了解人类社会的规范和相关的价值体系，深知一旦违背了某些准则，就会损害自己的声誉，甚至是被限制自由。但显然，大模型没有办法做到这一点。 约瑟夫 · 斯发基斯强调， 要重视 AI 系统在道德方面的缺陷，AI 的自我演进并不总是向良好情况发生的 。“如果智能体超出我们的控制，超出最开始的预设，自我演进可能会离现实差得很远，出现风险不可控或者被有意操纵系统，我们已经有这样的案例了，所以当务之急不是准备应对这种自我演化，而是来治理我们已经拥有的东西”。 约瑟夫 · 斯发基斯还指出，真正的危险在于，超级智能可能会掩盖一些不安全、不可控带来的真实风险，而一些大公司为了商业利益，借此推卸责任，同时利用监管空白谋利。 他呼吁建立相关领域的全球标准和监管标准 。“我们必须合起手来，共同进行监管，未来的前进之路上，我们要重塑力量平衡，和理念相近的国家携手监管 AI，协调好技术发展与可行性之间的关系“。 “AI 只是一个小问题而已，它可以让世界变得更好或者毁灭这个世界，这是人类主导的变革，我们要最大化收益并且让风险降到最小，这是我们共同的责任”，约瑟夫 · 斯发基斯说。 新浪声明：所有会议实录均为现场速记整理，未经演讲者审阅，新浪网登载此文出于传递更多信息之目的，并不意味着赞同其观点或证实其描述。 原标题《图灵奖得主呼吁建立全球 AI 监管标准，这是人类共同的责任》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-20T08:31:22+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/015/412.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "图灵奖得主斯发基斯：AI 智能体尚不懂世界，呼吁全球协同监管",
+   "summary_zh": "斯发基斯在上海演讲指出，当前 AI 系统无法理解现实世界、缺乏道德约束，智能体自我演进未必向好，呼吁建立全球 AI 监管标准，警惕大公司借监管空白牟利。",
+   "highlights_zh": [
+    "AI 智能体与人类思维方式不同，考试成绩好不等于能承担医生等现实职责",
+    "真正危险在于超级智能掩盖不安全风险，大公司借此推卸责任",
+    "当务之急是治理已有系统，而非准备应对自我演化"
+   ],
+   "why_zh": "重量级学者对智能体能力边界与监管路径的明确判断，值得对照行业乐观叙事阅读。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T09:57:08+00:00",
+   "mirror_pdf": "pdf/web-c9b4d34d783c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/015/412.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e0c2d7dee7d0",
+   "kind": "article",
+   "title": "Gartner 预测：7 万亿美元人工智能基础设施到 2030 年仅能收回约一半投入",
+   "url": "https://www.ithome.com/1/015/386.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 20 日消息，Gartner（高德纳）当地时间本月 14 日指出，2026~2030 年期间的全球人工智能基础设施投资总额将达到 7 万亿美元 （IT之家注：现汇率约合 46.86 万亿元人民币） ，但 这些投资到 2030 年最多仅能产生 3.6 万亿美元收入 。 高级总监分析师 Will Sommer 表示，在考虑到融资成本和 12% 投资回报率的情况下，与 7 万亿美元投资相抵的收入需要达到 8.5 万亿美元，而 这与其收入预测之间存在约 5 万亿美元的缺口 。 机构认为，持续的 AI 基础设施投资可能要到 2032 年才会实现 12% 回报率的目标，而这之前可能有超过 4 万亿美元的资产面临减值风险。 图源：Pixabay 该机构预测 到 2030 年将有超过 80% 的 Neocloud （新兴 AI 云服务供应商） 停止独立运营 ，这是因为其无法在行业支出增长有限的背景下于芯片迭代周期中收回投资。 参考 Gartner Says Over $3.5 Trillion of AI Infrastructure Spending Could Be Exposed to Impairment by the End of 2030",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-20T08:18:01+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/015/386.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Gartner：7 万亿美元 AI 基建到 2030 年收入缺口约 5 万亿",
+   "summary_zh": "Gartner 预测 2026–2030 年全球 AI 基建投资达 7 万亿美元，2030 年最多产生 3.6 万亿美元收入，按 12% 回报率需 8.5 万亿，缺口约 5 万亿，超 80% Neocloud 将停止独立运营。",
+   "highlights_zh": [
+    "12% 回报率目标或要到 2032 年才实现，超 4 万亿美元资产面临减值风险",
+    "芯片迭代周期内难以回本，新兴 AI 云厂商首当其冲",
+    "为 AI 资本开支热潮提供量化风险参照"
+   ],
+   "why_zh": "对 AI 基建投资回报的量化预警，是判断市场周期与算力泡沫的关键数据点。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T09:57:08+00:00",
+   "mirror_pdf": "pdf/web-e0c2d7dee7d0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/015/386.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9dbc0d55ff91",
+   "kind": "article",
+   "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+   "url": "https://huggingface.co/blog/hf-torchneuron",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-10-19T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/hf-torchneuron",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "TorchNeuron：让HF模型更易跑在AWS Trainium上",
+   "summary_zh": "Hugging Face发布TorchNeuron，简化将HF模型部署到AWS Trainium芯片的流程。",
+   "highlights_zh": [
+    "降低Trainium适配门槛",
+    "面向HF生态模型直接迁移",
+    "为替代GPU算力提供工程路径"
+   ],
+   "why_zh": "关注推理算力成本与多元芯片适配的工程团队可读",
+   "tags": [
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 7.0,
+   "score": 0.612,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T09:57:08+00:00",
+   "mirror_pdf": "pdf/web-9dbc0d55ff91.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/hf-torchneuron"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2aa11b152c82",
+   "kind": "article",
+   "title": "日均6万亿Token服务背后，商汤大装置如何提升推理效能？",
+   "url": "https://www.qbitai.com/2026/10/504188.html",
+   "pdf_url": "",
+   "abstract": "AI基础设施竞争转向高质量Token产能",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-19T05:22:39+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/504188.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "商汤大装置日均6万亿Token的推理效能之道",
+   "summary_zh": "商汤披露其大装置日均处理6万亿Token，重点介绍提升推理效能的技术手段，反映AI基础设施竞争正转向高质量Token产能。",
+   "highlights_zh": [
+    "日均6万亿Token服务规模",
+    "推理效能优化是AI基础设施竞争新焦点",
+    "高质量Token产能成为差异化方向"
+   ],
+   "why_zh": "了解头部AI基础设施厂商如何规模化提升推理效率，把握算力竞争新方向。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T09:57:08+00:00",
+   "mirror_pdf": "pdf/web-2aa11b152c82.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/504188.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-41797b9f96f9",
+   "kind": "article",
+   "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+   "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-19T05:55:31Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50148855",
+     "signal": "156 pts",
+     "metric": 156
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "用Tmux管理Claude Code会话的实践",
+   "summary_zh": "介绍如何用tmux的会话与send-keys机制编排Claude Code，并讨论其能力上限。",
+   "highlights_zh": [
+    "tmux会话隔离多个Claude Code实例",
+    "send-keys实现跨会话指令注入",
+    "指出该方案在并发与状态管理上的天花板"
+   ],
+   "why_zh": "如果你用Claude Code跑多任务，可参考其会话编排思路",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5571,
+   "score_llm": 6.0,
+   "score": 0.5828,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T09:57:08+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://crystl.dev/guides/tmux-for-ai-agents/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50148855"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-769218ccd93a",
+   "kind": "article",
+   "title": "580天暗战，爱奇艺的AI闯关路",
+   "url": "https://www.leiphone.com/category/industrynews/jJI2TPXI1eYWxECq.html",
+   "pdf_url": "",
+   "abstract": "今年4月，在北京的一场影视行业论坛上，爱奇艺基础架构与智能分发事业群总裁刘文峰正通过大屏幕演示手机端的一个新功能“跳看”：前一秒还是画师在寺庙中留下一幅未完成点睛的画作，手指一滑，屏幕中一个黑衣人潜入寺中，还未走出几步，便在惊雷中暴毙而亡。一段原本8分钟的开场戏，就浓缩成3分钟，紧凑又充满悬念。 “这不跟看短剧一样么？”这一刻起，长视频不再只有一种打开方式。而能够实现“长剧短看”、进退自如切换剧情的秘密武器正是生成式AI。 时间拨回三个月前，一次内部会议上，爱奇艺创始人、CEO龚宇提出了“跳看”这个构想。这源于他对用户的洞察：面对相同内容，不同用户的兴趣点和关注点也不同，而在这个缺乏耐心的时代，用户的注意力也在变得稀缺。那么，如何通过供给侧改革，抓住用户注意力、为用户提供更个性化的观影需求？爱奇艺的解法是：在大语言模型加持下，基于对用户个性化观看行为的分析，自动识别并推荐精彩剧情点。 当一众编剧导演还在惊叹AI时代长视频的观看逻辑快要被颠覆时，距离北京1400公里外的横店片场，导演金哲勇正盯着眼前的监视器。屏幕上，演员土豆正踏过青山、草原和沙漠，每一次晨昏交汇的光线映照在他脸上、树影间、戈壁处都留下了光阴的印迹。但其实，他只是在摄影棚内的跑步机上挥汗如雨，身后没有绿幕，也没有繁复的置景，只有一块500平米的沉浸式LED幕墙。 这场戏所有背景视频素材都是在AI文生图、图生视频的基础上实现的。从导演确认第一张概念图，到完成三个场景的视频背景生成，只花了不到一天时间。 不经意间，AI对影视行业的冲击和颠覆，从概念走入现实，从用户端的浅层体验延伸到内容创作的核心环节。 彼时，距离龚宇断言“生成式AI将在3-5年内彻底改变影视行业”不过580天。而在同年晚些时候，《哈佛商业评论》中文版2023年会上，龚宇演讲的结语是：“人类，不会被AI取代。不掌握AI的人类，将被掌握AI的人类取代。” 龚宇分享关于AI的思考 这是悬在龚宇头上的达摩克利斯之剑，也成为此后580天里爱奇艺与生成式AI共舞的内驱力。 01 动起来，比什么都重要 张晓媚是爱奇艺影视文学研发中心负责人，20多年来一直专注在内容的挖掘和创作，经历过无数个打起精神看剧本的深夜。2023年3月，GPT-4发布不久，她被拉进一场高层会议。龚宇与刘文峰分坐两侧，讨论的核心议题正是如何用AI重塑影视内容的创作与评估。“我记得当时老板对文峰说，你们的目标就是把晓媚‘替代’掉。”她回忆道。 在这场“被革命”的技术创新中，张晓媚的新角色是“AI大模型的老师”。“我面对的第一个挑战，就是教会AI理解什么是‘情节’、什么是‘叙事结构’。” 如何尽快让AI像人一样理解内容？每周二下班后，张晓媚的影研团队和智能制作产品的开发团队、算法技术团队就会聚在一起“拉片”：读完剧本的一个章节，“码字的”和“码农”一起对其中的情节点做讨论和评级。公司里的两种人、两种不同思维，在这一时空展开跨学科的交互与碰撞。 两三个月内，他们仔细为《隐秘的角落》《苍兰诀》等优秀剧本做了评级标注。这批剧本被路香菊所在的AI算法团队拿去做深度拆解和分析，转化为机器能够“读懂”的结构化信息，成为训练大模型的关键语料。通过不断“喂养”，优化其理解与生成能力，AI从最初仅能识别文本的字面含义，进化到能够联系上下文，理解并洞察文字背后隐藏的复杂情感。机器的思维，越来越向人靠近。 这个能读通剧本的应用型AI随后出师，就是2024年发布的“剧本工坊”。 不只张晓媚，爱奇艺所有员工都在经历类似的快速转变。不上车就会被落下。什么时候意识到危机就在身边？受访者们不约而同地",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-20T06:15:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/jJI2TPXI1eYWxECq.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "580 天暗战：爱奇艺的 AI 闯关路",
+   "summary_zh": "爱奇艺用大模型做「跳看」个性化剧情推荐，并用 AI 生成影视背景素材，580 天内将生成式 AI 推进到内容创作核心环节。",
+   "highlights_zh": [
+    "「跳看」基于用户行为分析自动识别精彩剧情点",
+    "AI 文生图/图生视频用于 LED 幕墙背景，一天完成三场景",
+    "影研团队与算法团队联合「拉片」标注剧本训练模型"
+   ],
+   "why_zh": "长视频平台落地生成式 AI 的深度案例，含组织与工程细节。",
+   "tags": [
+    "产品与行业",
+    "多模态",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T09:57:08+00:00",
+   "mirror_pdf": "pdf/web-769218ccd93a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/jJI2TPXI1eYWxECq.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-18760ac20156",
+   "kind": "article",
+   "title": "突破长文本推理瓶颈 九章云极Alaya-DFlash2助GLM-5.3解码提速3.41倍",
+   "url": "https://www.infoq.cn/article/mJ5udryLFwjov1pk4Dsq?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "九章云极"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-20T15:07:31+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/mJ5udryLFwjov1pk4Dsq?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "九章云极Alaya-DFlash2助GLM-5.3解码提速3.41倍",
+   "summary_zh": "九章云极推出Alaya-DFlash2，针对长文本推理瓶颈优化解码，使GLM-5.3解码速度提升3.41倍。",
+   "highlights_zh": [
+    "聚焦长文本推理的解码效率瓶颈",
+    "与GLM-5.3结合实现3.41倍解码加速",
+    "面向推理部署的性能优化方案"
+   ],
+   "why_zh": "长文本推理加速是当前大模型落地的关键工程问题。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T09:57:08+00:00",
+   "mirror_pdf": "pdf/web-18760ac20156.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/mJ5udryLFwjov1pk4Dsq?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2657c0944555",
+   "kind": "article",
+   "title": "AI生成的代码看不懂就扔掉重来：一位首席架构师的 5 条 Agent 编程反常识原则",
+   "url": "https://www.infoq.cn/article/tgqMEJsqXfX6YzAcOiAR?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "林绮蓓"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-20T15:05:27+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/tgqMEJsqXfX6YzAcOiAR?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "首席架构师谈Agent编程：看不懂的AI代码就扔掉重来",
+   "summary_zh": "一位首席架构师总结Agent编程的5条反常识原则，主张AI生成但看不懂的代码应丢弃重写，强调可维护性优先于生成速度。",
+   "highlights_zh": [
+    "AI生成代码若无法理解应丢弃重来",
+    "提出5条Agent编程反常识原则",
+    "关注Agent编程中的质量与可维护性"
+   ],
+   "why_zh": "为团队落地Agent编程提供来自一线架构师的实践原则。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T09:57:08+00:00",
+   "mirror_pdf": "pdf/web-2657c0944555.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/tgqMEJsqXfX6YzAcOiAR?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e9dd82d989fa",
+   "kind": "article",
+   "title": "挣真钱：中国 AI 独角兽的成人礼",
+   "url": "https://www.tmtpost.com/8173526.html",
+   "pdf_url": "",
+   "abstract": "从调用量全球第一，到涨价 101%。",
+   "authors": [
+    "硅谷Tech news"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-20T09:40:09+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8173526.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "挣真钱：中国 AI 独角兽的成人礼",
+   "summary_zh": "钛媒体分析中国 AI 独角兽从调用量第一到涨价 101%，探讨大模型商业化与盈利路径的转向。",
+   "highlights_zh": [
+    "从免费调用量竞争转向涨价变现",
+    "反映大模型商业化压力与路径",
+    "关注中国 AI 公司盈利拐点"
+   ],
+   "why_zh": "把握大模型市场从烧钱换量到变现的关键信号。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T09:57:08+00:00",
+   "mirror_pdf": "pdf/web-e9dd82d989fa.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8173526.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2dbdc341909e",
+   "kind": "article",
+   "title": "对话Dyna Robotics：被部署教训了300天后，找到机器人Scaling Law",
+   "url": "https://www.tmtpost.com/8174365.html",
+   "pdf_url": "",
+   "abstract": "“世界上最无聊”的机器人公司？",
+   "authors": [
+    "硅谷101"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-20T08:39:27+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8174365.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "对话 Dyna Robotics：被部署教训 300 天后找到机器人 Scaling Law",
+   "summary_zh": "Dyna Robotics 分享 300 天真实部署经验，认为机器人领域也存在可循的 Scaling Law 路径。",
+   "highlights_zh": [
+    "真实场景部署 300 天的经验教训",
+    "提出机器人 Scaling Law 的判断",
+    "强调落地数据对能力提升的作用"
+   ],
+   "why_zh": "了解具身智能从部署中提炼规模化规律的实践视角。",
+   "tags": [
+    "机器人",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T09:57:08+00:00",
+   "mirror_pdf": "pdf/web-2dbdc341909e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8174365.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-44377744ecb6",
+   "kind": "article",
+   "title": "具身智能，卡在哪——王兴兴的\"一两年\"到底承诺了什么",
+   "url": "https://www.tmtpost.com/8174435.html",
+   "pdf_url": "",
+   "abstract": "具身智能的时间表随GPT版本号前移，市场把模型进步误读为具身进度。模型是翻译官，Agent是场景决策者，物理载体是手脚。三把尺子量下来：走完一整步，卡在第三步——迭代方向标准，它只由真实场景的数据主权决定。",
+   "authors": [
+    "韩工观察"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-20T08:39:21+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8174435.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "具身智能卡在哪：王兴兴的“一两年”承诺了什么",
+   "summary_zh": "作者认为市场把模型进步误读为具身进度，指出具身智能真正卡点在真实场景数据主权与迭代方向。",
+   "highlights_zh": [
+    "区分模型进步与具身落地进度",
+    "提出模型、Agent、物理载体三层框架",
+    "强调真实场景数据主权决定迭代方向"
+   ],
+   "why_zh": "对具身智能时间表持清醒判断，值得从业者对照。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T09:57:08+00:00",
+   "mirror_pdf": "pdf/web-44377744ecb6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8174435.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-24f0298eed38",
+   "kind": "article",
+   "title": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
+   "url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
+   "pdf_url": "",
+   "abstract": "At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display. Key to the news: the European Broadcasting Union (EBU) is collaborating with NVIDIA to expand its sovereign framework with cloud, open models and integration […]",
+   "authors": [
+    "Richard Kerris"
+   ],
+   "orgs": [
+    "NVIDIA"
+   ],
+   "published": "2026-10-19T15:00:31+00:00",
+   "sources": [
+    {
+     "name": "NVIDIA",
+     "authority": 0.75,
+     "url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "英伟达与欧洲广播联盟合作推进媒体智能体安全",
+   "summary_zh": "英伟达宣布与欧洲广播联盟合作，以云、开放模型和集成方案扩展其主权框架，推动媒体行业智能体安全落地。",
+   "highlights_zh": [
+    "EBU 与英伟达合作扩展主权框架",
+    "聚焦媒体行业智能体安全",
+    "联合 Adobe、Bertelsmann 等展示智能媒体进展"
+   ],
+   "why_zh": "了解英伟达在媒体行业智能体安全与主权 AI 的布局方向。",
+   "tags": [
+    "智能体",
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 6.0,
+   "score": 0.552,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T09:57:08+00:00",
+   "mirror_pdf": "pdf/web-24f0298eed38.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4d5d66fe73af",
+   "kind": "article",
+   "title": "[AINews] not much happened today",
+   "url": "https://www.latent.space/p/ainews-not-much-happened-today-f09",
+   "pdf_url": "",
+   "abstract": "Congrats to DeepSeek V4.1 Flash 1017, MiniMax M3.1 Flash, and Mercury 3 (details below) but they’re not going to be in super wide use just yet.",
+   "authors": [
+    "swyx"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-20T05:21:52+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/ainews-not-much-happened-today-f09",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "AINews：今日无大事",
+   "summary_zh": "Latent Space简讯提及DeepSeek V4.1 Flash、MiniMax M3.1 Flash、Mercury 3等新模型，但认为短期内不会大规模使用。",
+   "highlights_zh": [
+    "多款Flash级新模型发布",
+    "作者判断短期不会广泛采用",
+    "信息量有限的日常简讯"
+   ],
+   "why_zh": "快速了解当日模型发布动态，但增量信息有限。",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 5.0,
+   "score": 0.52,
+   "date": "2026-10-20",
+   "slot": "evening",
+   "selected_at": "2026-10-20T09:57:08+00:00",
+   "mirror_pdf": "pdf/web-4d5d66fe73af.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/ainews-not-much-happened-today-f09"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "AI基建进入重资产验证期，市场定价从营收增长转向资本回报",
-   "why": "四大巨头AI资本开支预计6000亿至7000亿美元，年化收入仅约520亿美元，投入产出缺口显著。",
+   "trend": "AI基建进入重资产验证期，市场定价从营收增长转向资本回报。",
+   "why": "四大巨头AI资本开支预计6000亿至7000亿美元，年化收入仅约520亿美元，投入产出严重失衡。",
    "refs": [
     "web-f25f1ef3fc7e"
    ]
   },
   {
-   "trend": "推理成本战白热化，性价比成为国产模型竞争主战场",
-   "why": "MiniMax速度提升3倍价格降70%，DeepSeek-V4.1-Flash成本仅竞品1/10并登顶开源榜首。",
+   "trend": "推理成本战白热化，国产模型以极致性价比抢占Agent市场。",
+   "why": "MiniMax M3.1 Flash成本降70%，DeepSeek-V4.1-Flash综合成本仅竞品1/10并登顶开源榜首。",
    "refs": [
     "web-e4711eea60ca",
-    "web-f12d8ad89a3b"
+    "web-f12d8ad89a3b",
+    "web-86ff08ae99e6"
    ]
   },
   {
-   "trend": "智能体评测从单轮基准转向真实任务与脚手架可复现性",
-   "why": "普林斯顿梳理评测新趋势；微软发现脚手架丢弃历史致成功率暴跌92.5个百分点。",
+   "trend": "智能体评测从单轮基准转向真实任务，脚手架设计成为成败关键。",
+   "why": "微软研究发现脚手架丢弃历史致成功率跌至随机水平，差距达92.5个百分点；学界正推动贴近真实任务的评测方法。",
    "refs": [
-    "web-046f246e6405",
-    "arxiv-2610.26632"
+    "arxiv-2610.26632",
+    "web-046f246e6405"
    ]
   },
   {
-   "trend": "智能体自主完成长时程任务，但成本与安全边界成新焦点",
-   "why": "四Gemini智能体27小时通关《我的世界》耗资1620美元；微软警示智能体内鬼威胁。",
+   "trend": "长时程智能体自主性获实证，但成本与安全约束同步收紧。",
+   "why": "四Gemini智能体27小时自主通关《我的世界》耗资1620美元；微软警示智能体内鬼风险，黄仁勋主张装安全带。",
    "refs": [
     "web-1b356a4c1034",
-    "web-5a9dd192c567"
+    "web-5a9dd192c567",
+    "web-36bfd99e1e96"
    ]
   },
   {
-   "trend": "注意力架构持续迭代，线性注意力与连续化成为技术拐点",
-   "why": "KronLSTM改造线性注意力长上下文超越DeltaNet；苏剑林解读连续化Softmax Attention。",
+   "trend": "AI芯片新势力融资加速，LPU与RISC-V路线挑战既有推理格局。",
+   "why": "铭芯启睿超4亿元A轮启动LPU研发，Tenstorrent完成15亿美元E轮估值翻倍。",
    "refs": [
-    "arxiv-2610.26834",
-    "web-6ae0cbf3a951"
+    "web-1724559a6463",
+    "web-433acf3f792b"
    ]
   }
  ]
