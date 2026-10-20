@@ -1,13 +1,12 @@
-2026-10-19 17:24:51,616 INFO source hf_daily           -> 19 items
-2026-10-19 17:24:51,921 INFO source hackernews         -> 7 items
-2026-10-19 17:25:08,086 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-19 17:25:18,716 INFO source rss                -> 54 items
-2026-10-19 17:25:20,021 INFO source html_lists         -> 0 items
-2026-10-19 17:25:20,021 INFO source x                  -> 0 items
-2026-10-19 17:25:20,733 INFO source arxiv_search       -> 0 items
-2026-10-19 17:25:30,215 INFO source github             -> 20 items
-2026-10-19 17:25:30,231 INFO candidates: 100 (stale dropped 26, new 40)
-2026-10-19 17:26:06,835 INFO llm judged 40/40 (calls=5)
-2026-10-19 17:26:10,776 WARNING snapshot https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun/: blocked or empty page
-2026-10-19 17:27:00,595 WARNING snapshot https://thezvi.wordpress.com/2026/10/19/i-can-see-everything/: blocked or empty page
-2026-10-19 17:29:23,477 INFO run done: {"at": "2026-10-19T17:24:51+00:00", "slot": "morning", "candidates": 100, "new": 40, "stale": 26, "judged": 40, "selected": 19, "mirrored": 15, "by_category": {"观点": 3, "技术": 4, "资讯": 11, "项目": 1}, "by_source": {"HF Daily Papers": 19, "Hacker News": 7, "量子位": 1, "极客公园": 5, "IT之家": 9, "爱范儿": 4, "雷峰网": 8, "钛媒体": 7, "InfoQ 中文": 9, "Jack Clark": 1, "Stratechery": 1, "SemiAnalysis": 1, "Nathan Benaich": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "Timothy B. Lee": 1, "科学空间": 1, "NVIDIA": 2, "Microsoft": 1, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
+2026-10-20 03:42:47,775 INFO source hf_daily           -> 26 items
+2026-10-20 03:42:48,064 INFO source hackernews         -> 5 items
+2026-10-20 03:43:10,830 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-20 03:43:22,621 INFO source rss                -> 70 items
+2026-10-20 03:43:24,617 INFO source html_lists         -> 0 items
+2026-10-20 03:43:24,617 INFO source x                  -> 0 items
+2026-10-20 03:43:39,962 INFO source arxiv_search       -> 60 items
+2026-10-20 03:43:49,484 INFO source github             -> 20 items
+2026-10-20 03:43:49,486 INFO candidates: 181 (stale dropped 27, new 112)
+2026-10-20 03:45:21,735 INFO llm judged 95/100 (calls=13)
+2026-10-20 03:45:28,091 WARNING pdf arxiv-2610.25690: too large (> 25165824 bytes): https://arxiv.org/pdf/2610.25690
+2026-10-20 03:48:51,026 INFO run done: {"at": "2026-10-20T03:42:47+00:00", "slot": "noon", "candidates": 181, "new": 112, "stale": 27, "judged": 95, "selected": 21, "mirrored": 20, "by_category": {"观点": 2, "技术": 4, "资讯": 12, "论文": 1, "项目": 2}, "by_source": {"HF Daily Papers": 26, "Hacker News": 5, "量子位": 1, "极客公园": 5, "IT之家": 14, "爱范儿": 5, "少数派": 1, "雷峰网": 9, "钛媒体": 9, "InfoQ 中文": 12, "Jack Clark": 1, "Stratechery": 1, "SemiAnalysis": 1, "Arvind Narayanan": 1, "Nathan Benaich": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "Timothy B. Lee": 1, "科学空间": 1, "Hugging Face Blog": 1, "OpenAI": 1, "NVIDIA": 2, "Microsoft": 1, "arXiv 新论文": 60, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
