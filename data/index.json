@@ -1,6 +1,13 @@
 {
- "updated": "2026-10-20T15:36:56+00:00",
+ "updated": "2026-10-21T03:34:45+00:00",
  "days": [
+  {
+   "date": "2026-10-21",
+   "count": 18,
+   "slots": {
+    "noon": 18
+   }
+  },
   {
    "date": "2026-10-20",
    "count": 81,
@@ -239,50 +246,55 @@
    }
   }
  ],
- "total": 1451,
+ "total": 1469,
  "last_run": {
-  "at": "2026-10-20T15:36:56+00:00",
-  "slot": "evening",
-  "candidates": 211,
-  "new": 119,
-  "stale": 34,
-  "judged": 100,
-  "selected": 21,
-  "mirrored": 19,
+  "at": "2026-10-21T03:34:45+00:00",
+  "slot": "noon",
+  "candidates": 151,
+  "new": 62,
+  "stale": 55,
+  "judged": 62,
+  "selected": 18,
+  "mirrored": 15,
   "by_category": {
+   "观点": 4,
    "技术": 4,
-   "资讯": 14,
-   "项目": 3
+   "资讯": 10
   },
   "by_source": {
-   "HF Daily Papers": 51,
-   "arXiv 新论文": 60,
-   "Hacker News": 7,
-   "GitHub 新项目": 5,
-   "量子位": 10,
+   "HF Daily Papers": 33,
+   "Hacker News": 3,
+   "GitHub 新项目": 7,
+   "量子位": 9,
    "极客公园": 5,
-   "IT之家": 9,
-   "爱范儿": 7,
-   "少数派": 1,
-   "雷峰网": 12,
-   "钛媒体": 3,
-   "InfoQ 中文": 11,
-   "Latent Space": 1,
+   "IT之家": 11,
+   "爱范儿": 6,
+   "少数派": 2,
+   "雷峰网": 11,
+   "钛媒体": 5,
+   "InfoQ 中文": 10,
+   "宝玉": 1,
+   "Ethan Mollick": 1,
+   "Simon Willison": 1,
+   "Nathan Lambert": 1,
+   "Latent Space": 2,
    "Jack Clark": 1,
    "Stratechery": 1,
    "SemiAnalysis": 1,
    "Arvind Narayanan": 1,
-   "Nathan Benaich": 1,
-   "Zvi Mowshowitz": 1,
+   "Zvi Mowshowitz": 2,
    "Timothy B. Lee": 1,
    "科学空间": 1,
-   "Hugging Face Blog": 4,
+   "Hugging Face Blog": 6,
    "METR": 1,
    "Hamel Husain": 1,
-   "OpenAI": 1,
+   "OpenAI": 4,
    "NVIDIA": 3,
    "Microsoft": 2,
-   "GitHub Trending": 15
+   "Anthropic": 4,
+   "Mistral": 1,
+   "xAI": 1,
+   "GitHub Trending": 13
   },
   "llm": true,
   "translated": 0

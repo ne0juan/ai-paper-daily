@@ -1,0 +1,1185 @@
+{
+ "date": "2026-10-21",
+ "items": [
+  {
+   "id": "web-ecfa38b3d990",
+   "kind": "article",
+   "title": "30 Months on the Exponential (in Charts)",
+   "url": "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts",
+   "pdf_url": "",
+   "abstract": "My new book is out today... what happened since the last one",
+   "authors": [
+    "Ethan Mollick"
+   ],
+   "orgs": [
+    "Ethan Mollick"
+   ],
+   "published": "2026-10-20T15:57:59+00:00",
+   "sources": [
+    {
+     "name": "Ethan Mollick",
+     "authority": 0.85,
+     "url": "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "沃顿商学院教授",
+   "title_zh": "指数增长上的 30 个月（图表版）",
+   "summary_zh": "Ethan Mollick 用图表回顾过去 30 个月 AI 能力的指数级进展，并讨论其对工作与社会的实际影响。",
+   "highlights_zh": [
+    "以数据图表呈现 AI 能力跃迁",
+    "重量级学者的阶段性判断",
+    "对从业者预期管理有参考价值"
+   ],
+   "why_zh": "把握 AI 进展节奏与市场预期的优质观点文。",
+   "tags": [
+    "产品与行业",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.716,
+   "date": "2026-10-21",
+   "slot": "noon",
+   "selected_at": "2026-10-21T03:34:45+00:00",
+   "mirror_pdf": "pdf/web-ecfa38b3d990.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.28578",
+   "kind": "paper",
+   "title": "Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition",
+   "url": "https://arxiv.org/abs/2610.28578",
+   "pdf_url": "https://arxiv.org/pdf/2610.28578",
+   "abstract": "In this report, we introduce Sage-A1.5, a 35B Mixture-of-Experts agentic model that builds on A1 to advance long-horizon problem solving through adaptive capability composition. Compared with A1, Sage-A1.5 learns not only to solve individual tasks, but also to organize work and revise its approach during execution. Sage-A1.5 highlights three improvements: agentic orchestration, verification, and open scientific discovery. First, agentic orchestration extends single-agent execution through task delegation and parallel collaboration among subagents with isolated contexts, enabling complex tasks to be decomposed and addressed concurrently and supporting efficient execution while reducing interference across concurrent subagents. Second, agentic verification strengthens long-horizon reliability through progress checking, evidence validation, and reflective strategy revision, allowing the agent to recognize unproductive search paths and pursue alternative approaches. Third, open scientific discovery extends agentic capabilities beyond answering predefined questions to conducting exploratory research, connecting scientific inquiry with interactive analysis and inspectable research artifacts. We showcase these capabilities through complicated agentic tasks and multidisciplinary scientific applications. Besides, we hope Sage-A1.5 provides the community with an accessible foundation for open scientific discovery, offering a practical path from long-horizon task execution to collaborative, verifiable, and inspectable scientific exploration.",
+   "authors": [
+    "Wenjie Lou",
+    "Tianshuo Peng",
+    "Shiyang Feng",
+    "Shengji Tang",
+    "Runmin Ma",
+    "Ruizhe Chen",
+    "Jinxin Shi",
+    "Haoyang Peng",
+    "Fangchen Yu",
+    "Zhijie Zhong",
+    "Yuhao Zhou",
+    "Yue Fan",
+    "Yixin Chen",
+    "Yiming Wu",
+    "Yiheng Wang",
+    "Yigeng Jiang",
+    "Yichen Jiang",
+    "Yi Xie",
+    "Xu Guo",
+    "Xiaohan He",
+    "Tao Hu",
+    "Songtao Huang",
+    "Siyu Zhou",
+    "Shuaiyu Zhang",
+    "Shangheng Du",
+    "Qinglong Cao",
+    "Kun Li",
+    "Jingqi Ye",
+    "Hongbin Zhou",
+    "Guohang Yan",
+    "Zongsheng Cao",
+    "Ziyi Wang",
+    "Zhuo Liu",
+    "Zhiyin Yu",
+    "Zhiwang Zhou",
+    "Zelin Tan",
+    "Yuqing Zhu",
+    "Yaoze Zhang",
+    "Yang Chen",
+    "Xuming He",
+    "Xiuliang Liang",
+    "Xingjian Guo",
+    "Xiang Zhuang",
+    "Weiping Shen",
+    "Weida Wang",
+    "Tianyuan Zhou",
+    "Tianlin Ye",
+    "Tengyuan Fan",
+    "Siyu Yan",
+    "Shuo Li",
+    "Shuchen Pu",
+    "Shengyuan Xu",
+    "Shao Zhang",
+    "Ran Wei",
+    "Qinyuan Qin",
+    "Qingyu Yang",
+    "Nianchen Deng",
+    "Meng Dai",
+    "Kuikun Liu",
+    "Kaitao Chen",
+    "Juncheng Xiao",
+    "Jiangning Liu",
+    "Jianbiao Mei",
+    "Jia Yu",
+    "Haonan He",
+    "Hangfan Zhang",
+    "Cheng Yang",
+    "Chen Zhang",
+    "Bihao Zhan",
+    "Benteng Cheng",
+    "Yuqiang Li",
+    "Yihao Liu",
+    "Yang Yang",
+    "Xujun Fu",
+    "Xiaosong Wang",
+    "Xiangyu Yue",
+    "Wenwei Zhang",
+    "Shuyue Hu",
+    "Pinlong Cai",
+    "Mianxin Liu",
+    "Lei Bai",
+    "Jie Zhou",
+    "Jie Hou",
+    "Jiamin Wu",
+    "Hui Wang",
+    "Haijun Li",
+    "Guangyu Wang",
+    "Dongzhan Zhou",
+    "Chunfeng Song",
+    "Chao Yang",
+    "Biqing Qi",
+    "Xing Xie",
+    "Dahua Lin",
+    "Bowen Zhou",
+    "Xiangchao Yan",
+    "Wenlong Zhang",
+    "Shufei Zhang",
+    "Peng Ye",
+    "Bo Zhang"
+   ],
+   "orgs": [
+    "Intern Science"
+   ],
+   "published": "2026-10-20T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.28578",
+     "signal": "▲ 31",
+     "metric": 31
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Sage-A1.5：从长程执行到科学探索的智能体模型",
+   "summary_zh": "Intern Science 发布 35B MoE 智能体模型 Sage-A1.5，在 A1 基础上强化任务编排、验证与开放式科学探索，支持子智能体并行协作与反思式策略修正，并在多学科科研任务中展示能力。",
+   "highlights_zh": [
+    "引入子智能体任务委派与隔离上下文并行协作，降低并发干扰",
+    "增加进度检查、证据校验与反思式策略修正，提升长程任务可靠性",
+    "从回答预设问题扩展到可探索的开放式科研分析"
+   ],
+   "why_zh": "关注智能体架构与长程任务可靠性的从业者值得一读。",
+   "tags": [
+    "智能体",
+    "大模型",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.5872,
+   "score_llm": 8.0,
+   "score": 0.7149,
+   "date": "2026-10-21",
+   "slot": "noon",
+   "selected_at": "2026-10-21T03:34:45+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.28578.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.28578"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.28578"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.28578"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.28578"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.28578"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.28578"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/InternScience/Agents-A1"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-064ad9927d51",
+   "kind": "article",
+   "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
+   "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
+   "pdf_url": "",
+   "abstract": "Western open models strike back",
+   "authors": [
+    "Florian Brand"
+   ],
+   "orgs": [
+    "Nathan Lambert"
+   ],
+   "published": "2026-10-20T17:04:21+00:00",
+   "sources": [
+    {
+     "name": "Nathan Lambert",
+     "authority": 0.8,
+     "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Ai2 研究员",
+   "title_zh": "开放模型月报：DeepSeek V4.1 Flash 与中美监管新动向",
+   "summary_zh": "Nathan Lambert 认为，西方开放模型正在反击，本期梳理 DeepSeek V4.1 Flash 1017、美国产开源模型及中美新增监管措施。",
+   "highlights_zh": [
+    "DeepSeek V4.1 Flash 1017 版本要点",
+    "西方开源模型阵营的最新进展",
+    "中美两国对开放模型的新监管控制"
+   ],
+   "why_zh": "开放模型格局与监管走向的高质量定期梳理。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.708,
+   "date": "2026-10-21",
+   "slot": "noon",
+   "selected_at": "2026-10-21T03:34:45+00:00",
+   "mirror_pdf": "pdf/web-064ad9927d51.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.27911",
+   "kind": "paper",
+   "title": "MMEnterprise-Bench: Evaluating Enterprise Agents over Evolving Multimodal Records",
+   "url": "https://arxiv.org/abs/2610.27911",
+   "pdf_url": "https://arxiv.org/pdf/2610.27911",
+   "abstract": "Enterprise agents answer questions over workplace records that evolve through team collaboration. As information is shared, corrected, and revised across documents, chats, and figures, multiple versions of the same information accumulate in the workspace. Reliable question answering therefore requires agents to reason over sufficient evidence, resolve cross-source and temporal conflicts, and recognize when the available evidence is insufficient to establish an answer. To systematically evaluate these capabilities, we introduce MMEnterprise-Bench, a benchmark comprising 1,613 questions grounded in evolving multimodal records from simulated collaboration projects, covering three categories: Evidence Reasoning, Conflict Resolution, and Unanswerability. We evaluate 10 proprietary and open-source multimodal LLMs and find that even the strongest models struggle when evidence contains cross-source or temporal conflicts or spans multiple images. Moreover, increasing the retrieval budget or employing a larger retriever improves evidence recall but does not consistently translate into higher answer accuracy. These findings highlight the persistent challenges of reasoning over evolving workplace records and establish MMEnterprise-Bench as a testbed for developing more reliable enterprise agents. Code and data are available at https://mlvlab.github.io/MMEnterprise-Bench/.",
+   "authors": [
+    "Seohyun Lee",
+    "Jongha Kim",
+    "Dohwan Ko",
+    "Ji Soo Lee",
+    "Seoung Choi",
+    "Jayun Ku",
+    "Hyunwoo J. Kim"
+   ],
+   "orgs": [],
+   "published": "2026-10-20T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.27911",
+     "signal": "▲ 11",
+     "metric": 11
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "MMEnterprise-Bench：评估演进式多模态企业记录上的智能体",
+   "summary_zh": "新基准含1613题，覆盖证据推理、冲突消解与不可答三类，测10个多模态大模型；最强模型在跨源/时序冲突和多图场景仍吃力，加大检索预算不必然提升准确率。",
+   "highlights_zh": [
+    "1613题基于模拟协作项目的演进式多模态记录构建",
+    "分证据推理、冲突消解、不可答性三类任务",
+    "检索召回提升不转化为答案准确率提升"
+   ],
+   "why_zh": "做企业智能体与多模态RAG评测的团队，可据此校准检索与推理的投入方向。",
+   "tags": [
+    "数据与评测",
+    "智能体",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.5286,
+   "score_llm": 8.0,
+   "score": 0.6914,
+   "date": "2026-10-21",
+   "slot": "noon",
+   "selected_at": "2026-10-21T03:34:45+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.27911.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.27911"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.27911"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.27911"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.27911"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.27911"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.27911"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/mlvlab/MMEnterprise-Bench"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b5b42d0cc895",
+   "kind": "article",
+   "title": "NotebookLM's Video Overview System Prompt: The Full Creation Workflow",
+   "url": "https://baoyu.io/blog/2026-10-20/notebooklm-video-overview-system-prompt",
+   "pdf_url": "",
+   "abstract": "The full NotebookLM Video Overview creation skill, with a brief introduction to its context gathering, review cards, and video generation workflow.",
+   "authors": [
+    "宝玉"
+   ],
+   "orgs": [
+    "宝玉"
+   ],
+   "published": "2026-10-20T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "宝玉",
+     "authority": 0.9,
+     "url": "https://baoyu.io/blog/2026-10-20/notebooklm-video-overview-system-prompt",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "zh",
+   "who": "AI 布道者，前微软工程师",
+   "title_zh": "NotebookLM 视频概览系统提示词全流程拆解",
+   "summary_zh": "宝玉拆解 NotebookLM 视频概览的完整创作流程，包括上下文收集、审阅卡片与视频生成工作流。",
+   "highlights_zh": [
+    "完整系统提示词与工作流",
+    "上下文收集与审阅卡片设计",
+    "可迁移到自建视频生成智能体"
+   ],
+   "why_zh": "想复刻或自建视频生成智能体流程的开发者值得细读。",
+   "tags": [
+    "智能体",
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.46,
+   "score_llm": 7.0,
+   "score": 0.664,
+   "date": "2026-10-21",
+   "slot": "noon",
+   "selected_at": "2026-10-21T03:34:45+00:00",
+   "mirror_pdf": "pdf/web-b5b42d0cc895.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://baoyu.io/blog/2026-10-20/notebooklm-video-overview-system-prompt"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6a01ce2d8f26",
+   "kind": "article",
+   "title": "Publish fake stats, get cited in LLMs",
+   "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-20T13:06:22Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50165801",
+     "signal": "326 pts",
+     "metric": 326
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "发布假数据，就能被大模型引用",
+   "summary_zh": "Hacker News 热帖讨论通过发布伪造统计数据来影响大模型输出并被引用，揭示 LLM 训练与检索数据源的可污染性，对数据可信度与评测提出警示。",
+   "highlights_zh": [
+    "伪造统计内容可进入模型引用链路",
+    "暴露训练与检索数据源缺乏溯源验证",
+    "对评测基准与内容可信度提出挑战"
+   ],
+   "why_zh": "理解大模型数据污染风险与评测可信度问题的重要案例。",
+   "tags": [
+    "数据与评测",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.5915,
+   "score_llm": 7.0,
+   "score": 0.6566,
+   "date": "2026-10-21",
+   "slot": "noon",
+   "selected_at": "2026-10-21T03:34:45+00:00",
+   "mirror_pdf": "pdf/web-6a01ce2d8f26.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50165801"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-977d926a0cb6",
+   "kind": "article",
+   "title": "The Programmable Data Center — Evan Conrad, SF Compute",
+   "url": "https://www.latent.space/p/sfcompute2",
+   "pdf_url": "",
+   "abstract": "From GPU trading to physical settlement, independent markets, and programmable compute",
+   "authors": [
+    "swyx"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-20T19:31:57+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/sfcompute2",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "可编程数据中心：从 GPU 交易到物理结算",
+   "summary_zh": "SF Compute 的 Evan Conrad 认为，算力市场正从 GPU 交易走向物理结算、独立市场与可编程算力，重塑算力供给方式。",
+   "highlights_zh": [
+    "GPU 交易市场的机制与痛点",
+    "物理结算与独立市场如何运作",
+    "可编程算力对基础设施的影响"
+   ],
+   "why_zh": "理解算力市场化与 AI 基础设施商业模式的窗口。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-10-21",
+   "slot": "noon",
+   "selected_at": "2026-10-21T03:34:45+00:00",
+   "mirror_pdf": "pdf/web-977d926a0cb6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/sfcompute2"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-48ac9eccb51b",
+   "kind": "article",
+   "title": "How To Use Decision Models for Evals",
+   "url": "https://hamel.dev/blog/posts/decision-model-evals/",
+   "pdf_url": "",
+   "abstract": "Decision models have exploded onto the scene recently, starting with TypeSafe’s Jev, followed by Perplexity’s Decider, Liquid’s d1, Cloudflare’s Clef, and OpenAI’s Decisions API 1 . These models promise fast, inexpensive classification. Decision models are an appealing low-cost alternative to LLM judges 2 for automated evals. But whether they’re the right choice depends on the cost, performance, and latency requirements of your use case. We’ve also noticed people using the default decision threshold of 0.50 without checking whether it works well for their task. This can leave a lot of performance on the table. In this post, we’ll start by showing how to tune thresholds to get the best results from decision models. With those thresholds tuned, we’ll compare cost and performance to help you assess which model fits your use case. Finally, we’ll explore how to interpret model scores when deciding whether to act, and how calibration can make them more useful as confidence estimates. What we tested We used 100 traces, or logs of conversations and actions, from an apartment leasing agent. The task is to identify traces containing an error, such as a failed booking or a missed handoff to a human. 3 We used the same dataset and broad failure-finding task in our prior post on automated evals . Here, each decision model returns a failure probability for each trace. We tested Jev 1.13, Perplexity Decider 1.1 27B, Liquid d1 and d1-ultra, Cloudflare Clef Flash, and OpenAI Decisions (GPT-6 ",
+   "authors": [
+    "Hamel Husain"
+   ],
+   "orgs": [
+    "Hamel Husain"
+   ],
+   "published": "2026-10-20T07:00:00+00:00",
+   "sources": [
+    {
+     "name": "Hamel Husain",
+     "authority": 0.75,
+     "url": "https://hamel.dev/blog/posts/decision-model-evals/",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "LLM 评测实践者",
+   "title_zh": "如何用决策模型做 LLM 评测",
+   "summary_zh": "Hamel Husain 提出，决策模型可低成本替代 LLM 裁判做自动评测，但需按任务调阈值，否则默认 0.5 会浪费大量性能。",
+   "highlights_zh": [
+    "用 100 条真实对话轨迹对比多款决策模型",
+    "调阈值后成本与性能可优于 LLM 裁判",
+    "校准分数才能当作可靠置信度使用"
+   ],
+   "why_zh": "给做自动评测的团队一套可落地的阈值调优方法。",
+   "tags": [
+    "数据与评测",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.64,
+   "date": "2026-10-21",
+   "slot": "noon",
+   "selected_at": "2026-10-21T03:34:45+00:00",
+   "mirror_pdf": "pdf/web-48ac9eccb51b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://hamel.dev/blog/posts/decision-model-evals/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7e6dc56ca6bf",
+   "kind": "article",
+   "title": "比 Opus 5.5 便宜 88 倍！MiniMax M3.1 Flash “杀“回王座，顺手拿了个 Agent 国模第一",
+   "url": "https://www.infoq.cn/article/7Twa7KBWIzi8JGOdVwCK?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "李冬梅"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-21T00:26:48+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/7Twa7KBWIzi8JGOdVwCK?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "MiniMax M3.1 Flash：便宜88倍的Agent强模型",
+   "summary_zh": "MiniMax发布M3.1 Flash，价格仅为Opus 5.5的1/88，并在Agent类国产模型评测中登顶。",
+   "highlights_zh": [
+    "价格优势显著",
+    "Agent能力国产第一",
+    "性价比路线回归"
+   ],
+   "why_zh": "关注国产大模型性价比竞争与Agent场景选型的关键信号。",
+   "tags": [
+    "大模型",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-21",
+   "slot": "noon",
+   "selected_at": "2026-10-21T03:34:45+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/7Twa7KBWIzi8JGOdVwCK?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-672ab93cb6d1",
+   "kind": "article",
+   "title": "启元机器人新进展：北大董豪团队推出 HIL-UMI，让后训练摆脱「真机依赖」",
+   "url": "https://www.leiphone.com/category/ai/XgCxObsqu8pc44px.html",
+   "pdf_url": "",
+   "abstract": "继无本体之后，具身后训练范式有了新进展。 作者丨 齐铖湧 编辑丨岑 峰 最近，具身行业讨论“无本体进行后训练的可能性”的热度很高。国内外目前还没有团队做出可行方案。 说白了，无论是大模型还是具身机器人，想真正好用，光靠预训练打基础可不行，最终落地全靠“后训练”来调教。启元机器人首席科学家董豪告诉AI科技评论：“预训练提升的是下限，上限还得看后训练。” 当前具身公司追求进厂打工、家庭保洁等真实落地，比的就是成功率，也就是在比拼后训练的实力。 可后训练，难就难在它得跟真实物理世界打交道，过去都得用纯真机数据。 但真机训练成本太高，要大规模铺开，那么多的机器人本体，硬件磨损、场地、人工都是天价。所以，行业内预训练已经开始转向用“无本体”设备采集数据，虽然量上去了，但传统后训练最关键的“纠错”环节却没法搞定。 为了解决这个行业难题，北大和启元机器人董豪团队推出了HIL-UMI。 这个工作，围绕着具身后训练阶段无本体的前提下，围绕着最关键的“纠错”环节展开。 论文地址：https://arxiv.org/pdf/2609.20659 项目主页：https://hil-umi.github.io 01 具身后训练的成本， 为何远超大模型RLHF？ 跟大模型比起来，具身行业的后训练太贵，是很多具身模型无法尝试Scaling的重要原因。 大语言模型能变得这么好用，大家心里都清楚：不光是预训练数据量大，更关键的是后面有RLHF（人类反馈强化学习，可以简单理解为数据标注）和DPO这些“后训练”的功劳。 但具身机器人的后训练，成本可比大模型的RLHF高出不止百倍。大模型做RLHF，无非是请更多人坐在电脑前点点选选；可具身机器人，那就得真刀真枪地跟物理世界打交道。 拿传统上最常用的DAgger，也就是用人类或者算法作为专家评价后训练的模式，这套流程虽然有效，但又贵又慢。 比较常见的，是以传统的真机人在回路（也就是 HG-DAgger：Human-Gated DAgger），机械臂在运作，人类操作员坐在旁边高度紧张地盯着，等它快抓空、快撞车的时候紧急接管，把正确的轨迹录下来，这就是人类来把关整个训练回路。 最麻烦的是，每次校正完，还得人工把被碰乱的现场恢复原样。等机器人执行，人工干预，环境复位，一坐一下午，能用的数据不多。 这其中绝大部分时间，都耗在机器人的笨拙动作和人工环境复位上。 这种又慢又烧钱的模式，让后训练数据规模采集成了个老大难，严重限制了规模化。 这就引出了一个核心问题：我们能不能摆脱真机，就像平时做家务一样，顺手就把模型最需要的“纠错”数据给采集了？ 02 HIL-UMI 的底层逻辑： 给UMI 采集加了一个“模型大脑” HIL-UMI 的做法非常聪明，概括起来就是一句话：“不用机器人，也能给机器人补课。” HIL-UMI ，指的是Human-In-the-Loop（人在环路）UMI，和过去大家常用 UMI（手持夹爪）采集数据不同，HIL-UMI 的采集，不是“盲目”的，而是加入了一个模型。 HIL-UMI 把模型直接接进了这个手持采集过程： 真实世界里只有人在动： 操作员手里拿着 UMI 夹爪正常干活（比如抓玩具、叠毛巾），摄像头同步拍摄画面。 模型在后台“脑补”： 模型接收着相同的画面和任务指令，在后台快速预测“如果换我来，接下来的 20 步动作该怎么做”，但它并不真正控制任何机械臂。 发现分歧立刻触发提示： 系统在后台实时比对人类实际动作与模型预测动作。如果两者差不多，说明模型已经掌握，不需要重复录；一旦发现模型“脑补”的轨迹跟人类的真实操作严重跑偏（",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-20T04:06:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/XgCxObsqu8pc44px.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "北大董豪团队 HIL-UMI：让具身后训练摆脱真机依赖",
+   "summary_zh": "北大与启元机器人提出 HIL-UMI：人手持 UMI 夹爪采集，模型同步预测动作并在后台纠错，无需真机即可产出后训练数据，降低具身训练成本。",
+   "highlights_zh": [
+    "把模型接入手持采集回路，人在真实世界操作、模型在后台预测并纠错",
+    "绕开传统 HG-DAgger 的真机接管与环境复位开销",
+    "目标是让具身后训练像做家务一样顺手采集数据，支撑规模化"
+   ],
+   "why_zh": "具身后训练成本是落地瓶颈，该方案给出可规模化的数据采集新范式。",
+   "tags": [
+    "机器人",
+    "强化学习",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-21",
+   "slot": "noon",
+   "selected_at": "2026-10-21T03:34:45+00:00",
+   "mirror_pdf": "pdf/web-672ab93cb6d1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/XgCxObsqu8pc44px.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-842171d1018d",
+   "kind": "article",
+   "title": "OpenAI 曾说只做大脑，如今招了 27 个制造身体的员工",
+   "url": "https://www.tmtpost.com/8175282.html",
+   "pdf_url": "",
+   "abstract": "五年前，因为\"没有数据\"解散了自己的机器人团队。 五年后用一座 14000 安培 的仓库、50 万美元的年薪待遇，和一颗自主设计的电机，再次发力。",
+   "authors": [
+    "斯马克开源"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-21T02:02:00+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8175282.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI重启机器人团队，招27人自研电机",
+   "summary_zh": "OpenAI五年前因缺数据解散机器人团队，如今招27名硬件员工、自研电机并建大功率仓库，重新布局具身智能。",
+   "highlights_zh": [
+    "从只做大脑转向自建硬件团队",
+    "自研电机与14000安培仓库等重资产投入",
+    "50万美元年薪挖硬件人才"
+   ],
+   "why_zh": "头部模型公司亲自下场做身体，是具身智能战略转向的重要信号。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 8.0,
+   "score": 0.624,
+   "date": "2026-10-21",
+   "slot": "noon",
+   "selected_at": "2026-10-21T03:34:45+00:00",
+   "mirror_pdf": "pdf/web-842171d1018d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8175282.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7dc05274d91c",
+   "kind": "article",
+   "title": "SpaceX 第三季度 AI（SI）支出再创新高，相关业务收入 76 亿美元首超星链",
+   "url": "https://www.ithome.com/1/015/669.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 21 日消息，SpaceX 今天（21 日）公布的第二份财报显示， 公司 AI（官方公告列为 SI，为贴合中文习惯，下文称 AI）支出再创新高，资本开支不久后甚至可能翻倍。 SpaceX 今年第三季度的 AI 资本开支达到 164 亿美元 （IT之家注：现汇率约合 1,097.38 亿元人民币） ，延续了近几个季度持续加大投入的趋势。 SpaceX 继续扩大旗下 Grok 等 AI 业务的基础设施建设，第三季度 资本开支总额约 196 亿美元 （现汇率约合 1,311.5 亿元人民币） ，基本符合华尔街分析师的预期。 其中， 164 亿美元 （现汇率约合 1,097.38 亿元人民币） 用于 AI 业务 ，略低于分析师预期的 169 亿美元 （现汇率约合 1,130.83 亿元人民币） 。 SpaceX 预计，本季度资本开支还会大幅增加。公司 CFO 布雷特 · 约翰森预测，随着更多算力设施投入运营，资本开支 将增至 350 亿至 400 亿美元 （现汇率约合 2,341.96 亿至 2,676.53 亿元人民币） 。他还预计，新投资能迅速收回成本：“按照现有收费标准，新部署的算力不到一年就能回本。” 财报公布后，SpaceX 股价盘后上涨 4%。 SpaceX CEO 埃隆 · 马斯克在财报电话会议上指出，AI 基础设施建设的 最大瓶颈不再是芯片 ：“说到 SpaceX 的超级智能业务 SpaceXSI，‘sexy’什么的，随便吧。我想大家开始意识到，部署超级智能面临的主要限制不是芯片，是 供电、散热和基础设施 。” SpaceX 第三季度 AI 业务收入环比大幅增长， 达到 76 亿美元 （现汇率约合 508.54 亿元人民币） ，超过分析师预期的 63 亿美元 （现汇率约合 421.55 亿元人民币） 。 凭借 76 亿美元 （现汇率约合 508.54 亿元人民币） 的收入， AI 业务正式超过了 SpaceX 旗下的星链业务 。该季度，星链收入为 52 亿美元 （现汇率约合 347.95 亿元人民币） 。 据《商业内幕》报道，SpaceXSI 的算力租赁业务取得了一定成效，客户涵盖 Anthropic、谷歌和 Reflection AI。在上一次财报电话会议上，SpaceX CFO 布雷特 · 约翰森披露，算力租赁协议为公司带来了 16 亿美元 （现汇率约合 107.06 亿元人民币） 的额外收入。 马斯克表示，SpaceX 收到的算力租赁请求 多得应接不暇 ：“说实话，所有超大规模云服务商，还有几十家规模较小的企业，都在不停地催着我们，希望租用更多算力。如果全部答应，现有算力根本不够租，甚至可以租出去好几轮。” 至于 SpaceX 的算力如何分配，马斯克回应称，具体比例会逐月调整：“大致来说，我们希望各占一半，一半留给自己使用，另一半出租给其他企业。但比例也可能变成六四开，哪一方占六成都有可能。”",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-21T01:38:48+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/015/669.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "SpaceX三季度AI资本开支164亿美元，收入首超星链",
+   "summary_zh": "SpaceX三季度AI资本开支达164亿美元，AI业务收入76亿美元首次超过星链的52亿美元；马斯克称超级智能部署的最大瓶颈已是供电、散热与基础设施而非芯片。",
+   "highlights_zh": [
+    "AI业务收入76亿美元超预期，首次超越星链成为最大收入来源",
+    "CFO预计下季度资本开支升至350-400亿美元，新算力不到一年回本",
+    "算力租赁客户含Anthropic、谷歌、Reflection AI，马斯克称需求应接不暇"
+   ],
+   "why_zh": "头部公司AI收入结构变化与「瓶颈在电力而非芯片」的判断，是市场方向的重要信号。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-21",
+   "slot": "noon",
+   "selected_at": "2026-10-21T03:34:45+00:00",
+   "mirror_pdf": "pdf/web-7dc05274d91c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/015/669.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-287865542e2a",
+   "kind": "article",
+   "title": "曝高通启动全球裁员；上线 40 天，Muse 下载量突破 1000 万次；ChatGPT 上线幻灯片工具",
+   "url": "http://www.geekpark.net/news/372650",
+   "pdf_url": "",
+   "abstract": "DeepSeek 开源大规模云服务推理框架 10 月 20 日下午，DeepSeek 宣布，在此前开源一系列大模型、TileLang 编译工具及推理算子库的基础上，决定进一步将内部推理框架 DeepInfer 全面开源。 DeepSeek 称，基于 DeepInfer，已实现 DeepSeek V4.1 Flash 高吞吐、低延迟的大规模推理服务。未来，DeepSeek 新模型的推理代码及后续优化也将在此持续更新。 券有商分析师认为，开源模型与 Agent 工具链的持续完善，有望降低应用开发成本，推动 AICoding 向游戏开发、3D 内容制作、企业软件及自动化工作流等场景扩展，具备开发者入口和应用生态的平台有望优先受益。（来源：证券时报） 上线 40 天，Muse 下载量突破 1000 万 市场情报机构 Sensor Tower 的最新数据显示，Meta 的人工智能助手 Muse 自 9 月推出以来，累计下载量达 1090 万次，其中美国地区下载量为 1020 万次。 迄今为止仅有另外 11 款应用达成过这一上线后的里程碑，上一款实现该成绩的正是 Meta 的 Threads，时间为 2023 年 7 月。 另据数据显示，Muse 的用户留存表现优于 ChatGPT、Claude、Grok 等 AI 竞品。（来源：IT之家） 华为引望、宁德时代合作换电车型拟 2027 年上市 10 月 20 日，媒体报道称华为引望与宁德时代、时代电服合作正推进首批车型的开发，涉及五款新车，计划 2027 年上市。有报道表示，首款采用巧克力换电的车型为东风与华为合作的奕境品牌旗下产品。 引望成立于 2024 年，承接华为原智能汽车解决方案业务，向车企提供智能驾驶、智能座舱、车控等系统及部件。 而宁德时代正在通过技术合作、股权投资等方式扩大换电业务规模。赛豆科技旗下 AIVA 品牌首款量产车 AIVA ME7 将采用换电模式，宁德时代提供电池技术及充换电体系支持，具体方案还在规划中。（来源：晚点 Auto、财联社） 曝高通将启动全球裁员 据路透社报道，高通 CEO 克里斯蒂亚诺·安蒙近期在一份内部备忘录中告知员工，公司将在年度员工评估后，开展以绩效为重点的全球裁员，相关通知将于 11 月开始发出。 安蒙表示，此举旨在建立更强的绩效文化，并解决公司持续未能达到预期的情况。备忘录未披露裁员人数，路透社也暂时无法确定此次裁员的规模。 路透社在报道中指出作为全球最大的智能手机芯片制造商之一，高通今年受到消费电子产品销售低迷的冲击，存储芯片价格飙升抑制了关键市场的需求。 随着业务向快速增长的 AI 数据中心市场拓展，高通预计，2027 财年，公司芯片销售收入的大部分将来自智能手机以外的业务。（来源：凤凰网科技） C919 大飞机国产发动机将进入取证试飞阶段 日前，网友爆料称，运 20 飞行台上挂载了国产自研大飞机 C919 的国产替代发动机 CJ1000A 开始试飞了，推测应该该发动机进入了取证试飞阶段。 航发科技公司上周在互动平台上回应过 CJ1000A 的进展，表示公司承制的 CJ 1000A 发动机相关零部件设计构型及工艺路线已实现初步冻结，后续不排除根据 TC Only 批次制造符合性检查开展情况、总师单位取证试验结果发生局部调整优化的可能。 CJ1000A 发动机的目标是实现 C919 现有发动机 LEAP-1C 的替代，这就意味着需要在动力、经济、维护等方面看齐 LEAP-1C。 报道表示：考虑到 LEAP-1C 是当前最先进的商用发动机之一，CJ1000A ",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-21T00:37:07+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372650",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek 开源推理框架 DeepInfer，Muse 下载破千万",
+   "summary_zh": "DeepSeek 全面开源内部推理框架 DeepInfer，已支撑 V4.1 Flash 高吞吐低延迟服务；Meta 助手 Muse 上线 40 天下载破千万。",
+   "highlights_zh": [
+    "DeepInfer 开源，新模型推理代码将持续更新",
+    "分析师看好开源模型与 Agent 工具链降低开发成本",
+    "Muse 下载 1090 万次，留存优于 ChatGPT 等竞品"
+   ],
+   "why_zh": "推理框架开源与消费级 AI 助手格局变化，都是行业关键信号。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-10-21",
+   "slot": "noon",
+   "selected_at": "2026-10-21T03:34:45+00:00",
+   "mirror_pdf": "pdf/web-287865542e2a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372650"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f7369a069939",
+   "kind": "article",
+   "title": "从一句话到一个能玩的世界，VAST 把整条链路开源了",
+   "url": "https://www.ifanr.com/1685059?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "规则归交互系统，画面归模型 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "Selina"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-20T14:13:34+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1685059?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "VAST 开源从文本到可玩世界的完整链路",
+   "summary_zh": "VAST 将「一句话生成可交互 3D 世界」的整条链路开源，规则交给交互系统、画面交给生成模型，开发者可自行搭建文本到可玩场景的管线。",
+   "highlights_zh": [
+    "开源覆盖从文本输入到可玩世界的完整链路，而非单一模型",
+    "采用「规则归交互系统、画面归模型」的分工架构",
+    "面向开发者开放，可复用于游戏、仿真等场景"
+   ],
+   "why_zh": "关注世界模型与 3D 生成落地路径的从业者，可据此评估开源方案的可复用性。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-21",
+   "slot": "noon",
+   "selected_at": "2026-10-21T03:34:45+00:00",
+   "mirror_pdf": "pdf/web-f7369a069939.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1685059?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f4cb1bdaf741",
+   "kind": "article",
+   "title": "AI 能否取代渗透测试？Cloudflare 的答案是：必须套上测试框架",
+   "url": "https://www.infoq.cn/article/R2z2kCkRHhXwGqDZeMKN?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Matt Foster"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-21T11:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/R2z2kCkRHhXwGqDZeMKN?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Cloudflare：AI渗透测试需套测试框架",
+   "summary_zh": "Cloudflare认为AI不能直接取代渗透测试，必须嵌入结构化测试框架才能可靠使用。",
+   "highlights_zh": [
+    "AI渗透测试的局限",
+    "测试框架的必要性",
+    "安全工程实践"
+   ],
+   "why_zh": "安全从业者了解AI在渗透测试中的真实边界与落地方式。",
+   "tags": [
+    "对齐与安全",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-21",
+   "slot": "noon",
+   "selected_at": "2026-10-21T03:34:45+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/R2z2kCkRHhXwGqDZeMKN?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3bac377301ef",
+   "kind": "article",
+   "title": "美团企业级 Agent 的平台化应用实践｜QCon上海",
+   "url": "https://www.infoq.cn/article/BQJltkL1FJ9AG3cMeUmB?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "QCon全球软件开发大会"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-21T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/BQJltkL1FJ9AG3cMeUmB?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "美团企业级Agent平台化实践",
+   "summary_zh": "美团分享企业级Agent平台化落地的架构设计与工程实践经验。",
+   "highlights_zh": [
+    "企业级Agent平台架构",
+    "规模化落地挑战",
+    "美团实践经验"
+   ],
+   "why_zh": "了解头部公司如何把Agent从demo推进到企业级生产环境。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-21",
+   "slot": "noon",
+   "selected_at": "2026-10-21T03:34:45+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/BQJltkL1FJ9AG3cMeUmB?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b7331df4412b",
+   "kind": "article",
+   "title": "燃烧吧Token，Agentic Cloud时代云厂商的资本效率大考",
+   "url": "https://www.tmtpost.com/8175272.html",
+   "pdf_url": "",
+   "abstract": "算力是AI时代最硬核的入场券，手握现金流的科技巨头，似乎天然拥有持续加码资本开支的底气。 从训练大模型到支撑万级Agent规模化落地，云厂商正开启一场算力军备竞赛，试图用海量基建抢占Agentic Cloud的时代高地。",
+   "authors": [
+    "正见TrueView"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-21T03:01:06+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8175272.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Agentic Cloud时代云厂商资本效率大考",
+   "summary_zh": "分析云厂商为支撑万级Agent规模化落地而展开算力军备竞赛，资本效率成为新考验。",
+   "highlights_zh": [
+    "Agentic Cloud概念",
+    "算力军备竞赛",
+    "资本效率挑战"
+   ],
+   "why_zh": "把握Agent规模化对云基础设施与资本开支格局的影响。",
+   "tags": [
+    "智能体",
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-21",
+   "slot": "noon",
+   "selected_at": "2026-10-21T03:34:45+00:00",
+   "mirror_pdf": "pdf/web-b7331df4412b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8175272.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cba353da3f9d",
+   "kind": "article",
+   "title": "机器人的身体，不值钱了",
+   "url": "https://www.tmtpost.com/8174288.html",
+   "pdf_url": "",
+   "abstract": "5 亿美元估值的明星机器人公司破产清算，这个赛道的融资额却翻了一倍。钱去了哪里？",
+   "authors": [
+    "硅谷Tech news"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-21T02:25:00+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8174288.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "机器人公司破产，赛道融资却翻倍",
+   "summary_zh": "一家估值5亿美元的明星机器人公司破产清算，但同期赛道融资额翻倍，资金正流向具备量产与落地能力的团队。",
+   "highlights_zh": [
+    "明星公司破产与赛道融资翻倍形成反差",
+    "资金向有量产落地能力的团队集中",
+    "反映机器人行业从概念炒作转向务实"
+   ],
+   "why_zh": "看清机器人赛道资金流向与泡沫分化，判断哪些团队能活下来。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-21",
+   "slot": "noon",
+   "selected_at": "2026-10-21T03:34:45+00:00",
+   "mirror_pdf": "pdf/web-cba353da3f9d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8174288.html"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "开放模型与低价Agent模型正面冲击闭源高价体系",
+   "why": "DeepSeek V4.1 Flash、MiniMax M3.1 Flash以1/88价格登顶Agent评测，西方开放模型同步反击。",
+   "refs": [
+    "web-064ad9927d51",
+    "web-7e6dc56ca6bf"
+   ]
+  },
+  {
+   "trend": "评测正从LLM裁判转向决策模型与冲突消解基准",
+   "why": "决策模型可低成本替代裁判但需调阈值；MMEnterprise-Bench显示加检索预算不必然提分。",
+   "refs": [
+    "web-48ac9eccb51b",
+    "arxiv-2610.27911"
+   ]
+  },
+  {
+   "trend": "数据源可污染性成LLM可信度与评测的新风险点",
+   "why": "伪造统计数据即可被大模型引用，训练与检索数据源缺乏防污染机制。",
+   "refs": [
+    "web-6a01ce2d8f26"
+   ]
+  },
+  {
+   "trend": "具身智能竞争转向数据获取与硬件自研的降本战",
+   "why": "HIL-UMI摆脱真机依赖降训练成本，OpenAI重启机器人团队自研电机。",
+   "refs": [
+    "web-672ab93cb6d1",
+    "web-842171d1018d"
+   ]
+  },
+  {
+   "trend": "算力瓶颈从芯片转向供电散热与可编程结算",
+   "why": "SpaceX称超级智能最大瓶颈是电力基础设施；算力市场走向物理结算。",
+   "refs": [
+    "web-7dc05274d91c",
+    "web-977d926a0cb6"
+   ]
+  }
+ ]
+}
