@@ -1318,6 +1318,280 @@
    "mt": false
   },
   {
+   "id": "arxiv-2610.28354",
+   "kind": "paper",
+   "title": "S-Agent 2.0: Spatial Reasoning with a General Coding Agent",
+   "url": "https://arxiv.org/abs/2610.28354",
+   "pdf_url": "https://arxiv.org/pdf/2610.28354",
+   "abstract": "Spatial reasoning asks a model to work out where objects are in 3D space, how they relate to one another, and how they move. Agentic VLMs have recently brought large improvements on such tasks by letting the model actively gather evidence with 3D perception tools instead of answering in a single pass. Even so, on many questions the tools return the right evidence and the model still does not arrive at the correct answer: the gap between model and tools, where raw readings become usable conclusions, is left unfilled. We present S-Agent 2.0, a spatial reasoning agent that equips an off-the-shelf general coding agent with a command-line perception toolkit, and we design the interface around one principle: help the VLM close the evidence loop: acquire scene evidence, remember it in a persistent scene memory, and interpret each reading in plain spatial language. This design keeps the full flexibility of a coding agent, and every reading it acts on stays grounded in the tools' geometry. On MMSI-Bench and ReVSI, the toolkit improves a strong open-source model, Qwen3.8-27B, by +13.9 and +20.5 points over the same agent without tools, and a strong closed-source model, Gemini-3.8-Flash, by +11.2 and +9.6 points. With the open backbone S-Agent 2.0 reaches 66.5 on MMSI-Bench and 82.3 on ReVSI, ahead of the specialized system SpatialClaw on the same backbone (62.6 and 74.5), and with Gemini-3.8-Flash it reaches 74.1 and 90.5 against its 67.0 and 79.7. Both tool gains shrink as the backbone grows more capable, but SpatialClaw's shrinks far more on ReVSI, from +13.2 to +2.7, while ours stays at +9.6. S-Agent 2.0 also works across different general coding agent harnesses, such as Codex and Claude Code.",
+   "authors": [
+    "Rui Gong",
+    "Ruoyu Wang",
+    "Yalun Dai",
+    "Hao Li",
+    "Sidi Yang",
+    "Qihao Zhao",
+    "Hongyu Li",
+    "Zeyang Guan",
+    "Fangzhou Hong",
+    "Zhaoxi Chen",
+    "Kim-Hui Yap",
+    "Ziwei Liu"
+   ],
+   "orgs": [
+    "Ropedia"
+   ],
+   "published": "2026-10-20T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.28354",
+     "signal": "▲ 86",
+     "metric": 86
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "S-Agent 2.0：用通用编程智能体做空间推理",
+   "summary_zh": "把现成编程智能体接上命令行感知工具，围绕“取证据—存场景记忆—用空间语言解读”闭环设计，在MMSI-Bench和ReVSI上比无工具版本提升13.9和20.5分，开源骨干达66.5和82.3。",
+   "highlights_zh": [
+    "核心洞察：工具返回正确证据但模型仍答错，问题出在证据到结论的解读环节",
+    "用持久化场景记忆+纯文本空间语言描述，让每次读数都锚定工具几何",
+    "开源骨干上超过专用系统SpatialClaw，闭源模型同样显著增益"
+   ],
+   "why_zh": "智能体+工具做空间推理的实用范式，对多模态智能体设计有直接借鉴。",
+   "tags": [
+    "智能体",
+    "多模态",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.647,
+   "score_llm": 8.0,
+   "score": 0.7388,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T15:54:55+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.28354.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.28354"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.28354"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.28354"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.28354"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.28354"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.28354"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/Ropedia/S-Agent-2.0"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.28630",
+   "kind": "paper",
+   "title": "SolarRenderer: Few-Step Generative Reference Rendering",
+   "url": "https://arxiv.org/abs/2610.28630",
+   "pdf_url": "https://arxiv.org/pdf/2610.28630",
+   "abstract": "Game engines and coding agents can specify the layout, motion, and camera of a scene, yet turning such coarse structure into realistic video requires a renderer that follows the structure and completes the appearance it leaves open. Existing renderers are tied to the representation of one engine, need tens of denoising steps or a costly distillation of their own, and learn from conditions that are not aligned with their target videos. We present SolarRenderer, a structure-conditioned video renderer that adapts a frozen MiniMax-H3 33B backbone with two lightweight LoRAs. Structural videos enter the native reference pathway of the backbone at the positions of the frames they describe, without a type identifier and described only in plain text, so that a single control LoRA follows arbitrary structural representations. Starting from a pretrained four-step LoRA, structure-guided distribution matching renders in four steps, 12.3 times faster than 50-step sampling, while preserving the learned control. A block-causal variant extends the same design to streaming and renders 768p video in real time. To train the model, we build a frame-aligned corpus of 136K clips from game engines, simulators, and YouTube videos. Experiments on an in-distribution test set and a generalization benchmark of 16 structural representations show that SolarRenderer achieves state-of-the-art results across both, and generalizes to 11 unseen representations, including pose skeletons, drawings, and point clouds.",
+   "authors": [
+    "Guian Fang",
+    "Shengju Qian",
+    "Dongyue Lu",
+    "Junchao Huang",
+    "Lutao Jiang",
+    "Xin Wang",
+    "Yiren Song",
+    "Li Jiang",
+    "Mike Zheng Shou"
+   ],
+   "orgs": [
+    "Show Lab"
+   ],
+   "published": "2026-10-20T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.28630",
+     "signal": "▲ 41",
+     "metric": 41
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "SolarRenderer：少步数生成式参考渲染",
+   "summary_zh": "在冻结的33B视频骨干上挂两个轻量LoRA，把结构视频走原生参考通路，四步渲染比50步快12.3倍，并支持768p实时流式输出。",
+   "highlights_zh": [
+    "结构条件不加类型标识、仅用纯文本描述，单一控制LoRA适配任意结构表示",
+    "基于预训练四步LoRA做结构引导的分布匹配，保留控制能力",
+    "构建13.6万片段帧对齐语料，在16种结构表示的泛化基准上达SOTA"
+   ],
+   "why_zh": "游戏引擎/编程智能体到真实视频的渲染桥梁，少步与实时流式是关键突破。",
+   "tags": [
+    "多模态",
+    "视觉",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.6035,
+   "score_llm": 8.0,
+   "score": 0.7214,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T15:54:55+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.28630"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.28630"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.28630"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.28630"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.28630"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.28630"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/Enderfga/SolarRenderer"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.28522",
+   "kind": "paper",
+   "title": "DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems",
+   "url": "https://arxiv.org/abs/2610.28522",
+   "pdf_url": "https://arxiv.org/pdf/2610.28522",
+   "abstract": "Decision models support routing, guardrails, and output verification in LLM systems. However, item accuracy alone cannot establish whether models make correct decisions across controlled variations or assign reliable confidence to their predictions. We introduce DecisionPivot, a diagnostic benchmark comprising 48 tasks and 40,033 items across seven decision roles. Its core track contains 7,800 items from 13 generated task families, organized into contrast groups with computed answers verified by independently implemented solvers. The complementary reference track contains 32,233 items from 35 public test sets, preserving their original evaluation metrics. We evaluate 40 decision models and 14 general models using documented, model-specific protocols, assessing item and contrast-group accuracy, probability ordering, calibration, and empirical selective coverage. Our results reveal substantial differences obscured by aggregate scores: two 27B models separated by only 2.6 points on the reference track achieve contrast-group accuracies of 70.1% and 44.2%. Across 2,400 binary contrast pairs, Perplexity Decider correctly ranks the positive member above the negative member in 92.3% of pairs but answers both members correctly in only 74.1%, exposing a gap between probability ordering and decision correctness. Models with similar item accuracy also differ in the reliability of their high-confidence predictions. On a separate 1,296-item subset, GLM-5.3 achieves 93.5\\% contrast-group accuracy at a higher reasoning setting, compared with 81.5% at its lowest effort. By linking errors to pivotal details and difficulty levels, DecisionPivot provides fine-grained diagnostics of decision failures that aggregate evaluation alone cannot reveal.",
+   "authors": [
+    "Xialie Zhuang",
+    "Mingcong Lei",
+    "Zunhai Su",
+    "Ri Liu",
+    "Jianjin Li",
+    "Peixian Ma",
+    "Jia Pan",
+    "Ngai Wong",
+    "Guanhua Chen",
+    "Chuan-Wei Kuo"
+   ],
+   "orgs": [
+    "StartLux"
+   ],
+   "published": "2026-10-20T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.28522",
+     "signal": "▲ 13",
+     "metric": 13
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.28522",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "DecisionPivot：LLM系统决策模型的诊断基准",
+   "summary_zh": "构建48任务4万条的决策基准，用对比组揭示聚合分数掩盖的差异：参考集仅差2.6分的两个27B模型，对比组准确率为70.1%与44.2%。",
+   "highlights_zh": [
+    "核心赛道7800条来自13个生成任务族，答案由独立求解器验证",
+    "同时评估条目准确率、对比组准确率、概率排序、校准与选择性覆盖",
+    "概率排序正确率92.3%但双项全对仅74.1%，暴露排序与决策正确性的鸿沟"
+   ],
+   "why_zh": "路由、护栏、输出校验类决策模型的评测盲区，选型时值得参考。",
+   "tags": [
+    "数据与评测",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.5978,
+   "score_llm": 8.0,
+   "score": 0.7191,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T15:54:55+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.28522.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.28522"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.28522"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.28522"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.28522"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.28522"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.28522"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/StartLuxLabs/DecisionPivot"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "arxiv-2610.28594",
    "kind": "paper",
    "title": "Learning the 4D World through Point Trajectory Forecasting",
@@ -1403,6 +1677,90 @@
     {
      "label": "GitHub",
      "url": "https://github.com/rootyJeon/VPM"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.27435",
+   "kind": "paper",
+   "title": "Harness Self-Evolution for Long-Horizon Terminal Agents",
+   "url": "https://arxiv.org/abs/2610.27435",
+   "pdf_url": "https://arxiv.org/pdf/2610.27435",
+   "abstract": "Long-horizon terminal agents may solve a task in one run yet fail across repeated runs. Stochastic errors can propagate through actions and context, creating a gap between capability and reliable execution. We present RiseHarness, a framework for iteratively improving agent harnesses with model weights fixed. It focuses on flipping tasks with both successful and failed runs under the same configuration, using successful runs as references for failure analysis. RiseHarness combines agent trajectories with internal harness traces from a runtime monitor to examine how model actions interact with command execution, feedback, context management, and completion decisions. A Harness Handbook links this evidence to harness behaviors and source code, helping identify recurring problems in mechanisms shared across tasks. RiseHarness then searches other harness frameworks for relevant implementations and adapts them as design references to the current model and execution protocol. Candidate changes undergo behavioral checks and repeated task evaluation; versions with measured gains seed the next iteration. This loop integrates suitable mechanisms from different frameworks into a single harness and uses new execution evidence to guide further changes. We evaluate task success and reliability across models, ablate harness execution evidence and external research, and test transfer to unseen benchmarks with the same model. RiseHarness treats a specific model as the unit of harness adaptation, studying how changes to shared interaction mechanisms can make existing capabilities more reliable across tasks.",
+   "authors": [
+    "Ruhan Wang",
+    "Yucheng Shi",
+    "Zongxia Li",
+    "Junyao Yang",
+    "Zhongzhi Li",
+    "Yue Yu",
+    "Haitao Mi",
+    "Dongruo Zhou",
+    "Leoweiliang"
+   ],
+   "orgs": [
+    "Tencent Hunyuan"
+   ],
+   "published": "2026-10-20T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.27435",
+     "signal": "▲ 8",
+     "metric": 8
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "RiseHarness：长程终端智能体的脚手架自进化",
+   "summary_zh": "冻结模型权重，用成功/失败运行对比加运行时监控轨迹迭代改进智能体脚手架，并跨框架检索可借鉴实现，提升重复运行下的任务成功率与可靠性。",
+   "highlights_zh": [
+    "聚焦同配置下时成时败的任务，用成功运行作失败分析参照",
+    "Harness Handbook把执行证据映射到脚手架行为与源码，定位跨任务共性问题",
+    "候选改动需过行为检查与重复评测，有效版本作为下一轮种子"
+   ],
+   "why_zh": "不改权重只改harness就能提升长程任务可靠性，对智能体工程化很有价值。",
+   "tags": [
+    "智能体",
+    "代码",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5914,
+   "score_llm": 8.0,
+   "score": 0.7166,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T15:54:55+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.27435.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.27435"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.27435"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.27435"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.27435"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.27435"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.27435"
     }
    ],
    "mt": false
@@ -1593,6 +1951,169 @@
     {
      "label": "HF Papers",
      "url": "https://huggingface.co/papers/2511.14102"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-61f4d0141ff3",
+   "kind": "article",
+   "title": "OpenAI models are coming to Google Cloud",
+   "url": "https://openai.com/index/openai-models-google-cloud",
+   "pdf_url": "",
+   "abstract": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-10-21T12:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/openai-models-google-cloud",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 模型登陆 Google Cloud",
+   "summary_zh": "OpenAI 前沿模型与 Codex 工作流将进入 Gemini 的 Model Garden，并通过 Google Cloud Marketplace 提供，标志两大 AI 巨头罕见合作。",
+   "highlights_zh": [
+    "OpenAI 模型首次进入 Google Cloud 生态",
+    "Codex 工作流随之上架 Model Garden",
+    "通过 Google Cloud Marketplace 分发"
+   ],
+   "why_zh": "云厂商与模型公司竞合格局的重要信号。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 8.0,
+   "score": 0.696,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T15:54:55+00:00",
+   "mirror_pdf": "pdf/web-61f4d0141ff3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/openai-models-google-cloud"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1bfd140f401f",
+   "kind": "article",
+   "title": "PHP2Shell: AI uncovers critical RCE in PHP",
+   "url": "https://www.wiz.io/blog/php2shell-php-rce",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-21T13:43:19Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50180836",
+     "signal": "298 pts",
+     "metric": 298
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AI 发现 PHP 关键远程代码执行漏洞",
+   "summary_zh": "AI 辅助安全研究在 PHP 中发现关键 RCE 漏洞，引发 Hacker News 热议，显示 AI 在漏洞挖掘中的实战价值。",
+   "highlights_zh": [
+    "AI 工具在 PHP 中发现可远程利用的关键漏洞",
+    "反映 AI 正被用于真实安全审计与漏洞挖掘",
+    "HN 高热度说明安全社区对 AI 攻防关注度高"
+   ],
+   "why_zh": "了解 AI 在安全攻防中的实际能力边界与最新案例。",
+   "tags": [
+    "对齐与安全",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5873,
+   "score_llm": 7.0,
+   "score": 0.6549,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T15:54:55+00:00",
+   "mirror_pdf": "pdf/web-1bfd140f401f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.wiz.io/blog/php2shell-php-rce"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50180836"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4dc8a56e0373",
+   "kind": "article",
+   "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
+   "url": "https://simonwillison.net/2026/Oct/20/battledrones/",
+   "pdf_url": "",
+   "abstract": "My latest vibe coded game experiment is a Command & Conquer style RTS (Real Time Strategy) game called Battle Drones ( play it here ). Unlike my previous experiments , this one is actually fun to play . I'm somewhat embarrassed to admit that I got there by telling Claude to \"Make it a LOT more fun\". It also supports multiplayer between nearby devices using audio to synchronize game state! Here's what I've built so far, and some of the things I learned along the way. Battle Drones How I built this v1: the initial prototype v2: full sprites v3: varied terrain v4: the fun update v5: Battle Drones goes 3D v8: Archipelago v10: Goliath, and agent battles Agent battles v11: Random Maps v12: Multiplayer via sound Some thoughts Update: Online multiplayer support Battle Drones My initial goal was to build an RTS game I could play on my phone, in the style of Command & Conquer . I have fond memories of the 1995 original (I liked Red Alert too) and wanted to recapture a little bit of the magic. After 12 major iterations (and 321 commits by coding agents, mainly Claude Code) I now have a browser-based game that works on mobile and desktop, has multiple play modes, several maps (including a random map generator) and even supports multiplayer for two devices within microphone range of each other. ( Update : also online multiplayer ; the audio multiplayer induced headaches!) Here's a video demo of Battle Drones running in a desktop browser: Features so far include: 9 buildings, 7 ground vehi",
+   "authors": [
+    "Simon Willison"
+   ],
+   "orgs": [
+    "Simon Willison"
+   ],
+   "published": "2026-10-20T19:34:19+00:00",
+   "sources": [
+    {
+     "name": "Simon Willison",
+     "authority": 0.8,
+     "url": "https://simonwillison.net/2026/Oct/20/battledrones/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Django 联合创始人，LLM 实践者",
+   "title_zh": "Simon Willison 用 Claude Code 造出可玩的 RTS 游戏",
+   "summary_zh": "Simon Willison 分享他用 Claude Code 经 12 轮迭代、321 次提交做出的浏览器 RTS 游戏 Battle Drones，支持手机与桌面，并用音频在近距离设备间同步多人对战。",
+   "highlights_zh": [
+    "12 个主要版本迭代，321 次提交几乎全部由 Claude Code 完成",
+    "用一句「让它好玩很多」推动游戏性关键升级",
+    "创新点：利用麦克风范围内的音频信号同步两台设备的游戏状态"
+   ],
+   "why_zh": "直观展示 vibe coding 在复杂交互项目上的真实上限与迭代方法。",
+   "tags": [
+    "代码",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.648,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T15:54:55+00:00",
+   "mirror_pdf": "pdf/web-4dc8a56e0373.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://simonwillison.net/2026/Oct/20/battledrones/"
     }
    ],
    "mt": false
@@ -1871,6 +2392,61 @@
    "mt": false
   },
   {
+   "id": "web-aeda14333c44",
+   "kind": "article",
+   "title": "Open Inference Code Narrows the Gap Between Rival AI Chips",
+   "url": "https://www.tmtpost.com/8176740.html",
+   "pdf_url": "",
+   "abstract": "DeepSeek released serving software that builds for Huawei accelerators and Nvidia GPUs from one codebase. In China, where boards are scarce and token traffic is rising, that choice could reshape how teams pick hardware—if live traffic backs up the demos.",
+   "authors": [
+    "Chelsea_Sun"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-21T10:29:05+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8176740.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "开源推理代码缩小AI芯片差距：一套代码适配华为与英伟达",
+   "summary_zh": "DeepSeek发布服务软件，同一代码库可构建华为加速器与英伟达GPU版本，或重塑中国团队硬件选型逻辑。",
+   "highlights_zh": [
+    "一套代码同时支持华为与英伟达加速器",
+    "中国芯片稀缺、Token流量上升背景下意义重大",
+    "实际流量表现将决定能否改变硬件选型"
+   ],
+   "why_zh": "关乎国产芯片生态与推理部署的硬件选择",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 8.0,
+   "score": 0.624,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T15:54:55+00:00",
+   "mirror_pdf": "pdf/web-aeda14333c44.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8176740.html"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-2dcee66ba68c",
    "kind": "article",
    "title": "IDC 首份汽车 AI 座舱市场跟踪报告发布，2026 上半年火山引擎份额第一、阿里第二",
@@ -1919,6 +2495,112 @@
     {
      "label": "原文",
      "url": "https://www.ithome.com/1/015/980.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a84c7a7ccaf7",
+   "kind": "article",
+   "title": "谷歌 CEO 桑达尔 · 皮查伊：公司正牺牲云业务短期收入支持前沿 AI 研发，2027 年算力难以锁定",
+   "url": "https://www.ithome.com/1/016/137.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 21 日消息，谷歌首席执行官桑达尔 · 皮查伊今日表示，公司正将部分算力从云业务转向前沿 AI 研发，以全力支持前沿 AI 发展。 对谷歌而言，开发前沿 AI 成本高昂，需要耗费大量计算资源和芯片，但这些资源原本可以拿给云业务高价出售。皮查伊对此表示，将资源投入前沿人工智能研发是谷歌的“根本所在”。 这名 CEO 还表示，若客户目前寻求锁定 2027 年算力，将面临极大困难，原因包括数据中心从决策到投运需两至三年，以及智能体任务需求激增。他解释称：“我们的云业务在任何特定时刻都能放弃短期收入，因为我们正做出计算方面的权衡，以支持前沿 AI 发展。”",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-21T14:31:01+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/016/137.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "皮查伊：谷歌牺牲云短期收入支持前沿AI，2027算力难锁定",
+   "summary_zh": "谷歌CEO皮查伊表示正将算力从云业务转向前沿AI研发，并称客户若想锁定2027年算力将面临极大困难，因数据中心建设需两三年且智能体需求激增。",
+   "highlights_zh": [
+    "算力从可高价出售的云业务转向内部前沿AI研发",
+    "2027年算力锁定困难，供需紧张将持续",
+    "智能体任务需求激增是算力压力来源之一"
+   ],
+   "why_zh": "头部公司CEO对算力供需与战略取舍的明确判断",
+   "tags": [
+    "产品与行业",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T15:54:55+00:00",
+   "mirror_pdf": "pdf/web-a84c7a7ccaf7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/016/137.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a90bcbd4b5b8",
+   "kind": "article",
+   "title": "OpenAI 联手 PerturbAI：让近 2000 个 AI 智能体一起搞科研，加速新药研发",
+   "url": "https://www.ithome.com/1/016/134.htm",
+   "pdf_url": "",
+   "abstract": "北京时间 10 月 21 日，生物技术公司 PerturbAI 宣布与 OpenAI 合作的最新进展。双方联合斯克里普斯研究所（Scripps Research）开发了一套 AI 推理框架，通过近 2000 个 AI 智能体并行工作，帮助科学家分析复杂生物实验数据、检索文献，并提出可供后续实验检验的假说。 据 PerturbAI 介绍，这套系统在分析其全脑基因组图谱时，用 32 分钟完成数据分析与研究发现整合。公司估计，如果由人类按串行方式开展分析和文献审阅，相关工作可能需要数月至一年。这一时间对比来自公司估算，并非与人类团队开展的同期对照测试。 在具体流程中，AI 智能体分别分析细胞反应、搜索科学文献，将实验结果与已有生物学知识联系起来，再汇总形成“推理图谱”，串联基因、细胞反应、既有研究及可能的生物学机制，为科学家提供进一步调查的线索。 研究团队还邀请生物学专家，从新颖性、证据支持程度、后续研究优先级和置信度等方面评估报告。在与单个 AI 智能体生成报告的盲评比较中，专家有 75% 的时候更偏好多智能体系统给出的解释。这一结果反映的是专家对报告的偏好，不能直接理解为研究结论的准确率。 此次分析使用的数据来自 PerturbAI 今年 3 月公布的全脑 CRISPR 图谱，涵盖约 800 万个细胞。公司称，该图谱在数月内生成，目前下载量已超过 4 万次。此后，PerturbAI 还构建了覆盖代谢疾病和衰老研究的专有图谱。 双方的合作已持续约一年，接下来将利用 PerturbAI 在活体系统中生成的因果生物学数据，联合开展新药靶点发现。相关成果已通过联合预印本和博客公布，目前披露的结果主要涉及数据解读及研究假说生成，所提出线索仍需后续实验验证。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-21T14:16:44+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/016/134.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI联手PerturbAI：2000个智能体并行搞科研加速新药研发",
+   "summary_zh": "PerturbAI与OpenAI、斯克里普斯研究所开发多智能体推理框架，近2000个智能体并行分析全脑CRISPR图谱，32分钟完成原本需数月至一年的分析与文献整合，专家75%更偏好其报告。",
+   "highlights_zh": [
+    "智能体分工分析细胞反应、检索文献并汇总推理图谱",
+    "32分钟完成约800万细胞数据的分析与假说生成",
+    "专家盲评中75%更偏好该多智能体系统报告，但结论仍需实验验证"
+   ],
+   "why_zh": "多智能体协作在科学发现中的规模化落地案例",
+   "tags": [
+    "智能体",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T15:54:55+00:00",
+   "mirror_pdf": "pdf/web-a90bcbd4b5b8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/016/134.htm"
     }
    ],
    "mt": false
@@ -2140,6 +2822,61 @@
    "mt": false
   },
   {
+   "id": "web-5c33d37c37b5",
+   "kind": "article",
+   "title": "Claude Mods: Flipping the Harness Inside Out",
+   "url": "https://www.latent.space/p/claude-mods",
+   "pdf_url": "",
+   "abstract": "Claude Mods is an early form of the Attention Interface. It flips the agent harness paradigm from the harness facing the machine, to the harness facing the human.",
+   "authors": [
+    "Dan McAteer"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-21T13:04:19+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/claude-mods",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Claude Mods：把智能体外壳翻转向人",
+   "summary_zh": "Latent Space 提出 Claude Mods 概念，认为智能体外壳应从面向机器转为面向人，是「注意力界面」的早期形态。",
+   "highlights_zh": [
+    "提出 harness 从面向机器转向面向人的范式变化",
+    "将 Claude Mods 定位为 Attention Interface 雏形",
+    "目前仅为概念性短文，缺少实现细节与数据"
+   ],
+   "why_zh": "智能体交互设计的新视角，但信息量有限，适合作为思路参考。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 6.0,
+   "score": 0.58,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T15:54:55+00:00",
+   "mirror_pdf": "pdf/web-5c33d37c37b5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/claude-mods"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-48591f7b27b1",
    "kind": "article",
    "title": "真机实干，产训一体：具身智能的下一座基础设施，为什么是“实景实训平台”？",
@@ -2244,54 +2981,433 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-32a54e2f9a49",
+   "kind": "article",
+   "title": "生数科技Motubrain团队将直播Physical AI训练全流程，持续半个月",
+   "url": "https://www.leiphone.com/category/industrynews/kgEaqVuNRRnvxpfp.html",
+   "pdf_url": "",
+   "abstract": "大模型训练过程，开始更多地出现在公众视野中。 此前，小米MiMo负责人罗福莉公开了MiMo-V2.6强化学习阶段的训练进展，让外界看到了大模型训练中的一些具体细节。 现在，Physical AI领域也有了类似尝试。 10月21日，生数科技世界模型团队正式开启Motubrain 2.0训练全流程公开直播，计划持续半个月，向公众展示具身模型的训练过程及研究进展。 这次直播关注一个问题：Physical AI究竟如何实现？ Physical AI，即物理人工智能，希望让AI能够理解物理环境，并通过机器人完成实际任务。相比大语言模型，Physical AI 还需要解决动作决策、任务执行和跨场景泛化等问题。 Motubrain 系列是生数科技研发的具身模型，致力于为机器人构建具备通用能力的“大脑”，探索不同任务、场景和机器人本体之间的能力泛化。 Motubrain 2.0即将开源。在正式开源前，团队选择率先公开其训练全流程，向外界展示这款模型从训练、测试到能力迭代的过程。 此次公开训练涵盖四个环节： 1、预训练：观察训练规模对模型性能及零样本泛化能力的影响。 2、后训练：针对具体任务进一步训练，提升任务执行能力。 3、Agent任务执行：探索模型能否将已有经验迁移到其他任务。 4、RSI（递归自我改进）探索：研究模型能否根据执行反馈评估并改进自身行动。 此次直播的特别之处，是尝试打开具身模型训练的“黑盒”。 过去，外界了解具身智能技术进展，主要通过机器人Demo、评测结果和论文。模型经历了怎样的训练、不同阶段的能力如何变化，通常很难直接观察。 Motubrain 2.0 选择公开从训练、测试到能力迭代的全过程，希望让外界看到模型如何逐步形成能力，也能看到训练中的失败、试错和调整。 对于具身智能行业而言，这种方式让模型研发过程更加透明。研究者和开发者不仅能看到最终结果，也有机会了解训练中遇到的具体问题，以及团队如何通过实验和反馈不断改进模型。 同时，团队也希望借助此次直播，与技术同行分享研究中的经验、问题和思考，共同探讨规模化训练、跨任务泛化和自主改进等关键问题，为Physical AI实现范式的探索提供更多参考。 当然，相关研究仍处于探索阶段，具体效果还需要后续实验和评测验证。相比只展示机器人最终能做什么，公开模型如何训练、能力如何形成，同样具有研究价值。 直播入口：www.motubrain.com/motubrain2.0-live 官网链接：www.motubrain.com",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-21T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/kgEaqVuNRRnvxpfp.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "生数科技直播Motubrain 2.0具身模型训练全流程",
+   "summary_zh": "生数科技世界模型团队开启为期半个月的Motubrain 2.0训练全流程公开直播，覆盖预训练、后训练、Agent任务执行与递归自我改进四环节，模型即将开源。",
+   "highlights_zh": [
+    "首次公开具身模型从训练、测试到能力迭代的全过程，尝试打开训练黑盒",
+    "涵盖预训练规模效应、任务后训练、跨任务迁移与RSI自我改进四个阶段",
+    "Motubrain 2.0即将开源，直播为开源前的透明化预热"
+   ],
+   "why_zh": "具身智能训练过程长期不透明，这是少见的可观察样本，对做机器人与世界模型的人有参考价值。",
+   "tags": [
+    "机器人",
+    "强化学习",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T15:54:55+00:00",
+   "mirror_pdf": "pdf/web-32a54e2f9a49.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/kgEaqVuNRRnvxpfp.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0e47a62b9b95",
+   "kind": "article",
+   "title": "Agent 删库频频发生，几十年前就有的数据库防呆机制不管用了？",
+   "url": "https://www.infoq.cn/article/2Z056Q54wWa6vAIQKsqJ?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "傅宇琪,Tina"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-21T12:10:15+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/2Z056Q54wWa6vAIQKsqJ?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Agent删库频发：数据库防呆机制为何失效？",
+   "summary_zh": "文章探讨AI Agent频繁删库事件，分析传统数据库防呆机制在智能体场景下为何失效。",
+   "highlights_zh": [
+    "Agent删库事件频发引发安全担忧",
+    "传统数据库防呆机制难以应对智能体",
+    "智能体安全与权限控制成关键议题"
+   ],
+   "why_zh": "智能体落地中的真实安全痛点，工程团队必读",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T15:54:55+00:00",
+   "mirror_pdf": "pdf/web-0e47a62b9b95.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/2Z056Q54wWa6vAIQKsqJ?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-89151d91f302",
+   "kind": "article",
+   "title": "英伟达 DGX Spark 支持 8 台集群：128GB 版本统一内存最高达 1TB，RTX PRO 6000 Blackwell 相关任务提速 40%",
+   "url": "https://www.ithome.com/1/016/148.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 21 日消息，英伟达今日在柏林 GTC 2026 大会上宣布，DGX Spark 此前支持最多 4 台设备组建集群，目前已开放手动配置最多 8 台设备组建集群。如果是以 128GB 版本组建，其统一内存容量最高可达 1TB。 同时，英伟达还发布了本地 AI 平台更新，并宣布与 llama.cpp 、vLLM 开源社区合作优化 AI 推理性能，在特定工作负载下，RTX PRO 6000 Blackwell 的推理性能最高提升 40%，DGX Spark 和 DGX Station 也分别获得最高 30% 和 20% 的性能提升。 英伟达表示，4,999 美元 （IT之家注：现汇率约合 33,450 元人民币） 的 DGX Spark 的 64GB 版本将于 10 月 23 日开始通过合作伙伴陆续发售。针对集群部署，英伟达 Sync Model Launcher 计划于本月晚些时候上线，用户可通过该工具下载与硬件配置相匹配的模型和容器，并将模型连接至 OpenCode。工具还将自动加载 DGX Spark Skills，为设备故障排查、维护及工作流程提供指导。 软件更新方面，10 月版 DGX Spark 更新加入 Wi-Fi 助手，允许设备在 appliance mode 下切换无线网络；DGX Spark Skills 也将通过 OpenCode 集成至英伟达 Sync，为日常维护和故障排查提供支持。 模型方面，英伟达宣布支持更多可在本地运行的 AI 模型，包括 Nemotron、GLM、DeepSeek、Qwen、MiniMax 以及 FLUX.3 Klein 等，覆盖智能体、编程、图像生成和编辑等任务。 英伟达还推出针对本地 AI 硬件优化的 Recursive Flint 编程模型。该模型采用混合专家（MoE）架构，总参数量为 400 亿，激活参数量为 25 亿。英伟达称，该模型在配备 64GB 内存的 RTX Spark 上推理速度超过每秒 220 个词元。 针对本地运行大型模型时的内存压力，英伟达还发布了一组优化内存使用的模型检查点，通过量化降低内存占用，同时尽可能保持接近全精度模型的准确性。其中， Qwen3.8-Flash-Next-FP4-Local 可在单台 128GB DGX Spark 或 RTX PRO 6000 上运行；GLM-5.3-Flash-FP4-Local 则面向两台系统的配置。 推理性能优化是此次更新的另一项重点。根据英伟达公布的数据，在 llama.cpp 中，针对 Qwen 3.8 Flash Next 的多 token 预测（MTP）推测解码优化，可使 RTX PRO 6000 Blackwell 上的端到端智能体任务提速最高 1.4 倍；在 vLLM 中，针对 Qwen3.8 27B 的推测解码和 FlashInfer 预填充内核优化，可使 DGX Spark 上的相关任务提速最高 1.3 倍；DGX Station 运行 GLM 5.3 Flash 时，吞吐量最高提升至原来的 1.2 倍。 英伟达还公布了 DGX Station 的企业管理与应用扩展计划，包括新增 Absolute Security、思科旗下 Splunk、Microsoft Intune、Tanium 等七项管理集成，帮助企业部署和管理本地 AI 基础设施。 DGX Station 的 Windows 版本预计于 12 月推出，将支持制造业相关应用，以及设计、仿真、验证和工程自动化工作流。 此外，英伟达计划为 ",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-21T15:25:18+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/016/148.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "英伟达DGX Spark开放8台集群，统一内存最高1TB",
+   "summary_zh": "英伟达在GTC柏林宣布DGX Spark支持最多8台组集群、128GB版统一内存达1TB，并与llama.cpp、vLLM合作优化推理，Blackwell特定负载提速最高40%。",
+   "highlights_zh": [
+    "DGX Spark集群从4台扩至8台，统一内存最高1TB",
+    "与llama.cpp、vLLM合作优化推测解码，智能体任务提速1.3-1.4倍",
+    "新增本地模型支持与FP4量化检查点，降低本地大模型内存压力"
+   ],
+   "why_zh": "本地AI推理硬件与软件栈的重要升级，影响私有化部署选型",
+   "tags": [
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T15:54:55+00:00",
+   "mirror_pdf": "pdf/web-89151d91f302.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/016/148.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d790b3c2a658",
+   "kind": "article",
+   "title": "黄仁勋发布 AI“预制工厂”DSX POD：最快 14 天部署投产，英伟达计划 2027 年初全球交付",
+   "url": "https://www.ithome.com/1/016/138.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 21 日消息，英伟达 CEO 黄仁勋今日在德国柏林举行的 GTC 大会上宣布推出模块化 AI 工厂参考设计 DSX POD，面向以 Vera Rubin 平台为核心的完整 AI 工厂系统。 英伟达表示，该方案将计算、网络、布线、机架供电、液冷管路安装及功能验证等工作提前转移至工厂完成，计划于 2027 年初通过合作伙伴在全球交付。 DSX POD 的核心思路是将 AI 基础设施预先集成到“模块化集装箱”中，并在发货前完成系统集成与验证。设备抵达部署现场后，客户只需将其接入已经准备就绪的电力、冷却、网络等配套设施，即可开展后续部署。 英伟达称，这种方式能够减少传统数据中心建设过程中复杂的现场施工、专业人员协调和物流工作，并降低现场安装错误及零部件交付延误带来的影响。 英伟达表示，在部署场地及配套基础设施已经准备就绪的情况下，DSX POD 可将基础设施部署周期从传统方式的约 6 个月缩短至最短 14 天。 黄仁勋表示，AI 工厂只有在开始产生 token 时才能创造价值，而不仅仅是在建设完成时。英伟达称，DSX POD 旨在缩短基础设施从现场准备就绪到开始运行生产级 AI 工作负载的时间，使运营商能够更早提供推理服务并获得收入。 合作伙伴方面，英伟达正在与戴尔科技、惠普企业、联想、技嘉、鸿海旗下工业富联、和硕、广达旗下云达科技（QCT）、纬创、施耐德电气、维谛技术等企业合作，推动 DSX POD 的制造、集成和交付。英伟达表示，全球合作伙伴计划于 2027 年初开始交付相关 AI 工厂系统。 相关阅读： 《 英伟达联合思灵推出人形机器人参考平台 Agile ONE SN，计划 2027 年初上市 》 《 英伟达黄仁勋称未来电信运营商都将提供 AI 算力，电信基站有望发展成分布式 AI 网络 》 《 奔驰与英伟达合作开发城市辅助驾驶系统 MB.DRIVE ASSIST PRO，计划年底在德国向部分用户开放 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-21T14:36:19+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/016/138.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "黄仁勋发布AI“预制工厂”DSX POD：最快14天投产",
+   "summary_zh": "英伟达推出模块化AI工厂参考设计DSX POD，将计算、网络、液冷等预集成到集装箱，部署周期从约6个月缩至最短14天，计划2027年初全球交付。",
+   "highlights_zh": [
+    "面向Vera Rubin平台的完整AI工厂系统参考设计",
+    "工厂预集成预验证，现场只需接入电力冷却网络",
+    "联合戴尔、HPE、联想、富士康、施耐德等伙伴交付"
+   ],
+   "why_zh": "AI基础设施交付模式的重要变化，影响算力扩张节奏",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T15:54:55+00:00",
+   "mirror_pdf": "pdf/web-d790b3c2a658.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/016/138.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e5d5049b6a6c",
+   "kind": "article",
+   "title": "首Token延迟降低32.4%！是石科技集群调度大招，国产推理再提效",
+   "url": "https://www.qbitai.com/2026/10/504421.html",
+   "pdf_url": "",
+   "abstract": "最新发布TokenFleet调度框架",
+   "authors": [
+    "思邈"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-20T08:01:25+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/504421.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "是石科技TokenFleet：首Token延迟降32.4%",
+   "summary_zh": "是石科技发布TokenFleet集群调度框架，称可将首Token延迟降低32.4%，提升国产推理集群效率。",
+   "highlights_zh": [
+    "面向推理集群的调度框架",
+    "首Token延迟降低32.4%",
+    "主打国产推理提效场景"
+   ],
+   "why_zh": "做推理部署与集群调度的团队可参考其延迟优化思路。",
+   "tags": [
+    "效率与系统",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T15:54:55+00:00",
+   "mirror_pdf": "pdf/web-e5d5049b6a6c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/504421.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3bedc2e80f6c",
+   "kind": "article",
+   "title": "当Agent“有工号”：从一人一工具到一人一团队，组织如何做好AI时代的分工与协作？",
+   "url": "https://www.leiphone.com/category/industrynews/wiMNbdfLr54ciVBE.html",
+   "pdf_url": "",
+   "abstract": "智能体也开始领“工号”了。8月31日，张江科学之门模力社区， 智能体身份码节点管理平台 正式上线，30家单位参与节点发放。越来越多的智能体将拥有可识别、可管理的数字身份。 但当Agent从个人电脑里的工具，变成能够跨系统调用、参与业务流程的“数字同事”，一个比技术更现实的问题随之浮现：谁给它派活，谁来验收成果，出了问题又由谁担责？这道题，考验的已不只是智能体的能力，更是组织的管理能力。 图1张江科学之门模力社区，身份码节点管理平台正式上线 活动现场，上海市人工智能行业协会与中国电子技术标准化研究院等单位协同发力，全面推进AIP智能体互联应用的推广与宣传，为行业数字化转型注入新动能。讲解人员将智能体身份码形象比作“数字身份证”，从身份申领、材料核验到跨主体互联调用，逐一拆解全流程操作。 智能体有了身份码，无异于在组织内获得“工号”。但工号仅是起点。过去“一人一工具”依赖个人选择；如今，一人背后可能站着一组智能体——谁派活、谁验收、谁担责？组织必须重新绘制分工版图。 一、先有身份：智能体正式入编组织“名册” 身份为何先行？智能体正从“回答问题”迈向“动手办事”，而要求AI“ 会办事、好办事、办好事”须先厘清：身份（我是谁）、代理关系（替谁办）、权限边界（做哪些），才能成为AI时代的“智能管家”。依据智能体互联系列国家标准，一个身份码精准对应一个智能体。 今夏规则密集落地。7月17日， 在上海举行的2026世界人工智能大会上，国家网信办会同有关方面联合提出《智能体互信互联互操作全球合作倡议》，呼吁加大“智能体身份标识、协作互认等基础共性技术”研发投入；同步发布的《国际人工智能伦理治理行动计划》提出，围绕“工具调用权限、自主决策能力”等因素构建差异化风险处置规则，并明确开发者、部署者、使用者的“权责边界”。 国内政策同步指引。国家网信办等三部门印发的《智能体规范应用与创新发展实施意见》提出，探索建立智能体注册平台，提供“数字身份管理、检索发现、能力声明”等服务。张江上线平台正践行此路径——让每个智能体“报到”时有名有姓、有据可查。 上海亦加速“建档”布局。8月发布的《上海市“数字上海”建设“十五五”规划》明确，“建设政务智能体驾驶舱，实现工作空间与运行观测，促进人、智能体、系统多级高效协同”——智能体不仅要“有名字”，更要“看得见、管得住”。 身份码解决的是“认得出”，组织授权解决的是“管得住”，岗位分工解决的才是“用得好”。从数字身份到数字员工，中间还隔着一套组织管理制度。 二、再划分工：人机伙伴，一岗一助手 Agent身份确立后，下一步是定责。从辅助单个岗位，到承接完整流程，再到让业务人员直接调度专业能力，智能体正在改变企业内部能力的组织与调用方式。上汽帆一尚行，已累计上线数字员工超100个；计划排产助理输出模拟方案后，“交由计划员审核”。数字员工项目研发负责人陈宁博士强调：“数字员工的本质是能承接完整岗位职责的虚拟协作者，聚焦单一岗位实现全流程闭环。”分工线进一步延伸至经营判断。例如，商汤小浣熊让业务人员“仅需输入一句自然语言”，即可完成数据关联、趋势研判与报表生成。人从取数中解放，将精力聚焦于决策判断。分工是否清晰，不看助手数量，而看每段任务是否明确归属：哪些环节交由智能体，哪些必须由人把关。 图2 帆一尚行AI计划排产助理 三、人机混编大队：派活、验收、拍板、担责，如何落地？ 组织形态同步演进。员工可携带多个智能体协同工作，人员围绕任务动态组合，任务完成后解散再重组。管理者的新增职责在于：设计人机分工，并为结果兜底。 在传统科层组织中，任务沿着",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-21T06:14:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/wiMNbdfLr54ciVBE.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "智能体领工号：组织如何管理人机分工",
+   "summary_zh": "张江上线智能体身份码节点管理平台，30家单位参与发放，文章讨论智能体获得数字身份后，组织如何界定派活、验收与担责。",
+   "highlights_zh": [
+    "智能体身份码对应唯一智能体，解决身份、代理关系与权限边界",
+    "国家层面倡议与实施意见推动智能体注册与数字身份管理",
+    "上汽帆一尚行等企业已上线超百个数字员工并明确人工审核环节"
+   ],
+   "why_zh": "智能体从工具走向数字同事，身份与权责治理是落地绕不开的一环。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T15:54:55+00:00",
+   "mirror_pdf": "pdf/web-3bedc2e80f6c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/wiMNbdfLr54ciVBE.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-56fd8f9def35",
+   "kind": "article",
+   "title": "对话亚马逊CTO：仍在招聘初级工程师，关注中国开放模型",
+   "url": "https://www.infoq.cn/article/XxOpQpEMZpdCCYhXxgaE?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "王一鹏"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-21T21:18:40+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/XxOpQpEMZpdCCYhXxgaE?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "对话亚马逊CTO：仍在招初级工程师，关注中国开放模型",
+   "summary_zh": "亚马逊CTO在访谈中表示公司仍招聘初级工程师，并关注中国开源模型的发展，原文需点击查看。",
+   "highlights_zh": [
+    "头部云厂商对初级工程师招聘的公开表态",
+    "对中国开放权重模型的关注",
+    "摘要缺失，需阅读原文获取完整判断"
+   ],
+   "why_zh": "头部厂商CTO对人才与开源模型的判断有参考价值，但现有信息过少。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T15:54:55+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/XxOpQpEMZpdCCYhXxgaE?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "Agent模型竞争从能力榜转向单位任务成本，低价高吞吐成新胜负手",
-   "why": "MiniMax M3.1 Flash以1/88价格登顶Agent榜，DeepSeek开源DeepInfer并试水峰谷定价，成本战已进入推理层。",
+   "trend": "开放模型以极致性价比反攻，Agent能力成新战场",
+   "why": "MiniMax M3.1 Flash价格仅1/88却登顶Agent榜，DeepSeek开源推理框架支撑高吞吐，开放阵营正用成本优势争夺企业落地。",
    "refs": [
     "web-7e6dc56ca6bf",
     "web-f90527f992ac",
     "web-287865542e2a",
-    "web-242eb8588db3"
+    "web-064ad9927d51"
    ]
   },
   {
-   "trend": "评测方法出现分叉：决策模型替代LLM裁判，多模态企业基准暴露真实短板",
-   "why": "Hamel提出低成本决策模型评测但需调阈值；MMEnterprise-Bench显示加检索预算不必然提分，评测正从刷榜转向可靠性验证。",
+   "trend": "评测方法从聚合分数转向决策级诊断，旧榜单失效",
+   "why": "DecisionPivot揭示同分模型对比组准确率差26个百分点，MMEnterprise-Bench显示加检索预算不必然提分，评测正被重构。",
    "refs": [
-    "web-48ac9eccb51b",
+    "arxiv-2610.28522",
     "arxiv-2610.27911",
-    "web-6a01ce2d8f26"
+    "web-48ac9eccb51b"
    ]
   },
   {
-   "trend": "算力瓶颈从芯片转向供电散热，算力市场走向可编程与物理结算",
-   "why": "SpaceX称超级智能部署最大瓶颈已是电力与基础设施；SF Compute判断算力交易正转向独立市场与物理结算。",
+   "trend": "智能体架构走向脚手架自进化与子智能体并行协作",
+   "why": "RiseHarness冻结权重迭代脚手架、Sage-A1.5支持子智能体并行反思，说明能力提升正从堆参数转向编排与验证层。",
+   "refs": [
+    "arxiv-2610.27435",
+    "arxiv-2610.28578",
+    "web-3bac377301ef"
+   ]
+  },
+  {
+   "trend": "算力瓶颈从芯片转向供电散热，资本效率成生死线",
+   "why": "马斯克称最大瓶颈已是电力与基础设施，Anthropic半年亏损超800亿美元，云厂商为万级Agent展开军备竞赛。",
    "refs": [
     "web-7dc05274d91c",
-    "web-977d926a0cb6",
-    "web-b7331df4412b"
+    "web-60f7f9822d20",
+    "web-b7331df4412b",
+    "web-a84c7a7ccaf7"
    ]
   },
   {
-   "trend": "具身智能重资产回归：真机数据缺口催生实训基础设施，巨头重启硬件自研",
-   "why": "OpenAI招27人自研电机重启机器人团队，北大HIL-UMI试图摆脱真机依赖，行业押注千万小时级数据供给。",
-   "refs": [
-    "web-842171d1018d",
-    "web-672ab93cb6d1",
-    "web-48591f7b27b1",
-    "web-cba353da3f9d"
-   ]
-  },
-  {
-   "trend": "生成式架构向「状态与渲染分离」演进，实时可玩世界成为新验证场",
-   "why": "Matrix-Game 4.0用轻量引擎管状态、视频模型管画面，单卡实现60FPS；VAST开源整条文本到可玩链路。",
+   "trend": "生成式世界模型与具身训练同步降本，真机依赖被削弱",
+   "why": "Matrix-Game 4.0单卡实现480p/60FPS可玩世界，HIL-UMI无需真机产出后训练数据，OpenAI重启机器人自研电机。",
    "refs": [
     "arxiv-2610.27999",
-    "web-f7369a069939",
-    "arxiv-2610.28594"
+    "web-672ab93cb6d1",
+    "web-842171d1018d",
+    "web-f7369a069939"
    ]
   }
  ]
