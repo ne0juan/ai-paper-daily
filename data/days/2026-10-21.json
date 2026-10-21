@@ -1139,46 +1139,1159 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "arxiv-2610.27999",
+   "kind": "paper",
+   "title": "Matrix-Game 4.0: Harnessing Video Models for Real-Time Playable Game Worlds",
+   "url": "https://arxiv.org/abs/2610.27999",
+   "pdf_url": "https://arxiv.org/pdf/2610.27999",
+   "abstract": "Moving from controllable videos to genuinely playable worlds requires persistent world state, executable game rules, and low-latency interaction. We outline a roadmap for the next generation of Matrix-Game that separates game execution from visual generation through an executable game harness, and introduce Matrix-Game 4.0 as the first system built on this design. A lightweight game engine maintains world state and executes interaction rules, a multimodal coding agent translates player ideas into game code and dynamic scene captions, and a renderer based on autoregressive video model transforms engine-rendered low-poly proxies into detailed visuals, conditioned on dynamic captions and memory references. This framework provides continuous guidance for visual generation and enables natural-language creation and modification of scenes and gameplay. Our renderer is trained on aligned low-poly and high-fidelity video pairs and distilled into a causal generator that generates in four-frame chunks with one or two denoising steps. Together with targeted inference optimizations, Matrix-Game 4.0 enables 480p, 60 FPS gameplay on a single NVIDIA RTX5090 with a key-press-to-display latency of 112ms. Single-step generation achieves 83FPS steady-state throughput with 18.2GiB of peak GPU memory usage. With fixed prompts, steady-state throughput also reaches 67FPS on an RTX5080 and 58FPS on an RTX5070Ti. We demonstrate customizable shooter and driving games with engine-enforced mechanics, and release code, model weights, and low-poly game assets to support research and creation of playable game worlds.",
+   "authors": [
+    "Jihai Zhang",
+    "Runjia Qian",
+    "Kaiqin Kong",
+    "Biao Jiang",
+    "Puyi Wang",
+    "Siru Chen",
+    "Tianle Li",
+    "Guanjie Chen",
+    "Junyi Wu",
+    "Chubin Chen",
+    "Yuanhang Li",
+    "Kaichen Huang",
+    "Haobo Zhang",
+    "Yangguang Li",
+    "Wei Yu",
+    "Guibin Chen",
+    "Yu Cheng",
+    "Yahui Zhou"
+   ],
+   "orgs": [],
+   "published": "2026-10-20T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.27999",
+     "signal": "▲ 105",
+     "metric": 105
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Matrix-Game 4.0：用视频模型实时生成可玩游戏世界",
+   "summary_zh": "提出将游戏执行与视觉生成分离的架构：轻量引擎维护世界状态，编码智能体把玩家想法转成游戏代码，视频渲染器把低多边形代理画面实时转成高清画面，单卡RTX5090实现480p/60FPS、按键到显示112ms。",
+   "highlights_zh": [
+    "游戏逻辑由独立引擎执行，视频模型只负责渲染，解决了可玩性所需的持久世界状态问题",
+    "渲染器用对齐的低多边形-高清视频对训练并蒸馏为因果生成器，四帧一块、1-2步去噪",
+    "支持自然语言创建和修改场景与玩法，单步生成稳态83FPS、峰值显存18.2GiB"
+   ],
+   "why_zh": "世界模型走向可交互实时生成的关键工程样本，架构思路值得关注",
+   "tags": [
+    "多模态",
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.6588,
+   "score_llm": 8.0,
+   "score": 0.7435,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T10:00:35+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.27999.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.27999"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.27999"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.27999"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.27999"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.27999"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.27999"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.27628",
+   "kind": "paper",
+   "title": "PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking",
+   "url": "https://arxiv.org/abs/2610.27628",
+   "pdf_url": "https://arxiv.org/pdf/2610.27628",
+   "abstract": "Looped language models can run more iterations at test time, but additional iterations need not help them solve longer problems. For sequential state tracking, final-answer supervision does not specify how far each iteration should advance, and repeated updates can change the scale of the recurrent state. We introduce Progress-Aligned Recurrence (PAR), which trains the prediction at iteration k to match the state after the first k operations and rescales recurrent states to their first-iteration norms. On swap-S_5, a Qwen2.5-0.5B model trained on at most 32 moves achieves 95.5\\% mean full-state accuracy at 512 moves, or 16times the training length, compared with 55.7\\% reported for RLT and 0.8\\% for explicit chain of thought on the same backbone. Controlled S_5 ablations show that removing norm anchoring reduces the extrapolation factor from 16times to below 2.2times, and replacing progress-aligned targets with final-answer supervision reduces it to at most 8times. A learned completion readout selects when to answer without a supplied stopping depth. When intermediate labels are unavailable, prefix self-distillation induces the correspondence from shorter problem prefixes using only final answers. The gains apply across sequential state-tracking tasks, establishing the task structure required for depth extrapolation. These findings support training intermediate predictions and state scale together to make additional recurrent depth useful for longer problems.",
+   "authors": [
+    "Pan Wang",
+    "Yihao Hu",
+    "Guangyuan Dong",
+    "Yitong Lin",
+    "Hang Wang",
+    "Zimi Liu",
+    "Zhihao Wen",
+    "Jianshe Li",
+    "Jiang-Ming Yang",
+    "Wei Wu",
+    "Yongqi Tong"
+   ],
+   "orgs": [
+    "ant-international"
+   ],
+   "published": "2026-10-20T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.27628",
+     "signal": "▲ 104",
+     "metric": 104
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "PAR：让循环模型按进度对齐实现长度外推",
+   "summary_zh": "针对循环语言模型迭代次数增加却未必解决更长问题，提出让第k次迭代预测前k步操作后的状态，并把循环状态归一化到首轮范数；0.5B模型在32步训练后于512步上达95.5%全状态准确率，是训练长度的16倍。",
+   "highlights_zh": [
+    "最终答案监督无法告诉模型每次迭代该推进多远，进度对齐目标解决了这一问题",
+    "去掉范数锚定后外推倍数从16倍降到2.2倍以下，验证了状态尺度控制的关键作用",
+    "无中间标签时可用前缀自蒸馏从短前缀诱导对应关系，仅需最终答案"
+   ],
+   "why_zh": "循环/深度外推训练方法的扎实进展，对长序列推理有直接启发",
+   "tags": [
+    "大模型",
+    "推理",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.6583,
+   "score_llm": 8.0,
+   "score": 0.7433,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T10:00:35+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.27628.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.27628"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.27628"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.27628"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.27628"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.27628"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.27628"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.28594",
+   "kind": "paper",
+   "title": "Learning the 4D World through Point Trajectory Forecasting",
+   "url": "https://arxiv.org/abs/2610.28594",
+   "pdf_url": "https://arxiv.org/pdf/2610.28594",
+   "abstract": "Reliable multi-view forecasting requires videos from different cameras to describe the same evolving 3D scene. To this end, we introduce Video-Point Model (VPM), a world model that conditions on multi-view video histories and a language instruction to jointly forecast future videos from arbitrary viewpoints and the 3D trajectories of persistent scene points. We extend a pretrained world model with camera-conditioned multi-view processing that integrates complementary observations across cameras, and add a trajectory head that predicts how physical points move through time. Each trajectory tracks a single point across all views, and supervising these trajectories alongside video generation therefore anchors appearance changes in every camera to a shared description of 3D motion. To support training and evaluation, we build VPM-Data, a simulation corpus pairing synchronized multi-view videos with persistent point trajectories, and VP-WorldBench, a forecasting benchmark spanning simulated and real environments. We further extend VPM to robot control by adding robot actions as a token modality in the generator. Action tokens share the point-supervised backbone and are denoised jointly with future videos, thereby grounding the policy in the same 3D-aware representation. On VP-WorldBench and existing 4D generation benchmarks, point supervision improves both video fidelity and 3D motion accuracy over a video-only counterpart, and in simulated and real-robot experiments, it also raises the manipulation success of the action-enabled model.",
+   "authors": [
+    "Byungwoo Jeon",
+    "Sunghwan Hong",
+    "Dohyeon Kim",
+    "Jonghoon Lee",
+    "Jungwoo Park",
+    "Inhee Lee",
+    "Doosan Baek",
+    "Jinil Kim",
+    "Taehyun Lim",
+    "Hanbyul Joo",
+    "Marc Pollefeys",
+    "Saining Xie",
+    "Jinwoo Shin"
+   ],
+   "orgs": [],
+   "published": "2026-10-20T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.28594",
+     "signal": "▲ 37",
+     "metric": 37
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "通过点轨迹预测学习四维世界",
+   "summary_zh": "提出Video-Point Model，以多视角视频历史和语言指令为条件，联合预测任意视角未来视频与持久场景点的3D轨迹；点监督把各相机的外观变化锚定到统一3D运动描述，并扩展到机器人动作控制。",
+   "highlights_zh": [
+    "轨迹头跨所有视角跟踪同一物理点，为视频生成提供共享3D运动约束",
+    "构建VPM-Data仿真语料与VP-WorldBench预测基准",
+    "动作作为token模态与未来视频联合去噪，策略共享3D感知表征"
+   ],
+   "why_zh": "世界模型与机器人控制结合的代表性工作，点监督思路新颖",
+   "tags": [
+    "多模态",
+    "机器人",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.5975,
+   "score_llm": 8.0,
+   "score": 0.719,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T10:00:35+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.28594.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.28594"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.28594"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.28594"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.28594"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.28594"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.28594"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/rootyJeon/VPM"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-60f7f9822d20",
+   "kind": "article",
+   "title": "Anthropic logged net loss of over $80B in first half of 2026",
+   "url": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-20T20:09:46Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50171966",
+     "signal": "150 pts",
+     "metric": 150
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Anthropic 2026上半年净亏损超800亿美元",
+   "summary_zh": "Anthropic 2026年上半年净亏损超800亿美元，规模远超行业预期，反映头部大模型公司在算力与人才上的巨额投入与商业化压力。",
+   "highlights_zh": [
+    "净亏损超800亿美元，创AI公司亏损纪录",
+    "凸显前沿模型训练与推理成本之高",
+    "引发对AI商业模式可持续性的讨论"
+   ],
+   "why_zh": "头部公司财务状况是判断AI行业泡沫与资本走向的关键信号。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5552,
+   "score_llm": 8.0,
+   "score": 0.7021,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T10:00:35+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50171966"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f8078d89c26a",
+   "kind": "article",
+   "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
+   "url": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source",
+   "pdf_url": "",
+   "abstract": "An open source “bomb” drops from China",
+   "authors": [
+    "swyx"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-21T06:54:09+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "DeepSeek开源DeepInfer推理系统",
+   "summary_zh": "DeepSeek开源DeepInfer推理系统，称单集群日处理155万亿token、日收入2200万美元、约80%毛利、81天回本。",
+   "highlights_zh": [
+    "开源SOTA推理系统，单集群日吞吐155万亿token",
+    "宣称约80%毛利率、81天投资回收期",
+    "以开源方式释放，可能压低推理服务成本"
+   ],
+   "why_zh": "开源高性能推理栈若数据属实，将重塑推理成本与商业格局。",
+   "tags": [
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T10:00:35+00:00",
+   "mirror_pdf": "pdf/web-f8078d89c26a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2511.14102",
+   "kind": "paper",
+   "title": "Specter: Fast MoE Inference via Quantization-Enabled Multi-Step Speculative Offloading",
+   "url": "https://arxiv.org/abs/2511.14102",
+   "pdf_url": "https://arxiv.org/pdf/2511.14102",
+   "abstract": "Mixture-of-experts (MoE) models often exceed a single accelerator's memory capacity. Offloading experts to host memory creates a severe PCIe I/O bottleneck because data-dependent routing keeps transfers on the critical path. We present Specter, an inference system that uses quantization to combine speculative decoding with expert offloading. Its lightweight quantized draft model runs efficiently on device while preserving high-fidelity expert activation patterns. This provides accurate multi-step lookahead over future expert usage, allowing the runtime to organize expert movement and execution ahead of verification and improve both communication and execution efficiency. Under single-request inference, Specter achieves an average 1.50x (up to 1.88x) speedup in time per output token (TPOT) over the state-of-the-art system. Specter makes memory-constrained, single-GPU MoE inference more practical on commodity hardware. Our code is available at https://github.com/wwwwwf/specter_asplos.",
+   "authors": [
+    "Wenfeng Wang",
+    "Xiaofeng Hou",
+    "Xinfeng Xia",
+    "Xinkai WAng",
+    "Mingxuan Zhang",
+    "Peng Tang",
+    "Jiacheng Liu",
+    "Chao Li"
+   ],
+   "orgs": [],
+   "published": "2026-10-20T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2511.14102",
+     "signal": "▲ 15",
+     "metric": 15
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Specter：量化驱动的多步投机卸载加速MoE推理",
+   "summary_zh": "针对MoE模型显存不足需卸载专家导致的PCIe瓶颈，用轻量量化草稿模型做多步投机预测未来专家使用，提前调度传输，单请求TPOT平均提速1.5倍、最高1.88倍。",
+   "highlights_zh": [
+    "量化草稿模型保留高保真专家激活模式",
+    "多步前瞻让专家搬运与计算重叠",
+    "单卡消费级硬件即可跑大MoE"
+   ],
+   "why_zh": "为显存受限场景下的MoE推理提供可落地的系统级加速方案。",
+   "tags": [
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.5458,
+   "score_llm": 8.0,
+   "score": 0.6983,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T10:00:35+00:00",
+   "mirror_pdf": "pdf/arxiv-2511.14102.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2511.14102"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2511.14102"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2511.14102"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2511.14102"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2511.14102"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2511.14102"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-27ced8676a26",
+   "kind": "article",
+   "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
+   "url": "https://www.latent.space/p/tenex",
+   "pdf_url": "",
+   "abstract": "Listen now (44 mins) | Paying for outcomes, building with agents, and the last mile of enterprise AI adoption",
+   "authors": [
+    "swyx"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-21T05:01:26+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/tenex",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Tenex谈企业AI原生SDLC落地",
+   "summary_zh": "Tenex的Alex Lieberman与CJ Hess讨论为结果付费、用智能体构建，以及企业AI落地的最后一公里。",
+   "highlights_zh": [
+    "按结果付费而非按席位收费的模式探索",
+    "用智能体重构软件开发生命周期",
+    "聚焦财富2000强企业的AI采纳难点"
+   ],
+   "why_zh": "企业级AI落地与商业模式的一线经验，对B端从业者有参考。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T10:00:35+00:00",
+   "mirror_pdf": "pdf/web-27ced8676a26.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/tenex"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-13fb6d8b43f3",
+   "kind": "article",
+   "title": "Anthropic Does Not Understand Why Its Draft Bill Was Unacceptable and Troubling",
+   "url": "https://thezvi.wordpress.com/2026/10/20/anthropic-does-not-understand-why-its-draft-bill-was-unacceptable-and-troubling/",
+   "pdf_url": "",
+   "abstract": "Anthony Cimino offered the closest thing to an official response we have seen on the leaked Anthropic draft bill I covered on Saturday. His response indicates that Anthropic address specific concerns on the margin. But he does not understand, or … Continue reading →",
+   "authors": [
+    "TheZvi"
+   ],
+   "orgs": [
+    "Zvi Mowshowitz"
+   ],
+   "published": "2026-10-20T23:03:29+00:00",
+   "sources": [
+    {
+     "name": "Zvi Mowshowitz",
+     "authority": 0.75,
+     "url": "https://thezvi.wordpress.com/2026/10/20/anthropic-does-not-understand-why-its-draft-bill-was-unacceptable-and-troubling/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 趋势评论员，每周 AI 综述",
+   "title_zh": "Anthropic 为何看不懂自家草案为何不可接受",
+   "summary_zh": "Zvi 认为 Anthropic 对泄露草案的官方回应只修补边缘问题，未理解外界对监管俘获与政策设计的核心质疑。",
+   "highlights_zh": [
+    "Anthropic 官方回应仅针对边缘关切做调整",
+    "作者认为其未理解草案为何令人不安",
+    "涉及 AI 监管政策与公司立场"
+   ],
+   "why_zh": "理解头部 AI 公司如何参与监管博弈，对判断政策风向有参考价值。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T10:00:35+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://thezvi.wordpress.com/2026/10/20/anthropic-does-not-understand-why-its-draft-bill-was-unacceptable-and-troubling/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f90527f992ac",
+   "kind": "article",
+   "title": "大肥鱼遇劲敌：MiniMax M3.1 Flash 拿下 Agent 任务第一，我们实测了",
+   "url": "https://www.leiphone.com/category/yanxishe/IMOE7FfuhC0qGxZk.html",
+   "pdf_url": "",
+   "abstract": "MiniMax 把 DeepSeek 的低谷价变成了全天价，Flash 价格战又卷起来了。 作者丨 吴海明 李娜 编辑丨李娜 DeepSeek 刚刚把国产 Flash 的性价比标杆往前推了一步，MiniMax 就带着实名的“太空兔”追来了。 10 月 17 日，被网友戏称为“大肥鱼”的DeepSeek 更新 V4.1 Flash-1017；仅隔两天，MiniMax 正式发布 M3.1 Flash，并认领了此前在开发者社区颇受关注的匿名模型 Space Bunny。两款国产 Flash 前后脚亮相，网友已经开始拿“大肥鱼”和“太空兔”开起了玩笑。 不过，这次 MiniMax 还真不只是来拼价格的。 根据此次公布的模型评测数据， M3.1 Flash 在 Automation-Bench 复杂 Agent 任务对比中位居第一，BankerToolBench 与 Opus 5 并列第一，Coding 性价比则仅次于 DeepSeek。 两款国产 Flash 前后脚更新，一个在软件工程上保持领先，一个在复杂 Agent 任务中拿出了更好的成绩。 在 Automation-Bench 数据集上，M3.1 Flash 的任务费用分布性价比最高 我们也拿 M3.1 Flash 跑了一道实际任务：给模型一张手绘平面图和建筑尺寸表，让它从零建出一座可以在浏览器里交互的 3D 校园。 结果上两套方案都完成了主要交付要求，但 MiniMax Code＋M3.1 Flash 用时 55.4 分钟 ，OpenCode＋DeepSeek V4.1 Flash 则花了 约 121 分钟 。 按照本次测试采用的 API 计价口径折算，两边的模型费用都在 6.5 元左右。 同样是几块钱的模型费用，MiniMax 却少花了约 65 分钟。 01 太空兔亮明身份， MiniMax 这次强在哪儿？ 在正式亮明身份之前，Space Bunny 已经在开发者社区跑出了一些存在感。 OpenRouter 披露，它曾连续 10 天占据平台模型使用量榜首，累计处理 56.7T Token。MiniMax 此次也确认，这款匿名模型在相关测试及使用期间累计处理量超过 200T Token。 速度快， 是不少开发者此前对它的印象。 开发者 Hassan 还在 X 上晒出了一组很直观的对比：他让 M3.1 Flash 和 Claude Opus 5.5 分别制作一款硬件产品的发布落地页，MiniMax 交出的设计让他相当满意，而两边的账单分别只有 0.014 美元和 1.22 美元。在他的这次测试中，MiniMax 的完成速度还快了约 4 倍。 当然，单次开发者测试不能代表模型的整体水平。不过 MiniMax 这次值得关注的，还包括正式发布后拿出的榜单成绩。 截至 10 月 20 日，在 Artificial Analysis（AA）榜单中，M3.1 Flash 的智能指数达到 43 分，上一代 M3 则为 29 分，提升接近五成。与此同时，其任务加权平均模型费用从 0.51 美元降至 0.22 美元。 也就是说，分数涨了，完成任务的成本反而降了一半还多。 M3.1 Flash 在 AA 榜单获得 43 分，名列全球模型前列 不过，真要和两天前刚更新的 DeepSeek V4.1 Flash-1017 掰掰手腕，两款模型倒是各有胜负。 在软件工程基准 DeepSWE v1.1 中，DeepSeek 取得 77.0%，M3.1 Flash 为 73.7%。虽然仍有差距，但后者已经与 Opus 5（74.0",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-21T04:09:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/yanxishe/IMOE7FfuhC0qGxZk.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "MiniMax M3.1 Flash 登顶 Agent 任务榜，实测快过 DeepSeek",
+   "summary_zh": "MiniMax 发布 M3.1 Flash，在 Automation-Bench 复杂 Agent 任务中排名第一，AA 智能指数从 29 升至 43，任务成本降过半；实测建 3D 校园比 DeepSeek V4.1 Flash 快约 65 分钟。",
+   "highlights_zh": [
+    "Automation-Bench 复杂 Agent 任务第一，BankerToolBench 与 Opus 5 并列第一",
+    "AA 智能指数 43 分，较上代 M3 提升近五成，任务加权成本从 0.51 降至 0.22 美元",
+    "实测同价位下完成 3D 校园任务用时 55.4 分钟，对手约 121 分钟"
+   ],
+   "why_zh": "国产 Flash 模型在 Agent 任务与性价比上的正面交锋，是选型与成本评估的关键参考。",
+   "tags": [
+    "大模型",
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T10:00:35+00:00",
+   "mirror_pdf": "pdf/web-f90527f992ac.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/yanxishe/IMOE7FfuhC0qGxZk.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-458c9a4cee8b",
+   "kind": "article",
+   "title": "代码迁移准确率从 5.4% 飙至 97.9%！OpenAI 挑战 COBOL，几十年的老系统真能交给 AI 了？",
+   "url": "https://www.infoq.cn/article/LZsVYHAH1jyOtLg6Yiwk?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "蔡芳芳"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-21T15:00:29+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/LZsVYHAH1jyOtLg6Yiwk?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI挑战COBOL：代码迁移准确率从5.4%飙至97.9%",
+   "summary_zh": "OpenAI展示AI将COBOL老系统代码迁移准确率从5.4%提升至97.9%，引发老系统能否交给AI的讨论。",
+   "highlights_zh": [
+    "代码迁移准确率从5.4%跃升至97.9%",
+    "瞄准COBOL等几十年历史的老系统",
+    "引发AI能否接管遗留系统维护的行业讨论"
+   ],
+   "why_zh": "代码迁移是AI落地企业的高价值场景，该案例展示能力边界与风险。",
+   "tags": [
+    "代码",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T10:00:35+00:00",
+   "mirror_pdf": "pdf/web-458c9a4cee8b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/LZsVYHAH1jyOtLg6Yiwk?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b36e25d4622a",
+   "kind": "article",
+   "title": "Anthropic几乎停招初级员工！占比一年半骤降33%：Agent工时已是员工6倍",
+   "url": "https://www.infoq.cn/article/bTVDaYaUJy2OvNlyuHgz?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "Tina"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-21T12:01:59+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/bTVDaYaUJy2OvNlyuHgz?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic初级员工占比骤降33%，Agent工时已是员工6倍",
+   "summary_zh": "Anthropic几乎停招初级员工，占比一年半骤降33%，Agent工时已是员工6倍，折射AI对组织结构的实质冲击。",
+   "highlights_zh": [
+    "初级员工占比一年半内下降33%",
+    "Agent工时达到员工的6倍",
+    "头部AI公司用人结构变化的信号"
+   ],
+   "why_zh": "头部AI公司用人结构变化，是智能体替代初级岗位的早期实证。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T10:00:35+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/bTVDaYaUJy2OvNlyuHgz?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2dcee66ba68c",
+   "kind": "article",
+   "title": "IDC 首份汽车 AI 座舱市场跟踪报告发布，2026 上半年火山引擎份额第一、阿里第二",
+   "url": "https://www.ithome.com/1/015/980.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 21 日消息，随着大语言模型、多模态交互及端云协同架构不断成熟，智能语音、AI 助手、导航问答、内容生成和个性化推荐等 AI 原生应用正加速上车。 国际数据公司（IDC）今日在《中国汽车云市场跟踪》报告中， 首次将 AI 座舱解决方案作为独立附加（Add-on）市场开展系统跟踪 ，并从市场规模、竞争格局、技术路线和商业模式等维度发布首期研究成果。 IDC 定义的 AI 座舱解决方案市场涵盖四个层面： AI 开发平台 / 软件（模型开发、Agent 编排、部署管理等） 模型服务 MaaS（大语言模型、多模态模型及语音模型的云端、车端与端云协同调用） AI 应用（智能语音、AI 助手、导航问答、内容生成等） AI 运营服务（模型更新、知识库管理、运营监控与持续优化） 报告数据显示， 2026 年上半年，中国 AI 座舱解决方案市场规模达到 7.1 亿元人民币 。这一规模表明，AI 座舱已进入规模起量阶段，市场需求与商业化进程同步提速，市场正由早期探索转向规模化量产与持续运营。 IDC 预计，2026 年全年中国 AI 座舱解决方案市场规模将达到 16.6 亿元人民币， 到 2030 年有望进一步增长至 47.1 亿元人民币 ，年复合增长率接近 30%。 IT之家从报告获悉，从竞争格局来看，市场头部聚集效应显著：2026 上半年， 火山引擎以 45% 的市场份额位列第一，阿里巴巴份额位居第二 。 从优势来源看，头部厂商的领先主要建立在量产车型覆盖规模与头部客户项目经验之上，属于现阶段的市场身位，格局远未固化。第二梯队中： 百度 依托座舱业务存量与地图等既有能力保持市场参与； 科大讯飞 依托座舱域软硬件方案与既有客户基础，稳步推进 AI 能力升级； 阶跃星辰 等模型创业公司也通过与车企及产业链伙伴的深度绑定切入市场，部分技术已实现上车。 整体而言，市场格局仍处于动态演化阶段，量产项目经验、生态协同能力与 C 端品牌认知正在成为厂商竞争的关键筹码。 从商业模式来看， 当前 AI 座舱市场的计费方式呈现多元化特征 ： 面向功能套件组合的 License 授权仍是主流模式，车企因选型范围不同，定价差异较为明显； 针对自研能力较强、仅需基础模型能力的客户，按 Token 或调用量计费的公有云模式成为重要补充； 端侧部署则普遍采用一次性激活计费并辅以年度技术支持与模型迭代维护费。 值得注意的是， 车企对 AI 投入产出比的关注度显著提升 ，定价谈判愈发围绕实际使用效果与价值密度展开，深度赋能项目与基础功能授权之间的价值差异正在拉大。 与此同时，部分厂商开始以标杆项目为抓手， 探索从车企买单向 C 端用户订阅付费过渡的路径 ，为市场打开新的收入想象空间。 从技术演进来看， 端云协同已成为行业共识 ：端侧模型承担高频简单指令的快速响应，云端大模型处理复杂推理与多模态交互，在体验、时延与成本之间取得平衡。 从交互范式来看， AI 座舱正在经历从“被动应答”向“主动服务”的关键跃迁 。上一代座舱语音助手普遍采用“意图分域 + 多 Agent 协同”的回合制架构，交互割裂、使用频次受限；2026 年以来，多家头部厂商相继发布基于 Agentic AI（代理式人工智能）架构的新一代座舱方案，技术路线的共同点在于以统一的 AI 中枢联动车控、导航、智驾等功能域，推动座舱交互从回合制问答向任务驱动的自主执行演进。 从厂商公开披露的信息看， 头部厂商的大模型车型搭载量已达到数百万辆量级，日均座舱交互达到数千万次量级 ；尽管各家统计口径不尽相同，但座舱 AI 从低",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-21T08:50:52+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/015/980.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "IDC首份AI座舱报告：火山引擎份额第一、阿里第二",
+   "summary_zh": "IDC首次将AI座舱作为独立市场跟踪：2026上半年规模7.1亿元，火山引擎以45%份额居首、阿里第二，预计2030年增至47.1亿元，行业正从被动应答转向Agentic AI主动服务。",
+   "highlights_zh": [
+    "2026全年预计16.6亿元，CAGR接近30%",
+    "计费模式涵盖License、Token调用与端侧激活",
+    "头部厂商转向统一AI中枢的Agentic架构"
+   ],
+   "why_zh": "首个AI座舱市场规模与竞争格局的量化基准",
+   "tags": [
+    "产品与行业",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T10:00:35+00:00",
+   "mirror_pdf": "pdf/web-2dcee66ba68c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/015/980.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-22e86e308fd7",
+   "kind": "article",
+   "title": "国模Agent第一！MiniMax爆改Flash战力，全时段大肥鱼谷价",
+   "url": "https://www.qbitai.com/2026/10/504517.html",
+   "pdf_url": "",
+   "abstract": "兔皮底下，竟然是MiniMax！",
+   "authors": [
+    "Jay"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-20T13:29:54+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/504517.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "MiniMax 升级 Flash，登顶国产 Agent 模型",
+   "summary_zh": "MiniMax 发布升级版 Flash 模型，在 Agent 能力评测中位列国产模型第一，主打全时段低价策略。",
+   "highlights_zh": [
+    "Agent 能力在国产模型中排名第一",
+    "主打全时段低价，降低使用门槛",
+    "面向智能体场景优化"
+   ],
+   "why_zh": "关注国产 Agent 模型竞争格局与定价策略的从业者可参考。",
+   "tags": [
+    "智能体",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T10:00:35+00:00",
+   "mirror_pdf": "pdf/web-22e86e308fd7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/504517.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-afb6d68c58aa",
+   "kind": "article",
+   "title": "Meshy推出Meshy Edit：基于全新自研AI模型，一句指令实现3D模型局部编辑",
+   "url": "https://www.qbitai.com/2026/10/504415.html",
+   "pdf_url": "",
+   "abstract": "圈选修改区域，一句话描述改动，约一分钟生成新模型，未选中区域保持原样",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-20T04:59:04+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/504415.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Meshy推出局部编辑功能，一句话改3D模型",
+   "summary_zh": "Meshy发布Meshy Edit，圈选区域后一句话描述即可局部修改3D模型，约一分钟生成，未选中区域保持不变。",
+   "highlights_zh": [
+    "支持圈选局部区域进行定向编辑，非编辑区保持原样",
+    "基于自研AI模型，单次生成约一分钟",
+    "降低3D内容修改门槛，利好游戏与设计工作流"
+   ],
+   "why_zh": "3D生成从整模走向可控局部编辑，是AIGC落地生产的关键一步。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T10:00:35+00:00",
+   "mirror_pdf": "pdf/web-afb6d68c58aa.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/504415.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b0db41d48d39",
+   "kind": "article",
+   "title": "当车企要说为「人类自由」奋斗时，它在说什么",
+   "url": "http://www.geekpark.net/news/372698",
+   "pdf_url": "",
+   "abstract": "头图来源：极客公园 1993 年，时任三星集团会长的李健熙，在德国发表了著名的「法兰克福宣言」，其中最著名的一句话是：「除了老婆孩子，一切都要变。」 当时韩国摸着日本，在全球化浪潮中极速行军，产量提升的同时，也被贴上了「便宜廉价」的标签，法兰克福宣言，开启了三星通过技术进行高端化转型之路。 2026 奇瑞全球创业大会会场｜图片来源：极客公园 33 年后的当下，安徽芜湖，奇瑞集团创新产业园中，「Change 改变」的字样随处可见，这是 2026 奇瑞全球创新大会的主题。 在主题演讲中，奇瑞董事长尹同跃说，奇瑞是一家披着车企外衣的「科技公司」，奇瑞的技术愿景是「为人类自由，创造最大价值。」 从某种角度来看，奇瑞愿景的宏大，和 SpaceX 的伊隆·马斯克，多少有相似之处了。 从芯片、模型到智驾 奇瑞董事长尹同跃对于 AI 时代的断言｜图片来源：极客公园 如果给车企的「科技含量」排个座次，芯片和大模型大概排在最前面。这一次，奇瑞把这两样东西一起摆上了台面。 先说芯片。奇瑞发布了自研的「紫微」芯片系列，分成三条线。C 系列是中央计算芯片，S 系列是车规级碳化硅功率芯片，M 系列是车规级控制芯片。从「大脑」到「肌肉」再到「神经末梢」，一台智能车需要的核心芯片，基本都被画进了这张路线图。 最受关注的是紫微 C100。单颗算力 1200TOPS，两颗组合后整车 NPU 算力达到 2400TOPS，内存带宽 600GB/s。按照奇瑞的说法，它可以支撑 1000 亿参数的大模型在车端运行，计划 2027 年推出。奇瑞给出的对标数据是，带宽约为竞品的 2.2 倍，算力约为 1.2 倍。 相比之下，碳化硅这条线更务实。S 系列已经走到第二代 8 寸平面工艺，S750、S1200 今年推出，漏源耐压做到 1500V，奇瑞称这是目前车规级的最高电压等级。8 寸晶圆量产后，成本下降超过 30%。 算力芯片决定上限，功率芯片则直接决定每台车的成本 ，这笔账，车企比谁都算得清。 芯片之上是模型。奇瑞发布了一个名为 CheryMind 的垂类基础大模型，定位是「为物理 AI 而生」。它的底气来自奇瑞多年攒下的家底：700TB 企业知识、200PB 工程数据、千万级研发文档，再加上 2500 万段教练级驾驶数据，以及 500 万段机器人动作捕捉数据。 有意思的是，CheryMind 最先改造的是奇瑞自己。按照官方数据，它已经打通了 400 多个企业系统和 1500 多条端到端业务流程，每天有超过 6 万名员工在用。在它下面，一边是 CAD、质量、制造等「企业垂模」，教 AI 怎么造车；另一边是智舱、智驾、飞控、农机 OS 等「产品垂模」，让汽车、飞行器乃至拖拉机更懂人和世界。 落到智驾上，是奇瑞的「全维世界引擎」CHERY AWE，由一个世界模型加三个细分模型组成。构境模型负责「造场景」，已经生成 70 万个训练场景，其中高危场景 30 万个、极限场景 2 万个，让智驾在虚拟世界里把危险提前经历一遍。观语模型负责「认路」，结合摄像头画面、导航和短期记忆去理解沿途的路口和地标，目标是像老司机一样，凭路标就能开到目的地。行策模型负责决策，要把智驾从「被动应对危险」推向「主动预判风险」。 这些能力最终要落到产品上。奇瑞的猎鹰智驾分为 500、700、900 三档，最高的猎鹰 900 瞄准高速和城区道路的 L3，并且已经拿到 130 多个国家和地区的法规准入。更激进的是 Robotaxi，奇瑞称它是行业首款「为全球而生」的原生前装 Robotaxi，目标是 2030 年在全球运营 10 万",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-21T09:10:33+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372698",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "奇瑞发布自研芯片与CheryMind大模型",
+   "summary_zh": "奇瑞发布紫微芯片系列与CheryMind垂类大模型，并推出世界模型驱动的智驾引擎CHERY AWE。",
+   "highlights_zh": [
+    "紫微C100单颗1200TOPS，双芯整车2400TOPS，计划2027年支撑千亿参数车端大模型",
+    "CheryMind基于700TB知识与2500万段驾驶数据，已接入400多个企业系统",
+    "CHERY AWE世界模型已生成70万个训练场景，含30万高危场景"
+   ],
+   "why_zh": "车企自研芯片+垂类大模型+世界模型，是物理AI落地的典型样本。",
+   "tags": [
+    "大模型",
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T10:00:35+00:00",
+   "mirror_pdf": "pdf/web-b0db41d48d39.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372698"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b08a6926d737",
+   "kind": "article",
+   "title": "亚马逊 CTO Dr. Werner Vogels：二十余年技术实践，想与创业者分享这 4 点",
+   "url": "http://www.geekpark.net/news/372671",
+   "pdf_url": "",
+   "abstract": "在 2026 年 亚马逊云科技软件企业峰会创业加速营巅峰路演 上，亚马逊副总裁兼首席技术官 Werner Vogels 博士与极客公园创始人 & CEO 张鹏进行了一场极具深度的炉边对谈。 面对当下狂热的 AI 创业潮与复杂的技术演进，Vogels 博士分享了亚马逊云科技走过二十年的底层商业逻辑，并为初创企业给出了极具实操性的避坑建议。 左：亚马逊副总裁兼首席技术官 Werner Vogels 博士 右：极客公园创始人 & CEO 张鹏 以下是两位对谈内容的精华梳理： 01 起点与颠覆： 被逼出来的创新与 彻底改变的 IT 商业模式 张鹏：您在二十年前加入了亚马逊，那时的亚马逊还只是一家相对较小的初创公司。究竟是什么真正吸引了您，并让您在这里坚守了二十多年？ Dr. Werner Vogels： 吸引我留下的， 首先是那些在外部根本看不到的、被现实「逼」出来的硬核技术挑战，我们不断在底层技术上做出了创新。 二十年前，当我真正走进亚马逊的「技术厨房」时，我被震撼了。 当时市面上没有任何现成的商业软件能支撑亚马逊电商海量并发的规模。比如，我们曾试图用传统的、单体架构的商业关系型数据库去承载所有的互联网流量，结果遭遇了灾难性的宕机。 这段惨痛的经历逼着我们明白，在互联网规模下，没有一种传统的商业数据库能包打天下。 因此，我们不得不从零开始，根据实际的业务场景自主研发的基础设施，比如后来专为海量键值查询设计的分布式数据库 Dynamo。 但让我最自豪的，是 我们更彻底颠覆了传统 IT 行业的商业模式 。在亚马逊云科技出现之前，企业使用 IT 基础设施就像是被供应商「绑架」。 你必须预测未来 5 年的需求，提前开出数百万美元的支票购买硬件和商业许可。一旦钱交出去，供应商就不再关心你的死活。 而我们把亚马逊「以客户为中心」的理念带到了 IT 领域：按需使用、用多少付多少，随时可以解约等等。在我们的模式里，只有客户真正取得了商业成功，亚马逊云科技才会成功。 亚马逊副总裁兼首席技术官 Werner Vogels 博士 02 抛弃炒作幻象： 去解决真正硬核的人类问题 张鹏：我见过许多初创公司失败，是因为他们选择了一个「太小」或者缺乏长期价值的问题。在风口不断变换的今天，创业者应该用什么原则来判断一个问题是否真正值得他们倾注数年人生去解决？ Dr. Werner Vogels： 现在的创业圈有一种浮躁的倾向，大家似乎都把「成为估值极高的独角兽」或「一夜暴富」当成了唯一目标。特别是现在，很多人只是在大模型之上包了一层很薄的皮，这没有任何可防御的技术护城河，纯粹是为了追逐风口。 我认为一家真正有价值的初创企业，应该把目标放在「解决硬核的真实痛点」上。你需要把目光从虚荣的估值上移开，去环顾四周，寻找那些你的客户正在痛苦挣扎、且没有任何人去解决的问题。 当你因为深刻的行业认知而解决了一个独特的问题时，商业变现和赚钱只是水到渠成、自然而然的副产品。 极客公园创始人 & CEO 张鹏 03 创新者的品味： 源于对痛点的极致同理心与热情 张鹏：许多优秀的创新往往来自于在选择问题时展现出的极好「品味」。通过您走访全球技术人的经历，您觉得这种发现好问题的敏锐度是如何培养出来的？ Dr. Werner Vogels： 好的品味，往往源于创业者对某个特定痛点有着极致的同理心和近乎狂热的激情。 我们在印尼遇到的一家初创公司 HARA，他们发现当地小农户因为没有合法数字身份而无法获得低息贷款，只能忍受高达近 40% 的高利贷。由于创始人就出身于农户家庭，他们深刻理解这个痛点，于是通过建立农户",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-21T04:16:25+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372671",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "亚马逊CTO：别在大模型上包薄皮",
+   "summary_zh": "Werner Vogels认为创业者应解决硬核真实痛点，而非在大模型上包一层薄皮追逐风口，商业变现是水到渠成的副产品。",
+   "highlights_zh": [
+    "批评当前大量创业只是大模型薄包装，缺乏技术护城河",
+    "主张以客户痛苦为起点寻找值得投入数年的问题",
+    "好品味源于对痛点的极致同理心与热情"
+   ],
+   "why_zh": "重量级技术领袖对AI创业泡沫的明确判断，值得警醒。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T10:00:35+00:00",
+   "mirror_pdf": "pdf/web-b08a6926d737.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372671"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-48591f7b27b1",
+   "kind": "article",
+   "title": "真机实干，产训一体：具身智能的下一座基础设施，为什么是“实景实训平台”？",
+   "url": "https://www.leiphone.com/category/industrynews/uxVZGVMwc8JuD0Px.html",
+   "pdf_url": "",
+   "abstract": "机器人在哪里练，练成后用在哪里？越来越多的探索指向同一个答案：把训练放进真实的工位，这就是“实景实训平台”。据中国信息通信研究院《具身智能训练场研究报告（2026年）》及多家机构测算，训练通用具身模型至少需要千万小时级真实交互数据，而目前全球可用的高质量真机具身语料仅在百万小时量级，相差约一个数量级。若主要依靠专家遥控真机采集，产出往往不过每天数十小时。缺的不是又一间展厅，而是能把采集、标注、训练、部署失败样本再送回去的数据流水线。在张江的觅蜂科技实训实验室，00后数据采集组长朱绵锐正与一台机器人并肩而立。“哪怕只是拿瓶子、放物件这样简单的小动作，我们也需要反复‘教学’几百遍，它们才能慢慢熟练。”朱绵锐如是说。这间被誉为“机器人学校”的实验室，折射出当前“语料饥渴”的现实困境。大语言模型可依托互联网海量文本实现“自学”，而机器人只能在真实世界中一寸寸“磨”出动作数据。 图1 数据采集员手持传感夹爪，在模拟货架前采集取物动作数据 一、训练场广布，“考场”稀缺 训练场已非稀缺资源。信通院报告显示，截至2026年6月底，全国已建成启用超70家具身智能训练场，另有46家在建或规划中。然而，难点在于“练”与“用”之间：场景任务同质化、数据产能有限、流通不足、可持续商业模式未成型，行业正从建设热潮迈向能力沉淀期。仿真训练后迁移至真实世界已成重要路径，但仿真与现实间的鸿沟仍待弥合：实验室里练熟的机器人，换到新产线、新货架，往往要“从零学起”。 2026年6月，工信部与国务院国资委联合启动人形机器人与具身智能实景实训专项行动，以生产作业工位、服务操作点位等真实场景单元为实训载体，积累高质量真机数据，构建可训练、可测试、可验证的空间。训练在应用现场发生，课题由使用者定义，数据直接服务部署——这便是“产训一体”。 实景实训的成色，最终要由产业落地来验收。 行业面前的几道硬坎，已愈发清晰：真机采集成本高、效率低；仿真环境与现实之间仍有不小差距；各家数据格式和标注规范各自为政，难以跨平台复用；人机混行要想落地，无法回避安全与责任难题；缺少公共中试环节，每家企业都得自建场景、独自承担试错成本。这次实景实训专项行动的发力点，正是用真实工位精准点出“缺失的题目”，再以数据治理和验证规程，把“能演示”逼成“能作业”。实景实训平台与一般训练场的差别，不在于场地大小，而在于数字世界距订单有多近、失败样本能否重回模型。 二、浦东上链，四环聚力 在浦东，这条链条已清晰铺开：训练、生产、回流、培养，环环有主攻重点。 训练：从“机器人学校”到数据工厂 教学始于动作拆解形成“原子级技能包”：炒菜需分解为取菜、切菜、装盘、备料到起锅翻炒的过程；削苹果则需覆盖不同形状、颜色的果实。机器人学习进步也很快。以叠衣为例，机器人最初仅识别单一朝向领口，如今无论朝向如何，均能从容应对。在他看来，不完美动作同样珍贵：熟练工的操作是“标准答案”，能教会机器人怎么做。而新手那些磕磕绊绊的“错误数据”，则能教会机器人如何在出错后自我修正。智元位于浦东的数据采集工厂，涵盖家居、餐饮、工业、商超、办公五大类真实场景，其AgiBotWorld工程覆盖217个复杂操作任务、87个原子技能与3000余种操作物品，落在106个真实场景之上。 一间实验室之外，是更完整的实景实训的公共能力。 2026年世界人工智能大会期间，国地中心联合华为发布全国首个具身智能实训场样板点，落地浦东。上海电气打造的上海市人形机器人中试服务平台在浦东机器人谷投入运营，约6800平方米，面向行业开放试制、检测与场景验证，整机年试制产能约2000台，可",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-21T06:53:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/uxVZGVMwc8JuD0Px.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "实景实训：具身智能的下一座基础设施",
+   "summary_zh": "雷峰网分析具身智能面临千万小时级真机数据缺口，认为「产训一体」的实景实训平台是下一阶段基础设施。",
+   "highlights_zh": [
+    "通用具身模型需千万小时级真实交互数据，现有仅百万小时量级",
+    "全国已建成超 70 家具身智能训练场，但场景同质化、数据流通不足",
+    "工信部与国资委启动实景实训专项行动，推动产训一体"
+   ],
+   "why_zh": "梳理具身智能数据瓶颈与政策动向，对判断机器人落地节奏有帮助。",
+   "tags": [
+    "机器人",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T10:00:35+00:00",
+   "mirror_pdf": "pdf/web-48591f7b27b1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/uxVZGVMwc8JuD0Px.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-242eb8588db3",
+   "kind": "article",
+   "title": "一次抓取背后：读懂智能的“计量”，Token经济学如何聚合“算力、模型、语料”？",
+   "url": "https://www.leiphone.com/category/industrynews/me3CuOBHyOqL14Pd.html",
+   "pdf_url": "",
+   "abstract": "质检线上，一台人形机器人从料框里取出平板，送进检测柜；完成检测后，再将成品分流。抓取入柜、多项目质检、成品分拣，机器人与工人同线作 业，一气呵 成 。 一次看似简单的抓取，背后串联起感知、判断与执行。在智元2026年9月公开的具身模型中，一帧画面可编码为24个视觉词元（Token）；相关实验还展示了模型生成连续动作的低延迟能力。但若要算清抓取的成本，不能只数视觉词元，还需综合推理耗时、芯片功耗、执行成功率和设备投入。 这恰好引出智能经济的两块硬成本：一端是模型处理信息的词元用量，另一端是硬件和系统完成任务的实际成本。Token正成为连接模型服务、推理算力与数据供给的重要计量接口，却还不是衡量所有智能作业价值的唯一尺度。 电力按“度”计量，模型服务按“词元”计费。Token经济学正加速渗透至更广泛的应用场景。9月11日，工业和信息化部信息技术发展司副司长王威伟在新闻发布会上披露：截至2026年6月，我国日均词元调用量已突破500万亿。当智能走向生产现场，这把尺子如何把算力、模型、语料组织起来，又如何进一步走向真实的生产力？ 图1 精灵G2人形机器人在3C产线质检工段作业 一 、智能有了“计量单位” 词元是模型对文本等信息进行编码和处理时使用的离散单位。在大模型API服务中，输入和输出通常按词元统计、计费；图像、声音和动作也可采用各自的词元化或其他表征方式，但不同模型的词元并不天然等价。清华大学教授、智谱AI创始人唐杰指出，词元具备“可计量、可定价、可交易特性”，可类比石油时代的“桶”和电力时代的“度”。 计量首先改变了购买方式。例如，上海移动推出“算力豆”，让用户以相对直观的额度方式购买和使用模型服务，使用量也能计入通信服务账单。对企业而言，按词元计价意味着可拆分不同部门、不同任务的模型使用成本，助力精细化预算管理。 价格体系也在细化。DeepSeek自8月起探索峰谷时段定价，9月10日又调整Flash系列模型价格：闲时每百万词元的缓存命中输入价为0.02元，高峰时段为其两倍。这里的0.02元是特定模型、特定时段、特定缓存条件下的输入价格，并不代表所有词元的统一价格。 国际科技企业也开始用词元观察需求与效率。谷歌在2026年第二季度业绩披露中表示，Gemini模型每分钟处理约220亿个API词元。英伟达同期数据中心业务收入为890亿美元，其负责人强调AI算力正形成可持续商业收入；公司还披露了新平台降低单词元生成成本的技术进展。调用量、收入和单词元成本虽属不同指标，却共同反映推理服务正走向规模化经营。 不过，Token计量的尺子仍需校准。不同模型的分词方式、缓存策略、模态类型、输出质量和计费口径各异，不能简单用“每百万Token多少钱”横向判定性价比。Token计量规范的编制和探索，正是着眼于跨模型用量比对和平台计费透明度等问题。 由此，Token经济学的第一层含义逐渐清晰：它让智能服务更容易计量和定价；但最终决定采购与部署的，仍是同等质量下的总成本，以及为用户创造的实际效果。 二、算力：从“暴力堆卡”到“丰产词元” 对算力产业而言，问题正从“建成多少算力”转向“能稳定交付多少有效推理”。浦东正集聚芯片、算力平台和应用企业，产业规模与算力供给相互支撑，但算力能否转化为收入，还需经过模型适配、系统调度与应用交付的检验。 9月11日，扎根上海的燧原科技登陆科创板，开盘市值超1700亿元。上市当天的行业报道指出，市场评价算力的方式正逐步从硬件配置转向Token生成效率和交付质量。这一变化并非意味着算力卡、服务器、云不再重要，而是客户更关心：在给定预算与服务",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-21T06:29:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/me3CuOBHyOqL14Pd.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Token 经济学：智能的计量单位如何聚合算力、模型与语料",
+   "summary_zh": "雷峰网梳理 Token 作为智能服务计量接口的现状：我国日均词元调用量突破 500 万亿，DeepSeek 试水峰谷定价，谷歌披露 Gemini 每分钟处理 220 亿词元，但跨模型分词与计费口径不一，性价比难以横向比较。",
+   "highlights_zh": [
+    "Token 被视为可计量、可定价、可交易的智能计量单位，类比电力「度」",
+    "DeepSeek 推出峰谷时段定价，闲时缓存命中输入价低至每百万词元 0.02 元",
+    "不同模型分词方式、缓存策略、模态与计费口径各异，Token 计量规范仍在编制"
+   ],
+   "why_zh": "理解 Token 计价逻辑与局限，是评估模型服务真实总成本的基础框架。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-21",
+   "slot": "evening",
+   "selected_at": "2026-10-21T10:00:35+00:00",
+   "mirror_pdf": "pdf/web-242eb8588db3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/me3CuOBHyOqL14Pd.html"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "开放模型与低价Agent模型正面冲击闭源高价体系",
-   "why": "DeepSeek V4.1 Flash、MiniMax M3.1 Flash以1/88价格登顶Agent评测，西方开放模型同步反击。",
+   "trend": "Agent模型竞争从能力榜转向单位任务成本，低价高吞吐成新胜负手",
+   "why": "MiniMax M3.1 Flash以1/88价格登顶Agent榜，DeepSeek开源DeepInfer并试水峰谷定价，成本战已进入推理层。",
    "refs": [
-    "web-064ad9927d51",
-    "web-7e6dc56ca6bf"
+    "web-7e6dc56ca6bf",
+    "web-f90527f992ac",
+    "web-287865542e2a",
+    "web-242eb8588db3"
    ]
   },
   {
-   "trend": "评测正从LLM裁判转向决策模型与冲突消解基准",
-   "why": "决策模型可低成本替代裁判但需调阈值；MMEnterprise-Bench显示加检索预算不必然提分。",
+   "trend": "评测方法出现分叉：决策模型替代LLM裁判，多模态企业基准暴露真实短板",
+   "why": "Hamel提出低成本决策模型评测但需调阈值；MMEnterprise-Bench显示加检索预算不必然提分，评测正从刷榜转向可靠性验证。",
    "refs": [
     "web-48ac9eccb51b",
-    "arxiv-2610.27911"
-   ]
-  },
-  {
-   "trend": "数据源可污染性成LLM可信度与评测的新风险点",
-   "why": "伪造统计数据即可被大模型引用，训练与检索数据源缺乏防污染机制。",
-   "refs": [
+    "arxiv-2610.27911",
     "web-6a01ce2d8f26"
    ]
   },
   {
-   "trend": "具身智能竞争转向数据获取与硬件自研的降本战",
-   "why": "HIL-UMI摆脱真机依赖降训练成本，OpenAI重启机器人团队自研电机。",
+   "trend": "算力瓶颈从芯片转向供电散热，算力市场走向可编程与物理结算",
+   "why": "SpaceX称超级智能部署最大瓶颈已是电力与基础设施；SF Compute判断算力交易正转向独立市场与物理结算。",
    "refs": [
-    "web-672ab93cb6d1",
-    "web-842171d1018d"
+    "web-7dc05274d91c",
+    "web-977d926a0cb6",
+    "web-b7331df4412b"
    ]
   },
   {
-   "trend": "算力瓶颈从芯片转向供电散热与可编程结算",
-   "why": "SpaceX称超级智能最大瓶颈是电力基础设施；算力市场走向物理结算。",
+   "trend": "具身智能重资产回归：真机数据缺口催生实训基础设施，巨头重启硬件自研",
+   "why": "OpenAI招27人自研电机重启机器人团队，北大HIL-UMI试图摆脱真机依赖，行业押注千万小时级数据供给。",
    "refs": [
-    "web-7dc05274d91c",
-    "web-977d926a0cb6"
+    "web-842171d1018d",
+    "web-672ab93cb6d1",
+    "web-48591f7b27b1",
+    "web-cba353da3f9d"
+   ]
+  },
+  {
+   "trend": "生成式架构向「状态与渲染分离」演进，实时可玩世界成为新验证场",
+   "why": "Matrix-Game 4.0用轻量引擎管状态、视频模型管画面，单卡实现60FPS；VAST开源整条文本到可玩链路。",
+   "refs": [
+    "arxiv-2610.27999",
+    "web-f7369a069939",
+    "arxiv-2610.28594"
    ]
   }
  ]
