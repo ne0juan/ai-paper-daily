@@ -1,11 +1,12 @@
 {
- "updated": "2026-10-21T03:34:45+00:00",
+ "updated": "2026-10-21T10:00:35+00:00",
  "days": [
   {
    "date": "2026-10-21",
-   "count": 18,
+   "count": 36,
    "slots": {
-    "noon": 18
+    "noon": 18,
+    "evening": 18
    }
   },
   {
@@ -246,41 +247,40 @@
    }
   }
  ],
- "total": 1469,
+ "total": 1487,
  "last_run": {
-  "at": "2026-10-21T03:34:45+00:00",
-  "slot": "noon",
-  "candidates": 151,
-  "new": 62,
-  "stale": 55,
-  "judged": 62,
+  "at": "2026-10-21T10:00:35+00:00",
+  "slot": "evening",
+  "candidates": 215,
+  "new": 131,
+  "stale": 43,
+  "judged": 100,
   "selected": 18,
   "mirrored": 15,
   "by_category": {
-   "观点": 4,
    "技术": 4,
-   "资讯": 10
+   "资讯": 11,
+   "观点": 3
   },
   "by_source": {
-   "HF Daily Papers": 33,
+   "HF Daily Papers": 43,
+   "arXiv 新论文": 60,
    "Hacker News": 3,
    "GitHub 新项目": 7,
-   "量子位": 9,
-   "极客公园": 5,
-   "IT之家": 11,
-   "爱范儿": 6,
-   "少数派": 2,
-   "雷峰网": 11,
-   "钛媒体": 5,
+   "量子位": 10,
+   "极客公园": 7,
+   "IT之家": 8,
+   "爱范儿": 5,
+   "少数派": 3,
+   "雷峰网": 13,
+   "钛媒体": 3,
    "InfoQ 中文": 10,
    "宝玉": 1,
    "Ethan Mollick": 1,
    "Simon Willison": 1,
    "Nathan Lambert": 1,
-   "Latent Space": 2,
+   "Latent Space": 4,
    "Jack Clark": 1,
-   "Stratechery": 1,
-   "SemiAnalysis": 1,
    "Arvind Narayanan": 1,
    "Zvi Mowshowitz": 2,
    "Timothy B. Lee": 1,
@@ -289,11 +289,8 @@
    "METR": 1,
    "Hamel Husain": 1,
    "OpenAI": 4,
-   "NVIDIA": 3,
+   "NVIDIA": 5,
    "Microsoft": 2,
-   "Anthropic": 4,
-   "Mistral": 1,
-   "xAI": 1,
    "GitHub Trending": 13
   },
   "llm": true,
