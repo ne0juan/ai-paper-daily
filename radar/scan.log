@@ -1,13 +1,12 @@
-2026-10-21 10:00:36,131 INFO source hf_daily           -> 43 items
-2026-10-21 10:00:39,922 INFO source hackernews         -> 3 items
-2026-10-21 10:01:21,454 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-21 10:01:30,131 INFO source rss                -> 92 items
-2026-10-21 10:01:31,753 INFO source html_lists         -> 0 items
-2026-10-21 10:01:31,753 INFO source x                  -> 0 items
-2026-10-21 10:01:32,393 INFO source arxiv_search       -> 60 items
-2026-10-21 10:01:43,104 INFO source github             -> 20 items
-2026-10-21 10:01:43,106 INFO candidates: 215 (stale dropped 43, new 131)
-2026-10-21 10:03:14,718 INFO llm judged 100/100 (calls=13)
-2026-10-21 10:03:21,527 WARNING snapshot https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/: blocked or empty page
-2026-10-21 10:03:33,467 WARNING snapshot https://thezvi.wordpress.com/2026/10/20/anthropic-does-not-understand-why-its-draft-bill-was-unacceptable-and-troubling/: blocked or empty page
-2026-10-21 10:05:26,161 INFO run done: {"at": "2026-10-21T10:00:35+00:00", "slot": "evening", "candidates": 215, "new": 131, "stale": 43, "judged": 100, "selected": 18, "mirrored": 15, "by_category": {"技术": 4, "资讯": 11, "观点": 3}, "by_source": {"HF Daily Papers": 43, "arXiv 新论文": 60, "Hacker News": 3, "GitHub 新项目": 7, "量子位": 10, "极客公园": 7, "IT之家": 8, "爱范儿": 5, "少数派": 3, "雷峰网": 13, "钛媒体": 3, "InfoQ 中文": 10, "宝玉": 1, "Ethan Mollick": 1, "Simon Willison": 1, "Nathan Lambert": 1, "Latent Space": 4, "Jack Clark": 1, "Arvind Narayanan": 1, "Zvi Mowshowitz": 2, "Timothy B. Lee": 1, "科学空间": 1, "Hugging Face Blog": 6, "METR": 1, "Hamel Husain": 1, "OpenAI": 4, "NVIDIA": 5, "Microsoft": 2, "GitHub Trending": 13}, "llm": true, "translated": 0}
+2026-10-21 15:54:56,088 INFO source hf_daily           -> 45 items
+2026-10-21 15:54:56,373 INFO source hackernews         -> 4 items
+2026-10-21 15:55:11,732 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-21 15:55:20,896 INFO source rss                -> 108 items
+2026-10-21 15:55:22,999 INFO source html_lists         -> 1 items
+2026-10-21 15:55:22,999 INFO source x                  -> 0 items
+2026-10-21 15:55:23,433 INFO source arxiv_search       -> 60 items
+2026-10-21 15:55:34,755 INFO source github             -> 20 items
+2026-10-21 15:55:34,757 INFO candidates: 236 (stale dropped 34, new 147)
+2026-10-21 15:57:03,999 INFO llm judged 100/100 (calls=13)
+2026-10-21 15:57:06,029 WARNING pdf arxiv-2610.28630: too large (> 25165824 bytes): https://arxiv.org/pdf/2610.28630
+2026-10-21 15:59:51,542 INFO run done: {"at": "2026-10-21T15:54:55+00:00", "slot": "evening", "candidates": 236, "new": 147, "stale": 34, "judged": 100, "selected": 18, "mirrored": 16, "by_category": {"技术": 4, "资讯": 12, "观点": 2}, "by_source": {"HF Daily Papers": 45, "arXiv 新论文": 60, "Hacker News": 4, "量子位": 10, "极客公园": 5, "IT之家": 16, "爱范儿": 4, "少数派": 2, "雷峰网": 13, "钛媒体": 5, "InfoQ 中文": 12, "宝玉": 1, "Ethan Mollick": 1, "Simon Willison": 1, "Nathan Lambert": 1, "Latent Space": 5, "Arvind Narayanan": 1, "Zvi Mowshowitz": 1, "Hugging Face Blog": 7, "METR": 1, "Hamel Husain": 1, "OpenAI": 8, "NVIDIA": 12, "Microsoft": 1, "Mistral": 1, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
