@@ -1,6 +1,13 @@
 {
- "updated": "2026-10-21T15:54:55+00:00",
+ "updated": "2026-10-22T03:34:53+00:00",
  "days": [
+  {
+   "date": "2026-10-22",
+   "count": 21,
+   "slots": {
+    "noon": 21
+   }
+  },
   {
    "date": "2026-10-21",
    "count": 54,
@@ -247,47 +254,48 @@
    }
   }
  ],
- "total": 1505,
+ "total": 1526,
  "last_run": {
-  "at": "2026-10-21T15:54:55+00:00",
-  "slot": "evening",
-  "candidates": 236,
-  "new": 147,
-  "stale": 34,
-  "judged": 100,
-  "selected": 18,
-  "mirrored": 16,
+  "at": "2026-10-22T03:34:53+00:00",
+  "slot": "noon",
+  "candidates": 159,
+  "new": 73,
+  "stale": 48,
+  "judged": 70,
+  "selected": 21,
+  "mirrored": 18,
   "by_category": {
+   "资讯": 11,
+   "观点": 3,
    "技术": 4,
-   "资讯": 12,
-   "观点": 2
+   "项目": 3
   },
   "by_source": {
-   "HF Daily Papers": 45,
-   "arXiv 新论文": 60,
-   "Hacker News": 4,
+   "HF Daily Papers": 22,
+   "Hacker News": 7,
+   "OpenAI": 11,
    "量子位": 10,
    "极客公园": 5,
-   "IT之家": 16,
+   "IT之家": 15,
    "爱范儿": 4,
    "少数派": 2,
    "雷峰网": 13,
-   "钛媒体": 5,
+   "钛媒体": 6,
    "InfoQ 中文": 12,
-   "宝玉": 1,
    "Ethan Mollick": 1,
    "Simon Willison": 1,
    "Nathan Lambert": 1,
    "Latent Space": 5,
-   "Arvind Narayanan": 1,
-   "Zvi Mowshowitz": 1,
-   "Hugging Face Blog": 7,
+   "SemiAnalysis": 1,
+   "Tomasz Tunguz": 1,
+   "Zvi Mowshowitz": 2,
+   "Hugging Face Blog": 6,
+   "Google Research": 1,
    "METR": 1,
    "Hamel Husain": 1,
-   "OpenAI": 8,
-   "NVIDIA": 12,
+   "NVIDIA": 11,
    "Microsoft": 1,
-   "Mistral": 1,
+   "Anthropic": 1,
    "GitHub Trending": 12,
    "GitHub 新项目": 8
   },
