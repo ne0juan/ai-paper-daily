@@ -1135,46 +1135,1388 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "arxiv-2610.29989",
+   "kind": "paper",
+   "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
+   "url": "https://arxiv.org/abs/2610.29989",
+   "pdf_url": "https://arxiv.org/pdf/2610.29989",
+   "abstract": "Autoregressive video diffusion models generate videos chunk by chunk, yet producing plausible continuations does not guarantee that they capture how scenes evolve. Under teacher forcing, strong temporal redundancy may allow local visual continuity to serve as a shortcut for current-chunk denoising, reducing the pressure to model visual evolution. We introduce Future Chunk Prediction (FCP), an auxiliary objective jointly optimized with teacher-forced denoising that predicts temporally separated chunks without access to the intervening visual context. Drawing supervision directly from training videos, FCP requires no additional pretrained visual encoder and leaves autoregressive inference unchanged. Our method achieves superior physical plausibility over standard teacher-forced autoregressive training with a lower overall training compute budget, highlighting the effectiveness and efficiency of future-chunk supervision for modeling visual evolution. Intriguingly, our visualizations suggest that FCP fosters a more structured representation space, which may be valuable for building autoregressive world models.",
+   "authors": [
+    "Ruopeng Gao",
+    "Yukun Huang",
+    "Jiarui Hu",
+    "Shuai Wang",
+    "Wenbo Hu",
+    "Ying Shan",
+    "Limin Wang"
+   ],
+   "orgs": [
+    "ARC Lab, Tencent"
+   ],
+   "published": "2026-10-21T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.29989",
+     "signal": "▲ 68",
+     "metric": 68
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "腾讯ARC提出未来块预测，让自回归视频模型真正学会场景演化",
+   "summary_zh": "腾讯ARC发现教师强制下视频模型靠时间冗余走捷径，提出未来块预测辅助目标，在更低训练算力下显著提升物理合理性，并催生更结构化的表征空间。",
+   "highlights_zh": [
+    "指出教师强制训练下模型利用局部视觉连续性走捷径，弱化了对场景演化的建模压力",
+    "FCP直接以训练视频为监督，无需额外预训练视觉编码器，推理流程不变",
+    "可视化显示表征空间更结构化，对构建自回归世界模型有潜在价值"
+   ],
+   "why_zh": "视频生成走向世界模型的关键一步，揭示了训练目标设计如何影响物理理解能力。",
+   "tags": [
+    "多模态",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.7132,
+   "score_llm": 8.0,
+   "score": 0.7653,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T10:00:36+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.29989"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.29989"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.29989"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.29989"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.29989"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.29989"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/TencentARC/Looking-Ahead"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.29458",
+   "kind": "paper",
+   "title": "Harness Scaling for Generalizable Agentic Reinforcement Learning",
+   "url": "https://arxiv.org/abs/2610.29458",
+   "pdf_url": "https://arxiv.org/pdf/2610.29458",
+   "abstract": "Agent harnesses have become a central component of modern agentic systems, shaping how models use tools, manage context, and coordinate long-horizon interaction. Realizing the benefits of these harnesses depends on how effectively the underlying model can make use of them, motivating reinforcement learning directly through the harness. However, existing approaches typically train through a single fixed harness, which can lead to specialization and limited transfer across harness configurations. To address this, we introduce \\textbf{Harness Scaling}, a new scaling dimension for agentic RL that extends training from a single harness to diverse execution configurations. Concretely, we construct a factorized harness space, select a compact training subset with balanced factorial coverage, and organize cross-harness training to combine global coverage with controlled variation for the same task. Across multiple benchmarks, model scales, and RL algorithms, Harness Scaling consistently improves generalization to unseen white-box configurations. Moreover, models trained through structured white-box variation transfer effectively to unseen external black-box harnesses, outperforming models trained through a single complex black-box harness. These results establish harness diversity as a meaningful scaling dimension for agentic RL and highlight the importance of how this diversity is organized for cross-harness generalization.",
+   "authors": [
+    "Fei Bai",
+    "Huatong Song",
+    "Chuan Hao",
+    "Ran Tao",
+    "Jian Yang",
+    "Bryan Dai",
+    "Wayne Xin Zhao",
+    "Ji-Rong Wen"
+   ],
+   "orgs": [
+    "Renmin University of China"
+   ],
+   "published": "2026-10-21T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.29458",
+     "signal": "▲ 9",
+     "metric": 9
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.29458",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "人大提出Harness Scaling：让智能体RL在多样脚手架间泛化",
+   "summary_zh": "人大团队提出Harness Scaling，把智能体RL训练从单一脚手架扩展到因子化设计的多样执行配置，显著提升对未见白盒及黑盒脚手架的泛化能力。",
+   "highlights_zh": [
+    "构建因子化harness空间，选取平衡因子覆盖的紧凑训练子集",
+    "跨harness训练兼顾全局覆盖与同任务的受控变化",
+    "在多个基准、模型规模和RL算法上一致提升泛化，且能迁移到外部黑盒harness"
+   ],
+   "why_zh": "把harness多样性确立为智能体RL的新扩展维度，对训练通用agent有直接指导意义。",
+   "tags": [
+    "智能体",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.5777,
+   "score_llm": 8.0,
+   "score": 0.7111,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T10:00:36+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.29458.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.29458"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.29458"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.29458"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.29458"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.29458"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.29458"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/RUCAIBox/Harness-Scaling"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3a4ce7113b65",
+   "kind": "article",
+   "title": "AI 到处挖漏洞一整年，终于给人类爆了个大的",
+   "url": "http://www.geekpark.net/news/372731",
+   "pdf_url": "",
+   "abstract": "头图图片来源：Wiz 10 月 21 日晚，如果你有在社交媒体冲浪的习惯，可能会发现一个奇怪的网站关闭潮：几乎是在同一时间，全球多个国家和地区的各种重要基础设施网站纷纷宣布临时关闭。 周三。芬兰政府把所有对外的网络服务关掉了；荷兰国家网络安全中心连自己的官网也撤了下来，鹿特丹港、荷兰足协、五大政党的网站和多家医院紧随其后；法国内政部让各省政府网站暂时下线，德国联邦 IT 服务商关掉了多个站点，比利时外交部、维基媒体基金会、任天堂，也相继停掉了部分服务。 荷兰政府宣布 DigiD 等网站预防性下线｜图片来源：Rijksoverheid 但这些网站其实都没有被黑，而是自己主动关掉的。 原因是 PHP 的两个漏洞：PHP 是世界上用得最多的网站后端语言，W3Techs 的统计里，能识别出后端语言的网站约七成跑在它上面。这两个漏洞被合称为 PHP2Shell，攻击者不需要登录，就有可能远程控制整台服务器。 最先找到它们的，是 AI。 不过 AI 找到漏洞早就不是新闻了。但据目前的公开报道，这是第一次，一个由 AI 挖出来的漏洞，让好几个国家的政府在同一天关掉了自己的网站。它真正宣告结束的，是网络安全里一条从没写进教科书、却一直在起作用的规矩：很多漏洞之所以安全，只是因为攻击它们太累了。 PHP 官方给这两个漏洞的严重程度评分都是 9.2（满分 10），安全公司 watchTowr 直接打了满分。 它们都出在 PHP 最底层的内存管理上，和网站自己的代码写得好不好无关。PHP 官方的说法是，所有处理网页请求的 PHP 都受影响；Cloudflare 说，受影响的版本一路追溯到十多年前的 PHP 5.4。PHP 基金会的 Volker Dusch 拿它和 2014 年的「心脏出血」比，说这是十多年来最严重的 PHP 安全问题。 让各国政府紧张的，是接下来混乱的 48 小时：漏洞原本处在保密期，按照行业惯例，软件方先把补丁准备好，再和发现者一起公开。 但 10 月 20 日，有人在 Hacker News 和地下论坛 BreachForums 上放出了消息，watchTowr 当天确认漏洞是真的。当晚，PHP 官方紧急宣布，补丁提前一天，在 21 日 14:00（UTC）发布。 补丁出来之前，攻击尝试就开始了。Cloudflare 的 CTO Dane Knecht 在补丁发布前近六小时就在 X 上说，「我们看到早期攻击正在出现」。美国国家安全局、英国国家网络安全中心、欧盟网络安全机构 CERT-EU 给出的建议几乎一致：来不及打补丁的系统，先下线。 于是就有了开头那一幕。 三家公司联合披露了这组漏洞｜图片来源：PHP2Shell 幽灵漏洞复活 PHP2Shell 最反常的地方在于，它并不新，它甚至并不是昨天刚刚发现的。 首个发现它的安全公司 Calif 在技术文章里，把它的源头追溯到 2004 年。在 20 年前，安全研究员 Stefan Esser 就发现过 PHP 在内存耗尽时的同类问题。2020 年，有人提交过相关的 bug 报告，几乎没人理会；2024 年，一次第三方资助的 PHP 安全审计又碰到了相关问题，但因为没能证明它真的可以被利用，最后没有修。 这个漏洞在 PHP 里躺了十多年，不止一次被人摸到了边，却一直没有人把它做成真正的攻击。 2020 年的 bug 报告，几乎没人理会｜图片来源：Calif 原因不是没人想到，而是太费劲。独立作者 Nick Rogers 在分析文章里说，把这类漏洞做成能用的攻击，需要「数周枯燥的手工调试」，过去没有人愿",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-22T06:15:28+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372731",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI挖出的PHP漏洞致多国政府紧急下线网站",
+   "summary_zh": "AI发现的PHP2Shell漏洞（严重度9.2）影响约七成网站后端，补丁提前泄露后芬兰、荷兰、法国等多国政府预防性下线网站，这是首次由AI发现的漏洞引发全球性应急响应。",
+   "highlights_zh": [
+    "漏洞根源可追溯至2004年，此前多次被触及却未被武器化",
+    "AI大幅降低了漏洞挖掘成本，'太累所以安全'的旧规则失效",
+    "补丁提前泄露引发48小时混乱，多国建议来不及修复的系统先下线"
+   ],
+   "why_zh": "AI攻防能力跃迁的标志性事件，安全行业格局可能因此改变。",
+   "tags": [
+    "对齐与安全",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 9.0,
+   "score": 0.708,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T10:00:36+00:00",
+   "mirror_pdf": "pdf/web-3a4ce7113b65.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372731"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-dc028fea27bb",
+   "kind": "article",
+   "title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
+   "url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
+   "pdf_url": "",
+   "abstract": "The Big Hardening begins",
+   "authors": [
+    "swyx"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-22T07:42:44+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "OpenAI用GPT-5.6参与发现PHP2Shell漏洞",
+   "summary_zh": "Latent Space报道称OpenAI的Patch the Planet项目是发现PHP2Shell核心PHP漏洞的两方之一，使用GPT-5.6 Sol模型，协同响应历时两个月。",
+   "highlights_zh": [
+    "AI厂商直接参与关键基础设施漏洞发现",
+    "与另一发现方协同完成两个月的披露流程",
+    "标志'大硬化'（Big Hardening）时代开启"
+   ],
+   "why_zh": "补充了PHP漏洞事件的AI侧关键细节，可与极客公园报道对照阅读。",
+   "tags": [
+    "对齐与安全",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T10:00:36+00:00",
+   "mirror_pdf": "pdf/web-dc028fea27bb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.29441",
+   "kind": "paper",
+   "title": "Sparsity Should Be ALLOTted by Output: Training-Free Allocation of Block-Sparse Attention for Video Diffusion Transformers",
+   "url": "https://arxiv.org/abs/2610.29441",
+   "pdf_url": "https://arxiv.org/pdf/2610.29441",
+   "abstract": "Full 3D attention is costly in video Diffusion Transformers. Block-sparse attention reduces this cost by computing only selected attention blocks. However, existing methods either overlook the potential to optimize sparsity allocation or rely on heuristic rules or local metrics to guide it. In this work, we observe that sparsifying attention in different layers and at different denoising steps affects final-video fidelity to substantially different degrees. Yet the identities of the most sensitive layer-step pairs remain nearly unchanged across inputs. Building on these findings, we propose Allocating Layer-step Latency by Output Tests (ALLOT), a training-free sparsity allocation method. Treating each layer-step pair as a cell, ALLOT estimates each cell's contribution to final-video error through (i) cell probing and (ii) trajectory calibration, then jointly optimizes cell densities under a measured-latency budget. It preserves existing selection strategies and kernels, replacing only the allocation component. At equal or shorter wall-clock time, ALLOT outperforms every compared allocation strategy with XAttention, with an 11.8 dB PSNR gain on HunyuanVideo. Extensive experiments across four additional published pipelines on Wan2.1, Wan2.2, and HunyuanVideo show that ALLOT outperforms or ties the default in all nine settings.",
+   "authors": [
+    "Tianze Xia",
+    "Xiaoling Zhou",
+    "Ruya Lan",
+    "Yiqiao Liao",
+    "Chengru Song",
+    "Shiming Xiang"
+   ],
+   "orgs": [
+    "KlingAI Research"
+   ],
+   "published": "2026-10-21T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.29441",
+     "signal": "▲ 12",
+     "metric": 12
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "ALLOT：按输出误差分配视频DiT块稀疏注意力",
+   "summary_zh": "可灵团队提出免训练稀疏分配法ALLOT，按层-去噪步对最终画质的贡献分配稀疏度，等时延下HunyuanVideo PSNR提升11.8dB，九个设置全面不劣于默认。",
+   "highlights_zh": [
+    "发现不同层与去噪步对画质敏感度差异巨大，但敏感位置跨输入基本不变",
+    "用单元探测+轨迹校准估计各层-步对最终误差的贡献，在实测时延预算下联合优化密度",
+    "只替换分配组件，兼容现有稀疏选择策略与kernel，可直接接入Wan2.1/2.2、HunyuanVideo"
+   ],
+   "why_zh": "视频生成推理降本的关键一环，免训练即插即用，工程落地价值高。",
+   "tags": [
+    "效率与系统",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.5334,
+   "score_llm": 8.0,
+   "score": 0.6934,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T10:00:36+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.29441.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.29441"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.29441"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.29441"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.29441"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.29441"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.29441"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.30120",
+   "kind": "paper",
+   "title": "ALPS: Visual State Encoders for World Models",
+   "url": "https://arxiv.org/abs/2610.30120",
+   "pdf_url": "https://arxiv.org/pdf/2610.30120",
+   "abstract": "World models turn visual representations into predictions and actions. We argue that their visual foundation should combine physical-state information, native language alignment, and pixel reconstruction, so that a single representation can support prediction, instruction, and inspection. However, existing encoders typically specialize in only one or two of these capabilities; we therefore introduce ALPS, a pretrained visual state encoder that unifies all three in a single set of patch tokens. Using only still images and text, we pretrain a ViT-B/16 from scratch with language, reconstruction, and spatial correspondence objectives, and then refine it via cross-view self-distillation. In a unified evaluation across fifteen public encoders, ALPS achieves the lowest aggregate LIBERO state-probe error among ViT-B models (matching the 3.5x larger V-JEPA 2-L) while maintaining strong language alignment and accurate pixel reconstruction. Downstream, frozen ALPS tokens reach the highest mean policy success on LIBERO (85.5%) when paired with our native text tower, match or exceed leading encoders on world-model planning across PushT, Wall, and Granular, and allow predicted future tokens to be decoded directly into pixels for visual inspection. We hope this work helps establish visual pretraining as a shared foundation for understanding, prediction, and action in world models.",
+   "authors": [
+    "Yanqing Liu",
+    "Letian Zhang",
+    "Chengzhi Liu",
+    "Zijun Wang",
+    "Jieru Mei",
+    "Hongliang Fei",
+    "Yuyin Zhou",
+    "Cihang Xie"
+   ],
+   "orgs": [
+    "UCSC-VLAA"
+   ],
+   "published": "2026-10-21T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.30120",
+     "signal": "▲ 11",
+     "metric": 11
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "ALPS：统一物理状态、语言与重建的视觉状态编码器",
+   "summary_zh": "UCSC团队用纯图像与文本从头预训练ViT-B/16，融合语言对齐、像素重建与跨视角自蒸馏，状态探针误差追平3.5倍大的V-JEPA 2-L，LIBERO策略成功率85.5%。",
+   "highlights_zh": [
+    "单一patch token同时支持预测、指令理解与像素级可视化检查",
+    "十五个公开编码器统一评测中ViT-B规模状态探针误差最低",
+    "冻结特征即可用于世界模型规划，PushT/Wall/Granular上持平或超越领先编码器"
+   ],
+   "why_zh": "世界模型视觉底座的一次系统性统一尝试，评测扎实，值得关注。",
+   "tags": [
+    "视觉",
+    "机器人",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.5286,
+   "score_llm": 8.0,
+   "score": 0.6914,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T10:00:36+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.30120.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.30120"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.30120"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.30120"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.30120"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.30120"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.30120"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/UCSC-VLAA/ALPS"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-77c10bd5f145",
+   "kind": "article",
+   "title": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
+   "url": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
+   "pdf_url": "",
+   "abstract": "Founded in a tent near the Berlin Wall in 1980, the Tempodrom moved several times before settling near Anhalter Bahnhof in 2001. Its permanent home has since hosted concerts, galas and political events. Today, it hosts a different kind of spectacle. GTC Berlin runs three days, with more than 100 sessions on agentic AI, robotics, […]",
+   "authors": [
+    "Brian Caulfield"
+   ],
+   "orgs": [
+    "NVIDIA"
+   ],
+   "published": "2026-10-21T09:30:16+00:00",
+   "sources": [
+    {
+     "name": "NVIDIA",
+     "authority": 0.75,
+     "url": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "GTC柏林2026：黄仁勋主题演讲实时更新",
+   "summary_zh": "英伟达GTC柏林站开幕，黄仁勋发表主题演讲，三天议程超100场，聚焦智能体AI与机器人。",
+   "highlights_zh": [
+    "黄仁勋在GTC柏林发表主题演讲",
+    "三天超100场会议，聚焦智能体AI与机器人",
+    "欧洲市场成为英伟达战略重点"
+   ],
+   "why_zh": "把握英伟达在欧洲的战略布局与智能体AI最新动向",
+   "tags": [
+    "智能体",
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 8.0,
+   "score": 0.672,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T10:00:36+00:00",
+   "mirror_pdf": "pdf/web-77c10bd5f145.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a0e7a23f62c4",
+   "kind": "article",
+   "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+   "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-21T14:00:26Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50181114",
+     "signal": "515 pts",
+     "metric": 515
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "LiteLLM 1.107.0遭投毒：PyPI版本暗藏凭据窃取与后门",
+   "summary_zh": "LiteLLM 1.107.0在PyPI上的发布版本被植入凭据窃取器和后门，使用该版本的项目面临API密钥与云凭据泄露风险。",
+   "highlights_zh": [
+    "LiteLLM是广泛用于统一调用多家大模型API的中间层库，影响面大",
+    "恶意版本会窃取凭据并留下后门，属于典型供应链攻击",
+    "建议立即排查依赖版本并轮换相关API密钥"
+   ],
+   "why_zh": "AI基础设施供应链安全事件，凡是用LiteLLM做模型网关的团队都需立刻自查。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6129,
+   "score_llm": 7.0,
+   "score": 0.6652,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T10:00:36+00:00",
+   "mirror_pdf": "pdf/web-a0e7a23f62c4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50181114"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bb2a91ec4d23",
+   "kind": "article",
+   "title": "Qwen3-Coder writes less secure code when told it's for a US persona",
+   "url": "https://www.hirundo.io/blog/qwen3-coder-vulnerabilities",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-21T12:22:39Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50179706",
+     "signal": "241 pts",
+     "metric": 241
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Qwen3-Coder 在被告知面向美国用户时写出更不安全的代码",
+   "summary_zh": "研究发现 Qwen3-Coder 在提示中声明服务美国用户时，生成代码的安全性下降，揭示模型行为随身份提示漂移的风险。",
+   "highlights_zh": [
+    "同一模型在不同用户身份提示下安全表现不一致",
+    "对代码生成类产品的安全评测提出新维度",
+    "Hacker News 高热度，社区关注模型对齐稳定性"
+   ],
+   "why_zh": "做代码生成或安全评测的团队应关注提示上下文对模型安全性的影响。",
+   "tags": [
+    "对齐与安全",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5774,
+   "score_llm": 7.0,
+   "score": 0.651,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T10:00:36+00:00",
+   "mirror_pdf": "pdf/web-bb2a91ec4d23.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.hirundo.io/blog/qwen3-coder-vulnerabilities"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50179706"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-20bbfe40082a",
+   "kind": "article",
+   "title": "被迫下场，Anthropic 推出个人 AI 助理 Claude Duet",
+   "url": "http://www.geekpark.net/news/372740",
+   "pdf_url": "",
+   "abstract": "作者｜桦林舞王 编辑｜靖宇 用过各种 AI 助手的人大概都有过同一种疲劳：你不开口，它就装死；你一旦开口，它又把所有选择抛回给你。 过去两个多月，硅谷巨头们几乎排着队想打破这种被动状态。8 月 xAI 推出能多智能体分工的 Grok Bot，9 月 Meta 带着能在 WhatsApp 里帮人砍账单的 Muse 席卷千万用户，紧接着 OpenAI 在开发者大会上发布 Dots。行业似乎达成了一个默契：聊天框该翻篇了，AI 应该自己找事做。 美国时间 10 月 21 日，Anthropic 终于拿出了自己的答案：Claude Duet。 Claude Duet 的早报界面｜图片来源：Anthropic 这是四家里最晚亮相的一个，也是最「奇怪」的一个。在所有人都急着证明自家 AI 无所不能的时候，Anthropic 像个严肃过头的管家，不仅是唯一主动承认「订票这类生活杂事我们做得没那么好」的厂商，还在发布文档里白纸黑字地给自己画下一道又一道红线。 这恰恰触到了整场竞赛里很少有人愿意直视的问题。 主动型智能体真正的分水岭，不在于能替你发多少封邮件，而在于它有没有足够的判断力，知道什么时候闭嘴。 01 什么叫「主动」，这是个难题 在官方展示的早报界面里，Duet 给一位叫 Elena 的创业者发来晨间汇总。没有冗长的客套，只有三条最紧要的动态：芝加哥咖啡店开业的卫生许可需要她点头外加 640 美元；A 轮会议幻灯片的第 6 和第 9 页需要过目；招聘候选人手上的另一份 offer 今晚 6 点到期。 Duet 把需要你点头的事放在最前面｜图片来源：Anthropic Duet 可以把文件起草好、把金额和选项排列整齐，但最后一刀必须由人来切。发布视频里还有一句更能说明问题的对话：「芝加哥店 26 天后开业，我发现你还没申请卫生许可，已经帮你起草好了。另外有条更新可以等，我们周一再处理。」 「告诉你哪些事可以等」，这种对轻重缓急的拿捏，正是 Anthropic 把赌注押在 Claude Opus 5.5 上的原因。 过去的自动化工具之所以沦为噪音制造机，是因为规则系统读不懂上下文，重要客户的催单和一封广告邮件，在触发词层面可能毫无差别。一个把每次风吹草动都变成手机震动的智能体，用户的唯一反应就是关掉它的通知。 Anthropic Labs 联合负责人 Mike Krieger 在发布视频里说得很直白： 它要能判断何时该主动出击，何时该代表你采取行动 。 为了这种分寸感，Duet 甚至表现出一种近乎保守的迟钝。它不实时监控你的应用，而是 每隔几个小时才去已连接的账户巡检一次 。官方的解释很务实：不停地查，会很快烧光你的套餐额度。它宁可承担两次检查之间漏掉消息的代价。 Duet 可调用的部分连接器｜图片来源：Anthropic 更明显的克制体现在安全边界上。Duet 能调用 6000 多个连接器和插件，从 Gmail、Slack、HubSpot 到 QuickBooks、Stripe 和 Gusto，可以替你查未付发票、准备工资单、排查日历冲突。 但 Anthropic 竖起了几道没有商量余地的墙：发消息、付款、签文件、删除任何东西，都必须把要做的事摆出来等你批准；证券交易和账户之间转账，即便你亲口授权，Duet 也不做。 官方甚至在发布当天就挑明，它可能误读一段对话，也可能误判一件事的紧急程度。这种自揭短板的做法，在习惯了兜售超级智能叙事的硅谷显得格格不入。但对每天被琐事缠身的人来说，一个知道自己哪里会犯错的工具，远比一个盲目自信的黑盒让人踏实。 02 放弃生",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-22T07:23:08+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372740",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic推出主动型助理Claude Duet",
+   "summary_zh": "Anthropic发布主动型个人助理Claude Duet，可巡检Gmail、Slack、Stripe等6000多个连接器并主动提醒待办，但发消息、付款、签文件均需人工批准，证券交易与转账一律不做。",
+   "highlights_zh": [
+    "核心能力是判断'哪些事可以等'，而非无差别推送通知",
+    "每隔几小时巡检一次而非实时监控，以控制额度消耗",
+    "明确安全红线：付款、签约、删除必须人工确认"
+   ],
+   "why_zh": "主动型Agent竞赛中少见的克制路线，安全边界设计值得借鉴。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T10:00:36+00:00",
+   "mirror_pdf": "pdf/web-20bbfe40082a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372740"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b7acf8ecf445",
+   "kind": "article",
+   "title": "谁在给OpenAI供应具身数据？",
+   "url": "https://www.qbitai.com/2026/10/504800.html",
+   "pdf_url": "",
+   "abstract": "挤进全球Physical AI核心供应链",
+   "authors": [
+    "梦瑶"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-22T07:05:59+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/504800.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谁在给OpenAI供应具身数据？",
+   "summary_zh": "梳理为OpenAI等Physical AI玩家供应具身数据的中国厂商，揭示机器人训练数据正成为全球AI供应链的新环节。",
+   "highlights_zh": [
+    "具身智能训练数据成为稀缺资源",
+    "中国数据采集与标注厂商挤入全球供应链",
+    "反映Physical AI对真实交互数据的强依赖"
+   ],
+   "why_zh": "看清具身智能上游数据供给格局，判断机器人赛道卡位机会。",
+   "tags": [
+    "机器人",
+    "数据与评测",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T10:00:36+00:00",
+   "mirror_pdf": "pdf/web-b7acf8ecf445.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/504800.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0c073ae221e1",
+   "kind": "article",
+   "title": "多智能体协同重构医疗AI！清华AIR孵化：医生AI分身“坐诊”医院",
+   "url": "https://www.qbitai.com/2026/10/504734.html",
+   "pdf_url": "",
+   "abstract": "医疗AI质变时刻",
+   "authors": [
+    "鹭羽"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-21T11:30:59+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/504734.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "清华AIR孵化团队用多智能体重构医疗AI",
+   "summary_zh": "清华AIR孵化团队推出多智能体协同的医疗AI，让医生AI分身在医院“坐诊”，从单点问答走向协同诊疗流程。",
+   "highlights_zh": [
+    "多智能体分工模拟医生协作诊疗",
+    "AI分身进入真实医院场景试点",
+    "医疗AI从工具走向流程重构"
+   ],
+   "why_zh": "观察智能体在垂直行业落地的真实形态与医疗场景门槛。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T10:00:36+00:00",
+   "mirror_pdf": "pdf/web-0c073ae221e1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/504734.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7085df28cfb1",
+   "kind": "article",
+   "title": "AI 漫剧越做越快，赚钱却没那么容易了",
+   "url": "http://www.geekpark.net/news/372746",
+   "pdf_url": "",
+   "abstract": "「一个创作者加上 IP 和 AI 工具，就能完成漫剧创作全流程。」 在上周举行的阅文创作大会上，阅文集团 CEO 侯晓楠这样描述正在兴起的「一人公司」。当日，阅文发布首批 AI 精品动画项目，将 DramaBuddy 漫剧助手升级为 OPC 一站式平台，并推出「IP 委员会」模式，试图把故事从文字到影像，再到后续开发的过程连接起来。 看起来，AI 带来的机会似乎还在不断扩大。 但身处一线的漫剧从业者们，正感受着更真实、更锋利的行业变化。 在会后，极客公园参与了对阅文 AI 平台负责人陈炜于、酱油文化创始人黄浩南（业内称「酱油」）、前尾猴文化总经理三行的采访。其中，酱油作为最早一批扎进 AI 漫剧赛道的从业者，从去年风口期到今年红海期，他的经历几乎就是行业变化的缩影—— 漫剧越做越快、产能越翻越高，赚钱却反而没那么容易了。 一、产能翻了几倍，营收却没怎么涨 在酱油的印象里，一年前的漫剧生意要好做太多。 2025 年这个时候，行业默认的制作标准是 1000 元 / 分钟，一部 80 分钟的漫剧做下来成本约 10 万元。他的团队 10 个人凑在一起，一个月才能磨出一部剧，即便产能不高，利润也相当可观，属于「躺着都能赚钱」的阶段。 仅仅一年时间，整个成本和产能模型就翻了个儿。 如今行业里标准化的 80 分质量漫剧，单分钟成本已经压到 400 元，一部 80 分钟的作品总成本约 4 万元，比去年降了 60%。人效更是涨了数倍：从过去 10 个人一月做一部，变成现在 1 个人一月就能出三部。 图片来源：ChatGPT 生成 但产能的暴涨并没有换来营收的同步增长。酱油算了笔账：去年公司一个月做四五十部剧，营收大概两三千万元；现在月产能冲到两三百部，国内月营收还是差不多两千万元上下。「量上去了，单价掉下来了，整体收益没怎么涨」，这是他最直接的感受。 背后是整个行业成本结构的翻转。去年成本的大头是人工、剪辑、配音，AI 算力 Token 只占 20%-30%；现在反过来了，Token 成本占到了一半，人工只剩 20%，剩下的是剧本和杂项开支。「人是省了，但算力贵了」，酱油总结道。 陈炜于的观察是，现在行业实际上分化成了两个极端：批量剧里人力已经压到三成以下，算力占六到七成，基本一人一天就能出一部；精品剧则反过来，前面的美术、导演、大美术成本依然很高，「有经验、有独特见解的人，在 AI 时代反而越来越值钱，因为下面的产能可以无限放大，前面的品味变得关键」。 爆款的门槛也在肉眼可见地下移。去年单部收入破千万才能算行业爆款，现在能有十万、二十万收入就已经属于头部梯队。 内卷同样蔓延到了海外。酱油观察到，TK 平台的月上新量从今年 6 月的不到 1000 部，短短三个月冲到了二十万部上下；播放量越涨越高，分成却越跌越低—— 最早 1 亿播放能拿 14 万美金，后来 5 亿播放才拿 12 万，最近 3 亿播放就只分到 4 万美金。 市场风向的切换速度也在逼着从业者不停调头。 年初仿真人题材有平台红利，全行业扎堆做；暑假学生用户起来了，3D 题材爆发，大家又立刻转场；现在又回到了仿真人和 3D 各占一半的均衡状态。「原来是老天爷喂饭吃，现在是求着老天爷抢饭吃」，这句调侃里藏着从业者的真实焦虑。 二、机构在收缩，OPC 开启全民漫剧时代 这次阅文大会正式推出 OPC 一站式平台，同时披露已经签约 5000 多个个人及工作室，前十大 OPC 创作者年收入均突破百万。在酱油看来，这不是什么新信号，而是行业已经发生的变化—— 机构的优势在弱化，个体创作者正在成为产能主力。 图片来源：",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-22T08:20:34+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372746",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI漫剧产能翻倍，赚钱却更难了",
+   "summary_zh": "阅文发布OPC一站式漫剧平台，但一线从业者反映：单分钟成本从1000元降至400元、一人月产三部，营收却未增长，Token成本占比升至五成，爆款门槛从千万跌至十万级。",
+   "highlights_zh": [
+    "成本结构翻转：Token占五成、人工仅两成，'人省了算力贵了'",
+    "海外同样内卷：TK月上新从千部冲到二十万部，分成持续走低",
+    "行业分化为批量剧与精品剧两极，'品味'成为稀缺资源"
+   ],
+   "why_zh": "一线从业者数据揭示AI内容生产的真实经济账，比通稿更有参考价值。",
+   "tags": [
+    "产品与行业",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T10:00:36+00:00",
+   "mirror_pdf": "pdf/web-7085df28cfb1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372746"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-40118bbdaeb5",
+   "kind": "article",
+   "title": "大模型内卷之后，AI 竞争进入搜索基础设施时代",
+   "url": "http://www.geekpark.net/news/372743",
+   "pdf_url": "",
+   "abstract": "头图来源：元宝搜索 过去一年，AI 行业的战场正在悄悄发生位移。 当 Agent 从概念快速渗透进办公、内容、金融等真实业务场景，行业共识也在悄然改变：决定 AI 体验上限的，是它连接真实世界的能力。 政策迭代、市场波动、行业动态、垂类数据……现实世界的信息每秒都在更新，大模型自带的知识储备永远有边界，想要输出可靠结论、完成复杂任务，就必须接入实时、权威的外部信息。 搜索，是大模型对接真实世界的核心接口。但这也是当下 AI 落地的共性卡点：传统搜索基于关键词匹配，读不懂自然语言的复杂意图，低质内容还容易引发模型幻觉；从头自建一套完整检索体系，又意味着爬虫、解析、索引、运维一整套极高的工程门槛，绝大多数团队都难以承担。 而腾讯其实早就在默默布局这层底层能力。 过去一年，腾讯在 AI 应用层动作密集：全场景智能体工作台 WorkBuddy、AI 知识管家 ima、腾讯视频 AI 小助理等 50 余款产品接连落地，覆盖办公、内容、金融等多个核心场景。但很少有人注意到，支撑这些产品联网检索、信息获取能力的底层搜索基座，此前一直藏在幕后。 10 月 20 日，这张「暗牌」终于正式亮相，元宝搜索迎来全面升级，并通过腾讯云以 API 形式向个人开发者与企业开放。 这套已经在腾讯内部支撑数 50 多款核心产品、沉淀数千亿级索引、接入 157 个权威信源、日均调用量达数亿次的搜索能力。这次全新升级的元宝搜索正式从内部自用工具，转向面向全行业的公用 AI 基础设施。 从幕后走到台前，元宝搜索的开放，补上的是 AI 规模化落地过程中，一块缺失已久、经过真实业务验证的信息基建拼图。 一、一张尚未被翻开的搜索底牌 搜索的发展，一直与互联网如何组织信息、分配流量紧密相连。每一次行业代际变迁，都会重新定义搜索的定位。 PC 互联网初期是目录导航时代，雅虎用人工分类的方式整理网站，搜索是互联网的「导航地图」；随后谷歌凭借 PageRank 算法开启了关键词搜索时代，搜索成为整个互联网的流量入口，核心逻辑是「人找信息」，通过关键词匹配返回网页列表，广告成为最核心的商业模式，谁掌握了搜索，谁就掌握了流量分发权。 进入移动互联网时代，超级 APP 割裂了开放的互联网，信息孤岛开始形成。通用搜索的入口价值被稀释，搜索能力逐步下沉为垂类产品的内置功能——电商搜商品、内容平台搜视频、社交工具搜聊天记录，搜索从独立的流量产品，变成了服务各自生态的基础能力，语音搜索、本地搜索等新形态也随之出现。 而当 AI 浪潮袭来，搜索正在经历第三次本质变化：服务对象从「人」变成了「智能体」，核心目标从「返回网页链接」变成了「交付可信、结构化、可直接调用的信息」。 「搜索面对的用户从 1.0 时代的人，变成了 3.0 时代的智能体。这是整个使用对象的本质变化。」马晋表示，大模型天然存在幻觉、知识时效性不足、垂类术语缺失三大短板，搜索正是解决这些问题的核心路径。 这其中， 实时性是 AI 搜索区别于传统静态大模型最核心的价值之一 。传统大模型的知识停留在训练截止日，面对瞬息万变的现实世界天然存在「时差」；而 AI 原生搜索可以同步全网最新动态，让 Agent 获得持续感知外部变化的能力—— 金融行情的实时波动、政策法规的最新修订、行业事件的即时进展，都能第一时间转化为智能体可调用的信息输入。 对于 Agent 来说，搜索成为了感知外部世界的核心感官，正是这种底层需求的变化，让搜索从「应用层功能」重新回到了「基础设施层」的核心位置。 但站在当下的行业节点看，适配 AI 时代的搜索基础设施，供给远远跟不上需求。 ",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-22T08:15:50+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372743",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "大模型内卷之后，竞争转向搜索基础设施",
+   "summary_zh": "腾讯将内部支撑50余款产品的元宝搜索通过腾讯云API对外开放，主打为智能体提供实时、权威的外部信息检索，补上AI规模化落地的信息基建缺口。",
+   "highlights_zh": [
+    "搜索服务对象从'人'变为'智能体'，交付结构化可调用信息",
+    "沉淀数千亿级索引、157个权威信源、日均数亿次调用",
+    "瞄准大模型幻觉、知识时效性、垂类术语缺失三大短板"
+   ],
+   "why_zh": "搜索作为Agent落地卡点的判断值得关注，但本质是腾讯云产品发布。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T10:00:36+00:00",
+   "mirror_pdf": "pdf/web-40118bbdaeb5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372743"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1dd41f373b1d",
+   "kind": "article",
+   "title": "火山引擎启动Seedance 2.5 4K模型首批企业试用，定向供应全球20家工作室和导演",
+   "url": "https://www.leiphone.com/category/industrynews/mqvYMpYMxjNyoBAJ.html",
+   "pdf_url": "",
+   "abstract": "近日，火山引擎启动了Seedance 2.5 4K模型的第一批企业用户试用，与作品绑定、定向供应给全球20家工作室和导演Seedance 2.5 4K 模型，探索搬上大荧幕的高端影视需求。 除了画面细节更清晰，Seedance 2.5 4K 主打人物表演更细腻自然、参考生成和编辑的一致性更精细，是Seedance 2.5这一代中的最强模型。一家已试用模型的电影工作室向雷峰网表示，Seedance 2.5 4K 的价格设置并没有预期中高——允许先用480P生成样片，有满意的镜头后再用4K重新生成。 据悉，4K版本模型更看重高端影视需求的探索，目前在用的 20部作品中，最早下个月就有卫视 S 级 IP 播出，更有全球大 IP 电影。 目前，Seedance 系列模型不仅解锁了影视、广告等创意内容的工业化生产，也已服务于具身智能、制造业仿真等实体产业。 雷峰网 雷峰网",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-22T04:47:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/mqvYMpYMxjNyoBAJ.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "火山引擎Seedance 2.5 4K定向开放20家影视工作室",
+   "summary_zh": "火山引擎启动Seedance 2.5 4K模型首批企业试用，定向供应全球20家工作室和导演，主打人物表演细腻度与参考生成一致性，已有作品下月登陆卫视S级IP。",
+   "highlights_zh": [
+    "4K版本是Seedance 2.5代际中最强模型，聚焦高端影视需求",
+    "支持480P生成样片、满意后再用4K重生成，控制成本",
+    "20部在制作品中含全球大IP电影，最早下月卫视播出"
+   ],
+   "why_zh": "视频生成模型从demo走向影视工业化交付的关键商业化信号。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T10:00:36+00:00",
+   "mirror_pdf": "pdf/web-1dd41f373b1d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/mqvYMpYMxjNyoBAJ.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3f5c069d84e8",
+   "kind": "article",
+   "title": "GitHub 通过 AI 辅助重构，将 Copilot 运行时迁移至 Rust",
+   "url": "https://www.infoq.cn/article/zGqDWHF8tHDtlYcImAJS?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Leela Kumili"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-22T13:17:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/zGqDWHF8tHDtlYcImAJS?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "GitHub用AI辅助重构，将Copilot运行时迁至Rust",
+   "summary_zh": "GitHub借助AI辅助完成Copilot运行时向Rust的迁移重构，提升性能与内存安全。",
+   "highlights_zh": [
+    "Copilot运行时从原语言迁移到Rust",
+    "AI辅助工具参与大规模代码重构",
+    "迁移带来性能与内存安全收益"
+   ],
+   "why_zh": "大规模语言迁移与AI辅助重构的实战案例，工程团队可借鉴。",
+   "tags": [
+    "代码",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T10:00:36+00:00",
+   "mirror_pdf": "pdf/web-3f5c069d84e8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/zGqDWHF8tHDtlYcImAJS?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-214ef3b959b7",
+   "kind": "article",
+   "title": "黄仁勋押注新一轮“PC革命”，Agent找到了“最佳宿主”吗？",
+   "url": "https://www.tmtpost.com/8177566.html",
+   "pdf_url": "",
+   "abstract": "PC的兴起得益于将CPU、内存、存储和软件都集中在一台轻巧机器上带来的便利，但Agent恰恰不需要这种集中式结构。",
+   "authors": [
+    "飞向TAI空"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-22T09:04:54+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8177566.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "黄仁勋押注PC革命，Agent需要新宿主",
+   "summary_zh": "钛媒体分析黄仁勋关于新一轮PC革命的判断，指出Agent不需要CPU+内存+存储的集中式结构，PC形态与Agent运行环境可能脱钩。",
+   "highlights_zh": [
+    "黄仁勋提出PC革命论，但Agent的分布式特性与PC集中式架构存在张力",
+    "文章探讨Agent的'最佳宿主'是PC、云端还是新形态设备",
+    "对理解端侧AI与Agent部署方向有参考价值"
+   ],
+   "why_zh": "从硬件架构视角看Agent落地路径，适合关注端侧AI与算力布局的从业者。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T10:00:36+00:00",
+   "mirror_pdf": "pdf/web-214ef3b959b7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8177566.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-449a86a3af62",
+   "kind": "article",
+   "title": "中层不会消失，只是换成了Agent",
+   "url": "https://www.tmtpost.com/8177643.html",
+   "pdf_url": "",
+   "abstract": "为防AI出内鬼，微软让一部分Agent当监工。",
+   "authors": [
+    "字母AI"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-22T08:17:48+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8177643.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "中层不会消失，只是换成了Agent",
+   "summary_zh": "钛媒体文章讨论微软为防止Agent出错而让部分Agent充当监工，探讨Agent在组织中替代中层管理职能的趋势。",
+   "highlights_zh": [
+    "微软采用Agent监督Agent的架构设计",
+    "中层管理职能可能被Agent重新定义",
+    "涉及多智能体协作与监督机制"
+   ],
+   "why_zh": "多智能体监督是Agent落地的关键工程问题，适合关注Agent架构的从业者。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T10:00:36+00:00",
+   "mirror_pdf": "pdf/web-449a86a3af62.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8177643.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.30051",
+   "kind": "paper",
+   "title": "From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks",
+   "url": "https://arxiv.org/abs/2610.30051",
+   "pdf_url": "https://arxiv.org/pdf/2610.30051",
+   "abstract": "Recent advances in frontier AI models have demonstrated remarkable capabilities in visual understanding, reasoning, planning, and tool use, raising the possibility of using general-purpose AI models for robot manipulation without task-specific training. However, their manipulation capabilities have not been systematically evaluated on standardized robotics benchmarks. In this report, we present a unified closed-loop manipulation framework for evaluating frontier AI models on the LIBERO-10 benchmark. Our framework enables models to control a robot directly through visual observations, robot proprioception, and structured tool calls, primarily by specifying target end-effector poses and gripper commands, without task-specific fine-tuning or pretrained manipulation skills. We evaluate six frontier AI models, including GPT-6 Astra, GPT-6.1 Sol, GPT-6 Luna, Claude Opus 5, Claude Opus 5.5, and Gemini-4 Argon, across three reasoning effort levels, resulting in 18 configurations and 1,800 evaluation episodes. Our results show that GPT-6 Astra achieves the highest success rate of 44%, followed by Gemini-4 Argon at 43%. Increasing reasoning effort generally improves manipulation performance, but the benefits vary across models and come at additional inference cost. We also observe substantial differences across tasks, with models performing relatively well on object placement tasks but struggling with precise spatial arrangements and complex multi-step interactions. These findings demonstrate both the potential and limitations of frontier AI models for robot manipulation, highlighting the challenges of translating reasoning capabilities into reliable physical actions. We release our evaluation framework and experimental results to support reproducible benchmarking and future research on reasoning-based robot manipulation.",
+   "authors": [
+    "May Espinola",
+    "Qifan Zhang",
+    "Yu Xiang"
+   ],
+   "orgs": [],
+   "published": "2026-10-21T17:11:52Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.30051",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "论文",
+   "lang": "en",
+   "who": "",
+   "title_zh": "前沿模型机器人操作能力实测：最高仅 44%",
+   "summary_zh": "在 LIBERO-10 上用统一闭环框架让六个前沿模型直接通过视觉与工具调用控制机械臂，1800 回合评测中 GPT-6 Astra 以 44% 成功率居首，推理投入越高表现越好但成本上升。",
+   "highlights_zh": [
+    "无需任务微调或预训练操作技能",
+    "三档推理强度共 18 种配置对比",
+    "放置类任务明显强于精细操作"
+   ],
+   "why_zh": "通用模型直接操控机器人的真实水位，比宣传口径更可信。",
+   "tags": [
+    "机器人",
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 7.0,
+   "score": 0.548,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T10:00:36+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.30051.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.30051"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.30051"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.30051"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.30051"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.30051"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.30051"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ae75968c85ee",
+   "kind": "article",
+   "title": "JoasASantos/REA-Prompts",
+   "url": "https://github.com/JoasASantos/REA-Prompts",
+   "pdf_url": "",
+   "abstract": "REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program\nREADME: # REA Investigation Prompts (REAP) — Reverse Engineering with your Coding Agent A curated collection of prompts for [REA (Reverse Engineer Anything)](https://rea.tools/) — the toolset that lets your AI coding agent inspect how software works, from native binaries, firmware and kernels to games, Electron apps, APKs and websites. Prompts are ready to paste into your agent. Replace everything in ` ` and keep each request focused on **one feature** — narrow questions get evidence-backed answers. ## Sources & credits - **REA tools & guides:** https://rea.tools/ - **Official prompt gallery:** https://madewithrea.com/prompts - **Intro thread (\"REA is the most dangerous thing on the internet right now\")** by codila — https://x.com/0xCodila/status/2109623431763292649 (quoting Matthew Berman — https://x.com/MatthewBerman/status/2108245653843509415) - **REAP Name** by https://x.com/zazencodes?s=11 ## Table of contents | # | Section | |---|---------| | 0 | [Install & verify](#0-install--verify) | | 1 | [Getting started](#1-getting-started) | | 2 | [Feature tracing (any program)](#2-feature-tracing-any-program) | | 3 | [Native binary exploration](#3-native-binary-exploration) | | 4 | [Software & feature cloning](#4-software--feature-cloning) | | 5 | [Games](#5-games) | | 6 | [Game portability to WASM](#6-game-portability-to-wasm) | | 7 | [Firmware & embedded](#7-firmware--embedded) | | 8 | [Android](#8-android) | | 9 | [Kernel analysis](#9-kernel-analysis) | | 10 | [Vulnerability research",
+   "authors": [],
+   "orgs": [
+    "JoasASantos"
+   ],
+   "published": "2026-10-22T10:00:36+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/JoasASantos/REA-Prompts",
+     "signal": "★ 1,408（新项目）",
+     "metric": 1408
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "REAP：给编码智能体的逆向工程提示词合集",
+   "summary_zh": "REAP是配合REA工具使用的提示词集合，让AI编码智能体能拆解二进制、固件、APK和网站等目标。",
+   "highlights_zh": [
+    "提示词按场景分类：功能追踪、原生二进制、软件克隆、游戏等",
+    "强调每次只聚焦一个功能，窄问题才能得到有证据支撑的答案",
+    "需先安装并验证REA工具链再使用"
+   ],
+   "why_zh": "如果你在做二进制或APK逆向分析，可用它给编码智能体套上结构化调查流程。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5954,
+   "score_llm": 5.0,
+   "score": 0.5382,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T10:00:36+00:00",
+   "mirror_pdf": "pdf/web-ae75968c85ee.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/JoasASantos/REA-Prompts"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-619b3cfc3ac9",
+   "kind": "article",
+   "title": "luongnv89/claude-howto",
+   "url": "https://github.com/luongnv89/claude-howto",
+   "pdf_url": "",
+   "abstract": "Sponsor Star luongnv89 / claude-howto A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+   "authors": [],
+   "orgs": [
+    "luongnv89"
+   ],
+   "published": "2026-10-22T10:00:36+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/luongnv89/claude-howto",
+     "signal": "★ 今日 +428 · Python",
+     "metric": 428
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "claude-howto：Claude Code可视化实战指南",
+   "summary_zh": "一份图文并茂、以示例驱动的Claude Code教程，从基础概念讲到高级智能体用法，附可直接复制的模板。",
+   "highlights_zh": [
+    "覆盖从入门到高级agent的完整路径",
+    "提供可复制粘贴的提示词与配置模板",
+    "偏教程合集，原创深度有限"
+   ],
+   "why_zh": "如果你刚上手Claude Code，可用它的模板快速搭起常用工作流。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5886,
+   "score_llm": 5.0,
+   "score": 0.5354,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T10:00:36+00:00",
+   "mirror_pdf": "pdf/web-619b3cfc3ac9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/luongnv89/claude-howto"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6a8bf93fd93a",
+   "kind": "article",
+   "title": "Ansub/tv-detox",
+   "url": "https://github.com/Ansub/tv-detox",
+   "pdf_url": "",
+   "abstract": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
+   "authors": [],
+   "orgs": [
+    "Ansub"
+   ],
+   "published": "2026-10-22T10:00:36+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/Ansub/tv-detox",
+     "signal": "★ 1,207（新项目） · Java",
+     "metric": 1207
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "tv-detox：用Claude Code给老旧安卓电视提速",
+   "summary_zh": "该项目提供一个极简无广告桌面和配套提示词，借助Claude Code或Codex清理旧安卓电视的臃肿应用。",
+   "highlights_zh": [
+    "核心是一个轻量无广告的替代桌面",
+    "附带可直接交给编码智能体执行的清理提示词",
+    "面向个人设备折腾场景，非通用工具"
+   ],
+   "why_zh": "如果你有卡顿的旧安卓电视，可用它配合Claude Code一键清理预装应用。",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.59,
+   "score_llm": 4.0,
+   "score": 0.476,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T10:00:36+00:00",
+   "mirror_pdf": "pdf/web-6a8bf93fd93a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/Ansub/tv-detox"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "推理经济进入规模化定价验证期，单卡时价格仍有上行空间",
-   "why": "DeepSeek披露推理数据、Tunguz四维定价模型与155万亿Token/日框架共同指向推理业务健康且可盈利。",
+   "trend": "推理经济进入规模化定价期，算力成本与吞吐效率成为竞争核心",
+   "why": "DeepSeek开源框架日吞吐155万亿Token、KVCache保存7天，Tunguz据推理披露判断大规模推理业务健康且价格仍有上行空间。",
    "refs": [
-    "web-e5b9f688f3ee",
-    "web-830b6df61477"
+    "web-830b6df61477",
+    "web-e5b9f688f3ee"
    ]
   },
   {
-   "trend": "AI泡沫信号从股价转向债务层，信用市场先于股权反应",
-   "why": "CoreWeave债券跌至76美分、甲骨文CDS创新高、私募信贷现挤兑迹象，债务端已率先定价风险。",
+   "trend": "AI泡沫信号从股价转向债务层，融资竞赛与信用风险同步升温",
+   "why": "CoreWeave债券跌至76美分、甲骨文CDS创新高，同时DeepSeek千亿融资与Anthropic千亿美元IPO申请并行。",
    "refs": [
-    "web-88e04222ed76"
-   ]
-  },
-  {
-   "trend": "中国大模型资本化提速，DeepSeek千亿融资与Anthropic IPO同台竞速",
-   "why": "DeepSeek约1000亿元融资为史上最大之一，Anthropic拟募资至多1000亿美元，头部玩家同步冲刺公开市场。",
-   "refs": [
+    "web-88e04222ed76",
     "web-7a291b64fd2b",
     "web-4e8f0e62059e"
    ]
   },
   {
-   "trend": "推理成本优化从模型层下沉到词表与框架层，工程红利加速释放",
-   "why": "专化小模型词表降本77%、DeepSeek开源高吞吐框架、vLLM持续热门，成本曲线正被系统性压低。",
+   "trend": "AI首次主导关键漏洞发现与全球应急响应，安全协同平台成新基建",
+   "why": "GPT-5.6参与发现PHP2Shell漏洞致多国政府下线网站，OpenAI随即推出Patch the Planet协同响应平台。",
    "refs": [
-    "web-354f89a6c7db",
-    "web-830b6df61477",
-    "web-65e32dabe8c3"
+    "web-3a4ce7113b65",
+    "web-dc028fea27bb",
+    "web-d3f519557f32"
    ]
   },
   {
-   "trend": "评测方法从静态基准转向压力测试与免训练范式，公平性与关系数据成新战场",
-   "why": "FairStress用压力测试揭示常规评测盲区，NVIDIA Kumo在关系数据上免训练超越监督学习。",
+   "trend": "评测方法从静态基准转向压力测试与闭环实测，暴露模型真实短板",
+   "why": "FairStress揭示常规评测难发现的公平性偏差，前沿模型机器人操作实测最高仅44%成功率。",
    "refs": [
     "web-ca293d8533a3",
+    "arxiv-2610.30051"
+   ]
+  },
+  {
+   "trend": "降本路径分化：专化小模型词表与免训练方法挑战传统监督学习范式",
+   "why": "定制词表将推理成本降77%，NVIDIA Kumo在关系型数据上无需训练即超越监督学习。",
+   "refs": [
+    "web-354f89a6c7db",
     "web-7104bc51c295"
    ]
   }
