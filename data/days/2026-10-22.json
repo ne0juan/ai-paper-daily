@@ -1137,6 +1137,70 @@
    "mt": false
   },
   {
+   "id": "web-1de8e62ff715",
+   "kind": "article",
+   "title": "Using thousands of AI agents to uncover new leads in biological data",
+   "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+   "pdf_url": "",
+   "abstract": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-10-21T13:37:00Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50180752",
+     "signal": "153 pts",
+     "metric": 153
+    },
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI联合科研机构用数千AI智能体挖掘脑细胞数据",
+   "summary_zh": "OpenAI与PerturbAI、Scripps研究所用分布式AI智能体分析数百万脑细胞数据，寻找新的生物学研究线索。",
+   "highlights_zh": [
+    "OpenAI官方发布，展示AI智能体在科研发现中的实际应用",
+    "分布式智能体协作处理海量生物数据",
+    "与专业研究机构合作，指向AI for Science落地"
+   ],
+   "why_zh": "了解头部公司如何将智能体用于真实科研场景，把握AI for Science方向。",
+   "tags": [
+    "智能体",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.8362,
+   "score_llm": 8.0,
+   "score": 0.8145,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T15:51:43+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50180752"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "arxiv-2610.29989",
    "kind": "paper",
    "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
@@ -1590,6 +1654,184 @@
    "mt": false
   },
   {
+   "id": "arxiv-2610.29560",
+   "kind": "paper",
+   "title": "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation",
+   "url": "https://arxiv.org/abs/2610.29560",
+   "pdf_url": "https://arxiv.org/pdf/2610.29560",
+   "abstract": "Vision-language-action (VLA) models achieve strong performance across embodied manipulation tasks by unifying visual understanding, language conditioning, and action generation. However, long-horizon tasks can involve non-Markovian dependencies: successful decisions may require retaining task progress and past interaction outcomes, while partial observability and execution errors compound over time. Existing work has begun to address these challenges by augmenting foundation-model policies with memory and by introducing hierarchical architectures that separate high-level planning from low-level execution. We organize the high-level VLM as a robotic agent through an editable harness to maintain task context and improve planning through execution experience. We instantiate this approach as SERA (Self-Evolving Robotic Agent), with a fixed VLA executor providing low-level control. The harness maintains and updates task context using observations and execution feedback to guide subsequent planning. Self-evolution uses environment rollouts to propose and evaluate harness revisions, with the selected configuration fixed before held-out testing. On RoboMME, SERA achieves 51.38% overall success with autonomous selection, compared with 44.38% without self-evolution. Our exploration suggests that agentic planning is a promising direction for history-dependent robotic manipulation.",
+   "authors": [
+    "Tingwen Du",
+    "Haoyu Guo",
+    "Hanxue Zhang",
+    "Xuanxu Wang",
+    "Junting Dong",
+    "Chao Gao",
+    "Mingfei Han",
+    "Tao Lu",
+    "Mulin Yu",
+    "Chunhua Shen",
+    "Xiaojun Chang",
+    "Zhihui Li"
+   ],
+   "orgs": [],
+   "published": "2026-10-21T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.29560",
+     "signal": "▲ 9",
+     "metric": 9
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "从VLM规划器到机器人智能体：自进化harness应对历史依赖操作",
+   "summary_zh": "把高层VLM规划器做成可编辑harness，用观测与执行反馈维护任务上下文，并通过环境rollout自动提出和评估harness修订；在RoboMME上自主选择配置达51.38%成功率，无自进化时为44.38%。",
+   "highlights_zh": [
+    "将VLM规划器封装为可编辑harness，固定VLA执行器负责底层控制",
+    "自进化：用环境rollout提出并评估harness修订，选定配置后再做留出测试",
+    "RoboMME上51.38% vs 44.38%，说明智能体式规划对非马尔可夫长程操作有效"
+   ],
+   "why_zh": "机器人长程操作的历史依赖问题，给出了harness自进化的可复现范式。",
+   "tags": [
+    "机器人",
+    "智能体",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.5177,
+   "score_llm": 8.0,
+   "score": 0.6871,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T15:51:43+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.29560.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.29560"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.29560"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.29560"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.29560"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.29560"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.29560"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/StevenKKXS/SERA"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.29997",
+   "kind": "paper",
+   "title": "DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations",
+   "url": "https://arxiv.org/abs/2610.29997",
+   "pdf_url": "https://arxiv.org/pdf/2610.29997",
+   "abstract": "Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unaddressed. The scarcity of contact-rich bimanual manipulation data and the increased complexity of coordinating contacts make developing a generalist bimanual tracker particularly challenging. Therefore, we present 1) DONIC, the first generalist bimanual tracker jointly trained across operation categories and human-motion sources, together with 2) BiHOI, a multi-view dataset of 1,575 sequences spanning 229 objects and emphasizing sustained bimanual interaction, where reconstructed interactions are retargeted into robot references. DONIC combines proximal policy optimization with behavioral cloning in a feedback loop that recycles verified successful executions into training demonstrations. An object-centered per-hand reward maintains object-motion feedback while supervising each hand according to its reference contact role. Clip-Centered Advantages remove reference-dependent advantage offsets while preserving within-trajectory differences. Together, these designs enable one single policy to learn coordinated manipulation across heterogeneous references. Without finetuning, a single checkpoint achieves 86.79% success on unseen trajectories of training objects and 57.32% on held-out objects, surpassing the state-of-the-art bimanual tracking baselines by 77.36 and 45.73 percentage points.",
+   "authors": [
+    "Mingze Sun",
+    "Ziang Cao",
+    "Yuan Fei",
+    "Qiankuan Tao",
+    "Zihan Wang",
+    "Tianqi Liu",
+    "Junhao Chen",
+    "Haiwen Diao",
+    "Fangzhou Hong",
+    "Zhaoxi Chen",
+    "Ziwei Liu"
+   ],
+   "orgs": [
+    "Ropedia"
+   ],
+   "published": "2026-10-21T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.29997",
+     "signal": "▲ 102",
+     "metric": 102
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "DONIC：从人类演示学习通用双手灵巧跟踪控制",
+   "summary_zh": "提出首个跨操作类别与人类动作源联合训练的通用双手跟踪器DONIC，并构建1575序列多视角数据集BiHOI，单策略在未见轨迹上达86.79%成功率。",
+   "highlights_zh": [
+    "首个通用双手灵巧跟踪器，覆盖多类操作与人类动作源",
+    "BiHOI数据集含1575序列、229个物体，强调持续双手交互",
+    "PPO与行为克隆闭环，将成功执行回收为训练演示"
+   ],
+   "why_zh": "双手灵巧操作是机器人落地关键难题，该工作给出通用跟踪方案与数据集。",
+   "tags": [
+    "机器人",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.6571,
+   "score_llm": 7.0,
+   "score": 0.6828,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T15:51:43+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.29997.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.29997"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.29997"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.29997"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.29997"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.29997"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.29997"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/Ropedia/DONIC"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-77c10bd5f145",
    "kind": "article",
    "title": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
@@ -1646,6 +1888,62 @@
    "mt": false
   },
   {
+   "id": "web-c3ecf70aef54",
+   "kind": "article",
+   "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+   "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+   "pdf_url": "",
+   "abstract": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints. Ranking top five on six different open models leaderboards, the NVIDIA Cosmos platform gives world model builders the frontier open […]",
+   "authors": [
+    "Pranjali Joshi"
+   ],
+   "orgs": [
+    "NVIDIA"
+   ],
+   "published": "2026-10-22T05:00:27+00:00",
+   "sources": [
+    {
+     "name": "NVIDIA",
+     "authority": 0.75,
+     "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "NVIDIA Cosmos 扩展世界模型训练与部署工具",
+   "summary_zh": "NVIDIA 扩展 Cosmos 平台，新增训练工具、仿真检查点和数据工厂蓝图，帮助开发者构建物理 AI 世界模型，并在六个开放模型榜单进入前五。",
+   "highlights_zh": [
+    "新增训练工具与仿真检查点，降低世界模型开发门槛",
+    "Cosmos Data Factory 蓝图提供数据生产流水线",
+    "在六个开放模型排行榜进入前五，强调前沿开放能力"
+   ],
+   "why_zh": "世界模型是物理 AI 的关键基础设施，Cosmos 工具链开放值得跟踪。",
+   "tags": [
+    "多模态",
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 8.0,
+   "score": 0.672,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T15:51:43+00:00",
+   "mirror_pdf": "pdf/web-c3ecf70aef54.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-a0e7a23f62c4",
    "kind": "article",
    "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
@@ -1695,6 +1993,304 @@
     {
      "label": "Hacker News 讨论",
      "url": "https://news.ycombinator.com/item?id=50181114"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-04830a680922",
+   "kind": "article",
+   "title": "Red-Teaming OpenAI's Internal Agent Monitoring Systems",
+   "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+   "pdf_url": "",
+   "abstract": "For three weeks, from July 21st to August 11th, a METR employee and a Redwood Research employee conducted a pilot high-access exercise to stress-test OpenAI’s internal misalignment monitoring system. 1 The output of this exercise was a 61-page internal report that was shared with OpenAI researchers and security staff, 2 primarily focused on estimating the fraction of agentic inference that is monitored, and whether agents could in principle disable or subvert the monitoring system. The exercise focused on the internal misalignment monitoring system as it existed on and before July 21st, and did not evaluate changes that were in progress at the time of the exercise. This exercise involved a deep level of access. The METR and Redwood employees had access to OpenAI’s internal codebase, misalignment-monitor prompts / configuration details, and internal documentation, and conducted technical interviews with approximately a dozen researchers and engineers across the monitoring, safety-systems, and security teams. To enable this level of access, they worked on OpenAI-issued devices, which never left the premises, and were accompanied while onsite. METR, Redwood Research, and OpenAI designed this exercise as a pilot for giving external researchers deep access to internal infrastructure, not to provide robust public transparency about OpenAI’s monitoring systems. 3 As a result, we agreed upfront with OpenAI that we would only publish a relatively brief and high-level public post. For ",
+   "authors": [
+    "METR"
+   ],
+   "orgs": [
+    "METR"
+   ],
+   "published": "2026-10-22T07:00:00+00:00",
+   "sources": [
+    {
+     "name": "METR",
+     "authority": 0.85,
+     "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "前沿模型能力评测机构",
+   "title_zh": "METR红队测试OpenAI内部智能体监控系统",
+   "summary_zh": "METR与Redwood研究人员获深度权限，三周压力测试OpenAI内部失准监控系统，评估智能体推理被监控比例及能否绕过监控，产出61页内部报告。",
+   "highlights_zh": [
+    "外部研究者获OpenAI内部代码库与监控配置深度权限",
+    "重点评估智能体推理被监控覆盖率与可颠覆性",
+    "作为外部深度访问内部基础设施的试点，非公开透明度报告"
+   ],
+   "why_zh": "前沿实验室智能体监控系统的首次外部红队实测，对齐与安全从业者必读。",
+   "tags": [
+    "对齐与安全",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T15:51:43+00:00",
+   "mirror_pdf": "pdf/web-04830a680922.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.29968",
+   "kind": "paper",
+   "title": "CulturalRiddles: A Multicultural Benchmark of Riddles",
+   "url": "https://arxiv.org/abs/2610.29968",
+   "pdf_url": "https://arxiv.org/pdf/2610.29968",
+   "abstract": "As LLMs expand their language coverage, evaluating how well they understand and represent diverse cultures becomes increasingly important. However, many benchmarks remain English-centric, with limited cultural coverage and a focus on factual knowledge over its application in real-world cultural contexts. We propose CulturalRiddles, a benchmark of original, culturally grounded riddles created entirely by humans through a participatory community effort, spanning 62 cultures (45 countries, 51 languages). These riddles are deeply rooted in their respective cultures and require abductive and compositional reasoning, alongside detailed factual and social knowledge, language skills, and an understanding of culturally specific associations. We benchmark 28 LLM configurations using both automatic and large-scale human evaluation. Even frontier models achieve at most 22% accuracy in some communities. We publicly release all artifacts alongside an open contribution process to expand the benchmark's linguistic and cultural coverage.",
+   "authors": [
+    "My Chiffon Nguyen",
+    "Tianyi Hu",
+    "Vinod Anbalagan",
+    "Henry Gagnier",
+    "Pouya Sadeghi",
+    "Farah Abdou",
+    "Tidor-Vlad Pricope",
+    "Diego MMS Oliveira",
+    "Jocelyn K D&#39;Arcy",
+    "Madeline Smith",
+    "Oluwaseun A Ajayi",
+    "Yusser Al Ghussin",
+    "Zena Al-Khalili",
+    "Micol Altomare",
+    "Shayan Amir",
+    "Ahanaf Aziz",
+    "Bryan Chen",
+    "Ruchira Dhar",
+    "Abdellah El Mekki",
+    "Rawan Mohammed Elframawy",
+    "Akhil Eppa",
+    "Silvia Fernandez",
+    "Alex Gimei",
+    "Arya Hariharan",
+    "Christian Hoang",
+    "RamMohanRao Kadiyala",
+    "Diana Kozachek",
+    "Peerat Limkonchotiwat",
+    "Ankita Maity",
+    "Di Mo",
+    "Ayush Munot",
+    "Aylin Naebzadeh",
+    "Anastasiia Nikitina",
+    "Dina Pisarevskaya",
+    "Divas Poudel",
+    "Jebish Purbey",
+    "Md Rabius Sany Apu",
+    "Ahmad Mufli Ramadhan",
+    "Ralitza Nikolova Rizova",
+    "Diogo M. Serrano-Miranda",
+    "Vivek Gopalkrishna Silimkhan",
+    "Luis Fernando Solis Navarro",
+    "Kaiser Sun",
+    "Arya Suneesh",
+    "Manaswitha Sunkara",
+    "Tejaswi Sunkara",
+    "Jonathan E Swindell",
+    "Hanna Yukhymenko",
+    "Jingyi Zheng",
+    "Esther Adenuga",
+    "Ilia Afanasev",
+    "Wafa Aissa",
+    "Lisa Alazraki",
+    "Lauren C Altomare",
+    "Priscilla Amondi Amuok",
+    "Emile Anand",
+    "Gabriel Assis",
+    "José Matías Avalos",
+    "Silvia Lorena Avila",
+    "Zakaria Baannou",
+    "Niyati Bafna",
+    "Yash Bagla",
+    "Sarah Bahrami",
+    "Bontu F Balcha",
+    "Vanya Bannihatti Kumar",
+    "Irene Baucells",
+    "Abdumutalib Begmuratov",
+    "Naman Bhatia",
+    "Souvik Bhattacharyya",
+    "Isabel Blanco Ferreiro",
+    "Felipe Bochini",
+    "Sayuru Bopitiya",
+    "Angana Borah",
+    "Tulika Bose",
+    "Olena Bugaiova",
+    "Juliana Carvalho",
+    "Nancy F Chen",
+    "Stephy Chen",
+    "Rochelle Choenni",
+    "Jayanth Krishna Chundru",
+    "Leandro A Cossio",
+    "Nebojša Damnjanović",
+    "Ona de Gibert",
+    "Marco De Santis",
+    "Pedro Delgado",
+    "Kaustubh Dholé",
+    "Adnan El Assadi",
+    "Wesam El-Sayed",
+    "Nadine M Elframawy",
+    "Oumayma Essarhi",
+    "Naome A Etori",
+    "Reuben Chagas Fernandes",
+    "Saanidhi Pravin Gade",
+    "Javier García Gilabert",
+    "Álvaro González-Escapa",
+    "Bin Hu",
+    "Kaiyu Huang",
+    "Abderrahmane Issam",
+    "Danka Jokić",
+    "Ulugbek Khalilov",
+    "Dominik Krzemiński",
+    "Roy Ka-Wei Lee",
+    "Haichang Li",
+    "Chen Cecilia Liu",
+    "Zhengyuan Liu",
+    "Cedric Lothritz",
+    "Houman Mehrafarin",
+    "Antonio Miranda-Escalada",
+    "Fengran Mo",
+    "Mehrnaz Mofakhami",
+    "Wafaa Mohammed",
+    "Felipe Moreno-Vera",
+    "Prahitha Movva",
+    "Jannatul Nayem",
+    "Van Ngo",
+    "Joy Olusanya",
+    "Marc Pàmies",
+    "Avinash Kuney Pandey",
+    "Yurii Paniv",
+    "Fred Philippy",
+    "Vladislav Poritski",
+    "Dikshya Poudel",
+    "Joanna Radoła",
+    "Sara Rajaee",
+    "Swati Rajwal",
+    "Prerana Rane",
+    "Muhammad Ravi Shulthan Habibi",
+    "Lucas Resck",
+    "Shubhashis Roy Dipta",
+    "Ananya Sahu",
+    "Eduardo Sánchez",
+    "Borja Sánchez Clemente",
+    "Aleix Sant",
+    "Nobin Sarwar",
+    "Istiak Shihab",
+    "Santhoshini Pranathi Singaraju",
+    "Jane Smith",
+    "David Stap",
+    "Emily Z Su",
+    "Ananth K Suresh",
+    "Sajag Swami",
+    "Ruiyang Tan",
+    "Nazia Tasnim",
+    "Khalid Tounoussi",
+    "Patteera Triamamornwooth",
+    "Muhammad Saad Umar",
+    "Shankar Venkitachalam",
+    "Oksana Volchek",
+    "Lingbo Wang",
+    "Debela Desalegn Yadeta",
+    "Rushikesh Zawar",
+    "Jinghan Zhang",
+    "Mike Zhang",
+    "Weihua Zheng",
+    "Marzieh Fadaee",
+    "Akhil Arora",
+    "Károly Boczka",
+    "Julia Kreutzer"
+   ],
+   "orgs": [
+    "Cohere Labs Community"
+   ],
+   "published": "2026-10-21T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.29968",
+     "signal": "▲ 9",
+     "metric": 9
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.29968",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "CulturalRiddles：多文化谜语基准",
+   "summary_zh": "构建覆盖62种文化、45国51种语言的人工原创谜语基准，测试28种LLM配置，前沿模型在部分社群准确率最高仅22%。",
+   "highlights_zh": [
+    "谜语需溯因与组合推理，超越事实知识考察",
+    "覆盖62种文化，弥补英文中心评测缺口",
+    "前沿模型在部分文化社群准确率低至22%"
+   ],
+   "why_zh": "揭示LLM文化理解短板，为多语言多文化评测提供新基准。",
+   "tags": [
+    "数据与评测",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.5777,
+   "score_llm": 7.0,
+   "score": 0.6511,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T15:51:43+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.29968.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.29968"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.29968"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.29968"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.29968"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.29968"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.29968"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/Cohere-Labs-Community/CulturalRiddles"
     }
    ],
    "mt": false
@@ -1803,6 +2399,136 @@
     {
      "label": "原文",
      "url": "http://www.geekpark.net/news/372740"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0b2f9a3579b2",
+   "kind": "article",
+   "title": "宇树 10 周年，王兴兴：我劝你相信 AI",
+   "url": "http://www.geekpark.net/news/372759",
+   "pdf_url": "",
+   "abstract": "10 月 22 日，杭州国际博览中心热闹非常，不仅人多，而且机器人也特别多。 这是 2026 年宇树科技举办的世界物理 AI 大会的现场，从四足机器人到人形机器人，你甚至可以说这里是全球「机器人密度」最高的地方。 2026 年，也是宇树科技创立的第十年。有意思的是，在今天的舞台上，宇树科技创始人王兴兴，在谈机器人之外，聊的最多的就是当下最火热的 AI。 他不仅劝所有人要「相信 AI」，而且还反思，觉得自己「相信 AI 还相信得不够」 。 为什么这家中国、乃至全球机器人行业中最有实力的公司掌舵者，会这么说？物理 AI 的拐点，真的要到来了吗？ 必须相信 AI 在王兴兴 36 分钟的演讲中，宇树自己的产品只占了开头和结尾。中间最长的一段，王兴兴在做一件事——劝人相信 AI。 从 AI 攻下了一批顶尖数学难题，「人类最智慧的金字塔的尖端」已经被击穿；到 AI 逆向工程让「传统软件公司的壁垒没了」；AI 视频里人物的表情和情绪「比真人演的还好很多」；顶尖大模型公司内部「已经实现了模型的自进化」。 「这不是闹着玩的」。他的结论是，以当下的模型能力，哪怕不再进步，信息世界也已经被「完全击穿」。 然后他说了一句不太像上市公司董事长会说的话，「 我感觉我自己还不够相信，还不够坚定 」。 这不是即兴发挥。十天前的上海工博会上，他已经当众「认错」过一次，「过去十几年我犯的最大的错误，就是对 AI 的相信还不太够」。他还给过一个倍数，5 年前或 10 年前你喜欢、相信 AI 的程度，「现在乘 10 倍都不为过」。 王兴兴在会上探讨物理 AI 的未来｜图片来源：宇树科技 更直观的变化在时间表上。今年 8 月的世界机器人大会，王兴兴对具身智能「ChatGPT 时刻」的预期还是快则 2 到 3 年、慢则 5 到 10 年；两个月后，这个窗口被他压缩成「1 到 2 年，慢的话 2 到 3 年」。至于随便把一台宇树机器人带进陌生的家里，一句话让它把房间收拾好，「快的话可能明年就可以实现」。工博会上他说得更直白，「明年 GPT-7 出来，可能直接把具身智能问题打穿」。 一个硬件出身的工程师，在两个月里成了全场最激进的 AI 布道者。这看上去像一次认知突变，但把宇树最近半年的处境摊开来看， 他的「相信」几乎是一道必答题。 但是，宇树的强项——机器人本体，依然是王兴兴骄傲的事情。 王兴兴在台上最骄傲的是 G1。这款 2024 年 5 月发布的人形机器人， 累计下线大约 1 到 2 万台 ，他称之为全球单一型号出货量最大的人形机器人。 10 月 21 日，宇树放出 H2-X「功夫传奇 守护」的视频，一脚踢瘪车门、徒手抬车、4 米高台空翻落地，续航从 H2 的约 3 小时拉到约 8 小时。可以看到，宇树团队依然在快速迭代公司的产品。 本体之外，一直在布道 AI 的王兴兴，推销的 AI，并不完全是宇树自己的 AI。 随后的论坛环节王兴兴和姚明等嘉宾一同探讨物理 AI 的未来｜图片来源：宇树科技 他在台上很坦白，「我们毕竟是一家新公司」，跟全球最头部的多模态大模型公司「做一模一样的模型，那是不太现实的」。宇树会自研，也会和国内外大模型公司合作。他展示的最亮眼的 demo，是把 GPT-6 接到机器人上，零训练就能自己洗笔、换颜料，在围棋盘上精准落子。他判断规划和导航这类问题「某种意义上已经解决掉了」，剩下的是多模态大模型的输入输出和真实机器人之间的对齐——传感器的误差、执行器的误差，「我觉得这个也是很快可以解决的问题」。 把这几句话连起来，就能看清这份「信仰」背后的商业逻辑。 如果机器人的大",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-22T11:56:03+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372759",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "宇树十周年，王兴兴：我劝你相信AI，具身智能拐点1-2年",
+   "summary_zh": "王兴兴在宇树十周年大会上称对AI「相信得还不够」，把具身智能ChatGPT时刻预期从2-5年压缩到1-2年，并展示接入GPT-6零训练完成洗笔换颜料等任务。",
+   "highlights_zh": [
+    "王兴兴自认过去最大错误是对AI相信不够，呼吁相信程度乘10倍",
+    "具身智能拐点预期两个月内从2-5年缩短至1-2年，明年或可一句话收拾房间",
+    "宇树不自研通用大模型，自研+合作并行，G1累计下线约1-2万台"
+   ],
+   "why_zh": "头部机器人公司掌舵人对物理AI时间表最激进的公开判断",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T15:51:43+00:00",
+   "mirror_pdf": "pdf/web-0b2f9a3579b2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372759"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.29545",
+   "kind": "paper",
+   "title": "PACE: Periodic and Channel-Aligned Encoding of Four-Bit Recurrent States",
+   "url": "https://arxiv.org/abs/2610.29545",
+   "pdf_url": "https://arxiv.org/pdf/2610.29545",
+   "abstract": "Linear-attention language models keep their context in a recurrent state of fixed size, where an inference system stores one copy of this state for every sequence it decodes at the same time. Storing the state at lower precision therefore lets more sequences share an accelerator. Existing state quantizers round the state after every generated token and report that four bits lose accuracy unless the bit width is raised or the model is fine-tuned.\\par We introduce PACE, a post-hoc four-bit state quantizer. PACE rounds the state only once every few generated tokens, as chunked kernels already do once per chunk during prefill, and keeps the tokens generated in between in a small buffer. Rounding less often reduces the error that accumulates in the state. Additionally, we find that the large entries of the gated-delta state gather in columns, because some channels of the update written at each token remain large across many tokens. PACE therefore shares each quantization scale within one column. It also keeps the heads that retain rounding error longest at eight bits. On four hybrid models from 4B to 35B parameters, PACE with mixed four- and eight-bit heads is competitive with eight-bit DAMP on the three larger models at about two thirds of its memory, PACE with four-bit heads throughout scores higher than Q-Mamba at equal memory, and rounding every few tokens preserves the decoding speedup of the buffer.",
+   "authors": [
+    "Patrick Haller",
+    "Filipe Laitenberger",
+    "Alan Akbik"
+   ],
+   "orgs": [
+    "Humboldt Universität zu Berlin"
+   ],
+   "published": "2026-10-21T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.29545",
+     "signal": "▲ 14",
+     "metric": 14
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "PACE：四比特循环状态的分段通道对齐量化",
+   "summary_zh": "提出事后四比特状态量化器PACE，每几个token才舍入一次并按列共享量化尺度，在4B-35B混合模型上以约三分之二内存媲美八比特方案。",
+   "highlights_zh": [
+    "降低舍入频率以减少循环状态累积误差",
+    "按列共享量化尺度，匹配门控delta状态的大值分布",
+    "对误差持久的头保留八比特，混合精度更省内存"
+   ],
+   "why_zh": "线性注意力模型推理显存瓶颈的实用解法，直接提升并发服务能力。",
+   "tags": [
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.5419,
+   "score_llm": 7.0,
+   "score": 0.6368,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T15:51:43+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.29545.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.29545"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.29545"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.29545"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.29545"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.29545"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.29545"
     }
    ],
    "mt": false
@@ -1919,6 +2645,61 @@
    "mt": false
   },
   {
+   "id": "web-c46f106d9ac6",
+   "kind": "article",
+   "title": "LeCun押注的世界模型，中国一家清华系公司已经做进了机器人",
+   "url": "https://www.qbitai.com/2026/10/504653.html",
+   "pdf_url": "",
+   "abstract": "世界模型赛道新看点：千诀隐变量可辨识性方向的研究，比LeCun相近工作早一年，不堆画面预测，主打物理规律与跨本体复用。",
+   "authors": [
+    "田, 晏林"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-21T07:15:05+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/504653.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "LeCun押注的世界模型，中国清华系公司已落地机器人",
+   "summary_zh": "千诀科技在世界模型隐变量可辨识性方向的研究早于LeCun相近工作一年，主打物理规律建模与跨本体复用，已落地机器人。",
+   "highlights_zh": [
+    "不堆画面预测，聚焦物理规律与跨本体复用",
+    "隐变量可辨识性研究早于LeCun相近工作一年",
+    "世界模型技术已进入机器人实际应用"
+   ],
+   "why_zh": "了解世界模型从研究到机器人落地的中国路径，对比LeCun路线差异。",
+   "tags": [
+    "机器人",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T15:51:43+00:00",
+   "mirror_pdf": "pdf/web-c46f106d9ac6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/504653.html"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-7085df28cfb1",
    "kind": "article",
    "title": "AI 漫剧越做越快，赚钱却没那么容易了",
@@ -2020,6 +2801,59 @@
     {
      "label": "原文",
      "url": "http://www.geekpark.net/news/372743"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-830fc4872087",
+   "kind": "article",
+   "title": "Token 成本降到每年 1 元，AI 家电这事就能成了 | 对话博联刘宗孺",
+   "url": "http://www.geekpark.net/news/372762",
+   "pdf_url": "",
+   "abstract": "过去两年多，在智能硬件领域，投资人和创业者都热衷于为 AI 寻找一个个物理世界里的新「容器」，各种新形态的 AI 原生硬件成了投资市场的热门项目。 但其实，很多成熟形态的硬件同样有 AI 化的需求。这也许没有「AI Native」的概念那么性感，但市场一点不小，复杂度丝毫不低。 以家电行业为例：供应链长，改一次硬件就要重走研发、测试、认证；销售链条长，从厂家、经销商到上门安装的电工，每一环都得接得住；成本又极度敏感，多一块钱都要反复掂量。 好在，家电已经为 AI 打好了地基。过去十几年，大量家电已经具备联网能力——这意味着灵活升级的 OTA「管道」已经铺好，行业缺的是让设备真正被用起来的解决方案。 那么，硬件到底需要什么样的 AI？9 月，TypeSafe 推出的 Jev 在开发者圈引发了不少讨论，它提供了一个参照：Jev 不生成文字，只输出带置信度的判断。在硬件乃至具身领域的不少场景里，判断比生成更重要。 作为一名在硬件和芯片行业里从业近 20 年的创业者，博联创始人刘宗孺近期和我们谈了谈博联最新的技术以及商业思考。在博联看来，「不让通用模型挑大梁」也许才是硬件领域的最优解。他们推出的寰思中枢由一系列参数很小的专家模型组成，大模型则退到后台，充当「阅卷老师」，复盘错误并自我迭代。 据刘宗孺介绍，目前寰思中枢已经在多个品类里和 B 端客户实现落地，AI 成本可以被压缩到「单台产品每年 1 元人民币」的级别。 以下是 Hardwire 和博联智能董事长兼 CEO 刘宗孺的访谈，经编辑整理。 访谈 | siqi、郑玄 作者 | siqi 编辑 | 郑玄 智能家电头 10 年：联网了，但不够智能 Hardwire：很多读者可能没听说过博联，但可能家里很多产品里都有博联的模组。先请您介绍一下，博联是一家什么样的公司？ 刘宗孺： 我们是做 ToB 的，所以对外宣传比较少。博联主要做两块业务： 第一块是帮家电、照明、电工这些厂家做智能化方案：从芯片、模组，到通信组网协议；厂家没有能力做云服务和软件的，我们就打包提供，也帮他们对接外面的各个生态。到了 AI 时代，又多了一块 AI 方案。 第二块是空间场景的智能化，比如全屋智能、智慧酒店、智慧办公。我们自己不做家电，而是把客户的硬件拿过来，再叠加系统和软件。 所以我们其实是 To B to C，通过厂家和这些大客户，把智能化送进用户家里。十几年下来，我们最核心的积累就是连接：芯片是我们自己的，组网协议是从头写的，整个通信这一层都在我们自己手里。 Hardwire：智能家电这个品类，目前走到什么阶段了？ 刘宗孺： 这个品类其实已经出现 10 多年了。IoT 行业大概从 2013 年开始，就开始给各种设备接上 Wi-Fi 模块，家电是其中智能化比例最高的，现在的空调基本都是 Wi-Fi 空调了。但其实家电行业的第一波智能化并不成功，大部分 C 端用户还没有为智能买单。 Hardwire：问题出在哪里？ 刘宗孺： 根本问题是联网率太低。以厨房电器为例，之前有创业者尝试过 Wi-Fi 烤箱、Wi-Fi 电饭煲等品类，卖点是联网之后可以下载「云菜单」。但这些产品并没有解决动手操作这个问题。如果用户最终还是要走到设备面前亲自动手，掏手机联网就没什么必要。 相比之下，空调和照明是目前联网激活率最高的两个品类。我觉得很大原因是用户在这两个场景里有「遥控」需求，但联网率大概也就是 20% 左右。 之前有很多厂商尝试过让智能家电做语音交互，都没有成功，根源也是联网率太低。 Hardwire：这一轮 AI 爆发之后，有助于解决这个问",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-22T13:20:53+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372762",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "博联刘宗孺：小专家模型+大模型阅卷，AI家电成本降至每年1元",
+   "summary_zh": "博联创始人刘宗孺认为硬件场景判断比生成更重要，其寰思中枢用多个小专家模型在前端做判断、大模型退居后台复盘纠错，已与B端客户落地，单台AI成本可压到每年1元。",
+   "highlights_zh": [
+    "家电智能化十年不成功，核心是联网率低、用户仍需动手操作",
+    "不让通用大模型挑大梁，小专家模型做判断、大模型当阅卷老师自我迭代",
+    "AI成本可压缩至单台产品每年1元，已在多个品类B端落地"
+   ],
+   "why_zh": "理解端侧AI落地成本结构与「判断优于生成」的硬件AI路线",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T15:51:43+00:00",
+   "mirror_pdf": "pdf/web-830fc4872087.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372762"
     }
    ],
    "mt": false
@@ -2128,6 +2962,168 @@
     {
      "label": "原文",
      "url": "https://www.infoq.cn/article/zGqDWHF8tHDtlYcImAJS?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1e5b5ce3c2ba",
+   "kind": "article",
+   "title": "又一国产决策模型发布！准确率超过微软和Jev等决策模型",
+   "url": "https://www.leiphone.com/category/industrynews/IshbO1ikAgjvB6G9.html",
+   "pdf_url": "",
+   "abstract": "10月22日，蚂蚁数科正式发布决策模型 LingDT-Decision-1.0。该模型专为快速决策打造，在处理结构化决策任务时，具备准确率更高、响应更快、Token成本更低等优势，尤其适合产业AI场景。LingDT-Decision-1.0提供4B和27B两个版本，目前，模型已经在蚂蚁数科 DTMaaS 平台上线，开发者可限时免费体验。 蚂蚁数科团队在客服、风控、金融等真实业务场景测试显示，在处理同样任务时，LingDT-Decision-1.0相比于大语言模型，可将Token消耗降低超90%，响应时效提升10倍，并且性能表现更优。 相比于其他决策模型，LingDT-Decision-1.0首创支持原生多选与按序决策能力，更适配企业真实应用场景。在23项开源评测基准中，LingDT-Decision-1.0的综合评分超过了Microsoft-Decision-1、Jev 1.13.等热门决策模型，LingDT-Decision-1.0的27B版本在同参数模型中取得最高准确率。 （图注：LingDT Decision 的4B/27B 版本的优势区域，覆盖了相关尺寸包括Jev、MS Decision、GLiDE等决策模型，表现出极强的综合性价比） 专为决策任务设计，Token消耗直降超90%，更快更准 在企业实际应用中，存在大量高频的决策类任务。 例如，在客服场景中，当收到“这个订单已经三天了还没发货，请尽快处理。”的问询后，AI需要快速进行一系列判断和决策：问题类型（退款、催单还是投诉？）、工单紧急度（是否需要优先处理）、归属部门（工单派到哪个部门）以及风险判断（是否需要人工接管）。 传统大语言模型在这类场景中存在明显短板。大语言模型通常需要逐字（Token）进行推理，再生成输出文本，链路长、成本高，也更容易出现错误，性能不够稳定。 决策模型正是针对这些痛点而设计，它的目标不是生成文本，而是做出快速、准确的判断。因此，天然适合承担企业业务中的高频决策型任务，如意图判断、工具选择、规则分类和结果打分等。 目前，LingDT-Decision-1.0 模型目前已在蚂蚁数科的智能客服、安全风控、金融应用等真实业务场景展开测试。它的核心思路，是把大模型从“先生成结构化答案，再做后续解析”，转变为“在限定选项中直接做判断”。这样不仅减少了因输出不稳定带来的格式问题，也让原本繁琐的解析和校验流程变得更加简单。 例如，在数据标注场景中，相比 DS-V4-flash，Token消耗降低约97%，处理时效提升约10倍；在智能客服场景中，相比 Qwen-3.7-flash，Token消耗降低90%，处理时效提升约1倍，同时风险识别准确率由76%提升至89%。 在金融应用场景中，在意图识别、工具调用、幻觉检测等任务中，处理时效提升约5倍，工具组合完全匹配率达提升约 2.6 倍，同时幻觉召回率由 44% 提升至70%，风险发现更敏感。 综合来看，LingDT-Decision-1.0在多个真实场景中稳定体现出成本更低、响应更快、判断更准的优势。与此同时，它还能以一套模型适配多类判定任务，接入更简单、维护更省力，因此也更容易在不同业务场景中复用和推广。 打造下一代决策式模型，两大功能全球首发 相比其他决策模型，蚂蚁数科 LingDT-Decision-1.0 更加强调面向企业真实应用场景打造。除了判断、单选、分类、评级等基础能力外，LingDT-Decision-1.0 还首创推出原生多选与 按序决策（DAG）功能，能够更好适配企业业务中复杂、多步骤的决策需求。 在企业场景",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-22T10:54:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/IshbO1ikAgjvB6G9.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "蚂蚁数科发布决策模型LingDT，Token消耗降九成",
+   "summary_zh": "蚂蚁数科发布决策模型LingDT-Decision-1.0，提供4B/27B版本，专攻意图判断、工具选择等结构化决策任务，真实场景中Token消耗降超90%、响应快10倍，综合评分超微软等同类模型。",
+   "highlights_zh": [
+    "首创原生多选与按序决策能力，适配企业真实业务场景",
+    "客服场景风险识别准确率由76%提升至89%，幻觉召回率由44%升至70%",
+    "已在蚂蚁智能客服、风控、金融场景测试，DTMaaS平台限时免费"
+   ],
+   "why_zh": "决策模型作为大模型之外的新品类，展示了降本增效的产业落地路径。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T15:51:43+00:00",
+   "mirror_pdf": "pdf/web-1e5b5ce3c2ba.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/IshbO1ikAgjvB6G9.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-497df76f73ff",
+   "kind": "article",
+   "title": "千问AI硬件：一副眼镜的「越界」，与一个Agent的野心",
+   "url": "https://www.leiphone.com/category/weiwu/ft2h4iM9MlbukXOj.html",
+   "pdf_url": "",
+   "abstract": "一副44g的眼镜能做什么？会议开始前自动录音，骑行时根据心率提醒你调整呼吸，在咖啡店看一眼外文菜单就知道你想问哪道菜，甚至点头就能完成支付。 这是千问日前发布的AI眼镜N1 Pro给出的答案。同一天，它还发布了一款1099元起的AI耳夹式耳机。三款硬件同日开售，眼镜到手价2218元起，耳机1099元起。 价格本身已经足够有信号意义。但真正值得讨论的，不是价格，而是千问想通过这些硬件做什么，以及这条路究竟能不能走通。 01 跨过工具与助手的距离 过去几年AI眼镜留给消费者的印象并不好。它像一个需要不停被唤醒的语音助手，戴在脸上，但存在感全靠你主动去喊它。用户买回去的新鲜感过去之后，大多数产品的长期使用率低得惊人。雷鸟创新CEO李宏伟曾公开表示，2025年各类AI眼镜上线了超过200个新功能，但用户长期使用比例连6%都不到。 千问这次选择了一条不同的路。N1 Pro搭载了一套全天候视觉感知系统，依靠一颗专用低功耗芯片持续“看”着周围的环境。你拎着行李箱到火车站，它会自动调出行程订单，过安检时告诉你检票口在哪，上了站台告诉你几号车厢几号座。全程你不需要掏手机，也不需要对它说任何话。 在靠近鼻托内部的镜框里，N1 Pro藏了一组眼动追踪模组，每条边只有1.7毫米，从0到10万lux的光照范围内都能稳定追踪视线，中心区域精度控制在1度以内。精度到1度意味着什么？你盯着菜单上的某道菜问“这个多少钱”，它真的知道你问的是哪一个。 这种“主动服务”能力的实现，依赖于端侧AI能力的实质性提升。 N1系列搭载了三颗芯片协同工作：骁龙AR1负责高性能影像处理和复杂计算，恒玄芯片处理日常事务，奇景芯片负责低功耗视觉理解。三芯架构的意图很明确——让眼镜在不牺牲续航的前提下，始终保持对环境的感知能力。 还有健康监测能力。N1 Pro是行业首个具备体征实时监测功能的AI眼镜，可监测心率、血氧、皮肤温度等指标，并将这些数据转化为易懂的状态解读。用户骑行时，眼镜可根据心率变化提醒调整呼吸节奏；日常佩戴中，还能记录用眼情况，帮助用户调整用眼节奏，减少长时间连续用眼。当压力指标偏高时，AI疗愈功能会生成定制的冥想音频，持续评估放松效果，形成监测、预警、干预的完整闭环。 这些能力放在一副眼镜上，意味着它不再只是一个信息工具，而开始具备某种“在场感”，它一直在你身边，一直在感知你的状态。 工具与助手之间真正的分界，从来不是多听懂几句人话。从“你命令它”到“它主动判断你需要什么”，这中间的跨越，实际上是从一个工具到一个助手的距离。 02 眼镜只是入口，生态才是答案 如果只用硬件规格来衡量千问AI眼镜，很容易得出一个“还不错，但也没有特别颠覆”的结论。但千问做硬件的逻辑，从来就不在硬件本身。 阿里巴巴集团千问事业部副总裁宋刚在发布会上的话，点出了这层意图：“AI穿戴是千问在物理世界的延伸，也是Personal Agent的重要组成部分。无论你从哪里发起需求，背后都是同一个千问，理解同一个人，延续同一个目标。” 翻译一下：千问押注硬件的出发点，是让大模型更理解你，硬件本身只是手段。眼镜和耳机是它的“眼睛”和“耳朵”，用来持续获取物理世界的上下文信息，再把千问App已有的服务和任务能力渗透进去。 支撑这套逻辑的，是“定制大模型＋阿里十几年真实生态数据”。 阿里巴巴千问事业部华南区培训负责人赖建华举了一个例子，让AI生成广州5天3000元的旅行攻略，它会给出“地铁三日票50元/72小时无限次”这样的本地细节，相比之下，通用模型的答案则往往停在“去广州塔、吃早茶”的层面。那些真正有用的本地信息，恰恰",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-22T08:14:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/weiwu/ft2h4iM9MlbukXOj.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "千问AI眼镜N1 Pro：从工具到主动服务的Agent入口",
+   "summary_zh": "千问发布44g的AI眼镜N1 Pro（2218元起）与耳夹式耳机，主打全天候视觉感知、眼动追踪与体征监测，实现无需唤醒的主动服务；其逻辑是以硬件为入口延伸千问Personal Agent生态。",
+   "highlights_zh": [
+    "三芯架构（骁龙AR1+恒玄+奇景）兼顾性能与低功耗持续感知",
+    "眼动追踪精度1度以内，可识别用户注视的具体对象",
+    "行业首个具备心率、血氧、皮温实时监测的AI眼镜"
+   ],
+   "why_zh": "头部大模型厂商以硬件延伸Agent生态的战略样本",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T15:51:43+00:00",
+   "mirror_pdf": "pdf/web-497df76f73ff.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/weiwu/ft2h4iM9MlbukXOj.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-79eda6057713",
+   "kind": "article",
+   "title": "企业 AI 越用越复杂，如何用一个 Gateway 管好模型、Agent 和成本？｜ 技术趋势",
+   "url": "https://www.infoq.cn/article/v85ey09UlxhCDH4r3RS3?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "Ali Taha"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-22T18:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/v85ey09UlxhCDH4r3RS3?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "用统一Gateway管理模型、Agent与成本",
+   "summary_zh": "文章讨论企业AI栈日益复杂后，如何通过统一Gateway集中管理多模型调用、Agent编排与成本，属于架构治理层面的趋势分析。",
+   "highlights_zh": [
+    "多模型与Agent统一接入层",
+    "成本与调用治理",
+    "企业AI复杂度上升的应对思路"
+   ],
+   "why_zh": "做企业级AI平台或Agent基础设施的团队可参考其治理思路。",
+   "tags": [
+    "智能体",
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T15:51:43+00:00",
+   "mirror_pdf": "pdf/web-79eda6057713.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/v85ey09UlxhCDH4r3RS3?utm_source=rss&utm_medium=article"
     }
    ],
    "mt": false
@@ -2372,6 +3368,61 @@
    "mt": false
   },
   {
+   "id": "web-c94cf51d03c6",
+   "kind": "article",
+   "title": "既能“做选择题”，也能“做填空题”——星辰意图理解模型Xing4.0-29B-Intent发布",
+   "url": "https://www.qbitai.com/2026/10/504832.html",
+   "pdf_url": "",
+   "abstract": "中电信人工智能科技有限公司星辰通用人工智能实验室正式发布并开源意图理解专用模型 Xing4.0-29B-Intent",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-22T07:11:14+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/504832.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "中电信星辰开源意图理解模型 Xing4.0-29B-Intent",
+   "summary_zh": "中电信星辰实验室发布并开源 29B 意图理解专用模型，兼顾选择题与填空题式意图识别任务。",
+   "highlights_zh": [
+    "29B 参数意图理解专用模型",
+    "支持选择与填空两类意图任务",
+    "开源发布"
+   ],
+   "why_zh": "国内运营商系开源专用模型的进展，增量有限。",
+   "tags": [
+    "大模型",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T15:51:43+00:00",
+   "mirror_pdf": "pdf/web-c94cf51d03c6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/504832.html"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-619b3cfc3ac9",
    "kind": "article",
    "title": "luongnv89/claude-howto",
@@ -2420,6 +3471,221 @@
     {
      "label": "原文",
      "url": "https://github.com/luongnv89/claude-howto"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d15a17ff1fda",
+   "kind": "article",
+   "title": "You are the Team — Anekha Sokhal, Moshi",
+   "url": "https://www.latent.space/p/moshi",
+   "pdf_url": "",
+   "abstract": "How Moshi turns market data into actionable insights, and why AI tools have to fit the trader’s workflow.",
+   "authors": [
+    "swyx"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-22T14:03:40+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/moshi",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Moshi：把市场数据变成可执行洞察，AI工具须贴合交易员工作流",
+   "summary_zh": "Latent Space访谈Moshi团队，讨论如何将市场数据转化为可执行洞察，以及AI工具为何必须嵌入交易员既有工作流而非另起炉灶。",
+   "highlights_zh": [
+    "聚焦金融交易场景的AI产品设计",
+    "强调工具需适配用户既有工作流",
+    "信息增量有限，偏产品访谈"
+   ],
+   "why_zh": "对做垂直行业AI产品的人有一定参考，但内容较薄",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 5.0,
+   "score": 0.52,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T15:51:43+00:00",
+   "mirror_pdf": "pdf/web-d15a17ff1fda.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/moshi"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e3d89374e7e8",
+   "kind": "article",
+   "title": "Flowtica Rian：硬件的旧规律没变，新机会是做好Memory丨未来创新50人",
+   "url": "https://www.leiphone.com/category/weiwu/Sni49oUOM9rbTR7h.html",
+   "pdf_url": "",
+   "abstract": "大疆想收编的云台团队，十年做了四个硬件品类，现在押注 AI Memory。 作者 丨 吴优 编辑丨董子博 Plaud 爆火之后，国内一家叫 Flowtica 的公司也在短时间内闯入大众视野，去年上半年在 Kickstarter 平台上发布了世界首款 AI 笔 Flowtica Scribe，最终筹得 33 万美金。这支笔仅重 34.5 克笔，配备录音室级 MEMS 麦克风、280mAh 电池、最长约 30 小时连续录音，把记录、转写、摘要一体化。 鲜为人知的是，Flowtica 的创始团队并非从零起步。创始人 Rian 此前有超过十年的硬件创业经历，从手持云台到农业分拣机器人。这支团队在机器视觉和边缘 AI 上攒下的工程家底，现在要全部压在 Agent 原生硬件这条新赛道上 ，Flowtica 就是他们交出来的答卷。 和去年 VC 偏爱的“大疆系”画像略有不同，Rian 并非从大疆离职创业，但成长路径与大疆有着深厚的渊源—— 92 年出生的 Rian 是李泽湘老师最后一位学术研究生 ，和几位同学代表港科大打出了 Robocon 参赛史上的最好成绩，至今无人打破。 22岁的 Rian 第一次创业时做了手持云台，率先实现手机控制和极致防抖，差一点被大疆收编，二次创业做的智能猫砂盆，众筹金额做到 130 万美金，再次转身做的农业水果分拣设备，很快跻身行业第二。 今天的 AI 硬件创业者正在经历的事情，以及取得的阶段性成绩，Rian 都经历过一遍， 这些成绩甚至是他屡次转身的原因 ：“我们预判纯硬件生意竞争的终局，领先期只有半年到一年。一旦双雄并立，稀缺性消失。后来者追平产品力后，只需用六七折的价格提供同等品质，价格战便不可避免。比起陷入比拼运营的商业化竞争，我们更想创造差异化的新东西。” 用当下比较流行的词汇形容，创办 Flowtica 之前的 Rian 更像是一位 Builder。他擅长从用户视角感受产品，一旦发现市面上最好的解决方案也不达预期，创造欲望就会被激发，用最先进的技术能力将产品用户体验提高一个层级——手持云台的极致防抖和全景拼接、智能猫砂盆的前后倾转结构、水果分拣机器人的精准识别...... 创办 Flowtica， 对 Rian 而言更像是一次回归 。端侧大模型和 Agent 能力成熟之后，他过去想做但受制于模型能力的硬件形态，现在终于能做了。 Flowtica 推出录音笔后，紧接着推出了新一代 Flowtica Verso， 一块能够磁吸在手机背面的智能硬件，搭载电子墨水屏 ，兼具记录与执行的随身 Agent 实体入口。 在 Verso 开启海外预售之前，雷峰网·鲸犀来到 Flowtica 办公室和 Rian 及其团队聊了聊，回顾了 Rian 这十多年的创业经历，以及目前正在做的事情。本文主要回答三个问题： 1、跨赛道做硬件的这十年，Rian 练成了哪些方法论？ 2、Agent 时代，Rian 对 AI 硬件的趋势判断； 3、AI 录音记忆硬件的竞争如此激烈，Flowtica 交出了什么样的答卷？ 01 只做参数竞争的硬件创业，终局一定是价格战 鲸犀：你的创业经历非常丰富，分享一下你是怎么和硬件创业结缘的？ Rian ：我本科在港科大念书，比较幸运结识了李泽湘老师，是李老师的最后一位学术研究生。当时还跟着他去打 RoboCon 机器人比赛，我们是他带的最后一届比赛，拿到了港科大有史以来最好的成绩，也是迄今为止最好的成绩。 分享印象比较深刻的一件事，大疆当时发布第一代飞机，Phantom 1 到 Phantom 2 价格涨了，销量反而暴",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-22T09:31:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/weiwu/Sni49oUOM9rbTR7h.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Flowtica Rian：AI硬件的旧规律与新机会在Memory",
+   "summary_zh": "Flowtica创始人Rian认为纯硬件参数竞争终局是价格战，领先期仅半年到一年；端侧大模型成熟后，AI硬件的差异化机会在于做好Memory，公司已推出AI录音笔与磁吸式随身Agent硬件Verso。",
+   "highlights_zh": [
+    "Rian判断纯硬件竞争领先期只有半年到一年，双雄并立后必然陷入价格战",
+    "Flowtica押注Agent原生硬件，核心差异化在Memory能力",
+    "已推出AI录音笔Scribe（众筹33万美金）与电子墨水屏磁吸硬件Verso"
+   ],
+   "why_zh": "了解一线AI硬件创业者对同质化竞争与Memory赛道的判断",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T15:51:43+00:00",
+   "mirror_pdf": "pdf/web-e3d89374e7e8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/weiwu/Sni49oUOM9rbTR7h.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-06f2c4940f17",
+   "kind": "article",
+   "title": "10-50万级全覆盖，千里智驾量产进入放量期",
+   "url": "https://www.leiphone.com/category/transportation/yM0HZ6Vj1HWAptLb.html",
+   "pdf_url": "",
+   "abstract": "高端验证、主流复用、规模放量，千里智驾的市场路径走通了。 从50万元级大型SUV，到30万至50万元混动SUV，再到20万元级旅行车、15万元级城市小车以及10万至20万元主流家用车型，千里智驾正在走完一条“高端起步、主流复用、规模放量”的路径，不断挑战行业的增速记录。 得以形成量产奇迹，千里这条路径的节奏，比车型名单本身更值得看。 今年上半年，千里智驾的方案覆盖极氪、领克、smart等车型。9月和10月，搭载千里智驾方案的银河TT与银河战舰700相继上市，产品覆盖由此进入10万至20万元价格带。这不仅是新增两款量产车型，更意味着千里智驾完成了从高端能力验证到主流市场规模化应用的关键跨越。这家来自重庆的智驾公司，能在一年之间快速放量，源自它在智驾行业构建的独特生态位。 当前，智驾行业正处于两个窗口期叠加的阶段。一方面，AI大模型正在推动智驾系统从规则驱动向模型驱动演进，加速提升复杂场景下的感知、推理与决策能力，打开高阶智驾的能力上限。另一方面，行业竞争正在从“卷性能、卷功能”走向“卷量产、卷规模”，能否进入主流价格带、覆盖更多车型和用户，成为下一阶段竞争的关键。两个窗口叠在一起，行业竞争的节点已经来到规模放量。它不再只是功能象限的比拼，而是谁能同时获得市场规模、持续抬高技术上限，并把同一套能力快速复用到更多车型和价格带。 千里智驾的答案落在三个支点上。 第一个支点是市场。 高阶智驾进入主流市场，稀缺的不只是单一车型项目，而是能够持续放量的品牌矩阵。千里智驾入场较晚，却已通过极氪9X、极氪8X、领克07GT和smart精灵#1号等车型，覆盖从高端到主流的多个价格区间。随着银河TT、银河战舰700落地，进一步进入10万至20万元价格带。吉利银河2025年销量近124万辆，2026年前三季度销量超过80万辆，这个基盘为千里智驾提供了跨车型、跨平台持续导入的规模入口，也构成了“高端验证、主流复用、规模放量”的市场路径。 支撑这条路径的，是千里智驾依托AI原生基因选择的“AI+车”路线。它以AI大模型能力为核心，早期借极氪9X等车型完成高阶市场的量产验证，同时以开放平台连接芯片生态、算力、激光雷达等软硬件伙伴。战略级汽车客户、AI原生基因、链式协同生态，三者叠加，构成了它在行业里难以复制的位置。 第二个支点是模型。 AI大模型正在成为高阶智驾的新分水岭，规则决定功能下限，模型决定能力上限，统一架构则决定能力能否快速复制。千里科技与阶跃星辰达成全面战略合作，联合打造原生智驾基座模型，走“脑体协同”路径，在预训练阶段就把通用语料与智驾数据深度融合，使模型从训练起点便面向真实道路，形成对复杂环境的识别、推理与决策能力。在架构层面，千里以L4级统一技术架构驱动，把部分L4技术释放到量产车型，让同一套技术底座能够支撑不同定位的产品。 技术储备也有具体落点。2026年9月，千里智驾联合电子科技大学、东南大学、北京邮电大学、天津大学发布并开源世界-动作模型WA-JEPA（arXiv:2608.20974），在世界模型这一前沿方向上拿出了可查的成果。 第三个支点是数据。 智驾行业正在从“比功能”转向“比迭代”，量产规模不仅是市场结果，也成为模型进化的生产资料。车辆产生的真实里程和长尾场景，经采集车、测试车、量产车及超算集群完成训练与验证，再反哺模型，形成天级数据闭环能力。随着主流车型放量，更多数据将持续推动模型与体验升级，进一步扩大用户使用与车型搭载，形成“规模产生数据、数据训练模型、模型提升体验、体验推动增长”的持续飞轮。 银河TT与银河战舰700的落地，是千里智驾进入",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-22T02:12:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/transportation/yM0HZ6Vj1HWAptLb.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "千里智驾量产放量，覆盖10-50万价格带",
+   "summary_zh": "千里智驾方案从极氪、领克高端车型下探至银河10-20万元价格带，依托吉利销量基盘实现规模放量；与阶跃星辰合作打造原生智驾基座模型，并开源世界-动作模型WA-JEPA。",
+   "highlights_zh": [
+    "完成从高端验证到主流市场规模化复用的跨越",
+    "与阶跃星辰联合打造预训练融合智驾数据的基座模型",
+    "开源世界-动作模型WA-JEPA，L4统一架构下放量产"
+   ],
+   "why_zh": "智驾竞争转向规模放量与模型上限的行业样本",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T15:51:43+00:00",
+   "mirror_pdf": "pdf/web-06f2c4940f17.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/transportation/yM0HZ6Vj1HWAptLb.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b675dbd13367",
+   "kind": "article",
+   "title": "又一国产决策模型发布：面向企业高频判断任务，23 项开源基测准确率超过微软和 JEV",
+   "url": "https://www.infoq.cn/article/wyGrRsTrfHM7i9MhuV5P?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "李冬梅"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-22T19:16:58+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/wyGrRsTrfHM7i9MhuV5P?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "国产决策模型发布，23项基测准确率超微软与JEV",
+   "summary_zh": "某国产决策模型面向企业高频判断任务发布，宣称在23项开源基测上准确率超过微软和JEV，但具体模型与评测细节未在摘要中披露。",
+   "highlights_zh": [
+    "定位企业高频判断任务",
+    "宣称23项开源基测准确率领先微软、JEV",
+    "国产决策模型赛道再添新玩家"
+   ],
+   "why_zh": "关注国产决策模型进展的从业者可快速了解新入局者，但需核实评测口径。",
+   "tags": [
+    "大模型",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-22",
+   "slot": "evening",
+   "selected_at": "2026-10-22T15:51:43+00:00",
+   "mirror_pdf": "pdf/web-b675dbd13367.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/wyGrRsTrfHM7i9MhuV5P?utm_source=rss&utm_medium=article"
     }
    ],
    "mt": false
@@ -2479,25 +3745,23 @@
  ],
  "brief": [
   {
-   "trend": "推理经济进入规模化定价期，算力成本与吞吐效率成为竞争核心",
-   "why": "DeepSeek开源框架日吞吐155万亿Token、KVCache保存7天，Tunguz据推理披露判断大规模推理业务健康且价格仍有上行空间。",
+   "trend": "推理经济从成本竞赛转向定价权争夺，单卡时价格仍有上行空间",
+   "why": "DeepSeek披露推理数据与Tunguz四维定价分析共同指向大规模推理业务健康、价格未触顶。",
    "refs": [
-    "web-830b6df61477",
-    "web-e5b9f688f3ee"
+    "web-e5b9f688f3ee",
+    "web-830b6df61477"
    ]
   },
   {
-   "trend": "AI泡沫信号从股价转向债务层，融资竞赛与信用风险同步升温",
-   "why": "CoreWeave债券跌至76美分、甲骨文CDS创新高，同时DeepSeek千亿融资与Anthropic千亿美元IPO申请并行。",
+   "trend": "AI泡沫信号已从股价层转移到债务层，信用市场先于股市定价风险",
+   "why": "CoreWeave债券跌至76美分、甲骨文CDS创新高、私募信贷现挤兑迹象，债务端率先反应。",
    "refs": [
-    "web-88e04222ed76",
-    "web-7a291b64fd2b",
-    "web-4e8f0e62059e"
+    "web-88e04222ed76"
    ]
   },
   {
-   "trend": "AI首次主导关键漏洞发现与全球应急响应，安全协同平台成新基建",
-   "why": "GPT-5.6参与发现PHP2Shell漏洞致多国政府下线网站，OpenAI随即推出Patch the Planet协同响应平台。",
+   "trend": "AI发现漏洞引发全球应急响应，安全协同平台成为模型厂商新战场",
+   "why": "PHP2Shell由GPT-5.6参与发现并致多国政府下线网站，OpenAI随即推出Patch the Planet。",
    "refs": [
     "web-3a4ce7113b65",
     "web-dc028fea27bb",
@@ -2505,19 +3769,19 @@
    ]
   },
   {
-   "trend": "评测方法从静态基准转向压力测试与闭环实测，暴露模型真实短板",
-   "why": "FairStress揭示常规评测难发现的公平性偏差，前沿模型机器人操作实测最高仅44%成功率。",
+   "trend": "评测方法从静态基准转向压力测试与身份扰动，暴露模型行为漂移风险",
+   "why": "FairStress压力测试与Qwen3-Coder身份提示致代码安全性下降，说明常规评测漏掉偏差。",
    "refs": [
     "web-ca293d8533a3",
-    "arxiv-2610.30051"
+    "web-bb2a91ec4d23"
    ]
   },
   {
-   "trend": "降本路径分化：专化小模型词表与免训练方法挑战传统监督学习范式",
-   "why": "定制词表将推理成本降77%，NVIDIA Kumo在关系型数据上无需训练即超越监督学习。",
+   "trend": "中国大模型进入资本与算力双密集阶段，但二级市场已开始惩罚同质化竞争",
+   "why": "DeepSeek千亿融资与MiniMax破发同期发生，资金向头部集中、尾部估值承压。",
    "refs": [
-    "web-354f89a6c7db",
-    "web-7104bc51c295"
+    "web-7a291b64fd2b",
+    "web-c46944720a1a"
    ]
   }
  ]
