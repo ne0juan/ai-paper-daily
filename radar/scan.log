@@ -1,12 +1,12 @@
-2026-10-22 10:00:36,429 INFO source hf_daily           -> 33 items
-2026-10-22 10:00:40,144 INFO source hackernews         -> 7 items
-2026-10-22 10:01:46,130 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-22 10:01:54,405 INFO source rss                -> 108 items
-2026-10-22 10:01:56,065 INFO source html_lists         -> 0 items
-2026-10-22 10:01:56,065 INFO source x                  -> 0 items
-2026-10-22 10:01:56,527 INFO source arxiv_search       -> 60 items
-2026-10-22 10:02:05,903 INFO source github             -> 20 items
-2026-10-22 10:02:05,905 INFO candidates: 224 (stale dropped 32, new 145)
-2026-10-22 10:03:37,860 INFO llm judged 100/100 (calls=13)
-2026-10-22 10:03:38,093 WARNING pdf arxiv-2610.29989: too large (> 25165824 bytes): https://arxiv.org/pdf/2610.29989
-2026-10-22 10:06:34,731 INFO run done: {"at": "2026-10-22T10:00:36+00:00", "slot": "evening", "candidates": 224, "new": 145, "stale": 32, "judged": 100, "selected": 22, "mirrored": 21, "by_category": {"技术": 4, "资讯": 13, "观点": 1, "论文": 1, "项目": 3}, "by_source": {"HF Daily Papers": 33, "arXiv 新论文": 60, "Hacker News": 7, "OpenAI": 9, "量子位": 10, "极客公园": 8, "IT之家": 11, "爱范儿": 4, "少数派": 2, "雷峰网": 13, "钛媒体": 6, "InfoQ 中文": 10, "Ethan Mollick": 1, "Simon Willison": 1, "Nathan Lambert": 1, "Latent Space": 5, "SemiAnalysis": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 6, "Google Research": 1, "NVIDIA": 16, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
+2026-10-22 15:51:44,165 INFO source hf_daily           -> 38 items
+2026-10-22 15:51:44,501 INFO source hackernews         -> 9 items
+2026-10-22 15:52:02,333 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-22 15:52:11,638 INFO source rss                -> 116 items
+2026-10-22 15:52:13,608 INFO source html_lists         -> 1 items
+2026-10-22 15:52:13,609 INFO source x                  -> 0 items
+2026-10-22 15:52:22,472 INFO source arxiv_search       -> 60 items
+2026-10-22 15:52:32,972 INFO source github             -> 20 items
+2026-10-22 15:52:32,973 INFO candidates: 238 (stale dropped 30, new 146)
+2026-10-22 15:54:02,899 INFO llm judged 100/100 (calls=13)
+2026-10-22 15:54:07,849 WARNING snapshot https://openai.com/index/scaling-ai-research-for-complex-biological-data/: blocked or empty page
+2026-10-22 15:56:42,933 INFO run done: {"at": "2026-10-22T15:51:43+00:00", "slot": "evening", "candidates": 238, "new": 146, "stale": 30, "judged": 100, "selected": 18, "mirrored": 17, "by_category": {"资讯": 13, "技术": 4, "观点": 1}, "by_source": {"HF Daily Papers": 38, "arXiv 新论文": 60, "Hacker News": 9, "OpenAI": 10, "量子位": 10, "极客公园": 10, "IT之家": 10, "爱范儿": 4, "少数派": 2, "雷峰网": 15, "钛媒体": 5, "InfoQ 中文": 10, "Ethan Mollick": 1, "Simon Willison": 1, "Nathan Lambert": 1, "Dwarkesh Patel": 1, "Latent Space": 6, "SemiAnalysis": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 3, "Hugging Face Blog": 6, "Google Research": 1, "METR": 1, "Google DeepMind": 1, "NVIDIA": 16, "xAI": 1, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
