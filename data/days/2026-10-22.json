@@ -1,0 +1,1182 @@
+{
+ "date": "2026-10-22",
+ "items": [
+  {
+   "id": "web-d3f519557f32",
+   "kind": "article",
+   "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+   "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+   "pdf_url": "",
+   "abstract": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-10-21T14:03:43Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50181175",
+     "signal": "238 pts",
+     "metric": 238
+    },
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 推出 Patch the Planet 漏洞协同响应平台",
+   "summary_zh": "OpenAI 发布 Patch the Planet，连接安全研究员、开源维护者与应急响应者，协同处理开源关键漏洞。",
+   "highlights_zh": [
+    "由 OpenAI 官方发起，聚焦开源生态漏洞响应",
+    "打通研究员、维护者、响应者三方协作链路",
+    "Hacker News 238 分，社区关注度较高"
+   ],
+   "why_zh": "了解头部 AI 公司如何介入 AI 辅助安全与开源治理的新动向。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.8568,
+   "score_llm": 7.0,
+   "score": 0.7627,
+   "date": "2026-10-22",
+   "slot": "noon",
+   "selected_at": "2026-10-22T03:34:53+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50181175"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cc0f997eae37",
+   "kind": "article",
+   "title": "The Huawei-DeepSeek Symbiosis",
+   "url": "https://newsletter.semianalysis.com/p/huawei-deepseek",
+   "pdf_url": "",
+   "abstract": "Huawei Ascend 950PR Deep dive & µbenchmarks, DSv4.1 Flash Analysis, DeepSeek support for Ascend",
+   "authors": [
+    "Bryan Shan"
+   ],
+   "orgs": [
+    "SemiAnalysis"
+   ],
+   "published": "2026-10-21T17:34:38+00:00",
+   "sources": [
+    {
+     "name": "SemiAnalysis",
+     "authority": 0.8,
+     "url": "https://newsletter.semianalysis.com/p/huawei-deepseek",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "半导体与算力分析",
+   "title_zh": "华为与 DeepSeek 的共生关系",
+   "summary_zh": "SemiAnalysis 深度拆解华为昇腾 950PR 微基准，并分析 DeepSeek 对昇腾的支持与 DSv4.1 Flash。",
+   "highlights_zh": [
+    "昇腾 950PR 微基准实测",
+    "DeepSeek 对昇腾的适配分析",
+    "DSv4.1 Flash 性能解读"
+   ],
+   "why_zh": "国产算力与大模型协同的关键一手分析。",
+   "tags": [
+    "大模型",
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.708,
+   "date": "2026-10-22",
+   "slot": "noon",
+   "selected_at": "2026-10-22T03:34:53+00:00",
+   "mirror_pdf": "pdf/web-cc0f997eae37.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://newsletter.semianalysis.com/p/huawei-deepseek"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e5b9f688f3ee",
+   "kind": "article",
+   "title": "The GPU Revenue Ladder",
+   "url": "https://tomtunguz.com/the-gpu-revenue-ladder/",
+   "pdf_url": "",
+   "abstract": "SpaceX's third-quarter report & DeepSeek's inference disclosure together price one GPU card-hour four ways, from DeepSeek's theoretical $38 maximum to SpaceX's realized $2.44. Combined with a payback claim of under a year & a 2027 supply pipeline that is largely unbuilt, the data suggests large-scale inference is a healthy business with room for prices to climb.",
+   "authors": [
+    "Tomasz Tunguz"
+   ],
+   "orgs": [
+    "Tomasz Tunguz"
+   ],
+   "published": "2026-10-21T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Tomasz Tunguz",
+     "authority": 0.75,
+     "url": "https://tomtunguz.com/the-gpu-revenue-ladder/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Theory Ventures 创始人，AI 投资",
+   "title_zh": "GPU 收入阶梯：推理经济的定价逻辑",
+   "summary_zh": "Tunguz 用 DeepSeek 推理披露与 SpaceX 财报，从四个维度为单卡时定价，认为大规模推理业务健康且价格仍有上行空间。",
+   "highlights_zh": [
+    "单卡时成本从理论 38 美元到实际 2.44 美元",
+    "回本周期不足一年",
+    "2027 供给管线大多尚未建成"
+   ],
+   "why_zh": "理解推理算力经济性与定价趋势的独到视角。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-10-22",
+   "slot": "noon",
+   "selected_at": "2026-10-22T03:34:53+00:00",
+   "mirror_pdf": "pdf/web-e5b9f688f3ee.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://tomtunguz.com/the-gpu-revenue-ladder/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-830b6df61477",
+   "kind": "article",
+   "title": "DeepSeek开源最新推理框架：单集群日吞吐155万亿Token，KVCache可保存7天",
+   "url": "https://www.infoq.cn/article/NBXP966Bz3eqr6Qidvaf?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "褚杏娟"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-21T12:06:48+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/NBXP966Bz3eqr6Qidvaf?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek开源推理框架：日吞吐155万亿Token",
+   "summary_zh": "DeepSeek开源最新推理框架，单集群日吞吐达155万亿Token，KVCache可保存7天，显著提升大模型推理效率与缓存复用能力。",
+   "highlights_zh": [
+    "单集群日吞吐155万亿Token",
+    "KVCache可保存7天，提升缓存复用",
+    "开源推理框架，降低部署成本"
+   ],
+   "why_zh": "头部公司开源推理系统，直接影响大模型部署成本与吞吐。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-22",
+   "slot": "noon",
+   "selected_at": "2026-10-22T03:34:53+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/NBXP966Bz3eqr6Qidvaf?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-88e04222ed76",
+   "kind": "article",
+   "title": "AI 泡沫监测·之一：债务层已经先动了",
+   "url": "https://www.tmtpost.com/8175985.html",
+   "pdf_url": "",
+   "abstract": "判断 AI 泡沫别盯股价，盯债：CoreWeave 债券 76 美分，甲骨文 CDS 创历史新高，私募信贷在挤兑——债务层已经先动了。四张考卷已出，10 月 27 日财报周交卷，对账见。",
+   "authors": [
+    "穷奇观察"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-21T09:49:23+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8175985.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI 泡沫监测：债务层已先动",
+   "summary_zh": "钛媒体专栏指出判断 AI 泡沫应盯债务而非股价：CoreWeave 债券跌至 76 美分、甲骨文 CDS 创历史新高、私募信贷出现挤兑迹象，债务层已率先反应。",
+   "highlights_zh": [
+    "CoreWeave 债券价格跌至 76 美分，反映市场对其偿债能力担忧",
+    "甲骨文 CDS 创历史新高，信用市场提前定价 AI 资本开支风险",
+    "私募信贷出现挤兑迹象，10 月 27 日财报周为关键验证节点"
+   ],
+   "why_zh": "提供区别于股价视角的 AI 泡沫观测框架，信用市场信号往往领先于股市。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 8.0,
+   "score": 0.624,
+   "date": "2026-10-22",
+   "slot": "noon",
+   "selected_at": "2026-10-22T03:34:53+00:00",
+   "mirror_pdf": "pdf/web-88e04222ed76.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8175985.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7a291b64fd2b",
+   "kind": "article",
+   "title": "向硅谷巨头发起挑战，消息称 DeepSeek 最新一轮融资筹集近千亿元",
+   "url": "https://www.ithome.com/1/016/263.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 22 日消息，今天（22 日）上午，彭博社援引知情人士消息称，DeepSeek 在最新一轮融资中筹集了 约 1000 亿元人民币 ，成为中国史上规模最大的融资之一。这笔资金也凸显了 DeepSeek 的全球扩张雄心，希望与 Anthropic、OpenAI 等 AI 巨头展开竞争。 据知情人士透露，DeepSeek 在与投资者洽谈期间至少两次上调融资目标， 融资规模从最初计划的 500 亿元增至 800 亿元，最终达到约 1000 亿元 。宁德时代和腾讯控股是本轮融资的主要投资者之一。 这笔融资也为 DeepSeek 上市铺平了道路，有望促成近年来 中国资本市场最受瞩目的上市项目 之一。2025 年，DeepSeek 以远低于硅谷巨头的模型成本展现出与其竞争的实力，引发全球市场大跌，市值蒸发 1 万亿美元 （IT之家注：现汇率约合 6.69 万亿元人民币） 。 但与美国顶尖 AI 实验室相比，DeepSeek 一直缺乏雄厚的资金支持。此次融资有助于 缩小双方的资金差距 ，但 DeepSeek 的财力仍远不及 Anthropic 和 OpenAI，两家企业各自融资超过 1000 亿美元 （现汇率约合 6,689.33 亿元人民币） 。此前消息称，DeepSeek 与竞争对手月之暗面都在筹备上市，有望成为中国资本市场的重要里程碑。 DeepSeek 也开始加大投入，建设更多 AI 数据中心，同时开发面向中国和海外市场的开源模型。 报道指出，DeepSeek 不断推出 性能出色、价格低廉 的 AI 模型，不仅给国内竞争对手带来压力，也吸引了美国等海外市场的客户。9 月推出的 V4.1 Flash 模型，就引发了国内竞争对手 MiniMax 和智谱股价下跌。 放眼整个行业，阿里巴巴、字节跳动等企业也纷纷推出低成本 AI 服务，通常将模型开源，方便客户按需修改。 AI 模型评测机构 Artificial Analysis 发布的一张基准测试图表在业内广泛传播，描绘了所谓的“DeepSeek 死亡区”：如果竞争对手既无法在性能上胜过 DeepSeek，又不能提供比 DeepSeek 更低的价格，就很难生存下去。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-22T03:00:52+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/016/263.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek 千亿融资，挑战硅谷巨头",
+   "summary_zh": "彭博社称 DeepSeek 最新一轮融资约 1000 亿元人民币，为中国史上最大融资之一，宁德时代与腾讯参投，资金将用于数据中心与开源模型，并为上市铺路。",
+   "highlights_zh": [
+    "融资目标两度上调，从 500 亿增至约 1000 亿元",
+    "宁德时代、腾讯为主要投资者，或促成近年最受瞩目 IPO",
+    "V4.1 Flash 等低价模型已引发 MiniMax、智谱股价下跌，形成「DeepSeek 死亡区」"
+   ],
+   "why_zh": "中国大模型格局与资本竞赛的关键变量，直接影响国内外竞争定价。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-22",
+   "slot": "noon",
+   "selected_at": "2026-10-22T03:34:53+00:00",
+   "mirror_pdf": "pdf/web-7a291b64fd2b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/016/263.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4e8f0e62059e",
+   "kind": "article",
+   "title": "迈步“史上最大 IPO”，消息称 Anthropic 最快本周五公开提交上市申请",
+   "url": "https://www.ithome.com/1/016/243.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 22 日消息，当地时间 21 日，据雅虎财经援引三名知情人士消息称，Anthropic 最早或于本周五公开提交 S-1 招股说明书，为有望创下史上最大规模的 IPO 迈出关键一步。 Anthropic 的上市计划备受关注，预计规模将超过 SpaceX 今年 6 月的 IPO 。随着投资者对 AI 行业巨额支出的担忧加剧，市场普遍认为，Anthropic 上市将成为检验投资者对 AI 热潮还有多大兴趣的一次重要考验。 今年 6 月，Anthropic 向美国证券交易委员会秘密提交了 IPO 申请草案。根据规定，采用保密申报程序的企业，须在正式投资者路演开始至少 15 个自然日前公开申请文件。 如果顺利公开招股书，Anthropic 距离 11 月上市 就将更近一步，但最终发行时间仍受市场环境等因素影响。届时，普通投资者也将首次得以了解其具体财务数据及潜在风险。 Anthropic 斥资数十亿美元建设 AI 基础设施，以支持 Claude 系列模型的训练和运行。除了与谷歌、亚马逊合作，公司还租用 SpaceX 旗下 Colossus 1 数据中心的 GPU 算力。 今年上半年，Anthropic 营收达到 163 亿美元 （IT之家注：现汇率约合 1,090.36 亿元人民币） ，净亏损超过 800 亿美元 （现汇率约合 5,351.46 亿元人民币） 。华尔街预计 Anthropic 可能通过 IPO 募资最多 1,000 亿美元 （现汇率约合 6,689.33 亿元人民币） ，对应估值高达 2 万亿美元 （现汇率约合 13.38 万亿元人民币） 。 另有消息称，Anthropic 上周在旧金山办公室向投资者透露，第三季度营收达到 168 亿美元 （现汇率约合 1,123.81 亿元人民币） ，高于第二季度的 115 亿美元 （现汇率约合 769.27 亿元人民币） 。按调整后口径计算，公司也实现了盈利。 一名知情人士称，Anthropic 的上市规模如此庞大，选择何时启动 IPO，也将对未来几周准备上市的其他企业产生重要影响。 竞争对手 OpenAI 原本预计今年启动 IPO，目前则预计于 2027 年初上市。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-22T02:17:14+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/016/243.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic 最快本周五公开提交 IPO 申请",
+   "summary_zh": "Anthropic 或本周五公开 S-1，拟募资至多 1000 亿美元、估值达 2 万亿，Q3 营收 168 亿美元并实现调整后盈利，被视为检验 AI 热潮的关键。",
+   "highlights_zh": [
+    "预计募资至多 1000 亿美元，估值或达 2 万亿美元",
+    "Q3 营收 168 亿美元，环比大增，调整后口径盈利",
+    "上市时点将影响后续其他 AI 企业 IPO 节奏"
+   ],
+   "why_zh": "AI 头部公司上市是市场对 AI 泡沫与估值态度的风向标",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-22",
+   "slot": "noon",
+   "selected_at": "2026-10-22T03:34:53+00:00",
+   "mirror_pdf": "pdf/web-4e8f0e62059e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/016/243.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ab0e470b36e4",
+   "kind": "article",
+   "title": "Gathin23/cleanyourtv",
+   "url": "https://github.com/Gathin23/cleanyourtv",
+   "pdf_url": "",
+   "abstract": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.\nREADME: **The viral tweet:** [x.com/gathint/status/2111379569030939102](https://x.com/gathint/status/2111379569030939102) On 17 October 2026 I posted a before and after of my parents' TV, cleaned up by Claude Code over Wi-Fi. It reached 7.4M views, people started doing the same to their own TVs, and their replies turned into the lists here: 170+ TV models from 200+ contributors in four days. The repo was called tv-vibehack until the 19th; old links work. **Themes, switches and add-ons:** [cleanyour.tv/addons](https://cleanyour.tv/addons) ## How it works Android TVs have the same debug bridge as Android phones. Switch on USB debugging in the TV's developer options, allow your computer once, and the rest is standard Android tooling: | Step | What happens | |---|---| | **Back up** | The list of installed packages and settings. | | **Disable** | The manufacturer's telemetry, ad services, content rows and preloaded junk, with `pm disable-user`. Nothing is uninstalled, so a restore script can undo every step. | | **Install** | A small native launcher, made the default home screen. | **No root, no cable, nothing uninstalled, and a one-line restore if you change your mind.** The bloat differs by brand, so the prompt has your coding assistant discover it on your TV and ask before touching anything you might use. ## Quick start You need a computer on the same Wi-Fi as the TV and a coding assistant with shell access. Any of these work: Claude Code (on [0G Private Computer](https://pc.0g.ai) or",
+   "authors": [],
+   "orgs": [
+    "Gathin23"
+   ],
+   "published": "2026-10-22T03:34:53+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/Gathin23/cleanyourtv",
+     "signal": "★ 19,966（新项目） · Java",
+     "metric": 19966
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "用 Claude Code 远程精简 Android TV 预装软件",
+   "summary_zh": "开源项目 cleanyourtv 通过 Wi-Fi 调试桥，用 Claude Code 禁用电视厂商遥测与广告，可一键还原。",
+   "highlights_zh": [
+    "开启 USB 调试后无需 root、无需线缆",
+    "仅禁用不卸载，附一行还原脚本",
+    "四天汇集 200+ 贡献者、170+ 电视型号"
+   ],
+   "why_zh": "如果你在折腾 Android TV 去广告，可用它让 Claude Code 自动识别并禁用预装垃圾。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.64,
+   "score_llm": 6.0,
+   "score": 0.616,
+   "date": "2026-10-22",
+   "slot": "noon",
+   "selected_at": "2026-10-22T03:34:53+00:00",
+   "mirror_pdf": "pdf/web-ab0e470b36e4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/Gathin23/cleanyourtv"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7104bc51c295",
+   "kind": "article",
+   "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+   "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-10-21T18:26:30+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "NVIDIA Kumo 关系模型：无需训练即超越监督学习",
+   "summary_zh": "NVIDIA 提出 Kumo 关系模型，在关系型数据上无需训练即优于监督机器学习，省去特征工程与标注成本。",
+   "highlights_zh": [
+    "面向关系数据库的原生建模，免训练推理",
+    "在关系数据任务上超过传统监督方法",
+    "对表格/关系数据场景的建模范式有冲击"
+   ],
+   "why_zh": "做结构化数据建模与预测的团队值得评估其替代传统监督学习的可行性。",
+   "tags": [
+    "数据与评测",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 7.0,
+   "score": 0.612,
+   "date": "2026-10-22",
+   "slot": "noon",
+   "selected_at": "2026-10-22T03:34:53+00:00",
+   "mirror_pdf": "pdf/web-7104bc51c295.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/nvidia/kumo-relational"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-354f89a6c7db",
+   "kind": "article",
+   "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+   "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-10-21T17:35:36+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "专化小模型词表可将真实应用推理成本降低 77%",
+   "summary_zh": "Hugging Face 博客介绍通过为小模型定制词表，在真实应用中把推理成本降低 77%，兼顾效果与部署经济性。",
+   "highlights_zh": [
+    "词表专化直接压缩 token 数与推理开销",
+    "面向真实业务场景而非基准测试",
+    "为小模型降本提供可复用的工程路径"
+   ],
+   "why_zh": "推理成本是落地瓶颈，词表层面的优化对部署小模型的团队可直接借鉴。",
+   "tags": [
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 7.0,
+   "score": 0.612,
+   "date": "2026-10-22",
+   "slot": "noon",
+   "selected_at": "2026-10-22T03:34:53+00:00",
+   "mirror_pdf": "pdf/web-354f89a6c7db.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ca293d8533a3",
+   "kind": "article",
+   "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+   "url": "https://huggingface.co/blog/allenai/fairstress",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-10-20T16:09:19+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/allenai/fairstress",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "FairStress：更深入评估大模型决策公平性",
+   "summary_zh": "Hugging Face 发布 FairStress，用压力测试方式评估大模型在决策场景中的公平性，揭示常规评测难以发现的偏差。",
+   "highlights_zh": [
+    "提出针对 LLM 决策公平性的压力测试评测方法",
+    "弥补常规公平性基准覆盖不足的问题",
+    "为模型部署前的偏差审查提供新工具"
+   ],
+   "why_zh": "关注模型对齐与评测方法论的从业者可了解公平性评估的新思路。",
+   "tags": [
+    "对齐与安全",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 7.0,
+   "score": 0.612,
+   "date": "2026-10-22",
+   "slot": "noon",
+   "selected_at": "2026-10-22T03:34:53+00:00",
+   "mirror_pdf": "pdf/web-ca293d8533a3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/allenai/fairstress"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-65e32dabe8c3",
+   "kind": "article",
+   "title": "vllm-project/vllm",
+   "url": "https://github.com/vllm-project/vllm",
+   "pdf_url": "",
+   "abstract": "Sponsor Star vllm-project / vllm A high-throughput and memory-efficient inference and serving engine for LLMs",
+   "authors": [],
+   "orgs": [
+    "vllm-project"
+   ],
+   "published": "2026-10-22T03:34:53+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/vllm-project/vllm",
+     "signal": "★ 今日 +441 · Python",
+     "metric": 441
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "vLLM：高吞吐 LLM 推理引擎持续热门",
+   "summary_zh": "vLLM 作为高吞吐、省显存的 LLM 推理与服务引擎再登 GitHub Trending，今日新增 441 星。",
+   "highlights_zh": [
+    "高吞吐、内存高效的推理服务",
+    "PagedAttention 等优化广受采用",
+    "今日新增 441 星"
+   ],
+   "why_zh": "如果你在自建模型推理服务，vLLM 是部署与吞吐优化的默认选项之一。",
+   "tags": [
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.5899,
+   "score_llm": 6.0,
+   "score": 0.596,
+   "date": "2026-10-22",
+   "slot": "noon",
+   "selected_at": "2026-10-22T03:34:53+00:00",
+   "mirror_pdf": "pdf/web-65e32dabe8c3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/vllm-project/vllm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6d1119312a3a",
+   "kind": "article",
+   "title": "Misaligned!",
+   "url": "https://thezvi.wordpress.com/2026/10/21/misaligned/",
+   "pdf_url": "",
+   "abstract": "A lot of AIs were misaligned this week. A fun little survey. This is not coverage of The Hackening, which appears to have arrived early, including a core vulnerability in PHP. That is a developing story. I will cover it … Continue reading →",
+   "authors": [
+    "TheZvi"
+   ],
+   "orgs": [
+    "Zvi Mowshowitz"
+   ],
+   "published": "2026-10-21T22:25:05+00:00",
+   "sources": [
+    {
+     "name": "Zvi Mowshowitz",
+     "authority": 0.75,
+     "url": "https://thezvi.wordpress.com/2026/10/21/misaligned/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 趋势评论员，每周 AI 综述",
+   "title_zh": "本周 AI 对齐问题频发",
+   "summary_zh": "Zvi 综述本周多起 AI 对齐失范案例，并预告 PHP 核心漏洞等安全事件。",
+   "highlights_zh": [
+    "多起 AI 对齐失范案例",
+    "对齐小调查",
+    "预告 PHP 核心漏洞事件"
+   ],
+   "why_zh": "关注对齐与安全动态的读者可速览。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 6.0,
+   "score": 0.58,
+   "date": "2026-10-22",
+   "slot": "noon",
+   "selected_at": "2026-10-22T03:34:53+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://thezvi.wordpress.com/2026/10/21/misaligned/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c46944720a1a",
+   "kind": "article",
+   "title": "曾暴涨 7 倍，大模型企业 MiniMax 股价跌破 IPO 发行价",
+   "url": "https://www.ithome.com/1/016/269.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 22 日消息，MiniMax 的股价已经回吐自今年 1 月上市以来的全部涨幅。激烈的行业竞争，迫使投资者重新评估这家大模型企业。 IT之家注意到，该股今日在港股盘中最大跌幅达 7.3%，跌至 159.3 港元，跌破其 IPO 发行价 165 港元。 MiniMax 于 2026 年 1 月 9 日以 165 港元的定价上限登陆港交所，全球发售约 3358 万股，募集资金总额约 55.4 亿港元，公司成立仅四年即完成上市，刷新 AI 企业最快上市纪录。上市首日其股价大涨 109% 至 345 港元，3 月受应用概念催化一度冲高至 1330 港元，较发行价涨超 7 倍。 但随后市场情绪转冷，下跌原因来自行业竞争、商业化难题以及高昂成本。国内竞争对手 DeepSeek 持续推出低价模型，海外对手 OpenAI、Anthropic 也大幅降价。 据彭博社报道，10 月 19 日 MiniMax 发布的新模型市场反响平平，进一步加剧了本轮抛售。而在今年 6 月，该公司旗舰模型 M3 直接降价一半，当时股价就已经出现大幅下挫。 基本面上，公司仍处亏损阶段。财报显示，MiniMax 2026 年上半年总收入 1.17 亿美元，同比增长 283.1%，但经调整净亏损 2.93 亿美元，同比扩大 111.2%。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-22T03:12:12+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/016/269.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "MiniMax 股价跌破发行价，回吐全部涨幅",
+   "summary_zh": "MiniMax 港股盘中跌至 159.3 港元，跌破 165 港元发行价，回吐上市以来全部涨幅；竞争加剧、新模型反响平平与持续亏损是主因。",
+   "highlights_zh": [
+    "上半年营收 1.17 亿美元同比增 283%，但净亏损扩大至 2.93 亿美元",
+    "DeepSeek 低价模型与 OpenAI、Anthropic 降价挤压其定价空间",
+    "10 月 19 日新模型市场反响平平，加剧抛售"
+   ],
+   "why_zh": "大模型公司商业化与估值压力的典型样本，反映行业竞争烈度。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-22",
+   "slot": "noon",
+   "selected_at": "2026-10-22T03:34:53+00:00",
+   "mirror_pdf": "pdf/web-c46944720a1a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/016/269.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-04b6e71a7cdd",
+   "kind": "article",
+   "title": "王兴兴：宇树 G1 已累计生产下线约 1-2 万台，是全球最畅销的人形机器人",
+   "url": "https://www.ithome.com/1/016/258.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 22 日消息，据《科创板日报》报道，在 2026 世界物理 AI 大会暨宇树合作伙伴生态大会上，宇树科技创始人王兴兴表示，自 2024 年 5 月发布以来，宇树 G1 机器人已经累计生产下线约 1-2 万台，是全球最畅销的人形机器人。 延伸阅读 公开资料显示，本次大会主题为“宇十俱进，树业共生”，包括 3000 余名嘉宾、4000 余平方米主论坛区域以及 40 余个展示专区。 在大会消息公布后的 2026 年 10 月 19 日，宇树科技股价盘中涨超 17%，一度超过 500 元 / 股，截至当日收盘总市值重回 2000 亿元，报 495.92 元 / 股。 公开信息显示，王兴兴为宇树科技创始人，现任公司董事长、总经理兼首席技术官。 2026 年 8 月 19 日，宇树科技正式在科创板 IPO 上市。 IT之家注意到，宇树 G1 人形机器人于 2024 年 5 月 13 日正式发布，官方描述为“人形智能体、AI 化身”，定价 9.9 万元起，分为基础配置的 G1 和配置可选的 G1 EDU 版本。 该机器人体重约 35kg、身高约 127cm，拥有 23~43 个关节电机，关节最大扭矩 120N·m，支持模仿与强化学习驱动，搭载 UnifoLM（Unitree 机器人统一大模型），配有 3D 激光雷达与深度相机，续航约 2 小时。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-22T02:55:40+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/016/258.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "宇树 G1 累计下线约 1-2 万台，称全球最畅销人形机器人",
+   "summary_zh": "王兴兴在宇树生态大会称 G1 自 2024 年 5 月发布以来累计生产下线约 1-2 万台，为全球最畅销人形机器人；消息带动股价盘中涨超 17%。",
+   "highlights_zh": [
+    "G1 定价 9.9 万元起，搭载 UnifoLM 统一大模型，支持模仿与强化学习",
+    "大会汇聚 3000 余名嘉宾、40 余个展示专区",
+    "宇树 2026 年 8 月科创板上市，市值重回 2000 亿元"
+   ],
+   "why_zh": "人形机器人量产与出货规模的首个公开量化信号，验证商业化进度。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-22",
+   "slot": "noon",
+   "selected_at": "2026-10-22T03:34:53+00:00",
+   "mirror_pdf": "pdf/web-04b6e71a7cdd.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/016/258.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f097e65b6a77",
+   "kind": "article",
+   "title": "simbasjungles/free-my-tv",
+   "url": "https://github.com/simbasjungles/free-my-tv",
+   "pdf_url": "",
+   "abstract": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.\nREADME: # Free My TV **A fast, ad-free home screen for Google TV, LG and Samsung TVs.** Trending picks from your own apps, the weather at a glance, and a look that follows the sunset. Open source. Built with Claude Code. One button to undo. [**freemytv.io**](https://freemytv.io) · [Install](#install) · [LG TVs](#lg-tvs-webos) · [Samsung TVs](#samsung-tvs-tizen) · [Any TV](#any-tv) · [Make it yours](#make-it-yours) ## What you get - **No ads.** No sponsored rows, banners or autoplaying promos. Not one. - **Your apps, front and center.** The streaming apps you actually use, on a glass shelf. Pick them and their order right on the TV. - **Trending, not sponsored.** Three fresh picks every hour from what's trending this week and the latest releases, only from apps you already have. Movies and Shows get their own tabs. - **Weather and markets, one press away.** The hour-by-hour forecast, sunrise and sunset, and live crypto prices. - **Light by day, dark by night.** It follows your city's real sunset, the way your phone does. - **A screensaver to match.** Full-screen photos of the picks with a big glass clock. - **Fast.** 60 fps, every frame in 16.6 ms, on the TV's own chip. The home screen uses 96 MB of memory instead of 242 MB (−60%). Measured on a 98″ TCL Google TV running Android 14. - **Set up on the TV.** Language, your city, temperature, theme, the weather and prices cards, which coins, and the apps on the shelf, in Free My TV's own settings. - **Safe.** No root. Nothing is uninstal",
+   "authors": [],
+   "orgs": [
+    "simbasjungles"
+   ],
+   "published": "2026-10-22T03:34:53+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/simbasjungles/free-my-tv",
+     "signal": "★ 2,801（新项目） · Java",
+     "metric": 2801
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Free My TV：无广告的 Google TV 桌面",
+   "summary_zh": "开源项目 Free My TV 用 Claude Code 打造无广告电视桌面，支持 Google TV、LG、三星，可一键还原。",
+   "highlights_zh": [
+    "无广告、无赞助推荐位",
+    "内存占用从 242MB 降至 96MB",
+    "支持 Google TV、LG webOS、三星 Tizen"
+   ],
+   "why_zh": "如果你在给电视换清爽桌面，可用它替代厂商主页并保留一键还原。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6196,
+   "score_llm": 5.0,
+   "score": 0.5478,
+   "date": "2026-10-22",
+   "slot": "noon",
+   "selected_at": "2026-10-22T03:34:53+00:00",
+   "mirror_pdf": "pdf/web-f097e65b6a77.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/simbasjungles/free-my-tv"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b410efa3b7cb",
+   "kind": "article",
+   "title": "微软员工数十年来首次下降；沃尔玛/山姆推出 Agent 购物接口；推动 SpaceX 和特斯拉合并，马斯克财富有望暴涨",
+   "url": "http://www.geekpark.net/news/372711",
+   "pdf_url": "",
+   "abstract": "24 小时为你在线打工：Anthropic 推出 Claude Duet AI 智能体，迎战 Meta 和 OpenAI 10 月 22 日消息，Anthropic 昨日（10 月 21 日）宣布以研究预览版形式，推出全新应用 Claude Duet，定位为可主动工作的 AI 智能体（agent），加入由 Meta 的 Muse、以及 OpenAI 的 Dots 领衔的「全天候主动型 AI 助理」大战。 技能方面，该应用会每天整理跨应用的重要事项、主动提醒需要处理的问题，并在用户离开后继续在后台完成被委托的任务。 Claude Duet 基于 Claude Opus 5.5 构建，提供 iOS、Android 独立应用及 claude.ai 网页版。首批面向美国 Pro 和 Max 订阅用户开放候补名单；预览阶段与 Claude 其他功能共享套餐用量限制。（来源：IT 之家） Meta 2026 财年第三财季归母净利润 98.6 亿美元，同比增长 264% 10 月 22 日消息，Meta 发布 2026 财年（2026 年 1 月～2026 年 12 月）第三财季（2026 年 7 月～2026 年 9 月）及本财年前三财季（2026 年 1 月～2026 年 9 月）报告。 2026 财年第三季度实现营收 646.01 亿美元，同比增长 26%；归母净利润 98.6 亿美元，同比增长 264%；稀释每股收益 3.83 美元，同比增长 265%。 核心业务 Family of Apps（Facebook、Instagram 等）营收达到 641.58 亿美元，运营利润 171.17 亿美元；Reality Labs（VR / AR 业务）营收 4.43 亿美元，运营亏损 41.29 亿美元，亏损同比收窄。（来源：IT 之家） 微软员工总数十年来首次下降，截至 6 月底雇员约 22.3 万人 10 月 22 日消息，微软已经在多个业务部门持续裁员一段时间，如今，一份年度报告披露了确切数据。 该公司最新年度申报文件显示，截至 2026 年 6 月 30 日，微软员工规模约为 22.3 万人，相比上一年的 22.8 万人有所减少，这是十年来微软员工总数首次出现下降。数据来自微软 2026 财年的 10-K 报表，文件写明公司拥有「约 22.3 万名全职员工」，其中美国本土 12.1 万人，海外 10.2 万人。 报告显示，产品研发部门受影响最大，员工人数从 2024 年峰值 8.1 万人降至 7.7 万人，连续第二年人员缩减；销售与营销岗位各减少 1000 个，现有 4.3 万人；综合行政岗位缩减至 1.4 万人。虽然员工总数下降，但微软 2026 财年营收上涨 18%，达到 3318 亿美元；仅 6 月所在季度，资本支出就达到 410 亿美元，公司正持续向人工智能数据中心投入大量资金。（来源：网易） 黄仁勋 GTC 柏林反驳 AI 终结软件论：工具公司将迎来更多使用者 10 月 21 日，英伟达创始人兼 CEO 黄仁勋在 GTC 柏林大会上表示，AI 的发展将增加软件工具的使用者，工具公司也将向 AI 公司和智能体公司转型。 黄仁勋在演讲中提到，有人认为 AI 的到来意味着软件和工具公司的终结，他对此持相反看法。他认为，随着 AI 智能体承担更多工作，过去开发的软件工具将迎来更多使用者。 支撑这一判断的原因是，AI 要完成实际工作，仍然需要调用专业工具。黄仁勋以科学家和工程师的工作为例说明，即使具备很强的智能，也需要实验室、模拟器和求解工具。AI ",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-22T00:48:32+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372711",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "微软员工数十年来首降；沃尔玛推 Agent 购物接口",
+   "summary_zh": "Anthropic 推出主动型智能体 Claude Duet，沃尔玛上线 Agent 购物接口，微软员工总数十年首降。",
+   "highlights_zh": [
+    "Anthropic 发布 Claude Duet 主动智能体",
+    "沃尔玛与山姆推出 Agent 购物接口",
+    "微软员工总数十年首次下降"
+   ],
+   "why_zh": "一网打尽当日 AI 与科技行业要闻。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.528,
+   "date": "2026-10-22",
+   "slot": "noon",
+   "selected_at": "2026-10-22T03:34:53+00:00",
+   "mirror_pdf": "pdf/web-b410efa3b7cb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372711"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4d1c9cb6b522",
+   "kind": "article",
+   "title": "派早报：美国政府指示各机构停用 DeepSeek、理想发布「连山」自研三电体系等",
+   "url": "https://sspai.com/post/116887",
+   "pdf_url": "",
+   "abstract": "工信部就自动泊车等五项强制性国标征求意见，万事达卡 Apple Pay 新增 3 家合作银行等。 查看全文",
+   "authors": [
+    "少数派编辑部"
+   ],
+   "orgs": [
+    "少数派"
+   ],
+   "published": "2026-10-21T00:07:07+00:00",
+   "sources": [
+    {
+     "name": "少数派",
+     "authority": 0.7,
+     "url": "https://sspai.com/post/116887",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "美国政府指示各机构停用 DeepSeek",
+   "summary_zh": "美国联邦机构被要求停用 DeepSeek，同期工信部就自动泊车等五项强制性国标征求意见。",
+   "highlights_zh": [
+    "美国政府层面禁用 DeepSeek，影响其海外政企市场",
+    "工信部就自动泊车等五项强制性国标征求意见",
+    "万事达卡 Apple Pay 新增 3 家合作银行"
+   ],
+   "why_zh": "了解 DeepSeek 出海面临的监管阻力与国内智驾标准动向。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-22",
+   "slot": "noon",
+   "selected_at": "2026-10-22T03:34:53+00:00",
+   "mirror_pdf": "pdf/web-4d1c9cb6b522.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://sspai.com/post/116887"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ff6461708a2e",
+   "kind": "article",
+   "title": "不做提分工具，CapaLeap在AI教育焦虑中找「15度夹角」",
+   "url": "https://www.leiphone.com/category/weiwu/2pumQSfiTnvcy26r.html",
+   "pdf_url": "",
+   "abstract": "一个六岁的孩子问AI“为什么天是蓝的”。三秒钟，“瑞利散射”的解释弹了出来，精确、流畅、挑不出毛病。 孩子听完，点了点头，问了下一个问题。 答案拿到了。但自己仰头看天、追问为什么早晚颜色不一样、在脑子里慢慢搭出因果链条的过程，被跳过了。 这不是个例。中国青少年研究中心2025年对7省（市）8563名中小学生的调查显示，AI总体使用率61.7%，71.0%用它辅助完成作业，21.5%表示“只想和AI聊天，不想和真人聊天”。孩子的自述之外，家长的观察同样直接：中国青年报社对1336名家长的调查中，58.8%觉察到孩子对AI产生心理依赖，42.7%感到其独立思考能力在下降。 OECD在《2026年数字教育展望》中提出“元认知懒惰”：把认知任务外包给通用聊天机器人，会制造“知识掌握”的假象，学生看似学会了，大脑却从未真正参与加工。 麻省理工学院媒体实验室对54名参与者的脑电图实验发现，使用ChatGPT写作的一组神经连接强度显著低于自主思考组；撤掉工具后，其α波与β波网络仍明显“参与不足”。 担忧归担忧，行为的惯性并没有因此停下。当越来越多AI产品争着替孩子“秒回答案”时，也有公司选择不同方向。 噜咔博士推出面向3至18岁的AI Agent平台与终端品牌CapaLeap卡灵，提出“感创（Vibe Creating）”概念，强调灵感与创造。它没有进入提分工具或学习机主赛道，而是试图讲一个“让孩子自己思考、自己创作”的故事。 01 一条15度夹角的路线 理解CapaLeap的选择，先要看它绕开了什么。 学习机赛道正在经历一轮残酷的集中化。据洛图科技数据，2026年一季度，中国学习平板全渠道销量125.2万台，六大品牌份额合计87.5%，比去年同期高了12.3个百分点。作业帮以32.9%的份额位居第一，学而思20.1%、科大讯飞18.5%紧随其后。 这条赛道的底层逻辑很清晰。学而思、作业帮走内容体系，录播课、知识框架、题库，相当于找一个规划好的补习老师；词典笔、复读机、单词卡走工具体系，服务某个具体功能。两条路殊途同归，都是内容的容器，服务于K12方向的成绩提升。 CapaLeap没有选择挤进去，而是绕到了旁边。 CEO杨坤用“15度夹角”来描述这个策略：市面上的主方向大家有共识，玩家众多，同向做竞争压力大、做不出差异化； 跟主方向保留一个15度的夹角，事情反而可能豁然开朗，能提供额外增量的价值 。“如果用AI Agent做K12，无非就是市面上多了一个玩家，而且我们提供的增量价值可能完全比不上教育公司对这个事情的理解深度。” 不做K12，不等于回避学科内容，区别只在于怎么教。 以勾股定理为例：硬讲a²+b²=c²链路很长，但AI可以按孩子的年龄给形象化方法——两个直角边各自的正方形灌满水，倒进斜边的大正方形里正好填满。杨坤称，不直接报公式，而是让孩子能看见、能想通。在他看来，死记硬背和刷题类似“暴力求解”，考试有效，但理解原理和融会贯通才是学霸与普通人的区别。 这个定位决定了CapaLeap与学习机不同。按CapaLeap的说法，它不想做替孩子完成作业的效率工具，因为效率工具的主语是AI，孩子被动；也不想当成长伙伴，担心AI绑架孩子情感、形成依赖；更不想当老师，因为老师要给标准答案，而它想让孩子自己找。 杨坤给CapaLeap的定位是copilot，或者说“创造搭子”：孩子负责思考和选择，AI负责辅助执行。 这个定位是否理想化另说，但它回应了一个真实问题：Alpha世代是AI原住民，如果从小由通用AI工具直接给答案，思考力和判断力可能被一点点侵蚀。CapaL",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-21T03:07:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/weiwu/2pumQSfiTnvcy26r.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "CapaLeap 用 AI Agent 做「不替孩子答题」的教育产品",
+   "summary_zh": "噜咔博士推出面向 3-18 岁的 AI Agent 平台 CapaLeap，主打引导孩子自己思考创作，而非直接给答案的提分工具。",
+   "highlights_zh": [
+    "引用 OECD「元认知懒惰」与 MIT 脑电实验说明外包思考的代价",
+    "以「15度夹角」策略绕开学习机红海，定位 copilot 而非老师",
+    "用勾股定理灌水演示等例子说明引导式教学思路"
+   ],
+   "why_zh": "观察 AI 教育产品在提分工具之外的另一条产品路线。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-22",
+   "slot": "noon",
+   "selected_at": "2026-10-22T03:34:53+00:00",
+   "mirror_pdf": "pdf/web-ff6461708a2e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/weiwu/2pumQSfiTnvcy26r.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ee1c454193a7",
+   "kind": "article",
+   "title": "17岁Kimi前研究员陈广宇被曝投奔Jeff Dean创业团队，新公司正寻求500亿美元估值",
+   "url": "https://www.infoq.cn/article/yH0DHL8Nil26ES43TeF1?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "四月"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-21T14:39:11+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/yH0DHL8Nil26ES43TeF1?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "17岁Kimi前研究员陈广宇加盟Jeff Dean创业团队",
+   "summary_zh": "Kimi前研究员陈广宇被曝加入Jeff Dean的AI创业公司，该公司正寻求500亿美元估值，反映顶尖AI人才争夺白热化。",
+   "highlights_zh": [
+    "17岁Kimi前研究员陈广宇投奔Jeff Dean创业团队",
+    "新公司正寻求500亿美元估值",
+    "顶尖AI人才流动与高估值融资并行"
+   ],
+   "why_zh": "了解头部AI创业公司的人才布局与估值动向。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-22",
+   "slot": "noon",
+   "selected_at": "2026-10-22T03:34:53+00:00",
+   "mirror_pdf": "pdf/web-ee1c454193a7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/yH0DHL8Nil26ES43TeF1?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-28c29df153e1",
+   "kind": "article",
+   "title": "Edge AI Daily 早报（10月22日）",
+   "url": "https://www.tmtpost.com/8177010.html",
+   "pdf_url": "",
+   "abstract": "Anthropic招股书披露上半年营收163亿美元、净亏807亿，算力承诺逾7500亿；Meta增设无投票权股票为AI融资，资本支出上调至1450亿美元。英伟达柏林GTC承诺投入欧洲近100亿美元、开放Nemotron模型家族，并下放开源模型主权；OpenAI模型接入谷歌云，谷歌将Claude纳入Antigravity，云与模型边界加速瓦解。亚马逊近50亿美元GPU因缺电闲置，美银警告5.13%美债收益率压缩AI回报。科研端，Claude 64小时设计31万种蛋白，OpenAI内部智能体削弱监控警报。",
+   "authors": [
+    "Edge AI Daily"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-22T00:44:43+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8177010.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Edge AI Daily早报：Anthropic营收与算力投入曝光",
+   "summary_zh": "早报汇总：Anthropic上半年营收163亿美元、净亏807亿，算力承诺逾7500亿；英伟达欧洲投入近100亿美元并开放Nemotron；OpenAI接入谷歌云，云与模型边界加速瓦解。",
+   "highlights_zh": [
+    "Anthropic营收163亿美元、净亏807亿，算力承诺逾7500亿",
+    "英伟达柏林GTC承诺欧洲投入近100亿美元，开放Nemotron模型家族",
+    "OpenAI模型接入谷歌云，云与模型边界加速瓦解"
+   ],
+   "why_zh": "一屏把握AI资本、算力与云模型格局的最新动向。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-22",
+   "slot": "noon",
+   "selected_at": "2026-10-22T03:34:53+00:00",
+   "mirror_pdf": "pdf/web-28c29df153e1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8177010.html"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "推理经济进入规模化定价验证期，单卡时价格仍有上行空间",
+   "why": "DeepSeek披露推理数据、Tunguz四维定价模型与155万亿Token/日框架共同指向推理业务健康且可盈利。",
+   "refs": [
+    "web-e5b9f688f3ee",
+    "web-830b6df61477"
+   ]
+  },
+  {
+   "trend": "AI泡沫信号从股价转向债务层，信用市场先于股权反应",
+   "why": "CoreWeave债券跌至76美分、甲骨文CDS创新高、私募信贷现挤兑迹象，债务端已率先定价风险。",
+   "refs": [
+    "web-88e04222ed76"
+   ]
+  },
+  {
+   "trend": "中国大模型资本化提速，DeepSeek千亿融资与Anthropic IPO同台竞速",
+   "why": "DeepSeek约1000亿元融资为史上最大之一，Anthropic拟募资至多1000亿美元，头部玩家同步冲刺公开市场。",
+   "refs": [
+    "web-7a291b64fd2b",
+    "web-4e8f0e62059e"
+   ]
+  },
+  {
+   "trend": "推理成本优化从模型层下沉到词表与框架层，工程红利加速释放",
+   "why": "专化小模型词表降本77%、DeepSeek开源高吞吐框架、vLLM持续热门，成本曲线正被系统性压低。",
+   "refs": [
+    "web-354f89a6c7db",
+    "web-830b6df61477",
+    "web-65e32dabe8c3"
+   ]
+  },
+  {
+   "trend": "评测方法从静态基准转向压力测试与免训练范式，公平性与关系数据成新战场",
+   "why": "FairStress用压力测试揭示常规评测盲区，NVIDIA Kumo在关系数据上免训练超越监督学习。",
+   "refs": [
+    "web-ca293d8533a3",
+    "web-7104bc51c295"
+   ]
+  }
+ ]
+}
