@@ -1021,20 +1021,1377 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "arxiv-2610.31329",
+   "kind": "paper",
+   "title": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
+   "url": "https://arxiv.org/abs/2610.31329",
+   "pdf_url": "https://arxiv.org/pdf/2610.31329",
+   "abstract": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, enabling localization at any user-specific granularity, from points and boxes to masks and alpha mattes. Architecturally, we integrate a lightweight pixel decoder into the VLM via a special <OBJ> token to generate instance-level pixel outputs. We train the model with a three-stage curriculum SFT followed by mixed-task RL. Across over 30 benchmarks, WeVisOne-VL demonstrates leading performance on both object-level and pixel-level tasks, while maintaining robust rejection for object-absent queries. By releasing WeVisOne-VL to the open-source community, we hope to advance VLMs from broad visual understanding toward truly reliable perception systems for real-world deployment.",
+   "authors": [
+    "Tianming Liang",
+    "Junyi Pan",
+    "Yuxi Li",
+    "Canmiao Fu",
+    "Zhipeng Huang",
+    "Chong Sun",
+    "Chen Li",
+    "Jing Lyu"
+   ],
+   "orgs": [
+    "Tencent"
+   ],
+   "published": "2026-10-22T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.31329",
+     "signal": "▲ 33",
+     "metric": 33
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "WeVisOne-VL：从物体到像素的统一视觉感知",
+   "summary_zh": "腾讯微信发布 WeVisOne-VL，通过特殊 <OBJ> token 接入轻量像素解码器，用结构化下一 token 预测统一检测、定位、计数、OCR、分割与抠图，30 余项基准领先并开源。",
+   "highlights_zh": [
+    "同一模型支持点、框、掩码到 alpha matte 的任意粒度定位",
+    "三阶段课程式 SFT 加混合任务 RL 训练",
+    "对目标不存在的查询保持稳健拒答能力"
+   ],
+   "why_zh": "VLM 从粗粒度理解走向可靠细粒度感知的代表性开源工作。",
+   "tags": [
+    "多模态",
+    "视觉",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.6709,
+   "score_llm": 8.0,
+   "score": 0.7484,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T10:09:29+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.31329"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.31329"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.31329"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.31329"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.31329"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.31329"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/Tencent/WeVisOne-VL"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.30926",
+   "kind": "paper",
+   "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+   "url": "https://arxiv.org/abs/2610.30926",
+   "pdf_url": "https://arxiv.org/pdf/2610.30926",
+   "abstract": "Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large language models (MLLMs) offer useful priors for both capabilities, but their representations are not automatically actionable for video generation: a Video Diffusion Transformer (DiT) may bypass them through native conditioning pathways, and using them does not ensure either factor-aware control or generation-compatible temporal prediction. We propose Factor-Aware Predictive Learning (FAPL), which establishes effective MLLM latent use as a shared prerequisite and then targets the two capabilities with complementary learning signals. First, latent-only generator grounding trains the DiT with a frozen MLLM and connector, strengthening the DiT's use of MLLM latents for generation. Second, for factor-aware control, paired videos specify a target-factor change and non-target preservation, and factor-span replacement trains the DiT to realize this relationship in its output. Third, for temporal inference, text-only and text-plus-complete-video observations share a video target, and the trained DiT is then frozen while the MLLM and connector are optimized through it. This final stage trains limited-input representations for generation while retaining complete-observation reconstruction as a complementary training mode. Extensive experiments demonstrate our consistently better performance on three cinematic video generation tasks (i.e., sparse-to-video, factor-aware editing, and multi-shot generation) over baselines and validate FAPL's contributions to MLLM feature use, temporal control, and factor coordination.",
+   "authors": [
+    "Songlin Yang",
+    "Zhe Wang",
+    "Xiaotong Zhao",
+    "Xi Wang",
+    "Ran Zhang",
+    "Shuai Li",
+    "Taiyi Wu",
+    "Songlian Li",
+    "Eric Liu",
+    "Alan Zhao",
+    "Anyi Rao"
+   ],
+   "orgs": [
+    "Tencent"
+   ],
+   "published": "2026-10-22T08:43:48.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.30926",
+     "signal": "▲ 140",
+     "metric": 140
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "让 MLLM 隐变量真正生效：面向电影级视频生成的因子感知预测学习",
+   "summary_zh": "腾讯提出 FAPL，通过冻结 MLLM 的隐变量接地、因子跨度替换和有限观测时序预测三阶段训练，让视频 DiT 真正利用 MLLM 表征，实现角色、场景、动作、镜头的因子可控生成。",
+   "highlights_zh": [
+    "指出视频 DiT 会绕过 MLLM 隐变量走原生条件通路，导致多模态先验形同虚设",
+    "用配对视频的因子跨度替换训练，显式约束目标因子改变、非目标因子保持",
+    "冻结 DiT 反传优化 MLLM，使稀疏输入表征与完整观测对齐"
+   ],
+   "why_zh": "多模态先验如何真正注入视频生成，是当前架构设计的关键盲点。",
+   "tags": [
+    "多模态",
+    "视觉",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.7559,
+   "score_llm": 7.0,
+   "score": 0.7224,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T10:09:29+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.30926.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.30926"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.30926"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.30926"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.30926"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.30926"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.30926"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/Songlin1998/ShotVerse2.0"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.30949",
+   "kind": "paper",
+   "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+   "url": "https://arxiv.org/abs/2610.30949",
+   "pdf_url": "https://arxiv.org/pdf/2610.30949",
+   "abstract": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optimal learning rates; (2) fine-grained mid-training, expanding the data mixture across domains and formats and progressively extending the context; and (3) multi-scaffold with multi-version post-training, combining SFT, domain-specialized RL, and MOPD across various scaffolds to integrate complementary training signals and strengthen agentic coding capabilities. Furthermore, model merging combines different experts and checkpoints from different stages while mitigating conflicts among their parameter updates. The resulting IQuest-Q1 demonstrates capabilities in both coding and general tasks. We release IQuest-Q1 as an open-source model to support community research and development.",
+   "authors": [
+    "A. Jian Yang",
+    "An Huang",
+    "Bo Dan",
+    "Chen Mu",
+    "Chengran Yang",
+    "Chuan Shi",
+    "Feng Chang",
+    "Hongxin Li",
+    "Hongyuan Tao",
+    "Jinxing Zhang",
+    "Jujie He",
+    "Kun Wang",
+    "Lin Jing",
+    "Ming Yang",
+    "Qicheng Hu",
+    "Renyuan Li",
+    "Shark Liu",
+    "Shawn Guo",
+    "Shi Qing",
+    "Shi Zhong",
+    "Tianyu Zheng",
+    "Wei Liu",
+    "Wei Zhang",
+    "Wenrui Cai",
+    "Wenxiao Chen",
+    "Xuxing Chen",
+    "Yan Xing",
+    "Yi Xing",
+    "Yifan Luo",
+    "Yiran Xing",
+    "Yizhi Li",
+    "Yongsheng Kang",
+    "Yucheng Ding",
+    "Yue Song",
+    "Yun Qing",
+    "Yunqi Liu",
+    "Zelong Huang",
+    "Zhengmao Ye",
+    "Zhentao Fan",
+    "Zhiteng Li",
+    "Ziling Huang",
+    "Bihong Tang",
+    "Bingli Wang",
+    "Ce Jun",
+    "Changhao Chen",
+    "Chen Hu",
+    "Chen Xiao",
+    "Chi Liu",
+    "Chunjiang Ge",
+    "Danyang Li",
+    "Deyang Kong",
+    "Dian Qi",
+    "Ding Tan",
+    "Evan Yang",
+    "Fanglin Xu",
+    "Fei Bai",
+    "Gang Liu",
+    "Guochang Li",
+    "Hao Tang",
+    "Haoran Feng",
+    "Haowen Wang",
+    "Huahao Hu",
+    "Huanjin Yao",
+    "Huatong Song",
+    "Jia Deng",
+    "Jiajun Wu",
+    "Jialiang Cheng",
+    "Jiayi Liang",
+    "Jiayi Wu",
+    "Jie Deng",
+    "Jiejun Tan",
+    "Jing Yang",
+    "Jingda Xu",
+    "Junhang Cheng",
+    "Junxiao Liu",
+    "Kai Lv",
+    "Kaixiang Pan",
+    "Kecheng Lu",
+    "Kun Zeng",
+    "Kun Zheng",
+    "Kunbo Ding",
+    "Liang Qiu",
+    "Lingyi Sun",
+    "Luan Zhang",
+    "Mengxiao Lv",
+    "Ning Dong",
+    "Pei Wang",
+    "Peng Zhang",
+    "Qingsong Cai",
+    "Qixiang Yin",
+    "Qiyao Wang",
+    "Renbiao Liu",
+    "Renfei Dang",
+    "Ruihang Li",
+    "Ruirui Huang",
+    "Shanhui Yin",
+    "Shen Jian",
+    "Shengjie Fang",
+    "Shikai Li",
+    "Shinan Zhang",
+    "Shiqi Chen",
+    "Shuai Liu",
+    "Shuangqi Li",
+    "Shuo Tang",
+    "Shuqing Deng",
+    "Sijin Hao",
+    "Siwei Wu",
+    "Siyue Wang",
+    "Tao Hai",
+    "Tao Ren",
+    "TingYang Chen",
+    "Wei Shao",
+    "Weicheng Gu",
+    "Weihan Peng",
+    "Wenlong Miao",
+    "Xavier Yu",
+    "Xiangyuan Ji",
+    "Xiaocheng Li",
+    "Xiaodong Huang",
+    "Xiaohan Ge",
+    "Xiaoxiang Shi",
+    "Xiaoyang Zhang",
+    "Xiaoyu Yang",
+    "Xidong Wang",
+    "Xin Li",
+    "Xinyu Tang",
+    "Xiyuan Yang",
+    "Xudong Ma",
+    "Ya Tong",
+    "Yachao Wang",
+    "Yang Tian",
+    "Yaxin Du",
+    "Yeli Ruan",
+    "Yi Wang",
+    "Yi Yu",
+    "Yibin Feng",
+    "Yibo Tan",
+    "Yihang Wang",
+    "Yiming Ju",
+    "Yinda Chen",
+    "Yinda Chen",
+    "Yingjie Du",
+    "Yiwei Liu",
+    "Yizhi Zhou",
+    "Yuan Wei",
+    "Yuli Chen",
+    "Yuqi Zhu",
+    "Yuwen Li",
+    "Yuxi Dong",
+    "Yuxuan Zhang",
+    "Yuyang Song",
+    "Zhange Zhang",
+    "Zhaohan Zhang",
+    "Zhaoyi Li",
+    "Zhen Zhang",
+    "Zhengbo Zhang",
+    "Zhihang Hu",
+    "Zhiwei Yu",
+    "Zhixin Xie",
+    "Zhiyu Chen",
+    "Zhizhao Luo",
+    "Zhongyuan Wu",
+    "Zhou Fang",
+    "Zhu Lin",
+    "Zhuocheng Gong",
+    "Zixi Zhao",
+    "Ziyang Zeng",
+    "Ziyi Wang",
+    "Ziyu Zhao",
+    "Ran Tao",
+    "Mingjie Tang",
+    "Chuan Hao",
+    "Peihao Wu",
+    "Jianzhou Wang",
+    "Nan Jiang",
+    "Yuan Zhi",
+    "Bryan Dai"
+   ],
+   "orgs": [
+    "IQuest"
+   ],
+   "published": "2026-10-22T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.30949",
+     "signal": "▲ 38",
+     "metric": 38
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "IQuest-Q1：面向智能体 CLI 系统的基座模型",
+   "summary_zh": "IQuest 开源 320B 总参、15B 激活的稀疏 MoE 智能体基座模型，经稳定预训练、细粒度中期训练与多脚手架多版本后训练，强化编码与通用能力并开源权重。",
+   "highlights_zh": [
+    "预训练结合 Stable SplitNorm、Muon 与 muP，保持安全与最优学习率间的稳定裕度",
+    "多脚手架、多版本后训练融合 SFT、领域 RL 与 MOPD 信号",
+    "模型合并缓解不同专家与阶段检查点间的参数冲突"
+   ],
+   "why_zh": "开源智能体基座模型的新选手，训练配方对做 CLI 智能体的团队有参考价值。",
+   "tags": [
+    "大模型",
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5991,
+   "score_llm": 8.0,
+   "score": 0.7196,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T10:09:29+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.30949.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.30949"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.30949"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.30949"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.30949"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.30949"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.30949"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.31158",
+   "kind": "paper",
+   "title": "Beyond Watching and Searching: Benchmarking Agents for Video-centered Deep Research Reports",
+   "url": "https://arxiv.org/abs/2610.31158",
+   "pdf_url": "https://arxiv.org/pdf/2610.31158",
+   "abstract": "Deep research agents synthesize open-web evidence into long reports, but current benchmarks do not evaluate research centered on a source video. We introduce Video-Centered Deep Research Report Generation. Given a video and user request, an agent identifies research questions, retrieves external multimodal evidence, and produces an interactive report linked to relevant video moments. This task has direct practical value because it helps users locate relevant moments, verify claims, reproduce demonstrated procedures, and make informed decisions from video content. We present a skill-based workflow and OmniDR-Bench for this task. For evaluation, we propose Omni Atomic Rubric Trees (Omni-ARTs). Each tree contains three dimensions, 23 shared directions, and task-specific atomic binary criteria. The directions test audiovisual grounding, multimodal evidence use, and interactive presentation. Audited Rubric Construction (ARC) builds these trees through independent evidence collection, automated checks, behavioral calibration, and iterative human review. OmniDR-Bench contains 50 Chinese and English tasks across 19 realworld subcategories. It includes 6,414 criteria. Across 18 agent configurations, the best system scores 63.3 out of 100. Current agents still need broader content coverage, stronger causal and logical analysis across modalities, and more accurate citation support. We further analyze models, harnesses, skill configurations, video categories, and research trajectories. The code and data are released at https://github.com/marinero4972/OmniDR-Bench.",
+   "authors": [
+    "Jiahao Meng",
+    "Qize Yang",
+    "Yuxuan Wang",
+    "Yunfei Chu",
+    "Wensi Dai",
+    "Jin Xu",
+    "Yunhai Tong"
+   ],
+   "orgs": [
+    "Qwen"
+   ],
+   "published": "2026-10-22T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.31158",
+     "signal": "▲ 13",
+     "metric": 13
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.31158",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "不止看与搜：以视频为中心的深度研究报告智能体基准",
+   "summary_zh": "Qwen 提出以视频为源头的深度研究任务与 OmniDR-Bench，含 50 个中英任务、6414 条原子评分标准，18 种智能体配置中最佳仅得 63.3 分，暴露跨模态因果分析与引用支撑的短板。",
+   "highlights_zh": [
+    "任务要求智能体定位视频关键时刻、检索外部多模态证据并生成可交互报告",
+    "Omni-ARTs 评分树从视听接地、多模态证据使用、交互呈现三维度打分",
+    "审计式评分构建流程含独立取证、自动校验与人工迭代复核"
+   ],
+   "why_zh": "视频深度研究是智能体落地的新场景，该基准给出了可量化的能力标尺。",
+   "tags": [
+    "智能体",
+    "多模态",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.6778,
+   "score_llm": 7.0,
+   "score": 0.6911,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T10:09:29+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.31158.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.31158"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.31158"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.31158"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.31158"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.31158"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.31158"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/marinero4972/OmniDR-Bench"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a38e1d6b2002",
+   "kind": "article",
+   "title": "刘铁岩、诺奖、图灵奖得主等嘉宾共话AI的下一个十年：Transformer一统天下之后，AI的下一张王牌是什么？",
+   "url": "https://www.infoq.cn/article/UmD4aAerZEts8sZ5t791?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "李冬梅"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-23T17:54:19+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/UmD4aAerZEts8sZ5t791?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "刘铁岩、诺奖与图灵奖得主共话AI下一个十年",
+   "summary_zh": "多位顶尖学者在对话中探讨Transformer之后AI的下一张王牌，涉及新架构、世界模型与科学AI等方向，为判断技术路线提供参考。",
+   "highlights_zh": [
+    "刘铁岩等重量级学者同台，观点权威性高",
+    "聚焦Transformer之后的技术路线之争",
+    "覆盖AI下一个十年的方向性判断"
+   ],
+   "why_zh": "重量级人物的明确判断，适合把握技术路线与行业方向。",
+   "tags": [
+    "大模型",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T10:09:29+00:00",
+   "mirror_pdf": "pdf/web-a38e1d6b2002.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/UmD4aAerZEts8sZ5t791?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bc9445d80494",
+   "kind": "article",
+   "title": "奥特曼最新 45 分钟访谈：一年不写代码、压力大到不想起床，还嫌 ChatGPT 太谄媚",
+   "url": "https://www.infoq.cn/article/sI3z2UMCrB5PPVDWTsLo?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "李冬梅"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-23T17:35:04+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/sI3z2UMCrB5PPVDWTsLo?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "奥特曼访谈：一年不写代码，嫌ChatGPT太谄媚",
+   "summary_zh": "奥特曼在45分钟访谈中透露自己已一年不写代码，坦言压力大到不想起床，并批评ChatGPT过于谄媚，折射OpenAI掌舵者对产品与自身状态的判断。",
+   "highlights_zh": [
+    "奥特曼自述一年未写代码，角色转向管理与战略",
+    "坦言经营压力巨大，曾压力大到不想起床",
+    "公开批评ChatGPT过于谄媚，暗示产品调优方向"
+   ],
+   "why_zh": "头部公司CEO对产品缺陷与行业节奏的直白判断，值得关注其后续调整。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T10:09:29+00:00",
+   "mirror_pdf": "pdf/web-bc9445d80494.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/sI3z2UMCrB5PPVDWTsLo?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-655df0fb22ac",
+   "kind": "article",
+   "title": "Beyond tree cover: mapping the world’s forest types",
+   "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+   "pdf_url": "",
+   "abstract": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+   "authors": [],
+   "orgs": [
+    "Google DeepMind"
+   ],
+   "published": "2026-10-22T14:30:24+00:00",
+   "sources": [
+    {
+     "name": "Google DeepMind",
+     "authority": 0.85,
+     "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "DeepMind绘制全球森林类型地图",
+   "summary_zh": "Google DeepMind发布全球地图，将地表每10米地块归类为不同森林类型，超越传统树冠覆盖统计。",
+   "highlights_zh": [
+    "10米分辨率覆盖全球地表",
+    "按森林类型而非仅树冠覆盖分类",
+    "可用于生态监测与气候研究"
+   ],
+   "why_zh": "展示AI在地球观测与科学数据生产上的实用进展。",
+   "tags": [
+    "科学AI",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.52,
+   "score_llm": 7.0,
+   "score": 0.628,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T10:09:29+00:00",
+   "mirror_pdf": "pdf/web-655df0fb22ac.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8477c3daca9c",
+   "kind": "article",
+   "title": "Empowering frontline maternal care with AI-assisted ultrasound",
+   "url": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/",
+   "pdf_url": "",
+   "abstract": "Health & Bioscience",
+   "authors": [],
+   "orgs": [
+    "Google Research"
+   ],
+   "published": "2026-10-21T16:23:53+00:00",
+   "sources": [
+    {
+     "name": "Google Research",
+     "authority": 0.8,
+     "url": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AI辅助超声赋能基层孕产护理",
+   "summary_zh": "Google Research介绍用AI辅助超声技术赋能一线孕产护理，帮助基层医疗人员提升诊断可及性。",
+   "highlights_zh": [
+    "面向一线基层医疗场景",
+    "AI辅助超声提升诊断可及性",
+    "属健康与生物科学方向"
+   ],
+   "why_zh": "AI医疗落地的代表性方向，关注基层可及性价值。",
+   "tags": [
+    "科学AI",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.5,
+   "score_llm": 7.0,
+   "score": 0.62,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T10:09:29+00:00",
+   "mirror_pdf": "pdf/web-8477c3daca9c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-eaa0ebff7daf",
+   "kind": "article",
+   "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+   "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-10-22T16:11:31+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OlmoEarth v1.3发布全球地表嵌入",
+   "summary_zh": "Hugging Face发布OlmoEarth v1.3，提供覆盖全球地表的最先进嵌入表示，服务地球观测类下游任务。",
+   "highlights_zh": [
+    "面向全球尺度的地表嵌入模型",
+    "可用于地球观测下游任务",
+    "版本迭代至v1.3"
+   ],
+   "why_zh": "地球观测基础模型的实用更新，适合遥感与科学AI从业者。",
+   "tags": [
+    "科学AI",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 7.0,
+   "score": 0.612,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T10:09:29+00:00",
+   "mirror_pdf": "pdf/web-eaa0ebff7daf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.31479",
+   "kind": "paper",
+   "title": "Evaluating the Applicability of LLM Inference Optimizations on Apple Silicon",
+   "url": "https://arxiv.org/abs/2610.31479",
+   "pdf_url": "https://arxiv.org/pdf/2610.31479",
+   "abstract": "Apple Silicon is among the most widely used platforms for local LLM inference, yet nearly all inference optimizations are designed and validated on server-class NVIDIA GPUs under batched serving workloads. Which optimizations retain their benefits when moved to Apple Silicon, and what determines their applicability? We evaluate four optimization families: KV-cache pruning, speculative decoding, ported GPU kernels, and post-training quantization. Experiments span four Apple machines under a common single-request decode workload, with matched RTX 4090 comparisons where possible. KV-cache pruning can reach up to 1.75 times end-to-end throughput on Apple but can reduce throughput on desktop NVIDIA GPUs. Under the common benchmark, all evaluated speculative decoding methods reduce throughput on Apple, despite reported 2-6 times gains on server GPUs. CUDA kernel designs transfer only partially: public Metal lacks asynchronous copy, and batch-one decode makes several serving-oriented mechanisms inapplicable, although transferable components yield up to 1.20 times decode throughput. Quantization gains vary by machine. Across four families, a reported speedup is not a portable property of a technique alone but a joint function of technique, runtime, hardware contract, and workload regime.",
+   "authors": [
+    "Kyrylo Yemets",
+    "Andrii Yaroshevych",
+    "Victor Muryn",
+    "Ostap Khomenko",
+    "Pavlo Kryven",
+    "Maksym Kmet",
+    "Maksym Shamrai",
+    "Mariya Hirna"
+   ],
+   "orgs": [],
+   "published": "2026-10-22T16:04:40Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.31479",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "论文",
+   "lang": "en",
+   "who": "",
+   "title_zh": "LLM推理优化在Apple Silicon上的适用性评估",
+   "summary_zh": "系统评测四类推理优化在Apple Silicon上的表现：KV缓存剪枝最高提速1.75倍，投机解码全部降速，Metal内核仅部分可迁移，量化收益因机型而异，说明加速比并非技术本身的固有属性。",
+   "highlights_zh": [
+    "投机解码在服务器GPU上2-6倍加速，在Apple上反而降速",
+    "公开Metal缺异步拷贝，batch-one解码使多项服务端机制失效",
+    "KV剪枝在Apple提速但在桌面NVIDIA GPU上可能降速"
+   ],
+   "why_zh": "本地部署LLM的实用指南：别照搬GPU服务端优化，需按硬件与负载重测。",
+   "tags": [
+    "效率与系统",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T10:09:29+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.31479.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.31479"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.31479"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.31479"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.31479"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.31479"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.31479"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0bd4c3c9b4b6",
+   "kind": "article",
+   "title": "今年双 11，天猫想卖的不只是货，还有 Token",
+   "url": "http://www.geekpark.net/news/372801",
+   "pdf_url": "",
+   "abstract": "「很多人赚不到认知以外的钱。那消费者呢？我认为，买不到他认知以外的商品。」10 月 15 日下午，上海世博中心，2026 天猫双 11 发布会。天猫总裁家洛开场没多久，就抛出了这句话。 消费者的需求远比这些品类多，只是大部分还处在「沉睡」状态。 过去的搜索解决不了这个问题。用户主动搜关键词、平台做精准匹配，在他看来，「更像一个统计学的概念」，搜的人越多、描述越准，匹配就越高效，「但这依然是存量和认知以内的东西」。 所以他给今年的 AI 定了一个很朴素的标准：「 AI 最重要的，是他是不是更理解我们，以及是不是更理解我们的消费者。 」 一个用户在飞猪上买了去看世界杯的机票，从没搜过任何和球迷有关的关键词，但他曾经是运动人群。把这两条线索组合成人群包推给运动品牌和足球品类，购买转化率比日常高出 3 倍以上。 「即使可能消费环境让我们有一些焦虑，但是 AI 的能力让我们打开更多购买的可能。」家洛说道，对于商家而言， 商家的增长最大的机会，来自人群不断变迁的变化。 一个学生是数码用户，却不是家电家装用户；一旦步入职场，他立刻会变成家电、珠宝、化妆品、服装品类最大的潜在消费者。这种变迁「不能简单用一个年龄判断，而是他作为社会身份发生变化的判断。「什么时候养了一个宠物？这个家庭什么时候多了一个孩子？」这些都是挖掘购物需求的潜在线索。 天猫今年的思路其实很清楚： 对消费者，AI 要用来理解那些没说出口的需求；对商家，AI 要用来看懂人群在往哪里走。 增长不再来自把已知需求匹配得更快，而来自把未知需求「叫醒」。 落到今年双 11 本身，节奏和往年类似：10 月 15 日晚 8 点开启预售，10 月 20 日晚 8 点现货开卖。 天猫双 11 新闻发布会现场｜图片来源：极客公园 淘宝搜索，从「搜得到」到「懂你要什么」 现在，买东西越来越像在填标准答案。可今天的消费者，很多时候只知道自己要去一个场合，或者想解决一种情绪。 接过这个问题的，是淘天集团搜索基础产品和算法负责人飘雪，她一上台就把外界对淘宝搜索最尖锐的三个疑问摆了出来： 淘宝到底还懂不懂货？ 搜索是在服务消费者，还是在服务广告预算？ 「现在大家有事都问 AI 了，以后还需要打开淘宝吗？」 过去，用户搜「白色连衣裙 显瘦」，需求明确，关键词清晰，飘雪说淘宝对这类搜索「已经做到了非常高的承接效率」。这是过去十几年电商搜索的核心范式，消费者提供关键词，商家围绕关键词争曝光，算法负责把两边配上。 但这套逻辑有个前提： 你得先知道自己要买什么。 而很多时候，用户其实并不知道自己要的是什么。 比如说，「送闺蜜的生日礼物」。这时候 AI 要理解的不是某个商品，而是一个送礼场景，需要综合考虑两人的关系、亲密程度、对方的喜好和自己的预算。 再比如说，「五常大米跟普通大米有什么区别」。AI 识别出你正在做购买决策，给的应该是详细的信息对比，而不是像以前一样「随随便便给你推荐一袋大米」。 「 AI 不再是只匹配关键词，更需要理解你为什么在搜，你想解决什么样的问题。 」飘雪把这称为 长尾意图的理解和匹配。 它依托大模型的长上下文和记忆能力，把模型对需求的推理从很短的时间窗口，拉长到了更长的时间跨度和空间广度。 具体做法是，基于千问系列模型，淘宝已经实现文本、语音、图片、视频的统一理解，再融合商品知识、场景知识和行业导购知识，对需求做推理和拆解。比如「去海边度假应该穿什么」这样模糊的问题，会被拆成品类、风格、材质、功能、预算的组合，由 AI 实时生成一个结果页，把推理依据和商品放在一起呈现。 数据上，淘宝的泛知识 Query 增长了",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-23T05:56:53+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372801",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "双11天猫不只卖货，还想卖Token",
+   "summary_zh": "天猫双11发布会披露AI战略：基于千问模型统一理解文本语音图像视频，从关键词匹配转向理解长尾意图与人群变迁。",
+   "highlights_zh": [
+    "淘宝搜索基于千问系列实现多模态统一理解",
+    "从关键词匹配转向理解用户搜索动机与场景",
+    "AI人群包组合线索使转化率提升3倍以上"
+   ],
+   "why_zh": "大模型在电商搜索与推荐场景规模化落地的一手案例。",
+   "tags": [
+    "大模型",
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T10:09:29+00:00",
+   "mirror_pdf": "pdf/web-0bd4c3c9b4b6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372801"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-377587d25cb2",
+   "kind": "article",
+   "title": "Closing Eight Figure Deals in Two Weeks",
+   "url": "https://tomtunguz.com/closing-eight-figure-deals-in-two-weeks/",
+   "pdf_url": "",
+   "abstract": "Bardia Shahali, VP of Sales at Granola, joins Office Hours to explain how AI-era sales teams run smaller because revenue per rep multiplies, why comp plans moved from annual to quarterly, & why the sales pod splits by layer between infrastructure & application companies.",
+   "authors": [
+    "Tomasz Tunguz"
+   ],
+   "orgs": [
+    "Tomasz Tunguz"
+   ],
+   "published": "2026-10-22T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Tomasz Tunguz",
+     "authority": 0.75,
+     "url": "https://tomtunguz.com/closing-eight-figure-deals-in-two-weeks/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Theory Ventures 创始人，AI 投资",
+   "title_zh": "AI 时代销售团队为何更小、人效更高",
+   "summary_zh": "Granola 销售副总裁认为，AI 让每位销售的人效成倍提升，团队规模因此缩小，薪酬周期从年度改为季度，销售团队按基础设施层与应用层分工。",
+   "highlights_zh": [
+    "AI 提升人效，销售团队规模缩小",
+    "薪酬计划从年度转向季度",
+    "销售团队按基础设施层与应用层拆分"
+   ],
+   "why_zh": "了解 AI 如何改变 SaaS 销售组织与人效模型",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 6.0,
+   "score": 0.58,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T10:09:29+00:00",
+   "mirror_pdf": "pdf/web-377587d25cb2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://tomtunguz.com/closing-eight-figure-deals-in-two-weeks/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e30a9e718058",
+   "kind": "article",
+   "title": "千问蒋冠军：构建Personal Agent技术框架，需要模型、记忆与生态协同推进",
+   "url": "https://www.leiphone.com/category/industrynews/DHR4Qc9YwHX7lin8.html",
+   "pdf_url": "",
+   "abstract": "10月22日，在2026中国计算机大会上，阿里巴巴千问事业部AI算法负责人蒋冠军分享了千问打造Personal Agent的技术实践。他认为，真正的Personal Agent阶段，应该带来增量价值的创造和个性化的主动服务，模型、记忆与生态是共同构建这一核心能力的三要素。 他表示，Personal Agent解决日常工作、学习、生活问题的理论上限接近100%，释放这一潜力的关键，在于让系统能力与问题解决路径更好地匹配，通过模型、记忆与生态能力的高效协同，为不同问题找到最优解决路径。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-23T07:38:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/DHR4Qc9YwHX7lin8.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "千问蒋冠军：Personal Agent 需模型、记忆与生态协同",
+   "summary_zh": "阿里千问 AI 算法负责人蒋冠军在 CCF 大会提出，Personal Agent 的理论上限接近 100%，关键在于模型、记忆与生态三要素协同，为不同问题匹配最优解决路径。",
+   "highlights_zh": [
+    "Personal Agent 应带来增量价值创造与个性化主动服务，而非仅做问答",
+    "模型、记忆、生态是构建核心能力的三要素，缺一不可",
+    "系统能力需与问题解决路径匹配，才能释放接近 100% 的潜力"
+   ],
+   "why_zh": "头部大厂对个人智能体技术路线的明确判断，可对照自身 Agent 架构查漏补缺。",
+   "tags": [
+    "智能体",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T10:09:29+00:00",
+   "mirror_pdf": "pdf/web-e30a9e718058.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/DHR4Qc9YwHX7lin8.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7fb7ee8fe1b9",
+   "kind": "article",
+   "title": "AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU",
+   "url": "https://www.infoq.cn/article/AkDgwN6h72cqUOJ35Zok?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "李冬梅"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-23T17:53:09+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/AkDgwN6h72cqUOJ35Zok?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI Agent改写CPU价值：算力竞争不再只拼GPU",
+   "summary_zh": "文章分析Agent把Token转化为行动后，CPU在调度、工具调用与状态管理中的价值上升，算力竞争从单一GPU转向系统级协同。",
+   "highlights_zh": [
+    "指出Agent负载对CPU侧的新需求",
+    "算力竞争视角从GPU扩展到系统协同",
+    "对基础设施选型有参考价值"
+   ],
+   "why_zh": "理解Agent落地对算力结构的影响，对基础设施决策有用。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T10:09:29+00:00",
+   "mirror_pdf": "pdf/web-7fb7ee8fe1b9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/AkDgwN6h72cqUOJ35Zok?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-089a844e96f4",
+   "kind": "article",
+   "title": "PostgreSQL 19 发不出来？AI“找茬”太快，人类修Bug的速度跟不上了",
+   "url": "https://www.infoq.cn/article/Q6mgHWCSqV6KeZzee3NT?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "褚杏娟"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-23T17:48:25+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/Q6mgHWCSqV6KeZzee3NT?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI找Bug太快，PostgreSQL 19发布节奏被打乱",
+   "summary_zh": "报道称AI辅助代码审查让缺陷发现速度远超人类修复速度，PostgreSQL 19的发布节奏因此受影响，折射AI对开源协作流程的冲击。",
+   "highlights_zh": [
+    "AI审查提速导致修复积压的新现象",
+    "开源社区协作流程面临重构",
+    "对工程团队引入AI审查有警示意义"
+   ],
+   "why_zh": "AI改变软件开发流程的真实案例，值得工程团队关注。",
+   "tags": [
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T10:09:29+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/Q6mgHWCSqV6KeZzee3NT?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2940cf6a55c2",
+   "kind": "article",
+   "title": "网络攻击愈发猖獗，防御方能否用AI扳回一城？",
+   "url": "https://www.tmtpost.com/8178797.html",
+   "pdf_url": "",
+   "abstract": "在最新研究中， Claude模型找到了一些曾历经数万亿次测试仍未被发现的bug，还首次在生产软件中跑通了大规模的形式化验证。",
+   "authors": [
+    "飞向TAI空"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-23T05:35:10+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8178797.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Claude 发现多年未见的漏洞，AI 攻防进入新阶段",
+   "summary_zh": "最新研究中，Claude 模型找到历经数万亿次测试仍未发现的 bug，并首次在生产软件中跑通大规模形式化验证，显示 AI 在漏洞挖掘与安全验证上的实战价值。",
+   "highlights_zh": [
+    "Claude 发现传统测试长期漏掉的漏洞",
+    "首次在生产软件中完成大规模形式化验证",
+    "AI 从辅助工具走向安全防御核心环节"
+   ],
+   "why_zh": "了解 AI 在网络安全攻防中的真实能力边界与落地进展。",
+   "tags": [
+    "对齐与安全",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T10:09:29+00:00",
+   "mirror_pdf": "pdf/web-2940cf6a55c2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8178797.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-88d2e006e134",
+   "kind": "article",
+   "title": "国务院办公厅：积极增强人工智能创造就业机会等正面效应，有效减缓人工智能应用就业替代影响",
+   "url": "https://www.ithome.com/1/017/113.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 23 日消息，国务院办公厅今日印发《关于适应人工智能技术发展助力构建就业友好型发展方式的意见》。以人工智能赋能高质量发展为契机，以适应技术发展促进高质量充分就业为目标，以构建就业友好型发展方式为方向，积极增强人工智能创造就业机会、赋能传统岗位、提升就业质量、激发创业活力的正面效应， 有效减缓人工智能应用就业替代影响 ，努力实现技术进步、产业升级与就业促进、民生改善相协调的包容性发展。 IT之家注意到，《意见》提出 创造人工智能领域就业创业新模式 。发挥好国家创业投资引导基金、国家人工智能产业投资基金等政府投资基金作用，按照市场化方式支持人工智能领域企业创新发展。建设高水平人工智能开源社区，部署实施一批优质开源项目，形成创业带动就业效应。推行“科技成果＋创业”、“产业发展＋创业”、“职业技能＋创业”、“民生需求＋创业”模式，围绕人工智能应用场景创新、技术成果转化等创业项目，落实创业支持政策，提供创业孵化服务。 加快开发人工智能领域新职业 。围绕人工智能场景培育和大规模应用，加快开发新职业、发布新职业标准，扩大数字化管理师、人工智能工程技术人员、人工智能训练师等新职业新工种需求。鼓励地方结合人工智能产业发展需要，增设相关职称评审专业，及时开展人工智能相关职业技能等级认定。 挖掘传统领域人工智能就业潜能 。发挥人工智能助力传统产业改造升级作用，引导在工业全要素智能化发展和农业数智化转型升级中更好推行人机协作模式，挖掘传统领域数智化就业机会。加快构建人工智能驱动的新型服务方式，分领域推进生产性服务业向专业化和价值链高端延伸，促进生活性服务业高品质、多样化、便利化发展，拓展体验消费、个性消费等服务消费新场景，扩大服务业就业容量。 减缓人工智能应用就业替代影响 。发挥人工智能在改善就业环境、提升职业安全水平、提高工作质效等方面的作用，优先在劳动力紧缺、环境高危等岗位推广应用。稳慎把握人工智能在劳动密集型行业应用的范围、力度、节奏，尽可能减少对从业人员的冲击。鼓励企业探索建立失业缓冲期制度，在大规模推广应用人工智能过程中提前告知受影响劳动者、提供转型转岗就业支持。 加强人工智能应用就业影响研究 。开展人工智能应用就业影响专项调查，持续跟踪人工智能应用渗透、岗位创造替代、技能需求变化等情况。依托高校、科研机构等现有资源，布局一批人工智能就业研究中心。实施好国家社科基金等科研项目，前瞻性研究人工智能技术发展对就业、收入分配的影响。 参考 国务院办公厅关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-23T09:17:16+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/017/113.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "国办发文：增强AI创造就业正面效应，减缓替代冲击",
+   "summary_zh": "国办印发意见，要求增强AI创造就业、赋能传统岗位的正面效应，稳慎把握劳动密集型行业应用节奏，鼓励企业设失业缓冲期。",
+   "highlights_zh": [
+    "支持AI领域创业与开源社区，扩大AI训练师等新职业需求",
+    "稳慎把握AI在劳动密集型行业的应用范围与节奏",
+    "鼓励企业建立失业缓冲期制度，提供转岗支持"
+   ],
+   "why_zh": "政策定调AI就业影响，影响企业AI落地节奏与合规预期",
+   "tags": [
+    "产品与行业",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T10:09:29+00:00",
+   "mirror_pdf": "pdf/web-88d2e006e134.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/017/113.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-611c4178a28c",
+   "kind": "article",
+   "title": "富士胶片、GE 医疗等五方携手，合作开发 2nm 医疗影像低功耗 AI 推理芯片",
+   "url": "https://www.ithome.com/1/017/106.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 23 日消息，LSTC 日本尖端半导体技术中心、北海道大学、富士胶片、GE 医疗、imec 五方当地时间本月 20 日宣布承接日本 NEDO 项目委托， 共同开发基于 2nm 工艺的医疗影像低功耗 AI 推理芯片 。 该芯片的设计应用场景包括： 对光子计数 CT 提供的海量数据进行高速重构与分解，实现“实时影像诊断支持”； 将超声影像与 CT / MRI 影像实时叠加，实现“实时诊疗支持”； 从术中显微镜影像里实时识别手术器具、解剖结构、出血，实现“实时手术支持”。 图源：Pexels 合作各方计划先行在 IBM 的 Spyre 加速器上进行开发优化工作，此后再迁移到实际芯片上。其开发目标是 提供现有 GPU 5 倍以上的图像处理速度和 10 倍以上的能效 ，并在北海道大学附属医院进行临床应用。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-23T08:59:41+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/017/106.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "五方合作开发2nm医疗影像低功耗AI推理芯片",
+   "summary_zh": "LSTC、北海道大学、富士胶片、GE医疗、imec承接日本NEDO项目，开发2nm医疗影像AI推理芯片，目标5倍速度、10倍能效。",
+   "highlights_zh": [
+    "面向光子计数CT实时重构、术中影像识别等场景",
+    "先在IBM Spyre加速器上开发优化，再迁移至自研芯片",
+    "计划在北海道大学附属医院开展临床应用"
+   ],
+   "why_zh": "专用推理芯片向医疗垂直场景下沉的典型信号",
+   "tags": [
+    "效率与系统",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T10:09:29+00:00",
+   "mirror_pdf": "pdf/web-611c4178a28c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/017/106.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d187e5bd7470",
+   "kind": "article",
+   "title": "月之暗面公布 Kimi K3.1 预热视频，发布日期暂未官宣",
+   "url": "https://www.ithome.com/1/017/098.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 23 日消息，Kimi 官方账号今天发布了一段 24 秒的预热视频，画面中一台老式电脑正在运行 Kimi Code，左上角模型栏显示“Model：Kimi K3.1”。结合此前一系列痕迹，无不预示着 K3.1 即将发布，开发者社区已就此展开讨论。 最早的迹象是在今年 9 月，多名开发者注意到月之暗面 API 平台的后台模型注册表中出现了“kimi-k3-1”标识，表明该模型标识通过了接口探测并可调用。同日，Kimi 官方开放平台也出现了 K3.1 或 K3 11111 模型的预告，支持 1M tokens 上下文窗口。 10 月 19 日凌晨，SGLang 仓库中出现了一条标题为“Kimi-K3.1 support for the K3 chat encoder”的提交，为实验性路由组件增加了 K3.1 的对话编码适配，附带 107 个测试用例。 据智猩猩整理，K3 原本接受 low、high、max 三档思考强度，K3.1 在此基础上新增了 medium 档，路由默认值仍保持 max；K3.1 的分词器文件与 K3 字节级相同，沿用相同的 16 个特殊 Token，新增测试覆盖对话格式、工具调用与图片输入格式，属于编码兼容性验证而非性能跑分。orcarouter 的独立梳理进一步指出，该提交直接写出了“moonshotai / Kimi-K3.1”并引用了具体的模型仓库修订号，这意味着一个可识别的 K3.1 模型实体已经在 Hugging Face 侧就位，只是尚未公开。 Kimi K3 在 7 月发布时支持 100 万 Token 上下文，官方曾表示将在默认 max 之外增加 low 与 high 模式。如果 SGLang 的代码反映的是最终产品行为，K3.1 的推理强度将从三档扩展为四档，在 low 与 high 之间插入一个中间档位。 K3 发布后，GitHub Copilot 于 8 月 6 日接入 Kimi K3，亚马逊 AWS 的 AI 编程助手 Kiro 于 10 月 15 日宣布接入 K3，Kimi 成为首个在 AWS Bedrock 上参与全球分成的开源模型。K3.1 选择以 Kimi Code 的界面作为预热载体，至少说明编程与开发者工作流仍是这次更新的核心叙事之一。除了推理档位，K3.1 的前端线索还指向 3D 内容制作入口“make3d”与多智能体协作标记“OK_COMPUTER_SWARM”，但这些标识尚未获得月之暗面官方确认。 截至IT之家发稿，月之暗面尚未公布 K3.1 的正式发布日期、参数规模或定价。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-23T08:43:19+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/017/098.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "月之暗面预热Kimi K3.1，发布日期未官宣",
+   "summary_zh": "Kimi官方发布24秒预热视频，代码库与API痕迹显示K3.1将推理强度扩为四档，支持1M上下文，编程工作流仍是核心。",
+   "highlights_zh": [
+    "SGLang仓库提交显示新增medium档，默认仍为max",
+    "分词器与K3字节级相同，新增工具调用与图片输入测试",
+    "K3已接入GitHub Copilot与AWS Kiro，Kimi为首个在Bedrock分成的开源模型"
+   ],
+   "why_zh": "国产头部模型迭代节奏与开发者生态布局的风向标",
+   "tags": [
+    "大模型",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T10:09:29+00:00",
+   "mirror_pdf": "pdf/web-d187e5bd7470.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/017/098.htm"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "AI基础设施竞争从堆卡转向能效与部署速度",
-   "why": "英伟达提出以每度电产出Token衡量AI工厂，并推集装箱式部署缩短上线周期。",
+   "trend": "推理效率竞争从单点加速转向系统级协同，投机解码并非普适解",
+   "why": "Apple Silicon评测显示投机解码全部降速，KV Cache压力倒逼计算存储通信调度协同优化",
    "refs": [
-    "web-2f42fbdc70d0",
-    "web-a4d3526d3b30"
+    "arxiv-2610.31479",
+    "web-dcf396a5e885",
+    "web-83d9f71c46d3"
    ]
   },
   {
-   "trend": "智能体基础设施进入标准化与隔离化阶段",
-   "why": "Agent Skills捐给基金会走向社区共治，谷歌ACE用microVM为智能体提供硬件隔离。",
+   "trend": "智能体基础设施进入标准化与隔离化阶段，平台争夺生态话语权",
+   "why": "Anthropic将Agent Skills捐给Linux基金会，谷歌ACE用microVM为智能体提供硬件隔离",
    "refs": [
     "web-adc652005c06",
     "web-cc012b1e3b75",
@@ -1042,23 +2399,25 @@
    ]
   },
   {
-   "trend": "推理效率与存储协同成为大模型落地瓶颈",
-   "why": "EAGLE-4开源加速生成，KV Cache压力凸显需计算存储通信调度系统级协同。",
+   "trend": "AI工厂评价指标从算力规模转向能效与部署速度",
+   "why": "英伟达推集装箱式AI工厂将部署缩至14天，并强调每度电产出Token为核心指标",
    "refs": [
-    "web-83d9f71c46d3",
-    "web-dcf396a5e885"
+    "web-2f42fbdc70d0",
+    "web-a4d3526d3b30"
    ]
   },
   {
-   "trend": "端侧语音能力逼近云端，交互加速本地化",
-   "why": "讯飞端到端语音模型端侧已达约七成云端能力，调用量增长20倍。",
+   "trend": "AI攻防能力越过临界点，开始反向冲击开源协作与发布节奏",
+   "why": "Claude发现数万亿次测试未见的漏洞，AI找Bug速度过快打乱PostgreSQL 19发布",
    "refs": [
-    "web-e92ee890d32c"
+    "web-2940cf6a55c2",
+    "web-089a844e96f4",
+    "web-4e9bfd07ae02"
    ]
   },
   {
-   "trend": "资本向具身智能与头部模型公司集中",
-   "why": "DeepSeek千亿融资押注具身智能，Anthropic冲刺高估值IPO，资金向头部聚拢。",
+   "trend": "资本向头部模型公司极端集中，具身智能成为新一轮押注方向",
+   "why": "DeepSeek千亿融资引入产业资本押注具身智能，Anthropic估值预期达2万亿美元",
    "refs": [
     "web-e785b871166e",
     "web-542e4926db94"
