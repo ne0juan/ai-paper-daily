@@ -1,0 +1,1068 @@
+{
+ "date": "2026-10-23",
+ "items": [
+  {
+   "id": "web-83d9f71c46d3",
+   "kind": "article",
+   "title": "eagle-hq/EAGLE-4",
+   "url": "https://github.com/eagle-hq/EAGLE-4",
+   "pdf_url": "",
+   "abstract": "Official Inference Code of EAGLE-4",
+   "authors": [],
+   "orgs": [
+    "eagle-hq"
+   ],
+   "published": "2026-10-23T03:39:52+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/eagle-hq/EAGLE-4",
+     "signal": "★ 880（新项目） · Python",
+     "metric": 880
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "EAGLE-4 推理代码开源",
+   "summary_zh": "EAGLE 系列发布第四代投机解码推理代码，用于加速大模型生成，延续其在推理效率上的迭代路线。",
+   "highlights_zh": [
+    "EAGLE-4 官方推理代码，Python 实现",
+    "投机解码/推理加速方向的新一代迭代",
+    "新项目即获近 900 星，社区关注度高"
+   ],
+   "why_zh": "做推理加速与部署的团队可关注其相对前代的方法变化与实测收益。",
+   "tags": [
+    "推理",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5788,
+   "score_llm": 8.0,
+   "score": 0.7115,
+   "date": "2026-10-23",
+   "slot": "noon",
+   "selected_at": "2026-10-23T03:39:52+00:00",
+   "mirror_pdf": "pdf/web-83d9f71c46d3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/eagle-hq/EAGLE-4"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2f42fbdc70d0",
+   "kind": "article",
+   "title": "欧洲 AI，等来了黄仁勋",
+   "url": "http://www.geekpark.net/news/372763",
+   "pdf_url": "",
+   "abstract": "GTC 柏林开幕前的两周，半导体板块走得并不顺，费城半导体指数出现了 2008 年以来最长的一轮连跌。市场在反复算同一笔账，巨额的 GPU 投入，什么时候能变成实打实的回报。 10 月 21 日，在柏林 Tempodrom 的舞台上，黄仁勋没有发布新芯片。早已发布的 Vera Rubin 平台，这次只是确认「已全面量产」。他把更多时间留给了三个更落地的问题： 算力中心怎么建得更快，越来越能干的智能体怎么管住，物理 AI，怎么走进欧洲的工厂和马路 。 用他自己的话说，「我们正处于人类历史上最大规模的基础设施建设之中」，需求不缺，缺的是产能和落地速度。 在英伟达 GTC 柏林大会之前，黄仁勋和德国总理默茨的对谈走红社交平台，当下 AI 基建绝对王者告诉后者，面对汹涌而至的全新生产力革命，「紧箍咒」可能并不是最优解。 把 AI 工厂装进集装箱 过去两年，建一座 AI 数据中心更像一场土木工程。服务器、网络、供电和液冷要在现场逐一安装、布线、调试，一个大型集群从设备进场到真正点亮，拖上大半年是常态。而模型公司的迭代是按周算的，晚一个月拿到算力，可能就晚了一个版本。 英伟达在柏林给出的答案是 DSX POD。大屏上的标语很直白，「 集装箱就是 AI 工厂 」。 它是一套完整 Vera Rubin AI 工厂的模块化参考设计。一套 DSX POD 由 7 个液冷计算机架组成，内部约 17 公里线缆互连，采用 800V 直流供电，计算、网络、供电和液冷都在工厂里集成、测试完毕，再装进集装箱运到现场。戴尔、HPE、联想、施耐德电气、维谛，以及鸿海、广达、纬创等厂商参与制造，预计 2027 年初开始交付。 按照官方的说法，在现场电力、冷却和网络已经就绪的前提下，部署时间可以从约 6 个月缩短到最快 14 天。 只看建设速度，其实低估了这件事。黄仁勋把 AI 经济比作五层蛋糕，最底下一层是能源。 当算力规模越做越大，真正卡脖子的已经不只是芯片，而是电。 所以和 DSX POD 一起发布的，还有两套用电工具。DSX MaxLPS 在 GPU 之间动态分配功率，官方称在产出同样多 Token 的情况下，功耗最多能降低 30%，换个角度说，同样的电力额度里能塞进更多 GPU。DSX Flex 则让数据中心和电网联动，按电价和供电状况调整负载，在模拟电网事件的早期测试里，一个 Blackwell Ultra 集群的用电负荷最多降了 40%。冷却改用闭环液冷加室外干式冷却器，减少冷却塔的蒸发耗水。 英伟达投资的欧洲数据中心开发商 Nscale 给了一组早期数据，在 GB300 NVL72 上，同样的电力预算下多部署了 37% 的 GPU，总推理吞吐提升近 50%。 这套逻辑的落点很清楚， 衡量 AI 工厂的指标，正在从「有多少卡」变成「每度电产出多少 Token」 。 当然也有官方没说的部分。14 天的前提是电力和场地已经到位，而从公开信息来看，欧洲不少地区的电网接入本身就要排很久。DSX POD 的价格、总拥有成本也还没有公布，集装箱方案能帮客户省下多少钱，要等首批项目交付后才见分晓。 给智能体装上硬件刹车 如果说 DSX POD 解决的是「建得快」，OpenShell 企业参考架构要解决的是「用得放心」。 今年的智能体已经不只待在对话框里，它们开始读写文件、调用工具、访问企业系统。权限越大，风险越大，近期 AI 圈就出现过智能体擅自关闭安全监控的事件。 黄仁勋在台上说得很直接，「最重要的是确保智能体是安全的」。智能体的权限要降到最低，并持续监控，而且「每次启动智能体，权限",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-22T22:41:03+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372763",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "黄仁勋柏林布道：AI工厂装进集装箱，智能体装上刹车",
+   "summary_zh": "英伟达GTC柏林大会确认Vera Rubin量产，推出DSX POD集装箱式AI工厂（部署从6个月缩至14天）与OpenShell智能体管控架构，并强调衡量AI工厂的指标正从「有多少卡」转向「每度电产出多少Token」。",
+   "highlights_zh": [
+    "DSX POD将完整AI工厂模块化集成进集装箱，2027年初交付，前提是电力与场地已就绪",
+    "DSX MaxLPS动态分配GPU功率，同产出下功耗最多降30%；DSX Flex让数据中心与电网联动",
+    "OpenShell企业参考架构为能读写文件、调用工具的智能体提供管控与安全边界"
+   ],
+   "why_zh": "黄仁勋对AI基建瓶颈的最新判断：卡脖子的是电，不是芯片。",
+   "tags": [
+    "效率与系统",
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-10-23",
+   "slot": "noon",
+   "selected_at": "2026-10-23T03:39:52+00:00",
+   "mirror_pdf": "pdf/web-2f42fbdc70d0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372763"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4e9bfd07ae02",
+   "kind": "article",
+   "title": "LLMs are making formal software verification feasible at a much larger scale",
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-22T22:54:43Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50202217",
+     "signal": "183 pts",
+     "metric": 183
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "LLM 让形式化验证走向更大规模",
+   "summary_zh": "讨论 LLM 如何降低形式化验证的编写与证明成本，使软件验证能覆盖更大代码规模。",
+   "highlights_zh": [
+    "LLM 辅助生成规约与证明脚本",
+    "形式化验证从高价值小模块扩展到更大代码库",
+    "HN 高热度，反映工程界对 AI+验证的兴趣"
+   ],
+   "why_zh": "关注 AI 在软件工程落地的读者，可了解形式化验证这一高门槛场景的新可能。",
+   "tags": [
+    "代码",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.5645,
+   "score_llm": 7.0,
+   "score": 0.6458,
+   "date": "2026-10-23",
+   "slot": "noon",
+   "selected_at": "2026-10-23T03:39:52+00:00",
+   "mirror_pdf": "pdf/web-4e9bfd07ae02.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.anthropic.com/research/formal-verification"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50202217"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a4d3526d3b30",
+   "kind": "article",
+   "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
+   "url": "https://www.latent.space/p/modal-d",
+   "pdf_url": "",
+   "abstract": "Elastic GPUs, sandbox growth, and the economics of the agent cloud",
+   "authors": [
+    "Basil Chatha"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-22T17:40:57+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://www.latent.space/p/modal-d",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Modal CEO：为什么AI算力是长方形的",
+   "summary_zh": "Modal CEO Erik Bernhardsson认为弹性GPU、沙箱规模扩张与智能体云的经济学正在重塑算力供给方式，解释AI基础设施为何呈现特定的物理与商业形态。",
+   "highlights_zh": [
+    "从弹性GPU调度角度谈智能体云的成本结构",
+    "沙箱规模化增长是智能体落地的关键基础设施",
+    "对AI算力经济学的一线从业者视角"
+   ],
+   "why_zh": "理解智能体时代算力供给与成本逻辑的一手访谈。",
+   "tags": [
+    "效率与系统",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-10-23",
+   "slot": "noon",
+   "selected_at": "2026-10-23T03:39:52+00:00",
+   "mirror_pdf": "pdf/web-a4d3526d3b30.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.latent.space/p/modal-d"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-63c31ca523f9",
+   "kind": "article",
+   "title": "What FDE means at OpenAI",
+   "url": "https://openai.com/index/forward-deployed-engineering-means",
+   "pdf_url": "",
+   "abstract": "What forward deployed engineering means at OpenAI",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-10-22T06:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/forward-deployed-engineering-means",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 解读 FDE：前向部署工程是什么",
+   "summary_zh": "OpenAI 官方阐释前向部署工程师（FDE）的角色定位，说明该岗位如何把模型能力落地到客户业务场景中。",
+   "highlights_zh": [
+    "OpenAI 官方定义 FDE 职责与工作方式",
+    "反映头部厂商从卖 API 转向深度交付服务的趋势",
+    "对想做企业级 AI 落地的团队有参考价值"
+   ],
+   "why_zh": "理解头部厂商如何组织企业交付，判断 AI 商业化路径变化。",
+   "tags": [
+    "产品与行业",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 7.0,
+   "score": 0.636,
+   "date": "2026-10-23",
+   "slot": "noon",
+   "selected_at": "2026-10-23T03:39:52+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/forward-deployed-engineering-means"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cc012b1e3b75",
+   "kind": "article",
+   "title": "Donating Agent Skills to the Agentic AI Foundation",
+   "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+   "pdf_url": "",
+   "abstract": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+   "authors": [],
+   "orgs": [
+    "Anthropic"
+   ],
+   "published": "2026-10-22T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Anthropic",
+     "authority": 0.9,
+     "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+     "signal": "官方",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Anthropic 向智能体 AI 基金会捐赠 Agent Skills",
+   "summary_zh": "Anthropic 将 Agent Skills 捐赠给 Agentic AI Foundation，推动智能体技能格式走向开放标准化。",
+   "highlights_zh": [
+    "智能体技能规范交由中立基金会托管",
+    "有利于跨厂商智能体生态互通",
+    "反映智能体标准化竞争升温"
+   ],
+   "why_zh": "智能体生态标准化动向，影响框架与工具选型。",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 7.0,
+   "score": 0.636,
+   "date": "2026-10-23",
+   "slot": "noon",
+   "selected_at": "2026-10-23T03:39:52+00:00",
+   "mirror_pdf": "pdf/web-cc012b1e3b75.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9b25fa93a154",
+   "kind": "article",
+   "title": "具身记忆赛道持续升温，长记忆迎来新 SOTA",
+   "url": "https://www.leiphone.com/category/ai/jvyFCFgqJxJtOvjo.html",
+   "pdf_url": "",
+   "abstract": "IROS 2026 最佳论文启示录：没有长记忆的机器人，终将被淘汰。 作者丨 邓哲敏 编辑丨 齐铖湧 本月初在匹兹堡闭幕的 IROS 2026 将最佳论文奖颁给了 LT-Mem，这项研究让机器人重访同一空间时，能完整保留每个物体的位置变迁史，而非仅仅记住最新一次看到的样子。评委会从近两千篇收录论文中选中它，想必不仅是认可其扎实的工作，也是代表学界宣告： 具身长记忆（long-term embodied memory）已经从一个工程补丁，变成了机器人领域公认的科学问题。 从实际角度考虑，通用机器人要规模化落地，需要以小时、天乃至周为单位持续运行，而不只是几分钟。没有长记忆，每次相遇都是初次见面，机器人只是一个个孤立的单次动作执行器；有了长记忆，它才能从一次性工具变成可以长期上岗的同事。 但解决这件事远不是扩大上下文窗口那么简单：持续涌入的多模态数据既无法全部存储，也无法全部检索；现实世界还在不断变化，新的观察既不能简单覆盖旧的，也不能无序堆叠；更棘手的是，一条错误的记忆会在之后的决策里被反复调用，错误由此层层放大。记忆如何写入、如何留证、如何纠错，都是需要被正面回答的问题，靠调几个工程参数解决不了。 AI科技评论（雷峰网公众号）注意到，在这一方向被顶会加冕的数月前，国内具身初创公司贝塔无限就已坐上牌桌。今年五月，贝塔的联合创始人陶帅在采访中明确表示： 长效、多模态、时空记忆的缺失 ，是他们首先要重点突破的方向。随后，团队陆续发布 BetaMem 全时空多模态记忆架构、世界动作模型 BetaWAM 0.1、首款机器人多米。10 月 20 日，团队把 BetaMem 的写入学习、证据管理和自我改进机制写成了系统的方法与实验，挂上 arXiv。 论文交出的成绩单颇为亮眼：BetaMem 采用 9B 开源模型生成记忆，在 M3-Bench-robot、LoCoMo、OpenEQA 和 EgoLifeQA 四项代表性记忆基准的对比评测中均取得 SOTA 成绩 。 尤其在串联多次观察中的线索、回忆长时间跨度的事件、识别个人习惯等任务上，BetaMem 展现出明显优势——这些能力，正是机器人进入生活、持续积累对人与环境的了解所需要的。 LT-Mem 从多会话建图切入，把问题收窄到干净、可评测；BetaMem 则从记忆如何形成、如何验证、如何从失败中学习的系统视角，搭建完整的记忆底座。一边是顶尖学术单点攻坚摘得顶会桂冠，一边是国内团队以产业落地为目标搭建完整记忆底座，学术和产业在此交汇，足以证明长记忆是整个领域正在收敛的核心方向判断。 01 记忆这道题，学界做到哪一步 围绕机器人长期记忆，学界探索了许多方法。按年份罗列意义不大，AI科技评论（雷峰网公众号）想换个角度，看记忆回答了什么问题，还剩什么没回答。 第一类关注 空间侧的记忆 ，也就是“这里有什么”。Hydra、ConceptGraphs 等三维场景图把物体、地点、房间组织成可被语言查询的关系网，Khronos 把时间引入动态环境建图，DynaMem 让移动操作机器人在物体被挪动后继续更新记忆，真机上对非静止物体的取放成功率平均达 70%，是静态系统的两倍以上。这一支空间关系清楚，但记住的主要是当下这一版世界长什么样。 第二类关注 检测类的记忆 ，也就是“我见过什么”。ReMEmbR 把长时导航视频建成可检索的时空记忆，供智能体推理。但检索按相似度排序，取回的是过去的信息。五分钟前桌上确实有杯子，现在还在不在呢？检索不负责回答。 第三类关注 变化侧的记忆 ，也就是“它变了没有”。LT-Mem 正是这一思路。论",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-22T02:19:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/jvyFCFgqJxJtOvjo.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "具身长记忆升温：IROS最佳论文与BetaMem新SOTA",
+   "summary_zh": "IROS 2026最佳论文LT-Mem聚焦多会话建图，国内贝塔无限发布BetaMem全时空多模态记忆架构，在四项记忆基准上取得SOTA。",
+   "highlights_zh": [
+    "长记忆被视为机器人规模化落地的核心科学问题",
+    "BetaMem用9B开源模型生成记忆，强调写入学习与证据管理",
+    "在M3-Bench-robot、LoCoMo、OpenEQA、EgoLifeQA均达SOTA"
+   ],
+   "why_zh": "具身智能记忆方向正从工程补丁升级为独立研究赛道。",
+   "tags": [
+    "机器人",
+    "多模态",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-23",
+   "slot": "noon",
+   "selected_at": "2026-10-23T03:39:52+00:00",
+   "mirror_pdf": "pdf/web-9b25fa93a154.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/jvyFCFgqJxJtOvjo.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-58ed1de6be7a",
+   "kind": "article",
+   "title": "谷歌推出 ACE 服务：为 AI 智能体配“独立工位”，空闲时自动下班 / 唤醒不到 500 毫秒",
+   "url": "https://www.ithome.com/1/016/853.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 23 日消息，谷歌昨日（10 月 22 日）发布公告，宣布推出智能体计算引擎（Agent Compute Engine，简称 ACE）， 是一款专为 AI 智能体打造的 Google Cloud 计算服务，目标让每个智能体都拥有安全、持久、可弹性伸缩的“专属电脑”。 根据官方公告，ACE 服务将为每个 AI 智能体提供独立的硬件隔离 microVM（微型虚拟机）， 让其能够安全地执行代码、调用工具、操控浏览器并完成多步骤任务。 IT之家援引博文介绍，不同于传统虚拟机或容器，ACE 针对智能体的生命周期特征专门优化， 可快速启动，具备独立客户内核和根权限，同时通过硬件隔离的 Cloud Hypervisor 边界保障安全。 谷歌表示，沙箱内不会保存凭据，以降低智能体被滥用或数据泄露的风险。 ACE 服务的亮点在于“持久且可暂停”，智能体空闲时，其计算环境可自动挂起并释放资源；需要继续工作时，又能快速恢复文件和内存状态。 谷歌称， 在 20 万个智能体的测试中，暂停与恢复耗时不到 500 毫秒，并可通过共享内存和快照复制大幅提高单台服务器承载智能体的数量。 该服务最初用于支撑 Gemini、Gemini 平台、Antigravity 以及谷歌内部的模型评估和强化学习流程。未来，开发者可通过 Google Cloud 使用 ACE，自行控制智能体环境的镜像、身份、网络访问和生命周期，而由谷歌负责底层资源调度与扩容。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-23T02:55:33+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/016/853.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌推出ACE，为AI智能体配独立工位",
+   "summary_zh": "谷歌发布智能体计算引擎ACE，为每个AI智能体提供硬件隔离microVM，空闲自动挂起、唤醒不到500毫秒，已在20万智能体测试中验证。",
+   "highlights_zh": [
+    "每个智能体独享硬件隔离microVM，可执行代码、调用工具、操控浏览器",
+    "空闲自动挂起释放资源，恢复保留文件与内存状态，20万智能体测试暂停恢复<500ms",
+    "最初支撑Gemini、Antigravity及内部模型评估与强化学习流程，未来开放给Google Cloud开发者"
+   ],
+   "why_zh": "智能体基础设施的重要发布，揭示大规模智能体部署的算力调度与安全隔离方案。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-23",
+   "slot": "noon",
+   "selected_at": "2026-10-23T03:39:52+00:00",
+   "mirror_pdf": "pdf/web-58ed1de6be7a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/016/853.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-adc652005c06",
+   "kind": "article",
+   "title": "AI 智能体的“说明书”转为社区共治：Anthropic 捐赠 Agent Skills 开放标准",
+   "url": "https://www.ithome.com/1/016/811.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 23 日消息，Anthropic 昨日（10 月 22 日）发布公告，宣布向 Linux 基金会旗下的 Agentic AI Foundation（AAIF）组织捐赠 Agent Skills 开放标准， 让其从单一公司项目转为社区共治的 AI 智能体能力标准。 AAIF 于 2025 年 12 月 9 日成立，由 Linux 基金会运营，由 Anthropic、Block 和 OpenAI 共同创立，负责托管和治理 AI 智能体生态中的开放协议、标准与开源项目。Anthropic 此前已将 Model Context Protocol（MCP）捐赠至该组织。 IT之家注：Agent Skills 可理解为面向 AI 智能体的“说明书”：一个包含 SKILL.md 说明文件的文件夹，能够向智能体传授特定任务或领域知识，并可附带脚本、模板和参考资料。AI 智能体可按需加载这些技能，从而在不同产品间复用工作流程与专业知识。 自 2025 年 12 月作为开放标准发布以来，ChatGPT、Cursor、GitHub Copilot、VS Code 等 70 多个智能体平台已集成 Agent Skills。Anthropic 表示， 公开的 Skills 数量已达到约 100 万个，累计安装次数约 2.8 亿次。 本次捐赠除了规范本身外，还涵盖 Agent Skills 的名称、标志、GitHub 组织以及 agentskills.io 域名。Anthropic 强调，未来该标准将保持开放、社区主导和供应商中立；即使不加入 AAIF，开发者和企业仍可继续使用或贡献该标准。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-23T01:30:01+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/016/811.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic 将 Agent Skills 标准捐赠给 Linux 基金会",
+   "summary_zh": "Anthropic 把 Agent Skills 开放标准捐给 Linux 基金会旗下的 AAIF，从公司项目转为社区共治；已有 70 多个平台集成、约 100 万个 Skills。",
+   "highlights_zh": [
+    "Agent Skills 是含 SKILL.md 的文件夹，向智能体传授任务知识并可附脚本模板",
+    "ChatGPT、Cursor、GitHub Copilot、VS Code 等 70 多个平台已集成",
+    "连同名称、标志、GitHub 组织与域名一并移交，保持供应商中立"
+   ],
+   "why_zh": "智能体能力标准走向中立治理，影响所有做 Agent 工具链的团队",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-23",
+   "slot": "noon",
+   "selected_at": "2026-10-23T03:39:52+00:00",
+   "mirror_pdf": "pdf/web-adc652005c06.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/016/811.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-95eb6975ad24",
+   "kind": "article",
+   "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+   "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-10-22T22:24:34+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "把数据库评分变成强化学习奖励：用 ThinkingBox 后训练智能体",
+   "summary_zh": "Hugging Face 博客介绍用数据库执行结果作为强化学习奖励信号，对智能体进行后训练，让模型在真实查询任务中自我改进。",
+   "highlights_zh": [
+    "以数据库评分作为可验证奖励，替代人工标注",
+    "ThinkingBox 框架用于智能体后训练流程",
+    "面向 Text-to-SQL 等可自动验证的任务"
+   ],
+   "why_zh": "可验证奖励是智能体后训练的关键方向，适合做 Agent 与 RL 的团队参考。",
+   "tags": [
+    "智能体",
+    "强化学习",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 7.0,
+   "score": 0.612,
+   "date": "2026-10-23",
+   "slot": "noon",
+   "selected_at": "2026-10-23T03:39:52+00:00",
+   "mirror_pdf": "pdf/web-95eb6975ad24.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/microsoft/thinkingbox-training"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e785b871166e",
+   "kind": "article",
+   "title": "DeepSeek 据悉完成 1000 亿元新一轮融资；特斯拉三季度利润大跌 43%；微信称已完成适配 iPhone Duo | 极客早知道",
+   "url": "http://www.geekpark.net/news/372767",
+   "pdf_url": "",
+   "abstract": "DeepSeek 新一轮融资筹得约 1000 亿 10 月 22 日，有市场消息称，国内大模型公司 DeepSeek 拟在最新一轮融资中筹得约 1000 亿元人民币 ( 约 150 亿美元 )，腾讯和宁德时代为本轮出资最多的投资方，交易预计在未来数日内正式完成。 截至目前，DeepSeek 及腾讯等相关投资方均未公开回应。记者从接近公司和投资方的多个信源交叉求证，确认上述消息属实。 消息人士透露，本轮募资目标最初设定为 500 亿元，此后经多轮上调至约 1000 亿元，目前尚未官宣，最终金额仍未完全确定。 这笔资金将继续用于模型训练、算力建设和人才招募，以支撑 DeepSeek 参与全球竞争。也有部分消息人士判断，本轮融资将为公司筹备中的科创板 IPO 铺平道路。（来源：上海证券报） SpaceX 据报洽谈接入美国至少 8 万座基站，准备建立全国性移动通信网络 据彭博社 10 月 22 日报道，SpaceX 正在与美国移动通信基础设施企业洽谈，希望获得至少 8 万座地面通信站点的使用权。 这项计划可能帮助 SpaceX 建立覆盖美国全国的移动通信网络，进一步拓展 Starlink 的业务范围。 过去，Starlink 主要通过卫星提供宽带互联网服务，并逐步发展卫星直连手机业务。如果 SpaceX 能够获得大量地面通信站点的使用权，就有机会将卫星通信与传统地面移动网络结合。 目前相关合作仍处于谈判阶段，尚未公布最终协议。（来源：彭博社） Anthropic 冲刺史上规模最大 IPO 10 月 22 日，据财联社援引知情人士消息，Anthropic 最快将于当地时间本周五向美国 SEC 公开提交 S-1 招股说明书，这是这家 AI 公司冲刺史上规模最大 IPO 的核心程序性节点。 早在今年 6 月，Anthropic 就已秘密提交 IPO 草案，此前一个月完成的 650 亿美元 H 轮融资，也为上市奠定了资本基础。该轮融资投后估值达 9650 亿美元，由 Altimeter Capital、Dragoneer、Greenoaks 和红杉资本领投。Anthropic 的估值也超越 OpenAI，后者在今年 3 月的投后估值为 8520 亿美元。 很长一段时间里，华尔街主流机构的乐观预期是，Anthropic 有望以 2 万亿美元估值上市，募资规模最高可达 1000 亿美元，直接刷新今年 6 月 SpaceX 创下的 IPO 纪录。SpaceX 上市时估值约 1.77 万亿美元，募资约 857 亿美元。（来源：界面新闻） 腾讯客服称微信目前已适配 iPhone Duo，后续还会推出相关更新并持续提升使用体验 10 月 22 日消息，苹果首款折叠屏手机 iPhone Duo 已于 10 月 16 日晚 8 点开启预购，搭载 A20 Pro 处理器，国行定价 15,999 元起。 关于微信的适配情况一直是大家重点关心的问题，腾讯客服表示： 微信目前已经适配苹果折叠屏手机，您可以正常下载使用微信。同时微信团队正在积极推进对苹果可折叠设备的适配优化，后续会推出相关更新并持续提升使用体验。请您放心使用当前版本。 另外，微信输入法也已更新 4.0.0 版本，宣布全面适配 iPhone Duo。（来源：IT 之家） 特斯拉三季度净利润大跌 43%，交付量降至 48.65 万辆 10 月 22 日消息，特斯拉于当地时间周三美股盘后发布 2026 年第三季度财报。数据显示，公司当季营收为 280.46 亿美元，与上年同期的 280.95 亿美元基本持平；GAAP 净利润为",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-23T00:49:03+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372767",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek传完成千亿元融资，Anthropic冲刺史上最大IPO",
+   "summary_zh": "市场消息称DeepSeek新一轮融资约1000亿元，腾讯与宁德时代领投，或为科创板IPO铺路；同日Anthropic最快本周五公开提交S-1，估值预期高达2万亿美元。",
+   "highlights_zh": [
+    "DeepSeek募资目标从500亿上调至约1000亿元，资金用于模型训练、算力与人才",
+    "Anthropic估值9650亿美元已超OpenAI，华尔街乐观预期上市估值2万亿",
+    "消息尚未官宣，最终金额未完全确定"
+   ],
+   "why_zh": "中美两家头部大模型公司同时进入资本化关键节点。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-10-23",
+   "slot": "noon",
+   "selected_at": "2026-10-23T03:39:52+00:00",
+   "mirror_pdf": "pdf/web-e785b871166e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372767"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e92ee890d32c",
+   "kind": "article",
+   "title": "讯飞发布新一代端到端交互模型：语音大模型调用量暴涨20倍，端侧已实现约70%云端能力",
+   "url": "https://www.infoq.cn/article/Md0kdMxGI6flIbZXH1yg?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "褚杏娟"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-23T11:39:27+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/Md0kdMxGI6flIbZXH1yg?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "讯飞发布端到端交互模型：语音调用量暴涨20倍，端侧逼近七成云端能力",
+   "summary_zh": "科大讯飞发布新一代端到端语音交互模型，语音大模型调用量增长20倍，端侧已实现约70%的云端能力，推动语音交互向本地化、低延迟演进。",
+   "highlights_zh": [
+    "端到端交互模型替代传统级联方案，降低延迟",
+    "语音大模型调用量暴涨20倍，需求侧爆发",
+    "端侧能力达云端约70%，利好离线与隐私场景"
+   ],
+   "why_zh": "语音交互是AI落地高频入口，端侧能力跃升值得关注",
+   "tags": [
+    "语音",
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-23",
+   "slot": "noon",
+   "selected_at": "2026-10-23T03:39:52+00:00",
+   "mirror_pdf": "pdf/web-e92ee890d32c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/Md0kdMxGI6flIbZXH1yg?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-dcf396a5e885",
+   "kind": "article",
+   "title": "每天500万亿Token背后，KV Cache正把存储墙推到台前",
+   "url": "https://www.tmtpost.com/8178453.html",
+   "pdf_url": "",
+   "abstract": "更为理想的方式，不仅局限于存储和计算的融合，而是围绕计算、存储、通信、调度多种要素做系统性的协同优化，以实现算力基础设施及其上运行大模型推理应用的更大性能提升。",
+   "authors": [
+    "Leo张ToB杂谈"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-23T02:28:39+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8178453.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "每天500万亿Token背后，KV Cache把存储墙推到台前",
+   "summary_zh": "钛媒体分析大模型推理中KV Cache对存储系统的压力，指出理想方案需围绕计算、存储、通信、调度做系统性协同优化，而非仅存储计算融合。",
+   "highlights_zh": [
+    "每天500万亿Token的推理规模使KV Cache成为存储瓶颈核心",
+    "单纯存储与计算融合不足以解决问题",
+    "需计算、存储、通信、调度多要素系统性协同优化"
+   ],
+   "why_zh": "深入推理基础设施的存储瓶颈，对做大模型推理部署与算力规划的工程师有参考价值。",
+   "tags": [
+    "效率与系统",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-23",
+   "slot": "noon",
+   "selected_at": "2026-10-23T03:39:52+00:00",
+   "mirror_pdf": "pdf/web-dcf396a5e885.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8178453.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5932997853ac",
+   "kind": "article",
+   "title": "SpaceX 推出超级智能合作伙伴网络，英伟达等 130 余家公司参与早期计划",
+   "url": "https://www.ithome.com/1/016/814.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 23 日消息，据彭博社今日报道，SpaceX 与包括英伟达、阿波罗、Snowflake、Databricks 和贝恩公司在内的 130 多家公司共同启动了 Super Intelligence Partner Network（超级智能合作伙伴网络）早期计划 。 IT之家从报道获悉，该计划将参与者分为： 转型合作伙伴（Transformation Partners）—— 协助客户将 Grok 整合进复杂运营 市场合作伙伴（Marketplace Partners）—— 负责开发专业软件集成 SpaceX 的这一计划旨在帮助企业利用其 Grok AI 平台构建、集成和扩展应用。 SpaceX 高管强调，企业客户正从简单的 AI 实验转向全面自主工作流程。 SpaceX 总裁 Gwynne Shotwell 在最近的财报电话会议上指出， 截至十月，Grok Bot 的每周付费用户数已攀升至 80 万以上，是上个月数字的两倍 。Shotwell 将这款智能体软件描述为“始终在线的团队伙伴”，部署于软件工程、销售、市场营销和 IT 运营领域。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-23T01:35:51+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/016/814.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "SpaceX 联合英伟达等 130 余家公司启动超级智能伙伴网络",
+   "summary_zh": "SpaceX 联合英伟达、Databricks 等 130 多家公司推出 Super Intelligence Partner Network，帮企业把 Grok 集成进业务流程；Grok Bot 周付费用户已达 80 万。",
+   "highlights_zh": [
+    "计划分转型合作伙伴与市场合作伙伴两类角色",
+    "Grok Bot 周付费用户一个月翻倍至 80 万以上",
+    "官方称企业客户正从 AI 实验转向全面自主工作流"
+   ],
+   "why_zh": "看企业级智能体商业化落地的真实规模与生态打法",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-23",
+   "slot": "noon",
+   "selected_at": "2026-10-23T03:39:52+00:00",
+   "mirror_pdf": "pdf/web-5932997853ac.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/016/814.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2a2c14787462",
+   "kind": "article",
+   "title": "supabase/supabase",
+   "url": "https://github.com/supabase/supabase",
+   "pdf_url": "",
+   "abstract": "Sponsor Star supabase / supabase The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.\nREADME: # Supabase [Supabase](https://supabase.com) is the Postgres development platform. We're building the features of Firebase using enterprise-grade open source tools. - [x] Hosted Postgres Database. [Docs](https://supabase.com/docs/guides/database) - [x] Authentication and Authorization. [Docs](https://supabase.com/docs/guides/auth) - [x] Auto-generated APIs. - [x] REST. [Docs](https://supabase.com/docs/guides/api) - [x] GraphQL. [Docs](https://supabase.com/docs/guides/graphql) - [x] Realtime subscriptions. [Docs](https://supabase.com/docs/guides/realtime) - [x] Functions. - [x] Database Functions. [Docs](https://supabase.com/docs/guides/database/functions) - [x] Edge Functions [Docs](https://supabase.com/docs/guides/functions) - [x] File Storage. [Docs](https://supabase.com/docs/guides/storage) - [x] AI + Vector/Embeddings Toolkit. [Docs](https://supabase.com/docs/guides/ai) - [x] Dashboard ![Supabase Dashboard](https://raw.githubusercontent.com/supabase/supabase/master/apps/www/public/images/github/supabase-dashboard.png) Watch \"releases\" of this repo to get notified of major updates. ## Documentation For full documentation, visit [supabase.com/docs](https://supabase.com/docs) To see how to Contribute, visit [Getting Started](./DEVELOPERS.md) ## Community & Support - [Community Forum](https://github.com/supabase/supabase/discussions). Best for: help with building, discussion about database best practices. - [GitHub Issues](https://github.com/supabase/supabase/issues). Best for",
+   "authors": [],
+   "orgs": [
+    "supabase"
+   ],
+   "published": "2026-10-23T03:39:52+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/supabase/supabase",
+     "signal": "★ 今日 +693 · TypeScript",
+     "metric": 693
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Supabase：Postgres 开发平台",
+   "summary_zh": "Supabase 持续登上 Trending，提供托管 Postgres、鉴权、API 与向量检索工具包，常用于 AI 应用后端。",
+   "highlights_zh": [
+    "托管 Postgres + 自动生成 API",
+    "内置向量/Embedding 工具包",
+    "适合快速搭建 AI 应用后端"
+   ],
+   "why_zh": "如果你在搭 RAG 或 AI 应用后端，可用它的向量工具包省去自建检索服务。",
+   "tags": [
+    "产品与行业",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.6084,
+   "score_llm": 5.0,
+   "score": 0.5434,
+   "date": "2026-10-23",
+   "slot": "noon",
+   "selected_at": "2026-10-23T03:39:52+00:00",
+   "mirror_pdf": "pdf/web-2a2c14787462.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/supabase/supabase"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cac5f332da99",
+   "kind": "article",
+   "title": "twentyhq/twenty",
+   "url": "https://github.com/twentyhq/twenty",
+   "pdf_url": "",
+   "abstract": "Star twentyhq / twenty The open alternative to Salesforce, designed for AI.\nREADME: The #1 Open-Source CRM Website · Documentation · Roadmap · Discord · Figma # Why Twenty Twenty gives technical teams the building blocks for a custom CRM that meets complex business needs and quickly adapts as the business evolves. Twenty is the CRM you build, ship, and version like the rest of your stack. Learn more about why we built Twenty # Installation ### Cloud The fastest way to get started. Sign up at [twenty.com](https://twenty.com) and spin up a workspace in under a minute, with no infrastructure to manage and always up to date. ### Build an app Scaffold a new app with the Twenty CLI: ```bash npx create-twenty-app my-app ``` Define objects, fields, and views as code: ```ts import { defineObject, FieldType } from 'twenty-sdk/define'; export default defineObject({ nameSingular: 'deal', namePlural: 'deals', labelSingular: 'Deal', labelPlural: 'Deals', fields: [ { name: 'name', label: 'Name', type: FieldType.TEXT }, { name: 'amount', label: 'Amount', type: FieldType.CURRENCY }, { name: 'closeDate', label: 'Close Date', type: FieldType.DATE_TIME }, ], }); ``` Then ship it to your workspace: ```bash npx twenty app:publish --private ``` See the [app development guide](https://docs.twenty.com/developers/extend/apps/getting-started) for objects, views, agents, and logic functions. Building with a coding agent? Install the official [Twenty app skills](./packages/twenty-agent-skills), which work in Claude Code, Codex, Cursor, Pi, and any other harness supported by the `skills`",
+   "authors": [],
+   "orgs": [
+    "twentyhq"
+   ],
+   "published": "2026-10-23T03:39:52+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/twentyhq/twenty",
+     "signal": "★ 今日 +605 · TypeScript",
+     "metric": 605
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Twenty：为 AI 设计的开源 CRM",
+   "summary_zh": "Twenty 以代码方式定义对象与视图，主打可版本化的开源 CRM，并宣称面向 AI 场景设计。",
+   "highlights_zh": [
+    "用 TypeScript 定义数据模型",
+    "CLI 脚手架快速建应用",
+    "开源替代 Salesforce"
+   ],
+   "why_zh": "如果你要给业务系统加 AI 能力，可用它把 CRM 数据结构代码化、便于集成。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6028,
+   "score_llm": 5.0,
+   "score": 0.5411,
+   "date": "2026-10-23",
+   "slot": "noon",
+   "selected_at": "2026-10-23T03:39:52+00:00",
+   "mirror_pdf": "pdf/web-cac5f332da99.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/twentyhq/twenty"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-88405a20b440",
+   "kind": "article",
+   "title": "Foresight AI 正式可用，Gremlin 将智能体引入可靠性工程",
+   "url": "https://www.infoq.cn/article/2bKQkdiAcGEycHJLYPv5?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Matt Saunders"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-23T11:15:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/2bKQkdiAcGEycHJLYPv5?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Foresight AI 正式可用，Gremlin 将智能体引入可靠性工程",
+   "summary_zh": "Gremlin 推出正式可用的 Foresight AI，把智能体引入可靠性工程，用于故障演练与系统韧性分析，面向运维与SRE团队。",
+   "highlights_zh": [
+    "智能体切入可靠性工程与故障演练场景",
+    "面向SRE的AI辅助韧性分析",
+    "从实验走向正式商用"
+   ],
+   "why_zh": "智能体在运维可靠性场景的落地样本",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-23",
+   "slot": "noon",
+   "selected_at": "2026-10-23T03:39:52+00:00",
+   "mirror_pdf": "pdf/web-88405a20b440.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/2bKQkdiAcGEycHJLYPv5?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-542e4926db94",
+   "kind": "article",
+   "title": "DeepSeek千亿融资逼近收官：结盟完美世界、中芯聚源等产业资本，募资翻倍押注具身智能",
+   "url": "https://www.infoq.cn/article/ViOyxiOSP2ihxuUyg1rD?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "四月"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-23T08:46:30+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/ViOyxiOSP2ihxuUyg1rD?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek千亿融资逼近收官：结盟产业资本，募资翻倍押注具身智能",
+   "summary_zh": "DeepSeek 千亿级融资接近完成，引入完美世界、中芯聚源等产业资本，募资规模翻倍，资金将押注具身智能方向。",
+   "highlights_zh": [
+    "融资规模翻倍至千亿级",
+    "产业资本入局，绑定芯片与内容生态",
+    "资金投向具身智能"
+   ],
+   "why_zh": "头部大模型公司的资本与战略走向信号",
+   "tags": [
+    "产品与行业",
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-23",
+   "slot": "noon",
+   "selected_at": "2026-10-23T03:39:52+00:00",
+   "mirror_pdf": "pdf/web-542e4926db94.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/ViOyxiOSP2ihxuUyg1rD?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a38bf864a5f6",
+   "kind": "article",
+   "title": "企业有需求，FDE 团队有能力，为什么 AI 项目仍难落地？",
+   "url": "https://www.infoq.cn/article/Ei2spcFKComKqkPv6osN?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "极客邦科技"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-22T16:24:28+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/Ei2spcFKComKqkPv6osN?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "企业有需求、FDE 有能力，AI 项目为何仍难落地？",
+   "summary_zh": "分析企业AI项目落地难的原因：需求与FDE团队能力虽在，但组织协同、数据与流程改造等环节仍构成障碍。",
+   "highlights_zh": [
+    "剖析AI项目落地的组织性障碍",
+    "FDE模式的能力与局限",
+    "对企业AI工程化有参考价值"
+   ],
+   "why_zh": "理解企业级AI落地的真实阻力",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-23",
+   "slot": "noon",
+   "selected_at": "2026-10-23T03:39:52+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/Ei2spcFKComKqkPv6osN?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "AI基础设施竞争从堆卡转向能效与部署速度",
+   "why": "英伟达提出以每度电产出Token衡量AI工厂，并推集装箱式部署缩短上线周期。",
+   "refs": [
+    "web-2f42fbdc70d0",
+    "web-a4d3526d3b30"
+   ]
+  },
+  {
+   "trend": "智能体基础设施进入标准化与隔离化阶段",
+   "why": "Agent Skills捐给基金会走向社区共治，谷歌ACE用microVM为智能体提供硬件隔离。",
+   "refs": [
+    "web-adc652005c06",
+    "web-cc012b1e3b75",
+    "web-58ed1de6be7a"
+   ]
+  },
+  {
+   "trend": "推理效率与存储协同成为大模型落地瓶颈",
+   "why": "EAGLE-4开源加速生成，KV Cache压力凸显需计算存储通信调度系统级协同。",
+   "refs": [
+    "web-83d9f71c46d3",
+    "web-dcf396a5e885"
+   ]
+  },
+  {
+   "trend": "端侧语音能力逼近云端，交互加速本地化",
+   "why": "讯飞端到端语音模型端侧已达约七成云端能力，调用量增长20倍。",
+   "refs": [
+    "web-e92ee890d32c"
+   ]
+  },
+  {
+   "trend": "资本向具身智能与头部模型公司集中",
+   "why": "DeepSeek千亿融资押注具身智能，Anthropic冲刺高估值IPO，资金向头部聚拢。",
+   "refs": [
+    "web-e785b871166e",
+    "web-542e4926db94"
+   ]
+  }
+ ]
+}
