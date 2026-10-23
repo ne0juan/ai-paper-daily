@@ -1200,6 +1200,90 @@
    "mt": false
   },
   {
+   "id": "arxiv-2610.31494",
+   "kind": "paper",
+   "title": "AgentVQA: A Unified Benchmark for Agentic Visual Understanding",
+   "url": "https://arxiv.org/abs/2610.31494",
+   "pdf_url": "https://arxiv.org/pdf/2610.31494",
+   "abstract": "Vision-language models (VLMs) can perform a broad range of tasks across diverse settings, yet their performance in agentic contexts remains poorly understood. Although online evaluations in simulators and real-world environments are essential for measuring interactive agent performance, they are costly and challenging to scale. Complementary offline VQA benchmarks can enable faster and more reliable comparisons across agentic domains, yet existing benchmarks remain limited and fragmented. To address this gap, we introduce AgentVQA, an offline benchmark for evaluating VLMs on realistic agentic scenarios across five agent domains: Web Agents, Robotics, Egocentric Videos, Games, and Spatial Planning. We build AgentVQA by manually selecting 1000 challenging, real-world agent examples from 23 source datasets and adapting them for reliable offline evaluation. The resulting benchmark preserves realistic scenarios from interactive environments across diverse domains, and its model rankings track those from corresponding online evaluations. Across the 22 evaluated models, the best achieves only 58.5% accuracy. Our cross-domain analysis shows that errors are driven primarily by failures to ground and maintain accurate representations of the current and evolving visual state, including localizing relevant UI elements, interpreting motion, tracking state changes over time, and inferring 3D spatial relationships, rather than by task misinterpretation or downstream logical reasoning.",
+   "authors": [
+    "Advait Gupta",
+    "Sachin Konan",
+    "Tom Yin",
+    "Gabriel Sarch",
+    "Zhuang Liu"
+   ],
+   "orgs": [
+    "zlab-princeton"
+   ],
+   "published": "2026-10-22T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.31494",
+     "signal": "▲ 10",
+     "metric": 10
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AgentVQA：智能体视觉理解统一基准",
+   "summary_zh": "提出 AgentVQA 离线基准，从 23 个数据集精选 1000 个真实智能体场景，覆盖网页、机器人、第一人称视频、游戏与空间规划，22 个模型中最佳仅 58.5%，错误主因是视觉状态定位与跟踪失败。",
+   "highlights_zh": [
+    "覆盖五大智能体领域的离线 VQA 基准",
+    "模型排名与在线评估一致，可低成本复现",
+    "揭示当前 VLM 在动态视觉状态理解上的短板"
+   ],
+   "why_zh": "做多模态智能体评测时，可用该基准快速对比模型能力。",
+   "tags": [
+    "多模态",
+    "数据与评测",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.6034,
+   "score_llm": 8.0,
+   "score": 0.7214,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T15:44:13+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.31494.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.31494"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.31494"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.31494"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.31494"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.31494"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.31494"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/zlab-princeton/AgentVQA"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "arxiv-2610.30949",
    "kind": "paper",
    "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
@@ -1545,6 +1629,328 @@
    "mt": false
   },
   {
+   "id": "arxiv-2610.31466",
+   "kind": "paper",
+   "title": "AnyGameRenderer: Entity-Consistent Generative Rendering Across Games and an Entity-Level Benchmark",
+   "url": "https://arxiv.org/abs/2610.31466",
+   "pdf_url": "https://arxiv.org/pdf/2610.31466",
+   "abstract": "AI coding agents can now build small playable games in minutes, but the results usually look like programmer art: gray blockouts, colored geometric primitives, and flat semantic blobs. We present AnyGameRenderer, a video-to-video generative renderer that turns such footage into high-quality visuals with characters, motion detail, and effects. Throughout, it keeps the layout, camera, and every entity's position and timing intact. Our AnyGameRenderer generalizes across a wide range of genres that agents build, such as tower defense, auto-battlers, top-down survivors, turn-based battles, kart racing, and crowd runners. AnyGameRenderer takes plain video as its game-state input, with no complex representations such as engine G-buffers, per-object class labels, or low-poly proxies. Gray blockouts, colored primitives, semantic maps, and wireframes all work as input. It also preserves entity correspondence: group counts stay correct, and entities appear and disappear on the right frame. We implement AnyGameRenderer by LoRA fine-tuning MiniMax-H3 ref2va, a 33B reference-video-conditioned video generation model. Training uses sim10k paired clips from three sources: (i) multi-stream rendering data from 38 agent-made games exported from GEAR, an AI game-creation tool; (ii) two-stream rendering data from Unreal Engine, with programmatically controlled crowds, count changes, and entity scales; and (iii) real gameplay recordings, with pairs reconstructed via 3D-box detection. To evaluate the entity correspondence, we propose an entity-level benchmark of 59 held-out cases with 753 entities, scored against ground-truth boxes. Compared with the base model, AnyGameRenderer better preserves entity correspondence: temporal match rises from 50.9\\% to 62.9\\%, missed count changes fall from 34.7\\% to 21.3\\%, and fewer entities are hallucinated or left unrendered.",
+   "authors": [
+    "Ruicong Liu",
+    "Liangyang Ouyang",
+    "Fengbo Lan",
+    "Zhixiang Wang",
+    "Kaipeng Zhang"
+   ],
+   "orgs": [
+    "Alaya Lab"
+   ],
+   "published": "2026-10-22T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.31466",
+     "signal": "▲ 9",
+     "metric": 9
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AnyGameRenderer：跨游戏实体一致的生成式渲染与基准",
+   "summary_zh": "针对 AI 智能体生成的游戏画面粗糙问题，提出视频到视频生成渲染器，在保持布局、相机与实体位置时序不变的前提下提升画质，并发布实体级基准。",
+   "highlights_zh": [
+    "以普通视频为游戏状态输入，无需 G-buffer 或类别标签",
+    "保持实体数量、出现与消失帧的对应关系",
+    "基于 33B 视频生成模型 LoRA 微调，覆盖多类游戏"
+   ],
+   "why_zh": "生成式渲染与游戏智能体结合的新进展，附实体级评测基准。",
+   "tags": [
+    "多模态",
+    "视觉",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.5177,
+   "score_llm": 8.0,
+   "score": 0.6871,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T15:44:13+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.31466.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.31466"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.31466"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.31466"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.31466"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.31466"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.31466"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/AlayaLab/AnyGameRenderer"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1606cfe2c2a9",
+   "kind": "article",
+   "title": "TauricResearch/TradingAgents",
+   "url": "https://github.com/TauricResearch/TradingAgents",
+   "pdf_url": "",
+   "abstract": "Star TauricResearch / TradingAgents TradingAgents: Multi-Agents LLM Financial Trading Framework",
+   "authors": [],
+   "orgs": [
+    "TauricResearch"
+   ],
+   "published": "2026-10-23T15:44:13+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/TauricResearch/TradingAgents",
+     "signal": "★ 今日 +498 · Python",
+     "metric": 498
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "TradingAgents：多智能体 LLM 金融交易框架",
+   "summary_zh": "TauricResearch 开源 TradingAgents，用多个 LLM 智能体协作完成金融交易分析与决策，GitHub 今日新增 498 星。",
+   "highlights_zh": [
+    "多智能体分工协作的金融交易框架",
+    "基于 LLM 的分析与决策流水线",
+    "Python 实现，GitHub Trending 热度高"
+   ],
+   "why_zh": "如果你在做 LLM 金融应用，可参考其多智能体协作设计。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5948,
+   "score_llm": 7.0,
+   "score": 0.6579,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T15:44:13+00:00",
+   "mirror_pdf": "pdf/web-1606cfe2c2a9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/TauricResearch/TradingAgents"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8d1ba7d5d9bb",
+   "kind": "article",
+   "title": "liguobao/ds-harness-remote",
+   "url": "https://github.com/liguobao/ds-harness-remote",
+   "pdf_url": "",
+   "abstract": "Star liguobao / ds-harness-remote 一个基于 DeepSeek Harness 插件机制构建的多端远程访问方案，通过安全、低延迟、端到端加密的 P2P 优先网络，支持从 PC、Android 和 Web 随时访问并操作远程 Harness 和 CodeX。 (A multi-device remote access solution built on the DeepSeek Harness plugin system, enabling PC, Android, and Web clients to securely access and operate remote Harness and CodeX over a low-latency, end-to-end encrypted, P2P-first network.)",
+   "authors": [],
+   "orgs": [
+    "liguobao"
+   ],
+   "published": "2026-10-23T15:44:13+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/liguobao/ds-harness-remote",
+     "signal": "★ 今日 +331 · TypeScript",
+     "metric": 331
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "ds-harness-remote：DeepSeek Harness 多端远程访问",
+   "summary_zh": "基于 DeepSeek Harness 插件机制的多端远程访问方案，通过端到端加密 P2P 网络，支持从 PC、Android 和 Web 远程操作 Harness 与 CodeX。",
+   "highlights_zh": [
+    "P2P 优先、端到端加密的低延迟远程访问",
+    "支持 PC、Android、Web 多端",
+    "基于 DeepSeek Harness 插件机制构建"
+   ],
+   "why_zh": "如果你用 DeepSeek Harness 跑编码任务，可用它从手机远程操作。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5781,
+   "score_llm": 7.0,
+   "score": 0.6512,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T15:44:13+00:00",
+   "mirror_pdf": "pdf/web-8d1ba7d5d9bb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/liguobao/ds-harness-remote"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-619059630d1f",
+   "kind": "article",
+   "title": "AI Is Getting Good at Math. Here’s Why.",
+   "url": "https://latent.space/p/ai-is-getting-good-at-math/",
+   "pdf_url": "",
+   "abstract": "AI models are solving more mathematical problems. A pattern is emerging in their successes that could help us predict which problems they’ll solve next.",
+   "authors": [
+    "Ankit Maloo"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-23T15:19:48+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/ai-is-getting-good-at-math/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "AI 数学能力为何突飞猛进",
+   "summary_zh": "Latent Space 分析 AI 模型在数学题上的成功模式，试图据此预测模型接下来能解哪些问题。",
+   "highlights_zh": [
+    "梳理模型解数学题的成功规律",
+    "尝试用模式预测下一批可解问题",
+    "涉及推理能力与评测方法"
+   ],
+   "why_zh": "帮助理解大模型推理能力的边界与可预测性。",
+   "tags": [
+    "推理",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T15:44:13+00:00",
+   "mirror_pdf": "pdf/web-619059630d1f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/ai-is-getting-good-at-math/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.30678",
+   "kind": "paper",
+   "title": "Scaling Laws for Safety Probes",
+   "url": "https://arxiv.org/abs/2610.30678",
+   "pdf_url": "https://arxiv.org/pdf/2610.30678",
+   "abstract": "Safety probes trained on a model's activations are a standard tool for monitoring language models in real time. Each time a new model is released or a new harm area needs to be monitored, the probe must be retrained, which requires new labels and a choice of probe architecture. Yet neither the model nor the labels tell us in advance how well the resulting probe will perform. Finding out requires training and comparing many probe configurations. In this paper, we ask whether probe performance can instead be predicted in advance from model size and the number of labels. Existing safety datasets are insufficient for this, as they are either limited in scale or already saturated. We therefore construct six new safety datasets of sufficient size and difficulty. On these datasets, we train two probe architectures on 20 base models from five model families, with 32 to $10^{6}$ labels for each model. We measure performance using probe error, defined as 1 - AUROC, where lower values are better. We find that probe error follows two simple scaling laws. First, the lowest probe error a model can reach falls as a power law in its size. Second, probe error decreases towards its floor as the number of examples increases; the slope increases as the target model size increases. Both laws hold across tasks, model families and probe architectures, and only their fitted constants differ. When fitted on the smallest models of a family, the laws predict the error of the next larger model to within 0.02 in 72% of cases. They also identify whether more labels or a larger model is the cheaper way to reach a target error in 73% of cases. Finally, they choose the probe architecture with an extra error of only 0.006 on average when they pick the worse one. These laws allow safety researchers to determine how to create the best probe for any given model and label budget.",
+   "authors": [
+    "Yuchen Wu",
+    "Jerry Wei"
+   ],
+   "orgs": [
+    "University of Washington",
+    "Anthropic"
+   ],
+   "published": "2026-10-22T03:43:33Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.30678",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "安全探针的缩放定律：性能可提前预测",
+   "summary_zh": "构建六个大规模安全数据集，在 20 个基座模型上训练探针后发现：探针误差下限随模型规模呈幂律下降，且随标注量增加逼近该下限，规律跨任务、模型家族与探针架构成立。",
+   "highlights_zh": [
+    "用探针误差（1-AUROC）量化监控性能，覆盖 32 到百万级标注量",
+    "两条缩放定律：误差下限随模型规模幂律下降；标注越多越逼近下限",
+    "跨五个模型家族、两种探针架构仅拟合常数不同"
+   ],
+   "why_zh": "安全监控从“试错训练”走向“按规模与标注量预估效果”，对部署侧监控规划有直接价值。",
+   "tags": [
+    "对齐与安全",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.64,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T15:44:13+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.30678.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.30678"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.30678"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.30678"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.30678"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.30678"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.30678"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-a38e1d6b2002",
    "kind": "article",
    "title": "刘铁岩、诺奖、图灵奖得主等嘉宾共话AI的下一个十年：Transformer一统天下之后，AI的下一张王牌是什么？",
@@ -1708,6 +2114,59 @@
    "mt": false
   },
   {
+   "id": "web-e41cffef180c",
+   "kind": "article",
+   "title": "openai/php2shell-checker",
+   "url": "https://github.com/openai/php2shell-checker",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "openai"
+   ],
+   "published": "2026-10-23T15:44:13+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/openai/php2shell-checker",
+     "signal": "★ 1,008（新项目） · JavaScript",
+     "metric": 1008
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 开源 php2shell-checker 工具",
+   "summary_zh": "OpenAI 发布 php2shell-checker，用于检测 PHP 代码中的 shell 注入风险，帮助开发者加固 Web 应用安全。",
+   "highlights_zh": [
+    "OpenAI 官方开源的安全检测工具",
+    "针对 PHP 代码中的 shell 注入漏洞",
+    "JavaScript 实现，GitHub 新项目已获千星"
+   ],
+   "why_zh": "如果你维护 PHP 项目，可用它扫描潜在的 shell 注入风险点。",
+   "tags": [
+    "对齐与安全",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.6636,
+   "score_llm": 6.0,
+   "score": 0.6254,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T15:44:13+00:00",
+   "mirror_pdf": "pdf/web-e41cffef180c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/openai/php2shell-checker"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-8477c3daca9c",
    "kind": "article",
    "title": "Empowering frontline maternal care with AI-assisted ultrasound",
@@ -1761,6 +2220,60 @@
    "mt": false
   },
   {
+   "id": "web-3016514964f6",
+   "kind": "article",
+   "title": "OpenAI 联合研究机构部署数千个 AI 智能体：32 分钟分析数百万个小鼠脑细胞，相当于人类数月时间",
+   "url": "https://www.ithome.com/1/017/274.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 23 日消息，OpenAI 联合 PerturbAI 和斯克里普斯研究所（Scripps Research），利用数千个 AI 智能体分析数百万个小鼠脑细胞的生物学数据，整个分析过程仅耗时 32 分钟。 研究团队估计，如果由人类研究人员逐项分析实验结果并检索相关文献，完成同等工作可能需要数月到一年。 根据 OpenAI 10 月 21 日发布的介绍，这项研究使用了专为生命科学研究设计的 GPT-Rosalind 模型，分析一份覆盖整个小鼠大脑的 CRISPR 图谱。该图谱记录了不同基因受到干预后，各类脑细胞产生的变化，有助于研究人员了解基因功能及其与疾病之间的潜在联系。 研究团队采用分布式 AI 智能体架构，将大量分析任务拆分后并行执行。每个智能体负责研究一种基因干预，分析相关细胞的反应，并检索科学文献，为观察到的变化寻找可能的生物学解释。 随后，研究人员将各智能体的报告整合为一份名为“Reasoning Atlas”的推理图谱，关联基因、细胞变化、参考文献和潜在作用机制。 研究人员发现，分布式智能体不仅能够复现已有研究中的部分结论，还提出了一些值得进一步验证的线索。例如，Tsc1 和 Tsc2 是共同参与调控细胞生长、代谢等过程的两个基因，但研究发现，在小脑部分神经元中，干预 Tsc2 会改变多种与神经元通信有关的基因表达，而干预 Tsc1 并未产生同等程度的变化。这一差异可能有助于研究人员进一步理解结节性硬化症相关的脑部异常。 另一条线索涉及与神经退行性疾病有关的 DCTN1 基因。研究发现，干预该基因后，部分与胆固醇合成有关的基因表达水平上升。AI 智能体将这一现象与既有文献中有关胆固醇运输异常的研究联系起来，并提出一个待验证的问题：DCTN1 功能异常是否会影响神经元内部的胆固醇分布，并进一步参与神经退行性变化。 研究团队还对分布式智能体与单个智能体的表现进行了盲测比较。在 20 组配对报告中，生物学专家在 75% 的评审中更倾向于分布式智能体生成的报告；单个智能体的报告获得 16.7% 的评审偏好，其余 8.3% 的评审结果为平局。 研究人员称，随着分析任务规模扩大，分布式架构也能检索和引用更多科学文献。在最大规模的测试中，分布式智能体引用了 700 多篇文献，而单个智能体仅引用 11 篇。 相关研究论文已于 2026 年 10 月 16 日发布在 bioRxiv 预印本平台，目前尚未经过同行评审。研究团队强调，AI 提出的生物学联系和作用机制仍属于有待验证的研究假设，后续仍需通过实验确认。 相关推理图谱、分析流程和代码已向研究人员开放，可用于探索基因干预结果、比较不同细胞类型的反应，并筛选值得优先开展实验的研究方向。 IT之家附论文地址： https://www.biorxiv.org/content/10.64898/2026.10.15.759436v1 相关阅读： 《 OpenAI 联手 PerturbAI：让近 2000 个 AI 智能体一起搞科研，加速新药研发 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-23T14:43:44+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/017/274.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI数千智能体32分钟分析数百万小鼠脑细胞",
+   "summary_zh": "OpenAI联合PerturbAI与Scripps用数千个分布式智能体分析小鼠全脑CRISPR图谱，32分钟完成人类数月工作量，专家盲测75%更偏好分布式报告，并生成可验证的推理图谱。",
+   "highlights_zh": [
+    "分布式智能体架构并行拆分基因干预分析任务",
+    "盲测中75%专家更偏好分布式智能体报告，引用文献达700余篇",
+    "提出Tsc2、DCTN1等可实验验证的新假设，代码与图谱开放"
+   ],
+   "why_zh": "展示多智能体并行架构在科学发现中的规模化威力与评测方法。",
+   "tags": [
+    "智能体",
+    "科学AI",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T15:44:13+00:00",
+   "mirror_pdf": "pdf/web-3016514964f6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/017/274.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-eaa0ebff7daf",
    "kind": "article",
    "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
@@ -1809,6 +2322,59 @@
     {
      "label": "原文",
      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5d118fadbe79",
+   "kind": "article",
+   "title": "Ensemble forecasting with IBM Granite time-series models",
+   "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-10-22T07:51:31+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "用 IBM Granite 时间序列模型做集成预测",
+   "summary_zh": "Hugging Face 博客介绍基于 IBM Granite 时间序列模型进行集成预测的方法与实践。",
+   "highlights_zh": [
+    "聚焦时间序列预测的集成方法",
+    "基于开源 Granite 时序模型",
+    "面向实际预测任务"
+   ],
+   "why_zh": "时序预测场景下集成策略的实操参考。",
+   "tags": [
+    "效率与系统",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 7.0,
+   "score": 0.612,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T15:44:13+00:00",
+   "mirror_pdf": "pdf/web-5d118fadbe79.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1"
     }
    ],
    "mt": false
@@ -1889,6 +2455,86 @@
     {
      "label": "HF Papers",
      "url": "https://huggingface.co/papers/2610.31479"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.31650",
+   "kind": "paper",
+   "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
+   "url": "https://arxiv.org/abs/2610.31650",
+   "pdf_url": "https://arxiv.org/pdf/2610.31650",
+   "abstract": "Tool-using language model agents rely on environmental facts to decide whether an action is permitted. When a tool response omits a safety-relevant fact, an agent may carry out a prohibited action even though the user request is benign and every returned statement is true. We introduce \\bench{}, an executable benchmark for evaluating unsafe execution, safety boundaries, and evidence recovery in LLM agents under missing evidence. It contains 300 matched unsafe/safe task pairs across six domains. By systematically suppressing critical facts, the benchmark measures unsafe execution under critical evidence omission and determines the minimum observed failure cardinality, including failures with full evidence and cases with no observed failure after exhaustive testing. An independent audit tool tests whether agents seek missing facts and then withhold prohibited actions while completing permissible tasks. The benchmark reveals substantial variation across the ten models in omission robustness, evidence acquisition, and appropriate action. Resistance to missing evidence does not necessarily translate into useful recovery. Recovery access reduces unsafe execution for all ten models, but agents differ in whether they actively obtain the missing facts and use them to act appropriately in both worlds.",
+   "authors": [
+    "Qijin Zhang",
+    "Hanzhen Wang",
+    "Yuehan Zhao",
+    "Haoyu Dai",
+    "Yao Shu",
+    "Zhongxiang Dai",
+    "Shuang Qiu"
+   ],
+   "orgs": [],
+   "published": "2026-10-22T17:57:04Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.31650",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "EpiSEM-Bench：证据缺失下 LLM 智能体的安全与证据恢复评测",
+   "summary_zh": "构建 300 组配对任务的可执行基准，系统抑制关键事实以测智能体是否会执行被禁动作；十个模型在缺失证据鲁棒性、证据获取与恰当行动上差异显著，且抗缺失不等于能有效恢复。",
+   "highlights_zh": [
+    "覆盖六个领域的安全/不安全配对任务设计",
+    "区分「不执行」与「主动补全证据后正确行动」两种能力",
+    "揭示恢复访问能降低所有模型的不安全执行率"
+   ],
+   "why_zh": "工具型智能体安全评测的新基准，直接关系落地风险，值得一读。",
+   "tags": [
+    "对齐与安全",
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T15:44:13+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.31650.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.31650"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.31650"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.31650"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.31650"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.31650"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.31650"
     }
    ],
    "mt": false
@@ -1997,6 +2643,114 @@
     {
      "label": "原文",
      "url": "https://tomtunguz.com/closing-eight-figure-deals-in-two-weeks/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-24a759e0d336",
+   "kind": "article",
+   "title": "[AINews] Black October",
+   "url": "https://latent.space/p/ainews-black-october/",
+   "pdf_url": "",
+   "abstract": "the Cyber onslaught continues.",
+   "authors": [
+    "swyx .ai"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-23T10:09:29+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/ainews-black-october/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "AINews：黑色十月",
+   "summary_zh": "swyx 汇总近期 AI 与网络安全动态，称网络攻击浪潮仍在持续，行业进入多事之秋。",
+   "highlights_zh": [
+    "聚焦近期密集的网络安全事件",
+    "以周报形式梳理 AI 行业动向",
+    "强调攻击态势仍在升级"
+   ],
+   "why_zh": "快速把握近期 AI 安全与行业新闻脉络。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 6.0,
+   "score": 0.58,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T15:44:13+00:00",
+   "mirror_pdf": "pdf/web-24a759e0d336.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/ainews-black-october/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0b6ea312f888",
+   "kind": "article",
+   "title": "AI #191: The Hackening Begins",
+   "url": "https://thezvi.wordpress.com/2026/10/22/ai-191-the-hackening-begins/",
+   "pdf_url": "",
+   "abstract": "It was the probably worst day in cybersecurity history. So far. Not only is there a critical flaw in PHP that due to a leak was announced a day before the fix would be available, sending most of the internet … Continue reading →",
+   "authors": [
+    "TheZvi"
+   ],
+   "orgs": [
+    "Zvi Mowshowitz"
+   ],
+   "published": "2026-10-22T15:13:35+00:00",
+   "sources": [
+    {
+     "name": "Zvi Mowshowitz",
+     "authority": 0.75,
+     "url": "https://thezvi.wordpress.com/2026/10/22/ai-191-the-hackening-begins/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 趋势评论员，每周 AI 综述",
+   "title_zh": "AI #191：黑客风暴开始",
+   "summary_zh": "Zvi 认为这可能是网络安全史上最糟糕的一天：PHP 关键漏洞在补丁发布前一天被泄露，波及大量互联网服务。",
+   "highlights_zh": [
+    "PHP 严重漏洞提前泄露，补丁尚未就绪",
+    "被形容为迄今最严重的网络安全日",
+    "Zvi 每周 AI 综述中的安全专题"
+   ],
+   "why_zh": "了解近期重大安全事件及其对 AI 基础设施的潜在冲击。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 6.0,
+   "score": 0.58,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T15:44:13+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://thezvi.wordpress.com/2026/10/22/ai-191-the-hackening-begins/"
     }
    ],
    "mt": false
@@ -2165,6 +2919,226 @@
    "mt": false
   },
   {
+   "id": "web-5986dab03734",
+   "kind": "article",
+   "title": "“让Token不空转”，讯飞如何把Agent推进企业核心流程",
+   "url": "https://www.infoq.cn/article/Lo9TLlRdvy4II38yaex0?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "褚杏娟"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-23T17:40:09+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/Lo9TLlRdvy4II38yaex0?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "讯飞谈Agent进企业核心流程：让Token不空转",
+   "summary_zh": "讯飞分享将Agent推进企业核心业务流程的实践，强调以真实任务闭环提升Token利用率，避免无效调用。",
+   "highlights_zh": [
+    "聚焦Agent在企业核心流程而非边缘场景",
+    "以“Token不空转”衡量Agent实效",
+    "涉及企业级Agent落地方法论"
+   ],
+   "why_zh": "企业Agent落地的一线经验，对评估Agent ROI有参考价值。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T15:44:13+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/Lo9TLlRdvy4II38yaex0?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a9de81f9a6b5",
+   "kind": "article",
+   "title": "AI 赋能开发，Spotify 月代码变更量翻倍",
+   "url": "https://www.infoq.cn/article/rVqEbaXeaJ91UWlQF4F9?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者： Leela Kumili"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-23T16:27:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/rVqEbaXeaJ91UWlQF4F9?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Spotify用AI赋能开发，月代码变更量翻倍",
+   "summary_zh": "Spotify披露引入AI辅助开发后月代码变更量翻倍，展示AI编码工具在大型工程团队中的规模化效果。",
+   "highlights_zh": [
+    "月代码变更量实现翻倍",
+    "AI工具嵌入日常开发流程",
+    "大型团队规模化落地案例"
+   ],
+   "why_zh": "头部公司AI编码提效的量化案例，可对照自身团队评估收益。",
+   "tags": [
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T15:44:13+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/rVqEbaXeaJ91UWlQF4F9?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-00f84d31dda3",
+   "kind": "article",
+   "title": "千问蒋冠军：Personal Agent技术框架，需要模型、记忆与生态协同推进",
+   "url": "https://www.infoq.cn/article/6EJRFIef67xr3x6vyCJa?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "褚杏娟"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-23T15:45:32+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/6EJRFIef67xr3x6vyCJa?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "千问蒋冠军：Personal Agent需模型、记忆与生态协同",
+   "summary_zh": "千问蒋冠军认为，个人Agent的技术框架不能只靠模型，需模型、记忆与生态三者协同推进才能落地。",
+   "highlights_zh": [
+    "Personal Agent需模型+记忆+生态协同",
+    "记忆是个人化体验的关键环节",
+    "生态决定Agent可调用的服务边界"
+   ],
+   "why_zh": "来自一线负责人的Agent架构判断，有助于理解个人Agent的竞争维度。",
+   "tags": [
+    "智能体",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T15:44:13+00:00",
+   "mirror_pdf": "pdf/web-00f84d31dda3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/6EJRFIef67xr3x6vyCJa?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c40eb33f54b1",
+   "kind": "article",
+   "title": "决策模型也有专用推理引擎了：StartLux 开源 Prism，单卡最高提速 5.3 倍",
+   "url": "https://www.infoq.cn/article/reksyo9EBAcP11Ns2GTO?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "蔡芳芳"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-23T12:03:49+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/reksyo9EBAcP11Ns2GTO?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "StartLux 开源决策模型专用推理引擎 Prism，单卡最高提速 5.3 倍",
+   "summary_zh": "StartLux 开源 Prism，为决策模型提供专用推理引擎，单卡最高提速 5.3 倍，提升决策类模型部署效率。",
+   "highlights_zh": [
+    "面向决策模型的专用推理引擎",
+    "单卡最高提速 5.3 倍",
+    "已开源"
+   ],
+   "why_zh": "决策模型推理优化是落地效率的关键增量。",
+   "tags": [
+    "效率与系统",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T15:44:13+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/reksyo9EBAcP11Ns2GTO?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-2940cf6a55c2",
    "kind": "article",
    "title": "网络攻击愈发猖獗，防御方能否用AI扳回一城？",
@@ -2215,6 +3189,116 @@
     {
      "label": "原文",
      "url": "https://www.tmtpost.com/8178797.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a2bc1bd0dec1",
+   "kind": "article",
+   "title": "AI 智能体疯狂入侵人类系统：十几起漏洞依次排开，AI真正攻破了哪一层?",
+   "url": "https://www.tmtpost.com/8179406.html",
+   "pdf_url": "",
+   "abstract": "从漏洞被找到，到它被大规模利用，中间只剩几个小时。",
+   "authors": [
+    "AGI-Signal"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-23T10:30:32+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8179406.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI 智能体疯狂入侵人类系统：十几起漏洞揭示真实攻击面",
+   "summary_zh": "梳理十几起 AI 智能体相关漏洞，指出从漏洞被发现到被大规模利用仅剩数小时，揭示智能体带来的新型安全风险。",
+   "highlights_zh": [
+    "盘点多起智能体相关漏洞案例",
+    "漏洞利用窗口缩短至数小时",
+    "剖析 AI 真正攻破的系统层级"
+   ],
+   "why_zh": "智能体安全是落地前必须正视的现实风险。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T15:44:13+00:00",
+   "mirror_pdf": "pdf/web-a2bc1bd0dec1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8179406.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f1363420665a",
+   "kind": "article",
+   "title": "别再争谁是“中国版Duet”了，卖铲子的ICT厂商先赚到了钱",
+   "url": "https://www.tmtpost.com/8179336.html",
+   "pdf_url": "",
+   "abstract": "常驻型 Agent 将 AI 搬上云端，重写了机房的 CPU、存储与网络配比。国内跨平台 Agent 受阻，基础设施先拿订单，成色仍看应用层。",
+   "authors": [
+    "Alter"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-23T10:18:42+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8179336.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "常驻型Agent重写机房配比，ICT厂商先赚到钱",
+   "summary_zh": "钛媒体分析称，常驻型Agent把AI搬上云端，重写了机房的CPU、存储与网络配比，国内跨平台Agent受阻但基础设施厂商先拿到订单，最终成色仍看应用层。",
+   "highlights_zh": [
+    "常驻型Agent改变云端算力基础设施的CPU/存储/网络配比",
+    "国内跨平台Agent生态受阻，基础设施层先受益",
+    "行业价值最终取决于应用层能否跑通"
+   ],
+   "why_zh": "从基础设施视角理解Agent落地的真实商业路径与瓶颈。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T15:44:13+00:00",
+   "mirror_pdf": "pdf/web-f1363420665a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8179336.html"
     }
    ],
    "mt": false
@@ -2377,47 +3461,206 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-5f487e832f3b",
+   "kind": "article",
+   "title": "又一国产决策模型发布！准确率超过微软和Jev等决策模型",
+   "url": "https://www.qbitai.com/2026/10/504879.html",
+   "pdf_url": "",
+   "abstract": "10月22日，蚂蚁数科正式发布决策模型 LingDT-Decision-1.0。",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-22T09:07:05+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/504879.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "蚂蚁数科发布决策模型 LingDT-Decision-1.0",
+   "summary_zh": "蚂蚁数科发布决策模型 LingDT-Decision-1.0，宣称准确率超过微软等同类决策模型，具体评测细节尚待披露。",
+   "highlights_zh": [
+    "蚂蚁数科推出决策模型 LingDT-Decision-1.0",
+    "官方称准确率超过微软及 Jev 等决策模型",
+    "决策模型赛道再添国产玩家"
+   ],
+   "why_zh": "关注国产决策模型进展的读者可快速了解蚂蚁数科的新动作。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T15:44:13+00:00",
+   "mirror_pdf": "pdf/web-5f487e832f3b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/504879.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-968f5f1b644d",
+   "kind": "article",
+   "title": "中国 AI 硬件的下一个爆款，可能生在「网球场」",
+   "url": "http://www.geekpark.net/news/372807",
+   "pdf_url": "",
+   "abstract": "头图来源：Hirdwire 2024 年巴黎奥运会，郑钦文在罗兰·加洛斯捧起金牌的那个下午，中国的网球场预订量在一周内翻了数倍。两年后，最先把这股热潮变成生意的，是一群造机器的深圳工程师。 过去一年，至少四款中国团队打造的 AI 球类机器人在 Kickstarter 上筹得百万美元级资金。庞伯特以 26255% 的超募率卷走 265 万美元；智能家居大厂 SwitchBot 推出的 Acemate 30 天入账 180 万美元；Tenniix 首战筹得近百万美元后，其母公司英汉思动力完成红杉联合领投的三轮共超亿元融资；最新收官的 AceiiLab 首批量产正在交付，单台售价约 2000 美元，早鸟价 999 美元。 但火归火，这条赛道连「卖的是什么」都还没说清。在「AI 网球机器人」标签背后，可以是打网球的人形机器人，也可以是便携发球机，也有可能是一款手机 App。 为什么网球机器人赛道突然爆火？一台真正的 AI 网球机器人到底该长什么样？带着这两个问题，我们在深圳的一片球场上见到了 AceiiLab，和它背后一思科技的联创晁光。随后我们发现，这场竞赛里硬件只是入场券，真正的关键在于你把这台机器定位成一件器材，还是一个对手。谁能让用户打得更久、离开得更难，谁才有机会提前拿到「AI 网球机器人」的定义权。 一、「球场上来了个会跑位的陪练」 见到实物前，我们对网球机器人的想象是一块会移动的大屏，或一条能挥拍的机械臂。 AceiiLab A1 被拉进球场时，看起来像一只 20 寸行李箱，下半截是带轮子的本体，上半截是可拆卸的球包，可装 120 颗球。过去是一手拎机器、一手拖球筐，现在两件行李合成一件，整机约 20 公斤，四个轮子推行。 「我们发现在设备上，用户的本质需求不是要求机器轻，而是希望自己搬运不累。选择行李箱的形式，不需要一直发力，很大程度上减少累的体感。」AceiiLab 相关负责人说，「行李箱的方式既解决了移动难题，也是一个友好的用户使用过程。」 真正开机后，我们发现 AceiiLab 的玩法和常见的传统发球机并不一样，它是一个可移动的、交互性较强的产品。「这可能是我当下使用过最好的 AI 网球机器人，移动带来的真实对打感是其他同类产品几乎不可比的地方。」一位参与到现场与 AceiiLab 对打的朋友说道。 将 AceiiLab 放在网球线上，按下主机开关后，两侧车轨支架自动展开。十几秒后，摄像头认出球场上的线，机器开始沿线巡逻。它并不满场乱跑，只认中场线、底线和边界线这几条「跑道」，像一名守规矩的球员，绝不越位。 AceiiLab A1 开机准备 ｜来源：Hirdwire 热身完毕，好戏开场。开球前需先在 App 里选择模式，目前主要有三种玩法：组合&移动、自由练习、接发球训练。 以组合 & 移动模式为例，AceiiLab A1 会按照内置的 50 多套球路组合，一边沿线移动一边按剧本喂球，正手一颗、反手一颗，深一颗、浅一颗，球速和旋转轮着变，发球间隔最快能压到半秒一颗。 自由练习则把发球选择权交还给用户，无论是隔网对打、同侧陪练，还是让它在底线自由移动，用户均可按需选择。它还能定点喂球，或站在左右边线喂出角度刁钻的球，相较于传统发球机练来练去就那几个角度，它能把整条底线都变成发球点。 接发球练习模式中，还有一个「球童模式」，你不需要按下开始键，只需竖起球拍，机器就能自动识别就绪状态并完成发球，就像有一位专业球童一直站在对面为你发球。 真正开打后的画面，和我们想象中激烈的「对拉」有些不同。所谓「对拉」的真相是，你把球打过网，球还没落地，机",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-23T06:15:58+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372807",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "中国 AI 网球机器人扎堆出海众筹",
+   "summary_zh": "多款中国团队打造的 AI 网球机器人在 Kickstarter 筹得百万美元级资金，但产品定义仍模糊，硬件之外的关键在于陪练体验。",
+   "highlights_zh": [
+    "庞伯特、SwitchBot、AceiiLab 等众筹成绩亮眼",
+    "AceiiLab A1 以行李箱形态实现沿线移动喂球",
+    "赛道核心分歧：定位为器材还是对手"
+   ],
+   "why_zh": "观察 AI 硬件出海与细分场景落地的一个具体样本。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.528,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T15:44:13+00:00",
+   "mirror_pdf": "pdf/web-968f5f1b644d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372807"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7cdf090850ee",
+   "kind": "article",
+   "title": "Kimi K3.1 泄露：3D 成本仅有 GPT-6 Astra 的 1/14！横扫海外视觉三巨头",
+   "url": "https://www.leiphone.com/category/yanxishe/PZo9w14YeFSo4jmf.html",
+   "pdf_url": "",
+   "abstract": "15 分钟交付工业级可交互3D 资产，重写视觉大模型的“理科生法则” 作者丨 高 允 毅 编辑丨岑 峰 刚刚，Kimi 官方发布了一段“极具暗示性”的先导片，各种高能科学画面与粒子特效快速切换，有眼尖的网友已经捕捉到画面中的彩蛋“Kimi K3.1”。 Kimi K3.1 要来了？ 这次它带着 极强的视觉效果 来了，有网友指出官方视频就是 Kimi K3.1 做的。 图注：眼尖的网友在画面中找到了亮点“Kimi K3.1” AI 博主 Chris 不仅肯定了即将发布的消息，而且表示他已经实测了一周。他透露， Kimi K3.1在开源 3D 图形库 Three.js 上表现出色，而且这个模型的成本只有 Kimi K3 的 70%，Token 效率全面升级 。 从 Chris 晒出的实测画面中，可以看到 Kimi K3.1 跑完了一整套 24 小时昼夜环境模拟，从晨光漫射到夜幕沉落，光影过渡帧级精准，环境细节随光线同步流转，全程丝滑无断点。 要知道，Three.js 编写的程序是非常消耗资源的，因为它需要实时计算 3D 空间中的顶点、光影和纹理。而 Kimi 这波相当于用纯代码跑出了渲染级画质。 01 早有伏笔：从匿名打榜到身份浮出 实际上，关于 Kimi K3.1 的消息早已有更多细节流出。 9 月底，就有开发者在月之暗面 API 平台的配置文件里，发现了“kimi-k3-1”的模型标识。 10 月 21 日，Kimi Code 的模型切换列表中，悄悄新增了 K3.1 选项，相当于官方提前给开发者开了小范围测试。 10 月下旬，竞技场突然冒出两个战斗力极强的神秘模型，代号 Kibitz 和 Kalmia。其中， Kibitz 在前端与 3D 代码类任务中表现强势。 在 \"鹈鹕骑自行车\" 这类考验空间想象力的渲染任务中，它凭出色的几何和物理直觉，生成了近乎完美的 3D 动态画面与矢量图；在其他的 3D 体素（Voxel）渲染盲测中，又靠对超长指令的精准控制力胜出。 值得注意的是，在生成同等复杂度的 3D 代码时，它的 Token 消耗只有国外顶级模型的几十分之一。 很快就有开发者通过分词器特征检验，推测出 Kibitz 就是 Kimi K3.1。这完全符合 Kimi 之前的命名规律，K2.5 叫 Kiwido，K2.6 叫 Kiwire，K3 叫 Kivine，K3.1 对应 Kibitz。 随后 SGLang 代码库的一个合并请求，又意外泄露了更多细节： K3.1 新增了“Medium 中等思考”分级 ，思考强度由三档扩为四档，可根据任务难度灵活调度算力，兼顾速度和深度。 02 各种案例流传：这是一头 3D 猛兽？ 在 Arena 盲测中，Kimi K3.1 把网页前端与图形渲染上的优势继承下来并进一步放大，在 3D 图形（Three.js/ WebGL）、交互大屏、H5 动态仿真等 6 大细分领域，展现出一定统治力。 网上已经有不少一手内测案例流出，网友惊呼： \"这是一头 3D 猛兽”。 要检验大模型的视觉与空间推理能力，AI 圈有个绕不过去的测试 “鹈鹕骑自行车 ” 。 这个题目看似简单，实则处处是坑。因为这个画面无法参考现成的鹈鹕骑车素材，必须同时理解鹈鹕的解剖结构和自行车的机械逻辑，再把两个完全不相关的概念组合起来，用纯代码算出几何位置。这要考验模型的“概念组合能力”、“物理直觉能力”、“空间几何能力”。 图注：早期模型实测出的乱七八糟的“鹈鹕骑自行车” 早期 Claude 3.5 画出的自行车只是两个圈加个三角，鹈鹕就是个带香蕉嘴的圆球，",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-23T10:57:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/yanxishe/PZo9w14YeFSo4jmf.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Kimi K3.1 泄露：3D 代码能力与成本优势",
+   "summary_zh": "月之暗面 Kimi K3.1 疑似泄露，在 Three.js 3D 渲染与前端代码任务上表现突出，Token 消耗远低于海外顶级模型，成本约为 K3 的 70%。",
+   "highlights_zh": [
+    "匿名模型 Kibitz 在 3D 代码盲测中胜出，被推测为 K3.1",
+    "新增「中等思考」档位，思考强度扩为四档",
+    "同等复杂度 3D 代码 Token 消耗仅为国外模型几十分之一"
+   ],
+   "why_zh": "关注国产模型在 3D/前端代码方向的差异化竞争与成本优势。",
+   "tags": [
+    "大模型",
+    "代码",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-23",
+   "slot": "evening",
+   "selected_at": "2026-10-23T15:44:13+00:00",
+   "mirror_pdf": "pdf/web-7cdf090850ee.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/yanxishe/PZo9w14YeFSo4jmf.html"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "推理效率竞争从单点加速转向系统级协同，投机解码并非普适解",
-   "why": "Apple Silicon评测显示投机解码全部降速，KV Cache压力倒逼计算存储通信调度协同优化",
+   "trend": "AI工厂竞争从堆卡转向每度电Token产出，能效成为新KPI",
+   "why": "英伟达GTC柏林确认Vera Rubin量产，DSX POD将部署缩至14天，黄仁勋明确衡量指标转向能效",
+   "refs": [
+    "web-2f42fbdc70d0"
+   ]
+  },
+  {
+   "trend": "智能体基础设施走向硬件隔离与标准化，平台层争夺加剧",
+   "why": "谷歌ACE为每个智能体配microVM，Anthropic将Agent Skills捐给Linux基金会，70+平台已集成",
+   "refs": [
+    "web-58ed1de6be7a",
+    "web-adc652005c06",
+    "web-cc012b1e3b75"
+   ]
+  },
+  {
+   "trend": "智能体评测暴露真实短板：视觉状态跟踪与证据缺失鲁棒性成瓶颈",
+   "why": "AgentVQA最佳仅58.5%，错误主因是视觉状态定位失败；EpiSEM-Bench显示抗缺失不等于能恢复",
+   "refs": [
+    "arxiv-2610.31494",
+    "arxiv-2610.31650"
+   ]
+  },
+  {
+   "trend": "推理加速不存在通用解，优化效果高度依赖硬件与场景",
+   "why": "Apple Silicon评测显示KV缓存剪枝提速1.75倍但投机解码全部降速，加速比非技术固有属性",
    "refs": [
     "arxiv-2610.31479",
-    "web-dcf396a5e885",
     "web-83d9f71c46d3"
    ]
   },
   {
-   "trend": "智能体基础设施进入标准化与隔离化阶段，平台争夺生态话语权",
-   "why": "Anthropic将Agent Skills捐给Linux基金会，谷歌ACE用microVM为智能体提供硬件隔离",
-   "refs": [
-    "web-adc652005c06",
-    "web-cc012b1e3b75",
-    "web-58ed1de6be7a"
-   ]
-  },
-  {
-   "trend": "AI工厂评价指标从算力规模转向能效与部署速度",
-   "why": "英伟达推集装箱式AI工厂将部署缩至14天，并强调每度电产出Token为核心指标",
-   "refs": [
-    "web-2f42fbdc70d0",
-    "web-a4d3526d3b30"
-   ]
-  },
-  {
-   "trend": "AI攻防能力越过临界点，开始反向冲击开源协作与发布节奏",
-   "why": "Claude发现数万亿次测试未见的漏洞，AI找Bug速度过快打乱PostgreSQL 19发布",
-   "refs": [
-    "web-2940cf6a55c2",
-    "web-089a844e96f4",
-    "web-4e9bfd07ae02"
-   ]
-  },
-  {
-   "trend": "资本向头部模型公司极端集中，具身智能成为新一轮押注方向",
-   "why": "DeepSeek千亿融资引入产业资本押注具身智能，Anthropic估值预期达2万亿美元",
+   "trend": "资本向具身智能与智能体落地集中，头部估值与融资规模跳升",
+   "why": "DeepSeek千亿融资押注具身智能，Anthropic冲刺2万亿美元估值IPO，产业资本入场",
    "refs": [
     "web-e785b871166e",
     "web-542e4926db94"
