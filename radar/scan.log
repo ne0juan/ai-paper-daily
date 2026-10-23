@@ -1,12 +1,12 @@
-2026-10-23 10:09:29,656 INFO source hf_daily           -> 36 items
-2026-10-23 10:09:29,988 INFO source hackernews         -> 4 items
-2026-10-23 10:09:43,981 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-23 10:09:52,266 INFO source rss                -> 115 items
-2026-10-23 10:09:54,092 INFO source html_lists         -> 0 items
-2026-10-23 10:09:54,092 INFO source x                  -> 0 items
-2026-10-23 10:09:54,775 INFO source arxiv_search       -> 60 items
-2026-10-23 10:10:04,157 INFO source github             -> 20 items
-2026-10-23 10:10:04,159 INFO candidates: 234 (stale dropped 44, new 140)
-2026-10-23 10:11:45,060 INFO llm judged 100/100 (calls=13)
-2026-10-23 10:11:45,499 WARNING pdf arxiv-2610.31329: too large (> 25165824 bytes): https://arxiv.org/pdf/2610.31329
-2026-10-23 10:14:20,626 INFO run done: {"at": "2026-10-23T10:09:29+00:00", "slot": "evening", "candidates": 234, "new": 140, "stale": 44, "judged": 100, "selected": 19, "mirrored": 17, "by_category": {"技术": 4, "资讯": 13, "论文": 1, "观点": 1}, "by_source": {"HF Daily Papers": 36, "arXiv 新论文": 60, "Hacker News": 4, "量子位": 6, "极客公园": 12, "IT之家": 16, "爱范儿": 4, "少数派": 1, "雷峰网": 14, "钛媒体": 3, "InfoQ 中文": 17, "Dwarkesh Patel": 1, "Latent Space": 4, "SemiAnalysis": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 7, "Google Research": 1, "METR": 1, "OpenAI": 8, "Google DeepMind": 1, "NVIDIA": 15, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
+2026-10-23 15:44:14,198 INFO source hf_daily           -> 40 items
+2026-10-23 15:44:14,652 INFO source hackernews         -> 4 items
+2026-10-23 15:44:33,720 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-23 15:45:06,807 INFO source rss                -> 103 items
+2026-10-23 15:45:09,589 INFO source html_lists         -> 0 items
+2026-10-23 15:45:09,589 INFO source x                  -> 0 items
+2026-10-23 15:45:10,356 INFO source arxiv_search       -> 60 items
+2026-10-23 15:45:20,605 INFO source github             -> 20 items
+2026-10-23 15:45:20,607 INFO candidates: 225 (stale dropped 34, new 132)
+2026-10-23 15:47:03,197 INFO llm judged 96/100 (calls=13)
+2026-10-23 15:47:53,574 WARNING snapshot https://thezvi.wordpress.com/2026/10/22/ai-191-the-hackening-begins/: blocked or empty page
+2026-10-23 15:50:47,197 INFO run done: {"at": "2026-10-23T15:44:13+00:00", "slot": "evening", "candidates": 225, "new": 132, "stale": 34, "judged": 96, "selected": 21, "mirrored": 17, "by_category": {"技术": 4, "项目": 3, "观点": 3, "资讯": 11}, "by_source": {"HF Daily Papers": 40, "arXiv 新论文": 60, "Hacker News": 4, "GitHub Trending": 11, "量子位": 5, "极客公园": 12, "IT之家": 11, "爱范儿": 4, "少数派": 1, "雷峰网": 14, "钛媒体": 4, "InfoQ 中文": 18, "Dwarkesh Patel": 1, "Latent Space": 5, "SemiAnalysis": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 7, "Google Research": 1, "METR": 1, "OpenAI": 6, "Google DeepMind": 1, "NVIDIA": 8, "GitHub 新项目": 9}, "llm": true, "translated": 0}
