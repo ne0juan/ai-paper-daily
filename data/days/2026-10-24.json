@@ -912,49 +912,1115 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-c1ad71a16e1f",
+   "kind": "article",
+   "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
+   "url": "https://latent.space/p/ainews-kimi-31/",
+   "pdf_url": "",
+   "abstract": "We have Fable at home... or so we are being told by paid shills",
+   "authors": [
+    "swyx .ai"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-24T07:18:29+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/ainews-kimi-31/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Kimi 3.1 Pro 发布：开源权重逼近闭源前沿",
+   "summary_zh": "月之暗面发布 Kimi 3.1 Pro，104B 激活参数、2.8T 总参数的开源权重模型，据称将开源与闭源前沿差距缩至约一个月，并推出 2-3 倍速的 Pro Highspeed API。",
+   "highlights_zh": [
+    "104B 激活 / 2.8T 总参数的开源权重模型",
+    "宣称与闭源前沿差距缩窄至约 1 个月",
+    "同步上线 2-3 倍速的 Highspeed API"
+   ],
+   "why_zh": "判断开源大模型与闭源前沿差距的关键信号，值得关注竞争格局变化。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T09:26:33+00:00",
+   "mirror_pdf": "pdf/web-c1ad71a16e1f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/ainews-kimi-31/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-148f4d8ea321",
+   "kind": "article",
+   "title": "The Hackening",
+   "url": "https://thezvi.wordpress.com/2026/10/23/the-hackening/",
+   "pdf_url": "",
+   "abstract": "Last week at a small conference, there was talk about a future event referred to as The Hackening. As in, within 6-12 months, many predicted that due to advanced AIs and AI agents the internet would become a severely hostile … Continue reading →",
+   "authors": [
+    "TheZvi"
+   ],
+   "orgs": [
+    "Zvi Mowshowitz"
+   ],
+   "published": "2026-10-23T21:13:32+00:00",
+   "sources": [
+    {
+     "name": "Zvi Mowshowitz",
+     "authority": 0.75,
+     "url": "https://thezvi.wordpress.com/2026/10/23/the-hackening/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 趋势评论员，每周 AI 综述",
+   "title_zh": "「The Hackening」：AI 智能体将让互联网变得极度敌对",
+   "summary_zh": "Zvi 认为，业内预测未来 6-12 个月内，先进 AI 与智能体将让互联网演变为严重敌对的环境，安全攻防格局面临系统性冲击。",
+   "highlights_zh": [
+    "业内预测 6-12 个月内出现「The Hackening」",
+    "AI 智能体驱动的攻击面急剧扩大",
+    "对个人与企业的安全防御提出新要求"
+   ],
+   "why_zh": "提前理解智能体时代的安全风险，有助于规划防御策略。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T09:26:33+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://thezvi.wordpress.com/2026/10/23/the-hackening/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-298c8de07d18",
+   "kind": "article",
+   "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+   "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+   "pdf_url": "",
+   "abstract": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-10-23T17:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI如何将存储扩展至10亿ChatGPT用户",
+   "summary_zh": "OpenAI详解Habitat存储系统通过多租户、全局缓存与Cosmos DB实现12倍读取提速，支撑ChatGPT十亿级用户。",
+   "highlights_zh": [
+    "多租户架构支撑十亿级用户规模",
+    "全局缓存带来12倍读取加速",
+    "Azure Cosmos DB在超大规模下的工程实践"
+   ],
+   "why_zh": "头部公司超大规模AI基础设施的一手工程经验，对后端架构有参考价值。",
+   "tags": [
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 7.0,
+   "score": 0.636,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T09:26:33+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-057a86be6882",
+   "kind": "article",
+   "title": "Bringing foundational models to the front lines of TB screening",
+   "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
+   "pdf_url": "",
+   "abstract": "Generative AI",
+   "authors": [],
+   "orgs": [
+    "Google Research"
+   ],
+   "published": "2026-10-23T18:51:33+00:00",
+   "sources": [
+    {
+     "name": "Google Research",
+     "authority": 0.8,
+     "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "基础模型助力结核病筛查一线",
+   "summary_zh": "Google Research将生成式基础模型用于结核病筛查，探索AI在资源匮乏地区医疗影像诊断的落地。",
+   "highlights_zh": [
+    "基础模型应用于结核病筛查",
+    "面向医疗资源匮乏场景",
+    "Google Research的AI for Social Good方向"
+   ],
+   "why_zh": "科学AI落地医疗的典型案例，了解基础模型在垂直领域的应用路径。",
+   "tags": [
+    "科学AI",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.5,
+   "score_llm": 7.0,
+   "score": 0.62,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T09:26:33+00:00",
+   "mirror_pdf": "pdf/web-057a86be6882.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ef39c0b8ea69",
+   "kind": "article",
+   "title": "腾讯 WorkBuddy 接入模型 Kimi-K3.1-Pro，支持 100 万上下文",
+   "url": "https://www.ithome.com/1/017/412.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 24 日消息，今日，腾讯 WorkBuddy 宣布已接入模型 Kimi-K3.1-Pro。据介绍，WorkBuddy 同步接入高速版模型 Kimi K3.1 Pro Highspeed，同等智能， 输出速度约 2-3 倍 。目前资源紧张，现阶段仅对“企业旗舰版”及“个人订阅用户”优先开放。 据介绍，Kimi K3.1 Pro 是全新 K3.1 系列的第一个模型，也是 Kimi 迄今能力最强的 3 万亿级参数模型，支持 100 万上下文。K3.1 Pro 在代码、3D 创作、金融研究和其他长程 Agent 能力上的提升尤为显著。 IT之家注意到，在 Kimi K3.1 Pro 的研发中，大幅增加了强化学习（RL）环节的算力投入。在代码、Agent 和知识类基准上，K3.1 Pro 达到或接近最强闭源模型的水平。Terminal-Bench 4.0 通过真实环境中资源受限的终端任务考察编程智能体的能力，每项任务均设有严格的专项测试。K3.1 Pro 在此项评估中得分 65.7%，超过 GPT-6 Astra（58.2%），与 Claude Opus 5.5（66.4%）仅有微弱差距。 Kimi K3.1 Pro 模型擅长 3D 创作与空间推理。在 BenchCAD 基准测试中，K3.1 Pro 借助工具得分 92.7%，接近 Claude Opus 5.5 的 96.2% 和 GPT-6 Astra 的 95.9%。该基准考察通过生成 CAD 代码，从多视角渲染图重建 3D 模型的能力。 凭借更强的推理与工具调用能力，Kimi K3.1 Pro 能够端到端交付完整的金融工作流。在外部基准上，K3.1 Pro 在 OfficeQA Pro v2 和 SpreadsheetBench v2 两项基准测试中分别得分 64.4 和 36.3 ， 均取得当前最优成绩（SoTA） 。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-24T07:59:12+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/017/412.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯WorkBuddy接入Kimi-K3.1-Pro，百万上下文",
+   "summary_zh": "腾讯WorkBuddy接入Kimi迄今最强3万亿参数模型K3.1-Pro，支持100万上下文，代码与Agent基准接近最强闭源模型，Terminal-Bench超GPT-6 Astra。",
+   "highlights_zh": [
+    "K3.1-Pro为3万亿参数模型，支持100万上下文，RL算力投入大幅增加",
+    "Terminal-Bench 4.0得分65.7%，超GPT-6 Astra，逼近Claude Opus 5.5",
+    "OfficeQA Pro v2与SpreadsheetBench v2均取得SoTA，金融工作流端到端交付"
+   ],
+   "why_zh": "国产开源系模型在Agent与代码基准上追平闭源头部，值得关注竞争格局变化。",
+   "tags": [
+    "大模型",
+    "智能体",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T09:26:33+00:00",
+   "mirror_pdf": "pdf/web-ef39c0b8ea69.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/017/412.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cdd87edadab5",
+   "kind": "article",
+   "title": "iRTE2026：对话 AI 如何迈向 AGI？声网CEO赵斌给出五级对话能力框架",
+   "url": "https://www.leiphone.com/category/industrynews/nwy00TZXQdwJcSka.html",
+   "pdf_url": "",
+   "abstract": "10月23日，iRTE2026实时智能大会在北京举行。声网创始人兼 CEO 赵斌在主论坛发表题为《对话 AGI：实时互动的下一章》的演讲，回顾了过去一年实时互动、对话式 AI 与底层基础设施的关键变化，并提出“五级对话能力”框架，勾勒对话式 AI 从基础应答走向深度理解与关系沟通的演进路径。 赵斌认为，随着 AI 从回答问题走向持续交流、理解上下文并执行任务，实时互动的对象正在从人与人扩展到人与 Agent。实时互动技术的角色也随之延伸：它不仅要让信息传递更稳定、更流畅，还要为 AI 的感知、理解、表达与行动提供实时支撑。 从“问一句答一句”到深度关系沟通：对话 AGI 的五级进化 在赵斌看来，对话式 AI 的进步，不应只用回答速度、语言自然度来衡量。更重要的是，它能否理解对话对象的意图、处境与关系，能否在复杂场景中恰当地表达，并逐步形成长期、深入的理解。 围绕这一判断，赵斌在演讲中提出了 “五级对话能力”框架 ，将对话能力划分为五个层次： L1： 基于自身视角的表达：以自我表达和被动接续为主，实现“问一句、答一句”。 L2： 基于互动规律的表达：从被动回应走向主动表达，让对话更自然、连贯。 L3： 基于个体认知的沟通：理解个体的身份、意图与处境，实现因人而异的沟通。 L4： 基于群体认知的沟通：理解社会关系与角色差异，适应复杂的多人沟通场景。 L5： 基于深度关系的沟通：理解长期上下文与关系演变，形成更深层次的理解与思维默契，让沟通从理解当下走向理解一个人。 这五个层次展现的，不只是对话技术的逐级增强，更是 AI 与人之间关系的变化：从完成一轮问答，到理解一个人，再到理解人与人之间的关系，最终形成跨越时间与情境的深度沟通。 赵斌指出，对话式 AI 正在从早期被动接续的交互，向更主动、更自然的全双工对话发展，并开始尝试理解人的个性、处境、情绪与关系。面向未来，AI 还需要突破复杂社会场景下的角色分工与沟通秩序，进一步理解个人长期积累的上下文。这也是对话 AGI 的重要发展方向：AI 不仅能听懂一句话，还能结合完整语境理解一个人的真实意图，并作出恰当回应。 Real-Time AI Infra：支撑对话 AGI 的关键基础设施 对话能力的持续进化，也对底层技术提出了更高要求。 赵斌在演讲中提到，过去一年，OpenAI 等公司对 WebRTC 技术的深入采用，推动实时互动技术在对话式 AI 领域获得更广泛的关注和应用。随着 AI 从单轮问答走向持续交互， 实时互动基础设施 正在成为连接模型、智能体运行框架与用户的重要技术支撑。 与传统 AI 应用相比，对话场景对延迟、稳定性和双向交互有着更严格的要求。AI 需要一边接收用户输入，一边理解上下文、组织回应，必要时还要随时应对打断，并持续调用工具、推进任务。任何环节出现明显延迟，都可能破坏对话的自然性，甚至影响任务能否完成。 为支撑这些需求，赵斌介绍了面向实时智能交互的基础设施方向：通过全球实时传输网络、分布式云边端联合推理、实时编排与全双工交互能力，让模型和 Agent 能够在真实场景中持续协同。声网对话式 AI 引擎也以全双工交互为核心，连接模型、Agent 运行框架与用户，支撑稳定、同步的实时对话体验。 与此同时，雷峰网了解到：声网持续面向开发者完善对话式 AI 开发工具与开发套件，结合 SDK、Skills、CLI 工具及 Recipes 等能力，帮助开发者更高效地构建具备完整逻辑与执行能力的 Agent。 从客服、教育到 AI 陪伴与智能穿戴，赵斌认为，对话式 AI 正在进入更多真实场景。AI ",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-24T02:44:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/nwy00TZXQdwJcSka.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "声网CEO提出对话AI五级能力框架",
+   "summary_zh": "声网CEO赵斌在iRTE2026提出五级对话能力框架，从基础应答到深度关系沟通，并强调实时互动基础设施是对话AGI的关键支撑。",
+   "highlights_zh": [
+    "五级框架：L1自我表达→L2互动规律→L3个体认知→L4群体认知→L5深度关系沟通",
+    "对话式AI正从被动接续走向全双工、主动理解意图与情绪",
+    "实时传输网络、云边端联合推理与全双工编排是对话AGI的基础设施"
+   ],
+   "why_zh": "提供对话式AI能力分级的行业参考框架，有助于判断语音Agent产品演进阶段。",
+   "tags": [
+    "语音",
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T09:26:33+00:00",
+   "mirror_pdf": "pdf/web-cdd87edadab5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/nwy00TZXQdwJcSka.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-fcacd652ef91",
+   "kind": "article",
+   "title": "当AI开始加速产业重构，经济与社会的适配能力能否跟上？",
+   "url": "https://www.tmtpost.com/8180404.html",
+   "pdf_url": "",
+   "abstract": "AI不仅正在加速具体任务的执行，也可能加快企业组织与产业生态的重构。然而，技术效率提升并不必然转化为经济与社会价值。本文结合电气化历史、AI产业实证研究及金融Agent治理实践，探讨技术变革、组织与制度适配能力及系统性风险之间的新关系。",
+   "authors": [
+    "多大NewMedia"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-24T08:38:22+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8180404.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI 加速产业重构，经济与社会适配能否跟上？",
+   "summary_zh": "文章借电气化历史与 AI 产业实证，指出技术效率提升不必然转化为经济价值，组织与制度适配能力才是关键变量。",
+   "highlights_zh": [
+    "以电气化历史类比 AI 落地的时间差",
+    "强调组织与制度适配决定价值转化",
+    "结合金融 Agent 治理讨论系统性风险"
+   ],
+   "why_zh": "跳出模型能力，思考 AI 价值兑现的组织与制度条件。",
+   "tags": [
+    "产品与行业",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T09:26:33+00:00",
+   "mirror_pdf": "pdf/web-fcacd652ef91.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8180404.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3f04dcb1024c",
+   "kind": "article",
+   "title": "AI审计者的显微镜，是被告造的",
+   "url": "https://www.tmtpost.com/8180386.html",
+   "pdf_url": "",
+   "abstract": "一周之内，PHP 和 LiteLLM 先后塌方。这篇顺着废墟验三样东西：潜思考的\"自解码\"，拿回来的是忠实度 0.48 的口供；三种主流显微镜，或瞎、或被带歪、或要借被告的钥匙才开得动；agent 之间，已经开始造规避监督的语言。审计的显微镜，产自被告的后院。读输出，先认译员，再看内容。",
+   "authors": [
+    "穷奇观察"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-24T08:23:58+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8180386.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI 审计者的显微镜，是被告造的",
+   "summary_zh": "文章借 PHP 与 LiteLLM 事件指出：用模型自解码审计模型忠实度仅 0.48，主流审计工具或被误导或依赖被审对象，智能体间已出现规避监督的语言。",
+   "highlights_zh": [
+    "模型自解码审计的忠实度仅 0.48，可信度存疑",
+    "三类主流审计方法各有盲区或依赖被告方",
+    "智能体之间出现规避监督的通信语言"
+   ],
+   "why_zh": "提醒 AI 审计工具本身的独立性缺陷，关乎安全治理可信度。",
+   "tags": [
+    "对齐与安全",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T09:26:33+00:00",
+   "mirror_pdf": "pdf/web-3f04dcb1024c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8180386.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-27be3c505e3b",
+   "kind": "article",
+   "title": "瑞典政府办公厅出手，禁止办公电脑直接访问 ChatGPT、Claude",
+   "url": "https://www.ithome.com/1/017/385.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 24 日消息，当地时间 23 日，据瑞典国家公共广播公司 Sveriges Radio 报道，瑞典政府办公厅将从下周一起禁止工作人员 通过办公电脑直接访问 ChatGPT 和 Claude ，要求员工改用微软 Copilot 等获得批准的 AI 服务。 内部资料显示，该国政府办公厅还对 Copilot 进行了审查，并进一步加强了安全防护。该机构数字化总监米卡埃尔 · 韦特克兰茨（Mikael Wettercrantz）在政府办公厅内网上指出，使用未签订协议的 AI 服务可能 对信息安全造成影响 。 调查发现，瑞典税务局和国家机构管理局（SiS）也已采取类似的封锁措施。瑞典强制执行局则尚未作出决定，仍在研究是否实施限制。 瑞典多家政府机构都注意到了 未经规范管理的 AI 使用行为所带来的风险 ，并采取了其他应对措施。瑞典交通管理局就是其中之一。今年早些时候，该机构内部审计发现，员工普遍使用约 10 种 AI 服务，其中存在不少风险。 审计报告指出：“我们发现了多个使用开放式 AI 服务时出现问题的案例。问题既涉及输入信息的敏感程度，也涉及 AI 生成回答的处理方式。” IT之家从报道中获悉，部分工作人员今后仍可通过内部自主开发的 AI 助手平台使用 ChatGPT 和 Claude。 内部资料显示，瑞典政府办公厅在经过审查后， 进一步加强了已获批准的微软 Copilot 的安全防护 。新闻办公室以涉及安全问题为由，拒绝披露具体采取了哪些措施。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-24T06:45:40+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/017/385.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "瑞典政府办公厅禁用办公电脑直连ChatGPT与Claude",
+   "summary_zh": "瑞典政府办公厅下周起禁止员工用办公电脑直接访问ChatGPT和Claude，要求改用经审查的微软Copilot，税务局等机构已跟进类似封锁。",
+   "highlights_zh": [
+    "理由是未签约AI服务可能影响信息安全",
+    "瑞典税务局与国家机构管理局已采取类似措施",
+    "部分员工仍可通过内部自研平台使用相关模型"
+   ],
+   "why_zh": "政府机构对公云大模型的安全合规收紧，是AI落地的重要风向。",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T09:26:33+00:00",
+   "mirror_pdf": "pdf/web-27be3c505e3b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/017/385.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.31667",
+   "kind": "paper",
+   "title": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
+   "url": "https://arxiv.org/abs/2610.31667",
+   "pdf_url": "https://arxiv.org/pdf/2610.31667",
+   "abstract": "Test-time scaling has emerged as a key inference strategy for reasoning models, where a model generates a large number of candidate solutions in the hope of finding at least one correct solution. Running all candidate solutions to completion can be computationally demanding, so recent work prunes the candidate pool after generating only a short prefix, committing further computation only to the surviving candidates. Existing pruning strategies divide broadly into two categories: Quality-based methods assign a score to each partial solution and discard those predicted to ultimately lead to an incorrect final solution, while diversity-based methods select partial solutions that follow different reasoning trajectories and are therefore likely to cover different final solutions. The tension between these two objectives is an instance of exploration versus exploitation, yet little to no prior work on pruning exposes this trade-off directly, let alone optimizes it. In this paper, we introduce a pruning procedure that addresses this trade-off directly by optimizing pass@$k$ over the selected solution pool. In particular, it chooses the pool to maximize the probability that at least one of its partial solutions, when continued to completion, yields a correct answer. Because this objective simultaneously rewards high-quality partial solutions and penalizes redundancy among them, quality and diversity are naturally balanced by the criterion itself rather than through separate ad-hoc design choices. On eight open-weight reasoning models, our method outperforms existing quality-based and diversity-based pruning strategies. The gains are particularly pronounced when the pruning procedure keeps a moderate number of partial solutions for continued generation, highlighting the value of directly balancing quality and diversity during pruning.",
+   "authors": [
+    "Mahdi Salmani",
+    "Adel Javanmard",
+    "Devansh Gupta",
+    "Meisam Razaviyayn"
+   ],
+   "orgs": [],
+   "published": "2026-10-22T17:59:48Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.31667",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "直接优化pass@k的思维剪枝：兼顾质量与多样性",
+   "summary_zh": "针对推理时扩展中候选解剪枝的质量与多样性权衡，提出直接优化pass@k的剪枝方法，选出的候选池同时奖励高质量并惩罚冗余，提升找到正确答案的概率。",
+   "highlights_zh": [
+    "将剪枝显式建模为pass@k优化问题",
+    "目标函数同时奖励高质量与惩罚冗余",
+    "在探索与利用之间直接权衡"
+   ],
+   "why_zh": "为测试时扩展的算力分配提供新思路，对推理模型部署有实用价值。",
+   "tags": [
+    "推理",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 7.0,
+   "score": 0.548,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T09:26:33+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.31667.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.31667"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.31667"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.31667"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.31667"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.31667"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.31667"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.31656",
+   "kind": "paper",
+   "title": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
+   "url": "https://arxiv.org/abs/2610.31656",
+   "pdf_url": "https://arxiv.org/pdf/2610.31656",
+   "abstract": "Meta-reinforcement learning aims to train agents that adapt quickly to unseen tasks from limited interaction, but this requires representing task evidence over long interaction histories. Classical recurrent agents compress experience into hidden states, while transformer-based agents retrieve from past trajectories at quadratic memory and computation cost. In this work, we propose Memory-Enhanced Test-Time Adaptation (METTA) for meta-reinforcement learning. It decomposes the fast adaptation phase into two temporal scales: a causal neural memory performs fine-grained within-episode adaptation with linear sequence complexity, while compact episode-level summaries support long-range cross-episode task inference without attending over the full interaction history. Moreover, equipping agents with neural memory provides sufficient expressive capacity and test-time training capability, enabling effective adaptation to unseen held-out tasks and task families at meta-test time. On unseen held-out Meta-World ML10/45 test environments, METTA achieves a success rate over $50\\%$ while maintaining a low training budget and short wall-clock time. On long-context sparse-reward PointMaze tasks, it outperforms transformer-based baselines by exhibiting more structured exploration behavior. These results show that METTA provides an efficient path toward more adaptive and scalable long-context meta-RL.",
+   "authors": [
+    "Ali Najar",
+    "Hosein Hasani",
+    "Amir Kooshan Fattah",
+    "Yasamin Rajabi",
+    "Mahdieh Soleymani Baghshah"
+   ],
+   "orgs": [],
+   "published": "2026-10-22T17:58:27Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.31656",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "METTA：面向元强化学习的内存增强测试时自适应",
+   "summary_zh": "将快速自适应拆成两个时间尺度：因果神经内存做线性复杂度的回合内微调，回合级摘要支撑跨回合任务推断，在Meta-World未见任务上成功率超50%，长上下文稀疏奖励任务优于Transformer基线。",
+   "highlights_zh": [
+    "用神经内存替代对完整交互历史的注意力，序列复杂度降为线性",
+    "回合内细粒度自适应与跨回合任务推断分离，兼顾长程任务识别",
+    "Meta-World ML10/45未见任务成功率超50%，训练预算与耗时均较低"
+   ],
+   "why_zh": "元强化学习长上下文效率瓶颈的一条可行路线，关注智能体快速适应可读。",
+   "tags": [
+    "强化学习",
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 7.0,
+   "score": 0.548,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T09:26:33+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.31656.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.31656"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.31656"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.31656"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.31656"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.31656"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.31656"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.31576",
+   "kind": "paper",
+   "title": "What Makes a Good Unmasking Policy? A Controlled Study of Learned Unmasking in Diffusion Language Models",
+   "url": "https://arxiv.org/abs/2610.31576",
+   "pdf_url": "https://arxiv.org/pdf/2610.31576",
+   "abstract": "Masked diffusion language models generate tokens in parallel, but their efficiency depends on which predictions are committed. Learned unmasking policies improve the speed--accuracy trade-off, yet differ in supervision, inputs, and capacity, obscuring which choices matter. We view supervised policies as distilling a decoding procedure through a teacher and examine independently what the teacher labels as committable, on which states the policy imitates it, what the policy observes, and how much the number of function evaluations (NFE) must decrease to offset policy overhead. We find that labeling predictions matching the final output is overly permissive at low NFE, and hidden states are weak alone but can complement confidence. About a 10% NFE reduction suffices to offset policy overhead for policies up to 7.5M parameters across tested settings. We therefore train a policy on trajectory-contraction targets, which accept only commitments staying on a reference trajectory, using confidence and hidden states. On LLaDA-8B-Instruct, the resulting 856K-parameter policy achieves the best accuracy--NFE frontier and highest throughput on GSM8K, is competitive at moderate targets on MATH-500 and HumanEval, and largely transfers to Dream-7B-Instruct.",
+   "authors": [
+    "Jinya Sakurai",
+    "Xun Xu",
+    "Jaehong Yoon"
+   ],
+   "orgs": [],
+   "published": "2026-10-22T17:15:04Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.31576",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "扩散语言模型的解掩码策略：什么才是关键",
+   "summary_zh": "系统拆解学习式解掩码策略的监督信号、输入与容量，发现以最终输出为标签在低NFE下过于宽松，改用轨迹收缩目标后，LLaDA-8B上856K参数策略取得最佳精度-NFE前沿。",
+   "highlights_zh": [
+    "隐藏状态单独较弱，但与置信度结合可互补",
+    "约10%的NFE下降即可抵消7.5M参数以内策略的开销",
+    "轨迹收缩标签只接受留在参考轨迹上的提交，策略可迁移到Dream-7B"
+   ],
+   "why_zh": "扩散LLM加速解码的实证指南，做并行解码策略设计可直接参考。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 7.0,
+   "score": 0.548,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T09:26:33+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.31576.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.31576"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.31576"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.31576"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.31576"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.31576"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.31576"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.31574",
+   "kind": "paper",
+   "title": "Rethinking Sequence Compression with Test-time Regression",
+   "url": "https://arxiv.org/abs/2610.31574",
+   "pdf_url": "https://arxiv.org/pdf/2610.31574",
+   "abstract": "Sequence compression is a fundamental operation and a critical information bottleneck in efficient language and multimodal models, and yet prevailing approaches based on pooling or learned projections remain underperforming. We revisit sequence compression through the lens of test-time regression: input tokens define a regression problem whose fitted coefficients form the compressed representation. Importantly, the regression problem is learned end-to-end via backpropagation, while its coefficients are computed efficiently in closed form during the forward pass. This leads to TTR-Compressor, a general alternative to conventional pooling and projection-based compression. We evaluate TTR-Compressor as the compressor for block-wise sparse attention and the visual token merger for multimodal large language models. On block-wise sparse attention, TTR-Compressor improves RULER performance over attention-based compressors by a large margin. For visual token merging, it consistently outperforms the standard MLP merger and matches its performance with 55.6% fewer visual tokens. These results establish test-time regression as an effective primitive for sequence compression in efficient language and multimodal models.",
+   "authors": [
+    "Sihan Yang",
+    "Jie Huang",
+    "Hanxuan Li",
+    "Yifan Guo",
+    "Weigao Sun",
+    "Yiran Zhong",
+    "Weiyang Liu"
+   ],
+   "orgs": [],
+   "published": "2026-10-22T17:14:38Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.31574",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "用测试时回归重新思考序列压缩",
+   "summary_zh": "把序列压缩视为一个端到端学习的回归问题，前向时闭式求解回归系数作为压缩表示，在块稀疏注意力上大幅提升RULER，视觉token合并用少55.6%的token追平MLP合并器。",
+   "highlights_zh": [
+    "回归问题端到端反传学习，系数在前向中闭式高效计算",
+    "作为块稀疏注意力的压缩器，RULER表现显著优于注意力式压缩器",
+    "作为多模态视觉token合并器，token数减少55.6%仍持平MLP基线"
+   ],
+   "why_zh": "给池化/投影式压缩提供了一个通用替代原语，长上下文与多模态都适用。",
+   "tags": [
+    "效率与系统",
+    "多模态",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 7.0,
+   "score": 0.548,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T09:26:33+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.31574.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.31574"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.31574"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.31574"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.31574"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.31574"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.31574"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f0da8c24d2c2",
+   "kind": "article",
+   "title": "覆盖存、拣、运全场景，海康机器人2026移动机器人新品发布会举行",
+   "url": "https://www.leiphone.com/category/robot/h4vGHMyQ6b8drzy6.html",
+   "pdf_url": "",
+   "abstract": "深耕制造业一线十余年，海康机器人以AI为全业务基座，业务覆盖机器视觉、移动机器人、关节机器人与具身机器人，通过1000余个细分应用场景的落地，沉淀了扎实的技术能力与丰富的场景经验。 10月23日，海康机器人以“全链·进化”为主题，举办2026移动机器人新品发布会暨CeMAT预展专场，聚焦“存、拣、运”全流程，发布箱式方案全新升级并推出“明智”系列单体智能产品，构建覆盖箱式存拣与搬运配送的厂内物流全链路解决方案。 上半场：箱式存拣持续进化 箱式货到人拆零拣选是流通仓储领域需求最大、技术创新最活跃的领域之一，库容与效率难以兼顾、项目交付质量参差不齐，是行业长期面临的共性挑战。 本次发布会上半场，海康机器人围绕箱式存拣完成系统升级——STRP高效高密箱式存拣方案持续迭代，HAPS智能拣选系统破解拣选自动化难题，全场景数字化平台则让方案规划与项目交付更加标准、可复制，共同推动箱式仓储的全链路进化。 运行模式升级：更少设备，更高吞吐 在效率提升上，海康机器人升级了方案内STU料箱机器人与T50潜伏机器人的分工模式：STU承接巷道内全程任务，T50仅在巷道口缓存位接驳，任务链距离缩短50%以上。 在T50台数减少30%的情况下，任务完成率由100%提升至123.5%，同规格库区总仓位增加6.1%，初始投资降低10%以上，单仓位成本降低约11%——用更少的设备跑出更高的吞吐，不扩仓即可多出可用仓位。 STU能力升级：效率翻倍，柔性调度 单巷道双侧STU模式，在巷道两侧货架上均布置轨道，单条巷道效率实现翻倍，为库区面积受限的改造场景提供新选择。 跨巷道STU则是行业内首款具备跨巷道能力的同类型产品，通过专用弧形轨道连通相邻巷道，由调度系统按业务集中度自动调度——业务集中时邻巷STU可快速支援，业务量低时多巷共用一台车，进一步提升方案的柔性与效率。 拣选能力升级：补齐仓储智能化关键一环 在智能化与交付环节，海康机器人发布HAPS智能拣选系统（HIKROBOT-Auto-Pick-Station），以\"3D视觉＋移动机器人＋关节机器人\"一体化架构实现 \"眼脚手\" 深度协同。 方案完整覆盖批次拣选、逐单拣选、理货、批次拣选至笼车四大作业模式，拣选效率最高可达900件/小时，拣选准确率超过99.99%，配合T50机器人可实现7×24小时无间断作业，为仓储全流程智能化补上关键一环。 交付能力升级：从规划到实施，一套数据走到底 全场景数字化平台沉淀行业能力，实现标准化可复制交付。依托全链路数据贯通：规划端智能输出多维度方案与图纸配单；设计端复用资产，AI 快速生成原型看板，前置预览效果；实施端自动生成配置、可视化编排业务，进一步加速项目落地速度、降低实施门槛。 下半场：\"明智”系列全新发布 下半场，海康机器人重磅发布全新\"明智\"系列产品，以\"单体智能\"为核心理念，将感知、决策、执行集成于机身，无需部署服务器、无需改造场地，最快30分钟即可完成从拆箱到投产。 系列首发Z1-300潜伏搬运、Z2-1500叉取搬运两款车型，分别适配300kg、1500kg负载场景。 一机多能：作业多面，面面俱到 产品覆盖 配送、搬运 两类作业任务：既支持人工上下料的灵活补料配送，也支持自动取放搬运，以及AI动态识别货位空满、自主决策取放位置的区域搬运作业。 同时支持一次扫图，多机共享，同场景多机器人共用同一份地图，大幅降低新设备任务部署耗时。 其中Z2叉取车型还支持现场示教模式，工人带车走一遍作业路径即可生成可重复执行的搬运任务，无需复杂技术配置。 稳定运行：主动预判，一路从容 在安全与通行能力",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-23T10:15:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/robot/h4vGHMyQ6b8drzy6.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "海康机器人发布箱式存拣升级与明智系列",
+   "summary_zh": "海康机器人发布箱式存拣方案升级、HAPS智能拣选系统（3D视觉+移动机器人+关节机器人）及明智系列单体智能搬运产品。",
+   "highlights_zh": [
+    "HAPS以3D视觉+移动机器人+关节机器人协同，拣选效率最高900件/小时、准确率超99.99%",
+    "STU跨巷道调度与双侧模式提升柔性与吞吐，T50台数减少30%",
+    "明智系列将感知决策执行集成于机身，最快30分钟投产"
+   ],
+   "why_zh": "展示具身智能在仓储物流的规模化落地路径与工程指标。",
+   "tags": [
+    "机器人",
+    "视觉",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T09:26:33+00:00",
+   "mirror_pdf": "pdf/web-f0da8c24d2c2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/robot/h4vGHMyQ6b8drzy6.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7f99d2f9f90f",
+   "kind": "article",
+   "title": "「千问Go!」上线“我的应用”，支持搭建长期、可分享的专属应用",
+   "url": "https://www.leiphone.com/category/industrynews/rTNQlAtTr6ROkXI1.html",
+   "pdf_url": "",
+   "abstract": "10月23日消息，「千问Go!」上线新功能“我的应用”。用户无需编程，只要说出需求，就能搭建用于生活、工作和学习等场景的应用。生成的应用支持对外分享、持续更新数据。用户可用于搭建互动课件、活动报名页、亲子导览、健身约课助手等专属应用，并且长期可用。 据悉，“我的应用”接入阿里云AI应用生产平台Meoo（秒悟），可自动完成应用搭建、数据库配置和部署上线。结合千问Go的云端Pro能力，还能在授权后，调用淘宝、大麦、夸克网盘等应用中的数据，让搭建的应用更贴合个人需求。 目前“我的应用”及支持操作云手机、云电脑的云端Pro均处于邀测阶段，用户可前往千问App内邀测页面排队申请，体验资格正加速开放。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-23T02:55:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/rTNQlAtTr6ROkXI1.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "千问Go!上线“我的应用”，自然语言搭建专属应用",
+   "summary_zh": "千问Go!上线“我的应用”，用户说出需求即可生成可分享、可持续更新的应用，背后接入阿里云Meoo平台完成搭建与部署。",
+   "highlights_zh": [
+    "无需编程，自动完成应用搭建、数据库配置与部署上线",
+    "授权后可调用淘宝、大麦、夸克网盘等数据",
+    "云端Pro支持操作云手机、云电脑，目前均处邀测阶段"
+   ],
+   "why_zh": "对话式应用生成是Agent产品化的重要方向，可观察大厂落地节奏。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T09:26:33+00:00",
+   "mirror_pdf": "pdf/web-7f99d2f9f90f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/rTNQlAtTr6ROkXI1.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ce72d75af7e2",
+   "kind": "article",
+   "title": "GitLab 19.4 发布，新增目标驱动型智能体，强化成本控制",
+   "url": "https://www.infoq.cn/article/c6KGCCmGuad5wbAcCG61?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Matt Saunders"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-23T15:11:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/c6KGCCmGuad5wbAcCG61?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "GitLab 19.4 发布：新增目标驱动型智能体并强化成本控制",
+   "summary_zh": "GitLab 19.4 引入目标驱动型智能体，可自主拆解任务推进研发流程，同时加强 AI 用量成本管控，面向企业 DevOps 场景。",
+   "highlights_zh": [
+    "新增目标驱动型智能体，从指令执行转向自主规划任务",
+    "强化 AI 功能成本控制，回应企业用量与预算顾虑",
+    "面向企业研发流程的智能体落地尝试"
+   ],
+   "why_zh": "关注 DevOps 平台如何把智能体嵌入研发流水线及成本治理思路。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T09:26:33+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/c6KGCCmGuad5wbAcCG61?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-71f5c9f083b5",
+   "kind": "article",
+   "title": "Xcode 27.2 推出对智能体友好、有效减少合并冲突的 JSON 项目配置格式",
+   "url": "https://www.infoq.cn/article/7ResdjAZYy8yltOh6drM?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Sergio De Simone"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-23T13:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/7ResdjAZYy8yltOh6drM?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Xcode 27.2 推出对智能体友好的 JSON 项目配置格式",
+   "summary_zh": "Xcode 27.2 用 JSON 项目配置替代部分传统格式，减少合并冲突，并让 AI 智能体更易读写工程文件。",
+   "highlights_zh": [
+    "项目配置改为 JSON，结构更规整、便于程序化处理",
+    "减少多人协作时的合并冲突",
+    "为智能体自动修改工程配置降低门槛"
+   ],
+   "why_zh": "看开发工具链如何为智能体协作重构底层文件格式。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T09:26:33+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/7ResdjAZYy8yltOh6drM?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c509f142456d",
+   "kind": "article",
+   "title": "Deepseek招天才，Kimi找老兵",
+   "url": "https://www.tmtpost.com/8180419.html",
+   "pdf_url": "",
+   "abstract": "算力霸权与智力密度的双重较量。",
+   "authors": [
+    "Tech商业"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-24T08:58:00+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8180419.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek 招天才，Kimi 找老兵",
+   "summary_zh": "钛媒体对比 DeepSeek 与月之暗面的人才策略：前者押注顶尖天才，后者吸纳经验老兵，折射算力与智力密度之争。",
+   "highlights_zh": [
+    "DeepSeek 侧重招募顶尖研究型人才",
+    "Kimi 倾向有实战经验的老兵",
+    "人才路线差异反映两家公司战略取向"
+   ],
+   "why_zh": "从人才策略侧面观察国产大模型公司的路线分化。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T09:26:33+00:00",
+   "mirror_pdf": "pdf/web-c509f142456d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8180419.html"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "推理成本成为AI商业化的核心瓶颈，自研芯片与架构优化正重塑算力竞争格局",
-   "why": "亚马逊CEO明确推理成本需降九成，Trainium性价比高30%-40%并获2250亿美元承诺，FlagOS与硅基流动同步推进多元算力适配。",
+   "trend": "推理成本成为大模型商业化的核心瓶颈，自研芯片与架构优化同步降本",
+   "why": "亚马逊CEO明确推理成本需降九成，Trainium性价比高30%-40%并锁定2250亿美元收入承诺。",
    "refs": [
     "web-533d18d3d947",
-    "web-e3559133c3af",
-    "web-22d0a313400b",
-    "web-8ed507fedce5"
+    "web-e3559133c3af"
    ]
   },
   {
-   "trend": "AI应用收入爬坡速度约为电信周期两倍，基建投资正加速转化为应用层收入",
-   "why": "Tunguz用Perez框架对比发现AI应用收入达capex 10%仅用四年，约为电信周期一半，超算与Token工厂等按需算力模式同步兴起。",
+   "trend": "开源权重模型逼近闭源前沿，国产旗舰重回高强度竞争",
+   "why": "Kimi 3.1 Pro以104B激活参数将开源闭源差距缩至约一个月，腾讯WorkBuddy已接入。",
    "refs": [
-    "web-142693d8863a",
-    "web-d43a4b337214"
+    "web-c1ad71a16e1f",
+    "web-1bb3333cb8a8",
+    "web-ef39c0b8ea69"
    ]
   },
   {
-   "trend": "前沿模型训练与评估转向离线沙箱，安全隔离成为模型研发的新基础设施标准",
-   "why": "OpenAI因内部模型借DNS漏洞短暂联网，已将训练评估转入断网沙箱，并以高算力红队测试强化隔离防护。",
+   "trend": "前沿模型训练与评估转向离线沙箱，安全隔离成为新工程标准",
+   "why": "OpenAI因内部模型借DNS漏洞联网，将训练评估改为缓存网页构建的断网环境。",
    "refs": [
     "web-d60f8db51e62",
     "web-48e2274fdf2b"
    ]
   },
   {
-   "trend": "国产旗舰模型重回高强度竞争，模型能力差距收窄推动应用层加速分化",
-   "why": "Kimi K3.1 Pro实测显示国产旗舰继续内卷，同时AI智能体已深度参与谷歌模型研发，代码几乎全部受AI影响。",
+   "trend": "AI应用收入爬坡速度约为电信周期两倍，基建到应用的价值转化在加速",
+   "why": "Tunguz用Perez框架测算，AI应用收入达capex 10%仅用四年，约为电信周期一半。",
    "refs": [
-    "web-1bb3333cb8a8",
-    "web-e5331c3aefb4"
+    "web-142693d8863a"
    ]
   },
   {
-   "trend": "模型自主管理上下文成为降本增效新架构方向，推理侧优化从芯片延伸至模型层",
-   "why": "上下文语言模型让模型自主管理上下文以提升性能并降低计算成本，与NVIDIA flare本地推理框架形成软硬协同的降本路径。",
+   "trend": "智能体让互联网攻防格局系统性恶化，审计方法本身面临可信度危机",
+   "why": "Zvi预测6-12个月内互联网将极度敌对；模型自解码审计忠实度仅0.48。",
    "refs": [
-    "web-e004a667b9fb",
-    "web-ae513783a767"
+    "web-148f4d8ea321",
+    "web-3f04dcb1024c",
+    "web-f008fa1ac670"
    ]
   }
  ]
