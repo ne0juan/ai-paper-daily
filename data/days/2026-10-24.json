@@ -914,6 +914,59 @@
    "mt": false
   },
   {
+   "id": "web-8cd0995ef5c1",
+   "kind": "article",
+   "title": "anthropics/sandbox-runtime",
+   "url": "https://github.com/anthropics/sandbox-runtime",
+   "pdf_url": "",
+   "abstract": "Star anthropics / sandbox-runtime A lightweight sandboxing tool for enforcing filesystem and network restrictions on arbitrary processes at the OS level, without requiring a container.\nREADME: # Anthropic Sandbox Runtime (srt) A lightweight sandboxing tool for enforcing filesystem and network restrictions on arbitrary processes at the OS level, without requiring a container. `srt` uses native OS sandboxing primitives (`sandbox-exec` on macOS, `bubblewrap` on Linux) and proxy-based network filtering. It can be used to sandbox the behaviour of agents, local MCP servers, bash commands and arbitrary processes. > **Beta Research Preview** > > The Sandbox Runtime is a research preview developed for [Claude Code](https://www.claude.com/product/claude-code) to enable safer AI agents. It's being made available as an early open source preview to help the broader ecosystem build more secure agentic systems. As this is an early research preview, APIs and configuration formats may evolve. We welcome feedback and contributions to make AI agents safer by default! ## Installation ```bash npm install -g @anthropic-ai/sandbox-runtime ``` ## Basic Usage ```bash # Network restrictions $ srt \"curl anthropic.com\" Running: curl anthropic.com ... # Request succeeds $ srt \"curl example.com\" Running: curl example.com Connection blocked by network allowlist # Request blocked # Filesystem restrictions $ srt \"cat README.md\" Running: cat README.md # Anthropic Sandb... # Current directory access allowed $ srt \"cat ~/.ssh/id_rsa\" Running: cat ~/.ssh/id_rsa cat: /Users/ollie/.ssh/id_rsa: Operation not permitted # Specific file blocked ``` ## Overview This package provides a standalone sandbox impl",
+   "authors": [],
+   "orgs": [
+    "anthropics"
+   ],
+   "published": "2026-10-24T14:24:45+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/anthropics/sandbox-runtime",
+     "signal": "★ 今日 +592 · TypeScript",
+     "metric": 592
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Anthropic 开源轻量沙箱运行时 srt",
+   "summary_zh": "Anthropic 发布 srt，用 macOS sandbox-exec 与 Linux bubblewrap 在 OS 层限制任意进程的文件与网络访问，无需容器，专为 Claude Code 等智能体安全运行设计。",
+   "highlights_zh": [
+    "无需容器，直接调用操作系统原生沙箱原语",
+    "支持网络白名单与文件系统限制，可约束 Agent、MCP 服务与 bash 命令",
+    "以 Beta 研究预览开源，API 与配置格式仍可能变化"
+   ],
+   "why_zh": "头部厂商给出智能体安全落地的官方基础设施方案，值得关注其设计取舍。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.6819,
+   "score_llm": 8.0,
+   "score": 0.7528,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T14:24:45+00:00",
+   "mirror_pdf": "pdf/web-8cd0995ef5c1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/anthropics/sandbox-runtime"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-c1ad71a16e1f",
    "kind": "article",
    "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
@@ -964,6 +1017,172 @@
     {
      "label": "原文",
      "url": "https://latent.space/p/ainews-kimi-31/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0ce6777c82f0",
+   "kind": "article",
+   "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+   "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-24T05:49:57Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50218633",
+     "signal": "325 pts",
+     "metric": 325
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "黑客逆向三星电视，发现内置 AI 在监听",
+   "summary_zh": "研究者逆向三星电视固件，发现其内置 AI 功能存在监听行为，相关 OpenAI 账号随后被停用，引发对端侧 AI 隐私边界的讨论。",
+   "highlights_zh": [
+    "通过固件逆向发现电视端 AI 的数据采集行为",
+    "事件牵出 OpenAI 账号被封，链条耐人寻味",
+    "凸显消费级 AI 设备的隐私与合规风险"
+   ],
+   "why_zh": "端侧 AI 隐私问题的具体案例，对做消费级 AI 硬件与合规的人有警示价值。",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5913,
+   "score_llm": 7.0,
+   "score": 0.6565,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T14:24:45+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50218633"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9174a0a001c9",
+   "kind": "article",
+   "title": "Swedish government offices to ban ChatGPT and Claude",
+   "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-23T11:39:54Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50207405",
+     "signal": "321 pts",
+     "metric": 321
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "瑞典政府机构禁用 ChatGPT 与 Claude",
+   "summary_zh": "瑞典政府办公机构宣布禁止使用 ChatGPT 和 Claude，反映欧洲公共部门对数据主权与合规风险的收紧态度。",
+   "highlights_zh": [
+    "政府层面直接禁用主流商用大模型",
+    "与欧洲数据保护与主权云趋势一致",
+    "对面向政企市场的 AI 厂商构成合规压力"
+   ],
+   "why_zh": "公共部门采购风向标，做政企 AI 出海需关注此类监管信号。",
+   "tags": [
+    "产品与行业",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.5907,
+   "score_llm": 7.0,
+   "score": 0.6563,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T14:24:45+00:00",
+   "mirror_pdf": "pdf/web-9174a0a001c9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50207405"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d1a3b4fa5d93",
+   "kind": "article",
+   "title": "Build Your Own Reasoning Model: A Full Video Course",
+   "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+   "pdf_url": "",
+   "abstract": "Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch.",
+   "authors": [
+    "Sebastian Raschka, PhD"
+   ],
+   "orgs": [
+    "Sebastian Raschka"
+   ],
+   "published": "2026-10-24T11:14:32+00:00",
+   "sources": [
+    {
+     "name": "Sebastian Raschka",
+     "authority": 0.85,
+     "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "LLM 研究者，架构解读",
+   "title_zh": "从零构建推理模型：11小时实战课程",
+   "summary_zh": "Sebastian Raschka 发布11小时视频课程，用 Python 和 PyTorch 讲解推理模型评测、推理时扩展、强化学习与蒸馏的完整实现路径。",
+   "highlights_zh": [
+    "覆盖评测、推理时扩展、强化学习、蒸馏四大环节",
+    "全程代码实操，基于 Python 与 PyTorch",
+    "适合想深入理解推理模型训练细节的工程师"
+   ],
+   "why_zh": "想动手复现推理模型训练全流程的从业者，这是一份难得的系统教程。",
+   "tags": [
+    "推理",
+    "强化学习",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T14:24:45+00:00",
+   "mirror_pdf": "pdf/web-d1a3b4fa5d93.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models"
     }
    ],
    "mt": false
@@ -1183,6 +1402,189 @@
    "mt": false
   },
   {
+   "id": "arxiv-2610.31572",
+   "kind": "paper",
+   "title": "On the Token Collapse Phenomenon in Textual Graph Soft Prompting",
+   "url": "https://arxiv.org/abs/2610.31572",
+   "pdf_url": "https://arxiv.org/pdf/2610.31572",
+   "abstract": "Recent methods for injecting graph structure into LLM prompts include graph soft prompting, in which a graph neural network (GNN) learns graph-specific tokens that capture relational information among entities in textual prompts. G-Retriever combines graph soft prompts with a verbalized description of the same graph to strengthen the textual prompt signal. We conduct an in-depth analysis of G-Retriever and uncover a pathological behavior we term token collapse. Across three benchmarks, three graph encoders, two LLM families, and both frozen and LoRA-adapted models, G-Retriever's graph tokens become almost indistinguishable across inputs. We provide evidence that the same failure is inherited by subsequent methods, even with multi-token pooling. Under the standard setup, swapping a token with the dataset mean, a token from another example, or one derived from a corrupted graph produces no resolved answer-level effect in accuracy. Moreover, a learned constant prompt that never accesses the graph matches or surpasses G-Retriever on all three benchmarks. These findings indicate that, rather than conveying graph content as intended, the collapsed token functions primarily as a generic soft prompt. We also examine conditions linked to this collapse and propose a two-stage procedure that yields non-collapsed tokens while maintaining competitive performance in most cases. However, token variability alone does not prove that the model uses graph information: via interventions and decoding probes, we show that depending on the configuration, a token can reflect the question, an answer prior, or graph-derived content that the LLM may or may not use. Overall, our results offer a practical approach to evaluating graph-token alignment rather than inferring it from task accuracy alone. Code to reproduce our experiments is available at https://github.com/difra100/Token_Collapse_KGQA.",
+   "authors": [
+    "Andrea Giuseppe Di Francesco",
+    "Rishabh Jain",
+    "Franco Maria Nardini",
+    "Nicola Tonellotto",
+    "Pietro Liò",
+    "Fabrizio Silvestri"
+   ],
+   "orgs": [],
+   "published": "2026-10-22T17:13:03Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.31572",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "图软提示中的Token坍缩现象",
+   "summary_zh": "研究发现G-Retriever的图token在不同输入间几乎无差别，退化为通用软提示；用数据集均值或损坏图替换token对准确率无影响。",
+   "highlights_zh": [
+    "跨3基准、3图编码器、2类LLM家族复现坍缩",
+    "学习到的常量提示可匹敌甚至超过G-Retriever",
+    "提出两阶段方法缓解坍缩并保持竞争力"
+   ],
+   "why_zh": "揭示图增强LLM方法的评测假象，对图RAG与软提示研究是重要警示。",
+   "tags": [
+    "大模型",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T14:24:45+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.31572.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.31572"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.31572"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.31572"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.31572"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.31572"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.31572"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e2469c92ba3c",
+   "kind": "article",
+   "title": "Nutlope/hallmark",
+   "url": "https://github.com/Nutlope/hallmark",
+   "pdf_url": "",
+   "abstract": "Star Nutlope / hallmark Anti-AI-slop design skill for Claude Code, Cursor, and Codex.\nREADME: # Hallmark **A design skill for Claude Code, Codex, Cursor and OpenCode that refuses to look AI-generated.** [usehallmark.com](https://www.usehallmark.com) · forty-eight themes · custom on request · redesign and audit by name Made by Together AI. Hallmark holds a hard floor and then gets out of the way. It deals three themes from a catalog of forty-eight materials, builds the page around what the visitor came to do, and lints the result in a real browser against the tells that read as machine-made: the eyebrow above every heading, tracked-capital labels, one coloured word in a headline, a page of empty frames or nothing but photographs, a hero that misses its screen, an email sign-up at the end of every page, a form that says thanks without sending anything. A fresh-context reviewer gets the last word. The gates come in tiers. The **Floor** never ships (contrast, focus, reduced motion, invented facts, a broken phone layout). **Reflex** gates are the defaults a model falls into; a build with a reason may overrule one on the record. **Finish** checks are craft detail that never blocks a ship. ## New in v2 - **Forty-eight themes.** Each is a material (paper, type, colour, surfaces, its own components and texture) with a picture of a finished page, and the build lays out its own page in it. - **Built from the job.** A booking page books, a shop sells, a newsletter subscribes: the action sits where the category puts it, and the page ends on it. - **Custom.** Ask for a custom page",
+   "authors": [],
+   "orgs": [
+    "Nutlope"
+   ],
+   "published": "2026-10-24T14:24:45+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/Nutlope/hallmark",
+     "signal": "★ 今日 +567 · CSS",
+     "metric": 567
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Hallmark：拒绝 AI 味的设计技能",
+   "summary_zh": "Together AI 推出 Hallmark，为 Claude Code、Cursor、Codex 提供设计技能，从 48 套主题中选材并在真实浏览器中检查「机器感」痕迹，分三层门禁把关。",
+   "highlights_zh": [
+    "内置 48 套主题，按页面目标自动选材布局",
+    "在真实浏览器中 lint 常见 AI 生成痕迹",
+    "门禁分 Floor/Reflex/Finish 三级，Floor 不可越过"
+   ],
+   "why_zh": "展示了用技能+校验门禁约束生成质量的工程思路，对做 AI 前端工具的人有参考。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6001,
+   "score_llm": 6.0,
+   "score": 0.6,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T14:24:45+00:00",
+   "mirror_pdf": "pdf/web-e2469c92ba3c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/Nutlope/hallmark"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-15c1f8ef7a58",
+   "kind": "article",
+   "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+   "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+   "pdf_url": "",
+   "abstract": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-10-23T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 与波兰 NASK 合作推进 AI 安全",
+   "summary_zh": "OpenAI 与波兰国家研究机构 NASK 达成合作，围绕 AI 安全、安保与技术研究共建防护措施，增强数字生态韧性。",
+   "highlights_zh": [
+    "合作聚焦 AI 安全与安保技术研究",
+    "面向欧洲数字生态的防护能力建设",
+    "属于 OpenAI 政府与机构合作布局的一部分"
+   ],
+   "why_zh": "关注 AI 安全治理与政府合作动向的读者可了解 OpenAI 在欧洲的落地方式。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 6.0,
+   "score": 0.576,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T14:24:45+00:00",
+   "mirror_pdf": "pdf/web-15c1f8ef7a58.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-cdd87edadab5",
    "kind": "article",
    "title": "iRTE2026：对话 AI 如何迈向 AGI？声网CEO赵斌给出五级对话能力框架",
@@ -1395,6 +1797,111 @@
     {
      "label": "原文",
      "url": "https://www.ithome.com/1/017/385.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-36c467b57d34",
+   "kind": "article",
+   "title": "显卡一日一价：英伟达停产传闻搅动华强北，RTX 5090 被炒至 6 万元",
+   "url": "https://www.ithome.com/1/017/440.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 24 日消息，虽然英伟达予以否认，但关于“RTX 5090 停产”的传闻正在华强北引发一轮价格异动。 据 21 财经今日报道，RTX 50 系列高端型号渠道报价“一日一价”，旗舰 RTX 5090 从官方初始零售价约 1.5 万至 1.6 万元，被炒至 5.5 万至 6 万元；RTX 5080 从初始售价约 8000 元涨至 1.7 万元。 在华强北从业 16 年的金硕利电脑经理熊容容表示，半个月前 RTX 5080 渠道价还在 1.2 万元左右，短期上涨了 4000 至 5000 元；RTX 5090 此前约 3 万元，随后直接攀升至 5 万元级别。与此同时，走货主力型号 RTX 5060 也从约 2300 元涨至 3600 元以上。同一型号日内或隔日价差可达数百元，商户甚至不敢轻易出具书面报价单。 市场此前流传英伟达可能停止为 RTX 50 系列供应 GB202 芯片，将产能转向 RTX PRO 专业显卡。但这一说法已遭到英伟达官方否认。 IT之家此前报道，英伟达个人计算业务高级副总裁 Jeff Fisher 于 10 月 17 日在台北出席 RTX Spark 发布活动后回应称，英伟达没有停产 GeForce RTX 5090 系列，后续将继续供货；但他同时承认产能确实受到限制，供应紧张是整个行业面临的全球性问题，英伟达会全力将产品推向市场并继续发货。 比“停产”更准确的表述来自英伟达开发者关系副总裁艾达 · 凯塔。她在首尔 RTX Spark 发布会后对媒体表示，消费级 GPU 短缺的根源在于内存供应不足，“这不是英伟达能够控制的事情”。 据 EET-China 报道，消费级显卡所使用的 GDDR7 显存与 AI 服务器所需的高带宽内存共享先进制程产能，三星、SK 海力士、美光三大存储原厂已将 70% 至 90% 的先进产能优先分配给利润更高的 HBM，2026 年 AI 数据中心预计占据全球内存产能的约 70%。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-24T10:00:25+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/017/440.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "RTX 5090被炒至6万，AI挤占显存产能",
+   "summary_zh": "英伟达否认停产RTX 5090，但GDDR7产能被HBM挤占导致消费级显卡价格暴涨，5090渠道价炒至6万元。",
+   "highlights_zh": [
+    "RTX 5090从1.5万炒至5.5-6万，5080翻倍至1.7万",
+    "根源是三星/SK海力士/美光将70-90%先进产能优先给HBM",
+    "2026年AI数据中心预计占全球内存产能约70%"
+   ],
+   "why_zh": "AI算力需求挤压消费级硬件供给，是理解算力通胀的关键信号。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T14:24:45+00:00",
+   "mirror_pdf": "pdf/web-36c467b57d34.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/017/440.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d5dfb55b0129",
+   "kind": "article",
+   "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+   "url": "https://huggingface.co/blog/allenai/litpivot",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-10-23T16:15:50+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/allenai/litpivot",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "LitPivot：在文献版图中动态定位研究想法",
+   "summary_zh": "Hugging Face 博客介绍 LitPivot，通过动态上下文化在文献全景中定位研究想法，辅助科研选题与文献梳理。",
+   "highlights_zh": [
+    "面向科研场景的文献上下文定位方法",
+    "帮助研究者发现想法在文献版图中的位置",
+    "属于 AI 辅助科研工具方向"
+   ],
+   "why_zh": "做科研选题或文献综述的读者可了解 AI 辅助研究的新工具思路。",
+   "tags": [
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 6.0,
+   "score": 0.552,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T14:24:45+00:00",
+   "mirror_pdf": "pdf/web-d5dfb55b0129.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/allenai/litpivot"
     }
    ],
    "mt": false
@@ -1709,6 +2216,265 @@
    "mt": false
   },
   {
+   "id": "arxiv-2610.31606",
+   "kind": "paper",
+   "title": "How Ground Truth Shapes Retrieval Scores: Evidence-Aware Evaluation of a Retrieval-Augmented Generation System for Breast Lesions",
+   "url": "https://arxiv.org/abs/2610.31606",
+   "pdf_url": "https://arxiv.org/pdf/2610.31606",
+   "abstract": "Purpose: To describe an evidence-aware retrieval evaluation protocol for a clinical retrieval-augmented generation (RAG) system over breast lesion management literature, addressing the dependence of retrieval scores on annotation coverage. Methods: An 18-document corpus and an 18-query development benchmark, with one Yes/No or WH-question per document, were used. Retrieval combined dense embeddings, BM25, and cross-encoder reranking. Chunk sizes of 128 to 1024 tokens, overlaps of 0 to 20%, and four retriever configurations were evaluated. Relevance was defined by evidence spans mapped to all containing chunks, treating overlapping chunks with equivalent evidence as relevant. Retrieval was evaluated using R-Precision, Recall@K, MRR, and nDCG@K. Separately, generation was assessed on a 512-token index at K=1 to 5 using DeepEval claim-level metrics, with deepseek-v4-pro as the LLM judge, and BLEU/ROUGE metrics. Results: The selected hybrid retriever, using 384-token chunks and 20% overlap, retrieved accepted evidence in the top three results for 17 of 18 queries. Recall@3, R-Precision, MRR@3, and nDCG@3 each reached 0.94. Ground-truth curation increased evidence spans from 25 to 37 and accepted chunk targets from 36 to 51 without changing retrieval rankings. Conclusion: Cross-encoder reranking achieved the highest retrieval scores. Expanded relevance annotations increased recognized evidence without changing rankings, highlighting annotation sensitivity. The small development set and retrieval-informed curation require independent validation, including radiologist assessment of evidence sufficiency.",
+   "authors": [
+    "Miguel Mochizuki Silva",
+    "Samuel Ismael",
+    "Mateus C. Dias",
+    "Thaís Gaudêncio",
+    "Yuri Malheiros",
+    "Barufaldi"
+   ],
+   "orgs": [],
+   "published": "2026-10-22T17:36:14Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.31606",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "标注覆盖度如何扭曲RAG检索评分",
+   "summary_zh": "研究指出RAG检索分数受标注覆盖度影响：扩充证据标注后检索排名不变但分数上升，提出证据感知的评测协议。",
+   "highlights_zh": [
+    "18文档/18查询的乳腺病变临床RAG基准",
+    "cross-encoder重排配置下Recall@3等指标达0.94",
+    "证据标注从25扩至37条，排名不变但分数变化"
+   ],
+   "why_zh": "提醒RAG评测分数可能被标注覆盖度虚高，评测方法值得借鉴。",
+   "tags": [
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 7.0,
+   "score": 0.548,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T14:24:45+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.31606.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.31606"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.31606"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.31606"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.31606"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.31606"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.31606"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.31558",
+   "kind": "paper",
+   "title": "Diffusion Language Models for Perplexity-Aware Black-Box Attacks",
+   "url": "https://arxiv.org/abs/2610.31558",
+   "pdf_url": "https://arxiv.org/pdf/2610.31558",
+   "abstract": "\\emph{Continuous-space} attacks find prompts that trigger malicious behaviors, such as overthinking, in black-box LLMs by sampling or optimizing over a low-dimensional Gaussian latent space and decoding it to text through a \\emph{random mapping} and nearest-token lookup. Because the random mapping is not learned from language, its prompts can be highly unnatural, and as such easily detectable through input guardrails, and the risk estimates they yield are not grounded in natural prompts. In this paper, we demonstrate that the same continuous latent-space framework can be coupled directly to a learned generative distribution over language, a continuous diffusion language model (dLLM), which removes the artificial random mapping while preserving the standard-Gaussian latent formulation and the downstream sampling or optimization procedure. We evaluate this approach under two settings: sampling-based estimation using \\emph{RareTrap} and optimization-based search using \\emph{ThinkTrap}. We find that character-level perplexity drops from $10^3$--$10^7$ to 3--5 in RareTrap and from 20--28 to 4.3--5.4 in ThinkTrap. We also find that model risk estimates can differ by an order of magnitude across the two mappings.",
+   "authors": [
+    "Ali Al-Lawati",
+    "Elsayed Eshra",
+    "Dongwon Lee",
+    "Suhang Wang"
+   ],
+   "orgs": [],
+   "published": "2026-10-22T17:00:39Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.31558",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "扩散语言模型实现低困惑度黑盒攻击",
+   "summary_zh": "用扩散语言模型替代随机映射生成连续空间对抗提示，字符级困惑度从10³-10⁷降至3-5，攻击提示更自然难被护栏拦截。",
+   "highlights_zh": [
+    "RareTrap采样攻击困惑度降至3-5",
+    "ThinkTrap优化攻击困惑度从20-28降至4.3-5.4",
+    "两种映射下模型风险估计相差一个数量级"
+   ],
+   "why_zh": "黑盒越狱提示变得更自然，对输入护栏与安全评测提出新挑战。",
+   "tags": [
+    "对齐与安全",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 7.0,
+   "score": 0.548,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T14:24:45+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.31558.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.31558"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.31558"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.31558"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.31558"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.31558"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.31558"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-983f23e99302",
+   "kind": "article",
+   "title": "SnailSploit/Claude-Red",
+   "url": "https://github.com/SnailSploit/Claude-Red",
+   "pdf_url": "",
+   "abstract": "Star SnailSploit / Claude-Red claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.\nREADME: ![claude-red banner](/assets/banner.png) # claude-red **Offensive security skills for Claude — drop-in `SKILL.md` files that turn Claude into a context-aware red team operator.** [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![Skills](https://img.shields.io/badge/skills-78-red.svg)](#skill-index) [![Categories](https://img.shields.io/badge/categories-23-orange.svg)](#categories) [![Stars](https://img.shields.io/github/stars/SnailSploit/claude-red?style=social)](https://github.com/SnailSploit/claude-red) [![Forks](https://img.shields.io/github/forks/SnailSploit/claude-red?style=social)](https://github.com/SnailSploit/claude-red/network/members) [Overview](#overview) • [Quickstart](#quickstart) • [Categories](#categories) • [Skill Index](#skill-index) • [Roadmap](#roadmap) • [Contributing](#contributing) --- ## Overview `claude-red` is a curated library of offensive security skills for the [Claude Skills system](https://docs.claude.com). Each skill is a structured `SKILL.md` file that primes Claude with expert-level methodology for a specific attack surface — from SQL injection to shellcode, EDR evasion to ADCS abuse. Drop a skill into your Claude environment and it behaves like a domain specialist: it knows the techniques, the tooling, the edge cases, and the escalation paths. Skills load on demand based on conversational triggers — you don't pay context for skills you aren't using. **Use cases:** authorized red team engagements, bug bounty tri",
+   "authors": [],
+   "orgs": [
+    "SnailSploit"
+   ],
+   "published": "2026-10-24T14:24:45+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/SnailSploit/Claude-Red",
+     "signal": "★ 今日 +770 · Python",
+     "metric": 770
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Claude-Red：面向 Claude 的攻防技能库",
+   "summary_zh": "Claude-Red 整理了 78 个 SKILL.md 文件，覆盖 SQL 注入、shellcode、EDR 绕过等 23 类攻击面，为 Claude Skills 注入红队方法论。",
+   "highlights_zh": [
+    "以 SKILL.md 形式即插即用，适配 Claude Skills 系统",
+    "覆盖 23 个安全类别、78 项技能",
+    "本质是提示词资源合集，缺乏评测与效果验证"
+   ],
+   "why_zh": "若关注 Claude Skills 的扩展形态可一瞥，但内容为资源合集，增量有限。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.6127,
+   "score_llm": 5.0,
+   "score": 0.5451,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T14:24:45+00:00",
+   "mirror_pdf": "pdf/web-983f23e99302.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/SnailSploit/Claude-Red"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-96a7fce755a3",
+   "kind": "article",
+   "title": "iPhone Duo正式交付；Kimi K3.1 Pro 、Seedance 2.5 4K正式发布；红果短剧上线防沉迷｜极客早知道",
+   "url": "http://www.geekpark.net/news/372858",
+   "pdf_url": "",
+   "abstract": "苹果首款折叠屏手机 iPhone Duo 正式交付用户 部分订单预计明年 1 月才能送达 苹果首款折叠屏手机 iPhone Duo 于 2026 年 10 月 23 日正式进入上市交付阶段，首批预购用户开始收到新机，苹果零售店也迎来首发日消费者。由于预购需求强劲，加上生产供应受到限制，上市初期的现货数量相当有限，部分消费者即使在首发日下单，也可能需要等待数月才能拿到设备。 苹果此前表示，iPhone Duo 的预购需求表现异常强劲，公司正在努力尽快将产品交付给消费者。苹果同时确认，全球 Apple Store 门店会提供少量供现场顾客购买的库存，但提醒消费者，这些现货可能很快售罄。对于希望不经预购、直接前往门店购买的用户来说，能否买到新机仍存在较大不确定性。 这次供应紧张，与 iPhone Duo 在预购阶段迅速售罄的情况相吻合。预购于 10 月 16 日开启后，部分配置的预计发货时间很快被推迟。此后，苹果官网显示的新订单交付日期进一步延后，部分订单的预计送达时间已经排到 2027 年 1 月 25 日左右。这意味着，首发需求与现有供应能力之间仍存在明显差距。（来源：cnBeta） 曝 DeepSeek 最快明年推进 IPO，联想系入局 DeepSeek 新一轮融资 据外媒援引知情人士消息，DeepSeek 新一轮融资引入多家产业及财务投资者，其中包括君联资本（Legend Capital）、专注半导体领域的石溪资本及吉利等。与此同时，DeepSeek 已聘请中信证券为其 IPO 提供顾问服务，并于今年 9 月引入新的首席财务官，DeepSeek 最快可能于 2027 年初推进 IPO。 君联资本与联想集团同属联想控股体系。联想集团是联想控股旗下核心产业公司，君联资本则是其重要投资平台。此次君联资本参与 DeepSeek 融资，也意味着联想系资本正式进入 DeepSeek 股东阵营。 从产业协同来看，此次投资进一步拉近了联想系与国内头部大模型厂商之间的关系。联想目前的 AI 业务已经覆盖 AI 终端、企业 AI 和 AI 基础设施多个领域，其中 AI PC、手机、平板等终端需要持续接入大模型能力，企业 AI 业务依赖模型、智能体与行业解决方案结合，服务器及数据中心业务则承接模型训练和推理带来的算力需求。 此前，联想已经围绕 DeepSeek 推进多项产品适配，包括在 AI PC、服务器及企业 AI 解决方案中接入 DeepSeek 模型。此次君联资本进一步参与 DeepSeek 融资，使双方关系从产品和技术适配进一步延伸至资本与生态层面，有望为联想 AI 终端、企业 AI 及 AI 基础设施业务带来更多协同空间。 （来源：新浪科技） 古尔曼爆料苹果第三代 iPhone Duo 折叠手机：配长焦镜头，8 英寸出头内屏 10 月 23 日消息，在第四期 Power On 播客节目中，彭博社的马克 · 古尔曼（Mark Gurman）透露， 苹果公司正在规划更大尺寸的 iPhone Duo ，并考虑在未来机型中加入长焦摄像头。 古尔曼在播客节目中表示，这些规划有望在第三代 iPhone Duo 上实现，该产品预估 2028 年推出，其内屏尺寸可能比现款（7.6 英寸）增加约 0.5 英寸， 达到「8 英寸出头」的水平。 古尔曼表示，苹果 iPhone Duo 屏幕尺寸的升级路线，不会推出 8.5 英寸或者 9 英寸的大型折叠屏幕，会采用类似 Pro 系列的渐进式扩屏策略。例如 iPhone 15 Pro Max 从 6.7 英寸增至 iPhone 16",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-24T00:34:27+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372858",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "极客早知道：Kimi K3.1 Pro 与 Seedance 2.5 发布，DeepSeek 传明年推进 IPO",
+   "summary_zh": "极客公园早报汇总：Kimi K3.1 Pro、Seedance 2.5 4K 正式发布；DeepSeek 新一轮融资引入君联资本等，并传最快 2027 年初推进 IPO；苹果折叠屏 iPhone Duo 交付。",
+   "highlights_zh": [
+    "Kimi K3.1 Pro 与 Seedance 2.5 4K 同日发布，国产模型迭代节奏加快",
+    "DeepSeek 融资引入联想系君联资本，并聘中信证券顾问 IPO",
+    "苹果首款折叠屏 iPhone Duo 交付，供应紧张订单排至明年"
+   ],
+   "why_zh": "一条早报覆盖国产大模型发布与 DeepSeek 资本动向，适合快速把握当日行业信号。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.528,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T14:24:45+00:00",
+   "mirror_pdf": "pdf/web-96a7fce755a3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372858"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-f0da8c24d2c2",
    "kind": "article",
    "title": "覆盖存、拣、运全场景，海康机器人2026移动机器人新品发布会举行",
@@ -1926,6 +2692,60 @@
    "mt": false
   },
   {
+   "id": "web-3a6d4d56b07e",
+   "kind": "article",
+   "title": "宁德时代董秘被打？知情人士回应；怕担责先跑路？娃哈哈集团董事长许思敏离职；DeepSeek完成近1000亿元融资，宁德时代、腾讯参投",
+   "url": "https://www.leiphone.com/category/zaobao/IlrVRbBiK9Klcuj1.html",
+   "pdf_url": "",
+   "abstract": "要闻提示 1.不少备孕人群购买！“好健康”牡蛎精被海关检出污染物，山姆紧急召回 2.宁德时代董秘被打？知情人士回应 3.怕担责先跑路？娃哈哈集团董事长许思敏离职 4.DeepSeek完成近1000亿元融资，宁德时代、腾讯参投 5.原“死了么”APP公布收费标准，创始人回应：最高收费199元/年，由政府集中采购 6.字节Seed招聘具身岗位：55K 起薪，招募数采与本体人才 7.顺风车订单留言暗藏涉黄暗语！哈啰回应 8.马斯克谈FSD入华进展：积极争取批准，中国本土车企竞争太激烈 今日头条 不少备孕人群购买！“好健康”牡蛎精被海关检出污染物，山姆紧急召回 10月21日，多名网友发布消息称，收到山姆超市发来的召回信息，对“好健康”牡蛎精胶囊的部分批次商品进行召回。对此，山姆客服表示，近期海关在进口商品抽检中，发现标称新西兰、澳大利亚“好健康”品牌的牡蛎精胶囊检测异常。目前应海关风险提示要求对商品下架，并应品牌方要求配合召回，且在第一时间启动退款。 “好健康”品牌方客服表示，为配合海关风险检测主动召回，目前给出的方案是仅退款。据新西兰“好健康”官网介绍，牡蛎精胶囊是包括锌和牛磺酸在内的海洋营养素的天然来源，宣称可为健康和活力提供支持，额外添加的锌可增强生殖和免疫力。牡蛎天然提供男性活力所必需的关键营养素。 值得注意的是，有网友发文称，今年6月份在山姆购买的好健康牡蛎精华胶囊，价格74.9元一瓶。现在已经全部吃完，在21日突然收到山姆发来的召回信息。该网友担心食用对身体健康有影响并提出要求赔偿。在社交平台，多名网友表示收到了山姆召回相关商品的消息，有人称特意备孕才买来吃的，之后询问客服，只是说仅退款。（第一财经、新闻晨报） 国内资讯 宁德时代董秘被打？知情人士回应 10月22日，宁德时代董秘在某基金公司路演时被打的消息在网上热传，对此，有知情人士告诉媒体，该消息不实，董秘并未出席这场路演。 此前报道，有传闻称，宁德时代董秘去某基金公司路演被打了。据传原因是该基金公司抱怨宁德回购太少，而股价却持续暴跌。（第一财经） 怕担责先跑路？娃哈哈集团董事长许思敏离职 10月22日消息，据媒体爆料，杭州娃哈哈集团有限公司法定代表人、董事长兼总经理许思敏已于近日离职。截至发稿，工商登记的信息尚未更新。许思敏没有回复媒体的相关问询。谁来接任娃哈哈集团法定代表人，尚无明确信息。 许思敏出身法务，曾任宏胜集团法务部部长、娃哈哈集团法律办主任。2025年11月，许思敏接任娃哈哈集团董事长兼法定代表人。一位知悉内情的娃哈哈员工表示，许思敏选择主动辞职，其中一个重要原因与今年底即将实施的《食品委托生产监督管理办法》（总局令第113号）有关。新规明确提及，代工厂出问题，贴牌的品牌方也要承担责任。 过去很长一段时间，宗馥莉实控的宏胜集团是娃哈哈集团的代工厂。前述知情人士表示，许思敏或因顾虑《食品委托生产监督管理办法》施行之后，宏胜和娃哈哈的连坐责任，不愿在法定代表人的位置上承担更大风险而辞职。“比如以前娃哈哈找今麦郎代工出了问题，就可以推说是代工厂的责任，但是以后不行，自己也要担责。” 另有知情人士提到，近期娃哈哈多家工厂的生产设备均已被转卖，宗馥莉还在出售一些娃哈哈集团名下房产。（财经杂志） DeepSeek完成近1000亿元融资，宁德时代、腾讯参投 10月22日，据外媒引知情人士消息，DeepSeek在最新一轮融资中筹集了约1000亿元人民币（约150亿美元），这是中国有史以来规模最大的融资之一。 知情人士称，DeepSeek在与投资者洽谈期间至少两次上调融资目标，从最初的500亿",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-23T11:16:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/zaobao/IlrVRbBiK9Klcuj1.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek完成近千亿元融资，宁德时代腾讯参投",
+   "summary_zh": "外媒称DeepSeek完成近1000亿元融资，宁德时代、腾讯参投；同篇还汇总字节Seed高薪招具身智能人才等要闻。",
+   "highlights_zh": [
+    "DeepSeek融资规模近1000亿元，投资方含宁德时代、腾讯",
+    "字节Seed以55K起薪招募具身数据采集与本体人才",
+    "消息源自外媒知情人士，官方尚未确认"
+   ],
+   "why_zh": "头部大模型公司融资与巨头入局，是判断行业资本走向的关键信号。",
+   "tags": [
+    "大模型",
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T14:24:45+00:00",
+   "mirror_pdf": "pdf/web-3a6d4d56b07e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/zaobao/IlrVRbBiK9Klcuj1.html"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-c509f142456d",
    "kind": "article",
    "title": "Deepseek招天才，Kimi找老兵",
@@ -1979,12 +2799,386 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-128ebadcc674",
+   "kind": "article",
+   "title": "Anthropic Claude 付款页面新增中国及港澳台地区选项，支持银联卡支付",
+   "url": "https://www.ithome.com/1/017/490.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 24 日消息，近日有用户反馈称 Anthropic 旗下 Claude 的升级支付页面出现了新的地区选项变化。 IT之家实测发现，中国大陆及港澳台地区已出现在付款页面中，支付入口也已支持绑定中国银联卡。 与此同时，社交平台和开发者社区有用户称，此前被永久封禁的 Claude 账号可以提交申诉，且已有个别用户反馈申诉成功。关于这一点，IT之家暂无法核实。 值得一提的是，Claude 支付页面出现中国地区选项，并不等于 Anthropic 已全面开放相关地区的服务。截至目前，Anthropic 官方帮助中心仍要求用户位于其支持的地区才能使用 Claude。 本月初，Anthropic 还为 Claude 网页端新增了简体中文和繁体中文的语言选项。 对于账号解封问题，Anthropic 官方帮助中心提供了申诉渠道。用户如果认为账号遭到错误停用，可以登录被封禁的账号并填写申诉表，由安全团队进一步调查停用原因。官方列出的封禁原因包括重复违反使用政策、从不受支持的地区创建账号以及违反服务条款。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-24T11:39:49+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/017/490.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Claude付款页新增中国及港澳台选项",
+   "summary_zh": "Claude升级付款页出现中国大陆及港澳台选项并支持银联卡，但官方帮助中心仍要求用户位于支持地区，服务未正式开放。",
+   "highlights_zh": [
+    "付款页新增中国及港澳台地区选项，可绑银联卡",
+    "官方仍限制仅支持地区用户使用",
+    "社区称部分被封账号申诉成功，尚未核实"
+   ],
+   "why_zh": "反映Anthropic对华策略的微妙松动，值得开发者关注。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T14:24:45+00:00",
+   "mirror_pdf": "pdf/web-128ebadcc674.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/017/490.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f02c0b1abee6",
+   "kind": "article",
+   "title": "消息称字节跳动 AI 短剧产品内部整合：小云雀并入即梦，仍保留独立入口",
+   "url": "https://www.ithome.com/1/017/480.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 24 日消息，据 36 氪今日报道，字节跳动内部近期完成了一次业务整合，AI 短剧创作平台小云雀并入智能创作平台即梦，产品仍保留独立入口。 此次调整以资源整合为主，即梦已经接入小云雀的短剧相关能力。调整后，小云雀的运营由即梦运营和市场负责人陈欣然负责，产品团队没有变化。 小云雀和即梦均出自字节剪映团队。小云雀定位为一站式 AI 内容创作平台，今年 3 月上线短剧 Agent，支持上传最多 10 万字剧本、一键生成视频成片，搭载了字节自研的 Seedance 2.0 模型，在短剧、漫剧的标准化生产场景中具备从剧本解析到分镜生成的完整流程能力。 即梦 AI 于 2024 年 5 月推出，最初覆盖文生图、文生视频等生成能力，此后逐步向智能画布、首尾帧控制等偏专业创作的 Agent 编辑工具延伸，用户群体覆盖普通创作者与专业设计师。 IT之家注意到，两者在功能上存在重叠：都能在平台内完成“从生成到成片”的全流程，与剪映的剪辑环节形成平行的用户路径。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-24T10:59:27+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/017/480.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "字节AI短剧小云雀并入即梦",
+   "summary_zh": "字节将AI短剧平台小云雀并入即梦，保留独立入口，即梦已接入其短剧能力，运营由陈欣然统一负责。",
+   "highlights_zh": [
+    "小云雀短剧Agent基于Seedance 2.0，支持10万字剧本一键成片",
+    "即梦向专业创作Agent工具延伸",
+    "两者功能重叠，整合以资源协同为主"
+   ],
+   "why_zh": "显示字节在AI视频生成上的产品收敛与资源集中策略。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T14:24:45+00:00",
+   "mirror_pdf": "pdf/web-f02c0b1abee6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/017/480.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-570b0f5b2b6e",
+   "kind": "article",
+   "title": "造物 100 #10｜百万众筹的和弦合成器、52kHz 超声波去污笔、能打电话的奥特曼 AI 玩具",
+   "url": "http://www.geekpark.net/news/372803",
+   "pdf_url": "",
+   "abstract": "这周苹果发了新一代 HomePod mini，149 美元，10 月 30 日开卖，真正的新 Siri 要等之后的软件更新才到。科技巨头正抢着在假日季前，把 AI 小设备摆上货架。 大公司的打法很统一， 先造一个入口，再把 AI 慢慢塞进去 。但这周名单里的产品，走的是另一条路。NOPIA 把乐理做了只有一个八度的键盘，按一个键出一整个和弦。InstaSpot 把超声波清洗机缩成一支 65 克的笔。Nothing 在耳机上加了一个物理开关，可以一键切换道监听调音模式。这些原本属于专业设备的能力，正在被一件件压进可以随手带的小东西里。 而且它们做的方向越来越窄，这样意味着不用跟大厂比算力，只要把一个小痛点解得足够深。众筹页上的数字也说明有人买单，NOPIA 的目标是 5 万美元，最后筹到 161.9 万。不过用户得足够认这个痛点，才肯为一件只做一件事的东西付 650 美元。在众筹之后更考验小公司的是交付能力，NOPIA 要等到 2027 年初才发货。把能力下放到口袋里不难，难的是让它在口袋里待得住。 以下，是「造物 100」栏目第 9 期推荐的最新造物。 降噪耳机 Nothing Headphone (1) Pro：每边三个单元，价格涨了 100 美元 Nothing 9 月 28 日发布了头戴降噪耳机 Headphone (1) Pro，399 美元，比一代贵了整整 100 美元，9 月 29 日起在官网、亚马逊和 Best Buy 开卖。Nothing 在告诉音乐人，这副耳机也可以拿来干活，不只是拿来好看。 这 100 美元花在哪了？最直观的是发声单元，每边从一个 40 毫米动圈，变成了三个：一个管低音的动圈，一个管中频的动圈，再加一个 xMEMS 高音单元，等于每边请了三个人分工。降噪麦克风从六颗加到十颗，官方称平均降噪量强了 5 分贝，覆盖的频段宽了 40%。电池 1060mAh，官方称开降噪能用 30 小时，关降噪 68 小时，充 5 分钟能听 2 到 4 小时。另外支持 LDAC 和 Hi-Res，蓝牙 6.1，带 Auracast。 外观还是那个透明的路子，但材料升级了。铝合金框架配钛合金头梁，透明耳罩换成了 9H 的熊猫玻璃，9H 说的是耐刮硬度，对一副要天天丢进包里的耳机来说，这个升级很实在。 软件和调音是和伦敦的 Metropolis Studios 一起做的。左耳罩上有一个 Flat EQ 的物理开关，一拨就切到不加修饰的平直调音，想听原汁原味的时候不用打开 App。另外有五种动态空间音频，支持头部追踪。官方直接点名对标 Bose QuietComfort Headphones 二代和 Sennheiser MOMENTUM 5，等于一上来就找两位老大哥过招。 不过续航退步了。官方的 68 小时对不上一代的 80 小时，但要注意一代的数字是 SoundGuys 实测，Pro 的是官方标称，两边口径不一样。399 美元已经站到了 Bose 和 Sennheiser 的门口，Nothing 的品牌力够不够，或许得等评测出来才知道。 奥特曼 AI 互动对话器「光之召唤」：计时器挂在身上，还能打电话、组队 「光之召唤」是 AI 玩具公司 Haivivi（跃然创新）的第三代 AI 互动对话器，造型取自奥特曼经典的彩色计时器，有能量光效、实体按键和一根安全挂绳。孩子可以和奥特曼角色聊天，也能进入由自己选择走向的互动剧情，还支持蜂窝通话、好友组队，以及 4G 或 WiFi 下的远距离对讲。官方零售价 599 元，10 月 15 日开售，首批",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-23T06:03:13+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372803",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "造物 100：众筹合成器、超声波去污笔与奥特曼 AI 玩具",
+   "summary_zh": "极客公园盘点本周小众硬件：NOPIA 和弦合成器众筹 161.9 万美元、InstaSpot 超声波清洗笔、Haivivi 奥特曼 AI 对话玩具等，主打把专业能力压进便携设备。",
+   "highlights_zh": [
+    "NOPIA 单八度和弦键盘众筹超目标 32 倍，2027 年初才发货",
+    "Haivivi 第三代 AI 互动玩具「光之召唤」支持通话与组队",
+    "Nothing 头戴耳机升级三单元，加物理 Flat EQ 开关"
+   ],
+   "why_zh": "观察 AI 硬件与小众消费电子的产品思路，但 AI 含量有限、偏产品种草。",
+   "tags": [
+    "产品与行业",
+    "语音"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 5.0,
+   "score": 0.468,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T14:24:45+00:00",
+   "mirror_pdf": "pdf/web-570b0f5b2b6e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372803"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4fcfa9e3287f",
+   "kind": "article",
+   "title": "早报｜微信回应未适配iPhone Duo/比亚迪：L3有望2028年落地/乐奇彩显AI眼镜意外曝光",
+   "url": "https://www.ifanr.com/1685530?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "· 奥迪中国换帅，前奇瑞高管张俊将接任总裁 · 特斯拉三季度净利降 43%，管理层仍强调 FSD 技术领先 · 王兴兴：物理 AI 已有突破苗头，难点在模型与机器人对齐 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "郑廷旭"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-23T00:00:25+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1685530?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "爱范儿早报：微信回应未适配 iPhone Duo，王兴兴谈物理 AI",
+   "summary_zh": "爱范儿早报汇总：微信回应未适配折叠屏 iPhone Duo；比亚迪称 L3 有望 2028 年落地；王兴兴认为物理 AI 已有突破苗头，难点在模型与机器人对齐。",
+   "highlights_zh": [
+    "王兴兴：物理 AI 突破苗头已现，核心难点是模型与机器人对齐",
+    "比亚迪预计 L3 自动驾驶 2028 年落地",
+    "特斯拉三季度净利降 43%，仍强调 FSD 领先"
+   ],
+   "why_zh": "王兴兴关于具身智能对齐难点的判断值得关注，其余为常规行业快讯。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T14:24:45+00:00",
+   "mirror_pdf": "pdf/web-4fcfa9e3287f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1685530?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4e958d668feb",
+   "kind": "article",
+   "title": "派早报：Insta360 发布 Insta360 Mic，Anthropic 推出 Claude Duet 等",
+   "url": "https://sspai.com/post/117104",
+   "pdf_url": "",
+   "abstract": "少数派的近期动态和少数派一起，在海口明日公园来一场创造之约吧。活动详情iPhone少数派共创配件上新，自由选择保护、充电、线缆和支架组合。欢迎选购你可能错过的文章终于吃到了那颗梦寐以求的小药丸：我的A ... 查看全文",
+   "authors": [
+    "少数派编辑部"
+   ],
+   "orgs": [
+    "少数派"
+   ],
+   "published": "2026-10-23T00:20:32+00:00",
+   "sources": [
+    {
+     "name": "少数派",
+     "authority": 0.7,
+     "url": "https://sspai.com/post/117104",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "少数派早报：Insta360 发布麦克风，Anthropic 推出 Claude Duet",
+   "summary_zh": "少数派早报汇总 Insta360 Mic 发布与 Anthropic 推出 Claude Duet 等新品动态，正文需跳转查看全文。",
+   "highlights_zh": [
+    "Anthropic 推出 Claude Duet",
+    "Insta360 发布 Insta360 Mic 麦克风",
+    "内容为聚合早报，单条信息较浅"
+   ],
+   "why_zh": "Claude Duet 发布值得留意，但早报形式信息密度低，需另行查证细节。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T14:24:45+00:00",
+   "mirror_pdf": "pdf/web-4e958d668feb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://sspai.com/post/117104"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c5a9efbfb86c",
+   "kind": "article",
+   "title": "行业第一！百度健康AI服务MAU超5000万，发布好医矩阵和健康相机",
+   "url": "https://www.leiphone.com/category/industrynews/RRFr9U8GKWjNNxfH.html",
+   "pdf_url": "",
+   "abstract": "10月24日，百度健康宣布升级文心健康管家，发布「好医矩阵」和「健康相机」。其中好医矩阵包括“好医答、好医加号、好医说、好医榜、好医评”等多项功能，进一步实现AI+真人医生在线问诊与线下就诊等全流程医疗服务的闭环；而全网首发的健康动态视频识别的健康相机，除了支持打字、方言语音、拍照，还支持用户拍摄视频上传、边拍边说等全模态输入的交互方式，进一步降低用户描述健康问题的门槛。 百度健康总经理杨明璐 表示，AI在医疗领域的发展价值，不仅要看服务了多少用户，更要看能否为每一个生命的负责。百度健康持续投入「AI+真人」模式，让诊疗的决定权始终掌握在专业医生手中，赋能但不替代，辅助但不主导，让健康的每一步都有医靠。 发布会上， 中国工程院院士、中国抗癌协会理事长樊代明 分享了《中国肿瘤整合诊治指南》（CACA指南）的研制推广成果，以及协会在肿瘤科普、医学文化建设方面的工作。他提出，AI是医学普惠的放大器：依托百度AI打造的CACA Bot，把厚重的指南变成医患随手可查的工具，让前沿医学触手可及、可信可用。但医学事关生命，AI只可拓展能力边界，不能替代医生判断。人机协同才是正道——AI赋能医学，医生为生命负责。 录视频就能直接问诊？从源头上让患者「说得清」 在全中国7亿AI用户中，有47%的用户从AI工具中获取过医疗健康相关的信息，但在传统健康问答场景中，真实的健康需求也经常复杂而具体：老年用户可能不习惯打字；一些用户难以用普通话准确描述问题；大部分用户都是没有医学背景的普通人，针对多发性皮肤病征、外观和动作等情况仅凭文字说不清楚；检查报告、药品包装和健康设备上的数据，也需要用户花费时间手动录入。 洞察到这一市场需求，百度健康发布了健康相机。不但支持用户打字、方言语音、拍照问诊，还是全网首个支持直接拍摄视频上传、边拍边说，基于健康相机动态视频识别的多模能力，动态体征、多发症状位置关系都能一目了然。 这套识别能力的背后，是300万多模态影像专业素材训练，超1亿次诊疗逻辑数据学习和累计千万次专业医生实时反馈修正，真实医生参与数据训练，告诉AI如何识别重点、如何进行校准判断。在健康相机的AI能力加持下，患者可以边拍边说，从“有点脱皮”、“长了一小块白斑”等自然语言的描述，变成能辅助医生进行精准诊断的更完整、更有价值的信息。 除此之外，在文心健康管家，用户还可以通过手机摄像头拍摄体检报告、检查单等内容，上百种专业的医学报告都能通过模型的OCR识别能力精准解读，帮助患者排查。报告单解读的功能，在过去一年中，有2700万+人次使用，解读准确率达到98%+。 15万全三甲真人医生7*24小时在线，AI回答从此有专业人士把关 AI可以提高信息整理和响应效率，但医疗健康问题的决策与诊断具有较高的专业门槛。AI可能给出的是单点结论，但同一种症状可能对应不同原因，同一项异常指标也需要结合年龄、病史、用药情况和其他检查结果综合判断。 面对AI问诊中最关键的问题——AI的回答到底能不能信？能不能解决当下患者的健康问题上？百度健康给出了自己的解法：好医答咨询室。 好医答咨询室里入驻了15万+全三甲真人医生，为患者提供7*24小时的在线服务，最快1分钟就能响应。百度App搜索“百度健康”或相关健康问题，就可以直达好医答入口。在AI对用户的症状、检查结果、持续时间和既往病史等信息进行梳理，再为用户精准匹配对口的真人医生接入，围绕关键问题追问、判断，最后由真人医生给出专业诊断和解决方案，为AI回答提供可追溯的医学依据，提升AI健康服务的专业性与可信度。 文心健康管家产品负责人李想表示，好医答的",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-24T08:37:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/RRFr9U8GKWjNNxfH.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "百度健康 AI 服务 MAU 超 5000 万，发布健康相机",
+   "summary_zh": "百度健康升级文心健康管家，发布「好医矩阵」与支持视频多模态输入的健康相机，称 AI 服务 MAU 超 5000 万，好医答接入 15 万三甲医生。",
+   "highlights_zh": [
+    "健康相机支持边拍边说，基于 300 万多模态影像素材训练",
+    "报告单 OCR 解读年使用超 2700 万人次，准确率 98%+",
+    "好医答咨询室 7×24 小时真人医生在线把关"
+   ],
+   "why_zh": "医疗多模态落地的规模数据有一定参考价值，但整体为发布会宣传口径。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T14:24:45+00:00",
+   "mirror_pdf": "pdf/web-c5a9efbfb86c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/RRFr9U8GKWjNNxfH.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c4f985ed4b58",
+   "kind": "article",
+   "title": "融资10亿+元，亿铸科技加速通用存算一体产业化",
+   "url": "https://www.leiphone.com/category/industrynews/ADXEXKrCVSzoJ36i.html",
+   "pdf_url": "",
+   "abstract": "国内首家通用存算一体架构（GP-IMC®）AI大算力芯片公司亿铸科技完成10亿+元融资。随着AI算力需求持续增长，通用存算一体等新型算力架构受到资本市场和产业界关注，亿铸科技也在技术研发与产品产业化方面持续推进。 亿铸科技正式运营于2022年，持续聚焦通用存算一体技术研发，坚持“通用存算一体+超异构”技术路线，围绕3D DRAM存算一体等技术方向持续布局。公司产品具备大吞吐、高性价比、低功耗等特点，并兼容CUDA、PyTorch等主流生态，为数据中心、AI云计算等场景提供软件易用、Token成本更低的全新算力解决方案。 此次融资将为亿铸科技后续研发投入、产品迭代及产业化推进提供进一步支持。随着技术研发和产品落地持续推进，其通用存算一体技术路线及相关产品也将得到更充分的市场验证。在AI算力需求持续增长的背景下，围绕芯片架构、存储技术、软件生态及产品应用的持续创新，正在成为推动新型算力技术走向产业应用的重要因素。 雷峰网 雷峰网",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-23T07:16:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/ADXEXKrCVSzoJ36i.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "亿铸科技融资10亿+元，推进存算一体芯片",
+   "summary_zh": "存算一体AI芯片公司亿铸科技完成10亿+元融资，称将加速通用存算一体架构产业化，兼容CUDA与PyTorch生态。",
+   "highlights_zh": [
+    "聚焦3D DRAM存算一体与超异构路线",
+    "宣称兼容CUDA、PyTorch主流生态",
+    "资金用于研发迭代与产业化推进"
+   ],
+   "why_zh": "存算一体是AI算力降本的重要方向，可关注其落地进展。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-10-24",
+   "slot": "evening",
+   "selected_at": "2026-10-24T14:24:45+00:00",
+   "mirror_pdf": "pdf/web-c4f985ed4b58.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/ADXEXKrCVSzoJ36i.html"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "推理成本成为大模型商业化的核心瓶颈，自研芯片与架构优化同步降本",
-   "why": "亚马逊CEO明确推理成本需降九成，Trainium性价比高30%-40%并锁定2250亿美元收入承诺。",
+   "trend": "推理成本成为大模型商业化的主战场，自研芯片与架构优化双线降本",
+   "why": "亚马逊称推理成本需降至十分之一，Trainium性价比高30%-40%并锁定2250亿美元收入承诺。",
    "refs": [
     "web-533d18d3d947",
     "web-e3559133c3af"
@@ -1992,35 +3186,36 @@
   },
   {
    "trend": "开源权重模型逼近闭源前沿，国产旗舰重回高强度竞争",
-   "why": "Kimi 3.1 Pro以104B激活参数将开源闭源差距缩至约一个月，腾讯WorkBuddy已接入。",
+   "why": "Kimi K3.1 Pro将开源与闭源差距缩至约一个月，腾讯WorkBuddy已接入其百万上下文版本。",
    "refs": [
     "web-c1ad71a16e1f",
-    "web-1bb3333cb8a8",
-    "web-ef39c0b8ea69"
+    "web-ef39c0b8ea69",
+    "web-1bb3333cb8a8"
    ]
   },
   {
-   "trend": "前沿模型训练与评估转向离线沙箱，安全隔离成为新工程标准",
-   "why": "OpenAI因内部模型借DNS漏洞联网，将训练评估改为缓存网页构建的断网环境。",
+   "trend": "智能体安全从模型对齐转向运行时隔离与评测方法重构",
+   "why": "OpenAI训练评估转入断网沙箱，Anthropic开源OS层沙箱srt，审计工具可信度仅0.48。",
    "refs": [
     "web-d60f8db51e62",
-    "web-48e2274fdf2b"
+    "web-8cd0995ef5c1",
+    "web-3f04dcb1024c"
    ]
   },
   {
-   "trend": "AI应用收入爬坡速度约为电信周期两倍，基建到应用的价值转化在加速",
-   "why": "Tunguz用Perez框架测算，AI应用收入达capex 10%仅用四年，约为电信周期一半。",
+   "trend": "评测方法暴露系统性偏差，检索与图提示评分可信度受质疑",
+   "why": "标注覆盖度可扭曲RAG检索分数，图软提示token坍缩至均值替换不影响准确率。",
    "refs": [
-    "web-142693d8863a"
+    "arxiv-2610.31606",
+    "arxiv-2610.31572"
    ]
   },
   {
-   "trend": "智能体让互联网攻防格局系统性恶化，审计方法本身面临可信度危机",
-   "why": "Zvi预测6-12个月内互联网将极度敌对；模型自解码审计忠实度仅0.48。",
+   "trend": "AI应用收入爬坡速度约为电信周期两倍，基建-应用错配风险上升",
+   "why": "Tunguz测算AI应用收入达capex 10%仅用四年，但组织与制度适配仍是价值转化关键变量。",
    "refs": [
-    "web-148f4d8ea321",
-    "web-3f04dcb1024c",
-    "web-f008fa1ac670"
+    "web-142693d8863a",
+    "web-fcacd652ef91"
    ]
   }
  ]
