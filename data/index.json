@@ -1,6 +1,13 @@
 {
- "updated": "2026-10-23T15:44:13+00:00",
+ "updated": "2026-10-24T03:34:57+00:00",
  "days": [
+  {
+   "date": "2026-10-24",
+   "count": 17,
+   "slots": {
+    "noon": 17
+   }
+  },
   {
    "date": "2026-10-23",
    "count": 59,
@@ -263,46 +270,46 @@
    }
   }
  ],
- "total": 1625,
+ "total": 1642,
  "last_run": {
-  "at": "2026-10-23T15:44:13+00:00",
-  "slot": "evening",
-  "candidates": 225,
-  "new": 132,
-  "stale": 34,
-  "judged": 96,
-  "selected": 21,
-  "mirrored": 17,
+  "at": "2026-10-24T03:34:57+00:00",
+  "slot": "noon",
+  "candidates": 136,
+  "new": 52,
+  "stale": 43,
+  "judged": 52,
+  "selected": 17,
+  "mirrored": 16,
   "by_category": {
-   "技术": 4,
-   "项目": 3,
    "观点": 3,
-   "资讯": 11
+   "资讯": 11,
+   "项目": 2,
+   "技术": 1
   },
   "by_source": {
-   "HF Daily Papers": 40,
-   "arXiv 新论文": 60,
-   "Hacker News": 4,
-   "GitHub Trending": 11,
+   "HF Daily Papers": 14,
+   "Hacker News": 2,
    "量子位": 5,
    "极客公园": 12,
    "IT之家": 11,
    "爱范儿": 4,
    "少数派": 1,
    "雷峰网": 14,
-   "钛媒体": 4,
-   "InfoQ 中文": 18,
+   "钛媒体": 5,
+   "InfoQ 中文": 17,
    "Dwarkesh Patel": 1,
    "Latent Space": 5,
    "SemiAnalysis": 1,
+   "Azeem Azhar": 1,
    "Tomasz Tunguz": 1,
    "Zvi Mowshowitz": 2,
-   "Hugging Face Blog": 7,
+   "Hugging Face Blog": 4,
    "Google Research": 1,
    "METR": 1,
-   "OpenAI": 6,
+   "OpenAI": 5,
    "Google DeepMind": 1,
    "NVIDIA": 8,
+   "GitHub Trending": 11,
    "GitHub 新项目": 9
   },
   "llm": true,
