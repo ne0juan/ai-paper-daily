@@ -1,12 +1,12 @@
-2026-10-23 15:44:14,198 INFO source hf_daily           -> 40 items
-2026-10-23 15:44:14,652 INFO source hackernews         -> 4 items
-2026-10-23 15:44:33,720 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-23 15:45:06,807 INFO source rss                -> 103 items
-2026-10-23 15:45:09,589 INFO source html_lists         -> 0 items
-2026-10-23 15:45:09,589 INFO source x                  -> 0 items
-2026-10-23 15:45:10,356 INFO source arxiv_search       -> 60 items
-2026-10-23 15:45:20,605 INFO source github             -> 20 items
-2026-10-23 15:45:20,607 INFO candidates: 225 (stale dropped 34, new 132)
-2026-10-23 15:47:03,197 INFO llm judged 96/100 (calls=13)
-2026-10-23 15:47:53,574 WARNING snapshot https://thezvi.wordpress.com/2026/10/22/ai-191-the-hackening-begins/: blocked or empty page
-2026-10-23 15:50:47,197 INFO run done: {"at": "2026-10-23T15:44:13+00:00", "slot": "evening", "candidates": 225, "new": 132, "stale": 34, "judged": 96, "selected": 21, "mirrored": 17, "by_category": {"技术": 4, "项目": 3, "观点": 3, "资讯": 11}, "by_source": {"HF Daily Papers": 40, "arXiv 新论文": 60, "Hacker News": 4, "GitHub Trending": 11, "量子位": 5, "极客公园": 12, "IT之家": 11, "爱范儿": 4, "少数派": 1, "雷峰网": 14, "钛媒体": 4, "InfoQ 中文": 18, "Dwarkesh Patel": 1, "Latent Space": 5, "SemiAnalysis": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 7, "Google Research": 1, "METR": 1, "OpenAI": 6, "Google DeepMind": 1, "NVIDIA": 8, "GitHub 新项目": 9}, "llm": true, "translated": 0}
+2026-10-24 03:34:57,913 INFO source hf_daily           -> 14 items
+2026-10-24 03:34:58,267 INFO source hackernews         -> 2 items
+2026-10-24 03:35:21,667 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-24 03:35:29,028 INFO source rss                -> 100 items
+2026-10-24 03:35:30,751 INFO source html_lists         -> 0 items
+2026-10-24 03:35:30,751 INFO source x                  -> 0 items
+2026-10-24 03:36:41,985 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
+2026-10-24 03:36:51,140 INFO source github             -> 20 items
+2026-10-24 03:36:51,141 INFO candidates: 136 (stale dropped 43, new 52)
+2026-10-24 03:37:42,960 INFO llm judged 52/52 (calls=7)
+2026-10-24 03:38:11,103 WARNING snapshot https://openai.com/index/securing-our-frontier-model-training-environment: blocked or empty page
+2026-10-24 03:40:49,833 INFO run done: {"at": "2026-10-24T03:34:57+00:00", "slot": "noon", "candidates": 136, "new": 52, "stale": 43, "judged": 52, "selected": 17, "mirrored": 16, "by_category": {"观点": 3, "资讯": 11, "项目": 2, "技术": 1}, "by_source": {"HF Daily Papers": 14, "Hacker News": 2, "量子位": 5, "极客公园": 12, "IT之家": 11, "爱范儿": 4, "少数派": 1, "雷峰网": 14, "钛媒体": 5, "InfoQ 中文": 17, "Dwarkesh Patel": 1, "Latent Space": 5, "SemiAnalysis": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 4, "Google Research": 1, "METR": 1, "OpenAI": 5, "Google DeepMind": 1, "NVIDIA": 8, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
