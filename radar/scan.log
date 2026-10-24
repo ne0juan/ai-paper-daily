@@ -1,13 +1,13 @@
-2026-10-24 09:26:34,383 INFO source hf_daily           -> 14 items
-2026-10-24 09:26:34,735 INFO source hackernews         -> 1 items
-2026-10-24 09:26:51,904 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-24 09:27:02,844 INFO source rss                -> 77 items
-2026-10-24 09:27:04,395 INFO source html_lists         -> 0 items
-2026-10-24 09:27:04,395 INFO source x                  -> 0 items
-2026-10-24 09:27:04,810 INFO source arxiv_search       -> 38 items
-2026-10-24 09:27:14,057 INFO source github             -> 20 items
-2026-10-24 09:27:14,059 INFO candidates: 149 (stale dropped 47, new 49)
-2026-10-24 09:28:08,586 INFO llm judged 49/49 (calls=7)
-2026-10-24 09:28:16,827 WARNING snapshot https://thezvi.wordpress.com/2026/10/23/the-hackening/: blocked or empty page
-2026-10-24 09:28:33,505 WARNING snapshot https://openai.com/index/scaling-storage-one-billion-users-part-two: blocked or empty page
-2026-10-24 09:31:39,870 INFO run done: {"at": "2026-10-24T09:26:33+00:00", "slot": "evening", "candidates": 149, "new": 49, "stale": 47, "judged": 49, "selected": 18, "mirrored": 14, "by_category": {"观点": 2, "资讯": 12, "技术": 4}, "by_source": {"HF Daily Papers": 14, "arXiv 新论文": 38, "Hacker News": 1, "量子位": 1, "极客公园": 8, "IT之家": 9, "爱范儿": 3, "少数派": 1, "雷峰网": 13, "钛媒体": 4, "InfoQ 中文": 16, "Dwarkesh Patel": 1, "Latent Space": 5, "SemiAnalysis": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 3, "Google Research": 1, "OpenAI": 4, "Google DeepMind": 1, "NVIDIA": 2, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
+2026-10-24 14:24:46,196 INFO source hf_daily           -> 15 items
+2026-10-24 14:24:46,470 INFO source hackernews         -> 3 items
+2026-10-24 14:25:29,667 WARNING rss 钛媒体 failed: 403 for https://www.tmtpost.com/rss.xml
+2026-10-24 14:25:31,475 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-24 14:25:40,035 INFO source rss                -> 73 items
+2026-10-24 14:25:41,760 INFO source html_lists         -> 0 items
+2026-10-24 14:25:41,760 INFO source x                  -> 0 items
+2026-10-24 14:25:42,242 INFO source arxiv_search       -> 19 items
+2026-10-24 14:25:51,583 INFO source github             -> 20 items
+2026-10-24 14:25:51,584 INFO candidates: 130 (stale dropped 26, new 43)
+2026-10-24 14:26:37,360 INFO llm judged 43/43 (calls=6)
+2026-10-24 14:26:47,149 WARNING snapshot https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/: blocked or empty page
+2026-10-24 14:28:52,668 INFO run done: {"at": "2026-10-24T14:24:45+00:00", "slot": "evening", "candidates": 130, "new": 43, "stale": 26, "judged": 43, "selected": 21, "mirrored": 20, "by_category": {"项目": 3, "资讯": 14, "技术": 4}, "by_source": {"HF Daily Papers": 15, "Hacker News": 3, "量子位": 1, "极客公园": 6, "IT之家": 9, "爱范儿": 3, "少数派": 1, "雷峰网": 15, "InfoQ 中文": 16, "Dwarkesh Patel": 1, "Latent Space": 4, "SemiAnalysis": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Sebastian Raschka": 1, "Hugging Face Blog": 3, "Google Research": 1, "OpenAI": 4, "Google DeepMind": 1, "NVIDIA": 2, "arXiv 新论文": 19, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
