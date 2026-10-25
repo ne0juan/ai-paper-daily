@@ -1684,7 +1684,20 @@
   "web-4fcfa9e3287f": "2026-10-24",
   "web-4e958d668feb": "2026-10-24",
   "web-c5a9efbfb86c": "2026-10-24",
-  "web-c4f985ed4b58": "2026-10-24"
+  "web-c4f985ed4b58": "2026-10-24",
+  "arxiv-2610.29162": "2026-10-25",
+  "web-6597a1303e38": "2026-10-25",
+  "web-edc9878ee42a": "2026-10-25",
+  "web-b57d01ea0fb6": "2026-10-25",
+  "web-7c213e5a7519": "2026-10-25",
+  "web-8acda1e9f09f": "2026-10-25",
+  "web-4624cc74135a": "2026-10-25",
+  "web-9e13ef443bf1": "2026-10-25",
+  "web-9356a17d3594": "2026-10-25",
+  "web-531b3bab6372": "2026-10-25",
+  "web-5ae166d94df7": "2026-10-25",
+  "web-14f0be80e35f": "2026-10-25",
+  "web-8079a8262125": "2026-10-25"
  },
  "known_links": {
   "https://www.anthropic.com/news": [
@@ -1947,42 +1960,6 @@
   ]
  },
  "runs": [
-  {
-   "at": "2026-10-04T11:03:14+00:00",
-   "slot": "evening",
-   "candidates": 60,
-   "new": 19,
-   "stale": 5,
-   "judged": 11,
-   "selected": 14,
-   "mirrored": 13,
-   "by_category": {
-    "资讯": 9,
-    "技术": 3,
-    "项目": 2
-   },
-   "by_source": {
-    "Hacker News": 5,
-    "量子位": 6,
-    "极客公园": 4,
-    "IT之家": 8,
-    "爱范儿": 2,
-    "InfoQ 中文": 3,
-    "Simon Willison": 1,
-    "Latent Space": 2,
-    "Stratechery": 1,
-    "Azeem Azhar": 2,
-    "科学空间": 1,
-    "Hugging Face Blog": 2,
-    "Google Research": 1,
-    "OpenAI": 1,
-    "NVIDIA": 1,
-    "GitHub Trending": 13,
-    "GitHub 新项目": 7
-   },
-   "llm": true,
-   "translated": 8
-  },
   {
    "at": "2026-10-04T15:43:52+00:00",
    "slot": "evening",
@@ -4471,6 +4448,44 @@
     "arXiv 新论文": 19,
     "GitHub Trending": 13,
     "GitHub 新项目": 7
+   },
+   "llm": true,
+   "translated": 0
+  },
+  {
+   "at": "2026-10-25T03:30:35+00:00",
+   "slot": "noon",
+   "candidates": 87,
+   "new": 27,
+   "stale": 24,
+   "judged": 27,
+   "selected": 13,
+   "mirrored": 13,
+   "by_category": {
+    "技术": 1,
+    "资讯": 9,
+    "项目": 2,
+    "观点": 1
+   },
+   "by_source": {
+    "Hacker News": 4,
+    "量子位": 1,
+    "极客公园": 5,
+    "IT之家": 15,
+    "爱范儿": 2,
+    "雷峰网": 14,
+    "InfoQ 中文": 14,
+    "Latent Space": 3,
+    "SemiAnalysis": 1,
+    "Azeem Azhar": 1,
+    "Nathan Benaich": 1,
+    "Zvi Mowshowitz": 1,
+    "Sebastian Raschka": 1,
+    "Hugging Face Blog": 1,
+    "Google Research": 1,
+    "OpenAI": 2,
+    "GitHub Trending": 14,
+    "GitHub 新项目": 6
    },
    "llm": true,
    "translated": 0
