@@ -722,6 +722,114 @@
    "mt": false
   },
   {
+   "id": "web-96bb6a372bc8",
+   "kind": "article",
+   "title": "aws/agent-toolkit-for-aws",
+   "url": "https://github.com/aws/agent-toolkit-for-aws",
+   "pdf_url": "",
+   "abstract": "Star aws / agent-toolkit-for-aws Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+   "authors": [],
+   "orgs": [
+    "aws"
+   ],
+   "published": "2026-10-25T14:55:57+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/aws/agent-toolkit-for-aws",
+     "signal": "★ 今日 +304 · Python",
+     "metric": 304
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AWS 官方智能体工具包上线",
+   "summary_zh": "AWS 推出官方支持的 MCP 服务器、技能与插件工具包，帮助 AI 智能体在 AWS 上构建应用。",
+   "highlights_zh": [
+    "官方维护的 MCP 服务器与插件集合",
+    "面向智能体接入 AWS 服务的标准化能力",
+    "Python 实现，GitHub Trending 热度上升"
+   ],
+   "why_zh": "如果你在 AWS 上构建智能体，可用它快速接入官方 MCP 与技能。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5746,
+   "score_llm": 7.0,
+   "score": 0.6498,
+   "date": "2026-10-25",
+   "slot": "evening",
+   "selected_at": "2026-10-25T14:55:57+00:00",
+   "mirror_pdf": "pdf/web-96bb6a372bc8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/aws/agent-toolkit-for-aws"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-36a01b353c30",
+   "kind": "article",
+   "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
+   "url": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+   "pdf_url": "",
+   "abstract": "#20",
+   "authors": [
+    "Nathan Lambert"
+   ],
+   "orgs": [
+    "Nathan Lambert"
+   ],
+   "published": "2026-10-25T11:49:00+00:00",
+   "sources": [
+    {
+     "name": "Nathan Lambert",
+     "authority": 0.8,
+     "url": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Ai2 研究员",
+   "title_zh": "播客：Kimi K3.1 Pro、网络新现实与 Muse 随想",
+   "summary_zh": "Nathan Lambert 在播客中讨论 Kimi K3.1 Pro 模型表现、网络安全新现实及对 Muse 的思考。",
+   "highlights_zh": [
+    "聚焦 Kimi K3.1 Pro 的能力与定位",
+    "探讨 AI 带来的网络安全新现实",
+    "来自 AI2 研究员的独立判断"
+   ],
+   "why_zh": "了解一线研究员对国产模型与安全议题的判断。",
+   "tags": [
+    "大模型",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.648,
+   "date": "2026-10-25",
+   "slot": "evening",
+   "selected_at": "2026-10-25T14:55:57+00:00",
+   "mirror_pdf": "pdf/web-36a01b353c30.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-325a829b858d",
    "kind": "article",
    "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
@@ -827,6 +935,59 @@
     {
      "label": "Hacker News 讨论",
      "url": "https://news.ycombinator.com/item?id=50227356"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9ad5ce51a997",
+   "kind": "article",
+   "title": "google-gemini/gemini-cli",
+   "url": "https://github.com/google-gemini/gemini-cli",
+   "pdf_url": "",
+   "abstract": "Star google-gemini / gemini-cli An open-source AI agent that brings the power of Gemini directly into your terminal.\nREADME: > [!NOTE] > > **Unpaid tier and Google One users:** Gemini CLI was replaced by Antigravity > CLI on June 18th, 2026. To learn more, see our > [blog post](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli). > > **Gemini CLI has not been optimized for Gemini 4 Argon.** To use Gemini 4 > Argon, please use Antigravity. # Gemini CLI [![Gemini CLI CI](https://github.com/google-gemini/gemini-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/google-gemini/gemini-cli/actions/workflows/ci.yml) [![Gemini CLI E2E (Chained)](https://github.com/google-gemini/gemini-cli/actions/workflows/chained_e2e.yml/badge.svg)](https://github.com/google-gemini/gemini-cli/actions/workflows/chained_e2e.yml) [![Version](https://img.shields.io/npm/v/@google/gemini-cli)](https://www.npmjs.com/package/@google/gemini-cli) [![License](https://img.shields.io/github/license/google-gemini/gemini-cli)](https://github.com/google-gemini/gemini-cli/blob/main/LICENSE) [![View Code Wiki](https://assets.codewiki.google/readme-badge/static.svg)](https://codewiki.google/github.com/google-gemini/gemini-cli?utm_source=badge&utm_medium=github&utm_campaign=github.com/google-gemini/gemini-cli) > [!NOTE] > > Gemini CLI is not optimized for the latest Gemini models. For the best coding > experience with Gemini models use > [Antigravity CLI](https://antigravity.google/product/antigravity-cli) Gemini CLI is an open-source AI agent that brings the power of Gemini directly int",
+   "authors": [],
+   "orgs": [
+    "google-gemini"
+   ],
+   "published": "2026-10-25T14:55:57+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/google-gemini/gemini-cli",
+     "signal": "★ 今日 +825 · TypeScript",
+     "metric": 825
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Gemini CLI 已被 Antigravity CLI 取代",
+   "summary_zh": "谷歌官方终端 AI 智能体 Gemini CLI 已停止为免费及 Google One 用户服务，由 Antigravity CLI 接替，且未针对 Gemini 4 Argon 优化。",
+   "highlights_zh": [
+    "免费层与 Google One 用户已于 2026 年 6 月 18 日迁移至 Antigravity CLI",
+    "Gemini CLI 未针对最新 Gemini 4 Argon 模型优化",
+    "官方建议使用 Gemini 4 Argon 的用户改用 Antigravity"
+   ],
+   "why_zh": "关注谷歌终端智能体产品线更替，避免继续在旧工具上投入。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6955,
+   "score_llm": 6.0,
+   "score": 0.6382,
+   "date": "2026-10-25",
+   "slot": "evening",
+   "selected_at": "2026-10-25T14:55:57+00:00",
+   "mirror_pdf": "pdf/web-9ad5ce51a997.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/google-gemini/gemini-cli"
     }
    ],
    "mt": false
@@ -1045,6 +1206,60 @@
    "mt": false
   },
   {
+   "id": "web-163f442e0e85",
+   "kind": "article",
+   "title": "Join us in Paris on November 3 for the State of AI 2026 meetup",
+   "url": "https://press.airstreet.com/p/join-us-in-paris-on-november-3-for",
+   "pdf_url": "",
+   "abstract": "With Guilherme Penedo of Macrodata Labs and Jules Giraud of Alta Ares.",
+   "authors": [
+    "Air Street Press"
+   ],
+   "orgs": [
+    "Nathan Benaich"
+   ],
+   "published": "2026-10-25T09:02:52+00:00",
+   "sources": [
+    {
+     "name": "Nathan Benaich",
+     "authority": 0.8,
+     "url": "https://press.airstreet.com/p/join-us-in-paris-on-november-3-for",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Air Street Capital，《State of AI》报告作者",
+   "title_zh": "State of AI 2026 巴黎见面会报名",
+   "summary_zh": "Air Street 宣布 11 月 3 日在巴黎举办 State of AI 2026 见面会，嘉宾来自 Macrodata Labs 与 Alta Ares。",
+   "highlights_zh": [
+    "《State of AI》报告团队主办",
+    "线下活动报名信息",
+    "无实质行业内容增量"
+   ],
+   "why_zh": "仅为活动通知，信息增量有限。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 5.0,
+   "score": 0.528,
+   "date": "2026-10-25",
+   "slot": "evening",
+   "selected_at": "2026-10-25T14:55:57+00:00",
+   "mirror_pdf": "pdf/web-163f442e0e85.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://press.airstreet.com/p/join-us-in-paris-on-november-3-for"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-d542228452b6",
    "kind": "article",
    "title": "【数智周报】MiniMax港股破发；DeepSeek开源推理框架DeepInfer并披露收入账本；美国国土安全部正式下令禁采DeepSeek……",
@@ -1209,6 +1424,270 @@
    "mt": false
   },
   {
+   "id": "web-bac5c877aebc",
+   "kind": "article",
+   "title": "何伟文：AI投资勃兴驱动中国和世界贸易剧增 | 巴伦独家",
+   "url": "https://www.tmtpost.com/8181271.html",
+   "pdf_url": "",
+   "abstract": "全球 AI 相关产品贸易的爆发式扩张推高中国外贸增速，这套新的产业分工图景，推翻了外界对中国贸易顺差的 “产能过剩” 单一叙事。",
+   "authors": [
+    "Barrons巴伦"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-25T13:02:03+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8181271.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI 投资勃兴驱动中外贸易剧增",
+   "summary_zh": "何伟文认为全球 AI 相关产品贸易爆发式扩张推高中国外贸增速，挑战“产能过剩”单一叙事。",
+   "highlights_zh": [
+    "AI 相关产品成为贸易增长新引擎",
+    "重新解读中国贸易顺差结构",
+    "宏观视角而非技术细节"
+   ],
+   "why_zh": "从贸易数据看 AI 产业链的宏观影响。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-25",
+   "slot": "evening",
+   "selected_at": "2026-10-25T14:55:57+00:00",
+   "mirror_pdf": "pdf/web-bac5c877aebc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8181271.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c518aad395a2",
+   "kind": "article",
+   "title": "力积电 2026Q3 净利润环比几乎翻倍，新产能将与客户共同投资",
+   "url": "https://www.ithome.com/1/017/690.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 25 日消息，中国台湾地区半导体企业力积电 (PSMC) 本月 21 日公布了企业 2026Q3 财报数据： 营业收入 ：213.42 亿新台币 （现汇率约合 43.75 亿元人民币） ，环比 +23%、同比 +80%； 净利 ：65 亿新台币 （现汇率约合 13.32 亿元人民币） ，环比 +98%、同比 +338%； 毛利率 ：48%，季对季提升 20 个百分点； 产能利用率 ：97%，季对季提升 11 个百分点、年对年提升 24 个百分点。 力积电表示，AI 推理已成为消耗算力的“无底洞”；利基型 DRAM 晶圆代工价格维持高档，不受近期市场移动影响；与美光合作的 DRAM 工艺 1P 预计 2027Q2 量产；随着 MLC NAND 供应的削减，SLC NAND 需求将提升，企业也将涉足 MLC 市场。 而在逻辑代工方面，AI 服务器与车规级 PMIC 的需求持续旺盛，智能手机企业对 2027 年 PMIC 产能的需求仍相当积极。 该企业已在三季度上调 8~10% 的投片价格 ，预计 2027 年还将涨价 10~20%，并通过长期合同保持订单稳定。 展望未来，力积电提到存储器产出均价与投片均价仍有超三成差额；而其新产能将聚焦 3D AI Foundry 领域， 由企业和客户共同投资 。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-25T12:49:15+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/017/690.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "力积电 Q3 净利环比近翻倍，称 AI 推理是算力无底洞",
+   "summary_zh": "力积电 2026Q3 营收环比增 23%、净利环比近翻倍，产能利用率达 97%，已上调投片价 8~10%，并称 AI 推理需求持续吞噬算力，新产能聚焦 3D AI Foundry 与客户共投。",
+   "highlights_zh": [
+    "净利 65 亿新台币，环比 +98%、同比 +338%，毛利率升至 48%",
+    "AI 推理与 AI 服务器 PMIC 需求旺盛，2027 年拟再涨价 10~20%",
+    "新产能聚焦 3D AI Foundry，由企业与客户共同投资"
+   ],
+   "why_zh": "从成熟制程代工侧印证 AI 推理需求对存储与电源芯片的拉动。",
+   "tags": [
+    "产品与行业",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-25",
+   "slot": "evening",
+   "selected_at": "2026-10-25T14:55:57+00:00",
+   "mirror_pdf": "pdf/web-c518aad395a2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/017/690.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b4d865866a7c",
+   "kind": "article",
+   "title": "谷歌 DeepMind 高管：终身学习者将在 AI 职场中占据优势",
+   "url": "https://www.ithome.com/1/017/681.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 25 日消息，据《商业内幕》今天报道，谷歌 DeepMind 高管莱拉 · 易卜拉欣（Lila Ibrahim）近期表示， 公司越来越看重那些能够证明自己在课堂之外 ， 持续学习的求职者 。 这名高管表示，虽然学历依然重要，但公司的招聘已经更重视求职者的经历。例如一项资历能告诉面试官你学过什么，多项资历则能说明你拥有持续学习的心态。 她还透露，现在的应届生往往会在简历中，更详细地描述自己学过哪些正规教育外的东西，并将这些经历与工作和教育背景一并列出。这些额外信息对 DeepMind 来说至关重要，因为它有助于判断求职者是否具备好奇心， 以及是否最好终身学习的准备 。 IT之家从原报道获悉，易卜拉欣还认为，多样化的学习经历能够让一个人更善于提出问题，但学校并没有很好地培养这种能力。如今 AI 的出现，让获取答案的成本变得极低，但真正知道如何提出好问题，却变得越来越难。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-25T11:59:23+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/017/681.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepMind高管：终身学习者将在AI职场占优",
+   "summary_zh": "谷歌DeepMind高管易卜拉欣表示，公司招聘更看重课堂外的持续学习经历，AI时代提出好问题的能力比获取答案更稀缺。",
+   "highlights_zh": [
+    "DeepMind招聘更重视多项资历所体现的持续学习心态",
+    "应届生简历中正规教育外的学习经历占比上升",
+    "AI降低获取答案成本，提问能力反而更稀缺"
+   ],
+   "why_zh": "了解头部AI实验室的人才观，对个人职业规划有参考价值。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-25",
+   "slot": "evening",
+   "selected_at": "2026-10-25T14:55:57+00:00",
+   "mirror_pdf": "pdf/web-b4d865866a7c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/017/681.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-755dc5f7963a",
+   "kind": "article",
+   "title": "GEEKCON 2026 上海站闭幕：黑客展示“隔空劫持无人机”“一条链接控制头部 App”等安全漏洞",
+   "url": "https://www.ithome.com/1/017/678.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 25 日消息，据 Geekcon 公众号，知名黑客赛事 GEEKCON 2026 上海站于昨日正式闭幕。 主办方“大牛蛙”表示，今年的 GEEKCON“差点儿流产”，这是因为“今年的 AI 成长太快，几乎已经替代掉人类黑客了”： AI 来了。如果 99% 的白帽子注定被 AI 替代，我为什么还要鼓励年轻人选择一条毫无前途的道路，我为什么还要办 GEEKCON。 我想，GEEKCON 和我都该退出历史舞台了。但去年没有告别，今年要不就办一下，告个别吧。所以今年 GEEKCON 的主题是，最后一届人类黑客大赛？结尾原本是个句号。 GEEKCON 继续办下去的使命，就是找到这个年轻人。他今天可能已经坐在了这里。只是我们和他自己现在都还不知道。 IT之家获悉，本次黑客赛事设有“迷路的验证码”、“从 Prompt 到扭矩”、“银行转账安全挑战”、“一条链接控制头部 App”、“失控的无人机”、“AI 黑客极限挑战赛”、“AI 黑客辩论赛”、“智能汽车破解”等分享活动。 以“隔空劫持无人机”分享活动为例，匿名选手利用未知漏洞，远程控制了某主流品牌无人机，随后绕过裁判在现场设置的电子围栏，完成起飞。从远程接管到突破飞行限制，这项挑战展示了软件安全缺陷如何影响无人机的实际行为，也揭示了智能设备系统安全与现实世界安全之间的紧密联系：一旦底层控制权限失守，原本用于约束飞行行为的安全机制，也可能随之失效。 以“银行转账安全挑战”分享活动为例，匿名选手利用银行 App 的未知缺陷，通过一条链接触发攻击，成功劫持银行 App 转账流程，使得机主原本给亲友的转账最后都转到了选手的账户，并且能够篡改转账金额。整个过程直观展现了未知漏洞在金融场景中的潜在危害，也提醒我们，在 AI 时代，面对越来越隐蔽、成本越来越低的攻击手段，金融安全与用户信任正面临新的挑战。 公开信息显示，GEEKCON 是由 DARKNAVY 创办的全球非营利性安全极客技术活动平台，前身为 2014 年创立的探索人工智能与专业安全的前沿平台 GeekPwn，2023 年革新升级为现名称。 据介绍，该活动每年 10 月 24 日举办，到目前为止，GEEKCON 已吸引超过 30000 名安全研究人员参与，并与多家科技企业建立了深入的技术交流机制。面对日益复杂的安全形势，GEEKCON 正在推动建立智能设备安全量化评级体系。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-25T11:55:03+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/017/678.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "GEEKCON 2026：AI冲击下的黑客大赛",
+   "summary_zh": "GEEKCON 2026上海站闭幕，主办方称AI几乎替代人类黑客，赛事展示隔空劫持无人机、一条链接劫持银行App转账等漏洞。",
+   "highlights_zh": [
+    "主办方坦言AI成长太快，赛事或成最后一届人类黑客大赛",
+    "选手利用未知漏洞远程接管无人机并突破电子围栏",
+    "一条链接触发银行App转账劫持并可篡改金额"
+   ],
+   "why_zh": "折射AI对安全攻防格局的冲击，安全从业者值得关注。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-25",
+   "slot": "evening",
+   "selected_at": "2026-10-25T14:55:57+00:00",
+   "mirror_pdf": "pdf/web-755dc5f7963a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/017/678.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-de3d1d171ffb",
+   "kind": "article",
+   "title": "微软 Teams 将允许第三方工具扫描会议内容，识别深度伪造",
+   "url": "https://www.ithome.com/1/017/676.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 25 日消息，据科技媒体 Windows Latest 今天报道，微软 Teams 将允许组织接入已认证的第三方工具，扫描会议中的视频和音频内容，检测是否存在深度伪造。 该功能将于 11 月中旬在 Teams 桌面版 、 Mac 版和网页版逐步推出 。 微软表示，深度伪造（IT之家注：Deepfake）内容检测工作由外部提供商完成，Teams 仅负责展示警告弹窗并提供相关操作选项。 目前，微软的 Graph 文档已经列出 reportSyntheticMedia 测试版 API，详细阐述该功能运作方式。经认证的检测机器人必须先获准加入通话，并需要组织管理员赋予 Calls.ReportSyntheticMedia.All 权限。然后机器人会标记参会者，提供介于 0.0 到 1.0 之间的置信度评分，以及低中高三个等级的深度伪造判断。 微软在合规性说明中表示，第三方服务提供商可能会分析会议中的音频和视频信号，管理员启用功能前应审查其服务条款及数据处理方式。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-25T11:35:02+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/017/676.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Teams将允许第三方工具检测深度伪造",
+   "summary_zh": "微软Teams将于11月中旬上线功能，允许组织接入认证第三方工具扫描会议音视频，标记深度伪造并给出置信度评分。",
+   "highlights_zh": [
+    "检测由外部提供商完成，Teams仅展示警告弹窗",
+    "检测机器人需管理员授予Calls.ReportSyntheticMedia权限",
+    "输出0.0-1.0置信度评分与低中高三级判定"
+   ],
+   "why_zh": "企业会议场景的深伪检测落地，反映AI内容鉴伪的产品化路径。",
+   "tags": [
+    "对齐与安全",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-25",
+   "slot": "evening",
+   "selected_at": "2026-10-25T14:55:57+00:00",
+   "mirror_pdf": "pdf/web-de3d1d171ffb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/017/676.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
    "id": "web-4fc01e1eda22",
    "kind": "article",
    "title": "一位开发者让电视服用了 Claude，这是它系统发生的变化",
@@ -1368,12 +1847,66 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-bad21402f8f5",
+   "kind": "article",
+   "title": "连夜蹬了K3.1 pro之后，我觉得Kimi可能真的要做具身智能了",
+   "url": "https://www.tmtpost.com/8180725.html",
+   "pdf_url": "",
+   "abstract": "终于不用等那么久了。",
+   "authors": [
+    "象先志"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-25T10:50:45+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8180725.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "体验 K3.1 Pro 后，我认为 Kimi 可能要做具身智能",
+   "summary_zh": "钛媒体作者体验 Kimi K3.1 Pro 后推测其路线可能指向具身智能，属个人观感式评论，缺乏可验证信息。",
+   "highlights_zh": [
+    "以个人使用体验为主的主观推测",
+    "未提供官方路线或产品证据",
+    "标题党色彩较强"
+   ],
+   "why_zh": "信息增量有限，仅可作舆论风向参考。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 4.0,
+   "score": 0.384,
+   "date": "2026-10-25",
+   "slot": "evening",
+   "selected_at": "2026-10-25T14:55:57+00:00",
+   "mirror_pdf": "pdf/web-bad21402f8f5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8180725.html"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "算力瓶颈从芯片转向电力与内存，供给锁定至2027年后",
-   "why": "AWS 2027容量售罄、谷歌建虚拟电厂腾电、野村看存储旺至2028，三重信号同向。",
+   "trend": "算力瓶颈从芯片转向电力与内存，供给端成为AI扩张的真正闸门",
+   "why": "AWS 2027容量售罄、谷歌建虚拟电厂腾电、野村上调数据中心容量预期，均指向电力与存储约束。",
    "refs": [
     "web-b57d01ea0fb6",
     "web-9e13ef443bf1",
@@ -1382,37 +1915,37 @@
    ]
   },
   {
-   "trend": "多模型编排与专用推理硬件开始挑战单一大模型+GPU集群范式",
-   "why": "五模型harness追平前沿、Cerebras万亿参数低延迟推理，架构替代路径浮现。",
+   "trend": "多模型编排与开源Agent客户端兴起，模型层竞争向harness层迁移",
+   "why": "五模型组合追平Fable 5、Cindy可混用多harness与多模型，说明编排能力正成为差异化来源。",
    "refs": [
     "web-325a829b858d",
-    "web-c35e0b6aa8bd",
-    "web-7c213e5a7519"
+    "web-7c213e5a7519",
+    "web-96bb6a372bc8"
    ]
   },
   {
-   "trend": "AI回报仍局限于科技业内，资本开支与落地收益的剪刀差扩大",
-   "why": "传统行业无量化回报，而软银500亿、AWS 2200亿资本开支继续加码。",
+   "trend": "推理侧专用硬件与超低延迟路线开始挑战GPU集群范式",
+   "why": "Cerebras在晶圆级芯片部署万亿参数模型主打低延迟，力积电称推理需求吞噬算力并上调投片价。",
+   "refs": [
+    "web-c35e0b6aa8bd",
+    "web-c518aad395a2"
+   ]
+  },
+  {
+   "trend": "模型安全从对齐口号转向可核查性与能力主动阉割的工程取舍",
+   "why": "OpenAI研究员争议聚焦思维链可审计，Kimi主动移除攻击能力致漏洞评测下降，安全正被量化进训练流程。",
+   "refs": [
+    "web-edc9878ee42a",
+    "web-5ae166d94df7",
+    "web-36a01b353c30"
+   ]
+  },
+  {
+   "trend": "AI回报仍局限于科技业内，传统行业落地与Agent金融风险同步显形",
+   "why": "HN热帖指生产力提升未外溢，同时美国大行已为失控智能体制定应急预案，落地与风险并行。",
    "refs": [
     "web-6597a1303e38",
-    "web-a2311a22965a",
-    "web-b57d01ea0fb6"
-   ]
-  },
-  {
-   "trend": "模型能力主动设限与思维链可核查性，正成为安全竞争新战场",
-   "why": "Kimi主动削弱攻击能力、OpenAI解雇争议聚焦推理透明度，评测口径随之变化。",
-   "refs": [
-    "web-5ae166d94df7",
-    "web-edc9878ee42a"
-   ]
-  },
-  {
-   "trend": "智能体自主操作进入金融等高风险场景，倒逼灾后预案与规则重建",
-   "why": "美国大行制定失控智能体应急流程，安全边界从模型层下沉到业务层。",
-   "refs": [
-    "web-4624cc74135a",
-    "web-8079a8262125"
+    "web-4624cc74135a"
    ]
   }
  ]

@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-25T09:44:01+00:00",
+ "updated": "2026-10-25T14:55:57+00:00",
  "days": [
   {
    "date": "2026-10-25",
-   "count": 25,
+   "count": 35,
    "slots": {
     "noon": 13,
-    "evening": 12
+    "evening": 22
    }
   },
   {
@@ -279,30 +279,31 @@
    }
   }
  ],
- "total": 1706,
+ "total": 1716,
  "last_run": {
-  "at": "2026-10-25T09:44:01+00:00",
+  "at": "2026-10-25T14:55:57+00:00",
   "slot": "evening",
-  "candidates": 82,
-  "new": 23,
-  "stale": 14,
-  "judged": 23,
-  "selected": 12,
-  "mirrored": 12,
+  "candidates": 72,
+  "new": 21,
+  "stale": 3,
+  "judged": 21,
+  "selected": 10,
+  "mirrored": 10,
   "by_category": {
-   "技术": 1,
-   "资讯": 10,
-   "观点": 1
+   "项目": 2,
+   "观点": 2,
+   "资讯": 6
   },
   "by_source": {
    "Hacker News": 6,
    "极客公园": 2,
    "IT之家": 11,
    "爱范儿": 2,
-   "雷峰网": 9,
+   "雷峰网": 4,
    "钛媒体": 5,
-   "InfoQ 中文": 13,
-   "Latent Space": 3,
+   "InfoQ 中文": 9,
+   "Nathan Lambert": 1,
+   "Latent Space": 2,
    "SemiAnalysis": 1,
    "Azeem Azhar": 2,
    "Nathan Benaich": 2,
@@ -310,9 +311,9 @@
    "Sebastian Raschka": 1,
    "Hugging Face Blog": 1,
    "Google Research": 1,
-   "OpenAI": 2,
-   "GitHub Trending": 14,
-   "GitHub 新项目": 6
+   "OpenAI": 1,
+   "GitHub Trending": 13,
+   "GitHub 新项目": 7
   },
   "llm": true,
   "translated": 0

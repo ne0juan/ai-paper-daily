@@ -1709,7 +1709,17 @@
   "web-9d7e59ceaa2b": "2026-10-25",
   "web-4fc01e1eda22": "2026-10-25",
   "web-1f1c819084b9": "2026-10-25",
-  "web-a2311a22965a": "2026-10-25"
+  "web-a2311a22965a": "2026-10-25",
+  "web-96bb6a372bc8": "2026-10-25",
+  "web-36a01b353c30": "2026-10-25",
+  "web-9ad5ce51a997": "2026-10-25",
+  "web-163f442e0e85": "2026-10-25",
+  "web-bac5c877aebc": "2026-10-25",
+  "web-c518aad395a2": "2026-10-25",
+  "web-b4d865866a7c": "2026-10-25",
+  "web-755dc5f7963a": "2026-10-25",
+  "web-de3d1d171ffb": "2026-10-25",
+  "web-bad21402f8f5": "2026-10-25"
  },
  "known_links": {
   "https://www.anthropic.com/news": [
@@ -1972,39 +1982,6 @@
   ]
  },
  "runs": [
-  {
-   "at": "2026-10-05T04:24:48+00:00",
-   "slot": "noon",
-   "candidates": 69,
-   "new": 29,
-   "stale": 8,
-   "judged": 29,
-   "selected": 13,
-   "mirrored": 11,
-   "by_category": {
-    "资讯": 11,
-    "项目": 2
-   },
-   "by_source": {
-    "HF Daily Papers": 1,
-    "Hacker News": 2,
-    "量子位": 6,
-    "极客公园": 5,
-    "IT之家": 17,
-    "爱范儿": 2,
-    "钛媒体": 7,
-    "InfoQ 中文": 3,
-    "Simon Willison": 1,
-    "Latent Space": 1,
-    "Azeem Azhar": 2,
-    "科学空间": 1,
-    "Hugging Face Blog": 1,
-    "GitHub Trending": 12,
-    "GitHub 新项目": 8
-   },
-   "llm": true,
-   "translated": 0
-  },
   {
    "at": "2026-10-05T12:11:53+00:00",
    "slot": "evening",
@@ -4501,6 +4478,44 @@
     "OpenAI": 2,
     "GitHub Trending": 14,
     "GitHub 新项目": 6
+   },
+   "llm": true,
+   "translated": 0
+  },
+  {
+   "at": "2026-10-25T14:55:57+00:00",
+   "slot": "evening",
+   "candidates": 72,
+   "new": 21,
+   "stale": 3,
+   "judged": 21,
+   "selected": 10,
+   "mirrored": 10,
+   "by_category": {
+    "项目": 2,
+    "观点": 2,
+    "资讯": 6
+   },
+   "by_source": {
+    "Hacker News": 6,
+    "极客公园": 2,
+    "IT之家": 11,
+    "爱范儿": 2,
+    "雷峰网": 4,
+    "钛媒体": 5,
+    "InfoQ 中文": 9,
+    "Nathan Lambert": 1,
+    "Latent Space": 2,
+    "SemiAnalysis": 1,
+    "Azeem Azhar": 2,
+    "Nathan Benaich": 2,
+    "Zvi Mowshowitz": 1,
+    "Sebastian Raschka": 1,
+    "Hugging Face Blog": 1,
+    "Google Research": 1,
+    "OpenAI": 1,
+    "GitHub Trending": 13,
+    "GitHub 新项目": 7
    },
    "llm": true,
    "translated": 0
