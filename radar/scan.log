@@ -1,13 +1,12 @@
-2026-10-24 14:24:46,196 INFO source hf_daily           -> 15 items
-2026-10-24 14:24:46,470 INFO source hackernews         -> 3 items
-2026-10-24 14:25:29,667 WARNING rss 钛媒体 failed: 403 for https://www.tmtpost.com/rss.xml
-2026-10-24 14:25:31,475 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-24 14:25:40,035 INFO source rss                -> 73 items
-2026-10-24 14:25:41,760 INFO source html_lists         -> 0 items
-2026-10-24 14:25:41,760 INFO source x                  -> 0 items
-2026-10-24 14:25:42,242 INFO source arxiv_search       -> 19 items
-2026-10-24 14:25:51,583 INFO source github             -> 20 items
-2026-10-24 14:25:51,584 INFO candidates: 130 (stale dropped 26, new 43)
-2026-10-24 14:26:37,360 INFO llm judged 43/43 (calls=6)
-2026-10-24 14:26:47,149 WARNING snapshot https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/: blocked or empty page
-2026-10-24 14:28:52,668 INFO run done: {"at": "2026-10-24T14:24:45+00:00", "slot": "evening", "candidates": 130, "new": 43, "stale": 26, "judged": 43, "selected": 21, "mirrored": 20, "by_category": {"项目": 3, "资讯": 14, "技术": 4}, "by_source": {"HF Daily Papers": 15, "Hacker News": 3, "量子位": 1, "极客公园": 6, "IT之家": 9, "爱范儿": 3, "少数派": 1, "雷峰网": 15, "InfoQ 中文": 16, "Dwarkesh Patel": 1, "Latent Space": 4, "SemiAnalysis": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Sebastian Raschka": 1, "Hugging Face Blog": 3, "Google Research": 1, "OpenAI": 4, "Google DeepMind": 1, "NVIDIA": 2, "arXiv 新论文": 19, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
+2026-10-25 03:30:36,219 INFO source hf_daily           -> 0 items
+2026-10-25 03:30:37,276 INFO source hackernews         -> 4 items
+2026-10-25 03:30:51,841 WARNING rss 钛媒体 failed: 403 for https://www.tmtpost.com/rss.xml
+2026-10-25 03:30:53,939 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-25 03:31:02,628 INFO source rss                -> 63 items
+2026-10-25 03:31:03,999 INFO source html_lists         -> 0 items
+2026-10-25 03:31:03,999 INFO source x                  -> 0 items
+2026-10-25 03:31:46,825 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
+2026-10-25 03:31:55,388 INFO source github             -> 20 items
+2026-10-25 03:31:55,405 INFO candidates: 87 (stale dropped 24, new 27)
+2026-10-25 03:32:25,291 INFO llm judged 27/27 (calls=4)
+2026-10-25 03:34:07,190 INFO run done: {"at": "2026-10-25T03:30:35+00:00", "slot": "noon", "candidates": 87, "new": 27, "stale": 24, "judged": 27, "selected": 13, "mirrored": 13, "by_category": {"技术": 1, "资讯": 9, "项目": 2, "观点": 1}, "by_source": {"Hacker News": 4, "量子位": 1, "极客公园": 5, "IT之家": 15, "爱范儿": 2, "雷峰网": 14, "InfoQ 中文": 14, "Latent Space": 3, "SemiAnalysis": 1, "Azeem Azhar": 1, "Nathan Benaich": 1, "Zvi Mowshowitz": 1, "Sebastian Raschka": 1, "Hugging Face Blog": 1, "Google Research": 1, "OpenAI": 2, "GitHub Trending": 14, "GitHub 新项目": 6}, "llm": true, "translated": 0}
