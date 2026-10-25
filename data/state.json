@@ -1697,7 +1697,19 @@
   "web-531b3bab6372": "2026-10-25",
   "web-5ae166d94df7": "2026-10-25",
   "web-14f0be80e35f": "2026-10-25",
-  "web-8079a8262125": "2026-10-25"
+  "web-8079a8262125": "2026-10-25",
+  "web-325a829b858d": "2026-10-25",
+  "web-c35e0b6aa8bd": "2026-10-25",
+  "web-f514c9132a94": "2026-10-25",
+  "web-baf1baa423cf": "2026-10-25",
+  "web-07b10bc72595": "2026-10-25",
+  "web-7c1965d40e4c": "2026-10-25",
+  "web-d542228452b6": "2026-10-25",
+  "web-a13a316c4388": "2026-10-25",
+  "web-9d7e59ceaa2b": "2026-10-25",
+  "web-4fc01e1eda22": "2026-10-25",
+  "web-1f1c819084b9": "2026-10-25",
+  "web-a2311a22965a": "2026-10-25"
  },
  "known_links": {
   "https://www.anthropic.com/news": [
@@ -1960,40 +1972,6 @@
   ]
  },
  "runs": [
-  {
-   "at": "2026-10-04T15:43:52+00:00",
-   "slot": "evening",
-   "candidates": 59,
-   "new": 13,
-   "stale": 0,
-   "judged": 13,
-   "selected": 9,
-   "mirrored": 9,
-   "by_category": {
-    "资讯": 5,
-    "项目": 3,
-    "技术": 1
-   },
-   "by_source": {
-    "Hacker News": 7,
-    "量子位": 6,
-    "极客公园": 5,
-    "IT之家": 9,
-    "爱范儿": 2,
-    "InfoQ 中文": 2,
-    "Simon Willison": 1,
-    "Latent Space": 1,
-    "Stratechery": 1,
-    "Azeem Azhar": 2,
-    "科学空间": 1,
-    "Hugging Face Blog": 1,
-    "OpenAI": 1,
-    "GitHub Trending": 11,
-    "GitHub 新项目": 9
-   },
-   "llm": true,
-   "translated": 0
-  },
   {
    "at": "2026-10-05T04:24:48+00:00",
    "slot": "noon",
@@ -4479,6 +4457,43 @@
     "SemiAnalysis": 1,
     "Azeem Azhar": 1,
     "Nathan Benaich": 1,
+    "Zvi Mowshowitz": 1,
+    "Sebastian Raschka": 1,
+    "Hugging Face Blog": 1,
+    "Google Research": 1,
+    "OpenAI": 2,
+    "GitHub Trending": 14,
+    "GitHub 新项目": 6
+   },
+   "llm": true,
+   "translated": 0
+  },
+  {
+   "at": "2026-10-25T09:44:01+00:00",
+   "slot": "evening",
+   "candidates": 82,
+   "new": 23,
+   "stale": 14,
+   "judged": 23,
+   "selected": 12,
+   "mirrored": 12,
+   "by_category": {
+    "技术": 1,
+    "资讯": 10,
+    "观点": 1
+   },
+   "by_source": {
+    "Hacker News": 6,
+    "极客公园": 2,
+    "IT之家": 11,
+    "爱范儿": 2,
+    "雷峰网": 9,
+    "钛媒体": 5,
+    "InfoQ 中文": 13,
+    "Latent Space": 3,
+    "SemiAnalysis": 1,
+    "Azeem Azhar": 2,
+    "Nathan Benaich": 2,
     "Zvi Mowshowitz": 1,
     "Sebastian Raschka": 1,
     "Hugging Face Blog": 1,

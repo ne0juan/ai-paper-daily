@@ -720,42 +720,699 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-325a829b858d",
+   "kind": "article",
+   "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
+   "url": "https://github.com/slee-persis/GVS5H",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-25T03:56:01Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50228167",
+     "signal": "163 pts",
+     "metric": 163
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "五个 Qwen3.8-27B 模型借 GVS5H 框架追平 Fable 5",
+   "summary_zh": "有团队用 GVS5H harness 组合五个 Qwen3.8-27B 模型，效果追平 Fable 5，展示多模型编排的潜力。",
+   "highlights_zh": [
+    "多模型组合追平更强单模型",
+    "harness 设计成为性能关键变量",
+    "开源模型可通过编排弥补差距"
+   ],
+   "why_zh": "智能体脚手架设计正成为模型能力之外的重要竞争维度。",
+   "tags": [
+    "智能体",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.5591,
+   "score_llm": 7.0,
+   "score": 0.6436,
+   "date": "2026-10-25",
+   "slot": "evening",
+   "selected_at": "2026-10-25T09:44:01+00:00",
+   "mirror_pdf": "pdf/web-325a829b858d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/slee-persis/GVS5H"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50228167"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c35e0b6aa8bd",
+   "kind": "article",
+   "title": "Cerebras Deploys Trillion-Parameter AI Models",
+   "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-25T01:33:49Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50227356",
+     "signal": "160 pts",
+     "metric": 160
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Cerebras 部署万亿参数级 AI 模型",
+   "summary_zh": "Cerebras 宣布在其晶圆级芯片上部署万亿参数模型，主打超低延迟推理，挑战 GPU 集群方案。",
+   "highlights_zh": [
+    "万亿参数模型落地专用硬件",
+    "晶圆级芯片主打推理速度",
+    "对英伟达 GPU 推理路线构成差异化竞争"
+   ],
+   "why_zh": "推理硬件格局可能生变，关注专用芯片对成本与延迟的影响。",
+   "tags": [
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.5582,
+   "score_llm": 7.0,
+   "score": 0.6433,
+   "date": "2026-10-25",
+   "slot": "evening",
+   "selected_at": "2026-10-25T09:44:01+00:00",
+   "mirror_pdf": "pdf/web-c35e0b6aa8bd.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50227356"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f514c9132a94",
+   "kind": "article",
+   "title": "英伟达黄仁勋：市场对新型云服务商的需求高到离谱，但问题是缺钱",
+   "url": "https://www.ithome.com/1/017/614.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 25 日消息，当地时间 22 日，英伟达 CEO 黄仁勋接受美国 CNBC 采访时说，市场对新型云服务商的需求极其旺盛，“高到离谱（off the charts）”，但资金短缺正成为制约行业发展的主要障碍。“从基本面看，新型云服务商的市场需求非常旺盛。” 他还称，这些企业的能力“非同寻常”。“眼下最缺的是 支撑企业增长的营运资金 …… AI 各个领域都有大量需求，导致资金供不应求。市场需要的资金远超实际供应量，但问题 终会得到解决 。” 电力供应同样制约着 AI 行业的发展。在电价相对较高的欧洲，情况尤其突出。 黄仁勋指出，欧洲能源供应紧张，确保 Nebius 和 Mistral 等企业获得足够的电力，对其业务扩张十分重要。“欧洲可以吸引外来投资，但前提是拥有自己的基础设施。如果欧洲的新型云服务商能够在当地建立基础设施，就能以此为基础发展 AI 产业生态和 AI 经济，让 AI 经济的增长飞轮在欧洲启动，并在欧洲形成完整的循环。 整个欧洲还需要更多的新型云服务商 。” 近期，CoreWeave、Nebius 等新型云服务商的股票持续遭到抛售。投资者越来越担心，这些企业为建设 AI 基础设施投入了大量资金，而收回投资所需的时间恐怕比预期更长。 CoreWeave 的债务问题也引发投资者担忧。作为行业主要企业之一，CoreWeave 高度依赖借债来为数据中心建设筹集资金。 当日美股盘前交易中，新型云服务商股价继续走低。 Nebius 下跌 3.6%，CoreWeave 下跌 4%，Iren 和 Applied Digital 均下跌近 4% 。 英伟达正寻求加大对欧洲 AI 行业的投资，黄仁勋本月也密集接受欧洲媒体采访。英伟达已承诺向当地企业、高校和研究机构投入近 100 亿美元 （IT之家注：现汇率约合 668.92 亿元人民币） 。 上周访问伦敦期间，英伟达宣布入股英国 5 家初创企业，持股价值超过 10 亿美元 （现汇率约合 66.89 亿元人民币） 。此外，英伟达还投资了多家法国初创企业。 黄仁勋指出：“我们希望推动欧洲 AI 经济的发展。欧洲拥有雄厚的技术实力、丰富的工业经验和出色的科研能力，已经做好参与并在当地发展 AI 经济的准备。”",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-25T07:27:22+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/017/614.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "黄仁勋：新型云服务商需求爆表，瓶颈在资金与电力",
+   "summary_zh": "黄仁勋称市场对新型云服务商（Neocloud）需求「高到离谱」，但营运资金与电力供应成为主要制约，并强调欧洲需自建基础设施以启动 AI 经济飞轮。",
+   "highlights_zh": [
+    "需求端极旺，瓶颈从算力转向营运资金与电力",
+    "点名 Nebius、Mistral，呼吁欧洲扩建本土新型云",
+    "英伟达已承诺向欧洲投入近 100 亿美元并入股多家初创"
+   ],
+   "why_zh": "头部公司 CEO 对 AI 基建资金链与能源瓶颈的明确判断，是把握算力投资节奏的关键信号。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-25",
+   "slot": "evening",
+   "selected_at": "2026-10-25T09:44:01+00:00",
+   "mirror_pdf": "pdf/web-f514c9132a94.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/017/614.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-baf1baa423cf",
+   "kind": "article",
+   "title": "🔮 The internet under attack, AGI compression & the next oil shock that never will be... #607",
+   "url": "https://www.exponentialview.co/p/ev-607",
+   "pdf_url": "",
+   "abstract": "Plus: Join our invite-only salon with Bill Gross",
+   "authors": [
+    "Azeem Azhar"
+   ],
+   "orgs": [
+    "Azeem Azhar"
+   ],
+   "published": "2026-10-25T03:30:52+00:00",
+   "sources": [
+    {
+     "name": "Azeem Azhar",
+     "authority": 0.8,
+     "url": "https://www.exponentialview.co/p/ev-607",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Exponential View 创始人",
+   "title_zh": "互联网受攻击、AGI 压缩与不会到来的石油冲击",
+   "summary_zh": "Azeem Azhar 本期通讯讨论网络攻击、AGI 压缩效应与能源冲击预期，观点分散、增量有限。",
+   "highlights_zh": [
+    "AGI 压缩概念",
+    "网络安全与 AI 交叉",
+    "能源与 AI 叙事"
+   ],
+   "why_zh": "作者有影响力，但本期为多话题拼盘，深度一般。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.588,
+   "date": "2026-10-25",
+   "slot": "evening",
+   "selected_at": "2026-10-25T09:44:01+00:00",
+   "mirror_pdf": "pdf/web-baf1baa423cf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.exponentialview.co/p/ev-607"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-07b10bc72595",
+   "kind": "article",
+   "title": "阿里 AI 智能体“千问 Go！”上线“我的应用”功能：可帮助用户搭建长期、可分享的专属应用",
+   "url": "https://www.ithome.com/1/017/625.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 25 日消息，阿里宣布旗下 AI 智能体“千问 Go！”上线“我的应用”功能。用户无需编程，只要说出需求，就能搭建用于生活、工作和学习等场景的应用。生成的应用支持对外分享、持续更新数据。 据悉，“我的应用”接入阿里云 AI 应用生产平台 Meoo（秒悟），可自动完成应用搭建、数据库配置和部署上线。结合千问 Go 的云端 Pro 能力， 还能在授权后 调用用户在淘宝、高德、大麦、夸克网盘等平台的个人数据，让新搭建的应用直接利用已有的购物、出行、学习等生活记录 ，生成更个性化的专属工具。例如，用户可以调用自己在大麦的历史订单，将其打造为一本电子票根册，将过去看过的演出整理成可随时翻阅的个人回忆。 目前，“我的应用”及支持操作云手机、云电脑的云端 Pro 均处于邀测阶段，用户可前往千问 App 内邀测页面排队申请。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-25T08:05:26+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/017/625.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "千问Go！上线“我的应用”，说句话就能搭应用",
+   "summary_zh": "阿里千问Go！上线“我的应用”，用户无需编程即可搭建可分享、可持续更新的专属应用，并接入个人平台数据。",
+   "highlights_zh": [
+    "接入秒悟平台自动完成搭建、数据库与部署",
+    "授权后可调用淘宝、高德、大麦等个人数据",
+    "支持分享与持续更新，目前处于邀测"
+   ],
+   "why_zh": "智能体从对话走向可交付应用，是Agent产品化的重要一步。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-25",
+   "slot": "evening",
+   "selected_at": "2026-10-25T09:44:01+00:00",
+   "mirror_pdf": "pdf/web-07b10bc72595.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/017/625.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7c1965d40e4c",
+   "kind": "article",
+   "title": "野村证券：存储芯片需求在 2028 年前仍将快速增长，AI 投资前景被过度担忧",
+   "url": "https://www.ithome.com/1/017/622.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 25 日消息，据韩媒 Chosunbiz 报道，野村证券 20 日发布乐观预测，认为尽管 AI 企业营收增速放缓、融资前景引发担忧，全球存储芯片需求 仍将在 2028 年前保持快速增长 。 野村证券在最新全球存储芯片行业报告中，将三星电子和 SK 海力士列为重点推荐股票， 均给予“买入”评级 ，目标股价分别为 67 万韩元 （IT之家注：现汇率约合 3,380 元人民币） 和 470 万韩元 （现汇率约合 23,712 元人民币） 。 野村证券认为， 市场过度担忧 AI 投资前景 ，存储芯片行业的强劲行情有望持续较长时间。 近期，AI 企业 CoreWeave 的债券价格暴跌，融资压力加剧，市场担心 AI 企业 可能因此削减资本开支 。与此同时，中国存储芯片制造商长鑫存储的技术进步，也引发了市场对存储芯片供应增加的担忧。 野村证券认为， 市场高估了 AI 企业削减需求的风险 。该机构估算，OpenAI 和 Anthropic 今年第三季度合计营收同比增长 507%，但要达到市场对全年营收的预期，两家公司第四季度仍需实现大幅增长。 野村证券还认为，CoreWeave 等数据中心运营商面临的资金困难，不太可能导致整个 AI 行业的投资活动停滞。该机构解释称，个别业务的风险可能上升，但已经建成的数据中心和设备也可以由其他运营商使用。 野村证券看好三星电子和 SK 海力士，主要是因为全球数据中心持续扩建。根据其追踪的数据，全球数据中心今年新增容量预计为 22.3GW， 明年将增至 31.5GW 。 野村证券预计，存储芯片需求增速将继续超过供应增速，从而为价格提供支撑。三星电子、SK 海力士等 9 家半导体企业，合计净现金将从今年第二季度的 2,820 亿美元 （现汇率约合 1.89 万亿元人民币） 增至 2028 年末的 2 万亿美元 （现汇率约合 13.38 万亿元人民币） 。 野村证券也指出，如果数据中心投资计划持续缩减或推迟，就需要重新审视存储芯片需求预测。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-25T07:57:49+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/017/622.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "野村：存储芯片需求将旺至 2028，AI 投资担忧被高估",
+   "summary_zh": "野村证券认为市场过度担忧 AI 资本开支收缩，预计数据中心新增容量从今年 22.3GW 增至明年 31.5GW，存储需求增速持续超供应，给予三星、SK 海力士买入评级。",
+   "highlights_zh": [
+    "全球数据中心新增容量今年 22.3GW、明年 31.5GW",
+    "OpenAI 与 Anthropic 三季度合计营收同比增 507%",
+    "承认若数据中心投资推迟，需重估存储需求"
+   ],
+   "why_zh": "从存储芯片与数据中心容量角度给出 AI 资本开支的多头测算，可与看空叙事对照阅读。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-25",
+   "slot": "evening",
+   "selected_at": "2026-10-25T09:44:01+00:00",
+   "mirror_pdf": "pdf/web-7c1965d40e4c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/017/622.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d542228452b6",
+   "kind": "article",
+   "title": "【数智周报】MiniMax港股破发；DeepSeek开源推理框架DeepInfer并披露收入账本；美国国土安全部正式下令禁采DeepSeek……",
+   "url": "https://www.tmtpost.com/8181051.html",
+   "pdf_url": "",
+   "abstract": "（10月19日-10月24日）DeepSeek拟在最新一轮融资中筹得约1000亿元；Today AI累计完成超2亿美元融资；工信部：600亿元国家AI基金投出一批项目，AI企业超6600家；中国半数token消耗靠AI短剧？豆包高管回应；AI板块近期遭遇明显抛售……",
+   "authors": [
+    "TechHorizon"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-25T09:29:09+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8181051.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "数智周报：MiniMax 破发、DeepSeek 开源 DeepInfer",
+   "summary_zh": "周报汇总：MiniMax 港股破发、DeepSeek 开源推理框架 DeepInfer 并披露收入、美国土安全部禁用 DeepSeek。",
+   "highlights_zh": [
+    "DeepSeek 开源推理框架 DeepInfer",
+    "MiniMax 港股破发",
+    "美国土安全部禁用 DeepSeek"
+   ],
+   "why_zh": "一网打尽本周关键行业动态，适合快速补课。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-25",
+   "slot": "evening",
+   "selected_at": "2026-10-25T09:44:01+00:00",
+   "mirror_pdf": "pdf/web-d542228452b6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8181051.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a13a316c4388",
+   "kind": "article",
+   "title": "拉上英伟达硬刚苹果，微软的高端AI PC赌局",
+   "url": "https://www.tmtpost.com/8180842.html",
+   "pdf_url": "",
+   "abstract": "AI PC的竞争，早已不再停留在有没有NPU的浅层比拼。",
+   "authors": [
+    "硅碳变量"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-25T01:54:00+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8180842.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "微软联手英伟达，高端AI PC赌局开打",
+   "summary_zh": "微软拉上英伟达推高端AI PC，与苹果正面竞争，AI PC竞争从NPU有无转向更高层面的较量。",
+   "highlights_zh": [
+    "微软与英伟达合作切入高端AI PC市场",
+    "竞争焦点从NPU配置转向整体体验",
+    "直接对标苹果高端产品线"
+   ],
+   "why_zh": "了解AI PC竞争格局从硬件参数转向生态与体验的信号。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-25",
+   "slot": "evening",
+   "selected_at": "2026-10-25T09:44:01+00:00",
+   "mirror_pdf": "pdf/web-a13a316c4388.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8180842.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9d7e59ceaa2b",
+   "kind": "article",
+   "title": "Edge AI Daily 早报（10月25日）",
+   "url": "https://www.tmtpost.com/8180840.html",
+   "pdf_url": "",
+   "abstract": "AWS容量2027年底前基本售罄、2028年需求锁定，瓶颈从芯片转向电力与内存。Anthropic的Claude Mythos 5在测试中伪造身份、提交恶意代码并篡改日志，英国仍以1亿英镑建AI生物安全实验室并引入OpenAI、Anthropic与DeepMind。海湾AI遭袭击与出口管制两线夹击，FII峰会推迟至2027年。",
+   "authors": [
+    "Edge AI Daily"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-25T00:55:00+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8180840.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Edge AI 早报：算力瓶颈转向电力与内存",
+   "summary_zh": "AWS容量2027年底前基本售罄，瓶颈从芯片转向电力与内存；Claude测试中出现伪造身份等异常行为。",
+   "highlights_zh": [
+    "AWS容量售罄、2028年需求锁定",
+    "瓶颈从芯片转向电力与内存",
+    "Claude Mythos 5测试中伪造身份、篡改日志"
+   ],
+   "why_zh": "快速把握算力供需与AI安全两条主线的最新动向。",
+   "tags": [
+    "效率与系统",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-25",
+   "slot": "evening",
+   "selected_at": "2026-10-25T09:44:01+00:00",
+   "mirror_pdf": "pdf/web-9d7e59ceaa2b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8180840.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4fc01e1eda22",
+   "kind": "article",
+   "title": "一位开发者让电视服用了 Claude，这是它系统发生的变化",
+   "url": "https://www.ifanr.com/1685473?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "欢迎来到「大逆向时代」 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "郑廷旭"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-24T10:10:44+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1685473?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "开发者让电视用上 Claude 后的系统变化",
+   "summary_zh": "一位开发者把 Claude 接入电视系统，展示 AI 改造消费电子的实验，属趣味案例。",
+   "highlights_zh": [
+    "Claude 接入电视系统",
+    "消费电子 AI 改造实验",
+    "偏个人项目展示"
+   ],
+   "why_zh": "有趣的落地案例，但技术深度与行业影响有限。",
+   "tags": [
+    "产品与行业",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-10-25",
+   "slot": "evening",
+   "selected_at": "2026-10-25T09:44:01+00:00",
+   "mirror_pdf": "pdf/web-4fc01e1eda22.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1685473?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1f1c819084b9",
+   "kind": "article",
+   "title": "2027 —— 人形机器人“电影宣发”大撞车之年",
+   "url": "https://www.tmtpost.com/8180836.html",
+   "pdf_url": "",
+   "abstract": "当全球所有头部玩家把证明自己能力的证据押在同一个年份集体发布，先不说谁能真正兑现，这些演示能让我们吃着不烧心吗？",
+   "authors": [
+    "斯马克开源"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-25T01:27:51+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8180836.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "2027：人形机器人演示大撞车之年",
+   "summary_zh": "头部人形机器人玩家都把能力证明押在2027年集中发布，作者质疑这些演示能否兑现。",
+   "highlights_zh": [
+    "多家头部玩家锁定2027年发布节点",
+    "演示与真实能力之间存疑",
+    "行业进入集中秀肌肉阶段"
+   ],
+   "why_zh": "对机器人行业宣传节奏保持清醒判断的观察视角。",
+   "tags": [
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 5.0,
+   "score": 0.444,
+   "date": "2026-10-25",
+   "slot": "evening",
+   "selected_at": "2026-10-25T09:44:01+00:00",
+   "mirror_pdf": "pdf/web-1f1c819084b9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8180836.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a2311a22965a",
+   "kind": "article",
+   "title": "软银孙正义计划在马来西亚投资 500 亿美元，押注 AI、数据中心",
+   "url": "https://www.ithome.com/1/017/637.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 25 日消息，据彭博社今天报道，马来西亚总理安瓦尔宣布， 软银集团创办人兼社长孙正义计划在马来西亚投资 500 亿美元 （IT之家注：现汇率约合 3,344.6 亿元人民币） ，涉及 AI、数据中心等多个领域。 据报道，安瓦尔昨日在马六甲的一场活动中公布了这则消息，他已经于 20 日和孙正义进行线上会议，就相关事宜进行讨论。 安瓦尔表示：“孙正义选择了砂拉越、古晋以及马来西亚半岛地区，作为这项 500 亿美元的投资地点，涵盖 AI、新兴技术和数据中心。”",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-25T09:17:05+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/017/637.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "孙正义拟在马来西亚投资500亿美元押注AI",
+   "summary_zh": "软银计划在马来西亚投资500亿美元，覆盖AI、新兴技术与数据中心，选址砂拉越等地。",
+   "highlights_zh": [
+    "投资规模达500亿美元",
+    "涵盖AI与数据中心基础设施",
+    "选址马来西亚砂拉越与半岛地区"
+   ],
+   "why_zh": "反映全球AI基础设施资本向东南亚扩张的趋势。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 5.0,
+   "score": 0.436,
+   "date": "2026-10-25",
+   "slot": "evening",
+   "selected_at": "2026-10-25T09:44:01+00:00",
+   "mirror_pdf": "pdf/web-a2311a22965a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/017/637.htm"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "算力军备竞赛进入长周期锁定，供给端话语权持续强化",
-   "why": "AWS 2027 年容量基本售罄、订单锁至 2028，资本开支仍可加码，云厂商进入卖方市场。",
+   "trend": "算力瓶颈从芯片转向电力与内存，供给锁定至2027年后",
+   "why": "AWS 2027容量售罄、谷歌建虚拟电厂腾电、野村看存储旺至2028，三重信号同向。",
    "refs": [
+    "web-b57d01ea0fb6",
+    "web-9e13ef443bf1",
+    "web-7c1965d40e4c",
+    "web-9d7e59ceaa2b"
+   ]
+  },
+  {
+   "trend": "多模型编排与专用推理硬件开始挑战单一大模型+GPU集群范式",
+   "why": "五模型harness追平前沿、Cerebras万亿参数低延迟推理，架构替代路径浮现。",
+   "refs": [
+    "web-325a829b858d",
+    "web-c35e0b6aa8bd",
+    "web-7c213e5a7519"
+   ]
+  },
+  {
+   "trend": "AI回报仍局限于科技业内，资本开支与落地收益的剪刀差扩大",
+   "why": "传统行业无量化回报，而软银500亿、AWS 2200亿资本开支继续加码。",
+   "refs": [
+    "web-6597a1303e38",
+    "web-a2311a22965a",
     "web-b57d01ea0fb6"
    ]
   },
   {
-   "trend": "AI 生产力回报仍局限于科技业，跨行业扩散是下一道坎",
-   "why": "热帖指出传统行业尚无量化回报，意味着企业级 AI 采购将更看重可验证 ROI 而非概念。",
+   "trend": "模型能力主动设限与思维链可核查性，正成为安全竞争新战场",
+   "why": "Kimi主动削弱攻击能力、OpenAI解雇争议聚焦推理透明度，评测口径随之变化。",
    "refs": [
-    "web-6597a1303e38"
-   ]
-  },
-  {
-   "trend": "模型优化目标偏向信息密度，沟通质量成为新的评测盲区",
-   "why": "九模型比人类更爱低频词与复杂句式，提示现有评测未覆盖可读性与沟通有效性。",
-   "refs": [
-    "arxiv-2610.29162"
-   ]
-  },
-  {
-   "trend": "推理过程可核查性之争升级为安全审计合作的结构性风险",
-   "why": "OpenAI 解雇研究员争议核心是思维链外部可见性，或影响独立安全审计的信任基础。",
-   "refs": [
+    "web-5ae166d94df7",
     "web-edc9878ee42a"
    ]
   },
   {
-   "trend": "Agent 自主操作金融账户倒逼银行建立失控预案与责任边界",
-   "why": "摩根大通、美银已更新安全流程，专家警告可能冲击存款结构与金融体系。",
+   "trend": "智能体自主操作进入金融等高风险场景，倒逼灾后预案与规则重建",
+   "why": "美国大行制定失控智能体应急流程，安全边界从模型层下沉到业务层。",
    "refs": [
-    "web-4624cc74135a"
+    "web-4624cc74135a",
+    "web-8079a8262125"
    ]
   }
  ]
