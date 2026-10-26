@@ -1753,7 +1753,25 @@
   "web-f93a9e35adc2": "2026-10-26",
   "web-968d88fd5e6a": "2026-10-26",
   "web-a7421f646830": "2026-10-26",
-  "web-13b4d368c6ef": "2026-10-26"
+  "web-13b4d368c6ef": "2026-10-26",
+  "web-8a77e646571b": "2026-10-27",
+  "web-6352bc5d9cf3": "2026-10-27",
+  "web-1d2092937e6f": "2026-10-27",
+  "arxiv-2512.19428": "2026-10-27",
+  "web-89d9210b5ee7": "2026-10-27",
+  "web-1ae83c42fc80": "2026-10-27",
+  "web-4341922ec9bb": "2026-10-27",
+  "web-91c275b61bb9": "2026-10-27",
+  "web-60d3f9d88cdc": "2026-10-27",
+  "web-66dfe1a73ae5": "2026-10-27",
+  "web-1739a2341816": "2026-10-27",
+  "web-c615da07db43": "2026-10-27",
+  "web-024090e087df": "2026-10-27",
+  "web-117d2cb5f38a": "2026-10-27",
+  "web-9950251838da": "2026-10-27",
+  "web-4e61e93d0e37": "2026-10-27",
+  "web-281abfefb05c": "2026-10-27",
+  "web-daf938c95feb": "2026-10-27"
  },
  "known_links": {
   "https://www.anthropic.com/news": [
@@ -1785,6 +1803,7 @@
    "/news/policy",
    "/news/product",
    "/news/public-benefit-fund",
+   "/news/s1-sec",
    "/news/safeguards",
    "/news/security",
    "/news/singapore-office-opening",
@@ -2016,47 +2035,6 @@
   ]
  },
  "runs": [
-  {
-   "at": "2026-10-06T11:55:19+00:00",
-   "slot": "evening",
-   "candidates": 172,
-   "new": 93,
-   "stale": 42,
-   "judged": 93,
-   "selected": 21,
-   "mirrored": 20,
-   "by_category": {
-    "技术": 4,
-    "项目": 3,
-    "资讯": 11,
-    "观点": 3
-   },
-   "by_source": {
-    "HF Daily Papers": 45,
-    "arXiv 新论文": 60,
-    "Hacker News": 3,
-    "量子位": 5,
-    "极客公园": 3,
-    "IT之家": 14,
-    "钛媒体": 8,
-    "InfoQ 中文": 2,
-    "Latent Space": 1,
-    "Jack Clark": 1,
-    "Stratechery": 1,
-    "SemiAnalysis": 1,
-    "Azeem Azhar": 1,
-    "Tomasz Tunguz": 1,
-    "Timothy B. Lee": 2,
-    "Hugging Face Blog": 1,
-    "Google Research": 1,
-    "OpenAI": 2,
-    "NVIDIA": 1,
-    "GitHub Trending": 13,
-    "GitHub 新项目": 7
-   },
-   "llm": true,
-   "translated": 0
-  },
   {
    "at": "2026-10-06T17:07:22+00:00",
    "slot": "morning",
@@ -4544,6 +4522,45 @@
     "Sebastian Raschka": 1,
     "GitHub Trending": 9,
     "GitHub 新项目": 11
+   },
+   "llm": true,
+   "translated": 0
+  },
+  {
+   "at": "2026-10-26T17:14:56+00:00",
+   "slot": "morning",
+   "candidates": 75,
+   "new": 34,
+   "stale": 11,
+   "judged": 34,
+   "selected": 18,
+   "mirrored": 15,
+   "by_category": {
+    "资讯": 11,
+    "观点": 3,
+    "技术": 1,
+    "项目": 3
+   },
+   "by_source": {
+    "HF Daily Papers": 7,
+    "Hacker News": 6,
+    "极客公园": 4,
+    "IT之家": 14,
+    "爱范儿": 2,
+    "少数派": 1,
+    "雷峰网": 4,
+    "钛媒体": 3,
+    "InfoQ 中文": 5,
+    "Nathan Lambert": 1,
+    "Jack Clark": 1,
+    "Azeem Azhar": 2,
+    "Nathan Benaich": 1,
+    "Tomasz Tunguz": 1,
+    "Zvi Mowshowitz": 1,
+    "OpenAI": 1,
+    "Anthropic": 1,
+    "GitHub Trending": 12,
+    "GitHub 新项目": 8
    },
    "llm": true,
    "translated": 0
