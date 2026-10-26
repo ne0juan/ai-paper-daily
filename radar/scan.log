@@ -1,11 +1,12 @@
-2026-10-26 10:57:35,497 INFO source hf_daily           -> 5 items
-2026-10-26 10:57:35,893 INFO source hackernews         -> 5 items
-2026-10-26 10:57:49,991 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-26 10:58:00,272 INFO source rss                -> 49 items
-2026-10-26 10:58:02,177 INFO source html_lists         -> 0 items
-2026-10-26 10:58:02,177 INFO source x                  -> 0 items
-2026-10-26 10:58:02,868 INFO source arxiv_search       -> 0 items
-2026-10-26 10:58:15,239 INFO source github             -> 20 items
-2026-10-26 10:58:15,240 INFO candidates: 79 (stale dropped 6, new 47)
-2026-10-26 10:59:03,254 INFO llm judged 47/47 (calls=6)
-2026-10-26 11:02:30,877 INFO run done: {"at": "2026-10-26T10:57:35+00:00", "slot": "evening", "candidates": 79, "new": 47, "stale": 6, "judged": 47, "selected": 18, "mirrored": 16, "by_category": {"技术": 1, "项目": 3, "资讯": 14}, "by_source": {"HF Daily Papers": 5, "Hacker News": 5, "量子位": 10, "极客公园": 4, "IT之家": 18, "爱范儿": 2, "少数派": 1, "雷峰网": 2, "钛媒体": 2, "InfoQ 中文": 5, "Nathan Lambert": 1, "Azeem Azhar": 1, "Nathan Benaich": 2, "Sebastian Raschka": 1, "GitHub Trending": 9, "GitHub 新项目": 11}, "llm": true, "translated": 0}
+2026-10-26 17:14:56,968 INFO source hf_daily           -> 7 items
+2026-10-26 17:14:57,465 INFO source hackernews         -> 6 items
+2026-10-26 17:15:17,584 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-26 17:15:25,100 INFO source rss                -> 41 items
+2026-10-26 17:15:26,948 INFO source html_lists         -> 1 items
+2026-10-26 17:15:26,948 INFO source x                  -> 0 items
+2026-10-26 17:15:27,400 INFO source arxiv_search       -> 0 items
+2026-10-26 17:15:37,095 INFO source github             -> 20 items
+2026-10-26 17:15:37,109 INFO candidates: 75 (stale dropped 11, new 34)
+2026-10-26 17:16:12,140 INFO llm judged 34/34 (calls=5)
+2026-10-26 17:16:19,927 WARNING snapshot https://jack-clark.net/2026/10/26/import-ai-478-math-for-alignment-programbench-and-mirendil-shows-what-rsi-means/: blocked or empty page
+2026-10-26 17:19:17,223 INFO run done: {"at": "2026-10-26T17:14:56+00:00", "slot": "morning", "candidates": 75, "new": 34, "stale": 11, "judged": 34, "selected": 18, "mirrored": 15, "by_category": {"资讯": 11, "观点": 3, "技术": 1, "项目": 3}, "by_source": {"HF Daily Papers": 7, "Hacker News": 6, "极客公园": 4, "IT之家": 14, "爱范儿": 2, "少数派": 1, "雷峰网": 4, "钛媒体": 3, "InfoQ 中文": 5, "Nathan Lambert": 1, "Jack Clark": 1, "Azeem Azhar": 2, "Nathan Benaich": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "OpenAI": 1, "Anthropic": 1, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
