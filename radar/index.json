@@ -1,6 +1,13 @@
 {
- "updated": "2026-10-25T14:55:57+00:00",
+ "updated": "2026-10-26T03:33:28+00:00",
  "days": [
+  {
+   "date": "2026-10-26",
+   "count": 16,
+   "slots": {
+    "noon": 16
+   }
+  },
   {
    "date": "2026-10-25",
    "count": 35,
@@ -279,41 +286,36 @@
    }
   }
  ],
- "total": 1716,
+ "total": 1732,
  "last_run": {
-  "at": "2026-10-25T14:55:57+00:00",
-  "slot": "evening",
-  "candidates": 72,
-  "new": 21,
-  "stale": 3,
-  "judged": 21,
-  "selected": 10,
-  "mirrored": 10,
+  "at": "2026-10-26T03:33:28+00:00",
+  "slot": "noon",
+  "candidates": 57,
+  "new": 30,
+  "stale": 7,
+  "judged": 26,
+  "selected": 16,
+  "mirrored": 15,
   "by_category": {
-   "项目": 2,
-   "观点": 2,
-   "资讯": 6
+   "资讯": 13,
+   "项目": 3
   },
   "by_source": {
-   "Hacker News": 6,
+   "HF Daily Papers": 1,
+   "Hacker News": 7,
    "极客公园": 2,
    "IT之家": 11,
    "爱范儿": 2,
-   "雷峰网": 4,
-   "钛媒体": 5,
-   "InfoQ 中文": 9,
+   "少数派": 1,
+   "雷峰网": 3,
+   "钛媒体": 4,
    "Nathan Lambert": 1,
-   "Latent Space": 2,
-   "SemiAnalysis": 1,
-   "Azeem Azhar": 2,
+   "Latent Space": 1,
+   "Azeem Azhar": 1,
    "Nathan Benaich": 2,
-   "Zvi Mowshowitz": 1,
    "Sebastian Raschka": 1,
-   "Hugging Face Blog": 1,
-   "Google Research": 1,
-   "OpenAI": 1,
-   "GitHub Trending": 13,
-   "GitHub 新项目": 7
+   "GitHub Trending": 10,
+   "GitHub 新项目": 10
   },
   "llm": true,
   "translated": 0

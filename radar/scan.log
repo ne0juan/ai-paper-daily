@@ -1,11 +1,14 @@
-2026-10-25 14:55:57,546 INFO source hf_daily           -> 0 items
-2026-10-25 14:55:57,814 INFO source hackernews         -> 6 items
-2026-10-25 14:56:17,033 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-25 14:56:23,661 INFO source rss                -> 46 items
-2026-10-25 14:56:24,917 INFO source html_lists         -> 0 items
-2026-10-25 14:56:24,917 INFO source x                  -> 0 items
-2026-10-25 14:56:25,209 INFO source arxiv_search       -> 0 items
-2026-10-25 14:56:32,241 INFO source github             -> 20 items
-2026-10-25 14:56:32,254 INFO candidates: 72 (stale dropped 3, new 21)
-2026-10-25 14:56:52,582 INFO llm judged 21/21 (calls=3)
-2026-10-25 14:58:24,819 INFO run done: {"at": "2026-10-25T14:55:57+00:00", "slot": "evening", "candidates": 72, "new": 21, "stale": 3, "judged": 21, "selected": 10, "mirrored": 10, "by_category": {"项目": 2, "观点": 2, "资讯": 6}, "by_source": {"Hacker News": 6, "极客公园": 2, "IT之家": 11, "爱范儿": 2, "雷峰网": 4, "钛媒体": 5, "InfoQ 中文": 9, "Nathan Lambert": 1, "Latent Space": 2, "SemiAnalysis": 1, "Azeem Azhar": 2, "Nathan Benaich": 2, "Zvi Mowshowitz": 1, "Sebastian Raschka": 1, "Hugging Face Blog": 1, "Google Research": 1, "OpenAI": 1, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
+2026-10-26 03:33:29,039 INFO source hf_daily           -> 1 items
+2026-10-26 03:33:29,399 INFO source hackernews         -> 7 items
+2026-10-26 03:33:41,505 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-26 03:33:49,090 INFO source rss                -> 29 items
+2026-10-26 03:33:52,031 INFO source html_lists         -> 0 items
+2026-10-26 03:33:52,031 INFO source x                  -> 0 items
+2026-10-26 03:34:21,028 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
+2026-10-26 03:34:29,145 INFO source github             -> 20 items
+2026-10-26 03:34:29,145 INFO candidates: 57 (stale dropped 7, new 30)
+2026-10-26 03:34:59,296 INFO llm judged 26/30 (calls=4)
+2026-10-26 03:34:59,353 WARNING mt provider edge failed: 404 for https://edge.microsoft.com/translate/auth
+2026-10-26 03:35:12,407 WARNING mt provider google failed: 429 for https://translate.googleapis.com/translate_a/single
+2026-10-26 03:35:12,407 WARNING mt failed: all translation providers failed
+2026-10-26 03:37:28,860 INFO run done: {"at": "2026-10-26T03:33:28+00:00", "slot": "noon", "candidates": 57, "new": 30, "stale": 7, "judged": 26, "selected": 16, "mirrored": 15, "by_category": {"资讯": 13, "项目": 3}, "by_source": {"HF Daily Papers": 1, "Hacker News": 7, "极客公园": 2, "IT之家": 11, "爱范儿": 2, "少数派": 1, "雷峰网": 3, "钛媒体": 4, "Nathan Lambert": 1, "Latent Space": 1, "Azeem Azhar": 1, "Nathan Benaich": 2, "Sebastian Raschka": 1, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
