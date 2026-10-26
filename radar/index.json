@@ -1,11 +1,12 @@
 {
- "updated": "2026-10-26T03:33:28+00:00",
+ "updated": "2026-10-26T10:57:35+00:00",
  "days": [
   {
    "date": "2026-10-26",
-   "count": 16,
+   "count": 34,
    "slots": {
-    "noon": 16
+    "noon": 16,
+    "evening": 18
    }
   },
   {
@@ -286,36 +287,38 @@
    }
   }
  ],
- "total": 1732,
+ "total": 1750,
  "last_run": {
-  "at": "2026-10-26T03:33:28+00:00",
-  "slot": "noon",
-  "candidates": 57,
-  "new": 30,
-  "stale": 7,
-  "judged": 26,
-  "selected": 16,
-  "mirrored": 15,
+  "at": "2026-10-26T10:57:35+00:00",
+  "slot": "evening",
+  "candidates": 79,
+  "new": 47,
+  "stale": 6,
+  "judged": 47,
+  "selected": 18,
+  "mirrored": 16,
   "by_category": {
-   "资讯": 13,
-   "项目": 3
+   "技术": 1,
+   "项目": 3,
+   "资讯": 14
   },
   "by_source": {
-   "HF Daily Papers": 1,
-   "Hacker News": 7,
-   "极客公园": 2,
-   "IT之家": 11,
+   "HF Daily Papers": 5,
+   "Hacker News": 5,
+   "量子位": 10,
+   "极客公园": 4,
+   "IT之家": 18,
    "爱范儿": 2,
    "少数派": 1,
-   "雷峰网": 3,
-   "钛媒体": 4,
+   "雷峰网": 2,
+   "钛媒体": 2,
+   "InfoQ 中文": 5,
    "Nathan Lambert": 1,
-   "Latent Space": 1,
    "Azeem Azhar": 1,
    "Nathan Benaich": 2,
    "Sebastian Raschka": 1,
-   "GitHub Trending": 10,
-   "GitHub 新项目": 10
+   "GitHub Trending": 9,
+   "GitHub 新项目": 11
   },
   "llm": true,
   "translated": 0

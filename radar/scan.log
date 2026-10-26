@@ -1,14 +1,11 @@
-2026-10-26 03:33:29,039 INFO source hf_daily           -> 1 items
-2026-10-26 03:33:29,399 INFO source hackernews         -> 7 items
-2026-10-26 03:33:41,505 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-26 03:33:49,090 INFO source rss                -> 29 items
-2026-10-26 03:33:52,031 INFO source html_lists         -> 0 items
-2026-10-26 03:33:52,031 INFO source x                  -> 0 items
-2026-10-26 03:34:21,028 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
-2026-10-26 03:34:29,145 INFO source github             -> 20 items
-2026-10-26 03:34:29,145 INFO candidates: 57 (stale dropped 7, new 30)
-2026-10-26 03:34:59,296 INFO llm judged 26/30 (calls=4)
-2026-10-26 03:34:59,353 WARNING mt provider edge failed: 404 for https://edge.microsoft.com/translate/auth
-2026-10-26 03:35:12,407 WARNING mt provider google failed: 429 for https://translate.googleapis.com/translate_a/single
-2026-10-26 03:35:12,407 WARNING mt failed: all translation providers failed
-2026-10-26 03:37:28,860 INFO run done: {"at": "2026-10-26T03:33:28+00:00", "slot": "noon", "candidates": 57, "new": 30, "stale": 7, "judged": 26, "selected": 16, "mirrored": 15, "by_category": {"资讯": 13, "项目": 3}, "by_source": {"HF Daily Papers": 1, "Hacker News": 7, "极客公园": 2, "IT之家": 11, "爱范儿": 2, "少数派": 1, "雷峰网": 3, "钛媒体": 4, "Nathan Lambert": 1, "Latent Space": 1, "Azeem Azhar": 1, "Nathan Benaich": 2, "Sebastian Raschka": 1, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
+2026-10-26 10:57:35,497 INFO source hf_daily           -> 5 items
+2026-10-26 10:57:35,893 INFO source hackernews         -> 5 items
+2026-10-26 10:57:49,991 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-26 10:58:00,272 INFO source rss                -> 49 items
+2026-10-26 10:58:02,177 INFO source html_lists         -> 0 items
+2026-10-26 10:58:02,177 INFO source x                  -> 0 items
+2026-10-26 10:58:02,868 INFO source arxiv_search       -> 0 items
+2026-10-26 10:58:15,239 INFO source github             -> 20 items
+2026-10-26 10:58:15,240 INFO candidates: 79 (stale dropped 6, new 47)
+2026-10-26 10:59:03,254 INFO llm judged 47/47 (calls=6)
+2026-10-26 11:02:30,877 INFO run done: {"at": "2026-10-26T10:57:35+00:00", "slot": "evening", "candidates": 79, "new": 47, "stale": 6, "judged": 47, "selected": 18, "mirrored": 16, "by_category": {"技术": 1, "项目": 3, "资讯": 14}, "by_source": {"HF Daily Papers": 5, "Hacker News": 5, "量子位": 10, "极客公园": 4, "IT之家": 18, "爱范儿": 2, "少数派": 1, "雷峰网": 2, "钛媒体": 2, "InfoQ 中文": 5, "Nathan Lambert": 1, "Azeem Azhar": 1, "Nathan Benaich": 2, "Sebastian Raschka": 1, "GitHub Trending": 9, "GitHub 新项目": 11}, "llm": true, "translated": 0}
