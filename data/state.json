@@ -1719,7 +1719,23 @@
   "web-b4d865866a7c": "2026-10-25",
   "web-755dc5f7963a": "2026-10-25",
   "web-de3d1d171ffb": "2026-10-25",
-  "web-bad21402f8f5": "2026-10-25"
+  "web-bad21402f8f5": "2026-10-25",
+  "web-1dc75a32fc6a": "2026-10-26",
+  "web-c45c68dc9fe2": "2026-10-26",
+  "web-571b01845b8f": "2026-10-26",
+  "web-f7c17311c4f9": "2026-10-26",
+  "web-4a49ce2034e3": "2026-10-26",
+  "web-89e06d81e035": "2026-10-26",
+  "web-32f627fe9780": "2026-10-26",
+  "web-5a88eac68d32": "2026-10-26",
+  "web-33331332d5b9": "2026-10-26",
+  "web-c86dac23f9bf": "2026-10-26",
+  "web-7287610bb16f": "2026-10-26",
+  "web-09d0089ac344": "2026-10-26",
+  "web-40ac291377e8": "2026-10-26",
+  "web-83bce8ec62a8": "2026-10-26",
+  "web-2afd7e917967": "2026-10-26",
+  "web-c3e294fda7ac": "2026-10-26"
  },
  "known_links": {
   "https://www.anthropic.com/news": [
@@ -1982,40 +1998,6 @@
   ]
  },
  "runs": [
-  {
-   "at": "2026-10-05T12:11:53+00:00",
-   "slot": "evening",
-   "candidates": 69,
-   "new": 27,
-   "stale": 13,
-   "judged": 27,
-   "selected": 14,
-   "mirrored": 13,
-   "by_category": {
-    "观点": 1,
-    "资讯": 10,
-    "项目": 3
-   },
-   "by_source": {
-    "HF Daily Papers": 12,
-    "Hacker News": 2,
-    "量子位": 5,
-    "极客公园": 6,
-    "IT之家": 9,
-    "爱范儿": 1,
-    "钛媒体": 6,
-    "InfoQ 中文": 2,
-    "Simon Willison": 1,
-    "Stratechery": 1,
-    "Azeem Azhar": 2,
-    "Hugging Face Blog": 1,
-    "OpenAI": 1,
-    "GitHub Trending": 7,
-    "GitHub 新项目": 13
-   },
-   "llm": true,
-   "translated": 0
-  },
   {
    "at": "2026-10-06T05:12:02+00:00",
    "slot": "noon",
@@ -4516,6 +4498,39 @@
     "OpenAI": 1,
     "GitHub Trending": 13,
     "GitHub 新项目": 7
+   },
+   "llm": true,
+   "translated": 0
+  },
+  {
+   "at": "2026-10-26T03:33:28+00:00",
+   "slot": "noon",
+   "candidates": 57,
+   "new": 30,
+   "stale": 7,
+   "judged": 26,
+   "selected": 16,
+   "mirrored": 15,
+   "by_category": {
+    "资讯": 13,
+    "项目": 3
+   },
+   "by_source": {
+    "HF Daily Papers": 1,
+    "Hacker News": 7,
+    "极客公园": 2,
+    "IT之家": 11,
+    "爱范儿": 2,
+    "少数派": 1,
+    "雷峰网": 3,
+    "钛媒体": 4,
+    "Nathan Lambert": 1,
+    "Latent Space": 1,
+    "Azeem Azhar": 1,
+    "Nathan Benaich": 2,
+    "Sebastian Raschka": 1,
+    "GitHub Trending": 10,
+    "GitHub 新项目": 10
    },
    "llm": true,
    "translated": 0
