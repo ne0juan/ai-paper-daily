@@ -1,12 +1,16 @@
-2026-10-26 17:14:56,968 INFO source hf_daily           -> 7 items
-2026-10-26 17:14:57,465 INFO source hackernews         -> 6 items
-2026-10-26 17:15:17,584 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-26 17:15:25,100 INFO source rss                -> 41 items
-2026-10-26 17:15:26,948 INFO source html_lists         -> 1 items
-2026-10-26 17:15:26,948 INFO source x                  -> 0 items
-2026-10-26 17:15:27,400 INFO source arxiv_search       -> 0 items
-2026-10-26 17:15:37,095 INFO source github             -> 20 items
-2026-10-26 17:15:37,109 INFO candidates: 75 (stale dropped 11, new 34)
-2026-10-26 17:16:12,140 INFO llm judged 34/34 (calls=5)
-2026-10-26 17:16:19,927 WARNING snapshot https://jack-clark.net/2026/10/26/import-ai-478-math-for-alignment-programbench-and-mirendil-shows-what-rsi-means/: blocked or empty page
-2026-10-26 17:19:17,223 INFO run done: {"at": "2026-10-26T17:14:56+00:00", "slot": "morning", "candidates": 75, "new": 34, "stale": 11, "judged": 34, "selected": 18, "mirrored": 15, "by_category": {"资讯": 11, "观点": 3, "技术": 1, "项目": 3}, "by_source": {"HF Daily Papers": 7, "Hacker News": 6, "极客公园": 4, "IT之家": 14, "爱范儿": 2, "少数派": 1, "雷峰网": 4, "钛媒体": 3, "InfoQ 中文": 5, "Nathan Lambert": 1, "Jack Clark": 1, "Azeem Azhar": 2, "Nathan Benaich": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "OpenAI": 1, "Anthropic": 1, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
+2026-10-27 03:58:37,556 INFO source hf_daily           -> 13 items
+2026-10-27 03:58:37,791 INFO source hackernews         -> 8 items
+2026-10-27 03:58:57,892 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-27 03:59:03,678 INFO source rss                -> 55 items
+2026-10-27 03:59:05,201 INFO source html_lists         -> 0 items
+2026-10-27 03:59:05,201 INFO source x                  -> 0 items
+2026-10-27 04:00:27,253 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
+2026-10-27 04:00:35,518 INFO source github             -> 20 items
+2026-10-27 04:00:48,778 WARNING arxiv enrich failed: 429 for https://export.arxiv.org/api/query
+2026-10-27 04:00:48,779 INFO candidates: 94 (stale dropped 14, new 45)
+2026-10-27 04:01:35,062 INFO llm judged 45/45 (calls=6)
+2026-10-27 04:01:52,280 WARNING snapshot https://openai.com/index/building-scientific-understanding-with-academic-communities/: blocked or empty page
+2026-10-27 04:02:08,933 WARNING snapshot https://openai.com/index/introducing-gpt-6-1-terra/: blocked or empty page
+2026-10-27 04:02:09,562 WARNING pdf arxiv-2610.34662: too large (> 25165824 bytes): https://arxiv.org/pdf/2610.34662
+2026-10-27 04:02:11,645 WARNING snapshot https://thezvi.wordpress.com/2026/10/26/gemini-4-argon-the-model-and-safety-cards/: blocked or empty page
+2026-10-27 04:04:29,970 INFO run done: {"at": "2026-10-27T03:58:37+00:00", "slot": "noon", "candidates": 94, "new": 45, "stale": 14, "judged": 45, "selected": 18, "mirrored": 14, "by_category": {"资讯": 13, "技术": 1, "观点": 1, "项目": 3}, "by_source": {"HF Daily Papers": 13, "Hacker News": 8, "OpenAI": 7, "极客公园": 4, "IT之家": 11, "爱范儿": 3, "少数派": 1, "雷峰网": 6, "钛媒体": 12, "InfoQ 中文": 5, "Nathan Lambert": 1, "Jack Clark": 1, "Azeem Azhar": 1, "Nathan Benaich": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}

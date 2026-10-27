@@ -1,11 +1,12 @@
 {
- "updated": "2026-10-26T17:14:56+00:00",
+ "updated": "2026-10-27T03:58:37+00:00",
  "days": [
   {
    "date": "2026-10-27",
-   "count": 18,
+   "count": 36,
    "slots": {
-    "morning": 18
+    "morning": 18,
+    "noon": 18
    }
   },
   {
@@ -294,40 +295,39 @@
    }
   }
  ],
- "total": 1768,
+ "total": 1786,
  "last_run": {
-  "at": "2026-10-26T17:14:56+00:00",
-  "slot": "morning",
-  "candidates": 75,
-  "new": 34,
-  "stale": 11,
-  "judged": 34,
+  "at": "2026-10-27T03:58:37+00:00",
+  "slot": "noon",
+  "candidates": 94,
+  "new": 45,
+  "stale": 14,
+  "judged": 45,
   "selected": 18,
-  "mirrored": 15,
+  "mirrored": 14,
   "by_category": {
-   "资讯": 11,
-   "观点": 3,
+   "资讯": 13,
    "技术": 1,
+   "观点": 1,
    "项目": 3
   },
   "by_source": {
-   "HF Daily Papers": 7,
-   "Hacker News": 6,
+   "HF Daily Papers": 13,
+   "Hacker News": 8,
+   "OpenAI": 7,
    "极客公园": 4,
-   "IT之家": 14,
-   "爱范儿": 2,
+   "IT之家": 11,
+   "爱范儿": 3,
    "少数派": 1,
-   "雷峰网": 4,
-   "钛媒体": 3,
+   "雷峰网": 6,
+   "钛媒体": 12,
    "InfoQ 中文": 5,
    "Nathan Lambert": 1,
    "Jack Clark": 1,
-   "Azeem Azhar": 2,
+   "Azeem Azhar": 1,
    "Nathan Benaich": 1,
    "Tomasz Tunguz": 1,
    "Zvi Mowshowitz": 1,
-   "OpenAI": 1,
-   "Anthropic": 1,
    "GitHub Trending": 12,
    "GitHub 新项目": 8
   },
