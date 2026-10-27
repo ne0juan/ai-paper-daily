@@ -1,6 +1,13 @@
 {
- "updated": "2026-10-27T10:21:52+00:00",
+ "updated": "2026-10-27T16:21:38+00:00",
  "days": [
+  {
+   "date": "2026-10-28",
+   "count": 20,
+   "slots": {
+    "morning": 20
+   }
+  },
   {
    "date": "2026-10-27",
    "count": 57,
@@ -296,43 +303,49 @@
    }
   }
  ],
- "total": 1807,
+ "total": 1827,
  "last_run": {
-  "at": "2026-10-27T10:21:52+00:00",
-  "slot": "evening",
-  "candidates": 183,
-  "new": 124,
-  "stale": 20,
-  "judged": 98,
-  "selected": 21,
-  "mirrored": 21,
+  "at": "2026-10-27T16:21:38+00:00",
+  "slot": "morning",
+  "candidates": 198,
+  "new": 55,
+  "stale": 108,
+  "judged": 55,
+  "selected": 20,
+  "mirrored": 18,
   "by_category": {
-   "观点": 1,
+   "观点": 3,
    "技术": 4,
-   "项目": 3,
-   "资讯": 13
+   "资讯": 11,
+   "项目": 1,
+   "论文": 1
   },
   "by_source": {
-   "HF Daily Papers": 23,
+   "HF Daily Papers": 27,
    "arXiv 新论文": 60,
-   "Hacker News": 7,
+   "Hacker News": 11,
    "OpenAI": 7,
    "量子位": 10,
    "极客公园": 9,
-   "IT之家": 8,
+   "IT之家": 10,
    "爱范儿": 6,
    "少数派": 1,
    "雷峰网": 16,
-   "钛媒体": 7,
+   "钛媒体": 4,
    "InfoQ 中文": 6,
-   "Nathan Lambert": 1,
-   "Latent Space": 1,
+   "Latent Space": 2,
    "Jack Clark": 1,
+   "Stratechery": 1,
    "Azeem Azhar": 1,
-   "Tomasz Tunguz": 1,
-   "Zvi Mowshowitz": 1,
-   "GitHub Trending": 15,
-   "GitHub 新项目": 5
+   "Tomasz Tunguz": 2,
+   "Zvi Mowshowitz": 2,
+   "科学空间": 1,
+   "Hugging Face Blog": 1,
+   "Google DeepMind": 1,
+   "NVIDIA": 1,
+   "xAI": 1,
+   "GitHub Trending": 13,
+   "GitHub 新项目": 7
   },
   "llm": true,
   "translated": 0

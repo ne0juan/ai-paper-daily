@@ -1,11 +1,13 @@
-2026-10-27 10:21:53,015 INFO source hf_daily           -> 23 items
-2026-10-27 10:21:53,356 INFO source hackernews         -> 7 items
-2026-10-27 10:22:08,520 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-27 10:22:15,049 INFO source rss                -> 76 items
-2026-10-27 10:22:16,505 INFO source html_lists         -> 0 items
-2026-10-27 10:22:16,505 INFO source x                  -> 0 items
-2026-10-27 10:22:16,984 INFO source arxiv_search       -> 60 items
-2026-10-27 10:22:26,865 INFO source github             -> 20 items
-2026-10-27 10:22:26,867 INFO candidates: 183 (stale dropped 20, new 124)
-2026-10-27 10:24:15,179 INFO llm judged 98/100 (calls=13)
-2026-10-27 10:27:51,901 INFO run done: {"at": "2026-10-27T10:21:52+00:00", "slot": "evening", "candidates": 183, "new": 124, "stale": 20, "judged": 98, "selected": 21, "mirrored": 21, "by_category": {"观点": 1, "技术": 4, "项目": 3, "资讯": 13}, "by_source": {"HF Daily Papers": 23, "arXiv 新论文": 60, "Hacker News": 7, "OpenAI": 7, "量子位": 10, "极客公园": 9, "IT之家": 8, "爱范儿": 6, "少数派": 1, "雷峰网": 16, "钛媒体": 7, "InfoQ 中文": 6, "Nathan Lambert": 1, "Latent Space": 1, "Jack Clark": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "GitHub Trending": 15, "GitHub 新项目": 5}, "llm": true, "translated": 0}
+2026-10-27 16:21:39,446 INFO source hf_daily           -> 27 items
+2026-10-27 16:21:39,918 INFO source hackernews         -> 11 items
+2026-10-27 16:21:56,840 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-27 16:22:14,443 INFO source rss                -> 82 items
+2026-10-27 16:22:16,662 INFO source html_lists         -> 1 items
+2026-10-27 16:22:16,662 INFO source x                  -> 0 items
+2026-10-27 16:22:17,413 INFO source arxiv_search       -> 60 items
+2026-10-27 16:22:27,063 INFO source github             -> 20 items
+2026-10-27 16:22:27,066 INFO candidates: 198 (stale dropped 108, new 55)
+2026-10-27 16:23:22,289 INFO llm judged 55/55 (calls=7)
+2026-10-27 16:23:26,467 WARNING snapshot https://stratechery.com/2026/anthropic-s-1-the-cost-of-compute-who-is-paying/: blocked or empty page
+2026-10-27 16:23:59,561 WARNING snapshot https://thezvi.wordpress.com/2026/10/27/anthropic-versus-anthropic/: blocked or empty page
+2026-10-27 16:26:10,025 INFO run done: {"at": "2026-10-27T16:21:38+00:00", "slot": "morning", "candidates": 198, "new": 55, "stale": 108, "judged": 55, "selected": 20, "mirrored": 18, "by_category": {"观点": 3, "技术": 4, "资讯": 11, "项目": 1, "论文": 1}, "by_source": {"HF Daily Papers": 27, "arXiv 新论文": 60, "Hacker News": 11, "OpenAI": 7, "量子位": 10, "极客公园": 9, "IT之家": 10, "爱范儿": 6, "少数派": 1, "雷峰网": 16, "钛媒体": 4, "InfoQ 中文": 6, "Latent Space": 2, "Jack Clark": 1, "Stratechery": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 2, "Zvi Mowshowitz": 2, "科学空间": 1, "Hugging Face Blog": 1, "Google DeepMind": 1, "NVIDIA": 1, "xAI": 1, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
