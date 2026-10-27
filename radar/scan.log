@@ -1,16 +1,11 @@
-2026-10-27 03:58:37,556 INFO source hf_daily           -> 13 items
-2026-10-27 03:58:37,791 INFO source hackernews         -> 8 items
-2026-10-27 03:58:57,892 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-27 03:59:03,678 INFO source rss                -> 55 items
-2026-10-27 03:59:05,201 INFO source html_lists         -> 0 items
-2026-10-27 03:59:05,201 INFO source x                  -> 0 items
-2026-10-27 04:00:27,253 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
-2026-10-27 04:00:35,518 INFO source github             -> 20 items
-2026-10-27 04:00:48,778 WARNING arxiv enrich failed: 429 for https://export.arxiv.org/api/query
-2026-10-27 04:00:48,779 INFO candidates: 94 (stale dropped 14, new 45)
-2026-10-27 04:01:35,062 INFO llm judged 45/45 (calls=6)
-2026-10-27 04:01:52,280 WARNING snapshot https://openai.com/index/building-scientific-understanding-with-academic-communities/: blocked or empty page
-2026-10-27 04:02:08,933 WARNING snapshot https://openai.com/index/introducing-gpt-6-1-terra/: blocked or empty page
-2026-10-27 04:02:09,562 WARNING pdf arxiv-2610.34662: too large (> 25165824 bytes): https://arxiv.org/pdf/2610.34662
-2026-10-27 04:02:11,645 WARNING snapshot https://thezvi.wordpress.com/2026/10/26/gemini-4-argon-the-model-and-safety-cards/: blocked or empty page
-2026-10-27 04:04:29,970 INFO run done: {"at": "2026-10-27T03:58:37+00:00", "slot": "noon", "candidates": 94, "new": 45, "stale": 14, "judged": 45, "selected": 18, "mirrored": 14, "by_category": {"资讯": 13, "技术": 1, "观点": 1, "项目": 3}, "by_source": {"HF Daily Papers": 13, "Hacker News": 8, "OpenAI": 7, "极客公园": 4, "IT之家": 11, "爱范儿": 3, "少数派": 1, "雷峰网": 6, "钛媒体": 12, "InfoQ 中文": 5, "Nathan Lambert": 1, "Jack Clark": 1, "Azeem Azhar": 1, "Nathan Benaich": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
+2026-10-27 10:21:53,015 INFO source hf_daily           -> 23 items
+2026-10-27 10:21:53,356 INFO source hackernews         -> 7 items
+2026-10-27 10:22:08,520 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-27 10:22:15,049 INFO source rss                -> 76 items
+2026-10-27 10:22:16,505 INFO source html_lists         -> 0 items
+2026-10-27 10:22:16,505 INFO source x                  -> 0 items
+2026-10-27 10:22:16,984 INFO source arxiv_search       -> 60 items
+2026-10-27 10:22:26,865 INFO source github             -> 20 items
+2026-10-27 10:22:26,867 INFO candidates: 183 (stale dropped 20, new 124)
+2026-10-27 10:24:15,179 INFO llm judged 98/100 (calls=13)
+2026-10-27 10:27:51,901 INFO run done: {"at": "2026-10-27T10:21:52+00:00", "slot": "evening", "candidates": 183, "new": 124, "stale": 20, "judged": 98, "selected": 21, "mirrored": 21, "by_category": {"观点": 1, "技术": 4, "项目": 3, "资讯": 13}, "by_source": {"HF Daily Papers": 23, "arXiv 新论文": 60, "Hacker News": 7, "OpenAI": 7, "量子位": 10, "极客公园": 9, "IT之家": 8, "爱范儿": 6, "少数派": 1, "雷峰网": 16, "钛媒体": 7, "InfoQ 中文": 6, "Nathan Lambert": 1, "Latent Space": 1, "Jack Clark": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "GitHub Trending": 15, "GitHub 新项目": 5}, "llm": true, "translated": 0}
