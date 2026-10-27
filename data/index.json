@@ -1,12 +1,13 @@
 {
- "updated": "2026-10-27T03:58:37+00:00",
+ "updated": "2026-10-27T10:21:52+00:00",
  "days": [
   {
    "date": "2026-10-27",
-   "count": 36,
+   "count": 57,
    "slots": {
     "morning": 18,
-    "noon": 18
+    "noon": 18,
+    "evening": 21
    }
   },
   {
@@ -295,41 +296,43 @@
    }
   }
  ],
- "total": 1786,
+ "total": 1807,
  "last_run": {
-  "at": "2026-10-27T03:58:37+00:00",
-  "slot": "noon",
-  "candidates": 94,
-  "new": 45,
-  "stale": 14,
-  "judged": 45,
-  "selected": 18,
-  "mirrored": 14,
+  "at": "2026-10-27T10:21:52+00:00",
+  "slot": "evening",
+  "candidates": 183,
+  "new": 124,
+  "stale": 20,
+  "judged": 98,
+  "selected": 21,
+  "mirrored": 21,
   "by_category": {
-   "资讯": 13,
-   "技术": 1,
    "观点": 1,
-   "项目": 3
+   "技术": 4,
+   "项目": 3,
+   "资讯": 13
   },
   "by_source": {
-   "HF Daily Papers": 13,
-   "Hacker News": 8,
+   "HF Daily Papers": 23,
+   "arXiv 新论文": 60,
+   "Hacker News": 7,
    "OpenAI": 7,
-   "极客公园": 4,
-   "IT之家": 11,
-   "爱范儿": 3,
+   "量子位": 10,
+   "极客公园": 9,
+   "IT之家": 8,
+   "爱范儿": 6,
    "少数派": 1,
-   "雷峰网": 6,
-   "钛媒体": 12,
-   "InfoQ 中文": 5,
+   "雷峰网": 16,
+   "钛媒体": 7,
+   "InfoQ 中文": 6,
    "Nathan Lambert": 1,
+   "Latent Space": 1,
    "Jack Clark": 1,
    "Azeem Azhar": 1,
-   "Nathan Benaich": 1,
    "Tomasz Tunguz": 1,
    "Zvi Mowshowitz": 1,
-   "GitHub Trending": 12,
-   "GitHub 新项目": 8
+   "GitHub Trending": 15,
+   "GitHub 新项目": 5
   },
   "llm": true,
   "translated": 0

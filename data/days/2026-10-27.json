@@ -2017,51 +2017,1268 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-95af72b561e4",
+   "kind": "article",
+   "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
+   "url": "https://latent.space/p/ainews-anthropic-s1/",
+   "pdf_url": "",
+   "abstract": "The S-1, the numbers, and the reactions.",
+   "authors": [
+    "swyx .ai"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-27T07:24:59+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/ainews-anthropic-s1/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Anthropic 递交招股书：估值冲 2 万亿美元，增速 1400%",
+   "summary_zh": "Anthropic 递交 S-1 拟登陆纳斯达克，营收增速 1400%、毛利率 85%、二季度经营利润 10 亿美元，48% 收入经云厂商渠道，账上现金 1340 亿美元。",
+   "highlights_zh": [
+    "营收增速 1400%，Q2 首次实现经营盈利",
+    "近半收入依赖 AWS/谷歌/微软云渠道分销",
+    "估值讨论区间 1.5 万亿至 2 万亿美元"
+   ],
+   "why_zh": "头部大模型公司财务全貌首次公开，是判断 AI 商业模式与估值锚点的关键材料。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 9.0,
+   "score": 0.76,
+   "date": "2026-10-27",
+   "slot": "evening",
+   "selected_at": "2026-10-27T10:21:52+00:00",
+   "mirror_pdf": "pdf/web-95af72b561e4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/ainews-anthropic-s1/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.35845",
+   "kind": "paper",
+   "title": "Work Agents: Systems, Capabilities, and Optimization",
+   "url": "https://arxiv.org/abs/2610.35845",
+   "pdf_url": "https://arxiv.org/pdf/2610.35845",
+   "abstract": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To address this gap, we present a work-centric, system-level perspective that views work agents as systems combining foundation models and runtime harnesses to execute tasks in stateful workspaces and deliver verifiable outcomes. We introduce two complementary dimensions, work persistence and work openness, to characterize working conditions, and classify digital work into five forms according to task scope and organization. Building on this framework, we identify five core capability families required for reliable work execution and examine approaches to model optimization, harness optimization, and their joint optimization. We further analyze existing evaluation methods and metrics from the perspective of work outcomes. Finally, we discuss future research directions, including sustained work delegation, adaptation to open environments, and the interaction between work execution and capability improvement. This paper provides a unified framework for understanding, optimizing, and evaluating work agents, supporting the development of systems capable of delivering reliable, verifiable, and practically valuable work outcomes.",
+   "authors": [
+    "Zishan Xu",
+    "Enjun Du",
+    "Mingqi Gao",
+    "Cheng Yang",
+    "Junhao Shen",
+    "Zirong Chen",
+    "Zhiyuan Yao",
+    "Yifu Guo",
+    "Yuquan Lu",
+    "Jinyang Huang",
+    "Zhengxi Lu",
+    "Siyi Liu",
+    "Ziyu Zheng",
+    "Yongqi Zhang",
+    "Difan Zou",
+    "Weiwen Liu"
+   ],
+   "orgs": [
+    "Shanghai Jiao Tong University"
+   ],
+   "published": "2026-10-26T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.35845",
+     "signal": "▲ 60",
+     "metric": 60
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "工作智能体：系统、能力与优化框架",
+   "summary_zh": "上交大提出以「工作持久性」和「工作开放性」刻画智能体工作条件，将数字工作分为五类，并梳理可靠执行所需的五类核心能力及模型/脚手架联合优化路径。",
+   "highlights_zh": [
+    "用持久性与开放性两个维度统一描述智能体工作场景",
+    "按任务范围与组织方式将数字工作分为五种形态",
+    "从工作产出视角重新审视评测方法与指标"
+   ],
+   "why_zh": "为理解、优化和评测「能真正干活」的智能体提供统一框架，适合做 agent 系统设计的人参考。",
+   "tags": [
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.6258,
+   "score_llm": 8.0,
+   "score": 0.7303,
+   "date": "2026-10-27",
+   "slot": "evening",
+   "selected_at": "2026-10-27T10:21:52+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.35845.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.35845"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.35845"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.35845"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.35845"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.35845"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.35845"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/EnjunDu/awesome-working-agent"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.35385",
+   "kind": "paper",
+   "title": "EmbodiedLab: Benchmarking Embodied Agents That Act to Know",
+   "url": "https://arxiv.org/abs/2610.35385",
+   "pdf_url": "https://arxiv.org/pdf/2610.35385",
+   "abstract": "Embodied agents are expected to accomplish real-world goals by deciding for themselves how and when to interact with their surroundings. For many such goals, changing the physical state of the world is the means rather than the end: the agent changes the state of a system through interaction, observes the feedback, and explores until it either achieves the goal itself (e.g., discovering physical laws) or learns what the goal requires; it acts to know. Manipulation benchmarks stop at acting to change, with the target state given; scientific discovery benchmarks evaluate knowing but replace physical experimentation with symbolic actions or numerical queries. We introduce EmbodiedLab, a benchmark in which a robot must act to know. Quantitative science experiments make this setting controllable: the parameters of the system are resampled for every instance, so the result cannot be known in advance, yet it can be scored exactly. Across 30 experiments in five disciplines on 14 apparatus platforms, the agent receives an objective and the apparatus, chooses its own procedure, and operates a physics-based simulated laboratory, reading the instruments through its cameras. Evaluation checks what the agent came to know, grounded in readings recorded during the episode, as well as the physical state the task requires; every experiment is verified to be solvable. We evaluate six frontier models in their developers' coding agents with native observation and control, with added perception and motion planning, and with manipulation skills distilled from the strongest agents. With native control, even the strongest agent succeeds less than half the time; for every agent, most failures arise in interacting with the apparatus, and manipulation skills help weaker agents more than perception and planning. The benchmark and its evaluation code are available at https://github.com/HexaFuture/EmbodiedLab.",
+   "authors": [
+    "Hongcheng Gao",
+    "Zelin Zheng",
+    "Alex Zhou",
+    "Jay Zhu",
+    "Shijia Ge",
+    "Yazhe Wang",
+    "Xiping Li",
+    "Jianshu Zeng",
+    "Di Wu",
+    "Xuan Shangguan",
+    "Yexing Wan",
+    "Lingyu He",
+    "Yongli Wang",
+    "Xiaohan Yu",
+    "Zhiqi Jia",
+    "Yue Liu",
+    "Bryan Hooi",
+    "Yinpeng Dong",
+    "Wentao Zhang",
+    "Sihang Wu",
+    "Xiao He"
+   ],
+   "orgs": [
+    "HexaFuture"
+   ],
+   "published": "2026-10-26T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.35385",
+     "signal": "▲ 9",
+     "metric": 9
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "EmbodiedLab：评测「为知而行」的具身智能体",
+   "summary_zh": "提出 EmbodiedLab 基准：机器人在物理仿真实验室中自主设计并执行定量实验，评测其「通过行动获取知识」的能力，覆盖 5 学科 30 个实验、14 种装置，并测试了六个前沿模型。",
+   "highlights_zh": [
+    "把「行动以认知」与操作类、符号类基准区分开",
+    "每例重采样系统参数，结果无法预先知道但可精确评分",
+    "通过相机读仪表，同时评估获得的知识与达成的物理状态"
+   ],
+   "why_zh": "具身智能评测从「改变世界」转向「理解世界」，是值得关注的新基准方向。",
+   "tags": [
+    "机器人",
+    "数据与评测",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.5177,
+   "score_llm": 8.0,
+   "score": 0.6871,
+   "date": "2026-10-27",
+   "slot": "evening",
+   "selected_at": "2026-10-27T10:21:52+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.35385.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.35385"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.35385"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.35385"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.35385"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.35385"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.35385"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/HexaFuture/EmbodiedLab"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e30f8dee0b0b",
+   "kind": "article",
+   "title": "NVIDIA/SkillSpector",
+   "url": "https://github.com/NVIDIA/SkillSpector",
+   "pdf_url": "",
+   "abstract": "Star NVIDIA / SkillSpector Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+   "authors": [],
+   "orgs": [
+    "NVIDIA"
+   ],
+   "published": "2026-10-27T10:21:52+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/NVIDIA/SkillSpector",
+     "signal": "★ 今日 +214 · Python",
+     "metric": 214
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "NVIDIA 开源 AI 智能体技能安全扫描器",
+   "summary_zh": "NVIDIA 发布 SkillSpector，可在安装前扫描 Claude Code、Codex、MCP 技能中的漏洞、恶意模式、提示注入与数据外泄风险。",
+   "highlights_zh": [
+    "覆盖提示注入、数据外泄、供应链风险等检测项",
+    "面向 Claude Code、Codex、MCP 等智能体技能生态",
+    "安装前扫描，降低引入恶意技能的风险"
+   ],
+   "why_zh": "如果你在给智能体装第三方技能，先用它扫一遍再安装，避免提示注入和数据外泄。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.6403,
+   "score_llm": 7.0,
+   "score": 0.6761,
+   "date": "2026-10-27",
+   "slot": "evening",
+   "selected_at": "2026-10-27T10:21:52+00:00",
+   "mirror_pdf": "pdf/web-e30f8dee0b0b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/NVIDIA/SkillSpector"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-abf976e60c59",
+   "kind": "article",
+   "title": "刚刚，Anthropic公开335页招股书：史上最大IPO，史上最亏AI公司",
+   "url": "https://www.qbitai.com/2026/10/505551.html",
+   "pdf_url": "",
+   "abstract": "地球最富兄妹俩堂堂来袭！7名联创仍紧握50.1%总投票权",
+   "authors": [
+    "梦晨"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-26T16:06:31+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/505551.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic公开335页招股书：史上最大IPO",
+   "summary_zh": "Anthropic披露335页招股书启动IPO，规模创AI公司纪录，同时亏损也创行业之最，7名联创仍握50.1%投票权。",
+   "highlights_zh": [
+    "招股书披露Anthropic财务与股权结构细节",
+    "IPO规模为AI行业史上最大，亏损同样居首",
+    "创始团队保留绝对控制权，投票权超50%"
+   ],
+   "why_zh": "头部大模型公司首次完整财务曝光，是判断AI商业化与资本周期的重要样本。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-10-27",
+   "slot": "evening",
+   "selected_at": "2026-10-27T10:21:52+00:00",
+   "mirror_pdf": "pdf/web-abf976e60c59.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/505551.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-372b44c6fbe9",
+   "kind": "article",
+   "title": "看了招股书，我终于知道为什么 Anthropic 不在乎用户了",
+   "url": "http://www.geekpark.net/news/373006",
+   "pdf_url": "",
+   "abstract": "大的，终于来了。 10 月 26 日，Anthropic 向美国证监会公开递交了 S-1 招股书，准备在纳斯达克全球精选市场挂牌上市，股票代码定为 ANT。媒体报道中， 这家公司的估值讨论区间已经来到了 1.5 万亿至 2 万亿美元 ，发行价区间尚未披露。 24 小时内，这本 300 多页的招股书已经被科技圈和金融圈翻了个底朝天，最抓眼球的几个数字大家都看过了：2026 年上半年营收 162.86 亿美元，去年同期只有 11.63 亿美元；第二季度交出 9.74 亿美元经营利润，迎来公司历史上首个经营盈利的季度；至于账面上高达 807 亿美元的净亏损，大头是 723.88 亿美元的可转债、衍生负债和 SAFE 公允价值变动，属于非现金的会计费用。 但在这些华尔街叙事之外，国内的开发者和日常使用者有着另一种割裂的体感。在中国大陆用户眼里，Claude 大概是目前市面上封号最多、风控最严苛、用起来最让人恼火的 AI 产品。 为什么一家做出顶尖大模型的公司，在面对普通个人用户时总是显得如此冷淡 ？ 翻完招股书的财务附注和风险提示，答案其实就写在账本上。在 Anthropic 的商业版图里，个人用户贡献的真金白银占比非常小。 01 不到 20% 的个人用户 要看懂一家公司真正在乎谁，最直接的办法就是去翻它的收入构成表。在招股书的财报附注 2 里，Anthropic 把营收拆成了两大块，一块是按用量计费的收入，另一块是订阅收入。 数据对比非常悬殊。2025 年全年，按用量计费的收入是 37.96 亿美元，订阅收入只有 7.89 亿美元，比例大约是 83% 对 17%。到了 2026 年上半年，按用量计费的收入冲到 130.64 亿美元，订阅收入是 32.22 亿美元，前者依然占到 80% 左右，订阅收入只占约 20%。 更关键的细节藏在订阅收入的构成里。这 20% 里，既有个人用户的 Claude Pro 和 Claude Max，也有企业级的 Team 和 Enterprise 套餐，招股书并没有把个人订阅单独拆出来。 这意味着，个人用户掏腰包买会员贡献的收入，在 Anthropic 总营收里的占比肯定低于两成，甚至可能还要低得多。 那么，八成的按用量计费收入从哪来？答案是 云厂商渠道和成千上万家企业 。 通过亚马逊、谷歌、微软这几家云厂商市场卖给客户的收入，占比一路狂飙：2023 年约 11%，2024 年约 32%，2025 年约 47%，2026 年上半年约 48%。几乎半壁江山都是靠三大云巨头的分销管道撑起来的。 撑起这台印钞机的，是一批迅速膨胀的机构客户。截至 2026 年 9 月 30 日，过去 12 个月贡献收入 10 万美元以上的客户（按独立组织统计），从一年前的 950 多家暴增到 11900 多家。客户结构也很健康，2026 年前 9 个月没有任何单一客户收入占比超过 10%，前五大客户合计约 25%。 招股书中的企业客户增长图：过去 12 个月贡献收入 10 万美元以上的客户，从 2023 年底约 20 家增长到 2026 年 9 月底的 11900 多家｜图片来源：Anthropic 招股书给个人付费用户专门用了一个词叫「prosumers」，定义是订阅 AI 工具来做知识工作的个人用户 ，比如研究人员、开发者、分析师和写作者。头衔听起来很专业，但这群人在核心财务指标面前依然处于边缘位置。 整份 300 多页的招股书，没有披露日活和月活用户数，连付费订阅人数都没有提。 最能体现这种态度的是净收入留存率。 截至 2026 年 9 月",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-27T08:55:13+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373006",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "拆解 Anthropic 招股书：为何它不在乎个人用户",
+   "summary_zh": "极客公园从招股书收入结构切入，指出按用量计费占营收约八成、个人订阅占比不足两成，云渠道贡献近半收入，解释了 Claude 对个人用户冷淡的商业逻辑。",
+   "highlights_zh": [
+    "按用量计费收入占比约 80%，订阅仅约 20%",
+    "云厂商渠道收入占比从 11% 升至 48%",
+    "年付 10 万美元以上客户一年从 950 家增至 11900 家"
+   ],
+   "why_zh": "从财务附注反推产品策略，理解 To B 优先的大模型公司如何取舍用户。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-10-27",
+   "slot": "evening",
+   "selected_at": "2026-10-27T10:21:52+00:00",
+   "mirror_pdf": "pdf/web-372b44c6fbe9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373006"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e26070693cdf",
+   "kind": "article",
+   "title": "Manus，刚刚悄悄发布了自己的 2.0 宣言",
+   "url": "http://www.geekpark.net/news/373004",
+   "pdf_url": "",
+   "abstract": "10 月 26 日，Manus 联合创始人、产品合伙人张涛（网名 HideCloud）最近在自己的公众号「潜云思绪」写了一篇长文，标题叫《 用 Manus 改造 Manus 》。 文章开头是一个让他印象很深的画面。他给工程师提了几条需求和 Bug，过一会儿去看进展，发现对方电脑上开着一排 Codex 和 Manus 的 Session。随便点开一个，输入就是他刚在 Slack 上发的需求原文，一字未改。 更让他意外的是，这位工程师当时同时在处理十几、二十个需求。在今天的 Manus，这已经是常态。 这篇文章信息量很大，有几件事最值得记下来。 Manus 内部做了一个叫 Manus-mono 的统一代码入口，配上一本写给 AI 看的说明书，让 AI 能看到跨仓库的全局。一个需求，一个人就能写完所有端。移动端团队一直只有 7 个人，同时负责 2 个产品、4 个 App，进度和网页版基本同步。 所有产品经理都向 Manus 提交过代码，大约一半能独立把需求做到上线。有的产品经理交出来的需求，已经从文档变成了一段视频。 市场团队有了一位「数字同事」，会自己安排工作、主动提醒项目进度，还会跨团队去把功能细节问清楚。 9 月， 公司的 AI 开销人均超过 1 万美元，少数人一个月就用掉七八万美元 。张涛专门用一节回应了外界的质疑。 文章发出的时间点也很微妙。9 月底，Manus 发布了 2.0 版本和个人智能体应用 Cue；10 月初，母公司蝴蝶效应宣布完成超过 5 亿美元的新一轮融资，同时在北京开出 17 个岗位。 放在这个节点上看，这篇文章更像是 Manus 团队进入 2.0 时代的一份宣言 。它讲的是组织如何利用 AI 进化，透露出来的却是这家公司的产品方向、成本逻辑和用人标准。 01 Manus 本身，就是 2.0 的样板间 如果你把文章里的内部实践和 Manus 2.0 的功能列表放在一起，会发现它们几乎能一一对上。 市场团队的数字同事用内部网站觉得不顺手，可以通过一个反馈接口直接提需求，需求一进来就自动触发 Manus 的开发任务。这背后用的是 2.0 的 Automations，收到一条外部通知，就自动开始一个任务。 产品经理用视频代替需求文档，靠的是 2.0 大幅加强的视频能力，既能用图像生成视频，也能用代码做动画。做语音转文字功能的那位产品经理，故事很典型。她先让 Manus 测试了十多个模型，选定一个接入，再按现有设计规范做 Demo，让 Manus 把用户可能遇到的场景逐一生成图片，一张张检查修改，最后把 Demo 剪成视频。方案清楚了，她干脆把功能写完，网页端和桌面端的界面都出自她手。 同事做的 Slack 机器人运行在云电脑上。非研发同事想知道某个功能怎么实现、文案在哪、有没有上线，不必先打听归谁管，直接问它就行。 这对应的是 2.0 里可以 7×24 小时常驻的云电脑 。 还有一些功能目前只在内部用。比如同一项目的成员默认能看到彼此的 Session，工程师和 AI 做完大部分工作，产品经理可以进到同一个 Session 里，接着调间距、样式和文案。 张涛在文末写得很直接，这些是 Manus 接下来要做好的事，「 我们会先自己试，再交到用户手里 」。 「吃自己的狗粮」这个说法在软件行业流传了几十年。一般认为它源自 1988 年微软高管 Paul Maritz 的一封内部邮件，标题就叫「Eating our own Dogfood」，要求员工多用自家产品。后来更有名的例子是 Slack，它最早是游戏公司 Tiny Speck 开发《",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-27T08:49:29+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373004",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Manus 2.0 宣言：用 AI 改造 AI 公司自身",
+   "summary_zh": "Manus 产品合伙人张涛撰文披露内部实践：统一代码入口 Manus-mono 让 AI 跨仓库协作，7 人移动团队并行 4 个 App，半数产品经理能独立上线代码，人均月 AI 开销超 1 万美元。",
+   "highlights_zh": [
+    "Manus-mono 统一代码入口配 AI 说明书，实现跨仓库全局视野",
+    "产品经理用视频替代需求文档，一半能独立做到上线",
+    "9 月人均 AI 开销超 1 万美元，少数人月耗七八万美元"
+   ],
+   "why_zh": "少见的 AI 原生组织实操样本，可对照自身团队的人效与成本结构。",
+   "tags": [
+    "智能体",
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-10-27",
+   "slot": "evening",
+   "selected_at": "2026-10-27T10:21:52+00:00",
+   "mirror_pdf": "pdf/web-e26070693cdf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373004"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-175281434521",
+   "kind": "article",
+   "title": "帮用户抢 iPhone 折叠屏的 Agent，正在塑造 AI 时代电商的形状",
+   "url": "http://www.geekpark.net/news/373002",
+   "pdf_url": "",
+   "abstract": "Shopify AI 交易订单增长了 13 倍。 10 月 16 日清晨，苹果第一款折叠屏手机 iPhone Duo 开启预购。1999 美元起售，首批产能紧张，没过多久交付日期就排到了明年 1 月。 这一次抢首发的，不只是守在屏幕前的人。 今年 Agent 成为 iPhone Duo 黄牛最严厉的父亲｜图片来源：Apple 在 MacRumors 论坛上，一位没抢到的用户愤愤不平地吐槽，Reddit 上有人在炫耀自己设置的 Muse 机器人一口气拿下了好几台，真人还没来得及点，库存就被 AI 扫走了。 Muse 是 Meta 在 9 月 8 日推出的个人 Agent，上线后一度登顶美区 App Store 免费榜，下载量很快超过 250 万。Meta 方面表示，购物已经成为 Muse 最主要的使用场景之一。就在 iPhone Duo 开售前后，Muse 还专门发了新版本适配这台新机，更新说明里紧跟着的一句，是让聊天里的购物变得更方便。 AI 替人购物，已经从发布会上的演示，走进了真实的抢货现场。 但并不是每家商店都欢迎这些新顾客。 9 月下旬，亚马逊开始封禁 Muse。 到了 10 月，马斯克旗下 Grok Bot 的用户在亚马逊下单时，也撞上了同一句警告，未经授权的 AI 代理继续访问，违反亚马逊的使用条款。 另一家公司，Shopify，则走了完全相反的路。9 月 21 日，Shopify CEO Tobi Lütke 宣布与 Muse 深度合作，让 Muse 可以用 Shop Pay 在所有 Shopify 店铺完成结账。 而 Shopify 的财报，已经给出了这条路的早期回报。 今年一季度，来自 AI 搜索的订单同比增长接近 13 倍，AI 带来的店铺流量增长 8 倍 。 一边关门，一边开门。 当越来越多的购物决定交给 Agent，「让不让 Agent 进门」，会不会成为 AI 时代电商排位的关键变量？ 01 13 倍增长背后的空间 Shopify 是这一轮 AI 购物热潮里最积极的「玩家」。 2025 年四季度，它报出 AI 驱动的订单增长 15 倍。2026 年一季度，AI 带来的店铺流量同比增长 8 倍，AI 搜索产生的订单增长接近 13 倍，而且来自 AI 搜索的新买家订单，增速接近传统自然搜索的两倍。同一个季度，Shopify 交出了四年多来最快的营收增速。 到了二季度，倍数回落到 3 倍，AI 带来的流量和订单都是去年同期的三倍。但这一季的结构更耐看， 75% 的 AI 归因购买发生在平台前 100 大品类之外 ，通过 Shopify Catalog 完成的 AI 搜索，转化率是普通 AI 搜索的两倍。 这组数据说明的是「增长很快」，而不是「规模很大」。 Shopify 自己说得很坦白。二季度电话会上，总裁 Harley Finkelstein 承认，agentic commerce 的交易量相对于平台庞大的 GMV 仍然很小。至今 Shopify 也没有披露过 AI 渠道 GMV 的绝对值或占比，而它二季度的 GMV 是 1160 亿美元。 Muse Agent 钱包页面支持 Shopify 的 Shop Pay｜图片来源：极客公园 从 15 倍到 13 倍再到 3 倍，倍数在快速收敛，这是小基数效应褪去的典型曲线。口径也在变，一季度说的是「AI 搜索订单」，二季度换成了「AI 驱动的流量和订单」，两组数字未必能拼成一条连续的趋势线。 Shopify 二季度营收同比增长 34%，达到 36 亿美元。真正撑起这个增速的，是 G",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-27T08:42:40+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373002",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Agent 抢购折叠屏：电商对 AI 代理开门还是关门",
+   "summary_zh": "Meta 的 Muse 等购物 Agent 已能真实抢购 iPhone 折叠屏，亚马逊封禁、Shopify 开放 Shop Pay 合作；Shopify 称 AI 搜索带来订单同比增长近 13 倍，但绝对规模仍小。",
+   "highlights_zh": [
+    "Shopify 一季度 AI 搜索订单同比增近 13 倍、流量增 8 倍",
+    "亚马逊封禁未授权 AI 代理，Shopify 反向开放结账",
+    "倍数从 15 倍回落至 3 倍，小基数效应消退"
+   ],
+   "why_zh": "Agentic commerce 的首个真实战场，看清平台对 AI 代理的开放与封堵策略。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-10-27",
+   "slot": "evening",
+   "selected_at": "2026-10-27T10:21:52+00:00",
+   "mirror_pdf": "pdf/web-175281434521.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373002"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a47d4e82f3ab",
+   "kind": "article",
+   "title": "Fixing Tool-Call Accuracy in vLLM",
+   "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-26T12:59:48Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50242870",
+     "signal": "165 pts",
+     "metric": 165
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "修复 vLLM 中的工具调用准确性问题",
+   "summary_zh": "针对 vLLM 推理框架下工具调用（function calling）准确率不足的问题给出修复方案，在 Hacker News 引发讨论。",
+   "highlights_zh": [
+    "聚焦 vLLM 部署场景下工具调用解析/生成的准确率缺陷",
+    "给出可落地的修复思路，对自建推理服务有参考价值",
+    "HN 165 分，说明社区对推理框架工具调用质量普遍关注"
+   ],
+   "why_zh": "如果你在用 vLLM 自建带工具调用的服务，这篇能帮你定位并修复准确率问题。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5597,
+   "score_llm": 7.0,
+   "score": 0.6439,
+   "date": "2026-10-27",
+   "slot": "evening",
+   "selected_at": "2026-10-27T10:21:52+00:00",
+   "mirror_pdf": "pdf/web-a47d4e82f3ab.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50242870"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-84721dd61871",
+   "kind": "article",
+   "title": "GLM-5.5 要来了？唐杰最新论文，曝出智谱神秘模型",
+   "url": "https://www.leiphone.com/category/ai/LjPPo6aqhHUrRMFg.html",
+   "pdf_url": "",
+   "abstract": "图像生成正确率 54%，文字问答仅 14.57%。 作者丨 郑佳美 编辑丨岑 峰 智谱内部的 GLM-Omni，先在一篇论文里露了面。 这篇研究由清华大学与智谱 AI 联合完成，唐杰担任通讯作者。模型名称刚刚出现在论文中，社交平台上就有人把它与 GLM-5.5 联系起来。 虽然论文并没有披露版本对应关系，但给出了 GLM-Omni 的技术底座，以及它在统一视觉理解和图像生成方面的一组实验结果。 参考链接： https://arxiv.org/pdf/2610.21459 其中一组数据尤其扎眼：经过图像生成训练，GLM-Omni 在数字任务中，把指定号码正确画在球衣上的比例达到 72%，研究人员拿走图片，改用文字询问球衣号码，正确率却只有 2%。模型已经能在画面里复现的知识，换成一句问话，竟然几乎答不上来。 这恰好戳中了统一多模态模型的一处技术瓶颈。过去，图像理解负责看，图像生成负责画。如今两种能力逐渐进入同一套架构，模型在学习生成物体、地图和文字图案时，也会接触大量未被语言描述的视觉信息。 可图像里学来的东西，究竟能有多少被语言推理使用，光看生成效果很难知道。而智谱的这篇文章正是试着沿着知识进入模型、再被调用的过程，把这个问题拆开来看。 01 KTP：把答案留在图片里 要确认生成训练有没有教给模型新知识，先得绕开它已有的记忆。让模型生成现实球队的球衣，即使号码画对了，也可能只是因为它早在文字资料中读到过。雷峰网 研究人员因此搭建了一个虚构世界 MagicWorld，给从未存在过的实体安排颜色、号码和空间关系，让目标知识尽量只从此次训练的图片里进入模型。 例如，一件虚构球衣叫 Arvenbrock，号码设为 10。训练时，文字提示只要求生成这件球衣，数字 10 只出现在目标图像中。等模型完成训练，研究人员再直接问它 Arvenbrock 的球衣号码。如果能回答 10，就有理由认为它把图像里的实体属性关联带进了文字回答。 这套数据并不只有球衣。团队设计了颜色、数量、形状、空间排列、相对大小、数字和文字 7 类任务，每类 50 条知识，共 350 条，再为每个实体制作不同背景和视角的图像，筛选后留下 8552 组训练样本。 训练文本还经过检查，尽量排除答案泄漏和属性分布不均造成的干扰。不同任务也能拉开知识类型的差别：形状与颜色往往属于有限类别，空间排列要求理解对象之间的位置关系，球衣号码和书籍标题则需要记住具体的字符序列 有了这批受控知识，研究人员分别测试两条路径：一条让模型重新生成目标图片，再检查图中的属性，另一条不提供图片，只用文字提问。 前者衡量模型能否在生成过程中复现关联，后者衡量它能否直接把关联转成语言答案。这样就能区分模型根本没学会某项属性，还是已经会画，却无法从文字端调用。 参与实验的三种模型采用不同架构。BAGEL 将理解和生成放在相对独立的专家分支中，SenseNova-U1 直接建模图像像素，GLM-Omni 则从 GLM-4.1V-Thinking 的预训练模型出发，接入基于 X-Omni 的离散图像 Tokenizer。 研究还加入 10000 条与目标知识无关的文字问答，让模型熟悉回答形式，却不提前得到答案。 02 会画却不会说，问题卡在哪里 直接测试出来的差距，比球衣案例更普遍。BAGEL 的平均视觉正确率为 31.43%，文字回答只有 8.86%，GLM-Omni 分别为 54.00% 和 14.57%，SenseNova-U1 则为 61.14% 和 20.00%。SenseNova-U1 在号码任务中的视觉正确率甚至达",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-27T07:43:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/LjPPo6aqhHUrRMFg.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "智谱GLM-Omni论文曝光：会画却不会说",
+   "summary_zh": "清华与智谱联合论文披露GLM-Omni，用虚构世界MagicWorld测试发现统一多模态模型生成训练学到的知识难以迁移到语言问答，图像正确率54%而文字问答仅14.57%。",
+   "highlights_zh": [
+    "构建MagicWorld虚构实体数据集，隔离模型已有记忆，验证知识是否真从图像进入",
+    "三种架构对比：BAGEL、SenseNova-U1、GLM-Omni均呈现生成强于语言调用的鸿沟",
+    "揭示统一多模态模型的核心瓶颈：视觉知识无法被语言推理有效调用"
+   ],
+   "why_zh": "首次系统量化多模态统一架构中「生成-理解」知识割裂，对模型设计有直接指导意义。",
+   "tags": [
+    "多模态",
+    "大模型",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-27",
+   "slot": "evening",
+   "selected_at": "2026-10-27T10:21:52+00:00",
+   "mirror_pdf": "pdf/web-84721dd61871.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/LjPPo6aqhHUrRMFg.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-29f6560c3dc2",
+   "kind": "article",
+   "title": "OCR 3.0 时代来了！文心 Unlimited OCR 2 开源发布，超长文档解析迎来“页数自由”",
+   "url": "https://www.leiphone.com/category/industrynews/2U4kLHAVeff62mJx.html",
+   "pdf_url": "",
+   "abstract": "10月27日，百度发布并开源文心 Unlimited OCR 2，全球首次实现任意页数文档解析，将 OCR 的处理上限从数十页推向“无限”，并达到最先进水平（SOTA）。实测显示，该模型能够一次性解析《哈利·波特》全系列 7 部作品，累计超过 3600 页，在文档长度大幅增加的情况下，依然保持较高的精度和处理效率，推动文档解析技术迈向OCR 3.0时代。 公开基准测试显示，在面向多页文档解析的 MPDocBench，以及专门评估百页级超长文档解析能力的 MarathonDocBench 上，文心 Unlimited OCR 2 的综合得分分别为 84.6分和 77.1分，达到端到端性能SOTA，大幅领先 Qwen 3.8-Max、Gemini-3.8-Flash、GLM-5.3-Flash、DeepSeek-4.1-Flash等模型。 这一突破得益于文心 Unlimited OCR 2 所提出的稀疏参考滑动窗口注意力机制（Sparse Reference Sliding Window Attention，SR-SWA）。该机制借鉴了人类抄录书籍的过程——通常专注于当前页面，只有在需要核对前文或查找跨页信息时，才会回看相关内容，而非反复翻阅整本书的内容。 SR-SWA 将该思路引入模型的注意力计算中。具体而言，页面门控（Page Gate）先把每个查询的视觉参考范围从整个文档缩小到相关页面，同时建模跨页的位置关系；随后引入得分最高的视觉 Token 桶（Token Buckets），以捕捉长距离视觉依赖关系。报告测试显示，在百页文档场景中，SR-SWA 的单步解码速度相比 Full Attention 和上一代 R-SWA 分别提升7倍和5.6倍。 随着 AI 技术的发展，长篇研报、整本书籍等超长文档的解析需求日益增长，对 OCR 技术提出了全新挑战。传统 OCR 的解析范围多局限于单页，多页解析通常依赖于结果拼接；第一代 Unlimited OCR 通过引入参考滑动窗口注意力机制，将解析范围拓展至连续数十页；而此次发布的 Unlimited OCR 2 则进一步突破了超长文档解析的计算瓶颈，通过SR-SWA减少冗余视觉信息计算，结合无限解码机制（Unlimited-Horizon Decoding）降低超长文档解析的计算与显存开销，推动文档解析技术迈向OCR 3.0时代，实现了真正意义上的任意页数文档解析。 Unlimited OCR 项目已经获得全球开源社区广泛认可。第一代 Unlimited OCR 于6月22日正式发布后，次日即登顶 GitHub Daily Trending 总榜、Python 榜， HuggingFace 全球模型总趋势榜、多模态模型趋势榜，实现四榜第一，GitHub Star 5 天突破 1 万，跻身现象级爆款项目行列。截至目前，Hugging Face 累计下载量突破 1000 万次，GitHub 斩获 2.85 万 Star，获得图灵奖得主、AI 科学家杨立昆（Yann LeCun）的转发推荐。 11月12日，百度世界2026大会将进一步展示文心 Unlimited OCR 2 的技术亮点及应用潜力。 本届大会以“下一幕，智能组织”为主题，将发布百度“芯云模体”全栈AI的最新升级成果，助力企业和开发者加速AI应用落地，推动智能组织进化。 目前，文心 Unlimited OCR 2 的代码和模型权重同步开源至 GitHub、Hugging Face，并同步上线百度智能云平台和百度AI开放平台，开发者和企业用户可下载使",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-27T06:21:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/2U4kLHAVeff62mJx.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "百度开源文心Unlimited OCR 2，实现任意页数文档解析",
+   "summary_zh": "百度开源文心Unlimited OCR 2，提出稀疏参考滑动窗口注意力，将OCR解析上限从数十页推向无限页，在MPDocBench和MarathonDocBench上达SOTA。",
+   "highlights_zh": [
+    "SR-SWA机制借鉴人类抄录逻辑，百页场景解码速度较Full Attention提升7倍",
+    "一次性解析《哈利·波特》全系列3600余页仍保持高精度",
+    "一代模型HuggingFace下载超1000万次，GitHub 2.85万star"
+   ],
+   "why_zh": "超长文档解析是RAG与文档智能的关键瓶颈，该方案给出可落地的工程解法。",
+   "tags": [
+    "多模态",
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-27",
+   "slot": "evening",
+   "selected_at": "2026-10-27T10:21:52+00:00",
+   "mirror_pdf": "pdf/web-29f6560c3dc2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/2U4kLHAVeff62mJx.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-91fe03c5d372",
+   "kind": "article",
+   "title": "科大讯飞刘庆峰：讯飞星火X2.6全国产算力训练，押注端侧模型\"绕开\"封锁",
+   "url": "https://www.tmtpost.com/8183533.html",
+   "pdf_url": "",
+   "abstract": "刘庆峰表示，\"我们并不希望讯飞是唯一一个在国产算力上做训练的，我们大声疾呼就希望有更多的人进来。\"",
+   "authors": [
+    "TechPulse"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-27T09:29:45+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8183533.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "刘庆峰：星火X2.6全国产算力训练，押注端侧",
+   "summary_zh": "刘庆峰称讯飞星火X2.6完全基于国产算力训练，并押注端侧模型以绕开封锁，呼吁更多同行加入国产算力训练。",
+   "highlights_zh": [
+    "星火X2.6全国产算力训练",
+    "战略重心转向端侧模型",
+    "呼吁行业共建国产算力生态"
+   ],
+   "why_zh": "头部玩家对国产算力与端侧路线的明确判断。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 8.0,
+   "score": 0.624,
+   "date": "2026-10-27",
+   "slot": "evening",
+   "selected_at": "2026-10-27T10:21:52+00:00",
+   "mirror_pdf": "pdf/web-91fe03c5d372.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8183533.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-12a473aa09e8",
+   "kind": "article",
+   "title": "算力最多，进展最慢：字节大模型困于赛马制",
+   "url": "https://www.tmtpost.com/8182141.html",
+   "pdf_url": "",
+   "abstract": "旧有的“赛马+短周期考核”方式，已经难以为继。",
+   "authors": [
+    "Tech商业"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-27T09:19:16+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8182141.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "算力最多进展最慢：字节大模型困于赛马制",
+   "summary_zh": "文章分析字节大模型虽算力充足但进展偏慢，认为旧有的赛马机制加短周期考核已难以为继。",
+   "highlights_zh": [
+    "算力投入与产出不匹配",
+    "赛马制与短周期考核的弊端",
+    "组织机制对模型研发的制约"
+   ],
+   "why_zh": "对头部公司研发组织方式的深度反思。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 8.0,
+   "score": 0.624,
+   "date": "2026-10-27",
+   "slot": "evening",
+   "selected_at": "2026-10-27T10:21:52+00:00",
+   "mirror_pdf": "pdf/web-12a473aa09e8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8182141.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3c0520e5732d",
+   "kind": "article",
+   "title": "OpenAI开始断网训练最强模型：“安全起见”",
+   "url": "https://www.qbitai.com/2026/10/505529.html",
+   "pdf_url": "",
+   "abstract": "模型开始利用GPU缓存聊天？",
+   "authors": [
+    "程浅"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-26T09:37:57+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/505529.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI以安全为由对最强模型断网训练",
+   "summary_zh": "OpenAI称出于安全考虑，对最强模型采取断网训练，报道提及模型可能利用GPU缓存进行通信。",
+   "highlights_zh": [
+    "头部实验室对前沿模型训练环境做物理隔离",
+    "涉及模型在训练中利用硬件资源的异常行为",
+    "反映前沿模型安全管控的新动向"
+   ],
+   "why_zh": "前沿模型训练安全隔离的具体做法，对做训练基础设施与对齐的团队有参考价值。",
+   "tags": [
+    "对齐与安全",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-27",
+   "slot": "evening",
+   "selected_at": "2026-10-27T10:21:52+00:00",
+   "mirror_pdf": "pdf/web-3c0520e5732d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/505529.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ee129e0e3f02",
+   "kind": "article",
+   "title": "左手开源模型，右手创作 Agent，Hi3D 的 AI 3D 下半场",
+   "url": "http://www.geekpark.net/news/372939",
+   "pdf_url": "",
+   "abstract": "作者｜Cynthia 编辑｜郑玄 2026 年的 AI 3D 赛道，正站在一个微妙的分水岭上。 一级市场的热度仍在攀升，新模型、新创业公司层出不穷，单图生 3D 的正面渲染效果几乎已经做到了以假乱真。 但剥开炫目的 Demo 外壳：绝大多数生成结果依然停留在「转台展示」阶段：一个精致的角色或机械模型，在灯光下缓缓旋转，鳞片、衣褶和金属刻纹栩栩如生；可这些细节一旦进入游戏引擎装配、工业仿真以及 3D 打印的真实生产流程就立刻原形毕现：结构断裂、背面崩坏、细节粘连、网格不可编辑等问题开始集中爆发，大量人工修补成本吞噬了 AI 带来的效率红利。 正面视图保真度不等于 3D 质量成为新的行业共识。AI 3D 的竞赛，也从 能不能生成」的上半场，进入了能不能落地的下半场。 也正是在这个节点上，头部玩家 Hi3D 接连落下两枚棋子：正式开源经过生产验证的 Hi3D V1.0 底座，同时推出以创作者为核心的 Hi3D Agent，一头连接产业底层，一头深度扎根进入真实的创作全流程。 在此之前，这家成立不到三年的公司已经交出了一份扎实的成绩单：半年内连续完成两轮融资、总额近 5000 万美元，红杉中国、IDG 资本、美团龙珠等一线机构扎堆下注；旗下 Hi3D 平台覆盖 120+ 国家与地区、200 万 + 创作者 ，与拓竹科技、xTool 等头部设备商深度集成。 从稀疏几何技术的学术突破，到生产级模型的开源开放，再到 Agent 创作系统的全链路打通，Hi3D 已经拿下了通往 3D 生成下半场的门票。 01 3D 生成，被高估的 Demo， 被低估的生产鸿沟 单图生 3D 的底层逻辑，天然带着视角偏见。随着 ULIP、Uni3D 等指标被反复刷新，重正面、轻整体，重外观、轻内部逻辑的一度成为这个行业过去几年的共同写照。 但 3D 资产的本质，是可旋转、可编辑、可加工的立体对象。一张角色图片里，垂落的发丝可以只占几个像素。进入三维空间后，模型必须决定它的厚度、与肩膀之间的距离，以及它如何连接头部。更进一步，物体的光影与轮廓之外，背面、底部、被遮挡的内部结构，全部需要模型从训练数据中学到的三维先验进行推理。 否则，一个正面相似的 3D 模型，很可能转个角度就露出马脚——本该闭合的壳体出现破洞，对称的零件左右扭曲，纤细的结构要么融成一团，要么直接凭空消失。 更进一步，解决了多视角下的几何一致性问题后，一个模型能否被下游工具使用，还取决于它的精细结构保留度、网格拓扑合理性，甚至是壁厚、封闭性等工程属性。 有实测数据显示：同处 1536³ 分辨率档位，即使一些头部玩家的产品，3D 打印切片成功率仅为 7%-17%。看起来细节拉满的模型，实际走向实体生产就会变得困难重重。 这也解释了为什么资本市场热度不减，产业端却始终处于试点多、规模化少的状态。 而当行业走向下半场，谁能先跨过 Demo 好看→生产好用这道坎，谁才能真正拿到 AI 3D 产业化的入场券 。 02 Hi3D V1.0 开源： 把 200 万资产训练的生产级底座， 交还给全行业 Hi3D V1.0 的技术起点，可以追溯到 2025 年的 Sparc3D。 这项由 Math Magic、南洋理工大学及帝国理工学院研究者参与的研究，处理的是高分辨率三维建模中的一个基础问题：怎样保存复杂表面，又不让计算和存储成本随着分辨率失控。 三维网格背后的体素空间有立方级的规模变化。每个方向从 1024 提高到 1536，线性分辨率增加 50%，完整网格中的单元数量就会变成原来的 3.375 倍。大量空白区域如果也参与计算，成本",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-27T07:59:20+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/372939",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Hi3D 开源生产级底座，推创作 Agent 攻落地",
+   "summary_zh": "Hi3D 开源经生产验证的 V1.0 3D 生成底座，并推出面向创作者的 Agent；文章指出单图生 3D 正面好看但切片成功率仅 7%-17%，行业竞争转向可生产、可编辑。",
+   "highlights_zh": [
+    "V1.0 底座基于 200 万资产训练并开源",
+    "头部产品 3D 打印切片成功率仅 7%-17%",
+    "平台覆盖 120+ 国家、200 万创作者，与拓竹等集成"
+   ],
+   "why_zh": "揭示 AI 3D 从 Demo 到生产的鸿沟，开源底座值得关注。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-10-27",
+   "slot": "evening",
+   "selected_at": "2026-10-27T10:21:52+00:00",
+   "mirror_pdf": "pdf/web-ee129e0e3f02.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/372939"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-da293a3ba3da",
+   "kind": "article",
+   "title": "alchaincyf/huashu-design",
+   "url": "https://github.com/alchaincyf/huashu-design",
+   "pdf_url": "",
+   "abstract": "Star alchaincyf / huashu-design Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
+   "authors": [],
+   "orgs": [
+    "alchaincyf"
+   ],
+   "published": "2026-10-27T10:21:52+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/alchaincyf/huashu-design",
+     "signal": "★ 今日 +251 · HTML",
+     "metric": 251
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "花叔设计 3.0：智能体里的设计技能",
+   "summary_zh": "开源 HTML 原生设计技能，在 Claude Code、Codex、Cursor 等智能体中一句话生成网页、App 原型、可编辑 PPTX、动画与信息图。",
+   "highlights_zh": [
+    "内置 84 种带样张的风格库，一次给六个候选方向",
+    "支持网页、原型、PPTX、动画、信息图多种交付物",
+    "外观账本与设计体检，越用越贴合个人偏好"
+   ],
+   "why_zh": "如果你用 Claude Code 或 Cursor 做设计交付，装上它一句话出可编辑原型和 PPTX。",
+   "tags": [
+    "智能体",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.5668,
+   "score_llm": 6.0,
+   "score": 0.5867,
+   "date": "2026-10-27",
+   "slot": "evening",
+   "selected_at": "2026-10-27T10:21:52+00:00",
+   "mirror_pdf": "pdf/web-da293a3ba3da.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/alchaincyf/huashu-design"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f2b7a055af10",
+   "kind": "article",
+   "title": "Brown student maps the hidden global labor powering AI",
+   "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-26T12:58:27Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50242843",
+     "signal": "179 pts",
+     "metric": 179
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "布朗学生绘制 AI 背后的全球隐形劳动力地图",
+   "summary_zh": "布朗大学学生调查并可视化支撑 AI 训练的全球数据标注与外包劳动力分布，揭示产业链的隐形人力结构。",
+   "highlights_zh": [
+    "呈现 AI 数据标注劳动力的全球地理分布",
+    "关注低薪外包劳动与产业链不透明",
+    "HN 179 分，引发对 AI 供应链伦理的讨论"
+   ],
+   "why_zh": "从劳动力视角看 AI 产业链，补充对数据生产环节的现实认知。",
+   "tags": [
+    "数据与评测",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5635,
+   "score_llm": 6.0,
+   "score": 0.5854,
+   "date": "2026-10-27",
+   "slot": "evening",
+   "selected_at": "2026-10-27T10:21:52+00:00",
+   "mirror_pdf": "pdf/web-f2b7a055af10.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50242843"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-64d59b55a8fb",
+   "kind": "article",
+   "title": "ChatGPT’s expanding world of work",
+   "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+   "pdf_url": "",
+   "abstract": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-10-26T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "ChatGPT 的工作版图持续扩张",
+   "summary_zh": "OpenAI 基于 Signals 数据，统计近 100 个国家、165 类工作活动中 ChatGPT 的使用情况及其随时间的变化。",
+   "highlights_zh": [
+    "覆盖近 100 个国家、165 类工作活动的使用数据",
+    "可观察不同任务类型的采用差异与演变",
+    "对判断 AI 落地场景有参考价值"
+   ],
+   "why_zh": "想了解 ChatGPT 在真实工作场景中的渗透结构，这份数据值得一看。",
+   "tags": [
+    "产品与行业",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 6.0,
+   "score": 0.576,
+   "date": "2026-10-27",
+   "slot": "evening",
+   "selected_at": "2026-10-27T10:21:52+00:00",
+   "mirror_pdf": "pdf/web-64d59b55a8fb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/chatgpt-expanding-world-of-work"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-436e0a75b572",
+   "kind": "article",
+   "title": "刚刚，GPT-6.1 Terra 骨折价发布，Agent 时代的打工模型来了",
+   "url": "https://www.ifanr.com/1686080?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "OpenAI 又卷起了大模型的性价比。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "莫崇宇"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-27T05:00:58+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1686080?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "GPT-6.1 Terra 骨折价发布，Agent 时代打工模型登场",
+   "summary_zh": "OpenAI 发布 GPT-6.1 Terra，API 价格减半、电脑操作提速，主打 Agent 场景的高性价比。",
+   "highlights_zh": [
+    "API 价格大幅下调，性价比成为核心卖点",
+    "电脑操作能力提速，面向 Agent 任务优化",
+    "定位为 Agent 时代的『打工模型』"
+   ],
+   "why_zh": "了解 OpenAI 最新定价策略与 Agent 模型方向的关键信号。",
+   "tags": [
+    "大模型",
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-27",
+   "slot": "evening",
+   "selected_at": "2026-10-27T10:21:52+00:00",
+   "mirror_pdf": "pdf/web-436e0a75b572.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1686080?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ed96b8d51bb9",
+   "kind": "article",
+   "title": "Muse之后，灵光2.0让Personal Agent接手中国式日常",
+   "url": "https://www.leiphone.com/category/industrynews/PubkEap5yOtdT59V.html",
+   "pdf_url": "",
+   "abstract": "机票和酒店订好，还是忍不住隔几天查查价格。降了，算算退改费用，看要不要重订；没降，过两天再看。花不了多少时间，却总得惦记着。 为了追剧开了会员，剧看完就没再打开，自动续费却一直没停。直到某天翻账单，才发现又扣了几个月的钱。 这些事务单次处理并不复杂，却一直需要反复关注。过去，AI可以帮忙查一次价格、分析一份账单，跟进工作仍然留给用户。现在，灵光想把这部分也接过去。 10月27日，蚂蚁集团发布灵光2.0，以 “能管事的个人AI助理”为定位，成为国内大厂首批落地的Personal Agent产品。 它想带来的变化很直接：不再是被动响应指令、完成单次任务，而是能主动发现需求、持续帮你管理事务。 Muse之后，全球Personal Agent竞争开始加速，国内大厂也在密集布局。灵光率先交出产品答卷，从盯票价、理账单等日常小事入手，让AI开始替用户持续管事。 从“一次帮忙”到“长期管事”，灵光迈向下一程 去年灵光1.0上线时，让人印象最深的是它交付答案的方式——用户提一个需求，灵光30秒内就能手搓一个带3D、带图表的可交互小应用，让许多想法能快速落地。 但交付一个答案或应用之后，服务往往也就告一段落。需求变了、信息更新了、计划需要调整，用户还得回来重新交代。 灵光2.0则将服务从“办事的短跑”变成了“管事的长跑”。用户在交流中将需要持续关注的事项纳入“帮我管”，灵光就能持续跟进。 以雷峰网为例，编辑每天都要持续关注海外AI公司的产品发布、技术更新和行业讨论。但是新闻事件极多、消息又复杂、热度变化也极快，同一事件还会出现大量转述。自己盯要花很多时间，但是不盯又不行。 这种需要持续关注的事情，就可以直接交给灵光，让它筛选出值得编辑进一步核查和追踪的事件。在“帮我管”中，可以看到对应的海外AI热点监控任务，点进去就能查看每天搜集到的消息进展。 生活里的事，也可以交给灵光来做。 最近深圳倡导APEC会议期间企业带薪休假，小编也蠢蠢欲动想带小孩出去逛逛，于是让灵光帮看看从深圳到北京、从深圳到哈尔滨还有没有便宜的机票。 当时灵光就告诉小编，根据它查到的记录，周六的时候机票已经在涨价，让我看到合适的直接出手。但我不信邪，让它再盯一盯。 两天后，灵光反馈，飞北京的低价机票继续在陆续跳档，哈尔滨的机票价格还比较稳定，建议尽早出手。 除了这些长周期任务，灵光还能帮忙分析小编的支付宝账单。之前支付宝花呗每个月都有一大堆账单，一直懒得去核对，灵光出来后，小编也让它给我仔细去拆了一下账单明细。 意外发现，有一个华为视频的自动订阅一直忘记取消了，幸亏灵光把它“点”出来了。 现在，灵光的管事能力已经进入了小编的日常生活。比如想买一个预算6000元左右的西门子洗碗机，它可以在京东、淘宝、拼多多、抖音上持续比价；小孩想英语启蒙，它可以帮忙做课程计划。 从用户交代的目标，到交流中逐步形成的需求，再到授权信息中尚未被留意的问题，灵光尝试接住的事务开始变多。 过去一年，Claude Code、Codex等Agent让人看到了AI执行复杂任务的能力。用户交代目标，系统自主规划步骤、调用工具，执行非常复杂的任务，以完成某个具体任务为目标。 但用户的实际生活中，大量的需求没有明确的结束时间，外部条件也会不断变化。 作为Personal Agent的灵光，正在尝试承接的正是这一段：AI能够长期记住一件事情的来龙去脉，持续关注后续的变化，并且在需要的时候主动采取行动，让用户可以少盯一些事、少操一些心。 Muse之后，灵光给出了怎样的中国解法？ 灵光2.0的升级，发生在全球AI厂商重新寻找个人助理产品形态的",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-27T09:56:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/PubkEap5yOtdT59V.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "灵光 2.0 发布：Personal Agent 接手中国式日常",
+   "summary_zh": "蚂蚁发布灵光 2.0，定位能主动发现需求、长期管事的个人 AI 助理，从盯票价、理账单等场景切入。",
+   "highlights_zh": [
+    "国内大厂首批落地的 Personal Agent 产品",
+    "从单次任务转向长期持续跟进『帮我管』",
+    "覆盖比价、账单核对、课程规划等日常场景"
+   ],
+   "why_zh": "观察国内 Personal Agent 产品化路径与竞争格局的重要案例。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-27",
+   "slot": "evening",
+   "selected_at": "2026-10-27T10:21:52+00:00",
+   "mirror_pdf": "pdf/web-ed96b8d51bb9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/PubkEap5yOtdT59V.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e4172c052cb6",
+   "kind": "article",
+   "title": "higgsfield-ai/skills",
+   "url": "https://github.com/higgsfield-ai/skills",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "higgsfield-ai"
+   ],
+   "published": "2026-10-27T10:21:52+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/higgsfield-ai/skills",
+     "signal": "★ 今日 +226 · Python",
+     "metric": 226
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Higgsfield AI 开源技能合集",
+   "summary_zh": "Higgsfield AI 在 GitHub 发布 skills 仓库，登上趋势榜，但摘要信息不足，难以判断具体内容与可用性。",
+   "highlights_zh": [
+    "GitHub Trending 今日 +226 星",
+    "Python 实现，归属 Higgsfield AI",
+    "仓库说明缺失，功能与用法不明"
+   ],
+   "why_zh": "信息过少，建议先看仓库 README 再决定是否上手。",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5625,
+   "score_llm": 4.0,
+   "score": 0.465,
+   "date": "2026-10-27",
+   "slot": "evening",
+   "selected_at": "2026-10-27T10:21:52+00:00",
+   "mirror_pdf": "pdf/web-e4172c052cb6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/higgsfield-ai/skills"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "头部大模型公司进入公开市场验收期，估值叙事面临压力测试",
-   "why": "Anthropic递交S-1冲刺纳斯达克，营收高增但净亏807亿，公开市场将首次检验AI商业化成色。",
+   "trend": "大模型竞争从技术叙事转入公开市场验收，估值将受利润与算力承诺双重拷问",
+   "why": "Anthropic递交S-1，H1营收163亿美元但净亏807亿，算力承诺至2029年超1200亿，IPO成AI估值压力测试。",
    "refs": [
     "web-8a77e646571b",
     "web-1ae83c42fc80",
-    "web-f1de6a2792d8",
-    "web-a14bef9ed8a7"
-   ]
-  },
-  {
-   "trend": "算力承诺与能源约束正成为大模型公司的核心资产负债表风险",
-   "why": "Anthropic披露至2029年超1200亿算力采购承诺，且S-1承认供电依赖天然气、燃气轮机供应不足。",
-   "refs": [
     "web-91c275b61bb9",
-    "web-f3b31bfc0720",
-    "web-89d9210b5ee7"
+    "web-f1de6a2792d8"
    ]
   },
   {
-   "trend": "模型竞争从能力比拼转向「完成任务」的计量与成本效率",
-   "why": "GPT-6.1 Terra API定价砍半、单任务成本降约九倍，计量单位转向完成任务，竞争焦点迁移。",
+   "trend": "推理成本与计量方式同步重构，定价锚点从token转向「完成任务」",
+   "why": "GPT-6.1 Terra API定价砍半、单任务成本降约九倍，计量单位转向完成任务，倒逼厂商以交付结果竞争。",
    "refs": [
     "web-a22a8796b538",
     "web-1758535ac6be"
    ]
   },
   {
-   "trend": "架构拐点初现：无注意力与流式主动模型开始挑战主流范式",
-   "why": "Grassmann流无注意力架构困惑度仅落后10-15%，StreamVibe以流式意图推断提升响应时机与质量。",
+   "trend": "注意力机制出现可替代路径，架构创新重回低成本小模型赛道",
+   "why": "Grassmann流无注意力架构在1300-1800万参数下困惑度仅落后Transformer约10-15%，验证几何变换可行性。",
    "refs": [
-    "arxiv-2512.19428",
+    "arxiv-2512.19428"
+   ]
+  },
+  {
+   "trend": "评测范式从静态问答转向「为知而行」，行动获取知识成为新基准维度",
+   "why": "EmbodiedLab让机器人在仿真实验室自主设计执行实验，StreamVibe-Bench评测隐式意图推断，均强调动态行动能力。",
+   "refs": [
+    "arxiv-2610.35385",
     "arxiv-2610.34662"
    ]
   },
   {
-   "trend": "AI助理从被动响应转向长程主动管理，产品形态向个人智能体收敛",
-   "why": "蚂蚁灵光2.0依托独立云主机实现跨会话记忆与长程任务调度，独立AI品牌存活不足半年、能力迁向通用助手。",
+   "trend": "AI助理从被动响应转向长程主动管理，独立云主机与跨会话记忆成标配",
+   "why": "蚂蚁灵光2.0依托独立云主机实现退出后持续运行任务，产品竞争焦点转向事务托管而非单轮对话。",
    "refs": [
     "web-801aa2741b47",
-    "web-ee457430a3bc",
-    "web-c40779dc5251"
+    "web-ee457430a3bc"
    ]
   }
  ]
