@@ -1,11 +1,11 @@
-2026-10-28 11:14:02,498 INFO source hf_daily           -> 43 items
-2026-10-28 11:14:02,813 INFO source hackernews         -> 9 items
-2026-10-28 11:14:15,710 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-28 11:14:24,227 INFO source rss                -> 99 items
-2026-10-28 11:14:25,841 INFO source html_lists         -> 0 items
-2026-10-28 11:14:25,842 INFO source x                  -> 0 items
-2026-10-28 11:14:26,317 INFO source arxiv_search       -> 60 items
-2026-10-28 11:14:36,269 INFO source github             -> 20 items
-2026-10-28 11:14:36,272 INFO candidates: 229 (stale dropped 40, new 138)
-2026-10-28 11:16:22,925 INFO llm judged 100/100 (calls=13)
-2026-10-28 11:18:51,212 INFO run done: {"at": "2026-10-28T11:14:02+00:00", "slot": "evening", "candidates": 229, "new": 138, "stale": 40, "judged": 100, "selected": 19, "mirrored": 19, "by_category": {"技术": 4, "资讯": 13, "项目": 1, "观点": 1}, "by_source": {"HF Daily Papers": 43, "arXiv 新论文": 60, "Hacker News": 9, "Google DeepMind": 1, "量子位": 10, "极客公园": 7, "IT之家": 15, "爱范儿": 9, "雷峰网": 18, "钛媒体": 5, "InfoQ 中文": 11, "Latent Space": 5, "Jack Clark": 1, "Stratechery": 1, "Azeem Azhar": 2, "Zvi Mowshowitz": 2, "科学空间": 1, "Hugging Face Blog": 2, "Google Research": 1, "OpenAI": 7, "NVIDIA": 1, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
+2026-10-28 17:05:27,727 INFO source hf_daily           -> 44 items
+2026-10-28 17:05:28,098 INFO source hackernews         -> 9 items
+2026-10-28 17:05:49,964 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-28 17:06:02,401 INFO source rss                -> 101 items
+2026-10-28 17:06:04,551 INFO source html_lists         -> 0 items
+2026-10-28 17:06:04,551 INFO source x                  -> 0 items
+2026-10-28 17:06:05,090 INFO source arxiv_search       -> 60 items
+2026-10-28 17:06:15,024 INFO source github             -> 20 items
+2026-10-28 17:06:15,027 INFO candidates: 232 (stale dropped 137, new 57)
+2026-10-28 17:07:10,449 INFO llm judged 56/57 (calls=8)
+2026-10-28 17:10:16,683 INFO run done: {"at": "2026-10-28T17:05:27+00:00", "slot": "morning", "candidates": 232, "new": 57, "stale": 137, "judged": 56, "selected": 18, "mirrored": 14, "by_category": {"资讯": 11, "观点": 3, "技术": 4}, "by_source": {"HF Daily Papers": 44, "arXiv 新论文": 60, "Hacker News": 9, "Google DeepMind": 2, "量子位": 10, "极客公园": 7, "IT之家": 10, "爱范儿": 9, "雷峰网": 18, "钛媒体": 4, "InfoQ 中文": 15, "Simon Willison": 1, "Nathan Lambert": 1, "Latent Space": 5, "Stratechery": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "科学空间": 1, "Hugging Face Blog": 3, "Google Research": 1, "OpenAI": 6, "NVIDIA": 2, "Microsoft": 1, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}

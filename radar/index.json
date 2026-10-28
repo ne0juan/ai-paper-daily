@@ -1,6 +1,13 @@
 {
- "updated": "2026-10-28T11:14:02+00:00",
+ "updated": "2026-10-28T17:05:27+00:00",
  "days": [
+  {
+   "date": "2026-10-29",
+   "count": 18,
+   "slots": {
+    "morning": 18
+   }
+  },
   {
    "date": "2026-10-28",
    "count": 58,
@@ -305,44 +312,46 @@
    }
   }
  ],
- "total": 1865,
+ "total": 1883,
  "last_run": {
-  "at": "2026-10-28T11:14:02+00:00",
-  "slot": "evening",
-  "candidates": 229,
-  "new": 138,
-  "stale": 40,
-  "judged": 100,
-  "selected": 19,
-  "mirrored": 19,
+  "at": "2026-10-28T17:05:27+00:00",
+  "slot": "morning",
+  "candidates": 232,
+  "new": 57,
+  "stale": 137,
+  "judged": 56,
+  "selected": 18,
+  "mirrored": 14,
   "by_category": {
-   "技术": 4,
-   "资讯": 13,
-   "项目": 1,
-   "观点": 1
+   "资讯": 11,
+   "观点": 3,
+   "技术": 4
   },
   "by_source": {
-   "HF Daily Papers": 43,
+   "HF Daily Papers": 44,
    "arXiv 新论文": 60,
    "Hacker News": 9,
-   "Google DeepMind": 1,
+   "Google DeepMind": 2,
    "量子位": 10,
    "极客公园": 7,
-   "IT之家": 15,
+   "IT之家": 10,
    "爱范儿": 9,
    "雷峰网": 18,
-   "钛媒体": 5,
-   "InfoQ 中文": 11,
+   "钛媒体": 4,
+   "InfoQ 中文": 15,
+   "Simon Willison": 1,
+   "Nathan Lambert": 1,
    "Latent Space": 5,
-   "Jack Clark": 1,
    "Stratechery": 1,
-   "Azeem Azhar": 2,
+   "Azeem Azhar": 1,
+   "Tomasz Tunguz": 1,
    "Zvi Mowshowitz": 2,
    "科学空间": 1,
-   "Hugging Face Blog": 2,
+   "Hugging Face Blog": 3,
    "Google Research": 1,
-   "OpenAI": 7,
-   "NVIDIA": 1,
+   "OpenAI": 6,
+   "NVIDIA": 2,
+   "Microsoft": 1,
    "GitHub Trending": 13,
    "GitHub 新项目": 7
   },
