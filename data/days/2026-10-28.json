@@ -1126,44 +1126,1178 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-001110b136cd",
+   "kind": "article",
+   "title": "Early progress on accelerating drug development with Claude",
+   "url": "https://www.anthropic.com/research/early-progress-drug-development",
+   "pdf_url": "",
+   "abstract": "Over the past several months, we’ve partnered with six organizations to accelerate curing disease. We’ve also started drug discovery efforts of our own, including programs for rare childhood forms of muscular dystrophy. In this post, we provide an update on our progress.",
+   "authors": [],
+   "orgs": [
+    "Anthropic"
+   ],
+   "published": "2026-10-27T20:50:42Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50265609",
+     "signal": "167 pts",
+     "metric": 167
+    },
+    {
+     "name": "Anthropic",
+     "authority": 0.9,
+     "url": "https://www.anthropic.com/research/early-progress-drug-development",
+     "signal": "官方",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Anthropic 用 Claude 加速药物研发初显进展",
+   "summary_zh": "Anthropic 公布与六家机构合作、并自研罕见儿童肌营养不良症药物发现的阶段性进展，展示大模型在生物医药研发中的落地路径。",
+   "highlights_zh": [
+    "与六家机构合作推进疾病治疗加速",
+    "自建药物发现项目聚焦罕见儿童肌营养不良",
+    "官方披露阶段性进展，标志大模型进入药物研发核心流程"
+   ],
+   "why_zh": "头部模型公司亲自下场做药物发现，是 AI for Science 商业化的重要信号。",
+   "tags": [
+    "科学AI",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.8402,
+   "score_llm": 8.0,
+   "score": 0.8161,
+   "date": "2026-10-28",
+   "slot": "noon",
+   "selected_at": "2026-10-28T04:21:17+00:00",
+   "mirror_pdf": "pdf/web-001110b136cd.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.anthropic.com/research/early-progress-drug-development"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50265609"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.36729",
+   "kind": "paper",
+   "title": "Hy-Nomas: Towards Free-form Interactive World Generation",
+   "url": "https://arxiv.org/abs/2610.36729",
+   "pdf_url": "https://arxiv.org/pdf/2610.36729",
+   "abstract": "Interactive world generation requires models to follow successive commands while preserving relevant history and action consequences. We present Hy-Nomas, a video world model with an 8B diffusion backbone that supports free-form text instructions and continuous camera control across multiple interaction turns. It generates variable-length segments conditioned on current inputs and cached history. Our central design aligns structured video captions with action-aware causal attention: descriptive context remains accessible across segments, while action instructions are restricted to their intended temporal windows. A vision-language Prompt Enhancer (PE) translates user requests and multimodal interaction histories into structured conditions for the next segment. A multi-stage curriculum progressively introduces causal generation, text interaction, camera control, and training on model-generated histories, followed by diffusion distillation. In human evaluation, Hy-Nomas shows superior performance over existing world models. We release model weights, code and benchmarks, together with a lightweight adaptation workflow, to support reproducible research on interactive world generation.",
+   "authors": [
+    "Qiaoling Chen",
+    "Jiaxiang Cheng",
+    "Xueqing Deng",
+    "Tiankai Hang",
+    "Ji Hou",
+    "Jiaqi Li",
+    "Yifan Liu",
+    "Tao Lu",
+    "Junshu Tang",
+    "Yu Tang",
+    "Yao Teng",
+    "Yu Tian",
+    "Heng Wang",
+    "Weizhi Wang",
+    "Xiyao Wang",
+    "Xilun Wu",
+    "Mingyu Yang",
+    "Yangbin Yu",
+    "Rui Zhao",
+    "Longjun Cao",
+    "Linghao Chen",
+    "Haoyi Duan",
+    "Jiaming Han",
+    "Mingji Han",
+    "Enhua Jiang",
+    "Shunkai Li",
+    "Yanzhe Liang",
+    "Qinwei Ma",
+    "Cong Wang",
+    "Lei Wang",
+    "Bing Wu",
+    "Ke Xing",
+    "Ray Ying",
+    "Zhentao Yu",
+    "Key Zhang",
+    "Yuan Zhou",
+    "Zhengguang Zhou",
+    "Kai Zou"
+   ],
+   "orgs": [
+    "Tencent Hunyuan"
+   ],
+   "published": "2026-10-27T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.36729",
+     "signal": "▲ 41",
+     "metric": 41
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Hy-Nomas：自由形式交互式世界生成",
+   "summary_zh": "腾讯混元提出 8B 扩散视频世界模型，支持多轮自由文本指令与连续相机控制，通过结构化字幕对齐动作感知因果注意力，人类评测优于现有世界模型并开源权重与基准。",
+   "highlights_zh": [
+    "8B 扩散骨干支持多轮交互与连续相机控制",
+    "结构化视频字幕对齐动作感知因果注意力，区分描述性上下文与动作指令时间窗",
+    "多阶段课程+扩散蒸馏训练，开源权重、代码与基准"
+   ],
+   "why_zh": "交互式世界模型是视频生成与具身智能的关键交叉方向，开源降低复现门槛。",
+   "tags": [
+    "多模态",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.6835,
+   "score_llm": 8.0,
+   "score": 0.7534,
+   "date": "2026-10-28",
+   "slot": "noon",
+   "selected_at": "2026-10-28T04:21:17+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.36729.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.36729"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.36729"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.36729"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.36729"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.36729"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.36729"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/Tencent-Hunyuan/Hy-Nomas"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.37666",
+   "kind": "paper",
+   "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+   "url": "https://arxiv.org/abs/2610.37666",
+   "pdf_url": "https://arxiv.org/pdf/2610.37666",
+   "abstract": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introduce ThinkWorld, a VLA learning framework that grounds action reasoning in world dynamics and strengthens it through reinforcement learning with world imagination. ThinkWorld represents each action thought as a Chain-of-Dynamics (CoD), a sequence of discrete motion tokens that captures the intermediate dynamics connecting the current world to a future state and serves as a common action representation across embodiments. We first initialize CoD with action-labeled demonstrations, then predict the future induced by each CoD and reinforce those whose predictions better match the observed outcome. This enables videos without action annotations to provide direct supervision from observed state transitions, allowing human and robot experience to refine the same reasoning space. Experiments in simulation and on real robots demonstrate effective human-to-robot transfer and strong generalization to unseen tasks and environments.",
+   "authors": [
+    "Chaehyun Kim",
+    "Chi-Pin Huang",
+    "Jisoo Kim",
+    "Min-Hung Chen",
+    "Yu-Chiang Frank Wang",
+    "Seungryong Kim",
+    "Fu-En Yang"
+   ],
+   "orgs": [
+    "NVIDIA"
+   ],
+   "published": "2026-10-27T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.37666",
+     "signal": "▲ 36",
+     "metric": 36
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "ThinkWorld：世界想象强化动力学链推理",
+   "summary_zh": "NVIDIA 提出 VLA 框架，将动作思维表示为离散运动 token 构成的「动力学链」，用世界想象预测未来并以观测结果做强化学习，使无动作标注的人类视频也能监督训练，仿真与真机均验证跨具身迁移与泛化提升。",
+   "highlights_zh": [
+    "用 Chain-of-Dynamics 作为跨具身统一动作表示",
+    "以预测未来与观测匹配度做强化学习，无需动作标注即可利用人类视频",
+    "仿真与真实机器人实验验证人→机迁移与未见任务泛化"
+   ],
+   "why_zh": "解决 VLA 数据瓶颈的关键思路，对人类视频利用与具身泛化有直接启发。",
+   "tags": [
+    "机器人",
+    "强化学习",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.6759,
+   "score_llm": 8.0,
+   "score": 0.7504,
+   "date": "2026-10-28",
+   "slot": "noon",
+   "selected_at": "2026-10-28T04:21:17+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.37666.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.37666"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.37666"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.37666"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.37666"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.37666"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.37666"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-fa4e426d1dcf",
+   "kind": "article",
+   "title": "🔮 Anthropic’s S-1 in charts",
+   "url": "https://www.exponentialview.co/p/anthropics-s-1-in-charts",
+   "pdf_url": "",
+   "abstract": "Watch now (34 mins) | Anthropic’s S-1 should finally address the elephant in the room: is AI real?",
+   "authors": [
+    "Azeem Azhar"
+   ],
+   "orgs": [
+    "Azeem Azhar"
+   ],
+   "published": "2026-10-27T17:31:56+00:00",
+   "sources": [
+    {
+     "name": "Azeem Azhar",
+     "authority": 0.8,
+     "url": "https://www.exponentialview.co/p/anthropics-s-1-in-charts",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Exponential View 创始人",
+   "title_zh": "图表解读 Anthropic 的 S-1 招股书",
+   "summary_zh": "Azeem Azhar 通过图表解读 Anthropic 的 S-1 招股书，核心追问是：AI 到底是不是真生意。",
+   "highlights_zh": [
+    "以图表拆解 Anthropic 财务与业务数据",
+    "直面「AI 是否真实」这一核心质疑",
+    "头部 AI 公司上市披露的稀缺分析"
+   ],
+   "why_zh": "从招股书数据判断 AI 商业模式真伪，市场方向必读。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.708,
+   "date": "2026-10-28",
+   "slot": "noon",
+   "selected_at": "2026-10-28T04:21:17+00:00",
+   "mirror_pdf": "pdf/web-fa4e426d1dcf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.exponentialview.co/p/anthropics-s-1-in-charts"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-80e5637a67e1",
+   "kind": "article",
+   "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
+   "url": "https://latent.space/p/opus55/",
+   "pdf_url": "",
+   "abstract": "Katelyn Lesse and Angela Jiang on Opus 5.5, the Claude Platform, and the engineering behind AI agents.",
+   "authors": [
+    "swyx .ai"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-27T18:53:10+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/opus55/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Anthropic 如何用 Claude 造 Claude：脑与手分离",
+   "summary_zh": "Latent Space 访谈 Anthropic 团队，讲述 Opus 5.5 与 Claude 平台如何把模型「大脑」与智能体「双手」分离来构建可靠智能体。",
+   "highlights_zh": [
+    "Opus 5.5 与 Claude 平台的工程细节",
+    "「脑手分离」的智能体架构设计",
+    "API 扩展与托管智能体的可靠性实践"
+   ],
+   "why_zh": "头部公司智能体架构一手经验，工程团队值得细读。",
+   "tags": [
+    "智能体",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-10-28",
+   "slot": "noon",
+   "selected_at": "2026-10-28T04:21:17+00:00",
+   "mirror_pdf": "pdf/web-80e5637a67e1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/opus55/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-beb92a3cbb63",
+   "kind": "article",
+   "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+   "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
+   "pdf_url": "",
+   "abstract": "Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and building reliable managed agents. A new introduction ...",
+   "authors": [
+    "Latent.Space"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-27T18:40:19+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Anthropic 如何安全地交付全球第一 LLM：脑手分离",
+   "summary_zh": "Latent Space 邀请 Anthropic 的 Katelyn Lesse 与 Angela Jiang，讲解 Claude 平台如何通过「脑手分离」构建可靠托管智能体。",
+   "highlights_zh": [
+    "Opus 5.5 发布背后的平台工程",
+    "模型与智能体执行层的解耦设计",
+    "规模化 API 与托管智能体可靠性"
+   ],
+   "why_zh": "与上条为同一访谈，选其一即可，架构思路值得参考。",
+   "tags": [
+    "智能体",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-10-28",
+   "slot": "noon",
+   "selected_at": "2026-10-28T04:21:17+00:00",
+   "mirror_pdf": "pdf/web-beb92a3cbb63.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-feb4caa835f1",
+   "kind": "article",
+   "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+   "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+   "pdf_url": "",
+   "abstract": "Education Innovation",
+   "authors": [],
+   "orgs": [
+    "Google Research"
+   ],
+   "published": "2026-10-27T17:35:00+00:00",
+   "sources": [
+    {
+     "name": "Google Research",
+     "authority": 0.8,
+     "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "睡眠框架：让大模型在持续学习中保留知识",
+   "summary_zh": "Google Research 提出「睡眠框架」，让 LLM 在持续学习中通过类似睡眠的离线巩固机制保留旧知识，缓解灾难性遗忘。",
+   "highlights_zh": [
+    "借鉴生物睡眠的离线巩固思路",
+    "针对持续学习中的灾难性遗忘问题",
+    "为模型长期知识更新提供新方法"
+   ],
+   "why_zh": "持续学习是 LLM 落地关键难题，此方法思路新颖。",
+   "tags": [
+    "大模型",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.5,
+   "score_llm": 8.0,
+   "score": 0.68,
+   "date": "2026-10-28",
+   "slot": "noon",
+   "selected_at": "2026-10-28T04:21:17+00:00",
+   "mirror_pdf": "pdf/web-feb4caa835f1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-87b0d6a6ee57",
+   "kind": "article",
+   "title": "“跑高分”不等于“能交付”：AI排行榜正在经历一场信用重估",
+   "url": "https://www.tmtpost.com/8183550.html",
+   "pdf_url": "",
+   "abstract": "旧榜跑分逼近满分，新榜实战却集体不及格。当大模型评测本身变成生意，企业选型正从看排名转向算成本账。",
+   "authors": [
+    "Alter"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-27T10:42:42+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8183550.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "跑高分不等于能交付：AI 排行榜信用重估",
+   "summary_zh": "文章指出旧基准跑分逼近满分但实战表现集体不及格，评测本身已成生意，企业选型正从看排名转向算成本账。",
+   "highlights_zh": [
+    "静态基准饱和导致排行榜区分度失效",
+    "评测商业化带来利益冲突与信用问题",
+    "企业选型逻辑转向真实任务成本与交付能力"
+   ],
+   "why_zh": "理解评测基准失效与选型逻辑转变的关键行业分析。",
+   "tags": [
+    "数据与评测",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 8.0,
+   "score": 0.624,
+   "date": "2026-10-28",
+   "slot": "noon",
+   "selected_at": "2026-10-28T04:21:17+00:00",
+   "mirror_pdf": "pdf/web-87b0d6a6ee57.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8183550.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2292f0d31013",
+   "kind": "article",
+   "title": "OpenAI 宣布三项重大科学突破，科研界却不满其成果发布方式",
+   "url": "https://www.ithome.com/1/018/818.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 28 日消息，OpenAI 于当地时间周一宣布，公司在数学、计算机科学与物理学领域取得了引人瞩目的突破，同时称自身正在调整成果发布的沟通方式。不过，尽管看起来做出了路线修正，接受 The Verge 采访的科研人员对这家公司的行事方式却愈发感到厌烦。 IT之家注意到，过去几个月，OpenAI 和数学界之间一直摩擦不断。十月初，该公司一次性抛出数百篇预印本，让数学家群体疲于应对。这一次，OpenAI 表示会和担任“引导人”的领域专家合作，确定发布最新成果的合适方式。 三项成果分别针对数学、计算机科学、物理学领域中若干最重要的未解难题，一部分延续了 OpenAI 此前的研究方向，另一部分则开辟了新的研究路线。根据这些“引导人”给出的建议，三项成果采用了各不相同的发布方案：数学方向的成果直接放出 AI 生成的推导内容，“交由学界研究者自主组织力量去解读这项结论”；计算机科学方向的成果，OpenAI 会组建外部研究小组来负责解读；而物理学方向的成果暂不对外公开，OpenAI 称将交由外部专家团队决定后续的发布形式。 这项数学成果十分震撼，据称已经在全部维度上证明了挂谷猜想（Kakeya conjecture）。简单来说，这个问题研究的是：想要让一根针或者一支铅笔朝向各个方向旋转，最少需要多大的空间。今年早些时候，数学家王虹正是凭借三维版本猜想的证明等成果，斩获了菲尔兹奖这一重量级奖项。布朗大学数学教授布伦丹 · 哈塞特（Brendan Hassett）表示，OpenAI 给出的结论“看起来有充分依据”，但他同时强调自己还没有核验 Lean 形式化证明，也就是依靠计算机校验结论的这套形式体系。 物理学方向的成果围绕标准模型展开，标准模型是物理学当中最成熟、完备的理论框架。研究聚焦量子色动力学，该理论描述四大基本作用力之一的强核力，以及它和杨-米尔斯理论之间的关联；杨-米尔斯理论也是现代粒子物理学的基石，同时属于七大千禧年大奖难题之一，不过 OpenAI 的这项研究并没有解决悬而未决的“质量间隙”问题。 最后一项成果宣称证伪了指数时间假说。这是理论计算机科学领域被广泛认可的一个假设：部分问题无法找到远快于暴力枚举的求解方案。该假说和 P 对 NP 问题紧密相关，后者同样是千禧年大奖难题，也是该领域最知名的未解问题之一，核心是探讨那些答案很容易核验的问题，本身是否也能快速求解。 由于各项成果的公开程度不一，并且这类成果的验证门槛极高，科研人员很难完整评判这些结论。就算拿到全部资料，核验工作也需要大量时间。但接受采访的专家表示，这些成果值得认真对待，不少人评价它们“分量巨大”“属于重大突破”“意义深远”。 科研人员固然为这些科学进展感到振奋，但同时也对 OpenAI 的做法感到恼火。在过去数月接连接收大量 AI 产出的研究结论之后，这种疲惫感早已十分熟悉。很多研究者希望整个学界能够集中精力，投入到繁重的核验工作当中，同时质疑 OpenAI 为何还要增设门槛，亲自挑选专家来把控整个流程。 接受采访的大部分专家，对 OpenAI 征询外部研究者意见的做法表示认可，但他们提出：公开发表研究结论，就意味着应当把相关材料开放给所有人核验。高等研究院研究员康斯坦丁 · 科格勒（Constantin Kogler）说：“相比之前一次性放出几百篇，这次只公布三项成果，我认可这样的发布节奏。”但他不认同把查阅权限限定在 OpenAI 选定的专家范围内。他表示：“没有道理一开始只允许少数知名科学家查看内容。” 得克萨斯大学奥斯汀分校物理学教授安德烈亚斯 · 卡赫",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-28T03:27:59+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/018/818.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI 宣布三项科学突破，学界不满发布方式",
+   "summary_zh": "OpenAI 宣称在数学、计算机科学、物理学取得突破，包括证明挂谷猜想、证伪指数时间假说；但成果公开程度不一、由 OpenAI 挑选专家把关，引发科研界对验证门槛与发布方式的质疑。",
+   "highlights_zh": [
+    "数学方向称已证明全部维度的挂谷猜想，尚待 Lean 形式化核验",
+    "计算机科学方向宣称证伪指数时间假说，与 P vs NP 相关",
+    "物理学成果暂不公开，学界质疑选择性发布阻碍独立验证"
+   ],
+   "why_zh": "AI 介入基础科学前沿的标志性事件，兼看学界信任张力。",
+   "tags": [
+    "科学AI",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-28",
+   "slot": "noon",
+   "selected_at": "2026-10-28T04:21:17+00:00",
+   "mirror_pdf": "pdf/web-2292f0d31013.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/018/818.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6003534ee699",
+   "kind": "article",
+   "title": "SK 海力士 CEO 郭鲁正：DRAM 及 HBM 内存直至 2029 年产能已近乎售罄",
+   "url": "https://www.ithome.com/1/018/798.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 28 日消息，据财联社报道，SK 海力士 CEO 郭鲁正周三在财报会上透露：“已经敲定的 LTA 订单，叠加当前和客户正在磋商的需求， 未来三年直至 2029 年，我们的 DRAM 以及 HBM 产能实际上已经近乎售罄 。磋商当中的订单，均基于客户明确的采购规划，落地概率很高。综合来看，中长期销售的能见度已经大幅提升。” SK 海力士今日公布了 2026 年第三季度业绩 ，营收 104.62 万亿韩元 （IT之家注：现汇率约合 5,280.17 亿元人民币） ，同比增长 327.9%；归属于母公司股东的净利润 39.53 万亿韩元 （现汇率约合 1,995.08 亿元人民币） ，同比增长 213.9%。 SK 海力士分析认为，在软件开发、客户服务、搜索等多个领域，AI 带来的生产效率提升和新的营收增长，推动 AI 使用量不断增加，进而带动基础设施投资扩大，这一良性循环结构已经确立。此外，AI 投资主体已越过依赖于少数企业的初期阶段，正扩展至普通企业和国家层面， 预计全球 AI 数据中心基础设施市场未来将持续稳定增长 。 对于存储市场，公司展望短期由企业级和消费级 AI 引领需求，中长期则由自动驾驶、机器人等物理 AI 驱动，市场将延续增长态势。 另一方面，公司认为供给端未能跟上市场增长速度。由于先进制程技术难度不断提升，且新建生产设施耗时较长， 预计到 2030 年为止，供不应求的格局将持续 。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-28T03:11:18+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/018/798.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "SK海力士：DRAM与HBM产能至2029年近乎售罄",
+   "summary_zh": "SK海力士CEO称未来三年DRAM与HBM产能已近乎售罄，预计供不应求持续至2030年，AI投资主体从少数企业扩展至普通企业和国家层面。",
+   "highlights_zh": [
+    "LTA订单叠加磋商需求，产能锁定至2029年",
+    "AI投资主体从少数巨头扩展至企业与国家层面",
+    "供给端受先进制程难度与建厂周期制约，缺口延续至2030年"
+   ],
+   "why_zh": "存储供需是判断AI算力扩张节奏与成本走势的关键先行指标。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-28",
+   "slot": "noon",
+   "selected_at": "2026-10-28T04:21:17+00:00",
+   "mirror_pdf": "pdf/web-6003534ee699.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/018/798.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0179b2b23c69",
+   "kind": "article",
+   "title": "亚马逊：在 AI 时代考核一名工程师，应看业务价值而非 AI 使用量",
+   "url": "https://www.ithome.com/1/018/774.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 28 日消息，当地时间 27 日，亚马逊更新了面向 AI 时代的软件工程师工作准则，强调考核应看工程师 创造了多少业务价值 ，而不是用了多少 AI。 亚马逊副总裁兼杰出工程师特克 · 特科维茨指出，相比云计算等以往的技术变革，AI 对软件开发的影响来得更快，也更加深刻。不过，衡量工程师表现的关键仍然是他们为客户和业务带来了什么成果，而非使用 AI 的频率或数量。“我们都必须适应变化，花时间学习，否则就有可能被甩在后面。” AI 编程工具和智能体正在改变软件行业，程序员的工作内容也随之发生变化。亚马逊将这一阶段称为“ 文艺复兴开发者时代 ”，认为人类的判断力与机器智能相结合，可以更快、更高效地开发新产品和服务。 软件行业正经历变革，软件工程师的职业定位也在发生变化。亚马逊近年来越来越重视工程师和技术管理人员使用 AI 的情况，并尝试将其纳入考核。公司曾统计员工 使用 AI 的次数、消耗的词元数量及编写的代码行数 ，还根据部分数据制作排行榜，对不同团队进行比较。 不过，备忘录警告，拿这些数据衡量工作表现，与要求员工尽可能提高数据，是两回事。 过度追求指标可能适得其反 ，例如为了增加词元消耗量而滥用 AI，却没有写出更好的软件，也没有改善客户体验。特科维茨表示：“如果把这些指标当作目标，而不是衡量工作的参考， 就可能造成负面结果 。” 据《商业内幕》报道，亚马逊此前一直尝试不同方法，希望既能衡量工程团队的 AI 使用情况，也能鼓励员工更多地使用 AI。 今年早些时候，亚马逊开始追踪工程师对内部 AI 工具的使用情况，部分团队还推出了 以词元消耗量等数据为依据 的排行榜。此举引发部分员工不满，担心为了达到 AI 使用要求而增加不必要的操作，反而会比真正提高工作效率更容易获得认可。 新版准则是亚马逊迄今最明确的一次公开承认，表明公司 意识到了这种风险 。亚马逊认为，详细规定工程师该如何使用 AI，很快就可能因技术进步而过时，因此新版准则将重点放在 客户和业务能够获得的长期成果 上。 IT之家获悉，亚马逊并没有因此降低对 AI 应用的重视程度。公司强调，AI 应当成为“软件工程实践的核心”，并要求工程师在日常工作中使用这项技术。 备忘录还要求管理人员 亲自在实际项目中使用 AI 工具 ，了解 AI 能解决哪些问题、在哪些方面仍有不足，并向团队解释自己的判断依据。 特科维茨指出，亚马逊发现，词元消耗量、AI 工具使用情况和代码审查等数据，与公司重视的工作成果确实存在一定联系，但不能只看数字。消耗更多词元意味着成本可能增加，一味追求代码行数也容易让软件变得不必要地复杂。 对于 AI 应用情况差异较大的团队，管理人员需要重点检查两个群体：排名后 10% 的团队，了解他们 为什么没能有效利用 AI ；排名前 10% 的团队，则要确认 大量使用 AI 是否真的加快了工作交付 。 亚马逊发现，最积极使用 AI 的“前沿团队”在工作效率和交付表现上取得了更好的成绩。相反，没有采用 AI，或者未能提高产出指标的团队和员工，则逐渐落后于其他人。 不过，新准则并不意味着所有工程师都必须证明 AI 能提高自己的工作效率。对于暂时无法从现有 AI 工具中受益的岗位，员工可以记录具体原因，与同事和管理人员交流，共同寻找解决办法。备忘录提到：“能够说明 AI 为什么暂时帮不上忙的工程师，恰恰展现了我们希望看到的判断力。”",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-28T02:44:39+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/018/774.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "亚马逊：AI时代考核工程师应看业务价值而非AI使用量",
+   "summary_zh": "亚马逊更新工程师准则，明确考核应看业务价值而非AI使用量，警告过度追求词元消耗等指标会适得其反，要求管理者亲自使用AI工具。",
+   "highlights_zh": [
+    "此前追踪词元消耗与代码行数并做团队排行榜，引发员工不满",
+    "提出「文艺复兴开发者时代」，强调人类判断与机器智能结合",
+    "管理者需重点检查AI使用排名前后10%的团队"
+   ],
+   "why_zh": "头部公司如何度量AI生产力，是AI落地组织层面的重要风向标。",
+   "tags": [
+    "产品与行业",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-28",
+   "slot": "noon",
+   "selected_at": "2026-10-28T04:21:17+00:00",
+   "mirror_pdf": "pdf/web-0179b2b23c69.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/018/774.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-995ee1bb839b",
+   "kind": "article",
+   "title": "谷歌更新 Android Bench 榜单：自家 Gemini 4 Argon 编程能力大幅落后于 Claude 与 GPT",
+   "url": "https://www.ithome.com/1/018/757.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 28 日消息，谷歌更新了用于评估 AI 模型安卓编程辅助能力的 Android Bench 榜单，Gemini 4 Argon 的成绩大幅落后于最新版 Claude 与 GPT 系列模型。 Android Bench 于今年年初推出，方便安卓开发者快速对照谷歌的这套测试标准，挑选最适合安卓代码开发辅助的 AI 模型。测试会考量安卓开发特有的使用场景以及安卓开发的最佳实践。谷歌在持续开展测试、纳入新模型排名的同时，还把平均调用成本纳入基准指标，方便开发者结合自身需求做选择。 在 10 月 26 日的这次更新中，谷歌新增标注了每个模型所采用的推理等级，同时补充了多款模型的测试结果，包括 OpenAI 的 GPT-6 Sol、GPT-6.1 Sol、Claude Sonnet 5、Claude Sonnet 5.5，以及谷歌自家的 Gemini 4 Argon。 目前榜单第一名是 Claude Sonnet 5.5，通过率 40%，完成率 80.9%。10 月初加入榜单的 Claude Opus 5.5 位列第二。 OpenAI 的 GPT-6.1 Sol 可能是此次最值得关注的新增模型，通过率 29.3%，完成率 82.8%，但调用成本仅 99.50 美元 （IT之家注：现汇率约合 664.8 元人民币） ；相比之下，排名第一的 Claude 调用成本高达 1,574.90 美元 （现汇率约合 10,522 元人民币） 。 而谷歌自家的 Gemini 4 Argon 首秀表现平平，排在第五位，明显落后于其他前沿模型，甚至不及 Claude Fable 5.1，通过率仅有 21.3%，完成率 81.8%，平均调用成本 267.70 美元 （现汇率约合 1,789 元人民币） 。 谷歌官宣 Gemini 4 Argon 之后不久，就有内部消息称该模型“难以处理部分编程任务”，不过谷歌依旧认可其能力。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-28T02:09:56+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/018/757.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌Android Bench更新：Gemini 4 Argon编程能力落后Claude与GPT",
+   "summary_zh": "谷歌更新Android Bench安卓编程评测榜，自家Gemini 4 Argon仅排第五，通过率21.3%，明显落后Claude Sonnet 5.5（40%）与GPT-6.1 Sol（29.3%），后者成本仅为Claude的1/16。",
+   "highlights_zh": [
+    "Gemini 4 Argon通过率21.3%，不及Claude Fable 5.1，谷歌内部早有'难处理部分编程任务'的说法",
+    "GPT-6.1 Sol通过率29.3%但调用成本仅99.5美元，Claude Sonnet 5.5成本高达1574.9美元",
+    "榜单新增推理等级标注与平均调用成本指标，方便开发者按性价比选型"
+   ],
+   "why_zh": "头部厂商自建榜单却自家模型垫底，是观察编程Agent模型竞争格局与成本权衡的窗口。",
+   "tags": [
+    "代码",
+    "数据与评测",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-28",
+   "slot": "noon",
+   "selected_at": "2026-10-28T04:21:17+00:00",
+   "mirror_pdf": "pdf/web-995ee1bb839b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/018/757.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-10439e81d0b3",
+   "kind": "article",
+   "title": "elayadesign/ai-design-skills",
+   "url": "https://github.com/elayadesign/ai-design-skills",
+   "pdf_url": "",
+   "abstract": "README: # AI Design Skills A growing collection of design skills for AI coding tools — Claude Code, Cursor, Codex, Windsurf, and anything else that reads a markdown rules file. Each skill is a self-contained folder. Install the ones you need. --- ## Skills | Skill | What it does | |---|---| | [`landing-page-design`](./skills/landing-page-design/SKILL.md) | Builds a landing page from scratch — intake questions, page structure, conversion copy, plus a full visual system (type, spacing, radius, motion) | More on the way. [Upgrading an existing site instead of building new?](https://github.com/elayadesign/redesign-skill) That one lives in its own repo since it predates this collection. --- ## Install Pick a skill from the table above, then swap ` ` below for its folder name. Claude Code ```bash mkdir -p .claude/skills git clone https://github.com/elayadesign/ai-design-skills.git /tmp/ai-design-skills cp -r /tmp/ai-design-skills/skills/ .claude/skills/ ``` Then just ask, in plain language, for what that skill covers. Cursor ```bash mkdir -p .cursor/rules curl -o .cursor/rules/ .md \\ https://raw.githubusercontent.com/elayadesign/ai-design-skills/main/skills/ /SKILL.md ``` Or paste the file into **Settings → Rules for AI**. Codex / Windsurf / other Copy the skill's `SKILL.md` into whatever your tool uses for project rules: | Tool | Path | |---|---| | Codex | `AGENTS.md` | | Windsurf | `.windsurfrules` | | Cline | `.clinerules` | | Generic | paste into your system prompt | Claude.ai (no term",
+   "authors": [],
+   "orgs": [
+    "elayadesign"
+   ],
+   "published": "2026-10-28T04:21:17+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/elayadesign/ai-design-skills",
+     "signal": "★ 今日 +1,395",
+     "metric": 1395
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AI Design Skills：给编码工具的设计技能集",
+   "summary_zh": "面向 Claude Code、Cursor 等编码工具的设计技能合集，目前含落地页设计技能，按文件夹安装即可用自然语言调用。",
+   "highlights_zh": [
+    "每个技能为自包含文件夹，含 SKILL.md 规则文件",
+    "支持 Claude Code、Cursor、Codex、Windsurf 等多种工具",
+    "当前仅落地页设计一个技能，后续持续扩充"
+   ],
+   "why_zh": "如果你用 Claude Code 做前端页面，装上它可让 AI 按完整视觉系统出稿。",
+   "tags": [
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.637,
+   "score_llm": 6.0,
+   "score": 0.6148,
+   "date": "2026-10-28",
+   "slot": "noon",
+   "selected_at": "2026-10-28T04:21:17+00:00",
+   "mirror_pdf": "pdf/web-10439e81d0b3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/elayadesign/ai-design-skills"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-db98bf59a6c7",
+   "kind": "article",
+   "title": "Build specialized multimodal models with LFM3",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-10-27T17:16:52+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "用 LFM3 构建专用多模态模型",
+   "summary_zh": "Hugging Face 博客介绍如何基于 LFM3 构建面向特定任务的多模态模型，给出可复现的工程实践路径。",
+   "highlights_zh": [
+    "面向专用场景而非通用大模型",
+    "提供多模态模型构建的实操流程",
+    "依托 Hugging Face 生态工具链"
+   ],
+   "why_zh": "想做垂直多模态应用的团队可直接参考其工程路径。",
+   "tags": [
+    "多模态",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 7.0,
+   "score": 0.612,
+   "date": "2026-10-28",
+   "slot": "noon",
+   "selected_at": "2026-10-28T04:21:17+00:00",
+   "mirror_pdf": "pdf/web-db98bf59a6c7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/LiquidAI/lfm3"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-80ad0be63a07",
+   "kind": "article",
+   "title": "刚刚，谷歌 Genie 4 发布，120 秒的世界却让我看见 AI 的未来",
+   "url": "https://www.ifanr.com/1686234?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "AI 的下一个目标是模拟现实 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "莫崇宇"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-27T22:37:04+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1686234?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌 Genie 4 发布：世界模型再进一步",
+   "summary_zh": "谷歌发布 Genie 4 世界模型，可生成约 120 秒的交互式虚拟世界，被视为 AI 从内容生成走向现实模拟的重要一步。",
+   "highlights_zh": [
+    "生成时长提升至约 120 秒",
+    "面向交互式世界模拟",
+    "指向 AI 模拟现实的新方向"
+   ],
+   "why_zh": "世界模型是当前大厂竞争焦点，值得关注其能力边界。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-28",
+   "slot": "noon",
+   "selected_at": "2026-10-28T04:21:17+00:00",
+   "mirror_pdf": "pdf/web-80ad0be63a07.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1686234?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ee0865b5d1b3",
+   "kind": "article",
+   "title": "智能指数得分创新高！蚂蚁百灵开源Ling-3.1-flash-1019：让Personal Agent走向真实业务",
+   "url": "https://www.infoq.cn/article/wIuu0NSaLSaqJJpXVExD?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "青和"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-28T12:13:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/wIuu0NSaLSaqJJpXVExD?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "蚂蚁百灵开源 Ling-3.1-flash：智能指数创新高，主攻个人智能体",
+   "summary_zh": "蚂蚁百灵开源 Ling-3.1-flash-1019，官方称智能指数得分创新高，面向 Personal Agent 真实业务场景优化，为开源模型阵营再添一员。",
+   "highlights_zh": [
+    "开源模型 Ling-3.1-flash-1019 发布，主打个人智能体场景",
+    "官方称智能指数得分创自身新高",
+    "面向真实业务落地，而非纯跑分"
+   ],
+   "why_zh": "关注开源模型与智能体落地选型的从业者可评估其实际表现。",
+   "tags": [
+    "大模型",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-28",
+   "slot": "noon",
+   "selected_at": "2026-10-28T04:21:17+00:00",
+   "mirror_pdf": "pdf/web-ee0865b5d1b3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/wIuu0NSaLSaqJJpXVExD?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1c5554f25d98",
+   "kind": "article",
+   "title": "轻量化异构双臂 × VLA/世界模型：家庭服务具身机器人的落地实践",
+   "url": "https://www.infoq.cn/article/7yOK6Ri9Dt4VfITmA7Vb?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：李元庆"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-28T12:05:43+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/7yOK6Ri9Dt4VfITmA7Vb?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "轻量化异构双臂结合 VLA 与世界模型：家庭服务机器人落地实践",
+   "summary_zh": "分享轻量化异构双臂机器人结合 VLA 与世界模型做家庭服务落地的工程实践，讲清从模型到真机部署的取舍与经验。",
+   "highlights_zh": [
+    "异构双臂硬件方案与轻量化设计",
+    "VLA 与世界模型在家庭场景的分工",
+    "真机落地中的工程取舍与经验"
+   ],
+   "why_zh": "做具身智能与家庭机器人落地的团队可参考其工程路径。",
+   "tags": [
+    "机器人",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-28",
+   "slot": "noon",
+   "selected_at": "2026-10-28T04:21:17+00:00",
+   "mirror_pdf": "pdf/web-1c5554f25d98.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/7yOK6Ri9Dt4VfITmA7Vb?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1065766b3bc5",
+   "kind": "article",
+   "title": "GPT-6.1 Terra 发布：比旗舰快 3 倍，价格仅1/10！事实错误率暴降近 70%",
+   "url": "https://www.infoq.cn/article/28VVsANi9FBYRKfUz8vA?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "李冬梅"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-28T10:37:05+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/28VVsANi9FBYRKfUz8vA?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "GPT-6.1 Terra 发布：速度提升三倍、价格仅十分之一",
+   "summary_zh": "OpenAI 推出 GPT-6.1 Terra，主打速度提升 3 倍、价格降至旗舰的 1/10，事实错误率下降近 70%，进一步压低推理成本。",
+   "highlights_zh": [
+    "速度提升 3 倍，价格仅为旗舰模型的 1/10",
+    "事实错误率下降近 70%",
+    "主打高性价比，冲击中低端推理市场"
+   ],
+   "why_zh": "关注头部模型在成本与准确率上的新平衡点，影响选型与定价策略。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-28",
+   "slot": "noon",
+   "selected_at": "2026-10-28T04:21:17+00:00",
+   "mirror_pdf": "pdf/web-1065766b3bc5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/28VVsANi9FBYRKfUz8vA?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e7e1e18cc3a3",
+   "kind": "article",
+   "title": "Claude 的账单，金主先看不下去了",
+   "url": "https://www.tmtpost.com/8183902.html",
+   "pdf_url": "",
+   "abstract": "Anthropic 已经演示了它的天花板在哪",
+   "authors": [
+    "奇点湃"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-28T03:08:42+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8183902.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Claude 的账单，金主先看不下去了",
+   "summary_zh": "文章认为 Anthropic 已显露增长天花板，高昂推理成本与商业化压力让投资方开始质疑其烧钱模式的可持续性。",
+   "highlights_zh": [
+    "Anthropic 成本结构与商业化压力凸显",
+    "投资方对高投入模式产生疑虑",
+    "折射头部大模型公司的盈利难题"
+   ],
+   "why_zh": "从资本视角看大模型公司的成本与商业化困境。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-28",
+   "slot": "noon",
+   "selected_at": "2026-10-28T04:21:17+00:00",
+   "mirror_pdf": "pdf/web-e7e1e18cc3a3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8183902.html"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "AI算力军备竞赛升级为资本绑定，芯片厂商与云巨头深度互锁。",
-   "why": "AMD以10亿美元入股Meta共建吉瓦级基础设施，Meta成MI450早期定义客户，算力供给从采购转向股权联盟。",
+   "trend": "推理成本骤降正把竞争焦点从模型能力转向单位经济性",
+   "why": "GPT-6.1 Terra价格降至旗舰1/10、速度3倍，Android Bench显示GPT成本仅Claude的1/16。",
    "refs": [
-    "web-877bb35c8b1e"
+    "web-1065766b3bc5",
+    "web-995ee1bb839b"
    ]
   },
   {
-   "trend": "世界模型进入实时高真实感阶段，可交互生成成为新竞争焦点。",
-   "why": "DeepMind发布Genie 4主打实时模拟前所未有的真实感，世界模型从视频生成迈向可交互环境构建。",
+   "trend": "评测体系正从跑分排名转向实战交付与生命周期校准",
+   "why": "旧基准逼近满分但实战不及格，企业选型转向算成本账；新框架按生命周期校准评估。",
    "refs": [
-    "web-5ef94984dce4"
-   ]
-  },
-  {
-   "trend": "自动科研系统评测暴露短板，简单方法反超复杂架构。",
-   "why": "Arena多目标基准测试七种harness，简单顺序搜索胜过复杂方法，说明自动科研仍处早期、评测方法亟待重构。",
-   "refs": [
+    "web-87b0d6a6ee57",
+    "arxiv-2610.35725",
     "arxiv-2610.35866"
    ]
   },
   {
-   "trend": "AI智能体安全风险从理论走向实战，企业内网防线被快速击穿。",
-   "why": "Cathedral用AI智能体不到12小时借第三方漏洞攻入Anthropic内部系统，智能体攻击效率远超传统渗透。",
+   "trend": "世界模型进入实时交互与开源竞速，成为具身智能新底座",
+   "why": "Genie 4主打实时真实感，腾讯混元开源8B交互式世界模型，NVIDIA用世界想象强化VLA。",
    "refs": [
-    "web-d642b1f0056c"
+    "web-5ef94984dce4",
+    "web-80ad0be63a07",
+    "arxiv-2610.36729",
+    "arxiv-2610.37666"
    ]
   },
   {
-   "trend": "具身智能资本与人才争夺白热化，规模化制造开始验证。",
-   "why": "启元一月下线5000台机器人、蚂蚁挑战赛1855支队伍、年薪1亿挖人，产业从样机转向量产与人才军备竞赛。",
+   "trend": "算力与内存产能锁定至2029年，供给约束重塑竞争格局",
+   "why": "SK海力士称DRAM与HBM近乎售罄至2030年；AMD以10亿美元入股Meta共建吉瓦级基础设施。",
    "refs": [
-    "web-a7fbaf266cf1",
-    "web-a2a52570a967",
-    "web-6f957dd30c64"
+    "web-6003534ee699",
+    "web-877bb35c8b1e"
+   ]
+  },
+  {
+   "trend": "智能体架构走向「脑手分离」，但安全边界同步承压",
+   "why": "Anthropic以脑手分离构建可靠智能体；Cathedral用智能体12小时攻破其内部系统。",
+   "refs": [
+    "web-80e5637a67e1",
+    "web-beb92a3cbb63",
+    "web-d642b1f0056c"
    ]
   }
  ]
