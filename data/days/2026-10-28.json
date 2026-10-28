@@ -2253,47 +2253,1225 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "arxiv-2610.37381",
+   "kind": "paper",
+   "title": "PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations",
+   "url": "https://arxiv.org/abs/2610.37381",
+   "pdf_url": "https://arxiv.org/pdf/2610.37381",
+   "abstract": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, whose lightweight Physical Dynamics Module extracts physical tokens from vision--language features to condition action generation without online video generation. The module learns through direct prediction of future RGB, depth, and optical-flow features, with auxiliary supervision through a frozen pretrained video world model. Training relies entirely on publicly available data, expanded through human-to-robot synthesis, subtask annotation, and embodied chain-of-thought (ECoT) annotation. Across four simulation benchmarks, PDRVLA achieves success rates of 99.3% on LIBERO, 89.9% on LIBERO-Plus, 93.6% on RoboTwin~2.0, and 81.5% on SimplerEnv. Ablations show improved future prediction with world-model supervision and evaluate how subtask conditioning, future object-pose supervision, and ECoT training affect action success.",
+   "authors": [
+    "Hanqing Wang",
+    "Zhaotian Cai",
+    "Ruichuan An",
+    "Bohan Zeng",
+    "Tao Zhang",
+    "Yilin Chen",
+    "Xu Jiang",
+    "Kaiquan Chen",
+    "Chongyang Wu",
+    "Haoran Li",
+    "Fan Yang",
+    "Mingan Lin",
+    "Wentao Zhang",
+    "Zenan Zhou",
+    "Youzheng Wu"
+   ],
+   "orgs": [],
+   "published": "2026-10-27T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.37381",
+     "signal": "▲ 118",
+     "metric": 118
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "PDRVLA：用物理动态表征增强视觉-语言-动作模型",
+   "summary_zh": "提出轻量物理动态模块，从视觉-语言特征中提取物理token来条件化动作生成，无需在线生成视频，在LIBERO等四个仿真基准上成功率最高达99.3%。",
+   "highlights_zh": [
+    "用轻量模块替代视频世界模型在线生成，避免控制回路高延迟",
+    "通过预测未来RGB、深度、光流特征学习物理动态，并以冻结视频世界模型做辅助监督",
+    "训练仅用公开数据，经人到机器人合成、子任务标注与具身思维链标注扩充"
+   ],
+   "why_zh": "VLA落地机器人控制的关键瓶颈是物理理解与延迟，该方案给出低成本折中路径。",
+   "tags": [
+    "机器人",
+    "多模态",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.6658,
+   "score_llm": 8.0,
+   "score": 0.7463,
+   "date": "2026-10-28",
+   "slot": "evening",
+   "selected_at": "2026-10-28T11:14:02+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.37381.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.37381"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.37381"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.37381"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.37381"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.37381"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.37381"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.37662",
+   "kind": "paper",
+   "title": "Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?",
+   "url": "https://arxiv.org/abs/2610.37662",
+   "pdf_url": "https://arxiv.org/pdf/2610.37662",
+   "abstract": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic upper bound. Using multimodal understanding as a proxy for semantic fidelity, we revisit this assumption and find quantization error unreliable, as discrete representations with substantially larger errors can achieve better understanding. Instead, the effective bit budget of discrete indices emerges as a key determinant of downstream performance. However, existing quantizers eventually saturate as additional codebooks contribute progressively less semantic information. As one approach to alleviating this saturation, we introduce Factorized Vector Quantization, which quantizes complementary, fixed-dimensional views of the visual feature with symmetric parallel codebooks. It continues to improve at larger bit budgets, ultimately matching continuous visual representations in multimodal understanding. Trained on industrial-scale multimodal data, our model achieves state-of-the-art performance among discrete-representation models, outperforming UniAR and Emu3-Chat by 22.8% and 59.2%, respectively, on a nine-metric average. To our knowledge, it is also the first discrete-representation model competitive with strong continuous-representation models such as Qwen3-VL, including on fine-grained OCR tasks. We further identify the key principles and a practical recipe enabling this competitiveness. These results and insights support the potential of discrete visual representations to underpin large-scale native multimodal foundation models. Code and models are available at https://github.com/hustvl/FVQ",
+   "authors": [
+    "Jialv Zou",
+    "Xiaotong Li",
+    "Zhengrong Yue",
+    "Xu Huang",
+    "Yaxin Luo",
+    "Wenhao Yan",
+    "Haodong Li",
+    "Wenyu Liu",
+    "Xinggang Wang"
+   ],
+   "orgs": [
+    "LongCat"
+   ],
+   "published": "2026-10-27T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.37662",
+     "signal": "▲ 40",
+     "metric": 40
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "离散视觉token能否做到语义无损",
+   "summary_zh": "发现量化误差并非语义损失主因，有效比特预算才是关键；提出因子化向量量化，在更大比特预算下持续提升，多模态理解追平连续表示并刷新离散模型SOTA。",
+   "highlights_zh": [
+    "量化误差更大的离散表示反而理解更好，推翻常见假设",
+    "现有量化器随码本增加趋于饱和，因子化向量量化用对称并行码本缓解",
+    "工业级数据训练，多模态理解超越 UniAR 22.8%、Emu3-Chat 59.2%"
+   ],
+   "why_zh": "为统一 next-token 预测的多模态架构提供关键证据，影响视觉tokenizer设计方向。",
+   "tags": [
+    "多模态",
+    "大模型",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.602,
+   "score_llm": 8.0,
+   "score": 0.7208,
+   "date": "2026-10-28",
+   "slot": "evening",
+   "selected_at": "2026-10-28T11:14:02+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.37662.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.37662"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.37662"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.37662"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.37662"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.37662"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.37662"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/hustvl/FVQ"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a044912b52ff",
+   "kind": "article",
+   "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
+   "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-27T16:25:30Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50261589",
+     "signal": "325 pts",
+     "metric": 325
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "亚马逊AI部门持续失利后遭大幅裁撤",
+   "summary_zh": "亚马逊在AI业务持续未达预期后对其AI部门进行大规模裁撤，反映大厂AI战略从扩张转向收缩与聚焦。",
+   "highlights_zh": [
+    "亚马逊AI部门因长期未达目标被大幅削减",
+    "反映头部大厂AI投入从铺量转向聚焦",
+    "HN 325 分，行业关注度高"
+   ],
+   "why_zh": "观察大厂AI战略收缩信号，判断行业资源再分配方向。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5913,
+   "score_llm": 8.0,
+   "score": 0.7165,
+   "date": "2026-10-28",
+   "slot": "evening",
+   "selected_at": "2026-10-28T11:14:02+00:00",
+   "mirror_pdf": "pdf/web-a044912b52ff.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50261589"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.37386",
+   "kind": "paper",
+   "title": "Channel Selection for Mixture-of-Experts Decoding Needs No Calibration Data",
+   "url": "https://arxiv.org/abs/2610.37386",
+   "pdf_url": "https://arxiv.org/pdf/2610.37386",
+   "abstract": "Mixture-of-Experts (MoE) models are bottlenecked by loading routed-expert weights from memory during interactive decoding at small batch sizes. Because most intermediate channels in a routed expert contribute little to any single token, channel selectors predict which channels matter and read only their weights, typically keeping channels above a threshold calibrated on offline data. We show that channel selection needs no calibration data. First, a calibrated threshold does not fix how much a selector reads, because the number of channels passing it varies across inputs; Prox with thresholds calibrated for an 18% read budget actually reads only 12.9% on average across our benchmarks. Second, top-k keeps each token's k highest-scoring channels and needs no calibration data. At the calibrated budget, a selector's top-k version matches or beats its threshold version on the same score in 40 of 43 comparisons at 13% and 18% budgets, including all 23 on generation tasks. The top-k versions also avoid the repetition-loop collapse that calibrated thresholds cause on Gemma 4. Calibrating a threshold thus provides neither of the two things selectors use it for: a known read budget and a consistent accuracy gain at that budget. We furthermore introduce a reader built entirely from the model's weights, which screens channels with a ternary sketch and recovers the skipped ones with a low-rank map. Across three post-trained MoE models, our reader retains 98.1% of full-model accuracy at 17.8% of routed-expert reads, with Triton kernels running MoE blocks 1.60 to 1.90x faster than optimized vLLM at batch one and up to 2.69x at larger batches on the same three models.",
+   "authors": [
+    "Geunhyoung Kim",
+    "Sung Ju Hwang"
+   ],
+   "orgs": [
+    "KAIST AI"
+   ],
+   "published": "2026-10-27T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.37386",
+     "signal": "▲ 10",
+     "metric": 10
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.37386",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "MoE解码通道选择无需校准数据",
+   "summary_zh": "研究证明 MoE 通道选择用 top-k 即可免校准，在 43 组对比中 40 组持平或更优，还避免了阈值法导致的重复循环崩溃。",
+   "highlights_zh": [
+    "校准阈值无法保证读取预算，18% 预算实际只读 12.9%",
+    "top-k 无需校准数据，13%/18% 预算下多数持平或更优",
+    "top-k 避免 Gemma 4 上阈值法引发的重复循环崩溃",
+    "提出纯用模型权重构建的 reader，三元草图筛通道"
+   ],
+   "why_zh": "MoE 推理加速的实用改进，免校准降低部署成本。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5834,
+   "score_llm": 8.0,
+   "score": 0.7134,
+   "date": "2026-10-28",
+   "slot": "evening",
+   "selected_at": "2026-10-28T11:14:02+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.37386.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.37386"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.37386"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.37386"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.37386"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.37386"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.37386"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/AidenGeunGeun/calibration-free-moe"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.35864",
+   "kind": "paper",
+   "title": "VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation",
+   "url": "https://arxiv.org/abs/2610.35864",
+   "pdf_url": "https://arxiv.org/pdf/2610.35864",
+   "abstract": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a rule-consistent game or narration synchronized to on-screen events. A different route is emerging: multimodal agents that write code to render every frame and synthesize every sound. We introduce VibeVideoBench, a benchmark for evaluating agents on code-driven video generation. Its 239 self-contained tasks in English and Chinese span 12 categories, from data stories and music-driven pieces to classroom lessons and paper explainers; each asks an agent, running in its native harness inside a sandbox with no image or video generation model, to deliver a finished MP4 with sound within one hour. Evaluation is hierarchical and evidence-based: program checks of the delivery spec, about 13k task-specific rubric checks traced to the requirements they enforce, and five quality dimensions anchored per task, scored by three VLM judge panels. Across nine frontier agent systems and 2,151 scored rollouts, GPT-6 Astra and Claude Opus 5.5 rank first and second with both the judges and human annotators, and the strongest system satisfies every core requirement on 76.3% of tasks. Delivery is a second axis: counting missing videos as zero changes the ranking, and three quarters of the lost videos are final renders that started too late, ran too slowly or never started, a failure of how agents plan their hour. Agents build their own rendering pipelines and inspect their own frames, yet how much they look does not predict quality. The judges' ranking of the systems closely matches blind human preferences.",
+   "authors": [
+    "Muxi Diao",
+    "Wenbin Xu",
+    "Lele Yang",
+    "Xuyang Ma",
+    "Yuzhe Chen",
+    "Jiankang Chen",
+    "Kaiyu Jiang",
+    "Changyi Liu",
+    "Haoyu Zhang",
+    "Hongyi Fu",
+    "Jianxiong Wang",
+    "Tianke Zhang",
+    "Haonan Fan",
+    "Yingxin Li",
+    "Bingyi Li",
+    "Xu Wang",
+    "Xuanyu Zheng",
+    "Bin Wen",
+    "Tingting Gao",
+    "Han Li",
+    "Wentao Zhang",
+    "Weiran Xu",
+    "Kongming Liang",
+    "Zhanyu Ma"
+   ],
+   "orgs": [],
+   "published": "2026-10-27T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.35864",
+     "signal": "▲ 28",
+     "metric": 28
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "VibeVideoBench：代码驱动视频生成评测",
+   "summary_zh": "新基准用 239 个中英任务评测智能体写代码逐帧渲染视频，GPT-6 Astra 与 Claude Opus 5.5 领先，最强系统仅 76.3% 任务全达标。",
+   "highlights_zh": [
+    "239 个中英任务、12 类，要求一小时内交付带声 MP4",
+    "分层评测：程序检查 + 约 1.3 万条 rubric + VLM 评审",
+    "9 个前沿智能体 2151 次 rollout，交付失败是主要失分点"
+   ],
+   "why_zh": "代码驱动视频是新路线，该基准揭示智能体交付能力短板。",
+   "tags": [
+    "多模态",
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.5813,
+   "score_llm": 8.0,
+   "score": 0.7125,
+   "date": "2026-10-28",
+   "slot": "evening",
+   "selected_at": "2026-10-28T11:14:02+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.35864.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.35864"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.35864"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.35864"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.35864"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.35864"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.35864"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a4c44e96b0a9",
+   "kind": "article",
+   "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
+   "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-27T15:28:26Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50260814",
+     "signal": "527 pts",
+     "metric": 527
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Anthropic 被指用非法获取的斯坦福教授书籍训练 Claude",
+   "summary_zh": "Hacker News 热议报道称 Anthropic 使用非法获取的斯坦福教授书籍训练 Claude，再度引发训练数据来源合法性的争议。",
+   "highlights_zh": [
+    "涉及头部模型公司训练数据版权合规问题",
+    "与近期多起书籍版权诉讼形成呼应",
+    "对数据采购与合规流程有直接警示"
+   ],
+   "why_zh": "训练数据合规是头部模型公司的系统性风险，值得跟踪后续法律与监管走向。",
+   "tags": [
+    "数据与评测",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6139,
+   "score_llm": 7.0,
+   "score": 0.6656,
+   "date": "2026-10-28",
+   "slot": "evening",
+   "selected_at": "2026-10-28T11:14:02+00:00",
+   "mirror_pdf": "pdf/web-a4c44e96b0a9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50260814"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-eb967c2830c0",
+   "kind": "article",
+   "title": "The Mythical Man-Month in the Age of AI",
+   "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-27T06:25:37Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50255298",
+     "signal": "457 pts",
+     "metric": 457
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AI 时代的《人月神话》",
+   "summary_zh": "文章借《人月神话》反思 AI 编程提效的边界，认为工具加速个体产出却难以消除沟通与协调成本，团队规模与复杂度问题依旧。",
+   "highlights_zh": [
+    "AI 提升编码速度但未必缩短整体交付周期",
+    "沟通开销与系统复杂度仍是主要瓶颈",
+    "对团队组织与工程流程设计提出再思考"
+   ],
+   "why_zh": "对正在用 AI 重构研发流程的团队，是一份关于组织效率的冷静提醒。",
+   "tags": [
+    "产品与行业",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.6073,
+   "score_llm": 7.0,
+   "score": 0.6629,
+   "date": "2026-10-28",
+   "slot": "evening",
+   "selected_at": "2026-10-28T11:14:02+00:00",
+   "mirror_pdf": "pdf/web-eb967c2830c0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50255298"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-dbb3c9a11f5f",
+   "kind": "article",
+   "title": "GPT-6.1 Terra首批网友实测来了！1折价格获得Astra级电脑操作能力",
+   "url": "https://www.qbitai.com/2026/10/505719.html",
+   "pdf_url": "",
+   "abstract": "同一天，OpenAI还甩出3项AI科学新发现",
+   "authors": [
+    "一水"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-27T08:27:46+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/505719.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "GPT-6.1 Terra实测：1折价格获Astra级电脑操作能力",
+   "summary_zh": "OpenAI发布GPT-6.1 Terra，网友实测以约1折价格获得接近Astra级的电脑操作能力，同日还公布3项AI科学新发现。",
+   "highlights_zh": [
+    "价格大幅下探，电脑操作能力接近旗舰级",
+    "首批网友实测反馈已流出",
+    "同日公布3项AI科学新发现"
+   ],
+   "why_zh": "头部模型降价+能力升级，直接影响产品选型与成本结构。",
+   "tags": [
+    "大模型",
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-10-28",
+   "slot": "evening",
+   "selected_at": "2026-10-28T11:14:02+00:00",
+   "mirror_pdf": "pdf/web-dbb3c9a11f5f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/505719.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1a01afe6b15e",
+   "kind": "article",
+   "title": "KeygraphHQ/shannon",
+   "url": "https://github.com/KeygraphHQ/shannon",
+   "pdf_url": "",
+   "abstract": "Star KeygraphHQ / shannon Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.",
+   "authors": [],
+   "orgs": [
+    "KeygraphHQ"
+   ],
+   "published": "2026-10-28T11:14:02+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/KeygraphHQ/shannon",
+     "signal": "★ 今日 +415 · TypeScript",
+     "metric": 415
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Shannon：自动渗透测试的AI智能体",
+   "summary_zh": "Shannon 是面向 Web 应用与 API 的 AI 渗透测试智能体，读源码找攻击面并真实执行漏洞利用来验证风险。",
+   "highlights_zh": [
+    "分析源码识别攻击向量并实际执行 exploit 验证",
+    "TypeScript 实现，GitHub Trending 单日 +415",
+    "适合上线前安全验证流程"
+   ],
+   "why_zh": "如果你在做 Web/API 上线前安全测试，可用它自动跑真实漏洞验证。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5874,
+   "score_llm": 7.0,
+   "score": 0.655,
+   "date": "2026-10-28",
+   "slot": "evening",
+   "selected_at": "2026-10-28T11:14:02+00:00",
+   "mirror_pdf": "pdf/web-1a01afe6b15e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/KeygraphHQ/shannon"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-625efce5713d",
+   "kind": "article",
+   "title": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
+   "url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/",
+   "pdf_url": "",
+   "abstract": "Since coding is solved, why code for the job?",
+   "authors": [
+    "swyx .ai"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-28T08:50:30+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Anthropic 取消编程面试：「饥饿感胜过资历」",
+   "summary_zh": "Latent Space 报道 Anthropic 不再以编程面试筛选工程师，理由是编码已被 AI 解决，转而看重候选人的驱动力与学习能力。",
+   "highlights_zh": [
+    "Anthropic 认为编码能力不再是招聘核心门槛",
+    "招聘标准转向「饥饿感」与成长潜力",
+    "反映 AI 编程工具对工程岗位定义的冲击"
+   ],
+   "why_zh": "头部 AI 公司招聘逻辑变化，是观察 AI 如何重塑工程岗位的先行信号。",
+   "tags": [
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-10-28",
+   "slot": "evening",
+   "selected_at": "2026-10-28T11:14:02+00:00",
+   "mirror_pdf": "pdf/web-625efce5713d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9db1a3b45449",
+   "kind": "article",
+   "title": "Anthropic 内部系统被 AI Agent 12 小时攻破！会议记录、员工薪酬、内部模型讨论遭访问",
+   "url": "https://www.infoq.cn/article/mFXr0u4z0XftUGUg5Wm7?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "Tina"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-28T17:54:54+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/mFXr0u4z0XftUGUg5Wm7?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI Agent 12小时攻破Anthropic内部系统",
+   "summary_zh": "报道称AI Agent在12小时内攻破Anthropic内部系统，访问到会议记录、员工薪酬与内部模型讨论，暴露智能体安全风险。",
+   "highlights_zh": [
+    "攻击由AI Agent自主完成，耗时约12小时",
+    "泄露会议记录、薪酬与内部模型讨论",
+    "凸显智能体权限与对齐安全挑战"
+   ],
+   "why_zh": "智能体自主攻击的安全案例，对齐与安全从业者必读。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-28",
+   "slot": "evening",
+   "selected_at": "2026-10-28T11:14:02+00:00",
+   "mirror_pdf": "pdf/web-9db1a3b45449.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/mFXr0u4z0XftUGUg5Wm7?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-19ec8074e328",
+   "kind": "article",
+   "title": "斯坦福的研究，红海的珊瑚，与一个中国模型",
+   "url": "http://www.geekpark.net/news/373059",
+   "pdf_url": "",
+   "abstract": "2026 年 9 月 4 日，又一年柏林国际消费电子展 IFA 大会开幕，会展中心的创新舞台座无虚席。 IFA 2026 的开幕主题演讲题目是《个人 AI 时代：想象力的未来》，主讲人是 AMD 高级副总裁、计算与图形事业部总经理 Jack Huynh。 作为消费电子圈每年最重要的场合之一，台下所有人都在等 AMD 拿出年度最重磅的内容。Huynh 的前半段演讲照例讲硬件：新一代 Ryzen AI Max PRO 处理器，AMD 历经多年打磨、专为个人 AI 设计的笔记本「Sundance」。 到演示环节，他话锋一转：「如果说，用一句 prompt 就创造一整个世界呢？」 他双手托着笔记本，屏幕上没有播放键，镜头平稳地向前推进，穿过中国小镇的街巷，又走上欧洲乡村的小路，光影随着视角移动自然变化，世界一路向前铺展，仿佛没有尽头。 这不是一段提前渲染好的视频，而是一个正在实时生成、可以交互的三维世界。 过去一段时间，这类能力更多出现在实验室和论文演示里，能以这么高的完成度，出现在消费电子展的主舞台上，还是行业第一次。 演示结束时，Huynh 对着话筒说了句：「This is the future of Personal AI。」 很多人不知道的是， 驱动这个演示的世界模型 LingBot-World 2.0，正来自蚂蚁集团旗下的具身智能团队灵波科技（Robbyant）。 三个月后回看，那场演示只是一个开始。 从高校实验室到芯片厂商的开发套件，从独立开发者的工具到垂直行业的工作流，LingBot（灵波）系列模型正在进入全球具身智能的技术底层，成为很多团队创新的起点，甚至还进入了红海珊瑚礁的研究现场。 01 成为学术研究的参考基准 能被 AMD 选上舞台，不是运气。 在此之前，灵波已经在全球具身智能的学术圈成了一把隐形标尺。 世界模型赛道有个公认的难题：物体恒存。简单说就是镜头离开一个物体，再转回来，生成模型还能不能把它还原出来？ 南洋理工大学、清华大学和普林斯顿大学的联合团队，把这个难题当成测试世界模型记忆能力的试金石。世界模型需要利用此前的画面，维持物体和场景的连续性；生成时间越长，保存历史信息的缓存也可能越大。研究者想做的，是压缩缓存的同时，保留后续生成真正需要的信息。 团队比较了 LingBot-World v2、LongLive、Self-Forcing 和 Causal Forcing。在特定的对象找回与场景重访测试中，LingBot-World v2 利用完整历史信息生成的画面，与目标画面的 DINO 特征相似度约为 0.68，其他三个候选约为 0.26。 这个结果直接决定了他们后续的研究方向：放弃其他候选，直接在灵波的底座上做记忆压缩优化。最终提出的 DeCoPrune 方案，把历史缓存 token 砍掉了 85%，生成速度翻了四倍多的情况下，画面相似度还能保住 0.67。 类似的故事，在具身智能论文里反复出现。 斯坦福大学视觉与学习实验室 10 月发布的 OpenWAM 项目，初衷是给世界 - 动作模型（World-Action Model）做一套统一的对比框架。过去各家模型各写各的代码，架构不兼容、接口不统一，想比个优劣得先重写半套环境。他们找了一圈现成的实现，最后把 LingBot-VA 的 Transformer 架构、文本编码器和分词器整套拿了过来，作为整个框架的参考实现。 韩国 KAIST 与成均馆大学团队的联合研究成果 FastOPD，则用 LingBot-VLA 作为「教师模型」，为约 4.51 亿参数的学生模型提供监督，",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-28T07:37:30+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373059",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "从斯坦福研究到红海珊瑚：一个中国世界模型",
+   "summary_zh": "蚂蚁灵波LingBot-World 2.0登上AMD IFA主舞台实时生成可交互3D世界，并被斯坦福等团队用作研究基准。",
+   "highlights_zh": [
+    "实时生成可交互3D世界，消费电子展首秀",
+    "物体恒存测试相似度0.68远超同类0.26",
+    "被斯坦福OpenWAM等项目选为底座"
+   ],
+   "why_zh": "国产世界模型进入全球具身智能技术底层的实证案例。",
+   "tags": [
+    "多模态",
+    "机器人",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-10-28",
+   "slot": "evening",
+   "selected_at": "2026-10-28T11:14:02+00:00",
+   "mirror_pdf": "pdf/web-19ec8074e328.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373059"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f13695cfb396",
+   "kind": "article",
+   "title": "华为群英传之刘睿：AI助手要告别聊天框，从“被动响应”走向“主动服务”",
+   "url": "https://www.leiphone.com/category/ai/Ep3M1c7RboyafpOS.html",
+   "pdf_url": "",
+   "abstract": "在商汤没做成的技术，登上了华为发布会。 作者：李秋悦 编辑：吴彤 2022年6月，刘睿港中文博士毕业，赶上的却是一个“坏时候”。 深度学习的高光已持续近十年，新突破越来越难；疫情之下，经济低迷，同届不少同学选择延期，再守一年实验室。 刘睿没有等，他直接去了商汤。 两个月后，Stable Diffusion发布；又过了三个月，ChatGPT引爆全球。刘睿毕业时以为正在退潮的世界，忽然换了一片海——商汤赖以生存的生意，为手机厂商定制算法、出售授权，开始松动；原本需要一个团队单独研发的算法，正被一个个基础模型收编。 然后是2023年12月，汤晓鸥去世。 “定海神针”突然离开，公司内部人心惶惶。刘睿也第一次认真想：汤老师不在了，商汤怎么办，自己怎么办。 回头看，这个“坏时候”里埋着他此前人生的所有伏笔。2014年考入电子科技大学，他最初学光电子，很快觉得天地太窄；转入英才实验学院后，吴恩达的CS229让他迷上机器学习，李飞飞的CS231n把他领进深度学习和计算机视觉。2018年，他进入港中文MMLab，在王晓刚、李鸿升门下研究生成式模型——那正是几年后掀起巨浪的方向。从传统机器学习到深度学习，他几乎踩着AI最热闹的鼓点走完了求学路，却在毕业这年，听见鼓点停了。 2024年，刘睿加入华为。这一次，他想换一种做技术的方式：不再把算法卖给客户，而是直接把它交到用户手里。 此前在商汤未能立项的对话式修图，被他推上了2025年华为Mate 80的发布会；年底，小艺大模型应用实验室成立，刘睿出任首任主任，研究范围涵盖大语言模型、多模态智能、Agent与具身智能。做研究与做产品，在他手里第一次合流。 也正是在这个时候，2022年那个“坏时候”显出了另一副面孔：如果他像同学一样延期一年、守在实验室里等风停，等来的不会是避风港，只会是又一场追赶。所谓坏时机，不过是旧浪退去、新浪未至的间隙——有人站在岸边等，有人先下了水。 现在，刘睿关心的不再是追不追得上技术，而是另一个问题：模型能做的，和用户要的，之间还差什么。 以下是雷峰网左林右狸频道与刘睿（华为小艺大型模型应用实验室创始主任）的对话，经编辑。 01 商汤往事，大模型颠覆算法生意 左林右狸频道：2018年，你在本科大四下学期去商汤科技研究院做实习生，是什么契机？ 刘睿： 2017年7月，我参加香港中文大学MMLab的夏令营，认识了王晓刚、李鸿升、林达华几位老师。他们给我发了口头offer，我聊下来感觉也很好，决定明年去港中文MMLab读博。 王晓刚、李鸿升老师觉得，做研究应该解决更有价值的工业界问题，所以建议我去商汤科技研究院实习，提前接受一些产业界的锻炼。 左林右狸频道：当时面试你的人是闫俊杰。 刘睿： 俊杰这个人非常好，非常Nice，他是一个很有技术追求的人，也是我当时的mentor。 但第一次面试时我对他的印象其实是他很sharp，面试体验也很特别，不会像其他面试官一样安安静静听你完整讲完一个工作，而是从一个点开始连环追问你，一直挖到触及你的知识盲区，再让你继续介绍工作。而且他抓重点非常精准，非常高效。 十几分钟的连环问结束，他说欢迎来实习，就挂断了电话。 左林右狸频道：在商汤科技研究院实习那小半年的时间，你在做什么工作？ 刘睿： 当时主要做人脸识别研究。俊杰虽然是我的Mentor，但他从2015年加入商汤，一路从实习生做到总监，工作已经非常忙了，所以我更多是独立开展研究，向组里一些资深的研究员学习。 这段实习有两个大收获，第一是接触到了大规模算力集群。当时商汤拥有非常丰富的GPU资源，我们可以一次性启动几百甚至",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-28T08:43:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/Ep3M1c7RboyafpOS.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "华为刘睿：AI助手要告别聊天框",
+   "summary_zh": "华为小艺大模型应用实验室主任刘睿认为，AI助手应从被动响应走向主动服务，告别聊天框形态，把算法直接交到用户手里。",
+   "highlights_zh": [
+    "对话式修图从商汤未立项到Mate 80落地",
+    "小艺实验室覆盖LLM、多模态、Agent与具身智能",
+    "核心判断：模型能力与用户需求之间仍有落差"
+   ],
+   "why_zh": "头部终端厂商AI助手的路线判断，对做Agent产品的人有参考价值。",
+   "tags": [
+    "智能体",
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-28",
+   "slot": "evening",
+   "selected_at": "2026-10-28T11:14:02+00:00",
+   "mirror_pdf": "pdf/web-f13695cfb396.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/Ep3M1c7RboyafpOS.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ecb641721ef3",
+   "kind": "article",
+   "title": "大客户直接打1折、模型四个月降价80%：大模型价格战没有退路",
+   "url": "https://www.infoq.cn/article/ejtljxPixrIuUsGYi5xa?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "Tina"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-28T18:14:48+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/ejtljxPixrIuUsGYi5xa?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "大模型价格战没有退路：大客户1折、四个月降价80%",
+   "summary_zh": "报道大模型API价格战加剧，大客户可打1折、部分模型四个月降价80%，厂商利润承压但降价仍无退路。",
+   "highlights_zh": [
+    "大客户折扣低至1折",
+    "模型价格四个月降80%",
+    "价格战挤压厂商盈利空间"
+   ],
+   "why_zh": "把握大模型商业化与定价趋势的一手行业分析。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-28",
+   "slot": "evening",
+   "selected_at": "2026-10-28T11:14:02+00:00",
+   "mirror_pdf": "pdf/web-ecb641721ef3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/ejtljxPixrIuUsGYi5xa?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-04cc8036c2fb",
+   "kind": "article",
+   "title": "带出Transformer一作、前ACL顶会主席来华分享：人类正在把“思考”全盘外包",
+   "url": "https://www.infoq.cn/article/SZuklTgjFS7o8BaZ8TJh?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "青和"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-28T17:42:38+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/SZuklTgjFS7o8BaZ8TJh?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Transformer 一作来华：人类正把“思考”全盘外包",
+   "summary_zh": "Transformer 一作、前 ACL 主席来华分享，认为人类正把思考外包给 AI，引发对认知依赖与能力退化的讨论。",
+   "highlights_zh": [
+    "重量级学者对 AI 与人类认知关系的判断",
+    "“思考外包”成为核心论点",
+    "涉及 AI 能力边界与人类主体性"
+   ],
+   "why_zh": "顶级研究者对 AI 与人类认知关系的判断，值得从业者思考。",
+   "tags": [
+    "大模型",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-28",
+   "slot": "evening",
+   "selected_at": "2026-10-28T11:14:02+00:00",
+   "mirror_pdf": "pdf/web-04cc8036c2fb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/SZuklTgjFS7o8BaZ8TJh?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bf8923f08c52",
+   "kind": "article",
+   "title": "史上最大IPO临门，腾讯、阿里、字节抢卡：Anthropic和中国大厂一起为算力上头",
+   "url": "https://www.tmtpost.com/8184064.html",
+   "pdf_url": "",
+   "abstract": "为什么中国互联网大厂还要集中采购一款性能逊于顶级数据中心芯片的英伟达显卡？推理算力的需求究竟增长到了什么程度？这场抢卡潮，又会如何影响国产芯片的商业化进程？",
+   "authors": [
+    "奇点研究社"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-28T06:11:47+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8184064.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic最大IPO在即，中国大厂抢卡为推理算力",
+   "summary_zh": "钛媒体分析中国互联网大厂为何集中采购性能逊于顶级芯片的英伟达显卡，揭示推理算力需求激增及对国产芯片商业化的影响。",
+   "highlights_zh": [
+    "Anthropic冲击史上最大IPO，算力军备竞赛升温",
+    "腾讯、阿里、字节集中采购英伟达显卡，推理需求成主因",
+    "抢卡潮或影响国产芯片商业化进程"
+   ],
+   "why_zh": "理解推理算力供需格局与国产芯片替代节奏的关键切口。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-28",
+   "slot": "evening",
+   "selected_at": "2026-10-28T11:14:02+00:00",
+   "mirror_pdf": "pdf/web-bf8923f08c52.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8184064.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-04c3eece94d9",
+   "kind": "article",
+   "title": "美国银行警告客户：切勿将网银密码交给 AI 助手",
+   "url": "https://www.ithome.com/1/019/146.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 28 日消息，据科技媒体 Android Authority 今天报道，美国银行（BofA）已开始向客户发送电子邮件，提醒他们不要将网银密码交给 AI 助手。 IT之家从原报道获悉，这封邮件名为《AI 时代的财务保护》，美银在信中明确提醒客户，不要向外部服务分享自己的网银用户名和密码，包括那些 AI 智能体。美银还在信中警示客户：“如果您分享了网银凭据， 请记住 ， 由此产生的任何责任将由您承担 。” 事实上，这样的提醒并非毫无缘由。谷歌、OpenAI 和 Anthropic 等公司的智能体已经具备足够能力，能够跨应用执行任务。但值得警觉的是，用个人银行账户试验 AI 能力并不妥当。 美国多家大型银行已发现，部分未经批准的第三方智能体正在访问客户网银，部分 AI 的操作甚至超出了用户指示范围。摩根士丹利已开始屏蔽此类智能体，摩根大通和花旗银行也在收紧相关权限。 不过，这种问题更多是出在责任划分上，而非 AI 本身。银行很难判断某个智能体究竟在遵守用户指令，还是在未授权的情况下擅自操作。 一旦出现问题 ， 用户有可能会把锅甩给银行 。这种责任归属难题，金融行业至今没有找到妥善解决方案。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-28T10:51:41+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/019/146.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "美国银行警告客户勿将网银密码交给AI助手",
+   "summary_zh": "美银向客户发邮件警示勿向AI智能体分享网银凭据，摩根士丹利已屏蔽此类智能体，摩根大通、花旗收紧权限，责任归属难题待解。",
+   "highlights_zh": [
+    "美银明确：分享凭据后责任由客户承担",
+    "多家大行发现未经批准的第三方智能体访问网银",
+    "核心矛盾在责任划分而非AI能力本身"
+   ],
+   "why_zh": "智能体落地金融场景的首批真实摩擦，关乎产品边界设计。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-28",
+   "slot": "evening",
+   "selected_at": "2026-10-28T11:14:02+00:00",
+   "mirror_pdf": "pdf/web-04c3eece94d9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/019/146.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-accd614fba7e",
+   "kind": "article",
+   "title": "天数智芯：天垓 300 成国内首个实测性能达英伟达 H200 水平的通用 GPU，单卡吞吐约为 1.05 倍",
+   "url": "https://www.ithome.com/1/019/056.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 28 日消息，天数智芯今日在上海举行 2026 媒体开放日，首次公开展示了天垓 300 通用 GPU 的实机运行。 据天数智芯官方介绍，天垓 300 成为国内首个实测性能达到英伟达 H200 水平的通用 GPU，第三方实测折算单卡整体吞吐达到 H200 的 1.05 倍（IT之家注：具体的测试方法、模型负载和工作负载条件尚未同步公布）。 天垓 300 的实机演示是本次开放日最受关注的部分。在此之前，天数智芯对这款产品的公开信息多集中于架构和路线图层面，实机运行尚属首次。 与天垓 300 配套的超节点方案 IXL144 在稍早的工博会上已经亮相。该方案在单机柜内集成 144 颗 GPU 与 18 颗 CPU，配备约 10.1TB 显存，天数智芯方面称其为“业界最高密度单机柜 GPU 超节点”。据天数智芯测算，该方案每百万有效 Token 的成本较国际主流方案可降低 40%。 本次开放日还披露了异构部署方面的进展：国内首个 GPU 与 XPU 异构部署的 AFD 分离方案成功跑通，推理延迟降低 60%。AFD 分离通常指将注意力、前馈网络等计算阶段在异构算力单元之间进行拆分调度，以匹配不同硬件的擅长负载。 端侧产品线方面，彤央 TY1200 的实测性能被称为“超越 Thor T5000”，并称首次在国产端侧产品上实现了基于 MuJoCo-Warp 的 GPU 加速物理仿真。彤央 TY1200 此前公开的规格为 300 TOPS 稠密算力，面向 AI PC 与具身智能场景。 相关阅读： 《 天数智芯发布新一代通用 GPU 旗舰产品天垓 300，具备规模化应用条件 》 《 GPU 芯片及算力提供商天数智芯完成超 10 亿元融资，将开发智铠 100、天垓 200 及 300 芯片 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-28T09:22:31+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/019/056.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "天数智芯天垓 300 实测对标 H200，单卡吞吐 1.05 倍",
+   "summary_zh": "天数智芯首次实机展示天垓 300，称第三方实测单卡吞吐达 H200 的 1.05 倍，并披露 144 卡超节点与 GPU-XPU 异构 AFD 分离方案。",
+   "highlights_zh": [
+    "测试方法与负载条件尚未公布，需谨慎看待",
+    "IXL144 单柜 144 GPU、约 10.1TB 显存，Token 成本降 40%",
+    "AFD 异构分离跑通，推理延迟降 60%"
+   ],
+   "why_zh": "国产 GPU 对标国际旗舰的关键节点，关注算力成本与异构部署者可读。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-28",
+   "slot": "evening",
+   "selected_at": "2026-10-28T11:14:02+00:00",
+   "mirror_pdf": "pdf/web-accd614fba7e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/019/056.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d6c73340e2b0",
+   "kind": "article",
+   "title": "Personal Agent走向真实任务，蚂蚁百灵开源 Ling-3.1-flash-1019",
+   "url": "https://www.qbitai.com/2026/10/505928.html",
+   "pdf_url": "",
+   "abstract": "10月28 日，蚂蚁集团旗下百灵大模型正式开源 Ling-3.1-flash-1019。",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-28T04:04:48+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/505928.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "蚂蚁百灵开源Ling-3.1-flash-1019，主打个人智能体真实任务",
+   "summary_zh": "蚂蚁集团百灵大模型开源Ling-3.1-flash-1019，定位面向真实任务的个人智能体场景，为国内开源模型生态再添一员。",
+   "highlights_zh": [
+    "蚂蚁百灵系列新版本开源",
+    "主打Personal Agent真实任务场景",
+    "flash定位偏轻量高效"
+   ],
+   "why_zh": "关注国内大厂开源模型在智能体方向的布局。",
+   "tags": [
+    "大模型",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-10-28",
+   "slot": "evening",
+   "selected_at": "2026-10-28T11:14:02+00:00",
+   "mirror_pdf": "pdf/web-d6c73340e2b0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/505928.html"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
    "trend": "推理成本骤降正把竞争焦点从模型能力转向单位经济性",
-   "why": "GPT-6.1 Terra价格降至旗舰1/10、速度3倍，Android Bench显示GPT成本仅Claude的1/16。",
+   "why": "GPT-6.1 Terra价格降至旗舰1/10、速度3倍，Claude成本被金主质疑，价格战已开打。",
    "refs": [
     "web-1065766b3bc5",
+    "web-e7e1e18cc3a3",
     "web-995ee1bb839b"
    ]
   },
   {
-   "trend": "评测体系正从跑分排名转向实战交付与生命周期校准",
-   "why": "旧基准逼近满分但实战不及格，企业选型转向算成本账；新框架按生命周期校准评估。",
+   "trend": "评测体系正从跑分排名转向成本与实战交付的信用重估",
+   "why": "旧基准逼近满分却实战不及格，企业选型改算成本账；多目标Arena显示简单方法反胜复杂系统。",
    "refs": [
     "web-87b0d6a6ee57",
-    "arxiv-2610.35725",
-    "arxiv-2610.35866"
+    "arxiv-2610.35866",
+    "arxiv-2610.35725"
    ]
   },
   {
    "trend": "世界模型进入实时交互与开源竞速，成为具身智能新底座",
-   "why": "Genie 4主打实时真实感，腾讯混元开源8B交互式世界模型，NVIDIA用世界想象强化VLA。",
+   "why": "Genie 4主打实时真实感，腾讯Hy-Nomas开源8B权重，NVIDIA用世界想象强化VLA推理。",
    "refs": [
     "web-5ef94984dce4",
-    "web-80ad0be63a07",
     "arxiv-2610.36729",
     "arxiv-2610.37666"
    ]
   },
   {
-   "trend": "算力与内存产能锁定至2029年，供给约束重塑竞争格局",
-   "why": "SK海力士称DRAM与HBM近乎售罄至2030年；AMD以10亿美元入股Meta共建吉瓦级基础设施。",
+   "trend": "算力与内存产能锁定至2029，供给端成AI竞争硬约束",
+   "why": "SK海力士称DRAM与HBM近乎售罄至2030，AMD入股Meta共建吉瓦级基础设施。",
    "refs": [
     "web-6003534ee699",
     "web-877bb35c8b1e"
    ]
   },
   {
-   "trend": "智能体架构走向「脑手分离」，但安全边界同步承压",
-   "why": "Anthropic以脑手分离构建可靠智能体；Cathedral用智能体12小时攻破其内部系统。",
+   "trend": "智能体架构走向「脑手分离」，安全与可靠性成落地门槛",
+   "why": "Anthropic以脑手分离构建托管智能体，同时其内部系统被AI智能体12小时内攻破。",
    "refs": [
     "web-80e5637a67e1",
     "web-beb92a3cbb63",
