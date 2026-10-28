@@ -1,13 +1,11 @@
-2026-10-27 16:21:39,446 INFO source hf_daily           -> 27 items
-2026-10-27 16:21:39,918 INFO source hackernews         -> 11 items
-2026-10-27 16:21:56,840 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-27 16:22:14,443 INFO source rss                -> 82 items
-2026-10-27 16:22:16,662 INFO source html_lists         -> 1 items
-2026-10-27 16:22:16,662 INFO source x                  -> 0 items
-2026-10-27 16:22:17,413 INFO source arxiv_search       -> 60 items
-2026-10-27 16:22:27,063 INFO source github             -> 20 items
-2026-10-27 16:22:27,066 INFO candidates: 198 (stale dropped 108, new 55)
-2026-10-27 16:23:22,289 INFO llm judged 55/55 (calls=7)
-2026-10-27 16:23:26,467 WARNING snapshot https://stratechery.com/2026/anthropic-s-1-the-cost-of-compute-who-is-paying/: blocked or empty page
-2026-10-27 16:23:59,561 WARNING snapshot https://thezvi.wordpress.com/2026/10/27/anthropic-versus-anthropic/: blocked or empty page
-2026-10-27 16:26:10,025 INFO run done: {"at": "2026-10-27T16:21:38+00:00", "slot": "morning", "candidates": 198, "new": 55, "stale": 108, "judged": 55, "selected": 20, "mirrored": 18, "by_category": {"观点": 3, "技术": 4, "资讯": 11, "项目": 1, "论文": 1}, "by_source": {"HF Daily Papers": 27, "arXiv 新论文": 60, "Hacker News": 11, "OpenAI": 7, "量子位": 10, "极客公园": 9, "IT之家": 10, "爱范儿": 6, "少数派": 1, "雷峰网": 16, "钛媒体": 4, "InfoQ 中文": 6, "Latent Space": 2, "Jack Clark": 1, "Stratechery": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 2, "Zvi Mowshowitz": 2, "科学空间": 1, "Hugging Face Blog": 1, "Google DeepMind": 1, "NVIDIA": 1, "xAI": 1, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
+2026-10-28 04:21:18,186 INFO source hf_daily           -> 29 items
+2026-10-28 04:21:18,517 INFO source hackernews         -> 10 items
+2026-10-28 04:21:34,947 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-28 04:21:46,027 INFO source rss                -> 103 items
+2026-10-28 04:21:49,752 INFO source html_lists         -> 2 items
+2026-10-28 04:21:49,752 INFO source x                  -> 0 items
+2026-10-28 04:22:50,879 INFO source arxiv_search       -> 60 items
+2026-10-28 04:23:00,429 INFO source github             -> 20 items
+2026-10-28 04:23:00,431 INFO candidates: 222 (stale dropped 52, new 127)
+2026-10-28 04:24:32,310 INFO llm judged 100/100 (calls=13)
+2026-10-28 04:27:05,992 INFO run done: {"at": "2026-10-28T04:21:17+00:00", "slot": "noon", "candidates": 222, "new": 127, "stale": 52, "judged": 100, "selected": 19, "mirrored": 19, "by_category": {"资讯": 11, "技术": 4, "观点": 3, "项目": 1}, "by_source": {"HF Daily Papers": 29, "Hacker News": 10, "Google DeepMind": 1, "Anthropic": 2, "量子位": 10, "极客公园": 8, "IT之家": 18, "爱范儿": 8, "雷峰网": 16, "钛媒体": 9, "InfoQ 中文": 9, "Latent Space": 4, "Jack Clark": 1, "Stratechery": 1, "Azeem Azhar": 2, "Zvi Mowshowitz": 2, "科学空间": 1, "Hugging Face Blog": 2, "Google Research": 1, "OpenAI": 9, "NVIDIA": 1, "arXiv 新论文": 60, "GitHub Trending": 14, "GitHub 新项目": 6}, "llm": true, "translated": 0}
