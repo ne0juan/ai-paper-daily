@@ -1,0 +1,1069 @@
+{
+ "date": "2026-10-29",
+ "items": [
+  {
+   "id": "web-34b0bf3f94c3",
+   "kind": "article",
+   "title": "Gemini 4 Carbon: Our next frontier model",
+   "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Google DeepMind"
+   ],
+   "published": "2026-10-28T17:00:58+00:00",
+   "sources": [
+    {
+     "name": "Google DeepMind",
+     "authority": 0.85,
+     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Gemini 4 Carbon：谷歌下一代前沿模型发布",
+   "summary_zh": "Google DeepMind 发布 Gemini 4 Carbon，定位为下一代前沿模型，将直接影响大模型竞争格局与开发者选型。",
+   "highlights_zh": [
+    "谷歌官方发布新一代前沿模型",
+    "可能重塑头部模型竞争格局",
+    "开发者与产品选型需重新评估"
+   ],
+   "why_zh": "头部公司重大发布，把握模型能力边界与市场方向必读。",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.52,
+   "score_llm": 9.0,
+   "score": 0.748,
+   "date": "2026-10-29",
+   "slot": "morning",
+   "selected_at": "2026-10-28T17:05:27+00:00",
+   "mirror_pdf": "pdf/web-34b0bf3f94c3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d63165261460",
+   "kind": "article",
+   "title": "The October inflection point for vibe game development",
+   "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+   "pdf_url": "",
+   "abstract": "I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers for software engineers. I think we've reached a new inflection point in October 2026, and this time it's for vibe coding computer games . Tree Appreciator Emberwick Battle Drones Pumpkin Farmer, aka Quarter Sun Cove Four times as insulting What happens if someone actually puts the work in? You should build a game! Claude Opus 5.5 in particular exhibits meaningful improvements in several areas needed to build a compelling game: 3D modeling Music generation (see Scrimshaw Jukebox ) Game design (!) That last one is particularly important. Models have been able to create something that looks like a game for quite a while now, as seen in my previous experiments . The challenge has been getting to a game that's actually fun to play . Game design is a deep subject area. I won't pretend to be well versed in it - I know enough to have respect for it as a craft. Creating a novel, compelling gameplay loop which challenges players at the right level and provides a satisfying learning curve is a fine art. I didn't think the models could do it. Then I tried telling Claude Opus 5.5 to \"Make it a LOT more fun\"... and it did . In the past few weeks I've vibe coded (in the classic sense of the term - no looking at the code at all) four games that I've genuinely enjoyed playing",
+   "authors": [
+    "Simon Willison"
+   ],
+   "orgs": [
+    "Simon Willison"
+   ],
+   "published": "2026-10-28T13:55:15+00:00",
+   "sources": [
+    {
+     "name": "Simon Willison",
+     "authority": 0.8,
+     "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Django 联合创始人，LLM 实践者",
+   "title_zh": "氛围编程游戏开发的十月拐点",
+   "summary_zh": "Simon Willison 认为 2026 年 10 月是氛围编程游戏的拐点：Claude Opus 5.5 在 3D 建模、音乐生成尤其是游戏设计上有实质进步，能做出真正好玩的游戏。",
+   "highlights_zh": [
+    "此前模型只能做出「像游戏」的东西，难点在于好玩",
+    "一句「让它更有趣得多」即可显著提升可玩性",
+    "3D 建模与音乐生成能力同步提升"
+   ],
+   "why_zh": "知名实践者对模型能力边界的实测判断，可作为趋势信号",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.708,
+   "date": "2026-10-29",
+   "slot": "morning",
+   "selected_at": "2026-10-28T17:05:27+00:00",
+   "mirror_pdf": "pdf/web-d63165261460.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4b9ad4180246",
+   "kind": "article",
+   "title": "Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work",
+   "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/",
+   "pdf_url": "",
+   "abstract": "If you want to compete, you need to be multi-model. And if you want to take advantage of everything that different AI models have to offer, you need a great harness. But building one that works seamlessly across multiple models and surfaces is incredibly hard. You need to solve for performance, quality, and cost. And... The post Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work appeared first on The Official Microsoft Blog .",
+   "authors": [
+    "Tina Schuchman CVP, Foundry and Vladimir Fedorov, CTO, GitHub"
+   ],
+   "orgs": [
+    "Microsoft"
+   ],
+   "published": "2026-10-28T16:51:35+00:00",
+   "sources": [
+    {
+     "name": "Microsoft",
+     "authority": 0.75,
+     "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "微软发布 Copilot harness，主打多模型智能体协作",
+   "summary_zh": "微软推出 Copilot harness，让智能体工作流可在多个模型与界面间无缝切换，兼顾性能、质量与成本。",
+   "highlights_zh": [
+    "微软高层明确表态：想保持竞争力就必须支持多模型",
+    "harness 需同时解决性能、质量与成本三重难题",
+    "由 Foundry 与 GitHub 高层联合署名，指向开发者生态"
+   ],
+   "why_zh": "多模型智能体脚手架是当前工程焦点，微软的官方方案值得关注",
+   "tags": [
+    "智能体",
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 8.0,
+   "score": 0.672,
+   "date": "2026-10-29",
+   "slot": "morning",
+   "selected_at": "2026-10-28T17:05:27+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-65e05126788d",
+   "kind": "article",
+   "title": "Artificial Analysis v5 and the benchmarker's dilemma",
+   "url": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
+   "pdf_url": "",
+   "abstract": "A sort of review of the benchmarking industry and what's missing.",
+   "authors": [
+    "Nathan Lambert"
+   ],
+   "orgs": [
+    "Nathan Lambert"
+   ],
+   "published": "2026-10-28T12:58:39+00:00",
+   "sources": [
+    {
+     "name": "Nathan Lambert",
+     "authority": 0.8,
+     "url": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Ai2 研究员",
+   "title_zh": "Artificial Analysis v5 与评测者的两难",
+   "summary_zh": "Nathan Lambert 评述评测行业现状与 Artificial Analysis v5，指出当前基准体系缺失的关键环节。",
+   "highlights_zh": [
+    "系统梳理评测行业的商业模式与角色",
+    "讨论现有基准无法覆盖的能力维度",
+    "来自 Ai2 研究员的一线视角"
+   ],
+   "why_zh": "评测方法直接影响模型选型与市场叙事，值得从业者参考",
+   "tags": [
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.648,
+   "date": "2026-10-29",
+   "slot": "morning",
+   "selected_at": "2026-10-28T17:05:27+00:00",
+   "mirror_pdf": "pdf/web-65e05126788d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-977b19418fd5",
+   "kind": "article",
+   "title": "具身智能军备竞赛，胜负手在工程生态",
+   "url": "https://www.leiphone.com/category/ai/D4SlkV6zQ4ill9MG.html",
+   "pdf_url": "",
+   "abstract": "开源工程底座 FluxVLA Engine 技术报告全解读。 作者丨 邓哲敏 编辑丨 齐铖湧 一个模型在论文中取得好成绩，距离它真正驱动机器人完成任务，还有多远？ 模型能否接入现有的数据与训练流程，推理速度能否跟上机器人的控制节奏，生成的动作能否连续、稳定地执行，实验结果又能否在不同机器人上得到验证——这些问题，未必能靠再提升几个百分点的模型成功率来解决。 过去半年，AI科技评论（雷峰网）在与业内人士交流时发现，一些反复出现的工程问题正在消耗大量研发资源：不同模型的数据格式难以统一，训练和评测流程各自为政，仿真中的结果到了真机上未必成立；好不容易跑通一套流程，换个模型、换份数据或换台机器人，又可能需要重新适配。 模型在不断迭代，工程积累却未必能随之沉淀。 这让雷峰网想起深度学习的发展历程。2017 年，PyTorch 正式开源，此后，框架、工具链与开发者社区不断完善，研究者得以在更成熟的基础设施上开展实验，而不必每次从底层重新搭建环境。今天的具身智能虽然面临不同的技术挑战，但同样需要解决一个问题：如何让已有的研发成果更容易复用，让不同技术路线能够在统一的工程框架下协作。 逐际动力开源的 FluxVLA Engine，试图从工程层面回应这一问题。它并非又一个争夺模型性能排名的 VLA 模型，而是一套面向具身智能研发的工程底座，贯通数据、训练、评测、推理与真机部署。 10 月 22 日，FluxVLA Engine 完成重要更新。我们拆解了它的最新技术报告，并重点关注四个问题：不同架构的模型能否接入同一套研发体系？模型从仿真走向真机，需要跨过哪些工程障碍？真实交互经验如何低成本地回流到模型优化中？当同一套流程覆盖更多模型与机器人时，它究竟展示出了怎样的能力？ 01 新模型请先登记 一套工程底座是否真正有用，首先要看它能否接纳不同的模型。 对具身智能来说，模型是迭代最快的。今天使用一种 VLA 架构，明天可能尝试另一种动作生成方式；同一团队也可能同时研究多个策略模型。如果每换一次模型，就要重新整理数据、编写评测代码、改造部署接口，那么此前积累的工程经验很难持续发挥价值。 模型可以不断更换，但围绕数据、评测和部署建立起来的工程能力，不应该每次都从头再来。 FluxVLA Engine 的做法，是通过统一配置与组件注册机制，把不同模型接入研发流程时需要处理的差异，尽可能收敛到明确的接口中。可以理解为一份统一的实验清单，加上一套可供调用的组件目录。 配置文件负责声明一次实验需要使用什么模型、如何处理数据、怎样开展评测，以及通过什么接口进行部署。注册机制则将视觉骨干、动作头、训练运行器和机器人相关操作组件等分别组织起来。开发者可以按需组合已经适配的组件，而不必为每一种模型重新搭建整套工程流程。 这并不意味着任何模型都能在不做适配的情况下直接运行。不同架构仍然可能需要各自的适配器、动作空间转换和归一化处理。真正的价值在于： 把不可避免的差异放到可管理的组件层，让已经打通的公共流程能够继续复用 。 从技术报告来看，FluxVLA 已经将多种架构差异明显的策略纳入同一套研发与评测体系，包括采用自回归路线的 OpenVLA、采用 flow-matching 路线的 π0.5，以及 DiT4DiT、GR00T 等不同技术路线的模型。这意味着，统一工程框架不必以牺牲模型多样性为代价。 FluxVLA 的模型接入并不局限于开放权重的模型。GPT-6 Astra 此前就以纯 API 的方式接入，同一套闭环评测，不提供权重、不参与训练，评测器照常跑完流程、留好证据。就在最新技术",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-28T10:17:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/D4SlkV6zQ4ill9MG.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "具身智能的胜负手：工程生态而非模型分数",
+   "summary_zh": "逐际动力开源 FluxVLA Engine，用统一配置与组件注册把数据、训练、评测、推理和真机部署串成一套工程底座，已接入 OpenVLA、π0.5、GR00T 等异构策略模型。",
+   "highlights_zh": [
+    "指出具身智能真正的瓶颈是数据格式、评测流程、仿真到真机的工程复用问题，而非模型成功率的小幅提升",
+    "通过配置文件与组件注册机制，把不同 VLA 架构的差异收敛到可管理的适配层",
+    "已把自回归、flow-matching、DiT 等不同技术路线的模型纳入同一研发与评测体系"
+   ],
+   "why_zh": "做具身智能或 VLA 落地的团队，可借此理解工程底座该如何设计，避免每换一个模型就重搭一遍流程。",
+   "tags": [
+    "机器人",
+    "强化学习",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-29",
+   "slot": "morning",
+   "selected_at": "2026-10-28T17:05:27+00:00",
+   "mirror_pdf": "pdf/web-977b19418fd5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/D4SlkV6zQ4ill9MG.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.37648",
+   "kind": "paper",
+   "title": "Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis",
+   "url": "https://arxiv.org/abs/2610.37648",
+   "pdf_url": "https://arxiv.org/pdf/2610.37648",
+   "abstract": "We explore how to build performant large language model (LLM) tool-use agents that complete complex, multi-step tasks. Specifically, we study how data composition in synthetically generated tool-use environments affects the training of such agents. To do so, we propose the SynthAPI pipeline, which explicitly controls the diversity of generated environments along the axes of tools, tasks, and the databases on which the tools operate. By systematically varying SynthAPI's generation controls in 458,752 tasks across 849 trained models of four different sizes, we derive a scaling law that predicts downstream tool-use agent generalization based on the scale and composition of the synthesized environments. These predictable relationships reveal several lessons for scaling tool-use agent data. As data budgets grow, scaling tool and database diversity becomes more effective than increasing the number of tasks, and increasing data complexity yields larger gains. Scaling according to these findings yields agents that outperform models trained on data from prior work in large-scale tool-use agent and synthetic environment generation across four evaluation benchmarks.",
+   "authors": [
+    "Andrew Szot",
+    "Samira Abnar",
+    "Omar Attia",
+    "Abbas Kazerouni",
+    "Michael Kirchhof",
+    "Cheng-Yu Hsieh",
+    "Raviteja Vemulapalli",
+    "Alexander Toshev"
+   ],
+   "orgs": [],
+   "published": "2026-10-27T17:56:46Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.37648",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "工具调用智能体的可扩展定律",
+   "summary_zh": "提出SynthAPI可控合成工具环境，在45.8万任务、849个模型上推导出缩放律：数据预算增大时，扩工具与数据库多样性比堆任务数更有效。",
+   "highlights_zh": [
+    "沿工具、任务、数据库三轴显式控制合成环境多样性",
+    "数据复杂度提升带来的收益大于单纯增加任务数量",
+    "按该规律扩数据，在四个基准上超越此前方法训练的智能体"
+   ],
+   "why_zh": "首次给出工具智能体数据的可预测缩放规律，直接指导训练数据配比。",
+   "tags": [
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-29",
+   "slot": "morning",
+   "selected_at": "2026-10-28T17:05:27+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.37648.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.37648"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.37648"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.37648"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.37648"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.37648"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.37648"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.37588",
+   "kind": "paper",
+   "title": "Understanding the limits of latent world models",
+   "url": "https://arxiv.org/abs/2610.37588",
+   "pdf_url": "https://arxiv.org/pdf/2610.37588",
+   "abstract": "World models are widely proposed as core components for enabling agents to reason over long temporal and spatial horizons. Yet current evaluations often emphasize task performance while providing limited insight into whether learned world models acquire predictive latent dynamics that reflect the underlying structure of the environment. Here we introduce the concept of faithful latent world models as an equivariance condition between the environment's transition map and the learned latent dynamics. We propose latent rollout consistency (LRC) as a metric to evaluate action-conditioned latent prediction. Strikingly, we find that across the studied state of the art latent world models, none solves the task by actually faithfully modeling the dynamics of the environment.",
+   "authors": [
+    "Rodrigo Gonzalez Laiz",
+    "Steffen Schneider"
+   ],
+   "orgs": [],
+   "published": "2026-10-27T17:25:50Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.37588",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "潜世界模型的能力边界",
+   "summary_zh": "提出「忠实潜世界模型」的等变条件与潜推演一致性指标LRC，发现当前SOTA潜世界模型无一真正忠实建模环境动力学。",
+   "highlights_zh": [
+    "将忠实性形式化为环境转移映射与学习潜动力学之间的等变条件",
+    "LRC指标专门评估动作条件下的潜预测一致性",
+    "任务表现好不等于学到了正确的环境动力学"
+   ],
+   "why_zh": "对世界模型热潮的关键质疑：高分可能来自捷径而非真实动力学。",
+   "tags": [
+    "理论",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-29",
+   "slot": "morning",
+   "selected_at": "2026-10-28T17:05:27+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.37588.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.37588"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.37588"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.37588"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.37588"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.37588"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.37588"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ebc994e2ab78",
+   "kind": "article",
+   "title": "豆包工作能力升级：操作电脑可录制成技能，锁屏后也能继续任务",
+   "url": "https://www.leiphone.com/category/industrynews/MYDTBZqQkhfVtkte.html",
+   "pdf_url": "",
+   "abstract": "近期，豆包工作电脑操作能力升级，屏幕点击精度、速度提升，更准、更快。直接在对话中提出操作电脑的相关需求，经用户授权后，豆包工作就可以自动查看电脑屏幕，模拟人工鼠标和键盘操作相关应用。与此同时，在原有跨应用操作、将浏览器操作录制成技能的基础上，用户现在可以录制电脑操作，把演示过程保存为可复用技能；另外，需要操作电脑的任务可在 Mac 锁屏后继续执行，用户也可通过手机下达任务、查看结果。 在对话界面“更多技能”中找到“录制操作生成技能”，按提示完成授权后，用户可以像平时一样在操作电脑，并通过语音补充要求。例如，整理文件时，可以说明“只整理这个文件夹，文件按日期命名”，将操作范围和命名规则一并交代清楚。录制期间，豆包工作会记录鼠标点击、输入文字和窗口内容，用户可随时取消；使用时应避免展示账号密码等敏感信息。 录制结束后，豆包工作会将操作流程和讲解整理成个人技能。下次执行同类任务时选用对应技能，再说明此次要处理的对象和要求，就可以省去重复解释操作步骤。这样，多步操作、临时条件和处理习惯能够从一次演示沉淀为可调用的技能，减少同类任务的重复说明。 在任务执行方面，用户可进入“设置→工作任务模式设置”，开启“允许豆包在锁屏时工作”。启动该功能并经过用户授权后，豆包工作可在Mac 锁屏时继续执行需要操作电脑的任务。用户离开电脑时，还可以通过手机向这台锁屏的 Mac 下达任务，并在手机上查看返回结果；回到电脑前，解锁后可以随时接管。对于需要连续执行、又不便一直守在电脑前的任务，这一能力提供了更灵活的交付方式。 Mac 锁屏后，豆包工作可继续执行需要操作电脑的任务（界面示意） 使用时，Mac 需保持开机、联网，豆包客户端持续运行，设备保持唤醒。 随着 AI Agent 向真实工作场景延伸，Computer Use 正成为其操作软件、执行任务的重要能力。豆包工作此次升级，让用户熟悉的操作方法可以保存为可复用技能，并支持任务在 Mac 锁屏后继续执行，有助于减少重复交代和持续守在电脑前的负担。对于普通用户，这意味着有机会把一部分重复操作交给 AI，把更多时间和精力留给判断、创作及需要经验的工作，让 AI 释放生产力的价值逐步落到日常流程中。 雷峰网 雷峰网",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-28T07:00:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/MYDTBZqQkhfVtkte.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "豆包工作升级：操作可录成技能，锁屏也能跑",
+   "summary_zh": "豆包工作电脑操作能力升级，用户可把演示过程录制成可复用技能，任务在 Mac 锁屏后仍可继续执行，并支持手机远程下达任务、查看结果。",
+   "highlights_zh": [
+    "屏幕点击精度与速度提升，授权后可自动查看屏幕并模拟鼠标键盘操作",
+    "录制操作生成技能，可把多步流程、临时条件和命名规则一并沉淀下来",
+    "开启锁屏工作模式后，离开电脑也能通过手机派发任务并取回结果"
+   ],
+   "why_zh": "Computer Use 类智能体正从演示走向日常办公流程，这是观察 Agent 产品化进度的一个具体样本。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-29",
+   "slot": "morning",
+   "selected_at": "2026-10-28T17:05:27+00:00",
+   "mirror_pdf": "pdf/web-ebc994e2ab78.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/MYDTBZqQkhfVtkte.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a7ffdcfdf18f",
+   "kind": "article",
+   "title": "别再只写提示词了，开始真正雇用智能体：智能体企业管理实践 ｜ 技术实践",
+   "url": "https://www.infoq.cn/article/II91QKxeaEg7RuZR2rrf?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "Jennifer Belissent"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-28T22:05:40+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/II91QKxeaEg7RuZR2rrf?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "别再写提示词，开始雇用智能体",
+   "summary_zh": "Snowflake作者认为企业应把智能体当作可管理的“数字员工”来雇用、授权与考核，而非继续堆提示词，并给出智能体企业管理的实践框架。",
+   "highlights_zh": [
+    "从提示词工程转向智能体生命周期管理",
+    "强调权限、责任边界与绩效评估",
+    "面向企业落地的组织与流程建议"
+   ],
+   "why_zh": "智能体规模化落地后，管理范式比提示技巧更决定成败。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-29",
+   "slot": "morning",
+   "selected_at": "2026-10-28T17:05:27+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/II91QKxeaEg7RuZR2rrf?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-97aafdd2c691",
+   "kind": "article",
+   "title": "当 AI 智能体代表用户行动时，企业治理将面临哪些新问题？ ｜ 技术趋势",
+   "url": "https://www.infoq.cn/article/CxWoiprQltg8YXmwmghd?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "Snowflake"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-28T21:39:45+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/CxWoiprQltg8YXmwmghd?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "智能体代用户行动，企业治理新难题",
+   "summary_zh": "Snowflake文章指出当AI智能体代表用户执行操作时，企业需重新界定授权、审计与责任归属，传统治理框架难以直接套用。",
+   "highlights_zh": [
+    "智能体代理行为带来的授权与追责空白",
+    "审计与可观测性成为治理前提",
+    "对合规与安全团队的直接冲击"
+   ],
+   "why_zh": "智能体从问答走向代操作，治理问题会先于技术问题爆发。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-29",
+   "slot": "morning",
+   "selected_at": "2026-10-28T17:05:27+00:00",
+   "mirror_pdf": "pdf/web-97aafdd2c691.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/CxWoiprQltg8YXmwmghd?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0181d28df3d0",
+   "kind": "article",
+   "title": "Instagram 采用原生 AI 架构对用户界面进行了现代化改造，将 token 成本降低了 33%",
+   "url": "https://www.infoq.cn/article/bXKVgLdpf7HONYHIi6Su?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Sergio De Simone"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-28T21:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/bXKVgLdpf7HONYHIi6Su?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Instagram原生AI架构改造UI，Token成本降33%",
+   "summary_zh": "Instagram用原生AI架构重构用户界面，将Token成本降低33%，说明生成式UI在超大规模产品中已具备成本可行性。",
+   "highlights_zh": [
+    "原生AI架构替代部分传统UI渲染路径",
+    "Token成本下降33%，规模化可行",
+    "为生成式界面提供大厂实证"
+   ],
+   "why_zh": "生成式UI能否落地，成本是关键变量，这是一份真实规模的数据点。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-29",
+   "slot": "morning",
+   "selected_at": "2026-10-28T17:05:27+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/bXKVgLdpf7HONYHIi6Su?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cf21d96fecbd",
+   "kind": "article",
+   "title": "谷歌 Antigravity SDK 新增本地模型支持，提升 Token 效率和代码隐私性",
+   "url": "https://www.infoq.cn/article/TusFJkx6F151otgzliu2?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Sergio De Simone"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-28T20:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/TusFJkx6F151otgzliu2?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌Antigravity SDK支持本地模型",
+   "summary_zh": "谷歌Antigravity SDK新增本地模型支持，提升Token效率并让代码不出本地，回应企业对隐私与成本的诉求。",
+   "highlights_zh": [
+    "SDK可调用本地模型，代码数据不外传",
+    "Token效率提升，降低调用成本",
+    "面向编程Agent场景的隐私增强"
+   ],
+   "why_zh": "编程Agent的本地化与成本优化，是企业采购时的硬性门槛。",
+   "tags": [
+    "代码",
+    "效率与系统",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-29",
+   "slot": "morning",
+   "selected_at": "2026-10-28T17:05:27+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/TusFJkx6F151otgzliu2?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4f21c97a354a",
+   "kind": "article",
+   "title": "Gartner 调研：仅 3% 企业通过 AI 实现节约成本、提高生产力目标",
+   "url": "https://www.ithome.com/1/019/207.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 28 日消息，据科技媒体 TechRadar 今天报道，尽管许多企业预计 AI 将带来深远影响，不惜为此砸下重金。但 Gartner 调研报告显示， 仅 3% 企业通过 AI 实现了提高生产力效率 、 降低运营成本等目标 。 IT之家从原报道了解到，有四分之三企业领导者预计，AI 将对技术领域产生重大影响。尽管其中 38% 的企业已经超出预算，仍有 85% 的企业计划在 2027 年增加 AI 支出。 Gartner 人力资源业务高级总监兼分析师 CV Viverito 对此表示：“归根结底，现阶段的企业还无法通过 AI 节约成本。更大的机遇在于利用 AI 完成过去无法实现的事情，例如将员工的时间投入到新能力建设、成果创造。” 展望未来，企业应将 AI 应用重点放在能够对关键领域产生切实影响的地方。该机构建议，企业应在整个组织内部普及 AI 知识，在发现新的应用场景并从相关改进中获益时，高管与基层员工同样重要。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-28T14:46:20+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/019/207.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Gartner：仅3%企业靠AI实现降本增效",
+   "summary_zh": "Gartner调研显示，尽管85%企业计划2027年前增加AI支出，仅3%真正实现降本增效目标，38%已超预算。",
+   "highlights_zh": [
+    "四分之三企业领导者预计AI将产生重大影响，但落地成效严重滞后",
+    "38%企业AI支出已超预算，85%仍计划2027年前继续加码",
+    "Gartner建议：机会在于用AI做过去做不到的事，而非单纯省钱"
+   ],
+   "why_zh": "给AI投入热潮泼冷水，是判断企业级AI落地节奏的关键参照数据。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-29",
+   "slot": "morning",
+   "selected_at": "2026-10-28T17:05:27+00:00",
+   "mirror_pdf": "pdf/web-4f21c97a354a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/019/207.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-66025876d758",
+   "kind": "article",
+   "title": "Beyond Automation at OpenAI",
+   "url": "https://tomtunguz.com/arvind-kc-office-hours/",
+   "pdf_url": "",
+   "abstract": "Arvind KC, Chief People Officer at OpenAI & former CIO at Palantir, joins Office Hours to discuss the future of the people function. Why efficiency is the wrong frame when model capability doubles every six months. How the people team democratizes AI by amplifying a company's most valuable capability rather than rebuilding the whole org. How span of control shifts from managing seven people to directing hundreds of agents. & why emotional intelligence becomes the leader's edge when intelligence is cheap.",
+   "authors": [
+    "Tomasz Tunguz"
+   ],
+   "orgs": [
+    "Tomasz Tunguz"
+   ],
+   "published": "2026-10-28T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Tomasz Tunguz",
+     "authority": 0.75,
+     "url": "https://tomtunguz.com/arvind-kc-office-hours/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Theory Ventures 创始人，AI 投资",
+   "title_zh": "OpenAI 谈超越自动化：当智能变便宜",
+   "summary_zh": "OpenAI 首席人力官 Arvind KC 认为，模型能力每半年翻倍时「提效」是错误框架，管理者将从带 7 人转向指挥数百个智能体，情商成为领导力关键。",
+   "highlights_zh": [
+    "效率视角在能力快速翻倍时失效",
+    "管理幅度从管人转向指挥智能体",
+    "人力团队的角色是放大而非重建组织"
+   ],
+   "why_zh": "组织形态随智能体普及而变的早期信号，偏管理视角",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 5.0,
+   "score": 0.52,
+   "date": "2026-10-29",
+   "slot": "morning",
+   "selected_at": "2026-10-28T17:05:27+00:00",
+   "mirror_pdf": "pdf/web-66025876d758.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://tomtunguz.com/arvind-kc-office-hours/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2de8871e8a65",
+   "kind": "article",
+   "title": "Anthropic巨亏背后，藏着行业什么秘密？",
+   "url": "https://www.tmtpost.com/8183803.html",
+   "pdf_url": "",
+   "abstract": "模型公司，估值寄生于基础设施供应商。",
+   "authors": [
+    "听筒Tech"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-28T13:21:46+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8183803.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic 巨亏背后：模型公司估值寄生于基础设施",
+   "summary_zh": "文章认为 Anthropic 亏损折射出模型公司的估值逻辑高度依赖基础设施供应商，商业模式承压。",
+   "highlights_zh": [
+    "模型公司亏损与算力成本结构挂钩",
+    "估值叙事依赖基础设施方",
+    "对 AI 商业模式可持续性提出质疑"
+   ],
+   "why_zh": "想理解模型公司财务结构与算力经济学的读者可参考。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-29",
+   "slot": "morning",
+   "selected_at": "2026-10-28T17:05:27+00:00",
+   "mirror_pdf": "pdf/web-2de8871e8a65.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8183803.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-86553eede8e7",
+   "kind": "article",
+   "title": "从 AI 服务器 PCB 到五轴机床，国产工业母机订单已排到明年二季度",
+   "url": "https://www.ithome.com/1/019/228.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 28 日消息，据央视财经今日报道，国产工业母机订单外溢，部分厂商的订单已经排到明年。 在江苏苏州一家工业母机企业的车间里，一台六轴 PCB 钻孔机已完成组装，正在做发货前的最后测试。企业相关负责人称，今年上半年公司 PCB 主要设备产量较去年同期大幅提高，其中先进系列设备的产量已超过去年全年的两倍，“订单已经排到明年第二季度”。 中国机床工具工业协会 8 月发布的数据显示，2026 年上半年我国机床工具行业完成营业收入 5309 亿元，同比增长 7.6%；利润总额 196 亿元，同比增长 110.8%。 PCB 钻孔机的排产紧张，直接源于 AI 算力基建对高多层板、高阶 HDI 板的加工需求。随着 AI 服务器层数增加、孔径缩小、厚径比上升，传统钻孔设备在精度和效率上逐步触顶。大族数控在 5 月的投资者关系活动中披露，其 CCD 六轴独立机械钻孔机搭载 3D 背钻及钻测一体技术，已通过下一代 AI 服务器 PCB 认证并在多家龙头企业量产。 高端五轴机床的排产情况比 PCB 钻孔机更为紧张。科德数控 2026 年上半年新签订单同比增速近 25%，截至 6 月末在手订单规模达 2.66 亿元，同比增长 64.53%，相关订单预计在 2026 年下半年至 2027 年上半年陆续交付。其五轴整机国产化率超过 90%，核心功能部件自主化率约 85%，自研 GNC62 数控系统国产化率超过 95%，已批量交付航空发动机整体叶盘加工。 在更通用的金属切削机床领域，纽威数控三季度单季营收 10.32 亿元，首次突破 10 亿元，同比增长 30.35%；截至 8 月底各类机床基本满产，合同负债与在建工程同步增长，反映订单饱满下的产能扩张正在进行。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-28T15:34:51+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/019/228.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI 服务器 PCB 需求外溢，国产工业母机订单排至明年二季度",
+   "summary_zh": "AI 算力基建拉动高多层 PCB 钻孔机与五轴机床需求，大族数控、科德数控等订单排产至明年，国产化率持续提升。",
+   "highlights_zh": [
+    "PCB 钻孔机订单已排到明年二季度，先进系列产量超去年全年两倍",
+    "科德数控在手订单同比增 64.53%，五轴整机国产化率超 90%",
+    "AI 服务器层数增加、孔径缩小，传统钻孔设备精度触顶"
+   ],
+   "why_zh": "从上游设备订单侧面印证 AI 算力基建的真实景气度。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-29",
+   "slot": "morning",
+   "selected_at": "2026-10-28T17:05:27+00:00",
+   "mirror_pdf": "pdf/web-86553eede8e7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/019/228.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d5987ae49f5f",
+   "kind": "article",
+   "title": "苹果 iOS 27.2 更新照片应用：共享相簿新增四项功能",
+   "url": "https://www.ithome.com/1/019/208.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 28 日消息，苹果于当地时间 10 月 26 日发布了最新的 iOS 27.2，为 iPhone 照片应用带来两项新改进，涉及共享相簿功能和 AI 生成或编辑图像的识别能力。 据 9to5mac 今日报道，用户现在可以编辑共享相簿中的照片说明和评论、避免重复添加照片，并在相簿即将到期前收到提醒；系统还新增了对 SynthID 数字水印的支持，以帮助识别使用生成式 AI 创建或修改的图像。 共享相簿是苹果照片应用中的照片和视频分享功能。升级至 iOS 27.2 后，用户可以修改已发布照片和视频的说明文字，也可以编辑评论。 此外，系统能够帮助用户避免向相簿重复添加相同照片，并在共享相簿即将到期时显示提醒，让参与者有机会提前保存其中的照片和视频。要使用这些功能，共享相簿需要升级至适用于 iOS 27 的版本。 另一项更新是支持 SynthID 水印，用于辅助识别图像是否由生成式工具创建或修改。SynthID 是谷歌开发的数字水印技术，可将人眼通常无法直接察觉的标记嵌入 AI 生成或编辑的内容中。用户不会看到传统意义上的可见水印，但可以通过支持该技术的检测工具检查图像是否包含相关标记。 根据苹果的更新说明，iOS 27.2 为照片应用和 Image Playground 图乐园增加了 SynthID 水印支持。不过，这并不意味着所有经过编辑的照片都会带有该标记。苹果此前仅表示，水印将覆盖大多数使用 Apple Intelligence 工具创建或编辑的图像。 相关阅读： 《 苹果 iOS 27.2 系统为 AI 生成图片加入 SynthID 隐藏水印 》 《 苹果 iOS 27.2 正式版国行“最重要专属功能”，可禁止 App 摇一摇跳转 》 《 苹果 Siri AI 即日起支持法语、日语、韩语等语言，繁体中文得等到年底前 》 《 苹果 iOS 27.2 更新汇总：增强 Siri AI，调整 Apple Music 品牌视觉等 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-28T14:48:26+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/019/208.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "苹果 iOS 27.2 照片应用支持 SynthID 水印识别",
+   "summary_zh": "iOS 27.2 为照片应用与 Image Playground 增加谷歌 SynthID 水印支持，可辅助识别 AI 生成或编辑图像。",
+   "highlights_zh": [
+    "照片应用与图乐园支持 SynthID 隐藏水印检测",
+    "水印覆盖大多数 Apple Intelligence 生成或编辑图像",
+    "共享相簿新增编辑说明、防重复添加与到期提醒"
+   ],
+   "why_zh": "头部终端厂商接入 AI 内容水印，是内容溯源的重要信号。",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-29",
+   "slot": "morning",
+   "selected_at": "2026-10-28T17:05:27+00:00",
+   "mirror_pdf": "pdf/web-d5987ae49f5f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/019/208.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-574a82d020b2",
+   "kind": "article",
+   "title": "字节辟谣\"群演数据喂大模型\"：严重失实！",
+   "url": "https://www.leiphone.com/category/industrynews/kw1tPKZvQauDl4UJ.html",
+   "pdf_url": "",
+   "abstract": "近日，有网络传言称\"横店与字节合作，将15万名群演的肖像和声音喂给字节大模型\"。字节豆包公关负责人刘星今日通过微博作出回应，表示该传言严重失实。 据介绍，此次引发讨论的项目为横店影视AI服务平台建设项目。刘星表示，该项目的初衷是希望建设一套影视行业的公共数字基础设施，把影视基地实景等资产做成高质量数据集，帮助剧组更高效地选景、筹备和拍摄，同时降低中小影视企业使用AI的门槛，让更多创作者有条件把作品做好。 针对传言中的关键疑问，刘星澄清了三点： 第一，火山引擎在该项目中仅是技术支持方，所有数据资产均归横店或授权方所有。 第二，项目中涉及任何个人的肖像和声音使用，都需要获得本人授权，不存在未经授权采集的情况。 第三，本项目所采集的数据不会用于训练字节大模型。 公开资料显示，横店影视AI服务平台建设项目目前处于中标阶段，将围绕影视行业数据集建设、配套技术平台等业务展开。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-28T09:16:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/kw1tPKZvQauDl4UJ.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "字节辟谣群演数据喂大模型：严重失实",
+   "summary_zh": "针对「横店 15 万群演肖像声音喂给字节大模型」的传言，豆包公关负责人回应称项目为影视 AI 公共数据基础设施，火山引擎仅提供技术支持，数据不用于训练字节大模型。",
+   "highlights_zh": [
+    "澄清数据资产归横店或授权方所有，个人肖像声音使用需本人授权",
+    "明确该项目采集数据不会用于训练字节大模型",
+    "项目目前处于中标阶段，围绕影视行业数据集与技术平台展开"
+   ],
+   "why_zh": "涉及训练数据合规与授权边界，可作为数据来源治理的行业参照。",
+   "tags": [
+    "数据与评测",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-10-29",
+   "slot": "morning",
+   "selected_at": "2026-10-28T17:05:27+00:00",
+   "mirror_pdf": "pdf/web-574a82d020b2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/kw1tPKZvQauDl4UJ.html"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "前沿模型竞争从单点能力转向多模型编排与成本控制",
+   "why": "微软Copilot harness支持跨模型切换，谷歌SDK加本地模型，模型层竞争外溢到调度层。",
+   "refs": [
+    "web-4b9ad4180246",
+    "web-cf21d96fecbd",
+    "web-34b0bf3f94c3"
+   ]
+  },
+  {
+   "trend": "智能体落地瓶颈从能力转向企业治理与工程底座",
+   "why": "Snowflake两文谈授权审计，逐际动力开源工程底座，Gartner显示仅3%企业见效。",
+   "refs": [
+    "web-a7ffdcfdf18f",
+    "web-97aafdd2c691",
+    "web-977b19418fd5",
+    "web-4f21c97a354a"
+   ]
+  },
+  {
+   "trend": "评测体系正被缩放律与忠实性指标重新定义",
+   "why": "SynthAPI推导工具调用缩放律，LRC揭示SOTA潜世界模型均不忠实，旧基准失效。",
+   "refs": [
+    "arxiv-2610.37648",
+    "arxiv-2610.37588",
+    "web-65e05126788d"
+   ]
+  },
+  {
+   "trend": "生成式UI与本地化推理让Token成本进入可规模化区间",
+   "why": "Instagram原生AI架构降Token成本33%，谷歌SDK本地化兼顾隐私与成本。",
+   "refs": [
+    "web-0181d28df3d0",
+    "web-cf21d96fecbd"
+   ]
+  },
+  {
+   "trend": "模型公司估值逻辑受基础设施成本与商业模式挤压",
+   "why": "Anthropic巨亏显示估值寄生于基础设施供应商，算力基建订单已外溢至工业母机。",
+   "refs": [
+    "web-2de8871e8a65",
+    "web-86553eede8e7"
+   ]
+  }
+ ]
+}
