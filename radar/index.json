@@ -1,12 +1,13 @@
 {
- "updated": "2026-10-29T04:41:55+00:00",
+ "updated": "2026-10-29T11:26:34+00:00",
  "days": [
   {
    "date": "2026-10-29",
-   "count": 37,
+   "count": 58,
    "slots": {
     "morning": 18,
-    "noon": 19
+    "noon": 19,
+    "evening": 21
    }
   },
   {
@@ -313,34 +314,34 @@
    }
   }
  ],
- "total": 1902,
+ "total": 1923,
  "last_run": {
-  "at": "2026-10-29T04:41:55+00:00",
-  "slot": "noon",
-  "candidates": 191,
-  "new": 60,
-  "stale": 85,
-  "judged": 60,
-  "selected": 19,
-  "mirrored": 16,
+  "at": "2026-10-29T11:26:34+00:00",
+  "slot": "evening",
+  "candidates": 164,
+  "new": 71,
+  "stale": 43,
+  "judged": 71,
+  "selected": 21,
+  "mirrored": 17,
   "by_category": {
    "观点": 2,
-   "技术": 4,
    "资讯": 12,
-   "项目": 1
+   "项目": 3,
+   "技术": 4
   },
   "by_source": {
-   "HF Daily Papers": 20,
-   "arXiv 新论文": 40,
-   "Hacker News": 5,
+   "HF Daily Papers": 26,
+   "arXiv 新论文": 20,
+   "Hacker News": 7,
    "量子位": 10,
-   "极客公园": 7,
-   "IT之家": 15,
-   "爱范儿": 11,
+   "极客公园": 2,
+   "IT之家": 10,
+   "爱范儿": 10,
    "少数派": 2,
-   "雷峰网": 17,
-   "钛媒体": 3,
-   "InfoQ 中文": 13,
+   "雷峰网": 14,
+   "钛媒体": 5,
+   "InfoQ 中文": 12,
    "Simon Willison": 1,
    "Nathan Lambert": 1,
    "Latent Space": 6,
@@ -351,13 +352,12 @@
    "科学空间": 1,
    "Hugging Face Blog": 3,
    "Google Research": 1,
-   "OpenAI": 5,
+   "OpenAI": 4,
    "Google DeepMind": 2,
    "NVIDIA": 2,
    "Microsoft": 1,
-   "Anthropic": 1,
-   "GitHub Trending": 12,
-   "GitHub 新项目": 8
+   "GitHub Trending": 11,
+   "GitHub 新项目": 9
   },
   "llm": true,
   "translated": 0
