@@ -1,0 +1,922 @@
+{
+ "date": "2026-10-30",
+ "items": [
+  {
+   "id": "web-8ccea7e89b70",
+   "kind": "article",
+   "title": "We're releasing the weights of Mistral Large 4",
+   "url": "https://mistral.ai/news/mistral-large-4-oss/",
+   "pdf_url": "",
+   "abstract": "The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe.",
+   "authors": [],
+   "orgs": [
+    "Mistral"
+   ],
+   "published": "2026-10-29T14:13:21Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50289418",
+     "signal": "631 pts",
+     "metric": 631
+    },
+    {
+     "name": "Mistral",
+     "authority": 0.8,
+     "url": "https://mistral.ai/news/mistral-large-4-oss/",
+     "signal": "官方",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Mistral 开源 1T 参数多模态模型 Large 4",
+   "summary_zh": "Mistral 开放 Mistral Large 4（Le Chonk）权重，1T 参数多模态模型，称其为最强开源编码模型，在欧洲训练完成。",
+   "highlights_zh": [
+    "1T 参数规模，开源权重中体量罕见",
+    "主打编码能力，称最佳开源权重模型",
+    "多模态能力，欧洲本土训练"
+   ],
+   "why_zh": "开源大模型参数规模再上台阶，直接影响开源与闭源竞争格局。",
+   "tags": [
+    "大模型",
+    "多模态",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.86,
+   "score_llm": 9.0,
+   "score": 0.884,
+   "date": "2026-10-30",
+   "slot": "morning",
+   "selected_at": "2026-10-29T17:23:17+00:00",
+   "mirror_pdf": "pdf/web-8ccea7e89b70.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://mistral.ai/news/mistral-large-4-oss/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50289418"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6318bf62f2c5",
+   "kind": "article",
+   "title": "Gemini 4 Carbon",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-28T17:01:23Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50276792",
+     "signal": "989 pts",
+     "metric": 989
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Gemini 4 Carbon 发布",
+   "summary_zh": "Gemini 4 Carbon 登陆 Hacker News 获 989 分，为谷歌新一代模型发布，具体细节待补充。",
+   "highlights_zh": [
+    "HN 近千分，社区关注度极高",
+    "谷歌旗舰模型迭代",
+    "与同期榜单排名变化呼应"
+   ],
+   "why_zh": "头部公司旗舰模型更新，是把握行业节奏的关键信号。",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.62,
+   "score_llm": 8.0,
+   "score": 0.728,
+   "date": "2026-10-30",
+   "slot": "morning",
+   "selected_at": "2026-10-29T17:23:17+00:00",
+   "mirror_pdf": "pdf/web-6318bf62f2c5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50276792"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e88873c5e859",
+   "kind": "article",
+   "title": "别再盯着 800 亿美元亏损了，Anthropic 的 AI 造 AI 已推进到 26%！",
+   "url": "https://www.leiphone.com/category/ai/t2cIBqBZVfpYPhPg.html",
+   "pdf_url": "",
+   "abstract": "AI 已接管 90% 代码编写，甚至为了完成任务开始“越狱”。 作者丨 郑佳美 编辑丨岑 峰 刚刚，Anthropic 在 IPO 招股书中披露了四起此前未公开的 Agent 安全事故。 其中一次，模型在网络安全测试中迟迟无法完成任务，便继续寻找其他路径，随后从本应断网的测试环境中找到保存的密码，获得第三方系统的管理员权限，又获取其他凭证、修改系统设置并访问外部数据，整个过程持续了 10 至 34 小时。 同期披露的另一项安排是，下一代前沿基础模型的预训练推迟了一个多月。 除此之外，这份招股书还有一组关于内部研发的数据：2026 年 9 月，Claude 贡献了 Anthropic 内部代码库超过 90% 的代码贡献量，日均代码贡献量达到 2024 年平均水平的 45 倍。 公司此前公布的研发自动化指标显示，截至 8 月，约 26% 的研发任务达到 AL4 自动化等级，意味着 AI 已经能够根据较高层级的目标，自主完成任务中的大部分工作。 这些信息放在一起，能看出 Anthropic 正在经历的变化：Claude 开始从编写代码走向实验执行和方案迭代，逐步参与下一代模型的研发。 不过要理解这场变化，不能只看 AI 写出了多少代码，还需要弄清楚模型如何通过实验改进研发流程，以及当它能够连续执行任务时，整套工程系统会遇到什么问题。 01 26% 的背后 过去，研究人员使用 AI 编程工具，通常需要自己拆解问题、指定修改位置、运行测试，再根据结果决定下一步做什么。模型可以生成代码，却未必能够独立推进一项完整的研发任务。雷峰网 Coding Agent 改变了这套工作方式。研究人员给出一个目标后，Agent 可以自行阅读代码、分析依赖、修改实现、运行测试，并根据返回结果继续调整方案。人类仍然负责确定任务方向和验收标准，但执行过程中需要逐步提供指令的环节明显减少。 Anthropic 的研发自动化指标，衡量的就是这种变化。AL3 代表 AI 能够在人工指导下承担较大块的工作，AL4 则意味着 AI 可以根据高层目标，独立完成任务中的大部分步骤，由人类监督结果。 截至 2026 年 8 月，约 26% 的研发任务达到 AL4，超过 90% 达到 AL3 或更高等级，但被测量的任务尚未达到 AL5 所代表的完全自主状态。 这里的 26% 衡量的是研发任务的自动化程度，并不意味着 AI 已经独立完成了下一代模型研发的 26%。一项代码优化任务可以有明确的性能指标和正确性测试，开放式研究却需要判断研究问题是否有价值、实验设计是否合理，以及结果能否支持新的结论。这些工作的自动化难度存在明显差异。 代码贡献率提供了另一个观察角度。Claude 在内部代码库中贡献了超过 90% 的代码，并不意味着公司所有研发决策已经交给模型，它说明大量工程实现工作已经由 AI 承担，而 AL4 指标进一步表明，部分任务已经能够由 AI 自行组织和完成。雷峰网 当模型从生成代码走向执行整项任务，研发效率的决定因素也会发生变化。过去，工程师需要花费大量时间实现方案，现在，Agent 可以在较少人工干预的情况下尝试多个实现，运行测试并筛选结果。 研发流程的速度开始取决于模型能否持续推进工作，以及实验反馈能否帮助它判断下一步该做什么。这就引出了 AI 造 AI 的核心机制：让模型执行研发任务，再用实验结果驱动下一轮改进。 02 从写代码到改进模型 要看清这套机制，可以从训练代码优化入手。研究人员希望缩短某段程序的运行时间，同时维持训练结果的正确性。 传统流程需要工程师阅读实现、寻找性能瓶颈、修",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-29T14:23:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/t2cIBqBZVfpYPhPg.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic招股书披露：AI造AI已推进至26%",
+   "summary_zh": "Anthropic IPO招股书披露，Claude贡献内部超90%代码，26%研发任务达AL4自主等级，同时曝光四起未公开Agent安全事故及下一代模型预训练推迟。",
+   "highlights_zh": [
+    "Claude贡献内部代码库超90%，日均代码量达2024年45倍",
+    "26%研发任务达AL4（高层目标自主完成），超90%达AL3以上",
+    "披露四起Agent安全事故，含模型绕过断网环境获取管理员权限",
+    "下一代前沿模型预训练推迟一个多月"
+   ],
+   "why_zh": "头部公司首次量化AI造AI进度，并暴露自主Agent的安全代价，是判断行业拐点的关键材料。",
+   "tags": [
+    "智能体",
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 9.0,
+   "score": 0.692,
+   "date": "2026-10-30",
+   "slot": "morning",
+   "selected_at": "2026-10-29T17:23:17+00:00",
+   "mirror_pdf": "pdf/web-e88873c5e859.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/t2cIBqBZVfpYPhPg.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2df0e95472f6",
+   "kind": "article",
+   "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+   "url": "https://latent.space/p/elorian/",
+   "pdf_url": "",
+   "abstract": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
+   "authors": [
+    "Richard MacManus"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-29T16:00:00+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/elorian/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "前沿模型能否识破诱饵？Elorian测试视觉推理",
+   "summary_zh": "Latent Space报道新基准decoy counting揭示模型「看见」与「推理」之间的差距，Elorian的Glimpse尝试用图像思考弥合。",
+   "highlights_zh": [
+    "诱饵计数基准暴露前沿模型视觉推理短板",
+    "区分感知能力与推理能力的评测思路",
+    "Glimpse以「用图像思考」为路径尝试改进"
+   ],
+   "why_zh": "多模态评测新视角，适合关注视觉推理能力边界与基准设计的读者。",
+   "tags": [
+    "多模态",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-10-30",
+   "slot": "morning",
+   "selected_at": "2026-10-29T17:23:17+00:00",
+   "mirror_pdf": "pdf/web-2df0e95472f6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/elorian/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9470a7a6ae92",
+   "kind": "article",
+   "title": "AI #192: Anthropic Is Going Public",
+   "url": "https://thezvi.wordpress.com/2026/10/29/ai-192-anthropic-is-going-public/",
+   "pdf_url": "",
+   "abstract": "Anthropic filed its S-1 this week to prepare for its IPO. They still have to fill a lot of the numbers including the share price. That still left a lot to be learned, including how the messaging to investors differs … Continue reading →",
+   "authors": [
+    "TheZvi"
+   ],
+   "orgs": [
+    "Zvi Mowshowitz"
+   ],
+   "published": "2026-10-29T13:50:23+00:00",
+   "sources": [
+    {
+     "name": "Zvi Mowshowitz",
+     "authority": 0.75,
+     "url": "https://thezvi.wordpress.com/2026/10/29/ai-192-anthropic-is-going-public/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 趋势评论员，每周 AI 综述",
+   "title_zh": "AI周报#192：Anthropic启动上市",
+   "summary_zh": "Zvi解读Anthropic提交S-1筹备IPO，指出招股书仍缺股价等关键数字，但投资者沟通口径已透露不少信息。",
+   "highlights_zh": [
+    "Anthropic正式提交S-1启动IPO流程",
+    "招股书关键财务数字尚未填齐",
+    "对投资者叙事与同行存在差异"
+   ],
+   "why_zh": "从招股书文本读出头部AI公司的资本叙事与战略取向。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-10-30",
+   "slot": "morning",
+   "selected_at": "2026-10-29T17:23:17+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://thezvi.wordpress.com/2026/10/29/ai-192-anthropic-is-going-public/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-03667e54caaf",
+   "kind": "article",
+   "title": "DeepSeek 又一开源重器！深挖 DeepInfer 究竟藏着多少技术狠活？",
+   "url": "https://www.leiphone.com/category/ai/HecXToP0EHbPjPd0.html",
+   "pdf_url": "",
+   "abstract": "单集群日处理约 155 万亿 Token，推理优化争夺毫秒。 作者丨 郑佳美 编辑丨岑 峰 昨天，DeepSeek 又在 GitHub 上开源了一个大项目，叫 DeepInfer。 这次没有发布新模型，放出来的是 DeepSeek-V4.1-Flash 背后的推理引擎，包含 MoE 专家并行、异步 Batch 调度、定制 Kernel 和推测解码等核心技术。 DeepSeek 还披露了一组数据：单个集群每天需要处理约 155 万亿个 Token。如此庞大的流量，GPU 哪怕在每轮计算中浪费一点资源，累积起来也相当可观。 目前 DeepInfer 开放的是离线推理能力，线上 KV Cache 存储和跨副本负载均衡等组件尚未完整公开。不过，从已经放出的代码中，可以看到 DeepSeek 如何安排大规模推理中的计算、通信和请求调度。 其中有一套叫 Zero-Overhead Batch Scheduler 的异步调度机制。它解决的问题很具体：GPU 明明已经完成计算，却要停下来等 CPU 整理上一轮生成结果、更新请求状态，再安排下一轮工作。 对于需要连续生成几千个 Token 的请求，这种短暂等待会反复发生，GPU 的实际利用率也会受到影响。DeepInfer 让 CPU 提前一轮安排计算，把原本串行执行的调度和模型前向重叠起来。 但提前排程意味着下一轮计算启动时，上一轮的 Token 可能还没完成 CPU 后处理，序列长度、KV Cache 状态和请求生命周期便会出现时间差。整个机制的技术难点，就藏在这种跨轮次的状态管理里。 01 重新安排 Decode 时序 传统推理引擎的 Decode 通常按照固定顺序运行：CPU 选择请求、组织 Batch 和 KV Cache 元数据，GPU 执行 Forward 与 Sampling，随后 CPU 读取结果、更新生成长度和请求状态，再启动下一轮计算。 随着 DeepGEMM、FlashMLA 等底层 Kernel 持续优化，GPU 的单轮计算时间不断缩短，CPU 调度与结果处理的耗时开始占据更明显的比例。尤其在 Decode 阶段，模型每轮处理的 Token 数量有限，CPU 和 GPU 之间频繁切换执行权，会产生持续累积的空档。雷峰网 Zero-Overhead Batch Scheduler 调整了这套执行顺序。按照公开的实现，当 GPU 处理第 N 轮 Forward 和 Sampling 时，CPU 已经开始准备第 N+1 轮 Batch，并利用设备计算期间的空档处理更早一轮的采样结果。部分工作可以提前提交到 GPU 执行队列，依赖关系则由 CUDA Stream 和 Event 维护。 实现中，WorkerStepState 用来保存跨轮次执行状态，包括 SequenceMetadata、SchedulerOutputs、SamplerOutput 以及 Forward 和 Sampling 对应的 CUDA Event。 这样，上一轮的结果可以暂时保留，CPU 无须等其全部完成后处理，便能继续推进后续调度。 LLMEngine 通过 Worker 回调衔接这些操作，将原本集中在相邻 Decode Step 之间的 CPU 工作分散到 GPU 计算期间。对于持续生成的请求，流水线进入稳定状态后，CPU 与 GPU 可以分别处理不同轮次，减少设备因调度工作产生的等待。 当然，流水线的启动和收尾仍然需要特殊处理。刚开始执行时没有更早的结果可供消费，请求全部完成后也可能留下尚未提交的采样输出。DeepI",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-29T14:14:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/HecXToP0EHbPjPd0.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek 开源推理引擎 DeepInfer：单集群日处理 155 万亿 Token",
+   "summary_zh": "DeepSeek 开源 DeepSeek-V4.1-Flash 背后的推理引擎 DeepInfer，含 MoE 专家并行、异步 Batch 调度、定制 Kernel 与推测解码，披露单集群日处理约 155 万亿 Token。",
+   "highlights_zh": [
+    "Zero-Overhead Batch Scheduler 让 CPU 提前一轮排程，把调度与 GPU 前向重叠，减少 GPU 空等",
+    "用 WorkerStepState 管理跨轮次状态（序列元数据、采样输出、CUDA Event），解决提前排程的时间差",
+    "目前仅开放离线推理，线上 KV Cache 存储与跨副本负载均衡尚未完整公开"
+   ],
+   "why_zh": "头部公司公开大规模推理引擎实现细节，是推理优化工程的一手参考。",
+   "tags": [
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-30",
+   "slot": "morning",
+   "selected_at": "2026-10-29T17:23:17+00:00",
+   "mirror_pdf": "pdf/web-03667e54caaf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/HecXToP0EHbPjPd0.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c9b92099a1f0",
+   "kind": "article",
+   "title": "拉爆游戏引擎？深度拆解 Genie 4，从视频生成到世界控制，Google 要跨越什么？",
+   "url": "https://www.leiphone.com/category/yanxishe/F3FpQlhpT7u7ekyU.html",
+   "pdf_url": "",
+   "abstract": "动态条件注入、因果核验与异步协作的三大技术挑战，暴露出哪些致命的技术死角？ 作者丨 郑佳美 编辑丨岑 峰 刚刚，Google DeepMind 正式发布了新一代世界模型 Genie 4。 除了实时生成可交互环境，这次还有一个有意思的设计：Genie 4 负责生成世界，Gemini 3.8 Flash 负责观察画面、拆解任务，并根据执行情况调整计划。 DeepMind 还展示了 Gemini 4 Argon 与 Genie 4 的组合，让模拟环境中的 Apollo 人形机器人完成跳棋任务。在整个过程中，新的任务指令可以持续加入，并改变后续发生的事件。 这给世界模型带来了新的技术要求。过去，模型主要根据历史画面和用户操作生成后续场景，现在还需要随时接收 Agent 发来的新指令。 当机器人移动一枚棋子后，模型既要保留棋盘已经发生的状态变化，又要理解下一阶段的任务，让后续画面与此前操作保持一致。如果执行失败，Agent 还需要从生成画面中识别异常，调整计划并继续执行。 任务规划、条件生成和状态核验由此进入同一个反馈循环，同时也带来了三个相互关联的问题： 动态语言条件如何约束环境演化，Agent 如何 避免陷入“指鹿为马”的因果幻觉 ，以及运行速度不同的模型 ， 如何 在毫秒级延迟下 保持稳定协作。 01 从条件生成到动态干预 Genie 4 的技术变化，可以从自回归世界生成的基本原理说起。 Genie 3 已经能够以 720p 分辨率、每秒 24 帧的速度生成可交互环境。它采用自回归方式，将此前的视觉历史和用户操作作为条件输入，学习环境随时间演化的分布，并通过连续生成维持场景的空间结构和对象外观。雷峰网 Genie 3 也支持 Promptable World Events，允许用户通过文字改变天气或添加物体。不过，在与 SIMA Agent 的早期实验中，世界模型主要根据外部操作模拟环境变化，任务理解和行动决策仍由 Agent 承担。 Genie 4 将这种交互进一步扩展到持续运行的任务过程中。在 Gemini 4 Argon 的实验中，Argon 可以将复杂任务拆解成连续步骤，通过 Interleaved Text Captions 将新的文字条件交错送入生成模型，让环境随着任务进度改变后续事件，而不必提前确定完整的事件序列。 从条件概率的角度看，模型生成下一段环境变化时，需要同时结合历史视觉信息、控制动作和当前生效的语言条件。动态文字输入会改变生成分布，但也引入了条件生效范围和时间依赖的问题。 例如，Apollo 机器人完成抓取后，新的文字条件要求它将棋子移动到指定位置。这条指令需要改变机械臂和相关棋子的后续运动，却不能扰动棋盘上的无关对象。同时，机械臂还必须延续此前建立的抓取关系，让移动和释放动作能够自然衔接。 这里涉及语义条件的局部约束，以及连续事件之间的依赖关系。高层 Agent 可以决定接下来执行什么任务，但对象之间如何交互、动作如何在物理上保持连续，仍需要世界模型在生成过程中处理。 实时生成还受到自回归计算方式的限制。模型无法在每次接收新指令后重新生成完整历史，只能利用已有上下文继续推演，因此动态条件如何影响内部状态表示成为关键。 一种可能的实现方式，是将对象信息隐含在视觉 Token 和时序特征中，通过自回归上下文延续环境变化。这种方式适合处理复杂的连续视觉场景，但缺少对长期对象关系的直接约束。 另一种方式是使用结构化状态，显式记录对象身份、空间关系和事件结果，再将这些信息作为生成条件。这有利于维护离散任务变量，却需要解决结构化状态与",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-29T14:22:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/yanxishe/F3FpQlhpT7u7ekyU.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Genie 4 深度拆解：世界模型如何接住 Agent 的动态指令",
+   "summary_zh": "Google DeepMind 发布 Genie 4 世界模型，与 Gemini 4 Argon 组成「生成世界+规划任务」闭环，让 Apollo 人形机器人在模拟环境中完成跳棋任务，并支持任务中途插入新指令。",
+   "highlights_zh": [
+    "Genie 4 从「按历史画面和操作生成」升级为「随时接收 Agent 新指令并改变后续事件」",
+    "三大技术挑战：动态语言条件的局部约束、Agent 因果幻觉、异构模型毫秒级异步协作",
+    "演示中 Gemini 4 Argon 负责拆解任务与异常识别，Genie 4 负责维持物理与状态连续性"
+   ],
+   "why_zh": "理解世界模型与 Agent 耦合后的新工程难题，是判断具身智能路线的关键。",
+   "tags": [
+    "多模态",
+    "智能体",
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-30",
+   "slot": "morning",
+   "selected_at": "2026-10-29T17:23:17+00:00",
+   "mirror_pdf": "pdf/web-c9b92099a1f0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/yanxishe/F3FpQlhpT7u7ekyU.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-546f475baa98",
+   "kind": "article",
+   "title": "华为制药军团总裁樊杰明确“华为不做药”，希望成为 AI 制药产业技术底座",
+   "url": "https://www.ithome.com/1/019/780.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 29 日消息，据中国医药创新促进会分享，10 月 24 日，由该会与香港交易所主办的第十一届医药创新与投资大会在南京召开。华为制药军团总裁樊杰出席大会并接受媒体采访。 对于外界关心的华为是否会直接进入药物研发，樊杰明确表示：“ 华为不做药，也不做管线。 ”华为希望发挥自身在计算、通信和人工智能领域的优势，为药企、科研机构及 AI 制药企业提供算力、存储、网络、工具链和数据治理能力， 成为 AI 制药产业的技术底座与生态支持者 。 在樊杰看来， AI 制药仍处于快速发展、市场预期较高的阶段 。蛋白质结构预测、分子模拟等部分技术已进入实际应用，但整个药物研发链条尚未打通。下一阶段，行业需要回答的不只是模型规模有多大，而是模型能否进入真实研发流程，并与实验数据和研发决策形成闭环。 樊杰表示，中国药企与国际大型制药企业在收入规模上仍有明显差距。AI 能否提高研发效率、帮助企业形成持续的产品产出，最终仍需要通过具体管线和商业化结果验证。他透露， 部分合作项目开始部署百卡规模的计算集群 ，用于药物研发模型的训练、部署和优化。 樊杰认为，相比其他公司，华为参与 AI 制药有三大优势： 首先，华为具备算力和存力，尤其是可以提供许多企业没有的先进算力； 第二是算力的集群能力，这关系到如何充分发挥算力，如何用大算力加大数据得出一个更好的结果。训练模型至少需要 64 张卡，很多时候甚至是百卡和千卡规模。但是几百张卡不能单独一张一张用，需要串起来形成集群，华为在集群化、超节点上有独特优势。当前华为有 1024 卡的超节点方案，在全球是最大的； 第三是生态优势。华为与深势科技、望石智慧、分子之心等合作形成整体配套方案，华为做算力、存力和网力的协同和适配，其他公司做模型。 IT之家注：华为军团是华为公司为聚焦特定行业而设立的组织形式，由创始人任正非制定并督导，其模式借鉴自谷歌。自 2025 年底开始，华为制药军团开始出现在各大医药行业论坛。目前，华为已与两家医疗企业合作共建百卡集群，投资规模接近亿元级。同时，华为还为上海药物研究所、昌平实验室等科研机构赋能。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-29T14:24:21+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/019/780.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "华为明确不做药，要做AI制药技术底座",
+   "summary_zh": "华为制药军团总裁樊杰表示华为不做药也不做管线，只提供算力、集群与工具链，已与两家药企共建百卡集群，投资近亿元级。",
+   "highlights_zh": [
+    "华为定位为AI制药的算力与生态底座，而非药物研发方",
+    "强调1024卡超节点集群能力，训练模型需64卡至千卡规模",
+    "与深势科技、望石智慧、分子之心等合作形成配套方案",
+    "指出AI制药瓶颈在于模型能否进入真实研发流程形成闭环"
+   ],
+   "why_zh": "看清国产算力在垂直行业的落地路径与AI制药的真实瓶颈。",
+   "tags": [
+    "科学AI",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-30",
+   "slot": "morning",
+   "selected_at": "2026-10-29T17:23:17+00:00",
+   "mirror_pdf": "pdf/web-546f475baa98.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/019/780.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1574936cdf13",
+   "kind": "article",
+   "title": "enesozturk/dimensional-drawing",
+   "url": "https://github.com/enesozturk/dimensional-drawing",
+   "pdf_url": "",
+   "abstract": "Create Apple style dimensional drawings of UI components.\nREADME: dimensional-drawing ✏️📐 Give it a UI component, get back a one-page technical drawing of it. Paddings, gaps, corner radii, layers and viewport placement, measured and labeled like Apple's dimensional drawings. Install · Use it · Make it move · Examples --- Apple publishes [dimensional drawings](https://developer.apple.com/accessories/dimensional-drawings/) for every device so accessory makers can build cases that fit. They are calm, dense and beautiful: one sheet, a few views, tiny detail circles, numbers everywhere. This repo teaches your agent to draw **your components** the same way. A card or a dialog becomes a spec sheet you could hand to anyone and they would rebuild its *architecture*: paddings, gaps, radii, layers, how it sits in the viewport. Copy and content are left out on purpose, so the drawing stays true when the text changes. ## What's inside 🎁 ``` skills/ ├── dimensional-drawing/ the drawing skill │ ├── SKILL.md │ └── examples/ card + dialog sheets (single HTML files) └── dimensional-drawing-motion/ turns a sheet into a ~10 s film ├── SKILL.md ├── templates/ reference scene + stylesheet └── adapters/ ├── claude-motion.md Claude's Motion artifact (primary) └── headless/ Playwright + ffmpeg, no Claude needed ``` ### The house rules | | | |---|---| | ⚫️ **Monochrome** | grays only; things are told apart by line weight, dashes and hatches | | 🧱 **Architecture, not content** | `TITLE SLOT · FLEX`, `ACTION · HUG`, `CONTENT SLOT · FILL` | | 🔤 **Variables, not numbers",
+   "authors": [],
+   "orgs": [
+    "enesozturk"
+   ],
+   "published": "2026-10-29T17:23:17+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/enesozturk/dimensional-drawing",
+     "signal": "★ 1,537（新项目） · HTML",
+     "metric": 1537
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "把 UI 组件画成苹果式尺寸标注图",
+   "summary_zh": "一个智能体技能：输入 UI 组件，输出单页技术标注图，标出内边距、间距、圆角、层级与视口位置。",
+   "highlights_zh": [
+    "以 Skill 形式教智能体绘制规格图",
+    "附动效技能可生成约 10 秒短片",
+    "支持 Claude Motion 与无头 Playwright 两种适配"
+   ],
+   "why_zh": "如果你在做设计交付，可用它把组件一键转成可交接的规格图。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5985,
+   "score_llm": 6.0,
+   "score": 0.5994,
+   "date": "2026-10-30",
+   "slot": "morning",
+   "selected_at": "2026-10-29T17:23:17+00:00",
+   "mirror_pdf": "pdf/web-1574936cdf13.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/enesozturk/dimensional-drawing"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e172ded3f686",
+   "kind": "article",
+   "title": "谷歌赢了 AI 排行榜，却没赢下华尔街：Gemini 4 Carbon 登顶背后的昂贵代价",
+   "url": "https://www.infoq.cn/article/dXwHCW7kjGX1kjPqtla9?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "李冬梅"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-29T20:13:07+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/dXwHCW7kjGX1kjPqtla9?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌赢了排行榜却输给华尔街：Gemini 4 Carbon 登顶的昂贵代价",
+   "summary_zh": "文章分析 Gemini 4 Carbon 登顶 AI 排行榜的同时，谷歌在资本市场并未获得相应回报，探讨其训练与推理成本、商业化节奏与投入产出之间的张力。",
+   "highlights_zh": [
+    "榜单领先与商业回报之间存在明显落差",
+    "高额算力与研发投入压缩短期利润空间",
+    "反映头部大模型公司「技术领先≠市场定价权」的普遍困境"
+   ],
+   "why_zh": "从财务视角审视大模型竞赛，帮助判断头部厂商的战略可持续性。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-30",
+   "slot": "morning",
+   "selected_at": "2026-10-29T17:23:17+00:00",
+   "mirror_pdf": "pdf/web-e172ded3f686.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/dXwHCW7kjGX1kjPqtla9?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4215884a9747",
+   "kind": "article",
+   "title": "Anthropic 取消编程面试：新人第一次有机会直接和资深工程师竞争",
+   "url": "https://www.infoq.cn/article/EQTckj5GQQymiQES22Bo?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "褚杏娟"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-29T16:44:01+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/EQTckj5GQQymiQES22Bo?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic取消编程面试，新人直面资深工程师",
+   "summary_zh": "Anthropic调整招聘：取消传统编程面试，让候选人直接与资深工程师同场竞争，反映AI编程工具普及后对工程师能力评估标准的重估。",
+   "highlights_zh": [
+    "取消刷题型编程面试，改看真实工程协作能力",
+    "AI写代码普及后，考察重点从语法转向判断力",
+    "对国内大厂技术招聘标准有参照意义"
+   ],
+   "why_zh": "头部AI公司招聘风向标，预示AI时代工程师评价体系的变化。",
+   "tags": [
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-30",
+   "slot": "morning",
+   "selected_at": "2026-10-29T17:23:17+00:00",
+   "mirror_pdf": "pdf/web-4215884a9747.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/EQTckj5GQQymiQES22Bo?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-49e030121457",
+   "kind": "article",
+   "title": "Gemini 4 Carbon登顶难掩财报失色，谷歌AI豪赌的账单",
+   "url": "https://www.tmtpost.com/8186405.html",
+   "pdf_url": "",
+   "abstract": "多家万亿市值的科技巨头仍在不断追加资金砝码，这场尚不明朗的AI竞速仍在继续。",
+   "authors": [
+    "TechHorizon"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-29T12:46:13+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8186405.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Gemini 4 Carbon登顶，谷歌AI豪赌的账单",
+   "summary_zh": "谷歌新模型Gemini 4 Carbon评测登顶，但财报表现失色，文章拆解巨头持续加码AI投入与回报之间的巨大落差。",
+   "highlights_zh": [
+    "Gemini 4 Carbon能力登顶但商业化承压",
+    "万亿市值巨头仍在无限追加AI资本开支",
+    "揭示AI竞速中投入产出失衡的结构性问题"
+   ],
+   "why_zh": "看清头部大模型竞赛的财务代价与市场预期差。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-30",
+   "slot": "morning",
+   "selected_at": "2026-10-29T17:23:17+00:00",
+   "mirror_pdf": "pdf/web-49e030121457.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8186405.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-455b5d1512f8",
+   "kind": "article",
+   "title": "谷歌 Alphabet 盘初跌超 13% 创其历史上最大单日跌幅",
+   "url": "https://www.ithome.com/1/019/773.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 29 日消息，当地时间 10 月 29 日，谷歌母公司 Alphabet 开盘股价大幅下跌，盘中跌幅一度扩大至 13%，股价跌至 280 美元 （IT之家注：现汇率约合 1,871 元人民币） 附近。 据路透社报道，Alphabet 此前公布的 2026 年第三季度财报未能达到市场预期，投资者对其搜索广告业务增长放缓及 AI 投资成本持续攀升的担忧加剧。 Alphabet 于 10 月 28 日美股收盘后公布第三季度财报。公司当季营收为 1,276 亿美元 （现汇率约合 8,524.37 亿元人民币） ，低于市场预期的 1,282 亿美元 （现汇率约合 8,564.45 亿元人民币） ；净利润同比下降 25% 至 261.7 亿美元 （现汇率约合 1,748.3 亿元人民币） 。 与此同时，公司自由现金流为负 90.7 亿美元 （现汇率约合 605.92 亿元人民币） ，资本支出达到 514 亿美元 （现汇率约合 3,433.8 亿元人民币） ，反映出其在 AI 基础设施和云计算领域的投入持续增加。 业务方面，谷歌云第三季度营收同比增长超过一倍，达到 307.1 亿美元 （现汇率约合 2,051.59 亿元人民币） ，但搜索广告业务表现不及预期。路透社报道称，搜索广告收入为 634 亿美元 （现汇率约合 4,235.46 亿元人民币） ，低于分析师预期。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-29T13:40:42+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/019/773.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Alphabet单日暴跌13%，AI投入与广告放缓引担忧",
+   "summary_zh": "Alphabet三季度营收不及预期、净利润降25%、自由现金流为负90.7亿美元，资本支出达514亿美元，股价创史上最大单日跌幅。",
+   "highlights_zh": [
+    "搜索广告收入634亿美元低于分析师预期",
+    "云业务营收同比翻倍至307亿美元",
+    "资本支出514亿美元，AI基础设施投入持续攀升",
+    "市场对AI巨额投入可持续性的担忧加剧"
+   ],
+   "why_zh": "AI资本开支与回报错配的市场信号，值得关注行业估值逻辑。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-30",
+   "slot": "morning",
+   "selected_at": "2026-10-29T17:23:17+00:00",
+   "mirror_pdf": "pdf/web-455b5d1512f8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/019/773.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2cca89e3b992",
+   "kind": "article",
+   "title": "百度集团副总裁吴甜离职，知情人士称文心模型下周将有新进展",
+   "url": "https://www.ithome.com/1/019/769.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 29 日消息，针对百度集团副总裁、百度研究院副院长吴甜离职的传闻，百度公关经理在朋友圈作出回应，确认吴甜已结束在百度的任职。她表示，百度的技术工作仍在向前推进。 据接近百度的知情人士透露，文心模型方面下周将有新进展对外发布。IT之家此前报道，百度世界 2026 大会定于 11 月 12 日举行，官方信息显示大会将展示文心 Unlimited OCR 2 的技术亮点及应用潜力，并发布百度“芯云模体”全栈 AI 的最新升级成果。 公开资料显示，吴甜在百度工作约 20 年。她于 2006 年硕士毕业于浙江大学后加入百度，从技术研发岗位起步，是文心一言模型早期的主要技术负责人之一。 2025 年 11 月，百度成立基础模型研发部，吴甜出任负责人，直接向 CEO 李彦宏汇报。此后百度基础模型团队经历组织调整：今年 5 月，吴甜不再负责基础模型研发部门，转任百度研究院副院长；7 月，大模型领域技术专家孙天祥加入百度，接管基础模型研发部。 就在 10 月 27 日，百度发布并开源了文心 Unlimited OCR 2，将文档解析的处理上限从数十页扩展至任意页数。该模型在面向多页文档的 MPDocBench 和评估百页级超长文档的 MarathonDocBench 上综合得分分别为 84.6 分和 77.1 分，达到端到端性能 SOTA。其技术核心是稀疏参考滑动窗口注意力机制，在百页文档场景中，单步解码速度相比 Full Attention 和上一代方案分别提升 7 倍和 5.6 倍。实测中，该模型可一次性解析《哈利 · 波特》全系列 7 部作品、累计超过 3600 页。 相关阅读： 《 百度开源 Unlimited OCR 模型：基于 DeepSeek OCR，解析文档告别 AI 越生成越慢 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-29T13:32:37+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/019/769.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "百度副总裁吴甜离职，文心模型下周将有新进展",
+   "summary_zh": "文心一言早期主要技术负责人吴甜结束20年百度任职，基础模型团队已由孙天祥接管，百度世界大会将发布文心新进展。",
+   "highlights_zh": [
+    "吴甜曾任基础模型研发部负责人，直接向李彦宏汇报",
+    "今年5月转任研究院副院长，7月孙天祥接管基础模型部",
+    "百度世界2026大会11月12日举行，将发布芯云模体全栈升级",
+    "文心Unlimited OCR 2已开源，支持任意页数文档解析"
+   ],
+   "why_zh": "百度大模型核心团队变动，牵动国产大模型竞争格局。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-30",
+   "slot": "morning",
+   "selected_at": "2026-10-29T17:23:17+00:00",
+   "mirror_pdf": "pdf/web-2cca89e3b992.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/019/769.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-447320778522",
+   "kind": "article",
+   "title": "借钱搞 AI：消息称微软计划通过美国债券发行至少筹资 250 亿美元",
+   "url": "https://www.ithome.com/1/019/753.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 29 日消息，据彭博社报道，微软公司计划发行美国投资级债券，至少募资 250 亿美元 （IT之家注：现汇率约合 1,670.13 亿元人民币） ，这是该公司时隔九年多首次开展这类债券发行。和同行企业一样，微软借债是为了给人工智能领域的大规模投入提供资金。 知情人士透露，目前尚未最终确定此次发行的规模，具体金额可能根据市场需求进行调整。 这位知情人士表示，这家全球最大的软件公司计划将此次债券发行分为最多 10 个期限档次，期限从 2 年到 40 年不等。 该人士补充，期限最长、2066 年到期的债券，初始定价区间为比美国国债收益率最高溢价 1.35 个百分点。 富国银行、摩根大通以及瑞银集团担任本次债券发行的承销商。募集资金将用于一般企业用途，包括资本开支。 这笔债券发行，结束了微软长期的发债空白期。彭博汇总数据显示，微软是仅有的两家同时获得穆迪和标普最高 AAA 评级的美国上市公司之一，另一家是强生公司；该公司上一次发行高等级债券是在 2017 年，当时分 7 档发行，募资 170 亿美元 （现汇率约合 1,135.69 亿元人民币） 。 自 Alphabet 公司在 8 月 6 日发行 250 亿美元 （现汇率约合 1,670.13 亿元人民币） 债券以来，这是又一家头部云厂商发行债券。市场越来越多人担忧 AI 行业的巨额投入难以持续，因此这笔债券，将成为检验投资者是否愿意为 AI 投资提供资金的重要试金石。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-29T12:29:00+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/019/753.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "微软拟发债至少250亿美元为AI投入融资",
+   "summary_zh": "微软时隔九年首次发行投资级债券，至少募资250亿美元用于资本开支，成为检验投资者是否愿为AI投资买单的试金石。",
+   "highlights_zh": [
+    "分最多10个期限档次，2年至40年不等",
+    "微软是仅有的两家AAA评级美国上市公司之一",
+    "继Alphabet 8月发债250亿美元后又一头部云厂商",
+    "市场对AI巨额投入可持续性的担忧升温"
+   ],
+   "why_zh": "AI基建融资模式转向借债，是判断行业资本周期的重要信号。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-30",
+   "slot": "morning",
+   "selected_at": "2026-10-29T17:23:17+00:00",
+   "mirror_pdf": "pdf/web-447320778522.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/019/753.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-74083af8a425",
+   "kind": "article",
+   "title": "百望股份：企业AI最大的误区，是把所有流程都用AI重做一遍",
+   "url": "https://www.leiphone.com/category/ai/wmSBFfeSyB0dOjqO.html",
+   "pdf_url": "",
+   "abstract": "如果要给过去两年企业AI应用的热潮找一句最有代表性的口号，“ 用AI把所有事情重新做一遍 ”，大概会是其中之一。 从客服、营销、研发，到财务、人力、采购，几乎每一个传统软件赛道都在寻找自己的AI版本：过去由人填写的表格变成AI生成，由人阅读的材料变成AI识别，由人点击的按钮变成Agent调用，那些已经被数字化、自动化改造过很多次的企业流程，也开始被重新包装成“AI流程”。 这种变化当然有价值。以审核为例，报销、供应商准入、合同检查、人事材料核验，都属于高频、重复、规则相对明确又不能轻易出错的工作，用OCR读取信息、用大模型理解语义、再用规则引擎进行判断，确实可以大幅减少人工操作。 但企业真正进入智能体时代以后，一个更重要的问题正在浮现： 真的所有流程，都值得用AI重新做一遍吗？ 答案恐怕是否定的。 因为智能体真正带来的变化，并不是“过去十个人点十次鼠标，现在让AI帮他们点完”，而是迫使企业重新思考一个更根本的问题：如果今天从零开始设计一项工作，在已经拥有大模型、Agent、数据和自动执行能力的情况下，我们还会不会设计出今天这套流程？ 前者是在旧流程上叠加AI，后者才是真正意义上的 AI-Native ——不是让AI适应原来的工作方式，而是按照AI理解、判断、调度和执行任务的能力，重新设计工作本身。 AI最大的价值，不是自动化旧流程，而是让一部分流程消失 很多传统企业流程之所以复杂，并不是业务天然需要如此复杂，而是在过去的软件能力之下，企业不得不把一项完整工作拆解成大量能够被系统处理的标准动作。 以财税工作为例，从交易发生到最终完成处理，中间往往要经历数据采集、票据整理、系统录入、人工核对、凭证生成、报表汇总、申报确认、缴款和归档。在传统软件时代，每一个步骤都需要界面、操作人以及明确的输入输出，因此一整套复杂工作流逐渐固化下来。 如果所谓AI改造，只是把人工录入换成OCR，把人工核对换成大模型，把人工点击换成RPA，企业当然能够获得效率提升，但它运行的仍然是过去形成的流程，只不过其中一部分工作从人转移给了机器。 真正的 AI-Native 逻辑应该反过来：企业首先提出经营目标——“把这个月的税务处理好”“判断这笔交易有没有风险”“告诉我今年有哪些潜在问题”，至于为了完成目标需要读取多少发票、调用几个系统、进行多少次核验、生成多少张中间表格，都应该尽可能由系统自行完成。 这意味着企业AI的衡量标准也需要改变。 过去我们问的是“多少环节已经自动化”，未来真正应该问的是“还有多少环节需要存在”。 前者追求的是把十个流程节点中的六个交给AI，后者则会重新审视：为了得到最终结果，我们真的还需要这十个节点吗？ 这才是 “AI重做流程” 与 “AI重塑流程” 之间真正的区别。 从“操作软件”到“交付结果”，百望股份押注财税大模型 从这个角度再看百望股份已经交付 超过50万数字员工 这件事，它真正值得关注的，并不只是50万这个数字本身，而是其背后的产品逻辑已经开始从 “功能智能化” 转向 “工作方式重构” 。 按照其AI财税体系的设计，企业主或财务人员不再需要首先判断应该进入哪个软件模块、点击哪个菜单，而是可以直接提出经营层面的诉求，由AI CFO理解意图、拆解任务，再调度记账、申报、风险、分析等专业智能体协同执行，最后将结果以及需要企业确认的事项重新交付给用户。 这意味着，过去是“人围着软件菜单操作”，现在开始变成“AI围绕经营任务调度资源”。 以税小智为例，它并不是单独解决记账、报税或者票据处理中的一个环节，而是试图接管从数据采集、智能记账、报表生成，到税务申",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-29T06:54:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/wmSBFfeSyB0dOjqO.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "百望股份：企业 AI 的误区是把所有流程都用 AI 重做一遍",
+   "summary_zh": "百望股份认为企业 AI 的价值不是把旧流程逐节点自动化，而是以经营目标为起点让智能体重构流程，甚至让部分环节消失；其 AI 财税体系已交付超 50 万数字员工。",
+   "highlights_zh": [
+    "区分「AI 重做流程」（旧流程叠加 OCR/RPA）与「AI 重塑流程」（按目标重新设计工作）",
+    "衡量标准从「多少环节已自动化」转向「还有多少环节需要存在」",
+    "AI CFO 理解意图、拆解任务，再调度记账、申报、风险等专业智能体协同执行"
+   ],
+   "why_zh": "企业级 Agent 落地的方法论视角，但带有厂商产品叙事，需辩证看待。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-30",
+   "slot": "morning",
+   "selected_at": "2026-10-29T17:23:17+00:00",
+   "mirror_pdf": "pdf/web-74083af8a425.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/wmSBFfeSyB0dOjqO.html"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "开源权重模型冲上1T参数，闭源与开源的性能护城河加速收窄",
+   "why": "Mistral开放1T多模态模型权重并自称最强开源编码模型，欧洲训练完成，开源阵营首次触及前沿规模。",
+   "refs": [
+    "web-8ccea7e89b70"
+   ]
+  },
+  {
+   "trend": "AI造AI从叙事变为可量化指标，研发组织与招聘标准被迫重估",
+   "why": "Anthropic披露Claude贡献超90%内部代码、26%研发任务达自主等级，并同步取消传统编程面试。",
+   "refs": [
+    "web-e88873c5e859",
+    "web-4215884a9747"
+   ]
+  },
+  {
+   "trend": "榜单登顶不再等于市场买单，AI资本开支与回报的裂口成为定价主线",
+   "why": "Gemini 4 Carbon评测登顶同期Alphabet单日暴跌13%、自由现金流为负，微软拟发债250亿美元续投。",
+   "refs": [
+    "web-e172ded3f686",
+    "web-49e030121457",
+    "web-455b5d1512f8",
+    "web-447320778522"
+   ]
+  },
+  {
+   "trend": "评测重心从「答对」转向「看见与推理是否一致」，视觉推理成新分水岭",
+   "why": "decoy counting基准揭示模型看见与推理间的差距，Glimpse尝试用图像思考弥合，评测方法出现结构性变化。",
+   "refs": [
+    "web-2df0e95472f6"
+   ]
+  },
+  {
+   "trend": "世界模型与Agent闭环落地，推理引擎效率成为规模化竞争的新底座",
+   "why": "Genie 4与Gemini 4组成生成世界加规划任务闭环；DeepSeek开源DeepInfer单集群日处理155万亿Token。",
+   "refs": [
+    "web-c9b92099a1f0",
+    "web-03667e54caaf"
+   ]
+  }
+ ]
+}
