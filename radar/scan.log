@@ -1,11 +1,13 @@
-2026-10-28 17:05:27,727 INFO source hf_daily           -> 44 items
-2026-10-28 17:05:28,098 INFO source hackernews         -> 9 items
-2026-10-28 17:05:49,964 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
-2026-10-28 17:06:02,401 INFO source rss                -> 101 items
-2026-10-28 17:06:04,551 INFO source html_lists         -> 0 items
-2026-10-28 17:06:04,551 INFO source x                  -> 0 items
-2026-10-28 17:06:05,090 INFO source arxiv_search       -> 60 items
-2026-10-28 17:06:15,024 INFO source github             -> 20 items
-2026-10-28 17:06:15,027 INFO candidates: 232 (stale dropped 137, new 57)
-2026-10-28 17:07:10,449 INFO llm judged 56/57 (calls=8)
-2026-10-28 17:10:16,683 INFO run done: {"at": "2026-10-28T17:05:27+00:00", "slot": "morning", "candidates": 232, "new": 57, "stale": 137, "judged": 56, "selected": 18, "mirrored": 14, "by_category": {"资讯": 11, "观点": 3, "技术": 4}, "by_source": {"HF Daily Papers": 44, "arXiv 新论文": 60, "Hacker News": 9, "Google DeepMind": 2, "量子位": 10, "极客公园": 7, "IT之家": 10, "爱范儿": 9, "雷峰网": 18, "钛媒体": 4, "InfoQ 中文": 15, "Simon Willison": 1, "Nathan Lambert": 1, "Latent Space": 5, "Stratechery": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "科学空间": 1, "Hugging Face Blog": 3, "Google Research": 1, "OpenAI": 6, "NVIDIA": 2, "Microsoft": 1, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
+2026-10-29 04:41:55,841 INFO source hf_daily           -> 20 items
+2026-10-29 04:41:56,125 INFO source hackernews         -> 5 items
+2026-10-29 04:42:15,023 WARNING rss 阮一峰 failed: 403 for https://www.ruanyifeng.com/blog/atom.xml
+2026-10-29 04:42:24,368 INFO source rss                -> 106 items
+2026-10-29 04:42:26,584 INFO source html_lists         -> 1 items
+2026-10-29 04:42:26,584 INFO source x                  -> 0 items
+2026-10-29 04:42:27,088 INFO source arxiv_search       -> 40 items
+2026-10-29 04:42:37,210 INFO source github             -> 20 items
+2026-10-29 04:42:37,212 INFO candidates: 191 (stale dropped 85, new 60)
+2026-10-29 04:43:38,672 INFO llm judged 60/60 (calls=8)
+2026-10-29 04:43:41,447 WARNING snapshot https://thezvi.wordpress.com/2026/10/28/anthropic-files-its-s-1/: blocked or empty page
+2026-10-29 04:44:12,468 WARNING snapshot https://openai.com/index/openai-servicenow-partnership-expansion: blocked or empty page
+2026-10-29 04:46:25,092 INFO run done: {"at": "2026-10-29T04:41:55+00:00", "slot": "noon", "candidates": 191, "new": 60, "stale": 85, "judged": 60, "selected": 19, "mirrored": 16, "by_category": {"观点": 2, "技术": 4, "资讯": 12, "项目": 1}, "by_source": {"HF Daily Papers": 20, "arXiv 新论文": 40, "Hacker News": 5, "量子位": 10, "极客公园": 7, "IT之家": 15, "爱范儿": 11, "少数派": 2, "雷峰网": 17, "钛媒体": 3, "InfoQ 中文": 13, "Simon Willison": 1, "Nathan Lambert": 1, "Latent Space": 6, "Stratechery": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "科学空间": 1, "Hugging Face Blog": 3, "Google Research": 1, "OpenAI": 5, "Google DeepMind": 2, "NVIDIA": 2, "Microsoft": 1, "Anthropic": 1, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
