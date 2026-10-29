@@ -1018,51 +1018,1100 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-302976b5be67",
+   "kind": "article",
+   "title": "Anthropic Files Its S-1",
+   "url": "https://thezvi.wordpress.com/2026/10/28/anthropic-files-its-s-1/",
+   "pdf_url": "",
+   "abstract": "The full text is finally here, so we are giving it the full RTFB of model card treatment. First, a recap of the state of Anthropic finances, then a close reading of the relevant parts of the S-1. A lot … Continue reading →",
+   "authors": [
+    "TheZvi"
+   ],
+   "orgs": [
+    "Zvi Mowshowitz"
+   ],
+   "published": "2026-10-28T12:11:20+00:00",
+   "sources": [
+    {
+     "name": "Zvi Mowshowitz",
+     "authority": 0.75,
+     "url": "https://thezvi.wordpress.com/2026/10/28/anthropic-files-its-s-1/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 趋势评论员，每周 AI 综述",
+   "title_zh": "Anthropic 递交 S-1：Zvi 逐段精读",
+   "summary_zh": "Zvi 复盘 Anthropic 财务状况并逐段精读其 S-1 招股书，剖析这家头部大模型公司的营收、成本与风险披露。",
+   "highlights_zh": [
+    "先梳理 Anthropic 财务现状，再逐段解读 S-1 关键披露",
+    "以模型卡式的细致程度审视招股书",
+    "对理解头部大模型公司商业模式与资本路径有参考价值"
+   ],
+   "why_zh": "想看清 Anthropic 的钱从哪来、烧到哪去，这是少有的深度拆解。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-10-29",
+   "slot": "noon",
+   "selected_at": "2026-10-29T04:41:55+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://thezvi.wordpress.com/2026/10/28/anthropic-files-its-s-1/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-97373eedda74",
+   "kind": "article",
+   "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+   "url": "https://surgehq.ai/blog/dayjob-tax",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-28T15:46:30Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50275626",
+     "signal": "217 pts",
+     "metric": 217
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Dayjob：用 50 项税务任务评测 AI 智能体",
+   "summary_zh": "新基准 Dayjob 用 50 个真实职业税务任务评测 AI 智能体，检验其在专业工作流中的可靠性。",
+   "highlights_zh": [
+    "以真实税务工作为评测场景",
+    "50 项专业任务覆盖完整流程",
+    "为智能体专业能力提供新基准"
+   ],
+   "why_zh": "智能体评测正从玩具任务转向真实职业场景，值得关注方法论。",
+   "tags": [
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.5725,
+   "score_llm": 7.0,
+   "score": 0.649,
+   "date": "2026-10-29",
+   "slot": "noon",
+   "selected_at": "2026-10-29T04:41:55+00:00",
+   "mirror_pdf": "pdf/web-97373eedda74.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://surgehq.ai/blog/dayjob-tax"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50275626"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-44e3e5f137f8",
+   "kind": "article",
+   "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
+   "url": "https://divagr.com/blog/qwenputer",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-29T00:25:45Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50282838",
+     "signal": "214 pts",
+     "metric": 214
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Qwenputer：在 Qwen3.5 内跑 RISC-V CPU",
+   "summary_zh": "有人让 Qwen3.5 模型内部确定性地模拟出一颗可运行的 RISC-V CPU，展示大模型执行精确计算的可能。",
+   "highlights_zh": [
+    "在语言模型内实现确定性 RISC-V CPU",
+    "突破模型只能近似计算的印象",
+    "HN 214 分引发对模型计算能力的讨论"
+   ],
+   "why_zh": "探索大模型做精确、可复现计算的上限，对推理与系统设计有启发。",
+   "tags": [
+    "大模型",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.5718,
+   "score_llm": 7.0,
+   "score": 0.6487,
+   "date": "2026-10-29",
+   "slot": "noon",
+   "selected_at": "2026-10-29T04:41:55+00:00",
+   "mirror_pdf": "pdf/web-44e3e5f137f8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://divagr.com/blog/qwenputer"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50282838"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a075480e28a0",
+   "kind": "article",
+   "title": "Why Agents Love Supabase",
+   "url": "https://latent.space/p/supabase/",
+   "pdf_url": "",
+   "abstract": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
+   "authors": [
+    "swyx .ai"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-28T19:48:05+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/supabase/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "为什么智能体偏爱 Supabase",
+   "summary_zh": "Latent Space 访谈 Supabase 创始人 Paul Copplestone 与 Ant Wilson，探讨如何为 AI 智能体构建后端基础设施，以及 Supabase 在智能体生态中的定位。",
+   "highlights_zh": [
+    "智能体后端基础设施的设计考量",
+    "Supabase 在 AI 智能体生态的角色",
+    "来自创始人的一手工程视角"
+   ],
+   "why_zh": "为智能体搭建后端时，可参考 Supabase 的实践思路。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-10-29",
+   "slot": "noon",
+   "selected_at": "2026-10-29T04:41:55+00:00",
+   "mirror_pdf": "pdf/web-a075480e28a0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/supabase/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-75e2017ed4c5",
+   "kind": "article",
+   "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+   "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+   "pdf_url": "",
+   "abstract": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-10-28T13:15:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 与 ServiceNow 扩大企业工作流合作",
+   "summary_zh": "OpenAI 与 ServiceNow 扩大合作，将 OpenAI 模型与智能体嵌入 ServiceNow 工作流，同时把 ServiceNow 流程接入 ChatGPT 和 Codex，推动企业级智能体落地。",
+   "highlights_zh": [
+    "OpenAI 模型与智能体进入 ServiceNow 平台",
+    "ServiceNow 工作流反向接入 ChatGPT 与 Codex",
+    "企业级智能体工作流双向打通"
+   ],
+   "why_zh": "观察头部模型厂商如何切入企业工作流市场的关键信号。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 7.0,
+   "score": 0.636,
+   "date": "2026-10-29",
+   "slot": "noon",
+   "selected_at": "2026-10-29T04:41:55+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/openai-servicenow-partnership-expansion"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0c95a4f76153",
+   "kind": "article",
+   "title": "不再逐个生成 Token：扩散模型迈向 35B，开始挑战 Agent 编程",
+   "url": "https://www.infoq.cn/article/0tgCLAMXFiFo0Dco5P9m?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "蔡芳芳"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-28T22:53:53+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/0tgCLAMXFiFo0Dco5P9m?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "扩散模型迈向35B：不再逐Token生成，挑战Agent编程",
+   "summary_zh": "InfoQ报道扩散式语言模型规模扩至35B，以并行去噪替代逐Token自回归生成，并开始切入Agent编程场景，探索与主流大模型不同的技术路线。",
+   "highlights_zh": [
+    "扩散语言模型参数规模推至35B量级",
+    "并行生成替代逐Token解码，速度潜力显著",
+    "开始试水Agent编程等实际任务"
+   ],
+   "why_zh": "关注非自回归生成路线能否撼动Transformer主流地位的关键信号。",
+   "tags": [
+    "大模型",
+    "代码",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-29",
+   "slot": "noon",
+   "selected_at": "2026-10-29T04:41:55+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/0tgCLAMXFiFo0Dco5P9m?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c2d9c4d09fb4",
+   "kind": "article",
+   "title": "首次引入视觉理解，腾讯混元 Hy4 、Hy4 flash AI 模型即将发布",
+   "url": "https://www.ithome.com/1/019/328.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 29 日消息，据科创板日报在腾讯全球数字生态大会上获悉，腾讯集团高级执行副总裁、云与智慧产业事业群 CEO 汤道生现场宣布， Hy4 即将发布 。 据介绍，相比 Hy4 preview， Hy4 实现了全面大幅提升 ，尤其强化了各类长程和真实生产力任务的能力，显著提升了思维链效率，并 首次引入了视觉理解 。 此外，Hy4 flash 也会在近期发布， 提供极致性价比的实用模型 ，在继承 Hy4 视觉、Agent 等强大能力的基础上，通过模型和产品的深度 Co-Design 高频进化。 据IT之家此前报道，8 月 28 日， 腾讯发布 Hy4 preview ，总参数 770 B，激活参数 49 B，上下文长度 1M。 官方当时曾表示，Hy4 preview 在模型尺寸、上下文长度、数据规模上都进行了显著的扩展，预训练和后训练的共同进步带来了智能水平的又一次巨大提升。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-29T02:18:32+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/019/328.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯混元 Hy4 即将发布，首次引入视觉理解",
+   "summary_zh": "腾讯宣布混元 Hy4 即将发布，相比 preview 版全面强化长程与生产力任务、提升思维链效率，并首次引入视觉理解；同时推出主打性价比的 Hy4 flash。",
+   "highlights_zh": [
+    "Hy4 preview 为 770B 总参数、49B 激活、1M 上下文，正式版能力再升级",
+    "首次引入视觉理解，补齐多模态能力",
+    "Hy4 flash 走极致性价比路线，模型与产品深度 Co-Design"
+   ],
+   "why_zh": "头部大厂旗舰模型迭代，多模态与 Agent 能力走向实用化，值得关注竞争格局。",
+   "tags": [
+    "大模型",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-29",
+   "slot": "noon",
+   "selected_at": "2026-10-29T04:41:55+00:00",
+   "mirror_pdf": "pdf/web-c2d9c4d09fb4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/019/328.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7ae8eb20550e",
+   "kind": "article",
+   "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+   "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-10-28T14:58:17+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "英伟达发布 Nemotron 3.5 转写与 Granary v2",
+   "summary_zh": "英伟达推出 Nemotron 3.5 Transcribe 与 Granary v2，主打可提示、可适配的多语言智能转写，面向语音识别与多语种场景。",
+   "highlights_zh": [
+    "支持提示词控制与自适应调整",
+    "面向多语言转写场景",
+    "Nemotron 系列模型持续迭代"
+   ],
+   "why_zh": "关注英伟达在语音与多语言模型上的最新进展。",
+   "tags": [
+    "语音",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 7.0,
+   "score": 0.612,
+   "date": "2026-10-29",
+   "slot": "noon",
+   "selected_at": "2026-10-29T04:41:55+00:00",
+   "mirror_pdf": "pdf/web-7ae8eb20550e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.37645",
+   "kind": "paper",
+   "title": "Multi-State Linear Attention with Generalized Second-Order Routing",
+   "url": "https://arxiv.org/abs/2610.37645",
+   "pdf_url": "https://arxiv.org/pdf/2610.37645",
+   "abstract": "Self-attention plays a key role in long-sequence modeling, but its quadratic time complexity fundamentally limits the scaling of Large Language Models. Recently, Multi-State Linear Attention (MSLA) mechanisms have been proposed to make sequence modeling more efficient by splitting the context into segments and compressing each in its own memory state. MSLA aggregates the information extracted from each memory state using only the mean alignment between a query and each segment's keys, ignoring how the alignment is distributed within the segment. In order to model the relevance of a segment to a query more comprehensively and incorporate the variance of the alignment in the aggregation, we propose MERLIN (MomEnt Routing for multi-state LINear attention), a method that tracks the first and second moments of each segment's keys. Using the moments of keys, a query can recover both the mean and the variance of its alignment with each segment to perform a more content-aware aggregation of per-state readouts. Experiments on multi-state variants of Gated DeltaNet-1.3B and Mamba-2-780M show that MERLIN consistently outperforms existing aggregation methods on various long-context tasks. In particular, MERLIN outperforms baselines on RULER needle-in-a-haystack and long-context QA (+8.3% for Gated DeltaNet-1.3B and +7.0% for Mamba-2-780M) and diverse subtasks in LongBench (+13.5% and +12.0%). It even outperforms baselines that consume 4x more memory. MERLIN provides a simple and general routing mechanism for improving long-context capabilities of MSLA models.",
+   "authors": [
+    "Hee Seung Hwang",
+    "Sanghyuk Chun",
+    "Xindi Wu",
+    "Olga Russakovsky",
+    "Zhiwei Deng"
+   ],
+   "orgs": [],
+   "published": "2026-10-27T17:55:49Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.37645",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "MERLIN：用二阶矩路由改进多状态线性注意力",
+   "summary_zh": "针对多状态线性注意力只用均值对齐聚合各段记忆、忽略段内分布的问题，MERLIN 追踪每段 key 的一阶与二阶矩，让 query 同时恢复对齐的均值与方差做内容感知聚合。在 Gated DeltaNet-1.3B 与 Mamba-2-780M 上长上下文任务一致优于基线，RULER 与长文 QA 提升 7–8%，LongBench 提升 12–13.5%。",
+   "highlights_zh": [
+    "指出 MSLA 聚合只利用 query 与各段 key 的均值对齐，丢失段内对齐方差信息",
+    "用 key 的一阶/二阶矩让 query 同时恢复均值与方差，实现更细粒度的按状态读出聚合",
+    "在 Gated DeltaNet-1.3B 与 Mamba-2-780M 两个多状态变体上验证，长上下文任务稳定增益"
+   ],
+   "why_zh": "做长上下文线性注意力/混合架构的团队，这是可直接借鉴的聚合层改进。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-29",
+   "slot": "noon",
+   "selected_at": "2026-10-29T04:41:55+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.37645.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.37645"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.37645"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.37645"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.37645"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.37645"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.37645"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0290df435bf1",
+   "kind": "article",
+   "title": "Optimus的第一份工作是插枪：人形机器人的主战场，从来不在工厂",
+   "url": "https://www.tmtpost.com/8185429.html",
+   "pdf_url": "",
+   "abstract": "人形机器人正在批量进工厂，市场叙事是“替代产线工人”。本文给出反共识判断：标准场景早被传送带与机械臂吃透，进厂只是练兵；真正的主战场，是非标服务业的“移动缝隙”。机器负责干活，人负责生活。",
+   "authors": [
+    "韩工观察"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-29T03:32:00+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8185429.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "人形机器人主战场不在工厂，而在非标服务业",
+   "summary_zh": "钛媒体提出反共识判断：人形机器人进厂只是练兵，标准产线早被传送带与机械臂占据，真正机会在非标服务业的移动缝隙场景。",
+   "highlights_zh": [
+    "进工厂是练兵而非终局",
+    "标准场景已被传统自动化吃透",
+    "非标服务业才是规模化落地空间"
+   ],
+   "why_zh": "为机器人商业化路径提供不同于主流叙事的判断框架。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-10-29",
+   "slot": "noon",
+   "selected_at": "2026-10-29T04:41:55+00:00",
+   "mirror_pdf": "pdf/web-0290df435bf1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8185429.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-417b3ecc4e0f",
+   "kind": "article",
+   "title": "腾讯推出跨应用 AI 协同体系 Buddy One：打通腾讯多款办公产品，共享 WorkBuddy Agent 底座",
+   "url": "https://www.ithome.com/1/019/412.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 29 日消息，在今日举行的腾讯全球数字生态大会上，腾讯正式官宣发布面向个人用户的跨应用 AI 协同体系 —— Buddy One。 IT之家获悉，该体系打通腾讯文档、腾讯会议、腾讯网盘、ima 等办公协同产品， 共享 WorkBuddy Agent 底座，并统一账号和积分池 。 官方表示，WorkBuddy PC 端更新到 5.9.0 及以上版本，关联账号即可使用。后续还将支持记忆共享，也会有更多产品陆续加入。 据悉，Buddy One 账号打通之后，使用 WorkBuddy 时 不用再反复授权 ，也不用手动复制粘贴上下文。 打开 WorkBuddy PC 端，点击左下角的个人入口，进入“设置” → “个人主页” → “前往管理中心”，关联要用的腾讯文档、腾讯会议、ima、腾讯网盘账号。 关联之后，不用再指定去哪个应用里找。直接说需求，WorkBuddy 会检索并整合用户已授权的文档、会议和知识库内容， 生成附带来源的回答 。检索时会调用“Buddy One 全应用搜索”，命中的资料会标明来自哪个应用，比如 ima、腾讯文档或 WorkBuddy 资料库。 加入 Buddy One 后，WorkBuddy 积分默认升级为 Buddy One 积分 ，可以在 WorkBuddy、腾讯文档、ima、腾讯网盘中通用。余额共享：在哪个应用里消耗，余额都会同步减少。套餐内积分、活动赠送积分和自行购买的积分，都包含在内。 腾讯同时推出了 Buddy One VIP 会员套餐，连续包月 700 元 / 月。一次开通即享 WorkBuddy 旗舰版、腾讯会议专业版和腾讯文档超级会员 Plus；套餐还包含跨应用共享的 AI 积分与 1TB 存储空间，可在 WorkBuddy、腾讯文档、ima 和腾讯网盘中通用。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-29T04:24:43+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/019/412.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯发布跨应用 AI 协同体系 Buddy One",
+   "summary_zh": "腾讯推出 Buddy One，打通文档、会议、网盘、ima 等办公产品，共享 WorkBuddy Agent 底座与统一账号积分池，可跨应用检索并生成带来源的回答。",
+   "highlights_zh": [
+    "统一账号与积分池，WorkBuddy 无需反复授权、不用手动搬运上下文",
+    "检索调用全应用搜索，回答标注资料来自 ima、腾讯文档或资料库",
+    "同步推出 Buddy One VIP 套餐，700 元/月含旗舰版与 1TB 存储"
+   ],
+   "why_zh": "国内大厂智能体从单点工具走向跨应用协同底座，值得关注其产品化路径。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-29",
+   "slot": "noon",
+   "selected_at": "2026-10-29T04:41:55+00:00",
+   "mirror_pdf": "pdf/web-417b3ecc4e0f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/019/412.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c266d20830b7",
+   "kind": "article",
+   "title": "部分 GPU 算力合同延期，微软下调 2026 年资本开支预期至 1700 亿美元",
+   "url": "https://www.ithome.com/1/019/405.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 29 日消息，在科技行业持续加码 AI 巨额投资之际，微软却罕见地调低了资本开支预期。据《商业内幕》今天（29 日）早间报道，微软 CFO 艾米 · 胡德在财报电话会议上披露，公司 2026 年资本开支预计为 1,700 亿美元 （IT之家注：现汇率约合 1.14 万亿元人民币） ，较此前预测的 1,750 亿美元 （现汇率约合 1.17 万亿元人民币） 下调 50 亿美元 （现汇率约合 334.03 亿元人民币） 。 微软原本预计将获得第三方供应商提供的新增算力，但部分 GPU 算力服务合同延期至 2027 财年下半年（对应 2027 年上半年）。 这些合同或将涉及其他使用英伟达 GPU 提供 AI 云服务的供应商。随着延期的算力陆续交付，微软预计本财年下半年的 资本开支将加快增长 。 云服务商斥巨资扩建 AI 基础设施，让华尔街愈发担忧。微软上一季度没有上调资本开支预期，与其他不断增加 AI 支出预算的云计算巨头形成对比。 财报显示，微软截至 9 月 30 日的 2027 财年第一财季营收同比增长 19%，达到 923 亿美元 （现汇率约合 6,166.14 亿元人民币） 。其中，Azure 云业务营收增长 48%，突破 330 亿美元 （现汇率约合 2,204.58 亿元人民币） ，超过华尔街预期。 财报电话会议结束后，微软股价盘后上涨约 3%。 而与此同时，该季度内微软员工人数减少了 2%。本周早些时候，微软向超过四分之一的员工推出了自愿离职补偿方案。微软发言人透露，公司预计符合条件的员工中，接受方案的比例不会超过 5%。“微软提供了很多发展机会，因此我们预计只有极少数员工会接受这项方案。”",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-29T03:58:39+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/019/405.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "GPU 合同延期，微软下调 2026 资本开支至 1700 亿美元",
+   "summary_zh": "微软 CFO 称部分第三方 GPU 算力合同延期至 2027 财年下半年，2026 年资本开支预期由 1750 亿下调至 1700 亿美元，但 Azure 营收增长 48%。",
+   "highlights_zh": [
+    "下调主因是供应商算力交付延期，而非需求转弱",
+    "Azure 单季营收突破 330 亿美元、同比增长 48%，超华尔街预期",
+    "微软预计本财年下半年资本开支将重新加速"
+   ],
+   "why_zh": "AI 算力供给节奏与云巨头资本开支预期出现分歧，是判断行业景气度的重要信号。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-29",
+   "slot": "noon",
+   "selected_at": "2026-10-29T04:41:55+00:00",
+   "mirror_pdf": "pdf/web-c266d20830b7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/019/405.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-527c20d8291a",
+   "kind": "article",
+   "title": "甲骨文公布“扭亏为盈”计划，力图安抚投资者担忧情绪",
+   "url": "https://www.ithome.com/1/019/333.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 29 日消息，据路透社报道，当地时间 28 日，甲骨文披露，随着云计算业务扩张，资本开支预计将在 2027 和 2028 财年达到高峰，并承诺截至 2030 财年，为 AI 业务新增的融资 不超过 200 亿美元 （IT之家注：现汇率约合 1,336.11 亿元人民币） 。 甲骨文希望借此缓解投资者对资金需求不断膨胀的担忧。投资者担心，甲骨文为大举建设数据中心，需要 持续从外部筹集巨额资金 。 受业绩预测提振，甲骨文股价大涨超过 12%，其他云计算公司股价也随之上涨。 甲骨文 CFO 希拉里 · 麦克斯顿在投资者日活动上透露，公司预计 2028 财年下半年实现 自由现金流转正 ，2029 财年自由现金流超过 300 亿美元 （现汇率约合 2,004.16 亿元人民币） ，资本开支也将在当年回落。 甲骨文的 AI 基础设施投资成本不断攀升，成为市场关注的焦点。与微软、亚马逊等云计算巨头相比，甲骨文缺乏雄厚的营收基础，业务还高度依赖尚未盈利的 OpenAI。 与 OpenAI 的合作让甲骨文新增了数千亿美元的云计算订单，但要履行这些合同，就必须建设大量数据中心及其他 AI 基础设施，迫使公司 高度依赖借债和发行股票筹资 。 甲骨文透露，通过供应商融资、由客户自行提供硬件以及预收客户款项等方式，公司有望 在自由现金流转正前减少前期资金投入 。 按照甲骨文的预测，公司从 2029 财年起 无需再依靠外部融资支持增长 ，当年净债务与年度核心利润之比也将降至 3.5 倍以下。 今年早些时候，甲骨文曾宣布计划在 2027 财年通过债务和股权融资筹集 400 亿美元 （现汇率约合 2,672.22 亿元人民币） ，其中 200 亿美元 （现汇率约合 1,336.11 亿元人民币） 的股票发行已在第一季度完成。 截至 8 月 31 日，甲骨文的应付票据及其他借款总额达到 1,253.4 亿美元 （现汇率约合 8,373.39 亿元人民币） ，持有现金及现金等价物约 363.7 亿美元 （现汇率约合 2,429.71 亿元人民币） 。 甲骨文预计 2030 财年营收超过 2,250 亿美元 （现汇率约合 1.5 万亿元人民币） ，调整后营业利润率超过 40%，调整后每股收益超过 21 美元 （现汇率约合 140.3 元人民币） 。同时，公司维持 2027 财年营收超过 900 亿美元 （现汇率约合 6,012.48 亿元人民币） 、调整后每股收益 8.10 美元 （现汇率约合 54.1 元人民币） 的预测。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-29T02:32:10+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/019/333.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "甲骨文公布扭亏为盈计划，承诺 AI 业务新增融资不超 200 亿美元",
+   "summary_zh": "甲骨文披露 AI 数据中心资本开支将在 2027–2028 财年见顶，承诺 2030 财年前为 AI 业务新增融资不超过 200 亿美元，预计 2028 财年下半年自由现金流转正，股价大涨超 12%。",
+   "highlights_zh": [
+    "资本开支高峰在 2027–2028 财年，2029 财年回落",
+    "高度依赖尚未盈利的 OpenAI 订单，靠借债与发股筹资",
+    "通过供应商融资、客户自备硬件、预收款降低前期投入"
+   ],
+   "why_zh": "AI 基础设施投资回报与融资结构的关键样本，反映算力扩张的财务风险。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-10-29",
+   "slot": "noon",
+   "selected_at": "2026-10-29T04:41:55+00:00",
+   "mirror_pdf": "pdf/web-527c20d8291a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/019/333.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ad16365e752d",
+   "kind": "article",
+   "title": "Motionsites-AI/claude-skill",
+   "url": "https://github.com/Motionsites-AI/claude-skill",
+   "pdf_url": "",
+   "abstract": "Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites.",
+   "authors": [],
+   "orgs": [
+    "Motionsites-AI"
+   ],
+   "published": "2026-10-29T04:41:55+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/Motionsites-AI/claude-skill",
+     "signal": "★ 935（新项目） · Python",
+     "metric": 935
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Claude Skill：生成电影级落地页",
+   "summary_zh": "MotionSites 发布免费 Claude Skill，让 Claude 按指令生成获奖级电影感落地页。",
+   "highlights_zh": [
+    "以 Skill 形式扩展 Claude 前端生成能力",
+    "主打电影感、获奖级视觉风格",
+    "Python 实现，GitHub 获 935 星"
+   ],
+   "why_zh": "如果你用 Claude 做落地页，装上它可套用电影级视觉模板。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.581,
+   "score_llm": 5.0,
+   "score": 0.5324,
+   "date": "2026-10-29",
+   "slot": "noon",
+   "selected_at": "2026-10-29T04:41:55+00:00",
+   "mirror_pdf": "pdf/web-ad16365e752d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/Motionsites-AI/claude-skill"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bd3e877c4ca1",
+   "kind": "article",
+   "title": "苹果发触屏笔记本，最高 11 万元；DeepSeek V5 模型代码现身；宇树首发财报，净利增 270%",
+   "url": "http://www.geekpark.net/news/373085",
+   "pdf_url": "",
+   "abstract": "苹果发布首款触屏 MacBook Pro，顶配超 11 万 元 北京时间 10 月 29 日，苹果发布全新 MacBook Pro，首次为 Mac 引入屏幕触控和灵动岛，并采用双层串联 OLED 技术的 PROLED XDR 显示屏。 新机提供 14 英寸和 16 英寸两种版本，搭载 M5 Pro 或 M5 Max 芯片。根据苹果中国区发布信息，新机将于 10 月 30 日开启预购，11 月 6 日正式发售，起售价 22999 元。 在交互方面，用户可直接触摸屏幕滚动网页、缩放照片、拖放幻灯片，以及操作 3D 模型或演奏虚拟乐器。苹果表示，触控传感器直接内嵌于显示面板，macOS 可将触控输入转换为点按，让许多现有应用直接支持触控。新机还调整了铰链设计，以提升触屏操作时的稳定性。 新机最高可选 128GB 统一内存和 16TB 存储，苹果标称电池续航最长可达 24 小时，支持约 30 分钟充至最高 50%电量。搭载 M5 Max 处理器、128G 统一内存和 16TB 硬盘的 16.3 寸触屏 MacBook Pro，官网标价来到 11.26 万元。（来源：凤凰网科技） 宇树科技公布首份财报，前三季净利 3.87 亿元 10 月 28 日晚间，宇树科技发布了 2026 年第三季度报告，也是其上市后的首份财报。财报显示：报告期内公司单季度实现营业收入 6.65 亿元，同比增长 69.93%；归母净利润 1.13 亿元，同比下降 17.37%。 报告显示，年初至报告期末，公司累计实现营业收入 18.17 亿元，同比增长 55.71%；利润总额 4.13 亿元，同比增长 143.05%；归母净利润 3.87 亿元，同比增长 270.54%。 此外，宇树科技的研发投入有所提升，其第三季度单季研发投入 1.27 亿元，同比增长 249.58%，占当期营业收入比例 19.1%；前三季度累计研发投入 2.63 亿元，同比增长 191.48%，占营业收入比例 14.47%。 公司称，研发投入增长主要系持续加大具身智能领域研发投入，尤其是具身大模型相关模型研发与算力投入大幅增长，以及扩充研发团队、持续开展新产品研发所致。（来源：新浪科技） DeepSeek V5 大模型已现身官方代码库 近日，有网友发现 DeepSeek 又开始换新的大模型指纹了，官方库中直接出现了 DeepSeek V5 的代码，纷纷猜测可能有新模型要发布。 目前，在 DeepSeek Harness 的官方代码库中，已经出现了一些新的代码，包括 DeepSeek-V5、V5-open、V5-next 等等。 这套设计的意义就是：DeepSeek 可以在服务端改 /models 就把 v5 开出去，客户端不用发版。也可以视作 DeepSeek 官方已经为 DeepSeek V5 系列大模型的发布做了一些提前的准备，现在就用占位符占了位置了，未来发布之后服务端只要改/models 就能发布，而客户端之后都不用发新版就能支持。（来源：快科技） 脑虎科技完成 7 亿元 B 轮融资 10 月 28 日，脑虎科技宣布完成 7 亿人民币 B 轮融资。从机构属性来看，本轮融资整体以国资为主导，产业资本方面则「跨界」集结了来自半导体、医疗器械、材料等赛道的头部机构。 官方表示，本轮募集资金将用于「全植入、全无线、全功能」（「三全」）脑机接口系统的多中心临床试验及注册审批、超级工厂量产建设，以及下一代产品研发与 BCI+AI 融合探索。 全植入，就是将包括电池在内的所有核心器件都植入体内，体表没有外露部件；全无线",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-29T00:05:58+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373085",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "苹果触屏 MacBook、DeepSeek V5 代码现身、宇树首份财报",
+   "summary_zh": "极客公园汇总：苹果发布首款触屏 MacBook Pro 顶配超 11 万元；DeepSeek 官方代码库出现 V5 系列占位符，预示新模型即将发布；宇树科技上市后首份财报净利同比增 270%。",
+   "highlights_zh": [
+    "DeepSeek V5 代码现身官方库，服务端可切换发布",
+    "宇树前三季净利 3.87 亿元，研发投入大增",
+    "苹果首款触屏 MacBook Pro 发布"
+   ],
+   "why_zh": "快速把握 DeepSeek 新模型动向与具身智能公司业绩。",
+   "tags": [
+    "大模型",
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.528,
+   "date": "2026-10-29",
+   "slot": "noon",
+   "selected_at": "2026-10-29T04:41:55+00:00",
+   "mirror_pdf": "pdf/web-bd3e877c4ca1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373085"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-85b09114d273",
+   "kind": "article",
+   "title": "刚刚，Gemini 4 Carbon 正式发布，哈基米重回世界第一",
+   "url": "https://www.ifanr.com/1686587?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "哈基米终于扬眉吐气了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "莫崇宇"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-28T22:31:28+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1686587?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Gemini 4 Carbon 发布，重回榜首",
+   "summary_zh": "Google 发布 Gemini 4 Carbon，据称在榜单上超越 Opus 5.5，重回世界第一。",
+   "highlights_zh": [
+    "Gemini 4 Carbon 正式发布",
+    "宣称性能超越 Opus 5.5",
+    "头部模型竞争格局再度生变"
+   ],
+   "why_zh": "头部模型排名易主，值得关注其真实能力与可用性。",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-29",
+   "slot": "noon",
+   "selected_at": "2026-10-29T04:41:55+00:00",
+   "mirror_pdf": "pdf/web-85b09114d273.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1686587?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9c773001382a",
+   "kind": "article",
+   "title": "微软向6万员工发出自愿离职邀请，补偿至少N+2；身家2800亿的梁文锋，被曝长期在北京租房；苹果否认iPhone Duo为赶产能放宽质检",
+   "url": "https://www.leiphone.com/category/zaobao/SXb4aJpFWlpTjfkN.html",
+   "pdf_url": "",
+   "abstract": "要闻提示 1.加码AI精简人力！微软向 6 万员工发出自愿离职邀请，补偿至少N+2 2.DeepSeek大举扩充团队！梁文锋2800亿首登富豪榜前十，被曝长期在北京租房 3.iPhone Duo被曝为赶产能放宽质检！苹果客服否认 4.抖音回应中国互联网进入字节时间：极不严谨，纯属瞎扯 5.破案了！腾讯企鹅岛楼上外挂的神秘黄色物体，真面目终于曝光 6.阿里巴巴起诉美国国防部取得初步胜利，法院叫停相关禁令 7.姆巴佩争议言论引众怒！小红书声明：正持续核查并下架姆巴佩相关物料 8.新模型价格砍半！OpenAI发布GPT-6.1 Terra 今日头条 加码AI精简人力！微软向 6 万员工发出自愿离职邀请，补偿至少N+2 北京时间10月27日，微软推出自愿离职计划，涉及约6万名员工，相当于微软全球员工总数的约27%。截至今年6月底，微软约有22.3万名全职员工。该计划适用于美国、加拿大、印度和英国参与该计划的部门中职级为70级及以下的合格员工，包括高级管理人员。符合条件的员工需要在12月初之前决定是否接受方案，并于今年年底离职。 自愿离职补偿条件与该公司的标准裁员补偿方案相近。今年早些时候微软在美国裁员时提供的补偿方案包括至少60天的基本工资，大多数员工还根据职级和工龄获得最多39周的基本工资。今年7月微软宣布裁减4800个岗位。 今年4月微软首次推出自愿离职补偿方案，全美约7%的员工符合申请条件。此前还推出过自愿退休计划，约9000名员工符合年龄和工龄条件。（21世纪经济报道） 国内资讯 DeepSeek大举扩充团队！梁文锋2800亿首登富豪榜前十，被曝长期在北京租房 10 月 27 日，胡润百富榜发布，DeepSeek 创始人梁文锋首次上榜，以 2800 亿元财富位列第七。另据同日报道，随着新一轮融资受到关注，DeepSeek 的团队扩张也在加速。多位知情人士向媒体透露，DeepSeek 近期扩张势头很猛。 一位接近 DeepSeek 的人士表示，公司正在向投资人规划新的增长路线，其中包括大举扩充团队。这位接近 DeepSeek 的人士还透露，DeepSeek 的办公地主要位于北京和杭州。创始人梁文锋长期在北京租房居住，房间布置一直比较简单。 此前公司已经多次释放招聘信号，6 月提出全部门至少扩一倍，9 月放出上百个工程岗位。网传 DeepSeek 新一轮融资规模约 1000 亿元，半年合计融资规模可观。梁文锋常年在北京、杭州双城奔波，偶尔也去深圳。虽然 DeepSeek 公司注册地是在杭州，但北京集中了核心算法团队。（凤凰网科技、程序员的那些事） iPhone Duo被曝为赶产能放宽质检！苹果客服否认 10月27日，苹果针对近日iPhone Duo出现的屏幕故障问题发表正式回应，称相关用户可联系AppleCare处理换机事宜。“首批用户对iPhone Duo的反响非常热烈。目前，我们已经留意到有极少数iPhone Duo的内屏出现了一些问题。”苹果官方表示，“如果用户遇到iPhone Duo的显示屏问题，请联系AppleCare处理换机事宜。” 此前报道，近期iPhone Duo屏幕故障问题频发，据普遍推测，原因或主要在于铰链。一名富士康员工对媒体表示，在产能吃紧的状态下，苹果此前曾降低过一定良率质检标准以保证供应。 不过，在最新进展中，一名接近iPhone Duo供应链的知情人士向媒体表示，苹果内部并未采取过下调良率质检标准等类似举措。（新浪科技、界面新闻） 抖音回应中国互联网进入字节时间：极不严谨，纯属瞎扯 10月27日消息，最近网上出现“中国互",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-28T01:11:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/zaobao/SXb4aJpFWlpTjfkN.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "微软向6万员工发自愿离职邀请，OpenAI发布GPT-6.1 Terra",
+   "summary_zh": "微软加码AI精简人力，向约6万员工发出自愿离职邀请；同日OpenAI发布新模型GPT-6.1 Terra，价格砍半；DeepSeek被曝大举扩招。",
+   "highlights_zh": [
+    "微软自愿离职计划覆盖约27%全球员工，年底前离职",
+    "OpenAI新模型价格砍半，继续压低推理成本",
+    "DeepSeek团队扩张加速，梁文锋首登富豪榜前十"
+   ],
+   "why_zh": "一天内看到大厂AI组织调整与模型价格战两条主线",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-29",
+   "slot": "noon",
+   "selected_at": "2026-10-29T04:41:55+00:00",
+   "mirror_pdf": "pdf/web-9c773001382a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/zaobao/SXb4aJpFWlpTjfkN.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-def8754249fc",
+   "kind": "article",
+   "title": "Claude Code 撑起史上最大 IPO，被封号不退费的中国开发者撑起那 5%“脏收入”",
+   "url": "https://www.infoq.cn/article/lCw5JBglbgZj9BYeZChS?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "Tina"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-28T17:45:17+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/lCw5JBglbgZj9BYeZChS?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Claude Code撑起史上最大IPO，中国开发者被封号不退费",
+   "summary_zh": "InfoQ报道Claude Code相关业务助推史上最大IPO，同时披露中国开发者账号被封且不退费，涉及约5%的灰色收入争议。",
+   "highlights_zh": [
+    "Claude Code成为IPO核心叙事",
+    "中国开发者遭遇封号不退费",
+    "灰色收入占比约5%"
+   ],
+   "why_zh": "反映AI编程工具商业化与区域合规冲突，从业者需关注账号风险。",
+   "tags": [
+    "产品与行业",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-29",
+   "slot": "noon",
+   "selected_at": "2026-10-29T04:41:55+00:00",
+   "mirror_pdf": "pdf/web-def8754249fc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/lCw5JBglbgZj9BYeZChS?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-fdc3cb9f7fdf",
+   "kind": "article",
+   "title": "早报｜触屏MacBook Pro发布，发光logo回归/Gemini 4 Carbon发布，超越Opus 5.5/马斯克招寿司厨师，每天需能站立10小时",
+   "url": "https://www.ifanr.com/1686590?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "· OpenAI拟采购GoogleTPU，已招聘工程师适配前沿模型 · 仰望行政旗舰定名「鼎曜」，计划 11 月初在中东亮相 · 宇树与红杉中国成立「杉宇·创计划」，投资机器人早期项目 期项目 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "郑廷旭"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-29T00:00:32+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1686590?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "早报：OpenAI 拟采购 Google TPU",
+   "summary_zh": "爱范儿早报汇总：OpenAI 拟采购 Google TPU 并招聘工程师适配前沿模型，另有 Gemini 4 Carbon 发布等消息。",
+   "highlights_zh": [
+    "OpenAI 拟采购 Google TPU，已招工程师适配前沿模型",
+    "Gemini 4 Carbon 发布，号称超越 Opus 5.5",
+    "宇树与红杉成立机器人早期投资计划"
+   ],
+   "why_zh": "OpenAI 转向 TPU 若属实，将牵动算力供应链格局。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-10-29",
+   "slot": "noon",
+   "selected_at": "2026-10-29T04:41:55+00:00",
+   "mirror_pdf": "pdf/web-fdc3cb9f7fdf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1686590?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "前沿模型竞争从单点能力转向多模型编排与成本控制",
-   "why": "微软Copilot harness支持跨模型切换，谷歌SDK加本地模型，模型层竞争外溢到调度层。",
+   "trend": "前沿模型重回多强拉锯，榜单榜首频繁易主，选型窗口收窄。",
+   "why": "Gemini 4 Carbon 称超越 Opus 5.5 重回第一，GPT-6.1 Terra 同日降价，竞争进入贴身肉搏。",
    "refs": [
-    "web-4b9ad4180246",
-    "web-cf21d96fecbd",
-    "web-34b0bf3f94c3"
+    "web-34b0bf3f94c3",
+    "web-85b09114d273",
+    "web-9c773001382a"
    ]
   },
   {
-   "trend": "智能体落地瓶颈从能力转向企业治理与工程底座",
-   "why": "Snowflake两文谈授权审计，逐际动力开源工程底座，Gartner显示仅3%企业见效。",
+   "trend": "智能体竞争从模型分数转向工程底座与治理框架。",
+   "why": "FluxVLA 用统一配置串起训练到真机部署，企业侧开始讨论智能体的授权、审计与考核。",
    "refs": [
-    "web-a7ffdcfdf18f",
-    "web-97aafdd2c691",
     "web-977b19418fd5",
-    "web-4f21c97a354a"
+    "web-a7ffdcfdf18f",
+    "web-97aafdd2c691"
    ]
   },
   {
-   "trend": "评测体系正被缩放律与忠实性指标重新定义",
-   "why": "SynthAPI推导工具调用缩放律，LRC揭示SOTA潜世界模型均不忠实，旧基准失效。",
+   "trend": "评测体系正被重写：合成环境与真实职业任务取代静态榜单。",
+   "why": "SynthAPI 推导工具调用缩放律，Dayjob 用 50 项税务任务检验可靠性，Artificial Analysis v5 暴露基准缺口。",
    "refs": [
     "arxiv-2610.37648",
-    "arxiv-2610.37588",
+    "web-97373eedda74",
     "web-65e05126788d"
    ]
   },
   {
-   "trend": "生成式UI与本地化推理让Token成本进入可规模化区间",
-   "why": "Instagram原生AI架构降Token成本33%，谷歌SDK本地化兼顾隐私与成本。",
+   "trend": "生成式 UI 与本地化推理同时压成本，Token 经济性成为架构决策变量。",
+   "why": "Instagram 原生 AI 架构降 Token 成本 33%，Antigravity SDK 支持本地模型以保隐私与效率。",
    "refs": [
     "web-0181d28df3d0",
     "web-cf21d96fecbd"
    ]
   },
   {
-   "trend": "模型公司估值逻辑受基础设施成本与商业模式挤压",
-   "why": "Anthropic巨亏显示估值寄生于基础设施供应商，算力基建订单已外溢至工业母机。",
+   "trend": "算力资本开支节奏分化，基础设施估值逻辑承压。",
+   "why": "微软下调 2026 资本开支至 1700 亿美元，甲骨文承诺 AI 新增融资不超 200 亿，模型公司估值寄生于基建。",
    "refs": [
-    "web-2de8871e8a65",
-    "web-86553eede8e7"
+    "web-c266d20830b7",
+    "web-527c20d8291a",
+    "web-2de8871e8a65"
    ]
   }
  ]
