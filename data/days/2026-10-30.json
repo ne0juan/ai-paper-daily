@@ -1841,47 +1841,1384 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "arxiv-2610.40647",
+   "kind": "paper",
+   "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+   "url": "https://arxiv.org/abs/2610.40647",
+   "pdf_url": "https://arxiv.org/pdf/2610.40647",
+   "abstract": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introduce SpecSlot, a pixel-space rectified-flow Transformer that decouples output detail from the length of the global attention sequence. SpecSlot expands each spatial anchor into multiple slots, each assigned a disjoint band of DCT coefficients; this separates anchor density from spectral subdivision. Only the lowest-frequency slot from each anchor participates in global attention, while all slots interact locally. This allows the model to increase spectral detail without enlarging the global sequence. A spatial head further adds a local correction to the spectral prediction, while the generative state, target, and loss remain in pixel space. On ImageNet-256, SpecSlot achieves a comparable final FID to a FLOPs-matched JiT control while converging faster. On ImageNet-512, it improves FID by 2.84 over the control with 3.9% fewer FLOPs, and comes within only 0.69 FID of JiT-B/16 at 38.2% lower cost. On text-to-image generation, SpecSlot surpasses JiT-B/8 on DPG-Bench by 1.06 at 40.6% lower forward cost.",
+   "authors": [
+    "Jiongfan Yang",
+    "Weichen Fan",
+    "Haiwen Diao",
+    "Zhongang Cai",
+    "Ziwei Liu"
+   ],
+   "orgs": [],
+   "published": "2026-10-29T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.40647",
+     "signal": "▲ 11",
+     "metric": 11
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.40647",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "SpecSlot：解耦像素空间生成细节与全局注意力长度",
+   "summary_zh": "提出 SpecSlot，将每个空间锚点扩展为多个 DCT 频带槽位，仅最低频槽参与全局注意力、其余局部交互，从而在不增加全局序列长度的前提下提升细节。ImageNet-512 上 FID 较对照提升 2.84 且 FLOPs 少 3.9%。",
+   "highlights_zh": [
+    "核心洞察：低频结构需全局通信，高频细节可局部建模",
+    "锚点密度与频谱细分解耦，细节不再受全局序列长度限制",
+    "ImageNet-512 上以 38.2% 更低成本逼近 JiT-B/16，文生图 DPG-Bench 超 JiT-B/8 1.06"
+   ],
+   "why_zh": "像素空间生成 Transformer 的效率与细节权衡新思路，值得做图像生成架构的团队参考。",
+   "tags": [
+    "视觉",
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.5886,
+   "score_llm": 8.0,
+   "score": 0.7154,
+   "date": "2026-10-30",
+   "slot": "evening",
+   "selected_at": "2026-10-30T11:18:13+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.40647.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.40647"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.40647"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.40647"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.40647"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.40647"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.40647"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/JiongfanYang/SpecSlot"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.39633",
+   "kind": "paper",
+   "title": "Intrinsic Distribution Matching",
+   "url": "https://arxiv.org/abs/2610.39633",
+   "pdf_url": "https://arxiv.org/pdf/2610.39633",
+   "abstract": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to bring the generated distribution closer to a reference distribution. Following prior work, we estimate this difference with internal velocity branches, avoiding a separate fake-score network. We ask whether an explicit moment constraint improves this learned score supervision. A decomposition of the reverse-KL field into a Gaussian moment component and a non-Gaussian residual identifies statistics that can be constrained explicitly. We introduce Intrinsic Distribution Matching (IDM), which retains the full DMD correction and matches feature means and per-coordinate standard deviations using the generator's exponential-moving-average (EMA) copy, requiring no external feature encoder. Experiments use full-parameter and low-rank adaptation (LoRA) tuning on Z-Image-Turbo 6B and Qwen-Image 20B. At two network evaluations, IDM reaches 94.25% and 90.20% on Chinese and English LongText-Bench, the highest scores among the compared methods at this budget. Controlled ablations show gains from the added moment loss, while generator EMA features perform competitively with an external DINOv2 encoder across the five reported metrics. Code is available at https://github.com/inclusionAI/IDM.",
+   "authors": [
+    "Deyuan Liu",
+    "Yansen Han",
+    "Kaiwen Zheng",
+    "Jun Xie",
+    "Jiacheng Liu",
+    "Zhenglin Cheng",
+    "Peng Sun",
+    "Jintao Zhang",
+    "Jianguo Li",
+    "Tao Lin"
+   ],
+   "orgs": [
+    "inclusionAI"
+   ],
+   "published": "2026-10-29T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2610.39633",
+     "signal": "▲ 232",
+     "metric": 232
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "内在分布匹配：一步生成模型的矩约束改进",
+   "summary_zh": "提出IDM方法，在DMD蒸馏基础上显式约束特征均值与标准差，用生成器EMA副本替代外部编码器，在LongText-Bench中英文上取得同预算最优。",
+   "highlights_zh": [
+    "将反向KL场分解为高斯矩分量与非高斯残差，识别可显式约束的统计量",
+    "无需外部特征编码器，用生成器EMA特征即可与DINOv2编码器竞争",
+    "在Z-Image-Turbo 6B与Qwen-Image 20B上验证全参数与LoRA微调"
+   ],
+   "why_zh": "少步文生图蒸馏的关键改进，对做扩散模型加速与文本渲染的团队有直接参考价值。",
+   "tags": [
+    "多模态",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.68,
+   "score_llm": 7.0,
+   "score": 0.692,
+   "date": "2026-10-30",
+   "slot": "evening",
+   "selected_at": "2026-10-30T11:18:13+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.39633"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.39633"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.39633"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.39633"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.39633"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.39633"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/inclusionAI/IDM"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a1765f446c5b",
+   "kind": "article",
+   "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+   "url": "https://huggingface.co/blog/mistral-large4",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-10-29T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/mistral-large4",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Mistral Large 4 登陆 Hugging Face",
+   "summary_zh": "Mistral 新一代旗舰模型 Large 4 上线 Hugging Face，欧洲头部开源厂商的旗舰迭代，影响开源模型选型与部署。",
+   "highlights_zh": [
+    "Mistral 旗舰模型代际更新",
+    "通过 Hugging Face 分发，便于直接调用与微调",
+    "对开源大模型竞争格局有直接影响"
+   ],
+   "why_zh": "头部开源厂商旗舰迭代，选型与部署决策需跟进。",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 8.0,
+   "score": 0.672,
+   "date": "2026-10-30",
+   "slot": "evening",
+   "selected_at": "2026-10-30T11:18:13+00:00",
+   "mirror_pdf": "pdf/web-a1765f446c5b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/mistral-large4"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0876c9c2b397",
+   "kind": "article",
+   "title": "CopilotKit/OpenBot",
+   "url": "https://github.com/CopilotKit/OpenBot",
+   "pdf_url": "",
+   "abstract": "Star CopilotKit / OpenBot Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.\nREADME: # OpenBot **The AI assistant your company can actually own.** Same shape as ChatGPT, Claude or Grok, with one difference that matters: it runs on your infrastructure and you can change anything about it. Any agent stack, through AG-UI. Each coworker gets a real browser with its own logins, its own files, and only the tools you grant. Every action decided before it happens and recorded after. [**Talk to an engineer**](https://copilotkit.ai/talk-to-an-engineer?ref=openbot_readme) · [**Have us build it with you**](https://copilotkit.ai/talk-to-an-engineer?ref=openbot_readme) · [**copilotkit.ai/openbot**](https://copilotkit.ai/openbot) · [**Quick start**](#quick-start) · [**Docs**](docs/README.md) [![CI](https://github.com/CopilotKit/openbot/actions/workflows/ci.yml/badge.svg)](https://github.com/CopilotKit/openbot/actions/workflows/ci.yml) [![security](https://github.com/CopilotKit/openbot/actions/workflows/security_zizmor.yml/badge.svg)](https://github.com/CopilotKit/openbot/actions/workflows/security_zizmor.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) ![Beta](https://img.shields.io/badge/status-beta-yellow.svg) [![Trendshift: #3 Repository Of The Day](https://trendshift.io/api/badge/trendshift/repositories/175080/daily)](https://trendshift.io/repositories/175080) https://github.com/user-attachments/assets/535ef7ee-1631-4a69-b839-564c56cf90b4 Bring any AG-UI agent, written on a framework or by hand, and it arrives as a coworker with a cha",
+   "authors": [],
+   "orgs": [
+    "CopilotKit"
+   ],
+   "published": "2026-10-30T11:18:13+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/CopilotKit/OpenBot",
+     "signal": "★ 今日 +707 · TypeScript",
+     "metric": 707
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenBot：企业可自托管的AI同事",
+   "summary_zh": "CopilotKit开源可自托管的AI同事框架，每个智能体拥有独立浏览器、文件与工具权限，动作先决策后记录，通过AG-UI接入任意智能体栈。",
+   "highlights_zh": [
+    "每个AI同事配独立浏览器与登录态，工具权限按需授予",
+    "所有动作执行前决策、执行后留痕，便于审计",
+    "通过AG-UI协议兼容任意智能体框架，MIT许可"
+   ],
+   "why_zh": "如果你在给公司搭自托管AI助手，可用它快速获得带审计与权限隔离的智能体运行环境。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6092,
+   "score_llm": 7.0,
+   "score": 0.6637,
+   "date": "2026-10-30",
+   "slot": "evening",
+   "selected_at": "2026-10-30T11:18:13+00:00",
+   "mirror_pdf": "pdf/web-0876c9c2b397.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/CopilotKit/OpenBot"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7e7a6ce6c81f",
+   "kind": "article",
+   "title": "lightpanda-io/browser",
+   "url": "https://github.com/lightpanda-io/browser",
+   "pdf_url": "",
+   "abstract": "Star lightpanda-io / browser Lightpanda: the headless browser designed for AI and automation\nREADME: Lightpanda Browser The headless browser built from scratch for AI agents and automation. Not a Chromium fork. Not a WebKit patch. A new browser, written in Zig. 16x lighter and 9x faster than Chromium. [![License](https://img.shields.io/github/license/lightpanda-io/browser)](https://github.com/lightpanda-io/browser/blob/main/LICENSE) [![Twitter Follow](https://img.shields.io/twitter/follow/lightpanda_io)](https://twitter.com/lightpanda_io) [![GitHub stars](https://img.shields.io/github/stars/lightpanda-io/browser)](https://github.com/lightpanda-io/browser) [![Discord](https://img.shields.io/discord/1391984864894521354?style=flat-square&label=discord)](https://discord.gg/K63XeymfB5) [ ](https://github.com/lightpanda-io/demo) [ ](https://github.com/lightpanda-io/demo) ## Benchmarks Requesting 933 real web pages over the network on a AWS EC2 m5.large instance. See [benchmark details](https://github.com/lightpanda-io/demo/blob/main/BENCHMARKS.md#crawler-benchmark). | Metric | Lightpanda | Headless Chrome | Difference | | :---- | :---- | :---- | :---- | | Memory (peak, 100 pages) | 123MB | 2GB | ~16x less | | Execution time (100 pages) | 5s | 46s | ~9x faster | ## Quick start ### Install **Package Managers** Latest nightly from Homebrew: ```console brew install lightpanda-io/browser/lightpanda ``` Latest nightly from Arch Linux User Repository: ```console yay -S lightpanda-nightly-bin ``` **Download from the nightly builds** You can download the last binary from the [nightly build",
+   "authors": [],
+   "orgs": [
+    "lightpanda-io"
+   ],
+   "published": "2026-10-30T11:18:13+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/lightpanda-io/browser",
+     "signal": "★ 今日 +559 · Zig",
+     "metric": 559
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Lightpanda：为AI智能体打造的无头浏览器",
+   "summary_zh": "用Zig从零编写的无头浏览器，专为AI智能体与自动化设计，内存占用比Chromium低约16倍、执行速度快约9倍。",
+   "highlights_zh": [
+    "非Chromium/WebKit分支，全新实现",
+    "100页面峰值内存123MB vs Chrome 2GB",
+    "可通过Homebrew等包管理器安装"
+   ],
+   "why_zh": "如果你在跑大规模网页抓取或智能体浏览任务，换它可显著降低内存与耗时成本。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5996,
+   "score_llm": 7.0,
+   "score": 0.6598,
+   "date": "2026-10-30",
+   "slot": "evening",
+   "selected_at": "2026-10-30T11:18:13+00:00",
+   "mirror_pdf": "pdf/web-7e7a6ce6c81f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/lightpanda-io/browser"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d8eb5a4b641e",
+   "kind": "article",
+   "title": "We ran AI agent swarms in Minecraft and Mindustry",
+   "url": "https://labs.ycombinator.com/projects/games/index.html",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-29T21:40:28Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50296486",
+     "signal": "303 pts",
+     "metric": 303
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "在 Minecraft 与 Mindustry 中实测 AI 智能体集群",
+   "summary_zh": "作者在 Minecraft 和 Mindustry 两款游戏中搭建并运行多智能体集群，观察其在开放环境下的协作与任务完成表现，并分享实测经验与失败模式。",
+   "highlights_zh": [
+    "在两类不同游戏环境中部署智能体集群进行对比",
+    "记录多智能体协作的实际表现与常见失败模式",
+    "HN 303 分，社区对智能体集群落地讨论热烈"
+   ],
+   "why_zh": "少见的智能体集群实战复盘，比论文更贴近工程落地中的真实问题。",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.588,
+   "score_llm": 7.0,
+   "score": 0.6552,
+   "date": "2026-10-30",
+   "slot": "evening",
+   "selected_at": "2026-10-30T11:18:13+00:00",
+   "mirror_pdf": "pdf/web-d8eb5a4b641e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://labs.ycombinator.com/projects/games/index.html"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50296486"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-23509c523785",
+   "kind": "article",
+   "title": "TRAE 开发者个人助理，打响 AI Coding 的下半场",
+   "url": "http://www.geekpark.net/news/373190",
+   "pdf_url": "",
+   "abstract": "作者｜Cynthia 编辑｜郑玄 过去两年，AI Coding 最令人兴奋的时刻，大基本止步于代码生成的那一秒。 一句话生成页面，几分钟搭出原型，一个开发者用半天时间做完了过去需要一周才能完成的开发任务…… 但在这之后，即使某项单点开发任务获得五倍、十倍的提速，一个项目从需求提出到产品交付的速度，有时候未必能有两倍效率提升。 时间去了哪里？ 写提示词、等待 AI 生成是一部分；生成效果不理想，手动在 IDE 中 修改是另一部分。甚至，开发完成后，代码还需要打开终端测试；准备项目汇报，又要切换到文档和演示工具。 每换一个应用、开启一段新会话，都可能需要重新解释：项目在做什么，为什么这样设计，刚才改到了哪里，还有哪些问题没解决 。 AI 的生产力跑在了前面，而承载它的开发基建：任务调度、状态管理、验证闭环、产物沉淀、跨工具协同，还停留在前 AI 时代 。 于是，到了 2026 年，一些变化开始发生了。这一年，AI 个人助理赛道的热度彻底走到了爆发节点：Meta 推出的个人助理 Muse 上线两周便登顶美加 iOS 免费榜，下载量突破 340 万；此后，OpenAI、Google、字节、腾讯、阿里均在加速落地个人助理类产品，短期内上百玩家如雨后春笋冒出。然而，噱头大过了实际，多数生活场景并不存在所谓的标准版答案，也导致真正帮助用户解决实际问题的产品寥寥无几。 为数不多的例外来自编程，以 TRAE 为例，前不久将 TraeCode 与 TraeWork 合并之后，10 月 29 日，平台又正式上线开发者个人助理 TRAE，可以 跨项目理解历史上下文，也可以在单个项目里拆解、并行、统筹多个任务。 对开发者来说，从此开启新任务时不再从零解释；完成复杂项目推进时，也不再自己拆任务、切会话、盯进度、拼结果。 这一次，工作流的进化，终于赶上了 AI 生成的速度。 01 AI Coding 的工作单位， 在从一条指令升级为一个项目 AI 编码工具的进化，到今天刚好走完三代。 第一代是补全时代。Tab 键自动补全、函数级生成，本质是编辑器的增强，人主导每一行，AI 做填空。它提升的是输入速度，改变不了工作流。 第二代是单会话 Agent 时代。开发者说一句需求，AI 自己读文件、改代码、跑命令，能端到端做完一个小功能、跑出一个 Demo。但它仅限于完成单次会话、单个任务、上下文随会话结束清零，复杂一点的多线程任务，还是要人来拆解、跟进，做结果拼合与修改。 以全新的 TRAE 为代表，行业正式进入第三代，即项目级助理时代。 AI 开始拥有任务调度权和状态记忆，可以自己拆解复杂需求，派发多个子任务并行执行，自己完成编译、测试、验证的闭环，并且跨会话、跨项目记住做过的事、产出的文件、踩过的坑。 具体来说，与此前 OpenAI 完成 ChatGPT 与 Codex 的合并，Cursor 3 推出了专门的 Agents Window，把 Agent 管理从编辑器侧边栏独立出来类似，TRAE 先是将做编排的 Agent 模式与做开发的 IDE 模式整合，让它们可以同步本地任务对话、最终产物及相关配置。 在此基础上，又借助全局助理「全局 TRAE 宝」+ 项目助理「项目专属 TRAE 宝」的双层架构，把跨项目记忆和单项目并行调度落地到了本地仓库场景。 如此一来，开发者可以先在工作台里描述目标，由 Agent 完成拆解后，全局助理与项目助理会承接具体的开发，当开发者需要检查具体实现时，又可以再进入 IDE。 再加上配套的模板库、插件市场、自动化任务和产物管理等能力，AI 的工作单位，",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-30T05:49:25+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373190",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "TRAE推出开发者个人助理，AI Coding进入项目级时代",
+   "summary_zh": "TRAE上线开发者个人助理，通过全局与项目双层助理架构实现跨项目记忆与单项目多任务并行调度，将AI Coding从单会话Agent推进到项目级助理阶段。",
+   "highlights_zh": [
+    "AI Coding三代演进：补全→单会话Agent→项目级助理",
+    "全局TRAE宝+项目专属TRAE宝双层架构，跨会话跨项目记忆",
+    "自动拆解需求、并行子任务、完成编译测试验证闭环"
+   ],
+   "why_zh": "理解AI Coding工作流从单点提速到项目级编排的关键转折",
+   "tags": [
+    "智能体",
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-10-30",
+   "slot": "evening",
+   "selected_at": "2026-10-30T11:18:13+00:00",
+   "mirror_pdf": "pdf/web-23509c523785.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373190"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bd43dca7b973",
+   "kind": "article",
+   "title": "Zombie stats: Where the numbers AI quotes come from",
+   "url": "https://trakkr.ai/trakkr-research/zombie-stats",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-29T15:06:17Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50290283",
+     "signal": "166 pts",
+     "metric": 166
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "僵尸统计：AI 引用的数字从哪来",
+   "summary_zh": "文章追查 AI 回答中引用的统计数据来源，揭示许多数字经过多轮转引后已失真甚至无原始出处，形成在模型输出中循环传播的「僵尸统计」。",
+   "highlights_zh": [
+    "追踪 AI 引用数字的原始出处与转引链条",
+    "揭示数据在多轮传播中失真、脱离原始语境",
+    "对依赖 AI 做事实核查与内容生产有直接警示"
+   ],
+   "why_zh": "做 RAG、搜索增强或内容生成的团队应读，数据溯源问题比想象中严重。",
+   "tags": [
+    "数据与评测",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.56,
+   "score_llm": 7.0,
+   "score": 0.644,
+   "date": "2026-10-30",
+   "slot": "evening",
+   "selected_at": "2026-10-30T11:18:13+00:00",
+   "mirror_pdf": "pdf/web-bd43dca7b973.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://trakkr.ai/trakkr-research/zombie-stats"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50290283"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a098c1171ea3",
+   "kind": "article",
+   "title": "天数智芯天垓300实测对标H200，国产GPU接下来拼什么？",
+   "url": "https://www.leiphone.com/category/chips/748GRHfg9VPRbp7x.html",
+   "pdf_url": "",
+   "abstract": "在实测场景中达到H200的性能水平后，国产GPU的竞争，开始进一步转向系统效率、软件适配与实际交付。 本周的天数智芯媒体开放日上，最新一代天垓300与H200的实机对比，是最直观的性能展示。让GPU与专用芯片组成异构系统，是对推理效率的新探索。软件栈引入Agent与Skills，则试图解决客户部署、适配和优化的工程难题。 天数智芯表示，今年完成的一组第三方测试中， 在典型PD分离部署下，天垓300折算单卡端到端吞吐达到H200的1.05倍。 这表明国产通用GPU在特定高端推理负载中，已经拥有与H200直接竞争的性能基础。 但从性能接近到客户采购，再到持续扩容，中间仍隔着系统效率、软件适配和稳定交付。 当硬件具备竞争力，国产GPU怎样把这种能力转化为客户持续使用的理由？ 当推理催生更多专用芯片，通用GPU的独特价值是什么？ 从云端天垓300到端侧彤央系列，天数智芯也在拓展产品布局，将竞争延伸到不同形态的算力需求中。 天垓300对比H200实测，性能小幅领先 过去很长一段时间，峰值算力是国产AI芯片受到关注的重要指标。但对最终用户而言，设备每秒真正产出多少有效Token，比参数表上的理论算力更接近采购决策。 天数智芯披露的第三方测试覆盖四大主流模型、三类场景。其中，1.05倍指典型PD分离部署下，折算单卡的整体端到端吞吐，反映的是特定模型与部署条件下的系统表现。 另外，根据天数智芯性能实验室的数据，在GLM-5.3的64K长上下文场景下，保障同等用户体验时，天垓300的 MoE 吞吐达到H200的1.15倍。在8K至128K长上下文的Agent场景中，首字延迟较H200降低约10%至30%。 前者关系到系统能够承接多少请求，后者关系到用户发出请求后需要等待多久，它们对应不同工作负载与性能指标。 天垓300能够在这些场景中取得性能领先，一个关键是针对实际负载进行了架构优化。 基于天枢架构的天垓300，单卡显存容量达到144GB，并围绕Attention、 MoE 等计算环节进行优化。长上下文需要容纳更多状态，也增加了Attention计算压力。 MoE 虽然通过激活部分专家控制计算量，却带来了小规模矩阵计算、专家分配和数据交换等新问题。 为此，天垓300让Tensor Core与Vector Core并行处理Attention中的矩阵运算和 Softmax 等向量操作，同时针对 MoE 中的小规模矩阵、低精度计算与通信协同进行优化。 这些针对性设计，有助于减少不同计算环节之间的等待，把更多硬件资源转化为实际产出。 此次披露的测试与现场演示，展现了天垓300进入高端推理实际竞争区间的能力。对客户而言，下一步要比较的，是在同样的响应要求下，系统能承接多少请求、持续运行表现如何，以及需要付出多少设备、电力和运维成本。 推理需求催生专用芯片，GPU的价值会被削弱吗？ 随着推理需求快速增加，以LPU为代表的专用推理芯片备受关注，不同计算环节对硬件的要求也进一步分化。 Prefill处理输入，通常更偏向计算密集型任务；Decode逐步生成Token，更容易受到访存、任务启动和同步开销的影响。进一步拆开，Attention与FFN对计算、带宽和存储的需求也不相同。 当某类任务足够稳定、规模足够大，专用芯片就有机会通过针对性设计，获得更好的性能或能效。让一种通用GPU处理所有环节，未必始终对应最低的成本。 天数智芯展示的AFD分离方案，就是对这种分工的回应。 它在Prefill与Decode分离的基础上，继续拆分Decode阶段的Attention与FFN：天垓300",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-30T09:02:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/chips/748GRHfg9VPRbp7x.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "天数智芯天垓300实测对标H200，国产GPU转向系统效率之争",
+   "summary_zh": "天数智芯披露第三方测试：天垓300在PD分离部署下单卡端到端吞吐达H200的1.05倍，长上下文Agent场景首字延迟低10%-30%，竞争焦点转向软件适配与交付。",
+   "highlights_zh": [
+    "GLM-5.3 64K长上下文下MoE吞吐达H200的1.15倍",
+    "针对Attention与MoE做架构优化，Tensor Core与Vector Core并行",
+    "行业判断：从峰值算力比拼转向系统效率、软件栈与稳定交付"
+   ],
+   "why_zh": "国产GPU首次给出与H200的可比实测数据，是判断国产算力真实水位的关键样本。",
+   "tags": [
+    "效率与系统",
+    "推理",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-30",
+   "slot": "evening",
+   "selected_at": "2026-10-30T11:18:13+00:00",
+   "mirror_pdf": "pdf/web-a098c1171ea3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/chips/748GRHfg9VPRbp7x.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4a7c74077d08",
+   "kind": "article",
+   "title": "让触觉像视觉一样可规模化，哥大李昀烛团队 FlexiTac 的开源实践 | IROS 2026",
+   "url": "https://www.leiphone.com/category/robot/sRmmVes4DwBoIeRm.html",
+   "pdf_url": "",
+   "abstract": "FlexiTac压阻式传感器可兼顾柔性、低成本与一致性。 作者丨 向欣 编辑丨岑峰 机器人的视觉能力正快速增强，但 触觉仍然是具身智能系统中的薄弱环节 。尤其是在精细操作场景中，当 物体被遮挡、透明、易碎，或需要精确判断接触力与手内姿态 时，仅靠视觉往往难以确认机器人是否真正抓稳了物体、是否发生了滑移，也难以实现可靠的力控与顺从交互。 与图像领域已经形成相对统一的传感器和数据体系相比，触觉研究尚未形成类似的「收敛」。不同实验室往往使用不同类型的触觉传感器，但它们都面临 寿命、柔性、多维信息感知、分辨率、成本与一致性 难以同时兼顾的困境。这使得触觉数据采集、算法研究以及不同系统之间的复现都变得更加困难。 如何 让触觉像视觉一样 ，成为一种可以被更多机器人使用、被大量采集、被算法反复利用的基础感知能力？ 针对这个问题，哥伦比亚大学李昀烛团队提出了开源柔性压阻式触觉传感器平台 FlexiTac 。在本届 IROS 2026 的触觉专题研讨会上，李昀烛系统介绍了这一平台开源一年半后的进展与生态。 FlexiTac 是一套低成本、开源、可扩展的 压阻式柔性触觉传感器 ，团队同时开源了完整 BOM、详细组装说明以及用于读取触觉数据的软件。 FlexiTac 采用 FPC 与力敏薄膜层叠结构，组装仅需 3 分钟，可弯曲、裁剪并包裹于不同几何表面，适配手套、指尖或机器人皮肤等多种形态。 其核心优势在于 成本低、制作简单、高度柔性与可扩展、以及较好的长期稳定性和批次一致性 ，感知机制也足够简单，易于用弹簧-阻尼系统实现高保真仿真。 其技术栈可集成进主流的机器人学习框架中，门槛低到拥有即使是本科生，只要拥有一台可打印 SO-100 机械臂的 3D 打印机，也能轻松把触觉传感器装上机器人。 李昀烛提到，开源约一年半以来，FlexiTac 已在学术界与工业界获得广泛采用，衍生出多模态策略、可变形世界模型、四足移动-操纵、VLA 触觉反馈等多方向工作，他们与普渡大学合作的多指灵巧操纵工作 VTAP Gripper 还入围了本次 IROS 最佳论文奖。Analog Devices（ADI）正在推进其商业化版本，该版本 触觉分辨率达到人类手指的五倍 ，基于半导体制造工艺量产。 以下为李昀烛在 IROS 2026 演讲的精编稿，AI科技评论基于原英文内容进行了不改原意的翻译编辑： 01 3 分钟组装、本科生可用 为了让传感器易于生产、成本低廉，我们最新的版本制造成本其实已经非常低，具体多低，取决于你同一批次生产多少片。 准备好所有物料后，你只需要 花 3 分钟就可以把传感器装配完成 ，传感器随即就能投入工作。 我们这套方案是完全开源的：完整的物料清单，还有非常详尽的分步装配说明，同时也配套了可以读取、传输传感数据的对应软件。 除了传感器和配套软件本身，我们也还把这套软硬件技术栈集成到非常流行的机器人学习框架 LeRobot 里。 这样一来，任何人，哪怕只是本科生，只要手头有能够打印出低成本 SO-100 机械臂的 3D 打印机、都可以轻松地把我们的触觉传感器集成进去，然后开展相关研究，探索触觉感知如何帮助机器人理解手内物体状态，完成复杂操作任务。 在我们开源这套传感器大约一年半之后，我们欣喜地看到，这项技术已经在学术界与工业界得到广泛应用。 更让我们振奋的是，大家正在沿着不同方向继续推进、拓展整个生态：如何制造更好、能力更强的硬件；如何基于我们的触觉传感器构建更好的感知、学习和推理系统；以及如何设计真正包含触觉的大规模数据采集流程。 我们也在与亚德诺半导体（Analog Dev",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-30T08:13:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/robot/sRmmVes4DwBoIeRm.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "哥大FlexiTac：让触觉像视觉一样可规模化的开源传感器",
+   "summary_zh": "哥伦比亚大学李昀烛团队开源低成本柔性压阻触觉传感器FlexiTac，3分钟组装、可裁剪包裹，已集成LeRobot，ADI正推进商业化量产版本。",
+   "highlights_zh": [
+    "开源完整BOM、装配说明与数据读取软件，本科生即可上手",
+    "开源一年半已衍生多模态策略、VLA触觉反馈、四足操纵等方向",
+    "ADI商业化版本触觉分辨率达人类手指五倍，走半导体工艺量产"
+   ],
+   "why_zh": "触觉是具身智能的数据瓶颈，这套低成本开源方案可能成为触觉领域的「ImageNet式」基础设施。",
+   "tags": [
+    "机器人",
+    "数据与评测",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-30",
+   "slot": "evening",
+   "selected_at": "2026-10-30T11:18:13+00:00",
+   "mirror_pdf": "pdf/web-4a7c74077d08.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/robot/sRmmVes4DwBoIeRm.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3fa34da317f2",
+   "kind": "article",
+   "title": "超节点火了一年后，“算力不够就加机器”的扩张逻辑正在被改写",
+   "url": "https://www.infoq.cn/article/ZolBIJdvK5Icdqg6FB0X?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "李冬梅"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-30T15:45:06+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/ZolBIJdvK5Icdqg6FB0X?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "超节点热一年后，算力扩张逻辑正在改写",
+   "summary_zh": "InfoQ 分析超节点（Scale-up 互联架构）走红一年后，行业从「算力不够就加机器」的横向堆卡，转向以互联与系统效率为核心的扩容思路，影响算力采购与集群设计。",
+   "highlights_zh": [
+    "超节点以高带宽互联把多卡组成单一逻辑计算单元，缓解通信瓶颈",
+    "扩容评价标准从单纯堆 GPU 数量转向系统级效率与利用率",
+    "对国内算力厂商、集群方案商与自建集群的企业均有采购决策影响"
+   ],
+   "why_zh": "理解算力基础设施从堆卡到堆互联的范式转变，把握下一轮投入方向。",
+   "tags": [
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-10-30",
+   "slot": "evening",
+   "selected_at": "2026-10-30T11:18:13+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/ZolBIJdvK5Icdqg6FB0X?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1988c5f267c5",
+   "kind": "article",
+   "title": "AI写的代码，人类来不及审：英伟达1.2万行代码优化Kimi K3，另开新战场？",
+   "url": "https://www.tmtpost.com/8184634.html",
+   "pdf_url": "",
+   "abstract": "多数报道只关注 Kimi K3 提速 1.68 倍，却忽略 vLLM 博客关键警示：AI 生成推理代码已快到人类来不及逐行审查。英伟达工程师借助 AI 写出 1.2 万行 Megakernel，不换硬件就压榨模型性能。算力竞争重心转向软件栈，人机 “人在回路” 范式正被重新定义。",
+   "authors": [
+    "斯凯有话说"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-30T08:50:44+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8184634.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "英伟达用AI写1.2万行推理代码，Kimi K3提速1.68倍",
+   "summary_zh": "英伟达工程师借助AI生成1.2万行Megakernel推理代码，不换硬件让Kimi K3提速1.68倍，vLLM博客警示AI代码已快到人类来不及逐行审查。",
+   "highlights_zh": [
+    "AI生成万行级推理内核代码，性能提升不依赖新硬件",
+    "算力竞争重心从硬件转向软件栈优化",
+    "人机'人在回路'审查范式面临挑战"
+   ],
+   "why_zh": "理解AI写代码对推理性能与工程流程的实际冲击",
+   "tags": [
+    "效率与系统",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 8.0,
+   "score": 0.624,
+   "date": "2026-10-30",
+   "slot": "evening",
+   "selected_at": "2026-10-30T11:18:13+00:00",
+   "mirror_pdf": "pdf/web-1988c5f267c5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8184634.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.40637",
+   "kind": "paper",
+   "title": "world2vec: Mechanistic world models through latent dynamics learning",
+   "url": "https://arxiv.org/abs/2610.40637",
+   "pdf_url": "https://arxiv.org/pdf/2610.40637",
+   "abstract": "World models can achieve strong control performance without faithfully capturing the dynamics of their environment, limiting their potential for mechanistic interpretability and scientific discovery. Here, we introduce world2vec to learn mechanistic world models without reward information directly from observations and actions. World2vec learns latent dynamics that faithfully reproduce the true system over long prediction horizons, with at least one order of magnitude fewer parameters than DreamerV3, TD-MPC2 and LeWM. This enables state of the art performance in controlling continuous environments from pixels and accurate system identification across a benchmark of 71 attractors, demonstrating how world models are amenable to scientific discovery.",
+   "authors": [
+    "Tobias Schmidt",
+    "Rodrigo Gonzalez Laiz",
+    "Krisztián Szuppinger",
+    "Steffen Schneider"
+   ],
+   "orgs": [],
+   "published": "2026-10-29T17:58:23Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.40637",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "world2vec：从潜动力学学习机制性世界模型",
+   "summary_zh": "提出world2vec，无需奖励信号、仅从观测与动作学习忠实复现真实系统的潜动力学，参数量比DreamerV3等少一个数量级以上，在71个吸引子基准上实现精准系统辨识与像素连续控制SOTA。",
+   "highlights_zh": [
+    "不依赖奖励信息，直接从观测-动作学习机制性世界模型",
+    "参数比DreamerV3、TD-MPC2、LeWM少至少一个数量级",
+    "长预测时域忠实复现真实系统，支持科学发现式系统辨识"
+   ],
+   "why_zh": "世界模型从控制工具走向可解释的科学建模，参数效率大幅提升。",
+   "tags": [
+    "强化学习",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-30",
+   "slot": "evening",
+   "selected_at": "2026-10-30T11:18:13+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.40637.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.40637"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.40637"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.40637"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.40637"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.40637"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.40637"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.40627",
+   "kind": "paper",
+   "title": "ShallowDefend: Harnessing Shallow Safety Alignment for Multi-Turn Defender",
+   "url": "https://arxiv.org/abs/2610.40627",
+   "pdf_url": "https://arxiv.org/pdf/2610.40627",
+   "abstract": "Safety alignment has enabled large language models to reliably refuse harmful requests directly, yet the same request distributed across a multi-turn conversation still succeeds far too often. This brittleness has a mechanistic root: Alignment is shallow, with safety behavior concentrated in a model's first few output tokens, and existing defenses inherit the weakness, supervising the surface form of the response without ever giving the model an explicit safety decision to learn. We take the opposite view of shallowness: if a short span determines the trajectory of an entire response, that span is the highest-leverage place to intervene, and the defender can occupy it first. We propose Assess $\\to$ Decide $\\to$ Respond, a framework in which the defender assesses the user's intent, commits to an explicit, parseable safety decision, and only then generates a reply conditioned on it, with the commitment trained by reinforcement learning at the payload turn. Because the decision is a token span, the reward can be a rule: a self-verified reward checks the committed label against the conversation's known nature, requiring no judge and no annotation, while the same format also supports an LLM-as-judge reward over a graded decision space with safe redirection. Across two model families and fourteen benchmarks spanning safety, utility, and helpfulness, our defenders achieve the strongest multi-turn safety in a controlled comparison, maintaining their lead in safety while preserving utility at a modest cost to helpfulness. A per-token KL analysis and interventional probes confirm why this works: training concentrates its effect on the brief deliberation that sets a response's trajectory, and the decision committed there is a causal control point. The very shallowness attackers exploit becomes the mechanism of defense.",
+   "authors": [
+    "Qiyao Ma",
+    "Xiaodong Liu",
+    "Weiwei Yang",
+    "Mingqian Feng",
+    "Chengquan Guo",
+    "Jialin Song",
+    "Carolyn Buractaon",
+    "Zhe Zhao",
+    "Junshan Zhang",
+    "Sandeep Atluri",
+    "Christopher White",
+    "Jianfeng Gao"
+   ],
+   "orgs": [],
+   "published": "2026-10-29T17:56:53Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.40627",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "ShallowDefend：利用浅层安全对齐做多轮防御",
+   "summary_zh": "指出安全对齐集中在输出前几个token，故多轮对话易被绕过；提出「评估→决策→回应」框架，让模型先输出可解析的安全决策token再生成回复，用规则化自验证奖励训练，在两大模型家族14个基准上取得最强防御。",
+   "highlights_zh": [
+    "机制洞察：安全行为集中于前几个输出token，现有防御继承此弱点",
+    "显式可解析安全决策token，可用规则奖励自验证，无需judge与标注",
+    "覆盖安全、效用、有用性共14个基准，跨两个模型家族验证"
+   ],
+   "why_zh": "多轮越狱是当前对齐主要漏洞，该工作给出机制性且可落地的防御范式。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-30",
+   "slot": "evening",
+   "selected_at": "2026-10-30T11:18:13+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.40627.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.40627"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.40627"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.40627"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.40627"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.40627"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.40627"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.40287",
+   "kind": "paper",
+   "title": "Only Accepted Tokens Count: An Energy Accounting of Speculative Decoding Under Latency Targets",
+   "url": "https://arxiv.org/abs/2610.40287",
+   "pdf_url": "https://arxiv.org/pdf/2610.40287",
+   "abstract": "Large language model serving is limited by facility power. Energy per token determines how many tokens a datacenter can serve, while a latency target bounds how quickly each user receives them. During decode, every weight is read from memory for every generated token. Batching amortizes this read across users but makes no individual user faster. Speculative decoding does: a drafter proposes several future tokens, and the target model verifies them in a single forward pass that reuses the same weight read. Because every drafted token must be verified whether or not it is accepted, the energy speculation saves depends on how many drafted tokens are accepted. This saving is hard to pin down. It varies across target models from different attention families and across drafting schemes, and it depends on the text being served. Every drafter we evaluate accepts fewer tokens on conversation than on code, and every trained drafter accepts fewer on Romansh, a low-resource language, than on English. We measure speculative decoding under production serving conditions (SGLang, CUDA graphs enabled) on H100 and H200 GPUs, at batch sizes up to 64 across 5 corpora. On dense models, verification, not drafting, dominates the energy cost. The saving shrinks as the batch grows, because batching has already shared the weight read that speculation would divide among the accepted tokens. At large batch sizes, block drafters push verification past the balance point between arithmetic and memory traffic into the compute-bound regime, where the saving becomes a loss, and a drafter with low acceptance raises energy per token. Meeting a tighter latency target with speculation then costs additional energy. Larger batches lower energy per token without speculation. Speculation adds to that saving only when acceptance is high, and on the model we tested it leaves little headroom for latency-preserving DVFS.",
+   "authors": [
+    "Bole Ma",
+    "Ayesha Afzal",
+    "Jan Eitzinger",
+    "Harald Koestler",
+    "Gerhard Wellein"
+   ],
+   "orgs": [],
+   "published": "2026-10-29T15:37:45Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.40287",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "论文",
+   "lang": "en",
+   "who": "",
+   "title_zh": "只算被接受的 token：投机解码的能耗账",
+   "summary_zh": "在生产级 SGLang 环境实测投机解码能耗，发现密集模型上验证而非起草主导能耗，批大小增大后节能效果收窄，对话与低资源语言接受率更低。",
+   "highlights_zh": [
+    "所有草稿模型在对话上接受 token 数都少于代码，低资源语言更差",
+    "密集模型上验证阶段而非起草阶段主导能耗",
+    "批处理已分摊权重读取，投机解码的节能随批大小增长而缩小"
+   ],
+   "why_zh": "为数据中心按能耗/延迟目标部署投机解码提供实测依据。",
+   "tags": [
+    "效率与系统",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-30",
+   "slot": "evening",
+   "selected_at": "2026-10-30T11:18:13+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.40287.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.40287"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.40287"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.40287"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.40287"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.40287"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.40287"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-97c28dfefe84",
+   "kind": "article",
+   "title": "ccch1mneyyy/dsh-Go",
+   "url": "https://github.com/ccch1mneyyy/dsh-Go",
+   "pdf_url": "",
+   "abstract": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。\nREADME: 简体中文 · English DeepSeek Harness 的 Android 客户端。手机上直接跑，也能遥控你电脑上的 DSH。 Deepy 和鲸娘，陪你干活 干活时敲代码，做完来个空翻，等你确认会举手。打开「App 外显示」，它们还会跟你到桌面。 下载 DSH Go 从 GitHub Releases 或官网下载页获取最新版 APK，常见手机选 arm64 包。 感谢大家对 DSH Go 的支持和喜爱，我将尽快适配 iOS 和鸿蒙！大家 Star 点得越多，我适配得越快哦 hhh 第一次用可以先看 使用指南 ，遇到问题欢迎来 论坛和 QQ 群 。 手机上装过签名不同的早期测试包时不能直接覆盖安装，需要先卸载旧版；卸载会清空对话、Linux 环境和设置。 本机运行，也能遥控电脑 内置 Linux 环境，免 Root、免 Termux。电脑上的 DSH，也能一键切过去接着用。 插话、打断，过程自动收好 回复中途也能插话，排队的消息随时「立即发送」。做完的过程折叠成一行。 原生界面，也有网页版 和官方网页版一键切换，停在同一段对话，下次打开还是你上次用的那个。 分享卡、对话回放和链接 回复一键做成分享卡。整段对话生成链接，对方在浏览器里回放，链接端到端加密。 横屏与平板 横屏手机和平板重新排版：侧栏常驻，内容居中，弹出键盘也不挤。 主题配色与桌面图标 六套主题色，也能跟随壁纸或自选颜色。四款桌面图标，三种功能图标风格。 中文，也说 English 全部界面支持英文，在设置里切换，默认跟随系统。 手机操控 看屏幕、帮你点，三档确认随你选。付款、密码和验证码，永远交还给你。 ## 可以做什么 DSH Go 提供聊天界面、本机运行环境和远程连接，是基于 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的第三方项目。运行在手机上的是 DSH 引擎；模型请求仍由你配置的模型提供方处理。 - **本机运行**：在 App 内安装 Ubuntu、Node.js 与 DSH 运行环境，无需 Root 或另装 Termux。 - **远程连接**：通过 SSH 或 DSH Remote 使用电脑、服务器上的 DSH。 - **聊天与工具**：切换模型，发送图片、使用语音输入，处理工具审批和提问；支持聊天界面与网页模式。 - **插件界面**：使用适配 DSH Go 的原生工具卡、表单和面板；仓库提供 SDK、教程和示例。 - **手机操控**：在你开启权限后，让本机引擎读取屏幕、点按和输入，并可随时停止。 - **分享与外观**：分享、导出和回放对话，调整主题、图标和桌宠。 功能随主机和连接方式不同。DSH Remote 当前只支持图片附件，不能在 App 内打开网页版，插件管理限于开关，且不支持 DS Bot 和对话日志导出。详见[本机引擎与远程主机](docs/guide/zh/03-engine-hosts.md)。 ## 安装 安装要求为 Android 8.0（API 26）及以上。Release 页面上的 **arm64** 安装包适用于常见的 64 位 Android 手机；x86_64 设备和模拟器用的 x64 包在发布说明末尾的「其他版本下载」里。仓库没有 32 位 ARM 构建。 1. 从 [GitHub Releases](https://github.com/ccch1mneyyy/dsh-go/releases/latest) 或[官网下载页](ht",
+   "authors": [],
+   "orgs": [
+    "ccch1mneyyy"
+   ],
+   "published": "2026-10-30T11:18:13+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/ccch1mneyyy/dsh-Go",
+     "signal": "★ 1,593（新项目） · Dart",
+     "metric": 1593
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "DSH Go：手机端DeepSeek Harness客户端",
+   "summary_zh": "第三方Android客户端，可在手机本机运行DeepSeek Harness的Linux环境，也能远程连接电脑上的DSH，支持插件界面与手机操控。",
+   "highlights_zh": [
+    "内置免Root Linux环境，App内直接跑DSH引擎",
+    "支持SSH/DSH Remote连接电脑端继续同一对话",
+    "提供插件SDK与原生工具卡，可扩展界面"
+   ],
+   "why_zh": "如果你常用DeepSeek Harness写代码，装它可在手机上随时接管任务或远程续跑。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5997,
+   "score_llm": 6.0,
+   "score": 0.5999,
+   "date": "2026-10-30",
+   "slot": "evening",
+   "selected_at": "2026-10-30T11:18:13+00:00",
+   "mirror_pdf": "pdf/web-97c28dfefe84.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/ccch1mneyyy/dsh-Go"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a8861851d387",
+   "kind": "article",
+   "title": "英伟达团队基于 MiniMax H3 开源视频增强方案，最高支持 4K 重生成",
+   "url": "https://www.qbitai.com/2026/10/506743.html",
+   "pdf_url": "",
+   "abstract": "英伟达与麻省理工学院团队，在 Hugging Face 发布了视频增强项目 Open-H3-Regenerate-2K 的模型权重",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-30T07:31:11+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/506743.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "英伟达联合 MIT 开源视频增强方案，最高支持 4K 重生成",
+   "summary_zh": "英伟达与 MIT 在 Hugging Face 发布 Open-H3-Regenerate-2K 模型权重，基于 MiniMax H3 实现最高 4K 视频增强重生成。",
+   "highlights_zh": [
+    "基于 MiniMax H3 的开源视频增强方案",
+    "支持最高 4K 分辨率重生成",
+    "模型权重已在 Hugging Face 开放"
+   ],
+   "why_zh": "视频生成与增强方向的开源落地，工程团队可直接试用。",
+   "tags": [
+    "多模态",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-30",
+   "slot": "evening",
+   "selected_at": "2026-10-30T11:18:13+00:00",
+   "mirror_pdf": "pdf/web-a8861851d387.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/506743.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e06a9dfecdc1",
+   "kind": "article",
+   "title": "RSI立大功！国产开源登顶全球第一，1.3B OXR重塑OCR",
+   "url": "https://www.qbitai.com/2026/10/506686.html",
+   "pdf_url": "",
+   "abstract": "解析一切",
+   "authors": [
+    "Jay"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-30T05:52:47+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/506686.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "国产 1.3B OCR 模型 OXR 登顶全球第一",
+   "summary_zh": "国产开源 OCR 模型 OXR 以 1.3B 参数登顶全球榜单，主打「解析一切」，小模型在文档解析任务上超越更大模型。",
+   "highlights_zh": [
+    "1.3B 小参数模型登顶 OCR 榜单",
+    "强调通用文档解析能力",
+    "RSI 训练方法被认为是关键"
+   ],
+   "why_zh": "小模型在 OCR 上反超，文档解析选型可参考。",
+   "tags": [
+    "视觉",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-30",
+   "slot": "evening",
+   "selected_at": "2026-10-30T11:18:13+00:00",
+   "mirror_pdf": "pdf/web-e06a9dfecdc1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/506686.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1fc3529c9ecd",
+   "kind": "article",
+   "title": "从学习人类到学习机器人同伴，清华大学联合无问芯穹、智元提出具身智能规模化落地新路径",
+   "url": "https://www.qbitai.com/2026/10/506662.html",
+   "pdf_url": "",
+   "abstract": "让机器人成为彼此的“老师”",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-30T03:48:04+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/506662.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "清华联合无问芯穹、智元提出具身智能规模化新路径",
+   "summary_zh": "清华联合无问芯穹与智元提出让机器人互相学习、互为「老师」的训练范式，探索具身智能规模化落地路径。",
+   "highlights_zh": [
+    "从学习人类转向机器人同伴互学",
+    "面向具身智能规模化落地",
+    "产学研联合提出新训练范式"
+   ],
+   "why_zh": "具身智能数据瓶颈的新解法，机器人方向值得关注。",
+   "tags": [
+    "机器人",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-30",
+   "slot": "evening",
+   "selected_at": "2026-10-30T11:18:13+00:00",
+   "mirror_pdf": "pdf/web-1fc3529c9ecd.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/506662.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-371b1e06db16",
+   "kind": "article",
+   "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
+   "url": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/",
+   "pdf_url": "",
+   "abstract": "Mistral’s open-weight release, frontier monitoring, and the day’s AI Twitter and Reddit recaps.",
+   "authors": [
+    "swyx .ai"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-30T08:24:29+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Latent Space 举办 AIE CODE 编程智能体大会",
+   "summary_zh": "Latent Space 举办首届聚焦编程智能体的 AIE CODE 大会，并汇总 Mistral 开源权重发布、前沿模型监控及当日 AI 社区热点。",
+   "highlights_zh": [
+    "AIE CODE 是首个专注编程智能体的行业会议",
+    "提及 Mistral 开源权重模型发布",
+    "汇总当日 AI Twitter/Reddit 讨论热点"
+   ],
+   "why_zh": "了解编程智能体赛道的最新行业动向与社区关注点",
+   "tags": [
+    "智能体",
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 6.0,
+   "score": 0.58,
+   "date": "2026-10-30",
+   "slot": "evening",
+   "selected_at": "2026-10-30T11:18:13+00:00",
+   "mirror_pdf": "pdf/web-371b1e06db16.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-92faaa675bfe",
+   "kind": "article",
+   "title": "IROS 2026 观察：从 Demo 到生产力工具，灵巧手还要跨过几道坎？",
+   "url": "https://www.leiphone.com/category/robot/jv4zJUmQr2wkoN0i.html",
+   "pdf_url": "",
+   "abstract": "灵巧手的设计逻辑，要由落地需求反推。 作者丨向 欣 编辑丨高景辉 今年 IROS，灵巧操作和触觉的热度比以往更盛，串珠子、插 USB、给帆布袋烫 logo、手内转笔、转球、调酒，各种演示在现场轮番上演。 从 ICRA，到 WRC，再到 IROS，我们追踪了今年几乎所有机器人领域的顶会，一个越来越清晰的感受是：对灵巧手而言，完成复杂动作已经越来越不是难事。 展示不再局限于简单的抓取和搬运，变得更强调 复杂接触（contact-rich）、动态调整、长时序操作 以及 可变形物体处理 等接近真实作业的任务。 整体来看，厂商对落地的需求越来越高，心态也更加务实。过去大家追求参数丰富、指标极致，如今 不少参数反而开始回 调，有的是自由度做了减法，有的是传感器配置更加务实。 长期可靠 性、稳定使用、易维护，以及交付后能否真正用起来被放到更优先的位置。 这也是今年我们在源升智能展台看到的一个有意思的变化。 IROS现场，源升智能的高自由度五指灵巧手Apex Hand展示了一组侧重点不同的操作任务：基于强化学习的手内转球、灵巧手把脉、全掌触觉实时感知、持续高负载恒温抓握，以及劈裂木板、钉钉子等高冲击操作。 这些Demo展示了Apex Hand在 复杂接触、动态调整、长时序操作和高冲击场景下 的综合能力，它已经能完成足够复杂的动作，甚至在某些维度上超出了常规抓取搬运的范畴。 但这些能力要如何从展台走向真实作业，并被客户持续用起来？一只面向真实应用的灵巧手，究竟需要具备怎样的综合能力？ 带着好奇，我们和源升智能创始人杨思成聊了聊，发现 源升 对 于产品和落地的思考非常清晰 ：从一开始，源升就是从落地的角度去定义产品 ，以真实场景的需求为起点，反向推导灵巧手需要具备哪些能力。 从产品定义到量产验证，再到数据采集与开发生态，他对灵巧手产品化的思考，可以归结为 三个判断 ： 其一，灵巧手的竞争正从追求多项性能指标的极致，转向 构建 面向真实任务的系统能力 。 所谓系统能力，不是单项指标越高越好，而是可靠性、灵巧性、负载能力、动态响应、触觉感知和精度等维度达到均衡，不能存在明显短板。 其二，参数够用之后，真正的分水岭是 长期稳定工作能力 。 散热、结构可靠性、疲劳寿命和可维护性，这些在 Demo 中不容易被看到的问题，最终都会影响维护成本、寿命和停机风险。 其三，硬件交付并不意味着操作能力的交付。不解决 高质量 操作 数据 的获取问题，「硬件做得再好也很难用起来」。 这三个判断，也提供了一个观察今年灵巧手行业变化的角度。 01 能落地的灵巧手，到底要具备哪些能力 灵巧手落地的第一关，是 产品能力本身 。 过去几年，灵巧手产品不断突破自由度、负载和精度等指标。但随着越来越多厂商能够展示复杂五指操作，一个问题也开始变得突出：参数的提升，是否必然意味着实际操作能力的提升？ 杨思成对此有自己的判断。 在他看来，一只面向真实应用的灵巧手，首先 需要明确哪些能力真正影响任务完成 ，哪些性能提升又会带来额外的结构复杂度和工程成本。在此基础上，参数的提升才对实际操作能力有意义。 回看 Apex Hand 的产品定义，源升有几个超前的选择：自由度取舍、最小抓握直径以及全掌触觉和全关节反驱。这些指标的一些设计在当时并不主流，如今才逐渐成为行业共识。 第一个选择，是控制自由度 。 Apex Hand 的 21 个自由度对应人手解剖学结构：拇指 5 个，其余四指各 4 个。它也是全球极少数能满分通过 Kapandji 对指测试的量产五指灵巧手。 行业里不少人曾做到 22 个自由度，多出的是靠近小拇",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-30T07:23:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/robot/jv4zJUmQr2wkoN0i.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "IROS 2026观察：灵巧手从Demo走向生产力还差几道坎",
+   "summary_zh": "灵巧手完成复杂动作已不稀奇，行业重心转向长期可靠性、散热寿命与操作数据获取；源升智能主张从落地需求反推产品定义，参数开始做减法。",
+   "highlights_zh": [
+    "厂商不再追求参数极致，自由度与传感器配置趋于务实",
+    "真正分水岭是长期稳定工作能力：散热、疲劳寿命、可维护性",
+    "硬件交付不等于操作能力交付，高质量数据获取是短板"
+   ],
+   "why_zh": "一线展会观察加创始人访谈，勾勒出灵巧手从炫技到商用的真实卡点。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-30",
+   "slot": "evening",
+   "selected_at": "2026-10-30T11:18:13+00:00",
+   "mirror_pdf": "pdf/web-92faaa675bfe.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/robot/jv4zJUmQr2wkoN0i.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ca1d3a443115",
+   "kind": "article",
+   "title": "伯牙智能刘欣：GPT-6 之后，轮到硬件拖机器人后腿了 | 物理AI 50人",
+   "url": "https://www.leiphone.com/category/robot/EnKFLg1RRmN9SaHJ.html",
+   "pdf_url": "",
+   "abstract": "灵巧手去年出货近 2 万只，大部分在「吃灰」 作者丨 向 欣 编辑丨 高景辉 去年，国内灵巧手公开可查的出货量是约两万只。在伯牙智能创始人刘欣的观察里，其中大部分灵巧手的归宿是跟着人形机器人表演几场，然后被搁在角落里， 「表演完就吃灰」 。 便宜的低自由度灵巧手多用于表演；操作能力更强的高自由度产品又容易损坏，有的因为贵，买回来供着不敢用，有的用一星期到两三个月就坏了——这是刘欣看到的灵巧手市场的现状。 在他看来，灵巧手行业连目标客户是谁、要解决什么问题、客户愿意为什么买单，都还没有明确答案。行业需要开辟 第三个市场 ：以可接受的成本，将科研级操作能力带入实际应用。 而这样的产品至今仍未出现，目前最顶尖的灵巧手，离人手能力都相差甚远。这就是伯牙的机会。 刘欣在阿里工作近十年，曾任阿里巴巴操作系统事业部技术总监、斑马智行产品负责人，业务涉及手机、汽车、IoT 和机器人。2023 年，他加入蔚来，负责乐道汽车智能化相关产品。 2024 年 8 月，他联合斑马智行联合创始人张斯成，以及哈尔滨工业大学（深圳）、中国科学技术大学的两位教授创办伯牙智能，希望「为人工智能造一双真正能干活的手」。 跨行业的经历，让他习惯把一件事放进更大的坐标系里思考，做灵巧手也是如此。他喜欢从不同领域里寻找灵巧手的产品思路，思考市场的迭代和发展方向，会参照汽车和手机的发展历程，也会从生物进化和人体结构出发，思考五指设计的必要性；旁征博引，各种论据信手拈来。 由此，他形成了一些与行业主流判断不同的看法： 相比硬件，模型可能更早触及能力拐点 ，届时限制机器人操作的可能是身体，而非大脑； 直驱手虽然暂时领先，但绳驱会后来居上 ；灵巧手的精度标准，应该从「重复定位精度」变成 「可控制的最小精度」 。 伯牙的首款灵巧手高山 S1有 22 个自由度，采用以绳驱为主，齿轮直驱加丝杠连杆为辅的混合驱动。刘欣介绍，他们是全球第一家做绳驱＋丝杠并联手腕构型的灵巧手公司。 除了硬件，伯牙还在开发一套「小脑」模型，内置 30 多种标准动作，由上层模型调用相应动作，并通过实时反馈调整执行细节，让灵巧手更稳定地完成操作。 在这个行业，卖出去不等于用了起来。一只灵巧手距离真正可用，还有多远？伯牙为什么认为绳驱路线会后来居上，灵巧手的「小脑」要怎么做？以下是 AI 科技评论与刘欣的对话。 01 2 万只灵巧手，大部分都在吃灰 ▎ AI 科技评论：有公开数据显示，去年灵巧手的出货量是 2 万只，伯牙却在今年 6 月才推出产品，会觉得自己比市场晚了一步吗？ 刘欣： 这两万只可能大部分都是卖给配合人形机器人做表演，表演完就吃灰。 事实上，现在灵巧手行业在各种意义上都没收敛，包括技术路线，产品定义和客户价值。行业仍然处在特斯拉 Roadster、理想 ONE 的早期阶段，甚至比理想 ONE 还要更靠前，因为理想 ONE 已经有非常清晰的产品定义边界，而目前的灵巧手没有。所以也不能简单地说谁晚了。 ▎ AI 科技评论：根据你的观察，现在灵巧手的市场情况是怎么样的？ 刘欣： 今天的灵巧手产品两级分化。一类是低自由度的，简单、耐用、便宜，几千块钱就能买到，但操作能力非常有限，主要用来给人形机器人做表演，挥挥手之类；另一类是高自由度的，操作能力更好，成本也高，主流价格都在 10 万以上，但也用不起来，主要是科研机构在买。 我们今天是在创造灵巧手的第三个市场，把一部分科研级的操作能力带到实际应用中，同时让成本落在客户能接受的范围内，解决过去自动化设备处理不了的问题。 不过这样的产品今天依然不存在， 今天市面上最先进、最高端的灵",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-30T07:13:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/robot/EnKFLg1RRmN9SaHJ.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "伯牙智能刘欣：GPT-6之后，拖机器人后腿的会是硬件",
+   "summary_zh": "伯牙智能创始人刘欣认为模型可能先于硬件触及能力拐点，届时身体而非大脑成为瓶颈；他判断绳驱将后来居上，灵巧手需开辟科研级能力下沉的第三市场。",
+   "highlights_zh": [
+    "去年国内灵巧手出货约2万只，大部分表演后吃灰",
+    "市场两极分化：低价低自由度只能表演，高自由度贵且易坏",
+    "精度标准应从「重复定位精度」改为「可控制的最小精度」"
+   ],
+   "why_zh": "对具身智能瓶颈在脑还是在身的反主流判断，值得作为行业分歧点参考。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-30",
+   "slot": "evening",
+   "selected_at": "2026-10-30T11:18:13+00:00",
+   "mirror_pdf": "pdf/web-ca1d3a443115.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/robot/EnKFLg1RRmN9SaHJ.html"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "开源模型参数规模跃升至万亿级，闭源与开源的性能差距进一步收窄",
-   "why": "Mistral开放1T参数多模态模型权重并称最强开源编码模型，开源阵营首次触及万亿参数门槛。",
+   "trend": "AI资本叙事转向：算力售罄但现金流转负，市场开始索要回报",
+   "why": "谷歌、微软、亚马逊订单排到2028年却现负自由现金流，Alphabet单日暴跌13%、市值蒸发5000亿。",
    "refs": [
-    "web-8ccea7e89b70"
-   ]
-  },
-  {
-   "trend": "AI投入与资本市场回报的裂痕成为头部厂商的核心矛盾",
-   "why": "Gemini 4 Carbon登顶评测却伴随Alphabet单日暴跌13%、市值蒸发5000亿美元，算力售罄与现金流转负并存。",
-   "refs": [
-    "web-e172ded3f686",
     "web-455b5d1512f8",
     "web-eed1496dc02c",
-    "web-c74b9faead0d"
+    "web-c74b9faead0d",
+    "web-e172ded3f686"
    ]
   },
   {
-   "trend": "AI自我研发进入可量化阶段，评测体系开始转向自主等级与失准监控",
-   "why": "Anthropic披露26%研发任务达AL4自主等级，OpenAI同步推出分层监控检测智能体越权。",
+   "trend": "头部模型竞争从榜单转向商业化兑现，登顶不等于估值",
+   "why": "Gemini 4 Carbon登顶Artificial Analysis却未获资本市场回报，Anthropic S-1财务反被评强劲。",
+   "refs": [
+    "web-eebb63f2228b",
+    "web-e172ded3f686",
+    "web-a03a5f4a210c",
+    "web-9470a7a6ae92"
+   ]
+  },
+  {
+   "trend": "AI造AI进入可量化阶段，研发自主等级成为新竞争指标",
+   "why": "Anthropic披露Claude贡献超90%内部代码、26%研发任务达AL4自主等级。",
    "refs": [
     "web-e88873c5e859",
-    "web-d28967fce9c6"
-   ]
-  },
-  {
-   "trend": "视觉推理评测暴露「看见」与「推理」的断层，成为新基准焦点",
-   "why": "decoy counting基准揭示模型视觉感知与推理能力脱节，Glimpse尝试以图像思考弥合。",
-   "refs": [
-    "web-2df0e95472f6"
-   ]
-  },
-  {
-   "trend": "编程智能体战略从独立工具收敛为统一开发环境",
-   "why": "谷歌停用Jules并将经验整合进Antigravity，Anthropic同步取消传统编程面试重估工程师能力。",
-   "refs": [
-    "web-711b6a5fc430",
     "web-4215884a9747"
+   ]
+  },
+  {
+   "trend": "评测方法拐点：从静态榜单转向动态环境与「看见vs推理」差距",
+   "why": "decoy counting基准揭示视觉推理断层，谷歌EnvHarness让智能体在动态环境自进化。",
+   "refs": [
+    "web-2df0e95472f6",
+    "web-894c78c2c890",
+    "web-d8eb5a4b641e"
+   ]
+  },
+  {
+   "trend": "开源旗舰与推理基建同步升级，开源模型选型窗口重开",
+   "why": "Mistral开源1T多模态Large 4，DeepSeek开源DeepInfer单集群日处理155万亿Token。",
+   "refs": [
+    "web-8ccea7e89b70",
+    "web-a1765f446c5b",
+    "web-03667e54caaf"
    ]
   }
  ]
