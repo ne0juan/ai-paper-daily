@@ -1286,49 +1286,962 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-bf5aaab63512",
+   "kind": "article",
+   "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+   "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-30T07:09:12Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50300683",
+     "signal": "832 pts",
+     "metric": 832
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Cursor 市场中的 Claude Code VS Code 扩展被植入后门",
+   "summary_zh": "安全研究者发现 Cursor 插件市场上的 Claude Code VS Code 扩展含后门，可被第三方利用，影响使用该扩展的开发者。",
+   "highlights_zh": [
+    "Cursor 插件市场出现带后门的 Claude Code 扩展",
+    "影响使用该扩展的开发者环境安全",
+    "提醒第三方插件供应链风险"
+   ],
+   "why_zh": "使用 Cursor 或 Claude Code 扩展的开发者需立即排查插件来源。",
+   "tags": [
+    "产品与行业",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.62,
+   "score_llm": 8.0,
+   "score": 0.728,
+   "date": "2026-10-31",
+   "slot": "noon",
+   "selected_at": "2026-10-31T04:24:46+00:00",
+   "mirror_pdf": "pdf/web-bf5aaab63512.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50300683"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-21d66635327b",
+   "kind": "article",
+   "title": "Was I wrong about open models & cyber risks?",
+   "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
+   "pdf_url": "",
+   "abstract": "Last week coined the term “Black October“ after an onslaught of critical vulnerability disclosures, including PHP2Shell and GitLab, signified the moment when the cyber risks of AI models started to materialize.",
+   "authors": [
+    "Nathan Lambert"
+   ],
+   "orgs": [
+    "Nathan Lambert"
+   ],
+   "published": "2026-10-30T17:36:56+00:00",
+   "sources": [
+    {
+     "name": "Nathan Lambert",
+     "authority": 0.8,
+     "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Ai2 研究员",
+   "title_zh": "Nathan Lambert：我对开源模型网络风险的判断错了吗？",
+   "summary_zh": "Nathan Lambert认为，随着PHP2Shell、GitLab等漏洞密集披露的「黑色十月」到来，AI模型的网络安全风险正从理论走向现实，他重新审视此前对开源模型风险偏低的判断。",
+   "highlights_zh": [
+    "「黑色十月」漏洞潮标志AI网络风险开始兑现",
+    "作者反思此前对开源模型风险的低估",
+    "开源与闭源模型安全权衡再受关注"
+   ],
+   "why_zh": "AI安全领域重要研究者的观点转向，值得跟进",
+   "tags": [
+    "对齐与安全",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.708,
+   "date": "2026-10-31",
+   "slot": "noon",
+   "selected_at": "2026-10-31T04:24:46+00:00",
+   "mirror_pdf": "pdf/web-21d66635327b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-25cc4c9bb2e3",
+   "kind": "article",
+   "title": "Making it easier for websites to express AI training preferences",
+   "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+   "pdf_url": "",
+   "abstract": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-10-30T09:30:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI支持robots.txt统一表达AI训练偏好",
+   "summary_zh": "OpenAI宣布将遵守共享的robots.txt信号，让网站运营者能向参与方统一表达AI训练偏好，推动训练数据授权标准化。",
+   "highlights_zh": [
+    "OpenAI将遵守共享robots.txt训练偏好信号",
+    "网站可统一向多家AI提供方表达偏好",
+    "推动AI训练数据授权走向标准化"
+   ],
+   "why_zh": "数据授权规则变化直接影响训练数据获取，从业者需关注合规成本。",
+   "tags": [
+    "数据与评测",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 8.0,
+   "score": 0.696,
+   "date": "2026-10-31",
+   "slot": "noon",
+   "selected_at": "2026-10-31T04:24:46+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/helping-websites-express-ai-training-preferences"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9bbde3f92896",
+   "kind": "article",
+   "title": "阿里巴巴与 Apple 达成合作，将千问集成至 Apple 智能",
+   "url": "https://www.leiphone.com/category/industrynews/es0ZV9LsDEsG7QLE.html",
+   "pdf_url": "",
+   "abstract": "10月31日，阿里巴巴与Apple达成合作，将千问集成至 Apple 智能，中国用户可以在Siri、写作工具及视觉智能中，直接调用千问的文本与图像理解、内容生成等能力。这些功能将于11月4日起随最新的iOS 开发者 Beta 版开放测试，并将于12月iOS 27.3正式发布时面向中国用户推出。 Siri可以直接调用千问的广博知识，并在 Siri 中直接回复用户问答。通过 Siri，用户还能用自己选择的文档和照片，直接向千问提问。在任何问题、文档和图片发送给千问之前，都会先征得用户同意。 千问也已接入Apple 的系统级写作工具中，为用户提供“千问创作”（Compose with Qwen）功能。“千问创作”可以帮助用户基于任意主题生成内容。用户还可以使用这一功能来生成图像。 在 iPhone 上，用户可以通过视觉智能功能更深入地了解周围环境，其中包括选择“询问千问”来识别眼前所见。用户可通过相机控制、操作按钮或控制中心来启用视觉智能功能。 用户可以自主选择是否开通千问集成功能。启用后，用户可通过 Apple 登录或使用自己的千问 App 账户登录，在 Siri、写作工具和视觉智能中使用千问。用户可以自主决定何时使用千问，以及分享哪些信息。用户请求及生成的回复均不会被阿里巴巴用于模型训练，以保护用户隐私。 目前，千问的集成功能将在 iOS中提供，面向在中国购买了支持 Apple 智能的 iPhone用户，或设备定位和 Apple 账户国家/地区均设置在中国的用户。 阿里巴巴集团CEO吴泳铭表示：“我们很高兴与苹果公司达成合作。千问将依托阿里巴巴深厚的AI 技术积淀，深度融入苹果生态系统的各项体验，共同为中国苹果用户带来全新的智能服务。”",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-30T22:52:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/es0ZV9LsDEsG7QLE.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "阿里千问接入Apple智能，中国版Siri换芯",
+   "summary_zh": "阿里与苹果达成合作，千问将集成进中国区Apple智能，覆盖Siri、写作工具与视觉智能，11月起随iOS开发者Beta测试、12月正式上线。",
+   "highlights_zh": [
+    "Siri可直接调用千问知识库，并支持用户指定文档、照片提问",
+    "写作工具新增「千问创作」，可生成文本与图像",
+    "用户需主动授权，请求与回复不被阿里用于训练"
+   ],
+   "why_zh": "头部手机厂商在华AI能力选型的标志性事件，直接影响国内大模型竞争格局。",
+   "tags": [
+    "大模型",
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 9.0,
+   "score": 0.692,
+   "date": "2026-10-31",
+   "slot": "noon",
+   "selected_at": "2026-10-31T04:24:46+00:00",
+   "mirror_pdf": "pdf/web-9bbde3f92896.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/es0ZV9LsDEsG7QLE.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9e37c40a85b3",
+   "kind": "article",
+   "title": "AI isn't replacing SREs, it's deskilling them",
+   "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-30T15:52:18Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50305693",
+     "signal": "535 pts",
+     "metric": 535
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AI 没有取代 SRE，而是在让其去技能化",
+   "summary_zh": "文章认为 AI 工具正让 SRE 过度依赖自动化，逐渐丧失排查与系统理解的深度技能。",
+   "highlights_zh": [
+    "AI 辅助运维导致工程师技能退化",
+    "自动化掩盖系统理解缺失",
+    "对 AI 提效叙事的反思"
+   ],
+   "why_zh": "对依赖 AI 提效的工程团队是一记技能管理警钟。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6146,
+   "score_llm": 7.0,
+   "score": 0.6658,
+   "date": "2026-10-31",
+   "slot": "noon",
+   "selected_at": "2026-10-31T04:24:46+00:00",
+   "mirror_pdf": "pdf/web-9e37c40a85b3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50305693"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f72111f2a530",
+   "kind": "article",
+   "title": "wangzan101/Mika",
+   "url": "https://github.com/wangzan101/Mika",
+   "pdf_url": "",
+   "abstract": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.\nREADME: # Mika 简体中文 | [English](README.en.md) **你手机上的私人 AI 助理，替你操作 App、上网、把事办成。** 它在一块看不见的后台屏上干活，你照样刷你的手机。 An on-device AI agent for Android that operates apps and the web to get things done for you — on a hidden background screen, so you can keep using your phone. [下载 APK](https://github.com/wangzan101/Mika/releases/latest) · [安装](#安装) · [快速开始](#快速开始) · [能做什么](#能做什么) · [常见问题](#常见问题) · [参与贡献](#参与贡献) ## 安装 **方式一：在手机上自己装** 1. 从 [Releases](https://github.com/wangzan101/Mika/releases/latest) 下载最新的 APK，安装。 2. 打开 Mika 设置里的「设置手机操作」向导，配对一次无线调试（[设置指南](docs/setup-guide.md)）。 3. 在设置里的「模型」添加服务商、填 API Key，或者用 ChatGPT 登录。 每一步的细节见下文的[快速开始](#快速开始)。 **方式二：让电脑上的 AI 助手帮你装** 手机用数据线连上电脑，在手机上打开 USB 调试，然后把下面这句话发给电脑上能执行命令的 AI 助手： ``` 请按 https://github.com/wangzan101/Mika/blob/main/docs/install-with-agent.md 的步骤，帮我把 Mika 安装到通过 USB 连着的安卓手机上。 ``` 它会检查手机、下载安装、打开需要的权限，需要你在手机上点的时候会停下来告诉你。API Key 由你自己在 Mika 里填，不经过它。 **装好之后：让电脑上的 AI 工具直接用 Mika（MCP）** 手机用数据线连着电脑，在电脑上运行： ``` adb shell sh /sdcard/Android/data/com.wangzan101.mika/files/connect-computer.sh adb forward tcp:8765 tcp:8765 ``` 第一条会打开 Mika 的电脑连接，并打印连接信息（地址 `http://127.0.0.1:8765/mcp` 和令牌）；把它们填进电脑上 AI 工具的 MCP 配置，它就能给 Mika 派任务、查进度、拿结果。手机上不用点；只经数据线连接、要令牌，Wi-Fi 上连不到；付款这类确认只能在手机上点。用方式二安装时，AI 助手会顺手帮你接好。详见[电脑连接说明](docs/mcp.md)。 > **English summary** > > Mika is an Android app that takes a one-sentence request and carries it out on your phone. It drives apps on a private background screen (so you can keep using your phone), browses the web in a built-in desktop-clas",
+   "authors": [],
+   "orgs": [
+    "wangzan101"
+   ],
+   "published": "2026-10-31T04:24:46+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/wangzan101/Mika",
+     "signal": "★ 1,634（新项目） · Kotlin",
+     "metric": 1634
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Mika：安卓端本地 AI 助理，替你操作 App",
+   "summary_zh": "Mika 是运行在安卓手机上的本地 AI 智能体，可在后台屏操作 App 与网页完成任务，并支持通过 MCP 由电脑端派发任务。",
+   "highlights_zh": [
+    "下载 APK 后配对无线调试即可使用",
+    "支持添加模型服务商或 ChatGPT 登录",
+    "可通过 MCP 让电脑端 AI 工具远程派任务"
+   ],
+   "why_zh": "如果你想让手机自动完成跨 App 操作，可用它当本地智能体。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6006,
+   "score_llm": 7.0,
+   "score": 0.6602,
+   "date": "2026-10-31",
+   "slot": "noon",
+   "selected_at": "2026-10-31T04:24:46+00:00",
+   "mirror_pdf": "pdf/web-f72111f2a530.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/wangzan101/Mika"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-814a4ff35503",
+   "kind": "article",
+   "title": "deepopen-com/deepopen-3d-webs",
+   "url": "https://github.com/deepopen-com/deepopen-3d-webs",
+   "pdf_url": "",
+   "abstract": "Image-driven 3D scene generation system. Users provide a reference image and prompt words, and the system generates previewable, replayable, and traceable scene results according to the camera trajectory; official 3D demonstration assets allow direct viewing of color/depth animations and Gaussian point clouds in the browser 图像驱动的三维场景生成系统",
+   "authors": [],
+   "orgs": [
+    "deepopen-com"
+   ],
+   "published": "2026-10-31T04:24:46+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/deepopen-com/deepopen-3d-webs",
+     "signal": "★ 924（新项目） · Python",
+     "metric": 924
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "DeepOpen 3D：图像驱动的可回放三维场景生成",
+   "summary_zh": "输入参考图和提示词，按相机轨迹生成可预览、可回放、可追溯的三维场景，浏览器内直接查看彩色/深度动画与高斯点云。",
+   "highlights_zh": [
+    "图像+提示词驱动，按相机轨迹生成三维场景",
+    "结果可预览、可回放、可追溯",
+    "官方提供3D演示资产，浏览器内查看高斯点云与深度动画"
+   ],
+   "why_zh": "如果你在做图像到3D或高斯泼溅场景生成，可用它快速验证相机轨迹可控的生成流程。",
+   "tags": [
+    "视觉",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.5806,
+   "score_llm": 7.0,
+   "score": 0.6522,
+   "date": "2026-10-31",
+   "slot": "noon",
+   "selected_at": "2026-10-31T04:24:46+00:00",
+   "mirror_pdf": "pdf/web-814a4ff35503.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/deepopen-com/deepopen-3d-webs"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d7e690a6c2dd",
+   "kind": "article",
+   "title": "Anthropic 未来“隐性债务”规模近 9000 亿美元，人类史上最大 IPO 招股文件暗藏细节",
+   "url": "https://www.ithome.com/1/020/444.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 31 日消息，Anthropic 近日提交 IPO 招股文件，有望成为人类史上最大 IPO。 据彭博社今日报道，招股文件显示，Anthropic 计划通过未来在服务器、建筑和电力等领域 投入近 9,000 亿美元 （IT之家注：现汇率约合 6 万亿元人民币） 债务，远超资产负债表上报告的流动负债。 根据 Anthropic 提交给美国证券交易委员会的文件信息，其资产负债表规模和健康状况显示，该公司目前包括 1,175 亿美元 （现汇率约合 7,836.74 亿元人民币） 的负债和 1,120 亿美元 （现汇率约合 7,469.91 亿元人民币） 的现金。 然而，Anthropic 财务报表的小字注释显示，其计划支出包括未来租赁合同和数据中心、电力和图形处理器（GPU）的采购协议在内的表外义务（企业承担的、未在资产负债表上直接体现的财务承诺或潜在负债）。 报道提到，Anthropic 的同行，包括 Alphabet 和 Meta，也在 AI 发展中积累了数千亿美元的未来债务 —— 这些支出尚未在企业资产负债表上承认 ，这一做法引发了华尔街的担忧：亚马逊、Alphabet 和微软的股价本周均遭遇冲击，部分原因是投资者对过度的 AI 支出持谨慎态度。 Anthropic 拒绝对其资本承诺的规模发表评论。根据其 IPO 申请，Anthropic 计划通过增加收入和筹集资金来支付这些投资负债。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-31T03:25:09+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/020/444.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic 招股书曝光近 9000 亿美元表外债务",
+   "summary_zh": "Anthropic 提交 IPO 招股文件，披露未来服务器、数据中心与电力等表外义务近 9000 亿美元，远超账面负债，引发市场对 AI 资本开支过度的担忧。",
+   "highlights_zh": [
+    "表外义务近 9000 亿美元，账面负债 1175 亿美元",
+    "Alphabet、Meta 等同行同样积累巨额未来债务",
+    "投资者对 AI 过度支出的担忧冲击科技股"
+   ],
+   "why_zh": "理解头部大模型公司的资本结构与 AI 基建投入风险。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-10-31",
+   "slot": "noon",
+   "selected_at": "2026-10-31T04:24:46+00:00",
+   "mirror_pdf": "pdf/web-d7e690a6c2dd.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/020/444.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9aab5ec37539",
+   "kind": "article",
+   "title": "heydamir/unslop",
+   "url": "https://github.com/heydamir/unslop",
+   "pdf_url": "",
+   "abstract": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface\nREADME: # unslop Created by Damir Sokolovsky ([@heydamir](https://x.com/heydamir)), who started the [Unslopping series](https://x.com/heydamir/status/2115063463063998736) on X. ![A vibecoded dashboard unslopping itself, frame by frame](skills/unslop/references/refs/story-dashboard-frames.webp) unslop is a skill for Claude that turns vibecoded, AI-looking UI into a designed interface with its own character. It finds the slop first, the purple gradients, glows, emoji labels, shouty copy and uneven spacing, then sets a direction from your product and fixes the screen pass by pass like a designer doing a redline review. It works in whatever your screen is built with, like Next.js, React, Vue, Svelte, Tailwind or plain HTML and CSS, on dashboards, apps and landing pages, and even on a live site when all you have is a link. ## Install For Claude Code, copy the skill into your skills folder. ```bash git clone https://github.com/heydamir/unslop mkdir -p ~/.claude/skills && cp -r unslop/skills/unslop ~/.claude/skills/ ``` For a single project, copy it into `.claude/skills/` inside that project instead. ## Use In Claude Code, type `/unslop` with what you want, or just ask in your own words and Claude picks the skill up by itself. ``` /unslop this dashboard /unslop the hero of https://example.com /unslop my landing page and make the story video so I can post it ``` It audits the screen and proposes a direction before it edits anything, so you can steer it early. If the screen is already good, i",
+   "authors": [],
+   "orgs": [
+    "heydamir"
+   ],
+   "published": "2026-10-31T04:24:46+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/heydamir/unslop",
+     "signal": "★ 1,474（新项目） · JavaScript",
+     "metric": 1474
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "unslop：把 AI 味 UI 改造成有设计感的界面",
+   "summary_zh": "unslop 是一个 Claude 技能，能识别紫色渐变、发光、emoji 标签等 AI 味设计，并逐轮把界面改成有产品调性的设计。",
+   "highlights_zh": [
+    "克隆到 ~/.claude/skills 即可安装",
+    "在 Claude Code 中输入 /unslop 调用",
+    "支持 React、Vue、Tailwind 及纯 HTML"
+   ],
+   "why_zh": "如果你用 Claude Code 生成前端，可用它一键去掉 AI 味界面。",
+   "tags": [
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.597,
+   "score_llm": 6.0,
+   "score": 0.5988,
+   "date": "2026-10-31",
+   "slot": "noon",
+   "selected_at": "2026-10-31T04:24:46+00:00",
+   "mirror_pdf": "pdf/web-9aab5ec37539.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/heydamir/unslop"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6f5ddfee8969",
+   "kind": "article",
+   "title": "苹果官宣 Apple 智能接入阿里千问；DeepSeek 完成第二轮 1055 亿元融资，估值达 6155 亿元；英特尔股价开盘跌超 30%｜极客早知道",
+   "url": "http://www.geekpark.net/news/373220",
+   "pdf_url": "",
+   "abstract": "国行 Apple 智能确定上线时间：11 月开放测试，千问接入 Siri 10 月 31 日，苹果宣布，国行 Apple 智能首批功能将于 11 月 4 日随 iOS 开发者 Beta 版开放测试，12 月随 iOS 27.3 正式面向用户推出。首批功能包括实时翻译、写作工具、照片消除、智绘表情和通知摘要等，支持 iPhone 15 Pro 系列、iPhone 16 及后续机型，以及 iPhone Air、iPhone Duo。 阿里巴巴强调，在任何问题、文档和图片发送给千问之前，都会先征得用户同意。 苹果表示，这些功能由其自有模型驱动；用户也可以选择接入阿里巴巴千问，在 Siri、写作工具和视觉智能中处理部分请求。不过，首批更新不包含新版 Siri AI，iPad、Mac 等其他平台还需等待必要审批。（来源：极客公园） OpenAI 撤回 Pro 200 降额计划，同时提高 Work 和 Codex 用量 当地时间 10 月 29 日，OpenAI 宣布调整 Pro 和 Business Premium 订阅中的 Work、Codex 使用额度。Pro 100 和 Pro 500 的原有额度翻倍；此前额度较低的 Pro 200 用户也获得翻倍提升，与原本享有较高额度的 Pro 200 用户持平。新额度立即生效，现有订阅用户无需等到续费。 这也意味着，OpenAI 撤回了 9 月底通知中的 Pro 200 降额计划，原本享有较高额度的用户可以继续保留。需要注意的是，额度翻倍不保证可完成的任务数也翻倍：实际消耗取决于模型、任务和速度模式，Fast 模式消耗额度的速度约为标准模式的 2.5 倍，Ultrafast 则为 8 倍。（来源：ITBears） 英特尔股价开盘跌超 30%，或将创下有记录以来最大单日跌幅 10 月 30 日开盘后，英特尔股价大幅下挫，盘中跌幅一度超过 30%，公司市值蒸发超过 1,370 亿美元（现汇率约合 9,147.3 亿元人民币），超过 2024 年最大单日跌幅（约 26%），如果能达到 31% 将超越 1974 年 7 月 5 日创下的终极历史纪录。 路透社报道称，此次暴跌主要源于英特尔发布低于市场预期的第四季度业绩指引，同时警告个人电脑市场疲软、内存价格上涨等问题可能持续至 2027 年上半年。 英特尔 2026 年第三季度财报显示，尽管公司当季营收同比增长 21%，达到 165.1 亿美元（现汇率约合 1,102.35 亿元人民币），但第四季度业绩指引低于市场预期，令投资者对其业务复苏前景产生担忧。（来源：IT 之家） Google 关闭 AI 编程智能体 Jules 推出不到两年 10 月 30 日，Google 将关闭其 AI 编程智能体 Jules，把从该工具中获得的经验引入其 AI 编程平台 Antigravity。2024 年 12 月，Google 推出 Jules，将其定位为一款能够完成那些「你不想亲自做」的编程任务的工具。现在，Google 表示将逐步关闭 Jules。 以下是 Jules 官方 X 账号发布的声明： 「当我们推出 Jules 时，这是一项实验，旨在了解异步编程智能体如何帮助开发者更快交付。看到大家用它构建的东西，让我们对智能体开发的未来方向有了深刻认识，并直接影响了 Google 旗下多个产品。 我们正在努力将从 Jules 中积累的经验融入 Antigravity，让用户能够兼得两者之长：既能自主在远程环境中执行后台任务，又能拥有以智能体为核心的开发环境。随着我们将重心转向打造统",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-31T00:03:20+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373220",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "苹果智能接入阿里千问；DeepSeek完成1055亿融资；英特尔暴跌",
+   "summary_zh": "国行Apple智能11月测试、千问接入Siri；DeepSeek完成1055亿元二轮融资估值6155亿；Google关闭编程智能体Jules并入Antigravity。",
+   "highlights_zh": [
+    "国行Apple智能11月4日开发者测试，12月正式推送，千问接入Siri",
+    "DeepSeek二轮融资1055亿元，估值6155亿元",
+    "Google关闭Jules，经验并入Antigravity"
+   ],
+   "why_zh": "一网打尽当日AI行业重大动态",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-10-31",
+   "slot": "noon",
+   "selected_at": "2026-10-31T04:24:46+00:00",
+   "mirror_pdf": "pdf/web-6f5ddfee8969.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373220"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-40bba911c4bf",
+   "kind": "article",
+   "title": "国行 Apple 智能官网正式上线：千问接入，11 月推送",
+   "url": "http://www.geekpark.net/news/373238",
+   "pdf_url": "",
+   "abstract": "头图图片来源：Apple 10 月 31 日，苹果中国官网的 Newsroom 发布新闻稿《Apple 智能即将登陆中国》，给了一张具体的时间表：11 月 4 日起，首批 Apple 智能功能随最新的 iOS 开发者 Beta 版开放测试；12 月 iOS 27.3 正式发布时，面向中国用户推出。 苹果中国官网的 Apple 智能页面也改了口。9 月 iPhone 18 和 iPhone Duo 发布时，国行产品页上 Apple 智能后面跟着的是一句「推出时间依监管部门审批情况而定」，到这周新款 MacBook Pro 发布，国行页面还是这句话。现在页面顶部写的是：「Apple 智能的首批核心功能将于今年稍晚推出。」 从 2024 年 6 月在 WWDC 上亮相算起，国行 iPhone 等了整整两年半。 今年 3 月 31 日凌晨，有国行 iPhone 用户发现设置里的「Siri」变成了「Apple 智能与 Siri」，据当时的报道，两个小时左右又被撤了回去，苹果的解释是软件问题。 7 月 15 日，网信办公告 7 款手机端侧生成式 AI 服务完成备案，苹果技术开发（上海）有限公司的「Apple 智能」在列。9 月 29 日，iPhone Duo、iPhone 18 Pro 等多款国行 iPhone 完成进网许可换证，许可文件里新增了三个大模型备案编号，分别对应 Apple 智能、阿里的通义万相和通义千问。 10 月 15 日，已经卸任 CEO、现任苹果执行董事长的库克在上海接受澎湃新闻采访时确认：「我们非常高兴已获批为中国用户带来首批 Apple 智能的核心功能，包括实时翻译、照片 app 中的消除工具以及写作工具等。」他还说，期待在「本月晚些时候即将推出的测试版」里把这些功能交给用户。 但实际的测试版终究还是晚了几天，落在 11 月 4 日，而且是开发者 Beta 版。普通用户要用上，得等 12 月的正式版。 首批功能 12 月随 iOS 27.3 推送｜图片来源：Apple 首批上线功能 按苹果新闻稿和官网的介绍，沟通这一块的重头是实时翻译：其中包括信息 app 里的文字自动翻译，FaceTime 通话显示翻译字幕，电话 app 里直接做语音翻译，不过电话和 FaceTime 只支持一对一通话。戴着 AirPods 4（主动降噪款）、AirPods 5、AirPods Pro 2 及后续机型或 AirPods Max 2，还能翻译面对面的对话。 电话里的实时翻译，限一对一通话｜图片来源：Apple 写作工具负责改写、校对和摘要。邮件 app 会把最急的邮件顶到收件箱最上面，长邮件点一下就出摘要，邮件和信息里都有智能回复。锁屏上的通知会被压成摘要，最要紧的排在最前面，「减少干扰」专注模式只放行需要马上处理的通知。备忘录和电话 app 录下来的音频，可以转成文字再生成摘要。 照片 app 里有三样：「消除」工具去掉画面里的干扰物，目前还是 Beta 版；用一句描述搜照片和视频，能直接找到视频里的某一段；输入描述，生成一段回忆影片。 照片编辑只有消除这一项｜图片来源：Apple 智绘表情可以用文字描述生成新的表情符号，也能以亲友为原型来做。视觉智能可以识别镜头前的东西，也可以对屏幕上正在看的内容做摘要、提问，或者找同款。 Siri 换上了屏幕四周一圈光晕的新样子，在屏幕底部轻点两下就能打字给它。苹果说，话说得磕磕绊绊它也能听懂，连续对话能接住上下文。 千问出现在三个地方：Siri、写作工具和视觉智能。Siri 处理不了的问题可以交给千问，也可以拿",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-10-30T22:26:23+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373238",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "国行Apple智能官网上线：千问接入，11月推送",
+   "summary_zh": "苹果中国官网确认Apple智能11月4日开发者测试、12月随iOS 27.3推送，首批含实时翻译、写作工具、照片消除，部分请求可选接入阿里千问。",
+   "highlights_zh": [
+    "首批功能：实时翻译、写作工具、照片消除、智绘表情、通知摘要",
+    "用户可选择接入阿里千问处理部分Siri请求",
+    "苹果自有模型驱动，千问为可选补充"
+   ],
+   "why_zh": "苹果AI入华落地，中外模型合作模式值得关注",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-10-31",
+   "slot": "noon",
+   "selected_at": "2026-10-31T04:24:46+00:00",
+   "mirror_pdf": "pdf/web-40bba911c4bf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373238"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7be09c3716f6",
+   "kind": "article",
+   "title": "iPhone 国行 AI 真的来了，千问成为 Siri 新搭档",
+   "url": "https://www.ifanr.com/1686969?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "苹果国行 AI 终于迈出关键一步 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "莫崇宇"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-30T22:34:47+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1686969?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "iPhone 国行 AI 落地，千问接入 Siri",
+   "summary_zh": "苹果国行 AI 正式官宣，阿里千问成为 Siri 的 AI 搭档，标志海外大模型与国产模型在苹果生态的落地路径明确。",
+   "highlights_zh": [
+    "苹果国行 AI 功能正式官宣落地",
+    "千问接入 Siri 承担对话能力",
+    "影响国内 AI 助手生态与苹果用户"
+   ],
+   "why_zh": "国行苹果 AI 落地是头部平台生态变化，值得关注合作模式与后续影响。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-31",
+   "slot": "noon",
+   "selected_at": "2026-10-31T04:24:46+00:00",
+   "mirror_pdf": "pdf/web-7be09c3716f6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1686969?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-971783c8101e",
+   "kind": "article",
+   "title": "沙钢接入千问办公，已将Agent落地核心业务场景",
+   "url": "https://www.leiphone.com/category/industrynews/mxLii4LkfIz829iH.html",
+   "pdf_url": "",
+   "abstract": "近日，江苏沙钢钢铁有限公司（以下简称“沙钢”）正式接入千问办公，已将Agent落地到电炉冶炼复盘、变压器状态评估、财务经营分析等业务场景，让分散的关键数据更快进入生产工作流，部分核心业务场景提效可达数百倍。 沙钢是全国最大的电炉钢生产基地，产品应用于港珠澳大桥、“西气东输”等国家重大工程，远销100多个国家和地区。钢铁生产流程长、工序多，大量关键数据分散在生产系统、Excel表格和纸质台账中，工艺分析、设备管理与经营决策长期依赖人工整理。随着“智慧沙钢”建设推进，企业需要能打通数据、自主完成分析的Agent产品。 目前，沙钢已将千问办公应用于电炉冶炼复盘、变压器状态评估、财务经营分析等场景，并取得显著成效。 在电炉炼钢厂，过去工艺人员每炼完一炉钢，需从生产系统导出数张明细表，手工拼合比对，单炉复盘耗时约30分钟；如今千问办公按炉号自动关联配料、能耗、合金、温度等七类数据，集中筛查异常炉次并给出调整建议，单炉复盘缩短至3分钟。 在铁前总厂，229台变压器分布在13个车间，过去要靠人工翻阅分散台账，逐台比对变压器的健康状态，每月点检需3至5个工作日，如今千问办公按周期和油质指标自动判定变压器风险、生成点检报告，并直接向责任人派发整改任务，全程仅需几分钟，整体提效达数百倍。 在财务经营分析环节，月度经营分析报表涉及几十张源报表、100多个数据单元格，过去需人工反复切换查找并核对；如今千问办公自动完成取数、换算、校验与回读复核，每格数字均可溯源，编制效率提升90%以上。 未来，沙钢将把更多生产与管理环节纳入千问办公，并将冶炼分析、设备运维等经验打造为可复用的钢铁行业AI技能库，从单点场景走向全流程精细化管理，为钢铁行业提供可复制的AI落地范本。 据公开资料，千问办公是阿里旗下企业级通用Agent产品，是AI办公赛道增长最快的产品之一，目前行业头部企业均已接入千问办公。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-30T10:38:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/mxLii4LkfIz829iH.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "沙钢接入千问办公，Agent落地核心冶炼场景",
+   "summary_zh": "沙钢将千问办公Agent用于电炉冶炼复盘、变压器点检、财务分析，单炉复盘从30分钟缩至3分钟，点检提效数百倍。",
+   "highlights_zh": [
+    "按炉号自动关联七类生产数据并筛查异常炉次",
+    "229台变压器按周期与油质自动判定风险并派单",
+    "财务分析每格数字可溯源，编制效率提升90%以上"
+   ],
+   "why_zh": "企业级Agent在重工业落地的具体量化案例，可参考其场景拆解方式。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-31",
+   "slot": "noon",
+   "selected_at": "2026-10-31T04:24:46+00:00",
+   "mirror_pdf": "pdf/web-971783c8101e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/mxLii4LkfIz829iH.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bee7a56b0fda",
+   "kind": "article",
+   "title": "百度 APP 发布四大 AI 升级，搜索已实现递归自我进化",
+   "url": "https://www.leiphone.com/category/industrynews/7pQrGMmdsjx5dOSR.html",
+   "pdf_url": "",
+   "abstract": "10 月 30 日，百度 APP 在北京举办产品升级沟通会。百度搜索实现递归自我进化，并全新升级搜索 AI API，活动期间最低价仅需 4.9 元/千次，低于 DeepSeek 搜索 API。同时围绕搜索框、AI 镜头、GUI 可视化、AI 互动应用等方向推出重大升级，给用户带来更智能、更聪明、更好玩的体验，在助力用户“搞定一切”上更进一步。 升级后的百度 APP，文心助手让搜索从「一次问答」走向「一份交付」，复杂问题和高频事务可直接交付成果物，长期任务则持续跟踪、主动提醒，目前已覆盖 170 余种场景。AI 镜头从「定格」走向「流动」，支持多目标同步识别与动态追踪，并可用东北话、四川话、粤语等 9 种方言实时对话。搜索结果页 GUI 互动场景提升 5 倍，接入政务、民生、央行等超 50 亿数据资源；AI 互动剧与互动应用同步上线。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-30T07:30:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/7pQrGMmdsjx5dOSR.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "百度APP四大AI升级，搜索称实现递归自我进化",
+   "summary_zh": "百度APP升级搜索框、AI镜头、GUI互动与AI互动应用，文心助手覆盖170余种场景，搜索AI API低至4.9元/千次。",
+   "highlights_zh": [
+    "搜索从一次问答转向交付成果物，长期任务持续跟踪",
+    "AI镜头支持多目标识别与9种方言实时对话",
+    "搜索AI API定价低于DeepSeek搜索API"
+   ],
+   "why_zh": "搜索产品形态与API价格战的最新动向，反映大模型应用竞争节奏。",
+   "tags": [
+    "大模型",
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-31",
+   "slot": "noon",
+   "selected_at": "2026-10-31T04:24:46+00:00",
+   "mirror_pdf": "pdf/web-bee7a56b0fda.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/7pQrGMmdsjx5dOSR.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a1902c9c2014",
+   "kind": "article",
+   "title": "宇树最新财报：重金投入研发，上市后的考题变了",
+   "url": "https://www.leiphone.com/category/robot/9NTmjVmWkIyllzaj.html",
+   "pdf_url": "",
+   "abstract": "雷峰网 10月28日晚，宇树披露上市后的首份三季报。2026年前三季度，营收已经超过2025全年，公司实现营收18.17亿元，但毛利率明显回落，研发费用率大幅抬升，扣非利润实际下滑。 宇树的收入还在加速增长，利润却没有跟上。 不过，表面看，这是一份“增收不增利”的财报。实质上，这是宇树主动用过去两年赚到的硬件红利，去补贴具身大模型和算力投入的战略换挡。短期利润与现金流承压，是换挡的必然代价。 01 从财报看宇树 收入增长，利润承压，研发加码 本次三季报最值得关注的信息，可以归纳为三个核心结论。 结论一：营收仍在高速增长，但已从爆发式增长转向稳定放量，各产品线收入不透明了。 宇树科技2026年前三季度营业收入18.17亿元，同比增长55.7%；第三季度单季营收6.65亿元，同比增长69.9%。前三季度营收已经超过2025年全年的16.99亿元。 这些数据说明公司业务规模仍在快速扩张，收入继续上台阶。但同比增速从2025年的332.7%，回落到前三季度的55.7%。 不过，这属于典型的高基数下的稳态增长，并不是衰退。 把视角拉到更长周期看，2023年宇树科技营收仅1.59亿元，2024年增至3.93亿元（+146.8%），2025年飙升至16.99亿元（+332.7%）。 2024～2025这两年是人形机器人从几乎为零快速放量的渗透红利期。2026年增速回落，是基数抬高后的正常现象，也意味着公司正从“新品红利”进入“规模化运营”阶段。 宇树科技在这次财报中，将营业收入的增长归因为 产品创新与业务拓展 。上市后，宇树持续推出迭代产品，9月发布新一代人形机器人G1+，针对真实场景落地痛点优化了全关节电机系统和多传感器融合，并新增外部供电接口。 新品既延续了硬件工程化优势，也为营收提供了新的增长点。 最近宇树科技也在持续推出新品。10月21日，宇树科技发布了H2-X为全尺寸高动态人形机器人，31个自由度，官方标称续航可达8小时，主打应急救援特种场景。 官方演示视频中，H2-X展现了后空翻、腾空踢腿、从4米高台平稳落地、踢凹车门、抬起汽车进行模拟救援等高动态、高负载动作，明显瞄准安保与应急救援等特种场景。 不过， 三季报不再披露分产品线收入 。此前其招股书和年报数据曾透露，2025年人形机器人收入8.68亿元、占比51.1%，首次反超四足的6.98亿元。 结论二：毛利率见顶回落，靠高毛利产品结构赚钱的日子可能告一段落了。 前三季度毛利率54.0%，第三季度单季进一步降至50.6%。对比2025年全年的60.4%，回落幅度明显。 毛利率直接反映产品结构、定价能力和成本控制。50%以上的毛利率在硬件公司中仍属较高水平，但下行趋势说明此前推动毛利率上升的核心动力正在减弱。 2023年宇树科技毛利率44.7%，2024年升至57.2%，2025年达到60.4%的峰值。背后的核心逻辑是高毛利人形产品占比持续提升带来的结构红利。2025年人形收入占比首次过半，直接推高了整体毛利率。 2026年毛利率回落，是多重因素叠加的结果：人形量产爬坡过程中的良率波动、部分机型降价、算力与核心硬件BOM成本上升，以及低毛利行业应用订单占比可能抬升。 简单说，靠“卖更高毛利的产品”就能自然提升毛利率的阶段结束了， 公司必须在规模化中真正把成本打下来，或者靠软件/服务提升附加值 。 结论三：利润下降，公司主动用硬件利润补贴具身AI研发，研发投入增加。 前三季度归母净利润3.87亿元，同比大增270.5%；但扣非归母净利润3.49亿元，同比实际下滑约18.8%。第三季度归母净利润1.13亿",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-30T07:10:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/robot/9NTmjVmWkIyllzaj.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "宇树上市首份季报：增收不增利，押注具身大模型",
+   "summary_zh": "宇树前三季度营收18.17亿元超去年全年，但毛利率从60.4%降至54%，研发费用率抬升，扣非利润下滑。",
+   "highlights_zh": [
+    "营收增速从332.7%回落至55.7%，进入规模化放量阶段",
+    "毛利率见顶回落，硬件红利期结束",
+    "利润承压源于主动补贴具身大模型与算力投入"
+   ],
+   "why_zh": "人形机器人龙头从硬件红利转向模型投入的财务信号，具行业风向标意义。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-31",
+   "slot": "noon",
+   "selected_at": "2026-10-31T04:24:46+00:00",
+   "mirror_pdf": "pdf/web-a1902c9c2014.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/robot/9NTmjVmWkIyllzaj.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-47692374ad19",
+   "kind": "article",
+   "title": "Fable 5.5测试曝光，Claude每次回答后，还会执行一条你看不到的指令",
+   "url": "https://www.ifanr.com/1686874?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "据说是 Anthropic 的 AGI #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "张子豪"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-30T07:42:58+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1686874?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Fable 5.5 曝光：Claude 回答后暗藏指令",
+   "summary_zh": "网传 Anthropic 新模型 Fable 5.5 在每次回答后追加一条用户不可见的隐藏指令，引发对模型行为透明度的讨论。",
+   "highlights_zh": [
+    "测试曝光 Claude 回答后附带隐藏指令",
+    "涉及模型行为透明度与可控性",
+    "消息来源为传闻，需谨慎看待"
+   ],
+   "why_zh": "若属实涉及模型隐藏行为，与对齐和安全相关，但信息尚待证实。",
+   "tags": [
+    "大模型",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-31",
+   "slot": "noon",
+   "selected_at": "2026-10-31T04:24:46+00:00",
+   "mirror_pdf": "pdf/web-47692374ad19.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1686874?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d5d62d4f1204",
+   "kind": "article",
+   "title": "腾讯 AI Lab 又一核心骨干去向确认！“王者绝悟”前技术负责人叶德珩加入字节 Seed",
+   "url": "https://www.infoq.cn/article/u23wUVUDcFqL7hLBWXuW?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "李冬梅"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-30T10:04:10+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/u23wUVUDcFqL7hLBWXuW?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯「王者绝悟」前技术负责人叶德珩加入字节 Seed",
+   "summary_zh": "腾讯 AI Lab 核心骨干、王者绝悟前技术负责人叶德珩确认加入字节 Seed，反映大厂间 AI 人才争夺持续升温。",
+   "highlights_zh": [
+    "叶德珩曾主导王者绝悟多智能体强化学习项目",
+    "字节 Seed 持续吸纳头部实验室技术骨干",
+    "腾讯 AI Lab 近期人才流失引发关注"
+   ],
+   "why_zh": "了解大厂 AI 人才流向，判断强化学习与智能体团队格局变化。",
+   "tags": [
+    "强化学习",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-10-31",
+   "slot": "noon",
+   "selected_at": "2026-10-31T04:24:46+00:00",
+   "mirror_pdf": "pdf/web-d5d62d4f1204.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/u23wUVUDcFqL7hLBWXuW?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "AGI叙事从时间表转向科学发现与形式化验证的硬核能力比拼",
-   "why": "AWM在Lean 4中给出内核校验证明，OpenAI数学投入数亿美元，科学超级智能成新竞技场。",
+   "trend": "AI资本开支与表外负债成为市场新风险点，估值逻辑面临重估",
+   "why": "Anthropic招股书披露近9000亿美元表外义务，远超账面负债，叠加具身智能投资转冷，资本开始审视AI基建的回报周期。",
    "refs": [
-    "web-1b23b70cd054",
-    "arxiv-2610.40503",
-    "web-38a5381823fd",
-    "web-75f6b970d3ad"
+    "web-d7e690a6c2dd",
+    "web-e0fd1b24e197"
    ]
   },
   {
-   "trend": "AI编程工具供应链安全成新风险面，沙箱与隔离从可选变刚需",
-   "why": "官方Claude Code扩展被曝后门，Chainguard随即推出智能体安全沙箱，攻防同步升级。",
+   "trend": "AI编程工具供应链安全从理论风险转为现实威胁",
+   "why": "官方Claude Code扩展及Cursor市场版本接连被曝后门，Chainguard随即推出安全沙箱，工具链信任危机倒逼隔离方案。",
    "refs": [
     "web-7e2aaf184ac3",
+    "web-bf5aaab63512",
     "web-9906470a46d3"
    ]
   },
   {
+   "trend": "评测方法正从自然语言判定转向可验证的形式化证明",
+   "why": "AWM用Lean 4内核校验封闭证明击败Claude与GPT基线，拉马努金挑战赛以AI流水线将证明误判率从23%降至6%。",
+   "refs": [
+    "arxiv-2610.40503",
+    "arxiv-2610.40551"
+   ]
+  },
+  {
    "trend": "具身智能瓶颈从数据规模转向数据可用性与评测标准缺失",
-   "why": "管线拆解指出筛选无细粒度标准、缺公认评测，投资同步从狂热转向冷静。",
+   "why": "行元智能指出筛选无细粒度标准、缺公认评测机制是模型能力不涨的根因，影溯则以仿真数采中心试图破解多样性。",
    "refs": [
     "web-dfa9e9d1e83e",
-    "web-e0fd1b24e197",
     "web-172eafcc5546"
    ]
   },
   {
-   "trend": "评测方法学正被AI辅助流水线重构，人工判分让位于可验证判定",
-   "why": "拉马努金挑战赛用AI流水线将证明误判率从23%降至6%，形式化校验成新标尺。",
+   "trend": "国产大模型借苹果生态完成关键落地，竞争转向入口卡位",
+   "why": "阿里千问接入国行Apple智能覆盖Siri与写作工具，12月随iOS推送，标志海外硬件生态与国产模型的合作路径明确。",
    "refs": [
-    "arxiv-2610.40551",
-    "arxiv-2610.40503"
-   ]
-  },
-  {
-   "trend": "国产RSI停留在Infra层提效，模型权重改写仍是无人区",
-   "why": "智谱用Infra Agent在10万卡上吞吐达基线3.2倍，但无人用AI改写模型权重。",
-   "refs": [
-    "web-1ac1bbd0b3f9"
+    "web-9bbde3f92896",
+    "web-40bba911c4bf",
+    "web-7be09c3716f6"
    ]
   }
  ]
