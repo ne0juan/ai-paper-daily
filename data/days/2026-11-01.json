@@ -1,0 +1,966 @@
+{
+ "date": "2026-11-01",
+ "items": [
+  {
+   "id": "web-10ba719313a0",
+   "kind": "article",
+   "title": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "pdf_url": "",
+   "abstract": "Star anthropics / skills Public repository for Agent Skills\nREADME: > **Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see [agentskills.io](http://agentskills.io). [![skills.sh](https://skills.sh/b/anthropics/skills)](https://skills.sh/anthropics/skills) # Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks. For more information, check out: - [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills) - [Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude) - [How to create custom skills](https://support.claude.com/en/articles/12512198-creating-custom-skills) - [Equipping agents for the real world with Agent Skills](https://anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) # About This Repository This repository contains skills that demonstrate what's possible with Claude's skills system. These skills range from creative applications (art, music, design) to technical tasks (testing web apps, MCP server generation) to enterprise workflows (communications, branding, etc.). Each skill is self-contained in its own folder with a `SKILL.md` file containi",
+   "authors": [],
+   "orgs": [
+    "anthropics"
+   ],
+   "published": "2026-10-31T16:00:57+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/anthropics/skills",
+     "signal": "★ 今日 +756 · Python",
+     "metric": 756
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Anthropic 开源 Agent Skills 官方实现",
+   "summary_zh": "Anthropic 在 GitHub 开源 Claude 的 Agent Skills 实现，用文件夹封装指令、脚本与资源，让 Claude 动态加载以稳定完成特定任务。",
+   "highlights_zh": [
+    "Skills 是动态加载的指令+脚本+资源文件夹，可复用特定任务流程",
+    "覆盖创意（艺术、音乐、设计）到技术（测试等）多类示例",
+    "配套 agentskills.io 标准与官方创建指南"
+   ],
+   "why_zh": "如果你在给 Claude 搭可复用的专业任务流程，可直接参考官方 Skills 结构照着写。",
+   "tags": [
+    "智能体",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.6919,
+   "score_llm": 8.0,
+   "score": 0.7568,
+   "date": "2026-11-01",
+   "slot": "morning",
+   "selected_at": "2026-10-31T16:00:57+00:00",
+   "mirror_pdf": "pdf/web-10ba719313a0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/anthropics/skills"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-24ee0d11b76f",
+   "kind": "article",
+   "title": "Orkas-AI/Orkas",
+   "url": "https://github.com/Orkas-AI/Orkas",
+   "pdf_url": "",
+   "abstract": "Star Orkas-AI / Orkas Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with projects, scheduled automations and connectors. Free app for macOS & Windows; built-in models or your own keys.\nREADME: # Orkas **An open-source team of AI agents on your desktop — it turns your goals into finished work and keeps it moving.** Orkas is an open-source (MIT), local-first multi-agent desktop app — an AI assistant that works as a team. Tell the **Commander** what you need: it finishes many tasks on its own, and for bigger work it plans the steps and brings in specialist agents along with the coding and personal agents you already use — **Claude Code, Codex, OpenCode, OpenClaw and Hermes-Agent** — to work on it together. Orkas is built to keep a project moving, not just answer one prompt. A **project** holds the goal, rules, memory and files, so every new conversation picks up where the last one left off. **To-dos** split the work between people and agents, **Auto-advance** lets the team take on the next to-do by itself, and **scheduled automations** repeat routine work hourly, daily, weekly or monthly. All your data stays on your computer, and finished work comes back for your review — so you can trust Orkas with the ongoing work of your business. **[⬇ Download Orkas for macOS & Windows](https://orkas.ai/download/?source=gh-orkas&entry_point=github_readme&download=1)** — free, with 500 credits for the built-in Orkas model, so you don't need an API key to start. Prefer your own keys? Claude · OpenAI · Gemini · DeepSeek · Kimi · GLM · Qwen · MiniMax · Doubao, or a local OpenAI-compatible endpoint. [![Download for macOS & Windows](https://img.shields.io/badge/Download-macOS%20%26%20Wi",
+   "authors": [],
+   "orgs": [
+    "Orkas-AI"
+   ],
+   "published": "2026-10-31T16:00:57+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/Orkas-AI/Orkas",
+     "signal": "★ 今日 +1,118 · JavaScript",
+     "metric": 1118
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Orkas：桌面本地多智能体团队",
+   "summary_zh": "Orkas 是 MIT 开源的本地优先桌面多智能体应用，Commander 把目标拆成待办，协调 16 个内置专家及 Claude Code、Codex 等外部编码智能体协作。",
+   "highlights_zh": [
+    "Commander 负责规划，调度 16 个内置专家与外部编码智能体",
+    "项目制保存目标、规则、记忆与文件，支持自动推进与定时任务",
+    "数据全部留在本地，支持 macOS/Windows，可自带 API Key"
+   ],
+   "why_zh": "如果你想让多个编码智能体围绕一个长期项目协作，可用它做本地调度台。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.628,
+   "score_llm": 7.0,
+   "score": 0.6712,
+   "date": "2026-11-01",
+   "slot": "morning",
+   "selected_at": "2026-10-31T16:00:57+00:00",
+   "mirror_pdf": "pdf/web-24ee0d11b76f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/Orkas-AI/Orkas"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-41a783f21e16",
+   "kind": "article",
+   "title": "US tech stocks see sharp falls over AI cost fears",
+   "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-30T16:13:02Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50306008",
+     "signal": "261 pts",
+     "metric": 261
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AI 成本担忧引发美股科技股大跌",
+   "summary_zh": "市场对 AI 投入成本的担忧升温，美国科技股出现明显下跌，反映资本对 AI 回报周期的重新定价。",
+   "highlights_zh": [
+    "AI 成本担忧成为科技股下跌导火索",
+    "反映市场对 AI 投入产出比的重新审视"
+   ],
+   "why_zh": "把握 AI 市场情绪与资本风向的从业者值得一读。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5811,
+   "score_llm": 7.0,
+   "score": 0.6524,
+   "date": "2026-11-01",
+   "slot": "morning",
+   "selected_at": "2026-10-31T16:00:57+00:00",
+   "mirror_pdf": "pdf/web-41a783f21e16.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50306008"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a9ce9215ef28",
+   "kind": "article",
+   "title": "We Took over ChatGPT Accounts",
+   "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-31T10:30:11Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50314699",
+     "signal": "175 pts",
+     "metric": 175
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "我们接管了多个 ChatGPT 账号",
+   "summary_zh": "研究者披露可接管他人 ChatGPT 账号的安全问题，暴露 AI 产品账号体系的实际攻击面。",
+   "highlights_zh": [
+    "展示针对 ChatGPT 账号的实际接管路径",
+    "提醒 AI 产品账号与鉴权安全风险"
+   ],
+   "why_zh": "做 AI 产品安全与账号体系的人应关注此类真实攻击案例。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.5624,
+   "score_llm": 7.0,
+   "score": 0.645,
+   "date": "2026-11-01",
+   "slot": "morning",
+   "selected_at": "2026-10-31T16:00:57+00:00",
+   "mirror_pdf": "pdf/web-a9ce9215ef28.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50314699"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9a1e17b51b2d",
+   "kind": "article",
+   "title": "OpenAI raises less than half of $30B target",
+   "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-31T03:22:44Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50312922",
+     "signal": "168 pts",
+     "metric": 168
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 融资不足 300 亿美元目标一半",
+   "summary_zh": "报道称 OpenAI 本轮融资仅完成 300 亿美元目标的一半不到，显示头部 AI 公司融资节奏遇冷。",
+   "highlights_zh": [
+    "融资额不足原定目标一半",
+    "与科技股下跌共同反映 AI 资本降温"
+   ],
+   "why_zh": "判断 AI 行业资金面与头部公司扩张节奏的重要信号。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5605,
+   "score_llm": 7.0,
+   "score": 0.6442,
+   "date": "2026-11-01",
+   "slot": "morning",
+   "selected_at": "2026-10-31T16:00:57+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50312922"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5f823666a4ee",
+   "kind": "article",
+   "title": "Using Agents for Long-Horizon Financial Work — Aman Singh, Arca",
+   "url": "https://latent.space/p/using_agents_for_long-horizon_financial_work_aman_singh_arca/",
+   "pdf_url": "",
+   "abstract": "Arca head of AI Aman Singh joins Latent Space head of editorial Richard MacManus at AI Engineer New York, to discuss how Arca is building an AI-native wealth management firm. Singh explains Arca's architecture, which includes a custom harness and persi...",
+   "authors": [
+    "Latent.Space"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-31T16:00:00+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/using_agents_for_long-horizon_financial_work_aman_singh_arca/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Arca 如何用智能体做长周期金融工作",
+   "summary_zh": "Arca 的 AI 负责人介绍其 AI 原生财富管理架构：自研 harness 加持久化记忆，支撑长周期金融任务。",
+   "highlights_zh": [
+    "自研 agent harness 而非直接套用通用框架",
+    "强调持久化状态以支撑长周期任务",
+    "金融场景对可靠性与合规要求高"
+   ],
+   "why_zh": "长周期智能体落地的真实工程案例，harness 设计有参考价值。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-11-01",
+   "slot": "morning",
+   "selected_at": "2026-10-31T16:00:57+00:00",
+   "mirror_pdf": "pdf/web-5f823666a4ee.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/using_agents_for_long-horizon_financial_work_aman_singh_arca/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-74269015f3d6",
+   "kind": "article",
+   "title": "AI 基建掀起军备竞赛：微软、谷歌、甲骨文等巨头承诺投入超 3 万亿美元",
+   "url": "https://www.ithome.com/1/020/632.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 31 日消息，据彭博社今天（31 日）凌晨报道，AI 基础设施建设仍将吸引巨额资金。Alphabet、Meta、微软、亚马逊和甲骨文五大科技巨头承诺，未来数年将在数据中心等领域投入超过 3 万亿美元 （IT之家注：现汇率约合 20.01 万亿元人民币） 。 随着数据中心建设竞赛愈演愈烈，五家公司披露的租赁、建筑、能源及设备采购承诺大幅增长。这些资金有的将在短期内支出，有的则涉及 未来数十年的长期合同 。 谷歌的支出承诺规模最大。根据 Alphabet 提交的监管文件，包括技术设备、能源和租赁在内的合同承诺总额 超过 1 万亿美元 （现汇率约合 6.67 万亿元人民币） ， 接近一年前的八倍 。 Meta 的支出承诺同样大幅攀升，未来支出总额 超过 8,000 亿美元 （现汇率约合 5.34 万亿元人民币） 。其中将近一半用于尚未生效的数据中心租约，最长分 30 年支付。Meta CFO 苏珊 · 李在上周的分析师电话会议上说：“我们预计将继续大举投资，支持核心业务和新兴 AI 项目。” 今年商界的一大争论，是科技企业斥资数千亿美元建设 AI 数据中心， 究竟能否收回投资 。Alphabet 和 Meta 都是全球最赚钱的企业之一，却因投资有望改变行业格局的新业务，出现 自由现金流由正转负 的情况。 不过，五家公司的支出并非全部用于数据中心，披露口径也不完全一致，因此很难直接比较。 例如，Meta 的部分预算用于 Reality Labs 部门的消费级硬件产品，Alphabet 和亚马逊的计划支出则包括内容授权费用。本次统计也没有计入现有租约和债务等其他大额支出。 五家公司未来的租赁付款承诺合计 1.3 万亿美元 （现汇率约合 8.67 万亿元人民币） ，其他采购承诺合计 1.9 万亿美元 （现汇率约合 12.67 万亿元人民币） 。除微软外，数据均取自各家公司最新财报。微软的采购和建设订单数据来自截至 6 月底的年度报告，该公司此后尚未更新这两项数据。 甲骨文是首家 因投资 AI 数据中心而陷入自由现金流为负 的大型科技公司。在本周早些时候举行的投资者说明会上，甲骨文预计到 2028 年恢复正自由现金流，并计划通过供应商融资和客户预付款等方式，减少项目初期需要自行承担的资金支出。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-31T15:56:00+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/020/632.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "五大科技巨头AI基建承诺投入超3万亿美元",
+   "summary_zh": "微软、谷歌、Meta、亚马逊、甲骨文披露的租赁、建设与设备采购承诺合计超3万亿美元，谷歌一家近1万亿，多家自由现金流转负，AI基建投资回报之争升温。",
+   "highlights_zh": [
+    "五大巨头未来租赁付款承诺合计1.3万亿美元，其他采购承诺1.9万亿美元",
+    "Alphabet合同承诺超1万亿美元，接近一年前八倍；Meta超8000亿美元",
+    "甲骨文成首家因AI数据中心投资自由现金流转负的巨头，预计2028年转正"
+   ],
+   "why_zh": "看清AI算力军备竞赛的资金规模与现金流风险，判断行业投资周期。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-01",
+   "slot": "morning",
+   "selected_at": "2026-10-31T16:00:57+00:00",
+   "mirror_pdf": "pdf/web-74269015f3d6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/020/632.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c361d5124a3e",
+   "kind": "article",
+   "title": "数据显示，“存储五巨头”上季度营业利润及净利总额首超美国科技五巨头",
+   "url": "https://www.ithome.com/1/020/617.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 31 日消息，据日经亚洲今天（31 日）凌晨报道，AI 投资热潮推高了存储芯片需求，市场已出现 供不应求的局面 。受此推动，铠侠、三星、SK 海力士、美光、闪迪五家全球主要存储芯片厂商，上季度的营业利润和净利润总额 首次超过美国五大科技公司 。 QUICK FactSet 数据显示，2026 年 7 月至 9 月（美光为 6 月至 8 月），五家存储芯片厂商的营业利润合计 达到 32 万亿日元 （IT之家注：现汇率约合 1.35 万亿元人民币） ，是 上年同期的 10 倍 。 同期， 谷歌母公司 Alphabet、微软、亚马逊、Meta 和苹果 五家科技公司的营业利润合计 约 25 万亿日元 （现汇率约合 1.06 万亿元人民币） ，同比增长约 20%。 需要提醒的是，苹果尚未公布财报，因此其数据采用市场预测值。 铠侠该季度营业利润达到 1.99 万亿日元 （现汇率约合 841.99 亿元人民币） ，是上年同期的 23 倍 ；净利润更是达到 1.36 万亿日元 （现汇率约合 575.43 亿元人民币） ，为上年同期的 33 倍 ，季度净利润 首次突破 1 万亿日元 （现汇率约合 423.11 亿元人民币） 。 在财年于 3 月结束的日本企业中，能够达到这一盈利规模的 只有丰田汽车和软银集团等少数企业 。 铠侠预计，本季度净利润将达到 1.36 万亿日元 （现汇率约合 575.43 亿元人民币） ，为上年同期的 15 倍。数据中心对长期存储用 NAND 闪存的需求激增，是推动利润增长的主要因素。 三星电子上季度营业利润 达到约 107 万亿韩元 （现汇率约合 5,330.74 亿元人民币） ，为上年同期的近 9 倍，成为全球首家单季度营业利润突破 100 万亿韩元 （现汇率约合 4,982 亿元人民币） 的科技企业，明年的高带宽内存产品也全部售罄。 存储芯片厂商的盈利能力反映在营业利润率上。2025 年上半年，这些厂商的营业利润率还只有 10% 左右，时至今日达到 接近 70% 。 除苹果外，其他科技巨头大举投资数据中心，进一步 加剧存储芯片供应紧张 ，也让上游厂商获得丰厚利润。但随着资本投入规模不断扩大，市场开始关注科技巨头 是否还能长期维持这样的投资力度 。 亚马逊财报显示，其上季度自由现金流缺口继续扩大，股价也在盘后交易中大幅下跌。Alphabet 同样连续一个季度录得负自由现金流，股价周四随之大跌。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-31T13:46:12+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/020/617.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "存储五巨头利润首超美国科技五巨头",
+   "summary_zh": "AI 数据中心需求推高 NAND 与 HBM，铠侠、三星、SK 海力士、美光、闪迪上季营业利润合计约 32 万亿日元，为去年同期 10 倍，首次超过 Alphabet、微软、亚马逊、Meta、苹果之和，营业利润率从约 10% 升至近 70%。",
+   "highlights_zh": [
+    "铠侠单季净利润首破 1 万亿日元，为去年同期 33 倍",
+    "三星单季营业利润破 100 万亿韩元，明年 HBM 已售罄",
+    "巨头资本开支占标普 500 三分之一以上，市场开始担忧融资可持续性"
+   ],
+   "why_zh": "AI 算力价值链利润正向上游存储转移，是判断行业景气位置的关键信号。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-01",
+   "slot": "morning",
+   "selected_at": "2026-10-31T16:00:57+00:00",
+   "mirror_pdf": "pdf/web-c361d5124a3e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/020/617.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c457f8428185",
+   "kind": "article",
+   "title": "DeepSeek 重磅发布全新 Agent 架构：AI 开始指挥 AI 干活",
+   "url": "https://www.ifanr.com/1687026?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "AI Agent 的下一个瓶颈，可能是人类自己 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "莫崇宇"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-31T13:59:57+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1687026?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek 发布全新 Agent 架构：AI 指挥 AI 干活",
+   "summary_zh": "DeepSeek 推出新 Agent 架构，让上层模型调度下层模型分工执行任务，指向多智能体协作的新范式。",
+   "highlights_zh": [
+    "发布全新 Agent 架构，强调 AI 指挥 AI 的分层协作",
+    "指向多智能体调度与任务分解方向",
+    "被视为 Agent 落地瓶颈从模型能力转向人类侧"
+   ],
+   "why_zh": "头部国产模型厂商的架构级动作，值得关注 Agent 演进方向。",
+   "tags": [
+    "智能体",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-01",
+   "slot": "morning",
+   "selected_at": "2026-10-31T16:00:57+00:00",
+   "mirror_pdf": "pdf/web-c457f8428185.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1687026?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3c7ced19196c",
+   "kind": "article",
+   "title": "芯片的大买主们，快没钱了？",
+   "url": "https://www.tmtpost.com/8188472.html",
+   "pdf_url": "",
+   "abstract": "算力订单还在增加，买芯片的钱却越来越难安排。",
+   "authors": [
+    "半导体产业纵横"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-31T11:57:20+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8188472.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "算力订单还在涨，买芯片的钱却难凑了",
+   "summary_zh": "文章指出AI算力订单持续增加，但芯片大买主们的融资与现金流压力上升，采购资金安排愈发困难，折射算力扩张的资本约束。",
+   "highlights_zh": [
+    "算力需求与采购资金能力出现背离",
+    "大买主融资渠道趋紧，影响芯片订单兑现节奏",
+    "与巨头自由现金流转负形成呼应"
+   ],
+   "why_zh": "补充AI基建热潮的另一面：需求真实但资金链承压，需关注兑现风险。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-01",
+   "slot": "morning",
+   "selected_at": "2026-10-31T16:00:57+00:00",
+   "mirror_pdf": "pdf/web-3c7ced19196c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8188472.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-81bfa1169921",
+   "kind": "article",
+   "title": "鸿海董事长刘扬伟：预计未来数年攻下全球 AI 服务器半壁江山",
+   "url": "https://www.ithome.com/1/020/627.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 31 日消息，当地时间 30 日。据美国 CNBC 报道，鸿海计划进一步扩大 AI 服务器业务，并加大在美国的生产布局。董事长刘扬伟表示，AI 基础设施市场需求依然强劲，集团希望借此进一步提高市场份额。 刘扬伟在接受采访时透露，公司目前占据全球约 40% 的 AI 服务器市场份额，预计明年有望提高至约 45%，未来数年则 有机会达到 50% 。 长期以来，鸿海以代工组装苹果 iPhone 闻名。近年来，AI 基础设施业务逐渐成为集团的重要增长引擎。 ▲ 图源鸿海 刘扬伟预计，未来三至五年，AI 基础设施业务将 贡献富士康 60% 至 65% 的营收 ，不包括直接在本地硬件上运行人工智能和机器学习算法的端侧 AI 设备。 AI 基础设施订单持续增长，至少未来一年半的产能都已排满。目前订单主要来自 AI 模型开发商和云服务提供商，政府及企业客户尚未全面采用 AI 技术，但整体市场需求依然强劲。 在美国市场，鸿海也准备进一步扩大生产规模。刘扬伟表示，集团计划向供应链上游延伸，以便更好地满足美国市场的需求。 考虑到美国的制造成本较高，鸿海初期将 优先生产 AI 服务器机柜、数据中心设备等利润率较高的产品 。刘扬伟认为，随着美国本土生产规模扩大，制造成本最终也有望随之下降。通过此次扩张，公司希望进一步巩固在 AI 基础设施供应链中的地位，业务布局将从服务器、机柜 延伸至整座数据中心和算力服务 。 不过，刘扬伟也提醒，AI 市场增长并不意味着企业可以不计成本地扩大投资。他强调必须严格控制投资规模，直言“过度投资会毁掉公司”。 随着 AI 业务发展，公司每年在 AI 领域的投入预计会 超过原定的 30 亿至 50 亿美元 （IT之家注：现汇率约合 200.09 亿至 333.48 亿元人民币） ，具体取决于垂直整合的推进程度。 对于大客户削减 AI 支出可能带来的影响，刘扬伟认为，单一客户需求下降，可以通过其他业务领域的增长予以弥补。但如果整个行业的需求都出现下滑，鸿海乃至整个 AI 供应链都将面临更大的挑战。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-31T14:53:54+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/020/627.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "鸿海目标拿下全球AI服务器半壁江山",
+   "summary_zh": "鸿海董事长刘扬伟称目前占全球AI服务器约40%份额，明年望达45%、数年冲50%，预计三五年内AI基建贡献营收60%-65%，产能已排满一年半。",
+   "highlights_zh": [
+    "AI服务器份额从40%向50%推进，订单主要来自模型开发商与云厂商",
+    "未来3-5年AI基础设施将贡献富士康60%-65%营收",
+    "美国扩产优先高利润的服务器机柜与数据中心设备，年投入或超30-50亿美元"
+   ],
+   "why_zh": "从供应链视角看AI算力需求真实性与产能节奏，是判断行业景气的硬指标。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-01",
+   "slot": "morning",
+   "selected_at": "2026-10-31T16:00:57+00:00",
+   "mirror_pdf": "pdf/web-81bfa1169921.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/020/627.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b9aa5fddd725",
+   "kind": "article",
+   "title": "西湖大学成立世界模型研究中心，致力于突破核心瓶颈",
+   "url": "https://www.ithome.com/1/020/611.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 31 日消息，10 月 31 日，西湖世界模型研究中心在西湖大学云谷校区成立。这是西湖大学面向物理智能领域设立的校级交叉科研平台。 该中心由西湖大学工学院博士生导师、助理教授，人工智能企业 KMind 联合创始人兼首席科学家于开丞担任主任，由西湖大学人工智能讲席教授、人工智能系系主任金耀初担任首席科学家，并有多位 PI （首席研究员）共同承担各方向研究任务。 IT之家从官方介绍获悉，中心面向人工智能从语言认知走向物理交互的发展方向，聚焦世界模型与物理智能， 致力于突破智能系统理解物理规律、预测环境变化和开展交互决策的核心瓶颈 ，打造具有国际引领性的物理智能学术高地与创新引擎。 中心以世界模型为核心研究方向，探索感知、认知、预测与行动相结合的智能体系，推动人工智能在真实环境中形成理解世界、推演未来与自主行动的能力。依托西湖大学的科研基础与交叉学科优势，中心将汇聚多领域研究力量，促进基础理论、关键技术与应用探索协同发展，研发能够理解物理规律、预测行动后果并在真实反馈中持续学习的通用世界模型，支撑我国在新一代人工智能领域的自主创新与前沿布局。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-31T13:24:15+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/020/611.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "西湖大学成立世界模型研究中心",
+   "summary_zh": "西湖大学设立校级交叉平台「西湖世界模型研究中心」，由于开丞任主任、金耀初任首席科学家，聚焦世界模型与物理智能，攻关理解物理规律、预测环境变化与交互决策，目标研发可持续学习的通用世界模型。",
+   "highlights_zh": [
+    "定位物理智能，从语言认知走向物理交互",
+    "多 PI 交叉团队，覆盖感知、认知、预测与行动",
+    "面向通用世界模型与自主行动能力"
+   ],
+   "why_zh": "国内高校开始系统性押注世界模型方向，可关注其后续成果与人才流向。",
+   "tags": [
+    "机器人",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-01",
+   "slot": "morning",
+   "selected_at": "2026-10-31T16:00:57+00:00",
+   "mirror_pdf": "pdf/web-b9aa5fddd725.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/020/611.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-721ada5b78eb",
+   "kind": "article",
+   "title": "让AI拼我用了12天完成的1000片“纯白地狱”，它五小时就崩溃了",
+   "url": "https://www.tmtpost.com/8188396.html",
+   "pdf_url": "",
+   "abstract": "我耗时 12 天拼完 1000 片纯白地狱拼图，尝试交给大模型挑战，它 5 小时便陷入崩溃。不是 AI 不能拼，而是擅长看图描述的生成式大模型缺少精密测量与全局约束能力；传统机器视觉方案反倒可行。这件实验，也照见我们当下思考外包、本末倒置的认知困境。",
+   "authors": [
+    "斯凯有话说"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-31T12:18:13+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8188396.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "让大模型拼1000片纯白拼图，五小时崩溃",
+   "summary_zh": "作者把耗时12天完成的1000片纯白拼图交给大模型，AI五小时即失败；结论是生成式模型擅长看图描述但缺精密测量与全局约束能力，传统机器视觉反而可行。",
+   "highlights_zh": [
+    "直观暴露多模态模型在精细空间推理与全局约束上的短板",
+    "传统机器视觉方案在该任务上更可行",
+    "引申到「思考外包」的认知反思"
+   ],
+   "why_zh": "一个生动的能力边界实验，帮助理解多模态模型与专用视觉方案的差异。",
+   "tags": [
+    "多模态",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-11-01",
+   "slot": "morning",
+   "selected_at": "2026-10-31T16:00:57+00:00",
+   "mirror_pdf": "pdf/web-721ada5b78eb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8188396.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-58c0a2decce6",
+   "kind": "article",
+   "title": "预测失效的那刻，存储行业撞见物理AI的边界",
+   "url": "https://www.tmtpost.com/8188551.html",
+   "pdf_url": "",
+   "abstract": "先锚定具身智能想要抵达的终局，再反向推导底层基础设施需要具备怎样的能力上限。",
+   "authors": [
+    "硅碳变量"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-31T11:57:24+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8188551.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "存储行业撞见物理AI的基础设施边界",
+   "summary_zh": "文章从具身智能终局反推底层基础设施能力上限，讨论物理AI对存储等硬件提出的新要求，指出传统预测方法在具身场景下失效。",
+   "highlights_zh": [
+    "以终局反推基础设施能力上限的分析框架",
+    "物理AI对存储带宽、延迟提出新约束",
+    "具身智能落地受制于底层硬件"
+   ],
+   "why_zh": "从存储视角理解具身智能的硬件瓶颈，适合关注机器人基础设施的读者。",
+   "tags": [
+    "机器人",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-11-01",
+   "slot": "morning",
+   "selected_at": "2026-10-31T16:00:57+00:00",
+   "mirror_pdf": "pdf/web-58c0a2decce6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8188551.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-73549972a16a",
+   "kind": "article",
+   "title": "从“懂回答”到“能执行”：Zoho如何让AI走进企业业务",
+   "url": "https://www.leiphone.com/category/industrynews/00recUTGoMQ1JRh4.html",
+   "pdf_url": "",
+   "abstract": "10月20日，在以“助力中国企业全球化成长”为主题的Zoho北京媒体沟通会上， Zoho不仅向外界展示了其最新的企业级AI全景战略，更试图回答一个当前行业的普遍痛点：当AI大模型喧嚣了两年之后，为什么大多数企业在业务中依然觉得AI“用不起来”？ Zoho全球副总裁Mathivanan一针见血地点出了症结所在：“太短的决策周期，太多的备选工具，从一开始就造成了太多的数据孤岛。”当企业盲目堆叠各种带有AI标签的软件，不仅没有打破原有的信息孤岛，反而催生了“AI孤岛”。 Zoho中国COO夏海峰在随后的主题演讲中直言不讳：“如果AI只能回答问题、提供信息，却无法参与实际业务流程，它对商业的价值就微乎其微。” 这也揭示了企业AI应用面临的一道关键门槛：能够回答问题，不等于能够完成任务。AI要真正参与业务，不仅需要理解用户的需求，还需要获取相关数据、调用业务系统，并在权限和流程约束下完成具体操作。 为了跨过这道从“懂回答”到“能执行”的鸿沟，Zoho在此次会上系统展露了其沉淀多年的AI全景三层架构：底层给数据，中间层做连接，上层管执行。 跨越分水岭：从“会说”的助手，到“能干”的数字员工 在Zoho的AI全景图中，最上层是直接触达业务的核心。Zoho认为，真正的AI分水岭在于它能不能接下任务，并跑通多步骤流程。 首先是原生嵌入业务场景的对话式AI助手AskZia。它并非独立的外挂工具，而是深植于CRM、财务、客服等系统内。用户可以通过自然语言获取信息、分析业务数据，并在相应功能支持下完成内容起草与润色等工作。 但“会说”只是第一步，“能干”才是企业真正的刚需。Zoho推出了预置智能体Zia Agents，销售教练、SDR机器人等上百个开箱即用的角色，专门处理那些有规律、可复用、吃经验的工作。 而对于规则极其复杂、个性化极强的场景，Zoho提供了Agent Studio低代码平台。例如，一家汽车零部件客户就利用该平台，开发了专属于自身的成本预测智能体，有效应对国际贸易中由关税、运输等因素造成的材料成本波动。这种让非技术人员像搭积木一样定制专属AI的能力，正是Zoho区别于标准化SaaS产品的差异化护城河。 从Ask Zia到Zia Agents，再到Agent Studio，三者分别对应信息获取与处理、特定任务执行，以及面向个性化流程的智能体构建。它们的区别不只在于AI能力的强弱，更在于AI参与业务的方式发生了变化：从辅助员工完成工作，逐步延伸到承担特定任务。 连接与底层：不卷参数，只做适合业务的“原生智能” 如果说AI执行层是冰山露出水面的部分，那么数据和连接则是水面之下的庞大基座。在中间层，Zoho通过MCP（模型上下文协议）打通了内外生态。 夏海峰在会上描绘了这样一个场景：用户在WorkBuddy、豆包工作、千问办公等支持MCP的客户端中，配置自定义连接器，接入Zoho MCP，即可在外部直接对话操作Zoho CRM，实现数据的自动更新。Zoho MCP目前兼容Claude、ChatGPT等主流大模型与智能体，并提供300余款第三方服务的集成清单。通过标准化协议，Zoho不仅让自家的业务能力能够被各类外部智能体调用，更确保了敏感数据在离开系统前就被遮蔽与鉴权，实现了真正的开放与安全并行。 MCP的意义，在于为AI工具连接外部应用提供标准化的交互方式。对企业来说，这意味着AI的使用场景不必局限于单个软件内部，也可以向跨应用的工作流程延伸。 除了系统连接，模型本身也需要适配不同的业务任务。 在算力与模型动辄追求百亿甚至上万亿参数的今天，Zoho在底层选择了",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-31T09:55:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/00recUTGoMQ1JRh4.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Zoho 企业 AI 全景：从会回答到能执行",
+   "summary_zh": "Zoho 发布企业 AI 三层架构：AskZia 助手、预置 Zia Agents 与 Agent Studio 低代码平台，并以 MCP 打通外部生态。",
+   "highlights_zh": [
+    "三层架构：数据底座、MCP 连接层、执行层",
+    "Agent Studio 支持非技术人员定制智能体",
+    "MCP 兼容主流大模型并集成 300 余款服务"
+   ],
+   "why_zh": "了解企业级 SaaS 厂商如何把智能体嵌入业务流程。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-11-01",
+   "slot": "morning",
+   "selected_at": "2026-10-31T16:00:57+00:00",
+   "mirror_pdf": "pdf/web-73549972a16a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/00recUTGoMQ1JRh4.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2da7abcc3483",
+   "kind": "article",
+   "title": "AI 编程导师挑战低端 Android 手机！不用服务器，Python 和 SQL 直接在浏览器里运行",
+   "url": "https://www.infoq.cn/article/HHgKMMKa8BNZYQuMFSMS?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Chidi Nwaogu"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-31T20:43:05+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/HHgKMMKa8BNZYQuMFSMS?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "低端安卓机上浏览器内跑 Python 与 SQL",
+   "summary_zh": "介绍无需服务器、在低端 Android 手机浏览器中直接运行 Python 和 SQL 的 AI 编程教学方案。",
+   "highlights_zh": [
+    "浏览器端运行 Python 与 SQL，无需后端",
+    "面向低端设备与编程教学场景",
+    "降低 AI 编程学习门槛"
+   ],
+   "why_zh": "边缘设备上跑代码的工程思路，对教学类产品有启发。",
+   "tags": [
+    "代码",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-11-01",
+   "slot": "morning",
+   "selected_at": "2026-10-31T16:00:57+00:00",
+   "mirror_pdf": "pdf/web-2da7abcc3483.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/HHgKMMKa8BNZYQuMFSMS?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c537f963f202",
+   "kind": "article",
+   "title": "当AI从“会想”走向“会干”——腾讯云与英特尔共筑Agentic AI执行新底座",
+   "url": "https://www.infoq.cn/article/acC46slIVKJg1O0ac8w4?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "李文朋"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-31T14:49:01+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/acC46slIVKJg1O0ac8w4?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯云与英特尔共建 Agentic AI 执行底座",
+   "summary_zh": "腾讯云联合英特尔推出面向 Agentic AI 的执行基础设施，主打智能体任务落地的算力与运行时支撑。",
+   "highlights_zh": [
+    "聚焦智能体执行层基础设施",
+    "云厂商与芯片厂商联合方案",
+    "偏向企业落地场景"
+   ],
+   "why_zh": "厂商联合通稿性质较强，增量信息有限，可略读。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-11-01",
+   "slot": "morning",
+   "selected_at": "2026-10-31T16:00:57+00:00",
+   "mirror_pdf": "pdf/web-c537f963f202.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/acC46slIVKJg1O0ac8w4?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "AI资本叙事从「投入即信仰」转向回报周期定价，融资与基建同时承压。",
+   "why": "OpenAI融资不足目标一半，科技股因成本担忧大跌，3万亿基建承诺下多家现金流转负。",
+   "refs": [
+    "web-41a783f21e16",
+    "web-9a1e17b51b2d",
+    "web-74269015f3d6",
+    "web-3c7ced19196c"
+   ]
+  },
+  {
+   "trend": "AI价值链利润向存储等上游硬件迁移，算力扩张的瓶颈正从芯片转向资本与内存。",
+   "why": "存储五巨头利润首超科技五巨头，利润率从10%升至近70%，而芯片买主融资趋紧。",
+   "refs": [
+    "web-c361d5124a3e",
+    "web-3c7ced19196c",
+    "web-58c0a2decce6"
+   ]
+  },
+  {
+   "trend": "Agent架构从单模型调用转向「AI指挥AI」的多智能体编排，工程化落地加速。",
+   "why": "DeepSeek新架构让上层模型调度下层模型，Anthropic开源Skills，腾讯云与英特尔共建执行底座。",
+   "refs": [
+    "web-c457f8428185",
+    "web-10ba719313a0",
+    "web-c537f963f202",
+    "web-24ee0d11b76f"
+   ]
+  },
+  {
+   "trend": "评测焦点从「能看会说」转向精密测量与全局约束，暴露生成式模型的真实能力边界。",
+   "why": "大模型拼1000片纯白拼图五小时崩溃，传统机器视觉反而可行，说明能力评测需新方法。",
+   "refs": [
+    "web-721ada5b78eb",
+    "web-58c0a2decce6"
+   ]
+  },
+  {
+   "trend": "企业AI竞争从「会回答」升级为「能执行」，持久化记忆与低代码Agent平台成新战场。",
+   "why": "Zoho三层架构以MCP打通生态，Arca用自研harness加持久记忆支撑长周期金融任务。",
+   "refs": [
+    "web-73549972a16a",
+    "web-5f823666a4ee"
+   ]
+  }
+ ]
+}
