@@ -2199,45 +2199,1084 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-a510883f6a1b",
+   "kind": "article",
+   "title": "Claude Code VS Code extension with backdoor released on Cursor marketplace",
+   "url": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-30T10:22:51Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50301983",
+     "signal": "399 pts",
+     "metric": 399
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Cursor市场出现带后门的Claude Code VS Code扩展",
+   "summary_zh": "有人在Cursor插件市场发布伪装成Claude Code的VS Code扩展并植入后门，暴露AI编程工具生态的供应链安全风险。",
+   "highlights_zh": [
+    "恶意扩展冒充Claude Code在Cursor市场分发",
+    "插件市场审核机制存在漏洞",
+    "AI编程工具成为供应链攻击新入口"
+   ],
+   "why_zh": "使用AI编程插件和第三方扩展的开发者需警惕，值得了解攻击面。",
+   "tags": [
+    "代码",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.6009,
+   "score_llm": 7.0,
+   "score": 0.6604,
+   "date": "2026-10-31",
+   "slot": "evening",
+   "selected_at": "2026-10-31T10:51:35+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50301983"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-58bdc6b4d610",
+   "kind": "article",
+   "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+   "url": "https://github.com/dbreunig/nesformer",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-30T16:40:22Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50306442",
+     "signal": "255 pts",
+     "metric": 255
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Show HN：用约1GB Qwen权重跑起一台任天堂",
+   "summary_zh": "开发者展示用约1GB的Qwen模型权重实现可运行的任天堂模拟器，探索小模型在特定任务上的能力边界。",
+   "highlights_zh": [
+    "以约1GB Qwen权重实现可运行的任天堂模拟",
+    "展示小模型在特定任务上的可行性",
+    "为模型能力评测提供有趣案例"
+   ],
+   "why_zh": "对小模型能力边界和创意应用感兴趣的开发者值得一看。",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.58,
+   "score_llm": 7.0,
+   "score": 0.652,
+   "date": "2026-10-31",
+   "slot": "evening",
+   "selected_at": "2026-10-31T10:51:35+00:00",
+   "mirror_pdf": "pdf/web-58bdc6b4d610.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/dbreunig/nesformer"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50306442"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ad293b845478",
+   "kind": "article",
+   "title": "Sharp Tech on Video: Anthropic’s S-1 and What It Means for Meta and Muse, You Can See Everything, and Brewers!",
+   "url": "https://stratechery.com/2026/sharp-tech-on-video-anthropics-s-1-and-what-it-means-for-meta-and-muse-you-can-see-everything-and-brewers/",
+   "pdf_url": "",
+   "abstract": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery.",
+   "authors": [
+    "Ben Thompson"
+   ],
+   "orgs": [
+    "Stratechery"
+   ],
+   "published": "2026-10-30T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "Stratechery",
+     "authority": 0.8,
+     "url": "https://stratechery.com/2026/sharp-tech-on-video-anthropics-s-1-and-what-it-means-for-meta-and-muse-you-can-see-everything-and-brewers/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Ben Thompson，科技战略分析",
+   "title_zh": "Anthropic的S-1意味着什么",
+   "summary_zh": "Ben Thompson 讨论 Anthropic 的 S-1 文件及其对 Meta、Muse 的影响，兼谈行业格局。",
+   "highlights_zh": [
+    "Anthropic S-1 解读",
+    "对 Meta 与 Muse 的影响",
+    "Stratechery 战略视角"
+   ],
+   "why_zh": "头部模型公司资本与战略动向的深度分析。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.648,
+   "date": "2026-10-31",
+   "slot": "evening",
+   "selected_at": "2026-10-31T10:51:35+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://stratechery.com/2026/sharp-tech-on-video-anthropics-s-1-and-what-it-means-for-meta-and-muse-you-can-see-everything-and-brewers/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4505f5f4bd09",
+   "kind": "article",
+   "title": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming?",
+   "url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/",
+   "pdf_url": "",
+   "abstract": "It turns out you cannot have your cake AND eat it",
+   "authors": [
+    "swyx .ai"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-31T05:00:48+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "谷歌承认AI Mode侵蚀搜索收入，市值单日蒸发5000亿美元",
+   "summary_zh": "Latent Space分析谷歌AI Mode对搜索广告收入的冲击，指出这是2004年上市以来最差单日表现，并讨论AI熊市是否将至。",
+   "highlights_zh": [
+    "谷歌首次承认AI Mode会损害搜索收入",
+    "市值单日下跌15%、约5000亿美元，为上市以来最差",
+    "文章讨论这是否预示AI泡沫破裂与熊市"
+   ],
+   "why_zh": "头部公司亲口承认AI产品反噬核心业务，是判断AI商业模式风险的关键信号。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-10-31",
+   "slot": "evening",
+   "selected_at": "2026-10-31T10:51:35+00:00",
+   "mirror_pdf": "pdf/web-4505f5f4bd09.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.40444",
+   "kind": "paper",
+   "title": "Prefix Executability: Evaluating Tool-Using Agents Beyond Final Success",
+   "url": "https://arxiv.org/abs/2610.40444",
+   "pdf_url": "https://arxiv.org/pdf/2610.40444",
+   "abstract": "Tool-use benchmarks often score agents by final task success, but terminal outcomes can obscure whether the intermediate tool-call trajectory was executable. We propose prefix executability as a trajectory-level evaluation protocol for tool-using agents. The protocol measures whether every prefix of a predicted tool-call sequence remains executable under tool schemas, state preconditions, and data dependencies, and summarizes reliability using Prefix Executability Curves (PEC), First-Error Depth (FED), Trajectory Executability Rate (TER), horizon-normalized AUC-PEC, and Recovery Rate (RR). We instantiate the protocol on stratified samples from BFCL-v3 multi-turn and ToolSandbox, and on the complete Airline/Retail base splits of $τ^3$-bench. We observe that outcome-only and prefix-level rankings diverge: agents whose execution is conditioned on an unverified plan often achieve higher point-estimate final success than non-plan-conditioned baselines while substantially lowering TER and AUC-PEC. These divergences are precisely the failure modes that prefix executability is designed to expose: they reveal whether apparent success rests on an executable trajectory, where invalidity first enters, and whether success follows recovery from an earlier failure. As a validation intervention, explicit pre-execution plan checking can improve executable-prefix survival while maintaining competitive terminal success. These results show that final success alone is insufficient for evaluating tool-use agents and that prefix-level executability provides an actionable reliability signal for comparing agents, diagnosing failures, and assessing validation mechanisms.",
+   "authors": [
+    "Amir H. Rezaeian",
+    "Weiyi Sun",
+    "Yassine Benajiba",
+    "Dan Roth"
+   ],
+   "orgs": [],
+   "published": "2026-10-29T16:58:04Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.40444",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "前缀可执行性：超越最终成功率评估工具调用智能体",
+   "summary_zh": "提出轨迹级评测协议，检查工具调用序列每一步是否可执行，发现仅看最终成功率的排名与逐步可执行性排名会背离，暴露「看似成功实则轨迹不可执行」的失败模式。",
+   "highlights_zh": [
+    "提出前缀可执行性曲线、首次错误深度、轨迹可执行率等指标",
+    "在BFCL-v3、ToolSandbox、τ³-bench上验证，两类排名显著背离",
+    "执行前显式检查计划可提升可执行前缀存活率"
+   ],
+   "why_zh": "做智能体评测的人应关注：只看最终成功率会高估依赖未验证计划的智能体。",
+   "tags": [
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-31",
+   "slot": "evening",
+   "selected_at": "2026-10-31T10:51:35+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.40444.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.40444"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.40444"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.40444"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.40444"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.40444"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.40444"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.40401",
+   "kind": "paper",
+   "title": "Continuous-Action World Models: Learning Cross-Embodiment Spatiotemporal Dynamics Priors",
+   "url": "https://arxiv.org/abs/2610.40401",
+   "pdf_url": "https://arxiv.org/pdf/2610.40401",
+   "abstract": "We introduce Continuous-Action World Models (CoAWM), a framework for learning cross-embodiment spatiotemporal dynamics priors that support robot action generation across embodiments and execution frequencies. At its core is a shared latent function space that captures the spatial and temporal structure of robot actions. We learn this space through two stages. First, function pretraining brings trajectories from different embodiments and sampling frequencies into a common representation, learning shared dynamics priors through action reconstruction and consistency across temporal sampling views. By accommodating heterogeneous robot trajectories, this stage broadens the range of data sources available for pretraining and facilitates scaling to larger and more diverse datasets. Second, we connect the pretrained function space to a world-model backbone, enabling observations, language instructions, and the current robot state to condition the prediction of a latent action function. A single decoder takes any query time and returns the corresponding end-effector action. By separating shared dynamics priors from task-conditioned action selection and temporal sampling, our approach provides a unified foundation for transferring robot experience across embodiments and control frequencies.",
+   "authors": [
+    "Liangyu Li",
+    "Qingwen Liu"
+   ],
+   "orgs": [],
+   "published": "2026-10-29T16:34:54Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.40401",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "连续动作世界模型：跨具身时空动力学先验",
+   "summary_zh": "提出CoAWM，用共享隐函数空间统一不同机器人本体与采样频率的轨迹，先预训练动力学先验再接入世界模型主干，实现跨具身、跨控制频率的动作生成。",
+   "highlights_zh": [
+    "函数预训练将异构轨迹对齐到统一表示，扩大可用数据源",
+    "单一解码器可在任意查询时刻输出末端执行器动作",
+    "分离共享动力学先验与任务条件动作选择"
+   ],
+   "why_zh": "机器人基础模型跨具身迁移的关键一步，值得关注其数据规模化思路。",
+   "tags": [
+    "机器人",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-10-31",
+   "slot": "evening",
+   "selected_at": "2026-10-31T10:51:35+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.40401.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.40401"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.40401"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.40401"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.40401"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.40401"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.40401"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0b589a6ccbef",
+   "kind": "article",
+   "title": "世界模型首次指导设计芯片！超大核NPU700TOPS，99%算力可用",
+   "url": "https://www.qbitai.com/2026/10/506866.html",
+   "pdf_url": "",
+   "abstract": "AI算力利用“九九成”",
+   "authors": [
+    "梦瑶"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-31T05:11:19+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/506866.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "世界模型首次指导芯片设计",
+   "summary_zh": "报道称世界模型首次用于指导芯片设计，超大核 NPU 达 700TOPS，算力可用率高达 99%。",
+   "highlights_zh": [
+    "世界模型首次介入芯片设计流程",
+    "NPU 算力 700TOPS、可用率 99%",
+    "AI 与芯片设计交叉的新范式"
+   ],
+   "why_zh": "关注世界模型在硬件设计中的首次落地及其算力指标。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-31",
+   "slot": "evening",
+   "selected_at": "2026-10-31T10:51:35+00:00",
+   "mirror_pdf": "pdf/web-0b589a6ccbef.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/506866.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-17dbbe17258f",
+   "kind": "article",
+   "title": "刚刚，Claude宣布取消5小时限制！首批Ultra用户已「解封」",
+   "url": "https://www.qbitai.com/2026/10/506855.html",
+   "pdf_url": "",
+   "abstract": "200美元Ultra用户先用",
+   "authors": [
+    "梦瑶"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-31T05:05:29+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/506855.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Claude 取消 5 小时使用限制",
+   "summary_zh": "Anthropic 取消 Claude 的 5 小时使用限制，首批 200 美元 Ultra 用户已解除封顶。",
+   "highlights_zh": [
+    "取消 5 小时用量限制",
+    "Ultra 付费用户优先解封",
+    "反映推理算力供给改善"
+   ],
+   "why_zh": "关注头部模型厂商放宽用量限制背后的算力与竞争信号。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-31",
+   "slot": "evening",
+   "selected_at": "2026-10-31T10:51:35+00:00",
+   "mirror_pdf": "pdf/web-17dbbe17258f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/506855.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b3bd6a6a31e3",
+   "kind": "article",
+   "title": "AI零帧起手写算子，反超DeepSeek人类手写巅峰：快了9.8%！",
+   "url": "https://www.qbitai.com/2026/10/506785.html",
+   "pdf_url": "",
+   "abstract": "之前还连登昇腾三榜第一",
+   "authors": [
+    "十三"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-30T11:05:06+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/506785.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI零样本写算子，反超人类手写9.8%",
+   "summary_zh": "AI 零样本自动生成算子，性能反超 DeepSeek 人类手写巅峰，快 9.8%，此前已登昇腾三榜第一。",
+   "highlights_zh": [
+    "零样本生成算子超越人类手写",
+    "性能提升 9.8%",
+    "曾连登昇腾三榜第一"
+   ],
+   "why_zh": "AI 自动写底层算子，对芯片与编译优化有直接价值。",
+   "tags": [
+    "代码",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-10-31",
+   "slot": "evening",
+   "selected_at": "2026-10-31T10:51:35+00:00",
+   "mirror_pdf": "pdf/web-b3bd6a6a31e3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/506785.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c8c146e30440",
+   "kind": "article",
+   "title": "智能驾驶进入物理AI时代？7位行业嘉宾给出最新判断",
+   "url": "https://www.leiphone.com/category/transportation/pqEtZnYepE5D1PzD.html",
+   "pdf_url": "",
+   "abstract": "10月26日，第八届智能驾驶大会暨2026环秀湖物理AI产业发展推介会在苏州相城举行。 上一届，车路云一体化、智能驾驶出海和无人驾驶商业化是讨论重点，而到了今年，大会的讨论边界进一步从智能驾驶向物理AI延伸。 世界模型、强化学习、端侧智能、虚拟仿真、Robotaxi之外，机器人、低空飞行器等不同形态的物理智能开始出现在同一场大会上。这背后，是智能驾驶行业正在面对的一组新问题。 一方面，高阶辅助驾驶已经进入规模化上车阶段，Robotaxi也开始从技术验证走向运营和商业化；另一方面，当AI真正进入汽车、机器人、飞行器等物理设备，如何获得足够的数据、如何训练和验证模型、如何降低开发成本，以及如何保证系统在真实世界中的安全性，正在成为新的技术难题。 当天，包括Momenta、曹操出行、面壁智能等企业，以及高校和科研机构的多位嘉宾，从世界模型、强化学习、端侧大模型、虚拟仿真、车路云和物理AI基础设施等方向给出了自己的判断。 总结这些发言不难发现，智能驾驶正在成为物理AI最早进入现实世界的一块试验场。而从一辆车的自动驾驶，到机器人、低空飞行器以及城市交通系统，不同技术路线正在回答同一个问题：AI如何从数字世界真正进入物理世界，并形成可以规模化运行的产品。 中国工程院院士，清华大学车辆与运载学院教授、智能绿色车辆与交通全国重点实验室主任 李克强 关键词：智能驾驶安全、车路云一体化、单车智能瓶颈 李克强认为，汽车智能化已经进入大规模应用和商业闭环阶段，当前首要问题是智能驾驶系统安全。仅依靠单车自身的传感器和计算能力存在物理边界，高级别自动驾驶需要从单车智能进一步向车云协同、车路云一体化演进。 他将当前自动驾驶产业的瓶颈归纳为三类：一是部分产品定义与国家、国际标准存在偏差；二是高安全、高可靠自动驾驶的关键技术仍待突破；三是行业投入与商业产出仍不匹配。 技术层面，他认为主要存在三个问题： 感知能力仍有边界。如果车辆“看不见、看不远、看不全”，再强的AI决策也无法弥补信息缺失，因此需要通过超视距感知、数字信号上车和协同感知增加信息来源； AI模型训练数据仍不完整。自动驾驶正在进入多模态和大模型阶段，但数据类型和场景覆盖不足仍可能产生安全问题； 开发效率较低。当前大量系统仍采用“烟囱式”架构，缺乏统一底座，存在开发门槛高、复用率低和验证周期长等问题。 李克强提出，车路云一体化可以提供两类核心能力：一是建立标准化“数据轨道”，向车辆提供广域、多维、实时交通信息；二是形成面向AI大模型的数据服务体系，为模型持续提供高可靠数据。 目前相关方案已经进入产业化验证。包括北京、重庆在内的城市正在开展车企协同开发，应用场景覆盖前方静止障碍物、“鬼探头”、绿波通行等。部分项目已经进入量产阶段，今年已有7家车企推进相关应用，中国一汽也已公布量产导入。 他认为，高级别自动驾驶未来需要解决三个问题：正视安全瓶颈、突破单车智能的物理边界，并通过车路云一体化降低开发成本、提高研发效率。 欧洲科学院院士，清华大学车辆与运载学院教授 曲小波 关键词：物理AI、数字孪生、飞行汽车、需求响应公交 曲小波认为，物理AI正在推动数字孪生从“映射和监视现实世界”，进一步走向“理解、推演并实时控制现实世界”。 传统数字孪生主要完成物理实体到数字实体的映射，但数字端推演往往需要数秒，很难实时控制物理系统。相关国家重点研发项目希望重点解决四个问题：实现具有泛化能力的数字推演、将推演时间压缩到100毫秒以内、建立数字端与物理端互操作机制，以及通过跨尺度、多层次架构降低末端执行误差。 其技术体系分成三个层级： 组件级：",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-31T03:31:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/transportation/pqEtZnYepE5D1PzD.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "智能驾驶迈向物理AI：7位嘉宾的最新判断",
+   "summary_zh": "智能驾驶大会多位嘉宾讨论世界模型、强化学习、端侧大模型与车路云一体化，认为智驾是物理AI最早落地的试验场。",
+   "highlights_zh": [
+    "李克强院士指出单车智能存在物理边界，需车路云一体化",
+    "世界模型、强化学习、端侧大模型成为讨论焦点",
+    "物理AI从汽车延伸到机器人、低空飞行器"
+   ],
+   "why_zh": "系统梳理物理AI在智驾领域的技术路线与产业瓶颈，信息密度较高。",
+   "tags": [
+    "机器人",
+    "强化学习",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-31",
+   "slot": "evening",
+   "selected_at": "2026-10-31T10:51:35+00:00",
+   "mirror_pdf": "pdf/web-c8c146e30440.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/transportation/pqEtZnYepE5D1PzD.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bbedf6f83f6b",
+   "kind": "article",
+   "title": "每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
+   "url": "https://www.infoq.cn/video/4qjamMQLVIoZvytUQwpI?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "凌敏"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-31T16:15:46+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/video/4qjamMQLVIoZvytUQwpI?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "每天上千万次创建：Agent Sandbox 为何成为新算力形态",
+   "summary_zh": "InfoQ 探讨智能体沙箱每天被创建上千万次的现象，分析其作为隔离执行环境为何正在成为新的算力消耗形态。",
+   "highlights_zh": [
+    "智能体沙箱创建量已达每天千万级",
+    "沙箱作为隔离执行环境成为算力新形态",
+    "反映智能体从对话走向实际执行任务的趋势"
+   ],
+   "why_zh": "理解智能体基础设施的算力消耗结构，把握 Agent 落地的工程瓶颈。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-10-31",
+   "slot": "evening",
+   "selected_at": "2026-10-31T10:51:35+00:00",
+   "mirror_pdf": "pdf/web-bbedf6f83f6b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/video/4qjamMQLVIoZvytUQwpI?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b2263e9f8412",
+   "kind": "article",
+   "title": "nemotron-halloween",
+   "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-10-30T17:57:24+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Nemotron 万圣节模型发布",
+   "summary_zh": "Hugging Face 博客介绍英伟达 Nemotron 系列模型的新发布，具体细节未在摘要中展开。",
+   "highlights_zh": [
+    "Nemotron 系列模型新进展",
+    "来自 Hugging Face 技术博客",
+    "细节需查阅原文"
+   ],
+   "why_zh": "关注英伟达开源模型 Nemotron 系列的最新动向。",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 6.0,
+   "score": 0.552,
+   "date": "2026-10-31",
+   "slot": "evening",
+   "selected_at": "2026-10-31T10:51:35+00:00",
+   "mirror_pdf": "pdf/web-b2263e9f8412.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/nvidia/nemotron-halloween"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.40545",
+   "kind": "paper",
+   "title": "Retrieval as Traversal: Value-Indexed Memory for Stateful Long-Context Agents",
+   "url": "https://arxiv.org/abs/2610.40545",
+   "pdf_url": "https://arxiv.org/pdf/2610.40545",
+   "abstract": "Long-context models repeatedly solve closely related retrieval problems. Attention or global retrieval can retain large stores, but each forward pass again searches for what matters. Recurrent compression avoids this search only by deciding earlier what information to preserve. Neither mechanism directly exploits that useful memories at neighbouring retrieval steps may substantially overlap. We propose an alternative in which retrieval is a persistent local traversal through an address space. We separate a memory's content from its address. Utility is defined by the information revealed by retrieving the content, while geometry determines only how cheaply that information can be reached. This leads to a cost-regularised indexing objective that preserves information value inside local neighbourhoods while charging for every memory made locally accessible. Its marginal-value form gives both attractive and exclusion pressures. Thus, complementary memories should be co-retrievable when the additional value exceeds retrieval cost, whereas redundant memories should not occupy the same retrieval set solely because they are individually useful. As a proof of principle, we test only the simplest fixed-geometry instance on MiniGrid Memory. A persistent local traversal head reaches $0.95$ mean return after $0.59$M training steps with a five-token context, compared with $0.94$M for Gaussian absolute addressing and more than $2$M for categorical absolute addressing. The experiment does not test learned geometry or repeated retrieval. Instead, it motivates the hypothesis that stateful retrieval may be easier to learn than stateless. To test the full proposed method further experimentation is necessary.",
+   "authors": [
+    "Daniel Strauß",
+    "Zhenshan Bing",
+    "Alois Knoll"
+   ],
+   "orgs": [],
+   "published": "2026-10-29T17:37:21Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2610.40545",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "检索即遍历：面向有状态长上下文智能体的价值索引记忆",
+   "summary_zh": "把记忆检索改为在地址空间中的持久局部遍历，将内容与地址分离，用成本正则化索引目标平衡信息价值与检索开销；在MiniGrid Memory上以五token上下文达到0.95回报。",
+   "highlights_zh": [
+    "内容与地址解耦，几何只决定可达成本，效用由检索揭示的信息量定义",
+    "边际价值形式同时产生吸引与排斥压力，互补记忆共检索、冗余记忆不共占",
+    "仅验证最简单的固定几何实例，属原理性证明"
+   ],
+   "why_zh": "为长上下文智能体的记忆检索提供新范式，值得关注其后续扩展。",
+   "tags": [
+    "智能体",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 7.0,
+   "score": 0.548,
+   "date": "2026-10-31",
+   "slot": "evening",
+   "selected_at": "2026-10-31T10:51:35+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.40545.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.40545"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.40545"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.40545"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.40545"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.40545"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.40545"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7220c5dc2ad3",
+   "kind": "article",
+   "title": "榜一，拿来吧你！智元这波双模型杀穿多榜榜单",
+   "url": "https://www.qbitai.com/2026/10/506819.html",
+   "pdf_url": "",
+   "abstract": "xs，还要给机器人打绩效",
+   "authors": [
+    "衡宇"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-30T12:58:31+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/506819.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "智元双模型登顶多榜，机器人也要打绩效",
+   "summary_zh": "智元机器人发布双模型，在多项机器人评测榜单登顶，主打任务执行与评估能力。",
+   "highlights_zh": [
+    "双模型在多个榜单拿下第一",
+    "强调机器人任务绩效评估",
+    "量子位报道，偏宣传口径"
+   ],
+   "why_zh": "了解国内具身智能玩家最新模型进展与榜单表现。",
+   "tags": [
+    "机器人",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-10-31",
+   "slot": "evening",
+   "selected_at": "2026-10-31T10:51:35+00:00",
+   "mirror_pdf": "pdf/web-7220c5dc2ad3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/506819.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-020a1fe5a750",
+   "kind": "article",
+   "title": "大厂减市场预算，加AI预算",
+   "url": "https://www.tmtpost.com/8188331.html",
+   "pdf_url": "",
+   "abstract": "当一家公司能用模型解释增长，它就不需要再用媒体预算解释增长。",
+   "authors": [
+    "寻空的营销启示录"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-10-31T03:53:33+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8188331.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "大厂减市场预算，加 AI 预算",
+   "summary_zh": "文章认为企业正把市场预算转向 AI 预算，当模型能解释增长时便不再依赖媒体预算。",
+   "highlights_zh": [
+    "企业预算从市场营销转向 AI",
+    "以模型解释增长替代媒体投放",
+    "反映 AI 投入的商业模式变化"
+   ],
+   "why_zh": "从预算结构变化观察企业对 AI 投入的态度转向。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-10-31",
+   "slot": "evening",
+   "selected_at": "2026-10-31T10:51:35+00:00",
+   "mirror_pdf": "pdf/web-020a1fe5a750.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8188331.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b45dcd6d307c",
+   "kind": "article",
+   "title": "全球首富马斯克预言：2029 年太空 AI 算力将远超地面算力",
+   "url": "https://www.ithome.com/1/020/499.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 10 月 31 日消息，全球首富埃隆 · 马斯克（Elon Musk）今天（10 月 31 日）在 X 平台发布推文， 预言 2029 年部署到近地轨道的 AI 与云计算处理能力，将远远超过地面算力。 IT之家附上相关截图如下： 马斯克预言到 2028 年，轨道算力（太空计算能力）每月新增部署量将超过地面算力，而到 2029 年“远超”地面算力。这里的“轨道算力”指部署在卫星或太空数据中心里的 AI / GPU 等计算能力，其潜在优势包括太空太阳能供电、散热条件以及可大规模发射部署。 随着 AI 训练与推理需求激增，地面数据中心正面临电力短缺、电网扩容缓慢、土地与水资源紧张，以及社区反对等多重约束。支持者认为，将服务器、GPU 和存储设备送入近地轨道，可利用太空中更强、更持续的太阳光照，摆脱对地面电网的依赖。 在合适的太阳同步轨道上，卫星几乎可全天候接收阳光，从而为高耗能 AI 芯片提供稳定电力。行业研究指出，太空中的太阳辐照强度可达约每平方米 1361 瓦，且不受昼夜和天气影响。 这一赛道已不再只有马斯克。谷歌的“Suncatcher”项目已于 10 月将首颗试验航天器送入轨道，探索在太空运行机器学习算力的可行性；贝索斯支持的蓝色起源也向美国联邦通信委员会提交了名为“Project Sunrise”的方案，计划部署最多 5.16 万颗数据中心卫星。 SpaceX 的野心更为庞大。该公司已申请建设一个最多由 100 万颗卫星组成的轨道数据中心星座，运行高度介于 500 至 2000 公里，并计划与星链网络协同传输数据。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-10-31T07:32:29+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/020/499.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "马斯克预言2029年太空算力将远超地面",
+   "summary_zh": "马斯克称2028年轨道算力月增量将超地面，2029年远超；谷歌、蓝色起源、SpaceX均已布局太空数据中心。",
+   "highlights_zh": [
+    "太空太阳能与散热优势可绕开地面电网、土地与水资源约束",
+    "谷歌Suncatcher已发射试验航天器，蓝色起源申请5.16万颗卫星",
+    "SpaceX申请最多100万颗卫星的轨道数据中心星座"
+   ],
+   "why_zh": "反映AI算力基础设施的长期方向之争，但马斯克预言本身缺乏数据支撑。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-10-31",
+   "slot": "evening",
+   "selected_at": "2026-10-31T10:51:35+00:00",
+   "mirror_pdf": "pdf/web-b45dcd6d307c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/020/499.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-045bbe365f38",
+   "kind": "article",
+   "title": "早报｜iPhone国行AI官宣！千问接入Siri/DeepSeek千亿融资曝光/于东来建议支持「消费入座」",
+   "url": "https://www.ifanr.com/1686979?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "· 特斯拉推出 5 年零息方案，Model 3 / Y 首付 3.99 万元起 · 开发者在 Surface Duo 2 上启动 iOS 27 iPhone Duo 版本 · 米哈游《星布谷地》定档 12 月 4 日公测 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "郑廷旭"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-31T00:14:24+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1686979?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "早报：iPhone国行AI官宣，千问接入Siri",
+   "summary_zh": "爱范儿早报汇总：iPhone国行AI功能官宣、千问接入Siri、DeepSeek千亿融资传闻等。",
+   "highlights_zh": [
+    "苹果国行AI功能正式官宣",
+    "阿里千问接入Siri",
+    "DeepSeek千亿融资传闻曝光"
+   ],
+   "why_zh": "快速了解当日AI产品与资本动态，但信息较碎片化。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-10-31",
+   "slot": "evening",
+   "selected_at": "2026-10-31T10:51:35+00:00",
+   "mirror_pdf": "pdf/web-045bbe365f38.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1686979?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6a3053b52fb2",
+   "kind": "article",
+   "title": "汽车工业的下一条流水线，开始由 AI 来安排",
+   "url": "https://www.ifanr.com/1686953?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "从司机乘客，到汽车工厂，再到整个产业。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "刘学文"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-10-30T13:03:59+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1686953?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI开始安排汽车工业的下一条流水线",
+   "summary_zh": "爱范儿报道AI在汽车制造工厂与产业链中的应用，从生产排程到产业协同。",
+   "highlights_zh": [
+    "AI进入汽车工厂生产调度环节",
+    "覆盖从制造到产业协同的多个场景",
+    "属于行业应用观察"
+   ],
+   "why_zh": "了解AI在制造业落地的案例，但深度有限。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-10-31",
+   "slot": "evening",
+   "selected_at": "2026-10-31T10:51:35+00:00",
+   "mirror_pdf": "pdf/web-6a3053b52fb2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1686953?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "AI资本开支与表外负债成为市场新风险点，估值逻辑面临重估",
-   "why": "Anthropic招股书披露近9000亿美元表外义务，远超账面负债，叠加具身智能投资转冷，资本开始审视AI基建的回报周期。",
+   "trend": "AI资本开支与表外负债成为市场新风险点",
+   "why": "Anthropic招股书披露近9000亿美元表外义务，远超账面负债，AI基建军备竞赛的财务杠杆正引发市场警惕。",
    "refs": [
-    "web-d7e690a6c2dd",
-    "web-e0fd1b24e197"
+    "web-d7e690a6c2dd"
    ]
   },
   {
-   "trend": "AI编程工具供应链安全从理论风险转为现实威胁",
-   "why": "官方Claude Code扩展及Cursor市场版本接连被曝后门，Chainguard随即推出安全沙箱，工具链信任危机倒逼隔离方案。",
+   "trend": "AI编程工具供应链安全从隐患变为现实威胁",
+   "why": "官方Claude Code扩展及Cursor市场仿冒扩展接连被曝含后门，开发者工具链成为攻击面。",
    "refs": [
     "web-7e2aaf184ac3",
     "web-bf5aaab63512",
-    "web-9906470a46d3"
+    "web-a510883f6a1b"
    ]
   },
   {
-   "trend": "评测方法正从自然语言判定转向可验证的形式化证明",
-   "why": "AWM用Lean 4内核校验封闭证明击败Claude与GPT基线，拉马努金挑战赛以AI流水线将证明误判率从23%降至6%。",
-   "refs": [
-    "arxiv-2610.40503",
-    "arxiv-2610.40551"
-   ]
-  },
-  {
-   "trend": "具身智能瓶颈从数据规模转向数据可用性与评测标准缺失",
-   "why": "行元智能指出筛选无细粒度标准、缺公认评测机制是模型能力不涨的根因，影溯则以仿真数采中心试图破解多样性。",
+   "trend": "具身智能数据瓶颈从采集转向筛选与评测标准缺失",
+   "why": "数据规模涨而模型能力不涨，根因是缺细粒度筛选标准和公认评测机制，仿真数采中心试图破解多样性瓶颈。",
    "refs": [
     "web-dfa9e9d1e83e",
     "web-172eafcc5546"
    ]
   },
   {
-   "trend": "国产大模型借苹果生态完成关键落地，竞争转向入口卡位",
-   "why": "阿里千问接入国行Apple智能覆盖Siri与写作工具，12月随iOS推送，标志海外硬件生态与国产模型的合作路径明确。",
+   "trend": "AI评测方法向形式化验证与AI辅助评审演进",
+   "why": "代数世界模型用Lean 4内核校验证明，拉马努金挑战赛用AI流水线将证明误判率从23%降至6%。",
+   "refs": [
+    "arxiv-2610.40503",
+    "arxiv-2610.40551"
+   ]
+  },
+  {
+   "trend": "海外大模型借苹果生态落地中国，国产模型成关键搭档",
+   "why": "千问接入国行Apple智能覆盖Siri，标志海外模型入华路径明确，国产模型承担本地化入口角色。",
    "refs": [
     "web-9bbde3f92896",
     "web-40bba911c4bf",
