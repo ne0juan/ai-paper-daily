@@ -1,12 +1,11 @@
-2026-10-31 10:51:36,093 INFO source hf_daily           -> 11 items
-2026-10-31 10:51:36,509 INFO source hackernews         -> 11 items
-2026-10-31 10:52:52,003 INFO source rss                -> 72 items
-2026-10-31 10:52:54,013 INFO source html_lists         -> 0 items
-2026-10-31 10:52:54,013 INFO source x                  -> 0 items
-2026-10-31 10:52:54,754 INFO source arxiv_search       -> 26 items
-2026-10-31 10:53:03,506 INFO source github             -> 20 items
-2026-10-31 10:53:03,507 INFO candidates: 139 (stale dropped 23, new 52)
-2026-10-31 10:53:51,751 INFO llm judged 52/52 (calls=7)
-2026-10-31 10:54:09,140 WARNING snapshot https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2: blocked or empty page
-2026-10-31 10:54:16,650 WARNING snapshot https://stratechery.com/2026/sharp-tech-on-video-anthropics-s-1-and-what-it-means-for-meta-and-muse-you-can-see-everything-and-brewers/: blocked or empty page
-2026-10-31 10:56:21,341 INFO run done: {"at": "2026-10-31T10:51:35+00:00", "slot": "evening", "candidates": 139, "new": 52, "stale": 23, "judged": 52, "selected": 18, "mirrored": 16, "by_category": {"资讯": 12, "观点": 2, "技术": 4}, "by_source": {"HF Daily Papers": 11, "arXiv 新论文": 26, "Hacker News": 11, "量子位": 10, "极客公园": 4, "IT之家": 5, "爱范儿": 6, "雷峰网": 14, "钛媒体": 2, "InfoQ 中文": 9, "阮一峰": 1, "Nathan Lambert": 1, "Dwarkesh Patel": 2, "Latent Space": 3, "Stratechery": 2, "Nathan Benaich": 1, "Zvi Mowshowitz": 2, "Timothy B. Lee": 1, "Packy McCormick": 1, "Hugging Face Blog": 2, "OpenAI": 4, "NVIDIA": 2, "GitHub Trending": 8, "GitHub 新项目": 12}, "llm": true, "translated": 0}
+2026-10-31 16:00:57,770 INFO source hf_daily           -> 11 items
+2026-10-31 16:01:07,436 INFO source hackernews         -> 11 items
+2026-10-31 16:02:59,269 INFO source rss                -> 81 items
+2026-10-31 16:03:00,636 INFO source html_lists         -> 0 items
+2026-10-31 16:03:00,636 INFO source x                  -> 0 items
+2026-10-31 16:03:01,228 INFO source arxiv_search       -> 16 items
+2026-10-31 16:03:10,034 INFO source github             -> 20 items
+2026-10-31 16:03:10,035 INFO candidates: 138 (stale dropped 71, new 34)
+2026-10-31 16:03:45,938 INFO llm judged 34/34 (calls=5)
+2026-10-31 16:04:07,355 WARNING snapshot https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5: blocked or empty page
+2026-10-31 16:06:34,999 INFO run done: {"at": "2026-10-31T16:00:57+00:00", "slot": "morning", "candidates": 138, "new": 34, "stale": 71, "judged": 34, "selected": 17, "mirrored": 16, "by_category": {"项目": 2, "资讯": 13, "观点": 1, "技术": 1}, "by_source": {"HF Daily Papers": 11, "arXiv 新论文": 16, "Hacker News": 11, "量子位": 10, "极客公园": 4, "IT之家": 13, "爱范儿": 7, "雷峰网": 14, "钛媒体": 4, "InfoQ 中文": 10, "阮一峰": 1, "Nathan Lambert": 1, "Dwarkesh Patel": 2, "Latent Space": 3, "Stratechery": 2, "Nathan Benaich": 1, "Zvi Mowshowitz": 1, "Timothy B. Lee": 1, "Packy McCormick": 1, "Hugging Face Blog": 1, "OpenAI": 4, "NVIDIA": 1, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
