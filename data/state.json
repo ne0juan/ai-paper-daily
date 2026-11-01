@@ -2073,7 +2073,28 @@
   "web-adece04568c3": "2026-11-01",
   "web-bdeab6c60eaf": "2026-11-01",
   "web-a19df512d2a8": "2026-11-01",
-  "web-0b309d5539a8": "2026-11-01"
+  "web-0b309d5539a8": "2026-11-01",
+  "web-0ef69d0d8837": "2026-11-01",
+  "web-e48fb89e8a30": "2026-11-01",
+  "web-d374e5dcfaab": "2026-11-01",
+  "web-f9b8a9efbf26": "2026-11-01",
+  "web-04174b00d316": "2026-11-01",
+  "web-85c82f0a9571": "2026-11-01",
+  "web-71145972f162": "2026-11-01",
+  "web-9fa2b5128d3e": "2026-11-01",
+  "web-f25cfa09a16a": "2026-11-01",
+  "web-b03bc775dc4a": "2026-11-01",
+  "web-4e0cc916eed7": "2026-11-01",
+  "web-c2ed16959052": "2026-11-01",
+  "web-b4f2bd545d4e": "2026-11-01",
+  "web-637c9aeaf702": "2026-11-01",
+  "web-3fcebbed4a47": "2026-11-01",
+  "web-dd7d4d3482b3": "2026-11-01",
+  "web-41625b1c905b": "2026-11-01",
+  "web-271c37423996": "2026-11-01",
+  "web-a364bf369942": "2026-11-01",
+  "web-9c24a5c3bfdb": "2026-11-01",
+  "web-8b991f990657": "2026-11-01"
  },
  "known_links": {
   "https://www.anthropic.com/news": [
@@ -2342,38 +2363,6 @@
   ]
  },
  "runs": [
-  {
-   "at": "2026-10-12T04:39:20+00:00",
-   "slot": "noon",
-   "candidates": 77,
-   "new": 24,
-   "stale": 26,
-   "judged": 24,
-   "selected": 12,
-   "mirrored": 11,
-   "by_category": {
-    "资讯": 9,
-    "项目": 3
-   },
-   "by_source": {
-    "HF Daily Papers": 3,
-    "Hacker News": 2,
-    "量子位": 9,
-    "极客公园": 4,
-    "IT之家": 11,
-    "爱范儿": 4,
-    "少数派": 1,
-    "雷峰网": 3,
-    "钛媒体": 3,
-    "InfoQ 中文": 12,
-    "Latent Space": 3,
-    "Azeem Azhar": 2,
-    "GitHub Trending": 10,
-    "GitHub 新项目": 10
-   },
-   "llm": true,
-   "translated": 0
-  },
   {
    "at": "2026-10-12T12:58:38+00:00",
    "slot": "evening",
@@ -4894,6 +4883,47 @@
     "NVIDIA": 1,
     "GitHub Trending": 14,
     "GitHub 新项目": 6
+   },
+   "llm": true,
+   "translated": 0
+  },
+  {
+   "at": "2026-11-01T11:47:51+00:00",
+   "slot": "evening",
+   "candidates": 84,
+   "new": 33,
+   "stale": 6,
+   "judged": 33,
+   "selected": 21,
+   "mirrored": 19,
+   "by_category": {
+    "技术": 4,
+    "项目": 3,
+    "资讯": 14
+   },
+   "by_source": {
+    "Hacker News": 7,
+    "量子位": 8,
+    "极客公园": 5,
+    "IT之家": 6,
+    "爱范儿": 4,
+    "雷峰网": 4,
+    "钛媒体": 8,
+    "InfoQ 中文": 9,
+    "Andrej Karpathy": 1,
+    "Nathan Lambert": 1,
+    "Dwarkesh Patel": 1,
+    "Latent Space": 2,
+    "Stratechery": 1,
+    "Azeem Azhar": 1,
+    "Nathan Benaich": 1,
+    "Zvi Mowshowitz": 1,
+    "Packy McCormick": 1,
+    "科学空间": 1,
+    "Hugging Face Blog": 1,
+    "NVIDIA": 1,
+    "GitHub Trending": 9,
+    "GitHub 新项目": 11
    },
    "llm": true,
    "translated": 0

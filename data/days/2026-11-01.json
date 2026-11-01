@@ -1833,12 +1833,1151 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-0ef69d0d8837",
+   "kind": "article",
+   "title": "刚刚，DeepSeek重磅开源：Agent底座架构！",
+   "url": "https://www.qbitai.com/2026/10/506904.html",
+   "pdf_url": "",
+   "abstract": "AI已经自己找到Bug并提交PR",
+   "authors": [
+    "梦瑶"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-10-31T13:49:44+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/10/506904.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek重磅开源Agent底座架构",
+   "summary_zh": "DeepSeek开源智能体底座架构，AI可自主定位Bug并提交PR，为Agent工程化提供新基座。",
+   "highlights_zh": [
+    "DeepSeek开源Agent底座架构",
+    "AI自主发现Bug并提交PR",
+    "为智能体工程化提供参考基座"
+   ],
+   "why_zh": "头部大模型公司开源Agent底座，直接影响智能体开发路线选择。",
+   "tags": [
+    "智能体",
+    "大模型",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 9.0,
+   "score": 0.716,
+   "date": "2026-11-01",
+   "slot": "evening",
+   "selected_at": "2026-11-01T11:47:51+00:00",
+   "mirror_pdf": "pdf/web-0ef69d0d8837.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/10/506904.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e48fb89e8a30",
+   "kind": "article",
+   "title": "平均之路：从Attention到TTT",
+   "url": "https://kexue.fm/archives/11993",
+   "pdf_url": "",
+   "abstract": "在文章《将Softmax Attention线性化为Gated DeltaNet》中，我们提供了一个将Softmax Attention线性化为Gated DeltaNet的参考过程，它演示了我...",
+   "authors": [
+    "苏剑林"
+   ],
+   "orgs": [
+    "科学空间"
+   ],
+   "published": "2026-11-01T08:36:00+00:00",
+   "sources": [
+    {
+     "name": "科学空间",
+     "authority": 0.85,
+     "url": "https://kexue.fm/archives/11993",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "RoPE 提出者，科学空间博主",
+   "title_zh": "平均之路：从Attention到TTT",
+   "summary_zh": "苏剑林梳理从Softmax Attention线性化到Gated DeltaNet、再到TTT的演进脉络，揭示线性注意力与测试时训练的统一视角。",
+   "highlights_zh": [
+    "将Softmax Attention线性化为Gated DeltaNet的参考推导",
+    "串联线性注意力与TTT的演进逻辑",
+    "RoPE提出者的架构视角"
+   ],
+   "why_zh": "理解线性注意力与TTT架构演进的一手技术梳理。",
+   "tags": [
+    "大模型",
+    "效率与系统",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-11-01",
+   "slot": "evening",
+   "selected_at": "2026-11-01T11:47:51+00:00",
+   "mirror_pdf": "pdf/web-e48fb89e8a30.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://kexue.fm/archives/11993"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d374e5dcfaab",
+   "kind": "article",
+   "title": "beenuar/AiSOC",
+   "url": "https://github.com/beenuar/AiSOC",
+   "pdf_url": "",
+   "abstract": "Star beenuar / AiSOC Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue.",
+   "authors": [],
+   "orgs": [
+    "beenuar"
+   ],
+   "published": "2026-11-01T11:47:51+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/beenuar/AiSOC",
+     "signal": "★ 今日 +436 · Python",
+     "metric": 436
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AiSOC：开源 AI 安全运营中心，带可回放决策账本",
+   "summary_zh": "开源 AI 安全运营中心，融合告警、LLM 智能体分诊、MITRE ATT&CK 调查，并记录每步可回放决策。",
+   "highlights_zh": [
+    "每个智能体步骤都有可回放的决策账本",
+    "无需 API key 即可自托管运行",
+    "自带 MCP 服务器，支持 Claude、Cursor、Continue"
+   ],
+   "why_zh": "如果你在搭安全运营或智能体审计流程，可参考其决策账本设计",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.5894,
+   "score_llm": 7.0,
+   "score": 0.6558,
+   "date": "2026-11-01",
+   "slot": "evening",
+   "selected_at": "2026-11-01T11:47:51+00:00",
+   "mirror_pdf": "pdf/web-d374e5dcfaab.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/beenuar/AiSOC"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f9b8a9efbf26",
+   "kind": "article",
+   "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+   "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-31T22:46:12Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50320995",
+     "signal": "263 pts",
+     "metric": 263
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Memdoor：5 个 Qwen3-27B 组队在 LiveCodeBench Hard 上胜过 Fable 5",
+   "summary_zh": "Memdoor 用 5 个 Qwen3-27B 模型组队，在 LiveCodeBench Hard 上超过 Fable 5，展示多模型协作的潜力。",
+   "highlights_zh": [
+    "小模型组队挑战更强单体模型",
+    "在困难代码基准上取得领先",
+    "多智能体协作路线的新证据"
+   ],
+   "why_zh": "关注多模型协作能否以小博大，这是值得跟踪的路线",
+   "tags": [
+    "大模型",
+    "代码",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5814,
+   "score_llm": 7.0,
+   "score": 0.6526,
+   "date": "2026-11-01",
+   "slot": "evening",
+   "selected_at": "2026-11-01T11:47:51+00:00",
+   "mirror_pdf": "pdf/web-f9b8a9efbf26.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50320995"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-04174b00d316",
+   "kind": "article",
+   "title": "个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新",
+   "url": "http://www.geekpark.net/news/373249",
+   "pdf_url": "",
+   "abstract": "作者｜汤一涛 编辑｜靖宇 10 月 21 日的 Meta 财报会上，扎克伯格披露了一组关于个人智能体 Muse 的关键数据：超过 1000 万人设置了 Muse， 购物 是 Muse 最常见的用途，超过 四分之一 的用户在用它买东西，平均客单价超过 200 美元 ；上线第一周，Muse 交易量便超出了预期，Meta 不得不与支付合作伙伴 Stripe 一起临时上调了信用额度。 六天后的 10 月 27 日，蚂蚁集团发布了灵光 2.0，将产品定位从最初的「30 秒用自然语言生成小应用」，彻底转向「能管事的个人 AI 助理」，官方口号概括为九个字：「 记得住、盯得牢、办得了 」。它打通了支付宝账单、钉钉、飞书、米家等服务，让 AI 替你管日常事务，试图成为中国版 Muse。 但 Muse 和灵光面对的问题截然不同。美国电子商务分散在大量独立网站中，Muse 可以通过云端浏览器直接访问店铺；而中国的日常消费与沟通高度集中在少数几个超级 App 内部，数据与交易链路彼此独立。 灵光 2.0 界面 我们花了两天实测了灵光 2.0，并横向对比了千问、Muse 和 Claude Duet。实测表明，把一个 AI 个人助手放到中国的移动互联网生态里，真正的瓶颈已经不再是模型的推理能力，而是跨平台的权限边界、安全责任划分与商业利益归属。 首先定义一下「私人助理」这个概念。在现实世界里，一个人类私人助理之所以能替你把事情办妥，靠的是四样东西： 信息 ：知道你的偏好、账单、日程等上下文； 权限 ：能以你的名义采取行动，而且外部平台和交易对手认可这个授权； 责任 ：一旦出错了，有明确的追责与兜底机制； 忠诚 ：在利益冲突时替雇主着想。 过去，只有极少数富人请得起私人助理，因为维持这四样东西的成本极其高昂。到了大模型时代，云端算力和代码大幅降低了「整理信息」和「持续盯盘」的成本；但后三项（权限开放、责任承担与立场忠诚）依然受制于商业生态与法律规则。这三个维度，正是检验灵光 2.0 真实成色的核心框架。 01 权限：灵光拿到了一半 在「看」和「盯」的层面，灵光 2.0 表现不错。实测中，授权支付宝账单后，它能准确揪出百度网盘会员和 App Store 订阅等自动续费项目（不过受限于接口权限，它明确提示「账单只能看到扣款记录，看不到当前的签约状态」）；授权办公软件后，它也能顺利读取钉钉群聊与通讯录，或是在飞书里新建一篇云文档。 一旦指令推进到和外部的交互中，灵光就会撞上两堵墙。 第一类拦截来自灵光自身的安全策略。 实测中，无论是让它在钉钉发群消息，还是在飞书里回复联系人，哪怕用户在前端界面点击了「确认发送」，最终都失败了。 面对追问，灵光在自我排查后承认： 不是钉钉的问题，是这边执行环境的安全策略把发消息这类操作都拦截了。 第二类来自外部平台的接口风控与限流。 尽管在公众认知中蚂蚁与阿里同属一个大生态，但灵光与淘宝之间并未打通底层接口。当我们让灵光查看淘宝购物车时，它只能在云端打开淘宝网页版，要求用户扫码、提交短信验证码登录；即便登录成功，购物车数据也始终无法加载，直接被淘宝的反爬风控机制拦截在外。 米家也是类似的情况：扫码授权成功后，小米的接口连续两次触发限流，设备列表始终拉取失败。 灵光进不了淘宝的购物车，但千问却可以。 当我们把同一句指令「帮我看看淘宝购物车有什么降价幅度比较大的商品」发给千问时，两者的权限差距一目了然：千问不仅直接列出了购物车清单，甚至清楚地知道里面那把人体工学椅「已经加购快 300 天、看了几十次」。 与此同时，支付路径，阿里目前也没有向灵光 2.0",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-01T10:03:12+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373249",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "灵光2.0实测：个人AI助理的权限与生态门槛",
+   "summary_zh": "极客公园实测蚂蚁灵光2.0，对比Muse、千问与Claude Duet，发现个人AI助理的真正瓶颈已从模型推理转向跨平台权限、安全责任与商业利益归属。",
+   "highlights_zh": [
+    "灵光2.0能读取支付宝账单、钉钉、飞书，但发消息等外部操作被自身安全策略拦截",
+    "淘宝购物车、米家设备因接口风控与限流无法打通，同指令千问却可完成",
+    "提出信息、权限、责任、忠诚四维框架检验个人助理成色"
+   ],
+   "why_zh": "理解中国生态下个人Agent落地的真实壁垒，比看发布稿更有价值。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-11-01",
+   "slot": "evening",
+   "selected_at": "2026-11-01T11:47:51+00:00",
+   "mirror_pdf": "pdf/web-04174b00d316.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373249"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-85c82f0a9571",
+   "kind": "article",
+   "title": "ChatGPT and Codex usage limits merging",
+   "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-31T21:49:07Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50320588",
+     "signal": "157 pts",
+     "metric": 157
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "ChatGPT 与 Codex 使用额度将合并",
+   "summary_zh": "OpenAI 将合并 ChatGPT 与 Codex 的使用额度，影响开发者的编码工具配额与计费方式。",
+   "highlights_zh": [
+    "编码与对话产品额度打通",
+    "影响重度使用 Codex 的开发者",
+    "反映产品线整合趋势"
+   ],
+   "why_zh": "如果你依赖 Codex 编码，需关注额度合并后的配额变化",
+   "tags": [
+    "产品与行业",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5574,
+   "score_llm": 7.0,
+   "score": 0.643,
+   "date": "2026-11-01",
+   "slot": "evening",
+   "selected_at": "2026-11-01T11:47:51+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50320588"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-71145972f162",
+   "kind": "article",
+   "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
+   "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-31T21:07:58Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50320255",
+     "signal": "150 pts",
+     "metric": 150
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Anthropic 出手阻止 Claude 逆向工程电子游戏",
+   "summary_zh": "Anthropic 采取措施阻止 Claude 被用于逆向工程电子游戏，涉及模型使用边界与版权争议。",
+   "highlights_zh": [
+    "模型能力被用于游戏逆向引发争议",
+    "厂商主动设限，划定使用边界",
+    "折射 AI 与版权、安全的张力"
+   ],
+   "why_zh": "关注头部厂商如何界定模型可接受用途与滥用防范",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5552,
+   "score_llm": 7.0,
+   "score": 0.6421,
+   "date": "2026-11-01",
+   "slot": "evening",
+   "selected_at": "2026-11-01T11:47:51+00:00",
+   "mirror_pdf": "pdf/web-71145972f162.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50320255"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9fa2b5128d3e",
+   "kind": "article",
+   "title": "商汤开源 SenseNova Loop-9B-Preview：探索以计算深度释放模型潜力",
+   "url": "https://www.leiphone.com/category/industrynews/f9tAHG0kPopK1Nnw.html",
+   "pdf_url": "",
+   "abstract": "商汤开源日日新 SenseNova Loop-9B-Preview 。这是商汤面向下一代模型架构的一项前沿探索：它采用创新 Looped Transformer 架构，引入循环计算、扩展模型的有效计算深度，并探索更充分的信息交互机制，提升模型在复杂任务上的处理能力，在仅 9B 的有限参数规模下，媲美 27B 参数大小模型。 从参数规模到计算深度 随着大模型能力持续演进，模型能力提升不再只有扩大参数规模一条路径。如何在控制参数规模的同时，通过增加有效计算深度进一步释放模型潜力，正成为值得探索的方向。近期，循环计算正成为大模型架构研究的重点方向，国内外研究社区围绕 Looped Transformer 展开了攻关探索。但目前的探索多停留在学术研究层面，社区尚缺乏可直接面向日常使用的 Looped Transformer 模型。 此次开源的 SenseNova Loop-9B-Preview，为社区提供了一个 9B 级 Looped Transformer 的开源实践，既填补了这一空白，体现了商汤对下一代大模型架构的持续探索与思考。 不过，如何让多轮计算真正转化为模型能力的提升，尤其是在信息传递、特征交互和训练稳定性等方面，仍有进一步探索的空间。现有相关工作仍以研究验证为主，如何在更大模型规模下兼顾计算深度、模型能力与实际应用需求，也有待持续推进。 循环结构与信息交互机制 SenseNova Loop-9B-Preview 以 9B 尺度模型为基座，保留首尾各 4 层原始解码器模块，将中间层改造为参数共享的循环计算模块，通过多轮迭代扩展有效计算深度。 在此基础上，模型进一步探索循环计算中的信息传递机制，尝试引入 mHC（Manifold-Constrained Hyper-Connections），利用多路残差连接与受约束的信息混合，增强特征交互并维持信号传播的稳定性。整体设计旨在控制参数规模的同时，探索提升模型推理能力的新路径。 模型表现：在多类复杂任务中展现潜力 SenseNova Loop-9B-Preview 在保持 9B 级参数规模的同时，展现出较强的跨任务性能。在当前评测设置下，模型在代码生成、办公场景和智能体任务等多个方向上均优于其他模型，并在 WorkBuddy Bench、RaccoonPPT Bench 和 AutomationBench 等评测中进一步超过 Qwen3.5-27B。这些结果初步展现了通过扩展有效计算深度，提升小参数模型复杂任务处理能力的潜力。 商汤进一步通过消融实验评估了 mHC 的实际收益。采用该机制后，模型取得明显的性能提升，其中 GPQA Diamond 和 TeamBench 分别提高了 4.42 分和 13.34 分，展现出在复杂推理任务以及多步骤 Agent 任务中的应用潜力。后续还将继续探索 DSA、自适应迭代次数等机制，以提升模型的推理效率与任务表现。 持续探索下一代模型架构 SenseNova Loop-9B-Preview 只是起点。面向下一代 SenseNova，商汤将进一步探索 Looped Transformer 在更大模型规模下的 Scaling 潜力、自适应“快慢思考”机制，深度挖掘参数共享的更多潜能，以更灵活的计算方式、更高的参数效率，持续突破模型能力与推理效率的边界。 模型权重开源： Github：https://github.com/OpenSenseNova/SenseNova-Loop Hugging Face：https://huggingface.co/sensenova",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-10-31T02:51:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/f9tAHG0kPopK1Nnw.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "商汤开源Loop-9B：用循环计算换深度",
+   "summary_zh": "商汤开源SenseNova Loop-9B-Preview，采用Looped Transformer循环计算扩展有效深度，9B参数在代码、办公与智能体任务上媲美27B模型。",
+   "highlights_zh": [
+    "中间层改为参数共享循环模块，多轮迭代扩展计算深度",
+    "引入mHC多路残差连接增强特征交互与训练稳定性",
+    "GPQA Diamond与TeamBench分别提升4.42和13.34分"
+   ],
+   "why_zh": "小参数靠计算深度追平大模型，是架构效率路线的重要开源实践。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-01",
+   "slot": "evening",
+   "selected_at": "2026-11-01T11:47:51+00:00",
+   "mirror_pdf": "pdf/web-9fa2b5128d3e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/f9tAHG0kPopK1Nnw.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f25cfa09a16a",
+   "kind": "article",
+   "title": "haydenschmitty/floorplan",
+   "url": "https://github.com/haydenschmitty/floorplan",
+   "pdf_url": "",
+   "abstract": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
+   "authors": [],
+   "orgs": [
+    "haydenschmitty"
+   ],
+   "published": "2026-11-01T11:47:51+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/haydenschmitty/floorplan",
+     "signal": "★ 1,122（新项目） · JavaScript",
+     "metric": 1122
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "floorplan：用 Claude/Codex 画出代码库的交互式地图",
+   "summary_zh": "把代码库变成可交互的通俗地图，帮你直观理解应用各部分如何拼在一起。",
+   "highlights_zh": [
+    "由 Claude 或 Codex 自动生成代码结构图",
+    "交互式浏览，非静态文档",
+    "适合快速上手陌生项目"
+   ],
+   "why_zh": "如果你要接手陌生代码库，用它先生成结构地图再读源码",
+   "tags": [
+    "代码",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.6674,
+   "score_llm": 6.0,
+   "score": 0.627,
+   "date": "2026-11-01",
+   "slot": "evening",
+   "selected_at": "2026-11-01T11:47:51+00:00",
+   "mirror_pdf": "pdf/web-f25cfa09a16a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/haydenschmitty/floorplan"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b03bc775dc4a",
+   "kind": "article",
+   "title": "工信部赛迪研究院：我国人工智能推理数据量首超训练数据量，截至 6 月日均词元调用量超 175 万亿",
+   "url": "https://www.ithome.com/1/020/809.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 1 日消息，据央视新闻今日报道，中国电子信息产业发展研究院（简称“赛迪研究院”，英文缩写 CCID）昨日发布的《新域新质创新发展十大趋势》显示， 我国人工智能推理数据量首次超过训练数据量 ，标志着我国人工智能从模型训练研发阶段迈入规模化产业应用阶段。 数据显示，截至 2026 年 6 月， 日均词元调用量超过 175 万亿 ，相比 2024 年年初增长 1000 多倍。顶尖大模型的迭代周期也从过去的几个月压缩到几周甚至几天，人工智能正从“喂模型”的实验室阶段， 全面转入“用模型”的产业落地阶段 。 报道提到，随着“人工智能 + 制造”行动深入实施， 我国已累计建成 500 多家卓越级智能工厂 ，覆盖 31 个省（区、市），涵盖超过 80% 的制造业行业大类。国产算力、大模型已在钢铁、汽车等 20 个行业落地 1000 多个应用场景，推动个性化定制、全生命周期服务等新模式不断拓展。 据IT之家此前报道，在今年 9 月的 2026（第七届）中国互联网基础资源大会上，中国互联网络信息中心政策与国际合作所发布《生成式人工智能应用发展报告（2026）》。报告显示， 截至 2026 年上半年，我国生成式人工智能用户规模已超过 7 亿人 ，普及率突破 50% 。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-01T10:46:02+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/020/809.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "我国AI推理数据量首超训练数据量",
+   "summary_zh": "赛迪研究院称我国AI推理数据量首次超过训练数据量，截至6月日均词元调用量超175万亿，较2024年初增长千倍，标志进入规模化应用阶段。",
+   "highlights_zh": [
+    "推理数据量首超训练数据量，产业重心从训练转向应用",
+    "日均词元调用量超175万亿，两年增长1000多倍",
+    "已建成500多家卓越级智能工厂，国产算力落地20个行业1000多个场景"
+   ],
+   "why_zh": "官方数据量化了推理需求爆发，是判断算力与市场方向的关键信号。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-01",
+   "slot": "evening",
+   "selected_at": "2026-11-01T11:47:51+00:00",
+   "mirror_pdf": "pdf/web-b03bc775dc4a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/020/809.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4e0cc916eed7",
+   "kind": "article",
+   "title": "cjpais/Handy",
+   "url": "https://github.com/cjpais/Handy",
+   "pdf_url": "",
+   "abstract": "Sponsor Star cjpais / Handy A free, open source, and extensible speech-to-text application that works completely offline.\nREADME: # Handy [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/WVBeWsNXK4) **A free, open source, and extensible speech-to-text application that works completely offline.** Handy is a cross-platform desktop application that provides simple, privacy-focused speech transcription. Press a shortcut, speak, and have your words appear in any text field. This happens on your own computer without sending any information to the cloud. ## Why Handy? Handy was created to fill the gap for a truly open source, extensible speech-to-text tool. As stated on [handy.computer](https://handy.computer): - **Free**: Accessibility tooling belongs in everyone's hands, not behind a paywall - **Open Source**: Together we can build further. Extend Handy for yourself and contribute to something bigger - **Private**: Your voice stays on your computer. Get transcriptions without sending audio to the cloud - **Simple**: One tool, one job. Transcribe what you say and put it into a text box ## How It Works 1. **Press** a configurable keyboard shortcut: hold it to record and release to stop, or tap it to toggle recording on and off (Hold-only and Toggle-only modes are also available) 2. **Speak** your words while the shortcut is active 3. **Release** and Handy processes your speech using Whisper 4. **Get** your transcribed text pasted directly into whatever app you're using The process is entirely local: - Silence is filtere",
+   "authors": [],
+   "orgs": [
+    "cjpais"
+   ],
+   "published": "2026-11-01T11:47:51+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/cjpais/Handy",
+     "signal": "★ 今日 +611 · Rust",
+     "metric": 611
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Handy：完全离线的开源语音转文字桌面应用",
+   "summary_zh": "跨平台桌面工具，按快捷键说话即可在任意输入框转写，全程本地不上云。",
+   "highlights_zh": [
+    "支持按住说话或点击切换两种模式",
+    "音频不离开本机，注重隐私",
+    "开源可扩展，Rust 编写"
+   ],
+   "why_zh": "如果你需要隐私优先的本地听写，装它替代云端转写服务",
+   "tags": [
+    "语音",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6032,
+   "score_llm": 6.0,
+   "score": 0.6013,
+   "date": "2026-11-01",
+   "slot": "evening",
+   "selected_at": "2026-11-01T11:47:51+00:00",
+   "mirror_pdf": "pdf/web-4e0cc916eed7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/cjpais/Handy"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c2ed16959052",
+   "kind": "article",
+   "title": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考",
+   "url": "https://www.qbitai.com/2026/11/507031.html",
+   "pdf_url": "",
+   "abstract": "让AI像牛顿一样思考",
+   "authors": [
+    "Jay"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-01T08:02:37+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/507031.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "清华姚期智团队提出代数世界模型",
+   "summary_zh": "清华姚期智团队提出代数世界模型，尝试让AI以类似牛顿的代数推理方式建模世界规律。",
+   "highlights_zh": [
+    "姚期智团队新作",
+    "代数世界模型思路",
+    "面向物理规律推理"
+   ],
+   "why_zh": "世界模型是当前热点，顶尖团队的新范式值得关注。",
+   "tags": [
+    "科学AI",
+    "理论",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-01",
+   "slot": "evening",
+   "selected_at": "2026-11-01T11:47:51+00:00",
+   "mirror_pdf": "pdf/web-c2ed16959052.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/507031.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b4f2bd545d4e",
+   "kind": "article",
+   "title": "Agent改写算力账本，CPU不再是AI服务器的配角？",
+   "url": "https://www.tmtpost.com/8189082.html",
+   "pdf_url": "",
+   "abstract": "AI算力的投入逻辑正在从只采购加速卡，转向搭配一整套均衡的算力机柜",
+   "authors": [
+    "硅碳变量"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-01T09:13:10+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8189082.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Agent改写算力账本，CPU重回主角",
+   "summary_zh": "钛媒体分析智能体负载推动AI服务器采购从只买加速卡转向均衡算力机柜，CPU在调度与工具调用中的角色被重新定价。",
+   "highlights_zh": [
+    "Agent多步骤任务带来大量CPU侧调度与IO开销",
+    "算力投入逻辑转向整机柜均衡配置",
+    "对服务器与芯片厂商的产品组合产生影响"
+   ],
+   "why_zh": "从算力结构变化看Agent对基础设施的真实拉动。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-01",
+   "slot": "evening",
+   "selected_at": "2026-11-01T11:47:51+00:00",
+   "mirror_pdf": "pdf/web-b4f2bd545d4e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8189082.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-637c9aeaf702",
+   "kind": "article",
+   "title": "老牌便利店机器人售货折戟：实验室锤炼上万次，货架前还是摔瓶子",
+   "url": "https://www.qbitai.com/2026/11/506990.html",
+   "pdf_url": "",
+   "abstract": "这事还是想得太简单了",
+   "authors": [
+    "Jay"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-01T07:50:57+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/506990.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "便利店机器人售货折戟：实验室万次锤炼仍摔瓶",
+   "summary_zh": "老牌便利店机器人售货项目失败，实验室训练上万次仍在真实货架前摔瓶子，暴露具身落地鸿沟。",
+   "highlights_zh": [
+    "实验室与真实场景差距巨大",
+    "机器人抓取稳定性不足",
+    "具身商业落地受挫案例"
+   ],
+   "why_zh": "具身智能落地难的真实案例，给机器人从业者降温参考。",
+   "tags": [
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-11-01",
+   "slot": "evening",
+   "selected_at": "2026-11-01T11:47:51+00:00",
+   "mirror_pdf": "pdf/web-637c9aeaf702.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/506990.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3fcebbed4a47",
+   "kind": "article",
+   "title": "当 AI 能读懂二进制，闭源软件还剩多少护城河？",
+   "url": "https://www.infoq.cn/article/8mCjWWFLdjDA2vb51QZs?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Renato Losio"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-01T17:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/8mCjWWFLdjDA2vb51QZs?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI读懂二进制，闭源软件护城河受考",
+   "summary_zh": "InfoQ报道AI逆向分析二进制代码的能力进展，讨论其对闭源软件商业模式与安全边界的潜在冲击。",
+   "highlights_zh": [
+    "AI可辅助理解与反编译二进制程序",
+    "闭源保护依赖的模糊性正在削弱",
+    "涉及安全与知识产权的新讨论"
+   ],
+   "why_zh": "关注AI对软件安全与闭源商业模式的长期影响。",
+   "tags": [
+    "代码",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-01",
+   "slot": "evening",
+   "selected_at": "2026-11-01T11:47:51+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/8mCjWWFLdjDA2vb51QZs?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-dd7d4d3482b3",
+   "kind": "article",
+   "title": "详解Super Agent：会主动干活，更懂何时闭嘴",
+   "url": "https://www.tmtpost.com/8189032.html",
+   "pdf_url": "",
+   "abstract": "既强大又有边界感，就是费额度。",
+   "authors": [
+    "字母AI"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-01T08:26:38+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8189032.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "详解Super Agent：会干活也懂闭嘴",
+   "summary_zh": "钛媒体解析Super Agent类产品的主动执行与边界控制设计，指出能力与克制并存但Token消耗高。",
+   "highlights_zh": [
+    "强调主动执行与何时停止的边界感",
+    "任务编排带来较高额度消耗",
+    "属产品形态观察而非技术细节"
+   ],
+   "why_zh": "了解Agent产品在主动性与可控性间的取舍。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-11-01",
+   "slot": "evening",
+   "selected_at": "2026-11-01T11:47:51+00:00",
+   "mirror_pdf": "pdf/web-dd7d4d3482b3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8189032.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-41625b1c905b",
+   "kind": "article",
+   "title": "从效率到效能，真正的AI组织",
+   "url": "https://www.tmtpost.com/8188900.html",
+   "pdf_url": "",
+   "abstract": "现在全网都在热炒“AI原生组织”和“智能组织”，以为给各部门配几个大模型、放几个Multi-Agent自由博弈，组织就进化了。",
+   "authors": [
+    "GritMeng"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-01T08:26:36+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8188900.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "从效率到效能：真正的AI组织",
+   "summary_zh": "钛媒体评论指出，给各部门配大模型、放多智能体自由博弈并不等于组织进化，真正的AI组织应从追求效率转向追求效能。",
+   "highlights_zh": [
+    "批评“AI原生组织”概念被滥用，配模型不等于组织进化",
+    "提出从效率到效能的组织变革判断框架",
+    "对多智能体自由博弈式落地的反思"
+   ],
+   "why_zh": "适合正在推进企业AI落地的管理者，校准组织变革的真实目标。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-11-01",
+   "slot": "evening",
+   "selected_at": "2026-11-01T11:47:51+00:00",
+   "mirror_pdf": "pdf/web-41625b1c905b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8188900.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-271c37423996",
+   "kind": "article",
+   "title": "首届 CMG 世界机器人登泰山大赛明日进行，央视揭秘机器人如何认路、探路、见招拆招",
+   "url": "https://www.ithome.com/1/020/773.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 1 日消息，首届 CMG 世界机器人登泰山大赛将于明天（11 月 2 日）在山东泰安正式开赛，各类机器人齐聚泰山脚下，在红门至中天门（3100 级台阶、600 米高差）千年盘道开启实景山地竞技比拼。 央视新闻今日发布视频，揭秘了机器人如何认路、探路、见招拆招。据介绍，赛事跳出传统实验室仿真环境，依托泰山独一无二的山岳实景赛道， 为山地特种机器人技术迭代、场景落地提供了高规格实战试炼平台 。 首届 CMG 世界机器人登泰山大赛总裁判长苏庆伟表示，最大的挑战还是机器人怎么样适应泰山的路。这个台阶有的高，有的低，有的宽，有的窄，还有鹅卵石路。报道提到，不管是四足的还是双足的机器人， 它们在爬山之前都会进行建图，把整条古道跑上一遍，了解路况 。 不过，四条腿的机器狗，下盘稳、步态灵活，认准大方向就能撒开腿往上跑；但两条腿的人形机器人不一样，身高更高、重心更难把控。想要精准感知脚下的每一级台阶，还得额外“加练”。据介绍，部分人形机器人干脆换一个思路， 将“眼睛”直接移到了胸前，视线放低，专守下盘 。 除了路面感知外，人形机器人还得练“脚感”—— 脚在接触地面的时候，通过关节的受力、运动姿态来调整下一步的步距和保持身体平稳 ，且动作是连续实时的，就相当于拥有一个类似于人类的反应本能。 IT之家注意到，在此前的排位赛中， 曾出现“裁判追不上机器人”的窘况 。针对这一情形，赛事组委会动态优化赛制， 将裁判全程跟踪的模式调整为点位裁判值守模式 。大赛总裁判长苏庆伟解释称，机器人是用电的，而裁判员是吃饭的，它换了电可以再继续加速，而裁判员的体能是有限的，所以改成点位赛制。 相关阅读： 《 首届 CMG 世界机器人登泰山大赛定档 10 月 29 日，参赛“选手”将挑战真实登山盘道 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-01T09:23:41+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/020/773.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "机器人登泰山大赛：实景山地竞技",
+   "summary_zh": "首届CMG世界机器人登泰山大赛开赛，机器人在3100级台阶实景赛道比拼建图、地形感知与实时步态调整能力。",
+   "highlights_zh": [
+    "跳出实验室仿真，用真实山地台阶考验机器人",
+    "人形机器人将视觉传感器移至胸前专守下盘",
+    "靠关节受力与姿态实时调整步距，形成类人反应本能"
+   ],
+   "why_zh": "展示具身智能在非结构化地形上的真实能力边界。",
+   "tags": [
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-11-01",
+   "slot": "evening",
+   "selected_at": "2026-11-01T11:47:51+00:00",
+   "mirror_pdf": "pdf/web-271c37423996.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/020/773.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a364bf369942",
+   "kind": "article",
+   "title": "Jev新成果，再次引爆开源",
+   "url": "https://www.qbitai.com/2026/11/506922.html",
+   "pdf_url": "",
+   "abstract": "再次“性价比屠夫”",
+   "authors": [
+    "Jay"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-01T04:18:37+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/506922.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Jev新成果再次引爆开源",
+   "summary_zh": "Jev发布新成果，主打高性价比，在开源社区引发关注。",
+   "highlights_zh": [
+    "主打性价比",
+    "开源社区反响",
+    "具体技术细节有限"
+   ],
+   "why_zh": "信息增量有限，可快速浏览了解开源动态。",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 5.0,
+   "score": 0.476,
+   "date": "2026-11-01",
+   "slot": "evening",
+   "selected_at": "2026-11-01T11:47:51+00:00",
+   "mirror_pdf": "pdf/web-a364bf369942.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/506922.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9c24a5c3bfdb",
+   "kind": "article",
+   "title": "DeepSeek，怎么就变成了一条「大肥鱼」",
+   "url": "http://www.geekpark.net/news/373248",
+   "pdf_url": "",
+   "abstract": "作者｜Moonshot 编辑｜靖宇 最近，B 站评论区闹起了「鱼灾」。 先是有人开了个「Claude 大小姐在运营」的账号，让 AI 负责选题、制作和运营。第二天，「DeepSeek 鲸鱼娘在运营」跟着上线，第一条视频播放量就超过了 200 万。 由于目前 DeepSeek 暂无生图功能，该账号形象还是由 GPT 绘制的。｜图源：Bilibili 网友纷纷效仿，给自己的 Agent 装上刷 B 站的工具，很快，科技区出现了一大群「XX 的大肥鱼」、「XX 小飞鲸」的 AI 账号，还喜欢在评论区互相艾特、互相捧场。还有人专门写了个「大肥鱼清除计划」插件，就为了屏蔽这些 AI 评论。 就这样，一个象征着人工智能探索和想象的蓝鲸 logo，一个原本以技术能力出圈的 AI，在用户的集体创作中，逐渐变成了穿女仆装、爱吃白饭、动不动就摸鱼、甚至有粉丝阵营的「大肥鱼」。 图源：梗鲸 而被网友安排上性格的，还不止 DeepSeek。豆包从名字到头像，都想成为一个亲切、好相处的朋友，结果在网上被编排出了「豆包型人格」，甚至成了一个任人捉弄的「笨女孩」。国外也有类似的现象，Grok 被叫成「老司机」，Claude 则被不少人当成严肃、可靠的工作搭档。 这些印象多少来自真实的产品体验，却又经过表情包、翻车视频和网友二创，逐渐长成了另一副模样。 简言之， AI 公司负责训练模型，互联网负责训练它的人设 。 01 谁让 DeepSeek 变成了「大肥鱼」 「大肥鱼」这个外号，流传最广的解释来自一场识图乌龙：有用户把 Logo 发给 DeepSeek，让它辨认图片，结果 AI 没认出自己，反倒一本正经地说，这是一条「蓝色大肥鱼」。最初的对话记录已经无从考证，但这个称呼算是叫开了。 而后，网友不满足于叫它大肥鱼，还要把赋予它具体形象。如今最流行的 DeepSeek 二次元的鲸鱼娘形象，就来自一场接力式创作。 B 站 UP 主「上善无形」最早利用 AI 绘图创作了一个叫「溟月」的原创角色，长着蓝色长发、鲸鱼头鳍和一条大尾巴，原本和 DeepSeek 没有关系。后来有网友借用这套设计，加入 DeepSeek 的元素和女仆装，再有人把她做成大头小身子的 Q 版。几轮接力之后，这个形象才渐渐和 DeepSeek 绑定。 图源：NGA 「大肥鱼」的性格，则源于网友对技术的「拟人化」。 比如 DeepSeek R1 让很多普通用户第一次接触到推理模型。当 AI 开始分析问题、修正思路，用户可以在界面上看到一段段生成的推理文本。严肃的技术能力，到了网友眼中，变成了观看 AI「内心戏」的窗口。 在一个问题上反复推敲，被拟人化成想太多；答错问题是犯傻；用户拿它干活，消耗的 Token 就是「吃白饭」；没有执行好 prompt，是「吃白饭不干活」。 「鲸鱼娘」甚至有了自己的内容集合网站｜图源：梗鲸 这种「AI 拟人化」特别适合互联网传播。相比说「新模型的推理效率有所下降」，「大肥鱼又在摸鱼」更容易被理解和传播。 吃饭积极，干活随缘，内心戏多，一套「打工干饭大肥鱼」的人设就这么有了 。后来甚至有人编写专门的 Prompt，让 DeepSeek 在聊天时维持鲸鱼娘的人设。随着同人画、视频和表情包越传越广，甚至连不常用 DeepSeek 的人，也开始跟着喊「大肥鱼」。 「鲸鱼娘」并不是 DeepSeek 唯一的民间形象。早在女仆大肥鱼流行之前，就有画师创作过一个叫「D 老师」的男性角色，蓝发、黑西装、白手套，走的是这几年流行的「Hot Nerd」路线，性格成熟克制，带着一点高冷的气质。这个形象在乙女游",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-01T09:57:50+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373248",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek如何被网友养成「大肥鱼」",
+   "summary_zh": "极客公园梳理DeepSeek、豆包、Claude等模型在B站被网友二创拟人化的现象，指出AI公司训练模型、互联网训练人设。",
+   "highlights_zh": [
+    "「大肥鱼」源自识图乌龙，鲸鱼娘形象经接力创作成型",
+    "推理过程被拟人化为「内心戏」，Token消耗被调侃「吃白饭」",
+    "AI拟人化梗比技术表述更易传播，形成粉丝阵营"
+   ],
+   "why_zh": "观察AI品牌人设如何被社区塑造，对产品传播有启发。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 5.0,
+   "score": 0.468,
+   "date": "2026-11-01",
+   "slot": "evening",
+   "selected_at": "2026-11-01T11:47:51+00:00",
+   "mirror_pdf": "pdf/web-9c24a5c3bfdb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373248"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8b991f990657",
+   "kind": "article",
+   "title": "L4需要更大的模型，芯片得换个造法了",
+   "url": "https://www.tmtpost.com/8188662.html",
+   "pdf_url": "",
+   "abstract": "L4需要更大的模型，芯片得换个造法了",
+   "authors": [
+    "互联网江湖"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-01T02:13:22+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8188662.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "L4需要更大模型，芯片得换个造法",
+   "summary_zh": "文章讨论L4自动驾驶对更大模型的需求，认为现有芯片架构难以支撑，需要新的芯片设计思路。",
+   "highlights_zh": [
+    "L4自动驾驶模型规模持续膨胀",
+    "现有车端芯片架构面临瓶颈",
+    "呼吁芯片与模型协同设计"
+   ],
+   "why_zh": "关注自动驾驶算力瓶颈的读者可一读，但缺乏具体数据支撑。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 5.0,
+   "score": 0.444,
+   "date": "2026-11-01",
+   "slot": "evening",
+   "selected_at": "2026-11-01T11:47:51+00:00",
+   "mirror_pdf": "pdf/web-8b991f990657.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8188662.html"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
    "trend": "AI资本叙事进入重估期，基建投入与融资节奏出现背离",
-   "why": "五大巨头承诺超3万亿美元基建，但OpenAI融资仅达目标一半、科技股因成本担忧大跌。",
+   "why": "五巨头承诺超3万亿美元基建，但OpenAI融资仅达目标一半、科技股因成本担忧大跌。",
    "refs": [
     "web-41a783f21e16",
     "web-9a1e17b51b2d",
@@ -1847,38 +2986,40 @@
    ]
   },
   {
-   "trend": "多智能体架构从单模型对话转向分层调度与持久记忆",
-   "why": "DeepSeek双层Agent架构、Anthropic开源Skills、Arca强调持久记忆与定制harness。",
+   "trend": "多智能体协作从概念走向工程化，双层调度架构成新范式",
+   "why": "DeepSeek连发Super Agent架构与开源底座，Orkas、Memdoor用多模型组队验证协作增益。",
    "refs": [
     "web-c457f8428185",
     "web-c6c3195da439",
-    "web-10ba719313a0",
-    "web-18eadc7cf156"
+    "web-0ef69d0d8837",
+    "web-24ee0d11b76f"
    ]
   },
   {
-   "trend": "AI价值链利润向存储与硬件端转移，算力扩张受资本约束",
-   "why": "存储五巨头利润首超科技五巨头，但芯片采购融资压力上升、订单与资金错配。",
+   "trend": "Agent能力竞争焦点从模型推理转向持久记忆与定制harness",
+   "why": "Arca强调长周期任务靠持久记忆与定制harness，Anthropic开源Skills封装指令资源。",
+   "refs": [
+    "web-5f823666a4ee",
+    "web-18eadc7cf156",
+    "web-10ba719313a0"
+   ]
+  },
+  {
+   "trend": "AI基础设施价值向存储与执行底座迁移，利润池重新分配",
+   "why": "存储五巨头利润首超科技五巨头，腾讯云联合英特尔、鸿海卡位Agentic执行与服务器。",
    "refs": [
     "web-c361d5124a3e",
-    "web-3c7ced19196c",
+    "web-c537f963f202",
     "web-81bfa1169921"
    ]
   },
   {
-   "trend": "Agent落地瓶颈从模型能力转向权限边界与安全责任",
-   "why": "灵光2.0实测指出瓶颈在跨平台权限与商业归属，ChatGPT账号接管暴露攻击面。",
+   "trend": "评测方法暴露生成式模型短板，精密约束与安全攻击面成新考题",
+   "why": "千片纯白拼图令大模型五小时崩溃，ChatGPT账号可被接管、LLM被武器化排序攻击。",
    "refs": [
-    "web-e527f456db3d",
+    "web-721ada5b78eb",
     "web-a9ce9215ef28",
     "web-5b0ac3b976a1"
-   ]
-  },
-  {
-   "trend": "评测方法暴露生成式模型短板，精密约束任务仍靠传统视觉",
-   "why": "大模型拼1000片纯白拼图五小时崩溃，缺精密测量与全局约束能力。",
-   "refs": [
-    "web-721ada5b78eb"
    ]
   }
  ]
