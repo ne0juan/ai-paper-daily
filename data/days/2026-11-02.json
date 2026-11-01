@@ -1,0 +1,576 @@
+{
+ "date": "2026-11-02",
+ "items": [
+  {
+   "id": "web-6d03b012d356",
+   "kind": "article",
+   "title": "Pika 基于 MiniMax H3 开源 H3 Flex，六步实现音视频联合生成",
+   "url": "https://www.leiphone.com/category/industrynews/MK1z0js4sqcp1xca.html",
+   "pdf_url": "",
+   "abstract": "近日，Pika 发布 MiniMax H3 衍生模型 Pika H3 Flex，并开放适配器权重与推理代码。该模型通过六步去噪联合生成画面和声音，支持文本、首尾帧和多模态参考输入，供创作者进行镜头设计、参考生成和视频编辑。 本次发布包含两套 LoRA 适配器，分别用于文本及首尾帧条件生成、多模态参考生成，同时提供 MiniMax H3 基础组件和本地推理工具。模型原生支持 480P、768P 输出，可生成约 5 至 15 秒的视频及同步立体声音频。Pika 提供 ComfyUI 工作流和 Hugging Face Diffusers 接入方式，方便开发者将其加入现有创作工具。 在本地生成之外，Pika 可通过 API 提供 1080P、2K 和 4K 视频增强，以及音频分轨功能。创作者可以先以较低分辨率生成和筛选草稿，再对选定版本进行高分辨率处理；同步生成的声音则可拆分为对白、配乐、音效、拟音和环境声五类独立音轨，方便在后期分别调整。高分辨率的增强视频和音频分轨则由 Pika API 服务提供。 Pika 在技术博客中介绍，团队先在内部音视频数据集上对 MiniMax H3 进行监督微调，再采用投影分布匹配蒸馏（PDMD），将教师模型的 50 步去噪压缩至 6 步。随后，团队通过奖励反馈学习和直接偏好优化训练 LoRA 适配器，改善美学质量、清晰度和指令遵循。适配器合并用于推理后，无须增加生成步数。 Pika 还对托管推理服务做了加速。在保持模型权重和六步采样方案不变的测试中，使用 8 张 NVIDIA B300 GPU 生成一段 5 秒、768P 音视频，条件编码、去噪和解码的合计耗时从 3.409 秒缩短至 2.129 秒，处理速度约为原来的 1.6 倍。 在视觉与音频表现上，Pika 公布的对比评测结果显示，H3 Flex 在五项视觉和音频质量指标上均在参评模型中取得最高得分，并在 DesignArena 文生视频榜单上取得第八名成绩，是该榜单下排名最高的开源视频模型。 今年 8 月，MiniMax H3 开源后，MiniMax 与合作企业围绕不同的使用场景，继续训练和优化模型，并在社区中开放，包括与 Running Hub 打造 MiniMax H3 480P；与 fal 选择面向实时生成做后训练和推理优化，推出了 H3 Max 768P、H3 Max 480P；以及 FastVideo 通过稀疏化和硬件适配推出的 FastH3、英伟达与 MIT 联合围绕 H3 的开发 StreamRender-H3、Open-H3-Regenerate-2K 等多款模型等，海外开发者围绕 H3衍生模型搭出了 Twitch 直播、24 小时“AI 电视台”和 AI 短视频直播软件等创新玩法。 H3 开源一个月内下载量已经超过 2400 万次，产生超过 300 个公开衍生模型，成为 2026 年全球下载量最高的模型之一。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-01T09:46:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/MK1z0js4sqcp1xca.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Pika 基于 MiniMax H3 开源 H3 Flex，六步音视频联合生成",
+   "summary_zh": "Pika 发布 MiniMax H3 衍生模型 H3 Flex，用 PDMD 蒸馏把 50 步去噪压到 6 步，联合生成画面与声音并开源适配器。",
+   "highlights_zh": [
+    "六步去噪联合生成音视频，支持文本/首尾帧/多模态参考",
+    "开源两套 LoRA 适配器与本地推理工具，接入 ComfyUI 与 Diffusers",
+    "H3 开源一月下载超 2400 万次，衍生模型超 300 个"
+   ],
+   "why_zh": "开源视频模型生态加速，了解蒸馏与音视频联合生成的最新工程实践。",
+   "tags": [
+    "多模态",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-02",
+   "slot": "morning",
+   "selected_at": "2026-11-01T17:05:10+00:00",
+   "mirror_pdf": "pdf/web-6d03b012d356.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/MK1z0js4sqcp1xca.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f5e9142b72f9",
+   "kind": "article",
+   "title": "OpenAI、谷歌、微软和 Anthropic 联手推行 AI 数据抓取退出标准",
+   "url": "https://www.ithome.com/1/020/837.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 1 日消息，OpenAI、谷歌、微软以及 Anthropic 近日宣布将采用一项新标准，内容发布方可以借助该标准选择拒绝 AI 抓取自家网站内容。借助这项管控机制，内容发布方可以一次性向多家 AI 企业统一申明自身针对 AI 模型训练的内容使用偏好，而不必为每家企业单独设置规则。 该标准由 Anthropic 技术负责人 Kevin Kelley 向互联网工程任务组（IETF）提出，并将集成在网站的 robots.txt 文件中。 长期以来， robots.txt 文件用于告知网络爬虫哪些网站内容允许抓取、哪些禁止抓取，适用场景包含搜索索引、网页归档以及 AI 模型训练。目前，网站必须向每一家 AI 企业分别单独声明自己的 AI 训练相关内容使用偏好。在此背景下， 各类 AI 爬虫持续抓取网站内容、将网页素材输入 AI 模型训练 ，内容发布方正为此焦头烂额。 IT之家注意到，目前，网站需向每家公司单独声明训练偏好，新标准旨在简化这一流程。Anthropic 已率先采纳，OpenAI 计划在未来几个月内落实，谷歌和微软则预计于明年支持。Meta 发言人 Andy Stone 也表示支持建立此类通用信号，但未明确具体落地计划。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-01T14:19:52+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/020/837.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI、谷歌、微软、Anthropic 联手推行 AI 抓取退出标准",
+   "summary_zh": "四家头部 AI 公司宣布采用统一标准，内容方可在 robots.txt 中一次性声明拒绝 AI 训练抓取，Anthropic 已率先落地。",
+   "highlights_zh": [
+    "标准由 Anthropic 向 IETF 提出，集成于 robots.txt",
+    "内容方无需再逐家单独设置训练偏好",
+    "Anthropic 已采纳，OpenAI 数月内跟进，谷歌微软明年支持"
+   ],
+   "why_zh": "头部公司联合推动数据授权规则，直接影响训练数据供给与内容生态。",
+   "tags": [
+    "数据与评测",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-02",
+   "slot": "morning",
+   "selected_at": "2026-11-01T17:05:10+00:00",
+   "mirror_pdf": "pdf/web-f5e9142b72f9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/020/837.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0f4537518a87",
+   "kind": "article",
+   "title": "anomalyco/hex",
+   "url": "https://github.com/anomalyco/hex",
+   "pdf_url": "",
+   "abstract": "Sponsor Star anomalyco / hex Local-first voice dictation for macOS. Hold a shortcut, speak, and paste into any app. Native Rust, on-device speech recognition, and a Linux beta.\nREADME: Hex Speak. It appears. Local-first voice dictation, built in Rust. Download for Mac, Windows, or Linux · Windows beta · Linux beta · TypeScript SDK · Contributing Hex is local-first voice dictation for Apple silicon Macs running macOS 15 or newer. Hold a shortcut, speak, and release. Hex transcribes on your Mac and pastes the result into the app you are using. - **On-device transcription.** Download a local speech model during setup; ordinary dictation does not require OpenCode or a cloud transcription service. - **Your words, your way.** Choose a shortcut, language, and model. Use Modes for corrections, application-specific behavior, and optional text processing. The macOS app is available now. The [Windows beta](#windows-beta) covers x64 and ARM64 PCs, and the [Linux beta](#linux-beta) covers x86_64 X11 and compatible wlroots Wayland compositors. See [Privacy and local data](#privacy-and-local-data) for what stays on your device and what optional features send to a provider. ## Install Hex ### Downloads Stable is the current release. Dev is the newest build of `dev`, published on every change; it updates itself from the Dev channel. | Platform | Stable | Dev | | --- | --- | --- | | macOS (Apple silicon) | [DMG](https://anoma.ly/hex/download/macos-arm64-dmg) | [DMG](https://anoma.ly/hex/download/dev/macos-arm64-dmg) | | Windows x64 | [Installer](https://anoma.ly/hex/download/windows-x64-setup) | [Installer](https://anoma.ly/hex/download/dev/windows-x64-setup) | | Windows ARM",
+   "authors": [],
+   "orgs": [
+    "anomalyco"
+   ],
+   "published": "2026-11-01T17:05:10+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/anomalyco/hex",
+     "signal": "★ 今日 +1,329 · Rust",
+     "metric": 1329
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Hex：本地优先的语音听写工具",
+   "summary_zh": "anomalyco 开源 Hex，macOS 本地语音听写工具，按住快捷键说话即可转写并粘贴到任意应用，基于 Rust 与端侧语音识别。",
+   "highlights_zh": [
+    "端侧转写，普通听写无需云端服务",
+    "支持自定义快捷键、语言与模型",
+    "提供 Windows/Linux beta 与 TypeScript SDK"
+   ],
+   "why_zh": "如果你在做本地语音输入或端侧 ASR 集成，可参考其 Rust 实现与 SDK 用法。",
+   "tags": [
+    "语音",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.635,
+   "score_llm": 6.0,
+   "score": 0.614,
+   "date": "2026-11-02",
+   "slot": "morning",
+   "selected_at": "2026-11-01T17:05:10+00:00",
+   "mirror_pdf": "pdf/web-0f4537518a87.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/anomalyco/hex"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-93a19b1bb027",
+   "kind": "article",
+   "title": "三年前布局，今年爆火丨西湖大学成立新中心",
+   "url": "https://www.qbitai.com/2026/11/507076.html",
+   "pdf_url": "",
+   "abstract": "西湖世界模型研究中心成立",
+   "authors": [
+    "henry"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-01T13:28:10+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/507076.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "西湖大学成立世界模型研究中心",
+   "summary_zh": "西湖大学成立世界模型研究中心，三年前已布局，今年随世界模型热度上升而正式落地。",
+   "highlights_zh": [
+    "世界模型成为高校研究新方向",
+    "反映世界模型赛道升温",
+    "国内学术机构加码具身与生成式世界模型"
+   ],
+   "why_zh": "了解国内世界模型研究布局与人才动向。",
+   "tags": [
+    "多模态",
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-02",
+   "slot": "morning",
+   "selected_at": "2026-11-01T17:05:10+00:00",
+   "mirror_pdf": "pdf/web-93a19b1bb027.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/507076.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4dea2b027768",
+   "kind": "article",
+   "title": "Claude紧急叫停！暗改Harness禁止逆向游戏",
+   "url": "https://www.qbitai.com/2026/11/507038.html",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [
+    "林, 方舟"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-01T13:09:55+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/507038.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Claude 紧急叫停：暗改 Harness 禁止逆向游戏",
+   "summary_zh": "报道称 Anthropic 悄然修改 Claude 的 harness 限制逆向工程类游戏任务，引发开发者讨论。",
+   "highlights_zh": [
+    "harness 层策略调整影响智能体行为",
+    "涉及逆向工程与安全边界",
+    "反映厂商对智能体能力的收紧"
+   ],
+   "why_zh": "关注智能体 harness 策略与安全边界的从业者值得一读。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-02",
+   "slot": "morning",
+   "selected_at": "2026-11-01T17:05:10+00:00",
+   "mirror_pdf": "pdf/web-4dea2b027768.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/507038.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-761e5e0baaa4",
+   "kind": "article",
+   "title": "The AI cost of JavaScript frameworks",
+   "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-01T06:06:19Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50323088",
+     "signal": "197 pts",
+     "metric": 197
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "JavaScript 框架的 AI 成本",
+   "summary_zh": "Hacker News 讨论不同 JavaScript 框架对 AI 编码助手 token 消耗与成本的影响。",
+   "highlights_zh": [
+    "框架选择影响 AI 生成代码的成本",
+    "讨论涉及 token 用量与上下文长度",
+    "对前端技术选型有参考价值"
+   ],
+   "why_zh": "如果你在用 AI 写前端，可了解框架选择如何影响 token 成本。",
+   "tags": [
+    "代码",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5679,
+   "score_llm": 6.0,
+   "score": 0.5872,
+   "date": "2026-11-02",
+   "slot": "morning",
+   "selected_at": "2026-11-01T17:05:10+00:00",
+   "mirror_pdf": "pdf/web-761e5e0baaa4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50323088"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-59828db5b59b",
+   "kind": "article",
+   "title": "赫拉利深度访谈：真正的 AI 危机来了！",
+   "url": "https://www.tmtpost.com/8189151.html",
+   "pdf_url": "",
+   "abstract": "《人类简史》作者尤瓦尔・赫拉利在最新访谈中告诉我们，真正的危机，根本不是电影里那一套，它正在现实世界中上演。",
+   "authors": [
+    "反应堆Reactor"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-01T12:04:54+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8189151.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "赫拉利：真正的 AI 危机正在现实中上演",
+   "summary_zh": "赫拉利在访谈中认为，真正的 AI 危机不是科幻式失控，而是语言与意义被机器大规模生产后对人类社会结构的侵蚀。",
+   "highlights_zh": [
+    "危机不在电影式机器人反叛，而在 AI 对语言、叙事和信任的重塑",
+    "强调 AI 是首个能自主生成文化内容的非人类主体",
+    "呼吁在 AI 渗透社会前建立全球性监管与伦理框架"
+   ],
+   "why_zh": "重量级公共知识分子对 AI 社会影响的明确判断，适合把握宏观叙事。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-02",
+   "slot": "morning",
+   "selected_at": "2026-11-01T17:05:10+00:00",
+   "mirror_pdf": "pdf/web-59828db5b59b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8189151.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2649f49189d7",
+   "kind": "article",
+   "title": "patch-gg/pixelfx",
+   "url": "https://github.com/patch-gg/pixelfx",
+   "pdf_url": "",
+   "abstract": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.\nREADME: # pixelfx. ** 244 pixel art effects and animations, every one a small piece of code.** Fire, explosions, magic, weather, UI, pickups, critters and more. Play them live, recolor and mirror them, drop them into a browser game, or export sprite sheets for any engine. Plus a Claude Code skill that makes new ones the way a picky pixel artist would: draft, render, look, refine. Every effect that involves a character is **acted out**: he winds up, lets go, freezes on contact and recovers, and a target takes the hit. Twelve whole moves chain the effects into attacks from wind-up to recovery. **[open the gallery](https://patch-gg.github.io/pixelfx/)** · [catalog](docs/CATALOG.md) · [acting](#acting) · [the skill](#the-skill) · [make your own](#make-your-own) · [how it works](#how-it-works) The method is [Hugo Duprez](https://x.com/HugoDuprez)'s, from [How to make (good) pixel art effects with Claude](https://www.spritefusion.com/blog/how-to-make-good-pixel-art-effects-with-claude): code is clay, trust your eyes, feed your references. His [open-source effects](https://www.spritefusion.com/pixel-art-vfx) at Sprite Fusion set the bar, and `src/core/sim.js` and the effects that say so at the top adapt his code. This repo is our take on the idea at library scale, with a skill to keep going. ## what's in it. | category | effects | some of them | |---|---|---| | **moves** | 12 | arrow shot, dash strike, earth stomp, fireball throw, ground pound, holy smite… | | **fire** | 12 | brazier, campf",
+   "authors": [],
+   "orgs": [
+    "patch-gg"
+   ],
+   "published": "2026-11-01T17:05:10+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/patch-gg/pixelfx",
+     "signal": "★ 2,357（新项目） · JavaScript",
+     "metric": 2357
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "pixelfx：244 个像素特效与 Claude Code 技能",
+   "summary_zh": "patch-gg 开源 244 个像素风特效动画，每个都是小段代码，附带 Claude Code 技能可按需生成新特效。",
+   "highlights_zh": [
+    "特效可实时预览、改色、镜像",
+    "可导出精灵表用于任意引擎",
+    "Claude Code 技能按“起草-渲染-审视-精修”流程生成"
+   ],
+   "why_zh": "如果你在做像素风游戏或需要批量生成特效素材，可用它快速出图并导出精灵表。",
+   "tags": [
+    "视觉",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.6135,
+   "score_llm": 5.0,
+   "score": 0.5454,
+   "date": "2026-11-02",
+   "slot": "morning",
+   "selected_at": "2026-11-01T17:05:10+00:00",
+   "mirror_pdf": "pdf/web-2649f49189d7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/patch-gg/pixelfx"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-37d5b34116a9",
+   "kind": "article",
+   "title": "Qt 推出零代码嵌入式界面设计工具 Clate，设计成果可直接导出 QML 代码",
+   "url": "https://www.ithome.com/1/020/821.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 1 日消息，Qt 宣布推出一款嵌入式设备界面设计工具 Clate，设计师无需编写代码，即可通过可视化编辑器或 AI 生成操作界面，并将设计成果导出为 QML 代码，供工程师集成至 Qt 应用程序。官方现已开放首个 Beta 测试版本 0.6 供用户免费下载使用，IT之家附项目地址（ https://doc.qt.io/clate/docs/release-notes/clate-0-6/ ）。 IT之家获悉，Clate 基于 Qt Quick 构建，主要面向工业设备、医疗仪器及消费电子产品的人机交互界面（HMI）设计。设计师可以调整各个对象的位置、大小、颜色及渐变效果，并通过独立窗口预览设计成果，其在画布上创建的任何图形、文字和图片等元素，都会在后台映射为 Qt 的声明式界面语言 QML，工程师随后可以将这些文件导入 Qt 6.12 并进一步添加交互逻辑和数据处理功能。 此外，Clate 还内置了聊天式 AI 助手，设计师可以通过自然语言指令要求 AI 新建界面或修改设计元素。首个 Beta 版本通过 ACP（Agent Client Protocol，智能体客户端协议）接入 Anthropic 的 Claude Agent，用户需要使用自己的 Claude 账号登录。 目前，Clate 0.6 仍处于测试阶段，暂不支持可重复使用的设计组件和数据绑定功能。Qt 计划于 2026 年加入变量和数据绑定支持，并于 2027 年春季推出动画编辑、设计系统管理及多人实时协作功能。Clate 正式商用版本预计将于 2027 年夏季发布。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-01T12:00:37+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/020/821.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Qt 推出零代码嵌入式界面工具 Clate，可导出 QML",
+   "summary_zh": "Qt 发布 Clate Beta，设计师可视化或通过 Claude Agent 生成嵌入式 HMI 界面并导出 QML 代码，正式版预计 2027 年商用。",
+   "highlights_zh": [
+    "面向工业设备、医疗仪器等嵌入式 HMI 设计",
+    "内置聊天式 AI 助手，经 ACP 接入 Claude Agent",
+    "Beta 暂缺组件复用与数据绑定，2026 年后补齐"
+   ],
+   "why_zh": "AI 辅助设计工具进入嵌入式开发链路，但尚处早期 Beta。",
+   "tags": [
+    "产品与行业",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-11-02",
+   "slot": "morning",
+   "selected_at": "2026-11-01T17:05:10+00:00",
+   "mirror_pdf": "pdf/web-37d5b34116a9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/020/821.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e3eec4b1f16e",
+   "kind": "article",
+   "title": "野人先生获黑蚁资本投资，或将启动海外扩张",
+   "url": "https://www.tmtpost.com/8188017.html",
+   "pdf_url": "",
+   "abstract": "如果野人先生能够验证适配海外市场的产品与门店模型，有望打开新的增长曲线。",
+   "authors": [
+    "消费纵深"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-01T03:33:26+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8188017.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "",
+   "summary_zh": "如果野人先生能够验证适配海外市场的产品与门店模型，有望打开新的增长曲线。",
+   "highlights_zh": [],
+   "why_zh": "",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": null,
+   "score": 0.36,
+   "date": "2026-11-02",
+   "slot": "morning",
+   "selected_at": "2026-11-01T17:05:10+00:00",
+   "mirror_pdf": "pdf/web-e3eec4b1f16e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8188017.html"
+    }
+   ],
+   "mt": true
+  }
+ ],
+ "brief": [
+  {
+   "trend": "音视频联合生成进入「少步数」竞赛，蒸馏成为开源模型追赶闭源的关键杠杆。",
+   "why": "Pika 用 PDMD 蒸馏把 50 步压到 6 步并开源适配器，说明效率优化正取代堆参数成为生成模型竞争焦点。",
+   "refs": [
+    "web-6d03b012d356"
+   ]
+  },
+  {
+   "trend": "AI 抓取退出标准统一，内容授权从个案谈判转向基础设施级规则。",
+   "why": "四家头部公司共推 robots.txt 一次性声明机制且 Anthropic 率先落地，将重塑训练数据供给格局。",
+   "refs": [
+    "web-f5e9142b72f9"
+   ]
+  },
+  {
+   "trend": "厂商开始对模型行为做「隐性调参」，评测与可复现性面临新挑战。",
+   "why": "Claude 悄然修改 harness 限制逆向任务，表明模型能力边界可被后台调整，外部评测结论可信度下降。",
+   "refs": [
+    "web-4dea2b027768"
+   ]
+  },
+  {
+   "trend": "世界模型从概念热度转入机构化布局，成为下一阶段基础研究卡位点。",
+   "why": "西湖大学三年前布局、今年正式成立研究中心，反映学术侧对世界模型的资源投入正在加速。",
+   "refs": [
+    "web-93a19b1bb027"
+   ]
+  },
+  {
+   "trend": "端侧与本地优先工具加速落地，AI 能力正从云端下沉到个人设备。",
+   "why": "Hex 基于 Rust 与端侧语音识别实现本地听写，显示隐私与延迟需求推动推理向终端迁移。",
+   "refs": [
+    "web-0f4537518a87"
+   ]
+  }
+ ]
+}
