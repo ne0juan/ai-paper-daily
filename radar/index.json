@@ -1,11 +1,12 @@
 {
- "updated": "2026-10-31T16:00:57+00:00",
+ "updated": "2026-11-01T04:44:11+00:00",
  "days": [
   {
    "date": "2026-11-01",
-   "count": 17,
+   "count": 34,
    "slots": {
-    "morning": 17
+    "morning": 17,
+    "noon": 17
    }
   },
   {
@@ -339,47 +340,45 @@
    }
   }
  ],
- "total": 2053,
+ "total": 2070,
  "last_run": {
-  "at": "2026-10-31T16:00:57+00:00",
-  "slot": "morning",
-  "candidates": 138,
-  "new": 34,
-  "stale": 71,
-  "judged": 34,
+  "at": "2026-11-01T04:44:11+00:00",
+  "slot": "noon",
+  "candidates": 100,
+  "new": 31,
+  "stale": 31,
+  "judged": 31,
   "selected": 17,
-  "mirrored": 16,
+  "mirrored": 15,
   "by_category": {
    "项目": 2,
-   "资讯": 13,
-   "观点": 1,
-   "技术": 1
+   "资讯": 12,
+   "技术": 1,
+   "观点": 2
   },
   "by_source": {
-   "HF Daily Papers": 11,
-   "arXiv 新论文": 16,
-   "Hacker News": 11,
+   "Hacker News": 5,
    "量子位": 10,
-   "极客公园": 4,
-   "IT之家": 13,
-   "爱范儿": 7,
+   "极客公园": 6,
+   "IT之家": 6,
+   "爱范儿": 5,
    "雷峰网": 14,
-   "钛媒体": 4,
+   "钛媒体": 8,
    "InfoQ 中文": 10,
-   "阮一峰": 1,
+   "Andrej Karpathy": 1,
    "Nathan Lambert": 1,
-   "Dwarkesh Patel": 2,
+   "Dwarkesh Patel": 1,
    "Latent Space": 3,
    "Stratechery": 2,
+   "Azeem Azhar": 1,
    "Nathan Benaich": 1,
    "Zvi Mowshowitz": 1,
-   "Timothy B. Lee": 1,
    "Packy McCormick": 1,
    "Hugging Face Blog": 1,
-   "OpenAI": 4,
+   "OpenAI": 2,
    "NVIDIA": 1,
-   "GitHub Trending": 13,
-   "GitHub 新项目": 7
+   "GitHub Trending": 14,
+   "GitHub 新项目": 6
   },
   "llm": true,
   "translated": 0
