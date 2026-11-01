@@ -1,11 +1,11 @@
-2026-11-01 04:44:11,554 INFO source hf_daily           -> 0 items
-2026-11-01 04:44:11,828 INFO source hackernews         -> 5 items
-2026-11-01 04:44:37,557 INFO source rss                -> 75 items
-2026-11-01 04:44:39,371 INFO source html_lists         -> 0 items
-2026-11-01 04:44:39,371 INFO source x                  -> 0 items
-2026-11-01 04:45:52,564 WARNING source arxiv_search failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=30)
-2026-11-01 04:46:01,067 INFO source github             -> 20 items
-2026-11-01 04:46:01,068 INFO candidates: 100 (stale dropped 31, new 31)
-2026-11-01 04:46:31,626 INFO llm judged 31/31 (calls=4)
-2026-11-01 04:46:39,663 WARNING snapshot https://twitter.com/jiahaoshao1/status/2116475922190922088: blocked or empty page
-2026-11-01 04:49:55,127 INFO run done: {"at": "2026-11-01T04:44:11+00:00", "slot": "noon", "candidates": 100, "new": 31, "stale": 31, "judged": 31, "selected": 17, "mirrored": 15, "by_category": {"项目": 2, "资讯": 12, "技术": 1, "观点": 2}, "by_source": {"Hacker News": 5, "量子位": 10, "极客公园": 6, "IT之家": 6, "爱范儿": 5, "雷峰网": 14, "钛媒体": 8, "InfoQ 中文": 10, "Andrej Karpathy": 1, "Nathan Lambert": 1, "Dwarkesh Patel": 1, "Latent Space": 3, "Stratechery": 2, "Azeem Azhar": 1, "Nathan Benaich": 1, "Zvi Mowshowitz": 1, "Packy McCormick": 1, "Hugging Face Blog": 1, "OpenAI": 2, "NVIDIA": 1, "GitHub Trending": 14, "GitHub 新项目": 6}, "llm": true, "translated": 0}
+2026-11-01 11:47:52,138 INFO source hf_daily           -> 0 items
+2026-11-01 11:47:54,767 INFO source hackernews         -> 7 items
+2026-11-01 11:48:16,494 INFO source rss                -> 57 items
+2026-11-01 11:48:18,199 INFO source html_lists         -> 0 items
+2026-11-01 11:48:18,199 INFO source x                  -> 0 items
+2026-11-01 11:48:18,871 INFO source arxiv_search       -> 0 items
+2026-11-01 11:48:28,231 INFO source github             -> 20 items
+2026-11-01 11:48:28,232 INFO candidates: 84 (stale dropped 6, new 33)
+2026-11-01 11:49:00,496 INFO llm judged 33/33 (calls=5)
+2026-11-01 11:49:57,833 WARNING snapshot https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits: blocked or empty page
+2026-11-01 11:54:12,322 INFO run done: {"at": "2026-11-01T11:47:51+00:00", "slot": "evening", "candidates": 84, "new": 33, "stale": 6, "judged": 33, "selected": 21, "mirrored": 19, "by_category": {"技术": 4, "项目": 3, "资讯": 14}, "by_source": {"Hacker News": 7, "量子位": 8, "极客公园": 5, "IT之家": 6, "爱范儿": 4, "雷峰网": 4, "钛媒体": 8, "InfoQ 中文": 9, "Andrej Karpathy": 1, "Nathan Lambert": 1, "Dwarkesh Patel": 1, "Latent Space": 2, "Stratechery": 1, "Azeem Azhar": 1, "Nathan Benaich": 1, "Zvi Mowshowitz": 1, "Packy McCormick": 1, "科学空间": 1, "Hugging Face Blog": 1, "NVIDIA": 1, "GitHub Trending": 9, "GitHub 新项目": 11}, "llm": true, "translated": 0}
