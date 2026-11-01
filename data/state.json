@@ -2056,7 +2056,24 @@
   "web-58c0a2decce6": "2026-11-01",
   "web-73549972a16a": "2026-11-01",
   "web-2da7abcc3483": "2026-11-01",
-  "web-c537f963f202": "2026-11-01"
+  "web-c537f963f202": "2026-11-01",
+  "web-76e502c4ebad": "2026-11-01",
+  "web-e07ec5d69c95": "2026-11-01",
+  "web-5b0ac3b976a1": "2026-11-01",
+  "web-c6c3195da439": "2026-11-01",
+  "web-18eadc7cf156": "2026-11-01",
+  "web-e527f456db3d": "2026-11-01",
+  "web-82785ab4f152": "2026-11-01",
+  "web-95f9ec330aee": "2026-11-01",
+  "web-47e2b9fd2e98": "2026-11-01",
+  "web-e257ce0067cb": "2026-11-01",
+  "web-b20adaa5fbb6": "2026-11-01",
+  "web-66bf690bf746": "2026-11-01",
+  "web-f88889471878": "2026-11-01",
+  "web-adece04568c3": "2026-11-01",
+  "web-bdeab6c60eaf": "2026-11-01",
+  "web-a19df512d2a8": "2026-11-01",
+  "web-0b309d5539a8": "2026-11-01"
  },
  "known_links": {
   "https://www.anthropic.com/news": [
@@ -2325,38 +2342,6 @@
   ]
  },
  "runs": [
-  {
-   "at": "2026-10-11T16:36:52+00:00",
-   "slot": "morning",
-   "candidates": 78,
-   "new": 15,
-   "stale": 37,
-   "judged": 12,
-   "selected": 10,
-   "mirrored": 10,
-   "by_category": {
-    "项目": 3,
-    "资讯": 6,
-    "观点": 1
-   },
-   "by_source": {
-    "Hacker News": 2,
-    "量子位": 9,
-    "极客公园": 4,
-    "IT之家": 6,
-    "爱范儿": 5,
-    "雷峰网": 9,
-    "钛媒体": 3,
-    "InfoQ 中文": 13,
-    "Nathan Lambert": 1,
-    "Latent Space": 4,
-    "Azeem Azhar": 2,
-    "GitHub Trending": 11,
-    "GitHub 新项目": 9
-   },
-   "llm": true,
-   "translated": 0
-  },
   {
    "at": "2026-10-12T04:39:20+00:00",
    "slot": "noon",
@@ -4867,6 +4852,48 @@
     "NVIDIA": 1,
     "GitHub Trending": 13,
     "GitHub 新项目": 7
+   },
+   "llm": true,
+   "translated": 0
+  },
+  {
+   "at": "2026-11-01T04:44:11+00:00",
+   "slot": "noon",
+   "candidates": 100,
+   "new": 31,
+   "stale": 31,
+   "judged": 31,
+   "selected": 17,
+   "mirrored": 15,
+   "by_category": {
+    "项目": 2,
+    "资讯": 12,
+    "技术": 1,
+    "观点": 2
+   },
+   "by_source": {
+    "Hacker News": 5,
+    "量子位": 10,
+    "极客公园": 6,
+    "IT之家": 6,
+    "爱范儿": 5,
+    "雷峰网": 14,
+    "钛媒体": 8,
+    "InfoQ 中文": 10,
+    "Andrej Karpathy": 1,
+    "Nathan Lambert": 1,
+    "Dwarkesh Patel": 1,
+    "Latent Space": 3,
+    "Stratechery": 2,
+    "Azeem Azhar": 1,
+    "Nathan Benaich": 1,
+    "Zvi Mowshowitz": 1,
+    "Packy McCormick": 1,
+    "Hugging Face Blog": 1,
+    "OpenAI": 2,
+    "NVIDIA": 1,
+    "GitHub Trending": 14,
+    "GitHub 新项目": 6
    },
    "llm": true,
    "translated": 0

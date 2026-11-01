@@ -914,52 +914,971 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-76e502c4ebad",
+   "kind": "article",
+   "title": "deepseek-ai/dsh-superagent-prototype",
+   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+   "pdf_url": "",
+   "abstract": "Towards a More Autonomous Agent System\nREADME: # dsh-superagent > **Research prototype for reference only, not an official DeepSeek product.** This code grew out of our team's day-to-day development work, with much of the engineering done by coding agents. Treat it as research code, not production-ready software. It may still contain bugs, and its coding style and engineering practices may be inconsistent. Review and adapt it before using it in your own environment. > > We have adapted it for publication, so it is not identical to our internal version or the implementation described in *Exploring Super-agent Design: Towards a More Autonomous Agent System*. Some designs discussed in the article are directions for future development and are not implemented in this prototype. dsh-superagent is a proactive coding agent for one GitHub repository, packaged as a bundle for [DeepSeek Harness](https://www.deepseek.com/en/harness/). It listens to GitHub and, optionally, Feishu. When someone allowed asks the agent for work, it opens a work item, works on it in its own agent session and directory, and answers in the original conversation, for example with a pull request. A web panel shows what needs a person. It is also a way of working with an agent: **take as little human attention as possible, and give as much value as possible.** An agent that can act for a whole team can also waste a whole team's attention, so it acts only when asked or when a rule the team wrote allows it, and speaks only when someone must act or can use a resu",
+   "authors": [],
+   "orgs": [
+    "deepseek-ai"
+   ],
+   "published": "2026-11-01T04:44:11+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+     "signal": "★ 3,527（新项目） · TypeScript",
+     "metric": 3527
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "DeepSeek 开源超级智能体原型 dsh-superagent",
+   "summary_zh": "DeepSeek 发布面向单一 GitHub 仓库的主动式编码智能体原型，监听 GitHub/飞书请求，自主开工作项、在独立会话中执行并回以 PR，附网页面板供人工介入。",
+   "highlights_zh": [
+    "官方声明为研究原型，非正式产品，代码大量由编码智能体自身完成",
+    "核心设计理念：尽可能少占用人类注意力，产出尽可能多价值",
+    "配套论文《Exploring Super-agent Design》部分设计尚未在原型中实现"
+   ],
+   "why_zh": "头部厂商公开智能体 harness 设计思路，是观察自主智能体工程化的第一手材料。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.7077,
+   "score_llm": 8.0,
+   "score": 0.7631,
+   "date": "2026-11-01",
+   "slot": "noon",
+   "selected_at": "2026-11-01T04:44:11+00:00",
+   "mirror_pdf": "pdf/web-76e502c4ebad.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e07ec5d69c95",
+   "kind": "article",
+   "title": "Anthropic blocks users for anything touching training larger models",
+   "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-31T19:39:19Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50319358",
+     "signal": "267 pts",
+     "metric": 267
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Anthropic 封禁触碰更大模型训练的账号",
+   "summary_zh": "Hacker News 热议：有用户称因涉及训练更大模型相关操作被 Anthropic 封号，引发对 API 使用边界与条款执行的讨论。",
+   "highlights_zh": [
+    "封禁触发点疑似与用其模型训练竞品相关",
+    "反映头部厂商对模型蒸馏与竞对训练的警惕",
+    "对依赖 Claude API 做训练的团队是风险提示"
+   ],
+   "why_zh": "揭示大模型 API 使用条款的实际执行力度，影响训练侧团队合规策略。",
+   "tags": [
+    "大模型",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.5821,
+   "score_llm": 7.0,
+   "score": 0.6528,
+   "date": "2026-11-01",
+   "slot": "noon",
+   "selected_at": "2026-11-01T04:44:11+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50319358"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5b0ac3b976a1",
+   "kind": "article",
+   "title": "Malware uses LLMs to rank victims by how much they're worth",
+   "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-31T14:29:03Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50316531",
+     "signal": "238 pts",
+     "metric": 238
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "恶意软件用 LLM 给受害者按身价排序",
+   "summary_zh": "安全研究披露新型恶意软件调用 LLM 评估受害者价值并排序攻击优先级，标志 LLM 被武器化进入攻击链路。",
+   "highlights_zh": [
+    "LLM 被用于攻击目标筛选与优先级排序",
+    "攻击自动化程度进一步提升",
+    "对安全防护与模型滥用治理提出新问题"
+   ],
+   "why_zh": "LLM 滥用从生成内容走向攻击决策，安全团队需关注。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.5768,
+   "score_llm": 7.0,
+   "score": 0.6507,
+   "date": "2026-11-01",
+   "slot": "noon",
+   "selected_at": "2026-11-01T04:44:11+00:00",
+   "mirror_pdf": "pdf/web-5b0ac3b976a1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50316531"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c6c3195da439",
+   "kind": "article",
+   "title": "DeepSeek 公布 Super Agent 架构；苹果超越英伟达，重回市值第一；传 Meta 与傅利叶打造 Muse 机器人",
+   "url": "http://www.geekpark.net/news/373243",
+   "pdf_url": "",
+   "abstract": "DeepSeek 发布全新 Agent 架构 10 月 31 日晚间，DeepSeek Harness 团队在官方公众号发表技术文章《Super-agent 设计探索：迈向更自主的 Agent 系统》。 DeepSeek 表示，模型能力提升催生了新的应用形态，个人助手（Personal Agent）开始集中涌现。然而，现有主流 Agent 设计还难以在多任务和团队协作的规模上支撑这一模式，多任务上限取决于人的注意力。 要突破这些限制，需要打破 Agent 与单次手动会话的绑定，使其成为一个能跨会话保持上下文、同时推进多项复杂任务且互不干扰的连续实体。DeepSeek 把这种 Agent 形态及其系统架构称为 Super-agent。 通过双层架构、事件驱动、异步多信道交互、存算分离与外部 Watchdog 等思路，DeepSeek 团队突破了这些限制，系统在底层接管了繁琐的会话管理与上下文同步，使人类得以从具体的执行细节进一步上移到更高层的决策与验收。 目前，基于这套思路构建的内部 Super-agent 实例已经在持续运行，日常参与问题复现与修复、代码审查响应与 DeepSeek Harness 自身的迭代。（来源：上海证券报） AI 基建掀起军备竞赛：微软、谷歌、甲骨文等巨头承诺投入超 3 万亿美元 据彭博社 10 月 31 日凌晨报道，AI 基础设施建设仍将吸引巨额资金。Alphabet、Meta、微软、亚马逊和甲骨文五大科技巨头承诺，未来数年将在数据中心等领域投入超过 3 万亿美元（现汇率约合 20.01 万亿元人民币）。 随着数据中心建设竞赛愈演愈烈，五家公司披露的租赁、建筑、能源及设备采购承诺大幅增长。这些资金有的将在短期内支出，有的则涉及未来数十年的长期合同。 今年商界的一大争论，是科技企业斥资数千亿美元建设 AI 数据中心，究竟能否收回投资。Alphabet 和 Meta 都是全球最赚钱的企业之一，却因投资有望改变行业格局的新业务，出现自由现金流由正转负的情况。 不过，五家公司的支出并非全部用于数据中心，披露口径也不完全一致，因此很难直接比较。 例如，Meta 的部分预算用于 Reality Labs 部门的消费级硬件产品，Alphabet 和亚马逊的计划支出则包括内容授权费用。本次统计也没有计入现有租约和债务等其他大额支出。 五家公司未来的租赁付款承诺合计 1.3 万亿美元（现汇率约合 8.67 万亿元人民币），其他采购承诺合计 1.9 万亿美元（现汇率约合 12.67 万亿元人民币）。除微软外，数据均取自各家公司最新财报。微软的采购和建设订单数据来自截至 6 月底的年度报告，该公司此后尚未更新这两项数据。（来源：IT 之家） 苹果市值超越英伟达，重登全球第一宝座 在经历过去一周科技股普遍下跌之后，苹果公司凭借持续强劲的 iPhone 市场需求，再次超过英伟达，重新成为全球市值最高的上市公司。 此次苹果能够重新夺回榜首，与其近期密集推出多款硬件新品，以及首席执行官从 Tim Cook 平稳交接至约翰·特努斯有关，这些因素都提振了投资者信心。 截至 10 月 30 日收盘，苹果股价报 344.63 美元，公司总市值达到 5.03 万亿美元。英伟达当天同样遭遇股价下跌，收于 204.64 美元，对应市值约 4.93 万亿美元，暂时落后于苹果。 市场分析认为，新产品带来的销售动能和品牌影响力，帮助苹果在市值竞争中再次领先英伟达。不过，随着人工智能产业持续扩张以及双方业务各自增长，全球市值第一的位置未来数年仍可能在苹果和英伟达之间反复易",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-01T00:29:48+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373243",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek 公布 Super Agent 架构，AI 基建投入超 3 万亿美元",
+   "summary_zh": "DeepSeek 发布 Super-agent 技术文章，提出双层架构、事件驱动、异步多信道等设计，让 Agent 跨会话保持上下文并并行推进多任务；同时微软、谷歌等五大巨头承诺 AI 基建投入超 3 万亿美元。",
+   "highlights_zh": [
+    "Super-agent 打破 Agent 与单次会话绑定，可跨会话保持上下文、并行多任务",
+    "采用双层架构、事件驱动、存算分离与外部 Watchdog 等系统设计",
+    "内部实例已持续运行，参与问题复现、代码审查与 Harness 自身迭代",
+    "五大科技巨头 AI 基建承诺投入超 3 万亿美元，租赁与采购承诺合计 3.2 万亿"
+   ],
+   "why_zh": "了解头部公司对 Agent 系统架构的最新设计思路与行业资本走向",
+   "tags": [
+    "智能体",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-11-01",
+   "slot": "noon",
+   "selected_at": "2026-11-01T04:44:11+00:00",
+   "mirror_pdf": "pdf/web-c6c3195da439.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373243"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-18eadc7cf156",
+   "kind": "article",
+   "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
+   "url": "https://latent.space/p/arca/",
+   "pdf_url": "",
+   "abstract": "Arca's head of AI discusses persistent memory, the benefits of a custom harness, and agentic workflows that span days.",
+   "authors": [
+    "Richard MacManus"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-10-31T16:05:00+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/arca/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Arca 谈长周期金融 Agent：持久记忆与定制 harness",
+   "summary_zh": "Arca AI 负责人认为，长周期金融工作 Agent 的关键在于持久记忆与定制化 harness，智能体工作流可跨越数天，而非单次对话。",
+   "highlights_zh": [
+    "持久记忆让 Agent 在数天跨度内保持任务上下文",
+    "定制 harness 比通用框架更适合金融长周期任务",
+    "Agent 工作流从单次会话转向持续运行"
+   ],
+   "why_zh": "为设计长周期、高可靠性 Agent 工作流提供一线实践视角",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-11-01",
+   "slot": "noon",
+   "selected_at": "2026-11-01T04:44:11+00:00",
+   "mirror_pdf": "pdf/web-18eadc7cf156.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/arca/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e527f456db3d",
+   "kind": "article",
+   "title": "个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新",
+   "url": "http://www.geekpark.net/news/373244",
+   "pdf_url": "",
+   "abstract": "豆包手机的问题，也是蚂蚁灵光的问题。 10 月 21 日的 Meta 财报会上，扎克伯格披露了一组关于个人智能体 Muse 的关键数据：超过 1000 万人设置了 Muse， 购物 是 Muse 最常见的用途，超过 四分之一 的用户在用它买东西，平均客单价超过 200 美元 ；上线第一周，Muse 交易量便超出了预期，Meta 不得不与支付合作伙伴 Stripe 一起临时上调了信用额度。 六天后的 10 月 27 日，蚂蚁集团发布了灵光 2.0，将产品定位从最初的「30 秒用自然语言生成小应用」，彻底转向「能管事的个人 AI 助理」，官方口号概括为九个字：「 记得住、盯得牢、办得了 」。它打通了支付宝账单、钉钉、飞书、米家等服务，让 AI 替你管日常事务，试图成为中国版 Muse。 但 Muse 和灵光面对的问题截然不同。美国电子商务分散在大量独立网站中，Muse 可以通过云端浏览器直接访问店铺；而中国的日常消费与沟通高度集中在少数几个超级 App 内部，数据与交易链路彼此独立。 灵光 2.0 界面 我们花了两天实测了灵光 2.0，并横向对比了千问、Muse 和 Claude Duet。实测表明，把一个 AI 个人助手放到中国的移动互联网生态里，真正的瓶颈已经不再是模型的推理能力，而是跨平台的权限边界、安全责任划分与商业利益归属。 首先定义一下「私人助理」这个概念。在现实世界里，一个人类私人助理之所以能替你把事情办妥，靠的是四样东西： 信息 ：知道你的偏好、账单、日程等上下文； 权限 ：能以你的名义采取行动，而且外部平台和交易对手认可这个授权； 责任 ：一旦出错了，有明确的追责与兜底机制； 忠诚 ：在利益冲突时替雇主着想。 过去，只有极少数富人请得起私人助理，因为维持这四样东西的成本极其高昂。到了大模型时代，云端算力和代码大幅降低了「整理信息」和「持续盯盘」的成本；但后三项（权限开放、责任承担与立场忠诚）依然受制于商业生态与法律规则。这三个维度，正是检验灵光 2.0 真实成色的核心框架。 01 权限：灵光拿到了一半 在「看」和「盯」的层面，灵光 2.0 表现不错。实测中，授权支付宝账单后，它能准确揪出百度网盘会员和 App Store 订阅等自动续费项目（不过受限于接口权限，它明确提示「账单只能看到扣款记录，看不到当前的签约状态」）；授权办公软件后，它也能顺利读取钉钉群聊与通讯录，或是在飞书里新建一篇云文档。 一旦指令推进到和外部的交互中，灵光就会撞上两堵墙。 第一类拦截来自灵光自身的安全策略。 实测中，无论是让它在钉钉发群消息，还是在飞书里回复联系人，哪怕用户在前端界面点击了「确认发送」，最终都失败了。 面对追问，灵光在自我排查后承认： 不是钉钉的问题，是这边执行环境的安全策略把发消息这类操作都拦截了。 第二类来自外部平台的接口风控与限流。 尽管在公众认知中蚂蚁与阿里同属一个大生态，但灵光与淘宝之间并未打通底层接口。当我们让灵光查看淘宝购物车时，它只能在云端打开淘宝网页版，要求用户扫码、提交短信验证码登录；即便登录成功，购物车数据也始终无法加载，直接被淘宝的反爬风控机制拦截在外。 米家也是类似的情况：扫码授权成功后，小米的接口连续两次触发限流，设备列表始终拉取失败。 灵光进不了淘宝的购物车，但千问却可以。 当我们把同一句指令「帮我看看淘宝购物车有什么降价幅度比较大的商品」发给千问时，两者的权限差距一目了然：千问不仅直接列出了购物车清单，甚至清楚地知道里面那把人体工学椅「已经加购快 300 天、看了几十次」。 与此同时，支付路径，阿里目前也没有向",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-01T01:41:45+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373244",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "蚂蚁灵光 2.0 实测：个人 AI 助理的机会与门槛",
+   "summary_zh": "极客公园实测蚂蚁灵光 2.0，对比 Muse、千问等，指出个人 AI 助理的瓶颈已非模型推理能力，而是跨平台权限边界、安全责任划分与商业利益归属。",
+   "highlights_zh": [
+    "灵光 2.0 从生成小应用转向「记得住、盯得牢、办得了」的个人助理",
+    "能读取支付宝账单、钉钉、飞书，但发消息等外部操作被自身安全策略拦截",
+    "淘宝、米家等外部接口因风控与限流无法打通，千问反而可以",
+    "提出信息、权限、责任、忠诚四维框架评估私人助理成色"
+   ],
+   "why_zh": "看清中国生态下个人 Agent 落地的真实瓶颈与产品机会",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-11-01",
+   "slot": "noon",
+   "selected_at": "2026-11-01T04:44:11+00:00",
+   "mirror_pdf": "pdf/web-e527f456db3d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373244"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-82785ab4f152",
+   "kind": "article",
+   "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+   "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-10-31T18:50:34Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50318871",
+     "signal": "162 pts",
+     "metric": 162
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "GPT-5.6 Sol 能在和平模式通关《异星工厂》",
+   "summary_zh": "有用户称 GPT-5.6 Sol 在和平模式下打通《异星工厂》，展示模型在长程规划与复杂游戏环境中的能力进展。",
+   "highlights_zh": [
+    "《异星工厂》考验长程规划与资源调度",
+    "和平模式规避战斗，聚焦生产链构建",
+    "属个案演示，评测严谨性待验证"
+   ],
+   "why_zh": "长程规划类游戏是智能体能力试金石，值得关注但需谨慎看待。",
+   "tags": [
+    "智能体",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.5588,
+   "score_llm": 6.0,
+   "score": 0.5835,
+   "date": "2026-11-01",
+   "slot": "noon",
+   "selected_at": "2026-11-01T04:44:11+00:00",
+   "mirror_pdf": "pdf/web-82785ab4f152.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://ryanmadden.net/gpt-56-beats-factorio/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50318871"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-95f9ec330aee",
+   "kind": "article",
+   "title": "【数智周报】张一鸣以6700亿元登顶中国首富，刷新中国首富财富纪录；阿里巴巴与Apple达成合作，将千问集成至Apple智能；Anthropic提交IPO注册文件，拟以“ANT”为代码在纳斯达克上市",
+   "url": "https://www.tmtpost.com/8188997.html",
+   "pdf_url": "",
+   "abstract": "（10 月 26 日-31 日）OpenAI据称将新一轮融资目标下调100亿美元，拟以1.25万亿美元估值融资200亿美元；谷歌推出最新世界模型Genie 4，模拟时长翻倍至2分钟、首次实现音视频同步生成；Meta拟融资350亿美元并计划推出600亿美元股票发行计划；中信证券：GPT-6 Astra进入机器人控制，物理AI迎来重大拐点...",
+   "authors": [
+    "ITValue"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-01T03:32:27+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8188997.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "数智周报：张一鸣登顶首富，阿里千问接入Apple智能，Anthropic启动IPO",
+   "summary_zh": "钛媒体一周AI要闻汇总：张一鸣以6700亿元成中国首富；阿里与Apple达成合作将千问集成至Apple智能；Anthropic提交IPO注册文件拟以ANT登陆纳斯达克；谷歌发布世界模型Genie 4。",
+   "highlights_zh": [
+    "阿里千问集成至Apple智能，国产大模型首次进入苹果生态",
+    "Anthropic提交IPO注册文件，拟以ANT为代码登陆纳斯达克",
+    "谷歌Genie 4模拟时长翻倍至2分钟，首次实现音视频同步生成"
+   ],
+   "why_zh": "一篇文章掌握一周内大模型生态、资本与产品层面的关键动向。",
+   "tags": [
+    "大模型",
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-01",
+   "slot": "noon",
+   "selected_at": "2026-11-01T04:44:11+00:00",
+   "mirror_pdf": "pdf/web-95f9ec330aee.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8188997.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-47e2b9fd2e98",
+   "kind": "article",
+   "title": "人形机器人的第一份公账，Agility Robotics 上市前夜的深度解析",
+   "url": "https://www.tmtpost.com/8188901.html",
+   "pdf_url": "",
+   "abstract": "Agility Robotics 将于 11 月 5 日以「AGLT」登陆纳斯达克。全球首家在美股挂牌、且拥有真实商用人形部署的\"纯血\"公司。",
+   "authors": [
+    "斯马克机器人版"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-01T03:10:45+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8188901.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "人形机器人第一份公账：Agility Robotics上市前夜深度解析",
+   "summary_zh": "Agility Robotics将于11月5日以AGLT登陆纳斯达克，成为全球首家在美股挂牌且拥有真实商用人形部署的纯血人形机器人公司，文章解析其财务与商业化进展。",
+   "highlights_zh": [
+    "全球首家拥有真实商用人形部署的纯血公司登陆美股",
+    "深度拆解其营收结构、客户与部署规模",
+    "为人形机器人赛道提供首个公开财务参照"
+   ],
+   "why_zh": "人形机器人商业化能否成立，这份公开账本给出首个可验证答案。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-01",
+   "slot": "noon",
+   "selected_at": "2026-11-01T04:44:11+00:00",
+   "mirror_pdf": "pdf/web-47e2b9fd2e98.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8188901.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e257ce0067cb",
+   "kind": "article",
+   "title": "Edge AI Daily 早报（11月1日）",
+   "url": "https://www.tmtpost.com/8188908.html",
+   "pdf_url": "",
+   "abstract": "AI叙事进入资本配置的周期性重估：纳斯达克录得2025年3月以来最差单月，Meta、Alphabet、Amazon财报利好却遭抛售，四巨头AI资本开支把自由现金流砸回负值，高盛预计2026年合计达7250亿美元；标普将Meta信用展望下调至负面，为其首次因AI基建支出获负面展望。一级市场同步降温，OpenAI融资目标从300亿美元砍至约200亿美元、估值降至1.25万亿美元，年化营收信号由700亿美元修正至500亿美元，2030年算力支出从1.4万亿美元削至约6000亿美元。Anthropic提交IPO招股文件，披露近9000亿美元未来算力义务，远超1175亿美元负债与1120亿美元现金；英伟达拟为Nscale西弗吉尼亚Anthropic数据中心提供数十亿美元剩余价值担保，AI基建信用链条收紧。",
+   "authors": [
+    "Edge AI Daily"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-01T01:23:03+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8188908.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Edge AI 早报：AI资本开支重估，一级市场同步降温",
+   "summary_zh": "AI叙事进入资本配置的周期性重估：四巨头AI资本开支把自由现金流砸回负值，高盛预计2026年合计达7250亿美元；OpenAI融资目标从300亿砍至约200亿、估值降至1.25万亿美元；Anthropic披露近9000亿美元未来算力义务。",
+   "highlights_zh": [
+    "标普首次因AI基建支出将Meta信用展望下调至负面",
+    "OpenAI融资目标与估值双双下调，年化营收信号由700亿修正至500亿美元",
+    "Anthropic未来算力义务近9000亿美元，远超其负债与现金"
+   ],
+   "why_zh": "从资本与信用链条视角判断AI基建泡沫风险，把握市场方向。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-01",
+   "slot": "noon",
+   "selected_at": "2026-11-01T04:44:11+00:00",
+   "mirror_pdf": "pdf/web-e257ce0067cb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8188908.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b20adaa5fbb6",
+   "kind": "article",
+   "title": "patchy631/ai-engineering-hub",
+   "url": "https://github.com/patchy631/ai-engineering-hub",
+   "pdf_url": "",
+   "abstract": "Sponsor Star patchy631 / ai-engineering-hub In-depth tutorials on LLMs, RAGs and real-world AI agent applications.",
+   "authors": [],
+   "orgs": [
+    "patchy631"
+   ],
+   "published": "2026-11-01T04:44:11+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/patchy631/ai-engineering-hub",
+     "signal": "★ 今日 +573 · Jupyter Notebook",
+     "metric": 573
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AI 工程实战教程合集 ai-engineering-hub",
+   "summary_zh": "GitHub 热门仓库，汇集 LLM、RAG 与真实智能体应用的深度教程，以 Jupyter Notebook 形式呈现。",
+   "highlights_zh": [
+    "覆盖 LLM、RAG、智能体应用三大方向",
+    "Notebook 形式便于直接跑通",
+    "属教程资源合集，非原创技术突破"
+   ],
+   "why_zh": "适合入门者系统练手 RAG 与智能体，但无新增行业信息。",
+   "tags": [
+    "智能体",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.6006,
+   "score_llm": 5.0,
+   "score": 0.5402,
+   "date": "2026-11-01",
+   "slot": "noon",
+   "selected_at": "2026-11-01T04:44:11+00:00",
+   "mirror_pdf": "pdf/web-b20adaa5fbb6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/patchy631/ai-engineering-hub"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-66bf690bf746",
+   "kind": "article",
+   "title": "🔮 What AI is doing to the company #608",
+   "url": "https://www.exponentialview.co/p/ev-608",
+   "pdf_url": "",
+   "abstract": "Bigger and smaller all at the same time",
+   "authors": [
+    "Azeem Azhar"
+   ],
+   "orgs": [
+    "Azeem Azhar"
+   ],
+   "published": "2026-11-01T03:54:37+00:00",
+   "sources": [
+    {
+     "name": "Azeem Azhar",
+     "authority": 0.8,
+     "url": "https://www.exponentialview.co/p/ev-608",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Exponential View 创始人",
+   "title_zh": "AI 正在如何改变公司",
+   "summary_zh": "Azeem Azhar 认为 AI 同时推动公司规模变大与变小，组织形态在两端同时演化。",
+   "highlights_zh": [
+    "AI 让公司同时走向更大与更小",
+    "组织边界与协作方式随之变化",
+    "关注 AI 对企业结构的深层影响"
+   ],
+   "why_zh": "从宏观视角思考 AI 对组织形态的重塑",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 5.0,
+   "score": 0.528,
+   "date": "2026-11-01",
+   "slot": "noon",
+   "selected_at": "2026-11-01T04:44:11+00:00",
+   "mirror_pdf": "pdf/web-66bf690bf746.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.exponentialview.co/p/ev-608"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f88889471878",
+   "kind": "article",
+   "title": "具身智能的钱，流向机器人的“皮肤”",
+   "url": "https://www.tmtpost.com/8188790.html",
+   "pdf_url": "",
+   "abstract": "下一个将崛起的百亿级赛道",
+   "authors": [
+    "机器最前线"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-01T02:57:24+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8188790.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "具身智能的钱，正流向机器人的皮肤",
+   "summary_zh": "文章指出电子皮肤/触觉传感正成为具身智能下一个百亿级投资赛道，梳理资本流向与产业链机会。",
+   "highlights_zh": [
+    "触觉传感被视为人形机器人量产的关键瓶颈之一",
+    "资本正从整机向核心零部件环节迁移",
+    "电子皮肤被定位为下一个百亿级赛道"
+   ],
+   "why_zh": "了解具身智能投资从整机转向零部件的结构性变化。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-11-01",
+   "slot": "noon",
+   "selected_at": "2026-11-01T04:44:11+00:00",
+   "mirror_pdf": "pdf/web-f88889471878.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8188790.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-adece04568c3",
+   "kind": "article",
+   "title": "DeepSeek，怎么就变成了一条「大肥鱼」",
+   "url": "http://www.geekpark.net/news/373245",
+   "pdf_url": "",
+   "abstract": "最近，B 站评论区闹起了「鱼灾」。 先是有人开了个「Claude 大小姐在运营」的账号，让 AI 负责选题、制作和运营。第二天，「DeepSeek 鲸鱼娘在运营」跟着上线，第一条视频播放量就超过了 200 万。 由于目前 DeepSeek 暂无生图功能，该账号形象还是由 GPT 绘制的。｜图源：Bilibili 网友纷纷效仿，给自己的 Agent 装上刷 B 站的工具，很快，科技区出现了一大群「XX 的大肥鱼」、「XX 小飞鲸」的 AI 账号，还喜欢在评论区互相艾特、互相捧场。还有人专门写了个「大肥鱼清除计划」插件，就为了屏蔽这些 AI 评论。 就这样，一个象征着人工智能探索和想象的蓝鲸 logo，一个原本以技术能力出圈的 AI，在用户的集体创作中，逐渐变成了穿女仆装、爱吃白饭、动不动就摸鱼、甚至有粉丝阵营的「大肥鱼」。 图源：梗鲸 而被网友安排上性格的，还不止 DeepSeek。豆包从名字到头像，都想成为一个亲切、好相处的朋友，结果在网上被编排出了「豆包型人格」，甚至成了一个任人捉弄的「笨女孩」。国外也有类似的现象，Grok 被叫成「老司机」，Claude 则被不少人当成严肃、可靠的工作搭档。 这些印象多少来自真实的产品体验，却又经过表情包、翻车视频和网友二创，逐渐长成了另一副模样。 简言之， AI 公司负责训练模型，互联网负责训练它的人设 。 01 谁让 DeepSeek 变成了「大肥鱼」 「大肥鱼」这个外号，流传最广的解释来自一场识图乌龙：有用户把 Logo 发给 DeepSeek，让它辨认图片，结果 AI 没认出自己，反倒一本正经地说，这是一条「蓝色大肥鱼」。最初的对话记录已经无从考证，但这个称呼算是叫开了。 而后，网友不满足于叫它大肥鱼，还要把赋予它具体形象。如今最流行的 DeepSeek 二次元的鲸鱼娘形象，就来自一场接力式创作。 B 站 UP 主「上善无形」最早利用 AI 绘图创作了一个叫「溟月」的原创角色，长着蓝色长发、鲸鱼头鳍和一条大尾巴，原本和 DeepSeek 没有关系。后来有网友借用这套设计，加入 DeepSeek 的元素和女仆装，再有人把她做成大头小身子的 Q 版。几轮接力之后，这个形象才渐渐和 DeepSeek 绑定。 图源：NGA 「大肥鱼」的性格，则源于网友对技术的「拟人化」。 比如 DeepSeek R1 让很多普通用户第一次接触到推理模型。当 AI 开始分析问题、修正思路，用户可以在界面上看到一段段生成的推理文本。严肃的技术能力，到了网友眼中，变成了观看 AI「内心戏」的窗口。 在一个问题上反复推敲，被拟人化成想太多；答错问题是犯傻；用户拿它干活，消耗的 Token 就是「吃白饭」；没有执行好 prompt，是「吃白饭不干活」。 「鲸鱼娘」甚至有了自己的内容集合网站｜图源：梗鲸 这种「AI 拟人化」特别适合互联网传播。相比说「新模型的推理效率有所下降」，「大肥鱼又在摸鱼」更容易被理解和传播。 吃饭积极，干活随缘，内心戏多，一套「打工干饭大肥鱼」的人设就这么有了 。后来甚至有人编写专门的 Prompt，让 DeepSeek 在聊天时维持鲸鱼娘的人设。随着同人画、视频和表情包越传越广，甚至连不常用 DeepSeek 的人，也开始跟着喊「大肥鱼」。 「鲸鱼娘」并不是 DeepSeek 唯一的民间形象。早在女仆大肥鱼流行之前，就有画师创作过一个叫「D 老师」的男性角色，蓝发、黑西装、白手套，走的是这几年流行的「Hot Nerd」路线，性格成熟克制，带着一点高冷的气质。这个形象在乙女游戏爱好者中很受欢迎，时间线上也比鲸鱼",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-01T01:46:08+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373245",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek 怎么变成了一条「大肥鱼」",
+   "summary_zh": "极客公园梳理 DeepSeek 被网友拟人化为「大肥鱼」「鲸鱼娘」的传播过程，以及豆包、Grok、Claude 等模型各自被赋予的人设，反映 AI 品牌形象由用户二创塑造。",
+   "highlights_zh": [
+    "识图乌龙让 DeepSeek 被叫「大肥鱼」，二次元形象经接力创作成型",
+    "推理过程被拟人化为「内心戏」，Token 消耗被戏称「吃白饭」",
+    "豆包、Grok、Claude 也各有民间人设，AI 公司训练模型、互联网训练人设"
+   ],
+   "why_zh": "从文化传播角度理解 AI 产品的大众认知形成机制",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 5.0,
+   "score": 0.468,
+   "date": "2026-11-01",
+   "slot": "noon",
+   "selected_at": "2026-11-01T04:44:11+00:00",
+   "mirror_pdf": "pdf/web-adece04568c3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373245"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bdeab6c60eaf",
+   "kind": "article",
+   "title": "如果 AI 幻觉也有预算，超支之后该怎么办？",
+   "url": "https://www.infoq.cn/article/z8vQa2zzGyLiTxIZ8PXH?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Craig Risi"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-01T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/z8vQa2zzGyLiTxIZ8PXH?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "如果 AI 幻觉也有预算，超支之后该怎么办？",
+   "summary_zh": "InfoQ 中文编译文章，讨论 AI 幻觉的治理思路，将幻觉视为需要预算与控制的成本项，探讨超支后的应对策略。",
+   "highlights_zh": [
+    "将幻觉治理类比为预算管理",
+    "讨论幻觉超支后的应对与兜底",
+    "面向工程实践的幻觉控制视角"
+   ],
+   "why_zh": "为幻觉治理提供一种成本化的工程思考框架",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-11-01",
+   "slot": "noon",
+   "selected_at": "2026-11-01T04:44:11+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/z8vQa2zzGyLiTxIZ8PXH?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a19df512d2a8",
+   "kind": "article",
+   "title": "AI+社区：「模力工场」连接AI供需，补上信任缺口｜极客邦科技创始人兼CEO 霍太稳分享",
+   "url": "https://www.infoq.cn/article/f3FdeDczctAdHMhvBdKw?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "木子"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-10-30T18:53:48+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/f3FdeDczctAdHMhvBdKw?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "模力工场：连接AI供需，补上信任缺口",
+   "summary_zh": "极客邦科技创始人霍太稳分享「模力工场」AI社区，定位连接AI供需双方、弥补信任缺口，属于平台推介性质的内容。",
+   "highlights_zh": [
+    "定位为AI供需撮合与信任建立的社区平台",
+    "由极客邦科技创始人亲自推介",
+    "偏平台宣传，行业增量信息有限"
+   ],
+   "why_zh": "若关注AI应用落地撮合平台可略读，信息增量有限。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-11-01",
+   "slot": "noon",
+   "selected_at": "2026-11-01T04:44:11+00:00",
+   "mirror_pdf": "pdf/web-a19df512d2a8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/f3FdeDczctAdHMhvBdKw?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0b309d5539a8",
+   "kind": "article",
+   "title": "《影之刃零》初体验：快意恩仇武侠路，NVIDIA DLSS 4.5 来相助",
+   "url": "https://www.ithome.com/1/020/664.htm",
+   "pdf_url": "",
+   "abstract": "10 月 29 日，灵游坊 S-GAME 自主研发和发行，虚幻 5 引擎打造的全新功夫朋克暗黑武侠动作 RPG 游戏《影之刃零》（Phantom Blade Zero）正式发售。游戏世界观承接《雨血》系列，舞台设定在架空江湖“影境”，玩家将化身心脏遭受重创的剑客 —— 魂，用仅有的六十六天寿命，查找武林阴谋真相，并寻求续命之法。 游戏首销日热度极高，Steam 在线玩家峰值数量达到了 72.39 万，位居 Steam 实时榜第二名的位置，在线人数仅次于《CS2》。而在评价方面，首批专业游戏媒体的游戏开分均达到 9 分以上（满分 10 分）水平，首发就支持了路径追踪和 NVIDIA DLSS 4.5 动态多帧生成。 IT之家也于游戏发售当天第一时间进行了体验，本次我们将通过 2 套主流 PC 硬件，带大家看看这款游戏的实际体验如何。 一、测试平台 为了给玩家朋友们提供具有价值的性能参考，IT之家这次以 AMD 锐龙 7 9800X3D 处理器，技嘉 B850 雕妹主板，RTX 5080 和 RTX 5070 显卡，64GB DDR5 6000MHz C30 内存套条为核心搭建测试平台。 其中，主板我们选择了技嘉 B850 AORUS ELITE-P ICE 雕妹，经典银白配色 PCB + 散热装甲，全新睡衣雕妹动态屏显，搭配白色系 PC 硬件，颜值很高。 它采用 16+2+2 相 DrMOS 60A 供电规格，支持 X3D 鸡血模式，D5 内存黑科技 2.0，最高可超频到 DDR5 8200MT/s 内存频率，2 条全长度 PCIe 5.0 x16 + PCIe 4.0 x4 插槽，4 条 M.2 插槽扩展性拉满，还有整套 EZ-DIY 快拆设计和数显纠错灯，整体表现均衡全面。 显卡搭配的则是来自技嘉的 GeForce RTX 5080 超级雕 ICE 显卡以及七彩虹的 iGame GeForce RTX 5070 Ultra OC 12GB x 007 First Light Edition 显卡，分别对应 4K 和 2K 的测试基准分辨率。 为了获得更好的游戏体验，我们采用了 26H2 最新版本的 Windows 11 系统。 需要注意的是，本次测试基于 617.42 版本的 GeForce Game Ready 驱动程序，而非最新的 621.01 版本，游戏的性能数据基于 NVIDIA App 的信息浮窗功能采集。 二、画面效果 首先我们来了解一下《影之刃零》的画质选项情况。 在基础画质预设上，游戏提供了低、中、高、超高、最高五种预设选项，画质标签最上方还有一个应用推荐画质等级，游戏会根据玩家当前的硬件配置，自动推荐合适的画质预设，一键应用。 光线追踪质量拥有关闭、光线追踪和路径追踪 3 个选项，光线重建提供了单独的开关选项，当 N 卡开启路径追踪并在超分辨率设置中选择 DLSS 后，光线重建将保持开启状态。 低画质 中画质 高画质 超高画质 最高画质 先看五档基础画质预设的画面对比，在这组典型的光照场景中，低画质和中画质属于一个层次的观感，低画质墙面文字都是糊的，左侧植被密度最少，对比度最低，右侧木箱、陶罐和金属笼子几乎没有阴影表达，材质发灰或缺失，断木桩贴图有明显塑料感。 同时，主角衣服布料细节最少，反射光表达也很塑料，脸部反光比较“油腻”，斗篷贴图非常“风味”。中档画质表现稍好一些，至少墙壁上的文字不再发虚，左侧植被叶片也没被“抹去”，但其它方面和低画质看不出太大区别。 到了高画质，物体的贴图细节和纹理开始丰富、整体光影也更加真实，木箱",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-01T01:32:18+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/020/664.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "《影之刃零》体验：DLSS 4.5加持",
+   "summary_zh": "《影之刃零》发售并支持路径追踪与DLSS 4.5动态多帧生成，IT之家实测两套PC硬件下的性能表现。",
+   "highlights_zh": [
+    "首发支持路径追踪与DLSS 4.5",
+    "Steam峰值在线72.39万",
+    "实测RTX 5080/5070性能"
+   ],
+   "why_zh": "游戏评测，AI仅体现在DLSS渲染技术，行业增量有限。",
+   "tags": [
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 4.0,
+   "score": 0.376,
+   "date": "2026-11-01",
+   "slot": "noon",
+   "selected_at": "2026-11-01T04:44:11+00:00",
+   "mirror_pdf": "pdf/web-0b309d5539a8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/020/664.htm"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "AI资本叙事从「投入即信仰」转向回报周期定价，融资与基建同时承压。",
-   "why": "OpenAI融资不足目标一半，科技股因成本担忧大跌，3万亿基建承诺下多家现金流转负。",
+   "trend": "AI资本叙事进入重估期，基建投入与融资节奏出现背离",
+   "why": "五大巨头承诺超3万亿美元基建，但OpenAI融资仅达目标一半、科技股因成本担忧大跌。",
    "refs": [
     "web-41a783f21e16",
     "web-9a1e17b51b2d",
     "web-74269015f3d6",
-    "web-3c7ced19196c"
+    "web-e257ce0067cb"
    ]
   },
   {
-   "trend": "AI价值链利润向存储等上游硬件迁移，算力扩张的瓶颈正从芯片转向资本与内存。",
-   "why": "存储五巨头利润首超科技五巨头，利润率从10%升至近70%，而芯片买主融资趋紧。",
+   "trend": "多智能体架构从单模型对话转向分层调度与持久记忆",
+   "why": "DeepSeek双层Agent架构、Anthropic开源Skills、Arca强调持久记忆与定制harness。",
+   "refs": [
+    "web-c457f8428185",
+    "web-c6c3195da439",
+    "web-10ba719313a0",
+    "web-18eadc7cf156"
+   ]
+  },
+  {
+   "trend": "AI价值链利润向存储与硬件端转移，算力扩张受资本约束",
+   "why": "存储五巨头利润首超科技五巨头，但芯片采购融资压力上升、订单与资金错配。",
    "refs": [
     "web-c361d5124a3e",
     "web-3c7ced19196c",
-    "web-58c0a2decce6"
+    "web-81bfa1169921"
    ]
   },
   {
-   "trend": "Agent架构从单模型调用转向「AI指挥AI」的多智能体编排，工程化落地加速。",
-   "why": "DeepSeek新架构让上层模型调度下层模型，Anthropic开源Skills，腾讯云与英特尔共建执行底座。",
+   "trend": "Agent落地瓶颈从模型能力转向权限边界与安全责任",
+   "why": "灵光2.0实测指出瓶颈在跨平台权限与商业归属，ChatGPT账号接管暴露攻击面。",
    "refs": [
-    "web-c457f8428185",
-    "web-10ba719313a0",
-    "web-c537f963f202",
-    "web-24ee0d11b76f"
+    "web-e527f456db3d",
+    "web-a9ce9215ef28",
+    "web-5b0ac3b976a1"
    ]
   },
   {
-   "trend": "评测焦点从「能看会说」转向精密测量与全局约束，暴露生成式模型的真实能力边界。",
-   "why": "大模型拼1000片纯白拼图五小时崩溃，传统机器视觉反而可行，说明能力评测需新方法。",
+   "trend": "评测方法暴露生成式模型短板，精密约束任务仍靠传统视觉",
+   "why": "大模型拼1000片纯白拼图五小时崩溃，缺精密测量与全局约束能力。",
    "refs": [
-    "web-721ada5b78eb",
-    "web-58c0a2decce6"
-   ]
-  },
-  {
-   "trend": "企业AI竞争从「会回答」升级为「能执行」，持久化记忆与低代码Agent平台成新战场。",
-   "why": "Zoho三层架构以MCP打通生态，Arca用自研harness加持久记忆支撑长周期金融任务。",
-   "refs": [
-    "web-73549972a16a",
-    "web-5f823666a4ee"
+    "web-721ada5b78eb"
    ]
   }
  ]
