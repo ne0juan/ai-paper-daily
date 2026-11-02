@@ -1,11 +1,11 @@
-2026-11-02 13:20:43,338 INFO source hf_daily           -> 5 items
-2026-11-02 13:20:43,697 INFO source hackernews         -> 4 items
-2026-11-02 13:21:14,502 INFO source rss                -> 73 items
-2026-11-02 13:21:15,844 INFO source html_lists         -> 0 items
-2026-11-02 13:21:15,844 INFO source x                  -> 0 items
-2026-11-02 13:21:18,570 INFO source arxiv_search       -> 0 items
-2026-11-02 13:21:27,039 INFO source github             -> 20 items
-2026-11-02 13:21:27,040 INFO candidates: 102 (stale dropped 6, new 58)
-2026-11-02 13:22:27,108 INFO llm judged 58/58 (calls=8)
-2026-11-02 13:22:35,946 WARNING snapshot https://stratechery.com/2026/google-earnings-facebook-deja-vu-the-agent-play/: blocked or empty page
-2026-11-02 13:26:01,763 INFO run done: {"at": "2026-11-02T13:20:42+00:00", "slot": "evening", "candidates": 102, "new": 58, "stale": 6, "judged": 58, "selected": 19, "mirrored": 17, "by_category": {"项目": 3, "观点": 3, "技术": 2, "资讯": 11}, "by_source": {"HF Daily Papers": 5, "Hacker News": 4, "量子位": 10, "极客公园": 4, "IT之家": 16, "爱范儿": 6, "少数派": 1, "雷峰网": 12, "钛媒体": 3, "InfoQ 中文": 14, "Andrej Karpathy": 1, "Latent Space": 1, "Stratechery": 1, "SemiAnalysis": 2, "Azeem Azhar": 1, "科学空间": 1, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
+2026-11-02 20:43:01,559 INFO source hf_daily           -> 7 items
+2026-11-02 20:43:02,152 INFO source hackernews         -> 6 items
+2026-11-02 20:43:34,088 INFO source rss                -> 75 items
+2026-11-02 20:43:37,705 INFO source html_lists         -> 1 items
+2026-11-02 20:43:37,705 INFO source x                  -> 0 items
+2026-11-02 20:43:38,233 INFO source arxiv_search       -> 0 items
+2026-11-02 20:43:47,976 INFO source github             -> 20 items
+2026-11-02 20:43:47,978 INFO candidates: 109 (stale dropped 17, new 52)
+2026-11-02 20:44:36,588 INFO llm judged 52/52 (calls=7)
+2026-11-02 20:44:39,877 WARNING snapshot https://jack-clark.net/2026/11/02/import-ai-479-spacewar-low-latency-tasks-versus-llms-genie-4/: blocked or empty page
+2026-11-02 20:47:00,515 INFO run done: {"at": "2026-11-02T20:43:01+00:00", "slot": "morning", "candidates": 109, "new": 52, "stale": 17, "judged": 52, "selected": 18, "mirrored": 17, "by_category": {"观点": 3, "资讯": 11, "技术": 2, "项目": 2}, "by_source": {"HF Daily Papers": 7, "Hacker News": 6, "量子位": 10, "极客公园": 4, "IT之家": 15, "爱范儿": 5, "少数派": 1, "雷峰网": 13, "钛媒体": 3, "InfoQ 中文": 13, "Simon Willison": 1, "Jack Clark": 1, "Stratechery": 1, "SemiAnalysis": 2, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "科学空间": 1, "OpenAI": 3, "xAI": 1, "GitHub Trending": 9, "GitHub 新项目": 11}, "llm": true, "translated": 0}
