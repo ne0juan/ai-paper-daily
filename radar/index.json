@@ -1,12 +1,13 @@
 {
- "updated": "2026-11-02T04:47:15+00:00",
+ "updated": "2026-11-02T13:20:42+00:00",
  "days": [
   {
    "date": "2026-11-02",
-   "count": 25,
+   "count": 44,
    "slots": {
     "morning": 10,
-    "noon": 15
+    "noon": 15,
+    "evening": 19
    }
   },
   {
@@ -349,34 +350,36 @@
    }
   }
  ],
- "total": 2116,
+ "total": 2135,
  "last_run": {
-  "at": "2026-11-02T04:47:15+00:00",
-  "slot": "noon",
-  "candidates": 72,
-  "new": 28,
-  "stale": 10,
-  "judged": 28,
-  "selected": 15,
-  "mirrored": 14,
+  "at": "2026-11-02T13:20:42+00:00",
+  "slot": "evening",
+  "candidates": 102,
+  "new": 58,
+  "stale": 6,
+  "judged": 58,
+  "selected": 19,
+  "mirrored": 17,
   "by_category": {
-   "资讯": 13,
-   "观点": 1,
-   "项目": 1
+   "项目": 3,
+   "观点": 3,
+   "技术": 2,
+   "资讯": 11
   },
   "by_source": {
-   "HF Daily Papers": 1,
+   "HF Daily Papers": 5,
    "Hacker News": 4,
-   "量子位": 9,
+   "量子位": 10,
    "极客公园": 4,
-   "IT之家": 6,
-   "爱范儿": 3,
+   "IT之家": 16,
+   "爱范儿": 6,
    "少数派": 1,
-   "雷峰网": 3,
-   "钛媒体": 5,
-   "InfoQ 中文": 9,
+   "雷峰网": 12,
+   "钛媒体": 3,
+   "InfoQ 中文": 14,
    "Andrej Karpathy": 1,
-   "Latent Space": 2,
+   "Latent Space": 1,
+   "Stratechery": 1,
    "SemiAnalysis": 2,
    "Azeem Azhar": 1,
    "科学空间": 1,
