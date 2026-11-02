@@ -1343,44 +1343,1066 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-40b1bb8d3105",
+   "kind": "article",
+   "title": "vercel-labs/agent-desktop",
+   "url": "https://github.com/vercel-labs/agent-desktop",
+   "pdf_url": "",
+   "abstract": "Star vercel-labs / agent-desktop Agent Desktop gives any agent reliable computer use on the desktop. Built with Rust, it sees any app's real UI structure through OS accessibility trees and operates it — refs stay stable and actions stay safe to retry, instead of guessing from pixels.\nREADME: # agent-desktop Computer use for AI agents: read and operate desktop apps through the OS accessibility tree. A CLI and C library for macOS, Windows and Linux. A snapshot returns JSON with a ref for every element an agent can act on. The agent acts on a ref and snapshots again to check, with no pixel matching; the loop stays in your agent. On macOS, CLI calls reuse a private command host for each snapshot namespace and binary build. It retains native accessibility objects so a removed row cannot silently resolve to a surviving row with the same identifier. The host exits after 15 idle minutes. `TMPDIR` must be owned by the current user with mode `0700`; the standard macOS per-user temporary directory satisfies this requirement. Headless calls still prohibit foreground activation and synthesized input. Snapshots, clipboard reads, screenshots, command output and debug artifacts can contain private desktop content. Keep them out of public logs and uploads. The optional [JEV helper](skills/jev-desktop/SKILL.md) sends screen descriptions to a configured model provider; it is separate from the native CLI. See [privacy and data handling](docs/faq.md#what-data-can-contain-private-information). ## Installation Install on macOS, Windows or Linux with npm: ```bash npm install -g agent-desktop agent-desktop version ``` Bun, Yarn and pnpm can install the same package. It includes native binaries and platform helpers for x64 and ARM64. For direct execution without a JavaScript launcher, dow",
+   "authors": [],
+   "orgs": [
+    "vercel-labs"
+   ],
+   "published": "2026-11-02T13:20:42+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/vercel-labs/agent-desktop",
+     "signal": "★ 今日 +2,243 · Rust",
+     "metric": 2243
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Vercel 开源 agent-desktop：让智能体可靠操作桌面应用",
+   "summary_zh": "Vercel Labs 发布 Rust 编写的 CLI 与 C 库，通过操作系统无障碍树读取桌面应用真实 UI 结构，以稳定 ref 让智能体操作并重试，而非依赖像素猜测。",
+   "highlights_zh": [
+    "跨 macOS/Windows/Linux，快照返回 JSON，每个可操作元素带 ref",
+    "ref 稳定可重试，避免像素匹配与元素错位误操作",
+    "支持无头调用，但禁止前台激活与合成输入"
+   ],
+   "why_zh": "如果你在做桌面 computer-use 智能体，可用它替代像素级点击，提升操作稳定性与可重试性。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.64,
+   "score_llm": 8.0,
+   "score": 0.736,
+   "date": "2026-11-02",
+   "slot": "evening",
+   "selected_at": "2026-11-02T13:20:42+00:00",
+   "mirror_pdf": "pdf/web-40b1bb8d3105.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/vercel-labs/agent-desktop"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-98f352b18956",
+   "kind": "article",
+   "title": "Google Earnings, Facebook Déjà Vu, The Agent Play",
+   "url": "https://stratechery.com/2026/google-earnings-facebook-deja-vu-the-agent-play/",
+   "pdf_url": "",
+   "abstract": "Google's earnings miss looks a lot like Facebook's, and that's a credit to Google. The company is being more aggressive than they get credit for.",
+   "authors": [
+    "Ben Thompson"
+   ],
+   "orgs": [
+    "Stratechery"
+   ],
+   "published": "2026-11-02T11:00:00+00:00",
+   "sources": [
+    {
+     "name": "Stratechery",
+     "authority": 0.8,
+     "url": "https://stratechery.com/2026/google-earnings-facebook-deja-vu-the-agent-play/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Ben Thompson，科技战略分析",
+   "title_zh": "谷歌财报与Agent布局：重演Facebook时刻",
+   "summary_zh": "Ben Thompson认为谷歌财报不及预期酷似当年Facebook，但谷歌应对更激进，Agent是下一阶段关键布局。",
+   "highlights_zh": [
+    "将谷歌财报表现类比Facebook转折时刻",
+    "认为谷歌实际比外界评价更激进",
+    "点出Agent是谷歌下一阶段战略重点"
+   ],
+   "why_zh": "重量级分析者对谷歌AI战略与Agent布局的明确判断。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.708,
+   "date": "2026-11-02",
+   "slot": "evening",
+   "selected_at": "2026-11-02T13:20:42+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://stratechery.com/2026/google-earnings-facebook-deja-vu-the-agent-play/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3a8d2a3ccb3e",
+   "kind": "article",
+   "title": "The Datacenter Backlash Goes Bipartisan: Next Week's Midterms and the 2028 Buildout",
+   "url": "https://newsletter.semianalysis.com/p/the-datacenter-backlash-goes-bipartisan",
+   "pdf_url": "",
+   "abstract": "2027 is largely locked in. 2028 is less secure: a prolonged Texas permit freeze is now the biggest single risk to the US buildout, and both parties are running on tighter rules",
+   "authors": [
+    "Maya Barkin"
+   ],
+   "orgs": [
+    "SemiAnalysis"
+   ],
+   "published": "2026-11-01T18:40:45+00:00",
+   "sources": [
+    {
+     "name": "SemiAnalysis",
+     "authority": 0.8,
+     "url": "https://newsletter.semianalysis.com/p/the-datacenter-backlash-goes-bipartisan",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "半导体与算力分析",
+   "title_zh": "数据中心反对声浪两党化：中期选举与2028算力建设",
+   "summary_zh": "SemiAnalysis指出2027年算力建设基本锁定，2028年风险上升，德州许可冻结与两党收紧监管是最大变量。",
+   "highlights_zh": [
+    "2027年数据中心建设基本确定",
+    "2028年受政策与许可风险影响更大",
+    "德州许可冻结成美国算力扩张最大单点风险"
+   ],
+   "why_zh": "算力基建的政策风险分析，直接影响AI基础设施投资判断。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.708,
+   "date": "2026-11-02",
+   "slot": "evening",
+   "selected_at": "2026-11-02T13:20:42+00:00",
+   "mirror_pdf": "pdf/web-3a8d2a3ccb3e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://newsletter.semianalysis.com/p/the-datacenter-backlash-goes-bipartisan"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b3ab6aa12f5c",
+   "kind": "article",
+   "title": "66 岁 Yann LeCun 发新论文挑战 Scaling Law：1.09 亿参数胜过 720 亿，模型越大不一定越懂世界",
+   "url": "https://www.infoq.cn/article/pWwkDpoFHIsfw9aCRkij?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "李冬梅"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-02T15:17:48+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/pWwkDpoFHIsfw9aCRkij?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "LeCun 新论文挑战 Scaling Law：1.09 亿参数胜过 720 亿",
+   "summary_zh": "LeCun 团队新论文提出以世界模型为核心的新路线，小模型在理解物理世界任务上胜过千亿级大模型，直接质疑「越大越懂世界」的 Scaling 假设。",
+   "highlights_zh": [
+    "1.09 亿参数模型在特定任务上超越 720 亿参数模型",
+    "核心论点是模型规模不等于世界理解能力",
+    "为 JEPA/世界模型路线提供实证支撑"
+   ],
+   "why_zh": "重量级人物对主流 Scaling Law 的正面挑战，可能影响下一代模型架构方向。",
+   "tags": [
+    "大模型",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 9.0,
+   "score": 0.692,
+   "date": "2026-11-02",
+   "slot": "evening",
+   "selected_at": "2026-11-02T13:20:42+00:00",
+   "mirror_pdf": "pdf/web-b3ab6aa12f5c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/pWwkDpoFHIsfw9aCRkij?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-005d9c394a67",
+   "kind": "article",
+   "title": "具身下半场怎么打？智元用一场发布会，给出了自己的答案",
+   "url": "https://www.leiphone.com/category/ai/d2myOaWdKKFW23lm.html",
+   "pdf_url": "",
+   "abstract": "GPT-6之后，机器人公司还有价值吗？智元用2万台出货量背后的“Worken”算力账本回应。 作者丨 齐铖湧 编辑丨岑 峰 2026年，具身智能赛道正在陷入一场前所未有的情绪焦虑。 GPT-6 Astra展示出的具身控制能力，让\"物理AI即将被AI击穿\"的论调甚嚣尘上；负责感知与决策的S2层，正在以肉眼可见的速度被通用智能接管。行业里甚至出现了明确的路线分化：一批做模型的公司开始转型卖数据，\"卖铲子\"成了新的安全区。 而在烈火烹油的显示场景中，哪怕今年中国机器人整机产量突破10万台，能真正在流水线上替代现实工作、替人类扛起KPI的确寥寥无几。 所有从业者都在等一个答案： 当通用大模型不断吞噬智能的上层，做机器人的公司，价值锚点到底在哪里？ 10月29日，上海世博中心，智元创新日（A.I. DAY），稚晖君、姚卯青、熊彦、王闯和他们的智元军团用两个多小时的发布会，给出了一套完整的回应。现场超1000名科研伙伴、开发者、商业伙伴与媒体参会，线上超50家媒体直播。 AI科技评论认为，这场分享里，有非常多的干货和行业痛点，值得跟大家剖析： 01 Worken： 稚晖现场造了一个具身新名词 发布会开场，稚晖君先泼了一盆冷水。 “中国今年机器人整机产量预计突破10万台，但我们也必须清醒：生产了多少台机器人，并不等于真实世界就多了多少生产力。” 这句话说完，现场一片沉默。 这也是AI科技评论在一些行业调研中发现的“行业幻觉”：量产的新闻满天飞，但真正持续投入生产力的寥寥无几。对此，智元给出的解法是一个全新的度量衡：Worken（有效智能工时）： Worken = 活跃机器人数量 × 自主工作时长 × 产出效能比 三个乘数，各自藏着具身行业的三个痛点问题：宕机、离线、维护中的机器不算活跃；遥操作时段不计入自主工作时长。镜头前忙得团团转、镜头后站着三个手柄操作员的机器人，在这套算法下工时直接清零；产出效能比以一个标准工人的单位时间合格产出为1.0，干得比人慢就不达标。 为解释这个概念，稚晖君串起了一段度量衡史：蒸汽时代看\"马力\"，电力时代看\"千瓦时\"，数字AI时代则是用\"Token\"度量思考量。他总结道：“token衡量机器思考了多少，Worken衡量机器行动了多少。” 在AI科技评论看来，这个概念的提出，远比发布某个产品重要，它代表着资深从业者对这个行业的深度思考。 大模型产业之所以能形成今天按量计费、按效果定价的商业闭环，token居功至伟。它让\"智能\"首次成为可定价交易的商品。而物理AI行业苦无度量衡久矣：买卖双方无法定价，资本算不清楚投入产出，Worken正是解开这个死结的关键。 稚晖君没有仅仅停留在造新词上，现场他直接切出了实时工时看板：龙旗产线的上下料机器人、香格里拉酒店的服务机器人、长隆乐园的文旅机器人，每台机器当月贡献的有效工时实时滚动。他调侃了道：“上过班的朋友都填过工时，未来对机器人的服务，也要按Worken来计费。” 同场，由中国信通院等权威机构联合编制的《2026具身智能产业创新报告》正式发布，Worken及相关部署态实例成功入选。度量衡刚发布，就已经有了权威背书。 在AI科技评论看来， “ 从卖机器人到卖工时 ” ，是理解智元全部商业逻辑的钥匙。 当机器人按Worken计费，客户买的就不再是一台出厂即巅峰、逐年折旧的设备，而是一个持续进化的生产力单元。稚晖君的另一句话点明了资产属性的变化：“硬件会陈旧，但智能可以升值。” 02 六个月前出的题，这次交卷了 对Worken的构思最早源于六个月前的APC2026智元合作伙伴大会。当时，智元创始",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-02T10:21:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/d2myOaWdKKFW23lm.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "智元发布 Worken 具身工时度量衡",
+   "summary_zh": "智元提出 Worken（有效智能工时）作为具身机器人计费度量，并展示产线、酒店等实时工时看板，主张从卖机器人转向卖工时。",
+   "highlights_zh": [
+    "Worken = 活跃机器人×自主工时×效能比",
+    "遥操作与宕机时间不计入",
+    "获信通院报告收录背书"
+   ],
+   "why_zh": "为物理 AI 提供可定价的商业度量，影响具身商业模式。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-02",
+   "slot": "evening",
+   "selected_at": "2026-11-02T13:20:42+00:00",
+   "mirror_pdf": "pdf/web-005d9c394a67.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/d2myOaWdKKFW23lm.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e0964166d2d6",
+   "kind": "article",
+   "title": "破解智能体跨端协同办事难题，支付宝AHA方案获世界互联网大会“新耀”场景奖",
+   "url": "https://www.leiphone.com/category/industrynews/oPrDWg9bNg1Dgy4a.html",
+   "pdf_url": "",
+   "abstract": "11月2日，2026年世界互联网大会乌镇峰会开幕。支付宝AHA（Agent Hub Access）智能体多端互联方案获“新耀”场景奖。该奖项重点考察数智技术落地实效与复制推广价值，是峰会在产业应用侧的重要认可。 本批20个获奖方案覆盖金融、制造、城市治理、具身智能等多领域。AHA作为支付宝首创的多智能体跨端互联解决方案，着力破解智能体生态孤岛，支持跨品牌、跨终端智能体协同办事，各主体边界互不干涉。在智能体加速落地的当下，是智能体从单点智能走向协同智能的关键一步。 打通履约链路 构建跨端智能体协议底座 当前各类智能体多为独立体系，可单独完成交互任务，但缺少标准化协同通路，跨品牌、跨终端难以联动配合，复杂业务流程难以串联。 AHA 以支付宝 App 作为账号与能力锚点，依托 A2A、MCP、A2UI开源协议搭建三层互联协议体系，打通不同品牌、终端智能体之间的调用通路，将支付宝政务、出行、医疗、生活服务等能力输出至手机、车机、智能眼镜、大模型 App 等终端，通过分域授权、数据隔离与端侧加密等技术，保障各主体边界独立互不干涉，兼顾开放互联与隐私安全。 AHA互联支撑多终端智能体协同 落地千余服务场景 AHA 互联方案于今年 8 月正式对外发布。产品层面，依托AHA，车机、手机上的智能体可调用支付宝智能体阿宝的能力协同办事：对车载语音说“买张电影票”，车机智能体通过 AHA 把请求交给阿宝，选座、下单、支付直接完成；说“查公积金”，同样可一步唤起多智能体协同办理。目前，支付宝阿宝的服务能力已经AHA输出至6类终端，落地千余个服务场景，这套平台化接入模式，大幅降低终端厂商的适配成本与接入周期。 生态层面，支付宝联合千问、华为、OPPO、比亚迪、蔚来等20余家企业共建多智能体互联协同生态，已实现5家主流手机厂商跨端协同办事，合作厂商份额合计超70%；车端覆盖16个主流汽车品牌，与60余家车企达成定点合作。 落地实践反哺国家智能体互联标准 AHA 在跨厂商、多终端场景下的规模化跑通，为智能体互联建立了可验证的实践样本，也进一步验证了支付宝AI开放平台作为智能体生态基础设施的价值——为行业提供从协议接入、能力调用到场景分发的全链路支撑，持续推动智能体产业走向开放协同。 作为《人工智能 智能体互联》国家标准化指导性技术文件的核心参编单位，蚂蚁集团把这套一线落地经验输入标准研制，推动行业形成统一的协同规则。 业内观察认为，智能体产业竞争重心正从模型能力比拼转向真实场景落地，跨端互联将成为智能服务分发重要入口。多方接入之下，将降低行业开发成本，让用户在各类终端便捷使用民生生活服务。 雷峰网 雷峰网",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-02T09:41:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/oPrDWg9bNg1Dgy4a.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "支付宝AHA方案获乌镇峰会场景奖，破解智能体跨端协同",
+   "summary_zh": "支付宝AHA多智能体跨端互联方案获世界互联网大会“新耀”场景奖，依托A2A、MCP、A2UI协议打通跨品牌终端智能体，已落地千余服务场景、覆盖超70%手机厂商份额。",
+   "highlights_zh": [
+    "以支付宝为账号与能力锚点，三层协议体系打通跨端智能体调用",
+    "已输出至6类终端、千余场景，5家主流手机厂商与16个汽车品牌接入",
+    "落地经验反哺《人工智能 智能体互联》国家标准化文件"
+   ],
+   "why_zh": "智能体竞争从模型能力转向场景落地与互联协议，这是国内生态卡位的关键样本。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-02",
+   "slot": "evening",
+   "selected_at": "2026-11-02T13:20:42+00:00",
+   "mirror_pdf": "pdf/web-e0964166d2d6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/oPrDWg9bNg1Dgy4a.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b2ef890b42dc",
+   "kind": "article",
+   "title": "阿里Qoder获世界互联网大会领先科技奖，已服务超800万用户、10万家企业",
+   "url": "https://www.leiphone.com/category/industrynews/JrXpr0xuLSNA9sOY.html",
+   "pdf_url": "",
+   "abstract": "11月2日，2026世界互联网大会颁奖典礼在浙江乌镇举行，全球共20项成果入选，涵盖量子计算、芯片、具身智能及AI应用等领域。凭借在智能体Harness上的技术突破和领先的全球市场份额，阿里智能体平台Qoder荣获领先科技奖，是国内唯一获得该奖项的通用Agent产品。 Qoder产品线总裁丁宇在现场领奖 世界互联网大会领先科技奖是面向科技和互联网领域的国际性科技奖项，旨在奖励全球年度最具领先性的互联网科技成果。今年，大会共征集来自43个国家和地区的430多项科技成果，经国内外权威专家严格评选，最终仅20项成果入选。 目前，AI编程是全球大模型应用落地最快的领域之一，也是全球顶尖模型创业公司和科技公司竞争的核心战场。依托于阿里巴巴多年在大模型、云计算与大规模工程实践上的积累，Qoder实现了模型、Agent运行框架与产品的联合设计，让智能体做到真正理解工程、自主编写工具、循环探索推进、完成研发任务，有效提升任务执行的效率。 Qoder还在不断拓展用户的使用场景。自2025年8月面向全球发布以来，Qoder产品家族已覆盖桌面版、AI 原生IDE、命令行工具CLI、JetBrains插件、数字员工产品QoderWake、云端Cloud Agents等产品，可满足不同用户习惯和应用场景的需求。用户不仅可以在电脑桌面端使用Qoder提效，也可以在手机上查看进度、审批操作、追加指令。企业级用户可以通过SDK ，把智能体嵌入到的产品中，从而快速实现智能化，还可以在云端运行长程任务，提供24小时不间断的主动工作、主动服务。 10月底，Qoder上线桌面端互联功能，用户可以在常用的Qoder桌面客户端中，连接另一台设备的Qoder桌面端，并发起任务、跟进进度、补充要求，同时可预览远端生成的结果，进一步提升项目开发、测试等场景的效率。 目前，Qoder已服务全球超过800万用户，中国移动、东方航空、吉利汽车等超过10万家企业已在日常开发工作中接入Qoder。今年6月，Gartner发布AI Coding报告，Qoder成功进入“挑战者”象限，与AWS、Google等公司处于同一梯队。今年7月，IDC发布2025年中国AI编程市场份额报告，Qoder以47.6%的市场份额位居第一，超第二名至第五名总和，持续领跑中国AI编程市场。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-02T09:26:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/JrXpr0xuLSNA9sOY.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "阿里Qoder获世界互联网大会领先科技奖，服务超800万用户",
+   "summary_zh": "阿里智能体平台Qoder凭Harness技术突破与市场份额获领先科技奖，已服务800万用户、10万家企业，IDC报告显示其以47.6%份额居中国AI编程市场第一。",
+   "highlights_zh": [
+    "模型、Agent运行框架与产品联合设计，智能体可自主编写工具、循环推进任务",
+    "产品矩阵覆盖桌面版、IDE、CLI、JetBrains插件、数字员工与云端Agents",
+    "Gartner AI Coding报告进入“挑战者”象限，与AWS、Google同梯队"
+   ],
+   "why_zh": "AI编程是落地最快的赛道，Qoder的份额与产品矩阵是观察国内Agent商业化的重要窗口。",
+   "tags": [
+    "智能体",
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-02",
+   "slot": "evening",
+   "selected_at": "2026-11-02T13:20:42+00:00",
+   "mirror_pdf": "pdf/web-b2ef890b42dc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/JrXpr0xuLSNA9sOY.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b1a4cf7b4e84",
+   "kind": "article",
+   "title": "沃顿教授：转行技工难以抵御 AI 冲击，四类核心能力才是破局关键",
+   "url": "https://www.ithome.com/1/021/246.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 2 日消息，人工智能不会消失。我们该如何与它共存？说得更准确一点：在人工智能时代，我们要靠什么谋生？ 常见的答案无非两种：“学会使用人工智能”，或是找一份人工智能无法替代、不会被自动化取代的职业，最好是动手类工作。 据 Business Insider 报道，伊桑 · 莫利克（Ethan Mollick）并不认为这套办法可行。莫利克是沃顿商学院管理学教授，也是当下颇具影响力的研究者，专注解读人工智能如今能做到什么、以及它对需要和 AI 协同工作的普通人意味着什么。他的新书《共存》（Co-Existence）提出，大模型迭代速度远超大多数人的认知，想要应对它飞速的发展，唯一出路就是学会与它共存。 这意味着要承认：你当下掌握的很多能力，未来价值会持续下降；你需要专注打磨那些 AI 无法复刻的个人特质。 IT之家注意到，彼得 · 卡夫卡在自己的播客栏目《Channels》中和莫利克聊了聊 AI 对工作、下一代的职业选择，以及传统人才培养体系在 AI 冲击下崩塌之后会发生什么。下文是访谈经过编辑整理的节选。 彼得 · 卡夫卡： 担心自己或者孩子就业的人，常常被建议成为 AI 专家，或是找不怕 AI 冲击的工作，比如管道工、护士。这个建议有用吗？ 伊桑 · 莫利克： 我觉得作用不大。先说一点：就算选这类职业，哪天 PlumBot 6000 这类机器人问世，情况就不一样了。我不是机器人领域专家，但我认识的机器人研究者态度已经转变，他们原先觉得“大语言模型和机器人完全是两码事，机器人研发难度极高”，现在意识到，这里面确实存在打通的可能性。 未来会走向何方，我不知道，我相信没人能准确预判。这话出自一位 AI 研究者之口，听来或许让人安心，也可能让人焦虑。 变化最剧烈的行业就是编程。我们已经看到编程岗位正在发生变革，甚至我们都无法确定，未来程序员岗位总量会变多还是变少。但可以确定，程序员的工作内容会持续迭代。 写出零错误代码这件事，重要性已经比不上构思清楚我们想要搭建什么。不少程序员的工作体验比以前更好，但也有人感到失落。这类岗位本身一直在演化。 我在书里提到四种特质，至少能帮人建立一部分优势。 第一是深度专业认知 ：深耕一个领域，依靠专业积淀胜过 AI。 第二是广博的知识面 ：涉猎大量不同领域。 我在很多企业观察到一个现象：程序员开始做设计，设计师写代码，市场人员起草商业方案。你了解的跨领域知识越多，就越能用好 AI。 第三个是审美判断力 。AI 产出内容的数量巨大，想要避免成品粗制滥造，就需要你有判断力，懂得筛选优劣。 最后一点是主观能动性 。我认为单纯“学会用 AI”这个说法现在已经没有太大意义。我们测试过各种 AI 使用教学方法，过去那些技巧慢慢失效了。 提示词工程越来越像项目管理。不再依靠什么特殊咒语使唤 AI，而是清晰定义需求：我要做这个产品、验收标准是什么、怎么测试、分阶段交付，给我出五版方案供我挑选。 对于已经有多年工作经验、具备阅历与审美的职场中年人来说，这算是个好消息。但如果你刚刚入行，在 AI 张口就能帮你查资料、写文稿的环境里，该怎么培养这些能力？ 这里存在两层难题：一方面是个体层面，另一方面是我们现有的教育培养体系。 从个体来说，人类天生就习惯把脑力工作外包出去，这是刻在本能里的。技术本来就是用来摆脱枯燥劳动的。有了洗碗机之后，没人愿意坚持手洗碗；也没人愿意自己动手搅拌黄油。 我的孩子不再学手写花体英文，我自己也不会用计算尺。 但我们很难分清，哪些能力可以放手交给工具。学生作业靠 AI 作弊，本质上就是这个问题的体现。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-02T11:33:27+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/021/246.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "莫利克：转行技工难挡AI，四种能力才是关键",
+   "summary_zh": "沃顿教授莫利克认为，靠转行技工或学提示词无法应对AI冲击，应培养深度专业认知、广博知识面、审美判断力与主观能动性。",
+   "highlights_zh": [
+    "机器人研究界态度转变，LLM与机器人打通存在可能",
+    "编程岗位内容持续演化，构思能力比零错误代码更重要",
+    "提示词工程正演变为项目管理式的需求定义"
+   ],
+   "why_zh": "重量级AI研究者对职业与教育路径的明确判断，适合从业者参考。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-02",
+   "slot": "evening",
+   "selected_at": "2026-11-02T13:20:42+00:00",
+   "mirror_pdf": "pdf/web-b1a4cf7b4e84.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/021/246.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cf30202d0dec",
+   "kind": "article",
+   "title": "腾讯混元发布 Hyra 2.0：为模型研发打造可复用工具",
+   "url": "https://www.ithome.com/1/021/266.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 2 日消息，今日腾讯混元发布了 AI 科研系统 Hyra 2.0，将研发重点从直接用 AI 攻克科学难题，转向让通用 Agent 参与科学模型、研究工作流及软件工具的研发与升级，让一次研发的成果在后续研究中被反复使用，推动科研范式从“刷题解题”走向“造工具”。 此前，Hyra 1.0 曾驱动开源模型解决加法组合学中悬置五十余年的开放问题，验证了“给 AI 明确评判标准的难题并循环尝试”这一路径的可行性。Hyra 2.0 在此基础上进一步提出，工具升级带来的收益可被下游任务反复复用，从而形成智能复利。 IT之家注意到，架构上，Hyra 2.0 将研究工作拆分为 Overall、Mission 和 Worker 三层，Overall 负责人与人类研究者沟通并对齐目标，Mission 长期负责单一研究问题并判断路线取舍，Worker 则独立读代码、做实验、分析失败原因，并可质疑 Mission 的判断。系统还设计了项目状态、Agent 分层记忆与共享知识库 Books 三套分离的存储机制，项目复盘时可将可迁移方法整理为 skill，供后续任务直接调用。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-02T13:08:20+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/021/266.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯混元发布 Hyra 2.0：让 Agent 造工具而非刷题",
+   "summary_zh": "腾讯混元推出 AI 科研系统 Hyra 2.0，将通用 Agent 用于研发科学模型与工具，三层架构加共享知识库，让研发成果可复用形成智能复利。",
+   "highlights_zh": [
+    "从「用 AI 解题」转向「让 Agent 造工具」，工具升级收益可被下游任务反复复用",
+    "Overall/Mission/Worker 三层架构，Worker 可质疑 Mission 判断",
+    "项目状态、分层记忆、共享知识库 Books 三套存储分离，复盘可沉淀为 skill"
+   ],
+   "why_zh": "头部厂商对 AI for Science 范式的明确转向，智能体分层设计值得借鉴。",
+   "tags": [
+    "智能体",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-02",
+   "slot": "evening",
+   "selected_at": "2026-11-02T13:20:42+00:00",
+   "mirror_pdf": "pdf/web-cf30202d0dec.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/021/266.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4df6ae2fbdfd",
+   "kind": "article",
+   "title": "kornia/kornia",
+   "url": "https://github.com/kornia/kornia",
+   "pdf_url": "",
+   "abstract": "Sponsor Star kornia / kornia 🐍 Geometric Computer Vision Library for Spatial AI",
+   "authors": [],
+   "orgs": [
+    "kornia"
+   ],
+   "published": "2026-11-02T13:20:42+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/kornia/kornia",
+     "signal": "★ 今日 +412 · Python",
+     "metric": 412
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Kornia：面向空间 AI 的几何计算机视觉库",
+   "summary_zh": "Kornia 是 Python 几何计算机视觉库，为空间 AI 提供可微图像变换与几何运算，持续活跃更新。",
+   "highlights_zh": [
+    "可微几何视觉算子",
+    "与 PyTorch 生态集成",
+    "适合 3D/空间智能预处理"
+   ],
+   "why_zh": "如果你在做空间智能或视觉 pipeline，可把它作为几何变换与增强的基础库。",
+   "tags": [
+    "视觉",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.5871,
+   "score_llm": 6.0,
+   "score": 0.5948,
+   "date": "2026-11-02",
+   "slot": "evening",
+   "selected_at": "2026-11-02T13:20:42+00:00",
+   "mirror_pdf": "pdf/web-4df6ae2fbdfd.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/kornia/kornia"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e80c92601a0b",
+   "kind": "article",
+   "title": "cheaper-inference/OmniRoute",
+   "url": "https://github.com/cheaper-inference/OmniRoute",
+   "pdf_url": "",
+   "abstract": "Star cheaper-inference / OmniRoute Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors",
+   "authors": [],
+   "orgs": [
+    "cheaper-inference"
+   ],
+   "published": "2026-11-02T13:20:42+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/cheaper-inference/OmniRoute",
+     "signal": "★ 今日 +390 · TypeScript",
+     "metric": 390
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OmniRoute：聚合 375 家供应商的免费 AI 网关",
+   "summary_zh": "MIT 许可 AI 网关，一个端点接入 375 家供应商、1400+ 模型，支持配额感知自动回退与 token 压缩，兼容 Claude Code、Cursor 等编码工具。",
+   "highlights_zh": [
+    "150+ 免费供应商可选",
+    "配额感知自动 fallback",
+    "RTK+Caveman 压缩省 15-95% token"
+   ],
+   "why_zh": "如果你在 Claude Code 或 Cursor 中想低成本切换多模型，可用它做统一网关与自动回退。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5848,
+   "score_llm": 6.0,
+   "score": 0.5939,
+   "date": "2026-11-02",
+   "slot": "evening",
+   "selected_at": "2026-11-02T13:20:42+00:00",
+   "mirror_pdf": "pdf/web-e80c92601a0b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/cheaper-inference/OmniRoute"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a675c9d5a201",
+   "kind": "article",
+   "title": "卡帕西用Claude两小时重做了YouTube，每个人都能拥有一个自己的互联网",
+   "url": "https://www.ifanr.com/1687094?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "AI 正在逆向一切：从软件、游戏到信息入口 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "张子豪"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-11-02T08:03:24+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1687094?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "卡帕西用Claude两小时重做YouTube",
+   "summary_zh": "卡帕西借助Claude在两小时内复刻YouTube式产品，展示AI让个人低成本拥有专属互联网服务的可能。",
+   "highlights_zh": [
+    "两小时完成YouTube式产品复刻",
+    "体现Claude在长任务编码中的能力",
+    "指向个人化软件与信息入口的重构"
+   ],
+   "why_zh": "知名技术人实操案例，直观展示Agent编码的生产力跃迁。",
+   "tags": [
+    "代码",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-02",
+   "slot": "evening",
+   "selected_at": "2026-11-02T13:20:42+00:00",
+   "mirror_pdf": "pdf/web-a675c9d5a201.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1687094?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c6f040af98d6",
+   "kind": "article",
+   "title": "90 后北大副教授董豪：启元机器人，正在勇闯具身终局",
+   "url": "https://www.leiphone.com/category/ai/1mfsMzxNwaTmqZ7e.html",
+   "pdf_url": "",
+   "abstract": "做具身，不能一上来什么都干，也不能什么都不干。 作者丨 齐铖湧 编辑丨岑 峰 董豪是具身行业里一个十足的非典型选手。 大多数人对他的印象，停在 29 岁便是北大博导的年轻学者身份，以及最近任职启元机器人首席科学家、带队攻坚家用具身智能的产业标签。但很少有人知道，他读博之前曾有过一段三年创业最终折戟的经历，住过工厂的八人间宿舍；更少有人知道，智元刚创立时，他就是最早加入、陪着初创团队闯过无数关口的核心成员之一。 当行业还在热议大模型、通用机器人的宏大叙事时，他盯着的是另一个一点都不性感的真问题：靠上万台真机做后训练，成本高到难以落地，这条路要怎么破？ 他最近给出的答案是三个关键词：HIL-UMI、Scaling Law 和量产。 而这份答案的底层逻辑，早就写进了他一路 “压缩着走” 的人生里。 硕士毕业，他婉拒了导师的直接读博的建议，回国创办公司做可穿戴设备与脑机接口，一头扎进工厂，住过八人间宿舍。三年后亲眼见证市场被大厂快速挤压，他没有恋战，转身回到帝国理工攻读博士，四年后顺利毕业，期间主导开发的开源框架，还斩获了 ACM MM 最佳开源软件奖。 毕业后，他加入北京大学入职不久就撞上疫情，对着全程不开摄像头的学生，线上讲了一整年的机器人课。2023 年智元机器人创立，他作为核心成员加入，成立北大智元联合实验室；如今他转身出任启元首席科学家，一头扎进了难度最高的 ToC 具身智能赛道。 在行业里，董豪向来朋友众多，创业经历、顶尖学术、头部产业的履历，也带着一种罕见的跨界流动感。一个完整亲历过硬科技公司从起盘到落幕全过程的人，又转身沉潜到学术浓度极高的北京大学，如今再站到产业最前沿，他会怎么看当下的具身智能行业？ 带着这个问题，我们在北大校园里见到了董豪。 以下是访谈内容，《AI 科技评论》在不改变原意的基础上做了编辑。 01 一个\"压缩着走\"的人 ▎ AI科技评论：你英本英硕四年读完，29岁北大博导。这个节奏在学术圈压缩了三五年。你自己意识到吗？ 董豪： 没刻意算过。英本英硕那个体系本来就快，四年硕士毕业是正常操作。 ▎ AI科技评论：但不到30岁入职北大不正常，你拿到教职第一年还撞上疫情。 董豪： 第一次上课是线上，学生不开摄像头，不吱声，我全程自己讲，有时候问问有没有问题，没人回。搞机器人的全线上，机器人摸不到。最惨的是突然解封能用一下，突然又封了，断断续续。很多人没熬过去，我运气还不错。 ▎ AI科技评论：只归给运气？ 董豪： 还有就是我做的事聚焦。机器人这个方向，学术和产业都关注，两头都不浪费。 ▎ AI科技评论：“两头都不浪费”，这个说法很像你。你好像天生不喜欢单维度做事。 董豪： 可能吧。比如你提到我以前做的AI框架，当时本来是实验室内部工具，放着可惜就开源了，结果用户越来越多，还拿了奖。一个工作，长出好几个东西，效率高。 02 一位90后北大副教授的创业往事 ▎ AI科技评论：2012 年硕士毕业，导师郭毅可（中国工程院外籍院士、现港科大首席副校长）劝你读博，你没听，回国创业，具体是什么情况。 董豪： 研究生跟着郭老师做科研，郭老师让直接读博，结果我决定回国创业，他支持我，还给了钱，后来 2015 年回去读博，他也没说什么，给了我很大自由，让我自己选课题。 ▎ AI科技评论：创业做可穿戴设备？ 董豪： 是的，当时势头很猛。创业的时候住工厂，条件很差，都是八人间，我待遇好一点，一个人住一个八人间，八个床，想睡哪个睡哪个。 ▎ AI科技评论：那三年应该挺苦的。 董豪 ： 苦倒不至于，就是看得见一个创业团队完整的命。可穿戴设备：便携脑机接口",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-02T10:34:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/1mfsMzxNwaTmqZ7e.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "北大副教授董豪谈具身智能终局",
+   "summary_zh": "董豪认为具身智能不能一上来什么都干，主张用 HIL-UMI 降低真机后训练成本、靠 Scaling Law 与量产破局。",
+   "highlights_zh": [
+    "提出 HIL-UMI 数据采集路线",
+    "直指万台真机后训练成本痛点",
+    "学者与产业双栖视角"
+   ],
+   "why_zh": "一线具身从业者对成本与量产路径的明确判断。",
+   "tags": [
+    "机器人",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-02",
+   "slot": "evening",
+   "selected_at": "2026-11-02T13:20:42+00:00",
+   "mirror_pdf": "pdf/web-c6f040af98d6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/1mfsMzxNwaTmqZ7e.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-32cbd7b88b5b",
+   "kind": "article",
+   "title": "AI+科研：Agent加速科研，论文写得快了，成果更难评了 ｜ 西湖大学工学院博导 王欢分享",
+   "url": "https://www.infoq.cn/article/MbwRCg4cKC2f3bwv0Cpb?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "木子"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-02T18:33:55+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/MbwRCg4cKC2f3bwv0Cpb?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "西湖大学王欢：Agent 加速科研，论文快了成果更难评",
+   "summary_zh": "西湖大学王欢认为 Agent 显著加速科研产出，但也带来成果质量难评估的新问题，科研评价体系需要相应调整。",
+   "highlights_zh": [
+    "Agent 大幅提升科研论文产出速度",
+    "成果质量与原创性评估变得更困难",
+    "呼吁科研评价机制随之演进"
+   ],
+   "why_zh": "科学 AI 落地的一线观察，揭示效率提升背后的评价难题。",
+   "tags": [
+    "科学AI",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-02",
+   "slot": "evening",
+   "selected_at": "2026-11-02T13:20:42+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/MbwRCg4cKC2f3bwv0Cpb?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-fd20a22b6779",
+   "kind": "article",
+   "title": "AI+办公：Agent都有“工位”了，云电脑既让它接手业务、也管住权限 ｜ 阿里云智能集团研发副总裁 张献涛分享",
+   "url": "https://www.infoq.cn/article/Vryq1f3C0f5uZHOlmIp4?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "木子"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-02T18:08:42+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/Vryq1f3C0f5uZHOlmIp4?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "阿里云张献涛：给 Agent 一个「工位」，云电脑管业务也管权限",
+   "summary_zh": "阿里云张献涛认为 Agent 需要独立「工位」——云电脑既让它接手真实业务，又能通过权限隔离管住风险，是 Agent 落地办公场景的基础设施思路。",
+   "highlights_zh": [
+    "以云电脑作为 Agent 运行载体",
+    "权限隔离解决 Agent 操作风险",
+    "面向办公业务自动化的落地路径"
+   ],
+   "why_zh": "头部云厂商对 Agent 基础设施形态的明确判断，值得关注落地方向。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-02",
+   "slot": "evening",
+   "selected_at": "2026-11-02T13:20:42+00:00",
+   "mirror_pdf": "pdf/web-fd20a22b6779.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/Vryq1f3C0f5uZHOlmIp4?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e3aca69705fe",
+   "kind": "article",
+   "title": "别再迷信 Agent 的自主性了",
+   "url": "https://www.infoq.cn/article/UMvAAwoFByxvWLLVVJYY?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "QCon全球软件开发大会"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-02T16:50:26+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/UMvAAwoFByxvWLLVVJYY?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "别再迷信 Agent 的自主性了",
+   "summary_zh": "文章认为企业落地不应追求 Agent 的全自主，而应通过约束、流程与人工介入来保证可控交付，自主性被高估。",
+   "highlights_zh": [
+    "全自主 Agent 在生产环境风险高、难交付",
+    "主张以流程约束替代放任自主",
+    "给出企业级 Agent 落地的务实路径"
+   ],
+   "why_zh": "对当前 Agent 热潮的反向判断，帮助从业者校准落地预期。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-02",
+   "slot": "evening",
+   "selected_at": "2026-11-02T13:20:42+00:00",
+   "mirror_pdf": "pdf/web-e3aca69705fe.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/UMvAAwoFByxvWLLVVJYY?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-549ae2cf11ce",
+   "kind": "article",
+   "title": "Marvell 宣布将以全股票交易收购 Lumentum，拓展 AI 光互连版图",
+   "url": "https://www.ithome.com/1/021/255.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 2 日消息，迈威尔科技（Marvell）与光通信设备制造商 Lumentum 今日宣布达成最终收购协议，迈威尔将通过全股票交易收购 Lumentum，交易隐含企业价值约 1,150 亿美元 （现汇率约合 7,659.98 亿元人民币） ，对应 Lumentum 每股约 1,132 美元 （现汇率约合 7,540 元人民币） ，较 2026 年 10 月 28 日两家公司股价受潜在交易传闻影响前的收盘价溢价约 23.9%。 根据协议，Lumentum 股东每持有 1 股可获得 4.5 股迈威尔普通股。交易完成后，迈威尔现有股东将持有合并后公司约 67% 的股份，Lumentum 股东持股约 33%。交易预计于 2028 年上半年完成，尚需获得双方股东及监管机构批准。 迈威尔预计，此次合并每年可实现超过 10 亿美元 （IT之家注：现汇率约合 66.61 亿元人民币） 的成本协同效应，并将在交易完成后第一年增厚非 GAAP 每股收益。合并后公司的目标市场规模预计扩大至 5,500 亿美元 （现汇率约合 3.66 万亿元人民币） 。 迈威尔与 Lumentum 计划整合双方在 AI 基础设施连接领域的技术。迈威尔拥有电气及光互连、网络交换、定制 XPU 和先进半导体技术，Lumentum 则拥有高性能激光器、光收发器、光路交换（OCS）及化合物半导体制造能力。合并后，公司将覆盖 CMOS、硅光子、化合物半导体、先进封装及制造等领域，提供从分布式数据中心到先进半导体封装内部的光互连解决方案。 Lumentum 今日还公布了 2027 财年第一财季业绩。截至 9 月 26 日，公司营收为 12.63 亿美元 （现汇率约合 84.13 亿元人民币） ，同比增长 136.5%；净利润为 3.60 亿美元 （现汇率约合 23.98 亿元人民币） ，上年同期为 420 万美元 （现汇率约合 2,797.6 万元人民币） 。非 GAAP 净利润为 4.61 亿美元 （现汇率约合 30.71 亿元人民币） ，摊薄后每股收益 4.57 美元 （现汇率约合 30.4 元人民币） 。公司预计，第二财季营收将达到 15.75 亿至 16.25 亿美元 （现汇率约合 104.91 亿至 108.24 亿元人民币） ，非 GAAP 摊薄后每股收益为 5.90 至 6.20 美元 （现汇率约合 39.3 至 41.3 元人民币） 。公司表示，泵浦激光器和光交换机（OCS）是本季度业绩增长的主要驱动力，并已获得第二笔大型 NPO / CPO 订单，相关采购承诺金额超过 50 亿美元 （现汇率约合 333.04 亿元人民币） 。 迈威尔公布了 2027 财年第三季度初步营收预期，预计营收将符合此前给出的指引中值，同时将营收预期区间收窄至上下浮动 2%，此前区间为上下浮动 5%。公司表示，最终业绩仍需完成季度结账程序及审计复核。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-02T12:16:10+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/021/255.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Marvell 千亿美元收购 Lumentum，加码 AI 光互连",
+   "summary_zh": "Marvell 以约 1150 亿美元全股票收购光通信厂商 Lumentum，整合电互连与光互连能力，瞄准 AI 数据中心与先进封装内部的光连接。",
+   "highlights_zh": [
+    "交易隐含企业价值约 1150 亿美元，溢价约 23.9%，预计 2028 上半年完成",
+    "合并覆盖 CMOS、硅光子、化合物半导体与先进封装，目标市场扩至 5500 亿美元",
+    "Lumentum 已获第二笔大型 NPO/CPO 订单，采购承诺超 50 亿美元"
+   ],
+   "why_zh": "AI 算力瓶颈正从芯片转向互连，这笔并购是光互连军备竞赛的信号。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-02",
+   "slot": "evening",
+   "selected_at": "2026-11-02T13:20:42+00:00",
+   "mirror_pdf": "pdf/web-549ae2cf11ce.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/021/255.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7789df92bce2",
+   "kind": "article",
+   "title": "黑客研发新型恶意木马 VOLTA，用 AI 分析受害者是否值得入侵",
+   "url": "https://www.ithome.com/1/021/249.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 2 日消息，据外媒 Tom's Hardware 报道，网络安全团队 Cisco Talos 发现了一款名为 VOLTA 的新型 Windows 恶意木马。该木马整合了 AI 模型，能够分析受害者的个人数据，评估其中的信息价值，并在完成相关操作后尝试自我删除，以降低被发现和追踪的风险。 据报道，VOLTA 能够收集受害者设备上的网页浏览记录、加密货币钱包、浏览器扩展程序、文本文档、聊天记录等各类敏感信息，并将相应文件上传至 Anthropic Claude 等在线 AI 产品分析生成摘要，以供黑客参考。在完成数据收集和价值评估后，VOLTA 便会尝试自行删除，以减少留下的攻击痕迹，增加安全人员调查和追踪的难度。 Cisco Talos 认为，这类恶意软件表明 AI 技术正在逐渐改变黑客行动方式，传统的大规模无差别攻击不仅容易暴露行踪，还需要投入大量时间等待潜在收益，最终回报也存在较大不确定性。相比之下，先收集数据、再利用 AI 评估目标价值的方式，有助于攻击者筛选更有利可图的目标，可能使大型机构及高管等群体面临更加精准的网络攻击风险。 不过，普通用户也不能因此掉以轻心。即使个人电脑中的文件缺乏直接的经济价值，浏览记录、消费习惯、生活轨迹及社交关系等信息仍可能被用于用户画像分析。攻击者可以借助 AI 从这些数据中挖掘个人偏好和潜在弱点，进而策划更具针对性的诈骗、社交工程攻击等恶意活动，进一步增加个人信息保护的难度。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-02T11:53:07+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/021/249.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "新型木马VOLTA借AI筛选高价值目标",
+   "summary_zh": "Cisco Talos发现Windows木马VOLTA，收集受害者敏感数据上传Claude等AI生成摘要评估价值，随后自删除以逃避追踪。",
+   "highlights_zh": [
+    "木马收集浏览记录、钱包、聊天记录等并调用在线AI分析",
+    "完成价值评估后自我删除，增加溯源难度",
+    "安全团队认为AI正推动攻击从无差别转向精准筛选"
+   ],
+   "why_zh": "展示AI被武器化的真实案例，安全与AI从业者需关注的新攻击范式。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-02",
+   "slot": "evening",
+   "selected_at": "2026-11-02T13:20:42+00:00",
+   "mirror_pdf": "pdf/web-7789df92bce2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/021/249.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a7e11bfba6b1",
+   "kind": "article",
+   "title": "HackerTube",
+   "url": "https://karpathy.bearblog.dev/hacker-tube/",
+   "pdf_url": "",
+   "abstract": "Instead of YouTube, watch HackerTube!",
+   "authors": [
+    "Andrej Karpathy"
+   ],
+   "orgs": [
+    "Andrej Karpathy"
+   ],
+   "published": "2026-10-31T17:00:00+00:00",
+   "sources": [
+    {
+     "name": "Andrej Karpathy",
+     "authority": 0.95,
+     "url": "https://karpathy.bearblog.dev/hacker-tube/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "前 OpenAI / 特斯拉 AI 负责人",
+   "title_zh": "Karpathy 调侃：不如看 HackerTube",
+   "summary_zh": "Karpathy 以一句玩笑推荐用 HackerTube 替代 YouTube，未展开实质判断。",
+   "highlights_zh": [
+    "Karpathy 个人观点",
+    "内容极短",
+    "信息增量有限"
+   ],
+   "why_zh": "仅具话题性，缺乏可提炼的行业判断，优先级低。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 5.0,
+   "score": 0.552,
+   "date": "2026-11-02",
+   "slot": "evening",
+   "selected_at": "2026-11-02T13:20:42+00:00",
+   "mirror_pdf": "pdf/web-a7e11bfba6b1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://karpathy.bearblog.dev/hacker-tube/"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "AI 视频生成进入「少步数、音画一体」的工程化拐点",
-   "why": "Pika 用蒸馏把 50 步压到 6 步并联合生成音视频，开源适配器降低复现门槛。",
-   "refs": [
-    "web-6d03b012d356"
-   ]
-  },
-  {
-   "trend": "模型评测从刷榜转向经济价值口径",
-   "why": "GDPx 覆盖芯片、法律、量化等十余高价值领域，用产出价值而非分数衡量能力。",
+   "trend": "评测口径从刷榜转向经济价值，GDPx等新基准重塑模型竞争标准",
+   "why": "SemiAnalysis推出覆盖芯片、法律、量化等十余高价值领域的GDPx，用经济价值而非题海衡量前沿模型。",
    "refs": [
     "web-7f6f2bc0a104"
    ]
   },
   {
-   "trend": "训练数据获取规则收紧，内容方获得统一退出通道",
-   "why": "四大 AI 公司共推 robots.txt 一次性声明标准，Anthropic 已率先落地。",
+   "trend": "Scaling Law遭正面挑战，世界模型路线开始分流大模型叙事",
+   "why": "LeCun团队1.09亿参数模型在物理世界理解上胜过720亿参数，直接质疑越大越懂世界。",
    "refs": [
-    "web-f5e9142b72f9",
-    "web-cdf0dee547cb"
+    "web-b3ab6aa12f5c",
+    "web-93a19b1bb027"
    ]
   },
   {
-   "trend": "智能体瓶颈从算力转向生态与协作机制",
-   "why": "Minecraft 多智能体陷内耗、Agent 受生态围墙制约，协作与接入成为真问题。",
+   "trend": "Agent瓶颈从算力转向生态围墙与协作可靠性",
+   "why": "Minecraft多智能体建文明陷入内耗，业内指出移动互联网商业围墙才是规模化真正障碍。",
    "refs": [
     "web-e17eb6c5fcac",
     "web-31af731e3652"
    ]
   },
   {
-   "trend": "AI 投入回报质疑升温，推理服务转向 Token 效率竞争",
-   "why": "经济学家指多数企业无财务回报，新云竞争标准已从算力规模转向 Token 服务效率。",
+   "trend": "AI训练数据获取规则收紧，内容方获得一次性退出权",
+   "why": "OpenAI、谷歌、微软、Anthropic共推robots.txt统一退出标准，Anthropic已率先落地。",
    "refs": [
-    "web-b23877b88e69",
+    "web-f5e9142b72f9",
+    "web-cdf0dee547cb"
+   ]
+  },
+  {
+   "trend": "推理成本与定价战白热化，云厂商从卖算力转向卖Token服务",
+   "why": "百度搜索API压至千次4.9元，NeoCloud竞争标准转向TCO与Token服务效率。",
+   "refs": [
+    "web-aaf03dfca09d",
     "web-146893900afe"
    ]
   }
