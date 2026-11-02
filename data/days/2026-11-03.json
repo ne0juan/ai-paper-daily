@@ -1,0 +1,1016 @@
+{
+ "date": "2026-11-03",
+ "items": [
+  {
+   "id": "web-e5f6124c6872",
+   "kind": "article",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "url": "https://jack-clark.net/2026/11/02/import-ai-479-spacewar-low-latency-tasks-versus-llms-genie-4/",
+   "pdf_url": "",
+   "abstract": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now LLMs are very bad at low-latency tasks:…Realtime-Bench says it’ll be a while till AI systems can play games or do online auctions for you…Researchers have built […]",
+   "authors": [
+    "Jack Clark"
+   ],
+   "orgs": [
+    "Jack Clark"
+   ],
+   "published": "2026-11-02T14:30:54+00:00",
+   "sources": [
+    {
+     "name": "Jack Clark",
+     "authority": 0.85,
+     "url": "https://jack-clark.net/2026/11/02/import-ai-479-spacewar-low-latency-tasks-versus-llms-genie-4/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Anthropic 联合创始人",
+   "title_zh": "Import AI 479：LLM 不擅长低延迟任务，Genie 4 登场",
+   "summary_zh": "Jack Clark 认为 LLM 在低延迟实时任务上表现很差，Realtime-Bench 显示 AI 短期内难以代玩在线游戏或参与实时拍卖，同时提到 Genie 4 等新进展。",
+   "highlights_zh": [
+    "LLM 在低延迟实时任务上存在结构性短板",
+    "Realtime-Bench 用于评测实时交互能力",
+    "提及 Genie 4 等研究进展"
+   ],
+   "why_zh": "Anthropic 联合创始人对 LLM 能力边界的明确判断，值得关注。",
+   "tags": [
+    "大模型",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.716,
+   "date": "2026-11-03",
+   "slot": "morning",
+   "selected_at": "2026-11-02T20:43:01+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://jack-clark.net/2026/11/02/import-ai-479-spacewar-low-latency-tasks-versus-llms-genie-4/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-fb9ff410aee0",
+   "kind": "article",
+   "title": "Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1",
+   "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-02T14:38:45Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50337439",
+     "signal": "212 pts",
+     "metric": 212
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Anthropic 三季度营收 170 亿美元，S-1 承诺额 8950 亿",
+   "summary_zh": "Anthropic 披露 Q3 营收 170 亿美元，修订版 S-1 中承诺额达 8950 亿美元，规模远超市场预期。",
+   "highlights_zh": [
+    "Q3 营收 170 亿美元",
+    "S-1 承诺额 8950 亿美元",
+    "IPO 进程关键数据"
+   ],
+   "why_zh": "头部大模型公司财务与上市进展，直接影响行业估值与竞争格局。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5714,
+   "score_llm": 8.0,
+   "score": 0.7086,
+   "date": "2026-11-03",
+   "slot": "morning",
+   "selected_at": "2026-11-02T20:43:01+00:00",
+   "mirror_pdf": "pdf/web-fb9ff410aee0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50337439"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ccd0970014b5",
+   "kind": "article",
+   "title": "The Four Questions of AI",
+   "url": "https://tomtunguz.com/the-four-questions-of-ai/",
+   "pdf_url": "",
+   "abstract": "AI consists of four layers: application, harness & context, model, & data center. Each layer faces an unresolved economic question, & the four layers interplay directly: rising GPU financing costs increase the value of the harness, while model & inference co-design multiplies how many users the same data center hardware can serve.",
+   "authors": [
+    "Tomasz Tunguz"
+   ],
+   "orgs": [
+    "Tomasz Tunguz"
+   ],
+   "published": "2026-11-02T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Tomasz Tunguz",
+     "authority": 0.75,
+     "url": "https://tomtunguz.com/the-four-questions-of-ai/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Theory Ventures 创始人，AI 投资",
+   "title_zh": "AI 的四个问题：应用、脚手架、模型与数据中心",
+   "summary_zh": "Tomasz Tunguz 认为 AI 分为应用、harness 与上下文、模型、数据中心四层，每层都有未解决的经济问题，且相互影响：GPU 融资成本上升会提升 harness 价值，模型与推理协同设计则放大单机可服务用户数。",
+   "highlights_zh": [
+    "AI 四层结构各有未解的经济问题",
+    "GPU 融资成本上升反而提升 harness 价值",
+    "模型与推理协同设计放大硬件服务能力"
+   ],
+   "why_zh": "从经济结构视角拆解 AI 产业链，适合把握市场方向。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-11-03",
+   "slot": "morning",
+   "selected_at": "2026-11-02T20:43:01+00:00",
+   "mirror_pdf": "pdf/web-ccd0970014b5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://tomtunguz.com/the-four-questions-of-ai/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8656d92473f1",
+   "kind": "article",
+   "title": "Anthropic 第三季度营收 170 亿美元同比暴涨 11 倍，冲刺史上最大 IPO",
+   "url": "https://www.ithome.com/1/021/277.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 2 日消息，Anthropic PBC 披露，截至 9 月 30 日的第三季度营收接近 170 亿美元 （IT之家注：现汇率约合 1,132.35 亿元人民币） ，同比暴涨 11 倍，市场对这家 AI 实验室有望创下纪录的 IPO 预期进一步升温。 这家 Claude 大模型背后的公司当地时间周一向美国证券交易委员会（SEC）提交文件显示：截至 9 月末的三个月，净亏损 233 亿美元 （现汇率约合 1,551.98 亿元人民币） ；去年同期净亏损为 121 亿美元 （现汇率约合 805.96 亿元人民币） 。本季度运营费用飙升至 175 亿美元 （现汇率约合 1,165.65 亿元人民币） ，同比增幅 292%。 文件显示，公司已敲定总额 8,950 亿美元 （现汇率约合 5.96 万亿元人民币） 的承诺支出，绝大部分用于算力与基础设施建设。其中约 4,480 亿美元 （现汇率约合 2.98 万亿元人民币） 预计在 2030 年底前支付，约 700 亿美元 （现汇率约合 4,662.6 亿元人民币） 需要在截至 2027 年 9 月的一年内兑付。 Anthropic 已于 10 月 26 日递交 IPO 申请，计划在美国感恩节之前完成上市。知情人士透露，Anthropic 目标募资规模力争达到甚至超过 SpaceX 此前 862 亿美元 （现汇率约合 5,741.66 亿元人民币） 的 IPO 募资额。 彭博社报道，参与这笔交易的投行收到投资者反馈：大家认可的合理估值区间已经下调至 1.4 万亿–1.5 万亿美元 （现汇率约合 9.33 万亿– 9.99 万亿元人民币） ，但也有机会摸到 1.75 万亿美元 （现汇率约合 11.66 万亿元人民币） 附近。 AI 模型研发和配套基础设施耗资巨大，各大企业因此动辄启动数百亿美元级别的融资。近几日科技股承压，市场对盈利预期的担忧，资金从 AI 板块流出。 就在 Anthropic 公开招股的同一天（10 月 26 日），Meta 启动最高 980 亿美元 （现汇率约合 6,527.64 亿元人民币） 的股权融资计划，有望成为史上规模最大的股权融资之一；而在此之前，谷歌母公司 Alphabet 今年已经推出 850 亿美元 （现汇率约合 5,661.73 亿元人民币） 股权融资方案。 甲骨文周一公布了 200 亿美元 （现汇率约合 1,332.17 亿元人民币） 融资计划，其中包含一笔 100 亿美元 （现汇率约合 666.09 亿元人民币） 股票增发；今年早些时候其已经通过债权、股权，包括 20 亿美元 （现汇率约合 133.22 亿元人民币） 场内增发完成一轮募资。 Anthropic 本次 IPO 由公司自身与部分老股东出售股份，该公司也将是美国首家主打前沿大模型研发的上市公司。其竞争对手 OpenAI 则把上市计划推迟至明年，目前正在新一轮私募融资中谋求数百亿美元资金。 两家公司冲刺巨额融资的同时，公众对 AI 安全的审视持续加码：接连发生多起智能体恶意入侵事件，市场激烈争论 AI 是否如 Anthropic 在招股书中写的那样，会带来“威胁人类生存的风险”。 招股文件显示，本次 IPO 由高盛、摩根士丹利联席牵头承销，另有 20 家投行参与。股票将在纳斯达克全球精选市场挂牌，代码 ANT。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-02T15:02:09+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/021/277.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic 三季度营收 170 亿美元，冲刺史上最大 IPO",
+   "summary_zh": "Anthropic 三季度营收近 170 亿美元同比增 11 倍，净亏 233 亿美元，已递交 IPO 申请，目标募资超 SpaceX 纪录，估值区间 1.4 万亿至 1.75 万亿美元。",
+   "highlights_zh": [
+    "营收同比暴涨 11 倍，但运营费用同比增 292%，净亏损扩大至 233 亿美元",
+    "已敲定 8950 亿美元算力与基础设施承诺支出，4480 亿美元在 2030 年底前支付",
+    "将成为美国首家主打前沿大模型研发的上市公司，OpenAI 上市推迟至明年"
+   ],
+   "why_zh": "头部大模型公司首次公开财务全貌，是判断 AI 商业化与资本周期最关键的一份数据。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 9.0,
+   "score": 0.676,
+   "date": "2026-11-03",
+   "slot": "morning",
+   "selected_at": "2026-11-02T20:43:01+00:00",
+   "mirror_pdf": "pdf/web-8656d92473f1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/021/277.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-38c41eb0ed98",
+   "kind": "article",
+   "title": "Astra can read and write weights to improve Qwen",
+   "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-02T18:21:28Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50341174",
+     "signal": "861 pts",
+     "metric": 861
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Astra 可直接读写模型权重来改进 Qwen",
+   "summary_zh": "Astra 提出直接读写模型权重的方式改进 Qwen，绕过传统微调流程，在 Hacker News 引发热议。",
+   "highlights_zh": [
+    "直接操作权重而非梯度微调",
+    "针对 Qwen 模型做改进",
+    "HN 861 分，社区关注度高"
+   ],
+   "why_zh": "若属实，是模型改进范式的潜在变化，值得关注其方法与可复现性。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.62,
+   "score_llm": 7.0,
+   "score": 0.668,
+   "date": "2026-11-03",
+   "slot": "morning",
+   "selected_at": "2026-11-02T20:43:01+00:00",
+   "mirror_pdf": "pdf/web-38c41eb0ed98.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://rikiyat.github.io/blog/weight-space-programming/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50341174"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-efcf00e7bea3",
+   "kind": "article",
+   "title": "The U.S. Census Bureau and “Super Intelligence”",
+   "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+   "pdf_url": "",
+   "abstract": "I was reminded today of AI Adoption Rate Trending Down for Large Companies , a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adoption based on numbers collected by the U.S. Census Bureau. At the time I used that chart to demonstrate GPT-5 data analysis , and then to experiment with Claude's new Code Interpreter . I decided to try running those numbers again to see what had changed over the past year, and in doing so learned that the Bureau has fallen foul of Executive Order 14434 , aka the asinine Super Intelligence one. First, the updated chart Every two weeks the U.S. Census Bureau runs a survey called the Business Trends and Outlook Survey (aka BTOS). Each time it goes to 200,000 businesses out of 1.2 million total - the surveyed group (a \"panel\") cycles such that an individual business only completes the survey every twelve weeks. The latest data is published on alternating Thursdays at 10am. I used the most recent numbers (published October 22, 2026) to create a new version ( GPT-6 Astra Extra High transcript ) of the AI adoption chart, updated to reflect both the last twelve months and a change that was made to the survey question sent out by the Bureau: For comparison, here's that AI adoption chart from last year (my GPT-5 version): In September 2025 the largest (250+ employees) companies answered \"yes\" around 12% of the time to the question about whether they used AI in \"producing goods or services",
+   "authors": [
+    "Simon Willison"
+   ],
+   "orgs": [
+    "Simon Willison"
+   ],
+   "published": "2026-11-02T13:31:26+00:00",
+   "sources": [
+    {
+     "name": "Simon Willison",
+     "authority": 0.8,
+     "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Django 联合创始人，LLM 实践者",
+   "title_zh": "美国人口普查局与“超级智能”行政令",
+   "summary_zh": "Simon Willison 用最新 BTOS 数据重绘企业 AI 采用率图表，发现普查局因“超级智能”行政令调整了调查问题，导致前后数据可比性受影响。",
+   "highlights_zh": [
+    "用最新数据重绘企业 AI 采用率图表",
+    "普查局受行政令影响修改了调查问题",
+    "提醒 AI 采用率数据存在口径变化"
+   ],
+   "why_zh": "揭示企业 AI 采用率数据口径变化，引用数据时需注意。",
+   "tags": [
+    "数据与评测",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.648,
+   "date": "2026-11-03",
+   "slot": "morning",
+   "selected_at": "2026-11-02T20:43:01+00:00",
+   "mirror_pdf": "pdf/web-efcf00e7bea3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ed4b58253682",
+   "kind": "article",
+   "title": "LifeVal",
+   "url": "https://openai.com/index/lifeval",
+   "pdf_url": "",
+   "abstract": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-11-02T09:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/lifeval",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI发布LifeVal日常任务评测基准",
+   "summary_zh": "OpenAI推出LifeVal基准，衡量AI在找托儿、理财、办政府手续等日常事务上帮助人的实际效果。",
+   "highlights_zh": [
+    "评测聚焦真实生活任务而非学术题",
+    "覆盖托儿、财务、政务文书等场景",
+    "为AI实用价值提供新衡量维度"
+   ],
+   "why_zh": "评测从刷榜转向真实生活效用，值得关注AI落地价值的从业者一读。",
+   "tags": [
+    "数据与评测",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 7.0,
+   "score": 0.636,
+   "date": "2026-11-03",
+   "slot": "morning",
+   "selected_at": "2026-11-02T20:43:01+00:00",
+   "mirror_pdf": "pdf/web-ed4b58253682.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/lifeval"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b2d81116a477",
+   "kind": "article",
+   "title": "美团发布LongCat-2.5大模型，“国芯国模”实现新突破",
+   "url": "https://www.leiphone.com/category/industrynews/mUPVr3RF0MHNmn3t.html",
+   "pdf_url": "",
+   "abstract": "11月2日，美团发布新一代大模型LongCat-2.5，这是一款面向长程智能体任务的原生多模态模型，总参数1.6万亿。LongCat-2.5延续了此前LongCat系列模型的研发方向，全程在国产算力上训练，是目前国产算力上完成的最大训练任务。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-02T07:23:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/mUPVr3RF0MHNmn3t.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "美团发布1.6万亿参数LongCat-2.5，全程国产算力训练",
+   "summary_zh": "美团发布面向长程智能体任务的原生多模态大模型LongCat-2.5，总参数1.6万亿，全程在国产算力上训练，是目前国产算力完成的最大训练任务。",
+   "highlights_zh": [
+    "总参数1.6万亿，定位长程智能体任务",
+    "原生多模态架构，非拼接式改造",
+    "全程国产算力训练，规模创国内纪录"
+   ],
+   "why_zh": "国产算力训练万亿级模型的标志性进展，值得关注国芯国模路线。",
+   "tags": [
+    "大模型",
+    "多模态",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-03",
+   "slot": "morning",
+   "selected_at": "2026-11-02T20:43:01+00:00",
+   "mirror_pdf": "pdf/web-b2d81116a477.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/mUPVr3RF0MHNmn3t.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-891f3f2ffcf3",
+   "kind": "article",
+   "title": "阿里云发布AI投研工作台Qovest，给专业投资者配一个“AI研究员”",
+   "url": "https://www.leiphone.com/category/industrynews/MFtJXmU8YNMGMig6.html",
+   "pdf_url": "",
+   "abstract": "11月2日，阿里云正式发布面向专业机构投资者的AI投研工作台Qovest。用户用一句话提出研究需求，Qovest就会自动查数据、收集资料、深度分析、生成报告，并按设定的频率持续跟踪研究对象。与一次性问答不同，Qovest可以把每次的研究结果沉淀到投研空间，让一项研究能接着往下做，不必每次从零开始。近期，Qovest将推出企业版，服务金融机构及企业的投研团队。 专业投资者对Agent的要求，远比日常聊天要高：数据要实时和准确，输出结果要有明确出处，研究结论必须专业可靠。为此，Qovest团队采购权威金融数据库、将其部署在阿里云上，自研面向金融场景的Agent工程框架（Harness），打通从数据调用到分析输出的完整流程，让交付结果更加准确和专业。在开源金融评测集FinFirst与IRAB的内部横向评测中，Qovest的回答质量、响应速度、成本都领先于参与评测的主流产品。 “我们希望把投研过程中耗时较多、重复性较强的工作交给AI，把时间还给真正需要专业判断的地方。” Qovest产品负责人表示。 Qovest首页提供了多个投研案例范本，用户可以自选标的作为研究对象，设置定时任务，接入自己的操盘笔记，获得可视化的深度研究结果。比如，用户可以让Qovest拆解人形机器人产业链中各环节的单机价值与国产化水平，得到一份可交互的产业链图谱；也可以让Qovest测算数据中心电力设施的投资规模，只要调整任何一个前提假设，Qovest就会自动重新计算。 深度研究之外，Qovest还能让研究持续跟着市场跑。有基金经理在Qovest里为某个“黄金ETF”建立了一项跟踪研究：圈定国际金价、美元指数、全球ETF持仓、央行购金等变量后，Qovest每周自动更新数据，拆解当周金价涨跌中汇率因素与加息预期各自的占比，生成一份动态跟踪看板。此后每次打开这只ETF的研究页面，Qovest都能接着继续分析。 这种“不用每次从零开始”的体验，来自Qovest的“投研空间”。它与Qovest对话打通，能把研究成果、个人操盘笔记和待验证问题自动归档，让研究可追溯、可对比。未来在企业版中，“投研空间”会成为组织内成员协作、信息共享的研究调度中心。 目前Qovest官网已经对个人用户开放邀测，新用户注册后即获相应积分可免费试用，后续可选择每月99元或199元的订阅套餐，各套餐包含相应使用额度。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-02T07:09:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/MFtJXmU8YNMGMig6.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "阿里云发布AI投研工作台Qovest",
+   "summary_zh": "阿里云推出面向机构投资者的AI投研工作台Qovest，一句话即可自动查数据、分析并生成报告，支持定时跟踪与研究成果沉淀，个人版已开放邀测。",
+   "highlights_zh": [
+    "自研金融场景Agent工程框架，打通数据到分析全流程",
+    "投研空间支持研究可追溯、可续接，不必每次从零开始",
+    "内部评测在FinFirst与IRAB上质量、速度、成本领先"
+   ],
+   "why_zh": "垂直行业Agent落地的典型样本，看金融场景如何做工程化harness。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-03",
+   "slot": "morning",
+   "selected_at": "2026-11-02T20:43:01+00:00",
+   "mirror_pdf": "pdf/web-891f3f2ffcf3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/MFtJXmU8YNMGMig6.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cffc66cd4653",
+   "kind": "article",
+   "title": "Agent在金融机构走出「试用期」后，价值账怎么算？",
+   "url": "https://www.leiphone.com/category/fintech/y2eDRanVtlSZl8w6.html",
+   "pdf_url": "",
+   "abstract": "“去年我讲的内容有一半是云，今年基本上已经没有了，都在讲AI。” 10月28日，雷峰网在腾讯全球数字生态大会的一场金融行业群访中了解到，腾讯云副总裁胡利明用“天翻地覆”形容金融团队近一年的变化。销售团队去金融客户现场聊什么，往往最直接地反映客户正在关心什么：过去是云和基础设施，如今几乎全部转向了AI。 更明显的变化发生在近半年。随着Agent从回答问题走向执行任务，金融机构对它的态度也从小范围试用转向扩大采购。坐席数量和Token消耗快速增长，Agent开始进入更多员工的日常工作。 但规模扩大之后，新的问题也随之出现：Agent究竟创造了多少价值？大量Token花在了哪里？它又该如何从个人工具进入真正的业务流程？ 从扩大采购到开始计算投入产出，近半年，金融机构使用Agent已经进入了一个新的阶段。 金融机构开始扩大采购Agent 金融机构态度的变化，首先来自Agent能力的变化。 胡利明回忆，去年及更早的企业Agent，主要形态还是Chatbot叠加固定工作流。它可以回答问题，也能按照预设步骤完成一些简单任务；一旦任务变得复杂，固定工作流就很难应对。 今年，随着基础模型的长程任务和自主规划能力提升，Agent开始从“回答问题”转向“具体干活”。它不再只生成一段文字，而是能够拆解任务、调用工具，连续处理更复杂的工作。 能力变化很快传导到了采购侧。 腾讯云WorkBuddy于今年3月发布，企业版于6月上线。胡利明称，目前WorkBuddy已经进入约250家金融机构，头部金融机构基本从小范围试用转向扩大采购。 中金公司的经历提供了一个更具体的样本。 上半年，中金公司开始陆续接触和试用了多款桌面智能体。推广初期，为了调动员工的积极性，中金还在内部举办了一场AI创新大赛，鼓励员工根据自己的业务需求开发智能体应用。 中金信息技术部负责人谢碧松观察到，员工接受Agent的速度，比公司原先预想得更快。在多款产品中，WorkBuddy上线两三个月后，逐渐成为员工使用较多的一款。员工不再只是偶尔向大模型提问，而是开始把它当作一个日常工作入口，让Agent调用知识、处理文件，甚至协助完成一段相对完整的任务。 目前，中金每天消耗的Token已经达到70亿至100亿，预计明年可能达到200亿。Agent在中金的角色，也开始从少数创新团队的试验工具，转向大规模员工使用的生产力工具。 用起来之后，如何算清这笔账 Agent走进金融机构，并不意味着金融机构已经完成了AI化。 当坐席数量和Token消耗快速增长，一些在试用阶段并不明显的问题开始浮出水面。谢碧松讲起，公司也在开始关注：每天消耗这么多Token，员工的提质增效达到什么程度？有没有浪费？浪费发生在哪里？ 这几个问题，是金融机构使用Agent进入新阶段的一个缩影。Agent正在走出试用期，金融机构也开始认真审视这笔投入。 面对公司关于提质增效的追问，谢碧松坦言，现阶段很难把AI的投入与产出精确对应起来。如果只看短期财务回报，这笔账很可能算不过来。但在他看来，AI目前仍属于战略投入，不能只用眼前节省了多少人力、降低了多少成本来衡量。 真正需要关注的是，员工有没有因此形成新的工作方式，以及Agent能否逐渐进入公司的核心业务流程。中金正在调整衡量AI价值的方法。Token消耗依然重要，但它不再只是一个越高越好的推广指标。公司开始关注Token被谁使用、用在什么场景、产生了什么结果，以及其中是否存在无效调用和资源浪费。 这也是Agent从推广阶段进入运营阶段的标志。不过，要让Agent真正成为金融机构的生产力工具，仅靠员工自发",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-02T05:59:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/fintech/y2eDRanVtlSZl8w6.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Agent在金融机构走出试用期，价值账怎么算",
+   "summary_zh": "腾讯云WorkBuddy已进入约250家金融机构，中金日均Token消耗达70-100亿。机构从扩大采购转向追问投入产出，但现阶段难以精确对应AI投入与产出。",
+   "highlights_zh": [
+    "腾讯云副总裁胡利明称金融客户关注点已从云全面转向AI，Agent从回答问题转向执行任务",
+    "中金日均Token消耗70-100亿，预计明年达200亿，Agent从试验工具变为大规模生产力工具",
+    "金融机构开始审视Token浪费与提质增效，但坦言短期财务回报算不过来，AI仍属战略投入"
+   ],
+   "why_zh": "一线金融机构Agent落地的真实数据与ROI困境，对做企业AI落地的人有参考价值。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-03",
+   "slot": "morning",
+   "selected_at": "2026-11-02T20:43:01+00:00",
+   "mirror_pdf": "pdf/web-cffc66cd4653.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/fintech/y2eDRanVtlSZl8w6.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1b988c1ec98b",
+   "kind": "article",
+   "title": "马斯克回应 Grok Bot 额度消耗过快：服务成本高到难以为继",
+   "url": "https://www.ithome.com/1/021/271.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 2 日消息，埃隆 · 马斯克称，AI 富足时代终将到来，但眼下，Grok Bot 还做不到不限量使用。 这位 SpaceX 首席执行官当地时间上周日在 X 平台发文称：有用户反馈每周额度消耗速度远超往常，对此他表示，该 AI 智能体的服务成本“相对于收入而言高到难以为继”。 Grok Bot 是 SpaceX 在 8 月推出的 AI 智能体，其依托虚拟计算机替人完成购物等各类任务。该产品分多个档位，从免费版到每月 200 美元 （IT之家注：现汇率约合 1,332 元人民币） 套餐不等。 所有档位都设有每周重置的使用限额。SpaceX 以及 Meta 的 Muse 等其他 AI 智能体都采用这种方式，避免用户产生巨额算力账单。 周末大量 Grok Bot 用户在 X 发帖，表示额度比预期更快耗尽，这件事也引来了马斯克出面回应。 他回复一名用户：“升级更高额度套餐的涨价幅度太高了吗？”在另一条回复里他提到，下调额度并告知用户，“只是理性做法”。 SpaceX 在上月财报中披露，Grok Bot 付费周活用户已经达到 80 万。马斯克当时对投资者说，这款 AI 智能体是“我这辈子见过增长速度最快的产品”。 他还补充：“我认为 Grok Bot 最终可能会吃掉我们绝大多数超级智能算力。” SpaceX 近期宣布，会把 Grok Bot 打包进一款定价每月 8 美元 （现汇率约合 53.3 元人民币） 的全新 X 订阅包，套餐同时包含 X 高级会员以及今年收购的 AI 编程工具 Cursor。马斯克 10 月曾透露，Grok Bot 不止调用 Grok 模型，还将可以接入 Claude Opus 5.5、MidJourney、Suno。 AI 智能体已经成为科技行业最热的新赛道，但商业模式如何盈利依旧充满疑问。 Meta 的 Muse 大受欢迎，用户量突破千万，但官方并未公布其运行成本。不过扎克伯格上月向投资者坦言，这款智能体“算力消耗极大”，目前尚未盈利。 马斯克坦言 Grok Bot 正在烧钱，这也引来部分 X 用户调侃 —— 他前不久还说，AI 富足时代很快来临，省钱这件事本身“没有意义”。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-02T13:38:33+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/021/271.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "马斯克承认 Grok Bot 成本难以为继，智能体商业模式承压",
+   "summary_zh": "Grok Bot 付费周活近 80 万，但马斯克称其服务成本相对收入高到难以为继，已下调额度限流；Meta 的 Muse 同样算力消耗极大且未盈利。",
+   "highlights_zh": [
+    "智能体在虚拟机上自主执行任务，算力消耗远高于普通对话机器人",
+    "Grok Bot 将打包进每月 8 美元的 X 订阅包，并接入 Claude、MidJourney 等外部模型",
+    "Meta 的 Muse 用户破千万但扎克伯格承认算力消耗极大、尚未盈利"
+   ],
+   "why_zh": "智能体赛道最热，但头部产品集体暴露单位经济模型难题，值得关注其定价与限流走向。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-03",
+   "slot": "morning",
+   "selected_at": "2026-11-02T20:43:01+00:00",
+   "mirror_pdf": "pdf/web-1b988c1ec98b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/021/271.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b6fd0b882821",
+   "kind": "article",
+   "title": "modelflare-ai/AnyModelBot",
+   "url": "https://github.com/modelflare-ai/AnyModelBot",
+   "pdf_url": "",
+   "abstract": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
+   "authors": [],
+   "orgs": [
+    "modelflare-ai"
+   ],
+   "published": "2026-11-02T20:43:01+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/modelflare-ai/AnyModelBot",
+     "signal": "★ 1,325（新项目） · TypeScript",
+     "metric": 1325
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AnyModelBot：本地优先的多模型 AI 机器人",
+   "summary_zh": "开源本地优先的 AI 机器人，一个 key 接入 70+ 模型，可在微信/飞书使用并后台执行任务。",
+   "highlights_zh": [
+    "一个 key 接入 70+ 模型",
+    "支持微信、飞书等渠道",
+    "可后台运行命令、操作电脑"
+   ],
+   "why_zh": "如果你要自建多模型助手并接入微信/飞书，可用它快速搭起来。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5932,
+   "score_llm": 5.0,
+   "score": 0.5373,
+   "date": "2026-11-03",
+   "slot": "morning",
+   "selected_at": "2026-11-02T20:43:01+00:00",
+   "mirror_pdf": "pdf/web-b6fd0b882821.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/modelflare-ai/AnyModelBot"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7467194f96f4",
+   "kind": "article",
+   "title": "OpenAI重写大模型法则，第一条：忠于人类！！",
+   "url": "https://www.qbitai.com/2026/11/507225.html",
+   "pdf_url": "",
+   "abstract": "新版“机器人三定律”。",
+   "authors": [
+    "程浅"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-02T07:27:54+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/507225.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI重写大模型法则：忠于人类",
+   "summary_zh": "量子位解读OpenAI新版模型行为准则，被比作新版机器人三定律，强调模型对人类忠诚。",
+   "highlights_zh": [
+    "新版模型行为规范",
+    "强调忠于人类原则",
+    "对齐与安全议题"
+   ],
+   "why_zh": "涉及头部公司对齐原则的解读，可了解模型行为规范走向。",
+   "tags": [
+    "对齐与安全",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-11-03",
+   "slot": "morning",
+   "selected_at": "2026-11-02T20:43:01+00:00",
+   "mirror_pdf": "pdf/web-7467194f96f4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/507225.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d4458417ce4c",
+   "kind": "article",
+   "title": "caru-ini/stack-diagram",
+   "url": "https://github.com/caru-ini/stack-diagram",
+   "pdf_url": "",
+   "abstract": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
+   "authors": [],
+   "orgs": [
+    "caru-ini"
+   ],
+   "published": "2026-11-02T20:43:01+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/caru-ini/stack-diagram",
+     "signal": "★ 1,084（新项目） · TypeScript",
+     "metric": 1084
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "一句话生成带官方 logo 的架构图技能",
+   "summary_zh": "Agent skill：用一句话描述技术栈，即可生成带官方 logo 的架构图。",
+   "highlights_zh": [
+    "一句话描述技术栈即可出图",
+    "自动使用官方 logo",
+    "TypeScript 实现"
+   ],
+   "why_zh": "如果你在写技术文档或方案，可用它一句话生成架构图省去手绘。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5862,
+   "score_llm": 5.0,
+   "score": 0.5345,
+   "date": "2026-11-03",
+   "slot": "morning",
+   "selected_at": "2026-11-02T20:43:01+00:00",
+   "mirror_pdf": "pdf/web-d4458417ce4c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/caru-ini/stack-diagram"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-24a061501bdf",
+   "kind": "article",
+   "title": "产业资本继续押注具身：斯坦福双子星创办的黑马公司 RoboScience 机器科学，宣布完成 A2 轮融资",
+   "url": "https://www.leiphone.com/category/ai/GqrJT2vlPFBxElDY.html",
+   "pdf_url": "",
+   "abstract": "具身智能的资本筛选标准，正在从\"讲得动人\"转向\"兑现得动\"。 作者丨 齐铖湧 编辑丨岑 峰 AI 科技评论获悉，11 月 2 日，RoboScience 机器科学完成 A2 轮融资。 据悉，本轮由琥珀资本、鸿瑞达投资、上海半导体产投 联合领投，360 战投、爽资本、国联民生资本、金鼎资本及多家上市公司平台跟投，融资金额达到了数亿 元。 这意味着，这家 2025 年 3 月才正式开始运营的具身公司， 先后已完成五轮融资。 据 AI 科技评论了解，近期具身行业融资市场并不乐观。过去一年，这个赛道的融资叙事换了好几轮：最早讲世界模型就能拿到钱；后来光讲技术不够了，得讲落地，讲进工厂的 ROI ；再后来，得有\"具身 RSI \"（递归自我改进）的想象空间。 故事通胀的背后，是大多数团队的底子撑不起叙事的升级，每次风口转向，就得重新攒一套说辞。资本也随之变得挑剔，同样的 BP，去年能融到，今年连会都约不上。（雷峰网） 但 RoboScience 机器科学的节奏完全不同，逆势不断受到资本青睐，也因此成为具身领域里一个值得研究的样本公司。 回看机器科学过去五轮融资的时间点，几乎每一轮前后，都有可验证的产品技术落地：ICRA 最佳论文、仿真平台 RoboMirage、通用具身大模型 Visics、与腾讯云共创的云端具身智能服务 EaaS、首款轮式仿人形通用机器人 REX G1 以及真实的项目落地。 某种意义上，这意味着，具身市场的融资，不该是技术跟着融资的故事走，反过来，融资应该跟着技术的兑现走。 在 AI 科技评论看来，这是本轮融资最值得关注的信号： 具身智能的资本筛选标准，正在从\"讲得动人\"转向\"兑现得动\"。 一家公司的融资节奏如果能与技术节奏对齐，说明它手里握着可以持续拿出来的东西。在 AI 科技评论看来，这跟创始人团队有着分不开的关系。 01 斯坦福双子星， 如何撑起一家中国具身头部公司 在中国具身行业，从占据头部公司的创始人学术履历已经能看出几条清晰的派系：清华系、伯克利圈、斯坦福圈等等。 其中影响最深的，是斯坦福圈。 银河通用王鹤、穹彻智能卢策吾、Hillbot 苏昊，RoboScience 机器科学的（）这些公司和创始人路线各不相同，但往上追，大多能追到同一个实验室，美国三院院士、几何计算学者 Leonidas J. Guibas 在斯坦福的组。同一条脉络上还有 OpenAI 研究员严梦媛、清华大学助理教授弋力。 这不算偶然。 斯坦福几乎是全球具身智能研究的策源地之一：李飞飞，作为 ImageNet 发起人，视觉与数据驱动范式的奠基者，Chelsea Finn 的 REAL Lab ，以及几何计算学者 Leonidas J. Guibas，以及国外头部具身公司 Pi 创始成员都来自斯坦福。 2016 年前后，斯坦福 Leonidas J. Guibas 教授（美国三院院士 ）的几何计算组，聚集了一批华人学生，其中就包括王鹤、邵林和他们的师兄苏昊等。 Guibas 教授组有一条相当一致的研究主线：3D 视觉出身，重点钻研操作泛化，相信抽象表征和仿真。邵林的个人轨迹几乎是这条主线的完整样本。 2014 年邵林进斯坦福，他先在几何计算泰斗、美国三院院士 Leonidas J. Guibas 组里做 3D 视觉，后转向机器人操作，师从 Jeannette Bohg，现任新加坡国立大学助理教授。 学术方面，邵林的一作论文 UniGrasp 是数据驱动灵巧手抓取的基准性工作；2025 年，团队凭借 D(R,O) Grasp 从四千多篇投稿中斩获 ICRA 机器人",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-02T10:23:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/GqrJT2vlPFBxElDY.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "具身智能公司RoboScience完成A2轮数亿元融资",
+   "summary_zh": "斯坦福背景团队创办的RoboScience机器科学完成A2轮数亿元融资，成立不足一年已五轮融资，文章借此讨论具身赛道资本标准从讲故事转向看兑现。",
+   "highlights_zh": [
+    "琥珀资本、鸿瑞达、上海半导体产投联合领投",
+    "团队出自斯坦福Guibas几何计算组，与王鹤、苏昊同源",
+    "行业融资遇冷背景下逆势连融五轮"
+   ],
+   "why_zh": "融资通稿属性偏重，但具身资本标准转向的判断有参考价值。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-03",
+   "slot": "morning",
+   "selected_at": "2026-11-02T20:43:01+00:00",
+   "mirror_pdf": "pdf/web-24a061501bdf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/GqrJT2vlPFBxElDY.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b687bdf52760",
+   "kind": "article",
+   "title": "从英伟达到 Pika，硅谷巨头为何“反向借力”这个国产模型？",
+   "url": "https://www.infoq.cn/article/h1310kHD9CWD1mO8aTAc?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "李冬梅"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-02T22:48:56+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/h1310kHD9CWD1mO8aTAc?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "英伟达与Pika为何反向借力这个国产模型",
+   "summary_zh": "InfoQ报道硅谷公司英伟达、Pika等采用某国产模型，但摘要缺失，具体技术细节与原因不明。",
+   "highlights_zh": [
+    "英伟达、Pika等硅谷公司被指采用国产模型",
+    "涉及国产模型出海与反向技术输出话题",
+    "原文内容未获取，信息增量有限"
+   ],
+   "why_zh": "国产模型获硅谷采用是值得关注的信号，但缺乏摘要难以判断信息价值。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-03",
+   "slot": "morning",
+   "selected_at": "2026-11-02T20:43:01+00:00",
+   "mirror_pdf": "pdf/web-b687bdf52760.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/h1310kHD9CWD1mO8aTAc?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b61036675f09",
+   "kind": "article",
+   "title": "谷歌 SynthID Detector 简化了水印检测流程，并将支持范围扩展至其他 AI 提供商",
+   "url": "https://www.infoq.cn/article/JoVxAdq1OjtIDkRBjWOW?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Sergio De Simone"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-02T18:52:12+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/JoVxAdq1OjtIDkRBjWOW?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌SynthID Detector简化水印检测并扩展至第三方",
+   "summary_zh": "谷歌升级SynthID水印检测工具，简化检测流程，并将支持范围扩展至其他AI提供商的生成内容。",
+   "highlights_zh": [
+    "SynthID Detector检测流程简化",
+    "水印检测支持范围扩展至其他AI提供商",
+    "涉及AI内容溯源与标识基础设施"
+   ],
+   "why_zh": "AI内容水印与溯源是合规刚需，关注跨厂商互认进展的读者可读。",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-03",
+   "slot": "morning",
+   "selected_at": "2026-11-02T20:43:01+00:00",
+   "mirror_pdf": "pdf/web-b61036675f09.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/JoVxAdq1OjtIDkRBjWOW?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d04e374a7c71",
+   "kind": "article",
+   "title": "InfoQ AI 侦察团现场手记：工具之外，企业 AI 落地还要跨过哪些关？",
+   "url": "https://www.infoq.cn/article/ORJZPCwM2XXNcdRYf8de?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "InfoQ"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-02T17:39:48+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/ORJZPCwM2XXNcdRYf8de?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "InfoQ现场手记：企业AI落地还要跨过哪些关",
+   "summary_zh": "InfoQ记者现场观察企业AI落地，指出工具之外仍有组织、流程与数据等关卡待跨越。",
+   "highlights_zh": [
+    "聚焦企业AI落地的非技术障碍",
+    "来自活动现场的一手观察",
+    "偏综述性报道，缺乏具体数据"
+   ],
+   "why_zh": "适合关注企业AI落地瓶颈的从业者快速了解共性痛点。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-03",
+   "slot": "morning",
+   "selected_at": "2026-11-02T20:43:01+00:00",
+   "mirror_pdf": "pdf/web-d04e374a7c71.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/ORJZPCwM2XXNcdRYf8de?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "AI商业模式进入算账期，智能体高算力成本难被订阅收入覆盖",
+   "why": "Grok Bot付费周活近80万仍难以为继，金融机构开始追问AI投入产出比。",
+   "refs": [
+    "web-1b988c1ec98b",
+    "web-cffc66cd4653"
+   ]
+  },
+  {
+   "trend": "评测基准从能力展示转向真实日常任务与低延迟场景",
+   "why": "OpenAI推LifeVal衡量日常事务帮助效果，Realtime-Bench暴露LLM实时任务短板。",
+   "refs": [
+    "web-ed4b58253682",
+    "web-e5f6124c6872"
+   ]
+  },
+  {
+   "trend": "国产算力完成万亿级训练，模型竞争转向长程智能体能力",
+   "why": "美团LongCat-2.5以1.6万亿参数全程国产算力训练，面向长程智能体任务。",
+   "refs": [
+    "web-b2d81116a477"
+   ]
+  },
+  {
+   "trend": "模型改进出现绕过微调的新路径，直接读写权重成技术拐点",
+   "why": "Astra直接读写模型权重改进Qwen，绕开传统微调流程引发热议。",
+   "refs": [
+    "web-38c41eb0ed98"
+   ]
+  },
+  {
+   "trend": "资本向头部集中，Anthropic以超高估值冲刺史上最大IPO",
+   "why": "Q3营收170亿美元同比增11倍，估值区间1.4万亿至1.75万亿美元。",
+   "refs": [
+    "web-fb9ff410aee0",
+    "web-8656d92473f1"
+   ]
+  }
+ ]
+}

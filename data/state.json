@@ -2138,7 +2138,25 @@
   "web-e3aca69705fe": "2026-11-02",
   "web-549ae2cf11ce": "2026-11-02",
   "web-7789df92bce2": "2026-11-02",
-  "web-a7e11bfba6b1": "2026-11-02"
+  "web-a7e11bfba6b1": "2026-11-02",
+  "web-e5f6124c6872": "2026-11-03",
+  "web-fb9ff410aee0": "2026-11-03",
+  "web-ccd0970014b5": "2026-11-03",
+  "web-8656d92473f1": "2026-11-03",
+  "web-38c41eb0ed98": "2026-11-03",
+  "web-efcf00e7bea3": "2026-11-03",
+  "web-ed4b58253682": "2026-11-03",
+  "web-b2d81116a477": "2026-11-03",
+  "web-891f3f2ffcf3": "2026-11-03",
+  "web-cffc66cd4653": "2026-11-03",
+  "web-1b988c1ec98b": "2026-11-03",
+  "web-b6fd0b882821": "2026-11-03",
+  "web-7467194f96f4": "2026-11-03",
+  "web-d4458417ce4c": "2026-11-03",
+  "web-24a061501bdf": "2026-11-03",
+  "web-b687bdf52760": "2026-11-03",
+  "web-b61036675f09": "2026-11-03",
+  "web-d04e374a7c71": "2026-11-03"
  },
  "known_links": {
   "https://www.anthropic.com/news": [
@@ -2321,6 +2339,7 @@
    "/news/anthropic-compute-partnership",
    "/news/biosafety-at-the-frontier",
    "/news/composer-2-5",
+   "/news/data-bot",
    "/news/designing-grok-bot",
    "/news/el-salvador-partnership",
    "/news/government",
@@ -2407,45 +2426,6 @@
   ]
  },
  "runs": [
-  {
-   "at": "2026-10-13T12:35:24+00:00",
-   "slot": "evening",
-   "candidates": 136,
-   "new": 64,
-   "stale": 31,
-   "judged": 64,
-   "selected": 18,
-   "mirrored": 16,
-   "by_category": {
-    "技术": 2,
-    "观点": 1,
-    "资讯": 13,
-    "项目": 2
-   },
-   "by_source": {
-    "HF Daily Papers": 31,
-    "Hacker News": 10,
-    "量子位": 10,
-    "极客公园": 5,
-    "IT之家": 16,
-    "爱范儿": 4,
-    "少数派": 1,
-    "雷峰网": 14,
-    "钛媒体": 4,
-    "InfoQ 中文": 11,
-    "Simon Willison": 1,
-    "Latent Space": 2,
-    "Jack Clark": 1,
-    "Azeem Azhar": 1,
-    "Tomasz Tunguz": 1,
-    "Zvi Mowshowitz": 1,
-    "NVIDIA": 3,
-    "GitHub Trending": 10,
-    "GitHub 新项目": 10
-   },
-   "llm": true,
-   "translated": 0
-  },
   {
    "at": "2026-10-13T18:05:13+00:00",
    "slot": "morning",
@@ -4968,6 +4948,47 @@
     "科学空间": 1,
     "GitHub Trending": 10,
     "GitHub 新项目": 10
+   },
+   "llm": true,
+   "translated": 0
+  },
+  {
+   "at": "2026-11-02T20:43:01+00:00",
+   "slot": "morning",
+   "candidates": 109,
+   "new": 52,
+   "stale": 17,
+   "judged": 52,
+   "selected": 18,
+   "mirrored": 17,
+   "by_category": {
+    "观点": 3,
+    "资讯": 11,
+    "技术": 2,
+    "项目": 2
+   },
+   "by_source": {
+    "HF Daily Papers": 7,
+    "Hacker News": 6,
+    "量子位": 10,
+    "极客公园": 4,
+    "IT之家": 15,
+    "爱范儿": 5,
+    "少数派": 1,
+    "雷峰网": 13,
+    "钛媒体": 3,
+    "InfoQ 中文": 13,
+    "Simon Willison": 1,
+    "Jack Clark": 1,
+    "Stratechery": 1,
+    "SemiAnalysis": 2,
+    "Azeem Azhar": 1,
+    "Tomasz Tunguz": 1,
+    "科学空间": 1,
+    "OpenAI": 3,
+    "xAI": 1,
+    "GitHub Trending": 9,
+    "GitHub 新项目": 11
    },
    "llm": true,
    "translated": 0
