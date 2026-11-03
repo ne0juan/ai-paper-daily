@@ -1894,51 +1894,1426 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-de4cf53f9db9",
+   "kind": "article",
+   "title": "Scaling Git at OpenAI",
+   "url": "https://openai.com/index/scaling-git-at-openai/",
+   "pdf_url": "",
+   "abstract": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-11-02T23:47:56Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50345924",
+     "signal": "241 pts",
+     "metric": 241
+    },
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/scaling-git-at-openai",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 自研 Pando：为 Codex 规模重构 Git 后端",
+   "summary_zh": "OpenAI 发布 Git 兼容后端 Pando，专为 Codex 带来的超大规模开发场景设计，解决传统 Git 在巨型仓库与高频提交下的性能瓶颈。",
+   "highlights_zh": [
+    "Pando 保持 Git 协议兼容，可无缝接入现有工具链",
+    "针对 Codex 驱动的自动化高频提交与大规模并发做优化",
+    "反映 AI 编码代理正在倒逼底层开发基础设施升级"
+   ],
+   "why_zh": "了解 AI 编码代理规模化后对版本控制基础设施的真实压力与工程解法。",
+   "tags": [
+    "代码",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.8574,
+   "score_llm": 7.0,
+   "score": 0.763,
+   "date": "2026-11-03",
+   "slot": "evening",
+   "selected_at": "2026-11-03T12:43:40+00:00",
+   "mirror_pdf": "pdf/web-de4cf53f9db9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/scaling-git-at-openai/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50345924"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.03178",
+   "kind": "paper",
+   "title": "CoworkOS:Scaling Agent Coworkers for Real-world Automation",
+   "url": "https://arxiv.org/abs/2611.03178",
+   "pdf_url": "https://arxiv.org/pdf/2611.03178",
+   "abstract": "Rapid advances in cowork agents are shifting human-AI collaboration toward real-world automation, delivering software, designs, and other artifacts. However, such productivity work demands both high-quality delivery on complex productivity tasks and continued monitoring and decision-making over long horizons, a combination that remains an open challenge. We introduce CoworkOS, a general-purpose harness for long-horizon work that separates task strategy from execution management: the model decides actions, delegation, and acceptance, while the runtime maintains state and feedback. Its three-layer architecture enables direct execution or delegation to Subagents, synchronously or asynchronously, under stable responsibilities. Through a shared application layer, humans and agents inspect and revise the same evolving documents, presentations, CAD models, and Blender scenes, so human-in-the-loop participation can enter both through conversation and through direct modification of the work itself. To sustain continuity across agents and sessions, CoworkOS further introduces hierarchical workspaces and persistent semantic memory, so working files, key decisions, and long-running Job logs remain shareable, reusable, and resumable after interruption. Across 12 benchmarks and 6 categories of real-world applications, CoworkOS proves highly competitive with frontier agent applications such as Codex and DeepSeek Harness. As a sustained-work case study, CoworkOS uses GLM-5.3 as its backbone to conduct RSI-driven automated post-training on Qwen3.6-35B-A3B. Over five rounds, the model's average score across eight benchmarks rose from 33.19 to 42.95 (+9.76). Looking ahead, we believe CoworkOS opens a meaningful path toward general cowork-agent intelligence.",
+   "authors": [
+    "Jiajie Jin",
+    "Guanting Dong",
+    "Chengjun Pan",
+    "Xin Deng",
+    "Zhuohui Sheng",
+    "Guoqiang Wang",
+    "Tao Gui",
+    "Yutao Zhu",
+    "Yujia Chen",
+    "Shihong Yi",
+    "Binze Hu",
+    "Zhixiong Yang",
+    "Zhichao Sun",
+    "Rui Wang",
+    "Han Han",
+    "Mingyu Ma",
+    "Junhao Huang",
+    "Xiaotao Wang",
+    "Huicheng Jiang",
+    "Yuyang Hu",
+    "Xinyu Yang",
+    "Wanghan Xu",
+    "Yajie Yang",
+    "Zhecan Wang",
+    "Honglin Guo",
+    "Xiaoyu Xing",
+    "Xiaoqian Zhang",
+    "Yulun Zhu",
+    "Xiaoxi Li",
+    "Jiahang Lin",
+    "Shaofan Liu",
+    "Shihan Dou",
+    "Zhiheng Xi",
+    "Qi Zhang",
+    "Yu-Gang Jiang",
+    "See-Kiong Ng",
+    "Yang Zhang",
+    "Tat-Seng Chua",
+    "Ji-Rong Wen",
+    "Zhicheng Dou"
+   ],
+   "orgs": [
+    "Renmin University of China"
+   ],
+   "published": "2026-11-02T14:15:11.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.03178",
+     "signal": "▲ 77",
+     "metric": 77
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "CoworkOS：面向长周期协作智能体的通用运行时",
+   "summary_zh": "人大团队提出 CoworkOS，将任务策略与执行管理分离：模型负责决策与委派，运行时维护状态与反馈，支持子智能体同步/异步协作、人机共编同一文档及跨会话持久记忆，在 12 个基准上媲美前沿智能体应用。",
+   "highlights_zh": [
+    "三层架构分离策略与执行，支持子智能体同步或异步委派",
+    "共享应用层让人与智能体共同编辑文档、PPT、CAD 与 Blender 场景",
+    "分层工作区与持久语义记忆使长任务可中断续跑、可复用"
+   ],
+   "why_zh": "长周期协作智能体的 harness 设计范本，对做 agent 框架的团队有直接参考价值。",
+   "tags": [
+    "智能体",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.6405,
+   "score_llm": 8.0,
+   "score": 0.7362,
+   "date": "2026-11-03",
+   "slot": "evening",
+   "selected_at": "2026-11-03T12:43:40+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.03178"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.03178"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.03178"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.03178"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.03178"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.03178"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/RUC-NLPIR/CoworkOS"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.03126",
+   "kind": "paper",
+   "title": "CUA-Master: Scaling Computer-use Agents through Open-World Recursive Improvements",
+   "url": "https://arxiv.org/abs/2611.03126",
+   "pdf_url": "https://arxiv.org/pdf/2611.03126",
+   "abstract": "Despite recent advances in CUAs, their development remains constrained by the limited diversity, controllability, and reliability of interaction data. Moreover, conventional optimization pipelines lack iterative feedback, while existing recursive improvement approaches often rely on self-generated experiences, limiting ability expansion and yielding diminishing returns. To address these challenges, we introduce CUA-Master, a nested double-loop recursive improvement framework. At the system level, an outer world-data-model flywheel continuously incorporates open-world corpus and leverages evolving model weaknesses to guide subsequent data construction and optimization iterations. At the data level, an inner flywheel couples open-world seeding and autocatalytic propagation. The former mines authentic workflows as seed tasks from instructional videos, and employs visual-semantic dual-path trajectory reconstruction; The latter transforms these seeds into reusable primitives for controllable synthesis of diverse, complex, and verifiable tasks. To enable efficient and reliable trajectory collection, we further introduce a feedback-guided snapshot-rollback retry mechanism in various real environments. Extensive experiments demonstrate that CUA-Master-27B achieves competitive performance across GUI-only and GUI-CLI hybrid benchmarks, scoring 80.2 on OSWorld Verified, 36.9 on OSWorld 2.0, 43.9 on WeaveBench, and 25.0 on Agents' Last Exam. Our framework also substantially improves the quality and efficiency of data synthesis, and exhibits continuous gains across recursive iterations.",
+   "authors": [
+    "Xinlei Yu",
+    "Gen Li",
+    "Ji Zhao",
+    "Zhangquan Chen",
+    "Congcong Wang",
+    "Shuai Dong",
+    "Zelin Peng",
+    "Yuqi Xu",
+    "Hongrui Wu",
+    "Kaiwen Tuo",
+    "Cheng Yang",
+    "Kaituo Feng",
+    "Yifan Wu",
+    "Jiayi Zhang",
+    "Dongming Wu",
+    "Wenqi Shao",
+    "Jiaqi Wang",
+    "Xiangyu Yue"
+   ],
+   "orgs": [],
+   "published": "2026-11-02T13:41:14.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.03126",
+     "signal": "▲ 55",
+     "metric": 55
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "CUA-Master：开放世界递归改进扩展电脑使用智能体",
+   "summary_zh": "针对 CUA 交互数据多样性不足与递归改进收益递减问题，提出嵌套双环框架：外层用世界数据模型飞轮按模型弱点引导数据构建，内层从教学视频挖掘真实工作流并合成为可验证任务，配合快照回滚重试采集轨迹，27B 模型在 OSWorld Verified 达 80.2。",
+   "highlights_zh": [
+    "外层飞轮依据模型弱点动态引导数据构建与优化迭代",
+    "从教学视频挖掘真实工作流，经视觉-语义双路径重建为种子任务",
+    "反馈引导的快照回滚重试机制提升真实环境轨迹采集可靠性"
+   ],
+   "why_zh": "电脑使用智能体的数据自举与递归改进方法论，评测成绩具参考性。",
+   "tags": [
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.6207,
+   "score_llm": 8.0,
+   "score": 0.7283,
+   "date": "2026-11-03",
+   "slot": "evening",
+   "selected_at": "2026-11-03T12:43:40+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.03126.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.03126"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.03126"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.03126"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.03126"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.03126"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.03126"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/xlyu0106/CUA-Master"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ca130899e453",
+   "kind": "article",
+   "title": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+   "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-02T07:27:28Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50334038",
+     "signal": "157 pts",
+     "metric": 157
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "中国首个前沿 AI 出口管制：商务部第 48 号公告",
+   "summary_zh": "中国商务部发布第 48 号公告，首次对前沿 AI 相关技术实施出口管制，标志监管方向从进口转向出口。",
+   "highlights_zh": [
+    "中国首个针对前沿 AI 的出口管制措施",
+    "涉及模型与相关技术的对外输出",
+    "对全球 AI 供应链与开源生态有潜在影响"
+   ],
+   "why_zh": "AI 出口管制是影响模型开源、跨境合作与市场格局的政策级变量。",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5574,
+   "score_llm": 8.0,
+   "score": 0.703,
+   "date": "2026-11-03",
+   "slot": "evening",
+   "selected_at": "2026-11-03T12:43:40+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50334038"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-adf06ac7b9b7",
+   "kind": "article",
+   "title": "JustVugg/colibri",
+   "url": "https://github.com/JustVugg/colibri",
+   "pdf_url": "",
+   "abstract": "Star JustVugg / colibri A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.\nREADME: Website · Discord · English · 简体中文 · 繁體中文 · Italiano · 日本語 · Bahasa Indonesia · Português (Brasil) **Tiny engine, immense model.** colibri runs very large open models on the machine you already have. A mixture-of-experts model of hundreds of billions of parameters uses only a small part of itself for each token, so colibri keeps that part in RAM and reads the rest, the experts, from the disk when the model asks for them. Pure C, one file per model family, no GPU required. Thirteen engines run today. Ten are for language models: **GLM-5.2/5.3** (which also runs **Mistral-Large-4**), **GLM-5.3-Flash**, **Inkling**, **Kimi K3**, **DeepSeek V4 Flash**, **DeepSeek V4.1 Flash**, **MiMo-V2.6 Flash** (and Pro), **Qwen3.8-Flash-Next**, **Qwen3.6** (which also runs Qwen3-Coder, the dense Qwen3.8-27B, **Flint**, **Muse Spark Open** and **LFM3-VL**) and **OLMoE**. One draws pictures: **Qwen-Image-2.1**. Two answer decisions: **Laya** and **GLiNER2.5-Decide**, with a third decision model, **Clef**, on the Qwen3.6 engine. The language models also run from the GGUF files already published, read as they are ([GGUF](docs/gguf.md)), on the CPU, on any GPU through Vulkan and on NVIDIA cards through CUDA. [Which one for my machine](#which-model-for-my-machine) ``` $ ./coli chat colibri v2.1.0 · GLM-5.2 · 744B MoE · int4 · streaming CPU ✓ ready in 32s · resident 9.9 GB › ciao! ◆ Ciao! Come posso aiutarti oggi? ``` colibri is free and open source. If it has earned a place on your machine, a coffee",
+   "authors": [],
+   "orgs": [
+    "JustVugg"
+   ],
+   "published": "2026-11-03T12:43:40+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/JustVugg/colibri",
+     "signal": "★ 今日 +803 · C",
+     "metric": 803
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "colibri：用磁盘流式加载在本地跑千亿 MoE 模型",
+   "summary_zh": "纯 C 实现的分层推理引擎，把热专家放 GPU、温专家放内存、冷专家从 NVMe 流式读取，让普通硬件也能跑数百亿参数的开源 MoE 模型。",
+   "highlights_zh": [
+    "按专家热度分层放置：GPU / RAM / NVMe 三级存储",
+    "纯 C 单文件对应一个模型家族，无需 GPU 也可 CPU 运行",
+    "直接读取已发布的 GGUF 文件，支持 GLM、Kimi、DeepSeek、Qwen 等十余个引擎"
+   ],
+   "why_zh": "如果你显存不够又想本地跑大 MoE 模型，可以用它把冷专家卸载到磁盘换取可运行性。",
+   "tags": [
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.6144,
+   "score_llm": 7.0,
+   "score": 0.6658,
+   "date": "2026-11-03",
+   "slot": "evening",
+   "selected_at": "2026-11-03T12:43:40+00:00",
+   "mirror_pdf": "pdf/web-adf06ac7b9b7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/JustVugg/colibri"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-221b3f216a71",
+   "kind": "article",
+   "title": "karpathy/nanochat",
+   "url": "https://github.com/karpathy/nanochat",
+   "pdf_url": "",
+   "abstract": "Star karpathy / nanochat The best ChatGPT that $100 can buy.",
+   "authors": [],
+   "orgs": [
+    "karpathy"
+   ],
+   "published": "2026-11-03T12:43:40+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/karpathy/nanochat",
+     "signal": "★ 今日 +551 · Python",
+     "metric": 551
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "nanochat：100 美元能买到的最好 ChatGPT",
+   "summary_zh": "Karpathy 开源的全栈 ChatGPT 复刻项目，用极低成本完成从数据、预训练到对话微调的完整流程，适合学习大模型全链路实现。",
+   "highlights_zh": [
+    "覆盖分词、预训练、SFT、推理的端到端最小实现",
+    "成本控制在约 100 美元量级，可在单机跑通",
+    "代码简洁，适合作为理解 LLM 训练流程的教学范本"
+   ],
+   "why_zh": "如果你想亲手跑通一遍 LLM 全流程而不是只调 API，从它开始改最省事。",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.599,
+   "score_llm": 7.0,
+   "score": 0.6596,
+   "date": "2026-11-03",
+   "slot": "evening",
+   "selected_at": "2026-11-03T12:43:40+00:00",
+   "mirror_pdf": "pdf/web-221b3f216a71.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/karpathy/nanochat"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ac36c48af680",
+   "kind": "article",
+   "title": "A社紧急修改招股书！RSI我们快要控制不住了",
+   "url": "https://www.qbitai.com/2026/11/507382.html",
+   "pdf_url": "",
+   "abstract": "单季狂揽1130亿人民币，但...",
+   "authors": [
+    "鱼羊"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-03T03:41:06+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/507382.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic紧急修改招股书：RSI快要控制不住了",
+   "summary_zh": "量子位报道Anthropic单季营收约1130亿人民币，并因递归自我改进（RSI）风险紧急修改招股书披露。",
+   "highlights_zh": [
+    "单季营收约1130亿人民币",
+    "招股书因RSI风险表述紧急修改",
+    "RSI即递归自我改进，涉及AI自我迭代能力"
+   ],
+   "why_zh": "头部AI公司财务与安全披露动向，值得关注。",
+   "tags": [
+    "对齐与安全",
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-11-03",
+   "slot": "evening",
+   "selected_at": "2026-11-03T12:43:40+00:00",
+   "mirror_pdf": "pdf/web-ac36c48af680.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/507382.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d747ecb5894f",
+   "kind": "article",
+   "title": "max-sixty/worktrunk",
+   "url": "https://github.com/max-sixty/worktrunk",
+   "pdf_url": "",
+   "abstract": "Star max-sixty / worktrunk Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+   "authors": [],
+   "orgs": [
+    "max-sixty"
+   ],
+   "published": "2026-11-03T12:43:40+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/max-sixty/worktrunk",
+     "signal": "★ 今日 +437 · Rust",
+     "metric": 437
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Worktrunk：为并行 AI 智能体打造的 Git worktree 命令行工具",
+   "summary_zh": "一个用 Rust 写的 Git worktree 管理 CLI，专为多个 AI 智能体并行开发设计，让每个智能体在独立工作树中互不干扰。",
+   "highlights_zh": [
+    "用 Rust 实现，单二进制、启动快",
+    "面向并行 AI 智能体工作流，隔离各智能体的代码改动",
+    "GitHub Trending 今日新增 437 星"
+   ],
+   "why_zh": "如果你同时跑多个编码智能体改同一仓库，用它给每个智能体开独立 worktree，避免互相覆盖。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5895,
+   "score_llm": 7.0,
+   "score": 0.6558,
+   "date": "2026-11-03",
+   "slot": "evening",
+   "selected_at": "2026-11-03T12:43:40+00:00",
+   "mirror_pdf": "pdf/web-d747ecb5894f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/max-sixty/worktrunk"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3a6efdada65a",
+   "kind": "article",
+   "title": "Anthropic's growth just flattened",
+   "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-02T22:33:20Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50344958",
+     "signal": "214 pts",
+     "metric": 214
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Anthropic 增长曲线突然走平",
+   "summary_zh": "有分析指出 Anthropic 的用户或收入增长近期明显放缓，引发对头部大模型公司增长可持续性的讨论。",
+   "highlights_zh": [
+    "Anthropic 增长指标出现走平迹象",
+    "HN 214 分，社区热议增长放缓原因",
+    "涉及头部大模型公司竞争格局"
+   ],
+   "why_zh": "头部模型公司增长是否见顶，是判断大模型市场方向的关键信号。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.5718,
+   "score_llm": 7.0,
+   "score": 0.6487,
+   "date": "2026-11-03",
+   "slot": "evening",
+   "selected_at": "2026-11-03T12:43:40+00:00",
+   "mirror_pdf": "pdf/web-3a6efdada65a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50344958"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-79beed85f495",
+   "kind": "article",
+   "title": "Scott Alexander’s Against SURA Seems Deeply Confused",
+   "url": "https://thezvi.wordpress.com/2026/11/02/scott-alexanders-against-sura-seems-deeply-confused/",
+   "pdf_url": "",
+   "abstract": "If you are helping build something that might kill everyone, maybe stop doing that. Ideally, when you do stop, tell everyone else to also stop building it. That is certainly the obvious, first-level thing to do. You need a damn … Continue reading →",
+   "authors": [
+    "TheZvi"
+   ],
+   "orgs": [
+    "Zvi Mowshowitz"
+   ],
+   "published": "2026-11-02T21:33:33+00:00",
+   "sources": [
+    {
+     "name": "Zvi Mowshowitz",
+     "authority": 0.75,
+     "url": "https://thezvi.wordpress.com/2026/11/02/scott-alexanders-against-sura-seems-deeply-confused/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 趋势评论员，每周 AI 综述",
+   "title_zh": "Zvi反驳Scott Alexander的SURA主张",
+   "summary_zh": "Zvi Mowshowitz认为Scott Alexander反对SURA的论证存在根本混淆，主张若在构建可能毁灭所有人的系统，最直接的做法是停止并劝他人也停止。",
+   "highlights_zh": [
+    "围绕AI安全领域SURA（单次更新风险论证）的公开辩论",
+    "作者批评对方论证逻辑混乱",
+    "核心立场：构建存在灭绝风险的系统应先停手"
+   ],
+   "why_zh": "了解AI安全阵营内部关于风险论证框架的分歧",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-11-03",
+   "slot": "evening",
+   "selected_at": "2026-11-03T12:43:40+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://thezvi.wordpress.com/2026/11/02/scott-alexanders-against-sura-seems-deeply-confused/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.03577",
+   "kind": "paper",
+   "title": "Sonar-MoE: In-Backward Expert Updates for Memory-Efficient Mixture-of-Experts Training",
+   "url": "https://arxiv.org/abs/2611.03577",
+   "pdf_url": "https://arxiv.org/pdf/2611.03577",
+   "abstract": "Most parameters of a Mixture-of-Experts (MoE) model belong to its experts, and standard training keeps every expert gradient in GPU memory until the optimizer step. This memory grows with the number and size of the experts, so it rises as MoE models scale. We introduce Sonar-MoE, which updates each expert tensor during the backward pass and frees its gradient right away. It brings optimizer-in-backward from dense models to batched MoE expert tensors, so the GPU never holds more than one layer of expert gradients. When we fine-tune OLMoE-1B-7B and Granite-3.1-3B-A800M in bf16 with two expert-kernel backends, Sonar-MoE lowers peak memory by 19% to 22%. Its updates are bitwise identical to standard training without expert gradient clipping, and held-out loss stays within 0.003 of all baselines. Each step also takes 17% to 23% less time than standard training with global-norm clipping. Updating whole batched tensors rather than individual experts is what keeps Sonar-MoE fast, as it avoids a 20% to 72% slowdown while using the same memory. Sonar-MoE matches optimizer-in-backward over all parameters in memory and speed while still clipping the dense parameters.",
+   "authors": [
+    "Avni Mittal",
+    "Avinash Anand",
+    "Ashutosh Kumar",
+    "Dikshant Kukreja",
+    "Kritarth Prasad",
+    "Chaitanya Lakhchaura",
+    "Rishitej Reddy Vyalla",
+    "Erik Cambria",
+    "Zhengkui Wang",
+    "Rajiv Ratn Shah"
+   ],
+   "orgs": [],
+   "published": "2026-11-02T18:30:00Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.03577",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Sonar-MoE：反向传播中更新专家，省显存",
+   "summary_zh": "针对MoE训练中专家梯度占满显存的问题，Sonar-MoE在反向传播时直接更新专家张量并立即释放梯度，微调时峰值显存降19%-22%，结果与标准训练逐位一致，每步还快17%-23%。",
+   "highlights_zh": [
+    "把optimizer-in-backward从稠密模型扩展到批量MoE专家张量",
+    "GPU最多只保留一层专家梯度，显存随专家规模增长的问题被缓解",
+    "整批张量更新而非逐专家更新，避免20%-72%的减速"
+   ],
+   "why_zh": "MoE大模型训练显存优化的实用工程方法",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.64,
+   "date": "2026-11-03",
+   "slot": "evening",
+   "selected_at": "2026-11-03T12:43:40+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.03577.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.03577"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.03577"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.03577"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.03577"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.03577"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.03577"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.03434",
+   "kind": "paper",
+   "title": "Optimize the Harness, Not the Model: Fitting a Minimal Agent to a Self-Hostable LLM for Investigative Analysis",
+   "url": "https://arxiv.org/abs/2611.03434",
+   "pdf_url": "https://arxiv.org/pdf/2611.03434",
+   "abstract": "Government intelligence teams need LLM agents that can analyze large, messy evidence collections, but security and cost constraints often rule out hosted frontier models and broad, hard-to-audit tool surfaces. We report CLEO: Constrained Loop for Environment Optimization, a method for fitting a minimal agent harness to a fixed, self-hostable LLM. Given an expert-validated dataset, CLEO admits only the tools, guardrails, memory policies, and loop components that improve accuracy while remaining general and auditable. On our held-out dataset, the CLEO harness reaches an 83.8% pass rate, within 1.2 points of the strongest out-of-the-box Claude Code SDK baseline, while being two orders of magnitude smaller.",
+   "authors": [
+    "Shai Nahum Gefen",
+    "Vered Chassida",
+    "Dmitry Basin",
+    "Guy Feigenblat"
+   ],
+   "orgs": [],
+   "published": "2026-11-02T16:53:29Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.03434",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "CLEO：优化智能体外壳而非模型本身",
+   "summary_zh": "面向需自托管模型的情报分析场景，CLEO只保留能提升准确率且可审计的工具、护栏、记忆策略与循环组件，构建的极简智能体外壳在留出集达83.8%通过率，仅比最强Claude Code SDK基线低1.2分，体积小两个数量级。",
+   "highlights_zh": [
+    "以专家验证数据集为约束，逐项筛选harness组件",
+    "强调通用性与可审计性，适配安全敏感场景",
+    "证明小模型+精调外壳可逼近前沿模型开箱效果"
+   ],
+   "why_zh": "智能体harness设计方法论，对自托管落地有参考价值",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.64,
+   "date": "2026-11-03",
+   "slot": "evening",
+   "selected_at": "2026-11-03T12:43:40+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.03434.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.03434"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.03434"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.03434"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.03434"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.03434"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.03434"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-91c660b909f9",
+   "kind": "article",
+   "title": "香港大学发布全球首个KYA报告关注智能体信任建设，九类企业实践获收录",
+   "url": "https://www.leiphone.com/category/industrynews/KkjVOHcQ55GyhDLv.html",
+   "pdf_url": "",
+   "abstract": "11月3日，香港大学副校长汪扬教授与香港大学经管学院杨宏副教授代表香港大学KYA课题组，在2026年香港金融科技周 x StartmeupHK创业节发布全球首个KYA（Know Your Agent）领域报告《KYA：智能体信用体系研究报告》。 报告聚焦智能体参与真实经济活动后的身份、授权、信用与责任问题，结合109份从业者有效问卷及包含Stripe、蚂蚁数科等近十个企业案例，提出智能体成熟度模型、KYA框架和智能体发展指数，并进一步探讨“智能体信任资本”的形成及其经济价值。 “没有KYA，就没有智能体经济。”报告认为，模型能力的提升不会自动转化为商业上的可委托性。只有当身份可确权、履约可核验、权限可约束时，智能体才能获得与其能力相匹配的经济授权。KYA所要解决的，正是智能体从技术可能走向商业可行的问题。 香港大学副校长汪扬教授与香港大学经管学院杨宏副教授发布全球首个KYA领域报告 智能体加速进入真实经济，信任赤字正侵蚀人工智能红利 报告将智能体的演进概括为四个阶段：能力智能体、执行智能体、交易智能体和经济智能体。截至目前，行业整体仍处于从能力智能体向执行智能体加速演进的阶段，部分前沿场景已开始探索交易智能体。 从执行任务走向跨主体交易，意味着智能体需要获得企业内部流程之外的信任。采购、支付或专业服务智能体可以在授权范围内代表用户采取行动，但交易对手仍需确认其代表谁、获得何种授权、能否可靠履约，以及出现损失时由谁承担责任。 行业研究显示，智能体的企业部署意愿正在快速上升。Gartner在2026年《Agentic AI技术成熟度曲线》中指出，受访组织中已有17%部署AI智能体，超过60%预计在未来两年内部署。Gartner另预测，到2028年，全球《财富》500强企业平均使用的智能体数量将超过15万个。 智能体商业活动的潜在规模也受到关注。麦肯锡估计，到2030年，智能体商业可能为全球零售市场带来3万亿至5万亿美元的协调收入机会；该估算目前仅涉及商品零售，不包括服务和B2B市场。 与能力快速提升形成鲜明对照的是，支撑智能体运行的信任体系几乎仍是空白。报告将这一能力与制度之间的错位概括为“智能体信任真空”：过去两年，智能体越权操作、提示词注入、工具投毒、多智能体协作责任失效等安全事件密集出现，并直接转化为可计量的经济成本。 Cloud Security Alliance与Anjuna对全球金融业的调查显示，62%的受访机构已部署AI智能体。而Accenture研究发现，87%的金融机构受访者认为，“信任”将成为智能体支付规模化应用的最大障碍。 杨宏在分享中指出：“智能体正在走进真实经济，其扩散速度远远快于互联网发展期的普及速度。但是，信任赤字，正在侵蚀人工智能红利。” 76%受访企业存在智能体信任顾虑，信任摩擦成为商业隐性成本 行业问卷显示，智能体信任摩擦已经常态化：76%的受访从业者在过去一年频繁或偶尔遇到与智能体信任、安全、问责或合规有关的顾虑，其中23%频繁遇到，53%偶尔遇到，仅2%表示从未遇到。 信任顾虑也已产生实际经营影响：41%的受访者提及合规与审计压力上升，40%提及项目上线或扩展延迟，38%提及人工确认增加、效率下降，23%表示曾遭遇客户或合作伙伴拒绝使用。 在推进智能体商业应用的主要障碍中，“客户或伙伴信任度低”（53%）和“出错后责任归属不清”（42%）位列前两项，高于系统集成困难（35%）与投资回报难以测算（34%）。 香港大学《KYA：智能体信用体系研究报告》主要发现 需求侧共识同样强烈。88%的受访者认为，行业需要统一的",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-03T10:09:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/KkjVOHcQ55GyhDLv.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "港大发布全球首个KYA智能体信用体系报告",
+   "summary_zh": "香港大学发布首个KYA（Know Your Agent）报告，提出智能体成熟度模型与信用框架，指出76%企业存在智能体信任顾虑，信任赤字正侵蚀AI商业红利。",
+   "highlights_zh": [
+    "提出智能体四阶段演进：能力、执行、交易、经济智能体，行业整体仍处执行智能体早期",
+    "76%受访者过去一年遇到智能体信任/安全/合规顾虑，41%面临合规审计压力上升",
+    "引用Gartner预测2028年财富500强平均使用超15万个智能体，麦肯锡估2030年智能体商业规模3-5万亿美元"
+   ],
+   "why_zh": "智能体商业化的信任基础设施是下一个必争之地，报告给出框架与数据支撑。",
+   "tags": [
+    "智能体",
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-03",
+   "slot": "evening",
+   "selected_at": "2026-11-03T12:43:40+00:00",
+   "mirror_pdf": "pdf/web-91c660b909f9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/KkjVOHcQ55GyhDLv.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-537a73af5e84",
+   "kind": "article",
+   "title": "阿里巴巴蔡崇信乌镇谈AI发展：只有开源开放 才能普惠普及",
+   "url": "https://www.leiphone.com/category/industrynews/3UkL4LV5iwzPdSwN.html",
+   "pdf_url": "",
+   "abstract": "11月3日上午，2026年世界互联网大会乌镇峰会开幕。阿里巴巴集团联合创始人、董事会主席蔡崇信在开幕式上发言，他表示，AI只有开源才能普及，只有普及才能创造可持续、普惠的智能时代。中国开源模型下载量、衍生模型数等关键指标保持领先，是当前全球开源智能的引领者。 （图为阿里巴巴集团联合创始人、董事会主席蔡崇信在乌镇峰会开幕式上发言。） 场景丰富：AI需求持续攀升，算力供不应求 蔡崇信说，过去一年，全球人工智能发展步伐加速，把这场生产力变革推向纵深。AI的使用场景不断丰富、不断规模化，向工业制造、医疗健康、公共服务、企业办公、科技研发等领域延伸，AI需求持续攀升，算力供不应求。中国科技企业继续加大模型开源和生态开放的力度，开源模型下载量、衍生模型数等关键指标保持领先，成为当前全球开源智能的引领者。中国开源模型综合性能好、推理效率高，在全世界广受好评，具备很强的竞争力。 蔡崇信认为，中国AI企业不约而同地选择开源，源自中国创新的精神内核：超越一己之利、增进共同福祉，推动在共享中提升智慧，愿意在彼此成就中创造更大价值。他认为：“只有开源才能普及，只有普及才能创造可持续、普惠的智能时代。” 开源开放：降低中小企业研发成本，惠及发展中国家 三年前，阿里巴巴提出“开源开放”的AI战略。截至目前，阿里千问已经开源超过470款模型，全球累计下载量突破40亿次，衍生模型超过33万个，是全球第一开源模型家族。蔡崇信表示，开源促进全球开发者生态繁荣，有效降低了中小企业的研发成本，对小语种和发展中国家的价值尤其显著。基于开源模型，AI不再为少数科技强国所独有，而是成为各方都能深度参与的事业，来自广大新兴经济体的开发者无需从零开始，就能快速创建本国AI应用与创新生态，有效弥合了国家和地区之间的智能鸿沟。他举例：在非洲的乌干达，一个非营利性组织基于千问开源模型开发了本地语言模型，已经覆盖68种非洲语言，帮助越来越多的非洲人跨越基模门槛、突破语言限制，携手跨入AI之门。 据介绍，阿里巴巴创建并运营的“魔搭”是中国最大的AI开源社区，目前已经吸引了全球239个国家和地区的3300万用户。在这个开放社区，全球开发者可以调用28万个开源模型、4万个数据集和1.2万个MCP（模型上下文协议）。蔡崇信说：“立足中国、服务全球，是魔搭社区的定位，也是阿里巴巴对AI生态建设的使命。” 全栈AI：应用端百花齐放，加速融入千行百业 本届世界互联网大会上，阿里巴巴展出了旗下平头哥芯片、阿里云“云+AI”服务、千问大模型和系列AI应用的最新成果。阿里智能体平台Qoder凭借在智能体Harness上的技术突破荣获“领先科技奖”，是国内唯一获得该奖项的通用智能体产品。 在医疗领域，阿里巴巴达摩院推出的“平扫CT+AI”技术持续取得突破，在全球范围内率先实现单次平扫CT即可同步筛查5类癌症、2类急症和5类慢性病。达摩院与浙江大学医学院附属第一医院等机构近期合作研发的通用医疗影像AI模型DAMO RADAR，可一次性识别超过146种病症，准确性首次达到影像科专家级水平，成果登上国际顶级学术期刊《科学》（《Science》）。阿里巴巴在第一时间开源了这一模型。 在消费领域，今年以来阿里旗下千问App率先实现“AI办事”，为用户提供点餐、购物、机票酒店预订等服务，日前又推出了专属个人AI助理“千问Go！”，可处理更多类型和更多领域的个人事务。 在办公领域，阿里巴巴近期推出一站式AI办公平台“千问办公”，深度融入钉钉生态，并打通企业数据库和主流即时通讯工具，整合多模态内容生成、浏览器自动化、网页制作、定时任务调度及",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-03T05:36:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/3UkL4LV5iwzPdSwN.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "蔡崇信乌镇谈AI：开源才能普惠",
+   "summary_zh": "蔡崇信在乌镇峰会表示AI只有开源才能普及，中国开源模型下载量与衍生模型数全球领先；阿里千问已开源超470款模型、下载破40亿次，魔搭社区汇聚3300万用户。",
+   "highlights_zh": [
+    "千问开源超470款模型，全球下载量破40亿次，衍生模型超33万个",
+    "魔搭社区覆盖239个国家和地区、3300万用户，含28万模型与1.2万MCP",
+    "Qoder凭智能体Harness技术突破获领先科技奖，DAMO RADAR医疗影像模型登《Science》并开源"
+   ],
+   "why_zh": "头部公司掌门人明确表态开源战略，是判断中国AI生态路线的关键信号。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-03",
+   "slot": "evening",
+   "selected_at": "2026-11-03T12:43:40+00:00",
+   "mirror_pdf": "pdf/web-537a73af5e84.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/3UkL4LV5iwzPdSwN.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9e4204c976a4",
+   "kind": "article",
+   "title": "纯语音Personal Agent来了！或许，这就是乔布斯心中的Siri",
+   "url": "https://www.qbitai.com/2026/11/507419.html",
+   "pdf_url": "",
+   "abstract": "终于，有了一个可以触摸的起点",
+   "authors": [
+    "Jay"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-03T06:55:30+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/507419.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "纯语音Personal Agent亮相，或成乔布斯心中的Siri",
+   "summary_zh": "量子位报道一款纯语音个人智能体产品，主打无需屏幕的语音交互，被视为接近乔布斯对Siri原始构想的形态。",
+   "highlights_zh": [
+    "纯语音交互形态，脱离屏幕与图形界面",
+    "定位个人助理场景，强调自然对话",
+    "被类比为乔布斯理想中的Siri"
+   ],
+   "why_zh": "语音智能体是端侧AI的重要方向，可观察产品形态演进。",
+   "tags": [
+    "语音",
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-03",
+   "slot": "evening",
+   "selected_at": "2026-11-03T12:43:40+00:00",
+   "mirror_pdf": "pdf/web-9e4204c976a4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/507419.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0a85712a2b72",
+   "kind": "article",
+   "title": "拿下近亿美元融资后，他们造了个开放动态真实世界的「行动伙伴」",
+   "url": "http://www.geekpark.net/news/373424",
+   "pdf_url": "",
+   "abstract": "作者｜苏子华 编辑｜郑玄 博尔赫斯 写过一则著名的寓言。一个帝国的制图师们绘制了一张与领土等大的地图，精确到每一寸土地、每一条河流。后代人发现这张地图毫无用处，把它弃置在荒野中，任其腐烂。 真正在一个地方走路的人，靠的从来不是一张一比一的图纸，而是脚底的感觉、眼睛的判断，以及走错了再调整的能力。 具身智能行业正在上演这则寓言的现实版。 过去两年，人形机器人学会了跳舞、翻跟头、弹钢琴。但一个略显尴尬的事实是，这些编排的动作，大多是提前反复排练，且发生在受控的封闭环境里。如果放在现实社会的开放环境中，这些机器人该怎么办，它们到底能帮你干什么？ 费莫一科技 （PHYMI）试图回答这个命题。成立初期便完成近亿美元种子轮融资，由 IDG 资本领投，云启资本、滴滴出行、复星锐正、耀途资本、禾赛科技跟投。融资消息仅公布一个月后，它便推出首款行动伙伴。 行动伙伴 Sagi｜图片来源：PHYMI 10 月 28 日，Sagi（萨其玛）正式发布，是行业内首个定位「行动伙伴」的 Physical Agent。Sagi 采用 四轮足 、人形上身、背着小型货箱的机器人，英文名取自人马座。辨识度鲜明的身体，它没有追求像人，围绕长程移动、操作与承载共同设计；「行动伙伴」则定义了它与人的关系：理解人的目标，能够独立担当，也能够相互协作。 但它具备极其实用、且当下行业里极为罕见的能力：接收一个目标，然后在一个开放、动态、真实的场景里，将跨场景移动与物品操作连接起来，遇到需要判断或帮助的情况，再通过 LINK 与人协作，持续推进任务，完成全流程交付。 费莫一创始人 刘念邱 ，此前是元戎启行的技术合伙人、董事，亲历高阶自动驾驶从 L4 研发运营走向规模化量产的关键阶段，参与无图智驾方案落地，以及技术体系向端到端模型、 VLA 大模型演进。再往前，他是英特尔的高级工程师，做过智能硬件的连续创业者。 在具身智能赛道愈发拥挤的 2026 年，PHYMI 没有追求酷炫 demo，而是选了一条看似朴实、实则困难得多的路。在刘念邱看来，「开放场景才是真正的考场。」 为什么是「行动伙伴」？ 费莫一的第一款产品，绕开了行业里最普遍的叙事。 刘念邱告诉极客公园，更希望用「伙伴」来定义他们推出的 Physical Agent，「因为我们首先关心的是，用户希望它帮助自己完成什么，以及它能够创造什么价值。」 在他看来，Physical Agent 的核心是，站在用户的立场，理解他的想法、拆解他的目标，通过长程移动、操作和交互，在物理世界中把事情做成。「即使人不在现场，也可以把目标交给它，让它独立推进；遇到信息不足或需要判断的情况，人也能通过 LINK 提供帮助，共同完成任务。」 「行动伙伴」干的，不是人做不了的事，而是人不想干的事——承接的是人需要亲自到场、跨越不同地点并连续执行的事务，拓展人的行动能力。这种定位差异背后，本质是一场关于「人与机器关系」的重新倒置。 传统服务机器人的逻辑，本质上是改造环境以适应机器人：要进写字楼，先得铺设专用的磁条引导线、贴满 QR 码定位标签、打通电梯系统的无线协议，甚至提前用激光雷达将几千平米的物理空间毫厘不差地建图。人类世界必须为了机器人做出改造。 而费莫一的思路恰恰相反—— 应该让 Physical Agent 适应人类生活的社会，而不是让人类社会一直去适应它。 真实世界天然是开放的、动态的、乱糟糟且充满意外的。前台的箱子可能被临时挪动，走廊里随时有行人穿过，办公室的门可能是半掩着的。「人的生活和工作天然发生在不同地点，一个目标往往包含多个相互关联的步骤。任务执行过程",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-03T11:54:26+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373424",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "近亿美元融资后，他们造出开放真实世界的行动伙伴",
+   "summary_zh": "费莫一科技发布Physical Agent「Sagi」，四轮足人形上身，可在开放动态场景中接收目标并完成跨场景移动与操作。",
+   "highlights_zh": [
+    "Sagi定位「行动伙伴」，四轮足+人形上身+货箱",
+    "强调开放动态真实场景而非受控环境",
+    "通过LINK实现人机协作补位"
+   ],
+   "why_zh": "具身智能从demo走向开放场景落地的代表性尝试。",
+   "tags": [
+    "机器人",
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-11-03",
+   "slot": "evening",
+   "selected_at": "2026-11-03T12:43:40+00:00",
+   "mirror_pdf": "pdf/web-0a85712a2b72.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373424"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-90d368e4c737",
+   "kind": "article",
+   "title": "要更真实，还是更动人？AI视频生成走到了分岔口 | CNCC 2026",
+   "url": "https://www.leiphone.com/category/industrynews/Huxl5GuqzEUo9CL9.html",
+   "pdf_url": "",
+   "abstract": "从5大视角，看AI视频的挑战与风险在哪。 作者丨 徐晓飞 编辑丨刘 伟 当下，视频生成的竞争焦点，正在从 “ 像不像 ” 转移到 “ 能不能用 ” 。 画质、分辨率、单段时长这些指标，正被不同研究团队加速填平。当画面本身的差距收敛，剩下的落差就集中在了更难量化的地方，比如叙事是否连贯，情感是否到位， AI 内容进入真实传播链路之后会引发什么。 这正是 10 月 23 日下午， CNCC 2026 大会 “ 视频生成的智与情 ” 主题论坛尝试讨论的问题。 南开大学教授杨巨峰 ，是这场主题论坛的召集人。据他介绍，这个题目实际上有更早的源头。 2024 年，包括他在内的国内十位学者联名提出了 “ 情智兼备数字人与机器人的研究 ” 。这个题目被遴选为当年度中国科协十大前沿科学问题的第一位。 而今年，这个研究方向收敛到了 “ 视频生成 ” 这条更具体的赛道上。 杨巨峰把 “ 智 ” 比作人体骨架，这块技术已相对成熟，更加悬而未决的是 “ 情 ” 的部分。 他在开场留了一道引发大家思考的题：如果非要二选一，我们希望生成的视频更真实，还是更动人？ 雷峰网作为 CNCC 2026 大会的报道媒体之一，从工程交付、底层路线到社会影响三个维度，为大家带来这场主题论坛的精彩发现。 01 AI能拍科幻大片，却拍不好刘能赵四？ 视频生成发展至今，画面本身已经不难做了，但真要拿来干活，就会遇到更细碎的挑战：剧情怎么连贯？情绪怎么对味？ 单靠一个基座大模型，显然撑不起交付。如何做更好的交付，成为摆在从业者面前的一道必答题。 哈尔滨工业大学（深圳）教授户保田 在《多智能体协作的长时序视频生成：从规则可控到叙事共情》报告中，把长视频生成拆成 “ 质 ” 与 “ 情 ” 两条线： 质是真实感的基石，要求符合物理规律和空间关系；情是感染力的来源，包含叙事审美与共情表达。 据他介绍，目前，单基座大模型能稳定生成的长度在 15 到 20 秒，再往上走，跨镜头的角色漂移、跨模态的音画错位、长周期叙事断裂会集中出现。 他举了一个通俗例子：生成《乡村爱情》里刘能、赵四那类角色的对手戏，可能比生成科幻大片还难，难点不在场面，在人物关系的连续性。 对此，他的团队主要做了三块工作： 一块是把工作流变得可控，团队面向 ComfyUI 构建生成工作流基准，用节点优化加强化学习补上长程规划短板，14B 规模的模型就能达到较高准确率，这套系统已被 ComfyUI 集成为原生插件。 一块是长程叙事，Pixel Video 用故事模板协调生成流程、维护人物和时间线状态，相关开源项目在 GitHub 上拿到 3 万 star；之后的 Video Vlog 弱化刚性规则，转向多智能体导演框架，可生成连续剧类长视频。 还有一块是剪辑，Cut Master 以共享剪辑状态为核心，能处理小时级视频，剪辑质量评分相比平均水平最多提升 17 分。 他给这件事定的目标是八个字：逻辑可控，情感可感。 内蒙古大学骏马计划研究员亓帆 的《视频生成中的物理感知与视频情感表达》报告在另一头接住这个目标。 她把问题分成了三部分。 在物理感知部分，早期做法是用轨迹、相机、运动场这类外部约束管控动态变化，可控但不保证碰撞、受力这类物理正确。 近年的行业进展转向了物理规律引入，有研究设置了 2000 种物理专家，先从文本提取规律再细化到局部视觉特征。 她的观察是，这个方向的目标已经变了：过去追求下一帧好看，现在更强调状态能否持续，以及能否对环境变化做出响应。 情感表达最靠近 “ 情 ” 。 她认为把控情感需要满足三个条件：明确当下发生的事件语义",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-03T09:15:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/Huxl5GuqzEUo9CL9.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI视频生成走到分岔口：要真实还是动人",
+   "summary_zh": "CNCC 2026论坛上，学者指出视频生成竞争焦点从画质转向叙事连贯与情感表达，单基座模型稳定生成仅15-20秒，多智能体协作与物理感知成破局方向。",
+   "highlights_zh": [
+    "长视频难点在跨镜头角色漂移与叙事断裂，生成刘能赵四对手戏可能比科幻大片更难",
+    "哈工大团队用ComfyUI工作流+强化学习，14B模型达较高准确率并被集成为原生插件",
+    "物理感知从外部约束转向引入物理规律，有研究设置2000种物理专家"
+   ],
+   "why_zh": "视频生成从'像不像'转向'能不能用'，交付与情感是下一阶段竞争核心。",
+   "tags": [
+    "多模态",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-03",
+   "slot": "evening",
+   "selected_at": "2026-11-03T12:43:40+00:00",
+   "mirror_pdf": "pdf/web-90d368e4c737.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/Huxl5GuqzEUo9CL9.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d5452ed293fd",
+   "kind": "article",
+   "title": "小米斩获乌镇峰会双料大奖：小米集团获“杰出贡献奖”，小米具身基座模型获“领先科技奖”",
+   "url": "https://www.leiphone.com/category/industrynews/VVyx6DK55x5rIlQ4.html",
+   "pdf_url": "",
+   "abstract": "11月3日，小米方面披露，小米集团获得2026世界互联网大会“杰出贡献奖”创新突破类奖项，该奖项旨在表彰全球互联网相关领域作出杰出贡献的个人和企业。同时，小米机器人业务“面向规模化落地的通用机器人操作基座模型关键技术”获大会“领先科技奖”，该奖项旨在奖励全球年度最具领先性的互联网科技成果。 峰会期间，小米还对外披露了机器人业务在工业制造和家庭场景的两项最新落地进展。 在工厂场景，小米披露人形机器人在汽车工厂的最新“实习”进展：在中控台侧盖板排序工站中首次挑战8小时作业任务，满足工站全天生产需求，并实现作业过程异常自主纠偏与产线系统级协同，初步完成产线级作业能力验证。 在家庭场景，小米具身基座模型在小米青年公寓正式启动“试运营”，基于Xiaomi-Robotics-1 预训练模型搭建Agent 系统，已在小米青年公寓完成连续超30分钟、覆盖3个房间、包含50+任务的长程任务验证。 中国数实融合50人论坛副秘书长、数字经济智库首席研究员胡麒牧表示，小米机器人实现汽车工厂8小时整班作业、初步完成产线级作业能力验证，是人形机器人赋能智能制造的一次重要探索。“小米的独特之处在于机器人业务生长于真实的制造体系之上，智能制造工厂提供了稀缺的高质量训练数据来源。” 胡麒牧认为，小米完善的“人车家全生态”业务布局，为机器人业务提供了很好的落地通道，小米具身基座模型在青年公寓启动“试运营”，代表小米机器人开始探索对模型泛化能力要求更高的家庭场景，一套技术底座同时支撑工业与家庭两大场景，说明小米已跑通“场景定义技术、技术反哺场景”的正向循环。 乌镇峰会双奖认可，小米集团底层技术创新迎来体系化突破 11月2日至11月5日，2026世界互联网大会在浙江乌镇召开，小米集团荣获大会“杰出贡献奖”，小米机器人团队具身基座模型关键技术获大会“领先科技奖”。 乌镇峰会“杰出贡献奖”自2024年起设立，旨在表彰全球互联网相关领域作出杰出贡献的个人和企业。今年共有全球230余家企业申报，覆盖近20个国家和地区，涵盖人工智能、芯片设计、移动通信、互联网平台等多个赛道，经全球顶尖专家两轮评审，最终仅15家企业获此殊荣。 小米首次申报即拿下该奖项，充分体现了世界互联网大会对小米硬核科技创新突破能力的认可。作为一家核心技术布局覆盖芯片、AI、OS、智能制造、机器人等多领域的科技公司，小米在底层技术上的长期投入，正在多个方向迎来体系化的产出与突破。 乌镇峰会“领先科技奖”旨在奖励全球年度最具领先性的互联网科技成果，2026年奖项共征集到来自43个国家和地区的430余项科技成果，由30位国内外顶尖专家遴选出20个最终入围。 小米本次获奖技术为“面向规模化落地的通用机器人操作基座模型关键技术”，代表小米在具身模型和规模化应用方面的核心技术成果。目前该技术已在小米青年公寓开展小范围试点，实现真实场景下的“技术-产品-场景-数据”闭环。 小米此前已迭代2代具身基座模型，并在工业和家庭多个场景下开展技术验证和实际应用。最新一代具身基座模型 Xiaomi-Robotics-1 基于10万小时真实世界操作数据预训练，国内率先系统性验证具身智能领域 Scaling Law 的存在，并在 RoboCasa365、RoboDojo 等权威评测榜单上位列全球第一。 工业制造、家庭场景双突破，小米机器人披露最新进展 本次峰会期间，小米披露两项机器人最新落地进展，展现了小米机器人团队在工业制造和家庭场景的最新探索成果。 在工业制造场景，小米人形机器人完成产线级作业能力初步验证，在中控台侧盖板排序工站中首次挑战8小时作业任",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-03T07:56:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/VVyx6DK55x5rIlQ4.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "小米具身基座模型获乌镇峰会领先科技奖",
+   "summary_zh": "小米Xiaomi-Robotics-1基于10万小时真实操作数据预训练，称国内率先验证具身智能Scaling Law，并在RoboCasa365等榜单居首，同时披露工厂8小时作业与公寓长程任务进展。",
+   "highlights_zh": [
+    "人形机器人在汽车工厂中控台工站首次挑战8小时整班作业并实现异常自主纠偏",
+    "具身基座模型在青年公寓完成超30分钟、3房间、50+任务的长程验证",
+    "称在RoboCasa365、RoboDojo等权威评测榜单位列全球第一"
+   ],
+   "why_zh": "具身智能Scaling Law验证与工业/家庭双场景落地，是机器人赛道重要信号。",
+   "tags": [
+    "机器人",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-03",
+   "slot": "evening",
+   "selected_at": "2026-11-03T12:43:40+00:00",
+   "mirror_pdf": "pdf/web-d5452ed293fd.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/VVyx6DK55x5rIlQ4.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1ab47bfbe957",
+   "kind": "article",
+   "title": "从模型调用到任务交付：MaaS 如何走进 Agent 生产",
+   "url": "https://www.infoq.cn/article/zZutPTX8bsr6NWQYNC3A?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "王玮"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-03T14:40:18+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/zZutPTX8bsr6NWQYNC3A?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "从模型调用到任务交付：MaaS 走进 Agent 生产",
+   "summary_zh": "InfoQ 分析 MaaS 从单纯模型调用转向任务交付的演进，讨论其在智能体生产环境中的工程化落地路径与关键挑战。",
+   "highlights_zh": [
+    "MaaS 定位从 API 调用升级为任务交付",
+    "智能体生产化对平台能力的新要求",
+    "落地中的工程与运维挑战"
+   ],
+   "why_zh": "帮助判断模型服务平台在智能体时代的演进与选型。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-03",
+   "slot": "evening",
+   "selected_at": "2026-11-03T12:43:40+00:00",
+   "mirror_pdf": "pdf/web-1ab47bfbe957.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/zZutPTX8bsr6NWQYNC3A?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b2dd15a09471",
+   "kind": "article",
+   "title": "推理时代，算力产业需要换一套账本丨ToB产业观察",
+   "url": "https://www.tmtpost.com/8191692.html",
+   "pdf_url": "",
+   "abstract": "推理的崛起，除了改变了原有的算里账本之外，也在改写着芯片产业的结构。",
+   "authors": [
+    "Leo张ToB杂谈"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-03T11:00:09+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8191692.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "推理时代，算力产业需要换一套账本",
+   "summary_zh": "钛媒体分析推理负载崛起如何改变算力成本账本，并推动芯片产业结构调整，从训练导向转向推理导向。",
+   "highlights_zh": [
+    "推理负载改变算力成本结构",
+    "芯片产业格局随之调整",
+    "训练与推理的账本逻辑差异"
+   ],
+   "why_zh": "把握推理算力市场与芯片产业结构变化的关键视角。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-03",
+   "slot": "evening",
+   "selected_at": "2026-11-03T12:43:40+00:00",
+   "mirror_pdf": "pdf/web-b2dd15a09471.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8191692.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-769e56666dda",
+   "kind": "article",
+   "title": "TrendForce：AI 网络与互连持续接近翻倍增长，2027 年产值 2798 亿美元",
+   "url": "https://www.ithome.com/1/021/796.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 3 日消息，TrendForce（集邦）昨日发布预测， AI 网络与互连产值在 2027 年有望达到 2,798 亿美元 （IT之家注：现汇率约合 1.86 万亿元人民币） 。这意味着该领域 2024~2027 年期间的复合年化增长率 (CAGR) 将达到 95%， 持续实现接近翻倍的成长 。 ▲ 图源：TrendForce 从产品结构的角度来看，交换机仍是这一细分市场的最大产值来源，有望在明年贡献 38%（1,050 亿美元）；可插拔光模块则可达 841 亿美元；NIC（网络接口卡）与 DPU（数据处理器）将在 2027 年实现营收倍增，来到 574 亿美元。上述三类合计占到 88%。 而从互连类型角度，AI 芯片间高速互连的纵向扩展 (Scale-up) 将迎来最快增长，有望占据 AI 网络产值的 24%；连接至服务器后端网络的横向扩展 (Scale-out) 将在带宽升级至 1.6T 的趋势下迎来增长。 机构提到，AI 网络互连方案正迈向多样化，其供应链的价值分配将随平台组合与光互连架构演进而持续调整。 参考 TrendForce 集邦咨询: 预估 2027 年 AI 网络与互连产值将达 2,798 亿美元，Scale-up 占比升至 24%",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-03T12:00:15+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/021/796.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "TrendForce：AI网络与互连2027年产值将达2798亿美元",
+   "summary_zh": "TrendForce预测AI网络与互连2024-2027年CAGR达95%，2027年产值2798亿美元，Scale-up互连增长最快。",
+   "highlights_zh": [
+    "2024-2027年复合增速约95%",
+    "交换机、光模块、DPU合计占88%",
+    "Scale-up芯片间互连占比升至24%"
+   ],
+   "why_zh": "AI基础设施投资的结构性数据，判断算力供应链价值分配的重要参考。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-03",
+   "slot": "evening",
+   "selected_at": "2026-11-03T12:43:40+00:00",
+   "mirror_pdf": "pdf/web-769e56666dda.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/021/796.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.03534",
+   "kind": "paper",
+   "title": "An Agentic Framework for Automated Power System Studies and Grid Connection Assessment",
+   "url": "https://arxiv.org/abs/2611.03534",
+   "pdf_url": "https://arxiv.org/pdf/2611.03534",
+   "abstract": "Connecting new generation and demand to the grid depends on two scarce skills: checking applications against a large, changing body of regulation, and running the network studies that decide where and how a project connects. We present Grid Agents, an AI system that brings both together, and the methodology we use to evaluate it. The Grid Ontology is its knowledge system. It represents the regulation, standards and engineering knowledge that grid work depends on, makes it searchable, and evolves as the agents learn from use. Every answer drawn from it rests on evidence the agents cite. Grid Studio is an agent system specialised for power-system engineering. It works in its own engineering environment with domain tools and a study framework, draws on the Grid Ontology, and relies on established solvers for every number it reports. In both, engineers make the decisions. We bring eight published power-system benchmark families, previously scattered across separate papers, into one suite of 519 tasks, and we verify not only each answer but the work behind it, by replaying the agent's tool calls. The Grid Ontology cites the right regulatory evidence more often than a general coding agent or retrieval pipelines, leads on LegalBench-RAG and ranks first on the public leaderboards of the Enterprise RAG Challenge and ViDoRe V3. Grid Studio scores highest on the 519 power-system tasks and is the fastest of all the systems we compare, both by a statistically significant margin. With an optimiser in the loop, its reinforcement packages cost 33-67% less on average than those the agent designs alone.",
+   "authors": [
+    "MaoXun Huang",
+    "Kshitij Kapoor",
+    "Eli Louise"
+   ],
+   "orgs": [],
+   "published": "2026-11-02T18:00:52Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.03534",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "论文",
+   "lang": "en",
+   "who": "",
+   "title_zh": "电网接入研究的智能体框架",
+   "summary_zh": "提出Grid Agents系统，结合电网本体知识与专业智能体完成并网研究，并整合519项任务基准验证其推理过程。",
+   "highlights_zh": [
+    "Grid Ontology可检索并随使用演进，答案须引用证据",
+    "Grid Studio调用成熟求解器，工程师保留决策权",
+    "回放工具调用验证工作过程而非仅答案"
+   ],
+   "why_zh": "垂直行业智能体落地的完整范式，强调可审计的推理链。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 7.0,
+   "score": 0.548,
+   "date": "2026-11-03",
+   "slot": "evening",
+   "selected_at": "2026-11-03T12:43:40+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.03534.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.03534"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.03534"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.03534"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.03534"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.03534"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.03534"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "AI资本从叙事驱动转向现金流硬约束，基建扩张开始反噬估值",
-   "why": "五大建造商2026年资本支出首超经营现金流，亚马逊FCF转负，Anthropic算力承诺8954亿远超营收。",
-   "refs": [
-    "web-357b51120088",
-    "web-67edbb343aea",
-    "web-ccd0970014b5"
-   ]
-  },
-  {
-   "trend": "Agent商业模式集体承压，成本与收入倒挂成行业性难题",
-   "why": "Grok Bot成本难以为继下调限流，Meta Muse未盈利，金融机构开始追问投入产出比。",
+   "trend": "智能体商业模式先撞成本墙，订阅制与按量计费都难覆盖推理开销",
+   "why": "Grok Bot周活近80万仍称成本难以为继并限流，Kimi因配额烧太快公开道歉，Meta Muse同样未盈利。",
    "refs": [
     "web-1b988c1ec98b",
-    "web-cffc66cd4653",
-    "web-62e8ddd621f4"
+    "web-62e8ddd621f4",
+    "web-af3b46adb5da"
    ]
   },
   {
-   "trend": "评测范式转向真实任务与不可观测场景，传统benchmark失效",
-   "why": "OpenAI推LifeVal日常任务基准，法律AI需在无trace条件下评测，Realtime-Bench暴露低延迟短板。",
+   "trend": "评测重心从跑分转向真实任务与不可观测场景，评测方法本身成为竞争点",
+   "why": "OpenAI推LifeVal日常事务基准，Legora在无trace条件下评测法律Agent，Realtime-Bench暴露低延迟短板。",
    "refs": [
     "web-ed4b58253682",
     "web-69a46671059b",
+    "web-e33216d0e243",
     "web-e5f6124c6872"
    ]
   },
   {
-   "trend": "权重空间编程成技术新拐点，绕过微调直接编辑模型权重",
-   "why": "MIT称Astra直接改Qwen权重数学能力涨6倍，Astra读写权重路径在HN引发热议。",
+   "trend": "权重空间编程成新架构拐点，绕过微调直接编辑模型权重",
+   "why": "Astra与MIT称直接读写Qwen权重使数学能力涨6倍，Latent Space将其综述为独立范式。",
    "refs": [
-    "web-c28394df35a4",
     "web-38c41eb0ed98",
+    "web-c28394df35a4",
     "web-360a3a5d8e13"
    ]
   },
   {
-   "trend": "国产算力与模型形成闭环，长程智能体成主战场",
-   "why": "美团1.6万亿参数LongCat-2.5全程国产算力训练，为目前国产算力最大训练任务。",
+   "trend": "AI资本结构系统性承压，算力承诺与资本支出首超经营现金流",
+   "why": "Anthropic披露约8954亿美元算力承诺且营业转亏，五大建造商2026年资本支出首超合计经营现金流。",
    "refs": [
-    "web-b2d81116a477",
-    "web-b687bdf52760"
+    "web-67edbb343aea",
+    "web-357b51120088",
+    "web-8656d92473f1"
+   ]
+  },
+  {
+   "trend": "Agent产品进入淘汰赛，工具链与停止策略比模型能力更决定产出",
+   "why": "16个大厂AI产品中TRAE Work仅76天被整合，实测Sonnet 5.5成本仅Sol的28%但深度核验更弱。",
+   "refs": [
+    "web-2ed628ecc1fc",
+    "web-67bc175ec683",
+    "web-78b2e4a37aa8"
    ]
   }
  ]
