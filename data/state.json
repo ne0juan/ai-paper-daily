@@ -2156,7 +2156,24 @@
   "web-24a061501bdf": "2026-11-03",
   "web-b687bdf52760": "2026-11-03",
   "web-b61036675f09": "2026-11-03",
-  "web-d04e374a7c71": "2026-11-03"
+  "web-d04e374a7c71": "2026-11-03",
+  "web-5464a863f83d": "2026-11-03",
+  "web-360a3a5d8e13": "2026-11-03",
+  "web-7dd9eb330979": "2026-11-03",
+  "web-69a46671059b": "2026-11-03",
+  "web-e33216d0e243": "2026-11-03",
+  "web-67bc175ec683": "2026-11-03",
+  "web-2ed628ecc1fc": "2026-11-03",
+  "web-519a32aaa88b": "2026-11-03",
+  "web-b46ccfa45496": "2026-11-03",
+  "web-c28394df35a4": "2026-11-03",
+  "web-0d67183d9957": "2026-11-03",
+  "web-67edbb343aea": "2026-11-03",
+  "web-af3b46adb5da": "2026-11-03",
+  "web-78b2e4a37aa8": "2026-11-03",
+  "web-eaa49ddd7705": "2026-11-03",
+  "web-62e8ddd621f4": "2026-11-03",
+  "web-357b51120088": "2026-11-03"
  },
  "known_links": {
   "https://www.anthropic.com/news": [
@@ -2426,47 +2443,6 @@
   ]
  },
  "runs": [
-  {
-   "at": "2026-10-13T18:05:13+00:00",
-   "slot": "morning",
-   "candidates": 141,
-   "new": 46,
-   "stale": 49,
-   "judged": 46,
-   "selected": 16,
-   "mirrored": 14,
-   "by_category": {
-    "资讯": 13,
-    "技术": 2,
-    "观点": 1
-   },
-   "by_source": {
-    "HF Daily Papers": 32,
-    "Hacker News": 10,
-    "量子位": 10,
-    "极客公园": 6,
-    "IT之家": 14,
-    "爱范儿": 5,
-    "少数派": 1,
-    "雷峰网": 14,
-    "钛媒体": 3,
-    "InfoQ 中文": 11,
-    "Simon Willison": 1,
-    "Latent Space": 2,
-    "Jack Clark": 1,
-    "Azeem Azhar": 1,
-    "Tomasz Tunguz": 1,
-    "Zvi Mowshowitz": 2,
-    "Hugging Face Blog": 1,
-    "Google DeepMind": 2,
-    "NVIDIA": 3,
-    "Anthropic Engineering": 1,
-    "GitHub Trending": 10,
-    "GitHub 新项目": 10
-   },
-   "llm": true,
-   "translated": 0
-  },
   {
    "at": "2026-10-14T03:48:37+00:00",
    "slot": "noon",
@@ -4989,6 +4965,47 @@
     "xAI": 1,
     "GitHub Trending": 9,
     "GitHub 新项目": 11
+   },
+   "llm": true,
+   "translated": 0
+  },
+  {
+   "at": "2026-11-03T05:37:25+00:00",
+   "slot": "noon",
+   "candidates": 126,
+   "new": 72,
+   "stale": 14,
+   "judged": 72,
+   "selected": 17,
+   "mirrored": 17,
+   "by_category": {
+    "资讯": 11,
+    "观点": 3,
+    "技术": 2,
+    "项目": 1
+   },
+   "by_source": {
+    "HF Daily Papers": 11,
+    "Hacker News": 9,
+    "量子位": 10,
+    "极客公园": 4,
+    "IT之家": 13,
+    "爱范儿": 7,
+    "少数派": 2,
+    "雷峰网": 14,
+    "钛媒体": 5,
+    "InfoQ 中文": 13,
+    "Simon Willison": 1,
+    "Latent Space": 3,
+    "Jack Clark": 1,
+    "Stratechery": 1,
+    "SemiAnalysis": 2,
+    "Tomasz Tunguz": 1,
+    "Zvi Mowshowitz": 1,
+    "科学空间": 1,
+    "OpenAI": 7,
+    "GitHub Trending": 10,
+    "GitHub 新项目": 10
    },
    "llm": true,
    "translated": 0

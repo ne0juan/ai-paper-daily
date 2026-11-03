@@ -1,11 +1,12 @@
 {
- "updated": "2026-11-02T20:43:01+00:00",
+ "updated": "2026-11-03T05:37:25+00:00",
  "days": [
   {
    "date": "2026-11-03",
-   "count": 18,
+   "count": 35,
    "slots": {
-    "morning": 18
+    "morning": 18,
+    "noon": 17
    }
   },
   {
@@ -357,44 +358,44 @@
    }
   }
  ],
- "total": 2153,
+ "total": 2170,
  "last_run": {
-  "at": "2026-11-02T20:43:01+00:00",
-  "slot": "morning",
-  "candidates": 109,
-  "new": 52,
-  "stale": 17,
-  "judged": 52,
-  "selected": 18,
+  "at": "2026-11-03T05:37:25+00:00",
+  "slot": "noon",
+  "candidates": 126,
+  "new": 72,
+  "stale": 14,
+  "judged": 72,
+  "selected": 17,
   "mirrored": 17,
   "by_category": {
-   "观点": 3,
    "资讯": 11,
+   "观点": 3,
    "技术": 2,
-   "项目": 2
+   "项目": 1
   },
   "by_source": {
-   "HF Daily Papers": 7,
-   "Hacker News": 6,
+   "HF Daily Papers": 11,
+   "Hacker News": 9,
    "量子位": 10,
    "极客公园": 4,
-   "IT之家": 15,
-   "爱范儿": 5,
-   "少数派": 1,
-   "雷峰网": 13,
-   "钛媒体": 3,
+   "IT之家": 13,
+   "爱范儿": 7,
+   "少数派": 2,
+   "雷峰网": 14,
+   "钛媒体": 5,
    "InfoQ 中文": 13,
    "Simon Willison": 1,
+   "Latent Space": 3,
    "Jack Clark": 1,
    "Stratechery": 1,
    "SemiAnalysis": 2,
-   "Azeem Azhar": 1,
    "Tomasz Tunguz": 1,
+   "Zvi Mowshowitz": 1,
    "科学空间": 1,
-   "OpenAI": 3,
-   "xAI": 1,
-   "GitHub Trending": 9,
-   "GitHub 新项目": 11
+   "OpenAI": 7,
+   "GitHub Trending": 10,
+   "GitHub 新项目": 10
   },
   "llm": true,
   "translated": 0
