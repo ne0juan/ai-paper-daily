@@ -1,10 +1,13 @@
-2026-11-03 05:37:25,612 INFO source hf_daily           -> 11 items
-2026-11-03 05:37:26,182 INFO source hackernews         -> 9 items
-2026-11-03 05:37:57,857 INFO source rss                -> 86 items
-2026-11-03 05:37:59,371 INFO source html_lists         -> 0 items
-2026-11-03 05:37:59,371 INFO source x                  -> 0 items
-2026-11-03 05:38:57,860 WARNING source arxiv_search failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=30)
-2026-11-03 05:39:06,499 INFO source github             -> 20 items
-2026-11-03 05:39:06,500 INFO candidates: 126 (stale dropped 14, new 72)
-2026-11-03 05:40:21,119 INFO llm judged 72/72 (calls=9)
-2026-11-03 05:44:02,075 INFO run done: {"at": "2026-11-03T05:37:25+00:00", "slot": "noon", "candidates": 126, "new": 72, "stale": 14, "judged": 72, "selected": 17, "mirrored": 17, "by_category": {"资讯": 11, "观点": 3, "技术": 2, "项目": 1}, "by_source": {"HF Daily Papers": 11, "Hacker News": 9, "量子位": 10, "极客公园": 4, "IT之家": 13, "爱范儿": 7, "少数派": 2, "雷峰网": 14, "钛媒体": 5, "InfoQ 中文": 13, "Simon Willison": 1, "Latent Space": 3, "Jack Clark": 1, "Stratechery": 1, "SemiAnalysis": 2, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "科学空间": 1, "OpenAI": 7, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
+2026-11-03 12:43:41,248 INFO source hf_daily           -> 17 items
+2026-11-03 12:43:41,501 INFO source hackernews         -> 10 items
+2026-11-03 12:44:07,284 INFO source rss                -> 89 items
+2026-11-03 12:44:08,659 INFO source html_lists         -> 0 items
+2026-11-03 12:44:08,659 INFO source x                  -> 0 items
+2026-11-03 12:44:09,788 INFO source arxiv_search       -> 60 items
+2026-11-03 12:44:16,013 INFO source github             -> 20 items
+2026-11-03 12:44:16,015 INFO candidates: 195 (stale dropped 15, new 144)
+2026-11-03 12:46:04,971 INFO llm judged 100/100 (calls=13)
+2026-11-03 12:46:13,098 WARNING pdf arxiv-2611.03178: too large (> 25165824 bytes): https://arxiv.org/pdf/2611.03178
+2026-11-03 12:46:16,658 WARNING snapshot https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/: blocked or empty page
+2026-11-03 12:46:49,552 WARNING snapshot https://thezvi.wordpress.com/2026/11/02/scott-alexanders-against-sura-seems-deeply-confused/: blocked or empty page
+2026-11-03 12:49:15,783 INFO run done: {"at": "2026-11-03T12:43:40+00:00", "slot": "evening", "candidates": 195, "new": 144, "stale": 15, "judged": 100, "selected": 22, "mirrored": 19, "by_category": {"资讯": 13, "技术": 4, "项目": 3, "观点": 1, "论文": 1}, "by_source": {"HF Daily Papers": 17, "Hacker News": 10, "OpenAI": 8, "量子位": 10, "极客公园": 4, "IT之家": 12, "爱范儿": 9, "少数派": 3, "雷峰网": 14, "钛媒体": 4, "InfoQ 中文": 13, "Simon Willison": 1, "Latent Space": 3, "Jack Clark": 1, "Stratechery": 1, "SemiAnalysis": 2, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "Hugging Face Blog": 1, "NVIDIA": 1, "arXiv 新论文": 60, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}

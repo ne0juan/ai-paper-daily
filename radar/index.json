@@ -1,12 +1,13 @@
 {
- "updated": "2026-11-03T05:37:25+00:00",
+ "updated": "2026-11-03T12:43:40+00:00",
  "days": [
   {
    "date": "2026-11-03",
-   "count": 35,
+   "count": 57,
    "slots": {
     "morning": 18,
-    "noon": 17
+    "noon": 17,
+    "evening": 22
    }
   },
   {
@@ -358,32 +359,34 @@
    }
   }
  ],
- "total": 2170,
+ "total": 2192,
  "last_run": {
-  "at": "2026-11-03T05:37:25+00:00",
-  "slot": "noon",
-  "candidates": 126,
-  "new": 72,
-  "stale": 14,
-  "judged": 72,
-  "selected": 17,
-  "mirrored": 17,
+  "at": "2026-11-03T12:43:40+00:00",
+  "slot": "evening",
+  "candidates": 195,
+  "new": 144,
+  "stale": 15,
+  "judged": 100,
+  "selected": 22,
+  "mirrored": 19,
   "by_category": {
-   "资讯": 11,
-   "观点": 3,
-   "技术": 2,
-   "项目": 1
+   "资讯": 13,
+   "技术": 4,
+   "项目": 3,
+   "观点": 1,
+   "论文": 1
   },
   "by_source": {
-   "HF Daily Papers": 11,
-   "Hacker News": 9,
+   "HF Daily Papers": 17,
+   "Hacker News": 10,
+   "OpenAI": 8,
    "量子位": 10,
    "极客公园": 4,
-   "IT之家": 13,
-   "爱范儿": 7,
-   "少数派": 2,
+   "IT之家": 12,
+   "爱范儿": 9,
+   "少数派": 3,
    "雷峰网": 14,
-   "钛媒体": 5,
+   "钛媒体": 4,
    "InfoQ 中文": 13,
    "Simon Willison": 1,
    "Latent Space": 3,
@@ -392,10 +395,11 @@
    "SemiAnalysis": 2,
    "Tomasz Tunguz": 1,
    "Zvi Mowshowitz": 1,
-   "科学空间": 1,
-   "OpenAI": 7,
-   "GitHub Trending": 10,
-   "GitHub 新项目": 10
+   "Hugging Face Blog": 1,
+   "NVIDIA": 1,
+   "arXiv 新论文": 60,
+   "GitHub Trending": 11,
+   "GitHub 新项目": 9
   },
   "llm": true,
   "translated": 0
