@@ -1,13 +1,11 @@
-2026-11-03 12:43:41,248 INFO source hf_daily           -> 17 items
-2026-11-03 12:43:41,501 INFO source hackernews         -> 10 items
-2026-11-03 12:44:07,284 INFO source rss                -> 89 items
-2026-11-03 12:44:08,659 INFO source html_lists         -> 0 items
-2026-11-03 12:44:08,659 INFO source x                  -> 0 items
-2026-11-03 12:44:09,788 INFO source arxiv_search       -> 60 items
-2026-11-03 12:44:16,013 INFO source github             -> 20 items
-2026-11-03 12:44:16,015 INFO candidates: 195 (stale dropped 15, new 144)
-2026-11-03 12:46:04,971 INFO llm judged 100/100 (calls=13)
-2026-11-03 12:46:13,098 WARNING pdf arxiv-2611.03178: too large (> 25165824 bytes): https://arxiv.org/pdf/2611.03178
-2026-11-03 12:46:16,658 WARNING snapshot https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/: blocked or empty page
-2026-11-03 12:46:49,552 WARNING snapshot https://thezvi.wordpress.com/2026/11/02/scott-alexanders-against-sura-seems-deeply-confused/: blocked or empty page
-2026-11-03 12:49:15,783 INFO run done: {"at": "2026-11-03T12:43:40+00:00", "slot": "evening", "candidates": 195, "new": 144, "stale": 15, "judged": 100, "selected": 22, "mirrored": 19, "by_category": {"资讯": 13, "技术": 4, "项目": 3, "观点": 1, "论文": 1}, "by_source": {"HF Daily Papers": 17, "Hacker News": 10, "OpenAI": 8, "量子位": 10, "极客公园": 4, "IT之家": 12, "爱范儿": 9, "少数派": 3, "雷峰网": 14, "钛媒体": 4, "InfoQ 中文": 13, "Simon Willison": 1, "Latent Space": 3, "Jack Clark": 1, "Stratechery": 1, "SemiAnalysis": 2, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "Hugging Face Blog": 1, "NVIDIA": 1, "arXiv 新论文": 60, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
+2026-11-03 18:21:36,451 INFO source hf_daily           -> 21 items
+2026-11-03 18:21:36,804 INFO source hackernews         -> 16 items
+2026-11-03 18:22:30,940 INFO source rss                -> 97 items
+2026-11-03 18:22:32,939 INFO source html_lists         -> 0 items
+2026-11-03 18:22:32,940 INFO source x                  -> 0 items
+2026-11-03 18:22:33,437 INFO source arxiv_search       -> 60 items
+2026-11-03 18:22:43,785 INFO source github             -> 20 items
+2026-11-03 18:22:43,788 INFO candidates: 213 (stale dropped 90, new 81)
+2026-11-03 18:24:03,691 INFO llm judged 81/81 (calls=11)
+2026-11-03 18:24:15,524 WARNING snapshot https://thezvi.wordpress.com/2026/11/03/openai-updates-its-model-spec/: blocked or empty page
+2026-11-03 18:26:18,415 INFO run done: {"at": "2026-11-03T18:21:36+00:00", "slot": "morning", "candidates": 213, "new": 81, "stale": 90, "judged": 81, "selected": 20, "mirrored": 19, "by_category": {"观点": 3, "资讯": 11, "技术": 4, "项目": 1, "论文": 1}, "by_source": {"HF Daily Papers": 21, "Hacker News": 16, "OpenAI": 8, "量子位": 10, "极客公园": 4, "IT之家": 10, "爱范儿": 9, "少数派": 3, "雷峰网": 15, "钛媒体": 5, "InfoQ 中文": 13, "Simon Willison": 2, "Latent Space": 3, "Jack Clark": 1, "Stratechery": 1, "SemiAnalysis": 2, "Tomasz Tunguz": 2, "Zvi Mowshowitz": 2, "Hugging Face Blog": 4, "Google DeepMind": 1, "NVIDIA": 2, "arXiv 新论文": 60, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
