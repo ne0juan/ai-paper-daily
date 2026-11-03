@@ -1,0 +1,1174 @@
+{
+ "date": "2026-11-04",
+ "items": [
+  {
+   "id": "web-9b0f1b3870f8",
+   "kind": "article",
+   "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+   "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+   "pdf_url": "",
+   "abstract": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model - literally a text description of the model containing a bunch of floating point numbers. I've been playing with one of the examples from the paper and I'm delighted to share that Qwen 3.8 27B running on my laptop can do this as well! Weight-Space Programming Here's the highlight from their abstract, describing impressive capabilities for GPT-6 Astra and coining the term Weight-Space Programming for when LLMs analyze and modify model weights: Just by looking at the raw weights, GPT-6 Astra can tell what a network was trained to do . And without any environment feedback, it has no trouble writing, from scratch, small game-playing networks that outplay networks trained with PPO for 100 million steps. Likewise, asked to make Qwen3.5-0.8B better at math without gradients, Astra identifies an issue in its weights causing reasoning loops that Qwen’s own model card warns about, and fixes this by natively editing 0.016% of the weights . With the same sampling settings, this weight correction raises MATH-500 from 7.9% to 48.1% and generalizes out of the box to instruction following, raising IFEval by 3x. All of this is possible without allowing Astra to write training loops.",
+   "authors": [
+    "Simon Willison"
+   ],
+   "orgs": [
+    "Simon Willison"
+   ],
+   "published": "2026-11-03T16:29:48+00:00",
+   "sources": [
+    {
+     "name": "Simon Willison",
+     "authority": 0.8,
+     "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Django 联合创始人，LLM 实践者",
+   "title_zh": "笔记本上的Qwen也能读懂模型权重",
+   "summary_zh": "Simon Willison复现论文发现，本地Qwen 3.8 27B也能直接阅读并修改神经网络权重，验证了「权重空间编程」能力并非前沿模型专属。",
+   "highlights_zh": [
+    "论文提出LLM可直接读写模型权重，称权重空间编程",
+    "GPT-6 Astra仅改0.016%权重将MATH-500从7.9%提至48.1%",
+    "作者在本地27B模型上复现了论文示例"
+   ],
+   "why_zh": "揭示LLM理解权重的新范式，值得关注其可复现性与边界。",
+   "tags": [
+    "大模型",
+    "理论",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.708,
+   "date": "2026-11-04",
+   "slot": "morning",
+   "selected_at": "2026-11-03T18:21:36+00:00",
+   "mirror_pdf": "pdf/web-9b0f1b3870f8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-435a4449f912",
+   "kind": "article",
+   "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+   "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-03T12:21:17Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50351111",
+     "signal": "722 pts",
+     "metric": 722
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "「Astra 能读写权重改进 Qwen」的说法有误导性",
+   "summary_zh": "社区对「Astra 可读写模型权重来改进 Qwen」的说法提出质疑，指出其表述夸大或存在误导，引发对模型权重操控类宣传的讨论。",
+   "highlights_zh": [
+    "针对 Astra 读写权重改进 Qwen 的说法进行辟谣式分析",
+    "Hacker News 722 分，社区关注度高",
+    "提醒从业者警惕模型能力宣传中的夸大表述"
+   ],
+   "why_zh": "帮助辨别模型能力宣传中的水分，避免被误导性技术说法带偏。",
+   "tags": [
+    "大模型",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.62,
+   "score_llm": 7.0,
+   "score": 0.668,
+   "date": "2026-11-04",
+   "slot": "morning",
+   "selected_at": "2026-11-03T18:21:36+00:00",
+   "mirror_pdf": "pdf/web-435a4449f912.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://honnibal.dev/blog/astra-read-write-misleading"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50351111"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0e35fd66aa7f",
+   "kind": "article",
+   "title": "The Financial Engineering Essential for AI in 2027",
+   "url": "https://tomtunguz.com/the-financial-engineering-essential-for-ai-in-2027/",
+   "pdf_url": "",
+   "abstract": "Anthropic's Form S-1/A rolls financials through Q3 2026 ($17.0b revenue, +$8.6b operating cash flow) & reveals that $5.0b of short-term burst compute at $7 to $13 per GPU-hour lifted blended GPU-hour costs 82% in two quarters, flipping Q2's $974m operating profit into a $567m Q3 loss & driving $895.4b of long-term obligations.",
+   "authors": [
+    "Tomasz Tunguz"
+   ],
+   "orgs": [
+    "Tomasz Tunguz"
+   ],
+   "published": "2026-11-03T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Tomasz Tunguz",
+     "authority": 0.75,
+     "url": "https://tomtunguz.com/the-financial-engineering-essential-for-ai-in-2027/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Theory Ventures 创始人，AI 投资",
+   "title_zh": "2027年AI公司必备的财务工程",
+   "summary_zh": "Tomasz Tunguz分析Anthropic财务数据：短期爆发算力以每GPU小时7-13美元采购，两季度内推高混合成本82%，Q2盈利9.74亿美元转为Q3亏损5.67亿。",
+   "highlights_zh": [
+    "短期爆发算力溢价显著拉高整体GPU成本",
+    "盈利转亏损凸显算力采购策略的财务风险",
+    "长期义务达8954亿美元，资本结构承压"
+   ],
+   "why_zh": "从财务视角理解AI公司算力成本结构与经营风险。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-11-04",
+   "slot": "morning",
+   "selected_at": "2026-11-03T18:21:36+00:00",
+   "mirror_pdf": "pdf/web-0e35fd66aa7f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://tomtunguz.com/the-financial-engineering-essential-for-ai-in-2027/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-546b7ce32e24",
+   "kind": "article",
+   "title": "OpenAI Updates Its Model Spec",
+   "url": "https://thezvi.wordpress.com/2026/11/03/openai-updates-its-model-spec/",
+   "pdf_url": "",
+   "abstract": "The Model Spec is potentially OpenAI’s most important document. It outlines what they aspire for the model to do, and how it should think. I’ve already covered a previous version in depth, so my strategy this time is to look … Continue reading →",
+   "authors": [
+    "TheZvi"
+   ],
+   "orgs": [
+    "Zvi Mowshowitz"
+   ],
+   "published": "2026-11-03T16:49:02+00:00",
+   "sources": [
+    {
+     "name": "Zvi Mowshowitz",
+     "authority": 0.75,
+     "url": "https://thezvi.wordpress.com/2026/11/03/openai-updates-its-model-spec/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 趋势评论员，每周 AI 综述",
+   "title_zh": "OpenAI 更新 Model Spec：模型行为准则再修订",
+   "summary_zh": "Zvi 解读 OpenAI 新版 Model Spec，分析其对模型行为边界与价值取向的调整，认为这是 OpenAI 最重要的文档之一。",
+   "highlights_zh": [
+    "Model Spec 定义 OpenAI 期望模型做什么、如何思考",
+    "对比上一版本，梳理新增与修改条款",
+    "从对齐与产品策略角度评估其影响"
+   ],
+   "why_zh": "理解头部公司如何为模型行为定规矩，是判断对齐方向的风向标。",
+   "tags": [
+    "对齐与安全",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-11-04",
+   "slot": "morning",
+   "selected_at": "2026-11-03T18:21:36+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://thezvi.wordpress.com/2026/11/03/openai-updates-its-model-spec/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-229ecaa3bbf1",
+   "kind": "article",
+   "title": "AI教AI开车！百度Apollo World世界模型叩开无人驾驶产业“AGI时刻”",
+   "url": "https://www.leiphone.com/category/industrynews/NVxn28w1vAG2qbFy.html",
+   "pdf_url": "",
+   "abstract": "“世界模型，重点不是渲染的画质是否好看，而是模拟器是否能忠实还原现实物理规律和行为的因果”。11月3日，在深圳举行的百度AI Day·Apollo专场上，百度Apollo首次披露面向物理AI的智能体驱动全模态世界模型Apollo World，并提出世界模型“2+3”判断标准。目前，该模型已用于萝卜快跑全球化测试与验证，助力无人驾驶规模化落地。 百度智能驾驶事业群组(IDG)首席架构师、IDG技术委员会主席王亮表示，世界模型不能只做“生成炫酷视频的画师”，更要成为验证无人驾驶安全性的“考官”。萝卜快跑是中国唯一以端到端技术规模化运行 L4 无人驾驶的出行平台，端到端全无人运营超百万公里，Apollo World为其提供虚拟训练环境，帮助“学生” AI Driver学习、验证和迭代。 “Apollo World将虚拟场景内所有交通参与者建模为具备决策与交互能力的AI智能体，支持无人车在虚拟城市任意起终点通行，打造提前验证‘无限未来’的虚拟场景订单。”百度智能驾驶事业群组(IDG)杰出架构师、世界模型负责人杨泽进一步介绍。此外，Apollo World的技术栈还可拓展至机器人等更广泛的物理 AI 场景。 行业人士分析，Apollo World可“日行十万公里”，其一天完成的虚拟路测里程相当于一辆配备安全员的真实路测车连续测试约三年。依托世界模型带来的能力跃升，叠加数据飞轮效应，行业将呈现强者恒强的格局，这一趋势也正把行业推向等待已久的“AGI时刻”。 世界模型不能只是“画得像”，Apollo抛出世界模型“2+3”评判标尺 摩根士丹利将世界模型视为AI的“想象引擎”，让AI能在行动前先在虚拟空间推演，实现“先思考、后行动”。但把这种能力迁移到无人驾驶并不容易。李飞飞曾提出“汽车是带轮子的机器人”，但自动驾驶汽车更像是二维避障方盒子，与三维家务机器人差距明显。 王亮表示，会跳舞、叠衣服的机器人很厉害，但学会开车是另一重难题。无人驾驶从来不是具身智能的“EASY模式”：机器人只需在受限空间执行规划动作，无人驾驶则身处开放道路，持续与海量不可预判的交通参与者博弈。对一台近两吨重、几十公里时速的车辆而言，它的每一次判断和动作都直接关系到交通安全，这对安全、实时性和冲突博弈的要求高出了一个量级——开放世界容错空间几乎为零，安全决策周期要严格限定在1/30秒内。这意味着，世界模型不能只满足于“像”。 站在物理AI视角，Apollo提出“2+3”判断标准：“2”是决定算不算世界模型的基础门槛，“3”是衡量模型能力高下的进阶指标。“2”项基础门槛：一是因果性，遵循时间单向性，由过去决定未来，基于当前状态预测下一刻，而非拼凑画面反推过去；二是交互性，能动态响应外部干预，注入动作影响未来世界状态。“3”项增益属性：物理准确性，模拟的状态有多可靠，是否符合世界规律，学习获得的能力回到物理世界还能不能用；持久性，持续运行的时间和稳定性能不能跟上，长时间运行物体和细节是否发生漂移；实时性，低时延，生成世界复杂度的增长不影响模型推理时间，获得高模拟测试效率。 Apollo World的三大核心能力：智能体驱动、全模态感知、行程闭环 杨泽介绍：“Apollo World 希望赋予交通参与者智能，让世界能够回应无人车的每一个动作。” 传统仿真里，其他交通参与者更像是按脚本运行的道具。在Apollo World构建的虚拟城市中，车辆、行人等交通参与者均被建模为具备决策和交互能力的AI智能体，能够根据周围交通变化调整行动。无人车减速、变道或让行，都可能引发其他参与者的不同反应，使无人驾驶系",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-03T13:59:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/NVxn28w1vAG2qbFy.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "百度Apollo发布世界模型，提出「2+3」评判标准",
+   "summary_zh": "百度Apollo推出面向物理AI的全模态世界模型Apollo World，提出因果性、交互性两项基础门槛与物理准确性、持久性、实时性三项进阶指标，已用于萝卜快跑全球化测试。",
+   "highlights_zh": [
+    "提出世界模型「2+3」判断标准：因果性、交互性为基础，物理准确性、持久性、实时性为进阶",
+    "将虚拟场景所有交通参与者建模为具备决策交互能力的AI智能体，支持任意起终点通行",
+    "一天虚拟路测里程相当于真实路测车连续测试约三年，技术栈可拓展至机器人等物理AI场景"
+   ],
+   "why_zh": "世界模型从「画得像」到「算得准」的评判框架，对自动驾驶与具身智能仿真都有参考价值。",
+   "tags": [
+    "多模态",
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-04",
+   "slot": "morning",
+   "selected_at": "2026-11-03T18:21:36+00:00",
+   "mirror_pdf": "pdf/web-229ecaa3bbf1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/NVxn28w1vAG2qbFy.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5ccf52ca3ee5",
+   "kind": "article",
+   "title": "中国开源走向物理世界，蚂蚁灵波携机器人通用大脑亮相乌镇",
+   "url": "https://www.leiphone.com/category/industrynews/ADcxxdwtaojQvzhp.html",
+   "pdf_url": "",
+   "abstract": "11月2日至5日，2026年世界互联网大会乌镇峰会在浙江乌镇举行，本届峰会的主题为“开源开放 共建共享——携手构建网络空间命运共同体”。蚂蚁集团旗下具身智能公司蚂蚁灵波，携全栈开源的机器人通用大脑亮相乌镇，展示模型研发、开源协作以及场景应用的新进展。 今天，开源正从语言、代码和内容生成，延伸至机器人对物理世界的感知、预测与行动。与数字世界不同，机器人本体千差万别，任务场景高度分散，许多团队不得不为每一种构型、每一个场景从头训练“大脑”。 对此，灵波给出的路径是开放的具身基础模型。目前，灵波已向全球开源覆盖空间智能、灵巧操作与环境反馈的核心模型，围绕让机器人“看得更清楚、想得更明白、干得更利索”构建全栈能力，让同一套智能在不同机器人构型、任务和场景中复用。 蚂蚁灵波大脑全栈2.0模型矩阵 据统计，LingBot系列模型开源9个月来，下载量已突破220万，GitHub Star数超过3.3万，相关工作被 Physical Intelligence、Generalist AI 等全球友商引用。这套来自中国的机器人大脑，已走进全球科研与工程体系：斯坦福大学OpenWAM项目复用并适配了LingBot-VA模块；韩国FastOPD研究以LingBot-VLA为教师模型，探索训练更轻量的机器人方案；瑞士洛桑联邦理工学院基于LingBot-Map开展珊瑚礁三维重建。 与此同时，灵波模型也在加速接入全球开发者工具链：LingBot-VLA、LingBot-VA已完成对全球最大机器人开发平台LeRobot的生态适配，LingBot-Vision已合入业界主流视觉骨干模型库timm主线，LingBot-World成为全球首个同时获得vLLM、SGLang两大主流开源推理引擎支持的世界模型，英伟达也将LingBot-World集成至其开源世界模型推理库FlashDreams。 开源生态的活力也体现在开发者社区。首届“蚂蚁灵波具身大模型挑战赛”线上初赛近日落幕，吸引了来自13个国家、648所高校及企业的1855支队伍、3252位选手参赛，创下行业最大规模。 蚂蚁灵波通用大脑驱动机器人自主取药 峰会期间，蚂蚁灵波与国大药房在乌镇世界互联网科技馆联合呈现机器人智慧药房。展位完整还原真实药房环境，药品密集摆放，机器人在80厘米宽的窄通道内，自主完成从订单接收、智能分拣到商品交付的全流程连续作业。目前，相关方案已在上海国大药房多家门店常态化运营，无需改造商品陈列或门店布局，机器人即可融入既有运营环境，帮助药剂师分担高频、重复的分拣工作。 药房之外，灵波正与隆盛唯睿、德马科技、德迩象网等伙伴拓展工业上下料、物流分拣场景，与乐聚、钛虎等本体厂商验证“一脑多机”，并与阿拉伯数字经济联盟（AFDE）签署合作备忘录，推动机器人通用大脑在中东零售、物流、酒店餐饮等行业的应用。 凭借技术创新与落地实效，蚂蚁灵波荣获2026年世界互联网大会“互联网之光”博览会“新光”系列两项殊荣：机器人通用大脑全栈模型获“新光”产品奖，机器人智慧药房获“新耀”场景奖。 雷峰网 雷峰网",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-03T13:41:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/ADcxxdwtaojQvzhp.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "蚂蚁灵波全栈开源机器人大脑亮相乌镇",
+   "summary_zh": "蚂蚁灵波展示全栈开源的机器人通用大脑LingBot系列，开源9个月下载量破220万、GitHub Star超3.3万，已被斯坦福、洛桑联邦理工等机构复用，并在国大药房门店常态化运营。",
+   "highlights_zh": [
+    "LingBot系列覆盖空间智能、灵巧操作与环境反馈，同一套智能可跨机器人构型复用",
+    "LingBot-World成为首个同时获vLLM、SGLang支持的世界模型，并被英伟达集成至FlashDreams",
+    "智慧药房方案已在上海国大药房多家门店常态化运营，无需改造门店布局"
+   ],
+   "why_zh": "中国开源具身基础模型进入全球科研工具链的样本，关注机器人通用大脑落地路径值得一读。",
+   "tags": [
+    "机器人",
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-04",
+   "slot": "morning",
+   "selected_at": "2026-11-03T18:21:36+00:00",
+   "mirror_pdf": "pdf/web-5ccf52ca3ee5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/ADcxxdwtaojQvzhp.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5f0db72bb8ac",
+   "kind": "article",
+   "title": "DeepSeek不满足于模型，还要让AI自己干活",
+   "url": "https://www.tmtpost.com/8190971.html",
+   "pdf_url": "",
+   "abstract": "DeepSeek开源Super-agent原型，探索自主智能体架构。",
+   "authors": [
+    "财能圈"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-03T09:38:34+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8190971.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek开源Super-agent原型，探索自主智能体架构",
+   "summary_zh": "DeepSeek开源Super-agent原型，探索让AI自主完成多步骤任务的智能体架构，延续其开源路线。",
+   "highlights_zh": [
+    "DeepSeek从模型层向智能体层延伸",
+    "开源Super-agent原型，探索自主任务执行",
+    "反映头部模型公司向Agent方向布局"
+   ],
+   "why_zh": "DeepSeek动向是行业风向标，智能体是其下一个战略方向。",
+   "tags": [
+    "智能体",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 8.0,
+   "score": 0.624,
+   "date": "2026-11-04",
+   "slot": "morning",
+   "selected_at": "2026-11-03T18:21:36+00:00",
+   "mirror_pdf": "pdf/web-5f0db72bb8ac.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8190971.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d1aff3766dad",
+   "kind": "article",
+   "title": "提速抗癌药物研发：谷歌 Antigravity 上线“AI 炼丹师”，1 小时筛完数千种化合物",
+   "url": "https://www.ithome.com/1/021/858.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 4 日消息，谷歌 DeepMind 团队昨日（11 月 3 日）发布博文，宣布为 Google Antigravity 推出一套“化学信息学技能”（Cheminformatics Skills）， 帮助科研人员更快完成药物发现中的文献检索、分子分析、模型构建和新分子设计等工作。 IT之家援引博文介绍，在以肺癌药物为例的演示中，AI 智能体可在约一小时内检索数千种化合物、开展匹配分子对分析，并提出具备合成路线的新型刚性大环分子，而类似流程过去往往需要数天。 该工具将大语言模型的规划、检索与科学推理能力，与 RDKit 等确定性化学计算工具结合，并接入 ChEMBL 和 PubChem 等公共化学数据库。 系统可从论文、专利和产品目录中识别以 IUPAC 名称、马库什结构或 SDF 文件等不同形式出现的同一分子，减少科研人员在数据清洗和格式转换上的时间消耗。 在演示中，AI 围绕克唑替尼（crizotinib）与劳拉替尼（Lorlatinib）两类肺癌靶向药展开分析。它检索并整理了 568 个化合物，识别出“分子刚性化”与药效提升之间的关联，随后训练药效预测模型，并设计出多个潜在更优的大环化合物，同时给出反应机理和合成建议。 谷歌强调，AI 产出的是“可检验的科研假设”，并非成品药物；受数据稀疏、实验室间检测误差和动态范围限制，所有候选分子仍必须经过合成与实验验证。 该功能目前已面向 Google Antigravity 用户开放，企业用户可通过 Google Cloud 账号使用；谷歌还计划向最多 1 万名符合条件的科学家免费提供 6 个月最高用量档位。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-03T17:19:56+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/021/858.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌Antigravity上线化学信息学技能，1小时筛完数千化合物",
+   "summary_zh": "DeepMind为Antigravity推出化学信息学技能，结合LLM与RDKit等工具，演示中1小时完成数千化合物检索与分子设计，过去需数天。",
+   "highlights_zh": [
+    "将大模型规划推理与RDKit确定性化学计算结合，接入ChEMBL、PubChem数据库",
+    "演示围绕克唑替尼与劳拉替尼分析568个化合物，识别分子刚性化与药效关联并设计大环分子",
+    "面向Antigravity用户开放，计划向1万名科学家免费提供6个月高用量档位"
+   ],
+   "why_zh": "科学AI智能体落地的典型样本，展示LLM+专业工具链在药物发现中的实际效率提升。",
+   "tags": [
+    "智能体",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-04",
+   "slot": "morning",
+   "selected_at": "2026-11-03T18:21:36+00:00",
+   "mirror_pdf": "pdf/web-d1aff3766dad.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/021/858.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a55665cf4895",
+   "kind": "article",
+   "title": "StateBench: Testing how language models track state changes over long documents",
+   "url": "https://huggingface.co/blog/allenai/statebench",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-11-03T17:15:21+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/allenai/statebench",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "StateBench：测试语言模型追踪长文档状态变化的能力",
+   "summary_zh": "Hugging Face 发布 StateBench 基准，专门评测语言模型在长文档中追踪状态变化的能力，填补长上下文理解评测的空白。",
+   "highlights_zh": [
+    "聚焦长文档中状态变化的追踪能力，而非简单检索",
+    "为长上下文模型提供更贴近真实任务的评测维度",
+    "由 Hugging Face 官方博客发布，方法论可复用"
+   ],
+   "why_zh": "做长上下文或RAG评测的团队可参考其任务设计思路。",
+   "tags": [
+    "数据与评测",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 7.0,
+   "score": 0.612,
+   "date": "2026-11-04",
+   "slot": "morning",
+   "selected_at": "2026-11-03T18:21:36+00:00",
+   "mirror_pdf": "pdf/web-a55665cf4895.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/allenai/statebench"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-20954e3ac0ff",
+   "kind": "article",
+   "title": "CWE-bench v2: More coverage, quality, and transparency",
+   "url": "https://huggingface.co/blog/cwe-bench",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-11-03T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/cwe-bench",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "CWE-bench v2：覆盖更广、质量更高、更透明的安全基准",
+   "summary_zh": "Hugging Face 更新 CWE-bench 至 v2，扩大漏洞类型覆盖、提升数据质量并增强评测透明度，用于衡量模型的安全代码能力。",
+   "highlights_zh": [
+    "扩展 CWE 漏洞类型覆盖范围",
+    "提升基准数据质量与标注透明度",
+    "可用于评测模型的安全编码与漏洞修复能力"
+   ],
+   "why_zh": "做代码安全评测或安全对齐的团队值得参考。",
+   "tags": [
+    "对齐与安全",
+    "代码",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 7.0,
+   "score": 0.612,
+   "date": "2026-11-04",
+   "slot": "morning",
+   "selected_at": "2026-11-03T18:21:36+00:00",
+   "mirror_pdf": "pdf/web-20954e3ac0ff.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/cwe-bench"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.03494",
+   "kind": "paper",
+   "title": "Harder Than the Task: From Technical to Organizational Difficulty in AI Benchmarking",
+   "url": "https://arxiv.org/abs/2611.03494",
+   "pdf_url": "https://arxiv.org/pdf/2611.03494",
+   "abstract": "AI benchmarks have made remarkable progress in measuring the ability of AI systems to perform increasingly demanding cognitive and technical tasks. Yet, many of these benchmarks treat technical tasks as the unit of analysis, while much economically valuable work takes place within organizations, where tasks are embedded in a system of relations. Within organizations, successful task performance depends not only on solving the technical demands of the task but also on navigating the interdependence of activities, distributed knowledge, differentiated authority, temporal constraints, conflicting interests, and changing environmental conditions while the task is underway. Accordingly, we argue that organizational task difficulty constitutes a distinct and insufficiently recognized dimension of AI capability, and that existing approaches to benchmarking provide an incomplete basis for assessing how effectively AI agents can perform real-world organizational work. By drawing on organization theory, we develop a taxonomy of the structure of work that characterizes the conditions that agents face in organizational work. Applying this taxonomy to analyze existing benchmarks, we find limited and uneven coverage of organizational dimensions, with fewer than one quarter of prominent benchmarks claiming any of them. We therefore argue that AI benchmarks should increasingly move beyond the evaluation of technically difficult tasks toward the systematic assessment of agents' ability to navigate the organizational conditions under which economically valuable work takes place.",
+   "authors": [
+    "Victor Barres",
+    "Aden Barton",
+    "Nicolai J. Foss",
+    "Henrik M. Nielsen"
+   ],
+   "orgs": [],
+   "published": "2026-11-02T17:36:52Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.03494",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "比任务更难：AI评测从技术难度到组织难度",
+   "summary_zh": "作者认为现有基准只测技术任务，忽视组织情境中的相互依赖、分散知识、权限与利益冲突，提出组织任务难度分类并指出不足四分之一基准覆盖相关维度。",
+   "highlights_zh": [
+    "提出组织任务难度是AI能力被忽视的独立维度",
+    "基于组织理论构建工作结构分类法",
+    "分析现有基准，覆盖组织维度的不足四分之一"
+   ],
+   "why_zh": "对智能体评测方向提出结构性反思，适合设计企业级Agent评测的团队。",
+   "tags": [
+    "数据与评测",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-04",
+   "slot": "morning",
+   "selected_at": "2026-11-03T18:21:36+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.03494.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.03494"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.03494"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.03494"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.03494"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.03494"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.03494"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-db09b457282c",
+   "kind": "article",
+   "title": "blader/humanizer",
+   "url": "https://github.com/blader/humanizer",
+   "pdf_url": "",
+   "abstract": "Star blader / humanizer Agent skill that removes signs of AI-generated writing from text",
+   "authors": [],
+   "orgs": [
+    "blader"
+   ],
+   "published": "2026-11-03T18:21:36+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/blader/humanizer",
+     "signal": "★ 今日 +460 · Python",
+     "metric": 460
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "humanizer：去除文本 AI 写作痕迹的 Agent 技能",
+   "summary_zh": "一个 Agent 技能，用于消除文本中 AI 生成写作的痕迹，今日 GitHub 涨星 460。",
+   "highlights_zh": [
+    "作为 Agent skill 集成使用",
+    "针对 AI 生成文本特征做改写",
+    "Python 实现，上手门槛低"
+   ],
+   "why_zh": "如果你在写对外文案又怕被识别为 AI 生成，可用它做去痕改写。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5916,
+   "score_llm": 6.0,
+   "score": 0.5966,
+   "date": "2026-11-04",
+   "slot": "morning",
+   "selected_at": "2026-11-03T18:21:36+00:00",
+   "mirror_pdf": "pdf/web-db09b457282c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/blader/humanizer"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2464fda18886",
+   "kind": "article",
+   "title": "最高288核的至强6+，为了Agent高密度部署还下了哪些「云功夫」？",
+   "url": "https://www.leiphone.com/category/chips/GQisGLfVBnbQVxVo.html",
+   "pdf_url": "",
+   "abstract": "作者 | 陈悦琳 编辑 | 包永刚 一个智能体能顺利完成任务，不代表成百上千个智能体就能同时高效运行。 对于承载大量智能体任务的云服务器而言，除了提升计算速度，如何在任务集中到来时迅速准备好执行环境、怎样减少暂时闲置的任务对内存资源的占用，也成为亟待解决的问题。 对此，在一年一度的腾讯全球数字生态大会上，英特尔与腾讯云联合发布了基于至强6+处理器的新一代云实例，围绕任务启动效率、内存资源利用率等关键因素进行优化后，其综合性能较上一代提升30%以上。 从此前搭载至强6处理器的S9、S9e、S9pro，到如今的新一代云服务器（CVM），英特尔与腾讯云的合作并未停留在处理器性能的升级上。面对当前模型调用量持续攀升、智能体开始在实际业务中承担更多工作等趋势，CPU如何与操作系统、内存等环节协同，正成为云服务器的新考题——而这也是双方此次联合优化的重点。 288核至强6+处理器，支撑Agent部署还需跨过内存关 AI应用正攀升至全新的量级。中国信通院发布的《大模型词元服务性能监测报告（2026年）》显示，2026年6月，国内日均Token消耗量已达到约500万亿，是去年12月的近4倍。 这场有关AI使用的“狂欢”不止发生在中国，还在以Agent这一应用形态席卷全球。在麦肯锡覆盖全球97个国家的调查中，在年营收超过10亿美元的企业受访者中，40%表示其所在企业已在至少一个业务职能中规模化部署Agent，高于2025年的27%。 与传统的一问一答不同，智能体能够将一项任务拆解为多个步骤，反复调用模型、使用工具、执行代码，并根据反馈调整行动。这不仅可能带来更多Token消耗，也让CPU需要承担更多模型推理之外的工作。 据英特尔市场营销集团副总裁、中国区总经理郭威观察，今年上半年行业仍在以1:8、1:4等比例讨论CPU与GPU的配置关系；进入下半年，业界对CPU需求继续增长的预期愈发明显，甚至有人提出未来可能向1:1演进。 在服务器CPU产品布局上，英特尔早在2023年就明确了性能核（P-core）与能效核（E-core）双线并行的方向，以满足不同工作负载对计算性能、核心密度和能效的需求。其中，性能核侧重计算性能，适合对单核性能要求较高的工作负载；能效核则强调核心密度和能效，更适合大规模并行、高吞吐量的计算任务。 今年6月，英特尔推出采用Intel 18A制程的至强6+处理器（代号Clearwater Forest）。该处理器最高集成 288个能效核 ，支持12条内存通道，DDR5最高传输速率达到8000MT/s。英特尔还披露，单颗至强6+处理器最高可支持超过 1000个智能体 稳定运行。 不过，CPU核心数量增加、内存传输速度提高，并不意味着服务器就能同比例承载更多智能体。英特尔技术专家在分析智能体运行负载时发现，CPU使用呈现明显的 突发性 ——智能体在启动执行环境、执行任务时，会产生短时的计算需求高峰，但从单个Agent的运行过程来看，CPU整体利用率总体并不高。 与之形成对比的是内存。英特尔专家同时指出，即使智能体暂时没有计算任务，其运行状态仍可能持续占用内存。其在现场算了一笔账：假设每个Agent分配2GB内存，一份vCPU资源运行4个Agent，就需要8GB内存；而在一颗256核CPU、12条内存通道、每通道配置128GB内存的示例中，平均每个vCPU对应的物理内存容量只有6GB。 这意味着，当云厂商希望通过资源复用提高智能体部署密度时，内存容量可能比CPU计算能力更早成为限制因素。因此英特尔与腾讯云还将此次基于至强6+的合作进一步延伸至操作系统内核、",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-03T10:03:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/chips/GQisGLfVBnbQVxVo.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "英特尔腾讯云联合优化至强6+，瞄准Agent高密度部署",
+   "summary_zh": "英特尔与腾讯云发布基于至强6+的新一代云实例，最高288核、12条内存通道，针对智能体启动突发性与内存占用优化，综合性能较上代提升30%以上，单颗最高支持超1000个智能体。",
+   "highlights_zh": [
+    "智能体CPU负载呈突发性，但闲置时仍持续占用内存，内存成为部署瓶颈",
+    "业界CPU:GPU配比讨论从1:8、1:4向1:1演进",
+    "采用Intel 18A制程，DDR5速率达8000MT/s"
+   ],
+   "why_zh": "Agent规模化部署正在改变云基础设施的CPU/内存配比逻辑，做Agent infra的值得关注。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-04",
+   "slot": "morning",
+   "selected_at": "2026-11-03T18:21:36+00:00",
+   "mirror_pdf": "pdf/web-2464fda18886.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/chips/GQisGLfVBnbQVxVo.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5e835f2767e3",
+   "kind": "article",
+   "title": "AI教AI开车！百度首次披露Apollo World世界模型，让无人驾驶突破“不可能三角”",
+   "url": "https://www.infoq.cn/article/tIt75FRqU2hwy4eWrOIu?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "蔡芳芳"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-03T21:26:32+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/tIt75FRqU2hwy4eWrOIu?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "百度首次披露Apollo World世界模型：用AI教AI开车",
+   "summary_zh": "百度Apollo首次公开世界模型Apollo World，用生成式仿真让自动驾驶在虚拟环境中自我训练，试图突破数据、成本与安全的不可能三角。",
+   "highlights_zh": [
+    "世界模型用于自动驾驶仿真训练，降低真实路测依赖",
+    "以AI生成场景教AI驾驶，缓解长尾数据稀缺",
+    "瞄准自动驾驶数据、成本、安全三角难题"
+   ],
+   "why_zh": "世界模型落地自动驾驶的关键案例，值得关注仿真训练路线走向。",
+   "tags": [
+    "多模态",
+    "强化学习",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-04",
+   "slot": "morning",
+   "selected_at": "2026-11-03T18:21:36+00:00",
+   "mirror_pdf": "pdf/web-5e835f2767e3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/tIt75FRqU2hwy4eWrOIu?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6158496af832",
+   "kind": "article",
+   "title": "英伟达称 AI 重塑芯片工厂：仿真提速最高 35 倍，工程师决策从数天缩至数分钟",
+   "url": "https://www.ithome.com/1/021/857.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 4 日消息，英伟达于 11 月 3 日发布文章称，人工智能正在推动半导体晶圆厂进入“AI 定义工厂”阶段：通过加速仿真、学习型物理模型、AI 智能体和数字孪生， 正在显著提速芯片制造中的设计、测试与生产决策。 加速仿真（accelerated simulation） 指利用 GPU、并行计算、AI 智能体模型等技术， 把传统依赖 CPU 的工程仿真从数小时、数天压缩到数分钟甚至毫秒级的过程。 在半导体制造中，它让工程师能更快测试工艺方案、预测缺陷风险，而不必先做昂贵且耗时的真实产线实验。 IT之家援引博文介绍，随着先进芯片需求上升，制造工艺愈发复杂，良率和工艺质量的容错空间不断缩小。传统产线实验既慢又贵，工程师分析工艺变更、材料反应或缺陷根因，往往需要数天。AI 的价值在于， 让工程师在投入真实试验前，先在虚拟环境中更快地比较方案、发现风险。 加速仿真的目标是在真实制造之前，更快得到足够可靠的“虚拟实验”结果，从而减少试错、提高良率并降低成本。 学习型物理模型（Learned physics models） 是指利用机器学习从高精度仿真、实验或产线数据中学习物理规律的模型。它会学习温度、压力、材料、电磁场、等离子体等变量之间的映射关系，从而快速预测复杂物理过程。英伟达在半导体制造报道中，将其视为加速晶圆厂仿真与决策的关键技术之一。 数字孪生（Digital Twin） 是指在虚拟环境中创建物理对象、系统或流程的动态数字副本。它不只是静态 3D 模型，而是能接收实时或历史数据、模拟运行状态、预测结果，并支持“先在虚拟世界试、再到现实世界做”的决策方式。在英伟达关于半导体制造的报道中，数字孪生被用于构建整座晶圆厂的虚拟模型，帮助工程师在投产前发现瓶颈、验证布局和运营策略。 在具体案例中，多物理场仿真软件 COMSOL 借助英伟达 cuDSS，将半导体制造相关仿真速度提升最高 10 倍；西门子则将 cuLitho 集成到 Calibre 光刻软件，关键仿真负载最高提速 17 倍。 应用材料公司（Applied Materials）的 Ginestra 平台在集成 cuDSS 后，较仅用 CPU 的方案快最高 10 倍，其 ACE+ 多物理场平台借助 PhysicsNeMo 实现最高 35 倍的形貌仿真加速。 AI 还能减少重复仿真。例如，半导体蚀刻中使用的等离子体行为建模复杂、成本高；Lam Research 展示，PhysicsNeMo 可在毫秒级预测等离子体行为，而完整仿真可能需要数天。 过去工程师为判断某个芯片制造方案是否可行，需要等待长时间仿真、实验或数据分析；引入 AI 加速仿真、学习型物理模型和 AI 智能体后， 许多原本以“天”计的分析任务，可以压缩到“分钟”级完成。 英伟达在报道中举例，Advantest 使用 NeMo Switchyard AI 智能体自动选择合适的 AI 模型，把原本需要数小时的任务压缩到数分钟。 在先进晶圆厂中，工程师面对的问题往往不是简单查询数据，通常需要判断： 某种蚀刻参数是否会损伤晶圆； 某个材料或工艺变更是否会影响良率； 缺陷究竟来自设备、材料还是工艺条件； 多个候选方案中，哪一个最值得投入真实产线验证。 传统流程通常要依次进行高精度物理仿真、结果分析、方案比较，有时还要安排实际试验。一次完整仿真可能需要数天，工程师因此难以快速探索大量备选方案。 而 AI 可以先帮助工程师缩小范围、发现高风险方案，关键工艺变更仍需要高精度仿真、实验验证和工程师的专业审核。AI 把工程师从“长时间等待计",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-03T16:06:40+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/021/857.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "英伟达：AI仿真让芯片工厂决策从天级缩至分钟级",
+   "summary_zh": "英伟达称AI加速仿真、学习型物理模型与数字孪生正重塑晶圆厂，COMSOL、西门子、应用材料等仿真提速最高35倍。",
+   "highlights_zh": [
+    "应用材料ACE+平台形貌仿真提速最高35倍",
+    "西门子Calibre集成cuLitho关键负载提速17倍",
+    "Lam Research用PhysicsNeMo毫秒级预测等离子体行为"
+   ],
+   "why_zh": "展示AI在工业仿真落地的量化收益，是科学AI的标杆案例。",
+   "tags": [
+    "科学AI",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-04",
+   "slot": "morning",
+   "selected_at": "2026-11-03T18:21:36+00:00",
+   "mirror_pdf": "pdf/web-6158496af832.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/021/857.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7f6c8276a722",
+   "kind": "article",
+   "title": "欧洲最高法院顾问：谷歌 Gemini 使用新闻报道可能侵犯版权",
+   "url": "https://www.ithome.com/1/021/835.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 3 日消息，据路透社报道，欧洲最高法院的一名顾问周二表示，谷歌旗下 Gemini 聊天机器人在回答互联网用户提问时使用新闻报道，在特定情况下可能违反版权规定。 IT之家注意到，这项意见由欧盟法院（CJEU）驻卢森堡的法务总顾问马切伊 · 什普纳尔（Maciej Szpunar）提出，涉及匈牙利网站运营商 Like Company 对谷歌提起的一起诉讼，争议焦点是谷歌人工智能聊天机器人 Gemini 对新闻内容的使用方式。 如果法院最终作出对谷歌不利的裁决，要求这家科技巨头为使用新闻媒体内容支付费用，或将为 Like Company 这类网络媒体带来新的生存机会。随着 Gemini 等 AI 聊天机器人生成的新闻摘要越来越多地取代传统搜索引擎提供的搜索结果，后者通常包含指向新闻原文的超链接，网络媒体获得的网站流量正不断减少。 根据欧盟法院发布的声明，什普纳尔表示：“当一款由大语言模型（LLM）驱动的聊天机器人从新闻出版商的网站获取一篇报道，将其用于生成回答，并向用户提供该回答时，在特定情况下，就可能侵犯新闻出版商享有的权利。” 他指出，如果聊天机器人通过非法绕过付费墙或其他技术限制获取新闻内容，或者在回答中以可识别的方式重新使用新闻报道的具体表达形式，那么 Gemini 生成的回答就可能涉及对出版商复制权的侵犯。 不过，他同时强调，版权规则并不保护新闻报道中涉及的“单纯事实”，而只保护这些事实所采用的具体表达形式。换言之，新闻报道中的事实本身不受此类版权保护，但记者对事实的具体文字表达则可能受到保护。 另一方面，什普纳尔认为，使用受版权保护的材料训练大语言模型，在现行文本与数据挖掘例外条款下是“被允许的”。大语言模型是一类通过学习海量文本数据，生成类似人类的回答并总结信息的人工智能系统。 需要指出的是，欧盟法院法务总顾问提出的意见不具有法律约束力，但法院法官通常会参考并采纳这类意见。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-03T14:36:31+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/021/835.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "欧洲最高法院顾问：Gemini使用新闻内容或侵犯版权",
+   "summary_zh": "欧盟法院法务总顾问认为Gemini在特定情况下使用新闻报道生成回答可能侵犯复制权，但用受版权材料训练LLM在TDM例外下被允许。",
+   "highlights_zh": [
+    "绕过付费墙或以可识别方式复用报道表达形式可能构成侵权",
+    "单纯事实不受版权保护，仅保护具体表达形式",
+    "意见不具约束力，但法官通常参考采纳"
+   ],
+   "why_zh": "AI与新闻版权边界的关键判例风向，影响内容授权与RAG产品合规。",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-04",
+   "slot": "morning",
+   "selected_at": "2026-11-03T18:21:36+00:00",
+   "mirror_pdf": "pdf/web-7f6c8276a722.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/021/835.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.03605",
+   "kind": "paper",
+   "title": "ufakzeka-kulak: Building and Evaluating a 31.6M-Parameter Turkish Speech Recognizer from Scratch",
+   "url": "https://arxiv.org/abs/2611.03605",
+   "pdf_url": "https://arxiv.org/pdf/2611.03605",
+   "abstract": "ufakzeka-kulak is an open Turkish speech-to-text model of 31.6M parameters, a FastConformer encoder with a token-and-duration transducer (TDT) and a CTC head, trained from scratch and released under Apache-2.0. It writes cased, punctuated Turkish with numbers as words. Its 4,977 training hours come from sources whose licences allow commercial use; 281 hours are human-transcribed, and for the other 4,696 the training text is an uploader subtitle or a machine transcript, kept only where a second, independent reading of the audio agrees with it. The recipe, checkpoint, labelling and export choices were made on development data, and the test sets were scored once, in a release gate fixed before training. With greedy TDT decoding the normalised word error rate (WER) is 0.0921 (95 percent interval 0.0792 to 0.1055) on FLEURS Turkish test and 0.0916 (0.0873 to 0.0958) on Common Voice 27.0 Turkish test, lower than Whisper base and Whisper small on both sets with paired intervals wholly below zero; Whisper large-v3 (greedy) scores 0.0604 and 0.0767. On conversational speech the WER is 0.3807. We also report punctuation and casing, degraded audio, and how closely each shipped export reproduces the trained model.",
+   "authors": [
+    "Sait Furkan Teke"
+   ],
+   "orgs": [
+    "ufak AI"
+   ],
+   "published": "2026-11-02T18:42:32Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.03605",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "论文",
+   "lang": "en",
+   "who": "",
+   "title_zh": "3160万参数土耳其语语音识别模型从零构建",
+   "summary_zh": "开源3160万参数土耳其语ASR模型，FastConformer+TDT+CTC架构，FLEURS土耳其语WER 0.0921，优于Whisper base/small但不及large-v3。",
+   "highlights_zh": [
+    "Apache-2.0开源，含checkpoint与完整训练配方",
+    "4977小时训练数据均许可商用，4696小时用双读一致性过滤",
+    "FLEURS与Common Voice土耳其语测试WER均约0.09"
+   ],
+   "why_zh": "小语种从零训练ASR的完整可复现范例，对低资源语言建模有参考价值。",
+   "tags": [
+    "语音",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 7.0,
+   "score": 0.548,
+   "date": "2026-11-04",
+   "slot": "morning",
+   "selected_at": "2026-11-03T18:21:36+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.03605.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.03605"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.03605"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.03605"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.03605"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.03605"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.03605"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-22f996f764c7",
+   "kind": "article",
+   "title": "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓",
+   "url": "https://www.qbitai.com/2026/11/507507.html",
+   "pdf_url": "",
+   "abstract": "AI接管调度运营，仓库越干越聪明",
+   "authors": [
+    "梦瑶"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-03T13:57:11+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/507507.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "机器人干活、AI当厂长：巨头打造下一代自主智能仓",
+   "summary_zh": "量子位报道某巨头用 AI 接管仓储调度运营，让机器人执行作业、AI 负责调度，仓库随运行数据自我优化。",
+   "highlights_zh": [
+    "AI 承担仓储调度与运营决策",
+    "机器人与调度系统协同的自主仓方案",
+    "强调越运行越聪明的数据闭环"
+   ],
+   "why_zh": "关注仓储机器人与智能体调度落地的人可读。",
+   "tags": [
+    "机器人",
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-11-04",
+   "slot": "morning",
+   "selected_at": "2026-11-03T18:21:36+00:00",
+   "mirror_pdf": "pdf/web-22f996f764c7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/507507.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-417500adf7ec",
+   "kind": "article",
+   "title": "模型谁都买得到，拉开差距的是AI生产力系统",
+   "url": "https://www.qbitai.com/2026/11/507448.html",
+   "pdf_url": "",
+   "abstract": "AI的下一程是生产力系统之争",
+   "authors": [
+    "十三"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-03T11:13:49+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/507448.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "模型人人可得，差距在AI生产力系统",
+   "summary_zh": "量子位文章指出AI竞争下一程是生产力系统之争，模型本身不再是壁垒，如何把模型嵌入工作流才是关键。",
+   "highlights_zh": [
+    "模型能力趋于商品化，差异化转向系统集成",
+    "生产力系统成为企业AI落地的核心议题",
+    "对从业者的选型与架构思路有参考价值"
+   ],
+   "why_zh": "适合思考AI落地策略的从业者，理解竞争重心从模型转向系统。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-11-04",
+   "slot": "morning",
+   "selected_at": "2026-11-03T18:21:36+00:00",
+   "mirror_pdf": "pdf/web-417500adf7ec.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/507448.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4c4cc797e4de",
+   "kind": "article",
+   "title": "心言巴布「Bubbo 1」：一台机器人，如何成为家人",
+   "url": "http://www.geekpark.net/news/373399",
+   "pdf_url": "",
+   "abstract": "头图来源：心言机器人 2026 年 10 月 29 日，心言机器人正式发布具身家庭智能体「巴布（Bubbo 1）」。 这台毛绒外形的机器人，基于心言自研的 Bubbo OS，主打「伙伴式交互」：它不是一台等人发号施令的家电，而是一个会主动走近、主动回应的家庭成员。产品即日起在京东等官方渠道发售，售价 9499 元，前 1000 名订购者可享 7999 元。 在心言机器人创始人、Bubbo 1 首席设计师任永亮看来， 「 技术决定体验的下限，交互决定体验的上限。 」 过去的 AI，是你不开口它就不在的工具；而巴布要做的，是从「外部」视角搭起一个 Family Agent—— 识别家里的每一个人，也关注他们之间的关系。 为此，它在身上装了 13 类、26 个传感器，用 6 个自由度和两块表情屏理解复杂情感，再靠记忆、多模态感知和分级对话，给出有「延迟感、呼吸感、边界感」的回应。 发布环节结束后，任永亮与主持人、极客公园创始人张鹏，全国政协常委、国家统计局原副局长贾楠，哈尔滨工业大学计算学部长聘教授、博士生导师赵妍妍围坐在一起，讨论了一个问题：当机器人真正走进一个家庭，它该如何理解人、陪伴人，并长期留下来。 这是一场围绕「家人」展开的讨论。 在情感计算学者赵妍妍看来，机器人要跨越感知、认知、交互三层阶梯，才能从「看出你不开心」，走到「知道你为什么不开心」，进而给出有实质意义的帮扶。贾楠则用一组数据指出了产品背后的现实：截至 2025 年底，中国 60 岁以上人口已占常住人口的 23%，失能、独居老人将近 4000 万，而绝大多数老人仍希望居家养老。 任永亮把巴布定位为「家庭智能体」和伙伴，而不是工具或玩具。他最看重的功能，不是某项聪明的对话，而是「自动回充」——在他眼里，机器人要像一个物种那样，先学会在家庭环境中生存下去，「永不关机」。而衡量产品成功的标准，是它有一天学会了人类没有教过它的事。 「这是万里长征的第一步。」任永亮说。 以下为圆桌讨论实录，由极客公园整理： 一个「家人」的交卷时刻 张鹏： 永亮，记得两年前我还问你确认要上这艘船吗—— 从科技角度，这是件很难的事；但听完你的初心，我觉得它在人文上特别值得做，今天真心为你高兴。 接下来请两位朋友一起聊：全国政协常委、国家统计局原副局长贾楠，哈尔滨工业大学计算学部长聘教授、博士生导师赵妍妍。 两位看到巴布的功能和整个发布过程，印象最深刻的是什么？ 贾楠： 这已经是我第二次见到巴布了。今年 3 月两会之前，我第一次见到它，当时就眼前一亮——一个非常可爱的玩偶也好什么也好，就缓缓地走了进来，给我的第一感觉就是非常可爱。 刚才又听任总把整个创作、研制的过程做了详细介绍，我更有感触。当时我对巴布已经有所了解，主要是三大功能，其中对老人的陪伴这一块，是我们更加需要的。 非常感谢任总历经将近 10 年，投入了大量研发经费和精力。做这样的产品，前期必须有大量投入。在我们已经进入老龄化社会的情况下，现在具身机器人已经看得很多了，但像这样的陪伴式机器人，确实还很少。 张鹏： 对，在家庭场景里，明确想解决家庭情感和陪伴问题的，它是第一个。 贾楠： 它就像一个家庭里的小伙伴，家庭的一个成员。我觉得在当今社会，它非常有需要，也有很大的市场。 张鹏： 妍妍教授和永亮在产品、技术层面应该有很多交流。不知道你今天听到完整的产品图景，印象比较深的是什么？ 赵妍妍： 巴布这款产品我其实也见过多次，但今天完整地、从各种技术细节，听任总「十年磨一剑」地介绍下来，还是大受触动。我本身是做情感计算的，这项技术我们从 20 年前就开始做，但",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-03T07:11:52+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373399",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "心言发布家庭陪伴机器人巴布1",
+   "summary_zh": "心言机器人发布具身家庭智能体Bubbo 1，售价9499元，主打主动交互与情感陪伴，配26个传感器与多模态感知。",
+   "highlights_zh": [
+    "定位家庭智能体而非工具，强调主动交互",
+    "13类26个传感器+记忆与分级对话实现情感回应",
+    "面向居家养老场景，切入老龄化需求"
+   ],
+   "why_zh": "观察具身智能在家庭陪伴场景的产品化尝试。",
+   "tags": [
+    "机器人",
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.528,
+   "date": "2026-11-04",
+   "slot": "morning",
+   "selected_at": "2026-11-03T18:21:36+00:00",
+   "mirror_pdf": "pdf/web-4c4cc797e4de.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373399"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "「权重空间编程」祛魅，能力验证正从论文宣称转向可复现性审查",
+   "why": "本地Qwen复现与社区对Astra宣传的质疑同时出现，说明该能力需独立验证而非采信厂商表述。",
+   "refs": [
+    "web-9b0f1b3870f8",
+    "web-435a4449f912"
+   ]
+  },
+  {
+   "trend": "评测重心从技术任务转向组织情境与状态追踪等真实复杂度",
+   "why": "StateBench补长文档状态追踪空白，组织难度研究指出不足四分之一基准覆盖相关维度。",
+   "refs": [
+    "web-a55665cf4895",
+    "arxiv-2611.03494",
+    "web-20954e3ac0ff"
+   ]
+  },
+  {
+   "trend": "世界模型竞争开始绑定自建评判标准，物理AI进入标准话语权争夺",
+   "why": "Apollo World提出因果性、交互性门槛与三项进阶指标，并直接用于萝卜快跑测试。",
+   "refs": [
+    "web-229ecaa3bbf1",
+    "web-5e835f2767e3"
+   ]
+  },
+  {
+   "trend": "算力成本剧烈波动，AI公司财务工程能力成为竞争变量",
+   "why": "Anthropic短期采购推高混合成本82%，两季度内由盈利9.74亿转为亏损5.67亿。",
+   "refs": [
+    "web-0e35fd66aa7f"
+   ]
+  },
+  {
+   "trend": "模型本身不再是壁垒，竞争转向生产力系统与智能体部署密度",
+   "why": "业界指出差距在把模型嵌入工作流；英特尔腾讯云实例单颗支持超1000个智能体。",
+   "refs": [
+    "web-417500adf7ec",
+    "web-2464fda18886"
+   ]
+  }
+ ]
+}
