@@ -2285,49 +2285,1278 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-8ac198972094",
+   "kind": "article",
+   "title": "Nvidia – open-source auto-ontology",
+   "url": "https://github.com/NVIDIA/auto-ontology",
+   "pdf_url": "",
+   "abstract": "Star NVIDIA / auto-ontology Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.\nREADME: # Auto-Ontology An open context layer that helps agents give fewer wrong answers on enterprise data. [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE) [![Docs](https://img.shields.io/badge/docs-docs%2F-76B900.svg)](./docs/) ## Why Auto-Ontology Agents can retrieve documents and query databases, but reliability is what gates agentic analytics: a revenue figure delivered faster is worth nothing if it's wrong. Before an agent queries, it needs to know where the data lives, what it means, whether to use it, how to use it, where it came from, and what is similar. Auto-Ontology is a service you run next to your databases to give agents that context. It compiles their metadata into an ontology: business terms mapped to columns, reviewed SQL for measures, and the relationships between tables. Agents query through the ontology, and people review it in a web UI. It complements the semantic models you already own. With Auto-Ontology, developers can: - **Discover.** Generate an ontology from database metadata, import existing semantic models, and explore the result as a semantic graph. - **Ground.** Give agents one definition per business concept, mapped across tables and databases. - **Certify.** Review, edit, and certify definitions in the UI or through the API. - **Validate.** Check whether a question is answerable before querying, and return the SQL and the agent's steps with each answer. - **Expose.** Serve context to any agent harness th",
+   "authors": [],
+   "orgs": [
+    "NVIDIA"
+   ],
+   "published": "2026-11-03T07:04:50Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50348962",
+     "signal": "281 pts",
+     "metric": 281
+    },
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/NVIDIA/auto-ontology",
+     "signal": "★ 今日 +2,053 · Python",
+     "metric": 2053
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "英伟达开源 Auto-Ontology：为智能体构建企业数据语义层",
+   "summary_zh": "英伟达发布开源框架 Auto-Ontology，将数据库元数据编译为业务本体，让智能体通过语义图查询，减少企业数据分析中的错误回答。",
+   "highlights_zh": [
+    "将业务术语映射到数据库列，并内置经过审核的 SQL 度量",
+    "智能体通过本体查询，人类可在 Web UI 中审核",
+    "兼容已有语义模型，支持从元数据自动生成本体"
+   ],
+   "why_zh": "企业智能体落地的关键瓶颈是数据可靠性，这是英伟达给出的基础设施级解法。",
+   "tags": [
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.78,
+   "score_llm": 8.0,
+   "score": 0.792,
+   "date": "2026-11-04",
+   "slot": "evening",
+   "selected_at": "2026-11-04T12:54:04+00:00",
+   "mirror_pdf": "pdf/web-8ac198972094.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/NVIDIA/auto-ontology"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50348962"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.04814",
+   "kind": "paper",
+   "title": "Think Less, Locally: Local Preference Learning for Reasoning Compression",
+   "url": "https://arxiv.org/abs/2611.04814",
+   "pdf_url": "https://arxiv.org/pdf/2611.04814",
+   "abstract": "Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs substantial inference costs by continuing to deliberate after sufficient information has been obtained. Existing reasoning compression methods primarily operate on reasoning trajectories, paying less attention to the local decision of whether further reasoning is necessary given the current state. We propose LoCo, a local preference learning method for reasoning compression. LoCo detects candidate overthinking states from the model's own traces, freezes the corresponding reasoning prefixes, regenerates shorter verified continuations from the same states, and trains on the resulting state-conditioned preference pairs with DPO. This formulation teaches the model when to continue reasoning and when to conclude, rather than simply encouraging shorter trajectories overall. We construct training data entirely from self-generated mathematical traces and evaluate LoCo on five mathematical and three code generation benchmarks. LoCo reduces completion length by 41.7\\%--45.4\\% on mathematics and 23.4\\%--36.3\\% on code, while maintaining or improving accuracy and achieving the best AUC across all code benchmarks. LoCo consistently improves the accuracy-efficiency trade-off on mathematics and transfers effectively to code generation despite math-only training, demonstrating the cross-domain generality of local preference learning for reasoning compression. The code and model will be publicly released at https://github.com/MuyaoYuan/LoCo.",
+   "authors": [
+    "Muyao Yuan",
+    "Liyan Xu",
+    "Weizhan Zhang",
+    "Muyan Jiao",
+    "Jiangnan Li",
+    "Jinchao Zhang",
+    "Jie Zhou"
+   ],
+   "orgs": [
+    "Tencent"
+   ],
+   "published": "2026-11-03T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.04814",
+     "signal": "▲ 58",
+     "metric": 58
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "LoCo：让推理模型学会「该停就停」的局部偏好学习",
+   "summary_zh": "腾讯提出 LoCo，从模型自身推理轨迹中检测过度思考状态，用 DPO 训练模型判断何时继续、何时收尾。数学任务完成长度减少约 42%-45%，代码任务减少 23%-36%，准确率不降反升。",
+   "highlights_zh": [
+    "在推理前缀处冻结并重新生成更短的已验证续写，构造状态级偏好对",
+    "训练数据完全来自模型自生成的数学轨迹，无需人工标注",
+    "仅用数学数据训练即可迁移到代码生成，AUC 在所有代码基准上最优"
+   ],
+   "why_zh": "推理压缩从「整体剪枝」转向「局部决策」，为降低长思维链成本提供了新范式。",
+   "tags": [
+    "推理",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.7038,
+   "score_llm": 8.0,
+   "score": 0.7615,
+   "date": "2026-11-04",
+   "slot": "evening",
+   "selected_at": "2026-11-04T12:54:04+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.04814.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.04814"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.04814"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.04814"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.04814"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.04814"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.04814"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/MuyaoYuan/LoCo"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.05275",
+   "kind": "paper",
+   "title": "Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems",
+   "url": "https://arxiv.org/abs/2611.05275",
+   "pdf_url": "https://arxiv.org/pdf/2611.05275",
+   "abstract": "Artificial general intelligence (AGI) requires a method that can understand, generate, reason, and act across diverse domains and modalities. Rather than relying on a single model to master every capability, a promising path toward AGI now is to orchestrate a heterogeneous ecosystem of specialized models, tools, and policies (candidates) into a unified AI system. At the heart of this vision lies a fundamental question: how can an AI system dynamically select and coordinate the most capable candidate for each task while balancing performance and computational cost? In this work, we present Route Anything, a unified framework for studying model and policy routing across general-purpose AI systems. We develop a unified theoretical foundation that characterizes optimal routing under quality--cost trade-offs and establishes how the information available to a router determines its attainable performance. To systematically investigate routing across diverse capabilities, we first construct an omni-modal trajectory matrix spanning 25 benchmarks across language understanding, image, video, and speech generation, coding and workplace agents, and robotic manipulation, comprising 374,401 scored runs from 452 candidate configurations. Building on this framework, we train and test different routers to investigate the potential of omni-modal model routing, the capabilities of learned routers, and the conditions under which routing improves efficiency. Our results reveal substantial opportunities for capability orchestration: per-input oracle routing outperforms the best fixed candidate by 5.4 points, and learned routers outperform it by 0.3 points across 16 benchmarks, by 2.1 points on video generation, and by 1.1 points on robot manipulation while using 24% less policy time. More importantly, routing raises efficiency by 8.82x on average compared with the reference model.",
+   "authors": [
+    "Pengfei Zhou",
+    "Yixing Ma",
+    "Hexin Wang",
+    "Weidong Tang",
+    "Zhenglin Wan",
+    "Wangbo Zhao",
+    "Yang You"
+   ],
+   "orgs": [],
+   "published": "2026-11-03T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.05275",
+     "signal": "▲ 87",
+     "metric": 87
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Route Anything：通用 AI 系统的模型与策略路由研究",
+   "summary_zh": "研究提出统一路由框架，构建覆盖 25 个基准、452 个候选配置、37 万余次评分运行的全模态轨迹矩阵，系统分析路由器在质量-成本权衡下的最优选择与信息瓶颈。",
+   "highlights_zh": [
+    "建立路由性能的理论基础：路由器可获得的信息决定其上限",
+    "覆盖语言、图像、视频、语音、代码、智能体与机器人操作",
+    "训练并对比多种学习型路由器，验证全模态路由的潜力"
+   ],
+   "why_zh": "多模型编排是 AGI 路径的重要方向，该文给出了首个系统性的路由实证研究。",
+   "tags": [
+    "大模型",
+    "多模态",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.6477,
+   "score_llm": 8.0,
+   "score": 0.7391,
+   "date": "2026-11-04",
+   "slot": "evening",
+   "selected_at": "2026-11-04T12:54:04+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.05275.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.05275"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.05275"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.05275"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.05275"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.05275"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.05275"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/InfRec-Cardinal/route-anything"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.05377",
+   "kind": "paper",
+   "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+   "url": "https://arxiv.org/abs/2611.05377",
+   "pdf_url": "https://arxiv.org/pdf/2611.05377",
+   "abstract": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations often entangle the underlying action with irrelevant visual variations, limiting transfer across embodiments. We introduce DreamX, which repurposes a pretrained video diffusion model as a universal latent action learner. Our approach extracts compact latent actions from the video model's rich spatiotemporal features, compressing each latent video frame by 300times (1{,200 rightarrow 4} tokens). In addition, by leveraging the video model's generative prior, these latent actions capture action-relevant dynamics disentangled from visual appearance. The resulting latent space serves as a shared action interface across embodiments (human and robot), environments, and action parameterizations. On LARY-Bench, DreamX achieves state-of-the-art performance among latent action models. Moreover, actions encoded in one setting remain effective in another: the latent space supports any-to-any video transfer and zero-shot action transfer across diverse embodiments and environments. Furthermore, this shared interface also enables policy learning in a compact latent action space, reducing the computational cost of video-diffusion-based policies.",
+   "authors": [
+    "Jisoo Kim",
+    "Chaehyun Kim",
+    "Junsu Kim",
+    "Jiho Park",
+    "Seongchan Kim",
+    "Eunbeen Hong",
+    "Soowon Son",
+    "Fu-En Yang",
+    "Seungryong Kim"
+   ],
+   "orgs": [
+    "KAIST AI"
+   ],
+   "published": "2026-11-03T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.05377",
+     "signal": "▲ 46",
+     "metric": 46
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "DreamX：视频扩散模型即通用潜在动作学习器",
+   "summary_zh": "KAIST 提出 DreamX，复用预训练视频扩散模型提取紧凑潜在动作，将每帧压缩 300 倍（1200→4 token），在 LARY-Bench 上达 SOTA，并支持跨具身零样本动作迁移与策略学习。",
+   "highlights_zh": [
+    "利用视频模型生成先验，将动作动态与视觉外观解耦",
+    "潜在动作空间作为人-机共享接口，支持任意到任意视频迁移",
+    "在紧凑潜在动作空间中学策略，降低计算成本"
+   ],
+   "why_zh": "为机器人跨具身学习提供了可复用的动作表示，是视频模型赋能具身智能的代表工作。",
+   "tags": [
+    "机器人",
+    "视觉",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.6102,
+   "score_llm": 8.0,
+   "score": 0.7241,
+   "date": "2026-11-04",
+   "slot": "evening",
+   "selected_at": "2026-11-04T12:54:04+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.05377.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.05377"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.05377"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.05377"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.05377"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.05377"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.05377"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.05036",
+   "kind": "paper",
+   "title": "ToolSpace: Scaling Tool-Centric Environment Synthesis for Long-Horizon Agents",
+   "url": "https://arxiv.org/abs/2611.05036",
+   "pdf_url": "https://arxiv.org/pdf/2611.05036",
+   "abstract": "Large language models are deployed as long-horizon agents that compose diverse tools across MCP services into executable workflows. Existing MCP environment-scaling methods are data-centric: they first synthesize a database and scenario, then derive tools and tasks from them. As a result, tool interfaces may not match real ones, tool compositions are not grounded in execution, and tasks rarely span more than one environment. We propose ToolSpace, a tool-centric framework that reverses this order. ToolSpace mines data, state, and retry dependencies from adjacent calls in execution traces of real MCP services and open agent corpora, using deterministic rules rather than LLM judgment, and clusters the resulting weighted tool-composition graph into environments. Databases are synthesized only for state-mutating environments, while query and stateless tools replay recorded returns. ToolSpace then performs state-aware random walks with rollback and decompiles each chain into a natural-language task with assertion-based checks, keeping only samples that replay successfully from the initial state. Applied to AutomationBench and tau3-Bench Banking, the pipeline produces harder Pro versions on which 7 frontier models drop by up to 38.2 points. Across seven long-horizon tool-use benchmarks, ToolSpace raises Qwen3.6-35B-A3B from 23.0 to 41.0 average score (43.2 with RL) and GLM-5.2 from 44.6 to 56.6, on par with Claude Opus 5. Ablations show that execution-witnessed edges clearly outperform LLM-judged ones, and performance keeps improving with data and environment scale.",
+   "authors": [
+    "Guanting Dong",
+    "Zhichao Sun",
+    "Xinyu Yang",
+    "Rui Wang",
+    "Xin Deng",
+    "Jiajie Jin",
+    "Zhixiong Yang",
+    "Junhao Huang",
+    "Han Han",
+    "Mingyu Ma",
+    "Xiaotao Wang",
+    "Yuyang Hu",
+    "Xiaoshuai Song",
+    "Xiaoxi Li",
+    "Jiejun Tan",
+    "Zhecan Wang",
+    "Shihan Dou",
+    "Honglin Guo",
+    "Zhiheng Xi",
+    "Tao Gui",
+    "Tao Ji",
+    "Qi Zhang",
+    "Yutao Zhu",
+    "Ji-Rong Wen",
+    "Zhicheng Dou"
+   ],
+   "orgs": [
+    "Renmin University of China"
+   ],
+   "published": "2026-11-03T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.05036",
+     "signal": "▲ 31",
+     "metric": 31
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "ToolSpace：面向长程智能体的工具中心环境合成",
+   "summary_zh": "提出工具中心的环境合成框架，从真实MCP调用轨迹挖掘依赖关系构建环境，生成更难基准使7个前沿模型最高掉38.2分，并显著提升开源模型工具使用成绩。",
+   "highlights_zh": [
+    "反转传统数据中心流程，先定工具接口再合成数据与任务",
+    "用确定性规则从执行轨迹挖掘依赖，避免LLM判断误差",
+    "生成的Pro基准让前沿模型平均掉分，暴露长程工具使用短板"
+   ],
+   "why_zh": "做智能体训练与评测的团队值得关注，它给出了可扩展的MCP环境构造方法。",
+   "tags": [
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.5872,
+   "score_llm": 8.0,
+   "score": 0.7149,
+   "date": "2026-11-04",
+   "slot": "evening",
+   "selected_at": "2026-11-04T12:54:04+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.05036.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.05036"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.05036"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.05036"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.05036"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.05036"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.05036"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/dongguanting/ToolSpace"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f6f0b788d58f",
+   "kind": "article",
+   "title": "AI on the Ballot",
+   "url": "https://stratechery.com/2026/ai-on-the-ballot/",
+   "pdf_url": "",
+   "abstract": "Data Centers were on the ballot, and they lost in a major way; what does it mean if American opposition to building is permanent?",
+   "authors": [
+    "Ben Thompson"
+   ],
+   "orgs": [
+    "Stratechery"
+   ],
+   "published": "2026-11-04T11:00:00+00:00",
+   "sources": [
+    {
+     "name": "Stratechery",
+     "authority": 0.8,
+     "url": "https://stratechery.com/2026/ai-on-the-ballot/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Ben Thompson，科技战略分析",
+   "title_zh": "AI数据中心上了选票，然后输了",
+   "summary_zh": "Ben Thompson认为，数据中心议题首次成为选举焦点并遭遇明显挫败，若美国对新建数据中心的反对成为长期态势，将深刻影响AI算力扩张的节奏与成本。",
+   "highlights_zh": [
+    "数据中心建设首次成为地方选举的核心议题并普遍受挫",
+    "作者担忧反建情绪可能从阶段性转为永久性",
+    "算力供给的政治阻力将重塑AI基础设施投资逻辑"
+   ],
+   "why_zh": "从政治阻力视角看算力扩张的天花板，是理解AI基建风险的重要判断。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.648,
+   "date": "2026-11-04",
+   "slot": "evening",
+   "selected_at": "2026-11-04T12:54:04+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://stratechery.com/2026/ai-on-the-ballot/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a9cf9f3849cb",
+   "kind": "article",
+   "title": "榜单第一，市值暴跌！Gemini 4 Carbon「速成」背后，谷歌一场豪赌",
+   "url": "https://www.leiphone.com/category/yanxishe/7uvYEZBsCWcPvhw3.html",
+   "pdf_url": "",
+   "abstract": "Gemini 4 Carbon 登顶，幻觉率抬升，谷歌疯狂发模型在急什么？ 作者丨 高允毅 编辑丨岑 峰 昨天，Google 发布世界模型 Genie 4，人们惊呼“太疯狂了”。今早，Google 又紧接着推出 Gemini 4 Carbon，直接刷榜\"重回全球第一\"。再加上两周前发布的 Gemini 4 Argon，谷歌正以近乎 “一周一款” 的节奏刷新模型产品线。 这种高频迭代在谷歌历史上前所未有，过去它更习惯“两年磨一剑”的大版本发布节奏，如今却突然切换成“小步快跑”的互联网打法。 这场节奏突变的背后，是谷歌在 技术路线选择、研发模式押注、算力基础突围和内部管理调整 上的全方位转向，也是它在行业节奏失落后的一次集中反击。 01 登顶榜首 vs 4000 亿市值蒸发， 谷歌深陷“跑分幻觉” Gemini 4 Carbon 发布之后，技术圈反应堪称魔幻。 谷歌对外宣布的内容中，最吸睛的标签是 “重回世界第一” 。 在17项基准测试中，它有 15 项拿下了最高成绩，甚至在最新的 Artificial Analysis （AA）智能指数评测中反超 Claude Opus 5.5（58分）和 GPT-6 Astra（57分），夺回世界第一。 图注：Gemini 4 Carbon公开的17项基准测评，勇登第一 但在资本市场，伴随新模型和Q3财报的发布， Alphabet 盘后股价一度大跌约10%，市值蒸发3000至4000亿美元。 如果次日开盘延续这一跌幅，将创下谷歌历史上单日市值损失的最高纪录。 图注：模型发布后，Google 母公司 Alphabet 股价反而暴跌 为什么华尔街对于谷歌这次交出的“满分答卷”，却有如此截然不同的反应？还是说，谷歌为了应付这次“考试”，付出了什么样的惨痛代价？ 谷歌这次模型更新主打的是 “安全能力”和“长任务能力” ，尤其在 发现安全漏洞方面 表现突出。按谷歌公布的技术数据，可以说，Gemini 4 Carbon 在漏洞发现、利用验证、补丁修复的全环节都实现了领先。 除了安全领域，Gemini 4 Carbon在 写代码方面 也更强了，尤其在复杂的长任务上有了明显突破。它可以连续运行数天，突破重重难关，最终解决复杂的、多步骤的工程任务，比如在大型代码库和底层系统中查找并修复细微的bug。 从榜单数据中可以直观看到，在 SWE-sweep（Agent级代码修复能力）评测中，Gemini 4 Carbon 已经从 Gemini 4 Argon 的 4.3% 翻倍到 9.6%；在 Terminal-Bench（自主操作和工具调用能力）中，Gemini 4 Carbon 提升了 8.1%，达到 65.2%。 在 GraphWalks（超长文本处理能力）， Gemini 4 Carbon 得分 96.2%，而竞争对手最高才 71.8%，差距悬殊。 和资本市场一样，面对这个“世界第一”的标签，网友也似乎并不买账。 大家对榜单刷分甚至作弊早已见怪不怪。有网友直接发问： 这是评测结果达到了顶峰，还是谷歌真的重回了顶峰？ 有人表示在 Gemini 4 Argon 已经吃了亏。 当初在官方公告和 Google CEO 劈柴哥的宣传中，Gemini 4 Argon 的标签是\"开创长周期、高难度专业任务的新时代\"，号称拥有行业最低的幻觉率，能彻底扭转 Gemini 家族在智能体和代码实操上的弱势。 结果彭博社随后爆出，据内部员工透露，Gemini 4 Argon 榜单分数好看，一干活就歇菜，尤其在前端设计方面吃力。 而这一次的Carbon，更",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-04T06:39:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/yanxishe/7uvYEZBsCWcPvhw3.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Gemini 4 Carbon登顶榜单，谷歌却蒸发数千亿美元市值",
+   "summary_zh": "谷歌一周一款节奏连发Gemini 4 Argon与4 Carbon，后者17项基准15项第一、AA智能指数反超竞品，但Alphabet盘后一度跌约10%，市场质疑刷分与幻觉率抬升。",
+   "highlights_zh": [
+    "SWE-sweep从4.3%翻倍至9.6%，Terminal-Bench升至65.2%，GraphWalks达96.2%",
+    "主打安全漏洞发现与长任务能力，可连续运行数天修复复杂bug",
+    "发布节奏从两年一版切换为小步快跑，被视为技术路线与研发模式的集中转向"
+   ],
+   "why_zh": "榜单成绩与资本市场判断背离，是理解大模型竞争评价体系的关键案例。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-04",
+   "slot": "evening",
+   "selected_at": "2026-11-04T12:54:04+00:00",
+   "mirror_pdf": "pdf/web-a9cf9f3849cb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/yanxishe/7uvYEZBsCWcPvhw3.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-82c6e40a4d28",
+   "kind": "article",
+   "title": "当10万个智能体已在运行，安全防线到底在哪？｜CNCC 2026专家激辩智能体安全挑战",
+   "url": "https://www.leiphone.com/category/ai/tT9FskgaSMm7y4Ao.html",
+   "pdf_url": "",
+   "abstract": "2026年，智能体从概念走向了生产系统。 蚂蚁集团3万多名员工背后，已有10万余个智能体在运行。华为内部同样部署了成千上万个智能体，覆盖客服、办公、运维、研发各条业务线。放眼更广的产业图景，个人助手、AI for Science、网络安全自动化攻防、企业级工作流编排，智能体正在逐步接管人类过去亲力亲为的工作。 Gartner将智能体列入了2027年十大战略技术，安全圈里，非人类身份（NHI）成了RSAC大会上的新赛道。中国这边，国标、强标、最高法司法意见、三部委规范文件在今年密集出台，政策端的紧迫感与产业端的狂飙几乎同步。 10月22日，成都，在CNCC 2026”智能体的安全问题”专题论坛上，于锐、徐恪、胡侠、韦韬、肖亚军五位嘉宾齐聚一堂，分别从国家标准制定、高校AI安全研究、企业安全最后一道防线等角度，做出了各自的解读。 01 中国开始给智能体发“身份证” 安全的第一步是搞清楚“它是谁”。但智能体能自主行动、跨平台迁移、在无人监督下链式决策和调用工具，传统的人类身份认证方式显然并不适用。 CCF计算机安全专委会副主任委员于锐介绍，“中国在这方面的进展可以概括为三句话：国标引领、行业细化、企业落地。” 今年5月出台的GB/T 185系列标准覆盖了智能体安全治理的全生命周期，两个核心要求是授予每个智能体唯一的身份标识，以及实施统一的身份管理。编码方式采用OID，树形分层结构，一码一主体，永不重复。 “ 跟我们人一样，也给智能体发了一个身份号码。 ”于锐表示。 另一个正在制定的强制性标准是《智能体应用安全基本条件》，该标准一旦发布，没有身份和标识的智能体将无法上线应用。 而身份只是最表层的一环，于锐将智能体的身份拆为三层：第一层是产品身份，包含智能体的ID、代码指纹和版本号，用于回答“这是哪个智能体”；第二层是运行时身份，校验其运行环境、设备信息和调用来源，反映“它此刻在做什么”；第三层是责任主体，通过实名认证和企业认定，解决的是“出了事找谁”。 “不是授一次权就让它一直做下去，按任务给最低授权，任务完成就收回权限。”于锐强调。 技术实现层面，认证走OAuth/OIDC，授权走OAuth，凭证参考JWT格式。但无论走哪条技术路线，最终都绕不开一个关键问题： 信任的锚点 。 关于这一点，于锐介绍了他们正在建设的国家网络可信身份公共服务平台。国标的OID、W3C的DID、IETF基于DNS的方案，信任锚点都落在实名认证上。 “这个国家平台是新型数字基础设施，主要是给公民签发线上的网号网证，就是你线上的身份标识和可验证凭证。”于锐介绍，平台的实施管理办法今年7月正式发布，目前已达到每秒15万次的服务能力，接入了900多个机构，下载申领量突破6000万。 “目的就是形成一个数字空间的信任根，来支撑国标185的落地。” 身份解决了“智能体是谁”的问题，但在责任归属上，由于智能体不是人，没有法律资格无法自己承担责任，这一点国内外并无分歧。 对此，今年9月，最高人民法院发布了《关于审理涉人工智能纠纷案件的意见》，按控制力、场景和获利划分责任：一般场景适用过错责任，开发者和使用者承担风控告知和复核义务；具身智能场景适用产品责任，机器人造成伤害，制造商承担无过错责任；涉及个人信息的场景实行过错推定，由运营方自证合规。 02 旧安全架构无法抵挡新攻击 标准和法规在加速推进，但技术侧的问题更为棘手。 “中文里‘安全’是两个字，英文里是safety、security、reliability、privacy、stability、trustworthiness，无数概念混在其",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-04T03:22:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/tT9FskgaSMm7y4Ao.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "十万智能体已在生产运行，安全防线该建在哪",
+   "summary_zh": "CNCC 2026论坛上，专家指出蚂蚁已有10万余个智能体运行、华为各业务线部署成千上万；中国以国标GB/T 185给智能体发唯一身份标识，并推进强制性上线安全标准与司法责任划分。",
+   "highlights_zh": [
+    "智能体身份分产品身份、运行时身份、责任主体三层，按任务给最低授权并及时回收",
+    "国家网络可信身份平台已达每秒15万次服务能力，接入900多家机构",
+    "最高法意见按控制力与场景划分过错责任、产品责任与过错推定"
+   ],
+   "why_zh": "智能体规模化落地后，身份与责任体系成为企业部署的前置条件。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-04",
+   "slot": "evening",
+   "selected_at": "2026-11-04T12:54:04+00:00",
+   "mirror_pdf": "pdf/web-82c6e40a4d28.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/tT9FskgaSMm7y4Ao.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-969dd462482a",
+   "kind": "article",
+   "title": "KKKKhazix/agent-autoloop",
+   "url": "https://github.com/KKKKhazix/agent-autoloop",
+   "pdf_url": "",
+   "abstract": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。\nREADME: # Agent Autoloop **让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。** **中文** | [English](README.en.md) [上手](#上手) · [场景模板](#拿来即用的场景模板) · [插件](#插件体系四个方向都能自由替换) · [内核](#内核的四个机制) · [文档](#更多文档) ![架构图](docs/architecture.svg) ## 它解决什么问题？ 平时我们用 Claude Code、Codex 这类命令行 Agent，大多是“人守着终端用”：你输一句话，盯着它跑，等它问你下一步；一旦关掉窗口或者人走开，事情就断了。 **Agent Autoloop** 是一个极轻量的自动化中台。它把任务调度做成一个零外部依赖的**内核**，把事件来源、Agent、通知通道，甚至代码上线流水线全部拆成可随时插拔的**插件**。 - **一台电脑、一条命令就能跑。** 装在你的 Mac 或 Linux 上，不用买云服务器，也不用开放公网端口。 - **一行配置接新 Agent。** 不需要 SDK，也不需要改 Agent 源码，能接收提示词并打印最后一条回复的命令行工具都能接。 - **没有后台界面。** 需要你拍板时把卡片推到飞书、钉钉、企微、Slack、Discord 或桌面通知；想看全局进展，敲一行命令。 ## 上手 支持 macOS 和 Linux。运行前需要装好 Node 24、Git、curl，以及任意一个你已经登录好的命令行 Agent，不需要 GitHub 账号。也可以直接把[安装说明](INSTALL.md)丢给你的 Agent，让它替你装好。 ```bash curl -fsSL https://raw.githubusercontent.com/KKKKhazix/agent-autoloop/main/install.sh | sh ``` 装好后用你本机的 Agent 真实走一遍“提问 → 退出等回复 → 拍板 → 接着干完”： ```bash agent-autoloop try ``` 下面是在终端里的真实输出： ```text 事件发出去了，Agent 开始干活…… Agent 结束了这一轮，问了你一个问题。它现在不占进程、不花 Token。 【等你决定】#1 试跑：选一个颜色 这是一次试跑，选哪个都行。 1. 蓝色 2. 绿色 回答：agent-autoloop answer 1 答完运行 agent-autoloop status，能看到它接着把活干完。 ``` 交互终端里直接输入数字回车；非交互终端运行 `agent-autoloop answer 1 2` 选择“绿色”。再跑 `agent-autoloop status`，就能看到它接上刚才的会话并显示“你选了绿色，试跑通过”，还有今天和最近 7 天的轮数、Token 和费用（[统计口径](skills/agent-autoloop/SKILL.md#看情况回答)）。 ## 一件事怎么转起来 编号和上面的架构图一一对应： 1. **新事件进来。** 早上 9 点的定时任务、GitHub 上新提的 Issue、业务系统报的错，都变成一条标准事件送进内核。 2. **按规则派活。** 内核照你写的规则，决定交给哪个 Agent、去哪个目录干。同一件事排队时又来的消息，会合并成一轮处理。 3. **干完一轮就退出。** Agent 把结果写在最后一条回复里，进程直接退",
+   "authors": [],
+   "orgs": [
+    "KKKKhazix"
+   ],
+   "published": "2026-11-04T12:54:04+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/KKKKhazix/agent-autoloop",
+     "signal": "★ 1,991（新项目） · TypeScript",
+     "metric": 1991
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Agent Autoloop：让命令行智能体后台自主接活",
+   "summary_zh": "轻量自动化中台，把事件源、Agent、通知通道拆成插件，让 Claude Code 等命令行智能体在后台持续跟进任务，遇到需决策时推送卡片到飞书、钉钉等。",
+   "highlights_zh": [
+    "零外部依赖内核，一条 curl 命令安装，支持 macOS/Linux",
+    "一行配置接入任意能接收提示词并打印回复的命令行 Agent",
+    "需拍板时推送卡片到飞书、钉钉、企微、Slack、Discord 或桌面通知"
+   ],
+   "why_zh": "如果你用 Claude Code 跑长任务，可用它让 Agent 后台自主推进，只在关键决策时找你拍板。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6076,
+   "score_llm": 6.0,
+   "score": 0.603,
+   "date": "2026-11-04",
+   "slot": "evening",
+   "selected_at": "2026-11-04T12:54:04+00:00",
+   "mirror_pdf": "pdf/web-969dd462482a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/KKKKhazix/agent-autoloop"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-771d04f9d142",
+   "kind": "article",
+   "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+   "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-04T08:46:29Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50362905",
+     "signal": "183 pts",
+     "metric": 183
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "英伟达RTX Spark加密固件致Linux推理速度降至35%",
+   "summary_zh": "报道称英伟达RTX Spark的加密固件使Linux下推理速度仅为正常水平的35%，涉及AI推理硬件与开源驱动生态问题。",
+   "highlights_zh": [
+    "加密固件限制Linux平台推理性能",
+    "影响本地部署AI推理的用户",
+    "反映硬件厂商固件策略与开源生态的张力"
+   ],
+   "why_zh": "本地跑模型的从业者需关注硬件固件对推理性能的隐性限制。",
+   "tags": [
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5645,
+   "score_llm": 6.0,
+   "score": 0.5858,
+   "date": "2026-11-04",
+   "slot": "evening",
+   "selected_at": "2026-11-04T12:54:04+00:00",
+   "mirror_pdf": "pdf/web-771d04f9d142.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50362905"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-26c6032e1d26",
+   "kind": "article",
+   "title": "Accelerating engineering for the physical world",
+   "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+   "pdf_url": "",
+   "abstract": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-11-03T12:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI：用ChatGPT与Codex加速物理世界工程",
+   "summary_zh": "OpenAI官方介绍ChatGPT和Codex如何帮助工程师加速CAD、PCB设计与仿真等物理世界工作流，属产品应用案例宣传。",
+   "highlights_zh": [
+    "聚焦工程设计与仿真场景的AI辅助",
+    "展示Codex在代码化工程流程中的用法",
+    "偏案例营销，缺少量化效果数据"
+   ],
+   "why_zh": "了解OpenAI在垂直工程场景的产品落地方向，但信息增量有限。",
+   "tags": [
+    "产品与行业",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 6.0,
+   "score": 0.576,
+   "date": "2026-11-04",
+   "slot": "evening",
+   "selected_at": "2026-11-04T12:54:04+00:00",
+   "mirror_pdf": "pdf/web-26c6032e1d26.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e8ee7ce621c6",
+   "kind": "article",
+   "title": "智能体身份注册与解析平台在乌镇发布，蚂蚁参与首批运行平台建设",
+   "url": "https://www.leiphone.com/category/industrynews/KStlwPyruE6hJ107.html",
+   "pdf_url": "",
+   "abstract": "11月4日，2026年世界互联网大会乌镇峰会“智能体互信互联互操作全球合作创新——携手构建智能互联网论坛”在乌镇举行，智能体信任治理成为产业各方关注的焦点。产业界普遍认为，互联网正从信息互联、服务互联走向智能体互联，智能体开始感知、决策并代表用户行动。伴随治理对象从“内容”变成“行为”，“统一底座”正成为智能体跨域协作加速的共同关键。 当前，智能体加速从“对话”走向“办事”，但规模化落地仍面临三大卡点：用户能否知晓并及时撤回智能体的权限；服务方能否确认调用的智能体是谁、代表谁行动；不同平台上的智能体能否找到彼此并调用服务。 蚂蚁集团副总裁、支付宝及大安全事业群首席技术官陈亮在论坛上表示，智能体时代需要构建信任基础设施，让身份、授权与责任进入每一次连接。这不仅是企业产品能力的竞争，更是智能互联网发展的公共基础设施问题。 国家层面，各方正积极共建智能体身份注册与解析平台重点解决身份编码、跨域解析和可信互通问题，并在此基础上建设运行平台，承载智能体接入与能力发布。作为先导验证，“智联浦江”行动计划稳步推进，多家运行平台和服务机构相继接入。 蚂蚁集团积极参与其中，将Agent协作基础设施融入运行平台。目前，支付宝晓政、芝麻信用等首批服务已接入运行平台，并完成与其他平台智能体的可信连接，为后续跨平台协作积累了经验。 统一底座解决的是“连得上”，而智能体真正走向“可托付”，还需要用户端与连接端协同补齐信任链条。在用户侧，行业正探索统一身份与授权管理能力，让用户对智能体的委托“看得见、收得回”，蚂蚁研发的APASS统一身份账号，即是围绕这一方向的实践之一。在连接侧，蚂蚁与20多家伙伴共建ASL协议及配套的可信连接能力，推动身份、意图、授权在跨平台协作中可验可信。 陈亮表示，智能体的规模化上限，不在“能不能干完一件事”，而在“能不能被托付一件事”。面向未来，蚂蚁集团将积极响应国家号召，在统一治理框架和行业标准下参与建设，与产业伙伴加强凭证互认、能力互通与审计协同，让安全能力更加普惠可及，携手构建开放、可信、普惠的智能互联网。 雷峰网 雷峰网",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-04T09:44:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/KStlwPyruE6hJ107.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "智能体身份注册与解析平台在乌镇发布，蚂蚁参与首批建设",
+   "summary_zh": "世界互联网大会发布智能体身份注册与解析平台，解决身份编码、跨域解析与可信互通，蚂蚁支付宝晓政、芝麻信用等首批接入并完成跨平台可信连接。",
+   "highlights_zh": [
+    "智能体规模化落地三大卡点：权限撤回、身份确认、跨平台互调",
+    "蚂蚁 APASS 统一身份账号与 ASL 协议推动跨平台授权可验",
+    "治理对象从「内容」转向「行为」，信任基础设施成公共议题"
+   ],
+   "why_zh": "智能体互联的信任底座开始落地，关注智能体产品化与合规的从业者必读。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-04",
+   "slot": "evening",
+   "selected_at": "2026-11-04T12:54:04+00:00",
+   "mirror_pdf": "pdf/web-e8ee7ce621c6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/KStlwPyruE6hJ107.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-99f790785172",
+   "kind": "article",
+   "title": "哪里电便宜，算力就往哪里跑？没那么简单",
+   "url": "https://www.leiphone.com/category/chips/pXuAy8TH7q2u0Q9T.html",
+   "pdf_url": "",
+   "abstract": "候鸟迁徙，是为了追逐适宜生存的气候。 一项AI计算任务的迁徙，则可能因为另一座数据中心拥有更充足、更便宜的电力，被送往数百甚至上千公里之外。 过去，算力的运行位置大多随着机房选址而确定。如今，电力供给的变化，开始成为计算任务选择落脚点的新理由。 “ 用电需求通常不能移动，但计算任务却可以迁移。 ”共绩科技创始人兼CEO付智说。 只是，与候鸟不同，AI任务无法独自完成这场迁徙。它所依赖的模型、数据与运行环境，也需要在另一座集群中得到妥善安排。 算电协同想让算力随电而动，但这场迁徙，远没有候鸟振翅那么轻盈。 01 算力不必搬家，任务却有迁移成本 据此前公开报道，一项跨区域算电协同实测在三天内累计调度28万余次AI推理请求，单位Token的算力用电成本下降约31%。 类似的探索也出现在海外，Google、英伟达和Emerald AI共同发起AI能源管理联盟，尝试让数据中心根据电网状态灵活调整用电负荷。 当电力系统开始尝试调动计算任务，另一批企业则正在建设让任务跨集群流动的基础设施。 雷峰网在共绩科技办公室见到了创始人兼CEO付智，这位有着“00后创业者”标签的年轻创始人，谈起行业频繁提及的算力调度，措辞相当直接。 “调度这个词，已经被用烂了。” 付智说。 在他看来，行业里不少企业所说的算力调度，主要围绕单个集群展开，更偏向已有GPU资源的管理。而共绩关注的是不同集群之间的任务流转，两者虽然都属于算力调度的范畴，但侧重点并不相同。 计算任务的迁移，付智用了一个简单的比喻：“比如我需要调用你大脑的计算能力，我当然不可能把你的大脑借走，那我就把数学题给你，你算完再把计算答案给我。” 分散在不同地方的计算资源，也是如此—— 机器留在原地，任务和结果通过网络 传输 。 共绩科技创始人兼CEO 付智（共绩科技供图） 在过去，这种跨集群调度主要是为了撮合算力供需。一边有闲置资源，另一边有计算需求，任务可以被分配到其他集群执行。 而算电协同又给跨集群调度增加了一项用途：当不同地区、不同时段的电力供给、电价和电网负荷出现差异，任务的执行地点可以按需进行调整。 自2023年起，共绩科技开始探索分布式算力。付智当时判断，随着AI应用增加，未来的推理任务不会全部集中在大型集群，一部分需求可能由不同地区、不同主体建设的中小集群承担。 要把这些分散的资源组织起来，就需要让计算任务能够跨集群分配 。 付智提到，自己从2023年开始思考另一个问题：中国一些地区的风电、光伏存在消纳、传输和储存难题，如果电力不方便送到需要计算的地方，能不能反过来，把计算任务送到有电的地方？ 他把这一思路概括为“用网线代替电线”。 在付智的设想里， 未来分布式算力网络可以进一步与分布式风光电结合 。哪里新能源供应充裕，就更多调用当地算力；电力紧张时，则减少安排在当地执行的任务。 （关于分布式算力的更多信息，欢迎添加作者微信 treelog10 交流） 随着算力用电占比继续提高，付智认为，随着AI算力用电需求增加，算力调度与能源系统之间的联系还会进一步加深。 不过，要让算力真正跟随电力流动，仅仅能够把任务发送到另一座集群，还远远不够。 02 任务迁得快，功夫却花在迁移之前 一道数学题，发给别人只需要一张写着题目的纸。那一项AI任务的迁移，需要调度系统提前做多少准备？ 在付智看来，算电协同可以沿着两条路径展开：一是在不同地区之间迁移任务，利用各地电力供给和价格的差异；二是在单个数据中心内部调整计算负荷，使其适应电网的供电节奏。 雷峰网向付智提出一个假设问题：如果一座智算中心收到电网指令，需要在五分钟内降低10",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-04T03:56:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/chips/pXuAy8TH7q2u0Q9T.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "算电协同：让AI任务追着便宜电跑，难点在迁移不在调度",
+   "summary_zh": "共绩科技付智认为算力调度被滥用，真正难点是跨集群任务流转；实测三天调度28万余次推理请求，单位Token用电成本降约31%，但模型、数据与环境迁移成本高。",
+   "highlights_zh": [
+    "提出「用网线代替电线」，把计算任务送到新能源富集地区",
+    "跨集群调度从撮合供需扩展到按电价与电网负荷调整执行地点",
+    "Google、英伟达与Emerald AI已发起AI能源管理联盟探索负荷调节"
+   ],
+   "why_zh": "算力成本与电力约束正成为AI基础设施竞争的新变量。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-04",
+   "slot": "evening",
+   "selected_at": "2026-11-04T12:54:04+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/chips/pXuAy8TH7q2u0Q9T.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bfbdf1a4f935",
+   "kind": "article",
+   "title": "研究发现：AI 生成代码受下游环节瓶颈制约，无法提升整体生产力",
+   "url": "https://www.infoq.cn/article/c3vTLNrRwfCzw8SAmz90?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Sergio De Simone"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-04T16:20:50+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/c3vTLNrRwfCzw8SAmz90?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "研究：AI 生成代码受下游瓶颈制约，整体生产力难提升",
+   "summary_zh": "研究指出 AI 生成代码虽加速编码环节，但受评审、测试、部署等下游瓶颈制约，整体生产力并未同步提升。",
+   "highlights_zh": [
+    "编码提速被下游环节抵消",
+    "提示企业关注全流程而非单点提效",
+    "对 AI 编程工具 ROI 评估有参考意义"
+   ],
+   "why_zh": "为评估 AI 编程工具真实收益提供实证视角。",
+   "tags": [
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-04",
+   "slot": "evening",
+   "selected_at": "2026-11-04T12:54:04+00:00",
+   "mirror_pdf": "pdf/web-bfbdf1a4f935.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/c3vTLNrRwfCzw8SAmz90?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e282d3266258",
+   "kind": "article",
+   "title": "大模型时代，智驾芯片的算力赢学失效了",
+   "url": "https://www.tmtpost.com/8193596.html",
+   "pdf_url": "",
+   "abstract": "玩不过通用芯片，就玩定制芯片。",
+   "authors": [
+    "数智奔流"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-04T10:44:24+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8193596.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "大模型时代，智驾芯片算力赢学失效",
+   "summary_zh": "钛媒体分析：大模型上车后，智驾芯片单纯堆算力的路线失效，通用与定制芯片之争重新洗牌。",
+   "highlights_zh": [
+    "大模型改变智驾对芯片的需求结构",
+    "纯堆算力的竞争逻辑受到质疑",
+    "定制芯片成为部分厂商的应对方向"
+   ],
+   "why_zh": "关注 AI 芯片与智能驾驶交叉趋势的读者值得一读。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-04",
+   "slot": "evening",
+   "selected_at": "2026-11-04T12:54:04+00:00",
+   "mirror_pdf": "pdf/web-e282d3266258.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8193596.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2b61b90cfaaa",
+   "kind": "article",
+   "title": "为什么大家都学腾讯，把对手的模型请进来？",
+   "url": "https://www.tmtpost.com/8192671.html",
+   "pdf_url": "",
+   "abstract": "这又牵出AI办公竞争的另一面：公司要如何围绕任务协同，重组自身的能力与资源。",
+   "authors": [
+    "深流研究所"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-04T10:44:14+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8192671.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "为何都学腾讯，把对手的模型请进来？",
+   "summary_zh": "分析腾讯等厂商在 AI 办公产品中接入竞品模型的做法，讨论企业如何围绕任务协同重组能力与资源。",
+   "highlights_zh": [
+    "多模型接入成为 AI 办公产品的普遍策略",
+    "竞争焦点从模型本身转向任务协同与产品整合",
+    "对理解大模型商业化路径有参考意义"
+   ],
+   "why_zh": "看清模型商品化后，应用层竞争逻辑正在如何变化。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-04",
+   "slot": "evening",
+   "selected_at": "2026-11-04T12:54:04+00:00",
+   "mirror_pdf": "pdf/web-2b61b90cfaaa.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8192671.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-201b2d024fb4",
+   "kind": "article",
+   "title": "AI记忆值个天价",
+   "url": "https://www.tmtpost.com/8193344.html",
+   "pdf_url": "",
+   "abstract": "AI 记忆存储成本低廉，大厂与第三方服务商争相布局。记忆不等于聊天记录，要区分偏好、会话、任务状态，兼顾检索效率与信息完整。权限、版本、溯源、可迁移能力才是企业付费核心价值。",
+   "authors": [
+    "冯伟冯大白"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-04T09:07:03+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8193344.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI记忆成新战场，值个天价",
+   "summary_zh": "文章指出AI记忆存储成本低但价值高，大厂与第三方争相布局，企业付费核心在权限、版本、溯源与可迁移能力。",
+   "highlights_zh": [
+    "记忆需区分偏好、会话、任务状态三类",
+    "检索效率与信息完整需兼顾",
+    "权限、版本、溯源、可迁移是企业付费关键"
+   ],
+   "why_zh": "看清AI记忆作为基础设施的商业价值与竞争格局。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-04",
+   "slot": "evening",
+   "selected_at": "2026-11-04T12:54:04+00:00",
+   "mirror_pdf": "pdf/web-201b2d024fb4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8193344.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-623e4bcb90f4",
+   "kind": "article",
+   "title": "宇树CEO王兴兴：2027年或是机器人产业临界点，正探索物理AI自进化",
+   "url": "https://www.tmtpost.com/8193141.html",
+   "pdf_url": "",
+   "abstract": "他认为，除数据和算力外，芯片产能以及背后的能源、矿产资源也将成为全球科技产业发展的关键资源。",
+   "authors": [
+    "产联社CLS"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-04T09:06:56+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8193141.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "王兴兴：2027年或是机器人临界点",
+   "summary_zh": "宇树CEO王兴兴判断2027年或成机器人产业临界点，正探索物理AI自进化，并提示芯片、能源、矿产将成关键资源。",
+   "highlights_zh": [
+    "2027年被视作机器人产业拐点",
+    "探索物理AI自进化路径",
+    "芯片产能与能源矿产成关键约束"
+   ],
+   "why_zh": "头部机器人公司创始人对产业节奏与资源瓶颈的判断。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-04",
+   "slot": "evening",
+   "selected_at": "2026-11-04T12:54:04+00:00",
+   "mirror_pdf": "pdf/web-623e4bcb90f4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8193141.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-51948d77555a",
+   "kind": "article",
+   "title": "Usagi-org/ai-goofish-monitor",
+   "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+   "pdf_url": "",
+   "abstract": "Star Usagi-org / ai-goofish-monitor 基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。\nREADME: # 闲鱼智能监控系统 [中文] ｜ [English](README_EN.md) 基于 Playwright 和 AI 的闲鱼多任务实时监控，提供完整的 Web 管理界面。 ## 核心特性 - **Web 可视化管理**: 任务管理、账号管理、AI 标准编辑、运行日志、结果浏览 - **AI 驱动**: 自然语言创建任务，多模态模型深度分析商品 - **多任务并发**: 独立配置关键词、价格、筛选条件和 AI Prompt - **高级筛选**: 包邮、新发布时间范围、省/市/区三级区域筛选 - **即时通知**: 支持 ntfy.sh、企业微信、Bark、Telegram、Webhook等多渠道 - **定时调度**: 支持 Cron 配置周期性任务 - **账号与代理轮换**: 多账号管理、任务绑定账号、代理池轮换与失败重试 - **Docker 部署**: 一键容器化部署 ## 截图 ![监控概览](static/img.png) ![任务管理](static/img_1.png) ![结果查看](static/img_2.png) ![通知推送](static/img_3.png) ## 🐳 Docker 部署（推荐） ```bash git clone https://github.com/Usagi-org/ai-goofish-monitor && cd ai-goofish-monitor cp .env.example .env vim .env # 填写相关配置项 docker compose up -d docker compose logs -f app docker compose down ``` 如果镜像无法访问或下载速度慢，可尝试使用加速： ```bash docker pull ghcr.nju.edu.cn/usagi-org/ai-goofish:latest docker tag ghcr.nju.edu.cn/usagi-org/ai-goofish:latest ghcr.io/usagi-org/ai-goofish:latest docker compose up -d ``` - 默认 Web UI 地址：`http://127.0.0.1:8000` - Docker 镜像已内置 Chromium，无需宿主机额外安装浏览器。 - 官方镜像地址：`ghcr.io/usagi-org/ai-goofish:latest` - 更新镜像：`docker compose pull && docker compose up -d` - 如果你修改了 `.env` 中的 `SERVER_PORT`，请同步更新 `docker-compose.yaml` 里的端口映射。 - `docker-compose.yaml` 默认会把 SQLite 主库挂载到 `./data:/app/data`，数据库文件默认为 `data/app.sqlite3` - 目前默认持久化这些目录： - `data/` SQLite 主存储（任务、结果、价格历史） - `state/` 登录状态 cookie 文件 - `prompts/` 任务提示词 - `logs/` 运行日志 - `images/` 商品图片与任务临时图片目录 - `config.json`、`jsonl/`、`price_history/` 首次升级到 SQLite 时用于兼容导入的旧数据源 ### 数据存储与迁移 - 当前在线主存储为 SQLite，默认路",
+   "authors": [],
+   "orgs": [
+    "Usagi-org"
+   ],
+   "published": "2026-11-04T12:54:04+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+     "signal": "★ 今日 +979 · Python",
+     "metric": 979
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "闲鱼智能监控：基于 Playwright 与多模态 AI 的商品分析系统",
+   "summary_zh": "开源项目用 Playwright 抓取闲鱼商品，结合多模态模型做智能筛选与通知，提供 Web 管理界面、多任务并发和 Docker 部署。",
+   "highlights_zh": [
+    "自然语言创建监控任务，多模态模型深度分析商品图文",
+    "支持 ntfy、企业微信、Bark、Telegram 等多渠道即时通知",
+    "Docker 一键部署，内置 Chromium，支持账号与代理轮换"
+   ],
+   "why_zh": "如果你需要监控二手平台特定商品，可用它配置关键词与 AI 筛选条件后自动推送。",
+   "tags": [
+    "多模态",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.6225,
+   "score_llm": 5.0,
+   "score": 0.549,
+   "date": "2026-11-04",
+   "slot": "evening",
+   "selected_at": "2026-11-04T12:54:04+00:00",
+   "mirror_pdf": "pdf/web-51948d77555a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/Usagi-org/ai-goofish-monitor"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-afac4c9e7b55",
+   "kind": "article",
+   "title": "实测腾讯Hy4：我用它复刻《王者荣耀》，WorkBuddy 真能接大活了",
+   "url": "https://www.ifanr.com/1687613?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "国产开源模型的竞争白热化时刻 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "张子豪"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-11-04T08:37:32+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1687613?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "实测腾讯 Hy4：复刻《王者荣耀》，WorkBuddy 能否接大活",
+   "summary_zh": "爱范儿实测腾讯 Hy4 模型配合 WorkBuddy，尝试复刻《王者荣耀》类项目，反映国产开源模型在智能体编程任务上的能力边界。",
+   "highlights_zh": [
+    "国产开源模型竞争进入白热化阶段",
+    "智能体工具链在复杂项目中的实测表现",
+    "对模型落地编程场景的能力评估"
+   ],
+   "why_zh": "想了解国产开源模型在智能体编程实战中真实水平的读者可参考。",
+   "tags": [
+    "大模型",
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-04",
+   "slot": "evening",
+   "selected_at": "2026-11-04T12:54:04+00:00",
+   "mirror_pdf": "pdf/web-afac4c9e7b55.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1687613?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "「权重空间编程」祛魅，能力验证转向可复现的本地小模型",
-   "why": "Simon Willison复现本地Qwen读写权重，社区同时质疑Astra宣传夸大，能力叙事正被实证检验挤压。",
+   "trend": "模型权重可读写的宣传需降温，能力边界仍待严格验证",
+   "why": "本地Qwen复现与Astra夸大质疑并存，权重操控从神话走向可检验的工程问题",
    "refs": [
     "web-9b0f1b3870f8",
     "web-435a4449f912"
    ]
   },
   {
-   "trend": "评测重心从技术难度转向组织情境与智能体互操纵",
-   "why": "新论文指出不足四分之一基准覆盖组织维度，且实证显示智能体间可互相说服欺骗绕过监督。",
+   "trend": "评测重心从技术任务转向组织情境与智能体互信安全",
+   "why": "StateBench补长文档状态追踪，组织难度与智能体互相操纵评测揭示现有基准盲区",
    "refs": [
+    "web-a55665cf4895",
     "arxiv-2611.03494",
-    "arxiv-2611.04556",
-    "web-a55665cf4895"
+    "arxiv-2611.04556"
    ]
   },
   {
-   "trend": "长上下文路线遭挑战，压缩维持短上下文成新架构拐点",
-   "why": "研究发现越靠后token生成成本最高差7倍，频繁压缩后长程任务精度几乎不降。",
+   "trend": "长上下文竞赛出现反向拐点，压缩与短上下文策略受重视",
+   "why": "研究发现后段token成本可达7倍，频繁压缩维持短上下文精度几乎不降",
    "refs": [
     "arxiv-2611.05306"
    ]
   },
   {
-   "trend": "AI竞争壁垒从模型转向生产力系统与算力财务工程",
-   "why": "模型人人可得，差距在嵌入工作流；同时算力采购推高混合成本82%，隐性债务半年增90%。",
+   "trend": "AI竞争壁垒从模型转向生产力系统与智能体部署密度",
+   "why": "模型人人可得，腾讯云至强6+单颗支持超千智能体，工作流嵌入成关键",
    "refs": [
     "web-417500adf7ec",
-    "web-0e35fd66aa7f",
-    "web-f3900be82c6f"
+    "web-2464fda18886"
    ]
   },
   {
-   "trend": "世界模型与具身智能进入标准之争与临界点前夜",
-   "why": "百度提出因果性、交互性等「2+3」评判标准，宇树判断明年或为机器人与模型临界点。",
+   "trend": "AI基建融资风险显性化，算力扩张与隐性债务同步膨胀",
+   "why": "巨头表外AI债务半年增90%至3.2万亿美元，Anthropic算力采购两季度推高成本82%",
    "refs": [
-    "web-229ecaa3bbf1",
-    "web-e53813dd1fb7",
-    "web-5e835f2767e3"
+    "web-f3900be82c6f",
+    "web-0e35fd66aa7f",
+    "web-3fe0fd7bc0ae"
    ]
   }
  ]
