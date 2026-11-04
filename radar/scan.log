@@ -1,10 +1,12 @@
-2026-11-04 05:05:58,036 INFO source hf_daily           -> 21 items
-2026-11-04 05:05:58,262 INFO source hackernews         -> 9 items
-2026-11-04 05:06:30,199 INFO source rss                -> 93 items
-2026-11-04 05:06:31,625 INFO source html_lists         -> 0 items
-2026-11-04 05:06:31,625 INFO source x                  -> 0 items
-2026-11-04 05:07:33,019 INFO source arxiv_search       -> 60 items
-2026-11-04 05:07:41,582 INFO source github             -> 20 items
-2026-11-04 05:07:41,633 INFO candidates: 201 (stale dropped 29, new 124)
-2026-11-04 05:09:32,555 INFO llm judged 100/100 (calls=13)
-2026-11-04 05:12:49,765 INFO run done: {"at": "2026-11-04T05:05:57+00:00", "slot": "noon", "candidates": 201, "new": 124, "stale": 29, "judged": 100, "selected": 20, "mirrored": 19, "by_category": {"资讯": 13, "观点": 1, "技术": 4, "项目": 2}, "by_source": {"HF Daily Papers": 21, "Hacker News": 9, "Simon Willison": 2, "OpenAI": 9, "量子位": 10, "极客公园": 4, "IT之家": 9, "爱范儿": 10, "少数派": 2, "雷峰网": 13, "钛媒体": 4, "InfoQ 中文": 14, "Latent Space": 3, "Jack Clark": 1, "Stratechery": 1, "SemiAnalysis": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 4, "Google DeepMind": 1, "NVIDIA": 2, "arXiv 新论文": 60, "GitHub Trending": 9, "GitHub 新项目": 11}, "llm": true, "translated": 0}
+2026-11-04 12:54:04,984 INFO source hf_daily           -> 33 items
+2026-11-04 12:54:05,446 INFO source hackernews         -> 10 items
+2026-11-04 12:54:28,668 INFO source rss                -> 99 items
+2026-11-04 12:54:30,879 INFO source html_lists         -> 0 items
+2026-11-04 12:54:30,879 INFO source x                  -> 0 items
+2026-11-04 12:54:31,644 INFO source arxiv_search       -> 60 items
+2026-11-04 12:54:43,508 INFO source github             -> 20 items
+2026-11-04 12:54:43,558 INFO candidates: 220 (stale dropped 29, new 144)
+2026-11-04 12:56:32,169 INFO llm judged 100/100 (calls=13)
+2026-11-04 12:56:45,527 WARNING snapshot https://stratechery.com/2026/ai-on-the-ballot/: blocked or empty page
+2026-11-04 12:58:37,819 WARNING snapshot https://www.leiphone.com/category/chips/pXuAy8TH7q2u0Q9T.html: blocked or empty page
+2026-11-04 13:01:11,659 INFO run done: {"at": "2026-11-04T12:54:04+00:00", "slot": "evening", "candidates": 220, "new": 144, "stale": 29, "judged": 100, "selected": 20, "mirrored": 18, "by_category": {"资讯": 13, "技术": 4, "观点": 1, "项目": 2}, "by_source": {"HF Daily Papers": 33, "Hacker News": 10, "Simon Willison": 2, "GitHub Trending": 8, "量子位": 10, "极客公园": 4, "IT之家": 9, "爱范儿": 10, "少数派": 2, "雷峰网": 13, "钛媒体": 8, "InfoQ 中文": 17, "Latent Space": 3, "Jack Clark": 1, "Stratechery": 1, "SemiAnalysis": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 4, "OpenAI": 8, "Google DeepMind": 1, "NVIDIA": 2, "arXiv 新论文": 60, "GitHub 新项目": 12}, "llm": true, "translated": 0}
