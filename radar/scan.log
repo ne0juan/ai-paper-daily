@@ -1,12 +1,10 @@
-2026-11-04 12:54:04,984 INFO source hf_daily           -> 33 items
-2026-11-04 12:54:05,446 INFO source hackernews         -> 10 items
-2026-11-04 12:54:28,668 INFO source rss                -> 99 items
-2026-11-04 12:54:30,879 INFO source html_lists         -> 0 items
-2026-11-04 12:54:30,879 INFO source x                  -> 0 items
-2026-11-04 12:54:31,644 INFO source arxiv_search       -> 60 items
-2026-11-04 12:54:43,508 INFO source github             -> 20 items
-2026-11-04 12:54:43,558 INFO candidates: 220 (stale dropped 29, new 144)
-2026-11-04 12:56:32,169 INFO llm judged 100/100 (calls=13)
-2026-11-04 12:56:45,527 WARNING snapshot https://stratechery.com/2026/ai-on-the-ballot/: blocked or empty page
-2026-11-04 12:58:37,819 WARNING snapshot https://www.leiphone.com/category/chips/pXuAy8TH7q2u0Q9T.html: blocked or empty page
-2026-11-04 13:01:11,659 INFO run done: {"at": "2026-11-04T12:54:04+00:00", "slot": "evening", "candidates": 220, "new": 144, "stale": 29, "judged": 100, "selected": 20, "mirrored": 18, "by_category": {"资讯": 13, "技术": 4, "观点": 1, "项目": 2}, "by_source": {"HF Daily Papers": 33, "Hacker News": 10, "Simon Willison": 2, "GitHub Trending": 8, "量子位": 10, "极客公园": 4, "IT之家": 9, "爱范儿": 10, "少数派": 2, "雷峰网": 13, "钛媒体": 8, "InfoQ 中文": 17, "Latent Space": 3, "Jack Clark": 1, "Stratechery": 1, "SemiAnalysis": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 4, "OpenAI": 8, "Google DeepMind": 1, "NVIDIA": 2, "arXiv 新论文": 60, "GitHub 新项目": 12}, "llm": true, "translated": 0}
+2026-11-04 18:33:28,273 INFO source hf_daily           -> 34 items
+2026-11-04 18:33:28,516 INFO source hackernews         -> 10 items
+2026-11-04 18:34:25,215 INFO source rss                -> 103 items
+2026-11-04 18:34:26,897 INFO source html_lists         -> 0 items
+2026-11-04 18:34:26,897 INFO source x                  -> 0 items
+2026-11-04 18:34:27,576 INFO source arxiv_search       -> 60 items
+2026-11-04 18:34:37,337 INFO source github             -> 20 items
+2026-11-04 18:34:37,501 INFO candidates: 226 (stale dropped 116, new 66)
+2026-11-04 18:35:42,668 INFO llm judged 66/66 (calls=9)
+2026-11-04 18:38:29,030 INFO run done: {"at": "2026-11-04T18:33:27+00:00", "slot": "morning", "candidates": 226, "new": 66, "stale": 116, "judged": 66, "selected": 18, "mirrored": 17, "by_category": {"资讯": 13, "观点": 1, "技术": 4}, "by_source": {"HF Daily Papers": 34, "Hacker News": 10, "Simon Willison": 1, "量子位": 10, "极客公园": 4, "IT之家": 15, "爱范儿": 11, "少数派": 3, "雷峰网": 14, "钛媒体": 4, "InfoQ 中文": 17, "Nathan Lambert": 1, "Latent Space": 3, "Stratechery": 1, "SemiAnalysis": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 5, "Google Research": 1, "OpenAI": 6, "Google DeepMind": 1, "NVIDIA": 2, "arXiv 新论文": 60, "GitHub Trending": 8, "GitHub 新项目": 12}, "llm": true, "translated": 0}
