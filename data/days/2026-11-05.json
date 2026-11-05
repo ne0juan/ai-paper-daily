@@ -2114,49 +2114,1370 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-0a437d67f2ef",
+   "kind": "article",
+   "title": "Images 2.6",
+   "url": "https://openai.com/index/introducing-images-2-6/",
+   "pdf_url": "",
+   "abstract": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-11-04T23:35:44Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50372945",
+     "signal": "329 pts",
+     "metric": 329
+    },
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/introducing-images-2-6",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 发布 Images 2.6：更快生成、GIF 与精细编辑",
+   "summary_zh": "OpenAI 推出 Images 2.6，图像生成更快，新增 GIF 制作与更精确的编辑能力，并在 ChatGPT、Codex 与 API 中提供新的控制参数。",
+   "highlights_zh": [
+    "生成速度提升，新增 GIF 动图创建",
+    "编辑精度提高，支持更细粒度修改",
+    "API 增加新控制项，覆盖 ChatGPT 与 Codex"
+   ],
+   "why_zh": "头部厂商图像模型迭代，直接影响多模态产品与 API 调用方。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.8719,
+   "score_llm": 7.0,
+   "score": 0.7688,
+   "date": "2026-11-05",
+   "slot": "evening",
+   "selected_at": "2026-11-05T13:02:48+00:00",
+   "mirror_pdf": "pdf/web-0a437d67f2ef.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/introducing-images-2-6/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50372945"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.06910",
+   "kind": "paper",
+   "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+   "url": "https://arxiv.org/abs/2611.06910",
+   "pdf_url": "https://arxiv.org/pdf/2611.06910",
+   "abstract": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine domains across theoretical, computational, and experimental physics. Each task requires agents to review the literature, develop a research plan, conduct research and experiments, and produce structured outputs and scientific manuscripts. Combining deterministic verifiers with expert-authored rubrics, FrontierPhysics evaluates whether agents' research is correct and publishable. Across 22 models in 26 configurations, no configuration passes more than 46 of its 168 rollouts. Manual review of agent trajectories shows that frontier agents' main weaknesses are insufficiently rigorous reasoning and limited expert intuition, rather than gaps in physics knowledge or execution errors.",
+   "authors": [
+    "Bingran You",
+    "Wenjun Ke",
+    "Ria Rosenauer",
+    "Bo Liu",
+    "Wenbo Chen",
+    "Min Chen",
+    "Shuqi Xu",
+    "Yue Ma",
+    "Jiechao Feng",
+    "Bo Chen",
+    "Xiangkai Sun",
+    "Jiarui Liu",
+    "Jinen Guo",
+    "Zeyu Zhou",
+    "Xu Huang",
+    "Zhuohan Li",
+    "Haoyu Li",
+    "Heguang Lin",
+    "Lijie Ding",
+    "Yadong Zeng",
+    "Kangqi Zhang",
+    "Xinge Liu",
+    "Hanwen Liu",
+    "Zhenghong Li",
+    "Alexander von Recum",
+    "Yuchen Zhu",
+    "Felix Schwarzfischer",
+    "Yizhou Zhao",
+    "Jicheng Wang",
+    "Binxu Li",
+    "Qian Yu",
+    "Chan Li",
+    "Cheng Dai",
+    "Di Wang",
+    "Haoyu Zhang",
+    "Jiankai Sun",
+    "Kaituo Feng",
+    "Mian Qin",
+    "Ruihong Yin",
+    "Yiqun Luo",
+    "Weiwei Wu",
+    "Shihong Pan",
+    "Tsung Yeh Hsieh",
+    "Xiao Huang",
+    "Yan Zhang",
+    "Sihan Li",
+    "Zirui Ren",
+    "Zengji Tu",
+    "Kyoung Whan Choe",
+    "Ke Sun",
+    "Vincenzo Galia",
+    "Vaisakhi Mishra",
+    "Jiashu He",
+    "Hongyang Wang",
+    "Zhiheng Yang",
+    "Shubham Gaur",
+    "Yifan Gu",
+    "Shuyi Wang",
+    "Zihao Zuo",
+    "Steven Dillmann",
+    "Yiyou Sun",
+    "Xinyang Han",
+    "Hanchung Lee",
+    "Molei Tao",
+    "Yue Zhao",
+    "Shilong Liu",
+    "Yuchen Wu",
+    "Xuandong Zhao",
+    "Xiangyi Li",
+    "Florian Brand",
+    "Gerbrand Ceder",
+    "Hartmut Haeffner"
+   ],
+   "orgs": [],
+   "published": "2026-11-04T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.06910",
+     "signal": "▲ 27",
+     "metric": 27
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.06910",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "FrontierPhysics：端到端物理科研智能体评测基准",
+   "summary_zh": "42 位物理学家基于自身研究设计 56 个端到端任务，要求智能体完成文献调研、实验与论文写作；22 个模型 26 种配置无一通过超过 46/168 次，主要短板是推理不严谨与缺乏专家直觉。",
+   "highlights_zh": [
+    "覆盖理论、计算、实验物理九大领域",
+    "确定性验证器加专家评分，兼顾正确性与可发表性",
+    "失败主因是推理严谨性与专家直觉，而非知识或执行"
+   ],
+   "why_zh": "把智能体评测从固定问答推进到真实科研全流程，揭示能力边界。",
+   "tags": [
+    "数据与评测",
+    "智能体",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.6392,
+   "score_llm": 8.0,
+   "score": 0.7357,
+   "date": "2026-11-05",
+   "slot": "evening",
+   "selected_at": "2026-11-05T13:02:48+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.06910.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.06910"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.06910"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.06910"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.06910"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.06910"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.06910"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.06918",
+   "kind": "paper",
+   "title": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
+   "url": "https://arxiv.org/abs/2611.06918",
+   "pdf_url": "https://arxiv.org/pdf/2611.06918",
+   "abstract": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit a fixed visual endpoint, or directly access evolving visual computation? We introduce NEO-VLA, a structurally encoder-free vision-language-action framework. Images are tokenized by lightweight patch convolutional layers and evolve jointly with language throughout the backbone, allowing a flow-matching action expert to draw from instruction-conditioned visual representations at different depths. This simple change reveals a consistent pattern. Native architectures outperform encoder-based counterparts under controlled comparisons; full fine-tuning reduces but does not erase the gap, and additional scale alone cannot recover it. More strikingly, layer-wise probing shows that the action-critical signals often peak well before the final visual representation. Across diverse manipulation settings and distribution shifts, NEO-VLA consequently achieves stronger and more robust control. Together, these results suggest that embodied control benefits from access to visual representations across the computational hierarchy, rather than a fixed encoder output.",
+   "authors": [
+    "Weichen Fan",
+    "Haiwen Diao",
+    "Penghao Wu",
+    "Siyuan Hu",
+    "Ziqi Huang",
+    "Tianqi Liu",
+    "Mingze Sun",
+    "Ziyi Wang",
+    "Zhongang Cai",
+    "Hanming Deng",
+    "Quan Wang",
+    "Lei Yang",
+    "Lewei Lu",
+    "Fangzhou Hong",
+    "Zhaoxi Chen",
+    "Dahua Lin",
+    "Ziwei Liu"
+   ],
+   "orgs": [
+    "MMLab@NTU"
+   ],
+   "published": "2026-11-04T18:59:58.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.06918",
+     "signal": "▲ 52",
+     "metric": 52
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "NEO-VLA：走向原生视觉-语言-动作策略",
+   "summary_zh": "提出无视觉编码器的 VLA 框架，图像经轻量卷积分块后与语言在主干中共同演化，动作专家可从不同深度取视觉表征；受控对比中原生架构优于编码器方案，且动作关键信号常在最终层之前达到峰值。",
+   "highlights_zh": [
+    "去掉固定视觉编码器，视觉与语言联合演化",
+    "流匹配动作专家跨深度读取指令条件表征",
+    "逐层探测显示动作关键信号早于最终视觉表征"
+   ],
+   "why_zh": "挑战 VLA 默认的编码器范式，为具身控制架构提供新方向。",
+   "tags": [
+    "机器人",
+    "多模态",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.6174,
+   "score_llm": 8.0,
+   "score": 0.727,
+   "date": "2026-11-05",
+   "slot": "evening",
+   "selected_at": "2026-11-05T13:02:48+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.06918.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.06918"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.06918"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.06918"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.06918"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.06918"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.06918"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1d58057bef99",
+   "kind": "article",
+   "title": "An Interview With Intuit CEO Sasan Goodarzi About Accounting and AI",
+   "url": "https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/",
+   "pdf_url": "",
+   "abstract": "An interview with Intuit CEO Sasan Goodarzi about the working for one of tech's oldest software companies, and how Intuit is leaning into the AI paradigm shift.",
+   "authors": [
+    "Ben Thompson"
+   ],
+   "orgs": [
+    "Stratechery"
+   ],
+   "published": "2026-11-05T11:00:00+00:00",
+   "sources": [
+    {
+     "name": "Stratechery",
+     "authority": 0.8,
+     "url": "https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Ben Thompson，科技战略分析",
+   "title_zh": "Intuit CEO谈会计行业与AI范式转变",
+   "summary_zh": "Intuit CEO Goodarzi认为AI正重塑会计与财务软件，公司正全面押注AI范式转变，把AI嵌入核心工作流而非附加功能。",
+   "highlights_zh": [
+    "传统软件巨头如何把AI嵌入核心产品",
+    "AI对专业服务（会计）岗位结构的冲击判断",
+    "Ben Thompson对软件商业模式变迁的追问"
+   ],
+   "why_zh": "头部垂直软件公司CEO的一手判断，看AI如何改造传统行业工作流。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.708,
+   "date": "2026-11-05",
+   "slot": "evening",
+   "selected_at": "2026-11-05T13:02:48+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.06728",
+   "kind": "paper",
+   "title": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
+   "url": "https://arxiv.org/abs/2611.06728",
+   "pdf_url": "https://arxiv.org/pdf/2611.06728",
+   "abstract": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns. Such shared credit can reinforce redundant replies after earlier successes and discourage useful follow-ups after earlier failures. We propose TurnWise, a turn-level GRPO framework that aligns learning with individual streaming decisions. TurnWise addresses the mismatch between trajectory-level feedback and turn-level interaction, promoting informative responses and reducing redundancy. Specifically, turn-level credit assignment uses silence-completed prefix scoring to construct group-relative advantages from each decision's remaining return, separating its learning signal from earlier rewards. Turn-mean policy optimization averages token losses within each turn and then across turns, giving response and waiting decisions equal weight regardless of output length. These complementary designs improve streaming policy learning without a learned critic or additional rollouts. Extensive experiments show our method outperforms prior RL approaches for streaming video understanding.",
+   "authors": [
+    "Shuai Dong",
+    "Kanghui Tian",
+    "Linghan Chen",
+    "Wenqi Shao",
+    "Hongrui Wu",
+    "Haowen Hou",
+    "Yongfu Zhu",
+    "Xuehui Wang",
+    "Ziyue Wang",
+    "Wenpu Liu",
+    "Weichu Xie",
+    "Yuqi Xu",
+    "Congcong Wang",
+    "Kaiwen Tuo",
+    "Caoyuan Ma",
+    "Taiqiang Wu",
+    "Ji Zhao",
+    "Wenzheng Chang",
+    "Dianyi Wang",
+    "Siyuan Wang",
+    "Zhongyu Wei",
+    "Yu Qiao",
+    "Jiaqi Wang"
+   ],
+   "orgs": [],
+   "published": "2026-11-04T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.06728",
+     "signal": "▲ 37",
+     "metric": 37
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "TurnWise：用轮级信用分配改进流式视频强化学习",
+   "summary_zh": "针对流式视频理解中 GRPO 共用轨迹级优势导致冗余回复的问题，提出轮级信用分配与轮均值策略优化，无需额外 rollout 即优于既有 RL 方法。",
+   "highlights_zh": [
+    "用静默补全前缀评分构造每轮组相对优势",
+    "轮内平均 token 损失，使回复与等待决策等权",
+    "无需学习 critic 或额外采样"
+   ],
+   "why_zh": "流式多模态场景下 RL 训练方法的实用改进，工程可直接借鉴。",
+   "tags": [
+    "强化学习",
+    "多模态",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.5975,
+   "score_llm": 7.0,
+   "score": 0.659,
+   "date": "2026-11-05",
+   "slot": "evening",
+   "selected_at": "2026-11-05T13:02:48+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.06728.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.06728"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.06728"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.06728"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.06728"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.06728"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.06728"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/XD111ds/turn-wise-rl"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5978e168ee56",
+   "kind": "article",
+   "title": "百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA",
+   "url": "https://www.qbitai.com/2026/11/507787.html",
+   "pdf_url": "",
+   "abstract": "11月5日，百度正式开源最新基座模型文心5.5 Flash Base",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-05T07:15:13+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/507787.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "百度开源文心5.5 Flash Base，同尺寸刷新SOTA",
+   "summary_zh": "百度开源文心5.5 Flash Base 基座模型，在多项基准上刷新同尺寸模型 SOTA。",
+   "highlights_zh": [
+    "百度开源最新基座模型文心5.5 Flash Base",
+    "多基准测试刷新同尺寸模型 SOTA",
+    "国产开源大模型竞争加剧"
+   ],
+   "why_zh": "国产开源基座模型的重要更新，直接影响选型与微调决策。",
+   "tags": [
+    "大模型",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-11-05",
+   "slot": "evening",
+   "selected_at": "2026-11-05T13:02:48+00:00",
+   "mirror_pdf": "pdf/web-5978e168ee56.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/507787.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5e468467bd2e",
+   "kind": "article",
+   "title": "[AINews] It's Swapping Season",
+   "url": "https://latent.space/p/ainews-it-s-swapping-season/",
+   "pdf_url": "",
+   "abstract": "November 4, 2026 — OpenAI’s Linux kernel security work, Kimi K3.1 Pro’s open weights, and Ricursive’s Ripple-65B.",
+   "authors": [
+    "swyx .ai"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-11-05T06:24:09+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/ainews-it-s-swapping-season/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "AINews：模型换血季",
+   "summary_zh": "Latent Space汇总：OpenAI涉Linux内核安全工作、Kimi K3.1 Pro开放权重、Ricursive发布Ripple-65B，模型格局进入密集换血期。",
+   "highlights_zh": [
+    "Kimi K3.1 Pro开放权重，开源阵营再添强模型",
+    "Ricursive Ripple-65B新模型亮相",
+    "OpenAI在Linux内核安全方向的动向"
+   ],
+   "why_zh": "一期速览多家模型动态，适合快速把握开源与闭源格局变化。",
+   "tags": [
+    "大模型",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-11-05",
+   "slot": "evening",
+   "selected_at": "2026-11-05T13:02:48+00:00",
+   "mirror_pdf": "pdf/web-5e468467bd2e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/ainews-it-s-swapping-season/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-931a5e1231ad",
+   "kind": "article",
+   "title": "百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA",
+   "url": "https://www.leiphone.com/category/industrynews/XOv7MDFAP99kUMEW.html",
+   "pdf_url": "",
+   "abstract": "11月5日，百度正式开源最新基座模型文心5.5 Flash Base（ERNIE 5.5 Flash Base）。模型采用MoE架构，总参数量2800亿，每个 Token 激活140亿参数，使用33.5万亿个 Token 完成预训练，预训练上下文长度最高达128K，微调与推理阶段支持最长100万 Token上下文。在知识、推理、数学、代码、多语言和长上下文等多个基准测试中取得同尺寸模型 SOTA 表现，超过 DeepSeek-V4-Flash-Base、Hy3-preview-Base、MiMo-V2.5-Base 等模型。 开源地址：https://huggingface.co/baidu/ERNIE-5.5-Flash-Base 随着大模型应用从文本问答向长文档分析、多轮交互和智能体任务延伸，模型需要处理的信息量持续增加，计算和显存开销也随之上升。在保证模型能力的同时提高资源利用效率，已成为大模型研发的重要课题。 文心 5.5 Flash Base围绕“效率”这一设计主线，在注意力机制、专家路由及训练机制等关键环节进行系统性优化，并实现了多项算法创新。 在注意力机制上，文心提出 Latent-Gated Sparse Attention，将混合稀疏注意力、低秩门控注意力与虚拟头注意力结合起来。其中，模型通过组合HCA与MLA，让不同注意力层分别承担压缩历史信息和细粒度访问历史位置的任务；低秩门控注意力（Low-Rank Gated Attention）则利用已有的低维表示计算信息门控，使门控投影权重参数减少75%；此外，虚拟头注意力（Virtual Head Attention，VHA）可提升模型表达力与训练质量，推理时融合进注意力算子，开销极小。这些设计降低了长上下文处理的资源开销，同时保留模型对关键信息的处理能力。 在专家路由上，模型采用 Multi-Router Latent MoE，由多个独立路由器共同参与专家选择，改善路由评分与专家实际效用之间的相关性。相比依赖单一路由器的传统方案，该设计旨在降低单一评分偏差对专家选择的影响，同时保持激活专家数量、专家计算量和通信量不变。在训练目标上，模型引入 ECHO，无需额外增加 MTP 模块（Multi-Token Prediction），而是复用主干最后一层，让主干自身学习预测后续 token，从而提前规划序列走向，有效提升推理与代码能力。文心5.5 Flash 仅采用单步 ECHO 预训练，复用的最后一层还可作为投机解码的草稿模型，展现出多步外推能力：同样只训练一步，多步起草质量大幅优于辅助 MTP 模块。 除模型架构外，大模型基建创新也十分重要。文心对分布式Muon优化器进行了优化，并推出面向大 head dim 的注意力算子 FlashMask-4，改善大规模训练中的通信、显存利用与计算效率。模型能力的提升不仅依赖算法本身，也与训练系统能否高效支撑这些设计密切相关。 基座模型不仅承载着预训练阶段形成的通用能力，也是下游模型开发与应用创新的重要基础。与面向终端用户的应用模型不同，Base 模型为开发者和企业提供了进一步微调与定制的空间，可基于自身业务需求构建适应不同场景的专业模型与应用。开放基座模型能够为开发者提供更多技术选择，降低专业模型开发的训练成本与技术门槛。 当前，大模型的竞争逐渐迈向模型能力、训练效率与场景创新协同发展的新阶段。随着推理、Agent等技术与应用加速演进，行业对基座模型的需求也从单一的能力提升，转向更高效的训练范式、更灵活的能力拓展，以及更广泛的场景适配需求。文心",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-05T06:53:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/XOv7MDFAP99kUMEW.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "百度开源文心5.5 Flash Base，同尺寸模型多项基准登顶",
+   "summary_zh": "百度开源2800亿参数MoE基座模型文心5.5 Flash Base，每Token激活140亿参数，在知识、推理、代码、长上下文等基准上刷新同尺寸SOTA，并公开多项架构与训练创新。",
+   "highlights_zh": [
+    "总参数2800亿、激活140亿的MoE架构，预训练用33.5万亿Token，微调与推理支持最长100万Token上下文",
+    "提出Latent-Gated Sparse Attention、Multi-Router Latent MoE、ECHO训练目标等系统性效率优化",
+    "在多个基准上超过DeepSeek-V4-Flash-Base、Hy3-preview-Base等同类模型，权重已在HuggingFace开放"
+   ],
+   "why_zh": "国产头部厂商开源高效基座模型，是观察大模型效率竞赛与开源格局的关键样本。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-05",
+   "slot": "evening",
+   "selected_at": "2026-11-05T13:02:48+00:00",
+   "mirror_pdf": "pdf/web-931a5e1231ad.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/XOv7MDFAP99kUMEW.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7e2550012641",
+   "kind": "article",
+   "title": "美国人形机器人第一股：Agility Robotics 本周登陆纳斯达克，获富士康、英伟达投资",
+   "url": "https://www.ithome.com/1/022/978.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 5 日消息，据彭博社报道，美国人形机器人企业 Agility Robotics 即将成为美国首家上市的专注于人形机器人的公司，这也标志着这一新兴行业迈出了重要一步。不过，人形机器人行业仍有许多问题有待验证。 这家初创公司将于当地时间本周四在纳斯达克挂牌交易，股票代码为“AGLT”。此前，Agility Robotics 已与特殊目的收购公司 Churchill Capital Corp. XI 完成合并。根据公司声明，此次交易完成后，Agility Robotics 手头资金约为 4.65 亿美元 （IT之家注：现汇率约合 31.09 亿元人民币） （不计相关费用），其中包括由苹果公司主要 iPhone 组装合作伙伴富士康领投的一笔约 2.01 亿美元 （现汇率约合 13.44 亿元人民币） 私募股权投资。其他知名投资方还包括英伟达、亚马逊和软银愿景基金二期。 Agility Robotics 是众多人形机器人研发企业之一。这类机器人以人类为设计原型，通常能够直立行走，也有部分采用轮式移动结构。目前，人形机器人主要应用于仓库和工厂等商业场景。中国企业宇树科技已于今年 8 月在上海上市，而 Agility Robotics 则是首家在美国上市的同类企业。 这家总部位于美国俄勒冈州的初创公司目前拥有约 400 名员工，正进一步扩大与 GXO Logistics 的合作，将旗下机器人部署到更多物流设施中。此外，该公司还在与 AGCO 合作开展制造业试点项目。 Agility Robotics 首席执行官佩吉 · 约翰逊（Peggy Johnson）在接受采访时表示，随着 AI 从数字世界向现实世界延伸，接下来的发展可能才是更值得关注的部分。她所指的是，人工智能正在被应用于机器人及其他硬件设备。 约翰逊表示：“将智能机器人引入更多工作场所，蕴藏着巨大的机遇。当机器与人真正开始协同工作时，许多事情的实现方式都将发生根本性变化。” Agility Robotics 认为，旗下最新款人形机器人 Digit 5 有望缓解劳动力短缺问题，尤其是在仓储行业。这款机器人于今年 9 月发布，能够执行更复杂的工作，例如向设备装载物料、分拣零部件以及检查物品。 相比之下，上一代 Digit 4 主要负责堆叠塑料收纳箱等相对简单的任务。Digit 5 还能够在人员附近安全作业，而此前的版本必须在实体安全隔离设施后方运行，这限制了机器人接手人类工作的能力。 Agility Robotics 表示，目前已获得超过 3 亿美元 （现汇率约合 20.06 亿元人民币） 的 Digit 5 多年期订单承诺。该公司的机器人已被 9 家客户投入使用，目前正与 30 多家潜在商业客户进行积极的销售洽谈。 这家初创公司已承诺在 12 处客户设施部署 Digit，并计划到 2027 年底，将潜在客户储备扩大至 100 家，覆盖汽车、零售和制药等多个行业。 约翰逊援引德勤（Deloitte）2024 年的一项研究指出，到 2033 年，美国制造业无法填补的岗位数量预计将增至约 190 万个。 她表示：“Digit 擅长填补的劳动力缺口还在不断扩大。许多企业并不清楚该如何找到足够的人手，来完成那些难以招聘员工、人员流失率又较高的工作。” 约翰逊此前曾担任增强现实和混合现实公司 Magic Leap 的首席执行官。她认为，随着华尔街逐步认识这一全新的行业类别，市场仍需要经历一个认知和学习过程。不过，她表示，Agility Robotics 应当按照其他自动化技术供应商的相同标准接受",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-05T12:38:57+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/022/978.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Agility Robotics 本周登陆纳斯达克，成美国人形机器人第一股",
+   "summary_zh": "Agility Robotics 通过与 SPAC 合并登陆纳斯达克，获富士康领投 2.01 亿美元、英伟达等参投，手头资金约 4.65 亿美元；Digit 5 已获超 3 亿美元多年期订单。",
+   "highlights_zh": [
+    "美国首家人形机器人上市公司，富士康领投、英伟达/亚马逊/软银参投",
+    "Digit 5 可在人员附近安全作业，已获超 3 亿美元订单承诺，9 家客户在用",
+    "计划 2027 年底将潜在客户扩至 100 家，覆盖汽车、零售、制药"
+   ],
+   "why_zh": "人形机器人资本化与商业化落地的关键风向标，值得关注赛道节奏。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-05",
+   "slot": "evening",
+   "selected_at": "2026-11-05T13:02:48+00:00",
+   "mirror_pdf": "pdf/web-7e2550012641.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/022/978.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-89209ab642b1",
+   "kind": "article",
+   "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+   "url": "https://huggingface.co/blog/phonon-tts",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-11-05T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/phonon-tts",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Phonon TTS：登顶基准的端侧高质量语音合成",
+   "summary_zh": "Hugging Face 发布 Phonon TTS，主打端侧部署的高质量语音合成，并在多项基准上取得领先成绩。",
+   "highlights_zh": [
+    "面向端侧设备的高质量 TTS 方案",
+    "在公开基准上取得领先表现",
+    "Hugging Face 官方技术博客详解"
+   ],
+   "why_zh": "关注端侧语音合成落地与性能边界的从业者可参考其方法与评测。",
+   "tags": [
+    "语音",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 7.0,
+   "score": 0.612,
+   "date": "2026-11-05",
+   "slot": "evening",
+   "selected_at": "2026-11-05T13:02:48+00:00",
+   "mirror_pdf": "pdf/web-89209ab642b1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/phonon-tts"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1f03c87007f1",
+   "kind": "article",
+   "title": "scenario-labs/skills",
+   "url": "https://github.com/scenario-labs/skills",
+   "pdf_url": "",
+   "abstract": "Star scenario-labs / skills Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.\nREADME: Scenario Agent Skills Agent Skills that teach AI coding agents (Claude Code, Cursor, Codex, Copilot, and 70+ others) how to create production-ready content with [Scenario](https://scenario.com) through the [Scenario MCP server](https://mcp.scenario.com): images, video, audio, textures, skyboxes, 3D assets, and custom-trained models, for games, entertainment, and any creative vertical. The expert tools at the bottom of the list work differently: teams of skills that drive DCC (digital content creation) software and game engines installed on your machine (ZBrush, Blender, Maya, Unreal Engine, Unity, Godot, Roblox Studio), distilled from expert tutorials, conference talks, and official documentation. They need the application, not the Scenario MCP server, and each family folder's README records how it was built and how far it was verified. Skills follow the [Agent Skills](https://agentskills.io) format. ## Install **Everything for Scenario.** Every Scenario skill, without the expert tools: the default for working through the Scenario MCP. ```bash # Every Scenario skill, without the expert tools npx skills add scenario-labs/skills --skill scenario scenario-inspiration scenario-image scenario-multi-reference scenario-product-shots scenario-brand-kit scenario-image-editing scenario-text-overlay scenario-storyboards scenario-game-assets scenario-sprite-animation scenario-side-view-game-kit scenario-blender-2d-animation scenario-textures scenario-skyboxes scenario-3d scenario-video-t",
+   "authors": [],
+   "orgs": [
+    "scenario-labs"
+   ],
+   "published": "2026-11-05T13:02:48+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/scenario-labs/skills",
+     "signal": "★ 今日 +674 · Python",
+     "metric": 674
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Scenario Agent Skills：让编码智能体产出图像视频与 3D",
+   "summary_zh": "一套 Agent Skills，让 Claude Code、Cursor 等编码智能体通过 Scenario MCP 生成图像、视频、音频与 3D 资产，并驱动 Blender、Maya、Unreal 等 DCC 软件。",
+   "highlights_zh": [
+    "遵循 Agent Skills 格式，兼容 70+ 编码智能体",
+    "生成前先比价，保持角色与品牌一致性",
+    "专家技能组需本地安装 DCC 软件，非 MCP 路径"
+   ],
+   "why_zh": "如果你在做游戏或创意内容管线，可用它让编码智能体直接调用生成与 DCC 工具。",
+   "tags": [
+    "智能体",
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6072,
+   "score_llm": 6.0,
+   "score": 0.6029,
+   "date": "2026-11-05",
+   "slot": "evening",
+   "selected_at": "2026-11-05T13:02:48+00:00",
+   "mirror_pdf": "pdf/web-1f03c87007f1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/scenario-labs/skills"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b83ba2979628",
+   "kind": "article",
+   "title": "wquguru/cicada",
+   "url": "https://github.com/wquguru/cicada",
+   "pdf_url": "",
+   "abstract": "知了 Cicada · 任何会议和直播的实时字幕、同声传译、AI 会议纪要，Mac、Windows、Linux、Android 免费开源。Live subtitles, interpreting and meeting notes for any call or stream, on Mac, Windows, Linux and Android.",
+   "authors": [],
+   "orgs": [
+    "wquguru"
+   ],
+   "published": "2026-11-05T13:02:48+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/wquguru/cicada",
+     "signal": "★ 1,415（新项目） · Swift",
+     "metric": 1415
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "知了 Cicada：跨平台实时字幕与 AI 会议纪要",
+   "summary_zh": "开源工具，为任意会议与直播提供实时字幕、同声传译和 AI 会议纪要，覆盖 Mac、Windows、Linux 与 Android。",
+   "highlights_zh": [
+    "实时字幕与同声传译",
+    "自动生成 AI 会议纪要",
+    "四平台免费开源"
+   ],
+   "why_zh": "如果你需要跨平台会议转写与纪要，可直接部署试用。",
+   "tags": [
+    "语音",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5956,
+   "score_llm": 6.0,
+   "score": 0.5982,
+   "date": "2026-11-05",
+   "slot": "evening",
+   "selected_at": "2026-11-05T13:02:48+00:00",
+   "mirror_pdf": "pdf/web-b83ba2979628.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/wquguru/cicada"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-dbc443423eb8",
+   "kind": "article",
+   "title": "The-PR-Agent/pr-agent",
+   "url": "https://github.com/The-PR-Agent/pr-agent",
+   "pdf_url": "",
+   "abstract": "Star The-PR-Agent / pr-agent 🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
+   "authors": [],
+   "orgs": [
+    "The-PR-Agent"
+   ],
+   "published": "2026-11-05T13:02:48+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/The-PR-Agent/pr-agent",
+     "signal": "★ 今日 +506 · Python",
+     "metric": 506
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "PR Agent：开源 PR 审查智能体",
+   "summary_zh": "开源 PR 自动审查工具，强调是原始开源版而非 Qodo 免费层，今日登上 GitHub Trending。",
+   "highlights_zh": [
+    "自动审查 Pull Request，减少人工 review 负担",
+    "强调与 Qodo 商业产品的区别，保持开源独立",
+    "Python 实现，今日新增 506 星"
+   ],
+   "why_zh": "如果你在维护开源仓库，可用它自动做 PR 初审，节省 reviewer 时间",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5955,
+   "score_llm": 6.0,
+   "score": 0.5982,
+   "date": "2026-11-05",
+   "slot": "evening",
+   "selected_at": "2026-11-05T13:02:48+00:00",
+   "mirror_pdf": "pdf/web-dbc443423eb8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/The-PR-Agent/pr-agent"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-22d4f0179e3b",
+   "kind": "article",
+   "title": "MIT神作被锤：Astra爆改Qwen权重？就吹吧！",
+   "url": "https://www.qbitai.com/2026/11/507782.html",
+   "pdf_url": "",
+   "abstract": "spaCy作者长文炮轰",
+   "authors": [
+    "Jay"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-05T07:10:56+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/507782.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "MIT 神作被锤：Astra 爆改 Qwen 权重争议",
+   "summary_zh": "spaCy 作者发长文质疑 MIT 的 Astra 工作，指其所谓改进实为对 Qwen 权重的改造。",
+   "highlights_zh": [
+    "spaCy 作者长文公开质疑 Astra",
+    "争议焦点为是否只是改造 Qwen 权重",
+    "涉及研究成果真实性与评测规范"
+   ],
+   "why_zh": "关乎研究可信度与评测规范，提醒读者审慎看待宣称的突破。",
+   "tags": [
+    "大模型",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-05",
+   "slot": "evening",
+   "selected_at": "2026-11-05T13:02:48+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/507782.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-14c8696b8e2c",
+   "kind": "article",
+   "title": "GPT-Image-2.6全量上线！直出GIF和SVG，6.2 Astra也现身了",
+   "url": "https://www.qbitai.com/2026/11/507707.html",
+   "pdf_url": "",
+   "abstract": "最快6秒出图",
+   "authors": [
+    "衡宇"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-05T01:59:37+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/507707.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "GPT-Image-2.6全量上线：直出GIF与SVG",
+   "summary_zh": "OpenAI图像模型GPT-Image-2.6全量开放，支持直接生成GIF动图与SVG矢量图，最快6秒出图，并出现6.2 Astra版本线索。",
+   "highlights_zh": [
+    "支持直出GIF与SVG，扩展图像模型输出格式边界",
+    "最快6秒出图，生成速度显著提升",
+    "6.2 Astra版本现身，暗示后续模型迭代"
+   ],
+   "why_zh": "多模态生成能力再进一步，做图像/设计类产品的团队需关注格式与速度变化。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-05",
+   "slot": "evening",
+   "selected_at": "2026-11-05T13:02:48+00:00",
+   "mirror_pdf": "pdf/web-14c8696b8e2c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/507707.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7f47781ae266",
+   "kind": "article",
+   "title": "一个人用得好 AI，为什么一家公司却用不好？",
+   "url": "http://www.geekpark.net/news/373541",
+   "pdf_url": "",
+   "abstract": "作者｜老 S 编辑｜郑玄 今天的 Agent，已经能够独立完成不少具体的工作。 写方案、写代码、做分析报告，过去可能需要员工花费几天才能完成的任务，如今 Agent 往往能在较短时间里交出不错的结果。 但在企业里，完成一份方案，可能只是一项工作的开始。比如，Agent 可以很快制定一份员工考核方案。但要用它真正完成一次考核，还需要获取员工的考勤、业绩等数据，处理特殊情况，并经过业务负责人和 HR 的确认，才能最终确定绩效。 能够交付阶段性的工作产物，和能进入真实业务、创造实际价值，是两回事。 随着 Agent 能力快速进化，企业开始面对一个新的问题： 如何让这些越来越能干的 AI，真正参与到现有的工作体系中？ 在今年的腾讯全球数字生态大会上，腾讯专门设置了 AI 产品发布台，用两天时间、七场议题、40 多场产品发布，集中展示企业 AI 从应用到基础设施的一系列新能力。 腾讯集团高级执行副总裁、云与智慧产业事业群 CEO 汤道生在大会上提出，腾讯将围绕办公协同、数据管理和业务执行三大场景，持续开放 WorkBuddy Agent 平台能力，帮助企业打造可运营、可进化的智能生产力系统。 从应用、数据、安全到工程，腾讯此次集中展示的一系列产品和技术能力，正是希望让 Agent 不仅能够完成任务，还能真正进入企业的业务流程，成为持续创造价值的生产力。 01 一个人用得好 AI， 不等于一家公司用得好 AI 随着大模型和 AI Coding 工具的发展，软件开发的门槛正在快速降低。一些过去需要技术团队专门开发的内部工具，如今几天就能完成，业务人员也开始有机会直接创造自己需要的 Agent。 但问题是， 一个人用得好的 Agent，并不意味着整个团队都能用好。 个人可以根据自己的需求配置工具、调整工作流，但企业需要考虑更多：Agent 能否接入原有系统、访问所需数据？不同员工、Agent 的权限如何管理？一个人摸索出的好方法，怎样才能让其他人直接使用？ 腾讯云副总经理、WorkBuddy 企业产品负责人张曦耀在大会上提出，个人提效并不等于组织变强，两者之间隔着的是一整套组织能力。 WorkBuddy 企业版此次升级，正是试图降低这道门槛。 相比个人使用 Agent，企业版更强调连接、管理和规模化应用。此次发布的四项升级中，开放平台让 WorkBuddy 能够连接企业微信、第三方 IM 和业务系统；企业级安全解决方案和可观测中心，帮助企业管理权限、执行过程和使用成本；WorkBuddy 托管智能体（WMA）则将任务搬到云端，支持 Agent 7×24 小时运行。 WorkBuddy 升级办公套件订阅丨来自：腾讯全球数字生态大会 与此同时，腾讯还发布了以 WorkBuddy 为工作台的一体化办公套件 Buddy One，整合腾讯文档、网盘、乐享等产品，通过统一账号、共享 Credit 池和集中管理，降低企业配置和推广 AI 的复杂度，并让技能与工作经验有机会在团队中复用。 苏宁的实践是一个很好的案例。基于 WorkBuddy 企业版，苏宁建立了组织级智能体平台，已经覆盖 14 个部门、48 个协作场景，沉淀了 36 个可复用智能体。比如在新品发布场景中，团队将布展、会展和接待流程整理成模板，并将过程文件纳入知识库，将一场新品发布的筹备时间从 3 个工作日缩短到 4 小时。 不仅节省了时间，这套工作方法也被保留了下来，可以在下一次任务中直接复用。 这也是 Agent 从个人工具走向组织生产力的关键： 不仅让更多员工能够使用 AI，还要让个人积累的能力成为整个团队可",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-05T09:15:38+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373541",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "一个人用得好AI，公司为何用不好？",
+   "summary_zh": "腾讯云WorkBuddy企业版升级，围绕连接、权限、可观测与云端托管解决Agent进入企业流程的组织化难题，苏宁案例覆盖14部门48场景。",
+   "highlights_zh": [
+    "提出个人提效≠组织变强，企业缺的是组织能力",
+    "开放平台打通企业微信与业务系统，WMA支持7×24托管",
+    "苏宁沉淀36个可复用智能体，新品筹备从3天缩至4小时"
+   ],
+   "why_zh": "企业级Agent落地的真实瓶颈与解法，做To B智能体的团队值得参考。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-11-05",
+   "slot": "evening",
+   "selected_at": "2026-11-05T13:02:48+00:00",
+   "mirror_pdf": "pdf/web-7f47781ae266.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373541"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-57cbc4a0ab01",
+   "kind": "article",
+   "title": "挖走 Claude Code 产品负责人 Cat Wu，OpenAI 直击 Anthropic 上市命门",
+   "url": "https://www.leiphone.com/category/yanxishe/iIUJoulGndesZear.html",
+   "pdf_url": "",
+   "abstract": "人、基建落位，OpenAI 押注团队 Agent。 作者丨 高允毅 编辑丨岑 峰 Anthropic 刚递交招股书一周，自家最赚钱的产品，产品负责人已经坐到了对面。 今早， 前 Claude Code 产品负责人 Cat Wu 在 X 上宣布加入 OpenAI，出任核心产品组的产品负责人。 一天前，她刚告别了 Anthropic ，堪称“无缝衔接”。OpenAI 总裁 Greg Brockman 立刻转帖欢迎。 这已经是十天内，Claude Code团队离开的第三位核心成员。前段时间，离开的分别是Claude Code的桌面版之父Anthony Morris 和 Agent 核心工程师 Thariq Shihipar。而这个时间点，Anthropic 正好站在了上市的紧要关口。 Cat Wu 的离职之所以震动硅谷，不只是因为她换了阵营，更因为她带走了这条最赚钱产品线的完整方法论 01 Cat Wu是谁？ Cat Wu，真名是Catherine Wu，她是硅谷 AI 圈炙手可热的华裔明星产品经理。 作为 Anthropic 旗下王牌 AI 编程工具 Claude Code 和办公智能体 Cowork 的产品总负责人 ，她与“Claude Code 之父” Boris Cherny 并称为 Anthropic 团队的“蝙蝠侠与罗宾”，是亲手将 Claude Code 从一个内部小工具打造成全球爆款的灵魂人物之一。 她还曾是普林斯顿女学霸，大四就在校内孵化器合伙开发了协作白板软件Scratchwork；在大厂与独角兽历练过，写过代码，研究过数据；还当过三年风险投资人，专注开发者工具和AI基础设施。 丰富的跨界经历，让她成了那种少见的既看得懂代码，也算得清商业账，还摸得准开发者想要什么的人。 2024年8月，她加入Anthropic，一开始是研究方向的产品经理。 那时，Claude Code 还只是 Anthropic 内部一个不起眼的实验性项目。Cat Wu 想试试这东西到底能做什么，就让它帮自己从零搭建一个强化学习环境。她花了几十个小时，反复描述需求、调整方向，从头到尾没有写一行代码。当环境最后真的跑通了，她被这次体验震住，转头申请转进了这个刚起步的小团队。 在那个团队里，她和技术负责人 Boris Cherny 组成了黄金搭档。Boris 负责写下最初的原型代码，盯下一步能做到什么；而 Cat Wu 负责把想法变成产品，并调动各方资源推向市场。她执行力极强，开创了极快的产品迭代模式，直接把研发周期从数月压缩到了几周、甚至按天来计算。 后来，她的职责进一步延伸到了 Claude Cowork，探索 AI 在团队的工作场景。 如今，Claude Code 是全球最火的 AI 编程 Agent 之一，大量开发者使用。2026 年 2 月，Anthropic 在 Series G 融资公告里披露，Claude Code 的年化收入运行率（ARR）已经超过 25 亿美元，较年初直接翻倍。 放眼整个科技发展史，这都是增长最快的企业级软件（SaaS）产品之一，而它在 2025 年 5 月才刚刚向公众开放。 Cat Wu 执掌的产品线，就是这条收入曲线最核心的增长驱动力。 Cat Wu 是个反传统的人，在 Anthropic， 她重新定义了\"AI时代产品经理该怎么干活\" 。 她在播客里公开讲过几条方法论，至今被同行奉为圭臬： 比如，长 PRD 已死，在模型能力几个月一变的今天，PM有想法就自己或者让AI快速搓一个能跑的原型，直接在运行和评测中迭代产品；还有“三个月",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-05T07:01:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/yanxishe/iIUJoulGndesZear.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Claude Code产品负责人Cat Wu转投OpenAI",
+   "summary_zh": "Claude Code产品负责人Cat Wu在Anthropic递交招股书一周后加入OpenAI任核心产品组产品负责人，十天内Claude Code团队已有三位核心成员离职。",
+   "highlights_zh": [
+    "Cat Wu是Claude Code与Cowork的产品总负责人，与Boris Cherny搭档将其打造成ARR超25亿美元的爆款",
+    "十天内Claude Code桌面版之父Anthony Morris、Agent核心工程师Thariq Shihipar相继离开",
+    "OpenAI借此押注团队Agent方向，人才流动发生在Anthropic上市关键节点"
+   ],
+   "why_zh": "头部AI编程Agent团队核心流失，是判断Agent赛道竞争格局变化的重要信号。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-05",
+   "slot": "evening",
+   "selected_at": "2026-11-05T13:02:48+00:00",
+   "mirror_pdf": "pdf/web-57cbc4a0ab01.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/yanxishe/iIUJoulGndesZear.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b85bf67f0b99",
+   "kind": "article",
+   "title": "反对声浪下 OpenAI 重申将承担数据中心供电成本，承诺征求社区意见、公开建设规划",
+   "url": "https://www.ithome.com/1/022/958.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 5 日消息，面对全美各地针对数据中心耗电、耗水及噪音等问题的强烈抵制，当地时间 11 月 5 日，OpenAI 发布《国家社区契约》（National Community Compact）与《算力园区政策蓝图》（Compute Campus Policy Blueprint）。 OpenAI 宣布，未来在就项目选址进行协商沟通时，将不再要求地方公职人员签署保密协议，不过核心商业秘密仍将依法保留。 OpenAI 承诺，未来每个由 OpenAI 拥有并运营的算力园区，都将签署专属的本地社区契约。将在规划前期尽早引入居民深度参与，确保其诉求实质性融入项目蓝图；在园区全生命周期内设立常设本地联络窗口；并每年向全社会公开履行承诺的进展报告。 能源与基础设施成本全额自负 ：OpenAI 全额承担自身用电成本以及因项目接入所需的全部配套电网扩容开支。在实质性重大支出启动前，将提供专项财务担保，即使项目发生延期、规模缩减或终止，也确保普通电力用户的利益不受转嫁损害。 守护当地生态资源，全面公开环境影响 ：OpenAI 将为每个园区制定专项水资源利用方案，优先采用闭式循环或低耗水冷却系统，并如实公开各站点的真实耗电量与耗水量。在项目正式投运前，将主动公开施工组织方案与独立的噪音影响评估报告，并在后续运营中每年定期发布复测报告。同时，OpenAI 承诺在与公职人员接洽谈判中杜绝泛用保密协议（NDA），仅对合法安全数据、核心商业秘密或具备竞争敏感性的专属信息保留最狭义的保密权限。 拓展地方商业机遇 ：OpenAI 将全面公开预计设立的岗位清单，联合工会组织与专业培训机构为当地居民提供定向职业技能准备，并按年发布本地化招聘与学徒培训数据。此外，OpenAI 将针对居民共同选定的优先民生领域，开展长期、可持续的公益与社区投资。 据路透社报道，OpenAI 首席全球事务官克里斯 · 莱汉（Chris Lehane）指出，这类算力园区将成为持续创造就业的源泉，因为中心内部的硬件设施每隔三到五年就必须全面迭代升级。 他在接受媒体采访时直言：“这些项目绝非人们传统印象中的老式数据中心 —— 以往的设施就像搁在荒野牧场里的一座座‘黑匣子’，对周边社区几乎带不来任何经济价值。” 莱汉透露，OpenAI 设在俄亥俄州南部的一处基础设施预计将带来 2,500 个长期就业岗位，平均年薪可达 8 万美元 （IT之家注：现汇率约合 53.5 万元人民币） 。 相关阅读： 《 OpenAI 即将启动大规模公关宣传，考虑将数据中心重新包装为“AI 算力园区” 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-05T11:04:59+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/022/958.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI 发布社区契约，承诺自担数据中心供电成本",
+   "summary_zh": "面对全美数据中心抵制，OpenAI 发布《国家社区契约》与算力园区蓝图，承诺全额承担用电与电网扩容成本、公开耗水耗电、不再泛用 NDA。",
+   "highlights_zh": [
+    "全额承担用电成本及配套电网扩容开支，并提供财务担保",
+    "公开各站点真实耗电量与耗水量，优先低耗水冷却",
+    "不再要求地方官员签保密协议，设常设社区联络窗口"
+   ],
+   "why_zh": "AI 算力扩张与社区/能源矛盾的应对范本，反映基础设施博弈。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-05",
+   "slot": "evening",
+   "selected_at": "2026-11-05T13:02:48+00:00",
+   "mirror_pdf": "pdf/web-b85bf67f0b99.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/022/958.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2b62a55fd4ca",
+   "kind": "article",
+   "title": "腾讯混元：Hy4 调用激增，WorkBuddy 已十倍扩容、Hy3 限免延长",
+   "url": "https://www.ithome.com/1/022/922.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 5 日消息，腾讯混元与 WorkBuddy 今日发文，称自 2026 年 11 月 4 日混元 Hy4 在 WorkBuddy 首发接入以来，受到了广大用户与开发者的积极体验和热情反馈，上线首日即在 WorkBuddy 任务队列中出现大量用户触及额度情况。 官方表示，为保障大家的使用体验， 已针对 Hy4 推理集群进行紧急扩容十倍并提升了用户的免费体验额度，也将持续动态调配资源 。但受限于高端算力总量与高峰并发集中，仍不排除个别时段会继续出现限额情况，如有遇到，建议大家可以考虑如下过渡方案： 切换到 Hy3 等其他模型继续使用： Hy3 当前 WorkBuddy 限免将延长至 2026 年 11 月 15 日 23:59 非紧急需求错峰在晚间时段使用 据IT之家此前报道， 腾讯混元昨日发布最新一代大语言模型 Hy4 正式版 。相比于 Hy4 preview，Hy4 显著扩展了预训练和后训练规模，首次引入了视觉能力，并大幅提升了指令遵循、长文理解、长程任务、深度研究等各项综合能力。 官方表示，随着模型能力的再次全面跃升， Hy 首次跻身最强开源模型之列 。Hy4 将于近期开源模型权重，发布模型系统卡片，并积极推进更负责任的开源，重点关注网络和生物安全等风险。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-05T10:04:57+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/022/922.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯混元 Hy4 调用激增，WorkBuddy 紧急扩容十倍",
+   "summary_zh": "混元 Hy4 在 WorkBuddy 首发后首日即大量触顶，官方紧急扩容推理集群十倍并提升免费额度，Hy3 限免延长至 11 月 15 日，Hy4 将开源权重。",
+   "highlights_zh": [
+    "Hy4 首次引入视觉能力，扩展预训练与后训练规模",
+    "官方称 Hy 首次跻身最强开源模型之列，将开源权重",
+    "推理集群扩容十倍，仍可能高峰限流"
+   ],
+   "why_zh": "国产开源大模型需求侧的真实压力测试，关注开源模型竞争格局。",
+   "tags": [
+    "大模型",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-05",
+   "slot": "evening",
+   "selected_at": "2026-11-05T13:02:48+00:00",
+   "mirror_pdf": "pdf/web-2b62a55fd4ca.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/022/922.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bf120e8f747d",
+   "kind": "article",
+   "title": "诺基亚预测：到 2035 年，人工智能将驱动全球约 44% 的网络流量",
+   "url": "https://www.ithome.com/1/022/917.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 5 日消息，当地时间 11 月 4 日，诺基亚（Nokia）发布《全球网络流量报告 2026-2035》（Global Network Traffic Report 2026-2035）。 报告显示，未来的网络不仅需要服务于人类用户，还必须愈发深度地服务于各类联网机器；人工智能将带动更大的上行链路需求、更快的响应时间，以及更多更靠近用户和设备的处理。 诺基亚预测，到 2035 年， 人工智能将驱动全球约 44% 的网络流量 ，全球月度网络总流量将较 2026 年增长近四倍，达到约 3,789 EB（艾字节，1 EB = 1024 PB = 1024² TB）。 AI Agent 与联网机器的日益普及，将给传统“以下行传输为主”的网络架构带来挑战，并显著推高网络对上传带宽与实时交互能力的需求。到 2035 年，包括与周围环境实时交互的机器人和智能网联车辆在内的物理 AI（Physical AI）应用，预计其 90% 以上的数据流量都将产生在网络上行链路上。 IT之家注意到，虽然当前基数较小，但智能体 AI 流量预计在 2035 年将达到 2026 年水平的 160 倍；同期物理 AI 流量预计将达到 2026 年水平的 105 倍。上述预测的计算工作负载对网络提出了多元化要求，涵盖从大体量批量上传到不间断的高实时性连接。 除人工智能外，报告还指出，随着连接规模和数据用量的激增，到 2035 年固定无线接入（Fixed Wireless Access，FWA）将贡献消费者蜂窝网络总流量的三分之一以上，使蜂窝移动网络在传统移动业务之外，进一步拓展在家庭宽带领域的核心角色。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-05T09:58:38+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/022/917.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "诺基亚预测 2035 年 AI 驱动全球 44% 网络流量",
+   "summary_zh": "诺基亚报告预测到 2035 年 AI 将驱动全球约 44% 网络流量，总流量较 2026 年增长近四倍；智能体流量达 2026 年 160 倍，物理 AI 超九成数据走上行链路。",
+   "highlights_zh": [
+    "2035 年全球月度流量约 3789 EB，较 2026 年增近四倍",
+    "智能体 AI 流量为 2026 年 160 倍，物理 AI 为 105 倍",
+    "物理 AI 应用 90% 以上数据产生在上行链路，挑战下行主导架构"
+   ],
+   "why_zh": "从网络侧量化 AI Agent 与物理 AI 的长期基础设施影响。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-05",
+   "slot": "evening",
+   "selected_at": "2026-11-05T13:02:48+00:00",
+   "mirror_pdf": "pdf/web-bf120e8f747d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/022/917.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3c478a789b04",
+   "kind": "article",
+   "title": "世界互联网大会领先科技奖背后，Qoder 凭什么拿下中国 AI 编程市场第一",
+   "url": "http://www.geekpark.net/news/373542",
+   "pdf_url": "",
+   "abstract": "作者｜Cynthia 编辑｜郑玄 2026 年 11 月，每年乌镇世界互联网大会期间举办的领先科技奖，已经走到第十年。 作为面向全球征集互联网领域领先成果的国际性科技奖项，领先科技奖每年会选出涵盖基础研究、关键技术与工程研发约 15 至 20 项获奖项目。一定程度上，它的评选也预示了未来几年潮水的走向。 这一年，传统互联网的光环逐渐退去，AI 成了最大的关键词。其中，仅工程研发组的 8 项获奖成果，从 AMD 的 AI 处理器，到蚂蚁的大模型健康服务平台，再到地平线的整车智能体……就有至少 5 项与 AI 有关。 而在通用 Agent 这一领域， 阿里旗下智能体平台 Qoder，成为了国内唯一获此殊荣的通用 Agent 产品。 至此，在领先科技奖诞生的第 10 个年头，命运形成了一个有趣的回环。 那时的领先科技奖，名字还叫世界互联网领先科技成果发布活动。而那一年在首届活动中，与特斯拉自动辅助驾驶、微软 HoloLens、「神威·太湖之光」超级计算机并列入选的，正式阿里云飞天开放平台为基础的大规模分布式交易处理平台。 那时的飞天，立项已经超过 7 年，逐渐从承托阿里庞大业务的基础设施，转变为连接超过百万台服务器，能把计算能力送到更多企业手中的行业 Infra 定位。 乌镇的亮相，见证了飞天从内部技术攻坚走向更广阔市场的历程。 十年后，Qoder 来到同一个舞台。 论资历，这款 2025 年 8 月才首次上线的产品还很年轻；但论成绩，迄今为止，这款产品的全球用户已经超过 800 万；IDC 发布的 2025 年中国 AI 编程市场份额报告中，阿里以 47.6%的份额位居第一，超过第二至第五名之和；Gartner 最新的企业级 AI 代码智能体魔力象限，也将阿里云列入「挑战者」，与 AWS、Google 等公司同处这一象限。 从云计算的大幕拉起到 AI Coding 的编程新范式，相比 10 年前的云计算时代，今天的竞争节奏已经被压缩到以周、甚至以天计算，竞争烈度也今时不同往日。那么，外有海外优秀产品在前，对内又有国内厂商密集入场， Qoder 究竟是如何从强敌环伺中突围的？ 01 强敌环伺，Qoder 如何突围 在 Qoder 正式立项时，它所要进入的市场，已经坐满了人。 2025 年 6 月，阿里成立面向 Agent 时代的 AI 创新事业部。 Qoder 团队随即开始冲刺，那时 手里待完成的清单：从产品到官网，从用户体系到商业化链路、营销，再到面向全球用户的部署架构，一切都要从 0 开始 完成它们的时间，只有两个月。 但此时，海外先行者已经有了相当可观的规模。同月，Cursor 刚刚完成 9 亿美元融资，估值达到 99 亿美元，年化经常性收入超过 5 亿美元；紧随其后，GitHub Copilot 官宣用户达到 2000 万。Claude Code、Codex 也在一轮轮产品革新中不断争取开发者，让 AI 接手越来越完整的开发任务。 国内同行也在加速。 7 月，字节旗下 TRAE 推出 SOLO 模式，将自主开发延伸到需求规划、编码与部署。8 月 21 日，Qoder 上线。仅 19 天后，腾讯发布 CodeBuddy CLI，并直接官宣国内版全系列产品免费使用。 开发者已经不缺选择。作为一款新产品，Qoder 要争取的，是开发者们可能已经交给其他工具的时间与信任 。 但好在，这是一个已经有了充足准备的团队。Qoder 负责人丁宇，花名叔同，2010 年加入阿里，长期与云计算底层技术打交道。从全面容器化、统一调度到混合部署，再到让庞大的业务系统稳",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-05T09:19:17+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373542",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Qoder拿下中国AI编程市场第一的背后",
+   "summary_zh": "阿里Qoder获世界互联网大会领先科技奖，全球用户超800万，IDC报告显示其以47.6%份额居中国AI编程市场第一。",
+   "highlights_zh": [
+    "IDC数据：阿里AI编程份额47.6%，超二至五名之和",
+    "Gartner企业级AI代码智能体象限列入挑战者",
+    "复盘Qoder两个月从0到上线的突围路径"
+   ],
+   "why_zh": "国内AI编程竞争格局的关键数据点，关注Agent编程赛道者可读。",
+   "tags": [
+    "智能体",
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.528,
+   "date": "2026-11-05",
+   "slot": "evening",
+   "selected_at": "2026-11-05T13:02:48+00:00",
+   "mirror_pdf": "pdf/web-3c478a789b04.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373542"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "智能体竞争从模型能力转向工程封装与长时程执行",
-   "why": "同一模型换Harness可从30分到95分，Anthropic旗舰实测连续自主编码近3小时，Kimi把Harness做成云服务。",
+   "trend": "智能体竞争从模型能力转向工程封装与脚手架，Harness 成为新护城河",
+   "why": "同一模型不同 Harness 评测可从30分到95分，Kimi 更把 Harness 做成云服务售卖。",
    "refs": [
     "web-a1a204666728",
-    "web-d8588717af6f",
-    "web-9cc1f6857cf3"
+    "web-9cc1f6857cf3",
+    "arxiv-2611.05139"
    ]
   },
   {
-   "trend": "AI开始直接改写权重与大规模自动改码，能力边界外移",
-   "why": "Astra仅改0.016%参数让Qwen MATH-500从7.9%升至48.1%，谷歌Gemini一夜优化20万行代码。",
+   "trend": "评测方法正被重写：端到端真实任务与形式化验证取代静态榜单",
+   "why": "FrontierPhysics 22模型无一过半，可证明推理与零知识证明开始为输出背书。",
+   "refs": [
+    "arxiv-2611.06910",
+    "web-7b93706aafff",
+    "web-95f5b8b4456c"
+   ]
+  },
+  {
+   "trend": "权重空间编程与架构旁路扩展，指向训练算力效率的新拐点",
+   "why": "直改0.016%参数令 MATH-500 从7.9%升至48.1%，JTok/xHC 省约1/3训练算力。",
    "refs": [
     "web-f6429696fb39",
-    "web-b19cd14c016b"
+    "web-09ad06179d5e"
    ]
   },
   {
-   "trend": "企业Agent规模化卡在成本、可靠性与技术债，而非模型本身",
-   "why": "token消耗暴涨5000倍后成本与工程化成瓶颈，AI落地倒逼企业偿还四十年技术债。",
+   "trend": "AI 落地瓶颈从模型转向企业技术债与 Agent 工程化成本",
+   "why": "token 暴涨5000倍后成本与可靠性成卡点，AI 倒逼四十年技术债偿还。",
    "refs": [
     "web-31bbabcefb7c",
-    "web-68c44263a0af"
+    "web-68c44263a0af",
+    "web-97ac31d6a657"
    ]
   },
   {
-   "trend": "评测与可信方法成新战场：形式化保证、零知识证明与真实告警回放",
-   "why": "FlashProve用零知识证明验证推理，可证明推理受热议，虚假安抚测试显示接入真实告警后错误率归零。",
+   "trend": "编程智能体成巨头主战场，收购与挖角加速能力闭环",
+   "why": "OpenAI 收购 Pierre Computer 并入 Codex，并挖走 Claude Code 产品负责人。",
    "refs": [
-    "web-95f5b8b4456c",
-    "web-7b93706aafff",
-    "arxiv-2611.05290"
-   ]
-  },
-  {
-   "trend": "开源权重与国产模型加速切入智能体编程与具身推理",
-   "why": "Ripple-65B称美国开源权重智能体编程SOTA，招商局Lion-ER仅激活3B参数十项基准全线提升。",
-   "refs": [
-    "web-96eddcc208ed",
-    "web-d077d4aa4c9b"
+    "web-3a06f84c0f51",
+    "web-1ce258a11dc9",
+    "web-d8588717af6f"
    ]
   }
  ]
