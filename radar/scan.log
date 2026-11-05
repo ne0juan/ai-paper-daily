@@ -1,10 +1,15 @@
-2026-11-05 05:28:23,267 INFO source hf_daily           -> 18 items
-2026-11-05 05:28:23,620 INFO source hackernews         -> 8 items
-2026-11-05 05:28:57,866 INFO source rss                -> 100 items
-2026-11-05 05:28:59,610 INFO source html_lists         -> 0 items
-2026-11-05 05:28:59,610 INFO source x                  -> 0 items
-2026-11-05 05:30:12,870 WARNING source arxiv_search failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=30)
-2026-11-05 05:30:23,261 INFO source github             -> 20 items
-2026-11-05 05:30:23,263 INFO candidates: 143 (stale dropped 28, new 73)
-2026-11-05 05:31:37,986 INFO llm judged 73/73 (calls=10)
-2026-11-05 05:36:17,096 INFO run done: {"at": "2026-11-05T05:28:22+00:00", "slot": "noon", "candidates": 143, "new": 73, "stale": 28, "judged": 73, "selected": 20, "mirrored": 17, "by_category": {"资讯": 12, "技术": 3, "观点": 2, "项目": 3}, "by_source": {"HF Daily Papers": 18, "Hacker News": 8, "OpenAI": 8, "量子位": 9, "极客公园": 4, "IT之家": 16, "爱范儿": 10, "少数派": 3, "雷峰网": 15, "钛媒体": 4, "InfoQ 中文": 16, "Simon Willison": 1, "Nathan Lambert": 1, "Latent Space": 2, "Stratechery": 1, "SemiAnalysis": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "Hugging Face Blog": 3, "Google Research": 1, "Google DeepMind": 1, "NVIDIA": 2, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
+2026-11-05 13:02:49,009 INFO source hf_daily           -> 23 items
+2026-11-05 13:02:49,358 INFO source hackernews         -> 9 items
+2026-11-05 13:03:19,218 INFO source rss                -> 94 items
+2026-11-05 13:03:21,210 INFO source html_lists         -> 0 items
+2026-11-05 13:03:21,210 INFO source x                  -> 0 items
+2026-11-05 13:03:21,783 INFO source arxiv_search       -> 60 items
+2026-11-05 13:03:35,163 INFO source github             -> 20 items
+2026-11-05 13:03:35,166 INFO candidates: 202 (stale dropped 19, new 134)
+2026-11-05 13:05:21,770 INFO llm judged 100/100 (calls=13)
+2026-11-05 13:05:30,817 WARNING snapshot https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/: blocked or empty page
+2026-11-05 13:07:05,597 WARNING snapshot https://www.qbitai.com/2026/11/507782.html: Page.goto: net::ERR_TIMED_OUT at https://www.qbitai.com/2026/11/507782.html
+Call log:
+  - navigating to "https://www.qbitai.com/2026/11/507782.html", waiting until "domcontentloaded"
+
+2026-11-05 13:08:27,465 INFO run done: {"at": "2026-11-05T13:02:48+00:00", "slot": "evening", "candidates": 202, "new": 134, "stale": 19, "judged": 100, "selected": 21, "mirrored": 19, "by_category": {"资讯": 12, "技术": 4, "观点": 2, "项目": 3}, "by_source": {"HF Daily Papers": 23, "arXiv 新论文": 60, "Hacker News": 9, "OpenAI": 6, "量子位": 9, "极客公园": 4, "IT之家": 11, "爱范儿": 11, "少数派": 2, "雷峰网": 17, "钛媒体": 3, "InfoQ 中文": 15, "Simon Willison": 1, "Nathan Lambert": 1, "Latent Space": 2, "Stratechery": 2, "SemiAnalysis": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "Hugging Face Blog": 4, "Google Research": 1, "Google DeepMind": 1, "NVIDIA": 1, "GitHub Trending": 9, "GitHub 新项目": 11}, "llm": true, "translated": 0}
