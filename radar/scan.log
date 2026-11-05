@@ -1,10 +1,10 @@
-2026-11-04 18:33:28,273 INFO source hf_daily           -> 34 items
-2026-11-04 18:33:28,516 INFO source hackernews         -> 10 items
-2026-11-04 18:34:25,215 INFO source rss                -> 103 items
-2026-11-04 18:34:26,897 INFO source html_lists         -> 0 items
-2026-11-04 18:34:26,897 INFO source x                  -> 0 items
-2026-11-04 18:34:27,576 INFO source arxiv_search       -> 60 items
-2026-11-04 18:34:37,337 INFO source github             -> 20 items
-2026-11-04 18:34:37,501 INFO candidates: 226 (stale dropped 116, new 66)
-2026-11-04 18:35:42,668 INFO llm judged 66/66 (calls=9)
-2026-11-04 18:38:29,030 INFO run done: {"at": "2026-11-04T18:33:27+00:00", "slot": "morning", "candidates": 226, "new": 66, "stale": 116, "judged": 66, "selected": 18, "mirrored": 17, "by_category": {"资讯": 13, "观点": 1, "技术": 4}, "by_source": {"HF Daily Papers": 34, "Hacker News": 10, "Simon Willison": 1, "量子位": 10, "极客公园": 4, "IT之家": 15, "爱范儿": 11, "少数派": 3, "雷峰网": 14, "钛媒体": 4, "InfoQ 中文": 17, "Nathan Lambert": 1, "Latent Space": 3, "Stratechery": 1, "SemiAnalysis": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 5, "Google Research": 1, "OpenAI": 6, "Google DeepMind": 1, "NVIDIA": 2, "arXiv 新论文": 60, "GitHub Trending": 8, "GitHub 新项目": 12}, "llm": true, "translated": 0}
+2026-11-05 05:28:23,267 INFO source hf_daily           -> 18 items
+2026-11-05 05:28:23,620 INFO source hackernews         -> 8 items
+2026-11-05 05:28:57,866 INFO source rss                -> 100 items
+2026-11-05 05:28:59,610 INFO source html_lists         -> 0 items
+2026-11-05 05:28:59,610 INFO source x                  -> 0 items
+2026-11-05 05:30:12,870 WARNING source arxiv_search failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=30)
+2026-11-05 05:30:23,261 INFO source github             -> 20 items
+2026-11-05 05:30:23,263 INFO candidates: 143 (stale dropped 28, new 73)
+2026-11-05 05:31:37,986 INFO llm judged 73/73 (calls=10)
+2026-11-05 05:36:17,096 INFO run done: {"at": "2026-11-05T05:28:22+00:00", "slot": "noon", "candidates": 143, "new": 73, "stale": 28, "judged": 73, "selected": 20, "mirrored": 17, "by_category": {"资讯": 12, "技术": 3, "观点": 2, "项目": 3}, "by_source": {"HF Daily Papers": 18, "Hacker News": 8, "OpenAI": 8, "量子位": 9, "极客公园": 4, "IT之家": 16, "爱范儿": 10, "少数派": 3, "雷峰网": 15, "钛媒体": 4, "InfoQ 中文": 16, "Simon Willison": 1, "Nathan Lambert": 1, "Latent Space": 2, "Stratechery": 1, "SemiAnalysis": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "Hugging Face Blog": 3, "Google Research": 1, "Google DeepMind": 1, "NVIDIA": 2, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
