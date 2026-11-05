@@ -1025,46 +1025,1138 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-a4f4c423c542",
+   "kind": "article",
+   "title": "A thousand fewer paths to root",
+   "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+   "pdf_url": "",
+   "abstract": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-11-04T23:33:14Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50372929",
+     "signal": "235 pts",
+     "metric": 235
+    },
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 自动化流水线发现并修复 948 个 Linux 内核提权漏洞",
+   "summary_zh": "OpenAI 构建自主流水线，自动发现、验证并生成补丁，修复 Linux 内核 948 个本地提权漏洞，展示 AI 在真实安全攻防中的端到端能力。",
+   "highlights_zh": [
+    "端到端自主：从漏洞发现到补丁生成全流程无需人工介入",
+    "规模达 948 个真实内核漏洞，验证了 AI 安全研究的工程可行性",
+    "对安全行业与内核维护流程可能产生结构性影响"
+   ],
+   "why_zh": "AI 自主攻防从演示走向真实系统，安全从业者必读。",
+   "tags": [
+    "智能体",
+    "对齐与安全",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.8562,
+   "score_llm": 9.0,
+   "score": 0.8825,
+   "date": "2026-11-05",
+   "slot": "noon",
+   "selected_at": "2026-11-05T05:28:22+00:00",
+   "mirror_pdf": "pdf/web-a4f4c423c542.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50372929"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-96eddcc208ed",
+   "kind": "article",
+   "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+   "url": "https://www.ricursive.com/ripple",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-04T18:53:29Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50369925",
+     "signal": "264 pts",
+     "metric": 264
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Ripple-65B 预览：美国开源权重模型在智能体编程上达 SOTA",
+   "summary_zh": "Ripple-65B 预览版发布，宣称在美国开源权重模型中于智能体编程任务上达到 SOTA，为开源代码智能体赛道再添竞争者。",
+   "highlights_zh": [
+    "65B 开源权重模型，主打智能体编程能力",
+    "宣称在美国开源模型中达 SOTA",
+    "开源代码智能体竞争加剧"
+   ],
+   "why_zh": "开源权重模型在 Agentic Coding 上的新标杆，值得对比评测。",
+   "tags": [
+    "大模型",
+    "代码",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5816,
+   "score_llm": 8.0,
+   "score": 0.7126,
+   "date": "2026-11-05",
+   "slot": "noon",
+   "selected_at": "2026-11-05T05:28:22+00:00",
+   "mirror_pdf": "pdf/web-96eddcc208ed.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ricursive.com/ripple"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50369925"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7b93706aafff",
+   "kind": "article",
+   "title": "Progress on provable inference for large language models",
+   "url": "https://www.anthropic.com/research/provable-inference",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-04T17:17:46Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50368626",
+     "signal": "198 pts",
+     "metric": 198
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "大模型可证明推理取得进展",
+   "summary_zh": "Hacker News 热议的大模型可证明推理研究进展，探讨如何为 LLM 输出提供形式化保证，提升推理可靠性。",
+   "highlights_zh": [
+    "聚焦 LLM 推理结果的可验证性与形式化保证",
+    "对高风险场景部署大模型有直接意义",
+    "社区讨论热度高，反映可信 AI 关注度上升"
+   ],
+   "why_zh": "关注大模型可信落地与推理验证方向的从业者值得一读。",
+   "tags": [
+    "推理",
+    "对齐与安全",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.5682,
+   "score_llm": 8.0,
+   "score": 0.7073,
+   "date": "2026-11-05",
+   "slot": "noon",
+   "selected_at": "2026-11-05T05:28:22+00:00",
+   "mirror_pdf": "pdf/web-7b93706aafff.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.anthropic.com/research/provable-inference"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50368626"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b1a0c33c19a0",
+   "kind": "article",
+   "title": "Watts in Store for 2027 : The AI Ceiling",
+   "url": "https://tomtunguz.com/watts-in-store-for-2027-inference/",
+   "pdf_url": "",
+   "abstract": "US AI capacity grows from 38gw today to an 81gw ceiling in 2027. Because 40% of compute serves inference & new Blackwell & Rubin racks lift blended monetization from $9.4b to $15.1b per inference gigawatt, theoretical US inference revenue rises 3.4x from $0.14t to $0.49t.",
+   "authors": [
+    "Tomasz Tunguz"
+   ],
+   "orgs": [
+    "Tomasz Tunguz"
+   ],
+   "published": "2026-11-04T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Tomasz Tunguz",
+     "authority": 0.75,
+     "url": "https://tomtunguz.com/watts-in-store-for-2027-inference/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Theory Ventures 创始人，AI 投资",
+   "title_zh": "2027年AI算力天花板：美国推理收入或增3.4倍",
+   "summary_zh": "Tomasz Tunguz 测算美国AI算力将从38GW增至2027年81GW上限，Blackwell/Rubin机架提升单GW变现，推理收入理论上从0.14万亿增至0.49万亿美元。",
+   "highlights_zh": [
+    "美国AI容量2027年触顶81GW，算力供给存在明确天花板",
+    "40%算力用于推理，新机架使单GW推理收入从94亿升至151亿美元",
+    "理论推理收入3.4倍增长，为AI投资回报提供量化框架"
+   ],
+   "why_zh": "用算力与变现数据推演AI收入天花板，适合判断基础设施投资节奏。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-11-05",
+   "slot": "noon",
+   "selected_at": "2026-11-05T05:28:22+00:00",
+   "mirror_pdf": "pdf/web-b1a0c33c19a0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://tomtunguz.com/watts-in-store-for-2027-inference/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-95f5b8b4456c",
+   "kind": "article",
+   "title": "anthropics/FlashProve",
+   "url": "https://github.com/anthropics/FlashProve",
+   "pdf_url": "",
+   "abstract": "A research prototype for zero-knowledge proofs of AI inference. Not maintained.",
+   "authors": [],
+   "orgs": [
+    "anthropics"
+   ],
+   "published": "2026-11-05T05:28:22+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/anthropics/FlashProve",
+     "signal": "★ 843（新项目） · Lean",
+     "metric": 843
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Anthropic 开源 FlashProve：AI 推理的零知识证明原型",
+   "summary_zh": "Anthropic 发布 FlashProve 研究原型，用零知识证明验证 AI 推理过程，让外部方在不暴露模型权重与输入的情况下确认推理正确性。",
+   "highlights_zh": [
+    "将 ZK 证明引入 AI 推理验证，兼顾隐私与可验证性",
+    "Lean 形式化实现，属研究原型且官方不维护",
+    "为可信 AI 与模型审计提供新思路"
+   ],
+   "why_zh": "AI 可验证性与隐私计算交叉方向，值得研究者关注。",
+   "tags": [
+    "对齐与安全",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.6573,
+   "score_llm": 7.0,
+   "score": 0.6829,
+   "date": "2026-11-05",
+   "slot": "noon",
+   "selected_at": "2026-11-05T05:28:22+00:00",
+   "mirror_pdf": "pdf/web-95f5b8b4456c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/anthropics/FlashProve"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a5af043ff573",
+   "kind": "article",
+   "title": "N1nEmAn/sapper-v2",
+   "url": "https://github.com/N1nEmAn/sapper-v2",
+   "pdf_url": "",
+   "abstract": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.",
+   "authors": [],
+   "orgs": [
+    "N1nEmAn"
+   ],
+   "published": "2026-11-05T05:28:22+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/N1nEmAn/sapper-v2",
+     "signal": "★ 944（新项目） · Python",
+     "metric": 944
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "sapper-v2：自主渗透测试军团，AI 指挥官加工作蜂群",
+   "summary_zh": "sapper-v2 用 AI 指挥官调度工作蜂群与分层事实-意图图执行自主渗透测试，曾以 10 亿 token 击败 45 亿 token 方案获腾讯攻防赛冠军。",
+   "highlights_zh": [
+    "AI 指挥官 + worker swarm 的多智能体架构",
+    "分层 fact-intent graph 支撑长时自主作战",
+    "8 小时无人值守，token 效率显著优于对手"
+   ],
+   "why_zh": "如果你在做多智能体攻防或长任务编排，可参考其架构。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.5813,
+   "score_llm": 7.0,
+   "score": 0.6525,
+   "date": "2026-11-05",
+   "slot": "noon",
+   "selected_at": "2026-11-05T05:28:22+00:00",
+   "mirror_pdf": "pdf/web-a5af043ff573.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/N1nEmAn/sapper-v2"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cd998f720303",
+   "kind": "article",
+   "title": "FareedKhan-dev/kimi-k3-in-c",
+   "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+   "pdf_url": "",
+   "abstract": "Star FareedKhan-dev / kimi-k3-in-c A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+   "authors": [],
+   "orgs": [
+    "FareedKhan-dev"
+   ],
+   "published": "2026-11-05T05:28:22+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+     "signal": "★ 今日 +351 · C",
+     "metric": 351
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "kimi-k3-in-c：2.78 万亿参数模型在单 CPU 8GB 内存跑推理",
+   "summary_zh": "项目用纯 C99 在单颗 CPU、8.24GB 内存上运行 2.78 万亿参数的 Kimi K3 推理，不依赖 BLAS、框架或 GPU。",
+   "highlights_zh": [
+    "纯 C99 实现，无 BLAS、无框架、无 GPU 依赖",
+    "单 CPU + 8.24GB 内存跑 2.78T 参数模型",
+    "展示极致内存与计算效率的工程技巧"
+   ],
+   "why_zh": "如果你在资源受限环境部署大模型，可借鉴其内存与计算优化思路。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5805,
+   "score_llm": 7.0,
+   "score": 0.6522,
+   "date": "2026-11-05",
+   "slot": "noon",
+   "selected_at": "2026-11-05T05:28:22+00:00",
+   "mirror_pdf": "pdf/web-cd998f720303.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-78eb42514cfb",
+   "kind": "article",
+   "title": "Apple 智能国行上线，苹果大涨超 6% 重返美股市值第一；英伟达显卡订单排长队，中国客户预计只能拿到 1%；字节限制员工使用个人 AI｜极客早知道",
+   "url": "http://www.geekpark.net/news/373494",
+   "pdf_url": "",
+   "abstract": "Apple 智能国行上线，苹果大涨超 6% 重返美股市值第一 11 月 4 日，Apple 智能伴随 iOS 27.3 的 Developer Beta 向中国大陆用户开放测试，并计划于 12 月随 iOS 27.3 正式版推出。与此同时，苹果也确认与阿里巴巴达成合作，将千问接入 Siri、写作工具及视觉智能，让中国用户能够通过系统直接调用国内大模型的能力。 不过，这一次上线的并不是完整版 Apple 智能。首批功能主要包括实时翻译、写作工具、视觉智能、照片消除、智绘表情、通知摘要等，而苹果此前展示的新一代 Siri AI，以及 WWDC26 公布的部分下一代 AI 能力，仍然不在此次更新范围内。 当日，苹果 (AAPL.US) 大涨超 6%，报 353.05 美元，总市值再度突破 5 万亿美元，重返美股市值第一。(来源：格隆汇) OpenAI 升级 ChatGPT 图片能力，支持直接生成和编辑 GIF 动画 11 月 5 日，据 The Verge 报道，ChatGPT 现在可以通过提示词或上传到人工智能聊天机器人的照片来创建 GIF。此次更新与 OpenAI 的新 Images 2.6 模型同步推出，允许用户调整 GIF 的动画速度，编辑单个帧，并与他人分享。 在此之前，ChatGPT 无法单步原生生成 GIF。公司分享的一个示例展示了 ChatGPT 如何根据「你能制作一只猫跳舞的 GIF 吗？」的提示生成 GIF，同时还提供切换播放速度和逐帧观看的选项。 OpenAI 表示，除了支持 GIF 制作外，Images 2.6 更新还使 ChatGPT 能够更快地生成图像。公司表示，用户目前每周通过 ChatGPT 及其 API 生成超过 40 亿张图片，较其 9 月份报告的每周 30 亿张大幅增长。（来源：IT 之家） Anthropic 向 IPO 投资者大谈 Claude 的芯片设计能力 11 月 4 日，Anthropic 的人工智能模型此前已帮助发现严重的网络安全漏洞，并改变了软件编程行业。如今，该公司正在探索其模型在陌生领域能够带来多大优势：设计自己的 AI 芯片。 据知情人士透露，Anthropic 正准备于本月晚些时候启动首次公开募股（IPO），届时公司估值可能达到 1.5 万亿美元。在近期与投资者举行的会议上，该公司表示，其新成立的 15 人芯片设计团队已经开始使用自家的 Claude 模型，开展定制芯片的工程和设计工作。Anthropic 的工程师发现，与他们估计的英伟达和超威半导体（AMD）等大型芯片设计公司的传统工作流程相比，Claude 能够显著缩短芯片设计所需的时间。（来源：The Information） 700 亿美元英伟达显卡订单排长队，中国客户四个月预计只能拿到 1% 11 月 4 日，据外媒报道，阿里、腾讯、字节等中国科技巨头累计订购约 600 万张英伟达 RTX PRO 5500 显卡，总价值约 700 亿美元。但受产能限制，未来四个月预计只能拿到数万张，约占订单量的 1%。 这批订单早在 10 月就已曝光。当时英伟达预计只能满足 5%–10% 的需求，如今短期交付情况更加严峻：2026 年底前可能只有数千张到货，明年 2 月再交付数万张。 RTX PRO 5500 原本是配备 84GB 显存的工作站显卡，性能不及 H200、B300 等数据中心 GPU。但在美国出口管制下，中国企业只能退而求其次，大量订购这款显卡。 偏偏英伟达正优先把台积电产能留给利润更高的下一代 Rubin 芯片，RTX PRO 55",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-05T00:45:25+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373494",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "苹果智能国行上线牵手阿里千问，Anthropic筹备IPO谈芯片设计",
+   "summary_zh": "Apple智能国行版上线，接入阿里千问；Anthropic筹备IPO并称Claude可加速芯片设计；英伟达显卡订单交付率仅1%。",
+   "highlights_zh": [
+    "Apple智能国行首批功能有限，新一代Siri缺席，与阿里合作接入千问",
+    "Anthropic估值或达1.5万亿美元，15人团队用Claude做芯片设计",
+    "中国厂商600万张英伟达显卡订单短期仅能拿到约1%"
+   ],
+   "why_zh": "一篇文章掌握苹果入华、Anthropic IPO与算力短缺三条主线",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-11-05",
+   "slot": "noon",
+   "selected_at": "2026-11-05T05:28:22+00:00",
+   "mirror_pdf": "pdf/web-78eb42514cfb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373494"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b19cd14c016b",
+   "kind": "article",
+   "title": "谷歌用 Gemini 4 Argon 一夜优化 ADK 代码库的 20 万行代码",
+   "url": "https://www.infoq.cn/article/u4fAoAH5vZPCV4TVqAcO?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Sergio De Simone"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-05T11:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/u4fAoAH5vZPCV4TVqAcO?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌用 Gemini 4 Argon 一夜优化 ADK 代码库 20 万行",
+   "summary_zh": "谷歌称用 Gemini 4 Argon 在一夜之间完成 ADK 代码库约 20 万行代码的优化，展示大模型大规模自动化改码的可行性。",
+   "highlights_zh": [
+    "单次任务覆盖 20 万行代码规模",
+    "由 Gemini 4 Argon 自动完成优化",
+    "对 AI 辅助大规模代码重构具参考意义"
+   ],
+   "why_zh": "大规模自动化改码的真实案例，可评估 AI Coding 的能力边界。",
+   "tags": [
+    "代码",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-05",
+   "slot": "noon",
+   "selected_at": "2026-11-05T05:28:22+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/u4fAoAH5vZPCV4TVqAcO?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-09ad06179d5e",
+   "kind": "article",
+   "title": "Transformer 架构还能咋改？严骏驰团队提供两条思路 | CNCC 2026",
+   "url": "https://www.leiphone.com/category/private/qWW7SeepMBzAQAfb.html",
+   "pdf_url": "",
+   "abstract": "训练算力节省1/3。 作者丨张璐 编辑丨 张驰 增加参数、扩展专家数量、投入更多训练数据，是大模型提升能力的常见路径。但对于算力和数据资源有限的高校团队，沿着这些方向持续扩大规模并不容易。 在现有 Transformer 架构之上寻找其他扩展维度，是上海交通大学人工智能学院教授严骏驰，在前不久的CNCC 2026演讲中分享的研究思路。 在题为《大模型新架构探索：JTok & xHC》的报告中，严骏驰介绍了两项工作：JTok 为 token 引入可学习的参数表，通过查表和逐元素运算调制模型更新；xHC 则扩展残差流，以稠密读取、稀疏写回的方式提高模型容量。 两项研究都关注一个问题：新增容量能否以较低的额外计算代价，带来持续的训练收益。 严骏驰也讨论了这些方法的实际限制：小规模实验中的优势能否在更大规模上保持，训练算力的节省如何与推理延迟、访存开销相权衡，以及系统工程如何影响架构创新的效果。 以下为演讲整理。雷峰网 01 在现有架构上， 寻找新的扩展维度 今天分享的是我们在大模型新架构方面的一些探索。把它称为“新架构”，可能有一点夸大，实际上主要是在现有架构上做调整和改进。 为什么没有直接去做颠覆性的架构？一方面，我们没有那么多算力和能力；另一方面，即使把架构大幅修改，也未必能在工业界真正用起来。现在从底层硬件、驱动、算子，到上层模型软件，整个生态都沿着 Transformer 展开。改动太大，生态适配就会面临困难。 所以，我们希望先做一些有限的改动，观察它们是否有效，为工业界后续更大幅度的创新提供前期探索。 大模型常见的扩展方式： 一是增加参数、加深模型，但训练会更困难，因此需要残差连接、超连接等通路帮助信息传播； 二是把模型做宽，增加专家，通过稀疏激活控制计算量； 三是增加数据，开展更大规模的训练。 这三条路对高校都不算友好，因此，我们希望在 Transformer 的基本框架上探索不同的扩展维度。 这里有一个原则，就是尽量保持简单。加入很多人为设计的先验或技巧，可能在小规模模型上有效，但当参数和数据规模扩大后，优势就被吞掉了。我们要关注的是，这些改动能否随着规模扩大，持续发挥作用。 这次介绍的两项工作，分别是 JTok 和 xHC。 前者沿 token 对应的参数表扩展容量，后者沿残差流维度扩展容量。它们都尝试把新增容量放到主干的大规模矩阵乘法之外。 02 JTok：用查表扩展容量， 让训练收益保持下去 JTok 的思路很简单：在 Transformer 主干旁边增加一条分支，为每个 token 配置可学习的向量，按照 token 的编号查表，取出向量，再通过逐元素运算调制这一层的前馈网络更新。 例如，一个 token 有自己的编号，我们就可以直接用编号找到对应向量。向量中的元素是新增参数，可以通过梯度反向传播更新。这样就能引入较多参数，同时避免为这些新增参数再进行大规模矩阵乘法。 这里扩展的是 token 对应的可学习参数表。参数量虽然增加了，但调用方式比较便宜：查表、归一化，再做逐元素乘法。旁路还可以与主干并行计算，不必等主干算完后才开始，因此从推理实现上看比较友好。 具体来说，取出的向量先经过归一化，再通过可学习的逐维缩放产生调制信号。门控作用在前馈网络的残差增量上，之后再加回主干。这些操作比较简单，也便于保留原来的主干计算。 我们还借鉴了混合专家模型的思路，提出 JTok-M：在查表之外加入路由，动态选择部分分支参与计算。这会增加一些复杂性，但也能进一步改善模型效果。 判断这种扩展是否有价值，不能只看训练初期下降得快不快。很多架构改进在",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-04T07:48:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/private/qWW7SeepMBzAQAfb.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "严骏驰团队提出两条 Transformer 扩展新思路",
+   "summary_zh": "上海交大严骏驰团队在 CNCC 2026 介绍 JTok 与 xHC：前者用 token 查表旁路扩展容量，后者扩展残差流，均把新增容量放在主干矩阵乘法之外，训练算力节省约 1/3。",
+   "highlights_zh": [
+    "JTok 为每个 token 配置可学习向量表，查表加逐元素调制前馈网络，避免大规模矩阵乘",
+    "xHC 沿残差流维度扩展容量，采用稠密读取、稀疏写回",
+    "作者坦言小规模优势能否在更大规模保持、与推理延迟和访存的权衡仍待验证"
+   ],
+   "why_zh": "算力受限团队如何在 Transformer 上找新扩展维度，是一份务实的一手研究思路。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-05",
+   "slot": "noon",
+   "selected_at": "2026-11-05T05:28:22+00:00",
+   "mirror_pdf": "pdf/web-09ad06179d5e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/private/qWW7SeepMBzAQAfb.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-06fb196ec480",
+   "kind": "article",
+   "title": "英伟达发布 CUDA Toolkit 13.5：正式支持 Vera Rubin，升级多 GPU 通信",
+   "url": "https://www.ithome.com/1/022/670.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 5 日消息，英伟达于当地时间 11 月 4 日正式发布了最新的 CUDA Toolkit 13.5，为下一代 AI 计算平台 Vera Rubin 提供正式可用（GA）支持，标志着相关架构从早期开发者预览阶段进入面向企业生产环境的部署阶段。 据英伟达官方介绍，此次更新不仅完善了 Vera Rubin 平台的底层软件支持，还针对 GPU 资源调度、多 GPU 通信、数学计算库及性能分析工具进行了多项升级，重点面向大规模 AI 训练和推理场景。 在计算性能方面，CUDA 13.5 更新了 cuBLAS 的矩阵乘法启发式策略和内核调优机制，针对 Vera Rubin 架构上的 NVFP4、MXFP8 低精度矩阵运算进行了优化，覆盖混合专家模型（MoE）等训练场景。英伟达表示，这些改进能够在无需针对每种计算形状单独进行自动调优的情况下，提高训练和推理吞吐量。 在 GPU 调度方面，CUDA 13.5 对 NVIDIA 多进程服务（MPS）v3 进行了升级，新增加权时间片机制。管理员可以为运行重负载的 MPS 服务器设置更长的基础计算时间片，同时独立调整 GPU 在不同任务之间的切换频率，从而更灵活地控制多任务环境下的资源分配。 MPS v3 还加入了流式多处理器（SM）分区负载均衡功能。任务可以在资源充足时借用其他分区暂时闲置的 SM 资源，而当原分区需要使用这些资源时，系统会先回收已借出的部分。无论资源如何动态流转，应用看到的基础分区规模始终保持稳定。此外，新版本还增加了基于 Linux cgroup 的资源路由和命名空间级 SM 分区配置。 局部域（Locality Domain）也获得了新的资源划分策略。应用现在可以选择两种 SM 分区方式：一种是在各局部域中分配相同数量的 SM，以保证资源规模的一致性和可预测性；另一种则将原本处于分区之外的补充 SM 纳入计算分区，尽可能利用 GPU 全部计算资源。开发者还可以通过相关 API 查询各分区实际获得的 SM 数量，以便合理分配计算任务。 多 GPU 通信能力是此次更新的另一项重点。CUDA Tile 现在支持在计算内核内部直接访问其他 GPU 的显存，相关功能依托 NVLink 高速互连实现。借助多播指针和专用多 GPU 内存操作，开发者还可以在支持 NVLink SHARP 的 NVSwitch 网络中执行跨 GPU 数据归约和写入操作。 这意味着开发者能够将 GPU 之间的数据通信与计算操作融合在同一个内核中执行，减少传统多卡协同过程中因内核边界和数据传递产生的额外开销。英伟达列举的适用场景包括融合矩阵乘法和跨 GPU 数据归约。 Windows 平台方面，英伟达明确调整了 Rubin 架构的驱动模型支持范围。从 Rubin 架构开始，CUDA 不再支持 Tesla Compute Cluster（TCC）模式，仅支持 Windows Display Driver Model（WDDM）和 Microsoft Compute Driver Model（MCDM）。其中，MCDM 是面向纯计算场景的驱动模型，相关应用和部署工具需要适配新的支持范围。 开发工具方面，CUDA 13.5 首次以公开预览形式推出 NVIDIA Nsight Perf SDK for AI，为长时间运行的 AI 训练和推理任务提供常开式性能分析能力。该工具能够持续收集 GPU、CPU 性能指标及执行上下文，帮助开发者定位难以复现的间歇性性能问题，并支持通过 Perfetto 查看采集结果。 此外，CUD",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-05T05:27:22+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/022/670.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "英伟达 CUDA 13.5 正式支持 Vera Rubin",
+   "summary_zh": "CUDA 13.5 为下一代 Vera Rubin 平台提供正式支持，优化 NVFP4/MXFP8 低精度矩阵运算与 MoE 训练，并升级多 GPU 通信与 MPS 调度。",
+   "highlights_zh": [
+    "Vera Rubin 从开发者预览进入企业生产部署阶段",
+    "cuBLAS 针对 NVFP4、MXFP8 优化，覆盖 MoE 训练场景",
+    "CUDA Tile 支持内核内直接访问其他 GPU 显存，依托 NVLink 融合通信与计算"
+   ],
+   "why_zh": "大规模训练与推理的底层软件栈变化，直接影响下一代 GPU 集群的性能规划。",
+   "tags": [
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-05",
+   "slot": "noon",
+   "selected_at": "2026-11-05T05:28:22+00:00",
+   "mirror_pdf": "pdf/web-06fb196ec480.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/022/670.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9cc1f6857cf3",
+   "kind": "article",
+   "title": "Kimi Hosted Agents 托管智能体发布，将 Harness 作为云端服务提供",
+   "url": "https://www.ithome.com/1/022/572.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 5 日消息，Kimi 今日宣布推出 Kimi Hosted Agents（托管智能体） ，将支撑 Agent 运行的 Harness 作为云端服务提供（Harness as a Service）。 企业和开发者无需自行搭建和维护运行框架， 即可获得 7×24 小时的托管环境 ，支持长程任务执行与多智能体高效协作。 企业可以按需配置 Agent，快速构建两类业务应用： 面向内部业务 ：集成到企业内部系统，提供业务监控、运维响应等任务。 面向产品用户 ：嵌入企业对外提供的产品，提供 App 内的投研助手、客服助手等 Agent 服务。 为保障 Agent 安全可控地运行， Kimi Hosted Agents 提供独立沙箱、网络访问权限控制 ，企业可设定操作边界，并在必要时随时中止会话；执行过程留痕可查，支持审计导出；清晰的计费规则与用量报表，也让企业能够掌握各个 Agent 项目资源消耗与费用。 Kimi 官方表示，依托 Kimi Hosted Agents 提供的 Harness 框架与托管环境，企业可以快速定义任务、接入工具，缩短从原型验证到应用上线的开发周期。 底层运行环境的维护与升级由 Kimi 负责 ，团队无需反复投入基础设施适配与运维，可以更快响应业务需求、迭代应用功能。 Kimi Hosted Agents 目前提供 140+ Skills 与 30+ 插件，覆盖联网检索、专业数据查询、办公文档处理和内容生成等任务，开发者可按需调用，减少逐项接入工具的开发工作。企业也可接入自有工具和数据源，让智能体适配具体业务流程。 Kimi Hosted Agents 可结合开放平台的 独立安全组件 Kimi Inference Hook，对接企业自建或采购的安全服务 ，在每次模型推理前检查任务输入与工具返回内容，将隐私和敏感数据拦截在推理之前。 安全检查规则由企业定义，放行或拒绝由 Kimi Inference Hook 执行 ：只有通过企业安全检查的内容才会进入模型推理。 Kimi 开放平台文档站同步提供配套的 Agent 架构设计思路、配置教程、运行成本估算；企业可将 Agent 模板复制到自己的项目空间，接入内部业务系统、私有数据库等资源，按需调整任务流程，快速构建适合自身业务的智能体。 首批提供 8 个金融 Agent 模板 ，覆盖投研建模、深度研究、晨报生成、IPO 跟踪、持仓监控等任务，支持在托管环境中持续运行。企业可以将 Agent 模板复制到自己的项目空间，接入内部研报、私有数据库等资源，适配实际业务流程。 IT之家附 Kimi Hosted Agents 定价如下： 总费用 = 沙箱运行时长（小时）× ¥0.072 / 小时 + 模型推理费用 + Σ（插件调用次数 x 插件单价）",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-05T03:15:17+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/022/572.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Kimi 推出托管智能体，把 Harness 做成云服务",
+   "summary_zh": "Kimi 发布 Hosted Agents，将智能体运行框架作为云端服务提供，企业无需自建基础设施即可获得 7×24 小时托管环境，支持长程任务与多智能体协作，并提供沙箱隔离、权限控制与审计。",
+   "highlights_zh": [
+    "Harness as a Service：底层运行环境由 Kimi 维护，企业专注业务逻辑",
+    "内置 140+ Skills 与 30+ 插件，覆盖检索、数据查询、文档处理等",
+    "首批 8 个金融 Agent 模板，按沙箱时长+推理+插件调用计费"
+   ],
+   "why_zh": "智能体基础设施云端化是行业趋势，关注托管模式与定价对开发者的影响。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-05",
+   "slot": "noon",
+   "selected_at": "2026-11-05T05:28:22+00:00",
+   "mirror_pdf": "pdf/web-9cc1f6857cf3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/022/572.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-195bc285008c",
+   "kind": "article",
+   "title": "Linux内核被挖出948个漏洞！OpenAI花120万美元找到的",
+   "url": "https://www.qbitai.com/2026/11/507697.html",
+   "pdf_url": "",
+   "abstract": "被轰成筛子了…",
+   "authors": [
+    "Jay"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-05T01:54:44+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/507697.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI花120万美元在Linux内核挖出948个漏洞",
+   "summary_zh": "OpenAI投入120万美元用AI审计Linux内核，发现948个漏洞，展示AI在安全审计上的规模化能力。",
+   "highlights_zh": [
+    "AI驱动的代码安全审计首次大规模应用于Linux内核",
+    "948个漏洞数量引发对AI审计信噪比的讨论",
+    "为AI辅助安全研究提供成本与产出参考"
+   ],
+   "why_zh": "AI做安全审计的规模化样本，值得关注其方法论与争议",
+   "tags": [
+    "对齐与安全",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-05",
+   "slot": "noon",
+   "selected_at": "2026-11-05T05:28:22+00:00",
+   "mirror_pdf": "pdf/web-195bc285008c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/507697.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c674b7f1e755",
+   "kind": "article",
+   "title": "世界模型热潮里，百度重新亮出无人驾驶底牌",
+   "url": "https://www.leiphone.com/category/transportation/d85n0vUzY4Df9bd2.html",
+   "pdf_url": "",
+   "abstract": "10月17日，上海徐浦大桥上发生了一起令人揪心的事故，一辆平板货车先撞上了一辆白色小客车，然后车子驶入对向车道，又接连撞了4辆车，事故造成了1死2伤。 事故过后，网络上涌现了很多对于事故全过程的还原和讨论。如果白色小客车没有违规变道，或者货车早点刹车，结果会不会不同？ 现实世界中，人们从亲历的险情、看过的事故中记住一些教训，提升驾驶和决策水平。 而对于需要通过训练规避风险的无人车来说，研究这些问题，需要改变条件、反复比较，却不能在真实道路上重复制造危险。 随着无人驾驶的发展，仿真测试早就在做这部分工作。如今，百度、Waymo等企业都在用世界模型扩展虚拟考场的边界，为无人车创造“重生”机会。 也就是从已有场景出发，改变路况或驾驶动作，推演不同的后续，让系统在不同条件下反复接受检验。 难的是，给无人车一次“重来”的机会，不能只是重置自车动作，还要让周围的车、人、物给出合理回应。怎样的世界模型，才撑得起这样的训练？ 01 世界模型的“重生”，怎样才有用？ AI科学家、World Labs联合创始人李飞飞，曾把汽车比作带轮子的机器人，认为无人驾驶汽车近似在二维的环境里移动的“方盒子”，车要尽量不碰到东西，家务机器人却得主动伸手，才能洗碗、做饭、叠衣服。 从操作任务来看，她认为汽车相对简单，“无人驾驶汽车其实还是挺简单的机器人”。但百度智能驾驶事业群组首席研发架构师王亮博士说： “无人驾驶从来不是具身智能的‘EASY模式’。” 比如谈到L2和L4的区别时，王亮博士拿纪录片《徒手攀岩》举例，辅助驾驶更像有保护的攀岩，容易做出吸引眼球的帅气动作，而L4就像无保护攀岩，中间的巨大鸿沟很难跨越。 无人车驶入开放道路，要不断应对其他车辆和行人难以预判的行动，对安全、实时响应和处理交通冲突的要求也随之提高。在他看来，难点不只在于感知三维空间，更在于驾驶位上没有人能随时接手，系统几乎没有犯错的余地。 真实场景中，车辆并线时，即使旁边有空位，也得看后车让不让。往前探还是先收一脚油，也会影响对方的选择，因为路上不止一辆车在做决定。 研发人员要攻克的问题，就是怎么把这种在真实道路上时刻发生着的你来我往，搬进虚拟世界。 李飞飞将世界模型的功能分为渲染器、模拟器和规划器。开车时，渲染器让车看见路况，模拟器能让你知道往左或往右打方向会发生什么，规划器则帮你决定，为了到达目的地或规避危险该不该打这把方向。 王亮博士认同李飞飞对世界模型的划分，并进一步提出，无人驾驶需要这三项功能配合，其中模拟器是否能合理推演后果尤为重要。 驾驶系统做出动作之后，模拟环境随之变化，把新的路况反馈给系统，让它据此再做下一步决定。比如，如果无人车提前踩了刹车，虚拟道路上的后车也要跟着减速。 如果测试只是把实车记录的路况重放一遍，后车仍会沿原来的轨迹行驶。这样一来，哪怕无人车在仿真里避开了前车的碰撞，也很难判断这脚刹车在真实道路上是否安全。 目前，世界模型的概念越来越流行，但不是每个世界模型都能做出一个可信的、符合物理世界交互规律的试炼场。比如李飞飞团队的Marble，主要侧重生成和编辑三维空间。 当世界模型被用作具身模拟器，核心在于它能否忠实还原物理规律和行动的因果关系，让智能体在虚拟环境里完成原本要在现实中完成的完整任务。画面有多逼真、生成的场景有多奇特，都不能代替对行动后果的检验。 基于这样的定位，百度针对世界模型提出了“2+3”判断标准。 2，是指给物理AI世界模型设定的基础门槛：一是因果性，即模型必须像真实物理世界⼀样，由已知的过去推导下⼀秒；二是交互性，说的是运行中改变动作，环境能随之更新。 3，",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-05T03:02:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/transportation/d85n0vUzY4Df9bd2.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "百度亮出世界模型底牌：无人驾驶仿真需要怎样的「重生」",
+   "summary_zh": "雷峰网报道百度用世界模型扩展无人驾驶仿真测试，百度智驾首席架构师王亮提出世界模型需兼具渲染、模拟、规划三功能，其中模拟器能否合理推演行动后果最关键。",
+   "highlights_zh": [
+    "王亮认为无人驾驶并非具身智能的「EASY模式」，L4与L2之间存在巨大鸿沟",
+    "世界模型作仿真器时，核心是忠实还原物理规律与行动因果关系，而非画面逼真",
+    "仅重放实车路况无法验证自车动作是否安全，需周围车辆对自车行为做出合理响应"
+   ],
+   "why_zh": "理解世界模型在自动驾驶仿真中的真实价值与评判标准，避免被「生成逼真画面」带偏。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-05",
+   "slot": "noon",
+   "selected_at": "2026-11-05T05:28:22+00:00",
+   "mirror_pdf": "pdf/web-c674b7f1e755.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/transportation/d85n0vUzY4Df9bd2.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bff4b19f76c7",
+   "kind": "article",
+   "title": "谷歌发布 ML Drift：为各类 GPU 加速端侧 AI 推理",
+   "url": "https://www.infoq.cn/article/hHzARIJTeqoqYpjNKEuq?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Sergio De Simone"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-05T13:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/hHzARIJTeqoqYpjNKEuq?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌发布 ML Drift：加速各类 GPU 端侧 AI 推理",
+   "summary_zh": "谷歌推出 ML Drift，面向多种 GPU 加速端侧 AI 推理，意在统一移动与边缘设备的推理部署路径。",
+   "highlights_zh": [
+    "面向端侧推理场景",
+    "支持多类 GPU 硬件",
+    "谷歌端侧 AI 工具链的又一布局"
+   ],
+   "why_zh": "关注端侧推理部署的从业者可了解谷歌工具链动向。",
+   "tags": [
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-05",
+   "slot": "noon",
+   "selected_at": "2026-11-05T05:28:22+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/hHzARIJTeqoqYpjNKEuq?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4125a025f864",
+   "kind": "article",
+   "title": "混元 Hy4 实测：腾讯的产品基因，模型继承了几分？",
+   "url": "https://www.infoq.cn/article/C61Q16LQIDq45l0iCCzV?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "褚杏娟,付秋伟"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-05T09:44:25+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/C61Q16LQIDq45l0iCCzV?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "混元 Hy4 实测：腾讯模型继承几分产品基因",
+   "summary_zh": "InfoQ 对腾讯混元 Hy4 进行实测，评估其能力表现与腾讯产品化取向在模型上的体现。",
+   "highlights_zh": [
+    "混元 Hy4 实际能力评测",
+    "关注模型与腾讯产品基因的关系",
+    "国产大模型迭代动态"
+   ],
+   "why_zh": "想了解混元 Hy4 真实水平与定位的读者可参考。",
+   "tags": [
+    "大模型",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-05",
+   "slot": "noon",
+   "selected_at": "2026-11-05T05:28:22+00:00",
+   "mirror_pdf": "pdf/web-4125a025f864.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/C61Q16LQIDq45l0iCCzV?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-311e06862fd2",
+   "kind": "article",
+   "title": "谷歌 Data Agent Kit 正式发布：安全防护分为 Skill 与 IAM",
+   "url": "https://www.infoq.cn/article/UtKS9EofSoyd2P7Otx7e?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Leela Kumili"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-04T20:01:56+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/UtKS9EofSoyd2P7Otx7e?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌发布 Data Agent Kit：安全防护分 Skill 与 IAM",
+   "summary_zh": "谷歌正式发布 Data Agent Kit，将数据智能体的安全防护拆分为 Skill 层与 IAM 层，提供权限与能力双重管控。",
+   "highlights_zh": [
+    "面向数据智能体的开发工具包",
+    "安全分 Skill 与 IAM 两层设计",
+    "体现智能体权限治理思路"
+   ],
+   "why_zh": "构建企业数据智能体时，其权限分层设计值得参考。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-05",
+   "slot": "noon",
+   "selected_at": "2026-11-05T05:28:22+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/UtKS9EofSoyd2P7Otx7e?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c2960de5a80d",
+   "kind": "article",
+   "title": "CPU 格局将迎分水岭：AMD 有望史上首次单季营收超越英特尔",
+   "url": "https://www.ithome.com/1/022/607.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 5 日消息，科技媒体 Tom's Hardware 昨日（11 月 4 日）发布博文，报道称 AMD 官方预估 2026 财年（2025 年 12 月 28 日～2026 年 12 月 26 日）第四财季（2026 年 9 月 26 日～2026 年 12 月 26 日）的营收， 有望首次超越英特尔。 IT之家查询 AMD 和英特尔官方公布的业绩指引（guidance）， AMD 预测第四财季营收约 170 亿美元，同比约增长 66%、环比约增长 27% ； 而英特尔预估第四财季（2026 年 9 月 26 日～2026 年 12 月 26 日）营收为 150~160 亿美元 。 该媒体认为该预期若兑现，将成为 x86 芯片行业格局的标志性转折。 AMD 的强劲表现主要来自数据中心业务，目前占比已达到 64%。 其 EPYC 服务器处理器与 Instinct AI 加速器的需求同比增长接近一倍，成为抵消消费级市场压力的核心动力。 随着 AI 训练、推理和云计算需求持续扩张，数据中心芯片正在取代传统 PC 处理器，成为 AMD 最重要的增长引擎。AMD 的盈利能力也因高附加值数据中心产品占比提升而继续改善。 不过，AMD 并非全线高歌。受内存价格上涨和行业逆风影响，其面向客户端系统的产品销售额仅小幅下降，但公司预计到 2027 年，客户端和游戏业务可能面临两位数下滑。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-05T03:57:39+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/022/607.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AMD 有望史上首次单季营收超越英特尔",
+   "summary_zh": "AMD 预计第四财季营收约 170 亿美元，超过英特尔的 150–160 亿美元，数据中心业务占比已达 64%，AI 加速器需求近乎翻倍。",
+   "highlights_zh": [
+    "数据中心芯片取代 PC 处理器成为 AMD 最重要增长引擎",
+    "EPYC 服务器处理器与 Instinct AI 加速器需求同比增长接近一倍",
+    "客户端与游戏业务预计到 2027 年可能两位数下滑"
+   ],
+   "why_zh": "x86 格局标志性转折，AI 算力需求正重塑芯片厂商的收入结构。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-05",
+   "slot": "noon",
+   "selected_at": "2026-11-05T05:28:22+00:00",
+   "mirror_pdf": "pdf/web-c2960de5a80d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/022/607.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1ce258a11dc9",
+   "kind": "article",
+   "title": "前 Anthropic Claude Code 产品负责人 Cat Wu 跳槽加入 OpenAI，负责核心产品管理",
+   "url": "https://www.ithome.com/1/022/604.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 5 日消息，前 Anthropic Claude Code 产品负责人 Cat Wu 今日宣布加入 OpenAI，担任核心产品（Core Products）产品管理负责人。 她将参与 OpenAI 核心产品及智能体相关工作，与企业产品负责人 Nick Turley、消费级产品负责人 Ashley Alexander 等人协作，并向 Tibo Sottiaux 汇报。OpenAI 总裁 Greg Brockman 随后也在 X 上转发她的入职消息并表示欢迎。 公开报道显示，她此前曾主导 Claude Code 的产品规划与商业化发展，帮助这款最初仅供 Anthropic 内部使用的工具成长为公司的重要商业产品。 Cat Wu 表示，她非常尊重 OpenAI，尤其认可该公司将 AI 带给超过 10 亿用户的规模化能力。她期待与 Tibo Sottiaux 及产品团队合作，打造能够帮助个人和团队完成工作的智能体，同时让用户始终保有控制权。 《Business Insider》将这次事件称为 OpenAI 的一次重大挖角。报道指出，Cat Wu 曾负责 Claude Code 的产品方向，见证并推动了这款产品从内部原型走向商业化。随着 OpenAI 持续推进 Codex 等产品的发展，她加入核心产品团队也受到外界关注。 IT之家注：Cat Wu 为美籍华裔，全名 Catherine Wu，职业经历横跨软件工程、风险投资和产品管理。加入 Anthropic 之前，她曾在 Scale AI、Dagster 等公司从事产品工程工作，之后加入风险投资机构 Index Ventures，担任投资人近三年。 2024 年夏天，Cat Wu 加入 Anthropic，最初在研究团队担任产品经理。她曾回忆，自己第一次使用 Claude Code 时，尝试从零搭建一个强化学习环境，经过数十小时的交互引导，最终没有手写一行代码便完成了任务。这次体验促使她转向 Claude Code 项目，成为其早期产品负责人。 此后，她与 Claude Code 原创作者 Boris Cherny 形成产品与技术搭档。Boris Cherny 负责最初的原型开发，Cat Wu 则参与产品方向、跨团队协作及商业化工作。Business Insider 报道称，两人共同推动了 Claude Code 在 2025 年末至 2026 年的快速发展。 根据 Anthropic 官方公布的数据，截至 2026 年 2 月，Claude Code 的年化收入运行率已经超过 25 亿美元 （现汇率约合 167.14 亿元人民币） ，较 2026 年年初增长一倍以上。同期，该产品的每周活跃用户数量也实现翻倍，企业用户订阅数量较年初增长至原来的 4 倍。 除 Claude Code 外，Cat Wu 还参与负责 Anthropic 面向非编程知识工作场景的 Cowork 产品。她曾公开谈及 AI 时代产品经理的工作方式，强调产品经理需要亲自使用 AI 构建原型、设计评测并参与实际开发，而不应只停留在编写产品需求文档（PRD）的阶段。 值得注意的是，这并非 Cat Wu 第一次离开 Anthropic。2025 年，她曾与 Boris Cherny 一同前往 AI 编程初创公司 Cursor，随后两人又在约两周后回归 Anthropic。根据 Business Insider 对此前事件的报道，两人回归后继续参与 Claude Code 的产品发展。 Cat Wu 上周五刚刚结束了她在 A",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-05T03:45:01+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/022/604.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Claude Code 产品负责人 Cat Wu 跳槽 OpenAI",
+   "summary_zh": "主导 Claude Code 商业化的产品负责人 Cat Wu 加入 OpenAI 负责核心产品管理，参与智能体相关工作，被视为重大挖角。",
+   "highlights_zh": [
+    "Claude Code 年化收入运行率已超 25 亿美元，企业订阅较年初增长 4 倍",
+    "她将与企业产品负责人 Nick Turley 等协作，向 Tibo Sottiaux 汇报",
+    "此前曾与 Claude Code 原创作者 Boris Cherny 搭档推动产品发展"
+   ],
+   "why_zh": "编码智能体是当前最成熟的 AI 商业化赛道，人才流向反映两家竞争重心。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-05",
+   "slot": "noon",
+   "selected_at": "2026-11-05T05:28:22+00:00",
+   "mirror_pdf": "pdf/web-1ce258a11dc9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/022/604.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e9efb1446d7a",
+   "kind": "article",
+   "title": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
+   "url": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/",
+   "pdf_url": "",
+   "abstract": "November 3, 2026 — A quiet day lets us share some behind the senes.",
+   "authors": [
+    "swyx .ai"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-11-04T19:17:30+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Latent Space幕后：杀死我的SaaS与2026年的AI",
+   "summary_zh": "Latent Space在新闻清淡日分享幕后内容，涉及SaaS被AI冲击与2026年AI展望。",
+   "highlights_zh": [
+    "讨论AI对SaaS商业模式的冲击",
+    "2026年AI趋势的零散观点",
+    "以幕后花絮为主，信息密度低"
+   ],
+   "why_zh": "内容偏花絮，缺乏可提炼的明确判断",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 4.0,
+   "score": 0.46,
+   "date": "2026-11-05",
+   "slot": "noon",
+   "selected_at": "2026-11-05T05:28:22+00:00",
+   "mirror_pdf": "pdf/web-e9efb1446d7a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "模型能力差距正从参数转向工程封装，脚手架成为竞争新战场",
-   "why": "同一模型不同Harness评测可从30分到95分，Meta²更把脚手架演化本身作为优化对象。",
+   "trend": "智能体竞争从模型能力转向工程封装与长时程执行",
+   "why": "同一模型换Harness可从30分到95分，Anthropic旗舰实测连续自主编码近3小时，Kimi把Harness做成云服务。",
    "refs": [
     "web-a1a204666728",
-    "arxiv-2611.05139"
+    "web-d8588717af6f",
+    "web-9cc1f6857cf3"
    ]
   },
   {
-   "trend": "权重空间直接编辑开辟新范式，小改动撬动大性能",
-   "why": "Astra仅改0.016%参数让Qwen MATH-500从7.9%升至48.1%，挑战传统微调路径。",
+   "trend": "AI开始直接改写权重与大规模自动改码，能力边界外移",
+   "why": "Astra仅改0.016%参数让Qwen MATH-500从7.9%升至48.1%，谷歌Gemini一夜优化20万行代码。",
    "refs": [
-    "web-f6429696fb39"
+    "web-f6429696fb39",
+    "web-b19cd14c016b"
    ]
   },
   {
-   "trend": "编程智能体进入长时程自主与并购整合的军备竞赛",
-   "why": "OpenAI收购Pierre并入Codex，Anthropic旗舰实测连续自主编码近3小时。",
-   "refs": [
-    "web-3a06f84c0f51",
-    "web-d8588717af6f"
-   ]
-  },
-  {
-   "trend": "Agent规模化落地卡在成本与工程债，倒逼企业重构底层",
-   "why": "token暴涨5000倍后成本可靠性成瓶颈，AI落地暴露四十年技术债。",
+   "trend": "企业Agent规模化卡在成本、可靠性与技术债，而非模型本身",
+   "why": "token消耗暴涨5000倍后成本与工程化成瓶颈，AI落地倒逼企业偿还四十年技术债。",
    "refs": [
     "web-31bbabcefb7c",
     "web-68c44263a0af"
    ]
   },
   {
-   "trend": "开放模型生态成型与API管控收紧，中间商空间被双向挤压",
-   "why": "开放模型已具经济体量，Anthropic加签名使中转站难以为继。",
+   "trend": "评测与可信方法成新战场：形式化保证、零知识证明与真实告警回放",
+   "why": "FlashProve用零知识证明验证推理，可证明推理受热议，虚假安抚测试显示接入真实告警后错误率归零。",
    "refs": [
-    "web-93ee83f44d29",
-    "web-8261f4cc3dc7"
+    "web-95f5b8b4456c",
+    "web-7b93706aafff",
+    "arxiv-2611.05290"
+   ]
+  },
+  {
+   "trend": "开源权重与国产模型加速切入智能体编程与具身推理",
+   "why": "Ripple-65B称美国开源权重智能体编程SOTA，招商局Lion-ER仅激活3B参数十项基准全线提升。",
+   "refs": [
+    "web-96eddcc208ed",
+    "web-d077d4aa4c9b"
    ]
   }
  ]
