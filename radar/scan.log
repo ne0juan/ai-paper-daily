@@ -1,15 +1,11 @@
-2026-11-05 13:02:49,009 INFO source hf_daily           -> 23 items
-2026-11-05 13:02:49,358 INFO source hackernews         -> 9 items
-2026-11-05 13:03:19,218 INFO source rss                -> 94 items
-2026-11-05 13:03:21,210 INFO source html_lists         -> 0 items
-2026-11-05 13:03:21,210 INFO source x                  -> 0 items
-2026-11-05 13:03:21,783 INFO source arxiv_search       -> 60 items
-2026-11-05 13:03:35,163 INFO source github             -> 20 items
-2026-11-05 13:03:35,166 INFO candidates: 202 (stale dropped 19, new 134)
-2026-11-05 13:05:21,770 INFO llm judged 100/100 (calls=13)
-2026-11-05 13:05:30,817 WARNING snapshot https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/: blocked or empty page
-2026-11-05 13:07:05,597 WARNING snapshot https://www.qbitai.com/2026/11/507782.html: Page.goto: net::ERR_TIMED_OUT at https://www.qbitai.com/2026/11/507782.html
-Call log:
-  - navigating to "https://www.qbitai.com/2026/11/507782.html", waiting until "domcontentloaded"
-
-2026-11-05 13:08:27,465 INFO run done: {"at": "2026-11-05T13:02:48+00:00", "slot": "evening", "candidates": 202, "new": 134, "stale": 19, "judged": 100, "selected": 21, "mirrored": 19, "by_category": {"资讯": 12, "技术": 4, "观点": 2, "项目": 3}, "by_source": {"HF Daily Papers": 23, "arXiv 新论文": 60, "Hacker News": 9, "OpenAI": 6, "量子位": 9, "极客公园": 4, "IT之家": 11, "爱范儿": 11, "少数派": 2, "雷峰网": 17, "钛媒体": 3, "InfoQ 中文": 15, "Simon Willison": 1, "Nathan Lambert": 1, "Latent Space": 2, "Stratechery": 2, "SemiAnalysis": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "Hugging Face Blog": 4, "Google Research": 1, "Google DeepMind": 1, "NVIDIA": 1, "GitHub Trending": 9, "GitHub 新项目": 11}, "llm": true, "translated": 0}
+2026-11-05 18:40:51,172 INFO source hf_daily           -> 29 items
+2026-11-05 18:40:51,610 INFO source hackernews         -> 7 items
+2026-11-05 18:41:18,879 INFO source rss                -> 99 items
+2026-11-05 18:41:20,673 INFO source html_lists         -> 1 items
+2026-11-05 18:41:20,673 INFO source x                  -> 0 items
+2026-11-05 18:41:21,516 INFO source arxiv_search       -> 58 items
+2026-11-05 18:41:31,584 INFO source github             -> 20 items
+2026-11-05 18:41:31,586 INFO candidates: 210 (stale dropped 94, new 70)
+2026-11-05 18:42:38,607 INFO llm judged 70/70 (calls=9)
+2026-11-05 18:42:50,218 WARNING snapshot https://thezvi.wordpress.com/2026/11/05/ai-193-progress-may-dramatically-accelerate/: blocked or empty page
+2026-11-05 18:45:16,837 INFO run done: {"at": "2026-11-05T18:40:50+00:00", "slot": "morning", "candidates": 210, "new": 70, "stale": 94, "judged": 70, "selected": 21, "mirrored": 20, "by_category": {"资讯": 12, "观点": 2, "技术": 4, "项目": 2, "论文": 1}, "by_source": {"HF Daily Papers": 29, "arXiv 新论文": 58, "Hacker News": 7, "OpenAI": 6, "量子位": 9, "极客公园": 5, "IT之家": 10, "爱范儿": 12, "少数派": 2, "雷峰网": 16, "钛媒体": 4, "InfoQ 中文": 15, "Nathan Lambert": 1, "Latent Space": 2, "Stratechery": 2, "SemiAnalysis": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "Timothy B. Lee": 1, "Hugging Face Blog": 2, "Google Research": 2, "METR": 2, "Google DeepMind": 1, "NVIDIA": 4, "Mistral": 1, "GitHub Trending": 9, "GitHub 新项目": 11}, "llm": true, "translated": 0}
