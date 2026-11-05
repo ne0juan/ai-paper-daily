@@ -1,0 +1,1280 @@
+{
+ "date": "2026-11-06",
+ "items": [
+  {
+   "id": "web-468060cc6252",
+   "kind": "article",
+   "title": "Review of the \"Risks from automated R&D\" section in Anthropic's Risk Report (August 2026)",
+   "url": "https://metr.org/blog/2026-11-05-rd-section-anthropic-risk-report-august-2026-review/",
+   "pdf_url": "",
+   "abstract": "Redaction summary: As part of this assessment, Anthropic had rights to redact any non-public information in this post. Per our approach to transparency , we had the right to disclose if Anthropic exercised redaction rights, and whether or not any of our findings depended significantly on redacted information. All redactions that were important to our conclusions are described in the report below. Executive summary We agree with Anthropic that catastrophic risks from July 15th models were low, but we think it is plausible that they had crossed their early warning threshold at the time. METR reviewed the “Risks from automated R&D” section of Anthropic’s public August 2026 Risk Report . 1 We conducted this review as part of a high-access assessment of AI R&D acceleration, in which Anthropic shared a private version of the Risk Report along with extensive other non-public data. Alongside this review, we are publishing a holistic assessment of AI R&D acceleration at Anthropic . This was conducted by the same METR employees as this Risk Report Review. Overall, we agree with Anthropic that by July 15th, internally deployed models posed low risk of directly automating R&D in key domains or causing acute catastrophic risks from acceleration of capabilities progress. However, the report’s claim that they had not crossed their early warning thresholds relies on contestable judgment calls that aren’t communicated clearly in the public report. While both METR’s researchers on this project",
+   "authors": [
+    "METR"
+   ],
+   "orgs": [
+    "METR"
+   ],
+   "published": "2026-11-05T08:00:00+00:00",
+   "sources": [
+    {
+     "name": "METR",
+     "authority": 0.85,
+     "url": "https://metr.org/blog/2026-11-05-rd-section-anthropic-risk-report-august-2026-review/",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "前沿模型能力评测机构",
+   "title_zh": "METR 复核 Anthropic 风险报告：自动化研发风险判断存分歧",
+   "summary_zh": "METR 审查 Anthropic 2026 年 8 月风险报告「自动化研发风险」章节，认同其模型灾难性风险低，但认为其「未越过预警阈值」的结论依赖有争议的判断。",
+   "highlights_zh": [
+    "METR 获准访问 Anthropic 非公开数据，对风险报告做高权限独立复核",
+    "双方一致认为 7 月 15 日内部部署模型直接自动化研发的风险较低",
+    "分歧点在于是否已触及早期预警阈值，METR 认为判断依据可商榷"
+   ],
+   "why_zh": "了解前沿实验室风险评估与外部审计的真实分歧点。",
+   "tags": [
+    "对齐与安全",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-11-06",
+   "slot": "morning",
+   "selected_at": "2026-11-05T18:40:50+00:00",
+   "mirror_pdf": "pdf/web-468060cc6252.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://metr.org/blog/2026-11-05-rd-section-anthropic-risk-report-august-2026-review/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-419825f7f3a6",
+   "kind": "article",
+   "title": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026",
+   "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+   "pdf_url": "",
+   "abstract": "Redaction summary: As part of this assessment, Anthropic had rights to redact any non-public information in this post. Per our approach to transparency , we had the right to disclose if Anthropic exercised redaction rights, and whether or not any of our findings depended significantly on redacted information. While we were able to freely share our highest-level conclusions about risk, Anthropic redacted a majority of the evidence we found most informative for these conclusions. Anthropic described the redactions as “aimed at removing confidential information that could accelerate other AI developers.” 1 Some of these redactions are themselves challenging to describe clearly without revealing sensitive information we have been asked to redact. We share a table of important evidence we were and were not able to discuss given the redactions in our process section below. All redactions that were important for our conclusions are covered by our descriptions in that table or other in-line descriptions in the report below. Much of the redacted evidence we viewed had multiple plausible interpretations, and both METR and Anthropic researchers have significant uncertainty about how to synthesize the evidence into a holistic picture. This makes it hard for the public to judge this evidence themselves, reconcile it with evidence from other sources, and come to their own conclusions (i.e. this report does not achieve ‘transparency about evidence’ ). As a consequence, the public has to rel",
+   "authors": [
+    "METR"
+   ],
+   "orgs": [
+    "METR"
+   ],
+   "published": "2026-11-05T08:00:00+00:00",
+   "sources": [
+    {
+     "name": "METR",
+     "authority": 0.85,
+     "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "前沿模型能力评测机构",
+   "title_zh": "METR 独立评估 Anthropic 的 AI 研发加速",
+   "summary_zh": "METR 对 Anthropic 2026 年 10 月的 AI 研发加速做独立评估，但大量关键证据被 Anthropic 以「防止加速其他开发者」为由删改，公众难以自行判断。",
+   "highlights_zh": [
+    "Anthropic 删改了 METR 认为最具信息量的多数证据",
+    "双方研究者对证据如何综合成整体图景均存在显著不确定性",
+    "METR 以表格说明哪些证据可披露、哪些不可披露"
+   ],
+   "why_zh": "揭示前沿模型外部评估中透明度与保密的现实张力。",
+   "tags": [
+    "对齐与安全",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-11-06",
+   "slot": "morning",
+   "selected_at": "2026-11-05T18:40:50+00:00",
+   "mirror_pdf": "pdf/web-419825f7f3a6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e10fbb8fd4ad",
+   "kind": "article",
+   "title": "AI #193: Progress May Dramatically Accelerate",
+   "url": "https://thezvi.wordpress.com/2026/11/05/ai-193-progress-may-dramatically-accelerate/",
+   "pdf_url": "",
+   "abstract": "Anthropic is warning us. Its modified S-1 now says that ‘we may imminently meet our Responsible Scaling Policy’s definition of ‘dramatically accelerated progress attributable to AI.’ That is a highly scary sentence to have a company put in its S-1. … Continue reading →",
+   "authors": [
+    "TheZvi"
+   ],
+   "orgs": [
+    "Zvi Mowshowitz"
+   ],
+   "published": "2026-11-05T18:38:02+00:00",
+   "sources": [
+    {
+     "name": "Zvi Mowshowitz",
+     "authority": 0.75,
+     "url": "https://thezvi.wordpress.com/2026/11/05/ai-193-progress-may-dramatically-accelerate/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 趋势评论员，每周 AI 综述",
+   "title_zh": "Zvi：Anthropic 警告进展可能急剧加速",
+   "summary_zh": "Zvi 认为 Anthropic 修改后的 S-1 中写入「可能即将达到负责任扩展政策所定义的、由 AI 导致的进展急剧加速」，是一句极令人警惕的表述。",
+   "highlights_zh": [
+    "Anthropic 在 S-1 文件中主动提示可能触及 RSP 的「急剧加速」定义",
+    "评论者视其为对 AI 自我加速风险的公司级正式预警",
+    "值得关注 RSP 阈值触发后的模型部署与安全承诺变化"
+   ],
+   "why_zh": "从公司披露文件捕捉前沿实验室对自我加速风险的官方口径。",
+   "tags": [
+    "对齐与安全",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-11-06",
+   "slot": "morning",
+   "selected_at": "2026-11-05T18:40:50+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://thezvi.wordpress.com/2026/11/05/ai-193-progress-may-dramatically-accelerate/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-941fec270e65",
+   "kind": "article",
+   "title": "This robotics concept helps explain the jaggedness of frontier capabilities",
+   "url": "https://www.understandingai.org/p/this-robotics-concept-helps-explain",
+   "pdf_url": "",
+   "abstract": "Sim-to-real gaps are everywhere.",
+   "authors": [
+    "Timothy B. Lee"
+   ],
+   "orgs": [
+    "Timothy B. Lee"
+   ],
+   "published": "2026-11-05T15:16:59+00:00",
+   "sources": [
+    {
+     "name": "Timothy B. Lee",
+     "authority": 0.75,
+     "url": "https://www.understandingai.org/p/this-robotics-concept-helps-explain",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "科技记者，《Understanding AI》作者",
+   "title_zh": "机器人概念解释前沿能力的「锯齿状」",
+   "summary_zh": "Timothy B. Lee 借机器人仿真到现实的落差（sim-to-real gap），解释前沿 AI 能力为何呈现参差不齐的锯齿状分布。",
+   "highlights_zh": [
+    "仿真环境与真实世界的差距普遍存在，是能力落差的典型来源",
+    "能力锯齿性并非个例，而是前沿系统的结构性特征",
+    "对评估模型真实部署表现有直接启示"
+   ],
+   "why_zh": "用具体案例理解能力评测与真实落地之间的系统性偏差。",
+   "tags": [
+    "机器人",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-11-06",
+   "slot": "morning",
+   "selected_at": "2026-11-05T18:40:50+00:00",
+   "mirror_pdf": "pdf/web-941fec270e65.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.understandingai.org/p/this-robotics-concept-helps-explain"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1deb4fc409b2",
+   "kind": "article",
+   "title": "91% ≈ 0%？谷歌最新研究，戳破工程 Agent 的高正确率泡沫",
+   "url": "https://www.leiphone.com/category/ai/YZ0bP2vh94KY45RG.html",
+   "pdf_url": "",
+   "abstract": "41.3% 的设计项跨过安全门槛，复杂工程仍困于约束耦合。 作者丨 郑佳美 岑 峰 编辑丨岑 峰 在工程世界里，91% 的正确，有时和 0% 的交付能力没有区别。 一条电缆桥架在机房顶部穿过消防管线，就能让几十页正确的计算书失去交付价值。载流量算对了，电压降符合要求，设备选型也有依据，但进入三维空间后，几套系统争夺同一段净空，工程师只能退回方案。 AI Agent 能快速完成局部计算，工程项目却不会按计算题的边界运转：一处调整牵动另一处，刚核验过的结果也可能随修订失效。 Google 与 Mercor 近日发布的 Physical-Engineering's Last Exam（PLE），以 85 项机械、电气、土木与结构工程任务量化了这种落差。 在 56 项隐藏测试中，Claude Opus 5.5 搭配 Claude Code 得分 48.3%，而在共同创作任务中，它平均满足 91% 的单项约束，只有 41.3% 的交付设计项满足全部硬性安全与可行性要求。 更棘手的是，剩下的 9% 往往无法靠继续提高模型的计算能力解决。因为工程设计中的要求彼此关联，解决一个问题，可能又会产生新的问题。 PLE 的技术设计恰好揭示了这一困境：当局部能力已经足够强，工程 Agent 究竟还缺少什么？ 01 工程 Agent 正在遭遇可行域瓶颈 此前很多 Agent 评测采用逐项累积分数的方式，只要完成更多要求，就能取得更高评价。这适合衡量知识理解和单点执行能力，却会掩盖工程设计中的一类关键失败：模型可能满足了绝大多数要求，但剩下一条恰好决定方案能否投入使用。 PLE 在 41 项人机共同创作任务中，将工程约束与设计优化放进同一套评价体系。其中 37 项采用约束评分，在统一评分机制下，40% 的评分空间取决于单项检查通过比例，另外 60% 则与成本或性能优化有关。不过，优化部分存在一个前提：全部硬性安全与可行性约束必须通过。 研究团队将其称为硬约束门控（Hard-Constraint Gating）。 这个机制有一处关键设计。即使某个方案能够显著降低材料费用，只要违反了一项硬约束，就无法获得成本优化部分的分数。系统仍然记录它已经完成的检查，但不会允许经济收益抵消工程缺陷。 PLE 同时设置了合规但未经充分优化的基线方案，以及合规成本的下界。前者用于判断 Agent 是否产生了实际优化收益，后者则为成本改善提供衡量尺度。这样，模型既不能通过选用过量设备轻松满足规范，也无法靠牺牲可行性获得漂亮的成本数字。 这种评分方式让一个长期存在的问题变得清晰：工程设计中的优化空间受到约束限制，并且约束之间往往存在联系。 例如，在冷却系统设计中，管径决定水力阻力，水力阻力影响水泵工作点，而实际流量又决定换热能力。Agent 如果只根据材料成本缩小管径，后续可能需要更高扬程的水泵，原本节省的费用反而转移到设备和运行能耗上。 工程上把所有约束同时成立的设计范围称为可行域。它包含连续变化的参数，也受到设备型号、标准尺寸等离散条件限制。模型每修改一个变量，其他参数能够选择的范围便可能发生变化。 这给 Agent 带来一种与普通推理不同的要求。生成候选方案之后，还需要判断当前哪些条件已经接近允许边界，以及下一次修改会影响哪些约束。工程优化中，这些限制进一步调整空间的条件通常被称为活跃约束。 PLE 没有直接为 Agent 提供可行域搜索算法，但硬约束门控让这种能力缺口可以被测量。91% 的单项约束满足比例说明，模型已经能够处理大部分局部要求，剩余困难集中在多个条件共同成立，以及满足条件后继续",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-05T05:51:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/YZ0bP2vh94KY45RG.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌新基准戳破工程Agent高正确率泡沫",
+   "summary_zh": "谷歌与Mercor发布PLE工程基准，Claude Opus 5.5搭配Claude Code在隐藏测试仅得48.3%，单项约束满足率91%但全约束交付仅41.3%，揭示工程Agent的可行域瓶颈。",
+   "highlights_zh": [
+    "PLE覆盖85项机械、电气、土木与结构工程任务，56项为隐藏测试",
+    "提出硬约束门控机制：违反任一安全约束即无法获得成本优化分",
+    "核心发现：剩余9%的失败源于约束耦合，无法靠提升模型算力解决"
+   ],
+   "why_zh": "做工程类Agent或评测的人必读，理解为何高正确率不等于可交付。",
+   "tags": [
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-06",
+   "slot": "morning",
+   "selected_at": "2026-11-05T18:40:50+00:00",
+   "mirror_pdf": "pdf/web-1deb4fc409b2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/YZ0bP2vh94KY45RG.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9d3008b9abee",
+   "kind": "article",
+   "title": "DeepSeek Harness：日活跃用户达 154 万、日消耗 Token 约 92 万亿，将建设官方插件市场",
+   "url": "https://www.ithome.com/1/023/011.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 5 日消息，DeepSeek Harness 官方今晚公布了 DeepSeek Harness 产品与社区的进展，并介绍了面向插件作者的支持计划。 8 月 13 日，DeepSeek Harness v0.1 版本上线；9 月 29 日，DeepSeek Harness 桌面端正式发布。截至 11 月 4 日，以使用官方 API 的用户为统计范围， DeepSeek Harness 日活跃用户已达 154 万，日消耗 Token 约 92 万亿 。 IT之家获悉，DeepSeek Harness 发布至今，第三方插件数量已增至约 3.5 万个，约 60% 的活跃用户制作或安装了至少一款第三方插件。 官方表示，将会进一步提升插件 API 的稳定性与兼容性，完善插件安全机制， 并建设官方插件市场 ，让插件作者更方便地上传插件、用户更方便地找到自己所需插件。 同时，DeepSeek Harness 也正在 筹备面向插件作者的支持计划 ，通过 Token 激励、技术交流与作品推荐，支持新想法的探索与已有作品的完善。具体的支持方式，将结合社区的实际需求与反馈逐步完善。 此外，官方也欢迎创业团队和企业通过 DeepSeek Harness 插件接入产品、服务与专业能力，探索合作可能。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-05T14:48:49+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/023/011.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek Harness 日活 154 万，将建官方插件市场",
+   "summary_zh": "DeepSeek Harness 公布数据：日活 154 万、日耗 Token 约 92 万亿，第三方插件达 3.5 万个，将建官方插件市场并推作者激励计划。",
+   "highlights_zh": [
+    "日消耗 Token 约 92 万亿，规模可观",
+    "约 60% 活跃用户制作或安装过第三方插件",
+    "官方将提升插件 API 稳定性与安全机制，并筹备 Token 激励"
+   ],
+   "why_zh": "智能体 harness 生态规模化的关键信号，插件市场或成新分发入口。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-06",
+   "slot": "morning",
+   "selected_at": "2026-11-05T18:40:50+00:00",
+   "mirror_pdf": "pdf/web-9d3008b9abee.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/023/011.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.06856",
+   "kind": "paper",
+   "title": "LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis",
+   "url": "https://arxiv.org/abs/2611.06856",
+   "pdf_url": "https://arxiv.org/pdf/2611.06856",
+   "abstract": "We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age of agent-driven image generation. The task requires retrieving dispersed visual evidence, rejecting distractors, binding entities and relations, and composing one coherent final image from multiple references. LongBanana contains 90 carefully designed tasks organized by a 3-by-3 taxonomy; each task includes about 32 reference images, 20 constraints, and 50 evaluation items, yielding 4,670 expert-specified atomic evaluation items in total. Its graph-grounded evaluation design instantiates each task with reference images and an entity-relation graph, then converts node, edge, and whole-graph obligations into checklist items for Content Fidelity, Relational Binding, and Global Constraint Satisfaction. Reviewed expert labels include a 15% double-labeled subset with 89.4% exact agreement and 0.83 quadratic weighted kappa. We further introduce LongBanana-Gen, an agent-harness framework for long-horizon image generation; experiments show that minimal agent harnesses improve over direct generation, while a ReAct-Plan-Exec-Reflect (RPR) workflow yields harness-dependent gains by strengthening evidence grounding and repair. Together, LongBanana provides an auditable testbed for measuring dense visual evidence use and a shared target for developing stronger agent-driven image-generation systems. Code and data are available at the project page: https://long-banana.com/.",
+   "authors": [
+    "Haoxiang Cao",
+    "Yuxuan Zhang",
+    "Penghui Du",
+    "Bo Li",
+    "Jiajiong Cao",
+    "Yingying Fan",
+    "Zimeng Wu",
+    "Yifu Luo",
+    "Mingzhe Zheng",
+    "Junwen Miao",
+    "Huaisong Zhang",
+    "Yang Yao",
+    "Yu Wang",
+    "Dongfu Jiang",
+    "Ping Nie",
+    "Wenhu Chen",
+    "Chaoqun Wang",
+    "Changqian Yu",
+    "Kelsey R. Allen"
+   ],
+   "orgs": [],
+   "published": "2026-11-04T18:11:56Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.06856",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "LongBanana：长上下文多参考图像合成基准",
+   "summary_zh": "提出首个专家设计验证的长上下文多参考图像合成基准，90个任务含约32张参考图与20条约束，并给出智能体脚手架LongBanana-Gen，实验显示最小脚手架即优于直接生成。",
+   "highlights_zh": [
+    "图结构评测拆解为4670条原子检查项",
+    "15%双标子集一致率89.4%",
+    "RPR工作流强化证据接地与修复"
+   ],
+   "why_zh": "为智能体驱动的图像生成提供可审计评测与脚手架范式。",
+   "tags": [
+    "多模态",
+    "数据与评测",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-06",
+   "slot": "morning",
+   "selected_at": "2026-11-05T18:40:50+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.06856.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.06856"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.06856"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.06856"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.06856"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.06856"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.06856"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.06854",
+   "kind": "paper",
+   "title": "Visual Token Routing: Learning to keep tokens that matter",
+   "url": "https://arxiv.org/abs/2611.06854",
+   "pdf_url": "https://arxiv.org/pdf/2611.06854",
+   "abstract": "Computer-use agents (CUAs) have recently achieved superhuman performance on several long-horizon benchmarks. However, their computational cost limits their use in long-horizon tasks and real-time domains such as video games. A key bottleneck is representing each screenshot as thousands of visual tokens, which accumulate into long contexts as agents reason over extended interaction histories. We observe that most of these visual tokens are either semantically irrelevant to the agent's next action or temporally redundant across screenshots. Building on this observation, we introduce Visual Token Routing (VTR), a joint training framework for learning sparse visual representations that preserve the information needed for action prediction. In VTR, we train the vision-language model together with a lightweight spatio-temporal router that examines each image region in the current and previous screenshots and decides whether its visual token enters the language model. We optimize the router using an adaptive loss to keep the number of visual tokens as small as possible while minimizing performance degradation. With just 2,000 training steps, VTR matches the performance of the full-resolution model on OSWorld, CUA-World, and video game action prediction, while using 2.5-5.8x fewer visual tokens. These savings reduce inference cost by up to 3.3x and speed up prefill by up to 2.9x. VTR also outperforms lowering the image resolution and other baselines for dropping tokens, by up to 12.8 points on OSWorld. Overall, VTR enables computer-use agents to process only the visual tokens they need, allowing them to be used in long-horizon tasks and real-time domains at a fraction of the computational cost. Code and models are available at https://pranjal2041.github.io/vtr",
+   "authors": [
+    "Pranjal Aggarwal",
+    "Sean Welleck"
+   ],
+   "orgs": [],
+   "published": "2026-11-04T18:10:33Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.06854",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "视觉Token路由：只保留重要的Token",
+   "summary_zh": "针对计算机使用智能体截图Token过多的问题，联合训练VLM与轻量时空路由器决定哪些视觉Token进入语言模型，仅2000步训练即在OSWorld等基准持平全分辨率模型，视觉Token减少2.5-5.8倍。",
+   "highlights_zh": [
+    "时空路由器判断图像区域是否保留",
+    "自适应损失平衡稀疏度与性能",
+    "推理成本降3.3倍、预填充提速2.9倍"
+   ],
+   "why_zh": "长程智能体降本增效的实用训练方法，工程价值明确。",
+   "tags": [
+    "效率与系统",
+    "智能体",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-06",
+   "slot": "morning",
+   "selected_at": "2026-11-05T18:40:50+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.06854.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.06854"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.06854"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.06854"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.06854"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.06854"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.06854"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.06828",
+   "kind": "paper",
+   "title": "Systolic Linear Attention: Co-Designing Tile-Grouped Gated Delta Attention for TPUs",
+   "url": "https://arxiv.org/abs/2611.06828",
+   "pdf_url": "https://arxiv.org/pdf/2611.06828",
+   "abstract": "Gated-delta linear attention layers such as Gated DeltaNet (GDN), Kimi Delta Attention (KDA), and GDN-2 are tuned for GPUs, where small tensor-core tiles and fast vector registers make per-channel decay rescaling and sequential in-block solves cheap. On Google TPUs, which concentrate compute in wide $256 \\times 256$ systolic matrix units backed by a slower vector unit, porting these layers directly leaves half of each matrix tile empty and bottlenecks on vector operations. We present \\textbf{Systolic Linear Attention (SLA)}, which reshapes gated delta attention around the matrix unit by widening keys to $256$ with grouped value heads, grouping decay gates into four $64$-channel tiles, and computing the chunk solve entirely with block matrix products in a single fused kernel. On TPU v7x, a full \\texttt{SLA-R4} layer runs $1.6\\times$--$2.5\\times$ faster than the open-source Tokamax KDA kernel ($1.4\\times$--$2.4\\times$ with exact chunk inversion), driven primarily by head sharing and kernel fusion. Across a $2{,}048$-chip TPU v7x pre-training study of sparse Mixture-of-Experts (MoE) models from $6.5\\text{B}$ to $63.1\\text{B}$ parameters, SLA trains $11\\%$--$24\\%$ faster than KDA at similar perplexity, and reaches slightly lower perplexity than KDA in smaller matched-seed runs.",
+   "authors": [
+    "Gagik Amirkhanyan",
+    "Nuojin Cheng"
+   ],
+   "orgs": [],
+   "published": "2026-11-04T17:42:58Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.06828",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "面向TPU的脉动线性注意力协同设计",
+   "summary_zh": "针对TPU宽矩阵单元重构门控delta线性注意力，单层提速1.6-2.5倍，MoE预训练端到端快11%-24%且困惑度相当。",
+   "highlights_zh": [
+    "将key拓宽至256并分组value头，把衰减门聚成四个64通道块以填满矩阵单元",
+    "块求解全部用块矩阵乘在单一融合核内完成，消除向量单元瓶颈",
+    "2048芯片TPU v7x上6.5B-63.1B MoE预训练验证，同困惑度下训练更快"
+   ],
+   "why_zh": "线性注意力在非GPU硬件上的落地优化，对大规模训练成本有直接意义。",
+   "tags": [
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-06",
+   "slot": "morning",
+   "selected_at": "2026-11-05T18:40:50+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.06828.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.06828"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.06828"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.06828"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.06828"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.06828"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.06828"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9490666391e9",
+   "kind": "article",
+   "title": "Thysrael/Horizon",
+   "url": "https://github.com/Thysrael/Horizon",
+   "pdf_url": "",
+   "abstract": "Star Thysrael / Horizon 📡 Your own AI-powered news radar. Generates daily briefings in English & Chinese. | 用 AI 构建你专属的新闻雷达",
+   "authors": [],
+   "orgs": [
+    "Thysrael"
+   ],
+   "published": "2026-11-05T18:40:50+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/Thysrael/Horizon",
+     "signal": "★ 今日 +540 · Python",
+     "metric": 540
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Horizon：自建 AI 新闻雷达，每日双语简报",
+   "summary_zh": "开源项目用 AI 抓取并筛选新闻，自动生成中英双语每日简报，适合自建信息流。",
+   "highlights_zh": [
+    "Python 实现，可本地部署",
+    "支持中英双语简报输出",
+    "可自定义新闻源与筛选逻辑"
+   ],
+   "why_zh": "如果你在做信息聚合或每日简报，可用它快速搭一套 AI 筛选管线",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5981,
+   "score_llm": 6.0,
+   "score": 0.5992,
+   "date": "2026-11-06",
+   "slot": "morning",
+   "selected_at": "2026-11-05T18:40:50+00:00",
+   "mirror_pdf": "pdf/web-9490666391e9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/Thysrael/Horizon"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-353337e7530e",
+   "kind": "article",
+   "title": "Claude Code 产品负责人Cut Wu 官宣加入 OpenAI",
+   "url": "https://www.infoq.cn/article/cDERcarozbrsCBNs5sWM?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "李冬梅"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-05T16:53:21+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/cDERcarozbrsCBNs5sWM?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Claude Code 产品负责人跳槽 OpenAI",
+   "summary_zh": "Claude Code 产品负责人 Cut Wu 宣布加入 OpenAI，反映头部 AI 公司在编程智能体产品线上的抢人大战。",
+   "highlights_zh": [
+    "Claude Code 是 Anthropic 增长最快的开发者产品之一",
+    "核心产品负责人流失可能影响其后续路线",
+    "OpenAI 持续加码编程智能体方向"
+   ],
+   "why_zh": "编程智能体是当前竞争最激烈的赛道，人事变动预示产品格局变化。",
+   "tags": [
+    "智能体",
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-06",
+   "slot": "morning",
+   "selected_at": "2026-11-05T18:40:50+00:00",
+   "mirror_pdf": "pdf/web-353337e7530e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/cDERcarozbrsCBNs5sWM?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ca95c893b480",
+   "kind": "article",
+   "title": "被网站“断粮”，Anthropic 首次掏钱买新闻内容授权",
+   "url": "https://www.ithome.com/1/023/015.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 5 日消息，Anthropic 在美国中期选举前夕，与一家新闻出版机构达成了首份内容授权协议。 据《Adweek》援引两名知情人士的消息，Anthropic 此次的合作伙伴是美联社（Associated Press，AP）。根据协议，Claude 聊天机器人可以在美国中期选举之夜实时展示美联社的选举结果数据，并注明信息来源。双方没有披露协议的财务条款及有效期限。 IT之家注意到，此前 Anthropic 一直拒绝与新闻出版商达成此类内容授权合作，认为通过网络爬虫抓取出版商内容的行为符合合理使用（Fair Use）原则，在法律上是允许的。 相比之下，竞争对手 OpenAI 已经与十多家媒体机构达成类似协议，合作伙伴包括阿克塞尔 · 施普林格集团（Axel Springer）、新闻集团（News Corp.）和《大西洋月刊》（The Atlantic）等。 不过，由于无法获取新闻出版商提供的最新内容，Claude 在回答具有时效性的问题时受到很大限制。为了迫使 Anthropic 坐到谈判桌前，一些出版商此前已主动屏蔽该公司的网络爬虫，阻止其抓取网站内容。 值得一提的是，美联社也是谷歌和 OpenAI 最早达成内容授权合作的媒体机构。 目前，Anthropic 正接近上市。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-05T15:11:49+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/023/015.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "被出版商断粮后，Anthropic 首签新闻内容授权",
+   "summary_zh": "Anthropic 与美联社达成首份内容授权协议，Claude 可实时展示选举结果数据；此前其坚持爬虫属合理使用，遭出版商屏蔽。",
+   "highlights_zh": [
+    "首份授权协议，标志数据获取策略转向",
+    "出版商屏蔽爬虫成为谈判筹码",
+    "OpenAI 已签十余家媒体，Anthropic 明显落后"
+   ],
+   "why_zh": "AI 公司与内容方的授权博弈，直接影响模型时效性数据来源。",
+   "tags": [
+    "产品与行业",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-06",
+   "slot": "morning",
+   "selected_at": "2026-11-05T18:40:50+00:00",
+   "mirror_pdf": "pdf/web-ca95c893b480.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/023/015.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.06724",
+   "kind": "paper",
+   "title": "Dexterous Robotic Hands in the Foundation-Model Era: A Full-Stack Survey of Hardware, Data, Cross-Embodiment Transfer, Learning, and Evaluation",
+   "url": "https://arxiv.org/abs/2611.06724",
+   "pdf_url": "https://arxiv.org/pdf/2611.06724",
+   "abstract": "Dexterous robotic hands are increasingly coupled to large-scale human data and foundation models, yet progress in hardware, representation learning and evaluation is often assessed separately. This survey reviews work from January 2024 to early November 2026, with earlier studies included to establish technical lineages. We organize the literature into five interdependent layers: hardware; data collection and curation; cross-embodiment transfer; learning and foundation models; and evaluation and applications. Human hand-object understanding and tactile sensing provide two cross-cutting perspectives. A system-level architecture, comparative tables and five case analyses connect design choices across these layers. We distinguish within-study experimental comparisons from heterogeneous corpus statistics, vendor specifications and company-reported results. Three conclusions emerge. First, the value of human data depends on kinematic, visual and contact alignment, not recording volume alone. Second, shared action representations and foundation policies do not remove embodiment-specific constraints on force, latency and contact. Third, task completion is insufficient to establish physical correctness or deployment readiness. Evidence remains limited for zero-shot transfer of contact-rich skills between morphologically different hands, long-duration reliability, and cross-sensor tactile generalization. We identify eleven open problems and propose reporting interfaces and controlled comparisons that can make full-stack progress more measurable. The review is a structured narrative synthesis rather than a pooled performance ranking or an exhaustive systematic review.",
+   "authors": [
+    "Ji Pei"
+   ],
+   "orgs": [],
+   "published": "2026-11-04T16:13:29Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.06724",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "论文",
+   "lang": "en",
+   "who": "",
+   "title_zh": "基础模型时代的灵巧手全栈综述",
+   "summary_zh": "综述2024至2026年灵巧手硬件、数据、跨具身迁移、学习与评测五层进展，指出人类数据价值取决于对齐而非体量。",
+   "highlights_zh": [
+    "人类数据价值取决于运动学、视觉与接触对齐，而非录制量",
+    "共享动作表示与基础策略无法消除力、延迟、接触的具身约束",
+    "任务完成不足以证明物理正确性或部署就绪，零样本接触技能迁移证据仍有限"
+   ],
+   "why_zh": "系统梳理具身智能落地瓶颈，适合机器人方向从业者。",
+   "tags": [
+    "机器人",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 7.0,
+   "score": 0.548,
+   "date": "2026-11-06",
+   "slot": "morning",
+   "selected_at": "2026-11-05T18:40:50+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.06724.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.06724"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.06724"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.06724"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.06724"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.06724"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.06724"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a4602fb09a1c",
+   "kind": "article",
+   "title": "对话星尘智能来杰：机器人的「iPhone 4 时刻」还没到，但可能比想象中更近丨多样性公司",
+   "url": "https://www.ifanr.com/1687805?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "机器人是帮助人的，不是替代人的。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "刘学文"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-11-05T06:29:09+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1687805?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "星尘智能来杰：机器人的iPhone 4时刻还没到",
+   "summary_zh": "星尘智能来杰认为机器人「iPhone 4时刻」尚未到来但可能比想象更近，强调机器人是帮助人而非替代人。",
+   "highlights_zh": [
+    "机器人行业仍处早期，尚未到爆发拐点",
+    "创始人判断拐点可能比预期更近",
+    "定位为辅助人类而非替代"
+   ],
+   "why_zh": "了解具身智能创业者的行业节奏判断。",
+   "tags": [
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-06",
+   "slot": "morning",
+   "selected_at": "2026-11-05T18:40:50+00:00",
+   "mirror_pdf": "pdf/web-a4602fb09a1c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1687805?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2e2ee958cc99",
+   "kind": "article",
+   "title": "派早报：腾讯发布混元 Hy4 正式版，Google 调整 K-12 教育 AI 政策等",
+   "url": "https://sspai.com/post/118498",
+   "pdf_url": "",
+   "abstract": "少数派的近期动态全新设计复古设备鼠标垫上架，会员可使用点数兑换。前往选购iPhone少数派共创配件上新，自由选择保护、充电、线缆和支架组合。欢迎选购你可能错过的文章国行Apple智能上手：这些功能已经 ... 查看全文",
+   "authors": [
+    "少数派编辑部"
+   ],
+   "orgs": [
+    "少数派"
+   ],
+   "published": "2026-11-05T00:16:27+00:00",
+   "sources": [
+    {
+     "name": "少数派",
+     "authority": 0.7,
+     "url": "https://sspai.com/post/118498",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯发布混元Hy4正式版，谷歌调整K-12教育AI政策",
+   "summary_zh": "腾讯混元Hy4正式版发布，谷歌调整K-12教育AI政策，另有国行Apple智能上手等动态汇总。",
+   "highlights_zh": [
+    "腾讯混元Hy4正式版上线",
+    "谷歌调整K-12教育场景AI政策",
+    "国行Apple智能功能实测"
+   ],
+   "why_zh": "快速了解当日AI行业要闻，混元Hy4发布值得关注。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-06",
+   "slot": "morning",
+   "selected_at": "2026-11-05T18:40:50+00:00",
+   "mirror_pdf": "pdf/web-2e2ee958cc99.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://sspai.com/post/118498"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e98864c4ae7d",
+   "kind": "article",
+   "title": "更强的模型之外，ACM MM 2026还在关注什么？",
+   "url": "https://www.leiphone.com/category/private/eQlbsTc2zonGxU4h.html",
+   "pdf_url": "",
+   "abstract": "模型能力的提升，正在与更具体的人、更复杂的环境和更长远的影响结合。 作者丨 张璐 编辑丨张驰 更强的模型、更出色的性能，始终是多媒体研究令人期待的进展。但一场学术会议的吸引力，也来自它能够容纳更丰富的话题。 第 34 届国际多媒体领域顶会 ACM Multimedia ，将在 2026 年 11 月 10 日至 14 日在巴西里约热内卢举行。 今年四位主题演讲嘉宾，尤其值得关注。 他们各自的研究经历与问题意识，体现出了技术前沿与多元视角的交汇。从选择性聆听到具身交互，从 AI 摘要的责任到青少年的网络安全，四位嘉宾把信号处理、人机交互、语言学与社会计算带到同一个舞台，也带来了衡量技术进步的不同尺度。雷峰网 ▎ Elisabeth André：让 AI 参与人与人的交流 德国奥格斯堡大学教授 Elisabeth André 长期研究多模态交互、情感计算、社会信号处理，以及虚拟角色和社交机器人。她关注的信号包括语言、目光、手势和生理数据，这些共同构成了人类交流中，那些难以被文字概括的部分。 在本次演讲中，她将讨论如何让具身 AI 理解并参与具体情境中的互动，涉及辅助沟通、群体讨论和儿童治疗等场景。 这让“多模态”的意义变得鲜活起来。 日常交流里，一个人能否顺利表达，并不完全取决于他有没有把句子说完整。停顿、表情、身体动作，以及其他人是否愿意等待，都可能影响沟通的结果。面对不同的表达习惯和沟通能力，AI 需要学会怎样提供恰当的支持。 ▎ 李海洲：选择性的倾听 香港中文大学（深圳）人工智能学院院长李海洲的研究经历，横跨学术与产业，长期深耕语音和语言技术。他参与过语音产品研发，也持续研究机器如何处理人类复杂的声音世界。 他的演讲以“倾听”为切入口，讨论多人同时说话时的选择性听觉注意，以及人类视听感知对目标说话人提取的启发。 比如在嘈杂的环境中，四周都有谈话声，你却能把注意力放在面前的人身上。对人来说，这往往发生得十分自然；对机器来说，从混合声音中提取目标语音，仍然需要精细的建模。 李海洲参与的相关研究，已经探索了利用嘴唇运动与语音的同步关系，来辅助选择性聆听，也就是视觉能够帮助机器判断该听谁的声音。 这场演讲也让我们重新理解多媒体研究的出发点。人的感知本来就跨越多种感官，注意力又总是带着目标。研究机器如何倾听，也是在研究人怎样从纷繁的信息中，找到对自己有意义的部分。 ▎ Clarisse Sieckenius de Souza：AI 替你读过之后，忽略了什么？ Clarisse Sieckenius de Souza 的学术经历尤其能体现跨学科的价值。 这位巴西里约热内卢天主教大学荣休教授，接受的是翻译、语言和应用语言学训练，后来进入计算机领域，并与学生、合作者共同发展了人机交互中的符号学工程理论。她的研究把语言、意义和沟通带进了对软件系统的理解。 本次演讲中，她将把目光投向 AI 摘要中的“委托阅读”问题：当系统代读原始材料，摘要中的取舍与遗漏应如何接受审查？这一问题也将延伸到视频、音频和多模态内容。 这是一个与每个人紧密相关的问题。越来越多的人会先让 AI 总结文章、整理资料、提炼视频，再决定是否查看原始材料。于是，摘要在帮助我们节省时间的同时，也参与决定了我们会看到什么。 很容易发生的情况是，一段对话里的犹豫、一场讨论中的少数意见，都可能在压缩过程中消失。留下的信息仍然很顺畅，但读的人未必知道自己错过了什么。 ▎ Pamela Wisniewski：让年轻人参与安全设计 Pamela Wisniewski 是国际计算机科学研究所 ICSI 的首席研究",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-05T05:47:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/private/eQlbsTc2zonGxU4h.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "ACM MM 2026 主题演讲关注什么",
+   "summary_zh": "雷峰网梳理 ACM MM 2026 四位主题演讲嘉宾：具身多模态交互、选择性听觉、AI 摘要的取舍责任与青少年网络安全，指向模型之外的人与环境议题。",
+   "highlights_zh": [
+    "Elisabeth André 讨论具身 AI 在辅助沟通、群体讨论与儿童治疗中的情境交互",
+    "李海洲以选择性听觉切入嘈杂环境下的目标说话人提取，视觉可辅助机器判断该听谁",
+    "de Souza 提出 AI 摘要的「委托阅读」审查问题，压缩过程可能抹掉犹豫与少数意见"
+   ],
+   "why_zh": "了解顶会风向从纯性能转向人机交互与社会影响，适合把握多模态研究议题走向。",
+   "tags": [
+    "多模态",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-06",
+   "slot": "morning",
+   "selected_at": "2026-11-05T18:40:50+00:00",
+   "mirror_pdf": "pdf/web-e98864c4ae7d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/private/eQlbsTc2zonGxU4h.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-357c898fc340",
+   "kind": "article",
+   "title": "子公司把母公司告了！安世半导体起诉闻泰科技，索赔134亿元；中兴手机账号主体变更，将调整为上海申启纪元；腾讯混元正式发布Hy4",
+   "url": "https://www.leiphone.com/category/zaobao/uojoiQ2Owilfvr8B.html",
+   "pdf_url": "",
+   "abstract": "要闻提示 1.子公司把母公司告了！安世半导体索赔134亿元，闻泰科技强硬回击 2.中兴手机账号主体变更，将调整为上海申启纪元 3.腾讯混元发布最新一代大语言模型Hy4，跻身最强开源模型队列 4.iPhone系统天气Bug显示下周五-32℃，苹果客服致歉：系统端口问题 5.京东本地生活业务负责人郭庆离职 6.蔚来李斌：自动驾驶不应让出租车和网约车司机失去工作 7.特斯拉为进欧盟妥协！放弃FSD名称，还把超速上线限制在10% 8.SpaceX与高通达成移动通信合作！天地网络互补 今日头条 子公司把母公司告了！安世半导体索赔134亿元，闻泰科技强硬回击 11月4日消息，安世半导体与其母公司闻泰科技之间的控制权争端，正式从董事会博弈升级为跨境法律诉讼。11月3日，安世半导体宣布已在荷兰阿姆斯特丹地方法院对闻泰科技及其创始人张学政提起诉讼，要求赔偿营运损失。闻泰科技随后披露，安世方面的索赔金额合计高达20亿美元（约134.36亿元）。 安世半导体的指控集中在两个层面。其一，安世中国与安世上海违反了与荷兰公司签订的内部协议，构成违约。其二，被告方在中国另建独立供应链，干扰了安世荷兰的正常运营并形成直接竞争，构成荷兰法律所指的不公平商业行为。安世在声明中称，被告的行为已对公司及业务造成重大损害。 对此，闻泰科技在公告中强硬回应：尚未收到正式依法送达的传票，法院也未正式立案。闻泰科技、张学政以及安世中国、安世上海均不认可安世的全部指控、因果关系主张及索赔金额。若法院正式受理并送达，闻泰科技将聘请海外律师积极应诉。 这场诉讼的根源要追溯到2025年9月。当时荷兰政府以担忧关键技术外流为由介入安世半导体，随后荷兰法院裁定限制了闻泰科技对安世的控制权。尽管闻泰仍是安世的母公司，但已无法对其实施有效管理。安世芯片一度在中国东莞封装后出口受阻，引发汽车行业的芯片短缺。（快科技） 国内资讯 中兴手机账号主体变更，将调整为上海申启纪元 11月4日消息，网友发现，中兴手机微信公众号的主体发生变更，账号主体由中兴通讯股份有限公司变更为上海申启纪元智能终端有限责任公司。这一变化也引发了外界对中兴手机业务后续走向的关注。 公开信息显示，上海申启纪元智能终端有限责任公司由中兴通讯全资持股，董事长为王喜瑜，倪飞任董事。2025 年 9 月 4 日，该公司完成经营范围变更，变更后经营范围包含移动终端设备制造、软件开发、移动通信设备制造等。值得注意的是，今年7月，“努比亚豆包手机大模型”备案单位就是该公司，2026年8月完成努比亚星云AI服务登记。 此前有市场消息称，中兴通讯正与某互联网大厂商谈手机业务合作，方案涉及将中兴手机业务打包出售。相关公司员工称，目前该互联网大厂方面拟出资约80亿元，而中兴方面希望按约400亿元的业务估值推进，双方商谈的最终估值、持股比例及交易方式目前还在沟通阶段。对此，中兴通讯表示“不属实”。（IT之家、快科技） 腾讯混元发布最新一代大语言模型Hy4，跻身最强开源模型队列 11月4日，混元发布最新一代大语言模型Hy4，该模型参数量770B（B为十亿），提升了指令遵循、长文理解、长程智能体能力，将于近期开源模型权重，下一代Hy5模型参数量规模将进一步扩大。混元团队称，Hy4是目前最强的开源模型之一，但与顶尖闭源模型仍存在较大差距。 在ProgramBench、FrontierCode2.0、Agents' Last Exam v1.1等多项基准测试中，Hy4得分超过DeepSeek-V4.1-Flash-1017，部分得分与Kimi K3.1 Pro接近，部分得分超",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-05T02:07:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/zaobao/uojoiQ2Owilfvr8B.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯混元发布 770B 开源模型 Hy4",
+   "summary_zh": "腾讯混元发布 770B 参数大语言模型 Hy4，提升指令遵循、长文理解与长程智能体能力，将于近期开源权重，官方称仍与顶尖闭源模型有差距。",
+   "highlights_zh": [
+    "参数量 770B，主打指令遵循、长文理解与长程智能体能力",
+    "近期开源模型权重，下一代 Hy5 规模将进一步扩大",
+    "混元自评跻身最强开源模型队列，但承认与闭源顶尖仍有差距"
+   ],
+   "why_zh": "国产开源大模型的重要版本更新，可关注其智能体能力与后续开源节奏。",
+   "tags": [
+    "大模型",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-06",
+   "slot": "morning",
+   "selected_at": "2026-11-05T18:40:50+00:00",
+   "mirror_pdf": "pdf/web-357c898fc340.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/zaobao/uojoiQ2Owilfvr8B.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c61dd3c6988b",
+   "kind": "article",
+   "title": "独家 | 腾讯前高级研究员获数千万投资，锚定物理AI接触智能",
+   "url": "https://www.leiphone.com/category/industrynews/30nTa8g0yzQmZGys.html",
+   "pdf_url": "",
+   "abstract": "力合资本、合肥创新投等机构投资，Lux 系列视触觉传感器已实现规模化交付。 作者丨 董子博 编辑丨 张贤 雷峰网·鲸犀独家获悉， 触觉智能企业“灵感机器人”新近完成数千万元天使轮融资 ，投资方包括力合资本、合 肥 创新投 等机 构，治臻咨询担任财务顾问。 雷峰网·鲸犀了解到，公司创始人、 CEO 张雅展博士毕业于港科大机器人专业，曾是腾讯资深 AI 研究员，主导过大规模数据管线及 AI 模型研发 ，后于国家实验室担任研究员、博导，在触觉感知与端到端精细操作模型的领域有多年研究，并在算法与硬件系统上均有落地经验。 相比于触觉感知赛道的其他公司， 灵感机器人入局更早，也有一套自己独创的“稠密力场”技术路线 ——在解算力场的同时，从同一次成像中提取接触区域的几何形态，并形成包含受力、形变、滑移与姿态要素的原生多模态的触觉数据，相较传统“强调几何重建”的方案，在信息密度和维度上均有很大的提升。 在张雅展看来，让触觉真正参与操作，重点就是理解“交互力”——灵感机器人希望通过“稠密力场”路线，提升机器人的触觉感知与力控能力，来整体性地提升任务的执行能力。 除了独特的技术选型，传感器的小型化、感知密度与工程化，也是灵感机器人的重要攻关方向。 2019 年，团队就研发出了厚度 5mm 的超薄视触觉传感器，力场追踪的分辨率达到了每平方 10 万点以上。 如今， 公司发布的 Lux 系列视触觉传感器已经在多个领域实现了规模化落地 ，其具备超高力场分辨率、原生多模态、多维力感知等特性，并且依靠更小的物距与体积，可以适配机械臂、夹爪、灵巧手等硬件。 而在 Lux 之外，灵感机器人还正在电子皮肤、六维力与新型触觉产品上探索，并准备向数采系统、数据管线和触觉智能系统等业务进军。 据悉，公司本轮融资将被用于建设产线与优化量产能力，并进一步进行触觉智能系统的研发。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-04T16:38:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/30nTa8g0yzQmZGys.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "灵感机器人获数千万天使轮融资",
+   "summary_zh": "前腾讯资深研究员张雅展创办的灵感机器人完成数千万元天使轮，主打「稠密力场」视触觉传感器，Lux 系列已规模化交付。",
+   "highlights_zh": [
+    "稠密力场路线从同一次成像提取接触几何与受力、形变、滑移等多模态触觉数据",
+    "2019 年即研发出 5mm 超薄视触觉传感器，力场分辨率每平方厘米超 10 万点",
+    "Lux 系列适配机械臂、夹爪与灵巧手，融资用于产线与触觉智能系统研发"
+   ],
+   "why_zh": "触觉感知是具身智能关键短板，可了解该技术路线的差异化与落地进展。",
+   "tags": [
+    "机器人",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-06",
+   "slot": "morning",
+   "selected_at": "2026-11-05T18:40:50+00:00",
+   "mirror_pdf": "pdf/web-c61dd3c6988b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/30nTa8g0yzQmZGys.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5c5265b7a93c",
+   "kind": "article",
+   "title": "Anthropic 为重要开源项目新增可选安全扫描服务",
+   "url": "https://www.infoq.cn/article/hdmi6FdjpYSEvuMhPOAa?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Matt Saunders"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-04T19:53:34+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/hdmi6FdjpYSEvuMhPOAa?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic 为重要开源项目提供可选安全扫描",
+   "summary_zh": "Anthropic 为重要开源项目新增可选安全扫描服务，帮助维护者发现代码漏洞，属常规安全功能扩展。",
+   "highlights_zh": [
+    "面向开源维护者的可选服务",
+    "聚焦代码安全漏洞扫描",
+    "与 Claude 生态安全能力相关"
+   ],
+   "why_zh": "关注 AI 辅助代码安全与开源生态治理的读者可了解。",
+   "tags": [
+    "对齐与安全",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-06",
+   "slot": "morning",
+   "selected_at": "2026-11-05T18:40:50+00:00",
+   "mirror_pdf": "pdf/web-5c5265b7a93c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/hdmi6FdjpYSEvuMhPOAa?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-655ca8e62e43",
+   "kind": "article",
+   "title": "具身智能，变天了",
+   "url": "https://www.tmtpost.com/8194393.html",
+   "pdf_url": "",
+   "abstract": "数采爆单，具身大脑公司慌了。",
+   "authors": [
+    "定焦One"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-05T10:31:01+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8194393.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "具身智能变天：数采爆单，大脑公司慌了",
+   "summary_zh": "报道称具身智能数据采集订单爆发，而专注「具身大脑」的公司面临商业化压力，行业格局正在调整。",
+   "highlights_zh": [
+    "数据采集环节需求激增",
+    "具身大脑公司承压",
+    "产业链价值分配在变化"
+   ],
+   "why_zh": "关注具身智能商业化路径与产业链分工的读者可读。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-11-06",
+   "slot": "morning",
+   "selected_at": "2026-11-05T18:40:50+00:00",
+   "mirror_pdf": "pdf/web-655ca8e62e43.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8194393.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ffb8bf034024",
+   "kind": "article",
+   "title": "UncensoredLabs/uncensored-ai-api",
+   "url": "https://github.com/UncensoredLabs/uncensored-ai-api",
+   "pdf_url": "",
+   "abstract": "Uncensored AI API and browser chat: DeepSeek and GLM models, streaming, Python and TypeScript examples, pricing and setup guides.",
+   "authors": [],
+   "orgs": [
+    "UncensoredLabs"
+   ],
+   "published": "2026-11-05T18:40:50+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/UncensoredLabs/uncensored-ai-api",
+     "signal": "★ 839（新项目） · JavaScript",
+     "metric": 839
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Uncensored AI API：DeepSeek 与 GLM 无审查接口",
+   "summary_zh": "提供 DeepSeek、GLM 模型的无审查 API 与浏览器聊天，含定价与示例代码。",
+   "highlights_zh": [
+    "封装第三方模型 API",
+    "主打无审查",
+    "提供 Python/TS 示例"
+   ],
+   "why_zh": "属于套壳 API 服务，信息增量低，谨慎参考",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5772,
+   "score_llm": 3.0,
+   "score": 0.4109,
+   "date": "2026-11-06",
+   "slot": "morning",
+   "selected_at": "2026-11-05T18:40:50+00:00",
+   "mirror_pdf": "pdf/web-ffb8bf034024.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/UncensoredLabs/uncensored-ai-api"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "工程Agent评测从单项达标转向全约束交付，真实能力被大幅下修",
+   "why": "谷歌PLE基准显示单项约束满足率91%但全约束交付仅41.3%，隐藏测试仅48.3%。",
+   "refs": [
+    "web-1deb4fc409b2"
+   ]
+  },
+  {
+   "trend": "前沿模型风险治理进入第三方复核阶段，结论分歧公开化",
+   "why": "METR复核Anthropic报告认同灾难风险低，但质疑其预警阈值判断且关键证据被删改。",
+   "refs": [
+    "web-468060cc6252",
+    "web-419825f7f3a6",
+    "web-e10fbb8fd4ad"
+   ]
+  },
+  {
+   "trend": "视觉Token路由成为计算机使用智能体的降本主线",
+   "why": "联合训练路由器仅2000步即在OSWorld持平全分辨率，视觉Token减少2.5-5.8倍。",
+   "refs": [
+    "arxiv-2611.06854"
+   ]
+  },
+  {
+   "trend": "编程智能体竞争从模型能力转向产品人才与插件生态",
+   "why": "Claude Code产品负责人跳槽OpenAI，DeepSeek Harness日活154万并筹建官方插件市场。",
+   "refs": [
+    "web-353337e7530e",
+    "web-9d3008b9abee"
+   ]
+  },
+  {
+   "trend": "具身智能价值重心从「大脑」叙事移向数据采集与硬件交付",
+   "why": "数采订单爆发而具身大脑公司承压，灵巧手综述亦指出人类数据价值取决于对齐。",
+   "refs": [
+    "web-655ca8e62e43",
+    "arxiv-2611.06724",
+    "web-c61dd3c6988b"
+   ]
+  }
+ ]
+}
