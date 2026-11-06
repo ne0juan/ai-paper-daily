@@ -1,12 +1,13 @@
 {
- "updated": "2026-11-06T05:27:18+00:00",
+ "updated": "2026-11-06T12:50:35+00:00",
  "days": [
   {
    "date": "2026-11-06",
-   "count": 42,
+   "count": 63,
    "slots": {
     "morning": 21,
-    "noon": 21
+    "noon": 21,
+    "evening": 21
    }
   },
   {
@@ -385,49 +386,49 @@
    }
   }
  ],
- "total": 2353,
+ "total": 2374,
  "last_run": {
-  "at": "2026-11-06T05:27:18+00:00",
-  "slot": "noon",
-  "candidates": 193,
-  "new": 126,
-  "stale": 20,
+  "at": "2026-11-06T12:50:35+00:00",
+  "slot": "evening",
+  "candidates": 192,
+  "new": 128,
+  "stale": 17,
   "judged": 100,
   "selected": 21,
-  "mirrored": 20,
+  "mirrored": 14,
   "by_category": {
-   "观点": 2,
-   "资讯": 12,
+   "技术": 4,
    "项目": 3,
-   "技术": 4
+   "资讯": 12,
+   "观点": 2
   },
   "by_source": {
-   "HF Daily Papers": 14,
+   "HF Daily Papers": 20,
    "arXiv 新论文": 60,
-   "Hacker News": 7,
-   "OpenAI": 10,
-   "量子位": 9,
-   "极客公园": 5,
-   "IT之家": 13,
-   "爱范儿": 10,
-   "少数派": 4,
-   "钛媒体": 4,
+   "Hacker News": 5,
+   "量子位": 10,
+   "极客公园": 7,
+   "IT之家": 9,
+   "爱范儿": 7,
+   "少数派": 3,
+   "钛媒体": 3,
    "InfoQ 中文": 16,
    "阮一峰": 1,
    "Nathan Lambert": 1,
    "Dwarkesh Patel": 1,
-   "Latent Space": 2,
+   "Latent Space": 3,
    "Stratechery": 2,
    "SemiAnalysis": 1,
    "Zvi Mowshowitz": 1,
    "Timothy B. Lee": 1,
-   "Hugging Face Blog": 3,
+   "Hugging Face Blog": 4,
    "Google Research": 2,
    "METR": 2,
+   "OpenAI": 8,
    "Google DeepMind": 1,
    "NVIDIA": 5,
-   "GitHub Trending": 11,
-   "GitHub 新项目": 9
+   "GitHub Trending": 8,
+   "GitHub 新项目": 12
   },
   "llm": true,
   "translated": 0
