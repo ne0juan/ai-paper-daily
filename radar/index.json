@@ -1,6 +1,13 @@
 {
- "updated": "2026-11-06T12:50:35+00:00",
+ "updated": "2026-11-06T17:53:22+00:00",
  "days": [
+  {
+   "date": "2026-11-07",
+   "count": 21,
+   "slots": {
+    "morning": 21
+   }
+  },
   {
    "date": "2026-11-06",
    "count": 63,
@@ -386,47 +393,48 @@
    }
   }
  ],
- "total": 2374,
+ "total": 2395,
  "last_run": {
-  "at": "2026-11-06T12:50:35+00:00",
-  "slot": "evening",
-  "candidates": 192,
-  "new": 128,
-  "stale": 17,
-  "judged": 100,
+  "at": "2026-11-06T17:53:22+00:00",
+  "slot": "morning",
+  "candidates": 211,
+  "new": 72,
+  "stale": 99,
+  "judged": 72,
   "selected": 21,
-  "mirrored": 14,
+  "mirrored": 21,
   "by_category": {
-   "技术": 4,
+   "资讯": 13,
    "项目": 3,
-   "资讯": 12,
-   "观点": 2
+   "观点": 1,
+   "技术": 4
   },
   "by_source": {
    "HF Daily Papers": 20,
    "arXiv 新论文": 60,
-   "Hacker News": 5,
+   "Hacker News": 6,
    "量子位": 10,
    "极客公园": 7,
-   "IT之家": 9,
-   "爱范儿": 7,
+   "IT之家": 12,
+   "爱范儿": 6,
    "少数派": 3,
+   "雷峰网": 15,
    "钛媒体": 3,
    "InfoQ 中文": 16,
    "阮一峰": 1,
-   "Nathan Lambert": 1,
    "Dwarkesh Patel": 1,
-   "Latent Space": 3,
+   "Latent Space": 4,
    "Stratechery": 2,
    "SemiAnalysis": 1,
+   "Azeem Azhar": 1,
    "Zvi Mowshowitz": 1,
    "Timothy B. Lee": 1,
    "Hugging Face Blog": 4,
    "Google Research": 2,
    "METR": 2,
-   "OpenAI": 8,
+   "OpenAI": 7,
    "Google DeepMind": 1,
-   "NVIDIA": 5,
+   "NVIDIA": 6,
    "GitHub Trending": 8,
    "GitHub 新项目": 12
   },

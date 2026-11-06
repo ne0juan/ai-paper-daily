@@ -1,15 +1,10 @@
-2026-11-06 12:50:35,470 INFO source hf_daily           -> 20 items
-2026-11-06 12:50:35,779 INFO source hackernews         -> 5 items
-2026-11-06 12:52:00,396 WARNING rss 雷峰网 failed: 502 for https://www.leiphone.com/feed
-2026-11-06 12:52:10,559 INFO source rss                -> 88 items
-2026-11-06 12:52:12,002 INFO source html_lists         -> 0 items
-2026-11-06 12:52:12,002 INFO source x                  -> 0 items
-2026-11-06 12:52:12,383 INFO source arxiv_search       -> 60 items
-2026-11-06 12:52:22,987 INFO source github             -> 20 items
-2026-11-06 12:52:22,989 INFO candidates: 192 (stale dropped 17, new 128)
-2026-11-06 12:54:04,161 INFO llm judged 100/100 (calls=13)
-2026-11-06 12:54:05,900 WARNING pdf arxiv-2611.07392: too large (> 25165824 bytes): https://arxiv.org/pdf/2611.07392
-2026-11-06 12:54:07,429 WARNING pdf arxiv-2611.08373: too large (> 25165824 bytes): https://arxiv.org/pdf/2611.08373
-2026-11-06 12:54:38,973 WARNING snapshot https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026: blocked or empty page
-2026-11-06 12:54:50,266 WARNING snapshot https://stratechery.com/2026/sharp-tech-on-video-the-u-s-votes-on-data-centers-implications-for-big-tech-googles-response-to-ai/: blocked or empty page
-2026-11-06 12:57:25,235 INFO run done: {"at": "2026-11-06T12:50:35+00:00", "slot": "evening", "candidates": 192, "new": 128, "stale": 17, "judged": 100, "selected": 21, "mirrored": 14, "by_category": {"技术": 4, "项目": 3, "资讯": 12, "观点": 2}, "by_source": {"HF Daily Papers": 20, "arXiv 新论文": 60, "Hacker News": 5, "量子位": 10, "极客公园": 7, "IT之家": 9, "爱范儿": 7, "少数派": 3, "钛媒体": 3, "InfoQ 中文": 16, "阮一峰": 1, "Nathan Lambert": 1, "Dwarkesh Patel": 1, "Latent Space": 3, "Stratechery": 2, "SemiAnalysis": 1, "Zvi Mowshowitz": 1, "Timothy B. Lee": 1, "Hugging Face Blog": 4, "Google Research": 2, "METR": 2, "OpenAI": 8, "Google DeepMind": 1, "NVIDIA": 5, "GitHub Trending": 8, "GitHub 新项目": 12}, "llm": true, "translated": 0}
+2026-11-06 17:53:22,591 INFO source hf_daily           -> 20 items
+2026-11-06 17:53:22,831 INFO source hackernews         -> 6 items
+2026-11-06 17:54:09,310 INFO source rss                -> 106 items
+2026-11-06 17:54:10,518 INFO source html_lists         -> 0 items
+2026-11-06 17:54:10,518 INFO source x                  -> 0 items
+2026-11-06 17:54:11,160 INFO source arxiv_search       -> 60 items
+2026-11-06 17:54:19,191 INFO source github             -> 20 items
+2026-11-06 17:54:19,193 INFO candidates: 211 (stale dropped 99, new 72)
+2026-11-06 17:55:35,346 INFO llm judged 72/72 (calls=9)
+2026-11-06 17:58:48,986 INFO run done: {"at": "2026-11-06T17:53:22+00:00", "slot": "morning", "candidates": 211, "new": 72, "stale": 99, "judged": 72, "selected": 21, "mirrored": 21, "by_category": {"资讯": 13, "项目": 3, "观点": 1, "技术": 4}, "by_source": {"HF Daily Papers": 20, "arXiv 新论文": 60, "Hacker News": 6, "量子位": 10, "极客公园": 7, "IT之家": 12, "爱范儿": 6, "少数派": 3, "雷峰网": 15, "钛媒体": 3, "InfoQ 中文": 16, "阮一峰": 1, "Dwarkesh Patel": 1, "Latent Space": 4, "Stratechery": 2, "SemiAnalysis": 1, "Azeem Azhar": 1, "Zvi Mowshowitz": 1, "Timothy B. Lee": 1, "Hugging Face Blog": 4, "Google Research": 2, "METR": 2, "OpenAI": 7, "Google DeepMind": 1, "NVIDIA": 6, "GitHub Trending": 8, "GitHub 新项目": 12}, "llm": true, "translated": 0}
