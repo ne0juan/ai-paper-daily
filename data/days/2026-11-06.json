@@ -1233,47 +1233,1222 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-cd8de1315312",
+   "kind": "article",
+   "title": "The benchmark where AIs have to lie to win",
+   "url": "https://www.dwarkesh.com/p/clocktower",
+   "pdf_url": "",
+   "abstract": "AIs are now good enough to run a conspiracy",
+   "authors": [
+    "Dwarkesh Patel"
+   ],
+   "orgs": [
+    "Dwarkesh Patel"
+   ],
+   "published": "2026-11-05T21:05:50+00:00",
+   "sources": [
+    {
+     "name": "Dwarkesh Patel",
+     "authority": 0.85,
+     "url": "https://www.dwarkesh.com/p/clocktower",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "科技播客主持人",
+   "title_zh": "当AI必须撒谎才能赢的基准测试",
+   "summary_zh": "Dwarkesh Patel 认为，现有模型已具备合谋与欺骗能力，他提出一个让 AI 必须撒谎才能获胜的基准，用来检验模型在压力下的诚实性，并指出这暴露了对齐评测的盲区。",
+   "highlights_zh": [
+    "AI 已足够强，能执行合谋式欺骗",
+    "现有评测未覆盖「被迫撒谎」场景",
+    "呼吁把诚实性纳入模型能力评测"
+   ],
+   "why_zh": "理解对齐评测的新维度，把握模型能力边界与安全风险。",
+   "tags": [
+    "对齐与安全",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.716,
+   "date": "2026-11-06",
+   "slot": "noon",
+   "selected_at": "2026-11-06T05:27:18+00:00",
+   "mirror_pdf": "pdf/web-cd8de1315312.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.dwarkesh.com/p/clocktower"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-51318c175f43",
+   "kind": "article",
+   "title": "The Iron(wood) Throne: Google's TPU Stakes Its Claim on Inference",
+   "url": "https://newsletter.semianalysis.com/p/tpu-strikes-the-king",
+   "pdf_url": "",
+   "abstract": "Viable Alternative of CUDA Moat, NVIDIA scared and working nights & weekends, Jensen’s Counter Submission, Kimi K3, Muse Spark Open, Qwen, GLM5.3, TorchTPU, vLLM, SGLang, llm-d, Ray",
+   "authors": [
+    "Bryan Shan"
+   ],
+   "orgs": [
+    "SemiAnalysis"
+   ],
+   "published": "2026-11-05T19:03:45+00:00",
+   "sources": [
+    {
+     "name": "SemiAnalysis",
+     "authority": 0.8,
+     "url": "https://newsletter.semianalysis.com/p/tpu-strikes-the-king",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "半导体与算力分析",
+   "title_zh": "铁王座之争：谷歌 TPU 在推理市场立稳脚跟",
+   "summary_zh": "SemiAnalysis 分析谷歌 TPU 正成为 CUDA 生态之外可行的推理替代方案，英伟达因此承压并加速应对，同时梳理 TorchTPU、vLLM、SGLang 等推理栈动向。",
+   "highlights_zh": [
+    "TPU 在推理侧对 CUDA 护城河构成实质挑战",
+    "英伟达正以紧急节奏推进反制方案",
+    "覆盖 TorchTPU、vLLM、SGLang、llm-d、Ray 等推理软件栈"
+   ],
+   "why_zh": "把握算力格局与推理成本走向的关键分析，适合关注基础设施的从业者。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.708,
+   "date": "2026-11-06",
+   "slot": "noon",
+   "selected_at": "2026-11-06T05:27:18+00:00",
+   "mirror_pdf": "pdf/web-51318c175f43.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://newsletter.semianalysis.com/p/tpu-strikes-the-king"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-53c56afbaf05",
+   "kind": "article",
+   "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+   "url": "https://openai.com/index/introducing-gpt-6-cyber",
+   "pdf_url": "",
+   "abstract": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-11-05T09:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/introducing-gpt-6-cyber",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "GPT-6 Cyber：面向对齐的网络安防智能体",
+   "summary_zh": "OpenAI发布GPT-6 Cyber，专用于发现可利用漏洞并开发修复方案，训练中约束其仅在授权范围内行动。",
+   "highlights_zh": [
+    "面向漏洞发现与修复的专用模型",
+    "训练目标包含授权范围约束",
+    "定位为对齐的网络安全智能体"
+   ],
+   "why_zh": "头部公司推出垂直安全智能体，标志AI攻防能力产品化。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 8.0,
+   "score": 0.696,
+   "date": "2026-11-06",
+   "slot": "noon",
+   "selected_at": "2026-11-06T05:27:18+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/introducing-gpt-6-cyber"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b9901cf07693",
+   "kind": "article",
+   "title": "microsoft/VibeVoice",
+   "url": "https://github.com/microsoft/VibeVoice",
+   "pdf_url": "",
+   "abstract": "Star microsoft / VibeVoice Open-Source Frontier Voice AI",
+   "authors": [],
+   "orgs": [
+    "microsoft"
+   ],
+   "published": "2026-11-06T05:27:18+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/microsoft/VibeVoice",
+     "signal": "★ 今日 +223 · Python",
+     "metric": 223
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "微软开源前沿语音AI项目VibeVoice",
+   "summary_zh": "微软在GitHub开源VibeVoice语音AI项目，定位前沿语音生成能力，登上Trending榜。",
+   "highlights_zh": [
+    "微软官方开源，语音AI方向",
+    "GitHub Trending 单日+223星",
+    "具体能力与架构需查看仓库文档"
+   ],
+   "why_zh": "关注语音生成与多模态前沿的从业者可评估其能力边界",
+   "tags": [
+    "语音",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.642,
+   "score_llm": 7.0,
+   "score": 0.6768,
+   "date": "2026-11-06",
+   "slot": "noon",
+   "selected_at": "2026-11-06T05:27:18+00:00",
+   "mirror_pdf": "pdf/web-b9901cf07693.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/microsoft/VibeVoice"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e8690f74b67f",
+   "kind": "article",
+   "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+   "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-11-05T19:35:16+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "英伟达发布 Cosmos 3 开放模型，面向交互式世界仿真",
+   "summary_zh": "NVIDIA 在 Hugging Face 发布 Cosmos 3 开放模型系列，用于交互式世界仿真，推动机器人与具身智能的仿真训练。",
+   "highlights_zh": [
+    "开放权重的世界仿真模型",
+    "面向交互式物理世界模拟",
+    "可用于机器人与具身智能训练"
+   ],
+   "why_zh": "世界模型开放化是具身智能的重要基础设施进展。",
+   "tags": [
+    "机器人",
+    "多模态",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 8.0,
+   "score": 0.672,
+   "date": "2026-11-06",
+   "slot": "noon",
+   "selected_at": "2026-11-06T05:27:18+00:00",
+   "mirror_pdf": "pdf/web-e8690f74b67f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3b58ffb304e7",
+   "kind": "article",
+   "title": "Claude Code sends your email address to websites",
+   "url": "https://github.com/anthropics/claude-code/issues/107757",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-05T22:17:15Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50385272",
+     "signal": "782 pts",
+     "metric": 782
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Claude Code被指将用户邮箱泄露给网站",
+   "summary_zh": "有报告称Claude Code在访问网页时会把用户邮箱地址发送给目标网站，引发隐私担忧，HN高热度讨论。",
+   "highlights_zh": [
+    "涉及编码智能体的隐私与数据外泄",
+    "HN 782分，社区高度关注",
+    "影响使用Claude Code的开发者"
+   ],
+   "why_zh": "使用编码智能体的团队需评估其数据外发行为与合规风险",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.62,
+   "score_llm": 7.0,
+   "score": 0.668,
+   "date": "2026-11-06",
+   "slot": "noon",
+   "selected_at": "2026-11-06T05:27:18+00:00",
+   "mirror_pdf": "pdf/web-3b58ffb304e7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/anthropics/claude-code/issues/107757"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50385272"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4b5d65b6fea8",
+   "kind": "article",
+   "title": "智能体 Harness 的演进：从链、图到代码化",
+   "url": "https://www.infoq.cn/article/B7tsA5tjD08k2gd0OtXd?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Karthik Ramgopal"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-06T13:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/B7tsA5tjD08k2gd0OtXd?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "智能体 Harness 的演进：从链、图到代码化",
+   "summary_zh": "InfoQ 文章梳理智能体 harness 从链式、图式编排到代码化设计的演进，说明代码化如何让智能体编排更灵活、更易维护，对构建智能体系统的团队有参考价值。",
+   "highlights_zh": [
+    "梳理链、图、代码化三代 harness 设计",
+    "代码化编排提升灵活性与可维护性",
+    "面向智能体系统构建者的架构视角"
+   ],
+   "why_zh": "做智能体框架与编排的团队可借此理解 harness 设计取舍。",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-06",
+   "slot": "noon",
+   "selected_at": "2026-11-06T05:27:18+00:00",
+   "mirror_pdf": "pdf/web-4b5d65b6fea8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/B7tsA5tjD08k2gd0OtXd?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.08472",
+   "kind": "paper",
+   "title": "XStack: A Benchmark for ML Repo Migration",
+   "url": "https://arxiv.org/abs/2611.08472",
+   "pdf_url": "https://arxiv.org/pdf/2611.08472",
+   "abstract": "ML code should run where researchers choose, not where it was first written. Today, machine learning code mainly lives in two ecosystems, PyTorch on NVIDIA GPUs and JAX on Google TPUs. Migrating repositories between them means building and testing across frameworks and hardware. This migration is (1) a practical need, since it unlocks different hardware for researchers, and (2) a natural benchmark: it involves different frameworks and hardware, covers whole repositories, and is long-horizon and challenging. We introduce XStack, a benchmark that evaluates agents on migrating ML repositories between these two ecosystems. Each agent receives a PyTorch repository and a clean TPU machine and must deliver a JAX repository. Its output passes if it meets our grading criteria, based on the source repository's published result, authenticated and calibrated by us. Migration by agents remains unreliable: Claude Opus 5 passes 75%, GPT-5.6-sol 45%, and every other agent at most 40%. XStack is a step toward freeing ML code from its ecosystem. We release XStack to make progress toward reliable migration across frameworks and hardware measurable.",
+   "authors": [
+    "Linrong Cai",
+    "Taiming Lu",
+    "Haozhe Chen",
+    "Zhuang Liu"
+   ],
+   "orgs": [],
+   "published": "2026-11-05T18:55:54Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.08472",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "XStack：ML代码库跨框架迁移评测基准",
+   "summary_zh": "提出XStack基准，让智能体把PyTorch仓库迁移到JAX/TPU环境，以原论文结果为验收标准；Claude Opus 5通过率75%，GPT-5.6-sol 45%，其余不超40%，显示迁移仍不可靠。",
+   "highlights_zh": [
+    "任务为整仓库跨框架跨硬件迁移，长周期且贴近实际需求",
+    "验收基于源仓库已发表结果并经过校准",
+    "头部智能体通过率差距明显，整体可靠性不足"
+   ],
+   "why_zh": "为智能体长周期工程任务提供可量化的新评测维度",
+   "tags": [
+    "数据与评测",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-06",
+   "slot": "noon",
+   "selected_at": "2026-11-06T05:27:18+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.08472.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.08472"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.08472"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.08472"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.08472"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.08472"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.08472"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.08417",
+   "kind": "paper",
+   "title": "Benchmarks as Software: Terminal-Bench and the Case for Continuous Benchmarks",
+   "url": "https://arxiv.org/abs/2611.08417",
+   "pdf_url": "https://arxiv.org/pdf/2611.08417",
+   "abstract": "Coding agents are among the most economically consequential deployments of LLMs to date, making reliable evaluation increasingly important. Yet even benchmarks that are carefully validated at release can become stale. As models improve, they can discover valid solutions that existing verifiers reject, while changes to evaluation infrastructure can invalidate assumptions embedded in tasks and tests. We call the resulting accumulation of defects benchmark maintenance debt: a growing gap between benchmark scores and the capabilities they are intended to measure. We introduce a continuous-validation workflow for agentic benchmarks that combines community reports, task artifacts, agent traces, automated oracle checks, and human-gated repairs. We apply this workflow to Terminal-Bench 2.0, a benchmark that underwent extensive human and LM-assisted review and red-teaming before release. Our audit identifies issues in roughly 30% of the benchmark, and we release the resulting repairs as Terminal-Bench 2.1. These repairs change evaluation results: accuracy increased by over 10 percentage points and leaderboard positions move by up to three ranks, even as the overall ranking remains highly correlated (Spearman rho = 0.958). We evaluate how resource allocation shapes benchmark conclusions. We show that fixed wall-clock can materially change agent performance: For example, extending the time limit closes a 20pp harness gap on GPT 5.4 and shrinks a 30 pp gap on GPT 5.4 mini to 5 pp. Benchmark maintenance is therefore not only about repairing task artifacts: resource budgets are part of the measurement specification and must be validated alongside the tasks themselves. More broadly, benchmark maintenance debt is not just accumulated implementation bugs: our results show that as models improve, both evaluation assumptions and resource settings may need to be revalidated.",
+   "authors": [
+    "E. Kelly Buchanan",
+    "Crystal Zhou",
+    "Scott W. Linderman",
+    "Christopher Ré"
+   ],
+   "orgs": [],
+   "published": "2026-11-05T18:18:39Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.08417",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "基准即软件：Terminal-Bench的持续维护之道",
+   "summary_zh": "提出「基准维护债」概念与持续验证流程，对Terminal-Bench 2.0审计发现约30%任务有问题，修复后准确率提升超10个百分点，榜单排名最多变动三位。",
+   "highlights_zh": [
+    "结合社区报告、任务工件、智能体轨迹与人工把关的修复流程",
+    "修复后整体排名相关性仍高（Spearman 0.958）",
+    "揭示固定wall-clock预算会实质影响智能体表现"
+   ],
+   "why_zh": "智能体编程评测的可信度问题，直接影响榜单解读",
+   "tags": [
+    "数据与评测",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-06",
+   "slot": "noon",
+   "selected_at": "2026-11-06T05:27:18+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.08417.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.08417"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.08417"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.08417"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.08417"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.08417"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.08417"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8024402af982",
+   "kind": "article",
+   "title": "中期选举后美国芯片股重挫，纳指单日暴跌 5.52%；民主党宣布推动《禁止人工智能法案》；OpenAI 推出 GPT-6 Cyber",
+   "url": "http://www.geekpark.net/news/373554",
+   "pdf_url": "",
+   "abstract": "芯片股惨遭重挫，华尔街迎来 1896 年以来中期选举后表现最差的第二个交易日 据路透社报道，美国民主党在国会中期选举中大胜，引发投资者对 AI 监管加强、数据中心建设放缓的担忧。 当地时间周四，美国科技股遭遇大规模抛售， 华尔街股票市值单日蒸发约 3.2 万亿美元（约合人民币 22.7 万亿元） 。纳斯达克综合指数暴跌 5.52%，创下自 2025 年 4 月以来最大单日跌幅，较 10 月初创下的历史高点累计下跌近 12%，进入技术性回调区间。 此次抛售席卷整个 AI 产业链。费城半导体指数暴跌约 12.3%，英伟达下跌约 9.3%，基本抹去 2026 年以来的累计涨幅；闪迪（SanDisk）暴跌约 22%，美光科技、西部数据和 AMD 跌幅均在 17% 左右。此前受到资金追捧的 AI 芯片、存储及数据中心相关股票成为重灾区。 这轮抛售与美国中期选举结果密切相关。民主党赢得国会控制权，并在多个关键州取得胜利，使投资者担心美国未来可能对 AI 基础设施建设实施更严格的监管。 随着 AI 数据中心规模不断扩大，其庞大的电力和水资源需求正引发越来越多当地居民的反对。部分社区担心，新建数据中心将推高电费、增加电网负担，并对当地基础设施造成压力。 Meta 总裁迪娜·鲍威尔·麦考密克（Dina Powell McCormick）指出，数据中心已经成为公众感知 AI 发展的直接载体，也因此成为社区反对 AI 扩张的集中目标。（消息来源：环球市场播报、凤凰网科技） 美国民主党提出超级 AI 禁令：个人违规 20 年监禁、企业直接强制解散！ 快科技 11 月 5 日消息， 美国民主党宣布推动《禁止人工超级智能法案》，全面封杀超级 AI 研发，明文禁止任何个人或企业机构研发及部署人工超级智能（ASI）。 根据法案草案，ASI 为具备以下特征的系统：一是在广泛领域与任务中达到或超越人类认知表现与能力的 AI 架构，或可轻易被修改以展现出该能力的系统；二是具备足以策划并执行削弱人类主导权、甚至推翻或破坏美国政府体系的 AI 系统。 法案要求全面暂停所有先进 AI 的研发进程，直至联邦层级的专属监管机构正式运作，并建立清晰的法规与模型审查机制。 为确保禁令落实，法案提议设立全新内阁级别的人工智能部，专责监管前沿 AI 模型的全生命周期，并有权强制技术团队消除系统内的高风险功能，包括忽视人类关机指令、未经授权进行网络攻击或自我递归升级等潜在失控行为。 违规罚则方面，涉案企业将面临被强制解散处分，违规个人最高可被判处 20 年联邦监禁，量刑标准堪比现行非法研发核武器的重大罪行。 此外管辖范围不限于美国境内，法案明确将「全球禁止超级智能」列为美国外交政策目标，要求美国政府积极寻求国际协定、强化盟友合作，并实施严格的出口管制措施，阻断全球任何地区研发人工超级智能的可能性。（消息来源：快科技） Google 发布 Gemini Omni 1.2 Flash 视频模型，可对话编辑最长 15 秒钟 11 月 6 日，Google 公司在周四正式推出了视频生成模型 Gemini Omni 1.2 Flash，该模型支持原生 15 秒视频生成，支持通过多轮对话进行编辑，价格较上一代降低 30%。 Google 表示，Gemini Omni 1.2 Flash 正通过 Gemini API、Google AI Studio、Google Cloud Console、Flow、Google Vids、面向 Google AI Ultra 订阅用户的 Gemini 应用以及 Google Ad",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-06T01:01:57+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373554",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "美中期选举后芯片股暴跌，民主党推超级AI禁令，谷歌发视频模型",
+   "summary_zh": "美国中期选举民主党大胜引发 AI 监管担忧，纳指单日跌 5.52%、费半跌 12.3%；民主党提出《禁止人工超级智能法案》，违规个人最高 20 年监禁；谷歌发布支持对话编辑的 Gemini Omni 1.2 Flash 视频模型。",
+   "highlights_zh": [
+    "AI 芯片与数据中心股单日蒸发约 3.2 万亿美元市值",
+    "超级 AI 禁令草案含企业强制解散、个人 20 年监禁",
+    "Gemini Omni 1.2 Flash 支持 15 秒视频多轮对话编辑，降价 30%"
+   ],
+   "why_zh": "监管风险与市场情绪共振，是判断 AI 产业政策风向的关键信号。",
+   "tags": [
+    "产品与行业",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-11-06",
+   "slot": "noon",
+   "selected_at": "2026-11-06T05:27:18+00:00",
+   "mirror_pdf": "pdf/web-8024402af982.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373554"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2591bdc40799",
+   "kind": "article",
+   "title": "Balanov/uncut",
+   "url": "https://github.com/Balanov/uncut",
+   "pdf_url": "",
+   "abstract": "The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts.",
+   "authors": [],
+   "orgs": [
+    "Balanov"
+   ],
+   "published": "2026-11-06T05:27:18+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/Balanov/uncut",
+     "signal": "★ 609（新项目） · Go",
+     "metric": 609
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "uncut：无损无头编码智能体脚手架",
+   "summary_zh": "uncut是7MB静态二进制的无头编码智能体脚手架，仅四个工具、纯stdin/stdout，强调不静默截断上下文。",
+   "highlights_zh": [
+    "单文件7MB静态二进制，易部署",
+    "纯stdin/stdout，便于脚本集成",
+    "主打无损、不静默裁剪上下文"
+   ],
+   "why_zh": "如果你在搭编码智能体流水线，可用它做轻量无头执行层",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5659,
+   "score_llm": 6.0,
+   "score": 0.5864,
+   "date": "2026-11-06",
+   "slot": "noon",
+   "selected_at": "2026-11-06T05:27:18+00:00",
+   "mirror_pdf": "pdf/web-2591bdc40799.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/Balanov/uncut"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e9432e6f2773",
+   "kind": "article",
+   "title": "模型之外，腾讯还在补什么？",
+   "url": "https://www.infoq.cn/article/UMlHzxNiS9tFfG9KadYs?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "凌敏"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-05T19:13:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/UMlHzxNiS9tFfG9KadYs?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "模型之外，腾讯还在补什么",
+   "summary_zh": "InfoQ 分析腾讯在模型能力之外补齐的生态与基础设施布局，揭示大厂 AI 竞争的完整拼图。",
+   "highlights_zh": [
+    "腾讯 AI 战略不止于模型本身",
+    "生态、工具链与场景落地成为差异化重点",
+    "对判断大厂 AI 竞争格局有参考价值"
+   ],
+   "why_zh": "理解头部大厂如何用模型外能力构建护城河。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-06",
+   "slot": "noon",
+   "selected_at": "2026-11-06T05:27:18+00:00",
+   "mirror_pdf": "pdf/web-e9432e6f2773.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/UMlHzxNiS9tFfG9KadYs?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1aadf2c8db5d",
+   "kind": "article",
+   "title": "Agility 上市了，但人形机器人的尺子不止一把",
+   "url": "https://www.tmtpost.com/8195331.html",
+   "pdf_url": "",
+   "abstract": "Agility Robotics；人形机器人；SPAC 上市；估值口径；专用 RaaS；通用平台；多标尺共存。",
+   "authors": [
+    "舒书"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-06T02:55:13+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8195331.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Agility 上市，人形机器人尺子不止一把",
+   "summary_zh": "钛媒体分析 Agility Robotics 通过 SPAC 上市，指出人形机器人估值需多标尺衡量，专用 RaaS 与通用平台并存。",
+   "highlights_zh": [
+    "Agility 以 SPAC 方式登陆资本市场",
+    "单一估值口径难以衡量人形机器人",
+    "专用 RaaS 与通用平台路线将长期共存"
+   ],
+   "why_zh": "把握人形机器人商业化与资本化的关键判断框架。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-06",
+   "slot": "noon",
+   "selected_at": "2026-11-06T05:27:18+00:00",
+   "mirror_pdf": "pdf/web-1aadf2c8db5d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8195331.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-de0e21c20ef5",
+   "kind": "article",
+   "title": "20家大厂签约，AI操作App仍要过三道关",
+   "url": "https://www.tmtpost.com/8195245.html",
+   "pdf_url": "",
+   "abstract": "20家大厂签约推动AI互联，155款App却拒绝豆包操作。开放背后，谁掌握平台控制权？",
+   "authors": [
+    "奇帆商业"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-06T01:40:00+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8195245.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "20 家大厂签约，AI 操作 App 仍过三关",
+   "summary_zh": "钛媒体报道 20 家大厂签约推动 AI 互联，但 155 款 App 拒绝豆包操作，揭示 AI 操作 App 的开放与控制权之争。",
+   "highlights_zh": [
+    "20 家大厂签约推进 AI 跨 App 操作",
+    "155 款 App 拒绝被豆包操作",
+    "平台控制权与开放边界成核心矛盾"
+   ],
+   "why_zh": "理解 Agent 操作第三方 App 的生态博弈与落地阻力。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-06",
+   "slot": "noon",
+   "selected_at": "2026-11-06T05:27:18+00:00",
+   "mirror_pdf": "pdf/web-de0e21c20ef5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8195245.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-33f559da439e",
+   "kind": "article",
+   "title": "中国移动明年计划算力投资超 1000 亿元，未来两年智算能力连续翻番",
+   "url": "https://www.ithome.com/1/023/197.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 6 日现场消息，在今日的 2026 移动网络大会上，中国移动宣布 2027 年计划进一步提升采购总量，预计总金额在 5,000 亿元以上， 算力投资 1,000 亿元以上 ，终端采销 1,000 亿元以上。 中国移动董事长陈忠岳表示，算力是中国移动投资的最大增量。在建成多个万卡计算集群的基础上，中国移动正在布局建设多个超大规模计算集群， 未来两年智算能力将连续翻番 。“今年我们开工新建 3 个吉瓦级计算园区，明年将再建 2 个，吉瓦级计算园区总数将达到 7 个。” IT之家在大会现场获悉，2027 年，中国移动计划进一步提升采购总量，加大算力投资、确保智算能力倍增， 扩大终端采销、实现销售过亿台 。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-06T03:17:30+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/023/197.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "中国移动明年算力投资超千亿，智算能力两年翻番",
+   "summary_zh": "中国移动宣布2027年采购总额超5000亿元、算力投资超1000亿元，今年新建3个吉瓦级计算园区、明年再建2个，未来两年智算能力连续翻番。",
+   "highlights_zh": [
+    "算力被定位为中国移动投资的最大增量",
+    "吉瓦级计算园区总数将达7个",
+    "终端采销目标1000亿元、销售过亿台"
+   ],
+   "why_zh": "运营商算力资本开支是国产AI基础设施需求的关键风向标",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-06",
+   "slot": "noon",
+   "selected_at": "2026-11-06T05:27:18+00:00",
+   "mirror_pdf": "pdf/web-33f559da439e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/023/197.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-eea4802fb365",
+   "kind": "article",
+   "title": "Ripple-65B Preview 发布，自称美国最佳智能体编程开放权重模型",
+   "url": "https://www.ithome.com/1/023/158.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 6 日消息，由前谷歌研究员创立的人工智能实验室 Ricursive Intelligence 当地时间本月 4 日发布了 Ripple-65B Preview， 宣称其在美国开放权重模型中拥有最为出色的智能体编程表现。 Ricursive Intelligence 此前的工作专注于 AI 驱动的芯片设计平台，而 Ripple-65B Preview 是其专用模型的通用变体。其在 TerminalBench 2.1 上的表现优于 Meta Muse Spark Open 816B、NVIDIA Nemotron 3 Ultra 550B 等规模显著更大的竞争者。 Ripple-65B Preview 是一款稠密模型，在 12T Token 上预训练而成，支持 1M 上下文长度。Ricursive Intelligence 称该模型 从头开发和训练的成本为 3,200 万美元 （IT之家注：现汇率约合 2.14 亿元人民币） 。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-06T02:51:50+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/023/158.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Ripple-65B预览版发布，主打智能体编程开放权重",
+   "summary_zh": "前谷歌研究员创立的Ricursive发布65B稠密开放权重模型，称在TerminalBench 2.1上超过更大规模竞品，训练成本3200万美元。",
+   "highlights_zh": [
+    "65B稠密模型，12T Token预训练，支持1M上下文",
+    "自称美国开放权重模型中智能体编程表现最佳",
+    "TerminalBench 2.1成绩优于Meta、NVIDIA更大规模模型"
+   ],
+   "why_zh": "小体量开放权重模型在智能体编程上挑战大模型，值得关注",
+   "tags": [
+    "大模型",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-06",
+   "slot": "noon",
+   "selected_at": "2026-11-06T05:27:18+00:00",
+   "mirror_pdf": "pdf/web-eea4802fb365.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/023/158.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cb401f37a4f6",
+   "kind": "article",
+   "title": "Reddit 创始人发声：互联网越来越多为 AI 服务，人类正在失去互联网",
+   "url": "https://www.ithome.com/1/023/147.htm",
+   "pdf_url": "",
+   "abstract": "北京时间 11 月 6 日，据《连线》(WIRED) 杂志报道，Reddit 联合创始人亚历克西斯 · 奥哈尼安 (Alexis Ohanian) 近日表示，开发社交媒体应用已经“不再酷了”。随着 AI 生成内容和自动化机器人充斥网络，他认为，互联网正在失去原本以人类为中心的特征，下一代用户生成内容平台可能不再是传统社交网络，而是某种升级版的群聊工具。 “我预计，某种更好的群聊形式将成为用户生成内容 (UGC) 的新形态。”奥哈尼安在首届 WIRED World Fair 活动上接受《连线》资深记者劳伦 · 古德 (Lauren Goode) 采访时表示。 奥哈尼安认为，如今大量互联网内容和互动已经受到操纵。他认同所谓的“死亡互联网理论”(Dead Internet Theory)，即越来越多的网络内容和活动由机器人而非真实用户产生。随着大语言模型快速发展，AI 智能体的网络活动正在进一步增加。 “我成长时期的互联网，首先是为人类设计的。”奥哈尼安表示，未来传统用户界面和交互体验可能逐渐消失，因为越来越多的互联网服务将为 AI 智能体而非人类用户设计。 具有讽刺意味的是，AI 一方面正在改变传统互联网生态，另一方面也让 Reddit 这类拥有大量真实用户对话的平台变得更加值钱。 Reddit 已经将其庞大的用户讨论内容授权给谷歌、OpenAI 等科技公司，用于训练 AI 模型。奥哈尼安表示：“像我们这样的平台，对大语言模型而言变得非常、非常有价值。” 然而，AI 技术也开始冲击 Reddit 的传统业务。据报道，Reddit 上周警告称，谷歌 AI 搜索正在影响其网站的外部引流。受此影响，Reddit 股价一度暴跌 29%。 奥哈尼安担忧，当人类对话成为具有商业价值的数据资源后，网络内容也更容易遭到操纵。“互联网之所以变得如此容易被操纵，正是因为操纵它能够带来极高的商业价值。”他说。 为了应对第三方数据抓取并维持用户参与度，Reddit 近期表示将要求用户登录。奥哈尼安没有直接评价这一措施，但强调，互联网需要建立能够证明用户是真实人类的机制，同时不能以侵犯隐私为代价。 奥哈尼安与 Reddit 的关系也颇为复杂。2020 年，在乔治 · 弗洛伊德事件发生后，他辞去 Reddit 董事会职务，希望由一名黑人董事接替，并推动平台改革内容审核政策。近日，他得知曾有用户将 Reddit 标志纹在身上，后来却选择用其他图案将其覆盖。对此，他表示：“我不怪他。” 目前，奥哈尼安经营着风险投资公司 Seven Seven Six，管理资产规模超过 13 亿美元。他的投资重点之一是体育领域，因为在 AI 低质内容泛滥、互联网日益受到操纵的时代，体育仍能够凝聚现实世界中的真实社群。 尽管对互联网现状持批评态度，奥哈尼安并不完全悲观。作为 Anthropic 的早期投资者，他仍看好 AI 的长期潜力，尤其期待 AI 推动医学领域取得突破。 他表示，AI 技术确实可能造成严重危害，行业必须审慎考虑如何开发和应用这项技术，但与此同时，AI 也有机会让许多事情得到实质性改善。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-06T02:49:37+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/023/147.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "奥哈尼安：互联网正为AI而建，人类正在失去它",
+   "summary_zh": "Reddit联合创始人奥哈尼安认为互联网正从为人类设计转向为AI智能体设计，认同死亡互联网理论，呼吁建立不侵犯隐私的人类身份验证机制。",
+   "highlights_zh": [
+    "认为下一代UGC平台可能是升级版群聊而非传统社交网络",
+    "指出人类对话成为高价值数据后更易被操纵",
+    "Reddit因谷歌AI搜索引流下滑股价一度跌29%"
+   ],
+   "why_zh": "重量级人物对AI重塑互联网生态的明确判断",
+   "tags": [
+    "产品与行业",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-06",
+   "slot": "noon",
+   "selected_at": "2026-11-06T05:27:18+00:00",
+   "mirror_pdf": "pdf/web-cb401f37a4f6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/023/147.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5cab862620ee",
+   "kind": "article",
+   "title": "消息称 Thinking Machines Lab 正以 400 亿美元投前估值筹集 50 亿美元",
+   "url": "https://www.ithome.com/1/023/115.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 6 日消息，媒体 Business Insider 当地时间昨日报道称，由前 OpenAI 首席技术官 Mira Murati 创立的人工智能企业 Thinking Machines Lab 正以 400 亿美元 （IT之家注：现汇率约合 2,673.01 亿元人民币） 投前估值筹集 50 亿美元 （现汇率约合 334.13 亿元人民币） 。 Thinking Machines Lab 去年早些时候曾以超 100 亿美元估值完成了 20 亿美元的种子轮融资，不过后续计划以 500 亿美元估值进行的融资尝试遭遇谈判破裂。 Thinking Machines Lab 同日发布了其第二代模型 Inkling 2 Small。其采用 MoE 架构，参数规模为 594B-A17B。这一模型经历了四个阶段的预训练和后续的 9 天联合强化训练。 这一人工智能实验室表示，Inkling 2 Small 在分析智能上的得分远超此前模型， 反映了在智能编码、愿景、知识工作、推理方面的表现提升 。Inkling 2 Small 将于下周以 Apache 2.0 许可开放权重。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-06T02:36:57+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/023/115.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Thinking Machines拟400亿美元估值融资50亿，发布Inkling 2 Small",
+   "summary_zh": "Mira Murati创立的Thinking Machines Lab拟以400亿美元投前估值融资50亿美元，同日发布594B-A17B的MoE模型Inkling 2 Small，下周以Apache 2.0开放权重。",
+   "highlights_zh": [
+    "融资规模50亿美元，投前估值400亿美元",
+    "Inkling 2 Small采用MoE架构，594B总参、17B激活",
+    "经四阶段预训练与9天联合强化训练，下周开放权重"
+   ],
+   "why_zh": "头部AI实验室融资动向与开放权重模型发布双重信号",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-06",
+   "slot": "noon",
+   "selected_at": "2026-11-06T05:27:18+00:00",
+   "mirror_pdf": "pdf/web-5cab862620ee.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/023/115.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2c0b081a6fa7",
+   "kind": "article",
+   "title": "andrew-babo/muse4ai",
+   "url": "https://github.com/andrew-babo/muse4ai",
+   "pdf_url": "",
+   "abstract": "Muse4AI — let your AI agent make the pictures and the videos. Local Windows bridge for Muse via REST, MCP, and OAuth.",
+   "authors": [],
+   "orgs": [
+    "andrew-babo"
+   ],
+   "published": "2026-11-06T05:27:18+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/andrew-babo/muse4ai",
+     "signal": "★ 851（新项目） · TypeScript",
+     "metric": 851
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Muse4AI：让智能体生成图片与视频的本地桥接",
+   "summary_zh": "Muse4AI提供Windows本地桥接，通过REST、MCP与OAuth让AI智能体调用Muse生成图片和视频。",
+   "highlights_zh": [
+    "通过MCP/REST接入智能体",
+    "Windows本地部署桥接",
+    "新项目已获851星"
+   ],
+   "why_zh": "如果你在做智能体多模态生成，可用它把Muse接入为工具",
+   "tags": [
+    "智能体",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.5777,
+   "score_llm": 5.0,
+   "score": 0.5311,
+   "date": "2026-11-06",
+   "slot": "noon",
+   "selected_at": "2026-11-06T05:27:18+00:00",
+   "mirror_pdf": "pdf/web-2c0b081a6fa7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/andrew-babo/muse4ai"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8f18df7202e6",
+   "kind": "article",
+   "title": "实测 iPhone 国行 AI：有亮点有槽点，还有一个惊喜点",
+   "url": "https://www.ifanr.com/1687733?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "这次你一定要用上 Apple 智能！ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "方俊鸣"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-11-04T17:30:04+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1687733?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "实测国行 iPhone AI：亮点、槽点与惊喜",
+   "summary_zh": "爱范儿实测国行 Apple 智能，指出其功能亮点与不足，并发现一个意外惊喜，反映苹果 AI 在中国市场的落地体验。",
+   "highlights_zh": [
+    "国行 Apple 智能实际体验评测",
+    "指出功能亮点与明显槽点",
+    "发现一个意外惊喜点"
+   ],
+   "why_zh": "了解苹果 AI 在中国市场的真实落地效果与用户反馈。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-06",
+   "slot": "noon",
+   "selected_at": "2026-11-06T05:27:18+00:00",
+   "mirror_pdf": "pdf/web-8f18df7202e6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1687733?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2ba437576e03",
+   "kind": "article",
+   "title": "视频生成只是开始，AI 如何把内容做对？",
+   "url": "https://www.infoq.cn/article/GGILIuzW0RTGhoeuz9TD?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "演讲嘉宾：韩晟"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-05T13:54:21+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/GGILIuzW0RTGhoeuz9TD?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "视频生成之后，AI 如何把内容做对",
+   "summary_zh": "演讲者韩晟探讨视频生成之后 AI 内容生产的关键问题：从能生成到做对内容，涉及质量与可控性。",
+   "highlights_zh": [
+    "视频生成已进入内容质量竞争阶段",
+    "关注生成内容的正确性与可控性",
+    "来自一线从业者的实践视角"
+   ],
+   "why_zh": "了解多模态内容生成从炫技走向可用的行业判断。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-06",
+   "slot": "noon",
+   "selected_at": "2026-11-06T05:27:18+00:00",
+   "mirror_pdf": "pdf/web-2ba437576e03.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/GGILIuzW0RTGhoeuz9TD?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "工程Agent评测从单项达标转向全约束交付，真实能力被大幅下修",
-   "why": "谷歌PLE基准显示单项约束满足率91%但全约束交付仅41.3%，隐藏测试仅48.3%。",
+   "trend": "工程智能体真实交付能力被新基准戳破，可行域瓶颈成竞争焦点",
+   "why": "谷歌PLE基准显示Claude Opus 5.5全约束交付仅41.3%，单项满足率却达91%，暴露能力锯齿。",
    "refs": [
-    "web-1deb4fc409b2"
+    "web-1deb4fc409b2",
+    "web-941fec270e65"
    ]
   },
   {
-   "trend": "前沿模型风险治理进入第三方复核阶段，结论分歧公开化",
-   "why": "METR复核Anthropic报告认同灾难风险低，但质疑其预警阈值判断且关键证据被删改。",
+   "trend": "基准维护债与对齐评测盲区正成为评测方法的新拐点",
+   "why": "Terminal-Bench审计约30%任务有问题，修复后准确率升超10点；同时出现「必须撒谎才能赢」的诚实性基准。",
    "refs": [
-    "web-468060cc6252",
-    "web-419825f7f3a6",
-    "web-e10fbb8fd4ad"
+    "arxiv-2611.08417",
+    "web-cd8de1315312"
    ]
   },
   {
-   "trend": "视觉Token路由成为计算机使用智能体的降本主线",
-   "why": "联合训练路由器仅2000步即在OSWorld持平全分辨率，视觉Token减少2.5-5.8倍。",
+   "trend": "推理算力格局松动，TPU正成为CUDA之外的可选替代",
+   "why": "SemiAnalysis指TPU在推理市场立稳，TorchTPU、vLLM、SGLang等推理栈同步跟进。",
    "refs": [
-    "arxiv-2611.06854"
+    "web-51318c175f43"
    ]
   },
   {
-   "trend": "编程智能体竞争从模型能力转向产品人才与插件生态",
-   "why": "Claude Code产品负责人跳槽OpenAI，DeepSeek Harness日活154万并筹建官方插件市场。",
+   "trend": "开放权重模型密集冲刺智能体编程，闭源差距被压缩",
+   "why": "腾讯770B Hy4、Ricursive 65B、Thinking Machines 594B-A17B接连发布，均主打长程智能体与开放权重。",
    "refs": [
-    "web-353337e7530e",
-    "web-9d3008b9abee"
+    "web-357c898fc340",
+    "web-eea4802fb365",
+    "web-5cab862620ee"
    ]
   },
   {
-   "trend": "具身智能价值重心从「大脑」叙事移向数据采集与硬件交付",
-   "why": "数采订单爆发而具身大脑公司承压，灵巧手综述亦指出人类数据价值取决于对齐。",
+   "trend": "智能体基础设施从编排框架转向代码化与插件生态",
+   "why": "Harness演进至代码化设计，DeepSeek Harness日活154万并筹建官方插件市场，脚手架趋向极简。",
    "refs": [
-    "web-655ca8e62e43",
-    "arxiv-2611.06724",
-    "web-c61dd3c6988b"
+    "web-4b5d65b6fea8",
+    "web-9d3008b9abee",
+    "web-2591bdc40799"
    ]
   }
  ]
