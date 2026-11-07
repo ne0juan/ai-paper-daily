@@ -1,0 +1,686 @@
+{
+ "date": "2026-11-08",
+ "items": [
+  {
+   "id": "web-ac2b5b37f57e",
+   "kind": "article",
+   "title": "GitHub 推出新 Git 存储架构：内部测试单个代码仓库支持 5000 个智能体同时协作，每秒处理 7200 次推送",
+   "url": "https://www.ithome.com/1/023/823.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 7 日消息，当地时间 11 月 5 日，GitHub 发布博文，称上周在 GitHub Universe 大会上，正式公布了全新的 Git 存储架构，代号“Rubicon”。 官方表示，该架构不仅具备每秒处理数千次写入的能力，还能实现读取按需水平扩展。经内部压力测试验证，新架构能够在保持极低读取延迟的同时， 支持单个代码仓库容纳 5000 个智能体（Agent）并发协作，并承受每秒高达 7200 次的代码推送 。 IT之家获悉，该架构目前已经开启 小范围定向内测（limited private preview） ，并计划于 明年初逐步扩大开放范围 。 据介绍，如今 GitHub 上最繁忙的代码仓库，其单秒写入峰值最多也不过数十次，且往往呈现短暂脉冲式的突发状态。然而，随着越来越多的研发工作交由全天候高并发运行的 AI 智能体处理，预计在未来一年内，这种瞬时突发将演变为常态化的持续高吞吐负载。 每一次代码推送（Push）都会级联触发更多的读取请求：CI 流水线即刻启动、部署系统拉取最新提交，其他协同智能体也会同步获取代码作为上下文。这种读操作的扇出扩散（Read Fan-out），随着写入频率的攀升，对平台整体流量产生了极为显著的放大效应。 在流量分布曲线最顶端的头部仓库中，这一趋势已然显现。下方图表展示了 GitHub 上某个典型代码仓库在 3 月至 5 月期间的日请求量变化 —— 短短两个月内，其流量便激增了约 4 倍；此后至今，其访问增长更始终维持着陡峭的指数级上升轨迹。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-07T14:57:23+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/023/823.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "GitHub 新存储架构 Rubicon 支持 5000 智能体并发",
+   "summary_zh": "GitHub 发布代号 Rubicon 的新 Git 存储架构，内测单仓库支持 5000 个智能体并发、每秒 7200 次推送，为智能体高并发研发负载铺路。",
+   "highlights_zh": [
+    "新架构支持单仓库 5000 智能体并发协作",
+    "每秒可承受 7200 次代码推送",
+    "读取按需水平扩展，应对智能体读扇出放大"
+   ],
+   "why_zh": "智能体大规模写代码将重塑代码托管基础设施",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-08",
+   "slot": "morning",
+   "selected_at": "2026-11-07T16:48:37+00:00",
+   "mirror_pdf": "pdf/web-ac2b5b37f57e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/023/823.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4a3451625ee4",
+   "kind": "article",
+   "title": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！？",
+   "url": "https://www.qbitai.com/2026/11/508264.html",
+   "pdf_url": "",
+   "abstract": "苦单Session久矣，两大Agent玩家不谋而合。",
+   "authors": [
+    "田, 晏林"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-07T05:01:17+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/508264.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "硅谷华人团队抢先造出下一代 Agent Harness",
+   "summary_zh": "报道称两家 Agent 玩家不约而同突破单 Session 限制，做出下一代 Agent Harness，抢在 DeepSeek 之前。",
+   "highlights_zh": [
+    "突破单 Session 限制",
+    "两家团队思路趋同",
+    "Agent 脚手架设计新方向"
+   ],
+   "why_zh": "关注 Agent harness 架构演进与多会话设计的从业者值得一读。",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-08",
+   "slot": "morning",
+   "selected_at": "2026-11-07T16:48:37+00:00",
+   "mirror_pdf": "pdf/web-4a3451625ee4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/508264.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0e7c83f484cc",
+   "kind": "article",
+   "title": "消息称因台积电产能吃紧，英伟达提供数十亿美元支持日月光扩产 CoWoS 先进封装",
+   "url": "https://www.ithome.com/1/023/814.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 7 日消息，据路透社报道，一场构建 AI 基础设施的全球竞速，正推动数十亿美元巨资涌入先进封装领域。这一过去并不起眼的技术环节，如今已成为打造全球顶尖处理器的关键瓶颈。 “ 过去，封装永远是那种你根本不必操心的事情。 ”英特尔前首席执行官、现任风投机构 Playground Global 合伙人帕特 · 基辛格（Pat Gelsinger）近日对媒体感慨道。 市场研究机构 Yole Group 预测， 先进封装市场规模预计将于 2026 年首次超越传统封装 ，相关资本支出预计将逼近 280 亿美元 （IT之家注：现汇率约合 1,872.11 亿元人民币） 。 全球最大晶圆代工厂台积电主导着最尖端的先进封装技术，包括其专有的晶圆级芯片基板封装（CoWoS）。该技术将处理器、内存等多块独立硅片置于共享基板上互联，使其能够以极高带宽高速协同工作。 目前该技术已被英伟达、AMD、博通以及自主研发 AI 芯片的各大云巨头广泛采用。然而， 台积电吃紧的产能正倒逼芯片设计厂商另寻外援 。 一位业内高管透露， 英伟达正在提供数十亿美元的资金支持 ，以协助日月光投控旗下封测大厂矽品精密扩充 CoWoS 封装产能。 该高管表示，这笔此前未公开的资金将用于支持新无尘厂房扩建与设备采购。对此，英伟达未回应置评请求；日月光则表示，不针对涉及客户的市场传闻置评。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-07T13:50:41+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/023/814.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "英伟达出资数十亿美元助日月光扩产 CoWoS",
+   "summary_zh": "因台积电 CoWoS 产能吃紧，英伟达据报提供数十亿美元支持日月光旗下矽品扩产先进封装，凸显封装成 AI 芯片关键瓶颈。",
+   "highlights_zh": [
+    "先进封装市场 2026 年预计首超传统封装",
+    "台积电 CoWoS 产能紧张倒逼厂商另寻外援",
+    "资金用于新无尘厂房与设备采购"
+   ],
+   "why_zh": "先进封装是当前 AI 算力扩张的核心瓶颈",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-08",
+   "slot": "morning",
+   "selected_at": "2026-11-07T16:48:37+00:00",
+   "mirror_pdf": "pdf/web-0e7c83f484cc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/023/814.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5d00c635512a",
+   "kind": "article",
+   "title": "majorminorlabs/hermes-voice",
+   "url": "https://github.com/majorminorlabs/hermes-voice",
+   "pdf_url": "",
+   "abstract": "Talk to a Hermes Agent profile through Home Assistant Assist",
+   "authors": [],
+   "orgs": [
+    "majorminorlabs"
+   ],
+   "published": "2026-11-07T16:48:37+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/majorminorlabs/hermes-voice",
+     "signal": "★ 489（新项目） · Python",
+     "metric": 489
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Hermes Voice：通过 Home Assistant 语音对话智能体",
+   "summary_zh": "开源项目让你通过 Home Assistant Assist 用语音与 Hermes Agent 配置对话。",
+   "highlights_zh": [
+    "Python 实现",
+    "接入 Home Assistant Assist",
+    "面向 Hermes Agent 配置"
+   ],
+   "why_zh": "如果你在折腾 Home Assistant 语音助手，可用它把 Hermes Agent 接进家庭场景。",
+   "tags": [
+    "语音",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5582,
+   "score_llm": 5.0,
+   "score": 0.5233,
+   "date": "2026-11-08",
+   "slot": "morning",
+   "selected_at": "2026-11-07T16:48:37+00:00",
+   "mirror_pdf": "pdf/web-5d00c635512a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/majorminorlabs/hermes-voice"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3433f56b87df",
+   "kind": "article",
+   "title": "“不想打工”的人形机器人，在仓库里吃灰 | 潮向",
+   "url": "https://www.tmtpost.com/8196856.html",
+   "pdf_url": "",
+   "abstract": "问题不是机器人还能翻多高，是离车间还有多远。",
+   "authors": [
+    "观潮新消费"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-07T08:36:29+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8196856.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "人形机器人进仓库：理想丰满现实骨感",
+   "summary_zh": "钛媒体调查人形机器人在仓储场景落地现状，指出问题不在技术炫技，而在离真正进车间干活还有多远。",
+   "highlights_zh": [
+    "人形机器人仓储落地面临实际作业能力瓶颈",
+    "行业从演示炫技转向追问真实生产力",
+    "反映具身智能商业化路径的现实困境"
+   ],
+   "why_zh": "了解人形机器人商业化落地的真实进展与瓶颈",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-11-08",
+   "slot": "morning",
+   "selected_at": "2026-11-07T16:48:37+00:00",
+   "mirror_pdf": "pdf/web-3433f56b87df.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8196856.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-649435e90e91",
+   "kind": "article",
+   "title": "机器人行业卸下租赁“缓冲垫”",
+   "url": "https://www.tmtpost.com/8196810.html",
+   "pdf_url": "",
+   "abstract": "日租跌穿千元，平台却纷纷下场",
+   "authors": [
+    "机器最前线"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-07T05:56:37+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8196810.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "机器人租赁价格跳水，平台纷纷下场",
+   "summary_zh": "机器人日租价格跌穿千元，租赁平台却加速入场，反映机器人应用市场供需与商业模式的变化。",
+   "highlights_zh": [
+    "机器人日租价格跌破千元关口",
+    "租赁平台逆势加大投入",
+    "折射机器人应用市场真实需求"
+   ],
+   "why_zh": "从租赁价格看机器人应用市场的真实冷热",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-11-08",
+   "slot": "morning",
+   "selected_at": "2026-11-07T16:48:37+00:00",
+   "mirror_pdf": "pdf/web-649435e90e91.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8196810.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-60bdbb0ad0ed",
+   "kind": "article",
+   "title": "Claude Max 订阅套餐使用额度被指“虚标”，Anthropic 辩词未获法官采纳",
+   "url": "https://www.ithome.com/1/023/824.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 7 日消息，美国联邦治安法官谢文辉（Alex Tse）裁定，Anthropic 必须继续应对 Claude Max 套餐使用额度涉嫌误导消费者的主要指控。据 Courthouse News 报道，谢文辉周五驳回了案件中的其他几项诉求。 Anthropic 宣传称，月费 100 美元 （IT之家注：现汇率约合 668.6 元人民币） 和 200 美元 （现汇率约合 1,337 元人民币） 的 Max 套餐，使用额度 分别是 Pro 套餐的 5 倍和 20 倍 。但今年 6 月提起诉讼的消费者指控，如果按整周计算，实际额度 远远达不到宣传中的倍数 。 两名原告卡尔 · 卡恩和所罗门 · 史密斯计算发现，以 Claude 的一款模型为例，200 美元 （现汇率约合 1,337 元人民币） 套餐的每周额度 只有 Pro 套餐的 6 倍 ，100 美元 （现汇率约合 668.6 元人民币） 套餐 则为 3.5 倍 。 问题出在额度计算方式上。Max 用户每 5 小时的使用额度确实可以达到 Pro 用户的 5 倍或 20 倍，但每周的使用上限并没有同比例增加。 Anthropic 辩称，消费者应该明白，宣传中的倍数 指的是单次使用周期的额度 ，并援引帮助页面作为依据。谢文辉并未采纳这一说法。裁决书写道：“Anthropic 对单次使用周期的说明，需要从 claude.com 的主要销售页面点击两次链接才能看到。” 谢文辉认为，既然消费者按月支付订阅费，就有理由认为 Anthropic 承诺的使用额度也是按月计算 。因此，原告可以继续追究 Anthropic 涉嫌过失性虚假陈述和违约的责任。 相关阅读： 《 美国消费者指控 Claude Max 订阅套餐额度“虚标”，拟对 Anthropic 发起集体诉讼 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-07T14:57:42+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/023/824.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Claude Max 额度虚标诉讼获法官支持",
+   "summary_zh": "美法官裁定 Anthropic 须继续应对 Claude Max 套餐额度误导消费者的指控，认为其倍数宣传说明藏得太深。",
+   "highlights_zh": [
+    "原告指 Max 套餐周额度远低于宣传倍数",
+    "Anthropic 辩称倍数指单次周期未被采纳",
+    "法官认为按月付费应理解为按月额度"
+   ],
+   "why_zh": "关注头部 AI 公司订阅定价与消费者权益争议",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-11-08",
+   "slot": "morning",
+   "selected_at": "2026-11-07T16:48:37+00:00",
+   "mirror_pdf": "pdf/web-60bdbb0ad0ed.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/023/824.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e4bfe2d1713c",
+   "kind": "article",
+   "title": "印度 IT 行业领袖警告：AI 或致应届毕业生更难进入科技行业",
+   "url": "https://www.ithome.com/1/023/813.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 7 日消息，据日经亚洲 6 日报道，印度最大科技行业协会 —— 印度全国软件与服务公司协会会长拉杰什 · 南比亚尔警告，随着 AI 逐渐接手基础编程和软件测试工作，印度应届大学毕业生进入科技行业 可能更加困难 。 南比亚尔认为，求职难的问题，可能要等到 印度软件出口企业适应新的商业环境 后才能缓解。随着技术基础设施管理等传统核心业务的工作量减少，企业需要开拓网络安全、AI 咨询、技术部署及维护等新业务，弥补由此造成的业务缺口。 他进一步指出，软件企业的收费模式正从按项目投入人数计费转向按实际成果收费，应届毕业生的求职门槛也会随之改变。 因此，高校需要调整计算机专业课程，否则印度可能出现 数以千计的工科毕业生 ，所学技能却无法满足企业需求。“对刚毕业的学生来说，这确实是个令人担忧的问题，我不想粉饰这一点。如果我们的教育体系不能尽快跟上变化， 学生可能一毕业就发现，自己学到的技能早就过时了 。…… 课程体系从未像现在这样需要如此大幅度的改革。” 官方估算显示，在截至今年 3 月的财年，印度共有 5903 所工程与技术类院校 ，入学人数接近 260 万人。由于科技行业薪资丰厚，许多人将科技岗位视为实现经济富裕的途径。 但即使 AI 时代还处于起步阶段，印度也面临严峻的大学生就业问题。阿齐姆 · 普莱姆吉大学估计，2004 年至 2023 年，印度失业大学毕业生人数 增加至原来的近 4 倍，达到约 1100 万人 。 IT之家从报道中获悉，南比亚尔认为，印度软件行业正 经历一场“再平衡” ，调整还会持续一段时间，直到 AI 业务增长足以弥补传统 IT 基础设施维护业务的收入损失。“这个过程中难免会时不时遇到阵痛，但只要跨过这个难关，几年后再回头看，我认为结果会非常非常好。” 不过，随着整个行业向 AI 转型，部分企业仍可能面临生存压力。“整个行业能否生存下去，基本没有悬念，真正的问题在于各家企业。” 南比亚尔相信，80% 至 85% 的企业能够继续生存，但一些企业或许会因为过于习惯过去的经营方式，难以顺利完成转型。“企业必须主动改革自身业务，否则就无法适应新时代。”",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-07T13:48:23+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/023/813.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "印度 IT 领袖警告 AI 挤压应届生就业",
+   "summary_zh": "印度软件行业协会会长警告，AI 接手基础编程与测试，应届生入行更难，行业正经历收费模式与人才需求的再平衡。",
+   "highlights_zh": [
+    "AI 替代基础编程与软件测试岗位",
+    "计费模式从按人头转向按成果",
+    "呼吁高校大幅改革计算机课程"
+   ],
+   "why_zh": "反映 AI 对全球 IT 人力结构与教育的影响",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-11-08",
+   "slot": "morning",
+   "selected_at": "2026-11-07T16:48:37+00:00",
+   "mirror_pdf": "pdf/web-e4bfe2d1713c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/023/813.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2b3eb4eb79de",
+   "kind": "article",
+   "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+   "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+   "pdf_url": "",
+   "abstract": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and AI training with experiments on real over-the-air wireless […]",
+   "authors": [
+    "Soma Velayutham"
+   ],
+   "orgs": [
+    "NVIDIA"
+   ],
+   "published": "2026-11-06T16:00:35+00:00",
+   "sources": [
+    {
+     "name": "NVIDIA",
+     "authority": 0.75,
+     "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "英伟达开源工具助力 6G 网络研究",
+   "summary_zh": "英伟达介绍其 Aerial、Sionna 等开源工具如何连接仿真、AI 训练与真实无线实验，支撑 6G 研究。",
+   "highlights_zh": [
+    "Aerial 无线软件开源",
+    "Sionna 仿真套件",
+    "仿真与实测打通"
+   ],
+   "why_zh": "了解 AI 与无线通信交叉研究的工具链现状。",
+   "tags": [
+    "效率与系统",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 5.0,
+   "score": 0.492,
+   "date": "2026-11-08",
+   "slot": "morning",
+   "selected_at": "2026-11-07T16:48:37+00:00",
+   "mirror_pdf": "pdf/web-2b3eb4eb79de.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-aecf19500907",
+   "kind": "article",
+   "title": "风口浪尖的数据中心，开始放低姿态",
+   "url": "https://www.tmtpost.com/8197100.html",
+   "pdf_url": "",
+   "abstract": "OpenAI公布新社区承诺。",
+   "authors": [
+    "字母AI"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-07T09:32:45+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8197100.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "风口浪尖的数据中心开始放低姿态",
+   "summary_zh": "报道 OpenAI 公布新的社区承诺，回应数据中心引发的社区关切。",
+   "highlights_zh": [
+    "OpenAI 社区承诺",
+    "数据中心争议",
+    "公关姿态调整"
+   ],
+   "why_zh": "了解 AI 基础设施扩张的社会阻力。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 5.0,
+   "score": 0.444,
+   "date": "2026-11-08",
+   "slot": "morning",
+   "selected_at": "2026-11-07T16:48:37+00:00",
+   "mirror_pdf": "pdf/web-aecf19500907.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8197100.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-981aed312b4a",
+   "kind": "article",
+   "title": "双十一，把购物交给了 AI 们，结果居然集体翻车？",
+   "url": "https://www.tmtpost.com/8196807.html",
+   "pdf_url": "",
+   "abstract": "价格是真的，但不一定是对的商品",
+   "authors": [
+    "象先志"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-07T08:36:32+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8196807.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "双十一把购物交给 AI，结果集体翻车",
+   "summary_zh": "作者实测用 AI 智能体参与双十一购物，发现价格真实但常选错商品，暴露 Agent 落地短板。",
+   "highlights_zh": [
+    "AI 购物实测翻车",
+    "选品能力不足",
+    "Agent 落地现实差距"
+   ],
+   "why_zh": "从真实场景看智能体能力的边界与不足。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 5.0,
+   "score": 0.444,
+   "date": "2026-11-08",
+   "slot": "morning",
+   "selected_at": "2026-11-07T16:48:37+00:00",
+   "mirror_pdf": "pdf/web-981aed312b4a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8196807.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0d33f2bef48b",
+   "kind": "article",
+   "title": "百图生科与11家伙伴战略合作，AI生物计算覆盖医药研发及农业育种",
+   "url": "https://www.leiphone.com/category/industrynews/X7HwwQTEXJhiVVzK.html",
+   "pdf_url": "",
+   "abstract": "活动焦点： · 百图生科主办、港投公司支持的第三届峰会2026年11月6日开幕，汇聚约300名科研、产业及投资界代表，探讨人工智能与生命科学的融合发展 · 百图生科InnoHub分别与大学、科企及投资机构合作，以AI生物计算聚焦乳癌及中医药研究、农业育种、研发与产业配套，包括与香港大学推进「乳腺癌虚拟细胞大模型」项目，以及与香港浸会大学筹建「AI中医药联合实验室」；合作网络延伸至日本、新加坡及「一带一路」沿线市场 · 全日设多场院士演讲及圆桌论坛，涵盖世界模型、可穿戴生物传感与具身智能，以及香港生物计算发展、生物医药AI研发、投资及企业拓展国际市场等议题 2026年11月6日，生命科学基础大模型企业百图生科（BioMap）主办、香港投资管理有限公司（港投公司）支持的第三届「国际生物计算创新峰会2026」在香港会议展览中心隆重举行。本届峰会主题为「智解生机」（Decoding Future Biology），汇聚约300名科研学者、企业及投资界代表进行深度讨论。峰会上，百图生科宣布分别与大学、科企及投资机构等合共11家伙伴启动合作，推动人工智能（AI）在生命科学的研究与应用，覆盖新药研发、中医药研究、农业育种以至国际市场拓展，加速香港科研成果转化。 香港特别行政区政府财政司司长陈茂波先生、港投公司行政总裁陈家齐女士，以及百图生科联合创始人兼首席执行官刘维先生出席主礼，并共同见证上午InnoHub合作项目的启动仪式。 财政司司长陈茂波先生在致辞中表示：「人工智能与生物计算的进步，为缩短新药研发时间、降低成本带来新契机，但科研突破仍须通过严谨的临床验证，才能转化为安全有效的治疗。香港的角色，是把科研模型、临床研究、市场与资本更紧密地连接起来。我们正加强临床研究及药械监管能力，深化河套深港合作，并发挥国际金融中心的优势，汇聚海内外药企、科技企业及投资者。透过港投公司，我们引入耐心资本、长期投资者、合作伙伴及专业知识，让具潜力的科研有时间验证成效。港投公司与百图生科的合作，正体现『金融+』支持科研和成果转化的力量。我们期待与各方携手，让更多新疗法更快惠及病人，为市民带来更健康、更长寿的生活。」 港投公司行政总裁陈家齐女士说：「生命科技研发周期长，需要科研、产业与资本持续协作。港投公司一直发挥资本引领作用，我们通过投资，汇聚『政、产、学、研、投』的资源，以及被投企业和合作伙伴的力量，赋能香港特区产业、经济和社会的高质量发展。今次InnoHub把大模型能力与不同机构的研究专长及实际需求结合，覆盖医药研发、农业育种，并结合国际市场资源，展现香港生物计算生态的多元发展，也让耐心资本的牵引更深度发挥力量。我们期待与百图生科及各方伙伴深化合作，让更多科研成果在香港验证、转化及发展，创造长远经济效益。」 百图生科联合创始人兼首席执行官刘维先生在主题演讲中表示：「本次峰会上，百图生科与11家大学、科研机构及企业发布合作成果，进一步拓展了百图生科的全球合作网络。香港是我们连接国际科研、产业与资本的重要基地。下一阶段，我们将以香港为支点，深化跨境研发与产业合作，持续投入实验验证及企业孵化，推动项目从AI设计走向产品开发与商业应用。我们希望把全球合作资源与香港的科研及金融优势结合起来，让香港成为生命科学AI创新的重要策源地与国际合作枢纽，支持更多科研成果走向全球市场。」 与11家伙伴启动合作，连接科研、技术与产业资源 百图生科InnoHub与11家伙伴启动合作，上午的启动仪式公布其中七项，结合AI模型能力、科研专长、实验与产业资源，拓展生物计算的研究与应用。 在医药研究方面，百",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-07T02:40:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/X7HwwQTEXJhiVVzK.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "百图生科与 11 家伙伴战略合作，AI 生物计算落地",
+   "summary_zh": "百图生科在峰会上宣布与 11 家大学、机构及企业合作，推进乳腺癌虚拟细胞大模型、AI 中医药与农业育种。",
+   "highlights_zh": [
+    "乳腺癌虚拟细胞大模型",
+    "AI 中医药联合实验室",
+    "合作延伸至一带一路市场"
+   ],
+   "why_zh": "偏企业合作通稿，增量有限。",
+   "tags": [
+    "科学AI",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 4.0,
+   "score": 0.392,
+   "date": "2026-11-08",
+   "slot": "morning",
+   "selected_at": "2026-11-07T16:48:37+00:00",
+   "mirror_pdf": "pdf/web-0d33f2bef48b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/X7HwwQTEXJhiVVzK.html"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "智能体高并发研发负载正倒逼基础设施重构，Git 存储层率先被改造。",
+   "why": "GitHub 新架构 Rubicon 内测单仓库支持 5000 智能体并发、每秒 7200 次推送。",
+   "refs": [
+    "web-ac2b5b37f57e"
+   ]
+  },
+  {
+   "trend": "Agent Harness 竞争从单 Session 转向多智能体编排，卡位战提前打响。",
+   "why": "两家 Agent 玩家不约而同突破单 Session 限制，抢在 DeepSeek 之前推出下一代 Harness。",
+   "refs": [
+    "web-4a3451625ee4"
+   ]
+  },
+  {
+   "trend": "先进封装取代制程成为 AI 芯片扩产的核心瓶颈，产业链资本加速重配。",
+   "why": "台积电 CoWoS 产能吃紧，英伟达出资数十亿美元支持日月光旗下矽品扩产。",
+   "refs": [
+    "web-0e7c83f484cc"
+   ]
+  },
+  {
+   "trend": "Agent 落地评测正从能力演示转向真实任务完成率，购物场景集体翻车敲响警钟。",
+   "why": "实测 AI 智能体参与双十一购物，价格真实但常选错商品，暴露落地短板。",
+   "refs": [
+    "web-981aed312b4a"
+   ]
+  },
+  {
+   "trend": "AI 对初级技术岗位的替代开始显性化，人才结构与收费模式进入再平衡期。",
+   "why": "印度软件行业协会会长警告 AI 接手基础编程与测试，应届生入行更难。",
+   "refs": [
+    "web-e4bfe2d1713c"
+   ]
+  }
+ ]
+}
