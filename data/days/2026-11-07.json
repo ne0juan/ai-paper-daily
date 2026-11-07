@@ -1191,46 +1191,1120 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-ee66e1e009e6",
+   "kind": "article",
+   "title": "A $90 Key into Your Company's Secrets",
+   "url": "https://tomtunguz.com/a-90-dollar-key-into-your-companys-secrets/",
+   "pdf_url": "",
+   "abstract": "The cost of an autonomous 32-step corporate break-in fell 99% in five months from $7,500 on Claude Mythos Preview in April 2026 to $90 on open-weight GLM-5.3. Attackers run an expected-value calculation on AI compute ($1m of compute for a 1% shot at a $1b payout yields $10m in expected value), while defenders must maximize security effectiveness across speed (responding in minutes or seconds), scale (parallel agent swarms), & breadth (82-to-1 non-human identities).",
+   "authors": [
+    "Tomasz Tunguz"
+   ],
+   "orgs": [
+    "Tomasz Tunguz"
+   ],
+   "published": "2026-11-06T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Tomasz Tunguz",
+     "authority": 0.75,
+     "url": "https://tomtunguz.com/a-90-dollar-key-into-your-companys-secrets/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Theory Ventures 创始人，AI 投资",
+   "title_zh": "自主入侵成本暴跌99%：AI攻击的经济学",
+   "summary_zh": "Tomasz Tunguz 指出，一次32步自主企业入侵的成本五个月内从7500美元降至90美元，攻击者按期望值计算AI算力投入，防守方须在响应速度、并行规模与非人类身份治理上同时应对。",
+   "highlights_zh": [
+    "自主多步入侵成本五个月下降99%，开源权重模型是主要推手",
+    "攻击者用期望值模型评估AI算力投入，防守方处于不对称劣势",
+    "企业非人类身份与人类身份比例达82:1，攻击面急剧扩大"
+   ],
+   "why_zh": "从成本经济学角度量化AI攻击门槛下降，是安全预算与防御策略的重要参考。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-11-07",
+   "slot": "noon",
+   "selected_at": "2026-11-07T04:55:22+00:00",
+   "mirror_pdf": "pdf/web-ee66e1e009e6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://tomtunguz.com/a-90-dollar-key-into-your-companys-secrets/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cfd4354afa14",
+   "kind": "article",
+   "title": "Measuring how AI agents handle everyday wet-lab science",
+   "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+   "pdf_url": "",
+   "abstract": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-11-06T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 发布 BioBasicsBench：评测 AI 智能体处理湿实验室日常科研的能力",
+   "summary_zh": "OpenAI 推出 BioBasicsBench，含 100 项任务，衡量 AI 智能体解读原始实验数据、处理湿实验室日常科研的能力，为科学 AI 智能体提供新评测基准。",
+   "highlights_zh": [
+    "100 项任务覆盖原始实验数据解读与湿实验室操作",
+    "聚焦智能体在真实科研场景中的能力评测",
+    "为科学 AI 智能体提供可量化的基准"
+   ],
+   "why_zh": "科学 AI 智能体评测稀缺，该基准为科研场景落地提供参照。",
+   "tags": [
+    "智能体",
+    "数据与评测",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 8.0,
+   "score": 0.696,
+   "date": "2026-11-07",
+   "slot": "noon",
+   "selected_at": "2026-11-07T04:55:22+00:00",
+   "mirror_pdf": "pdf/web-cfd4354afa14.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3b972ecaa602",
+   "kind": "article",
+   "title": "AI is dramatically accelerating AI research",
+   "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-06T20:27:23Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50397994",
+     "signal": "242 pts",
+     "metric": 242
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AI 正在大幅加速 AI 研究本身",
+   "summary_zh": "文章讨论 AI 系统正显著加速 AI 研发流程，从实验设计到代码生成，形成自我强化的研究飞轮。",
+   "highlights_zh": [
+    "AI 辅助研发的加速效应",
+    "对研究范式的影响",
+    "Hacker News 242 分讨论"
+   ],
+   "why_zh": "把握 AI 研发自动化趋势与行业节奏变化的关键视角。",
+   "tags": [
+    "大模型",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.5775,
+   "score_llm": 7.0,
+   "score": 0.651,
+   "date": "2026-11-07",
+   "slot": "noon",
+   "selected_at": "2026-11-07T04:55:22+00:00",
+   "mirror_pdf": "pdf/web-3b972ecaa602.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50397994"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-443196181aee",
+   "kind": "article",
+   "title": "2026.45: Falling Leaves (and Stocks)",
+   "url": "https://stratechery.com/2026/falling-leaves-and-stocks/",
+   "pdf_url": "",
+   "abstract": "The best Stratechery content from the week of November 2, 2026, including AI on the ballot, a Google state of the union, and China.",
+   "authors": [
+    "Ben Thompson"
+   ],
+   "orgs": [
+    "Stratechery"
+   ],
+   "published": "2026-11-06T18:14:42+00:00",
+   "sources": [
+    {
+     "name": "Stratechery",
+     "authority": 0.8,
+     "url": "https://stratechery.com/2026/falling-leaves-and-stocks/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Ben Thompson，科技战略分析",
+   "title_zh": "Stratechery一周精选：AI上选票、谷歌国情咨文与中国",
+   "summary_zh": "Ben Thompson本周分析涵盖AI进入选举议题、谷歌的战略现状以及中国科技动向，属其付费通讯的每周精选汇总。",
+   "highlights_zh": [
+    "AI成为选举议题的政治与监管维度",
+    "谷歌在AI竞争中的战略位置评估",
+    "中国科技与AI市场动向"
+   ],
+   "why_zh": "顶级科技战略分析师对AI政治化与巨头格局的判断。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.648,
+   "date": "2026-11-07",
+   "slot": "noon",
+   "selected_at": "2026-11-07T04:55:22+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://stratechery.com/2026/falling-leaves-and-stocks/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-94e71a77453c",
+   "kind": "article",
+   "title": "voyager-so/vork",
+   "url": "https://github.com/voyager-so/vork",
+   "pdf_url": "",
+   "abstract": "Headless 3D and VFX engine for agents. Research preview.",
+   "authors": [],
+   "orgs": [
+    "voyager-so"
+   ],
+   "published": "2026-11-07T04:55:22+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/voyager-so/vork",
+     "signal": "★ 448（新项目） · Rust",
+     "metric": 448
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Vork：面向智能体的无头 3D 与 VFX 引擎",
+   "summary_zh": "voyager-so 开源 Vork，一个面向智能体的无头 3D 与 VFX 引擎研究预览，让 AI 智能体可编程生成三维场景与视觉特效。",
+   "highlights_zh": [
+    "无头架构，专为智能体调用设计",
+    "覆盖 3D 场景与 VFX 特效生成",
+    "Rust 实现，研究预览阶段"
+   ],
+   "why_zh": "如果你在做智能体驱动的 3D/视觉内容生成，可用它作为渲染与特效后端。",
+   "tags": [
+    "智能体",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.5551,
+   "score_llm": 7.0,
+   "score": 0.642,
+   "date": "2026-11-07",
+   "slot": "noon",
+   "selected_at": "2026-11-07T04:55:22+00:00",
+   "mirror_pdf": "pdf/web-94e71a77453c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/voyager-so/vork"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d62fbfe2fc04",
+   "kind": "article",
+   "title": "[AINews] Anthropic IPO: Whither Now?",
+   "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
+   "pdf_url": "",
+   "abstract": "November 6, 2026 — ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails.",
+   "authors": [
+    "swyx .ai"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-11-07T03:04:53+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "AINews：Anthropic IPO之后何去何从",
+   "summary_zh": "Latent Space每日AI简报，本期聚焦Anthropic IPO后的走向，并提及ARC Prize测试Inkling 2 Small、Thinking Machines解释早期检查点绕过护栏的问题。",
+   "highlights_zh": [
+    "Anthropic上市后的战略与市场影响讨论",
+    "ARC Prize对Inkling 2 Small的评测",
+    "Thinking Machines披露早期检查点绕过安全护栏的机制"
+   ],
+   "why_zh": "一线AI工程师社区对头部公司动向与安全问题的快速解读。",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-11-07",
+   "slot": "noon",
+   "selected_at": "2026-11-07T04:55:22+00:00",
+   "mirror_pdf": "pdf/web-d62fbfe2fc04.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5c9e8addaded",
+   "kind": "article",
+   "title": "“史上最大 IPO”遇挑战：Anthropic 上市估值存分歧，1.5 万亿美元仍被嫌贵",
+   "url": "https://www.ithome.com/1/023/640.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 7 日消息，路透社昨日（11 月 6 日）发布博文，报道称 AI 公司 Anthropic 的首次公开募股（IPO）计划面临投资者估值质疑， 部分投资者认为 1.5 万亿美元 （现汇率约合 10.03 万亿元人民币） 估值依然偏高 。Anthropic 拒绝就相关疑虑置评。 报道指出在冲击“史上最大 IPO”的道路上，Anthropic 的公司估值预期不断下调。Anthropic 公司原计划于 11 月 9 日当周启动路演、次周定价，争取 11 月挂牌，公司最初寻求高达 2 万亿美元 （现汇率约合 13.37 万亿元人民币） 的估值。 IT之家曾于 11 月 3 日援引《华尔街日报》报道，上周科技股的暴跌，正在改变计划参与 Anthropic IPO 的机构投资者对这家 AI 公司的估值判断。 这些投资者已向 Anthropic 及其顾问团队表示， 本月晚些时候 IPO 时的估值应在 1.5 万亿美元至 1.6 万亿美元 （现汇率约合 9.99 万亿元至 10.66 万亿元人民币） 之间 ，远低于此前数月市场讨论的接近 2 万亿美元 （IT之家注：现汇率约合 13.32 万亿元人民币） 的水平。 三家拟参与 IPO 的大型投资者认为应进一步降低估值，其中一名投资者认为估值可能更接近 1 万亿美元 （现汇率约合 6.69 万亿元人民币） 。从 2 万亿到 1 万亿，买卖双方预期相差一半，但这不代表公司已接受“腰斩”定价。 投资者的谨慎也与市场环境和公司财务状况有关。路透社称，科技股遭遇猛烈抛售，叠加 Anthropic 此前的季度亏损及巨额 AI 基础设施支出承诺，让认购方要求更大折价。部分投资者还在等待 10 月营收数据，以判断近期放缓的增长是否重新提速。 科技媒体 The Information 报道称，Anthropic 计划下周继续进行 IPO 路演，仍计划在 11 月 16 日那一周，也就是感恩节前夕进行公开上市。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-07T01:36:48+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/023/640.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic IPO 估值预期腰斩，投资者嫌 1.5 万亿仍贵",
+   "summary_zh": "Anthropic 冲击史上最大 IPO，估值预期从 2 万亿美元下调至 1.5-1.6 万亿，部分投资者认为应接近 1 万亿，反映科技股抛售下市场对 AI 高估值的谨慎。",
+   "highlights_zh": [
+    "原计划 11 月 9 日当周路演、次周定价，仍争取感恩节前上市",
+    "估值预期从 2 万亿降至 1.5-1.6 万亿，三家大型投资者要求进一步下调",
+    "科技股暴跌叠加季度亏损与巨额基建支出承诺，认购方要求更大折价"
+   ],
+   "why_zh": "头部 AI 公司 IPO 定价分歧，是观察 AI 资本市场情绪转向的关键信号。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-07",
+   "slot": "noon",
+   "selected_at": "2026-11-07T04:55:22+00:00",
+   "mirror_pdf": "pdf/web-5c9e8addaded.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/023/640.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0d415288aaf6",
+   "kind": "article",
+   "title": "meta/astryx",
+   "url": "https://github.com/meta/astryx",
+   "pdf_url": "",
+   "abstract": "Star meta / astryx An open source design system that's fully customizable and agent ready",
+   "authors": [],
+   "orgs": [
+    "meta"
+   ],
+   "published": "2026-11-07T04:55:22+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/meta/astryx",
+     "signal": "★ 今日 +198 · TypeScript",
+     "metric": 198
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Meta 开源智能体就绪设计系统 Astryx",
+   "summary_zh": "Meta 开源可完全定制的设计系统 Astryx，宣称「agent ready」，让 AI 智能体可直接消费组件规范生成界面。",
+   "highlights_zh": [
+    "TypeScript 实现，GitHub Trending 今日 +198",
+    "强调可定制性与智能体可读性",
+    "面向 AI 生成 UI 的组件规范"
+   ],
+   "why_zh": "如果你在做 AI 生成前端或智能体驱动 UI，可参考其组件元数据设计。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.6371,
+   "score_llm": 6.0,
+   "score": 0.6148,
+   "date": "2026-11-07",
+   "slot": "noon",
+   "selected_at": "2026-11-07T04:55:22+00:00",
+   "mirror_pdf": "pdf/web-0d415288aaf6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/meta/astryx"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-85c68ee4b288",
+   "kind": "article",
+   "title": "博世用豆包工作：让工程师少搬信息，多解问题",
+   "url": "http://www.geekpark.net/news/373643",
+   "pdf_url": "",
+   "abstract": "头图来源：豆包工作 客户在群里抛出一个问题，到工程师真正坐下来分析故障，中间隔着多少工作？ 在博世的某研发事业部，答案曾经是：找齐散落在各个群和私聊里的消息，按多个维度整理成完整描述，凭经验判断该找谁，接着再开会，再把结论写成报告。 故障分析还没开始，大半天已经过去了。 如今，这中间的一大段路，工程师交给了豆包工作和豆包工作伙伴。 博世的尝试：让 AI 接手沟通之后的工作 汽车产业链企业的研发部门，经常会遇到这样的情况：一个工程师要当三个用：研发细节要盯，还有很多日常重复的活儿需要做。 博世某事业部的工程师，其所在的团队需要对接各家客户，为客户提供系统综合解决方案。面对同一家客户，不同项目会有不同的群，测试、路试、投产任何一个环节出了问题，消息一条条蹦出来：哪个项目、哪个软件、报了什么故障代码、出现什么报错。 他得把这些碎片按不同的数个维度整合起来，所属项目、软件版本、车辆配置、测试工况、报错时间、诊断截图都在其中，再凭经验自己排障，或者转给负责对应模块的研发同学。解释不清的就拉会，双方澄清之后，再出报告发给客户。 让这位工程师下决心改变的，是两件事。 一是知识沉淀靠不住。经验都装在工程师个人脑子里，云文档、知识库不是没有，但每个人的模板和习惯不同，项目一忙，没人顾得上往里放。新问题来了还得先找人，人一走，经验就断档，这个恶性循环一直破不掉。 如果沉淀这件事不再靠自觉，不管是消息还是会议，AI 能在人无感的状态下自动记下来，那就可以节省很多时间精力。 二是客户不会按模板提问。问题是流式发生的，消息不停往外蹦，没人能把故障代码、截图和十四五条字段在一条消息里一次性给齐。碎片攒不齐，后面的分析就迟迟开不了工。 豆包工作和豆包工作伙伴的加入解决了这些问题。 在工程师真实的日常工作中，问题通常是从私聊开始的，工程师可以在豆包工作里配置定时任务，巡检自己收到的私聊消息，识别出故障类信息，再以本人身份转发到问题报告专项话题群。 在这个流程里，客户的沟通习惯不用改，工程师少了手动搬运，散落在流程外的事被拉回了流程里。 消息进了专项群，每个问题占一个独立话题，不同任务的材料互不混杂，天然形成「一事一议」的界面。 豆包工作伙伴爬取群里的历史上下文，把流式蹦出来的碎片聚成完整的问题描述，再调用封装好的报告生成技能，按标准模板出初稿，同时登记进飞书多维表格，提醒对应工程师处理。 在一次真实的问题处理记录里，AI 把消息整理成飞书文档，问题状态标为「进行中」；驱动形式、驾驶模式这些没给全的信息，就保留「待补充」，工程师需要做的就是在初稿上核对、补齐，不必从空白文档开始。 还有些细节只有在开会时才能敲定下来。 工程师可以邀请豆包工作伙伴参加问题沟通会，它全程旁听，散会后直接把会上澄清的信息同步进报告，讨论、记录和报告之间，省掉了人工转述的环节。按工程师自己的估算，AI 初稿能覆盖七八成内容，剩下两成交给人判断；会议结论补完，报告基本齐活，再经人工复核一遍，才发给客户。 报告同时会归档进团队知识库，状态和进度留在多维表格：表格管跟进，知识库管留存。再遇到相似问题，AI 检索历史材料，先给出初版台账和归因。 它能调用的知识分两类：一类是外部行业知识，比如通用故障码各自代表什么含义；另一类是团队自己的历史沉淀，哪怕是已经离职的老工程师当年处理过的问题，也能被翻出来引用。 这个项目从需求到落地，用了短短一周多时间。事实上，豆包工作伙伴真正上岗的只花了一天，它进群跟工程师工作一天后，项目已经运转了起来，后面一周则用来调优细节，比如哪些报告写得太啰嗦，哪些内容不该放进去，哪些描述不够",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-07T03:35:36+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373643",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "博世用豆包工作：让工程师少搬信息，多解问题",
+   "summary_zh": "博世研发部门用豆包工作与工作伙伴自动巡检私聊、聚合碎片信息、生成故障报告初稿并归档知识库，AI覆盖约七八成内容，工程师专注判断与复核。",
+   "highlights_zh": [
+    "定时任务巡检私聊，识别故障信息并以本人身份转发到专项群",
+    "工作伙伴爬取群上下文聚成完整问题描述，按模板出报告初稿并登记多维表格",
+    "会议旁听自动同步结论，报告归档知识库供相似问题检索归因"
+   ],
+   "why_zh": "企业级智能体落地真实业务流程的完整案例，含具体工作流与量化效果。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-11-07",
+   "slot": "noon",
+   "selected_at": "2026-11-07T04:55:22+00:00",
+   "mirror_pdf": "pdf/web-85c68ee4b288.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373643"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f87dc70d48c7",
+   "kind": "article",
+   "title": "办公提效之后，企业级 Agent 开始对经营结果负责",
+   "url": "http://www.geekpark.net/news/373642",
+   "pdf_url": "",
+   "abstract": "头图来源：腾讯云 过去一年，智能体是 AI 行业最受关注的方向之一。 从查资料、写文档到处理日常办公事务，桌面办公智能体完成了第一轮普及，办公提效的价值已经成为行业共识。但当 AI 进一步走向企业核心业务，搭出一个智能体不难，难的是让它真正跑进业务流程，适配复杂的系统、权限与规则，持续产出可量化的经营价值。 在腾讯云副总裁吴永坚看来，未来企业级智能体的核心赛道，对话式的桌面办公 Agent 和服务经营的 Service Agent 会是两个长期并行的赛道。大模型提供了理解与推理能力，但想让 AI 真正参与业务经营，还需要一套能够打通系统、管好权限、支撑长期稳定运行的企业级平台。 在 2026 腾讯全球数字生态大会企业级 Agent 产业实践专场上，腾讯云 ADP 宣布完成全生命周期产品升级，同时推出 FDE 交付方法论与生态共建体系，试图回答的正是这一问题：当办公场景的提效已经形成共识，要让智能体真的走进业务经营场景，底层的智能体平台，到底需要补哪些能力。 过去用来搭建单点应用的开发工具，正在成为 Service Agent 扎根企业业务流的核心基础设施。 一、从办公到经营，企业级 Agent 需要新的底座 过去这一年，办公场景的 Agent 已经完成了普及教育，员工用它处理文档、检索信息、辅助日常工作，个人效率的提升是普遍可感知的。 但在个人价值与企业价值之间仍然存在着一道鸿沟，麦肯锡 2026 年 8 月的全球 AI 调查给出了一组很有说服力的反差数据：80% 的人感受到了 AI 带来的个人效率提升，但只有不到四成的人认为 AI 真正为公司利润创造了正向贡献。 这个反差本身就是行业焦虑的来源—— 当所有人都在说 AI 提效，企业管理者真正关心的问题却没有标准答案。 顺着这个焦虑往下看，企业现在问的问题早就变了。大家不再问「智能体能做什么」，而是问「个人提效怎么变成业务增长」、「安全怎么管」以及「效果怎么评」。整个行业其实还没有一套固定的落地范式，从业务流程到组织架构，每家企业都在自己摸路。 腾讯集团副总裁、腾讯云 CTO 王慧星｜图片来源：腾讯云 腾讯集团副总裁、腾讯云 CTO 王慧星在和媒体交流时提到一个变化：过去是云厂商追着企业说数字化是必答题，现在反过来了，企业 CEO 主动找上门问这道题该怎么答。在他看来，平台方的角色也跟着变了，过去是把一个封闭的产品塞给客户，现在得把能力拆成原子化单元，和企业一起在真实业务里趟出路径。 事实上，Service Agent 和大家熟悉的办公助手，本质上是两个赛道。 吴永坚在接受采访时讲得很清楚，ADP 做的不是通用的 Agent 开发平台，而是专门面向数据和业务场景的 Service Agent 构建平台。这类智能体有两个绕不开的硬骨头——一是跨系统打通，要从合同、发票、业务记录这些分散在不同系统里的数据里统一口径，再做分析；二是权限体系严格对齐企业原有的身份机制，同一个问题，不同职级的人拿到的答案本来就该不一样。 行业的关注点已经发生了转移。搭出智能体 Demo，早已经不是什么难的环节。 真正难的是跨过四道实实在在的坎：AI 怎么安全接进公司内部系统，谁能看哪些数据；非专业人员怎么把知识和工具组织起来；跑起来之后怎么持续监测效果、成本和故障；公司建了一堆 Agent，员工却不知道有哪些、该用哪一个。 这也正好呼应了腾讯公司高级执行副总裁、腾讯云与智慧产业事业群总裁汤道生在主论坛上的判断——Agent 的使命要从内部协同走向业务经营，遵循业务规则、全天候运行，最终对实际的经营结果负责。 二、从搭建工具",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-07T03:31:37+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373642",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "办公提效之后，企业级Agent开始对经营结果负责",
+   "summary_zh": "腾讯云ADP全生命周期升级并推出FDE交付方法论，吴永坚认为桌面办公Agent与服务经营的Service Agent是两条并行赛道，企业级平台需补齐跨系统打通、权限对齐、效果评估等能力。",
+   "highlights_zh": [
+    "麦肯锡数据：80%感受个人提效，但不到四成认为AI为公司利润创造正向贡献",
+    "Service Agent两大硬骨头：跨系统数据统一口径、权限体系严格对齐企业身份机制",
+    "落地四道坎：安全接入内部系统、非专业人员组织知识工具、持续监测效果成本、Agent发现与选用"
+   ],
+   "why_zh": "头部云厂商对企业级Agent赛道划分与平台能力缺口的明确判断。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-11-07",
+   "slot": "noon",
+   "selected_at": "2026-11-07T04:55:22+00:00",
+   "mirror_pdf": "pdf/web-f87dc70d48c7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373642"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-78619289f98b",
+   "kind": "article",
+   "title": "lobehub/lobehub",
+   "url": "https://github.com/lobehub/lobehub",
+   "pdf_url": "",
+   "abstract": "Sponsor Star lobehub / lobehub 🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
+   "authors": [],
+   "orgs": [
+    "lobehub"
+   ],
+   "published": "2026-11-07T04:55:22+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/lobehub/lobehub",
+     "signal": "★ 今日 +209 · TypeScript",
+     "metric": 209
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "LobeHub：团队协作超级智能体平台",
+   "summary_zh": "LobeHub 推出可加入团队现有聊天工具的超级智能体，自主承接工作并持续迭代。",
+   "highlights_zh": [
+    "智能体嵌入现有团队聊天流",
+    "自主完成任务并每周进化",
+    "TypeScript，GitHub Trending +209"
+   ],
+   "why_zh": "如果你在团队中落地智能体协作，可试用其接入现有聊天工具的模式。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5593,
+   "score_llm": 6.0,
+   "score": 0.5837,
+   "date": "2026-11-07",
+   "slot": "noon",
+   "selected_at": "2026-11-07T04:55:22+00:00",
+   "mirror_pdf": "pdf/web-78619289f98b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/lobehub/lobehub"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-913beddcb453",
+   "kind": "article",
+   "title": "Edge AI Daily 早报（11月7日）",
+   "url": "https://www.tmtpost.com/8196982.html",
+   "pdf_url": "",
+   "abstract": "Anthropic递交修订版S-1，机构将估值由2万亿美元压至1.5万亿至1.6万亿；OpenAI完成110亿美元首期交割，投前估值1.25万亿，总额由300亿砍至约200亿，AI一级市场进入现金流定价期。中期选举后10州41项数据中心公投多数通过限制，得州、弗吉尼亚监管转向与微软终止甲骨文逾30亿美元租约共振；英伟达单日跌9.26%、纳指周跌5.52%，麦格理套现560亿美元离场转投电力。",
+   "authors": [
+    "Edge AI Daily"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-07T00:28:54+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8196982.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Edge AI Daily早报：AI一级市场进入现金流定价期",
+   "summary_zh": "Anthropic估值被压至1.5万亿、OpenAI融资缩水，叠加数据中心公投与英伟达大跌，AI一级市场转向现金流定价。",
+   "highlights_zh": [
+    "Anthropic与OpenAI估值/融资双双下调",
+    "10州41项数据中心公投多数通过限制",
+    "英伟达单日跌9.26%，资金转向电力"
+   ],
+   "why_zh": "一天内看清AI资本市场与基础设施监管的风向转变。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-07",
+   "slot": "noon",
+   "selected_at": "2026-11-07T04:55:22+00:00",
+   "mirror_pdf": "pdf/web-913beddcb453.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8196982.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-be4fae2a452d",
+   "kind": "article",
+   "title": "肉眼不可见：苹果 iOS 27.2 新增隐形水印，图像工具 AI 生图 / 修图均有迹可查",
+   "url": "https://www.ithome.com/1/023/663.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 7 日消息，苹果公司于 11 月 5 日更新官方支持文档，宣布从 iOS / iPadOS / macOS 27.2 等版本系统开始， 为部分 Apple Intelligence 图像工具引入 SynthID 隐形水印。 IT之家援引博文介绍，在涉及的图像工具方面，涵盖图乐园（Image Playground）和图像魔法棒（Image Wand），以及“照片”中的清理（Clean Up）、扩展（Extend）和空间重构（Spatial Reframing）功能。 值得注意的是，标记对象并不局限于完全由 AI 生成的图片。即使是用户实际拍摄的照片， 只要使用上述指定 AI 工具进行处理，也会加入 SynthID 水印。 苹果表示这些水印人眼无法察觉，也不会改变图像外观，但可以被 SynthID 检测器读取。要检查图像中是否存在水印，请在网页浏览器中访问 synthid.com 并上传图像，按照屏幕上的步骤操作即可查看结果。 在今年秋季发布会上， 苹果宣布为 iPhone 18 Pro 系列推出“Apple 参考图像” ，通过支持 SynthID 标准，支持像素级标注真实图像数据，用户可通过该技术证明所拍照片的原真性。 苹果官方介绍称，Apple 参考图像尽可能从最安全的地方入手，全新主摄会在像素层面安全地标注照片数据，专用云计算则会将这些已标注的数据转换为不可更改的图像，保存在照片 App 中供用户查看。 相关阅读： 《 证明照片不是 AI：苹果 iPhone 18 Pro 支持像素级标注真实图像数据，但又和国内无关 》 《 苹果 iOS 27.2 系统为 AI 生成图片加入 SynthID 隐藏水印 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-07T03:41:42+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/023/663.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "苹果iOS 27.2为AI图像工具加SynthID隐形水印",
+   "summary_zh": "苹果在iOS 27.2起为图乐园、清理等AI图像工具加入SynthID隐形水印，AI生成或修图均可被检测。",
+   "highlights_zh": [
+    "覆盖生成与修图全流程",
+    "人眼不可见，可被SynthID检测器读取",
+    "iPhone 18 Pro支持像素级真实图像标注"
+   ],
+   "why_zh": "头部平台落地AI内容溯源，影响内容真实性与合规实践。",
+   "tags": [
+    "对齐与安全",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-07",
+   "slot": "noon",
+   "selected_at": "2026-11-07T04:55:22+00:00",
+   "mirror_pdf": "pdf/web-be4fae2a452d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/023/663.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e3a8d1c716fb",
+   "kind": "article",
+   "title": "苹果 iOS 键盘被曝隐藏约 10 万个敏感词汇名单：避免 iPhone 输入法自动推荐补全，但用户仍可手动输入",
+   "url": "https://www.ithome.com/1/023/638.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 7 日消息，据路透社当地时间 11 月 6 日报道，独立研究人员 Derik Kauffman 发现，苹果 iOS 键盘系统内部存在一份未公开的多语言词汇限制名单，研究人员将其称为“灰名单”（Gray List）。 这意味着苹果不会通过自动补全或滑行输入功能向用户主动推荐这些词汇，但不禁止用户手动输入。据介绍，这份名单不仅包括脏话、性相关内容以及毒品和暴力相关词汇，还涉及部分政治敏感表达。 Kauffman 表示，他是在今年 9 月发现这份名单的。当时，他注意到 iPhone 滑行输入在处理某些短语时会出现异常，例如输入“Bad boy”（坏男孩）和“White man”（白人男性）时会出现卡顿，但输入“Bad girl”（坏女孩）和“Black man”（黑人男性）时却没有类似问题。 随后，他使用 OpenAI Codex 和 Anthropic Claude Code 对系统内部文件进行了分析，最终找到了这份隐藏词汇名单。 Kauffman 表示，他估计名单包含约 10 万个单词、短语及其不同变体。具体数量取决于统计方式，约 10 万个是相对保守的估算。 名单中的大部分内容涉及粗俗表达、冒犯性词汇以及毒品、性和暴力相关内容，不过也包含一些政治和社会议题相关表达。例如，名单中包括“Dictator Trump”“Sleepy Joe”“Right wing conspiracy”（右翼阴谋论）和“United Ireland”（联合爱尔兰）等短语。不同语言也存在各自的限制内容，例如印地语中的部分针对印度总理莫迪和反对派领导人拉胡尔・甘地的讽刺表达，以及法语中的“Immigration too high”（移民数量过高）和希伯来语中的“Occupied territories”（被占领土）。 苹果向路透社回应称，用户始终可以手动输入任何单词和短语，也可以覆盖键盘提供的预测文本建议。苹果表示，其键盘的设计目标是避免推荐可能不恰当或具有冒犯性的内容，但没有直接回应名单的规模、具体构成，以及为何将部分政治表达列入其中。 路透社记者随后使用 iPhone 对 Kauffman 提供的部分词汇进行了独立测试，发现相关限制确实存在。例如，尝试通过滑行输入“United Ireland”，键盘可能将其识别为“United Iceland”；输入“Sleepy Joe”时，可能得到“Sleepy hope”。输入“Dictator Trump”虽然可以完成，但键盘不会正常推荐这一完整短语，甚至会将 Trump 自动处理为小写形式。 在其他测试中，输入“White man”可能被识别为“White mean”，而“Red man”和“Blue man”则可以正常完成滑行输入。此外，“Read smut”（看小黄书）能够正常输入，但“Read gay smut”（看男同小说）则可能被错误识别为其他词汇。 这份名单也得到了其他研究人员的独立验证。网络安全工程师、人工智能安全公司 Tolmo 的 Matt Suiche 表示，他也从苹果系统中恢复出了这份灰名单，并与 Kauffman 的研究结果进行了交叉比对，两者高度吻合。他还指出，这份名单已经隐藏在苹果软件中多年。 对于这种设计，Kauffman 认为，苹果希望避免用户意外发送粗俗内容或具有煽动性的表达，这一出发点可以理解，但具体执行存在不一致。他将其称为一种“轻度形式的审查”，并指出，当这一机制应用于数以亿计的 iPhone 用户时，即使只是轻微干预，也可能产生广泛影响。 美国电子前沿基金会（E",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-07T01:33:31+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/023/638.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "苹果 iOS 键盘藏约 10 万词灰名单，含政治敏感表达",
+   "summary_zh": "研究者用 Codex 与 Claude Code 逆向发现 iOS 键盘内置约 10 万条多语言灰名单，不主动推荐但允许手动输入，含政治敏感短语，苹果未正面回应构成。",
+   "highlights_zh": [
+    "名单影响自动补全与滑行输入，如「United Ireland」被识别为「United Iceland」",
+    "含「Dictator Trump」「Sleepy Joe」等政治表达及多语种本地敏感词",
+    "另一研究者独立恢复名单并交叉验证，称已隐藏多年"
+   ],
+   "why_zh": "大模型辅助逆向工程揭示平台隐性内容策略，对输入法与内容审核设计有参考价值。",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-07",
+   "slot": "noon",
+   "selected_at": "2026-11-07T04:55:22+00:00",
+   "mirror_pdf": "pdf/web-e3a8d1c716fb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/023/638.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-82196d4ece0a",
+   "kind": "article",
+   "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+   "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-11-06T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Open ASR 榜单新增埃及与尼日利亚英语",
+   "summary_zh": "Hugging Face 在 Open ASR Leaderboard 中新增埃及英语和尼日利亚英语两个评测集，扩大语音识别模型在非主流口音上的可比范围。",
+   "highlights_zh": [
+    "新增埃及英语与尼日利亚英语两个 ASR 评测子集",
+    "为低资源口音提供统一、可复现的对比基准",
+    "有助于暴露主流 ASR 模型在非标准口音上的性能差距"
+   ],
+   "why_zh": "做多语种或口音鲁棒性语音识别评测的团队可参考其数据与榜单口径。",
+   "tags": [
+    "语音",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 6.0,
+   "score": 0.552,
+   "date": "2026-11-07",
+   "slot": "noon",
+   "selected_at": "2026-11-07T04:55:22+00:00",
+   "mirror_pdf": "pdf/web-82196d4ece0a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/open-asr-leaderboard-liva"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-83fb8edbe115",
+   "kind": "article",
+   "title": "马斯克官宣 Cybertruck 停产：销量不足预期一成；李飞飞团队推出世界模型「模拟掌机」；小米汽车成立国际事业部｜极客早知道",
+   "url": "http://www.geekpark.net/news/373639",
+   "pdf_url": "",
+   "abstract": "电动皮卡中道崩殂！马斯克宣布 Cybertruck 明年逐步停产：销量仅达预期一成 11 月 6 日消息，特斯拉 CEO 马斯克在社交平台 X 发文表示，公司将于明年年中前后，逐步收尾得州超级工厂的 Cybertruck 电动皮卡生产，为 Cybercab 车型扩产腾出产能空间。 Cybertruck 首席工程师随后回应称，Cybertruck 是特斯拉研发新技术的重要载体，其线控转向等技术已应用于 Cybercab，产品技术生命将在新车型上延续。 市场表现方面，Cybertruck 实际销量与规划目标差距悬殊， 马斯克曾在 2023 年股东大会上预计，产能完全爬坡后该车年销量可达 25 万至 50 万辆。 特斯拉未单独披露该车型交付数据，据行业估算，今年三季度 Cybertruck 交付量约 7000 至 8000 辆， 折合年销量约 3 万辆，仅为原规划年产能 25 万辆的 12%左右。 美国市场数据显示，Cybertruck 2025 年在美销量为 20237 辆，同比下滑 48%，今年一季度更是跌至 3519 辆的历史低点。（来源：快科技） 消息称 OpenAI 完成 110 亿美元首期新融资，估值 1.25 万亿美元 11 月 7 日，据彭博社报道，知情人士称，OpenAI 新一轮融资已完成大约 110 亿美元的首期款项，对公司的估值为 1.25 万亿美元。 据知情人士透露，截至周五，这笔资金已汇入 OpenAI 账户。其中一位知情人士称，本轮融资的剩余部分预计将在未来几周内完成，融资总额最高可能达到 200 亿美元。 在推迟首次公开招股 (IPO) 计划后，OpenAI 已与投资者就大规模融资进行了一个多月的谈判。彭博社此前报道称，OpenAI 最初计划以 1.4 万亿美元的估值融资至少 300 亿美元。但随着 AI 股票在公开市场遭遇大幅抛售，该公司随后缩减了融资计划。 知情人士表示，参与首期融资的投资者包括寇图资本管理和普信集团。本轮融资的其他投资者还包括软银集团、红杉资本、Founders Fund 和安德森 · 霍洛维茨基金。彭博社此前报道称，一个来自阿联酋的投资者财团也参与了本轮融资。 知情人士称，OpenAI 还在与投资银行合作，计划向高净值个人投资者和散户投资者募集资金。OpenAI 最近一次融资是在今年 3 月，当时该公司完成了 1220 亿美元融资，估值达到 8520 亿美元。（来源：IT 之家） 李飞飞 World Labs 团队发布「游戏掌机」Frameboy：用网页实时探索 AI 生成世界，每秒最高 15 帧 「AI 教母」李飞飞的创企 World Labs 于今年 9 月发布了「全球首个多模态世界模型」—— Atlas，宣称该模型能够以像素级精确的相机控制生成图像和视频帧，并将其在 3D 中重建。 时隔两个月，World Labs 端出了一款名为 Frameboy 的演示项目，可以让网友直接在网页端体验，用高度优化的 Atlas 版本实时探索多模态世界，并以最高 15 帧每秒的云 GPU 流媒体传输。 Frameboy 是一个类似游戏机的模拟项目， 网友可点击不同的「游戏卡带」来选择不同的模拟世界 ，经过十几秒加载后就可以自由探索模拟的世界。 Frameboy 的按键和摇杆支持通过 触屏、键盘按键 操控，十字键是进行移动，摇杆是调整视角，整体操作稍微有些卡顿，毕竟最高只有 15 帧。 此外，Frameboy 目前必须运行在云端强大的 GPU 服务器上，成本与本地渲染方法相比并不便宜。 不过这个演示相当于一个起",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-07T00:48:25+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373639",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "马斯克官宣Cybertruck停产；李飞飞团队推出世界模型掌机；小米汽车成立国际事业部",
+   "summary_zh": "极客早知道汇总：Cybertruck明年逐步停产、OpenAI完成110亿美元首期融资估值1.25万亿美元、World Labs发布Frameboy网页端实时探索世界模型演示。",
+   "highlights_zh": [
+    "Cybertruck年销量约3万辆，仅为原规划25万辆的12%",
+    "OpenAI新一轮融资首期110亿美元到账，总额最高或达200亿美元",
+    "Frameboy用高度优化Atlas版本在网页实时探索AI生成世界，最高15帧"
+   ],
+   "why_zh": "快速掌握当日AI与科技要闻，世界模型演示值得关注。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.528,
+   "date": "2026-11-07",
+   "slot": "noon",
+   "selected_at": "2026-11-07T04:55:22+00:00",
+   "mirror_pdf": "pdf/web-83fb8edbe115.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373639"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3a0d67d4c251",
+   "kind": "article",
+   "title": "OpenAI 「重置大神」换人了？Tibo 去救火，Andrew 上位",
+   "url": "https://www.leiphone.com/category/yanxishe/u5N6lCUT0bEfanp1.html",
+   "pdf_url": "",
+   "abstract": "Tibo 不发糖了？因为Open AI 的内部安全烂透了 作者丨 高允毅 编辑丨岑 峰 OpenAI 的“赛博义父”好像换人了？最先发现不对劲的是敏锐的网友。 11 月 4 日， Codex 团队的产品负责人 Andrew Ambrosino 发帖称，关于 OpenAI 产品的任何意见都可以反馈给他。 Tibo 在下面跟了一句：“快点改进模型”，Andrew 回：“马上照办”。 在另一个互动里，双方的关键词都在不断 cue “按钮”。 这些对话看起来很像某种交接仪式，但实际上可能是 OpenAI 内部分工的细化：Tibo 不再亲自下场做客服回应用户的额度问题了，而是把协调产品体验的活交给了更懂技术的 Andrew。 而 Tibo 自身有更重要的事要管。据路透社曝出， Tibo 被调去治理 OpenAI 内部安全问题。 其实真的交接起来，也很容易，就是传递一个按钮的事儿。众所周知，Codex 的重置功能，真的来自一个按钮。 曾有两名博主去拜访 OpenAI 时，亲眼确认那个按钮就在 Tibo 桌子上，被一个银色翻盖盒子包裹。按钮连接着OpenAI内部系统，按下去，全球所有付费用户的 Codex 额度就清零重置了，无需任何审批。 在 OpenAI DevDay 开发者大会现场，Tibo 甚至直接把这个按钮带上了演讲台。当 Sam Altman 在台上念到他的名字，他穿着黑色连帽衫站起来，把按钮高举过头，然后当场按了下去，这个仪式环节引起全场欢呼。 这就是 \"赛博义父\" 这个外号的由来。Tibo 隔三差五就给全球开发者重置额度，每当重度用户额度刚见底，“义父” 就来发糖了。 前段时间他还立了个军令状：“连续 28 天，每天要么推出一项明显改进，要么就按一次按钮全员重置。” 如今28天活动已经结束，新的赛博义父要来了吗？ 01 Andrew Ambrosino 是何许人？ 和喜欢玩梗、爱与网友互动、“我想重置就重置”的 Tibo 完全不同， Andrew Ambrosino 是个偏向实干的技术通才。 如果说 Tibo 擅长用重置额度给用户“发糖”，那么 Andrew 的性格更偏向：不爽？那我就把产品重写一遍。 在社交媒体上，Andrew 给自己的标签是：设计师、工程师、产品经理、创始人。他是一个至今仍把 React、Next.js、GraphQL 和 Tailwind 挂在简历上，坚持亲自写代码的行动派。 少年时，Andrew就是一个技术明星，连续两年拿到苹果 WWDC 学生奖学金。 早期，他先后在联邦研发中心 MITRE 担任高级设计工程师，并在微软及云存储公司 Upthere 积累了深厚的产品设计经验。 他不仅懂技术，还熟悉监管、商业这类复杂场景。2016 年，Andrew 联合创立了面向自由职业者的福利平台 Catch。为了吃透健康保险和税务这类高门槛业务，他主动考取了 FINRA 投资顾问牌照与保险代理人牌照。Catch 公开 A 轮融资 1200 万美元，在自由职业福利赛道形成独特的风格。 离开 Catch 之后，他加入 Noyo 担任产品负责人，又在短时间内统一了 15 个服务的 API，帮公司实现了客户量翻倍。 2025 年加入 OpenAI 后，Andrew 成为了“Agent 桌面应用”这一新品类的定义者。 他主导的 Codex 桌面端在 2026 年 2 月发布后，短短几个月内周活涨了六倍，突破 500 万，在 OpenAI 内部绝大多数员工都在使用。 但真正让外界见识到他 “实干” 风格的，是他在播客里曾透露，自己带领团队闭关 5 ",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-06T09:11:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/yanxishe/u5N6lCUT0bEfanp1.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI 人事调整：Tibo 转岗安全，Andrew 接手 Codex 产品",
+   "summary_zh": "雷峰网报道 OpenAI Codex 产品负责人交接：Tibo 据称被调去治理内部安全问题，技术通才 Andrew Ambrosino 接手产品体验协调工作。",
+   "highlights_zh": [
+    "Tibo 据路透社报道被调往 OpenAI 内部安全治理",
+    "Andrew Ambrosino 曾主导 Codex 桌面端，兼任设计、工程与产品",
+    "反映 OpenAI 在安全与产品体验上的分工细化"
+   ],
+   "why_zh": "头部公司人事与安全治理动向，但多为社交媒体线索拼凑，信息待证实。",
+   "tags": [
+    "产品与行业",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-07",
+   "slot": "noon",
+   "selected_at": "2026-11-07T04:55:22+00:00",
+   "mirror_pdf": "pdf/web-3a0d67d4c251.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/yanxishe/u5N6lCUT0bEfanp1.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ca61fd89b5bc",
+   "kind": "article",
+   "title": "CyberwIIOS：如何驾驭大模型在 OT 侧跨越“幻觉”与“失控”｜AICon北京",
+   "url": "https://www.infoq.cn/article/K1bCIbHxeu3wLIjdusgr?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "AICon 全球人工智能开发与应用大会"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-07T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/K1bCIbHxeu3wLIjdusgr?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AICon：大模型在OT侧如何跨越幻觉与失控",
+   "summary_zh": "AICon北京议题介绍CyberwIIOS如何在大模型落地OT侧时应对幻觉与失控风险，属会议演讲预告。",
+   "highlights_zh": [
+    "聚焦大模型在工业OT环境的可靠性问题",
+    "涉及幻觉与失控两类风险的控制思路",
+    "为AICon大会演讲内容预告"
+   ],
+   "why_zh": "关注大模型进入工业OT场景的安全落地议题。",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-07",
+   "slot": "noon",
+   "selected_at": "2026-11-07T04:55:22+00:00",
+   "mirror_pdf": "pdf/web-ca61fd89b5bc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/K1bCIbHxeu3wLIjdusgr?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c019550ed353",
+   "kind": "article",
+   "title": "从仓储到配送，全程由 AI“指挥”：京东物流“超脑”3.0 的工业级 AI 实践",
+   "url": "https://www.infoq.cn/article/jBdvoUXheWN0oe6NfklO?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "京东物流"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-06T11:14:55+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/jBdvoUXheWN0oe6NfklO?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "京东物流超脑3.0：仓储到配送的工业级AI实践",
+   "summary_zh": "京东物流发布超脑3.0，用AI统一调度仓储到配送全链路，展示工业级落地效果。",
+   "highlights_zh": [
+    "覆盖仓储、分拣、配送全链路的AI调度",
+    "工业级场景下的落地经验与数据",
+    "由京东物流与InfoQ联合呈现"
+   ],
+   "why_zh": "了解大厂物流场景AI落地的真实工程细节与边界。",
+   "tags": [
+    "产品与行业",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-07",
+   "slot": "noon",
+   "selected_at": "2026-11-07T04:55:22+00:00",
+   "mirror_pdf": "pdf/web-c019550ed353.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/jBdvoUXheWN0oe6NfklO?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0f93f9540dbc",
+   "kind": "article",
+   "title": "当 Coding Agent 走进研发团队：我们打造并开源了自进化研发平台 LoopForge",
+   "url": "https://www.infoq.cn/article/QGaIWSgd9uwx2WGw0yFv?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "LoopForge、康悦Rita"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-06T07:14:48+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/QGaIWSgd9uwx2WGw0yFv?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "LoopForge：开源自进化Coding Agent研发平台",
+   "summary_zh": "团队打造并开源LoopForge，让Coding Agent在研发流程中自我进化，提升团队协作效率。",
+   "highlights_zh": [
+    "面向研发团队的Coding Agent平台",
+    "强调自进化机制",
+    "已开源可试用"
+   ],
+   "why_zh": "想给团队引入Coding Agent的，可参考其自进化设计思路。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-07",
+   "slot": "noon",
+   "selected_at": "2026-11-07T04:55:22+00:00",
+   "mirror_pdf": "pdf/web-0f93f9540dbc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/QGaIWSgd9uwx2WGw0yFv?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "推理效率成为模型竞争新战场，扩散语言模型与线性注意力同步提速",
-   "why": "SpecCTMC将扩散LM串行评估减少1.73–4.38倍，Muir让线性注意力困惑度再降1.8–2.0%，架构层效率优化密集出现。",
+   "trend": "AI一级市场从叙事定价转向现金流定价，高估值开始被系统性下修。",
+   "why": "Anthropic估值预期从2万亿下调至1.5万亿，OpenAI融资缩水，市场对AI高估值趋于谨慎。",
+   "refs": [
+    "web-5c9e8addaded",
+    "web-913beddcb453"
+   ]
+  },
+  {
+   "trend": "推理效率成为模型竞争新焦点，扩散语言模型与线性注意力同时取得采样与架构突破。",
+   "why": "SpecCTMC将扩散LM串行评估减少1.73–4.38倍，Muir线性注意力困惑度较GDN-2降1.8–2.0%。",
    "refs": [
     "arxiv-2611.08362",
     "arxiv-2611.08376"
    ]
   },
   {
-   "trend": "机器人学习从刷榜转向可复现评测，基准与仿真环境成新话语权",
-   "why": "ToyBlocks提供可控仿真环境便于横向比较，CoRL论文数四年增4.5倍且中国占比升至37.5%，评测方法正重塑竞争格局。",
+   "trend": "智能体评测从能力展示转向真实场景与安全对抗，基准开始覆盖湿实验室与社工攻击。",
+   "why": "OpenAI推出BioBasicsBench湿实验室任务，Multimodal-SEA显示多模态内容使攻击成功率从19.9%升至29.2%。",
    "refs": [
-    "web-be1ba71e55b7",
-    "web-5ed9e12b1a49"
-   ]
-  },
-  {
-   "trend": "智能体安全从文本攻防升级为多模态社工攻击的实测基准",
-   "why": "Multimodal-SEA用608个真实诈骗案例测得攻击成功率7.1%–34.5%，加入多模态内容后从19.9%升至29.2%。",
-   "refs": [
+    "web-cfd4354afa14",
     "arxiv-2611.08281"
    ]
   },
   {
-   "trend": "算力扩张绕开大机房，内存与存量基础设施成为新瓶颈与突破口",
-   "why": "英伟达拟改造130座电信楼提供约1吉瓦算力，同时官方承认显存供给趋紧、价格上涨，转向HBM3e/HBM4协同。",
+   "trend": "算力供给瓶颈从芯片转向内存与场地，全栈协同和存量基础设施改造成为新路径。",
+   "why": "NVIDIA称显存压力推高成本并推进HBM3e/HBM4，英伟达拟将130座电信楼改造为约1GW小型数据中心。",
    "refs": [
-    "web-7c269a9386af",
-    "web-3df4d68063a5"
+    "web-3df4d68063a5",
+    "web-7c269a9386af"
    ]
   },
   {
-   "trend": "国产芯片以Day-0适配和稀疏计算切入大模型推理供应链",
-   "why": "摩尔线程完成3万亿参数Kimi K3.1 Pro的Day-0适配，DeepSeek带火的稀疏计算公司再获近10亿元融资。",
+   "trend": "中国具身智能与机器人研究快速崛起，学术格局从美国单极转向多极竞争。",
+   "why": "CoRL录取论文中国机构占比从5.9%升至37.5%，清华以58篇首次超过CMU和斯坦福登顶。",
    "refs": [
-    "web-305545fdb5f7",
-    "web-9625cbac0b64"
+    "web-5ed9e12b1a49"
    ]
   }
  ]
