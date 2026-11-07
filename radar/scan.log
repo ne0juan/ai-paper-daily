@@ -1,10 +1,11 @@
-2026-11-06 17:53:22,591 INFO source hf_daily           -> 20 items
-2026-11-06 17:53:22,831 INFO source hackernews         -> 6 items
-2026-11-06 17:54:09,310 INFO source rss                -> 106 items
-2026-11-06 17:54:10,518 INFO source html_lists         -> 0 items
-2026-11-06 17:54:10,518 INFO source x                  -> 0 items
-2026-11-06 17:54:11,160 INFO source arxiv_search       -> 60 items
-2026-11-06 17:54:19,191 INFO source github             -> 20 items
-2026-11-06 17:54:19,193 INFO candidates: 211 (stale dropped 99, new 72)
-2026-11-06 17:55:35,346 INFO llm judged 72/72 (calls=9)
-2026-11-06 17:58:48,986 INFO run done: {"at": "2026-11-06T17:53:22+00:00", "slot": "morning", "candidates": 211, "new": 72, "stale": 99, "judged": 72, "selected": 21, "mirrored": 21, "by_category": {"资讯": 13, "项目": 3, "观点": 1, "技术": 4}, "by_source": {"HF Daily Papers": 20, "arXiv 新论文": 60, "Hacker News": 6, "量子位": 10, "极客公园": 7, "IT之家": 12, "爱范儿": 6, "少数派": 3, "雷峰网": 15, "钛媒体": 3, "InfoQ 中文": 16, "阮一峰": 1, "Dwarkesh Patel": 1, "Latent Space": 4, "Stratechery": 2, "SemiAnalysis": 1, "Azeem Azhar": 1, "Zvi Mowshowitz": 1, "Timothy B. Lee": 1, "Hugging Face Blog": 4, "Google Research": 2, "METR": 2, "OpenAI": 7, "Google DeepMind": 1, "NVIDIA": 6, "GitHub Trending": 8, "GitHub 新项目": 12}, "llm": true, "translated": 0}
+2026-11-07 04:55:22,916 INFO source hf_daily           -> 8 items
+2026-11-07 04:55:23,205 INFO source hackernews         -> 5 items
+2026-11-07 04:55:44,490 INFO source rss                -> 104 items
+2026-11-07 04:55:46,765 INFO source html_lists         -> 0 items
+2026-11-07 04:55:46,765 INFO source x                  -> 0 items
+2026-11-07 04:56:30,042 WARNING source arxiv_search failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=30)
+2026-11-07 04:56:40,172 INFO source github             -> 20 items
+2026-11-07 04:56:40,173 INFO candidates: 137 (stale dropped 30, new 65)
+2026-11-07 04:57:45,709 INFO llm judged 64/65 (calls=9)
+2026-11-07 04:58:01,542 WARNING snapshot https://stratechery.com/2026/falling-leaves-and-stocks/: blocked or empty page
+2026-11-07 05:01:27,105 INFO run done: {"at": "2026-11-07T04:55:22+00:00", "slot": "noon", "candidates": 137, "new": 65, "stale": 30, "judged": 64, "selected": 20, "mirrored": 19, "by_category": {"观点": 3, "技术": 3, "资讯": 11, "项目": 3}, "by_source": {"HF Daily Papers": 8, "Hacker News": 5, "量子位": 10, "极客公园": 9, "IT之家": 12, "爱范儿": 5, "少数派": 2, "雷峰网": 15, "钛媒体": 2, "InfoQ 中文": 15, "阮一峰": 1, "Dwarkesh Patel": 1, "Latent Space": 4, "Stratechery": 3, "SemiAnalysis": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Timothy B. Lee": 1, "Hugging Face Blog": 3, "Google Research": 1, "METR": 2, "OpenAI": 6, "Google DeepMind": 1, "NVIDIA": 6, "GitHub Trending": 9, "GitHub 新项目": 11}, "llm": true, "translated": 0}
