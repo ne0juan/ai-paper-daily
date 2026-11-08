@@ -1666,6 +1666,915 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-1ceb56a3b374",
+   "kind": "article",
+   "title": "vercel-labs/agent-browser",
+   "url": "https://github.com/vercel-labs/agent-browser",
+   "pdf_url": "",
+   "abstract": "Star vercel-labs / agent-browser Browser automation CLI for AI agents\nREADME: # agent-browser Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell. agent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time. `snapshot` returns the page as compact text with a ref such as `@e1` for each element. The agent acts on a ref, reads the page again to check the result, and repeats. The browser stays open between commands, so each step is one short shell call. ## Install ```bash npm install -g agent-browser agent-browser install # download Chrome for Testing (first time only) ``` - **Homebrew:** `brew install agent-browser`, then `agent-browser install`. - **Linux:** `agent-browser install --with-deps` also installs the browser's system libraries. - **No install:** `npx agent-browser open example.com`. Project installs, building from source, `upgrade`, and `doctor` are covered in [Installation](https://agent-browser.dev/installation). ## Quick start ```bash agent-browser open example.com agent-browser snapshot -i # interactive elements, each with a ref agent-browser click @e1 # act on a ref from that snapshot agent-browser get url # check the result agent-browser close ``` The snapshot for `example.com`: ``` - link \"Learn more\" [ref=e1] ``` - Refs describe the page at the time of the snapshot. After navigation or a DOM change, take a new snapshot before using refs again. - CSS selectors, text, XPath, and semantic locators also work, for example `agent-brows",
+   "authors": [],
+   "orgs": [
+    "vercel-labs"
+   ],
+   "published": "2026-11-08T11:52:06+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/vercel-labs/agent-browser",
+     "signal": "★ 今日 +812 · Rust",
+     "metric": 812
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Vercel 开源 agent-browser：给 AI 智能体的浏览器 CLI",
+   "summary_zh": "Vercel Labs 发布 Rust 编写的浏览器自动化 CLI，把页面转成带 ref 的无障碍树文本，智能体逐条命令点击并回读验证，浏览器在命令间保持常驻。",
+   "highlights_zh": [
+    "snapshot 返回紧凑文本，每个元素带 @e1 式引用，便于智能体定位",
+    "浏览器跨命令常驻，每步只需一次短 shell 调用",
+    "支持 npm/Homebrew/npx 安装，Linux 可一键装依赖"
+   ],
+   "why_zh": "如果你在给智能体做网页操作能力，可用它替代重型浏览器自动化框架，降低每步开销。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.6148,
+   "score_llm": 7.0,
+   "score": 0.6659,
+   "date": "2026-11-08",
+   "slot": "evening",
+   "selected_at": "2026-11-08T11:52:06+00:00",
+   "mirror_pdf": "pdf/web-1ceb56a3b374.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/vercel-labs/agent-browser"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-11d5c12583f3",
+   "kind": "article",
+   "title": "资本正在撤离“世界模型”",
+   "url": "https://www.qbitai.com/2026/11/508466.html",
+   "pdf_url": "",
+   "abstract": "没有永远的夏天",
+   "authors": [
+    "衡宇"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-08T04:09:55+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/508466.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "资本正在撤离「世界模型」",
+   "summary_zh": "量子位报道称，曾被视为下一代AI方向的世界模型赛道正遭遇资本退潮，融资热度明显下降，行业进入冷静期。",
+   "highlights_zh": [
+    "世界模型赛道融资热度下滑，资本态度转向谨慎",
+    "反映生成式AI投资从概念炒作回归理性",
+    "对押注世界模型路线的创业公司构成压力"
+   ],
+   "why_zh": "判断世界模型赛道冷暖与资本风向的重要信号，值得关注技术路线分化。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-08",
+   "slot": "evening",
+   "selected_at": "2026-11-08T11:52:06+00:00",
+   "mirror_pdf": "pdf/web-11d5c12583f3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/508466.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1c90c6d52437",
+   "kind": "article",
+   "title": "OpenAI新融资到账110亿美元，不及原计划一半",
+   "url": "https://www.qbitai.com/2026/11/508344.html",
+   "pdf_url": "",
+   "abstract": "融资缩水，硅谷投资人也谨慎了",
+   "authors": [
+    "田, 晏林"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-07T08:11:25+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/508344.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI新融资到账110亿美元，不及原计划一半",
+   "summary_zh": "量子位报道OpenAI新一轮融资实际到账110亿美元，仅为原计划的一半，显示硅谷投资人对AI头部公司的估值与投入趋于谨慎。",
+   "highlights_zh": [
+    "OpenAI融资规模缩水至原计划约一半",
+    "硅谷投资人整体趋于谨慎",
+    "头部AI公司融资节奏出现变化"
+   ],
+   "why_zh": "头部公司融资缩水是AI资本周期转向的关键信号，影响全行业预期。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-08",
+   "slot": "evening",
+   "selected_at": "2026-11-08T11:52:06+00:00",
+   "mirror_pdf": "pdf/web-1c90c6d52437.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/508344.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5443ed91e5d7",
+   "kind": "article",
+   "title": "浙大00后博士生再交卷！把十几种物理要素装进一个世界模型｜华为昇腾原生",
+   "url": "https://www.qbitai.com/2026/11/508236.html",
+   "pdf_url": "",
+   "abstract": "中国版cosmos再交卷",
+   "authors": [
+    "听雨"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-07T03:31:44+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/508236.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "浙大00后博士生把十几种物理要素装进一个世界模型",
+   "summary_zh": "浙大团队在华为昇腾平台上构建可融合十几种物理要素的世界模型，被称为「中国版Cosmos」，推进物理仿真与生成建模结合。",
+   "highlights_zh": [
+    "单一世界模型整合多种物理要素",
+    "基于华为昇腾原生算力实现",
+    "对标英伟达Cosmos的世界模型路线"
+   ],
+   "why_zh": "国产世界模型在物理仿真方向的具体进展，关注世界模型路线者可读。",
+   "tags": [
+    "多模态",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-08",
+   "slot": "evening",
+   "selected_at": "2026-11-08T11:52:06+00:00",
+   "mirror_pdf": "pdf/web-5443ed91e5d7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/508236.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1d4f03c1f553",
+   "kind": "article",
+   "title": "为什么「陪伴」，注定是 Personal AI 的核心",
+   "url": "http://www.geekpark.net/news/373653",
+   "pdf_url": "",
+   "abstract": "作者｜宇航猿 编辑｜靖宇 最近这一波 Personal AI 实在太火了，我也注册了一个 Muse 体验了一下。 整个体验下来，我感觉 Muse 的能力实在一般，远没到让人惊叹的地步。但奇怪的是，它确实带来了一种真切的陪伴感。这种陪伴感，甚至直接改变了我的使用习惯，让我总是忍不住想找它聊聊，哪怕只是把最琐碎的需求丢给它。 就在本周， Muse 又往前迈了一步，正式上线了实时语音和会动的头像 。无独有偶，各家 AI 助手最近都在做同一件事，就是给个人 AI 助手开通语音和对话功能。 这让我非常好奇，距离 ChatGPT 端出惊艳的语音模式，已经过去两年了， 为什么到了现在这个时间点，所有的个人 AI 助手又开始一窝蜂地往语音赛道上挤 ？ 01 口喷「派活」的魅力 2024 年 GPT-4o 发布演示时，那种流畅自然的对话体验常被拿来和电影《Her》对比。但在此后的很长一段时间里，AI 语音始终停留在聊天层，双方客客气气地说完，交互也就结束了。 这一轮语音热潮的核心变量在于，AI 身后终于长出了一双手，语音因此成了派活门槛最低的入口。 当地时间 11 月 5 日，Muse 在美国上线实时语音功能。Meta 官方给出的典型场景非常务实，用户可以在散步或者双手忙碌的时候，直接口头给它安排任务，随后 Muse 会在后台继续处理这些工作；当然，用户也可以拿它来排练面试或演讲。 这种「动口不动手」的派活逻辑，正在成为智能体产品的标配。 早在 9 月 17 日，SpaceXAI 旗下的 Grok Bot 就上线了语音功能。在 X 上，早期用户最看重的也是这一点，散步和通勤的路上，不用动手就能给它派活。 Grok Bot 的语音界面，背后的对话里它正在请你批准下午 2 点的董事会材料审阅｜图片来源：X 要让用户愿意开口派活，底层的工程门槛直到今年才算真正跨了过去。国内的豆包「打电话」功能在今年 4 月接入了全双工语音模型 Seeduplex，真正实现了边听边说。而按照 Meta 的说法，Muse 从用户说完话到给出第一个音视频响应，延迟约 870 毫秒，并且支持随时打断。 Muse 的实时虚拟形象，表情和口型随语音同步生成｜图片来源：Meta 不到一秒的反应时间， 加上后台干活的能力，让语音彻底摆脱了纯陪聊的玩具属性 。 但问题在于，既然替人干活的「手」已经长出来了，为什么产品经理们还在拼命强化那种看似无用的「陪伴感」？ 02 「接住废话」，才是 AI 助理的强项 上面问题的答案，藏在人类开口说话的本能里。 陪伴感当然是语音交互天然带来的副产品，但对于个人 AI 助理来说，它更是最核心的增长机制。 这一切的起点在于交互门槛的坍塌，说话几乎消灭了提问前的心理成本。 我们面对一个文字输入框时，哪怕反应再快，大脑也会下意识地掂量一下，这件事到底值不值得我专门打字问一句？很多微小的念头就在这几秒钟的权衡里被掐灭了。 最近出差时的几次经历，让我对这种门槛的变化体会极深。走在陌生的街头看到路边一个不认识的建筑，搁在以前，我的标准动作肯定是打开搜索引擎去搜，或者点开地图仔细比对。但这次我的第一反应，是随手拍张照片直接去问 Muse。 住进酒店后，想知道旁边哪里有超市这种鸡毛蒜皮的小事，我也直接丢给了 Muse；甚至连去景点的预约，也是顺手让它给办了。 把这些需求拆开看，没有一件是高难度的复杂任务， 它们的核心共同点在于「随手」二字 。当一个产品的交互门槛低到根本不需要你去掂量值不值得问时，原本属于搜索引擎和地图软件的流量，就会极其自然地流向个人助手。 拍照提问其实还需要掏出手机",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-08T09:52:45+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373653",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "为什么「陪伴」注定是Personal AI的核心",
+   "summary_zh": "极客公园认为个人AI助手正集体转向语音，核心变量是AI具备了后台执行任务的能力，语音成为最低门槛的派活入口，而陪伴感是驱动用户持续使用的核心增长机制。",
+   "highlights_zh": [
+    "Muse、Grok Bot等集体上线实时语音，语音成为派活入口",
+    "全双工语音与低延迟让语音摆脱纯陪聊属性",
+    "陪伴感降低提问心理成本，是个人AI的增长机制"
+   ],
+   "why_zh": "从产品视角解释语音+智能体为何成为个人AI标配，对做AI产品者有启发。",
+   "tags": [
+    "语音",
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-11-08",
+   "slot": "evening",
+   "selected_at": "2026-11-08T11:52:06+00:00",
+   "mirror_pdf": "pdf/web-1d4f03c1f553.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373653"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-040cc4eebcf1",
+   "kind": "article",
+   "title": "终端侧AI：从单点应用走向智能体体验",
+   "url": "https://www.leiphone.com/category/chips/aOKsujJpdDvRKj5S.html",
+   "pdf_url": "",
+   "abstract": "发言人：高通公司AI产品技术中国区负责人 万卫星 2026年11月7日，上海 终端侧AI发展到了什么阶段？ 终端侧AI经过过去3至4年的发展，正在迎来一个比较重要的变化节点。 从应用来看，终端侧AI并不是从大模型开始的。影像其实是AI较早在终端落地的领域之一。近年来手机拍照效果不断提升，背后就有终端侧AI技术的推动。如今，终端侧AI已经进一步拓展到简单问答、聊天、图像生成与处理，以及文本处理、语音转录、实时翻译等多模态应用，其中不少功能在端侧落地的条件已经比较成熟。 不过，目前很多端侧AI应用仍然偏向单点功能。例如自动语音识别（ASR）、文本摘要、图片处理、简单聊天机器人等，大多解决的是一个具体任务。如果未来希望终端能够进一步完成意图理解、任务编排、实时操作目标App等系统级、规划类任务，就需要更强的端侧模型能力。 这意味着，终端侧AI正在逐渐从解决一个个具体任务，向更加复杂的智能体体验演进。 为什么需要终端侧AI？端侧和云端是什么关系？ 高通并不强调端侧的唯一性，而是强调端云协同或者“计算连续体”，其中一个重要思路是“端侧优先”（on-device first）。 传统依赖云端的AI服务，每一次推理都需要消耗云端Token、GPU以及云端调度资源，同时依赖网络连接。如果将合适的AI能力部署到端侧，则可以减少对网络的依赖，提供更加及时和稳定的响应，同时发挥终端在安全、隐私和个性化方面的优势。 如果用一个比较直观的比喻来理解：云端更像一个“通用知识库”，端侧则拥有更多属于用户个人的“专业化知识”。 端侧可以结合用户是谁、在哪里、过去做过什么，以及当前所处的环境，对用户接下来可能需要的服务作出判断，这也是“主动式AI服务”的基础。 因此，端侧并不是孤立的体系。云端可以承接需要更强智能和计算能力的任务，端侧则能够发挥实时、稳定、隐私以及个性化等优势，二者相互协同。 为什么MoE成为终端侧AI的重要技术方向？ MoE全称为Mixture of Experts，即混合专家模型。理解MoE，可以先把它和传统Dense模型进行比较。 以一个30亿参数的Dense模型为例，每完成一次推理，30亿参数都需要运行一遍，才能得到最终输出。 MoE的工作方式有所不同。它将模型中的参数划分为多个不同的“专家”模块，每个专家模块负责其中一部分，而且可能擅长不同的任务。当模型处理某个具体任务时，只需要调用与这个任务相关的部分专家模块。 比如，一个MoE模型包含20个专家模块，执行某个任务时，可能只需要调用其中2至3个专家模块，而不是让全部20个专家模块同时运行。 一个很直观的“厨师”比喻：Dense模型就像家里只有一个厨师，无论想吃什么菜，都由这个厨师来做。他可能会很多菜系，但每一种都未必最擅长。MoE则像同时有多位擅长不同菜系的厨师，有的擅长鲁菜，有的擅长京菜，有的擅长淮扬菜。当你想吃淮扬菜时，只需要让擅长淮扬菜的厨师工作，其他厨师可以休息。 也就是说，模型虽然拥有很多“专家” 模块，真正执行一次任务时，只需要让其中一部分参与计算。这种机制可以减少一次推理需要实际运行的参数量，提高模型运行效率。 MoE为什么对终端侧AI尤其重要？ MoE在云端大模型中已经得到应用。随着端侧AI发展，越来越多的端侧模型也开始采用MoE方案。 这一技术对于终端尤其重要，因为手机、PC等设备受到内存和功耗等条件限制。 目前主流做法通常只能在端侧运行20亿至30亿参数规模的模型。这一规模已经可以很好地完成ASR、文本摘要、图片处理、简单聊天等单点任务，但如果希望完成系统级、规划类的复杂任务，模型的",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-08T07:54:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/chips/aOKsujJpdDvRKj5S.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "终端侧AI：从单点应用走向智能体体验",
+   "summary_zh": "高通万卫星认为终端侧AI正从单点功能走向系统级智能体体验，强调端云协同与「端侧优先」，并解释MoE因按需调用专家、降低推理算力而成为端侧关键方向。",
+   "highlights_zh": [
+    "端侧AI从单点任务迈向意图理解与任务编排",
+    "端云协同、端侧优先兼顾实时、隐私与个性化",
+    "MoE按需激活专家，缓解端侧内存与算力约束"
+   ],
+   "why_zh": "理解端侧AI技术路线与MoE价值的一手厂商判断，适合端侧从业者。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-08",
+   "slot": "evening",
+   "selected_at": "2026-11-08T11:52:06+00:00",
+   "mirror_pdf": "pdf/web-040cc4eebcf1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/chips/aOKsujJpdDvRKj5S.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1ffd83b62bfb",
+   "kind": "article",
+   "title": "AI 生成视频何时才能告别“抽卡”？藏在高效生成背后的返工与成本难题",
+   "url": "https://www.infoq.cn/article/xd9o6TyQ8GLON3dmiWpG?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "林绮蓓"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-08T16:19:44+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/xd9o6TyQ8GLON3dmiWpG?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI生成视频何时告别「抽卡」：高效生成背后的返工与成本",
+   "summary_zh": "InfoQ分析AI视频生成仍高度依赖反复抽卡试错，返工率高、成本难控，探讨高效生成与可控性之间的工程难题。",
+   "highlights_zh": [
+    "视频生成可控性不足导致大量返工",
+    "抽卡式工作流推高实际生产成本",
+    "可控生成是视频模型落地关键瓶颈"
+   ],
+   "why_zh": "揭示AI视频生成从演示到生产的真实成本痛点，对内容生产团队有用。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-08",
+   "slot": "evening",
+   "selected_at": "2026-11-08T11:52:06+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/xd9o6TyQ8GLON3dmiWpG?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b1d6d2a86fc5",
+   "kind": "article",
+   "title": "从资本密集到人力密集：全球AI的瓶颈，卡在缺乏“电工”",
+   "url": "https://www.tmtpost.com/8194549.html",
+   "pdf_url": "",
+   "abstract": "AI 基建瓶颈几经转移：从 GPU、电力、电气设备，如今落到电工等施工人力。资本可买断设备排期，却无法压缩技工数年培养周期。这场 AI 竞赛，正从资本密集转向人力密集，人力供给约束，或将决定算力扩张长期上限。",
+   "authors": [
+    "斯凯有话说"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-08T06:55:09+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8194549.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI基建瓶颈转向人力：电工短缺或成算力扩张上限",
+   "summary_zh": "钛媒体分析指出，AI基建瓶颈已从GPU、电力、电气设备转移到电工等施工人力，资本无法压缩技工数年培养周期，人力供给或将决定算力扩张的长期上限。",
+   "highlights_zh": [
+    "AI基建瓶颈依次转移：GPU→电力→电气设备→施工人力",
+    "资本可买断设备排期，却无法加速技工培养周期",
+    "人力供给约束可能成为算力扩张的长期天花板"
+   ],
+   "why_zh": "理解算力扩张的真实约束，比只看GPU供应更接近产业底层逻辑。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-08",
+   "slot": "evening",
+   "selected_at": "2026-11-08T11:52:06+00:00",
+   "mirror_pdf": "pdf/web-b1d6d2a86fc5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8194549.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ef6fc9669bfe",
+   "kind": "article",
+   "title": "AI 公司迄今最大发电设备采购订单：曝 Anthropic 砸 34 亿美元买燃气发电机",
+   "url": "https://www.ithome.com/1/023/989.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 8 日消息，据英国《金融时报》今天（8 日）晚间报道，Anthropic 签下了一份大额数据中心燃气发电机组采购订单。 随着发电设备供应日趋紧张，AI 公司开始绕过中间商直接采购，进一步涉足能源行业。 报道披露，9 月下旬，Anthropic 斥资 34 亿美元 （IT之家注：现汇率约合 227.49 亿元人民币） ，从美国得克萨斯州圣安东尼奥的设备供应商 OnePWR Solutions 手中接下总功率达 1.7GW 的重型发电机组订单。 按照已知交易记录，这是 AI 公司 迄今规模最大的一笔发电设备采购订单 ，也反映出科技企业为争夺电力供应，正不断向能源行业延伸。 以往，AI 公司通常依靠公用事业公司和专业电力企业供电。但燃气轮机、发电机组需求激增，设备交货期延长至数年之后，资金雄厚的 AI 公司开始跳过中间环节，直接掌握发电能力。 据知情人士透露，OnePWR 两年前就向卡特彼勒订购了发电机组，仍需融资才能完成采购。Anthropic 原本打算向 OnePWR 购买服务，后来改变主意， 直接接手了 OnePWR 向卡特彼勒下达的设备订单 。 直接采购发电设备也帮助 SpaceX 迅速投入运营大型数据中心。今年早些时候，SpaceX 旗下 xAI 斥资 20 亿美元 （现汇率约合 133.82 亿元人民币） 购入移动式燃气轮机。谷歌母公司 Alphabet 则在 2025 年底收购了能源开发商 Intersect。 Anthropic 选择了另一种方式：不收购整家公司，也不只是单纯买设备， 而是接手多年前、设备涨价前签订的订单 。部分发电机组近期就能交付，其余设备也将在未来两年内到位。 Anthropic 同时是 SpaceX 的大客户。预计到今年年底，Anthropic 每月向 SpaceX 支付的算力租赁费用将达到 31 亿美元 （现汇率约合 207.42 亿元人民币） 。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-08T11:51:39+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/023/989.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic 34亿美元直购燃气发电机，AI公司绕开电网抢电",
+   "summary_zh": "Anthropic以34亿美元接手OnePWR向卡特彼勒的1.7GW燃气发电机组订单，成AI公司最大发电设备采购，反映科技巨头为抢电力正直接涉足能源行业。",
+   "highlights_zh": [
+    "1.7GW重型发电机组订单，金额34亿美元创AI公司纪录",
+    "接手两年前低价签订的订单，部分设备近期即可交付",
+    "xAI、Alphabet此前已分别通过购设备、收购能源公司布局电力"
+   ],
+   "why_zh": "电力正成为AI竞赛的硬通货，直购发电设备是算力扩张的新打法。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-08",
+   "slot": "evening",
+   "selected_at": "2026-11-08T11:52:06+00:00",
+   "mirror_pdf": "pdf/web-ef6fc9669bfe.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/023/989.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3acb7511a7c6",
+   "kind": "article",
+   "title": "数据中心反对声浪席卷欧洲各地，抗议活动接连不断",
+   "url": "https://www.ithome.com/1/023/977.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 8 日消息，据彭博社报道，当地时间 7 日，欧洲多国继续爆发反对数据中心建设的抗议活动，民众纷纷开始表达对数据中心影响社会和环境的担忧。 据爱尔兰广播电视公司 RTÉ 报道， 约 2000 人在都柏林参加游行 。芬兰广播公司 Yle 称， 赫尔辛基有约 1300 人集会 ，芬兰其他多个城镇也举行了抗议活动。 由地方民主倡议团体和气候抗议组织组成的 Stop Dirty Data Centres 联盟称，希望阻止 AI 数据中心无限制扩张，防止我们的民主被大型科技企业的利益绑架。 苏格兰、西班牙、法国和丹麦等地的民间团体也加入抗议，要求暂停数据中心建设，直到民众通过民主程序决定， 怎样才能确保 AI 和数据中心造福人类和地球，而不是满足私人贪欲 。 此前一天，数百名抗议者在阿姆斯特丹的一座微软数据中心与警方发生冲突，一人被捕。 随着科技企业投入数千亿美元建设 AI 运行和训练所需的基础设施，全球数据中心建设不断提速。当地社区担心，数据中心会 占用大量土地和电力资源，推高能源价格 ，而居民未必能从中获得经济收益。 微软、亚马逊和谷歌等美国科技巨头在爱尔兰投入巨资，使该国成为欧洲最大的数据中心聚集地之一。爱尔兰官方统计数据显示，2025 年，数据中心用电量占全国电表计量总用电量的 23%。 据 Yle 报道，当地时间周六，赫尔辛基的示威者游行前往谷歌办公室和市中心的芬兰议会大厦。 谷歌今年 9 月宣布在芬兰投资 130 亿欧元 （IT之家注：现汇率约合 970.38 亿元人民币） ，为公司在欧洲规模最大的一笔投资，计划扩建一座现有数据中心，并新建两座数据中心。芬兰工业联合会数据显示，该国处于不同规划和建设阶段的数据中心项目 总投资额约 800 亿欧元 （现汇率约合 5,971.58 亿元人民币） 。 此前有消息披露，谷歌人员在一处数据中心项目尚未完成环境影响评估时，就清理了林地、剥离表层土壤并修建道路，引发芬兰民众对数据中心越来越强烈的反感。负责建设该项目的公司面临刑事调查，芬兰政府也着手立法限制 AI 产业扩张。 欧洲的反对声浪与美国的情况相呼应。数据中心大规模扩张成为 本周美国中期选举的重要议题之一 ，多个州的选民选出了曾承诺叫停或暂缓数据中心建设的地方官员。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-08T10:18:55+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/023/977.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "欧洲多国爆发反数据中心抗议，AI基建遭遇社会阻力",
+   "summary_zh": "都柏林约2000人、赫尔辛基约1300人游行反对AI数据中心扩张，担忧占用土地电力、推高电价；爱尔兰数据中心已占全国电表用电23%，抗议或影响AI基建节奏。",
+   "highlights_zh": [
+    "Stop Dirty Data Centres联盟要求暂停数据中心建设",
+    "爱尔兰2025年数据中心用电占全国电表计量总用电23%",
+    "芬兰谷歌项目因未完成环评即清理林地面临刑事调查"
+   ],
+   "why_zh": "社会与监管阻力正成为AI基建扩张的新变量，值得关注。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-08",
+   "slot": "evening",
+   "selected_at": "2026-11-08T11:52:06+00:00",
+   "mirror_pdf": "pdf/web-3acb7511a7c6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/023/977.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f55635e55361",
+   "kind": "article",
+   "title": "苏姿丰：AMD 是一家数据中心优先的公司",
+   "url": "https://www.ithome.com/1/023/934.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 8 日消息，当地时间 11 月 5 日，AMD 首席执行官苏姿丰（Lisa Su）在接受雅虎财经采访时，将该公司描述为一家“数据中心优先（data center first）”的企业。 IT之家注意到，该表态发生在 AMD 公布其 2026 财年第三财季（2026 年 6 月 28 日～2026 年 9 月 26 日）财务业绩之后， 财报显示其数据中心收入比去年几乎翻了一倍 。 在与雅虎财经主播 Brian Sozzi 交谈时，苏姿丰解释说， 人工智能的落地普及速度远超许多企业的预期 。过去习惯按照年度制定投资规划的公司，如今正在更频繁地调整预算，以应对与日俱增的算力需求。对此，AMD 正通过提升供应产能，并与客户协同推进更大规模的系统部署来予以应对。 我们是一家数据中心优先的公司 （We are a data center first company），这就是我们的定位，而且人们需要更多的计算来驱动所有这些应用。 相关阅读： 《 AMD 2026 财年前三季度报归母净利润 61.08 亿美元，同比增长 116.29% 》 《 AMD CEO 苏姿丰：今年是真正的“AI 推理之年” 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-08T09:35:05+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/023/934.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "苏姿丰：AMD 定位为数据中心优先公司",
+   "summary_zh": "苏姿丰称 AMD 已是「数据中心优先」公司，AI 落地速度超企业预期，客户预算调整更频繁，AMD 正扩产能并与客户推进大规模部署；其数据中心收入近乎翻倍。",
+   "highlights_zh": [
+    "AMD 数据中心收入同比几乎翻倍，成为核心增长引擎",
+    "苏姿丰称 AI 落地普及速度远超多数企业预期，客户从年度规划转向频繁调整预算",
+    "应对策略为提升供应产能、与客户协同推进更大规模系统部署"
+   ],
+   "why_zh": "头部算力厂商的战略定位与需求判断，是观察 AI 基础设施投资节奏的一手信号。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-08",
+   "slot": "evening",
+   "selected_at": "2026-11-08T11:52:06+00:00",
+   "mirror_pdf": "pdf/web-f55635e55361.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/023/934.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0e06b0487edc",
+   "kind": "article",
+   "title": "Albert-Weasker/niubigeo",
+   "url": "https://github.com/Albert-Weasker/niubigeo",
+   "pdf_url": "",
+   "abstract": "Star Albert-Weasker / niubigeo Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https://niubigeo.ai/pricing\nREADME: # Refuse black-box GEO scores. Put the evidence back in your hands. **An open-source GEO research tool for AI visibility, reproducible testing, competitors and evidence.** Enter a domain, compare model answers, inspect citations and repeat the same research later. > **Why pay $5,000+/year for a GEO SaaS dashboard?** > > NiubiGEO is open source and self-hosted. Run it with your own model API keys, keep your research data in your environment and inspect the answer behind every observation. **Model API, hosting and infrastructure costs are separate.** **[Self-host](#quick-start) · [Official promotion platform](https://niubigeo.ai/) · [AI advisor](https://video.niubistar.com/niubigeo)** Website · GitHub · 简体中文 · UI: English, 简体中文, Português (Brasil) · Quick start · 20 real cases · Releases · Packages · Docs Features · How to use it · Monitoring · Compare tools · Why NiubiGEO · Sponsors · Official services · FAQ You have built a product, written the docs and worked to get the word out. When people ask AI for tools, does your product make it into the answer? **NiubiGEO is an open-source tool for tracking brand visibility and competitors in AI answers.** Start with a domain to see how different models describe your product and which competitors they name. Then test keywords to find out who appears in the answers. Open any result to inspect the original response and returned sources. NiubiGEO Open-source AI visibility. Human-powered growth. Check it out on Product Hunt → --- ## Why N",
+   "authors": [],
+   "orgs": [
+    "Albert-Weasker"
+   ],
+   "published": "2026-11-08T11:52:06+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/Albert-Weasker/niubigeo",
+     "signal": "★ 今日 +1,307 · TypeScript",
+     "metric": 1307
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "NiubiGEO：开源 AI 品牌可见度追踪工具",
+   "summary_zh": "开源自托管工具，输入域名即可对比各模型回答、检查引用来源并复现研究，用于追踪品牌在 AI 答案中的曝光与竞品表现。",
+   "highlights_zh": [
+    "用自有模型 API Key 运行，研究数据留在本地环境",
+    "支持重复同一研究，观察结果可追溯",
+    "附带官网与付费 GEO 优化服务入口"
+   ],
+   "why_zh": "如果你关心品牌在 AI 搜索答案中的曝光，可自托管跑一轮基线测试。",
+   "tags": [
+    "产品与行业",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.6344,
+   "score_llm": 5.0,
+   "score": 0.5538,
+   "date": "2026-11-08",
+   "slot": "evening",
+   "selected_at": "2026-11-08T11:52:06+00:00",
+   "mirror_pdf": "pdf/web-0e06b0487edc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/Albert-Weasker/niubigeo"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b95f6aa29001",
+   "kind": "article",
+   "title": "dsx-ai-factory/nvke",
+   "url": "https://github.com/dsx-ai-factory/nvke",
+   "pdf_url": "",
+   "abstract": "Star dsx-ai-factory / nvke NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.\nREADME: # NVIDIA Kubernetes Engine (NVKE) [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE) [![Go](https://img.shields.io/badge/Go-1.27.3-00ADD8.svg)](go.work) **Run a managed Kubernetes service on your own NVIDIA GPU infrastructure.** NVIDIA Kubernetes® Engine (NVKE) provides the management plane that platform teams install to create and operate Kubernetes clusters for their customers. Each workload cluster has its own Kubernetes control plane, etcd and node pools. You operate the NVKE management plane; your customers use their clusters through the Kubernetes API and `kubectl`. > **Preview:** NVKE is available as a preview. APIs, configuration and behavior > can change between releases, and we do not recommend NVKE for production > workloads. See [Preview status and known limitations](docs/overview/preview-status.md). [Get started](#getting-started) · [Documentation](docs/README.md) · [Contribute](CONTRIBUTING.md) · [Get help](SUPPORT.md) ## Getting started | Your goal | Start here | What you get | |---|---|---| | **Evaluate without GPU hardware** | [Local quickstart](docs/get-started/quickstart-local.md) | A development management plane and a workload cluster on simulated machines. No NVIDIA account is required. | | **Install on your infrastructure** | [Plan your installation](docs/operate/plan-installation.md) | The prerequisites and sequence for preparing nodes, bootstrapping a management cluster and installing its services. | | **Build or contribut",
+   "authors": [],
+   "orgs": [
+    "dsx-ai-factory"
+   ],
+   "published": "2026-11-08T11:52:06+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/dsx-ai-factory/nvke",
+     "signal": "★ 今日 +345 · Go",
+     "metric": 345
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "NVKE：裸金属 GPU 上的 Kubernetes 管理平面",
+   "summary_zh": "开源项目提供管理平面，让平台团队在自有 NVIDIA GPU 裸金属上创建并运营多租户 Kubernetes 集群，每个工作负载集群有独立控制面与节点池。",
+   "highlights_zh": [
+    "面向平台团队，客户通过标准 kubectl 使用集群",
+    "无 GPU 硬件时可用模拟机器本地快速验证",
+    "目前为预览版，官方不建议用于生产"
+   ],
+   "why_zh": "如果你在自建 GPU 集群并需要多租户隔离，可先本地模拟环境评估。",
+   "tags": [
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5798,
+   "score_llm": 5.0,
+   "score": 0.5319,
+   "date": "2026-11-08",
+   "slot": "evening",
+   "selected_at": "2026-11-08T11:52:06+00:00",
+   "mirror_pdf": "pdf/web-b95f6aa29001.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/dsx-ai-factory/nvke"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0d1b6b6a5a7f",
+   "kind": "article",
+   "title": "顶尖 AI 实验室正在成为“人才黑洞”！Claude Code 团队工程师离职后首次受访",
+   "url": "https://www.infoq.cn/article/Qs0pJ5M43c56hdozHiR0?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "林绮蓓"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-08T15:03:06+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/Qs0pJ5M43c56hdozHiR0?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "顶尖AI实验室成「人才黑洞」，Claude Code团队工程师离职后首受访",
+   "summary_zh": "InfoQ报道顶尖AI实验室对人才的虹吸效应，一位Claude Code团队离职工程师首次受访，谈及团队运作与人才流动。",
+   "highlights_zh": [
+    "顶尖实验室形成人才虹吸效应",
+    "Claude Code团队前工程师首次公开受访",
+    "反映AI工程团队的组织与人才竞争"
+   ],
+   "why_zh": "了解头部AI编程团队内部运作与人才流动的侧面视角。",
+   "tags": [
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-08",
+   "slot": "evening",
+   "selected_at": "2026-11-08T11:52:06+00:00",
+   "mirror_pdf": "pdf/web-0d1b6b6a5a7f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/Qs0pJ5M43c56hdozHiR0?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b9f87aafba85",
+   "kind": "article",
+   "title": "中国移动云公司与智谱签署合作协议，围绕国产算力、大模型服务和 AI 商业化合作",
+   "url": "https://www.ithome.com/1/023/937.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 8 日消息，11 月 6 日，中国移动云公司与北京智谱华章科技股份有限公司正式签署合作协议，在 Token 技术创新、模型服务、产品打造、行业方案等领域深化战略合作。 移动云总经理孙少陵，智谱华章 CEO 张鹏现场见证签约。 据介绍，双方将聚焦 国产化算力适配与模型调优 ，共建 Token 联合发展中心，攻坚关键核心技术，持续提升 Token 生产效率。 此外， 智谱 GLM 系列模型将接入 MoMA 模型服务平台 （IT之家注：移动云 MaaS 平台），双方还将联合构建智能产品矩阵，共创 AI Coding 融合产品；深耕金融、政务等重点行业，构建“算力 + 模型 + 应用”一体化解决方案。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-08T09:53:08+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/023/937.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "中国移动云与智谱合作，共建Token中心与国产算力适配",
+   "summary_zh": "中国移动云公司与智谱签署合作协议，围绕国产化算力适配、模型调优、Token联合发展中心及AI Coding产品展开合作，GLM系列模型将接入移动云MoMA平台。",
+   "highlights_zh": [
+    "共建Token联合发展中心，提升Token生产效率",
+    "智谱GLM系列模型接入移动云MaaS平台MoMA",
+    "联合深耕金融、政务行业，构建算力+模型+应用方案"
+   ],
+   "why_zh": "国产大模型与运营商云绑定的又一案例，可观察国产算力生态走向。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-11-08",
+   "slot": "evening",
+   "selected_at": "2026-11-08T11:52:06+00:00",
+   "mirror_pdf": "pdf/web-b9f87aafba85.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/023/937.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e66f4eeac8f3",
+   "kind": "article",
+   "title": "Goodbye Claude, Hello Pi",
+   "url": "https://caleb.software/posts/claude-to-pi.html",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-08T03:11:48Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50410107",
+     "signal": "360 pts",
+     "metric": 360
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "告别 Claude，转向 Pi",
+   "summary_zh": "一篇在 Hacker News 引发讨论的文章，讲述作者从 Claude 迁移到 Pi 的经历，但缺少可核实的细节与数据。",
+   "highlights_zh": [
+    "HN 360 分，社区关注度较高",
+    "内容为个人迁移体验",
+    "缺乏具体对比数据"
+   ],
+   "why_zh": "信息量有限，仅可作社区情绪参考，不宜作为趋势判断依据。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5961,
+   "score_llm": 4.0,
+   "score": 0.4784,
+   "date": "2026-11-08",
+   "slot": "evening",
+   "selected_at": "2026-11-08T11:52:06+00:00",
+   "mirror_pdf": "pdf/web-e66f4eeac8f3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://caleb.software/posts/claude-to-pi.html"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50410107"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-927940a6dc37",
+   "kind": "article",
+   "title": "为了去AI味，人类开始主动写烂文章了……",
+   "url": "https://www.qbitai.com/2026/11/508330.html",
+   "pdf_url": "",
+   "abstract": "需要说明的是，这并不意味着不会说人话就一定是人，也不意味着说人话的就一定不是AI.......",
+   "authors": [
+    "田, 晏林"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-07T07:59:28+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/508330.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "为了去AI味，人类开始主动写烂文章",
+   "summary_zh": "量子位报道人们为规避AI检测而刻意把文章写得更粗糙，讨论AI文本检测与人类写作风格的博弈。",
+   "highlights_zh": [
+    "AI文本检测催生「反向写作」现象",
+    "反映AI生成内容与人类写作边界模糊",
+    "话题性强但信息增量有限"
+   ],
+   "why_zh": "趣味现象观察，对AI内容检测与写作生态有侧面参考价值。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 4.0,
+   "score": 0.416,
+   "date": "2026-11-08",
+   "slot": "evening",
+   "selected_at": "2026-11-08T11:52:06+00:00",
+   "mirror_pdf": "pdf/web-927940a6dc37.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/508330.html"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
