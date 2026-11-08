@@ -2487,7 +2487,20 @@
   "web-0d1b6b6a5a7f": "2026-11-08",
   "web-b9f87aafba85": "2026-11-08",
   "web-e66f4eeac8f3": "2026-11-08",
-  "web-927940a6dc37": "2026-11-08"
+  "web-927940a6dc37": "2026-11-08",
+  "web-4302af2a92aa": "2026-11-09",
+  "web-5e9d3fd0e59c": "2026-11-09",
+  "web-248e8e4e4efc": "2026-11-09",
+  "web-52aa05b31e3e": "2026-11-09",
+  "web-e8a6915e8c73": "2026-11-09",
+  "web-0548b6b007bd": "2026-11-09",
+  "web-d463e89def2c": "2026-11-09",
+  "web-61f21b5fad93": "2026-11-09",
+  "web-ed70ce70a6b5": "2026-11-09",
+  "web-639628db8430": "2026-11-09",
+  "web-3e67fe295d80": "2026-11-09",
+  "web-71748d62cd4a": "2026-11-09",
+  "web-323c42171476": "2026-11-09"
  },
  "known_links": {
   "https://www.anthropic.com/news": [
@@ -2758,47 +2771,6 @@
   ]
  },
  "runs": [
-  {
-   "at": "2026-10-19T17:24:51+00:00",
-   "slot": "morning",
-   "candidates": 100,
-   "new": 40,
-   "stale": 26,
-   "judged": 40,
-   "selected": 19,
-   "mirrored": 15,
-   "by_category": {
-    "观点": 3,
-    "技术": 4,
-    "资讯": 11,
-    "项目": 1
-   },
-   "by_source": {
-    "HF Daily Papers": 19,
-    "Hacker News": 7,
-    "量子位": 1,
-    "极客公园": 5,
-    "IT之家": 9,
-    "爱范儿": 4,
-    "雷峰网": 8,
-    "钛媒体": 7,
-    "InfoQ 中文": 9,
-    "Jack Clark": 1,
-    "Stratechery": 1,
-    "SemiAnalysis": 1,
-    "Nathan Benaich": 1,
-    "Tomasz Tunguz": 1,
-    "Zvi Mowshowitz": 1,
-    "Timothy B. Lee": 1,
-    "科学空间": 1,
-    "NVIDIA": 2,
-    "Microsoft": 1,
-    "GitHub Trending": 13,
-    "GitHub 新项目": 7
-   },
-   "llm": true,
-   "translated": 0
-  },
   {
    "at": "2026-10-20T03:42:47+00:00",
    "slot": "noon",
@@ -5353,6 +5325,39 @@
     "Zvi Mowshowitz": 1,
     "Hugging Face Blog": 1,
     "NVIDIA": 1,
+    "GitHub Trending": 7,
+    "GitHub 新项目": 13
+   },
+   "llm": true,
+   "translated": 0
+  },
+  {
+   "at": "2026-11-08T17:00:02+00:00",
+   "slot": "morning",
+   "candidates": 77,
+   "new": 27,
+   "stale": 15,
+   "judged": 23,
+   "selected": 13,
+   "mirrored": 13,
+   "by_category": {
+    "项目": 3,
+    "资讯": 10
+   },
+   "by_source": {
+    "Hacker News": 4,
+    "量子位": 8,
+    "极客公园": 6,
+    "IT之家": 19,
+    "爱范儿": 1,
+    "雷峰网": 3,
+    "钛媒体": 5,
+    "InfoQ 中文": 6,
+    "Latent Space": 1,
+    "Stratechery": 1,
+    "SemiAnalysis": 1,
+    "Azeem Azhar": 1,
+    "Zvi Mowshowitz": 1,
     "GitHub Trending": 7,
     "GitHub 新项目": 13
    },

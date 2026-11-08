@@ -1,6 +1,13 @@
 {
- "updated": "2026-11-08T11:52:06+00:00",
+ "updated": "2026-11-08T17:00:02+00:00",
  "days": [
+  {
+   "date": "2026-11-09",
+   "count": 13,
+   "slots": {
+    "morning": 13
+   }
+  },
   {
    "date": "2026-11-08",
    "count": 48,
@@ -404,37 +411,34 @@
    }
   }
  ],
- "total": 2484,
+ "total": 2497,
  "last_run": {
-  "at": "2026-11-08T11:52:06+00:00",
-  "slot": "evening",
+  "at": "2026-11-08T17:00:02+00:00",
+  "slot": "morning",
   "candidates": 77,
-  "new": 30,
-  "stale": 9,
-  "judged": 30,
-  "selected": 17,
-  "mirrored": 16,
+  "new": 27,
+  "stale": 15,
+  "judged": 23,
+  "selected": 13,
+  "mirrored": 13,
   "by_category": {
    "项目": 3,
-   "资讯": 13,
-   "技术": 1
+   "资讯": 10
   },
   "by_source": {
    "Hacker News": 4,
-   "量子位": 9,
-   "极客公园": 8,
-   "IT之家": 13,
+   "量子位": 8,
+   "极客公园": 6,
+   "IT之家": 19,
    "爱范儿": 1,
-   "雷峰网": 2,
-   "钛媒体": 2,
-   "InfoQ 中文": 9,
-   "Latent Space": 2,
+   "雷峰网": 3,
+   "钛媒体": 5,
+   "InfoQ 中文": 6,
+   "Latent Space": 1,
    "Stratechery": 1,
    "SemiAnalysis": 1,
-   "Azeem Azhar": 2,
+   "Azeem Azhar": 1,
    "Zvi Mowshowitz": 1,
-   "Hugging Face Blog": 1,
-   "NVIDIA": 1,
    "GitHub Trending": 7,
    "GitHub 新项目": 13
   },

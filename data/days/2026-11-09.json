@@ -1,0 +1,742 @@
+{
+ "date": "2026-11-09",
+ "items": [
+  {
+   "id": "web-4302af2a92aa",
+   "kind": "article",
+   "title": "DIYgod/pinky",
+   "url": "https://github.com/DIYgod/pinky",
+   "pdf_url": "",
+   "abstract": "Let AI agents use your phone, with you in the loop.",
+   "authors": [],
+   "orgs": [
+    "DIYgod"
+   ],
+   "published": "2026-11-08T17:00:02+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/DIYgod/pinky",
+     "signal": "★ 651（新项目） · Go",
+     "metric": 651
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Pinky：让 AI 智能体在你的手机上操作，人始终在环",
+   "summary_zh": "DIYgod 开源 Go 项目 Pinky，让 AI 智能体直接操作手机，同时保留人类确认环节，把手机变成智能体的执行终端。",
+   "highlights_zh": [
+    "用 Go 实现，主打手机端智能体操作",
+    "强调 human-in-the-loop，关键动作需人确认",
+    "适合探索移动端 Agent 落地场景"
+   ],
+   "why_zh": "如果你在做移动端 Agent 或需要人机协同的操作自动化，可以用它参考手机端 harness 设计。",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5682,
+   "score_llm": 7.0,
+   "score": 0.6473,
+   "date": "2026-11-09",
+   "slot": "morning",
+   "selected_at": "2026-11-08T17:00:02+00:00",
+   "mirror_pdf": "pdf/web-4302af2a92aa.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/DIYgod/pinky"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5e9d3fd0e59c",
+   "kind": "article",
+   "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+   "url": "https://github.com/synchopate/llama-modchip",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-08T10:22:04Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50411961",
+     "signal": "174 pts",
+     "metric": 174
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Llama-modchip：64GB 内存无 GPU 跑 284B DeepSeek",
+   "summary_zh": "Hacker News 热帖展示用 64GB 内存、无 GPU 运行 284B 参数 DeepSeek 模型，探索大模型在消费级硬件上的极限部署。",
+   "highlights_zh": [
+    "284B 参数模型在纯 CPU/内存环境运行",
+    "64GB RAM 即可承载，无需 GPU",
+    "对本地部署与推理效率有参考价值"
+   ],
+   "why_zh": "关注本地大模型部署与低成本推理的从业者值得一看其内存与量化策略。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5622,
+   "score_llm": 7.0,
+   "score": 0.6449,
+   "date": "2026-11-09",
+   "slot": "morning",
+   "selected_at": "2026-11-08T17:00:02+00:00",
+   "mirror_pdf": "pdf/web-5e9d3fd0e59c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/synchopate/llama-modchip"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50411961"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-248e8e4e4efc",
+   "kind": "article",
+   "title": "腾讯的 Agent 布局，不止 WorkBuddy",
+   "url": "https://www.leiphone.com/category/industrynews/oxR5pn9S7tI1IfF5.html",
+   "pdf_url": "",
+   "abstract": "大家对腾讯Agent的认识，还不够完整。 作者丨 胡敏 编辑丨刘伟 今年上半年，但凡聊腾讯 AI，那必然会聊到 Workbuddy，这个产品在前三季度彻彻底底出圈了。它在某种程度上，也 改变了 市场对于腾讯 AI 的 看法 。 但如果只看到WorkBuddy，那么大家对于腾讯 Agent 的认识，可能还是不完整的。 腾讯集团高级执行副总裁、云与智慧产业事业群CEO汤道生在 刚过去的腾讯全球数字生态 大会上提到，企业落地Agent最大的难题，不是模型不够强，而是“断点太多”：AI能写方案、做分析，却接不上业务系统，也拿不到企业数据。Agent真正落地的关键，是把人、工具、系统和数据连接起来，让AI进入真实的工作流程。 围绕这些“断点”，腾讯提出打造“全场景、高效能、更放心”的Agent生产力系统 ，并且在 腾讯全球数字生态大会的AI产品发布台上，这一思路被进一步展开：两天里，4 0+ 场发布围绕应用、数据、 安全和工程四个板块， 呈现出包括WorkBuddy在内的更完整的Agent布局。 应用是最容易被看到的一层。在这次大会上，雷峰网看到，腾讯发布了跨应用协同体系Buddy One，一边用WorkBuddy连接腾讯文档 、 腾讯网盘、腾讯乐享 、设 计和研发工具，让Agent从个人助手变成团队的新助理；另一边 通过 腾讯云ADP 、元宝搜索、天籁语音大模型、MAGIC AI等产品，把Agent带进更多业务 执行 场景。 但应用只是入口。Agent要真正进入企业，还要回答三个更基础的问题：能不能读懂、使用好企业数据，能不能在明确的安全边界内行动，以及能不能稳定、规模化地运行。 这也是腾讯此次集中展示数据、安全和工程产品的原因。 01 企业的数据，还没准备好迎接Agent 为什么先说数据？因为企业想让Agent真正上岗干活，第一脚往往就会踩进数据泥潭。 很多人都有过类似感受，你让Agent 帮你查一个企业内部数据，它经常会犯迷糊，给你一些错误的结果。 前不久，AWS 和 dbt Labs 分享了一个案例：他们让一个 AI Agent 自行写 SQL 查营收，实际是 1136 万美元，结果Agent多算了 350 万，而后他们排查才发现原因，Agent用了折扣和退款前的金额，没有关联退款表，已取消和待处理的订单也算进去了，内部测试账号也没排除。 Agent答错， 问题 常 出现 在数据 层 而不在模型。 所以要想 Agent 能准确回答企业问题，数据地基一定是要先行的，具体来讲，要解决两件事，一是供给侧，要让Agent能找到并用上完整的相关数据；第二是语义侧，把数据背后的业务规则给 Agent讲清楚。数据和规则缺了任何一头，都可能算错。 为了 让Agent用好企业数据，腾讯 云 围绕“懂、存、跑、自治”展开了布局。 其中， TDSQL Nexa Lakebase帮助 理解数据 ；TDSQL Boundless负责存储和处理多种类型的数据；TDSQL-C PostgreSQL为Agent提供弹性、隔离的数据库后端；TencentDB Agent则尝试接手数据库运维工作。 此外，DataBuddy提供统一语义层，让Agent按照明确的业务口径查询和分析数据；对于有数据不出域要求的企业，DataBuddy还提供私有化方案。 特别值得一提的是，此次重磅发布的 TDSQL Nexa Lakebase 产品， 把海量数据存储、事务、分析、搜索和 AI 计算结合到同一套数据管理体系中，应用层通过 SQL 、 HTTP 或 MCP 接入，计算层的核心引擎负责统一访问和智",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-08T13:11:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/oxR5pn9S7tI1IfF5.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯的 Agent 布局，不止 WorkBuddy",
+   "summary_zh": "雷峰网梳理腾讯 Agent 全场景布局：以 WorkBuddy、Buddy One 为应用入口，围绕数据、安全、工程补齐企业落地断点。",
+   "highlights_zh": [
+    "汤道生称企业落地 Agent 最大难题是断点太多",
+    "发布跨应用协同体系 Buddy One",
+    "数据层推出 TDSQL 系列与 DataBuddy 语义层"
+   ],
+   "why_zh": "理解头部云厂商如何从应用、数据、安全、工程四层构建 Agent 生态。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-09",
+   "slot": "morning",
+   "selected_at": "2026-11-08T17:00:02+00:00",
+   "mirror_pdf": "pdf/web-248e8e4e4efc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/oxR5pn9S7tI1IfF5.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-52aa05b31e3e",
+   "kind": "article",
+   "title": "腾讯姚顺雨谈“AI 模型公司护城河”：更多存在于产品层，而不是模型层",
+   "url": "https://www.ithome.com/1/023/991.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 8 日消息，据第一财经报道，在 2026 未来科学大奖的一场对话中，清华大学讲席教授、中国工程院外籍院士张亚勤向腾讯首席 AI 科学家姚顺雨抛出了一个尖锐的商业问题， 模型公司的护城河究竟是什么 ？ 姚顺雨的回答是， AI 护城河更多存在于产品层，而不是模型层 。真正难以替代的，不一定是最聪明的模型，而是能够理解用户背景、利用专有数据和上下文，并获得用户信任的 AI 产品。 姚顺雨以微信为例，如果用户可以直接在微信中使用 AI，这个 AI 未必需要拥有最强大的模型能力，但它了解用户的日程安排、朋友关系和各种活动信息。这些信息能够帮助 AI 更好地理解用户需要什么，也使其他模型难以直接替代它。即使竞争对手推出了一个更聪明的模型，也不意味着它能够提供同样的服务，因为后者未必知道用户是谁。 听完这一回答，张亚勤调侃道，按照姚顺雨的逻辑，Anthropic 未来或许不值一万亿甚至两万亿美元，因为模型终有一天可能走向商品化。随后，张亚勤又笑着提醒现场的学生，千万不要听自己的建议去买股票。 IT之家注：姚顺雨本科毕业于清华大学姚班，获普林斯顿大学计算机科学博士学位，2024 年加入 OpenAI 并参与智能体产品 operator 与 deep research 开发。其研究聚焦语言智能体与现实世界交互，提出 ReAct 方法首创“推理 — 行动”结合的智能体范式，被学术界与工业界广泛采纳。 2025 年 12 月，腾讯升级大模型研发架构，新成立 AI Infra 部、AI Data 部、数据计算平台部，全面强化其大模型的研发体系与核心能力。 姚顺雨出任“CEO / 总裁办公室”首席 AI 科学家 ，向腾讯总裁刘炽平汇报；同时兼任 AI Infra 部、大语言模型部负责人，向技术工程事业群总裁卢山汇报。 今年 7 月，腾讯宣布混元多模态模型部门与大语言模型部门合并，成立基础模型部， 统一由姚顺雨管理 ，以进一步提升模型研发和协同效率，探索全模态模型的智能上限。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-08T12:15:55+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/023/991.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "姚顺雨：AI护城河在产品层而非模型层",
+   "summary_zh": "腾讯首席AI科学家姚顺雨认为，AI的护城河更多在产品层：真正难替代的是理解用户背景、掌握专有数据与上下文、赢得信任的产品，而非最聪明的模型；张亚勤据此调侃模型终将商品化。",
+   "highlights_zh": [
+    "以微信为例：懂日程与社交关系的AI，换更强模型也难替代",
+    "模型能力可能商品化，产品侧数据与信任才是壁垒",
+    "姚顺雨现统管腾讯基础模型部与AI Infra，观点具战略分量"
+   ],
+   "why_zh": "头部公司AI一号位对模型商品化与产品护城河的明确判断，影响创业与投资叙事。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-09",
+   "slot": "morning",
+   "selected_at": "2026-11-08T17:00:02+00:00",
+   "mirror_pdf": "pdf/web-52aa05b31e3e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/023/991.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e8a6915e8c73",
+   "kind": "article",
+   "title": "Agent 越用越多，企业为何仍不够 AI Native？",
+   "url": "https://www.infoq.cn/article/YZx670AAiudsqZjx3UNo?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "籍云"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-09T00:08:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/YZx670AAiudsqZjx3UNo?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Agent 越用越多，企业为何仍不够 AI Native？",
+   "summary_zh": "InfoQ 探讨企业部署大量 Agent 后仍难称 AI Native 的原因，聚焦组织流程与系统集成层面的落地障碍。",
+   "highlights_zh": [
+    "Agent 数量增长不等于 AI Native",
+    "关注组织与流程改造",
+    "对企业 AI 落地有实践参考"
+   ],
+   "why_zh": "适合正在推进企业内 Agent 落地的团队对照自身组织与流程短板。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-09",
+   "slot": "morning",
+   "selected_at": "2026-11-08T17:00:02+00:00",
+   "mirror_pdf": "pdf/web-e8a6915e8c73.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/YZx670AAiudsqZjx3UNo?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0548b6b007bd",
+   "kind": "article",
+   "title": "华为、OpenAI、字节等科技巨头为何都要插手制药？",
+   "url": "https://www.tmtpost.com/8197608.html",
+   "pdf_url": "",
+   "abstract": "为何科技巨头都要插手制药？以及，AI到底能给制药带来多大改变？",
+   "authors": [
+    "商隐社"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-08T12:13:38+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8197608.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "华为、OpenAI、字节为何都要插手制药？",
+   "summary_zh": "钛媒体分析科技巨头纷纷入局制药的原因，评估 AI 在药物研发中能带来的实际改变与边界。",
+   "highlights_zh": [
+    "梳理华为、OpenAI、字节等制药布局",
+    "讨论 AI 对药物研发流程的影响",
+    "兼谈炒作与现实差距"
+   ],
+   "why_zh": "想了解科学 AI 在制药领域真实进展与商业逻辑的读者可读。",
+   "tags": [
+    "科学AI",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-09",
+   "slot": "morning",
+   "selected_at": "2026-11-08T17:00:02+00:00",
+   "mirror_pdf": "pdf/web-0548b6b007bd.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8197608.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d463e89def2c",
+   "kind": "article",
+   "title": "MiniMax怎样实现AGI ？闫俊杰的办法是抄“后”路",
+   "url": "https://www.tmtpost.com/8197537.html",
+   "pdf_url": "",
+   "abstract": "闫俊杰认为，中美AI只差5%，却比前面95%更难追。",
+   "authors": [
+    "字母AI"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-08T12:05:35+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8197537.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "闫俊杰：中美AI只差5%，追赶策略是抄“后”路",
+   "summary_zh": "MiniMax闫俊杰认为中美AI差距仅5%，但追赶这最后5%比前面95%更难，主张走差异化追赶路线。",
+   "highlights_zh": [
+    "闫俊杰判断中美AI技术差距已缩小到约5%",
+    "强调最后5%的追赶难度远超此前95%",
+    "MiniMax的AGI路径选择与主流不同的策略"
+   ],
+   "why_zh": "头部大模型创业者对中美AI格局的明确判断，值得关注其追赶方法论。",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-09",
+   "slot": "morning",
+   "selected_at": "2026-11-08T17:00:02+00:00",
+   "mirror_pdf": "pdf/web-d463e89def2c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8197537.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-61f21b5fad93",
+   "kind": "article",
+   "title": "古尔曼称苹果 CEO 特努斯“上任三把火”，敦促软件主管费德里吉大胆搞 AI",
+   "url": "https://www.ithome.com/1/024/013.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 8 日消息，彭博社记者马克 · 古尔曼在今天（8 日）晚间更新的《Power On》时事通讯中披露，苹果新任 CEO 约翰 · 特努斯敦促软件工程主管克雷格 · 费德里吉加快 AI 业务发展，采取更大胆的策略，目标是将 Siri 升级为能够 自主替用户完成任务的 AI 智能体 。 上周的财报电话会议上，特努斯对苹果的 AI 业务表现得相当乐观。谈及新版 Siri 时特努斯更是自信十足：苹果终于实现了多年来的设想，公司 AI 业务迎来了新篇章。“我们对收到的评价和反馈 非常满意 ，也非常高兴看到越来越多的用户能够体验到它。” 但在苹果内部，特努斯的态度却截然不同。他深知苹果仍 远远落后于竞争对手 。最近几周，特努斯与去年接替原 AI 负责人、掌管苹果 AI 业务的费德里吉举行了一次闭门会议。 特努斯希望苹果在 AI 领域有更大的作为，也对费德里吉未能像竞争对手那样积极拥抱 AI 感到不满，因此要求他 加快开发进度 ，不能满足于仅仅完成 Siri 必要的功能升级。 费德里吉至今仍被认为是 AI 怀疑论者，担心其对 隐私、安全、社会和就业 造成的影响。但无论是费德里吉还是苹果，都唯有面对已经发生变化的行业环境。 面对 OpenAI、Meta、谷歌、Anthropic 等公司引领的 AI 浪潮，苹果不再有过去那般可以选择置身事外的实力。 苹果软件部门长期存在的管理问题也因此受到关注。费德里吉习惯 亲自参与会议和重大决策 ，一些员工认为，这种管理方式 让不同意见很难获得支持 。他还经常与持反对意见的人激烈辩论，凭借对技术细节的熟悉程度和出色的辩论能力，反驳自己不赞同的提案。 IT之家从报道中获悉，这种做法有时令软件工程和设计团队成员感到不满，一些人认为，自己很难影响产品的最终发展方向。 费德里吉偏好短期规划也是一个问题。他通常 只制定未来 12 至 18 个月的计划 ，而苹果硬件部门习惯提前数年规划产品。两种工作方式有时难以协调，不仅拖慢产品开发，还可能导致初代产品的功能和设计不够大胆。 苹果希望让硬件与 AI 软件的开发更加紧密地结合，因此， 如何协调两个部门的规划方式，将成为特努斯的一项重要任务 。虽然苹果在硬件设计和工程方面仍处于行业领先地位，但软件发展并非总能跟上硬件的步伐。 尽管如此，费德里吉也有能力解决其他高管难以处理的问题。去年，苹果发现原 AI 负责人约翰 · 詹南德雷亚无法兑现公司对 Siri 的承诺后，改由费德里吉接管开发工作， 并在相对较短的时间内推出了能够正常运行的新版助手 。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-08T15:36:53+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/024/013.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "苹果新CEO敦促软件主管费德里吉大胆搞AI",
+   "summary_zh": "古尔曼爆料苹果新任CEO特努斯内部承认苹果AI远落后对手，要求费德里吉加快进度，把Siri升级为能自主完成任务的智能体。",
+   "highlights_zh": [
+    "特努斯对外乐观、对内承认苹果AI远落后竞争对手",
+    "目标是将Siri升级为可自主替用户完成任务的AI智能体",
+    "费德里吉被视为AI怀疑论者，管理风格与规划周期受质疑"
+   ],
+   "why_zh": "苹果AI战略转向与高层博弈，反映头部公司智能体路线竞争压力。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-09",
+   "slot": "morning",
+   "selected_at": "2026-11-08T17:00:02+00:00",
+   "mirror_pdf": "pdf/web-61f21b5fad93.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/024/013.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ed70ce70a6b5",
+   "kind": "article",
+   "title": "消息称字节跳动拟扩大巴西数据中心项目",
+   "url": "https://www.ithome.com/1/023/993.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 8 日消息，据彭博社 7 日报道，字节跳动 考虑扩大在巴西东北部的数据中心项目 ，以进一步巩固其在拉丁美洲算力基础设施建设领域的领先地位。 知情人士透露，字节跳动正物色开发商，负责 巴西塞阿拉州佩森工业港数据中心项目 的二期建设。该项目可通过向境外输出数据享受税收优惠。 与此同时，智利、阿根廷等国纷纷推出优惠政策、完善基础设施，争取吸引数据中心投资，巴西也希望在这场竞争中保持优势。 知情人士称，佩森港数据中心二期的建设规模将超过塞阿拉州目前在建的 100 亿美元 （IT之家注：现汇率约合 669.08 亿元人民币） 、300MW 项目。 部分人士还透露，字节跳动正与开发商初步洽谈，考虑在佩森港区外另建一座规模相近的数据中心，专门服务巴西本地客户。相比之下，港区内的数据中心必须向境外输出数据，才能享受税收减免。 字节跳动将 AI 视为下一个增长引擎，因此大举增加硬件投资，提升数据中心的设备配置。不过，美国中期选举期间， 选民对数据中心建设的反对声浪 或将拖慢当地项目的建设进度，促使开发商转而考虑巴西等其他市场。 巴西信息技术与通信企业协会 Brasscom 数据显示，2022 年以来， 巴西的数据中心容量增长超过一倍，突破 1GW 。该协会预计，直到 2031 年，巴西数据中心装机容量将保持每年约 20% 的增速，达到 2025 年的近 3 倍。佩森港所在地区风能和太阳能资源丰富，是巴西最适合发展这两类发电项目的地区之一。相比巴西南部的其他项目，当地数据中心对输电线路的依赖较低。 巴西各党派普遍支持数据中心建设，当地的反对声音也远少于美国。巴西总统卢拉在 10 月赢得连任后的胜选演讲中承诺， 将吸引更多数据中心落户巴西 。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-08T12:29:53+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/023/993.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "字节拟扩大巴西数据中心，加码拉美算力",
+   "summary_zh": "彭博社称字节跳动正物色开发商扩建巴西塞阿拉州佩森港数据中心二期，规模或超当地在建的100亿美元、300MW项目，并洽谈另建一座服务本地客户的数据中心，以巩固拉美算力布局。",
+   "highlights_zh": [
+    "二期规模将超过塞阿拉州在建的100亿美元、300MW项目",
+    "港区内需向境外输出数据才享税收优惠，区外项目瞄准本地客户",
+    "巴西数据中心容量2022年以来翻倍破1GW，预计年增约20%"
+   ],
+   "why_zh": "头部大厂全球算力基建的选址与扩张节奏，是观察AI资本开支地理转移的窗口。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-09",
+   "slot": "morning",
+   "selected_at": "2026-11-08T17:00:02+00:00",
+   "mirror_pdf": "pdf/web-ed70ce70a6b5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/023/993.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-639628db8430",
+   "kind": "article",
+   "title": "日本富士电视台将在所有真人剧集制作中使用 AI，可省七至八成特效制作工序",
+   "url": "https://www.ithome.com/1/023/992.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 8 日消息，据日经亚洲当地时间 6 日报道，富士电视台计划从 2027 年 10 月起，将生成式 AI 应用于 所有真人电视剧的制作 ，大幅缩短制作周期。由此，富士电视台将成为日本首家全面引入 AI 参与节目制作的大型商业电视台。 富士电视台 每年制作 16 部电视剧 ，计划使用谷歌 AI 图像生成和编辑工具 Nano Banana。AI 制作工作将交给富士电视台 9 月成立的内部实验室 AI Sandbox，主要由东京制作公司 ANDENT 培训的 CG 设计师负责，开展 AI 技术的测试和应用实验。 AI 技术也被用于富士电视台播出中的医疗剧《救命病栋 24 小时》。第一集中， 一段手术切口流血的镜头就是由 AI 生成的 。以往制作类似场景，需要借助 视觉特效 ，或者使用真实液体模拟血液喷溅。 新技术的制作流程是先在本地环境中利用 事先拍摄的素材训练 AI ，再通过提示词生成符合剧情需要的画面。色调等细节如果未达到创作团队的要求，则在后期进行调整。与传统视觉特效制作相比，AI 可省去 70% 至 80% 的工序 。 富士电视台还打算根据实际需要，在前期策划乃至开拍后灵活运用 AI， 作为实景拍摄和视觉特效的补充选择 。 富士电视台负责制作战略的主管透露，是否使用 AI，要根据成片质量来决定。“最重要的是让电视剧营造的世界 真实可信 。” AI 还能降低拍摄成本。《救命病栋 24 小时》系列新作的一段爆炸场面原本需要直升机进行航拍， 最终通过 AI 生成了俯拍画面 。 富士电视台技术艺术设计局的真崎晋哉解释道：“我们担心今后把 AI 制作交给外部公司会增加成本，因此选择自己制作。” 随着观众逐渐不再收看传统电视，地面电视广告收入不断下滑。2025 财年，日本五大商业电视台共投入 3,657 亿日元 （IT之家注：现汇率约合 154.56 亿元人民币） 制作节目，较 9 年前减少 12%。 面对节目预算不断缩减，富士电视台希望借助 AI 维持制作质量。TBS 电视台、日本电视台等日本其他电视台，也在电视剧制作中推进类似计划。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-08T12:20:20+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/023/992.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "富士电视台2027年起所有真人剧集用AI制作",
+   "summary_zh": "富士电视台计划自2027年10月起在所有真人电视剧制作中引入生成式AI，用谷歌Nano Banana等工具，可省去70%至80%特效工序，已在医疗剧《救命病栋24小时》中生成手术与爆炸镜头。",
+   "highlights_zh": [
+    "成为日本首家全面引入AI参与节目制作的大型商业电视台",
+    "先用本地素材训练AI再按提示词生成，后期调色微调",
+    "电视广告收入下滑背景下，以AI维持制作质量与成本"
+   ],
+   "why_zh": "生成式AI在影视工业的规模化落地案例，反映内容生产成本结构的重塑。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-09",
+   "slot": "morning",
+   "selected_at": "2026-11-08T17:00:02+00:00",
+   "mirror_pdf": "pdf/web-639628db8430.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/023/992.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3e67fe295d80",
+   "kind": "article",
+   "title": "Renly1994/xiaotang-daozai",
+   "url": "https://github.com/Renly1994/xiaotang-daozai",
+   "pdf_url": "",
+   "abstract": "岛仔 Daozai：Rust 构建的 Windows 桌面信息岛。音乐歌词、邮件验证码、日程提醒、待办与 AI 额度，让重要信息轻轻出现在屏幕顶部。",
+   "authors": [],
+   "orgs": [
+    "Renly1994"
+   ],
+   "published": "2026-11-08T17:00:02+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/Renly1994/xiaotang-daozai",
+     "signal": "★ 495（新项目） · Rust",
+     "metric": 495
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "岛仔 Daozai：Rust 打造的 Windows 桌面信息岛",
+   "summary_zh": "Rust 编写的 Windows 桌面信息岛，聚合歌词、验证码、日程、待办与 AI 额度等信息于屏幕顶部。",
+   "highlights_zh": [
+    "Rust 实现，轻量常驻桌面顶部",
+    "聚合音乐、邮件、日程与 AI 额度",
+    "偏个人效率工具，AI 属性较弱"
+   ],
+   "why_zh": "如果你想要一个聚合 AI 额度与日常提醒的桌面小工具，可以试用。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5586,
+   "score_llm": 5.0,
+   "score": 0.5234,
+   "date": "2026-11-09",
+   "slot": "morning",
+   "selected_at": "2026-11-08T17:00:02+00:00",
+   "mirror_pdf": "pdf/web-3e67fe295d80.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/Renly1994/xiaotang-daozai"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-71748d62cd4a",
+   "kind": "article",
+   "title": "woniuniuniu/dsh-media-desk",
+   "url": "https://github.com/woniuniuniu/dsh-media-desk",
+   "pdf_url": "",
+   "abstract": "DeepSeek Harness 自媒体工作台插件：一句话记灵感，一键生成脚本、封面、配图和分镜",
+   "authors": [],
+   "orgs": [
+    "woniuniuniu"
+   ],
+   "published": "2026-11-08T17:00:02+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/woniuniuniu/dsh-media-desk",
+     "signal": "★ 483（新项目） · JavaScript",
+     "metric": 483
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "dsh-media-desk：DeepSeek Harness 自媒体工作台插件",
+   "summary_zh": "基于 DeepSeek Harness 的自媒体工作台插件，一句话记灵感，一键生成脚本、封面、配图与分镜。",
+   "highlights_zh": [
+    "一句话记录灵感并生成内容",
+    "覆盖脚本、封面、配图、分镜全流程",
+    "依赖 DeepSeek Harness 生态"
+   ],
+   "why_zh": "如果你在做自媒体内容生产，可以用它把灵感一键转成脚本与配图。",
+   "tags": [
+    "智能体",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.5577,
+   "score_llm": 5.0,
+   "score": 0.5231,
+   "date": "2026-11-09",
+   "slot": "morning",
+   "selected_at": "2026-11-08T17:00:02+00:00",
+   "mirror_pdf": "pdf/web-71748d62cd4a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/woniuniuniu/dsh-media-desk"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-323c42171476",
+   "kind": "article",
+   "title": "中石油60%控股，与宇树、泛界合设公司，油气机器人“验收权”不能交给外部厂商",
+   "url": "https://www.tmtpost.com/8197535.html",
+   "pdf_url": "",
+   "abstract": "中石油控股三方合营，锚定油气具身机器人标准定义。",
+   "authors": [
+    "预见能源"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-08T12:09:29+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8197535.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "中石油控股联手宇树、泛界设油气机器人公司",
+   "summary_zh": "中石油以60%控股与宇树、泛界合设公司，锚定油气具身机器人标准定义，强调验收权不交给外部厂商。",
+   "highlights_zh": [
+    "中石油控股三方合营，主导油气场景机器人标准",
+    "宇树、泛界作为技术方参与具身机器人研发",
+    "强调验收权自主，避免依赖外部厂商"
+   ],
+   "why_zh": "能源央企切入具身机器人标准制定，关注行业落地路径。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 5.0,
+   "score": 0.444,
+   "date": "2026-11-09",
+   "slot": "morning",
+   "selected_at": "2026-11-08T17:00:02+00:00",
+   "mirror_pdf": "pdf/web-323c42171476.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8197535.html"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "AI竞争焦点从模型能力转向产品与场景闭环",
+   "why": "姚顺雨称护城河在产品层，腾讯以WorkBuddy补齐企业落地断点，印证入口与上下文之争。",
+   "refs": [
+    "web-52aa05b31e3e",
+    "web-248e8e4e4efc"
+   ]
+  },
+  {
+   "trend": "智能体落地瓶颈转向组织流程与系统集成",
+   "why": "企业部署大量Agent仍难称AI Native，说明集成与流程改造比模型选型更关键。",
+   "refs": [
+    "web-e8a6915e8c73"
+   ]
+  },
+  {
+   "trend": "端侧与消费级硬件成为大模型部署新战场",
+   "why": "64GB无GPU跑284B模型、手机端Agent保留人环，显示推理下沉与终端化趋势。",
+   "refs": [
+    "web-5e9d3fd0e59c",
+    "web-4302af2a92aa"
+   ]
+  },
+  {
+   "trend": "算力与数据主权驱动巨头区域化基建加码",
+   "why": "字节扩建巴西数据中心服务本地客户，反映拉美算力与合规布局成竞争前置条件。",
+   "refs": [
+    "web-ed70ce70a6b5"
+   ]
+  },
+  {
+   "trend": "生成式AI进入重资产行业生产流程替代",
+   "why": "富士电视台2027年全剧集用AI省70%特效工序，制药与油气机器人同步推进。",
+   "refs": [
+    "web-639628db8430",
+    "web-0548b6b007bd",
+    "web-323c42171476"
+   ]
+  }
+ ]
+}
