@@ -1,10 +1,10 @@
-2026-11-07 16:48:38,000 INFO source hf_daily           -> 10 items
-2026-11-07 16:48:38,236 INFO source hackernews         -> 3 items
-2026-11-07 16:49:04,368 INFO source rss                -> 86 items
-2026-11-07 16:49:05,584 INFO source html_lists         -> 0 items
-2026-11-07 16:49:05,584 INFO source x                  -> 0 items
-2026-11-07 16:49:06,164 INFO source arxiv_search       -> 11 items
-2026-11-07 16:49:15,200 INFO source github             -> 20 items
-2026-11-07 16:49:15,201 INFO candidates: 130 (stale dropped 76, new 21)
-2026-11-07 16:49:34,079 INFO llm judged 19/21 (calls=3)
-2026-11-07 16:51:47,942 INFO run done: {"at": "2026-11-07T16:48:37+00:00", "slot": "morning", "candidates": 130, "new": 21, "stale": 76, "judged": 19, "selected": 12, "mirrored": 12, "by_category": {"资讯": 10, "技术": 1, "项目": 1}, "by_source": {"HF Daily Papers": 10, "Hacker News": 3, "量子位": 9, "极客公园": 6, "IT之家": 12, "爱范儿": 1, "少数派": 2, "雷峰网": 14, "钛媒体": 7, "InfoQ 中文": 12, "阮一峰": 1, "Dwarkesh Patel": 1, "Latent Space": 3, "Stratechery": 2, "SemiAnalysis": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 3, "OpenAI": 4, "Google DeepMind": 1, "NVIDIA": 3, "arXiv 新论文": 11, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
+2026-11-08 04:47:47,353 INFO source hf_daily           -> 0 items
+2026-11-08 04:47:47,664 INFO source hackernews         -> 3 items
+2026-11-08 04:48:17,768 INFO source rss                -> 66 items
+2026-11-08 04:48:19,143 INFO source html_lists         -> 0 items
+2026-11-08 04:48:19,143 INFO source x                  -> 0 items
+2026-11-08 04:48:19,532 INFO source arxiv_search       -> 0 items
+2026-11-08 04:48:29,163 INFO source github             -> 20 items
+2026-11-08 04:48:29,164 INFO candidates: 89 (stale dropped 30, new 28)
+2026-11-08 04:49:02,049 INFO llm judged 28/28 (calls=4)
+2026-11-08 04:51:46,055 INFO run done: {"at": "2026-11-08T04:47:47+00:00", "slot": "noon", "candidates": 89, "new": 28, "stale": 30, "judged": 28, "selected": 19, "mirrored": 18, "by_category": {"资讯": 12, "观点": 2, "技术": 2, "项目": 3}, "by_source": {"Hacker News": 3, "量子位": 9, "极客公园": 7, "IT之家": 13, "爱范儿": 1, "雷峰网": 9, "钛媒体": 3, "InfoQ 中文": 12, "Latent Space": 3, "Stratechery": 2, "SemiAnalysis": 1, "Azeem Azhar": 2, "Zvi Mowshowitz": 1, "Hugging Face Blog": 1, "OpenAI": 1, "NVIDIA": 1, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
