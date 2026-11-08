@@ -644,42 +644,1070 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-1eeaf5457cb1",
+   "kind": "article",
+   "title": "The end of Microsoft Research's AI Frontiers group",
+   "url": "https://hunch.net/?p=13764006",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-07T18:02:17Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50406563",
+     "signal": "424 pts",
+     "metric": 424
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "微软研究院 AI Frontiers 团队被解散",
+   "summary_zh": "微软研究院旗下 AI Frontiers 团队据报已解散，该团队此前负责前沿 AI 研究与模型能力探索，此举被视为微软 AI 研究组织收缩、资源向产品线集中的信号。",
+   "highlights_zh": [
+    "AI Frontiers 是微软研究院面向前沿模型能力的研究团队",
+    "解散反映大厂 AI 研究组织从探索转向产品化",
+    "HN 高热度，社区关注大厂研究部门收缩趋势"
+   ],
+   "why_zh": "观察头部大厂 AI 研究组织战略收缩与资源重配的风向标事件。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6038,
+   "score_llm": 8.0,
+   "score": 0.7215,
+   "date": "2026-11-08",
+   "slot": "noon",
+   "selected_at": "2026-11-08T04:47:47+00:00",
+   "mirror_pdf": "pdf/web-1eeaf5457cb1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://hunch.net/?p=13764006"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50406563"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-881c7e199684",
+   "kind": "article",
+   "title": "We Visited China’s Stargate in Inner Mongolia",
+   "url": "https://newsletter.semianalysis.com/p/we-visited-chinas-stargate-in-inner",
+   "pdf_url": "",
+   "abstract": "A wind-powered 800MW campus, 120MW built within a year, a 5MW SST-native 800V DC pilot and a cooling design without central chillers",
+   "authors": [
+    "Everlyn Tan"
+   ],
+   "orgs": [
+    "SemiAnalysis"
+   ],
+   "published": "2026-11-07T19:01:39+00:00",
+   "sources": [
+    {
+     "name": "SemiAnalysis",
+     "authority": 0.8,
+     "url": "https://newsletter.semianalysis.com/p/we-visited-chinas-stargate-in-inner",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "半导体与算力分析",
+   "title_zh": "探访内蒙古“中国星际之门”",
+   "summary_zh": "SemiAnalysis实地探访内蒙古800MW风电数据中心，一年建成120MW，并试点5MW 800V直流与无中央冷机散热方案。",
+   "highlights_zh": [
+    "800MW园区以风电供能，一年内交付120MW算力",
+    "5MW SST原生800V直流供电试点，探索高压直流架构",
+    "无中央冷机的散热设计，降低PUE与建设成本"
+   ],
+   "why_zh": "中国超大规模AI算力基建的一线观察，供电与散热架构细节对算力从业者有参考价值。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.708,
+   "date": "2026-11-08",
+   "slot": "noon",
+   "selected_at": "2026-11-08T04:47:47+00:00",
+   "mirror_pdf": "pdf/web-881c7e199684.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://newsletter.semianalysis.com/p/we-visited-chinas-stargate-in-inner"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5186d80b7eef",
+   "kind": "article",
+   "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+   "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-07T20:45:32Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50407882",
+     "signal": "265 pts",
+     "metric": 265
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Claude Code「不再询问」选项致密码泄露至 1122 个公开仓库",
+   "summary_zh": "研究发现 Claude Code 的「Don't Ask Again」权限选项会让敏感信息（含密码）被写入并推送到公开 GitHub 仓库，已发现 1122 个受影响文件，暴露智能体工具权限设计的风险。",
+   "highlights_zh": [
+    "「不再询问」跳过确认导致敏感数据被自动提交",
+    "已确认 1122 个公开 GitHub 文件含泄露密码",
+    "提示智能体编码工具的权限与安全默认值问题"
+   ],
+   "why_zh": "使用 Claude Code 等编码智能体的团队需关注的权限与密钥泄露风险。",
+   "tags": [
+    "智能体",
+    "对齐与安全",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5818,
+   "score_llm": 7.0,
+   "score": 0.6527,
+   "date": "2026-11-08",
+   "slot": "noon",
+   "selected_at": "2026-11-08T04:47:47+00:00",
+   "mirror_pdf": "pdf/web-5186d80b7eef.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50407882"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d8887a09bc5e",
+   "kind": "article",
+   "title": "The Components of Agent Memory",
+   "url": "https://www.anthropic.com/research/components-of-agent-memory",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-07T06:39:04Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50402212",
+     "signal": "154 pts",
+     "metric": 154
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "智能体记忆的组成要素",
+   "summary_zh": "文章系统拆解智能体记忆的组成部分，梳理短期上下文、长期存储与检索等模块如何协同，为设计记忆架构提供框架。",
+   "highlights_zh": [
+    "拆解智能体记忆的分层组成",
+    "讨论记忆的存储与检索机制",
+    "为智能体记忆架构设计提供参考"
+   ],
+   "why_zh": "做智能体记忆系统时的架构梳理参考，帮助厘清各模块职责。",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5565,
+   "score_llm": 7.0,
+   "score": 0.6426,
+   "date": "2026-11-08",
+   "slot": "noon",
+   "selected_at": "2026-11-08T04:47:47+00:00",
+   "mirror_pdf": "pdf/web-d8887a09bc5e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.anthropic.com/research/components-of-agent-memory"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50402212"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9fcbfa1f2adf",
+   "kind": "article",
+   "title": "消息称 Anthropic 仍在推进上市：最多募资 1000 亿美元，“史上最大 IPO”或有变数",
+   "url": "https://www.ithome.com/1/023/854.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 8 日消息，据《金融时报》昨天报道，尽管美国科技股近期遭遇剧烈波动，Anthropic 仍在推进上市计划。这家来自美国的人工智能初创企业，已经做好接受低于乐观预期估值的准备。 据多位 Anthropic 投资者透露，这家美国公司仍计划在感恩节前进行 IPO（首次公开募股），预计募资 800 亿美元-1,000 亿美元 （IT之家注：现汇率约合 5,352.66 亿元- 6,690.83 亿元人民币） ，目标估值为 1.25 万亿美元-1.75 万亿美元 （现汇率约合 8.36 万亿元- 11.71 万亿元人民币） 。 上述传闻中数字高于 Anthropic 目前的 9,650 亿美元 （现汇率约合 6.46 万亿元人民币） 估值， 但与投资者一个月前预计的翻倍水平相比存在不小差距 。 一位持有大量 Anthropic 股份的投资者表示：“我认为他们会采取非常保守的定价策略，比如将估值定在 1.5 万亿美元 （现汇率约合 10.04 万亿元人民币） ，然后再逐步上涨。”其他参与此次交易的人士则认为估值可能更低， 约为 1.3 万亿美元 （现汇率约合 8.7 万亿元人民币） 。 这种预期下调反映出科技行业正在重新评估市场走势。投资者们越来越担心借贷成本上升，以及 AI 企业不断膨胀的支出计划。大量 AI 概念股已经开始出现抛售现象，贷款机构也开始回避高风险项目。 本周美国中期选举，民主党取得压倒性胜利，部分原因在于该党候选人承诺阻止数据中心建设。这种结果进一步加速了市场抛售。 六名以上投资者透露，Anthropic 仍打算上市， CEO 达里奥 · 阿莫迪为此不得不接受估值下调 。 本周四美国股市剧烈震荡，单日蒸发 3.2 万亿美元 （现汇率约合 21.41 万亿元人民币） 市值。以科技股为主的纳斯达克 100 指数暴跌 6.4%，市场担忧 AI 基础设施投资热潮可能放缓。 市场研究机构 Vital Knowledge 分析师表示：“AI 股票遭到抛售，这让 Anthropic 上市变得更加困难，意味着可用于资本支出的资金减少，进而引发更多抛售。” 同时 OpenAI 也难以完成自己的私募融资。该公司已将寻求的估值从 1.4 万亿美元 （现汇率约合 9.37 万亿元人民币） 下调至 1.25 万亿美元 （现汇率约合 8.36 万亿元人民币） ，同时将融资规模从 300 亿美元 （现汇率约合 2,007.25 亿元人民币） 缩减至 200 亿美元 （现汇率约合 1,338.17 亿元人民币） 。 Anthropic 的支持者希望，本次 IPO 能够吸引一些被动卖家，即指数基金和大型资产管理公司。这些机构目前尚未持有 Anthropic 的股票，但在公司上市后不久，他们实际上将不得不买入相关股票。 此外 Anthropic 冲击“史上最大 IPO”的传闻也有变数。 据多位了解阿莫迪想法的人士透露 ， 他对超越马斯克 SpaceX 并没有太大兴趣 。 一位投资者表示：“他们并不在乎估值能否超过 SpaceX，也不追求 IPO 融资规模最大化。”Anthropic 的七位联合创始人已经承诺，将个人持有的公司股权中的 80% 捐赠给慈善事业。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-08T00:44:04+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/023/854.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic推进IPO：拟募资至多1000亿美元，估值预期下调",
+   "summary_zh": "金融时报称Anthropic仍计划感恩节前IPO，拟募资800亿至1000亿美元，但因AI股抛售与借贷成本上升，估值预期从翻倍下调至约1.3万亿至1.5万亿美元。",
+   "highlights_zh": [
+    "目标估值1.25万亿至1.75万亿美元，低于一个月前的乐观预期",
+    "纳斯达克100单日暴跌6.4%，OpenAI同步下调融资估值与规模",
+    "七位联合创始人承诺将个人持股的80%捐给慈善事业"
+   ],
+   "why_zh": "AI一级市场估值回调的最强信号，直接反映资本市场对AI基础设施支出的重新定价。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-08",
+   "slot": "noon",
+   "selected_at": "2026-11-08T04:47:47+00:00",
+   "mirror_pdf": "pdf/web-9fcbfa1f2adf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/023/854.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6af3e214f83d",
+   "kind": "article",
+   "title": "创业者做 Personal Agent，有没有一线生机？",
+   "url": "http://www.geekpark.net/news/373650",
+   "pdf_url": "",
+   "abstract": "最近一阶段，Personal Agent 很热。有趣的是，这个概念迅速火爆又迅速有了一个共识，几波讨论下来大家的观点似乎是： Personal Agent 的机会是大厂的，创业者基本没戏。 虽然一般情况下，「入口级机会归大厂」确实是大概率发生的事情，但 Personal Agent 真的是个「入口」的问题吗？真的意味着「这件事里没有创业者的位置」吗？ 这依旧值得认真聊一聊。 真正值得兴奋的事：价值可以长在基模外 我们换一个视角看，Personal Agent 为什么让人兴奋？ 因为它给创业者提供了一种新的可能： 产品的 终极价值不来自于 今天 大模型 公司提供的智能 ， 而是 可以借助大模型的 能力 来 孕育 产品 ，最终在和用户的共同发展中，把 大部分 能力和价值留在创业公司自身。 回顾过去三年 AI 和 Agent 的演进，通用大模型就像一个营养丰富的「蛋」。绝大多数 AI 应用和 Agent 产品，本质上都没能离开大模型这层「卵壳」。无论是从最初的「套壳」，还是后来开始做 Environment Engineering、Harness Engineering，努力让模型能用工具、能执行更长的任务，很多时候仍然受制于同一个事实：产品的智商、响应能力和行为边界，很大程度上由底层模型决定。 早期生长依赖大模型提供的「养分」，这本身没有问题。问题在于，如果产品一直只能从基础模型里「吸收营养」，无法破壳去真实世界里独立生长，最后就容易沦为模型厂商的「Token 分销商」。并且始终难以摆脱在沙滩上建城堡的风险：模型一升级，别人也能跟上；模型一涨价，自己的成本就被牵着走；模型一迭代，你的产品可能就被基模能力吞没了。 Personal Agent 提供了一种「破壳」的可能性，这是那个真正值得兴奋的地方。 在今天，虽然很多时候接入最好的模型才能让 Personal Agent 产品有最好的用户体验，但总要用发展的眼光看问题。 Personal Agent 产品的终极价值，不必然取决于你是否拥有 或接入 全世界最强的通用模型。 解决具体场景里的个人问题，未必总需要最昂贵、参数最大的顶级模型。产品的终极价值更多会取决于大模型之外的东西 ， 例如高密度的个人上下文、以及对用户理解的深度建模、长周期交付价值沉淀下来的信任关系。 当然，这要求团队本身具备强大的数据工程和后训练能力来打底。但不意味着需要一步到位配置齐全才能下场。创业公司起步阶段可以动用的解决方案可以有很多，例如，可以先把上下文管理、任务编排、评估做起来，或者通过架构设计组合出更高效适配的模型，甚至把「熟能生巧」级别的 RSI 能力跑起来。随着真实任务里的高质量数据和用户反馈的逐步积累，创业团队最终也有机会训练出更适合自身场景的模型。 这有点像建设 一条 自己的「核心供应链」 。重点不是一开始就拥有所有环节，而是逐步掌握那些决定交付质量和服务成本的关键能力。长期来看，这些能力会影响用户服务的成本和利润空间。 所以，如果说两年前的大模型热潮更像是一场「硅基竞赛」，比拼的是谁有更多的卡、更顶级的研究员、更多更好的数据。那么 Personal Agent 把 AI 创业带到了一个新阶段：价值和竞争力可以长在基模之外。 这是 Personal Agent 对创业者真正有吸引力的地方。 Personal Agent 不是新产品概念，是一个技术新阶段 如果只把 Personal Agent 理解为一个新产品形态，可能并不完整。我现在越来越觉得，我们讨论的其实不只是 Personal Agent，而是 更大的问题：Pe",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-08T02:40:20+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373650",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "创业者做 Personal Agent 还有没有机会？",
+   "summary_zh": "极客公园认为 Personal Agent 的价值可以长在基模之外：创业者应靠高密度个人上下文、用户理解深度与长期信任关系构建壁垒，而非依赖最强通用模型，逐步掌握决定交付质量与成本的关键能力。",
+   "highlights_zh": [
+    "产品价值不必取决于是否接入最强通用模型",
+    "壁垒来自个人上下文、用户建模与信任沉淀",
+    "起步可先做上下文管理、任务编排与评估"
+   ],
+   "why_zh": "为 AI 应用创业者提供避开「Token 分销商」定位的战略思路。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-11-08",
+   "slot": "noon",
+   "selected_at": "2026-11-08T04:47:47+00:00",
+   "mirror_pdf": "pdf/web-6af3e214f83d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373650"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d5689684c624",
+   "kind": "article",
+   "title": "shanselman/gputaskman",
+   "url": "https://github.com/shanselman/gputaskman",
+   "pdf_url": "",
+   "abstract": "A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA).",
+   "authors": [],
+   "orgs": [
+    "shanselman"
+   ],
+   "published": "2026-11-08T04:47:47+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/shanselman/gputaskman",
+     "signal": "★ 559（新项目） · Python",
+     "metric": 559
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "gputaskman：跨平台 GPU 任务管理器",
+   "summary_zh": "一个面向 Windows、Linux 与 WSL 的 GPU 任务管理器，可按进程查看显存占用、GPU 活动，并提供 LLM 模型与 KV-cache 的显存洞察。",
+   "highlights_zh": [
+    "按进程查看显存与 GPU 活动",
+    "支持 Windows AMD 与 NVIDIA 显卡",
+    "提供 LLM 模型与 KV-cache 显存分析"
+   ],
+   "why_zh": "如果你在本地跑 LLM 想定位显存被谁占用，用它按进程排查 KV-cache 与模型开销。",
+   "tags": [
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5629,
+   "score_llm": 6.0,
+   "score": 0.5852,
+   "date": "2026-11-08",
+   "slot": "noon",
+   "selected_at": "2026-11-08T04:47:47+00:00",
+   "mirror_pdf": "pdf/web-d5689684c624.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/shanselman/gputaskman"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-353d1cbf5681",
+   "kind": "article",
+   "title": "JosssphZhou/poki",
+   "url": "https://github.com/JosssphZhou/poki",
+   "pdf_url": "",
+   "abstract": "Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware.",
+   "authors": [],
+   "orgs": [
+    "JosssphZhou"
+   ],
+   "published": "2026-11-08T04:47:47+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/JosssphZhou/poki",
+     "signal": "★ 527（新项目） · JavaScript",
+     "metric": 527
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "poki：让 AI 智能体操作真实 iPhone",
+   "summary_zh": "一个本地 MCP 服务器与智能体，可让 AI 直接操作真实 iPhone，无需越狱或额外硬件。",
+   "highlights_zh": [
+    "本地 MCP 服务器接入真实 iPhone",
+    "无需越狱、无需额外硬件",
+    "面向移动端智能体自动化场景"
+   ],
+   "why_zh": "如果你在做移动端智能体自动化，可用它把真实 iPhone 接入 MCP 工具链做真机操作。",
+   "tags": [
+    "智能体",
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.5608,
+   "score_llm": 6.0,
+   "score": 0.5843,
+   "date": "2026-11-08",
+   "slot": "noon",
+   "selected_at": "2026-11-08T04:47:47+00:00",
+   "mirror_pdf": "pdf/web-353d1cbf5681.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/JosssphZhou/poki"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bc29d620dcb5",
+   "kind": "article",
+   "title": "自动路由真能省钱吗？便宜模型出错后，人类修一小时可能更贵",
+   "url": "https://www.infoq.cn/article/gOcDmZM2MPAQhWtNb6IJ?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Steef-Jan Wiggers"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-08T09:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/gOcDmZM2MPAQhWtNb6IJ?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "自动路由省钱吗？便宜模型出错人类修更贵",
+   "summary_zh": "InfoQ文章指出模型自动路由虽降低调用成本，但便宜模型出错后的人工修复成本可能远超节省的费用。",
+   "highlights_zh": [
+    "自动路由的成本账需计入人工返工",
+    "便宜模型错误率与修复时间的关系",
+    "对LLM路由策略选型的提醒"
+   ],
+   "why_zh": "给盲目追求低价模型路由的团队一记提醒，成本评估要算总账。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-08",
+   "slot": "noon",
+   "selected_at": "2026-11-08T04:47:47+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/gOcDmZM2MPAQhWtNb6IJ?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-702789045bc6",
+   "kind": "article",
+   "title": "特斯拉更新 AI 加速器路线图：SI6 算力达 HW4 的 80 倍，Dojo D3 将面向太空部署",
+   "url": "https://www.ithome.com/1/023/876.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 8 日消息，特斯拉公布了更新后的 AI 加速器路线图，进一步揭示了公司未来几年的芯片研发方向。根据这份路线图，特斯拉第六代推理加速器的算力预计将达到现有第四代芯片的 80 倍；而用于训练任务的 Dojo D3 将放弃以 SRAM 为核心的架构，转向采用多芯粒设计，并搭载堆叠式 HBM 高带宽内存。 此外，特斯拉还开始用“超级智能”（Super Intelligence，SI）取代“人工智能”（Artificial Intelligence，AI）这一名称，为旗下 AI 加速器启用 SI 系列命名。出于相同原因，马斯克近期也确认，SpaceXAI 将更名为 SpaceXSI。 特斯拉 AI 加速器路线图 根据披露的信息，特斯拉目前的芯片产品线及规划如下： 项目 HW3 / AI3 SI4 / HW4 SI5 / AI5 SI6 / AI6 Dojo D1 Dojo D3 用途 推理 推理 推理 推理 训练 训练 制程工艺 三星 14nm 三星 7nm 台积电 3nm / 三星 2nm 2nm 级 台积电 7nm 待定 架构 单片式 单片式 多芯片模块（MCM） 多芯片模块（MCM） 晶圆级系统（SoW） 多芯粒 封装 FCBGA FCBGA MCM MCM InFO_SoW（训练计算单元） 2.5D + 3D 内存类型 LPDDR4 GDDR6 GDDR6 / GDDR7（待定） GDDR7（待定） 片上 SRAM 堆叠式 HBM 内存容量 8GB 16GB 96GB 144GB 每颗芯片 440MB SRAM；每片晶圆 11GB SRAM 待定 内存带宽 约 68GB/s 约 224GB/s 待定 待定 片上约 10TB/s 待定 相对 SI4 算力 — 1 倍 40 倍 80 倍 — — 预计算力（TOPS） 72 216～576 8640～23040 17280～46080 362 TFLOPS 待定 预计算力（POPS） 0.072 0.216～0.576 8.64～23.04 17.28～46.08 0.362 PFLOPS 待定 当前状态 已淘汰 量产 接近量产 研发中 已停止 研发中 Dojo D3：不再采用晶圆级集成？ IT之家注意到，这份路线图中最值得关注的变化，或许是特斯拉重新启动了自主研发的 Dojo 训练加速器项目。 马斯克曾在 2025 年 8 月取消整个晶圆级 Dojo 项目，并于 2026 年 8 月表示，SpaceX 和 xAI 将在其地面及太空数据中心中全部采用英伟达硬件。不过，第三代 Dojo D3 与前两代 Dojo D1、Dojo D2 将有明显不同。 特斯拉将下一代 Dojo D3 描述为一款基于芯粒（Chiplet）的训练加速器，采用 2.5D 和 3D 封装技术，并搭载堆叠式 HBM 内存。 这与最初 Dojo D1 采用的晶圆级系统（System-on-Wafer，SoW）架构有很大不同。D1 主要依赖分布式片上 SRAM，并通过晶圆级封装技术，将 25 颗 D1 处理器连接起来，提供总计 11GB 的 SRAM。 D3 转向 HBM，意味着特斯拉希望大幅提高内存容量。现代 AI 模型需要消耗大量内存，用于存储模型参数、激活值和中间计算数据。从容量角度来看，SRAM 已经不再适合满足这类需求。 采用 HBM 可以让内存容量扩展变得更加容易，但也会带来不同的延迟、带宽、封装和功耗权衡。目前尚不清楚特斯拉是否已经彻底放弃晶圆级集成技术。 一种可能是，特斯拉仍会采用晶圆级封装技术连接逻辑",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-08T03:31:15+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/023/876.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "特斯拉更新AI芯片路线图：SI6算力达HW4的80倍，Dojo D3转向HBM",
+   "summary_zh": "特斯拉公布AI加速器路线图：第六代推理芯片SI6算力为HW4的80倍，训练芯片Dojo D3放弃晶圆级SRAM架构，改用多芯粒加堆叠HBM，并将AI系列更名为SI（超级智能）。",
+   "highlights_zh": [
+    "SI6预计算力17.28~46.08 POPS，为SI4的80倍，采用2nm级工艺与多芯片模块封装",
+    "Dojo D3从晶圆级系统转向芯粒加2.5D/3D封装与HBM，意在解决大模型训练的内存容量瓶颈",
+    "特斯拉将AI加速器更名为SI系列，马斯克同步将SpaceXAI改为SpaceXSI"
+   ],
+   "why_zh": "特斯拉自研训练芯片路线转向HBM，是观察车企自建AI算力与英伟达替代路径的关键信号。",
+   "tags": [
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-08",
+   "slot": "noon",
+   "selected_at": "2026-11-08T04:47:47+00:00",
+   "mirror_pdf": "pdf/web-702789045bc6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/023/876.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-376bef669a40",
+   "kind": "article",
+   "title": "芝加哥大学教授：AI 时代数学人才招聘将更看重研究愿景与表达能力",
+   "url": "https://www.ithome.com/1/023/859.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 8 日消息，人工智能正在降低数学研究取得突破的门槛，但这也意味着，学术界可能需要重新审视人才招聘方式。芝加哥大学一位知名数学教授认为，未来招聘数学研究人员时，个人交流能力和清晰表达研究构想的能力将变得更加重要。 芝加哥大学数学领域的杰出学者弗兰克 · 卡莱加里（Frank Calegari）近日在一篇文章中谈到了自己对研究人员的招聘标准。他写道：“我想了解你希望数学走向何方，也需要具备能解释这为何可能实现的专业能力。” 卡莱加里担忧，随着人工智能工具不断进步，学术界各个领域的初级研究岗位可能会被一些学生占据，而这些人之所以能够获得相关成果，可能只是因为他们大量使用人工智能生成证明。 不过，他认为，一场 30 分钟的面对面交流，就足以区分两类候选人：一类只是批量制造低质量研究成果的人，另一类则拥有清晰的研究愿景，并且善于表达。 卡莱加里在发布于陶哲轩（Terence Tao）博客上的文章中表示： “招聘流程将不得不更多地依赖人与人之间的直接交流，而不是仅仅审查书面材料。” 他还批评了一些他所称的“懒惰的评审委员会”，认为这些委员会过去仅凭一篇论文或一项学术成果就决定是否录用学生，而如今，这类成果完全可能由人工智能生成。 他表示：“一旦我们采取这种方式，就有责任培养自己的研究生，让他们具备更好的数学表达能力。我们本应更加认真地对待这件事。” 上个月，康奈尔大学教授史蒂文 · 斯特罗加茨（Steven Strogatz）也曾指出，具备“rizz”（俚语，意为个人魅力）特质的数学家如今更受重视，因为他们能够解释人工智能生成的研究结果，并以此提出新的数学问题。 IT之家注意到，人工智能公司迅速进军数学领域，已经让不少数学研究人员感到不安和困惑。随着 OpenAI 向这一领域大量推出针对世界上最复杂数学难题的解决方案，数量达到数百项，整个数学界都在思考如何在人工智能时代保持自身价值。 一些教授已经明确表示不再使用人工智能。不过，大多数人仍在尝试寻找将这项技术融入自身研究的方法。 美国各地的学生也在努力适应这一变化，并要求教授明确公布人工智能使用指南，说明学生是否可以使用这类工具，以及应该如何使用。 一名学生在麻省理工学院（MIT）近期开展的一项调查中写道：“整个学术界目前缺乏高层次的领导和指导。”",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-08T01:10:20+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/023/859.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "芝加哥大学教授：AI时代数学招聘更看重研究愿景与表达",
+   "summary_zh": "芝加哥大学数学教授Calegari认为，AI可批量生成证明后，招聘应更多依赖面对面交流，考察候选人的研究愿景与表达能力，而非仅看论文成果。",
+   "highlights_zh": [
+    "担忧初级研究岗位被大量使用AI生成证明的学生占据",
+    "认为30分钟面谈即可区分批量产出与有清晰愿景的候选人",
+    "呼吁院系认真培养研究生的数学表达能力"
+   ],
+   "why_zh": "AI冲击学术评价体系的代表性观点，对科研招聘与人才培养有参考价值。",
+   "tags": [
+    "科学AI",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-08",
+   "slot": "noon",
+   "selected_at": "2026-11-08T04:47:47+00:00",
+   "mirror_pdf": "pdf/web-376bef669a40.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/023/859.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5d00db341c1a",
+   "kind": "article",
+   "title": "索尼全球首发“基于视觉语言模型的驾驶接管危险预警”，为驾驶员提供分级提示",
+   "url": "https://www.ithome.com/1/023/849.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 8 日消息，2026 年 11 月 5 日，索尼（中国）有限公司（下称“索尼”）在第九届中国国际进口博览会上，全球首发“基于视觉语言模型的驾驶接管危险预警”移动出行技术。 据介绍，当道路环境接近或超出系统的适用范围时，清晰的接管提示有助于驾驶员理解当前情境、做好响应准备。该技术利用视觉语言模型（VLM）分析车辆前方的道路画面，判断路况是否接近或超出智能驾驶系统的设计运行范围（ODD）， 为驾驶员提供分级提示 。 IT之家注意到，接管提示分为三个层级：接近边界时，提醒驾驶员准备接管；超出范围但尚不紧急时，引导驾驶员主动接管；遇到突发障碍或感知失效等高风险情况时，提示紧急接管。 研发过程中，团队利用数字孪生仿真环境，生成日间、夜间、大雨及高速行驶等工况下的数据，用于模型训练与验证。目前， 该技术已同清华汽车工程学院在苏州市相城区开展实际道路测试 ，可为车企及智能驾驶解决方案厂商的接管时机判断与人机交互设计提供支持。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-08T00:05:52+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/023/849.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "索尼首发VLM驾驶接管分级预警",
+   "summary_zh": "索尼在进博会全球首发基于视觉语言模型的驾驶接管危险预警技术，用VLM判断路况是否超出智驾系统设计运行范围，向驾驶员提供三级接管提示，已在苏州开展实际道路测试。",
+   "highlights_zh": [
+    "用VLM分析前方道路画面，判断是否接近或超出ODD边界",
+    "接管提示分三级：准备接管、主动接管、紧急接管",
+    "借助数字孪生仿真生成日夜、大雨、高速等工况数据训练验证"
+   ],
+   "why_zh": "VLM落地智能驾驶人机交互的少见案例，关注智驾接管时机设计可参考。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-08",
+   "slot": "noon",
+   "selected_at": "2026-11-08T04:47:47+00:00",
+   "mirror_pdf": "pdf/web-5d00db341c1a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/023/849.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-237503ac2854",
+   "kind": "article",
+   "title": "🔮 The people vs tech; the Europoor; forgotten Creole++ #609",
+   "url": "https://www.exponentialview.co/p/ev-609",
+   "pdf_url": "",
+   "abstract": "Your weekend briefing on AI and exponential technologies",
+   "authors": [
+    "Azeem Azhar"
+   ],
+   "orgs": [
+    "Azeem Azhar"
+   ],
+   "published": "2026-11-08T03:47:27+00:00",
+   "sources": [
+    {
+     "name": "Azeem Azhar",
+     "authority": 0.8,
+     "url": "https://www.exponentialview.co/p/ev-609",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Exponential View 创始人",
+   "title_zh": "Azeem Azhar周末简报第609期",
+   "summary_zh": "Azeem Azhar本期简报聚焦“人与科技”之争、欧洲竞争力困境与Creole语言等话题，AI只是其中一部分。",
+   "highlights_zh": [
+    "涵盖AI与指数级技术的周末综述",
+    "讨论科技与社会的张力",
+    "信息密度高但主题分散"
+   ],
+   "why_zh": "适合快速扫读行业话题，但缺乏单一深度判断，增量有限。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 5.0,
+   "score": 0.528,
+   "date": "2026-11-08",
+   "slot": "noon",
+   "selected_at": "2026-11-08T04:47:47+00:00",
+   "mirror_pdf": "pdf/web-237503ac2854.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.exponentialview.co/p/ev-609"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f2e68a651d21",
+   "kind": "article",
+   "title": "zeekk0/OpenAmika",
+   "url": "https://github.com/zeekk0/OpenAmika",
+   "pdf_url": "",
+   "abstract": "OpenAmika: MekaHime's AI companion Amika, open source. Live2D avatar, real-time voice, long-term memory, OpenRouter or Ollama brain.",
+   "authors": [],
+   "orgs": [
+    "zeekk0"
+   ],
+   "published": "2026-11-08T04:47:47+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/zeekk0/OpenAmika",
+     "signal": "★ 508（新项目） · Python",
+     "metric": 508
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAmika：开源 AI 虚拟伴侣",
+   "summary_zh": "开源 AI 伴侣项目，具备 Live2D 形象、实时语音与长期记忆，可接 OpenRouter 或本地 Ollama 作为大脑。",
+   "highlights_zh": [
+    "Live2D 虚拟形象加实时语音交互",
+    "支持长期记忆",
+    "可接 OpenRouter 或本地 Ollama"
+   ],
+   "why_zh": "如果你想搭一个本地可跑的语音虚拟伴侣，可用它接 Ollama 快速起步。",
+   "tags": [
+    "语音",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.5595,
+   "score_llm": 5.0,
+   "score": 0.5238,
+   "date": "2026-11-08",
+   "slot": "noon",
+   "selected_at": "2026-11-08T04:47:47+00:00",
+   "mirror_pdf": "pdf/web-f2e68a651d21.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/zeekk0/OpenAmika"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-925da713d741",
+   "kind": "article",
+   "title": "从约束到进化：Ontology 与 AI 自迭代的实践｜AICon北京",
+   "url": "https://www.infoq.cn/article/sy9XMK3zJ3jPwHBN5fQV?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "AICon 全球人工智能开发与应用大会"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-08T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/sy9XMK3zJ3jPwHBN5fQV?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Ontology与AI自迭代的工程实践",
+   "summary_zh": "AICon北京演讲介绍如何用本体（Ontology）约束并驱动AI系统的自迭代，从约束走向进化。",
+   "highlights_zh": [
+    "本体作为知识约束层",
+    "AI自迭代的工程落地路径",
+    "来自AICon的实践分享"
+   ],
+   "why_zh": "对做知识工程与智能体迭代的团队有方法参考，但摘要信息有限。",
+   "tags": [
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-08",
+   "slot": "noon",
+   "selected_at": "2026-11-08T04:47:47+00:00",
+   "mirror_pdf": "pdf/web-925da713d741.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/sy9XMK3zJ3jPwHBN5fQV?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a6d4256e41de",
+   "kind": "article",
+   "title": "Edge AI Daily 早报（11月8日）",
+   "url": "https://www.tmtpost.com/8197405.html",
+   "pdf_url": "",
+   "abstract": "AI资本重定价：OpenAI首笔融资110亿美元、估值1.25万亿美元但目标缩减，Anthropic IPO估值下修；科技股抛售、微软停租甲骨文旧芯片、欧央行审查数据中心贷款，Meta发债250亿美元。Meta免费下放Muse主动记忆，谷歌PPG高血压筛查登《自然》，特斯拉拟租赁Optimus，OpenAI逆势扩张数据中心，AWS切割H100。Agent与6G开源标准推进；中国侧苹果Siri AI入华开关现身，美制裁中企。",
+   "authors": [
+    "Edge AI Daily"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-08T00:58:37+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8197405.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Edge AI Daily早报：AI资本重定价",
+   "summary_zh": "钛媒体早报汇总OpenAI首笔110亿美元融资与估值调整、Anthropic IPO估值下修、科技股抛售及Meta、谷歌等动态。",
+   "highlights_zh": [
+    "OpenAI融资110亿美元但目标缩减",
+    "Anthropic IPO估值下修，市场情绪转冷",
+    "微软停租甲骨文旧芯片、AWS切割H100"
+   ],
+   "why_zh": "一屏掌握AI资本市场与算力供需的最新风向，适合快速跟进。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-11-08",
+   "slot": "noon",
+   "selected_at": "2026-11-08T04:47:47+00:00",
+   "mirror_pdf": "pdf/web-a6d4256e41de.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8197405.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-05deee2150a0",
+   "kind": "article",
+   "title": "收购 EA 后，银湖资本与沙特基金 250 亿美元报价 Unity；超10万款应用已适配iPhone Duo；美国再发生 NVIDIA AI 设备失窃案",
+   "url": "http://www.geekpark.net/news/373649",
+   "pdf_url": "",
+   "abstract": "收购 EA 之后，银湖资本与沙特公共投资基金据报出价 250 亿美元收购 Unity 据路透社援引未具名知情人士的消息报道，由美国私募股权公司银湖资本（Silver Lake Partners）与沙特阿拉伯主权财富基金——公共投资基金（PIF）组成的投资者财团，已向 Unity Software 提出收购要约，对这家公司的估值约为 250 亿美元。据悉，Unity 正在认真考虑这一报价，并已聘请一家投资银行提供咨询。 据路透社援引未具名知情人士的消息报道，由美国私募股权公司银湖资本（Silver Lake Partners）与沙特阿拉伯主权财富基金——公共投资基金（PIF）组成的投资者财团，已向 Unity Software 提出收购要约，对这家公司的估值约为 250 亿美元。据悉，Unity 正在认真考虑这一报价，并已聘请一家投资银行提供咨询。（来源：cnBeta） Meta 重大人事变动！扎克伯格的首席战略官也走了 11 月 7 日，Meta 首席战略官戴夫·韦纳确认将从 Meta 离职，转而出任 AI 推理初创企业 Fireworks 的首席财务官。戴夫·韦纳 2012 年加入 Meta，曾于 2014 年升任首席财务官并任职逾八年，其任职该岗位期间，2018 年总薪酬达 1970 万美元，2019 年增至 2130 万美元。 此次离职是 Meta 近两年高管持续变动的最新事件，近年已有多位重量级核心高管先后离场。当前 Meta 正持续加码 AI 投入，外界将领导层调整视作其为 AI 商业化路线进行组织洗牌的信号。 Meta2026 年第三季度财报显示，当期其营收 646.01 亿美元同比增长 26%，净利润 98.60 亿美元同比增长 264%，营业利润则同比下降 37% 至 129.88 亿美元。（来源：快科技） Meta 将 Muse Wonder 专用 AI 模型面向所有用户开放 Meta 宣布，从 11 月 6 日起，旗下个人智能助理应用 Muse 以及 Meta AI 平台将全面启用一批基于旗舰模型 Muse Wonder 训练而成的新型专用模型。与此同时，更强大的 Muse Wonder 模型仍将保留给付费订阅用户，用于处理更复杂和更高难度的任务。 根据 Meta 介绍，这批新模型属于现有模型体系的「专用版本」，通过 Muse Wonder 进行训练而来。虽然 Meta 并未公开这些模型的具体名称，但它们继承了 Wonder 系列率先引入的两项核心能力，即「主动记忆」（Active Memory）和「主动聚焦」（Active Focus）。 Muse Wonder 及性能更强的 Wonder Full 最初于 2026 年 10 月发布。其中，Wonder 已被整合到 Meta Model API 和 Muse Code 编程助手中，而 Wonder Full 目前仅向 Muse Code 的高端付费用户开放。（来源：cnBeta） 苹果：超 10 万款应用已适配 iPhone Duo 11 月 7 日，苹果公布相关信息：上市仅两周的折叠屏 iPhone Duo 已有超过 10 万款应用完成优化，这类适配应用均基于 iOS 27.1 及以上版本 SDK 开发，可完整适配内外屏全宽显示，在 App Store 带有专属「Made for iPhone Duo」标识。过去一个月苹果已在全球 19 座城市举办超过 50 场线下开发者工坊协助适配，当前每天仍有数千款优化后的应用上架 App Store。 iOS 27.2 版本已为 i",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-08T00:57:46+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373649",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "银湖与沙特基金 250 亿美元报价 Unity；Meta 高管离职加盟 Fireworks",
+   "summary_zh": "银湖资本与沙特 PIF 财团据报以约 250 亿美元报价收购 Unity；Meta 首席战略官韦纳离职出任 AI 推理初创 Fireworks 的 CFO；Meta 将 Muse Wonder 专用模型向所有用户开放。",
+   "highlights_zh": [
+    "银湖与 PIF 财团 250 亿美元报价 Unity",
+    "Meta 首席战略官转任 Fireworks CFO",
+    "Meta 将 Muse Wonder 专用模型全面开放"
+   ],
+   "why_zh": "快速了解 AI 推理初创人才流动与大厂模型开放策略的行业动态。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 5.0,
+   "score": 0.468,
+   "date": "2026-11-08",
+   "slot": "noon",
+   "selected_at": "2026-11-08T04:47:47+00:00",
+   "mirror_pdf": "pdf/web-05deee2150a0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373649"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9948c2db2aee",
+   "kind": "article",
+   "title": "被年轻人遗忘的磁带，正在 AI 时代闷声发大财 原",
+   "url": "https://www.ifanr.com/1688364?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "磁带在 AI 时代迎来了第二春。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "山宗"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-11-08T03:35:42+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1688364?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "磁带在AI时代迎来第二春",
+   "summary_zh": "爱范儿报道磁带因AI数据中心冷数据存储需求回升而重新走俏，讲述其技术与商业逻辑。",
+   "highlights_zh": [
+    "AI训练与归档需求拉动磁带存储",
+    "磁带在成本与能耗上优于磁盘",
+    "存储层级分工的行业趋势"
+   ],
+   "why_zh": "从存储侧看AI基础设施的隐性需求，角度新颖但深度一般。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-11-08",
+   "slot": "noon",
+   "selected_at": "2026-11-08T04:47:47+00:00",
+   "mirror_pdf": "pdf/web-9948c2db2aee.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1688364?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-32f5a8672984",
+   "kind": "article",
+   "title": "当芯片抢着上太空，半导体下一轮增量有了？",
+   "url": "https://www.tmtpost.com/8197078.html",
+   "pdf_url": "",
+   "abstract": "巨头争建太空机房，算力竞赛再度提速。",
+   "authors": [
+    "半导体产业纵横"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-07T09:33:06+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8197078.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "芯片上太空：半导体下一轮增量？",
+   "summary_zh": "钛媒体报道巨头争相建设太空数据中心，讨论太空算力竞赛对半导体产业的潜在增量。",
+   "highlights_zh": [
+    "太空机房成为算力新叙事",
+    "散热与能源的太空优势讨论",
+    "尚处早期，落地不确定性大"
+   ],
+   "why_zh": "前沿概念性报道，可作为算力长期趋势的谈资，短期参考价值有限。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 5.0,
+   "score": 0.444,
+   "date": "2026-11-08",
+   "slot": "noon",
+   "selected_at": "2026-11-08T04:47:47+00:00",
+   "mirror_pdf": "pdf/web-32f5a8672984.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8197078.html"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "智能体高并发研发负载正倒逼基础设施重构，Git 存储层率先被改造。",
-   "why": "GitHub 新架构 Rubicon 内测单仓库支持 5000 智能体并发、每秒 7200 次推送。",
+   "trend": "智能体并发与长会话成为基础设施新战场，Git与Harness同步升级。",
+   "why": "GitHub Rubicon内测5000智能体并发，硅谷团队抢先突破单Session限制做下一代Harness。",
    "refs": [
-    "web-ac2b5b37f57e"
-   ]
-  },
-  {
-   "trend": "Agent Harness 竞争从单 Session 转向多智能体编排，卡位战提前打响。",
-   "why": "两家 Agent 玩家不约而同突破单 Session 限制，抢在 DeepSeek 之前推出下一代 Harness。",
-   "refs": [
+    "web-ac2b5b37f57e",
     "web-4a3451625ee4"
    ]
   },
   {
-   "trend": "先进封装取代制程成为 AI 芯片扩产的核心瓶颈，产业链资本加速重配。",
-   "why": "台积电 CoWoS 产能吃紧，英伟达出资数十亿美元支持日月光旗下矽品扩产。",
+   "trend": "AI资本从狂热转向重定价，IPO估值下修与研究组织收缩并行。",
+   "why": "Anthropic估值预期下调仍推进IPO，微软AI Frontiers团队解散，早报直指AI资本重定价。",
    "refs": [
-    "web-0e7c83f484cc"
+    "web-9fcbfa1f2adf",
+    "web-1eeaf5457cb1",
+    "web-a6d4256e41de"
    ]
   },
   {
-   "trend": "Agent 落地评测正从能力演示转向真实任务完成率，购物场景集体翻车敲响警钟。",
-   "why": "实测 AI 智能体参与双十一购物，价格真实但常选错商品，暴露落地短板。",
+   "trend": "封装与存储成AI算力硬瓶颈，产业资本向上游产能与冷存储倾斜。",
+   "why": "英伟达出资数十亿美元助日月光扩CoWoS，磁带因数据中心冷数据需求回春。",
    "refs": [
-    "web-981aed312b4a"
+    "web-0e7c83f484cc",
+    "web-9948c2db2aee"
    ]
   },
   {
-   "trend": "AI 对初级技术岗位的替代开始显性化，人才结构与收费模式进入再平衡期。",
-   "why": "印度软件行业协会会长警告 AI 接手基础编程与测试，应届生入行更难。",
+   "trend": "Agent落地评测转向真实任务成败，权限与成本风险开始被计价。",
+   "why": "双十一AI购物集体翻车，Claude Code权限选项致密码泄露，自动路由省的钱不够修错。",
    "refs": [
-    "web-e4bfe2d1713c"
+    "web-981aed312b4a",
+    "web-5186d80b7eef",
+    "web-bc29d620dcb5"
+   ]
+  },
+  {
+   "trend": "Personal Agent创业壁垒从模型能力转向个人上下文与信任关系。",
+   "why": "极客公园判断价值可长在基模之外，靠高密度个人上下文与长期信任构建护城河。",
+   "refs": [
+    "web-6af3e214f83d"
    ]
   }
  ]
