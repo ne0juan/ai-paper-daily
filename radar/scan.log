@@ -1,10 +1,10 @@
-2026-11-09 04:56:46,184 INFO source hf_daily           -> 0 items
-2026-11-09 04:56:46,407 INFO source hackernews         -> 9 items
-2026-11-09 04:57:07,982 INFO source rss                -> 49 items
-2026-11-09 04:57:09,285 INFO source html_lists         -> 0 items
-2026-11-09 04:57:09,285 INFO source x                  -> 0 items
-2026-11-09 04:57:09,725 INFO source arxiv_search       -> 0 items
-2026-11-09 04:57:17,607 INFO source github             -> 20 items
-2026-11-09 04:57:17,608 INFO candidates: 78 (stale dropped 5, new 38)
-2026-11-09 04:58:04,881 INFO llm judged 38/38 (calls=5)
-2026-11-09 05:01:33,285 INFO run done: {"at": "2026-11-09T04:56:45+00:00", "slot": "noon", "candidates": 78, "new": 38, "stale": 5, "judged": 38, "selected": 18, "mirrored": 17, "by_category": {"资讯": 11, "观点": 3, "技术": 3, "项目": 1}, "by_source": {"Hacker News": 9, "量子位": 5, "极客公园": 6, "IT之家": 9, "爱范儿": 3, "雷峰网": 6, "钛媒体": 7, "InfoQ 中文": 8, "Simon Willison": 1, "Latent Space": 2, "SemiAnalysis": 1, "Azeem Azhar": 1, "GitHub 新项目": 13, "GitHub Trending": 7}, "llm": true, "translated": 0}
+2026-11-09 13:46:30,183 INFO source hf_daily           -> 3 items
+2026-11-09 13:46:30,433 INFO source hackernews         -> 9 items
+2026-11-09 13:47:33,200 INFO source rss                -> 79 items
+2026-11-09 13:47:34,293 INFO source html_lists         -> 0 items
+2026-11-09 13:47:34,293 INFO source x                  -> 0 items
+2026-11-09 13:47:34,759 INFO source arxiv_search       -> 0 items
+2026-11-09 13:47:43,737 INFO source github             -> 20 items
+2026-11-09 13:47:43,738 INFO candidates: 111 (stale dropped 3, new 66)
+2026-11-09 13:48:53,788 INFO llm judged 62/66 (calls=9)
+2026-11-09 13:51:58,301 INFO run done: {"at": "2026-11-09T13:46:29+00:00", "slot": "evening", "candidates": 111, "new": 66, "stale": 3, "judged": 62, "selected": 19, "mirrored": 19, "by_category": {"资讯": 14, "技术": 4, "项目": 1}, "by_source": {"HF Daily Papers": 3, "Hacker News": 9, "量子位": 10, "极客公园": 6, "IT之家": 9, "爱范儿": 6, "雷峰网": 17, "钛媒体": 3, "InfoQ 中文": 15, "Simon Willison": 1, "Latent Space": 2, "Stratechery": 1, "SemiAnalysis": 1, "Azeem Azhar": 1, "科学空间": 1, "Hugging Face Blog": 1, "NVIDIA": 5, "GitHub Trending": 7, "GitHub 新项目": 13}, "llm": true, "translated": 0}
