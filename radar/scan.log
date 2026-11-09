@@ -1,10 +1,10 @@
-2026-11-08 17:00:03,112 INFO source hf_daily           -> 0 items
-2026-11-08 17:00:05,541 INFO source hackernews         -> 4 items
-2026-11-08 17:01:09,819 INFO source rss                -> 53 items
-2026-11-08 17:01:11,312 INFO source html_lists         -> 0 items
-2026-11-08 17:01:11,312 INFO source x                  -> 0 items
-2026-11-08 17:01:12,495 INFO source arxiv_search       -> 0 items
-2026-11-08 17:01:20,735 INFO source github             -> 20 items
-2026-11-08 17:01:20,736 INFO candidates: 77 (stale dropped 15, new 27)
-2026-11-08 17:01:48,770 INFO llm judged 23/27 (calls=4)
-2026-11-08 17:03:26,123 INFO run done: {"at": "2026-11-08T17:00:02+00:00", "slot": "morning", "candidates": 77, "new": 27, "stale": 15, "judged": 23, "selected": 13, "mirrored": 13, "by_category": {"项目": 3, "资讯": 10}, "by_source": {"Hacker News": 4, "量子位": 8, "极客公园": 6, "IT之家": 19, "爱范儿": 1, "雷峰网": 3, "钛媒体": 5, "InfoQ 中文": 6, "Latent Space": 1, "Stratechery": 1, "SemiAnalysis": 1, "Azeem Azhar": 1, "Zvi Mowshowitz": 1, "GitHub Trending": 7, "GitHub 新项目": 13}, "llm": true, "translated": 0}
+2026-11-09 04:56:46,184 INFO source hf_daily           -> 0 items
+2026-11-09 04:56:46,407 INFO source hackernews         -> 9 items
+2026-11-09 04:57:07,982 INFO source rss                -> 49 items
+2026-11-09 04:57:09,285 INFO source html_lists         -> 0 items
+2026-11-09 04:57:09,285 INFO source x                  -> 0 items
+2026-11-09 04:57:09,725 INFO source arxiv_search       -> 0 items
+2026-11-09 04:57:17,607 INFO source github             -> 20 items
+2026-11-09 04:57:17,608 INFO candidates: 78 (stale dropped 5, new 38)
+2026-11-09 04:58:04,881 INFO llm judged 38/38 (calls=5)
+2026-11-09 05:01:33,285 INFO run done: {"at": "2026-11-09T04:56:45+00:00", "slot": "noon", "candidates": 78, "new": 38, "stale": 5, "judged": 38, "selected": 18, "mirrored": 17, "by_category": {"资讯": 11, "观点": 3, "技术": 3, "项目": 1}, "by_source": {"Hacker News": 9, "量子位": 5, "极客公园": 6, "IT之家": 9, "爱范儿": 3, "雷峰网": 6, "钛媒体": 7, "InfoQ 中文": 8, "Simon Willison": 1, "Latent Space": 2, "SemiAnalysis": 1, "Azeem Azhar": 1, "GitHub 新项目": 13, "GitHub Trending": 7}, "llm": true, "translated": 0}
