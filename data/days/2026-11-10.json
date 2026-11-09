@@ -1,0 +1,999 @@
+{
+ "date": "2026-11-10",
+ "items": [
+  {
+   "id": "web-906503fc546e",
+   "kind": "article",
+   "title": "Fable 5.2 and Jagged AGI",
+   "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+   "pdf_url": "",
+   "abstract": "General, often expert, and sometimes jagged",
+   "authors": [
+    "Ethan Mollick"
+   ],
+   "orgs": [
+    "Ethan Mollick"
+   ],
+   "published": "2026-11-09T19:04:26+00:00",
+   "sources": [
+    {
+     "name": "Ethan Mollick",
+     "authority": 0.85,
+     "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "沃顿商学院教授",
+   "title_zh": "Fable 5.2与锯齿状AGI",
+   "summary_zh": "Ethan Mollick认为新一代模型Fable 5.2在通用与专家任务上更强，但能力呈锯齿状：强项突出、弱项仍突兀，AGI路径并非平滑上升。",
+   "highlights_zh": [
+    "模型能力整体提升但分布不均",
+    "专家级表现与明显短板并存",
+    "对AGI线性叙事的修正"
+   ],
+   "why_zh": "重量级观察者对模型能力形态的判断，影响产品选型与预期管理。",
+   "tags": [
+    "大模型",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.716,
+   "date": "2026-11-10",
+   "slot": "morning",
+   "selected_at": "2026-11-09T21:24:12+00:00",
+   "mirror_pdf": "pdf/web-906503fc546e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-08f9983ae92b",
+   "kind": "article",
+   "title": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
+   "url": "https://jack-clark.net/2026/11/09/import-ai-480-self-sustaining-space-economies-ai-for-science-progress-and-meta-builds-perfect-hands-for-a-superintelligence/",
+   "pdf_url": "",
+   "abstract": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI Science startup converts a quantum conjecture into a theorem:…An evocative taste of the singularity…In the same way a few years ago it went from remarkable […]",
+   "authors": [
+    "Jack Clark"
+   ],
+   "orgs": [
+    "Jack Clark"
+   ],
+   "published": "2026-11-09T13:31:34+00:00",
+   "sources": [
+    {
+     "name": "Jack Clark",
+     "authority": 0.85,
+     "url": "https://jack-clark.net/2026/11/09/import-ai-480-self-sustaining-space-economies-ai-for-science-progress-and-meta-builds-perfect-hands-for-a-superintelligence/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Anthropic 联合创始人",
+   "title_zh": "Import AI 480：自维持太空经济、AI for Science 进展与 Meta 为超级智能打造完美双手",
+   "summary_zh": "Jack Clark 认为 AI for Science 正从猜想走向定理证明，Meta 为超级智能造灵巧手，太空经济与 AI 结合值得关注。",
+   "highlights_zh": [
+    "AI for Science 初创把量子猜想转化为定理，被视为奇点的早期信号",
+    "Meta 为超级智能研发高精度机械手，机器人硬件持续推进",
+    "自维持太空经济与 AI 结合成为新议题"
+   ],
+   "why_zh": "Anthropic 联创的每周研究综述，快速把握前沿方向与判断。",
+   "tags": [
+    "科学AI",
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.716,
+   "date": "2026-11-10",
+   "slot": "morning",
+   "selected_at": "2026-11-09T21:24:12+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://jack-clark.net/2026/11/09/import-ai-480-self-sustaining-space-economies-ai-for-science-progress-and-meta-builds-perfect-hands-for-a-superintelligence/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2610.14162",
+   "kind": "paper",
+   "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+   "url": "https://arxiv.org/abs/2610.14162",
+   "pdf_url": "https://arxiv.org/pdf/2610.14162",
+   "abstract": "Diffusion language models (DLMs) offer parallel sampling for faster generation than autoregressive models, an increasingly important advantage as inference becomes a dominant computational workload. However, DLMs degrade quickly with fewer sampling steps, process the full sequence at every step, and require many passes over the dataset to reach good quality. We introduce Next-Concept Modeling (NCM), a two-stage, coarse-to-fine framework: a multiscale residual VQ-VAE encodes text into a hierarchy of discrete codes, and a transformer generates one level at a time, predicting all codes within a level in parallel. At matched parameter scales, NCM achieves better generative perplexity than the strongest DLM baseline on LM1B while running $21\\times$ faster. On OpenWebText, NCM is competitive with the strongest DLM while running $10\\times$ faster; on XSum, it matches the strongest DLM's ROUGE-L while being $31\\times$ faster. On the reasoning task of Sudoku, NCM outperforms autoregressive and diffusion baselines across all difficulty levels, using fewer function evaluations. On the reasoning task of Sudoku, NCM outperforms autoregressive and diffusion baselines across all difficulty levels, using fewer function evaluations.",
+   "authors": [
+    "Hermann Kumbong",
+    "Ishan S. Khare",
+    "Iddah Mlauzi",
+    "Andrew Woen",
+    "Charles Ding",
+    "E. Kelly Buchanan",
+    "Simran Arora",
+    "Azalia Mirhoseini",
+    "Christopher Ré"
+   ],
+   "orgs": [],
+   "published": "2026-11-09T07:20:37Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50422168",
+     "signal": "174 pts",
+     "metric": 174
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Next-Concept Modeling：由粗到细的并行文本生成",
+   "summary_zh": "提出两阶段由粗到细框架：多尺度残差VQ-VAE把文本编码为离散码层级，Transformer逐层并行预测整层码。在LM1B上困惑度优于最强扩散语言模型且快21倍，OpenWebText快10倍，XSum快31倍，数独推理全面超越自回归与扩散基线。",
+   "highlights_zh": [
+    "用多尺度VQ-VAE构建文本离散码层级，实现层内全并行生成",
+    "同等参数下比最强扩散语言模型快10–31倍且质量不降",
+    "数独等推理任务上以更少函数评估超越自回归与扩散基线"
+   ],
+   "why_zh": "并行生成路线的重要进展，直接挑战自回归与扩散语言模型的效率-质量权衡。",
+   "tags": [
+    "大模型",
+    "效率与系统",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.5622,
+   "score_llm": 8.0,
+   "score": 0.7049,
+   "date": "2026-11-10",
+   "slot": "morning",
+   "selected_at": "2026-11-09T21:24:12+00:00",
+   "mirror_pdf": "pdf/arxiv-2610.14162.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2610.14162"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2610.14162"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2610.14162"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2610.14162"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2610.14162"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2610.14162"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50422168"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8433ae49482a",
+   "kind": "article",
+   "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
+   "url": "https://latent.space/p/handshake/",
+   "pdf_url": "",
+   "abstract": "Handshake went from launch to $1B in one year pushing the envelope of specialized data for frontier labs. Our first deep dive into a data lab with specific examples across Finance, Bio, and Alignment",
+   "authors": [
+    "swyx .ai"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-11-09T17:15:53+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/handshake/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "前沿实验室买什么数据：Handshake AI 深度解析",
+   "summary_zh": "Latent Space 深挖 Handshake AI 一年做到 10 亿美元，展示金融、生物、对齐等领域的前沿实验室数据采购实例。",
+   "highlights_zh": [
+    "揭示前沿实验室对专业数据的真实需求",
+    "覆盖金融、生物、对齐等垂直领域案例",
+    "数据供应商商业模式与增长路径"
+   ],
+   "why_zh": "理解数据供应链如何支撑前沿模型训练的关键一手分析。",
+   "tags": [
+    "数据与评测",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-11-10",
+   "slot": "morning",
+   "selected_at": "2026-11-09T21:24:12+00:00",
+   "mirror_pdf": "pdf/web-8433ae49482a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/handshake/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8ed1d9debf14",
+   "kind": "article",
+   "title": "AI R&D Is Accelerating Towards Potential RSI in 2027",
+   "url": "https://thezvi.wordpress.com/2026/11/09/ai-rd-is-accelerating-towards-potential-rsi-in-2027/",
+   "pdf_url": "",
+   "abstract": "METR came out with an extensive report on how much AI is accelerating AI R&D at Anthropic, and thus how close we might be to recursive self-improvement (RSI) and how far that might go. This is one of the most … Continue reading →",
+   "authors": [
+    "TheZvi"
+   ],
+   "orgs": [
+    "Zvi Mowshowitz"
+   ],
+   "published": "2026-11-09T14:46:13+00:00",
+   "sources": [
+    {
+     "name": "Zvi Mowshowitz",
+     "authority": 0.75,
+     "url": "https://thezvi.wordpress.com/2026/11/09/ai-rd-is-accelerating-towards-potential-rsi-in-2027/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 趋势评论员，每周 AI 综述",
+   "title_zh": "AI 研发加速，2027 年或现递归自我改进",
+   "summary_zh": "Zvi 解读 METR 报告，认为 AI 正显著加速 Anthropic 内部研发，2027 年前后可能接近递归自我改进。",
+   "highlights_zh": [
+    "METR 报告量化 AI 对 AI 研发的加速作用",
+    "讨论递归自我改进的时间窗口与幅度",
+    "对安全与治理含义的延伸分析"
+   ],
+   "why_zh": "关乎 AI 发展速度与安全边界的重要趋势判断。",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-11-10",
+   "slot": "morning",
+   "selected_at": "2026-11-09T21:24:12+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://thezvi.wordpress.com/2026/11/09/ai-rd-is-accelerating-towards-potential-rsi-in-2027/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-140d4d1a892e",
+   "kind": "article",
+   "title": "美团龙猫开源 LongCat-2.5 模型：总参数 1.6 万亿，支持百万上下文",
+   "url": "https://www.ithome.com/1/024/556.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 9 日消息，11 月 2 日，美团龙猫发布面向长程智能体任务的 原生多模态模型 LongCat-2.5 。随后来到今天（9 日），美团宣布该模型 正式开源 。 该模型采用 MIT 协议， 支持商用推理部署与二次训练，无需额外授权 ，是面向长程智能体任务的原生多模态模型。在复杂代码库开发、完整项目构建、Visual Coding 与专业办公场景中，端到端交付能力均有明显提升。 模型总参数 1.6 万亿，每个 token 激活约 480 亿参数，支持一百万上下文 。针对显存与带宽受限的国产算力芯片，团队在模型架构、芯片适配与部署策略上也进行了深度协同优化。 根据介绍，LongCat-2.5 在 Visual Coding 上表现出色，支持 创意设计、3D 等任务 。这些能力提升来自视觉表征层的改造：模型将视觉信号表示为多层级离散 token，与文本一样由主干模型统一处理，而非外挂视觉模块。具体而言，模型对原生分辨率视觉特征做残差向量量化，逐级补足细节；视觉 token 可离线预计算并缓存，减少在线计算量，也让分布式训练负载更均衡；视觉码本与主干联合训练，视觉与文本共享同一套主干参数，在同一语义空间内协同完成视觉理解与代码生成。 此外，LongCat-2.5 采用 W4A4 高效推理方案，将专家权重与激活同时量化到 4 bit，并通过原生 INT4 矩阵乘法单元执行计算。 IT之家附上有关链接如下： 模型开源： https://huggingface.co/meituan-longcat/LongCat-2.5 技术博客： https://longcat.ai/blog/longcat-2.5/ API 平台： https://longcat.chat/platform/product",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-09T14:16:38+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/024/556.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "美团开源1.6万亿参数LongCat-2.5，百万上下文",
+   "summary_zh": "美团龙猫开源原生多模态模型LongCat-2.5，总参数1.6万亿、每token激活480亿、支持百万上下文，MIT协议可商用，面向长程智能体任务。",
+   "highlights_zh": [
+    "总参数1.6万亿、激活约480亿，支持100万token上下文",
+    "视觉以多层级离散token与文本共享主干，非外挂视觉模块",
+    "W4A4量化+原生INT4，针对国产算力芯片深度适配"
+   ],
+   "why_zh": "国产大厂开源万亿级多模态智能体模型，直接影响长程任务与国产芯片部署选型。",
+   "tags": [
+    "大模型",
+    "多模态",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 9.0,
+   "score": 0.676,
+   "date": "2026-11-10",
+   "slot": "morning",
+   "selected_at": "2026-11-09T21:24:12+00:00",
+   "mirror_pdf": "pdf/web-140d4d1a892e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/024/556.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d8659cb91ba5",
+   "kind": "article",
+   "title": "千问办公2.0发布，首个支持多人与Agent协作的Team Agent来了",
+   "url": "https://www.infoq.cn/article/1Mz0ADa02PxcDsVfpVEb?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "小热"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-09T16:26:51+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/1Mz0ADa02PxcDsVfpVEb?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "千问办公2.0发布，首个支持多人与Agent协作的Team Agent",
+   "summary_zh": "千问办公2.0推出Team Agent，支持多人与智能体在同一工作空间协作，是Agent从单人工具走向团队协作的尝试。",
+   "highlights_zh": [
+    "首个主打多人与Agent协作的办公产品形态",
+    "Agent从个人助手升级为团队协作成员",
+    "办公场景成为智能体落地的重要战场"
+   ],
+   "why_zh": "关注智能体产品形态演进与办公场景竞争格局的读者值得一看。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-10",
+   "slot": "morning",
+   "selected_at": "2026-11-09T21:24:12+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/1Mz0ADa02PxcDsVfpVEb?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9bd298fc35c7",
+   "kind": "article",
+   "title": "研究显示 OpenAI ChatGPT 占全球 AI 聊天机器人流量超 81%，断层领跑",
+   "url": "https://www.ithome.com/1/024/542.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 9 日消息，今年早些时候，随着谷歌和 Anthropic 等竞争对手势头渐起，ChatGPT 在 AI 市场的主导地位一度显现出松动迹象。不过，一项最新研究显示，OpenAI 旗下这款旗舰产品正在意外反弹。 研究与增长营销公司 Graphite 的一项研究显示，目前 ChatGPT 占全球主要 AI 聊天机器人工具总流量的比例已超过 81%，没有任何一家竞争对手的市场份额达到 10%。 考虑到谷歌 Gemini 和 Anthropic Claude 近期备受关注，并被普遍视为 OpenAI 越来越强劲的竞争威胁，这一数据颇为让人意外。 这项研究也挑战了另一种看法，即 ChatGPT 此前的爆发式增长已经陷入停滞。 2025 年上半年，ChatGPT 的使用量曾大幅攀升，但此后连续 7 个月基本陷入平台期。不过，今年以来其增长重新提速。Graphite 的分析显示，ChatGPT 月访问量增长近 20%，并于今年 9 月达到了 613.5 亿次，创下历史新高。 这一数据也印证了《商业内幕》上周的报道：ChatGPT 的周活跃用户数量目前已达到 12 亿。 相关数据表明，尽管 OpenAI 的竞争对手正在快速增长，但它们距离撼动 ChatGPT 的领先地位仍有相当大的差距。 这项研究由 Graphite 首席执行官伊桑 · 史密斯（Ethan Smith）带领团队完成。研究人员利用 Similarweb 提供的数据，分析了主要 AI 服务的网站及应用流量，包括用户访问这些服务以及这些服务向外部网站导流的情况。 过去一年，Claude 的增长表现十分突出，Gemini 也实现了快速扩张。不过，这些增长都是从远低于 ChatGPT 的起点开始的。 而且，ChatGPT 不仅在吸引用户访问，也越来越多地将用户引导至其他网站。Graphite 的数据显示，过去一年，来自 AI 服务的全球外部引荐流量增长了 92%，其中 ChatGPT 贡献了 60%。 这项研究还揭示了 AI 正在如何改变谷歌传统的搜索业务。 谷歌推出的 AI Overviews（AI 概览）能够直接在搜索结果中提供 AI 生成的答案，目前已出现在美国 62% 的搜索查询中。 与此同时，谷歌 AI Mode（AI 模式）也在迅速增长。这项功能允许用户以更具对话性的方式使用搜索服务。今年 8 月，AI Mode 在美国获得了 4.91 亿次网页访问量。 或许最令人意外的是，这些 AI 活动主要发生在哪里。 IT之家注意到，尽管美国在 AI 技术研发领域处于领先地位，但 Graphite 的研究显示，美国仅占全球 AI 流量的 8.8%。这意味着，全球超过 90% 的 AI 使用量来自美国以外地区，凸显出这轮 AI 热潮已经成为一场全球性浪潮。 总体来看，全球主要 AI 服务的月访问量已达到 760 亿次，较去年同期增长 37%。 这项研究传递出的信号十分明确：AI 市场仍在快速扩张，而 ChatGPT 依然占据着压倒性的主导地位。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-09T13:32:43+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/024/542.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "ChatGPT占全球AI聊天机器人流量超81%",
+   "summary_zh": "Graphite研究显示ChatGPT占全球AI聊天机器人流量逾81%，月访问613.5亿次创新高，周活达12亿；全球AI流量同比增37%，美国仅占8.8%。",
+   "highlights_zh": [
+    "无竞争对手份额达10%，Gemini、Claude增长起点仍低",
+    "AI服务外链引荐流量一年增92%，ChatGPT贡献60%",
+    "谷歌AI Overviews已覆盖美国62%搜索查询"
+   ],
+   "why_zh": "用流量数据量化ChatGPT的统治力与AI对搜索的侵蚀，判断竞争格局必读。",
+   "tags": [
+    "产品与行业",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-10",
+   "slot": "morning",
+   "selected_at": "2026-11-09T21:24:12+00:00",
+   "mirror_pdf": "pdf/web-9bd298fc35c7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/024/542.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bd98d4cd36bb",
+   "kind": "article",
+   "title": "腾讯混元跻身最强开源模型！一手实测Hy4：搭配WorkBuddy，多模态Agent交付力拉满",
+   "url": "https://www.qbitai.com/2026/11/507843.html",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [
+    "闻乐"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-09T08:44:00+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/507843.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯混元Hy4实测：开源模型搭配WorkBuddy",
+   "summary_zh": "量子位实测腾讯混元Hy4，称其跻身最强开源模型，搭配WorkBuddy后多模态Agent的任务交付能力显著提升。",
+   "highlights_zh": [
+    "混元Hy4定位开源第一梯队",
+    "WorkBuddy强化多模态Agent交付",
+    "国产开源模型竞争加剧"
+   ],
+   "why_zh": "了解国产开源模型与Agent产品组合的实际能力边界。",
+   "tags": [
+    "大模型",
+    "多模态",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-10",
+   "slot": "morning",
+   "selected_at": "2026-11-09T21:24:12+00:00",
+   "mirror_pdf": "pdf/web-bd98d4cd36bb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/507843.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-78e219711e82",
+   "kind": "article",
+   "title": "kubai087/kubai-icons",
+   "url": "https://github.com/kubai087/kubai-icons",
+   "pdf_url": "",
+   "abstract": "An agent skill that draws animated icons in one consistent style, for Claude Code, Codex and other coding agents. Comes with 2,600+ open-source icons for React, Vue and SVG, and a website to browse them.",
+   "authors": [],
+   "orgs": [
+    "kubai087"
+   ],
+   "published": "2026-11-09T21:24:12+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/kubai087/kubai-icons",
+     "signal": "★ 553（新项目） · JavaScript",
+     "metric": 553
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Kubai Icons：为编码智能体绘制统一风格动画图标",
+   "summary_zh": "一个智能体技能，为Claude Code、Codex等编码智能体生成统一风格动画图标，附2600+开源图标。",
+   "highlights_zh": [
+    "安装为Claude Code/Codex技能即可调用",
+    "内置2600+ React/Vue/SVG图标可直接复用",
+    "生成风格统一，适合快速补齐UI图标"
+   ],
+   "why_zh": "如果你在用编码智能体做前端，可以用它一键生成风格统一的动画图标。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5625,
+   "score_llm": 6.0,
+   "score": 0.585,
+   "date": "2026-11-10",
+   "slot": "morning",
+   "selected_at": "2026-11-09T21:24:12+00:00",
+   "mirror_pdf": "pdf/web-78e219711e82.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/kubai087/kubai-icons"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-fbdc8dd8f652",
+   "kind": "article",
+   "title": "云深处发布全新四足机器人 实现50Kg大负载、复杂地形作业",
+   "url": "https://www.leiphone.com/category/industrynews/EihvEi3hKb9icG62.html",
+   "pdf_url": "",
+   "abstract": "11月6日，云深处科技正式发布四足机器人新产品——绝影X50。它通过“感控融合”全新升级，搭配高刚性高响应关节系统，实现了更大负载、更强通行与更稳姿态的综合突破。云深处进一步拓展了四足机器人在极端环境下的重载作业边界，为应急消防、能源电力等高风险行业解决痛点。 重载与通行，长期是四足机器人难以两全的难题：负载一加，爬坡、下台阶的容错空间同步收窄，高强度户外作业中，机器狗往往卡在复杂地形中的“最后一公里”。据雷峰网了解，绝影X50四足机器人对关节与整机结构进行全面优化，在不增加机身尺寸的前提下，将持续行进中的负载提升至50kg。 在50kg的额定大负载状态下，绝影X50四足机器人面对楼梯斜坡、崎岖山路、碎石路面等复杂路况，仍能稳定负重前行。其全地形重载能力，具备承接高强度复杂地形的作业任务。在电力巡检中，绝影X50机器狗可搭载液压工具、绝缘子串及接地线组等重型器材，减轻人工搬运负担，有效避免检修人员体力透支、职业劳损及摔伤扭伤等安全问题；在消防任务中，云深处科技绝影X50机器狗不仅能背负数十公斤的消防设备快速深入火场，还能搭载消防水带开展持续喷水作业，从而大幅降低消防人员近距离高危作业风险；在应急救援中，绝影X50机器狗可携带生命探测仪、破拆工具、医疗物资等重型救援设备深入灾害现场，在黄金救援时间内抵达事故核心区。 与此同时，在50kg额定负载下，这款四足机器人以3m/s的速度持续疾驰2公里以上。3m/s，约等于一名成年人轻装慢跑的配速——背着50公斤重载，它依然能以人不负重时的奔跑节奏，跑完2公里全程。这对整机是全方位的考验：大负载高速行进中，每一次落脚对关节的冲击都成倍放大，动力系统需长时间高功率输出而性能不衰减。这背后是高刚性高响应关节系统与整机结构的协同优化，将实验室里的极限参数，变成了作业现场可持续兑现的常态能力。 瞄准复杂地形作业 作业现场从不为机器人准备标准答案。踏步间距大小不一、台阶高差没有统一规范。机器狗一旦负重，重心抬升，落脚容错空间随之大幅收窄——几厘米的落点偏差，就可能引发踩空、打滑，让任务中断在半途。 如何实现这样的感控协同通行能力？绝影X50实时融合激光雷达点云、IMU等多源传感器数据，依托强化学习运动控制算法动态预判地形、规划落脚点位；配合高刚性关节的高速响应特性，感知端的每一次判断都能即刻转化为稳定的肢体动作，实现感知决策与运动执行的紧密联动。 凭借这套能力，绝影X50四足机器人从容应对各类极端地形挑战：连续翻越80cm高台、连续跨越70cm间隔的石墩、连续攀爬镂空无踢面楼梯。 在实际测试中，电厂锅炉车间的镂空钢梯上，绝影X50四足机器人可搭载检测设备逐层攀升；化工装置区错落的管廊平台之间，它能稳步穿行，攀爬高危结构；多层厂房内，绝影X50四足机器人可背负救援装备连续登梯、为消防员打开竖向进攻通道；废墟的瓦砾与断裂楼板之间，绝影X50四足机器人可翻越障碍、跨越断层，将救援物资送达人力难以抵达的深处。 有效应对撞击和复杂颠簸工况 野外作业时常遭遇路面颠簸、物资拖拽、意外撞击等扰动工况，极易引发设备失稳、任务中断，拖慢整体作业节奏。绝影X50四足机器人搭载新一代姿态控制算法与高刚性快响应关节，运动过程中实时调整机身状态，持续维持本体平衡。机器人支持俯仰、偏航、翻滚角灵活配置，按需变换机身姿态，适配多元作业要求。在推拉拖拽、外力撞击等突发扰动下，依旧保有优异的稳定性与操控性，动作输出精准可控，降低偏移、倾倒、任务中止风险，保障动态复杂工况下作业稳定、安全可靠。 抗冲击与姿态调节能力，正为近距离灭火作业开辟新方案。绝影X50",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-09T15:27:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/EihvEi3hKb9icG62.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "云深处发布绝影X50：50kg负载四足机器人",
+   "summary_zh": "云深处发布绝影X50四足机器人，50kg额定负载下仍能以3m/s疾驰2公里，可翻越80cm高台、攀爬镂空楼梯，面向电力巡检、消防与应急救援等重载作业场景。",
+   "highlights_zh": [
+    "50kg负载+3m/s速度持续2公里，重载与通行能力兼得",
+    "融合激光雷达点云与IMU，用强化学习运动控制动态规划落脚点",
+    "已在电厂钢梯、化工管廊、废墟等真实场景测试"
+   ],
+   "why_zh": "四足机器人从演示走向重载实用化的关键一步，关注具身落地者必读。",
+   "tags": [
+    "机器人",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-10",
+   "slot": "morning",
+   "selected_at": "2026-11-09T21:24:12+00:00",
+   "mirror_pdf": "pdf/web-fbdc8dd8f652.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/EihvEi3hKb9icG62.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-89ac639459d4",
+   "kind": "article",
+   "title": "千问办公2.0，补上了办公Agent最关键的「短板」",
+   "url": "https://www.leiphone.com/category/industrynews/ljjfjnedPmwgYh6Q.html",
+   "pdf_url": "",
+   "abstract": "“过去几个月，各家都在拼命证明AI越来越能干活。但说实话，一个人能干活，不代表一群人就能协作。” 一位长期关注AI办公的业内人士，试用完市面上主流的AI办公产品后发现，有些“麻烦”还是绕不开，最典型的就是有些活儿还得靠人工来回“倒腾”。 “Agent能独立完成任务，但很难接住任务在人与人之间的流转。”有时候，AI交付结果后，人跟人之间交接，比Agent自己干那一步更费时间，也更费心力。 AI办公要打To B的仗，就得正视这一困境。 在AI这件事上，企业真正关心的无非两件： 一是个人生产力，AI能不能替员工多干点活；二是组织生产力，AI能不能减少团队协作里的信息损耗和重复劳动。 过去几个月，AI办公在个人生产力上已经跨过不少卡点，但组织生产力这一关，明显还任重而道远。 11月9日，千问办公发布2.0版本，推出行业首个支持多人与Agent协作的功能“协作”，并在官方博客中宣布迈向Team Agent时代，想回应的正是上述的难题： 企业的组织生产力，如何跟上个人生产力的提升？ 01 「千问小Q」如何加入团队协作？ 国内AI办公热已经持续了近半年。C端市场的产品竞争日趋激烈，而B端市场的挑战，远不止把产品卖给企业那么简单。 从产品侧看，随着Muse、Cue、Dots等海外Personal Agent产品集中涌现，个人AI的能力边界正在被迅速拓宽，企业级AI也被推到了更高的期待之下。 AI办公厂商正在面临更为严峻的考验： 当AI已经能够成为个人的工作搭档，它能否再往前走一步，成为团队协作的一部分？ 从客户侧看，企业也有很现实的诉求： 买来的AI办公席位，怎么才能真正变成组织生产力？ 雷峰网观察到，此前的席位制更像一个准入和预算工具，解决的是“谁能用、用多少”的问题。当AI逐渐成为数字员工，席位制的价值也需要重新定义： 从给员工配置AI，转向把员工接入一套人机协作体系。 千问办公2.0一个比较直观的功能， 是支持多人和同一个Agent协作。 雷峰网用这项功能模拟了一次记者、资深编辑和Agent（千问小Q）一起讨论FDE选题的过程。 在收到“根据已有采访素材，策划FDE相关选题”的指令后，千问小Q自动读取空间资料区的四份采访素材，列出了6个行业观察稿选题和1个备选人物选题，还给出了风险提示。 之后，在记者和资深编辑的讨论中，千问小Q会同时参考两个人的意见，不断完善选题框架。 体验下来，最直观的变化是， 参与讨论的人不再需要反复向Agent补充背景。 它既能读取空间内的资料，也能跟上多人讨论中的信息变化。原本分散在人与人之间、人与AI之间的信息，现在能够汇集到同一个协作空间里。 但媒体讨论选题是相对轻量化的场景，在银泰百货的调研中，雷峰网看到了 多人、多群、多环节 的业务协作场景： 银泰百货的团购券业务尤为复杂——62家以上门店、200多名协作人员，每张团购券上架前都要核对约50项资料。这些信息原本散落在60多个钉钉群里，工作人员得反复翻聊天记录、手动汇总进度。 内测使用千问办公2.0的“协作”功能后，团队把这些群聊和卡券AI表格关联到同一个协作空间。千问小Q不仅能汇总进度、更新表格，还能定时检查待办事项，提醒具体负责人。 02 AI办公，如何摆脱「被人追着跑」？ 雷峰网观察到，Team Agent改变的不仅是人和AI的协作关系，还有任务的发起方式和完成方式。 AI办公大多遵循一套相对固定的流程： 人提需求，AI执行，人再检查结果。 即便Agent已经能自主执行一些任务，工作节奏仍然主要由人驱动。 但这一模式正在发生变化。 此前，Anthropic推出Claud",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-09T14:16:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/ljjfjnedPmwgYh6Q.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "千问办公2.0：让多人共用一个Agent协作",
+   "summary_zh": "千问办公2.0推出行业首个支持多人与同一Agent协作的「协作」功能，Agent可读取共享空间资料、跟随多人讨论更新，宣称迈向Team Agent时代，解决组织生产力短板。",
+   "highlights_zh": [
+    "多人可同时与千问小Q协作，无需反复向Agent补充背景",
+    "银泰百货案例：60多个钉钉群、200余人、每券约50项核对资料汇入同一协作空间",
+    "席位制从「给员工配AI」转向「把员工接入人机协作体系」"
+   ],
+   "why_zh": "AI办公从个人提效转向团队协作，是To B Agent竞争的新方向。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-10",
+   "slot": "morning",
+   "selected_at": "2026-11-09T21:24:12+00:00",
+   "mirror_pdf": "pdf/web-89ac639459d4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/ljjfjnedPmwgYh6Q.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8e79503dc6b4",
+   "kind": "article",
+   "title": "不能把整个安全体系押在大模型上：AI 分诊 CVE，人工审查仍不能少",
+   "url": "https://www.infoq.cn/article/mBvmvcQ8a8ty2Ob1xN64?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Matt Saunders"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-09T16:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/mBvmvcQ8a8ty2Ob1xN64?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI分诊CVE可行，但人工审查仍不可替代",
+   "summary_zh": "文章讨论用大模型对CVE漏洞做分诊的实践，认为AI可提效但安全体系不能全押在大模型上，人工审查仍是必要环节。",
+   "highlights_zh": [
+    "大模型可用于CVE漏洞的初步分诊与优先级排序",
+    "模型误判风险使人工复核不可省略",
+    "安全流程设计应把AI定位为辅助而非替代"
+   ],
+   "why_zh": "为安全团队引入大模型提供务实的边界判断与落地思路。",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-10",
+   "slot": "morning",
+   "selected_at": "2026-11-09T21:24:12+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/mBvmvcQ8a8ty2Ob1xN64?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-fe4e06ad9a4c",
+   "kind": "article",
+   "title": "OpenAI、Anthropic、Google 各有接口，开放标准离统一还有多远？",
+   "url": "https://www.infoq.cn/article/5e8Qs11VHRHRyYsB2kFO?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Mark Silvester"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-09T14:35:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/5e8Qs11VHRHRyYsB2kFO?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "三大模型厂商接口各异，开放标准统一还有多远",
+   "summary_zh": "InfoQ 梳理 OpenAI、Anthropic、Google 三家 API 的差异与开放标准进展，讨论统一接口的现实距离。",
+   "highlights_zh": [
+    "对比三家主流模型 API 在调用方式与能力抽象上的分歧",
+    "开放标准推进面临厂商利益与生态锁定问题",
+    "对多模型适配的开发者意味着持续维护成本"
+   ],
+   "why_zh": "做多模型接入或平台选型的团队，可据此判断适配层该做多厚。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-10",
+   "slot": "morning",
+   "selected_at": "2026-11-09T21:24:12+00:00",
+   "mirror_pdf": "pdf/web-fe4e06ad9a4c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/5e8Qs11VHRHRyYsB2kFO?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7a92ba3787cb",
+   "kind": "article",
+   "title": "“印度成OpenAI最大市场”，Altman首次回应“离职潮”：一群聪明人互不信任",
+   "url": "https://www.infoq.cn/article/7AXcQvPCSwfPhtL8iQpo?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "林绮蓓"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-09T14:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/7AXcQvPCSwfPhtL8iQpo?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Altman 首谈离职潮：印度成 OpenAI 最大市场",
+   "summary_zh": "Altman 回应人才流失，称内部聪明人互不信任，同时透露印度已是 OpenAI 最大市场。",
+   "highlights_zh": [
+    "Altman 首次公开回应核心人员离职潮",
+    "印度市场用户规模超过美国成为第一",
+    "反映头部实验室的组织与信任管理压力"
+   ],
+   "why_zh": "了解头部实验室的人才流动与全球市场重心转移。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-10",
+   "slot": "morning",
+   "selected_at": "2026-11-09T21:24:12+00:00",
+   "mirror_pdf": "pdf/web-7a92ba3787cb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/7AXcQvPCSwfPhtL8iQpo?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e36e6f3f6dc0",
+   "kind": "article",
+   "title": "苹果 iOS 27.3 代码曝光 Siri“个人记忆系统”，可记录用户各类信息",
+   "url": "https://www.ithome.com/1/024/547.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 9 日消息，根据代码研究人员 pdfu 分享的最新代码发现，苹果正在开发一套个人记忆系统，有望帮助 Siri 记住用户生活中的各种信息。 根据相关发现，在苹果 iOS 27.3 测试版中，这套系统包含一个名为“记忆图谱”（Memory Graph）的组件，旨在整理用户的人际关系、常去地点、日常习惯、健康状况、锻炼情况，以及激励用户或阻碍用户实现目标的因素。 IT之家注意到，系统还设计了名为“记忆原子”（Memory Atoms）的数据单元，用于记录事实、观点、意图和事件，并关联相关人物、地点、时间及话题等具体信息。 据 pdfu 介绍，这套图谱通过两种处理机制收集信息。其中一种负责将结构化数据转化为洞察，例如读取用户个人联系人名片中的姓名字段。另一种则借助设备端 AI 模型或苹果私有云计算（Private Cloud Compute），从 Siri 对话、信息、照片和健康数据等来源提取信息。 目前，代码中似乎只出现了其中一种由 AI 驱动的信息处理机制。pdfu 认为，这套机制旨在通过一组内置问题识别用户的动机、面临的障碍以及可利用的资源。系统内置了 60 个问题，其中包括询问哪些日常习惯可能影响用户获得充足睡眠。 不过，从目前曝光的代码来看，这套系统仍处于未完成状态。例如，pdfu 指出，代码中尚未出现创建“记忆原子”的处理流程。 在后续解释中，pdfu 还区分了记忆图谱与另一套独立的显式记忆存储系统。后者为苹果搜索系统中的记录预留了存储空间，但目前还没有任何程序负责向其中写入记录。 据称，这两套系统都采用了苹果版本的 Kuzu 图数据库。苹果于 2025 年收购了 Kuzu，但今年早些时候收购消息曝光时，外界尚不清楚苹果打算如何利用这项技术。 事实上，Siri 目前已经具备个人情境理解能力，可以从邮件、信息和照片等应用中查找与用户生活有关的信息。此次曝光的代码并未透露这套尚未完成的记忆系统何时正式上线，也没有说明苹果将如何让用户管理和控制自己的数据。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-09T13:47:17+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/024/547.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "iOS 27.3代码曝光Siri个人记忆系统",
+   "summary_zh": "iOS 27.3测试版代码显示苹果正开发Siri「记忆图谱」，用记忆原子记录用户关系、地点、习惯与健康信息，结合端侧模型与私有云计算提取，基于收购的Kuzu图数据库。",
+   "highlights_zh": [
+    "记忆图谱+记忆原子两层结构，内置60个问题推断用户动机与障碍",
+    "端侧AI模型与Private Cloud Compute双路径提取信息",
+    "系统尚未完成，记忆原子写入流程缺失，上线时间未知"
+   ],
+   "why_zh": "苹果AI助手向长期个人记忆演进的关键信号，关乎端侧AI与隐私架构走向。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-10",
+   "slot": "morning",
+   "selected_at": "2026-11-09T21:24:12+00:00",
+   "mirror_pdf": "pdf/web-e36e6f3f6dc0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/024/547.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c34401c55344",
+   "kind": "article",
+   "title": "“AI毁了我的计算机学位”",
+   "url": "https://www.qbitai.com/2026/11/508706.html",
+   "pdf_url": "",
+   "abstract": "教授也用Claude糊弄…",
+   "authors": [
+    "Jay"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-09T08:57:20+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/508706.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI冲击计算机学位：教授也用Claude",
+   "summary_zh": "量子位报道AI对计算机专业教学的冲击，学生与教授都在用Claude等工具，引发对学位价值与教学方式的讨论。",
+   "highlights_zh": [
+    "AI工具渗透到教与学两端",
+    "计算机学位含金量受质疑",
+    "反映AI对教育评估体系的压力"
+   ],
+   "why_zh": "从教育端观察AI对人才供给与技能定义的长期影响。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-11-10",
+   "slot": "morning",
+   "selected_at": "2026-11-09T21:24:12+00:00",
+   "mirror_pdf": "pdf/web-c34401c55344.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/508706.html"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "大模型竞争从参数竞赛转向长上下文与多模态原生架构的工程化落地。",
+   "why": "美团开源1.6万亿参数、百万上下文原生多模态模型，以MIT协议可商用直指长程智能体任务。",
+   "refs": [
+    "web-140d4d1a892e"
+   ]
+  },
+  {
+   "trend": "并行生成架构开始正面挑战自回归，推理速度成为新的评测维度。",
+   "why": "Next-Concept Modeling在LM1B困惑度优于最强扩散模型且快21倍，数独推理全面超越自回归与扩散基线。",
+   "refs": [
+    "arxiv-2610.14162"
+   ]
+  },
+  {
+   "trend": "Agent竞争从单人工具转向团队协作与任务交付闭环。",
+   "why": "千问办公2.0推出多人与同一Agent协作的Team Agent，混元Hy4搭配WorkBuddy强化多模态任务交付。",
+   "refs": [
+    "web-d8659cb91ba5",
+    "web-89ac639459d4",
+    "web-bd98d4cd36bb"
+   ]
+  },
+  {
+   "trend": "前沿能力呈锯齿状，AGI叙事需从平滑外推转向分领域评测。",
+   "why": "Mollick指出Fable 5.2强项突出但弱项突兀，能力并非平滑上升，单一基准难以刻画真实进展。",
+   "refs": [
+    "web-906503fc546e"
+   ]
+  },
+  {
+   "trend": "AI研发自我加速与科学发现闭环，正成为实验室竞争的新变量。",
+   "why": "METR报告称AI显著加速Anthropic内部研发、2027年前后或近递归自我改进；AI for Science从猜想走向定理证明。",
+   "refs": [
+    "web-8ed1d9debf14",
+    "web-08f9983ae92b"
+   ]
+  }
+ ]
+}
