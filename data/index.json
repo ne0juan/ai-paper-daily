@@ -1,11 +1,12 @@
 {
- "updated": "2026-11-08T17:00:02+00:00",
+ "updated": "2026-11-09T04:56:45+00:00",
  "days": [
   {
    "date": "2026-11-09",
-   "count": 13,
+   "count": 31,
    "slots": {
-    "morning": 13
+    "morning": 13,
+    "noon": 18
    }
   },
   {
@@ -411,36 +412,37 @@
    }
   }
  ],
- "total": 2497,
+ "total": 2515,
  "last_run": {
-  "at": "2026-11-08T17:00:02+00:00",
-  "slot": "morning",
-  "candidates": 77,
-  "new": 27,
-  "stale": 15,
-  "judged": 23,
-  "selected": 13,
-  "mirrored": 13,
+  "at": "2026-11-09T04:56:45+00:00",
+  "slot": "noon",
+  "candidates": 78,
+  "new": 38,
+  "stale": 5,
+  "judged": 38,
+  "selected": 18,
+  "mirrored": 17,
   "by_category": {
-   "项目": 3,
-   "资讯": 10
+   "资讯": 11,
+   "观点": 3,
+   "技术": 3,
+   "项目": 1
   },
   "by_source": {
-   "Hacker News": 4,
-   "量子位": 8,
+   "Hacker News": 9,
+   "量子位": 5,
    "极客公园": 6,
-   "IT之家": 19,
-   "爱范儿": 1,
-   "雷峰网": 3,
-   "钛媒体": 5,
-   "InfoQ 中文": 6,
-   "Latent Space": 1,
-   "Stratechery": 1,
+   "IT之家": 9,
+   "爱范儿": 3,
+   "雷峰网": 6,
+   "钛媒体": 7,
+   "InfoQ 中文": 8,
+   "Simon Willison": 1,
+   "Latent Space": 2,
    "SemiAnalysis": 1,
    "Azeem Azhar": 1,
-   "Zvi Mowshowitz": 1,
-   "GitHub Trending": 7,
-   "GitHub 新项目": 13
+   "GitHub 新项目": 13,
+   "GitHub Trending": 7
   },
   "llm": true,
   "translated": 0

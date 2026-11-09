@@ -696,46 +696,1022 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-68ff5ed661ee",
+   "kind": "article",
+   "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+   "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-08T18:16:07Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50415628",
+     "signal": "673 pts",
+     "metric": 673
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "高盛撤下银行家与交易员的 Claude Code",
+   "summary_zh": "高盛据报停止向银行家和交易员提供 Claude Code，反映头部金融机构对 AI 编码智能体在合规、数据安全与产出可控性上的顾虑，是 AI 落地企业核心业务的一次重要回撤信号。",
+   "highlights_zh": [
+    "头部投行对 AI 编码智能体的实际采用出现反复",
+    "合规与数据边界是金融业部署智能体的主要阻力",
+    "对 Anthropic 企业级市场叙事构成压力测试"
+   ],
+   "why_zh": "观察 AI 智能体在强监管金融业的真实落地边界与阻力。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.62,
+   "score_llm": 8.0,
+   "score": 0.728,
+   "date": "2026-11-09",
+   "slot": "noon",
+   "selected_at": "2026-11-09T04:56:45+00:00",
+   "mirror_pdf": "pdf/web-68ff5ed661ee.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50415628"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6ee1dee33e4b",
+   "kind": "article",
+   "title": "Hide your slop PR descriptions behind",
+   "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+   "pdf_url": "",
+   "abstract": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's coding agents are great at writing PR descriptions. They're too good at describing the work The problem is that they are too good. An agent-written PR description is accurate and comprehensive. It describes the problem, the detailed solution, and the steps taken to verify it. That's a lot of information to absorb. It's not necessarily slop, but it reads like slop! It's very easy to spot an AI-written PR, and as with other forms of AI writing my instant reaction is best summarized as \"I'm not reading all of that\". It doesn't matter how accurate or useful the information is, I'm instantly put off by the thought that it will take me longer to read than it took the driving author to write... even when that driving author is me! I want human editorial judgement. I want someone to have thought just long enough about the PR to give me a human-approved introduction that helps me understand, at a high level, what the PR is for and whether it deserves more of my attention. I think I've found a low-effort way to do this that feels right. Hide most of it in a details/summary The HTML <details><summary> elements render as a collapsed heading (the summary) that can be expanded to view the larger piece ",
+   "authors": [
+    "Simon Willison"
+   ],
+   "orgs": [
+    "Simon Willison"
+   ],
+   "published": "2026-11-09T04:25:05+00:00",
+   "sources": [
+    {
+     "name": "Simon Willison",
+     "authority": 0.8,
+     "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Django 联合创始人，LLM 实践者",
+   "title_zh": "把 AI 生成的 PR 描述折叠起来",
+   "summary_zh": "Simon Willison 认为编码智能体写的 PR 描述准确全面却像「slop」，读者本能抗拒；他的做法是把大段细节塞进 details/summary 折叠，只留一段人工把关的简短导语。",
+   "highlights_zh": [
+    "问题不在准确性，而在阅读成本高于作者写作成本，让人本能跳过",
+    "用 HTML details/summary 折叠冗长描述，顶部保留人类编辑过的摘要",
+    "核心诉求是保留人的编辑判断，帮读者判断这个 PR 是否值得投入注意力"
+   ],
+   "why_zh": "智能体写代码普及后，人机协作中的信息呈现方式需要重新设计。",
+   "tags": [
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.648,
+   "date": "2026-11-09",
+   "slot": "noon",
+   "selected_at": "2026-11-09T04:56:45+00:00",
+   "mirror_pdf": "pdf/web-6ee1dee33e4b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://simonwillison.net/2026/Nov/9/details-summary/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d3c4da76449b",
+   "kind": "article",
+   "title": "实测 HY4：腾讯最「夯」大模型，离一线还有多远？",
+   "url": "http://www.geekpark.net/news/373644",
+   "pdf_url": "",
+   "abstract": "头图来源：腾讯混元 11 月 4 日，混元 Hy4 正式发布，模型权重将在近期开源，主打性价比的轻量版 Hy4 flash 也一起亮相。腾讯给它的定位是——首次跻身最强开源模型之列。 过去一年，腾讯在 AI 上最多被人看见的，是 WorkBuddy 这类 Agent 和应用产品；到了更底层的模型上，它的声量明显弱于应用。Hy4 真正要回答的，是腾讯在模型这条线上的身位。 从榜单表现来看，在开源模型里，Hy4 已经站进第一梯队；放到全球，和顶尖闭源模型的差距仍然清晰。 而根据国家数据局最近公布的一组数据，我国日均 Token 调用量已经从 2024 年初的 1000 亿，增长到今年 7 月的超 500 万亿，两年增长超 5000 倍。Token 消耗狂飙的背后，Agent 正在从一个技术概念变成新的生产力形态。 极客公园围绕长程 Agent、多模态理解与视觉代码等主线，结合官方评测数据和典型任务，进行了实测，以梳理这一代 Hy4 到底补上了哪些能力。 一、长程 Agent：门槛在「把一整件事跑完」 过去测模型，行业习惯看单轮问答、单道题目的表现。进入 Agent 阶段，变成看跨多轮、跨多步、长时间运行，模型能不能始终记得目标在哪里、自己能走到哪一步，中途出错能不能自己拉回来，最后形成逻辑闭环的交付。 最近对 CPO 赛道关注比较多，我给 Hy4 安排了一个接近买方真实工作的任务： 让它扮演覆盖 AI 算力产业链的研究员，围绕 CPO（共封装光学）赛道，做一份面向投资决策委员会的深度研究报告和可复算估值模型，数据截至最近一个已完成的交易日。 2026 年被称为 CPO 量产元年，英伟达 Spectrum-X、博通 Bailly 等 CPO 交换机陆续进入客户导入，台积电 COUPE 投产、谷歌 NPO 订单落地，产业事件密集；与此同时，A 股光通信「易中天」（中际旭创、新易盛、天孚通信）以及光芯片、光器件公司的股价和估值已经大幅抬升。投委会真正想知道的，是这条链当前还能不能配、该怎么配。 任务要求几乎覆盖了一名研究员的完整工作流。它先要梳理 CPO 产业链图谱——上游光芯片、激光器、硅光、光器件，中游光引擎、光模块，下游交换机和云厂商——并配一张可视化产业链图；同时讲清 CPO 与传统可插拔光模块、NPO、OOI 的技术差异、替代节奏和关键催化节点，引用英伟达、博通、台积电的官方路线图和时间点。 视频来源：极客公园 数据核验是这道题最容易露馅的环节。模型需要获取重点公司近 3 年财报、最新行情与市值、业务结构、毛利率和机构一致预期，还要兼顾英伟达、博通、Coherent、Lumentum 等海外映射数据；每个数字都要标明来源、日期、币种和单位，区分实际值、预测值和假设，缺失数据明确说明，禁止编造数据、机构或分析师身份。我们还特别要求它核实各家公司是否真正进入海外巨头 CPO 供应链，严格区分已量产、送样测试和仅披露合作意向三种状态，把「蹭概念」的标的识别出来。 在此基础上，它要从 A 股选 4 家覆盖光模块、光器件、光芯片环节的代表公司做横向对比表，并测算当前估值隐含的增长预期，结合一致预期判断预期差在哪里，给出乐观、基准、悲观三情景；再选一家最看好的公司建立可复算的未来三年利润表模型，关键假设集中管理，验证勾稽关系，禁止无解释倒挤。最后，它还得正面回答投委会三问：当前是业绩兑现还是主题炒作，哪个环节弹性最大，如果只能选一家该选谁。 从实际运行看，Hy4 沿用了它处理长任务的典型路径：先拆解任务、列出执行计划，再分阶段推进，中间做阶段性自检。产业链图",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-09T03:57:03+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373644",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "实测腾讯混元 Hy4：开源第一梯队，离顶尖闭源还有多远",
+   "summary_zh": "极客公园实测腾讯混元 Hy4，围绕长程 Agent、多模态理解与视觉代码等主线，结合官方评测与真实投研任务，判断其已进入开源第一梯队，但与顶尖闭源模型仍有清晰差距。",
+   "highlights_zh": [
+    "Hy4 定位首次跻身最强开源模型之列，权重近期开源，另有主打性价比的 Hy4 flash",
+    "实测覆盖长程 Agent 完整工作流：产业链梳理、数据核验、估值建模与三情景测算",
+    "腾讯过去声量集中在 WorkBuddy 等应用层，Hy4 要回答的是其在底层模型上的身位"
+   ],
+   "why_zh": "了解国产开源大模型真实能力边界与 Agent 落地成色的第一手实测。",
+   "tags": [
+    "大模型",
+    "智能体",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-11-09",
+   "slot": "noon",
+   "selected_at": "2026-11-09T04:56:45+00:00",
+   "mirror_pdf": "pdf/web-d3c4da76449b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373644"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-66ffd2d274ec",
+   "kind": "article",
+   "title": "具身智能，也到了 API 时刻？",
+   "url": "http://www.geekpark.net/news/373683",
+   "pdf_url": "",
+   "abstract": "具身智能的 API 时刻意味着部分具身模型已经开始具备跨本体迁移、在一定范围内适应新任务的能力。 作者｜Li Yuan 编辑｜郑玄 具身智能，也到了 API 时刻？ 过去，想知道一个具身模型有多强，往往要看它在发布视频里完成了什么任务。不过，这条线正在松动。 就在近期，一些公司开始把另一种检验方式交到开发者手里：接上你自己的机器人，试着把你的任务做出来。 10 月，Physical Intelligence（PI）开放了模型 API 测试。开发者可以上传自己的机器人数据，在平台上微调模型，再通过云端推理驱动机器人。PI 表示，一家公司，用这套服务迭代了四天，让双臂机器人开始为自身的零部件去毛刺。 同月，Dream Labs 推出 Dream API，将机器人模型推理按作业时长计费，并提供面向开发者数据的模型微调服务。让机器人调用云端模型，正在成为一种可以试用、适配和购买的服务。 国内，11 月 3 日，原力灵机升级了 Dexmal MaaS，将重点放在模型进入具体场景所需的后训练上：开发者可以在同一平台完成数据上传、模型训练和部署，再根据真机执行中的失败继续改进。 这些动作让具身智能行业出现了一个值得关注的变化。过去，我们常常听到一些公司宣称自己在某个场景正在寻求落地突破。而现在，模型公司开始尝试把自己积累的能力，交给不同硬件、不同任务背后的开发者使用。具身模型的竞争，也由此延伸到一个更实际的问题：别人能不能拿它做成应用？ 这一步比语言模型开放 API 要重得多。机器人需要适配自己的身体，理解现场的物体和流程，还要在执行出错时把任务接着做下去。把模型交到外部开发者手里，就意味着让它走出熟悉的实验环境，接受不同本体和真实任务的检验。这需要模型能力作为底气，也需要公司有信心把尚未解决的问题暴露出来，在使用中继续改进。 未来具身智能的形态，或许就会在这些尝试中逐渐清晰。 01 为什么是现在？ 本体厂商提供身体、模型公司提供基础能力，开发者围绕场景构建应用，是行业早已讨论过的一种分工。不过在过往，借助通用模型构建具身应用，仍然往往是一个愿景。 如今，几家公司相继开放 API，开始把这种设想变成开发者可以上手的服务。为什么是现在？ 或许有几点原因。 首先，一部分具身模型开始具备跨本体迁移、在一定范围内适应新任务的能力。 过去，教机器人完成一个新任务，往往意味着围绕特定硬件开发算法、采集数据，再反复调试。具身基础模型正在改变这个起点。模型从不同任务的训练中积累物理世界知识和操作经验，开发者便有机会借用这些能力，把新增投入集中在自己的机器人和任务上。一个基模能够支持的本体与场景越多，将它作为公共服务提供的价值就越大。 PI 展示的一个案例，甚至让机器人参与了自己的制造。开发双臂机器人 Axol 的公司 Almond，希望让它处理自身装配所需的零件。借助 Pi API，这个团队经过四天迭代，让机器人开始为装配用的垫块去毛刺。 原力灵机开放 MaaS，同样有一个能力上的前提：它的基模已经积累了一批能够交给外部开发者使用的操作经验。 按照原力灵机展示的 DM0.5 的 Zero-shot 能力，模型目前已经可以完成抓取、推动、放置、叠放等操作，也能根据颜色、形状和大小区分物体，甚至能完成擦东西这样的更难的操作。 DM 0.5 还能执行序列指令，机器人需要理解多个操作之间的先后关系，完成前一步后，面对已经变化的现场继续执行下一步。DM0.5 对序列指令的支持，加上原生记忆能力，为任务从单个动作延伸到连续操作提供了基础。 这意味着，机器人开始能够把「看懂要求」与「做出动",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-09T02:18:55+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373683",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "具身智能也到了 API 时刻？",
+   "summary_zh": "Physical Intelligence、Dream Labs、原力灵机相继开放具身模型 API 与 MaaS，开发者可上传自有机器人数据微调并云端推理驱动机器人，标志具身模型开始接受跨本体、真实任务的检验。",
+   "highlights_zh": [
+    "PI 开放 API 测试，Almond 团队四天迭代让双臂机器人为自身装配零件去毛刺",
+    "Dream API 按作业时长计费，原力灵机 Dexmal MaaS 主打场景后训练",
+    "前提是基模已具备跨本体迁移与一定范围内的新任务适应能力"
+   ],
+   "why_zh": "具身智能从演示视频转向可试用、可购买的服务，分工格局正在成形。",
+   "tags": [
+    "机器人",
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-11-09",
+   "slot": "noon",
+   "selected_at": "2026-11-09T04:56:45+00:00",
+   "mirror_pdf": "pdf/web-66ffd2d274ec.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373683"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e4d02fd5d90b",
+   "kind": "article",
+   "title": "Agent memory needs its OpenTelemetry moment",
+   "url": "https://www.lorekit.io/blog/open-agent-memory-format",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-08T08:40:23Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50411467",
+     "signal": "177 pts",
+     "metric": 177
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "智能体记忆需要自己的 OpenTelemetry 时刻",
+   "summary_zh": "文章主张智能体记忆层缺乏统一的可观测与互操作标准，呼吁像 OpenTelemetry 那样建立开放规范，让记忆的写入、检索与追踪可跨框架迁移。",
+   "highlights_zh": [
+    "智能体记忆目前各框架私有、难以迁移",
+    "可观测性与标准化是规模化前提",
+    "类比 OpenTelemetry 的开放规范路径"
+   ],
+   "why_zh": "智能体基础设施标准化的前瞻判断，值得架构决策者参考。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5629,
+   "score_llm": 7.0,
+   "score": 0.6452,
+   "date": "2026-11-09",
+   "slot": "noon",
+   "selected_at": "2026-11-09T04:56:45+00:00",
+   "mirror_pdf": "pdf/web-e4d02fd5d90b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.lorekit.io/blog/open-agent-memory-format"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50411467"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9c7e75a27e82",
+   "kind": "article",
+   "title": "How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+   "url": "https://latent.space/p/cs146s/",
+   "pdf_url": "",
+   "abstract": "What happens when students can one-shot last year’s homework? Inside CS146S and the engineering team at Monaco.",
+   "authors": [
+    "swyx .ai"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-11-08T21:41:44+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/cs146s/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "斯坦福如何教 AI 原生工程",
+   "summary_zh": "Latent Space 访谈 Monaco 的 Mihail Eric，谈斯坦福 CS146S 课程：当编码智能体一个提示就能做完去年作业，教学转向让学生进入陌生开源仓库提出并落地改动。",
+   "highlights_zh": [
+    "课程引入开源维护者，学生需读懂不熟悉的仓库并提出真实改动",
+    "作业设计前提是编码智能体已能一次性完成旧版作业",
+    "讨论 AI 原生工程能力该如何定义与考核"
+   ],
+   "why_zh": "为团队培养 AI 原生工程师、设计考核方式提供可借鉴的课程思路。",
+   "tags": [
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-11-09",
+   "slot": "noon",
+   "selected_at": "2026-11-09T04:56:45+00:00",
+   "mirror_pdf": "pdf/web-9c7e75a27e82.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/cs146s/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6b30b3347296",
+   "kind": "article",
+   "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+   "url": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+   "pdf_url": "",
+   "abstract": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to learn an unfamiliar repo, propose a change, and ...",
+   "authors": [
+    "Latent.Space"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-11-08T21:23:29+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "斯坦福 CS146S 第二期：把开源维护者请进课堂",
+   "summary_zh": "同一访谈的另一版本，聚焦 CS146S 第二期课程设计：学生须学习陌生开源仓库、提出改动方案，以应对编码智能体一键完成旧作业的现实。",
+   "highlights_zh": [
+    "课程重心从写代码转向理解陌生代码库与提出有效改动",
+    "引入开源维护者参与，贴近真实协作流程",
+    "与上一条为同一内容的重复报道"
+   ],
+   "why_zh": "与上条内容重复，读其一即可，优先选完整版访谈。",
+   "tags": [
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 6.0,
+   "score": 0.58,
+   "date": "2026-11-09",
+   "slot": "noon",
+   "selected_at": "2026-11-09T04:56:45+00:00",
+   "mirror_pdf": "pdf/web-6b30b3347296.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7a1c1dbb94df",
+   "kind": "article",
+   "title": "基元律动发布NeoHorse-1.5-Flash Preview，Agent模型RSI进入第二轮迭代",
+   "url": "https://www.leiphone.com/category/industrynews/tLk5dflVBL8euzAW.html",
+   "pdf_url": "",
+   "abstract": "11月5日，基元律动（TokenRhythm）发布Agent原生模型NeoHorse-1.5-Flash Preview。该模型基于Qwen3.8-Flash进行训练，总参数180B、激活参数6B，重点提升Agent任务执行与软件工程能力，目前开放限量内测。 据公司公布的对照评测，相较基座模型，新模型在Agents’ Last Exam上的整体得分提高9.23分，在Natural Language to Repository评测上的整体得分提高5.92分。其中，物理科学任务提升超过20分，开发工具与测试、Web开发、安全认证与加密等方向也有改善。 本次发布延续了NeoHorse系列对递归自我改进（RSI）的探索，基元律动将其称为这一机制的“第二圈”。9月发布NeoHorse-1后，公司将上一代模型重新放回模型池，在实际任务中收集执行反馈，再将这些经验用于后续训练，模型训练尺度也从首轮4B、9B扩展至Flash档位。 这条路径依托TokenRhythm多模型平台和开源Agent产品OpenSquilla。路由系统提供任务能力需求信号，多模型融合则让多个前沿模型处理同一任务，形成可比较的执行结果。NeoHorse与这些结果之间的差异，被用于识别能力短板、确定训练方向，并转化为学习信号。 在模型发布翌日，基元律动还更新了OpenSquilla，完善了这一执行基础。新版根据任务意图选择模型档位，继续任务时沿用原档位，重做时逐级升档；同时支持独立更新TokenRhythm和OpenRouter推荐方案，用户无需升级客户端，即可预览差异并确认应用。本期推荐配置也依据十一月模型榜单调整，使执行侧的模型选择能够跟随评测结果持续更新。 围绕RSI训练，团队提出多模型差分诊断、对抗式环境进化和群体智能在线学习三项技术，分别对应能力诊断、分布塌缩和迭代效率。其中，环境进化引擎持续生成并筛选新任务，群体智能在线学习利用模型输出与融合结果的差异进行训练，将执行框架中产生的比较信息用于后续优化。 公开演示呈现了具体任务中的差异。在表格网页案例中，基座模型生成的部分计算单元格出现公式报错，新模型则展示了公式输入、计算结果及更多交互功能。发布材料还列出了图表生成、量子物理计算和机器人装配参数求解等案例，考察模型在计算、检查和交付环节的完成情况。 NeoHorse-1.5-Flash Preview现可通过基元律动官方公众号申请内测。 雷峰网 雷峰网",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-09T02:25:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/tLk5dflVBL8euzAW.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "基元律动发布Agent原生模型NeoHorse-1.5-Flash",
+   "summary_zh": "基元律动发布基于Qwen3.8-Flash训练的180B总参、6B激活Agent原生模型，在Agents' Last Exam等评测上较基座提升5-9分，并披露其RSI递归自我改进的第二轮迭代路径。",
+   "highlights_zh": [
+    "180B总参/6B激活，主打Agent任务执行与软件工程能力",
+    "用多模型差分诊断、对抗式环境进化、群体智能在线学习三项技术驱动RSI",
+    "依托OpenSquilla执行框架收集反馈反哺训练，形成闭环"
+   ],
+   "why_zh": "国内团队对Agent原生模型与递归自我改进路径的具体工程实践，值得关注训练范式。",
+   "tags": [
+    "智能体",
+    "大模型",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-09",
+   "slot": "noon",
+   "selected_at": "2026-11-09T04:56:45+00:00",
+   "mirror_pdf": "pdf/web-7a1c1dbb94df.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/tLk5dflVBL8euzAW.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e99b223537e5",
+   "kind": "article",
+   "title": "Harness 已经很准了，为什么还需要一个 Agent Native Database",
+   "url": "https://www.infoq.cn/article/49JGp1l7v97riBlPpZ1q?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "张颖峰"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-09T10:44:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/49JGp1l7v97riBlPpZ1q?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Harness已够准，为何还需要Agent原生数据库",
+   "summary_zh": "文章讨论在智能体harness已能保证准确率的前提下，为何仍需为Agent设计原生数据库，涉及状态管理、记忆与执行轨迹的持久化设计取舍。",
+   "highlights_zh": [
+    "从harness准确率瓶颈切入，论证Agent对数据层的特殊需求",
+    "涉及Agent状态、记忆与执行轨迹的存储设计",
+    "对构建生产级Agent系统的架构选型有参考价值"
+   ],
+   "why_zh": "做Agent基础设施选型时，可借此理解为何通用数据库不够用。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-09",
+   "slot": "noon",
+   "selected_at": "2026-11-09T04:56:45+00:00",
+   "mirror_pdf": "pdf/web-e99b223537e5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/49JGp1l7v97riBlPpZ1q?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7309c25db091",
+   "kind": "article",
+   "title": "Edge AI Daily 早报（11月9日）",
+   "url": "https://www.tmtpost.com/8197806.html",
+   "pdf_url": "",
+   "abstract": "中期选举后美国46项数据中心公投否决扩张，AI基建进入许可时代；纳指单日跌5.5%、费半跌12%，亚洲市场熔断。Anthropic斥34亿美元购1.7GW燃气发电机，伯恩斯坦估OpenAI至2030年算力支出或达6140亿美元。苹果推进Siri自主智能体，世界模型竞赛升温。AI攻击链反转，网络安全进入黑暗时代；Snapchat、NHTSA、NASA与苹果税收监管同步演进。",
+   "authors": [
+    "Edge AI Daily"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-09T01:28:40+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8197806.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Edge AI 早报：数据中心公投受阻，AI基建进入许可时代",
+   "summary_zh": "美国中期选举后46项数据中心公投否决扩张，纳指跌5.5%、费半跌12%；Anthropic斥34亿美元购1.7GW燃气发电，伯恩斯坦估OpenAI至2030年算力支出或达6140亿美元。",
+   "highlights_zh": [
+    "美国46项数据中心公投被否，AI基建扩张进入地方许可博弈阶段",
+    "Anthropic 34亿美元自购1.7GW燃气发电，算力能源自给成趋势",
+    "伯恩斯坦估OpenAI至2030年算力支出或达6140亿美元"
+   ],
+   "why_zh": "一网打尽AI基建、算力资本开支与市场情绪的关键信号，适合把握行业方向。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-09",
+   "slot": "noon",
+   "selected_at": "2026-11-09T04:56:45+00:00",
+   "mirror_pdf": "pdf/web-7309c25db091.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8197806.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a73e104ebc31",
+   "kind": "article",
+   "title": "Anthropic 揭秘科学家用 Claude 都干啥：大多用来分析数据和写作",
+   "url": "https://www.ithome.com/1/024/111.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 9 日消息，Anthropic 近日发布研究报告， 显示科学家主要将 Claude 用于数据分析和写作 ，收集数据、生成研究假设则较少使用 AI。 IT之家了解到，Anthropic 此次研究使用了 2026 年 8 月 2 日至 9 月 30 日的 20.7 万次科研会话，其中包含 12.9 万次 Claude 对话和 Cowork 会话，以及 7.8 万次 Claude Code 会话。系统只保留并研究会话所属的学科、研究子领域和具体任务等分类标签，不会提取或保存研究数据、假设、实验方法、初步发现或未发表论文等具体内容。所有结果均以汇总形式呈现，以保护隐私。 从学科来看，计算机科学、数学和统计学等领域的研究人员会更频繁地使用 Claude，医疗健康以及需要在实验室开展工作的物理科学领域则相对较少。 在 Claude 科研会话中，计算机科学（IT之家注：CS）占比最高，达到 11.9%；工程学和医学分别占 8.4% 和 7.7%。如果将各学科的研究人员规模纳入考量，计算机科学、数学和统计学的 Claude 使用比例仍明显高于其研究人员占比。 Claude Code 的使用分布则更加集中于定量研究领域。CS 研究人员仅占全球研究人员总数的 4.3%， 贡献 Claude Code 科研会话的 32.7% 。AI 与 ML 的使用情况同样突出：该领域研究人员仅占全球总数的 1.2%，却占 Claude 科研会话的 5%，占 Claude Code 科研会话的 15.2%。 相比之下，艺术、人文和部分社科的 Claude 用量相对较低。Anthropic 认为，不同学科的 Claude 用量不仅与人群基数有关，也与研究任务是否适合 AI 密切相关。 在具体研究任务方面，数据分析和写作是科学家最常借助 Claude 完成的工作。 报告显示，数据分析占 Claude 科研会话的 33.7%，占 Claude Code 科研会话的 48.1%。作为对照，研究人员通常将 27.6% 的工作时间用于数据分析。写作与沟通任务占 Claude 科研会话的 32%，也明显高于研究人员在这类任务上投入的时间比例（16%）。 相比之下，数据收集任务占研究人员工作时间的 28.6%，但仅占 Claude 科研会话的 11.5%、Claude Code 会话的 11.9%。研究构思与假设生成任务的占比则更低，分别为 4.2% 和 2.1%，而研究人员投入这类工作的时间占比为 7.1%。 Anthropic 还对 528 名科学家开展了问卷调查，受访者主要来自生命科学和健康科学领域，且均属于积极使用 AI 的研究人员。调查结果与实际会话数据基本一致：受访者最常使用 AI 的场景是数据分析和写作，而数据收集、研究构思及假设生成的使用程度相对较低。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-09T03:41:26+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/024/111.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic研究：科学家主要用Claude做数据分析和写作",
+   "summary_zh": "Anthropic基于20.7万次科研会话发现，数据分析占Claude科研会话33.7%、写作占32%，而假设生成仅4.2%；CS与AI/ML领域使用密度显著高于其研究人员占比。",
+   "highlights_zh": [
+    "数据分析与写作是科学家使用Claude的两大场景，远超假设生成",
+    "AI/ML研究者仅占全球1.2%，却贡献Claude Code科研会话15.2%",
+    "数据收集占科研工作时间28.6%，但AI使用占比仅约11%"
+   ],
+   "why_zh": "用真实会话数据刻画AI在科研中的实际分工，对科学AI产品定位有参考价值。",
+   "tags": [
+    "科学AI",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-09",
+   "slot": "noon",
+   "selected_at": "2026-11-09T04:56:45+00:00",
+   "mirror_pdf": "pdf/web-a73e104ebc31.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/024/111.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3b9e2671e72f",
+   "kind": "article",
+   "title": "LG AI 研究院宣布对外免费开放 K-EXAONE 2.5 模型 API",
+   "url": "https://www.ithome.com/1/024/069.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 9 日消息，LG AI 研究院韩国当地时间今日宣布， 对外免费开放其 K-EXAONE 2.5 模型的 API 。包括开发者、企业、研究机构在内任何用户，可无需付费地将 K-EXAONE 2.5 应用于服务开发和研究。 这一自研技术验证模型在今年 8 月发布的原版基础上进行了追加训练， 拥有比肩头部开源 AI 模型的智能体能力 ，在 AutomationBench、SWE-Bench Pro、BrowseComp、Claw-Eval 上的表现与 DeepSeek-V4.1-Flash 和 GLM-5.3 难分伯仲。 参考 https://www.lgresearch.ai/news/view ?seq=754",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-09T02:39:09+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/024/069.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "LG 免费开放 K-EXAONE 2.5 API",
+   "summary_zh": "LG AI 研究院免费开放 K-EXAONE 2.5 模型 API，开发者与企业均可零成本使用；其智能体能力在多个基准上与 DeepSeek、GLM 头部开源模型相当。",
+   "highlights_zh": [
+    "面向开发者、企业、研究机构全部免费开放",
+    "在原版基础上追加训练，强化智能体能力",
+    "AutomationBench、SWE-Bench Pro 等基准比肩 DeepSeek-V4.1-Flash 与 GLM-5.3"
+   ],
+   "why_zh": "多一个可免费调用的强智能体模型选项，值得开发者实测对比",
+   "tags": [
+    "大模型",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-09",
+   "slot": "noon",
+   "selected_at": "2026-11-09T04:56:45+00:00",
+   "mirror_pdf": "pdf/web-3b9e2671e72f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/024/069.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-dba623815761",
+   "kind": "article",
+   "title": "黄仁勋承认「婚外情」，英伟达启动调查；ChatGPT 突现封号风波，200 美元 Pro 用户也遭殃；腾讯姚顺雨谈「AI 公司护城河」：在产品层，而不是模型层",
+   "url": "http://www.geekpark.net/news/373687",
+   "pdf_url": "",
+   "abstract": "黄仁勋承认「婚外情」，英伟达启动调查 11 月 9 日消息，英伟达 CEO 黄仁勋当地时间 8 日于公司官网发布致全员公开信，就个人私事致歉，同时披露董事会将针对相关报道提及的国家安全关切展开独立调查。 黄仁勋在信中承认自己对妻子不忠，坦言该行为伤害家人，对此承担全部责任，并接受外界批评。他表示家人不应为其个人选择负责，恳请公众给予家人隐私空间，希望能有机会重新赢回家人信任。他强调自己对英伟达始终坚定，将努力重新赢得团队与投资方的信赖。 针对近期报道带出的国家安全相关质疑，黄仁勋确认董事会已启动独立调查，本人将全力配合。 此前据《纽约时报》报道，美国政府认为黄仁勋与一家名为 Megaspeed 的新加坡科技公司前高管 Alice Huang（黄乐）存在密切关系。（来源：DoNews） 特斯拉更新 AI 加速器路线图：SI6 算力达 HW4 的 80 倍，Dojo D3 将面向太空部署 11 月 8 日消息，特斯拉公布了更新后的 AI 加速器路线图，进一步揭示了公司未来几年的芯片研发方向。根据这份路线图，特斯拉第六代推理加速器的算力预计将达到现有第四代芯片的 80 倍；而用于训练任务的 Dojo D3 将放弃以 SRAM 为核心的架构，转向采用多芯粒设计，并搭载堆叠式 HBM 高带宽内存。 此外，特斯拉还开始用「超级智能」（Super Intelligence，SI）取代「人工智能」（Artificial Intelligence，AI）这一名称，为旗下 AI 加速器启用 SI 系列命名。出于相同原因，马斯克近期也确认，SpaceXAI 将更名为 SpaceXSI。 这份路线图中最值得关注的变化，或许是特斯拉重新启动了自主研发的 Dojo 训练加速器项目。 马斯克曾在 2025 年 8 月取消整个晶圆级 Dojo 项目，并于 2026 年 8 月表示，SpaceX 和 xAI 将在其地面及太空数据中心中全部采用英伟达硬件。不过，第三代 Dojo D3 与前两代 Dojo D1、Dojo D2 将有明显不同。 特斯拉将下一代 Dojo D3 描述为一款基于芯粒（Chiplet）的训练加速器，采用 2.5D 和 3D 封装技术，并搭载堆叠式 HBM 内存。（来源：IT 之家） 亚马逊成立新团队专攻家用机器人，剑指「前所未有」的新产品 11 月 8 日消息，分析亚马逊的招聘信息发现，过去几个月，亚马逊组建了一支新团队，准备开发 一款前 所未有的机器人产品。 亚马逊近期发布的一则工程师招聘信息写道：「机器人即将走出电影，进入我们的家中。」这条被撤掉的招聘信息透露，新产品能够适应不断变化的家庭环境，并在人类家庭成员身边自主活动。 亚马逊一向愿意押注长期项目，即便短期内不被外界理解，只要能够帮助公司抢占新市场的先机，就值得投入。此前的 Alexa 语音助手和 Kindle 电子书阅读器，都采用了这种发展策略。 亚马逊 CEO 安迪 · 贾西在最近的年度股东信中重申了这一思路，认为人工智能和机器人技术将带来人们一生中最重大的变革之一。「我们努力预判什么能让客户每天的生活更轻松、更美好，并创造下一个重大转折点。」 LinkedIn 个人资料显示，今年早些时候，亚马逊将 Astro 项目的大部分成员调往其他岗位，还聘请了一名麻省理工学院的机器人专家参与家用机器人研发。 至于新团队究竟打算开发什么样的家用机器人、能让机器人完成哪些任务，目前还没有明确消息。不过，亚马逊 6 月的一则招聘信息透露，研发目标不仅是让机器人具备实用功能，还要让用户在使用过程中感到愉悦。（来源",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-09T02:58:04+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373687",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "黄仁勋致歉并启动调查；特斯拉 AI 加速器路线图更新；姚顺雨谈 AI 护城河",
+   "summary_zh": "极客公园资讯合集：黄仁勋就个人私事致歉、董事会启动独立调查；特斯拉公布 SI6 与 Dojo D3 路线图；腾讯姚顺雨认为 AI 公司护城河在产品层而非模型层。",
+   "highlights_zh": [
+    "特斯拉第六代推理加速器算力号称达 HW4 的 80 倍，Dojo D3 转向芯粒加堆叠 HBM",
+    "亚马逊组建新团队研发家用机器人，Astro 项目成员已被调岗",
+    "姚顺雨判断 AI 公司护城河在产品层，而非模型层"
+   ],
+   "why_zh": "快速扫过当日行业要闻，其中护城河判断与特斯拉芯片路线值得留意。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.528,
+   "date": "2026-11-09",
+   "slot": "noon",
+   "selected_at": "2026-11-09T04:56:45+00:00",
+   "mirror_pdf": "pdf/web-dba623815761.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373687"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-27e0681cf540",
+   "kind": "article",
+   "title": "从“能写代码”到“能交付”：腾讯轻量云 LoopForge 多 Agent 编排实践｜AICon北京",
+   "url": "https://www.infoq.cn/article/wUArox9MHiAoyWPgRxpp?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "AICon 全球人工智能开发与应用大会"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-09T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/wUArox9MHiAoyWPgRxpp?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯轻量云LoopForge多Agent编排实践",
+   "summary_zh": "腾讯轻量云分享LoopForge多Agent编排实践，聚焦如何让Agent从能写代码走向能交付完整任务，涉及编排框架与工程落地经验。",
+   "highlights_zh": [
+    "多Agent编排在真实交付场景的工程实践",
+    "从生成代码到端到端交付的能力补齐思路",
+    "来自AICon的落地经验分享"
+   ],
+   "why_zh": "关注多Agent编排落地细节的开发者可参考其工程取舍。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-09",
+   "slot": "noon",
+   "selected_at": "2026-11-09T04:56:45+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/wUArox9MHiAoyWPgRxpp?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a391aa29216e",
+   "kind": "article",
+   "title": "自然干旱叠加数据中心建设，印度尼西亚峇淡遭遇自来水供应危机",
+   "url": "https://www.ithome.com/1/024/121.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 9 日消息，据法新社当地时间本月 8 日报道，与新加坡隔海相望的印度尼西亚峇淡（巴淡）正因自然与人为两方面因素的共同影响遭遇自来水供应危机， 当地居民的日常饮食洗漱都受到严重影响 。 峇淡目前正遭受长期干旱，近来愈演愈烈的厄尔尼诺现象更加重了气候影响，导致 主要水源储水量严重下降 。另一方面，峇淡凭借其优厚的地理位置和相对开放的政策成为东南亚 AI 数据中心基建的关键节点之一，而 部分数据中心配备的是高耗水冷却系统 。 ▲ 峇淡与新加坡 图源：谷歌地图 人类难以干预气候，这时 数据中心便成为居民的愤怒出口 ，引发广泛抗议。当地有关部门已要求数据中心运营方自建海水淡化厂，有业者承诺采用闭环水冷系统以减少水资源消耗，水务企业也正通过设施改造提升库容。 参考 https://www.afp.com/en/cant-cook-or-shower-indonesians-take-aim-data-centres",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-09T03:57:35+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/024/121.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "干旱叠加数据中心，印尼峇淡遭遇供水危机",
+   "summary_zh": "印尼峇淡因长期干旱与数据中心高耗水冷却系统叠加，自来水供应危机引发居民抗议，当局要求数据中心自建海水淡化厂。",
+   "highlights_zh": [
+    "峇淡是东南亚AI数据中心基建关键节点",
+    "高耗水冷却系统加剧当地水资源紧张",
+    "当局要求运营方自建海水淡化厂并采用闭环水冷"
+   ],
+   "why_zh": "揭示AI基建的外部性成本，水资源约束或成选址新变量。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-11-09",
+   "slot": "noon",
+   "selected_at": "2026-11-09T04:56:45+00:00",
+   "mirror_pdf": "pdf/web-a391aa29216e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/024/121.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d8862e39daa5",
+   "kind": "article",
+   "title": "特朗普称 AI 风险可控，但不介意设置监管护栏",
+   "url": "https://www.ithome.com/1/024/071.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 9 日消息，据路透社今日报道，美国总统唐纳德 · 特朗普表示，AI 带来的风险是可控的，但其对监管措施持开放态度， 他“不介意设置护栏” 。 当被问及美国是否应该接受 AI 的风险时，特朗普表示这些危险是可控的，并表示愿意与民主党在监管措施方面进行合作。 特朗普此前支持让科技公司自我监管，而不是实施全面的政府限制。他的最新发言表明，其对 AI 监管持某种开放态度，尽管目前尚不清楚开放程度如何。 据IT之家此前报道，当地时间 9 月 14 日，英伟达 CEO 黄仁勋现身美国洛杉矶的 All-in Summit 峰会，公开驳斥了“AI 末日论”， 并且意外收到来自特朗普的来电 。 特朗普在免提电话中全力为 AI 辩护，将对 AI 安全的担忧称为“骗局”，并在大会上告诉黄仁勋：“机器人不会接管。 AI 不会统治世界其他地方。这整个事情都是骗局 。”",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-09T02:43:18+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/024/071.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "特朗普松口：不介意给 AI 设监管护栏",
+   "summary_zh": "特朗普称 AI 风险可控，但表示不介意设置监管护栏，并愿与民主党合作；这与其此前力推企业自我监管的立场出现松动。",
+   "highlights_zh": [
+    "从「AI 安全是骗局」转向对监管持开放态度",
+    "愿与民主党在监管措施上合作",
+    "具体开放程度尚不明确"
+   ],
+   "why_zh": "美国 AI 监管风向可能生变，影响合规与政策预期",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-11-09",
+   "slot": "noon",
+   "selected_at": "2026-11-09T04:56:45+00:00",
+   "mirror_pdf": "pdf/web-d8862e39daa5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/024/071.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e22dd6f96618",
+   "kind": "article",
+   "title": "janestreet/agent_skills",
+   "url": "https://github.com/janestreet/agent_skills",
+   "pdf_url": "",
+   "abstract": "Agent skills",
+   "authors": [],
+   "orgs": [
+    "janestreet"
+   ],
+   "published": "2026-11-09T04:56:45+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/janestreet/agent_skills",
+     "signal": "★ 534（新项目）",
+     "metric": 534
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Jane Street 开源 agent_skills 项目",
+   "summary_zh": "Jane Street 在 GitHub 发布 agent_skills 仓库，为智能体提供可复用的技能定义，目前仅有仓库名与摘要，缺少文档说明。",
+   "highlights_zh": [
+    "由量化交易机构 Jane Street 发布，新项目已获约 534 星",
+    "仓库内容为智能体技能（skills）集合",
+    "暂无 README 细节，用途与用法尚不明确"
+   ],
+   "why_zh": "信息过少，先收藏观察；等文档补齐再评估是否接入工作流。",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5613,
+   "score_llm": 4.0,
+   "score": 0.4645,
+   "date": "2026-11-09",
+   "slot": "noon",
+   "selected_at": "2026-11-09T04:56:45+00:00",
+   "mirror_pdf": "pdf/web-e22dd6f96618.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/janestreet/agent_skills"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8ceec20c2829",
+   "kind": "article",
+   "title": "当 AI 在加速狂奔，什么反而应该“慢”下来？",
+   "url": "https://www.leiphone.com/category/industrynews/zGBfQTDDCpSCfYIK.html",
+   "pdf_url": "",
+   "abstract": "加速时代的悖论： 当“你的 AI”开始对“我的 AI”说话 2026 年，人工智能正在经历一次深刻的角色跨越：从过去几年的“对话交互”，全面走向“自主交付”。 过去，AI 停留在屏幕侧边栏的对话框里，你问它答，提供的是参考建议；而今天，智能体（Agent）开始走出对话框，真正嵌入日常工作流。作为国内用户规模最大的 AI 办公提效智能体，腾讯 WorkBuddy 在经历 100 余次版本迭代后，已累计承接超过 90 亿次任务请求，带动 Token 消耗增长 50 倍以上；据第三方 AI 产品榜 8 月桌面端数据，国内 AI 办公智能体桌面端总月活已达 3316 万，其中 WorkBuddy 位列总榜第一，月活规模占该赛道三分之一以上。 在企业的业务一线，蒙牛通过内部 AI 创新大赛跑出 45 个“数字员工”，将单牧场诊疗时效从 1.5 天缩短到 2 小时；上海家化在 9 大部门规模化落地 WorkBuddy，将每月 4.5–6 人天的 6000 万行物流账单对账压缩到 20 分钟以内。 单点工作流的提效，已经是不争的事实。但当我们在 AI 的加速度里一路狂奔时，一种微妙的职场异化也在悄然发生： 在不少率先普及 AI 工具的机构里，汇报材料和文档里的“AI 味”越来越浓。往往是一个人用 AI 在几分钟内生成了洋洋洒洒的万字长文，发给另一端；另一端的同事根本来不及细看，又用自己的 AI 把这篇长文浓缩成三条摘要。 当沟通演变成“你的 AI 对着我的 AI 说话”，信息的体积膨胀了数倍，人与人之间真实的思想碰撞却被稀释了。 这正是 2026 腾讯全球数字生态大会抛出的那个直击痛点的追问： 一个充满“超级个体”的团队，自动就是“超级团队”了吗？ 答案通常并不乐观：还不是。如果部门之间依然靠漫长的会议去对齐口径，如果同样的方案还在不同团队重复造轮子，如果关键经验依然锁在少数人脑子里——那么，个体的单兵速度越快，制造出的信息洪流就越容易转化为组织内部消化与甄别的负担。单点的效率提上去了，群体的协同却被摩擦抵消了。 当全行业都在高喊“AI Native（AI 原生）”的时候，或许我们更需要一点“People Native（以人为本）”的清醒。作为一家 AI 科技企业，腾讯始终秉持着一个清晰、有温度且直击本质的价值主张： “让人放心，把人放大。” 在今年的全球数字生态大会上，这一主张被具象化为一套以 “以人为本” 为轴心的 「AI 原生生产力飞轮」 ——以 AI 原生工作流推动效率提升，以 AI 原生技术架构保障可管可控，以 AI 原生组织促进人机协同与创新涌现。在这套飞轮背后，藏着智能体时代关于“快与慢”、“机器与人”、“个体与共同体”的深层辩证法。 让人放心： 唯有底层“可管可控”， 技术才能走向组织的“规模应用” 为什么在企业进化的飞轮里，当工作流跑起来之后，必须立刻由技术架构接棒实现“高效运行、可管可控”？因为当 AI 从“陪人聊天”转向“替人办事”，人与机器的信任逻辑发生了根本改变。 在生成式 AI 刚出现的时候，人们对它的心态像是在看一个蹒跚学步的孩童——它能写诗、能画画，偶尔答非所问，用户会觉得新鲜，包容度极高。但当工作流中的任务请求以数十亿次计爆发，当智能体真正进入企业的核心业务流、开始替人改代码、核账目、发通知、跑审批时，宽容就会让位于审慎：它会不会越权看到不该看的隐私？万一它在后台跑偏了逻辑，谁来为结果兜底？ 速度改变的是工作方式，但绝不能降低工程与制度的标准；稳定性、安全性与可用性，始终是数字化时代不可让渡的长期资产。没有技术架构上的“可管可",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-09T02:23:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/zGBfQTDDCpSCfYIK.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI加速时代，什么反而该慢下来",
+   "summary_zh": "腾讯以WorkBuddy智能体数据为引，提出智能体从对话走向自主交付后，组织协同与可管可控比单点提效更关键，主张以人为本的AI原生飞轮。",
+   "highlights_zh": [
+    "WorkBuddy累计90亿次任务请求、Token消耗增50倍",
+    "蒙牛、上海家化的智能体落地提效案例",
+    "核心观点：个体提速不等于组织提效"
+   ],
+   "why_zh": "含腾讯智能体产品数据，但整体偏品牌主张，观点增量有限。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-11-09",
+   "slot": "noon",
+   "selected_at": "2026-11-09T04:56:45+00:00",
+   "mirror_pdf": "pdf/web-8ceec20c2829.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/zGBfQTDDCpSCfYIK.html"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "AI竞争焦点从模型能力转向产品与场景闭环",
-   "why": "姚顺雨称护城河在产品层，腾讯以WorkBuddy补齐企业落地断点，印证入口与上下文之争。",
+   "trend": "AI竞争重心从模型能力转向产品与场景闭环",
+   "why": "姚顺雨称护城河在产品层，腾讯以WorkBuddy补企业落地断点，均指向场景与信任而非模型本身。",
    "refs": [
     "web-52aa05b31e3e",
-    "web-248e8e4e4efc"
+    "web-248e8e4e4efc",
+    "web-8ceec20c2829"
    ]
   },
   {
-   "trend": "智能体落地瓶颈转向组织流程与系统集成",
-   "why": "企业部署大量Agent仍难称AI Native，说明集成与流程改造比模型选型更关键。",
+   "trend": "智能体从对话走向自主执行，人机确认与可观测成新刚需",
+   "why": "Pinky保留人类确认环节，记忆层呼吁OpenTelemetry式标准，高盛撤下Claude Code显示可控性顾虑。",
    "refs": [
-    "web-e8a6915e8c73"
+    "web-4302af2a92aa",
+    "web-e4d02fd5d90b",
+    "web-68ff5ed661ee"
    ]
   },
   {
-   "trend": "端侧与消费级硬件成为大模型部署新战场",
-   "why": "64GB无GPU跑284B模型、手机端Agent保留人环，显示推理下沉与终端化趋势。",
+   "trend": "具身智能进入API与MaaS化阶段，跨本体真实任务成检验标准",
+   "why": "Physical Intelligence等开放具身模型API，中石油联手宇树设机器人公司并强调验收权自主。",
    "refs": [
-    "web-5e9d3fd0e59c",
-    "web-4302af2a92aa"
-   ]
-  },
-  {
-   "trend": "算力与数据主权驱动巨头区域化基建加码",
-   "why": "字节扩建巴西数据中心服务本地客户，反映拉美算力与合规布局成竞争前置条件。",
-   "refs": [
-    "web-ed70ce70a6b5"
-   ]
-  },
-  {
-   "trend": "生成式AI进入重资产行业生产流程替代",
-   "why": "富士电视台2027年全剧集用AI省70%特效工序，制药与油气机器人同步推进。",
-   "refs": [
-    "web-639628db8430",
-    "web-0548b6b007bd",
+    "web-66ffd2d274ec",
     "web-323c42171476"
+   ]
+  },
+  {
+   "trend": "评测方法转向真实任务与陌生仓库实战，旧作业被一键完成",
+   "why": "斯坦福CS146S改让学生进入陌生开源仓库落地改动，混元Hy4以真实投研任务检验长程Agent。",
+   "refs": [
+    "web-9c7e75a27e82",
+    "web-6b30b3347296",
+    "web-d3c4da76449b"
+   ]
+  },
+  {
+   "trend": "算力与能源约束上升为AI基建主变量，许可与自建供给成常态",
+   "why": "46项数据中心公投被否，Anthropic购1.7GW燃气发电，印尼峇淡要求数据中心自建海水淡化。",
+   "refs": [
+    "web-7309c25db091",
+    "web-a391aa29216e",
+    "web-ed70ce70a6b5"
    ]
   }
  ]
