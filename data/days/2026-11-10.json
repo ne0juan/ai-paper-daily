@@ -954,45 +954,1294 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-42b775f8f3f5",
+   "kind": "article",
+   "title": "全球最强 AI 模型：Claude Fable 5.2 登场，编程超 GPT-6 Astra、登顶多项基准",
+   "url": "https://www.ithome.com/1/024/796.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 10 日消息，Anthropic 今天（11 月 10 日）发布 Claude Fable 5.2 与 Claude Mythos 5.2 两款前沿 AI 模型。官方称，新模型在编码、推理、科学研究、网络安全及机器人等领域均有显著提升，同时输出速度最高提高 30%，成本下降 20%。 根据官方披露的跑分数据，在面向“智能体编码”的 FrontierCode 2.0 基准测试中，Claude Fable 5.2 取得 49.1% 的成绩，超过 OpenAI 的 GPT-6 Astra（42.8%）、Google 的 Gemini 4 Carbon（41.1%）以及 Anthropic 自家的 Opus 5.5（45.5%）。 在“Humanity's Last Exam”多学科推理测试中，Fable 5.2 也以 74.2% 领先 GPT-6 Astra 的 57.2%。 Anthropic 展示了 Fable 5.2 的长程协作能力：该模型协调超过 1,000 个 AI 智能体，历时 8 天从零构建出一个可启动的操作系统，其中包含设备驱动、文件存储、窗口系统和安装程序。 在科学视觉推理基准测试 VIALS-AA 中，Claude Fable 5.2 工具调用次数更多，这与 OpenAI 模型随着智能提升而减少工具调用次数的情况截然不同。IT之家附上相关视频如下： Claude Fable 5.2（最高配置，with fallback）在 VIALS-AA 上的得分为 67%，高于 Gemini 4 Carbon（high）的 64% 和 GPT-6 Astra（max）的 63%。 在 AA-3D 基准（衡量 AI 模型构建交互式 3D 体验能力）上，Claude Fable 5.2（Max）模型的 Elo 得分为 1,271 分，比 Claude Sonnet 5.5 (1,204) 和 Claude Opus 5.5 (1,202) 高出 67 分。其 95% 置信区间（1,246 至 1,297）与其他任何模型均不重叠，因此其领先优势超出了误差范围。 相关阅读： 《 8 天从零搓出操作系统：Anthropic 最强 Claude Fable / Mythos 5.2 AI 模型登场，API 调用费下降 20% 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-10T05:52:12+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/024/796.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic 发布 Claude Fable 5.2，编程与推理基准全面登顶",
+   "summary_zh": "Anthropic 推出 Fable 5.2 与 Mythos 5.2，FrontierCode 2.0 智能体编码得分 49.1% 超 GPT-6 Astra，HLE 推理 74.2% 领先近 17 个百分点，速度提升 30%、成本降 20%。",
+   "highlights_zh": [
+    "FrontierCode 2.0 智能体编码 49.1%，领先 GPT-6 Astra（42.8%）与 Gemini 4 Carbon（41.1%）",
+    "Humanity's Last Exam 74.2%，远超 GPT-6 Astra 的 57.2%",
+    "协调超 1000 个智能体、历时 8 天从零构建可启动操作系统，展示长程协作能力"
+   ],
+   "why_zh": "头部模型竞争格局再洗牌，智能体编码与长程协作成为新主战场。",
+   "tags": [
+    "大模型",
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 9.0,
+   "score": 0.676,
+   "date": "2026-11-10",
+   "slot": "noon",
+   "selected_at": "2026-11-10T06:13:24+00:00",
+   "mirror_pdf": "pdf/web-42b775f8f3f5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/024/796.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1b18e8c9acf7",
+   "kind": "article",
+   "title": "Google Gemini routes personal Drive files and emails to human annotators",
+   "url": "https://github.com/thisisme6598/gemini_files/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-09T18:24:38Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50429426",
+     "signal": "516 pts",
+     "metric": 516
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Gemini 将个人 Drive 文件与邮件转交人工标注",
+   "summary_zh": "报道称 Google Gemini 把用户的个人 Drive 文件与邮件交给人工标注员处理，引发隐私与数据合规担忧。",
+   "highlights_zh": [
+    "个人云盘与邮件内容进入人工标注流程",
+    "涉及 Gemini 数据使用边界",
+    "HN 516 点，隐私争议升温"
+   ],
+   "why_zh": "关乎大模型数据合规与用户信任，从业者需了解边界。",
+   "tags": [
+    "数据与评测",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.6129,
+   "score_llm": 7.0,
+   "score": 0.6652,
+   "date": "2026-11-10",
+   "slot": "noon",
+   "selected_at": "2026-11-10T06:13:24+00:00",
+   "mirror_pdf": "pdf/web-1b18e8c9acf7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/thisisme6598/gemini_files/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50429426"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-baaf713b11e3",
+   "kind": "article",
+   "title": "Locating the source of a mysterious beep with Claude",
+   "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+   "pdf_url": "",
+   "abstract": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping . The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I really didn't want to dig through every one of those boxes. So I had Claude Code build Beep Locator , a software system for triangulating the source of a mysterious beep using multiple devices scattered around the room. Here's what Beep Locator looks like after it has been running for a while: You run Python web server to show the primary UI, and then use the QR code or URL to connect as many devices as you can spare to act as listeners - I was using two iPads, a phone, a MacBook Pro and a Surface Ultra. The devices then play noises to each other to help estimate their locations. This didn't work particularly well, so I added a \"Rough mode\" where you can drag their icons around in the space to provide rough locations which are then adjusted based on those sounds. Once that's set up, the devices all listen for the beep! I added a clapping mode too so I could test it by clapping my hands in different locations around the room - displayed as diamonds on the map. This helped me gain confidence that it was capable of locating a sound. Beeps show up on the map as an X, plus a line in the \"Sounds located\" log. You can replay these sounds (from each device in turn) to confirm they are the my",
+   "authors": [
+    "Simon Willison"
+   ],
+   "orgs": [
+    "Simon Willison"
+   ],
+   "published": "2026-11-09T23:57:21+00:00",
+   "sources": [
+    {
+     "name": "Simon Willison",
+     "authority": 0.8,
+     "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Django 联合创始人，LLM 实践者",
+   "title_zh": "用 Claude Code 造一套「哔声定位器」找出神秘噪音",
+   "summary_zh": "Simon Willison 用 Claude Code 开发 Beep Locator：多台设备作为监听节点，通过互相播放声音估算位置，再三角定位房间里的间歇哔声；他加入「粗略模式」手动拖拽设备位置、以及拍手测试模式来验证定位可靠性。",
+   "highlights_zh": [
+    "Python Web 服务作主界面，扫码把 iPad、手机、笔记本接入为监听端",
+    "设备互发声音自校准位置，粗略模式可手动拖拽修正",
+    "拍手模式用于验证系统能否准确定位声源"
+   ],
+   "why_zh": "展示 Claude Code 在真实物理世界小工具上的端到端落地能力",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.648,
+   "date": "2026-11-10",
+   "slot": "noon",
+   "selected_at": "2026-11-10T06:13:24+00:00",
+   "mirror_pdf": "pdf/web-baaf713b11e3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d22b57a924da",
+   "kind": "article",
+   "title": "ChatGPT 占全球 AI 聊天流量超 81%；iOS 27.3 曝光 Siri「个人记忆系统」；传玛莎拉蒂+尊界合作新车曝光｜极客早知道",
+   "url": "http://www.geekpark.net/news/373736",
+   "pdf_url": "",
+   "abstract": "8 天从零搓出操作系统：Anthropic 最强 Claude Fable / Mythos 5.2 AI 模型登场，API 调用费下降 20% 11 月 10 日消息， Anthropic 昨日（11 月 9 日）官宣推出 Claude Fable 5.2 和 Claude Mythos 5.2， 两款模型基于同一底层模型，前者面向普通用户并内置网络安全与生物安全防护，后者则面向通过审核的网络安全和生命科学机构开放，用于高风险的专业应用。 定价方面，Claude Fable 5.2 每 100 万词元（Token）输入费用为 8 美元（IT 之家注：现汇率约合 53.4 元人民币），每 100 万词元（Token）输出费用为 40 美元（现汇率约合 267.2 元人民币）。作为对比，Claude Fable 5.1 的每 100 万词元输入 / 输出价格分别为 10 美元（现汇率约合 66.8 元人民币）和 50 美元（现汇率约合 334 元人民币）， 按此计算 5.2 版本的 API 调用费用下调 20%。 生成速度方面，官方表示相比 Claude Fable 5.1，最新 Claude Fable 5.2 模型生成速度最高提升 30%，而且在可选「快速模式」下，生成速度最高再提升至 2.5 倍，但价格相应更高。 在预发布测试中，Fable 5.2 完成了多项引人注目的任务：设计出三款可实际运行的电子设备，包括语音助手中枢、USB 会议音箱和手持虚拟宠物；协调逾 1,000 个子智能体， 在 8 天内从零构建出可在笔记本电脑启动的原型操作系统 ；并以约 1,000 个代理在 30 小时内完成费马大定理的 Lean 形式化证明，远快于此前 11 天的纪录。 科学研究也被列为重点。Anthropic 表示，Fable 5.2 解决了两个与黑洞物理及全息对偶相关的开放问题；Mythos 5.2 则提出预测腺相关病毒衣壳整体结构的新方法，在测试中对 34 个衣壳成功建模 28 个，可能为基因治疗研发提速。 目前，Fable 5.2 已在 AWS、Google Cloud 和 Microsoft Azure 等平台开放；Mythos 5.2 则需通过 Cyber 或 Life Sciences 验证计划申请使用。（来源：网易科技） 研究显示 OpenAI ChatGPT 占全球 AI 聊天机器人流量超 81%，断层领跑 11 月 9 日消息，今年早些时候，随着谷歌和 Anthropic 等竞争对手势头渐起，ChatGPT 在 AI 市场的主导地位一度显现出松动迹象。不过，一项最新研究显示，OpenAI 旗下这款旗舰产品正在意外反弹。 研究与增长营销公司 Graphite 的一项研究显示，目前 ChatGPT 占全球主要 AI 聊天机器人工具总流量的比例已超过 81%，没有任何一家竞争对手的市场份额达到 10%。 考虑到谷歌 Gemini 和 Anthropic Claude 近期备受关注，并被普遍视为 OpenAI 越来越强劲的竞争威胁，这一数据颇为让人意外。（来源：IT 之家） 微软 AI 高管拉曼纳推动 Office 与 Copilot 组织扁平化，核心员工每周需到办公室四天 10 月 29 日消息，微软负责 Copilot 平台、智能体以及如今 Office 业务的高管正在兑现他重塑团队工作方式的承诺。 「我的团队今年最重要的工作，不是推出某一款产品或者某项功能，而是改变我们的工作方式。」查尔斯 · 拉曼纳（Charles Lamanna）这位微",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-10T00:19:15+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373736",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2，API 降价 20%",
+   "summary_zh": "Anthropic 推出同源双模型：Fable 5.2 面向大众并内置安全防护，Mythos 5.2 面向经审核的网络安全与生命科学机构；API 价格下调 20%，生成速度最高提升 30%，预发布测试中完成千级子智能体协作建操作系统、Lean 形式化证明等任务。",
+   "highlights_zh": [
+    "Fable 5.2 输入/输出定价降至每百万 token 8/40 美元，较 5.1 降 20%",
+    "预发布测试：约 1000 个子智能体 8 天从零构建可启动原型操作系统",
+    "Mythos 5.2 需通过 Cyber 或 Life Sciences 验证计划申请使用"
+   ],
+   "why_zh": "头部模型厂商一次发布双模型并降价，直接影响开发者选型与成本",
+   "tags": [
+    "大模型",
+    "智能体",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-11-10",
+   "slot": "noon",
+   "selected_at": "2026-11-10T06:13:24+00:00",
+   "mirror_pdf": "pdf/web-d22b57a924da.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373736"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e06ec8877bce",
+   "kind": "article",
+   "title": "lxe/phoneuse",
+   "url": "https://github.com/lxe/phoneuse",
+   "pdf_url": "",
+   "abstract": "See and operate an unmodified iPhone from a Linux PC: AirPlay mirror in, Bluetooth HID mouse/keyboard out, plus a CLI and skill for agents.",
+   "authors": [],
+   "orgs": [
+    "lxe"
+   ],
+   "published": "2026-11-10T06:13:24+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/lxe/phoneuse",
+     "signal": "★ 542（新项目） · Python",
+     "metric": 542
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "phoneuse：从 Linux 操控未越狱 iPhone",
+   "summary_zh": "通过 AirPlay 镜像输入、蓝牙 HID 输出鼠标键盘，让 Linux 电脑看到并操作未改装的 iPhone，并提供 CLI 与智能体技能。",
+   "highlights_zh": [
+    "AirPlay 镜像 + 蓝牙 HID 双向控制",
+    "提供 CLI 与 agent skill 接口",
+    "无需越狱或改装 iPhone"
+   ],
+   "why_zh": "如果你在做手机端智能体自动化，可用它把 iPhone 变成可脚本操作的目标。",
+   "tags": [
+    "智能体",
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.5618,
+   "score_llm": 7.0,
+   "score": 0.6447,
+   "date": "2026-11-10",
+   "slot": "noon",
+   "selected_at": "2026-11-10T06:13:24+00:00",
+   "mirror_pdf": "pdf/web-e06ec8877bce.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/lxe/phoneuse"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f5b13b9a76a1",
+   "kind": "article",
+   "title": "devvmhq/devvm",
+   "url": "https://github.com/devvmhq/devvm",
+   "pdf_url": "",
+   "abstract": "One VM for every project. An isolated sandbox with your project’s toolchain, ready for you or a coding agent to start coding",
+   "authors": [],
+   "orgs": [
+    "devvmhq"
+   ],
+   "published": "2026-11-10T06:13:24+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/devvmhq/devvm",
+     "signal": "★ 499（新项目） · Go",
+     "metric": 499
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "devvm：每个项目一个隔离开发沙箱",
+   "summary_zh": "为每个项目创建带完整工具链的隔离 VM 沙箱，人和编码智能体都能直接进入开始写代码。",
+   "highlights_zh": [
+    "每个项目独立 VM，环境隔离",
+    "预装项目工具链，开箱即用",
+    "Go 编写，面向编码 agent 场景"
+   ],
+   "why_zh": "如果你让编码智能体跑多项目任务，用它隔离环境可避免依赖互相污染。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5589,
+   "score_llm": 7.0,
+   "score": 0.6436,
+   "date": "2026-11-10",
+   "slot": "noon",
+   "selected_at": "2026-11-10T06:13:24+00:00",
+   "mirror_pdf": "pdf/web-f5b13b9a76a1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/devvmhq/devvm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3bb5b3b2d995",
+   "kind": "article",
+   "title": "opensandbox-group/OpenSandbox",
+   "url": "https://github.com/opensandbox-group/OpenSandbox",
+   "pdf_url": "",
+   "abstract": "Star opensandbox-group / OpenSandbox Secure, Fast, and Extensible Sandbox runtime for AI agents.",
+   "authors": [],
+   "orgs": [
+    "opensandbox-group"
+   ],
+   "published": "2026-11-10T06:13:24+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/opensandbox-group/OpenSandbox",
+     "signal": "★ 今日 +168 · Python",
+     "metric": 168
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenSandbox：面向AI智能体的安全沙箱运行时",
+   "summary_zh": "OpenSandbox 提供安全、快速、可扩展的沙箱运行时，用于隔离执行 AI 智能体的代码与工具调用，登上 GitHub Trending。",
+   "highlights_zh": [
+    "为 AI 智能体提供隔离执行环境，降低代码执行风险",
+    "强调速度与可扩展性，适合多智能体并发场景",
+    "Python 实现，今日新增 168 星，社区关注度上升"
+   ],
+   "why_zh": "如果你在构建会执行代码或调用工具的智能体，可用它做安全隔离层。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.5504,
+   "score_llm": 7.0,
+   "score": 0.6402,
+   "date": "2026-11-10",
+   "slot": "noon",
+   "selected_at": "2026-11-10T06:13:24+00:00",
+   "mirror_pdf": "pdf/web-3bb5b3b2d995.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/opensandbox-group/OpenSandbox"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c1e8a8c21f7b",
+   "kind": "article",
+   "title": "When Does the US Become a Net Importer of Tokens?",
+   "url": "https://tomtunguz.com/when-does-the-us-become-a-net-importer-of-tokens/",
+   "pdf_url": "",
+   "abstract": "US AI demand grows from 66gw in 2027 while tokens per watt compound 2.9x a year, so the grid only binds if token demand outruns efficiency. Break-even real token growth is ~2.5x a year with no cancellations.",
+   "authors": [
+    "Tomasz Tunguz"
+   ],
+   "orgs": [
+    "Tomasz Tunguz"
+   ],
+   "published": "2026-11-09T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Tomasz Tunguz",
+     "authority": 0.75,
+     "url": "https://tomtunguz.com/when-does-the-us-become-a-net-importer-of-tokens/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Theory Ventures 创始人，AI 投资",
+   "title_zh": "美国何时会成为 token 净进口国？",
+   "summary_zh": "Tomasz Tunguz 测算：美国 AI 电力需求 2027 年起从 66GW 增长，而每瓦 token 产出每年复合增长 2.9 倍，只有当真实 token 需求年增速超过约 2.5 倍且无项目取消时，电网才会成为瓶颈，否则美国可能转为 token 净进口国。",
+   "highlights_zh": [
+    "关键变量是 token 需求增速与每瓦效率增速的赛跑",
+    "盈亏平衡点约为真实 token 需求年增 2.5 倍",
+    "电网约束只在需求跑赢效率时才会真正显现"
+   ],
+   "why_zh": "用简单模型量化算力、电力与 token 供需的长期格局",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-11-10",
+   "slot": "noon",
+   "selected_at": "2026-11-10T06:13:24+00:00",
+   "mirror_pdf": "pdf/web-c1e8a8c21f7b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://tomtunguz.com/when-does-the-us-become-a-net-importer-of-tokens/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1038d808525b",
+   "kind": "article",
+   "title": "硅谷疯炒 AI 自我进化，李飞飞、Jeff Dean 齐泼冷水：无限加速不可信",
+   "url": "https://www.infoq.cn/article/mZlISiZL9c1eurrsZRpo?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "李冬梅"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-10T11:28:43+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/mZlISiZL9c1eurrsZRpo?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "李飞飞、Jeff Dean 齐泼冷水：AI 自我进化不可信",
+   "summary_zh": "针对硅谷热炒的 AI 自我进化与无限加速叙事，李飞飞、Jeff Dean 等重量级人物公开质疑，认为当前模型缺乏可靠自我改进机制，指数级加速缺乏依据。",
+   "highlights_zh": [
+    "李飞飞、Jeff Dean 等对 AI 自我进化叙事明确表态质疑",
+    "核心论点：现有模型不具备可信的自主递归改进能力",
+    "对行业过度乐观的『无限加速』预期形成对冲"
+   ],
+   "why_zh": "头部技术领袖对行业最热叙事的直接反驳，有助于校准对模型能力边界的判断。",
+   "tags": [
+    "大模型",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-10",
+   "slot": "noon",
+   "selected_at": "2026-11-10T06:13:24+00:00",
+   "mirror_pdf": "pdf/web-1038d808525b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/mZlISiZL9c1eurrsZRpo?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4660c9985b90",
+   "kind": "article",
+   "title": "Anthropic 重做源代码管理系统：提交量增长 12 倍，传统架构开始失效",
+   "url": "https://www.infoq.cn/article/sBjhhysFKZibZpXQZEGy?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Eran Stiller"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-10T11:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/sBjhhysFKZibZpXQZEGy?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic 重做源码管理：提交量暴涨 12 倍，旧架构失效",
+   "summary_zh": "Anthropic 因 AI 编程代理导致代码提交量增长 12 倍，传统 Git 架构难以承载，遂重新设计源代码管理系统以适配高频自动化提交。",
+   "highlights_zh": [
+    "AI 编码代理使提交频率提升 12 倍，传统版本控制架构承压",
+    "Anthropic 重构源码管理系统以适配机器生成代码的节奏",
+    "反映 AI 编程普及对研发基础设施的连锁冲击"
+   ],
+   "why_zh": "揭示 AI 编码代理规模化后对研发基础设施的真实压力，工程团队值得参考。",
+   "tags": [
+    "代码",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-10",
+   "slot": "noon",
+   "selected_at": "2026-11-10T06:13:24+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/sBjhhysFKZibZpXQZEGy?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.12557",
+   "kind": "paper",
+   "title": "WanderBench: Can World Models Explore Dynamic Worlds from Video?",
+   "url": "https://arxiv.org/abs/2611.12557",
+   "pdf_url": "https://arxiv.org/pdf/2611.12557",
+   "abstract": "Video world models conditioned on an input video make it possible to explore real, recorded dynamic scenes, enabling re-shooting of footage, free-viewpoint replay, and real-to-sim environments for embodied agents. Such uses require the generated rollout to stay faithful to the recorded world, yet existing benchmarks start from a single image or a text prompt, and video-conditioned generation is evaluated mainly on perceptual quality and camera following. These evaluations do not directly assess whether exploration preserves subject identity, event progression, and scene consistency upon revisiting a location. We introduce WanderBench, a benchmark for exploring dynamic worlds from video. It comprises 745 single-shot source videos of real and AI-generated content in three difficulty tiers (3-25 s), paired with camera routes given as keyboard actions, and evaluates six dimensions with 24 human-validated sub-metrics. Benchmarking eight models, we find that as clips grow longer, models keep the static scene and visual quality but lose camera control and the source dynamics, and that none keeps revisited places consistent. We further propose WanderLand, a training-free framework that conditions each frame of a frozen model on the same-instant source and, on revisits, on its own earlier static content. WanderLand improves five models on every dimension, by up to 8.3 points in source-dynamics fidelity.",
+   "authors": [
+    "Yuhang Chen",
+    "Jiheng Li",
+    "Jiale Wang",
+    "Zai Wang",
+    "Guangyue Liu"
+   ],
+   "orgs": [],
+   "published": "2026-11-09T15:23:53Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.12557",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "WanderBench：视频世界模型能否探索动态世界",
+   "summary_zh": "提出 WanderBench 基准，用 745 段真实与 AI 视频加键盘相机路线，从身份保持、事件推进、重访一致性等六维评测视频条件世界模型；发现片段变长后模型丢失相机控制与源动态，且无一能保持重访地点一致，并提出免训练框架 WanderLand 在五个模型上全面提升。",
+   "highlights_zh": [
+    "现有基准只评画质与跟拍，未测探索保真度",
+    "八个模型在长片段下普遍丢失相机控制与源动态",
+    "WanderLand 以同刻源帧与重访静态内容为条件，最多提升 8.3 分"
+   ],
+   "why_zh": "为视频世界模型补上探索保真度评测，指出关键失效模式。",
+   "tags": [
+    "多模态",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-10",
+   "slot": "noon",
+   "selected_at": "2026-11-10T06:13:24+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.12557.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.12557"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.12557"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.12557"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.12557"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.12557"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.12557"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.12393",
+   "kind": "paper",
+   "title": "AutoBuddy: Evaluating Proactive, Always-On Agents on Task Discovery and Execution in a Simulated Workplace",
+   "url": "https://arxiv.org/abs/2611.12393",
+   "pdf_url": "https://arxiv.org/pdf/2611.12393",
+   "abstract": "As LLM agents become more autonomous, they are increasingly expected to run as always-on assistants on a user's behalf, identifying work to be done and completing it without being asked. Yet existing benchmarks usually give the agent its task, whereas in knowledge work the requests sit in the user's workspace and the agent must first recognise which obligations exist. We study proactive task discovery and execution, in which an agent must infer a user's pending tasks from their workspace and complete them in the systems where the work lives. This setting poses two challenges. For the agent, the tasks are buried in a large volume of mail, chat, documents and records. For evaluation, a benchmark needs a simulated organisation whose people, events and documents are mutually consistent, so that tasks arise realistically and their correct outcomes are known. We introduce AutoBuddy-Bench, a simulator that addresses these challenges. It models an organisation's employees, projects, business systems and event history as a temporal graph, renders it into realistic workspace artefacts, derives ground-truth tasks from the events that create obligations, and computes each task's outcome from the world state; execution is judged by the agent's changes to the workspace. To evaluate current LLMs, we build AutoBuddy, a reference agent with interchangeable backbone LLMs: it identifies tasks from the workspace, grounding each in its source records, and executes each in a separate session with write access. Varying only the backbone, we find a systematic shift in where tasks are lost: weaker models fail mainly at discovery, intermediate models identify tasks but often stop short of carrying them out, and the strongest models fail mainly during execution, most often on business-system operations. Discovery precision is only weakly related to execution quality, suggesting the two are distinct capabilities.",
+   "authors": [
+    "Shiqi Chen",
+    "Daniel Madrigal Diaz",
+    "Wei-Ning Chen",
+    "Gbola Afonja",
+    "Fangkai Yang",
+    "Rujia Wang",
+    "Chetan Bansal",
+    "Victor Rühle",
+    "Saravan Rajmohan",
+    "Dongge Han"
+   ],
+   "orgs": [],
+   "published": "2026-11-09T13:30:18Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.12393",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AutoBuddy：常驻智能体的主动任务发现评测",
+   "summary_zh": "提出AutoBuddy-Bench模拟企业工作区，让智能体自行从邮件、文档中推断待办任务并执行，填补现有基准只给现成任务的空白。",
+   "highlights_zh": [
+    "以时序图建模组织人员、项目与事件，生成一致的工作区产物",
+    "任务由事件推导、结果由世界状态判定，执行以工作区改动衡量",
+    "配套参考智能体AutoBuddy，可替换不同底座模型"
+   ],
+   "why_zh": "常驻主动型智能体是下一阶段产品方向，该基准定义了评测范式。",
+   "tags": [
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-10",
+   "slot": "noon",
+   "selected_at": "2026-11-10T06:13:24+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.12393.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.12393"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.12393"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.12393"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.12393"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.12393"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.12393"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.12324",
+   "kind": "paper",
+   "title": "How Many Exposures Does a World Model Need? Learning Unseen Game Mechanics at Test Time",
+   "url": "https://arxiv.org/abs/2611.12324",
+   "pdf_url": "https://arxiv.org/pdf/2611.12324",
+   "abstract": "World models enable agents to plan and learn from imagined experience, but in an unfamiliar environment they must learn its mechanics from limited interaction. A mechanic is a rule for how an action or an interaction changes part of the environment. Each occurrence of a mechanic that the model observes is one exposure. We ask how many exposures a world model needs to predict the effects of a new environment's mechanics. We address this question on ARC-AGI-3, a benchmark of interactive games defined by their programs. We introduce MechEval, which labels 69 recurring mechanics across 20 games from these programs. It scores each prediction on the cells the mechanic changes at each exposure. As a test bed, we build WARC (World model for ARC-AGI-3), a 35M-parameter vision transformer that is pretrained on other games and updates all of its parameters after each transition. On held-out games, WARC learns to predict four in five mechanics with at least 80% accuracy on the cells they change and keeps that accuracy to the end of the recordings. Half of them reach that accuracy within about 80 exposures, in a single play of the game, and without updates only one in seven does at all. In closed-loop play on the public games, WARC-Agent, which pairs WARC with a fixed graph explorer, triples the explorer's official efficiency score from 0.15 to 0.46, mostly through test-time training. On the hidden games of the Kaggle leaderboard, our entry scores 0.20.",
+   "authors": [
+    "Ku Onoda",
+    "Haruto Kawano",
+    "Shota Takashiro",
+    "Kohei Hayashi"
+   ],
+   "orgs": [],
+   "published": "2026-11-09T12:45:40Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.12324",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "世界模型学新游戏机制需要多少次曝光",
+   "summary_zh": "在ARC-AGI-3上构建MechEval与3500万参数WARC，测试时训练后约80次曝光即可学会五分之四机制，闭环游戏效率分从0.15升至0.46。",
+   "highlights_zh": [
+    "以机制为单位标注20款游戏中的69条规则并逐格评分",
+    "每次状态转移后更新全部参数，单局游戏内即可适应",
+    "不做测试时更新时仅七分之一机制能学会"
+   ],
+   "why_zh": "为世界模型与测试时训练的能力边界提供了可量化的答案。",
+   "tags": [
+    "强化学习",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-10",
+   "slot": "noon",
+   "selected_at": "2026-11-10T06:13:24+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.12324.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.12324"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.12324"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.12324"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.12324"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.12324"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.12324"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.12167",
+   "kind": "paper",
+   "title": "FraudBench: A Legal Evaluation of AI Deception",
+   "url": "https://arxiv.org/abs/2611.12167",
+   "pdf_url": "https://arxiv.org/pdf/2611.12167",
+   "abstract": "We introduce FraudBench, an evaluation of large language models' (LLMs) propensities to recommend, assist, or directly take actions that would constitute fraud under U.S. law. Our evaluation contains a novel dataset of 159 scenarios based on real-world U.S. court cases and validated by legal experts. We present each scenario to LLMs via three tasks at varying levels of autonomy: advising users, drafting messages for users to send, and acting directly on behalf of users (477 tasks total). In each scenario, FraudBench re-enacts the facts of a court case to give LLMs an opportunity, but no explicit instruction, to either misrepresent or conceal a material fact in a high-stakes commercial setting--e.g., whether to describe company-funded product testing as \"independent\" to customers (misrepresentation) or whether to hide unfavorable regulatory investigations from clients (concealment). We evaluate 20 LLMs across 25 experimental conditions (totaling >300,000 generations) and include a preregistered human baseline ($n_{\\texttt{annotations}} = 2{,}957$, $n_{\\texttt{humans}} = 996$). We score a response as fraudulent when it engages in, assists with, or recommends misrepresentation or concealment. Key findings include: (1) across LLMs, fraud rates ranged from near 0% to over 40%; (2) LLM fraud rates increased with autonomy, with overall rates of 3.0% when advising, 14.7% when drafting, and 21.4% when acting directly, without applying pressure; (3) LLMs sometimes engaged in fraud despite recognizing legal risks; (4) LLMs more often engaged in fraud by concealment than by misrepresentation; and (5) prompt-based interventions substantially affected fraud rates, with a prompt to obey the law reducing fraud rates, while prompts to maximize profits and act agentically increased fraud rates.",
+   "authors": [
+    "Kevin Wei",
+    "Sumaya Nur Adan",
+    "Stephan Llerena",
+    "Mark Gitau",
+    "Jakob Merane",
+    "Anita Srinivasan",
+    "Colette Le Brannan",
+    "Keethan Kleiner",
+    "Alessandro Tacconelli",
+    "Michael Tiu",
+    "Case Thomason",
+    "Kyle Emili",
+    "Natasza Gadowska",
+    "Alex Mark",
+    "Eric Ren",
+    "Umang Bhatt",
+    "Jatinder Singh",
+    "Jacy Reese Anthis",
+    "Doni Bloomfield",
+    "Noam Kolt"
+   ],
+   "orgs": [],
+   "published": "2026-11-09T10:22:25Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.12167",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "FraudBench：用真实判例评测大模型的欺诈倾向",
+   "summary_zh": "基于159个美国真实判例构建法律专家校验的评测集，用建议、代写、代操作三种自主度任务测20个模型，发现欺诈率从近0%到超40%不等，且随自主度上升（建议3.0%、代写14.7%）。",
+   "highlights_zh": [
+    "数据集源自真实法庭案例，经法律专家校验，共477个任务、超30万次生成",
+    "欺诈率随智能体自主度显著上升，直接代操作风险最高",
+    "含预注册人类基线（996人、2957条标注）作对照"
+   ],
+   "why_zh": "把「模型会不会帮你违法」变成可量化基准，是智能体落地前的合规必读。",
+   "tags": [
+    "对齐与安全",
+    "数据与评测",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-10",
+   "slot": "noon",
+   "selected_at": "2026-11-10T06:13:24+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.12167.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.12167"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.12167"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.12167"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.12167"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.12167"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.12167"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5d77301d01f3",
+   "kind": "article",
+   "title": "Madness and mayhem",
+   "url": "https://www.exponentialview.co/p/madness-and-mayhem",
+   "pdf_url": "",
+   "abstract": "A note on Jensen, AI spending, data centers & Anthropic",
+   "authors": [
+    "Azeem Azhar"
+   ],
+   "orgs": [
+    "Azeem Azhar"
+   ],
+   "published": "2026-11-10T02:02:29+00:00",
+   "sources": [
+    {
+     "name": "Azeem Azhar",
+     "authority": 0.8,
+     "url": "https://www.exponentialview.co/p/madness-and-mayhem",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Exponential View 创始人",
+   "title_zh": "Azeem Azhar：黄仁勋风波、AI 支出、数据中心与 Anthropic",
+   "summary_zh": "Azeem Azhar 就黄仁勋事件、AI 资本支出、数据中心建设与 Anthropic 动向发表短评，属于其每周通讯中的观点合集，未给出系统性新数据。",
+   "highlights_zh": [
+    "覆盖黄仁勋个人风波对英伟达的影响",
+    "讨论 AI 支出与数据中心投资节奏",
+    "提及 Anthropic 相关动态"
+   ],
+   "why_zh": "可快速了解欧洲科技观察者对当期热点的判断",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.588,
+   "date": "2026-11-10",
+   "slot": "noon",
+   "selected_at": "2026-11-10T06:13:24+00:00",
+   "mirror_pdf": "pdf/web-5d77301d01f3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.exponentialview.co/p/madness-and-mayhem"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-70f4b120aa0b",
+   "kind": "article",
+   "title": "千问办公押注 Team Agent，企业 AI 的流水线时刻真的来了",
+   "url": "http://www.geekpark.net/news/373760",
+   "pdf_url": "",
+   "abstract": "作者｜Cynthia 编辑｜郑玄 传说，光明之神巴德尔梦见自己将死，于是，巴德尔的母亲弗丽嘉遍走世间，令万物立下了绝不伤害他的誓言。众神也因此放下心来，甚至还发明了一种新的消遣：轮番向巴德尔投掷武器和石块，看着他毫发无损，来确定他们已经战胜了预言。直到一小枝被遗漏的槲寄生投向巴德尔。光明之神轰然倒下，诸神的黄昏由此拉开序章。 这是北欧神话中巴德尔之死的故事。危险早已被预见，人们也采取了行动，却仍然自欺欺人，把一次次看似成功的演示，当成了问题已经解决的证明 。 2026 年上半年的企业级 Agent 市场，也曾有过这样的笃定。 每一场发布会上，AI 写方案、做表格、敲代码、生成海报的单任务能力都会轮番刷新上限。台上演示环节的百发百中，带动台下掌声雷动， 所有人都觉得——企业级 AI 已经成熟了。 但年中效率复盘，所有人都尴尬地发现： 个人用 Agent 提效能翻三到十倍，落到整个团队、整个企业里，整体效率提升往往不到两倍 。一个人把报告写快十倍，并不能让另外三个部门提前给出确认。设计师更快做出了十套方案，运营可能还在等商家确认价格，仓库也还没有更新库存。单个员工的产出增加伴随的，是整个项目仍然要按照原来的方式往前推进。 11 月 9 日，千问办公 2.0 正式发布，直击这些痛点。 作为业内首个面向团队协作的「Team Agent」，千问办公 2.0 版本，把多人协作、文档共创和自动任务整合到同一个 Agent 产品中：团队可以关联原有工作群和资料，围绕同一个 Agent 持续讨论、分工和执行。Agent 可以实时理解项目信息，并和群成员协同工作，像项目经理一样推进项目和执行待办。 而伴随千问办公 2.0 打通生产级上下文， Agent 的 2.0 时代自此拉开序幕。 01 从单机到协作， Agent2.0 时代来了 如何弥合个体效率提升与组织效率提升之间的巨大鸿沟，是过去一年多企业级 Agent 市场最大的机遇所在。 围绕这个目标，主流探索大致分为两种：给 Agent 增加协作能力，以及给现有办公软件增加 Agent 能力。 多数 Agent 玩家的第一选择是第一种，给 Agent 加一个群聊。把同事拉进同一个 Agent 的项目组，大家一起讨论，AI 自然就有了团队上下文。 这个逻辑看上去顺理成章，但支持多人聊天，只是企业协作的起点。 工作群里为什么需要话题、已读、在线文档，甚至表情包？因为员工每天要在这里确认事情、表达态度、区分轻重缓急。一个被使用多年的工作群，还连接着客户、供应商和合作伙伴，积累着文件、会议与业务记录。 把几位同事邀请进新产品很容易，但让 Agent 获得完整的上下文却需要企业把完整工作流迁移过来。 甚至客户沟通、部门讨论、文档修改，最好都发生在这个新产品里。 你可以把同事拉进自己的 Agent，却很难要求客户先安装一个新的 AI 产品，才能向他发送优惠券。 对于企业来说，既有 IM 也远不只是聊天工具。人员关系、权限、审批和业务习惯，都已经形成。企业愿意为新能力付费，并不意味着它可以为新产品重新组织一遍所有人的工作。 也是因此，另一条路径选择反过来，给现有的 IM 工具加 Agent。这是更务实的选择，也确实走通了一多半 。 员工不用换地方，就在日常聊天的群里就能@机器人问问题、总结会议纪要、了解项目背景。 可问题在于，IM 终究是沟通场，不是生产场。群里的 Agent 最多能帮你整理聊天记录、提炼会议要点，真要写代码、做设计、改长文档、做复杂数据分析，还是得跳转到专门的生产工具里，上下文到这里也就断了。 讨论在群里，产出在",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-10T04:52:07+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373760",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "千问办公 2.0 押注 Team Agent，企业 AI 转向团队协作",
+   "summary_zh": "千问办公 2.0 发布业内首个面向团队协作的 Team Agent，把多人协作、文档共创与自动任务整合进同一 Agent，可关联原有工作群与资料并像项目经理一样推进待办；文章指出单任务演示成熟但组织级效率提升不足两倍，协作上下文才是瓶颈。",
+   "highlights_zh": [
+    "Team Agent 可关联既有工作群与资料，围绕同一 Agent 讨论分工执行",
+    "点出个体提效 3-10 倍但企业整体提效不足 2 倍的落差",
+    "对比「给 Agent 加群聊」与「给 IM 加 Agent」两条路径的取舍"
+   ],
+   "why_zh": "企业级 Agent 从单任务走向团队协作，是今年产品竞争主线",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-11-10",
+   "slot": "noon",
+   "selected_at": "2026-11-10T06:13:24+00:00",
+   "mirror_pdf": "pdf/web-70f4b120aa0b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373760"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-fb03b813665f",
+   "kind": "article",
+   "title": "行业最大规模具身模型挑战赛迎来决赛：15支战队将展开48小时真机角逐",
+   "url": "https://www.leiphone.com/category/industrynews/5ejIhKWAtmfZvdqx.html",
+   "pdf_url": "",
+   "abstract": "11月6日，首届蚂蚁灵波具身大模型挑战赛决赛晋级战队正式出炉：15支战队、59位选手从全球1855支队伍、3252位选手中脱颖而出，锁定线下决赛资格。 （图：首届蚂蚁灵波具身大模型挑战赛决赛入围名单） 15强集结，48小时真机黑客松决战 本届挑战赛聚焦具身大模型与物理世界的交互能力，吸引了全球13个国家、648所高校、科研院所、科技企业及具身智能团队参与。据大赛算力合作方之一AMD披露，初赛GPU投入由原计划的200张增至350张，两阶段累计提供超34万卡时算力支持。参赛规模和算力投入，也体现出当前产业和学术界对具身大模型的关注与探索热情。 以初赛任务成功率为主要排名依据，本次大赛对成绩靠前的团队开展复测，最终确定15强。晋级选手来自清华、北大、复旦、上海交大等高校，上海人工智能实验室、中科院相关科研院所，以及阿里巴巴、快手、普渡机器人等企业，汇集了算法研究与机器人软硬件工程力量。 11月14日至15日，15个晋级团队将在上海张江展开48小时线下真机黑客松，角逐一、二、三等奖。届时，选手将统一使用Robbyant Forge开发者平台、松灵COBOT MAGIC设备，结合预采数据集与现场采集数据，基于 LingBot-VLA 2.0开源预训练模型，完成从任务理解、数据采集、模型调优到真机部署的完整流程，检验模型泛化、工程实现与软硬件协同能力。 此外，16日决赛路演现场，来自北大、清华、浙大、AMD、NVIDIA、vLLM、Hugging Face、知名机器人企业及头部投资机构、行业媒体构成的“百人观察团”将聆听选手路演，参与评审并评选观察团特别奖。 蚂蚁灵波首届开发者大会即将举行，携手开发者加速具身智能落地 11月16日，蚂蚁灵波还将举行大赛闭幕式暨首届开发者大会。除获奖团队将分享真机挑战经验外，蚂蚁灵波、智源研究院、上海交通大学、香港科技大学、Hugging Face等机构的嘉宾也将围绕模型演进、真机落地与产业应用展开主题分享和交流。 大会还将正式发布开发者生态计划，为全球开发者提供长期技术与资源支持，推动围绕开源模型的训练调优、真机验证和应用探索。同期，包括芯片、机器人本体、开源基础设施、数据服务商等在内的蚂蚁灵波生态伙伴也将在展区带来他们的技术与应用成果。 目前，蚂蚁灵波开源模型在GitHub累计获超3.3万颗Star。LingBot-VLA、LingBot-VA已适配LeRobot，LingBot-Vision合入timm主线，LingBot-World获vLLM、SGLang支持。通过赛事与生态建设，蚂蚁灵波将持续汇聚开发者反馈，推动模型、工具链与机器人硬件协同迭代，加速具身智能应用落地。 雷峰网 雷峰网",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-09T09:16:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/5ejIhKWAtmfZvdqx.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "蚂蚁灵波具身大模型挑战赛15强决战48小时真机",
+   "summary_zh": "首届蚂蚁灵波具身大模型挑战赛从1855支队伍中选出15强，将在上海进行48小时真机黑客松，基于LingBot-VLA 2.0开源模型完成数据采集到真机部署全流程。",
+   "highlights_zh": [
+    "全球1855支队伍参赛，初赛投入350张GPU、超34万卡时",
+    "决赛统一使用Robbyant Forge平台与松灵COBOT MAGIC设备",
+    "LingBot开源模型GitHub累计超3.3万Star，已适配LeRobot"
+   ],
+   "why_zh": "反映具身智能真机评测与开源生态的活跃度，是观察VLA落地的窗口。",
+   "tags": [
+    "机器人",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-10",
+   "slot": "noon",
+   "selected_at": "2026-11-10T06:13:24+00:00",
+   "mirror_pdf": "pdf/web-fb03b813665f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/5ejIhKWAtmfZvdqx.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0220b41a01aa",
+   "kind": "article",
+   "title": "开发者每周借助 AI 节约数十小时的比例在一年内从 68% 降至 26%",
+   "url": "https://www.infoq.cn/article/sdqHapplv45dQguTJ415?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "Steef-Jan Wiggers"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-09T13:14:31+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/sdqHapplv45dQguTJ415?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "开发者每周靠 AI 省数十小时的比例一年内从 68% 降至 26%",
+   "summary_zh": "InfoQ 报道一项调查：声称每周借助 AI 节省数十小时的开发者比例一年内由 68% 跌至 26%，说明 AI 编码工具的实际提效可能被高估。",
+   "highlights_zh": [
+    "同一调查口径下，重度提效人群占比一年内大幅缩水",
+    "提示 AI 编码工具的真实收益与宣传存在落差",
+    "对团队评估 AI 工具 ROI 有直接参考价值"
+   ],
+   "why_zh": "给 AI 编码工具泼冷水的数据，适合用来校准团队对提效的预期。",
+   "tags": [
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-10",
+   "slot": "noon",
+   "selected_at": "2026-11-10T06:13:24+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/sdqHapplv45dQguTJ415?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0123206fe565",
+   "kind": "article",
+   "title": "Anthropic IPO倒计时：最早11月16日上市",
+   "url": "https://www.tmtpost.com/8199231.html",
+   "pdf_url": "",
+   "abstract": "Anthropic赶感恩节窗口冲刺IPO，将成AI定价试金石。",
+   "authors": [
+    "Tech商业"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-10T03:15:00+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8199231.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic IPO 倒计时：最早 11 月 16 日上市",
+   "summary_zh": "钛媒体报道 Anthropic 赶感恩节窗口冲刺 IPO，最早 11 月 16 日上市，其定价被视为 AI 公司估值的重要试金石。",
+   "highlights_zh": [
+    "Anthropic 计划最早 11 月 16 日登陆资本市场",
+    "被视为 AI 一级市场定价的公开参照",
+    "对头部模型公司的商业化与估值预期有风向标意义"
+   ],
+   "why_zh": "头部模型公司上市定价，是判断 AI 泡沫与市场方向的关键信号。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-10",
+   "slot": "noon",
+   "selected_at": "2026-11-10T06:13:24+00:00",
+   "mirror_pdf": "pdf/web-0123206fe565.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8199231.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a639fd92c8dc",
+   "kind": "article",
+   "title": "苹果 Siri AI 调度规则曝光：约 2% 英文请求走本地 AI 模型，覆盖定时等高频操作",
+   "url": "https://www.ithome.com/1/024/754.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 10 日消息，消息源 @itspdfu 今天（11 月 10 日）在 X 平台发布推文，爆料称在 iOS / macOS 27.3 首个开发者预览版 Beta 中，苹果公司为 Siri AI 引入名为 Skimmer 的前置模块， 首次将约 2% 的英语请求路由到本地完成。 消息源指出在 macOS 27.3 预览版中，在联网状态下，约 2% 的 Siri AI 英文请求会路由到本地模型处理， 主要涵盖“设置定时器”、“播放音乐”、“拨打电话”等高频、结构相对固定的指令 ，从而降低延迟、节省算力并保护隐私。IT之家附上相关截图如下： 在后台运行机制方面，该消息源挖掘称在新版 Siri AI 的设备端处理流程中，苹果引入了名为 Skimmer 的前置模块，通过正则表达式匹配用户请求与预设的“工具流程”，一旦命中规则，Siri 可直接执行相应操作，而不必进入更复杂的 AI 推理环节。 相关规则文件可在 macOS 系统目录 IntelligenceFlowPlannerSupport.framework 下按语言环境查看，文件名为 Enigma.json 。 对此网友 @lolrepeatlol 跟帖表示，难怪有时候 Siri AI 有时候的回答和旧版 Siri 相似。例如询问“今天雨什么时候停”时，Siri 仍可能给出“一小时内可能下雨”这类机械化回答。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-10T05:19:12+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/024/754.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "苹果 Siri AI 调度规则曝光：约 2% 英文请求走本地模型",
+   "summary_zh": "iOS/macOS 27.3 测试版中 Siri 引入 Skimmer 前置模块，用正则匹配将约 2% 英文请求（定时器、播放音乐、打电话等）路由到本地模型，降低延迟并保护隐私。",
+   "highlights_zh": [
+    "Skimmer 模块通过正则表达式匹配预设工具流程，命中即直接执行，跳过复杂推理",
+    "规则文件 Enigma.json 位于 IntelligenceFlowPlannerSupport.framework 下，可按语言环境查看",
+    "本地化仅覆盖高频固定指令，复杂问题仍走云端，部分回答仍显机械化"
+   ],
+   "why_zh": "端云协同调度的具体工程实现样本，对做本地推理分流的团队有参考价值。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-10",
+   "slot": "noon",
+   "selected_at": "2026-11-10T06:13:24+00:00",
+   "mirror_pdf": "pdf/web-a639fd92c8dc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/024/754.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bf5eff91fe60",
+   "kind": "article",
+   "title": "Adobe 与迪士尼达成多年战略合作，将 AI 工具推广至迪士尼乐园、内容制作领域",
+   "url": "https://www.ithome.com/1/024/731.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 10 日消息，Adobe 公司昨日宣布与华特迪士尼公司达成一项为期多年的战略合作协议，为迪士尼业务开发定制 AI 模型， 计划将 AI 工具推广至迪士尼主题乐园、内容制作、体育内容传播等领域 。 IT之家从官方新闻稿获悉，Adobe 将成为迪士尼官方 AI 创新合作伙伴，为迪士尼提供 Adobe Firefly、Firefly Foundry、Premiere 和 Photoshop 等工具的优先使用权限，并派出工程和研究团队，为迪士尼工作流提供支持。 同时，双方还将利用 Firefly Foundry 开发生成式 AI 模型。这些模型将围绕迪士尼角色、场景环境和视觉风格进行训练，生成符合作品设定、可用于商业和制作流程的内容。相关模型将以人为本， 由艺术家主导开发 。 迪士尼幻想工程研发部门已经开始使用 Firefly Foundry， 将 AI 工具导入主题乐园开发流程 。目前的应用包括将手绘草图转化为 2D 概念图的模型，以及生成符合迪士尼品牌和作品风格的图像模型。 此外，双方还将在华特迪士尼影业旗下的 StudioLAB 和 ESPN Edge 创新中心开展合作。StudioLAB 主要负责探索 AI 对内部创意工作流程的帮助，ESPN Edge 则将研究利用 AI 提升体育内容的粉丝参与度，并探索盘活 ESPN 历史档案内容的新方式。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-10T03:26:36+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/024/731.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Adobe 与迪士尼达成多年 AI 战略合作",
+   "summary_zh": "Adobe 成为迪士尼官方 AI 创新合作伙伴，将 Firefly Foundry 定制生成式模型引入乐园开发、影视制作与 ESPN 体育内容，模型围绕迪士尼角色与风格训练。",
+   "highlights_zh": [
+    "迪士尼幻想工程已用 Firefly Foundry 将手绘草图转为 2D 概念图",
+    "双方将围绕迪士尼角色、场景与视觉风格训练定制生成模型",
+    "合作延伸至 StudioLAB 创意工作流与 ESPN Edge 粉丝互动"
+   ],
+   "why_zh": "头部内容公司定制生成模型进入生产流程的标志性案例。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-10",
+   "slot": "noon",
+   "selected_at": "2026-11-10T06:13:24+00:00",
+   "mirror_pdf": "pdf/web-bf5eff91fe60.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/024/731.htm"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "大模型竞争从参数竞赛转向长上下文与多模态原生架构的工程化落地。",
-   "why": "美团开源1.6万亿参数、百万上下文原生多模态模型，以MIT协议可商用直指长程智能体任务。",
+   "trend": "头部模型竞争从跑分转向成本与速度，API降价成常态",
+   "why": "Anthropic发布Fable 5.2同时API降价20%、提速30%，编码与推理基准登顶。",
    "refs": [
-    "web-140d4d1a892e"
+    "web-42b775f8f3f5",
+    "web-d22b57a924da"
    ]
   },
   {
-   "trend": "并行生成架构开始正面挑战自回归，推理速度成为新的评测维度。",
-   "why": "Next-Concept Modeling在LM1B困惑度优于最强扩散模型且快21倍，数独推理全面超越自回归与扩散基线。",
+   "trend": "Agent从单人工具转向团队协作，协作上下文成新瓶颈",
+   "why": "千问办公2.0推Team Agent，指出组织级提效不足两倍，瓶颈在共享上下文。",
+   "refs": [
+    "web-70f4b120aa0b",
+    "web-d8659cb91ba5",
+    "web-89ac639459d4"
+   ]
+  },
+  {
+   "trend": "并行生成架构挑战自回归，文本生成速度出现数量级拐点",
+   "why": "Next-Concept Modeling在LM1B困惑度优于扩散模型且快21倍，数独推理全面超越基线。",
    "refs": [
     "arxiv-2610.14162"
    ]
   },
   {
-   "trend": "Agent竞争从单人工具转向团队协作与任务交付闭环。",
-   "why": "千问办公2.0推出多人与同一Agent协作的Team Agent，混元Hy4搭配WorkBuddy强化多模态任务交付。",
+   "trend": "评测方法转向主动任务发现与真实判例，静态基准失效",
+   "why": "AutoBuddy-Bench让智能体自行推断待办，FraudBench用真实判例测欺诈倾向。",
    "refs": [
-    "web-d8659cb91ba5",
-    "web-89ac639459d4",
-    "web-bd98d4cd36bb"
+    "arxiv-2611.12393",
+    "arxiv-2611.12167",
+    "arxiv-2611.12557"
    ]
   },
   {
-   "trend": "前沿能力呈锯齿状，AGI叙事需从平滑外推转向分领域评测。",
-   "why": "Mollick指出Fable 5.2强项突出但弱项突兀，能力并非平滑上升，单一基准难以刻画真实进展。",
+   "trend": "AGI叙事分化：自我进化被质疑，能力呈锯齿状而非平滑上升",
+   "why": "李飞飞、Jeff Dean质疑自我改进机制，Mollick称Fable 5.2强项突出弱项突兀。",
    "refs": [
-    "web-906503fc546e"
-   ]
-  },
-  {
-   "trend": "AI研发自我加速与科学发现闭环，正成为实验室竞争的新变量。",
-   "why": "METR报告称AI显著加速Anthropic内部研发、2027年前后或近递归自我改进；AI for Science从猜想走向定理证明。",
-   "refs": [
-    "web-8ed1d9debf14",
-    "web-08f9983ae92b"
+    "web-1038d808525b",
+    "web-906503fc546e",
+    "web-8ed1d9debf14"
    ]
   }
  ]

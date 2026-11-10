@@ -1,11 +1,12 @@
 {
- "updated": "2026-11-09T21:24:12+00:00",
+ "updated": "2026-11-10T06:13:24+00:00",
  "days": [
   {
    "date": "2026-11-10",
-   "count": 17,
+   "count": 38,
    "slots": {
-    "morning": 17
+    "morning": 17,
+    "noon": 21
    }
   },
   {
@@ -420,34 +421,35 @@
    }
   }
  ],
- "total": 2551,
+ "total": 2572,
  "last_run": {
-  "at": "2026-11-09T21:24:12+00:00",
-  "slot": "morning",
-  "candidates": 123,
-  "new": 64,
-  "stale": 11,
-  "judged": 64,
-  "selected": 17,
-  "mirrored": 13,
+  "at": "2026-11-10T06:13:24+00:00",
+  "slot": "noon",
+  "candidates": 194,
+  "new": 136,
+  "stale": 10,
+  "judged": 97,
+  "selected": 21,
+  "mirrored": 19,
   "by_category": {
-   "观点": 4,
-   "技术": 2,
-   "资讯": 10,
-   "项目": 1
+   "资讯": 11,
+   "观点": 3,
+   "项目": 3,
+   "技术": 4
   },
   "by_source": {
-   "HF Daily Papers": 5,
-   "Hacker News": 9,
+   "HF Daily Papers": 8,
+   "Hacker News": 4,
    "量子位": 10,
    "极客公园": 6,
-   "IT之家": 9,
-   "爱范儿": 6,
-   "雷峰网": 17,
-   "钛媒体": 3,
+   "IT之家": 14,
+   "爱范儿": 8,
+   "少数派": 1,
+   "雷峰网": 18,
+   "钛媒体": 4,
    "InfoQ 中文": 15,
    "Ethan Mollick": 1,
-   "Simon Willison": 1,
+   "Simon Willison": 2,
    "Latent Space": 3,
    "Jack Clark": 1,
    "Stratechery": 1,
@@ -457,10 +459,11 @@
    "科学空间": 1,
    "Hugging Face Blog": 2,
    "Google Research": 1,
-   "OpenAI": 2,
+   "OpenAI": 4,
    "NVIDIA": 6,
-   "GitHub Trending": 7,
-   "GitHub 新项目": 13
+   "arXiv 新论文": 60,
+   "GitHub Trending": 9,
+   "GitHub 新项目": 11
   },
   "llm": true,
   "translated": 0
