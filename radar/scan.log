@@ -1,12 +1,11 @@
-2026-11-09 21:24:12,836 INFO source hf_daily           -> 5 items
-2026-11-09 21:24:13,280 INFO source hackernews         -> 9 items
-2026-11-09 21:24:35,080 INFO source rss                -> 89 items
-2026-11-09 21:24:36,457 INFO source html_lists         -> 0 items
-2026-11-09 21:24:36,457 INFO source x                  -> 0 items
-2026-11-09 21:24:36,959 INFO source arxiv_search       -> 0 items
-2026-11-09 21:24:47,004 INFO source github             -> 20 items
-2026-11-09 21:24:47,225 INFO candidates: 123 (stale dropped 11, new 64)
-2026-11-09 21:25:52,616 INFO llm judged 64/64 (calls=8)
-2026-11-09 21:26:00,597 WARNING snapshot https://jack-clark.net/2026/11/09/import-ai-480-self-sustaining-space-economies-ai-for-science-progress-and-meta-builds-perfect-hands-for-a-superintelligence/: blocked or empty page
-2026-11-09 21:26:07,225 WARNING snapshot https://thezvi.wordpress.com/2026/11/09/ai-rd-is-accelerating-towards-potential-rsi-in-2027/: blocked or empty page
-2026-11-09 21:28:17,029 INFO run done: {"at": "2026-11-09T21:24:12+00:00", "slot": "morning", "candidates": 123, "new": 64, "stale": 11, "judged": 64, "selected": 17, "mirrored": 13, "by_category": {"观点": 4, "技术": 2, "资讯": 10, "项目": 1}, "by_source": {"HF Daily Papers": 5, "Hacker News": 9, "量子位": 10, "极客公园": 6, "IT之家": 9, "爱范儿": 6, "雷峰网": 17, "钛媒体": 3, "InfoQ 中文": 15, "Ethan Mollick": 1, "Simon Willison": 1, "Latent Space": 3, "Jack Clark": 1, "Stratechery": 1, "Azeem Azhar": 2, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "科学空间": 1, "Hugging Face Blog": 2, "Google Research": 1, "OpenAI": 2, "NVIDIA": 6, "GitHub Trending": 7, "GitHub 新项目": 13}, "llm": true, "translated": 0}
+2026-11-10 06:13:25,326 INFO source hf_daily           -> 8 items
+2026-11-10 06:13:25,580 INFO source hackernews         -> 5 items
+2026-11-10 06:13:51,842 INFO source rss                -> 102 items
+2026-11-10 06:13:53,667 INFO source html_lists         -> 0 items
+2026-11-10 06:13:53,667 INFO source x                  -> 0 items
+2026-11-10 06:14:25,812 INFO source arxiv_search       -> 60 items
+2026-11-10 06:14:35,303 INFO source github             -> 20 items
+2026-11-10 06:14:48,706 WARNING arxiv enrich failed: 429 for https://export.arxiv.org/api/query
+2026-11-10 06:14:48,708 INFO candidates: 194 (stale dropped 10, new 136)
+2026-11-10 06:16:52,948 INFO llm judged 97/100 (calls=13)
+2026-11-10 06:19:29,669 INFO run done: {"at": "2026-11-10T06:13:24+00:00", "slot": "noon", "candidates": 194, "new": 136, "stale": 10, "judged": 97, "selected": 21, "mirrored": 19, "by_category": {"资讯": 11, "观点": 3, "项目": 3, "技术": 4}, "by_source": {"HF Daily Papers": 8, "Hacker News": 4, "量子位": 10, "极客公园": 6, "IT之家": 14, "爱范儿": 8, "少数派": 1, "雷峰网": 18, "钛媒体": 4, "InfoQ 中文": 15, "Ethan Mollick": 1, "Simon Willison": 2, "Latent Space": 3, "Jack Clark": 1, "Stratechery": 1, "Azeem Azhar": 2, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "科学空间": 1, "Hugging Face Blog": 2, "Google Research": 1, "OpenAI": 4, "NVIDIA": 6, "arXiv 新论文": 60, "GitHub Trending": 9, "GitHub 新项目": 11}, "llm": true, "translated": 0}
