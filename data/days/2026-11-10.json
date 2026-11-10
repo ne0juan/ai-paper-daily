@@ -2199,36 +2199,1356 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "arxiv-2611.12762",
+   "kind": "paper",
+   "title": "Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery",
+   "url": "https://arxiv.org/abs/2611.12762",
+   "pdf_url": "https://arxiv.org/pdf/2611.12762",
+   "abstract": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it. Through explicit monitoring and control, the system revises its understanding of evidence, assumptions, and unresolved questions, then uses these assessments to adapt research targets and select reusable reasoning methods. On Taiyi-Bench, an AI co-scientist ideation benchmark comprising 265 tasks from 50 papers across ten disciplines, Sage-Taiyi ranks first on all eight metrics of historical rediscovery and open-ended ideation, achieving an Overall score of 54.0 compared with 47.9 for the strongest baseline, AI Scientist-v2. It also performs well on two external scientific ideation benchmarks. Five expert-guided collaborations further connect its proposals to experimental and computational validation across chemistry, materials science, and engineering. In chemistry, reaction-condition optimization raises the yield of cobalt-catalyzed carbonylation from trace amounts to 84% and photocatalytic allylic amination from 13% to 69%. These results support metacognitive regulation as an approach to scientific ideation and its progression toward practical validation.",
+   "authors": [
+    "Weida Wang",
+    "Benteng Chen",
+    "Yigeng Jiang",
+    "Shuchen Pu",
+    "Weiping Shen",
+    "Zichao Liu",
+    "Yulin Su",
+    "Zitong Wang",
+    "Siyu Zhou",
+    "Zifu Wang",
+    "Yizhi Li",
+    "Xin Zong",
+    "Yuning Yang",
+    "Jixiang Bi",
+    "Yuan Wang",
+    "Chuyi Peng",
+    "Shiyao Geng",
+    "Qi Zhang",
+    "Kuan Lu",
+    "Mengzhu Li",
+    "Weiwang Xu",
+    "Peishan Xiang",
+    "Chengjun Liu",
+    "Chengrui Wei",
+    "Fangchen Yu",
+    "Shengji Tang",
+    "Yichen Jiang",
+    "Jingqi Ye",
+    "Cheng Yang",
+    "Tao Hu",
+    "Jianbiao Mei",
+    "Qinglong Cao",
+    "Kun Li",
+    "Yixin Chen",
+    "Shengyuan Xu",
+    "Juncheng Xiao",
+    "Yiheng Wang",
+    "Ruizhe Chen",
+    "Shiyang Feng",
+    "Runmin Ma",
+    "Xiangchao Yan",
+    "Zongsheng Cao",
+    "Haomeng Hu",
+    "Yu Ke",
+    "Taihui Wu",
+    "Meng Dai",
+    "Xu Guo",
+    "Haoyang Peng",
+    "Yinglong Ni",
+    "Pingsen Shi",
+    "Xiaosong Wang",
+    "Shuyue Hu",
+    "Haijun Li",
+    "Sherry Dongqi Bao",
+    "Yang Yang",
+    "Chao Yang",
+    "Jie Hou",
+    "Tianfan Fu",
+    "Yi Gong",
+    "Jin Zeng",
+    "Mao Su",
+    "Hongxia Hao",
+    "Fanyang Mo",
+    "Fenghua Ling",
+    "Tianshu Yu",
+    "Yunqi Cai",
+    "Baihong Chi",
+    "Jingwei Wang",
+    "Lei Wang",
+    "Chuncheng Bu",
+    "Shide Lv",
+    "Guangyu Wang",
+    "Yuqiang Li",
+    "Chunfeng Song",
+    "Lei Bai",
+    "Hui Wang",
+    "Xujun Fu",
+    "Li Cao",
+    "Lei Chen",
+    "Dahua Lin",
+    "Xing Xie",
+    "Bowen Zhou",
+    "Wenlong Zhang",
+    "Pinlong Cai",
+    "Peng Ye",
+    "Aiwen Lei",
+    "Jie Li",
+    "Shengchun Wang",
+    "Bo Zhang",
+    "Shufei Zhang"
+   ],
+   "orgs": [
+    "Shanghai AI Laboratory"
+   ],
+   "published": "2026-11-09T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.12762",
+     "signal": "▲ 41",
+     "metric": 41
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Sage-Taiyi：元认知架构驱动科学发现",
+   "summary_zh": "上海AI实验室提出元认知架构Sage-Taiyi，通过显式监控与调控引导科研选题与推理方法选择，在自建Taiyi-Bench八项指标全第一，并在化学实验中把钴催化羰基化产率从痕量提升至84%。",
+   "highlights_zh": [
+    "以元认知监控/控制机制动态修正对证据、假设与未解问题的理解",
+    "Taiyi-Bench覆盖10学科50篇论文265任务，综合分54.0超AI Scientist-v2的47.9",
+    "五项专家协作在化学、材料、工程中完成实验验证，产率提升显著"
+   ],
+   "why_zh": "AI科学家方向少见的端到端实验闭环，元认知调控思路值得关注",
+   "tags": [
+    "科学AI",
+    "智能体",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.6835,
+   "score_llm": 8.0,
+   "score": 0.7534,
+   "date": "2026-11-10",
+   "slot": "evening",
+   "selected_at": "2026-11-10T13:26:19+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.12762.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.12762"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.12762"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.12762"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.12762"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.12762"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.12762"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/Alpha-Innovator/Sage-Taiyi"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f8c1a7370c13",
+   "kind": "article",
+   "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+   "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+   "pdf_url": "",
+   "abstract": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+   "authors": [],
+   "orgs": [
+    "Google DeepMind"
+   ],
+   "published": "2026-11-10T12:02:28+00:00",
+   "sources": [
+    {
+     "name": "Google DeepMind",
+     "authority": 0.85,
+     "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "DeepMind 推出 AlphaProof Code，深度验证复杂软件",
+   "summary_zh": "Google DeepMind 发布 AlphaProof Code，其智能体用 Lean 写出三百万行证明，验证 Signal 核心加密实现。",
+   "highlights_zh": [
+    "智能体自动生成 300 万行 Lean 形式化证明",
+    "首次深度验证 Signal 核心加密代码",
+    "形式化验证从数学扩展到真实软件工程"
+   ],
+   "why_zh": "AI 形式化验证进入真实生产级软件，安全关键领域格局或变。",
+   "tags": [
+    "智能体",
+    "代码",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.52,
+   "score_llm": 9.0,
+   "score": 0.748,
+   "date": "2026-11-10",
+   "slot": "evening",
+   "selected_at": "2026-11-10T13:26:19+00:00",
+   "mirror_pdf": "pdf/web-f8c1a7370c13.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.12806",
+   "kind": "paper",
+   "title": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
+   "url": "https://arxiv.org/abs/2611.12806",
+   "pdf_url": "https://arxiv.org/pdf/2611.12806",
+   "abstract": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understanding from sensor-specific physics, so that embodied models can effectively leverage heterogeneous tactile data. To this end, we develop LingBot-Touch, a tactile foundation model characterized by the following properties. (i) Our model yields a unified representation across different tactile sensors (i.e., piezoresistive, magnetic, and visuotactile sensors), and is easily extensible to new sensor types. (ii) The resulting tactile tokens are plug-and-play: they can be seamlessly integrated into policy models across paradigms, from diffusion policy to vision-language-action (VLA) models such as π_{0.5} and LingBot-VLA, consistently enhancing manipulation dexterity. (iii) Extensive experiments, spanning simulation and real-robot deployments across multiple hardware platforms, demonstrate that our tactile representation substantially benefits complex manipulation tasks while maintaining strong computational efficiency. We believe the findings in this work demonstrate the potential of leveraging cross-sensor data to scale tactile learning, and offer encouraging insights for the design of future hardware and embodied models.",
+   "authors": [
+    "Bing Han",
+    "Yichuan Peng",
+    "Haoyu Dong",
+    "Yuanmeng Hu",
+    "Yongyi Jia",
+    "Fangjing Wang",
+    "Kecheng Zheng",
+    "Yiming Zhang",
+    "Yanhong Zeng",
+    "Xiaoqing Zhang",
+    "Chen Song",
+    "Rundong Zou",
+    "Anqi Dong",
+    "Yuan Guan",
+    "Ka Leong Cheng",
+    "Xing Zhu",
+    "Yujun Shen",
+    "Nan Xue",
+    "Wei Ning"
+   ],
+   "orgs": [
+    "Robbyant"
+   ],
+   "published": "2026-11-09T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.12806",
+     "signal": "▲ 90",
+     "metric": 90
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "LingBot-Touch：异构触觉统一表征",
+   "summary_zh": "蚂蚁灵波推出触觉基础模型LingBot-Touch，将压阻、磁性、视触觉等异构传感器统一为可插拔触觉token，接入扩散策略与VLA模型后在仿真与真机多平台均提升灵巧操作能力。",
+   "highlights_zh": [
+    "跨传感器统一表征，且易扩展到新传感器类型",
+    "触觉token即插即用，兼容扩散策略与π0.5、LingBot-VLA",
+    "仿真与真机多硬件验证，兼顾复杂任务与计算效率"
+   ],
+   "why_zh": "触觉数据碎片化是具身智能落地瓶颈，统一表征是务实解法",
+   "tags": [
+    "机器人",
+    "多模态",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.6497,
+   "score_llm": 8.0,
+   "score": 0.7399,
+   "date": "2026-11-10",
+   "slot": "evening",
+   "selected_at": "2026-11-10T13:26:19+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.12806.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.12806"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.12806"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.12806"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.12806"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.12806"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.12806"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/Robbyant/lingbot-touch"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b15ad0907921",
+   "kind": "article",
+   "title": "近 700 亿美元 IPO 定价突然撤回！Anthropic 最快今天路演，下周冲刺上市",
+   "url": "https://www.infoq.cn/article/8tquwes1yGbmTeyOjOId?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "林绮蓓"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-10T18:54:18+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/8tquwes1yGbmTeyOjOId?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic 撤回近700亿美元IPO定价，最快今日启动路演",
+   "summary_zh": "Anthropic 突然撤回近700亿美元规模的IPO定价，最快当天启动路演、下周冲刺上市，节奏反复引发市场对其估值与上市窗口的重新评估。",
+   "highlights_zh": [
+    "IPO规模近700亿美元，属AI公司史上最大级别",
+    "定价撤回后迅速重启路演，节奏罕见",
+    "结果将影响一级市场对头部大模型公司的估值锚"
+   ],
+   "why_zh": "头部大模型公司资本化进程的关键节点，直接影响AI估值与融资环境。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 9.0,
+   "score": 0.692,
+   "date": "2026-11-10",
+   "slot": "evening",
+   "selected_at": "2026-11-10T13:26:19+00:00",
+   "mirror_pdf": "pdf/web-b15ad0907921.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/8tquwes1yGbmTeyOjOId?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-119424adf6f1",
+   "kind": "article",
+   "title": "Anthropic IPO 每股定价区间 70-78 美元，剑指 1.4 万亿美元完全摊薄估值",
+   "url": "https://www.ithome.com/1/025/139.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 10 日消息，据美国 CNBC 今天（10 日）晚间报道，Anthropic 最新更新的上市申请文件显示，公司计划通过首次公开募股（IPO）发行 8.25 亿股股票，发行价定为每股 70 至 78 美元 （现汇率约合 468.1 至 521.6 元人民币） 。 如果按 78 美元 （现汇率约合 521.6 元人民币） 的发行价上限计算，Anthropic 最多可通过 IPO 筹集 643.5 亿美元 （现汇率约合 4,302.82 亿元人民币） ，完全摊薄后的估值 最高可达 1.405 万亿美元 （IT之家注：现汇率约合 9.39 万亿元人民币） 。相比之下，公司今年 5 月融资时公布的估值为 9,650 亿美元 （现汇率约合 6.45 万亿元人民币） 。 Anthropic 还宣布与 AMD、博通、谷歌、美光、微软、英伟达和台积电 达成协议，七家公司将通过私募配售认购总价值 260 亿美元 （现汇率约合 1,738.51 亿元人民币） 的 Anthropic N 类普通股，认购价格与 IPO 发行价一致。 这部分股份不纳入此次 IPO 的注册范围，也不受承销商禁售协议限制。 Anthropic 高管准备向投资者推介股票之际，美国政治环境出现动荡。上周的美国中期选举中，民主党赢得国会两院控制权，多个 可能拖慢 AI 基础设施建设的州级公投提案 获得通过。 股市对 AI 投资热潮的态度也越来越谨慎，投资者担心利率上涨会推高借贷成本，使需要大量举债购买昂贵基础设施的企业难以承受。 CNBC 上周报道称，Anthropic 部分投资者预期公司的上市估值 可能低于此前的目标 。Anthropic 直到不久前还希望获得 2 万亿美元 （现汇率约合 13.37 万亿元人民币） 估值，然而，有股东向 CNBC 透露，现在能否达到 1.5 万亿美元 （现汇率约合 10.03 万亿元人民币） 都存在疑问。一名投资者认为，这个目标也有些勉强。 如果 Anthropic 按计划于本月登陆纳斯达克，股票代码为“ANT”，届时距离 SpaceX 上市仅约五个月。SpaceX 此前通过创纪录的 IPO 募集 857 亿美元 （现汇率约合 5,730.4 亿元人民币） ，市值现略低于 2 万亿美元 （现汇率约合 13.37 万亿元人民币） ，与上市时的估值基本相当。 财务数据显示，Anthropic 今年前九个月营收 332.4 亿美元 （现汇率约合 2,222.62 亿元人民币） ， 同比增长约 1200% ；净亏损则达到 1,040 亿美元 （现汇率约合 6,954.05 亿元人民币） ，主要来自可转换票据及衍生负债的公允价值变动。招股文件显示，公司 2025 年同期亏损 251 亿美元 （现汇率约合 1,678.33 亿元人民币） 。 Anthropic 联合创始人在招股说明书中写道：“我们希望 帮助人类安全度过这场技术变革 ，开拓新的探索领域，迎来奇迹时代。无论机构还是个人，只要成为我们的股东，就能参与这一事业。我们希望你们与我们怀有同样的抱负，共同将这个目标变为现实。”",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-10T12:25:22+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/025/139.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic IPO 定价 70-78 美元，估值剑指 1.4 万亿美元",
+   "summary_zh": "Anthropic 更新招股书，拟发行 8.25 亿股、定价 70-78 美元，最高募资 643.5 亿美元、完全摊薄估值 1.4 万亿美元；同时获英伟达、谷歌、微软等七家基石投资者 260 亿美元私募认购。",
+   "highlights_zh": [
+    "发行价区间 70-78 美元，最高估值 1.4 万亿美元，较 5 月 9650 亿美元融资估值大幅抬升",
+    "英伟达、AMD、博通、谷歌、美光、微软、台积电七家认购 260 亿美元 N 类普通股",
+    "前九月营收 332.4 亿美元同比增约 1200%，净亏损 1040 亿美元主要来自可转换票据公允价值变动"
+   ],
+   "why_zh": "头部大模型公司上市定价是全球 AI 资产估值锚点，值得关注市场对 AI 泡沫的态度。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 9.0,
+   "score": 0.676,
+   "date": "2026-11-10",
+   "slot": "evening",
+   "selected_at": "2026-11-10T13:26:19+00:00",
+   "mirror_pdf": "pdf/web-119424adf6f1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/025/139.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ffe8a09e969f",
+   "kind": "article",
+   "title": "Claude Fable 5.2 and Mythos 5.2",
+   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-09T18:56:29Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50429906",
+     "signal": "979 pts",
+     "metric": 979
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Claude Fable 5.2 与 Mythos 5.2 发布",
+   "summary_zh": "Anthropic发布Claude Fable 5.2与Mythos 5.2，HN近千点热度显示开发者高度关注，但候选摘要为空，具体能力与定价变化需查阅原文。",
+   "highlights_zh": [
+    "头部模型厂商版本迭代，HN 979点高热",
+    "Fable与Mythos双线命名，或对应不同产品定位",
+    "摘要缺失，需核实基准成绩与API变更"
+   ],
+   "why_zh": "头部模型更新直接影响选型与成本，建议核对官方发布细节",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.62,
+   "score_llm": 7.0,
+   "score": 0.668,
+   "date": "2026-11-10",
+   "slot": "evening",
+   "selected_at": "2026-11-10T13:26:19+00:00",
+   "mirror_pdf": "pdf/web-ffe8a09e969f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50429906"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-255b56db4a4a",
+   "kind": "article",
+   "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+   "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-09T20:04:55Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50431144",
+     "signal": "355 pts",
+     "metric": 355
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Claude Fable 5.2 在Artificial Analysis得分65创新高",
+   "summary_zh": "第三方评测机构Artificial Analysis显示Claude Fable 5.2综合得分65，为目前最高，HN 355点讨论，但候选未提供分项数据与对比基线。",
+   "highlights_zh": [
+    "AA综合分65，称当前最高",
+    "与同日发布的Fable/Mythos双版本信息需交叉验证",
+    "缺少分项与成本数据，结论需谨慎"
+   ],
+   "why_zh": "第三方独立评测是模型选型参考，但需看分项与价格再下结论",
+   "tags": [
+    "大模型",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.5954,
+   "score_llm": 7.0,
+   "score": 0.6582,
+   "date": "2026-11-10",
+   "slot": "evening",
+   "selected_at": "2026-11-10T13:26:19+00:00",
+   "mirror_pdf": "pdf/web-255b56db4a4a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://artificialanalysis.ai/models/claude-fable-5-2"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50431144"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.12886",
+   "kind": "paper",
+   "title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
+   "url": "https://arxiv.org/abs/2611.12886",
+   "pdf_url": "https://arxiv.org/pdf/2611.12886",
+   "abstract": "Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the evidence available for subsequent distillation. We introduce Reframe, a post-training framework that treats the observation state, rather than only the output distribution, as an object of alignment. First, Ground-Drop-GRPO (GD-GRPO) trains spatial and temporal specialists with evidence-aware rewards and stochastic removal of the original visual input, encouraging them to acquire grounded evidence and use the returned observations. Second, Observation-Gated-MOPD (OG-MOPD) replaces deficient tool actions with canonical ones mid-rollout and resumes distillation from the repaired observation. The two stages complement each other, as learning to rely on tool-returned observations can help the policy benefit from observation repair. Neither stage requires a task-specific SFT cold start. Extensive experiments over 14 image and video benchmarks demonstrate that Reframe outperforms both Mix-RL and vanilla MOPD. Ablation results show that GD-GRPO increases observation dependence and tool gain compared with outcome-based GRPO.",
+   "authors": [
+    "Haozhi Yuan",
+    "Handong Li",
+    "Yifan Zhang",
+    "Qianshan Wei"
+   ],
+   "orgs": [
+    "Nanjing University"
+   ],
+   "published": "2026-11-09T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.12886",
+     "signal": "▲ 33",
+     "metric": 33
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Reframe：面向智能体视觉推理的观测对齐蒸馏",
+   "summary_zh": "南大提出Reframe后训练框架，把「观测状态」而非仅输出分布作为对齐对象：GD-GRPO用证据感知奖励与随机遮挡原图训练专家，OG-MOPD在rollout中替换劣质工具动作并从修复后观测继续蒸馏，14个图文基准超越Mix-RL与原生MOPD。",
+   "highlights_zh": [
+    "GD-GRPO随机移除原始视觉输入，迫使模型依赖工具返回观测",
+    "OG-MOPD中途修复工具动作并从修复观测恢复蒸馏",
+    "无需任务特定SFT冷启动，消融显示观测依赖与工具增益提升"
+   ],
+   "why_zh": "视觉智能体常忽略工具返回结果，该文给出可复用的对齐训练范式",
+   "tags": [
+    "多模态",
+    "智能体",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.5909,
+   "score_llm": 7.0,
+   "score": 0.6564,
+   "date": "2026-11-10",
+   "slot": "evening",
+   "selected_at": "2026-11-10T13:26:19+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.12886.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.12886"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.12886"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.12886"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.12886"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.12886"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.12886"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/EliYuan30/Reframe"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-abf5bad969f1",
+   "kind": "article",
+   "title": "从“一脑多机”到“一脑多手”，蚂蚁灵波开源LingBot-Touch触觉基础模型",
+   "url": "https://www.qbitai.com/2026/11/508996.html",
+   "pdf_url": "",
+   "abstract": "11月10日，蚂蚁灵波科技开源触觉基础模型LingBot-Touch",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-10T07:57:45+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/508996.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "蚂蚁灵波开源触觉基础模型LingBot-Touch",
+   "summary_zh": "蚂蚁灵波科技开源触觉基础模型LingBot-Touch，从“一脑多机”走向“一脑多手”，为机器人提供通用触觉感知能力。",
+   "highlights_zh": [
+    "开源触觉基础模型，补齐机器人感知中的触觉短板",
+    "提出“一脑多手”架构，单一模型适配多种机械手",
+    "面向通用机器人操作场景，降低触觉能力接入门槛"
+   ],
+   "why_zh": "触觉是机器人从演示走向实用的关键感知维度，开源基础模型值得关注",
+   "tags": [
+    "机器人",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-11-10",
+   "slot": "evening",
+   "selected_at": "2026-11-10T13:26:19+00:00",
+   "mirror_pdf": "pdf/web-abf5bad969f1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/508996.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-897b2093d4a3",
+   "kind": "article",
+   "title": "刚刚，Claude Fable 5.2 登顶世界第一，一夜斩杀 Opus 5.5",
+   "url": "https://www.ifanr.com/1688605?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "全球最强模型再次易主 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "山宗"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-11-09T22:54:06+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1688605?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Claude Fable 5.2 登顶全球最强模型",
+   "summary_zh": "Anthropic 发布 Claude Fable 5.2，性能超越 Opus 5.5 登顶榜首，全球最强模型再次易主。",
+   "highlights_zh": [
+    "Fable 5.2 在权威榜单上超越 Opus 5.5 登顶",
+    "头部模型竞争格局再度洗牌",
+    "新版本能力与定位值得关注"
+   ],
+   "why_zh": "把握头部大模型能力排名与竞争节奏的关键信号。",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-10",
+   "slot": "evening",
+   "selected_at": "2026-11-10T13:26:19+00:00",
+   "mirror_pdf": "pdf/web-897b2093d4a3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1688605?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-81f33d0f3f66",
+   "kind": "article",
+   "title": "homeassistant-ai/ha-mcp",
+   "url": "https://github.com/homeassistant-ai/ha-mcp",
+   "pdf_url": "",
+   "abstract": "Star homeassistant-ai / ha-mcp Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.\nREADME: > **Breaking change (v7.3.0):** `ha_config_set_yaml` has been moved to [beta](docs/beta.md). # HA-MCP — Manage Home Assistant with AI Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants. --- ![Demo with Claude Desktop](https://raw.githubusercontent.com/homeassistant-ai/ha-mcp/master/docs/img/demo.webp) --- ## 🚀 Get Started The recommended way to run ha-mcp is the **HA-MCP integration**. It installs into Home Assistant through HACS (the built-in Marketplace on Home Assistant 2026.11+), runs the full server **in-process**, and works on **every** Home Assistant installation type — Home Assistant OS, Supervised, Container, and Core — with full feature parity. It is the easiest setup in every case: setup asks for an administrator access token and how clients may connect. **Add it to Home Assistant via HACS or, on Home Assistant 2026.11+, the Marketplace (the preferred install):** [![Add HA-MCP to HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=homeassistant-ai&repository=ha-mcp&category=integration) **Quick start:** > The setup below is for version 9.0.0 (October 28, 2026) and later; earlier versions show a shorter setup form without the administrator account step. 1. Install the **HA-MCP integration** (requires **Home Assistant 2026.8.0 or newer**; see [compatibility details](docs/in-process-server.md#requirements)). On **Home Assistant 2026.8–2026.10**, open HACS, search",
+   "authors": [],
+   "orgs": [
+    "homeassistant-ai"
+   ],
+   "published": "2026-11-10T13:26:19+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/homeassistant-ai/ha-mcp",
+     "signal": "★ 今日 +792 · Python",
+     "metric": 792
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "HA-MCP：用AI助手管理Home Assistant",
+   "summary_zh": "开源项目ha-mcp让Claude、ChatGPT等AI助手通过MCP协议配置和自动化Home Assistant，推荐以HACS集成方式进程内运行，支持全部安装类型。",
+   "highlights_zh": [
+    "首选HACS或2026.11+ Marketplace安装集成，进程内运行全功能",
+    "设置时需管理员访问令牌并配置客户端连接方式",
+    "v7.3.0起ha_config_set_yaml移入beta，注意兼容性"
+   ],
+   "why_zh": "如果你在折腾智能家居自动化，可用它让Claude直接改配置、写场景",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6138,
+   "score_llm": 6.0,
+   "score": 0.6055,
+   "date": "2026-11-10",
+   "slot": "evening",
+   "selected_at": "2026-11-10T13:26:19+00:00",
+   "mirror_pdf": "pdf/web-81f33d0f3f66.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/homeassistant-ai/ha-mcp"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4c1a7c570cbf",
+   "kind": "article",
+   "title": "garrytan/gbrain",
+   "url": "https://github.com/garrytan/gbrain",
+   "pdf_url": "",
+   "abstract": "Star garrytan / gbrain Garry's Opinionated OpenClaw/Hermes Agent Brain\nREADME: **Give the agent you already use a memory you control.** GBrain stores explicit facts with their sources, supports corrections and withdrawal, and makes the same memory available across your agents. Start with keyless memory and keyword retrieval; add semantic search, synthesis, and background enrichment when you need them. GBrain is MIT-licensed and free to self-host; gbrain.io is optional paid hosting. > [!TIP] > **Need hosted? First time running an agent?** Try **[gbrain.io](https://gbrain.io/?ref=readme)**, hosted GBrain, for the easiest experience: one brain for you and your team, connected to ChatGPT, Claude and Cursor, with nothing to install or keep online. Stuck? Email support@gbrain.io and a person will set it up with you, free. **Keep skills beside knowledge.** New local brains include memory skills in their content root. Agents can join an authorized catalog; only approved editors can publish. Managed coding-agent installs add an owned native router; restart and real-use verification are separate steps. Staged migration preserves sharing choices and personal edits. See [shared brain skills](docs/guides/shared-brain-skills.md). ## Choose your setup 1. **Add GBrain to my existing agent — recommended.** Keep your agent's identity and save memory inside its environment. No new personal-agent identity or private repository is required. Start with the guide for **[Grok Bot](docs/guides/grok-bot.md)**, **[Muse](docs/guides/muse.md)**, or **[Codex / Claude Code](docs/tuto",
+   "authors": [],
+   "orgs": [
+    "garrytan"
+   ],
+   "published": "2026-11-10T13:26:19+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/garrytan/gbrain",
+     "signal": "★ 今日 +558 · TypeScript",
+     "metric": 558
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "GBrain：给智能体一个可控的共享记忆",
+   "summary_zh": "GBrain为现有AI智能体提供带来源的显式事实记忆，支持纠错与撤回，同一记忆可跨ChatGPT、Claude、Cursor共享，MIT协议可自托管。",
+   "highlights_zh": [
+    "先跑无密钥的关键词检索，再按需加语义搜索与后台增强",
+    "记忆技能与知识同目录存放，仅授权编辑者可发布",
+    "推荐直接接入现有智能体，保留其身份与环境"
+   ],
+   "why_zh": "如果你在多个AI客户端间切换，可用它统一记忆并保留事实来源",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5995,
+   "score_llm": 6.0,
+   "score": 0.5998,
+   "date": "2026-11-10",
+   "slot": "evening",
+   "selected_at": "2026-11-10T13:26:19+00:00",
+   "mirror_pdf": "pdf/web-4c1a7c570cbf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/garrytan/gbrain"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2ebb8ea6d263",
+   "kind": "article",
+   "title": "Token卷到触觉了！机器人终于有了通用手感",
+   "url": "https://www.qbitai.com/2026/11/508919.html",
+   "pdf_url": "",
+   "abstract": "蚂蚁灵波开源LingBot-Touch",
+   "authors": [
+    "十三"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-10T07:26:53+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/508919.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Token卷到触觉：机器人迎来通用手感",
+   "summary_zh": "报道蚂蚁灵波开源LingBot-Touch触觉基础模型，探讨机器人如何获得可泛化的“通用手感”。",
+   "highlights_zh": [
+    "触觉表征走向基础模型化、Token化",
+    "通用手感有望提升跨任务、跨硬件的迁移能力",
+    "与前述开源发布为同一事件的不同视角报道"
+   ],
+   "why_zh": "从行业视角解读触觉基础模型的意义，可与开源发布对照阅读",
+   "tags": [
+    "机器人",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-10",
+   "slot": "evening",
+   "selected_at": "2026-11-10T13:26:19+00:00",
+   "mirror_pdf": "pdf/web-2ebb8ea6d263.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/508919.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f810a5e75c97",
+   "kind": "article",
+   "title": "Fable 5.2首批实测来了！网友：Opus突然不香了",
+   "url": "https://www.qbitai.com/2026/11/508912.html",
+   "pdf_url": "",
+   "abstract": "作曲、拍片、3D建模一条龙全包圆",
+   "authors": [
+    "梦瑶"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-10T07:03:43+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/508912.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Fable 5.2首批实测：作曲拍片建模一条龙",
+   "summary_zh": "Fable 5.2首批实测显示其可一站式完成作曲、拍片、3D建模，网友评价其表现盖过Opus。",
+   "highlights_zh": [
+    "多模态生成能力覆盖音乐、视频与3D",
+    "实测对比引发对头部模型格局的讨论",
+    "面向创作工作流的整合式体验"
+   ],
+   "why_zh": "头部多模态模型迭代实测，反映生成式创作工具竞争态势",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-10",
+   "slot": "evening",
+   "selected_at": "2026-11-10T13:26:19+00:00",
+   "mirror_pdf": "pdf/web-f810a5e75c97.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/508912.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-92090b809bc6",
+   "kind": "article",
+   "title": "100轮图像编辑这道「毙刷题」，新出的Seedream 5.5稳上来了！",
+   "url": "https://www.qbitai.com/2026/11/508828.html",
+   "pdf_url": "",
+   "abstract": "速度提了，API价格降了",
+   "authors": [
+    "十三"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-10T02:48:22+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/508828.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Seedream 5.5通过百轮图像编辑测试",
+   "summary_zh": "Seedream 5.5在100轮连续图像编辑测试中表现稳定，速度提升且API价格下调。",
+   "highlights_zh": [
+    "长轮次连续编辑的一致性明显改善",
+    "生成速度提升，API价格下降",
+    "图像编辑能力向可商用工作流靠拢"
+   ],
+   "why_zh": "图像编辑模型在长轮次一致性与成本上的进展，直接影响产品选型",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-10",
+   "slot": "evening",
+   "selected_at": "2026-11-10T13:26:19+00:00",
+   "mirror_pdf": "pdf/web-92090b809bc6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/508828.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-104c121b8f5d",
+   "kind": "article",
+   "title": "📈 AI-exposed workers wait a month longer for a job",
+   "url": "https://www.exponentialview.co/p/monday-data-09-11-2026",
+   "pdf_url": "",
+   "abstract": "Plus: Slow chips, Steam runs on AI & the ozone hole++",
+   "authors": [
+    "Azeem Azhar"
+   ],
+   "orgs": [
+    "Azeem Azhar"
+   ],
+   "published": "2026-11-09T13:45:58+00:00",
+   "sources": [
+    {
+     "name": "Azeem Azhar",
+     "authority": 0.8,
+     "url": "https://www.exponentialview.co/p/monday-data-09-11-2026",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Exponential View 创始人",
+   "title_zh": "AI暴露度高的岗位求职等待期延长一个月",
+   "summary_zh": "Azeem Azhar引用数据指出，AI暴露度高的岗位求职者平均要多等约一个月才找到工作，并附带芯片放缓、Steam接入AI等短讯。",
+   "highlights_zh": [
+    "AI暴露度与再就业时长出现可量化关联",
+    "劳动力市场结构性变化的早期信号",
+    "其余为多条行业短讯汇总"
+   ],
+   "why_zh": "关注AI对就业市场实际冲击的量化证据。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.588,
+   "date": "2026-11-10",
+   "slot": "evening",
+   "selected_at": "2026-11-10T13:26:19+00:00",
+   "mirror_pdf": "pdf/web-104c121b8f5d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.exponentialview.co/p/monday-data-09-11-2026"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3ffc776f8596",
+   "kind": "article",
+   "title": "Imbad0202/academic-research-skills",
+   "url": "https://github.com/Imbad0202/academic-research-skills",
+   "pdf_url": "",
+   "abstract": "Star Imbad0202 / academic-research-skills Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+   "authors": [],
+   "orgs": [
+    "Imbad0202"
+   ],
+   "published": "2026-11-10T13:26:19+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/Imbad0202/academic-research-skills",
+     "signal": "★ 今日 +242 · Python",
+     "metric": 242
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Claude Code 学术研究技能包",
+   "summary_zh": "为 Claude Code 提供从调研、写作、审稿到修订的学术研究全流程技能集，今日获 242 星。",
+   "highlights_zh": [
+    "覆盖 research→write→review→revise→finalize 五阶段",
+    "以 Claude Code 技能形式安装使用",
+    "Python 实现，GitHub 开源"
+   ],
+   "why_zh": "如果你用 Claude Code 写论文或做调研，可装上它把研究流程标准化。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5653,
+   "score_llm": 6.0,
+   "score": 0.5861,
+   "date": "2026-11-10",
+   "slot": "evening",
+   "selected_at": "2026-11-10T13:26:19+00:00",
+   "mirror_pdf": "pdf/web-3ffc776f8596.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/Imbad0202/academic-research-skills"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-62d6b023e1f9",
+   "kind": "article",
+   "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
+   "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+   "pdf_url": "",
+   "abstract": "November 9, 2026 — Claude Fable 5.2 and Mythos 5.2 arrive on Anthropic’s IPO roadshow day. How much thinking is worth paying for?",
+   "authors": [
+    "swyx .ai"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-11-10T06:34:44+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Fable 5.2重夺全球最强LLM，Anthropic IPO路演启动",
+   "summary_zh": "Latent Space日报称Claude Fable 5.2与Mythos 5.2在Anthropic IPO路演当天发布并重回榜首，并追问推理算力究竟值多少钱。",
+   "highlights_zh": [
+    "新模型发布与IPO路演同日，节奏耐人寻味",
+    "讨论推理成本与定价的商业逻辑",
+    "属社区日报式信息汇总"
+   ],
+   "why_zh": "快速了解头部模型迭代与商业化节奏的窗口。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 6.0,
+   "score": 0.58,
+   "date": "2026-11-10",
+   "slot": "evening",
+   "selected_at": "2026-11-10T13:26:19+00:00",
+   "mirror_pdf": "pdf/web-62d6b023e1f9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-195bc05537b0",
+   "kind": "article",
+   "title": "早报｜苹果国行AI备案新增iPad和笔记本/Claude Fable 5.2发布，价格降20%/曝玛莎拉蒂拟与尊界合作，新车将由江淮生产",
+   "url": "https://www.ifanr.com/1688654?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "· 曝苹果调整 iOS 28 开发节奏，首阶段留出六周探索功能 · 谷歌发布两套第八代 TPU 系统，分别面向长上下文和保密推理 · 迪士尼与 Adobe 达成多年合作，将为旗下 IP 定制生成模型 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "郑廷旭"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-11-10T00:47:46+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1688654?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "早报：Claude Fable 5.2 降价 20%，谷歌发两套 TPU",
+   "summary_zh": "Claude Fable 5.2 发布并降价 20%，谷歌推出面向长上下文与保密推理的两套第八代 TPU 系统。",
+   "highlights_zh": [
+    "Claude Fable 5.2 价格下调 20%",
+    "谷歌第八代 TPU 分长上下文与保密推理两套",
+    "迪士尼与 Adobe 合作定制生成模型"
+   ],
+   "why_zh": "一屏掌握模型降价与算力基础设施的最新动向。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-10",
+   "slot": "evening",
+   "selected_at": "2026-11-10T13:26:19+00:00",
+   "mirror_pdf": "pdf/web-195bc05537b0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1688654?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ff7368f32ba9",
+   "kind": "article",
+   "title": "实测 Seedream5.5，豆包想把 AI 作图接进整条工作流",
+   "url": "https://www.ifanr.com/1688447?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "还有改图 100 轮都不糊 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "张子豪"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-11-09T12:01:18+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1688447?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "实测 Seedream 5.5：豆包把 AI 作图接入工作流",
+   "summary_zh": "实测火山引擎 Seedream 5.5，主打多轮改图不糊，豆包试图将 AI 作图嵌入完整工作流。",
+   "highlights_zh": [
+    "支持改图 100 轮仍保持清晰",
+    "强调与工作流的深度整合",
+    "面向实际生产场景的作图能力"
+   ],
+   "why_zh": "了解国产图像模型在产品化与工作流集成上的进展。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-10",
+   "slot": "evening",
+   "selected_at": "2026-11-10T13:26:19+00:00",
+   "mirror_pdf": "pdf/web-ff7368f32ba9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1688447?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2e8206264271",
+   "kind": "article",
+   "title": "阿里云获中国专利金奖：破解AI时代的超大规模智能算力调度难题",
+   "url": "https://www.leiphone.com/category/industrynews/ljc6ifIFxCUD6DYG.html",
+   "pdf_url": "",
+   "abstract": "11月6日，第二十六届中国专利奖颁奖大会在无锡举行，阿里云提交的专利\"一种用户请求的处理方法和装置\"荣获中国专利金奖，这也是本届唯一云厂商荣获金奖。该专利技术可动态实时感知算力需求变化，尤其针对互联网和AI时代剧烈的需求潮汐，实现了超大规模智能算力的按需分配、随需伸缩、安全供给——高峰时撑得住，低谷时收得回，多租户安全隔离。 中国专利奖由国家知识产权局与世界知识产权组织共同评选，是我国专利领域的最高荣誉，每届全国评选发明专利金奖不超过30项，是对企业创新能力与专利产业化价值的国家级权威认证。目前，阿里云已在全球布局超万件专利，覆盖十多个国家和地区，聚焦云计算、人工智能、大模型和芯片等核心技术领域。 破解AI时代的超大规模智能算力调度三大难题 AI时代的超大规模智能算力集群，面对的是剧烈的需求潮汐：突发流量、训练高峰与推理洪峰交织叠加，持续考验算力弹性的极限。峰谷之间，算力需求可相差百倍——按峰值配置，大量资源在常态下闲置；按日常配置，峰值来临又面临容量不足、服务失稳的风险。因此，异构算力的弹性统一、动态负载的瞬时响应、以及多租户环境下的安全隔离成为AI时代超大规模算力的三大核心挑战难题。 阿里云这项专利的核心发明，是一种全新的用户请求处理方式。传统方案依赖预先分配资源、被动等待请求，资源配置与真实负载长期错配；而这项专利提出的方法则能动态实时感知需求变化，将请求与底层异构算力智能匹配，使每一次请求都获得及时、适配的算力响应。 具体来说，该系统在用户请求与海量算力之间，实时感知业务负载的波动，将算力动态调配到最需要的地方。业务高峰时自动扩容，低谷时自动收缩，让算力像\"水电\"一样按需供给、随取随用，把每一份资源都用在刀刃上。弹性预热的策略与调度效率的提升也让秒级的应用启动，毫秒级的大模型推理响应成为了现实。与此同时，各应用的数据在相互独立的运行环境中处理和存储，彼此隔离、互不干扰，在提升资源利用效率的同时，也为数据安全构建起端到端的防护屏障。 弹性算力更高效地服务AI时代的千行百业 依托弹性算力调度等技术积累，阿里云已持续孵化覆盖通用计算、模型训推和智能体运行的一系列产品。陆续推出灵骏真武超节点实例、智能体沙箱 Agent Sandbox、容器服务 AI 推理套件 AI Serving Stack、分布式缓存Fluid 等，已大量应用在AI时代的千行百业。 例如，MiniMax 基于阿里云 Agent Sandbox 在10秒内拉起五千个沙箱，总拥有成本降低25%；月之暗面 Kimi 实现每分钟数万个沙箱弹性扩容，启动时间缩短 50%，以弹性供给支撑业务稳定响应；阶跃星辰结合 Agent Sandbox 与 阿里云ACK，百万级别沙箱稳定运行，将模型评估周期从周级压缩至天级。前程无忧AI招聘助手通过 Agent Sandbox 与分级休眠承接万级脉冲请求，支持会话数据恢复；金山办公基于 Agent Sandbox 与阿里云云原生基础设施，通过预热池实现毫秒级获取沙箱，结合潮汐调度与多集群容灾，兼顾体验、成本和服务连续性。 专利发明人、阿里云容器与沙箱研发负责人易立表示，“云计算已成为与电力、水利同等重要的关键生产力，从移动互联网到AI时代，阿里云始终聚焦负载变化的实时感知、异构算力的统一调度与多租户环境下的安全隔离。让算力按需流动、精准匹配，降低大模型训练推理与智能体运行的门槛，推动智能应用规模化落地。”",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-09T10:03:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/ljc6ifIFxCUD6DYG.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "阿里云算力调度专利获中国专利金奖",
+   "summary_zh": "阿里云动态感知算力需求、异构算力统一调度的专利获中国专利金奖，已支撑MiniMax、月之暗面、阶跃星辰等Agent沙箱弹性扩容。",
+   "highlights_zh": [
+    "解决AI算力峰谷相差百倍下的弹性分配、瞬时响应与多租户隔离三大难题",
+    "Agent Sandbox等产品落地：MiniMax 10秒拉起五千沙箱、总成本降25%，Kimi沙箱启动时间缩短50%",
+    "阿里云全球布局超万件专利，聚焦云计算、AI、大模型与芯片"
+   ],
+   "why_zh": "算力调度是Agent规模化运行的基础设施，案例数据具体，可了解头部云厂商的工程路径。",
+   "tags": [
+    "效率与系统",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-10",
+   "slot": "evening",
+   "selected_at": "2026-11-10T13:26:19+00:00",
+   "mirror_pdf": "pdf/web-2e8206264271.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/ljc6ifIFxCUD6DYG.html"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
    "trend": "头部模型竞争从跑分转向成本与速度，API降价成常态",
-   "why": "Anthropic发布Fable 5.2同时API降价20%、提速30%，编码与推理基准登顶。",
+   "why": "Anthropic Fable 5.2登顶同时API降价20%、提速30%，能力领先不再能维持溢价。",
    "refs": [
     "web-42b775f8f3f5",
     "web-d22b57a924da"
    ]
   },
   {
-   "trend": "Agent从单人工具转向团队协作，协作上下文成新瓶颈",
-   "why": "千问办公2.0推Team Agent，指出组织级提效不足两倍，瓶颈在共享上下文。",
+   "trend": "Agent竞争主战场从单人工具转向团队协作与组织上下文",
+   "why": "千问办公2.0押注Team Agent，指出单任务演示成熟但组织级提效不足两倍，协作上下文是瓶颈。",
    "refs": [
-    "web-70f4b120aa0b",
     "web-d8659cb91ba5",
-    "web-89ac639459d4"
-   ]
-  },
-  {
-   "trend": "并行生成架构挑战自回归，文本生成速度出现数量级拐点",
-   "why": "Next-Concept Modeling在LM1B困惑度优于扩散模型且快21倍，数独推理全面超越基线。",
-   "refs": [
-    "arxiv-2610.14162"
+    "web-89ac639459d4",
+    "web-70f4b120aa0b"
    ]
   },
   {
    "trend": "评测方法转向主动任务发现与真实判例，静态基准失效",
-   "why": "AutoBuddy-Bench让智能体自行推断待办，FraudBench用真实判例测欺诈倾向。",
+   "why": "AutoBuddy-Bench让智能体自行推断待办，FraudBench用真实判例测欺诈倾向，评测逼近真实自主度。",
    "refs": [
     "arxiv-2611.12393",
     "arxiv-2611.12167",
@@ -2236,11 +3556,17 @@
    ]
   },
   {
-   "trend": "AGI叙事分化：自我进化被质疑，能力呈锯齿状而非平滑上升",
-   "why": "李飞飞、Jeff Dean质疑自我改进机制，Mollick称Fable 5.2强项突出弱项突兀。",
+   "trend": "并行生成架构对自回归形成实质挑战，推理速度成新变量",
+   "why": "Next-Concept Modeling由粗到细并行预测，困惑度优于扩散模型且快10–31倍，数独推理全面超越基线。",
+   "refs": [
+    "arxiv-2610.14162"
+   ]
+  },
+  {
+   "trend": "AI自我进化叙事遭权威质疑，递归加速预期被下调",
+   "why": "李飞飞、Jeff Dean公开质疑自我改进机制可靠性，与METR的2027递归自我改进预测形成对冲。",
    "refs": [
     "web-1038d808525b",
-    "web-906503fc546e",
     "web-8ed1d9debf14"
    ]
   }
