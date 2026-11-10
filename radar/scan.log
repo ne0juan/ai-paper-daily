@@ -1,10 +1,10 @@
-2026-11-10 13:26:19,768 INFO source hf_daily           -> 13 items
-2026-11-10 13:26:20,341 INFO source hackernews         -> 5 items
-2026-11-10 13:26:42,933 INFO source rss                -> 104 items
-2026-11-10 13:26:44,334 INFO source html_lists         -> 1 items
-2026-11-10 13:26:44,334 INFO source x                  -> 0 items
-2026-11-10 13:27:55,319 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
-2026-11-10 13:28:04,231 INFO source github             -> 20 items
-2026-11-10 13:28:04,232 INFO candidates: 142 (stale dropped 10, new 82)
-2026-11-10 13:29:26,024 INFO llm judged 80/80 (calls=10)
-2026-11-10 13:31:48,581 INFO run done: {"at": "2026-11-10T13:26:19+00:00", "slot": "evening", "candidates": 142, "new": 82, "stale": 10, "judged": 80, "selected": 21, "mirrored": 21, "by_category": {"技术": 4, "资讯": 12, "项目": 3, "观点": 2}, "by_source": {"HF Daily Papers": 13, "Hacker News": 4, "量子位": 10, "极客公园": 5, "IT之家": 12, "爱范儿": 10, "少数派": 1, "雷峰网": 18, "钛媒体": 1, "InfoQ 中文": 16, "Ethan Mollick": 1, "Simon Willison": 2, "Latent Space": 4, "Jack Clark": 1, "Stratechery": 1, "Azeem Azhar": 2, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "科学空间": 1, "Hugging Face Blog": 2, "Google Research": 1, "OpenAI": 6, "Google DeepMind": 1, "NVIDIA": 6, "Anthropic": 1, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
+2026-11-10 18:34:26,179 INFO source hf_daily           -> 17 items
+2026-11-10 18:34:26,905 INFO source hackernews         -> 8 items
+2026-11-10 18:35:22,645 INFO source rss                -> 108 items
+2026-11-10 18:35:23,841 INFO source html_lists         -> 0 items
+2026-11-10 18:35:23,841 INFO source x                  -> 0 items
+2026-11-10 18:35:24,209 INFO source arxiv_search       -> 60 items
+2026-11-10 18:35:33,701 INFO source github             -> 20 items
+2026-11-10 18:35:33,703 INFO candidates: 211 (stale dropped 104, new 64)
+2026-11-10 18:36:34,738 INFO llm judged 64/64 (calls=8)
+2026-11-10 18:39:29,015 INFO run done: {"at": "2026-11-10T18:34:25+00:00", "slot": "morning", "candidates": 211, "new": 64, "stale": 104, "judged": 64, "selected": 21, "mirrored": 20, "by_category": {"资讯": 12, "观点": 2, "技术": 4, "论文": 1, "项目": 2}, "by_source": {"HF Daily Papers": 17, "Hacker News": 7, "Google DeepMind": 3, "量子位": 10, "极客公园": 5, "IT之家": 10, "爱范儿": 11, "少数派": 1, "雷峰网": 16, "InfoQ 中文": 16, "Ethan Mollick": 1, "Simon Willison": 2, "Latent Space": 4, "Jack Clark": 1, "Stratechery": 1, "Azeem Azhar": 2, "Tomasz Tunguz": 2, "Zvi Mowshowitz": 2, "Dean Ball": 1, "科学空间": 1, "Hugging Face Blog": 4, "Google Research": 1, "OpenAI": 7, "NVIDIA": 7, "arXiv 新论文": 60, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
