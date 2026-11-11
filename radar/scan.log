@@ -1,10 +1,11 @@
-2026-11-11 12:35:48,774 INFO source hf_daily           -> 18 items
-2026-11-11 12:35:49,021 INFO source hackernews         -> 8 items
-2026-11-11 12:36:19,785 INFO source rss                -> 107 items
-2026-11-11 12:36:21,372 INFO source html_lists         -> 0 items
-2026-11-11 12:36:21,372 INFO source x                  -> 0 items
-2026-11-11 12:36:21,964 INFO source arxiv_search       -> 60 items
-2026-11-11 12:36:31,658 INFO source github             -> 20 items
-2026-11-11 12:36:31,661 INFO candidates: 211 (stale dropped 21, new 142)
-2026-11-11 12:38:15,978 INFO llm judged 100/100 (calls=13)
-2026-11-11 12:41:10,576 INFO run done: {"at": "2026-11-11T12:35:48+00:00", "slot": "evening", "candidates": 211, "new": 142, "stale": 21, "judged": 100, "selected": 19, "mirrored": 19, "by_category": {"技术": 4, "资讯": 12, "项目": 1, "观点": 2}, "by_source": {"HF Daily Papers": 18, "arXiv 新论文": 60, "Hacker News": 8, "Google DeepMind": 3, "量子位": 10, "极客公园": 4, "IT之家": 15, "爱范儿": 9, "少数派": 2, "雷峰网": 12, "钛媒体": 4, "InfoQ 中文": 14, "Ethan Mollick": 1, "Simon Willison": 1, "Latent Space": 6, "Jack Clark": 1, "Arvind Narayanan": 1, "Azeem Azhar": 2, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Dean Ball": 1, "Hugging Face Blog": 4, "Google Research": 1, "OpenAI": 10, "NVIDIA": 3, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
+2026-11-11 18:31:57,097 INFO source hf_daily           -> 20 items
+2026-11-11 18:31:57,627 INFO source hackernews         -> 6 items
+2026-11-11 18:33:09,811 INFO source rss                -> 96 items
+2026-11-11 18:33:11,564 INFO source html_lists         -> 1 items
+2026-11-11 18:33:11,564 INFO source x                  -> 0 items
+2026-11-11 18:33:43,048 INFO source arxiv_search       -> 60 items
+2026-11-11 18:33:52,337 INFO source github             -> 17 items
+2026-11-11 18:33:52,338 INFO candidates: 198 (stale dropped 105, new 57)
+2026-11-11 18:34:52,044 INFO llm judged 57/57 (calls=8)
+2026-11-11 18:34:58,134 WARNING snapshot https://thezvi.wordpress.com/2026/11/11/fable-and-mythos-5-2-the-system-card/: blocked or empty page
+2026-11-11 18:37:18,811 INFO run done: {"at": "2026-11-11T18:31:56+00:00", "slot": "morning", "candidates": 198, "new": 57, "stale": 105, "judged": 57, "selected": 20, "mirrored": 19, "by_category": {"资讯": 13, "观点": 1, "技术": 4, "项目": 1, "论文": 1}, "by_source": {"HF Daily Papers": 20, "arXiv 新论文": 60, "Hacker News": 6, "量子位": 10, "极客公园": 4, "IT之家": 9, "爱范儿": 9, "少数派": 1, "雷峰网": 12, "钛媒体": 4, "InfoQ 中文": 14, "Ethan Mollick": 1, "Simon Willison": 1, "Latent Space": 5, "Arvind Narayanan": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Dean Ball": 1, "Hugging Face Blog": 4, "Google Research": 1, "OpenAI": 9, "Google DeepMind": 4, "NVIDIA": 2, "xAI": 1, "GitHub Trending": 12, "GitHub 新项目": 5}, "llm": true, "translated": 0}
