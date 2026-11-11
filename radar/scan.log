@@ -1,10 +1,14 @@
-2026-11-10 18:34:26,179 INFO source hf_daily           -> 17 items
-2026-11-10 18:34:26,905 INFO source hackernews         -> 8 items
-2026-11-10 18:35:22,645 INFO source rss                -> 108 items
-2026-11-10 18:35:23,841 INFO source html_lists         -> 0 items
-2026-11-10 18:35:23,841 INFO source x                  -> 0 items
-2026-11-10 18:35:24,209 INFO source arxiv_search       -> 60 items
-2026-11-10 18:35:33,701 INFO source github             -> 20 items
-2026-11-10 18:35:33,703 INFO candidates: 211 (stale dropped 104, new 64)
-2026-11-10 18:36:34,738 INFO llm judged 64/64 (calls=8)
-2026-11-10 18:39:29,015 INFO run done: {"at": "2026-11-10T18:34:25+00:00", "slot": "morning", "candidates": 211, "new": 64, "stale": 104, "judged": 64, "selected": 21, "mirrored": 20, "by_category": {"资讯": 12, "观点": 2, "技术": 4, "论文": 1, "项目": 2}, "by_source": {"HF Daily Papers": 17, "Hacker News": 7, "Google DeepMind": 3, "量子位": 10, "极客公园": 5, "IT之家": 10, "爱范儿": 11, "少数派": 1, "雷峰网": 16, "InfoQ 中文": 16, "Ethan Mollick": 1, "Simon Willison": 2, "Latent Space": 4, "Jack Clark": 1, "Stratechery": 1, "Azeem Azhar": 2, "Tomasz Tunguz": 2, "Zvi Mowshowitz": 2, "Dean Ball": 1, "科学空间": 1, "Hugging Face Blog": 4, "Google Research": 1, "OpenAI": 7, "NVIDIA": 7, "arXiv 新论文": 60, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
+2026-11-11 04:58:43,536 INFO source hf_daily           -> 12 items
+2026-11-11 04:58:43,812 INFO source hackernews         -> 7 items
+2026-11-11 04:59:13,512 INFO source rss                -> 111 items
+2026-11-11 04:59:15,176 INFO source html_lists         -> 0 items
+2026-11-11 04:59:15,176 INFO source x                  -> 0 items
+2026-11-11 04:59:43,011 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
+2026-11-11 04:59:51,589 INFO source github             -> 20 items
+2026-11-11 04:59:51,590 INFO candidates: 149 (stale dropped 37, new 66)
+2026-11-11 05:00:53,432 INFO llm judged 65/66 (calls=9)
+2026-11-11 05:02:23,749 WARNING snapshot http://www.geekpark.net/news/373796: Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "http://www.geekpark.net/news/373796", waiting until "domcontentloaded"
+
+2026-11-11 05:03:58,374 INFO run done: {"at": "2026-11-11T04:58:43+00:00", "slot": "noon", "candidates": 149, "new": 66, "stale": 37, "judged": 65, "selected": 16, "mirrored": 14, "by_category": {"观点": 3, "资讯": 11, "技术": 1, "项目": 1}, "by_source": {"HF Daily Papers": 12, "Hacker News": 7, "Google DeepMind": 3, "量子位": 10, "极客公园": 3, "IT之家": 12, "爱范儿": 10, "少数派": 2, "雷峰网": 15, "钛媒体": 2, "InfoQ 中文": 15, "Ethan Mollick": 1, "Simon Willison": 1, "Latent Space": 5, "Jack Clark": 1, "Stratechery": 1, "Arvind Narayanan": 1, "Azeem Azhar": 2, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Dean Ball": 1, "科学空间": 1, "Hugging Face Blog": 4, "Google Research": 1, "OpenAI": 9, "NVIDIA": 8, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}

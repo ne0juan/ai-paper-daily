@@ -1,11 +1,12 @@
 {
- "updated": "2026-11-10T18:34:25+00:00",
+ "updated": "2026-11-11T04:58:43+00:00",
  "days": [
   {
    "date": "2026-11-11",
-   "count": 21,
+   "count": 37,
    "slots": {
-    "morning": 21
+    "morning": 21,
+    "noon": 16
    }
   },
   {
@@ -429,51 +430,51 @@
    }
   }
  ],
- "total": 2614,
+ "total": 2630,
  "last_run": {
-  "at": "2026-11-10T18:34:25+00:00",
-  "slot": "morning",
-  "candidates": 211,
-  "new": 64,
-  "stale": 104,
-  "judged": 64,
-  "selected": 21,
-  "mirrored": 20,
+  "at": "2026-11-11T04:58:43+00:00",
+  "slot": "noon",
+  "candidates": 149,
+  "new": 66,
+  "stale": 37,
+  "judged": 65,
+  "selected": 16,
+  "mirrored": 14,
   "by_category": {
-   "资讯": 12,
-   "观点": 2,
-   "技术": 4,
-   "论文": 1,
-   "项目": 2
+   "观点": 3,
+   "资讯": 11,
+   "技术": 1,
+   "项目": 1
   },
   "by_source": {
-   "HF Daily Papers": 17,
+   "HF Daily Papers": 12,
    "Hacker News": 7,
    "Google DeepMind": 3,
    "量子位": 10,
-   "极客公园": 5,
-   "IT之家": 10,
-   "爱范儿": 11,
-   "少数派": 1,
-   "雷峰网": 16,
-   "InfoQ 中文": 16,
+   "极客公园": 3,
+   "IT之家": 12,
+   "爱范儿": 10,
+   "少数派": 2,
+   "雷峰网": 15,
+   "钛媒体": 2,
+   "InfoQ 中文": 15,
    "Ethan Mollick": 1,
-   "Simon Willison": 2,
-   "Latent Space": 4,
+   "Simon Willison": 1,
+   "Latent Space": 5,
    "Jack Clark": 1,
    "Stratechery": 1,
+   "Arvind Narayanan": 1,
    "Azeem Azhar": 2,
-   "Tomasz Tunguz": 2,
+   "Tomasz Tunguz": 1,
    "Zvi Mowshowitz": 2,
    "Dean Ball": 1,
    "科学空间": 1,
    "Hugging Face Blog": 4,
    "Google Research": 1,
-   "OpenAI": 7,
-   "NVIDIA": 7,
-   "arXiv 新论文": 60,
-   "GitHub Trending": 11,
-   "GitHub 新项目": 9
+   "OpenAI": 9,
+   "NVIDIA": 8,
+   "GitHub Trending": 13,
+   "GitHub 新项目": 7
   },
   "llm": true,
   "translated": 0
