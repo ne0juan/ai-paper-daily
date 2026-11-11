@@ -1,14 +1,10 @@
-2026-11-11 04:58:43,536 INFO source hf_daily           -> 12 items
-2026-11-11 04:58:43,812 INFO source hackernews         -> 7 items
-2026-11-11 04:59:13,512 INFO source rss                -> 111 items
-2026-11-11 04:59:15,176 INFO source html_lists         -> 0 items
-2026-11-11 04:59:15,176 INFO source x                  -> 0 items
-2026-11-11 04:59:43,011 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
-2026-11-11 04:59:51,589 INFO source github             -> 20 items
-2026-11-11 04:59:51,590 INFO candidates: 149 (stale dropped 37, new 66)
-2026-11-11 05:00:53,432 INFO llm judged 65/66 (calls=9)
-2026-11-11 05:02:23,749 WARNING snapshot http://www.geekpark.net/news/373796: Page.goto: Timeout 45000ms exceeded.
-Call log:
-  - navigating to "http://www.geekpark.net/news/373796", waiting until "domcontentloaded"
-
-2026-11-11 05:03:58,374 INFO run done: {"at": "2026-11-11T04:58:43+00:00", "slot": "noon", "candidates": 149, "new": 66, "stale": 37, "judged": 65, "selected": 16, "mirrored": 14, "by_category": {"观点": 3, "资讯": 11, "技术": 1, "项目": 1}, "by_source": {"HF Daily Papers": 12, "Hacker News": 7, "Google DeepMind": 3, "量子位": 10, "极客公园": 3, "IT之家": 12, "爱范儿": 10, "少数派": 2, "雷峰网": 15, "钛媒体": 2, "InfoQ 中文": 15, "Ethan Mollick": 1, "Simon Willison": 1, "Latent Space": 5, "Jack Clark": 1, "Stratechery": 1, "Arvind Narayanan": 1, "Azeem Azhar": 2, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Dean Ball": 1, "科学空间": 1, "Hugging Face Blog": 4, "Google Research": 1, "OpenAI": 9, "NVIDIA": 8, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
+2026-11-11 12:35:48,774 INFO source hf_daily           -> 18 items
+2026-11-11 12:35:49,021 INFO source hackernews         -> 8 items
+2026-11-11 12:36:19,785 INFO source rss                -> 107 items
+2026-11-11 12:36:21,372 INFO source html_lists         -> 0 items
+2026-11-11 12:36:21,372 INFO source x                  -> 0 items
+2026-11-11 12:36:21,964 INFO source arxiv_search       -> 60 items
+2026-11-11 12:36:31,658 INFO source github             -> 20 items
+2026-11-11 12:36:31,661 INFO candidates: 211 (stale dropped 21, new 142)
+2026-11-11 12:38:15,978 INFO llm judged 100/100 (calls=13)
+2026-11-11 12:41:10,576 INFO run done: {"at": "2026-11-11T12:35:48+00:00", "slot": "evening", "candidates": 211, "new": 142, "stale": 21, "judged": 100, "selected": 19, "mirrored": 19, "by_category": {"技术": 4, "资讯": 12, "项目": 1, "观点": 2}, "by_source": {"HF Daily Papers": 18, "arXiv 新论文": 60, "Hacker News": 8, "Google DeepMind": 3, "量子位": 10, "极客公园": 4, "IT之家": 15, "爱范儿": 9, "少数派": 2, "雷峰网": 12, "钛媒体": 4, "InfoQ 中文": 14, "Ethan Mollick": 1, "Simon Willison": 1, "Latent Space": 6, "Jack Clark": 1, "Arvind Narayanan": 1, "Azeem Azhar": 2, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Dean Ball": 1, "Hugging Face Blog": 4, "Google Research": 1, "OpenAI": 10, "NVIDIA": 3, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
