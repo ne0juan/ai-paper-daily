@@ -2071,47 +2071,1159 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "arxiv-2611.14210",
+   "kind": "paper",
+   "title": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
+   "url": "https://arxiv.org/abs/2611.14210",
+   "pdf_url": "https://arxiv.org/pdf/2611.14210",
+   "abstract": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our method, Tree-Ising, casts this repair as a sparse discrete optimization problem over the model's own BF16 weights. Forward statistics define an objective that weakens a loop direction, strengthens a concluding direction, and preserves the layer's output on productive tokens. Within a state-tree representation, where lossless BF16 storage acts as a special case, the admissible edits are sign flips and exponent shifts that preserve all shared group exponents and mantissas. We decompose this objective exactly into independent QUBO (Ising) problems, one per output row, which we solve on a GPU using simulated annealing or quantum-inspired simulated bifurcation. On the agent's two layers, Tree-Ising achieves 54.6% on MATH-500, outperforming the agent's edit (51.7%) under the same evaluation protocol, while the base model scores 7.9% as reported. The simulated bifurcation solver yields a statistically indistinguishable repair at 55.1%. Both solvers outperform the agent edit across all five math benchmarks, with statistically significant improvements on MATH-500 and GSM8K after correcting for multiple comparisons. Our approach modifies 13% to 17% fewer weights and reduces BF16 bit flips by a factor of 2.2 to 2.3. It requires only four forward-pass requests and zero LLM tokens, with the annealing recipe costing about $0.90 in GPU time. On Qwen3.5-2B, with layers and dose selected using only the base model, the same recipe increases greedy GSM8K accuracy from 21.6% to 69.4%. As a proof of concept, we execute an eight-variable repair subproblem using QAOA on an IBM Heron processor.",
+   "authors": [
+    "Hadi Salloum",
+    "Ammar Ali"
+   ],
+   "orgs": [],
+   "published": "2026-11-10T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.14210",
+     "signal": "▲ 37",
+     "metric": 37
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Tree-Ising：用比特级Ising编辑修复语言模型",
+   "summary_zh": "把权重修复建模为BF16权重上的稀疏离散优化，分解为逐行QUBO用GPU退火求解，在两层编辑下MATH-500达54.6%，超过智能体编辑的51.7%。",
+   "highlights_zh": [
+    "仅允许符号翻转与指数偏移，保持组指数与尾数无损",
+    "目标函数精确分解为独立QUBO问题",
+    "模拟分岔求解器给出统计等价结果55.1%"
+   ],
+   "why_zh": "无梯度权重修复的可复现方法，优于智能体式编辑。",
+   "tags": [
+    "理论",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.5975,
+   "score_llm": 8.0,
+   "score": 0.719,
+   "date": "2026-11-11",
+   "slot": "evening",
+   "selected_at": "2026-11-11T12:35:48+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.14210.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.14210"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.14210"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.14210"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.14210"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.14210"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.14210"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/TheQuantumGOAT/Tree-Ising"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.14320",
+   "kind": "paper",
+   "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+   "url": "https://arxiv.org/abs/2611.14320",
+   "pdf_url": "https://arxiv.org/pdf/2611.14320",
+   "abstract": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled only with task success or failure, yet are typically provided without the trajectories they came from, leaving the agent no way to check them. To address this, we introduce WikiTrace, an evidence-linked memory system designed to let agents check each lesson against its original trajectory. Specifically, motivated by the finding that a trajectory often still holds the evidence needed to catch an erroneous lesson, WikiTrace stores each lesson as a concise insight linked to a summary of why its trajectory succeeded or failed and to the raw trajectory itself. Then, on a new task, the agent starts from all insights and, whenever one lacks details needed to act, conflicts with another, or comes from a failed task, descends through its links with terminal tools to fill in missing details or correct the insight before acting. We validate WikiTrace on five agentic benchmarks, showing that it consistently outperforms existing memory approaches and a baseline given the same insights alone, while also reducing memory-induced degradation. Our code is available at https://github.com/yukyeongleee/wikitrace",
+   "authors": [
+    "Yukyeong Lee",
+    "Yumin Choi",
+    "Jinheon Baek",
+    "Sung Ju Hwang"
+   ],
+   "orgs": [
+    "KAIST AI"
+   ],
+   "published": "2026-11-10T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.14320",
+     "signal": "▲ 36",
+     "metric": 36
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "别只信记忆：证据链接记忆缓解智能体退化",
+   "summary_zh": "KAIST提出WikiTrace，把每条经验链接到成败原因摘要与原始轨迹，智能体可回溯核验，在五个智能体基准上稳定优于现有记忆方法。",
+   "highlights_zh": [
+    "定位记忆导致退化的根因：经验脱离轨迹无法核验",
+    "经验—原因—原始轨迹三级链接结构",
+    "遇到冲突或失败经验时可下钻纠正"
+   ],
+   "why_zh": "智能体长期记忆设计的实用改进，直接对应退化痛点。",
+   "tags": [
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.5959,
+   "score_llm": 8.0,
+   "score": 0.7184,
+   "date": "2026-11-11",
+   "slot": "evening",
+   "selected_at": "2026-11-11T12:35:48+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.14320.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.14320"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.14320"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.14320"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.14320"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.14320"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.14320"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/yukyeongleee/wikitrace"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.14033",
+   "kind": "paper",
+   "title": "Few-Step Streaming Video Generation via Condition Shifting",
+   "url": "https://arxiv.org/abs/2611.14033",
+   "pdf_url": "https://arxiv.org/pdf/2611.14033",
+   "abstract": "Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator. We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the generator. The original text condition selects generation, while a shifted condition selects fake estimation using the same parameters. This removes the independent fake network while retaining S2-Avatar's frozen reference teacher, Self-Replay Forcing, and perceptual regularization. We evaluate APEX on 180-second videos using three backbone evaluations per block and a one-step spatial Refiner, with a 70-case human study and a 320-case StreamAV-Bench comparison. Compared with S2-Avatar, APEX achieves higher video instruction fulfillment on the Progressive track (3.856 versus 3.831) and higher visual aesthetics across both tracks (0.641898 versus 0.632606). Human raters favor APEX most strongly on instruction following, with +30.0% net preference, followed by consistency and video quality at +4.3% each. Motion quality favors S2-Avatar, audiovisual synchronization is predominantly tied, and usability is unchanged. Separate measurements under matched training settings show 4.4% lower peak allocated GPU memory per GPU and 9.2% shorter mean iteration time than DMD.",
+   "authors": [
+    "Deyuan Liu",
+    "Jungang Li",
+    "Kaiwen Zheng",
+    "Kai Jiang",
+    "Jintao Chen",
+    "Yaole Wang",
+    "Ming Lin",
+    "Tao Lin",
+    "Jianfei Chen",
+    "Jun Zhu",
+    "Jintao Zhang"
+   ],
+   "orgs": [
+    "Tsinghua University"
+   ],
+   "published": "2026-11-10T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.14033",
+     "signal": "▲ 30",
+     "metric": 30
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "APEX：条件偏移实现少步流式视频生成",
+   "summary_zh": "清华团队用条件偏移在生成器内部估计伪速度场，去掉DMD所需的独立伪评分网络，在180秒长视频上指令遵循与美学评分均超S2-Avatar，峰值显存降4.4%。",
+   "highlights_zh": [
+    "用同一套参数、不同条件分别做生成与伪估计，省去独立fake-score网络",
+    "保留冻结参考教师、Self-Replay Forcing与感知正则",
+    "70例人类评测中指令遵循净偏好+30%，运动质量略逊"
+   ],
+   "why_zh": "少步蒸馏做长视频生成的关键工程改进，兼顾显存与质量。",
+   "tags": [
+    "多模态",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.6653,
+   "score_llm": 7.0,
+   "score": 0.6861,
+   "date": "2026-11-11",
+   "slot": "evening",
+   "selected_at": "2026-11-11T12:35:48+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.14033.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.14033"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.14033"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.14033"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.14033"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.14033"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.14033"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-534e23320d33",
+   "kind": "article",
+   "title": "AI usage generates a fragile codebase",
+   "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-10T10:25:58Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50438318",
+     "signal": "595 pts",
+     "metric": 595
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AI写码正在制造脆弱的代码库",
+   "summary_zh": "Hacker News高热度讨论指出，大量AI生成代码虽能跑通却缺乏结构约束，长期维护成本上升、系统脆弱性累积。",
+   "highlights_zh": [
+    "AI生成代码通过测试但可维护性差",
+    "讨论聚焦团队如何建立审查与重构机制",
+    "对依赖coding agent的工程团队有警示意义"
+   ],
+   "why_zh": "一线开发者对AI编码真实代价的反思，值得团队参考。",
+   "tags": [
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6196,
+   "score_llm": 7.0,
+   "score": 0.6678,
+   "date": "2026-11-11",
+   "slot": "evening",
+   "selected_at": "2026-11-11T12:35:48+00:00",
+   "mirror_pdf": "pdf/web-534e23320d33.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50438318"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-58b40c18a4fa",
+   "kind": "article",
+   "title": "当美国无法建设数据中心，会对 AI 产生怎样的冲击",
+   "url": "http://www.geekpark.net/news/373816",
+   "pdf_url": "",
+   "abstract": "作者｜Techno 之王 编辑｜靖宇 2026 年 11 月 4 日，美国中期选举结果落定后的第二天上午，OpenAI 的高管们坐到了一起。 据外媒援引知情人士的消息，他们讨论的是要不要重设 2027 年的数据中心容量预期。讨论还没有形成决定，但焦虑已经摆上了台面。 过去几个月，美国各地的大型数据中心项目接连被按下暂停键。得州前任州长 Abbott 从 8 月起冻结了数据中心的并网和空气许可，要求审计到年底；新当选的州长 Gina Hinojosa 承诺，在州议会立法保护居民之前，暂停所有新数据中心审批，而议会会期要到 2027 年 5 月才结束。 俄亥俄新州长 Amy Acton 提出有条件暂停，要求新项目承担全部电力成本、只能建在旧工业用地上；佐治亚新州长 Keisha Lance Bottoms 则准备上任后直接签行政令，暂停全州新建。 据 Tokenpost 统计， 今年 7 月到 11 月 4 日，美国至少有 21 个大型数据中心项目被取消，已经接近 2025 年全年的 23 个 。Anthropic 在 10 月 26 日提交的招股书里，也把暂停令写进了风险因素：一些辖区正在考虑或已经批准暂停令，可能推迟或阻止它依赖的算力设施，而且反对数据中心的声音正在跨辖区变得更有组织。 如果我们把这股趋势推到极端，去设想这样一个场景，如果美国所有规划中的数据中心都建不成，对当下和未来的 AI，意味着什么？ 01 潜在算力增长被砍掉 50% 为了把推演的边界划清楚，我们设定这样一个极端场景，它建立在三条假设上： 1， 全美所有尚未开工的规划项目全部冻结 ，相当于把目前约 41% 的暂停范围推向全国； 2， 已经在建的项目全部按期完工 ，这和德州等地暂停令只针对新审批的做法一致； 3， 芯片照常供应，唯一的硬约束是电和地 。我们只推演美国本土，暂不讨论算力外迁。 这个场景下，被卡住的算力规模有多大？据 Newmark 估计，美国数据中心当前用电约 60GW，这里包含所有数据中心，并非全是 AI。在建容量各家口径不同：Cleanview 约 57GW，Wood Mackenzie 约 80GW，DCMap 8 月的统计约 90GW。这部分项目在情景里会照常完工，构成未来几年美国算力的全部增量。 真正庞大的是「规划中、未开工」的部分，DCMap 8 月统计为 228GW，Wood Mackenzie 披露的累计管线超过 430GW， 取一个约 230 到 340GW 的区间比较稳妥 。 据此粗略推算，在极端情景下， 美国数据中心总容量会在 2028 年前后停在约 120 到 150GW，大约是今天的 2 到 2.5 倍 ，此后不再增长。作为参照，Synergy 此前的预测是美国容量到 2029 年翻倍；而如果管线里的规划全部落地，这个数字本该是今天的 5 倍以上。极端场景砍掉的，是翻倍之后的那一大段增长。 换算成芯片会更直观。1GW 电力大约能带动数十万块 Blackwell 级 GPU：按单卡全口径功耗 1.8 到 2.3kW 理论计算，约 43 万到 55 万块；Abilene 这样的实际园区，约每 GW 27 万块。 两三百 GW 的规划被冻结，相当于数千万块最先进的 AI 芯片失去了机房。 亚马逊为 Anthropic 建设的 Project Rainier 园区内部｜图片来源：Amazon 这个情景很极端，但不荒谬。据 Cleanview 测算，新州长承诺暂停的州里，规划容量合计 158.6GW，约占全国的 41%，其中德州 88.4GW、俄亥",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-11T05:23:24+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373816",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "美国数据中心停建潮：AI算力增长或被砍半",
+   "summary_zh": "极客公园推演：若全美未开工数据中心项目冻结，2028年美国算力将停在120-150GW，仅为原规划的五分之一，数千万块AI芯片无处落地。",
+   "highlights_zh": [
+    "7月至11月美国至少21个大型数据中心项目被取消，接近2025年全年水平",
+    "极端情景下被冻结的规划容量约230-340GW，相当于数千万块Blackwell级GPU",
+    "Anthropic招股书已将数据中心暂停令列为风险因素"
+   ],
+   "why_zh": "算力供给是当前AI竞争的核心变量，此文给出量化推演框架，值得关注基础设施风险的人细读。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-11-11",
+   "slot": "evening",
+   "selected_at": "2026-11-11T12:35:48+00:00",
+   "mirror_pdf": "pdf/web-58b40c18a4fa.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373816"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5427c369cf5d",
+   "kind": "article",
+   "title": "Fireworks AI security breach impacts Notion and their customers",
+   "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-10T07:19:38Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50437106",
+     "signal": "162 pts",
+     "metric": 162
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Fireworks AI 安全事件波及 Notion 及其客户",
+   "summary_zh": "AI 推理服务商 Fireworks AI 发生安全泄露，波及下游客户 Notion 及其用户数据，暴露 AI 基础设施供应链风险。",
+   "highlights_zh": [
+    "Fireworks AI 出现安全泄露事件",
+    "影响扩散至 Notion 及其客户",
+    "凸显第三方 AI 推理服务的供应链安全风险"
+   ],
+   "why_zh": "使用第三方推理/API 服务的团队需关注数据隔离与供应商安全边界。",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5588,
+   "score_llm": 7.0,
+   "score": 0.6435,
+   "date": "2026-11-11",
+   "slot": "evening",
+   "selected_at": "2026-11-11T12:35:48+00:00",
+   "mirror_pdf": "pdf/web-5427c369cf5d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50437106"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-44f0426e6105",
+   "kind": "article",
+   "title": "browser-use/browser-use",
+   "url": "https://github.com/browser-use/browser-use",
+   "pdf_url": "",
+   "abstract": "Star browser-use / browser-use Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
+   "authors": [],
+   "orgs": [
+    "browser-use"
+   ],
+   "published": "2026-11-11T12:35:48+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/browser-use/browser-use",
+     "signal": "★ 今日 +171 · Python",
+     "metric": 171
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "browser-use：开源 AI 浏览器智能体库",
+   "summary_zh": "browser-use 提供开源 Python 库让 AI 智能体操控浏览器，并配套云端隐身浏览器与托管智能体 API。",
+   "highlights_zh": [
+    "pip 安装即可让 LLM 驱动浏览器完成网页任务",
+    "同时提供 Browser Use Cloud 托管 API 与隐身浏览器",
+    "适合做网页自动化、数据采集与智能体原型"
+   ],
+   "why_zh": "如果你在做网页自动化或浏览器智能体，可用它快速接入 LLM 操控页面。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5511,
+   "score_llm": 7.0,
+   "score": 0.6404,
+   "date": "2026-11-11",
+   "slot": "evening",
+   "selected_at": "2026-11-11T12:35:48+00:00",
+   "mirror_pdf": "pdf/web-44f0426e6105.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/browser-use/browser-use"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3e1919c777ea",
+   "kind": "article",
+   "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
+   "url": "https://latent.space/p/naiveai/",
+   "pdf_url": "",
+   "abstract": "NaiveAI could potentially top Artificial Analysis’s speed rankings. Our hands-on test suggests its coding quality holds up against DeepSeek.",
+   "authors": [
+    "Gabriele Beltramo"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-11-10T18:56:32+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/naiveai/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "NaiveAI宣称每秒2100 token，实测编程能力如何？",
+   "summary_zh": "Latent Space实测NaiveAI：速度有望登顶Artificial Analysis榜单，编程质量与DeepSeek相当，但速度优势能否转化为实用价值仍待观察。",
+   "highlights_zh": [
+    "NaiveAI速度可能位居Artificial Analysis排名前列",
+    "实测编程质量与DeepSeek持平",
+    "速度与质量的权衡是推理服务竞争的新维度"
+   ],
+   "why_zh": "推理速度正成为模型竞争的新战场，这篇实测提供了少见的第三方验证视角。",
+   "tags": [
+    "推理",
+    "代码",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-11-11",
+   "slot": "evening",
+   "selected_at": "2026-11-11T12:35:48+00:00",
+   "mirror_pdf": "pdf/web-3e1919c777ea.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/naiveai/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e4af70a93a6d",
+   "kind": "article",
+   "title": "文心 5.5 Flash Preview发布！编程、3D 建模、知识工作、内容创作等全面升级",
+   "url": "https://www.leiphone.com/category/industrynews/sqz0hf4DoTPX5mqI.html",
+   "pdf_url": "",
+   "abstract": "11月11日，百度最新基础模型文心 5.5 Flash Preview正式发布。文心 5.5 Flash Preview总参数量达 2800 亿，每个 Token 激活 140 亿参数，支持最长 100 万 Token 的上下文，在编程、3D 建模、知识工作、内容创作等方面表现突出。目前在Terminal-Bench、AutomationBench等多项基准测试中，文心5.5 Flash Preview 取得了具有竞争力的得分，并保持极致的解码速度。 编程能力为文心新模型的一大亮点。文心5.5 Flash Preview 覆盖从真实代码库中修复迭代，到完整构建复杂应用的广泛编码场景。尤其在长周期的开发任务中，模型展现出更强的规划、执行与持续迭代能力，这也大幅提升了文心 5.5 Flash Preview 的游戏开发效果。模型针对游戏开发场景进行了专项训练，并适配主流开发工具，根据用户的创意和需求，完成游戏设计、功能制作和场景搭建，让用户更便捷地将游戏创意变成可体验的作品。 同时，文心新模型在参数化建模和空间推理方面尤为出色。通过加强模型对 Blender 和 CAD 等工具软件使用的专项训练，显著提升了文心 5.5 Flash Preview的3D建模与设计能力。借助工具辅助，文心 5.5 Flash Preview能够从文本描述中准确理解并推断物体的形状、比例及空间关系，通过程序化建模将其转化为精准的3D模型。同时，能够灵活整合与复用现有资产，将外部素材统一集成到现有工作流，创建出场景宏大、细节丰富的 3D 场景。 这种能力也延伸到了专业知识工作和内容创作领域。文心 5.5 Flash Preview 能够根据用户需求完成多步工作，交付高专业度的表格、文档或演示文稿。面向金融、法律等领域，构建了 30 万个工作空间、1000 万份参考文件，覆盖 40 多种文件类型，训练环境覆盖从 10 到 100 个文件的个人工作空间，以及上千个文件构成的企业知识库。 面向内容创作者的视频创作需求，文心 5.5 Flash Preview 能够搜集、合成和编排素材，调整画面和节奏，输出成片。面向科普、漫剧、创意剪辑、热点演绎等场景构建了超过 15 万个创作环境，覆盖创意生成、剧本、分镜、视觉素材和配音的完整流程，适配上千个创作 skill，累计成片约 5300 分钟。 据了解，在底层技术上，文心 5.5 Flash Preview通过全新的混合稀疏注意力架构、多路由器 MoE、ECHO 多 Token 预测等多项技术创新，提升模型能力的同时降低计算和显存开销，支持百万Token长上下文，实现每秒超过200 tokens的生成速度。此外，文心 5.5 Flash Preview首次引入自研的RSI技术，由ERNIE Evolve参与模型推理优化，探索AI参与模型研究与优化的新路径。 目前，文心 5.5 Flash Preview已上线百度智能云千帆平台，开发者可通过API调用模型。API定价为每百万Token输入忙时2元、闲时1元，输出忙时8元、闲时4元，限时五折，在同参数规模模型中具备较强价格竞争力。此外，模型权重将于11月25日正式面向全球开源社区发布。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-11T05:22:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/sqz0hf4DoTPX5mqI.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "文心5.5 Flash Preview发布：2800亿参数、百万上下文、将开源",
+   "summary_zh": "百度发布文心5.5 Flash Preview，总参数2800亿、激活140亿，支持100万Token上下文，编程与3D建模能力突出，API定价具竞争力，11月25日开源权重。",
+   "highlights_zh": [
+    "总参数2800亿、每Token激活140亿，解码速度超200 tokens/s",
+    "针对游戏开发、Blender/CAD建模专项训练，长周期编码任务规划能力增强",
+    "采用混合稀疏注意力、多路由器MoE、ECHO多Token预测，并首次引入RSI自优化技术",
+    "API百万Token输入忙时2元、闲时1元，限时五折，权重11月25日开源"
+   ],
+   "why_zh": "国产头部模型百万上下文+开源+低价，直接影响开发者选型与API成本结构。",
+   "tags": [
+    "大模型",
+    "代码",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-11",
+   "slot": "evening",
+   "selected_at": "2026-11-11T12:35:48+00:00",
+   "mirror_pdf": "pdf/web-e4af70a93a6d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/sqz0hf4DoTPX5mqI.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7671fa396763",
+   "kind": "article",
+   "title": "Kimi开始\"出租\"数字员工：Agent计价锚点，正从软件预算滑向人力预算",
+   "url": "https://www.tmtpost.com/8201187.html",
+   "pdf_url": "",
+   "abstract": "月之暗面发布托管智能体，市场多解读为\"功能升级\"。本文判断：这不是产品迭代，是用工形态重构——AI厂商正从\"卖token\"转向\"租数字员工\"。基于\"动态性\"原理，本文提出三层形态租买决策框架，揭示计价锚点正从IT预算滑向人力预算。通用场景租是主航道，但买不会消失；垂直场景进入混合态。",
+   "authors": [
+    "韩工观察"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-11T08:42:32+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8201187.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Kimi出租数字员工：Agent计价锚点从软件预算滑向人力预算",
+   "summary_zh": "月之暗面发布托管智能体，本文判断这是用工形态重构而非功能升级，AI厂商正从卖token转向租数字员工，计价锚点从IT预算滑向人力预算。",
+   "highlights_zh": [
+    "托管智能体意味着厂商承担运行与调度，用户按'员工'而非token付费",
+    "提出三层形态租买决策框架：通用场景租为主航道，垂直场景进入混合态",
+    "计价锚点迁移将重塑AI厂商的商业模式与客户预算归属"
+   ],
+   "why_zh": "理解Agent商业化从token计费转向人力预算的关键判断，把握定价趋势。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 8.0,
+   "score": 0.624,
+   "date": "2026-11-11",
+   "slot": "evening",
+   "selected_at": "2026-11-11T12:35:48+00:00",
+   "mirror_pdf": "pdf/web-7671fa396763.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8201187.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ea534b30263a",
+   "kind": "article",
+   "title": "Anthropic Claude 仅用 3 天完成 AI 模型适配 AMD GPU，英伟达 CUDA 护城河遇挑战",
+   "url": "https://www.ithome.com/1/025/736.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 11 日消息，英伟达 CUDA 生态系统的领先优势，可能正在受到越来越大的挑战。Anthropic IPO 路演材料中的一张幻灯片显示，随着高性能 AI 模型逐渐具备自主适配不同计算平台的能力，GPU 正在变得越来越像可以相互替换的通用算力资源。 IT之家注意到，Anthropic 的 IPO 路演材料披露了一项颇为引人关注的信息：其 Claude Mythos Preview 模型仅用了大约 3 天时间，就摸索出如何让另一个模型在 AMD MI355X GPU 上运行。相比之下，传统情况下，为一个新的计算平台完成推理任务所需的适配工作，通常需要 6 至 12 个月。 这意味着，Anthropic 现在可以将不同厂商的 GPU 视为相对通用的算力资源，在不同平台之间切换的技术门槛已经大幅降低。也正因如此，有观点开始认为，英伟达长期以来引以为傲的 CUDA 生态护城河，实际上可能已经失去了原有的意义。 不过，现在就宣告英伟达 CUDA 生态优势的终结，恐怕还为时过早。CUDA 不仅仅是一套软件工具，其背后还有规模庞大的开发者生态、丰富的函数库和开发工具，以及经过多年持续优化的技术积累。目前，仍有大量开发者围绕 CUDA 构建和维护各类应用。 过去几年，英伟达也一直在采取各种措施巩固 CUDA 的竞争优势。例如，公司向大学和科研人员免费提供 GPU 及培训资源，吸引更多开发者进入 CUDA 生态。 此外，英伟达还将用于连接多块 GPU 的通信工具库 NVIDIA Collective Communications Library（NCCL），与 NVLink、InfiniBand 等专有硬件技术深度结合，进一步提高多 GPU 协同计算的效率，也增加了用户迁移至其他平台的成本。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-11T11:26:23+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/025/736.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Claude三天适配AMD GPU，CUDA护城河受挑战",
+   "summary_zh": "Anthropic路演材料显示Claude仅用3天让模型在AMD MI355X上运行，远快于传统6-12个月，GPU或趋于通用化。",
+   "highlights_zh": [
+    "Claude Mythos Preview自主摸索跨平台适配",
+    "适配周期从6-12个月压缩至3天",
+    "CUDA生态仍有开发者与库积累，断言终结为时尚早"
+   ],
+   "why_zh": "AI自主适配硬件若成立，将重塑GPU竞争格局与算力成本。",
+   "tags": [
+    "效率与系统",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-11",
+   "slot": "evening",
+   "selected_at": "2026-11-11T12:35:48+00:00",
+   "mirror_pdf": "pdf/web-ea534b30263a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/025/736.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-951df531bf3f",
+   "kind": "article",
+   "title": "上下文也是成本：Agent 效率优化的新思路 ｜ 技术趋势",
+   "url": "https://www.infoq.cn/article/iaCUbU8Fwz6G6bDlQ9BV?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "Snowflake"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-11T19:05:46+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/iaCUbU8Fwz6G6bDlQ9BV?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "上下文也是成本：Agent 效率优化新思路",
+   "summary_zh": "InfoQ 与 Snowflake 合作文章讨论 Agent 场景下上下文窗口的隐性成本，提出压缩、缓存与调度等效率优化思路，指向 Agent 工程化的成本控制问题。",
+   "highlights_zh": [
+    "把上下文长度视为可量化的成本项而非免费资源",
+    "涉及上下文压缩、缓存复用与调度策略",
+    "面向 Agent 生产落地的工程视角"
+   ],
+   "why_zh": "做 Agent 落地时，上下文成本往往是账单黑洞，这篇给出可参考的优化方向。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-11",
+   "slot": "evening",
+   "selected_at": "2026-11-11T12:35:48+00:00",
+   "mirror_pdf": "pdf/web-951df531bf3f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/iaCUbU8Fwz6G6bDlQ9BV?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-907277f514df",
+   "kind": "article",
+   "title": "Agent 正在终结 Pull Request？连 GitHub 也开始重新审视传统开发流程",
+   "url": "https://www.infoq.cn/article/x0B056QFxzYEewT1Et34?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "林绮蓓"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-11T17:40:57+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/x0B056QFxzYEewT1Et34?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Agent 正在终结 Pull Request？GitHub 也在重新审视开发流程",
+   "summary_zh": "文章指出 Agent 直接产出并合并代码，正在冲击以 Pull Request 为核心的评审流程，GitHub 等平台开始调整协作与审查机制。",
+   "highlights_zh": [
+    "Agent 生成代码使 PR 评审模式承压",
+    "GitHub 层面开始重新设计开发流程",
+    "涉及代码审查、责任归属与质量门禁"
+   ],
+   "why_zh": "开发协作范式的结构性变化，做研发效能与代码平台的团队必读。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-11",
+   "slot": "evening",
+   "selected_at": "2026-11-11T12:35:48+00:00",
+   "mirror_pdf": "pdf/web-907277f514df.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/x0B056QFxzYEewT1Et34?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9a71954743d2",
+   "kind": "article",
+   "title": "Datadog 推出面向 SRE 故障排查的专用 AI 模型",
+   "url": "https://www.infoq.cn/article/py4PRbBWJSPm5aV10gHq?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Matt Saunders"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-11T17:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/py4PRbBWJSPm5aV10gHq?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Datadog 推出 SRE 故障排查专用 AI 模型",
+   "summary_zh": "Datadog 发布面向 SRE 故障排查场景的专用 AI 模型，针对可观测性数据做领域优化，提升告警归因与根因定位效率。",
+   "highlights_zh": [
+    "头部可观测性厂商自研垂直领域模型",
+    "面向告警归因与根因分析场景",
+    "体现专用小模型替代通用大模型的趋势"
+   ],
+   "why_zh": "垂直领域专用模型在运维场景落地的典型样本，值得关注其效果边界。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-11",
+   "slot": "evening",
+   "selected_at": "2026-11-11T12:35:48+00:00",
+   "mirror_pdf": "pdf/web-9a71954743d2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/py4PRbBWJSPm5aV10gHq?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-eda0e17b9237",
+   "kind": "article",
+   "title": "中国55%的Token烧在短剧，美国58%烧在代码：Token的流向，暴露了AI的两种“活法”",
+   "url": "https://www.tmtpost.com/8198782.html",
+   "pdf_url": "",
+   "abstract": "本文通过核验 GitHub Copilot 用户与付费订阅数据、AI 短剧算力成本，厘清行业容易混淆的两组关键数字，对比流量型与生产力型 AI 的差异，拆解 Token 流向背后的商业逻辑，剥离行业流传的不实叙事，还原当下 AI 产业真实的付费与成本面貌。",
+   "authors": [
+    "斯凯有话说"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-11T06:35:11+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8198782.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Token流向揭示两种AI活法：中国烧短剧，美国烧代码",
+   "summary_zh": "核验GitHub Copilot与AI短剧算力成本数据，对比流量型与生产力型AI的差异，拆解Token流向背后的商业逻辑，剥离行业不实叙事。",
+   "highlights_zh": [
+    "中国55%的Token消耗集中在短剧等流量型场景，美国58%在代码等生产力场景",
+    "厘清易混淆的Copilot用户与付费订阅数据",
+    "还原AI产业真实的付费与成本面貌"
+   ],
+   "why_zh": "用Token流向数据看清中美AI商业模式的根本分野。",
+   "tags": [
+    "产品与行业",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-11",
+   "slot": "evening",
+   "selected_at": "2026-11-11T12:35:48+00:00",
+   "mirror_pdf": "pdf/web-eda0e17b9237.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8198782.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a6b8881d159d",
+   "kind": "article",
+   "title": "姚期智杨植麟联手，让数学家松了一口气",
+   "url": "https://www.tmtpost.com/8200965.html",
+   "pdf_url": "",
+   "abstract": "没有任何模型能真正解决开放猜想。",
+   "authors": [
+    "字母AI"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-11T06:35:07+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8200965.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "姚期智杨植麟联手：AI辅助数学证明的新进展",
+   "summary_zh": "报道姚期智与杨植麟团队在AI辅助数学研究上的合作，指出当前没有任何模型能真正解决开放猜想，但AI在形式化证明与辅助推理上已有实质进展。",
+   "highlights_zh": [
+    "姚期智与杨植麟联手推进AI+数学交叉研究",
+    "明确边界：模型尚不能解决开放猜想，定位在辅助证明",
+    "反映科学AI在形式化推理方向的最新动向"
+   ],
+   "why_zh": "了解顶级学者对AI在数学研究中能力边界的判断。",
+   "tags": [
+    "科学AI",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-11",
+   "slot": "evening",
+   "selected_at": "2026-11-11T12:35:48+00:00",
+   "mirror_pdf": "pdf/web-a6b8881d159d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8200965.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2694b2f6cb31",
+   "kind": "article",
+   "title": "不能再随便用：高盛、思科等企业开始对员工 AI 使用设限",
+   "url": "https://www.ithome.com/1/025/734.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 11 日消息，据《商业内幕》报道，在过去几年不断鼓励员工拥抱 AI 技术之后，包括高盛、思科和摩根大通在内的企业，正开始采取更有针对性的 AI 部署策略。从设定使用预算、追踪调用量，到限制特定员工或工具的访问权限，这些不同的管理措施背后，是企业在不断加大 AI 投入的同时，也希望降低相关安全风险。 麦肯锡公司（McKinsey & Company）技术、媒体和电信业务高级合伙人拉里 · 哈马莱宁（Lari Hämäläinen）表示，越来越多的企业意识到，员工使用 AI 的频率正在“大幅上升”，因此有必要为其设定明确的使用规范和限制。 高盛董事长兼首席执行官戴维 · 所罗门（David Solomon）本月表示，尽管该银行正在迅速扩大 AI 工具的覆盖范围，让旗下 4.5 万名员工都能使用更多 AI 产品，但并没有必要让所有员工每天都能访问最先进的模型。 他在接受彭博电视采访时表示：“某些工作确实需要最前沿的模型，尤其是网络安全领域。”但他同时指出，“很多工作并不需要最前沿的模型”，普通 AI 工具就足以帮助员工提高效率。 另一些企业则在最初采取相对宽松的政策推动员工使用 AI 后，开始限制相关开支。 思科首席产品官吉图 · 帕特尔（Jeetu Patel）上个月在 CXOTalk 播客节目中，将公司早期的 AI 推广策略比作学习骑自行车。当时，思科允许开发团队连续数月无限量使用 AI 编程工具的 Token，让员工先熟悉并掌握 AI 技术，而不是一开始就考虑使用效率。 随着使用量不断增长，帕特尔表示，他计划为旗下拥有 3.2 万名员工的团队中的各级管理人员设定 Token 使用预算。 此前，《商业内幕》报道称，摩根大通已于今年 9 月对部分工程师使用 Anthropic 旗下 Claude Code 的额度设置了限制，每月上限为 2,000 美元 （IT之家注：现汇率约合 13,376 元人民币） 。 该银行发言人表示，公司正在将 AI 使用成本与生产效率、工作质量、风险降低程度以及实际业务影响挂钩。 企业开始加强对员工 AI 使用情况的管理，距离一些公司公开炫耀员工消耗了多少 Token，其实还不到几个月。 Visa 曾表示，公司每月的 Token 使用量从今年 2 月的 1 万亿增长至 3 月的近 2 万亿，并为 AI 使用量最大的员工提供奖励。 今年 3 月，英伟达首席执行官黄仁勋（Jensen Huang）表示，公司计划每年为工程师使用 Token 投入最高 20 亿美元 （现汇率约合 133.76 亿元人民币） 。他甚至开玩笑称，如果一名年薪 50 万美元 （现汇率约合 334.4 万元人民币） 的工程师只使用了价值不到 25 万美元 （现汇率约合 167.2 万元人民币） 的 Token，他会“感到非常担忧”。 与此同时，一些企业还推出了数据看板，让管理层能够更直观地了解员工使用 AI 的情况，有时也借此鼓励更多员工参与。 例如，今年 4 月迪士尼推出的 AI 使用数据看板显示，公司使用 AI 最频繁的员工平均每天会发起数百次请求，Token 消耗量达到数千万级别。 类似地，毕马威美国（KPMG US）今年 5 月表示，希望通过为咨询业务部门推出数据看板，鼓励旗下约 1 万名员工更加频繁、更加深入地使用 AI。 不过，随着员工逐渐将 AI 融入日常工作，毕马威目前已经停止通过该数据看板监控 AI 使用情况。公司发言人透露，相关工具已经完成了原本的推广任务。 企业开始追求每个 Token 的实际价值 如今，AI 开",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-11T11:18:18+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/025/734.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "高盛思科等企业开始限制员工AI使用",
+   "summary_zh": "高盛、思科、摩根大通等从鼓励转向精细管理AI使用，设Token预算、限制模型访问，平衡成本与安全。",
+   "highlights_zh": [
+    "高盛称并非所有员工都需最前沿模型",
+    "思科将为各级管理者设Token使用预算",
+    "摩根大通限制Claude Code月额度2000美元"
+   ],
+   "why_zh": "企业AI采购从狂热转向ROI考核，影响模型厂商商业模式。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-11",
+   "slot": "evening",
+   "selected_at": "2026-11-11T12:35:48+00:00",
+   "mirror_pdf": "pdf/web-2694b2f6cb31.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/025/734.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-05a424b7e7f0",
+   "kind": "article",
+   "title": "彭博测算：AI 贡献英国今年约四分之一经济增长",
+   "url": "https://www.ithome.com/1/025/729.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 11 日消息，据彭博经济研究（Bloomberg Economics）经济学家测算，人工智能今年推动了英国约四分之一的经济增长。这也意味着，如果全球 AI 相关资产估值出现大幅回调，英国经济可能面临一定风险。 从数据中心建设到 AI 模型研发，与人工智能相关的经济活动在 2026 年为英国经济增长贡献了 0.45 个百分点。彭博经济研究周三发布的报告显示，今年英国经济整体增幅约为 1.8%，这意味着 AI 相关产业贡献了其中约四分之一。 经济学家安娜 · 安德拉德（Ana Andrade）表示：“这项技术正在为英国经济注入增长动力。” 报告指出，英国受到近期 AI 相关股票抛售潮的影响有多大，取决于这轮市场调整最终会演变成什么局面：究竟是类似金融危机的“无序下跌”，还是相对平稳、有序的估值重新调整。 目前，人工智能对英国经济增长的贡献， 仍主要来自 AI 技术本身的生产和研发，而不是这项技术在整个经济体系中的广泛应用。 安德拉德补充说：“随着人工智能得到更广泛的应用，我们预计，它带来的收益将逐步体现为各个行业生产率的提升。” 彭博经济研究在衡量 AI 产业规模时，综合考虑了多个领域的经济活动，包括计算硬件制造、数据中心建设、AI 模型和应用开发，以及数据存储和云计算相关服务。 IT之家注意到，这份报告进一步印证了人工智能正在成为英国经济增长的重要推动力。英国央行此前估计，今年人工智能技术的推广应用已经贡献了英国约五分之一的经济增长。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-11T10:51:55+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/025/729.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "彭博测算AI贡献英国今年四分之一经济增长",
+   "summary_zh": "彭博经济研究测算AI相关活动为英国2026年经济增长贡献0.45个百分点，约占整体1.8%增幅的四分之一。",
+   "highlights_zh": [
+    "贡献主要来自AI硬件制造与数据中心建设",
+    "AI资产估值回调或成英国经济风险",
+    "英国央行此前估计AI贡献约五分之一增长"
+   ],
+   "why_zh": "量化AI对宏观经济的拉动，提示估值回调的传导风险。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-11",
+   "slot": "evening",
+   "selected_at": "2026-11-11T12:35:48+00:00",
+   "mirror_pdf": "pdf/web-05a424b7e7f0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/025/729.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f18c0fa24109",
+   "kind": "article",
+   "title": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
+   "url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
+   "pdf_url": "",
+   "abstract": "November 10, 2026 — Google GA's Gemini 4 Carbon.",
+   "authors": [
+    "swyx .ai"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-11-11T09:34:28+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "AINews：Mercor完成7.5亿美元D轮，估值200亿",
+   "summary_zh": "Latent Space每日综述：Mercor以200亿美元估值完成7.5亿美元D轮融资，年化收入达30亿美元；同日谷歌Gemini 4 Carbon正式发布。",
+   "highlights_zh": [
+    "Mercor估值200亿美元、年化收入30亿美元",
+    "谷歌Gemini 4 Carbon正式可用",
+    "属每日新闻聚合，单条信息密度有限"
+   ],
+   "why_zh": "可快速了解当日融资与发布动态，但深度有限，适合速览。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 5.0,
+   "score": 0.52,
+   "date": "2026-11-11",
+   "slot": "evening",
+   "selected_at": "2026-11-11T12:35:48+00:00",
+   "mirror_pdf": "pdf/web-f18c0fa24109.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "具身智能竞争从模型能力转向触觉等原生感知层的军备竞赛",
-   "why": "蚂蚁灵波连续开源触觉基础模型，真机成功率提升14–26个百分点，触觉Token化成为新护城河。",
+   "trend": "具身智能从模型竞赛转向触觉等原生感知基建，真机成功率成为硬指标。",
+   "why": "蚂蚁灵波开源触觉基础模型，接入后四类动作模型真机成功率提升14–26个百分点。",
    "refs": [
     "web-90bdca777f02",
     "web-4cd002d21002"
    ]
   },
   {
-   "trend": "智能体评测从单任务正确率转向组织编排能力的度量",
-   "why": "WorkflowArena用145个长周期任务评测委派与工作流编排，评测对象从答案变为协作结构。",
+   "trend": "智能体评测重心从单任务正确率转向组织编排与经验可核验性。",
+   "why": "WorkflowArena评测委派与工作流结构，WikiTrace要求经验可回溯核验。",
    "refs": [
-    "arxiv-2611.12856"
+    "arxiv-2611.12856",
+    "arxiv-2611.14320"
    ]
   },
   {
-   "trend": "轻量模型以成本优势切入高并发场景，价格战向推理侧蔓延",
-   "why": "Meta Muse Ember成本仅Claude Haiku 5.5三分之一，Anthropic同期API降价20%。",
+   "trend": "轻量模型以成本三分之一切入高并发，前沿能力开始按性价比分层定价。",
+   "why": "Meta Muse Ember对标Claude Haiku 5.5主打三分之一推理成本。",
    "refs": [
-    "web-c9449c0a6e8f",
-    "web-c1b54c2747a3"
+    "web-c9449c0a6e8f"
    ]
   },
   {
-   "trend": "AI资本叙事与信用风险同步放大，基础设施杠杆扩张承压",
-   "why": "Anthropic估值冲1.4万亿、高盛预测6000亿营收，而CoreWeave债券收益率破16%示警。",
+   "trend": "AI资本进入信用定价阶段，高杠杆算力扩张开始被债券市场惩罚。",
+   "why": "CoreWeave债券收益率破16%，反映市场对AI基础设施高杠杆扩张的担忧。",
    "refs": [
-    "web-451f53834b76",
-    "web-2d64ba6eaf90",
     "web-458bb1a34baf"
    ]
   },
   {
-   "trend": "端侧大模型与本地部署成为算力自主的新战场",
-   "why": "麒麟9050支持30B MoE端侧推理，AMD本地跑GLM-5.3达前沿98%性能。",
+   "trend": "端侧NPU跨过30B MoE门槛，本地推理从演示走向可部署形态。",
+   "why": "华为麒麟9050 NPU性能提升140%、功耗降66%，支持30B MoE端侧运行。",
    "refs": [
-    "web-c28b42e22437",
-    "web-02db26f88db7"
+    "web-c28b42e22437"
    ]
   }
  ]
