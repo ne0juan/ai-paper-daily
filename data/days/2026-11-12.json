@@ -2069,44 +2069,1297 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-7d8321c30b48",
+   "kind": "article",
+   "title": "ggml-org/llama.cpp",
+   "url": "https://github.com/ggml-org/llama.cpp",
+   "pdf_url": "",
+   "abstract": "Star ggml-org / llama.cpp LLM inference in C/C++",
+   "authors": [],
+   "orgs": [
+    "ggml-org"
+   ],
+   "published": "2026-11-12T13:43:16+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/ggml-org/llama.cpp",
+     "signal": "★ 今日 +162 · C++",
+     "metric": 162
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "llama.cpp：C/C++ 实现的大模型推理",
+   "summary_zh": "llama.cpp 用 C/C++ 实现高效 LLM 推理，是本地与边缘部署大模型的核心基础设施项目。",
+   "highlights_zh": [
+    "纯 C/C++ 实现，跨平台高效推理",
+    "支持量化，适配消费级硬件",
+    "本地部署生态的事实标准之一"
+   ],
+   "why_zh": "如果你要在本地或边缘跑模型，它是绕不开的推理底座。",
+   "tags": [
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.5489,
+   "score_llm": 8.0,
+   "score": 0.6996,
+   "date": "2026-11-12",
+   "slot": "evening",
+   "selected_at": "2026-11-12T13:43:16+00:00",
+   "mirror_pdf": "pdf/web-7d8321c30b48.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/ggml-org/llama.cpp"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-65f8a2e3eddb",
+   "kind": "article",
+   "title": "openai/codex-security",
+   "url": "https://github.com/openai/codex-security",
+   "pdf_url": "",
+   "abstract": "Star openai / codex-security OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security\nREADME: # Codex Security Codex Security helps you find, investigate, and fix vulnerabilities in your code. Use its security workflows in Codex, or automate them with the `@openai/codex-security` CLI and TypeScript SDK. - **In Codex:** [choose a security workflow](docs/agent-workflows.md). - **In a terminal:** [install the CLI and scan your repository](#quick-start). - **In automation:** use the [TypeScript SDK](#typescript-sdk) or [GitHub Action](#github-actions). ## Features - Scan repositories, selected paths, or Git changes. Deep scans repeat Standard scans and return their deduplicated findings. - Validate candidate findings, generate patches, and verify existing fixes. - Draft `SECURITY.md` policies and save threat models for later review. - Browse saved scans and findings, identify duplicates, assess severity against your own rubric, and suggest owners from source and Git history. - Preview third-party scanner findings, save them locally, or publish supported reports to Codex Security Cloud. [Scanner import guides](docs/scanner-imports/README.md). - Track findings in Linear, Jira, or GitHub, publish completed scans, or export SARIF, JSON, and CSV. [Integration workflows](docs/plugin-connectors.md). - Automate scans across repositories or project components, including in CI and containers. ## Use in Codex Open your repository in a Codex session with the Codex Security plugin enabled, then ask: > Run a Codex Security scan on this repository, focusing on authentication and > autho",
+   "authors": [],
+   "orgs": [
+    "openai"
+   ],
+   "published": "2026-11-12T13:43:16+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/openai/codex-security",
+     "signal": "★ 今日 +663 · TypeScript",
+     "metric": 663
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 开源 Codex 安全工具链",
+   "summary_zh": "OpenAI 发布 Codex Security CLI 与 TypeScript SDK，可扫描仓库、验证漏洞、生成补丁并导出 SARIF，还能接入 Jira、Linear 与 GitHub Action。",
+   "highlights_zh": [
+    "支持标准扫描与深度扫描，深度扫描会去重并复核已有发现",
+    "可生成补丁、验证修复、起草 SECURITY.md 与威胁模型",
+    "提供 CLI、SDK、GitHub Action 三种接入方式，可导出 SARIF/JSON/CSV"
+   ],
+   "why_zh": "安全团队可把漏洞扫描与修复验证直接嵌入 CI 和现有工单系统。",
+   "tags": [
+    "智能体",
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6865,
+   "score_llm": 7.0,
+   "score": 0.6946,
+   "date": "2026-11-12",
+   "slot": "evening",
+   "selected_at": "2026-11-12T13:43:16+00:00",
+   "mirror_pdf": "pdf/web-65f8a2e3eddb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/openai/codex-security"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f3e91f75ed13",
+   "kind": "article",
+   "title": "Atuin Threads: All your agent sessions on every machine",
+   "url": "https://blog.atuin.sh/threads-agent-sessions/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-11T14:10:46Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50453637",
+     "signal": "226 pts",
+     "metric": 226
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Atuin Threads：跨设备同步所有智能体会话",
+   "summary_zh": "Atuin 推出 Threads 功能，让用户在多台机器间同步智能体会话记录，解决跨设备协作与上下文延续问题。",
+   "highlights_zh": [
+    "支持多设备间同步智能体会话历史",
+    "延续 Atuin 的 shell 历史管理思路",
+    "面向重度智能体用户的跨机工作流"
+   ],
+   "why_zh": "多设备智能体工作流是真实痛点，值得关注其同步与上下文管理方案。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5744,
+   "score_llm": 7.0,
+   "score": 0.6498,
+   "date": "2026-11-12",
+   "slot": "evening",
+   "selected_at": "2026-11-12T13:43:16+00:00",
+   "mirror_pdf": "pdf/web-f3e91f75ed13.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blog.atuin.sh/threads-agent-sessions/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50453637"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b144c8395c61",
+   "kind": "article",
+   "title": "An Interview With Roblox CEO David Baszucki About Aggregating Play",
+   "url": "https://stratechery.com/2026/an-interview-with-roblox-ceo-david-baszucki-about-aggregating-play/",
+   "pdf_url": "",
+   "abstract": "An interview with Roblox CEO David Baszucki about how AI is transforming game creation, and why that opens up huge opportunities to both enable developers and make Roblox both an Aggregator and a platform.",
+   "authors": [
+    "Ben Thompson"
+   ],
+   "orgs": [
+    "Stratechery"
+   ],
+   "published": "2026-11-12T11:00:00+00:00",
+   "sources": [
+    {
+     "name": "Stratechery",
+     "authority": 0.8,
+     "url": "https://stratechery.com/2026/an-interview-with-roblox-ceo-david-baszucki-about-aggregating-play/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Ben Thompson，科技战略分析",
+   "title_zh": "Roblox CEO谈AI如何重塑游戏创作与聚合平台",
+   "summary_zh": "Roblox CEO Baszucki 认为 AI 大幅降低游戏创作门槛，将同时放大开发者供给与平台聚合效应，使 Roblox 兼具聚合器与平台双重身份。",
+   "highlights_zh": [
+    "AI 降低创作门槛，扩大开发者与内容供给",
+    "平台同时扮演聚合器与创作工具双重角色",
+    "AI 原生创作对平台商业模式的影响"
+   ],
+   "why_zh": "头部平台CEO对AI改变内容生产与平台格局的明确判断。",
+   "tags": [
+    "产品与行业",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.648,
+   "date": "2026-11-12",
+   "slot": "evening",
+   "selected_at": "2026-11-12T13:43:16+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://stratechery.com/2026/an-interview-with-roblox-ceo-david-baszucki-about-aggregating-play/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f791d596ac04",
+   "kind": "article",
+   "title": "n8n-io/n8n",
+   "url": "https://github.com/n8n-io/n8n",
+   "pdf_url": "",
+   "abstract": "Star n8n-io / n8n Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.\nREADME: ![Banner image](https://raw.githubusercontent.com/n8n-io/n8n/master/assets/readme-banner.jpg) # n8n – The Platform for AI Agents and Workflow Automation Fair-code platform to build and deploy AI agents and workflows. Combine a visual canvas with custom code, run it self-hosted or in the [cloud](https://app.n8n.cloud/login), and connect to 1500+ integrations. AI automation you can trust with real work, from prototype to production. ![n8n.io - Screenshot](https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot-readme.png) ## Key Capabilities - **AI-Native Automation Platform**: Build and operationalize AI workflows and multi-step agents using your own data, models, and tools - **Model Flexibility, No Lock-In**: Connect to OpenAI, Anthropic, Google, or open-source models and switch providers without changing your architecture - **From Prototype to Production**: Design multi-step AI workflows with logic, tool use, human approvals, and full observability - **Code When You Need It**: Combine visual building with JavaScript, Python, and npm packages for advanced AI workflows - **Enterprise-Ready AI**: Self-host or deploy securely with role-based access, audit trails, and support for sensitive data - **Leverage What Already Exists**: 1500+ integrations and 9,000+ workflow [templates](https://n8n.io/workflows) to connect AI with your existing systems ## Quick Start Try n8n instantly with our install script (requires [Docker](https://www.docker.com/)): ```sh curl -fsS",
+   "authors": [],
+   "orgs": [
+    "n8n-io"
+   ],
+   "published": "2026-11-12T13:43:16+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/n8n-io/n8n",
+     "signal": "★ 今日 +220 · TypeScript",
+     "metric": 220
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "n8n：原生 AI 的工作流自动化平台",
+   "summary_zh": "n8n 是可视化加代码的工作流自动化平台，内置 AI 能力，可自托管或云端部署，连接 1500+ 集成。",
+   "highlights_zh": [
+    "可视化画布结合 JS/Python 自定义代码",
+    "支持 OpenAI、Anthropic、Google 及开源模型自由切换",
+    "自托管部署，具备 RBAC 与审计日志"
+   ],
+   "why_zh": "如果你在搭建多步智能体工作流，可用它把工具调用、人工审批和可观测性串起来。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5614,
+   "score_llm": 7.0,
+   "score": 0.6446,
+   "date": "2026-11-12",
+   "slot": "evening",
+   "selected_at": "2026-11-12T13:43:16+00:00",
+   "mirror_pdf": "pdf/web-f791d596ac04.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/n8n-io/n8n"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.14511",
+   "kind": "paper",
+   "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents",
+   "url": "https://arxiv.org/abs/2611.14511",
+   "pdf_url": "https://arxiv.org/pdf/2611.14511",
+   "abstract": "Predicting how a ligand binds to its target is central to small-molecule drug discovery. Modern cofolding models can generate diverse candidate poses, but reliably ranking these candidates remains challenging. We introduce Pyrite, a pairwise pose-ranking benchmark comprising 1,500 pose pairs across diverse protein-ligand complexes. Expert chemists equipped with 3D visualization tools and physics-based scores perform near chance, highlighting the difficulty of interpreting available chemical signals. To investigate automated ranking, we introduce PyriteRep, a structured representation of molecular geometry, protein-ligand interactions, and physicochemical scores, and develop two LLM-based agents: PyriteReasoner, which directly compares poses through text-based reasoning, and PyriteFeaturizer, which generates executable code to construct features for logistic regression, optionally incorporating features derived from LLM subcalls. These agents achieve up to 67% and 74% accuracy, respectively, exceeding observed expert performance. LLM-guided feature discovery generally outperforms direct reasoning, while Group Relative Policy Optimization (GRPO) improves open-weight models, enabling them to match or surpass closed-source frontier models in our evaluations. These results establish Pyrite as a challenging test of pose-ranking ability and highlight LLM-guided feature discovery as a promising approach to interpret and combine the outputs of computational chemistry tools.",
+   "authors": [
+    "Megha Srivastava",
+    "Michael H. Lim",
+    "Allison M. Keys",
+    "Pranav Murugan",
+    "Nate Gruver"
+   ],
+   "orgs": [],
+   "published": "2026-11-10T18:56:32Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.14511",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Pyrite：蛋白质-配体构象排序智能体基准",
+   "summary_zh": "针对共折叠模型生成候选构象难以排序的问题，构建1500对构象的基准，发现专家化学家接近随机水平；基于LLM的代码生成式特征发现智能体达74%准确率，超过专家。",
+   "highlights_zh": [
+    "专家化学家借助3D可视化与物理打分仍接近随机，凸显任务难度",
+    "PyriteFeaturizer生成可执行代码构造特征，准确率74%优于直接推理的67%",
+    "GRPO训练使开源模型追平甚至超越闭源前沿模型"
+   ],
+   "why_zh": "证明LLM引导的特征发现优于直接推理，为科学AI智能体设计提供可复用范式。",
+   "tags": [
+    "科学AI",
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-12",
+   "slot": "evening",
+   "selected_at": "2026-11-12T13:43:16+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.14511.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.14511"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.14511"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.14511"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.14511"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.14511"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.14511"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.14419",
+   "kind": "paper",
+   "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
+   "url": "https://arxiv.org/abs/2611.14419",
+   "pdf_url": "https://arxiv.org/pdf/2611.14419",
+   "abstract": "Formal world models can support planning, verification, and safety reasoning, but constructing them from open-ended natural-language situations is difficult, particularly in multi-agent settings where several formalizations may be plausible. We study whether five LLMs can generate such world models as partially observable stochastic games and whether mechanical validity is sufficient to establish that the resulting model faithfully represents the intended decision problem. We introduce a benchmark of 44 scenarios spanning game, situational, and cultural settings and evaluate generated world models along three dimensions: mechanical validity, reference-relative structural agreement, and semantic criteria. Across three empirical tracks, we analyze 410 first-pass generations. In the reference-backed game track, 134/135 generated world models pass a strict mechanical audit, yet mean permutation-invariant structural F1 is only 0.366, with just 28/134 mechanically valid models exactly matching the authored reference. In the cultural track, explicitly naming the country changes the generated structural representation for most LLMs while producing only small changes in automated semantic scores. These results show that executability is a necessary but insufficient criterion for LLM-generated world models: models that are mechanically valid can still differ substantially in the structure used by downstream neuro-symbolic reasoning and planning.",
+   "authors": [
+    "Souhaila Djaffal",
+    "Amna Jamal",
+    "Gagana Madhugiri Devaraja",
+    "Anidipta Pal",
+    "Jobst Heitzig"
+   ],
+   "orgs": [],
+   "published": "2026-11-10T17:58:12Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.14419",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "LLM生成世界模型用于神经符号推理的评测",
+   "summary_zh": "构建44个场景基准，检验五个LLM能否把自然语言情境生成为部分可观测随机博弈；134/135个模型通过机械有效性审计，但结构F1仅0.366，仅28个与参考完全一致。",
+   "highlights_zh": [
+    "可执行不等于忠实：机械有效但结构偏差巨大",
+    "文化场景中仅点明国家名就显著改变结构表示",
+    "提出机械有效性、结构一致性、语义三维度评测框架"
+   ],
+   "why_zh": "揭示LLM世界模型可执行性与忠实性的鸿沟，对规划与安全推理至关重要。",
+   "tags": [
+    "理论",
+    "对齐与安全",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-12",
+   "slot": "evening",
+   "selected_at": "2026-11-12T13:43:16+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.14419.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.14419"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.14419"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.14419"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.14419"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.14419"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.14419"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.14364",
+   "kind": "paper",
+   "title": "ARE-bench: Benchmarking Agents' Research Ability in Real-World Researcher Sessions and Workspaces",
+   "url": "https://arxiv.org/abs/2611.14364",
+   "pdf_url": "https://arxiv.org/pdf/2611.14364",
+   "abstract": "Research agents achieve increasingly strong benchmark scores, yet these scores do not necessarily translate into reliable delivery in ongoing research projects. Many research-agent benchmarks emphasize standalone tasks and relatively self-contained workflows in clean or curated workspaces. However, researchers ask agents to complete one step within an ongoing project, where requests depend on earlier session decisions and workspaces contain unfinished files, outdated versions, and failed attempts. We introduce ARE-bench to evaluate whether research agents advance ongoing projects while respecting prior decisions and existing workspace state, grounded in real session context and in-progress workspaces. ARE-bench includes 75 tasks built on agent sessions and full workspaces from recruited researchers' own projects, spanning seven research stages, 33 requirements, and 150 sub-requirements, with 1,173 binary checklist items in total. Each task is anchored at a real user request, preserves its requirements, and summarizes the earlier requests still in effect as background. The complete workspace is replayed to that boundary without cleanup, preserving artifacts from earlier turns. Each checklist is compiled from an intent-aligned rubric and credits any valid solution. Across seven frontier models, the strongest passes every checklist item on only 66.2% of tasks, and Design and Execution rank among the hardest stages for every model. Three models pass about 69% of tasks when only delivery contracts and general norms are checked, but just 28.4% to 40.0% once historical and material or workspace requirements are also checked. Evaluating delivery without these contextual requirements can therefore overestimate research agents and mask differences between them.",
+   "authors": [
+    "Jiahang Lin",
+    "Wanying Ren",
+    "Wanghan Xu",
+    "Huayu Sha",
+    "Yang Shu",
+    "Zhonghang Lu",
+    "Chengjun Pan",
+    "Yi Dong",
+    "Shichun Liu",
+    "Yuyang Hu",
+    "Shihan Dou",
+    "Honglin Guo",
+    "Huijie Lv",
+    "Pujun Zheng",
+    "Zhe Sun",
+    "Yuankai Ying",
+    "Yiding Wang",
+    "Jiahao Chen",
+    "Zhixiong Yang",
+    "Dingbo Yuan",
+    "Yicheng Zou",
+    "Zhecan Wang",
+    "Guoxiu He",
+    "Xiaoyu Xing",
+    "Qi Zhang",
+    "Tao Gui",
+    "Xuanjing Huang"
+   ],
+   "orgs": [],
+   "published": "2026-11-10T17:21:31Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.14364",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "ARE-bench：真实科研会话中的智能体研究能力评测",
+   "summary_zh": "基于真实研究者的会话与未清理工作区构建75个任务、1173条检查项，考察智能体能否在延续项目中尊重先前决策；最强前沿模型仅66.2%任务全部通过。",
+   "highlights_zh": [
+    "工作区保留未完成文件、过时版本与失败尝试，不做清理",
+    "覆盖7个研究阶段、33项要求、150项子要求",
+    "设计与执行阶段是主要失分点"
+   ],
+   "why_zh": "现有基准高分的智能体在真实科研流程中大幅掉分，指明落地差距。",
+   "tags": [
+    "智能体",
+    "数据与评测",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-12",
+   "slot": "evening",
+   "selected_at": "2026-11-12T13:43:16+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.14364.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.14364"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.14364"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.14364"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.14364"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.14364"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.14364"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.14333",
+   "kind": "paper",
+   "title": "AI Isn't Getting Dumber, We're Getting Pickier: Rising Standards in Human Evaluation of Large Language Models",
+   "url": "https://arxiv.org/abs/2611.14333",
+   "pdf_url": "https://arxiv.org/pdf/2611.14333",
+   "abstract": "Users often complain that AI assistants such as ChatGPT are getting worse. Some versions do change, but human evaluation leaves a second possibility untested: the people judging may change. We separate the two on Chatbot Arena, a public platform where people compare answers from two anonymous large language models (LLMs) and pick the better one or say both are bad. We study 1,260,967 blind votes cast from May 2023 to August 2024 on pairs of models whose versions are fixed: dated vendor snapshots and models with fixed open weights. For the same pair of unchanged models, the share of votes saying \"both are bad\" rises by 1.71 percentage points a month on a mean of 17.1%, and by 1.91 points a month in 2024. In fourteen pairs observed often in both 2023 and 2024, it rose in every one, from 15.5% to 23.3%. The ranking does not trend: in 2024, the stronger model's share of decisive votes is flat. The rise holds within the same voter and on the same pair, and across arrival cohorts from their first recorded vote. It holds with prompt controls, in every major language, for dated vendor snapshots, open-weight models and models with stable answer length, and between interface changes. The drift is shared across models: month effects estimated from other models' pairs remove it from each model's own pairs. Platform-wide, the average model would be expected to score 78% against the 2023 average, yet the share of \"both are bad\" votes ended near where it began. The pattern fits a standard that follows the category's progress, so a product that stands still is judged as declining. Absolute verdicts on AI drifted while relative comparisons held steady, an evaluation drift that matters for LLM leaderboards and for the human feedback used to train models.",
+   "authors": [
+    "Zihan Chen",
+    "Lei Nico Zheng",
+    "Di Zhu"
+   ],
+   "orgs": [],
+   "published": "2026-11-10T16:56:16Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.14333",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AI没变笨，是人变挑剔了：LLM人类评测标准上升",
+   "summary_zh": "分析Chatbot Arena超126万盲投票发现，同一对固定版本模型间「两个都差」的比例每月上升约1.7个百分点，而强弱模型胜负比保持平稳，说明是评价者标准在漂移。",
+   "highlights_zh": [
+    "2024年「都差」比例从15.5%升至23.3%，14对模型无一例外",
+    "同一投票者、同一模型对内部同样成立，排除模型变化",
+    "跨语言、跨厂商快照、跨界面改版均稳健"
+   ],
+   "why_zh": "提醒模型评测需校正人类标准漂移，否则会误判模型能力趋势。",
+   "tags": [
+    "数据与评测",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-12",
+   "slot": "evening",
+   "selected_at": "2026-11-12T13:43:16+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.14333.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.14333"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.14333"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.14333"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.14333"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.14333"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.14333"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-53bc56e14c08",
+   "kind": "article",
+   "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+   "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-11T21:24:35Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50458900",
+     "signal": "589 pts",
+     "metric": 589
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "美联航禁止 AI 代理代订机票",
+   "summary_zh": "美联航禁止 AI 智能体代替旅客订票，反映企业开始对自动化代理的访问权限设限，是智能体落地遇到的首批商业边界案例。",
+   "highlights_zh": [
+    "航司主动封堵自动化订票代理",
+    "涉及代理身份识别与访问控制",
+    "预示智能体与平台条款的冲突将增多"
+   ],
+   "why_zh": "做浏览器/订票类智能体的团队需关注平台反自动化政策风险。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6191,
+   "score_llm": 6.0,
+   "score": 0.6076,
+   "date": "2026-11-12",
+   "slot": "evening",
+   "selected_at": "2026-11-12T13:43:16+00:00",
+   "mirror_pdf": "pdf/web-53bc56e14c08.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50458900"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cce714811b51",
+   "kind": "article",
+   "title": "Gemini Decisions API",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-11T18:32:42Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50456791",
+     "signal": "477 pts",
+     "metric": 477
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "谷歌推出 Gemini Decisions API",
+   "summary_zh": "谷歌发布 Gemini Decisions API，面向需要结构化决策输出的场景，让模型按预定义选项给出可解析的判断结果。",
+   "highlights_zh": [
+    "面向结构化决策而非自由文本",
+    "便于接入业务规则与自动化流程",
+    "Hacker News 讨论热度较高"
+   ],
+   "why_zh": "做分类、路由、审批类智能体时值得评估其结构化输出能力。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6093,
+   "score_llm": 6.0,
+   "score": 0.6037,
+   "date": "2026-11-12",
+   "slot": "evening",
+   "selected_at": "2026-11-12T13:43:16+00:00",
+   "mirror_pdf": "pdf/web-cce714811b51.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50456791"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-29642905d8f6",
+   "kind": "article",
+   "title": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛",
+   "url": "https://www.qbitai.com/2026/11/509440.html",
+   "pdf_url": "",
+   "abstract": "「CAD拆解」",
+   "authors": [
+    "Jay"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-12T11:36:20+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/509440.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "MiniMax开源SOTA生图模型，原生4K一张两毛",
+   "summary_zh": "MiniMax开源一款SOTA级文生图模型，支持原生4K输出，单张成本约0.2元，主打CAD类精细结构生成。",
+   "highlights_zh": [
+    "开源SOTA生图模型，原生4K分辨率",
+    "单张生成成本约两毛钱",
+    "擅长CAD拆解类精细结构生成"
+   ],
+   "why_zh": "开源高质量生图模型，关注多模态生成与成本下降的从业者值得一看。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-12",
+   "slot": "evening",
+   "selected_at": "2026-11-12T13:43:16+00:00",
+   "mirror_pdf": "pdf/web-29642905d8f6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/509440.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-94c3e5aae5a6",
+   "kind": "article",
+   "title": "接入多款第三方模型，豆包工作也模型自由了",
+   "url": "http://www.geekpark.net/news/373881",
+   "pdf_url": "",
+   "abstract": "头图来源：豆包工作官网 豆包工作也模型自由了。 11 月 12 日，豆包工作宣布接入 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等多款第三方模型，支持用户按需选型完成任务。同步在模型选择页面标注各模型额度消耗倍率，倍率越低消耗越少，便于用户结合任务需求与使用成本做决策。 同时平台推出两项限时优惠：一是工作日及节假日的指定时段内，使用活动模型可享受额度消耗折扣；二是豆包 2.1 Lite、DeepSeek V4.1 Flash 两款模型限时下调额度消耗倍率，同等任务消耗额度更少。 一、补全多模型，解决「有的选」 本轮更新中，豆包工作一次性接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 三款第三方模型，进一步补齐了模型能力矩阵。 具体来看，三款模型各有侧重，可以分别对应企业不同层级的工作场景：Kimi 3.1 Pro 主打百万字级超长上下文处理能力；GLM 5.3 侧重中文语言理解与生成；DeepSeek V4.1 Flash 以高响应速度和高性价比为核心，定位轻量日常任务。 加上此前已经开放的第三方模型，以及字节跳动自研的豆包 2.1、豆包 2.1 Lite 等主力模型，豆包工作已经具备了覆盖「高端能力型、均衡通用型、轻量效率型」三个层级的模型矩阵。 不同能力、不同定价的模型相互补充，基本可以覆盖企业从核心复杂任务到日常基础工作的多场景 AI 需求。 事实上，豆包工作此前就已向企业客户开放第三方模型能力。本轮扩容并非单纯的数量叠加，而是基于企业真实工作流的场景化补全。 图片来源：豆包工作官网 此外，我们也注意到，豆包工作本次同步更新了 LOGO，大家熟悉的豆包形象就此「持证上岗」，进入了专业办公场景。 二、额度倍率透明化，把成本决策权交还给用户 如果说模型扩容是解决「有没有得选」的问题，那么额度消耗倍率的透明化标注，则是解决「选得明不明白」的问题。 在当前的企业级 AI 市场，成本不透明是很多企业的普遍困扰。不同模型的计费规则各不相同，有的按输入输出 token 计费，有的按调用次数收费，不同单位之间换算复杂，普通用户很难快速判断一款模型的实际使用成本。 很多团队在使用过程中，往往难以预估单任务开销，直到账单出来才发现超出预算，也很难追溯成本的具体构成。 针对这一问题，豆包工作在模型选择页面统一标注了各模型的额度消耗倍率—— 倍率系数越低，同等任务消耗的平台额度越少。所有模型的消耗标准统一到同一额度体系下，用户选型时可直观对比成本差异，结合任务优先级与预算快速决策，也便于企业做部门的成本管控。 在简单小额任务免费的基础上，豆包工作同步上线两项限时优惠政策，进一步压低使用成本： 一是指定时段折扣，工作日及节假日的优惠时段内使用活动模型，可享受额度消耗减免，兼顾用户成本与平台算力效率； 二是高频模型降倍率，针对豆包 2.1 Lite 与 DeepSeek V4.1 Flash 两款日常高频使用的轻量模型，限时下调消耗倍率，同等任务消耗更少，提升全员日常使用的额度耐用性。 当大模型的基础能力逐渐拉平，如何帮企业把 AI 用起来、用得划算，才是落地的关键。从提供单一模型，到提供多模型矩阵；从黑盒计费，到透明化成本管控，豆包工作的产品迭代路径，契合了企业 AI 从「尝鲜」到「常态化生产工具」的转变趋势。 再往前看一步，当模型足够多、倍率足够清晰，用户可能连「选哪个模型」都不需要亲自操心，平台基于任务类型自动路由、智能调度，会成为下一个自然的产品方向。",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-12T08:24:17+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373881",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "豆包工作接入Kimi、GLM、DeepSeek，模型自由选型",
+   "summary_zh": "豆包工作一次性接入Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash等第三方模型，并统一标注额度消耗倍率，让企业按任务与成本选型。",
+   "highlights_zh": [
+    "接入三款第三方模型，补齐高端、通用、轻量三层能力矩阵",
+    "额度消耗倍率透明化，统一计费口径便于成本管控",
+    "限时折扣与高频模型降倍率，压低日常使用成本"
+   ],
+   "why_zh": "反映企业级AI从单一模型走向多模型编排与成本透明化的趋势。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-11-12",
+   "slot": "evening",
+   "selected_at": "2026-11-12T13:43:16+00:00",
+   "mirror_pdf": "pdf/web-94c3e5aae5a6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373881"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-55ea0da53199",
+   "kind": "article",
+   "title": "今天起，豆包工作接入更多模型了",
+   "url": "https://www.tmtpost.com/8202629.html",
+   "pdf_url": "",
+   "abstract": "11月12日，豆包工作宣布正式接入 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等多款第三方模型，并推出限时特惠计划。",
+   "authors": [
+    "科技指北"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-12T13:23:33+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8202629.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "豆包工作接入Kimi、GLM、DeepSeek等第三方模型",
+   "summary_zh": "字节豆包工作宣布接入Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash等多款第三方模型，并推出限时特惠，标志头部AI办公产品转向多模型聚合策略。",
+   "highlights_zh": [
+    "豆包工作一次性接入三家外部厂商模型，打破单一自研模型供给",
+    "覆盖长上下文、通用推理、轻量高速等不同定位的模型组合",
+    "同步推出限时特惠，以价格手段争夺企业办公用户"
+   ],
+   "why_zh": "观察头部AI办公产品从自研闭环走向多模型聚合的关键信号。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-12",
+   "slot": "evening",
+   "selected_at": "2026-11-12T13:43:16+00:00",
+   "mirror_pdf": "pdf/web-55ea0da53199.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8202629.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7f11656528da",
+   "kind": "article",
+   "title": "实测百度文心5.5 Flash Preview：审美依然在线，编程全力争先",
+   "url": "https://www.tmtpost.com/8202831.html",
+   "pdf_url": "",
+   "abstract": "百度发布最新基础模型，编程、3D 建模、知识工作、内容创作等表现突出。",
+   "authors": [
+    "飞向TAI空"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-12T13:23:09+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8202831.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "百度文心5.5 Flash Preview实测：编程与3D建模抢眼",
+   "summary_zh": "百度发布文心5.5 Flash Preview基础模型，实测显示其在编程、3D建模、知识工作与内容创作上表现突出，审美能力保持水准。",
+   "highlights_zh": [
+    "新模型定位基础模型，主打编程与3D建模能力",
+    "内容创作与审美表现延续此前版本优势",
+    "以Preview形式发布，后续正式版能力仍待观察"
+   ],
+   "why_zh": "了解国产头部基础模型最新迭代方向与能力边界。",
+   "tags": [
+    "大模型",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-12",
+   "slot": "evening",
+   "selected_at": "2026-11-12T13:43:16+00:00",
+   "mirror_pdf": "pdf/web-7f11656528da.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8202831.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ae242140b846",
+   "kind": "article",
+   "title": "科大讯飞星火语音基座大模型 SparkAudio 1.0 上线 API 服务，支持 99 种语言、202 种方言",
+   "url": "https://www.ithome.com/1/026/386.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 12 日消息，科大讯飞今日宣布，讯飞星火语音基座大模型 SparkAudio 1.0 已在讯飞开放平台上线 API 服务， 开发者可直接接入调用 。 SparkAudio 1.0 支持文本和语音两个模态的输入以及文本模态的输出，可支持语音转写、多语言翻译、多方言识别、环境音理解、说话人分离、情感分析以及复杂的音频问答等场景任务的实现。 官方表示，过去处理音频大多采用级联方案：先把语音转成文字，再交给大模型理解。这种做法有两个明显短板： 信息丢失：文字只能记录说了什么，会丢掉语音里自带的语气、情绪，还有背景环境音等关键信息，导致模型对场景的判断不完整，自然也会影响到最后的结果。 链路割裂：这套系统把语音转写、声纹识别、语音翻译等能力拆成独立模块串联运行，模块之间存在断点，不仅容易累积错误，在使用体验上也会出现延迟、卡顿。 据介绍，语音基座大模型解决了上面的这些问题：它不再只做语音转文字，而是直接理解语音。语音基座大模型一次性听懂人声、环境音、音乐等等，而且还能理解声音里的语义、情绪和场景。 相较于上一代模型，星火语音基座 SparkAudio 1.0 在三大方面有了全新升级： 听见更多： 支持 99 种语言、202 种方言 ，能够处理多语言语音识别与翻译任务； 理解更透： 从语音识别到多维音频理解 ，能理解语音的深层含义，支持智能客服、汽车座舱、跨语会议、医疗病历、内容审核等多种场景； 用得更广： 全国产算力训练 ，为开发者和行业应用提供自主可控的语音智能底座。 IT之家附相关链接： 体验链接： https://iflytekresearch.iflytek.com/console/spark-audio API 地址： https://www.xfyun.cn/services/Spark_Audio_1.0 相关阅读： 《 科大讯飞首发星火语音基座大模型 SparkAudio 1.0：中英文任意切换、说话人实时识别，输入法里就能用 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-12T13:07:18+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/026/386.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "讯飞星火语音基座大模型开放API，支持99种语言202种方言",
+   "summary_zh": "科大讯飞SparkAudio 1.0上线API，直接理解语音而非先转文字，支持99种语言、202种方言及情感、环境音理解，全国产算力训练。",
+   "highlights_zh": [
+    "端到端语音理解，替代转写+大模型的级联方案，减少信息丢失与延迟",
+    "覆盖99种语言、202种方言，支持说话人分离、情感分析、音频问答",
+    "全国产算力训练，面向智能客服、汽车座舱、医疗病历等场景开放调用"
+   ],
+   "why_zh": "语音基座模型走向API化，是语音交互链路重构的信号，值得关注落地场景。",
+   "tags": [
+    "语音",
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-12",
+   "slot": "evening",
+   "selected_at": "2026-11-12T13:43:16+00:00",
+   "mirror_pdf": "pdf/web-ae242140b846.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/026/386.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c71956fa6b0c",
+   "kind": "article",
+   "title": "AWS 首席 AI 和技术官马特 · 伍德：优秀的工程师要爱上问题，而非现成解法",
+   "url": "https://www.ithome.com/1/026/359.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 12 日消息，据《商业内幕》今天（12 日）晚间报道，亚马逊云科技（AWS）首席 AI 与技术官马特 · 伍德认为，真正优秀的工程师应该更关注要解决的问题，而不是执着于某一种解决办法。“我们希望工程师 不要太迷恋自己提出的具体方案，而是把更多热情放在问题本身 。” 在他看来，优秀工程师不会只用 AI 写代码， 还会利用 AI 深入分析问题，并尝试不同的解决思路 。 过去，软件开发成本较高，团队集中资源实施一种解决方案往往更划算。借助 AI， 开发者不仅能把问题研究得更透彻，还能同时尝试多种解决办法 。 亚马逊也在重新调整对软件工程师的要求。上个月，公司发布备忘录公布新版岗位指引，并提出“文艺复兴式开发者时代”的概念。新指引不再强调尽可能多地使用 AI，而是更加看重工程师 能够为客户和业务带来怎样的长期价值 。 以前，工程师可能要花上好几天等待代码审查、人工测试和设计修改。AI 能够生成代码后，工程师便可以把更多精力 放在复杂的审查工作上 。 伍德认为，不拘泥于某一种解决方案的工程师更善于应对变化，工作效率也往往更高。“他们工作起来更开心，职业发展也更加顺利。” 随着 AI 改变软件开发的工作方式，不少技术主管也开始重新思考什么样的工程师才算优秀。不少观点认为，当工程师的工作逐渐转向 管理 AI 智能体、作出更多决策时 ，技术品味和判断力就显得尤为重要。 IT之家从报道中获悉，亚马逊云科技首席工程师戴维 · 亚纳切克最近则提出，最优秀的开发者应该 既“多疑”又“懒惰” ：他们喜欢把重复劳动交给自动化工具完成，同时也足够谨慎，懂得设置必要的安全限制，让 AI 智能体无需时刻有人盯着，也能安全运行。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-12T11:31:53+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/026/359.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AWS 首席 AI 官：优秀工程师应爱上问题而非解法",
+   "summary_zh": "AWS 首席 AI 与技术官伍德认为，AI 让开发者能同时探索多种解法，优秀工程师应聚焦问题本身而非迷恋单一方案。",
+   "highlights_zh": [
+    "AI 降低试错成本，开发者可并行尝试多种解决思路",
+    "亚马逊新版岗位指引提出『文艺复兴式开发者时代』，看重长期价值而非 AI 使用量",
+    "首席工程师亚纳切克提出优秀开发者应既『多疑』又『懒惰』，善用自动化并设好安全边界"
+   ],
+   "why_zh": "头部云厂商对 AI 时代工程师能力标准的明确判断，对技术管理者有参考价值。",
+   "tags": [
+    "产品与行业",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-12",
+   "slot": "evening",
+   "selected_at": "2026-11-12T13:43:16+00:00",
+   "mirror_pdf": "pdf/web-c71956fa6b0c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/026/359.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-db9b92685a6f",
+   "kind": "article",
+   "title": "Anthropic 被曝为 Claude 加入限制：禁止生成宝可梦相关游戏素材",
+   "url": "https://www.ithome.com/1/026/348.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 12 日消息，随着 AI 被广泛用于生成艺术作品、视频乃至电子游戏素材，相关技术的发展速度已经超过了版权限制措施的完善速度。如今，游戏行业也开始采取行动。最新迹象显示，Claude 的开发商 Anthropic 已经为其大语言模型加入限制，禁止用户利用宝可梦（Pokémon）相关知识产权生成游戏素材。 IT之家注意到，这一发现最初来自日本媒体 Automaton 收集的用户反馈。多名用户发现，当他们尝试使用 Claude 开发受宝可梦启发的粉丝自制游戏时，Claude 会直接拒绝提供帮助。 一名名为 Big Kid Nation 的用户似乎正在借助 AI 开发一款非官方宝可梦游戏。他分享的截图显示，当用户要求 Claude 使用明显属于宝可梦角色的精灵图（Sprite）生成游戏素材时，Claude 拒绝了这一请求。 用户随后进一步询问，如果这些素材已经保存在自己的电脑上，是否会改变 Claude 的处理方式。Claude 给出的答案仍然是否定的，并表示不会使用任何看起来与宝可梦知识产权相似的内容来生成素材。 Claude 不仅限制角色，还涉及音乐、关卡和名称 X 用户 chasm 对 Claude 的代码进行了进一步分析，似乎找到了模型目前明确限制使用的宝可梦相关内容。 限制范围包括音乐、舞台和关卡、角色外观、名称以及角色本身。此前 Big Kid Nation 遇到的精灵图生成请求遭到拒绝，很可能同时触及了角色和外观这两类限制。 Claude 不愿协助用户利用 AI 制作宝可梦游戏，似乎是此前一项版权保护更新的延伸。 此前，越来越多人开始使用 AI 复制其他开发者的电子游戏，甚至有人在原版游戏尚未正式发售时，就尝试利用 AI 生成类似作品。这种现象正逐渐演变成一个值得关注的问题。 Anthropic 此前已经更新 Claude，试图阻止用户利用模型复制现有电子游戏，并将生成的作品冒充为自己的原创成果。相关更新采用了较为宽泛的限制措施，旨在覆盖整个电子游戏行业。 不过，此前的限制主要针对电子游戏内容的整体复制，而此次拒绝生成宝可梦相关素材，则是目前已知 Claude 首次针对某个具体游戏系列作出明确限制。 Anthropic 选择从宝可梦开始采取这类措施并不令人意外。一方面，宝可梦可能是 Claude 用户最经常要求模型模仿的游戏系列之一；另一方面，如果允许用户利用 AI 生成包含宝可梦角色、音乐和其他受版权保护元素的内容，甚至制作完整的非官方宝可梦游戏，Anthropic 也可能面临相当大的法律风险。 一旦宝可梦公司（The Pokémon Company）和任天堂（Nintendo）认为事态已经超出可接受范围，并决定对 Claude 的开发商采取法律行动，相关纠纷可能会变得十分棘手。 目前，这些限制措施反映出 AI 厂商正在尝试为生成式 AI 划定版权边界。随着 AI 制作游戏素材和完整游戏的门槛不断降低，如何防止模型直接复制现有游戏 IP，也将成为整个游戏行业无法回避的问题。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-12T10:45:49+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/026/348.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic 为 Claude 加限：禁生成宝可梦素材",
+   "summary_zh": "用户发现 Claude 拒绝生成宝可梦相关角色、音乐、关卡与名称，是首次针对具体游戏 IP 的明确限制。",
+   "highlights_zh": [
+    "限制覆盖角色外观、名称、音乐、舞台与关卡",
+    "此前已更新限制阻止复制现有电子游戏整体内容",
+    "此举被视为规避任天堂与宝可梦公司法律风险的预防措施"
+   ],
+   "why_zh": "生成式 AI 版权边界收紧的首个具体 IP 案例，预示行业合规方向。",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-12",
+   "slot": "evening",
+   "selected_at": "2026-11-12T13:43:16+00:00",
+   "mirror_pdf": "pdf/web-db9b92685a6f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/026/348.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b65e1e142316",
+   "kind": "article",
+   "title": "摩根大通：到 2030 年，美国人形机器人产量将达 30 万至 40 万台",
+   "url": "https://www.ithome.com/1/026/334.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 12 日消息，据路透社今天（12 日）报道，摩根大通最新预测显示，随着人形机器人从技术展示走向商业化应用，美国人形机器人产量 到 2030 年将达到 30 万至 40 万台 ，2035 年进一步增至约 150 万台。 劳动力短缺、使用成本下降和产能扩大，正推动制造、物流和仓储企业采用人形机器人，以替代重复性人工劳动。 不过，人形机器人的大规模应用仍面临 硬件、AI 训练数据、算力和产能 等方面的限制。除特斯拉外，美国大多数厂商的年产量目标 仅为 1 万至 3 万台 。 摩根大通估计，人形机器人的使用成本已逐渐接近人工成本。如果安排机器人多班次作业，每家客户每年可节省约 10 万美元 （IT之家注：现汇率约合 66.9 万元人民币） 。然而在短期内，行业发展仍受制于供应能力。 灵巧手、执行器、机器人“大脑”和产能 是几大主要瓶颈。 相比整机制造商，摩根大通认为零部件供应商在短期内更具投资机会，预计到 2035 年，执行器、电机、视觉系统等核心零部件的市场规模将 接近 300 亿美元 （现汇率约合 2,005.74 亿元人民币） 。 整机厂商方面，摩根大通重点提及特斯拉的 Optimus、Agility Robotics 的 Digit、波士顿动力的 Atlas、Figure AI 的 Figure 系列机器人，以及 Apptronik 的 Apollo，认为这些产品背后的企业是美国人形机器人行业的主要参与者。 零部件供应商方面，摩根大通看好铁姆肯、ROBOTIS、绿的谐波、奥比中光和康耐视。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-12T10:21:04+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/026/334.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "摩根大通预测2030年美国人形机器人产量达30-40万台",
+   "summary_zh": "摩根大通预测美国人形机器人2030年产量30-40万台、2035年约150万台，成本已接近人工，但灵巧手、执行器、机器人大脑和产能仍是瓶颈，短期零部件供应商更具投资机会。",
+   "highlights_zh": [
+    "2030年30-40万台，2035年约150万台，多班次作业每客户年省约10万美元",
+    "除特斯拉外多数美国厂商年产量目标仅1-3万台，供应能力短期受限",
+    "2035年执行器、电机、视觉系统等核心零部件市场规模近300亿美元"
+   ],
+   "why_zh": "投行视角的人形机器人量产与成本曲线，是判断机器人商业化节奏的关键参照。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-12",
+   "slot": "evening",
+   "selected_at": "2026-11-12T13:43:16+00:00",
+   "mirror_pdf": "pdf/web-b65e1e142316.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/026/334.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9a3151edec0d",
+   "kind": "article",
+   "title": "Anthropic玻璃翼计划被质疑！近4万个候补漏洞，只修了217条",
+   "url": "https://www.qbitai.com/2026/11/509291.html",
+   "pdf_url": "",
+   "abstract": "只管挖不管埋。",
+   "authors": [
+    "程浅"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-12T07:55:11+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/509291.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic玻璃翼计划遭质疑：4万漏洞仅修217条",
+   "summary_zh": "Anthropic的玻璃翼漏洞挖掘计划被质疑，近4万个候补漏洞中仅修复217条，暴露AI安全流程短板。",
+   "highlights_zh": [
+    "近4万候补漏洞仅修217条",
+    "AI安全漏洞处理流程受质疑",
+    "反映AI安全落地挑战"
+   ],
+   "why_zh": "关注AI安全治理与漏洞响应机制的从业者可读。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-11-12",
+   "slot": "evening",
+   "selected_at": "2026-11-12T13:43:16+00:00",
+   "mirror_pdf": "pdf/web-9a3151edec0d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/509291.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8faf7254a36b",
+   "kind": "article",
+   "title": "纯代码造《后室》，116秒切20种画风！文心新模型玩嗨了",
+   "url": "https://www.qbitai.com/2026/11/509224.html",
+   "pdf_url": "",
+   "abstract": "模型即将开源",
+   "authors": [
+    "一水"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-11T12:43:54+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/509224.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "文心新模型纯代码生成《后室》，116秒切换20种画风",
+   "summary_zh": "文心新模型展示用纯代码生成游戏场景与多画风切换能力，官方称模型即将开源。",
+   "highlights_zh": [
+    "以纯代码方式生成可运行的游戏内容",
+    "116秒内切换20种画风，展示风格控制能力",
+    "模型计划开源，值得关注后续权重与许可"
+   ],
+   "why_zh": "多模态生成与代码生成结合的演示，关注其开源后的实际能力。",
+   "tags": [
+    "多模态",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-11-12",
+   "slot": "evening",
+   "selected_at": "2026-11-12T13:43:16+00:00",
+   "mirror_pdf": "pdf/web-8faf7254a36b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/509224.html"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "大模型价格战升级，高性能低价成头部厂商抢份额核心武器",
-   "why": "Gemini 4 Carbon全面开放且定价仅为竞品四分之一，直接以低价高性能冲击市场格局。",
+   "trend": "大模型竞争从能力比拼转向价格与场景落地效率",
+   "why": "Gemini 4 Carbon以竞品四分之一价格开放，文心主打快省开源，模型商品化加速。",
    "refs": [
     "web-babe412c3459",
-    "web-fc6b6a56df7b"
+    "web-fc6b6a56df7b",
+    "web-0515b9c7e30d"
    ]
   },
   {
-   "trend": "多智能体协作从演示走向科学发现等真实高价值任务",
-   "why": "48个SWE智能体72小时并行处理激光雷达数据发现玛雅金字塔，验证规模化协作可行性。",
+   "trend": "智能体从演示走向科学发现与办公核心场景",
+   "why": "48个智能体72小时发现玛雅金字塔，Claude切入办公软件，Agent进入高价值任务。",
    "refs": [
     "web-633c21117d7e",
-    "web-8d8bc38f54a7"
-   ]
-  },
-  {
-   "trend": "智能体评测方法出现拐点，轨迹评判与功能测试需双框架并用",
-   "why": "执行轨迹LLM评判F1达0.90，纯文本误报多5倍，功能测试与红队失败零重叠。",
-   "refs": [
-    "arxiv-2611.14493",
-    "arxiv-2611.14480"
-   ]
-  },
-  {
-   "trend": "办公与电商场景成智能体落地主战场，竞争向微软腹地延伸",
-   "why": "Claude可参会做表生成PPT，速卖通经营Agent助双11托管商家成交增近70%。",
-   "refs": [
     "web-efb75e10ad91",
     "web-2a938cda48ff"
    ]
   },
   {
-   "trend": "AI价值链利润向应用层集中，商业模式从卖Token转向卖结果",
-   "why": "应用层拿走约四成毛利，联想沙龙核心观点为按结果付费替代按Token计费。",
+   "trend": "智能体评测方法出现拐点，轨迹评判与功能测试需并用",
+   "why": "轨迹LLM评判F1达0.90，纯文本误报多5倍，功能测试与红队失败零重叠。",
+   "refs": [
+    "arxiv-2611.14493",
+    "arxiv-2611.14515"
+   ]
+  },
+  {
+   "trend": "大模型向决策类任务延伸，开辟新竞争赛道",
+   "why": "谷歌发布Gemini Decision 1，9项测试7项第一，标志模型从生成走向决策。",
+   "refs": [
+    "web-9db097bd3bfe",
+    "web-e10b6b9196df"
+   ]
+  },
+  {
+   "trend": "AI价值链利润向应用层集中，商业模式转向按结果付费",
+   "why": "应用层拿走四成毛利，联想沙龙讨论从卖Token转向卖结果。",
    "refs": [
     "web-65246cc81d5c",
     "web-29bfc8bc4b4c"
