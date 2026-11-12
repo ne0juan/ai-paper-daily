@@ -1,11 +1,12 @@
-2026-11-12 06:00:47,606 INFO source hf_daily           -> 12 items
-2026-11-12 06:01:11,004 INFO source hackernews         -> 7 items
-2026-11-12 06:04:06,282 WARNING rss IT之家 failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-2026-11-12 06:04:29,675 INFO source rss                -> 80 items
-2026-11-12 06:04:31,149 INFO source html_lists         -> 0 items
-2026-11-12 06:04:31,149 INFO source x                  -> 0 items
-2026-11-12 06:04:59,145 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
-2026-11-12 06:05:08,008 INFO source github             -> 15 items
-2026-11-12 06:05:08,009 INFO candidates: 114 (stale dropped 28, new 48)
-2026-11-12 06:05:54,533 INFO llm judged 48/48 (calls=6)
-2026-11-12 06:08:49,504 INFO run done: {"at": "2026-11-12T06:00:47+00:00", "slot": "noon", "candidates": 114, "new": 48, "stale": 28, "judged": 48, "selected": 17, "mirrored": 14, "by_category": {"观点": 3, "资讯": 11, "项目": 2, "技术": 1}, "by_source": {"HF Daily Papers": 12, "Hacker News": 7, "量子位": 10, "极客公园": 5, "爱范儿": 8, "少数派": 1, "雷峰网": 11, "钛媒体": 4, "InfoQ 中文": 13, "Latent Space": 7, "Arvind Narayanan": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Dean Ball": 1, "Hugging Face Blog": 2, "Google Research": 1, "OpenAI": 8, "Google DeepMind": 3, "NVIDIA": 2, "GitHub Trending": 13, "GitHub 新项目": 2}, "llm": true, "translated": 0}
+2026-11-12 13:43:16,644 INFO source hf_daily           -> 13 items
+2026-11-12 13:43:16,977 INFO source hackernews         -> 9 items
+2026-11-12 13:45:18,722 WARNING rss 雷峰网 failed: HTTPSConnectionPool(host='www.leiphone.com', port=443): Read timed out. (read timeout=30)
+2026-11-12 13:45:31,345 INFO source rss                -> 81 items
+2026-11-12 13:45:33,271 INFO source html_lists         -> 0 items
+2026-11-12 13:45:33,271 INFO source x                  -> 0 items
+2026-11-12 13:45:33,840 INFO source arxiv_search       -> 13 items
+2026-11-12 13:45:43,831 INFO source github             -> 20 items
+2026-11-12 13:45:43,832 INFO candidates: 136 (stale dropped 15, new 74)
+2026-11-12 13:46:57,044 INFO llm judged 74/74 (calls=10)
+2026-11-12 13:47:14,711 WARNING snapshot https://stratechery.com/2026/an-interview-with-roblox-ceo-david-baszucki-about-aggregating-play/: blocked or empty page
+2026-11-12 13:49:31,434 INFO run done: {"at": "2026-11-12T13:43:16+00:00", "slot": "evening", "candidates": 136, "new": 74, "stale": 15, "judged": 74, "selected": 21, "mirrored": 20, "by_category": {"项目": 3, "资讯": 13, "观点": 1, "技术": 4}, "by_source": {"HF Daily Papers": 13, "Hacker News": 9, "量子位": 10, "极客公园": 6, "IT之家": 19, "爱范儿": 7, "少数派": 1, "钛媒体": 4, "InfoQ 中文": 11, "Latent Space": 6, "Stratechery": 1, "Arvind Narayanan": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "Dean Ball": 1, "Hugging Face Blog": 2, "Google Research": 1, "OpenAI": 5, "Google DeepMind": 2, "NVIDIA": 2, "arXiv 新论文": 13, "GitHub Trending": 18, "GitHub 新项目": 2}, "llm": true, "translated": 0}
