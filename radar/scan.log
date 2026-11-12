@@ -1,12 +1,10 @@
-2026-11-12 13:43:16,644 INFO source hf_daily           -> 13 items
-2026-11-12 13:43:16,977 INFO source hackernews         -> 9 items
-2026-11-12 13:45:18,722 WARNING rss 雷峰网 failed: HTTPSConnectionPool(host='www.leiphone.com', port=443): Read timed out. (read timeout=30)
-2026-11-12 13:45:31,345 INFO source rss                -> 81 items
-2026-11-12 13:45:33,271 INFO source html_lists         -> 0 items
-2026-11-12 13:45:33,271 INFO source x                  -> 0 items
-2026-11-12 13:45:33,840 INFO source arxiv_search       -> 13 items
-2026-11-12 13:45:43,831 INFO source github             -> 20 items
-2026-11-12 13:45:43,832 INFO candidates: 136 (stale dropped 15, new 74)
-2026-11-12 13:46:57,044 INFO llm judged 74/74 (calls=10)
-2026-11-12 13:47:14,711 WARNING snapshot https://stratechery.com/2026/an-interview-with-roblox-ceo-david-baszucki-about-aggregating-play/: blocked or empty page
-2026-11-12 13:49:31,434 INFO run done: {"at": "2026-11-12T13:43:16+00:00", "slot": "evening", "candidates": 136, "new": 74, "stale": 15, "judged": 74, "selected": 21, "mirrored": 20, "by_category": {"项目": 3, "资讯": 13, "观点": 1, "技术": 4}, "by_source": {"HF Daily Papers": 13, "Hacker News": 9, "量子位": 10, "极客公园": 6, "IT之家": 19, "爱范儿": 7, "少数派": 1, "钛媒体": 4, "InfoQ 中文": 11, "Latent Space": 6, "Stratechery": 1, "Arvind Narayanan": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "Dean Ball": 1, "Hugging Face Blog": 2, "Google Research": 1, "OpenAI": 5, "Google DeepMind": 2, "NVIDIA": 2, "arXiv 新论文": 13, "GitHub Trending": 18, "GitHub 新项目": 2}, "llm": true, "translated": 0}
+2026-11-12 18:47:38,477 INFO source hf_daily           -> 15 items
+2026-11-12 18:47:38,804 INFO source hackernews         -> 11 items
+2026-11-12 18:48:43,033 INFO source rss                -> 100 items
+2026-11-12 18:48:44,325 INFO source html_lists         -> 0 items
+2026-11-12 18:48:44,326 INFO source x                  -> 0 items
+2026-11-12 18:48:44,728 INFO source arxiv_search       -> 3 items
+2026-11-12 18:48:54,851 INFO source github             -> 20 items
+2026-11-12 18:48:54,853 INFO candidates: 149 (stale dropped 39, new 71)
+2026-11-12 18:49:59,234 INFO llm judged 67/71 (calls=9)
+2026-11-12 18:53:24,855 INFO run done: {"at": "2026-11-12T18:47:38+00:00", "slot": "morning", "candidates": 149, "new": 71, "stale": 39, "judged": 67, "selected": 21, "mirrored": 20, "by_category": {"资讯": 11, "观点": 3, "技术": 4, "项目": 3}, "by_source": {"HF Daily Papers": 15, "Hacker News": 11, "量子位": 10, "极客公园": 7, "IT之家": 20, "爱范儿": 7, "少数派": 1, "雷峰网": 11, "钛媒体": 5, "InfoQ 中文": 11, "Latent Space": 6, "Stratechery": 1, "SemiAnalysis": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 2, "Zvi Mowshowitz": 2, "Hugging Face Blog": 3, "Google Research": 1, "OpenAI": 5, "Google DeepMind": 2, "NVIDIA": 2, "Microsoft": 2, "arXiv 新论文": 3, "GitHub Trending": 17, "GitHub 新项目": 3}, "llm": true, "translated": 0}
