@@ -1,11 +1,11 @@
-2026-11-11 18:31:57,097 INFO source hf_daily           -> 20 items
-2026-11-11 18:31:57,627 INFO source hackernews         -> 6 items
-2026-11-11 18:33:09,811 INFO source rss                -> 96 items
-2026-11-11 18:33:11,564 INFO source html_lists         -> 1 items
-2026-11-11 18:33:11,564 INFO source x                  -> 0 items
-2026-11-11 18:33:43,048 INFO source arxiv_search       -> 60 items
-2026-11-11 18:33:52,337 INFO source github             -> 17 items
-2026-11-11 18:33:52,338 INFO candidates: 198 (stale dropped 105, new 57)
-2026-11-11 18:34:52,044 INFO llm judged 57/57 (calls=8)
-2026-11-11 18:34:58,134 WARNING snapshot https://thezvi.wordpress.com/2026/11/11/fable-and-mythos-5-2-the-system-card/: blocked or empty page
-2026-11-11 18:37:18,811 INFO run done: {"at": "2026-11-11T18:31:56+00:00", "slot": "morning", "candidates": 198, "new": 57, "stale": 105, "judged": 57, "selected": 20, "mirrored": 19, "by_category": {"资讯": 13, "观点": 1, "技术": 4, "项目": 1, "论文": 1}, "by_source": {"HF Daily Papers": 20, "arXiv 新论文": 60, "Hacker News": 6, "量子位": 10, "极客公园": 4, "IT之家": 9, "爱范儿": 9, "少数派": 1, "雷峰网": 12, "钛媒体": 4, "InfoQ 中文": 14, "Ethan Mollick": 1, "Simon Willison": 1, "Latent Space": 5, "Arvind Narayanan": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Dean Ball": 1, "Hugging Face Blog": 4, "Google Research": 1, "OpenAI": 9, "Google DeepMind": 4, "NVIDIA": 2, "xAI": 1, "GitHub Trending": 12, "GitHub 新项目": 5}, "llm": true, "translated": 0}
+2026-11-12 06:00:47,606 INFO source hf_daily           -> 12 items
+2026-11-12 06:01:11,004 INFO source hackernews         -> 7 items
+2026-11-12 06:04:06,282 WARNING rss IT之家 failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-11-12 06:04:29,675 INFO source rss                -> 80 items
+2026-11-12 06:04:31,149 INFO source html_lists         -> 0 items
+2026-11-12 06:04:31,149 INFO source x                  -> 0 items
+2026-11-12 06:04:59,145 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
+2026-11-12 06:05:08,008 INFO source github             -> 15 items
+2026-11-12 06:05:08,009 INFO candidates: 114 (stale dropped 28, new 48)
+2026-11-12 06:05:54,533 INFO llm judged 48/48 (calls=6)
+2026-11-12 06:08:49,504 INFO run done: {"at": "2026-11-12T06:00:47+00:00", "slot": "noon", "candidates": 114, "new": 48, "stale": 28, "judged": 48, "selected": 17, "mirrored": 14, "by_category": {"观点": 3, "资讯": 11, "项目": 2, "技术": 1}, "by_source": {"HF Daily Papers": 12, "Hacker News": 7, "量子位": 10, "极客公园": 5, "爱范儿": 8, "少数派": 1, "雷峰网": 11, "钛媒体": 4, "InfoQ 中文": 13, "Latent Space": 7, "Arvind Narayanan": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Dean Ball": 1, "Hugging Face Blog": 2, "Google Research": 1, "OpenAI": 8, "Google DeepMind": 3, "NVIDIA": 2, "GitHub Trending": 13, "GitHub 新项目": 2}, "llm": true, "translated": 0}
