@@ -1,10 +1,12 @@
-2026-11-12 18:47:38,477 INFO source hf_daily           -> 15 items
-2026-11-12 18:47:38,804 INFO source hackernews         -> 11 items
-2026-11-12 18:48:43,033 INFO source rss                -> 100 items
-2026-11-12 18:48:44,325 INFO source html_lists         -> 0 items
-2026-11-12 18:48:44,326 INFO source x                  -> 0 items
-2026-11-12 18:48:44,728 INFO source arxiv_search       -> 3 items
-2026-11-12 18:48:54,851 INFO source github             -> 20 items
-2026-11-12 18:48:54,853 INFO candidates: 149 (stale dropped 39, new 71)
-2026-11-12 18:49:59,234 INFO llm judged 67/71 (calls=9)
-2026-11-12 18:53:24,855 INFO run done: {"at": "2026-11-12T18:47:38+00:00", "slot": "morning", "candidates": 149, "new": 71, "stale": 39, "judged": 67, "selected": 21, "mirrored": 20, "by_category": {"资讯": 11, "观点": 3, "技术": 4, "项目": 3}, "by_source": {"HF Daily Papers": 15, "Hacker News": 11, "量子位": 10, "极客公园": 7, "IT之家": 20, "爱范儿": 7, "少数派": 1, "雷峰网": 11, "钛媒体": 5, "InfoQ 中文": 11, "Latent Space": 6, "Stratechery": 1, "SemiAnalysis": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 2, "Zvi Mowshowitz": 2, "Hugging Face Blog": 3, "Google Research": 1, "OpenAI": 5, "Google DeepMind": 2, "NVIDIA": 2, "Microsoft": 2, "arXiv 新论文": 3, "GitHub Trending": 17, "GitHub 新项目": 3}, "llm": true, "translated": 0}
+2026-11-13 05:25:35,141 INFO source hf_daily           -> 5 items
+2026-11-13 05:25:35,554 INFO source hackernews         -> 10 items
+2026-11-13 05:26:03,926 INFO source rss                -> 96 items
+2026-11-13 05:26:04,983 INFO source html_lists         -> 0 items
+2026-11-13 05:26:04,983 INFO source x                  -> 0 items
+2026-11-13 05:26:19,751 INFO source arxiv_search       -> 50 items
+2026-11-13 05:26:29,017 INFO source github             -> 20 items
+2026-11-13 05:26:29,019 INFO candidates: 181 (stale dropped 34, new 107)
+2026-11-13 05:28:16,934 INFO llm judged 100/100 (calls=13)
+2026-11-13 05:28:58,591 WARNING snapshot https://stratechery.com/2026/sharp-tech-on-video-nvidia-after-jensen-huang-ominous-news-for-american-ai-d-c-gets-its-revenge/: blocked or empty page
+2026-11-13 05:31:06,370 WARNING snapshot https://thezvi.wordpress.com/2026/11/12/ai-194-spy-versus-guy/: blocked or empty page
+2026-11-13 05:31:47,791 INFO run done: {"at": "2026-11-13T05:25:34+00:00", "slot": "noon", "candidates": 181, "new": 107, "stale": 34, "judged": 100, "selected": 22, "mirrored": 20, "by_category": {"资讯": 11, "项目": 3, "观点": 3, "技术": 4, "论文": 1}, "by_source": {"HF Daily Papers": 5, "Hacker News": 10, "量子位": 10, "极客公园": 8, "IT之家": 13, "爱范儿": 8, "少数派": 2, "雷峰网": 13, "钛媒体": 4, "InfoQ 中文": 12, "阮一峰": 1, "Latent Space": 4, "Stratechery": 2, "SemiAnalysis": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 2, "Google Research": 1, "OpenAI": 6, "Google DeepMind": 2, "NVIDIA": 1, "Microsoft": 2, "arXiv 新论文": 50, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
