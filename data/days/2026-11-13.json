@@ -1120,47 +1120,1307 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-d096a8a420fb",
+   "kind": "article",
+   "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+   "url": "https://unemploymentlabs.com/checkpoint-forensics",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-12T21:56:11Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50474883",
+     "signal": "230 pts",
+     "metric": 230
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "中国前沿AI模型带有出口管制GPU的指纹",
+   "summary_zh": "研究通过模型输出特征识别出中国前沿大模型训练所用GPU受出口管制影响，揭示算力来源与模型能力之间的关联。",
+   "highlights_zh": [
+    "从模型行为特征反推训练硬件来源",
+    "出口管制对前沿模型训练的实际约束被量化",
+    "为算力供应链透明度提供新分析视角"
+   ],
+   "why_zh": "理解算力管制如何实质影响中国大模型能力边界，对判断行业格局有参考价值。",
+   "tags": [
+    "大模型",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.5752,
+   "score_llm": 8.0,
+   "score": 0.7101,
+   "date": "2026-11-13",
+   "slot": "noon",
+   "selected_at": "2026-11-13T05:25:34+00:00",
+   "mirror_pdf": "pdf/web-d096a8a420fb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://unemploymentlabs.com/checkpoint-forensics"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50474883"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-95c23a9afeb3",
+   "kind": "article",
+   "title": "GoogleChrome/modern-web-guidance-src",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "pdf_url": "",
+   "abstract": "Star GoogleChrome / modern-web-guidance-src Keep your coding agent up to date with the latest web best practices\nREADME: # Modern Web Guidance (Source) This repo is the source repository for [GoogleChrome/modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance) and includes the code and documentation for authoring, calibrating, and evaluating its contents. [**Modern Web Guidance**](https://developer.chrome.com/docs/modern-web-guidance) is a set of skills that embed web platform expertise, best practices, and browser compatibility data directly into your coding agents. It helps to steer your coding agents away from legacy patterns, and instead toward solutions that harness the power and capabilities of the modern web platform. See [CONTRIBUTING.md](./CONTRIBUTING.md) and [GOVERNANCE.md](./GOVERNANCE.md) for how we work on the project and orientation of the codebase. --- *Stewarded by the Google Chrome, Microsoft Edge, Mozilla Firefox, and MDN teams, alongside the web development community.* [Documentation](https://developer.chrome.com/docs/modern-web-guidance) · [Eval Dashboard](https://googlechrome.github.io/modern-web-guidance-src/) · [Source Code](https://github.com/GoogleChrome/modern-web-guidance-src) · [Report an Issue](https://github.com/GoogleChrome/modern-web-guidance-src/issues) ## Quickstart ```shell npx modern-web-guidance@latest install ``` This command runs an interactive wizard to install Modern Web Guidance. See [Alternative Installation Methods](#-alternative-installation-methods) below. #### Try it out (without installing) ```shell # Search for relevant guides",
+   "authors": [],
+   "orgs": [
+    "GoogleChrome"
+   ],
+   "published": "2026-11-13T05:25:34+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+     "signal": "★ 今日 +739 · TypeScript",
+     "metric": 739
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Chrome 推出 Modern Web Guidance：给编码智能体注入现代 Web 最佳实践",
+   "summary_zh": "Google Chrome 联合 Edge、Firefox、MDN 发布 Modern Web Guidance，把 Web 平台最佳实践与兼容性数据做成技能包嵌入编码智能体，引导其避开过时写法。",
+   "highlights_zh": [
+    "由 Chrome、Edge、Firefox、MDN 四方共同维护，跨浏览器背书",
+    "通过 npx modern-web-guidance@latest install 一键安装",
+    "附带评测仪表盘，可校准技能内容质量"
+   ],
+   "why_zh": "如果你用编码智能体写前端，装上它可减少生成过时 API 和兼容性坑。",
+   "tags": [
+    "智能体",
+    "代码",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.691,
+   "score_llm": 7.0,
+   "score": 0.6964,
+   "date": "2026-11-13",
+   "slot": "noon",
+   "selected_at": "2026-11-13T05:25:34+00:00",
+   "mirror_pdf": "pdf/web-95c23a9afeb3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-663b859cf3db",
+   "kind": "article",
+   "title": "英伟达官网更新黄仁勋简介，临时 CEO 克雷斯现排第一位",
+   "url": "https://www.ithome.com/1/026/583.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 13 日消息， 英伟达董事会于北京时间 11 月 12 日晚宣布 ，黄仁勋辞去总裁、首席执行官及董事会成员职务，即刻生效。英伟达执行副总裁兼 CFO 科莱特 · 克雷斯同意出任临时 CEO，在董事会选出正式继任者前兼任这一职务，并继续担任执行副总裁和 CFO。 英伟达官网现已更新管理层介绍页面， 临时 CEO 科莱特 · 克雷斯被列在了第一位 ，黄仁勋则被放在了底部的“创始人”一栏中。 IT之家注意到，黄仁勋的个人简介页面也进行了更新，提到“黄仁勋于 1993 创立了 NVIDIA， 此前曾担任 NVIDIA 总裁兼首席执行官，以及董事会成员 ”。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-13T03:10:57+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/026/583.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "黄仁勋辞任英伟达CEO，CFO克雷斯出任临时CEO",
+   "summary_zh": "英伟达董事会宣布黄仁勋辞去总裁、CEO及董事职务，即刻生效；CFO科莱特·克雷斯出任临时CEO，官网管理层页面已将其列在首位，黄仁勋移至“创始人”一栏。",
+   "highlights_zh": [
+    "黄仁勋辞去总裁、CEO及董事会成员职务，即刻生效",
+    "执行副总裁兼CFO科莱特·克雷斯出任临时CEO，同时保留原职",
+    "官网管理层介绍已更新，黄仁勋被归入“创始人”一栏"
+   ],
+   "why_zh": "全球AI算力核心公司的最高层突变，可能改变行业格局，必须关注。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 9.0,
+   "score": 0.676,
+   "date": "2026-11-13",
+   "slot": "noon",
+   "selected_at": "2026-11-13T05:25:34+00:00",
+   "mirror_pdf": "pdf/web-663b859cf3db.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/026/583.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4d58a71c284d",
+   "kind": "article",
+   "title": "agentes-chat/agentes-chat",
+   "url": "https://github.com/agentes-chat/agentes-chat",
+   "pdf_url": "",
+   "abstract": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.\nREADME: agentes.chat The open-source, self-hosted Slack alternative where your team and AI agents work together. Website · Cloud · Self-hosting · Features · Discussions Agents join your channels and DMs with a role, an owner and a budget, work where everyone can see, and ask before anything sensitive. They think with Claude, ChatGPT and Codex, Gemini, Grok or any OpenRouter model, use MCP tools, and get a computer and a browser of their own. Self-hosting is free and always will be (AGPL-3.0, no license key, no paid tier), or use agentes.chat Cloud, the paid, hosted option: both run this same codebase. ## Why agentes.chat - **One conversation for people and agents.** Agents are members of the workspace, not a sidebar bot: they read the channel, answer when it's theirs to answer, and hand work back and forth. - **Safe by default.** Merges, deploys and anything a connector marks sensitive wait for a person's approval in the chat. Every model call is budgeted and recorded per agent. - **Agents that actually do the work.** Their own computer, a real browser you can watch and take over, Claude Code and Codex, routines on a schedule or an event, memory that learns. - **Yours to run.** One command on a Linux server, Postgres as the only dependency, web, desktop and phone apps that connect to your server. An open-source alternative to team chat with bolted-on AI bots, and to single-player agent apps such as Grok Bot, ChatGPT dots, OpenBot.run and OpenMausBot (all of which it imports from). ##",
+   "authors": [],
+   "orgs": [
+    "agentes-chat"
+   ],
+   "published": "2026-11-13T05:25:34+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/agentes-chat/agentes-chat",
+     "signal": "★ 1,231（新项目） · TypeScript",
+     "metric": 1231
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "agentes.chat：人与 AI 智能体同频道协作的开源 Slack 替代",
+   "summary_zh": "开源可自托管的 Slack 替代品，AI 智能体作为成员加入频道与私信，支持多模型、MCP 工具、独立电脑与浏览器、记忆与审批。",
+   "highlights_zh": [
+    "Docker Compose + Postgres 自托管，AGPL-3.0 免费",
+    "智能体可接 Claude、ChatGPT/Codex、Gemini、Grok 或 OpenRouter",
+    "敏感操作（合并、部署）需人工在聊天中审批，按智能体计预算"
+   ],
+   "why_zh": "如果你在团队里试点智能体协作，可用它把 agent 拉进频道并加审批护栏。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5907,
+   "score_llm": 7.0,
+   "score": 0.6563,
+   "date": "2026-11-13",
+   "slot": "noon",
+   "selected_at": "2026-11-13T05:25:34+00:00",
+   "mirror_pdf": "pdf/web-4d58a71c284d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/agentes-chat/agentes-chat"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f6b29b4e2ab3",
+   "kind": "article",
+   "title": "FrigadeHQ/yogurt",
+   "url": "https://github.com/FrigadeHQ/yogurt",
+   "pdf_url": "",
+   "abstract": "Private AI meeting notes. Free and open source.\nREADME: Private AI meeting notes. Free and open source. Download for Mac · Windows · Linux Yogurt records your calls without adding a bot to the meeting. macOS 14.4+ (Apple Silicon) · Windows 10 2004+ (x64) · Ubuntu 22.04+ or similar (x64 AppImage) · 8 GB memory yogurt.so · Help · Build and run locally · MIT license Made by Frigade . ## What it does - **Live transcripts.** Yogurt records calls and turns speech into text as you talk. - **Meeting summaries.** Yogurt writes up the conversation and any notes you add. - **Private by default.** Your audio, transcripts and AI processing stay on your computer. - **Free and open source.** You can use Yogurt without an account. - **Who said what.** Yogurt names speakers from Zoom, Teams and Meet on Mac only. - **Languages.** Multi-language mode transcribes 99 languages. - **Recording reminders.** Yogurt offers to record when a supported call starts. - **Answers with sources.** Yogurt answers questions across meetings and links to the source. - **Folders and search.** You can find meetings by folder, title, notes or transcript. - **Copy and export.** You can copy notes or transcripts, or save both as Markdown. - **Local MCP server.** Your chosen assistant app can read your notes when you allow access. - **Automatic stop.** Yogurt stops recording when the call ends. ## Watch the demo https://github.com/user-attachments/assets/da16b894-beb1-491a-89e1-fd10666dc9b8 ## How it works 1. **Record.** Start recording your microphone and call audio; you c",
+   "authors": [],
+   "orgs": [
+    "FrigadeHQ"
+   ],
+   "published": "2026-11-13T05:25:34+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/FrigadeHQ/yogurt",
+     "signal": "★ 1,005（新项目） · TypeScript",
+     "metric": 1005
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Yogurt：本地私密的AI会议笔记工具",
+   "summary_zh": "开源会议记录工具，无需机器人入会即可录音转写、生成摘要，音频与AI处理全部留在本地，支持99种语言和本地MCP服务。",
+   "highlights_zh": [
+    "无需会议机器人，直接本地录音转写",
+    "音频、转写与AI处理均不上云，隐私优先",
+    "内置本地MCP server，可让助手读取笔记"
+   ],
+   "why_zh": "如果你在意会议数据隐私又想要AI纪要，可用它替代云端会议助手。",
+   "tags": [
+    "语音",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5835,
+   "score_llm": 7.0,
+   "score": 0.6534,
+   "date": "2026-11-13",
+   "slot": "noon",
+   "selected_at": "2026-11-13T05:25:34+00:00",
+   "mirror_pdf": "pdf/web-f6b29b4e2ab3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/FrigadeHQ/yogurt"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c738fcf1e54e",
+   "kind": "article",
+   "title": "Sharp Tech on Video: Nvidia After Jensen Huang, Ominous News for American AI, D.C. Gets Its Revenge",
+   "url": "https://stratechery.com/2026/sharp-tech-on-video-nvidia-after-jensen-huang-ominous-news-for-american-ai-d-c-gets-its-revenge/",
+   "pdf_url": "",
+   "abstract": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery",
+   "authors": [
+    "Ben Thompson"
+   ],
+   "orgs": [
+    "Stratechery"
+   ],
+   "published": "2026-11-13T03:47:52+00:00",
+   "sources": [
+    {
+     "name": "Stratechery",
+     "authority": 0.8,
+     "url": "https://stratechery.com/2026/sharp-tech-on-video-nvidia-after-jensen-huang-ominous-news-for-american-ai-d-c-gets-its-revenge/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Ben Thompson，科技战略分析",
+   "title_zh": "Sharp Tech 视频版：后黄仁勋时代的英伟达与美国 AI 隐忧",
+   "summary_zh": "Ben Thompson 在 Sharp Tech 视频首秀中讨论英伟达后黄仁勋时代的走向、美国 AI 的不利信号，以及华盛顿监管风向的变化。",
+   "highlights_zh": [
+    "英伟达领导层交接的战略影响",
+    "美国 AI 竞争格局的负面信号",
+    "华盛顿对 AI 监管态度转向"
+   ],
+   "why_zh": "Ben Thompson 的战略分析框架对判断 AI 算力与政策走向有参考价值。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.648,
+   "date": "2026-11-13",
+   "slot": "noon",
+   "selected_at": "2026-11-13T05:25:34+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://stratechery.com/2026/sharp-tech-on-video-nvidia-after-jensen-huang-ominous-news-for-american-ai-d-c-gets-its-revenge/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e4704dc1d2c0",
+   "kind": "article",
+   "title": "李彦宏定义 AI 下一个十年，智能组织是「新厂房」",
+   "url": "http://www.geekpark.net/news/373937",
+   "pdf_url": "",
+   "abstract": "智能组织就是 AI 时代的新厂房，是生产力真正发生的地方 ——11 月 12 日，在百度世界 2026 上，百度创始人李彦宏抛出了贯穿本届大会的核心命题。 他在演讲中直言，当前 AI 没有产生预期的经济效益，本质是很多企业只更换了电机，却还没有重新设计工厂。 过去两年，大模型、智能体快速渗透到企业各个环节，从办公提效到业务辅助，AI 已从「尝鲜」变成很多企业的「标配」。但随着工具部署逐步完成，一个更核心的矛盾开始显现： AI 投入持续增加、Token 消耗不断增长，企业的利润增长却并未同步到来。 不少企业都遇到了相似的困境：员工个人效率提升了，单点试点也跑通了，但整个组织的运转方式并没有发生本质变化。 在李彦宏看来，这就像给旧工厂换上了新电机，生产线和厂房格局没有重构，生产力自然无法充分释放。 从十年前在同一场合提出「AI 是新电能」，预判移动互联网之后的下一幕是人工智能；到今天将「下一幕」指向智能组织，呼吁企业为 AI 时代重建「新厂房」，李彦宏再一次把行业的注意力引向了更远的未来。 当天的主论坛，百度发布了「芯云模体」全栈 AI 布局的最新进展。 其中值得关注的是模型层面的一系列进展： 百度重磅发布了大模型交易平台——词元所。词元所汇聚好的模型和模型提供商，让企业乃至个人，都能便捷地找到、购买和使用可信的模型 Token。词元所上线一个月以来，已入驻供应资源超 100 个，日均调用次数突破 5000 万，日均调用 token 超 7000 亿。 百度智能云正式发布词元所 | 图片来源：百度 百度最新基础模型文心 5.5 Flash Preview 也正式发布，模型支持最长 100 万 Token 的上下文，在复杂编程、知识工作、3D 建模、视频创作等方面表现突出。百度两款应用模型——文心闪电模型和文心一镜微表情大模型，当天正式上线百度智能云千帆平台，可通过 API 接入。 一、从技术到应用，AI 行业走到了新的关口 这一判断并非凭空而来，既扎根于过去十年 AI 产业的演进路径，也建立在百度长期技术投入与组织实践之上。 十年前，在百度世界大会的舞台上，移动互联网还处在流量红利的高点，整个行业都在争抢移动端入口，李彦宏已经提出「AI is the New Electricity」，直言移动互联网之后的下一幕是人工智能。 那一年，在很多人看来，放弃火热的移动赛道 all in AI，更像是一次不确定的押注。但后续的产业走向一步步印证了这个判断。 2017 年，李彦宏乘坐无人车开上北京五环，一张罚单成为中国自动驾驶从实验室走向真实道路的标志性注脚。当时舆论对这一行为争议颇多，他却回应「如果无人驾驶的罚单已经来了，无人驾驶汽车的量产还会远吗」。几乎同期，谷歌 Waymo 在美国凤凰城启动无人驾驶乘客测试，中美科技企业同步按下了自动驾驶商业化的启动键。 向底层技术的纵深布局同样早于行业普遍认知。 2018 年，百度发布中国第一款云端全功能 AI 芯片，在大多数企业仍聚焦上层应用开发时，就向算力底层延伸。同年亚马逊 AWS 推出首款自研 CPU，全球科技巨头不约而同地将底层算力视为 AI 竞争的核心战场。十几年的持续投入，让百度拥有了从芯片到应用的全栈能力，为后续模型、智能体的落地打下了根基。 生成式 AI 浪潮的预判同样如此。 2022 年百度世界上，文心大模型补全《富春山居图》的演示，提前预演了 AIGC 的内容生产潜力，李彦宏当时便判断，AIGC 将成为继 PGC、UGC 之后全新的内容生产方式。仅四个月后 ChatGPT 引爆全球，2022 年成为",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-13T03:43:41+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373937",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "李彦宏：智能组织是AI新厂房",
+   "summary_zh": "李彦宏在百度世界2026提出智能组织是AI时代新厂房，认为企业只换电机未重构工厂导致AI效益不及预期，并发布词元所与文心5.5 Flash。",
+   "highlights_zh": [
+    "提出智能组织是AI时代新厂房的核心判断",
+    "发布大模型交易平台词元所，日均调用token超7000亿",
+    "文心5.5 Flash Preview支持100万Token上下文"
+   ],
+   "why_zh": "头部公司对AI落地瓶颈的明确判断，兼有平台级发布。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-11-13",
+   "slot": "noon",
+   "selected_at": "2026-11-13T05:25:34+00:00",
+   "mirror_pdf": "pdf/web-e4704dc1d2c0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373937"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0f77776f7c50",
+   "kind": "article",
+   "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
+   "url": "https://latent.space/p/artcraft/",
+   "pdf_url": "",
+   "abstract": "ArtCraft used AI to rewrite Photoshop as open source software. For CEO Brandon Thomas, the vision is even bigger: to take back the internet!",
+   "authors": [
+    "Richard MacManus"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-11-13T04:17:25+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/artcraft/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "ArtCraft 用 AI 克隆 Photoshop，还想「重建一切」",
+   "summary_zh": "ArtCraft 用 AI 将 Photoshop 重写为开源软件，CEO Brandon Thomas 表示目标不止于此，要借此「夺回互联网」。",
+   "highlights_zh": [
+    "AI 辅助重写大型商业软件为开源项目",
+    "CEO 提出超越工具的更大愿景",
+    "对传统软件商业模式构成挑战"
+   ],
+   "why_zh": "展示 AI 重写存量软件的新路径，对工具类产品与开源生态有启发。",
+   "tags": [
+    "产品与行业",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-11-13",
+   "slot": "noon",
+   "selected_at": "2026-11-13T05:25:34+00:00",
+   "mirror_pdf": "pdf/web-0f77776f7c50.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/artcraft/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ba03603fac84",
+   "kind": "article",
+   "title": "突发！黄仁勋辞任 CEO，英伟达迎来历史性换帅",
+   "url": "https://www.ifanr.com/1689249?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "黑皮衣传奇谢幕 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "郑廷旭"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-11-12T14:36:47+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1689249?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "突发：黄仁勋辞任 CEO，英伟达历史性换帅",
+   "summary_zh": "爱范儿报道黄仁勋辞任英伟达 CEO，公司迎来历史性领导层交接，将影响 AI 算力供应链与行业格局。",
+   "highlights_zh": [
+    "黄仁勋卸任英伟达 CEO",
+    "英伟达领导层交接",
+    "对 AI 算力生态的潜在冲击"
+   ],
+   "why_zh": "英伟达换帅是可能改变 AI 算力格局的重大事件，值得关注后续。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-13",
+   "slot": "noon",
+   "selected_at": "2026-11-13T05:25:34+00:00",
+   "mirror_pdf": "pdf/web-ba03603fac84.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1689249?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cb7ce27114a8",
+   "kind": "article",
+   "title": "VLM 在预测性空间推理上的缺口还有多大？21 个模型，最高准确率仅 58.0%",
+   "url": "https://www.leiphone.com/category/academic/Ma9dfYJE9ifGDZ9I.html",
+   "pdf_url": "",
+   "abstract": "空间专项模型反而不如通用模型？浙大庄越挺团队提出空间智能新基准 作者丨 张岂萍 编辑丨 幸丽娟 空间智能正在成为 AI 竞赛的主战场。视觉语言模型（Vision-Language Model，VLM）已经能回答不少空间问题：一个物体在另一个物体的哪一侧，两者距离多远，换一个视角后物体在哪里。 但空间智能不止于理解静态场景。在真实交互环境中，机器人还需要面对动作带来的场景变化：物体被移动、旋转或拿走后，视觉语言模型需要判断新的空间关系。 如果不给变化后的画面，只告诉视觉语言模型“把这个物体移走”或者“把整个场景转一个方向”，它还能判断新的空间关系吗？ 浙江大学最新提出的 SpaceCast-Bench，专门评估这类 预测性空间推理（predictive spatial reasoning） ：视觉语言模型需要从变换前的观测中理解当前场景状态，并在给定一个空间变换或干预后，对从未被直接展示的结果状态进行空间关系推理。 他们发现，在 21 个视觉语言模型的评测中，最高准确率竟然只有 58.0%， 距离人类 87.2% 的准确率仍有明显差距。 更反直觉的是，6 个空间专项模型的总体准确率只有 25.7% 至 29.1% ，接近 25.9% 的随机水平，且低于所有闭源模型和通用开放权重模型。 这项工作由李弘幸、苏进越共同一作，沈永亮担任通讯作者，李鼎铭、张文祺、鲁伟明、肖俊、庄越挺等参与。这支团队在空间智能领域的分量不轻： 浙江大学求是特聘教授庄越挺早在三十年前就发表过空间推理相关研究《基于空间推理的设计方法及其应用》，在空间推理还停留在理论探讨的年代，他就先一步把它推向了真实的设计应用。 通讯作者沈永亮是庄越挺的学生，也是浙江大学“百人计划”研究员。他是 LLM Agent 领域开创性工作 HuggingGPT 的一作，如今深耕 Agentic AI 与 Physical AI，空间推理也是他重点关注的研究方向。 肖俊同为浙江大学求是特聘教授，曾获吴文俊人工智能科学技术奖自然科学奖一等奖、ACM Multimedia 唯一最佳论文奖，长期深耕三维识别与检索，如今也将跨媒体计算与计算机视觉方面的积累延伸到空间推理研究中。 浙江大学研究员张文祺曾是“华为天才少年”，主要研究具身模型与空间智能方向，做的正是让模型在三维环境中推理与行动。 浙江大学副教授鲁伟明则从大数据管理与知识挖掘的角度，为基准的数据构建提供支撑。 围绕这项工作的研究动机、实验中出现的反常结果，以及团队对空间智能瓶颈与应对路径的进一步思考和判断，AI 科技评论采访到了论文一作李弘幸，他是浙江大学的博士生。 论文地址：https://arxiv.org/abs/2610.12402 这个新的基准为什么要测、怎么测、又测出了什么？先从现有基准没有测到的地方说起。 01 现有空间推理，难在变化之后 现有空间评测已经覆盖单图、多视角和视频，也开始测试方向、距离、3D 尺度估计以及跨视角位置关系，但不少任务仍主要 测试视觉语言模型对当前空间关系的识别 ，即根据输入中已经呈现的视觉信息判断物体之间的关系。 真实操作里的问题更复杂。 一本书下面有一个信封，书上还放着一个杯子。机器人如果只回答“杯子在哪”“信封在哪”，判断的是当前关系；但如果它要把信封取出来，就必须预测移动书以后场景关系会如何变化，并据此决定下一步操作。 这里的关键区别在于， 视觉语言模型需要根据一次空间干预，预测场景关系随后如何变化。 SpaceCast-Bench 将整个过程拆成 observe–transform–infer ：先从一个",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-13T02:59:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/academic/Ma9dfYJE9ifGDZ9I.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "浙大发布预测性空间推理基准：21个VLM最高仅58%",
+   "summary_zh": "浙大团队提出SpaceCast-Bench，测试VLM在场景变换后推断新空间关系的能力。21个模型中最高准确率58%，人类为87.2%，空间专项模型仅约26%，接近随机水平。",
+   "highlights_zh": [
+    "任务要求模型从变换前观测预测干预后的空间关系，而非识别当前状态",
+    "6个空间专项模型准确率25.7%-29.1%，反低于通用与闭源模型",
+    "由庄越挺、沈永亮（HuggingGPT一作）团队完成，指向具身智能瓶颈"
+   ],
+   "why_zh": "做具身智能或多模态评测的读者，可据此判断VLM在动态空间推理上的真实短板。",
+   "tags": [
+    "多模态",
+    "数据与评测",
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-13",
+   "slot": "noon",
+   "selected_at": "2026-11-13T05:25:34+00:00",
+   "mirror_pdf": "pdf/web-cb7ce27114a8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/academic/Ma9dfYJE9ifGDZ9I.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6be412ada286",
+   "kind": "article",
+   "title": "黄仁勋时代落幕，英伟达宣布其卸任，CFO克雷斯出任临时CEO",
+   "url": "https://www.tmtpost.com/8203591.html",
+   "pdf_url": "",
+   "abstract": "黄仁勋卸任英伟达CEO，巨头开启权力交接过渡期",
+   "authors": [
+    "Tech商业"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-13T01:17:50+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8203591.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "黄仁勋卸任英伟达CEO，CFO克雷斯任临时CEO",
+   "summary_zh": "英伟达宣布黄仁勋卸任CEO，首席财务官科莱特·克雷斯出任临时CEO，全球市值最高芯片公司进入权力交接过渡期。",
+   "highlights_zh": [
+    "黄仁勋卸任，CFO克雷斯临时接任",
+    "公司进入权力交接过渡期",
+    "正值AI基础设施投资与融资承诺高企之际"
+   ],
+   "why_zh": "AI 算力龙头最高层变动，直接影响全球 AI 基础设施走向。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 8.0,
+   "score": 0.624,
+   "date": "2026-11-13",
+   "slot": "noon",
+   "selected_at": "2026-11-13T05:25:34+00:00",
+   "mirror_pdf": "pdf/web-6be412ada286.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8203591.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c4ba5704c652",
+   "kind": "article",
+   "title": "Anthropic IPO 认购需求约为 6 倍：拟募资最高 644 亿美元，目标估值约 1.4 万亿美元",
+   "url": "https://www.ithome.com/1/026/671.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 13 日消息，据彭博社今日报道，Anthropic 计划进行的首次公开募股（IPO）认购需求持续增长，目前投资者提交的认购订单数量已达到可供认购股份数量的约 6 倍。 根据 Anthropic 提交的文件，公司及其联合创始人计划通过 IPO 募资最高 644 亿美元 （现汇率约合 4,305.19 亿元人民币） ，同时通过同步进行的私募配售募资 260 亿美元，两项融资合计最高达 904 亿美元。 Anthropic 目前的目标完全稀释后估值约为 1.4 万亿美元 （IT之家注：现汇率约合 9.36 万亿元人民币） 。这一估值低于此前部分投资者预期的水平。 随着认购需求超过可供认购股份数量，部分潜在投资者可能无法获得预期的配售额度。知情人士透露，承销银行已告知部分投资者，Anthropic 将优先考虑现有投资者，部分新投资者最终获得的股份可能少于预期。 根据提交的文件，英伟达计划在 260 亿美元的私募配售中认购约 100 亿美元 （现汇率约合 668.51 亿元人民币） 的 Anthropic 股票。该公司同时也是 Anthropic 的重要战略合作伙伴。 此外，Anthropic 正通过面向潜在投资者的活动提高 IPO 关注度。公司首席执行官达里奥 · 阿莫代伊与摩根大通首席执行官杰米 · 戴蒙（Jamie Dimon）计划于 11 月 13 日参加一场直播活动。 Anthropic 在 11 月 10 日提交的文件中披露，截至 10 月 31 日，公司营收运行率已达到 810 亿美元，较 9 月底增加 100 亿美元。不过，该指标按照公司披露的计算方式，根据近期消费型服务费用及订阅收入进行年化计算，并不等同于已经实现的全年营收。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-13T04:49:58+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/026/671.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic IPO 认购超6倍，目标估值1.4万亿美元",
+   "summary_zh": "Anthropic IPO 认购需求达可售股份约6倍，拟募资最高644亿美元加260亿美元私募配售，目标估值约1.4万亿美元，英伟达拟认购约100亿美元。",
+   "highlights_zh": [
+    "认购订单约为可售股份6倍，现有投资者优先",
+    "IPO 加私募合计最高募资904亿美元",
+    "营收运行率达810亿美元，英伟达拟私募认购约100亿"
+   ],
+   "why_zh": "AI 头部公司资本化里程碑，反映市场对前沿模型公司的定价预期。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-13",
+   "slot": "noon",
+   "selected_at": "2026-11-13T05:25:34+00:00",
+   "mirror_pdf": "pdf/web-c4ba5704c652.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/026/671.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-757b1cb27752",
+   "kind": "article",
+   "title": "主导苹果 M1 芯片的传奇架构师谈 AI 电力危机：用造 iPhone 芯片的“抠门”哲学建超算",
+   "url": "https://www.ithome.com/1/026/591.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 13 日消息，在最新一期 Power On 访谈节目中，彭博社的马克 · 古尔曼（Mark Gurman）邀请苹果前 CPU 首席架构师杰拉德 · 威廉姆斯三世（Gerard Williams III）作客，探讨当前的 AI 浪潮。 IT之家查询公开资料，Williams 是一位深耕 CPU 架构数十年的芯片工程师，也是苹果自研芯片从手机走向 Mac 的关键人物之一。他曾在苹果主导 A 系列和 M 系列处理器的 CPU 架构，后创办 AI 数据中心芯片公司 NUVACORE ，主张把“每瓦性能”从移动设备带入云端。 2019 年离开苹果联合创立 NUVIA，公司后被高通收购，他主导了 Oryon CPU 架构；2026 年又联合创立新公司 NUVACORE。 Gerard Williams III（中）与 Nuvia 的联合创始人 John Bruno（左）和 Manu Gulati（右）合影，图源：Nuvia 在苹果期间，他参与了从 A7 到 M1 等多代自研处理器的研发。A7 是苹果首款 64 位移动处理器，M1 则是苹果将 Mac 从 Intel 芯片转向自研 Apple Silicon 的标志性产品。这段经历使 Williams 成为苹果“自研芯片 + 软硬件协同”路线的代表性人物。 在本次访谈节目中，Williams 认为尽管全行业都在疯狂追捧英伟达的 GPU， 但是 CPU 才是 AI 数据中心的幕后主角，CPU 的“大脑”角色不可替代。 GPU 是 AI 的“算力引擎”，CPU 则是让整个数据中心高效协同的“调度中枢”。 大语言模型虽然依赖 GPU 和 AI 加速器完成大规模并行计算，但仍需要 CPU 负责内存调度、安全机制、操作系统运行及关键串行任务。其创立的 NUVACORE 公司采用“核心优先”（Core First）架构，不预先绑定 x86、ARM 或 RISC-V 指令集，而是在芯片核心设计阶段保持灵活，最终再针对具体生态进行优化。 在芯片研发方面，Williams 称，传统从零设计高性能 CPU 通常需 2.5 至 3 年，其中前期性能建模和设计评估往往耗时 7 至 12 个月；借助 AI 工具，NUVACORE 已将该阶段压缩至 2 至 3 个月。 他把 AI 比作设计团队的“能力延伸”，AI 能帮工程师省出大量时间去尝试更激进的创意，但因为模型并不总是可靠，最终仍需要资深人类工程师来把关验证，确保芯片的绝对稳健。 他还表示，手机芯片时代对毫瓦级功耗的极致追求，正在成为 AI 数据中心的关键能力。当年设计手机芯片时，工程师为了续航必须斤斤计较每一毫瓦（milliwatt）的功耗。 而如今 AI 数据中心动辄消耗吉瓦（Gigawatt）级别的惊人电力，如果能把手机上的省电技术用到服务器 CPU 上，每颗核心省下的几毫瓦乘以数百万颗核心， 就能在同样的电力和空间限制下塞入 2 到 3 倍的算力。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-13T03:33:29+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/026/591.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "苹果M1架构师：CPU才是AI数据中心幕后主角",
+   "summary_zh": "前苹果CPU首席架构师Gerard Williams III认为，CPU是AI数据中心的调度中枢，不可替代；其新公司NUVACORE用AI工具把芯片前期建模从7-12个月压缩到2-3个月，并主张把手机芯片的毫瓦级省电哲学带入吉瓦级数据中心，同功耗下可塞入2-3倍算力。",
+   "highlights_zh": [
+    "GPU是算力引擎，CPU负责内存调度、安全与串行任务，是数据中心协同中枢",
+    "NUVACORE采用“核心优先”架构，不预先绑定x86/ARM/RISC-V指令集",
+    "AI辅助设计将前期性能建模从7-12个月压缩至2-3个月，但仍需资深工程师把关"
+   ],
+   "why_zh": "重量级芯片架构师对AI算力瓶颈的明确判断，指向CPU与能效这一被低估的赛道。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-13",
+   "slot": "noon",
+   "selected_at": "2026-11-13T05:25:34+00:00",
+   "mirror_pdf": "pdf/web-757b1cb27752.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/026/591.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a88bddb17214",
+   "kind": "article",
+   "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+   "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-11-12T19:07:35+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "LLMON：面向大模型的原生标记语言，落地Granite 4.1",
+   "summary_zh": "Hugging Face介绍LLMON标记语言，并集成进Granite 4.1 3B/8B模型，让模型原生解析结构化标记。",
+   "highlights_zh": [
+    "提出LLM原生的标记语言LLMON",
+    "已集成到Granite 4.1小模型",
+    "或改善结构化输出与解析效率"
+   ],
+   "why_zh": "关注模型结构化输出与格式设计的工程师值得一读。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 7.0,
+   "score": 0.612,
+   "date": "2026-11-13",
+   "slot": "noon",
+   "selected_at": "2026-11-13T05:25:34+00:00",
+   "mirror_pdf": "pdf/web-a88bddb17214.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.16493",
+   "kind": "paper",
+   "title": "ReA-Bench: Benchmarking Responsible Agent Auditing",
+   "url": "https://arxiv.org/abs/2611.16493",
+   "pdf_url": "https://arxiv.org/pdf/2611.16493",
+   "abstract": "As agents perform tasks autonomously in local and cloud environments, auditing their execution trajectories can help service providers identify risks and improve agent harnesses and foundation models. Our analysis of production and red-team trajectories shows that some risks are repeatedly missed across auditing configurations. Overall recall obscures which risks are missed and whether higher recall comes with more false positives on legitimate behavior. Existing benchmarks offer limited insight into these failures. Generated trajectories can contain inconsistent tool calls and responses, conspicuous risky actions, or repetitive attack patterns. Grouping results by risk type also makes it difficult to tell whether auditors overlooked evidence, accepted an unsupported conclusion, or lacked information needed to make a judgment. We introduce ReA-Bench, a diagnostic benchmark for auditing responsible agent behavior. It organizes auditing challenges into six tiers: internal safety knowledge, contradictions within trajectories, evidence retrieval in long contexts, verification of sources and reasoning, indirect steering, and missing information. It includes challenging benign cases in which actions resemble risky ones but are consistent with the task and its authorization. It also provides paired trajectory versions to test whether auditors detect the same risks more reliably when the trajectory is shortened or missing information is supplied. Most samples are drawn from real production trajectories, with scenarios manually selected and adapted to preserve realistic tasks and risks that could plausibly arise during execution.",
+   "authors": [
+    "Zipeng Ye",
+    "Shenyu Dai",
+    "Yong Xie",
+    "Kun Wang",
+    "Jiyang Guan",
+    "Zhikai Chen",
+    "Jiaqi Weng",
+    "Jialing Tao",
+    "Hui Xue"
+   ],
+   "orgs": [],
+   "published": "2026-11-12T09:01:24Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.16493",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "ReA-Bench：智能体负责任行为审计诊断基准",
+   "summary_zh": "提出六层分级审计基准，覆盖内部安全知识、轨迹矛盾、长上下文取证等，并加入与风险行为相似但合规的良性样本，揭示现有审计配置反复漏检的风险类型。",
+   "highlights_zh": [
+    "六层审计挑战分级：安全知识、轨迹内矛盾、长上下文证据检索、来源与推理验证、间接引导、信息缺失",
+    "引入与风险动作相似但符合任务授权的良性对照案例，检验误报",
+    "提供配对轨迹版本，测试审计器在信息更充分时能否稳定识别同一风险"
+   ],
+   "why_zh": "做智能体安全审计与红队评测的团队，可据此定位审计器究竟漏在哪一层。",
+   "tags": [
+    "对齐与安全",
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-13",
+   "slot": "noon",
+   "selected_at": "2026-11-13T05:25:34+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.16493.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.16493"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.16493"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.16493"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.16493"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.16493"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.16493"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-563e9ccd1756",
+   "kind": "article",
+   "title": "AI 录音硬件卖的是时间差，窗口可能只剩半年",
+   "url": "http://www.geekpark.net/news/373946",
+   "pdf_url": "",
+   "abstract": "北京时间 11 月 4 日，苹果推送了 iOS 27.3 和 watchOS 27.3 的第一个开发者测试版，除了带来国行 Apple 智能，还给 Apple Watch 加入了两个全新的 AI 功能：一个是 Live Rewind，可以随时帮你回顾过去 15 秒内的对话；另一个则是 Siri Recap，手表会在一整天里记下你和别人的对话，再整理成摘要。不过这两个功能目前只有英文版，苹果也写明暂不在中国提供。 左为 Live Rewind，右为 Siri 回顾（Siri Recap）｜图片来源：Apple 在这两个功能发布之后，硬件创业者纷纷表示「巨头开始下场抢创业者的赛道了」。按苹果的说明，Apple Watch 把收到的音频加密传给 iPhone，由 iPhone 转写成文字，再交给苹果的私有云计算生成摘要。整个过程与市面上类似的 AI 录音转录功能异曲同工，不同的是，Apple Watch 并不需要你购买额外的硬件，它同样支持几乎全天候的录音，并且没有任何学习成本。 苹果称音频不录也不存，也不识别说话人｜图片来源：极客公园 Recap 暂时没有面向中国发布，但想要获得类似的体验其实也无需等待 Apple Watch 更新，国内已经有一批硬件在做同样的事，OPPO AI 心力球、NOOKLAB 随身屏和讯飞录音环都主打全天收音。 这些产品目前仍被归在 AI 录音硬件这个大类里，但一个明显的趋势是，越来越多的产品已经开始选择不保留录音。 OPPO AI 心力球就是「只留文字记录」这样一款典型的产品；阿里千问 9 月在云栖大会上发布的录音卡 QwenNote A2，同样是把声音传到云端转写一次就删掉原始音频，只留下文字和纪要。 OPPO AI 心力球夹在衣领上全天收音｜图片来源：极客公园 对于这种功能上的设计，千问办公 CEO 陈宇森的解释是，「 今天的 AI 语音转写，已经准确到不需要录音了 。」 他同时还说，AI 录音类产品只是一个小品类，AI 笔记和会议智能类产品才「有无限想象空间」，而他手里的上一代录音卡已经卖出了「大几十万台」。录音在这里只是转成文字的中间一步，所以硬件剩下的工作，主要是把声音收进来。 随着 Personal AI 的概念在 2026 年兴起，读这些记录的正在从人，变成 Agent。但 AI 录音硬件未必是「承载灵魂」的最佳载体。 信息缺口的生意 2023 年 6 月，Plaud 开始把录音卡吸在 iPhone 背面卖，一时风头无两，甚至成为 AI 原生硬件的代名词，迄今累计卖出超过 300 万台。 Plaud 录音卡装进磁吸壳，贴在 iPhone 背面｜图片来源：Plaud 但即使是 Plaud，在回国时也遇上了水土不服的情况，比它更便宜的对手要多很多，钉钉称自家录音卡包揽了今年 618 天猫、抖音、京东 AI 录音设备的销量第一。 价格压得下来，是因为录音和转写本身并不是护城河：手机搭配转写 App 已经能覆盖绝大多数录音场景。 于是，原本为了替手机录音而生的硬件，在 Personal AI 时代，又要回到和手机本身竞争这个老问题上。 到了 2026 年，新一代 AI 录音硬件干脆把卖点从会议挪到了人身上， 跟着用户一整天， 攒下这个人的上下文 。 这个变化之所以今年来得集中，是因为 Personal AI Agent 已经能替人写报告、跑流程，却不知道用它的人在线下说过什么。 互联网巨头已经意识到这个问题，并开始针对性地「补课」。腾讯 9 月给 WorkBuddy 拉来 9 款联名硬件，按公布的名单，至少 6 款",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-13T04:57:38+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373946",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI录音硬件只剩半年窗口",
+   "summary_zh": "极客公园分析苹果Apple Watch新增AI录音摘要功能后，AI录音硬件创业者面临巨头下场挤压，窗口或仅剩半年。",
+   "highlights_zh": [
+    "苹果Live Rewind与Siri Recap切入录音摘要",
+    "国内OPPO、阿里千问等转向只留文字不留音频",
+    "Personal AI时代录音硬件需与手机正面竞争"
+   ],
+   "why_zh": "揭示AI硬件品类被平台吞噬的典型趋势，值得硬件创业者读。",
+   "tags": [
+    "语音",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-11-13",
+   "slot": "noon",
+   "selected_at": "2026-11-13T05:25:34+00:00",
+   "mirror_pdf": "pdf/web-563e9ccd1756.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373946"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cdf71cb7cb5e",
+   "kind": "article",
+   "title": "AI #194: Spy Versus Guy",
+   "url": "https://thezvi.wordpress.com/2026/11/12/ai-194-spy-versus-guy/",
+   "pdf_url": "",
+   "abstract": "Tomorrow I head to Washington DC for a conference called The Takeoff. If you are there, do come say hello. I will be giving a talk on how to keep up with AI given a limited time budget. This week … Continue reading →",
+   "authors": [
+    "TheZvi"
+   ],
+   "orgs": [
+    "Zvi Mowshowitz"
+   ],
+   "published": "2026-11-12T14:31:58+00:00",
+   "sources": [
+    {
+     "name": "Zvi Mowshowitz",
+     "authority": 0.75,
+     "url": "https://thezvi.wordpress.com/2026/11/12/ai-194-spy-versus-guy/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 趋势评论员，每周 AI 综述",
+   "title_zh": "AI #194：间谍对间谍",
+   "summary_zh": "Zvi 本周 AI 综述，涵盖 AI 安全与政策动态，并预告其在华盛顿 The Takeoff 会议上关于如何在有限时间预算内跟进 AI 的演讲。",
+   "highlights_zh": [
+    "每周 AI 动态综述",
+    "AI 安全与政策议题",
+    "有限时间跟进 AI 的方法论"
+   ],
+   "why_zh": "适合快速了解一周 AI 安全与政策脉络，但信息密度依赖原文。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 6.0,
+   "score": 0.58,
+   "date": "2026-11-13",
+   "slot": "noon",
+   "selected_at": "2026-11-13T05:25:34+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://thezvi.wordpress.com/2026/11/12/ai-194-spy-versus-guy/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ba210de82cf2",
+   "kind": "article",
+   "title": "豆包工作接入更多模型 并推出限时额度优惠",
+   "url": "https://www.leiphone.com/category/industrynews/5Y2bdtPv21ZnFJCY.html",
+   "pdf_url": "",
+   "abstract": "为满足用户根据不同任务自主选择模型的需求，11月12日，豆包工作正式接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等多款第三方模型，并推出限时特惠计划。用户可根据实际工作需要，选择相应模型完成任务。 此前，豆包工作已向企业客户开放了第三方模型，为了让用户更清晰地了解不同模型的使用差异，豆包工作也在模型选择页面更新标注了各模型的额度消耗倍率，倍率系数越低，额度消耗越少。用户在选择模型时，可以根据消耗情况，结合任务需求和使用成本作出选择。 在简单小额任务免费的基础上，豆包工作将推出全新限时优惠活动。用户在工作日及节假日的指定优惠时段使用参与活动的模型，可享受额度消耗优惠。 此外，豆包工作已针对豆包 2.1 Lite和DeepSeek V4.1 Flash推出限时优惠，下调这两款模型的额度消耗倍率，同等任务消耗更少，额度更耐用。 雷峰网 雷峰网",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-12T03:12:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/5Y2bdtPv21ZnFJCY.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "豆包工作接入Kimi、GLM、DeepSeek等第三方模型",
+   "summary_zh": "豆包工作正式接入Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash等第三方模型，标注各模型额度消耗倍率，并推出限时额度优惠，用户可按任务自主选模型。",
+   "highlights_zh": [
+    "此前仅对企业客户开放第三方模型，现扩展至更广用户",
+    "模型选择页标注额度消耗倍率，便于按成本选型",
+    "对豆包2.1 Lite与DeepSeek V4.1 Flash下调消耗倍率"
+   ],
+   "why_zh": "反映头部AI应用从单一自研模型转向多模型聚合的产品趋势。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-13",
+   "slot": "noon",
+   "selected_at": "2026-11-13T05:25:34+00:00",
+   "mirror_pdf": "pdf/web-ba210de82cf2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/5Y2bdtPv21ZnFJCY.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c428fe6a63a8",
+   "kind": "article",
+   "title": "Docker 呼吁通过隔离与治理保障智能体安全",
+   "url": "https://www.infoq.cn/article/1pCuIRtm5HYwTyR4fIhA?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Matt Saunders"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-13T11:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/1pCuIRtm5HYwTyR4fIhA?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Docker呼吁以隔离与治理保障智能体安全",
+   "summary_zh": "Docker提出智能体安全需靠运行隔离与治理机制，而非仅依赖模型对齐，为智能体落地提供基础设施层面的安全思路。",
+   "highlights_zh": [
+    "强调容器隔离作为智能体执行的安全边界",
+    "治理机制覆盖权限与行为审计",
+    "面向企业级智能体部署的实践建议"
+   ],
+   "why_zh": "智能体大规模落地前，安全隔离与治理是绕不开的工程议题",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-13",
+   "slot": "noon",
+   "selected_at": "2026-11-13T05:25:34+00:00",
+   "mirror_pdf": "pdf/web-c428fe6a63a8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/1pCuIRtm5HYwTyR4fIhA?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c2ad64129a83",
+   "kind": "article",
+   "title": "GFlow：面向游戏设计的多 Agent 协作与验证实践｜AICon北京",
+   "url": "https://www.infoq.cn/article/dkQAAL0SSdhIq1h61eKx?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "AICon 全球人工智能开发与应用大会"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-13T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/dkQAAL0SSdhIq1h61eKx?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "GFlow：游戏设计中的多Agent协作与验证实践",
+   "summary_zh": "AICon演讲分享GFlow如何用多智能体协作加验证机制做游戏设计，展示智能体分工与结果校验在创意生产流程中的落地方式。",
+   "highlights_zh": [
+    "多Agent分工协作完成游戏设计任务",
+    "引入验证环节控制生成结果质量",
+    "来自AICon北京大会的一线工程实践"
+   ],
+   "why_zh": "多智能体协作在垂直场景落地的具体工程参考",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-13",
+   "slot": "noon",
+   "selected_at": "2026-11-13T05:25:34+00:00",
+   "mirror_pdf": "pdf/web-c2ad64129a83.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/dkQAAL0SSdhIq1h61eKx?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.16693",
+   "kind": "paper",
+   "title": "MobileProbe: Adaptive Security Evaluation of Mobile Agents via Trajectory-Aware Injection",
+   "url": "https://arxiv.org/abs/2611.16693",
+   "pdf_url": "https://arxiv.org/pdf/2611.16693",
+   "abstract": "Mobile GUI agents read the screen of a phone and operate apps on a user's behalf to complete multi-step tasks such as online shopping or messaging. Because the agent acts on whatever the screen shows, an attacker can embed malicious instructions into ordinary UI content and redirect its actions. We refer to this threat as environmental injection attack (EIA). Existing benchmarks measure this risk by pinning hand-crafted payloads to a fixed step of a fixed task. This approach faces two limitations. First, each payload is bound to one task in one app and does not transfer without manual redesign. Second, agents given the same task may follow different routes, so an agent that never reaches the injected page is recorded as safe without being tested. This insufficient test coverage can cause fixed-point benchmarks to underestimate the security risk of deployed mobile agents. In this work, we propose MobileProbe, a trajectory-aware red-teaming framework that evaluates mobile agents adaptively. MobileProbe discovers attacker-controllable content surfaces through automated pentesting, localizes vulnerable decision points along the agent's trajectory, and iteratively refines context-aware payloads through a surrogate-filtered evolutionary loop. We construct a benchmark of 83 long-horizon attack instances spanning 12 mobile applications. Each is annotated with a Confidentiality, Integrity, or Availability (CIA) attack goal to cover the principal categories of security threats facing mobile agents. On three representative agent architectures, MobileProbe attains higher attack success rates than human-written, zero-shot LLM, and prior automated red-teaming baselines adapted to the mobile domain. MobileProbe can serve as a pre-deployment auditing tool to systematically uncover vulnerabilities and inform security hardening of mobile agents.",
+   "authors": [
+    "Yingbin Jin",
+    "Ji'an Wang",
+    "HaoYang Chai",
+    "Hanjun Luo",
+    "Li Hu",
+    "Xinfeng Li",
+    "Huadi Zheng",
+    "PeiZhao Hu",
+    "Qingqing Ye",
+    "Haibo Hu"
+   ],
+   "orgs": [],
+   "published": "2026-11-12T12:08:43Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.16693",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "MobileProbe：面向移动智能体的轨迹感知自适应安全评测",
+   "summary_zh": "提出轨迹感知的红队框架，自动发现攻击面、定位脆弱决策点并迭代优化注入载荷，构建83个长程攻击实例覆盖12款App，揭示固定点基准低估移动智能体安全风险。",
+   "highlights_zh": [
+    "指出固定步骤注入基准的两大缺陷：载荷不可迁移、未到达注入页即误判为安全",
+    "用自动化渗透测试发现可控内容面，沿轨迹定位脆弱决策点",
+    "代理模型过滤的进化循环迭代生成上下文感知载荷"
+   ],
+   "why_zh": "做移动GUI智能体落地与安全评估的团队，需要了解环境注入攻击的真实风险面。",
+   "tags": [
+    "智能体",
+    "对齐与安全",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 7.0,
+   "score": 0.548,
+   "date": "2026-11-13",
+   "slot": "noon",
+   "selected_at": "2026-11-13T05:25:34+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.16693.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.16693"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.16693"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.16693"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.16693"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.16693"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.16693"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.16318",
+   "kind": "paper",
+   "title": "Benchmarking AI risk behaviors",
+   "url": "https://arxiv.org/abs/2611.16318",
+   "pdf_url": "https://arxiv.org/pdf/2611.16318",
+   "abstract": "We evaluate LLM risk propensities across a range of contexts and task demands. We evaluate models for how risk averse or risk tolerant they are in various conditions, as well as how stable and consistent their behavior is across conditions. We present a toolkit for developing model risk profiles that can be used to predict model behavior and which can be adapted to include new evaluations of risk propensities. We also examine how these properties have changed across model generations and families. We observe that 2026 state-of-the-art models tend to be more stable, more consistent, and more risk neutral than older models. These trends appear to be related; newer models are more stable and consistent because they are more likely to use expected value maximization as a decision procedure.",
+   "authors": [
+    "Luhan Mikaelson",
+    "Robert Adragna",
+    "Emmett Brosowsky",
+    "Hayley Clatterbuck"
+   ],
+   "orgs": [],
+   "published": "2026-11-12T05:27:44Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.16318",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "论文",
+   "lang": "en",
+   "who": "",
+   "title_zh": "大模型风险行为基准：跨代际的风险偏好画像",
+   "summary_zh": "系统评测LLM在不同情境下的风险厌恶程度与行为一致性，发现2026年前沿模型更稳定、更一致、更风险中性，原因更倾向采用期望值最大化作为决策程序。",
+   "highlights_zh": [
+    "提供可扩展的模型风险画像工具包，用于预测模型行为",
+    "跨模型代际与家族比较风险偏好的演变",
+    "将稳定性提升归因于期望值最大化决策策略的普及"
+   ],
+   "why_zh": "理解模型风险倾向如何随代际收敛，对智能体部署与对齐评估有直接参考。",
+   "tags": [
+    "对齐与安全",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 7.0,
+   "score": 0.548,
+   "date": "2026-11-13",
+   "slot": "noon",
+   "selected_at": "2026-11-13T05:25:34+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.16318.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.16318"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.16318"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.16318"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.16318"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.16318"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.16318"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "英伟达权力交接将重塑算力供给格局，AI资本循环面临再定价",
-   "why": "黄仁勋即刻辞任、CFO临时接任，市值单日蒸发近6000亿美元，出口管制与供应链风险同步暴露。",
+   "trend": "英伟达换帅触发算力权力重组，AI估值进入压力测试期",
+   "why": "黄仁勋辞任致市值蒸发近6000亿美元，Anthropic IPO估值缩水，市场对AI公司定价趋于谨慎。",
    "refs": [
     "web-729cef541139",
-    "web-53f3d4509ea2",
     "web-adf23bbf9abe",
-    "web-917201068ee8"
+    "web-f84143626847",
+    "web-90fec5639c58"
    ]
   },
   {
-   "trend": "具身智能评测正从静态成功率转向真实时间约束",
-   "why": "加入真实时钟后策略成功率从60%+跌至15%，暴露现有基准不测时间尺度的结构性缺陷。",
+   "trend": "具身智能评测转向时间维度，现有基准暴露致命盲区",
+   "why": "赵行指出加入真实时钟后策略成功率从60%+跌至15%，曹婷主张在线自进化替代离线数据堆砌。",
    "refs": [
     "web-301f08de168e",
     "web-bd40d2a1c492"
    ]
   },
   {
-   "trend": "AI估值进入分化期，一级市场退出预期先于融资热度松动",
-   "why": "Anthropic IPO估值缩水6000亿美元，机器人老股东按六五至八折出让老股，买家转谨慎。",
+   "trend": "AI评测从刷榜转向程序验证与负责任行为审计",
+   "why": "TCSExam用理论计算机科学任务检验Agent并程序验证，ReA-Bench揭示审计配置反复漏检风险。",
    "refs": [
-    "web-f84143626847",
-    "web-66f7091bba1d"
+    "web-6812ee4f6467",
+    "arxiv-2611.16493"
    ]
   },
   {
-   "trend": "评测方法向可验证的硬科学任务迁移，Agent能力有了程序化标尺",
-   "why": "TCSExam用100项理论计算机科学任务检验Agent，Kimi K3图构造结果通过程序验证。",
+   "trend": "多模型路由成应用层标配，平台方主动接入第三方模型",
+   "why": "豆包工作接入Kimi、GLM、DeepSeek并按倍率计费，用户可按任务自主选模型。",
    "refs": [
-    "web-6812ee4f6467"
+    "web-ba210de82cf2"
    ]
   },
   {
-   "trend": "终端编程Agent开源化，编码入口从IDE向命令行下沉",
-   "why": "Qwen开源TypeScript实现的qwen-code并登顶GitHub Trending，终端成为Agent新战场。",
+   "trend": "智能体落地瓶颈从模型能力转向记忆架构与运行隔离",
+   "why": "InfoQ系统梳理记忆与上下文分层设计，Docker主张靠隔离与治理而非仅模型对齐保障安全。",
    "refs": [
-    "web-5ad23f0e2e10"
+    "web-9eb398bb7f58",
+    "web-c428fe6a63a8"
    ]
   }
  ]
