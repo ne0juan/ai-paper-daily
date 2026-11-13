@@ -1,11 +1,11 @@
-2026-11-13 12:59:55,474 INFO source hf_daily           -> 11 items
-2026-11-13 12:59:55,831 INFO source hackernews         -> 13 items
-2026-11-13 13:01:30,256 INFO source rss                -> 101 items
-2026-11-13 13:01:32,536 INFO source html_lists         -> 0 items
-2026-11-13 13:01:32,536 INFO source x                  -> 0 items
-2026-11-13 13:01:34,165 INFO source arxiv_search       -> 49 items
-2026-11-13 13:01:43,291 INFO source github             -> 20 items
-2026-11-13 13:01:43,293 INFO candidates: 192 (stale dropped 18, new 127)
-2026-11-13 13:03:20,448 INFO llm judged 96/100 (calls=13)
-2026-11-13 13:03:20,719 WARNING pdf arxiv-2611.16748: too large (> 25165824 bytes): https://arxiv.org/pdf/2611.16748
-2026-11-13 13:06:01,877 INFO run done: {"at": "2026-11-13T12:59:55+00:00", "slot": "evening", "candidates": 192, "new": 127, "stale": 18, "judged": 96, "selected": 21, "mirrored": 17, "by_category": {"技术": 4, "资讯": 14, "项目": 3}, "by_source": {"HF Daily Papers": 11, "arXiv 新论文": 49, "Hacker News": 13, "量子位": 9, "极客公园": 8, "IT之家": 18, "爱范儿": 9, "少数派": 3, "雷峰网": 10, "钛媒体": 7, "InfoQ 中文": 11, "阮一峰": 1, "Latent Space": 4, "Stratechery": 2, "SemiAnalysis": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 3, "Hugging Face Blog": 2, "Google Research": 1, "OpenAI": 5, "Google DeepMind": 2, "NVIDIA": 1, "Microsoft": 2, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
+2026-11-13 18:30:44,635 INFO source hf_daily           -> 11 items
+2026-11-13 18:30:45,842 INFO source hackernews         -> 15 items
+2026-11-13 18:31:11,285 INFO source rss                -> 108 items
+2026-11-13 18:31:13,880 INFO source html_lists         -> 1 items
+2026-11-13 18:31:13,880 INFO source x                  -> 0 items
+2026-11-13 18:31:14,425 INFO source arxiv_search       -> 36 items
+2026-11-13 18:31:25,999 INFO source github             -> 20 items
+2026-11-13 18:31:26,001 INFO candidates: 190 (stale dropped 69, new 83)
+2026-11-13 18:32:44,256 INFO llm judged 83/83 (calls=11)
+2026-11-13 18:34:26,139 WARNING snapshot https://thezvi.wordpress.com/2026/11/13/jensen-huang-resigns-after-having-another-affair-in-addition-to-the-chinese-spy/: blocked or empty page
+2026-11-13 18:35:28,445 INFO run done: {"at": "2026-11-13T18:30:44+00:00", "slot": "morning", "candidates": 190, "new": 83, "stale": 69, "judged": 83, "selected": 22, "mirrored": 20, "by_category": {"资讯": 11, "观点": 3, "技术": 4, "项目": 3, "论文": 1}, "by_source": {"HF Daily Papers": 11, "arXiv 新论文": 36, "Hacker News": 15, "量子位": 10, "极客公园": 8, "IT之家": 20, "爱范儿": 9, "少数派": 3, "雷峰网": 10, "钛媒体": 7, "InfoQ 中文": 11, "阮一峰": 1, "Latent Space": 4, "Stratechery": 2, "SemiAnalysis": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 2, "Zvi Mowshowitz": 2, "Hugging Face Blog": 5, "Google Research": 1, "OpenAI": 6, "Google DeepMind": 1, "NVIDIA": 2, "Microsoft": 2, "DeepSeek": 1, "GitHub Trending": 9, "GitHub 新项目": 11}, "llm": true, "translated": 0}
