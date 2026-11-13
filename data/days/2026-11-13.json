@@ -2379,11 +2379,1269 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "arxiv-2611.16748",
+   "kind": "paper",
+   "title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
+   "url": "https://arxiv.org/abs/2611.16748",
+   "pdf_url": "https://arxiv.org/pdf/2611.16748",
+   "abstract": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. Large language models (LLMs) possess physical knowledge, but struggle to reliably guide video generation models in producing their training videos. We present PhysLoop, a unified harness designed to support physically grounded self-improvement in video generation models. The harness guides and constrains LLMs throughout video generation, selection, and correction, distilling their physical knowledge into physically consistent videos. The framework supports controllable training-data construction and inference-time video repair. By identifying and correcting failures, PhysLoop marks a key milestone toward recursive self-improvement (RSI) in video generation models with limited human intervention. We release 100K videos spanning diverse, realistic indoor and outdoor scenes, along with generation tools and two evaluation datasets: PhysLoop-Gen and PhysLoop-Repair. We evaluate controllable generation and localized repair on these datasets, respectively, and assess physical behavior on the external Physics-IQ Verified benchmark.",
+   "authors": [
+    "Yuxuan Chen",
+    "Xiaojie Li",
+    "Hao Chen",
+    "Juncheng Ma",
+    "Kewei Zhang",
+    "Zhongjing Du",
+    "Guoqiang Wei",
+    "Fangfang Wang",
+    "Zhen Dong",
+    "Zhiyang Dou",
+    "Liming Zhao",
+    "Yan Zeng",
+    "Jianwei Zhang",
+    "Daquan Zhou"
+   ],
+   "orgs": [
+    "DAGroup-PKU"
+   ],
+   "published": "2026-11-12T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.16748",
+     "signal": "▲ 30",
+     "metric": 30
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.16748",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "PhysLoop：用大模型物理常识自我改进视频生成",
+   "summary_zh": "北大团队提出 PhysLoop，用 LLM 的物理知识引导视频生成、筛选与局部修复，把物理一致性蒸馏进生成模型，并开源 10 万条视频与两个评测集。",
+   "highlights_zh": [
+    "LLM 贯穿生成、筛选、纠错三环节，形成可控训练数据构建与推理时修复闭环",
+    "开源 10 万条室内外真实场景视频及生成工具",
+    "发布 PhysLoop-Gen 与 PhysLoop-Repair 两个评测集，并在 Physics-IQ 上评估物理表现"
+   ],
+   "why_zh": "视频生成的物理一致性是当前主要短板，这套自改进闭环与开源数据值得跟进。",
+   "tags": [
+    "多模态",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.6453,
+   "score_llm": 8.0,
+   "score": 0.7381,
+   "date": "2026-11-13",
+   "slot": "evening",
+   "selected_at": "2026-11-13T12:59:55+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.16748"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.16748"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.16748"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.16748"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.16748"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.16748"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/DAGroup-PKU/PhysLoop"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.17060",
+   "kind": "paper",
+   "title": "Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors",
+   "url": "https://arxiv.org/abs/2611.17060",
+   "pdf_url": "https://arxiv.org/pdf/2611.17060",
+   "abstract": "Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly from visual observations. They nevertheless remain brittle on long-horizon, contact-rich tasks in real-world environments. Further progress depends on two complementary resources: demonstrations of human behavior that supervise how tasks are performed, and interactive environments in which policies can be rolled out, evaluated, and improved in closed loop. Language models have advanced along well-characterized scaling laws; the corresponding question for physical AI is how capability scales with environments and behaviors, which first requires identifying which data to scale and how to produce and reuse such data continuously. To address this question, we introduce Ropedia Xperience 2, comprising 1,589 released metric-scale 3D scans and a collection of 4,230 egocentric recordings of 74 tasks (131 hours). We further show that each capture can be repurposed for robot learning: scenes are converted into physically interactive simulation environments, human motion is retargeted to whole-body robot trajectories, and additional robot behaviors are obtained through virtual teleoperation and automated long-horizon trajectory generation. We propose this joint capture of environments and behaviors as a gold standard for physical AI data collection, laying a data foundation for establishing scaling laws over environments and behaviors.",
+   "authors": [
+    "Hao Li",
+    "Fangzhou Hong",
+    "Zhaoxi Chen",
+    "Hui En Pang",
+    "Kairui Hu",
+    "Mingze Sun",
+    "Runmao Yao",
+    "Xinhao Ji",
+    "Xiyuan Zheng",
+    "Xuanli Chen",
+    "Yalun Dai",
+    "Yap Kim Hui",
+    "Dingwen Zhang",
+    "Yuanyuan Gao",
+    "Ziang Cao",
+    "Cheng Huang Yean",
+    "Jackson Peng",
+    "Rui Duan",
+    "Yaobo Liu",
+    "Zetong Wang",
+    "Ziwei Liu"
+   ],
+   "orgs": [
+    "Ropedia"
+   ],
+   "published": "2026-11-12T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.17060",
+     "signal": "▲ 15",
+     "metric": 15
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Ropedia Xperience 2：物理 AI 环境与行为数据基准",
+   "summary_zh": "发布 1589 个米级 3D 扫描与 74 项任务、131 小时第一视角人类行为数据，可将场景转为可交互仿真、把人体动作重定向为机器人轨迹，为物理 AI 数据规模化提供范式。",
+   "highlights_zh": [
+    "1589 个 3D 扫描 + 131 小时第一视角行为数据",
+    "场景可转为物理仿真环境，人体动作重定向为机器人轨迹",
+    "提出环境与行为联合采集作为物理 AI 数据金标准"
+   ],
+   "why_zh": "研究物理 AI 数据规模化与机器人学习数据来源的从业者值得一读。",
+   "tags": [
+    "机器人",
+    "数据与评测",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.5458,
+   "score_llm": 8.0,
+   "score": 0.6983,
+   "date": "2026-11-13",
+   "slot": "evening",
+   "selected_at": "2026-11-13T12:59:55+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.17060.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.17060"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.17060"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.17060"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.17060"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.17060"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.17060"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/Ropedia/Ropedia-Xperience-2"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f980cc1f1e21",
+   "kind": "article",
+   "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+   "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-12T23:06:17Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50475713",
+     "signal": "282 pts",
+     "metric": 282
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Edge0-145B：本地跑前沿级大模型",
+   "summary_zh": "Edge0-145B 宣称可在个人电脑上运行前沿级 AI 能力，引发本地部署可行性讨论。",
+   "highlights_zh": [
+    "145B 参数规模瞄准消费级硬件本地运行",
+    "HN 热度高，反映本地大模型需求旺盛",
+    "具体量化与硬件要求待核实"
+   ],
+   "why_zh": "本地部署大模型是重要趋势，值得关注其真实硬件门槛与效果。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5847,
+   "score_llm": 7.0,
+   "score": 0.6539,
+   "date": "2026-11-13",
+   "slot": "evening",
+   "selected_at": "2026-11-13T12:59:55+00:00",
+   "mirror_pdf": "pdf/web-f980cc1f1e21.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50475713"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-45b453e349d1",
+   "kind": "article",
+   "title": "kajisho5/ffmpeg-skill",
+   "url": "https://github.com/kajisho5/ffmpeg-skill",
+   "pdf_url": "",
+   "abstract": "Sponsor Star kajisho5 / ffmpeg-skill Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+   "authors": [],
+   "orgs": [
+    "kajisho5"
+   ],
+   "published": "2026-11-13T12:59:55+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/kajisho5/ffmpeg-skill",
+     "signal": "★ 今日 +224 · Python",
+     "metric": 224
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "ffmpeg-skill：给编码智能体的本地视频编辑工具",
+   "summary_zh": "为 Claude Code、Cursor、Codex 等编码智能体提供 42 个 FFmpeg 工具的 MCP 服务，支持剪辑、字幕、重构图、响度调整与平台导出，全程本地运行无需云和 API key。",
+   "highlights_zh": [
+    "42 个 FFmpeg 工具封装为机器可读契约，智能体可直接调用",
+    "内置 MCP server，兼容 Claude Code、Cursor、Codex",
+    "纯本地运行，无需云服务或 API key"
+   ],
+   "why_zh": "如果你在做视频自动化或让编码智能体处理媒体文件，装上它即可让 agent 直接调用 FFmpeg 完成剪辑导出。",
+   "tags": [
+    "智能体",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.5622,
+   "score_llm": 7.0,
+   "score": 0.6449,
+   "date": "2026-11-13",
+   "slot": "evening",
+   "selected_at": "2026-11-13T12:59:55+00:00",
+   "mirror_pdf": "pdf/web-45b453e349d1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/kajisho5/ffmpeg-skill"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.16803",
+   "kind": "paper",
+   "title": "Detection Is Not Early Warning: Evaluating Token-Level Alarms on Language Model Failures",
+   "url": "https://arxiv.org/abs/2611.16803",
+   "pdf_url": "https://arxiv.org/pdf/2611.16803",
+   "abstract": "Many failures of language models begin at a specific token, the onset. A monitor that reads the model during generation can classify the finished response, detect the failure once it is under way, or warn before it begins, and only a warning leaves time to stop or steer the generation. Monitors are usually evaluated with response-level metrics such as AUROC, which ignore when the monitor fires. We introduce PREWARN, an evaluation protocol for any failure with an annotated onset. It calibrates each monitor's threshold on validation data to an error rate chosen for the application, runs the monitor, and scores its alarms relative to the onset on all three tasks. As a case study we apply it to repetitive degeneration in three open language models, with early warning as the main task, using linear probes on activations and six untrained baselines. Response-level metrics saturate on this failure, and a rule that reads only the response length scores almost perfectly, while probes that AUROC ranks as equal warn very differently under PREWARN. Probes warn before the onset on most degenerate responses of two of the three models, low-rank adapters below the probe more than double the share of tokens just before the onset that it flags, largely by flagging degenerate responses long before the onset, and no untrained baseline warns much more often than random alarms. We release the probes with calibrated thresholds at https://huggingface.co/collections/marcodene/prewarn-degeneration-probes",
+   "authors": [
+    "Marco De Negri",
+    "Luca Sartori",
+    "Lorenzo Baggi",
+    "Moritz Reihs",
+    "Eduard Frank Ďurech",
+    "Mennatallah El-Assady",
+    "Valentina Pyatkin",
+    "Anna Hedström"
+   ],
+   "orgs": [
+    "ETH Zurich",
+    "ETH AI Center",
+    "Solaris Research"
+   ],
+   "published": "2026-11-12T13:43:19Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.16803",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "检测不等于预警：评估语言模型失败的Token级警报",
+   "summary_zh": "ETH团队提出PREWARN评测协议，按失败起始token评估监控器能否提前预警。结果发现常用AUROC指标会饱和失真，线性探针能在多数退化响应前发出预警。",
+   "highlights_zh": [
+    "提出按onset对齐的预警评测协议PREWARN",
+    "AUROC等响应级指标在退化失败上饱和，无法区分预警时机",
+    "线性探针可在多数退化响应起始前预警，LoRA微调显著提升提前量"
+   ],
+   "why_zh": "揭示现有监控评测的盲区，为LLM失败预警提供更贴近实用的评测方法。",
+   "tags": [
+    "对齐与安全",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.64,
+   "date": "2026-11-13",
+   "slot": "evening",
+   "selected_at": "2026-11-13T12:59:55+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.16803.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.16803"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.16803"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.16803"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.16803"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.16803"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.16803"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1d0f96b5005b",
+   "kind": "article",
+   "title": "英伟达博客发声：她不一样，她懂显卡 ( bushi )，她懂端到端！",
+   "url": "https://www.leiphone.com/category/ai/1jG5k34DSlHSSJE9.html",
+   "pdf_url": "",
+   "abstract": "她叫Alpamayo 2 Edge，因果推理结合扩散动作，端到端输出闭环表现提升 48.9%。 作者丨 郑佳美 编辑丨岑 峰 点开前，你以为老黄家的惊天大瓜又有了什么后续； 点开后才发现：这个“她”连人都不是。 她叫 Alpamayo 2 Edge。 英伟达11月10日刚发布出来的一款端到端自动驾驶模型。VLM 骨干约 2.45B、动作专家约 0.2B，跑在车规级芯片 DRIVE AGX Thor 上。 但“懂端到端”这四个字，还真不是标题党蹭流量。在各路AI疯狂“嘴替”、大模型疯狂自言自语的时代，英伟达力挺的 这姑娘（划掉） 这模型，是真·人间清醒。 Alpamayo 2 Edge希望让汽车里的 AI 不仅能看懂道路，还能理解复杂交通关系、分析潜在风险，并根据场景自主生成驾驶动作。简单来说，就是让 AI 从会看、会理解，进一步走向会开车。 当然，让 AI 在服务器里推理和让它在高速行驶的汽车里推理，完全是两回事。车载算力有限，响应时间也有严格要求，模型既要具备复杂场景下的推理能力，又不能把大量计算资源消耗在冗长的思考过程中。 Alpamayo 2 Edge 围绕这个问题做了一套新的设计：普通端到端模型输入图像直接输出轨迹，中间发生了什么是黑箱。而 Alpamayo 2 Edge 被强制要求生成 Chain-of-Causation（因果链）推理：不光要开车，还要说出为什么这么开。 所以汽车究竟需要怎样“懂端到端”的 AI，才能既想得明白，又开得及时？这套新 VLA 给出了一个颇有意思的技术方案。 01 让模型自主控制推理开销 Alpamayo 2 Edge 的一个核心设计，是让模型学习何时需要展开完整推理。自回归语言模型下推理文本越长，生成耗时越高，而车载系统还需要为视觉编码和轨迹生成预留计算资源。 NVIDIA 为此引入了 Adaptive Reasoning，并设计特殊标记 <NOMINAL>。当模型判断当前属于常规驾驶状态时，可以直接输出这个标记，结束显式推理文本的生成；遇到复杂交通交互时，再生成完整的 Chain-of-Causation（CoC）推理链。 这里有一个重要的实现细节：<NOMINAL>并不意味着关闭视觉网络，也不代表模型跳过后续动作计算。它改变的是语言模型的输出方式，减少常规场景下的推理 Token。公开架构没有披露独立的外置风险分类器，模型需要通过训练学会两种输出模式的选择。 那么，模型如何知道什么场景需要推理？这涉及 CoC 的数据构建。 NVIDIA 的自动标注流程会先从车辆轨迹中提取 Meta-Action，也就是自车的高层运动行为，再根据行为发生变化的时间点定位关键帧，随后调用 VLM 生成场景因素与驾驶动作之间的因果解释。标注还需要经过验证，检查解释是否有画面依据，以及描述的动作是否符合实际轨迹。 这里有一个重要的设计取舍：驾驶视频中存在大量连续画面，但并非每一帧都会产生新的驾驶决策。如果逐帧生成推理文本，训练集容易积累大量重复描述。 以 Meta-Action 变化为锚点，可以把监督集中在车辆行为发生变化的时刻，让模型学习障碍物、交通参与者和道路条件如何影响自车动作。 NVIDIA 使用 Alpamayo 2 Super 生成 CoC 自动标注，再通过离线蒸馏训练 Edge 模型。公开数据约包含 115,000 小时多摄像头驾驶视频，以及 370 万条 CoC 推理标注。 例如，前方车辆减速时，模型需要结合左侧来车、道路边界和自身速度判断是否能够绕行。CoC 要表达这些因素与减速、等待或转向之间的联系，同时",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-13T07:49:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/1jG5k34DSlHSSJE9.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "英伟达发布Alpamayo 2 Edge：会讲因果链的端到端自动驾驶模型",
+   "summary_zh": "英伟达推出2.45B VLM+0.2B动作专家的端到端驾驶模型，强制生成因果链推理，并用<NOMINAL>标记自适应跳过常规场景推理，闭环表现提升48.9%。",
+   "highlights_zh": [
+    "Adaptive Reasoning：常规场景输出<NOMINAL>直接结束推理，复杂交互才展开完整因果链",
+    "以Meta-Action变化为锚点自动标注CoC数据，避免逐帧重复描述",
+    "用Alpamayo 2 Super生成标注再离线蒸馏到Edge模型，跑在车规Thor芯片上"
+   ],
+   "why_zh": "车载端到端VLA如何在有限算力下平衡推理深度与实时性，是重要工程范式。",
+   "tags": [
+    "多模态",
+    "推理",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-13",
+   "slot": "evening",
+   "selected_at": "2026-11-13T12:59:55+00:00",
+   "mirror_pdf": "pdf/web-1d0f96b5005b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/1jG5k34DSlHSSJE9.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d40b6aa728b6",
+   "kind": "article",
+   "title": "谷歌开源 WeatherNext 3 气象模型所用数据集：含 SatWeave 卫星影像拼接数据集与 PARDIG 全球降水信息",
+   "url": "https://www.ithome.com/1/026/939.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 13 日消息，谷歌 DeepMind 今天正式开放 WeatherNext 3 气象模型所依托的两大基础数据集 SatWeave 与 PARDIG，相应数据集面向全球研究者与开发者提供实时数据流及历史归档，可用于天气、水文、气候及相关下游应用建模。 据介绍，SatWeave 是一套整合多颗静止气象卫星的全球影像拼接产品，聚合了 GOES-East、GOES-West、Meteosat 0、Meteosat 印度洋星以及 Himawari 共 5 颗卫星的观测数据，解决了不同卫星在地图投影、文件格式、传感器与扫描节奏上的差异难题。该数据集每小时更新一次，并提供跨越十年以上的历史存档，能够让 WeatherNext 3 基于实时云图与风暴动态生成逐小时全球预报，而传统分析数据通常每六小时才刷新一次。谷歌还希望研究社区将其拓展至太阳能功率预测、野火监测等场景。 而 PARDIG 是一套基于 AI 架构的全球降水再分析数据集，采用与 WeatherNext 3 相似的球形图网格 Transformer 架构，直接以 NASA 全球降水测量核心观测台的稀疏星载雷达观测为训练目标，输入使用 SatWeave 影像与欧洲中期天气预报中心的大气场。其空间分辨率约 10 公里（0.1°），时间分辨率 15 分钟，平均延迟约 5 小时。 谷歌通过对照美国、欧洲、日本三大陆基雷达网络及全球 3.6 万余座气象站的评估显示，PARDIG 在所有雨强档位上均优于 NASA IMERG-Final 等主流基线产品；对轻到中度降水的小时级识别技巧较 IMERG-Final 提升 30% 以上，对极端降水的捕捉能力尤为突出。由于模型直接从卫星观测学习，其在缺乏地面雷达与雨量计的地区同样具备可靠精度。 除此之外，谷歌本次还同步开放 1999 年至 2026 年的 PARDIG 历史档案以及 SatWeave 与 PARDIG 的实时数据流。相应数据托管在 Google Cloud Storage 上，以 CC BY 4.0 许可开放。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-13T12:04:49+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/026/939.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌DeepMind开源WeatherNext 3数据集",
+   "summary_zh": "谷歌开放SatWeave卫星影像拼接与PARDIG全球降水再分析两大数据集，PARDIG在降水识别上全面优于NASA IMERG-Final，轻中雨技巧提升超30%。",
+   "highlights_zh": [
+    "SatWeave整合5颗静止卫星，逐小时更新并含十年历史",
+    "PARDIG分辨率10公里、15分钟，极端降水捕捉能力突出",
+    "以CC BY 4.0开放，含1999-2026历史档案与实时流"
+   ],
+   "why_zh": "科学AI气象建模的高质量开放数据，值得做气象与下游应用者关注。",
+   "tags": [
+    "科学AI",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-13",
+   "slot": "evening",
+   "selected_at": "2026-11-13T12:59:55+00:00",
+   "mirror_pdf": "pdf/web-d40b6aa728b6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/026/939.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8fdb0296ea11",
+   "kind": "article",
+   "title": "Gemini 4 Hydrogen",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-12T18:01:48Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50471431",
+     "signal": "541 pts",
+     "metric": 541
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Gemini 4 Hydrogen 曝光",
+   "summary_zh": "Hacker News 热传谷歌 Gemini 4 Hydrogen 相关消息，但无正文，具体发布内容与能力不明。",
+   "highlights_zh": [
+    "头部模型新版本传闻，热度较高",
+    "缺乏正文，无法核实能力细节",
+    "需等待官方发布确认"
+   ],
+   "why_zh": "若属实是头部模型重大更新，但目前信息不足以判断。",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.6152,
+   "score_llm": 6.0,
+   "score": 0.6061,
+   "date": "2026-11-13",
+   "slot": "evening",
+   "selected_at": "2026-11-13T12:59:55+00:00",
+   "mirror_pdf": "pdf/web-8fdb0296ea11.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50471431"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d40fca9fd5e1",
+   "kind": "article",
+   "title": "Gemini 4 Hydrogen and Orchestrator",
+   "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-12T18:52:01Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50472260",
+     "signal": "440 pts",
+     "metric": 440
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Gemini 4 Hydrogen 与 Orchestrator",
+   "summary_zh": "同一 Gemini 4 Hydrogen 话题的延伸帖，提及 Orchestrator 组件，但无正文细节。",
+   "highlights_zh": [
+    "涉及新模型与编排器组件",
+    "与上一条为重复报道",
+    "缺乏可核实信息"
+   ],
+   "why_zh": "与上条重复，信息增量有限。",
+   "tags": [
+    "大模型",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.6055,
+   "score_llm": 6.0,
+   "score": 0.6022,
+   "date": "2026-11-13",
+   "slot": "evening",
+   "selected_at": "2026-11-13T12:59:55+00:00",
+   "mirror_pdf": "pdf/web-d40fca9fd5e1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50472260"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0667a519c650",
+   "kind": "article",
+   "title": "I'm making LLMs work on small and old devices",
+   "url": "https://github.com/hyperionaidev/smolmaxxing/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-12T15:23:10Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50468888",
+     "signal": "399 pts",
+     "metric": 399
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "让大模型跑在老旧小设备上",
+   "summary_zh": "作者分享在小型与老旧设备上运行 LLM 的实践，属个人经验帖，无正文细节。",
+   "highlights_zh": [
+    "聚焦端侧与低算力部署",
+    "偏个人实践，非系统性方案",
+    "对本地推理爱好者有参考价值"
+   ],
+   "why_zh": "端侧推理是热门方向，但需正文判断技术含量。",
+   "tags": [
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.6009,
+   "score_llm": 6.0,
+   "score": 0.6004,
+   "date": "2026-11-13",
+   "slot": "evening",
+   "selected_at": "2026-11-13T12:59:55+00:00",
+   "mirror_pdf": "pdf/web-0667a519c650.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/hyperionaidev/smolmaxxing/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50468888"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e5e4961f5409",
+   "kind": "article",
+   "title": "apex-compute/ANR",
+   "url": "https://github.com/apex-compute/ANR",
+   "pdf_url": "",
+   "abstract": "Apex Neural Rendering (ANR) by Apex Compute\nREADME: # Apex Neural Rendering (ANR) [Apex Neural Rendering](https://apexcompute.com/neural-rendering) by [Apex Compute](https://apexcompute.com). - **ANR FG**: frame generation. In beta. - **ANR SR**: super resolution (upscaling). Beta soon. - **ANR RR**: ray reconstruction (denoising for ray tracing). Beta soon. - **Source code**: coming soon. - **nr-record**: records a game's frame generation or upscaler inputs to compare ANR FG, NVIDIA DLSS-G, DLSS, FSR, XeSS and others ([below](#record-and-compare-frame-generation)). Source in this repository. ## ANR FG Beta 1. Download a package from [Releases](../../releases): - `anr-fg-full`: for games without OptiScaler. - `anr-fg-addon`: for games that already use [OptiScaler](https://github.com/optiscaler/OptiScaler). 2. Close the game, extract the package and run the installer with the folder of the game's `.exe`: - Windows: `install.cmd` - Linux and Steam Deck (Proton): `sh install.sh \" \"`, then set the game's launch options to the line it prints: `WINEDLLOVERRIDES=\"dxgi=n,b\" %command%`, or `winmm=n,b` in Vulkan games 3. In the game, turn on frame generation (the NVIDIA option where the game offers several). To uninstall, run `uninstall.cmd` or `sh uninstall.sh` with the same folder. ## Supported GPUs - NVIDIA GeForce RTX 20, 30, 40 and 50 series, and GTX 16 series - AMD Radeon RX 5000, 6000, 7000 and 9000 series, and Steam Deck - Intel Arc A and B series On Windows 10 and 11, and on Linux and SteamOS with Proton. ## Results and problem",
+   "authors": [],
+   "orgs": [
+    "apex-compute"
+   ],
+   "published": "2026-11-13T12:59:55+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/apex-compute/ANR",
+     "signal": "★ 1,231（新项目） · C++",
+     "metric": 1231
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Apex 推出 ANR 神经渲染，对标 DLSS",
+   "summary_zh": "Apex Compute 发布 ANR 帧生成 Beta，支持 RTX 20-50 系与 AMD RX 5000 系，可录制对比 DLSS、FSR、XeSS，源码尚未开放。",
+   "highlights_zh": [
+    "ANR FG 帧生成已进入 Beta，超分与光线重建即将推出",
+    "支持 NVIDIA RTX 20-50 系、GTX 16 系及 AMD RX 5000 系",
+    "附带 nr-record 工具，可录制输入对比各家超分/帧生成效果"
+   ],
+   "why_zh": "关注神经渲染与游戏超分竞争格局的从业者可留意这家新玩家。",
+   "tags": [
+    "视觉",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5907,
+   "score_llm": 6.0,
+   "score": 0.5963,
+   "date": "2026-11-13",
+   "slot": "evening",
+   "selected_at": "2026-11-13T12:59:55+00:00",
+   "mirror_pdf": "pdf/web-e5e4961f5409.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/apex-compute/ANR"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9d8099e6e6ef",
+   "kind": "article",
+   "title": "alexeyw/lot-map",
+   "url": "https://github.com/alexeyw/lot-map",
+   "pdf_url": "",
+   "abstract": "A live map beside the chat that shows what Claude Code is doing: tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in 7 languages.",
+   "authors": [],
+   "orgs": [
+    "alexeyw"
+   ],
+   "published": "2026-11-13T12:59:55+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/alexeyw/lot-map",
+     "signal": "★ 679（新项目） · TypeScript",
+     "metric": 679
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "lot-map：实时可视化 Claude Code 行为",
+   "summary_zh": "在聊天旁实时展示 Claude Code 的工具调用、模型步骤、hooks、技能与子智能体活动，纯本地、支持 7 种语言。",
+   "highlights_zh": [
+    "实时点亮工具调用、模型步骤与子智能体",
+    "纯本地运行，数据不外传",
+    "支持 7 种语言界面"
+   ],
+   "why_zh": "如果你在调试 Claude Code 智能体流程，可用它直观观察每一步工具调用。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5697,
+   "score_llm": 6.0,
+   "score": 0.5879,
+   "date": "2026-11-13",
+   "slot": "evening",
+   "selected_at": "2026-11-13T12:59:55+00:00",
+   "mirror_pdf": "pdf/web-9d8099e6e6ef.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/alexeyw/lot-map"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a7f19341134c",
+   "kind": "article",
+   "title": "刚刚，Gemini 4 新模型叒来了，终于人人可用",
+   "url": "https://www.ifanr.com/1689267?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "更快更便宜还更聪明 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "山宗"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-11-12T23:11:11+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1689267?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Gemini 4 新模型发布，人人可用",
+   "summary_zh": "爱范儿报道Gemini 4新模型发布并面向所有人开放，主打更快、更便宜、更聪明。",
+   "highlights_zh": [
+    "Gemini 4正式发布并全面开放",
+    "强调速度、成本与能力提升",
+    "头部大模型竞争进一步加剧"
+   ],
+   "why_zh": "头部厂商旗舰模型迭代，直接影响开发者选型与API成本结构。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-13",
+   "slot": "evening",
+   "selected_at": "2026-11-13T12:59:55+00:00",
+   "mirror_pdf": "pdf/web-a7f19341134c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1689267?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-43e6e27a2259",
+   "kind": "article",
+   "title": "智能互动 Agent 在快手商业场景的落地实践",
+   "url": "https://www.infoq.cn/article/e0aglHW78pZuik3CWqdo?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "邱慧"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-13T19:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/e0aglHW78pZuik3CWqdo?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "快手商业场景中的智能互动 Agent 落地实践",
+   "summary_zh": "InfoQ 介绍快手在商业化场景部署智能互动 Agent 的工程实践，涵盖架构设计与业务落地效果。",
+   "highlights_zh": [
+    "聚焦广告、营销等商业场景的 Agent 落地",
+    "涉及工程架构与线上部署经验",
+    "来自一线大厂的真实业务实践"
+   ],
+   "why_zh": "想了解智能体在真实商业场景如何工程化落地，可参考其架构与踩坑经验。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-13",
+   "slot": "evening",
+   "selected_at": "2026-11-13T12:59:55+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/e0aglHW78pZuik3CWqdo?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b56b9d883f3c",
+   "kind": "article",
+   "title": "容器隔离还不够：Edera 从虚拟机监控器层限制 AI 智能体",
+   "url": "https://www.infoq.cn/article/MU0txcPXXuGdGKBNa6a2?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Olimpiu Pop"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-13T17:06:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/MU0txcPXXuGdGKBNa6a2?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "容器隔离不够：Edera 从虚拟机监控器层约束 AI 智能体",
+   "summary_zh": "Edera 认为容器隔离不足以约束自主 AI 智能体，主张在虚拟机监控器层做更强隔离，防止越权操作。",
+   "highlights_zh": [
+    "指出容器隔离对自主 Agent 的安全缺口",
+    "提出 hypervisor 层隔离方案",
+    "面向 Agent 运行时的安全基础设施"
+   ],
+   "why_zh": "部署自主智能体时，安全边界如何设计是绕不开的问题，此文给出新思路。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-13",
+   "slot": "evening",
+   "selected_at": "2026-11-13T12:59:55+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/MU0txcPXXuGdGKBNa6a2?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e0d0dfbf5394",
+   "kind": "article",
+   "title": "China’s Internet Giants Are Listing AI Units Because the Parent Stock Will Not Price Them",
+   "url": "https://www.tmtpost.com/8204635.html",
+   "pdf_url": "",
+   "abstract": "Alibaba, Baidu, and Kuaishou are sending chip and model assets to separate markets. The subsidiaries attract lofty private or target valuations; the parents do not. Spin-offs buy a public price tag without removing the cost or the control.",
+   "authors": [
+    "Chelsea_Sun"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-13T10:52:05+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8204635.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "中国互联网巨头为何纷纷分拆 AI 业务上市",
+   "summary_zh": "钛媒体分析阿里、百度、快手将芯片与模型资产分拆上市，以获取母公司股价无法体现的估值。",
+   "highlights_zh": [
+    "分拆为 AI 资产争取独立市场定价",
+    "母公司估值未反映 AI 业务价值",
+    "分拆不改变成本与控制权结构"
+   ],
+   "why_zh": "理解中国大厂 AI 资产资本化路径，有助于判断行业资金与估值走向。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-13",
+   "slot": "evening",
+   "selected_at": "2026-11-13T12:59:55+00:00",
+   "mirror_pdf": "pdf/web-e0d0dfbf5394.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8204635.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7080151bd7f1",
+   "kind": "article",
+   "title": "谷歌一次发布两颗TPU，英伟达的“通用”招牌开始松动",
+   "url": "https://www.tmtpost.com/8201775.html",
+   "pdf_url": "",
+   "abstract": "谷歌推两款专业TPU，向英伟达通用芯片路线发起挑战。",
+   "authors": [
+    "财能圈"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-13T07:45:31+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8201775.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌一次发布两颗TPU，英伟达通用芯片路线承压",
+   "summary_zh": "谷歌推出两款专用TPU，以专用化路线挑战英伟达通用GPU的AI算力主导地位，反映算力芯片竞争格局正在分化。",
+   "highlights_zh": [
+    "谷歌一次发布两款定位不同的TPU，强化专用芯片策略",
+    "直指英伟达通用芯片路线，算力市场竞争加剧",
+    "反映大厂自研AI芯片对英伟达生态的持续冲击"
+   ],
+   "why_zh": "理解AI算力供给格局变化与英伟达护城河松动的关键信号。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-13",
+   "slot": "evening",
+   "selected_at": "2026-11-13T12:59:55+00:00",
+   "mirror_pdf": "pdf/web-7080151bd7f1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8201775.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-209d70adeaed",
+   "kind": "article",
+   "title": "亚马逊秘密构想曝光：欲打造“世界商品图谱”，包揽全网商品数据",
+   "url": "https://www.ithome.com/1/026/945.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 13 日消息，据路透社报道，亚马逊有一项秘密计划，旨在让消费者从此无需离开其平台，拥有世界上的商品信息。 据该媒体审阅的一份内部文件及知情人士透露，这项名为“世界商品图谱”（World Product Graph）的计划， 试图将全球几乎所有在售商品的数据悉数收入囊中 —— 无论亚马逊是否备有这些商品的库存。 借此，亚马逊可以真正成为“万货商店”，不仅能提供海量商品的深度数据、切入谷歌在在线搜索领域的腹地，还能有效抵御竞争对手沃尔玛不断扩张的电商业务。 这一举措也是为了应对 AI 购物智能体的持续崛起。该内部文件指出，亚马逊自家的 AI 搜索智能体目前经常提供不准确的信息。一旦“世界商品图谱”全面落地，凭借庞大的数据体量，亚马逊将把消费者从数据匮乏的竞争对手电商平台吸引过来。 不过，亚马逊回应称：“该内部文件使用的数据已严重过时。”亚马逊表示，其内部数据显示，Alexa for Shopping 在全球范围内的准确率约为 97%。 内部文件还写道：“如果消费者不得不离开亚马逊，去谷歌、品牌官网和评测网站上费力研究商品之间的关联，亚马逊就无法成为用户每次购物的首选目的地。这些答案本身是存在的，但过去用户只能离开亚马逊，到品牌官网、第三方评测网站和科技论坛里苦苦搜寻。” 目前尚无法确定该计划是否以及何时落地，不过这份行文风格宛如新闻稿的文件，将目标发布日期设定在了 2027 年 10 月 1 日。 亚马逊在一份声明中回应称：“ 草稿和过时的文件往往只能反映片面的情况 ，这类头脑风暴文件的存在并不一定代表我们当前的计划。我们一直在探索新想法和新技术，致力于让亚马逊的商品目录更加全面、准确，为消费者提供切实帮助。” 该文件指出，“世界商品图谱”的核心在于摸清各大品牌是如何在自家官网上归类与展示商品的。这既需要部分品牌方和零售商持续向亚马逊提供商品数据，也意味着亚马逊将自行爬取其他零售商的网站。尚无法确定亚马逊计划如何爬取这些网站，以及它在所有情况下是否都需要征得对方许可。 文件显示，亚马逊目前已与可口可乐和拜耳等公司签约，由对方提供商品数据；同时，亚马逊还与宝洁举行了“CEO 级别的宝洁 / 亚马逊峰会”，就相关试点展开探讨。上述公司均未回应置评请求。 IT之家注：阐述该计划的文件在亚马逊内部被称为 PR / FAQ（即新闻稿与常见问题解答）—— 这通常是一份六页的叙述性备忘录，用于论证新产品或新服务的底层逻辑与商业价值。知情人士表示， 并非所有 PR / FAQ 最终都会转化为实际产品 ；出于财务或其他方面的考量，“世界商品图谱”仍有可能被修改甚至叫停。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-13T12:37:16+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/026/945.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "亚马逊秘密构想“世界商品图谱”，应对AI购物智能体",
+   "summary_zh": "亚马逊内部文件显示其计划构建覆盖全网商品的“世界商品图谱”，以应对AI购物智能体崛起并抵御沃尔玛，目标2027年落地。",
+   "highlights_zh": [
+    "计划爬取并整合全网商品数据，切入谷歌搜索腹地",
+    "明确动机之一是自家AI购物智能体信息不准",
+    "已与可口可乐、宝洁等品牌接触，官方称文件过时"
+   ],
+   "why_zh": "展示电商巨头如何为AI智能体时代重构数据基础设施。",
+   "tags": [
+    "智能体",
+    "数据与评测",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-13",
+   "slot": "evening",
+   "selected_at": "2026-11-13T12:59:55+00:00",
+   "mirror_pdf": "pdf/web-209d70adeaed.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/026/945.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-48ab16a6d578",
+   "kind": "article",
+   "title": "李飞飞最新世界模型正式开放，我用它一句话造出重庆山城",
+   "url": "https://www.ifanr.com/1689379?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "世界模型的竞争要开始了吗 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "张子豪"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-11-13T10:04:55+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1689379?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "李飞飞世界模型开放，一句话生成重庆山城",
+   "summary_zh": "爱范儿体验李飞飞团队开放的世界模型，用一句话生成重庆山城场景，探讨世界模型竞争是否开启。",
+   "highlights_zh": [
+    "世界模型正式对外开放",
+    "一句话生成3D场景的实测体验",
+    "世界模型赛道竞争升温"
+   ],
+   "why_zh": "世界模型产品化落地的第一手体验，可观察生成式3D的实用边界。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-13",
+   "slot": "evening",
+   "selected_at": "2026-11-13T12:59:55+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1689379?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9ea9836e36e0",
+   "kind": "article",
+   "title": "iPhone Siri AI 体验：距离真正的 AI Phone，苹果还有多远？| 附开通指南",
+   "url": "https://www.ifanr.com/1688980?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "这是一个更好的 Siri，但还不是一个合格的 Agent #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "方俊鸣"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-11-12T10:47:53+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1688980?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "iPhone Siri AI 实测：更好的 Siri，但还不是合格的 Agent",
+   "summary_zh": "爱范儿实测苹果新版 Siri AI 体验，认为其交互更自然，但距离真正的智能体仍有明显差距，并附开通指南。",
+   "highlights_zh": [
+    "新版 Siri 在理解与交互上有提升",
+    "尚未达到 Agent 级别的自主任务能力",
+    "附具体开通与使用指南"
+   ],
+   "why_zh": "想了解苹果 AI 落地真实水平与 Agent 差距的从业者可参考。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-13",
+   "slot": "evening",
+   "selected_at": "2026-11-13T12:59:55+00:00",
+   "mirror_pdf": "pdf/web-9ea9836e36e0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1688980?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-217857b1e73e",
+   "kind": "article",
+   "title": "独家丨港大孵化的半导体材料公司，融资数千万",
+   "url": "https://www.leiphone.com/category/weiwu/DewyIGiyxQl09nUM.html",
+   "pdf_url": "",
+   "abstract": "一个发表于《Nature》的技术，能在三步剥出晶圆级薄膜，公司获耀途独家投资。 作者丨陈玘凡 编辑 丨吴优 雷峰网 ·鲸犀独家获悉， 半导体材料公司钻耐科思科技（DiamNEX）已完成 数千万元 新一轮融资，由耀途资本独家投资。 钻耐科思（DiamNEX）成立于2025年，由 香港大学孵化 ，专注于金刚石半导体和量子技术的研发、生产与商业化应用。创始人褚智勤是港大电机与计算机工程系副教授、副系主任，在金刚石方向论文超80篇、专利17项；科学顾问来自港大、港科大、南方科技大学，具备学术产业化落地能力 。 金刚石被誉为“ 终极半导体材料” ，具有超宽禁带、高击穿场强、高热导率等优势特性，是帮助突破当前AI算力散热天花板、赋能量子科技与第四代超宽禁带半导体的关键材料。 传统半导体散热大多通过铜基风冷的方式进行，但伴随token消耗量剧增和对AI算力需求的不断提升，传统半导体材料散热愈发捉襟见肘。英伟达公开数据显示，下一代Rubin GPU功耗将突破2300W，风冷与铜基散热将逼近物理极限。 采用金刚石作为半导体材料能够有效缓解散热难题，但在传统制备路径下，金刚石材料面临着生长尺寸受限，制备周期长、切割损耗大、研磨抛光困难等产业化困境。 产业此前大致分为三条路线：金刚石基复合材料成本低但上限不高；多晶 CVD 金刚石居中；单晶 CVD 性能最高但实现难度最大。 DiamNEX选择在多晶路线上进行进一步拓展，其首创的\"边缘暴露剥离法\"按\"生长、切口、机械剥离\"三步，能够从衬底上直接剥出 晶圆级柔性金刚石薄膜 ，厚度低至200纳米、表面粗糙度优于0.5纳米、热导率超过1300 W/m·K。 DiamNEX的成果发表于《Nature》，入选香港政府产学研1+计划，获批超5000万港币资助；同时还获得第49届和51届日内瓦发明展金奖、2025年度中国科学十大进展。 目前，金刚石薄膜试生产线已落地深圳，已可稳定制备4英寸及以上（最大12英寸）的金刚石薄膜，在成本大幅降低的同时，为算力芯片、先进封装等应用提供了理想的材料方案。 全球金刚石散热市场目前还处在千万美元量级，黄河旋风、惠丰钻石等玩家也在积极推进新材料制备路径。 DiamNEX本轮融资意在进行产线扩容、团队扩充和筹建香港研发中心，已与国内外相关头部企业和顶尖科研院所开展合作研发和送样验证，商业化落地正在稳步推进中。 DiamNEX的融资与产品进展，雷峰网·鲸犀将持续关注。欢迎添加作者微信 IvarQFC 交流。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-13T09:22:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/weiwu/DewyIGiyxQl09nUM.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "港大孵化金刚石半导体公司 DiamNEX 融资数千万",
+   "summary_zh": "港大孵化的 DiamNEX 完成数千万元融资，其金刚石薄膜技术发表于《Nature》，瞄准 AI 芯片散热瓶颈。",
+   "highlights_zh": [
+    "边缘暴露剥离法可制备晶圆级柔性金刚石薄膜",
+    "热导率超 1300 W/m·K，面向高功耗 AI 芯片散热",
+    "深圳试产线已可稳定制备 4 英寸以上薄膜"
+   ],
+   "why_zh": "关注 AI 算力散热与新材料路线的从业者可读。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-13",
+   "slot": "evening",
+   "selected_at": "2026-11-13T12:59:55+00:00",
+   "mirror_pdf": "pdf/web-217857b1e73e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/weiwu/DewyIGiyxQl09nUM.html"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "英伟达换帅触发算力权力重组，AI估值进入压力测试期",
+   "trend": "英伟达换帅引发算力权力重组，AI估值进入压力测试期",
    "why": "黄仁勋辞任致市值蒸发近6000亿美元，Anthropic IPO估值缩水，市场对AI公司定价趋于谨慎。",
    "refs": [
     "web-729cef541139",
@@ -2394,7 +3652,7 @@
   },
   {
    "trend": "具身智能评测转向时间维度，现有基准暴露致命盲区",
-   "why": "赵行指出加入真实时钟后策略成功率从60%+跌至15%，曹婷主张在线自进化替代离线数据堆砌。",
+   "why": "赵行指出加真实时钟后策略成功率从60%+跌至15%，机器人97%时间在等模型思考。",
    "refs": [
     "web-301f08de168e",
     "web-bd40d2a1c492"
@@ -2402,25 +3660,28 @@
   },
   {
    "trend": "AI评测从刷榜转向程序验证与负责任行为审计",
-   "why": "TCSExam用理论计算机科学任务检验Agent并程序验证，ReA-Bench揭示审计配置反复漏检风险。",
+   "why": "TCSExam用理论计算机科学任务检验Agent，ReA-Bench揭示审计配置反复漏检风险类型。",
    "refs": [
     "web-6812ee4f6467",
-    "arxiv-2611.16493"
+    "arxiv-2611.16493",
+    "web-cb7ce27114a8"
    ]
   },
   {
-   "trend": "多模型路由成应用层标配，平台方主动接入第三方模型",
-   "why": "豆包工作接入Kimi、GLM、DeepSeek并按倍率计费，用户可按任务自主选模型。",
+   "trend": "多模型路由成应用层标配，单一模型绑定策略瓦解",
+   "why": "豆包工作接入Kimi、GLM、DeepSeek第三方模型，用户按任务自主选模型并标注额度倍率。",
    "refs": [
-    "web-ba210de82cf2"
+    "web-ba210de82cf2",
+    "web-5ad23f0e2e10"
    ]
   },
   {
-   "trend": "智能体落地瓶颈从模型能力转向记忆架构与运行隔离",
-   "why": "InfoQ系统梳理记忆与上下文分层设计，Docker主张靠隔离与治理而非仅模型对齐保障安全。",
+   "trend": "智能体落地瓶颈从模型能力转向隔离治理与记忆架构",
+   "why": "Docker主张靠运行隔离而非模型对齐保障安全，InfoQ系统梳理记忆与上下文分层设计。",
    "refs": [
+    "web-c428fe6a63a8",
     "web-9eb398bb7f58",
-    "web-c428fe6a63a8"
+    "web-4d58a71c284d"
    ]
   }
  ]
