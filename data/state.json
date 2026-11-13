@@ -2774,7 +2774,29 @@
   "web-209d70adeaed": "2026-11-13",
   "web-48ab16a6d578": "2026-11-13",
   "web-9ea9836e36e0": "2026-11-13",
-  "web-217857b1e73e": "2026-11-13"
+  "web-217857b1e73e": "2026-11-13",
+  "web-5bf4951adbe9": "2026-11-14",
+  "web-d3a569dcd8de": "2026-11-14",
+  "web-12f357dd3921": "2026-11-14",
+  "web-3cc86baf7596": "2026-11-14",
+  "web-ae14336b921f": "2026-11-14",
+  "web-fab1729094ea": "2026-11-14",
+  "web-25d071373b55": "2026-11-14",
+  "web-8400bdfe1e2a": "2026-11-14",
+  "arxiv-2611.17320": "2026-11-14",
+  "web-bd1f518dfa03": "2026-11-14",
+  "web-be74c8d1deab": "2026-11-14",
+  "web-586d37dc5945": "2026-11-14",
+  "web-e9075ef16a2c": "2026-11-14",
+  "web-d02a69b3c75f": "2026-11-14",
+  "web-58ea50c2ec63": "2026-11-14",
+  "web-ea7e0f57a1fb": "2026-11-14",
+  "web-4f05acc09f72": "2026-11-14",
+  "arxiv-2611.17053": "2026-11-14",
+  "web-a140bb50e9ba": "2026-11-14",
+  "web-26b56dd155dd": "2026-11-14",
+  "web-ba94cde37d83": "2026-11-14",
+  "web-9a08ae200d1d": "2026-11-14"
  },
  "known_links": {
   "https://www.anthropic.com/news": [
@@ -2854,7 +2876,8 @@
   ],
   "https://api-docs.deepseek.com/": [
    "/news/news260910",
-   "/news/news261017"
+   "/news/news261017",
+   "/news/news261113"
   ],
   "https://mistral.ai/news": [
    "/news/2024-ft-hackathon/",
@@ -3047,49 +3070,6 @@
   ]
  },
  "runs": [
-  {
-   "at": "2026-10-24T14:24:45+00:00",
-   "slot": "evening",
-   "candidates": 130,
-   "new": 43,
-   "stale": 26,
-   "judged": 43,
-   "selected": 21,
-   "mirrored": 20,
-   "by_category": {
-    "项目": 3,
-    "资讯": 14,
-    "技术": 4
-   },
-   "by_source": {
-    "HF Daily Papers": 15,
-    "Hacker News": 3,
-    "量子位": 1,
-    "极客公园": 6,
-    "IT之家": 9,
-    "爱范儿": 3,
-    "少数派": 1,
-    "雷峰网": 15,
-    "InfoQ 中文": 16,
-    "Dwarkesh Patel": 1,
-    "Latent Space": 4,
-    "SemiAnalysis": 1,
-    "Azeem Azhar": 1,
-    "Tomasz Tunguz": 1,
-    "Zvi Mowshowitz": 2,
-    "Sebastian Raschka": 1,
-    "Hugging Face Blog": 3,
-    "Google Research": 1,
-    "OpenAI": 4,
-    "Google DeepMind": 1,
-    "NVIDIA": 2,
-    "arXiv 新论文": 19,
-    "GitHub Trending": 13,
-    "GitHub 新项目": 7
-   },
-   "llm": true,
-   "translated": 0
-  },
   {
    "at": "2026-10-25T03:30:35+00:00",
    "slot": "noon",
@@ -5611,6 +5591,54 @@
     "Microsoft": 2,
     "GitHub Trending": 10,
     "GitHub 新项目": 10
+   },
+   "llm": true,
+   "translated": 0
+  },
+  {
+   "at": "2026-11-13T18:30:44+00:00",
+   "slot": "morning",
+   "candidates": 190,
+   "new": 83,
+   "stale": 69,
+   "judged": 83,
+   "selected": 22,
+   "mirrored": 20,
+   "by_category": {
+    "资讯": 11,
+    "观点": 3,
+    "技术": 4,
+    "项目": 3,
+    "论文": 1
+   },
+   "by_source": {
+    "HF Daily Papers": 11,
+    "arXiv 新论文": 36,
+    "Hacker News": 15,
+    "量子位": 10,
+    "极客公园": 8,
+    "IT之家": 20,
+    "爱范儿": 9,
+    "少数派": 3,
+    "雷峰网": 10,
+    "钛媒体": 7,
+    "InfoQ 中文": 11,
+    "阮一峰": 1,
+    "Latent Space": 4,
+    "Stratechery": 2,
+    "SemiAnalysis": 1,
+    "Azeem Azhar": 1,
+    "Tomasz Tunguz": 2,
+    "Zvi Mowshowitz": 2,
+    "Hugging Face Blog": 5,
+    "Google Research": 1,
+    "OpenAI": 6,
+    "Google DeepMind": 1,
+    "NVIDIA": 2,
+    "Microsoft": 2,
+    "DeepSeek": 1,
+    "GitHub Trending": 9,
+    "GitHub 新项目": 11
    },
    "llm": true,
    "translated": 0

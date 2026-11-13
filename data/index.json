@@ -1,6 +1,13 @@
 {
- "updated": "2026-11-13T12:59:55+00:00",
+ "updated": "2026-11-13T18:30:44+00:00",
  "days": [
+  {
+   "date": "2026-11-14",
+   "count": 22,
+   "slots": {
+    "morning": 22
+   }
+  },
   {
    "date": "2026-11-13",
    "count": 64,
@@ -449,28 +456,30 @@
    }
   }
  ],
- "total": 2771,
+ "total": 2793,
  "last_run": {
-  "at": "2026-11-13T12:59:55+00:00",
-  "slot": "evening",
-  "candidates": 192,
-  "new": 127,
-  "stale": 18,
-  "judged": 96,
-  "selected": 21,
-  "mirrored": 17,
+  "at": "2026-11-13T18:30:44+00:00",
+  "slot": "morning",
+  "candidates": 190,
+  "new": 83,
+  "stale": 69,
+  "judged": 83,
+  "selected": 22,
+  "mirrored": 20,
   "by_category": {
+   "资讯": 11,
+   "观点": 3,
    "技术": 4,
-   "资讯": 14,
-   "项目": 3
+   "项目": 3,
+   "论文": 1
   },
   "by_source": {
    "HF Daily Papers": 11,
-   "arXiv 新论文": 49,
-   "Hacker News": 13,
-   "量子位": 9,
+   "arXiv 新论文": 36,
+   "Hacker News": 15,
+   "量子位": 10,
    "极客公园": 8,
-   "IT之家": 18,
+   "IT之家": 20,
    "爱范儿": 9,
    "少数派": 3,
    "雷峰网": 10,
@@ -481,16 +490,17 @@
    "Stratechery": 2,
    "SemiAnalysis": 1,
    "Azeem Azhar": 1,
-   "Tomasz Tunguz": 1,
-   "Zvi Mowshowitz": 3,
-   "Hugging Face Blog": 2,
+   "Tomasz Tunguz": 2,
+   "Zvi Mowshowitz": 2,
+   "Hugging Face Blog": 5,
    "Google Research": 1,
-   "OpenAI": 5,
-   "Google DeepMind": 2,
-   "NVIDIA": 1,
+   "OpenAI": 6,
+   "Google DeepMind": 1,
+   "NVIDIA": 2,
    "Microsoft": 2,
-   "GitHub Trending": 10,
-   "GitHub 新项目": 10
+   "DeepSeek": 1,
+   "GitHub Trending": 9,
+   "GitHub 新项目": 11
   },
   "llm": true,
   "translated": 0
