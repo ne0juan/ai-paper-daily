@@ -1,12 +1,11 @@
-2026-11-13 05:25:35,141 INFO source hf_daily           -> 5 items
-2026-11-13 05:25:35,554 INFO source hackernews         -> 10 items
-2026-11-13 05:26:03,926 INFO source rss                -> 96 items
-2026-11-13 05:26:04,983 INFO source html_lists         -> 0 items
-2026-11-13 05:26:04,983 INFO source x                  -> 0 items
-2026-11-13 05:26:19,751 INFO source arxiv_search       -> 50 items
-2026-11-13 05:26:29,017 INFO source github             -> 20 items
-2026-11-13 05:26:29,019 INFO candidates: 181 (stale dropped 34, new 107)
-2026-11-13 05:28:16,934 INFO llm judged 100/100 (calls=13)
-2026-11-13 05:28:58,591 WARNING snapshot https://stratechery.com/2026/sharp-tech-on-video-nvidia-after-jensen-huang-ominous-news-for-american-ai-d-c-gets-its-revenge/: blocked or empty page
-2026-11-13 05:31:06,370 WARNING snapshot https://thezvi.wordpress.com/2026/11/12/ai-194-spy-versus-guy/: blocked or empty page
-2026-11-13 05:31:47,791 INFO run done: {"at": "2026-11-13T05:25:34+00:00", "slot": "noon", "candidates": 181, "new": 107, "stale": 34, "judged": 100, "selected": 22, "mirrored": 20, "by_category": {"资讯": 11, "项目": 3, "观点": 3, "技术": 4, "论文": 1}, "by_source": {"HF Daily Papers": 5, "Hacker News": 10, "量子位": 10, "极客公园": 8, "IT之家": 13, "爱范儿": 8, "少数派": 2, "雷峰网": 13, "钛媒体": 4, "InfoQ 中文": 12, "阮一峰": 1, "Latent Space": 4, "Stratechery": 2, "SemiAnalysis": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 2, "Google Research": 1, "OpenAI": 6, "Google DeepMind": 2, "NVIDIA": 1, "Microsoft": 2, "arXiv 新论文": 50, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
+2026-11-13 12:59:55,474 INFO source hf_daily           -> 11 items
+2026-11-13 12:59:55,831 INFO source hackernews         -> 13 items
+2026-11-13 13:01:30,256 INFO source rss                -> 101 items
+2026-11-13 13:01:32,536 INFO source html_lists         -> 0 items
+2026-11-13 13:01:32,536 INFO source x                  -> 0 items
+2026-11-13 13:01:34,165 INFO source arxiv_search       -> 49 items
+2026-11-13 13:01:43,291 INFO source github             -> 20 items
+2026-11-13 13:01:43,293 INFO candidates: 192 (stale dropped 18, new 127)
+2026-11-13 13:03:20,448 INFO llm judged 96/100 (calls=13)
+2026-11-13 13:03:20,719 WARNING pdf arxiv-2611.16748: too large (> 25165824 bytes): https://arxiv.org/pdf/2611.16748
+2026-11-13 13:06:01,877 INFO run done: {"at": "2026-11-13T12:59:55+00:00", "slot": "evening", "candidates": 192, "new": 127, "stale": 18, "judged": 96, "selected": 21, "mirrored": 17, "by_category": {"技术": 4, "资讯": 14, "项目": 3}, "by_source": {"HF Daily Papers": 11, "arXiv 新论文": 49, "Hacker News": 13, "量子位": 9, "极客公园": 8, "IT之家": 18, "爱范儿": 9, "少数派": 3, "雷峰网": 10, "钛媒体": 7, "InfoQ 中文": 11, "阮一峰": 1, "Latent Space": 4, "Stratechery": 2, "SemiAnalysis": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 3, "Hugging Face Blog": 2, "Google Research": 1, "OpenAI": 5, "Google DeepMind": 2, "NVIDIA": 1, "Microsoft": 2, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
