@@ -1,11 +1,10 @@
-2026-11-13 18:30:44,635 INFO source hf_daily           -> 11 items
-2026-11-13 18:30:45,842 INFO source hackernews         -> 15 items
-2026-11-13 18:31:11,285 INFO source rss                -> 108 items
-2026-11-13 18:31:13,880 INFO source html_lists         -> 1 items
-2026-11-13 18:31:13,880 INFO source x                  -> 0 items
-2026-11-13 18:31:14,425 INFO source arxiv_search       -> 36 items
-2026-11-13 18:31:25,999 INFO source github             -> 20 items
-2026-11-13 18:31:26,001 INFO candidates: 190 (stale dropped 69, new 83)
-2026-11-13 18:32:44,256 INFO llm judged 83/83 (calls=11)
-2026-11-13 18:34:26,139 WARNING snapshot https://thezvi.wordpress.com/2026/11/13/jensen-huang-resigns-after-having-another-affair-in-addition-to-the-chinese-spy/: blocked or empty page
-2026-11-13 18:35:28,445 INFO run done: {"at": "2026-11-13T18:30:44+00:00", "slot": "morning", "candidates": 190, "new": 83, "stale": 69, "judged": 83, "selected": 22, "mirrored": 20, "by_category": {"资讯": 11, "观点": 3, "技术": 4, "项目": 3, "论文": 1}, "by_source": {"HF Daily Papers": 11, "arXiv 新论文": 36, "Hacker News": 15, "量子位": 10, "极客公园": 8, "IT之家": 20, "爱范儿": 9, "少数派": 3, "雷峰网": 10, "钛媒体": 7, "InfoQ 中文": 11, "阮一峰": 1, "Latent Space": 4, "Stratechery": 2, "SemiAnalysis": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 2, "Zvi Mowshowitz": 2, "Hugging Face Blog": 5, "Google Research": 1, "OpenAI": 6, "Google DeepMind": 1, "NVIDIA": 2, "Microsoft": 2, "DeepSeek": 1, "GitHub Trending": 9, "GitHub 新项目": 11}, "llm": true, "translated": 0}
+2026-11-14 05:15:29,420 INFO source hf_daily           -> 7 items
+2026-11-14 05:15:29,711 INFO source hackernews         -> 11 items
+2026-11-14 05:15:54,446 INFO source rss                -> 87 items
+2026-11-14 05:15:56,150 INFO source html_lists         -> 0 items
+2026-11-14 05:15:56,150 INFO source x                  -> 0 items
+2026-11-14 05:17:38,477 WARNING source arxiv_search failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=30)
+2026-11-14 05:17:47,635 INFO source github             -> 20 items
+2026-11-14 05:17:47,636 INFO candidates: 125 (stale dropped 21, new 59)
+2026-11-14 05:18:42,515 INFO llm judged 59/59 (calls=8)
+2026-11-14 05:21:57,236 INFO run done: {"at": "2026-11-14T05:15:29+00:00", "slot": "noon", "candidates": 125, "new": 59, "stale": 21, "judged": 59, "selected": 19, "mirrored": 18, "by_category": {"资讯": 13, "观点": 1, "项目": 3, "技术": 2}, "by_source": {"HF Daily Papers": 7, "Hacker News": 11, "量子位": 10, "极客公园": 5, "IT之家": 8, "爱范儿": 7, "少数派": 3, "雷峰网": 10, "钛媒体": 5, "InfoQ 中文": 12, "阮一峰": 1, "Dwarkesh Patel": 1, "Latent Space": 3, "Stratechery": 2, "SemiAnalysis": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 4, "Google Research": 1, "OpenAI": 5, "Google DeepMind": 1, "NVIDIA": 2, "Microsoft": 2, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
