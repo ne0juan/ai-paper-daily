@@ -1,10 +1,12 @@
-2026-11-14 05:15:29,420 INFO source hf_daily           -> 7 items
-2026-11-14 05:15:29,711 INFO source hackernews         -> 11 items
-2026-11-14 05:15:54,446 INFO source rss                -> 87 items
-2026-11-14 05:15:56,150 INFO source html_lists         -> 0 items
-2026-11-14 05:15:56,150 INFO source x                  -> 0 items
-2026-11-14 05:17:38,477 WARNING source arxiv_search failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=30)
-2026-11-14 05:17:47,635 INFO source github             -> 20 items
-2026-11-14 05:17:47,636 INFO candidates: 125 (stale dropped 21, new 59)
-2026-11-14 05:18:42,515 INFO llm judged 59/59 (calls=8)
-2026-11-14 05:21:57,236 INFO run done: {"at": "2026-11-14T05:15:29+00:00", "slot": "noon", "candidates": 125, "new": 59, "stale": 21, "judged": 59, "selected": 19, "mirrored": 18, "by_category": {"资讯": 13, "观点": 1, "项目": 3, "技术": 2}, "by_source": {"HF Daily Papers": 7, "Hacker News": 11, "量子位": 10, "极客公园": 5, "IT之家": 8, "爱范儿": 7, "少数派": 3, "雷峰网": 10, "钛媒体": 5, "InfoQ 中文": 12, "阮一峰": 1, "Dwarkesh Patel": 1, "Latent Space": 3, "Stratechery": 2, "SemiAnalysis": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 4, "Google Research": 1, "OpenAI": 5, "Google DeepMind": 1, "NVIDIA": 2, "Microsoft": 2, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
+2026-11-14 12:03:30,052 INFO source hf_daily           -> 8 items
+2026-11-14 12:03:30,368 INFO source hackernews         -> 11 items
+2026-11-14 12:03:59,250 INFO source rss                -> 83 items
+2026-11-14 12:04:01,127 INFO source html_lists         -> 0 items
+2026-11-14 12:04:01,127 INFO source x                  -> 0 items
+2026-11-14 12:04:01,583 INFO source arxiv_search       -> 15 items
+2026-11-14 12:04:10,229 INFO source github             -> 20 items
+2026-11-14 12:04:10,230 INFO candidates: 136 (stale dropped 20, new 56)
+2026-11-14 12:05:05,679 INFO llm judged 56/56 (calls=7)
+2026-11-14 12:05:15,599 WARNING snapshot https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus: blocked or empty page
+2026-11-14 12:05:49,760 WARNING pdf arxiv-2611.17267: too large (> 25165824 bytes): https://arxiv.org/pdf/2611.17267
+2026-11-14 12:07:12,699 INFO run done: {"at": "2026-11-14T12:03:29+00:00", "slot": "evening", "candidates": 136, "new": 56, "stale": 20, "judged": 56, "selected": 21, "mirrored": 19, "by_category": {"项目": 3, "资讯": 13, "技术": 4, "观点": 1}, "by_source": {"HF Daily Papers": 8, "arXiv 新论文": 15, "Hacker News": 11, "量子位": 10, "极客公园": 4, "IT之家": 14, "爱范儿": 7, "少数派": 3, "雷峰网": 10, "钛媒体": 2, "InfoQ 中文": 9, "阮一峰": 1, "Dwarkesh Patel": 1, "Latent Space": 3, "Stratechery": 1, "SemiAnalysis": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Hugging Face Blog": 4, "Google Research": 1, "OpenAI": 3, "Google DeepMind": 1, "NVIDIA": 2, "Microsoft": 2, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
