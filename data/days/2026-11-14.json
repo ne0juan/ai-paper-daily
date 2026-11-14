@@ -2247,47 +2247,1243 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-a67bb8d2a6b4",
+   "kind": "article",
+   "title": "ChromeDevTools/chrome-devtools-mcp",
+   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+   "pdf_url": "",
+   "abstract": "Star ChromeDevTools / chrome-devtools-mcp Chrome DevTools for coding agents\nREADME: # Chrome DevTools for agents [![npm chrome-devtools-mcp package](https://img.shields.io/npm/v/chrome-devtools-mcp.svg)](https://npmjs.org/package/chrome-devtools-mcp) Chrome DevTools for agents (`chrome-devtools-mcp`) lets your coding agent (such as Antigravity, Claude, Cursor or Copilot) control and inspect a live Chrome browser. It is available as a Model-Context-Protocol (MCP) server and as a [CLI][cli]. Both give your AI coding assistant access to the full power of Chrome DevTools for reliable automation, in-depth debugging, and performance analysis. [Tool reference][tool-reference] | [CLI][cli] | [Skills][skills] | [Changelog][changelog] | [Contributing][contributing] | [Troubleshooting][troubleshooting] | [Design Principles][design-principles] ## Key features - **Get performance insights**: Uses [Chrome DevTools](https://github.com/ChromeDevTools/devtools-frontend) to record traces and extract actionable performance insights. - **Advanced browser debugging**: Analyze network requests, take screenshots and check browser console messages (with source-mapped stack traces). - **Reliable automation**. Uses [puppeteer](https://github.com/puppeteer/puppeteer) to automate actions in Chrome and automatically wait for action results. ## Disclaimers `chrome-devtools-mcp` exposes content of the browser instance to the MCP clients allowing them to inspect, debug, and modify any data in the browser or DevTools. Avoid sharing sensitive or personal information that you don't want to sh",
+   "authors": [],
+   "orgs": [
+    "ChromeDevTools"
+   ],
+   "published": "2026-11-14T12:03:29+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+     "signal": "★ 今日 +673 · TypeScript",
+     "metric": 673
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Chrome DevTools 官方 MCP：让编码智能体操控真实浏览器",
+   "summary_zh": "Chrome 团队推出 MCP 服务器与 CLI，让 Claude、Cursor 等编码智能体直接控制并检查真实 Chrome，做性能追踪、网络调试与可靠自动化。",
+   "highlights_zh": [
+    "官方出品，同时提供 MCP 服务器和 CLI 两种接入方式",
+    "可录制性能 trace 并提取可执行优化建议",
+    "基于 Puppeteer 自动等待动作结果，调试更可靠"
+   ],
+   "why_zh": "如果你在做前端智能体或浏览器自动化，用它让 agent 直接读控制台和网络请求",
+   "tags": [
+    "智能体",
+    "代码",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.6072,
+   "score_llm": 8.0,
+   "score": 0.7229,
+   "date": "2026-11-14",
+   "slot": "evening",
+   "selected_at": "2026-11-14T12:03:29+00:00",
+   "mirror_pdf": "pdf/web-a67bb8d2a6b4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b26717d449a4",
+   "kind": "article",
+   "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+   "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-14T02:52:59Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50493251",
+     "signal": "656 pts",
+     "metric": 656
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "英伟达被指通过投资 AI 初创人为制造 GPU 稀缺",
+   "summary_zh": "有报道称英伟达通过投资 AI 初创公司、再让其回购自家 GPU，形成需求闭环以维持稀缺与定价，引发对算力市场结构的讨论。",
+   "highlights_zh": [
+    "指控核心是「投资—回购」形成的需求循环",
+    "涉及算力供需与定价是否被人为操纵",
+    "对 AI 基础设施投资逻辑有直接含义"
+   ],
+   "why_zh": "理解算力市场的真实需求结构，判断 GPU 供需叙事是否可信",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.62,
+   "score_llm": 7.0,
+   "score": 0.668,
+   "date": "2026-11-14",
+   "slot": "evening",
+   "selected_at": "2026-11-14T12:03:29+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50493251"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-09a3e479d01f",
+   "kind": "article",
+   "title": "backnotprop/plannotator",
+   "url": "https://github.com/backnotprop/plannotator",
+   "pdf_url": "",
+   "abstract": "Star backnotprop / plannotator The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+   "authors": [],
+   "orgs": [
+    "backnotprop"
+   ],
+   "published": "2026-11-14T12:03:29+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/backnotprop/plannotator",
+     "signal": "★ 今日 +412 · TypeScript",
+     "metric": 412
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Plannotator：把智能体计划变成可批注的协作工作区",
+   "summary_zh": "一个面向智能体工作流的协作工具，可对计划做批注、审阅代码，并把反馈一键回传给 agent，让人类保持在回路中。",
+   "highlights_zh": [
+    "对 agent 生成的计划做可视化批注与决策",
+    "审阅代码后一键把反馈发回给智能体",
+    "支持与团队共享评审结果"
+   ],
+   "why_zh": "如果你用 Claude Code 跑多步任务，用它把计划审阅和反馈闭环起来",
+   "tags": [
+    "智能体",
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5871,
+   "score_llm": 7.0,
+   "score": 0.6548,
+   "date": "2026-11-14",
+   "slot": "evening",
+   "selected_at": "2026-11-14T12:03:29+00:00",
+   "mirror_pdf": "pdf/web-09a3e479d01f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/backnotprop/plannotator"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-10c60fc60c0f",
+   "kind": "article",
+   "title": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update",
+   "url": "https://unsloth.ai/docs/models/qwen3.8",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-14T00:06:04Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50491980",
+     "signal": "161 pts",
+     "metric": 161
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Unsloth 发布 Qwen3.8-27B 动态量化 v3.1",
+   "summary_zh": "Unsloth 更新 Qwen3.8-27B 的 Dynamic v3.1 量化方案，在更低显存下保持精度，方便本地部署与微调。",
+   "highlights_zh": [
+    "Dynamic v3.1 量化在显存占用与精度间取得更好平衡",
+    "面向 Qwen3.8-27B 大模型的本地推理与微调场景",
+    "Unsloth 生态持续跟进主流开源模型量化"
+   ],
+   "why_zh": "想在消费级显卡上跑 27B 级开源模型的从业者值得关注具体量化配置与精度对比。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5585,
+   "score_llm": 7.0,
+   "score": 0.6434,
+   "date": "2026-11-14",
+   "slot": "evening",
+   "selected_at": "2026-11-14T12:03:29+00:00",
+   "mirror_pdf": "pdf/web-10c60fc60c0f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://unsloth.ai/docs/models/qwen3.8"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50491980"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-be54405e42bc",
+   "kind": "article",
+   "title": "[AINews] The No AI Slop Manifesto",
+   "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+   "pdf_url": "",
+   "abstract": "November 13, 2026 — AIE speakers unite to lay out how to fight slop.",
+   "authors": [
+    "swyx .ai"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-11-14T08:31:02+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "AINews：反AI垃圾内容宣言",
+   "summary_zh": "Latent Space 汇总 AIE  speakers 观点，提出如何对抗低质AI生成内容（slop）的行业倡议。",
+   "highlights_zh": [
+    "聚焦AI生成内容质量治理",
+    "多位AIE讲者联合发声",
+    "对内容生态有方向性意义"
+   ],
+   "why_zh": "反映AI内容质量与信任议题，从业者值得关注行业共识走向。",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-11-14",
+   "slot": "evening",
+   "selected_at": "2026-11-14T12:03:29+00:00",
+   "mirror_pdf": "pdf/web-be54405e42bc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b67e7f881778",
+   "kind": "article",
+   "title": "百度词元所发布首日：供应商暴增超100家，客户新增超1000家",
+   "url": "https://www.leiphone.com/category/industrynews/cqPXhF38rM4VcVa7.html",
+   "pdf_url": "",
+   "abstract": "11月14日，从百度获悉，百度词元所发布首日，新增申请入驻的供应商已超过100家，新增超过1000家客户接入。 词元所在11月12日举行的百度世界2026上正式发布，百度创始人李彦宏将其称为“大模型的交易所”。据介绍，词元所一端汇聚模型和模型提供商，另一端服务企业和个人，让用户便捷地找到、购买和使用可信的模型Token。 词元所主打验真与征信两大能力：模型入平台前需通过模型指纹比对、模型能力测试、性能指标与可用性测试等准入核验，上线后接受定期抽检拨测与全链路实时监测，相关结果沉淀为供应商的信用评级。 李彦宏提到，今年前9个月几乎每天都有不止一款新模型发布，调用需求同步爆发，而市面上的词元中转站不对模型效果、服务稳定性、响应速度负责，连模型真实性也无从考证，词元所要解决的是这一环节的信任问题。 试运行期间，词元所入驻供应资源已经超过100个，日均调用次数突破5000万次。目前平台已上架40余款模型，覆盖DeepSeek、Kimi、智谱GLM、MiniMax等主流模型及视频模型，也包括百度自研文心系列；入驻方既有模型原厂，也有第三方推理服务商。 工信部信息通信经济专家委员会委员盘和林表示， “我国算力的核心矛盾是结构性错配，通用算力阶段性过剩、高端智能算力持续紧张，一批中小算力中心有资源却接不上客户。词元所让具备模型服务能力的供给方进入公开市场，等于为存量算力增加了一个可被检索、可被比价的变现出口，提升的是算力的可售性与配置效率，这一通道对优化全国算力资源配置的价值会进一步显现。”",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-14T05:45:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/cqPXhF38rM4VcVa7.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "百度词元所首日：供应商破百，客户超千",
+   "summary_zh": "百度发布“大模型交易所”词元所，首日新增超100家供应商、超1000家客户，以验真与征信解决Token交易信任问题。",
+   "highlights_zh": [
+    "李彦宏称词元所是“大模型的交易所”，一端汇聚模型供应商，一端服务企业个人",
+    "主打模型指纹比对、能力测试与信用评级，直指中转站真实性无保障的痛点",
+    "试运行日均调用破5000万次，已上架DeepSeek、Kimi、GLM等40余款模型"
+   ],
+   "why_zh": "模型Token交易从灰色中转走向平台化，是观察大模型商业化渠道演化的关键信号。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-14",
+   "slot": "evening",
+   "selected_at": "2026-11-14T12:03:29+00:00",
+   "mirror_pdf": "pdf/web-b67e7f881778.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/cqPXhF38rM4VcVa7.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-372e393937b2",
+   "kind": "article",
+   "title": "前 Anthropic 研究员考克森：当今若要重新训练 Mythos，只需初始的一小部分算力",
+   "url": "https://www.ithome.com/1/027/221.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 14 日消息，曾任职于 OpenAI 和 Anthropic、因公开警告 AI 风险而受到广泛关注的研究员雅各布 · 考克森称，Anthropic 在 IPO 路演中展示的一张幻灯片，是促使他离职的重要原因。 考克森在 Anthropic 只工作了约四个月。让他决定离职的原因之一，是公司 IPO 路演中 一张展示 AI 模型训练算力需求变化的图表 。图表采用压缩坐标轴，即使算力需求增长 10 倍和 100 倍，看起来也相差不大。 即便如此，曲线依然急剧上升。考克森认为，这说明算法效率不仅在快速提高，而且提升速度还在不断加快。“这张图实在太惊人了，没想到他们竟然会公开。” 考克森认为，Anthropic 今年春季推出的 Mythos 模型在性能上实现重大突破，并非偶然，而是算法效率加速提升的结果。他写道：“Mythos 并非一次偶然的突破，而是超指数增长趋势中的一个节点。现在，他们只需 耗费最初训练时的一小部分算力，就能重新训练 Mythos 。” 考克森指出，算法改进即将实现自动化，因此 主张明年暂停前沿 AI 模型研发 ，让竞争对手有机会赶上。他认为，此举将使 达到人类水平的智能成为可以广泛获取的商品 ，受到损害的只有 OpenAI 和 Anthropic。 考克森曾在 OpenAI 负责 AI 模型训练工作，最近一份工作则是在 Anthropic。今年 9 月，他公开警告先进 AI 系统可能带来的风险，引发广泛关注，业内其他重要人士也提出了类似警告。他们担心，能够不断自我改进的先进 AI 最终可能脱离人类控制。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-14T11:45:39+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/027/221.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "考克森：重训Mythos只需初始一小部分算力",
+   "summary_zh": "前Anthropic研究员考克森认为，算法效率正超指数提升，如今重训Mythos仅需最初一小部分算力，并主张明年暂停前沿模型研发。",
+   "highlights_zh": [
+    "他以Anthropic IPO路演中压缩坐标轴的算力曲线为证据，称曲线仍急剧上升",
+    "判断Mythos突破是算法效率加速的结果，而非偶然",
+    "主张暂停研发让对手追赶，使人类水平智能成为可广泛获取的商品"
+   ],
+   "why_zh": "来自核心实验室内部人士对算法效率与研发节奏的罕见判断，值得关注。",
+   "tags": [
+    "大模型",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-14",
+   "slot": "evening",
+   "selected_at": "2026-11-14T12:03:29+00:00",
+   "mirror_pdf": "pdf/web-372e393937b2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/027/221.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.17267",
+   "kind": "paper",
+   "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+   "url": "https://arxiv.org/abs/2611.17267",
+   "pdf_url": "https://arxiv.org/pdf/2611.17267",
+   "abstract": "We introduce GeoWorld, a controllable and continuously evolving geographic environment platform for LLM agents, and LiveGeo, a benchmark for evaluating reliable decision-making in real-world geographic environments using GeoWorld. Unlike existing evaluations that largely reason and plan over fixed geographic states, GeoWorld is grounded in real-world geographic structure and allows external world states to evolve along their own temporal processes while preserving verifiable state histories. LiveGeo places geographic tasks within this evolving environment, requiring agents to actively acquire task-relevant information, verify whether the evidence supporting prior decisions remains valid, and revise their plans when necessary. Our results reveal that even frontier LLMs struggle with static tasks, with no model consistently excelling across tasks, while strong static performance does not ensure dynamic reliability. Further analysis identifies a key bottleneck: agents struggle to acquire and translate relevant evidence into valid decisions and maintain their correctness as the world evolves. By releasing LiveGeo together with its GeoWorld platform, we aim to provide the community with a flexible and extensible infrastructure for studying the next generation of agents capable of reliable action in evolving geographic worlds.",
+   "authors": [
+    "Pengcheng Zhou",
+    "Xuanyu Liu",
+    "Yanchen Yin",
+    "Tianjie Ju",
+    "Bobo Li",
+    "Shengqiong Wu",
+    "Hao Fei",
+    "Mong-Li Lee",
+    "Wynne Hsu"
+   ],
+   "orgs": [],
+   "published": "2026-11-12T18:45:58Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.17267",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "LiveGeo：在持续演化世界中评测地理智能体",
+   "summary_zh": "提出 GeoWorld 可控演化地理环境与 LiveGeo 基准，要求智能体主动获取信息、验证旧证据是否仍有效并修正计划；结果显示前沿 LLM 静态任务已吃力，静态强表现无法保证动态可靠性。",
+   "highlights_zh": [
+    "环境基于真实地理结构，外部世界状态可随时间自主演化并保留可验证状态历史",
+    "任务要求智能体主动取证、复核证据有效性并在必要时改计划",
+    "瓶颈在于智能体难以将相关证据转化为有效决策并随世界演化维持正确性"
+   ],
+   "why_zh": "为动态环境下的智能体可靠性评测提供了可扩展基础设施与新基准。",
+   "tags": [
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-14",
+   "slot": "evening",
+   "selected_at": "2026-11-14T12:03:29+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.17267"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.17267"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.17267"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.17267"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.17267"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.17267"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.17239",
+   "kind": "paper",
+   "title": "When Both Sides Adapt: The Challenges of Evaluating Interactive LLM Systems",
+   "url": "https://arxiv.org/abs/2611.17239",
+   "pdf_url": "https://arxiv.org/pdf/2611.17239",
+   "abstract": "In interactive systems where users engage with LLMs, users are adaptive and, after observing LLM responses, can change their prompting strategy, as well as the type and difficulty of subsequent tasks. Thus model responses can influence the set of prompts on which the model is subsequently evaluated. We study the implications of this user adaptivity and prompt endogeneity for the evaluation of LLMs. We define two classes of estimands for comparing models: the common-distribution effect, which compares model performance on the same distribution of prompts, and the induced-distribution effect, which compares each model on the prompt distribution generated through user interaction. We show that offline benchmark evaluation and live A/B testing target different quantities, with the standard difference-in-means estimators for the two methods converging to the common-distribution effect and the induced-distribution effect, respectively. This distinction can affect decision-making: the two comparisons can rank models differently and lead to discrepancies in deployment recommendations. We characterize when such ranking reversals occur and provide a sufficient condition under which the rankings are guaranteed to agree. This result provides a practical heuristic for assessing whether offline evaluation is sufficient to reproduce the decision suggested by a live experiment. Third, we show, in a stylized linear model of interactions, that user adaptivity can increase variance in estimation. Finally, we discuss implications of user adaptivity for the interpretation of experiments and show that adaptivity creates a common mechanism leading to common evaluation challenges, such as reward hacking and novelty effects. Together, this work highlights the necessity of measuring both model performance as well as changes in the user behavior that the model induces.",
+   "authors": [
+    "Hannah Li"
+   ],
+   "orgs": [],
+   "published": "2026-11-12T18:26:51Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.17239",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "当双方都在适应：交互式 LLM 系统评测的难题",
+   "summary_zh": "研究用户会随模型回复调整提示策略带来的提示内生性问题，区分「共同分布效应」与「诱导分布效应」，证明离线基准与线上 A/B 测试度量不同量，可能导致模型排名反转与部署建议分歧。",
+   "highlights_zh": [
+    "定义两类可比较的估计量：共同分布效应与诱导分布效应",
+    "标准差分均值估计分别收敛于两类效应，离线与线上目标不同",
+    "给出排名反转发生条件及两者保证一致的充分条件，作为离线评测是否足够的实用判据"
+   ],
+   "why_zh": "揭示交互式场景下离线评测可能误导部署决策，对评测方法论有直接指导意义。",
+   "tags": [
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-14",
+   "slot": "evening",
+   "selected_at": "2026-11-14T12:03:29+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.17239.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.17239"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.17239"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.17239"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.17239"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.17239"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.17239"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.17152",
+   "kind": "paper",
+   "title": "AeroZoo: A Benchmark of Well-Posed Flow Problems for Foundation Models of Aerodynamics",
+   "url": "https://arxiv.org/abs/2611.17152",
+   "pdf_url": "https://arxiv.org/pdf/2611.17152",
+   "abstract": "Neural surrogates for computational fluid dynamics (CFD) are trained and ranked on datasets that each vary one design family in one flow domain. Such datasets cannot test the least that an aerodynamic foundation model must do: predict CFD-quality incompressible flow in seconds for new shapes in new enclosures. On DrivAerML, larger models and longer training barely lower Transolver's error; doubling the training cases cuts it by about 12% up to 400 cases, exhausting the dataset. We introduce AeroZoo, a benchmark and training corpus of 3,815 time-mean solutions to the unsteady Reynolds-averaged Navier--Stokes (RANS) equations with a transition model, across seven geometry families, eight enclosure configurations and Reynolds numbers from $10^3$ to $10^8$. Each sample poses a well-posed PDE problem in the form a solver receives it: the boundary meshes grouped by condition type, the prescribed values and the fluid properties. The 2,816 samples with a stable time mean form the canonical benchmark: two tasks, engineering metrics and 22 frozen splits, disjoint in geometry, that hold out geometry families, enclosures, boundary-condition layouts and Reynolds ranges. On the random split, boundary-condition tokens cut GeoTransolver's median velocity error from 76.9% to 8.4% of the inlet speed in single-seed runs (uniform inlet flow: 11.0%). ISLA, a transformer for boundary-driven PDEs, reaches 5.3% over four seeds, about 4 times the change from a finer mesh. On the same test samples, a held-out geometry family barely changes ISLA's error relative to uniform flow, and a held-out enclosure or boundary-condition layout raises it 2.4 to 9.2 times. The data and the scoring code will be released.",
+   "authors": [
+    "Peter Sharpe",
+    "Carmelo Gonzales",
+    "Corey Adams",
+    "Mehdi Ataei",
+    "Sanjay Choudhry"
+   ],
+   "orgs": [],
+   "published": "2026-11-12T17:36:09Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.17152",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AeroZoo：面向空气动力学基础模型的良定流动问题基准",
+   "summary_zh": "指出现有 CFD 代理数据集无法检验基础模型跨新形状新环境的泛化能力，构建含 3815 个 RANS 时均解、覆盖七类几何与八个外罩配置的基准，并显示边界条件 token 可将速度误差从 76.9% 降至 8.4%。",
+   "highlights_zh": [
+    "覆盖七类几何、八种外罩配置与 10³–10⁸ 雷诺数范围",
+    "2816 个稳定时均样本构成规范基准，含 22 个几何不相交的冻结划分",
+    "边界条件 token 显著降低 GeoTransolver 中位速度误差"
+   ],
+   "why_zh": "为科学 AI 中的气动基础模型提供了更严格、可泛化检验的评测标准。",
+   "tags": [
+    "科学AI",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-14",
+   "slot": "evening",
+   "selected_at": "2026-11-14T12:03:29+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.17152.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.17152"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.17152"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.17152"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.17152"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.17152"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.17152"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0b67abad1121",
+   "kind": "article",
+   "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+   "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-13T15:08:44Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50484658",
+     "signal": "320 pts",
+     "metric": 320
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Jonathan Blow：AI 若真解决了编程，为何我的软件没变",
+   "summary_zh": "游戏开发者 Jonathan Blow 质疑 AI 编程的实际效果，认为软件质量与开发体验并未因 AI 出现根本改变，引发对 AI 编码能力的再讨论。",
+   "highlights_zh": [
+    "从一线开发者视角质疑 AI 编码的实际收益",
+    "强调软件复杂度问题未被 AI 触及",
+    "HN 高热度，反映业界分歧"
+   ],
+   "why_zh": "作为对 AI 编码乐观叙事的反方观点，帮助校准预期",
+   "tags": [
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5906,
+   "score_llm": 6.0,
+   "score": 0.5962,
+   "date": "2026-11-14",
+   "slot": "evening",
+   "selected_at": "2026-11-14T12:03:29+00:00",
+   "mirror_pdf": "pdf/web-0b67abad1121.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50484658"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d1318183fe17",
+   "kind": "article",
+   "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+   "url": "https://openai.com/business/customer-stories/shield",
+   "pdf_url": "",
+   "abstract": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-11-13T08:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/business/customer-stories/shield",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Shield 用 OpenAI 智能体接管遗留系统操作",
+   "summary_zh": "Shield 的 Forge 智能体借助 OpenAI 模型在老旧门户系统中代为操作，让 IT 技术人员专注需要判断的问题。",
+   "highlights_zh": [
+    "Forge 智能体可导航遗留门户完成重复性操作",
+    "定位为技术人员的工作交接与减负工具",
+    "OpenAI 官方客户案例，偏应用落地"
+   ],
+   "why_zh": "可了解智能体在 IT 运维与遗留系统自动化中的真实落地形态。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 6.0,
+   "score": 0.576,
+   "date": "2026-11-14",
+   "slot": "evening",
+   "selected_at": "2026-11-14T12:03:29+00:00",
+   "mirror_pdf": "pdf/web-d1318183fe17.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/business/customer-stories/shield"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-63b115c8f032",
+   "kind": "article",
+   "title": "Cursor 披露安全事件调查结果，恶意 Claude Code 扩展最多波及 5000 用户",
+   "url": "https://www.ithome.com/1/027/215.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 14 日消息，当地时间 10 月 29 日， Cursor 发布公告 ，称 Cursor VS Code 扩展市场中出现了一个恶意且未经授权的 Anthropic Claude Code 扩展副本。 当地时间 11 月 13 日，经过过去两周的全面调查， Cursor 披露了此次安全事件调查结果 。官方称绝大多数客户未受影响， 最多波及 5,000 名用户 ；对于受影响的客户，已逐一直接联系，并告知与其相关的详情。 据悉，如果用户使用隐私模式，提示词和代码不受影响；对于未使用隐私模式的用户，编程智能体链路追踪数据遭泄露的用户 占比 不到 0.05% 。Cursor 已确认这些用户，并已逐一直接通知。如果没有收到通知，说明你的数据不在这些链路追踪数据中。 官方表示，正在汲取此次的经验教训，进一步提升 Cursor 的安全性。 IT之家附事件简要经过： Fireworks 密钥泄露：攻击者利用 Fireworks 泄露的访问密钥窃取了 Cursor 共享存储桶中的部分数据，并借其中少量未脱敏凭证（不到 0.01% 的客户受波及）入侵了 Cursor 的部分 SaaS 工具，访问了部分非生产代码仓库、客户支持数据及部分用户凭证。 监控发现并紧急响应：检测到异常后，Cursor 立即停用泄露密钥、轮换凭证并切断未授权访问，同时预防性关停了部分内部与产品服务，确认安全后已逐步恢复。 恶意扩展植入事件：10 月 29 日，攻击者利用窃取的内部凭证将篡改版 Anthropic Claude Code 扩展注入 Cursor 扩展市场（与 Anthropic 及 Open VSX 无关）。 该恶意版本存续约 11 小时， 最多波及 5,000 名用户 。Cursor 随后下架该扩展、临时下线市场，并配合云服务商关停了攻击者服务器。 客户通知与处置建议：10 月 30 日，Cursor 发布安全公告并通知受影响方，协助吊销和轮换泄露密钥。曾安装恶意版本（ Anthropic.claude-code 2.1.312 或 2.1.313）的用户需按公告指引排查，仅卸载扩展无法彻底清除风险。 事件已受控：11 月 1 日拦截最后一次攻击后，Cursor 确认事件已受控，后续将持续加强监控与防护，若有新进展将直接通知受影响客户。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-14T10:52:39+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/027/215.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Cursor 披露安全事件：恶意 Claude Code 扩展波及 5000 用户",
+   "summary_zh": "Cursor 公布调查结果：攻击者借泄露密钥向扩展市场注入篡改版 Claude Code 扩展，存续约 11 小时，最多波及 5000 名用户，事件已受控。",
+   "highlights_zh": [
+    "攻击链起于 Fireworks 泄露密钥，波及不到 0.01% 客户的未脱敏凭证",
+    "恶意扩展 Anthropic.claude-code 2.1.312/2.1.313 存续约 11 小时",
+    "仅卸载扩展无法彻底清除风险，需按公告指引排查"
+   ],
+   "why_zh": "智能体工具链供应链安全的现实案例，用 Claude Code 等扩展的团队应关注凭证与插件来源管理。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-14",
+   "slot": "evening",
+   "selected_at": "2026-11-14T12:03:29+00:00",
+   "mirror_pdf": "pdf/web-63b115c8f032.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/027/215.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-58bc4fd4eff9",
+   "kind": "article",
+   "title": "Cloudflare 开源为 AI 智能体打造的浏览器 Kitesurf，消耗资源低于 Chromium",
+   "url": "https://www.ithome.com/1/027/197.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 14 日消息，今年 8 月，Cloudflare 推出专为 AI 智能体打造的浏览器 Kitesurf。当地时间 11 月 13 日，Cloudflare 宣布开源 Kitesurf。 据介绍，Kitesurf 运行在 Cloudflare Workers 之上，无需依赖传统的浏览器容器，即可完成 HTML 解析、CSS 应用、执行页面中的 JavaScript 以及网页截图渲染。 同时，它支持 Chrome 开发者工具协议（Chrome DevTools Protocol），用户可以直接使用现有工具对其进行驱动，底层完全无需依赖任何 Chromium 进程或容器。 官方表示，Kitesurf 并没有照搬 Chromium 这类完整的桌面浏览器引擎，而是聚焦于智能体真正关心的核心指标（如 Token 消耗量、上下文窗口、可扩展性、性能与成本），同时果断舍弃了仅面向人类用户的功能，例如标签页、外观主题、浏览器扩展以及像素级精确渲染。 在网页截图、HTML 提取等常见的智能体任务中， Kitesurf 消耗的 CPU 和内存资源显著低于 Chromium 。这意味着可以并发运行更多会话，从而更从容地应对突发性、由 AI 驱动的高并发负载。 IT之家附链接： https://github.com/cloudflare/kitesurf",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-14T10:06:01+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/027/197.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Cloudflare 开源智能体浏览器 Kitesurf",
+   "summary_zh": "Cloudflare 开源跑在 Workers 上的智能体专用浏览器，不依赖 Chromium 进程即可解析渲染网页，截图与 HTML 提取的 CPU/内存开销显著更低。",
+   "highlights_zh": [
+    "支持 Chrome DevTools 协议，现有工具可直接驱动",
+    "舍弃标签页、主题、像素级渲染等人类向功能",
+    "资源占用低，可并发更多智能体会话"
+   ],
+   "why_zh": "做网页抓取或浏览器智能体的团队，可评估用它替代无头 Chromium 降本。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-14",
+   "slot": "evening",
+   "selected_at": "2026-11-14T12:03:29+00:00",
+   "mirror_pdf": "pdf/web-58bc4fd4eff9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/027/197.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a12c17448b15",
+   "kind": "article",
+   "title": "美联储理事巴尔：AI 快速普及，短期内收入不平等恐加剧",
+   "url": "https://www.ithome.com/1/027/177.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 14 日消息，据彭博社 12 日报道，美联储理事迈克尔 · 巴尔在耶鲁大学发表演讲时警告，AI 快速普及可能 在短期内加剧社会不平等 ，政策制定者必须为劳动力市场可能遭受的严重冲击做好准备。AI 影响的程度及持续时间，将取决于现阶段采取的防范措施。 巴尔警告，如果 少数 AI 企业主导市场 ，市场集中度上升可能进一步加剧不平等。占据优势的 AI 企业高管和股东财富将随之增长，规模较小的企业则会失去市场份额。“在这种情况下，绝大多数企业及其员工 都难以充分利用不断进步的 AI 技术 ，获得的收益也会减少。总体而言，劳动收入占比将下降，市场集中度将上升，社会不平等也将加剧。” IT之家获悉，巴尔在演讲中没有直接涉及货币政策，也未谈及自己对经济前景的判断。AI 造成就业岗位流失的迹象仍然很少，部分证据还显示 AI 能够提高生产率。但 AI 的普及程度依然有限，最终会对经济产生怎样的影响，尚无定论。 因此，巴尔呼吁政策制定者立即建立必要的防范机制。“我们必须做好准备，有效应对劳动力市场可能出现的严重短期冲击。趁 AI 普及仍处于相对早期阶段，社会就应该着手考虑如何应对这些潜在挑战，让全社会能够长期受益。”",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-14T08:54:52+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/027/177.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "美联储理事巴尔警告：AI 快速普及恐加剧收入不平等",
+   "summary_zh": "美联储理事巴尔在耶鲁演讲中警告，AI 快速普及短期内可能加剧社会不平等，若少数 AI 企业主导市场，劳动收入占比将下降、市场集中度上升，呼吁政策制定者尽早建立防范机制。",
+   "highlights_zh": [
+    "AI 影响程度取决于现阶段防范措施，政策制定者需为劳动力市场严重短期冲击做准备",
+    "少数 AI 企业主导市场将推高集中度，多数企业与员工难以充分获益",
+    "当前 AI 就业冲击迹象仍少，部分证据显示 AI 可提升生产率，长期影响尚无定论"
+   ],
+   "why_zh": "美联储高层对 AI 分配效应的明确判断，是观察 AI 监管与政策风向的重要信号。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-14",
+   "slot": "evening",
+   "selected_at": "2026-11-14T12:03:29+00:00",
+   "mirror_pdf": "pdf/web-a12c17448b15.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/027/177.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ec453d1217c2",
+   "kind": "article",
+   "title": "tradermonty/claude-trading-skills",
+   "url": "https://github.com/tradermonty/claude-trading-skills",
+   "pdf_url": "",
+   "abstract": "Star tradermonty / claude-trading-skills Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.\nREADME: # Claude Trading Skills Claude Trading Skills started as a personal project to use AI to improve my own trading process. Claude Trading Skills is a Claude Skills-based trading workflow toolkit for time-constrained individual investors. It is designed for investors who use long-term investing, ETFs, and dividend stocks as their core, while using disciplined swing trading as a satellite strategy when market conditions are favorable. The goal is not to outsource buy/sell decisions to AI. The goal is to structure market review, risk management, trade planning, journaling, and continuous improvement. It is open source because the workflows, checklists, and review habits behind better trading decisions can improve through shared practice. This is not a signal service or a promise of profitability. It is a toolkit for traders who want to build a better decision process. The project follows a **first for self, open for others** stance: it is built first as a practical workflow the author uses, then shared openly for others who face similar constraints. 📖 **Documentation site:** **Project vision:** [`PROJECT_VISION.md`](PROJECT_VISION.md) 日本語版READMEは[`README.ja.md`](README.ja.md)をご覧ください。 ## Disclaimer This repository is for educational, research, and process-improvement purposes only. It is not financial advice, investment advisory service, tax advice, legal advice, a signal service, or a broker execution platform. Trading and investing involve risk, including loss of principal. Past",
+   "authors": [],
+   "orgs": [
+    "tradermonty"
+   ],
+   "published": "2026-11-14T12:03:29+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/tradermonty/claude-trading-skills",
+     "signal": "★ 今日 +556 · Python",
+     "metric": 556
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Claude Trading Skills：面向散户的 Claude 交易工作流",
+   "summary_zh": "一套基于 Claude Skills 的个人交易工作流工具，覆盖市场复盘、风控、交易计划与日志，作者明确不提供买卖信号。",
+   "highlights_zh": [
+    "以流程化清单替代 AI 直接决策",
+    "覆盖复盘、风控、计划与日志",
+    "定位个人项目，非信号服务"
+   ],
+   "why_zh": "如果你在搭 Claude Skills 工作流，可参考其任务拆解方式",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5993,
+   "score_llm": 4.0,
+   "score": 0.4797,
+   "date": "2026-11-14",
+   "slot": "evening",
+   "selected_at": "2026-11-14T12:03:29+00:00",
+   "mirror_pdf": "pdf/web-ec453d1217c2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/tradermonty/claude-trading-skills"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-06a0f5a65784",
+   "kind": "article",
+   "title": "早报｜英伟达员工请愿黄仁勋回归/余承东重申华为与赛力斯分工/Microsoft 365故障延续至48小时",
+   "url": "https://www.ifanr.com/1689450?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "· 两部门公布新型储能方案，提出到 2030 年平均储能约 3 小时 · LangChain 完成 3 亿美元 C 轮融资，估值 30 亿美元 · 荣耀 700 系列定档 11 月 23 日，背屏可贴 GIF、看通知 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "郑廷旭"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-11-14T00:00:42+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1689450?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "早报：LangChain完成3亿美元C轮融资",
+   "summary_zh": "爱范儿早报汇总多条新闻，其中LangChain完成3亿美元C轮、估值30亿美元为AI相关要点。",
+   "highlights_zh": [
+    "LangChain估值达30亿美元",
+    "智能体框架赛道受资本追捧",
+    "其余为消费电子与储能新闻"
+   ],
+   "why_zh": "可快速获知智能体框架头部公司的融资动向。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-11-14",
+   "slot": "evening",
+   "selected_at": "2026-11-14T12:03:29+00:00",
+   "mirror_pdf": "pdf/web-06a0f5a65784.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1689450?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2a5280c0d6de",
+   "kind": "article",
+   "title": "AI 时代，公司的「新厂房」长什么样？",
+   "url": "https://www.ifanr.com/1689182?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "真正决定公司未来十年身位的，是谁先动手重建那座名叫「智能组织」的新厂房。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "樊 尔"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-11-13T06:34:19+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1689182?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI时代，公司的「新厂房」长什么样？",
+   "summary_zh": "爱范儿观点文章，主张企业应尽早重建「智能组织」以赢得未来十年竞争。",
+   "highlights_zh": [
+    "提出智能组织概念",
+    "偏理念倡导",
+    "缺乏具体案例与数据"
+   ],
+   "why_zh": "组织变革视角可参考，但论述偏软文式。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-11-14",
+   "slot": "evening",
+   "selected_at": "2026-11-14T12:03:29+00:00",
+   "mirror_pdf": "pdf/web-2a5280c0d6de.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1689182?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-929393cb626a",
+   "kind": "article",
+   "title": "在快 AI 时代，我是怎么把 Mole 做成一款「慢产品」的？",
+   "url": "https://sspai.com/post/118512",
+   "pdf_url": "",
+   "abstract": "距离写完上一篇在少数派发的《从开源清理工具到付费Mac应用，用户教会了我如何做产品》已经过去两个多月。这段时间里，Mole从1.13一路发到了1.19，加上了AI工具清理和系统数据清理，Windows ... 查看全文",
+   "authors": [
+    "Tw93"
+   ],
+   "orgs": [
+    "少数派"
+   ],
+   "published": "2026-11-13T03:35:48+00:00",
+   "sources": [
+    {
+     "name": "少数派",
+     "authority": 0.7,
+     "url": "https://sspai.com/post/118512",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "快AI时代，我如何把Mole做成慢产品",
+   "summary_zh": "开发者Tw93讲述Mac清理工具Mole迭代至1.19、加入AI工具清理功能的做产品心得。",
+   "highlights_zh": [
+    "独立开发者产品复盘",
+    "新增AI工具清理能力",
+    "偏产品方法论而非技术"
+   ],
+   "why_zh": "适合独立开发者参考做产品节奏，AI含量有限。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-11-14",
+   "slot": "evening",
+   "selected_at": "2026-11-14T12:03:29+00:00",
+   "mirror_pdf": "pdf/web-929393cb626a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://sspai.com/post/118512"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d24ed7da0cf0",
+   "kind": "article",
+   "title": "京博控股集团与千问办公达成战略合作，共创化工行业AI Native标杆",
+   "url": "https://www.leiphone.com/category/industrynews/TVkq6K4xkcX9zKSN.html",
+   "pdf_url": "",
+   "abstract": "近日，京博控股集团与千问办公达成战略合作，明确全集团将基于千问办公打造AI Native组织。后续双方将围绕科研创新、生产运营优化、经营分析、流程组织重构等核心场景展开合作，共同探索化工行业的智能化升级路径。京博控股集团执行董事、首席轮值总裁栾波，集团轮值总裁兼海外总裁汪君华和千问办公CEO陈宇森等共同出席了本次战略合作签约仪式。 图示 京博控股集团和千问办公战略合作签约现场 京博控股集团是中国500强企业，向全球50余个国家和地区提供高性能新材料、高端化学品、高端装备智造、数智化解决方案与安环能碳配套服务系统。依托千问办公，京博将在化工、新材料等核心生产场景，探索用Agent重塑流程架构，实现增收提效；另一方面，京博将借助千问办公沉淀管理经验，提升公司整体运营效率。 栾波表示，基于千问办公的能力，期待双方能够在研发、生产、组织管理上优化创新，共同打造化工行业AI Native标杆企业。 据悉，千问办公是阿里巴巴旗下企业级通用Agent产品，是AI办公赛道增长最快的产品之一，目前行业头部企业均已接入千问办公。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-13T07:27:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/TVkq6K4xkcX9zKSN.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "京博控股与千问办公共建化工AI Native标杆",
+   "summary_zh": "京博控股与阿里千问办公达成战略合作，将在科研、生产、经营等场景用Agent重塑流程，打造化工行业AI Native组织。",
+   "highlights_zh": [
+    "千问办公是阿里旗下企业级通用Agent产品",
+    "合作覆盖科研创新、生产运营优化、流程组织重构",
+    "属企业签约通稿，缺乏具体落地数据"
+   ],
+   "why_zh": "企业级Agent落地案例，但信息以宣传口径为主。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 4.0,
+   "score": 0.392,
+   "date": "2026-11-14",
+   "slot": "evening",
+   "selected_at": "2026-11-14T12:03:29+00:00",
+   "mirror_pdf": "pdf/web-d24ed7da0cf0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/TVkq6K4xkcX9zKSN.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d016b6a7cd72",
+   "kind": "article",
+   "title": "MEET2027含金量再加码：AI4S/量子计算/AI Infra…第二批嘉宾强势来袭！",
+   "url": "https://www.qbitai.com/2026/11/509827.html",
+   "pdf_url": "",
+   "abstract": "12.9 北京，来MEET2027现场",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-13T07:51:08+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/509827.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "MEET2027 公布第二批嘉宾，覆盖 AI4S 与量子计算",
+   "summary_zh": "量子位为 12 月 9 日北京 MEET2027 大会预热，公布第二批嘉宾，涉及 AI4S、量子计算与 AI Infra 议题。",
+   "highlights_zh": [
+    "属大会招商与预热通稿",
+    "议题方向反映 AI4S、量子计算、AI Infra 热度",
+    "无具体观点或研究成果"
+   ],
+   "why_zh": "仅会议宣传，除议题风向外的信息价值很低。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 3.0,
+   "score": 0.356,
+   "date": "2026-11-14",
+   "slot": "evening",
+   "selected_at": "2026-11-14T12:03:29+00:00",
+   "mirror_pdf": "pdf/web-d016b6a7cd72.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/509827.html"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "智能体支付落地，AI从信息层切入交易闭环",
-   "why": "OpenAI联合三大卡组织推ChatGPT Wallet，智能体代付但保留卡号隔离与验证机制。",
+   "trend": "智能体从对话走向交易执行，支付入口成新战场",
+   "why": "OpenAI联合三大卡组织推ChatGPT Wallet，智能体代付进入真实商业闭环。",
    "refs": [
     "web-5bf4951adbe9",
     "web-fab1729094ea"
    ]
   },
   {
-   "trend": "电商开始封杀购物智能体，流量红利转向攻防战",
-   "why": "智能体已占网络流量54%，但结账环节被亚马逊、美联航封堵以保附加销售。",
+   "trend": "电商与机器人流量正面冲突，智能体访问权成博弈焦点",
+   "why": "智能体已占网络流量54%，但亚马逊等在结账环节封堵以保附加销售。",
    "refs": [
     "web-d3a569dcd8de"
    ]
   },
   {
-   "trend": "评测范式从答对题转向读懂真实意图",
-   "why": "XYBench考问题背后的问题，GeoThinker按需筛线索，评测开始衡量推理效率与意图理解。",
+   "trend": "评测范式转向意图理解与过程验证，而非表面答题",
+   "why": "XYBench考问题背后真意图，DiVR判断生成序列能否到达正确答案。",
    "refs": [
     "web-8400bdfe1e2a",
-    "web-ae14336b921f"
+    "arxiv-2611.17320"
    ]
   },
   {
-   "trend": "具身智能路线分化：模型赋能取代自研硬件",
-   "why": "OpenAI解散机器人团队转通用模型驱动，浙大则主张动作模态为主、视觉为辅。",
+   "trend": "具身智能路线分化：世界模型与动作模态挑战视觉中心论",
+   "why": "西湖4B世界模型六项登顶，浙大指端到端VLM预测动作损害能力。",
    "refs": [
-    "web-4a36f6adfa9f",
+    "web-3cc86baf7596",
     "web-937cc970d119"
    ]
   },
   {
-   "trend": "英伟达换帅成AI叙事最大不确定性变量",
-   "why": "黄仁勋辞任致股价盘前跌10%，其开源生态与百亿认购角色令市场信心承压。",
+   "trend": "英伟达权力交接叠加出口管制，AI算力格局添不确定性",
+   "why": "黄仁勋辞任致股价盘前跌10%，美国拟扩大芯片出口管制。",
    "refs": [
-    "web-ea7e0f57a1fb",
     "web-26b56dd155dd",
-    "web-12f357dd3921"
+    "web-ea7e0f57a1fb"
    ]
   }
  ]
