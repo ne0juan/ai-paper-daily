@@ -1,0 +1,362 @@
+{
+ "date": "2026-11-16",
+ "items": [
+  {
+   "id": "web-6a36938791d1",
+   "kind": "article",
+   "title": "Tencent/LoopForge",
+   "url": "https://github.com/Tencent/LoopForge",
+   "pdf_url": "",
+   "abstract": "Star Tencent / LoopForge Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.\nREADME: English · 简体中文 Two ways to work · Quick start · SOPs · Features · Local · FAQ · Docs https://github.com/user-attachments/assets/8af401d9-1aae-427c-b4bc-455c12d17beb 80-second product tour (1080p, with sound). **LoopForge** is a self-hosted workspace where your team ships software with coding agents. Describe what you need to **Main Bot** in chat: it opens a Docker sandbox, checks out your repositories, delegates to project roles, and opens the PR. When a way of working proves itself, save it as an **SOP** (a standard workflow of agents, scripts and human gates) so the next requirement is delivered the same way, with review and approval built in. Coding-agent CLIs do the work: CodeBuddy, Codex, Claude Code, OpenCode, Cursor CLI, Antigravity, Kimi Code, Pi, DeepSeek Harness and ZCode. LoopForge adds the roles, sandboxes, checkpoints and history around them, all on your own infrastructure under the MIT license. ## Two ways to work | | **Chat with Main Bot** | **Run an SOP** | | --- | --- | --- | | Best for | Exploring, quick fixes, iterating with the agent | Repeatable delivery with fixed stages and sign-off | | How it runs | Main Bot opens a [conversation workspace](docs/conversation-workspaces.md) (a Docker sandbox with your repos) on demand and calls project roles as subagents | The engine runs Agent, Script, Human-gate and sub-SOP nodes in order, in their own sandbox | | You stay in control by | Queuing or steering messages mid-reply, and pausing, resuming or taking over a r",
+   "authors": [],
+   "orgs": [
+    "Tencent"
+   ],
+   "published": "2026-11-15T17:39:13+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/Tencent/LoopForge",
+     "signal": "★ 今日 +484 · Go",
+     "metric": 484
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "腾讯开源 LoopForge：自托管编码智能体工作流编排平台",
+   "summary_zh": "腾讯开源 LoopForge，可编排 CodeBuddy、Codex、Claude Code 等编码智能体，用 SOP 固化工作流并内置人工审批门，全部跑在自有基础设施上。",
+   "highlights_zh": [
+    "支持 CodeBuddy、Codex、Claude Code、Cursor CLI、Kimi Code 等十余种编码智能体 CLI",
+    "Main Bot 对话模式自动开 Docker 沙箱、拉仓库、分派角色并提 PR",
+    "SOP 模式把验证过的工作流固化为智能体+脚本+人工审批门的标准流程",
+    "MIT 协议自托管，含角色、沙箱、检查点与历史记录"
+   ],
+   "why_zh": "如果你在团队里用多个编码智能体交付代码，可以用它把流程固化成可复用的 SOP 并加审批门。",
+   "tags": [
+    "智能体",
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6737,
+   "score_llm": 8.0,
+   "score": 0.7495,
+   "date": "2026-11-16",
+   "slot": "morning",
+   "selected_at": "2026-11-15T17:39:13+00:00",
+   "mirror_pdf": "pdf/web-6a36938791d1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/Tencent/LoopForge"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d9a650738e32",
+   "kind": "article",
+   "title": "ag-ui-protocol/ag-ui",
+   "url": "https://github.com/ag-ui-protocol/ag-ui",
+   "pdf_url": "",
+   "abstract": "Star ag-ui-protocol / ag-ui AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+   "authors": [],
+   "orgs": [
+    "ag-ui-protocol"
+   ],
+   "published": "2026-11-15T17:39:13+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/ag-ui-protocol/ag-ui",
+     "signal": "★ 今日 +393 · TypeScript",
+     "metric": 393
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AG-UI：把智能体接入前端应用的交互协议",
+   "summary_zh": "AG-UI 提出智能体与用户交互协议，让 Agent 能力标准化接入前端应用，降低前后端对接智能体的集成成本。",
+   "highlights_zh": [
+    "定义 Agent 与前端 UI 之间的标准化交互协议",
+    "面向把智能体能力嵌入 Web/客户端应用的场景",
+    "TypeScript 实现，GitHub Trending 热度较高"
+   ],
+   "why_zh": "如果你在做智能体产品的前端集成，可参考它定义的事件与交互抽象。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5851,
+   "score_llm": 7.0,
+   "score": 0.654,
+   "date": "2026-11-16",
+   "slot": "morning",
+   "selected_at": "2026-11-15T17:39:13+00:00",
+   "mirror_pdf": "pdf/web-d9a650738e32.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/ag-ui-protocol/ag-ui"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7fdb1f462eb7",
+   "kind": "article",
+   "title": "开源盘古模型 openPangu-2.1-Pro 上线华为云，围绕 Agent 开发、AI 编码、推理优化方向能力升级",
+   "url": "https://www.ithome.com/1/027/450.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 15 日消息，华为云今日宣布，华为云 MaaS 模型即服务平台正式上线开源盘古模型 openPangu-2.1-Pro。 该模型围绕 Agent 开发、AI 编码和推理优化 三大方向进行能力升级，在深度研究、鸿蒙系统操控、鸿蒙 App 开发、昇腾算子生成及推理链路优化等场景实现增强。 在 Agent 能力方面 ，openPangu-2.1-Pro 基于 10 万余条专项数据优化 Skills 触发、工具选择与调用能力，提升复杂任务规划和执行效果，在深度研究及鸿蒙系统操控等场景实现能力增强。 在代码能力方面 ，新模型重点面向鸿蒙 App 开发和昇腾算子生成进行优化适配。围绕鸿蒙 ArkTS 语言及相关开发任务，持续提升代码生成的准确性和应用可用性；针对昇腾算子开发流程进行专项优化，增强专业代码生成能力，为开发者降低开发门槛、提升研发效率提供支持。 openPangu-2.1-Pro 通过关键算子和推理链路优化，在典型部署场景下实现吞吐效率大幅提升，以更高的资源利用效率支撑高并发应用。同时，通过华为云 MaaS 提供的预置模型 API、调用限流、用量统计及性能监控能力，用户可以实现快速接入和运营。 openPangu-2.1-Pro 还将接入 华为云智果 AgentArts、码道 CodeArts、果办 OfficeAce 等核心产品，覆盖智能体开发，AI 编码和企业办公，加速模型能力向实际业务场景延伸。 IT之家附价格如下： 推理输入：0.8 元 / 百万 tokens 推理输出：3.2 元 / 百万 tokens 缓存命中输入：0.016 元 / 百万 tokens",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-15T13:16:54+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/027/450.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "开源盘古 openPangu-2.1-Pro 上线华为云，强化 Agent 与编码",
+   "summary_zh": "华为云上线开源盘古 openPangu-2.1-Pro，围绕 Agent 开发、AI 编码与推理优化升级，并接入 AgentArts、CodeArts 等产品。",
+   "highlights_zh": [
+    "用 10 万余条专项数据优化 Skills 触发与工具调用",
+    "重点适配鸿蒙 ArkTS 开发与昇腾算子生成",
+    "推理输入 0.8 元/百万 tokens，输出 3.2 元"
+   ],
+   "why_zh": "国产开源模型在 Agent 与编码方向的迭代，关注其定价与生态接入。",
+   "tags": [
+    "大模型",
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-16",
+   "slot": "morning",
+   "selected_at": "2026-11-15T17:39:13+00:00",
+   "mirror_pdf": "pdf/web-7fdb1f462eb7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/027/450.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5b698d58c4c2",
+   "kind": "article",
+   "title": "Gartner 预测：到 2030 年全球将因 AI 净增加约 170 万个工作岗位",
+   "url": "https://www.ithome.com/1/027/427.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 15 日消息，人工智能可能引发的就业危机，或许并不像人们想象的那样。 商业与科技研究机构 Gartner 预测，2025 年至 2030 年间，AI 将在全球创造 1060 万个新工作岗位，同时导致 890 万个岗位消失。两者相抵，到 2030 年前，全球就业市场预计将因 AI 净增加约 170 万个岗位。 Gartner 杰出副总裁分析师兼研究主管约翰 · 洛夫洛克（John Lovelock）在接受 Business Insider 采访时表示，人们目前真正感受到的，是企业正处于观望阶段，等待 AI 对工作方式和就业市场的影响逐渐明朗。 洛夫洛克解释称：“在 AI 应用的初级阶段，企业往往会想：‘不如暂缓招聘。’随着 AI 应用进入更高阶段，企业就会开始裁减岗位。而到了 AI 应用的最后一个阶段，通常会开始增加就业岗位，最终实现就业岗位净增长。” 尽管预计受到 AI 冲击而消失的岗位占劳动者总数不到 2%，但这项新技术很可能改变相当一部分人的工作方式。 Gartner 预测，全球超过 20% 的劳动者，即约 4.355 亿人，都需要适应 AI 带来的变化。这不仅涉及具体工作内容，也包括完成工作的方式。 洛夫洛克表示：“假设你今天需要完成 10 项工作任务，明天可能只需要完成其中 6 项，而且完成这些任务的方式也会有所不同。” 招聘平台 ZipRecruiter 的经济学家妮可 · 巴肖（Nicole Bachaud）认为，AI 正在给美国科技相关行业带来更大的就业波动，并改变企业对岗位职责和求职者技能的要求。 由于 AI 已经能够承担过去由员工完成的部分工作，企业可能更倾向于招聘具备 AI 使用经验，或者拥有出色软技能的求职者。她称：“随着这些技能要求如此迅速地发生变化，我认为专业服务、商业服务、金融活动以及信息行业的员工流动率都会上升，就业市场也会因此出现更大的波动。” 职业转型与高管培训机构 Challenger, Gray & Christmas 的数据显示，截至今年 10 月，美国企业今年已经宣布裁减超过 10 万个与 AI 有关的工作岗位。在企业公布的裁员原因中，AI 已成为被提及次数第二多的因素，仅次于市场环境和经济状况。 不过，并非所有员工都对 AI 改变工作内容感到认同。 曾从事软件开发工作的克里斯蒂娜 · 埃斯图皮尼安（Cristina Estupiñán）在被裁员后寻找新工作时，对于潜在雇主询问她是否对 AI 充满热情，并没有表现出太多兴趣。 她此前称：“我不得不编一些关于 AI 哪些方面让我感到兴奋的说辞，因为说实话，AI 确实没有什么真正让我感到兴奋的地方。” 在微软工作超过 20 年后，肖恩 · 姆尔泽纳（Shawn Mrzena）决定接受微软面向员工推出的自愿退休计划。其中一个原因是，AI 技术快速发展的节奏和工作要求，并不是他作为一名员工愿意积极投入的技术变革方向。 他表示：“我最终决定，‘还是把这件事留给下一代吧。’我不想再把自己的精力和时间投入其中。每天早上醒来，我并不会对此感到兴奋。” 高盛首席经济学家兼全球投资研究主管扬 · 哈齐乌斯（Jan Hatzius）则表示，明年失业率可能仍将维持在较低水平，但未来一两年内，随着企业更加积极地采用 AI，就业市场可能面临一定的失业率上行压力。 他认为，这种影响只是暂时的阻力，并不意味着就业市场将迎来一场大规模失业灾难。 洛夫洛克指出，不同行业受到 AI 冲击的程度也会有所不同。例如，政府部门可能更加关注 AI 带来的效率提升，并借此缩减员工规模",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-15T10:27:59+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/027/427.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Gartner预测：2030年前AI净增170万岗位",
+   "summary_zh": "Gartner预测2025至2030年AI将创造1060万岗位、取代890万，净增约170万；超4.35亿人需适应工作方式变化。",
+   "highlights_zh": [
+    "AI应用分三阶段：先观望缓招、再裁岗、最后净增就业",
+    "消失岗位占比不足2%，但超20%劳动者工作内容将改变",
+    "美国今年已宣布裁减超10万个与AI相关岗位，AI成裁员第二大原因"
+   ],
+   "why_zh": "为判断AI对就业市场的净影响提供量化参照，适合关注行业走向者。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-16",
+   "slot": "morning",
+   "selected_at": "2026-11-15T17:39:13+00:00",
+   "mirror_pdf": "pdf/web-5b698d58c4c2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/027/427.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e1b2863a5798",
+   "kind": "article",
+   "title": "AI 版拓麻歌子来了：日常物品秒变需要被照顾的虚拟宠物",
+   "url": "https://www.ithome.com/1/027/443.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 15 日消息，忘记给家里的植物浇水了？这一次，你看到的可能不是逐渐变黄的叶子，而是一只显示在小屏幕上的植物形状宠物。它看起来垂头丧气、一脸委屈，仿佛在提醒你赶紧拿起浇水壶。而当你把水浇进土壤后，屏幕上的小宠物又会立刻变得兴奋起来。 这正是 OATs（Object Agent Twins，物体智能体双生体）的设计理念。这是一套面向日常家居物品的微型 AI 智能体系统，通过小巧的电子墨水屏，为各种实体物品赋予能够表达情绪的虚拟形象。 这项技术由卡内基梅隆大学未来交互研究小组（Future Interfaces Group）的一名博士五年级学生金大华（Daehwa Kim）开发。11 月初，她在底特律举行的 ACM 用户界面软件与技术研讨会（UIST 2026）上展示了这一项目。该会议汇集了学术界和产业界的专家，探讨人机交互技术的发展，金大华还因此获得了两项荣誉奖。 如果你还记得上世纪 90 年代风靡一时的拓麻歌子（Tamagotchi），就不难理解 OATs 的设计思路。这种蛋形电子玩具内置一只虚拟宠物，用户必须实时照顾它，才能让它健康成长。 金大华希望将类似的体验从虚拟世界带入现实生活中的实体物品。 她在接受《连线》（WIRED）采访时表示：“我们希望把照顾虚拟宠物带来的乐趣，延伸到现实世界中的物品上。” 有不少人建议她在网上销售 OATs 套件，但金大华目前还没有决定是否将其发展成一项商业业务。 金大华认为，如今人们整天盯着手机屏幕，即便 AI 智能体的设计初衷是替用户处理各种任务，它们仍然需要通过手机屏幕与用户互动。OATs 则试图改变这种模式，让人与 AI 之间的互动走出手机，融入现实生活。 给 AI 装上一个可爱的外形 为 AI 赋予实体形态并不是什么新鲜事。随着科技公司争相寻找所谓的“下一代智能手机”，各种形态的 AI 硬件不断涌现。 其中既有已经折戟的产品，例如 Humane Ai Pin，也有苹果前著名设计师乔纳森 · 艾维（Jony Ive）与 OpenAI 合作开发、即将推出的硬件产品，还有 Meta 的 Muse Charm，这款口袋大小的设备内置了 Meta 颇受关注的 Muse AI 智能体，预计将于 12 月上市。 值得注意的是，越来越多的科技公司开始将“可爱”作为推动产品普及的重要策略，希望通过更亲切、更容易产生情感联系的外观，降低用户接受 AI 技术的门槛。 OATs 配备了一块电子墨水屏，并连接内部和外部传感器，可以监测湿度、温度、空气湿度、光照、物体是否有人使用以及运动状态等信息。其硬件成本相对较低，主模块价格约为 20 美元 （IT之家注：现汇率约合 133.8 元人民币） 。 屏幕上的虚拟角色则由谷歌 Gemini 旗下的 Nano Banana 图像生成服务制作。系统会根据传感器采集的数据，为角色生成一系列不同情绪的形象，以对应物品当前的状态。 用户可以通过一个网页平台完成设置，为自己的 OATs 取名，并根据所连接的物品选择需要使用的传感器。 网页应用还会根据物品的名称和描述，自动生成代表积极状态和消极状态的触发条件。 例如，如果将 OATs 安装在一盆植物上，系统就会根据植物的具体需求设置相应条件。如果这种植物喜欢干燥环境，那么持续稳定的空气温度以及较低的湿度，就可能被设定为积极状态的触发条件。当然，用户也可以根据植物的具体种类自行调整这些行为规则。 它的应用场景甚至可以非常简单。假如你希望自己更频繁地使用滑板，就可以把 OATs 安装在滑板上。如果系统连续几天没有检测到滑板移动，屏幕",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-15T12:43:54+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/027/443.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "CMU 研发 OATs：日常物品变身需照顾的 AI 虚拟宠物",
+   "summary_zh": "CMU 团队用电子墨水屏与传感器为日常物品赋予 AI 虚拟形象，根据湿度温度等状态表达情绪，主模块成本约 20 美元。",
+   "highlights_zh": [
+    "电子墨水屏加内外传感器监测物品状态",
+    "角色形象由 Gemini 的 Nano Banana 生成",
+    "在 UIST 2026 展示并获两项荣誉奖"
+   ],
+   "why_zh": "探索 AI 硬件走出手机屏幕的交互形态，对 AI 硬件产品有启发。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-11-16",
+   "slot": "morning",
+   "selected_at": "2026-11-15T17:39:13+00:00",
+   "mirror_pdf": "pdf/web-e1b2863a5798.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/027/443.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-fe7842bbce6a",
+   "kind": "article",
+   "title": "韩国税务师考试头名 AI 作弊曝光后，政府全面调查今年国家资格考试",
+   "url": "https://www.ithome.com/1/027/453.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 15 日消息，据韩联社今日报道，由于税务师考试第一名考生存在利用人工智能进行作弊的行为被曝光，韩国政府决定对今年所有国家资格考试进行全面调查，以打击此类作弊行为。 报道称，劳动部和相关机构决定对在第 63 届税务师考试中发现有 AI 作弊行为的第一名考生 A 进行取消考试成绩的处理，并限制其五年内不得参加该考试，以尽快落实后续措施。 政府还计划年内出台一系列综合措施来防止国家资格考试中的作弊行为，比如引入红外线探测器等设备。此外，他们还将积极配合警方等调查机构的调查，并推进相关指控程序。 报道提到，考生 A 不仅在税务师考试中作弊，甚至在注册会计师第一次考试中也使用了同样的手段进行作弊。鉴于此情况，根据这次作弊行为的模式， 政府计划立即对今年所有国家资格考试中的人工智能作弊行为展开调查 。 同时，还将开设线上线下举报中心，允许人们举报涉及 AI 设备的国家资格考试作弊行为。考试现场的监控也会得到显著加强。将禁止携带或使用智能设备（如智能眼镜）的行为，以及相应的处罚标准明确下来。同时，会增加监管人员关于如何识别这些设备以及采取相应措施的培训时间。 劳动部与公共机构还将联合成立一个工作组，对全国资格考试的整体认证体系进行全面检查。同时， 计划在年内制定防止作弊行为的综合措施 。 据IT之家此前报道，IT之家注意到，韩国第 63 届税务师考试第一名考生 A 某近日接受一名律师采访时，承认自己的作弊行为。A 某表示，他在考试中利用微型摄像头拍摄考试题目，再将照片发给 AI 查看答案。他声称自己在今年 4 月、7 月举行的第一轮、第二轮考试中都实施了作弊行为。 A 某曾在此前公开自己的考试成绩。在采用选择题的第一轮考试中， 他 160 道题目仅答错 1 题 。其中财政学科目得分 97.5 分，税法学概论、会计学概论和商法科目均获得满分 100 分。由于考试分数高得异常，后续有网友怀疑他是否利用 AI 设备作弊。 相关阅读： 《 韩国税务师“状元”考生 160 题仅错 1 题，利用 AI 作弊惊动青瓦台 》 《 韩国税务师考试榜一考生自首，承认用微型摄像头与 AI 作弊 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-15T13:42:51+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/027/453.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "韩国税务师考试头名 AI 作弊，政府全面调查国家资格考试",
+   "summary_zh": "韩国税务师考试第一名用微型摄像头拍题发给 AI 作答被查，政府将全面排查今年国家资格考试并出台防作弊措施。",
+   "highlights_zh": [
+    "160 题仅错 1 题引发怀疑后自首",
+    "成绩取消并禁考五年",
+    "将引入红外探测器并加强监控"
+   ],
+   "why_zh": "反映 AI 作弊对考试认证体系的冲击，属行业外围动态。",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 5.0,
+   "score": 0.436,
+   "date": "2026-11-16",
+   "slot": "morning",
+   "selected_at": "2026-11-15T17:39:13+00:00",
+   "mirror_pdf": "pdf/web-fe7842bbce6a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/027/453.htm"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "编码智能体竞争从模型转向工作流编排与私有化部署",
+   "why": "腾讯开源LoopForge可编排多家编码智能体并内置审批门，强调自托管，说明企业更看重可控落地而非单一模型。",
+   "refs": [
+    "web-6a36938791d1"
+   ]
+  },
+  {
+   "trend": "Agent与前端交互协议标准化，集成成本成为新竞争点",
+   "why": "AG-UI试图统一Agent接入前端的交互协议，降低前后端对接成本，标志生态层开始补基础设施短板。",
+   "refs": [
+    "web-d9a650738e32"
+   ]
+  },
+  {
+   "trend": "国产开源模型加速向Agent与编码场景定向优化",
+   "why": "盘古openPangu-2.1-Pro围绕Agent开发与AI编码升级并接入华为云产品线，显示开源模型正绑定平台生态落地。",
+   "refs": [
+    "web-7fdb1f462eb7"
+   ]
+  },
+  {
+   "trend": "AI就业影响进入净增岗位叙事，市场预期转向结构性调整",
+   "why": "Gartner预测2030年前净增约170万岗位，但超4.35亿人需适应变化，说明关注点从替代转向技能重构。",
+   "refs": [
+    "web-5b698d58c4c2"
+   ]
+  },
+  {
+   "trend": "AI作弊事件推动国家资格考试评测与防作弊机制升级",
+   "why": "韩国税务师考试头名用AI作弊被查，政府全面排查并出台措施，考试评测方法面临系统性重构。",
+   "refs": [
+    "web-fe7842bbce6a"
+   ]
+  }
+ ]
+}
