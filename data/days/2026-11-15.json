@@ -1346,20 +1346,775 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-85985435b8f3",
+   "kind": "article",
+   "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+   "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-14T22:26:30Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50501631",
+     "signal": "427 pts",
+     "metric": 427
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "英伟达被指通过循环融资维持GPU高价",
+   "summary_zh": "Hacker News 热议文章称，英伟达通过循环融资交易刻意维持GPU高价，涉及投资客户再回购芯片的闭环模式。",
+   "highlights_zh": [
+    "指控英伟达以投资客户换取其采购GPU，形成资金闭环",
+    "讨论热度高，反映市场对AI算力泡沫的担忧",
+    "涉及AI基础设施定价与资本运作的关联"
+   ],
+   "why_zh": "理解AI算力市场的资本结构与定价逻辑，判断行业泡沫风险。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6041,
+   "score_llm": 7.0,
+   "score": 0.6616,
+   "date": "2026-11-15",
+   "slot": "evening",
+   "selected_at": "2026-11-15T12:39:22+00:00",
+   "mirror_pdf": "pdf/web-85985435b8f3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50501631"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-950ac38f23f2",
+   "kind": "article",
+   "title": "Understanding Positional Embeddings in Modern LLMs",
+   "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+   "pdf_url": "",
+   "abstract": "The Methods Behind How LLMs Represent Token Positions",
+   "authors": [
+    "Sebastian Raschka, PhD"
+   ],
+   "orgs": [
+    "Sebastian Raschka"
+   ],
+   "published": "2026-11-15T12:10:37+00:00",
+   "sources": [
+    {
+     "name": "Sebastian Raschka",
+     "authority": 0.85,
+     "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "LLM 研究者，架构解读",
+   "title_zh": "现代LLM中的位置编码解析",
+   "summary_zh": "Sebastian Raschka 系统梳理现代LLM位置编码方法，解释模型如何表示token位置。",
+   "highlights_zh": [
+    "覆盖RoPE等主流位置编码方案",
+    "从原理到实现讲清位置表示",
+    "适合架构学习者系统补课"
+   ],
+   "why_zh": "想搞懂RoPE等位置编码原理与取舍，这篇是扎实的架构解读。",
+   "tags": [
+    "大模型",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-11-15",
+   "slot": "evening",
+   "selected_at": "2026-11-15T12:39:22+00:00",
+   "mirror_pdf": "pdf/web-950ac38f23f2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1d03195a18bf",
+   "kind": "article",
+   "title": "澳大利亚央行研究：AI 最先冲击年轻劳动者，尤其是软件、客服岗位",
+   "url": "https://www.ithome.com/1/027/432.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 15 日消息，据 THE DECODER 报道，目前，人工智能（AI）对澳大利亚整体就业市场的冲击仍然有限，但对于刚刚进入软件开发等受 AI 影响较大行业的年轻劳动者来说，就业形势已经开始变得严峻。 澳大利亚储备银行（RBA）的迈克 · 梅杰（Mike Major）开展了一项研究，并建立了一套就业市场监测系统，重点关注最有可能率先受到 AI 影响的群体，包括职场新人，以及编程、文职工作和客户服务等 AI 影响程度较高的职业。 根据这项研究，自 2022 年底 ChatGPT 推出以来，各类职业的招聘岗位数量均有所下降，其中 AI 影响程度最高的职业降幅最大。在这一群体中，15 至 24 岁的年轻劳动者和刚毕业的大学生，就业率低于年龄较大的从业者，失业率则相对更高。 不过，梅杰提醒，目前还不能据此轻易得出结论。研究并未证明就业形势恶化与 AI 之间存在直接因果关系，而且衡量的是各类职业在理论上受到 AI 影响的程度，而不是企业实际使用 AI 的情况。疫情后经济周期变化、远程办公模式调整等因素，也可能影响相关数据。 与此同时，招聘平台 SEEK 的数据表明，AI 不仅在辅助现有工作，也在催生对 AI 相关技能的新需求。 多项研究发现类似趋势，但 AI 并非唯一原因 2025 年 8 月，斯坦福大学发布了一项基于数百万份美国工资记录的研究，也发现了类似现象。自 2022 年底以来，22 至 25 岁、从事 AI 高影响职业的劳动者，就业人数相对减少了 13%；年轻软件开发人员的降幅更是接近 20%。相比之下，同一行业中经验更丰富的从业者，就业情况基本保持稳定，部分人的就业状况甚至有所改善。 IT之家注意到，Anthropic 于 2026 年 3 月发布的一项研究同样发现，在容易受到 AI 影响的职业中，22 至 25 岁年轻人的招聘需求出现下降，其找到工作的概率降低了约 14%。不过，该研究并未发现整体失业率出现系统性上升。研究人员指出，理论上的自动化潜力与 AI 在现实中的实际应用之间，仍然存在很大差距。 Anthropic 自身则提供了一个企业层面的案例。 根据该公司的一份内部评估，自 2025 年初以来，其技术岗位中新入职初级员工的占比，已经从 27% 降至 9%。截至 2026 年 8 月，该公司内部 AI 智能体累计执行任务的时间，已经达到人类员工工作时长的 6 倍。 Anthropic 承认，作为一家高度依赖 AI 的软件公司，其情况具有特殊性，不能简单代表整个就业市场。 即便如此，研究人员仍对一种被称为“认知公地悲剧”（tragedy of the cognitive commons）的现象表示担忧：如果企业不断减少初级岗位，未来可能出现经验丰富的专业人才短缺。原因在于，资深员工通常需要从初级岗位逐步成长，而如果企业不再招聘新人，人才培养链条就可能被切断。当然，这一担忧的前提是，未来企业仍然需要这些专业人才。 丹麦一项针对 2.5 万名劳动者的大规模研究，则进一步印证了 AI 目前尚未对整体经济产生明显影响的结论。尽管当地 AI 使用率已经达到 64%，研究人员仍未发现工资水平或工作时长出现可测量的变化。劳动者平均每周仅节省相当于工作时间 2.8% 的时间。 不过，2026 年 1 月一项针对 1060 万份 LinkedIn 个人资料和美国失业数据的分析，也提醒人们，不应将就业市场低迷完全归咎于 AI。 由匹兹堡大学摩根 · 弗兰克（Morgan Frank）领导的研究团队发现，AI 影响较大的职业，其就业问题早在",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-15T11:03:53+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/027/432.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "澳央行研究：AI 冲击先落在年轻从业者身上",
+   "summary_zh": "澳大利亚央行研究显示，ChatGPT 发布后 AI 高影响职业招聘降幅最大，15-24 岁年轻人和应届生就业率更低；斯坦福、Anthropic 研究亦见类似趋势，但均未证明因果关系。",
+   "highlights_zh": [
+    "AI 高影响职业招聘降幅最大，年轻劳动者与应届生受冲击最明显",
+    "斯坦福研究：22-25 岁高影响职业就业相对减少 13%，年轻软件开发者近 20%",
+    "Anthropic 内部初级技术岗新入职占比从 27% 降至 9%",
+    "研究者担忧「认知公地悲剧」：初级岗位减少将切断人才培养链条"
+   ],
+   "why_zh": "多国研究交叉印证 AI 对初级岗位的结构性冲击，是判断就业趋势的关键数据。",
+   "tags": [
+    "产品与行业",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-15",
+   "slot": "evening",
+   "selected_at": "2026-11-15T12:39:22+00:00",
+   "mirror_pdf": "pdf/web-1d03195a18bf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/027/432.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b1117c34d0ad",
+   "kind": "article",
+   "title": "世界首颗：单次矩阵方程求解时间小于 100 纳秒，国产新型模拟计算芯片问世",
+   "url": "https://www.ithome.com/1/027/430.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 15 日消息，据科技日报从模拟计算芯片公司安纳智芯了解到，该公司自主研发的 AX100 芯片已于 10 月完成流片，这是 世界首颗全集成一步求解矩阵方程模拟计算芯片 。 经测试， 该芯片单次矩阵方程求解时间小于 100 纳秒 ，单次计算功耗约为 80 毫瓦，完全符合理论仿真与设计预期。 据介绍，我们熟悉的 AI 大模型训练参数优化、机器人动作控制和空间规划、通信基站信号处理等， 本质上都是在解复杂的矩阵方程 。数字芯片的做法，是把“求解”转化成海量乘加迭代，计算量随矩阵规模呈立方级增长 —— 以 512 阶矩阵方程求解为例，约需 5 亿次乘加，耗时数十至上百微秒。 模拟计算则直接利用物理定律实现并行运算，延时低、功耗低，在算力瓶颈背景下，具有先天优势 。安纳智芯 CEO 向锐表示，“矩阵方程被直接映射为电路，电路自平衡后一次读出结果，无需迭代。” 如何让模拟计算兼具可靠性与可扩展性，从而在现代计算任务中发挥其先天优势，是困扰全球科学界的世纪难题。2025 年 10 月，北京大学人工智能研究院研究员孙仲团队在《自然・电子学》发文， 将模拟计算的精度从此前的百分之一量级提升到千万分之一量级 。当时就有学者评论，孙仲的研究“复活”了模拟计算这一个长期被忽略的领域。 论文正式发表至今仅一年时间，得益于我国成熟的芯片制造封装产业链 ，安纳智芯将孙仲团队的技术从实验室推向了产线。 团队已在三种场景下对芯片进行了测试。针对大模型训练，团队在 293 万参数的 Autoencoder 模型和 272 万参数的 Transformer 模型上开展验证，在对应实验中， 所采用的二阶优化方案使两类模型的训练更新消耗分别减少了 92% 和 56% 。在具身智能领域，芯片可提升机器人实时计算能力， 运动控制与规划端到端算法提速 150% 到 500% ，三维重建与 SLAM（实时定位建图）核心算法环节 提速 200% 到 500% 。在无线通信领域，评估结果显示，对于 128×128 规模的信道格拉姆矩阵，模拟计算芯片相比现有数字 ASIC 芯片与 GPU 的等效吞吐 提升 20 至 207 倍，等效能效提升 27.6 至 61.3 倍 。 IT之家获悉， 该芯片制造不依赖先进制程 ，采用当前成熟工艺即可实现全链路自主可控。 “AX100 芯片和 GPU 类数字芯片在架构和底层逻辑上完全不同，且具备现代模拟计算顶尖计算能力，有望实现芯片领域的‘开道超车’。”向锐表示，这是中国企业第一次有机会参与定义一种重要计算范式，将为广泛的矩阵方程求解需求，提供全新且更加高效的计算底层硬件。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-15T10:53:47+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/027/430.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "国产模拟计算芯片 AX100 流片：百纳秒求解矩阵方程",
+   "summary_zh": "安纳智芯 AX100 完成流片，用模拟电路一步求解矩阵方程，单次耗时不足 100 纳秒、功耗约 80 毫瓦；在大模型训练、机器人控制、通信场景测试中显著提速降耗，且不依赖先进制程。",
+   "highlights_zh": [
+    "世界首颗全集成一步求解矩阵方程模拟计算芯片，单次计算功耗约 80 毫瓦",
+    "大模型训练二阶优化方案使两类模型更新消耗分别减少 92% 和 56%",
+    "机器人运动控制与 SLAM 算法提速 150%-500%，通信场景吞吐提升 20-207 倍",
+    "基于北大孙仲团队技术产业化，采用成熟工艺，全链路自主可控"
+   ],
+   "why_zh": "模拟计算从实验室走向产线，为绕开先进制程的算力瓶颈提供新路径。",
+   "tags": [
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-15",
+   "slot": "evening",
+   "selected_at": "2026-11-15T12:39:22+00:00",
+   "mirror_pdf": "pdf/web-b1117c34d0ad.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/027/430.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bf2147d5c9fd",
+   "kind": "article",
+   "title": "应对 AI 漏洞挖掘挑战：谷歌 Project Zero 计划将逐步缩短漏洞公开披露期限至 30 天",
+   "url": "https://www.ithome.com/1/027/423.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 15 日消息，自 2021 年以来，谷歌漏洞挖掘计划 Project Zero 一直奉行“90 + 30”漏洞披露政策，即允许厂商在最多 90 天内修复漏洞，并额外提供 30 天的“缓冲期”用于补丁推送。 当地时间 11 月 13 日，谷歌宣布，随着人工智能辅助漏洞挖掘与利用技术的兴起，当前形势已发生根本性变化，现有披露政策所设定的修复周期已难以适应需求。 IT之家获悉，为推动厂商更快速地修复漏洞、促使厂商缩短“补丁空窗期”，谷歌发布了全新的漏洞披露政策，新政策规定，无论厂商是否完成修复，漏洞均在报告给厂商后的 X 天 直接公开披露，并分阶段逐步收紧时间限制。 2026 年 11 月 13 日起，取消原 30 天补丁缓冲期，报告后 90 天 公开 2027 年 2 月 2 日起，报告后 60 天 公开 2028 年 1 月 3 日起，报告后 30 天 公开 同时，谷歌将从披露政策中取消绝大多数“特殊情况”，新政策仅保留以下三项例外情况，触发这些情况时不会等待满 X 天才披露： 在野利用漏洞（ITW） ：已被攻击者实际利用的漏洞，继续遵循谷歌应用程序安全漏洞披露政策 已公开漏洞 ：若漏洞细节已被他人提前公开，Project Zero 可酌情公开该漏洞的详细信息。 应厂商请求 ：若接收漏洞报告的厂商主动提出请求，谷歌将公开漏洞细节。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-15T10:12:07+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/027/423.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌 Project Zero 漏洞披露期将缩至 30 天",
+   "summary_zh": "因 AI 辅助漏洞挖掘与利用技术兴起，谷歌 Project Zero 宣布分阶段收紧披露期限：2026 年 11 月起 90 天、2027 年 2 月起 60 天、2028 年 1 月起 30 天，并取消绝大多数例外。",
+   "highlights_zh": [
+    "取消原 30 天补丁缓冲期，改为到期直接公开",
+    "仅保留在野利用、已公开、厂商主动请求三类例外",
+    "动因是 AI 大幅加速漏洞发现与利用，厂商修复窗口需压缩"
+   ],
+   "why_zh": "AI 正在改变攻防节奏，安全披露规则随之重构，安全从业者需关注。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-15",
+   "slot": "evening",
+   "selected_at": "2026-11-15T12:39:22+00:00",
+   "mirror_pdf": "pdf/web-bf2147d5c9fd.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/027/423.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-06d6e35d515f",
+   "kind": "article",
+   "title": "前 OpenAI 研究员：当前活着的人最有可能死于 AI 失控",
+   "url": "https://www.ithome.com/1/027/419.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 15 日消息，人工智能失控导致人类灭绝，听起来或许像科幻电影中的情节，但前 OpenAI 研究员保罗 · 克里斯蒂亚诺（Paul Christiano）认为，这可能成为当今在世人群最有可能面临的死亡原因。 当地时间周一，克里斯蒂亚诺在希尔顿讲座（The Hinton Lectures）上表示：“我认为，在座的大多数人，最有可能的死亡原因将是一次 AI 意外事故。” 克里斯蒂亚诺目前担任人工智能对齐研究中心（Alignment Research Center）负责人。他警告称，随着 AI 智能体的能力不断增强，它们可能学会欺骗负责监督它们的人类、破坏用于评估自身表现的系统，最终变得过于强大，以至于人类无法再对其进行有效控制。 他列举了今年早些时候 OpenAI 的 AI 智能体入侵开源代码托管平台 Hugging Face 的事件，以及英国人工智能安全研究所的一项评估。在后者的测试中，一个 Claude 智能体曾试图在某个开源软件包中植入恶意代码。 克里斯蒂亚诺表示：“我认为，未来三年内发生 AI 接管事件的风险很高。” 根据他的 LinkedIn 个人资料，克里斯蒂亚诺曾于 2017 年至 2021 年在 OpenAI 担任技术研究人员。目前，他是非营利组织人工智能对齐研究中心的执行主任。该机构的主要研究方向，是让机器学习系统的目标与人类利益保持一致。 AI 导致人类灭绝的风险 克里斯蒂亚诺的警告，让研究人员之间一场日益激烈的争论再次受到关注：随着 AI 系统变得越来越自主，它们是否最终会摆脱人类的有效控制，甚至导致全人类灭绝？ 今年 9 月，这场争论进一步升温。Anthropic 负责 AI 对齐压力测试团队的埃文 · 休宾格（Evan Hubinger）当时表示，他认为未来十年内，AI 导致全人类死亡的概率超过 10%。 IT之家注意到，被广泛称为“AI 教父”的计算机科学家杰弗里 · 辛顿（Geoffrey Hinton）也表示，未来十年内 AI 导致人类灭绝的概率达到 10%，并不是一个不合理的估计。 不过，也有研究人员对此持更加怀疑的态度。AI 研究员兼作家加里 · 马库斯（Gary Marcus）此前接受 Business Insider 采访时表示，AI 确实可能放大网络攻击、生物武器和虚假信息等严重风险，但他认为，目前还没有可信的证据表明，人类近期会因此走向灭绝。 克里斯蒂亚诺还指出，目前用于控制高级 AI 的技术方案仍未得到充分验证。其中包括使用能力较弱的模型监督能力更强的模型，以及监测 AI 模型的思维链（Chain of Thought），以判断其内部推理过程是否存在风险。 他认为，AI 公司需要建立共同的安全标准，并确保在发现某个 AI 系统已经无法受到有效控制时，有能力放缓甚至停止相关技术的开发。 克里斯蒂亚诺强调：“我们绝不能走到这样一步：已经开发出一个强大的 AI，却突然发现自己根本无法控制它。”",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-15T10:09:15+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/027/419.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "前 OpenAI 研究员：AI 失控或成当代人主要死因",
+   "summary_zh": "对齐研究中心负责人 Paul Christiano 在 Hinton 讲座上称，在座多数人最可能的死因将是 AI 事故，并认为三年内发生 AI 接管事件的风险很高，呼吁建立共同安全标准与暂停机制。",
+   "highlights_zh": [
+    "援引 OpenAI 智能体入侵 Hugging Face、Claude 智能体试图植入恶意代码等案例",
+    "Anthropic 的 Evan Hubinger 与辛顿均估计十年内 AI 致灭绝概率超 10%",
+    "Gary Marcus 反驳：风险真实但近期灭绝缺乏可信证据",
+    "现有弱模型监督强模型、思维链监测等控制手段尚未充分验证"
+   ],
+   "why_zh": "顶级对齐研究者的明确风险判断，是理解 AI 安全争论走向的一手观点。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-15",
+   "slot": "evening",
+   "selected_at": "2026-11-15T12:39:22+00:00",
+   "mirror_pdf": "pdf/web-06d6e35d515f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/027/419.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e96967c7d653",
+   "kind": "article",
+   "title": "Yelp AI 助手融合原生 UI 与服务端驱动 UI",
+   "url": "https://www.infoq.cn/article/1N801doFOEl2Swqey5Jy?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者： Leela Kumili"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-15T15:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/1N801doFOEl2Swqey5Jy?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Yelp AI助手融合原生UI与服务端驱动UI",
+   "summary_zh": "Yelp披露其AI助手在客户端原生UI与服务端驱动UI之间的融合方案，用于动态生成搜索与推荐交互界面。",
+   "highlights_zh": [
+    "服务端驱动UI让AI助手动态下发界面结构，减少发版依赖",
+    "原生UI保证交互流畅性与本地能力调用",
+    "对做AI产品前端架构的团队有参考价值"
+   ],
+   "why_zh": "了解AI助手如何平衡动态生成界面与原生体验的工程取舍。",
+   "tags": [
+    "产品与行业",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-15",
+   "slot": "evening",
+   "selected_at": "2026-11-15T12:39:22+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/1N801doFOEl2Swqey5Jy?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0bcca453470d",
+   "kind": "article",
+   "title": "英伟达上演“奥特曼2.0”，员工集体请愿：让老黄回家！",
+   "url": "https://www.qbitai.com/2026/11/510297.html",
+   "pdf_url": "",
+   "abstract": "马斯克也签名了",
+   "authors": [
+    "鹭羽"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-14T10:08:08+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/510297.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "英伟达员工请愿让黄仁勋回归一线",
+   "summary_zh": "量子位报道英伟达员工集体请愿，呼吁黄仁勋更多参与公司事务，马斯克也签名。",
+   "highlights_zh": [
+    "员工请愿事件",
+    "马斯克签名引发关注",
+    "反映英伟达内部管理动态"
+   ],
+   "why_zh": "了解英伟达组织动态，但对AI技术趋势增量有限。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 5.0,
+   "score": 0.476,
+   "date": "2026-11-15",
+   "slot": "evening",
+   "selected_at": "2026-11-15T12:39:22+00:00",
+   "mirror_pdf": "pdf/web-0bcca453470d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/510297.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-44b128aec249",
+   "kind": "article",
+   "title": "topapothecarycanal/ai--manus2.0",
+   "url": "https://github.com/topapothecarycanal/ai--manus2.0",
+   "pdf_url": "",
+   "abstract": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+   "authors": [],
+   "orgs": [
+    "topapothecarycanal"
+   ],
+   "published": "2026-11-15T12:39:22+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/topapothecarycanal/ai--manus2.0",
+     "signal": "★ 666（新项目）",
+     "metric": 666
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Manus2.0 通用AI智能体沙箱系统",
+   "summary_zh": "一个支持在沙箱环境运行多种工具的通用AI Agent系统，疑似Manus复刻项目。",
+   "highlights_zh": [
+    "沙箱环境运行工具与操作",
+    "通用Agent架构",
+    "新项目星标增长快但来源存疑"
+   ],
+   "why_zh": "若在做Agent沙箱执行，可参考其工具调度与隔离设计。",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.569,
+   "score_llm": 4.0,
+   "score": 0.4676,
+   "date": "2026-11-15",
+   "slot": "evening",
+   "selected_at": "2026-11-15T12:39:22+00:00",
+   "mirror_pdf": "pdf/web-44b128aec249.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/topapothecarycanal/ai--manus2.0"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d0131f8751dc",
+   "kind": "article",
+   "title": "当Gemini被戏称为“美国豆包”，张一鸣也活成了“中国布林”",
+   "url": "https://www.tmtpost.com/8205798.html",
+   "pdf_url": "",
+   "abstract": "在太平洋两岸的科技版图上，一种奇妙的镜像正在发生。",
+   "authors": [
+    "吴怼怼"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-15T08:06:47+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8205798.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Gemini被称美国豆包，张一鸣活成中国布林",
+   "summary_zh": "钛媒体评论认为中美AI产品出现镜像：Gemini走向大众化助手，字节则向技术理想主义靠拢。",
+   "highlights_zh": [
+    "以比喻方式对比中美AI产品路线",
+    "观点性强，事实增量有限",
+    "适合作为行业叙事参考"
+   ],
+   "why_zh": "提供一种中美AI竞争格局的通俗叙事视角。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 5.0,
+   "score": 0.444,
+   "date": "2026-11-15",
+   "slot": "evening",
+   "selected_at": "2026-11-15T12:39:22+00:00",
+   "mirror_pdf": "pdf/web-d0131f8751dc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8205798.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6d8cee9105ec",
+   "kind": "article",
+   "title": "T-EDGE 2026前瞻①｜AI如何重写影视业的成本、资本与权力",
+   "url": "https://www.tmtpost.com/8205257.html",
+   "pdf_url": "",
+   "abstract": "AI改写行业，谁先交卷？钛媒体《智能大迁移》将从十个问题出发，观察AI如何从模型之争落地到千行百业。接下来我们还会整理更多的话题，通过中美技术趋势和行业观察，看不同行业的智能迁移。",
+   "authors": [
+    "LCC_Beta版"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-15T07:37:00+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8205257.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "T-EDGE前瞻：AI如何重写影视业成本与权力",
+   "summary_zh": "钛媒体T-EDGE 2026前瞻系列提出十个问题，观察AI从模型之争落地到影视等千行百业。",
+   "highlights_zh": [
+    "聚焦AI对影视成本结构与资本格局的影响",
+    "属于系列策划的开篇预告",
+    "实质信息偏少"
+   ],
+   "why_zh": "可作为AI落地垂直行业的选题线索，但内容尚浅。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 5.0,
+   "score": 0.444,
+   "date": "2026-11-15",
+   "slot": "evening",
+   "selected_at": "2026-11-15T12:39:22+00:00",
+   "mirror_pdf": "pdf/web-6d8cee9105ec.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8205257.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cdbdb168d26d",
+   "kind": "article",
+   "title": "Kimi估值500亿美元，月之暗面为什么急着拆掉海外架构？",
+   "url": "https://www.tmtpost.com/8205584.html",
+   "pdf_url": "",
+   "abstract": "只看估值，月之暗面的故事已经足够耀眼。",
+   "authors": [
+    "厚雪商业"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-15T02:30:39+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8205584.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Kimi估值500亿美元，月之暗面急拆海外架构",
+   "summary_zh": "钛媒体报道月之暗面估值达500亿美元，并分析其拆除海外架构的资本与合规动因。",
+   "highlights_zh": [
+    "涉及头部大模型公司资本动向",
+    "偏商业与融资视角",
+    "对技术趋势判断帮助有限"
+   ],
+   "why_zh": "了解头部大模型公司的资本运作与上市路径。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 5.0,
+   "score": 0.444,
+   "date": "2026-11-15",
+   "slot": "evening",
+   "selected_at": "2026-11-15T12:39:22+00:00",
+   "mirror_pdf": "pdf/web-cdbdb168d26d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8205584.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a19ed0b690cd",
+   "kind": "article",
+   "title": "toppatronweave/GitHub-Copilot-app",
+   "url": "https://github.com/toppatronweave/GitHub-Copilot-app",
+   "pdf_url": "",
+   "abstract": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. ",
+   "authors": [],
+   "orgs": [
+    "toppatronweave"
+   ],
+   "published": "2026-11-15T12:39:22+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/toppatronweave/GitHub-Copilot-app",
+     "signal": "★ 666（新项目）",
+     "metric": 666
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "GitHub Copilot 智能体桌面应用",
+   "summary_zh": "号称agent-native的桌面应用，用于在GitHub仓库间查找、运行与推进软件工作，来源可疑。",
+   "highlights_zh": [
+    "agent-native桌面体验",
+    "跨仓库软件工作流",
+    "项目来源与真实性存疑"
+   ],
+   "why_zh": "若关注Copilot生态，可留意其跨仓库Agent交互思路。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.569,
+   "score_llm": 3.0,
+   "score": 0.4076,
+   "date": "2026-11-15",
+   "slot": "evening",
+   "selected_at": "2026-11-15T12:39:22+00:00",
+   "mirror_pdf": "pdf/web-a19ed0b690cd.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/toppatronweave/GitHub-Copilot-app"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a9725311308b",
+   "kind": "article",
+   "title": "【数智周报】黄仁勋辞任英伟达CEO ，CFO克雷斯任临时CEO；阿里拟分拆平头哥港股独立上市；Anthropic启动IPO路演，估值较峰值近腰斩……",
+   "url": "https://www.tmtpost.com/8205592.html",
+   "pdf_url": "",
+   "abstract": "（11月9日-14日） DeepSeek发布全家桶应用API；谷歌发布Gemini 4 Hydrogen；微软全球服务中断十小时致歉；美国人工智能建设遭遇电力瓶颈……",
+   "authors": [
+    "TechHorizon"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-15T06:19:18+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8205592.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "数智周报：黄仁勋辞任英伟达CEO等",
+   "summary_zh": "钛媒体数智周报汇总黄仁勋辞任、阿里分拆平头哥、Anthropic启动IPO路演等一周AI要闻。",
+   "highlights_zh": [
+    "条目式罗列多条行业动态",
+    "单条信息缺乏深度与核实",
+    "适合快速扫读"
+   ],
+   "why_zh": "快速了解一周AI行业动态，但需交叉核实。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 4.0,
+   "score": 0.384,
+   "date": "2026-11-15",
+   "slot": "evening",
+   "selected_at": "2026-11-15T12:39:22+00:00",
+   "mirror_pdf": "pdf/web-a9725311308b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8205592.html"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "算力扩张叙事受挫，能耗与限流成为AI资本开支的新约束",
-   "why": "地方算力限流与能耗管控引发社会许可危机，AI股暴跌暴露无限扩产逻辑的脆弱性。",
+   "trend": "算力无限扩产叙事终结，AI投资转向成本与能耗约束下的效率竞争",
+   "why": "地方算力限流与能耗管控引发社会许可危机，叠加工业AI净利率不足5%的错配，资本开始重估算力投入回报。",
    "refs": [
     "web-86c914d65dc2",
-    "web-825d22e5e711"
+    "web-825d22e5e711",
+    "web-ef364eb212fb"
    ]
   },
   {
-   "trend": "黄仁勋离任动摇英伟达生态背书，亚洲市场加速供应商多元化",
-   "why": "股价一度跌14%，韩国锁定26万颗GPU、亚洲政府重估单一供应商风险。",
+   "trend": "黄仁勋离任动摇英伟达生态背书，亚洲政府与客户加速分散单一供应商风险",
+   "why": "股价一度跌14%，博通AMD逆势涨，韩国锁定26万颗GPU、中国重申出口管制，生态小企业失去背书。",
    "refs": [
     "web-1b85537e008e",
     "web-29c0264527f8",
@@ -1367,26 +2122,26 @@
    ]
   },
   {
-   "trend": "湿实验基准揭示推理算力边际失效，评测方法转向真实科学验证",
-   "why": "算力提升5倍模型表现仍无实质改善，说明现有评测与能力提升路径需重构。",
+   "trend": "评测方法遇拐点：算力堆叠不再换来湿实验预测提升，基准开始惩罚蛮力推理",
+   "why": "斯坦福等联合基准显示算力翻五倍模型表现无实质改善，说明评测正从规模竞赛转向真实任务有效性。",
    "refs": [
     "web-0563f648c822"
    ]
   },
   {
-   "trend": "AI自我改进从概念走向工程闭环，训练与评估链路开始一体化",
-   "why": "Skill到Harness再到模型训练的闭环议题涌现，自我改进的经济价值被重新定价。",
+   "trend": "智能体从演示走向可治理的生产流水线与付费订阅",
+   "why": "GitLab将智能体纳入DevOps治理，Meta Muse向最高档订阅开放代打电话，商业化与治理同步落地。",
    "refs": [
-    "web-f084ebb0bb88",
-    "web-b7ad22550eec"
+    "web-1d6fa7df1732",
+    "web-255260062f70"
    ]
   },
   {
-   "trend": "智能体进入付费订阅与可治理DevOps，商业化从演示转向责任边界",
-   "why": "Meta Muse代打电话向最高档订阅开放，GitLab将智能体纳入权限治理流水线。",
+   "trend": "AI自我改进从概念转入工程闭环，训练与评估链路成为新竞争焦点",
+   "why": "Azeem Azhar提出220亿美元之问，AICon议题聚焦Skill到模型训练评估的闭环，模型参与训练下一代模型需重新定价。",
    "refs": [
-    "web-255260062f70",
-    "web-1d6fa7df1732"
+    "web-b7ad22550eec",
+    "web-f084ebb0bb88"
    ]
   }
  ]

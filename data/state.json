@@ -2861,7 +2861,21 @@
   "web-f1bdaf29d3d8": "2026-11-15",
   "web-8ae9cd1fda72": "2026-11-15",
   "web-852c131ce304": "2026-11-15",
-  "web-ec8e7c274ab1": "2026-11-15"
+  "web-ec8e7c274ab1": "2026-11-15",
+  "web-85985435b8f3": "2026-11-15",
+  "web-950ac38f23f2": "2026-11-15",
+  "web-1d03195a18bf": "2026-11-15",
+  "web-b1117c34d0ad": "2026-11-15",
+  "web-bf2147d5c9fd": "2026-11-15",
+  "web-06d6e35d515f": "2026-11-15",
+  "web-e96967c7d653": "2026-11-15",
+  "web-0bcca453470d": "2026-11-15",
+  "web-44b128aec249": "2026-11-15",
+  "web-d0131f8751dc": "2026-11-15",
+  "web-6d8cee9105ec": "2026-11-15",
+  "web-cdbdb168d26d": "2026-11-15",
+  "web-a19ed0b690cd": "2026-11-15",
+  "web-a9725311308b": "2026-11-15"
  },
  "known_links": {
   "https://www.anthropic.com/news": [
@@ -3135,41 +3149,6 @@
   ]
  },
  "runs": [
-  {
-   "at": "2026-10-26T10:57:35+00:00",
-   "slot": "evening",
-   "candidates": 79,
-   "new": 47,
-   "stale": 6,
-   "judged": 47,
-   "selected": 18,
-   "mirrored": 16,
-   "by_category": {
-    "技术": 1,
-    "项目": 3,
-    "资讯": 14
-   },
-   "by_source": {
-    "HF Daily Papers": 5,
-    "Hacker News": 5,
-    "量子位": 10,
-    "极客公园": 4,
-    "IT之家": 18,
-    "爱范儿": 2,
-    "少数派": 1,
-    "雷峰网": 2,
-    "钛媒体": 2,
-    "InfoQ 中文": 5,
-    "Nathan Lambert": 1,
-    "Azeem Azhar": 1,
-    "Nathan Benaich": 2,
-    "Sebastian Raschka": 1,
-    "GitHub Trending": 9,
-    "GitHub 新项目": 11
-   },
-   "llm": true,
-   "translated": 0
-  },
   {
    "at": "2026-10-26T17:14:56+00:00",
    "slot": "morning",
@@ -5736,6 +5715,43 @@
     "NVIDIA": 1,
     "GitHub Trending": 9,
     "GitHub 新项目": 11
+   },
+   "llm": true,
+   "translated": 0
+  },
+  {
+   "at": "2026-11-15T12:39:22+00:00",
+   "slot": "evening",
+   "candidates": 72,
+   "new": 28,
+   "stale": 3,
+   "judged": 28,
+   "selected": 14,
+   "mirrored": 13,
+   "by_category": {
+    "资讯": 11,
+    "技术": 1,
+    "项目": 2
+   },
+   "by_source": {
+    "Hacker News": 2,
+    "量子位": 6,
+    "IT之家": 15,
+    "爱范儿": 1,
+    "雷峰网": 2,
+    "钛媒体": 7,
+    "InfoQ 中文": 8,
+    "Nathan Lambert": 1,
+    "Dwarkesh Patel": 1,
+    "Latent Space": 1,
+    "Azeem Azhar": 1,
+    "Sebastian Raschka": 1,
+    "Hugging Face Blog": 3,
+    "Google Research": 1,
+    "OpenAI": 1,
+    "NVIDIA": 1,
+    "GitHub Trending": 8,
+    "GitHub 新项目": 12
    },
    "llm": true,
    "translated": 0
