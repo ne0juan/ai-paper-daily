@@ -1,10 +1,10 @@
-2026-11-15 05:08:56,956 INFO source hf_daily           -> 0 items
-2026-11-15 05:08:57,691 INFO source hackernews         -> 5 items
-2026-11-15 05:09:21,201 INFO source rss                -> 67 items
-2026-11-15 05:09:22,875 INFO source html_lists         -> 0 items
-2026-11-15 05:09:22,875 INFO source x                  -> 0 items
-2026-11-15 05:09:23,343 INFO source arxiv_search       -> 0 items
-2026-11-15 05:09:31,987 INFO source github             -> 20 items
-2026-11-15 05:09:31,987 INFO candidates: 92 (stale dropped 25, new 33)
-2026-11-15 05:10:03,530 INFO llm judged 33/33 (calls=5)
-2026-11-15 05:12:08,396 INFO run done: {"at": "2026-11-15T05:08:56+00:00", "slot": "noon", "candidates": 92, "new": 33, "stale": 25, "judged": 33, "selected": 15, "mirrored": 13, "by_category": {"观点": 1, "技术": 2, "资讯": 9, "项目": 3}, "by_source": {"Hacker News": 5, "量子位": 10, "IT之家": 12, "爱范儿": 4, "少数派": 1, "雷峰网": 10, "钛媒体": 7, "InfoQ 中文": 10, "Nathan Lambert": 1, "Dwarkesh Patel": 1, "Latent Space": 2, "Azeem Azhar": 1, "Zvi Mowshowitz": 1, "Hugging Face Blog": 3, "Google Research": 1, "OpenAI": 2, "NVIDIA": 1, "GitHub Trending": 9, "GitHub 新项目": 11}, "llm": true, "translated": 0}
+2026-11-15 12:39:22,693 INFO source hf_daily           -> 0 items
+2026-11-15 12:39:23,001 INFO source hackernews         -> 2 items
+2026-11-15 12:39:41,868 INFO source rss                -> 50 items
+2026-11-15 12:39:43,224 INFO source html_lists         -> 0 items
+2026-11-15 12:39:43,224 INFO source x                  -> 0 items
+2026-11-15 12:39:43,680 INFO source arxiv_search       -> 0 items
+2026-11-15 12:40:01,474 INFO source github             -> 20 items
+2026-11-15 12:40:01,475 INFO candidates: 72 (stale dropped 3, new 28)
+2026-11-15 12:40:27,392 INFO llm judged 28/28 (calls=4)
+2026-11-15 12:42:14,116 INFO run done: {"at": "2026-11-15T12:39:22+00:00", "slot": "evening", "candidates": 72, "new": 28, "stale": 3, "judged": 28, "selected": 14, "mirrored": 13, "by_category": {"资讯": 11, "技术": 1, "项目": 2}, "by_source": {"Hacker News": 2, "量子位": 6, "IT之家": 15, "爱范儿": 1, "雷峰网": 2, "钛媒体": 7, "InfoQ 中文": 8, "Nathan Lambert": 1, "Dwarkesh Patel": 1, "Latent Space": 1, "Azeem Azhar": 1, "Sebastian Raschka": 1, "Hugging Face Blog": 3, "Google Research": 1, "OpenAI": 1, "NVIDIA": 1, "GitHub Trending": 8, "GitHub 新项目": 12}, "llm": true, "translated": 0}

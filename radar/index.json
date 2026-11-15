@@ -1,12 +1,13 @@
 {
- "updated": "2026-11-15T05:08:56+00:00",
+ "updated": "2026-11-15T12:39:22+00:00",
  "days": [
   {
    "date": "2026-11-15",
-   "count": 25,
+   "count": 39,
    "slots": {
     "morning": 10,
-    "noon": 15
+    "noon": 15,
+    "evening": 14
    }
   },
   {
@@ -466,42 +467,40 @@
    }
   }
  ],
- "total": 2858,
+ "total": 2872,
  "last_run": {
-  "at": "2026-11-15T05:08:56+00:00",
-  "slot": "noon",
-  "candidates": 92,
-  "new": 33,
-  "stale": 25,
-  "judged": 33,
-  "selected": 15,
+  "at": "2026-11-15T12:39:22+00:00",
+  "slot": "evening",
+  "candidates": 72,
+  "new": 28,
+  "stale": 3,
+  "judged": 28,
+  "selected": 14,
   "mirrored": 13,
   "by_category": {
-   "观点": 1,
-   "技术": 2,
-   "资讯": 9,
-   "项目": 3
+   "资讯": 11,
+   "技术": 1,
+   "项目": 2
   },
   "by_source": {
-   "Hacker News": 5,
-   "量子位": 10,
-   "IT之家": 12,
-   "爱范儿": 4,
-   "少数派": 1,
-   "雷峰网": 10,
+   "Hacker News": 2,
+   "量子位": 6,
+   "IT之家": 15,
+   "爱范儿": 1,
+   "雷峰网": 2,
    "钛媒体": 7,
-   "InfoQ 中文": 10,
+   "InfoQ 中文": 8,
    "Nathan Lambert": 1,
    "Dwarkesh Patel": 1,
-   "Latent Space": 2,
+   "Latent Space": 1,
    "Azeem Azhar": 1,
-   "Zvi Mowshowitz": 1,
+   "Sebastian Raschka": 1,
    "Hugging Face Blog": 3,
    "Google Research": 1,
-   "OpenAI": 2,
+   "OpenAI": 1,
    "NVIDIA": 1,
-   "GitHub Trending": 9,
-   "GitHub 新项目": 11
+   "GitHub Trending": 8,
+   "GitHub 新项目": 12
   },
   "llm": true,
   "translated": 0
