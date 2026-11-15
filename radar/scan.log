@@ -1,10 +1,10 @@
-2026-11-15 12:39:22,693 INFO source hf_daily           -> 0 items
-2026-11-15 12:39:23,001 INFO source hackernews         -> 2 items
-2026-11-15 12:39:41,868 INFO source rss                -> 50 items
-2026-11-15 12:39:43,224 INFO source html_lists         -> 0 items
-2026-11-15 12:39:43,224 INFO source x                  -> 0 items
-2026-11-15 12:39:43,680 INFO source arxiv_search       -> 0 items
-2026-11-15 12:40:01,474 INFO source github             -> 20 items
-2026-11-15 12:40:01,475 INFO candidates: 72 (stale dropped 3, new 28)
-2026-11-15 12:40:27,392 INFO llm judged 28/28 (calls=4)
-2026-11-15 12:42:14,116 INFO run done: {"at": "2026-11-15T12:39:22+00:00", "slot": "evening", "candidates": 72, "new": 28, "stale": 3, "judged": 28, "selected": 14, "mirrored": 13, "by_category": {"资讯": 11, "技术": 1, "项目": 2}, "by_source": {"Hacker News": 2, "量子位": 6, "IT之家": 15, "爱范儿": 1, "雷峰网": 2, "钛媒体": 7, "InfoQ 中文": 8, "Nathan Lambert": 1, "Dwarkesh Patel": 1, "Latent Space": 1, "Azeem Azhar": 1, "Sebastian Raschka": 1, "Hugging Face Blog": 3, "Google Research": 1, "OpenAI": 1, "NVIDIA": 1, "GitHub Trending": 8, "GitHub 新项目": 12}, "llm": true, "translated": 0}
+2026-11-15 17:39:13,745 INFO source hf_daily           -> 0 items
+2026-11-15 17:39:13,996 INFO source hackernews         -> 2 items
+2026-11-15 17:39:35,273 INFO source rss                -> 44 items
+2026-11-15 17:39:36,681 INFO source html_lists         -> 0 items
+2026-11-15 17:39:36,681 INFO source x                  -> 0 items
+2026-11-15 17:40:19,911 WARNING source arxiv_search failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=30)
+2026-11-15 17:40:28,020 INFO source github             -> 20 items
+2026-11-15 17:40:28,020 INFO candidates: 66 (stale dropped 18, new 15)
+2026-11-15 17:40:42,420 INFO llm judged 15/15 (calls=2)
+2026-11-15 17:41:24,679 INFO run done: {"at": "2026-11-15T17:39:13+00:00", "slot": "morning", "candidates": 66, "new": 15, "stale": 18, "judged": 15, "selected": 6, "mirrored": 6, "by_category": {"项目": 2, "资讯": 4}, "by_source": {"Hacker News": 2, "量子位": 6, "IT之家": 15, "爱范儿": 1, "雷峰网": 1, "钛媒体": 7, "InfoQ 中文": 7, "Nathan Lambert": 1, "Dwarkesh Patel": 1, "Latent Space": 1, "Azeem Azhar": 1, "Sebastian Raschka": 1, "Hugging Face Blog": 1, "Google Research": 1, "GitHub Trending": 10, "GitHub 新项目": 10}, "llm": true, "translated": 0}
