@@ -539,45 +539,854 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-b7ad22550eec",
+   "kind": "article",
+   "title": "🔮 The $22 billion question about AI self-improvement #610",
+   "url": "https://www.exponentialview.co/p/ev-610",
+   "pdf_url": "",
+   "abstract": "Plus: Cheap solar, who pays for Claude & DNA immunotherapy++",
+   "authors": [
+    "Azeem Azhar"
+   ],
+   "orgs": [
+    "Azeem Azhar"
+   ],
+   "published": "2026-11-15T04:47:29+00:00",
+   "sources": [
+    {
+     "name": "Azeem Azhar",
+     "authority": 0.8,
+     "url": "https://www.exponentialview.co/p/ev-610",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Exponential View 创始人",
+   "title_zh": "AI自我改进的220亿美元之问",
+   "summary_zh": "Azeem Azhar 认为，AI 自我改进（模型参与训练下一代模型）正从概念走向工程实践，其经济价值与风险都需重新定价，并讨论了谁为 Claude 等推理成本买单。",
+   "highlights_zh": [
+    "AI 自我改进的经济账：投入与回报如何衡量",
+    "推理成本分摊问题：谁为 Claude 这类服务付费",
+    "附带话题：廉价太阳能、DNA 免疫疗法"
+   ],
+   "why_zh": "重量级观察者对 AI 自我改进趋势的明确判断，适合把握行业方向。",
+   "tags": [
+    "大模型",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.708,
+   "date": "2026-11-15",
+   "slot": "noon",
+   "selected_at": "2026-11-15T05:08:56+00:00",
+   "mirror_pdf": "pdf/web-b7ad22550eec.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.exponentialview.co/p/ev-610"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ad8b3d5bdfd0",
+   "kind": "article",
+   "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+   "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-14T15:04:15Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50497589",
+     "signal": "207 pts",
+     "metric": 207
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "用约200行纯Jax实现DeepSeek V3",
+   "summary_zh": "开发者用约200行纯Jax代码复现DeepSeek V3核心结构，展示MoE与MLA等设计可在极简代码中跑通，为理解与二次开发提供轻量参考。",
+   "highlights_zh": [
+    "以极简Jax代码复现DeepSeek V3关键结构",
+    "便于研究者理解MoE与注意力实现细节",
+    "可作为教学与实验的轻量基线"
+   ],
+   "why_zh": "想深入理解DeepSeek V3架构细节的工程师可借此快速上手实验。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5703,
+   "score_llm": 7.0,
+   "score": 0.6481,
+   "date": "2026-11-15",
+   "slot": "noon",
+   "selected_at": "2026-11-15T05:08:56+00:00",
+   "mirror_pdf": "pdf/web-ad8b3d5bdfd0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50497589"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1d6fa7df1732",
+   "kind": "article",
+   "title": "GitLab 19.5 发布，将智能体开发纳入可治理的 DevOps 平台能力",
+   "url": "https://www.infoq.cn/article/0IpE2EOypcqMFtL7z4z1?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Craig Risi"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-15T09:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/0IpE2EOypcqMFtL7z4z1?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "GitLab 19.5：把智能体开发纳入可治理的DevOps",
+   "summary_zh": "GitLab 19.5 将智能体开发纳入可治理的 DevOps 平台能力，让 AI 智能体的构建、部署与权限管理进入既有研发流水线，影响使用 GitLab 的研发团队。",
+   "highlights_zh": [
+    "智能体开发纳入 DevOps 治理体系",
+    "权限与合规管理覆盖 AI 智能体",
+    "对研发团队工作流的影响"
+   ],
+   "why_zh": "智能体进入企业研发流水线的治理实践，关注平台化落地者值得一读。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-15",
+   "slot": "noon",
+   "selected_at": "2026-11-15T05:08:56+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/0IpE2EOypcqMFtL7z4z1?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f084ebb0bb88",
+   "kind": "article",
+   "title": "闭环 AI 自我进化：从 Skill、Harness 到模型训练与评估｜AICon北京",
+   "url": "https://www.infoq.cn/article/fZSEkDatL9xajG8PVi7G?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "AICon 全球人工智能开发与应用大会"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-15T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/fZSEkDatL9xajG8PVi7G?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "闭环AI自我进化：从Skill到模型训练与评估",
+   "summary_zh": "AICon 北京场议题聚焦闭环 AI 自我进化：从技能（Skill）、智能体脚手架（Harness）到模型训练与评估的完整链路，探讨如何让模型在闭环中持续迭代。",
+   "highlights_zh": [
+    "Skill 与 Harness 在自我进化链路中的角色",
+    "模型训练与评估如何形成闭环",
+    "面向开发者的工程实践议题"
+   ],
+   "why_zh": "智能体脚手架与自我进化是当前工程热点，可了解闭环设计思路。",
+   "tags": [
+    "智能体",
+    "大模型",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-15",
+   "slot": "noon",
+   "selected_at": "2026-11-15T05:08:56+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/fZSEkDatL9xajG8PVi7G?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-825d22e5e711",
+   "kind": "article",
+   "title": "算力狂飙而净利率跌破5%：为什么工业AI算不出实体企业的真利润？",
+   "url": "https://www.tmtpost.com/8205381.html",
+   "pdf_url": "",
+   "abstract": "聊天对话框省不出利润率，物理AI真正的金矿藏在“同源耦合”的水下。当算力狂飙遇上制造业5%净利率泥潭，全行业都把工业决策引擎的账算小了十倍。",
+   "authors": [
+    "GritMeng"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-15T02:30:45+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8205381.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "算力狂飙净利率跌破5%：工业AI算不出真利润？",
+   "summary_zh": "文章认为工业 AI 的算力投入与制造业不足 5% 的净利率严重错配，真正的价值在“同源耦合”的工业决策引擎，而非聊天对话框，全行业把账算小了十倍。",
+   "highlights_zh": [
+    "算力成本与制造业低净利率的矛盾",
+    "工业决策引擎才是价值所在",
+    "对工业 AI 商业模式的反思"
+   ],
+   "why_zh": "对工业 AI 落地经济性的冷静分析，适合关注 AI 商业化的人。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-15",
+   "slot": "noon",
+   "selected_at": "2026-11-15T05:08:56+00:00",
+   "mirror_pdf": "pdf/web-825d22e5e711.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8205381.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-86c914d65dc2",
+   "kind": "article",
+   "title": "一条推文蒸发近3万亿：美国ASI禁令引爆科技股雪崩",
+   "url": "https://www.tmtpost.com/8205565.html",
+   "pdf_url": "",
+   "abstract": "一夜近 3 万亿市值蒸发，市场将暴跌归咎于马斯克转发推文。实则议员 AI 监管表态只是情绪导火索，真正击穿 AI 行情的是美国地方算力限流、能耗管控引发的社会许可危机，AI 无限扩产的资本叙事彻底终结。",
+   "authors": [
+    "斯凯有话说"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-15T02:30:42+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8205565.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI股雪崩背后：算力限流与能耗管控终结无限扩产叙事",
+   "summary_zh": "市场将AI股暴跌归咎于马斯克转发推文，但真正原因是地方算力限流与能耗管控引发的社会许可危机，AI无限扩产的资本叙事面临终结。",
+   "highlights_zh": [
+    "议员AI监管表态只是情绪导火索，非根本原因",
+    "地方算力限流与能耗管控构成实质性约束",
+    "AI无限扩产的资本叙事正在被重新定价"
+   ],
+   "why_zh": "理解AI行情回调的深层结构性原因，而非停留在推文情绪层面。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-15",
+   "slot": "noon",
+   "selected_at": "2026-11-15T05:08:56+00:00",
+   "mirror_pdf": "pdf/web-86c914d65dc2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8205565.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8240eae4abec",
+   "kind": "article",
+   "title": "韩国电信运营商 LG U+ 明年进军 AI Token 业务，帮助企业降低 AI 转型成本",
+   "url": "https://www.ithome.com/1/027/262.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 15 日消息，据韩媒 Etnews 今天报道，韩国电信运营商 LG U+ 将于明年进军 AI Token 业务，利用自主研发的 Token 优化技术，帮助企业降低 AI 转型（AX）成本。 据介绍，这项服务拥有用于设计 Agent 任务执行路径的“Harness Engineering”、根据问题类型分配模型的“智能路由”，以及为优化推理过程而采用异构半导体的“芯片组合”三项技术。 IT之家从原报道获悉，LG U+ 将减少 AI Agent 执行任务时不必要的重复搜索和验证，并根据任务难度匹配最合适的模型。同时结合模型轻量化和推理技术，该公司的自研端侧 AI 模型在体积缩小三分之一的情况下，性能仍达到通用云端模型的 95% 以上。通过让小模型快速生成答案、再由大模型进行验证的技术，Token 生成速度提升两倍以上。 基础设施方面，LG U+ 采用芯片组合策略，将英伟达、AMD GPU 与韩国本土企业 FuriosaAI 的神经网络处理器（NPU）结合使用，分别处理问题分析（Prefill）和答案生成（Decode）任务。通过将需要大规模计算的任务与对内存带宽要求较高的任务分开处理，降低基础设施成本。 LG U+ 将同时采用与合作伙伴联合提供服务和自主建设两种方式，从明年开始全面进军 B2B AI Token 市场。随着 LG U+ 加入，韩国三大电信运营商将全部进入 Token 经济领域。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-15T00:42:33+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/027/262.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "LG U+明年推AI Token业务，主打降本",
+   "summary_zh": "LG U+将于明年进军B2B AI Token市场，用Harness Engineering、智能路由和异构芯片组合降低企业Agent推理成本。",
+   "highlights_zh": [
+    "自研端侧模型体积缩至1/3仍达云端95%性能",
+    "小模型生成+大模型验证，Token生成速度提升两倍以上",
+    "Prefill/Decode分拆到不同芯片，混用英伟达、AMD与FuriosaAI NPU"
+   ],
+   "why_zh": "电信运营商把Token当商品卖，是推理成本工程化的典型样本。",
+   "tags": [
+    "智能体",
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-15",
+   "slot": "noon",
+   "selected_at": "2026-11-15T05:08:56+00:00",
+   "mirror_pdf": "pdf/web-8240eae4abec.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/027/262.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5f0f20825563",
+   "kind": "article",
+   "title": "黄仁勋离职风波冷思考：中国AI自主化与海外依赖张力之辩",
+   "url": "https://www.tmtpost.com/8205600.html",
+   "pdf_url": "",
+   "abstract": "英伟达创始人兼CEO黄仁勋离职风波不只是一起涉及芯片转运和出口管制的调查，更折射出中国AI产业面临的现实处境",
+   "authors": [
+    "孙永杰"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-15T02:50:20+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8205600.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "黄仁勋离职风波冷思考：中国AI自主化之辩",
+   "summary_zh": "钛媒体评论认为黄仁勋离职风波背后是芯片转运与出口管制调查，折射中国 AI 产业在自主化与海外依赖之间的现实张力。",
+   "highlights_zh": [
+    "风波源于芯片转运与出口管制调查",
+    "中国 AI 自主化与海外依赖的张力",
+    "对产业格局的冷思考"
+   ],
+   "why_zh": "涉及算力供应链与地缘因素，但偏评论，增量有限。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-11-15",
+   "slot": "noon",
+   "selected_at": "2026-11-15T05:08:56+00:00",
+   "mirror_pdf": "pdf/web-5f0f20825563.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8205600.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-29c0264527f8",
+   "kind": "article",
+   "title": "Edge AI Daily 早报（11月15日）",
+   "url": "https://www.tmtpost.com/8205610.html",
+   "pdf_url": "",
+   "abstract": "黄仁勋离任英伟达触发多线连锁：超11.5万人联署要求其回任，马斯克等科技高管声援，董事会曾就继任接触Arm CEO雷内·哈斯的传闻浮出，创始人依赖与制度化治理的张力凸显。亚洲政府重估单一AI基础设施供应商风险，韩国锁定26万颗先进GPU供应并叠加本土芯片，中国重申出口管制，台湾推进台北总部项目。",
+   "authors": [
+    "Edge AI Daily"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-15T01:09:35+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8205610.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Edge AI早报：黄仁勋离任连锁反应与亚洲GPU布局",
+   "summary_zh": "黄仁勋离任英伟达引发联署与继任传闻，亚洲政府重估单一AI供应商风险，韩国锁定26万颗GPU，中国重申出口管制。",
+   "highlights_zh": [
+    "超11.5万人联署要求黄仁勋回任",
+    "韩国锁定26万颗先进GPU并叠加本土芯片",
+    "亚洲多国重估单一AI基础设施供应商风险"
+   ],
+   "why_zh": "一览AI基础设施供应链地缘风险与亚洲各国应对策略。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-11-15",
+   "slot": "noon",
+   "selected_at": "2026-11-15T05:08:56+00:00",
+   "mirror_pdf": "pdf/web-29c0264527f8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8205610.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-83f38b90a669",
+   "kind": "article",
+   "title": "苹果智能家庭中枢 HomeView 首批评测出炉：Siri AI 问题频出，隐私问题引担忧",
+   "url": "https://www.ithome.com/1/027/294.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 15 日消息，苹果首款智能家庭中枢 HomeView 已经于 11 月 13 日在海外上市，配备 7 英寸 Liquid Retina 显示屏、A18 芯片、人脸识别功能，但外界期待已久的 Siri AI 仍处于测试阶段，如今出炉的首批媒体评测、用户体验说明，苹果还有大量工作没有完成。 NBC 首席科技分析师 Joanna Stern 表示，这款设备的 Siri AI 体验并不算优秀，例如当你说嘿 Siri 时，房间的其他设备会被叫醒，而不是 HomeView。而且 Siri AI 经常会答非所问，有时候甚至是直接卡住几分钟。 The Verge 智能家居编辑 Jennifer Pattison Tuohy 表示，HomeView 的 Siri AI 经常无法妥善处理个人信息上下文请求，有时响应缓慢，有时根本无法完成任务。她表示：“如果 Siri AI 是一名真人私人助理，我早就因为她办事太慢而解雇她了。” 同时有 Reddit 用户表示，尽管设备已经更新至最新系统，Siri 仍拒绝帮他设置计时器，理由是需要更新版本的操作系统。另一名 HomeView 用户也报告了类似问题，他这边甚至无法打开 Safari 浏览器。 科技媒体《Tom's Guide》更是给出了犀利的批评：“Siri 的能力不如其他 AI 助手。”该媒体认为 HomeView 的个性化设置选项有限、支持的流媒体应用较少，以及缺少实体摄像头和麦克风禁用按键等。 此外，《The Verge》还在评测中发现了让人担忧的隐私问题：家庭成员的个人信息可能会出现在所有人都能看到的共享屏幕上。例如， 测试编辑能在设备上看到她女儿的短信内容 。HomeView 支持通过人脸识别认出最多 6 名用户，但评测结果表明，苹果在个人账户切换机制方面仍有改进空间。 当然部分媒体也给出了正面评价。TechRadar 称赞了 HomeView 的音质和个性化功能，AppleInsider 虽然指出了设备的软件问题，但仍推荐购买。显然爱戴苹果的消费者们都想买到完善的产品，但从目前的情况来看，HomeView 很难成为一款值得推荐的产品。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-15T03:31:34+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/027/294.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "苹果HomeView首批评测：Siri AI翻车",
+   "summary_zh": "苹果首款智能家庭中枢HomeView上市，首批评测指Siri AI响应慢、答非所问，且共享屏幕泄露家庭成员隐私信息。",
+   "highlights_zh": [
+    "Siri AI仍处测试阶段，多次卡住数分钟",
+    "人脸识别切换账户机制不完善，短信内容出现在共享屏",
+    "缺少摄像头/麦克风物理禁用按键"
+   ],
+   "why_zh": "苹果端侧AI助手落地受挫，是观察大厂AI产品化节奏的窗口。",
+   "tags": [
+    "语音",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-11-15",
+   "slot": "noon",
+   "selected_at": "2026-11-15T05:08:56+00:00",
+   "mirror_pdf": "pdf/web-83f38b90a669.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/027/294.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-973d4c0c38dd",
+   "kind": "article",
+   "title": "SK 集团会长崔泰源：我们所有子公司都要蜕变为 AI 企业",
+   "url": "https://www.ithome.com/1/027/277.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 15 日消息，据韩媒《每日经济新闻》今天报道，SK 集团会长崔泰源最近表示，他们希望打破现有框架， 将 SK 集团所有子公司蜕变为 AI 企业 。他认为 SK 集团应将业务范围从 AI 半导体、基础设施和能源进一步扩展至服务领域，构建出持续增长的“AI 飞轮”模式。 IT之家从原报道获悉，SK 集团于 12 日至 14 日在京畿道利川市举行“2026 CEO 研讨会”。崔泰源、崔再源、崔昌源等高管出席。其中崔泰源在会议中表示：“我们必须打破现有框架，重新将自身定位为一家 AI 公司。 所有子公司都必须找到新定位 ，打造连接 AI 服务与 Token 经济的‘AI 飞轮’。” SK 集团子公司的生产一线也已开始全面推进 AI 转型。SK 海力士正在升级融合 AI 与数字孪生技术的“智能工厂”，以提高半导体生产效率。SK Innovation 则利用连接设备与运行数据的“流程地图（本体）”，提高了蔚山石油化工园区的生产良率。 崔泰源还强调了 AI 时代开展全球合作的重要性。他表示：“在 AI 时代，没有哪家公司能够独自完成所有事情。”",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-15T02:13:57+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/027/277.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "SK会长：所有子公司都要蜕变为AI企业",
+   "summary_zh": "SK集团会长崔泰源在CEO研讨会上要求全部子公司重新定位为AI公司，构建连接AI服务与Token经济的「AI飞轮」。",
+   "highlights_zh": [
+    "业务从AI半导体、基础设施、能源扩展至服务",
+    "SK海力士用AI+数字孪生升级智能工厂",
+    "强调AI时代全球合作，无人能独自完成一切"
+   ],
+   "why_zh": "韩国最大AI基础设施集团的战略转向，反映Token经济叙事扩散。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-11-15",
+   "slot": "noon",
+   "selected_at": "2026-11-15T05:08:56+00:00",
+   "mirror_pdf": "pdf/web-973d4c0c38dd.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/027/277.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f1bdaf29d3d8",
+   "kind": "article",
+   "title": "JPR 数据：全球 PC 客户端 CPU 出货量 2026Q3 同比 -6.5%、环比 -3.4%",
+   "url": "https://www.ithome.com/1/027/291.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 15 日消息，根据 Jon Peddie Research (JPR) 当地时间本月 13 日消息， 全球 PC 客户端 CPU 的出货量在 2026 年第 3 季度降至 6,080 万颗 ，同比 -6.5%、环比 -3.4%；桌面 CPU 出货量同比 -13%、笔电端则 -4%。 与此同时， 集成显卡的季度出货量为 5,490 万颗， 同比 -3.85%、环比 -3.0%；AMD 占据集显出货量的 23%，另外的 77% 由英特尔贡献。 存储器等关键零组件价格的飙升严重抑制了消费者的需求， 机构预计 PC 市场的衰弱态势会持续到 2027 年上半年 。 服务器 / 数据中心市场中，CPU 季度出货量为 813 万颗，同比 +23.4%、环比 +3.8%；x86 细分中英特尔与 AMD 的占比分别为 65.9% 和 34.1%；云端 AI 推理系统中 CPU : GPU 的比例有所下降。 参考 https://www.jonpeddie.com/news/third-quarter-client-cpu-shipments-declined-3-4-sequentially-and-6-5-year-over-year/",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-15T03:18:42+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/027/291.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "PC CPU出货Q3同比降6.5%，服务器逆势增23%",
+   "summary_zh": "JPR数据显示2026Q3全球PC客户端CPU出货6080万颗同比降6.5%，而服务器CPU同比增23.4%，云端AI推理中CPU:GPU比例下降。",
+   "highlights_zh": [
+    "内存涨价抑制消费需求，预计疲软持续到2027上半年",
+    "服务器CPU出货813万颗，英特尔占x86的65.9%",
+    "AI推理系统CPU:GPU配比走低"
+   ],
+   "why_zh": "算力需求从训练向推理迁移的硬件侧佐证，数据有参考价值。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 5.0,
+   "score": 0.436,
+   "date": "2026-11-15",
+   "slot": "noon",
+   "selected_at": "2026-11-15T05:08:56+00:00",
+   "mirror_pdf": "pdf/web-f1bdaf29d3d8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/027/291.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8ae9cd1fda72",
+   "kind": "article",
+   "title": "Topkiflare74/ai--manus2.0",
+   "url": "https://github.com/Topkiflare74/ai--manus2.0",
+   "pdf_url": "",
+   "abstract": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+   "authors": [],
+   "orgs": [
+    "Topkiflare74"
+   ],
+   "published": "2026-11-15T05:08:56+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/Topkiflare74/ai--manus2.0",
+     "signal": "★ 678（新项目）",
+     "metric": 678
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AI Manus：通用AI智能体沙箱系统",
+   "summary_zh": "号称可在沙箱环境运行多种工具与操作的通用AI智能体系统，但仓库信息单薄，疑似蹭热度项目。",
+   "highlights_zh": [
+    "宣称支持沙箱内多工具调用",
+    "定位为通用智能体框架",
+    "仓库信息与文档不足，需谨慎评估"
+   ],
+   "why_zh": "若你在调研智能体沙箱方案，可先小范围验证其可用性再决定是否采用。",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5697,
+   "score_llm": 3.0,
+   "score": 0.4079,
+   "date": "2026-11-15",
+   "slot": "noon",
+   "selected_at": "2026-11-15T05:08:56+00:00",
+   "mirror_pdf": "pdf/web-8ae9cd1fda72.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/Topkiflare74/ai--manus2.0"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-852c131ce304",
+   "kind": "article",
+   "title": "trackboatwrightplan/GitHub-Copilot-app",
+   "url": "https://github.com/trackboatwrightplan/GitHub-Copilot-app",
+   "pdf_url": "",
+   "abstract": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. ",
+   "authors": [],
+   "orgs": [
+    "trackboatwrightplan"
+   ],
+   "published": "2026-11-15T05:08:56+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/trackboatwrightplan/GitHub-Copilot-app",
+     "signal": "★ 672（新项目）",
+     "metric": 672
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "GitHub Copilot 桌面智能体应用（疑似镜像仓库）",
+   "summary_zh": "号称是面向GitHub仓库的智能体原生桌面应用，可查找、运行与推进软件任务，但仓库来源可疑，疑似蹭名镜像。",
+   "highlights_zh": [
+    "定位为智能体原生桌面体验",
+    "覆盖查找、运行与推进软件任务",
+    "仓库来源与真实性存疑"
+   ],
+   "why_zh": "若你在找Copilot桌面端，请以官方渠道为准，勿轻信此类同名仓库。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5694,
+   "score_llm": 3.0,
+   "score": 0.4078,
+   "date": "2026-11-15",
+   "slot": "noon",
+   "selected_at": "2026-11-15T05:08:56+00:00",
+   "mirror_pdf": "pdf/web-852c131ce304.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/trackboatwrightplan/GitHub-Copilot-app"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ec8e7c274ab1",
+   "kind": "article",
+   "title": "TrapAccountant/GitHub-Copilot-app",
+   "url": "https://github.com/TrapAccountant/GitHub-Copilot-app",
+   "pdf_url": "",
+   "abstract": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. ",
+   "authors": [],
+   "orgs": [
+    "TrapAccountant"
+   ],
+   "published": "2026-11-15T05:08:56+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/TrapAccountant/GitHub-Copilot-app",
+     "signal": "★ 670（新项目）",
+     "metric": 670
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "GitHub Copilot 桌面应用（重复镜像仓库）",
+   "summary_zh": "与前述同名仓库内容重复，均宣称是GitHub Copilot的智能体桌面应用，来源不明，属低质重复条目。",
+   "highlights_zh": [
+    "内容与同名仓库高度重复",
+    "来源不明，可信度低",
+    "无实质增量信息"
+   ],
+   "why_zh": "建议忽略，直接查阅GitHub官方Copilot产品信息。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5693,
+   "score_llm": 2.0,
+   "score": 0.3477,
+   "date": "2026-11-15",
+   "slot": "noon",
+   "selected_at": "2026-11-15T05:08:56+00:00",
+   "mirror_pdf": "pdf/web-ec8e7c274ab1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/TrapAccountant/GitHub-Copilot-app"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "开源AI生态面临算力背书真空，信任重建成关键变量",
-   "why": "黄仁勋离任冲击英伟达对开源模型的生态背书，小企业首当其冲，合作机制需重构。",
+   "trend": "算力扩张叙事受挫，能耗与限流成为AI资本开支的新约束",
+   "why": "地方算力限流与能耗管控引发社会许可危机，AI股暴跌暴露无限扩产逻辑的脆弱性。",
    "refs": [
-    "web-812c54fee2cd",
-    "web-1b85537e008e"
+    "web-86c914d65dc2",
+    "web-825d22e5e711"
    ]
   },
   {
-   "trend": "智能体商业化从工具调用迈向付费订阅闭环",
-   "why": "Meta Muse代打电话进入最高档订阅，DeepSeek开放全家桶API降低智能体构建门槛。",
+   "trend": "黄仁勋离任动摇英伟达生态背书，亚洲市场加速供应商多元化",
+   "why": "股价一度跌14%，韩国锁定26万颗GPU、亚洲政府重估单一供应商风险。",
    "refs": [
-    "web-255260062f70",
-    "web-90edbcec53d5"
+    "web-1b85537e008e",
+    "web-29c0264527f8",
+    "web-812c54fee2cd"
    ]
   },
   {
-   "trend": "算力堆叠遭遇评测天花板，湿实验基准揭示推理瓶颈",
-   "why": "斯坦福等联合基准显示算力翻五倍仍无实质改善，评测方法正从规模转向真实任务验证。",
+   "trend": "湿实验基准揭示推理算力边际失效，评测方法转向真实科学验证",
+   "why": "算力提升5倍模型表现仍无实质改善，说明现有评测与能力提升路径需重构。",
    "refs": [
     "web-0563f648c822"
    ]
   },
   {
-   "trend": "监管风向从追责转向减责，安全事件报告激励成新抓手",
-   "why": "白宫工作组建议12个月内限制安全事件监管责任，以鼓励企业主动披露。",
+   "trend": "AI自我改进从概念走向工程闭环，训练与评估链路开始一体化",
+   "why": "Skill到Harness再到模型训练的闭环议题涌现，自我改进的经济价值被重新定价。",
    "refs": [
-    "web-48bd9fc0fa77"
+    "web-f084ebb0bb88",
+    "web-b7ad22550eec"
    ]
   },
   {
-   "trend": "算力叙事下沉到Token成本，绿电与仿真资产成差异化竞争点",
-   "why": "联想主打绿电词元工厂降本70%，Hugging Face推进SimReady仿真降低机器人训练门槛。",
+   "trend": "智能体进入付费订阅与可治理DevOps，商业化从演示转向责任边界",
+   "why": "Meta Muse代打电话向最高档订阅开放，GitLab将智能体纳入权限治理流水线。",
    "refs": [
-    "web-ef364eb212fb",
-    "web-2427bacb74a9"
+    "web-255260062f70",
+    "web-1d6fa7df1732"
    ]
   }
  ]
