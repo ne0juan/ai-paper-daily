@@ -1,6 +1,13 @@
 {
- "updated": "2026-11-16T13:31:59+00:00",
+ "updated": "2026-11-16T20:54:30+00:00",
  "days": [
+  {
+   "date": "2026-11-17",
+   "count": 17,
+   "slots": {
+    "morning": 17
+   }
+  },
   {
    "date": "2026-11-16",
    "count": 39,
@@ -476,38 +483,44 @@
    }
   }
  ],
- "total": 2911,
+ "total": 2928,
  "last_run": {
-  "at": "2026-11-16T13:31:59+00:00",
-  "slot": "evening",
-  "candidates": 89,
-  "new": 54,
-  "stale": 8,
-  "judged": 54,
-  "selected": 16,
-  "mirrored": 14,
+  "at": "2026-11-16T20:54:30+00:00",
+  "slot": "morning",
+  "candidates": 118,
+  "new": 67,
+  "stale": 16,
+  "judged": 62,
+  "selected": 17,
+  "mirrored": 12,
   "by_category": {
-   "项目": 2,
-   "资讯": 14
+   "观点": 3,
+   "资讯": 11,
+   "技术": 2,
+   "项目": 1
   },
   "by_source": {
-   "HF Daily Papers": 8,
+   "HF Daily Papers": 11,
    "Hacker News": 4,
-   "Sebastian Raschka": 1,
    "量子位": 10,
    "极客公园": 1,
-   "IT之家": 8,
+   "IT之家": 13,
    "爱范儿": 3,
    "少数派": 1,
-   "雷峰网": 12,
+   "雷峰网": 14,
    "钛媒体": 3,
    "InfoQ 中文": 12,
+   "Dwarkesh Patel": 1,
+   "Jack Clark": 1,
    "Stratechery": 1,
-   "Azeem Azhar": 1,
-   "OpenAI": 4,
-   "NVIDIA": 1,
-   "GitHub Trending": 12,
-   "GitHub 新项目": 8
+   "Azeem Azhar": 2,
+   "Zvi Mowshowitz": 1,
+   "Sebastian Raschka": 1,
+   "Hugging Face Blog": 1,
+   "OpenAI": 10,
+   "NVIDIA": 8,
+   "GitHub Trending": 13,
+   "GitHub 新项目": 7
   },
   "llm": true,
   "translated": 0
