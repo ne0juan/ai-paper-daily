@@ -1231,29 +1231,888 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-3781448153b0",
+   "kind": "article",
+   "title": "NVIDIA/SkillEvaluator",
+   "url": "https://github.com/NVIDIA/SkillEvaluator",
+   "pdf_url": "",
+   "abstract": "Star NVIDIA / SkillEvaluator Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.\nREADME: # SkillEvaluator ![SkillEvaluator wordmark](https://raw.githubusercontent.com/NVIDIA/SkillEvaluator/ad2815fe78c045db91d230681d32863698da08cf/docs/assets/skillevaluator-wordmark.svg) [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE) [![Python](https://img.shields.io/badge/Python-3.12%20%7C%203.13%20%7C%203.14-blue.svg)](https://www.python.org/) [![PyPI](https://img.shields.io/pypi/v/skillevaluator.svg?label=PyPI)](https://pypi.org/project/skillevaluator/) [![Documentation](https://img.shields.io/badge/Documentation-docs.nvidia.com-blue.svg)](https://docs.nvidia.com/skills/skillevaluator/) [![Paper](https://img.shields.io/badge/arXiv-2608.20614-b31b1b.svg)](https://arxiv.org/abs/2608.20614) [![NVIDIA Developer Blog](https://img.shields.io/badge/Blog-NVIDIA%20Developer-76B900.svg)](https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-skillevaluator/) > 📺 **Livestream:** [Ask the Experts: Evaluating Agent Skills](https://www.youtube.com/watch?v=4rI0zATFxYI) SkillEvaluator checks AI agent skills and measures their effect on task results: start with quality checks, then compare runs with and without a skill. Agent skills are folders of instructions and supporting files defined by the [Agent Skills specification](https://agentskills.io/). SkillEvaluator is part of the [NVIDIA Verified Skills pipeline](https://github.com/NVIDIA/skills). ## Get started Three ways in, one CLI, same results. 1. Run the CLI directly 2. Add i",
+   "authors": [],
+   "orgs": [
+    "NVIDIA"
+   ],
+   "published": "2026-11-16T13:31:59+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/NVIDIA/SkillEvaluator",
+     "signal": "★ 今日 +953 · Python",
+     "metric": 953
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "NVIDIA 开源智能体技能评测框架 SkillEvaluator",
+   "summary_zh": "NVIDIA 发布多层智能体技能评测框架，含质量门禁、语义重叠检测、合成评测集生成与实测行为影响，已上 PyPI 并附论文。",
+   "highlights_zh": [
+    "分层评测：先做技能质量检查，再实测技能对智能体任务结果的影响",
+    "支持语义重叠检测与合成评测数据集自动生成",
+    "Apache 2.0 开源，提供 PyPI 包、官方文档与 arXiv 论文"
+   ],
+   "why_zh": "如果你在维护智能体技能库，可用它做上线前质量门禁与效果回归。",
+   "tags": [
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.7014,
+   "score_llm": 8.0,
+   "score": 0.7606,
+   "date": "2026-11-16",
+   "slot": "evening",
+   "selected_at": "2026-11-16T13:31:59+00:00",
+   "mirror_pdf": "pdf/web-3781448153b0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/NVIDIA/SkillEvaluator"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-991accffb1dc",
+   "kind": "article",
+   "title": "阿里正式发布Qwen4，智能体及编程能力进阶，迈向真实全场景",
+   "url": "https://www.qbitai.com/2026/11/510486.html",
+   "pdf_url": "",
+   "abstract": "11月16日，阿里巴巴发布全新一代基座大模型Qwen4-Max",
+   "authors": [
+    "量子位的朋友们"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-16T07:51:57+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/510486.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "阿里发布Qwen4：智能体与编程能力进阶",
+   "summary_zh": "阿里巴巴发布新一代基座大模型Qwen4-Max，重点提升智能体与编程能力，面向真实全场景应用。",
+   "highlights_zh": [
+    "Qwen4-Max为阿里新一代基座大模型",
+    "智能体与编程能力显著进阶",
+    "定位迈向真实全场景落地"
+   ],
+   "why_zh": "头部厂商基座模型换代，直接影响国内开发者技术选型与智能体应用生态。",
+   "tags": [
+    "大模型",
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 9.0,
+   "score": 0.716,
+   "date": "2026-11-16",
+   "slot": "evening",
+   "selected_at": "2026-11-16T13:31:59+00:00",
+   "mirror_pdf": "pdf/web-991accffb1dc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/510486.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-14832d8209b1",
+   "kind": "article",
+   "title": "google-research/paper-orchestra",
+   "url": "https://github.com/google-research/paper-orchestra",
+   "pdf_url": "",
+   "abstract": "Star google-research / paper-orchestra PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+   "authors": [],
+   "orgs": [
+    "google-research"
+   ],
+   "published": "2026-11-16T13:31:59+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/google-research/paper-orchestra",
+     "signal": "★ 今日 +306 · Python",
+     "metric": 306
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "谷歌开源多智能体论文写作框架 PaperOrchestra",
+   "summary_zh": "Google Research 开源 PaperOrchestra，用多智能体流水线自动完成 AI 研究论文的撰写，登上 GitHub 趋势榜。",
+   "highlights_zh": [
+    "多智能体分工协作完成论文写作流程",
+    "来自 google-research 官方仓库，Python 实现",
+    "单日新增 300+ star，社区关注度较高"
+   ],
+   "why_zh": "如果你在做科研自动化或写作智能体，可参考其多智能体编排设计。",
+   "tags": [
+    "智能体",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.6549,
+   "score_llm": 7.0,
+   "score": 0.682,
+   "date": "2026-11-16",
+   "slot": "evening",
+   "selected_at": "2026-11-16T13:31:59+00:00",
+   "mirror_pdf": "pdf/web-14832d8209b1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/google-research/paper-orchestra"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-024ecf108a4c",
+   "kind": "article",
+   "title": "李飞飞对话苏姿丰：AMD 收购后首次同台，CoRL 现场谈算力、机器人与「这个时代最大的失误」",
+   "url": "https://www.leiphone.com/category/ai/b2VJ0YUl2gN5nNie.html",
+   "pdf_url": "",
+   "abstract": "一场横跨科研、经济、AI、社会话题、算力未来的女性对话。 作者丨 齐铖湧 编辑丨岑 峰 2026年11月，奥斯汀，CoRL 2026的台下坐满了机器人研究者。 台上三把椅子，两位嘉宾，左边是即将出任AMD首席科学家的李飞飞，右边是AMD CEO苏姿丰。这是AMD收购World Labs消息传出后，两人的首次公开同台，也是李飞飞以\"AMD首席科学家\"身份，第一次面对整个机器人学术社区。 对话没有客套太久。李飞飞直接把话题引向了敏感区域：公共部门的算力\"饥饿\"，是\" 这个历史最重要时刻最大的失误之一 \"。大学和非营利机构拿不到卡，下一代研究者怎么训练？蓝天式的好奇心驱动研究怎么做？她看向苏姿丰，AMD正在建设\"以吉瓦计\"的算力，academia 能不能真的分到一杯羹？ 在苏姿丰看来：\" 把一部分专门留给长期研究、留给大学，绝对是我们工作的一部分 。\"但她同时也划定边界：机器人不是单靠一个端到端大模型就能啃下来的，未来需要\"各种形态、各种规模\"的算力，硬件、软件、系统必须协同优化。 不止如此，这场对话里还包含很多探讨，比如机器人会不会被基础模型一口吃掉？AGI真的只差\"一分钟\"了吗？在这个连PhD都要被AI重新定义的时代，做学术还有没有意义？ 以下是AI科技评论带来的完整对话实录。 李飞飞、苏姿丰（Lisa Su）和主持人Peter Stone（从左往右） 01 物理 AI 带来的机会：数千亿美元量级 Peter Stone： 谢谢二位，Lisa、Fei-Fei，来到CoRL。精彩的演讲，那个视频（Atlas最新成果）我们明天都等着看，大家现在都坐不住了。接下来大约半小时，我们会从Slido（现场提问平台）上取问题，我也会混入一些事先准备的问题。 Lisa、Fei-Fei，你们现在和机器人学习社区同台。我们已经听说了AMD收购World Labs的事（正在进行中），Fei-Fei刚才也讲了世界模型和前方的巨大机会。Lisa，我先问你：AMD一直从数据中心到边缘和嵌入式系统，在整个AI栈上投资。 Peter Stone： 展望机器人和物理AI，你认为AMD最大的机会在哪里？World Labs如何融入这个更大的战略？ 苏姿丰： 谢谢Peter，也谢谢大家让我来。Fei-Fei邀请我来\"蹭会\"，希望没关系。欢迎大家来到奥斯汀。 我认为这是AI极其激动人心的时刻。回顾我们迄今取得的所有进展，我们其实还处在可能性的非常早期的阶段（very early innings）。物理AI、尤其是机器人，是巨大的机会，对我们来说，未来几年这是 数千亿美元量级的机遇 。关键在于，你必须真正理解物理、模型和整个环境。所以我们非常高兴Fei-Fei和World Labs团队加入AMD。 苏姿丰： 除了她是超级明星之外，我们能不能就直说她是超级明星？（全场笑）在我们这个行业，硬件优化要持续很多年，你对工作负载了解得越多、越清楚它要往哪走，就越好。我一直说的 硬件、软件、系统协同优化 的愿景，放在机器人上尤为适用。未来5到10年，这将是极其重要的领域。更重要的是，对整个AMD生态而言，我们非常希望把AMD的开放生态扩展到在座的整个机器人社区。谢谢大家给我几分钟。 Peter Stone： 太好了。我们能看出她是超级明星，因为她是Yuke和Roberto的博士和博后导师，正是他们帮忙促成了这届大会，除此之外她还有很多成功的学生。 Fei-Fei，换你。从你的角度，加入AMD如何扩展World Labs能做的事？你刚阐述了世界模型的愿景，这个结合让你们接下来能构建什么？对机器人社区意味",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-16T07:24:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/b2VJ0YUl2gN5nNie.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "李飞飞对话苏姿丰：算力饥饿是时代最大失误之一",
+   "summary_zh": "AMD收购World Labs后两人首次同台，李飞飞称公共部门算力匮乏是重大失误，苏姿丰承诺为学术界保留部分算力。",
+   "highlights_zh": [
+    "苏姿丰称物理AI是数千亿美元量级机遇，强调软硬件系统协同优化",
+    "李飞飞批评大学与非营利机构拿不到算力，危及下一代研究者培养",
+    "双方讨论机器人是否会被端到端基础模型一口吃掉"
+   ],
+   "why_zh": "头部玩家对算力分配与物理AI格局的明确判断。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-16",
+   "slot": "evening",
+   "selected_at": "2026-11-16T13:31:59+00:00",
+   "mirror_pdf": "pdf/web-024ecf108a4c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/b2VJ0YUl2gN5nNie.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8c8a52a2a0ab",
+   "kind": "article",
+   "title": "DeepSeek又来掀桌子了！官方App全套能力开放API，联网搜索价格不到OpenAI、Claude的8%",
+   "url": "https://www.infoq.cn/article/NWmk4epBL0jPAUtpKSKb?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "褚杏娟"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-16T14:38:24+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/NWmk4epBL0jPAUtpKSKb?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek开放全套App能力API，联网搜索价格不足对手8%",
+   "summary_zh": "DeepSeek将官方App全套能力开放为API，含联网搜索，价格不到OpenAI、Claude的8%，进一步压低推理调用成本。",
+   "highlights_zh": [
+    "官方App能力（含联网搜索）全面API化",
+    "定价显著低于OpenAI与Claude同类服务",
+    "延续低价策略，冲击推理API市场格局"
+   ],
+   "why_zh": "价格战直接影响开发者选型与推理成本结构，是市场方向的重要信号。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-16",
+   "slot": "evening",
+   "selected_at": "2026-11-16T13:31:59+00:00",
+   "mirror_pdf": "pdf/web-8c8a52a2a0ab.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/NWmk4epBL0jPAUtpKSKb?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-11e62ccf832c",
+   "kind": "article",
+   "title": "国际货币基金组织总裁警告：全球经济过度依赖 AI，相关循环融资规模超 1 万亿美元",
+   "url": "https://www.ithome.com/1/027/861.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 16 日消息，据 CNBC 报道，国际货币基金组织（IMF）总裁克里斯塔利娜 · 格奥尔基耶娃（Kristalina Georgieva）当地时间周一表示，全球经济目前正“依靠 AI 这条腿支撑”，但对这一领域的过度依赖可能危及全球金融稳定。 格奥尔基耶娃在菲律宾出席东盟峰会期间接受采访时指出，如果市场对 AI 的投资信心突然下降，资金开始撤离这一领域，全球经济增长可能受到削弱。 “当前世界经济就像站在一条腿上，而这条腿就是 AI。如果这条腿出现摇晃，就可能引发金融稳定问题。”格奥尔基耶娃警告称。 IMF 估计， AI 企业之间的循环融资规模已经超过 1 万亿美元 （IT之家注：现汇率约合 6.68 万亿元人民币） 。这类交易通常是指投资者向 AI 企业注资，而资金最终又通过采购订单等形式回流至投资方。其中，约三分之二的资金来自债务融资。 格奥尔基耶娃表示：“这个规模还算不上特别庞大，但增长速度非常快。” 英伟达（Nvidia）是这类循环融资交易的核心参与者之一。过去一个月，该公司市值蒸发超过 1 万亿美元 （现汇率约合 6.68 万亿元人民币） 。该公司前任 CEO 黄仁勋（Jensen Huang）卷入多起婚外情风波，引发全球 AI 相关股票遭到抛售，也让市场开始关注英伟达在 AI 基础设施建设融资中扮演的重要角色。 瑞银分析师蒂姆 · 阿尔库里（Tim Arcuri）近期在一份报告中估计，如果英伟达收缩融资规模，可能轻易导致整个 AI 产业链的资金供给减少 500 亿美元 （现汇率约合 3,339.2 亿元人民币） 甚至更多。而与此同时，利率上升已经推高了企业借贷成本。 格奥尔基耶娃发出上述警告之际，AI 基础设施建设一直是全球经济增长的重要引擎，为国际贸易和投资提供了有力支撑。 今年 10 月，IMF 将 2026 年全球经济增长预期上调至 3.1%。在伊朗战争引发能源供应紧张、拖累其他经济增长动力的背景下，主要经济体正越来越依赖 AI 投资来推动经济增长。 IMF 估计，全球约 40% 的劳动力将受到 AI 影响。经济研究机构凯投宏观（Capital Economics）则指出，近期全球出口增长中，多达 80% 集中在 AI 相关商品领域。 格奥尔基耶娃表示，投资者对 AI 的狂热反映出市场预期已经超前于这项技术目前实际展现出的能力。随着相关资产估值不断攀升，投资者往往容易过于激进，因此市场出现“一些调整”是必要的。 IMF 今年 10 月曾警告称，如果 AI 发展短期内未能达到市场预期，可能引发波及多个资产类别的无序调整。 在最糟糕的情景下，如果 AI 无法兑现市场寄予的高预期，美国股市可能在 2026 年下跌 20%，到 2028 年，全球经济产出也可能比基准预测水平低 1.1%。 过去几周，包括美国芯片制造商在内的全球股票市场经历了大幅抛售。随着英伟达即将公布财报，以及 Anthropic 备受关注的上市计划临近，投资者对 AI 交易的热情本周将再次接受考验。 格奥尔基耶娃周一将近期市场波动形容为“有序调整”， 认为其不太可能演变成足以冲击全球经济的系统性风险 ，但她同时呼吁市场保持警惕，“我们必须密切关注事态发展。”",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-16T09:32:58+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/027/861.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "IMF警告：全球经济过度依赖AI，循环融资超万亿美元",
+   "summary_zh": "IMF总裁格奥尔基耶娃警告全球经济“靠AI一条腿支撑”，AI企业间循环融资已超1万亿美元、约三分之二为债务融资，若信心逆转或引发金融稳定问题。",
+   "highlights_zh": [
+    "AI相关循环融资规模超1万亿美元，增速极快，英伟达是核心参与者",
+    "IMF测算最坏情景：美股2026年或跌20%，2028年全球产出低于基准1.1%",
+    "全球约40%劳动力将受AI影响，近期全球出口增长多达80%集中于AI相关商品"
+   ],
+   "why_zh": "理解AI资本泡沫风险与市场回调逻辑的关键宏观信号，值得从业者警惕。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-16",
+   "slot": "evening",
+   "selected_at": "2026-11-16T13:31:59+00:00",
+   "mirror_pdf": "pdf/web-11e62ccf832c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/027/861.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-70fcd4b516bd",
+   "kind": "article",
+   "title": "What's Next for Nvidia?",
+   "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-15T23:55:55Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50512235",
+     "signal": "324 pts",
+     "metric": 324
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "英伟达的下一步是什么？",
+   "summary_zh": "Hacker News 热议英伟达未来走向，讨论集中在 AI 算力需求持续性、竞争格局与业务边界扩张。",
+   "highlights_zh": [
+    "HN 324 分，属社区高热度讨论",
+    "聚焦算力需求能否延续与竞争压力",
+    "无原文摘要，观点需自行甄别"
+   ],
+   "why_zh": "想判断 AI 算力周期与英伟达估值逻辑，可看社区分歧点。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5912,
+   "score_llm": 6.0,
+   "score": 0.5965,
+   "date": "2026-11-16",
+   "slot": "evening",
+   "selected_at": "2026-11-16T13:31:59+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50512235"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-91e58e2ea930",
+   "kind": "article",
+   "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+   "url": "https://openai.com/index/lvmh-media-division-partnership",
+   "pdf_url": "",
+   "abstract": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-11-16T09:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/lvmh-media-division-partnership",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "LVMH 媒体部门与 OpenAI 达成战略合作",
+   "summary_zh": "LVMH 媒体部门与 OpenAI 合作，用 AI 辅助新闻生产，并让旗下出版物通过 ChatGPT 更易被访问。",
+   "highlights_zh": [
+    "奢侈品集团媒体业务接入 OpenAI 能力",
+    "方向为新闻业 AI 辅助与内容分发",
+    "出版物将通过 ChatGPT 提升可及性"
+   ],
+   "why_zh": "观察传统媒体与模型厂商的内容合作模式，可作案例参考。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 6.0,
+   "score": 0.576,
+   "date": "2026-11-16",
+   "slot": "evening",
+   "selected_at": "2026-11-16T13:31:59+00:00",
+   "mirror_pdf": "pdf/web-91e58e2ea930.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/lvmh-media-division-partnership"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c6170c871ba2",
+   "kind": "article",
+   "title": "豆包工作独家上线“工作台”功能，首批覆盖金融、医疗、教育等21个专业场景",
+   "url": "https://www.leiphone.com/category/industrynews/hnSL5YwUtQjerTRK.html",
+   "pdf_url": "",
+   "abstract": "近日，豆包工作独家上线“工作台”功能，首批覆盖金融、医疗、教育、创意设计等21个专业场景，让AI办公进一步走向职业化。据悉，这也是业内首个面向多个专业场景、不同职业人群定制的AI工作台功能。 工作台页面 据豆包工作官方介绍，“工作台”是为用户的专业工作场景提供的专属AI工作空间。金融、医疗、教育、创意设计等21个场景所需要的技能、工具，都预先配置在这个空间里，用户不必再逐项挑选。这大幅降低了专业工作场景的AI使用门槛，也提升了工作效率。用户打开豆包工作，进入“工作台”页面，选择相关专业工作台后即可直接使用。 以金融投研工作台为例，其首页提供了公告解读、业绩分析、市场简报、公司研究等常用任务入口，并连接了万得、同花顺、国泰海通等专业数据服务插件，用户授权相关金融数据终端的账号权限后，可调用相关专业金融数据辅助工作。 医生工作台致力于帮助医生解决办公与科研场景下重复性工作问题，并为专业判断提供循证参考，预先配置了医生常用的专业技能与知识库，无论是查找临床指南、检索和解读医学文献，还是准备科普、患者沟通材料及科研汇报，都可以从对应任务入口开始。 教师工作台则为教师们提供了简单易用的各类教学工具：输入课题、教材和教学要求，可一键生成教案、课件，也能把一道题变成可拖动、可调参数的互动实验，为学生提供可视化演示。此外，教师工作台还与学科网达成官方合作，通过学科网连接器可以查找教学资源、用题图找相似题，也能使用班主任工作助手、教师专业发展助手等技能。 教师工作台课件示例 创意设计工作台覆盖了海报设计、社媒配图、品牌视觉、种草视频等常用技能，用户可随时启动高频任务。任务开启后，系统会自动创建画布，用户可随时查看、对比和整理，让同一套创意延展成系列海报、品牌包装等不同物料。 除上述典型场景外，豆包工作还面向营销、写作、人力资源、财务行政、求职发展、法律事务、数据分析等场景推出专属工作台服务，合计覆盖 21 个专业场景，尽可能满足不同职业人群的生产力需求。此外，用户还可以创建独属于自己的工作台，在“工作台”页面点击“创建”，填写名称，选好常用技能和插件，再补充工作要求与偏好，即可保存、分享专属自己的工作台。 目前，工作台功能已在豆包工作电脑版和豆包电脑版上线，用户可按自己的职业需求直接选择相应的工作台，也可以创建自己的工作台，让AI办公更便捷、更职业。 雷峰网 雷峰网",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-16T08:59:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/hnSL5YwUtQjerTRK.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "豆包工作上线专业工作台，覆盖21个职业场景",
+   "summary_zh": "豆包工作推出「工作台」功能，为金融、医疗、教育等21个专业场景预置技能与插件，降低职业用户使用AI的门槛。",
+   "highlights_zh": [
+    "首批覆盖金融投研、医生、教师、创意设计等21个专业场景",
+    "金融工作台接入万得、同花顺等专业数据插件",
+    "支持用户自建并分享专属工作台"
+   ],
+   "why_zh": "反映AI办公产品从通用助手向职业化、场景化分发的关键转向。",
+   "tags": [
+    "产品与行业",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-16",
+   "slot": "evening",
+   "selected_at": "2026-11-16T13:31:59+00:00",
+   "mirror_pdf": "pdf/web-c6170c871ba2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/hnSL5YwUtQjerTRK.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-400baee26cfc",
+   "kind": "article",
+   "title": "智算接棒：物理AI的下一个风口，在于计算基础设施",
+   "url": "https://www.leiphone.com/category/chips/yYPDwzuTBbcMSCSx.html",
+   "pdf_url": "",
+   "abstract": "物理AI的热度，正从机器人本体向产业链上下游扩散。 过去一年，人形机器人、四足机器狗频繁出现在工厂、仓库和门店。产业界关心的问题正在变化：从“机器人能完成什么动作”转向“如何让它越做越准”。 答案不只在机器人本体，更在其背后的计算系统：数据从哪里来，仿真在哪里运行，模型多久迭代，算力如何匹配研发节奏。这些都不是多买几台服务器能解决的。 英伟达提出“三台计算机”概念：一台训练模型，一台在数字孪生与仿真环境中训练、验证技能，第三台部署在机器人本体上执行。Omniverse、Isaac、Cosmos等平台，旨在打通训练、仿真与终端计算成为一条链。最新一季财报显示，其数据中心业务收入同比增长117%，物理AI正成为计算平台新的增长市场。 但仿真无法完全替代真实世界。Neura Robotics创始人兼CEO David Reger在接受麦肯锡采访时谈到，数字孪生与真实环境之间仍有差距，机器人需要在真实物理环境中训练，并采集动作、触觉、声音等多模态数据。这些反馈又将进入下一轮训练与仿真。 由此，物理AI研发形成了持续迭代的闭环：数据采集、仿真、模型训练、强化学习、推理和真机验证。各环节对算力的需求不同，且随研发进度动态变化，固定配置的算力难以适应。 研发模式的变化，正在改变算力供给及服务方式。相比一次性建设和长期持有，能够按需调用、弹性扩缩的云端算力，开始成为机器人企业的新选择。 中国机器人企业对此感受更直接。 宇树科技创始人王兴兴在今年10月的工博会上谈到，机器人本体受空间、电池和散热限制，能够部署的算力有限，适合放在云端的计算任务应尽可能上云。云端算力可以实时调配，管理也更灵活。他同时强调，真机数据是模型迭代不可缺少的闭环。机器人越聪明，越依赖身后的云端算力。 智元机器人联合创始人彭志辉接受采访时透露，公司今年的训练集群将接近万卡规模，以应对计算需求的增长。联合创始人姚卯青补充，算力主要通过租赁获取，以控制资产投入、保留扩容弹性。 头部机器人公司的算力账本，正在从“买多少卡”转向“能不能随时调到可用算力”。 原因在于具身智能研发具有明显的阶段性：模型训练、仿真和强化学习会推高算力需求，验证阶段需求又可能回落。自持硬件成本高、易闲置，临时采购则难以保障研发连续性。 因此， 按需调用、弹性扩缩、统一调度，并适配物理AI多场景需求的智算云服务，正在成为更现实的选择。 （2026年面向物理AI增长最快的AI新云厂商榜单） 资本市场已经为这种需求定价。据行业测算，CoreWeave2026年上半年营收同比增长112%，全年产能已预售一空；国内AI基础设施及智算云服务商九章云极，2026年云业务上半年营收同比增长约420%。AI新云的增长，反映出市场正持续提高对“随时可调用”计算资源的付费意愿。 不过，这笔账还有另一种算法：按需租用的单价可能高于自建，长期高负载运行，总成本未必更低；物理AI的算力需求能否像大模型一样快速增长，行业也尚无共识。目前，机器人企业的训练规模仍明显小于通用大模型公司。但多步计算需求已经明确，增长节奏仍有待验证。 尚明栋的观点指向另一个维度：计算资源有没有真正用起来。九章云极联合创始人兼COO尚明栋此前接受央视总台财经频道采访时表示，衡量算力产业不能只看建设规模，更要看资源是否真正被使用、能否服务更多产业主体。算力正在从稀缺的技术资源转变为通用的基础生产资料。 九章云极的做法，是将分散的算力需求分层承接、而非依赖单一集中式方案。底层通过异构芯片适配、算力池化、防止算力碎片化技术方案和统一调度，让不同架构的计算资源协同运行，为机器人基础模型训",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-16T08:04:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/chips/yYPDwzuTBbcMSCSx.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "物理AI的算力账本：从买卡转向弹性智算云",
+   "summary_zh": "文章梳理物理AI研发闭环对算力的阶段性需求，指出机器人企业正从自建算力转向按需调用的智算云服务。",
+   "highlights_zh": [
+    "英伟达「三台计算机」打通训练、仿真与本体部署",
+    "宇树、智元等头部企业倾向云端弹性算力，智元训练集群近万卡",
+    "AI新云营收高增，但长期自建与租用的成本账仍存争议"
+   ],
+   "why_zh": "理解具身智能研发模式如何重塑算力供给与商业模式。",
+   "tags": [
+    "机器人",
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-16",
+   "slot": "evening",
+   "selected_at": "2026-11-16T13:31:59+00:00",
+   "mirror_pdf": "pdf/web-400baee26cfc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/chips/yYPDwzuTBbcMSCSx.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b43a8a12c15f",
+   "kind": "article",
+   "title": "HCI 先驱 de Souza：当 AI 替我们阅读，谁来为知识负责？| ACM MM 2026",
+   "url": "https://www.leiphone.com/category/private/j1CWHNsD9eBM7Wwc.html",
+   "pdf_url": "",
+   "abstract": "研究者需要的不只是AI生成的答案，更是审查答案、追溯来源并为知识判断负责的能力。 作者丨 张 璐 编辑丨马晓宁 你有没有过这样的经历：面对几十页密密麻麻的PDF，实在抽不出时间细读，于是把论文丢给ChatGPT或Claude，让它帮你提炼核心观点。 几秒钟后，一份条理清晰的摘要出现在屏幕上。你点点头，觉得自己已经掌握了论文的主要内容，甚至直接将其中的观点引用进了自己的研究。 但是，等等——你确定AI总结的，真的是原作者想表达的意思吗？如果它悄悄引入了原文没有的观点，甚至将毫不相干的概念联系在一起，作为研究者的我们，能否及时发现？ 在正在举行的 ACM Multimedia 2026 上，人机交互领域先驱、巴西里约热内卢天主教大学（PUC-Rio）荣休教授 Clarisse Sieckenius de Souza 带来了一场主题演讲。 她从自己提出的“语义工程”（Semiotic Engineering）理论出发，讨论AI如何改变人与信息之间的关系，以及当我们把文献阅读和理解的工作交给AI时，如何守住研究者的“认知权威”（Epistemic Authority）。 从界面如何传递设计者的意图，到AI摘要如何偏离原文，再到如何借助 PEEL 方法审视AI的文本处理过程，这场演讲为我们理解AI时代的知识责任提供了一个新的视角。 以下是演讲全文雷峰网： 01 界面是一场对话： 我们如何理解机器的语言？ 在我看来，人机交互（HCI）可以被理解为一场对话。 但这并不是应用程序或系统与用户之间简单的对话，而是一场由计算机媒介实现的、发生在人类群体之间的对话：一方是设计和开发应用程序的人，另一方是使用这些应用程序的人。 这场对话通过界面展开。界面实际上扮演着设计者代理人的角色，代替设计者向用户传递信息。它只能按照设计者预先设定的方式和语言进行表达，也就是我们通常所说的人工语言。 举个例子，当我们使用一个网站时，界面会告诉我们哪些操作是允许的，哪些操作是不允许的。在一个Cookie偏好设置页面中，用户可能尝试切换某项必要的设置，但界面却告诉我们，这项操作无法完成。 这条信息实际上来自设计者。用户通过界面得到的反馈，反映了设计者希望用户做什么、能够做什么，以及不能做什么。 这就是语义工程（Semantic Engineering）的基本思想： 界面代表设计者发声，用户则通过学习和使用界面语言，与设计者进行交流。 当然，界面语言不一定是文字。它也可以是一套完全图形化、以对象为中心的语言。我们通过操纵屏幕上的对象来表达自己的意图，界面则通过对象的变化回应我们的操作。 不过，界面并不总能按照用户的预期作出回应。 我曾经在准备这场演讲时遇到一个很有意思的情况：我试图在界面中插入一个文本框，结果它竟然上下颠倒了。我完全不知道为什么会发生这种情况。 这恰恰说明，我们有时无法准确预测界面会如何回应。面对意料之外的结果，我们只能尝试理解它，并调整自己的操作。 通常，每个系统都有一套约定俗成的交互模式。这些模式在一定程度上限定了用户能够表达什么、能够做什么。我们需要不断尝试，寻找通过界面表达自己意图的方式。 更重要的是，每个系统都有自己独特的语言。 即使两个系统使用相同的词汇，这些词汇背后的语义也可能完全不同。 因此，每当我们接触一个新系统，就需要经历一次语言学习的过程。 这与儿童学习母语，或者成年人学习第二语言有些相似。我们会不断尝试，观察系统如何回应，理解不同词汇和视觉符号的含义，再逐渐掌握这套语言。 当我们面对一个从未使用过的系统时，往往会进行大量尝试。我们不知道某个按钮意味着",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-16T07:59:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/private/j1CWHNsD9eBM7Wwc.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "de Souza：AI替我们阅读，谁来为知识负责",
+   "summary_zh": "HCI先驱de Souza在ACM MM演讲中提出，AI摘要可能偏离原文，研究者需借助PEEL方法审查过程、守住认知权威。",
+   "highlights_zh": [
+    "以语义工程理论解释界面如何传递设计者意图",
+    "警示AI摘要引入原文没有的观点、扭曲原意",
+    "提出PEEL方法审视AI文本处理过程"
+   ],
+   "why_zh": "为AI辅助科研的可信度与责任归属提供人机交互视角。",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-16",
+   "slot": "evening",
+   "selected_at": "2026-11-16T13:31:59+00:00",
+   "mirror_pdf": "pdf/web-b43a8a12c15f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/private/j1CWHNsD9eBM7Wwc.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f81c6e2c72f1",
+   "kind": "article",
+   "title": "Docker Sandbox Kit规范：将AI智能体权限打包为OCI镜像",
+   "url": "https://www.infoq.cn/article/yV89L6iMCqSLDHeSoLxo?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Claudio Masolo"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-16T16:22:11+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/yV89L6iMCqSLDHeSoLxo?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Docker提出Sandbox Kit规范：把智能体权限打包成OCI镜像",
+   "summary_zh": "Docker发布Sandbox Kit规范，将AI智能体的权限与运行环境封装为OCI镜像，实现可移植、可审计的沙箱化部署。",
+   "highlights_zh": [
+    "以OCI镜像承载智能体权限配置，复用容器生态",
+    "提升智能体运行的可移植性与安全边界",
+    "为智能体供应链与审计提供标准化基础"
+   ],
+   "why_zh": "智能体安全与权限治理的标准化尝试，对做Agent平台与沙箱隔离的团队有参考价值。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-16",
+   "slot": "evening",
+   "selected_at": "2026-11-16T13:31:59+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/yV89L6iMCqSLDHeSoLxo?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3c03dac4e5af",
+   "kind": "article",
+   "title": "Codex、Claude Code 都卷完了，居然还能跑出黑马？整个产品，现在都可以是一个提示词",
+   "url": "https://www.infoq.cn/article/8TySw9wzqf0l90keJUNf?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "傅宇琪,Tina"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-16T14:44:28+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/8TySw9wzqf0l90keJUNf?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Codex、Claude Code之后：整个产品都可以是一个提示词",
+   "summary_zh": "文章讨论编码智能体竞争之后的新范式，认为产品形态可被压缩为一段提示词，由模型动态生成与编排。",
+   "highlights_zh": [
+    "梳理Codex、Claude Code等编码智能体的演进",
+    "提出「产品即提示词」的形态判断",
+    "探讨对软件交付与产品设计的影响"
+   ],
+   "why_zh": "对智能体时代产品形态的思辨，适合关注AI原生应用方向的从业者。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-16",
+   "slot": "evening",
+   "selected_at": "2026-11-16T13:31:59+00:00",
+   "mirror_pdf": "pdf/web-3c03dac4e5af.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/8TySw9wzqf0l90keJUNf?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5a8f4eb75e2b",
+   "kind": "article",
+   "title": "华为云发布CloudRobo具身世界模型的同时也打出了三张底牌",
+   "url": "https://www.tmtpost.com/8206773.html",
+   "pdf_url": "",
+   "abstract": "本次华为云打出的三张牌，给具身智能行业带来了一些新的可能性。",
+   "authors": [
+    "科技异端"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-16T10:36:51+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8206773.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "华为云发布CloudRobo具身世界模型",
+   "summary_zh": "华为云推出CloudRobo具身智能世界模型，并同步亮出三张配套底牌，为具身智能训练与落地提供新路径。",
+   "highlights_zh": [
+    "发布面向具身智能的世界模型CloudRobo",
+    "同时打出三张底牌，覆盖数据、算力或平台能力",
+    "为具身智能行业提供新的技术可能性"
+   ],
+   "why_zh": "了解华为在具身智能与世界模型方向的最新布局",
+   "tags": [
+    "机器人",
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-16",
+   "slot": "evening",
+   "selected_at": "2026-11-16T13:31:59+00:00",
+   "mirror_pdf": "pdf/web-5a8f4eb75e2b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8206773.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9af9cd0e0315",
+   "kind": "article",
+   "title": "百度 2026 财年第三财季归母净利润 13.95 亿元，同比扭亏为盈",
+   "url": "https://www.ithome.com/1/027/864.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 16 日消息，百度今日发布 2026 财年（2026 年 1 月～2026 年 12 月）第三财季（2026 年 7 月～2026 年 9 月）报告： 营业总收入 ：308.07 亿元，同比下降 1%，环比下降 2% 归母净利润 ：13.95 亿元，同比扭亏为盈，环比下降 39.84% 经营现金流 ：27.78 亿元，同比增长 121.18% 基本每股收益 ：0.57 元，同比扭亏为盈 稀释每股收益 ：0.54 元，同比扭亏为盈 AI 解读 本次财报百度营收基本符合市场一致预期，Non-GAAP 每 ADS 利润、调整后营业利润及调整后 EBITDA 均超出市场预期，整体表现符合 AI 转型期的稳健修复节奏。 公司与本季业绩概览 百度是国内领先的人工智能公司，以搜索引擎为核心互联网基础，全面布局 AI 云基础设施、AI 应用、智能营销、自动驾驶（Apollo Go）及爱奇艺视频等业务。本季核心财务表现如下： 总营收 308.07 亿元，同比下降 1%、环比下降 2%，其中百度一般性业务收入 249.73 亿元，同比增长 1%、环比下降 1%，爱奇艺收入 60.07 亿元，同比下降 10%、环比下降 4%。 归母净利润 13.95 亿元，实现扭亏为盈；Non-GAAP 归母净利润 23.95 亿元，Non-GAAP 净利率 8%。 经营利润 6.26 亿元，经营利润率 2%；Non-GAAP 经营利润 17.12 亿元，Non-GAAP 经营利润率 6%。 经营活动现金流 27.78 亿元，现金储备充裕，截至季末现金及投资总额达 2766 亿元。 调整后 EBITDA 44.93 亿元，调整后 EBITDA 利润率 15%。 AI 业务成为核心增长引擎 AI Cloud Infra 收入 8.2 万亿元，同比增长 94%、环比增长 11%，其中 GPU 云收入同比增长 191%、环比增长 43%，千凡 MaaS 平台外部客户 token 用量同比增长 1159%。 AI Applications 收入 2.6 万亿元，同比持平、环比增长 1%；文库与地图 AI DAU 渗透率同比提升 60.7%。 AI-native 营销服务 收入 2.4 万亿元，同比下降 15%、环比下降 7%，仍处于 AI 搜索转型期的主动收缩阶段。 百度核心 AI 驱动业务收入占百度一般性业务收入比重升至 53% ，较去年同期 39%、上一季度 50% 持续提升，AI 已成为业务核心支柱。 成本费用与盈利质量 营业成本 198.92 亿元，同比增长 9%、环比增长 4%，主要受云业务及流量获取成本上升推动，部分被内容成本下降抵消。 销售、一般及管理费用 54.6 亿元，同比下降 17%、环比增长 19%，运营效率持续改善。 研发费用 48.29 亿元，同比下降 7%、环比增长 5%，公司仍保持高强度 AI 投入。 自动驾驶与股东回报 Apollo Go 已在全球 30 个城市开展全无人运营，深圳全无人订单量环比增长约 170%，迪拜、伦敦、香港等海外市场持续扩张，累计自动驾驶里程超 3.9 亿公里。 2026 年以来通过股票回购已向股东返还 3.73 亿美元；公司首次宣派普通股股息政策，预计 2026 年底前完成首次派息。 投资价值小结 本季业绩标志着百度在传统在线广告承压的背景下，AI 云基础设施业务快速放量，推动百度一般性业务恢复同比正增长，业务结构向 AI 驱动转型的成效逐步兑现。但毛利率受云业务成本结构影响同比下滑约 5.82 个百分点，短期盈利",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-16T09:38:22+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/027/864.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "百度三季度扭亏：AI业务占核心收入53%",
+   "summary_zh": "百度2026财年Q3营收308亿元同比降1%，归母净利润13.95亿元扭亏；AI云收入同比增94%、GPU云增191%，AI驱动业务占核心收入升至53%。",
+   "highlights_zh": [
+    "AI Cloud Infra收入同比增94%，GPU云收入同比增191%",
+    "千帆MaaS平台外部客户token用量同比增长1159%",
+    "AI-native营销服务收入同比降15%，处于AI搜索转型主动收缩期"
+   ],
+   "why_zh": "观察中国头部AI公司商业化结构转型与云业务增速的一手财报数据。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-16",
+   "slot": "evening",
+   "selected_at": "2026-11-16T13:31:59+00:00",
+   "mirror_pdf": "pdf/web-9af9cd0e0315.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/027/864.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e3915f7e4cf0",
+   "kind": "article",
+   "title": "The King’s Trust and OpenAI launch £1m partnership",
+   "url": "https://openai.com/index/the-kings-trust-and-openai",
+   "pdf_url": "",
+   "abstract": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-11-16T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/the-kings-trust-and-openai",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "国王信托基金会与 OpenAI 启动百万英镑合作",
+   "summary_zh": "英国国王信托基金会与 OpenAI 投入 100 万英镑，帮助最多 2.5 万名英国年轻人掌握实用 AI 技能。",
+   "highlights_zh": [
+    "总投入 100 万英镑",
+    "目标覆盖 2.5 万名英国青年",
+    "聚焦职场实用 AI 技能培训"
+   ],
+   "why_zh": "属企业社会责任类新闻，对技术与市场判断增量有限。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 5.0,
+   "score": 0.516,
+   "date": "2026-11-16",
+   "slot": "evening",
+   "selected_at": "2026-11-16T13:31:59+00:00",
+   "mirror_pdf": "pdf/web-e3915f7e4cf0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/the-kings-trust-and-openai"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "编码智能体竞争从模型转向工作流编排与自托管",
-   "why": "腾讯LoopForge、Google Stitch技能库均以编排和复用为核心，而非模型本身。",
+   "trend": "编码智能体竞争从模型转向工作流编排与技能复用",
+   "why": "腾讯LoopForge、Google Stitch技能库、NVIDIA评测框架同期落地，标准化与可审计成新战场。",
    "refs": [
     "web-6a36938791d1",
-    "web-52adf762d407"
+    "web-52adf762d407",
+    "web-3781448153b0"
    ]
   },
   {
-   "trend": "Agent接入标准加速成型，前端与工具协议成新战场",
-   "why": "AG-UI定义交互协议、MCP服务器在Blender等工具普及，集成层标准化提速。",
+   "trend": "智能体基础设施走向协议化与沙箱化",
+   "why": "AG-UI统一前后端交互、Docker把权限封装成OCI镜像，集成与安全成本被系统性压低。",
    "refs": [
     "web-d9a650738e32",
-    "web-498022c4a5fa",
-    "web-308a8d87de57"
+    "web-f81c6e2c72f1"
    ]
   },
   {
-   "trend": "算力瓶颈从芯片蔓延至电力，供给能力成竞争焦点",
-   "why": "DeepSeek因算力限额，超聚变单列供电业务，巨头向退役航发借电。",
+   "trend": "算力瓶颈从芯片蔓延到电力与供给配额",
+   "why": "DeepSeek因算力限额、超聚变单列供电业务、巨头借退役航发供电，约束已上移至能源端。",
    "refs": [
     "web-2bf3044bbddb",
     "web-48bda7db9a67",
@@ -1261,18 +2120,19 @@
    ]
   },
   {
-   "trend": "大模型厂商转向Agent与编码场景的垂直深耕",
-   "why": "华为盘古2.1-Pro围绕Agent与编码升级，并接入AgentArts、CodeArts产品线。",
+   "trend": "推理价格战加剧，API成本成为份额杠杆",
+   "why": "DeepSeek开放全套App能力API，价格不足对手8%，直接压缩同类厂商定价空间。",
    "refs": [
-    "web-7fdb1f462eb7"
+    "web-8c8a52a2a0ab"
    ]
   },
   {
-   "trend": "AI辅助科研从演示走向可验证的理论推导",
-   "why": "OpenAI用GPT-6 Astra协助格点标准模型证明，并上线科学博客分享方法。",
+   "trend": "具身智能从演示转向系统交付与弹性算力",
+   "why": "华为CloudRobo与机器人批量下线并行，但报道强调下线不等于交付，企业转向按需智算云。",
    "refs": [
-    "web-87d7014c15ee",
-    "web-4b0fc5b701ff"
+    "web-5a8f4eb75e2b",
+    "web-5d6afaed9acc",
+    "web-400baee26cfc"
    ]
   }
  ]

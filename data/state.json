@@ -2898,7 +2898,23 @@
   "web-48bda7db9a67": "2026-11-16",
   "web-19ea599f9c52": "2026-11-16",
   "web-46b48e728e81": "2026-11-16",
-  "web-308a8d87de57": "2026-11-16"
+  "web-308a8d87de57": "2026-11-16",
+  "web-3781448153b0": "2026-11-16",
+  "web-991accffb1dc": "2026-11-16",
+  "web-14832d8209b1": "2026-11-16",
+  "web-024ecf108a4c": "2026-11-16",
+  "web-8c8a52a2a0ab": "2026-11-16",
+  "web-11e62ccf832c": "2026-11-16",
+  "web-70fcd4b516bd": "2026-11-16",
+  "web-91e58e2ea930": "2026-11-16",
+  "web-c6170c871ba2": "2026-11-16",
+  "web-400baee26cfc": "2026-11-16",
+  "web-b43a8a12c15f": "2026-11-16",
+  "web-f81c6e2c72f1": "2026-11-16",
+  "web-3c03dac4e5af": "2026-11-16",
+  "web-5a8f4eb75e2b": "2026-11-16",
+  "web-9af9cd0e0315": "2026-11-16",
+  "web-e3915f7e4cf0": "2026-11-16"
  },
  "known_links": {
   "https://www.anthropic.com/news": [
@@ -3172,46 +3188,6 @@
   ]
  },
  "runs": [
-  {
-   "at": "2026-10-27T10:21:52+00:00",
-   "slot": "evening",
-   "candidates": 183,
-   "new": 124,
-   "stale": 20,
-   "judged": 98,
-   "selected": 21,
-   "mirrored": 21,
-   "by_category": {
-    "观点": 1,
-    "技术": 4,
-    "项目": 3,
-    "资讯": 13
-   },
-   "by_source": {
-    "HF Daily Papers": 23,
-    "arXiv 新论文": 60,
-    "Hacker News": 7,
-    "OpenAI": 7,
-    "量子位": 10,
-    "极客公园": 9,
-    "IT之家": 8,
-    "爱范儿": 6,
-    "少数派": 1,
-    "雷峰网": 16,
-    "钛媒体": 7,
-    "InfoQ 中文": 6,
-    "Nathan Lambert": 1,
-    "Latent Space": 1,
-    "Jack Clark": 1,
-    "Azeem Azhar": 1,
-    "Tomasz Tunguz": 1,
-    "Zvi Mowshowitz": 1,
-    "GitHub Trending": 15,
-    "GitHub 新项目": 5
-   },
-   "llm": true,
-   "translated": 0
-  },
   {
    "at": "2026-10-27T16:21:38+00:00",
    "slot": "morning",
@@ -5768,6 +5744,41 @@
     "NVIDIA": 1,
     "GitHub Trending": 11,
     "GitHub 新项目": 9
+   },
+   "llm": true,
+   "translated": 0
+  },
+  {
+   "at": "2026-11-16T13:31:59+00:00",
+   "slot": "evening",
+   "candidates": 89,
+   "new": 54,
+   "stale": 8,
+   "judged": 54,
+   "selected": 16,
+   "mirrored": 14,
+   "by_category": {
+    "项目": 2,
+    "资讯": 14
+   },
+   "by_source": {
+    "HF Daily Papers": 8,
+    "Hacker News": 4,
+    "Sebastian Raschka": 1,
+    "量子位": 10,
+    "极客公园": 1,
+    "IT之家": 8,
+    "爱范儿": 3,
+    "少数派": 1,
+    "雷峰网": 12,
+    "钛媒体": 3,
+    "InfoQ 中文": 12,
+    "Stratechery": 1,
+    "Azeem Azhar": 1,
+    "OpenAI": 4,
+    "NVIDIA": 1,
+    "GitHub Trending": 12,
+    "GitHub 新项目": 8
    },
    "llm": true,
    "translated": 0

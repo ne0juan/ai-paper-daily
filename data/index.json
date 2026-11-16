@@ -1,12 +1,13 @@
 {
- "updated": "2026-11-16T05:05:34+00:00",
+ "updated": "2026-11-16T13:31:59+00:00",
  "days": [
   {
    "date": "2026-11-16",
-   "count": 23,
+   "count": 39,
    "slots": {
     "morning": 6,
-    "noon": 17
+    "noon": 17,
+    "evening": 16
    }
   },
   {
@@ -475,39 +476,38 @@
    }
   }
  ],
- "total": 2895,
+ "total": 2911,
  "last_run": {
-  "at": "2026-11-16T05:05:34+00:00",
-  "slot": "noon",
-  "candidates": 73,
-  "new": 43,
-  "stale": 10,
-  "judged": 43,
-  "selected": 17,
-  "mirrored": 17,
+  "at": "2026-11-16T13:31:59+00:00",
+  "slot": "evening",
+  "candidates": 89,
+  "new": 54,
+  "stale": 8,
+  "judged": 54,
+  "selected": 16,
+  "mirrored": 14,
   "by_category": {
-   "资讯": 14,
-   "项目": 3
+   "项目": 2,
+   "资讯": 14
   },
   "by_source": {
-   "HF Daily Papers": 1,
-   "Hacker News": 3,
+   "HF Daily Papers": 8,
+   "Hacker News": 4,
    "Sebastian Raschka": 1,
-   "量子位": 4,
+   "量子位": 10,
    "极客公园": 1,
-   "IT之家": 18,
-   "爱范儿": 2,
+   "IT之家": 8,
+   "爱范儿": 3,
    "少数派": 1,
-   "雷峰网": 3,
-   "钛媒体": 7,
-   "InfoQ 中文": 7,
-   "Nathan Lambert": 1,
-   "Latent Space": 1,
+   "雷峰网": 12,
+   "钛媒体": 3,
+   "InfoQ 中文": 12,
+   "Stratechery": 1,
    "Azeem Azhar": 1,
-   "OpenAI": 2,
+   "OpenAI": 4,
    "NVIDIA": 1,
-   "GitHub Trending": 11,
-   "GitHub 新项目": 9
+   "GitHub Trending": 12,
+   "GitHub 新项目": 8
   },
   "llm": true,
   "translated": 0
