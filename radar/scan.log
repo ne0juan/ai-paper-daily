@@ -1,11 +1,21 @@
-2026-11-16 13:31:59,954 INFO source hf_daily           -> 8 items
-2026-11-16 13:32:00,362 INFO source hackernews         -> 4 items
-2026-11-16 13:32:25,495 INFO source rss                -> 58 items
-2026-11-16 13:32:27,316 INFO source html_lists         -> 0 items
-2026-11-16 13:32:27,316 INFO source x                  -> 0 items
-2026-11-16 13:32:27,908 INFO source arxiv_search       -> 0 items
-2026-11-16 13:32:38,340 INFO source github             -> 20 items
-2026-11-16 13:32:38,341 INFO candidates: 89 (stale dropped 8, new 54)
-2026-11-16 13:33:28,834 INFO llm judged 54/54 (calls=7)
-2026-11-16 13:34:26,148 WARNING snapshot https://steveblank.com/2026/11/15/whats-next-for-nvidia/: blocked or empty page
-2026-11-16 13:36:02,964 INFO run done: {"at": "2026-11-16T13:31:59+00:00", "slot": "evening", "candidates": 89, "new": 54, "stale": 8, "judged": 54, "selected": 16, "mirrored": 14, "by_category": {"项目": 2, "资讯": 14}, "by_source": {"HF Daily Papers": 8, "Hacker News": 4, "Sebastian Raschka": 1, "量子位": 10, "极客公园": 1, "IT之家": 8, "爱范儿": 3, "少数派": 1, "雷峰网": 12, "钛媒体": 3, "InfoQ 中文": 12, "Stratechery": 1, "Azeem Azhar": 1, "OpenAI": 4, "NVIDIA": 1, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
+2026-11-16 20:54:31,044 INFO source hf_daily           -> 11 items
+2026-11-16 20:54:31,282 INFO source hackernews         -> 4 items
+2026-11-16 20:54:55,428 INFO source rss                -> 83 items
+2026-11-16 20:54:56,733 INFO source html_lists         -> 0 items
+2026-11-16 20:54:56,733 INFO source x                  -> 0 items
+2026-11-16 20:54:57,274 INFO source arxiv_search       -> 0 items
+2026-11-16 20:55:05,755 INFO source github             -> 20 items
+2026-11-16 20:55:05,757 INFO candidates: 118 (stale dropped 16, new 67)
+2026-11-16 20:56:00,586 INFO llm judged 62/67 (calls=9)
+2026-11-16 20:56:25,032 WARNING snapshot https://jack-clark.net/2026/11/16/import-ai-481-ai-sub-contractors-a-wet-lab-for-ai-and-subterfuge-during-development/: blocked or empty page
+2026-11-16 20:56:41,745 WARNING snapshot https://openai.com/index/our-first-phase-of-embedded-assessments: blocked or empty page
+2026-11-16 20:56:59,070 WARNING snapshot https://stratechery.com/2026/obituaries/: blocked or empty page
+2026-11-16 20:58:01,234 WARNING snapshot https://www.qbitai.com/2026/11/510542.html: Page.goto: net::ERR_TIMED_OUT at https://www.qbitai.com/2026/11/510542.html
+Call log:
+  - navigating to "https://www.qbitai.com/2026/11/510542.html", waiting until "domcontentloaded"
+
+2026-11-16 20:58:46,294 WARNING snapshot https://www.qbitai.com/2026/11/510416.html: Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "https://www.qbitai.com/2026/11/510416.html", waiting until "domcontentloaded"
+
+2026-11-16 20:59:34,572 INFO run done: {"at": "2026-11-16T20:54:30+00:00", "slot": "morning", "candidates": 118, "new": 67, "stale": 16, "judged": 62, "selected": 17, "mirrored": 12, "by_category": {"观点": 3, "资讯": 11, "技术": 2, "项目": 1}, "by_source": {"HF Daily Papers": 11, "Hacker News": 4, "量子位": 10, "极客公园": 1, "IT之家": 13, "爱范儿": 3, "少数派": 1, "雷峰网": 14, "钛媒体": 3, "InfoQ 中文": 12, "Dwarkesh Patel": 1, "Jack Clark": 1, "Stratechery": 1, "Azeem Azhar": 2, "Zvi Mowshowitz": 1, "Sebastian Raschka": 1, "Hugging Face Blog": 1, "OpenAI": 10, "NVIDIA": 8, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
