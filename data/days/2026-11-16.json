@@ -320,42 +320,959 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-87d7014c15ee",
+   "kind": "article",
+   "title": "A step toward defining the Standard Model on a lattice",
+   "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+   "pdf_url": "",
+   "abstract": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-11-15T22:00:01+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 用 GPT-6 Astra 推进格点标准模型定义",
+   "summary_zh": "OpenAI 发布研究，探索标准模型的非微扰格点定义，并称 GPT-6 Astra 协助将想法转化为详细证明，展示 AI 辅助理论物理的进展。",
+   "highlights_zh": [
+    "标准模型的非微扰格点定义候选方案",
+    "GPT-6 Astra 参与推导详细证明",
+    "AI 辅助基础物理理论研究的案例"
+   ],
+   "why_zh": "头部公司展示 AI 参与前沿理论物理证明，是科学 AI 的重要信号。",
+   "tags": [
+    "科学AI",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 8.0,
+   "score": 0.696,
+   "date": "2026-11-16",
+   "slot": "noon",
+   "selected_at": "2026-11-16T05:05:34+00:00",
+   "mirror_pdf": "pdf/web-87d7014c15ee.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/step-toward-defining-the-standard-model"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-52adf762d407",
+   "kind": "article",
+   "title": "google-labs-code/stitch-skills",
+   "url": "https://github.com/google-labs-code/stitch-skills",
+   "pdf_url": "",
+   "abstract": "Star google-labs-code / stitch-skills A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+   "authors": [],
+   "orgs": [
+    "google-labs-code"
+   ],
+   "published": "2026-11-16T05:05:34+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/google-labs-code/stitch-skills",
+     "signal": "★ 今日 +247 · TypeScript",
+     "metric": 247
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Google Labs 发布 Stitch Agent Skills 库",
+   "summary_zh": "Google Labs 开源一套遵循 Agent Skills 开放标准的技能库，配合 Stitch MCP 服务器，可在 Antigravity、Gemini CLI、Claude Code、Cursor 等编码智能体中复用。",
+   "highlights_zh": [
+    "遵循 Agent Skills 开放标准，跨编码智能体兼容",
+    "配套 Stitch MCP 服务器使用",
+    "官方 Google Labs 出品，TypeScript 实现"
+   ],
+   "why_zh": "如果你在搭建跨 Claude Code/Cursor 的智能体技能，可直接复用这套官方标准实现。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.6461,
+   "score_llm": 7.0,
+   "score": 0.6784,
+   "date": "2026-11-16",
+   "slot": "noon",
+   "selected_at": "2026-11-16T05:05:34+00:00",
+   "mirror_pdf": "pdf/web-52adf762d407.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/google-labs-code/stitch-skills"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2bf3044bbddb",
+   "kind": "article",
+   "title": "算力承压：曝 DeepSeek 应用及网页端实施限额，长对话与日额度双双受限",
+   "url": "https://www.ithome.com/1/027/597.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 16 日消息，昨日有部分用户反馈称，DeepSeek 已对 App 与网页版的长对话功能实施了使用限额。 多名用户收到平台提示，称因“算力不足，不再支持超过 7 天不活跃的长对话”。与此同时，单次输入的文字上限被缩短至 4 万字左右，每日对话额度也受到限制，当日使用量触顶后，页面会显示“因服务器繁忙，使用额度已达上限”。 截至IT之家发稿，DeepSeek 尚未就此次限额发布单独的官方公告或给出恢复时间表。 此次限额是 DeepSeek 近期算力紧张状态的延续。据 DeepSeek 官方状态页记录，2026 年 10 月以来平台已发生 8 起服务中断，涉及对话服务及 V4 Pro、V4.1 Flash 的 API。8 月至 10 月，V4.1 Flash API 的可用性为 99.46%，折算下来全年约有 47.3 小时不可用。 需求端的增长是压力来源之一。多模型聚合平台 OpenRouter 的周榜显示，10 月 19 日至 25 日一周，DeepSeek V4.1 Flash 完成 33.6 万亿 Token 调用，环比增长 801%，居全球首位；而 7 月底至 8 月初的周调用量为 7.22 万亿，不到三个月翻了四倍以上。 相关阅读： 《 DeepSeek 前端代码出现“额度耗尽”提示，开发者猜测将首次推出 C 端付费方案 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-16T03:44:18+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/027/597.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek 因算力不足对长对话与日额度实施限额",
+   "summary_zh": "DeepSeek 对 App 与网页版长对话实施限额，单次输入缩至约 4 万字并限制每日额度；官方称因算力不足，此前已多次服务中断，V4.1 Flash 周调用量环比暴增 801%。",
+   "highlights_zh": [
+    "超过 7 天不活跃的长对话不再支持，单次输入上限缩至约 4 万字",
+    "10 月以来已发生 8 起服务中断，V4.1 Flash API 可用性 99.46%",
+    "OpenRouter 周榜显示 V4.1 Flash 单周 33.6 万亿 Token，居全球首位"
+   ],
+   "why_zh": "头部开源模型厂商算力瓶颈的直接信号，反映需求爆发与供给约束的张力。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-16",
+   "slot": "noon",
+   "selected_at": "2026-11-16T05:05:34+00:00",
+   "mirror_pdf": "pdf/web-2bf3044bbddb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/027/597.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-fc352210a279",
+   "kind": "article",
+   "title": "腾讯总办号召 AI 时代再创业，官方公布原文",
+   "url": "https://www.ithome.com/1/027/509.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 16 日消息，11 月 16 日，腾讯文化发布《总办号召 AI 时代再创业，“心态归零”》一文，谈到了引发舆论热议的腾讯司庆讲话内容。 腾讯文化表示，公司 28 岁生日这天，把一年一度的总办 LinkTime 做成了一档特别的播客 —— 和总办们坐在一起，聊了聊 AI 时代的机会、挑战与选择。“ 结束之后，陆续收到各种反馈，包括传到离谱的一些外部猜测 ”。 腾讯文化在文中提到：“但面对技术变革的巨浪，没有人是旁观者。所有人都要做出选择。如果不想被颠覆，真正重要的事只有一件：一起动起来。正如 Pony 和 Martin 在 LinkTime 里谈到的，能够参与这场巨大的科技变革，并且站在前沿，这是我们的荣幸。我们的业务要站起应战，组织也要适应新的变化快速变革。” IT之家附腾讯文化官方原文如下： 公司 28 岁生日这天，我们把一年一度的总办 LinkTime 做成了一档特别的播客 —— 和总办们坐在一起，聊了聊 AI 时代的机会、挑战与选择。 结束之后，陆续收到各种反馈，包括传到离谱的一些外部猜测。 但面对技术变革的巨浪，没有人是旁观者。所有人都要做出选择。如果不想被颠覆，真正重要的事只有一件：一起动起来。正如 Pony 和 Martin 在 LinkTime 里谈到的，能够参与这场巨大的科技变革，并且站在前沿，这是我们的荣幸。我们的业务要站起应战，组织也要适应新的变化快速变革。 下面是 2026 总办 LinkTime 现场笔记（纯干货）。 1、上船应战，准备新的打法，找到新的高地 大航海时代，不进则退；工业革命，落后就挨打。现在进行的智能革命如果不投入拥抱，就是被颠覆。这是一个生死存亡的问题。 随着算力的不断投入，AI 无疑将带来范式的变革，渗透到更多行业只是时间问题。而且特点是变化速度很快，在短时间内就能实现指数级增长，也能快速去颠覆传统业务。在这个改变世界的技术里，我们要义不容辞冲在前面，坚定投入。 和之前降本增效不同，上次是被动降本，这次是主动增效 ——AI native 业务、模型和产品要逆流而上；所有业务都要面向 AI 时代再创业，实现效率和创造力的极致提升，也让我们给用户创造的价值再次提升。当下国内竞争激烈，AI 变现尤其困难，更需要把我们处于 AI 前沿的身位和洞察放到业务里面。 浪已经杀过来了。一些核心业务看起来地位稳固，但 AI 的进展飞快，远处的浪潮已经在吞没一个个山丘了，你不能还坐着欣赏。大家要着急，赶紧站起来准备新的打法，找到新的高地。陆战变海战，陆军变海军，大家都要搬运物资，转变技能，迅速上船应战。 我们正在经历一个大格局的变化，选出能够适应新的打法和新的战场的人，必须干脆、直截了当。组织也要扁平化。核心业务原来是陆军守，要升级、提效，一半人负责守住，另一半人去打新的战役，一起用 AI 干更多的事。现在不是和平年代了，大家不能自以为站在高处很安全，或者等着人哄、谈好条件利益才上船。 2、做以人为本的 AI，能投是荣幸 现在大家都关心 AI 会不会安全，会不会对人产生负面影响。我们有自己的核心价值观。这个世界需要多样化的 AI，才能把 AI 变得安全。我们要做以人为本的 AI：首先要坚持 AI 必须造福人类和社会；第二 AI 必须是由人控制的；第三，AI 要让人的创造力得到赋能。这就是我们为什么要大力投入 AI 的原因。 投入很大，是因为 AI 发展还在早期，当前所有基建和算力都需要自建，而且在所有人都投入的情况下，价格飞涨。但如果现在不投，以后可能连参与的机会也没有。但我们也非常务实，不仅看长期和全",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-16T02:03:09+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/027/509.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯总办号召AI时代再创业：心态归零，全员上船",
+   "summary_zh": "腾讯28周年之际，总办发文号召全员以「心态归零」投入AI时代再创业，提出业务要主动增效、组织扁平化、一半人守核心一半人打新战役，并强调做以人为本、由人控制的AI。",
+   "highlights_zh": [
+    "定性为生死存亡问题：智能革命不投入即被颠覆，要求核心业务面向AI再创业",
+    "组织与人才打法调整：扁平化、干脆选人，核心业务一半守成一半开拓新战场",
+    "明确AI价值观三条：造福人类、由人控制、赋能人的创造力"
+   ],
+   "why_zh": "头部大厂最高层对AI战略的公开定调，反映组织与资源投入方向，值得关注其后续动作。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-16",
+   "slot": "noon",
+   "selected_at": "2026-11-16T05:05:34+00:00",
+   "mirror_pdf": "pdf/web-fc352210a279.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/027/509.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-498022c4a5fa",
+   "kind": "article",
+   "title": "hitkeeen/blender-ai-mcp-addon",
+   "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+   "pdf_url": "",
+   "abstract": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.\nREADME: # mcp-for-blender-pro ### Your Blender scene. Your AI models. One creative workspace. **An AI assistant for Blender that can inspect your scene, build objects, edit materials, find assets and carry out multi-step workflows—with a visual chat workspace and a built-in Model Context Protocol (MCP) server.** ![Blender 4.2+](https://img.shields.io/badge/Blender-4.2%2B-E87D0D?logo=blender&logoColor=white) ![Release 1.0.0](https://img.shields.io/badge/release-1.0.0-98D85B) ![Windows x64](https://img.shields.io/badge/download-Windows_x64-357EC7) ![MIT](https://img.shields.io/badge/license-MIT-blue) [Download](https://github.com/hitkeeen/blender-ai-mcp-addon/releases/latest) · [Getting started](docs/QUICKSTART.md) · [Connections and agents](docs/CONNECTIONS.md) ![AI chat workspace with a live Blender scene preview](docs/images/studio.png) ## Turn a creative brief into scene operations Start with an idea. Ask the assistant to inspect your scene, create a product-display layout, arrange objects, assign materials or prepare an export. Follow its actions in the conversation and inspect the result in the viewport preview. Keep working in Blender throughout the process. **mcp-for-blender-pro brings conversation, scene tools, model choice and agent workflows together.** It is designed for artists who want faster iteration, technical artists who automate repetitive work, and developers connecting AI tools to Blender. ## Why choose mcp-for-blender-pro? | Capability | What it gives you | |---|-",
+   "authors": [],
+   "orgs": [
+    "hitkeeen"
+   ],
+   "published": "2026-11-16T05:05:34+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+     "signal": "★ 1,637（新项目）",
+     "metric": 1637
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Blender AI MCP 插件：用自然语言操控 3D 场景",
+   "summary_zh": "为 Blender 4.2+ 提供 AI 助手与内置 MCP 服务器，可通过对话检查场景、建模、改材质并执行多步工作流，兼容 GPT/Claude/Gemini/Ollama。",
+   "highlights_zh": [
+    "内置 MCP 服务器，支持多家模型接入",
+    "可视化聊天工作区与实时视口预览",
+    "支持多智能体工作流与 bpy 脚本"
+   ],
+   "why_zh": "如果你在做 3D 内容自动化，可用它把自然语言指令转成 Blender 场景操作。",
+   "tags": [
+    "智能体",
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6007,
+   "score_llm": 6.0,
+   "score": 0.6003,
+   "date": "2026-11-16",
+   "slot": "noon",
+   "selected_at": "2026-11-16T05:05:34+00:00",
+   "mirror_pdf": "pdf/web-498022c4a5fa.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/hitkeeen/blender-ai-mcp-addon"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8468cd1c9400",
+   "kind": "article",
+   "title": "Qwen4-Max",
+   "url": "https://qwen.ai/blog?id=qwen4-max",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-16T02:14:44Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50513215",
+     "signal": "239 pts",
+     "metric": 239
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Qwen4-Max 现身 Hacker News",
+   "summary_zh": "Qwen4-Max 在 Hacker News 获 239 分讨论，但候选信息仅有标题，缺乏具体发布细节与参数。",
+   "highlights_zh": [
+    "Hacker News 239 分热度",
+    "疑似阿里通义千问新旗舰模型",
+    "缺少官方发布细节"
+   ],
+   "why_zh": "若关注国产大模型旗舰迭代可跟进，但需补充官方信息再判断。",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.577,
+   "score_llm": 6.0,
+   "score": 0.5908,
+   "date": "2026-11-16",
+   "slot": "noon",
+   "selected_at": "2026-11-16T05:05:34+00:00",
+   "mirror_pdf": "pdf/web-8468cd1c9400.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://qwen.ai/blog?id=qwen4-max"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50513215"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-09b6328501a6",
+   "kind": "article",
+   "title": "曝黄仁勋考虑重返英伟达担任 CEO；苹果计划明年发布首款智能眼镜；OpenAI 撤销独立机器人研究团队",
+   "url": "http://www.geekpark.net/news/373994",
+   "pdf_url": "",
+   "abstract": "曝黄仁勋考虑重返英伟达担任 CEO，盟友正施压董事会 据英国《金融时报》周日报道，黄仁勋正考虑重返英伟达担任首席执行官。如今他在硅谷的多位盟友正向英伟达董事会施压，要求公司重新任命他。 报道称，黄仁勋已经和亲信讨论了重返公司的可能性。与此同时，英伟达董事会还在开展独立调查。 一位黄仁勋的盟友表示，他们正在组建一个由硅谷高管构成的「作战室」，游说黄仁勋重返英伟达，并计划争取白宫方面支持。该人士透露：「除了那些前沿 AI 实验室外，科技界所有大腕都爱戴黄仁勋。」他还补充称，这些行动得到了黄仁勋本人的支持。 不过，与其他创始人、CEO 不同，黄仁勋并没有英伟达的控股股份，因此无法推翻董事会任何决定。（来源：IT之家） 传苹果计划明年 WWDC 发布首款智能眼镜 据彭博社记者 Mark Gurman 披露，苹果计划在 2027 年 6 月举行的 WWDC 全球开发者大会上发布首款 AI 智能眼镜，并于当年年底前正式上市。这款产品内部代号为 N50，目前硬件设计已基本定型。 外观方面，苹果智能眼镜比 Meta 第二代 Ray-Ban 智能眼镜更加纤薄，摄像头直接集成在镜框内部，没有明显凸起。苹果还准备了多种款式和配色，并重点优化音质、传感器及佩戴体验。 与传统 AR 眼镜不同，苹果首代智能眼镜不会显示增强现实画面，而是以 AI 语音助手 Siri 为核心，通过摄像头感知周围环境，实现建筑识别、实时翻译、导航指引等功能。 硬件方面，原型机运行精简版 visionOS 28 系统，搭载基于 Apple Watch 芯片开发的处理器，支持 Wi-Fi 连接及磁吸充电，甚至可以边佩戴边充电。 值得注意的是，苹果智能眼镜并非完全独立的设备，需要搭配较新款 iPhone 使用，不支持 Android 手机。复杂的计算任务主要由 iPhone 承担，开发者也无需专门开发眼镜应用。（来源：快科技） OpenAI 撤销独立机器人研究团队 近日，OpenAI 向《财富》确认，已经撤销独立机器人研究团队。 原机器人研究人员进入首席研究官 Mark Chen 领导的核心研究部门，机器人应用和硬件人员则转入总裁 Greg Brockman 负责的 Applied 部门。 公司表示，机器人仍是其长期技术愿景的重要组成部分，此次调整是为了加快研发进度。 值得一提的是，这是一个来得有些突然的消息。今年 9 月，OpenAI 还在大规模招聘机器人研发人员，部分岗位开出的基本年薪高达 50 万美元。年初，公司旧金山机器人数据采集实验室已有约 100 名工作人员，还在规划第二处实验室。（来源：凤凰网科技） 华为将发布首款昇腾原生具身世界模型 华为云宣布将于 11 月 16 日 14:00-15:30 举办线上发布会，正式发布首款昇腾原生的具身世界模型，支撑具身智能从实验室走向千行百业规模化落地。 据了解，该模型的名称是 CloudRoboWM1.2。按照已披露议程，这款具身世界模型将由华为云具身产品线总裁、具身智能 Lab 主任吴小东发布，华为云具身智能 Lab 首席模型专家刘流将对华为云具身世界模型架构和能力进行解读，华为云具身智能产业生态负责人丁志彬则将围绕 CloudRobo 生态共建发表演讲。 此前，华为云于 2025 年 6 月发布 CloudRobo 具身智能平台，今年 6 月，华为云正式发布「行业 AI 梦工厂·具身智能专区」。（来源：财联社） 研究员破解 Switch 2 实现操控特斯拉：方向盘、油门、刹车都能控制 汽车网络安全研究员马修 · 库卡尼奇（Matthew KuKa",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-16T00:47:39+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/373994",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "黄仁勋或重返英伟达；OpenAI 撤销独立机器人团队",
+   "summary_zh": "极客公园早报汇总：传黄仁勋考虑重返英伟达任 CEO、苹果明年发 AI 眼镜、OpenAI 撤销独立机器人团队、华为将发具身世界模型。",
+   "highlights_zh": [
+    "OpenAI 撤销独立机器人团队，人员并入核心研究与 Applied 部门",
+    "华为云将于 11 月 16 日发布昇腾原生具身世界模型 CloudRoboWM1.2",
+    "苹果首款 AI 眼镜传 2027 年 WWDC 发布"
+   ],
+   "why_zh": "一篇文章覆盖多条影响行业格局的动向",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-11-16",
+   "slot": "noon",
+   "selected_at": "2026-11-16T05:05:34+00:00",
+   "mirror_pdf": "pdf/web-09b6328501a6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/373994"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4b0fc5b701ff",
+   "kind": "article",
+   "title": "Our new blog for science",
+   "url": "https://openai.com/index/our-new-blog-for-science",
+   "pdf_url": "",
+   "abstract": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-11-15T22:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/our-new-blog-for-science",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 推出科学博客，分享 AI 科研实践",
+   "summary_zh": "OpenAI 上线科学博客，发布 AI 辅助科学发现的新成果、实用方法与研究者一手经验。",
+   "highlights_zh": [
+    "OpenAI 官方开设科学垂直博客",
+    "内容聚焦 AI 加速科学发现的方法与实践",
+    "面向科研人员的一手经验分享"
+   ],
+   "why_zh": "观察 OpenAI 在科学 AI 方向的落地路径与生态布局",
+   "tags": [
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 6.0,
+   "score": 0.576,
+   "date": "2026-11-16",
+   "slot": "noon",
+   "selected_at": "2026-11-16T05:05:34+00:00",
+   "mirror_pdf": "pdf/web-4b0fc5b701ff.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/our-new-blog-for-science"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-00656bb581ad",
+   "kind": "article",
+   "title": "AI公司转型最难的一步：如何构建AI Native的产品体系",
+   "url": "https://www.leiphone.com/category/ai/pzBYjjLW3Cjb6AAO.html",
+   "pdf_url": "",
+   "abstract": "企业把大模型接进产品之后，新的经营问题才刚刚展开。客户提出一项任务，系统能拿到哪些信息，由谁核准结果，出现例外时如何处理，都会影响AI能否持续投入使用。产品演示中的能力，需要经由完整的服务过程才能转化为客户价值。 王强宇出任百望股份首席执行官（CEO），为观察这项变化提供了一个具体切口：王强宇如何将百望的财税场景积累转化为专业模型与智能体产品，并让研发、交付和组织能力共同支撑商业化。 产品的交付单位开始发生变化 在传统软件服务中，功能上线、接口联通与流程配置，是重要的交付内容。AI进一步参与工作后，客户会关心一次任务能否可靠完成，以及整个过程需要多少人工干预。 以交易核对为例，系统可能要在授权范围内读取发票、合同和付款记录，找到差异，列出依据，再把需要确认的事项交给相关岗位。对客户而言，价值取决于问题是否被准确识别、后续处理是否顺畅，以及投入的时间是否减少。 这改变了产品设计的起点。团队需要明确服务哪类任务、满足什么条件可以执行、哪些情况应当停止或转交人工。模型、数据、工具和复核机制，需要围绕同一项任务组合。 百望已推出AI财税专家团，在开票、记账和申报等服务中引入自然语言交互、标准化任务执行，并保留规则校验与人工确认。 沿着这一方向向更复杂的财税业务深入，可靠完成任务的能力将变得更加重要。 这也是王强宇出任CEO值得关注的原因。产品服务范围扩大之后，研发投入、客户承诺和交付保障之间的取舍，往往需要公司经营层面统筹。 让数据和专业判断进入同一条任务链 百望的转型基础来自长期财税与交易服务，但这些积累要经过专业加工，才能成为AI可以使用的依据。 同一笔业务，不同系统可能使用不同的客户名称、合同编号和记录口径。数据需要核对关联，规则需要注明适用条件，权限需要随任务执行。否则，即使模型能够解释财税概念，也可能无法判断眼前材料是否足够。 专业领域垂直模型在这里承担专业理解与推理任务，知识系统提供持续更新的资料，智能体连接工具与工作流程。对于税额计算、规则校验等要求确定性的环节，还需要相应的程序和专业机制支撑。各层如何配合，应由任务要求和评测结果决定。 Salesforce与英伟达推出的CRM推理模型Koa，提供了一个企业软件公司的参照：在开放模型基础上进行后训练，将企业工作流知识用于专业任务。按其公告，Koa训练使用合成场景，并未使用客户数据。专业能力可以通过多种方式形成，关键在于是否理解业务、是否能够接受验证。 对于百望，模型建设与数据治理需要同步推进。经授权的业务信息、经过确认的专业知识，以及任务中的质量记录，应当分别管理、按需调用。业务反馈进入模型或产品改进之前，也需要专业审核与用途确认。 客户现场能否改善下一次交付 企业AI进入实际环境，经常需要重新理解客户的业务语言与流程。同样是合同核对，不同企业的管理制度、字段定义和系统接口，都会改变实施方式。 王强宇此前谈及的FDE，即前沿部署工程师，正是连接模型能力与客户现场的一种组织方式。工程人员与行业专家共同厘清问题，确定所需数据、规则和工具，让方案在真实环境中接受检验。 这项工作的经营价值，还取决于现场经验能否被复用。例如，团队在一个项目中完善了发票与合同的匹配方法，或识别出一类需要人工复核的例外，就需要判断它能否形成通用组件、规则模板或评测用例。 后续客户因此减少重复开发与试错，才意味着公司的产品能力随项目增长而积累。相应地，交付周期、标准组件复用情况和单项目服务投入，都可以成为观察这种积累的依据。 在部署方面，私有化或算力一体机可以回应部分客户对数据控制、系统接入与运行环境的需求。具体方案仍要结",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-16T02:12:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/pzBYjjLW3Cjb6AAO.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI 公司转型最难一步：构建 AI Native 产品体系",
+   "summary_zh": "以百望股份新任 CEO 为切口，分析企业 AI 产品从功能交付转向任务可靠完成，需模型、数据、工具与 FDE 现场交付协同。",
+   "highlights_zh": [
+    "交付单位从功能上线变为「任务可靠完成」",
+    "垂直模型、知识系统与智能体需按任务组合并接受评测",
+    "FDE 前沿部署工程师连接模型能力与客户现场，经验需组件化复用"
+   ],
+   "why_zh": "对企业 AI 落地与产品化路径有实操参考价值",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-16",
+   "slot": "noon",
+   "selected_at": "2026-11-16T05:05:34+00:00",
+   "mirror_pdf": "pdf/web-00656bb581ad.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/pzBYjjLW3Cjb6AAO.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5d6afaed9acc",
+   "kind": "article",
+   "title": "具身智能：AI走向物理世界，还差几步",
+   "url": "https://www.tmtpost.com/8206268.html",
+   "pdf_url": "",
+   "abstract": "2026年，资本、模型和制造同时加速，机器人开始批量走下生产线，但下线不等于交付，演示不等于胜任。具身智能能否真正跨越产业之门，取决于技术能否被组织成稳定工作的系统，并在真实场景中持续创造价值。",
+   "authors": [
+    "猫头鹰科技社"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-16T03:46:00+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8206268.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "具身智能：跨越产业之门的几步之遥",
+   "summary_zh": "钛媒体分析2026年具身智能现状：资本、模型、制造加速，机器人批量下线，但下线不等于交付、演示不等于胜任，关键在于技术能否组织成稳定系统并在真实场景持续创造价值。",
+   "highlights_zh": [
+    "资本、模型与制造三端同时加速，机器人开始批量走下生产线",
+    "核心矛盾：下线不等于交付，演示不等于胜任",
+    "能否跨越产业之门取决于技术被组织成稳定工作系统的能力"
+   ],
+   "why_zh": "对具身智能产业化节奏的冷静判断，适合把握机器人落地真实进度",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-16",
+   "slot": "noon",
+   "selected_at": "2026-11-16T05:05:34+00:00",
+   "mirror_pdf": "pdf/web-5d6afaed9acc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8206268.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-29b70f12675f",
+   "kind": "article",
+   "title": "拆飞机供电？AI公司的算力焦虑已经卷到电力端",
+   "url": "https://www.tmtpost.com/8206355.html",
+   "pdf_url": "",
+   "abstract": "订单排到2031年，AI巨头被逼向民航退役航发 \"借电\"。",
+   "authors": [
+    "硅碳变量"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-16T03:25:49+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8206355.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI算力焦虑蔓延至电力端：巨头向退役航发借电",
+   "summary_zh": "钛媒体报道AI公司算力扩张带来的电力瓶颈：订单排到2031年，AI巨头被迫向民航退役航空发动机借电，算力竞争正向上游供电环节延伸。",
+   "highlights_zh": [
+    "AI算力需求激增导致电力供应成为新瓶颈",
+    "订单排期已到2031年，供电缺口显著",
+    "巨头开始向民航退役航发等非常规渠道借电"
+   ],
+   "why_zh": "揭示算力扩张的真实约束正从芯片转向电力，是理解AI基础设施瓶颈的重要视角",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-16",
+   "slot": "noon",
+   "selected_at": "2026-11-16T05:05:34+00:00",
+   "mirror_pdf": "pdf/web-29b70f12675f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8206355.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d0ffabc1ccb4",
+   "kind": "article",
+   "title": "退货这件苦差事，机器人不只搬箱子了",
+   "url": "https://www.tmtpost.com/8206264.html",
+   "pdf_url": "",
+   "abstract": "双11结束了，退货仓里的忙碌才刚刚开始。过去，自动化设备已经接手了不少工作。如今，双臂机器人又开始直接抓取、识别和分拣退回来的商品。一场围绕退货处理的人机分工变化，正在仓库里发生。",
+   "authors": [
+    "具身志"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-16T02:00:25+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8206264.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "退货仓里的机器人：从搬箱子到抓取分拣",
+   "summary_zh": "双11后退货仓成机器人新战场，双臂机器人开始直接识别、抓取和分拣退回商品，人机分工在退货处理环节发生变化。",
+   "highlights_zh": [
+    "退货处理成为仓储自动化的新落地场景",
+    "双臂机器人从搬运升级到抓取识别分拣",
+    "反映具身智能在物流后端的实际渗透"
+   ],
+   "why_zh": "观察具身智能落地真实场景的一线案例，比发布会更有说服力。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-16",
+   "slot": "noon",
+   "selected_at": "2026-11-16T05:05:34+00:00",
+   "mirror_pdf": "pdf/web-d0ffabc1ccb4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8206264.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8bdd1de23101",
+   "kind": "article",
+   "title": "华为麒麟 9050 系列芯片智能音视频处理情报公开：低延迟 AI 异构协同计算、率先支持 H.266 解码",
+   "url": "https://www.ithome.com/1/027/574.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 16 日消息，华为官方今日继续揭秘首款「逻辑折叠」技术 τ 芯片 —— 麒麟 9050 系列更多配置信息， 今日最新公开了智能音视频处理能力的情报 。 据介绍，华为麒麟 9050 系列芯片搭载新一代音视频处理器， 音频性能提升 30% ，支持新一代音频 DSP、H.266 视频硬解码和低延迟 AI 异构协同计算。 通过 DSP+NPU 异构协同，麒麟 9050 系列带来 AI 静谧通话功能； 率先支持 H.266 硬解码 ，对比 H.265，弱网直播卡顿降低 50-70%、 同网速下分辨率提升一档 、同分辨率下播放时长提升 2-3 小时。 据IT之家此前报道，今年 10 月，华为半导体业务无线终端芯片产品管理部部长徐松余表示， 麒麟 9050 系列在中国半导体产业界的支持下成功量产 。他呼吁半导体产业界和学术界的合作和支持，未来属于开放合作，没有一家企业可以独自解答所有答案。 相关阅读： 《 华为麒麟 9050 系列芯片新一代巴龙 AI Modem 情报公开：首创融合通信架构、业界首发四卡三待 》 《 华为麒麟 9050 系列新马良 GPU、AI ISP 情报公开：实装二代硬件光追，首次实现 2 亿像素融合拍照 》 《 华为麒麟 9050 系列芯片新一代灵犀 CPU 详细信息公开：9 核 16 线程并行调度，支持内存压缩加速 》 《 华为麒麟 9050 系列芯片官宣搭载新一代达芬奇架构 NPU，业界首个 30B MoE 大模型入端 》 《 首款「逻辑折叠」技术 τ 芯片：华为详解麒麟 9050 系列核心升级，晶体管密度暴涨 53.5% 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-16T03:16:33+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/027/574.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "华为麒麟 9050 公开音视频能力：低延迟 AI 异构协同",
+   "summary_zh": "华为披露麒麟 9050 系列音视频处理能力，音频性能提升 30%，率先支持 H.266 硬解码，并通过 DSP+NPU 异构协同实现 AI 静谧通话；此前已官宣业界首个 30B MoE 大模型入端。",
+   "highlights_zh": [
+    "DSP+NPU 异构协同带来低延迟 AI 音频处理",
+    "率先支持 H.266 硬解码，弱网直播卡顿降低 50-70%",
+    "同系列达芬奇 NPU 支持 30B MoE 大模型端侧运行"
+   ],
+   "why_zh": "端侧大模型与芯片异构算力协同的国产进展，关注端侧 AI 落地可读。",
+   "tags": [
+    "效率与系统",
+    "语音"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-16",
+   "slot": "noon",
+   "selected_at": "2026-11-16T05:05:34+00:00",
+   "mirror_pdf": "pdf/web-8bdd1de23101.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/027/574.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-48bda7db9a67",
+   "kind": "article",
+   "title": "从华为剥离五年，超聚变募80亿冲IPO，服务器老二为何盯上能源？算力下一战，拼的是供电",
+   "url": "https://www.tmtpost.com/8206373.html",
+   "pdf_url": "",
+   "abstract": "超聚变拟募80亿，将供电架构单列成新业务线。",
+   "authors": [
+    "预见能源"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-16T03:19:25+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8206373.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "超聚变募80亿冲IPO，算力下一战拼供电",
+   "summary_zh": "从华为剥离五年的超聚变拟募资80亿冲刺IPO，将供电架构单列为新业务线，反映服务器厂商正把竞争焦点转向算力配套的电力供给能力。",
+   "highlights_zh": [
+    "超聚变拟募80亿，服务器市场份额居第二",
+    "供电架构被单列成新业务线",
+    "算力竞争焦点向供电环节转移"
+   ],
+   "why_zh": "从厂商战略看算力基础设施的供电化趋势，含一定行业增量信息",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-11-16",
+   "slot": "noon",
+   "selected_at": "2026-11-16T05:05:34+00:00",
+   "mirror_pdf": "pdf/web-48bda7db9a67.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8206373.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-19ea599f9c52",
+   "kind": "article",
+   "title": "豆包工作新功能「工作台」上线，首批覆盖金融、医疗、教育等 21 个专业场景",
+   "url": "https://www.ithome.com/1/027/608.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 16 日消息，豆包工作今天宣布独家上线「工作台」功能， 首批覆盖金融、医疗、教育等 21 个专业场景 。 据介绍，豆包工作的「工作台」是为用户专业工作场景打造的专属 AI 工作空间。这里预先配置好了专业场景所需技能、工具，大幅降低 AI 使用门槛，提高工作效率。 例如，金融投研工作台首页提供公告解读、业绩分析、市场简报、公司研究等常用任务入口。该工作台打通了各类专业金融数据，可通过插件按需链接万得、同花顺、国泰海通等数据服务。创意设计工作台覆盖海报设计、社媒配图、品牌视觉等常用技能。 此外，用户还可以自建个人专属工作台，支持定制工作需求、偏好，保存后还可分享。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-16T04:27:33+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/027/608.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "豆包工作上线「工作台」，覆盖21个专业场景",
+   "summary_zh": "豆包工作推出预配置技能与工具的「工作台」，首批覆盖金融、医疗、教育等21个专业场景，并支持用户自建专属工作台。",
+   "highlights_zh": [
+    "金融工作台打通万得、同花顺等数据插件",
+    "场景内预置任务入口降低使用门槛",
+    "支持自建工作台并分享"
+   ],
+   "why_zh": "看AI办公产品如何从通用助手转向垂直场景封装。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 6.0,
+   "score": 0.496,
+   "date": "2026-11-16",
+   "slot": "noon",
+   "selected_at": "2026-11-16T05:05:34+00:00",
+   "mirror_pdf": "pdf/web-19ea599f9c52.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/027/608.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-46b48e728e81",
+   "kind": "article",
+   "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
+   "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
+   "pdf_url": "",
+   "abstract": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions, Deepu Talla, vice president of robotics and edge AI at NVIDIA, said Korea is “punching above its weight,” with Doosan Robotics, Hyundai […]",
+   "authors": [
+    "NVIDIA Writers"
+   ],
+   "orgs": [
+    "NVIDIA"
+   ],
+   "published": "2026-11-16T00:00:28+00:00",
+   "sources": [
+    {
+     "name": "NVIDIA",
+     "authority": 0.75,
+     "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "英伟达首尔 AI Day 聚焦物理 AI 与智能体",
+   "summary_zh": "英伟达在首尔举办 AI Day，2000 余人参会，聚焦物理 AI 与智能体，并称韩国在机器人领域表现突出。",
+   "highlights_zh": [
+    "超 2000 名开发者与初创企业参会",
+    "主题为物理 AI 与 AI 智能体",
+    "斗山机器人、现代等韩企参与"
+   ],
+   "why_zh": "了解英伟达在韩国机器人生态的区域布局",
+   "tags": [
+    "机器人",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 5.0,
+   "score": 0.492,
+   "date": "2026-11-16",
+   "slot": "noon",
+   "selected_at": "2026-11-16T05:05:34+00:00",
+   "mirror_pdf": "pdf/web-46b48e728e81.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-308a8d87de57",
+   "kind": "article",
+   "title": "credoksopho1984/blender-ai-copilot-studio",
+   "url": "https://github.com/credoksopho1984/blender-ai-copilot-studio",
+   "pdf_url": "",
+   "abstract": "An AI copilot and MCP server for Blender that turns plain-language briefs into scene operations—inside a visual chat studio with multi-agent teams, your choice of AI models, and 27 built-in scene tools. · blender-ai-copilot-studio · blender ai · ai for blender · blender copilot · blender ai copilot · blender ai assistant · blender mcp server",
+   "authors": [],
+   "orgs": [
+    "credoksopho1984"
+   ],
+   "published": "2026-11-16T05:05:34+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/credoksopho1984/blender-ai-copilot-studio",
+     "signal": "★ 513（新项目）",
+     "metric": 513
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Blender AI Copilot Studio",
+   "summary_zh": "又一个 Blender AI 助手与 MCP 服务器，把自然语言简报转成场景操作，含多智能体团队与 27 个内置场景工具。",
+   "highlights_zh": [
+    "27 个内置场景工具",
+    "多智能体团队协作",
+    "支持自选 AI 模型"
+   ],
+   "why_zh": "与同批 Blender MCP 项目高度同质，功能重叠，优先级低。",
+   "tags": [
+    "智能体",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.5599,
+   "score_llm": 4.0,
+   "score": 0.464,
+   "date": "2026-11-16",
+   "slot": "noon",
+   "selected_at": "2026-11-16T05:05:34+00:00",
+   "mirror_pdf": "pdf/web-308a8d87de57.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/credoksopho1984/blender-ai-copilot-studio"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "编码智能体竞争从模型转向工作流编排与私有化部署",
-   "why": "腾讯开源LoopForge可编排多家编码智能体并内置审批门，强调自托管，说明企业更看重可控落地而非单一模型。",
+   "trend": "编码智能体竞争从模型转向工作流编排与自托管",
+   "why": "腾讯LoopForge、Google Stitch技能库均以编排和复用为核心，而非模型本身。",
    "refs": [
-    "web-6a36938791d1"
+    "web-6a36938791d1",
+    "web-52adf762d407"
    ]
   },
   {
-   "trend": "Agent与前端交互协议标准化，集成成本成为新竞争点",
-   "why": "AG-UI试图统一Agent接入前端的交互协议，降低前后端对接成本，标志生态层开始补基础设施短板。",
+   "trend": "Agent接入标准加速成型，前端与工具协议成新战场",
+   "why": "AG-UI定义交互协议、MCP服务器在Blender等工具普及，集成层标准化提速。",
    "refs": [
-    "web-d9a650738e32"
+    "web-d9a650738e32",
+    "web-498022c4a5fa",
+    "web-308a8d87de57"
    ]
   },
   {
-   "trend": "国产开源模型加速向Agent与编码场景定向优化",
-   "why": "盘古openPangu-2.1-Pro围绕Agent开发与AI编码升级并接入华为云产品线，显示开源模型正绑定平台生态落地。",
+   "trend": "算力瓶颈从芯片蔓延至电力，供给能力成竞争焦点",
+   "why": "DeepSeek因算力限额，超聚变单列供电业务，巨头向退役航发借电。",
+   "refs": [
+    "web-2bf3044bbddb",
+    "web-48bda7db9a67",
+    "web-29b70f12675f"
+   ]
+  },
+  {
+   "trend": "大模型厂商转向Agent与编码场景的垂直深耕",
+   "why": "华为盘古2.1-Pro围绕Agent与编码升级，并接入AgentArts、CodeArts产品线。",
    "refs": [
     "web-7fdb1f462eb7"
    ]
   },
   {
-   "trend": "AI就业影响进入净增岗位叙事，市场预期转向结构性调整",
-   "why": "Gartner预测2030年前净增约170万岗位，但超4.35亿人需适应变化，说明关注点从替代转向技能重构。",
+   "trend": "AI辅助科研从演示走向可验证的理论推导",
+   "why": "OpenAI用GPT-6 Astra协助格点标准模型证明，并上线科学博客分享方法。",
    "refs": [
-    "web-5b698d58c4c2"
-   ]
-  },
-  {
-   "trend": "AI作弊事件推动国家资格考试评测与防作弊机制升级",
-   "why": "韩国税务师考试头名用AI作弊被查，政府全面排查并出台措施，考试评测方法面临系统性重构。",
-   "refs": [
-    "web-fe7842bbce6a"
+    "web-87d7014c15ee",
+    "web-4b0fc5b701ff"
    ]
   }
  ]
