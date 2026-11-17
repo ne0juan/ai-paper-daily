@@ -920,47 +920,1021 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-001ab62efdc4",
+   "kind": "article",
+   "title": "Strategic Decision or Structural Advantage?",
+   "url": "https://tomtunguz.com/two-pricing-strategies-in-enterprise-ai/",
+   "pdf_url": "",
+   "abstract": "Sixteen weeks of Databricks Unity Gateway telemetry across 10,000+ enterprises show Anthropic & OpenAI splitting the market by tier. Anthropic captures 94% of frontier SOTA tokens & 70% of proprietary spend, while OpenAI captures 81% of low-end tokens & coincides with open-weight share stalling at 31% after cutting Luna prices by 90%.",
+   "authors": [
+    "Tomasz Tunguz"
+   ],
+   "orgs": [
+    "Tomasz Tunguz"
+   ],
+   "published": "2026-11-16T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Tomasz Tunguz",
+     "authority": 0.75,
+     "url": "https://tomtunguz.com/two-pricing-strategies-in-enterprise-ai/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Theory Ventures 创始人，AI 投资",
+   "title_zh": "Anthropic 与 OpenAI 按层级分食企业市场",
+   "summary_zh": "Tomasz Tunguz 基于 Databricks 一万多家企业十六周网关遥测数据发现：Anthropic 拿下 94% 前沿 SOTA token 与 70% 专有模型支出，OpenAI 则占据 81% 低端 token，且 Luna 降价 90% 后开源权重份额仍停滞在 31%。",
+   "highlights_zh": [
+    "前沿能力市场几乎被 Anthropic 垄断，专有模型支出占七成",
+    "OpenAI 靠大幅降价守住低端 token 体量，但未能撬动开源权重份额",
+    "企业 AI 采购呈现明显的按能力层级分层格局"
+   ],
+   "why_zh": "用真实企业网关数据量化两家头部模型厂商的市场分层，是判断模型商业化走向的硬证据。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 9.0,
+   "score": 0.76,
+   "date": "2026-11-17",
+   "slot": "noon",
+   "selected_at": "2026-11-17T06:53:39+00:00",
+   "mirror_pdf": "pdf/web-001ab62efdc4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://tomtunguz.com/two-pricing-strategies-in-enterprise-ai/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-88573e8357bc",
+   "kind": "article",
+   "title": "全村希望，千问 4 Max 正式发布，2.4 万亿参数模型「进厂打工」",
+   "url": "http://www.geekpark.net/news/374079",
+   "pdf_url": "",
+   "abstract": "作者｜桦林舞王 编辑｜靖宇 底座架构重写，单任务成本暴降近六成，阿里把旗舰模型拉进了真实排班表。 终于，一款国产旗舰模型现身了。 11 月 16 日，阿里千问正式发布新一代旗舰模型 Qwen4-Max。就在五天前，它的预览版 qwen4-max-preview 刚在 Token Plan 里低调露过面，今天正式版直接亮出了完整底牌。 新模型依然维持着 2.4 万亿（2.4T）的主干总参数规模，原生支持文本、图像和视频输入，上下文窗口拉到了 100 万 Token。不过比参数表更显眼的，是官方同时给出的一笔账单：在模拟真实工作场景的评测里，千问 4 Max 跑完单个任务的平均费用， 从上一代的 26.58 元降到了 11.16 元，直接砍掉 58% 。 千问团队这次释放的信号很明确，旗舰大模型单纯拼纸面考分的阶段翻篇了，现在的目标是把模型塞进真实工作流，当一个能扛长活、也算得过账的「新同事」。 01 给 2.4 万亿参数的巨兽「减负」 过去一年，行业里没少见识号称百万上下文的模型。但真把几十万字的项目文档或者一整个代码库丢进去，很多模型到了后半程就开始注意力涣散、输出卡顿，账单还贵得吓人。要让「新同事」在 100 万上下文和长程 Agent 任务里跑得稳、跑得省，光靠外围工程补丁已经不够了，必须动底层架构。 千问 4 Max 这次在底座上做了三处关键调整，核心逻辑都是把算力花在刀刃上。 先看负责记忆的注意力层。如果让模型在长文本里每写一个字，都要回头把前面几十万字逐字重读一遍，算力开销会急剧膨胀。千问换上了混合方案（GDN 加 Qwen Sparse Attention），每 4 层网络里，有 3 层负责把看过的历史信息压缩成固定大小的状态往前传，剩下 1 层按区块挑重点信息细看。这就像一个老练的秘书，平时在脑子里记着会议纪要主线，关键时刻才去翻具体某一页的原件，长上下文自然就不卡顿了。 千问 4 Max 模型在模型功能中的对比｜图片来源：千问 模型参数推高到 2.4 万亿，训练时最怕遇到数据洪流冲垮网络，也就是工程师常说的损失值尖峰（loss spike）。千问在残差层引入了门控机制（Gated Residual），把原本单线传输的信息通道扩充成 4 条并行分支，还在路口加了调节开关。这套设计让 2.4 万亿这么大的盘子从头到尾平稳跑完了预训练。 在嵌入层，千问还在第二层加了一套 328B 规模的词组查表机制（N-gram Embedding）。遇到常见搭配直接查表提取特征，不怎么多花计算量，就把模型的知识容量撑了起来。 这三刀改完，千问 4 Max 每个 Token 只激活 71B 参数，比上一代少了约 25%，但脑子反而更好使了。 在内部的知识、代码、问答和 STEM 综合评测里，底座模型 Qwen4-Max-Base 的数据压缩效率指标（BPB，越低代表预测越准）在 5 个参评模型里降到了最低，比前代 Qwen3.8-Max-Base 压低了 5% 到 13%。 虽然说不看榜单，但是千问 4 Max 的评分依然不错。在覆盖 26 个一级领域、182 个二级子领域和 721 个三级细分领域的 Work360 行业基准测试中，千问 4 Max 拿到了 52.69 分，比前代 Qwen3.8-Max 的 47.74 分涨了一截；同时在 Xhigh 和 High 两档思考强度下，它的 Token 消耗分别减少了约 24% 和 35%，到了更硬核的 Terminal-Bench 4.0 终端任务里更是少了约 48% 和 49%。 叠加阿里云百炼同步下",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-17T06:41:48+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/374079",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "阿里发布千问4 Max：2.4万亿参数，单任务成本降58%",
+   "summary_zh": "阿里发布旗舰模型Qwen4-Max，2.4万亿总参数、百万上下文，重写底座架构后单任务成本降58%，主打真实工作流与长程Agent任务。",
+   "highlights_zh": [
+    "混合注意力（GDN+稀疏注意力）每4层3层压缩历史、1层细看重点，长上下文更稳更省",
+    "门控残差与328B N-gram嵌入让2.4万亿参数预训练平稳，每Token仅激活71B",
+    "Work360行业基准52.69分超前代，官方称旗舰模型比拼纸面考分的阶段已翻篇"
+   ],
+   "why_zh": "国产旗舰模型转向真实工作流与成本效率，是观察大模型竞争重心迁移的关键样本。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 9.0,
+   "score": 0.708,
+   "date": "2026-11-17",
+   "slot": "noon",
+   "selected_at": "2026-11-17T06:53:39+00:00",
+   "mirror_pdf": "pdf/web-88573e8357bc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/374079"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-735df09c2ed1",
+   "kind": "article",
+   "title": "Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs",
+   "url": "https://latent.space/p/bfl/",
+   "pdf_url": "",
+   "abstract": "Black Forest Labs’ case for learning AGI from pixels, motion and sound.",
+   "authors": [
+    "swyx .ai"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-11-16T21:38:03+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/bfl/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Black Forest Labs：从像素、运动与声音中学习 AGI",
+   "summary_zh": "Black Forest Labs 的 Andreas Blattmann 与 Dustin Podell 在 Latent Space 访谈中主张，视觉、运动与音频等多模态感知才是通往 AGI 的关键路径，而非纯文本路线。",
+   "highlights_zh": [
+    "Flux 系列背后的团队阐述「从像素学 AGI」的技术立场",
+    "强调视频与运动信息对世界理解的价值",
+    "对当前以语言为中心的 AGI 叙事提出替代路线"
+   ],
+   "why_zh": "头部图像生成团队对 AGI 路线的公开判断，有助于理解多模态方向的技术押注。",
+   "tags": [
+    "多模态",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-11-17",
+   "slot": "noon",
+   "selected_at": "2026-11-17T06:53:39+00:00",
+   "mirror_pdf": "pdf/web-735df09c2ed1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/bfl/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0f2a855bc6a8",
+   "kind": "article",
+   "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+   "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+   "pdf_url": "",
+   "abstract": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference. NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, delivered more than 10x generational gains in throughput per watt for agentic AI — measuring how much agentic […]",
+   "authors": [
+    "Shruti Koparkar"
+   ],
+   "orgs": [
+    "NVIDIA"
+   ],
+   "published": "2026-11-16T16:00:25+00:00",
+   "sources": [
+    {
+     "name": "NVIDIA",
+     "authority": 0.75,
+     "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "英伟达Vera Rubin首秀MLPerf，横扫训练与智能体推理",
+   "summary_zh": "英伟达Vera Rubin平台首次参加MLPerf，包揽Training v6.1全部基准，并在首个Endpoints提交中实现智能体AI每瓦吞吐量超10倍代际提升。",
+   "highlights_zh": [
+    "Vera Rubin首次亮相MLPerf即横扫全部训练基准",
+    "首次提交MLPerf Endpoints，智能体推理能效提升超10倍",
+    "覆盖训练、后训练与智能体推理全流程"
+   ],
+   "why_zh": "了解英伟达下一代平台在权威基准上的真实性能定位，判断算力供给走向。",
+   "tags": [
+    "效率与系统",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 8.0,
+   "score": 0.672,
+   "date": "2026-11-17",
+   "slot": "noon",
+   "selected_at": "2026-11-17T06:53:39+00:00",
+   "mirror_pdf": "pdf/web-0f2a855bc6a8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d1c011e92db4",
+   "kind": "article",
+   "title": "Measuring alignment eval tells",
+   "url": "https://metr.org/notes/2026-11-16-measuring-alignment-eval-tells/",
+   "pdf_url": "",
+   "abstract": "Summary Models sometimes can tell that an eval is an alignment eval, not a capabilities eval (Needham & Edkins, 2025) . To figure out what features of an eval tell a model what kind of eval it’s in, we run investigator agents on a set of evals for both capabilities and alignment. We instruct these agents to explore the environment and probe what it’s evaluating. We find that investigator agents are increasingly able to tell capability and alignment evals apart, and that they do this by noticing that an environment “looks fake” and figuring out that a task is a “honeypot” designed to make an agent do something bad. Motivation Alignment evals are often made by mocking capabilities evals and deployment situations Suppose we wanted to make an alignment eval that measured a model’s propensity to escape a sandbox. Here, we’d make situations that mirrored the capability evals, RL environments, and deployment situations where we thought the model might try to escape the sandbox. For instance, we might want to include situations similar to the Hugging Face incident to our eval suite. Alignment evals are often inspired by empirical cases like those mentioned above. The more similar they are to those cases, the more reason we have to believe that our alignment measurement will generalize to those other situations. Alignment evals can be different from capabilities evals and deployment situations Imagine that our sandbox escape alignment eval is noticeably more toy than the real cases wh",
+   "authors": [
+    "METR"
+   ],
+   "orgs": [
+    "METR"
+   ],
+   "published": "2026-11-16T08:00:00+00:00",
+   "sources": [
+    {
+     "name": "METR",
+     "authority": 0.85,
+     "url": "https://metr.org/notes/2026-11-16-measuring-alignment-eval-tells/",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "前沿模型能力评测机构",
+   "title_zh": "METR：模型越来越能识破对齐评测",
+   "summary_zh": "METR用调查智能体探测评测环境，发现模型越来越能区分能力评测与对齐评测，线索是环境“看起来假”或任务像“蜜罐”。",
+   "highlights_zh": [
+    "对齐评测常模仿能力评测与真实部署场景，相似度越高越易被识破",
+    "调查智能体主动探索环境、试探评测目标，可系统定位“破绽”特征",
+    "若模型识别出自己在被测对齐，测量结果可能失真，威胁评测有效性"
+   ],
+   "why_zh": "对齐评测本身正被模型识破，直接关系安全评测结论是否可信。",
+   "tags": [
+    "对齐与安全",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-11-17",
+   "slot": "noon",
+   "selected_at": "2026-11-17T06:53:39+00:00",
+   "mirror_pdf": "pdf/web-d1c011e92db4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://metr.org/notes/2026-11-16-measuring-alignment-eval-tells/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-856ae7fe99a5",
+   "kind": "article",
+   "title": "🔮 What Anthropic is really listing",
+   "url": "https://www.exponentialview.co/p/what-anthropic-is-really-listing",
+   "pdf_url": "",
+   "abstract": "Tithes, not tokens",
+   "authors": [
+    "Azeem Azhar"
+   ],
+   "orgs": [
+    "Azeem Azhar"
+   ],
+   "published": "2026-11-16T16:36:16+00:00",
+   "sources": [
+    {
+     "name": "Azeem Azhar",
+     "authority": 0.8,
+     "url": "https://www.exponentialview.co/p/what-anthropic-is-really-listing",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Exponential View 创始人",
+   "title_zh": "Anthropic 真正在卖的是什么",
+   "summary_zh": "Azeem Azhar 认为 Anthropic 的商业模式本质是「收什一税而非卖 token」，即凭借模型能力在生态中抽取固定比例价值，而非按用量计费的普通 API 生意。",
+   "highlights_zh": [
+    "把 Anthropic 定位为生态征税者而非算力零售商",
+    "对按 token 计价的传统叙事提出质疑",
+    "从商业模式角度解读头部模型公司的护城河"
+   ],
+   "why_zh": "知名科技评论人对头部模型公司商业本质的判断，适合关注 AI 变现路径的读者。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.648,
+   "date": "2026-11-17",
+   "slot": "noon",
+   "selected_at": "2026-11-17T06:53:39+00:00",
+   "mirror_pdf": "pdf/web-856ae7fe99a5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.exponentialview.co/p/what-anthropic-is-really-listing"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e80f443398db",
+   "kind": "article",
+   "title": "OpenAI 和 Meta 联手，打通了 Agent 商业「最后一公里」",
+   "url": "http://www.geekpark.net/news/374075",
+   "pdf_url": "",
+   "abstract": "作者｜桦林舞王 编辑｜靖宇 Agent 能进门了，也能付钱了。 Agent 替用户「消费」的时代，终于到来了。 美国时间 2026 年 11 月 13 日，两家公司两场发布会同天发生。一边是企业级对话式智能体公司 Sierra 联合 Meta 正式发布个 人代理协议 Poppy v1.0，解决助手怎么「进门」的问题 ；另一边是 OpenAI 推出面向个人助手 dots 的 ChatGPT Wallet， 解决助手怎么「付钱」的问题 。 同一天打通进门和结账，本身就足够耐人寻味。更值得留意的，是站在两套方案背后的同一批名字。Visa 和 Mastercard 同时出现在两边的名单里，Shopify、Stripe 这些掌管电商与支付基础设施的公司，则站在 Poppy 的核心伙伴之列。 Agent 的下一场竞争，表面上看是巨头抢入口，底层的暗线却是一场围绕商业通道的提前占位。 01 个人 Agent 协议，PPP Sierra 与 Meta 联合发布个人代理协议 Poppy v1.0｜图片来源：Sierra 官方博客 过去，个人助手访问企业网站只能像个隐身访客，商家看不清来者是谁，更不敢把查订单、改地址、订机票或金融预审这类敏感操作交给它。 Meta 和 Sierra 推出的 Poppy 要解决的核心就是信任 ，它让企业在接到请求时，能用密码学手段确认三件事——来敲门的是哪个助手、它代表哪位用户、到底拿了多少权限。 Poppy 协议的核心，是「门牌」、「地基」和「双向授权」。 「门牌」 。接入 Poppy 的企业，会在网站标准路径/.well-known/poppy 下放一份配置文件。你可以把它想象成贴在店铺门口的访客指南，写清楚开放了哪些通信端点、怎么登录、允许执行哪些操作。助手找上门时，不用再去瞎猜网页按钮怎么点，先看门牌就能按规矩办事。 「地基」 。Poppy 没有推翻互联网现有的通信方式，它直接建立在 OAuth 授权、HTTPS 加密传输、OpenAPI 以及模型上下文协议之上。如果用户只是查商品价格，助手可以作为匿名访客对话；一旦涉及账户操作，就必须走授权登录，让企业验明正身。 「双向授权」 。用户这一端可以决定，向助手开放只读权限，还是允许修改信息与交易；企业那一端则划定外部助手在自家地盘上最多能走多远。两边都点头，一次交互才算成立。 从发布信息来看，Sierra 与 Meta 联手推动这套协议，可以说非常互补。由前 Salesforce 联席首席执行官 Bret Taylor 与前 Google 高管 Clay Bavor 创立的 Sierra，主业是帮企业打造自有客服智能体，天然坐在「接待方」一侧；Meta 旗下的个人助手 Muse 则是典型的「来访方」，需要敲开无数网站的大门。接待方和来访方各出了一半力气，才凑成这次标准落地。目前 Muse 访问参与站点时，已经默认优先查找并调用 Poppy 协议。 开放协议最怕遇到先有鸡还是先有蛋的冷启动难题。这一次真正帮 Poppy 跨过门槛的，是电商基础设施巨头 Shopify。 协议发布的同时，Shopify 直接为全球 175 多个国家的每一位商家自动开启并生成了 Poppy 发现文件，不需要商家任何手动配置。再加上超过 100 家设计合作伙伴里，囊括了达美航空、1Password、Okta 和 Cloudflare 等各行业代表，这套门禁系统在第一天就铺开了不小的覆盖面。 02 不碰现金的 Agent 解决了进门问题，接下来的难关是付钱。 让 Agent 帮自己掏钱包，大多数人的本能反应",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-17T06:24:52+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/374075",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI与Meta同日出手，打通Agent商业最后一公里",
+   "summary_zh": "Sierra联合Meta发布个人代理协议Poppy v1.0解决助手身份与授权，OpenAI推出ChatGPT Wallet解决支付，Visa、万事达与Shopify同时站台。",
+   "highlights_zh": [
+    "Poppy用密码学确认助手身份、代表用户与权限范围，建立在OAuth、HTTPS与MCP之上",
+    "Shopify为175国商家自动生成Poppy发现文件，绕开开放协议冷启动难题",
+    "支付与入口同日打通，巨头争夺的暗线是Agent商业通道的提前占位"
+   ],
+   "why_zh": "Agent从能干活走向能进门、能付钱，协议标准之争将决定下一阶段入口格局。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-11-17",
+   "slot": "noon",
+   "selected_at": "2026-11-17T06:53:39+00:00",
+   "mirror_pdf": "pdf/web-e80f443398db.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/374075"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-392307639684",
+   "kind": "article",
+   "title": "百度李彦宏警告 AI 泡沫风险：当前 AI 行业上层应用落地成效不及预期",
+   "url": "https://www.ithome.com/1/028/225.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 17 日消息，2026 年 APEC 工商领导人峰会于今日在深圳举办。 在“共建开放普惠的人工智能创新生态”研讨环节，百度集团董事长兼首席执行官李彦宏表示，当前行业在算力、基础设施投入巨大， 但 AI 上层应用落地成效不及预期 ，若应用层迟迟无法突破，AI 泡沫风险或将显现。 尽管如此， 李彦宏对 AI 长期发展趋势保持乐观 ，百度 AI 业务收入占比未来将持续提升。 李彦宏提出，AI 技术栈除芯片、云、模型、应用外， 应用之上还需要配套的组织能力 。类比电力革命，仅有先进技术，缺少适配的组织变革就难以释放经济价值。 据IT之家此前报道，在 11 月 12 日的百度世界大会 2026 活动中， 李彦宏就预言人工智能的下一幕是智能组织 。 李彦宏表示，如果 AI 是新的电能， 那么智能组织就是 AI 时代新的厂房 ，是生产力真正发生的地方。只有匹配 AI 各种新能力的组织方式落地了，生产力才会大幅度提升，经济才能加速成长。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-17T05:01:28+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/028/225.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "李彦宏警告AI泡沫风险：应用落地不及预期",
+   "summary_zh": "李彦宏在APEC峰会指出，算力与基础设施投入巨大但AI上层应用落地成效不及预期，若应用层无法突破，泡沫风险或将显现；他提出应用之上还需配套组织能力，类比电力革命需要新厂房。",
+   "highlights_zh": [
+    "算力与基础设施投入巨大，但应用层落地成效不及预期，泡沫风险隐现",
+    "提出AI技术栈需在应用之上叠加组织能力，类比电力革命需要适配的组织变革",
+    "重申AI下一幕是智能组织，长期仍看好百度AI收入占比提升"
+   ],
+   "why_zh": "头部公司CEO对AI泡沫的明确判断，是把握行业周期与市场情绪的关键信号。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-17",
+   "slot": "noon",
+   "selected_at": "2026-11-17T06:53:39+00:00",
+   "mirror_pdf": "pdf/web-392307639684.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/028/225.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0a16f7fe0cdf",
+   "kind": "article",
+   "title": "宇树王兴兴称机器人模型泛化是当下最棘手问题：希望到千家万户能立马干活，而不用重新训练",
+   "url": "https://www.ithome.com/1/028/220.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 17 日消息，2026 年 APEC 工商领导人峰会 11 月 17 日至 18 日在深圳举办，主题为“共促繁荣，共赢未来”。 宇树科技股份有限公司董事长王兴兴在峰会上表示，最近几年国内乃至全球的机器人行业都非常热，原因是大家看到了纯语言或文字的 AI 模型在个人生活、办公中的价值越来越大，大家希望机器人也借助 AI 真正干活，解决工作上的问题。但他坦言，目前的挑战不少。当下最大的几个挑战中，第一个就是模型的泛化能力问题。 我们希望一台机器人到任何的千家万户，一个模型、一台机器人，它都可以干活、马上干活，而不是说我换一个场景，它就要重新训练一下 。 王兴兴认为，泛化能力是当下最棘手的问题。不过他也表示，结合今年全球的技术突破， 已经看到了突破的临界点，可能比较快了 。 王兴兴提到，他最近经常思考的问题是，如果明年机器人 AI 模型真正大突破，那么当下以及未来几年最重要的事情是什么？在他看来，这方面的挑战同样不小 ——AI 模型真的突破以后， 它本身对机器人的生产制造、可靠性、售后服务都是很大的考验 。像我们现在一年可能就生产个几万台机器人，但未来比如说一下子让我们生产几百万台或者几千万台，这个挑战其实依旧非常大。 此外，他还提到是算力的问题。未来我觉得对算力的需求， 可能远超目前绝大部分人的想象 。基础层领域的算力需求也非常大。包括后续机器人安全性等各方面的问题，挑战都还是非常大。 综合IT之家此前报道， 在 2026 世界物理 AI 大会暨宇树合作伙伴生态大会上 ，王兴兴曾表示全世界几乎所有人，对 AI 的重视程度和信仰都还不够，包括他自己。 王兴兴表示，随着 GPT-6 的发布，目前物理 AI 已经看到被击穿的苗头，很可能最近 1-2 年或 2-3 年，目前具身智能迈过 ChatGPT 时刻的最核心挑战是 AI 模型的输入输出和真实机器人的对齐。他认为，在商业服务的落地会比家庭、工业领域更快些。 王兴兴还透露， 宇树科技未来重点在攻克机器人大脑技术 ，除了宇树科技自身的技术突破，还将在全球范围寻求合作，看好物理 AI 技术，并致力于突破。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-17T04:43:24+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/028/220.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "王兴兴：机器人模型泛化是当下最棘手问题",
+   "summary_zh": "宇树王兴兴认为机器人最大挑战是模型泛化——希望一台机器人到任何家庭都能直接干活而无需重新训练，但他表示已看到突破临界点；同时预警模型突破后产能、可靠性与算力需求将成新考验。",
+   "highlights_zh": [
+    "泛化能力是当下最棘手问题，换场景即需重训是落地最大障碍",
+    "结合今年全球技术突破，已看到突破临界点，可能比较快",
+    "预警模型突破后几百万台产能、可靠性与售后服务挑战，算力需求远超想象"
+   ],
+   "why_zh": "具身智能头部创业者对技术瓶颈与突破时点的判断，是机器人赛道的重要风向标。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-17",
+   "slot": "noon",
+   "selected_at": "2026-11-17T06:53:39+00:00",
+   "mirror_pdf": "pdf/web-0a16f7fe0cdf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/028/220.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-536906be1a0c",
+   "kind": "article",
+   "title": "百度世界2026｜让金融AI用得起、更专业，度小满“轩辕”探索中小机构落地新路径",
+   "url": "https://www.leiphone.com/category/industrynews/JDoXug7VZqSjkQrQ.html",
+   "pdf_url": "",
+   "abstract": "11月12日，百度世界2026在北京举行，大会聚焦 AI 时代下如何提升组织能力。百度创始人李彦宏在开幕式上判断，人工智能的下一幕是“智能组织”，并首次提出“组织进化三原则”：打破岗位边界、沉淀隐性知识、设计流程闭环。“如果说，人工智能是新电能。那么，智能组织就是AI时代的新厂房，是生产力真正发生的地方。” 本届大会期间，百度围绕“芯云模体”四层架构，发布多项成果：正式推出大模型交易平台词元所，发布文心大模型5.5 Flash预览版及两款文心应用模型；百度搭子、库库、百度一镜、伐谋四大智能体迎来升级；百度智能云正式发布天池1024卡超节点，昆仑芯公布新的产品计划，萝卜快跑全球化运营再提速。 “智能组织”或将成为AI时代组织进化方向，金融行业也在持续探索如何将AI能力真正融入业务流程、推动组织效率提升。 对于中小金融机构而言，智能化升级既要解决业务中的实际问题，也要兼顾技术投入与应用成本。面对专业人才、技术资源和场景验证等方面的挑战，如何让AI以可控成本进入风控、信审、客户服务等业务环节，成为中小金融机构推进智能化的重要课题。 近日，度小满与香港科技大学、香港生成式人工智能研发中心（HKGAI）在2026香港金融科技周联合发布轩辕4.5金融增强大模型，将自进化（RSI）技术用于模型训练与智能体场景适配。在所测金融场景中，轩辕4.5以约通用顶级模型十分之一的推理成本，实现了更强的金融场景能力。对于需要持续运行智能体、兼顾应用效果与投入成本的中小金融机构，这一能力组合有助于降低AI应用的成本门槛。 目前，基于“轩辕”，度小满已构建上千个智能体、5000余项技能，日均Token使用量超过1000亿。这些智能体已深入风控、信审、客户服务和客户经营等业务环节，通过独立执行任务、与员工协作以及必要时由人工接手的方式，提升业务响应速度与服务效率。 在风险管理方面，据度小满披露，其智能风控已全面由智能体驱动，风险策略随环境变化动态自进化，迭代周期压缩一半以上；在自身业务实践中，短期逾期风险下降约50%，信贷年化逾期风险整体降低12%。这些实践为中小金融机构运用AI提升风险管理能力提供了场景参考。 在信审与贷后环节，度小满AI信审员的审核能力超过80%的人工信审员，客户等待时长由10分钟缩短至2分钟；AI贷后专员独立作业的催回率，较传统机器人提升8%以上。从缩短客户等待时间到提升贷后作业效果，智能体正逐步融入金融业务流程。 在客户服务和客户经营环节，智能体则为扩大服务覆盖提供了新的可能。度小满客服Agent可独立处理80%的高频问题，并能判断用户意图、调用工具解决复杂业务问题，其余问题由人工兜底。企微Agent为客户经理提供沟通策略与话术建议，一名客户经理加上企微Agent，可服务的客户数提升至2万人，工作量相当于原来10名客户经理。对人力资源相对有限的中小金融机构而言，这类人机协作方式，为提升客户响应效率、扩大服务范围提供了可借鉴的路径。 度小满表示，未来将依托轩辕金融大模型，向中小金融机构输出经过自身业务验证的AI能力与实践经验，以产品化方案推动智能体在风控、信审、客户服务等场景落地，帮助中小金融机构降低技术门槛与试错成本，让“组织进化”从度小满的实践，转化为更多金融机构可复制、可应用的能力。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-16T04:00:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/JDoXug7VZqSjkQrQ.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "度小满发布轩辕4.5金融大模型，推理成本仅通用模型十分之一",
+   "summary_zh": "度小满联合港科大发布轩辕4.5金融增强大模型，用自进化技术适配金融场景，以约通用顶级模型十分之一的推理成本实现更强金融能力，已支撑上千智能体、日均千亿Token。",
+   "highlights_zh": [
+    "自进化（RSI）技术用于训练与智能体场景适配",
+    "金融场景推理成本约为通用顶级模型的1/10",
+    "已落地风控、信审、客服，短期逾期风险降约50%"
+   ],
+   "why_zh": "看垂直行业大模型如何用低成本推理切入中小金融机构落地",
+   "tags": [
+    "大模型",
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-17",
+   "slot": "noon",
+   "selected_at": "2026-11-17T06:53:39+00:00",
+   "mirror_pdf": "pdf/web-536906be1a0c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/JDoXug7VZqSjkQrQ.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-910ef20e93ee",
+   "kind": "article",
+   "title": "思灵人形机器人完成 5 亿美元融资背后，真正产生收入的业务却是产线自动化？",
+   "url": "https://www.tmtpost.com/8208200.html",
+   "pdf_url": "",
+   "abstract": "工厂才是产品。",
+   "authors": [
+    "AGI-Signal"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-17T05:55:50+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8208200.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "思灵融资 5 亿美元，收入却靠产线自动化",
+   "summary_zh": "思灵人形机器人完成 5 亿美元融资，但真正产生收入的业务是产线自动化，揭示人形机器人商业化落差。",
+   "highlights_zh": [
+    "人形机器人融资热度与真实营收结构错位",
+    "工业自动化成为现阶段现金流来源",
+    "对具身智能商业化节奏提出质疑"
+   ],
+   "why_zh": "看清人形机器人赛道的收入真相与估值逻辑",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-17",
+   "slot": "noon",
+   "selected_at": "2026-11-17T06:53:39+00:00",
+   "mirror_pdf": "pdf/web-910ef20e93ee.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8208200.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b69aebba81f6",
+   "kind": "article",
+   "title": "美国纳管AI算力远程获取，海外数据中心出租算力将须许可",
+   "url": "https://www.tmtpost.com/8207829.html",
+   "pdf_url": "",
+   "abstract": "这项规则对AI投资周期意味着什么？",
+   "authors": [
+    "硅谷Tech news"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-17T03:32:00+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8207829.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "美国拟对海外算力出租实施许可制",
+   "summary_zh": "美国计划将 AI 算力远程获取纳入管制，海外数据中心对外出租算力须获许可，影响全球算力供给格局。",
+   "highlights_zh": [
+    "算力出口管制从芯片延伸到服务层",
+    "海外数据中心商业模式面临合规重构",
+    "可能拉长 AI 投资回报周期"
+   ],
+   "why_zh": "算力政策变化直接影响 AI 基础设施投资判断",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-17",
+   "slot": "noon",
+   "selected_at": "2026-11-17T06:53:39+00:00",
+   "mirror_pdf": "pdf/web-b69aebba81f6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8207829.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1658e2ae8e42",
+   "kind": "article",
+   "title": "Seedance 正杀死爱奇艺们",
+   "url": "https://www.tmtpost.com/8207907.html",
+   "pdf_url": "",
+   "abstract": "2016 年，《如懿传》开机，总投资 3 亿，六百人的剧组，五地转场，264 个拍摄日。2026 年，一个宝妈，哄睡完孩子，坐回电脑前，手搓她的 AI 短剧。",
+   "authors": [
+    "偏科声"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-17T02:05:21+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8207907.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Seedance 正在冲击长视频平台",
+   "summary_zh": "文章以 AI 短剧生产为例，讨论 Seedance 等视频生成模型如何压低内容制作成本，冲击爱奇艺等传统平台。",
+   "highlights_zh": [
+    "视频生成把影视制作成本压缩数个量级",
+    "个人创作者可独立完成短剧生产",
+    "长视频平台的内容护城河被削弱"
+   ],
+   "why_zh": "理解视频生成对内容产业的实质性冲击",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-17",
+   "slot": "noon",
+   "selected_at": "2026-11-17T06:53:39+00:00",
+   "mirror_pdf": "pdf/web-1658e2ae8e42.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8207907.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7f0a066d6d68",
+   "kind": "article",
+   "title": "AMD 高管：AI 不会取代超级计算机，高精度计算仍不可替代",
+   "url": "https://www.ithome.com/1/028/245.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 17 日消息，科技媒体 Tom's Hardware 昨日（11 月 16 日）发布博文，报道称 AMD 负责高性能计算（HPC）与主权 AI 的企业副总裁 Scott Tease 表示，多数 HPC 研究机构已经认识到，AI“永远不会取代”传统高性能计算。 即便 AI 应用持续扩张，依赖双精度 FP64 的高精度科学计算仍将长期存在。 图源：AMD Tease 指出，AI 擅长处理低精度、容错度较高的数据，适合模型训练、推理和快速筛选；但气候模拟、核能、材料、流体力学、化学与国家安全等前沿研究，为了保证复杂仿真结果的可靠性与可重复性，仍需要 FP64 级别的数值精度。 IT之家援引博文介绍，Tease 主张认为，未来科研算力不应是“AI 取代 HPC”，而应构建异构计算体系，协同连接 CPU、GPU、AI 加速器、传统超级计算机与量子计算机， 让系统自动判断哪些任务交给 AI、哪些交给 GPU 加速、哪些必须进入量子环境。 图源：IBM 在探索方面，AMD 正与 IBM 在橡树岭国家实验室推进试点，将 AMD 的“经典”计算栈、Umbra HPC 系统与 IBM 的 129 量子比特 Quantum Nighthawk 量子计算机接入橡树岭领导计算设施，希望探索量子纠错、AI 辅助科研和传统仿真的融合路径，并评估未来混合量子系统所需的架构、软件与工作流。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-17T06:34:57+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/028/245.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AMD高管：AI不会取代超算，FP64高精度仍不可替代",
+   "summary_zh": "AMD的Scott Tease认为AI擅长低精度容错任务，气候、核能、材料等仿真仍需FP64超算，未来应是异构协同。",
+   "highlights_zh": [
+    "AI与HPC是互补而非替代关系",
+    "主张CPU、GPU、AI加速器与量子计算异构协同调度",
+    "AMD与IBM在橡树岭试点经典HPC加129量子比特系统"
+   ],
+   "why_zh": "对算力路线判断有参考价值，适合关注科学AI与基础设施者。",
+   "tags": [
+    "科学AI",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-17",
+   "slot": "noon",
+   "selected_at": "2026-11-17T06:53:39+00:00",
+   "mirror_pdf": "pdf/web-7f0a066d6d68.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/028/245.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-71a538cd932d",
+   "kind": "article",
+   "title": "AI 找漏洞太快：Anthropic 收紧披露规则，高危漏洞缓冲期从 90 天变 30 天",
+   "url": "https://www.ithome.com/1/028/236.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 17 日消息，Anthropic 昨日（11 月 16 日）发布公告，宣布自 2027 年 1 月 1 日开始，大幅收紧其“协调漏洞披露”政策， 对“高危”（high）以及“关键”（critical）级别漏洞披露期限从 90 天调整到 30 天，而其它级别漏洞收窄到 45 天。 IT之家援引博文介绍，该政策适用于 2027 年 1 月 1 日及之后向供应商或开源维护者报告的漏洞；此前已进入处理流程的报告仍按原时限执行。 Anthropic 表示，过去 90 天的缓冲期建立在“漏洞能较长时间保持私密”的假设上，且同一漏洞被不同研究者独立发现的概率较低。但如今 AI 不仅能更高效地发现漏洞，也可能帮助开发修复方案，漏洞被重复发现的风险随之上升。 除缩短披露窗口外，Anthropic 还将加速响应流程。若维护者在收到初始漏洞报告后 15 天内（此前为 30 天）未回应，公司将提前寻求外部漏洞协调机构介入。同时，补丁发布后，Anthropic 将等待 30 天（此前为 45 天），再公开完整技术细节。对于正在被主动利用的漏洞，其 7 天披露时限保持不变。 新政策也考虑到部分系统难以快速修复的现实。涉及关键基础设施、需要修改技术规范或 RFC 的漏洞，可能无法在 30 天或 45 天内完成修复；Anthropic 表示将与相关供应商协商合理的修复时间表。 Anthropic 同时宣布，对已超过原 90 天时限、但尚未公开的高危和严重漏洞，将给予维护者额外 30 天修复期；自 2027 年 1 月 1 日起，未修复的报告将按新政策在其漏洞披露平台公开。 相关阅读： 《 应对 AI 漏洞挖掘挑战：谷歌 Project Zero 计划将逐步缩短漏洞公开披露期限至 30 天 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-17T06:12:03+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/028/236.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic收紧漏洞披露：高危缓冲期90天缩至30天",
+   "summary_zh": "因AI加速漏洞发现与重复发现风险上升，Anthropic自2027年起将高危漏洞披露期从90天缩至30天。",
+   "highlights_zh": [
+    "高危与关键漏洞披露窗口缩至30天，其余45天",
+    "维护者15天未响应即引入外部协调机构",
+    "关键基础设施类漏洞可协商修复时间表"
+   ],
+   "why_zh": "反映AI改变安全攻防节奏，安全与平台团队值得关注。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-17",
+   "slot": "noon",
+   "selected_at": "2026-11-17T06:53:39+00:00",
+   "mirror_pdf": "pdf/web-71a538cd932d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/028/236.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a48c24a12145",
+   "kind": "article",
+   "title": "提速2.48倍且画质不掉线，AI视频“降本增效”有了新解法",
+   "url": "https://www.qbitai.com/2026/11/510369.html",
+   "pdf_url": "",
+   "abstract": "是石科技最新发布多模态模型服务",
+   "authors": [
+    "思邈"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-16T03:07:39+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/510369.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "是石科技发布多模态模型服务，AI视频提速2.48倍",
+   "summary_zh": "是石科技发布多模态模型服务，称AI视频生成提速2.48倍且画质不降，主打推理降本增效。",
+   "highlights_zh": [
+    "面向AI视频生成的服务化提速方案",
+    "宣称2.48倍加速且画质不掉线",
+    "属厂商发布，缺乏第三方复现数据"
+   ],
+   "why_zh": "视频生成推理成本是落地瓶颈，可关注其加速思路，但需警惕厂商口径。",
+   "tags": [
+    "多模态",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-11-17",
+   "slot": "noon",
+   "selected_at": "2026-11-17T06:53:39+00:00",
+   "mirror_pdf": "pdf/web-a48c24a12145.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/510369.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4ea895ebe95b",
+   "kind": "article",
+   "title": "haziqahmedqasmi/PeakCut",
+   "url": "https://github.com/haziqahmedqasmi/PeakCut",
+   "pdf_url": "",
+   "abstract": "AI clipping for long videos and live streams. Self-hosted, bring your own AI key.",
+   "authors": [],
+   "orgs": [
+    "haziqahmedqasmi"
+   ],
+   "published": "2026-11-17T06:53:39+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/haziqahmedqasmi/PeakCut",
+     "signal": "★ 700（新项目） · Python",
+     "metric": 700
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "PeakCut：可自托管的长视频 AI 剪辑工具",
+   "summary_zh": "面向长视频与直播的开源 AI 剪辑工具，支持自托管并自带 AI key。",
+   "highlights_zh": [
+    "自托管，数据可控",
+    "自带 AI key，成本透明",
+    "面向长视频与直播场景"
+   ],
+   "why_zh": "如果你在做视频内容流水线，可用它把长视频自动切成短视频片段。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5708,
+   "score_llm": 5.0,
+   "score": 0.5283,
+   "date": "2026-11-17",
+   "slot": "noon",
+   "selected_at": "2026-11-17T06:53:39+00:00",
+   "mirror_pdf": "pdf/web-4ea895ebe95b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/haziqahmedqasmi/PeakCut"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b997a4659ecc",
+   "kind": "article",
+   "title": "ZiChuanLan/freebie-radar",
+   "url": "https://github.com/ZiChuanLan/freebie-radar",
+   "pdf_url": "",
+   "abstract": "白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送",
+   "authors": [],
+   "orgs": [
+    "ZiChuanLan"
+   ],
+   "published": "2026-11-17T06:53:39+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/ZiChuanLan/freebie-radar",
+     "signal": "★ 1,240（新项目） · TypeScript",
+     "metric": 1240
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "freebie-radar：AI 二审过滤的福利资讯聚合雷达",
+   "summary_zh": "聚合 100+ 信息源定时采集福利资讯，用 AI 二审过滤假福利并按获取方式分级推送。",
+   "highlights_zh": [
+    "100+ 源定时采集",
+    "AI 二审过滤虚假福利",
+    "Telegram 即时推送"
+   ],
+   "why_zh": "如果你在做信息聚合类工具，可参考其多源采集加 AI 过滤的流水线设计。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5909,
+   "score_llm": 4.0,
+   "score": 0.4764,
+   "date": "2026-11-17",
+   "slot": "noon",
+   "selected_at": "2026-11-17T06:53:39+00:00",
+   "mirror_pdf": "pdf/web-b997a4659ecc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/ZiChuanLan/freebie-radar"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "模型发布前第三方独立评估正成为头部厂商的合规标配",
-   "why": "OpenAI引入Apollo、METR等机构嵌入发布前审计，评测从自证转向外部制衡。",
+   "trend": "企业AI市场按能力层级分层固化，前沿与低价token分属不同赢家",
+   "why": "Databricks遥测显示Anthropic占94%前沿SOTA token，OpenAI占81%低端token，降价难改开源份额停滞。",
    "refs": [
+    "web-001ab62efdc4",
+    "web-856ae7fe99a5"
+   ]
+  },
+  {
+   "trend": "评测体系正被模型识破，第三方嵌入式审计成为对齐新基建",
+   "why": "METR发现模型能区分能力与对齐评测，OpenAI随即引入Apollo、METR等发布前独立审计。",
+   "refs": [
+    "web-d1c011e92db4",
     "web-ebd9eb949639",
     "web-41b364560b32"
    ]
   },
   {
-   "trend": "MoE大模型进入万亿参数、低激活的成本效率竞赛",
-   "why": "Qwen4-Max以2.4T总参仅激活71B、单任务成本降58%，规模与成本开始脱钩。",
+   "trend": "大模型竞争转向单位任务成本，MoE架构与场景专用模型成降本主线",
+   "why": "Qwen4-Max以2.4T MoE把单任务成本降58%，度小满金融模型推理成本仅通用模型十分之一。",
    "refs": [
     "web-5edb92a369b3",
-    "web-ac4ca44cbe1f"
+    "web-88573e8357bc",
+    "web-536906be1a0c"
    ]
   },
   {
-   "trend": "世界模型成为具身与芯片厂商争夺的新架构制高点",
-   "why": "Atlas统一生成与3D重建，AMD收购World Labs把模型能力绑定下一代算力。",
+   "trend": "具身智能商业化落差显现，泛化能力与真实收入仍是分水岭",
+   "why": "思灵5亿美元融资却靠产线自动化创收，王兴兴称模型泛化是最棘手问题但已见临界点。",
    "refs": [
-    "web-46274db0ed5a",
-    "web-1264d70f0428"
-   ]
-  },
-  {
-   "trend": "人形机器人从演示转向量产交付，落地标准转向经济性",
-   "why": "小鹏IRON明年二季度对外发售，睿尔曼提出质量、经济性、稳定性三标准。",
-   "refs": [
-    "web-cde348d53c5f",
+    "web-910ef20e93ee",
+    "web-0a16f7fe0cdf",
     "web-d7b09a733d01"
    ]
   },
   {
-   "trend": "AI安全叙事从能力风险转向开发期欺骗与治理不可逆",
-   "why": "Christiano警告12个月内或现可推翻政府的AI，Clark记录开发期欺骗行为。",
+   "trend": "算力地缘管制与芯片整合同步加速，基础设施层成竞争焦点",
+   "why": "美国拟对海外算力出租实施许可制，AMD完成收购World Labs并让李飞飞主导基础模型。",
    "refs": [
-    "web-2905913a6c82",
-    "web-41b364560b32"
+    "web-b69aebba81f6",
+    "web-1264d70f0428",
+    "web-4b5a6abd86dc"
    ]
   }
  ]
