@@ -1,0 +1,1105 @@
+{
+ "date": "2026-11-18",
+ "items": [
+  {
+   "id": "web-549a77347d5e",
+   "kind": "article",
+   "title": "GPT‑6.2 Astra and Sol",
+   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+   "pdf_url": "",
+   "abstract": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-11-17T17:46:43Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50535230",
+     "signal": "620 pts",
+     "metric": 620
+    },
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 发布 GPT-6.2 Astra 与 Sol",
+   "summary_zh": "OpenAI 推出 GPT-6.2 Astra 和 Sol，在专业输出、编程、电脑操作与效率上提升，成本更低，覆盖 ChatGPT Work、Codex 与 API。",
+   "highlights_zh": [
+    "双模型 Astra 与 Sol 同步发布",
+    "编程与电脑操作能力增强",
+    "更低成本覆盖企业工作流与 API"
+   ],
+   "why_zh": "头部公司重大发布，直接影响开发者选型与成本结构。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.9,
+   "score_llm": 9.0,
+   "score": 0.9,
+   "date": "2026-11-18",
+   "slot": "morning",
+   "selected_at": "2026-11-17T19:44:20+00:00",
+   "mirror_pdf": "pdf/web-549a77347d5e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50535230"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-069078b2b4e3",
+   "kind": "article",
+   "title": "How the Claude Code team thinks about verification",
+   "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-17T10:20:40Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50529612",
+     "signal": "200 pts",
+     "metric": 200
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Claude Code 团队如何设计验证机制",
+   "summary_zh": "Claude Code 团队分享其对智能体输出验证的设计思路，涉及如何让编码智能体可靠自检与纠错。",
+   "highlights_zh": [
+    "智能体输出验证机制",
+    "编码场景的可靠性设计",
+    "来自一线团队的经验"
+   ],
+   "why_zh": "智能体 harness 设计的一手经验，对做编码智能体有参考价值。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5686,
+   "score_llm": 8.0,
+   "score": 0.7074,
+   "date": "2026-11-18",
+   "slot": "morning",
+   "selected_at": "2026-11-17T19:44:20+00:00",
+   "mirror_pdf": "pdf/web-069078b2b4e3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50529612"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.21315",
+   "kind": "paper",
+   "title": "Benchleaking Is Accelerating: Benchmark contamination has worsened sharply in the past month -- from post-training down to pre-training base models",
+   "url": "https://arxiv.org/abs/2611.21315",
+   "pdf_url": "https://arxiv.org/pdf/2611.21315",
+   "abstract": "Benchmark contamination is not new, but recent model releases show it in a sharper form. We use the term benchleaking for the case in which a benchmark's own test examples enter training data, so that a score reflects recall rather than capability. This differs from benchmaxxing, which optimizes toward a benchmark without seeing its test set. We document two escalations over the past month. First, in post-training, the traces have become explicit: recent audits show an agent stating hidden test requirements it was never given in 23% of its attempts, where its predecessor did so in none, and continuing to follow them after the task is changed to contradict them (Schaeffer and Räuker, 2026; Lo and Lo, 2026). Second, the problem has reached pre-training. Using few-shot continuation on 20 benchmarks across four public base models, we find that some base models write out other test examples---complete questions, options, and answers---that appear nowhere in their input. For the recently released ERNIE-5.5-Flash-Base, 96% of HumanEval problems leak with their reference implementations and 85% of OpenBookQA questions leak with their answers, against 9% and none for DeepSeek-V4-Flash-Base. To quantify what a reported score owes to such examples, we define an Anti-Hack score: the benchmark score recomputed with every leaked example marked wrong and the number of examples unchanged. Averaged over the suite, it costs DeepSeek-V4-Flash-Base 1.5 points and Hy3-preview-Base 1.3, against 5.0 for MiMo-V2.5-Base and 16.6 for ERNIE-5.5-Flash-Base. Open base models are the foundation of much downstream research, so benchleaking now affects more than leaderboard rankings. We call for decontamination reports and contamination-adjusted scores to become standard practice.",
+   "authors": [
+    "Yiwei Qin",
+    "Muhang Xie",
+    "Xuefeng Li",
+    "Mohan Jiang",
+    "Dayuan Fu",
+    "Tiantian Mi",
+    "Qipeng Guo",
+    "Pengfei Liu"
+   ],
+   "orgs": [],
+   "published": "2026-11-16T16:10:16Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.21315",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "论文",
+   "lang": "en",
+   "who": "",
+   "title_zh": "基准泄漏加速：污染已从后训练蔓延至预训练基座",
+   "summary_zh": "作者记录过去一个月的两级升级：后训练中智能体在23%的尝试里说出从未给过的隐藏测试要求；预训练层面，部分基座模型在少样本续写下直接写出输入中不存在的测试题与答案，ERNIE-5.5-Flash-Base的HumanEval泄漏率达96%，并提出Anti-Hack分数重算真实能力。",
+   "highlights_zh": [
+    "后训练阶段出现显式泄漏：智能体主动说出未提供的隐藏测试要求",
+    "预训练基座模型可复现完整测试题、选项与答案，ERNIE-5.5-Flash-Base泄漏率96%",
+    "提出Anti-Hack分数：把泄漏样本判错后重算基准分"
+   ],
+   "why_zh": "直接动摇当前榜单分数的可信度，是评估与模型发布方都必须正视的系统性问题。",
+   "tags": [
+    "数据与评测",
+    "大模型",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 9.0,
+   "score": 0.668,
+   "date": "2026-11-18",
+   "slot": "morning",
+   "selected_at": "2026-11-17T19:44:20+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.21315.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.21315"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.21315"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.21315"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.21315"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.21315"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.21315"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a36ee8ad17b0",
+   "kind": "article",
+   "title": "最佳学习率调度的变分估计",
+   "url": "https://kexue.fm/archives/12010",
+   "pdf_url": "",
+   "abstract": "近日，笔者刷到一篇论文《Your LR Schedule May Not Be Principled: Effective Learning Rate Scheduling in Weight-...",
+   "authors": [
+    "苏剑林"
+   ],
+   "orgs": [
+    "科学空间"
+   ],
+   "published": "2026-11-17T07:25:00+00:00",
+   "sources": [
+    {
+     "name": "科学空间",
+     "authority": 0.85,
+     "url": "https://kexue.fm/archives/12010",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "RoPE 提出者，科学空间博主",
+   "title_zh": "学习率调度的变分估计",
+   "summary_zh": "苏剑林解读论文并给出学习率调度的变分估计视角，探讨权重衰减下有效学习率调度为何缺乏原则性，提出更合理的调度推导。",
+   "highlights_zh": [
+    "从变分角度重新推导学习率调度",
+    "讨论权重衰减下的有效学习率",
+    "指出常见调度缺乏原则性"
+   ],
+   "why_zh": "训练方法细节的扎实分析，对实际调参有直接参考价值。",
+   "tags": [
+    "大模型",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-11-18",
+   "slot": "morning",
+   "selected_at": "2026-11-17T19:44:20+00:00",
+   "mirror_pdf": "pdf/web-a36ee8ad17b0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://kexue.fm/archives/12010"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-af19957a97c2",
+   "kind": "article",
+   "title": "Cloudflare Joins the Jevolution and Labels Itself a Neolab",
+   "url": "https://latent.space/p/cloudflare/",
+   "pdf_url": "",
+   "abstract": "Cloudflare made its name speeding up the web. Now it's building System One models to make decisions and pull data in milliseconds.",
+   "authors": [
+    "Richard MacManus"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-11-17T15:00:00+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/cloudflare/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Cloudflare 自封 Neolab，构建毫秒级决策的 System One 模型",
+   "summary_zh": "Cloudflare 正构建 System One 类模型，用于毫秒级决策与数据拉取，从加速网络转向边缘 AI 推理。",
+   "highlights_zh": [
+    "定位为 Neolab，强调快速直觉式推理",
+    "目标是在边缘毫秒级完成决策与取数",
+    "基础设施厂商向 AI 推理层延伸"
+   ],
+   "why_zh": "边缘推理成为基础设施厂商的新战场",
+   "tags": [
+    "推理",
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-11-18",
+   "slot": "morning",
+   "selected_at": "2026-11-17T19:44:20+00:00",
+   "mirror_pdf": "pdf/web-af19957a97c2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/cloudflare/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2a1bdd168094",
+   "kind": "article",
+   "title": "The Lakehouse for AI",
+   "url": "https://tomtunguz.com/the-lakehouse-for-ai/",
+   "pdf_url": "",
+   "abstract": "LanceDB raised a $57.5m Series B ($98.5m total) after growing revenue >10x YoY & open-source downloads 6x to 120m+. Across Exa, Runway, Microsoft AI, Adobe & NVIDIA, teams are replacing fragmented blob, Parquet & vector copies with a single multimodal lakehouse supporting 100b rows, 40b+ vectors & 8k+ GPUs training in parallel.",
+   "authors": [
+    "Tomasz Tunguz"
+   ],
+   "orgs": [
+    "Tomasz Tunguz"
+   ],
+   "published": "2026-11-17T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Tomasz Tunguz",
+     "authority": 0.75,
+     "url": "https://tomtunguz.com/the-lakehouse-for-ai/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Theory Ventures 创始人，AI 投资",
+   "title_zh": "面向 AI 的湖仓一体：LanceDB 融资与多模态数据栈",
+   "summary_zh": "Tomasz Tunguz 分析 LanceDB 获 5750 万美元 B 轮、营收同比增超 10 倍，多家团队正用统一多模态湖仓替代分散的 blob、Parquet 与向量副本。",
+   "highlights_zh": [
+    "支持 1000 亿行、400 亿向量与 8000+ GPU 并行训练",
+    "Exa、Runway、Adobe、英伟达等已采用",
+    "趋势是从碎片化存储转向统一多模态湖仓"
+   ],
+   "why_zh": "看清 AI 数据基础设施的整合方向与投资逻辑",
+   "tags": [
+    "数据与评测",
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-11-18",
+   "slot": "morning",
+   "selected_at": "2026-11-17T19:44:20+00:00",
+   "mirror_pdf": "pdf/web-2a1bdd168094.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://tomtunguz.com/the-lakehouse-for-ai/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3c016c3ebf26",
+   "kind": "article",
+   "title": "I spoke to seven physics experts grappling with the AI revolution",
+   "url": "https://www.understandingai.org/p/i-spoke-to-seven-physics-experts",
+   "pdf_url": "",
+   "abstract": "AI can now do the calculations. What’s left for theoretical physicists?",
+   "authors": [
+    "Dan Kagan-Kans"
+   ],
+   "orgs": [
+    "Timothy B. Lee"
+   ],
+   "published": "2026-11-17T14:51:56+00:00",
+   "sources": [
+    {
+     "name": "Timothy B. Lee",
+     "authority": 0.75,
+     "url": "https://www.understandingai.org/p/i-spoke-to-seven-physics-experts",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "科技记者，《Understanding AI》作者",
+   "title_zh": "七位物理学家谈 AI 革命：理论物理还剩下什么",
+   "summary_zh": "Timothy B. Lee 访谈七位物理学家，探讨 AI 已能完成计算后理论物理学家的价值所在，涉及直觉、品味与问题选择。",
+   "highlights_zh": [
+    "AI 已能承担大量计算工作",
+    "物理学家强调提出好问题与判断力仍属人类",
+    "反映科学 AI 对科研分工的实际冲击"
+   ],
+   "why_zh": "理解 AI 在基础科研中替代与不可替代的边界",
+   "tags": [
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-11-18",
+   "slot": "morning",
+   "selected_at": "2026-11-17T19:44:20+00:00",
+   "mirror_pdf": "pdf/web-3c016c3ebf26.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.understandingai.org/p/i-spoke-to-seven-physics-experts"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c9e3819423c0",
+   "kind": "article",
+   "title": "智源悟界·PhysCapBench：首个跨领域的世界模型“物理数据量尺”",
+   "url": "https://www.leiphone.com/category/aijuejinzhi/KPwGklj93OeTbkrg.html",
+   "pdf_url": "",
+   "abstract": "物理AI基模的核心，是从真实经验中学习可迁移的物理规律，形成理解、预测和作用于物理世界的能力。真实世界的数据里藏着丰富的物理信息：互联网视频记录运动与环境演化，Egocentric呈现手物交互，真机轨迹记录动作与状态响应，力触反馈补充接触力、滑移与形变，不同数据共同提供了互补的物理经验。如何衡量、提炼和耦合这些数据中的物理特性，是构建物理AI基模亟待解决的基础问题。 围绕这一问题， 智源研究院联合逆矩阵、北京大学、清华大学、北京航空航天大学推出悟界·PhysCapBench ——首个覆盖第三人称场景、第一人称操作与手持夹爪示范三大领域，统一评测视频Caption物理信息的基准。 悟界·PhysCapBench: A Cross-Domain Benchmark for Physically Grounded Video Captioning跨领域视频描述物理信息评测基准 它从视频描述入手，统一度量描述对物理信息的覆盖与保真，为描述策略选择、标注质量评估和训练数据优化提供一把跨领域的“物理数据量尺”。 图1：悟界·PhysCapBench整体框架——跨领域数据、物理标注、描述评测与下游验证 世界模型缺的物理信息，可能就藏在一段Caption里。 在世界模型预训练数据的建设中，我们持续观察到：面对第三人称场景、第一人称操作与手持夹爪示范等不同来源的视频，现有Caption往往能概括场景与动作，却未能充分保留运动、接触、状态变化及其时序关系；这一缺口不只存在于原始数据的简短说明里，也可能出现在更长、更流畅的自动生成描述中。语言表达的完整，并不等于物理信息的完整。 软胶玩具是一个典型例子（见图7）：它被压扁后，会随压力解除逐渐恢复形状，受压、形变、卸载与回弹，共同构成这一过程的关键物理信息。在我们的生成对比中，使用物理描述时，结果更好地保留了玩具的立体形态与卸载后的恢复趋势；使用原始描述时，玩具在压力解除后仍呈现明显的扁平状态。 Caption对物理过程的表达，直接关系到模型获得怎样的条件与监督。 悟界·PhysCapBench把预训练数据实践中的观察与思考，沉淀为跨领域参考描述、统一评价维度与下游验证流程：既评价Caption保留了哪些物理信息，也检验这些信息能否服务于视频生成与机器人策略学习，为多源真实数据转化为有效训练监督提供依据。 01 覆盖三类互补数据，建立跨领域评价框架 第三人称场景、第一人称操作与手持夹爪示范，从不同视角呈现物理过程，为世界模型提供互补的学习经验：第三人称场景重点覆盖物体运动、形变、相互作用与环境变化；第一人称操作关注人与物体的接触、操作过程及状态转换；手持夹爪示范则记录夹爪与物体的交互、操作阶段及执行结果。 我们把三类数据纳入同一评价框架，以物理信息的准确性与完整性作为共同的质量目标。基准共包含 1,500段视频序列，每个领域各500段 ；对于多视角示范，同一次交互过程作为一段视频序列组织。 图2：第三人称场景、第一人称操作与手持夹爪示范中的物理过程 图3：三大领域数据概览 02 七个评价维度，定位Caption的物理信息缺口 描述策略对任务目标、动作步骤和状态变化的覆盖各有侧重。悟界·PhysCapBench 从七个维度评价Caption，把整体质量落到具体的信息类型，为描述策略选择与标注优化提供依据。七个维度各自的检查重点如下。 图4：悟界·PhysCapBench的七个物理信息评价维度 七个维度合起来要回答的，其实是同一个问题：这段描述有没有把物理过程说清楚、说准。以下为第一人称操作领域的描述策略榜单，综合得分与七个",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-17T08:33:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/aijuejinzhi/KPwGklj93OeTbkrg.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "智源发布首个跨领域世界模型物理数据评测基准",
+   "summary_zh": "智源联合北大清华等推出PhysCapBench，用1500段视频、七个维度统一评测视频描述对物理信息的覆盖与保真，并验证其对视频生成和机器人策略学习的下游价值。",
+   "highlights_zh": [
+    "覆盖第三人称场景、第一人称操作、手持夹爪示范三类互补数据，各500段",
+    "从七个维度定位Caption的物理信息缺口，如运动、接触、状态变化及时序关系",
+    "下游验证显示物理描述能改善视频生成对形变回弹等过程的还原"
+   ],
+   "why_zh": "做世界模型或物理AI数据建设的话，这是一把可复用的数据质量量尺。",
+   "tags": [
+    "数据与评测",
+    "多模态",
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-18",
+   "slot": "morning",
+   "selected_at": "2026-11-17T19:44:20+00:00",
+   "mirror_pdf": "pdf/web-c9e3819423c0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/aijuejinzhi/KPwGklj93OeTbkrg.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-60f535993954",
+   "kind": "article",
+   "title": "商汤发布 SenseNova Loop-9B 模型：部署显存需求低至 10 GB 内",
+   "url": "https://www.ithome.com/1/028/534.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 17 日消息，商汤科技今天（17 日）晚间正式发布 SenseNova Loop-9B 模型。 该模型 延续了 Preview 版本对参数效率的探索 ：通过 Loop 结构复用模型层的参数，并结合流形约束超连接（mHC），在约 9B 参数规模下扩展计算深度，面向复杂推理、代码、工具调用和多模态任务。 模型得益于 Loop 的高效循环结构， 官方 4bit 量化后权重仅约 4.9GB ，部署显存需求低至 10 GB 内，能显著拓宽可部署的硬件范围， 让低显存芯片获得前沿 27B 级别模型性能成为可能 。 SenseNova Loop-9B 总参数量约为 9B。模型通过两次执行共享的中间层，将 32 个物理解码层扩展为 56 次层计算；支持文本、图像输入和文本输出， 上下文长度最高可达 512K tokens 。 官方表示，在 Agent 与数据分析评测中，模型展现出与 Qwen3.8-27B 相当的竞争力：NL2Repo 得分为 41.36，接近后者的 44.60；AIDABench 得分为 65.31，高于后者的 65.01。 共享循环模块：将第 4–27 层组成共享权重的循环模块，并执行两次，使模型在一次前向传播中完成 56 次解码器层计算。 双流 mHC：通过可学习映射，对循环模块中的两条残差流进行信息路由与融合。 混合注意力：解码器以四层为一组，采用三层线性注意力与一层全注意力相结合的配置。 长上下文多模态：训练方案覆盖文本、图像、代码和工具调用轨迹，上下文长度最高扩展至 512K tokens。 低资源私有化部署友好：采用 4bit 权重量化与 8bit KV 缓存时，256K 长上下文推理的显存需求约为 15 GiB，有助于降低本地与私有化部署门槛。 官方量化版 Day 0 提供：模型发布首日同步提供官方 AWQ 4bit 量化版本，方便用户快速部署。 SenseNova Loop-9B 已开放模型权重与相关代码，供开发者和研究者下载、部署与探索。 围绕通用 Agent、代码和数据分析等任务，评测结果显示，SenseNova Loop-9B 正式版在多个榜单上的表现较 Preview 版本有明显提升；并在约 9B 参数规模下，展现出与 Qwen3.8-27B 比肩的性能表现。 IT之家附 Hugging Face 仓库： https://huggingface.co/collections/sensenova/sensenova-loop",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-17T13:56:34+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/028/534.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "商汤开源 SenseNova Loop-9B：10GB 显存跑 27B 级性能",
+   "summary_zh": "商汤开源 Loop-9B，用循环复用中间层参数把 32 层扩展为 56 次计算，4bit 量化后权重 4.9GB，部署显存 10GB 内，多项 Agent 评测接近 27B 模型。",
+   "highlights_zh": [
+    "Loop 结构复用第 4–27 层参数，单次前向完成 56 层计算",
+    "双流 mHC 路由残差流，混合注意力三层线性一层全注意力",
+    "支持 512K 上下文与多模态输入，发布首日提供 AWQ 4bit 量化版"
+   ],
+   "why_zh": "低显存私有化部署的实用路线，参数效率与长上下文兼顾。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-18",
+   "slot": "morning",
+   "selected_at": "2026-11-17T19:44:20+00:00",
+   "mirror_pdf": "pdf/web-60f535993954.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/028/534.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1be7364f7a4d",
+   "kind": "article",
+   "title": "并购完成，李飞飞正式率队加入AMD！苏妈亲自欢迎",
+   "url": "https://www.qbitai.com/2026/11/510695.html",
+   "pdf_url": "",
+   "abstract": "82亿美元股票，46天闪电交割",
+   "authors": [
+    "克雷西"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-17T14:15:20+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/510695.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "李飞飞团队82亿美元并入AMD",
+   "summary_zh": "AMD以82亿美元股票、46天完成对李飞飞所创公司的收购，李飞飞正式率队加入AMD，苏姿丰亲自欢迎。",
+   "highlights_zh": [
+    "交易为82亿美元股票对价",
+    "46天闪电交割完成",
+    "李飞飞团队整体并入AMD"
+   ],
+   "why_zh": "头部AI人才与芯片厂商深度绑定，折射算力巨头争夺空间智能人才。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-18",
+   "slot": "morning",
+   "selected_at": "2026-11-17T19:44:20+00:00",
+   "mirror_pdf": "pdf/web-1be7364f7a4d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/510695.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7f92bc7a9457",
+   "kind": "article",
+   "title": "李沐加盟的Aimotion，是一家什么AI公司？",
+   "url": "https://www.qbitai.com/2026/11/510688.html",
+   "pdf_url": "",
+   "abstract": "瞄准「产业级世界模型」",
+   "authors": [
+    "思邈"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-17T11:40:37+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/510688.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "李沐加盟的Aimotion：瞄准产业级世界模型",
+   "summary_zh": "量子位梳理李沐加盟的Aimotion，定位产业级世界模型，聚焦将世界模型能力落地到实际产业场景。",
+   "highlights_zh": [
+    "李沐加盟引发关注",
+    "公司主打产业级世界模型",
+    "面向真实产业场景落地"
+   ],
+   "why_zh": "世界模型从研究走向产业化的代表性案例，值得关注其路线选择。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-18",
+   "slot": "morning",
+   "selected_at": "2026-11-17T19:44:20+00:00",
+   "mirror_pdf": "pdf/web-7f92bc7a9457.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/510688.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-54ced458a666",
+   "kind": "article",
+   "title": "材料科学智能体MatOS正式开源！大幅提高材料研发任务成功率",
+   "url": "https://www.qbitai.com/2026/11/510652.html",
+   "pdf_url": "",
+   "abstract": "筛材料、找配方、开发新模型…拿下多项科研任务",
+   "authors": [
+    "思邈"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-17T06:09:40+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/510652.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "材料科学智能体MatOS开源",
+   "summary_zh": "材料科学智能体MatOS正式开源，可完成筛材料、找配方、开发新模型等科研任务，显著提升材料研发任务成功率。",
+   "highlights_zh": [
+    "覆盖筛选材料、配方与模型开发",
+    "多项科研任务成功率提升",
+    "已正式开源"
+   ],
+   "why_zh": "科学智能体开源落地，材料研发是AI for Science最易验证的方向之一。",
+   "tags": [
+    "智能体",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-18",
+   "slot": "morning",
+   "selected_at": "2026-11-17T19:44:20+00:00",
+   "mirror_pdf": "pdf/web-54ced458a666.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/510652.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-552cd9eca660",
+   "kind": "article",
+   "title": "物理AI的强化学习仿真环境来了，光轮智能推出RoboFinals RL Envs",
+   "url": "https://www.qbitai.com/2026/11/510561.html",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [
+    "林, 方舟"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-17T02:03:22+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/510561.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "光轮智能推出物理AI强化学习仿真环境",
+   "summary_zh": "光轮智能推出RoboFinals RL Envs，为物理AI提供强化学习仿真环境，用于机器人等具身任务的训练与评测。",
+   "highlights_zh": [
+    "面向物理AI的RL仿真环境",
+    "服务具身智能训练与评测",
+    "光轮智能出品"
+   ],
+   "why_zh": "具身智能训练依赖高质量仿真环境，此类基础设施决定迭代速度。",
+   "tags": [
+    "机器人",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-18",
+   "slot": "morning",
+   "selected_at": "2026-11-17T19:44:20+00:00",
+   "mirror_pdf": "pdf/web-552cd9eca660.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/510561.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8cf181e868aa",
+   "kind": "article",
+   "title": "谁来帮助企业走向「智能组织」？",
+   "url": "https://www.leiphone.com/category/CorporateServices/Hsnbxo0xUgb2FWkB.html",
+   "pdf_url": "",
+   "abstract": "上个月，雷峰网拜访过一家创业公司老板，他对我们说，他决定把公司的 AI 开销砍掉近九成。 这个决定非常出乎我们的意料，因为一直以来他都属于“AI 激进派”，属于愿意为 AI 花钱的主。今年5月，他就给员工配备了每月200美元的 Codex，公司的各项 AI 开销加起来，每月大约10万美元。 当雷峰网问他原因，他直言，钱包烧不起，这几个月他有算过账，AI 开销很大，但收入和利润却没有同步增长。 而且并不止这家创业公司老板，过去两个月，一些企业都出现了这种现象：AI没有产生预期的经济效果，于是大家开始纷纷掉头回来控制预算。 “这是因为我们只是更换了电机，却还没有重新设计工厂。没有一家公司，会因为用了几个AI工具，一夜之间变得更有竞争力。”在百度世界2026的演讲上，百度创始人李彦宏说道，在他看来，只有当一家企业能够围绕AI能力重构它的组织，才能抓住这个时代赋予它的巨大成功机会。 接着往下追问，谁来帮助企业实现“智能组织”？ 谁来帮助企业实现“智能组织”？ 1）智能组织，需要智能云 要回答这个问题，不妨先把视线拉回历史。过去一百多年里，每一次企业组织的重大进化，背后都站着一套与之匹配的基础设施。 100多年前，泰勒提出科学管理思想，第一次把复杂的生产拆解为可计量的标准工序，但真正让这套思想走进车间、催生大规模工业生产的，是 电力与电机 ；60多年前，彼得·德鲁克提出“知识工作者”的理念，而真正让知识跨时空流通、推动金融与软件业腾飞的，是 计算机与网络 。 在百度集团执行副总裁、百度智能云事业群总裁沈抖看来，今天 AI 时代的组织进化，同样需要一套全新的基础设施——智能云。 当然，很多人容易把智能云等同于“加了大模型接口的传统云计算”，但沈抖认为，两者的服务对象已经发生了根本变化：传统云服务的是企业的 IT 系统，核心任务是支撑软件上云；而智能云服务的则是“智能体”，它的使命是支撑智能体去完成一个又一个具体的经营任务。 这就要求智能云必须前所未有地穿透企业的底层资源、IT 信息系统甚至核心经营系统，打通数据、工具与权限，减少跨部门、跨系统的“组织摩擦”。 为了让AI 真正从“个人生产力工具“走向企业生产力”，李彦宏在大会上提出了组织进化的三原则： 打破岗位边界、沉淀隐性知识、设计流程闭环 。 而在沈抖看来，这三原则也正是智能云服务的三个新标准。围绕这三个标准，百度智能云重新梳理了产品体系，端出了新全栈AI云，具体来讲： 第一，在智能体层面，三类智能体矩阵，精准匹配不同企业的落地需求。 企业的业务千差万别，指望靠某一个agent解决所有问题显然不现实。为此，百度智能云首先在应用层构建了“通用 + 专业 + 定制”三类智能体矩阵： 通用智能体（百度搭子）：面向日常办公通用场景，同时作为企业统一调用和管理各类智能体的总入口，打破过去工具割裂、各自为战的孤岛状态； 专业智能体（伐谋、一见、一镜、胜算、秒哒、库库、Comate、Hogee等）：针对研发、视觉质检、营销等特定专业领域，企业可以“拿来就用”，也能接入自有数据快速上手； 定制智能体：每家企业最核心的壁垒，往往藏在自己特有的工艺流程与隐性经验里。针对这些独特场景，企业可以基于百度搭子开发平台和 Harness 引擎构建专属智能体。 这种产品矩阵的价值已在真实业务中算出了正收益。 沈抖在会上有分享一个案例——国家级专精特新“小巨人”蓝海黑石。他们基于搭子平台定制了需求推演、采购决策与执行三个智能体，直接打通内部 ERP、OA 和企业微信。过去计划与采购两个团队至少10人每周要耗费100多个工时，如今只需2人",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-17T08:24:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/CorporateServices/Hsnbxo0xUgb2FWkB.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "企业AI预算收缩，百度押注智能云重构组织",
+   "summary_zh": "报道称部分企业因AI投入未带来收入增长而砍预算，百度以李彦宏「智能组织」三原则和沈抖的全栈智能云产品体系回应，主张智能云服务对象从IT系统转向智能体。",
+   "highlights_zh": [
+    "创业公司月烧10万美元AI开销后砍掉近九成，反映ROI焦虑蔓延",
+    "李彦宏提出打破岗位边界、沉淀隐性知识、设计流程闭环三原则",
+    "百度智能云构建通用、专业、定制三类智能体矩阵，并推出Harness引擎"
+   ],
+   "why_zh": "看清企业AI落地从买工具转向改组织的市场风向与厂商叙事。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-18",
+   "slot": "morning",
+   "selected_at": "2026-11-17T19:44:20+00:00",
+   "mirror_pdf": "pdf/web-8cf181e868aa.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/CorporateServices/Hsnbxo0xUgb2FWkB.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-687bf4783839",
+   "kind": "article",
+   "title": "快手可灵全新一代图像创作模型 Kling Image 4.0 上线：首次支持原生 8K，单图内可生成 2000 字",
+   "url": "https://www.ithome.com/1/028/563.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 17 日消息，快手可灵 AI 今天（17 日）深夜宣布，全新一代图像创作模型 Kling Image 4.0 正式上线，同时面向企业客户与开发者开放 API 接入。 新模型采用「理解生成统一」架构，探索将视觉理解与图像生成融入统一的模型体系，进一步打通从理解创作意图到生成视觉内容的链路。快手表示，在实现模型能力进一步提升的同时，图像创作在真实感、文字表现和内容组织上，也拥有了更多可能。 围绕这些方向，Kling Image 4.0 带来了三大核心升级 ： 真实感与原生 8K： 将物理规律与视觉感知融入生成过程，让光影、肤质与材质纹理呈现接近相机直出的自然观感；首次支持原生 8K 图像生成，呈现更丰富细节，为高清展示与后期裁切提供更多空间。 超强文字表现力 ：支持单张照片内生成 2000 字，更准确地理解复杂指令与排版需求，让小字清晰、花字出彩。 连贯组图与长图生成 ：按创作意图规划内容，一次描述最多生成 10 张系列图片，并支持电商详情页与网页设计长图，让成套创作与整页表达更加高效。 IT之家从官方介绍获悉， Kling Image 4.0 支持最高 15000 tokens 的文本输入 ，能够理解更完整、复杂的创作需求，更好地处理文字排布、画面布局与主体呈现。 模型 内置 70+ 种预设商用字体 ，也支持上传参考图，引导文字的字形与视觉风格，让生成效果更贴近设计想法。在语言方面，模型支持 简体中文、繁体中文、英文、日文、韩文、西班牙语和葡萄牙语 ，让不同语言的创意都能更好地呈现在画面中。 Kling Image 4.0 支持通过一次描述生成最多 10 张图片 ，让整组图片共享同一套创意要求，在保持整体风格一致的同时，让每张图片各有侧重。 模型的 原生 Agentic 能力 还能辅助规划整组图片：理解创作意图，自动安排每张图片的内容与重点，让从故事分镜到商品展示，都能更轻松地展开。 此外，Kling Image 4.0 内置 110+ 种预设影调风格 ，从而切换不同视觉效果。用户也可以上传喜欢的图片作为参考，提取其中的色彩与光影风格，打造专属影调。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-17T15:26:32+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/028/563.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "快手可灵发布 Kling Image 4.0：原生 8K、单图 2000 字",
+   "summary_zh": "快手可灵上线 Kling Image 4.0，采用理解生成统一架构，支持原生 8K、单图 2000 字、一次生成 10 张连贯组图，并开放 API。",
+   "highlights_zh": [
+    "理解生成统一架构，打通意图理解到图像生成链路",
+    "原生 8K 输出，支持 15000 tokens 输入与 70+ 商用字体",
+    "内置 Agentic 能力自动规划组图，面向企业开放 API"
+   ],
+   "why_zh": "图像生成进入高清长文本与组图规划阶段，设计电商场景值得关注。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-18",
+   "slot": "morning",
+   "selected_at": "2026-11-17T19:44:20+00:00",
+   "mirror_pdf": "pdf/web-687bf4783839.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/028/563.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f4ba40b11538",
+   "kind": "article",
+   "title": "期权市场预计，英伟达财报发布后市值或出现 3350 亿美元波动",
+   "url": "https://www.ithome.com/1/028/528.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 17 日消息，据路透社报道，英伟达将于北京时间 18 日凌晨公布第三季度财报，期权市场预期，财报发布后公司 市值的波动幅度可能达到 3,350 亿美元 （IT之家注：现汇率约合 2.24 万亿元人民币） ，凸显投资者对其前景的不安。 伦敦证券交易所集团（LSEG）数据显示，英伟达市值从 10 月初的约 5.8 万亿美元 缩水至 13 日的约 3.9 万亿美元 ，周一股价再跌 4%。 萨斯奎汉纳国际集团数据显示，期权市场预计，英伟达财报公布后的首个交易日（当地时间 18 日），股价可能 上涨或下跌约 8.5% 。这一预期波幅超过过去八个季度财报发布后平均波幅的两倍，接近上次财报公布后 8.74% 的涨幅。 按照期权市场的预期，英伟达单日市值波动的规模甚至 超过标普 500 指数约九成成分股各自的市值 。 萨斯奎汉纳国际集团衍生品策略联席主管克里斯 · 墨菲指出，投资者在财报公布前减持英伟达股票，但仍在买入看涨期权和看涨价差组合，押注股价可能反弹。 看涨期权允许持有人在到期前按约定价格买入股票，但不强制执行交易；看涨期权价差策略则同时买入和卖出到期日相同、行权价不同的看涨期权。 近期，一份呼吁黄仁勋回归的请愿书也获得 超过 17.8 万人签名 ，支持者包括多名硅谷知名企业高管。不过，三名知情人士透露，英伟达董事会 无意考虑让黄仁勋重返 CEO 岗位 。 英伟达股价今年累计下跌近 17%，同期标普 500 指数上涨 8%，费城半导体指数则上涨 36%。面对近期一系列变故， 市场希望英伟达能够证明，AI 基础设施需求依然强劲 。 MAI 资本管理公司首席市场策略师克里斯 · 格里桑蒂认为：“市场最关注的将是英伟达 对未来订单情况的说明 ，讲清楚客户是否会取消或推迟订单，以及数据中心监管问题是否会拖慢建设进度。实际情况 没有看起来那么严重 ，2027 年数据中心建设仍会继续增长，而英伟达又是芯片的垄断供应商。把这两点放在一起，就不难理解股价为什么会走高。”",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-17T13:20:26+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/028/528.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "期权市场押注英伟达财报后市值波动3350亿美元",
+   "summary_zh": "英伟达Q3财报前，期权市场预期单日市值波动达3350亿美元、股价涨跌约8.5%，为过去八季均值两倍多，反映投资者对AI基础设施需求前景的焦虑。",
+   "highlights_zh": [
+    "英伟达市值从10月初5.8万亿缩水至3.9万亿美元，年内跌近17%",
+    "投资者财报前减持股票但仍买入看涨期权，押注反弹",
+    "市场核心关注点是对未来订单的说明及数据中心监管影响"
+   ],
+   "why_zh": "英伟达财报是AI算力需求的风向标，期权定价反映市场对AI资本开支周期的分歧。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-18",
+   "slot": "morning",
+   "selected_at": "2026-11-17T19:44:20+00:00",
+   "mirror_pdf": "pdf/web-f4ba40b11538.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/028/528.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ae0cca4b3e2f",
+   "kind": "article",
+   "title": "消息称黄仁勋回归尚未进入英伟达董事会议程；腾讯总办号召AI时代再创业；AI 演员虚假代言被罚",
+   "url": "http://www.geekpark.net/news/374056",
+   "pdf_url": "",
+   "abstract": "消息称黄仁勋回归尚未进入英伟达董事会议程，已有 18 万人联署呼吁复职 11 月 17 日消息，CNBC 今天（11 月 17 日）发布博文，援引一名知情人士透露信息，英伟达董事会目前没有考虑让黄仁勋重新担任首席执行官，也未就其回归展开讨论。报道称英伟达董事会的工作重心，目前聚焦推进针对黄仁勋相关行为的调查。 报道称，英伟达已聘请 Wachtell Lipton 律师事务所，调查黄仁勋的行为。此前，黄仁勋在承认婚外情、并面临其他涉及员工的恋情报道后，于上周辞去职务，结束了在这家由其创立的公司长达 33 年的 CEO 任期。 围绕其是否回归，外界讨论持续升温。《金融时报》此前报道称，黄仁勋曾与支持者讨论复出事宜。不过，Altimeter Capital 的布拉德 · 格斯特纳 16 日向 CNBC 表示，黄仁勋没有与他讨论回归。 与此同时，一项呼吁黄仁勋复职的网络请愿已获得约 18 万个签名，马斯克、Y Combinator 首席执行官陈嘉兴及 Epic Games 首席执行官蒂姆 · 斯威尼等科技界人士也表达了支持。（来源：IT 之家） 腾讯总办号召 AI 时代再创业：这是一个生死存亡的问题 11 月 16 日消息，「腾讯文化」公众号发文《总办号召 AI 时代再创业，「心态归零」》，再度谈及 28 岁生日这天，腾讯总办对 AI 时代的机会、挑战与选择的看法。 文章指出，面对技术变革的巨浪，没有人是旁观者。所有人都要做出选择。如果不想被颠覆，真正重要的事只有一件：一起动起来。「现在进行的智能革命如果不投入拥抱，就是被颠覆。这是一个生死存亡的问题。」 腾讯总办号召，「心态归零，所有核心业务每一个团队都要面向 AI 时代再创业，抛掉身上的包袱，拥抱 AI 新时代。所有人都要动手做事，整个组织有机化。每个人快速提升能力，每个组织重新变化、扁平化，以小团队为作战单元。」 整个管理方式以及做事方式都要通过 AI 重新设计，在现有业务上再延伸竞争力，让成本、效率可以再优化，获取更多的商业化能力，甚至创造出新的需求——它也许是现有路径上的新需求，也许是一个全新的 AI 产品。 总办明确，组织变革要加快，未来不一定要那么多管理岗位，不要让中间传话的不想动还霸占地盘的干部成为阻碍，山头主义、地盘意识都要完全打破。 马化腾谈到，「能够参与这场巨大的科技变革，并且站在前沿，这是我们的荣幸。我们的业务要站起应战，组织也要适应新的变化快速变革。」（来源: TechWeb） 阿里合伙人樊路远辞任大麦娱乐 CEO，消息称将从虎鲸文娱集团离职创业 11 月 16 日消息，大麦娱乐发布公告，樊路远因专注发展个人事业，已辞任公司执行董事、董事会主席及首席执行官（CEO）。 据凤凰科技报道，知情人士透露，樊路远将从虎鲸文娱集团离职创业。 公开资料显示，樊路远于 2007 年加入支付宝，2016 年转战阿里影业，2017 年加入阿里大文娱。2025 年阿里大文娱集团更名为虎鲸文娱集团。樊路远还是阿里巴巴合伙人，全面负责优酷、大麦娱乐等虎鲸文娱集团核心业务板块的统筹管理。 大麦娱乐公告称，委任徐宏为公司非执行董事及董事会主席，沈严为执行董事及联席总裁。 徐宏自 2022 年 4 月起担任阿里巴巴集团首席财务官。他于 2020 年 1 月至 2021 年 10 月担任大麦娱乐（前称：阿里影业）非执行董事。 沈严 2016 年加入阿里巴巴集团，于 2021 年出任优酷副总裁，2026 年 3 月出任大麦演出总裁，负责大麦娱乐演出内容与科技业务板块。在此之前，沈严担任支付宝旗下 O2O 事业部的",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-17T00:42:16+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/374056",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯总办号召 AI 时代再创业：生死存亡问题",
+   "summary_zh": "腾讯总办发文号召所有核心业务团队面向 AI 时代再创业，心态归零、组织扁平化，马化腾称参与这场变革是荣幸。",
+   "highlights_zh": [
+    "总办定调：不拥抱智能革命就是被颠覆",
+    "要求每个团队以小团队为作战单元重新设计管理方式",
+    "明确要打破山头主义、削减中间管理岗"
+   ],
+   "why_zh": "头部大厂对 AI 组织变革最直白的内部定调",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.528,
+   "date": "2026-11-18",
+   "slot": "morning",
+   "selected_at": "2026-11-17T19:44:20+00:00",
+   "mirror_pdf": "pdf/web-ae0cca4b3e2f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/374056"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6c0c825c1488",
+   "kind": "article",
+   "title": "独家丨腾讯优图实验室研究总监孙星离职",
+   "url": "https://www.leiphone.com/category/CorporateServices/ndF7IsEHBffZkbzy.html",
+   "pdf_url": "",
+   "abstract": "雷峰网独家消息，腾讯优图实验室研究总监、专家研究员孙星已离职。 据公开资源显示，孙星本科毕业于南京理工大学，博士毕业于香港大学工程学院。2016年加入腾讯优图实验室。 早期，他主要深耕医疗影像 AI，参与了肺癌识别和糖尿病视网膜病变筛查研究，相关技术应用于腾讯觅影。进入大模型时代后，其研究重心转向多模态大模型、Agent 与 RAG，主导或参与了视频评测基准 Video-MME、全模态模型 VITA、视觉语言模型 Youtu-VL，以及 Youtu-Agent、Youtu-GraphRAG 等多个研发与开源项目。 关于孙星后续去向，雷峰网也将持续追踪报道，欢迎添加作者微信交流 Mindy1857",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-17T08:28:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/CorporateServices/ndF7IsEHBffZkbzy.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯优图研究总监孙星离职",
+   "summary_zh": "腾讯优图实验室研究总监孙星离职，其主导或参与了Video-MME评测基准、全模态模型VITA、Youtu-VL、Youtu-Agent与Youtu-GraphRAG等项目，去向未明。",
+   "highlights_zh": [
+    "2016年加入优图，早期做医疗影像AI，后转向多模态大模型、Agent与RAG",
+    "参与Video-MME、VITA、Youtu-VL等有影响力的开源与评测工作",
+    "去向未披露，反映大厂多模态团队人才流动"
+   ],
+   "why_zh": "关注多模态与Agent团队动向的从业者可留意后续人事与项目走向。",
+   "tags": [
+    "多模态",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-18",
+   "slot": "morning",
+   "selected_at": "2026-11-17T19:44:20+00:00",
+   "mirror_pdf": "pdf/web-6c0c825c1488.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/CorporateServices/ndF7IsEHBffZkbzy.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e564cc63b43a",
+   "kind": "article",
+   "title": "网传360集团副总裁涉贪腐问题被带走调查；英伟达董事会：没考虑让黄仁勋复任CEO；知名手游宣布明年3月停止运营，曾月流水破10亿",
+   "url": "https://www.leiphone.com/category/zaobao/ksECYyYOXDL6IQ2q.html",
+   "pdf_url": "",
+   "abstract": "要闻提示 1.黄仁勋借钱成新型诈骗！英伟达董事会：没考虑让黄仁勋复任 CEO 2.已到生死存亡时刻！腾讯内部讲话：现在不是和平年代，大家不能自以为站在高处很安全 3.网传360集团副总裁卜思南涉贪腐问题被带走调查，本人回应：不是真的，在处理ing 4.网易《哈利波特：魔法觉醒》手游宣布明年 3 月停止运营，曾月流水破10亿 5.AI 演员方桃子代言美瞳广告被罚，声称“戴了一天都很舒服” 6.阿里合伙人樊路远辞任大麦娱乐 CEO，将从虎鲸文娱集团离职创业 7.AMD 宣布完成对 World Labs 的收购，李飞飞出任公司首席科学家 8.微软服务全球大宕机内幕曝出！资深工程师走光：根本没人懂底层系统 今日头条 黄仁勋借钱成新型诈骗！英伟达董事会：没考虑让黄仁勋复任CEO “我是黄仁勋，我被美国政府陷害了，快转我100万新台币揭穿这个阴谋！”“黄仁勋”找你借钱？一眼假！11月17日消息，近日，黄仁勋辞任英伟达总裁后，中国台湾省出现新型诈骗。岛内警方15日确认，这是有诈骗集团冒用他的名义发送短信，相关短信通过苹果手机iMessage发送，暂时还没受害者报案。警方同时提醒：千万别回复，一旦回复就会被持续盯上。 另据最新报道，英伟达董事会并未考虑让黄仁勋重新担任 CEO。董事会目前专注于调查，并未讨论让黄仁勋回归。支持黄仁勋复职的网站“Stand With Jensen”显示，目前已有 186,227 人参与联名支持，其中包括 9,371 名英伟达现任员工、1,664 名前员工、97,574 名股东和 77,618 名其他支持者。 此外，在英伟达启动正式 CEO 遴选之际，多名公司前员工透露，黄仁勋之女黄敏珊目前尚不具备接掌公司的能力。黄敏珊 2020 年加入英伟达，现任物理 AI 产品营销高级总监，前员工称其实际影响力自 2023 年底起已超出职位本身。两名前员工表示，她未来有望担任更重要的领导职务，但目前缺乏主导英伟达技术战略的专业背景，有观点认为其接掌公司至少还需十年历练。 黄仁勋之子黄胜斌目前在英伟达机器人业务部门任产品管理总监，前员工称其行事风格比妹妹更为低调。兄妹二人均任职于物理 AI、机器人等新兴赛道，未进入 GPU 核心业务板块。（云头条、极目新闻） 国内资讯 已到生死存亡时刻！腾讯内部讲话：现在不是和平年代，大家不能自以为站在高处很安全 11月16日消息，近日，腾讯管理层在腾讯28周年Linktime线上直播发表内部讲话，直播结束后，部分内容遭到误读并在网上大范围传播。舆论纷纷之下，腾讯于11月16日公开了本次LinkTime现场笔记。 本次谈话透露出腾讯面对AI大潮的强烈危机意识。管理层将这轮变革定性为「生死存亡」问题，并发起总动员——一半人守住核心业务，另一半人去打新战役、找到新高地，「现在不是和平年代了，大家不能自以为站在高处很安全，或者等着人哄、谈好条件利益才上船」。 本次谈话透露出腾讯希望从上到下彻底激发创造力以应对本轮AI变革。其中管理层强调了「心态归零」（所有核心业务每一个团队都要面向AI时代再创业）、「完全打破山头主义、地盘意识」（让更多基层同事有机会成为贡献者）、「先动起来才能找到机会」。同时，管理层直言腾讯「过去28年的存在就为了今天可以投入这样一个改变世界的技术潮流。」，AI发展早期投入会很大，但相信肯定有回报。（游戏新知） 网传360集团副总裁卜思南涉贪腐问题被带走调查，本人回应：不是真的，在处理ing 11月16日消息，有消息人士透露，360集团副总裁、360市场部负责人卜思南近期被带走调查，背后涉及贪腐问题，且",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-17T01:33:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/zaobao/ksECYyYOXDL6IQ2q.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯内部定调AI生死存亡，AMD完成收购World Labs",
+   "summary_zh": "腾讯管理层在内部直播中把AI变革定性为生死存亡并发动总动员；同日AMD宣布完成对李飞飞World Labs的收购，李飞飞出任首席科学家。",
+   "highlights_zh": [
+    "腾讯要求一半人守核心业务、一半人打新战役，强调心态归零与打破山头主义",
+    "AMD收购World Labs，李飞飞任首席科学家，空间智能赛道格局生变",
+    "微软全球宕机内幕曝出，资深工程师流失被指为底层系统隐患"
+   ],
+   "why_zh": "大厂AI组织动员与芯片巨头收购空间智能公司，都是格局信号。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-18",
+   "slot": "morning",
+   "selected_at": "2026-11-17T19:44:20+00:00",
+   "mirror_pdf": "pdf/web-e564cc63b43a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/zaobao/ksECYyYOXDL6IQ2q.html"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "评测污染升级为基座级危机，基准可信度面临重估",
+   "why": "预训练基座在少样本续写下直接输出隐藏测试题，HumanEval泄漏率达96%，倒逼Anti-Hack类真实能力评测成为新标配。",
+   "refs": [
+    "arxiv-2611.21315"
+   ]
+  },
+  {
+   "trend": "智能体可靠性从能力竞赛转向验证机制竞赛",
+   "why": "Claude Code团队公开自检纠错设计，说明编码智能体的瓶颈已从生成质量转向输出验证与可信纠错。",
+   "refs": [
+    "web-069078b2b4e3"
+   ]
+  },
+  {
+   "trend": "小参数高效架构正侵蚀中端模型市场",
+   "why": "商汤Loop-9B以10GB显存逼近27B级Agent表现，循环复用参数路线让部署成本成为竞争新维度。",
+   "refs": [
+    "web-60f535993954"
+   ]
+  },
+  {
+   "trend": "世界模型从概念叙事转入产业落地与评测基建",
+   "why": "李沐加盟Aimotion瞄准产业级世界模型，智源同步推出物理评测基准PhysCapBench，落地与度量并行推进。",
+   "refs": [
+    "web-7f92bc7a9457",
+    "web-c9e3819423c0"
+   ]
+  },
+  {
+   "trend": "企业AI预算进入收缩期，云厂商被迫重构供给形态",
+   "why": "部分企业因AI投入未带来收入增长而砍预算，百度转向以智能体为服务对象的全栈智能云。",
+   "refs": [
+    "web-8cf181e868aa"
+   ]
+  }
+ ]
+}
