@@ -1,10 +1,13 @@
-2026-11-17 06:53:40,214 INFO source hf_daily           -> 12 items
-2026-11-17 06:53:40,525 INFO source hackernews         -> 3 items
-2026-11-17 06:54:02,884 INFO source rss                -> 91 items
-2026-11-17 06:54:04,109 INFO source html_lists         -> 0 items
-2026-11-17 06:54:04,109 INFO source x                  -> 0 items
-2026-11-17 06:55:42,897 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
-2026-11-17 06:55:52,222 INFO source github             -> 20 items
-2026-11-17 06:55:52,223 INFO candidates: 126 (stale dropped 13, new 69)
-2026-11-17 06:56:59,170 INFO llm judged 69/69 (calls=9)
-2026-11-17 06:59:36,811 INFO run done: {"at": "2026-11-17T06:53:39+00:00", "slot": "noon", "candidates": 126, "new": 69, "stale": 13, "judged": 69, "selected": 18, "mirrored": 18, "by_category": {"观点": 3, "技术": 2, "资讯": 11, "项目": 2}, "by_source": {"HF Daily Papers": 12, "Hacker News": 3, "量子位": 10, "极客公园": 4, "IT之家": 9, "爱范儿": 5, "少数派": 1, "雷峰网": 14, "钛媒体": 7, "InfoQ 中文": 10, "Dwarkesh Patel": 1, "Latent Space": 1, "Jack Clark": 1, "Stratechery": 1, "Azeem Azhar": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "Sebastian Raschka": 1, "Hugging Face Blog": 1, "METR": 1, "OpenAI": 12, "NVIDIA": 9, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
+2026-11-17 14:19:07,465 INFO source hf_daily           -> 20 items
+2026-11-17 14:19:07,789 INFO source hackernews         -> 2 items
+2026-11-17 14:19:34,356 INFO source rss                -> 101 items
+2026-11-17 14:19:35,994 INFO source html_lists         -> 0 items
+2026-11-17 14:19:35,994 INFO source x                  -> 0 items
+2026-11-17 14:19:36,467 INFO source arxiv_search       -> 57 items
+2026-11-17 14:19:47,310 INFO source github             -> 20 items
+2026-11-17 14:19:47,312 INFO candidates: 197 (stale dropped 16, new 133)
+2026-11-17 14:21:27,764 INFO llm judged 94/100 (calls=13)
+2026-11-17 14:21:40,626 WARNING snapshot https://stratechery.com/2026/apple-permissions-update-the-new-app-paradigm-my-iphone-duo-review/: blocked or empty page
+2026-11-17 14:22:31,873 WARNING snapshot https://openai.com/index/expanding-chatgpt-for-academic-researchers: blocked or empty page
+2026-11-17 14:22:56,214 WARNING snapshot https://thezvi.wordpress.com/2026/11/16/fable-5-2-is-the-new-bazooka/: blocked or empty page
+2026-11-17 14:24:23,856 INFO run done: {"at": "2026-11-17T14:19:07+00:00", "slot": "evening", "candidates": 197, "new": 133, "stale": 16, "judged": 94, "selected": 19, "mirrored": 16, "by_category": {"论文": 1, "技术": 4, "观点": 3, "资讯": 11}, "by_source": {"HF Daily Papers": 20, "arXiv 新论文": 57, "Hacker News": 2, "量子位": 10, "极客公园": 7, "IT之家": 13, "爱范儿": 7, "少数派": 1, "雷峰网": 15, "钛媒体": 3, "InfoQ 中文": 9, "Dwarkesh Patel": 1, "Latent Space": 2, "Jack Clark": 1, "Stratechery": 2, "Azeem Azhar": 1, "Nathan Benaich": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "科学空间": 1, "Hugging Face Blog": 1, "METR": 1, "OpenAI": 14, "NVIDIA": 9, "GitHub Trending": 17, "GitHub 新项目": 3}, "llm": true, "translated": 0}
