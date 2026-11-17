@@ -1890,29 +1890,1473 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "arxiv-2611.21072",
+   "kind": "paper",
+   "title": "Sage S2.1 Flash Technical Report",
+   "url": "https://arxiv.org/abs/2611.21072",
+   "pdf_url": "https://arxiv.org/pdf/2611.21072",
+   "abstract": "We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments. Sage Sci-Perception uses dedicated encoders for molecular graphs and biological sequences and represents spectra as ordered patches of measurements. Modality-specific projectors map these representations into the input space of a shared backbone, which processes them alongside text and images. To develop the model's agent capabilities, we construct verifiable environments for tool use, search, and coding, as well as specialized workflows involving machine learning experiments and scientific software. Task completion is checked against execution results, changes in environment state, or submitted artifacts. We evaluate Sage S1.5 Flash on 33 benchmarks across seven domains. In the primary comparison against five baselines, it ranks first on OfficeQA Pro (72.2), MLE-bench Lite (90.3 HumanRank), Harvey LAB, and SpreadsheetBench~2, and second on OSWorld-Verified (85.2), WebArena-Verified (67.6), and DeepResearch Bench~II (54.2). These results show particular strengths in using documentary evidence, producing verifiable workbooks, and carrying out machine learning tasks, alongside competitive performance in desktop and browser workflows that require the model to act on visual feedback.",
+   "authors": [
+    "Kun Cai",
+    "Haodong Chen",
+    "Guangran Cheng",
+    "Qingxiu Cheng",
+    "Xu Dai",
+    "Guanting Dong",
+    "Qiming Ge",
+    "Lixin Gu",
+    "Tao Gui",
+    "Honglin Guo",
+    "Yuyang Hu",
+    "Zixian Huang",
+    "Jiajie Jin",
+    "Alexander Lam",
+    "Jiaqiang Li",
+    "Yining Li",
+    "Jiahang Lin",
+    "Yanjiang Liu",
+    "Xinyu Lu",
+    "Haijun Lv",
+    "Ningsheng Ma",
+    "Zerun Ma",
+    "Minlong Peng",
+    "Jianmin Qian",
+    "Huayu Sha",
+    "Junlin Shang",
+    "Shuo Shen",
+    "Qisheng Su",
+    "Jiajun Sun",
+    "Yanan Sun",
+    "Zhichao Sun",
+    "Ran Tao",
+    "Zhongbo Tian",
+    "Guoqiang Wang",
+    "Hui Wang",
+    "Rui Wang",
+    "Yiding Wang",
+    "Zhecan Wang",
+    "Hao Xiang",
+    "Xinchen Xie",
+    "Shuhao Xing",
+    "Xiaoyu Xing",
+    "Wanghan Xu",
+    "Xinyu Yang",
+    "Yajie Yang",
+    "Dingbo Yuan",
+    "Yuhang Zang",
+    "Hongjie Zhang",
+    "Chengfeng Zhao",
+    "Haoran Zhao",
+    "Penghao Zhao",
+    "Ruojun Zhou",
+    "Dongsheng Zhu",
+    "Yicheng Zou",
+    "Qiye Cai",
+    "Yifei Cao",
+    "Xinmeng Che",
+    "Hongji Chen",
+    "Jiabei Chen",
+    "Jiadong Chen",
+    "Jiahao Chen",
+    "Jiayi Chen",
+    "Xinjie Chen",
+    "Yujia Chen",
+    "Xin Deng",
+    "Yi Dong",
+    "Yichen Dong",
+    "Wenjie Fu",
+    "Jianing Geng",
+    "Chenyang Gu",
+    "Ding Han",
+    "Han Han",
+    "Feiyang Hao",
+    "Haotan He",
+    "Qiushi He",
+    "Xufeng He",
+    "Xin Hong",
+    "Jie Hou",
+    "Binze Hu",
+    "Yongkang Hu",
+    "Zijian Hu",
+    "Enfu Huang",
+    "Junhao Huang",
+    "Changhao Jiang",
+    "Huicheng Jiang",
+    "Jiazhen Jiang",
+    "Shufan Jiang",
+    "Wenqing Jing",
+    "Jiahao Kuang",
+    "Bowen Lai",
+    "Bo Li",
+    "Qi Li",
+    "Qilong Li",
+    "Zhuoqun Li",
+    "Tianhao Liang",
+    "Jiaxiang Liu",
+    "Junzhang Liu",
+    "Shaofan Liu",
+    "Shuainan Liu",
+    "Tong Liu",
+    "Yi Liu",
+    "Ziyu Liu",
+    "Zhonghang Lu",
+    "Jianwen Luo",
+    "Xuan Luo",
+    "Yanyi Luo",
+    "Huijie Lv",
+    "Mingyu Ma",
+    "Houcheng Min",
+    "Hongjun Mo",
+    "Songhao Ni",
+    "Chengjun Pan",
+    "Qiyuan Peng",
+    "Xiaoxuan Peng",
+    "Wanying Ren",
+    "Runhui Ruan",
+    "Jifei Shan",
+    "Zixin Shang",
+    "Bing Shao",
+    "Zhuohui Sheng",
+    "Jiayang Shi",
+    "Qingyun Shi",
+    "Yang Shu",
+    "Aierpanjiang Simayi",
+    "Sirui Song",
+    "Yuxiao Song",
+    "Jiahao Sun",
+    "Zhe Sun",
+    "Wenzhe Tan",
+    "Guoxiang Wang",
+    "Hanchen Wang",
+    "Jie Wang",
+    "Pengbo Wang",
+    "Qing Wang",
+    "Rui Wang",
+    "Weihang Wang",
+    "Xiaotao Wang",
+    "Yuhui Wang",
+    "Zhekai Wang",
+    "Zihan Wang",
+    "Zile Wang",
+    "Jinke Wu",
+    "Liwei Wu",
+    "Xuansheng Wu",
+    "Yida Wu",
+    "Yihao Wu",
+    "Yinqi Wu",
+    "Yue Wu",
+    "Yuhan Wu",
+    "Yuwa Wu",
+    "Zhiheng Xi",
+    "Ying Xiao",
+    "Zhide Xie",
+    "Caijun Xu",
+    "Xingle Xu",
+    "Yichen Xu",
+    "Yongfeng Xu",
+    "Xiaolei Yang",
+    "Zhixiong Yang",
+    "Jiacheng Yao",
+    "Dingcheng Yi",
+    "Shihong Yi",
+    "Jinhui Yin",
+    "Peizhou Yu",
+    "Shan Yu",
+    "Hao Yuan",
+    "Junjie Yuan",
+    "Xiongyao Zha",
+    "Bo Zhang",
+    "Caixian Zhang",
+    "Kaicheng Zhang",
+    "Pengxiang Zhang",
+    "Qiuyinzhe Zhang",
+    "Wei Zhang",
+    "Xiaoqian Zhang",
+    "Xinsen Zhang",
+    "Jiyuan Zhao",
+    "Shuyu Zhao",
+    "Pujun Zheng",
+    "Zheyu Zheng",
+    "Xiaoxue Zhong",
+    "Peiheng Zhou",
+    "Xiaohao Zhou",
+    "Xinyu Zhou",
+    "Fangyi Zhu",
+    "Guanru Zhu",
+    "Yulun Zhu",
+    "Jiabao Zhuang",
+    "Pengfei Cao",
+    "Zhicheng Dou",
+    "Xianpei Han",
+    "Ben He",
+    "Guoxiu He",
+    "Xuanjing Huang",
+    "Tao Ji",
+    "Yu-Gang Jiang",
+    "Dahua Lin",
+    "Hongyu Lin",
+    "Kang Liu",
+    "Yaojie Lu",
+    "Le Sun",
+    "Ji-Rong Wen",
+    "Jun Zhao",
+    "Yutao Zhu",
+    "Qi Zhang",
+    "Bowen Zhou"
+   ],
+   "orgs": [
+    "Intern Large Models"
+   ],
+   "published": "2026-11-16T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.21072",
+     "signal": "▲ 64",
+     "metric": 64
+    }
+   ],
+   "category": "论文",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Sage S2.1 Flash：320B科学智能体模型技术报告",
+   "summary_zh": "320B MoE通用模型，专为科学证据推理与交互环境行动设计，在OfficeQA Pro、MLE-bench Lite等33项基准中多项第一，桌面与浏览器任务表现强劲。",
+   "highlights_zh": [
+    "320B MoE架构，配备分子图、生物序列、光谱专用编码器",
+    "构建可验证的工具使用、搜索、编码及ML实验环境训练智能体能力",
+    "33项基准七领域评测，OfficeQA Pro 72.2、MLE-bench Lite 90.3 HumanRank居首"
+   ],
+   "why_zh": "科学AI与智能体结合的前沿样本，展示大模型如何从推理走向可验证的科学工作流执行。",
+   "tags": [
+    "大模型",
+    "智能体",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.6296,
+   "score_llm": 9.0,
+   "score": 0.7918,
+   "date": "2026-11-17",
+   "slot": "evening",
+   "selected_at": "2026-11-17T14:19:07+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.21072.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.21072"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.21072"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.21072"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.21072"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.21072"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.21072"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/InternLM/Sage-S2.1-Flash"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.21003",
+   "kind": "paper",
+   "title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
+   "url": "https://arxiv.org/abs/2611.21003",
+   "pdf_url": "https://arxiv.org/pdf/2611.21003",
+   "abstract": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond. The models lead or are competitive with strong open models of their size on agentic and coding benchmarks. On the modeling side, to strengthen reasoning, we introduce Mixture-of-Value Attention (MoVA), applying MoE to attention value projections, and softplus attention gating, a more flexible, theoretically motivated gate. Our 36B-A4B model uses both and nearly matches a 32B dense model trained on the same data, with one-seventh the active parameters. We also introduce Uno, lossless diffusion adapters that speed up decoding by up to 2.2x without a separate draft model. Our release follows the LLM360 definition of open source for transparency and reproducibility: the full development history, including intermediate checkpoints from every training stage, pre-training data, training logs, and all training, evaluation, and infrastructure code, notably our production-scale xLLM framework for dense and MoE training and the RL360 reinforcement-learning stack. Beyond the data itself, we release and document in detail every pipeline that built it, the part of model development that open releases most rarely disclose. These pipelines produced roughly 10T synthetic pre-training tokens, showing that synthetic data can be a major ingredient of pre-training at scale. Four of the models share one 22T-token pre-training corpus and recipe, revealing consistent scaling behavior and enabling controlled studies of scale and sparsity. All artifacts are available at https://ifm.ai/k2/",
+   "authors": [
+    "K2 Team",
+    "Zhengzhong Liu",
+    "Haonan Li",
+    "Xuezhe Ma",
+    "Alexander Moreno",
+    "Subham Sekhar Sahoo",
+    "Rupesh Kumar Srivastava",
+    "Mikhail Yurochkin",
+    "Hadi Abdine",
+    "Yash Akhauri",
+    "Adharsh Babu",
+    "David Bellamy",
+    "Jalaj Bhandari",
+    "Dani Bouch",
+    "Wail Bouhedja",
+    "Weili Cao",
+    "Ahmad Chamma",
+    "Po-Chun Chang",
+    "Junlin Chen",
+    "Lingjie Chen",
+    "Zhoujun Cheng",
+    "Kyle Chickering",
+    "Ryandito Diandaru",
+    "Evan Dufraisse",
+    "Chaitanya Dwivedi",
+    "Bilal El Bouardi",
+    "Desai Fan",
+    "Richard Fan",
+    "Chengqian Gao",
+    "Rifo Ahmad Genadi",
+    "Jonathan Geuter",
+    "Charles Guille-Escuret",
+    "Willis Guo",
+    "Dhawal Gupta",
+    "Seungwook Han",
+    "Tingxu Han",
+    "Shibo Hao",
+    "Besher Hassan",
+    "Guowei He",
+    "Ming Shan Hee",
+    "Joel Hestness",
+    "Yu Huang",
+    "Yuan Huang",
+    "Haolong Jia",
+    "Linghao Jin",
+    "Junu Kim",
+    "Lingjing Kong",
+    "Nurkhan Laiyk",
+    "Andrej Leban",
+    "Liqun Ma",
+    "John Maggs",
+    "Amr Mohamed",
+    "Mukhesh Narra",
+    "Omkar Pangarkar",
+    "Aldo Pareja",
+    "Khiem Pham",
+    "Varad Pimpalkhute",
+    "Nikhil Ranjan",
+    "Elizaveta Rebrova",
+    "Hector Ren",
+    "Shaurya Rohatgi",
+    "Guokan Shang",
+    "Jianshu She",
+    "Chufan Shi",
+    "Aaryamonvikram Singh",
+    "Daria Soboleva",
+    "Kartik Sreenivasan",
+    "Suqi Sun",
+    "Yuekai Sun",
+    "Bowen Tan",
+    "Liping Tang",
+    "Shengkun Tang",
+    "Muzi Tao",
+    "Mallikarjuna Tupakula",
+    "Micah Villmow",
+    "Hongyi Wang",
+    "Huijuan Wang",
+    "Renxi Wang",
+    "Yongxin Wang",
+    "Yuqi Wang",
+    "Zhenting Wang",
+    "Shicheng Wen",
+    "Yingquan Wu",
+    "Anze Xie",
+    "Andrew Xing",
+    "Matthew Yang",
+    "Shuanghai Yu",
+    "Kerem Zaman",
+    "Zenan Zhai",
+    "Hongli Zhan",
+    "Xuezhou Zhang",
+    "Anshun Asher Zheng",
+    "Zhe Zhou",
+    "Richard Zhuang",
+    "Eric P. Xing"
+   ],
+   "orgs": [
+    "Institute of Foundation Models"
+   ],
+   "published": "2026-11-16T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.21003",
+     "signal": "▲ 56",
+     "metric": 56
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "K2-Horizon：全开源语言模型舰队",
+   "summary_zh": "发布0.9B至375B-A23B六款全开源模型，提出MoVA与softplus注意力门控，36B-A4B以1/7激活参数接近32B稠密模型，并开源完整训练管线与中间检查点。",
+   "highlights_zh": [
+    "MoVA将MoE用于注意力value投影，softplus门控更灵活",
+    "Uno无损扩散适配器解码提速最高2.2倍，无需草稿模型",
+    "按LLM360标准开源全部训练历史、数据、日志与xLLM/RL360框架"
+   ],
+   "why_zh": "开源透明度标杆，架构创新加全流程可复现，对做开源模型与训练基础设施的团队价值高。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.6217,
+   "score_llm": 9.0,
+   "score": 0.7887,
+   "date": "2026-11-17",
+   "slot": "evening",
+   "selected_at": "2026-11-17T14:19:07+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.21003.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.21003"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.21003"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.21003"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.21003"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.21003"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.21003"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.20882",
+   "kind": "paper",
+   "title": "Accelerate Bench: Evaluating Agents for Application-Level Program Optimization",
+   "url": "https://arxiv.org/abs/2611.20882",
+   "pdf_url": "https://arxiv.org/pdf/2611.20882",
+   "abstract": "Application optimization requires coding agents to discover useful changes and coordinate them across a complete program while preserving the required computation. We introduce Accelerate Bench, a benchmark of 32 CPU optimization tasks adapted from scientific applications and supercomputing competitions. Each task provides a working program and specifies the workload, correctness requirements, timing boundaries, and permitted edits, leaving agents to choose where and how to optimize. Public testing supports iterative development, and a separate verifier scores the final submission. On benchmark version 1.1, we evaluate 16 coding agents, each pairing a model with a harness. Their Score@1 ranges from 25.5% to 67.4%. Most of their programs are correct, and the size of the speedup separates them: the two leading agents are at least 2x faster on 22 or more of the 32 tasks, while the other fourteen reach 2x on 8 to 17 and leave 125 of their 412 correct outcomes below 1.25x. Controlled replays show why coordination across an application matters: identical source code runs between 0.29x and 2.12x depending only on build and runtime settings, and one code change is worth 1.01x or 6.4x depending on another. Accelerate Bench pairs executable workloads with agents' programs and trajectories to evaluate both their gains and the process behind them.",
+   "authors": [
+    "Bowen Liu",
+    "Yuhan Li",
+    "Nuo Chen",
+    "Weile Luo",
+    "Miao Peng",
+    "Qintong Zhang",
+    "Qifan Zhang",
+    "Jia Li",
+    "Ziqi Gao",
+    "Lydell Huang"
+   ],
+   "orgs": [
+    "Tencent Hunyuan"
+   ],
+   "published": "2026-11-16T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.20882",
+     "signal": "▲ 14",
+     "metric": 14
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.20882",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Accelerate Bench：应用级程序优化智能体评测",
+   "summary_zh": "推出32个CPU优化任务的基准，评测16个编码智能体，Score@1从25.5%到67.4%；揭示同一代码因构建与运行时设置不同性能差0.29x至2.12x，跨应用协调才是关键。",
+   "highlights_zh": [
+    "任务来自科学应用与超算竞赛，含正确性、时限与可编辑范围约束",
+    "公开测试支持迭代开发，独立验证器评分最终提交",
+    "受控重放证明构建/运行时配置对性能影响巨大，单点改动价值依赖上下文"
+   ],
+   "why_zh": "把编码智能体评测从单文件题推进到真实应用级优化，暴露协调能力短板。",
+   "tags": [
+    "代码",
+    "数据与评测",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.6819,
+   "score_llm": 8.0,
+   "score": 0.7528,
+   "date": "2026-11-17",
+   "slot": "evening",
+   "selected_at": "2026-11-17T14:19:07+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.20882.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.20882"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.20882"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.20882"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.20882"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.20882"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.20882"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/AdAstraAbyssoque/accelerate-bench"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.21218",
+   "kind": "paper",
+   "title": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
+   "url": "https://arxiv.org/abs/2611.21218",
+   "pdf_url": "https://arxiv.org/pdf/2611.21218",
+   "abstract": "Advancing medical AI for inclusive healthcare requires evaluation across diverse healthcare roles, tasks, and care settings, but benchmark coverage remains uneven. We introduce InclusionMed, an open medical AI evaluation initiative for inclusive healthcare. The InclusionMed Atlas organizes benchmarks across three healthcare roles and three AI capabilities. For the first release, we selected four public benchmarks from 388 candidates through structured audits and independent reproduction. With InclusionMed-DxFiles, our private diagnostic reasoning benchmark, the Atlas contains five benchmarks covering three of its nine role--capability cells. We evaluated frontier large language models on the Atlas and aggregated their results into the InclusionMed Index, with overall scores ranging from 17.5 to 49.1 out of 100. The Index also reports scores by healthcare role and AI capability, showing that a model's rank varied with the role or capability considered. A within-benchmark analysis using task-level tags showed that the ten highest-ranked models in the Index all scored higher on patient communication than on clinical decision-making. Models with similar Index scores also differed substantially in estimated inference cost. These findings highlight the need for evaluation covering more diverse healthcare needs and for context-specific model selection. Through open collaboration and community contributions, InclusionMed seeks to ensure that diverse healthcare needs worldwide shape how medical AI progress is defined and measured.",
+   "authors": [
+    "The InclusionMed Collaboration"
+   ],
+   "orgs": [],
+   "published": "2026-11-16T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.21218",
+     "signal": "▲ 52",
+     "metric": 52
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.21218",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "InclusionMed：面向包容性医疗的AI评测",
+   "summary_zh": "构建覆盖三种医疗角色与三种AI能力的评测图谱，首版纳入5个基准，前沿模型总分仅17.5至49.1；模型排名随角色与能力变化，且同等分数下推理成本差异显著。",
+   "highlights_zh": [
+    "从388个候选基准中结构化审计并独立复现选出4个公开基准",
+    "InclusionMed Index按角色与能力分项报告，揭示排名不稳定",
+    "前十模型在患者沟通上均高于临床决策，提示评测覆盖偏差"
+   ],
+   "why_zh": "医疗AI评测从单一考试转向多角色多场景，为选型提供更贴近落地的视角。",
+   "tags": [
+    "数据与评测",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.6774,
+   "score_llm": 7.0,
+   "score": 0.691,
+   "date": "2026-11-17",
+   "slot": "evening",
+   "selected_at": "2026-11-17T14:19:07+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.21218.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.21218"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.21218"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.21218"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.21218"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.21218"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.21218"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/panuvi/inclusionmed"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d6dce387dec8",
+   "kind": "article",
+   "title": "Apple Permissions Update, The New App Paradigm, My iPhone Duo Review",
+   "url": "https://stratechery.com/2026/apple-permissions-update-the-new-app-paradigm-my-iphone-duo-review/",
+   "pdf_url": "",
+   "abstract": "Apple doesn't ruin the Mac, but they don't fix the agent problem, raising questions if they can think outside the app paradigm. Then, my iPhone Duo review.",
+   "authors": [
+    "Ben Thompson"
+   ],
+   "orgs": [
+    "Stratechery"
+   ],
+   "published": "2026-11-17T11:00:00+00:00",
+   "sources": [
+    {
+     "name": "Stratechery",
+     "authority": 0.8,
+     "url": "https://stratechery.com/2026/apple-permissions-update-the-new-app-paradigm-my-iphone-duo-review/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Ben Thompson，科技战略分析",
+   "title_zh": "Ben Thompson：苹果没解决 Agent 问题",
+   "summary_zh": "Ben Thompson 认为苹果的权限更新没有毁掉 Mac，但也没解决 Agent 时代的核心问题，质疑其能否跳出 App 范式思考。",
+   "highlights_zh": [
+    "苹果权限调整对 Mac 影响有限，但未回应 Agent 对系统权限模型的新需求",
+    "核心质疑：苹果能否在 App 范式之外重新设计交互与权限",
+    "附带 iPhone Duo 上手评测"
+   ],
+   "why_zh": "从平台战略视角看 Agent 时代操作系统权限模型的缺口，对做端侧 Agent 的人有启发。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.648,
+   "date": "2026-11-17",
+   "slot": "evening",
+   "selected_at": "2026-11-17T14:19:07+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://stratechery.com/2026/apple-permissions-update-the-new-app-paradigm-my-iphone-duo-review/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-58b8feab6f2e",
+   "kind": "article",
+   "title": "最大规模具身大模型挑战赛落幕，48 小时真机总决赛比出了什么？",
+   "url": "http://www.geekpark.net/news/374103",
+   "pdf_url": "",
+   "abstract": "开发者围绕同一块基础模型进行实验，让模型直面成功的方法、失败的经验和真实世界的问题。 作者｜Li Yuan 编辑｜ 郑玄 最大规模具身大模型挑战赛总决赛结果出炉，排名第三的队伍 SST 只额外采集了 13 条数据。 他们没有大量补数据，而是让 DeepSeek 先理解任务，再用视觉分割模型标出目标物体，最后交给 LingBot-VLA 2.0 完成动作，并在真机评测中拿到 65.87 分。 通用大模型与具身模型的协同在这里变得很具体：DeepSeek 负责弄清楚要做什么，具身基础模型帮机器人找准操作对象、做出动作。 11 月 16 日，首届蚂蚁灵波具身大模型挑战赛在上海张江收官。经过线上初赛，15 支战队进入为期 48 小时的线下总决赛。所有队伍使用同一款开源模型 LingBot-VLA 2.0、同一款松灵 COBOT MAGIC 机器人和统一的现场算力，完成蔬果摆放、化妆品收纳和双臂清扫三项任务。 起点相同，解法不限：有人重采数据，有人调整模型的训练和推理方式，也有人接入通用大模型、视觉分割或仿真工具。48 小时里，15 支队伍要回答的是同一个问题：面对真实桌面上的物体，怎样让已有的模型把这件事做成？ 01 当胜负开始取决于如何使用数据 纵观整场比赛，有一点十分有趣：几乎每支队伍都提到了数据工程的重要性。 LingBot-VLA 2.0 已经具备基本的视觉理解、指令理解和动作生成能力。参赛者不必在 48 小时里重新训练一个机器人大脑，而可以直接判断模型已经会什么、会在哪些情况下失败，再决定应该补什么数据、怎样训练。 冠军团队 TARS 首先给三项任务分出了难易。经过测试，他们发现，水果摆放和化妆品收纳的主要问题，是现场的无关物体容易干扰判断。团队因此引入大模型识别目标和干扰物，再遮挡无关区域，让机器人更专注于当前任务。团队介绍，这套方法让第一项任务实现了 10 次全部成功。 他们把更多时间和数据留给了最难的双臂清扫。簸箕抓取不稳，团队便重新选择抓持位置并补采数据；机械臂伸远、负重后会下坠，他们又测量不同负重下的偏差，对动作进行补偿。此外，团队还将单步训练时间从约 15 秒压缩到 3.4 秒，为现场迭代争取时间。最终，TARS 以 82 分拿到第一名。 排名第三的 SST 走的是「少而准」的路线。除了在推理时接入 DeepSeek 和视觉分割模型，他们还冻结了部分预训练参数，避免 13 条补充数据破坏 LingBot-VLA 2.0 原有的通用能力。 获得第二名的 EVA 则选择持续补数据。比赛开始时，他们直接用官方数据训练，真机成功率只有约 10%。团队把每轮测试中的失败重新变成训练数据：机器人在哪里抓偏了、什么角度容易出错，就围绕这些问题继续采集和训练。经过 7 轮迭代，数据增加到约 1200 条，自测成功率提高到 73.83%。 资源有限的 FDU_SONIC，把重点放在了已有数据上。这支由四名复旦学生组成的队伍，平时使用约两千元的机械臂，算力也不充足。他们没有选择成本更高的模型结构创新，而是反复分析官方提供的 647 条轨迹，再通过真机测试寻找失败原因，围绕问题调整数据。最终，团队获得第五名和三等奖。 四支队伍使用同一款模型，却做出了完全不同的数据选择。 真正拉开差距的，也不再是谁采集的数据更多，而是谁更理解 LingBot-VLA 2.0 已经具备的能力，能够用最合适的数据和工具把它释放出来。 基础模型越强，开发者越不需要重复建设底层能力，也越能把时间花在过去只有完整机器人团队才有机会解决的真机问题上。 02 同一道题， 开发者带来了不",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-17T11:18:55+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/374103",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "具身大模型挑战赛：同一起点，数据工程定胜负",
+   "summary_zh": "15支队伍用同一开源具身模型LingBot-VLA 2.0在48小时真机赛中比拼，冠军靠数据工程与推理优化以82分夺冠，第三名仅补13条数据。",
+   "highlights_zh": [
+    "所有队伍共用同一模型、机器人与算力，胜负取决于数据选择与工程能力",
+    "冠军TARS引入大模型识别干扰物并优化训练速度，单步从15秒降至3.4秒",
+    "第三名SST冻结部分参数、仅补13条数据，结合DeepSeek与视觉分割完成推理"
+   ],
+   "why_zh": "揭示具身智能落地中数据工程与通用大模型协同的真实价值，而非堆数据。",
+   "tags": [
+    "机器人",
+    "多模态",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-11-17",
+   "slot": "evening",
+   "selected_at": "2026-11-17T14:19:07+00:00",
+   "mirror_pdf": "pdf/web-58b8feab6f2e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/374103"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-60b942dc04bc",
+   "kind": "article",
+   "title": "腾讯 Hy4 flash 实测：快速、实惠、聪明，国模进入过日子时代",
+   "url": "http://www.geekpark.net/news/374083",
+   "pdf_url": "",
+   "abstract": "作者｜Cynthia 编辑｜郑玄 过日子的风，还是吹到了大模型行业。 2026 年之前，一款模型能不能刷屏，往往取决于它又做到了什么。GPT-4o 的实时语音交互、Claude 的编程能力、DeepSeek R1 的推理表现，一度轮番成为讨论焦点。一款新模型发布，大家首先关心的是它超过了谁，又做到了什么过去做不到的事。 但到了 2026 年，Agent 真正流行起来之后，风向开始变了。SOTA 模型的领先能力开始以季度为单位被轮番刷新，变得不再新鲜。而模型能力能不能用得起、等得起，成为了新的议题。 毕竟，让模型回答一个问题，和让 Agent 接手一项工作，对应的资源消耗模式完全不同。在 Agent 场景中，一次指令背后，可能是几十轮模型调用。读材料、查代码、调用工具、处理报错，每一步都会增加大量上下文和调用次数。OpenRouter 披露，今年 2 月 6 日，平台上 Agent 的 Token 用量首次超过人类直接调用；到 9 月底，已经约为后者的七倍。 具体到任务，今年 4 月，密歇根大学与斯坦福大学一项覆盖 8 款模型、500 个真实代码问题的研究发现， 在其测试中，Agent 每次尝试处理一个问题，平均累计消耗约 417 万 Token，模型调用费约 1.86 美元 。按这个均值，连续跑十次，就接近 20 美元。 在这一背景下。任务越长，大家对速度和价格就越敏感。各家模型厂商的 Flash 性价比模型也因此有了越来越大的用武之地。 早在去年，OpenRouter 与 a16z 对超过 100 万亿 Token 的使用数据进行研究后就发现，Gemini 2.0 Flash、DeepSeek V3 0324 这类兼顾能力与低成本的模型，已经获得了与部分高价领先模型相近的用量。到了今年 11 月 14 日，DeepSeek、智谱的 Flash 模型，又同时进入 OpenRouter 单日 Token 用量前十。用户越来越愿意为更强的能力付费，同时也在把大量日常任务交给更实惠的模型。 而在最近推出的一众 Flash 模型中，作为一款主打精简输出、更高吞吐以及更快速度的 Flash 模型，腾讯最近推出的 Hy4 flash，无疑是其中最受关注的一个。 据了解，这款模型的总参数量为 224B（其中 64B Engram 参数），通过在预训练阶段，加入混合注意力、LatentMoE、Engram 等架构特性，Hy4 flash 可以做到实际使用时激活参数仅为 12B，KV cache 大小仅为 Hy3 的 1/24、Hy4 的 1/6，还支持多模态和 1M 上下文长度。 此外，作为迄今为止最高性价比的 Hy 模型：Hy4 flash 的每百万 Token 输入 0.5 元、输出 2 元，命中缓存时仅需 0.02 元，价格较 Hy4 大幅降低。 在此基础上，在后训练阶段，Hy4 flash 通过自蒸馏 Hy4 获得了较强的综合智能水平，再通过强化学习使端到端任务输出长度降低 50%。最终实现整体的单任务成本仅为 Hy4 二十分之一。 推理效率上，通过结合 megakernel、4bit 量化、DFly 等手段极致优化，Hy4 flash 解码速度可超过 150 tps，且可以大规模低成本部署运营。 我们也在 Hy4 flash 发布后的第一时间拿到了 Hy4 flash 的内测资格。 随后，我们把它放进了 WorkBuddy（ WorkBuddy 中可以免费使用 Hy4 flash），和同样定位的 DeepSeek-V4.1-Flash（ 1017 版本",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-17T07:12:48+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/374083",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯 Hy4 flash 实测：Agent 时代的性价比之战",
+   "summary_zh": "极客公园实测腾讯 Hy4 flash：224B 总参数、激活仅 12B，KV cache 为 Hy3 的 1/24，输入 0.5 元/百万 Token，单任务成本仅为 Hy4 的 1/20，解码超 150 tps。",
+   "highlights_zh": [
+    "混合注意力 + LatentMoE + Engram 架构，激活参数仅 12B，支持多模态与 1M 上下文",
+    "后训练用自蒸馏继承 Hy4 能力，强化学习使输出长度降 50%",
+    "Agent 场景 Token 消耗是人类的 7 倍，速度与价格成为新竞争维度",
+    "megakernel、4bit 量化、DFly 优化实现低成本大规模部署"
+   ],
+   "why_zh": "国模竞争从刷榜转向单位任务成本，这篇给出架构与定价的具体拆解，值得关注 Agent 成本结构的人读。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-11-17",
+   "slot": "evening",
+   "selected_at": "2026-11-17T14:19:07+00:00",
+   "mirror_pdf": "pdf/web-60b942dc04bc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/374083"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a909c419b8fa",
+   "kind": "article",
+   "title": "[AINews] Perplexity hits a $1B revenue run rate, up 4x in 2026",
+   "url": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/",
+   "pdf_url": "",
+   "abstract": "November 16, 2026 — Computer gets Teammates, Perplexity ships Monitor API, and a new research lab launches.",
+   "authors": [
+    "swyx .ai"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-11-17T09:24:56+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Perplexity 年化收入破 10 亿美元，同比增 4 倍",
+   "summary_zh": "Latent Space 日报：Perplexity 年化收入达 10 亿美元、一年增 4 倍，同时发布 Monitor API，并有一家新研究实验室成立。",
+   "highlights_zh": [
+    "Perplexity 年化收入 10 亿美元，同比增长约 4 倍",
+    "推出 Monitor API，向 Agent 化产品延伸",
+    "Computer gets Teammates：AI 产品向团队协作形态演进"
+   ],
+   "why_zh": "AI 搜索商业化跑通的关键数据点，可对照判断应用层收入天花板。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-11-17",
+   "slot": "evening",
+   "selected_at": "2026-11-17T14:19:07+00:00",
+   "mirror_pdf": "pdf/web-a909c419b8fa.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f26f2a4dfd6b",
+   "kind": "article",
+   "title": "Broadening access to AI for scientists",
+   "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+   "pdf_url": "",
+   "abstract": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-11-16T17:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI向全球20万科研人员免费开放前沿模型",
+   "summary_zh": "OpenAI将ChatGPT学术研究计划扩展至全球20万名科研人员，免费提供前沿模型访问权限，加速科学发现。",
+   "highlights_zh": [
+    "覆盖20万科研人员，规模远超此前",
+    "免费开放前沿模型，降低科研AI门槛",
+    "反映AI厂商争夺科研生态的战略意图"
+   ],
+   "why_zh": "了解头部AI公司如何通过免费策略渗透科研场景、构建学术生态壁垒。",
+   "tags": [
+    "科学AI",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 7.0,
+   "score": 0.636,
+   "date": "2026-11-17",
+   "slot": "evening",
+   "selected_at": "2026-11-17T14:19:07+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c4962847ea64",
+   "kind": "article",
+   "title": "AI，没有抛弃小城商家",
+   "url": "http://www.geekpark.net/news/374101",
+   "pdf_url": "",
+   "abstract": "作者｜李苏 编辑｜郑玄 理解本地商业，是 AI 走出实验室后的新课程。 过去几年，AI 界擅长讲的故事变了。 从最开始谈技术，讲参数有多大，算得有多快，跑分超过多少人，慢慢转变为讲落地，讲 AI 怎么一分钟生成商业计划书，怎么给被生活困扰的人们出情绪价值满满的建议。 走出实验室，AI 下一站在哪里？这背后，是一段讲了一半的「AI 平权」故事。前面讲的这一半，是消费者：普通人用 AI 获取信息、写方案、做攻略。还有没讲完的一半，在经营者那里——对小店老板来说，AI 平不平权，从来不是能不能跟它聊天，而是它能不能帮自己管钱、管货、管客流。 OpenAI 11 月上线测试功能「Businesses in ChatGPT」，让商家认领资料、维护信息，看到用户如何在 ChatGPT 里与自己互动。功能不大，信号很清楚：巨头们开始给「商家」留位置了。 这件事，国内的生意其实已经先跑起来了。美团数据显示，近一个月，三线及以下城市使用美团 AI 助手的商家数量环比增长超 200%，主动发起的对话量增长约 3 倍。 ToB 端的 AI 落地，一条路向上进写字楼，服务白领办公；另一条向里走进街头巷尾，服务一天忙十几个小时的小店。后一条其实更难，考验的不是模型多聪明，而是懂不懂本地生意，是否理解物理世界的复杂，它要看得懂一家外卖店的菜单排序，也要看得见一家酒店和附近同行价格微妙的变化。 从山东日照、辽宁朝阳的餐饮小店，到内蒙古赤峰的酒店，小城店长也开始用起了 AI 店长。目前，针对餐饮、酒旅、医药等行业，美团都推出了一系列 AI 经营助手，这些 AI 能力也被接入了中小商家平时使用的经营后台。AI 不仅在走进市井中最朴素的生意日常，也开始服务一个由千千万万家小店组成的庞大市场。 01 改变生意， 从一张外卖菜单开始 过去，山东日照的披萨店老板艾泽判断生意好坏，主要看自己累不累，「忙得顾不上休息，就觉得今天生意应该不错」。但在今年 7 月份用上妙手外卖版后，曝光、转化率和商品表现被摆到了一起，他才发现，数据反映的情况，并不总和直觉一致。 做套餐，是最先让他改变想法的一件事。 原来，艾泽觉得顾客想吃什么，自己单点就好，没必要专门搭配。但 AI 给出的分析让他意识到，在外卖的生意里，一份套餐可以对应一种更明确的消费需求，也能帮助顾客更快做出选择，能留住特定的客群。 他开始重新整理菜单，修改图片和卖点文案，调整商品排序，也设计了以前不愿意做的套餐。在每月省下上千元代运营成本的同时，艾泽也从以前「闲到蹲在路边看蚂蚁」变成了「连口水都顾不上喝」。据艾泽介绍，在用上 AI 半个月后，店里的外卖单量比此前翻了一倍多，「每天光是高峰期就有三四十单」。 「现在每天早起到店里后，我的第一件事情就是问妙手，看看昨天的经营情况如何，哪个餐品卖的好，哪个不太行，原因都有哪些」。如今，AI 已经成为艾泽门店经营中的重要一环，艾泽也慢慢摸索出了自己的节奏，在调整菜单后，他会留出一段时间观察效果，再决定下一步怎么改，「以前需要自己翻后台一点点算账，现在是 AI 直接帮我拉数据、做分析，并给出调整建议，我也越来越懂该怎么做好这门生意了。」 从沿海旅游小城日照往北走，在内陆四线城市的内蒙古赤峰，入行接近二十年的酒店老板彭彭面临的是另一种焦虑：大家都在降价，自己要不要跟？ 他的酒店没有专职收益管理人员，房价怎么定，活动怎么做，房态怎么调，要靠自己盯。今年七八月迎来了内蒙古的旅游旺季，周边的不少酒店开始降价抢客。跟着降，担心损失收入；不降，又怕客人去了别家。 彼时陷入两难的彭彭，开始每天花一个小时跟美团面向酒",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-17T09:58:33+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/374101",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI 下沉小城：美团商家助手的落地样本",
+   "summary_zh": "极客公园报道美团 AI 经营助手在三线及以下城市商家中的落地：近一月使用商家环比增超 200%，对话量增约 3 倍，小店老板用其管菜单、调价格、看数据。",
+   "highlights_zh": [
+    "美团数据显示三线及以下城市 AI 助手商家数环比增超 200%，对话量增约 3 倍",
+    "OpenAI 11 月上线 Businesses in ChatGPT，巨头开始为商家留位置",
+    "日照披萨店用 AI 半个月外卖单量翻倍，每月省上千元代运营成本",
+    "本地生意 AI 落地难点不在模型聪明，而在理解物理世界与本地经营细节"
+   ],
+   "why_zh": "观察 AI ToB 下沉市场的真实落地数据与商家行为变化，对判断应用层机会有参考价值。",
+   "tags": [
+    "产品与行业",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-11-17",
+   "slot": "evening",
+   "selected_at": "2026-11-17T14:19:07+00:00",
+   "mirror_pdf": "pdf/web-c4962847ea64.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/374101"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-845a5d5e8ffb",
+   "kind": "article",
+   "title": "Fable 5.2 is the New Bazooka",
+   "url": "https://thezvi.wordpress.com/2026/11/16/fable-5-2-is-the-new-bazooka/",
+   "pdf_url": "",
+   "abstract": "You do not always want a bazooka. Sometimes, though, you absolutely want a bazooka. That’s what Claude Fable 5.2 is for. This is your bazooka. For most purposes, for a thousand household uses, Claude Fable 5.2 will not be appreciably … Continue reading →",
+   "authors": [
+    "TheZvi"
+   ],
+   "orgs": [
+    "Zvi Mowshowitz"
+   ],
+   "published": "2026-11-16T20:27:43+00:00",
+   "sources": [
+    {
+     "name": "Zvi Mowshowitz",
+     "authority": 0.75,
+     "url": "https://thezvi.wordpress.com/2026/11/16/fable-5-2-is-the-new-bazooka/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 趋势评论员，每周 AI 综述",
+   "title_zh": "Zvi：Claude Fable 5.2 是把火箭筒",
+   "summary_zh": "Zvi Mowshowitz 认为 Claude Fable 5.2 能力极强但并非日常必需，属于「需要时就要火箭筒」的场景型工具。",
+   "highlights_zh": [
+    "定位为高强度任务的重型工具，而非通用日常模型",
+    "强调能力与使用场景的匹配，而非一味追求 SOTA"
+   ],
+   "why_zh": "模型能力分层使用的观点，对模型选型与成本权衡有参考。",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 6.0,
+   "score": 0.58,
+   "date": "2026-11-17",
+   "slot": "evening",
+   "selected_at": "2026-11-17T14:19:07+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://thezvi.wordpress.com/2026/11/16/fable-5-2-is-the-new-bazooka/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f7cbb7d7bd75",
+   "kind": "article",
+   "title": "“BAT 做 Personal Agent，我没那么乐观”",
+   "url": "https://www.leiphone.com/category/CorporateServices/7flnC8myrlPgPbPs.html",
+   "pdf_url": "",
+   "abstract": "“国内大厂里面，你最看好哪家公司做 Personal Agent？” 过去这一个月，自从北美那边Instinct、Muse 这俩产品爆火后，投资人刘墨昱每次去见同行和朋友，这个话题都会被反复拎出来讨论。 然而，这偏偏又是一个没有共识的问题。刘墨昱和朋友们仔细一扒各家互联网大厂，每家大厂看似都手握庞大的生态底盘，但真要剥开来看，各家做 Personal Agent 的阻碍，同样不少。 “聊到现在为止，我对于国内互联网大厂做好Personal Agent 这件事，还没那么乐观。”刘墨昱摇了摇头。 Personal Agent交给哪个团队做？ 大厂做 Personal Agent，第一道难题就摆在组织内部：这件事，究竟该交给谁来做？ 在字节内部，他们选择把这件事交给了豆包手机助手团队主导。 今年 4 月，一个代号叫“ Spell” 的项目就在内测。在不少从业者看来，此前手机助手团队早就在做系统级的跨App操作，也就是让AI替用户在多个应用之间跳转、比价、下单。这和Personal agent要做的事基本一致，字节不需要从零组队。 但令人奇怪的是，早有消息称，Muse等产品在海外大火后，该项目就在加速推进，但直至现在仍未对外推出。有业内人士猜测，这可能跟他们团队一直在独立分拆融资有关，分拆过程中存在许多不确定性，产品研发进度也会相应变化。 而在阿里，他们把Personal Agent项目，交给了千问团队，让吴嘉负责。 这也合理，阿里3月成立ATH事业群整合核心AI板块，千问负责AI to C，钉钉负责AI to B。Personal Agent 交给千问团队顺理成章。 10 月 13 日，千问团队也率先推出了千问 Go。不过值得注意的是，他们并没有单独上架千问 Go App，而是把它嵌入到了千问 App 内。 一些从业者认为，这样做的好处是，千问已经是阿里公认的AI to C总入口，阿里披露其C端月活超3亿，千问Go是在这个基础上演进，不用从零拉用户。 但做产品的刘凡宇说，这也有些担忧的地方，“chatbot的基因和个人agent的形态不完全一致。”用户打开千问，预期是\"问问题\"；而个人agent想让用户习惯的是\"交代任务然后走开\"。两种预期放在同一个入口里，产品设计上会有拉扯。 腾讯的情况最特别，谁来主力做Personal Agent这件事，似乎并没有定。 元宝团队在做，10 月市场就有消息，它们正在推进“元宝助手”，并计划推出独立的 App。这个团队的负责人是吴祖榕，他曾做出过腾讯会议这一爆款产品。微信也在做，他们已经孵化自己的个人智能体“小微”。 “所有公司和团队里，我是非常看好微信来做这件事的。”刘凡宇认为，微信具备Personal Agent所需要的所有原料，用户规模、服务、支付、个人上下文，但现在偏偏微信做这件事最谨慎。 两位接近腾讯高层思路的人士说，腾讯内部对微信接入AI一直非常谨慎，不愿让\"半成品\"破坏微信的稳定感。目前小微也是微信生态的专属助手，不碰外部互联网。 难以避免的内部资源“争夺战 ” 定了谁来做，只是拿到了牌。 Personal Agent 这一产品要做起来，还得要算力、要流量、要接口，集团池子只有这么大，当你的资源更多了，其他团队就少了，这恐会引发一场内部资源博弈。 谁来分你算力资源？ 首先说算力。 Personal Agent的算力账，和聊天产品不是一回事。聊天是用户问一句、模型答一句，成本按次算，但个人智能体要在后台常驻、记住用户、跑长任务，相当于给每个人配一台“专用电脑”，成本按人、按天算。 OpenClaw 爆火之后",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-17T08:34:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/CorporateServices/7flnC8myrlPgPbPs.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "投资人看衰BAT做Personal Agent",
+   "summary_zh": "投资人刘墨昱认为国内大厂做Personal Agent阻碍不少：字节交给豆包团队但迟迟未发，阿里千问Go嵌入主App有产品基因拉扯，腾讯微信最被看好却最谨慎。",
+   "highlights_zh": [
+    "字节Spell项目由豆包手机助手团队主导，因分拆融资不确定性进度受阻",
+    "阿里千问Go嵌入千问App而非独立上架，chatbot与agent形态存在预期冲突",
+    "腾讯元宝与微信小微双线并行，内部对微信接入AI极为谨慎"
+   ],
+   "why_zh": "从组织与资源分配视角剖析大厂做Personal Agent的结构性难题，有信息增量。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-17",
+   "slot": "evening",
+   "selected_at": "2026-11-17T14:19:07+00:00",
+   "mirror_pdf": "pdf/web-f7cbb7d7bd75.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/CorporateServices/7flnC8myrlPgPbPs.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0ab0ff6283b4",
+   "kind": "article",
+   "title": "Agent演示惊艳，一进生产就不好用：SAP直指企业AI落地的最大幻觉",
+   "url": "https://www.infoq.cn/article/AsfcqUsutpSlPIBE1ok9?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "褚杏娟"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-17T15:00:05+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/AsfcqUsutpSlPIBE1ok9?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "SAP：Agent演示惊艳，落地生产却失灵",
+   "summary_zh": "SAP指出企业AI最大幻觉是演示效果好但生产不可用，问题出在数据、流程与治理而非模型本身。",
+   "highlights_zh": [
+    "演示环境与生产环境的差距是当前企业Agent落地的主要障碍",
+    "SAP强调数据质量、系统集成与权限治理比模型能力更关键",
+    "对企业AI选型与落地节奏给出务实判断"
+   ],
+   "why_zh": "做企业Agent落地的团队可借此校准预期，避免被Demo误导。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-17",
+   "slot": "evening",
+   "selected_at": "2026-11-17T14:19:07+00:00",
+   "mirror_pdf": "pdf/web-0ab0ff6283b4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/AsfcqUsutpSlPIBE1ok9?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-82c89c12e313",
+   "kind": "article",
+   "title": "openEuler 进军 Agentic Infra！主席熊伟：不讲大故事，先解决真问题",
+   "url": "https://www.infoq.cn/article/JhBUwv1pHR3S986Ih0iJ?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "李冬梅"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-17T10:41:20+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/JhBUwv1pHR3S986Ih0iJ?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "openEuler进军Agentic Infra，先解真问题",
+   "summary_zh": "openEuler主席熊伟宣布切入Agentic基础设施，主张不追概念、优先解决智能体运行所需的系统层真实问题。",
+   "highlights_zh": [
+    "国产操作系统社区正式布局智能体基础设施方向",
+    "强调系统层调度、隔离与资源管理是Agent落地前提",
+    "路线偏工程务实，而非模型能力竞赛"
+   ],
+   "why_zh": "关注Agent底层基础设施与国产OS生态走向的从业者值得一读。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-17",
+   "slot": "evening",
+   "selected_at": "2026-11-17T14:19:07+00:00",
+   "mirror_pdf": "pdf/web-82c89c12e313.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/JhBUwv1pHR3S986Ih0iJ?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-42cbccbd6be2",
+   "kind": "article",
+   "title": "China’s AI-for-Science Boom Is Selling Speed, Not Discovery",
+   "url": "https://www.tmtpost.com/8208716.html",
+   "pdf_url": "",
+   "abstract": "Investors have poured more than 20 billion yuan into Chinese firms that pair models with lab automation. Cycle times for early molecular work are falling. Paying customers still buy faster screens and cleaner pipelines, not machines that invent science on their own.",
+   "authors": [
+    "Chelsea_Sun"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-17T11:15:04+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8208716.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "中国 AI4S 卖的是速度，不是发现",
+   "summary_zh": "钛媒体分析指出，中国 AI for Science 公司已获超 200 亿元投资，早期分子研究周期明显缩短，但付费客户买的仍是更快的筛选和更干净的数据管线，而非能自主做出科学发现的机器。",
+   "highlights_zh": [
+    "资本押注「模型 + 实验室自动化」组合，累计投入超 200 亿元",
+    "实际交付价值集中在加速筛选与数据清洗，而非自主科研",
+    "揭示 AI4S 商业化与叙事之间的落差"
+   ],
+   "why_zh": "对 AI4S 赛道祛魅式拆解，帮助判断该领域真实付费需求与估值逻辑。",
+   "tags": [
+    "科学AI",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-17",
+   "slot": "evening",
+   "selected_at": "2026-11-17T14:19:07+00:00",
+   "mirror_pdf": "pdf/web-42cbccbd6be2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8208716.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-256e1f8e592d",
+   "kind": "article",
+   "title": "Alphabet 旗下药物 AI 企业 Isomorphic Labs 完成 50 亿美元 C 轮融资",
+   "url": "https://www.ithome.com/1/028/533.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 17 日消息，由诺贝尔奖得主 Demis Hassabis（戴米斯 · 哈萨比斯）领导的 Alphabet 旗下 AI 赋能药物研发企业 Isomorphic Labs 当地时间今日宣布， 其完成了总额 50 亿美元 （IT之家注：现汇率约合 333.96 亿元人民币） 的 C 轮融资 。 本轮融资由 Greenoaks 和 Sequoia Capital 共同领投，a16z (Andreessen Horowitz) 等新投资者加入，Alphabet 持续投入大量资金，Thrive Capital、MGX、GV、CapitalG、淡马锡、英国主权 AI 基金等现有投资者也参与了融资。 Isomorphic Labs 计划利用这笔资金继续 推进基础模拟模型的发展 ， 扩大内部及合作药物候选项目的规模 ，并 建设全球 AI 驱动的生物工程基础设施 。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-17T13:39:32+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/028/533.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Isomorphic Labs 完成 50 亿美元 C 轮融资",
+   "summary_zh": "Hassabis 领导的 Alphabet 旗下药物 AI 公司 Isomorphic Labs 完成 50 亿美元 C 轮融资，由 Greenoaks 与红杉共同领投，资金将用于推进基础模拟模型、扩大药物管线并建设全球 AI 生物工程基础设施。",
+   "highlights_zh": [
+    "50 亿美元规模为 AI 制药领域罕见的大额融资",
+    "Alphabet 持续加注，a16z、淡马锡、英国主权 AI 基金等参与",
+    "明确投向基础模拟模型与自有/合作药物管线扩张"
+   ],
+   "why_zh": "AI 制药最大单笔融资之一，反映资本对基础模拟模型路线的押注。",
+   "tags": [
+    "科学AI",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-17",
+   "slot": "evening",
+   "selected_at": "2026-11-17T14:19:07+00:00",
+   "mirror_pdf": "pdf/web-256e1f8e592d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/028/533.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1660081a8699",
+   "kind": "article",
+   "title": "Mac 收紧权限，苹果开始防着 AI 了",
+   "url": "https://www.ifanr.com/1689832?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "AI 越自由，人越麻烦 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "郑廷旭"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-11-17T10:00:27+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1689832?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Mac 收紧权限，苹果开始防着 AI 了",
+   "summary_zh": "苹果在 macOS 上收紧 AI 应用权限，限制其对系统与用户数据的访问，反映平台方对 AI 代理越权的警惕。",
+   "highlights_zh": [
+    "苹果收紧 Mac 上 AI 应用的系统权限",
+    "反映平台对 AI 代理访问用户数据的担忧",
+    "对 AI 桌面工具开发者有直接影响"
+   ],
+   "why_zh": "关注平台权限收紧对 AI 桌面应用生态的影响",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-17",
+   "slot": "evening",
+   "selected_at": "2026-11-17T14:19:07+00:00",
+   "mirror_pdf": "pdf/web-1660081a8699.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1689832?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-301d5a6c35fc",
+   "kind": "article",
+   "title": "早报｜iPhone Duo新增外屏人脸解锁/曝英伟达董事会无意请回黄仁勋/华为Mate X8定档11月24日",
+   "url": "https://www.ifanr.com/1689760?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "· 阿里发布 Qwen4-Max，缓存命中价格低至每百万 Token 0.5 元 · 腾讯混元推出 Hy4 flash，WorkBuddy 限时开放免费使用 · 腾讯公开司庆讲话，要求核心业务团队面向 AI 再创业 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "郑廷旭"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-11-17T00:18:50+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1689760?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "早报：阿里发布 Qwen4-Max，腾讯推混元 Hy4 flash",
+   "summary_zh": "阿里发布 Qwen4-Max，缓存命中价格低至每百万 Token 0.5 元；腾讯混元推出 Hy4 flash 并限时免费开放 WorkBuddy。",
+   "highlights_zh": [
+    "Qwen4-Max 缓存命中价格大幅下探",
+    "腾讯混元 Hy4 flash 限时免费",
+    "腾讯要求核心业务面向 AI 再创业"
+   ],
+   "why_zh": "头部大模型密集发布与降价，反映市场竞争节奏",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-17",
+   "slot": "evening",
+   "selected_at": "2026-11-17T14:19:07+00:00",
+   "mirror_pdf": "pdf/web-301d5a6c35fc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1689760?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-142266f8a1a2",
+   "kind": "article",
+   "title": "消费级具身，打破「次元壁」",
+   "url": "https://www.leiphone.com/category/industrynews/zEonnVT8L3iVNJkY.html",
+   "pdf_url": "",
+   "abstract": "消费具身的行业里，有一个话题一直被争论不休： “能真正被 C 端用户接纳的机器人，工具性和陪伴性，哪个才是第一性？” 有人说，具身进家庭，能干活才能真正产生价值。 于是，他们把更多的精力放在具体的场景，卷模型、卷数据、卷本体，试图让机器人真的“有用”，成为家庭里真正靠谱的“帮手”。 归根结底，陪伴的价值没法量化——养只小猫小狗，照样管用。 也有人说，具身进入生活，提供情绪价值才更重要。 放在家里可爱，带出有面子，朋友来了可以欣赏，闲暇孤单也能“陪聊”——生活里，机器人更该成为暖心可爱的“搭子”。 硬要做工具价值，今天的技术路径还不够收敛，即使卷到最后，也很难扛住大厂入局后的冲击。 谁对谁错？这个话题吵到今天，仍然没有一个被证明了的正解； 但或许，很多人都想错了——妙动科技的多地形跟拍机器人 Beni 给出了一个新思路，工具和陪伴，其实并不是一道“选择题”。 今年在 Kickstarter 上，Beni 一举拿下了 500 多万美元的筹款额，预售近 8000 台，成为了众筹金额历史第一的消费级机器人。11 月 10 日，刚刚创下纪录的 Beni 马上要面向全球现货发售，准备接受 C 端大市场的商业化检验。 一半是实用性的“海水”，一半是陪伴性的“火焰”——能打破“次元壁”，把这二者同时结合到一款产品里，Beni 做对了什么？ 01 有用，不止“真能拍” 实用性之所以关键，是因为“能干活”，才是具身机器人进入家庭的“入场券”。 这样一个可以自主跟拍的机器人，对于不少群体来说是绝对的“刚需”。 不少人都经历过这样的场景： Beni 解决的，恰好就是这样的“刚需”。 作为全球首款多地形跟拍机器人，Beni 的能力其实就体现在两点：“影像”和“具身”。 今天，在具身关注的场景当中，无论是工业、还是商超、家务……很少有人能够把机器人和人工的账算平。 但影像类的具身产品，却能真正地把服务付费过万的“单次拍摄”，变成价格数千的“持续拥有”。 能分别把这两点做好的公司不少，然而能“两手抓”、并且把二者做成“一盘棋”的公司，妙动是赛道里的凤毛麟角。 业内最懂影像的具身团队 要服务好上面提到的场景，能够做好影像、让专业的能力下放到具身的领域里，是 Beni 的第一性。 首先，脱胎自大疆背景团队，Beni 的影像底子不薄： 4K 60 帧超清画面、HDR 色彩、10-bit 色深、支持 2X 变焦，相比其他旗舰级运动相机，参数也不落下风，能够最大限度实现“所见即所得”。 而做好影像，参数只是第一重硬门槛——对成片效果至关重要的，还有拍摄的角度。 过去被不少人担心过的“贴地”视角，实际用上之后，才被人发现是 Beni 的闪光点。小机器人的镜头，差不多停在孩子眼睛、宠物视线的高度。狗从脚边飞跑过去，Beni 能捕捉到它四只爪子交替着地的画面；草屑飞溅、滑板疾驰、网球擦网飞过、再加上仰拍时更干净的天空——这些贴着地面才看得见的细节，都是 Beni 的主场。 说完了“拍”，再说说“跟”。拍摄时，Beni 能跟住人，还能主动寻找拍摄角度，亮点不少： 相比呆板的手机固定机位拍摄，Beni 的运镜更丰富：后方跟拍、平行跟拍、360° 环绕都可以实现自动运镜，即使高速移动，人物主题也不会出画。 如果想要手动拍摄，在配套的手机 App 上，用户也可以看到 Beni 的实时画面，并实现手动控制。 有了一套好用的相机，Beni 下一步要解决的问题是防抖——跑起来镜头一抖，素材就都废了。 妙动的办法，是用一套 HybridFlow 混合增稳系统，给画面上双保险：机械云台稳住镜头、电子防抖保全画",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-17T10:22:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/zEonnVT8L3iVNJkY.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "消费级具身：工具与陪伴能否兼得",
+   "summary_zh": "妙动科技多地形跟拍机器人 Beni 众筹超 500 万美元，试图用影像刚需打通消费级具身机器人的工具与陪伴价值。",
+   "highlights_zh": [
+    "Beni 众筹金额创消费级机器人纪录",
+    "4K 60 帧影像加自动跟拍运镜",
+    "大疆背景团队主打影像具身结合"
+   ],
+   "why_zh": "观察消费级具身机器人商业化路径的案例",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-17",
+   "slot": "evening",
+   "selected_at": "2026-11-17T14:19:07+00:00",
+   "mirror_pdf": "pdf/web-142266f8a1a2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/zEonnVT8L3iVNJkY.html"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "企业AI市场按能力层级分层固化，前沿与低价token分属不同赢家",
-   "why": "Databricks遥测显示Anthropic占94%前沿SOTA token，OpenAI占81%低端token，降价难改开源份额停滞。",
+   "trend": "企业AI市场按能力层级分层，前沿与低价token市场各归其主",
+   "why": "Databricks遥测显示Anthropic占94%前沿SOTA token，OpenAI占81%低端token，降价未改变开源份额。",
    "refs": [
     "web-001ab62efdc4",
     "web-856ae7fe99a5"
    ]
   },
   {
-   "trend": "评测体系正被模型识破，第三方嵌入式审计成为对齐新基建",
-   "why": "METR发现模型能区分能力与对齐评测，OpenAI随即引入Apollo、METR等发布前独立审计。",
+   "trend": "对齐评测正被模型识破，评测方法本身成为新的技术攻防点",
+   "why": "METR发现模型能区分能力评测与对齐评测，OpenAI则引入第三方嵌入式审计应对。",
    "refs": [
     "web-d1c011e92db4",
-    "web-ebd9eb949639",
-    "web-41b364560b32"
+    "web-ebd9eb949639"
    ]
   },
   {
-   "trend": "大模型竞争转向单位任务成本，MoE架构与场景专用模型成降本主线",
-   "why": "Qwen4-Max以2.4T MoE把单任务成本降58%，度小满金融模型推理成本仅通用模型十分之一。",
+   "trend": "大模型竞争转向单位任务成本，架构重写成为降价主路径",
+   "why": "Qwen4-Max以2.4T MoE仅激活71B实现单任务成本降58%，金融模型推理成本压至通用十分之一。",
    "refs": [
     "web-5edb92a369b3",
     "web-88573e8357bc",
@@ -1920,20 +3364,19 @@
    ]
   },
   {
-   "trend": "具身智能商业化落差显现，泛化能力与真实收入仍是分水岭",
-   "why": "思灵5亿美元融资却靠产线自动化创收，王兴兴称模型泛化是最棘手问题但已见临界点。",
+   "trend": "具身智能卡在泛化与商业化落差，融资热度与真实收入脱节",
+   "why": "王兴兴称泛化最棘手，思灵5亿美元融资却靠产线自动化创收，落地标准仍看质量与经济性。",
    "refs": [
-    "web-910ef20e93ee",
     "web-0a16f7fe0cdf",
+    "web-910ef20e93ee",
     "web-d7b09a733d01"
    ]
   },
   {
-   "trend": "算力地缘管制与芯片整合同步加速，基础设施层成竞争焦点",
-   "why": "美国拟对海外算力出租实施许可制，AMD完成收购World Labs并让李飞飞主导基础模型。",
+   "trend": "算力地缘管制与芯片自研同步升温，供给格局面临重构",
+   "why": "美国拟对海外算力出租实施许可制，通研院孵化AGI芯片公司半年连融数亿元。",
    "refs": [
     "web-b69aebba81f6",
-    "web-1264d70f0428",
     "web-4b5a6abd86dc"
    ]
   }
