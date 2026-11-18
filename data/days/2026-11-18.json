@@ -1062,43 +1062,1367 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "arxiv-2611.22115",
+   "kind": "paper",
+   "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
+   "url": "https://arxiv.org/abs/2611.22115",
+   "pdf_url": "https://arxiv.org/pdf/2611.22115",
+   "abstract": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation, attention design, model depth and width, and speculative decoding balance model capacity with computation, memory access, and execution overhead. Our pretraining infrastructure builds on MindSpore HyperParallel, combining topology-aware hybrid sharding, efficient distributed optimizer execution, and coordinated management of long-sequence workloads and activation memory. CPU affinity and core isolation further reduce host scheduling interference. Together, these mechanisms support the pretraining of a 285B-parameter model on 8,192 Ascend 910C cards, providing a concrete setting for the architectural and systems studies. For post-training, we introduce TeleGym, a unified agent execution platform that connects execution, evaluation, and trajectory construction to policy optimization. Disaggregated asynchronous execution, bounded oversampling, and partial rollout accommodate heterogeneous task durations while preserving trajectory continuity across policy updates. Together, these advances establish an Ascend-oriented training foundation for the continued development of Xing 4 across model scales and increasingly demanding reasoning and agent workloads.",
+   "authors": [
+    "Xingchen AGI Lab",
+    "Baotian Hu",
+    "Bingkai Yang",
+    "Boyang Wang",
+    "Changzai Pan",
+    "Chao Lyu",
+    "Chao Wang",
+    "Chen Li",
+    "Chenshuo Pan",
+    "Chenyu Lin",
+    "Chenyuan Zhang",
+    "Chongming Liu",
+    "Dawei Fan",
+    "Di Wu",
+    "Dong Guo",
+    "Dong Li",
+    "Dongfang Li",
+    "Enlin Liu",
+    "Fanye Xiao",
+    "Fengkai Li",
+    "Fubei Yao",
+    "Gang Lin",
+    "Han Gao",
+    "Hanming Wu",
+    "Haowei He",
+    "Huapeng Liu",
+    "Hua Wang",
+    "Huinan Xu",
+    "Jiahong Xiong",
+    "Jiaxin Peng",
+    "Jianxiang Ma",
+    "Jianxing Zhuge",
+    "Jie Zhang",
+    "Ji Xiong",
+    "Jinglin Chen",
+    "Jingqi Li",
+    "Jingxuan Li",
+    "Jiwang Ye",
+    "Junchen Li",
+    "Junbiao Li",
+    "Junyang Wu",
+    "Kaidong Yu",
+    "Kaipeng Jia",
+    "Kehai Chen",
+    "Kuai Li",
+    "Laobin Liu",
+    "Lei Li",
+    "Libo Qin",
+    "Lingling Shi",
+    "Luwen Pu",
+    "Menghao Xu",
+    "Mengjiao Bao",
+    "Mengqi Chen",
+    "Min Zhang",
+    "Mingrui Wang",
+    "Naying Wang",
+    "Peicong Han",
+    "Peiming Guo",
+    "Pengfei Li",
+    "Qiang Feng",
+    "Qi Wang",
+    "Qingjun Zhu",
+    "Qingli Li",
+    "Qitai Ding",
+    "Qiyi Xie",
+    "Quanchao Zhao",
+    "Rongbao Han",
+    "Rui Xue",
+    "Ruiyu Fang",
+    "Ruiting Song",
+    "Shijie Li",
+    "Shiquan Wang",
+    "Shuangyong Song",
+    "Sishi Xiong",
+    "Teng Su",
+    "Wankang Bao",
+    "Weijie Zhang",
+    "Wei Mao",
+    "Weiwei Fu",
+    "Weiyang Huang",
+    "Wenmin Deng",
+    "Wenqing Hu",
+    "Wujie Zhong",
+    "Xi Yu",
+    "Xiaohui Hu",
+    "Xiaomin Fang",
+    "Xiaomeng Huang",
+    "Xiaoqiong Shi",
+    "Xiaotong Shang",
+    "Xiaoyu Li",
+    "Xinglei Xu",
+    "Xin Jiang",
+    "Xin Wang",
+    "Xin Zhang",
+    "Xinzhang Liu",
+    "Xue Liu",
+    "Xuefeng Bai",
+    "Xuewei He",
+    "Yahan Li",
+    "Yanhan Zhang",
+    "Yanlei Xue",
+    "Yanzhang Wu",
+    "Yang Yu",
+    "Yi Liu",
+    "Yin Zhang",
+    "Yingyan Li",
+    "Yitong Yao",
+    "Yixuan Li",
+    "Yongqiang Xia",
+    "Yongxiang Li",
+    "Yinzhou Zhu",
+    "Yu Zhao",
+    "Yuhao Jiang",
+    "Yunpeng Zhang",
+    "Yuting Lin",
+    "Yuxuan Wu",
+    "Yuyao Huang",
+    "Yuyi Wang",
+    "Zebo Peng",
+    "Zhenwu Pei",
+    "Zhenxiong Li",
+    "Zhao Wang",
+    "Zhaoxi Zhang",
+    "Zhihao Yang",
+    "Zhiqiang Dong",
+    "Zhiwei Yan",
+    "Zhilong Lu",
+    "Zhonghao Guo",
+    "Zhongheng Wu",
+    "Zhongjiang He",
+    "Zhongqiu Li",
+    "Zhu Yuan",
+    "Zhuoru Jiang",
+    "Zhuoyi Wei",
+    "Zijia Guo",
+    "Zilu Huang",
+    "Zhipeng Guo",
+    "Zirui Li",
+    "Zihan Wang"
+   ],
+   "orgs": [
+    "XingChen-AGI"
+   ],
+   "published": "2026-11-17T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.22115",
+     "signal": "▲ 90",
+     "metric": 90
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "星辰4发布：国产昇腾芯片上训练285B智能体大模型",
+   "summary_zh": "星辰AGI实验室发布Xing 4系列模型，在8192张昇腾910C上完成285B参数预训练，并推出TeleGym智能体训练平台，打通执行、评测与轨迹构建到策略优化的全链路。",
+   "highlights_zh": [
+    "在昇腾910C与MindSpore HyperParallel上完成285B模型大规模预训练，验证国产软硬件全栈可行性",
+    "系统研究稀疏激活、注意力设计、模型深度宽度与投机解码在容量与算力/访存开销间的权衡",
+    "TeleGym统一智能体执行平台，用异步分离执行、有界过采样与部分rollout应对异构任务时长"
+   ],
+   "why_zh": "国产芯片训练前沿智能体模型的完整工程报告，关注自主算力栈与智能体后训练的必读。",
+   "tags": [
+    "大模型",
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.6497,
+   "score_llm": 9.0,
+   "score": 0.7999,
+   "date": "2026-11-18",
+   "slot": "noon",
+   "selected_at": "2026-11-18T06:12:01+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.22115.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.22115"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.22115"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.22115"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.22115"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.22115"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.22115"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.22055",
+   "kind": "paper",
+   "title": "Weight-Space Programming Doesn't Need Transformers",
+   "url": "https://arxiv.org/abs/2611.22055",
+   "pdf_url": "https://arxiv.org/pdf/2611.22055",
+   "abstract": "Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run fast on GPUs. In weight-space programming, a large language model (LLM) writes target weights by hand without gradient-based training, so those reasons no longer apply. Should we keep the Transformer? Given minimal guidance, ten labeled examples, and a sandbox, mainly on multiple-choice questions, we task three frontier LLMs with either generating the weights of a fixed architecture or designing the architecture themselves. When free to design, all three compile plain-text facts into a sparse table queried by a fixed procedure, reaching up to 54.4% test accuracy. An LLM-designed model achieves higher test accuracy than the most accurate released Transformer that the same LLM wrote while using about 1,800x fewer parameters. Without gradients, they choose a table, in which the LLM can state what each weight means and can find and rewrite a wrong one. Each wrong answer points to one row, and removing a row changes about one other answer. From this, we propose an associative-memory-based model up to 17x faster on GPUs than a same-sized Transformer. We also test pretrained weights, other benchmarks, and tasks where models generate answers. Pretrained LLMs remain more accurate; the claim concerns which structure to build when writing weights.",
+   "authors": [
+    "Hyunjong Ok",
+    "Jaeho Lee"
+   ],
+   "orgs": [
+    "Pohang University of Science and Technology"
+   ],
+   "published": "2026-11-17T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.22055",
+     "signal": "▲ 36",
+     "metric": 36
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "权重空间编程不需要Transformer",
+   "summary_zh": "让LLM不经梯度训练直接手写权重或自设计架构，结果三者都选择稀疏查表结构，以约1/1800参数量超过同LLM写出的Transformer，并据此提出GPU上快17倍的联想记忆模型。",
+   "highlights_zh": [
+    "在无梯度场景下，LLM自设计架构普遍收敛到稀疏表加固定查询流程",
+    "自设计模型测试准确率最高54.4%，参数量比同LLM写的Transformer少约1800倍",
+    "每个权重含义可读可改，错误答案对应单行，删除一行仅影响约一个答案",
+    "据此提出联想记忆模型，同规模下GPU推理快至17倍"
+   ],
+   "why_zh": "挑战Transformer默认地位，为可解释、可手改权重的模型结构提供实证与新思路。",
+   "tags": [
+    "理论",
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5959,
+   "score_llm": 8.0,
+   "score": 0.7184,
+   "date": "2026-11-18",
+   "slot": "noon",
+   "selected_at": "2026-11-18T06:12:01+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.22055.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.22055"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.22055"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.22055"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.22055"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.22055"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.22055"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/effl-lab/Weight-Space-Programming"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-dec08682255b",
+   "kind": "article",
+   "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+   "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+   "pdf_url": "",
+   "abstract": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science, the Rubin HPC GPU and an expanded Vera CPU platform for high-performance […]",
+   "authors": [
+    "Brian Caulfield"
+   ],
+   "orgs": [
+    "NVIDIA"
+   ],
+   "published": "2026-11-17T14:00:10+00:00",
+   "sources": [
+    {
+     "name": "NVIDIA",
+     "authority": 0.75,
+     "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "英伟达发布科学智能体工具与Rubin HPC GPU",
+   "summary_zh": "英伟达在SC26发布Nemotron for Science、可自主规划实验并运行代码的科研智能体工具，以及Rubin HPC GPU和扩展版Vera CPU平台。",
+   "highlights_zh": [
+    "Nemotron for Science面向科研场景，智能体可规划实验、执行代码并核验结果",
+    "发布Rubin架构HPC GPU与扩展Vera CPU平台，强化高性能计算布局",
+    "工具可在研究者本地系统上运行，强调科研工作流闭环"
+   ],
+   "why_zh": "科学AI与智能体结合是重要方向，英伟达的软硬件组合值得关注其落地路径。",
+   "tags": [
+    "智能体",
+    "科学AI",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 8.0,
+   "score": 0.672,
+   "date": "2026-11-18",
+   "slot": "noon",
+   "selected_at": "2026-11-18T06:12:01+00:00",
+   "mirror_pdf": "pdf/web-dec08682255b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6cab091c059a",
+   "kind": "article",
+   "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+   "url": "https://blogs.nvidia.com/blog/rubin-hpc/",
+   "pdf_url": "",
+   "abstract": "Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help scientists and engineers explore more candidate materials, molecules and designs, they rely on simulations to test those ideas and guide their next […]",
+   "authors": [
+    "Dan Ernst"
+   ],
+   "orgs": [
+    "NVIDIA"
+   ],
+   "published": "2026-11-16T16:00:01+00:00",
+   "sources": [
+    {
+     "name": "NVIDIA",
+     "authority": 0.75,
+     "url": "https://blogs.nvidia.com/blog/rubin-hpc/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "英伟达发布Rubin HPC GPU，专为科学智能体加速",
+   "summary_zh": "英伟达在SC26发布Vera Rubin平台新GPU Rubin HPC，面向科学、工程与分析工作负载，为智能体驱动的仿真与数据处理提速。",
+   "highlights_zh": [
+    "定位为Vera Rubin平台中面向HPC与科学计算的GPU",
+    "强调智能体探索候选材料、分子与设计时依赖仿真验证",
+    "面向科学、工程、分析三类工作流"
+   ],
+   "why_zh": "反映英伟达把智能体作为科学计算新负载的硬件设计思路。",
+   "tags": [
+    "科学AI",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 8.0,
+   "score": 0.672,
+   "date": "2026-11-18",
+   "slot": "noon",
+   "selected_at": "2026-11-18T06:12:01+00:00",
+   "mirror_pdf": "pdf/web-6cab091c059a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://blogs.nvidia.com/blog/rubin-hpc/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-695d1f9a1cf6",
+   "kind": "article",
+   "title": "Google's AI answers reducing search traffic by 40%",
+   "url": "https://revscope.co/blog/search-seo-geo-2026/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-18T00:17:58Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50540178",
+     "signal": "267 pts",
+     "metric": 267
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "谷歌AI摘要致搜索流量下滑40%",
+   "summary_zh": "有报告称谷歌AI搜索摘要使外部网站搜索流量下降约40%，直接冲击依赖搜索引流的內容生态。",
+   "highlights_zh": [
+    "AI摘要被指使搜索导流下降约40%",
+    "受影响最大的是依赖搜索流量的内容站点",
+    "反映AI搜索对传统流量分发模式的替代"
+   ],
+   "why_zh": "AI搜索重塑流量分发的关键信号，内容与SEO从业者需关注。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5821,
+   "score_llm": 7.0,
+   "score": 0.6528,
+   "date": "2026-11-18",
+   "slot": "noon",
+   "selected_at": "2026-11-18T06:12:01+00:00",
+   "mirror_pdf": "pdf/web-695d1f9a1cf6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://revscope.co/blog/search-seo-geo-2026/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50540178"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e0832c50c637",
+   "kind": "article",
+   "title": "OpenAI 发布 GPT-6.2 Astra 和 Sol；王兴兴：家用机器人或将迎来技术突破；《GTA 6》开发商批评 AI 公司放任游戏仿制行为｜极客早知道",
+   "url": "http://www.geekpark.net/news/374109",
+   "pdf_url": "",
+   "abstract": "OpenAI 发布 GPT-6.2 Astra 和 Sol，强化编程、电脑操作与专业工作 OpenAI 正式发布 GPT-6.2 Astra 和 GPT-6.2 Sol 两款模型，重点提升专业任务、Coding、电脑操作和执行效率，并降低部分使用成本。新模型将应用于 ChatGPT Work、Codex 和 API。 其中，Astra 面向复杂编程和专业工作，Sol 则更强调日常多模态任务及工具使用。 OpenAI 同时发布系统安全卡，披露两款模型在网络安全能力方面均达到其 Preparedness Framework 的 Critical 门槛，Astra 的 AI 自我改进能力达到 High 门槛，因此加强了高风险能力的访问限制。（来源：OpenAI） 谷歌 DeepMind 首席战略官跳槽 Anthropic，AI 人才争夺持续升温 11 月 17 日消息，据《The Information》报道，谷歌 DeepMind 首席战略官贾斯吉特·塞孔（Jasjit Sekhon）已离职，正式加入 Claude 开发商 Anthropic。 塞孔在社交平台 X 上确认了这一消息，表示未来将致力于提升 Claude 的知识可靠性与事实严谨性。他今年 3 月加入 DeepMind，任职仅约 8 个月。此前曾在哈佛大学、加州大学伯克利分校及耶鲁大学任教，并担任桥水基金高级科学家兼 AI 负责人。 今年以来，谷歌 DeepMind 已有多名核心人才出走。6 月，Gemini 联合负责人诺姆·沙泽尔转投 OpenAI；参与开发 AlphaFold 的诺贝尔化学奖得主约翰·江珀也加入 Anthropic。 据数据公司 Zecki 统计，过去一年离开 DeepMind 的员工中，25% 加入 Anthropic，21% 流向 Meta，14% 选择 OpenAI。 随着 Anthropic 即将启动 IPO，全球 AI 巨头之间的人才争夺进一步加剧，Anthropic 正成为 DeepMind 人才流动的重要目的地。（来源：IT 之家） 马斯克：特斯拉 Robotaxi 最早 12 月开放车主接入 特斯拉 CEO 马斯克近日在社交平台 X 上透露，最早可能于 12 月启动个人车主接入 Robotaxi（无人驾驶出租车）网络的试运营，允许车主将自有车辆投入出租车队，通过接单获取收入。 这一表态源于一名奥斯汀 Uber 司机的公开提问。该司机表示，使用搭载 FSD 系统的 Model Y 运营网约车，扣除平台抽成后仅能获得 49% 至 63% 的车费收入，希望未来能够加入特斯拉 Robotaxi 车队。马斯克回应称，如果进展顺利，下个月可能启动试点。 目前，特斯拉 Robotaxi 业务主要在美国奥斯汀开展试点，车队规模约 300 辆。不过，其 FSD 系统仍被归类为 SAE L2 级辅助驾驶，距离真正实现完全无人驾驶及规模化商业运营，仍面临技术、监管和责任划分等挑战。（来源：TechWeb） Anthropic 收紧漏洞披露政策：高危漏洞期限缩至 30 天 Anthropic 宣布，自 2027 年 1 月 1 日起调整漏洞披露政策，将高危及关键级别漏洞的披露期限从 90 天缩短至 30 天，其他级别漏洞调整为 45 天。 Anthropic 表示，AI 技术正加速漏洞发现与修复，漏洞被重复发现的风险随之增加。新政策还将维护者未响应时寻求外部协调的等待期缩短至 15 天，补丁发布后公开技术细节的等待期缩至 30 天。对于修复难度较高的漏洞，将与供应商协商合理期限",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-18T00:48:04+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/374109",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI 发布 GPT-6.2 Astra 与 Sol，强化编程与电脑操作",
+   "summary_zh": "OpenAI 推出 GPT-6.2 Astra 和 Sol 两款模型，重点提升专业任务、编程、电脑操作与执行效率并降低部分成本，接入 ChatGPT Work、Codex 与 API；安全卡显示网络安全能力达 Critical 门槛。",
+   "highlights_zh": [
+    "Astra 面向复杂编程与专业工作，Sol 侧重日常多模态与工具使用",
+    "两款模型网络安全能力均达 Preparedness Framework 的 Critical 门槛，Astra 自我改进能力达 High",
+    "同期刊出 DeepMind 首席战略官跳槽 Anthropic、特斯拉 Robotaxi 车主接入等动态"
+   ],
+   "why_zh": "头部模型双发与安全门槛披露，是判断前沿能力与合规边界的关键信号。",
+   "tags": [
+    "大模型",
+    "多模态",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-11-18",
+   "slot": "noon",
+   "selected_at": "2026-11-18T06:12:01+00:00",
+   "mirror_pdf": "pdf/web-e0832c50c637.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/374109"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-246f1a63c5a1",
+   "kind": "article",
+   "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+   "url": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-17T14:19:59Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50531751",
+     "signal": "186 pts",
+     "metric": 186
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "李彦宏与雷军警告AI炒作与回报差距扩大",
+   "summary_zh": "百度与小米CEO公开警示AI热度与实际商业回报之间的差距正在拉大，提示行业需回归落地与变现。",
+   "highlights_zh": [
+    "两位中国科技巨头CEO同时发声警示",
+    "核心担忧是投入热度与回报不匹配",
+    "指向AI商业化落地节奏问题"
+   ],
+   "why_zh": "头部企业掌门人对AI泡沫风险的公开判断，是判断市场情绪转向的参考。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5653,
+   "score_llm": 7.0,
+   "score": 0.6461,
+   "date": "2026-11-18",
+   "slot": "noon",
+   "selected_at": "2026-11-18T06:12:01+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50531751"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-add73746b675",
+   "kind": "article",
+   "title": "纳德拉回应微软首次给工程师发“离场费”：Claude Code 让微软措手不及，二十年 IDE 优势半年动摇",
+   "url": "https://www.infoq.cn/article/zUC0vHq9xm3BFHSqQlw3?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "林绮蓓"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-18T13:55:35+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/zUC0vHq9xm3BFHSqQlw3?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "纳德拉：Claude Code让微软二十年IDE优势半年动摇",
+   "summary_zh": "纳德拉回应微软首次向工程师发“离场费”，坦言Claude Code类编码智能体冲击了微软维持二十年的IDE与开发者工具优势，半年内格局生变。",
+   "highlights_zh": [
+    "微软高层承认编码智能体对IDE护城河的冲击",
+    "反映AI编程工具正在重塑开发者工作流与竞争格局",
+    "与微软工程师组织调整直接相关"
+   ],
+   "why_zh": "头部公司CEO对AI编程工具冲击的明确判断，是判断开发者工具市场走向的重要信号。",
+   "tags": [
+    "智能体",
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-18",
+   "slot": "noon",
+   "selected_at": "2026-11-18T06:12:01+00:00",
+   "mirror_pdf": "pdf/web-add73746b675.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/zUC0vHq9xm3BFHSqQlw3?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-87242294747e",
+   "kind": "article",
+   "title": "腾讯混元 Hy4 flash 模型官宣开源",
+   "url": "https://www.ithome.com/1/028/701.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 18 日消息， 腾讯混元今日宣布开源 Hy4 flash 模型 ，包含 Hy4 flash、Hy4 flash-FP8 和 Hy4 flash Base，开发者可在 GitHub、 Hugging Face、ModelScope 和 GitCode 下载部署。 腾讯混元官方预告， 正在加速开源 Hy4 模型 ，敬请期待。 Hy4 flash 定位迄今性价比最高的 Hy 模型 ，总参数量 224B，其中包含 64B Engram 参数，每个 token 激活 12B 参数，支持多模态输入与 100 万 token 上下文长度，API 价格较 Hy4 大幅降低。 Hy4 flash 已在腾讯云 TokenHub、WorkBuddy、元宝、企业微信、QQ、ima、Marvis 等产品上线。 IT之家附 Hy4 flash 开源地址如下： GitHub ： https://github.com/Tencent-Hunyuan/Hy4-flash HuggingFace ： https://huggingface.co/tencent/Hy4-flash Modelscope ： https://modelscope.cn/models/Tencent-Hunyuan/Hy4-flash GitCode ： https://ai.gitcode.com/tencent_hunyuan/Hy4-flash GGUF ： https://huggingface.co/AngelSlim/Hy4-flash-GGUF 开源协议 ： https://huggingface.co/tencent/Hy4-flash/blob/main/LICENSE",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-18T04:36:17+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/028/701.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯混元开源 Hy4 flash：224B 总参数、12B 激活、百万上下文",
+   "summary_zh": "腾讯混元开源 Hy4 flash 系列模型，总参数 224B（含 64B Engram），每 token 仅激活 12B，支持多模态与 100 万 token 上下文，API 价格大幅下调，并已在腾讯云及元宝等产品上线。",
+   "highlights_zh": [
+    "总参数 224B、激活 12B，主打极致性价比",
+    "支持多模态输入与 100 万 token 超长上下文",
+    "同步开源 Base/FP8/GGUF 版本，多平台可下载部署"
+   ],
+   "why_zh": "国产大厂稀疏 MoE 开源新作，长上下文+低价 API 值得评估替代方案。",
+   "tags": [
+    "大模型",
+    "多模态",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-18",
+   "slot": "noon",
+   "selected_at": "2026-11-18T06:12:01+00:00",
+   "mirror_pdf": "pdf/web-87242294747e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/028/701.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.23118",
+   "kind": "paper",
+   "title": "Auditing a Learned Simulator for Legged Robots: The Robotic World Model on ANYmal D",
+   "url": "https://arxiv.org/abs/2611.23118",
+   "pdf_url": "https://arxiv.org/pdf/2611.23118",
+   "abstract": "A legged robot can learn to walk inside a learned simulator: a neural network that predicts the robot's next state and is run forward on its own predictions. They are usually trained and checked one step ahead, although a policy uses them for a hundred steps or more. We audit one published system end to end, without a GPU: the dynamics model of the Robotic World Model (RWM) for the ANYmal D quadruped, and the uncertainty estimate of its follow-up, RWM-U. We rebuilt the model to match the released code's outputs, losses and gradients exactly, measured 101 trained simulators, 200 compressed copies and 38 simulators of three other architectures, and trained policies inside simulators that we tested in a hand-built MuJoCo model of the robot. Training on the model's own rollouts beat one-step training at 368 steps on all ten held-out episodes (registered), although one-step training was better one step ahead. One-step checks therefore misjudge design choices: pruning 30% of the weights kept 90% of the model's skill one step ahead and 39% at 2 s. Ensemble disagreement ranked rollout error well (Spearman +0.90 at 100 steps), yet covered 4.6% of outcomes at one sigma, against 68% for a calibrated estimate, as each network's own variance collapses under the implemented loss. Two checks that need no recorded future ranked some pools of simulators well, but neither was shown better than 8-step error in a primary test. At the robot level, accuracy has not predicted walking: all 18 fine-tuned copies we tested predicted better than the released model one and eight steps ahead, yet 13 gave failing policies, and registered tests of whether any check ranks simulators by their policies were not settled. In a secondary test, running the authors' policy inside each simulator ranked them well. We also report nine of our own claims that we withdrew. Scope: one robot, one gait, simulated data, no hardware.",
+   "authors": [
+    "Joyjeet Singh"
+   ],
+   "orgs": [],
+   "published": "2026-11-17T17:36:40Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.23118",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "审计学习型四足机器人仿真器：RWM 端到端检验",
+   "summary_zh": "论文端到端审计 ANYmal D 的学习型世界模型 RWM：单步检查会误判设计选择，自回归训练在 368 步上全面更优，集成不确定性严重低估误差。",
+   "highlights_zh": [
+    "单步评估与长程 rollout 表现结论相反，剪枝 30% 权重单步保留 90% 技能但 2 秒仅 39%",
+    "集成分歧能排序 rollout 误差（Spearman +0.90），但 1σ 仅覆盖 4.6% 结果",
+    "无需真实未来的两种检查可部分排序仿真器质量"
+   ],
+   "why_zh": "做机器人学习仿真与评测的研究者应关注其评估方法论警示。",
+   "tags": [
+    "机器人",
+    "强化学习",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-18",
+   "slot": "noon",
+   "selected_at": "2026-11-18T06:12:01+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.23118.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.23118"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.23118"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.23118"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.23118"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.23118"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.23118"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e61ef6d4bdb0",
+   "kind": "article",
+   "title": "可灵AI发布Kling Image 4.0：原生8K超高清、组图直出，刷新专业图像生成新高度",
+   "url": "https://www.leiphone.com/category/industrynews/XmEGfhNbrGY3WfbT.html",
+   "pdf_url": "",
+   "abstract": "11月17日晚，可灵AI全新一代图像创作模型Kling Image 4.0正式上线。 真实、文字表现、指令理解和一致性，是这一代模型升级的核心方向。Kling Image 4.0聚焦影视创作、广告营销等专业图像创作场景，在三个方向实现集中突破：画面真实感全面升级，光影、肤质与材质纹理呈现接近相机直出的自然观感，并首次支持原生8K图像生成，超高清画质带来更丰富的细节表现；文字生成与设计表现全面升级，支持单张图片内生成2000字，提供70余款预设字体；连贯组图和长图生成方面，支持一次描述生成最多10张系列图片、电商详情页与网页设计长图生成，可以一次性呈现完整页面视觉，高效完成成套创作。 本次发布的新模型采用「理解生成统一」架构，探索将视觉理解与图像生成融入统一的模型体系，进一步打通从理解创作意图到生成视觉内容的链路。根据全新发布的AA（Artificial Analysis）榜单，Kling Image 4.0在AI图像工具排行榜上位居第六，领先Nano Banana等行业头部产品，位居全球AI图像模型第一梯队。据测评结果，可灵AI全新的图片模型在UIUX和电商设计场景表现尤为亮眼，在UIUX Design板块位居全球第三。 画质逼近相机直出，业内率先支持原生8K生成 Kling Image 4.0让生成画面呈现接近手机或相机直出的自然观感：光影过渡柔和，肤质与纹理细腻，人物状态鲜活。从日常抓拍到情绪写真，表情、姿态与环境氛围自然相融，让画面既有丰富细节，也有真实的生活气息。 同时，针对人物群像创作中存在的“千人一面”难题，Kling Image 4.0模型强化了不同人物在脸型、五官、年龄、外形特征与气质上的差异化表达，让多人同框也能各有辨识度，为人物与故事创作提供更丰富的选择。 在商业广告、影视海报以及游戏美术等专业应用场景，图片内容的呈现质量直接影响着用户观感与品牌调性。随着大屏终端、高清户外广告与沉浸式体验的普及，市场对超高分辨率视觉内容的需求也在持续增长。 本次全新上线的Kling Image 4.0，面向业内率先推出原生8K图像生成功能，进一步丰富高分辨率下的纹理与细节表现，让人物肤质、织物纹理与自然景物拥有更充足的画面信息。在查看局部细节和进行裁切时，画面保留更多质感，为大尺寸展示与精细视觉创作提供更大空间。 该功能的推出，可以有效克服普通分辨率图像在放大展示或精细印刷时出现的噪点、模糊与细节丢失等问题，也将为设计师、创作者和企业提供更加高效、优质的创作路径，逐步重塑高清视觉内容的生产方式。 单图可生成2000字，文字设计能力大幅跃升 文字生成内容的准确性，一直是AI图像模型行业的痛点。在本次迭代中，Kling Image 4.0全面升级了文字生成和设计表现功能，支持单张图片内生成2000字，在保证小字清晰的基础之上，可以让多段文字与复杂排版更加有序地呈现。 创作者可以通过字体库选择70+款预设字体，或上传参考图引导字形与风格，从艺术花字、手写字体到多层级海报排版，细致响应文字位置、字形与视觉效果要求，让文字和画面协调相融。 同时，模型的多语言文字能力进一步提升，可支持中文（简体、繁体）、英文、日文、韩文、西班牙语及葡萄牙语生成，为不同语言的图文创作提供更加丰富的表达空间。 一次描述生成10张组图，让AI图像模型具备“导演思维” 为了更好地实现成套视觉内容的高效产出，Kling Image 4.0支持一次描述生成最多10张图片，让不同画面既保持统一、又各有变化，高效完成从单张到成套图片的完整视觉表达。 此外，组图创作还能根据用户指令判断创",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-18T01:48:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/XmEGfhNbrGY3WfbT.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "可灵发布Kling Image 4.0：原生8K与组图直出",
+   "summary_zh": "可灵AI上线Kling Image 4.0图像模型，主打原生8K生成、单图2000字文字排版与一次生成10张组图，采用理解生成统一架构，AA榜单排名第六、UIUX设计全球第三。",
+   "highlights_zh": [
+    "业内率先支持原生8K图像生成，面向大屏广告与精细印刷场景",
+    "单图可生成2000字并支持70余款预设字体，多语言文字覆盖六种语言",
+    "一次描述生成最多10张系列图与电商长图，AA榜单居全球第一梯队"
+   ],
+   "why_zh": "反映国产图像模型在专业创作场景（影视、电商、UI设计）的竞争焦点已转向分辨率、文字与一致性。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-18",
+   "slot": "noon",
+   "selected_at": "2026-11-18T06:12:01+00:00",
+   "mirror_pdf": "pdf/web-e61ef6d4bdb0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/XmEGfhNbrGY3WfbT.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-83a5c0bcbd4f",
+   "kind": "article",
+   "title": "谷歌 SRE 圣经被迫重写：AI 时代，硬技能在塌陷，第一性原理在升值",
+   "url": "https://www.infoq.cn/article/draE95cYeLAqhcR3CwIF?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "林绮蓓"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-18T13:39:49+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/draE95cYeLAqhcR3CwIF?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌SRE圣经重写：AI时代硬技能贬值、第一性原理升值",
+   "summary_zh": "文章认为AI正在改变SRE工作方式，具体运维硬技能价值下降，而理解系统本质、用第一性原理定位问题的能力更受重视，谷歌SRE方法论随之调整。",
+   "highlights_zh": [
+    "AI自动化削弱传统运维硬技能的稀缺性",
+    "强调系统思维与根因分析能力的升值",
+    "对工程组织能力模型的影响"
+   ],
+   "why_zh": "对基础设施与运维从业者判断AI时代能力转型方向有参考价值。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-18",
+   "slot": "noon",
+   "selected_at": "2026-11-18T06:12:01+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/draE95cYeLAqhcR3CwIF?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a694aad3b789",
+   "kind": "article",
+   "title": "谷歌公布已发现 500 多个 XSS 漏洞的 AI 安全代理 PageBreak",
+   "url": "https://www.infoq.cn/article/uGTol3TSzOV72NSrcBrB?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "Renato Losio"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-18T11:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/uGTol3TSzOV72NSrcBrB?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌AI安全代理PageBreak已挖出500多个XSS漏洞",
+   "summary_zh": "谷歌公布AI安全代理PageBreak，已发现500多个XSS漏洞，展示AI在漏洞挖掘与安全测试中的实际落地能力。",
+   "highlights_zh": [
+    "AI代理自动挖掘跨站脚本漏洞，累计超500个",
+    "体现安全智能体的工程化落地进展",
+    "对安全团队与AI代理开发者有参考价值"
+   ],
+   "why_zh": "了解AI安全代理在真实漏洞挖掘中的能力边界与落地方式。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-18",
+   "slot": "noon",
+   "selected_at": "2026-11-18T06:12:01+00:00",
+   "mirror_pdf": "pdf/web-a694aad3b789.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/uGTol3TSzOV72NSrcBrB?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2a9f3fe09fa2",
+   "kind": "article",
+   "title": "GitHub 让 AI 接管工作流，单次默认预算 10 美元：是不是太大方了？",
+   "url": "https://www.infoq.cn/article/lMs1bM1muspglUjMr1l3?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Mark Silvester"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-18T08:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/lMs1bM1muspglUjMr1l3?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "GitHub让AI接管工作流，单次默认预算10美元",
+   "summary_zh": "GitHub为AI接管开发工作流设定单次默认10美元预算，引发对AI代理成本控制与自主性的讨论。",
+   "highlights_zh": [
+    "AI代理接管工作流并设默认预算上限",
+    "成本控制成为智能体落地的关键议题",
+    "反映平台方对AI自主执行的谨慎态度"
+   ],
+   "why_zh": "看清AI代理进入生产工作流时的成本与治理设计思路。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-18",
+   "slot": "noon",
+   "selected_at": "2026-11-18T06:12:01+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/lMs1bM1muspglUjMr1l3?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0bd884a542ab",
+   "kind": "article",
+   "title": "Gartner 2027十大技术趋势：十项里四项与AI治理有关，窗口期只有1到6年",
+   "url": "https://www.tmtpost.com/8209258.html",
+   "pdf_url": "",
+   "abstract": "到2028年，25%的企业安全漏洞事件可追溯至AI智能体滥用。",
+   "authors": [
+    "AGI-Signal"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-18T02:30:43+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8209258.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Gartner 2027 十大技术趋势：四项聚焦 AI 治理",
+   "summary_zh": "Gartner 发布 2027 十大技术趋势，其中四项与 AI 治理相关，并预警到 2028 年 25% 的企业安全漏洞可追溯至 AI 智能体滥用，企业应对窗口期仅 1 到 6 年。",
+   "highlights_zh": [
+    "十项趋势中四项直接指向 AI 治理与安全",
+    "预测 2028 年四分之一企业安全事件源于智能体滥用",
+    "强调企业落地窗口期短，需提前布局"
+   ],
+   "why_zh": "为智能体规模化落地提供风险与治理视角的权威框架参考。",
+   "tags": [
+    "智能体",
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-18",
+   "slot": "noon",
+   "selected_at": "2026-11-18T06:12:01+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8209258.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c6316c16c300",
+   "kind": "article",
+   "title": "波士顿动力人形机器人首次进入半导体制造领域，Atlas 明年在格罗方德工厂测试",
+   "url": "https://www.ithome.com/1/028/700.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 18 日消息，据外媒 Interesting Engineering 昨天报道，波士顿动力 Atlas 人形机器人即将首次进入半导体制造领域，格罗方德（GlobalFoundries）正准备从 2027 年初开始在旗下工厂测试 Atlas。 IT之家从原报道获悉，波士顿动力的四足机器人 Spot 此前已在格罗方德工厂投入运营。双方将在此合作中评估人形机器人“进厂打工”的潜在应用场景，并计划对特定任务展开早期测试。 对波士顿动力而言，此次合作意味着 Atlas 测试范围将从汽车行业进一步扩展，未来人形机器人真的有可能“进厂打工”。目前两家公司尚未透露 Atlas 将执行哪些具体任务，也没有公布参与该项目的机器人数量。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-18T04:32:15+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/028/700.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "波士顿动力Atlas首入半导体制造，明年格罗方德测试",
+   "summary_zh": "波士顿动力Atlas人形机器人将首次进入半导体制造领域，格罗方德计划2027年初在工厂测试，此前Spot四足机器人已投运。",
+   "highlights_zh": [
+    "Atlas测试范围从汽车行业扩展至半导体制造",
+    "格罗方德此前已部署Spot四足机器人",
+    "具体任务与机器人数量尚未公布"
+   ],
+   "why_zh": "人形机器人落地场景从汽车向半导体等高精度制造业延伸，值得关注产业化节奏。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-18",
+   "slot": "noon",
+   "selected_at": "2026-11-18T06:12:01+00:00",
+   "mirror_pdf": "pdf/web-c6316c16c300.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/028/700.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-64644f4e165b",
+   "kind": "article",
+   "title": "小米雷军：“AI+ 手机”“AI+ 具身智能机器人”等有很大想象空间，未来三四年会诞生颠覆性时刻",
+   "url": "https://www.ithome.com/1/028/669.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 18 日消息，小米创办人、董事长兼 CEO 雷军 11 月 17 日出席 APEC 工商领导人峰会。今日（11 月 18 日），雷军接受了人民日报采访。 谈及人工智能，雷军坦言，人工智能浪潮席卷各行各业， 作为 AI 从业者能感受到一些焦虑 。 雷军认为，“AI+ 手机”“AI+ 具身智能机器人”等领域有很大的想象空间， 未来三四年会有颠覆性时刻的诞生 。 综合IT之家此前报道， 雷军在 17 日的峰会上表示 ，过去四年，AI 大模型技术突飞猛进，给我们的生活和工作带来了巨大的变化。但 AI 能够落地的场景非常有限，能够真正实现商业闭环、能够挣到钱的公司，相对比较少。 他认为， AI 是一个全新的时代，一定会带来非常多的商业机会 ，尤其是 AI 走向物理世界、跟终端和各种应用场景深度结合以后，会有巨大的机会。“我觉得过去的四年，应该没有看到任何一个革命性的、标杆性的产品诞生，但我相信在未来的几年里面，一定会在这些领域里面产生伟大的产品。” 在谈及具身智能技术发展时 ，雷军表示， 自己相信具身智能机器人未来一定是一个巨大的产业机会，它的想象力会超过汽车产业 。他直言，小米的观点非常明确：我们特别看好 AI 进入物理世界所带来的空间和想象力，这会给整个亚太经济带来巨大的机会。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-18T02:45:22+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/028/669.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "雷军：AI+手机与具身智能未来三四年有颠覆性时刻",
+   "summary_zh": "雷军认为AI落地场景仍有限，但AI+手机与具身智能机器人想象空间巨大，未来三四年将出现颠覆性产品。",
+   "highlights_zh": [
+    "称AI真正商业闭环的公司仍较少",
+    "看好AI走向物理世界与终端结合",
+    "认为具身智能想象力超过汽车产业"
+   ],
+   "why_zh": "头部终端厂商掌门人对AI落地节奏与具身智能的判断，具方向性参考价值。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-18",
+   "slot": "noon",
+   "selected_at": "2026-11-18T06:12:01+00:00",
+   "mirror_pdf": "pdf/web-64644f4e165b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/028/669.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1ff263cf3678",
+   "kind": "article",
+   "title": "AMD 完成对 Taalas 收购，计划将后者芯片整合进加速器路线图",
+   "url": "https://www.ithome.com/1/028/640.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 18 日消息，AMD 当地时间昨日宣布 完成对专用 AI 推理芯片开发商 Taalas 的收购 。这家初创企业带来了差异化的技术和世界一流的工程专业知识。 AMD 表示此举将进一步加强其全栈 AI 产品组合和长期推理路线图。 AMD 计划将 Taalas 的技术整合到其加速器路线图中 ，结合 Instinct GPU 共同开发系统级解决方案。 IT之家了解到， Taalas 采用了将 AI 模型“固化”到 ASIC 上的技术路线 ，加速器芯片针对特定模型的工作负载进行优化。这一设计虽然大幅削弱了芯片的通用性，但也能显著提升推理效率。 相关阅读： 《 AMD 宣布计划收购 Taalas 公司，补强 AI 推理芯片路线图 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-18T02:06:29+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/028/640.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AMD 完成收购 Taalas，推理芯片路线图补强",
+   "summary_zh": "AMD 完成对专用 AI 推理芯片公司 Taalas 的收购，计划将其「模型固化到 ASIC」的技术整合进 Instinct GPU 加速器路线图，以系统级方案提升推理效率。",
+   "highlights_zh": [
+    "Taalas 走 ASIC 固化模型路线，牺牲通用性换取推理效率",
+    "AMD 将技术与 Instinct GPU 结合做系统级方案",
+    "反映头部芯片厂商在推理侧加速布局"
+   ],
+   "why_zh": "关注 AI 推理硬件竞争格局与 AMD 路线图变化的从业者值得一读。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-18",
+   "slot": "noon",
+   "selected_at": "2026-11-18T06:12:01+00:00",
+   "mirror_pdf": "pdf/web-1ff263cf3678.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/028/640.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.22691",
+   "kind": "paper",
+   "title": "Making the World React Realistically: A Closed-Loop Interactive World Model for Autonomous Driving",
+   "url": "https://arxiv.org/abs/2611.22691",
+   "pdf_url": "https://arxiv.org/pdf/2611.22691",
+   "abstract": "World models (WMs) generate driving scenarios beyond recorded logs, enabling the training and evaluation of autonomous driving systems in unseen interactions. However, existing WMs struggle to ensure both behavioral realism and visual fidelity, since they overlook the relationship between vehicle interactions and the ego visual observations. We propose a closed-loop interactive WM that couples behavior modeling and visual rendering. First, imitation-learned background-vehicle (BV) policies are fine-tuned with multi-agent reinforcement learning in the closed loop against an end-to-end ego planner that reacts to the rendered images, so that their interaction behaviors match those in real logs. Second, the viewpoints exposed by these interactions guide a per-Gaussian diagnosis of each 3D Gaussian vehicle asset, which attenuates view-dependent colors on under-observed Gaussians and fills never-observed surfaces with generated Gaussians, while preserving the observed appearance. Third, signal lights are rendered according to the driving intentions of the vehicles, by an editor that learns the light states unobserved for a vehicle through counterfactual fine-tuning with a light-state classifier. On long-tail closed-loop scenarios, our method reduces the divergence from real-world interaction behaviors by 85% and improves novel-view vehicle PSNR by 2.0dB over the state-of-the-art WM. The significance of BV light signaling in WMs is shown, as the rendered signal lights conveying BV driving intentions indirectly impact ego driving behaviors in a quarter of the scenarios.",
+   "authors": [
+    "Jia Hu",
+    "Yang Chang",
+    "Panqu Wang",
+    "Zhijun Fu",
+    "Chang Liu",
+    "Changjian Yu",
+    "Jintao Lai"
+   ],
+   "orgs": [],
+   "published": "2026-11-17T12:39:42Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.22691",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "论文",
+   "lang": "en",
+   "who": "",
+   "title_zh": "闭环交互式世界模型：让自动驾驶场景反应更真实",
+   "summary_zh": "提出耦合行为建模与视觉渲染的闭环世界模型：背景车辆策略用多智能体强化学习对齐真实交互，再据此诊断并补全3D高斯车辆资产，长尾场景交互偏差降低85%。",
+   "highlights_zh": [
+    "背景车策略在闭环中对着端到端自车规划器做多智能体RL微调，行为更贴近真实日志",
+    "交互暴露的视角指导逐高斯诊断，衰减欠观测颜色并补全未见表面，新视角PSNR提升2.0dB",
+    "按车辆行驶意图渲染信号灯，用反事实微调学习未观测灯态"
+   ],
+   "why_zh": "世界模型的行为真实性与视觉保真度如何兼得，是自动驾驶仿真训练的核心难题。",
+   "tags": [
+    "机器人",
+    "强化学习",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 7.0,
+   "score": 0.548,
+   "date": "2026-11-18",
+   "slot": "noon",
+   "selected_at": "2026-11-18T06:12:01+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.22691.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.22691"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.22691"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.22691"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.22691"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.22691"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.22691"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5a68f30213b3",
+   "kind": "article",
+   "title": "Immortal-Protocols/lastbook",
+   "url": "https://github.com/Immortal-Protocols/lastbook",
+   "pdf_url": "",
+   "abstract": "Offline knowledge AI, maps and videos for survival and rebuilding",
+   "authors": [],
+   "orgs": [
+    "Immortal-Protocols"
+   ],
+   "published": "2026-11-18T06:12:01+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/Immortal-Protocols/lastbook",
+     "signal": "★ 1,887（新项目） · Python",
+     "metric": 1887
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "lastbook：离线生存知识AI与地图视频库",
+   "summary_zh": "一个面向断网场景的离线知识AI项目，内置地图与视频，用于灾难生存与重建参考。",
+   "highlights_zh": [
+    "主打完全离线运行，不依赖网络",
+    "整合地图与视频等多媒体生存资料",
+    "定位灾后重建等极端场景"
+   ],
+   "why_zh": "如果你在做离线本地知识库或应急场景AI，可参考其离线数据组织方式。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6057,
+   "score_llm": 4.0,
+   "score": 0.4823,
+   "date": "2026-11-18",
+   "slot": "noon",
+   "selected_at": "2026-11-18T06:12:01+00:00",
+   "mirror_pdf": "pdf/web-5a68f30213b3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/Immortal-Protocols/lastbook"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "评测污染升级为基座级危机，基准可信度面临重估",
-   "why": "预训练基座在少样本续写下直接输出隐藏测试题，HumanEval泄漏率达96%，倒逼Anti-Hack类真实能力评测成为新标配。",
+   "trend": "基准污染从后训练蔓延至预训练，模型能力评测体系面临信任危机。",
+   "why": "论文记录基座模型少样本续写直接输出隐藏测试题，HumanEval泄漏率达96%，倒逼Anti-Hack等重算方法。",
    "refs": [
     "arxiv-2611.21315"
    ]
   },
   {
-   "trend": "智能体可靠性从能力竞赛转向验证机制竞赛",
-   "why": "Claude Code团队公开自检纠错设计，说明编码智能体的瓶颈已从生成质量转向输出验证与可信纠错。",
+   "trend": "编码智能体正改写开发者工具格局，IDE二十年护城河半年内松动。",
+   "why": "纳德拉承认Claude Code类工具冲击微软IDE优势，Claude Code团队同步公开智能体自检纠错验证机制。",
    "refs": [
+    "web-add73746b675",
     "web-069078b2b4e3"
    ]
   },
   {
-   "trend": "小参数高效架构正侵蚀中端模型市场",
-   "why": "商汤Loop-9B以10GB显存逼近27B级Agent表现，循环复用参数路线让部署成本成为竞争新维度。",
+   "trend": "大模型竞争转向效率与成本，小激活、循环复用架构成降本主线。",
+   "why": "腾讯Hy4 flash每token仅激活12B、商汤Loop-9B以10GB显存逼近27B性能，OpenAI新模型亦主打降本。",
    "refs": [
-    "web-60f535993954"
+    "web-87242294747e",
+    "web-60f535993954",
+    "web-549a77347d5e"
    ]
   },
   {
-   "trend": "世界模型从概念叙事转入产业落地与评测基建",
-   "why": "李沐加盟Aimotion瞄准产业级世界模型，智源同步推出物理评测基准PhysCapBench，落地与度量并行推进。",
+   "trend": "AI资本从模型层向推理芯片与数据基础设施上游集中。",
+   "why": "AMD连续收购World Labs与Taalas补强推理路线，LanceDB多模态湖仓营收同比增超10倍获大额融资。",
    "refs": [
-    "web-7f92bc7a9457",
-    "web-c9e3819423c0"
+    "web-1be7364f7a4d",
+    "web-1ff263cf3678",
+    "web-2a1bdd168094"
    ]
   },
   {
-   "trend": "企业AI预算进入收缩期，云厂商被迫重构供给形态",
-   "why": "部分企业因AI投入未带来收入增长而砍预算，百度转向以智能体为服务对象的全栈智能云。",
+   "trend": "企业AI进入回报审视期，治理与预算约束同步收紧。",
+   "why": "李彦宏雷军警示炒作与回报差距，Gartner预警2028年25%安全漏洞源于智能体滥用，GitHub设单次10美元预算。",
    "refs": [
-    "web-8cf181e868aa"
+    "web-246f1a63c5a1",
+    "web-0bd884a542ab",
+    "web-2a9f3fe09fa2"
    ]
   }
  ]
