@@ -1,11 +1,12 @@
-2026-11-18 13:54:06,343 INFO source hf_daily           -> 15 items
-2026-11-18 13:54:06,617 INFO source hackernews         -> 9 items
-2026-11-18 13:54:36,440 INFO source rss                -> 108 items
-2026-11-18 13:54:38,481 INFO source html_lists         -> 0 items
-2026-11-18 13:54:38,481 INFO source x                  -> 0 items
-2026-11-18 13:54:38,899 INFO source arxiv_search       -> 60 items
-2026-11-18 13:54:50,519 INFO source github             -> 20 items
-2026-11-18 13:54:50,521 INFO candidates: 211 (stale dropped 14, new 138)
-2026-11-18 13:56:34,851 INFO llm judged 100/100 (calls=13)
-2026-11-18 13:57:05,481 WARNING snapshot https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/: blocked or empty page
-2026-11-18 14:00:10,312 INFO run done: {"at": "2026-11-18T13:54:05+00:00", "slot": "evening", "candidates": 211, "new": 138, "stale": 14, "judged": 100, "selected": 21, "mirrored": 19, "by_category": {"资讯": 12, "观点": 2, "项目": 3, "技术": 4}, "by_source": {"HF Daily Papers": 15, "Hacker News": 9, "OpenAI": 8, "量子位": 10, "极客公园": 9, "IT之家": 13, "爱范儿": 9, "少数派": 1, "雷峰网": 15, "钛媒体": 3, "InfoQ 中文": 15, "Simon Willison": 1, "Dwarkesh Patel": 1, "Latent Space": 4, "Jack Clark": 1, "Stratechery": 2, "Azeem Azhar": 1, "Nathan Benaich": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Timothy B. Lee": 1, "科学空间": 1, "NVIDIA": 9, "arXiv 新论文": 60, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
+2026-11-18 19:20:30,237 INFO source hf_daily           -> 15 items
+2026-11-18 19:20:30,543 INFO source hackernews         -> 9 items
+2026-11-18 19:20:50,828 INFO source rss                -> 116 items
+2026-11-18 19:20:52,210 INFO source html_lists         -> 0 items
+2026-11-18 19:20:52,210 INFO source x                  -> 0 items
+2026-11-18 19:20:55,328 INFO source arxiv_search       -> 57 items
+2026-11-18 19:21:05,767 INFO source github             -> 20 items
+2026-11-18 19:21:05,768 INFO candidates: 216 (stale dropped 106, new 71)
+2026-11-18 19:22:44,412 INFO llm judged 71/71 (calls=9)
+2026-11-18 19:23:04,836 WARNING snapshot https://openai.com/index/inside-the-codex-sandbox: blocked or empty page
+2026-11-18 19:23:17,958 WARNING snapshot https://thezvi.wordpress.com/2026/11/18/quickly-theres-no-time/: blocked or empty page
+2026-11-18 19:24:42,122 INFO run done: {"at": "2026-11-18T19:20:29+00:00", "slot": "morning", "candidates": 216, "new": 71, "stale": 106, "judged": 71, "selected": 20, "mirrored": 18, "by_category": {"观点": 3, "资讯": 11, "技术": 4, "项目": 2}, "by_source": {"HF Daily Papers": 15, "Hacker News": 9, "OpenAI": 9, "量子位": 10, "极客公园": 9, "IT之家": 19, "爱范儿": 9, "少数派": 1, "雷峰网": 16, "钛媒体": 3, "InfoQ 中文": 15, "Simon Willison": 1, "Latent Space": 4, "Stratechery": 2, "Nathan Benaich": 1, "Tomasz Tunguz": 2, "Zvi Mowshowitz": 3, "Timothy B. Lee": 1, "Dean Ball": 1, "科学空间": 1, "Hugging Face Blog": 4, "Google DeepMind": 1, "NVIDIA": 4, "arXiv 新论文": 57, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
