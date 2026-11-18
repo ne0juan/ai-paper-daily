@@ -2380,49 +2380,1280 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-6e090bb95c89",
+   "kind": "article",
+   "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+   "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-17T21:16:12Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50538303",
+     "signal": "237 pts",
+     "metric": 237
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "哈佛研究：AI 编码把瓶颈推到代码评审",
+   "summary_zh": "哈佛研究者发现 AI 编码智能体大幅提升产出后，团队瓶颈从写代码转移到代码评审环节。",
+   "highlights_zh": [
+    "编码智能体改变工程流程瓶颈位置",
+    "评审成为新的吞吐限制",
+    "对团队协作与工具设计有直接启示"
+   ],
+   "why_zh": "正在推 AI 编码落地的团队，可据此重新设计评审与合并流程",
+   "tags": [
+    "代码",
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5766,
+   "score_llm": 8.0,
+   "score": 0.7106,
+   "date": "2026-11-18",
+   "slot": "evening",
+   "selected_at": "2026-11-18T13:54:05+00:00",
+   "mirror_pdf": "pdf/web-6e090bb95c89.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50538303"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7c37480e5f49",
+   "kind": "article",
+   "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+   "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+   "pdf_url": "",
+   "abstract": "November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with.",
+   "authors": [
+    "swyx .ai"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-11-18T10:19:04+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "GPT-6.2 Astra 发布：更强更便宜，但口碑分化",
+   "summary_zh": "Latent Space 汇总 GPT-6.2 Astra 与 Sol 发布：Astra 性能更强、成本降低 20%-600%，但早期测试者对其实际使用体验评价不一，Sol 或成主力模型。",
+   "highlights_zh": [
+    "Astra 定位前沿模型第二，成本大幅下降",
+    "早期测试者对可用性评价分化",
+    "Sol 可能成为日常主力工作模型"
+   ],
+   "why_zh": "头部模型发布与定价变化，直接影响开发者选型与成本结构。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-11-18",
+   "slot": "evening",
+   "selected_at": "2026-11-18T13:54:05+00:00",
+   "mirror_pdf": "pdf/web-7c37480e5f49.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-025f7fa14331",
+   "kind": "article",
+   "title": "pingdotgg/t3code",
+   "url": "https://github.com/pingdotgg/t3code",
+   "pdf_url": "",
+   "abstract": "Star pingdotgg / t3code The best way to control Claude Code, Codex and more from any computer or phone\nREADME: T3 Code The open-source control plane for coding agents. Download · iOS · Android · Web · Docs · Discord T3 Code runs the coding agents on your machine and gives them one fast interface. Start a thread at your desk, then approve the next step from your phone. It works with Claude Code, Codex, Cursor, OpenCode, Grok Build, Antigravity, Kiro, Pi, Muse Code, fx, and any [ACP](./docs/user/providers-acp.md) agent. If an agent is set up on your computer, T3 Code can control it. ## What you get - **Your subscriptions.** T3 Code does not resell tokens. It drives the agents you are already signed in to. - **Every agent in one place.** Change models in the middle of a thread. Let Claude hand a task to Codex. - **Desktop, web, and phone.** One server, and every client shows the same threads. There are apps for iOS and Android. - **Remote ready.** Run agents on any machine. Connect over your local network, Tailscale, or [T3 Connect](./docs/user/remote-access.md). - **Git built in.** Each thread can work in its own worktree. Review the diff, then commit, push, and open a pull request with one button. - **Fast.** Performance is a feature here. We measure it, and we treat a dropped frame as a bug. - **Open.** MIT licensed. If you don't like something, fork it. ## Install ### Desktop app [Download T3 Code](https://t3.codes/download) for macOS, Windows, or Linux. You can also use a package manager: | Platform | Command | | -------------- | -----------------------------------------------------",
+   "authors": [],
+   "orgs": [
+    "pingdotgg"
+   ],
+   "published": "2026-11-18T13:54:05+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/pingdotgg/t3code",
+     "signal": "★ 今日 +1,264 · TypeScript",
+     "metric": 1264
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "T3 Code：编码智能体的开源控制台",
+   "summary_zh": "T3 Code 把 Claude Code、Codex 等编码智能体统一到一个界面，桌面、网页、手机共享同一线程，可远程审批下一步。",
+   "highlights_zh": [
+    "不转售 token，直接驱动你已登录的订阅智能体",
+    "同一线程内可切换模型，甚至让 Claude 把任务交给 Codex",
+    "内置 Git worktree，逐线程审 diff 后一键提交、推送、开 PR"
+   ],
+   "why_zh": "如果你同时用多个编码智能体，可以用它统一调度并手机远程审批",
+   "tags": [
+    "智能体",
+    "代码",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.633,
+   "score_llm": 7.0,
+   "score": 0.6732,
+   "date": "2026-11-18",
+   "slot": "evening",
+   "selected_at": "2026-11-18T13:54:05+00:00",
+   "mirror_pdf": "pdf/web-025f7fa14331.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/pingdotgg/t3code"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1555ed6bcb12",
+   "kind": "article",
+   "title": "jingyaogong/minimind",
+   "url": "https://github.com/jingyaogong/minimind",
+   "pdf_url": "",
+   "abstract": "Star jingyaogong / minimind 🧠 Train a 64M-parameter LLM from scratch in just 2h!\nREADME: ![logo](./images/logo.png) ![visitors](https://visitor-badge.laobi.icu/badge?page_id=jingyaogong/minimind) [![GitHub Repo stars](https://img.shields.io/github/stars/jingyaogong/minimind?style=social)](https://github.com/jingyaogong/minimind/stargazers) [![GitHub Code License](https://img.shields.io/github/license/jingyaogong/minimind)](LICENSE) [![GitHub last commit](https://img.shields.io/github/last-commit/jingyaogong/minimind)](https://github.com/jingyaogong/minimind/commits/master) [![GitHub pull request](https://img.shields.io/badge/PRs-welcome-blue)](https://github.com/jingyaogong/minimind/pulls) [![Collection](https://img.shields.io/badge/🤗-MiniMind%20%20Collection-blue)](https://huggingface.co/collections/jingyaogong/minimind-66caf8d999f5c7fa64f399e5) ![GitHub Trend](https://trendshift.io/api/badge/repositories/12586) \"大道至简\" 中文 | [English](./README_en.md) * 此开源项目旨在完全从 0 开始，仅用 3 块钱成本与 2 小时训练时间，即可训练出规模约为 64M 的超小语言模型 MiniMind。 * MiniMind 系列极其轻量，主线最小版本体积约为 GPT-3 的 $\\frac{1}{2700}$，力求让普通个人 GPU 也能快速完成训练与复现。 * 项目同时开源了大模型的极简结构与完整训练链路，覆盖 MoE、数据清洗、预训练（Pretrain）、监督微调（SFT）、LoRA、RLHF（DPO）、RLAIF（PPO / GRPO / CISPO）、Tool Use、Agentic RL、自适应思考与模型蒸馏等全过程代码。 * MiniMind 同时拓展了视觉模态模型 [MiniMind-V](https://github.com/jingyaogong/minimind-v)、多模态 Omni 模型 [MiniMind-O](https://github.com/jingyaogong/minimind-o)、扩散语言模型（MiniMind-dLM）、线性模型（MiniMind-Linear），详见 [Discussion](https://github.com/jingyaogong/minimind/discussions)。 * 项目所有核心算法代码均从 0 使用 PyTorch 原生实现，不依赖第三方库提供的高层抽象接口。 * 这不仅是一个大语言模型全阶段开源复现项目，也",
+   "authors": [],
+   "orgs": [
+    "jingyaogong"
+   ],
+   "published": "2026-11-18T13:54:05+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/jingyaogong/minimind",
+     "signal": "★ 今日 +772 · Python",
+     "metric": 772
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "MiniMind：3 块钱 2 小时训出 64M 小模型",
+   "summary_zh": "开源从零训练 64M 参数小模型的完整链路，覆盖 MoE、预训练、SFT、LoRA、DPO/PPO/GRPO、工具调用与蒸馏。",
+   "highlights_zh": [
+    "单卡即可复现，成本约 3 元、耗时约 2 小时",
+    "训练代码覆盖预训练到 RLHF 全流程",
+    "延伸出视觉 MiniMind-V 与多模态 MiniMind-O"
+   ],
+   "why_zh": "想亲手跑通大模型全流程训练的人，这是最低门槛的教材级项目",
+   "tags": [
+    "大模型",
+    "强化学习",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.6128,
+   "score_llm": 7.0,
+   "score": 0.6651,
+   "date": "2026-11-18",
+   "slot": "evening",
+   "selected_at": "2026-11-18T13:54:05+00:00",
+   "mirror_pdf": "pdf/web-1555ed6bcb12.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/jingyaogong/minimind"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a70cae4c16f0",
+   "kind": "article",
+   "title": "sybil-solutions/inference-optimisation-skill",
+   "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+   "pdf_url": "",
+   "abstract": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+   "authors": [],
+   "orgs": [
+    "sybil-solutions"
+   ],
+   "published": "2026-11-18T13:54:05+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+     "signal": "★ 1,030（新项目） · Python",
+     "metric": 1030
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "本地 LLM 推理提速的智能体技能",
+   "summary_zh": "一个智能体技能，针对任意硬件与量化自动爬山调优本地 LLM 服务速度，覆盖解码、投机解码、prefill、KV 与启动。",
+   "highlights_zh": [
+    "以爬山法自动搜索推理配置",
+    "覆盖 decode、prefill、KV、TTFT 等环节",
+    "适配任意硬件与量化方案"
+   ],
+   "why_zh": "如果你在自建本地推理服务，可用它自动搜出更快的部署配置",
+   "tags": [
+    "效率与系统",
+    "智能体",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.5844,
+   "score_llm": 7.0,
+   "score": 0.6538,
+   "date": "2026-11-18",
+   "slot": "evening",
+   "selected_at": "2026-11-18T13:54:05+00:00",
+   "mirror_pdf": "pdf/web-a70cae4c16f0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/sybil-solutions/inference-optimisation-skill"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-aa5089a8647d",
+   "kind": "article",
+   "title": "Nvidia Earnings; Office Convergence; OS Wars, AI Edition",
+   "url": "https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/",
+   "pdf_url": "",
+   "abstract": "Nvidia's earnings were boring, and also a statement as to why Jensen Huang probably isn't coming back; then, Microsoft and Anthropic ship dueling operating system updates.",
+   "authors": [
+    "Ben Thompson"
+   ],
+   "orgs": [
+    "Stratechery"
+   ],
+   "published": "2026-11-18T11:00:00+00:00",
+   "sources": [
+    {
+     "name": "Stratechery",
+     "authority": 0.8,
+     "url": "https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Ben Thompson，科技战略分析",
+   "title_zh": "英伟达财报平淡，微软与 Anthropic 掀起 AI 操作系统之争",
+   "summary_zh": "Ben Thompson 认为英伟达财报本身平淡，却暗示黄仁勋难以回归；微软与 Anthropic 同期发布操作系统级更新，AI 正重塑 OS 竞争格局。",
+   "highlights_zh": [
+    "英伟达财报被视为行业风向标而非惊喜",
+    "微软与 Anthropic 的 OS 级更新正面交锋",
+    "AI 正在成为操作系统竞争的新战场"
+   ],
+   "why_zh": "从战略视角解读 AI 如何改变芯片与操作系统两大核心市场。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.648,
+   "date": "2026-11-18",
+   "slot": "evening",
+   "selected_at": "2026-11-18T13:54:05+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a9f0ca12cf06",
+   "kind": "article",
+   "title": "跑分狂飙，实测翻车，刚发的 GPT-6.2 暴露了 OpenAI 的软肋",
+   "url": "http://www.geekpark.net/news/374175",
+   "pdf_url": "",
+   "abstract": "「 基本不可用，不推荐 」。 OpenAI 新模型上线仅仅 8 分钟，硅谷知名创业者 Matt Shumer，就在社交平台上扔下一句毫不留情的评价。 紧接着，拥有大批开发者拥趸的 Theo Browne，发了一篇长文《我为什么讨厌 GPT-6.2 Astra》。向来对前沿模型保持温和耐心的沃顿商学院教授 Ethan Mollick，测完后也给出了罕见的严厉定调，「非常不稳定且古怪」，直言这是「自 GPT-4.5 以来 OpenAI 前沿发布首次未见明显进步」。 这原本该是 OpenAI 是一场漂亮的反击战。 北京时间 11 月 18 日凌晨，OpenAI 正式推出新一代旗舰 GPT-6.2 Astra 与日常主力 GPT-6.2 Sol。官方把 Astra 的 API 单价直接砍掉 20%，还交出了一张从智能体到科研全面刷新纪录的成绩单。 当纸面跑分的狂飙撞上一线开发者的集体吐槽，这种极致的割裂感，恰恰揭开了 OpenAI 当下最真实的窘境。 01 文字游戏和算力暗箭 单看官方海报和第三方综合榜单的头部数据，GPT-6.2 两款模型确实很能打。 两款模型均配备 105 万上下文窗口，输入上限 92.2 万 tokens，输出上限 12.8 万 tokens，目前仅支持文本与图像输入、纯文本输出，不支持音视频和微调。定价上，接替 9 月初 GPT-6 Astra 的新版旗舰定在每百万输入 8 美元、输出 40 美元， 缓存输入更是大砍六成至 0.40 美元 ；接替 9 月 DevDay 版本的 GPT-6.2 Sol 维持输入 2 美元、输出 10 美元不变。 在 Artificial Analysis 的 v5.0.1 综合指数榜上，GPT-6.2 Astra 以 62 分跃居总榜第二，仅次于 65 分的 Claude Fable 5.2，反超了 60 分的 Gemini 4 Carbon 和 59 分的 Claude Opus 5.5。 更诱人的是单任务成本， Astra 平均开销仅 4 美元，只有 Fable 5.2 高达 26.54 美元成本的 15% 。拿下 57 分的 Sol 单任务仅花 1.01 美元，在帕累托前沿散点图上稳稳落入左上角的高性价比象限。 Artificial Analysis Intelligence Index v5.0.1 总分榜与单任务成本帕累托前沿对比｜图片来源：Artificial Analysis 但只要顺着官方博客往下翻，仔细去读那些字号极小的脚注，味道就开始变了 。 在 Agents' Last Exam 测试中，OpenAI 高调宣布 Astra 跑出最高 78.3%（XHigh 档，Max 档为 77.6%）的成绩，领先 Fable 5.2 的 72.8% 一大截。脚注里却悄悄写着，这份对比排除了 Fable 5.2 使用后备模型的 9 个任务。更微妙的是， 官方配图里 Google 的 Gemini 4 Carbon 在高推理模式下拿到了 77.4%，单任务成本 4.60 美元 ，与 Astra 的 4.47 美元几乎打平，但官方正文对这位对手只字未提。 除了跑分口径的精妙筛选，API 定价表里还埋着两颗暗雷。 只要单次输入超过 27.2 万 tokens，整笔请求的输入和缓存单价就会翻倍，输出单价乘以 1.5 倍，Astra 直接涨到 16 美元和 60 美元。同时，仅限美区数据驻留、最高提速 4.5 倍的 Ultrafast 模式目前按 3 倍促销， 但从 2027 年 3 月 1 日起将翻倍",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-18T13:40:28+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/374175",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "跑分狂飙实测翻车：GPT-6.2暴露OpenAI软肋",
+   "summary_zh": "极客公园指出GPT-6.2 Astra官方跑分亮眼但一线开发者实测口碑翻车，并揭露评测口径筛选与API定价暗雷。",
+   "highlights_zh": [
+    "开发者实测评价「基本不可用」「非常不稳定」",
+    "官方对比脚注排除对手后备模型任务，口径存疑",
+    "单次输入超27.2万tokens后单价翻倍，定价藏暗雷"
+   ],
+   "why_zh": "揭示跑分与实测的割裂，是判断前沿模型真实能力的重要一手观察。",
+   "tags": [
+    "大模型",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-11-18",
+   "slot": "evening",
+   "selected_at": "2026-11-18T13:54:05+00:00",
+   "mirror_pdf": "pdf/web-a9f0ca12cf06.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/374175"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b8930a9a56df",
+   "kind": "article",
+   "title": "Not Everything Needs an LLM",
+   "url": "https://newsletter.posthog.com/p/decision-models",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-17T18:16:18Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50535740",
+     "signal": "166 pts",
+     "metric": 166
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "不是所有事都需要大模型",
+   "summary_zh": "文章主张并非所有场景都该上 LLM，呼吁在成本、延迟与可靠性上权衡，回归用简单方案解决简单问题。",
+   "highlights_zh": [
+    "反思 LLM 滥用的工程倾向",
+    "强调成本、延迟与确定性",
+    "HN 高热度，引发从业者共鸣"
+   ],
+   "why_zh": "对正在做技术选型的团队是一剂清醒剂，避免为用而用。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.56,
+   "score_llm": 7.0,
+   "score": 0.644,
+   "date": "2026-11-18",
+   "slot": "evening",
+   "selected_at": "2026-11-18T13:54:05+00:00",
+   "mirror_pdf": "pdf/web-b8930a9a56df.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://newsletter.posthog.com/p/decision-models"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50535740"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-249b825d4642",
+   "kind": "article",
+   "title": "纽娲机器人创始人杨睿刚：自动驾驶踩过的数据坑，机器人还会再踩一遍丨物理 AI 50 人",
+   "url": "https://www.leiphone.com/category/transportation/GLv3yGaPGK64teuS.html",
+   "pdf_url": "",
+   "abstract": "做了十多年自动驾驶之后，杨睿刚决定把下一次创业的方向，从高速公路转向居民社区。 在此之前，他曾在美国高校研究三维视觉，后来加入百度研究院，负责机器人与自动驾驶实验室，又担任嬴彻科技CTO，推动自动驾驶重卡前装量产。从研究算法到让几十吨重的卡车真正跑上高速公路，他经历了自动驾驶从技术探索走向商业化的过程。 2024年，杨睿刚开始筹备第二次创业。彼时，人形机器人已经成为具身智能行业最受关注的方向，他也接触过相关创业机会，但最终选择了一个看起来没那么性感的场景：社区末端配送。 他判断，家庭机器人虽然市场空间大，但每个家庭的环境都不一样，泛化难度很高；工厂机器人则必须满足严格的生产节拍和成本要求。相比之下，社区配送既能复用自动驾驶积累的定位、导航和避障技术，又能通过开门、乘电梯、交付包裹等任务，让机器人开始与真实物理环境交互。 这也是杨睿刚创办纽娲科技的起点。他希望先让机器人解决移动和通行问题，再逐步进入更复杂的任务。为此，纽娲提出「具行智能」，围绕世界通行模型（WTM）搭建数据生成、物理仿真和模型训练体系。 从见证自动驾驶卡车在开阔道路行驶，到机器人在楼宇间处理各种复杂任务，杨睿刚一直在挑战无人实现的技术问题，但他却说，真正的机会，恰恰在于有些技术问题还没有被解决。 “难这件事，我们不怕。” 从实验室到量产，重新认识技术的价值 《新智驾物理AI》：您很早就开始研究计算机视觉和三维视觉，当时深度学习还没有兴起。为什么会选择这个方向？有没有坐冷板凳的感觉？ 杨睿刚 ：我最早其实不是做计算机视觉，而是做计算机图形学。 我在清华的时候就在CAD和CG实验室，后来去北卡罗来纳大学教堂山分校读博士，也是因为那里在图形学领域很有名。 刚去的时候，我主要做图形渲染和显示，后来参与了一个叫Telepresence的项目。它想解决的问题是，能不能通过多个摄像头实时采集一个人的三维信息，再从不同视角渲染出来，让远隔千里的人也能像面对面一样开会。 做着做着就发现，渲染和显示逐渐不是最难的问题，真正难的是如何实时重建三维信息。 所以我的博士研究就转向了三维视觉，研究如何从图像、点云或者深度信息中恢复三维结构。后来又开始研究语义信息，不只是知道物体的三维形状，还要知道它是什么。 我是1998年进入这个方向的，比深度学习兴起早很多。当时北卡在图形学领域非常强，我也算是比较早开始往CVPR投稿的一批人。 但我不觉得是在坐冷板凳，因为三维视觉本身就有大量没有解决的问题。 《新智驾物理AI》：深度学习兴起之后，对您的研究产生了哪些影响？ 杨睿刚： 深度学习最早在计算机视觉中的应用，主要集中在图像分类、检测、分割这些任务。三维视觉真正大量采用深度学习，其实要晚一些。 我最早尝试的是把传统三维几何的约束引入深度学习框架，当时也和苏昊等人合作，研究怎样把三维几何和深度学习结合起来。 后来又做了生成新视角、扩散模型、视频生成控制等方向。 对研究人员来说，新技术出来就要重新学习。只不过现在学习频率越来越快，前面的东西还没完全学明白，后面可能就已经有新方法把它替代了。 我觉得科学家必须具备从头学习的能力。 《新智驾物理AI》：当时三维重建已经有哪些实际应用？您有没有尝试过商业化？ 杨睿刚： 我们做过大规模街景三维重建，用于仿真训练。当时美国很重视利用仿真系统，希望在进入真实环境之前，先通过三维重建了解街道和地形。我们做这件事的时候甚至比Google Street View还早。 我们还研究如何把非常稠密的点云转成更简化的多边形模型，同时保留高质量贴图。后来苹果地图的三维地图也采用了类似的技术思路。 ",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-18T10:28:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/transportation/GLv3yGaPGK64teuS.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "纽娲杨睿刚：自动驾驶踩过的数据坑，机器人还会再踩一遍",
+   "summary_zh": "前嬴彻CTO杨睿刚二次创业做社区末端配送机器人，提出「具行智能」与世界通行模型（WTM），主张先解决移动与通行、再叠加复杂任务，并警示机器人将重演自动驾驶的数据陷阱。",
+   "highlights_zh": [
+    "从三维视觉、百度自动驾驶到嬴彻重卡量产，再到社区配送机器人的路径选择逻辑",
+    "「具行智能」+世界通行模型（WTM）：数据生成、物理仿真与模型训练一体化",
+    "判断家庭场景泛化难、工厂节拍严苛，社区配送是复用自动驾驶技术栈的最优切口"
+   ],
+   "why_zh": "具身智能创业者的第一手技术路线判断，对数据与泛化问题的反思有实操价值。",
+   "tags": [
+    "机器人",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-18",
+   "slot": "evening",
+   "selected_at": "2026-11-18T13:54:05+00:00",
+   "mirror_pdf": "pdf/web-249b825d4642.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/transportation/GLv3yGaPGK64teuS.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1dbfe33424a2",
+   "kind": "article",
+   "title": "清华徐梦迪：预训练做再好都不够，机器人需要在部署中学习 | CoRL 2026",
+   "url": "https://www.leiphone.com/category/private/S1vnQSfDZDVC7TWb.html",
+   "pdf_url": "",
+   "abstract": "人机交互不只是目标，更是解决方案。 作者丨 邓哲敏 编辑丨 齐铖湧 2026 年 11 月 12 日，CoRL 2026 “Learn@Deploy”（机器人部署中学习）半日研讨会上，清华大学交叉信息研究院助理教授徐梦迪以 Keynote 讲者身份做开场报告 。 徐梦迪从清华车辆工程专业毕业后，前往卡内基梅隆大学机械工程系读博，师从 Safe AI Lab 负责人赵鼎，论文《构建可适应的通用机器人》拿下该系最佳博士论文奖。她在论文中指出，构建通用机器人不能只靠堆参数、堆数据、指望预训练自然泛化， 必须补上适应的能力，让机器人到现场后靠少量新信息快速调整策略。 博士毕业后，徐梦迪来到斯坦福视觉与学习实验室，跟随吴佳俊、李飞飞做博士后。期间，她做了 ROSETTA，用大模型把人类五花八门的口语偏好转成机器能学的奖励信号，让机器人学会训练时没见过的新指令。 2025年，徐梦迪加入清华叉院，组建自己的实验室，方向进一步 聚焦到“部署时学习” 。2026 年初，团队发布 CoVer-VLA，让机器人在行动前先多生成几组候选动作，再用验证器挑出最贴合指令的那一组，以此对齐指令。而 Dex-X 从人类视频学习灵巧操作，靠仿真补上视频里缺失的触觉监督，入选 CoRL 2026。 在这场报告中，徐梦迪对近两年的工作做了集中提炼，并向学界分享了她对未来技术发展的判断。以下为雷峰网从现场带回的演讲实录精编。 ▎ 报告人：徐梦迪 清华大学交叉信息研究院助理教授 报告题目：Building Adaptable Generalist Robots for Human-Centered Environments 01 为什么要在部署中学习 今天我想讨论的是，如何构建可适应的通用机器人，尤其是有人类在场景中的机器人。这类场景的独特挑战在于，机器人要在开放世界中完成导航和操作任务，比如清理午餐后的桌面；还要与人交互，从遵循指令、偏好、手势，到物理辅助，比如扶人站立或行走。 我有一些观察，希望能激发大家思考为什么在以人为本的场景中部署时学习非常重要。 第一，人类很容易要求机器人完成超出其技能范围的任务。 最简单的办法是让人做一次，机器人直接学习人的行为或偏好。比如倒水，机器人起初不会，或者遇到一个没见过的新水杯，人可以演示一次，让机器人了解物体性质并完成任务。 第二，开放世界环境很多情况下是可观测的。 比如低成本机械臂要拿一个装了很多水的水壶，第一次尝试后，它知道水壶超出了负载，第二次就可以吸取经验，改用双臂抬杯再倒水。 第三，人类偏好差异很大。 倒水时，不同人想要的水量不一样，哪怕是同一个人，一天当中不同时间想要的水量也可能不同。机器人需要与人进行流式交互，比如让人按绿色按钮直接控制水量。 这些观察都引导我们得出一个结论： 机器人必须在部署时获取新信息来适应其策略 。 但机器人学习仍然是机器学习问题，必须有监督。我们在部署时能获得哪些监督信号呢？我认为有三种是最重要的：智能体系统、人类反馈、仿真。 第一个是智能体系统，由语言模型、视觉语言模型或独立验证器组成，帮助机器人判断行为的好坏，并提供这些好和坏的信号，让机器人在不同尝试中适应策略。 另一个自然的监督资源，是让人类直接与机器人交互。但人的指令类型多样，包括语言、手势、演示及联合模态。 最后就是仿真，既可作为评估平台，也可用于训练，广义上包括物理模拟器、机器人模拟器和世界模型，通过预测不同动作的结果来帮助机器人选择更好的动作。 接下来我将分享我们近期的三篇论文，每篇都结合了不同的资源。 02 规模验证比规模策略学习更有效 首先",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-18T08:28:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/private/S1vnQSfDZDVC7TWb.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "清华徐梦迪：预训练不够，机器人须在部署中学习",
+   "summary_zh": "清华助理教授徐梦迪在CoRL 2026提出，通用机器人不能只靠预训练泛化，须在部署现场借助智能体系统、人类反馈与仿真三类监督信号快速适应策略。",
+   "highlights_zh": [
+    "提出部署时学习的三种监督来源：智能体系统、人类反馈、仿真",
+    "CoVer-VLA让机器人先生成候选动作再用验证器对齐指令",
+    "Dex-X从人类视频学灵巧操作，用仿真补触觉监督"
+   ],
+   "why_zh": "机器人泛化路线的关键判断，理解具身智能从预训练转向部署适应",
+   "tags": [
+    "机器人",
+    "强化学习",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-18",
+   "slot": "evening",
+   "selected_at": "2026-11-18T13:54:05+00:00",
+   "mirror_pdf": "pdf/web-1dbfe33424a2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/private/S1vnQSfDZDVC7TWb.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-35b426905375",
+   "kind": "article",
+   "title": "800 个 MCP Server、5000 个工具，AI 智能体的“微服务危机”来了",
+   "url": "https://www.infoq.cn/article/FrDlAvNIwkr8ttdvWMCC?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Leela Kumili"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-18T14:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/FrDlAvNIwkr8ttdvWMCC?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "800个MCP Server、5000个工具：智能体的微服务危机",
+   "summary_zh": "InfoQ 报道 MCP 生态工具数量激增，智能体接入的工具与 Server 规模膨胀，带来发现、治理与可靠性问题，被类比为“微服务危机”。",
+   "highlights_zh": [
+    "MCP Server 已达 800 个、工具超 5000 个，生态扩张迅速",
+    "工具爆炸带来选择、权限与运维治理难题",
+    "智能体基础设施正重演微服务治理的老问题"
+   ],
+   "why_zh": "做智能体平台或工具接入的团队，可借此判断 MCP 生态的治理缺口与机会。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-18",
+   "slot": "evening",
+   "selected_at": "2026-11-18T13:54:05+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/FrDlAvNIwkr8ttdvWMCC?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ec91531de0ed",
+   "kind": "article",
+   "title": "腾讯：受芯片限制影响，训练下一代模型将需要更长时间",
+   "url": "https://www.ithome.com/1/029/066.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 18 日消息，据金融界报道，腾讯控股在 2026 年第三季度财报沟通中披露，受芯片限制影响，训练下一代模型将需要更长时间。 今日腾讯发布 2026 年三季报，本季度， 腾讯实现营收 2073 亿元 ，同比增长 8%。 腾讯表示，通过加大投入，向上探索大模型智能上限，向下构建覆盖个人生活、办公协作和企业生产的 AI 应用体系，腾讯正加速推进 AI 化变革，向 AI 引领的科技公司迈进。 IT之家注意到，今年以来，腾讯混元 Hy 平均每两个月发布一个大版本，最新一代混元大模型 Hy4 发布时位列 Agent Arena 中国模型第一，本周推出的 Hy4 flash 成为混元“性价比最高”的模型；WorkBuddy 日活用户数超过 1000 万，跃居中国大语言模型 Token 调用量最高的 AI 产品；云服务收入提速，同比增幅升至 35%。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-18T12:56:31+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/029/066.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯：芯片受限，下一代模型训练周期拉长",
+   "summary_zh": "腾讯在财报会上承认芯片限制将延长下一代模型训练时间，同时披露混元 Hy4 在 Agent Arena 中国模型居首、WorkBuddy 日活超千万、云服务收入同比增 35%。",
+   "highlights_zh": [
+    "芯片限制直接影响下一代大模型的训练节奏",
+    "混元 Hy4 位列 Agent Arena 中国模型第一，Hy4 flash 主打性价比",
+    "WorkBuddy 日活超 1000 万，成国内 Token 调用量最高 AI 产品",
+    "云服务收入同比增速升至 35%"
+   ],
+   "why_zh": "头部大厂首次明确承认算力约束拖慢模型迭代，是判断国内大模型竞争节奏的关键信号。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-18",
+   "slot": "evening",
+   "selected_at": "2026-11-18T13:54:05+00:00",
+   "mirror_pdf": "pdf/web-ec91531de0ed.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/029/066.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a577c94380c8",
+   "kind": "article",
+   "title": "豆包工作上线三个月，日活跃用户（DAU）突破 800 万",
+   "url": "https://www.ithome.com/1/029/064.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 18 日消息，豆包工作官方今日宣布，产品上线 3 个月， 日活跃用户（DAU）突破 800 万 ，企业客户年度经常性收入（ARR）突破 20 亿元。 IT之家注：豆包工作是豆包面向生产力场景打造的 AI 产品及品牌。用户可以使用自然语言描述任务，并提供相关资料或工作上下文；豆包工作会根据任务目标自主拆解任务、调用工具，完成调研分析、内容创作、数据处理、应用搭建等复杂工作，并在执行过程中根据补充要求调整任务，生成可继续修改和分享的结果。 今年 11 月 12 日，豆包官方宣布，豆包工作完成了一次产品更新，拓展更多可调用的模型，并同步引入了一套按实际消耗计价的额度调节机制。此次更新后，Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 作为首批第三方模型进入可选列表，用户可以在自研模型与第三方模型之间按任务需要自行切换。 相关阅读： 《 豆包工作新功能「工作台」上线，首批覆盖金融、医疗、教育等 21 个专业场景 》 《 豆包工作接入 DeepSeek V4.1 Flash、Kimi K3.1 Pro 等第三方模型，同步上线额度消耗倍率与限时优惠 》 《 豆包工作个人版取消 5 小时额度限制 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-18T12:55:27+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/029/064.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "豆包工作上线三月：日活破 800 万，ARR 超 20 亿",
+   "summary_zh": "豆包工作上线 3 个月日活突破 800 万、企业 ARR 超 20 亿元，并已接入 Kimi、GLM、DeepSeek 等第三方模型，支持按任务切换与按量计费。",
+   "highlights_zh": [
+    "3 个月做到 800 万 DAU、20 亿元 ARR，验证通用 Agent 产品商业化",
+    "首批接入 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等第三方模型",
+    "引入按实际消耗计价的额度倍率机制",
+    "工作台覆盖金融、医疗、教育等 21 个专业场景"
+   ],
+   "why_zh": "国内通用 Agent 产品增长与变现的最强数据点，且多模型混用策略值得关注。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-18",
+   "slot": "evening",
+   "selected_at": "2026-11-18T13:54:05+00:00",
+   "mirror_pdf": "pdf/web-a577c94380c8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/029/064.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.23045",
+   "kind": "paper",
+   "title": "ForecastGym: A Live, Controlled, and Replayable Benchmark for Forecasting Agents",
+   "url": "https://arxiv.org/abs/2611.23045",
+   "pdf_url": "https://arxiv.org/pdf/2611.23045",
+   "abstract": "Agents built on large language models (LLMs) increasingly forecast real-world events by searching the Web and reasoning over what they find. How well such an agent forecasts depends on both the retrieved evidence and the model, making control over that evidence essential for evaluation. Live evaluations can mix retrieval with reasoning when each system searches on its own, while retrospective search can leak later information through date filters or today's ranking of historical pages. Comparing models, search sources, and memory strategies requires both fixed evidence and a record of how it evolved before resolution. We introduce ForecastGym, which records what four commercial web search APIs return for open prediction-market questions every two days and replays this frozen evidence offline once outcomes are known, comparing models, memory, and captured search sources under a fixed evidence-acquisition policy. Its first release covers 150 questions, 614 evidence states, one per question and collection time, and 131k search results. Rerunning the same queries after settlement returns results that all but state the outcome for up to 92% of the questions, despite the tested date filters. On the frozen evidence, all tested LLMs trail the market in forecasting accuracy. Our diagnostic analysis suggests that missed public information contributes more to the gap in high-gap states than misreading does. Switching the search API changes a model's Brier score by up to 0.043, more than the spread across models, while persistent notes score similarly to rereading all evidence at half the input tokens. The evidence a forecaster sees can matter as much as the model that reads it.",
+   "authors": [
+    "Yicheng Tao",
+    "Yuante Li",
+    "Zipei Fan"
+   ],
+   "orgs": [],
+   "published": "2026-11-17T16:44:38Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.23045",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "ForecastGym：可回放的预测智能体受控评测基准",
+   "summary_zh": "每两天抓取四家商用搜索API对预测市场问题的返回结果并冻结，事后离线回放，使模型、记忆与搜索源可在固定证据下公平比较；首版150题、13.1万条搜索结果。",
+   "highlights_zh": [
+    "冻结证据回放，隔离检索与推理对预测表现的贡献",
+    "结算后重跑同一查询，92%问题结果几乎直接暴露答案",
+    "冻结证据下所有被测LLM预测准确率均落后于市场"
+   ],
+   "why_zh": "揭示「实时搜索评测」存在严重信息泄漏，为智能体评测方法学立了新标杆。",
+   "tags": [
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-18",
+   "slot": "evening",
+   "selected_at": "2026-11-18T13:54:05+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.23045.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.23045"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.23045"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.23045"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.23045"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.23045"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.23045"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.22947",
+   "kind": "paper",
+   "title": "The Kernel Reality Check: Benchmarking and Distilling Efficient Attention at Scale",
+   "url": "https://arxiv.org/abs/2611.22947",
+   "pdf_url": "https://arxiv.org/pdf/2611.22947",
+   "abstract": "Kernelized attention methods, which aim to replace the $O(N^2)$ complexity of softmax attention with $O(N)$ alternatives, have been the focus of intense research in the last five years. Despite growing interest, systematic evaluations and fair comparisons across approaches and scales are still missing. We analyze kernelized attention in two halves and highlight prominent limitations on each. On efficiency, FlashAttention achieves lower memory consumption and faster wall-clock time than SOTA kernelized methods during training and in vision transformers across most sequence lengths (with inference-time memory in causal language models the only clear exception), contradicting the core assumption for pure kernelized attention used as a drop-in replacement for softmax. We also discover that reported efficiency gains often fail to reproduce against modern baselines. On quality, current kernelized methods leave gaps of 2-10 points relative to softmax under a unified distillation protocol, and model scala alone does not close these gaps. We show this gap is not intrinsic to kernelization: LARA++, a principled extension of LARA that approximates softmax via importance sampling with adaptive proposal distributions, recovers up to 99% of softmax accuracy. We establish that the gap is closable; however, the computational overhead remains substantial, leaving the efficiency wall intact. Code is available at https://github.com/firatoncel/KernelRealityCheckNeurIPS2026",
+   "authors": [
+    "Fırat Öncel",
+    "Cem Subakan",
+    "Mirco Ravanelli",
+    "Çağatay Yıldız"
+   ],
+   "orgs": [],
+   "published": "2026-11-17T15:38:48Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.22947",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "核注意力现实检验：大规模基准与蒸馏",
+   "summary_zh": "系统评测核化线性注意力：多数序列长度下FlashAttention在显存与速度上仍胜出，且已报效率增益常无法复现；统一蒸馏协议下质量差2-10分，LARA++可追回99%但开销仍大。",
+   "highlights_zh": [
+    "效率宣称对现代基线普遍不可复现，仅因果LM推理显存例外",
+    "质量差距并非核化固有，LARA++用自适应重要性采样逼近softmax",
+    "规模扩大无法自动弥合质量差距"
+   ],
+   "why_zh": "给「线性注意力替代softmax」的热潮泼了盆冷水，附可复现评测协议。",
+   "tags": [
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-18",
+   "slot": "evening",
+   "selected_at": "2026-11-18T13:54:05+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.22947.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.22947"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.22947"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.22947"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.22947"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.22947"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.22947"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.22901",
+   "kind": "paper",
+   "title": "Done, But Still Working: Anytime Evaluation of When Coding Agents Should Stop",
+   "url": "https://arxiv.org/abs/2611.22901",
+   "pdf_url": "https://arxiv.org/pdf/2611.22901",
+   "abstract": "Coding agents often continue working after their own tests pass. Does this additional work improve the patch, and how much could be saved by stopping earlier? We study these questions through anytime evaluation: replaying recorded runs, scoring intermediate patches with hidden tests, and measuring the cost incurred at each step. For policies that only stop a run or select an earlier patch, this allows paired comparisons without generating new trajectories, provided replay preserves the relevant states. Across about 6,000 runs of eight open models in two scaffolds on SWE-bench Verified, we find substantial differences in the value of continued work. The hindsight saving available at passing self-tests ranges from under 1% to 57%, depending on the model and scaffold. A rule that stops after the same patch passes twice saves 23% in a preregistered replication, but the preregistered quality test does not establish non-inferiority. We explain these differences by measuring how often a rule fires, how often the patch changes afterwards, and whether those changes repair or break it. Fine-tuning agents to imitate the rule saves 30% over six seeds, while quality preservation remains uncertain. Our results help identify both the opportunities and the risks of early stopping.",
+   "authors": [
+    "Zerui Yang",
+    "Quan Xue",
+    "Miaomiao Dong",
+    "Chaorui Zhang",
+    "Xuanyu Zheng",
+    "Xiyuan Wang",
+    "Haolin Ruan",
+    "Xueyan Niu",
+    "Guangcheng Song",
+    "Weixi Zhang",
+    "Wei Han",
+    "Bo Bai"
+   ],
+   "orgs": [],
+   "published": "2026-11-17T15:07:35Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.22901",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "做完了却还在干：编码智能体何时该停的随时评测",
+   "summary_zh": "在SWE-bench Verified上回放约6000次运行，量化自测通过后继续工作的价值：事后可省成本从不足1%到57%不等；「同一补丁两次通过即停」规则省23%，但质量非劣性未获证实。",
+   "highlights_zh": [
+    "随时评测：回放轨迹、用隐藏测试给中间补丁打分",
+    "不同模型与脚手架间继续工作的价值差异巨大",
+    "模仿停止规则微调可省30%，质量保持仍不确定"
+   ],
+   "why_zh": "首次系统量化编码智能体的「过度工作」成本，为早停策略提供数据依据。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-18",
+   "slot": "evening",
+   "selected_at": "2026-11-18T13:54:05+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.22901.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.22901"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.22901"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.22901"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.22901"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.22901"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.22901"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.22583",
+   "kind": "paper",
+   "title": "Evolution Under Fire: Evolving Agent Safety Harnesses with Adaptive Injection Stressors",
+   "url": "https://arxiv.org/abs/2611.22583",
+   "pdf_url": "https://arxiv.org/pdf/2611.22583",
+   "abstract": "Tool-using language-model agents must act on information from untrusted emails, webpages, and documents. This creates a central security challenge: malicious instructions and legitimate task directives can arrive through the same interaction channel. Existing defenses are largely hand-designed and static, making further improvements dependent on repeated manual redesign. We introduce Evolution Under Fire, a staged framework that couples safety-harness evolution with adaptive stressor evolution. Utility-constrained, Pareto-scheduled tree search evolves complete executable safety harnesses from execution evidence while keeping the task model, benchmark, tools, and evaluator fixed. Adaptive stressor evolution then discovers utility-preserving attacks that guide a subsequent stage of harness evolution. On AgentDyn with GPT-4o-mini, an evolved harness reduces attack success from 50.4% to 3.0%, improves clean and attacked utility over the initial harness, and offers a stronger security-utility trade-off than reproduced defenses. On Agent-SafetyBench with Qwen2.5-7B-Instruct, harness evolution reduces attack success from 82.6% to 62.0% while retaining helpfulness and runtime validity. Evolved harnesses also transfer without further evolution to Qwen3.5-35B-A3B, reducing attack success from 32.1% to 0.9% while improving attacked-task utility.",
+   "authors": [
+    "Yujun Wang",
+    "Yilun Liu",
+    "Jinhe Bi",
+    "Krishna Kanth Nakka",
+    "Xuebing Zhou",
+    "Hinrich Sch{ü}tze",
+    "Yunpu Ma"
+   ],
+   "orgs": [],
+   "published": "2026-11-17T11:07:31Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.22583",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "在攻击中进化：自适应注入压力下的智能体安全护栏",
+   "summary_zh": "提出让安全护栏与攻击压力器协同进化的框架：用树搜索从执行证据中进化出可执行护栏，再用自适应压力器发现保持效用的攻击。在 AgentDyn 上把攻击成功率从 50.4% 降到 3.0%，且可迁移到其他模型。",
+   "highlights_zh": [
+    "护栏与攻击器分阶段协同进化，任务模型、基准与评测器保持固定",
+    "GPT-4o-mini 上攻击成功率 50.4%→3.0%，干净与受攻击效用均提升",
+    "进化出的护栏无需再训练即可迁移到 Qwen3.5-35B-A3B，攻击成功率 32.1%→0.9%"
+   ],
+   "why_zh": "工具型智能体安全防护从手工规则转向可自动进化的护栏，是智能体落地的重要工程范式。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-18",
+   "slot": "evening",
+   "selected_at": "2026-11-18T13:54:05+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.22583.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.22583"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.22583"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.22583"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.22583"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.22583"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.22583"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-341854d4b856",
+   "kind": "article",
+   "title": "黄仁勋归期悬而未决，买GPU的人已经不敢下单",
+   "url": "https://www.leiphone.com/category/chips/WHSLCH74nrSJW6OE.html",
+   "pdf_url": "",
+   "abstract": "“现在都不敢订期货。”在深圳负责GPU采购的程麟，用一句话概括了今年的处境。 从突然辞任，到传出回归，再到本人公开表达重返意愿、董事会却在财报电话会上明确表示无意让其复职——短短五天里，围绕黄仁勋去留的消息几度反转。 多方信源此前也向雷峰网表示，黄仁勋短期内很难重新执掌英伟达。 但对于依赖英伟达GPU开展生意的中国算力服务商而言，眼下更现实的问题是：即便黄仁勋回来了，高端GPU还能不能买到？买到后又该如何变现？ 国内买英伟达GPU的渠道在收窄，海外租算力也不轻松。程麟所在团队曾尝试通过自建、投资海外机房等方式获取算力资源，但机房建设周期长达两三年。随着美国对先进GPU流转的监管趋严，部分在建项目已开始重新评估。 而他考虑的另一条路——华为昇腾950，据其了解当前订单排期已经排满，交付周期同样存在不确定性。 01 黄仁勋想做中国生意 美国却在收紧每一条路 “做生意能够赚钱，（黄仁勋）为什么不争取美国政府放松管控？”算力服务商Jason Lee直言。 但如今，黄仁勋的商业诉求，正与美国不断收紧的对华芯片管制发生正面碰撞。 自去年以来，美国国会议员先后推动四项针对先进芯片出口及流转的法案，分别涉及出口审批、芯片位置核验、盟友半导体制造设备出口管制，以及通过云服务等方式远程访问受控芯片等产品的行为监管。 目前，国会两党部分议员正推动将上述法案纳入2027财年《国防授权法案》（NDAA）的最终文本。按照当前进度，NDAA最早可能于今年12月进入院会表决阶段。 美国对先进AI芯片的监管正向设备出口后的流转环节延伸，这也是Jason判断黄仁勋离任影响有限的原因。 “无论黄仁勋是否继续担任CEO，都不会改变美国收紧对华GPU供应的方向。”Jason指出，这反映了美国对中国AI能力的担忧，背后牵扯出中美之间的科技竞争。 芯片行业分析师小杜直言，恐怕连黄仁勋本人也没有充分预料到，AI在这几年发展得如此迅速，逐渐从普通产业技术上升为与国家安全密切相关的战略能力。 不少受访者认为风险迟早会来，只是没想到黄仁勋会成为第一个被“开刀”的对象。 在小杜看来，相比英伟达，其他芯片企业原本也有动力争取中国市场，但在对华业务上表现得相对谨慎。而在黄仁勋主导下的英伟达却更加激进，甚至有些“揣着明白装糊涂”。 小杜补充：“虽然国内有不少企业参与高端GPU供卡业务，但真正掌握核心渠道和资源的团队其实就那么几个人。”这意味着如果美国有意追查，很容易就能顺藤摸瓜，查清相关利益链条。 因此黄仁勋过去在中国市场的冒进打法是否会引来进一步追责，最终还要看美国政府愿意将监管推进到哪一步。 大势之下，英伟达自身的合规管理也明显加码。 一方面，早在黄仁勋辞任前，外媒已曝出英伟达已经开始要求东南亚部分希望获得其云合作伙伴资格的客户，接入能够收集AI加速器部署位置等信息的Fleet Intelligence系统。 另一方面，日前英伟达首次在董事会下设立专门委员会，聚焦监督国家安全与芯片出口管制事务。 02 一台B300炒至2200万 灰色通道里的暴利与违约 政策层面的变化，早已引起部分算力服务商的警觉。 Jason回忆，自己从今年上半年就开始对东南亚的GPU转运渠道保持谨慎。面对一些声称能够通过马来西亚将GPU运进国内的渠道商，他的态度很明确：先把设备真正运进来，再谈后续合作。 之后马来西亚渐渐传出GPU服务器被海关查扣的消息，让他更加确定这类交易的风险。在Jason看来，美国对第三国设备流转的监管正在加强，过去一些看似可行的转运渠道，已经很难继续依赖。 但即便跨境交易的风险越来越高，仍有人愿意铤而走险。“",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-18T09:45:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/chips/WHSLCH74nrSJW6OE.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "黄仁勋归期未定，中国买家已不敢订GPU期货",
+   "summary_zh": "黄仁勋去留五天反转、董事会明确拒绝复职，但受访算力服务商认为美国对华芯片管制收紧方向不变；灰色转运渠道收窄，B300被炒至2200万元，昇腾950排期也已排满。",
+   "highlights_zh": [
+    "美国国会四项芯片法案拟并入2027财年NDAA，监管从出口延伸至设备流转与云访问",
+    "英伟达要求云伙伴接入Fleet Intelligence核验加速器位置，并设董事会国安委员会",
+    "国内采购方不敢订期货，海外自建机房周期两三年，国产替代交付同样不确定"
+   ],
+   "why_zh": "从采购一线看算力供给的真实约束，比人事八卦更能反映市场方向。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-18",
+   "slot": "evening",
+   "selected_at": "2026-11-18T13:54:05+00:00",
+   "mirror_pdf": "pdf/web-341854d4b856.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/chips/WHSLCH74nrSJW6OE.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ec48e4fd8664",
+   "kind": "article",
+   "title": "海外算力通道收窄！众智 FlagOS × 清昴智能，助力国芯高性能上线商用 Token 工厂",
+   "url": "https://www.leiphone.com/category/industrynews/ukrIJ082d0MIuodR.html",
+   "pdf_url": "",
+   "abstract": "11 月 16 日，美国商务部工业与安全局（BIS）最新出口管制政策正式落地，将限制范围从芯片实物进一步延伸至远程算力访问，旨在封堵中国企业通过海外数据中心获取先进 AI 算力的路径。 这一外部变量正在迅速传导至国内算力供给侧。对于正在兴起的“国芯 Token 工厂”而言，海外算力通道的收窄在需求侧倒逼本土算力加快承接真实业务；但在供给侧，国产推理芯片在制造与封装环节同样面临更严苛的审查。硬件供给依然紧俏，产业界不得不直面一个更迫切的工程命题：在现有的国产新卡与海量存量集群之上，如何把每一张卡榨出更高、更稳、算得平经济账的“有效 Token 产能”？ 11 月 17 日，在“国芯国模 自主生态”2026 清昴 AI 伙伴大会暨 Token 工厂年会上，北京智源人工智能研究院与清昴智能联合发布“国产 Token 工厂端到端推理优化方案”，基于众智FlagOS（开源多芯片统一AI系统软件栈）正式上线基于国产芯片的商用Token 工厂。 “剪刀差”下的算力困局：电价逻辑与生态割裂 “大模型在上半场已经证明了我们可以打造出世界级的模型。但下半场更重要的是，如何把这些模型的能力变成高质量、低成本、稳定供给的、有价值的 Token 能力。”林咏华在开场演讲中指出，随着大模型首次以“Token 产能”的形态进入一线产业衡量体系，两个现实矛盾正在凸显。 首先是模型迭代与硬件基建之间的“周期剪刀差”。如今主流大模型几乎以月甚至以周为单位更新架构，但底层算力基础设施往往两到三年才会更新换代一批。如果软件层跟不上，昂贵的硬件刚部署不久就会面临跑不动新模型的尴尬。 其次是算力成本与供应链安全。林咏华用工业时代的“电价”作比：中国制造业的竞争力很大程度上源于低电价，而电力供应的底气来自九成以上依赖本土煤炭的能源结构；推演到智能时代，行业期盼的是亲民的百万 Token 单价，而供应链安全的底气，则取决于底层算力供给能否扎根国内。 但硬件侧是按卡、按规模采购，应用侧要的却是按秒交付的 Token。正如清昴智能创始人兼 CEO 关超宇在会上所言，两者之间亟需一座高效“翻译器”，将闲置、异构、难用的国产算力组织成可计量、高可靠的标准化产能。 “无论在 CPU 时代还是 AI 芯片时代，都不可能由一款芯片包揽天下。”林咏华认为，国内并不缺少优秀的芯片厂商，真正稀缺的是能够让所有硬件共享的软硬件协同生态。李炎在随后的分享中也点破了工程团队的切身痛点：面对百花齐放的模型与芯片，产业不能每发布一个模型、每推出一款芯片就从头做一次底层适配与算子重写。 这也正是智源过去四年联合高校与芯片厂商持续推进开源 FlagOS 的初衷——用一套开放、统一、可复用的系统软件栈，让同一套算子与编译系统在不同硬件上共享优化经验。截至目前，FlagOS 生态已汇聚 21 家芯片企业与 86 家生态伙伴，覆盖 35 款 AI 芯片。其底层由通用算子库 FlagGems、训推并行框架 FlagScale、统一编译器 FlagTree 与统一通信库 FlagCX 构成，9 大算子库累计沉淀超过 1,454 个开源 Triton 算子，其中近八百个算子在至少 5 款国产芯片上达到了原生算子 80% 以上的性能。在框架层面，智源坚持不 fork 上游代码库，而是通过插件化机制零侵入接入 vLLM、SGLang、Megatron-LM 等主流社区生态，实现了单个代码仓库覆盖 20 家厂商后端，并在过去半年多次完成新模型发布当天（Day0）即同步跑通多达 12 款芯片的验证。 深入微秒级内核：众智FlagOS把国产新卡跑进",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-18T05:31:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/ukrIJ082d0MIuodR.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "智源联合清昴上线国产芯片商用Token工厂",
+   "summary_zh": "美国出口管制延伸至远程算力访问后，智源与清昴智能基于开源FlagOS发布国产芯片端到端推理优化方案，正式上线商用Token工厂。",
+   "highlights_zh": [
+    "FlagOS已汇聚21家芯片企业、覆盖35款AI芯片",
+    "沉淀超1454个开源Triton算子，近800个在5款以上国产芯片达原生80%性能",
+    "以插件化零侵入接入vLLM、SGLang等主流框架"
+   ],
+   "why_zh": "国产算力统一软件栈的关键进展，关乎推理成本与供应链安全",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-18",
+   "slot": "evening",
+   "selected_at": "2026-11-18T13:54:05+00:00",
+   "mirror_pdf": "pdf/web-ec48e4fd8664.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/ukrIJ082d0MIuodR.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d4d761f16fbf",
+   "kind": "article",
+   "title": "如何让 Agent 从“能跑起来”到“可规模化、可信赖地持续生产”？",
+   "url": "https://www.infoq.cn/video/uzyzSB9HkO1wwi5w4w9F?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "凌敏"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-18T18:24:16+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/video/uzyzSB9HkO1wwi5w4w9F?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Agent 如何从能跑起来到可规模化持续生产",
+   "summary_zh": "InfoQ 探讨 Agent 从 Demo 走向规模化生产所需的工程能力，聚焦可靠性、可观测与持续运营等落地瓶颈。",
+   "highlights_zh": [
+    "关注 Agent 生产化的工程化路径",
+    "强调可靠性与持续运营而非单点能力",
+    "面向企业落地场景的实践讨论"
+   ],
+   "why_zh": "正在把 Agent 从试点推向生产的团队，可对照检查自身工程短板。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-18",
+   "slot": "evening",
+   "selected_at": "2026-11-18T13:54:05+00:00",
+   "mirror_pdf": "pdf/web-d4d761f16fbf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/video/uzyzSB9HkO1wwi5w4w9F?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-44472c0070e0",
+   "kind": "article",
+   "title": "离开黄仁勋的第一周，英伟达单季狂揽1158亿美元",
+   "url": "https://www.tmtpost.com/8209875.html",
+   "pdf_url": "",
+   "abstract": "接下来，它要步入的，是一个治理更严苛、博弈更复杂的商业深水区。",
+   "authors": [
+    "节点AI"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-18T10:03:34+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8209875.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "英伟达单季营收1158亿美元，黄仁勋离职后进入深水区",
+   "summary_zh": "英伟达最新季度营收达1158亿美元，但黄仁勋离职后公司面临更严苛的治理与更复杂的商业博弈，增长可持续性取决于客户能否持续扩建数据中心。",
+   "highlights_zh": [
+    "单季营收1158亿美元，体量再创新高",
+    "黄仁勋离职后公司治理与战略走向存疑",
+    "增长高度依赖客户持续建设数据中心采购芯片"
+   ],
+   "why_zh": "了解AI算力龙头在关键人事变动后的经营态势与市场风险。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-18",
+   "slot": "evening",
+   "selected_at": "2026-11-18T13:54:05+00:00",
+   "mirror_pdf": "pdf/web-44472c0070e0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8209875.html"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "基准污染从后训练蔓延至预训练，模型能力评测体系面临信任危机。",
-   "why": "论文记录基座模型少样本续写直接输出隐藏测试题，HumanEval泄漏率达96%，倒逼Anti-Hack等重算方法。",
+   "trend": "编码智能体冲击IDE护城河，竞争焦点转向验证与评审环节",
+   "why": "纳德拉称Claude Code半年动摇微软二十年优势，哈佛研究指瓶颈已从写代码转向代码评审。",
+   "refs": [
+    "web-add73746b675",
+    "web-6e090bb95c89",
+    "web-069078b2b4e3"
+   ]
+  },
+  {
+   "trend": "基准污染升级至预训练层，评测方法被迫重构",
+   "why": "部分基座模型少样本续写即吐出测试题，HumanEval泄漏率达96%，倒逼Anti-Hack重算真实能力。",
    "refs": [
     "arxiv-2611.21315"
    ]
   },
   {
-   "trend": "编码智能体正改写开发者工具格局，IDE二十年护城河半年内松动。",
-   "why": "纳德拉承认Claude Code类工具冲击微软IDE优势，Claude Code团队同步公开智能体自检纠错验证机制。",
+   "trend": "推理效率成新战场，小显存与专用ASIC并行突围",
+   "why": "商汤Loop-9B以10GB显存逼近27B性能，AMD收购Taalas补强模型固化ASIC路线。",
    "refs": [
-    "web-add73746b675",
-    "web-069078b2b4e3"
-   ]
-  },
-  {
-   "trend": "大模型竞争转向效率与成本，小激活、循环复用架构成降本主线。",
-   "why": "腾讯Hy4 flash每token仅激活12B、商汤Loop-9B以10GB显存逼近27B性能，OpenAI新模型亦主打降本。",
-   "refs": [
-    "web-87242294747e",
     "web-60f535993954",
-    "web-549a77347d5e"
+    "web-1ff263cf3678"
    ]
   },
   {
-   "trend": "AI资本从模型层向推理芯片与数据基础设施上游集中。",
-   "why": "AMD连续收购World Labs与Taalas补强推理路线，LanceDB多模态湖仓营收同比增超10倍获大额融资。",
-   "refs": [
-    "web-1be7364f7a4d",
-    "web-1ff263cf3678",
-    "web-2a1bdd168094"
-   ]
-  },
-  {
-   "trend": "企业AI进入回报审视期，治理与预算约束同步收紧。",
-   "why": "李彦宏雷军警示炒作与回报差距，Gartner预警2028年25%安全漏洞源于智能体滥用，GitHub设单次10美元预算。",
+   "trend": "AI投入回报差距显性化，企业预算与组织同步收缩重构",
+   "why": "李彦宏雷军警示炒作与回报背离，企业砍预算，百度主张智能云服务对象转向智能体。",
    "refs": [
     "web-246f1a63c5a1",
-    "web-0bd884a542ab",
-    "web-2a9f3fe09fa2"
+    "web-8cf181e868aa"
+   ]
+  },
+  {
+   "trend": "世界模型从演示走向产业落地与标准化评测",
+   "why": "李沐加盟Aimotion瞄准产业级世界模型，智源推出PhysCapBench统一物理信息评测。",
+   "refs": [
+    "web-7f92bc7a9457",
+    "web-c9e3819423c0"
    ]
   }
  ]
