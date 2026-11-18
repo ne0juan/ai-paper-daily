@@ -1,11 +1,12 @@
 {
- "updated": "2026-11-17T19:44:20+00:00",
+ "updated": "2026-11-18T06:12:01+00:00",
  "days": [
   {
    "date": "2026-11-18",
-   "count": 19,
+   "count": 39,
    "slots": {
-    "morning": 19
+    "morning": 19,
+    "noon": 20
    }
   },
   {
@@ -492,34 +493,34 @@
    }
   }
  ],
- "total": 2984,
+ "total": 3004,
  "last_run": {
-  "at": "2026-11-17T19:44:20+00:00",
-  "slot": "morning",
-  "candidates": 198,
-  "new": 73,
-  "stale": 86,
-  "judged": 73,
-  "selected": 19,
-  "mirrored": 19,
+  "at": "2026-11-18T06:12:01+00:00",
+  "slot": "noon",
+  "candidates": 209,
+  "new": 134,
+  "stale": 26,
+  "judged": 100,
+  "selected": 20,
+  "mirrored": 16,
   "by_category": {
-   "资讯": 11,
    "技术": 4,
+   "资讯": 14,
    "论文": 1,
-   "观点": 3
+   "项目": 1
   },
   "by_source": {
-   "HF Daily Papers": 18,
-   "arXiv 新论文": 49,
+   "HF Daily Papers": 13,
    "Hacker News": 5,
-   "OpenAI": 16,
+   "OpenAI": 11,
    "量子位": 10,
-   "极客公园": 7,
-   "IT之家": 15,
-   "爱范儿": 7,
+   "极客公园": 8,
+   "IT之家": 13,
+   "爱范儿": 8,
    "少数派": 1,
-   "雷峰网": 15,
-   "InfoQ 中文": 9,
+   "雷峰网": 17,
+   "钛媒体": 7,
+   "InfoQ 中文": 12,
    "Simon Willison": 1,
    "Dwarkesh Patel": 1,
    "Latent Space": 3,
@@ -527,16 +528,15 @@
    "Stratechery": 2,
    "Azeem Azhar": 1,
    "Nathan Benaich": 1,
-   "Tomasz Tunguz": 2,
+   "Tomasz Tunguz": 1,
    "Zvi Mowshowitz": 2,
    "Timothy B. Lee": 1,
    "科学空间": 1,
-   "Hugging Face Blog": 1,
    "METR": 1,
-   "NVIDIA": 10,
-   "xAI": 1,
-   "GitHub Trending": 17,
-   "GitHub 新项目": 3
+   "NVIDIA": 9,
+   "arXiv 新论文": 60,
+   "GitHub Trending": 16,
+   "GitHub 新项目": 4
   },
   "llm": true,
   "translated": 0

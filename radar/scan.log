@@ -1,11 +1,11 @@
-2026-11-17 19:44:20,418 INFO source hf_daily           -> 18 items
-2026-11-17 19:44:20,688 INFO source hackernews         -> 5 items
-2026-11-17 19:44:45,093 WARNING rss 钛媒体 failed: 503 for https://www.tmtpost.com/rss.xml
-2026-11-17 19:44:57,412 INFO source rss                -> 108 items
-2026-11-17 19:44:59,244 INFO source html_lists         -> 1 items
-2026-11-17 19:44:59,244 INFO source x                  -> 0 items
-2026-11-17 19:44:59,862 INFO source arxiv_search       -> 49 items
-2026-11-17 19:45:09,418 INFO source github             -> 20 items
-2026-11-17 19:45:09,419 INFO candidates: 198 (stale dropped 86, new 73)
-2026-11-17 19:46:24,990 INFO llm judged 73/73 (calls=10)
-2026-11-17 19:49:00,757 INFO run done: {"at": "2026-11-17T19:44:20+00:00", "slot": "morning", "candidates": 198, "new": 73, "stale": 86, "judged": 73, "selected": 19, "mirrored": 19, "by_category": {"资讯": 11, "技术": 4, "论文": 1, "观点": 3}, "by_source": {"HF Daily Papers": 18, "arXiv 新论文": 49, "Hacker News": 5, "OpenAI": 16, "量子位": 10, "极客公园": 7, "IT之家": 15, "爱范儿": 7, "少数派": 1, "雷峰网": 15, "InfoQ 中文": 9, "Simon Willison": 1, "Dwarkesh Patel": 1, "Latent Space": 3, "Jack Clark": 1, "Stratechery": 2, "Azeem Azhar": 1, "Nathan Benaich": 1, "Tomasz Tunguz": 2, "Zvi Mowshowitz": 2, "Timothy B. Lee": 1, "科学空间": 1, "Hugging Face Blog": 1, "METR": 1, "NVIDIA": 10, "xAI": 1, "GitHub Trending": 17, "GitHub 新项目": 3}, "llm": true, "translated": 0}
+2026-11-18 06:12:02,127 INFO source hf_daily           -> 13 items
+2026-11-18 06:12:02,557 INFO source hackernews         -> 5 items
+2026-11-18 06:12:33,603 INFO source rss                -> 112 items
+2026-11-18 06:12:34,681 INFO source html_lists         -> 0 items
+2026-11-18 06:12:34,682 INFO source x                  -> 0 items
+2026-11-18 06:13:06,778 INFO source arxiv_search       -> 60 items
+2026-11-18 06:13:15,151 INFO source github             -> 20 items
+2026-11-18 06:13:15,153 INFO candidates: 209 (stale dropped 26, new 134)
+2026-11-18 06:15:51,449 INFO llm judged 100/100 (calls=13)
+2026-11-18 06:16:51,622 WARNING snapshot https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns: blocked or empty page
+2026-11-18 06:18:53,374 INFO run done: {"at": "2026-11-18T06:12:01+00:00", "slot": "noon", "candidates": 209, "new": 134, "stale": 26, "judged": 100, "selected": 20, "mirrored": 16, "by_category": {"技术": 4, "资讯": 14, "论文": 1, "项目": 1}, "by_source": {"HF Daily Papers": 13, "Hacker News": 5, "OpenAI": 11, "量子位": 10, "极客公园": 8, "IT之家": 13, "爱范儿": 8, "少数派": 1, "雷峰网": 17, "钛媒体": 7, "InfoQ 中文": 12, "Simon Willison": 1, "Dwarkesh Patel": 1, "Latent Space": 3, "Jack Clark": 1, "Stratechery": 2, "Azeem Azhar": 1, "Nathan Benaich": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Timothy B. Lee": 1, "科学空间": 1, "METR": 1, "NVIDIA": 9, "arXiv 新论文": 60, "GitHub Trending": 16, "GitHub 新项目": 4}, "llm": true, "translated": 0}
