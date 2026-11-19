@@ -1,6 +1,13 @@
 {
- "updated": "2026-11-19T14:18:33+00:00",
+ "updated": "2026-11-19T19:30:01+00:00",
  "days": [
+  {
+   "date": "2026-11-20",
+   "count": 19,
+   "slots": {
+    "morning": 19
+   }
+  },
   {
    "date": "2026-11-19",
    "count": 58,
@@ -503,47 +510,45 @@
    }
   }
  ],
- "total": 3083,
+ "total": 3102,
  "last_run": {
-  "at": "2026-11-19T14:18:33+00:00",
-  "slot": "evening",
+  "at": "2026-11-19T19:30:01+00:00",
+  "slot": "morning",
   "candidates": 200,
-  "new": 146,
-  "stale": 11,
-  "judged": 100,
-  "selected": 21,
-  "mirrored": 19,
+  "new": 62,
+  "stale": 93,
+  "judged": 62,
+  "selected": 19,
+  "mirrored": 16,
   "by_category": {
+   "资讯": 14,
    "技术": 4,
-   "资讯": 11,
-   "观点": 3,
-   "项目": 3
+   "项目": 1
   },
   "by_source": {
-   "HF Daily Papers": 11,
-   "arXiv 新论文": 60,
-   "Hacker News": 6,
+   "HF Daily Papers": 15,
+   "arXiv 新论文": 57,
+   "Hacker News": 9,
    "OpenAI": 8,
    "量子位": 10,
    "极客公园": 5,
    "IT之家": 19,
-   "爱范儿": 8,
+   "爱范儿": 9,
    "少数派": 1,
    "雷峰网": 12,
-   "钛媒体": 6,
+   "钛媒体": 4,
    "InfoQ 中文": 14,
-   "Simon Willison": 1,
-   "Latent Space": 3,
+   "Latent Space": 2,
    "Stratechery": 2,
    "Tomasz Tunguz": 1,
-   "Zvi Mowshowitz": 3,
-   "Timothy B. Lee": 2,
+   "Zvi Mowshowitz": 2,
+   "Timothy B. Lee": 1,
    "Dean Ball": 1,
    "Hugging Face Blog": 5,
    "Google DeepMind": 2,
-   "NVIDIA": 2,
-   "GitHub Trending": 14,
-   "GitHub 新项目": 6
+   "NVIDIA": 3,
+   "GitHub Trending": 13,
+   "GitHub 新项目": 7
   },
   "llm": true,
   "translated": 0
