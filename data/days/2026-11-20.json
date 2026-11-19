@@ -1,0 +1,1101 @@
+{
+ "date": "2026-11-20",
+ "items": [
+  {
+   "id": "web-be373132dcb8",
+   "kind": "article",
+   "title": "Claude solves two open problems in the physics of black holes",
+   "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-19T17:30:44Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50563148",
+     "signal": "164 pts",
+     "metric": 164
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Claude 解决黑洞物理两个开放问题",
+   "summary_zh": "有报告称 Claude 在黑洞物理领域解决了两个开放问题，展示大模型在理论物理推导中的潜力。",
+   "highlights_zh": [
+    "AI 参与理论物理论文级推导",
+    "科学发现场景的模型能力验证",
+    "引发对 AI 科研角色的讨论"
+   ],
+   "why_zh": "科学 AI 的标志性案例，值得关注模型在科研中的边界。",
+   "tags": [
+    "科学AI",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.5594,
+   "score_llm": 8.0,
+   "score": 0.7038,
+   "date": "2026-11-20",
+   "slot": "morning",
+   "selected_at": "2026-11-19T19:30:01+00:00",
+   "mirror_pdf": "pdf/web-be373132dcb8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.anthropic.com/research/claude-black-hole-physics"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50563148"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-83b92fea3046",
+   "kind": "article",
+   "title": "田渊栋创业合伙人：通往 AGI 最快的路，只能是 AI 造 AI | CoRL 2026",
+   "url": "https://www.leiphone.com/category/private/wIgMWmjlB5GTKg6e.html",
+   "pdf_url": "",
+   "abstract": "Recursive 联创 Jeff Clune ：“QD、开放式、AI 生成算法，我觉得它们就是下一代伟大的 AI。” 作者丨 邓哲敏 编辑丨 齐铖湧 11 月 12 日，CoRL 2026 最后一天。主会已经结束，32 场 Workshop 密集进行，其中一场聚焦持续自进化（Continually Self-Improving），英属哥伦比亚大学教授、Uber AI Labs 创始成员 Jeff Clune 受邀来做分享。 今年 5 月，田渊栋（前 Meta FAIR 研究总监、ELF OpenGo 主导者）与其他七位联合创始人创办 Recursive Superintelligence，Jeff Clune 是其中一位。这家公司首轮融资 6.5 亿美元，投后估值 46.5 亿美元，谷歌 GV 与 Greycroft 联合领投，英伟达和 AMD 两大算力巨头同时押注。 大多数打着递归式自我改进（RSI）旗号的团队做的是后训练层面的代码自改写、prompt 自优化、agent 工作流自搜索，而 Recursive 是全球唯一在预训练阶段做 RSI 的公司 。田渊栋近期透露，他们的系统已经能自己写出高性能的 GPU Kernel——可以理解为显卡的底层计算程序，相当于直接跟硬件打交道的核心代码——在部分任务上比专业工程团队写得还好。 Jeff Clune 在自进化方面的研究，也从一开始就瞄准了最上游的模型训练环节。2019 年，他发表了一篇当时看来近乎科学幻想的论文，提出 通往 AGI 最快的路是人造出“能造 AI 的 AI” ，并命名为 AI 生成算法。路线图上有三根支柱：自己会进化的架构、自己会进化的学习算法、自动生成的训练环境。注意第三根柱子的措辞，“训练环境”，不是“推理环境”或“部署环境”。 六年过去，这张路线图正在被逐一兑现：能自己改写自己代码的达尔文哥德尔机，把 SWE-bench 从 20% 刷到了 50%；能自己出题、自己跑实验、自己写论文的 AI 科学家，投出去的稿件通过了同行评审。Jeff Clune 在演讲中更细致地梳理了自己的工作。 以下是AI科技评论（雷峰网）带来的现场演讲精编。 生活里有这样一个悖论：越是死磕难题，越容易失败；你先不管那个大目标，反而能走更远。 科学和技术史上，每一件极难的事，都有同样的性质。用火做饭的年代，你只想要做饭更快，就永远造不出微波炉。没有计算机的年代，你只资助算得更快的人，就永远得不到计算机。因为想要得到计算机，就需要有人搞电、搞真空管，这些技术根本不是奔着“算得更快”发明出来的。 所以解决难题唯一的办法， 是像基础科学家那样，去试试自己能做什么、能解什么 ，然后在目标之间切换， 根据你觉得“有可能”和“有意思”的东西，去挑新的目标。 “换目标”这个想法来自 2016 年的一篇论文。假如你是做机器人的，你想让机器人往前走，算法却开始学习爬行和单腿站立保持平衡，别把这些当成没用的小动作扔掉。它们虽然没有让机器人前进的速度明显变快，但可能是前进运动的垫脚石。我们希望算法能抓住这种“诶，这个有意思”的发现。 这就是创新引擎（innovation engines）的想法。自然的演化、文化的演化都是创新引擎，共用一套配方：存档里装着发明过的一切，把东西取出来，稍加修改和组合，如果变成了更好的版本，就把这个更好的放回存档里。 今天给你们讲三类算法，都在试着 复现这种创新的力量 ：质量多样性（QD）算法、开放式算法、AI 生成算法。 QD 不追求唯一最优解，而是满世界地问：这个问题，我到底能有哪些截然不同",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-19T10:09:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/private/wIgMWmjlB5GTKg6e.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "田渊栋合伙人：通往AGI最快的路是AI造AI",
+   "summary_zh": "Recursive联创Jeff Clune在CoRL 2026演讲中提出，AGI最快路径是让AI自动生成算法与训练环境，其团队是全球唯一在预训练阶段做递归自我改进的公司，系统已能自写高性能GPU Kernel。",
+   "highlights_zh": [
+    "Recursive首轮融资6.5亿美元，估值46.5亿美元，英伟达与AMD同时押注",
+    "路线图三支柱：自进化架构、自进化学习算法、自动生成训练环境",
+    "达尔文哥德尔机将SWE-bench从20%刷到50%，AI科学家论文通过同行评审"
+   ],
+   "why_zh": "重量级研究者对AGI路线的明确判断，且已有可验证成果，值得关注方向。",
+   "tags": [
+    "强化学习",
+    "大模型",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 9.0,
+   "score": 0.692,
+   "date": "2026-11-20",
+   "slot": "morning",
+   "selected_at": "2026-11-19T19:30:01+00:00",
+   "mirror_pdf": "pdf/web-83b92fea3046.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/private/wIgMWmjlB5GTKg6e.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b5d53d2b7f78",
+   "kind": "article",
+   "title": "Anthropic 完成史上最大规模 IPO，上市估值达 1.5 万亿美元",
+   "url": "https://www.ithome.com/1/029/708.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 19 日消息，北京时间今天（19 日）深夜，AI 初创企业 Anthropic 正式登陆美股，以 813 亿美元 （IT之家注：现汇率约合 5,431.47 亿元人民币） 的募资额创下 IPO 历史纪录。 公司 CEO 达里奥 · 阿莫代伊在纳斯达克敲响开市钟。“今天的上市让公司的财务基础更加稳固，也让我们更加坚定了 做正确事情 的决心。” Anthropic 的发行价定为 每股 83 美元 （现汇率约合 554.5 元人民币） ，高于上周公布的预期区间，完全稀释后市值达到 1.5 万亿美元 （现汇率约合 10.02 万亿元人民币） 。 彭博社和路透社报道称，预计正式开盘后，Anthropic 股价还将上涨约 20%，达到每股 100 美元 （现汇率约合 668.1 元人民币） 左右。 当地时间 18 日，Anthropic 还宣布向承销商出售 9.8 亿股股票，扩大后的发行规模使募资总额达到 813 亿美元 （现汇率约合 5,431.47 亿元人民币） ，打破 SpaceX 今年 6 月 IPO 募资 750 亿美元 （现汇率约合 5,010.58 亿元人民币） 的纪录。 Anthropic 成立于 2021 年，仅用了五年左右的时间，便有望跻身全球市值最高的上市公司之列。 Anthropic 是 首家上市的前沿 AI 研发机构 ，其股价表现将成为观察数万亿美元 AI 投资热潮的重要风向标。华尔街投资者和全球科技行业都在密切关注公司上市后的表现。 Anthropic 于 10 月底提交的招股书显示，公司成立以来每年营收都呈爆发式增长，部分年份增幅甚至超过 1000%。2026 年上半年，Anthropic 营收达到 162 亿美元 （现汇率约合 1,082.29 亿元人民币） ，远高于 2025 年全年的 46 亿美元 （现汇率约合 307.32 亿元人民币） 。 但 Anthropic 也付出了巨大的财务代价。公司 2026 年上半年亏损 800 亿美元 （现汇率约合 5,344.62 亿元人民币） ，主要源于一笔一次性费用，前九个月累计亏损进一步扩大至 1,040 亿美元 （现汇率约合 6,948.01 亿元人民币） 。 随着 Anthropic 不断扩大算力资源投入，成本预计还会大幅攀升。算力主要由通常部署在数据中心的半导体芯片提供，是运行生成式 AI 的基础，也是 Anthropic 最大的支出项目 。2026 年前九个月，公司在算力方面花费约 188 亿美元 （现汇率约合 1,255.99 亿元人民币） 。 Anthropic 高管在招股书中写道：“开发前沿 AI 模型需要投入大量算力、资金和人力，开展可能持续数周甚至数月的大规模训练，每次训练的费用可能高达数百万美元。” Anthropic 还在招股文件中详细披露了 旗下 AI 模型可能给人类带来的各种风险 ，包括被用于开发生物武器，或加剧世界各地的压迫行为。此前，员工曾担忧部分企业以不负责任的方式开发先进 AI 模型，阿莫代伊随后呼吁放缓最先进 AI 模型的研发速度。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-19T15:50:53+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/029/708.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic完成史上最大IPO，估值1.5万亿美元",
+   "summary_zh": "Anthropic登陆美股，募资813亿美元创IPO纪录，完全稀释市值达1.5万亿美元，成为首家上市的前沿AI研发机构，其股价将成AI投资热潮风向标。",
+   "highlights_zh": [
+    "募资813亿美元打破SpaceX纪录，市值1.5万亿美元",
+    "2026上半年营收162亿美元，但同期亏损800亿美元",
+    "前九个月算力支出约188亿美元，为最大成本项"
+   ],
+   "why_zh": "首家前沿AI公司上市，是判断数万亿美元AI投资泡沫与前景的关键信号。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 9.0,
+   "score": 0.676,
+   "date": "2026-11-20",
+   "slot": "morning",
+   "selected_at": "2026-11-19T19:30:01+00:00",
+   "mirror_pdf": "pdf/web-b5d53d2b7f78.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/029/708.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ba05f6db61a4",
+   "kind": "article",
+   "title": "LLM assisted reverse engineering",
+   "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-18T22:29:13Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50553225",
+     "signal": "293 pts",
+     "metric": 293
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "用 LLM 辅助逆向工程",
+   "summary_zh": "作者分享借助大模型完成二进制逆向的实践，展示 LLM 在反汇编理解与漏洞分析中的可用性。",
+   "highlights_zh": [
+    "LLM 辅助反汇编与代码理解",
+    "实际逆向案例演示",
+    "对安全研究流程的改造"
+   ],
+   "why_zh": "展示 LLM 在安全逆向中的真实落地方式，值得安全与工程读者参考。",
+   "tags": [
+    "代码",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5865,
+   "score_llm": 7.0,
+   "score": 0.6546,
+   "date": "2026-11-20",
+   "slot": "morning",
+   "selected_at": "2026-11-19T19:30:01+00:00",
+   "mirror_pdf": "pdf/web-ba05f6db61a4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50553225"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9491587c1875",
+   "kind": "article",
+   "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
+   "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-19T00:29:45Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50554374",
+     "signal": "248 pts",
+     "metric": 248
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Gemini 4 Neon 被视为 Opus 5.5 的对手",
+   "summary_zh": "社区讨论认为 Gemini 4 Neon 在能力上已可与 Opus 5.5 正面竞争，反映头部模型差距收窄。",
+   "highlights_zh": [
+    "新一代 Gemini 模型定位",
+    "与 Opus 5.5 的对比",
+    "头部模型竞争格局变化"
+   ],
+   "why_zh": "帮助判断前沿模型竞争态势与选型方向。",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.5787,
+   "score_llm": 7.0,
+   "score": 0.6515,
+   "date": "2026-11-20",
+   "slot": "morning",
+   "selected_at": "2026-11-19T19:30:01+00:00",
+   "mirror_pdf": "pdf/web-9491587c1875.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50554374"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6687f7be62c3",
+   "kind": "article",
+   "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+   "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+   "pdf_url": "",
+   "abstract": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-11-19T08:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 如何用 Codex 打造性能工厂，让 ChatGPT 保持高速",
+   "summary_zh": "OpenAI 披露内部「性能工厂」：用 Codex 驱动的自动化工作流持续定位并修复 ChatGPT 性能问题，把性能优化从人工排查变成流水线。",
+   "highlights_zh": [
+    "Codex 驱动的自动化工作流用于发现并修复性能瓶颈",
+    "把性能优化工程化、流水线化，而非依赖人工排查",
+    "官方视角展示大模型产品背后的工程体系"
+   ],
+   "why_zh": "了解头部公司如何用自家代码模型反哺自身基础设施，对做 AI 工程化团队有参考价值。",
+   "tags": [
+    "代码",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 7.0,
+   "score": 0.636,
+   "date": "2026-11-20",
+   "slot": "morning",
+   "selected_at": "2026-11-19T19:30:01+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c3208c8e6ec1",
+   "kind": "article",
+   "title": "Google 杀入 Jev 核心赛道：Gemini Decision 1 五项基准领先两项落后",
+   "url": "https://www.leiphone.com/category/ai/wctgzdX4CN2RVxCm.html",
+   "pdf_url": "",
+   "abstract": "Jev 拿下的 75 亿美元估值曾被质疑是一场泡沫。现在 Google 用一款多模态决策模型告诉市场：这不是泡沫，是赛道。 作者丨郑佳美 编辑丨岑 峰 谷歌正式入场了。 刚刚，谷歌发布 Gemini Decision 1，正式向 两个月前引爆决策模型品类的 TypeSafe Jev发起挑战。 和 Jev 一样，这款模型不生成任何文本，只计算供程序直接驱动 Agent 执行的候选项概率和置信度，不需要逐 Token 生成答案，连输出 Token 费用也省了。 更大的突破出现在并行计算上。Gemini Decision 1 可以在同一份上下文中处理至多 1000 项独立判断，而且支持文本、图像、音频、视频和 PDF 混合输入。对于需要反复检查文档、选择工具、评估任务状态的 Agent，大量原本分散在不同模型调用中的判断，现在可以集中在一轮请求中完成。 在数据上，7 项双方均有报告的共享基准中，Gemini Decision 1 赢下 5 项，Jev 在 When2Call 工具调用和 Mind2Web 多模态上仍保持优势（82.0% vs 79.9%，86.8% vs 86.2%）。 不过，Gemini 每 100 万输入 Token 收费 0.10 美元，是 Jev 的约 2.38 倍。性能上去了，价格也更贵了，谷歌显然想用更强的多模态能力和批量决策能力打开市场。 Jev 在 9 月发布后数周内拿下 75 亿美元估值，a16z 领投 8.7 亿美元，约三分之一财富 500 强被列为客户。但质疑从未消散：厂商自报的“快 193 倍、便宜 445 倍”缺乏第三方复现，原创性争议尚未定论，独立评测指向同一个结论：快和便宜是真的，质量是另一回事。雷峰网 Google 此时入场，至少证明了一件事：决策模型不是一场闹剧，而是一个值得巨头押注的品类。 01 模型怎样跳过文本生成完成决策 普通 LLM 处理“从四个工具里选一个”这类任务时，仍然走自回归解码：逐 Token 生成工具名或 JSON，程序再解析执行。模型承担的是开放式文本生成，业务需要的却是有限候选项中的概率判断。 Gemini Decision 1 把输出目标改成了候选项评分。开发者提前定义问题、候选集合和判断标准，模型读取输入后，直接返回各候选项的概率分布。整个过程通过单次前向计算完成，不需要逐 Token 生成答案，也没有输出 Token 费用。 这和普通的 Structured Output 有明显区别。Structured Output 仍然让模型生成文本，只是通过 Schema 限定 JSON 的字段和格式，Gemini Decision 1 则直接围绕有限候选空间完成评分，返回结果本身就是程序可以读取的数据。 这里有一个容易被忽略的细节：不同判断类型返回的概率含义并不相同。Noul 处理二元判断，返回某个条件成立的概率，范围为 0.01—0.99。如果问题本身存在歧义，开发者还可以分别定义什么情况算 Yes、什么情况算 No，减少判断标准不清晰带来的偏差。 Choice 处理多分类问题，支持 2—255 个候选项，返回胜出选项以及各候选项的归一化概率，所有候选项概率之和为 1。它适合工具路由、模型选择和任务分类。 不过，这种概率分配始终发生在给定的候选集合内，即使所有选项都不符合输入，模型仍会选出一个相对匹配的结果。因此，开发者需要提供 Other 选项，或者额外设置范围检查。 Score 的设计更有意思。它并不简单返回一个等级，而是先给有序评分标准中的每个等级分配概率，再计算加权评分。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-19T09:08:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/wctgzdX4CN2RVxCm.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Google发布Gemini Decision 1，杀入决策模型赛道",
+   "summary_zh": "谷歌推出不生成文本、只输出候选项概率的决策模型，单次前向可并行处理1000项判断，7项共享基准赢5项，但价格是Jev的2.38倍。",
+   "highlights_zh": [
+    "跳过逐Token生成，直接返回候选项概率分布，无输出Token费用",
+    "支持文本、图像、音频、视频、PDF混合输入与批量判断",
+    "Jev在When2Call与Mind2Web两项仍领先，独立评测质疑其质量"
+   ],
+   "why_zh": "巨头入场验证决策模型品类，Agent基础设施方向的重要信号。",
+   "tags": [
+    "智能体",
+    "多模态",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-20",
+   "slot": "morning",
+   "selected_at": "2026-11-19T19:30:01+00:00",
+   "mirror_pdf": "pdf/web-c3208c8e6ec1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/wctgzdX4CN2RVxCm.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a80ebc29fe39",
+   "kind": "article",
+   "title": "黄仁勋「每天都在用」的 Perplexity 开始重构 Attention，把「判断」做成了一个独立模型",
+   "url": "https://www.leiphone.com/category/ai/BBB268wCIfSkzRPY.html",
+   "pdf_url": "",
+   "abstract": "Decider v1.3：63 项分类任务准确率达 91.6%，对标 Jev 成本直降 61%。 作者丨 郑佳美 编辑丨岑 峰 刚刚，黄仁勋每天都在用的「AI 导师」 Perplexity 有了新动作：正式推出 Decider v1.3，直接把 AI 系统里的判断能力单独做成了一套模型。 Perplexity 这次直接改了模型处理判断任务的方式： 同一份上下文可以同时交给多个问题使用，模型只需进行一次前向传播，就能输出各个问题的答案概率。 过去需要反复调用 LLM、生成文本、解析结果的流程，现在可以收敛到一次模型计算中。 为了让多个问题共享计算时不互相干扰，Perplexity 还重新设计了 Attention 机制，让共享状态读取全部问题，同时限制问题之间直接交换信息。v1.3 进一步加入 Locate 能力，可以根据字段描述直接定位原文跨度，将判断与文本抽取整合进同一套架构。 这套模型已经进入 Perplexity 的生产系统。在一次内部安全审查中，它单日处理了 7000 个 Agent 会话，累计读取 10 亿 token，并推动 14 项规则修复。 从技术架构来看，Decider 有三个紧密关联的设计层次：输入端如何把共享上下文与独立问题组织在一起，注意力层如何控制不同问题的信息交互，训练与输出层又如何让同一套模型兼顾分类判断和文本定位。 其中，隔离式问题注意力改变了多任务共享计算的底层方式，也是理解整个 Decider 架构的关键切口。 01 一份上下文，承载多个判断任务 Decider 的输入其实是由共享状态（State）和若干问题块（Question）组成。State 保存网页、文档或 Agent 执行记录，Question 描述具体判断目标，并列出候选答案。每个候选项映射到预定义标签 Token，例如 A、B、C，特殊的 <|marker|> Token 则标记答案读取位置。 模型处理时，会提取 Marker 对应位置的隐藏状态，交给决策头计算各候选项的分数，再转换为概率分布。 这里的决策头由基础模型原有的语言模型输出层改造而来：Perplexity 保留 A、B、C 等候选标签对应的权重行，移除其余词表输出权重，再针对决策任务进行训练。原本用于计算下一个 Token 概率的输出层，由此转为专门处理选项判断。 这个设计让任务定义与输出计算分离。调用方可以通过自然语言描述问题，通过选项限定答案空间，模型则负责根据上下文计算各选项的概率。 情感分析、自然语言推理、意图检测、实体匹配、内容审核、事实核查和评分，可以采用同一套输入协议，不需要为每种任务单独建立一套模型结构。 Perplexity 将数百个公开数据集转换为 State、Question、选项和目标组成的统一训练格式。训练目标既可以是正确标签，也可以是完整的答案概率分布。对于同一段长文本需要执行多项判断的情况，多个 Question 可以放进同一次前向传播，模型只需处理一份共享上下文。 不过计算收益需要准确理解：增加问题仍然会增加 Question Token 和注意力计算，Decider 节省的主要是长文本被重复编码的开销，以及生成式模型逐 Token 解码和外部解析的成本。问题数量越多、共享文本越长，复用价值越明显。 输出概率还保留了业务策略的调整空间。模型负责给出候选项的概率分布，应用根据误报、漏报的业务代价设置阈值。网页过滤和 Agent 执行审查可以使用不同门槛，无需为每种业务重新训练决策模型。 02 多任务如何共享信息，互不干扰 输入协议确定后，新的问题落在模型内",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-19T09:04:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/BBB268wCIfSkzRPY.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Perplexity重构Attention，把判断做成独立模型",
+   "summary_zh": "Perplexity推出Decider v1.3，将判断能力从生成模型中剥离，通过隔离式问题注意力让一份上下文单次前向回答多个问题，63项分类任务准确率91.6%，成本比Jev低61%。",
+   "highlights_zh": [
+    "共享State加多个Question块，一次前向传播输出各问题答案概率",
+    "重设计Attention：共享状态读取全部问题，但限制问题间直接交换信息",
+    "已进入生产系统，单日处理7000个Agent会话、10亿token"
+   ],
+   "why_zh": "判断与生成解耦是Agent架构的重要演进，且已有生产验证。",
+   "tags": [
+    "智能体",
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-20",
+   "slot": "morning",
+   "selected_at": "2026-11-19T19:30:01+00:00",
+   "mirror_pdf": "pdf/web-a80ebc29fe39.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/BBB268wCIfSkzRPY.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.24924",
+   "kind": "paper",
+   "title": "Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
+   "url": "https://arxiv.org/abs/2611.24924",
+   "pdf_url": "https://arxiv.org/pdf/2611.24924",
+   "abstract": "Real-world harness engineering is driven by explicit and implicit user requirements, which guide development and validation. However, existing harness evolution methods often overlook implicit requirements and interaction needs, while using a single evolution agent to modify the harness and benchmark scores to select changes. This process often produces narrow patches and leads to benchmark-specific local optima. We introduce Agentic Harness Engineering Beta (AHE-Beta), a requirement-centered loop that brings real-world engineering practices into harness evolution. The loop consists of three steps: (1) User-driven evaluation lets simulated users raise their requirements as issues while they work with the harness over multiple turns. (2) Team-based modification implements those requirements as generalizable changes rather than task-specific patches. (3) Requirement-driven selection merges a change only when it resolves a verified requirement and passes review. Empirically, on held-out tasks, AHE-Beta raises pass@1 from 21.9% to 33.3% while using 40.8% fewer tokens than Base Harness, and achieves higher pass@1 than Claude Code, Meta-Harness, and AHE. In a blind human A/B test, real users prefer AHE-Beta in 31 of 48 valid pairs and rate it higher on all five dimensions, matching the directional preference of the user simulator. The human A/B results show that AHE-Beta achieves its goal of aligning harness evolution with real-world user requirements. Without further evolution, the gains transfer to GLM-5.3 and DeepSeek-V4.1-Flash with pass@1 improvements of 15.8% and 5.3% over Base Harness. Together, these results show that requirement-centered harness evolution is a more general method for improving agent capabilities.",
+   "authors": [
+    "Jiahang Lin",
+    "Jiahao Chen",
+    "Yiding Wang",
+    "Shichun Liu",
+    "Chengjun Pan",
+    "Shihan Dou",
+    "Honglin Guo",
+    "Yuyang Hu",
+    "Changhao Jiang",
+    "Zhenhua Han",
+    "Hang Yan",
+    "Qi Zhang",
+    "Tao Gui",
+    "Xuanjing Huang"
+   ],
+   "orgs": [],
+   "published": "2026-11-18T18:52:13Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.24924",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AHE-Beta：以需求为中心的智能体脚手架进化",
+   "summary_zh": "提出以用户需求驱动的脚手架进化闭环：模拟用户提需求、团队式修改、需求驱动筛选。在留出任务上pass@1从21.9%升至33.3%，token少用40.8%，优于Claude Code等。",
+   "highlights_zh": [
+    "用模拟用户多轮交互提出显性与隐性需求，弥补现有方法忽视隐性需求的缺陷",
+    "团队式修改产出可泛化改动，避免单一进化智能体产生的窄补丁与基准过拟合",
+    "盲测中真实用户在48对里31对偏好AHE-Beta，五个维度评分均更高"
+   ],
+   "why_zh": "智能体脚手架自动进化的新范式，对做agent harness设计的团队有直接参考价值。",
+   "tags": [
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-20",
+   "slot": "morning",
+   "selected_at": "2026-11-19T19:30:01+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.24924.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.24924"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.24924"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.24924"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.24924"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.24924"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.24924"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a474bacb5577",
+   "kind": "article",
+   "title": "Sam Altman罕见发声：我不担心Anthropic先上市，市场上不缺投资者",
+   "url": "https://www.infoq.cn/article/Mf3Zbm9JF3RWbkvjMKYZ?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "褚杏娟"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-19T22:57:55+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/Mf3Zbm9JF3RWbkvjMKYZ?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "奥特曼：不担心Anthropic抢先上市，市场不缺投资者",
+   "summary_zh": "Sam Altman 罕见回应 Anthropic 上市节奏，称不担心被抢先，并强调市场对头部 AI 公司的投资需求充足，反映其对 OpenAI 融资与竞争位置的信心。",
+   "highlights_zh": [
+    "Altman 明确表示不担心 Anthropic 先上市",
+    "称市场上不缺愿意投资头部 AI 公司的资金",
+    "透露 OpenAI 对竞争与资本节奏的判断"
+   ],
+   "why_zh": "头部公司掌门人对上市与资本市场的直接表态，是判断 AI 融资环境的风向标。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-20",
+   "slot": "morning",
+   "selected_at": "2026-11-19T19:30:01+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/Mf3Zbm9JF3RWbkvjMKYZ?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6c2d26da863e",
+   "kind": "article",
+   "title": "Bug0 发布 QA Agent，利用缓存的 Playwright 回放实现回归测试自动化",
+   "url": "https://www.infoq.cn/article/eO0w7sdaGClvppFqwt5j?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "Bruno Couriol"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-19T11:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/eO0w7sdaGClvppFqwt5j?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Bug0 发布 QA Agent：缓存 Playwright 回放实现回归测试自动化",
+   "summary_zh": "Bug0 推出 QA Agent，通过缓存 Playwright 操作回放来执行回归测试，减少重复跑测成本，面向 Web 应用的自动化测试场景。",
+   "highlights_zh": [
+    "以缓存回放替代每次全量重跑，降低回归测试开销",
+    "基于 Playwright 生态，接入现有 Web 测试链路成本较低",
+    "体现智能体在软件测试/QA 环节的落地路径"
+   ],
+   "why_zh": "关注智能体在工程效能落地的读者可看其缓存回放思路。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-20",
+   "slot": "morning",
+   "selected_at": "2026-11-19T19:30:01+00:00",
+   "mirror_pdf": "pdf/web-6c2d26da863e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/eO0w7sdaGClvppFqwt5j?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-62cfadbd8ba9",
+   "kind": "article",
+   "title": "Banks Are Turning AI Compute Bills Into Working Capital",
+   "url": "https://www.tmtpost.com/8211189.html",
+   "pdf_url": "",
+   "abstract": "Chinese lenders have begun packaging model usage, cloud contracts, and orders into small business loans. The products fill a gap equity markets leave open: AI firms burn cash on tokens from day one, own little collateral, and need revolving funds more than permanent dilution.",
+   "authors": [
+    "Chelsea_Sun"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-19T09:18:06+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8211189.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "中国银行将AI算力账单打包成小企业贷款",
+   "summary_zh": "中国贷款机构开始把模型使用费、云合同和订单打包成小企业贷款，填补AI公司烧钱买token、缺抵押物、更需周转资金而非股权稀释的融资缺口。",
+   "highlights_zh": [
+    "AI公司从第一天起就在token上烧钱，缺乏抵押物",
+    "贷款产品填补股权市场留下的空白",
+    "反映AI算力支出正被金融化、资本化"
+   ],
+   "why_zh": "揭示AI算力成本如何被金融产品吸收，是观察AI商业模式与资本流向的新视角。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-20",
+   "slot": "morning",
+   "selected_at": "2026-11-19T19:30:01+00:00",
+   "mirror_pdf": "pdf/web-62cfadbd8ba9.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8211189.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-178e4522e0ed",
+   "kind": "article",
+   "title": "吴泳铭：阿里“2032 年全球数据中心规模超 20GW”目标或下调",
+   "url": "https://www.ithome.com/1/029/702.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 19 日消息，据蓝鲸新闻报道，在阿里巴巴今天（19 日）召开的 2027 财年第二季度业绩电话会上，阿里巴巴集团 CEO 吴泳铭表示，全球各个区域的算力政策出现了非常大的变化，将对阿里云的数据中心建设产生影响。 吴泳铭透露，根据目前的初步评估，阿里此前制定的到 2032 年全球数据中心规模 超过 20GW 的目标有可能下调 ，资本开支可能有一定程度降低。 同时，阿里将在国产算力及相关供应链上投入更积极，推进整体计划。基于平头哥的算力供应链持续放量节奏，2027 年和 2028 年上半年将是阿里最大的一个持续投资阶段。吴泳铭另表示，对于长期的现金流规划非常有信心。 据IT之家此前报道，吴泳铭表示， 2027 年和 2028 年，将是中国算力最紧缺的两年 。2027 年以后，阿里云的芯片供给都会以国产平头哥芯片为主，同时也会采购其他国产芯片来支持内部的推理需求。 相关阅读： 《 阿里巴巴 CEO 吴泳铭：2027、2028 年将是中国算力最紧缺的两年 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-19T15:03:58+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/029/702.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "吴泳铭：阿里2032年20GW数据中心目标或下调",
+   "summary_zh": "阿里CEO吴泳铭称全球算力政策变化大，2032年超20GW数据中心目标可能下调、资本开支或降低，同时加大国产平头哥芯片投入，2027-2028为最大投资期。",
+   "highlights_zh": [
+    "2032年20GW目标或下调，资本开支可能降低",
+    "将更积极投入国产算力与平头哥供应链",
+    "2027、2028年将是中国算力最紧缺的两年"
+   ],
+   "why_zh": "头部云厂商算力战略转向，直接影响国产芯片与AI基础设施供应链判断。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-20",
+   "slot": "morning",
+   "selected_at": "2026-11-19T19:30:01+00:00",
+   "mirror_pdf": "pdf/web-178e4522e0ed.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/029/702.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f9d18bd33ce7",
+   "kind": "article",
+   "title": "微软官方 PyPI 包 Agent Framework 遭劫持，攻击者植入窃取登录凭据的恶意软件",
+   "url": "https://www.ithome.com/1/029/700.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 19 日消息，据科技媒体 TechRadar 今天报道，微软官方在 PyPI 发布的 Agent Framework 软件包遭黑客劫持，攻击者将其植入窃取登录凭据和云平台令牌的恶意软件。但幸运的是， 被植入恶意软件的版本仅存在 31 分钟就被删除 。 IT之家了解到，微软 Agent Framework Python 是一款开源工具包，每月下载量已接近 20 万次，可帮助开发者构建 AI 智能体，使其能够调用工具、遵循指令、与其他智能体交互，并执行更加复杂的任务。 11 月 17 日，黑客将 Agent Framework 劫持并发布 1.26.1 版本，其中的恶意软件会在 Python 启动时自动执行，即使运行环境并未导入 Agent Framework 软件包也不例外。 同时，该软件包旨在窃取 Azure、AWS、GitHub、Docker、Hugging Face、OpenAI 等服务的登录凭据，并获取本地配置文件和其他进程的信息。 PyPI 仅用 31 分钟就发现了此次入侵，并隔离了恶意版本。但两分钟以后，第二次攻击（1.26.2）接踵而至。新软件增加了 GitHub Actions OIDC 令牌请求功能，还能够自动搜索 GitHub Runner 目录，只不过发布 8 分钟后就被清除。 目前，我们尚不清楚此次攻击是否导致开发者信息泄露。如果您曾下载过 1.26.1 或 1.26.2，请立即删除，并仔细检查系统是否存在可疑文件、撤销现有登录凭据、检查 Azure 或 AWS 等服务是否存在未授权访问。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-19T14:47:41+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/029/700.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "微软Agent Framework PyPI包遭劫持植入窃密恶意软件",
+   "summary_zh": "微软官方PyPI包Agent Framework被劫持，1.26.1版本植入窃取Azure、AWS、GitHub等凭据的恶意软件，31分钟后被隔离，随后又出现第二次攻击。",
+   "highlights_zh": [
+    "恶意版本仅存活31分钟，第二次攻击8分钟后被清除",
+    "窃取云平台令牌与本地配置信息",
+    "下载过1.26.1/1.26.2需立即删除并撤销凭据"
+   ],
+   "why_zh": "AI智能体工具链供应链安全警示，开发者需核查依赖与凭据。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-20",
+   "slot": "morning",
+   "selected_at": "2026-11-19T19:30:01+00:00",
+   "mirror_pdf": "pdf/web-f9d18bd33ce7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/029/700.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-98f1392ef0e7",
+   "kind": "article",
+   "title": "谷歌与蓝色起源合作，计划 2029 年发射 AI 服务器卫星",
+   "url": "https://www.ithome.com/1/029/695.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 19 日消息，谷歌与蓝色起源（Blue Origin）今天达成合作，计划将 AI 服务器卫星送上太空。 IT之家了解到，蓝色起源的新格伦火箭将于 2029 年第一季度，发射带有谷歌 TPU（张量处理单元）的卫星，算力大致相当于一整个数据中心机架。此次合作是谷歌“太阳捕手计划”的一部分，旨在探索太空 AI 数据中心的可能性。 今年 10 月，谷歌已部署了首颗 AI 服务器卫星，并成功启动了卫星搭载的 TPU。这颗卫星上运行的 Gemma 4 模型生成了一段俳句，并成功将其传回地球。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-19T14:26:06+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/029/695.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌联手蓝色起源，2029年发射AI服务器卫星",
+   "summary_zh": "谷歌与蓝色起源合作，计划2029年Q1用新格伦火箭发射搭载TPU的AI服务器卫星，算力约相当于一个数据中心机架，属“太阳捕手计划”探索太空AI数据中心。",
+   "highlights_zh": [
+    "2029年发射带TPU的AI服务器卫星",
+    "单星算力约等于一个数据中心机架",
+    "此前已部署首颗卫星并运行Gemma 4模型"
+   ],
+   "why_zh": "太空算力是AI基础设施的前沿方向，值得关注其可行性与成本。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-20",
+   "slot": "morning",
+   "selected_at": "2026-11-19T19:30:01+00:00",
+   "mirror_pdf": "pdf/web-98f1392ef0e7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/029/695.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-361f2a03dd1d",
+   "kind": "article",
+   "title": "诺亦腾机器人入选 The Information 2026 全球最具潜力50家初创企业榜单",
+   "url": "https://www.leiphone.com/category/ai/AfdiA9NBN3TJrgDL.html",
+   "pdf_url": "",
+   "abstract": "核心要点（Key Facts） · 在 The Information 于 11 月 11 日发布的“2026 全球最具潜力 50 家初创企业”榜单中，诺亦腾机器人（Noitom Robotics）位列亚洲分区第一。 · 根据榜单披露，诺亦腾机器人目前估值已超 5 亿美元，累计股权融资逾 5000 万美元，年营收突破 1000 万美元。 · 诺亦腾机器人致力于生产供机器人学习的人类数据。公司在中国深圳和美国加州山景城设有数据工厂，并已与物理 AI（Physical AI）领域的近百家企业展开合作。 新加坡，2026年11月18日 —— 全球知名科技商业媒体 The Information 近日正式发布\"The 50 Most Promising Startups 2026\"榜单（全球最具潜力50家初创企业）。物理 AI 数据公司诺亦腾机器人（Noitom Robotics）在亚洲顶尖初创企业榜单（Top Asia Startups）中名列第一。 Fig 1. The Information 2026 全球最具潜力50家初创企业榜单 榜单数据显示，诺亦腾机器人当前估值已超5亿美元，股权融资总额超5000万美元，营收超1000万美元。 The Information 创办于2013年，重点覆盖科技、人工智能与金融，面向全球60多个国家的商业领袖与专业读者提供原创独家报道和深度分析。The Information 50 榜单旨在发掘各细分赛道中最具龙头潜力的早期初创企业，围绕营收规模、商业模式及增长前景进行严格评估，相关财务数据由记者直接向创始人和投资人采集。 诺亦腾机器人创始人兼CEO戴若犁博士表示： \"The Information 依据营收和增长表现对初创企业进行排名。去年，机器人研发团队对人类动作数据的需求还在千小时量级；今年，这一需求已跃升至数十万小时。同时对这些团队而言，另一个至关重要的问题是：具身模型能否真正从这些数据中学到东西。我们很高兴诺亦腾机器人能够获得 The Information 的认可。此次入选，也印证了解决'数据规模'与'数据可学习性'这两大痛点的巨大商业价值。\" 不造机器人，专注生产机器人学习的\"数据\" 诺亦腾机器人并不制造机器人。公司专注于生产驱动机器人进化的高质量训练数据——通过自建数据工厂与广泛的线下合作场景，系统化采集人类动作、物体交互及日常行为数据，并通过旗下数据平台 ModalityNet（modalitynet.com），向全球机器人本体厂商与 AI 开发者提供标准化的多模态数据集。 2025年正式分拆成立后，诺亦腾机器人凭借团队长达13年的动作捕捉技术积淀，快速构建起全球化的数据产能与服务网络。目前公司规模已超百人，在深圳和美国加州山景城（Mountain View）设有数据工厂，在台北和吉隆坡设有数据采集中心，正积极向全球其他地区拓展。截至目前，公司已与物理 AI 领域近百家企业及研发机构达成深度合作。 过去一年融资、产品及研发里程碑不断 此次入围 The Information 50，源于过去一年间公司在融资、产品及研发领域接连达成的一系列里程碑成果： 2025年11月 — 公司完成由阿尔法公社领投，经纬创投（MPCi）、英诺天使基金等机构跟投的 Pre-A 轮融资。 2025年12月 — 公司完成由启明创投领投，阿尔法公社、经纬创投、五源资本等跟投的 Pre-A+ 轮融资。 2026年6月 — 诺亦腾机器人正式发布数据平台 ModalityNet，三大旗舰数据集产品同步上线。同期宣布完成数亿元人民币",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-19T09:07:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/ai/AfdiA9NBN3TJrgDL.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "诺亦腾机器人登The Information潜力榜亚洲第一",
+   "summary_zh": "机器人训练数据公司诺亦腾入选The Information 2026潜力50强亚洲第一，估值超5亿美元，年营收破1000万美元，已与近百家物理AI企业合作。",
+   "highlights_zh": [
+    "专注生产人类动作与交互数据，不造机器人本体",
+    "深圳与山景城设数据工厂，台北、吉隆坡设采集中心",
+    "创始人称机器人团队数据需求从千小时跃升至数十万小时"
+   ],
+   "why_zh": "具身智能数据供给侧的规模信号，但本质是榜单与融资通稿。",
+   "tags": [
+    "机器人",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-20",
+   "slot": "morning",
+   "selected_at": "2026-11-19T19:30:01+00:00",
+   "mirror_pdf": "pdf/web-361f2a03dd1d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/ai/AfdiA9NBN3TJrgDL.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c2b01ac00dcd",
+   "kind": "article",
+   "title": "模型刚接进业务，CEO又要换新：红帽如何接住企业AI落地难题？",
+   "url": "https://www.infoq.cn/article/6xqcZfMgJ99ZQiGFbjym?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "褚杏娟"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-19T18:05:40+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/6xqcZfMgJ99ZQiGFbjym?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "模型刚接入业务，CEO又要换新：红帽如何解企业AI落地难题",
+   "summary_zh": "文章以企业频繁更换模型为切入点，介绍红帽如何通过平台化与开源工具链帮助企业应对模型迭代、降低 AI 落地中的集成与运维成本。",
+   "highlights_zh": [
+    "企业 AI 落地面临模型快速迭代的困扰",
+    "红帽以平台层抽象降低换模型成本",
+    "开源工具链在企业集成中的角色"
+   ],
+   "why_zh": "企业侧 AI 基础设施与模型切换成本的实务视角，适合做落地的读者。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-20",
+   "slot": "morning",
+   "selected_at": "2026-11-19T19:30:01+00:00",
+   "mirror_pdf": "pdf/web-c2b01ac00dcd.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/6xqcZfMgJ99ZQiGFbjym?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-fd4fa45ef30d",
+   "kind": "article",
+   "title": "从可用到好用：Agent 的观测、评估与持续优化｜AICon北京",
+   "url": "https://www.infoq.cn/article/u8eHrtbbchlNRkP94ALh?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "AICon 全球人工智能开发与应用大会"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-19T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/u8eHrtbbchlNRkP94ALh?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "从可用到好用：Agent 的观测、评估与持续优化",
+   "summary_zh": "AICon 北京场议题，聚焦 Agent 上线后的可观测性、效果评估与持续优化方法，指向智能体从 Demo 走向生产的关键工程问题。",
+   "highlights_zh": [
+    "议题围绕 Agent 的观测、评估、迭代闭环",
+    "对应企业智能体落地中最缺的工程环节",
+    "属大会演讲预告，信息增量有限"
+   ],
+   "why_zh": "做 Agent 上生产的团队可关注其评估与观测框架。",
+   "tags": [
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-20",
+   "slot": "morning",
+   "selected_at": "2026-11-19T19:30:01+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/u8eHrtbbchlNRkP94ALh?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b3a0c374b629",
+   "kind": "article",
+   "title": "Bodila51/gtavi-claudecode",
+   "url": "https://github.com/Bodila51/gtavi-claudecode",
+   "pdf_url": "",
+   "abstract": "Claude Code plugin that turns GTA 6 streams into paid vertical clips: live campaigns, trending videos, best moments, 9:16 cuts with hooks, captions and credits.",
+   "authors": [],
+   "orgs": [
+    "Bodila51"
+   ],
+   "published": "2026-11-19T19:30:01+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/Bodila51/gtavi-claudecode",
+     "signal": "★ 679（新项目） · Python",
+     "metric": 679
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "把 GTA 6 直播切成付费竖屏切片",
+   "summary_zh": "一个 Claude Code 插件，把 GTA 6 直播流自动剪成带字幕的 9:16 短视频用于变现。",
+   "highlights_zh": [
+    "直播流自动切片",
+    "自动加钩子字幕",
+    "面向付费分发"
+   ],
+   "why_zh": "如果你在做直播切片自动化，可参考其 Claude Code 插件编排方式。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5697,
+   "score_llm": 3.0,
+   "score": 0.4079,
+   "date": "2026-11-20",
+   "slot": "morning",
+   "selected_at": "2026-11-19T19:30:01+00:00",
+   "mirror_pdf": "pdf/web-b3a0c374b629.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/Bodila51/gtavi-claudecode"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "前沿模型能力差距收窄，竞争从代际领先转向同档位贴身肉搏",
+   "why": "Gemini 4 Neon被社区视为可与Opus 5.5正面竞争，头部模型不再有明显代差。",
+   "refs": [
+    "web-9491587c1875"
+   ]
+  },
+  {
+   "trend": "判断能力正从生成模型中剥离，成为独立可并行的新模型品类",
+   "why": "谷歌Decision 1与Perplexity Decider v1.3均以单次前向并行处理多判断，成本与准确率成为新比拼点。",
+   "refs": [
+    "web-c3208c8e6ec1",
+    "web-a80ebc29fe39"
+   ]
+  },
+  {
+   "trend": "递归自我改进从理念走向工程，AI造AI成为AGI路线之争焦点",
+   "why": "Recursive称是全球唯一在预训练阶段做递归自我改进的团队，系统已能自写GPU Kernel。",
+   "refs": [
+    "web-83b92fea3046"
+   ]
+  },
+  {
+   "trend": "Agent竞争重心从Demo转向生产级评测与持续优化工程",
+   "why": "AICon议题聚焦Agent可观测性与效果评估，AHE-Beta以需求驱动脚手架进化提升pass@1。",
+   "refs": [
+    "web-fd4fa45ef30d",
+    "arxiv-2611.24924"
+   ]
+  },
+  {
+   "trend": "AI资本化与算力扩张同时进入重定价阶段",
+   "why": "Anthropic以1.5万亿美元估值创IPO纪录，阿里则称20GW数据中心目标或因政策变化下调。",
+   "refs": [
+    "web-b5d53d2b7f78",
+    "web-178e4522e0ed"
+   ]
+  }
+ ]
+}
