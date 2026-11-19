@@ -1,12 +1,10 @@
-2026-11-18 19:20:30,237 INFO source hf_daily           -> 15 items
-2026-11-18 19:20:30,543 INFO source hackernews         -> 9 items
-2026-11-18 19:20:50,828 INFO source rss                -> 116 items
-2026-11-18 19:20:52,210 INFO source html_lists         -> 0 items
-2026-11-18 19:20:52,210 INFO source x                  -> 0 items
-2026-11-18 19:20:55,328 INFO source arxiv_search       -> 57 items
-2026-11-18 19:21:05,767 INFO source github             -> 20 items
-2026-11-18 19:21:05,768 INFO candidates: 216 (stale dropped 106, new 71)
-2026-11-18 19:22:44,412 INFO llm judged 71/71 (calls=9)
-2026-11-18 19:23:04,836 WARNING snapshot https://openai.com/index/inside-the-codex-sandbox: blocked or empty page
-2026-11-18 19:23:17,958 WARNING snapshot https://thezvi.wordpress.com/2026/11/18/quickly-theres-no-time/: blocked or empty page
-2026-11-18 19:24:42,122 INFO run done: {"at": "2026-11-18T19:20:29+00:00", "slot": "morning", "candidates": 216, "new": 71, "stale": 106, "judged": 71, "selected": 20, "mirrored": 18, "by_category": {"观点": 3, "资讯": 11, "技术": 4, "项目": 2}, "by_source": {"HF Daily Papers": 15, "Hacker News": 9, "OpenAI": 9, "量子位": 10, "极客公园": 9, "IT之家": 19, "爱范儿": 9, "少数派": 1, "雷峰网": 16, "钛媒体": 3, "InfoQ 中文": 15, "Simon Willison": 1, "Latent Space": 4, "Stratechery": 2, "Nathan Benaich": 1, "Tomasz Tunguz": 2, "Zvi Mowshowitz": 3, "Timothy B. Lee": 1, "Dean Ball": 1, "科学空间": 1, "Hugging Face Blog": 4, "Google DeepMind": 1, "NVIDIA": 4, "arXiv 新论文": 57, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
+2026-11-19 06:14:23,120 INFO source hf_daily           -> 7 items
+2026-11-19 06:14:23,581 INFO source hackernews         -> 8 items
+2026-11-19 06:14:45,617 INFO source rss                -> 107 items
+2026-11-19 06:14:47,577 INFO source html_lists         -> 1 items
+2026-11-19 06:14:47,577 INFO source x                  -> 0 items
+2026-11-19 06:15:00,889 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
+2026-11-19 06:15:15,659 INFO source github             -> 20 items
+2026-11-19 06:15:15,661 INFO candidates: 142 (stale dropped 24, new 74)
+2026-11-19 06:16:29,873 INFO llm judged 74/74 (calls=10)
+2026-11-19 06:19:38,515 INFO run done: {"at": "2026-11-19T06:14:22+00:00", "slot": "noon", "candidates": 142, "new": 74, "stale": 24, "judged": 74, "selected": 17, "mirrored": 16, "by_category": {"资讯": 13, "技术": 2, "观点": 1, "项目": 1}, "by_source": {"HF Daily Papers": 7, "Hacker News": 8, "OpenAI": 9, "量子位": 10, "极客公园": 10, "IT之家": 13, "爱范儿": 10, "少数派": 1, "雷峰网": 13, "钛媒体": 4, "InfoQ 中文": 14, "Simon Willison": 1, "Latent Space": 3, "Stratechery": 2, "Nathan Benaich": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Timothy B. Lee": 2, "Dean Ball": 1, "科学空间": 1, "Hugging Face Blog": 5, "Google DeepMind": 2, "NVIDIA": 2, "Anthropic": 1, "GitHub Trending": 15, "GitHub 新项目": 5}, "llm": true, "translated": 0}
