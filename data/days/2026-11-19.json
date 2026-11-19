@@ -1124,44 +1124,965 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-c7d3ecb00643",
+   "kind": "article",
+   "title": "Advancing chip design with OpenAI models",
+   "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+   "pdf_url": "",
+   "abstract": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-11-18T17:45:47Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50549493",
+     "signal": "188 pts",
+     "metric": 188
+    },
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 用模型优化芯片电路设计",
+   "summary_zh": "OpenAI 称其模型优化了 Jalapeño 芯片电路并改进 RISC-V 核心设计，展示 AI 辅助芯片设计的进展。",
+   "highlights_zh": [
+    "官方发布，涉及真实流片电路优化",
+    "覆盖 RISC-V 核心设计改进",
+    "AI 进入芯片设计这一高价值工程环节"
+   ],
+   "why_zh": "头部公司官方披露 AI 落地硬件设计，值得关注工程化边界。",
+   "tags": [
+    "科学AI",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.8458,
+   "score_llm": 8.0,
+   "score": 0.8183,
+   "date": "2026-11-19",
+   "slot": "noon",
+   "selected_at": "2026-11-19T06:14:22+00:00",
+   "mirror_pdf": "pdf/web-c7d3ecb00643.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/advancing-chip-design-with-our-models/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50549493"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-50e3ea47cbae",
+   "kind": "article",
+   "title": "Genie 4 is now available",
+   "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Google DeepMind"
+   ],
+   "published": "2026-11-18T18:13:42+00:00",
+   "sources": [
+    {
+     "name": "Google DeepMind",
+     "authority": 0.85,
+     "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Google DeepMind 发布 Genie 4",
+   "summary_zh": "DeepMind 推出新一代世界模型 Genie 4，可从单张图像生成可交互的 3D 环境，进一步逼近通用世界模拟器。",
+   "highlights_zh": [
+    "Genie 系列迭代至第四代，交互时长与物理一致性提升",
+    "面向智能体训练与具身智能仿真场景",
+    "与 DeepMind 世界模型路线图衔接"
+   ],
+   "why_zh": "世界模型是智能体与机器人训练的关键基础设施，头部公司代际更新值得跟踪。",
+   "tags": [
+    "多模态",
+    "机器人",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.52,
+   "score_llm": 9.0,
+   "score": 0.748,
+   "date": "2026-11-19",
+   "slot": "noon",
+   "selected_at": "2026-11-19T06:14:22+00:00",
+   "mirror_pdf": "pdf/web-50e3ea47cbae.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://deepmind.google/blog/genie-4-is-now-available/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9fa731b0ef6c",
+   "kind": "article",
+   "title": "Research acceleration: The jagged frontier",
+   "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+   "pdf_url": "",
+   "abstract": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-11-18T08:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "研究加速：崎岖的前沿",
+   "summary_zh": "OpenAI 测量编码智能体对 AI 研究的加速效果，发现能力分布不均，并据此讨论递归自我改进的信号。",
+   "highlights_zh": [
+    "量化编码智能体对 AI 研究的加速程度",
+    "指出智能体能力在不同任务上参差不齐",
+    "关联到递归自我改进的行业讨论"
+   ],
+   "why_zh": "智能体是否真能加速研究，是判断行业拐点的关键证据。",
+   "tags": [
+    "智能体",
+    "代码",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 8.0,
+   "score": 0.696,
+   "date": "2026-11-19",
+   "slot": "noon",
+   "selected_at": "2026-11-19T06:14:22+00:00",
+   "mirror_pdf": "pdf/web-9fa731b0ef6c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/research-acceleration-jagged-frontier"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b898a1b2127c",
+   "kind": "article",
+   "title": "Introducing Gemini 4 Neon",
+   "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Google DeepMind"
+   ],
+   "published": "2026-11-18T21:35:43+00:00",
+   "sources": [
+    {
+     "name": "Google DeepMind",
+     "authority": 0.85,
+     "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Gemini 4 Neon 发布",
+   "summary_zh": "Google DeepMind 发布 Gemini 4 Neon，属于其旗舰模型的新一代更新，具体能力细节尚待披露。",
+   "highlights_zh": [
+    "谷歌旗舰模型代际更新",
+    "由 DeepMind 官方发布",
+    "可能影响多模态与智能体竞争格局"
+   ],
+   "why_zh": "头部模型重大发布，直接影响行业竞争与选型。",
+   "tags": [
+    "大模型",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.52,
+   "score_llm": 8.0,
+   "score": 0.688,
+   "date": "2026-11-19",
+   "slot": "noon",
+   "selected_at": "2026-11-19T06:14:22+00:00",
+   "mirror_pdf": "pdf/web-b898a1b2127c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8dad22280482",
+   "kind": "article",
+   "title": "「北美大豆包」谷歌，终于杀回 AI 牌桌中央",
+   "url": "http://www.geekpark.net/news/374196",
+   "pdf_url": "",
+   "abstract": "作者｜Wildcard 编辑｜靖宇 谷歌，这次是真的回来了。 11 月 18 日，Google DeepMind 点亮了 Gemini 4 Neon 的霓虹灯牌。 这是 Gemini 4 系列在短短 7 周内甩出的第 4 款元素模型 。如果看一眼官方放出的基准跑分长表和社区实测反馈，你会发现它精准卡在了一个极其舒服的「甜点」位上，既有接近、甚至局部反超旗舰的硬核智商，又把单任务成本砍到了竞争对手的一半左右。 在 Reddit 技术社区里，挑剔的开发者们罕见地给出了一边倒的好评，直呼它「 便宜得离谱又强得可怕 」。每月花 19.99 美元订阅 Google AI Pro 的普通用户更是喜出望外，不用咬牙上 Ultra 档位，就能在 Gemini App 里直接用上准旗舰水准的模型。加上整个 11 月密集落地的模型与工具矩阵，那个曾经在牌桌边缘徘徊的谷歌 AI，终于重新杀回了牌桌中央。 唯一让全球程序员一头雾水的，大概只有谷歌神秘的命名学。从 9 月底的 Argon（氩）、10 月底的 Carbon（碳），到 11 月中旬的 Hydrogen（氢）和如今的 Neon（氖），既不按原子序数排，也不按字母表或能力强弱分。 Hacker News 上真有较真的网友把化学性质全列出来找规律，最后绝望地吐槽谷歌大概是把元素扔进帽子里随机抓出来的，用星巴克杯型命名都比这清楚；国内网友则已经开始催更第 118 号元素「鿫」（Oganesson），顺便调侃看个科技新闻还得重背初中化学。 网友为 Gemini 4 设计的「元素周期表」选模型界面｜图片来源：网络 01 炼金术「杰作」 名字虽然让人摸不着头脑，但 Neon 在产品矩阵里的刀法却异常清晰。 它精准卡在重型长周期旗舰 Carbon，与轻量高频执行模型 Hydrogen 之间，直接取代了此前 Gemini 3.1 Pro 和 Argon 的生态位。Alphabet 首席科学家兼 DeepMind 董事长 Demis Hassabis 给它的评价颇高，称其为「炼金术的杰作」。 支撑这句评价的是实打实的硬指标。Neon 拥有 100 万 token 的上下文窗口（在 Antigravity 中支持最高 512K 上下文）和最高 100 万 token 的输出上限，支持文本、音视频、PDF 及电子表格的原生多模态输入。在核心推理能力上，它提供了 low、medium、high（默认）和 xhigh 四档可调思考深度，给了开发者极大的控本空间。 独立评测机构 Artificial Analysis 的数据最能说明问题。在 AA Intelligence Index v5.0.1 总榜上， Neon 开启 xhigh 档位拿下了 61 分，高居全球第三，排在 GPT-6.2 Astra 和 Claude Fable 5.2 之后 ，把自家老大哥 Carbon 的 high 档（60 分）、Anthropic 的 Claude Opus 5.5（59 分）以及 OpenAI 的 GPT-6.2 Sol（57 分）全都压在了身下。即便切回默认的 high 档也能拿 60 分，而降到 medium 档拿到的 55 分，依然超过了轻量模型 Hydrogen 拼尽全力的 xhigh 档（54 分）。 真正让企业客户心动的，是那张跑分与单任务成本的散点折线图。 Neon 把一线旗舰的智商，打出了中端走量模型的账单。 它的输出速度达到每秒约 110 tokens，接近 Carbon（约 57 tokens/s）的两倍；跑完 AA 基准",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-19T06:10:00+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/374196",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌Gemini 4 Neon发布：准旗舰性能、半价成本，重返AI牌桌中央",
+   "summary_zh": "谷歌发布Gemini 4系列第四款模型Neon，以接近旗舰的推理能力（AA指数全球第三）和约对手一半的成本，精准卡位中端市场，获开发者社区罕见好评。",
+   "highlights_zh": [
+    "AA Intelligence Index全球第三，xhigh档61分，超越自家Carbon high档及Claude Opus 5.5",
+    "100万token上下文与输出，支持文本/音视频/PDF原生多模态，四档思考深度可调控成本",
+    "7周内连发4款元素模型，命名混乱但产品矩阵刀法清晰，重新确立谷歌在模型竞赛中的位置"
+   ],
+   "why_zh": "理解谷歌模型矩阵策略与中端市场定价逻辑的关键案例，开发者选型必读。",
+   "tags": [
+    "大模型",
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-11-19",
+   "slot": "noon",
+   "selected_at": "2026-11-19T06:14:22+00:00",
+   "mirror_pdf": "pdf/web-8dad22280482.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/374196"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-235e1b24925d",
+   "kind": "article",
+   "title": "19 charts that explain the state of AI",
+   "url": "https://www.understandingai.org/p/19-charts-that-explain-the-state",
+   "pdf_url": "",
+   "abstract": "The AI boom is getting a little crazy.",
+   "authors": [
+    "Kai Williams"
+   ],
+   "orgs": [
+    "Timothy B. Lee"
+   ],
+   "published": "2026-11-18T21:34:00+00:00",
+   "sources": [
+    {
+     "name": "Timothy B. Lee",
+     "authority": 0.75,
+     "url": "https://www.understandingai.org/p/19-charts-that-explain-the-state",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "科技记者，《Understanding AI》作者",
+   "title_zh": "19 张图看懂 AI 行业现状",
+   "summary_zh": "Timothy B. Lee 用 19 张图表梳理 AI 热潮的现状，认为当前市场情绪已有些过热。",
+   "highlights_zh": [
+    "以图表形式呈现 AI 行业关键数据",
+    "作者判断 AI 热潮趋于疯狂",
+    "来自长期跟踪 AI 的科技记者视角"
+   ],
+   "why_zh": "快速把握 AI 市场热度与趋势的图文综述。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-11-19",
+   "slot": "noon",
+   "selected_at": "2026-11-19T06:14:22+00:00",
+   "mirror_pdf": "pdf/web-235e1b24925d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.understandingai.org/p/19-charts-that-explain-the-state"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0d4af7d6a2f2",
+   "kind": "article",
+   "title": "彭博社：黄仁勋离任英伟达 CEO 后，日本 AI 股首当其冲",
+   "url": "https://www.ithome.com/1/029/265.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 19 日消息，彭博社今天（11 月 19 日）发布博文，报道称英伟达管理层变动及创始人黄仁勋突然离任， 正引发全球 AI 概念股新一轮抛售，日本相关股票首当其冲。 彭博社指出日本股市风向从“AI 溢价”转向“AI 折价”，投资者重新审视日本芯片、半导体设备与 AI 基础设施企业，关注重点转向未来盈利能否兑现。 自黄仁勋辞职以来，日本存储芯片厂商铠侠（Kioxia）和半导体测试设备公司爱德万测试（Advantest）股价均累计下跌超过 9%，明显跑输东证指数约 2.9% 的跌幅。 分析人士将当前局面概括为“三重打击”：AI 企业盈利能力恶化的担忧、美国中期选举后监管趋严预期，以及英伟达领导层动荡带来的行业信心冲击。 野村新加坡高级跨资产策略师须田义孝认为，投资者可能不再愿意为 AI 标签支付溢价，反而会要求“AI 折价”。三菱 UFJ 资产管理执行基金经理友明弘明也表示，部分大型 AI 股仍处于高估值，若盈利预期下修，可能继续遭遇抛售。 不过彭博汇总数据显示，六家美国大型科技公司今年资本支出预计达 8,850 亿美元 （IT之家注：现汇率约合 5.91 万亿元人民币） ，明年或再增长 64% 至 1.45 万亿美元 （现汇率约合 9.69 万亿元人民币） ，表明 AI 基础设施需求尚未出现明确拐点。 相关阅读： 《 黄仁勋辞任英伟达 CEO 重创全球 AI 概念股，AMD、博通逆势上涨 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-19T04:49:53+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/029/265.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "黄仁勋离任引发日本AI股抛售，市场从溢价转向折价",
+   "summary_zh": "彭博社报道黄仁勋离任英伟达CEO后，日本AI概念股遭抛售，铠侠、爱德万测试跌超9%，投资者从为AI标签付溢价转向要求折价。",
+   "highlights_zh": [
+    "铠侠与爱德万测试累计跌超9%，跑输东证指数约2.9%跌幅",
+    "分析称面临盈利恶化、监管趋严、领导层动荡三重打击",
+    "美国六大科技公司今年资本支出预计8850亿美元，明年或增64%"
+   ],
+   "why_zh": "理解AI概念股估值逻辑从溢价转向折价的关键信号，把握市场情绪拐点。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-19",
+   "slot": "noon",
+   "selected_at": "2026-11-19T06:14:22+00:00",
+   "mirror_pdf": "pdf/web-0d4af7d6a2f2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/029/265.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ff654c6807cd",
+   "kind": "article",
+   "title": "彭博社：英伟达寻找接替黄仁勋新掌门，猎头已接触 Arm CEO 哈斯",
+   "url": "https://www.ithome.com/1/029/207.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 19 日消息，彭博社今天（11 月 19 日）发布博文， 报道称英伟达董事会聘请的猎头公司海德思哲（Heidrick & Struggles）已接触 Arm 首席执行官雷内 · 哈斯（Rene Haas），将其列为接替黄仁勋的潜在人选。 IT之家曾于 11 月 14 日援引路透社报道，英伟达董事会有意向接触哈斯，而彭博社最新报道称董事会已让猎头公司开始接触，不过目前尚不清楚接触进展。 渊源方面，哈斯曾在该公司工作七年，担任计算产品业务副总裁兼总经理，2013 年加入 Arm，2022 年出任首席执行官，并带领 Arm 于 2023 年登陆纳斯达克。英伟达还曾于 2020 年宣布收购 Arm，但交易最终因监管阻力告吹。 图源：Arm 官网 彭博社透露，除哈斯外，其他潜在人选还包括英伟达副总裁伊恩 · 巴克、AMD 首席执行官苏姿丰，以及苹果硬件负责人约翰尼 · 斯鲁吉。 相关阅读： 《 路透社：Arm 掌门人哈斯进入接棒黄仁勋候选视野，曾在英伟达工作 7 年 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-19T03:23:57+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/029/207.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "英伟达猎头接触Arm CEO哈斯，物色黄仁勋继任者",
+   "summary_zh": "彭博社称英伟达董事会聘请的猎头已接触Arm CEO雷内·哈斯，另有巴克、苏姿丰、斯鲁吉等潜在人选。",
+   "highlights_zh": [
+    "哈斯曾在英伟达工作七年，2022年出任Arm CEO",
+    "英伟达2020年曾宣布收购Arm但遭监管否决",
+    "候选名单还包括AMD苏姿丰与苹果硬件负责人斯鲁吉"
+   ],
+   "why_zh": "继任者人选将决定英伟达战略走向，牵动整个AI芯片格局。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-19",
+   "slot": "noon",
+   "selected_at": "2026-11-19T06:14:22+00:00",
+   "mirror_pdf": "pdf/web-ff654c6807cd.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/029/207.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f689168723dc",
+   "kind": "article",
+   "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+   "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-11-18T19:54:56+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "DaisyRose-27B：后训练效率的新边界",
+   "summary_zh": "Hugging Face 博客介绍 DaisyRose-27B，聚焦后训练阶段的计算与数据效率优化，在中等规模模型上取得更优性价比。",
+   "highlights_zh": [
+    "后训练流程的效率优化方法",
+    "27B 规模下的效果与成本权衡",
+    "开源可复现的训练配方"
+   ],
+   "why_zh": "后训练效率是当前降本主线，适合关注训练工程与开源模型的团队参考。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 7.0,
+   "score": 0.612,
+   "date": "2026-11-19",
+   "slot": "noon",
+   "selected_at": "2026-11-19T06:14:22+00:00",
+   "mirror_pdf": "pdf/web-f689168723dc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3a309e16ea12",
+   "kind": "article",
+   "title": "范式下场做基模了！国产算力全链路训练，双模型同步亮相",
+   "url": "https://www.qbitai.com/2026/11/511071.html",
+   "pdf_url": "",
+   "abstract": "语言模型单张3090卡即可运行",
+   "authors": [
+    "思邈"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-19T03:01:45+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/511071.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "范式发布基座模型，国产算力全链路训练",
+   "summary_zh": "范式推出双基座模型，宣称完成国产算力全链路训练，其中语言模型单张 3090 即可运行。",
+   "highlights_zh": [
+    "国产算力全链路训练路径",
+    "双模型同步发布",
+    "小算力可运行的语言模型版本"
+   ],
+   "why_zh": "国产算力训练基模的实践案例，对关注自主算力栈的团队有参考价值。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-19",
+   "slot": "noon",
+   "selected_at": "2026-11-19T06:14:22+00:00",
+   "mirror_pdf": "pdf/web-3a309e16ea12.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/511071.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-76b9b4d25542",
+   "kind": "article",
+   "title": "n4ze3m/tiny-voca",
+   "url": "https://github.com/n4ze3m/tiny-voca",
+   "pdf_url": "",
+   "abstract": "A 4.5M-parameter two-voice English text-to-speech model, trained from scratch",
+   "authors": [],
+   "orgs": [
+    "n4ze3m"
+   ],
+   "published": "2026-11-19T06:14:22+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/n4ze3m/tiny-voca",
+     "signal": "★ 754（新项目） · Python",
+     "metric": 754
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "tiny-voca：450 万参数双音色 TTS 模型",
+   "summary_zh": "从零训练的超小英文双音色语音合成模型，仅 450 万参数。",
+   "highlights_zh": [
+    "极小参数量适合端侧部署",
+    "从零训练、代码开源",
+    "仅支持英文双音色，能力有限"
+   ],
+   "why_zh": "如果你在做端侧语音合成，可用它做轻量基线对比。",
+   "tags": [
+    "语音",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5734,
+   "score_llm": 6.0,
+   "score": 0.5894,
+   "date": "2026-11-19",
+   "slot": "noon",
+   "selected_at": "2026-11-19T06:14:22+00:00",
+   "mirror_pdf": "pdf/web-76b9b4d25542.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/n4ze3m/tiny-voca"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7f9d4b51d25f",
+   "kind": "article",
+   "title": "WorkBuddy 日活超过 1000 万；曝英伟达未投企业责任险，或因黄仁勋事件遭巨额索赔；DeepSeek 再调整 API 计费 | 极客早知道",
+   "url": "http://www.geekpark.net/news/374177",
+   "pdf_url": "",
+   "abstract": "黄仁勋辞职风波升级：英伟达遭两起证券欺诈诉讼，公司自身却未投保企业责任险 11 月 18 日消息，据路透社报道，英伟达为公司高管和董事购买了责任保险，最高赔付额度达 9.5 亿美元，但公司自身没有购买通常用于覆盖证券诉讼辩护费用、和解金与判决赔偿的企业责任保险。 这意味着，如果围绕黄仁勋突然辞去 CEO 职务引发的诉讼最终胜诉，涉及股价暴跌的赔偿需要由公司自行承担。英伟达目前持有超过 500 亿美元现金储备。自 11 月 8 日黄仁勋承认对妻子不忠以来，针对英伟达及相关人员的诉讼至少已有两起，其中包括一名个人股东在旧金山联邦法院提起的拟议集体诉讼，指控公司及黄仁勋涉嫌证券欺诈、误导投资者。 该集体诉讼涉及的索赔期间，英伟达股价累计下跌 20%，对应市值损失约 1 万亿美元。保险业内人士认为，英伟达资产负债表规模超过许多保险公司，因此判断市场上可购买的风险转移方案价值不足。黄仁勋本周二表示，对给董事会带来的麻烦深感遗憾，若有机会重返公司将深感荣幸，但董事会并未考虑让他回归。（来源：IT 之家） 腾讯前三季度归母净利润 1777.27 亿元增 7%，三季度经营现金流同比降 33.76% 11 月 18 日消息，腾讯控股发布 2026 财年前三季度及第三财季报告。前三季度营业总收入 6085.79 亿元，同比增长 9%；毛利润 3456.09 亿元，同比增长 10%；毛利率 56.79%，同比提升 0.4 个百分点；归母净利润 1777.27 亿元，同比增长 7%。 第三财季营业总收入 2073.36 亿元，同比增长 8%，环比增长 1%；毛利率 55.90%，同比下降 0.5 个百分点，环比下降 1.93 个百分点；归母净利润 636.12 亿元，同比增长 0.8%，环比增长 14%。前三季度经营现金流 1567.13 亿元，同比下降 33.76%；基本每股收益 19.697 元，同比增长 8%；资产负债率 44.69%。 同日披露的业务数据显示，微信及 WeChat 合并月活跃账户数达 14.49 亿，同比增长 2%；腾讯 WorkBuddy 日活跃用户数超 1000 万，成为中国大语言模型日均 Token 用量最高的 AI 产品；微信私人 AI 助理「小微」日活跃用户数达 3000 万。市场机构认为，本季营收略低于一致预期，归母净利润表现优于前瞻预期。（来源：IT 之家） 谷歌 Genie 4 正式开放：用户可以用自然语言实时修改 AI 生成的世界 谷歌 DeepMind 宣布，开始向符合条件的 Google AI Ultra 订阅用户开放 Genie 4 世界模型，并同步升级 Project Genie 产品体验。 用户可以通过自然语言生成可探索的虚拟环境，并在探索过程中实时修改场景，加入原生音频，还能将作品分享到社区画廊。谷歌同时升级了 Genie 3，支持更长的交互时长、全景场景定位和连续世界序列。（来源：Google Blog） Anthropic 冲刺史上最大 IPO：认购近七倍，19 日挂牌纳斯达克 Anthropic 即将为可能是史上规模最大的 IPO 定价：承销银行称认购已接近七倍超额认购，公司正引导投资者预期发行价落在 70 至 78 美元区间上端或更高。据申报文件，其与七名联合创始人计划发行 8.25 亿股，若按上限定价并计入 260 亿美元私募配售，将筹资 904 亿美元、估值约 1.4 万亿美元，规模超过 SpaceX。公司将于当地时间 18 日定价，19 日以「ANT」在纳斯达克挂牌。（来源：IT 之家） DeepSee",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-19T01:03:37+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/374177",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯WorkBuddy日活破千万；谷歌Genie 4开放；Anthropic冲刺最大IPO",
+   "summary_zh": "极客早知道汇总：腾讯WorkBuddy日活超1000万成国内Token用量最高AI产品；谷歌Genie 4世界模型向Ultra用户开放；Anthropic IPO认购近七倍。",
+   "highlights_zh": [
+    "腾讯WorkBuddy日活超1000万，微信AI助理「小微」日活达3000万",
+    "谷歌Genie 4开放，支持自然语言实时修改AI生成世界并加入原生音频",
+    "Anthropic冲刺史上最大IPO，认购近七倍，拟19日挂牌纳斯达克"
+   ],
+   "why_zh": "一篇文章掌握当日AI行业最重要的产品数据、模型开放与资本市场动向。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-11-19",
+   "slot": "noon",
+   "selected_at": "2026-11-19T06:14:22+00:00",
+   "mirror_pdf": "pdf/web-7f9d4b51d25f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/374177"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-baae97f329c0",
+   "kind": "article",
+   "title": "AI 已经进入企业，为什么组织还没有进化？",
+   "url": "https://www.leiphone.com/category/industrynews/98sAVeAaYPhJQvgY.html",
+   "pdf_url": "",
+   "abstract": "十年前看人工智能，十年后看智能组织。 作者丨 成妍菁 编辑丨 胡 敏 最近与AI圈子的人聊，普遍谈到一个点，人已经接受AI提效，但企业还没准备好。 （雷峰网雷峰网雷峰网） 一边是员工已经在用agent 干活、甚至开始自己搭小系统；另一边是公司的KPI、审批链、汇报节奏，还按着三年前的样子在转。 Deloitte近期的调查显示，近四分之三的美国企业高管预计，未来四年，约一半业务流程都将围绕AI Agent重新设计；61%的人认为，未来大多数Agent会具备高度自主性，人类只需要在一旁监督。 看似被AI接管全部业务已经是大势所趋，但被问到企业是否准备好迎接这种变化时，只有五分之一的领导给出肯定答案。 在今天的百度世界2026上，百度创始人李彦宏也谈到了这一矛盾。他给出的判断是： AI不只是技术革命，更是组织革命，人工智能的下一幕是智能组织。 接下来企业要改变的不能只是员工手里的工具，还要包括组织自身的运转方式。 01 AI进了公司，但又没完全进 要想重构组织运转方式，首先要破除常规认知： 公司里的 AI 浓度高，并不意味着 AI 转型已经发生。 员工用 Agent 写代码、做研究、生成方案，业务部门跑通几个试点，管理层再把智能体数量、Token 消耗量和使用率写进汇报——看起来，一家公司的智能化正在全面推进。 但个人效率，并不会自动提升组织生产力。 打个比方，产品经理原本要两天完成的需求分析，现在可能要半天；研发借助 Agent 快速写出代码初稿，销售也能在拜访客户前生成一份研究报告。 但需求仍然要经过评审、审批和排期，跨部门协作依然依赖会议和层层同步，最终结果也要等原来的汇报周期才能被看见。兜兜转转一大圈，员工个人时间是减少了，但企业整体组织力并没有明显提升。 这并非个别企业的问题。 微软《2026年工作趋势指数年度报告》所呈现的，正是这种企业AI转型悖论：员工已经开始借助AI提升个人效率，团队也在尝试新工具，但业务流程、协作方式和评价机制仍然沿用过去的模式。 波士顿咨询（BCG） 给出的建议更加直接：为 AI 重新设计公司，而不是让 AI 适应原来的公司。 其研究中提到的一家欧洲能源企业，曾部署大量 AI 试点，却没有获得与之匹配的整体收益。直到企业将目光从单个工具和局部场景，转向端到端客户流程的重构，才取得实质性业务改善。 这类案例说明，AI 试点成功与企业转型成功之间，还隔着一层组织设计。 如果企业只是在原有岗位上增加工具，在固定流程中插入几个 Agent，那么 AI 可以优化局部，却很难改变整体。 它甚至会让原有瓶颈变得更加明显：内容生产得越来越快，决策却没有同步提速；代码生成得越来越多，需求确认和交付机制仍然照旧。 当执行能力被迅速放大，组织如何分配任务、共享知识和作出决策，反而成了新的约束。 过去几年，AI 行业的主要竞争集中在技术供给侧。 模型参数、训练算力、推理成本和榜单排名，决定了企业能够获得什么样的智能。 业界曾流行 AI“五层蛋糕”，从能源、芯片、基础设施一直延伸到模型和应用，强调的正是智能生产所需要的完整体系。没有能源和算力，上层模型与应用都无从谈起。 模型供给的变化，也开始体现在交易端。词元所上线一个月，入驻供应资源已超过100个，日均调用次数突破5000万次，日均Token调用量超过7000亿。 比规模本身更值得关注的是，模型交易正从企业与厂商之间的私下对接，走向独立的产业环节；随着这一环节形成，规则提供者也逐渐呈现出公共品属性。 但站在企业一侧：当这些智能已经可以购买、调用和部署，又是什么决定它最终能产生多少价值？ 李",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-19T03:17:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/98sAVeAaYPhJQvgY.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI已进企业，组织为何没进化？",
+   "summary_zh": "雷峰网探讨企业AI转型悖论：员工用Agent提效，但KPI、审批链、汇报节奏未变，个人效率难转化为组织生产力。李彦宏提出「智能组织」判断，BCG建议为AI重新设计公司。",
+   "highlights_zh": [
+    "Deloitte调查：近四分之三美国高管预计四年内约半数业务流程将围绕Agent重设计，但仅五分之一认为企业已准备好",
+    "微软2026工作趋势报告揭示「企业AI转型悖论」：工具升级但流程与评价机制照旧",
+    "BCG案例：欧洲能源企业从单点试点转向端到端客户流程重构后才见实质收益"
+   ],
+   "why_zh": "理解AI落地瓶颈从技术转向组织设计，对判断企业级AI市场节奏有参考价值。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-19",
+   "slot": "noon",
+   "selected_at": "2026-11-19T06:14:22+00:00",
+   "mirror_pdf": "pdf/web-baae97f329c0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/98sAVeAaYPhJQvgY.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7ffaaeadd56e",
+   "kind": "article",
+   "title": "英伟达临时CEO称将不再向中国出货H200芯片；一天之内173名管理人员被免，宗馥莉大规模「动刀」；英特尔被曝再度裁员，波及全球IT员工",
+   "url": "https://www.leiphone.com/category/zaobao/wMg9SCFKwT7JSsGq.html",
+   "pdf_url": "",
+   "abstract": "要闻提示 1.英特尔被曝再度裁员，波及全球IT员工 2.英伟达临时CEO称将不再向中国出货H200芯片，外交部回应 3.权志龙母公司将推机器人女团，与宇树合作的K-pop演唱会12月首演 4.宗馥莉再掀人事风暴：173名管理人员被免职 5.最高涨560元！大疆两款手持云台相机涨价 6.腾讯第三季度营收2073亿元，WorkBuddy日活超千万 7.张朝阳再度回应搜狐“躺平”：大模型投入太大，没资源来做这个事情 8.英伟达员工大会宣布告别“黄仁勋时代”：12 月员工加薪，启动新 CEO 遴选 今日头条 英特尔被曝再度裁员，波及全球IT员工 11月18日消息，据外媒报道，在过去两年多轮裁员之后，英特尔再度启动新一轮人员削减。此次裁员，是英特尔 CEO 陈立武推动芯片公司瘦身的举措延续，相关精简动作持续到今年最后几个月。本周，已有员工在社交平台发文，英特尔全球 IT 团队出现裁员。英特尔并未披露本次裁员涉及人数，也未公布具体受影响团队。 本次裁员是这家美国芯片厂商漫长重组进程的延续。历经多年制造业务受挫、AI 芯片市场份额流失，英特尔持续缩减人员、砍掉部分项目，以求业务复苏。去年上任的 CEO 陈立武曾表示，重组方案旨在压缩开支、精简管理层级，把资源从低优先级项目撤出。 根据公司申报文件，9 月末英特尔员工总数为 81100 人，低于 2025 年末的 85100 人。2024 年英特尔就开启大规模裁员计划，时任 CEO 帕特・基辛格宣布裁员超 15000 人，约占当时员工总数的 15%，此后员工规模持续大幅收缩。（三言科技） 国内资讯 英伟达临时CEO称将不再向中国出货H200芯片，外交部回应 11月18日，外交部发言人郭嘉昆主持例行记者会。法新社记者提问，英伟达的临时CEO称，将不再向中国出货H200芯片。中方对此有何评论？郭嘉昆表示，中方此前已经多次阐明在美国输华芯片问题上的原则立场。 当地时间11月17日，英伟达临时首席执行官科莱特·克雷斯在财报电话会上确认，英伟达将停止向中国销售H200 AI芯片。这意味着，此前由黄仁勋与特朗普政府协商达成的H200对华供货安排将告终。 据悉，英伟达此前向美国证券交易委员会（SEC）提交的文件显示，美国政府自 2026 年 2 月起批准向特定中国客户出口少量 H200 产品。按此前达成的方案，销往中国的H200芯片须经美国境内转运，由美国政府征收25%的关税。 同在11月17日，英伟达宣布在董事会层面设立专门委员会，负责监督国家安全政策、出口管制合规及全球贸易风险。公司国家安全与贸易合规团队将同时向该委员会和临时CEO汇报。而就在英伟达作出上述表态的前一天，美国商务部于11月16日发布新规，限制受管制客户通过远程服务使用部署在海外数据中心的先进芯片。（第一财经、快科技） 权志龙母公司将推机器人女团，与宇树合作的K-pop演唱会12月首演 11月18日消息，据媒体报道，韩国娱乐科技企业Galaxy Corporation计划在明年1月面向全球推出机器人女团，之后再分别推出虚拟AI女团和真人女团。 不仅如此，今年12月，该公司还将在中国澳门举办一场小型机器人K-pop演唱会，后续还计划把相关演出带到迪拜、东京等地。据Galaxy创始人兼首席执行官崔龙湖介绍，其合作方主要包括宇树科技和巨星传奇等，目前正在探索中国公司出硬件，韩国方面出内容的发展模式。 公开资料显示，Galaxy是权志龙、李泰民、金钟国等韩国知名艺人的所属公司，成立于2019年，由崔龙湖和8位好友共同创办，初始资本金仅100万韩元，总部设在首尔汝矣岛",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-19T00:59:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/zaobao/wMg9SCFKwT7JSsGq.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "英伟达停供中国H200，英特尔再裁员",
+   "summary_zh": "英伟达临时CEO确认停止向中国出货H200，此前经特朗普政府批准的供货安排告终；美国商务部同步限制受管制客户远程使用海外数据中心先进芯片。英特尔启动新一轮全球IT裁员。",
+   "highlights_zh": [
+    "H200对华供货须经美国境内转运并缴25%关税的方案终止",
+    "英伟达董事会新设国家安全与出口管制监督委员会",
+    "美国商务部新规限制受管制客户通过远程服务使用海外先进芯片"
+   ],
+   "why_zh": "出口管制再度收紧，直接影响中国AI算力供给与云服务采购路径。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-19",
+   "slot": "noon",
+   "selected_at": "2026-11-19T06:14:22+00:00",
+   "mirror_pdf": "pdf/web-7ffaaeadd56e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/zaobao/wMg9SCFKwT7JSsGq.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-033fbe0c9d4e",
+   "kind": "article",
+   "title": "从业者正在对 Anthropic “没人需要 Claude Code 心理模型”的说法进行验证",
+   "url": "https://www.infoq.cn/article/R9BxSitBpwGcDwfS22ac?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "Steef-Jan Wiggers"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-19T12:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/R9BxSitBpwGcDwfS22ac?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "从业者实测：Claude Code 真的不需要心理模型吗？",
+   "summary_zh": "InfoQ 报道开发者对 Anthropic「没人需要 Claude Code 心理模型」说法的实测验证，讨论编码智能体的行为可预测性与用户心智模型之争。",
+   "highlights_zh": [
+    "Anthropic 主张用户无需为 Claude Code 建立心理模型",
+    "从业者用实际使用经验检验该说法",
+    "涉及编码智能体的可控性与可解释性"
+   ],
+   "why_zh": "编码智能体是当前落地最深的场景，这场争论关乎产品设计与用户信任。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-19",
+   "slot": "noon",
+   "selected_at": "2026-11-19T06:14:22+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/R9BxSitBpwGcDwfS22ac?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4bf199f77931",
+   "kind": "article",
+   "title": "Tencent’s Softer Profit Shows How AI Is Rewriting Big Tech’s Cost Structure",
+   "url": "https://www.tmtpost.com/8210850.html",
+   "pdf_url": "",
+   "abstract": "Tencent’s latest quarter paired slower earnings with a jump in capital spending. The same pattern is spreading across China’s internet giants: profits absorb model and compute costs first, while ads and cloud collect the early returns. The open question is how long investors will fund the gap.",
+   "authors": [
+    "Chelsea_Sun"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-19T03:56:05+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8210850.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯财报揭示AI如何改写大厂成本结构",
+   "summary_zh": "腾讯最新季度利润放缓但资本开支激增，折射中国互联网巨头共同困境：模型与算力成本先由利润承担，广告和云业务回收收益，投资者能撑多久成悬念。",
+   "highlights_zh": [
+    "腾讯利润增速放缓与资本开支跳升并存",
+    "模型与算力成本先冲击利润表，广告云业务滞后回收",
+    "该模式正蔓延至中国主要互联网巨头"
+   ],
+   "why_zh": "理解AI投入对巨头财务结构的真实冲击与回报节奏",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-19",
+   "slot": "noon",
+   "selected_at": "2026-11-19T06:14:22+00:00",
+   "mirror_pdf": "pdf/web-4bf199f77931.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8210850.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cecb54f79562",
+   "kind": "article",
+   "title": "黄仁勋离开后，英伟达开始和 AI 云厂商讲担保条件了",
+   "url": "https://www.ithome.com/1/029/268.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 19 日消息，科技媒体 The Verge 今天（11 月 19 日）发布博文， 报道称英伟达收紧“金主”（sugar daddy）模式，对于云厂商和 AI 生态的“输血”设置了更高的门槛。 IT之家援引博文介绍，在黄仁勋执掌英伟达公司期间，英伟达不仅向 AI 公司出售 GPU，还会通过采购承诺、融资、股权投资等方式，帮助客户建设数据中心部署算力。 这种模式被称为 AI 行业的“金主”关系：英伟达先支持客户扩张，客户再用英伟达芯片建设 AI 算力设施，最终形成对英伟达产品、软件生态和供应链的持续需求。 而在最新财报电话会议上，英伟达临时首席执行官科莱特 · 克雷斯（Colette Kress）明确会筛选合作方，对新云（neocloud，为 AI 训练和推理而建的云计算公司）厂商的采购担保， 只有在对方完成融资、建成数据中心、部署算力并通过英伟达验收后才生效；若建设延期或受阻，担保即不再存在。 该媒体指出很多新云公司高度依赖债务融资来建设数据中心。若融资成本上升或资金获取变难，它们可能难以按期建成机房、采购设备并部署 GPU，而英伟达方面的支持减少，意味着它们会增加经济压力。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-19T05:08:33+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/029/268.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "英伟达收紧对新云厂商的采购担保条件",
+   "summary_zh": "英伟达临时CEO克雷斯明确，对新云厂商的采购担保须在融资到位、数据中心建成并通过验收后才生效，建设延期则担保失效，依赖债务扩张的新云公司压力骤增。",
+   "highlights_zh": [
+    "担保从签约即生效改为验收后生效",
+    "新云公司高度依赖债务融资建数据中心",
+    "英伟达从输血式支持转向筛选合作方"
+   ],
+   "why_zh": "AI算力扩张的金融杠杆正在收紧，影响整个算力供应链",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-19",
+   "slot": "noon",
+   "selected_at": "2026-11-19T06:14:22+00:00",
+   "mirror_pdf": "pdf/web-cecb54f79562.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/029/268.htm"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "英伟达GPU份额被自研ASIC与Neocloud双向挤压，护城河出现松动",
-   "why": "超大规模厂商转自研ASIC，Neocloud又依赖英伟达输血，Q3份额已从45.3%降至44.1%。",
+   "trend": "英伟达同时被超大规模厂商自研ASIC和Neocloud资金依赖反噬，GPU生态护城河出现裂缝。",
+   "why": "份额降至44.1%，且对新云担保收紧至验收后生效，依赖债务扩张的新云承压。",
    "refs": [
-    "web-65c317c7545e"
+    "web-65c317c7545e",
+    "web-cecb54f79562"
    ]
   },
   {
-   "trend": "中国大模型商业化进入Token规模战，办公场景成主战场",
-   "why": "腾讯WorkBuddy日活破千万、日均Token超百万亿，豆包工作日活800万、企业ARR破20亿。",
+   "trend": "中端模型以准旗舰性能加半价成本卡位，模型竞争从参数竞赛转向性价比分层。",
+   "why": "Gemini 4 Neon以AA指数第三、约对手一半成本获开发者好评，Sol亦逼近旗舰。",
+   "refs": [
+    "web-8dad22280482",
+    "web-e38c5cdf2a41"
+   ]
+  },
+  {
+   "trend": "推理侧工程突破正在把大模型部署门槛从集群级拉低到单机级。",
+   "why": "180B MoE可在32GB内存运行，国产基座语言模型单张3090即可跑。",
+   "refs": [
+    "web-af1852b4c46d",
+    "web-3a309e16ea12"
+   ]
+  },
+  {
+   "trend": "中国AI产品进入Token规模变现期，办公Agent成为最大用量入口。",
+   "why": "WorkBuddy日活破千万、日均Token超百万亿；豆包工作日活800万、企业ARR破20亿。",
    "refs": [
     "web-b68d6ed5ac3f",
     "web-477d3fb754b3"
    ]
   },
   {
-   "trend": "算力受限倒逼国产芯片替代，同时拖慢下一代模型节奏",
-   "why": "腾讯明确芯片限制拉长混元下一代推出时间，长期将加速国产供应链建设。",
+   "trend": "算力管制倒逼国产供应链提速，同时抬高头部厂商的利润与资本开支压力。",
+   "why": "腾讯称芯片限制拉长下一代模型周期；财报显示资本开支激增、利润放缓。",
    "refs": [
-    "web-0a9af8a578fc"
-   ]
-  },
-  {
-   "trend": "推理工程突破显存墙，大模型部署门槛下探",
-   "why": "Transformers在32GB内存跑180B MoE，微调实际耗时远超FLOPs预期暴露系统瓶颈。",
-   "refs": [
-    "web-af1852b4c46d",
-    "web-75623b38e68b"
-   ]
-  },
-  {
-   "trend": "AI评测走向第三方独立化，医疗等垂直领域率先建立标准",
-   "why": "全球首个医疗健康AI独立评测平台InclusionMed上线，填补第三方评测空白。",
-   "refs": [
-    "web-709316486f76"
+    "web-0a9af8a578fc",
+    "web-4bf199f77931"
    ]
   }
  ]
