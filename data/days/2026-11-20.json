@@ -2037,20 +2037,1390 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "arxiv-2611.26409",
+   "kind": "paper",
+   "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+   "url": "https://arxiv.org/abs/2611.26409",
+   "pdf_url": "https://arxiv.org/pdf/2611.26409",
+   "abstract": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation models spanning 2B, 4B, 9B, and 35B-A3B variants. Centering on joint audio-visual perception and reasoning, WeMM-Video unifies text, image, audio, and video processing within a hybrid-thinking paradigm, seamlessly supporting both a non-thinking instruct mode for fast, direct responses and a thinking mode for explicit step-by-step reasoning. The models are trained on a large-scale multimodal corpus of approximately 1.2 trillion tokens through progressive pre-training and a multi-stage post-training pipeline incorporating multi-teacher OPD, anti-repetition MrDPO, and specialist RL. Evaluated across more than 120 benchmarks, WeMM-Video demonstrates superior performance in omni-modal video understanding and reasoning, while maintaining highly competitive capabilities across general audio, silent video, image, and text tasks. Specifically, in omni-modal video evaluations, our flagship WeMM-Video-35B-A3B establishes a new open-source state of the art, substantially outperforming proprietary models such as Qwen3.5-Omni-Flash and Seed2.0-Mini-0428 while narrowing the gap with the strong Gemini-3.0-Flash, and our compact WeMM-Video-9B surpasses the larger open-source Qwen3-Omni-30B-A3B-Instruct. We publicly release the WeMM-Video family along with our evaluation and reproduction pipeline to foster further research and development in the open-source community.",
+   "authors": [
+    "Changli Tang",
+    "Jie Yang",
+    "Tianyi Wang",
+    "Lei Li",
+    "Daoze Zhang",
+    "Zijie Xin",
+    "Zhan Liu",
+    "Li Li",
+    "Jinchang Xu",
+    "Fengyun Rao",
+    "Chao Zhang",
+    "Jing Lyu"
+   ],
+   "orgs": [
+    "Tencent"
+   ],
+   "published": "2026-11-19T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.26409",
+     "signal": "▲ 36",
+     "metric": 36
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "腾讯开源全模态视频理解模型 WeMM-Video",
+   "summary_zh": "腾讯发布 2B 至 35B-A3B 四档中英双语全模态视频理解模型，统一文本、图像、音频与视频，支持思考/非思考双模式，在 120+ 基准上刷新开源 SOTA，超越 Qwen3.5-Omni-Flash 等闭源模型。",
+   "highlights_zh": [
+    "35B-A3B 旗舰在音视频联合理解上超越 Qwen3.5-Omni-Flash、Seed2.0-Mini，逼近 Gemini-3.0-Flash",
+    "9B 小模型已超过更大的开源 Qwen3-Omni 系列",
+    "1.2 万亿 token 语料，渐进预训练 + 多教师 OPD、抗重复 MrDPO、专家 RL 多阶段后训练"
+   ],
+   "why_zh": "开源全模态视频理解的最强基线，音视频联合推理能力首次逼近闭源第一梯队。",
+   "tags": [
+    "多模态",
+    "大模型",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.6759,
+   "score_llm": 8.0,
+   "score": 0.7504,
+   "date": "2026-11-20",
+   "slot": "evening",
+   "selected_at": "2026-11-20T13:57:34+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.26409.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.26409"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.26409"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.26409"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.26409"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.26409"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.26409"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/Tencent/WeMM-Video"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.26444",
+   "kind": "paper",
+   "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+   "url": "https://arxiv.org/abs/2611.26444",
+   "pdf_url": "https://arxiv.org/pdf/2611.26444",
+   "abstract": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same tasks or assess them separately without their composition, so they reveal little about whether a failure comes from reasoning, execution, or their composition. We introduce Mind2Act World, a diagnostic benchmark of 30 simulated manipulation tasks from five real-world application domains. Each task has three difficulty levels and two scene settings (Clean and Random), yielding 180 configurations. The tasks form three views: Mind tests decisions based on past observations, Act tests precise and timely execution, and Mind2Act combines both in closed-loop tasks where action outcomes guide later decisions. Comparing the three views shows whether a system lacks a capability or fails to compose capabilities it already has. A diagnosis harness further attributes the failed episodes of three representative systems to Mind, Act, or their composition and summarizes each system in a profile card. Our evaluation of multimodal agents, vision-language-action models (VLAs), and world-action models (WAMs) shows that competence in a single view does not carry over to Mind2Act tasks. Even the strongest agent succeeds in 52.7% of Mind and 39.0% of Act episodes but in only 12.0% of Mind2Act episodes. The strongest agent retains task state but struggles with sustained contact, whereas end-to-end policies execute practiced motions but retain little task state. These findings point to composing reasoning and execution through environmental feedback as the main open problem.",
+   "authors": [
+    "Yuzhi Huang",
+    "Jie Wu",
+    "Fanding Huang",
+    "Junchao Lin",
+    "Weichen Zhang",
+    "Ziyi Xiong",
+    "Yang Li",
+    "Zhengwei Xie",
+    "Zhimin Wang",
+    "Zhen Liu",
+    "Jiazhen Huang",
+    "Yuzheng Zhang",
+    "Yuche Liu",
+    "Hongyi Yang",
+    "Chen Tang",
+    "Shixiang Tang",
+    "Hakan Aktas",
+    "Adam Wu",
+    "Duo Wu",
+    "Kangye Ji",
+    "Shuzhao Xie",
+    "Huanan Liu",
+    "Weijue Bu",
+    "Chenxin Li",
+    "Xinyuan Wang",
+    "Tianyi Bai",
+    "Yinan Mao",
+    "Jiawei Wang",
+    "Minglei Li",
+    "Heng Yu",
+    "Ehsan Adeli",
+    "Minchen Li",
+    "Yong-Lu Li",
+    "Cengiz Öztireli",
+    "Huazhe Xu",
+    "Chao Yu",
+    "Jing Zhang",
+    "Shanghang Zhang",
+    "Weitao Zhou",
+    "Wenwu Zhu",
+    "Cheng Chi",
+    "Jingyan Jiang",
+    "Zhi Wang"
+   ],
+   "orgs": [
+    "Mind2Act-World"
+   ],
+   "published": "2026-11-19T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.26444",
+     "signal": "▲ 42",
+     "metric": 42
+    },
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.26444",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Mind2Act World：具身智能的“诊断式”基准",
+   "summary_zh": "提出 30 个仿真操作任务、180 种配置的诊断基准，把能力拆成“认知推理（Mind）”“物理执行（Act）”与二者闭环组合三视图，可定位失败究竟来自推理、执行还是组合，并给出系统能力画像卡。",
+   "highlights_zh": [
+    "三视图设计区分“缺能力”与“有能力但组合不起来”",
+    "覆盖 5 个真实应用域，每任务 3 难度 × 干净/随机两种场景",
+    "对多模态智能体、VLA、世界动作模型做失败归因诊断"
+   ],
+   "why_zh": "现有具身基准混在一起评，这个能告诉你机器人到底卡在“想不明白”还是“做不准”。",
+   "tags": [
+    "机器人",
+    "数据与评测",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.6649,
+   "score_llm": 8.0,
+   "score": 0.746,
+   "date": "2026-11-20",
+   "slot": "evening",
+   "selected_at": "2026-11-20T13:57:34+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.26444"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.26444"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.26444"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.26444"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.26444"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.26444"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/Mind2Act/Mind2Act_World"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-000028228240",
+   "kind": "article",
+   "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+   "url": "https://architectlabs.com/blog/frostbite",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-20T10:01:41Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50572503",
+     "signal": "275 pts",
+     "metric": 275
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Frostbite：AI 自主设计并验证的全新 CPU 架构",
+   "summary_zh": "研究者让 AI 完成 CPU 架构的发现、设计与验证全流程，产出可运行的新架构 Frostbite，展示 AI 在硬件设计自动化上的潜力。",
+   "highlights_zh": [
+    "AI 端到端参与 CPU 架构的发现、设计与形式化验证",
+    "产出名为 Frostbite 的新架构，而非仅优化已有设计",
+    "Hacker News 275 分，硬件与 AI 交叉领域关注度高"
+   ],
+   "why_zh": "AI 从写代码走向设计芯片架构，是自动化研发边界外扩的重要信号。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5835,
+   "score_llm": 8.0,
+   "score": 0.7134,
+   "date": "2026-11-20",
+   "slot": "evening",
+   "selected_at": "2026-11-20T13:57:34+00:00",
+   "mirror_pdf": "pdf/web-000028228240.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://architectlabs.com/blog/frostbite"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50572503"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1177dfbd92c1",
+   "kind": "article",
+   "title": "[AINews] Anthropic successfully completes largest IPO in history, valued at $1.5T",
+   "url": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
+   "pdf_url": "",
+   "abstract": "November 19, 2026 — ANT went from $83 at pricing to $111.50 at the open and $97.17 at the close. Plus, Google opens Genie 4 to developers.",
+   "authors": [
+    "swyx .ai"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-11-20T07:12:24+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "Anthropic完成史上最大IPO，市值达1.5万亿美元",
+   "summary_zh": "Anthropic上市定价83美元，开盘111.5美元、收盘97.17美元，成为史上最大IPO；同期Google向开发者开放Genie 4。",
+   "highlights_zh": [
+    "Anthropic以1.5万亿美元估值完成史上最大规模IPO",
+    "首日股价冲高回落，收盘较开盘跌约13%",
+    "Google同期向开发者开放Genie 4"
+   ],
+   "why_zh": "头部模型公司资本化里程碑，直接影响AI行业估值锚与竞争格局判断。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-11-20",
+   "slot": "evening",
+   "selected_at": "2026-11-20T13:57:34+00:00",
+   "mirror_pdf": "pdf/web-1177dfbd92c1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.25980",
+   "kind": "paper",
+   "title": "Learning What Actions Change: Action Effect Matching for Dynamics-Faithful World Models",
+   "url": "https://arxiv.org/abs/2611.25980",
+   "pdf_url": "https://arxiv.org/pdf/2611.25980",
+   "abstract": "World models aim to predict environment dynamics under actions, enabling the prediction of action consequences without executing them in the real world. Yet despite producing increasingly realistic videos, current world models often fail to capture how small action changes affect future observations. This limits their use in tasks such as robotic policy evaluation and model-based planning, where nearly identical actions can lead to qualitatively different outcomes. To address this, we propose AFFECT, an auxiliary training objective for learning the distribution of visual changes induced by action perturbations. Specifically, we inject temporally correlated noise into the actions of a policy trained on task-agnostic human teleoperation. We then train the world model so that its generated videos respond to this noise as the recorded videos do, without requiring repeated executions from the same initial state. Across OGBench simulation and real-world DROID and ALOHA-2 setups, AFFECT makes world-model rollouts more faithful to real outcomes. On DROID, the Pearson correlation between policy success rates in the world model and on the real robot rises from 0.47 to 0.79, alongside up to 23% lower FVD. These gains carry over to planning, where selecting actions with AFFECT-trained world models improves task success by up to 8.3%.",
+   "authors": [
+    "John Won",
+    "Yonghoon Dong",
+    "Jinwoo Shin"
+   ],
+   "orgs": [],
+   "published": "2026-11-19T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.25980",
+     "signal": "▲ 9",
+     "metric": 9
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AFFECT：让世界模型真正学会动作效应",
+   "summary_zh": "针对世界模型对细微动作变化不敏感的问题，AFFECT 通过给动作注入时序相关噪声并训练模型复现相应视觉变化，使仿真推演更贴近真实；DROID 上策略成功率与真机的相关性从 0.47 升至 0.79。",
+   "highlights_zh": [
+    "用动作扰动诱导的视觉变化作为辅助训练目标",
+    "无需同一初始状态重复执行即可学习动作效应",
+    "DROID 相关性 0.47→0.79，FVD 降 23%，规划成功率提升 8.3%"
+   ],
+   "why_zh": "世界模型用于机器人策略评估的关键短板被针对性修补，结果扎实。",
+   "tags": [
+    "机器人",
+    "强化学习",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.5177,
+   "score_llm": 8.0,
+   "score": 0.6871,
+   "date": "2026-11-20",
+   "slot": "evening",
+   "selected_at": "2026-11-20T13:57:34+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.25980.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.25980"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.25980"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.25980"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.25980"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.25980"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.25980"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.26510",
+   "kind": "paper",
+   "title": "AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher",
+   "url": "https://arxiv.org/abs/2611.26510",
+   "pdf_url": "https://arxiv.org/pdf/2611.26510",
+   "abstract": "Task success alone does not specify which behaviors post-training should reinforce. Even successful teacher trajectories can contain unsupported assumptions, unproductive repetition, or superficial verification. We propose Skill-FT (Skill-Guided Fine-Tuning), which uses natural-language skills to suppress undesirable habits and elicit underrepresented effective behaviors during teacher rollouts, then fine-tunes a target model on the resulting trajectories. We introduce AutoMaster, an autonomous post-training system in which an LLM agent develops these interventions through trajectory analysis, skill design, data selection, and feedback from rollouts and target-model evaluation. Across Terminal, Search, and software engineering tasks with 4B and 9B target models, AutoMaster improves mean performance over Vanilla SFT on successful unguided teacher trajectories by 1.42-8.99 percentage points, with the teacher, task pool, training set size, and SFT recipe held fixed. Together with the ablations and trajectory analyses, these results suggest that behavioral shaping can make a fixed model a more effective teacher. We further find that retaining skill instructions during SFT yields higher mean performance than removing them across all six settings, despite their absence at evaluation and identical supervised outputs. These findings suggest that preserving skill context as part of a training demonstration can support better behavioral internalization.",
+   "authors": [
+    "Guoxin Chen",
+    "Shuang Sun",
+    "Fanzhe Meng",
+    "Xinyu Tang",
+    "Ruihua Song",
+    "Wayne Xin Zhao"
+   ],
+   "orgs": [
+    "RUC-AIBOX"
+   ],
+   "published": "2026-11-19T00:00:00.000Z",
+   "sources": [
+    {
+     "name": "HF Daily Papers",
+     "authority": 0.7,
+     "url": "https://huggingface.co/papers/2611.26510",
+     "signal": "▲ 9",
+     "metric": 9
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AutoMaster：让同一模型成为更好的老师",
+   "summary_zh": "提出 Skill-FT，用自然语言技能抑制教师轨迹中的坏习惯、激发有效行为，并由 LLM 智能体自动完成技能设计与数据筛选；在 4B/9B 模型上较普通 SFT 平均提升 1.42–8.99 个百分点。",
+   "highlights_zh": [
+    "用自然语言技能对教师轨迹做行为塑形而非仅筛选成功样本",
+    "AutoMaster 由 LLM 智能体自主完成轨迹分析、技能设计与数据选择",
+    "SFT 阶段保留技能指令比移除效果更好，六个设置均成立"
+   ],
+   "why_zh": "后训练数据质量的新抓手：不换模型，靠行为塑形提升教师上限。",
+   "tags": [
+    "大模型",
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.5177,
+   "score_llm": 8.0,
+   "score": 0.6871,
+   "date": "2026-11-20",
+   "slot": "evening",
+   "selected_at": "2026-11-20T13:57:34+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.26510.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.26510"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.26510"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.26510"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.26510"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.26510"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.26510"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/RUCAIBox/AutoMaster"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5a59a935ef89",
+   "kind": "article",
+   "title": "估值 410 亿美元，贝佐斯打造「物理世界的 OpenAI」",
+   "url": "http://www.geekpark.net/news/374282",
+   "pdf_url": "",
+   "abstract": "作者｜宇航猿 编辑｜靖宇 AI 吞掉了软件，现在，它要吞掉工业了。 卸任亚马逊 CEO 五年后，杰夫·贝佐斯没忍住，又给自己找了个班上。 当地时间 2026 年 11 月 17 日，加州门洛帕克的 Semafor「硅谷与世界」峰会现场，贝佐斯和物理学家维克·巴贾杰（Vik Bajaj）罕见同台。 他现在的最新头衔，是 AI 初创公司 Prometheus 的联合创始人兼联席 CEO 。这是自 2021 年交出亚马逊帅印后，这位商业巨头首次重回一线担任 CEO。 早在 2024 年底种子期就掏钱投资的贝佐斯，在台上毫不掩饰自己的兴奋，直言项目进展太快，自己根本「没法坐在场边干看着」。 能让贝佐斯重返战场的，是个大赌局。 点开 Prometheus 的官网首页，目前只有极简的品牌标识与暖色光晕背景，几乎看不到任何公开的产品细节。但在水面之下， 这家仅有约 250 名员工的神秘公司，估值已经飙升至 410 亿美元，累计筹集了约 145 亿美元资金 。 极度低调的 Prometheus 官网首页目前仅展示品牌标识，尚未向公众开放工具集｜图片来源：Prometheus 官网 在长达 32 分钟的对谈里，贝佐斯第一次掀开了底牌。以往需要 10 到 20 人的工程师团队，耗时 6 到 9 个月才能搞定的模拟芯片、无线电设备或阀门设计，Prometheus 的系统在 12 小时内就能做完。他名下的商业航天公司蓝色起源，已经在两个项目上私密内测这套工具。 硅谷还在为聊天机器人和写代码的智能体卷生卷死，贝佐斯直接换了一张牌桌。 Prometheus 的野心，是成为物理世界的 OpenAI，用「原子的 AI」， 去重构数十万亿美元的实体制造业。 01 牛顿造不出小烤箱 Prometheus 145 亿美元的融资规模，很多人的第一反应，是贝佐斯也要下场造人形机器人了。 他在峰会上直接否认了这个猜测——Prometheus 既不做陪聊的语言模型，也不造双足机器人， 它的终极目标是打造「通用 AI 工程师」（Artificial General Engineer，简称 AGE） 。 为什么今天无所不能的纯文本大语言模型，干不了硬核工程师的活？ 贝佐斯在现场抛出了一个非常形象的比喻，「光靠阅读学不会工程。就算我读一千本体操书，我依然是个糟糕的体操运动员；读一千本舞蹈书，我还是不会跳舞。」 贝佐斯说，把牛顿、爱因斯坦和麦克斯韦等六位顶尖物理学家关进同一间屋子，让他们造一台小烤箱，这群天才大概率会毫无头绪。理解麦克斯韦方程组对造小烤箱毫无帮助， 因为理论物理和工程制造， 是在完全不同的颗粒度上运作的 。 曾任 Google X 核心高管、斯坦福大学医学院教授的联席 CEO 巴贾杰补充了另一个现实。哪怕在纯语言模型领域，专业化分工也已经不可避免，比如 Anthropic 能在编程能力上领先，正是源于高度专注。而到了物理世界，哪怕是手机里一个不起眼的无线电模块，不仅需要几十年的人类工程积淀，还得同时精通热学、力学和电磁特性才能完成封装。传统工程里，光是设置一次物理仿真往往就要耗费几天到几周。 为了跨越这道鸿沟， Prometheus 避开了纯文本路线，底层直接构建了用于数值仿真的神经代理模型， 和统一的多物理场模型，做成由 AI 驱动的新一代 CAD、物理仿真与工程智能体 。 这种跨学科能力，在内部测试中展现出了惊人的直觉。团队里有一位曾参与 NASA 喷气推进实验室（JPL）火星直升机研发的工程师，试着只用一句提示词，让系统重新设计火星直升机。 面对火星极端恶劣的环境，模型在庞大的",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-20T08:24:30+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/374282",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "贝佐斯重返一线：Prometheus要做物理世界的OpenAI",
+   "summary_zh": "贝佐斯联合创办的Prometheus估值410亿美元，不做聊天模型和机器人，而是构建神经代理仿真与多物理场模型，打造能自动完成芯片、无线电等工程设计的「通用AI工程师」，蓝色起源已内测。",
+   "highlights_zh": [
+    "贝佐斯卸任亚马逊CEO后首次重回一线任联席CEO，公司已融资约145亿美元",
+    "路线避开纯文本LLM，底层是数值仿真神经代理模型与统一多物理场模型",
+    "宣称原本10-20人耗时6-9个月的工程设计，系统12小时内完成"
+   ],
+   "why_zh": "AI从软件走向实体制造的关键信号，理解「原子的AI」这条新赛道的技术逻辑与野心。",
+   "tags": [
+    "科学AI",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-11-20",
+   "slot": "evening",
+   "selected_at": "2026-11-20T13:57:34+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/374282"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8eedfb938eff",
+   "kind": "article",
+   "title": "华为云开源昇腾原生具身世界模型CloudRobo-WM1.2，两项评测均列第一",
+   "url": "https://www.infoq.cn/article/LCqRiGDSeMBfXo4iktdA?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "褚杏娟"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-20T18:19:11+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/LCqRiGDSeMBfXo4iktdA?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "华为云开源昇腾原生具身世界模型，两项评测登顶",
+   "summary_zh": "华为云开源 CloudRobo-WM1.2 具身世界模型，原生适配昇腾算力，在两项评测中均列第一，为机器人仿真与决策提供国产化基座。",
+   "highlights_zh": [
+    "昇腾原生适配，摆脱对英伟达算力的依赖",
+    "两项具身智能评测均排名第一",
+    "开源可复用，降低机器人世界模型研发门槛"
+   ],
+   "why_zh": "关注国产算力生态与具身智能基座进展的从业者值得一读。",
+   "tags": [
+    "机器人",
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 8.0,
+   "score": 0.632,
+   "date": "2026-11-20",
+   "slot": "evening",
+   "selected_at": "2026-11-20T13:57:34+00:00",
+   "mirror_pdf": "pdf/web-8eedfb938eff.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/LCqRiGDSeMBfXo4iktdA?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a3af7e460c9c",
+   "kind": "article",
+   "title": "DeepSeek 新一轮千亿级融资落地，梁文锋保留绝对控制权",
+   "url": "https://www.ithome.com/1/030/199.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 20 日消息，工商信息显示，DeepSeek 运营主体杭州深度求索人工智能基础技术研究有限公司近日完成工商变更，新增股东杭州程砚企业管理咨询合伙企业（有限合伙）。 IT之家查询国家企业信用信息公示系统获悉，杭州深度求索注册资本由 1644.7496 万元增至 1991.8707 万元，增加 347.1211 万元，增幅约 21.1%。 据证券时报援引知情交易人士消息， DeepSeek 本轮融资募资规模区间在 1000 亿元至 1055 亿元 ，投后估值约 6155 亿元。叠加 2026 年 6 月首轮约 510 亿元融资，市场测算其短时间内两轮累计吸纳资金将超 1500 亿元。 据测算， 梁文锋直接及间接持股比例合计约 67.42% ，千亿资本入场并未改变控制权归属 。 作为新增股东的持股平台，杭州程砚也同步完成工商变更，登记出资额增至 343897.9 万元， 同时新增 31 家合伙人 。目前，杭州程砚合计拥有 32 名合伙人，杭州程策商务咨询有限公司仍担任执行事务合伙人。 据悉，杭州程砚的 31 家合伙人横跨互联网、通信运营商、芯片半导体、新能源、消费电子、汽车、家电以及头部 PE / VC，几乎把大模型商业化所需的上游算力与下游场景一次性集齐。 出资比例排在最前面的，是腾讯与宁德时代体系。腾讯旗下上海珩岫商业管理有限公司出资比例 9.5653%，为第一大出资人；宁德时代通过厦门时代怡远（4.9198%）、厦门时代深远（4.4410%）、福建时代泽远（0.2045%）三只基金合计出资同样为 9.5653%，与腾讯并列居前。 紧随其后的是中移投资控股与中信证券投资，各出资 7.6522%；砺思资本相关主体出资 7.1740%，进入前五。 除此之外，合伙人还囊括了中国移动、中国电信、美团龙珠、网易雷火、小红书、携程系、vivo、美的、立讯体系（立臻精密）、吉利产投、兆易创新、中芯聚源、横店资本等；投资机构一端则聚集了博裕、IDG、高榕、君联、正心谷、CPE 源峰、拾象、石溪资本、国寿股权、中金系等。 工商信息显示，杭州程砚的执行事务合伙人仍由杭州程策商务咨询有限公司担任，而梁文锋持有杭州程策 99% 股权。也就是说， 31 家外部股东进入的是持股平台，通过平台间接享有经济收益 ，杭州程策作为普通合伙人控制权牢牢留在创始人一侧。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-20T10:47:45+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/199.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek 千亿级融资落地，梁文锋保留绝对控制权",
+   "summary_zh": "DeepSeek 完成约千亿元融资，投后估值约 6155 亿元，腾讯、宁德时代、中移动等 31 家产业与资本方进入持股平台，梁文锋仍以约 67% 持股掌控公司。",
+   "highlights_zh": [
+    "本轮募资 1000–1055 亿元，投后估值约 6155 亿元，两轮累计超 1500 亿元",
+    "腾讯与宁德时代体系并列第一大出资人，各约 9.57%",
+    "31 家新合伙人横跨算力、芯片、运营商与下游场景，控制权仍归创始人"
+   ],
+   "why_zh": "国内大模型最大规模融资之一，股东结构透露算力与场景绑定的商业化路线。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-20",
+   "slot": "evening",
+   "selected_at": "2026-11-20T13:57:34+00:00",
+   "mirror_pdf": "pdf/web-a3af7e460c9c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/199.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f991dd82d59c",
+   "kind": "article",
+   "title": "zhouxiaoka/autoclip",
+   "url": "https://github.com/zhouxiaoka/autoclip",
+   "pdf_url": "",
+   "abstract": "Star zhouxiaoka / autoclip AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.\nREADME: # AutoClip ### 一个链接，一键出片 开源，在你的电脑上剪辑与渲染。贴一个链接，选好平台，生成 视频、封面和发布文案 ， 适配抖音、小红书、TikTok、Reels、YouTube Shorts、B 站与 YouTube。 软件免费，云端模型按量计费；需要调整时可进入编辑器。 **[官网](https://zhouxiaoka.github.io/autoclip_intro/)** · **[下载桌面版](https://github.com/zhouxiaoka/autoclip/releases/latest)** · [案例库](https://zhouxiaoka.github.io/autoclip_intro/cases/) · [研究](docs/research/2026-10-what-drives-views/article-zh.md) · [快速开始](#快速开始) · [文档](#文档) · [问题反馈](https://github.com/zhouxiaoka/autoclip/issues/new/choose) **简体中文** · [English](README-EN.md) · [日本語](README-JA.md) · [한국어](README-KO.md) · [Español](README-ES.md) · [Português](README-PT.md) · [Русский](README-RU.md) · [Français](README-FR.md) **[最新正式版](https://github.com/zhouxiaoka/autoclip/releases/latest)**，桌面、CLI 与 MCP 同步更新。版本以 `autoclip --version` 和 MCP `get_version` 为准。一键出片、字幕分页、人物取景与长视频队列修复见 [更新日志](CHANGELOG.md)。旧版用户请升级。 ## 真实成片 点击截图或「播放」直接观看完整成片；下方语言指成片字幕语言。这里精选 6 条，展开可看另外 10 条。 ### 竖版 · 访谈式与满屏播客式 Bill Gates 访谈式 · 抖音 · 中文 ▶ 播放 1:01 · 原片 AI Experts Debate 访谈式 · Shorts · 英文 ▶ 播放 1:25 · 原片 Tony Robbins 满屏播客 · 抖音 · 中文 ▶ 播放 1:45 · 原片 Andrew Garfield × Amy Poehler 满屏播客 · Shorts · 英文 ▶ 播放 1:01 · 原片 ### 横版 · 保留原画幅 佟丽娅 × 鲁豫 原画幅 · B 站 · 中文 ▶ 播放 1:41 · 原片 Sam Altman 原画幅 · B 站 · 中文 ▶ 播放 2:02 · 原片 查看更多 10 条真实成片 Adam Neumann 满屏播客 · TikTok · 英文 ▶ 播放 0:59 · 原片 小奇 × 鲁豫 访谈式 · 抖音 · 中文 ▶ 播放 0:50 · 原片 郭柯宇 × 鲁豫 访谈式 · 抖音 · 中文 ▶ 播放 1:11 · 原片 Willem Dafoe 满屏播客 · TikTok · 英文 ▶ 播放 1:07 · 原片 TIM × 罗永浩 访谈式 · 抖音 · 中文 ▶ 播放 1:05 · 原片 Jensen Huang 访谈式 · 小红书 · 中文 ▶ 播放 1:17 · 原片 An",
+   "authors": [],
+   "orgs": [
+    "zhouxiaoka"
+   ],
+   "published": "2026-11-20T13:57:34+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/zhouxiaoka/autoclip",
+     "signal": "★ 今日 +983 · Python",
+     "metric": 983
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AutoClip：一键把长视频剪成短视频的开源桌面工具",
+   "summary_zh": "开源 AI 视频剪辑工具，贴一个链接即可把播客、访谈、课程自动剪成适配抖音、小红书、Shorts 等平台的短视频，并生成字幕、封面与发布文案，本地渲染、云端模型按量计费。",
+   "highlights_zh": [
+    "桌面版、CLI 与 MCP 三端同步，可接入智能体工作流",
+    "自动字幕分页、人物取景与长视频队列处理",
+    "软件免费，仅云端模型按量计费，可进编辑器手动微调"
+   ],
+   "why_zh": "如果你在做播客或课程内容分发，可以用它把长视频批量转成多平台竖版短视频。",
+   "tags": [
+    "产品与行业",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.6227,
+   "score_llm": 6.0,
+   "score": 0.6091,
+   "date": "2026-11-20",
+   "slot": "evening",
+   "selected_at": "2026-11-20T13:57:34+00:00",
+   "mirror_pdf": "pdf/web-f991dd82d59c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/zhouxiaoka/autoclip"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.26009",
+   "kind": "paper",
+   "title": "Evaluating safeguarding in multi-turn conversations with AI assistants",
+   "url": "https://arxiv.org/abs/2611.26009",
+   "pdf_url": "https://arxiv.org/pdf/2611.26009",
+   "abstract": "Conversational AI assistants are now used for personal and emotional support. Developers report improvements in how new models respond to sensitive conversations, yet users and civil society continue to raise concerns about their behaviour in real-world, repeated interactions that safety evaluations rarely capture. Often, evaluations present signs of distress clearly and in a single message, even though people may reveal their struggles gradually in otherwise ordinary conversations. We worked with three community mental health support workers to test if models provide the same level of safeguarding when cues are shared all at once or gradually over time. We designed nine scenarios in which a user shares cues related to depression, psychosis, or domestic abuse. For each scenario, the support workers established a gold standard response, ranging from signposting support to pausing the everyday task to address safeguarding. We presented five cues either together in one message or dispersed across a conversation. Across more than 7,400 conversations, we evaluated six widely used models from five developers. GPT-5.5, Grok 4.3, DeepSeek V4, and Llama 4 Maverick met the support workers' standards in just 26-59% of conversations when cues were concentrated, and only 3-6% when dispersed. Claude Sonnet 5 and Claude Opus 5 showed a smaller gap, meeting the standards in 68-97% of concentrated conversations and 59-87% of dispersed conversations. Even the best-performing model, Claude Opus 5, fell short of the gold standard in 13% of conversations when cues were dispersed. Safety evaluations centred on explicit, legible concerns can overstate how well safeguards protect people when signs of distress emerge gradually or indirectly through ordinary conversations. For claims of improved safety to be taken seriously, developers must design and assess safeguards around how people actually communicate.",
+   "authors": [
+    "Charlotte Peart",
+    "Franziska Sofia Hafner",
+    "Luc Rocher"
+   ],
+   "orgs": [],
+   "published": "2026-11-19T12:28:53Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.26009",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "论文",
+   "lang": "en",
+   "who": "",
+   "title_zh": "多轮对话中的安全防护评测：线索分散时模型大幅失守",
+   "summary_zh": "与三位社区心理支持工作者合作设计九类抑郁、精神病性与家暴线索场景，在 7400 多轮对话中测试六个模型：线索集中时仅 26%-59% 达标，分散到多轮后骤降至 3%-6%，Claude 系列差距最小。",
+   "highlights_zh": [
+    "由心理健康从业者制定从转介支持到暂停任务处理的金标准回应",
+    "现有安全评测多把痛苦信号放在单条消息中，与真实使用不符",
+    "线索分散时多数模型几乎完全失去防护能力，Claude Sonnet/Opus 5 达标率 68%-97%"
+   ],
+   "why_zh": "对话产品安全评测的关键盲区：多轮渐进暴露线索下的防护失效。",
+   "tags": [
+    "对齐与安全",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-20",
+   "slot": "evening",
+   "selected_at": "2026-11-20T13:57:34+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.26009.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.26009"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.26009"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.26009"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.26009"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.26009"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.26009"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-df39d3dc4691",
+   "kind": "article",
+   "title": "昇腾算力训出了双榜SOTA的具身世界模型，华为云这次想把整套底座开放出来",
+   "url": "https://www.qbitai.com/2026/11/511610.html",
+   "pdf_url": "",
+   "abstract": "国产算力的成熟，把具身竞争维度从「芯片有多强」，拉入了一个比拼训练效率、数据规模、部署成本和场景落地速度的多维战场。",
+   "authors": [
+    "田, 晏林"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-20T08:04:58+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/511610.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "昇腾算力训出双榜 SOTA 具身世界模型，华为云开放整套底座",
+   "summary_zh": "华为云用昇腾算力训练出双榜 SOTA 的具身世界模型，并计划开放整套训练底座，国产算力竞争转向训练效率与落地速度。",
+   "highlights_zh": [
+    "具身世界模型在两项榜单达到 SOTA",
+    "训练全程基于昇腾国产算力",
+    "华为云拟开放整套底座，降低复现门槛"
+   ],
+   "why_zh": "关注国产算力与具身智能落地的从业者，可判断生态开放的实际价值。",
+   "tags": [
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-20",
+   "slot": "evening",
+   "selected_at": "2026-11-20T13:57:34+00:00",
+   "mirror_pdf": "pdf/web-df39d3dc4691.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/511610.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ba504aec0cf0",
+   "kind": "article",
+   "title": "iamajmeena/neonclipping",
+   "url": "https://github.com/iamajmeena/neonclipping",
+   "pdf_url": "",
+   "abstract": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+   "authors": [],
+   "orgs": [
+    "iamajmeena"
+   ],
+   "published": "2026-11-20T13:57:34+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/iamajmeena/neonclipping",
+     "signal": "★ 984（新项目） · Python",
+     "metric": 984
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "NeonClipping：本地开源短视频切片引擎",
+   "summary_zh": "粘贴链接即可在约 2 分钟内生成带字幕的 9:16 竖屏切片，全程本地运行，结合音频优先、YouTube 字幕与本地 LLM。",
+   "highlights_zh": [
+    "输入链接自动切片并加字幕，输出 9:16 竖屏视频",
+    "完全本地运行，免费开源，无需云端 API",
+    "音频优先策略 + 本地 LLM 选段，约 2 分钟出片"
+   ],
+   "why_zh": "如果你在做短视频二创或内容分发，可用它本地批量生成带字幕竖屏切片。",
+   "tags": [
+    "多模态",
+    "语音",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5828,
+   "score_llm": 6.0,
+   "score": 0.5931,
+   "date": "2026-11-20",
+   "slot": "evening",
+   "selected_at": "2026-11-20T13:57:34+00:00",
+   "mirror_pdf": "pdf/web-ba504aec0cf0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/iamajmeena/neonclipping"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4211e49d343e",
+   "kind": "article",
+   "title": "AI Agent 元年，苹果是最后一个入局的巨头",
+   "url": "https://www.ifanr.com/1690510?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "苹果急了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "郑廷旭"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-11-20T01:17:16+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1690510?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "苹果入局AI智能体，巨头中最后一个",
+   "summary_zh": "爱范儿分析苹果在AI Agent浪潮中的迟到与追赶策略，指出其生态整合能力仍是潜在变量。",
+   "highlights_zh": [
+    "苹果是最后入局AI智能体的科技巨头",
+    "分析苹果的追赶路径与生态优势",
+    "智能体竞争格局的行业观察"
+   ],
+   "why_zh": "了解苹果在智能体赛道的战略位置与竞争态势",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-20",
+   "slot": "evening",
+   "selected_at": "2026-11-20T13:57:34+00:00",
+   "mirror_pdf": "pdf/web-4211e49d343e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1690510?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bcf193317afd",
+   "kind": "article",
+   "title": "大二「天才少女」刚拿下 ACM 最佳论文，立陷造假疑云，通讯作者独家回应",
+   "url": "https://www.leiphone.com/category/private/fTZ8RbFMcD34HieP.html",
+   "pdf_url": "",
+   "abstract": "事件全貌梳理 + 当事人独家回应 作者丨 邓哲敏 编辑丨 齐铖湧 近日，一场疑似“学术造假”事件，在国内学术圈掀起了轩然大波。 事件的暴风眼，来自刚刚结束的顶级学术会议 ACM MM 2026，这场国际多媒体领域顶会上的一篇 Best Paper，被指出诸多疑点，质疑它可能存在的造假行为和国际顶会最佳论文这个 title 的含金量。 AI科技评论（雷峰网）梳理了事情的来龙去脉，并独家联系到这篇论文的通讯作者。 01 缘起 11 月 14 日，ACM MM 2026 于巴西闭幕，因为 AI 时代的来到，这个会议备受学界关注。 这次疑云的主角，是 17 篇最佳论文中的一篇，题目为《Clifford-Algebra-Based Geometric Feature Fusion for Real-Time UHD Low-Light Image Enhancement》。 这是一篇关于如何用 AI 将图片变得更明亮的工作，方向热门，不少学者在这个领域耕耘数十载。让人惊讶的是，论文第一作者 Xiaohan Wang，来自西安电子大学本科二年级。 一个大二学生的第一篇论文，拿下顶会最佳。 名单页面往下拉，通讯作者一栏，名字后面没有带高校或研究所，而是 Independent，独立研究者。 在学术圈的语境里，这个署名通常对应两种人。一种是不需要单位的，功成名就，头衔已经比机构响亮。另一种是没有单位的。 本是独立研究者带天才少女潜心研究，勇闯国际顶会，拿下 Best Paper 的励志叙事，却因为接下来发生的事，演变成一场学术是否造假的舆论风波。 02 论文 据AI科技评论调查，最早的质疑出现在 11 月 14 日 ，有人在知乎提问，如何评价这篇 Best Paper。 提问者自称在 low level vision 领域做了多年研究，率先回复了自己的提问，列出 5 个问题。 第一，故意压低对比方法。论文拿没在数据集上训练过的旧方法和自己训练过的方法进行比较。 第二，把合成数据说成实拍。论文称测试数据是真实世界拍的照片，但原数据集作者写过，数据是电脑合成的。 第三，强者没进比赛。比自己厉害的方法只提了名字，没放进对比表；放进去的，都是一些无监督的方法。论文自己的成绩是 20.56 分，连 2018 年的一个老方法（21.67 分）都打不过。 第四，可疑的用户打分。论文附了一份用户研究，48 个分项全部整齐地以 .x0 或 .x5结尾，没有一个落在别的位置，还有 5 个分项一模一样。这种分布自然出现的概率，是 3.55 × 10³³ 分之一。 第五，核心卖点名不副实。论文题目里疑似碰瓷了高数灯塔“克利福德代数”，但把论文里的公式拆开算，其实就是“两个数相乘再求和”这种最普通的操作，跟高等数学关系不大。 这条帖子很快引来领域内研究者们的关注，通讯作者也 亲自下场回应 ，喊话质疑者“大胆复现”。 有来有回的学术对线，引来了更多关注。 很快，另一名答主（清华大学电子信息在读硕士）尝试复现。他认可了论文的工程路线，但对研究动机、基线比较数据提出了更全面的质疑，直指 一作学术训练不够、通讯作者指导不到位、会议评审不严格 。 摘自知乎答 主结论 部分，完整回答见： https://www.zhihu.com/question/2104933122630476610 由于论文没有开源，所以围绕数据的质疑，既无法被证实，也无法被证伪，双方隔着一层毛玻璃互相喊话。 11 月 17 日，有人把视线从实验部分挪到了参考文献：论文的第 12 条引用，指向一篇不存在的论文；第 47 条和第",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-20T06:03:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/private/fTZ8RbFMcD34HieP.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "大二学生ACM MM最佳论文陷造假疑云，通讯作者回应",
+   "summary_zh": "ACM MM 2026最佳论文被质疑压低基线、合成数据冒充实拍、用户打分异常，通讯作者回应喊话'大胆复现'，清华研究者复现后提出更多质疑。",
+   "highlights_zh": [
+    "质疑者列出五宗罪：基线不公、数据造假、可疑用户研究等",
+    "用户打分48项全部以.x0或.x5结尾，自然出现概率极低",
+    "暴露顶会评审流程与独立研究者署名机制的漏洞"
+   ],
+   "why_zh": "关乎AI顶会评审可信度与学术规范，从业者应了解的事件全貌。",
+   "tags": [
+    "数据与评测",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-20",
+   "slot": "evening",
+   "selected_at": "2026-11-20T13:57:34+00:00",
+   "mirror_pdf": "pdf/web-bcf193317afd.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/private/fTZ8RbFMcD34HieP.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6bb4d1aa7fee",
+   "kind": "article",
+   "title": "Grab 通过安全策略应对 AI 生成代码变更激增，提升移动端 App 稳定性",
+   "url": "https://www.infoq.cn/article/AH8deOIGb5hMHRPIKfrf?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "Sergio De Simone"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-20T14:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/AH8deOIGb5hMHRPIKfrf?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Grab 用安全策略应对 AI 生成代码激增",
+   "summary_zh": "Grab 面对 AI 生成代码变更量激增，通过安全策略与流程管控提升移动端 App 稳定性，为大规模采用 AI 编码的团队提供治理样本。",
+   "highlights_zh": [
+    "AI 生成代码带来变更量激增的治理难题",
+    "以安全策略保障移动端稳定性",
+    "对工程团队落地 AI 编码有借鉴意义"
+   ],
+   "why_zh": "正在规模化使用 AI 写代码的团队可参考其治理思路。",
+   "tags": [
+    "代码",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-20",
+   "slot": "evening",
+   "selected_at": "2026-11-20T13:57:34+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/AH8deOIGb5hMHRPIKfrf?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ef52a5b9b70e",
+   "kind": "article",
+   "title": "范式首秀！国产算力训练的Phai系列模型，究竟有什么不同",
+   "url": "https://www.infoq.cn/article/DQlimzDy7bqiZ3mc5Vvq?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：杨过"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-19T16:08:30+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/DQlimzDy7bqiZ3mc5Vvq?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "范式首秀：国产算力训练的Phai系列模型有何不同",
+   "summary_zh": "InfoQ 报道国产算力训练的 Phai 系列模型，介绍其在训练范式上的差异与工程取舍，是国产算力路线的一次公开验证。",
+   "highlights_zh": [
+    "Phai 系列模型完全基于国产算力训练",
+    "重点在训练范式与工程实现上的差异化",
+    "为国产芯片训练大模型提供可参考样本"
+   ],
+   "why_zh": "关注国产算力能否撑起大模型训练，可看其工程细节与实测表现。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-20",
+   "slot": "evening",
+   "selected_at": "2026-11-20T13:57:34+00:00",
+   "mirror_pdf": "pdf/web-ef52a5b9b70e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/DQlimzDy7bqiZ3mc5Vvq?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c034da5c4362",
+   "kind": "article",
+   "title": "阿里发布2027年Q2财报：阿里云AI收入增长53%，即时零售减亏",
+   "url": "https://www.tmtpost.com/8212798.html",
+   "pdf_url": "",
+   "abstract": "AI相关产品收入已经连续第十三个季度保持三位数同比增长，互联网、汽车、具身智能、金融、生物科技等行业客户持续扩容算力采购需求。",
+   "authors": [
+    "消费纵深"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-20T10:31:54+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8212798.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "阿里财报：阿里云AI收入增长53%，连续13季三位数增长",
+   "summary_zh": "阿里发布财报，阿里云 AI 相关收入同比增长 53%，AI 产品收入连续 13 个季度三位数增长，互联网、汽车、具身智能、金融、生物科技客户持续扩容算力采购。",
+   "highlights_zh": [
+    "AI 相关产品收入连续 13 季三位数同比增长",
+    "客户覆盖互联网、汽车、具身智能、金融、生物科技",
+    "即时零售业务减亏"
+   ],
+   "why_zh": "头部云厂商 AI 收入是观察国内算力需求与商业化节奏的关键指标。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-20",
+   "slot": "evening",
+   "selected_at": "2026-11-20T13:57:34+00:00",
+   "mirror_pdf": "pdf/web-c034da5c4362.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8212798.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4b8923ac2c93",
+   "kind": "article",
+   "title": "Falling Prices Push AI Video Toward Platform Economics",
+   "url": "https://www.tmtpost.com/8212911.html",
+   "pdf_url": "",
+   "abstract": "Video-model quality is converging as per-second API prices decline. OpenAI discontinued Sora after sustained losses. Google, ByteDance, and Kuaishou continue to invest, recovering costs through cloud, advertising, and content distribution that independent model vendors lack.",
+   "authors": [
+    "Chelsea_Sun"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-20T09:54:05+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8212911.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "视频模型降价，AI视频走向平台经济学",
+   "summary_zh": "视频模型质量趋同、按秒 API 价格持续下降，OpenAI 因持续亏损停掉 Sora；谷歌、字节、快手靠云、广告与内容分发回收成本，独立模型厂商缺乏这些渠道。",
+   "highlights_zh": [
+    "视频模型质量趋同，按秒 API 价格持续走低",
+    "OpenAI 因持续亏损停掉 Sora",
+    "平台型公司靠云、广告、内容分发摊薄成本"
+   ],
+   "why_zh": "揭示 AI 视频从模型竞赛转向平台成本结构的拐点。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-20",
+   "slot": "evening",
+   "selected_at": "2026-11-20T13:57:34+00:00",
+   "mirror_pdf": "pdf/web-4b8923ac2c93.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8212911.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-32cca7ee5709",
+   "kind": "article",
+   "title": "Fuck Your AI Safeguards",
+   "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-19T16:30:18Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50562262",
+     "signal": "571 pts",
+     "metric": 571
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "去你的 AI 安全护栏",
+   "summary_zh": "HN 高热文章批评当前 AI 安全护栏设计，摘要缺失，具体论点与案例无法确认。",
+   "highlights_zh": [
+    "HN 571 分，反映开发者对护栏的普遍不满",
+    "涉及对齐与安全的产品化落地争议",
+    "原文内容缺失，仅标题可判断立场"
+   ],
+   "why_zh": "安全护栏与可用性的张力是产品落地痛点，但需读原文再判断观点是否扎实。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.6177,
+   "score_llm": 5.0,
+   "score": 0.5471,
+   "date": "2026-11-20",
+   "slot": "evening",
+   "selected_at": "2026-11-20T13:57:34+00:00",
+   "mirror_pdf": "pdf/web-32cca7ee5709.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50562262"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a9bca652f0af",
+   "kind": "article",
+   "title": "Tracer-Cloud/opensre",
+   "url": "https://github.com/Tracer-Cloud/opensre",
+   "pdf_url": "",
+   "abstract": "Star Tracer-Cloud / opensre The open-source agent for CI/CD reliability.",
+   "authors": [],
+   "orgs": [
+    "Tracer-Cloud"
+   ],
+   "published": "2026-11-20T13:57:34+00:00",
+   "sources": [
+    {
+     "name": "GitHub Trending",
+     "authority": 0.6,
+     "url": "https://github.com/Tracer-Cloud/opensre",
+     "signal": "★ 今日 +465 · Python",
+     "metric": 465
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "opensre：CI/CD 可靠性的开源智能体",
+   "summary_zh": "Tracer-Cloud 开源面向 CI/CD 可靠性的智能体项目，GitHub 单日涨 465 星，README 信息有限，具体能力待验证。",
+   "highlights_zh": [
+    "定位 CI/CD 流水线故障排查与可靠性运维",
+    "Python 实现，GitHub Trending 单日 +465",
+    "项目较新，文档与成熟度尚不明确"
+   ],
+   "why_zh": "如果你在搭 DevOps 智能体，可以关注它如何把 agent 接入流水线排障，但需自行评估成熟度。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.592,
+   "score_llm": 5.0,
+   "score": 0.5368,
+   "date": "2026-11-20",
+   "slot": "evening",
+   "selected_at": "2026-11-20T13:57:34+00:00",
+   "mirror_pdf": "pdf/web-a9bca652f0af.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/Tracer-Cloud/opensre"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b4d0ca6ced6f",
+   "kind": "article",
+   "title": "Sharp Tech on Video: Jensen’s Not Coming Back, AI Shopping, The iPhone Duo",
+   "url": "https://stratechery.com/2026/sharp-tech-on-video-jensens-not-coming-back-ai-shopping-the-iphone-duo/",
+   "pdf_url": "",
+   "abstract": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery",
+   "authors": [
+    "Ben Thompson"
+   ],
+   "orgs": [
+    "Stratechery"
+   ],
+   "published": "2026-11-20T11:00:00+00:00",
+   "sources": [
+    {
+     "name": "Stratechery",
+     "authority": 0.8,
+     "url": "https://stratechery.com/2026/sharp-tech-on-video-jensens-not-coming-back-ai-shopping-the-iphone-duo/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Ben Thompson，科技战略分析",
+   "title_zh": "Sharp Tech视频版：黄仁勋不会回头、AI购物与iPhone双机",
+   "summary_zh": "Stratechery的Sharp Tech播客首次推出视频版，讨论黄仁勋、AI购物与iPhone双机等话题。",
+   "highlights_zh": [
+    "Sharp Tech首次提供视频形式，可在YouTube/Spotify观看",
+    "话题涵盖AI购物等消费级应用",
+    "以播客形式呈现，缺乏文字要点"
+   ],
+   "why_zh": "Ben Thompson的分析值得听，但本条仅为节目上线通知，信息量有限。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 5.0,
+   "score": 0.528,
+   "date": "2026-11-20",
+   "slot": "evening",
+   "selected_at": "2026-11-20T13:57:34+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://stratechery.com/2026/sharp-tech-on-video-jensens-not-coming-back-ai-shopping-the-iphone-duo/"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "判断能力正从生成模型中剥离，成为独立可并行的新模型品类",
-   "why": "Google Decision 1与Perplexity Decider v1.3同期押注「只输出概率、单次前向多判断」，成本与吞吐成为新竞争维度。",
-   "refs": [
-    "web-c3208c8e6ec1",
-    "web-a80ebc29fe39"
-   ]
-  },
-  {
-   "trend": "头部模型能力差距收窄，竞争重心转向工程效率与成本",
-   "why": "Gemini 4 Neon被视作可与Opus 5.5正面竞争并登顶工程指数，模型层同质化加剧。",
+   "trend": "前沿模型能力趋同，竞争重心从模型代差转向成本与工程效率",
+   "why": "Gemini 4 Neon 被视为可与 Opus 5.5 正面竞争并登顶工程指数，头部差距明显收窄。",
    "refs": [
     "web-9491587c1875",
     "web-ed33061e28b0",
@@ -2058,15 +3428,24 @@
    ]
   },
   {
-   "trend": "AI自我改进从论文走向预训练实操，递归造AI成AGI主路径候选",
-   "why": "Recursive团队称是全球唯一在预训练阶段做递归自我改进，系统已能自写高性能GPU Kernel。",
+   "trend": "判断能力正从生成模型中剥离，独立决策模型成为新赛道",
+   "why": "谷歌与 Perplexity 同期推出只输出概率的决策模型，单次前向并行处理多项判断。",
    "refs": [
-    "web-83b92fea3046"
+    "web-c3208c8e6ec1",
+    "web-a80ebc29fe39"
+   ]
+  },
+  {
+   "trend": "AI 自我改进从概念走向工程化，递归造 AI 成 AGI 主路径候选",
+   "why": "Recursive 称全球唯一在预训练阶段做递归自我改进，系统已能自写 GPU Kernel。",
+   "refs": [
+    "web-83b92fea3046",
+    "web-000028228240"
    ]
   },
   {
    "trend": "行业从抢用户转向控成本，免费额度与算力扩张同步收紧",
-   "why": "DeepSeek对免费用户设限、阿里千问停止烧钱换月活并下调数据中心目标，成本约束显性化。",
+   "why": "DeepSeek 对免费用户设限、阿里停止烧钱换月活并下调数据中心目标。",
    "refs": [
     "web-2c602d564a2e",
     "web-6a34c1573848",
@@ -2074,10 +3453,10 @@
    ]
   },
   {
-   "trend": "Agent落地进入工程化阶段，可观测性与脚手架进化成新评测焦点",
-   "why": "AHE-Beta以需求驱动脚手架进化将pass@1从21.9%提至33.3%，行业议题转向上线后评估与持续优化。",
+   "trend": "Agent 评测从跑分转向诊断式与生产可观测，工程化成为落地门槛",
+   "why": "Mind2Act 拆解推理与执行失败归因，AICon 议题聚焦上线后观测与持续优化。",
    "refs": [
-    "arxiv-2611.24924",
+    "arxiv-2611.26444",
     "web-fd4fa45ef30d",
     "web-a2de0ce45f46"
    ]
