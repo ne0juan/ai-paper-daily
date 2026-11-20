@@ -1,11 +1,10 @@
-2026-11-19 19:30:02,188 INFO source hf_daily           -> 15 items
-2026-11-19 19:30:04,535 INFO source hackernews         -> 9 items
-2026-11-19 19:30:53,494 INFO source rss                -> 101 items
-2026-11-19 19:30:55,353 INFO source html_lists         -> 0 items
-2026-11-19 19:30:55,353 INFO source x                  -> 0 items
-2026-11-19 19:30:55,800 INFO source arxiv_search       -> 57 items
-2026-11-19 19:31:13,949 INFO source github             -> 20 items
-2026-11-19 19:31:13,950 INFO candidates: 200 (stale dropped 93, new 62)
-2026-11-19 19:32:08,984 INFO llm judged 62/62 (calls=8)
-2026-11-19 19:32:57,754 WARNING snapshot https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast: blocked or empty page
-2026-11-19 19:34:45,386 INFO run done: {"at": "2026-11-19T19:30:01+00:00", "slot": "morning", "candidates": 200, "new": 62, "stale": 93, "judged": 62, "selected": 19, "mirrored": 16, "by_category": {"资讯": 14, "技术": 4, "项目": 1}, "by_source": {"HF Daily Papers": 15, "arXiv 新论文": 57, "Hacker News": 9, "OpenAI": 8, "量子位": 10, "极客公园": 5, "IT之家": 19, "爱范儿": 9, "少数派": 1, "雷峰网": 12, "钛媒体": 4, "InfoQ 中文": 14, "Latent Space": 2, "Stratechery": 2, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 2, "Timothy B. Lee": 1, "Dean Ball": 1, "Hugging Face Blog": 5, "Google DeepMind": 2, "NVIDIA": 3, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
+2026-11-20 05:59:36,063 INFO source hf_daily           -> 11 items
+2026-11-20 05:59:36,365 INFO source hackernews         -> 5 items
+2026-11-20 05:59:58,404 INFO source rss                -> 89 items
+2026-11-20 06:00:00,543 INFO source html_lists         -> 0 items
+2026-11-20 06:00:00,543 INFO source x                  -> 0 items
+2026-11-20 06:00:13,857 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
+2026-11-20 06:00:23,510 INFO source github             -> 20 items
+2026-11-20 06:00:23,512 INFO candidates: 125 (stale dropped 24, new 56)
+2026-11-20 06:01:16,490 INFO llm judged 55/56 (calls=7)
+2026-11-20 06:04:52,263 INFO run done: {"at": "2026-11-20T05:59:35+00:00", "slot": "noon", "candidates": 125, "new": 56, "stale": 24, "judged": 55, "selected": 18, "mirrored": 16, "by_category": {"资讯": 13, "观点": 1, "项目": 2, "技术": 2}, "by_source": {"HF Daily Papers": 11, "Hacker News": 5, "量子位": 10, "极客公园": 4, "IT之家": 10, "爱范儿": 7, "少数派": 1, "雷峰网": 10, "钛媒体": 5, "InfoQ 中文": 12, "阮一峰": 1, "Latent Space": 3, "Stratechery": 2, "Zvi Mowshowitz": 2, "Timothy B. Lee": 1, "Dean Ball": 1, "Hugging Face Blog": 3, "Google Research": 1, "OpenAI": 10, "Google DeepMind": 2, "NVIDIA": 4, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
