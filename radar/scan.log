@@ -1,16 +1,10 @@
-2026-11-20 13:57:35,201 INFO source hf_daily           -> 18 items
-2026-11-20 13:57:35,486 INFO source hackernews         -> 5 items
-2026-11-20 13:58:04,564 INFO source rss                -> 99 items
-2026-11-20 13:58:06,426 INFO source html_lists         -> 1 items
-2026-11-20 13:58:06,426 INFO source x                  -> 0 items
-2026-11-20 13:58:07,022 INFO source arxiv_search       -> 60 items
-2026-11-20 13:58:14,219 INFO source github             -> 20 items
-2026-11-20 13:58:14,220 INFO candidates: 202 (stale dropped 16, new 141)
-2026-11-20 13:59:59,523 INFO llm judged 100/100 (calls=13)
-2026-11-20 14:00:01,174 WARNING pdf arxiv-2611.26444: too large (> 25165824 bytes): https://arxiv.org/pdf/2611.26444
-2026-11-20 14:01:12,675 WARNING snapshot http://www.geekpark.net/news/374282: Page.goto: Timeout 45000ms exceeded.
-Call log:
-  - navigating to "http://www.geekpark.net/news/374282", waiting until "domcontentloaded"
-
-2026-11-20 14:03:48,249 WARNING snapshot https://stratechery.com/2026/sharp-tech-on-video-jensens-not-coming-back-ai-shopping-the-iphone-duo/: blocked or empty page
-2026-11-20 14:03:51,657 INFO run done: {"at": "2026-11-20T13:57:34+00:00", "slot": "evening", "candidates": 202, "new": 141, "stale": 16, "judged": 100, "selected": 22, "mirrored": 18, "by_category": {"技术": 4, "资讯": 12, "观点": 2, "项目": 3, "论文": 1}, "by_source": {"HF Daily Papers": 18, "arXiv 新论文": 60, "Hacker News": 5, "量子位": 10, "极客公园": 4, "IT之家": 17, "爱范儿": 8, "少数派": 1, "雷峰网": 10, "钛媒体": 6, "InfoQ 中文": 16, "阮一峰": 1, "Latent Space": 3, "Stratechery": 2, "Zvi Mowshowitz": 2, "Timothy B. Lee": 1, "Dean Ball": 1, "Packy McCormick": 1, "Hugging Face Blog": 4, "Google Research": 1, "OpenAI": 5, "Google DeepMind": 2, "NVIDIA": 4, "Anthropic": 1, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
+2026-11-20 19:03:21,585 INFO source hf_daily           -> 21 items
+2026-11-20 19:03:21,977 INFO source hackernews         -> 7 items
+2026-11-20 19:03:46,025 INFO source rss                -> 93 items
+2026-11-20 19:03:47,483 INFO source html_lists         -> 0 items
+2026-11-20 19:03:47,483 INFO source x                  -> 0 items
+2026-11-20 19:03:51,837 INFO source arxiv_search       -> 60 items
+2026-11-20 19:04:02,984 INFO source github             -> 20 items
+2026-11-20 19:04:03,007 INFO candidates: 200 (stale dropped 95, new 60)
+2026-11-20 19:04:57,594 INFO llm judged 60/60 (calls=8)
+2026-11-20 19:06:59,591 INFO run done: {"at": "2026-11-20T19:03:21+00:00", "slot": "morning", "candidates": 200, "new": 60, "stale": 95, "judged": 60, "selected": 19, "mirrored": 19, "by_category": {"技术": 4, "观点": 1, "资讯": 13, "论文": 1}, "by_source": {"HF Daily Papers": 21, "arXiv 新论文": 60, "Hacker News": 7, "量子位": 10, "极客公园": 4, "IT之家": 15, "爱范儿": 8, "少数派": 1, "雷峰网": 10, "钛媒体": 6, "InfoQ 中文": 16, "阮一峰": 1, "Latent Space": 3, "Stratechery": 2, "Nathan Benaich": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "Timothy B. Lee": 1, "Packy McCormick": 1, "Hugging Face Blog": 2, "Google Research": 1, "OpenAI": 5, "Google DeepMind": 1, "NVIDIA": 3, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
