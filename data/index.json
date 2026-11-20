@@ -1,6 +1,13 @@
 {
- "updated": "2026-11-20T13:57:34+00:00",
+ "updated": "2026-11-20T19:03:21+00:00",
  "days": [
+  {
+   "date": "2026-11-21",
+   "count": 19,
+   "slots": {
+    "morning": 19
+   }
+  },
   {
    "date": "2026-11-20",
    "count": 59,
@@ -512,30 +519,29 @@
    }
   }
  ],
- "total": 3142,
+ "total": 3161,
  "last_run": {
-  "at": "2026-11-20T13:57:34+00:00",
-  "slot": "evening",
-  "candidates": 202,
-  "new": 141,
-  "stale": 16,
-  "judged": 100,
-  "selected": 22,
-  "mirrored": 18,
+  "at": "2026-11-20T19:03:21+00:00",
+  "slot": "morning",
+  "candidates": 200,
+  "new": 60,
+  "stale": 95,
+  "judged": 60,
+  "selected": 19,
+  "mirrored": 19,
   "by_category": {
    "技术": 4,
-   "资讯": 12,
-   "观点": 2,
-   "项目": 3,
+   "观点": 1,
+   "资讯": 13,
    "论文": 1
   },
   "by_source": {
-   "HF Daily Papers": 18,
+   "HF Daily Papers": 21,
    "arXiv 新论文": 60,
-   "Hacker News": 5,
+   "Hacker News": 7,
    "量子位": 10,
    "极客公园": 4,
-   "IT之家": 17,
+   "IT之家": 15,
    "爱范儿": 8,
    "少数派": 1,
    "雷峰网": 10,
@@ -544,16 +550,16 @@
    "阮一峰": 1,
    "Latent Space": 3,
    "Stratechery": 2,
-   "Zvi Mowshowitz": 2,
+   "Nathan Benaich": 1,
+   "Tomasz Tunguz": 1,
+   "Zvi Mowshowitz": 1,
    "Timothy B. Lee": 1,
-   "Dean Ball": 1,
    "Packy McCormick": 1,
-   "Hugging Face Blog": 4,
+   "Hugging Face Blog": 2,
    "Google Research": 1,
    "OpenAI": 5,
-   "Google DeepMind": 2,
-   "NVIDIA": 4,
-   "Anthropic": 1,
+   "Google DeepMind": 1,
+   "NVIDIA": 3,
    "GitHub Trending": 13,
    "GitHub 新项目": 7
   },

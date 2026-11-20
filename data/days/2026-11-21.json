@@ -1,0 +1,1161 @@
+{
+ "date": "2026-11-21",
+ "items": [
+  {
+   "id": "arxiv-2611.21885",
+   "kind": "paper",
+   "title": "Language Models Can Rewrite Their Own Weights",
+   "url": "https://arxiv.org/abs/2611.21885",
+   "pdf_url": "https://arxiv.org/pdf/2611.21885",
+   "abstract": "A language model is trained once and frozen. Making it better takes another training run, or a prompt, a harness or extra computation at inference that is gone once the task ends. We show a third way: to our knowledge for the first time, a language model rewrites its own weights by its own reasoning and becomes better, with no gradients and no training. We call this self-rewriting: the model is its own optimizer. In earlier work, a frontier model edited a much smaller one; here an open 27B model, given its weights, its graded answers and the ability to run itself, diagnoses its own failure and rewrites the weights behind it. It surpasses itself: its own edit makes it 6.6 points more accurate on problems it never saw. It keeps getting better: it tests its edits on practice problems and submits only what works, each edit improving on the last, and over eight consecutive sessions its accuracy only rises. It repairs a damaged copy of itself, like a broken robot that fixes itself without being rebuilt: the copy solves almost nothing, yet with no retraining and without ever reading the original weights, the model brings it back to over 80% of the original accuracy on image tasks it never saw. And the ability emerges with scale: in one model family, the smaller models make no edit or break themselves, and only the largest improves and repairs itself. Unlike test-time scaling, self-rewriting writes its gain into the weights, at no cost per answer; unlike training, it runs only forward passes, as serving does. The wall between training and inference is a limit of our tools, not a property of intelligence. We believe self-rewriting is a necessary step toward recursive self-improvement: a model that, like a human, does not separate training from inference could keep upgrading itself for life, with no larger model, no harness or prompt engineering, and no pre- or post-training.",
+   "authors": [
+    "Jiajun Fan",
+    "Neil He",
+    "Changyi Yang",
+    "Andy Mao",
+    "Xi Zhu",
+    "Chaoran Cheng",
+    "Kaiqu Liang",
+    "Shuaike Shen",
+    "Zetian Li",
+    "Ruihan Guo",
+    "Ge Liu"
+   ],
+   "orgs": [],
+   "published": "2026-11-20T16:29:06Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50577265",
+     "signal": "195 pts",
+     "metric": 195
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "语言模型首次实现自我重写权重",
+   "summary_zh": "研究显示，一个开放27B模型无需梯度与训练，仅凭自身推理即可诊断失败并改写权重，在未见问题上准确率提升6.6分，连续八次自我编辑持续进步，还能修复受损副本至原精度80%以上，且该能力随规模涌现。",
+   "highlights_zh": [
+    "模型作为自身优化器，无梯度、无训练即可改写权重",
+    "连续八次自我编辑准确率持续上升，具备累积改进能力",
+    "可修复受损模型副本，恢复超80%原始精度",
+    "自我重写能力仅在最大模型上涌现，小模型无效或自损"
+   ],
+   "why_zh": "首次展示模型自改权重的可行性，可能颠覆后训练与推理时扩展范式。",
+   "tags": [
+    "大模型",
+    "推理",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.5675,
+   "score_llm": 9.0,
+   "score": 0.767,
+   "date": "2026-11-21",
+   "slot": "morning",
+   "selected_at": "2026-11-20T19:03:21+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.21885.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.21885"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.21885"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.21885"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.21885"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.21885"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.21885"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50577265"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-68c65d2b2909",
+   "kind": "article",
+   "title": "The 10x Wall",
+   "url": "https://tomtunguz.com/the-10x-wall/",
+   "pdf_url": "",
+   "abstract": "Anthropic & SpaceX trade at an identical 9.5x 2027 est. revenue despite 288% & 466% projected growth. Above $1t of enterprise value, public markets stop paying for top-line growth & anchor to a tight 20x to 26x earnings band.",
+   "authors": [
+    "Tomasz Tunguz"
+   ],
+   "orgs": [
+    "Tomasz Tunguz"
+   ],
+   "published": "2026-11-20T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Tomasz Tunguz",
+     "authority": 0.75,
+     "url": "https://tomtunguz.com/the-10x-wall/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Theory Ventures 创始人，AI 投资",
+   "title_zh": "十倍营收墙：万亿市值后市场不再为增长买单",
+   "summary_zh": "Tomasz Tunguz 指出，Anthropic 与 SpaceX 按 2027 年预期营收同为 9.5 倍估值，但增速分别为 288% 和 466%；企业价值超万亿美元后，公开市场不再为营收增长付费，估值锚定在 20–26 倍市盈率区间。",
+   "highlights_zh": [
+    "Anthropic 与 SpaceX 估值倍数相同但增速差近 180 个百分点",
+    "万亿市值以上，市场从看营收转向看盈利",
+    "为 AI 公司估值与上市路径提供参照框架"
+   ],
+   "why_zh": "理解头部 AI 公司估值逻辑与上市后的定价约束。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.7,
+   "date": "2026-11-21",
+   "slot": "morning",
+   "selected_at": "2026-11-20T19:03:21+00:00",
+   "mirror_pdf": "pdf/web-68c65d2b2909.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://tomtunguz.com/the-10x-wall/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-211fbe8009a4",
+   "kind": "article",
+   "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+   "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "Hugging Face Blog"
+   ],
+   "published": "2026-11-20T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Hugging Face Blog",
+     "authority": 0.75,
+     "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Hugging Face推出harness适配器",
+   "summary_zh": "Hugging Face发布harness adapters，可将任意模型适配到不同智能体脚手架，以提升性能并降低成本，为模型与harness组合提供标准化接口。",
+   "highlights_zh": [
+    "为模型与智能体harness之间提供标准化适配层",
+    "目标是在不同harness下优化性能与推理成本",
+    "降低模型接入各类脚手架的门槛"
+   ],
+   "why_zh": "智能体harness设计正成为工程焦点，适配器思路值得关注。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.48,
+   "score_llm": 8.0,
+   "score": 0.672,
+   "date": "2026-11-21",
+   "slot": "morning",
+   "selected_at": "2026-11-20T19:03:21+00:00",
+   "mirror_pdf": "pdf/web-211fbe8009a4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://huggingface.co/blog/harness-adapters-at-scale"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d401e4ca2be0",
+   "kind": "article",
+   "title": "AI 攻克黎曼猜想？Anthropic 数学家宣称已与 Claude 合作完成证明",
+   "url": "https://www.ithome.com/1/030/278.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 20 日消息，据《科学美国人》报道，当地时间 20 日，Anthropic 数学家莱文特 · 阿尔波格宣称，自己与 AI 模型 Claude 合作，攻克了数学界最著名的难题之一 —— 黎曼猜想。 阿尔波格在个人网站发表声明称：“我相信， 我与 Claude 合作找到了黎曼猜想的证明 。” IT之家注：黎曼猜想由德国数学家伯恩哈德 · 黎曼于 1859 年提出，认为看似随机分布在数轴上的质数，实际上遵循着复杂而有意义的规律。 此后，黎曼猜想成为整个数论研究领域的重要指引，也是数学界 最著名的未解难题 。由于长期缺乏明确的证明思路，研究进展极其有限，就连顶尖数学家也很少花费大量时间直接尝试证明。直到今年 10 月，OpenAI 集中公布的一批数学研究成果中，有一项证明在揭示质数分布规律方面取得重大进展，让攻克黎曼猜想首次看到了突破口。 漫长的求证之路似乎即将走到终点。阿尔波格公布了与 Claude 合作完成的证明，并将其 编写为 Lean 代码 。 据悉，Lean 是一种能够逐步验证数学推理是否正确的编程语言。一旦得到确认，2026 年将成为 AI 数学能力实现飞跃 的一年。 报道说，AI 从此前表现不稳定、甚至难以达到大学生水平，发展到展现出 超越人类的能力 ，数学领域的各个分支都将受到冲击。 阿尔波格称，他的证明不仅解决了黎曼猜想，还证明了范围 远比原始猜想广泛的“广义黎曼猜想” 。 广义黎曼猜想，则意味着整个数学世界蕴藏着无数尚未发现的深层规律。如果这一成果得到确认，对数学界的影响将难以估量，大量以广义黎曼猜想成立为前提的数学结论也将随之得到证实。 阿尔波格的声明既流露出对一个时代结束的伤感，也表达了对未来的期待。“觉得这一切意味着某种终结，是很自然的。对我而言，这意味着 失去了一盏重要的指路明灯 。但研究过程中见证的进展令我如此震撼，让我相信，整个科学界正在迎来远比其更伟大事物的曙光。” 阿尔波格最后写道：“我希望这一证明能让人们 一窥未来的奇迹 ，也让我们感受到，即使是最简单的事物，也将带给我们怎样的喜悦与惊奇。” 参考 论文原文（ https://alpo.ge/remark.pdf ）",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-20T15:37:46+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/278.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic数学家称与Claude合作证明黎曼猜想",
+   "summary_zh": "Anthropic数学家阿尔波格宣称与Claude合作完成黎曼猜想及广义黎曼猜想的证明，并以Lean代码形式公布，等待数学界验证。",
+   "highlights_zh": [
+    "声称同时解决黎曼猜想与范围更广的广义黎曼猜想",
+    "证明以Lean代码编写，可逐步机器验证推理正确性",
+    "若获确认，将是AI在数学领域超越人类的标志性事件"
+   ],
+   "why_zh": "AI攻克顶级数学难题的潜在里程碑，值得关注后续验证进展。",
+   "tags": [
+    "科学AI",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-21",
+   "slot": "morning",
+   "selected_at": "2026-11-20T19:03:21+00:00",
+   "mirror_pdf": "pdf/web-d401e4ca2be0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/278.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4386342c1a71",
+   "kind": "article",
+   "title": "双系统决策+双层自进化，Agnes让Agent效率最高提速14倍，成本骤降至1/27！",
+   "url": "https://www.qbitai.com/2026/11/511582.html",
+   "pdf_url": "",
+   "abstract": "已开源Agnes Harness",
+   "authors": [
+    "一水"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-20T05:24:11+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/511582.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Agnes双系统决策与双层自进化开源",
+   "summary_zh": "量子位报道开源Agnes Harness，采用双系统决策与双层自进化设计，宣称让Agent效率最高提速14倍、成本降至1/27。",
+   "highlights_zh": [
+    "双系统决策架构区分快慢推理路径",
+    "双层自进化机制持续优化Agent表现",
+    "已开源Agnes Harness，宣称效率提升14倍、成本降至1/27"
+   ],
+   "why_zh": "开源Agent脚手架的性能与成本优化方案，适合工程团队参考。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-21",
+   "slot": "morning",
+   "selected_at": "2026-11-20T19:03:21+00:00",
+   "mirror_pdf": "pdf/web-4386342c1a71.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/511582.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.26336",
+   "kind": "paper",
+   "title": "One Framework to Diagnose Them All: A Stratified Benchmark for Bengali LLM Hallucination",
+   "url": "https://arxiv.org/abs/2611.26336",
+   "pdf_url": "https://arxiv.org/pdf/2611.26336",
+   "abstract": "Hallucination research in low-resource languages fragments easily: each newly named failure mode prompts its own dataset, spending scarce annotators on incomparable resources. We argue for consolidation and test it at community scale. Alikbachan is a Bengali hallucination-detection benchmark stratified along three crossed axes: a human-validated cultural-distance band, six task types, and a five-family, 32-mode hallucination taxonomy. It comprises a harvested 2,516-item test set (Phase 1) and a quota-constructed, gold-labeled 5,000-item set (Phase 2). The stratification is diagnostic. Four zero-shot LLM judges vary by over 30 macro-F1 points across strata, and the item-level predictions of 99 Phase-1 and 32 Phase-2 competition systems reproduce the profile: discourse-level omission defeats judges and most teams alike, whereas only a minority over-flag negative controls. The judges' verdict probabilities rank items well (ROC-AUC 0.74-0.95) but are overconfident (ECE 0.04-0.29). An open competition on Alikbachan drew 222 teams and 3,566 submissions, and a single-prompt 32B judge reaches the 57th percentile. Of the 25 teams in both phases, 24 regress on Phase 2 (mean $-17.6$ points) while every zero-shot judge improves, and Phase-1 rank barely predicts Phase-2 rank (Spearman $ρ=0.35$), so a Phase-1 leaderboard alone would have crowned a different winner.",
+   "authors": [
+    "Asif Shahriyar Sushmit",
+    "Shefayat E Shams Adib",
+    "Abdullah Al Jubaer Gem",
+    "Ahmed Shafin Ruhan",
+    "MD. Nazmuddoha Ansary",
+    "Biplab Kumar Sarkar",
+    "Syed Rifat Raiyan",
+    "Ajwad Abrar",
+    "Abdullah Bin Hasan",
+    "Adib Sakhawat",
+    "M. Sakeef Hossain",
+    "Ahmed Alfey Sani",
+    "Arefin Mizan",
+    "Sourab Chakma",
+    "Quazi Adibur Rahman Adib",
+    "Wassie Haque",
+    "Sanjay Kumar Sen",
+    "Saad Tahmid",
+    "Mohammad Mamun Or Rashid"
+   ],
+   "orgs": [],
+   "published": "2026-11-19T16:15:38Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.26336",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "孟加拉语大模型幻觉分层评测基准",
+   "summary_zh": "针对低资源语言幻觉研究碎片化，作者构建孟加拉语分层幻觉基准，按文化距离、任务类型和 32 种幻觉分类交叉分层；四个零样本评审模型跨层 macro-F1 相差超 30 点，且普遍过度自信，第一阶段榜单几乎无法预测第二阶段排名。",
+   "highlights_zh": [
+    "三层交叉分层：文化距离、六类任务、五族 32 种幻觉分类",
+    "222 支队伍参赛，零样本评审跨层差异超 30 个 macro-F1 点",
+    "第一阶段排名对第二阶段预测力弱（Spearman ρ=0.35）"
+   ],
+   "why_zh": "低资源语言幻觉评测的方法论范本，对做多语言评测的团队有直接参考价值。",
+   "tags": [
+    "数据与评测",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.58,
+   "date": "2026-11-21",
+   "slot": "morning",
+   "selected_at": "2026-11-20T19:03:21+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.26336.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.26336"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.26336"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.26336"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.26336"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.26336"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.26336"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-282e13c41a7f",
+   "kind": "article",
+   "title": "50天推出4款模型，谷歌想当“造物主”了？",
+   "url": "https://www.tmtpost.com/8212777.html",
+   "pdf_url": "",
+   "abstract": "OpenAI却有点拉了。",
+   "authors": [
+    "字母AI"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-20T09:22:37+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8212777.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "50天推4款模型，谷歌加速追赶OpenAI",
+   "summary_zh": "谷歌在50天内密集发布4款模型，节奏明显加快，文章对比指出OpenAI近期进展相对乏力，反映头部大模型竞争格局变化。",
+   "highlights_zh": [
+    "谷歌短期内高频发布模型，展现研发与迭代提速",
+    "对比OpenAI近期节奏放缓，竞争态势出现微妙变化",
+    "反映大模型头部厂商的发布策略与市场博弈"
+   ],
+   "why_zh": "快速把握谷歌与OpenAI竞争节奏变化，判断行业格局走向。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-21",
+   "slot": "morning",
+   "selected_at": "2026-11-20T19:03:21+00:00",
+   "mirror_pdf": "pdf/web-282e13c41a7f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8212777.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ccddf8e748d5",
+   "kind": "article",
+   "title": "三星电子高管：Neocloud 风险有限，AI 投资基于实际需求",
+   "url": "https://www.ithome.com/1/030/247.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 20 日消息，据路透社当地时间 18 日报道，三星电子两位高管在本周举行的摩根士丹利会议上表示 Neocloud（新兴 AI 云服务企业）面临的不确定性对整体市场的影响有限，这轮 AI 投资基于实际需求而非投机。 三星 DS（设备解决方案，半导体板块）部门经营战略总管负责人 Kim Yong-kwan 表示，Neocloud 的“市占份额”仅约为 8%， 对此类企业的担忧不会对 AI 整体发展轨迹构成重大威胁 。这位高管并未详述作为市占计算基础的“市场”具体指什么。 三星晶圆代工销售营销主管 Kang Suk-chae 则认为，当前的 AI 投资热潮是结构性的，源自实在的需求而非投机冲动。 芯片短缺的局面“在可预见的未来仍将持续” ，长期合同使供需双方之间的关系更加明朗。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-20T14:09:40+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/247.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "三星高管：Neocloud 风险有限，AI 投资源于真实需求",
+   "summary_zh": "三星两位高管在摩根士丹利会议上表示，Neocloud 仅占约 8% 份额，其不确定性对 AI 整体影响有限；当前 AI 投资是结构性需求驱动，芯片短缺将持续。",
+   "highlights_zh": [
+    "Neocloud 市占仅约 8%，担忧不构成重大威胁",
+    "AI 投资热潮源于实在需求而非投机冲动",
+    "芯片短缺在可预见未来仍将持续，长期合同稳定供需"
+   ],
+   "why_zh": "头部半导体厂商对 AI 需求真实性与供给紧张持续性的明确判断，是判断行业周期的重要信号。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-21",
+   "slot": "morning",
+   "selected_at": "2026-11-20T19:03:21+00:00",
+   "mirror_pdf": "pdf/web-ccddf8e748d5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/247.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f571789a1d3c",
+   "kind": "article",
+   "title": "Anthropic 上市次日股价下跌 9%，AI 板块雪上加霜",
+   "url": "https://www.ithome.com/1/030/246.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 20 日消息，据路透社报道，当地时间 20 日，Anthropic 上市次日股价下跌，令低迷的 AI 板块雪上加霜。这场备受期待的 IPO，也没能重新点燃投资者的热情。 作为 AI 投资热潮的重要风向标，Anthropic 上市曾被寄予厚望，市场期待借此提振经历一段动荡时期后持续疲软的 AI 板块。 然而，Anthropic 股价报 88.25 美元 （IT之家注：现汇率约合 590.6 元人民币） ， 较上市首日的收盘价下跌约 9% 。公司完全稀释后的估值约为 1.6 万亿美元 （现汇率约合 10.71 万亿元人民币） ，按已发行股份计算的市值则约为 1.2 万亿美元 （现汇率约合 8.03 万亿元人民币） 。 短期内，股价仍可能持续波动。随着上市热潮逐渐退去，投资者开始审视 Anthropic 相当于 过去 12 个月营收约 40 倍 的估值是否合理。 美国合众银行资产管理部门私人市场投资主管考希 · 阿明建议：“我们倾向于对 Anthropic 保持耐心，等公司陆续公布上市后的业绩，再进行评估。” 在他看来，当前估值意味着，市场预期 Anthropic 未来多年都能保持快速增长。 Anthropic 上市也未能扭转市场对 AI 板块的担忧。华尔街主要股指周四大幅收跌，周五的股指期货走势则预示市场可能继续下挫。 美股科技七巨头中，英伟达和 Meta 盘前跌幅均超过 3% ，亚马逊和微软 跌幅超过 2% 。芯片股同样承压， AMD 和闪迪均下跌超过 6%，英特尔跌幅超过 4% 。 市场接下来的关注焦点是 OpenAI 可能进行的 IPO 。OpenAI 此前透露有望于明年上市，届时将再次检验投资者对 AI 股票的兴趣。 散户 19 日当天买卖 Anthropic 股票的交易额约为 7.72 亿美元 （现汇率约合 51.66 亿元人民币） ，创下研究机构 Vanda Research 自 2012 年开始统计以来，IPO 首日散户交易额的最高纪录。 Anthropic 股价大幅波动，让投资者面临两难选择：究竟应该押注股价反弹，还是防范进一步下跌？Anthropic 股票期权预计下周开始交易，可能进一步加剧波动。 德国贝伦贝格银行指数事件主管卡斯滕 · 黑塞指出，目前的市场环境对 Anthropic 并不有利。 竞争加剧也可能削弱投资者的信心。 彭博社最新消息称 ，苹果正在开发一款能够代替用户执行任务的 AI 智能体，准备加入 OpenAI、Anthropic 和 Meta 之间的市场竞争。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-20T14:05:13+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/246.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic 上市次日跌 9%，AI 板块承压",
+   "summary_zh": "Anthropic 上市次日股价跌约 9%，估值约 40 倍营收引发审视，未能提振 AI 板块，科技巨头与芯片股普跌，市场焦点转向 OpenAI 潜在 IPO。",
+   "highlights_zh": [
+    "次日跌 9%，完全稀释估值约 1.6 万亿美元",
+    "估值相当于过去 12 个月营收约 40 倍，投资者转向审视基本面",
+    "IPO 首日散户交易额 7.72 亿美元创 2012 年来纪录"
+   ],
+   "why_zh": "AI 龙头 IPO 的市场反应是判断 AI 资本周期与估值情绪的关键风向标。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-21",
+   "slot": "morning",
+   "selected_at": "2026-11-20T19:03:21+00:00",
+   "mirror_pdf": "pdf/web-f571789a1d3c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/246.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-20fffc625fcc",
+   "kind": "article",
+   "title": "自家人都看不下去了？数百谷歌员工要求公司允许中小学使用不含 AI 的谷歌搜索",
+   "url": "https://www.ithome.com/1/030/197.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 20 日消息，当地时间 19 日，据彭博社报道，超过 500 名谷歌员工和合同工联名请愿，要求公司允许中小学继续使用不含 AI 功能的谷歌搜索。 请愿书致谷歌 CEO 桑达尔 · 皮查伊、搜索业务负责人伊丽莎白 · 里德和教育业务负责人克里斯 · 菲利普斯。活动由 Alphabet 员工工会发起，其代表着 Alphabet 及旗下谷歌、YouTube 等公司的全职员工、临时工、供应商人员和合同工。 员工在请愿书中警告：如果学校不愿使用 AI，就不让它们使用谷歌搜索， 只会让谷歌更难说服用户 ，学校甚至可能因此彻底弃用谷歌产品。 此前，谷歌决定扩大校园 AI 服务的覆盖范围，让许多中小学生能够使用 Gemini。此举遭到教育工作者、家长和政策制定者质疑，他们担心 AI 会削弱学生的批判性思维能力，使孩子不再主动查找 AI 生成答案以外的信息。 谷歌回应称，公司与学校保持密切合作，以确保产品能够帮助学生和教师。“我们理解家长和教师担心学生利用 AI 在学习中走捷径，我们的目标是一致的：帮助学生学习。” 为进一步打消家长和学校的顾虑，谷歌计 划默认关闭面向学生的 AI 功能 。但学校如果想继续使用谷歌搜索， 可能仍然必须接受内置 AI 功能的版本 。 谷歌管理层认为，如果不向学生提供 AI 功能，其他公司也会抢先采取类似做法，且可能更加“不负责任”。不过，部分谷歌员工并不认同这一理由。 也有员工质疑，推出不带生成式 AI 功能的谷歌搜索版本，在技术上 是否真的无法实现 。 相关阅读： 《 学校不用 Gemini 就不能用搜索？谷歌新规引发美国政界人士批评 》 《 谷歌调整美国中小学账户设置：要么开放 AI 搜索，要么彻底禁用搜索 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-20T10:42:22+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/197.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "500名谷歌员工请愿：中小学应可用无AI搜索",
+   "summary_zh": "超500名谷歌员工与合同工联名请愿，反对学校不用Gemini就不能用谷歌搜索的新规，担忧AI削弱学生批判性思维，并质疑技术上无法提供无AI搜索的说法。",
+   "highlights_zh": [
+    "请愿由Alphabet员工工会发起，致信皮查伊等三位高管",
+    "谷歌计划默认关闭学生AI功能，但搜索仍可能强制内置AI",
+    "管理层称不提供AI会被更不负责任的对手抢占"
+   ],
+   "why_zh": "反映AI进校园的伦理与商业张力，是AI产品治理的重要案例。",
+   "tags": [
+    "对齐与安全",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-21",
+   "slot": "morning",
+   "selected_at": "2026-11-20T19:03:21+00:00",
+   "mirror_pdf": "pdf/web-20fffc625fcc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/197.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.26349",
+   "kind": "paper",
+   "title": "Perfumer: A Large Language Model-based Agentic Framework Accelerating Structural Relaxation and Electronic Band Prediction for First-Principle Calculation",
+   "url": "https://arxiv.org/abs/2611.26349",
+   "pdf_url": "https://arxiv.org/pdf/2611.26349",
+   "abstract": "First-principles structural relaxation and band calculations require substantial computation and expertise. Here we present Perfumer, a large language model-based agentic framework that couples Quantum ESPRESSO with two predictive models. Across tested structures, pre-relaxation with Perfumer-relax model followed by QE refinement yielded a 2.75-fold overall speedup over QE alone. Perfumer-band model combines a periodic graph neural network with a latent Hermitian spectral head returns 12 band energies at any requested wavevector, preserving reciprocal lattice periodicity and time-reversal symmetry without constructing Hamiltonian. Trained on 125,153 self-curated band structures, Perfumer-band model reaches a median per-material mean absolute error of 0.157 eV on 2,607 test materials, including lanthanide, actinide and magnetic compounds, from held-out composition families spanning 85 elements, taking about 97 ms per material on two consumer CPU cores. The agent turns natural-language requests into relaxation-to-band workflows, from a single uploaded structure to automatically constructed new candidates and returns predicted properties.",
+   "authors": [
+    "Zhiwei Li",
+    "Yuhao Zhou",
+    "Yikai Yang",
+    "Haonan Wang",
+    "Qing Ye",
+    "Jiancheng Lv",
+    "Kazunari Matsuda"
+   ],
+   "orgs": [],
+   "published": "2026-11-19T16:23:33Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.26349",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "论文",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Perfumer：LLM智能体加速第一性原理计算",
+   "summary_zh": "将Quantum ESPRESSO与预弛豫、能带预测两个模型耦合，整体提速2.75倍；能带模型在2607种材料上中位误差0.157 eV，单材料约97毫秒。",
+   "highlights_zh": [
+    "自然语言请求即可驱动结构弛豫到能带预测全流程",
+    "能带模型保持倒格周期性与时间反演对称性，无需构建哈密顿量",
+    "训练集含12.5万条自建能带结构，覆盖85种元素"
+   ],
+   "why_zh": "展示LLM智能体与专用模型结合加速材料计算的可行路径。",
+   "tags": [
+    "智能体",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 7.0,
+   "score": 0.548,
+   "date": "2026-11-21",
+   "slot": "morning",
+   "selected_at": "2026-11-20T19:03:21+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.26349.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.26349"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.26349"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.26349"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.26349"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.26349"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.26349"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-92c2e19464fb",
+   "kind": "article",
+   "title": "早报｜苹果招人打造「接管电脑」的AI智能体/史上最大IPO，Anthropic上市/华为官宣Mate 90 Air主打轻薄",
+   "url": "https://www.ifanr.com/1690473?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "· 旅行者 1 号距地球达一光日，信号单程需 24 小时 · 网易 UU 远程将上线付费会员，基础远控继续免费 · 腾讯大幅削减元宝投入，微信小微日活达 3000 万 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "郑廷旭"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-11-20T00:29:44+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1690473?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "早报：苹果招募智能体人才、Anthropic 启动上市、腾讯削减元宝投入",
+   "summary_zh": "爱范儿早报汇总：苹果招聘打造可接管电脑的 AI 智能体团队；Anthropic 推进史上最大 IPO；腾讯大幅削减元宝投入，微信小微日活达 3000 万。",
+   "highlights_zh": [
+    "苹果布局可操作电脑的 AI 智能体",
+    "Anthropic 启动大规模 IPO",
+    "腾讯收缩元宝、微信小微日活 3000 万"
+   ],
+   "why_zh": "快速把握大厂智能体布局与国内 AI 产品格局变化。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-21",
+   "slot": "morning",
+   "selected_at": "2026-11-20T19:03:21+00:00",
+   "mirror_pdf": "pdf/web-92c2e19464fb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1690473?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-32dbb6202d72",
+   "kind": "article",
+   "title": "派早报：Google 推出 Gemini 4 Neon 模型，网易 UU 远程将于 12 月推出付费会员等",
+   "url": "https://sspai.com/post/119311",
+   "pdf_url": "",
+   "abstract": "Google Play 将强制要求应用适配折叠屏，微软宣布 Microsoft To Do 将于明年 6 月全面停用等。 查看全文",
+   "authors": [
+    "少数派编辑部"
+   ],
+   "orgs": [
+    "少数派"
+   ],
+   "published": "2026-11-20T00:34:31+00:00",
+   "sources": [
+    {
+     "name": "少数派",
+     "authority": 0.7,
+     "url": "https://sspai.com/post/119311",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "派早报：Google 推出 Gemini 4 Neon 模型",
+   "summary_zh": "少数派早报称 Google 发布 Gemini 4 Neon 模型，同时 Google Play 将强制应用适配折叠屏，微软宣布 To Do 明年 6 月停用。",
+   "highlights_zh": [
+    "Gemini 4 Neon 模型发布",
+    "Google Play 强制折叠屏适配",
+    "Microsoft To Do 将停用"
+   ],
+   "why_zh": "了解 Gemini 新模型发布动态，但信息量有限。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-21",
+   "slot": "morning",
+   "selected_at": "2026-11-20T19:03:21+00:00",
+   "mirror_pdf": "pdf/web-32dbb6202d72.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://sspai.com/post/119311"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b088e4de67b4",
+   "kind": "article",
+   "title": "灵掌机器人太空灵巧手亮相世界智能制造博览会",
+   "url": "https://www.leiphone.com/category/industrynews/leaIWtsEkg58zaCy.html",
+   "pdf_url": "",
+   "abstract": "11月19日至21日，第十一届世界智能制造博览会（以下简称“智博会”）在南京国际博览中心举办。无锡灵掌机器人科技有限公司（以下简称“灵掌机器人”）携全系列共9款灵巧手产品参展，重点展示了灵巧手在工业制造、太空任务、特种作业、科研与人形机器人等行业领域的落地场景及解决方案。 灵掌机器人创始人兼首席执行官张超介绍，灵巧手是具身智能走向真实操作的重要一环，也是连接智能决策与物理执行的关键末端。当前灵巧手行业正进入快速发展期，逐步进入真实应用场景中，市场需求也在持续释放。从工业产线上的重物抓取搬运，到危险环境中的远程防爆作业，再到太空航天器维修，灵巧手的市场应用空间广阔。 在张超看来，机器人发展的重要价值之一，是帮助人类承担那些危险、艰难、紧急或高风险的工作，解放人类创造力。 （图示：灵掌机器人联合创始人、硬件总工程师许钦桓交流会发言） 灵掌机器人联合创始人、硬件总工程师许钦桓在现场表示：“灵掌机器人的灵巧手，走的是高寿命、大负载、高稳定性的腱绳驱动路线，主要从工业场景和特种场景开展应用，实现灵巧手的快速落地。” 在工业生产、特种作业和太空探索等场景中，机器人可通过灵巧手、机械臂与控制系统协同，参与物料搬运、远程操作和设备维护等任务，减少人员直接进入危险环境的需要。“危、难、急、险”场景往往对操作的可靠性与精细度提出更高要求，也为灵巧操作技术提供了重要的应用方向。 从工业生产到太空任务 灵巧手步入多元应用场景 （图示：灵掌机器人联合创始人周稼宇交流会发言） “我们想通过研发让机器人去帮人类做危难急险的活，把安全留给人类。”灵掌机器人联合创始人周稼宇在交流会上介绍。 在智博会现场，灵掌机器人集中展示了全栈自主研发的9款灵巧手产品，在形态上覆盖两指、三指、四指及五指结构，分别应用于工业制造、特种作业、科研与人形机器人、太空任务等不同行业领域。 在工业制造领域，灵掌机器人展示了面向制造业生产车间的双臂灵巧操作方案。将工业垂直大模型用于面向具体工序的操作策略适配。视觉感知提供航插位置信息，操作策略与工程控制配合组织动作，机械臂和灵巧手承担移动、抓取和处置。进入实际产线前，系统还需要结合客户工件、现场布局和工艺节拍，验证连续运行稳定性、换型适配和异常处理。 针对金属零部件物料箱在不同工位间搬运的需求，机器人通过视觉系统识别物料位置，并由两只机械臂与灵巧手协同完成抓取、搬运和放置。该场景采用了灵掌机器人研发的LZ-Pro系列工业重载灵巧手，最大抓取负载可达30公斤，面向重型零部件搬运、物料分拣等任务研发。 针对工业航插连接需求，机器人需要识别接口位置，并在抓取、插入和旋紧过程中保持稳定。展出的双臂方案由视觉系统识别航插位置，两台机械臂与LZ-Pro系列工业重载灵巧手协同完成抓取、插入和旋紧工作。 工业制造之外，灵掌机器人持续探索科研与人形机器人配套、特种远程作业和商业航天等应用。公司研发的LZ-Space太空灵巧操作系统集成机械臂、五指灵巧手和远程操作系统，已完成卫星飞船上装测试，后续飞行验证将随任务安排推进。工具操作、在轨维修、加注相关操作和太空试验是其目标应用。 张超透露，目前LZ-Space已完成多项地面测试：在相当于自身重量10倍的加速度作用下完成振动测试，在模拟太空真空环境中通过零下25℃至60℃的冷热循环测试，并通过了模拟太空高能射线的总剂量与单粒子辐照试验。后续团队计划将设备送入太空，进一步检验其在真实太空环境下的运行表现。与此同时，面向自主操作能力升级的LZ-SpacePro正在研发迭代中，预计2027年初推出。 灵掌机器人的LZ-Ex特种灵巧手面向",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-20T10:27:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/leaIWtsEkg58zaCy.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "灵掌机器人发布9款灵巧手，太空型号完成地面测试",
+   "summary_zh": "灵掌机器人在世界智能制造博览会展示9款灵巧手，覆盖工业重载30公斤抓取到太空在轨维修，LZ-Space已完成振动、真空冷热循环和辐照测试。",
+   "highlights_zh": [
+    "LZ-Pro工业重载灵巧手最大抓取负载30公斤，面向物料搬运与航插连接",
+    "LZ-Space太空灵巧手集成机械臂与远程操作系统，已完成卫星上装测试",
+    "采用腱绳驱动路线，主打高寿命、大负载、高稳定性，聚焦工业与特种场景"
+   ],
+   "why_zh": "了解具身智能末端执行器在工业与航天场景的真实落地进展",
+   "tags": [
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-21",
+   "slot": "morning",
+   "selected_at": "2026-11-20T19:03:21+00:00",
+   "mirror_pdf": "pdf/web-b088e4de67b4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/leaIWtsEkg58zaCy.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1a73cf8f2ab4",
+   "kind": "article",
+   "title": "第六代 AMD EPYC 处理器技术峰会在京举行",
+   "url": "https://www.leiphone.com/category/industrynews/TVtcS88CGW5q5JDk.html",
+   "pdf_url": "",
+   "abstract": "重塑计算，领航 AI 时代：AMD 携手生态伙伴推动 Agentic AI 基础设施创新 2026年11月19日，中国北京——今日，以“重塑计算，领航 AI 时代”为主题的第六代 AMD EPYC 处理器技术峰会在北京中国大饭店举行，吸引1237位嘉宾参会。AMD 携手服务器系统厂商、软件与硬件生态合作伙伴及行业用户，围绕第六代 AMD EPYC 处理器（代号“Venice”）的产品布局、应用性能及平台技术展开深入交流，并共同举行基于第六代 AMD EPYC 处理器的服务器新品上市仪式，展示面向 Agentic AI 时代的计算创新与生态成果。 随着 AI 应用从内容生成走向自主执行任务，企业对计算基础设施的需求正发生变化。智能体在调用模型之外，还需要访问数据、运行代码、调用工具并与业务系统交互。随任务执行产生的大量沙箱与并发计算需求，使 CPU 的处理能力、资源效率及平台扩展能力成为支撑智能体规模化部署的重要基础。本次峰会结合产品技术解读与现场方案展示，呈现第六代AMD EPYC处理器如何携手合作伙伴满足这些新需求，并持续支持企业通用计算与高性能计算。 面向 Agentic AI 深入解读产品与平台创新 AMD 高级副总裁、大中华区总裁 潘晓明 为峰会致开场辞。AMD 全球副总裁、服务器事业部企业及高性能计算业务总经理 Derek Dicker 围绕第六代 AMD EPYC 处理器的产品、应用与性能作主题演讲，介绍 AMD 数据中心业务进展及 Agentic AI 愿景，重点阐释产品组合在智能体沙箱、AI 头节点（AI Head Node）及通用计算等工作负载中的定位与优势。相关分享结合性能基准测试、世界纪录及合作伙伴平台准备情况，帮助与会者了解新一代产品在实际部署中的价值，并前瞻 SP8、Venice-X 和 Verano 等后续平台与产品方向。 AMD Fellow、服务器与 AI 系统架构专家 Anil Kumar 深入解析全新 Zen 6 架构与第六代 AMD EPYC 处理器，介绍产品 SoC 架构、2.5D 封装及内存、互连等关键技术进展，帮助合作伙伴与用户理解架构创新如何支撑不同应用场景下的性能与平台能力提升。通过产品概览与架构解析的结合，峰会为服务器设计、软件优化及企业基础设施规划提供技术参考。 携手系统与应用伙伴 推动新一代平台落地 峰会期间，AMD 管理团队与 OEM、ODM 合作伙伴共同举行第六代 AMD EPYC 处理器服务器新品上市仪式。来自服务器系统、软件应用及关键硬件领域的合作伙伴，通过平台与方案展示，呈现从处理器到服务器、再到行业应用的协同创新。 在第六代 AMD EPYC 处理器生态实践环节，AMD 全球副总裁、大中华区互联网与企业事业部销售总经理 唐晓蕾 主持交流，来自 腾讯、MiniMax 等三家行业头部客户的嘉宾分享相关实践，围绕各自业务场景交流计算基础设施的需求与应用经验，为企业评估新一代平台提供参考。 本次峰会汇聚22家 OEM、ODM 合作伙伴，展区共设置35个展台和20个解决方案展板，集中呈现服务器平台、软件应用与关键硬件的生态成果。核心 OEM 展区的合作伙伴依次为比亚迪电子（BYD Electronics）、云尖信息（Cloudnine）、霄擎算力（CloudPrime.ai）、戴尔（DELL）、远图（EVEX）、新华三（H3C）、慧与（HPE）、联想（Lenovo）、至索（Maginfra）、畅快算（SmoothCompute）、超微（SuperMicro）及超聚变（xFusion）；OEM",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-20T07:47:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/TVtcS88CGW5q5JDk.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AMD第六代EPYC发布，瞄准Agentic AI基础设施",
+   "summary_zh": "AMD在北京发布代号Venice的第六代EPYC处理器，基于Zen 6架构与2.5D封装，主打智能体沙箱、AI头节点等Agentic AI工作负载，22家OEM伙伴同步推出服务器。",
+   "highlights_zh": [
+    "Zen 6架构配合2.5D封装，强调CPU在智能体并发沙箱场景中的资源效率",
+    "腾讯、MiniMax等客户分享基于新平台的实践",
+    "后续平台SP8、Venice-X、Verano路线图同步披露"
+   ],
+   "why_zh": "智能体规模化部署对CPU基础设施需求变化的信号",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-21",
+   "slot": "morning",
+   "selected_at": "2026-11-20T19:03:21+00:00",
+   "mirror_pdf": "pdf/web-1a73cf8f2ab4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/TVtcS88CGW5q5JDk.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-e3f40f5b2982",
+   "kind": "article",
+   "title": "灵光开放生态再扩容：新增企业微信、腾讯文档等7项连接能力，累计支持54项外部服务",
+   "url": "https://www.leiphone.com/category/industrynews/walzAUin5QxPaCOQ.html",
+   "pdf_url": "",
+   "abstract": "近日，蚂蚁集团旗下AI助手灵光宣布开放生态再度扩容，新增企业微信、腾讯文档、腾讯会议、飞常准等7项外部连接能力。至此，灵光支持的外部服务及连接能力已从47项增加至54项，进一步拓展AI助手在个人生活、办公协作、差旅出行等场景中的服务边界。 此次新增能力进一步覆盖用户日常高频需求。在个人生活场景中，灵光新增相册连接能力，并通过快捷指令支持修改壁纸、备忘录等系统操作，推动AI与手机原生功能深度融合；在办公场景中，企业微信、腾讯文档和腾讯会议的加入，进一步丰富了灵光在企业沟通、文档协作、会议管理等方面的服务能力；在出行场景中，飞常准的接入则为用户获取航班动态等出行信息提供了更多便利。 AI助手的竞争正从模型能力和对话体验，走向真实场景中的事务托管。对下一代AI应用而言，能否打通不同平台和服务之间的壁垒，将直接影响AI助手的实用价值与用户体验。连接器不仅是AI能力的延伸，更是推动AI从“回答问题”走向“托管事务”的关键基础设施。 此前，灵光接入钉钉、飞书、微信读书等服务，到此次新增企业协作、系统操作和航班服务能力，灵光正持续扩大开放生态的覆盖范围。未来，随着更多服务接入，灵光有望进一步打通跨应用、跨场景的任务链路，让AI从单一智能工具逐步成长为能够理解需求、连接服务、协助执行的个人智能伙伴。 灵光是蚂蚁集团推出的个人AI助手，10月27日完成2.0升级。灵光2.0以托管事务为核心竞争力，截止11月11日，灵光2.0累计托管事务量突破300万项，累计执行任务超过1100万次。据悉，该指标也正在被行业认为是个人智能体的北极星指标。 雷峰网 雷峰网",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-20T07:43:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/walzAUin5QxPaCOQ.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "蚂蚁灵光新增7项连接能力，外部服务达54项",
+   "summary_zh": "蚂蚁集团AI助手灵光新增企业微信、腾讯文档、腾讯会议、飞常准等7项连接能力，外部服务从47项增至54项，2.0版本累计托管事务量突破300万项。",
+   "highlights_zh": [
+    "新增相册连接与系统快捷指令，AI与手机原生功能深度融合",
+    "办公场景补齐企业微信、腾讯文档、腾讯会议三大协作入口",
+    "累计执行任务超1100万次，托管事务量被视为个人智能体北极星指标"
+   ],
+   "why_zh": "个人AI助手从问答走向事务托管的连接器生态竞争样本",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-21",
+   "slot": "morning",
+   "selected_at": "2026-11-20T19:03:21+00:00",
+   "mirror_pdf": "pdf/web-e3f40f5b2982.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/walzAUin5QxPaCOQ.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-9f43c59e15bc",
+   "kind": "article",
+   "title": "独家丨影石研究院首度公开：字节旧将亓鲁任负责人",
+   "url": "https://www.leiphone.com/category/weiwu/o4pLV3X7mPE6sfxq.html",
+   "pdf_url": "",
+   "abstract": "雷峰网·鲸犀独家获悉，影石创新董事亓鲁已出任影石研究院中心负责人，并兼任公司首席 AI 官。知情人士称，他将主要负责相关算法及人工智能领域的研发工作。 亓鲁是一位 90 后，本硕博先后毕业于山东大学、中国科学院、香港中文大学，并在加州大学默塞德分校做过博士后，当前为武汉大学计算机学院教授，研究方向涉及计算机视觉与无人机。 同时，亓鲁有丰富的学术履历，除高校任职外，还担任 IEEE TPAMI 编委以及多家国际学术会议领域主席。 在加入影石前，他曾在字节跳动担任高级研究科学家，并任职于 Seed 大模型部门。2024 年，亓鲁加入影石，任研发总监，自今年 1 月起担任影石创新董事。 早在 2022 年 7 月，影石就在七周年文章里明确提到，公司内部有个神秘的“研究院”，定位是集结影像算法大牛、把学术想法产品化。如今，影石研究院逐渐浮出水面。 雷峰网·鲸犀了解到，影石研究院主要围绕影像算法、计算机视觉及人工智能等方向开展研究。据透露，影石方面认为，AI 正逐步成为影像产品提升智能化体验的重要技术基础——这或也是研究院成立原因。 据悉，此次任命后，亓鲁将参与推动影石算法研发及 AI 能力建设，相关研究方向也有望进一步与影像产品及业务场景结合。未来影石或将围绕智能拍摄、内容理解、自动剪辑及影像创作等方向，探索 AI 技术在产品中的应用。 据公开信息，影石方面暂未对外披露更多组织架构及具体工作安排。对于后续 AI 能力建设和相关产品规划，仍以公司官方发布的信息为准。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-20T02:01:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/weiwu/o4pLV3X7mPE6sfxq.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "影石研究院首度公开：字节旧将亓鲁任负责人兼首席AI官",
+   "summary_zh": "影石创新任命前字节Seed高级研究科学家亓鲁为研究院负责人兼首席AI官，主攻影像算法与计算机视觉，推动AI与智能拍摄、自动剪辑等产品结合。",
+   "highlights_zh": [
+    "亓鲁为武大教授、IEEE TPAMI编委，曾任职字节Seed大模型部门",
+    "影石研究院定位影像算法与AI产品化，此前一直低调",
+    "未来方向或涉及智能拍摄、内容理解、自动剪辑与影像创作"
+   ],
+   "why_zh": "观察消费影像硬件厂商如何搭建AI研究体系与人才布局。",
+   "tags": [
+    "视觉",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-21",
+   "slot": "morning",
+   "selected_at": "2026-11-20T19:03:21+00:00",
+   "mirror_pdf": "pdf/web-9f43c59e15bc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/weiwu/o4pLV3X7mPE6sfxq.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-96ba4f7094d7",
+   "kind": "article",
+   "title": "“DeepSeek们”都在退场：限额并非免费AI的终结？",
+   "url": "https://www.tmtpost.com/8212818.html",
+   "pdf_url": "",
+   "abstract": "无限量免费AI撑不住了。",
+   "authors": [
+    "锌刻度"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-20T10:23:37+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8212818.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "免费AI退场：DeepSeek们为何开始限额",
+   "summary_zh": "多家AI产品开始对免费使用设限，文章分析无限量免费模式难以为继，探讨免费AI是否走向终结及其商业逻辑。",
+   "highlights_zh": [
+    "DeepSeek等产品相继推出使用限额",
+    "无限量免费模式的算力成本压力凸显",
+    "免费与付费的商业模式面临重新平衡"
+   ],
+   "why_zh": "理解AI产品商业化转向，把握免费策略的可持续性边界。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-11-21",
+   "slot": "morning",
+   "selected_at": "2026-11-20T19:03:21+00:00",
+   "mirror_pdf": "pdf/web-96ba4f7094d7.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8212818.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-852c626ed507",
+   "kind": "article",
+   "title": "“美国大豆包”又发新模型，Neon 接入 Antigravity 后编程解题率升至三倍多",
+   "url": "https://www.infoq.cn/article/tDxNggErsJNeb53ZkYeF?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "Tina"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-20T18:41:34+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/tDxNggErsJNeb53ZkYeF?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Neon接入Antigravity后编程解题率提升三倍多",
+   "summary_zh": "报道称某新模型接入Antigravity后，Neon的编程解题成功率提升至三倍多，但正文缺失，细节与可信度待核实。",
+   "highlights_zh": [
+    "涉及编程智能体能力提升",
+    "标题信息模糊，主体不明",
+    "正文未获取"
+   ],
+   "why_zh": "若属实对编程智能体有意义，但信息不完整。",
+   "tags": [
+    "代码",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-11-21",
+   "slot": "morning",
+   "selected_at": "2026-11-20T19:03:21+00:00",
+   "mirror_pdf": "pdf/web-852c626ed507.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/tDxNggErsJNeb53ZkYeF?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "模型开始具备无梯度自我改写能力，训练范式出现新拐点",
+   "why": "27B模型仅凭推理诊断失败并改写权重，准确率提升6.6分且随规模涌现，挑战传统训练依赖。",
+   "refs": [
+    "arxiv-2611.21885"
+   ]
+  },
+  {
+   "trend": "模型与智能体脚手架解耦，harness适配层成为竞争新战场",
+   "why": "Hugging Face推标准化适配器，Agnes宣称效率提速14倍、成本降至1/27，组合优化取代单模型比拼。",
+   "refs": [
+    "web-211fbe8009a4",
+    "web-4386342c1a71"
+   ]
+  },
+  {
+   "trend": "万亿市值后估值逻辑切换，增长叙事让位于盈利锚定",
+   "why": "Anthropic上市次日跌9%，市场对40倍营收审视加剧，万亿以上企业估值锚定20–26倍市盈率。",
+   "refs": [
+    "web-68c65d2b2909",
+    "web-f571789a1d3c"
+   ]
+  },
+  {
+   "trend": "头部竞争节奏分化，谷歌密集发模型追赶OpenAI",
+   "why": "谷歌50天推4款模型并发布Gemini 4 Neon，OpenAI近期进展相对乏力，格局从单极转向拉锯。",
+   "refs": [
+    "web-282e13c41a7f",
+    "web-32dbb6202d72"
+   ]
+  },
+  {
+   "trend": "评测方法转向分层与跨阶段验证，单一榜单可信度受质疑",
+   "why": "孟加拉语幻觉基准显示跨层macro-F1差超30点，第一阶段榜单几乎无法预测第二阶段排名。",
+   "refs": [
+    "arxiv-2611.26336"
+   ]
+  }
+ ]
+}
