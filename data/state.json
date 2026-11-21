@@ -3202,7 +3202,18 @@
   "arxiv-2611.26557": "2026-11-21",
   "web-5bd3f47db223": "2026-11-21",
   "web-5df65f1c84e2": "2026-11-21",
-  "web-f48d50c135db": "2026-11-21"
+  "web-f48d50c135db": "2026-11-21",
+  "web-11005145678d": "2026-11-22",
+  "web-755acd825b38": "2026-11-22",
+  "web-a9499c8340ff": "2026-11-22",
+  "web-942c5fe215c0": "2026-11-22",
+  "web-33cfed4b9055": "2026-11-22",
+  "web-90f644700256": "2026-11-22",
+  "web-7ec98161d714": "2026-11-22",
+  "web-e778b500bfc8": "2026-11-22",
+  "web-c050b8f7188f": "2026-11-22",
+  "web-71a268405c87": "2026-11-22",
+  "web-b309102d9298": "2026-11-22"
  },
  "known_links": {
   "https://www.anthropic.com/news": [
@@ -3479,42 +3490,6 @@
   ]
  },
  "runs": [
-  {
-   "at": "2026-11-01T17:05:10+00:00",
-   "slot": "morning",
-   "candidates": 78,
-   "new": 14,
-   "stale": 22,
-   "judged": 11,
-   "selected": 10,
-   "mirrored": 10,
-   "by_category": {
-    "技术": 2,
-    "资讯": 6,
-    "项目": 2
-   },
-   "by_source": {
-    "Hacker News": 7,
-    "量子位": 9,
-    "极客公园": 5,
-    "IT之家": 5,
-    "爱范儿": 3,
-    "雷峰网": 5,
-    "钛媒体": 8,
-    "InfoQ 中文": 8,
-    "Andrej Karpathy": 1,
-    "Nathan Lambert": 1,
-    "Latent Space": 2,
-    "Azeem Azhar": 1,
-    "Zvi Mowshowitz": 1,
-    "科学空间": 1,
-    "Hugging Face Blog": 1,
-    "GitHub Trending": 10,
-    "GitHub 新项目": 10
-   },
-   "llm": true,
-   "translated": 1
-  },
   {
    "at": "2026-11-02T04:47:15+00:00",
    "slot": "noon",
@@ -6072,6 +6047,50 @@
     "NVIDIA": 3,
     "GitHub Trending": 14,
     "GitHub 新项目": 6
+   },
+   "llm": true,
+   "translated": 0
+  },
+  {
+   "at": "2026-11-21T17:55:32+00:00",
+   "slot": "morning",
+   "candidates": 120,
+   "new": 20,
+   "stale": 57,
+   "judged": 20,
+   "selected": 11,
+   "mirrored": 9,
+   "by_category": {
+    "观点": 1,
+    "技术": 1,
+    "资讯": 9
+   },
+   "by_source": {
+    "HF Daily Papers": 12,
+    "Hacker News": 4,
+    "量子位": 10,
+    "极客公园": 3,
+    "IT之家": 11,
+    "爱范儿": 7,
+    "少数派": 1,
+    "雷峰网": 11,
+    "钛媒体": 5,
+    "InfoQ 中文": 14,
+    "阮一峰": 1,
+    "Latent Space": 4,
+    "Stratechery": 2,
+    "Nathan Benaich": 1,
+    "Tomasz Tunguz": 1,
+    "Zvi Mowshowitz": 1,
+    "Packy McCormick": 1,
+    "Hugging Face Blog": 2,
+    "Google Research": 2,
+    "METR": 1,
+    "OpenAI": 3,
+    "NVIDIA": 1,
+    "arXiv 新论文": 2,
+    "GitHub Trending": 13,
+    "GitHub 新项目": 7
    },
    "llm": true,
    "translated": 0
