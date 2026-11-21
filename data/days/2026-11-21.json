@@ -1116,45 +1116,1074 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-0b39de03309f",
+   "kind": "article",
+   "title": "AI R&D-relevant model capabilities are improving rapidly and are getting harder to measure",
+   "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+   "pdf_url": "",
+   "abstract": "Contents Overview 1 Background 2 Methodology 3 Results 4 Robustness Checks 5 Discussion 6 Acknowledgments Appendices A Difficulty Estimation and Baselining B Time Horizon Diagnostics C MCI Modelling Methodology D Limitations of IRT E MCI Robustness Checks F Estimating Lifecycle Cost for Tasks G Data Integrity and Reward Hacking H Changes in Capability Growth Rates I Inference Scaling J Swarm Experiments K Al Zimmermann's Programming Contests L Budget NanoGPT M Making METR tasks N Earthborne Rangers and Continual Learning O Qualitative and External Evidence on Models’ Strengths and Limitations Overview This post presents evidence from our capability evaluations of public models relevant to AI R&D acceleration, up to Opus 5.5 and GPT-6 Astra. We remain significantly uncertain about central questions, including (1) what capabilities are in practice necessary for drastic acceleration, and (2) how quickly relevant model capabilities are improving. We think that current public evidence is insufficient to rule out drastic AI R&D acceleration in the next couple of years. By drastic AI R&D acceleration we mean a situation where capabilities improve so quickly that humans are no longer able to meaningfully understand, assess, and react to catastrophic risks posed by new AI systems. This overview summarizes our main takeaways and their relevant sections within the post. 1 Background describes our motivation and aims, and how our thinking about capability evaluations has changed since th",
+   "authors": [
+    "METR"
+   ],
+   "orgs": [
+    "METR"
+   ],
+   "published": "2026-11-20T08:00:00+00:00",
+   "sources": [
+    {
+     "name": "METR",
+     "authority": 0.85,
+     "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "前沿模型能力评测机构",
+   "title_zh": "METR：AI 研发相关能力快速提升且愈发难测",
+   "summary_zh": "METR 认为，与 AI 研发加速相关的模型能力正快速提升且越来越难衡量，现有公开证据不足以排除未来几年出现剧烈研发加速的可能。",
+   "highlights_zh": [
+    "对 Opus 5.5、GPT-6 Astra 等公开模型做能力评测",
+    "提出任务难度估计与时间跨度等新度量方法",
+    "明确警示剧烈 AI 研发加速带来的失控风险"
+   ],
+   "why_zh": "前沿能力评测与 AI 安全治理的重要判断，值得细读。",
+   "tags": [
+    "数据与评测",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 9.0,
+   "score": 0.716,
+   "date": "2026-11-21",
+   "slot": "noon",
+   "selected_at": "2026-11-21T05:52:18+00:00",
+   "mirror_pdf": "pdf/web-0b39de03309f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3ea993db7e3c",
+   "kind": "article",
+   "title": "Combatting adversarial distillation",
+   "url": "https://openai.com/index/combatting-adversarial-distillation",
+   "pdf_url": "",
+   "abstract": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-11-20T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/combatting-adversarial-distillation",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 发布对抗性蒸馏防御体系",
+   "summary_zh": "OpenAI 提出分层防御方案，结合模型训练、安全护栏、检测与执法，阻止第三方通过蒸馏提取模型能力。",
+   "highlights_zh": [
+    "将对抗性蒸馏视为能力窃取，而非普通竞品行为",
+    "防御覆盖训练侧、推理侧检测与事后执法",
+    "对闭源模型厂商的护城河策略有示范意义"
+   ],
+   "why_zh": "理解头部厂商如何用技术+政策手段守住模型能力壁垒。",
+   "tags": [
+    "对齐与安全",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 8.0,
+   "score": 0.696,
+   "date": "2026-11-21",
+   "slot": "noon",
+   "selected_at": "2026-11-21T05:52:18+00:00",
+   "mirror_pdf": "pdf/web-3ea993db7e3c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/combatting-adversarial-distillation"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f4784c304003",
+   "kind": "article",
+   "title": "Can AI help scientists identify promising drug candidates?",
+   "url": "https://openai.com/index/introducing-medchembench",
+   "pdf_url": "",
+   "abstract": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-11-20T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/introducing-medchembench",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 发布 MedChemBench：AI 能否挑出好药？",
+   "summary_zh": "OpenAI 推出 MedChemBench，评测模型解读分子结构、从实验证据推理并筛选候选化合物的能力，直指早期药物发现环节。",
+   "highlights_zh": [
+    "覆盖分子结构理解、实验证据推理、化合物筛选三类任务",
+    "面向早期药物发现这一高价值科学场景",
+    "为化学领域模型能力提供可比较的评测口径"
+   ],
+   "why_zh": "科学 AI 落地的关键评测基准，关注 AI for Science 的读者必读。",
+   "tags": [
+    "科学AI",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 8.0,
+   "score": 0.696,
+   "date": "2026-11-21",
+   "slot": "noon",
+   "selected_at": "2026-11-21T05:52:18+00:00",
+   "mirror_pdf": "pdf/web-f4784c304003.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/introducing-medchembench"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c4ca83ba5741",
+   "kind": "article",
+   "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
+   "url": "https://signal.org/blog/protecting-your-privacy/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-20T09:42:16Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50572348",
+     "signal": "537 pts",
+     "metric": 537
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "移动操作系统限制 AI 智能体抓取数据",
+   "summary_zh": "移动 OS 平台开始限制 AI 智能体跨应用抓取数据，智能体在端侧的权限边界成为新的平台博弈点。",
+   "highlights_zh": [
+    "端侧智能体的数据访问权限被平台收紧",
+    "影响手机 AI 助手与自动化工具的能力上限",
+    "平台、智能体开发者与用户隐私三方角力"
+   ],
+   "why_zh": "端侧智能体落地受平台规则制约，做手机 AI 产品需关注。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.6148,
+   "score_llm": 7.0,
+   "score": 0.6659,
+   "date": "2026-11-21",
+   "slot": "noon",
+   "selected_at": "2026-11-21T05:52:18+00:00",
+   "mirror_pdf": "pdf/web-c4ca83ba5741.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://signal.org/blog/protecting-your-privacy/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50572348"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c989db0d32fd",
+   "kind": "article",
+   "title": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification",
+   "url": "https://latent.space/p/formal-verification/",
+   "pdf_url": "",
+   "abstract": "Proving software correct with math has traditionally required specialist work. Now AI and Lean are helping automate the process.",
+   "authors": [
+    "Richard MacManus"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-11-20T21:18:41+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/formal-verification/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "形式化验证：对抗AI垃圾内容的新武器",
+   "summary_zh": "Latent Space 分析认为，AI 与 Lean 结合正让形式化验证从专家专属走向自动化，可用来证明软件正确性，并成为对抗低质 AI 生成内容（slop）的手段。",
+   "highlights_zh": [
+    "形式化验证传统上需要专家手工完成，门槛极高",
+    "AI 与 Lean 结合正在自动化证明过程",
+    "被视为对抗 AI 生成低质内容的一种新兴武器"
+   ],
+   "why_zh": "了解 AI 如何切入软件正确性验证这一高价值场景，把握可信 AI 的工程方向。",
+   "tags": [
+    "代码",
+    "对齐与安全",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 7.0,
+   "score": 0.64,
+   "date": "2026-11-21",
+   "slot": "noon",
+   "selected_at": "2026-11-21T05:52:18+00:00",
+   "mirror_pdf": "pdf/web-c989db0d32fd.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/formal-verification/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cc0408e2f6c6",
+   "kind": "article",
+   "title": "腾讯混元姚顺雨团队：Hy4 仍有很大改进空间，计划训练更大规模模型",
+   "url": "https://www.ithome.com/1/030/338.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 21 日消息，11 月 21 日凌晨，腾讯首席 AI 科学家、混元大模型负责人姚顺雨和团队成员，在 Reddit 进行了一场持续 120 分钟的 AMA，回答全球开发者关于混元的“任何问题”。 问答环节，有人询问：字节跳动、Kimi 等似乎都在往 3 万亿、甚至 5 万亿参数的超大模型推进，而你们还在 7000 亿。为什么？你们怎么看参数量对模型能力的实际影响？这方面有什么计划？ 混元团队回应：“Hy3 和 Hy4 已经表明， 做得扎实的小模型也能超过更大的模型。 它们的成本也更低，而且在这个过程中，你能学到更多、收获更多。” 不过，混元团队也表示，Hy4 仍有很大的改进空间，尤其是通过后训练。“我们正投入大量精力进行大规模强化学习，同时继续改善用户体验和模型安全。 我们还计划训练更大规模的模型 。” 对于是否有可能推出 240 亿到 310 亿参数的稠密模型？该团队表示：“有可能，我们正在考虑。” 对于是否会发布对标 Qwen 27B 稠密模型的小模型？发布 100B 以下、专门做编程的模型吗？该团队表示：“第一个，有可能。第二个，大概不会。” IT之家注：姚顺雨本科毕业于清华大学姚班，获普林斯顿大学计算机科学博士学位，2024 年加入 OpenAI 并参与智能体产品 operator 与 deep research 开发。其研究聚焦语言智能体与现实世界交互，提出 ReAct 方法首创“推理 — 行动”结合的智能体范式，被学术界与工业界广泛采纳。 2025 年 12 月，腾讯升级大模型研发架构，新成立 AI Infra 部、AI Data 部、数据计算平台部，全面强化其大模型的研发体系与核心能力。姚顺雨出任“CEO / 总裁办公室”首席 AI 科学家，向腾讯总裁刘炽平汇报；同时兼任 AI Infra 部、大语言模型部负责人，向技术工程事业群总裁卢山汇报。 今年 7 月，腾讯宣布混元多模态模型部门与大语言模型部门合并，成立基础模型部，统一由姚顺雨管理，以进一步提升模型研发和协同效率，探索全模态模型的智能上限。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-21T03:24:35+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/338.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯混元姚顺雨团队：小模型也能超越大模型，但将训练更大规模模型",
+   "summary_zh": "腾讯混元负责人姚顺雨团队在Reddit AMA中表示，Hy3/Hy4证明扎实的小模型可超越更大模型且成本更低，但Hy4后训练仍有很大改进空间，团队正投入大规模强化学习，并计划训练更大规模模型。",
+   "highlights_zh": [
+    "姚顺雨团队认为做得扎实的小模型能超过更大模型，且成本更低、学习收获更多",
+    "Hy4仍有很大改进空间，尤其通过后训练和大规模强化学习",
+    "计划训练更大规模模型，并考虑推出240亿至310亿参数稠密模型"
+   ],
+   "why_zh": "头部大模型团队负责人明确表态小模型路线与更大模型计划并行，反映腾讯混元的技术判断与路线选择。",
+   "tags": [
+    "大模型",
+    "强化学习"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-21",
+   "slot": "noon",
+   "selected_at": "2026-11-21T05:52:18+00:00",
+   "mirror_pdf": "pdf/web-cc0408e2f6c6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/338.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-be4cf0f93b63",
+   "kind": "article",
+   "title": "OpenAI 公布反蒸馏防护进展：GPT-6.2 Astra 思考链提取成功率从 54% 降至 0.2%",
+   "url": "https://www.ithome.com/1/030/319.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 21 日消息，当地时间 11 月 20 日，OpenAI 发布公告介绍了针对「对抗性蒸馏」（Adversarial Distillation）的防御措施。 OpenAI 称其已加强 GPT-6.2 Astra 和 GPT-6.2 Sol 对内部推理思考链（Chain-of-Thought）的保护，以降低其他模型通过提取推理过程获取其能力的风险。 OpenAI 表示，对抗性蒸馏是指未经授权地利用前沿 AI 模型的输出训练其他模型，使后者获得相似能力，却不具备原模型相应的安全防护。该行为可能导致网络安全、生物学等领域的高风险能力被转移到安全限制较弱的模型中。 在内部自适应黑盒红队测试中，OpenAI 测试了攻击者提取模型此前请求和当前请求中受保护推理内容的成功率。 结果显示，针对此前请求推理内容的提取成功率，从 GPT-6 Astra 原有安全机制下的 54.0%，降至 GPT-6.2 Astra 更新安全机制后的 0.2%；针对当前请求推理内容的提取成功率，则从 22.9% 降至 0.9%。测试结果汇总了 6 个攻击模型的数据。 为实现上述防护，OpenAI 采用了多层措施，包括通过对抗性训练让模型识别并拒绝推理链提取请求，利用输入和输出分类器检测相关攻击及推理内容泄露，以及通过 API 限制不同会话、模型和组织之间的推理内容复用。IT之家附图如下： 其中，GPT-6.2 Astra 和 GPT-6.2 Sol 会将受保护的推理内容与生成它的对话历史关联起来。如果此前的消息被修改，API 会丢弃基于该消息生成的后续推理内容。此外，安全防护较弱的旧版模型也无法读取这两个新模型的受保护推理内容。 在针对相关行为的执法方面， OpenAI 称，今年以来，公司每周都会对涉及未经授权蒸馏活动的账号采取措施，规模从数千个到数万个不等 ，今年夏季以来相关执法规模明显增加。公司还会调查协调进行大规模提取的账号网络，并与其他模型提供商分享攻击指标，以协助识别相关滥用行为。 OpenAI 还介绍了其对蒸馏安全风险的研究。公司内部测试发现，与仅使用模型最终回答、推理摘要和工具交互记录训练的学生模型相比，使用教师模型完整推理轨迹进行监督微调的学生模型，通常能够获得更好的网络安全能力迁移效果。 相关阅读： 《 菲尔兹奖得主邓煜评论 AI 公司反蒸馏：你不能只在你蒸馏全人类知识时支持蒸馏 》 《 英伟达 CEO 黄仁勋回应 AI 模型蒸馏争议：这是市场竞争行为 》 《 商务部回应美方所谓 AI 蒸馏指控：于事无凭于法无据，典型双重标准 》 《 消息称张一鸣内部下死命令：就算模型暂时落后，字节跳动也不会依赖 AI 蒸馏技术 》 《 微软 CEO 纳德拉批评 AI 模型公司“双标”：一边主张“合理使用”数据，一边限制他人蒸馏 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-21T01:45:22+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/319.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI 反蒸馏防护升级：思考链提取成功率降至 0.2%",
+   "summary_zh": "OpenAI 为 GPT-6.2 Astra/Sol 加装多层反蒸馏防护，黑盒红队测试中历史推理链提取成功率从 54% 降至 0.2%，并每周封禁数千至数万违规账号。",
+   "highlights_zh": [
+    "对抗训练+输入输出分类器+API 会话隔离三层防护，历史推理提取成功率 54%→0.2%，当前请求 22.9%→0.9%",
+    "推理内容与对话历史绑定，消息被修改即丢弃后续推理；旧版弱安全模型无法读取新模型受保护推理",
+    "内部研究显示完整推理轨迹微调的学生模型能力迁移效果优于仅用最终答案，说明蒸馏风险真实存在"
+   ],
+   "why_zh": "头部厂商首次公开反蒸馏量化效果，直接关系模型能力护城河与 API 生态规则。",
+   "tags": [
+    "对齐与安全",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-21",
+   "slot": "noon",
+   "selected_at": "2026-11-21T05:52:18+00:00",
+   "mirror_pdf": "pdf/web-be4cf0f93b63.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/319.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2b32d4b379bc",
+   "kind": "article",
+   "title": "[AINews] Riemann Hypothesis proved...twice independently",
+   "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+   "pdf_url": "",
+   "abstract": "November 20 2026 —",
+   "authors": [
+    "swyx .ai"
+   ],
+   "orgs": [
+    "Latent Space"
+   ],
+   "published": "2026-11-21T05:02:13+00:00",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "authority": 0.75,
+     "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "AI 工程师社区",
+   "title_zh": "AINews：黎曼猜想被独立证明两次？",
+   "summary_zh": "Latent Space 的 AINews 汇总了 2026 年 11 月 20 日前后动态，头条为黎曼猜想据称被两次独立证明，但摘要信息极少，需谨慎对待。",
+   "highlights_zh": [
+    "头条称黎曼猜想被两次独立证明",
+    "属于 AI 社区新闻汇总栏目",
+    "摘要信息有限，需核实原始来源"
+   ],
+   "why_zh": "若属实将是数学与 AI 交叉的重大事件，但信息不足，建议核实后再引用。",
+   "tags": [
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 6.0,
+   "score": 0.58,
+   "date": "2026-11-21",
+   "slot": "noon",
+   "selected_at": "2026-11-21T05:52:18+00:00",
+   "mirror_pdf": "pdf/web-2b32d4b379bc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ea2303306e27",
+   "kind": "article",
+   "title": "当 Kling Image 4.0 自己出设计方案，生图的门槛又变了！",
+   "url": "https://www.leiphone.com/category/yanxishe/zjw3hyGGqzhBaPj7.html",
+   "pdf_url": "",
+   "abstract": "过去几年，AI 生图模型在真实感、分辨率和光影表现上不断刷新人们的认知。但当这些图片真正被用于海报、广告这些商业场景时仍会面临文字能否准确呈现、局部修改是否能保留原有设计等问题。 这些看似不起眼的要求，至今仍是图像模型的难题。（雷峰网） 今年 3 月，微软研究院发布了一项名为 BizGenEval 的商业视觉生成评测，用 400 条提示词和 8000 道检查题测试主流模型。结果发现，模型已经能生成颇具美感的海报和网页，但在精确布局、多个对象之间的属性对应等方面，仍然存在明显短板。 也正是在这个阶段，以视频生成出圈的可灵在今天推出了 Kling Image 4.0。 Kling Image 4.0 生成 按照官方介绍，新模型将原生分辨率提升至 8K ，单张图片最多支持 2000 字，并能一次生成最多 10 张连贯图片 。更值得关注的是，它采用理解与生成统一的自回归架构，尝试让模型在同一上下文中处理图像理解与生成。 这一次，可灵显然不只想把图片做得更漂亮，也希望让模型处理更复杂的创作要求。 我们从最直观的人像写真开始试试 Kling Image 4.0 的能力，从拍好一张照片，到设计一张海报，再到组织一整套视觉内容，Kling Image 4.0 究竟能替创作者完成多少工作？ 01 从写真到创意海报 Kling Image 4.0 的生图能力有多强？ 这次体验 Kling Image 4.0，最让我们意外的还是它生成图片的真实质感。我们尝试了几张人像写真，无论是人物的皮肤纹理、细节，还是户外的光影投射，都已经相当接近真实摄影。 这样的真实感，已经开始影响摄影行业本身。今年 4 月，Vogue 杂志采访了一些商业摄影师，发现部分客户开始拿 AI 生成的图片作为拍摄参考，要求摄影师在现实中还原其中的画面。 不过，写真主要考验模型对人物和真实场景的还原。如果要制作一张真正用于传播的海报，事情就复杂了不少，尤其是加入中文之后。 最近，芒果卫视里一档综艺里嘉宾许飞和厉娜的一段对话，意外让“画地为牢”成了互联网的新流行语。我们决定让 Kling Image 4.0 也赶一次热闹。 相比普通的文字海报，“画地为牢”其实是个很适合视觉设计的题目。它既有明确的文字内容，又包含可以被画面表达的意象。可以看到最终生成的作品颇有芒果台综艺宣传海报的感觉：半圆形的海面构图、清冷疏离的色调、包括文字排版设置、艺术字体的设计几乎能够达到可发布海报的水准。 这里有一个值得单独说的变化：Kling Image 4.0 的图像编辑可以直接选中图片里 已有的文字进行修改，也可以往已有画面里增加新的文字 。 3.0 阶段已经具备局部重编辑能力，4.0 把控制粒度做得更细。我们试了修改海报文字内容并补充一行副文案，原来的海报中只改变了我们要求的文字，并没有重绘图片其他图层。 字体控制也是这次 4.0 和 3.0 拉开差距的地方。3.0 阶段创意字体主要靠提示词描述风格，能做到，但可控性有限；4.0 把这件事变得更工具化： 内置 70+ 款预设字体 ，可以直接选；也支持上传字体参考图，让模型照着参考图的字形和笔画风格去生成。 文字生成一直是 AI 生图模型比较难处理的部分。艺术字设计就要比正确写出汉字更进一步。 比如我们做的下面做的这张的夏日露营海报，艺术字体和场景融合的非常自然，从场景、配色到标题设计都有了相当完整的成品感，稍加检查和调整，就可以用作一张活动宣传图。字体本身就可以成为画面的一部分，可以与云层、海浪和其他视觉元素发生联系。对于模型而言，这要求它同时处理文字内容、空间位置与视觉风",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-21T02:59:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/yanxishe/zjw3hyGGqzhBaPj7.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "可灵 Image 4.0 发布：理解生成统一架构",
+   "summary_zh": "可灵推出 Image 4.0，原生 8K 分辨率、单图最多 2000 字、一次生成 10 张连贯图，采用理解与生成统一的自回归架构，并支持选中图片文字直接修改、内置 70+ 预设字体。",
+   "highlights_zh": [
+    "采用理解与生成统一的自回归架构，同一上下文处理图像理解与生成",
+    "支持直接选中图片已有文字修改、增补文案，不重绘其他图层",
+    "内置 70+ 预设字体，支持上传字体参考图控制字形风格"
+   ],
+   "why_zh": "国产生图模型在商业海报场景的关键进展，文字与布局控制是行业痛点。",
+   "tags": [
+    "多模态",
+    "视觉",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-21",
+   "slot": "noon",
+   "selected_at": "2026-11-21T05:52:18+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/yanxishe/zjw3hyGGqzhBaPj7.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a666f6a6580f",
+   "kind": "article",
+   "title": "智能体 AI 架构：当前挑战与未来机遇",
+   "url": "https://www.infoq.cn/article/TrWuo2vEZRl2xB2XXZNX?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "作者：Rafał Gancarz"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-21T11:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/TrWuo2vEZRl2xB2XXZNX?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "智能体AI架构：挑战与机遇",
+   "summary_zh": "InfoQ 刊文梳理智能体 AI 的架构现状，分析当前在规划、记忆、工具调用与多智能体协作上的挑战，并展望未来演进方向。",
+   "highlights_zh": [
+    "系统梳理智能体架构的核心组件与设计取舍",
+    "指出当前智能体在可靠性与长任务上的瓶颈",
+    "给出面向工程落地的架构演进方向"
+   ],
+   "why_zh": "适合正在设计或评估智能体系统的工程团队作为架构参考。",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-21",
+   "slot": "noon",
+   "selected_at": "2026-11-21T05:52:18+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/TrWuo2vEZRl2xB2XXZNX?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7299f6c8f6c0",
+   "kind": "article",
+   "title": "清析智研王欢：大模型学完了人类知识，下一步去哪儿？",
+   "url": "https://www.tmtpost.com/8213250.html",
+   "pdf_url": "",
+   "abstract": "AI能不能不只“掌握已有知识”，而是进入真实世界，创造新知识？",
+   "authors": [
+    "霞光AI实验室"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-21T04:44:41+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8213250.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "清析智研王欢：大模型学完人类知识后向何处去",
+   "summary_zh": "清析智研王欢认为，大模型已基本消化人类既有知识，下一步应让AI进入真实世界、从实验与交互中创造新知识，而非停留在刷榜与复述。",
+   "highlights_zh": [
+    "提出大模型「学完存量知识」后的瓶颈问题",
+    "主张AI走向真实世界、自主产生新知识",
+    "涉及AI for Science与自主实验路径"
+   ],
+   "why_zh": "把握大模型下一阶段从「知识压缩」转向「知识生产」的方向判断。",
+   "tags": [
+    "科学AI",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-21",
+   "slot": "noon",
+   "selected_at": "2026-11-21T05:52:18+00:00",
+   "mirror_pdf": "pdf/web-7299f6c8f6c0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8213250.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1f1aebab6444",
+   "kind": "article",
+   "title": "从“刷分”打到“补缝”，机器人新竞赛升温",
+   "url": "https://www.tmtpost.com/8213064.html",
+   "pdf_url": "",
+   "abstract": "技术有突破，落地缺接口",
+   "authors": [
+    "机器最前线"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-21T03:43:59+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8213064.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "机器人竞赛从刷分转向补缝：落地缺接口",
+   "summary_zh": "机器人行业竞赛重心从跑分刷榜转向补齐真实场景的工程缝隙，技术有突破但落地缺乏标准化接口与集成方案。",
+   "highlights_zh": [
+    "评测从benchmark刷分转向真实任务",
+    "落地瓶颈在接口与系统集成",
+    "反映具身智能从演示走向部署的阶段性特征"
+   ],
+   "why_zh": "理解机器人行业从Demo竞赛到工程落地的转折点。",
+   "tags": [
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-21",
+   "slot": "noon",
+   "selected_at": "2026-11-21T05:52:18+00:00",
+   "mirror_pdf": "pdf/web-1f1aebab6444.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8213064.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-24cfec9fd3e3",
+   "kind": "article",
+   "title": "黄仁勋没有的“护身符”：Anthropic 创始人手握 50.1% 投票权建立“反夺权”机制",
+   "url": "https://www.ithome.com/1/030/348.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 21 日消息，科技媒体 Business Insider 昨日（11 月 20 日）报道，AI 公司 Anthropic 在上市后通过特殊股权设计， 让包括 CEO 达里奥 · 阿莫代伊（Dario Amodei）在内的 7 位联合创始人共同掌握 50.1% 的股东投票权。 报道指出该安排的核心是特殊的 F 类股，即使 Anthropic 公司未来继续发行普通股，创始团队的投票权比例也不会被稀释。普通投资者持有的是常规股份，而创始团队则通过 F 类股保留对公司重大决策的最终控制权。该媒体解读认为， 即便外部资本大量进入，创始人仍能决定董事会构成、战略方向和关键人事安排。 Anthropic 还设立了一个独立信托，持有 T 类股。该信托的职责是维护公司的 AI 安全使命，并通常有权任命或罢免董事会多数席位。Anthropic 表示，这类设计是为了避免强大的 AI 技术发展被短期财务回报和投资者压力左右。 该媒体在报道中专门将这一机制与英伟达创始人黄仁勋的处境相对照。黄仁勋在 33 年前创立英伟达时，特殊投票权在科技行业尚不常见；如今他仅持有约 3.5% 的公司股份，且没有特殊投票权，由于缺少类似保护，因此被董事会“请出”。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-21T05:14:19+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/348.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic创始人以50.1%投票权设反夺权机制",
+   "summary_zh": "Anthropic通过F类股让7位联合创始人共持50.1%投票权且不被稀释，另设持T类股的独立信托守护AI安全使命、可任免多数董事，确保战略不被短期资本左右。",
+   "highlights_zh": [
+    "F类股保证创始团队投票权不被稀释",
+    "独立信托持T类股，有权任免多数董事以维护安全使命",
+    "与黄仁勋仅持约3.5%股份且无特殊投票权形成对照"
+   ],
+   "why_zh": "理解头部AI公司治理结构如何为长期安全使命兜底。",
+   "tags": [
+    "产品与行业",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-21",
+   "slot": "noon",
+   "selected_at": "2026-11-21T05:52:18+00:00",
+   "mirror_pdf": "pdf/web-24cfec9fd3e3.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/348.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d5e24ef4a882",
+   "kind": "article",
+   "title": "12 张二手英伟达 V100：律师自建 AI 集群跑 DeepSeek，最高每秒 184 个词元",
+   "url": "https://www.ithome.com/1/030/346.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 21 日消息，律师 u/TumbleweedNew6515 昨日（11 月 20 日）在 Reddit 社区发帖，斥资 9,450 美元 （IT之家注：现汇率约合 63,239 元人民币） 使用 12 张二手英伟达 V100 显卡搭建私人 AI 服务器，本地运行 DeepSeek-V4.1-Flash，集群最高吞吐量达到每秒 184 个词元。 在硬件部分，该律师使用 12 张英伟达 NVIDIA Tesla V100 SXM2 32GB 搭建，通过 NVLink 与 PCIe 组成可协同推理的本地 AI 集群，整套硬件采购价约 9,450 美元 （现汇率约合 63,239 元人民币） 。 这套系统采用 3 个流水线阶段（PP3）× 每阶段 4 卡张量并行（TP4）的结构，系统运行的是 DeepSeek-V4.1-Flash，并采用 4-bit NVFP4 量化。发帖者称，每个专家被压缩至约 15,360 个参数，使 12 张 V100 能分别承载模型中的专家分片。 配置 3× DGX Spark（TP3、SGLang、MXFP4 专家） 4× DGX Spark（TP4；三堆叠） 12× V100（本次配置） 单请求，代码 未发布 125（SGLang）/ 138（TensorFold 4.0 bpw）/ 136（vLLM + DSpark） 153–184 单请求，普通文本 38–51 79–88 83–95 预填充，长提示词 约 2,000 3,100–3,300（TensorFold）/ 4,900–5,000（SGLang，真实文本）/ 8,500（vLLM + DSpark，32K–128K） 4,500–4,700 多请求 4 个流合计 85 32 个流时 290（TensorFold）/ 16 个流时 340–570（SGLang，从散文到结构化） 3 个流时 344–443；它不是批量解码引擎 上下文 配置为 256K 1M 配置为 524K 性能方面，该网友的测试结果如下： 上下文长度 首个 token（冷启动） 预填充速度（tok/s） 代码 法律 普通文本 三个代码请求合计 首个 token（文档已缓存） 1K 0.7 秒 1,567 184 102 86 443 0.2 秒 8K 2.5 秒 3,267 176 93 90 421 0.2 秒 32K 7.3 秒 4,478 176 92 95 404 0.3 秒 64K 13.9 秒 4,697 157 93 83 364 0.3 秒 128K 28.1 秒 4,670 157 93 86 360 0.4 秒 256K 58.0 秒 4,518 153 92 85 344 0.6 秒 这位用户称，在单请求、单流场景下，该服务器优于已公开的 4 台英伟达 DGX Spark 组合，代码生成速度快约 15% 至 45%，普通文本生成速度也更高。 整套系统成本约 9,450 美元 （现汇率约合 63,239 元人民币） ，约为三台 DGX Spark 组合价格的一半；不过，其代价是功耗最高可达约 2,100W，且噪音较大，并不适合普通办公环境。 参考 Lawyer with too many GPUs: DeepSeek-V4.1-Flash on 12x V100, all 15,360 experts in NVFP4 on the cards. 157-184 tok/s on one code stream, faster than any publ",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-21T05:00:14+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/346.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "律师用12张二手V100自建集群跑DeepSeek",
+   "summary_zh": "一位律师花约9450美元用12张二手V100搭本地集群，以PP3×TP4并行加4-bit量化运行DeepSeek-V4.1-Flash，单请求代码生成达184 tok/s，性能超过四台DGX Spark组合而成本仅其一半。",
+   "highlights_zh": [
+    "12张V100 SXM2 32GB经NVLink组集群，成本约9450美元",
+    "PP3×TP4并行+NVFP4量化承载专家分片",
+    "代码生成153-184 tok/s，优于DGX Spark组合约15-45%",
+    "代价是功耗约2100W、噪音大，不适合办公环境"
+   ],
+   "why_zh": "自建本地推理集群的性价比与并行配置实战参考。",
+   "tags": [
+    "效率与系统",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-21",
+   "slot": "noon",
+   "selected_at": "2026-11-21T05:52:18+00:00",
+   "mirror_pdf": "pdf/web-d5e24ef4a882.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/346.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-44b0df728308",
+   "kind": "article",
+   "title": "TaoDesign 的知识工程实践：从设计资产到 Agent 持续进化｜AICon北京",
+   "url": "https://www.infoq.cn/article/vhoobUFbLs2hUlTBA4HZ?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "AICon 全球人工智能开发与应用大会"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-21T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/vhoobUFbLs2hUlTBA4HZ?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "TaoDesign知识工程：设计资产到Agent进化",
+   "summary_zh": "AICon 北京演讲介绍 TaoDesign 如何把设计资产沉淀为知识工程体系，并让 Agent 在使用中持续进化。",
+   "highlights_zh": [
+    "设计资产如何结构化为 Agent 可用的知识",
+    "Agent 持续进化的工程路径",
+    "来自真实业务场景的实践总结"
+   ],
+   "why_zh": "对做企业知识库与 Agent 落地的团队有参考价值。",
+   "tags": [
+    "智能体",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-21",
+   "slot": "noon",
+   "selected_at": "2026-11-21T05:52:18+00:00",
+   "mirror_pdf": "pdf/web-44b0df728308.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/vhoobUFbLs2hUlTBA4HZ?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-c47926adfde2",
+   "kind": "article",
+   "title": "Entire Git Forge：面向编码智能体重构 Git 协作方式",
+   "url": "https://www.infoq.cn/article/6swrOq5xUXwVqrREwJwc?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "Sergio De Simone"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-21T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/6swrOq5xUXwVqrREwJwc?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Entire Git Forge：为编码智能体重构Git协作",
+   "summary_zh": "Entire 推出面向编码智能体的 Git Forge，重新设计代码协作流程，让 Agent 生成的提交与评审更可控。",
+   "highlights_zh": [
+    "针对 Agent 高频提交场景重构协作模型",
+    "关注代码来源与变更可追溯性",
+    "面向编码智能体工作流的工具链尝试"
+   ],
+   "why_zh": "关注编码智能体工程化与代码治理的读者可了解新思路。",
+   "tags": [
+    "代码",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-21",
+   "slot": "noon",
+   "selected_at": "2026-11-21T05:52:18+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/6swrOq5xUXwVqrREwJwc?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-18b4d119ccb8",
+   "kind": "article",
+   "title": "东南亚AI中间商之死",
+   "url": "https://www.tmtpost.com/8213274.html",
+   "pdf_url": "",
+   "abstract": "算力中间商的淘金时代，结束了。",
+   "authors": [
+    "版面之外"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-21T05:05:28+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8213274.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "东南亚 AI 中间商之死",
+   "summary_zh": "钛媒体报道东南亚算力中间商淘金时代结束，随着算力供给与渠道变化，靠转售套利的中间层被挤压出局。",
+   "highlights_zh": [
+    "算力转售中间商模式走向终结",
+    "反映 AI 算力供应链格局变化",
+    "区域市场视角"
+   ],
+   "why_zh": "从区域算力分销视角看 AI 基础设施市场的洗牌。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-11-21",
+   "slot": "noon",
+   "selected_at": "2026-11-21T05:52:18+00:00",
+   "mirror_pdf": "pdf/web-18b4d119ccb8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8213274.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6afac731c57b",
+   "kind": "article",
+   "title": "Seedance、MiniMax和Qwen image修改能力测试：3轮连改，谁更好用？",
+   "url": "https://www.tmtpost.com/8213159.html",
+   "pdf_url": "",
+   "abstract": "看看谁更听指挥",
+   "authors": [
+    "象先志"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-21T05:05:03+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8213159.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Seedance、MiniMax、Qwen 图像修改能力横评",
+   "summary_zh": "钛媒体对 Seedance、MiniMax 与 Qwen 图像编辑模型做三轮连续修改测试，比较各家对指令的遵循与修改稳定性。",
+   "highlights_zh": [
+    "三家图像编辑模型横向对比",
+    "三轮连续修改考验一致性",
+    "关注指令遵循能力"
+   ],
+   "why_zh": "为选型图像编辑模型提供实测参考，结论直观。",
+   "tags": [
+    "多模态",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-11-21",
+   "slot": "noon",
+   "selected_at": "2026-11-21T05:52:18+00:00",
+   "mirror_pdf": "pdf/web-6afac731c57b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8213159.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2ad196385eeb",
+   "kind": "article",
+   "title": "nilbuild/stick-scene",
+   "url": "https://github.com/nilbuild/stick-scene",
+   "pdf_url": "",
+   "abstract": "Skill to draw stick figure animated visuals",
+   "authors": [],
+   "orgs": [
+    "nilbuild"
+   ],
+   "published": "2026-11-21T05:52:18+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/nilbuild/stick-scene",
+     "signal": "★ 539（新项目） · JavaScript",
+     "metric": 539
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "stick-scene：火柴人动画绘制技能",
+   "summary_zh": "一个用 JavaScript 生成火柴人动画视觉的技能，适合快速做简单动画演示。",
+   "highlights_zh": [
+    "以技能形式提供，接入智能体即可调用",
+    "输出火柴人风格动画，制作成本低",
+    "功能单一，适合轻量演示场景"
+   ],
+   "why_zh": "如果你在做智能体可视化演示，可用它快速生成火柴人动画。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5616,
+   "score_llm": 4.0,
+   "score": 0.4646,
+   "date": "2026-11-21",
+   "slot": "noon",
+   "selected_at": "2026-11-21T05:52:18+00:00",
+   "mirror_pdf": "pdf/web-2ad196385eeb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/nilbuild/stick-scene"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "模型开始具备无梯度自我改写能力，训练范式出现新拐点",
-   "why": "27B模型仅凭推理诊断失败并改写权重，准确率提升6.6分且随规模涌现，挑战传统训练依赖。",
+   "trend": "模型开始自我改写权重，训练范式出现新分叉",
+   "why": "27B模型无需梯度、仅凭推理即可诊断失败并改写权重，连续八次自我编辑持续进步，且能力随规模涌现。",
    "refs": [
     "arxiv-2611.21885"
    ]
   },
   {
-   "trend": "模型与智能体脚手架解耦，harness适配层成为竞争新战场",
-   "why": "Hugging Face推标准化适配器，Agnes宣称效率提速14倍、成本降至1/27，组合优化取代单模型比拼。",
+   "trend": "智能体竞争从模型转向harness与脚手架层",
+   "why": "Hugging Face推harness适配器标准化模型与脚手架组合，Agnes宣称双系统harness让效率提速14倍、成本降至1/27。",
    "refs": [
     "web-211fbe8009a4",
     "web-4386342c1a71"
    ]
   },
   {
-   "trend": "万亿市值后估值逻辑切换，增长叙事让位于盈利锚定",
-   "why": "Anthropic上市次日跌9%，市场对40倍营收审视加剧，万亿以上企业估值锚定20–26倍市盈率。",
+   "trend": "评测方法转向分层与真实任务，刷榜失效",
+   "why": "孟加拉语幻觉基准显示跨层macro-F1差超30点、榜单无法预测下阶段排名；MedChemBench直指药物发现真实环节。",
+   "refs": [
+    "arxiv-2611.26336",
+    "web-f4784c304003"
+   ]
+  },
+  {
+   "trend": "万亿市值后估值锚从增长切向盈利",
+   "why": "Anthropic与SpaceX同为9.5倍预期营收估值但增速差近一倍，超万亿后市场锚定20–26倍市盈率；Anthropic上市次日跌9%。",
    "refs": [
     "web-68c65d2b2909",
     "web-f571789a1d3c"
    ]
   },
   {
-   "trend": "头部竞争节奏分化，谷歌密集发模型追赶OpenAI",
-   "why": "谷歌50天推4款模型并发布Gemini 4 Neon，OpenAI近期进展相对乏力，格局从单极转向拉锯。",
+   "trend": "头部竞争提速，谷歌密集发模型追赶OpenAI",
+   "why": "谷歌50天推4款模型、发布Gemini 4 Neon，而OpenAI近期进展被指相对乏力，竞争节奏明显变化。",
    "refs": [
     "web-282e13c41a7f",
     "web-32dbb6202d72"
-   ]
-  },
-  {
-   "trend": "评测方法转向分层与跨阶段验证，单一榜单可信度受质疑",
-   "why": "孟加拉语幻觉基准显示跨层macro-F1差超30点，第一阶段榜单几乎无法预测第二阶段排名。",
-   "refs": [
-    "arxiv-2611.26336"
    ]
   }
  ]
