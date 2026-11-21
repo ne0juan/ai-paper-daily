@@ -2144,46 +2144,1169 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-fda5004e845f",
+   "kind": "article",
+   "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+   "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-20T13:29:59Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50574383",
+     "signal": "366 pts",
+     "metric": 366
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "AI 抛售潮拖累纳指回吐 2026 年全部涨幅",
+   "summary_zh": "AI 板块抛售令纳斯达克回吐 2026 年全部涨幅，Anthropic 上市第二日亦受波及，市场对 AI 估值的分歧明显升温。",
+   "highlights_zh": [
+    "纳指年内涨幅归零，AI 权重股是主要拖累",
+    "Anthropic 上市第二日遭遇抛压",
+    "反映市场对 AI 高估值的情绪转向"
+   ],
+   "why_zh": "判断 AI 板块资金情绪与估值拐点的直接信号。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.5969,
+   "score_llm": 7.0,
+   "score": 0.6588,
+   "date": "2026-11-21",
+   "slot": "evening",
+   "selected_at": "2026-11-21T13:20:14+00:00",
+   "mirror_pdf": "pdf/web-fda5004e845f.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50574383"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d15c45643214",
+   "kind": "article",
+   "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+   "url": "https://openai.com/business/customer-stories/hebbia",
+   "pdf_url": "",
+   "abstract": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-11-20T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/business/customer-stories/hebbia",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Hebbia 用 GPT-6 Astra 提升金融研究质量",
+   "summary_zh": "Hebbia 在预发布评测中用 GPT-6 Astra 做金融研究，来源覆盖、引用相关性和呈现质量均有提升。",
+   "highlights_zh": [
+    "预发布评测显示引用相关性改善",
+    "来源覆盖范围扩大",
+    "面向金融研究这一高要求场景"
+   ],
+   "why_zh": "头部模型在专业垂直场景的能力验证，值得关注。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 7.0,
+   "score": 0.636,
+   "date": "2026-11-21",
+   "slot": "evening",
+   "selected_at": "2026-11-21T13:20:14+00:00",
+   "mirror_pdf": "pdf/web-d15c45643214.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/business/customer-stories/hebbia"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-565159543ba4",
+   "kind": "article",
+   "title": "How Google Duplex evolved to also call businesses for you in Gemini",
+   "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+   "pdf_url": "",
+   "abstract": "Generative AI",
+   "authors": [],
+   "orgs": [
+    "Google Research"
+   ],
+   "published": "2026-11-20T23:30:30+00:00",
+   "sources": [
+    {
+     "name": "Google Research",
+     "authority": 0.8,
+     "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Google Duplex 如何演进为 Gemini 代打电话",
+   "summary_zh": "谷歌介绍 Duplex 从任务型语音助手演进为 Gemini 内代用户致电商家的能力，生成式 AI 提升了对话自然度与泛化。",
+   "highlights_zh": [
+    "从固定脚本转向生成式对话",
+    "集成进 Gemini 成为通用能力",
+    "语音智能体落地商家的路径"
+   ],
+   "why_zh": "语音智能体产品化的典型样本，看落地边界。",
+   "tags": [
+    "语音",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5,
+   "score_llm": 7.0,
+   "score": 0.62,
+   "date": "2026-11-21",
+   "slot": "evening",
+   "selected_at": "2026-11-21T13:20:14+00:00",
+   "mirror_pdf": "pdf/web-565159543ba4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.26413",
+   "kind": "paper",
+   "title": "Sequential Anytime Valid Tests for Efficient Inference-Time Alignment",
+   "url": "https://arxiv.org/abs/2611.26413",
+   "pdf_url": "https://arxiv.org/pdf/2611.26413",
+   "abstract": "Inference-time alignment methods, such as Best-of-N (BoN), improve language model outputs by generating multiple candidates per prompt and selecting among them using a reward model. Much of this cost is wasted: a fixed budget is applied to every prompt, although the computation required by prompts varies widely. Adaptive methods halt once sampled answers appear settled, but their thresholds are tuned heuristics with no statistical control over early-stopping errors. We instead seek an anytime-valid stopping rule that takes an error tolerance $α$ as input and halts only once an answer is certified to hold a majority ($θ_a > 1/2$) under the generator's distribution. We aggregate candidates by final answer with a reward-weighted self-consistency (RWSC) score and treat stopping as a sequential test over the resulting clusters. Applying Wald's sequential probability ratio test to these clusters yields SPRT-RWSC, which performs well empirically, but its guarantee fails because the leading answer shifts during sampling, and the run is continuously monitored. Our main contribution, e-RWSC, replaces Wald's test with a betting supermartingale (an e-process) for every answer the policy produces, bounding the probability of ever certifying a non-dominant answer by $α$, uniformly over time and across all answers. The RWSC scores drive the bets, so they affect only how quickly a dominant answer $a^\\star$ is certified, not validity; certification takes $O(\\log(1/α)/d_{\\mathrm{KL}}(θ_{a^\\star}\\|1/2))$ samples. Experiments across several language models, datasets, and reward models confirm the predicted $1/d_{\\mathrm{KL}}$ scaling of cost and show that accuracy improves over baselines at substantially lower token cost.",
+   "authors": [
+    "Vishesh Kumar Singh",
+    "Sayak Ray Chowdhury"
+   ],
+   "orgs": [],
+   "published": "2026-11-19T17:00:42Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.26413",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "e-RWSC：带统计保证的推理时对齐早停",
+   "summary_zh": "提出e-RWSC，用赌注超鞅e-process替代Wald检验，为Best-of-N推理时对齐提供任意时刻有效的早停规则，以α控制误判概率并节省算力。",
+   "highlights_zh": [
+    "以奖励加权自一致性分数聚合候选答案簇",
+    "e-process对所有答案统一控制错误认证概率",
+    "解决领先答案漂移与持续监控导致的保证失效问题"
+   ],
+   "why_zh": "推理时对齐的算力浪费是实际问题，这是首个有统计保证的自适应早停方案。",
+   "tags": [
+    "对齐与安全",
+    "推理",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-21",
+   "slot": "evening",
+   "selected_at": "2026-11-21T13:20:14+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.26413.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.26413"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.26413"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.26413"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.26413"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.26413"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.26413"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.26366",
+   "kind": "paper",
+   "title": "World Models Favor Learned Priors over Visual Evidence",
+   "url": "https://arxiv.org/abs/2611.26366",
+   "pdf_url": "https://arxiv.org/pdf/2611.26366",
+   "abstract": "World models are increasingly used to simulate physical interactions, but training a separate model for each environment limits scalability. Cross-environment prediction requires identifying the current physical rule, which appearance alone may not reveal. We therefore study visual calibration: using object motion and interactions in a short video as direct evidence to infer the current rule and predict motion under that rule from a different initial state. However, differences in data availability across physical conditions can yield a long-tailed training distribution, biasing models toward common rules even when evidence supports rare ones. To study this challenge, we introduce TailWorld, which evaluates the transfer of demonstrated rules across initial states while independently controlling training imbalance and calibration informativeness. The benchmark compares predictions with two reference futures from the same prediction initial state, one following the demonstrated rule and the other a common rule, to measure prediction bias toward common dynamics. We further propose Rule Inference for Transfer (RIFT), which learns how different rules affect object motion, infers the current rule from calibration interactions, and applies it to prediction from a new initial state. RIFT explicitly controls the influence of training frequency on rule inference, allowing sufficiently informative observational evidence to support rare rules. Experiments on TailWorld show that RIFT improves prediction accuracy and physical consistency across varying training imbalances and distribution shifts, with gains in predicting rare dynamics.",
+   "authors": [
+    "Han Xiao",
+    "Zhiyong Bao",
+    "Xiaotong Liu",
+    "Yanhao Chen",
+    "Qingqiang Wu"
+   ],
+   "orgs": [],
+   "published": "2026-11-19T16:33:02Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.26366",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "世界模型更依赖学到的先验而非视觉证据",
+   "summary_zh": "提出TailWorld基准与RIFT方法，发现世界模型在长尾训练分布下倾向套用常见物理规则，即使视频证据支持罕见规则；RIFT通过显式推断当前规则改善跨初始状态迁移。",
+   "highlights_zh": [
+    "TailWorld独立控制训练不均衡与校准信息量",
+    "用同一初始状态的两条参考未来量化对常见规则的偏向",
+    "RIFT学习规则对运动的影响并从校准交互中推断当前规则"
+   ],
+   "why_zh": "揭示世界模型泛化的关键缺陷，对世界模型与具身智能研究有直接启发。",
+   "tags": [
+    "理论",
+    "数据与评测",
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 8.0,
+   "score": 0.608,
+   "date": "2026-11-21",
+   "slot": "evening",
+   "selected_at": "2026-11-21T13:20:14+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.26366.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.26366"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.26366"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.26366"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.26366"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.26366"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.26366"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-653957d30389",
+   "kind": "article",
+   "title": "GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍",
+   "url": "https://www.qbitai.com/2026/11/511779.html",
+   "pdf_url": "",
+   "abstract": "还实现可变形物体操控全球首通",
+   "authors": [
+    "衡宇"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-21T06:35:59+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/511779.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "GPT-6.2 Astra具身任务成功率翻倍",
+   "summary_zh": "GPT-6.2 Astra在16项具身任务上成功率较GPT-6 Astra翻倍，并实现可变形物体操控全球首通，显示大模型对机器人操作的泛化能力显著提升。",
+   "highlights_zh": [
+    "16项具身任务成功率较上代翻倍",
+    "首次完成可变形物体操控",
+    "大模型直接驱动机器人操作能力跃升"
+   ],
+   "why_zh": "关注大模型与机器人结合的能力边界，判断具身智能落地节奏。",
+   "tags": [
+    "机器人",
+    "多模态"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-21",
+   "slot": "evening",
+   "selected_at": "2026-11-21T13:20:14+00:00",
+   "mirror_pdf": "pdf/web-653957d30389.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/511779.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bc49ec0ca91c",
+   "kind": "article",
+   "title": "刚刚，DeepSeek V1作者创业项目曝光：开源Agent",
+   "url": "https://www.qbitai.com/2026/11/511570.html",
+   "pdf_url": "",
+   "abstract": "专为本地部署而生",
+   "authors": [
+    "Jay"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-21T06:32:31+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/511570.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "DeepSeek V1作者开源本地Agent项目",
+   "summary_zh": "DeepSeek V1作者创业项目曝光，开源面向本地部署的Agent框架，瞄准私有化与低成本智能体落地。",
+   "highlights_zh": [
+    "DeepSeek V1作者新创业项目",
+    "开源Agent框架",
+    "主打本地部署"
+   ],
+   "why_zh": "头部模型作者转向Agent创业，反映智能体与本地化部署趋势。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-21",
+   "slot": "evening",
+   "selected_at": "2026-11-21T13:20:14+00:00",
+   "mirror_pdf": "pdf/web-bc49ec0ca91c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/511570.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1dd980bb0ab5",
+   "kind": "article",
+   "title": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
+   "url": "https://www.qbitai.com/2026/11/511757.html",
+   "pdf_url": "",
+   "abstract": "还透露了不少训练背后的秘诀",
+   "authors": [
+    "衡宇"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-21T06:30:55+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/511757.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "姚顺雨与混元团队Reddit答疑",
+   "summary_zh": "姚顺雨与混元团队在Reddit回应网友，透露Hy小模型已进入路线图，并分享训练背后的关键做法。",
+   "highlights_zh": [
+    "Hy小模型已列入路线图",
+    "披露训练细节与秘诀",
+    "混元团队公开互动答疑"
+   ],
+   "why_zh": "了解头部团队小模型路线与训练方法的一手信息。",
+   "tags": [
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-21",
+   "slot": "evening",
+   "selected_at": "2026-11-21T13:20:14+00:00",
+   "mirror_pdf": "pdf/web-1dd980bb0ab5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/511757.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f4b642c4d9ca",
+   "kind": "article",
+   "title": "2026.47: Down in DC",
+   "url": "https://stratechery.com/2026/down-in-dc/",
+   "pdf_url": "",
+   "abstract": "The best Stratechery content from the week of November 16, 2026, including obituaries and exceptionalism, arguments about agents, and Ben gets a Duo.",
+   "authors": [
+    "Ben Thompson"
+   ],
+   "orgs": [
+    "Stratechery"
+   ],
+   "published": "2026-11-20T19:09:57+00:00",
+   "sources": [
+    {
+     "name": "Stratechery",
+     "authority": 0.8,
+     "url": "https://stratechery.com/2026/down-in-dc/",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Ben Thompson，科技战略分析",
+   "title_zh": "Stratechery周报：智能体之争",
+   "summary_zh": "Ben Thompson本周内容涉及讣告与例外论、关于智能体的争论，以及个人动态。",
+   "highlights_zh": [
+    "讨论智能体相关争论",
+    "科技战略视角分析",
+    "摘要信息有限"
+   ],
+   "why_zh": "Ben Thompson对智能体的判断值得关注，但本期摘要信息不足。",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 6.0,
+   "score": 0.588,
+   "date": "2026-11-21",
+   "slot": "evening",
+   "selected_at": "2026-11-21T13:20:14+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://stratechery.com/2026/down-in-dc/"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-38bfcd06e07c",
+   "kind": "article",
+   "title": "林俊旸新公司估值升至 50 亿美元；丁磊：短剧爆发冲击游戏产业；华为新品牌星芒发布首款阔直板手机",
+   "url": "http://www.geekpark.net/news/374299",
+   "pdf_url": "",
+   "abstract": "传林俊旸 AI 初创公司完成新融资，估值翻倍至 50 亿美元 据彭博社报道，阿里巴巴集团前 AI 负责人林俊旸创办的语用科技 ( Pragmatik Labs)，已完成新一轮融资，估值达 50 亿美元，短短几个月内估值翻了一倍多。 林俊旸曾是阿里的明星研究员，在离职后于今年夏季创立语用科技。据知情人士称，语用科技在最近结束的一轮融资中筹集了数千万美元资金。今年 8 月，该公司在首次融资中筹集了数亿美元，当时估值为 20 亿美元。 知情人士称，语用科技的新投资者包括华业天成资本、鼎晖投资以及汽车制造商吉利汽车。 语用科技总部位于上海，致力于开发面向数字世界和物理世界的 AI 智能体。该公司首轮融资的投资方包括高榕创投、红杉中国、腾讯以及上海未来产业基金。（来源：凤凰网科技） 网传张楠、谢欣将离职，本人辟谣：信息不准确 11 月 20 日午间，有媒体报道称，原抖音 CEO 张楠、原飞书 CEO 谢欣将从字节跳动离职。字节相关负责人回应称该信息不准确。 谢欣本人则在朋友圈辟谣：「媒体今天发的所谓『独家』的假新闻，浪费我大把时间去回复大家。」 值得注意的是，谢欣还将自己的微信名称改成带有「假新闻」的版本，用最直接的方式进行辟谣。（来源：新浪科技） DeepSeek 千亿级融资落地，梁文锋保留绝对控制权 工商信息显示，DeepSeek 运营主体杭州深度求索人工智能基础技术研究有限公司近日完成工商变更，新增股东杭州程砚企业管理咨询合伙企业（有限合伙）。 据证券时报援引知情交易人士消息，DeepSeek 本轮融资募资规模区间在 1000 亿元至 1055 亿元，投后估值约 6155 亿元。叠加 2026 年 6 月首轮约 510 亿元融资，市场测算其短时间内两轮累计吸纳资金将超 1500 亿元。 据测算，梁文锋直接及间接持股比例合计约 67.42%，千亿资本入场并未改变控制权归属。 据悉，作为新增股东的持股平台，杭州程砚的 31 家合伙人横跨互联网、通信运营商、芯片半导体、新能源、消费电子、汽车、家电以及头部 PE / VC，几乎把大模型商业化所需的上游算力与下游场景一次性集齐。（来源：IT之家） 网易丁磊：短剧确实会对游戏产生影响 近日，在网易 2026 年第三季度业绩电话会上，管理层被问及短剧对游戏行业的影响。网易创始人兼 CEO 丁磊坦言，短剧今年呈现爆炸式发展，对用户注意力的吸引力巨大，短期内确实会对游戏产生影响。 第三季度，网易净收入 279 亿元，同比下降 1.8%；归属于公司股东的净利润 84 亿元，同比下降约 2.5%。 作为网易最重要的收入来源，游戏业务罕见出现同比下滑，成为拖累整体营收的主要因素。网易三季度游戏及相关增值服务收入 229 亿元，同比下降 1.7%，自 2024 年三季度以来再次出现同比下降。今年前两个季度，该业务收入分别同比增长 6.9% 和 9.7%。（来源：每日经济新闻） 余承东更正：享界 V8 是 L2 辅助驾驶，开车不能睡觉 11 月 20 日，鸿蒙智行享界 V8 及星芒品牌发布会在北京举行。华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东在介绍享界 V8 的 L3 路测能力时，谈到了 L3 落地后的使用场景，相关表述随即在网络上引发争议。 余承东在介绍享界 V8 率先开启 120km/h L3 自动驾驶跨城高速路测时称：「L3 自动驾驶来了以后，开车就不用摸方向盘了，开车是可以睡觉的，别睡死过去就行了。20 秒还是多少秒给你唤醒就可以了。」 发布会后余承东在微博上紧急发文，修正了自己的表述。余承东表示",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-21T00:17:10+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/374299",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "林俊旸新公司估值翻倍至50亿美元，DeepSeek千亿融资落地",
+   "summary_zh": "阿里前AI负责人林俊旸创办的语用科技数月内估值从20亿翻至50亿美元，主攻数字与物理世界智能体；DeepSeek完成千亿级融资，梁文锋仍持约67%控制权。",
+   "highlights_zh": [
+    "语用科技新投资方含华业天成、鼎晖、吉利，首轮有红杉中国、腾讯",
+    "DeepSeek两轮累计融资超1500亿元，投后估值约6155亿元",
+    "新增股东31家合伙人横跨算力、芯片与下游场景"
+   ],
+   "why_zh": "头部AI人才创业与资本流向，是判断智能体赛道热度与估值泡沫的关键信号。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-11-21",
+   "slot": "evening",
+   "selected_at": "2026-11-21T13:20:14+00:00",
+   "mirror_pdf": "pdf/web-38bfcd06e07c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/374299"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0dc7d1a15771",
+   "kind": "article",
+   "title": "曝三星未来三年大部分存储芯片产能已被锁定，有客户希望供货保障至 2031 年",
+   "url": "https://www.ithome.com/1/030/475.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 21 日消息，韩媒 Economy Tribune 今天（21 日）下午爆料称，三星电子 2027 年至 2029 年的大部分存储芯片产能 都已被合同预订 。随着 AI 数据中心投资持续扩大，存储芯片供应短缺长期难以缓解，部分客户开始要求签订长期供货协议（LTA）， 希望将供货保障期限延长至 2031 年 。 供应紧张的局面不仅出现在高带宽内存（HBM）领域，通用 DRAM 和企业级 NAND 闪存同样面临短缺。主要存储芯片制造商的议价能力预计将因此进一步增强。 据知情人士 21 日透露，三星电子 2027 年至 2029 年的大部分存储芯片产能 都已被合同锁定 。 客户不再满足于现有合同约定的供货量，纷纷要求增加供应。部分客户还在推动将合同期限 延长至 2031 年 。 三星电子上月 29 日公布第三季度业绩时曾透露，公司已与 10 家主要客户签订 LTA，另有 10 家客户仍在谈判中。三星计划到 2030 年，通过 LTA 锁定 60% 至 70% 的存储芯片产能 。 业内消息称，三星电子与客户也在考虑签订包含预付款、价格上下限条款的长期合同。三星此前在业绩发布会上透露，目前签订的 LTA 均设有价格下限条款。 长期供货协议不断增加的同时，存储芯片市场的供需缺口也在扩大。 业内数据显示，主要存储芯片制造商目前的 供货满足率只有 60% 至 70% ，预计 2027 年供应短缺还将进一步加剧。 其中，2027 年通用 DRAM 的晶圆产能实际上已全部售罄。DRAM 比特供给增幅预计每年最高也只有 20% 至 25%。 HBM 产能扩张也进一步挤压了通用 DRAM 的供应空间。据IT之家了解，由于生产 HBM 需要占用比普通 DRAM 更多的晶圆产能 ，HBM 在整体生产中的占比越高， 通用 DRAM 扩大供应的空间就越有限 。 NAND 闪存市场同样面临供应紧张，企业级产品的短缺尤为突出。一名业内人士指出，目前市场对 NAND 闪存的咨询量很大。与现货市场不同，合约市场的需求反而在增长。消费级 NAND 的供货满足率近期大幅提升至 70%，但企业级 SSD 的供货满足率仍超过 50%。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-21T12:47:11+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/475.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "三星三年存储产能被锁定，客户求供至2031年",
+   "summary_zh": "韩媒称三星 2027–2029 年大部分存储产能已被合同锁定，AI 数据中心需求推动客户要求长期供货至 2031 年，DRAM 与 NAND 全面短缺。",
+   "highlights_zh": [
+    "2027 年通用 DRAM 晶圆产能实际售罄",
+    "HBM 扩产挤压通用 DRAM 供给",
+    "供货满足率仅 60–70%，议价权向存储厂倾斜"
+   ],
+   "why_zh": "AI 算力扩张对上游供应链的挤压，直接影响成本与产能规划。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-21",
+   "slot": "evening",
+   "selected_at": "2026-11-21T13:20:14+00:00",
+   "mirror_pdf": "pdf/web-0dc7d1a15771.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/475.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8d8c220b806a",
+   "kind": "article",
+   "title": "前英特尔 CEO 基辛格：随着 AI 需要“一万倍的效率飞跃”，渐进式芯片性能提升无法满足",
+   "url": "https://www.ithome.com/1/030/464.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 21 日消息，据 Wccftech 报道，前英特尔首席执行官帕特 · 基辛格（Pat Gelsinger）表示，随着人工智能需要“ 10,000 倍的效率飞跃 ”，渐进式的芯片增益将无法满足需求，他同时否认了摩尔定律已走向终结。 在 2026 年 COSM 科技峰会上，帕特 · 基辛格出席了一场题为“现实检验：超越芯片（Reality Check: Beyond Chips）”的炉边谈话。 基辛格在谈话中反驳了半导体微缩已触及物理极限的观点， 他认为 AI 需要的不是常规的代际升级，而是计算效率实现激进的 10,000 倍跃升 。他还指出，摩尔定律（Moore’s Law）能否重焕生机，取决于五大核心工程领域（IT之家注：光学、供电、散热、材料和封装）的根本性突破。 峰会结束后，帕特 · 基辛格在 X 上写道：“ 摩尔定律已死？我说现在是唤醒它的时候了 ！”尽管一些行业观察人士可能会认为传统的摩尔定律微缩已经结束，但基辛格坚持认为半导体工程正在进入一个多学科创新的新时代，他表示：“在半导体行业工作 40 多年后，我相信我们最伟大的创新仍在前方！” 自 2025 年 3 月以普通合伙人身份加入风险投资机构 Playground Global 以来，基辛格一直在积极支持针对这些硬件瓶颈的初创企业，其中包括获得美国政府支持的光刻初创企业 xLight（该公司目标突破阿斯麦 ASML 的 13.5 纳米极紫外 EUV 波长壁垒），以及核能产能公司 Alva Energy。 除了光刻与发电领域，基辛格的技术路线图还瞄准了光互连与硅光子技术，旨在用光信号替代传统的铜线来传输数据。 相关阅读： 《 前英特尔 CEO 基辛格称 HBM 是“糟糕的内存” 》 《 前英特尔 CEO 基辛格押注新 AI 内存：Z2RAM 拟绕开 EUV 光刻，4 年内送样 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-21T11:43:07+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/464.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "基辛格：AI 需万倍效率跃升，渐进式芯片升级不够",
+   "summary_zh": "前英特尔 CEO 基辛格在 COSM 峰会上称，AI 需要一万倍的计算效率跃升，渐进式芯片代际升级无法满足，摩尔定律重焕生机取决于光学、供电、散热、材料、封装五大突破。",
+   "highlights_zh": [
+    "AI 需求不是常规代际升级，而是激进的万倍效率跃升",
+    "摩尔定律未死，但需光学、供电、散热、材料、封装多学科突破",
+    "基辛格已投资 xLight 光刻、Alva Energy 核能、硅光子等硬件瓶颈初创"
+   ],
+   "why_zh": "重量级半导体人物对 AI 算力瓶颈的明确判断，指向硬件投资方向。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-21",
+   "slot": "evening",
+   "selected_at": "2026-11-21T13:20:14+00:00",
+   "mirror_pdf": "pdf/web-8d8c220b806a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/464.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-234503597c6b",
+   "kind": "article",
+   "title": "国家数据局：将积极拓展词元服务应用场景，健全词元计量计费、质量测评等标准规范",
+   "url": "https://www.ithome.com/1/030/418.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 21 日消息，国家数据局党组书记、局长刘烈宏出席昨日（20 日）在湖南长沙举办的 2026 世界计算大会开幕式并致辞。 刘烈宏表示，词元打通了算力、模型、数据间的价值传导链路，成为数智经济的价值锚点和数据价值的显性化载体。 一是词元发展初步起势，围绕词元生产、流通、消费的产业生态正加速构建，拓展了经济增长新空间。 二是“词元工厂”快速兴起，将算力租赁、模型供给、数据能力升级为词元生产服务，成为产业组织新形态。 三是词元催生服务交付新模式，行业高质量数据集经模型训练推理转化为可计量、可交付的智能服务，形成以词元计量、按调用计价的交付方式，为数据要素价值释放提供新路径。 IT之家获悉，下一步， 国家数据局将积极拓展词元服务应用场景，健全词元计量计费、质量测评等标准规范，引导行业规范发展，坚决避免低质量重复建设 ，加快构建以数据为关键要素的数字经济。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-21T08:51:37+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/418.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "国家数据局：健全词元计量计费与质量测评标准",
+   "summary_zh": "国家数据局局长刘烈宏在世界计算大会表示，词元成为数智经济价值锚点，下一步将拓展词元服务场景，健全计量计费与质量测评标准，避免低质量重复建设。",
+   "highlights_zh": [
+    "词元被视为打通算力、模型、数据的价值传导链路",
+    "词元工厂将算力租赁与模型供给升级为词元生产服务",
+    "按词元计量、按调用计价的交付模式获政策背书"
+   ],
+   "why_zh": "政策层面对大模型计费与数据要素市场的定调，影响行业规范。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-21",
+   "slot": "evening",
+   "selected_at": "2026-11-21T13:20:14+00:00",
+   "mirror_pdf": "pdf/web-234503597c6b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/418.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-fa86e302e8ba",
+   "kind": "article",
+   "title": "蔚来官宣 NWM 3.0 世界模型，11 月 25 日在 NIO IN 2026 蔚来创新科技日发布",
+   "url": "https://www.ithome.com/1/030/410.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 21 日消息，蔚来今日宣布，在即将于 11 月 25 日举办的 NIO IN 2026 蔚来创新科技日上， 将正式发布 NWM 3.0 世界模型 。 官方表示，NWM 3.0 将会在 模型架构、闭环训练、跨域融合 等方面，带来蔚来智能辅助驾驶团队对物理世界人工智能的最新思考与探索成果，敬请期待。 据IT之家此前报道，2024 年 7 月， 蔚来发布行业首个智能辅助驾驶世界模型 ——「蔚来世界模型 NWM」（NIO World Model）。 据介绍，蔚来世界模型是一个多元自回归生成模型，可全量理解数据、长时序推演和决策， 具备像人一样「空间认知-想象重建」和「时间认知-想象推演」的能力 ，并且可以输出规划轨迹。 相比常规的端到端架构，蔚来世界模型在空间理解上，通过生成式模型重构传感器输入，更加泛化地抽取信息；在时间理解上，通过自回归模型，自动建模长时序环境；在海量数据使用上，通过自监督学习的方式，无需人工标注。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-21T08:33:30+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/410.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "蔚来将于 11 月 25 日发布 NWM 3.0 世界模型",
+   "summary_zh": "蔚来宣布在 NIO IN 2026 发布 NWM 3.0 世界模型，将在模型架构、闭环训练、跨域融合方面公布物理世界 AI 的最新探索。",
+   "highlights_zh": [
+    "NWM 为行业首个智驾世界模型，2024 年 7 月首发",
+    "3.0 版本聚焦架构、闭环训练与跨域融合",
+    "世界模型通过自回归与自监督实现长时序推演"
+   ],
+   "why_zh": "车企世界模型迭代，是物理世界 AI 落地的重要观察点。",
+   "tags": [
+    "大模型",
+    "机器人",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-21",
+   "slot": "evening",
+   "selected_at": "2026-11-21T13:20:14+00:00",
+   "mirror_pdf": "pdf/web-fa86e302e8ba.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/410.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.26586",
+   "kind": "paper",
+   "title": "ProtoDiffusion: Token-per-Layer Generative Modeling of Multi-Layer Images",
+   "url": "https://arxiv.org/abs/2611.26586",
+   "pdf_url": "https://arxiv.org/pdf/2611.26586",
+   "abstract": "Graphic designs are ordered compositions of RGBA layers whose separation enables selection, movement, and reuse. Existing layered models represent each layer with a full-canvas or region-sized spatial latent grid, so representation size grows with the cumulative spatial extent of the layers. We present ProtoDiffusion, a latent-diffusion framework built on ProtoVAE, a multi-layer variational autoencoder that encodes a design into one shared spatial prototype and one candidate vector per layer. Each candidate conditions a shared decoder to reconstruct its corresponding RGBA layer. For $N$ layers, the representation contains $HW+N$ tokens before backbone-specific packing, compared with $NHW$ for full-grid-per-layer representations. ProtoDiffusion jointly denoises the prototype and a fixed set of candidate slots, conditioned on an image or text, with bounding boxes as optional layout guidance. The model leaves unneeded slots empty and determines the number of layers and, in absence of boxes, their layout, requiring neither as input. The same architecture supports both image-to-design and text-to-design. ProtoVAE achieves high-fidelity reconstruction from its compact shared latent representation, reaching 40.43 dB PSNR on layer crops. On the LayerD evaluation split, image-to-design achieves RGB L1 scores of 0.040 with bounding boxes and 0.057 without, with box-guided alpha soft IoU (0.850) comparable to the strongest fine-tuned baseline (0.871). On merged images, text-to-design reaches 66.41 FID versus 86.84 for FLUX.2 [klein], achieves a 0.860 text-accuracy score, and runs $19.1\\times$ faster than the same-backbone generation-then-decomposition cascade.",
+   "authors": [
+    "Adrià Ciurana Lanau",
+    "Harleen Hanspal",
+    "Lusine Abrahamyan",
+    "Emilio Tylson Baixauli",
+    "Yu Cao",
+    "Danai Triantafyllidou",
+    "Stefano Zorzi",
+    "Gustavo Zanoni Felipe",
+    "Peter Griger",
+    "Stefan Sietzen",
+    "Petru-Daniel Tudosiu"
+   ],
+   "orgs": [],
+   "published": "2026-11-19T18:45:31Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.26586",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "ProtoDiffusion：逐层Token的多层图像生成",
+   "summary_zh": "提出ProtoDiffusion，用共享空间原型加每层候选向量编码多层设计，表示规模从NHW降至HW+N，支持图文到分层设计生成。",
+   "highlights_zh": [
+    "ProtoVAE将设计编码为一个共享原型加每层一个候选向量",
+    "N层表示仅需HW+N个token，远少于逐层全网格的NHW",
+    "同一架构支持图生设计与文生设计，可选边界框布局引导"
+   ],
+   "why_zh": "分层图像生成表示效率的实质改进，对设计类生成模型有参考价值。",
+   "tags": [
+    "多模态",
+    "视觉"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 7.0,
+   "score": 0.548,
+   "date": "2026-11-21",
+   "slot": "evening",
+   "selected_at": "2026-11-21T13:20:14+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.26586.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.26586"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.26586"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.26586"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.26586"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.26586"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.26586"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "arxiv-2611.26557",
+   "kind": "paper",
+   "title": "MM-SystemOneBias: Evaluating Bias in Multimodal Jev-Style System One Decision Models",
+   "url": "https://arxiv.org/abs/2611.26557",
+   "pdf_url": "https://arxiv.org/pdf/2611.26557",
+   "abstract": "When multimodal decision models determine actions, moderation outcomes, or quality judgments, their reliability depends on preserving semantic decisions across presentation changes, ignoring irrelevant additions, and distinguishing information consistent with task evidence from information that conflicts with it. Existing evaluations study decision-interface biases and multimodal model behavior in separate settings, leaving no common protocol to compare multimodal decision models with their backbones on practical tasks. We introduce \\textbf{MM-SystemOneBias}, which evaluates 13 models on 5,323 original instances from nine public datasets and 11 task scenarios using six paired interventions: option order, option label, external judgment, image--text description, irrelevant information, and rating scale. Across seven matched decision-model--backbone pairs, decision models are more stable under option-label, irrelevant-information, and rating-scale changes in all seven pairs; six pairs also show lower option-order flip rates. They incur smaller accuracy losses under incorrect external judgments in all seven pairs and conflicting descriptions in six. In six pairs, they gain less accuracy from correct external judgments and show less favorable accuracy changes under consistent descriptions. Among pairs with unchanged semantic decisions, mean absolute changes in answer probabilities range from 4.56 to 11.55 percentage points, revealing input effects that accuracy alone misses.",
+   "authors": [
+    "Jinzhe Li",
+    "Qi Wang",
+    "Dandan Guo",
+    "Li Liu",
+    "Yuan Wu",
+    "Yi Chang"
+   ],
+   "orgs": [],
+   "published": "2026-11-19T18:25:41Z",
+   "sources": [
+    {
+     "name": "arXiv 新论文",
+     "authority": 0.55,
+     "url": "https://arxiv.org/abs/2611.26557",
+     "signal": "arXiv",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "MM-SystemOneBias：多模态决策模型偏差评测",
+   "summary_zh": "构建MM-SystemOneBias基准，用六种配对干预在5323个实例上评测13个模型，发现决策模型比骨干模型对选项标签、无关信息等扰动更稳定。",
+   "highlights_zh": [
+    "覆盖9个公开数据集、11类任务场景、13个模型",
+    "六种干预：选项顺序、标签、外部判断、图文描述、无关信息、评分尺度",
+    "决策模型在7对中均更稳定，但对正确外部判断的增益也更小"
+   ],
+   "why_zh": "首个统一比较多模态决策模型与其骨干的偏差评测协议，评测方法有增量。",
+   "tags": [
+    "多模态",
+    "数据与评测",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.32,
+   "score_llm": 7.0,
+   "score": 0.548,
+   "date": "2026-11-21",
+   "slot": "evening",
+   "selected_at": "2026-11-21T13:20:14+00:00",
+   "mirror_pdf": "pdf/arxiv-2611.26557.pdf",
+   "mirror_kind": "pdf",
+   "links": [
+    {
+     "label": "中文全文（幻觉翻译）",
+     "url": "https://hjfy.top/arxiv/2611.26557"
+    },
+    {
+     "label": "中文解读（Cool Papers）",
+     "url": "https://papers.cool/arxiv/2611.26557"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2611.26557"
+    },
+    {
+     "label": "arXiv PDF",
+     "url": "https://arxiv.org/pdf/2611.26557"
+    },
+    {
+     "label": "alphaXiv 讨论",
+     "url": "https://www.alphaxiv.org/abs/2611.26557"
+    },
+    {
+     "label": "HF Papers",
+     "url": "https://huggingface.co/papers/2611.26557"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5bd3f47db223",
+   "kind": "article",
+   "title": "黎曼猜想被证明？！Claude加持，34岁数学家放出Lean证明",
+   "url": "https://www.qbitai.com/2026/11/511727.html",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [
+    "衡宇"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-20T16:07:39+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/511727.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "数学家借Claude产出黎曼猜想Lean证明",
+   "summary_zh": "34岁数学家借助Claude生成黎曼猜想的Lean形式化证明，引发对AI辅助数学证明可靠性的讨论。",
+   "highlights_zh": [
+    "Claude辅助生成Lean证明",
+    "涉及黎曼猜想这一重量级问题",
+    "AI辅助数学证明再引争议"
+   ],
+   "why_zh": "AI参与形式化数学的边界与可信度值得关注，但需谨慎看待。",
+   "tags": [
+    "科学AI",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-11-21",
+   "slot": "evening",
+   "selected_at": "2026-11-21T13:20:14+00:00",
+   "mirror_pdf": "pdf/web-5bd3f47db223.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/511727.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5df65f1c84e2",
+   "kind": "article",
+   "title": "hatsunemiku-ai/google-one-tools",
+   "url": "https://github.com/hatsunemiku-ai/google-one-tools",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [
+    "hatsunemiku-ai"
+   ],
+   "published": "2026-11-21T13:20:14+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/hatsunemiku-ai/google-one-tools",
+     "signal": "★ 696（新项目） · Python",
+     "metric": 696
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "google-one-tools：谷歌系工具聚合项目",
+   "summary_zh": "一个把多种谷歌 AI 工具封装成统一调用的 Python 开源项目，适合想快速串联谷歌服务的开发者。",
+   "highlights_zh": [
+    "Python 实现，pip 安装即可用",
+    "统一封装多个谷歌 AI 接口",
+    "新项目文档与稳定性尚待验证"
+   ],
+   "why_zh": "如果你在串联谷歌 AI 服务做原型，可用它省去逐个对接的工作。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5706,
+   "score_llm": 5.0,
+   "score": 0.5282,
+   "date": "2026-11-21",
+   "slot": "evening",
+   "selected_at": "2026-11-21T13:20:14+00:00",
+   "mirror_pdf": "pdf/web-5df65f1c84e2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/hatsunemiku-ai/google-one-tools"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f48d50c135db",
+   "kind": "article",
+   "title": "【数智周报】 Anthropic敲响纳斯达克开市钟，创史上最大规模IPO纪录；美国限制远程获取AI算力，海外数据中心出租算力须许可；DeepSeek第二轮融资落地",
+   "url": "https://www.tmtpost.com/8213535.html",
+   "pdf_url": "",
+   "abstract": "（11 月 16 日-21 日）英伟达史上首次单季营收突破1000亿美元，净利润同比翻倍；阿里巴巴：2027财年第二季度营收2715.2亿元，同比增长10%，AI相关产品收入超179亿元，连续13个季度实现三位数增长；腾讯：WorkBuddy近七天年化收入超5亿美元，三季度收入是第二季度的5倍以上；豆包工作日活突破800万，企业客户ARR突破20亿元...",
+   "authors": [
+    "TechPulse"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-21T11:19:38+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8213535.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "数智周报：Anthropic上市、美限制远程算力、DeepSeek融资",
+   "summary_zh": "钛媒体一周 AI 要闻汇总：Anthropic 纳斯达克 IPO、美国限制远程获取 AI 算力、DeepSeek 二轮融资，及英伟达、阿里、腾讯、豆包等业绩数据。",
+   "highlights_zh": [
+    "Anthropic 创史上最大规模 IPO 纪录",
+    "美国要求海外数据中心出租算力须许可",
+    "阿里 AI 收入连续 13 季三位数增长，豆包企业 ARR 破 20 亿"
+   ],
+   "why_zh": "一篇文章把握当周 AI 资本市场与政策关键变化。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-11-21",
+   "slot": "evening",
+   "selected_at": "2026-11-21T13:20:14+00:00",
+   "mirror_pdf": "pdf/web-f48d50c135db.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8213535.html"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "模型开始自我改写权重，训练范式出现新分叉",
-   "why": "27B模型无需梯度、仅凭推理即可诊断失败并改写权重，连续八次自我编辑持续进步，且能力随规模涌现。",
+   "trend": "模型首次实现无梯度自我重写权重，规模涌现式自进化成为新架构拐点",
+   "why": "27B模型仅凭推理诊断失败并改写权重，连续八次自我编辑持续进步，能力随规模涌现。",
    "refs": [
     "arxiv-2611.21885"
    ]
   },
   {
-   "trend": "智能体竞争从模型转向harness与脚手架层",
-   "why": "Hugging Face推harness适配器标准化模型与脚手架组合，Agnes宣称双系统harness让效率提速14倍、成本降至1/27。",
+   "trend": "万亿市值后估值锚从营收增速切换为市盈率，AI板块进入增长兑现审视期",
+   "why": "Anthropic上市次日跌9%、纳指回吐全年涨幅，市场对40倍营收估值分歧升温。",
+   "refs": [
+    "web-68c65d2b2909",
+    "web-f571789a1d3c",
+    "web-fda5004e845f"
+   ]
+  },
+  {
+   "trend": "模型与智能体脚手架解耦成标准化接口，harness层成为降本增效新战场",
+   "why": "Hugging Face推harness适配器，Agnes宣称效率提速14倍、成本降至1/27。",
    "refs": [
     "web-211fbe8009a4",
     "web-4386342c1a71"
    ]
   },
   {
-   "trend": "评测方法转向分层与真实任务，刷榜失效",
-   "why": "孟加拉语幻觉基准显示跨层macro-F1差超30点、榜单无法预测下阶段排名；MedChemBench直指药物发现真实环节。",
+   "trend": "评测方法转向分层与领域化，单一榜单预测力失效倒逼基准重构",
+   "why": "孟加拉语幻觉基准跨层macro-F1差超30点且阶段间排名几乎不可预测，MedChemBench直指药物发现。",
    "refs": [
     "arxiv-2611.26336",
     "web-f4784c304003"
    ]
   },
   {
-   "trend": "万亿市值后估值锚从增长切向盈利",
-   "why": "Anthropic与SpaceX同为9.5倍预期营收估值但增速差近一倍，超万亿后市场锚定20–26倍市盈率；Anthropic上市次日跌9%。",
-   "refs": [
-    "web-68c65d2b2909",
-    "web-f571789a1d3c"
-   ]
-  },
-  {
-   "trend": "头部竞争提速，谷歌密集发模型追赶OpenAI",
-   "why": "谷歌50天推4款模型、发布Gemini 4 Neon，而OpenAI近期进展被指相对乏力，竞争节奏明显变化。",
+   "trend": "头部竞争从模型发布转向节奏与生态卡位，谷歌密集推新追赶OpenAI",
+   "why": "谷歌50天推4款模型，同时反蒸馏与端侧智能体权限成为平台博弈新焦点。",
    "refs": [
     "web-282e13c41a7f",
-    "web-32dbb6202d72"
+    "web-be4cf0f93b63",
+    "web-c4ca83ba5741"
    ]
   }
  ]
