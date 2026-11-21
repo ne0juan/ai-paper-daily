@@ -1,11 +1,11 @@
-2026-11-21 13:20:14,999 INFO source hf_daily           -> 12 items
-2026-11-21 13:20:15,361 INFO source hackernews         -> 6 items
-2026-11-21 13:21:33,292 INFO source rss                -> 86 items
-2026-11-21 13:21:34,967 INFO source html_lists         -> 0 items
-2026-11-21 13:21:34,967 INFO source x                  -> 0 items
-2026-11-21 13:21:35,451 INFO source arxiv_search       -> 16 items
-2026-11-21 13:21:45,049 INFO source github             -> 20 items
-2026-11-21 13:21:45,120 INFO candidates: 139 (stale dropped 19, new 57)
-2026-11-21 13:22:39,356 INFO llm judged 57/57 (calls=8)
-2026-11-21 13:23:46,425 WARNING snapshot https://stratechery.com/2026/down-in-dc/: blocked or empty page
-2026-11-21 13:25:31,473 INFO run done: {"at": "2026-11-21T13:20:14+00:00", "slot": "evening", "candidates": 139, "new": 57, "stale": 19, "judged": 57, "selected": 19, "mirrored": 18, "by_category": {"资讯": 13, "技术": 4, "观点": 1, "项目": 1}, "by_source": {"HF Daily Papers": 12, "arXiv 新论文": 16, "Hacker News": 6, "量子位": 10, "极客公园": 3, "IT之家": 11, "爱范儿": 8, "少数派": 1, "雷峰网": 11, "钛媒体": 5, "InfoQ 中文": 16, "阮一峰": 1, "Latent Space": 4, "Stratechery": 2, "Nathan Benaich": 1, "Tomasz Tunguz": 1, "Packy McCormick": 1, "Hugging Face Blog": 2, "Google Research": 2, "METR": 1, "OpenAI": 3, "NVIDIA": 3, "GitHub Trending": 14, "GitHub 新项目": 6}, "llm": true, "translated": 0}
+2026-11-21 17:55:33,157 INFO source hf_daily           -> 12 items
+2026-11-21 17:55:33,518 INFO source hackernews         -> 4 items
+2026-11-21 17:56:02,215 INFO source rss                -> 82 items
+2026-11-21 17:56:03,548 INFO source html_lists         -> 0 items
+2026-11-21 17:56:03,549 INFO source x                  -> 0 items
+2026-11-21 17:56:03,885 INFO source arxiv_search       -> 2 items
+2026-11-21 17:56:13,092 INFO source github             -> 20 items
+2026-11-21 17:56:13,115 INFO candidates: 120 (stale dropped 57, new 20)
+2026-11-21 17:56:30,878 INFO llm judged 20/20 (calls=3)
+2026-11-21 17:56:33,628 WARNING snapshot https://thezvi.wordpress.com/2026/11/21/gpt-6-2-astra-and-sol-the-system-card/: blocked or empty page
+2026-11-21 17:57:53,961 INFO run done: {"at": "2026-11-21T17:55:32+00:00", "slot": "morning", "candidates": 120, "new": 20, "stale": 57, "judged": 20, "selected": 11, "mirrored": 9, "by_category": {"观点": 1, "技术": 1, "资讯": 9}, "by_source": {"HF Daily Papers": 12, "Hacker News": 4, "量子位": 10, "极客公园": 3, "IT之家": 11, "爱范儿": 7, "少数派": 1, "雷峰网": 11, "钛媒体": 5, "InfoQ 中文": 14, "阮一峰": 1, "Latent Space": 4, "Stratechery": 2, "Nathan Benaich": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "Packy McCormick": 1, "Hugging Face Blog": 2, "Google Research": 2, "METR": 1, "OpenAI": 3, "NVIDIA": 1, "arXiv 新论文": 2, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
