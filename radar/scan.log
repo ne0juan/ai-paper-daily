@@ -1,10 +1,10 @@
-2026-11-22 13:12:10,951 INFO source hf_daily           -> 0 items
-2026-11-22 13:12:11,299 INFO source hackernews         -> 1 items
-2026-11-22 13:12:37,649 INFO source rss                -> 60 items
-2026-11-22 13:12:39,226 INFO source html_lists         -> 0 items
-2026-11-22 13:12:39,226 INFO source x                  -> 0 items
-2026-11-22 13:12:39,949 INFO source arxiv_search       -> 0 items
-2026-11-22 13:12:49,858 INFO source github             -> 20 items
-2026-11-22 13:12:49,859 INFO candidates: 81 (stale dropped 3, new 31)
-2026-11-22 13:13:12,928 INFO llm judged 31/31 (calls=4)
-2026-11-22 13:15:17,355 INFO run done: {"at": "2026-11-22T13:12:10+00:00", "slot": "evening", "candidates": 81, "new": 31, "stale": 3, "judged": 31, "selected": 15, "mirrored": 15, "by_category": {"资讯": 14, "项目": 1}, "by_source": {"Hacker News": 1, "量子位": 10, "极客公园": 4, "IT之家": 12, "爱范儿": 4, "雷峰网": 2, "钛媒体": 5, "InfoQ 中文": 15, "Latent Space": 2, "Stratechery": 1, "Azeem Azhar": 1, "Nathan Benaich": 1, "Zvi Mowshowitz": 1, "Packy McCormick": 1, "Google Research": 1, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
+2026-11-22 18:22:27,325 INFO source hf_daily           -> 0 items
+2026-11-22 18:22:27,724 INFO source hackernews         -> 2 items
+2026-11-22 18:22:57,290 INFO source rss                -> 57 items
+2026-11-22 18:22:58,949 INFO source html_lists         -> 0 items
+2026-11-22 18:22:58,949 INFO source x                  -> 0 items
+2026-11-22 18:22:59,508 INFO source arxiv_search       -> 0 items
+2026-11-22 18:23:08,800 INFO source github             -> 20 items
+2026-11-22 18:23:08,801 INFO candidates: 79 (stale dropped 25, new 17)
+2026-11-22 18:23:25,387 INFO llm judged 17/17 (calls=3)
+2026-11-22 18:24:54,779 INFO run done: {"at": "2026-11-22T18:22:26+00:00", "slot": "morning", "candidates": 79, "new": 17, "stale": 25, "judged": 17, "selected": 8, "mirrored": 8, "by_category": {"技术": 1, "资讯": 7}, "by_source": {"Hacker News": 2, "量子位": 10, "极客公园": 4, "IT之家": 14, "爱范儿": 4, "雷峰网": 2, "钛媒体": 4, "InfoQ 中文": 12, "Latent Space": 2, "Stratechery": 1, "Azeem Azhar": 1, "Zvi Mowshowitz": 1, "Google Research": 1, "OpenAI": 1, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}

@@ -1,6 +1,13 @@
 {
- "updated": "2026-11-22T13:12:10+00:00",
+ "updated": "2026-11-22T18:22:26+00:00",
  "days": [
+  {
+   "date": "2026-11-23",
+   "count": 8,
+   "slots": {
+    "morning": 8
+   }
+  },
   {
    "date": "2026-11-22",
    "count": 40,
@@ -530,36 +537,35 @@
    }
   }
  ],
- "total": 3239,
+ "total": 3247,
  "last_run": {
-  "at": "2026-11-22T13:12:10+00:00",
-  "slot": "evening",
-  "candidates": 81,
-  "new": 31,
-  "stale": 3,
-  "judged": 31,
-  "selected": 15,
-  "mirrored": 15,
+  "at": "2026-11-22T18:22:26+00:00",
+  "slot": "morning",
+  "candidates": 79,
+  "new": 17,
+  "stale": 25,
+  "judged": 17,
+  "selected": 8,
+  "mirrored": 8,
   "by_category": {
-   "资讯": 14,
-   "项目": 1
+   "技术": 1,
+   "资讯": 7
   },
   "by_source": {
-   "Hacker News": 1,
+   "Hacker News": 2,
    "量子位": 10,
    "极客公园": 4,
-   "IT之家": 12,
+   "IT之家": 14,
    "爱范儿": 4,
    "雷峰网": 2,
-   "钛媒体": 5,
-   "InfoQ 中文": 15,
+   "钛媒体": 4,
+   "InfoQ 中文": 12,
    "Latent Space": 2,
    "Stratechery": 1,
    "Azeem Azhar": 1,
-   "Nathan Benaich": 1,
    "Zvi Mowshowitz": 1,
-   "Packy McCormick": 1,
    "Google Research": 1,
+   "OpenAI": 1,
    "GitHub Trending": 13,
    "GitHub 新项目": 7
   },
