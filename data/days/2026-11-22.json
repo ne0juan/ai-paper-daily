@@ -592,42 +592,803 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-35a3c0a47a4d",
+   "kind": "article",
+   "title": "Anthropic 数学家 AI 攻克黎曼猜想？Lean 社区通过核验，数十人报告代码库编译正确",
+   "url": "https://www.ithome.com/1/030/547.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 22 日消息，11 月 21 日，Lean 与 Mathlib 社区发布联合声明，称莱文特・阿尔波格（Levent Alpöge）以 Lean 库形式给出的黎曼猜想证明已经通过核验， 该证明的代码约 1700 万行 。（IT 之家注：Lean 是交互式定理证明器，可逐行机械核验数学推理是否符合逻辑公理。） 声明由 Lean 与 Mathlib 社区联合发布，并获 Lean FRO 与 Mathlib Initiative 背书。声明称，阿尔波格的库仅直接依赖 Mathlib；过去一天内，Lean 与 Mathlib 社区已参与验证。 声明列出四项核验标准，并称这几项标准均已满足： 陈述正确： 证明所用的陈述来自 Mathlib 的 RiemannHypothesis，已由 Lean 与数论专家审核； 代码可编译： 数十人报告编译通过，并复现出相同的原始证明导出文件； 证明对应正确陈述： 社区新增一个仅导入 Mathlib 的文件以隔离该陈述，再用 comparator 和 con-leche --compare 两套独立工具比对，确认库中证明的定理与 Mathlib 的陈述完全一致； 证明有效： 原始导出文件经多个证明检查器检验，包括 Lean 官方内核、con-leche、con-ron，以及第三方以不同编程语言实现的检查器。 声明特别提到，con-leche 与 con-ron 附带相对集合论的形式化证明，因此可以保证它们不会接受错误证明，这也回应了“Lean 逻辑本身可能存在漏洞”的担忧。上述检查在惰性导出文件上运行，不受源码中潜在恶意代码影响。 声明最后称，感谢为验证提供资源的社区成员，并期待数学界后续工作解释该证明中的新思路。 IT之家注： 黎曼猜想由德国数学家伯恩哈德 · 黎曼于 1859 年提出 ，认为看似随机分布在数轴上的质数，实际上遵循着复杂而有意义的规律。此后，黎曼猜想成为整个数论研究领域的重要指引，也是数学界最著名的未解难题。 IT之家附声明原文及译文： Lean verification of the Riemann Hypothesis Joint statement by the Lean and Mathlib communities, endorsed by the Lean FRO and the Mathlib Initiative. On November 20, 2026, Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library comprising 17 million lines of code. We have full confidence that Alpöge's proof of the Riemann Hypothesis is correct, and we congratulate him on this achievement. Our rationale is outlined below. The codebase depends directly only on Mathlib. Over the past day, the Lean and Mathlib communities have rallied to verify the proof's correctness. We hereby certify that both the statement and ",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-22T02:31:50+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/547.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Lean社区核验通过黎曼猜想的1700万行形式化证明",
+   "summary_zh": "Lean与Mathlib社区联合声明，Levent Alpöge以1700万行Lean代码给出的黎曼猜想证明通过四项核验：陈述正确、可编译、陈述对应、多检查器验证有效。",
+   "highlights_zh": [
+    "证明仅依赖Mathlib，数十人复现编译通过",
+    "用comparator与con-leche两套独立工具确认定理与Mathlib陈述一致",
+    "Lean官方内核及第三方多语言检查器均验证有效，回应逻辑漏洞担忧"
+   ],
+   "why_zh": "若属实将是AI辅助数学与形式化验证的里程碑，值得关注后续数学界解读。",
+   "tags": [
+    "科学AI",
+    "理论"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 9.0,
+   "score": 0.676,
+   "date": "2026-11-22",
+   "slot": "noon",
+   "selected_at": "2026-11-22T05:26:12+00:00",
+   "mirror_pdf": "pdf/web-35a3c0a47a4d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/547.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-4a3ac36bded5",
+   "kind": "article",
+   "title": "资本开支猛增 226%，AI 吞噬百亿利润：腾讯的 AI 故事，进入更重的阶段",
+   "url": "http://www.geekpark.net/news/374302",
+   "pdf_url": "",
+   "abstract": "头图来源：腾讯 腾讯的 AI 故事，正在进入一个有些沉重的阶段。 11 月 18 日，腾讯发布 2026 年第三季度财报。本季度营收 2073.4 亿元，同比增长 8%；Non-IFRS 经营利润 681 亿元，同比下降 6%；Non-IFRS 归母净利润 665 亿元，同比下降 6%。 图片来源：腾讯财报 本季度，腾讯资本开支达到 814 亿元，同比增长 527%，单季支出已经超过 2025 年全年；研发投入 323.6 亿元，同比增长 42%。大规模算力采购和预付款之下，自由现金流为负 691 亿元；若剔除算力采购预付款，自由现金流仍有 169 亿元。 单看收入，这依旧是一份稳健的财报。但把 AI 拆出来，曲线的分叉比上一季度更明显：若剔除混元、元宝、CodeBuddy、WorkBuddy、小微等新 AI 产品的收入、成本与开支，腾讯本季度 Non-IFRS 经营利润为 833 亿元，同比增长 8%，经营利润率 40%，和去年同期持平。 也就是说，老业务的盈利能力没有出问题，但新 AI 业务在这个季度对 Non-IFRS 经营利润造成了约 152 亿元的净影响，上一季度这个数字是 105 亿元。整体利润增速，就这样被拉到了负值区间。 腾讯把越来越多的当期现金，换成了 GPU、模型、Agent 和下一代入口。 一、「AI 折价」：152 亿口径差，和 814 亿的决心 先看整体经营情况。 三季度，腾讯营收 2073.36 亿元，同比增长 8%，环比增长 1%。三大板块里，营销服务收入 430 亿元，同比增长 19%，是增速最快的板块；金融科技及企业服务收入 637 亿元，增长 9%；增值服务收入 983 亿元，增长 3%。微信及 WeChat 合并月活账户数达到 14.49 亿。 利润端的数字就没那么好看了。按非国际财务报告准则，腾讯三季度经营利润 681 亿元，同比下降 6%；IFRS 口径下经营利润 591 亿元，同比下降 7%。Non-IFRS 净利润 665 亿元，同样下滑 6%。 若剔除新 AI 产品的贡献，三季度 Non-IFRS 经营利润为 833 亿元，同比增长 8%，经营利润率 40%，与去年同期持平。两个口径之间相差约 152 亿元。「新 AI 产品」，主要包括混元、元宝、CodeBuddy、WorkBuddy 和小微。 也就是说，拖累利润的是正在投入期的 AI 业务。 投入的力度可以用几个数字感受一下。 三季度腾讯资本开支总额达到 814 亿元，同比增长 527%，单季支出已经超过 2025 年全年；前三季度累计资本开支 1662 亿元，同比增长 179%，钱主要流向 IT 基础设施、数据中心和土地使用权。现金口径的资本开支付款为 651 亿元，同比增长 226%。研发投入 323.6 亿元，同比增长 42%；一般及行政开支同比增长 29% 至 441 亿元，若剔除研发开支，这项费用仅增长 2%，非 AI 开支的管控依然很紧。 现金流受到的冲击最猛。 三季度自由现金流为负 691 亿元。经营活动产生的现金净额只有 26 亿元，而资本开支、媒体内容、租赁负债三笔付款合计 717 亿元。腾讯解释，经营现金流里包含大额算力采购预付款，主要用于混元升级、WorkBuddy 推理和云客户需求；若剔除这笔预付款，自由现金流本应为正 169 亿元。 资金状况随之改变，6 月底还有 582 亿元净现金，9 月底变为 137 亿元净债务。官方解释，这主要由大额算力采购造成，投资组合中处置超过新增投资带来的 84 亿元净流入，只抵消了一部分。",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-22T01:58:48+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/374302",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "腾讯 AI 进入重投入期：资本开支激增，利润承压",
+   "summary_zh": "腾讯三季度资本开支 814 亿元同比增 527%，新 AI 业务对经营利润净影响约 152 亿元，剔除后老业务利润率持平，自由现金流一度转负。",
+   "highlights_zh": [
+    "单季资本开支超 2025 年全年，研发投入增 42%",
+    "新 AI 产品（混元、元宝、CodeBuddy 等）拖累利润约 152 亿",
+    "剔除算力预付款后自由现金流仍为正 169 亿"
+   ],
+   "why_zh": "看清头部大厂 AI 投入的真实财务代价与节奏。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-11-22",
+   "slot": "noon",
+   "selected_at": "2026-11-22T05:26:12+00:00",
+   "mirror_pdf": "pdf/web-4a3ac36bded5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/374302"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-07c14ec2b21b",
+   "kind": "article",
+   "title": "关于混元 4 模型、算力、刷榜与 RSI，姚顺雨回应一切",
+   "url": "http://www.geekpark.net/news/374301",
+   "pdf_url": "",
+   "abstract": "头图来源：ChatGPT 生成 11 月 21 日凌晨，腾讯首席 AI 科学家、混元大模型负责人姚顺雨和混元团队的研究员现身 Reddit LocalLLaMA 社区，开启了混元团队史上第一场面向全球开发者的公开 AMA。 图片来源：x 两小时内，姚顺雨和混元团队解答了 300 余条开发者提问，从底层架构取舍到长期路线规划，从量化落地经验到开源生态适配，几乎覆盖了当前开源大模型领域所有核心争议与关切。 过去不到一个月，混元刚刚完成一轮高密度产品发布——11 月 4 日推出的 Hy4 首次跻身全球最强开源模型之列，拿下 Agent Arena 开源模型榜首、Artificial Analysis 中国模型第二的成绩；一周后，定位「极致性价比」的 Hy4 flash 快速跟进，单任务成本仅为 Hy4 的二十分之一，上线首日 Token 调用量便突破 50 万亿。 如果把时间倒回九个月前—— 今年 2 月，混元才刚刚完成预训练与强化学习基础设施的全面重建。从重建底座到连发两款标杆级模型，九个月、平均每两个月一个大版本的迭代速度，背后是「preview 先行、正式版跟进」的闭环研发逻辑：把真实业务场景的反馈直接注入研发链路，在解决实际问题中完成能力跃迁。 模型路线上，团队走的是双线并行的思路，既相信规模化的潜力，会继续训练更大的模型探索能力上限；也同步布局小尺寸模型与端侧场景，试图在能力、成本与速度之间找到更务实的平衡点。 落到具体技术选择上，无论是注意力机制选型、MoE 稀疏度设计，还是量化方案的取舍，团队的判断都锚定实验结果、硬件适配条件与实际部署效率，并未将参数规模或榜单分数作为核心决策标准。 对于当前的能力短板，团队也没有回避，称过度思考仍是后训练阶段的核心难题，创意写作与文本可读性还有提升空间，递归自我改进相关技术尚处于早期摸索阶段。 此外，问答也覆盖了开发者普遍关心的实操问题，包括本地运行门槛、工具调用适配、开源生态合作进展；安全层面则提及了有害数据过滤、训练防护、红队评估等治理机制，同时坦言，模型的过度拒绝问题仍需进一步优化。 以下是极客公园从本次 Reddit AMA 中提炼出的核心问题，覆盖模型路线、技术架构、研发难点、开源生态等核心维度。 混元的整体产品路线是什么？接下来还有哪些新模型？ 混元采用「两端并行」的研发策略：一边扩大模型与数据规模，探索智能上限；一边压缩推理成本，主打极致性价比，Hy4 与 Hy4 flash 分别对应这两个方向。 后续产品路线清晰，更小尺寸的 Hy4-mini、Flash-Lite 模型已在规划中；24–31B 稠密模型正在评估；5–12B 级小型开源图像模型、新一代视频模型均在考虑范围内；循环式 MoE、持续学习等前沿方向也在积极研究。 不跟风 3T/5T 超大规模参数，混元对模型规模的判断是什么？ 团队认为，打磨扎实的小尺寸模型同样可以胜过大参数模型，且部署成本更低，研发过程中能沉淀更多技术经验。但混元同时相信 Scaling law 的有效性，下一代模型的参数量会显著扩大，会持续向更大规模投入研发。 Hy4 与 Hy4 flash 的架构核心差异在哪？关键取舍逻辑是什么？ Hy4 flash 继承了 Hy4 的 iHC、门控 MLA、DSA 技术底座，同时新增混合 SWA、LatentMoE、Engram 三大组件。 所有架构选择均围绕「性能-成本-硬件适配」的综合权衡：比如改用 SWA 替代门控 DSA，可将 KV cache 体积压缩至原有的 1/4，大幅降低服务成本；DSA 技术则解决了 ML",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-22T01:56:28+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/374301",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "姚顺雨 AMA：混元 4 的路线、算力与刷榜之辩",
+   "summary_zh": "姚顺雨与混元团队在 Reddit 首次公开 AMA，回应模型规模、MoE 与量化取舍、刷榜质疑及 RSI 早期探索，并公布 mini、稠密模型等后续规划。",
+   "highlights_zh": [
+    "双线并行：扩规模探上限，同时压成本做端侧",
+    "架构取舍以实验结果与部署效率为准，不唯榜单",
+    "坦承过度思考、创意写作与过度拒绝仍是短板"
+   ],
+   "why_zh": "头部开源模型团队少见的坦诚技术问答，信息密度高。",
+   "tags": [
+    "大模型",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-11-22",
+   "slot": "noon",
+   "selected_at": "2026-11-22T05:26:12+00:00",
+   "mirror_pdf": "pdf/web-07c14ec2b21b.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/374301"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-01e81e8f4d24",
+   "kind": "article",
+   "title": "重控制、轻渲染，达瓦科技的 AI 视频工业路线",
+   "url": "http://www.geekpark.net/news/374303",
+   "pdf_url": "",
+   "abstract": "头图来源：极客公园 今年以来，视频生成模型的进步肉眼可见，AI 短剧、换脸、场景合成在各个平台越来越多，但一个现实问题始终存在：生成一条满意的视频，往往要反复「抽卡」，算力和时间成本都不低；而一旦进入专业影视管线，今天的模型能承担的工业级工作仍然有限。 关于这个问题，行业有两种思路。一种堆参数、扩算力，相信通用大模型终会跨过工业门槛；另一种扎进真实片场，从具体需求自下而上生长。达瓦科技走的是后一条路径。 达瓦科技总部位于重庆永川，团队从 2014 年开始运营科技影视片场，2023 年成立达瓦科技，转向 AI 模型，今年已连续完成 Pre-A 轮、A 轮融资，累计融资约 5 亿元人民币。 他们选择的路线是「重控制、轻渲染」：自研控制层基座模型 Latent Stage，把对人物、动作、镜头、灯光、场景的理解和控制单独做成一层，再交给渲染层出画面。围绕这条路线，公司有两款产品：面向专业内容团队、做离线生成的 FilmOS，以及在单张消费级显卡上就能实时运行的世界模型 Scenes AI。 这套架构的底气来自数据。达瓦在真实片场中积累了约 180TB 的结构化「过程数据」，记录的不只是成片画面，还有从剧本、机位、灯光到动作捕捉的完整拍摄过程。 以下为极客公园创始人张鹏与达瓦科技 CTO 朱子威和 CPO 李宗兴对谈实录，由极客公园整理。 01 从科技片场出发，做「控制层」 张鹏： 过去一年视频生成模型进步很快，大家都能刷到 AI 短剧，很多人也开始自己生成视频玩。但成本一直很高，对算力需求大，真正放进专业影视工业，能发挥多少作用，还是个问题。 今天我们就看看，在主流的视频大模型之外，有没有别的技术路线。先请宗兴介绍一下达瓦科技。 李宗兴： 达瓦科技最早是一家科技影视公司。可以讲个故事：1975 年卢卡斯想拍《星球大战》，发现很多电影技术实现不了，就创办了工业光魔，专门去解决这些技术问题。需求会推动技术发展，就像游戏玩家推动了 GPU 的进步。 我们的片场经常给技术团队提真实的问题，比如导演只想改画面里的一小部分，为什么要重新拍整个镜头？能不能只保留这个人物、这个动作，只改其他部分？在这些需求推动下，我们走向了控制层，做一个控制层基座模型，让视频真正可编辑、可理解。 我们有两款核心产品。一款是 FilmOS ，一个 AI Agent 影视创作平台，基于一句话的目标就能生成高质量画面，得益于控制模型，它可以让你少抽卡就能拿到合适的画面。另一款是正在研发的实时世界模型 Scenes AI ，基于稀疏扩散自回归架构和世界模型，能把摄像头画面实时演化、编辑，是一个 Physical AI 产品。公司财务口径上，我们一年的 ARR 大概在 1 亿美元左右。 张鹏： 收入很可观。你们本质上是在控制层做模型，解决的就是「少抽卡」——哪不行就局部改，不用整条重拍。 02 控制层像导演，渲染层像相机 张鹏： 「少抽卡」的目标，要用什么技术实现？你们的架构和路线是什么？ 朱子威： 先分层看。渲染层像相机，负责把画面拍出来，渲染层越好，画面效果越好，比如英伟达的 DLSS 5，用神经网络把老游戏渲染出很真实的效果，对应视频模型里的 DiT 扩散部分。控制层更像导演，决定场景里有哪些物体、演员从哪走到哪、有什么道具和交互、时序上怎么变化。 渲染层像相机，控制层像导演。 可以把它理解成一个虚拟空间，里面的桌子、凳子、人物、机位都真实存在，只是肉眼看不见。控制层根据导演的需求把这些要素匹配进去，再把结果交给渲染层，得到一个不用再花大力气修改的结果。它符合真实物理环境下该有的拍摄逻辑",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-22T02:03:57+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/374303",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "达瓦科技：重控制轻渲染的 AI 视频工业路线",
+   "summary_zh": "达瓦科技提出「重控制、轻渲染」路线，自研控制层基座模型 Latent Stage，用 180TB 片场过程数据支撑 FilmOS 与实时世界模型 Scenes AI，ARR 约 1 亿美元。",
+   "highlights_zh": [
+    "控制层像导演、渲染层像相机，分层解耦视频生成",
+    "依托真实片场积累的 180TB 结构化过程数据",
+    "FilmOS 做离线生成，Scenes AI 单卡实时运行"
+   ],
+   "why_zh": "提供主流视频大模型之外的差异化技术路线与商业化样本。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 7.0,
+   "score": 0.588,
+   "date": "2026-11-22",
+   "slot": "noon",
+   "selected_at": "2026-11-22T05:26:12+00:00",
+   "mirror_pdf": "pdf/web-01e81e8f4d24.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/374303"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8e81aa562fd6",
+   "kind": "article",
+   "title": "亚马逊云科技推出 TorchNeuron，可以直接在 AWS Trainium 上运行 PyTorch 模型，无需任何修改",
+   "url": "https://www.infoq.cn/article/XhtWUmaolJECUhPX2jzY?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "Sergio De Simone"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-22T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/XhtWUmaolJECUhPX2jzY?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AWS 推出 TorchNeuron，PyTorch 模型免改跑上 Trainium",
+   "summary_zh": "亚马逊云科技发布 TorchNeuron，让 PyTorch 模型无需修改即可在自研 AI 芯片 Trainium 上运行，降低迁移门槛。",
+   "highlights_zh": [
+    "PyTorch 模型零改动迁移至 Trainium",
+    "降低 AWS 自研芯片的采用门槛",
+    "对英伟达 GPU 生态形成替代压力"
+   ],
+   "why_zh": "关注云厂商自研芯片与 PyTorch 生态融合的从业者值得一读。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 7.0,
+   "score": 0.572,
+   "date": "2026-11-22",
+   "slot": "noon",
+   "selected_at": "2026-11-22T05:26:12+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/XhtWUmaolJECUhPX2jzY?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-2ac6c11bb63c",
+   "kind": "article",
+   "title": "无需游戏引擎！马斯克称特斯拉 FSD v15 实景视图仅动用 AI4 芯片一个 TRIP 加速器一半算力",
+   "url": "https://www.ithome.com/1/030/563.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 22 日消息， 特斯拉今日宣布在美国市场推出 FSD v15 ，带来了全新可视化界面 ——“Tesla Reality View”（特斯拉实景视图）。 随后全新的“Tesla Reality View”迅速引发网友热议。博主 @旌旗超智能 分析，特斯拉是在硬件劣势的情况做了 3D 高斯全场景重建。他称自己今天仔细检查了一下特斯拉 FSD 2 代芯片的规格，发现不如很多新势力的自研芯片。 IT之家注意到，马斯克今日也发文对该功能进行了说明。他透露，FSD v15 的“Tesla Reality View”是由实时 AI 视频生成，无需游戏引擎！ 且仅动用了 AI4 芯片一个 TRIP 加速器一半的算力 。 相关阅读： 《 特斯拉 FSD v15 全新可视化 UI 引热议，消息称是在硬件劣势的情况做了 3D 高斯全场景重建 》 《 特斯拉海外推出 FSD v15：安全关键场景处理能力提升 25 倍，全新可视化 UI 》 延伸阅读 据特斯拉 AI 负责人阿肖克 · 埃卢斯瓦米此前披露，FSD v15 的神经网络参数量已从约 10 亿扩大至约 100 亿，预测与控制之间的联系更加紧密。特斯拉将 v15 定位为与 V13 到 V14 同级的性能跃迁，并称升级后的视觉编码器在 FSD、Robotaxi 和 Optimus 人形机器人之间共享，以数百万条互联网视频进行训练。 FSD v15 与特斯拉 Robotaxi 车队运行的是同一套软件。埃卢斯瓦米在 2026 年第二季度财报电话会上曾披露，搭载早期 v15 版本的 Robotaxi 已在两个州六个城市实现无监督行驶超过 38 万英里，期间未发生重大事故。 关于“Tesla Reality View”，特斯拉发布说明介绍其通过车载 AI 计算机实时生成车辆上方虚拟视角的周边道路环境画面。该界面支持全屏、地图或分屏视图，用户甚至可以在可视化画面上点击目标位置来引导车辆前往，马斯克将其描述为“像电子游戏一样重新呈现现实道路”。 文中所称的 AI4 即特斯拉第四代自动驾驶硬件平台 HW4。特斯拉自 FSD V13 起将芯片平台 HW4 的命名方式改为 AI4，该平台面向 FSD V13 及后续版本打造，相较 HW3 算力提升约 5 倍。据此前曝光的规格，HW4 的 CPU 核心由 12 个增加到 20 个，最大频率 2.35GHz；其 TRIP 深度神经网络加速器由双核升级为三核，最大频率从 2GHz 提升到 2.2GHz，预估总算力约 300-500 TOPS。 文中提及的“3D 高斯重建”即三维高斯泼溅（3D Gaussian Splatting，3DGS），是一种用大量三维高斯椭球显式表示场景、再经光栅化实时渲染新视角的辐射场重建方法。场景由许多椭圆状的高斯粒子显式表示，这些粒子投射到二维画面中合成图像，能在 1080p 分辨率下以每秒 30 帧以上的速度生成新视角。训练时粒子数量较少，通过不断与真实照片比较来调整位置、形状和颜色，并复制或删除粒子；渲染阶段则把可见粒子像小色斑一样铺到画面上，由于只分布在确有实体的位置，算力可集中于可见部分。相比需要多层神经网络逐点查询颜色和密度的神经辐射场，其光栅化过程在图形处理器上速度更快。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-22T04:18:50+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/563.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "马斯克称 FSD v15 实景视图仅用半个加速器",
+   "summary_zh": "特斯拉 FSD v15 推出实时 AI 生成的实景视图，无需游戏引擎，仅用 AI4 芯片一个 TRIP 加速器一半算力。",
+   "highlights_zh": [
+    "实景视图由实时 AI 视频生成",
+    "仅占半个 TRIP 加速器算力",
+    "神经网络参数从 10 亿扩至 100 亿"
+   ],
+   "why_zh": "了解端侧实时生成与自动驾驶感知融合的工程进展。",
+   "tags": [
+    "视觉",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-22",
+   "slot": "noon",
+   "selected_at": "2026-11-22T05:26:12+00:00",
+   "mirror_pdf": "pdf/web-2ac6c11bb63c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/563.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6d5cfc637f2c",
+   "kind": "article",
+   "title": "特斯拉 FSD v15 全新可视化 UI 引热议，消息称是在硬件劣势的情况做了 3D 高斯全场景重建",
+   "url": "https://www.ithome.com/1/030/555.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 22 日消息， 特斯拉今日宣布在美国市场推出 FSD v15 ，目前已向早期体验计划（EAP）成员推送首批版本。官方宣称，本次更新对安全关键场景的处理能力提升了 25 倍， 并带来了全新可视化界面 ——“Tesla Reality View” 。 随后，特斯拉 FSD v15 的全新可视化 UI 的实测视频在各大平台传出，引发了网友热议。从画面可以看到，“Tesla Reality View”使用摄像头实时图像，在汽车周围构建出真实的世界模型。 据博主 @旌旗超智能 分析，特斯拉是在硬件劣势的情况做了 3D 高斯全场景重建。他称自己今天仔细检查了一下特斯拉 FSD 2 代芯片的规格， 发现不如很多新势力的自研芯片 。 博主认为“这不是什么好事”， 因为特斯拉现在居然能抽调多余的算力和带宽，去做全场景的 3D 高斯重建 ，国产品牌的 SR 还停留在低精度动画建模时代，这点确实落后。 他表示，特斯拉的 3D 高斯重建场景不仅仅是炫技， 而且在泊车等场景的体验确实要远远好于 360 摄像头的拼接 ，后者畸变实在是太严重了，用算法其实也很难纠正回来。 参考IT之家今日早些时候报道，特斯拉 FSD v15 本次更新提升了坑洼、碎片、坑洞等恶劣路况的行驶体验，车辆在学校和恶劣天气下的速度控制也将更加自然。特斯拉还新增了“自行车架模式”，可在车辆安装自行车架或其他拖车钩配件时使用 FSD。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-22T03:12:53+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/555.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "特斯拉 FSD v15 可视化 UI 用 3D 高斯重建",
+   "summary_zh": "特斯拉 FSD v15 推送，安全关键场景处理提升 25 倍，实景视图被指用 3D 高斯全场景重建，在硬件劣势下实现高精度环境建模。",
+   "highlights_zh": [
+    "安全关键场景处理提升 25 倍",
+    "3D 高斯重建替代低精度动画建模",
+    "泊车等场景体验优于 360 拼接"
+   ],
+   "why_zh": "看 3D 高斯重建在量产自动驾驶中的实际落地效果。",
+   "tags": [
+    "视觉",
+    "机器人"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-22",
+   "slot": "noon",
+   "selected_at": "2026-11-22T05:26:12+00:00",
+   "mirror_pdf": "pdf/web-6d5cfc637f2c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/555.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ac52a2e1b79a",
+   "kind": "article",
+   "title": "群联展示内置 NPU 与 64GB 内存的智能固态硬盘，可直接运行 AI 模型",
+   "url": "https://www.ithome.com/1/030/524.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 22 日消息，据科技媒体 Tom's Hardware 昨天报道，群联在 SC26 大会中展示两款企业级固态硬盘，专为 AI 场景设计。其中一款甚至带有 NPU 和 64GB 内存，可以直接运行 AI 模型。 IT之家从原报道获悉， 其中一款产品 SSD 内置 NPU（神经网络引擎） 、 64GB 内存 ，带宽达到 130GB/s，支持直接在硬盘上运行 PyTorch、vLLM、OpenVINO 和 llama.cpp 等 AI 框架及推理工具。 该产品的设计思路是将部分计算任务从服务器转移至 SSD，让设备直接处理存储的数据，仅向主机返回结果，无需完整传输数据集。 群联表示，该方案在特定工作负载下有望将数据传输量减少 10 至 100 倍，从而降低主机 CPU 的负载。 另一款产品采用全新的 Mixed Media 混合介质设计，将高耐久性的 pSLC 缓存与大容量 QLC 闪存整合在同一块 SSD 中，并通过一颗 16 通道主控进行管理。 该方案将部分 QLC 闪存切换至 SLC 工作模式，以牺牲部分存储容量为代价，提升写入性能和耐久性。两个存储区域分别分配独立命名空间，主机可以根据数据类型选择对应的存储区域，无需额外安装专用软件。 群联称这种方案能够减少独立缓存盘的依赖。在包含 24 块 SSD 的系统中，如果其中一块硬盘发生故障，缓存损失比例仅为 4%，而采用 4 块独立缓存盘的传统方案可能损失 25% 的缓存容量。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-22T00:04:47+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/524.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "群联展示内置NPU与64GB内存的智能SSD，可直接跑AI模型",
+   "summary_zh": "群联在SC26展示企业级SSD，内置NPU与64GB内存、130GB/s带宽，可直接运行PyTorch、vLLM、llama.cpp等，将计算下沉到存储以减少数据传输10-100倍。",
+   "highlights_zh": [
+    "SSD内直接运行推理框架，仅向主机返回结果",
+    "特定负载下数据传输量可减少10至100倍，降低CPU负载",
+    "另一款Mixed Media方案用pSLC+QLC混合介质提升写入耐久"
+   ],
+   "why_zh": "存储侧算力是AI基础设施新方向，值得关注其对推理部署架构的影响。",
+   "tags": [
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-22",
+   "slot": "noon",
+   "selected_at": "2026-11-22T05:26:12+00:00",
+   "mirror_pdf": "pdf/web-ac52a2e1b79a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/524.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8bf9d81fd8d4",
+   "kind": "article",
+   "title": "🔮 Certified human, twin primes, Anthropic++ #611",
+   "url": "https://www.exponentialview.co/p/ev-611",
+   "pdf_url": "",
+   "abstract": "Your Sunday briefing on AI and exponential technologies",
+   "authors": [
+    "Azeem Azhar"
+   ],
+   "orgs": [
+    "Azeem Azhar"
+   ],
+   "published": "2026-11-22T04:59:51+00:00",
+   "sources": [
+    {
+     "name": "Azeem Azhar",
+     "authority": 0.8,
+     "url": "https://www.exponentialview.co/p/ev-611",
+     "signal": "个人博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "观点",
+   "lang": "en",
+   "who": "Exponential View 创始人",
+   "title_zh": "Exponential View 周报：认证人类、孪生素数与 Anthropic++",
+   "summary_zh": "Azeem Azhar 的周日简报，汇总 AI 与指数级技术领域本周动态，涵盖人类身份认证、数学进展与 Anthropic 相关话题。",
+   "highlights_zh": [
+    "周度 AI 与前沿技术综述",
+    "涉及人类认证与数学话题",
+    "缺乏单一深度主题"
+   ],
+   "why_zh": "适合快速扫读行业动态，但单条信息增量有限。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 5.0,
+   "score": 0.528,
+   "date": "2026-11-22",
+   "slot": "noon",
+   "selected_at": "2026-11-22T05:26:12+00:00",
+   "mirror_pdf": "pdf/web-8bf9d81fd8d4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.exponentialview.co/p/ev-611"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-56c8c69722c8",
+   "kind": "article",
+   "title": "ClawDOS – An AI coding agent for DOS",
+   "url": "http://ricapar.net/ClawDOS/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-21T05:38:01Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50586292",
+     "signal": "161 pts",
+     "metric": 161
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "ClawDOS：面向 DOS 的 AI 编程智能体",
+   "summary_zh": "开发者发布 ClawDOS，一个可在 DOS 环境下运行的 AI 编程智能体，在 Hacker News 获得 161 点热度。",
+   "highlights_zh": [
+    "将 AI 编程智能体移植到 DOS 环境",
+    "Hacker News 获 161 点讨论",
+    "属于小众极客实验性项目"
+   ],
+   "why_zh": "对复古计算与智能体边界感兴趣的开发者可一看，行业增量有限。",
+   "tags": [
+    "智能体",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5585,
+   "score_llm": 5.0,
+   "score": 0.5234,
+   "date": "2026-11-22",
+   "slot": "noon",
+   "selected_at": "2026-11-22T05:26:12+00:00",
+   "mirror_pdf": "pdf/web-56c8c69722c8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://ricapar.net/ClawDOS/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50586292"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-74c6fb520c37",
+   "kind": "article",
+   "title": "智能体身份国际标准化：体系布局与研制实践｜AICon北京",
+   "url": "https://www.infoq.cn/article/721YPdyIZ1D8xz20D22C?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "AICon 全球人工智能开发与应用大会"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-22T10:00:00+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/721YPdyIZ1D8xz20D22C?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "智能体身份国际标准化：体系布局与研制实践",
+   "summary_zh": "AICon 北京演讲介绍智能体身份国际标准化的体系布局与研制实践，面向开发者讲解标准进展与落地路径。",
+   "highlights_zh": [
+    "聚焦智能体身份的标准体系",
+    "涉及国际标准化研制实践",
+    "面向开发者的会议分享"
+   ],
+   "why_zh": "关注智能体互操作与身份治理的从业者可了解标准动向。",
+   "tags": [
+    "智能体",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-22",
+   "slot": "noon",
+   "selected_at": "2026-11-22T05:26:12+00:00",
+   "mirror_pdf": "",
+   "mirror_kind": "",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/721YPdyIZ1D8xz20D22C?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-cf9a9044c8af",
+   "kind": "article",
+   "title": "跨境收款之后，中国公司盯上智能体支付的新生意",
+   "url": "https://www.tmtpost.com/8213773.html",
+   "pdf_url": "",
+   "abstract": "中国公司正在通过智能体支付，从赚通道费走向把经营能力捆绑进企业的日常工作流。",
+   "authors": [
+    "出海参考新加坡站"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-22T04:42:29+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8213773.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "中国公司押注智能体支付新生意",
+   "summary_zh": "中国出海企业从跨境收款转向智能体支付，把经营能力嵌入企业日常工作流，从赚通道费转向卖服务。",
+   "highlights_zh": [
+    "智能体支付成为出海新赛道",
+    "商业模式从通道费转向能力捆绑",
+    "反映 Agent 落地商业场景趋势"
+   ],
+   "why_zh": "了解智能体在支付与商业流程中的落地方向。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-11-22",
+   "slot": "noon",
+   "selected_at": "2026-11-22T05:26:12+00:00",
+   "mirror_pdf": "pdf/web-cf9a9044c8af.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8213773.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d7d8ab58a0c4",
+   "kind": "article",
+   "title": "Edge AI Daily 早报（11月22日）",
+   "url": "https://www.tmtpost.com/8213684.html",
+   "pdf_url": "",
+   "abstract": "英伟达同时面临治理追问、加州传票与SEC调查传闻，AI芯片估值经历重估；亚马逊拟以最高75亿美元收购Decart，AWS将LLM缓存推向集群。谷歌调整TPU出货并研究Agent记忆迁移，OpenAI把对抗性蒸馏防护推进API层。Anthropic黎曼猜想主张待验证，IPO定价为模型公司提供估值参照。Meta Muse用户破千万，AI脱衣应用引发参议员质询；特斯拉FSD V15与马斯克上海行受关注；GrapheneOS指控谷歌限制Android开源生态。",
+   "authors": [
+    "Edge AI Daily"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-22T01:06:08+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8213684.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Edge AI Daily 早报（11月22日）",
+   "summary_zh": "汇总英伟达遭调查与估值重估、亚马逊拟 75 亿美元收购 Decart、谷歌 TPU 与 Agent 记忆、OpenAI 对抗蒸馏防护等动态。",
+   "highlights_zh": [
+    "亚马逊拟 75 亿美元收购 Decart",
+    "OpenAI 将对抗性蒸馏防护推进 API 层",
+    "谷歌研究 Agent 记忆迁移"
+   ],
+   "why_zh": "一屏速览当日 AI 行业关键动态，适合快速跟进。",
+   "tags": [
+    "产品与行业",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-11-22",
+   "slot": "noon",
+   "selected_at": "2026-11-22T05:26:12+00:00",
+   "mirror_pdf": "pdf/web-d7d8ab58a0c4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8213684.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-6050d9ecd7b8",
+   "kind": "article",
+   "title": "可灵为何开始发力“图片”？",
+   "url": "https://www.tmtpost.com/8212803.html",
+   "pdf_url": "",
+   "abstract": "两家头部AI公司几乎前后脚更新图像模型。",
+   "authors": [
+    "第四波"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-22T01:02:06+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8212803.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "可灵为何开始发力图片生成？",
+   "summary_zh": "两家头部 AI 公司几乎同时更新图像模型，可灵从视频转向图片，反映多模态竞争向图像生成延伸。",
+   "highlights_zh": [
+    "可灵加码图像模型",
+    "头部厂商前后脚更新",
+    "多模态竞争加剧"
+   ],
+   "why_zh": "观察视频生成厂商向图像领域扩张的竞争动向。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-11-22",
+   "slot": "noon",
+   "selected_at": "2026-11-22T05:26:12+00:00",
+   "mirror_pdf": "pdf/web-6050d9ecd7b8.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8212803.html"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "AI基建风险社会化：公共资金开始为算力投资兜底",
-   "why": "拉加德呼吁欧盟用公共资金承担芯片厂与数据中心首轮损失，标志政策从补贴转向风险分担。",
+   "trend": "AI基建从企业军备竞赛升级为国家资本介入的产业政策工具",
+   "why": "拉加德呼吁欧盟公共资金兜底首轮损失，韩国总统强调速度，腾讯资本开支激增527%显示投入烈度",
    "refs": [
-    "web-a9499c8340ff"
+    "web-a9499c8340ff",
+    "web-942c5fe215c0",
+    "web-4a3ac36bded5"
    ]
   },
   {
-   "trend": "AI竞赛叙事从模型能力转向基建速度与落地节奏",
-   "why": "韩国总统视察数据中心时强调速度至关重要，基础设施与人才成为国家竞争核心变量。",
+   "trend": "算力竞争转向软硬协同与计算下沉，迁移门槛成为关键战场",
+   "why": "AWS TorchNeuron让PyTorch免改跑Trainium，群联把NPU塞进SSD，特斯拉用半颗加速器跑实景视图",
    "refs": [
-    "web-942c5fe215c0"
+    "web-8e81aa562fd6",
+    "web-ac52a2e1b79a",
+    "web-2ac6c11bb63c"
    ]
   },
   {
-   "trend": "大模型安全从企业自律走向校企共建攻防体系",
-   "why": "华科与阿里共建智能攻防与前沿安全研究中心，首批9个课题覆盖大模型与智能体安全。",
+   "trend": "形式化验证正成为大模型数学能力的独立评测新范式",
+   "why": "黎曼猜想1700万行Lean证明经四项核验通过，为模型输出提供可编译、多检查器验证的硬标准",
    "refs": [
-    "web-33cfed4b9055"
+    "web-35a3c0a47a4d",
+    "web-71a268405c87"
    ]
   },
   {
-   "trend": "VLA模型进入长时程自主运行阶段，具身智能拐点临近",
-   "why": "米哈游8B参数VLA论文实现50小时自主运行，验证视觉-语言-动作模型的长时程能力。",
+   "trend": "大模型竞争从刷榜转向公开回应路线与算力取舍的信任博弈",
+   "why": "姚顺雨在Reddit AMA正面回应MoE、量化与刷榜质疑，并公布mini与稠密模型规划",
    "refs": [
-    "web-755acd825b38"
+    "web-07c14ec2b21b"
    ]
   },
   {
-   "trend": "系统卡成为模型能力与安全细节的竞争性披露载体",
-   "why": "Zvi对GPT-6.2 Astra与Sol系统卡逐条解读，显示系统卡正承载新增能力与安全边界信息。",
+   "trend": "智能体落地瓶颈从能力转向身份、授权与支付的基础设施缺位",
+   "why": "智能体身份国际标准化推进、智能体支付成出海新生意，同时业界追问生产环境放手边界",
    "refs": [
-    "web-11005145678d"
+    "web-74c6fb520c37",
+    "web-cf9a9044c8af",
+    "web-e778b500bfc8"
    ]
   }
  ]

@@ -3213,7 +3213,21 @@
   "web-e778b500bfc8": "2026-11-22",
   "web-c050b8f7188f": "2026-11-22",
   "web-71a268405c87": "2026-11-22",
-  "web-b309102d9298": "2026-11-22"
+  "web-b309102d9298": "2026-11-22",
+  "web-35a3c0a47a4d": "2026-11-22",
+  "web-4a3ac36bded5": "2026-11-22",
+  "web-07c14ec2b21b": "2026-11-22",
+  "web-01e81e8f4d24": "2026-11-22",
+  "web-8e81aa562fd6": "2026-11-22",
+  "web-2ac6c11bb63c": "2026-11-22",
+  "web-6d5cfc637f2c": "2026-11-22",
+  "web-ac52a2e1b79a": "2026-11-22",
+  "web-8bf9d81fd8d4": "2026-11-22",
+  "web-56c8c69722c8": "2026-11-22",
+  "web-74c6fb520c37": "2026-11-22",
+  "web-cf9a9044c8af": "2026-11-22",
+  "web-d7d8ab58a0c4": "2026-11-22",
+  "web-6050d9ecd7b8": "2026-11-22"
  },
  "known_links": {
   "https://www.anthropic.com/news": [
@@ -3490,42 +3504,6 @@
   ]
  },
  "runs": [
-  {
-   "at": "2026-11-02T04:47:15+00:00",
-   "slot": "noon",
-   "candidates": 72,
-   "new": 28,
-   "stale": 10,
-   "judged": 28,
-   "selected": 15,
-   "mirrored": 14,
-   "by_category": {
-    "资讯": 13,
-    "观点": 1,
-    "项目": 1
-   },
-   "by_source": {
-    "HF Daily Papers": 1,
-    "Hacker News": 4,
-    "量子位": 9,
-    "极客公园": 4,
-    "IT之家": 6,
-    "爱范儿": 3,
-    "少数派": 1,
-    "雷峰网": 3,
-    "钛媒体": 5,
-    "InfoQ 中文": 9,
-    "Andrej Karpathy": 1,
-    "Latent Space": 2,
-    "SemiAnalysis": 2,
-    "Azeem Azhar": 1,
-    "科学空间": 1,
-    "GitHub Trending": 10,
-    "GitHub 新项目": 10
-   },
-   "llm": true,
-   "translated": 0
-  },
   {
    "at": "2026-11-02T13:20:42+00:00",
    "slot": "evening",
@@ -6091,6 +6069,43 @@
     "arXiv 新论文": 2,
     "GitHub Trending": 13,
     "GitHub 新项目": 7
+   },
+   "llm": true,
+   "translated": 0
+  },
+  {
+   "at": "2026-11-22T05:26:12+00:00",
+   "slot": "noon",
+   "candidates": 89,
+   "new": 22,
+   "stale": 24,
+   "judged": 22,
+   "selected": 14,
+   "mirrored": 12,
+   "by_category": {
+    "资讯": 13,
+    "观点": 1
+   },
+   "by_source": {
+    "Hacker News": 1,
+    "量子位": 9,
+    "极客公园": 5,
+    "IT之家": 9,
+    "爱范儿": 6,
+    "雷峰网": 9,
+    "钛媒体": 4,
+    "InfoQ 中文": 14,
+    "Latent Space": 3,
+    "Stratechery": 2,
+    "Azeem Azhar": 1,
+    "Nathan Benaich": 1,
+    "Zvi Mowshowitz": 1,
+    "Packy McCormick": 1,
+    "Google Research": 1,
+    "METR": 1,
+    "OpenAI": 1,
+    "GitHub Trending": 14,
+    "GitHub 新项目": 6
    },
    "llm": true,
    "translated": 0
