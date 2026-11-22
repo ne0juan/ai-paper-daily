@@ -1,0 +1,473 @@
+{
+ "date": "2026-11-23",
+ "items": [
+  {
+   "id": "web-de5cd1a6d51d",
+   "kind": "article",
+   "title": "Perplexity and Intelligence",
+   "url": "https://openai.com/index/perplexity-and-intelligence",
+   "pdf_url": "",
+   "abstract": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+   "authors": [],
+   "orgs": [
+    "OpenAI"
+   ],
+   "published": "2026-11-22T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "authority": 0.9,
+     "url": "https://openai.com/index/perplexity-and-intelligence",
+     "signal": "官方发布",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "",
+   "title_zh": "OpenAI 谈困惑度：为何它是衡量模型进展的标尺",
+   "summary_zh": "OpenAI 官方发文解释困惑度（perplexity）如何衡量模型能力进展，并主张开发者采用统一的评测方法来评估新兴能力。",
+   "highlights_zh": [
+    "OpenAI 官方阐述困惑度作为模型进展度量指标的价值",
+    "呼吁建立开发者共享的评测方法以评估新兴能力",
+    "涉及评测方法论，对模型能力比较有参考意义"
+   ],
+   "why_zh": "头部公司官方表态评测方法论，值得关注其对行业评测标准的影响。",
+   "tags": [
+    "数据与评测",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.54,
+   "score_llm": 8.0,
+   "score": 0.696,
+   "date": "2026-11-23",
+   "slot": "morning",
+   "selected_at": "2026-11-22T18:22:26+00:00",
+   "mirror_pdf": "pdf/web-de5cd1a6d51d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://openai.com/index/perplexity-and-intelligence"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-70d5b44e71ff",
+   "kind": "article",
+   "title": "MiniMax 利用最新内部模型破解多个密码学前沿方案，刷新国际挑战赛纪录",
+   "url": "https://www.ithome.com/1/030/711.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 22 日消息，MiniMax 今日宣布，近期，MiniMax 研究团队利用 MiniMax 最新内部模型对现代密码方案开展了系统性的自动化密码分析。 在测试中，模型发掘出了多处此前未知的算法构造缺陷， 并将多项原本仅停留在论文理论层面的攻击，推进到了秒级至分钟级的可执行破解 。 IT之家获悉，相关进展主要涵盖三个方面： 针对历届 NIST（美国国家标准与技术研究院）国际密码标准化竞赛 ，该内部模型首次实际攻破了多个此前“尚无已知实际攻击”的候选算法； 针对近年发表于国际密码学顶会、顶刊的论文及竞赛优胜方案 ，该内部模型对多个历经同行评审的前沿方案实现了高效的密文伪造或密钥恢复，并刷新了新型分组密码的最高破解轮数纪录； 在求解作为公钥密码体系基石的经典数学困难问题时 ，该内部模型展现出将“挖掘隐含代数结构”与“系统级工程优化”相结合的能力，在国际公开挑战赛中首次攻克了数十个尚无公开解的高阶挑战实例，相比当前最优的求解算法实现了数百至数万倍的实测加速。 官方特别说明，本次研究聚焦于学术前沿方案、历史竞赛候选设计与公开参数挑战， 相关发现不影响现行主流密码标准（如日常使用的 AES、RSA、SHA-256 等）的安全性 。 遵循负责任的科学研究与安全披露原则，MiniMax 已提前将分析结果同步给相关方案的作者，并将上述实验中由 MiniMax 内部模型生成的推理轨迹加以整理与验证，以技术报告和代码的形式公开 ： https://github.com/MiniMax-AI/Research",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-22T13:23:38+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/711.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "MiniMax 内部模型自动化破解多个密码学前沿方案",
+   "summary_zh": "MiniMax 用内部模型系统化开展自动化密码分析，首次实际攻破多个 NIST 候选算法，将理论攻击推进到秒级至分钟级，并刷新分组密码破解轮数纪录。",
+   "highlights_zh": [
+    "首次实际攻破多个「尚无已知实际攻击」的 NIST 候选算法",
+    "对同行评审前沿方案实现高效密文伪造与密钥恢复",
+    "公开推理轨迹与技术报告，称不影响 AES/RSA 等主流标准"
+   ],
+   "why_zh": "展示大模型在科学发现与自动化攻防上的实战能力，值得关注其方法论。",
+   "tags": [
+    "科学AI",
+    "大模型",
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-23",
+   "slot": "morning",
+   "selected_at": "2026-11-22T18:22:26+00:00",
+   "mirror_pdf": "pdf/web-70d5b44e71ff.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/711.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-b176313cbddf",
+   "kind": "article",
+   "title": "美国初创企业公布 AI 自研 CPU 架构 Frostbite，能效是传统处理器的 4.59 倍",
+   "url": "https://www.ithome.com/1/030/717.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 22 日消息，美国加利福尼亚州帕洛阿尔托的初创公司 Architect Labs 在一篇研究博客中宣布，其人工智能系统已经自主发现、设计并验证了一款名为 Frostbite 的通用 CPU。这款处理器采用全新的指令集，从底层开始重新设计，试图摆脱传统 CPU 的部分架构限制。 在 25 项工作负载测试中，由 4 个计算单元组成的 Frostbite 集群， 每瓦性能达到一款尺寸相近、已经完成硅验证的双发射顺序执行 CPU 核心的 4.59 倍 。不过，这些数据来自基于 7 纳米工艺的模拟设计，Frostbite 尚未真正流片，因此还没有实际芯片可以验证。由于法律方面的原因，Architect Labs 暂时无法公开作为对照的 CPU 核心型号。 传统 CPU 需要在运行时通过硬件判断不同指令之间的依赖关系，重新识别哪些指令可以并行执行。多核处理器还需要复杂的多级缓存体系和缓存一致性协议，确保每个核心看到的共享内存数据保持一致。不过，这些机制不仅占用芯片面积、消耗电力，也会在处理器规模扩大时面临扩展效率下降的问题。 IT之家注意到，Architect Labs 提出的替代方案被称为“免费多线程”（Multithreading for Free）。其核心思路是让程序本身直接暴露可以并行执行的工作，而不是依赖传统线程、锁机制或乱序执行硬件，在运行过程中寻找并行机会。 Frostbite 由多个计算单元（Tile）组成，每个 Tile 都是一个结构相同的小型处理单元，通过片上网络互相连接，并拥有独立的小容量本地内存。 在本次性能测试中，公司采用了由 4 个 Tile 和 4 个 L3 节点组成的计算集群，与传统 CPU 核心进行比较。不过，Frostbite 的完整设计实际上包含 16 个 Tile。 在早期综合阶段，这款处理器的设计频率一度达到 800MHz，但在最终布局设计中降至 500MHz。除了每瓦性能达到对照处理器的 4.59 倍，Frostbite 集群的单位面积性能也达到了对照核心的 8.77 倍。 具体来看，不同工作负载下，Frostbite 的能效提升幅度存在明显差异： 测试项目 Frostbite 每瓦性能提升 全部 25 项测试（几何平均值） 4.59 倍 用于设计调优的 10 项测试 6.02 倍 最终评估阶段才引入的 15 项测试 3.83 倍 表现最好：conv2d（未参与调优） 23.12 倍 表现最差：递归斐波那契（未参与调优） 1.15 倍 值得注意的是，参与 Frostbite 设计的 AI 系统最初并没有采用任何预设的处理器架构理念。Architect Labs 将这种状态称为“零架构先验”（Zero Architectural Priors）。不过，团队仍然提前确定了处理器需要重点优化的工作负载。 随后，多个 AI 智能体通过阅读学术论文和性能测试资料，建立 Python 模型，并从中选定一个架构方向展开设计。最初生成的设计文档长达 141 页，涵盖编程模型、运行时环境和高层级硬件模块。 但在第一版寄存器传输级（RTL）设计生成后，这份 PDF 文档就被删除了。公司解释称，文档中的许多数字和估算结果与物理实现的实际可能性相差甚远。 这份文档从一开始就只是设计起点。确定架构方向后，AI 智能体不再依赖英语描述硬件规格，因为团队认为，自然语言无法准确表达所有细节，也难以发现其中的错误。 取而代之的是，AI 使用 Architect Labs 自行开发的硬件描述语言 ASL 编写规格。ASL 可以转换",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-22T15:15:55+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/717.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI 自主设计 CPU 架构 Frostbite，能效达传统处理器 4.59 倍",
+   "summary_zh": "初创公司 Architect Labs 称其 AI 系统在零架构先验下自主设计并验证了通用 CPU Frostbite，模拟测试每瓦性能达对照核心 4.59 倍，但尚未流片。",
+   "highlights_zh": [
+    "AI 智能体阅读论文、建 Python 模型并选定架构方向，自主生成 RTL 设计",
+    "采用「免费多线程」方案，让程序直接暴露并行性，摆脱乱序执行硬件",
+    "数据来自 7nm 模拟设计，未流片，对照核心型号因法律原因未公开"
+   ],
+   "why_zh": "AI 自主完成芯片架构设计全流程的早期案例，值得关注其方法与局限。",
+   "tags": [
+    "智能体",
+    "科学AI",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-23",
+   "slot": "morning",
+   "selected_at": "2026-11-22T18:22:26+00:00",
+   "mirror_pdf": "pdf/web-b176313cbddf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/717.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-eb129520dd79",
+   "kind": "article",
+   "title": "Oracle：已确保履行与 OpenAI 合同全部所需资金",
+   "url": "https://www.ithome.com/1/030/715.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 22 日消息，Oracle（甲骨文）当地时间本月 20 日表示， 该企业已在本月初筹集到了履行与 OpenAI 交易的全部所需资金 ，与供应商进行的任何进一步私下讨论仅为补充选项。 ▲ Abilene Oracle 称其与 OpenAI 在 AI 基础设施合作方面的进展迅速： 位于美国得克萨斯州 Abilene 的园区已用于 GPT-6 Astra 的训练 ， 整体接近完工 ；下一个 GW 级项目 Shackelford 已获得所有许可；NVIDIA Vera Rubin 机架交付工作正按计划进行，预计将在未来几周内完成。 ▲ Shackelford 该企业仍预计可在 FY2028H2 实现正的自由现金流，目标是在 FY2029 实现超过 300 亿美元 （IT之家注：现汇率约合 2,008 亿元人民币） 的自由现金流，并预计从届时起能够依靠自有资金支持未来增长。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-22T14:24:17+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/715.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Oracle 称已备齐履行 OpenAI 合同全部资金",
+   "summary_zh": "Oracle 表示已筹集履行与 OpenAI 基础设施合作所需的全部资金，Abilene 园区已用于 GPT-6 Astra 训练并接近完工，下一 GW 级项目获全部许可。",
+   "highlights_zh": [
+    "Abilene 园区已投入 GPT-6 Astra 训练，整体接近完工",
+    "下一个 GW 级项目 Shackelford 已获全部许可",
+    "预计 FY2029 自由现金流超 300 亿美元"
+   ],
+   "why_zh": "观察 OpenAI 算力扩张节奏与超大规模基础设施资金链的关键信号。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-23",
+   "slot": "morning",
+   "selected_at": "2026-11-22T18:22:26+00:00",
+   "mirror_pdf": "pdf/web-eb129520dd79.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/715.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-08852684bfc2",
+   "kind": "article",
+   "title": "签约后也能涨价：消息称 AI 服务器厂商交付前提价，涨幅最高达 45%",
+   "url": "https://www.ithome.com/1/030/713.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 22 日消息，据金融时报报道，随着人工智能基础设施成本飙升并向下游客户传导，销售数据中心设备的科技公司正在与买家签署合同数月后，大幅上调搭载英伟达芯片的人工智能服务器价格。 包括戴尔、慧与科技（HPE）、联想和超微电脑（Supermicro）在内的供应商，向自建数据中心的客户销售服务器，其中包含 GPU、内存芯片和网络设备等组件。 此类交易通常在交付前很早就已达成协议 。 然而据知情人士透露，数月后，当设备准备交付时， 这些科技公司要求的价格远高于最初商定的金额 。 在人工智能设备供不应求的当下，大型金融服务与交易公司虽然是仅次于大型科技超大规模云服务商的计算设备采购大户，却也不得不听任供应商摆布其定价。 “当你遇到 25%、30% 甚至 45% 的涨价时，确实令人不安，”一位知情人士说。他们补充道， 提前数月敲定的初始价格，与组件交付后企业最终支付的金额之间“存在巨大落差” 。 随着科技巨头、交易公司及其他大型企业竞相自建数据中心，价格的飙升凸显出市场对算力的强劲需求。根据摩根大通的研究，价格上涨主要是由于科技公司转嫁了飙升的内存成本，自 2024 年初以来，内存成本已上涨超过 400%。 “现在的常态是， 我们先签署一份带有参考价格的合同，等他们交付时，价格就可能被随意抬高 ，”另一位知情人士表示。 “我们从来没说过‘不’，”他们补充道，“说到底，算力对我们至关重要， 我们愿意为此买单 。”接受采访的买家未确认合同中是否包含说明价格可能在订单交付时上涨的条款。 随着相关案件诉诸法庭，一场关于涨价的纠纷于今年早些时候被公开。 今年 6 月，XTX 在爱尔兰法院起诉了戴尔。根据法庭文件，两家公司曾就服务器商定了 5.49 亿美元 （IT之家注：现汇率约合 36.75 亿元人民币） 的固定价格，此外 XTX 还额外支付了 500 万美元 （现汇率约合 3,346.7 万元人民币） 以“ 确保价格确定性 ”。 但戴尔后来告诉这家英国交易公司，服务器的组件价格已经上涨，并表示 XTX 必须“至少额外支付 6,200 万至 7,000 万美元 （现汇率约合 4.15 亿至 4.69 亿元人民币） 才能获得这些服务器”。 “XTX 对戴尔试图提高商定价格感到震惊，”该公司在法庭文件中表示，戴尔告诉 XTX 高管，“其他面临涨价的公司曾去寻找其他供应商，但最终又回到了戴尔，并同意了价格上调”。 法庭文件显示，戴尔告诉 XTX，由于内存价格上涨，它“无法消化这些增加的成本”。该案仍在审理中。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-22T14:00:48+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/713.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI 服务器交付前涨价，最高达 45%",
+   "summary_zh": "戴尔、HPE、联想、超微等厂商在合同签署数月后、交付前大幅上调 AI 服务器价格，涨幅达 25%-45%，主因内存成本自 2024 年初涨超 400%。",
+   "highlights_zh": [
+    "买家被迫接受交付前提价，最高涨幅 45%",
+    "内存成本自 2024 年初上涨超 400% 是主因",
+    "XTX 起诉戴尔案暴露固定价格合同失效"
+   ],
+   "why_zh": "算力供需失衡正把成本压力传导至下游，影响所有自建集群的企业预算。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-23",
+   "slot": "morning",
+   "selected_at": "2026-11-22T18:22:26+00:00",
+   "mirror_pdf": "pdf/web-08852684bfc2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/713.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3c4f4993adca",
+   "kind": "article",
+   "title": "Show HN: I built a game where you are an LLM's subagent",
+   "url": "https://github.com/gulivan/worker755",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-22T13:56:58Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50599762",
+     "signal": "156 pts",
+     "metric": 156
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "Show HN：扮演 LLM 子智能体的游戏",
+   "summary_zh": "开发者做了一个游戏，玩家扮演 LLM 的子智能体执行任务，以游戏形式呈现智能体协作的工作方式。",
+   "highlights_zh": [
+    "以游戏形式模拟 LLM 子智能体的任务执行体验",
+    "Hacker News 156 分，社区有一定关注",
+    "属于趣味演示，非技术突破"
+   ],
+   "why_zh": "轻松了解智能体协作概念的趣味演示，信息增量有限。",
+   "tags": [
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.5571,
+   "score_llm": 5.0,
+   "score": 0.5228,
+   "date": "2026-11-23",
+   "slot": "morning",
+   "selected_at": "2026-11-22T18:22:26+00:00",
+   "mirror_pdf": "pdf/web-3c4f4993adca.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/gulivan/worker755"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50599762"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7ead4bcfcecc",
+   "kind": "article",
+   "title": "打造 AI 优先的销售与营销运营体系",
+   "url": "https://www.infoq.cn/video/mihBFvImttvJlSFUqC49?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "王玮"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-22T17:41:49+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/video/mihBFvImttvJlSFUqC49?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "打造 AI 优先的销售与营销运营体系",
+   "summary_zh": "InfoQ 文章讨论企业如何构建 AI 优先的销售与营销运营体系，偏商业实践分享。",
+   "highlights_zh": [
+    "面向企业运营的 AI 落地实践",
+    "偏商业方法论，技术增量有限"
+   ],
+   "why_zh": "商业运营视角，对技术趋势判断帮助有限。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 4.0,
+   "score": 0.392,
+   "date": "2026-11-23",
+   "slot": "morning",
+   "selected_at": "2026-11-22T18:22:26+00:00",
+   "mirror_pdf": "pdf/web-7ead4bcfcecc.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/video/mihBFvImttvJlSFUqC49?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-84f26cd67496",
+   "kind": "article",
+   "title": "智能体企业新前沿：驱动高效智能",
+   "url": "https://www.infoq.cn/video/Ly5HbhY4pNMCF04abkFo?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "王玮"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-22T17:38:28+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/video/Ly5HbhY4pNMCF04abkFo?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "智能体企业新前沿：驱动高效智能",
+   "summary_zh": "InfoQ 文章探讨企业如何借助智能体驱动高效运营，属商业应用层面的分享。",
+   "highlights_zh": [
+    "聚焦智能体的企业应用",
+    "偏商业叙事，缺乏技术细节"
+   ],
+   "why_zh": "企业应用泛谈，信息增量有限。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 4.0,
+   "score": 0.392,
+   "date": "2026-11-23",
+   "slot": "morning",
+   "selected_at": "2026-11-22T18:22:26+00:00",
+   "mirror_pdf": "pdf/web-84f26cd67496.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/video/Ly5HbhY4pNMCF04abkFo?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  }
+ ],
+ "brief": [
+  {
+   "trend": "评测方法正从各家自说自话走向统一标尺，困惑度被推为通用进展度量。",
+   "why": "OpenAI 官方主张开发者采用统一评测方法评估新兴能力，意在掌握能力叙事与基准话语权。",
+   "refs": [
+    "web-de5cd1a6d51d"
+   ]
+  },
+  {
+   "trend": "AI 开始反攻硬核科学与硬件设计，自动化科研成为模型能力新战场。",
+   "why": "内部模型秒级攻破密码学候选算法、零先验自主设计 CPU，均指向模型从生成走向发现。",
+   "refs": [
+    "web-70d5b44e71ff",
+    "web-b176313cbddf"
+   ]
+  },
+  {
+   "trend": "算力扩张进入资金与产能兑现期，基础设施从承诺转向落地竞赛。",
+   "why": "Oracle 称已备齐履行 OpenAI 合同全部资金，Abilene 园区接近完工并用于 GPT-6 训练。",
+   "refs": [
+    "web-eb129520dd79"
+   ]
+  },
+  {
+   "trend": "AI 服务器交付前涨价，硬件成本压力正向上游算力采购方传导。",
+   "why": "戴尔、HPE 等交付前上调 25%-45%，内存成本自 2024 年初涨超 400% 是主因。",
+   "refs": [
+    "web-08852684bfc2"
+   ]
+  },
+  {
+   "trend": "智能体从概念演示下沉为企业运营与交互体验的落地形态。",
+   "why": "企业侧讨论 AI 优先运营体系，开发者侧用游戏呈现子智能体协作，应用层加速铺开。",
+   "refs": [
+    "web-3c4f4993adca",
+    "web-7ead4bcfcecc",
+    "web-84f26cd67496"
+   ]
+  }
+ ]
+}

@@ -1,16 +1,5 @@
 {
  "selected": {
-  "web-3d48e529ad7a": "2026-09-23",
-  "web-dfd20da099fc": "2026-09-23",
-  "web-48d8b4b4e766": "2026-09-23",
-  "arxiv-2609.13814": "2026-09-23",
-  "web-879ba832b5d6": "2026-09-23",
-  "web-a1029759a44b": "2026-09-23",
-  "web-f81c3d19b1b1": "2026-09-23",
-  "web-57de11bffece": "2026-09-23",
-  "web-5e13c1a913e5": "2026-09-23",
-  "web-5a1e54d9b0b6": "2026-09-23",
-  "web-494440052c0c": "2026-09-23",
   "web-8c50fe1c6153": "2026-09-24",
   "arxiv-2609.25804": "2026-09-24",
   "arxiv-2609.24972": "2026-09-24",
@@ -3242,7 +3231,15 @@
   "web-80748fb88a5d": "2026-11-22",
   "web-ee69adc4d2d1": "2026-11-22",
   "web-5df8984a0961": "2026-11-22",
-  "web-8f9451b19616": "2026-11-22"
+  "web-8f9451b19616": "2026-11-22",
+  "web-de5cd1a6d51d": "2026-11-23",
+  "web-70d5b44e71ff": "2026-11-23",
+  "web-b176313cbddf": "2026-11-23",
+  "web-eb129520dd79": "2026-11-23",
+  "web-08852684bfc2": "2026-11-23",
+  "web-3c4f4993adca": "2026-11-23",
+  "web-7ead4bcfcecc": "2026-11-23",
+  "web-84f26cd67496": "2026-11-23"
  },
  "known_links": {
   "https://www.anthropic.com/news": [
@@ -3519,47 +3516,6 @@
   ]
  },
  "runs": [
-  {
-   "at": "2026-11-02T20:43:01+00:00",
-   "slot": "morning",
-   "candidates": 109,
-   "new": 52,
-   "stale": 17,
-   "judged": 52,
-   "selected": 18,
-   "mirrored": 17,
-   "by_category": {
-    "观点": 3,
-    "资讯": 11,
-    "技术": 2,
-    "项目": 2
-   },
-   "by_source": {
-    "HF Daily Papers": 7,
-    "Hacker News": 6,
-    "量子位": 10,
-    "极客公园": 4,
-    "IT之家": 15,
-    "爱范儿": 5,
-    "少数派": 1,
-    "雷峰网": 13,
-    "钛媒体": 3,
-    "InfoQ 中文": 13,
-    "Simon Willison": 1,
-    "Jack Clark": 1,
-    "Stratechery": 1,
-    "SemiAnalysis": 2,
-    "Azeem Azhar": 1,
-    "Tomasz Tunguz": 1,
-    "科学空间": 1,
-    "OpenAI": 3,
-    "xAI": 1,
-    "GitHub Trending": 9,
-    "GitHub 新项目": 11
-   },
-   "llm": true,
-   "translated": 0
-  },
   {
    "at": "2026-11-03T05:37:25+00:00",
    "slot": "noon",
@@ -6116,6 +6072,40 @@
     "Zvi Mowshowitz": 1,
     "Packy McCormick": 1,
     "Google Research": 1,
+    "GitHub Trending": 13,
+    "GitHub 新项目": 7
+   },
+   "llm": true,
+   "translated": 0
+  },
+  {
+   "at": "2026-11-22T18:22:26+00:00",
+   "slot": "morning",
+   "candidates": 79,
+   "new": 17,
+   "stale": 25,
+   "judged": 17,
+   "selected": 8,
+   "mirrored": 8,
+   "by_category": {
+    "技术": 1,
+    "资讯": 7
+   },
+   "by_source": {
+    "Hacker News": 2,
+    "量子位": 10,
+    "极客公园": 4,
+    "IT之家": 14,
+    "爱范儿": 4,
+    "雷峰网": 2,
+    "钛媒体": 4,
+    "InfoQ 中文": 12,
+    "Latent Space": 2,
+    "Stratechery": 1,
+    "Azeem Azhar": 1,
+    "Zvi Mowshowitz": 1,
+    "Google Research": 1,
+    "OpenAI": 1,
     "GitHub Trending": 13,
     "GitHub 新项目": 7
    },
