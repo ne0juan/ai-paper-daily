@@ -1346,49 +1346,857 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-a3d920b89239",
+   "kind": "article",
+   "title": "菲尔兹奖得主梅纳德谈“AI 攻克黎曼猜想”：相信证明正确，但成果被人理解、才可能得到认可",
+   "url": "https://www.ithome.com/1/030/677.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 22 日消息，当地时间 11 月 20 日，Anthropic 数学家莱文特 · 阿尔珀格（Levent Alpöge）宣布，自己与 AI 模型 Claude 合作，攻克了数学界最著名的难题之一 —— 黎曼猜想。 据IT之家此前报道，11 月 21 日，Lean 与 Mathlib 社区发布联合声明，以 Lean 库形式给出的黎曼猜想证明已经通过核验，该证明的代码约 1700 万行。 据每日经济新闻报道，2022 年菲尔兹奖得主、牛津大学数学教授詹姆斯 · 梅纳德（James Maynard）接受采访时表示，他认为这项证明是正确的，但强调“理解一个定理为什么成立，远比仅仅证明它成立重要”。 只有当有人真正理解这项成果，并能够向其他人解释清楚时，这份证明才有可能得到数学界的全面认可 。 梅纳德是当代解析数论领域的重要数学家，长期致力于素数分布等数学问题的研究。2022 年，他凭借相关研究成果获得菲尔兹奖。 由于这项结果已经获得形式化验证，而且这一验证又经过了独立核实。此外，阿尔珀格过去在提出此类重大主张方面有着可靠的记录。综合这两点，梅纳德称非常有信心认为这一结果是正确的。 梅纳德表示，虽然黎曼猜想确实有一些直接的数学推论，但这个问题之所以被认为如此重要，主要是因为人们一直期待，要解释素数分布中这种深刻的内在结构， 就必须发展出新的数学理论 。 在我们真正理解证明中的思想和整体框架之前，这项成果很可能无法带来人们所期待的变革。 不过，我相信随着时间推移，我们最终会真正理解这份证明，而这必将彻底改变我们对相关数学问题的认识。 相关阅读： 《 AI 攻克黎曼猜想？Anthropic 数学家宣称已与 Claude 合作完成证明 》 《 Anthropic 数学家 AI 攻克黎曼猜想？Lean 社区通过核验，数十人报告代码库编译正确 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-22T09:35:58+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/677.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "菲尔兹奖得主梅纳德谈 AI 证明黎曼猜想：正确但需被理解",
+   "summary_zh": "梅纳德认为 Claude 与数学家合作给出、经 Lean 形式化核验的黎曼猜想证明大概率正确，但无人理解其思想前，成果难以带来期待中的数学变革与认可。",
+   "highlights_zh": [
+    "证明以 Lean 库形式通过社区核验，代码约 1700 万行",
+    "梅纳德：理解定理为何成立，比仅证明它成立更重要",
+    "黎曼猜想的价值在于催生新数学理论，而非证明本身"
+   ],
+   "why_zh": "AI 参与顶级数学证明的首个标志性案例，也点出形式化验证与人类理解之间的鸿沟。",
+   "tags": [
+    "科学AI",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-22",
+   "slot": "evening",
+   "selected_at": "2026-11-22T13:12:10+00:00",
+   "mirror_pdf": "pdf/web-a3d920b89239.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/677.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f998155081c5",
+   "kind": "article",
+   "title": "马斯克预警：AI 行业明年可能面临严重资金短缺，或需要数千亿美元额外投入",
+   "url": "https://www.ithome.com/1/030/628.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 22 日消息，深度学习领域开源项目 Keras 创始人弗朗索瓦・肖莱（François Chollet）在 X 上发文称，要么你认为 AI 基础设施建设已经结束，AI 只是一场昙花一现的泡沫，且算力需求已经见顶；要么，这就是一次难得的买入机会。 弗朗索瓦称，GPU 现货价格仍在上涨，产能难以保障，HBM 和 DRAM 到 2029 年的产能基本已被订满，芯片和存储供应预计将持续紧张，一直延续到 2030 年代。前沿模型的训练算力约每 5 个月翻一番，模型能力提升速度是推理模型出现前的两倍以上。AI 推理业务的利润率可达 70% 至 85%，需求仍在快速增长，每一代新模型都会带来新的应用场景。 IT之家注意到，马斯克回复弗朗索瓦称，让如此大规模的算力设备通电、冷却并实现稳定运行，极其困难。 （人工智能行业） 明年可能面临严重的资金短缺 。如果全行业从支付算力成本到设备能够稳定创收的时间累计推迟数月， 仅营运资金就可能需要额外投入数千亿美元 ， 这些钱从哪里来 ？",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-22T08:47:38+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/628.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "马斯克预警：AI 行业明年或面临严重资金短缺",
+   "summary_zh": "Chollet 称算力需求远未见顶、推理利润率高达 70-85%，马斯克则回应称通电冷却与稳定运行极难，明年全行业或因回款延迟需额外数千亿美元营运资金。",
+   "highlights_zh": [
+    "Chollet：GPU 现货价仍涨，HBM/DRAM 产能订到 2029 年，前沿训练算力约每 5 个月翻倍",
+    "马斯克：让大规模算力通电、冷却并稳定运行极其困难，明年可能严重缺钱",
+    "若创收时间推迟数月，仅营运资金缺口就达数千亿美元"
+   ],
+   "why_zh": "两位重量级人物对 AI 算力投资周期的正面对撞，是判断明年资本开支与泡沫风险的关键信号。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 8.0,
+   "score": 0.616,
+   "date": "2026-11-22",
+   "slot": "evening",
+   "selected_at": "2026-11-22T13:12:10+00:00",
+   "mirror_pdf": "pdf/web-f998155081c5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/628.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-95bb40f524aa",
+   "kind": "article",
+   "title": "A社数学家用Claude又证明另一千禧难题，逼出一份写了12年的940页纯人类手稿",
+   "url": "https://www.qbitai.com/2026/11/511870.html",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [
+    "乔不迟"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-22T06:03:54+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/511870.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic数学家用Claude再证千禧难题",
+   "summary_zh": "报道称Anthropic数学研究人员借助Claude推进另一千禧难题证明，并牵出一份写了12年的940页人类手稿。",
+   "highlights_zh": [
+    "AI参与高难度数学证明",
+    "牵出长达12年的人类手稿",
+    "体现AI在科学发现中的角色"
+   ],
+   "why_zh": "观察AI辅助数学证明前沿进展，判断科学AI能力边界。",
+   "tags": [
+    "科学AI",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 7.0,
+   "score": 0.596,
+   "date": "2026-11-22",
+   "slot": "evening",
+   "selected_at": "2026-11-22T13:12:10+00:00",
+   "mirror_pdf": "pdf/web-95bb40f524aa.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/511870.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-3400785e0033",
+   "kind": "article",
+   "title": "EL4CTEO/fast-anything",
+   "url": "https://github.com/EL4CTEO/fast-anything",
+   "pdf_url": "",
+   "abstract": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+   "authors": [],
+   "orgs": [
+    "EL4CTEO"
+   ],
+   "published": "2026-11-22T13:12:10+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/EL4CTEO/fast-anything",
+     "signal": "★ 802（新项目） · Rust",
+     "metric": 802
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "别重写整个项目，只把慢的5%用Rust重写",
+   "summary_zh": "一个开源项目主张：不必把Python/Node/Ruby应用整体重写为Rust，只需profile找出热点函数，用编码智能体移植并验证行为一致。",
+   "highlights_zh": [
+    "先profile定位性能瓶颈，只移植最慢的5%函数",
+    "借助coding agent完成语言移植，降低重写门槛",
+    "强调用测试证明移植前后行为一致"
+   ],
+   "why_zh": "如果你在优化Python/Node服务性能，可用它把热点函数局部移植到Rust而非整体重写。",
+   "tags": [
+    "代码",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.5756,
+   "score_llm": 6.0,
+   "score": 0.5902,
+   "date": "2026-11-22",
+   "slot": "evening",
+   "selected_at": "2026-11-22T13:12:10+00:00",
+   "mirror_pdf": "pdf/web-3400785e0033.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/EL4CTEO/fast-anything"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1eff0db184da",
+   "kind": "article",
+   "title": "拆解大厂财报：谁最舍得为AI花钱？",
+   "url": "https://www.tmtpost.com/8212870.html",
+   "pdf_url": "",
+   "abstract": "四家大厂的业务线里，算力、模型服务和AI工具已经形成可以辨认的收入模式。",
+   "authors": [
+    "第四波"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-22T11:05:18+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8212870.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "拆解大厂财报：谁最舍得为AI花钱？",
+   "summary_zh": "钛媒体拆解四家大厂财报，指出算力、模型服务与AI工具已形成可辨认的收入模式，AI投入开始对应可量化的商业回报。",
+   "highlights_zh": [
+    "四家大厂AI相关业务线已能拆出独立收入结构",
+    "算力与模型服务成为可辨认的变现路径",
+    "AI工具类收入开始进入财报视野"
+   ],
+   "why_zh": "从财报视角看AI投入产出，判断大厂AI商业化真实进度。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-22",
+   "slot": "evening",
+   "selected_at": "2026-11-22T13:12:10+00:00",
+   "mirror_pdf": "pdf/web-1eff0db184da.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8212870.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5e01a5b87a5e",
+   "kind": "article",
+   "title": "郭明錤：谷歌削减 2027 年博通设计的 TPU 8i 系列出货量约 100 万颗",
+   "url": "https://www.ithome.com/1/030/698.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 22 日消息，天风国际证券分析师郭明錤在 X 发文，其最新的产业调查显示，谷歌削减了 2027 年、由博通设计的 TPU 8i 系列共约 100 万颗（以单价较高的 8i Max / Whalefish 为主）。 IT之家获悉，此次削减约占 2027 年 TPU 8i 系列芯片 出货量的 20% 。 调查还指出，谷歌预计增加 2027 年由联发科设计的 TPU 8t 系列出货，但细节尚未确定。 郭明錤称谷歌近几个月反复强调前沿模型研发优先取得算力，此次 8t 与 8i 系列出货比重的改变， 正是在供应链紧张与资料中心供电受限下所做的调整 。 另据韩媒 Chosun Biz 消息，谷歌正通过将自研 AI 芯片 TPU 的设计与内存采购相分离，以此压降采购开支。谷歌不再将设计、封装、HBM 采购全部交给博通， 部分选择 与联发科分工设计，并直接采购 HBM 。 相关阅读： 《 消息称谷歌调整 TPU 供应链策略：与联发科分工设计，绕过博通直接与内存厂采购 HBM 》",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-22T11:20:07+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/698.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "郭明錤：谷歌削减2027年TPU 8i出货约百万颗",
+   "summary_zh": "郭明錤称谷歌削减2027年博通设计的TPU 8i约100万颗（占20%），转向联发科设计的8t，并拆分设计与HBM采购以压成本。",
+   "highlights_zh": [
+    "8i系列削减约100万颗，以高单价Max为主",
+    "8t系列出货预计增加，细节未定",
+    "谷歌绕过博通直接采购HBM以降低开支"
+   ],
+   "why_zh": "反映算力供应链紧张与供电受限下，头部公司自研芯片策略调整。",
+   "tags": [
+    "效率与系统",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-22",
+   "slot": "evening",
+   "selected_at": "2026-11-22T13:12:10+00:00",
+   "mirror_pdf": "pdf/web-5e01a5b87a5e.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/698.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-da1028cd2350",
+   "kind": "article",
+   "title": "报告：美国会计行业 AI 采用率高，但技术整合成熟度不足",
+   "url": "https://www.ithome.com/1/030/679.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 22 日消息，会计师正在成为观察人工智能如何改变职场的一个意想不到的样本。 据IT之家了解，由于会计工作具有流程固定、数据密集等特点，会计事务所一直是较早采用人工智能技术的行业之一，也经常被列为最容易受到 AI 冲击、面临岗位替代风险的行业。 不过，一份最新报告显示，会计行业还反映出 AI 发展中的另一个重要问题： 技术宣传所描绘的前景，与企业实际应用情况之间存在明显差距。 周三，沃尔特斯克鲁威尔税务与会计（Wolters Kluwer Tax & Accounting）发布《面向未来的会计师》（Future Ready Accountant）报告。报告指出，企业对 AI 的热情正在不断升温， 但多数会计事务所尚未具备将这项技术全面融入业务的能力。 这项调查于 2026 年 6 月至 7 月进行，共收集了 746 名美国会计行业从业者的反馈。沃尔特斯克鲁威尔税务与会计主要向税务、会计和审计机构提供软件及相关工具。 报告发现，83% 的美国会计事务所将自己定位为“技术创新者”或“早期采用者”。其中，“技术创新者”指愿意比同行更早测试或采用新兴技术及解决方案的企业。 从技术采用速度来看，会计行业确实走在前列。 88% 的美国会计从业者表示，他们在日常工作中使用生成式 AI ，另有 68% 的受访者表示正在使用智能体 AI（Agentic AI）。 然而，研究发现， 这些会计事务所并没有建立与技术应用热情相匹配的成熟技术基础设施。 在接受数字化成熟度评估的事务所中，只有 13% 达到了沃尔特斯克鲁威尔所定义的“技术领先门槛”。这一标准主要衡量企业实际建立的技术运营环境，而不仅仅是是否使用了某些新工具。 要达到这一门槛，会计事务所必须经常使用 AI，全面采用云端架构或制定明确的全面上云计划，同时还要达到较高的技术整合水平。 需要说明的是，并非所有受访者都参与了数字化成熟度评估。在 746 名受访者中，只有 300 人回答了所有相关问题，因此，83% 和 13% 这两个比例并不能直接进行比较。 不过，这些数据仍然揭示了 AI 应用中一个普遍存在的问题： 企业可以陆续引入各种 AI 工具，却未必能够打通数据、工作流程和底层系统，让这些工具真正改变日常工作的开展方式。 沃尔特斯克鲁威尔向 Business Insider 表示，美国会计事务所在技术采用方面已经取得了显著进展，但尚未将各项独立技术整合为更加协同的运营模式。 该公司发言人表示：“问题的关键并不在于企业高估了自身的技术水平，而在于采用技术与将技术整合到整个业务体系中，本质上是两回事。” 对于会计这样一个极有可能受到 AI 深刻影响的行业而言，这种区别尤为重要。 AI 已经能够轻松处理许多重复性工作，例如提取和清理财务数据、核对账目、起草报告，以及识别审计风险等。 企业高管通常认为，这种变化反而会让会计工作变得更有趣，也更注重人与人之间的互动。他们表示，AI 将帮助初级会计师从繁琐的基础工作中解脱出来，接手过去通常由经理级员工负责的、更具挑战性的任务，而资深员工则可以将更多精力投入新业务拓展。 报告指出，会计行业下一步面临的挑战，是推动真正的业务运营变革，而不是简单地在现有工作流程中增加几款 AI 工具。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-22T09:58:03+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/679.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "报告：美国会计业 AI 采用率高但整合成熟度不足",
+   "summary_zh": "Wolters Kluwer 调查 746 名美国会计从业者：88% 日常用生成式 AI、68% 用智能体 AI，但仅 13% 达到技术领先门槛，工具引入与业务整合严重脱节。",
+   "highlights_zh": [
+    "83% 事务所自认技术创新者或早期采用者，采用率领先多数行业",
+    "仅 13% 通过数字化成熟度评估，需常使用 AI、上云并高度整合",
+    "报告结论：下一步是重构业务流程，而非在工作流里叠加 AI 工具"
+   ],
+   "why_zh": "为「AI 采用率高≠落地成功」提供了可量化的行业样本，对企业 AI 落地有参照价值。",
+   "tags": [
+    "产品与行业",
+    "智能体"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-22",
+   "slot": "evening",
+   "selected_at": "2026-11-22T13:12:10+00:00",
+   "mirror_pdf": "pdf/web-da1028cd2350.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/679.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-47336d21cbce",
+   "kind": "article",
+   "title": "反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢",
+   "url": "https://www.qbitai.com/2026/11/511791.html",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [
+    "衡宇"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-21T11:24:29+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/511791.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "反超Gemini后，Karpo再开源浏览器Agent",
+   "summary_zh": "Karpo团队在模型反超Gemini后开源浏览器Agent新作，主打速度与效果双赢，具体技术细节与评测数据尚待披露。",
+   "highlights_zh": [
+    "团队此前在评测中反超Gemini",
+    "新作聚焦浏览器场景的Agent",
+    "以开源形式发布"
+   ],
+   "why_zh": "浏览器Agent是智能体落地的重要方向，可关注其开源实现与性能表现。",
+   "tags": [
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 6.0,
+   "score": 0.536,
+   "date": "2026-11-22",
+   "slot": "evening",
+   "selected_at": "2026-11-22T13:12:10+00:00",
+   "mirror_pdf": "pdf/web-47336d21cbce.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/511791.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0e1816c3edb2",
+   "kind": "article",
+   "title": "特朗普表态：英伟达Blackwell芯片可对华销售，但有个条件；OpenAI被曝入局智能手机赛道；DeepSeek第二轮千亿融资落地，31家出资方入局",
+   "url": "https://www.leiphone.com/category/zaobao/qb1uol6hKvK6pRgF.html",
+   "pdf_url": "",
+   "abstract": "要闻提示 1.OpenAI被曝入局智能手机赛道，富士康获组装订单 2.特朗普表态：英伟达Blackwell芯片可对华销售，但有个条件 3.DeepSeek千亿融资落地，31家出资方入股梁文锋搭建的持股平台 4.马斯克自称“中国超级粉丝”：首次到访深圳被震撼，特斯拉将继续在华提高产量 5.字节跳动拟追加5亿美元微软云服务合同 6.西祠胡同创始人响马突发心梗：到急诊几分钟后心脏骤停，现已回家静养 7.黄仁勋继任者被曝已有人选！马斯克：英伟达把他赶走，堪比公牛队连胜时踢走乔丹 8.Anthropic完成史上最大规模IPO，上市估值达1.5万亿美元 今日头条 OpenAI被曝入局智能手机赛道，富士康获组装订单 11月19日，据供应链消息，富士康旗下富智康集团已获得OpenAI手机项目订单，将参与相关产品的整机组装。富士康同时是苹果iPhone的主要组装商。 若OpenAI手机最终面市，其将进入手机终端市场，并可能围绕AI交互体验，与现有手机品牌展开更直接的竞争。相关产品方案、订单规模及量产安排，仍有待进一步获悉。（人民财讯） 国内资讯 特朗普表态：英伟达 Blackwell 芯片可对华销售，但有个条件 11月19日消息，据媒体报道，在APEC会议上，美国总统特朗普对外表态，英伟达Blackwell架构AI芯片，只有当该产品不再属于市场最先进芯片之后，美国才有可能批准将这款芯片对华出口。 该表态意味着，当前Blackwell系列依旧维持对华出口禁令不变，并没有立刻解除管制。政策放开的前提，要等到更新一代旗舰芯片推出、Blackwell退出顶尖梯队之后，才存在讨论解禁的空间。报道没有给出明确的解禁时间节点、配套许可规则，具体落地细则，仍然需要美国商务部工业安全局后续敲定。 Blackwell是英伟达当下主力高端AI计算芯片，算力性能大幅领先前代产品，也是海外云厂商搭建AI算力集群的核心选择。自推出以来，该系列长期被纳入美国对华芯片出口管制清单，国内市场无法直接采购原版Blackwell芯片。（快科技） DeepSeek千亿融资落地，31家出资方入股梁文锋搭建的持股平台 11月19日消息，公开信息显示，DeepSeek工商主体杭州深度求索人工智能基础技术研究有限公司近日完成工商变更，新增股东杭州程砚企业管理咨询合伙企业（有限合伙）、公司注册资本变更为1991.8707万元，增幅约21.1%。 股权穿透显示，作为持股平台的杭州程砚同期完成工商变更，新增31家合伙人，即为参与DeepSeek第二轮融资的各外部股东，囊括了腾讯、中国移动、中国电信、宁德时代、兆易创新、小红书、vivo等一系列产业股东，以及砺思、博裕、IDG、高榕、君联、正心谷以及中信证券等投资机构。梁文锋控股的杭州程策商务咨询有限公司持股比例由83.33%下降至0.0001%。 此前，杭州程砚由DeepSeek创始人梁文锋及其旗下杭州程策商务咨询有限公司共同持股。梁文锋此次退出杭州程砚的直接合伙人名单，但杭州程策商务咨询有限公司仍担任执行事务合伙人，梁文锋持有该公司99%的股权。此前报道，10月22日，有市场消息称，DeepSeek拟在最新一轮融资中筹得约1000亿元人民币，交易预计在未来数日内正式完成。（每日经济报道） 马斯克自称“中国超级粉丝”：首次到访深圳被震撼，特斯拉将继续在华提高产量 11 月 19 日，中国贸促会会长任鸿斌在深圳会见特斯拉 CEO 埃隆 · 马斯克。马斯克表示，自己是中国“超级粉丝”，每次到访都感到震撼。他还承诺特斯拉将继续在中国提高产量。 “中国很酷。我一直鼓励世界各地",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-22T10:15:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/zaobao/qb1uol6hKvK6pRgF.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Blackwell对华销售表态、OpenAI入局手机、DeepSeek千亿融资",
+   "summary_zh": "雷峰网要闻汇总：特朗普称Blackwell须退出最先进梯队后才可对华销售；OpenAI被曝入局智能手机；DeepSeek第二轮千亿融资落地，31家产业与投资方入股。",
+   "highlights_zh": [
+    "Blackwell对华出口仍受限，解禁需待新一代旗舰推出",
+    "OpenAI被曝委托富士康组装AI手机",
+    "DeepSeek融资引入腾讯、中国移动等31家股东"
+   ],
+   "why_zh": "一网打尽算力管制、终端布局与融资格局三条行业主线。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-22",
+   "slot": "evening",
+   "selected_at": "2026-11-22T13:12:10+00:00",
+   "mirror_pdf": "pdf/web-0e1816c3edb2.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/zaobao/qb1uol6hKvK6pRgF.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-218382189a3c",
+   "kind": "article",
+   "title": "Anthropic万亿上市，搅动的却是半导体江湖",
+   "url": "https://www.tmtpost.com/8213769.html",
+   "pdf_url": "",
+   "abstract": "大买主登陆公开市场，芯片、代工与存储环节都在随之调整。",
+   "authors": [
+    "半导体产业纵横"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-22T06:16:44+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8213769.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic万亿上市，搅动半导体江湖",
+   "summary_zh": "钛媒体分析Anthropic上市后作为算力大买主对芯片、代工与存储环节的连锁影响，AI需求正重塑半导体供应链格局。",
+   "highlights_zh": [
+    "AI大模型公司成为半导体需求端关键变量",
+    "上市融资放大其采购与议价能力",
+    "芯片、代工、存储环节随之调整"
+   ],
+   "why_zh": "理解AI公司资本化如何传导至上游硬件供应链。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 6.0,
+   "score": 0.504,
+   "date": "2026-11-22",
+   "slot": "evening",
+   "selected_at": "2026-11-22T13:12:10+00:00",
+   "mirror_pdf": "pdf/web-218382189a3c.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8213769.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-7dff434595e4",
+   "kind": "article",
+   "title": "AI给乐队现场搓MV，这是黑客松还是音乐节啊",
+   "url": "https://www.qbitai.com/2026/11/511855.html",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [
+    "衡宇"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-21T14:14:09+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/511855.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "AI在黑客松现场为乐队生成MV",
+   "summary_zh": "量子位报道黑客松活动中用AI为乐队现场生成MV，展示生成式AI在创意场景的应用。",
+   "highlights_zh": [
+    "AI实时生成音乐视频",
+    "黑客松与音乐节结合",
+    "偏活动报道，信息增量有限"
+   ],
+   "why_zh": "了解生成式AI创意应用场景，但深度有限。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 5.0,
+   "score": 0.476,
+   "date": "2026-11-22",
+   "slot": "evening",
+   "selected_at": "2026-11-22T13:12:10+00:00",
+   "mirror_pdf": "pdf/web-7dff434595e4.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/511855.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-80748fb88a5d",
+   "kind": "article",
+   "title": "中国计算，走出新的登峰之路",
+   "url": "https://www.qbitai.com/2026/11/511849.html",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [
+    "衡宇"
+   ],
+   "orgs": [
+    "量子位"
+   ],
+   "published": "2026-11-21T14:09:59+00:00",
+   "sources": [
+    {
+     "name": "量子位",
+     "authority": 0.85,
+     "url": "https://www.qbitai.com/2026/11/511849.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "中国计算走出新的登峰之路",
+   "summary_zh": "量子位报道中国算力/计算产业发展路径，属行业综述类内容。",
+   "highlights_zh": [
+    "聚焦中国计算产业",
+    "偏宏观综述",
+    "具体技术增量有限"
+   ],
+   "why_zh": "了解国内算力产业叙事，但信息密度一般。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 5.0,
+   "score": 0.476,
+   "date": "2026-11-22",
+   "slot": "evening",
+   "selected_at": "2026-11-22T13:12:10+00:00",
+   "mirror_pdf": "pdf/web-80748fb88a5d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.qbitai.com/2026/11/511849.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-ee69adc4d2d1",
+   "kind": "article",
+   "title": "Claude 的黎曼猜想证明获 Lean 官方认证，马斯克直呼惊人成就",
+   "url": "https://www.ifanr.com/1690820?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "AI 恐怖如斯 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "山宗"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-11-22T01:35:14+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1690820?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Claude黎曼猜想证明获Lean官方认证",
+   "summary_zh": "爱范儿报道称Claude对黎曼猜想的证明通过Lean官方认证，马斯克称其为惊人成就，但报道缺乏技术细节与独立核实。",
+   "highlights_zh": [
+    "声称证明经Lean形式化验证",
+    "马斯克公开表态称赞",
+    "缺少证明细节与同行复核"
+   ],
+   "why_zh": "若属实是科学AI里程碑，但需谨慎对待，建议等待技术细节与复核。",
+   "tags": [
+    "科学AI",
+    "推理"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-11-22",
+   "slot": "evening",
+   "selected_at": "2026-11-22T13:12:10+00:00",
+   "mirror_pdf": "pdf/web-ee69adc4d2d1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1690820?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5df8984a0961",
+   "kind": "article",
+   "title": "刚刚，曝黎曼猜想被证明，Claude 立大功",
+   "url": "https://www.ifanr.com/1690750?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "AI 恐怖如斯 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "山宗"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-11-21T01:29:09+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1690750?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "曝黎曼猜想被证明，Claude立大功",
+   "summary_zh": "与另一篇为同一事件的重复杂志式报道，仅称黎曼猜想被证明且Claude立大功，无实质技术内容。",
+   "highlights_zh": [
+    "同一事件重复报道",
+    "标题党倾向明显",
+    "缺乏可验证信息"
+   ],
+   "why_zh": "信息量极低且与上一条重复，不建议阅读。",
+   "tags": [
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 4.0,
+   "score": 0.392,
+   "date": "2026-11-22",
+   "slot": "evening",
+   "selected_at": "2026-11-22T13:12:10+00:00",
+   "mirror_pdf": "pdf/web-5df8984a0961.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1690750?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8f9451b19616",
+   "kind": "article",
+   "title": "财务团队的 AI 蓝图",
+   "url": "https://www.infoq.cn/video/UUqekkOQ8haEXZ792UjU?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "王玮"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-22T17:54:58+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/video/UUqekkOQ8haEXZ792UjU?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "财务团队的AI蓝图",
+   "summary_zh": "InfoQ转载的企业AI应用类文章，讨论财务团队如何引入AI，属泛商业场景内容，缺乏技术增量。",
+   "highlights_zh": [
+    "面向财务职能的AI落地讨论",
+    "偏企业应用方法论",
+    "无模型或技术细节"
+   ],
+   "why_zh": "适合财务管理者参考，对把握AI技术趋势帮助有限。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 4.0,
+   "score": 0.392,
+   "date": "2026-11-22",
+   "slot": "evening",
+   "selected_at": "2026-11-22T13:12:10+00:00",
+   "mirror_pdf": "pdf/web-8f9451b19616.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/video/UUqekkOQ8haEXZ792UjU?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "AI基建从企业军备竞赛升级为国家资本介入的产业政策工具",
-   "why": "拉加德呼吁欧盟公共资金兜底首轮损失，韩国总统强调速度，腾讯资本开支激增527%显示投入烈度",
-   "refs": [
-    "web-a9499c8340ff",
-    "web-942c5fe215c0",
-    "web-4a3ac36bded5"
-   ]
-  },
-  {
-   "trend": "算力竞争转向软硬协同与计算下沉，迁移门槛成为关键战场",
-   "why": "AWS TorchNeuron让PyTorch免改跑Trainium，群联把NPU塞进SSD，特斯拉用半颗加速器跑实景视图",
-   "refs": [
-    "web-8e81aa562fd6",
-    "web-ac52a2e1b79a",
-    "web-2ac6c11bb63c"
-   ]
-  },
-  {
-   "trend": "形式化验证正成为大模型数学能力的独立评测新范式",
-   "why": "黎曼猜想1700万行Lean证明经四项核验通过，为模型输出提供可编译、多检查器验证的硬标准",
+   "trend": "AI数学证明进入「可核验但不可理解」阶段，评测标准从正确性转向可解释性",
+   "why": "黎曼猜想证明经Lean四项核验通过，但菲尔兹奖得主梅纳德指出无人理解其思想前难获数学界认可。",
    "refs": [
     "web-35a3c0a47a4d",
-    "web-71a268405c87"
+    "web-a3d920b89239",
+    "web-95bb40f524aa"
    ]
   },
   {
-   "trend": "大模型竞争从刷榜转向公开回应路线与算力取舍的信任博弈",
-   "why": "姚顺雨在Reddit AMA正面回应MoE、量化与刷榜质疑，并公布mini与稠密模型规划",
+   "trend": "算力竞争从买卡转向自研芯片与迁移工具，降低锁定成为新战场",
+   "why": "AWS推TorchNeuron让PyTorch免改跑Trainium，谷歌削减TPU 8i转联发科方案并拆分HBM采购压成本。",
    "refs": [
-    "web-07c14ec2b21b"
+    "web-8e81aa562fd6",
+    "web-5e01a5b87a5e"
    ]
   },
   {
-   "trend": "智能体落地瓶颈从能力转向身份、授权与支付的基础设施缺位",
-   "why": "智能体身份国际标准化推进、智能体支付成出海新生意，同时业界追问生产环境放手边界",
+   "trend": "AI基建风险公共化：政府开始为数据中心首轮损失兜底以撬动私人资本",
+   "why": "拉加德呼吁欧盟用公共资金承担芯片厂与数据中心首轮损失，韩国总统则强调竞赛速度优先。",
    "refs": [
-    "web-74c6fb520c37",
-    "web-cf9a9044c8af",
-    "web-e778b500bfc8"
+    "web-a9499c8340ff",
+    "web-942c5fe215c0"
+   ]
+  },
+  {
+   "trend": "大厂AI投入进入利润承压期，但收入模式已开始可量化验证",
+   "why": "腾讯资本开支同比增527%、AI业务拖累经营利润约152亿；四家大厂财报显示算力与模型服务已形成可辨认收入。",
+   "refs": [
+    "web-4a3ac36bded5",
+    "web-1eff0db184da"
+   ]
+  },
+  {
+   "trend": "计算下沉到存储与终端，边缘侧推理架构出现拐点",
+   "why": "群联展示内置NPU与64GB内存的SSD可直接跑vLLM，特斯拉FSD v15仅用半个加速器实现实景视图。",
+   "refs": [
+    "web-ac52a2e1b79a",
+    "web-2ac6c11bb63c",
+    "web-6d5cfc637f2c"
    ]
   }
  ]
