@@ -1,11 +1,12 @@
 {
- "updated": "2026-11-22T18:22:26+00:00",
+ "updated": "2026-11-23T06:02:34+00:00",
  "days": [
   {
    "date": "2026-11-23",
-   "count": 8,
+   "count": 27,
    "slots": {
-    "morning": 8
+    "morning": 8,
+    "noon": 19
    }
   },
   {
@@ -537,35 +538,37 @@
    }
   }
  ],
- "total": 3247,
+ "total": 3266,
  "last_run": {
-  "at": "2026-11-22T18:22:26+00:00",
-  "slot": "morning",
-  "candidates": 79,
-  "new": 17,
-  "stale": 25,
-  "judged": 17,
-  "selected": 8,
-  "mirrored": 8,
+  "at": "2026-11-23T06:02:34+00:00",
+  "slot": "noon",
+  "candidates": 86,
+  "new": 42,
+  "stale": 14,
+  "judged": 42,
+  "selected": 19,
+  "mirrored": 19,
   "by_category": {
-   "技术": 1,
-   "资讯": 7
+   "技术": 2,
+   "资讯": 14,
+   "项目": 3
   },
   "by_source": {
-   "Hacker News": 2,
+   "HF Daily Papers": 2,
+   "Hacker News": 5,
+   "OpenAI": 1,
    "量子位": 10,
    "极客公园": 4,
    "IT之家": 14,
    "爱范儿": 4,
-   "雷峰网": 2,
-   "钛媒体": 4,
+   "少数派": 1,
+   "雷峰网": 4,
+   "钛媒体": 6,
    "InfoQ 中文": 12,
-   "Latent Space": 2,
-   "Stratechery": 1,
    "Azeem Azhar": 1,
    "Zvi Mowshowitz": 1,
-   "Google Research": 1,
-   "OpenAI": 1,
+   "科学空间": 1,
+   "Eugene Yan": 1,
    "GitHub Trending": 13,
    "GitHub 新项目": 7
   },

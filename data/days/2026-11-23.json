@@ -428,45 +428,1072 @@
     }
    ],
    "mt": false
+  },
+  {
+   "id": "web-23a737ee87d6",
+   "kind": "article",
+   "title": "Muon背后的优化理论：1. 全量、随机与动量",
+   "url": "https://kexue.fm/archives/12014",
+   "pdf_url": "",
+   "abstract": "关于优化器，我们可以找到很多经典的收敛结论，比如“炼丹”系列文章介绍的基于凸假设和遗憾界的一系列结果。除此之外，还有很多从不同角度切入、基于不同假设的分析，这些假设有强有弱，所得结论适用范围也有...",
+   "authors": [
+    "苏剑林"
+   ],
+   "orgs": [
+    "科学空间"
+   ],
+   "published": "2026-11-23T03:02:00+00:00",
+   "sources": [
+    {
+     "name": "科学空间",
+     "authority": 0.85,
+     "url": "https://kexue.fm/archives/12014",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "zh",
+   "who": "RoPE 提出者，科学空间博主",
+   "title_zh": "Muon优化器背后的理论：全量、随机与动量",
+   "summary_zh": "苏剑林从优化理论角度系统梳理Muon优化器的收敛性分析，对比全量梯度、随机梯度与动量方法在不同假设下的理论保证，为理解这一新兴优化器提供数学基础。",
+   "highlights_zh": [
+    "系统梳理Muon优化器在不同设定下的收敛理论",
+    "对比全量、随机与动量三种范式的假设与结论差异",
+    "由RoPE提出者苏剑林撰写，理论功底扎实"
+   ],
+   "why_zh": "想理解Muon为何可能替代Adam，需先读懂其理论根基，此文是少有的系统梳理。",
+   "tags": [
+    "理论",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.44,
+   "score_llm": 8.0,
+   "score": 0.656,
+   "date": "2026-11-23",
+   "slot": "noon",
+   "selected_at": "2026-11-23T06:02:34+00:00",
+   "mirror_pdf": "pdf/web-23a737ee87d6.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://kexue.fm/archives/12014"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-da5973dfe8cb",
+   "kind": "article",
+   "title": "OpenAI 首席科学家：AI 最早明年加速进化；B 站开始清理「大肥鱼」泛滥；瘫痪患者用脑机打 GTA6｜极客早知道",
+   "url": "http://www.geekpark.net/news/374304",
+   "pdf_url": "",
+   "abstract": "OpenAI 首席科学家警告：AI 最早可能在 2027 年加速自身发展，奥尔特曼赞同为 AI 开发设限 11 月 23 日消息，当地时间于 11 月 22 日，OpenAI 首席科学家雅库布 · 帕霍茨基（Jakub Pachocki）发文，提议 AI 企业应建立行业统一标准，对先进 AI 模型的开发设置共同限制，在研究人员具备更可靠的模型行为理解和监控能力之前，不应突破约定的发展门槛。 他认为，传统 AI 能力评测基准会随着技术进步迅速过时，而困惑度（Perplexity）可以作为衡量模型预训练进展的参考指标（困惑度用于衡量 AI 模型预测下一个文本 Token 的能力，数值越低，代表模型的预测能力越强）。 帕霍茨基还公布了 OpenAI 内部使用的部分模型评测数据：GPT-3.5 的对数困惑度约为 0.99，GPT-4 约为 0.91。当这一指标低于 0.8 时，OpenAI 观察到了模型在网络安全和数学领域出现新的能力；当指标达到约 0.76 时，模型开始在部分开放数学问题上取得突破性成果。 帕霍茨基预计，当对数困惑度进入 0.68 至 0.7 区间时，模型可能出现更多变革性能力，但目前无法确定这些能力具体是什么。 他还警告，AI 最早可能在 2027 年推动预训练技术出现一轮快速进展，而研究人员在模型对齐和行为监控方面的进展，可能无法同步跟上。 按照帕霍茨基的设想，各家 AI 企业应共同建立模型评测、透明度和安全红队测试标准，并在模型首次投入使用前完成相应评估。他建议，以困惑度等可跨企业追踪的指标设定首个开发门槛，企业承诺在达到明确的安全监控里程碑之前不突破限制，例如开发出比现有思维链监控工具更先进的监测机制。 OpenAI CEO 萨姆 · 奥尔特曼也公开支持这一提议。他称帕霍茨基的文章是 OpenAI 一段时间以来发表的最重要内容之一，并表示希望 AI 行业能够就共同限制达成一致，以帮助确保技术发展的安全性和可控性。（来源：CnBeta） 马斯克预警：AI 行业明年可能面临严重资金短缺，或需要数千亿美元额外投入 11 月 22 日消息，深度学习领域开源项目 Keras 创始人弗朗索瓦・肖莱（François Chollet）在 X 上发文称，要么你认为 AI 基础设施建设已经结束，AI 只是一场昙花一现的泡沫，且算力需求已经见顶；要么，这就是一次难得的买入机会。 弗朗索瓦称，GPU 现货价格仍在上涨，产能难以保障，HBM 和 DRAM 到 2029 年的产能基本已被订满，芯片和存储供应预计将持续紧张，一直延续到 2030 年代。前沿模型的训练算力约每 5 个月翻一番，模型能力提升速度是推理模型出现前的两倍以上。AI 推理业务的利润率可达 70% 至 85%，需求仍在快速增长，每一代新模型都会带来新的应用场景。 马斯克回复弗朗索瓦称，让如此大规模的算力设备通电、冷却并实现稳定运行，极其困难。 （人工智能行业） 明年可能面临严重的资金短缺 。如果全行业从支付算力成本到设备能够稳定创收的时间累计推迟数月， 仅营运资金就可能需要额外投入数千亿美元 ， 这些钱从哪里来 ？ Neuralink 展示脑机接口新成果：瘫痪患者成功在《GTA 6》里自由驾驶、射击 11 月 22 日消息，马斯克旗下脑机接口公司 Neuralink 于 21 日公布最新研究成果，展示了一名四肢瘫痪患者通过脑机接口，将大脑运动意图转换为游戏控制器信号，成功游玩热门游戏《GTA 6》。受试者能够在游戏中自由驾驶、射击，获得接近普通玩家的操作体验。 参考 Neuralink",
+   "authors": [],
+   "orgs": [
+    "极客公园"
+   ],
+   "published": "2026-11-23T01:22:36+00:00",
+   "sources": [
+    {
+     "name": "极客公园",
+     "authority": 0.8,
+     "url": "http://www.geekpark.net/news/374304",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "OpenAI首席科学家提议以困惑度设AI开发门槛",
+   "summary_zh": "OpenAI首席科学家Pachocki提议行业统一以困惑度等指标设开发门槛，并披露GPT-3.5/4的对数困惑度数据及能力涌现阈值，预计2027年预训练或加速突破。",
+   "highlights_zh": [
+    "披露GPT-3.5约0.99、GPT-4约0.91的对数困惑度，低于0.8出现网络安全与数学新能力",
+    "建议以可跨企业追踪的指标设首个开发门槛，达到安全监控里程碑前不突破",
+    "奥尔特曼公开支持，称其为OpenAI近期最重要内容之一"
+   ],
+   "why_zh": "头部公司首次提出可量化的行业级开发门槛框架，关乎AI治理与竞争节奏。",
+   "tags": [
+    "大模型",
+    "对齐与安全",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.42,
+   "score_llm": 8.0,
+   "score": 0.648,
+   "date": "2026-11-23",
+   "slot": "noon",
+   "selected_at": "2026-11-23T06:02:34+00:00",
+   "mirror_pdf": "pdf/web-da5973dfe8cb.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "http://www.geekpark.net/news/374304"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-5cd8fb2fc653",
+   "kind": "article",
+   "title": "CocoSgt/riemann-hypothesis-lean",
+   "url": "https://github.com/CocoSgt/riemann-hypothesis-lean",
+   "pdf_url": "",
+   "abstract": "Mirror of Levent Alpöge's Lean proof of the Riemann Hypothesis (with Claude). All credit to Levent Alpöge. Source: alpo.ge",
+   "authors": [],
+   "orgs": [
+    "CocoSgt"
+   ],
+   "published": "2026-11-23T06:02:34+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/CocoSgt/riemann-hypothesis-lean",
+     "signal": "★ 524（新项目） · Lean",
+     "metric": 524
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "用Claude辅助的黎曼猜想Lean证明镜像",
+   "summary_zh": "Levent Alpöge借助Claude完成黎曼猜想的Lean形式化证明，此仓库为其镜像。",
+   "highlights_zh": [
+    "AI辅助数学形式化证明",
+    "Lean语言验证",
+    "涉及重大数学难题"
+   ],
+   "why_zh": "展示AI在形式化数学证明中的实际能力，值得关注。",
+   "tags": [
+    "科学AI",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.5606,
+   "score_llm": 7.0,
+   "score": 0.6442,
+   "date": "2026-11-23",
+   "slot": "noon",
+   "selected_at": "2026-11-23T06:02:34+00:00",
+   "mirror_pdf": "pdf/web-5cd8fb2fc653.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/CocoSgt/riemann-hypothesis-lean"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-a4ea85254a88",
+   "kind": "article",
+   "title": "How Public Evals Work, Where They Break, and What Should Change",
+   "url": "https://eugeneyan.com/writing/public-evals",
+   "pdf_url": "",
+   "abstract": "Some critiques and suggestions based on a teardown of 12 benchmarks.",
+   "authors": [
+    "Eugene Yan"
+   ],
+   "orgs": [
+    "Eugene Yan"
+   ],
+   "published": "2026-11-22T00:00:00+00:00",
+   "sources": [
+    {
+     "name": "Eugene Yan",
+     "authority": 0.75,
+     "url": "https://eugeneyan.com/writing/public-evals",
+     "signal": "技术博客",
+     "metric": 0.0
+    }
+   ],
+   "category": "技术",
+   "lang": "en",
+   "who": "应用 ML 工程师，LLM 评测实践",
+   "title_zh": "公开评测基准如何运作、何处失效、应如何改进",
+   "summary_zh": "Eugene Yan拆解12个公开评测基准，指出其在污染、饱和与激励扭曲上的系统性失效，并提出改进建议。",
+   "highlights_zh": [
+    "基于12个基准的实证拆解，而非泛泛批评",
+    "归纳公开评测在污染、饱和与激励扭曲上的失效模式",
+    "给出可操作的评测设计改进方向"
+   ],
+   "why_zh": "评测是模型选型与发布的决策依据，此文帮你识别基准数字背后的陷阱。",
+   "tags": [
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.4,
+   "score_llm": 8.0,
+   "score": 0.64,
+   "date": "2026-11-23",
+   "slot": "noon",
+   "selected_at": "2026-11-23T06:02:34+00:00",
+   "mirror_pdf": "pdf/web-a4ea85254a88.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://eugeneyan.com/writing/public-evals"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-1ba4d31258de",
+   "kind": "article",
+   "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+   "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-22T21:01:16Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50603845",
+     "signal": "375 pts",
+     "metric": 375
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "本地AI入门：Inkling、Qwen与Unsloth指南",
+   "summary_zh": "面向初学者的本地部署AI教程，介绍Inkling、Qwen模型与Unsloth微调工具的使用方法。",
+   "highlights_zh": [
+    "本地模型部署入门",
+    "涵盖Qwen与Unsloth",
+    "面向新手实操"
+   ],
+   "why_zh": "适合想上手本地模型的从业者，但增量信息有限。",
+   "tags": [
+    "大模型",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.598,
+   "score_llm": 6.0,
+   "score": 0.5992,
+   "date": "2026-11-23",
+   "slot": "noon",
+   "selected_at": "2026-11-23T06:02:34+00:00",
+   "mirror_pdf": "pdf/web-1ba4d31258de.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50603845"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-8b4b8bbecfaf",
+   "kind": "article",
+   "title": "INK-Q/agy-fast",
+   "url": "https://github.com/INK-Q/agy-fast",
+   "pdf_url": "",
+   "abstract": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
+   "authors": [],
+   "orgs": [
+    "INK-Q"
+   ],
+   "published": "2026-11-23T06:02:34+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/INK-Q/agy-fast",
+     "signal": "★ 611（新项目） · TypeScript",
+     "metric": 611
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "agy-fast：Antigravity的MCP加速插件",
+   "summary_zh": "为Google Antigravity提供非侵入式MCP加速，减少34%的LLM轮次、31%的token配额与40%的上传流量。",
+   "highlights_zh": [
+    "非侵入式插件，不影响原生UI与diff",
+    "显著降低token与流量消耗",
+    "支持CLI/桌面/IDE"
+   ],
+   "why_zh": "如果你在用Antigravity跑智能体任务，可用它压缩token与轮次开销。",
+   "tags": [
+    "智能体",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.566,
+   "score_llm": 6.0,
+   "score": 0.5864,
+   "date": "2026-11-23",
+   "slot": "noon",
+   "selected_at": "2026-11-23T06:02:34+00:00",
+   "mirror_pdf": "pdf/web-8b4b8bbecfaf.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/INK-Q/agy-fast"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-82e57c606d95",
+   "kind": "article",
+   "title": "sybil-solutions/skill-distill",
+   "url": "https://github.com/sybil-solutions/skill-distill",
+   "pdf_url": "",
+   "abstract": "Distill a good Claude Code / Codex session into a skill an open-weight model can follow to reproduce the task",
+   "authors": [],
+   "orgs": [
+    "sybil-solutions"
+   ],
+   "published": "2026-11-23T06:02:34+00:00",
+   "sources": [
+    {
+     "name": "GitHub 新项目",
+     "authority": 0.6,
+     "url": "https://github.com/sybil-solutions/skill-distill",
+     "signal": "★ 466（新项目） · Python",
+     "metric": 466
+    }
+   ],
+   "category": "项目",
+   "lang": "en",
+   "who": "",
+   "title_zh": "skill-distill：把会话蒸馏为技能",
+   "summary_zh": "将一次成功的Claude Code/Codex会话蒸馏成技能，让开源权重模型也能复现该任务。",
+   "highlights_zh": [
+    "会话转可复用技能",
+    "面向开源权重模型",
+    "Python实现"
+   ],
+   "why_zh": "如果你想让开源模型复现Claude Code的成功任务，可用它把会话蒸馏成技能。",
+   "tags": [
+    "智能体",
+    "大模型"
+   ],
+   "relevant": true,
+   "score_rule": 0.5565,
+   "score_llm": 6.0,
+   "score": 0.5826,
+   "date": "2026-11-23",
+   "slot": "noon",
+   "selected_at": "2026-11-23T06:02:34+00:00",
+   "mirror_pdf": "pdf/web-82e57c606d95.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://github.com/sybil-solutions/skill-distill"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-45e86e1c93f0",
+   "kind": "article",
+   "title": "Edge AI Daily 早报（11月23日）",
+   "url": "https://www.tmtpost.com/8214195.html",
+   "pdf_url": "",
+   "abstract": "英伟达季度营收1158亿美元、下季指引1300亿美元，市场焦点转向基建支出能否转化为可量化回报；Anthropic完成IPO募资约916亿美元，却背负约9009亿美元算力采购承诺，成本刚性与收入弹性错配待解；甲骨文筹足OpenAI合同资金，阿比林园区进入GPT-6 Astra训练。Anthropic数学家称与Claude提出黎曼猜想证明并经Lean/Mathlib形式化检查。",
+   "authors": [
+    "Edge AI Daily"
+   ],
+   "orgs": [
+    "钛媒体"
+   ],
+   "published": "2026-11-23T00:48:43+00:00",
+   "sources": [
+    {
+     "name": "钛媒体",
+     "authority": 0.65,
+     "url": "https://www.tmtpost.com/8214195.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Edge AI 早报：英伟达营收指引与 Anthropic 算力承诺",
+   "summary_zh": "英伟达季度营收 1158 亿美元、下季指引 1300 亿美元，市场关注基建投入能否转化为回报；Anthropic 募资约 916 亿美元却背负约 9009 亿美元算力采购承诺，成本刚性与收入弹性错配待解。",
+   "highlights_zh": [
+    "英伟达下季指引 1300 亿美元，焦点转向基建支出回报",
+    "Anthropic 算力采购承诺远超募资规模，商业模式承压",
+    "甲骨文筹足 OpenAI 合同资金，阿比林园区进入 GPT-6 Astra 训练"
+   ],
+   "why_zh": "头部 AI 公司算力投入与收入结构的错配，是判断行业泡沫与可持续性的关键信号",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.36,
+   "score_llm": 7.0,
+   "score": 0.564,
+   "date": "2026-11-23",
+   "slot": "noon",
+   "selected_at": "2026-11-23T06:02:34+00:00",
+   "mirror_pdf": "pdf/web-45e86e1c93f0.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.tmtpost.com/8214195.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-0b83ffe36b24",
+   "kind": "article",
+   "title": "智谱 GLM-5.4 模型发布，已上线 Coding Plan",
+   "url": "https://www.ithome.com/1/030/809.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 23 日消息，据IT之家小伙伴反馈，智谱官方运营人员发布消息， GLM-5.4 模型已经上线 Coding Plan 。“过去三个月，我们同时激进的 Scaling Loop 和模型大小，大家首先看到的是 Loop Transformer 带来的惊喜。GLM-5.4 新增视觉能力与更强的泛 Coding 能力。” 此外，V2、V3 及团队版用户使用 GLM-5.4 模型额度已提升至 1.5 倍， 将模型名设置为 glm-5.4 即可 。 GLM-5.4 模型的具体介绍信息暂未公布，不过已经能在 Coding Plan 的模型列表中看到，显示“1M”和“视觉”字样。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-23T04:49:30+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/809.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "智谱发布 GLM-5.4：新增视觉与更强编程能力",
+   "summary_zh": "智谱 GLM-5.4 上线 Coding Plan，新增视觉能力与更强泛编程能力，支持 1M 上下文，V2/V3 及团队版用户额度提升至 1.5 倍。",
+   "highlights_zh": [
+    "新增视觉能力，模型列表标注 1M 上下文",
+    "官方称同时激进扩展 Scaling Loop 与模型规模，Loop Transformer 带来惊喜",
+    "V2、V3 及团队版用户额度提升至 1.5 倍，改模型名即可调用"
+   ],
+   "why_zh": "国产头部大模型厂商的版本迭代，视觉与编程能力升级值得开发者关注",
+   "tags": [
+    "大模型",
+    "多模态",
+    "代码"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-23",
+   "slot": "noon",
+   "selected_at": "2026-11-23T06:02:34+00:00",
+   "mirror_pdf": "pdf/web-0b83ffe36b24.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/809.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-d475c1afd2a5",
+   "kind": "article",
+   "title": "消息称亚马逊接近以 75 亿美元收购人工智能初创企业 Decart",
+   "url": "https://www.ithome.com/1/030/797.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 23 日消息，《金融时报》当地时间昨日报道称，Amazon 已就收购 Decart 展开深入谈判， 双方最早可能在本周初达成协议 ，但这笔价值约为 75 亿美元 （IT之家注：现汇率约合 501.1 亿元人民币） 的交易仍有破裂的风险。 Decart 由三位以色列工程师于 2023 年创立，提供跨算力硬件类型的人工智能堆栈优化服务，同时也自主开发世界模型。报道指出，Decart 是 亚马逊 AWS Trainium3 人工智能 ASIC 的早期使用者 之一，在优化亚马逊自研芯片表现上有实际经验。 Decart 在今年 5 月以 40 亿美元 （现汇率约合 267.25 亿元人民币） 的估值完成了总额 3 亿美元 （现汇率约合 20.04 亿元人民币） 的 B 轮融资，吸引了来自亚马逊自身和英伟达、Adobe、丰田、eBay 等的投资。Anthropic 曾对其表示过收购兴趣。 参考 https://www.ft.com/content/dc7749dc-0f40-44a6-80bc-7f747d383616",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-23T03:35:46+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/797.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "亚马逊拟75亿美元收购AI初创Decart",
+   "summary_zh": "亚马逊接近以约75亿美元收购AI初创Decart，后者提供跨硬件AI堆栈优化并自研世界模型，是AWS Trainium3早期用户。",
+   "highlights_zh": [
+    "Decart今年5月以40亿美元估值完成3亿美元B轮融资",
+    "亚马逊、英伟达、Adobe、丰田、eBay等曾参与投资",
+    "Decart在优化亚马逊自研AI芯片表现上有实际经验"
+   ],
+   "why_zh": "反映云厂商通过收购补齐芯片优化与世界模型能力的战略动向。",
+   "tags": [
+    "产品与行业",
+    "效率与系统"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-23",
+   "slot": "noon",
+   "selected_at": "2026-11-23T06:02:34+00:00",
+   "mirror_pdf": "pdf/web-d475c1afd2a5.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/797.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-140338dd874d",
+   "kind": "article",
+   "title": "蚂蚁百灵医疗健康大模型宣布开源，最轻量版一台笔记本就能部署",
+   "url": "https://www.ithome.com/1/030/784.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 23 日现场消息，在今日的蚂蚁阿福医疗健康生态大会上， 蚂蚁百灵医疗健康大模型宣布全面开源 。 蚂蚁百灵医疗健康大模型家族包含大语言模型、实时音视频模型、预测模型、安全防护模型，支持疾病未来六年的发病风险预测，疾病种类、准确率超越全球多个专用模型。 IT之家在大会现场了解到，蚂蚁百灵医疗健康大模型带来医生专业个人版多模态模型（124B）、医疗机构版医疗智能体大模型（562B），最轻量版一台笔记本就能部署。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-23T02:56:54+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/784.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "蚂蚁百灵医疗健康大模型全面开源，最轻量版笔记本可部署",
+   "summary_zh": "蚂蚁百灵医疗健康大模型家族全面开源，含124B多模态医生版与562B机构版，最轻量版可在笔记本部署。",
+   "highlights_zh": [
+    "家族覆盖大语言、实时音视频、预测、安全防护模型",
+    "支持疾病未来六年发病风险预测",
+    "最轻量版一台笔记本即可部署"
+   ],
+   "why_zh": "医疗垂直大模型开源，关注其轻量化部署与风险预测能力。",
+   "tags": [
+    "大模型",
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-23",
+   "slot": "noon",
+   "selected_at": "2026-11-23T06:02:34+00:00",
+   "mirror_pdf": "pdf/web-140338dd874d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/784.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-bab142966444",
+   "kind": "article",
+   "title": "谷歌 AI 搜索变现受阻，苹果服务业务收入增长也随之放缓",
+   "url": "https://www.ithome.com/1/030/783.htm",
+   "pdf_url": "",
+   "abstract": "IT之家 11 月 23 日消息，据科技媒体 Appleinsider 昨天报道，苹果与谷歌达成的搜索合作协议，带来的收益已不如从前。如今用户的搜索习惯已经改变，导致市场格局生变。 据报道，苹果与谷歌早已就 Safari 默认搜索引擎达成合作关系。谷歌每年向苹果支付 200 亿美元 （IT之家注：现汇率约合 1,336.27 亿元人民币） ，让 iPhone、Mac 等设备的 Safari 浏览器默认搜索引擎为谷歌， 并且谷歌需要将 Safari 搜索广告所产生的 36% 收入支付给苹果 。 如今双方的合作关系开始出现疲软迹象。用户的搜索习惯已经发生改变，遇到问题不是打开浏览器搜东西，而是直接打开 AI 软件搜索，谷歌难以从这种变化中获得与传统搜索相当的商业利益。 这种趋势已经反映在苹果的季度财务业绩中。苹果服务业务的同比增长率从 12% 放缓至 10%。苹果高管还表示，预计下一季度的增长势头将进一步减弱。与此同时，谷歌公布搜索广告收入增长放缓后股价累计下跌 18%。 Rosenblatt Securities 高级研究分析师 Barton Crockett 表示，谷歌无法像传统搜索结果那样，从“AI 模式”中获得同等水平的商业收益。尽管搜索查询量仍保持同比增长，但谷歌 AI 模式的搜索广告变现能力低于传统搜索。其搜索广告收入增长率已从上一季度的 17% 放缓至 12%。",
+   "authors": [],
+   "orgs": [
+    "IT之家"
+   ],
+   "published": "2026-11-23T02:44:11+00:00",
+   "sources": [
+    {
+     "name": "IT之家",
+     "authority": 0.6,
+     "url": "https://www.ithome.com/1/030/783.htm",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "谷歌AI搜索变现受阻，苹果服务收入增长放缓",
+   "summary_zh": "用户转向AI软件搜索，谷歌AI模式广告变现低于传统搜索，搜索广告收入增速从17%降至12%，苹果服务收入增长随之放缓。",
+   "highlights_zh": [
+    "谷歌每年向苹果支付200亿美元默认搜索费",
+    "苹果服务业务同比增长从12%放缓至10%",
+    "谷歌搜索广告收入增速从17%降至12%，股价累计跌18%"
+   ],
+   "why_zh": "揭示AI搜索对传统广告商业模式的冲击，影响行业变现预期。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.34,
+   "score_llm": 7.0,
+   "score": 0.556,
+   "date": "2026-11-23",
+   "slot": "noon",
+   "selected_at": "2026-11-23T06:02:34+00:00",
+   "mirror_pdf": "pdf/web-bab142966444.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ithome.com/1/030/783.htm"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-528d6924cf9a",
+   "kind": "article",
+   "title": "The Mythology of Conscious AI",
+   "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+   "pdf_url": "",
+   "abstract": "",
+   "authors": [],
+   "orgs": [],
+   "published": "2026-11-22T02:10:02Z",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "authority": 0.55,
+     "url": "https://news.ycombinator.com/item?id=50595537",
+     "signal": "173 pts",
+     "metric": 173
+    }
+   ],
+   "category": "资讯",
+   "lang": "en",
+   "who": "",
+   "title_zh": "意识AI的神话",
+   "summary_zh": "探讨关于AI意识的流行叙事与迷思，属观点性讨论。",
+   "highlights_zh": [
+    "讨论AI意识话题",
+    "偏哲学与观念层面",
+    "非技术进展"
+   ],
+   "why_zh": "对AI意识叙事感兴趣可读，但缺乏行业增量。",
+   "tags": [
+    "对齐与安全"
+   ],
+   "relevant": true,
+   "score_rule": 0.5619,
+   "score_llm": 5.0,
+   "score": 0.5248,
+   "date": "2026-11-23",
+   "slot": "noon",
+   "selected_at": "2026-11-23T06:02:34+00:00",
+   "mirror_pdf": "pdf/web-528d6924cf9a.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/"
+    },
+    {
+     "label": "Hacker News 讨论",
+     "url": "https://news.ycombinator.com/item?id=50595537"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-847b0c44f597",
+   "kind": "article",
+   "title": "蚂蚁阿福App新版发布：实时视频“望闻问切”功能上线，小毛小病在家也能搞定",
+   "url": "https://www.leiphone.com/category/industrynews/YXUz5sDMtx6SzE3P.html",
+   "pdf_url": "",
+   "abstract": "11月23日的蚂蚁阿福医疗健康生态大会上，健康AI蚂蚁阿福发布新版：基于蚂蚁百灵医疗健康系列模型，新增实时视频“看健康”功能，用户可与阿福视频电话，让阿福帮忙看症状、看状态、看药品、看报告，像真人一样“望闻问切”分析健康问题，并可联动医生在线把关。这意味着，日常一些不舒服或者小毛小病，用户通过“AI+真人医生”在家就能搞定。 此外，新版蚂蚁阿福App对于“AI健康管家”能力也做了升级：结合用户的健康档案或者智能健康硬件，制定个性化减重、控糖、育儿等方案，并陪伴用户达成。为了让健康管理更量化和简单，阿福也进一步扩容了所打通的健康硬件品类，在体脂秤、血糖仪、运动手表等基础上，新发布了阿福AI健康手环和阿福AI健康戒指，实现睡眠、心率、运动、女性生理周期等指标的关注和分析。 据了解，新版蚂蚁阿福App以蚂蚁百灵医疗健康系列模型LingSante为基座，包括Air和Flash系列大语言模型、健康预测模型、实时音视频框架和Med-Guard医疗安全防护模型，使阿福在专业性、前沿性和安全性上进一步提升，让用户用得更放心。这也是蚂蚁阿福首次集中发布医疗健康大模型家族，展示了其在医疗健康AI基础设施上的系统布局。 图：蚂蚁阿福宣布全新升级 AI“望闻问切”、医生在线把关，小毛小病在家也能搞定 不舒服问一问AI，去医院前先问一问AI，已经成为很多人的习惯。但人们在向AI咨询医疗健康问题时，依旧存在一些痛点，比如描述不清楚疼痛的部位，说不清楚自己的症状，或者AI回答了但依旧不放心。 为此，新版阿福基于蚂蚁百灵医疗健康系列模型，上线了实时视频“看健康”功能，用户可与阿福打视频电话，让阿福帮忙看症状、看状态、看药品、看报告。阿福会通过“望闻问切”引导用户全面、准确描述清楚身体状态，并给出分析和解答。 以皮肤问题为例，阿福可以“望”，通过视频看清皮肤状态，比如疹子是一整片还是分散颗粒状；阿福也会主动追问感受和细节，比如痒不痒、疼不疼，以准确定位用户的症状和问题，再给到回复。 借助实时视频能力，AI阿福还能做“远程查体”：通过视频捕捉面部血流变化，分析心率和呼吸。或者，结合用户佩戴的健康设备，综合心率、呼吸等数据给出更准确的分析判断。 阿福还可以视频指导用户做一些查体动作，以便更准确识别、分析关节、肌肉疼痛等方面的问题。 图：用户体验用阿福“望闻问切” 阿福的视频“看健康”功能还打通了真人医生。如果对AI的分析不放心，可让阿福邀请真人医生在线把关并给出建议。据悉，阿福是国内最早、也是唯一一个跑通了“AI+真人医生”协作模式的健康AI应用。此前在健康问答中，阿福的“医生把关”服务已经覆盖16个科室。 目前，全国用户将蚂蚁阿福App升级至最新版本后，点击右下方“阿福看健康”视频通话按钮，就可解锁这项服务。值得一提的是，阿福听得懂粤语、上海话、湖南话、四川话等10余种方言，方言用户也可以轻松与阿福对话。 “AI健康管家”能力升级，控糖、减重、育儿都能用 除了看病，不少用户还有日常健康需求。比如，减肥坚持不下去，新手爸妈的育儿疑问，父母不知道怎么管理血糖血压……我国的健康中国战略也提出，要引导居民形成健康管理能力，推动医疗卫生工作重心从“治病”转向“预防”。 为了让主动健康管理进入更多居民的日常生活，本次新版蚂蚁阿福App升级了“AI健康管家”能力，不仅能解答医疗健康问题，还能担当AI减重教练、AI育儿师、AI营养师等角色。用户和阿福说句话就能设定健康目标，阿福会结合健康档案，制定适合个人的专业方案，并通过主动关怀和提醒，陪伴用户一步步达成。 图：用户用阿福管理健康 以AI育儿师为",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-23T03:47:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/YXUz5sDMtx6SzE3P.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "蚂蚁阿福新版上线实时视频“望闻问切”",
+   "summary_zh": "蚂蚁阿福发布新版，基于百灵医疗健康模型LingSante新增实时视频看健康功能，并首次集中发布医疗大模型家族，打通AI与真人医生协作。",
+   "highlights_zh": [
+    "实时视频问诊支持看症状、看药品、看报告，可远程测心率呼吸",
+    "首次集中发布LingSante医疗大模型家族，含Med-Guard安全防护模型",
+    "AI+真人医生协作模式已覆盖16个科室，支持10余种方言"
+   ],
+   "why_zh": "医疗AI落地的代表性产品动态，可观察垂直大模型的商业化路径。",
+   "tags": [
+    "多模态",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-23",
+   "slot": "noon",
+   "selected_at": "2026-11-23T06:02:34+00:00",
+   "mirror_pdf": "pdf/web-847b0c44f597.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/YXUz5sDMtx6SzE3P.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-dde7a6178995",
+   "kind": "article",
+   "title": "Anthropic 创纪录 IPO 未能扭转 AI 市场悲观情绪，Claude 上市当天突发性能降级！靠失业焦虑撑起的万亿估值，该踩刹车了",
+   "url": "https://www.infoq.cn/article/OPbZhT0OHL4IbZz8exvA?utm_source=rss&utm_medium=article",
+   "pdf_url": "",
+   "abstract": "点击查看原文>",
+   "authors": [
+    "褚杏娟"
+   ],
+   "orgs": [
+    "InfoQ 中文"
+   ],
+   "published": "2026-11-23T09:20:56+00:00",
+   "sources": [
+    {
+     "name": "InfoQ 中文",
+     "authority": 0.7,
+     "url": "https://www.infoq.cn/article/OPbZhT0OHL4IbZz8exvA?utm_source=rss&utm_medium=article",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "Anthropic 创纪录 IPO 难挽 AI 市场悲观情绪",
+   "summary_zh": "InfoQ 报道 Anthropic 创纪录 IPO 未能扭转 AI 市场悲观情绪，Claude 上市当天出现性能降级，并质疑高估值背后的失业焦虑叙事。",
+   "highlights_zh": [
+    "头部大模型公司 IPO 与市场情绪背离",
+    "上市当天服务性能降级引发可靠性担忧",
+    "对万亿估值与叙事驱动定价提出质疑"
+   ],
+   "why_zh": "涉及头部公司资本市场与产品可靠性，但标题情绪化、事实待核。",
+   "tags": [
+    "大模型",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 6.0,
+   "score": 0.512,
+   "date": "2026-11-23",
+   "slot": "noon",
+   "selected_at": "2026-11-23T06:02:34+00:00",
+   "mirror_pdf": "pdf/web-dde7a6178995.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.infoq.cn/article/OPbZhT0OHL4IbZz8exvA?utm_source=rss&utm_medium=article"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-f5de127b7290",
+   "kind": "article",
+   "title": "iPhone 18 大更新，明年春天见！但苹果的挑战才刚刚开始",
+   "url": "https://www.ifanr.com/1690832?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "pdf_url": "",
+   "abstract": "更多的新品，也不能消除苹果的 AI 焦虑 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "authors": [
+    "彭海星"
+   ],
+   "orgs": [
+    "爱范儿"
+   ],
+   "published": "2026-11-22T22:19:08+00:00",
+   "sources": [
+    {
+     "name": "爱范儿",
+     "authority": 0.7,
+     "url": "https://www.ifanr.com/1690832?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "iPhone 18大更新明年春见，苹果AI焦虑未解",
+   "summary_zh": "爱范儿分析iPhone 18的产品更新节奏，指出新品再多也难消除苹果在AI上的焦虑。",
+   "highlights_zh": [
+    "梳理苹果明年春季新品规划",
+    "点出苹果在AI竞争中的被动处境",
+    "偏行业观察，技术增量有限"
+   ],
+   "why_zh": "关注苹果AI战略节奏的读者可读，但缺乏一手信息。",
+   "tags": [
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-11-23",
+   "slot": "noon",
+   "selected_at": "2026-11-23T06:02:34+00:00",
+   "mirror_pdf": "pdf/web-f5de127b7290.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.ifanr.com/1690832?utm_source=rss&utm_medium=rss&utm_campaign="
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-74f5d6da81c1",
+   "kind": "article",
+   "title": "派早报：Anthropic 研究员宣称用 Claude 证明黎曼猜想",
+   "url": "https://sspai.com/post/119418",
+   "pdf_url": "",
+   "abstract": "Anthropic 研究员宣称用 Claude 证明黎曼猜想 OpenAI 公布反蒸馏举措 黄仁勋据称将攻击下属作为管理方式 GTA 6 首日销售额近 40 亿美元 特斯拉升级 FSD，推出实景渲染功能 AMD 股票被做空 看看就行的简讯 少数派的近期动态 你可能错过的好文章 查看全文",
+   "authors": [
+    "少数派编辑部"
+   ],
+   "orgs": [
+    "少数派"
+   ],
+   "published": "2026-11-22T23:34:27+00:00",
+   "sources": [
+    {
+     "name": "少数派",
+     "authority": 0.7,
+     "url": "https://sspai.com/post/119418",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "派早报：Anthropic研究员宣称用Claude证明黎曼猜想",
+   "summary_zh": "少数派早报汇总Anthropic研究员宣称用Claude证明黎曼猜想、OpenAI反蒸馏举措等简讯，多为待核实消息。",
+   "highlights_zh": [
+    "Anthropic研究员宣称用Claude证明黎曼猜想（真实性存疑）",
+    "OpenAI公布反蒸馏举措",
+    "其余为消费与公司八卦类简讯"
+   ],
+   "why_zh": "黎曼猜想一条若属实将是重磅，但早报形式信息密度低，需谨慎对待。",
+   "tags": [
+    "大模型",
+    "科学AI"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-11-23",
+   "slot": "noon",
+   "selected_at": "2026-11-23T06:02:34+00:00",
+   "mirror_pdf": "pdf/web-74f5d6da81c1.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://sspai.com/post/119418"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-425df1e8d33d",
+   "kind": "article",
+   "title": "APEC 时刻，PHAIN 登上央视新闻，展现中国自研实力",
+   "url": "https://www.leiphone.com/category/industrynews/HTBJLib1WgKs3OIR.html",
+   "pdf_url": "",
+   "abstract": "央视镜头里的PHAIN数据手套：从人手操作到机器人训练数据 APEC 期间，PHAIN 梵因动力自主研发的 G03 Pro T 数据手套亮相央视新闻《聊会儿APEC》。公司首席科学家 Peter Bradley Shull（肖培德）博士参与节目，佩戴 G03 Pro T 进行机器人遥操作演示，介绍利用手套采集操作数据、支持灵巧手训练的研究用途。 “这是梵因动力的手套。”谈及灵巧手训练所需的数据，Peter 向观众介绍了手中的 G03。在全球目光聚焦 APEC 之际，PHAIN 的自研产品与科研探索一同走进国家级媒体镜头，展现中国企业在具身智能数据采集领域的创新成果。 自研工具，服务灵巧手训练 10 月 20 日，在南京举行的 2026 物理 AI 与世界模型大会上，PHAIN 正式发布 G03 Pro、G03 Pro T 数据手套及 Sense 采集层。此次出镜的 G03 Pro T 将毫米级手部位姿采集与 3D 触觉感知同步结合，记录手指、关节的运动及操作中的触觉信息，让训练数据同时涵盖动作与接触过程，为抓握、旋拧等精细操作的研究与训练提供更完整的物理交互记录。 手部运动感知与多传感器融合，也是 PHAIN 首席科学家 Peter 长期研究的方向。他同时担任上海交通大学机械与动力工程学院教授、香港中文大学（深圳）人工智能学院教授，拥有美国斯坦福大学机械工程博士学位，研究涵盖具身智能与感知、可穿戴系统及触觉。此次节目将他的科研探索与 PHAIN 的采集产品联系起来，让自研工具在机器人研究中的用途得到直观展示。 把量产验证的工程经验，带到具身智能 PHAIN 的产品研发，承接了毫厘科技集团在高精度感知、多源融合与车规工程方面的长期积累。集团智驾方案已累计搭载 超过 100 万辆车，验证里程达 50 亿公里。相关的时间同步、融合解算、标定与质量管控经验，被应用于 G03 系列的研发与交付。 高精度采集需要在批量设备中保持一致。G03 系列在常州自主生产，从传感器选型、出厂标定到生产管控，软硬件及生产流程执行车规级质量要求。通过自动化组装、标定与质量管控，PHAIN 提升同型号批量设备的精度一致性，减少设备之间的测量差异，为多套设备开展采集提供数据质量基础。 抗干扰能力则面向真实作业环境。针对金属与复杂电磁环境，G03 通过融合算法与干扰处理提升采集稳定性。结合 3D 触觉采集与精度一致性，产品从信息完整性、测量一致性和环境适应性三个方面支持高质量操作数据的获取。PHAIN 同时关注每单位有效数据的全生命周期成本，提升数据生产的效率与经济性。 立足中国自主研发，建设面向全球的数据基础设施 “共建开放普惠的人工智能创新生态”，是本届 APEC 工商领导人峰会的讨论议题之一。面向机器人与具身智能，PHAIN 选择从人类精细操作的数据采集入手，以自主研发的软硬件工具服务研发团队。 PHAIN 致力于构建面向全球 Physical AI（物理人工智能）的数据基础设施，让真实数据与仿真数据共同驱动具身智能的学习与进化。 这一目标从采集端开始。PHAIN 将时间同步、数据格式与标定信息纳入设备端的统一设计，让动作、触觉与视觉信息对应到同一次操作，减少后续对齐、转换与补全的工作。在此基础上，公司秉持“软硬结合，数据驱动”的发展战略，以“采集、理解、进化”为核心技术架构，持续推进数据融合、仿真生成与模型评测布局，探索以真实数据扩展训练场景、以评测反馈指导后续采集的技术路径。 此次亮相央视新闻，让 PHAIN 的自研成果走向更广泛的受众。2027 年 1 月 6 日至 ",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-23T02:27:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/HTBJLib1WgKs3OIR.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "PHAIN 数据手套登央视，展示具身智能数据采集",
+   "summary_zh": "PHAIN 梵因动力自研 G03 Pro T 数据手套亮相央视 APEC 节目，演示机器人遥操作与灵巧手训练数据采集，主打毫米级手部位姿与 3D 触觉同步。",
+   "highlights_zh": [
+    "G03 Pro T 同步采集手部动作与触觉信息，服务抓握、旋拧等精细操作训练",
+    "借用车规级量产与标定经验，提升多设备采集精度一致性",
+    "公司定位为面向 Physical AI 的数据基础设施，强调采集端统一时间同步与数据格式"
+   ],
+   "why_zh": "了解具身智能数据采集工具链的一手产品动态，但内容偏企业宣传。",
+   "tags": [
+    "机器人",
+    "数据与评测"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-11-23",
+   "slot": "noon",
+   "selected_at": "2026-11-23T06:02:34+00:00",
+   "mirror_pdf": "pdf/web-425df1e8d33d.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/HTBJLib1WgKs3OIR.html"
+    }
+   ],
+   "mt": false
+  },
+  {
+   "id": "web-884dcafdf0ba",
+   "kind": "article",
+   "title": "中通快递与阿里云伶鹊达成深度合作，智慧AI打造客服新体验",
+   "url": "https://www.leiphone.com/category/industrynews/MseGRLc64j2hTZxj.html",
+   "pdf_url": "",
+   "abstract": "近日，阿里云伶鹊与中通快递达成深度合作，为中通快递打造企业级AI客服，在小件末端配送场景中落地智能语音热线和智能语音外呼两大能力。上线后“呼入+外呼”日均服务量达数十万通，AI“呼入”热线带来的下单转化率提升近20%。 （AI客服产品示意图） 在“呼入”场景下，用户拨通中通快递客服热线后，伶鹊可以听懂“我要改地址”、“快递显示签收但我没收到”、“到上海要几天”等高频诉求，再结合订单的实时状态，通过多轮对话引导用户修改和确认信息，直到把问题办完。 在“外呼”场景下，快递员派件扫码前，伶鹊会自动拨通收件人电话，核对地址、取得客户授权、处理异常情况，批量完成服务。快递员只需处理真正复杂的情况，送件效率提升了数倍。 目前，伶鹊针对中通客服对话场景优化了垂直大模型，能在快递行业这种高并发、强流程的场景里准确听懂客户诉求；其次是把语音交互延迟控制在1.5秒以内，用户话音刚落，AI几乎“秒回”；再者是通过Voice Studio，为中通定制了符合行业特性、自然亲和的语音音色，让AI客服听起来更接近真人。 快递咨询量有明显的潮汐特征，早上高峰期或者双11、618大促期间，进线量比平时高出很多，AI客服的弹性扩缩容方案能在高峰期扛住突发高峰请求。中通和伶鹊合作至今，外呼场景的AI自主完成率已达100%，“呼入”热线超过50%，通话时长更短、问题解决更快。 接下来的合作中，中通还将接入伶鹊的对话分析和在线客服能力，把AI服务延伸到语音质检、转人工服务等场景。 伶鹊已在金融、汽车、物流、医疗等多个行业落地。即日起至11月底，伶鹊面向新客户推出双十一8折优惠活动，详情可见千问AI平台、双11会场。",
+   "authors": [],
+   "orgs": [
+    "雷峰网"
+   ],
+   "published": "2026-11-23T02:26:00+00:00",
+   "sources": [
+    {
+     "name": "雷峰网",
+     "authority": 0.7,
+     "url": "https://www.leiphone.com/category/industrynews/MseGRLc64j2hTZxj.html",
+     "signal": "媒体",
+     "metric": 0.0
+    }
+   ],
+   "category": "资讯",
+   "lang": "zh",
+   "who": "",
+   "title_zh": "中通联手阿里云伶鹊，AI 客服日均服务数十万通",
+   "summary_zh": "阿里云伶鹊为中通打造企业级 AI 客服，落地智能语音呼入与外呼，日均服务数十万通，呼入下单转化率提升近 20%，外呼自主完成率达 100%。",
+   "highlights_zh": [
+    "垂直大模型针对快递对话场景优化，语音交互延迟控制在 1.5 秒内",
+    "弹性扩缩容应对双11、618 等咨询潮汐高峰",
+    "后续将接入对话分析与在线客服，延伸至语音质检与转人工"
+   ],
+   "why_zh": "语音智能体在高并发强流程行业落地的量化案例，但含促销信息。",
+   "tags": [
+    "语音",
+    "智能体",
+    "产品与行业"
+   ],
+   "relevant": true,
+   "score_rule": 0.38,
+   "score_llm": 5.0,
+   "score": 0.452,
+   "date": "2026-11-23",
+   "slot": "noon",
+   "selected_at": "2026-11-23T06:02:34+00:00",
+   "mirror_pdf": "pdf/web-884dcafdf0ba.pdf",
+   "mirror_kind": "snapshot",
+   "links": [
+    {
+     "label": "原文",
+     "url": "https://www.leiphone.com/category/industrynews/MseGRLc64j2hTZxj.html"
+    }
+   ],
+   "mt": false
   }
  ],
  "brief": [
   {
-   "trend": "评测方法正从各家自说自话走向统一标尺，困惑度被推为通用进展度量。",
-   "why": "OpenAI 官方主张开发者采用统一评测方法评估新兴能力，意在掌握能力叙事与基准话语权。",
+   "trend": "评测标准正从分散基准收敛为统一标尺，困惑度被推为行业门槛",
+   "why": "OpenAI官方与首席科学家同步主张以困惑度统一评测，直指现有公开基准污染、饱和与激励扭曲的系统性失效。",
    "refs": [
-    "web-de5cd1a6d51d"
+    "web-de5cd1a6d51d",
+    "web-da5973dfe8cb",
+    "web-a4ea85254a88"
    ]
   },
   {
-   "trend": "AI 开始反攻硬核科学与硬件设计，自动化科研成为模型能力新战场。",
-   "why": "内部模型秒级攻破密码学候选算法、零先验自主设计 CPU，均指向模型从生成走向发现。",
+   "trend": "AI开始自主产出硬科技成果，科研自动化从辅助走向主导",
+   "why": "内部模型秒级攻破密码学候选算法、零先验自主设计CPU架构，均显示模型在专业领域独立完成发现与设计。",
    "refs": [
     "web-70d5b44e71ff",
     "web-b176313cbddf"
    ]
   },
   {
-   "trend": "算力扩张进入资金与产能兑现期，基础设施从承诺转向落地竞赛。",
-   "why": "Oracle 称已备齐履行 OpenAI 合同全部资金，Abilene 园区接近完工并用于 GPT-6 训练。",
+   "trend": "算力成本刚性上升正挤压AI厂商利润，基建投入回报承压",
+   "why": "AI服务器交付前涨价25%-45%，Anthropic算力采购承诺远超募资，成本与收入弹性错配成行业共性风险。",
    "refs": [
-    "web-eb129520dd79"
+    "web-08852684bfc2",
+    "web-45e86e1c93f0"
    ]
   },
   {
-   "trend": "AI 服务器交付前涨价，硬件成本压力正向上游算力采购方传导。",
-   "why": "戴尔、HPE 等交付前上调 25%-45%，内存成本自 2024 年初涨超 400% 是主因。",
+   "trend": "大厂以并购补齐AI堆栈短板，垂直模型开源加速应用下沉",
+   "why": "亚马逊拟75亿美元收购Decart补硬件优化与世界模型，蚂蚁医疗大模型全面开源至笔记本可部署。",
    "refs": [
-    "web-08852684bfc2"
+    "web-d475c1afd2a5",
+    "web-140338dd874d",
+    "web-847b0c44f597"
    ]
   },
   {
-   "trend": "智能体从概念演示下沉为企业运营与交互体验的落地形态。",
-   "why": "企业侧讨论 AI 优先运营体系，开发者侧用游戏呈现子智能体协作，应用层加速铺开。",
+   "trend": "AI搜索变现效率低于传统搜索，流量入口迁移冲击广告基本盘",
+   "why": "谷歌AI模式广告变现弱于传统搜索，搜索广告增速从17%降至12%，并连带拖累苹果服务收入。",
    "refs": [
-    "web-3c4f4993adca",
-    "web-7ead4bcfcecc",
-    "web-84f26cd67496"
+    "web-bab142966444",
+    "web-f5de127b7290"
    ]
   }
  ]
