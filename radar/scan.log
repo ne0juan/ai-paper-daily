@@ -1,10 +1,10 @@
-2026-11-22 18:22:27,325 INFO source hf_daily           -> 0 items
-2026-11-22 18:22:27,724 INFO source hackernews         -> 2 items
-2026-11-22 18:22:57,290 INFO source rss                -> 57 items
-2026-11-22 18:22:58,949 INFO source html_lists         -> 0 items
-2026-11-22 18:22:58,949 INFO source x                  -> 0 items
-2026-11-22 18:22:59,508 INFO source arxiv_search       -> 0 items
-2026-11-22 18:23:08,800 INFO source github             -> 20 items
-2026-11-22 18:23:08,801 INFO candidates: 79 (stale dropped 25, new 17)
-2026-11-22 18:23:25,387 INFO llm judged 17/17 (calls=3)
-2026-11-22 18:24:54,779 INFO run done: {"at": "2026-11-22T18:22:26+00:00", "slot": "morning", "candidates": 79, "new": 17, "stale": 25, "judged": 17, "selected": 8, "mirrored": 8, "by_category": {"技术": 1, "资讯": 7}, "by_source": {"Hacker News": 2, "量子位": 10, "极客公园": 4, "IT之家": 14, "爱范儿": 4, "雷峰网": 2, "钛媒体": 4, "InfoQ 中文": 12, "Latent Space": 2, "Stratechery": 1, "Azeem Azhar": 1, "Zvi Mowshowitz": 1, "Google Research": 1, "OpenAI": 1, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
+2026-11-23 06:02:35,135 INFO source hf_daily           -> 2 items
+2026-11-23 06:02:35,859 INFO source hackernews         -> 5 items
+2026-11-23 06:03:36,215 INFO source rss                -> 60 items
+2026-11-23 06:03:38,412 INFO source html_lists         -> 0 items
+2026-11-23 06:03:38,412 INFO source x                  -> 0 items
+2026-11-23 06:04:37,136 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
+2026-11-23 06:04:48,283 INFO source github             -> 20 items
+2026-11-23 06:04:48,284 INFO candidates: 86 (stale dropped 14, new 42)
+2026-11-23 06:05:29,034 INFO llm judged 42/42 (calls=6)
+2026-11-23 06:08:38,149 INFO run done: {"at": "2026-11-23T06:02:34+00:00", "slot": "noon", "candidates": 86, "new": 42, "stale": 14, "judged": 42, "selected": 19, "mirrored": 19, "by_category": {"技术": 2, "资讯": 14, "项目": 3}, "by_source": {"HF Daily Papers": 2, "Hacker News": 5, "OpenAI": 1, "量子位": 10, "极客公园": 4, "IT之家": 14, "爱范儿": 4, "少数派": 1, "雷峰网": 4, "钛媒体": 6, "InfoQ 中文": 12, "Azeem Azhar": 1, "Zvi Mowshowitz": 1, "科学空间": 1, "Eugene Yan": 1, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
