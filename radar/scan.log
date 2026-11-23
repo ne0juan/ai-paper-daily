@@ -1,10 +1,11 @@
-2026-11-23 06:02:35,135 INFO source hf_daily           -> 2 items
-2026-11-23 06:02:35,859 INFO source hackernews         -> 5 items
-2026-11-23 06:03:36,215 INFO source rss                -> 60 items
-2026-11-23 06:03:38,412 INFO source html_lists         -> 0 items
-2026-11-23 06:03:38,412 INFO source x                  -> 0 items
-2026-11-23 06:04:37,136 WARNING source arxiv_search failed: 429 for https://export.arxiv.org/api/query
-2026-11-23 06:04:48,283 INFO source github             -> 20 items
-2026-11-23 06:04:48,284 INFO candidates: 86 (stale dropped 14, new 42)
-2026-11-23 06:05:29,034 INFO llm judged 42/42 (calls=6)
-2026-11-23 06:08:38,149 INFO run done: {"at": "2026-11-23T06:02:34+00:00", "slot": "noon", "candidates": 86, "new": 42, "stale": 14, "judged": 42, "selected": 19, "mirrored": 19, "by_category": {"技术": 2, "资讯": 14, "项目": 3}, "by_source": {"HF Daily Papers": 2, "Hacker News": 5, "OpenAI": 1, "量子位": 10, "极客公园": 4, "IT之家": 14, "爱范儿": 4, "少数派": 1, "雷峰网": 4, "钛媒体": 6, "InfoQ 中文": 12, "Azeem Azhar": 1, "Zvi Mowshowitz": 1, "科学空间": 1, "Eugene Yan": 1, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
+2026-11-23 15:50:36,006 INFO source hf_daily           -> 4 items
+2026-11-23 15:50:36,356 INFO source hackernews         -> 5 items
+2026-11-23 15:51:12,486 INFO source rss                -> 76 items
+2026-11-23 15:51:14,173 INFO source html_lists         -> 0 items
+2026-11-23 15:51:14,173 INFO source x                  -> 0 items
+2026-11-23 15:51:15,045 INFO source arxiv_search       -> 0 items
+2026-11-23 15:51:26,432 INFO source github             -> 20 items
+2026-11-23 15:51:26,433 INFO candidates: 104 (stale dropped 4, new 62)
+2026-11-23 15:52:20,136 INFO llm judged 62/62 (calls=8)
+2026-11-23 15:52:24,938 WARNING snapshot https://stratechery.com/2026/amazon-earnings-the-chip-question-about-agents/: blocked or empty page
+2026-11-23 15:56:08,710 INFO run done: {"at": "2026-11-23T15:50:35+00:00", "slot": "evening", "candidates": 104, "new": 62, "stale": 4, "judged": 62, "selected": 20, "mirrored": 19, "by_category": {"观点": 1, "技术": 4, "资讯": 13, "项目": 2}, "by_source": {"HF Daily Papers": 4, "Hacker News": 5, "OpenAI": 1, "量子位": 10, "极客公园": 6, "IT之家": 15, "爱范儿": 8, "少数派": 1, "雷峰网": 10, "钛媒体": 5, "InfoQ 中文": 15, "Stratechery": 1, "Azeem Azhar": 1, "科学空间": 1, "Hugging Face Blog": 1, "Eugene Yan": 1, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
