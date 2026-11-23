@@ -1,12 +1,13 @@
 {
- "updated": "2026-11-23T06:02:34+00:00",
+ "updated": "2026-11-23T15:50:35+00:00",
  "days": [
   {
    "date": "2026-11-23",
-   "count": 27,
+   "count": 47,
    "slots": {
     "morning": 8,
-    "noon": 19
+    "noon": 19,
+    "evening": 20
    }
   },
   {
@@ -538,36 +539,38 @@
    }
   }
  ],
- "total": 3266,
+ "total": 3286,
  "last_run": {
-  "at": "2026-11-23T06:02:34+00:00",
-  "slot": "noon",
-  "candidates": 86,
-  "new": 42,
-  "stale": 14,
-  "judged": 42,
-  "selected": 19,
+  "at": "2026-11-23T15:50:35+00:00",
+  "slot": "evening",
+  "candidates": 104,
+  "new": 62,
+  "stale": 4,
+  "judged": 62,
+  "selected": 20,
   "mirrored": 19,
   "by_category": {
-   "技术": 2,
-   "资讯": 14,
-   "项目": 3
+   "观点": 1,
+   "技术": 4,
+   "资讯": 13,
+   "项目": 2
   },
   "by_source": {
-   "HF Daily Papers": 2,
+   "HF Daily Papers": 4,
    "Hacker News": 5,
    "OpenAI": 1,
    "量子位": 10,
-   "极客公园": 4,
-   "IT之家": 14,
-   "爱范儿": 4,
+   "极客公园": 6,
+   "IT之家": 15,
+   "爱范儿": 8,
    "少数派": 1,
-   "雷峰网": 4,
-   "钛媒体": 6,
-   "InfoQ 中文": 12,
+   "雷峰网": 10,
+   "钛媒体": 5,
+   "InfoQ 中文": 15,
+   "Stratechery": 1,
    "Azeem Azhar": 1,
-   "Zvi Mowshowitz": 1,
    "科学空间": 1,
+   "Hugging Face Blog": 1,
    "Eugene Yan": 1,
    "GitHub Trending": 13,
    "GitHub 新项目": 7
