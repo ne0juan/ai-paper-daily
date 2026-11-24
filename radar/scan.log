@@ -1,11 +1,11 @@
-2026-11-23 22:30:47,545 INFO source hf_daily           -> 6 items
-2026-11-23 22:30:49,154 INFO source hackernews         -> 6 items
-2026-11-23 22:31:34,128 INFO source rss                -> 88 items
-2026-11-23 22:31:36,052 INFO source html_lists         -> 0 items
-2026-11-23 22:31:36,052 INFO source x                  -> 0 items
-2026-11-23 22:31:36,605 INFO source arxiv_search       -> 0 items
-2026-11-23 22:31:47,827 INFO source github             -> 20 items
-2026-11-23 22:31:47,828 INFO candidates: 119 (stale dropped 14, new 55)
-2026-11-23 22:32:33,590 INFO llm judged 55/55 (calls=7)
-2026-11-23 22:32:36,331 WARNING snapshot https://jack-clark.net/2026/11/23/import-ai-482-huawei-kernel-benchmarks-airborne-drone-detection-and-a-national-labs-ai-science-benchmark/: blocked or empty page
-2026-11-23 22:34:45,967 INFO run done: {"at": "2026-11-23T22:30:47+00:00", "slot": "morning", "candidates": 119, "new": 55, "stale": 14, "judged": 55, "selected": 17, "mirrored": 16, "by_category": {"观点": 3, "资讯": 11, "技术": 3}, "by_source": {"HF Daily Papers": 6, "Hacker News": 6, "OpenAI": 4, "量子位": 10, "极客公园": 6, "IT之家": 15, "爱范儿": 8, "少数派": 1, "雷峰网": 11, "钛媒体": 5, "InfoQ 中文": 15, "Simon Willison": 1, "Jack Clark": 1, "Stratechery": 1, "Arvind Narayanan": 1, "Azeem Azhar": 1, "Timothy B. Lee": 1, "科学空间": 1, "Hugging Face Blog": 2, "Google Research": 1, "Eugene Yan": 1, "Google DeepMind": 1, "NVIDIA": 1, "GitHub Trending": 14, "GitHub 新项目": 6}, "llm": true, "translated": 0}
+2026-11-24 08:42:42,339 INFO source hf_daily           -> 13 items
+2026-11-24 08:42:42,613 INFO source hackernews         -> 4 items
+2026-11-24 08:43:18,771 INFO source rss                -> 90 items
+2026-11-24 08:43:19,839 INFO source html_lists         -> 0 items
+2026-11-24 08:43:19,839 INFO source x                  -> 0 items
+2026-11-24 08:44:47,206 WARNING source arxiv_search failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=30)
+2026-11-24 08:44:57,682 INFO source github             -> 20 items
+2026-11-24 08:44:57,684 INFO candidates: 127 (stale dropped 8, new 77)
+2026-11-24 08:46:06,884 INFO llm judged 77/77 (calls=10)
+2026-11-24 08:46:07,091 WARNING pdf arxiv-2611.29897: too large (> 25165824 bytes): https://arxiv.org/pdf/2611.29897
+2026-11-24 08:48:47,451 INFO run done: {"at": "2026-11-24T08:42:41+00:00", "slot": "noon", "candidates": 127, "new": 77, "stale": 8, "judged": 77, "selected": 19, "mirrored": 17, "by_category": {"技术": 4, "观点": 1, "项目": 1, "资讯": 13}, "by_source": {"HF Daily Papers": 13, "Hacker News": 4, "量子位": 10, "极客公园": 6, "IT之家": 18, "爱范儿": 10, "少数派": 2, "雷峰网": 14, "钛媒体": 2, "InfoQ 中文": 13, "Simon Willison": 1, "Latent Space": 1, "Jack Clark": 1, "Stratechery": 1, "Arvind Narayanan": 1, "Timothy B. Lee": 1, "科学空间": 1, "Hugging Face Blog": 2, "Google Research": 1, "OpenAI": 3, "Google DeepMind": 1, "NVIDIA": 1, "GitHub Trending": 14, "GitHub 新项目": 6}, "llm": true, "translated": 0}
