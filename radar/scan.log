@@ -1,12 +1,11 @@
-2026-11-24 21:04:01,292 INFO source hf_daily           -> 21 items
-2026-11-24 21:04:01,784 INFO source hackernews         -> 5 items
-2026-11-24 21:04:33,348 INFO source rss                -> 98 items
-2026-11-24 21:04:34,461 INFO source html_lists         -> 0 items
-2026-11-24 21:04:34,462 INFO source x                  -> 0 items
-2026-11-24 21:04:35,075 INFO source arxiv_search       -> 60 items
-2026-11-24 21:04:45,874 INFO source github             -> 20 items
-2026-11-24 21:04:45,877 INFO candidates: 202 (stale dropped 83, new 97)
-2026-11-24 21:06:06,219 INFO llm judged 95/95 (calls=12)
-2026-11-24 21:06:09,075 WARNING snapshot https://stratechery.com/2026/the-individual-exception/: blocked or empty page
-2026-11-24 21:06:13,548 WARNING pdf arxiv-2611.31215: too large (> 25165824 bytes): https://arxiv.org/pdf/2611.31215
-2026-11-24 21:06:34,004 INFO run done: {"at": "2026-11-24T21:04:00+00:00", "slot": "morning", "candidates": 202, "new": 97, "stale": 83, "judged": 95, "selected": 20, "mirrored": 18, "by_category": {"观点": 3, "项目": 2, "资讯": 11, "技术": 4}, "by_source": {"HF Daily Papers": 21, "arXiv 新论文": 60, "Hacker News": 5, "量子位": 10, "极客公园": 7, "IT之家": 11, "爱范儿": 12, "少数派": 2, "雷峰网": 13, "钛媒体": 9, "InfoQ 中文": 12, "Simon Willison": 1, "Latent Space": 1, "Jack Clark": 1, "Stratechery": 2, "Arvind Narayanan": 1, "Nathan Benaich": 1, "Tomasz Tunguz": 1, "Timothy B. Lee": 1, "科学空间": 1, "Hugging Face Blog": 3, "Google Research": 1, "OpenAI": 6, "Google DeepMind": 1, "NVIDIA": 1, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
+2026-11-25 07:16:42,766 INFO source hf_daily           -> 23 items
+2026-11-25 07:16:43,092 INFO source hackernews         -> 6 items
+2026-11-25 07:17:15,254 INFO source rss                -> 112 items
+2026-11-25 07:17:16,688 INFO source html_lists         -> 0 items
+2026-11-25 07:17:16,688 INFO source x                  -> 0 items
+2026-11-25 07:17:17,244 INFO source arxiv_search       -> 60 items
+2026-11-25 07:17:27,484 INFO source github             -> 20 items
+2026-11-25 07:17:27,485 INFO candidates: 220 (stale dropped 33, new 167)
+2026-11-25 07:19:13,007 INFO llm judged 95/100 (calls=13)
+2026-11-25 07:20:45,721 WARNING pdf arxiv-2611.33141: too large (> 25165824 bytes): https://arxiv.org/pdf/2611.33141
+2026-11-25 07:21:24,054 INFO run done: {"at": "2026-11-25T07:16:42+00:00", "slot": "noon", "candidates": 220, "new": 167, "stale": 33, "judged": 95, "selected": 21, "mirrored": 19, "by_category": {"资讯": 11, "观点": 3, "技术": 4, "项目": 3}, "by_source": {"HF Daily Papers": 23, "Hacker News": 6, "OpenAI": 8, "量子位": 10, "极客公园": 9, "IT之家": 20, "爱范儿": 11, "少数派": 2, "雷峰网": 13, "钛媒体": 8, "InfoQ 中文": 11, "Simon Willison": 2, "Dwarkesh Patel": 1, "Latent Space": 2, "Jack Clark": 1, "Stratechery": 2, "Arvind Narayanan": 1, "Nathan Benaich": 1, "Tomasz Tunguz": 1, "Zvi Mowshowitz": 1, "Timothy B. Lee": 2, "Hugging Face Blog": 2, "Google Research": 1, "METR": 1, "Google DeepMind": 1, "NVIDIA": 1, "arXiv 新论文": 60, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
