@@ -1,10 +1,11 @@
-2026-11-25 20:25:25,661 INFO source hf_daily           -> 37 items
-2026-11-25 20:25:25,916 INFO source hackernews         -> 5 items
-2026-11-25 20:25:47,997 INFO source rss                -> 92 items
-2026-11-25 20:25:50,250 INFO source html_lists         -> 0 items
-2026-11-25 20:25:50,250 INFO source x                  -> 0 items
-2026-11-25 20:25:50,619 INFO source arxiv_search       -> 60 items
-2026-11-25 20:26:00,777 INFO source github             -> 20 items
-2026-11-25 20:26:00,780 INFO candidates: 212 (stale dropped 108, new 88)
-2026-11-25 20:27:21,216 INFO llm judged 88/88 (calls=11)
-2026-11-25 20:29:08,102 INFO run done: {"at": "2026-11-25T20:25:25+00:00", "slot": "morning", "candidates": 212, "new": 88, "stale": 108, "judged": 88, "selected": 21, "mirrored": 21, "by_category": {"资讯": 11, "观点": 3, "项目": 3, "技术": 4}, "by_source": {"HF Daily Papers": 37, "arXiv 新论文": 60, "Hacker News": 5, "OpenAI": 6, "量子位": 10, "极客公园": 8, "IT之家": 7, "爱范儿": 7, "少数派": 3, "雷峰网": 15, "钛媒体": 3, "InfoQ 中文": 14, "Simon Willison": 2, "Dwarkesh Patel": 1, "Latent Space": 2, "Stratechery": 1, "Nathan Benaich": 1, "Tomasz Tunguz": 2, "Zvi Mowshowitz": 2, "Timothy B. Lee": 1, "Hugging Face Blog": 4, "Google Research": 1, "METR": 1, "Google DeepMind": 1, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
+2026-11-26 07:10:05,542 INFO source hf_daily           -> 23 items
+2026-11-26 07:10:06,216 INFO source hackernews         -> 5 items
+2026-11-26 07:10:31,031 INFO source rss                -> 92 items
+2026-11-26 07:10:32,472 INFO source html_lists         -> 0 items
+2026-11-26 07:10:32,472 INFO source x                  -> 0 items
+2026-11-26 07:11:30,481 WARNING source arxiv_search failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=30)
+2026-11-26 07:11:39,549 INFO source github             -> 20 items
+2026-11-26 07:11:39,551 INFO candidates: 140 (stale dropped 30, new 95)
+2026-11-26 07:13:11,897 INFO llm judged 80/80 (calls=10)
+2026-11-26 07:13:14,612 WARNING snapshot https://thezvi.wordpress.com/2026/11/25/claude-and-levent-alpoge-prove-the-riemann-hypothesis/: blocked or empty page
+2026-11-26 07:15:14,205 INFO run done: {"at": "2026-11-26T07:10:05+00:00", "slot": "noon", "candidates": 140, "new": 95, "stale": 30, "judged": 80, "selected": 20, "mirrored": 18, "by_category": {"观点": 4, "技术": 3, "项目": 3, "资讯": 10}, "by_source": {"HF Daily Papers": 23, "Hacker News": 5, "量子位": 10, "极客公园": 7, "IT之家": 10, "爱范儿": 6, "少数派": 3, "雷峰网": 15, "钛媒体": 9, "InfoQ 中文": 12, "Simon Willison": 1, "Dwarkesh Patel": 1, "Latent Space": 3, "Stratechery": 1, "SemiAnalysis": 1, "Nathan Benaich": 1, "Zvi Mowshowitz": 2, "Timothy B. Lee": 1, "Hugging Face Blog": 4, "Google Research": 1, "METR": 1, "OpenAI": 2, "Google DeepMind": 1, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
