@@ -1,12 +1,11 @@
-2026-11-26 14:56:15,875 INFO source hf_daily           -> 29 items
-2026-11-26 14:56:16,402 INFO source hackernews         -> 5 items
-2026-11-26 14:56:42,830 INFO source rss                -> 82 items
-2026-11-26 14:56:43,872 INFO source html_lists         -> 0 items
-2026-11-26 14:56:43,872 INFO source x                  -> 0 items
-2026-11-26 14:56:44,354 INFO source arxiv_search       -> 60 items
-2026-11-26 14:56:56,048 INFO source github             -> 20 items
-2026-11-26 14:56:56,050 INFO candidates: 193 (stale dropped 20, new 159)
-2026-11-26 14:58:33,300 INFO llm judged 100/100 (calls=13)
-2026-11-26 14:58:38,092 WARNING snapshot https://thezvi.wordpress.com/2026/11/25/claude-and-levent-alpoge-prove-the-riemann-hypothesis/: blocked or empty page
-2026-11-26 14:58:38,321 WARNING pdf arxiv-2611.33925: too large (> 25165824 bytes): https://arxiv.org/pdf/2611.33925
-2026-11-26 14:59:51,871 INFO run done: {"at": "2026-11-26T14:56:15+00:00", "slot": "evening", "candidates": 193, "new": 159, "stale": 20, "judged": 100, "selected": 22, "mirrored": 20, "by_category": {"技术": 4, "观点": 4, "项目": 3, "资讯": 10, "论文": 1}, "by_source": {"HF Daily Papers": 29, "arXiv 新论文": 60, "Hacker News": 5, "量子位": 10, "极客公园": 7, "IT之家": 9, "爱范儿": 6, "少数派": 5, "雷峰网": 11, "钛媒体": 6, "InfoQ 中文": 12, "Simon Willison": 1, "Dwarkesh Patel": 1, "Latent Space": 3, "SemiAnalysis": 1, "Zvi Mowshowitz": 2, "Timothy B. Lee": 1, "Hugging Face Blog": 6, "Google Research": 1, "GitHub Trending": 11, "GitHub 新项目": 9}, "llm": true, "translated": 0}
+2026-11-26 20:03:18,732 INFO source hf_daily           -> 30 items
+2026-11-26 20:03:18,999 INFO source hackernews         -> 7 items
+2026-11-26 20:03:55,676 INFO source rss                -> 83 items
+2026-11-26 20:03:56,872 INFO source html_lists         -> 0 items
+2026-11-26 20:03:56,872 INFO source x                  -> 0 items
+2026-11-26 20:03:57,412 INFO source arxiv_search       -> 60 items
+2026-11-26 20:04:07,079 INFO source github             -> 20 items
+2026-11-26 20:04:07,202 INFO candidates: 197 (stale dropped 93, new 91)
+2026-11-26 20:05:25,838 INFO llm judged 91/91 (calls=12)
+2026-11-26 20:05:28,534 WARNING snapshot https://thezvi.wordpress.com/2026/11/25/claude-and-levent-alpoge-prove-the-riemann-hypothesis/: blocked or empty page
+2026-11-26 20:06:14,188 INFO run done: {"at": "2026-11-26T20:03:18+00:00", "slot": "morning", "candidates": 197, "new": 91, "stale": 93, "judged": 91, "selected": 22, "mirrored": 21, "by_category": {"观点": 3, "技术": 4, "资讯": 11, "项目": 3, "论文": 1}, "by_source": {"HF Daily Papers": 30, "arXiv 新论文": 60, "Hacker News": 7, "量子位": 10, "极客公园": 7, "IT之家": 9, "爱范儿": 6, "少数派": 5, "雷峰网": 11, "钛媒体": 6, "InfoQ 中文": 12, "Simon Willison": 1, "Dwarkesh Patel": 1, "Latent Space": 3, "SemiAnalysis": 1, "Zvi Mowshowitz": 3, "Timothy B. Lee": 1, "Hugging Face Blog": 6, "Google Research": 1, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
