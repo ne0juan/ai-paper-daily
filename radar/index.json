@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T07:00:17+00:00",
+ "updated": "2026-11-27T14:52:51+00:00",
  "days": [
   {
    "date": "2026-11-27",
    "count": 22,
    "slots": {
-    "noon": 22
+    "evening": 22
    }
   },
   {
@@ -555,37 +555,36 @@
  ],
  "total": 3325,
  "last_run": {
-  "at": "2026-11-27T07:00:17+00:00",
-  "slot": "noon",
-  "candidates": 160,
-  "new": 97,
-  "stale": 51,
+  "at": "2026-11-27T14:52:51+00:00",
+  "slot": "evening",
+  "candidates": 145,
+  "new": 112,
+  "stale": 21,
   "judged": 93,
   "selected": 22,
-  "mirrored": 21,
+  "mirrored": 19,
   "by_category": {
    "观点": 3,
-   "技术": 4,
-   "项目": 3,
    "资讯": 11,
+   "项目": 3,
+   "技术": 4,
    "论文": 1
   },
   "by_source": {
    "HF Daily Papers": 18,
-   "arXiv 新论文": 48,
-   "Hacker News": 7,
+   "arXiv 新论文": 18,
+   "Hacker News": 6,
    "量子位": 10,
-   "极客公园": 5,
-   "IT之家": 13,
-   "爱范儿": 6,
+   "极客公园": 7,
+   "IT之家": 18,
+   "爱范儿": 5,
    "少数派": 3,
-   "雷峰网": 11,
-   "钛媒体": 2,
-   "InfoQ 中文": 9,
+   "雷峰网": 15,
+   "InfoQ 中文": 13,
    "阮一峰": 1,
    "Latent Space": 3,
    "SemiAnalysis": 1,
-   "Zvi Mowshowitz": 2,
+   "Zvi Mowshowitz": 3,
    "Hugging Face Blog": 5,
    "Google Research": 1,
    "GitHub Trending": 12,
