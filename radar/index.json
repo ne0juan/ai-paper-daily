@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T20:03:18+00:00",
+ "updated": "2026-11-27T07:00:17+00:00",
  "days": [
   {
    "date": "2026-11-27",
    "count": 22,
    "slots": {
-    "morning": 22
+    "noon": 22
    }
   },
   {
@@ -555,40 +555,38 @@
  ],
  "total": 3325,
  "last_run": {
-  "at": "2026-11-26T20:03:18+00:00",
-  "slot": "morning",
-  "candidates": 197,
-  "new": 91,
-  "stale": 93,
-  "judged": 91,
+  "at": "2026-11-27T07:00:17+00:00",
+  "slot": "noon",
+  "candidates": 160,
+  "new": 97,
+  "stale": 51,
+  "judged": 93,
   "selected": 22,
   "mirrored": 21,
   "by_category": {
    "观点": 3,
    "技术": 4,
-   "资讯": 11,
    "项目": 3,
+   "资讯": 11,
    "论文": 1
   },
   "by_source": {
-   "HF Daily Papers": 30,
-   "arXiv 新论文": 60,
+   "HF Daily Papers": 18,
+   "arXiv 新论文": 48,
    "Hacker News": 7,
    "量子位": 10,
-   "极客公园": 7,
-   "IT之家": 9,
+   "极客公园": 5,
+   "IT之家": 13,
    "爱范儿": 6,
-   "少数派": 5,
+   "少数派": 3,
    "雷峰网": 11,
-   "钛媒体": 6,
-   "InfoQ 中文": 12,
-   "Simon Willison": 1,
-   "Dwarkesh Patel": 1,
+   "钛媒体": 2,
+   "InfoQ 中文": 9,
+   "阮一峰": 1,
    "Latent Space": 3,
    "SemiAnalysis": 1,
-   "Zvi Mowshowitz": 3,
-   "Timothy B. Lee": 1,
-   "Hugging Face Blog": 6,
+   "Zvi Mowshowitz": 2,
+   "Hugging Face Blog": 5,
    "Google Research": 1,
    "GitHub Trending": 12,
    "GitHub 新项目": 8
