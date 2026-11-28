@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T19:52:30+00:00",
+ "updated": "2026-11-28T06:35:36+00:00",
  "days": [
   {
    "date": "2026-11-28",
    "count": 21,
    "slots": {
-    "morning": 21
+    "noon": 21
    }
   },
   {
@@ -555,39 +555,40 @@
  ],
  "total": 3324,
  "last_run": {
-  "at": "2026-11-27T19:52:30+00:00",
-  "slot": "morning",
-  "candidates": 127,
-  "new": 76,
-  "stale": 39,
-  "judged": 76,
+  "at": "2026-11-28T06:35:36+00:00",
+  "slot": "noon",
+  "candidates": 107,
+  "new": 81,
+  "stale": 15,
+  "judged": 80,
   "selected": 21,
-  "mirrored": 21,
+  "mirrored": 20,
   "by_category": {
-   "观点": 3,
-   "资讯": 11,
+   "观点": 4,
    "项目": 3,
+   "资讯": 10,
    "技术": 4
   },
   "by_source": {
-   "HF Daily Papers": 19,
-   "Hacker News": 7,
+   "HF Daily Papers": 7,
+   "Hacker News": 6,
    "量子位": 10,
    "极客公园": 7,
-   "IT之家": 13,
+   "IT之家": 14,
    "爱范儿": 3,
-   "少数派": 3,
-   "雷峰网": 15,
-   "钛媒体": 4,
-   "InfoQ 中文": 13,
+   "少数派": 2,
+   "雷峰网": 14,
+   "钛媒体": 2,
+   "InfoQ 中文": 11,
    "阮一峰": 1,
    "Dwarkesh Patel": 1,
    "Latent Space": 3,
-   "SemiAnalysis": 2,
+   "SemiAnalysis": 1,
    "Zvi Mowshowitz": 2,
-   "Hugging Face Blog": 4,
-   "GitHub Trending": 12,
-   "GitHub 新项目": 8
+   "科学空间": 1,
+   "Hugging Face Blog": 2,
+   "GitHub Trending": 13,
+   "GitHub 新项目": 7
   },
   "llm": true,
   "translated": 0

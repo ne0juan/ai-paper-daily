@@ -1,10 +1,10 @@
-2026-11-27 19:52:30,512 INFO source hf_daily           -> 19 items
-2026-11-27 19:52:30,811 INFO source hackernews         -> 7 items
-2026-11-27 19:52:51,122 INFO source rss                -> 81 items
-2026-11-27 19:52:52,978 INFO source html_lists         -> 0 items
-2026-11-27 19:52:52,978 INFO source x                  -> 0 items
-2026-11-27 19:52:54,063 INFO source arxiv_search       -> 0 items
-2026-11-27 19:53:04,233 INFO source github             -> 20 items
-2026-11-27 19:53:04,234 INFO candidates: 127 (stale dropped 39, new 76)
-2026-11-27 19:54:05,129 INFO llm judged 76/76 (calls=10)
-2026-11-27 19:55:18,757 INFO run done: {"at": "2026-11-27T19:52:30+00:00", "slot": "morning", "candidates": 127, "new": 76, "stale": 39, "judged": 76, "selected": 21, "mirrored": 21, "by_category": {"观点": 3, "资讯": 11, "项目": 3, "技术": 4}, "by_source": {"HF Daily Papers": 19, "Hacker News": 7, "量子位": 10, "极客公园": 7, "IT之家": 13, "爱范儿": 3, "少数派": 3, "雷峰网": 15, "钛媒体": 4, "InfoQ 中文": 13, "阮一峰": 1, "Dwarkesh Patel": 1, "Latent Space": 3, "SemiAnalysis": 2, "Zvi Mowshowitz": 2, "Hugging Face Blog": 4, "GitHub Trending": 12, "GitHub 新项目": 8}, "llm": true, "translated": 0}
+2026-11-28 06:35:37,121 INFO source hf_daily           -> 7 items
+2026-11-28 06:35:37,604 INFO source hackernews         -> 6 items
+2026-11-28 06:36:02,494 INFO source rss                -> 74 items
+2026-11-28 06:36:03,666 INFO source html_lists         -> 0 items
+2026-11-28 06:36:03,667 INFO source x                  -> 0 items
+2026-11-28 06:36:04,892 INFO source arxiv_search       -> 0 items
+2026-11-28 06:36:14,664 INFO source github             -> 20 items
+2026-11-28 06:36:14,665 INFO candidates: 107 (stale dropped 15, new 81)
+2026-11-28 06:37:23,335 INFO llm judged 80/80 (calls=10)
+2026-11-28 06:38:38,487 INFO run done: {"at": "2026-11-28T06:35:36+00:00", "slot": "noon", "candidates": 107, "new": 81, "stale": 15, "judged": 80, "selected": 21, "mirrored": 20, "by_category": {"观点": 4, "项目": 3, "资讯": 10, "技术": 4}, "by_source": {"HF Daily Papers": 7, "Hacker News": 6, "量子位": 10, "极客公园": 7, "IT之家": 14, "爱范儿": 3, "少数派": 2, "雷峰网": 14, "钛媒体": 2, "InfoQ 中文": 11, "阮一峰": 1, "Dwarkesh Patel": 1, "Latent Space": 3, "SemiAnalysis": 1, "Zvi Mowshowitz": 2, "科学空间": 1, "Hugging Face Blog": 2, "GitHub Trending": 13, "GitHub 新项目": 7}, "llm": true, "translated": 0}
